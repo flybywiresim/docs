@@ -1,0 +1,26 @@
+site_name: FBW Guide
+repo_url: https://github.com/flybywiresim/a32nx
+repo_name: flybywiresim/a32nx
+copyright: Copyright &copy; 2021 FlyByWire Simulations
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/FlyByWireSimulations/
+      name: FlyByWire Simulations on Facebook
+theme:
+  name: material
+  palette:
+    scheme: slate
+  features:
+   - navigation.tabs
+   - navigation.instant
+extra_css:
+  - stylesheets/extra.css
+nav:
+ - FlyByWire Simulations:
+   - 'Welcome': 'index.md'
+   - 'Donate': 'donate.md'
+ - Installation Guide:
+   - 'Downloads + Guide': 'introduction.md'
+   - 'FAQ': 'faq.md'
