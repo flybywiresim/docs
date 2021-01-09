@@ -1,4 +1,4 @@
-Please follow the information in this guide to install the FlyByWire Simulations A32NX Mod for Microsoft Flight Simulator 2020
+Please follow the information on this page to install the FlyByWire Simulations A32NX Mod for Microsoft Flight Simulator 2020
 
 ---
 

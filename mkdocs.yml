@@ -15,12 +15,15 @@ theme:
   features:
    - navigation.tabs
    - navigation.instant
+   - toc.integrate
 extra_css:
   - stylesheets/extra.css
 nav:
  - FlyByWire Simulations:
    - 'Welcome': 'index.md'
    - 'Donate': 'donate.md'
- - Installation Guide:
-   - 'Downloads + Guide': 'introduction.md'
    - 'FAQ': 'faq.md'
+ - Installation Guide:
+   - 'Downloads + Guide': 'guide.md'
+ - A32NX Information:
+   - 'Limitations': 'limitations.md'
