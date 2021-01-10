@@ -1,5 +1,28 @@
+/*Primary Thematic Colors*/
 :root {
   --md-primary-fg-color:        #00C2CB;
+  --md-primary-fg-color--dark:  #00C2CB;
   --md-primary-fg-color--light: #00C2CB;
-  --md-primary-fg-color--dark:  #90030C;
+/*Header Modifications*/
+}
+.md-typeset h1 {
+  color: #00C2CB;
+}
+h1 {
+  text-transform: uppercase;
+}
+h2 {
+  color: #00C2CB;
+  text-transform: uppercase;
+  padding-bottom: 0.5em;
+}
+h4 {
+  padding-top: 1em;
+/*Font Awesome CSS Styling*/
+}
+.discord {
+  font-size: 25px;
+}
+.github {
+  font-size: 25px;
 }
