@@ -1,7 +1,20 @@
 # Project Information
 site_name: FlyByWire Simulations Guides
-# repo_url: https://github.com/flybywiresim/a32nx
-# repo_name: flybywiresim/a32nx
+repo_url: https://github.com/Valastiri/fbw-userguide
+repo_name: Valastiri/fbw-userguide
+
+# Navigation
+# Section Containers are defined by `- Section Name:`
+# These should have NO filename.md next to them
+# Nestle all pages under neath sections as seen below:
+nav:
+ - Home: index.md
+ - Installation Guide:
+   - Downloads + Guide: guide.md
+ - A32NX Information:
+   - Limitations: limitations.md
+ - Donate: donate.md
+ - FAQ: faq.md
 
 # Configuration
 theme:
@@ -20,16 +33,6 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
-# Navigation
-nav:
- - Home: index.md
- - Installation Guide:
-   - Downloads + Guide: guide.md
- - A32NX Information:
-   - Limitations: limitations.md
- - Donate: donate.md
- - FAQ: faq.md
-
 # Extra Functions / Customizations
 extra:
   generator: false
@@ -37,3 +40,10 @@ extra:
     - icon: fontawesome/brands/facebook
       link: https://www.facebook.com/FlyByWireSimulations/
       name: FlyByWire Simulations on Facebook
+
+# Additional Markdown Extensions to use bundled icon sets
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - attr_list
