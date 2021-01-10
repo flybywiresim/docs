@@ -1,4 +1,5 @@
-# FlyByWire Simulations - A32NX Documentation
+# A32NX Documentation
+**FlyByWire Simulations** - Logo PlaceHolder
 ***
 
 Start flying with our [Installation Guide](guide.md).
@@ -26,8 +27,8 @@ Below you can find links to our GitHub and Discord where we provide support, acc
 
 If you need support or are interested in contributing to the mod please use the links below.
 
-* [**Discord**](https://discord.gg/flybywire)
+[:fontawesome-brands-discord:{: .discord } - **Discord Link**](https://discord.gg/flybywire)
 
-* [**GitHub**](https://github.com/flybywiresim/a32nx)
+[:fontawesome-brands-github:{: .github } -  **GitHub A32NX Repository**](https://github.com/flybywiresim/a32nx)
 
-* [**Issues / Feature Requests**](https://github.com/flybywiresim/a32nx/issues)
+[:fontawesome-brands-github:{: .github } - **Issues / Feature Requests**](https://github.com/flybywiresim/a32nx/issues)
