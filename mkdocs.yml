@@ -1,7 +1,7 @@
 # Project Information
 site_name: FlyByWire Simulations Guides
-# repo_url: https://github.com/flybywiresim/a32nx
-# repo_name: flybywiresim/a32nx
+repo_url: https://github.com/Valastiri/fbw-userguide
+repo_name: Valastiri/fbw-userguide
 
 # Navigation
 # Section Containers are defined by `- Section Name:`
@@ -41,6 +41,7 @@ extra:
       link: https://www.facebook.com/FlyByWireSimulations/
       name: FlyByWire Simulations on Facebook
 
+# Additional Markdown Extensions to use bundled icon sets
 markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
