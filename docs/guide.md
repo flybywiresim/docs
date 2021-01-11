@@ -14,31 +14,47 @@ Download the new A32NX installer where you can select either the Stable or Devel
 
 ### Traditional Download Methods
 
-#### Latest Stable Release
+!!! info "Methods"
 
->Current Stable Version - v0.5.2
+    === "Latest Stable Release"
 
-* This is the recommended stable release, as it has been thoroughly tested.
+        **How to download**:
 
- * [Download the stable release here.](https://github.com/flybywiresim/a32nx/releases/latest/download/flybywiresim-a32nx.zip)
+          > Current Stable Version - v0.5.2
 
- * You can see the changelog on the releases page: [View Here.](https://github.com/flybywiresim/a32nx/releases)
+          This is the recommended stable release, as it has been thoroughly tested.
 
-#### Unstable Master Branch Build
+          * [Download the stable release here.](https://github.com/flybywiresim/a32nx/releases/latest/download/flybywiresim-a32nx.zip)
+          
+          * You can see the changelog on the releases page: [View Here.](https://github.com/flybywiresim/a32nx/releases)
 
-* This has the latest features, but is much more unstable, use at your own risk.
 
- * [Download developer build here.](https://github.com/flybywiresim/a32nx/releases/download/vmaster/A32NX-master.zip)
+    === "Unstable Master Branch Build"
 
- * [View info about the latest build here.](https://github.com/flybywiresim/a32nx/releases/tag/vmaster)
+        **How to download**:
 
-#### Unstable Master Branch Build (with custom FBW)
+        This has the latest features, but is much more unstable, use at your own risk.
 
-* This version is the same as the regular master/development version, but with the WIP custom fly-by-wire system. Expect issues with flight directors/autopilot if you intend to use this version. No support will be provided via Discord.
 
-* [Download custom FBW development build here.](https://flybywiresim-packages.nyc3.cdn.digitaloceanspaces.com/vmaster-cfbw/A32NX-master-cfbw.zip)
+         * [Download developer build here.](https://github.com/flybywiresim/a32nx/releases/download/vmaster/A32NX-master.zip)
 
-* [**IMPORTANT:** view warnings and info for the custom FBW build here.](https://github.com/flybywiresim/a32nx/tree/fbw/docs)
+         * [View info about the latest build here.](https://github.com/flybywiresim/a32nx/releases/tag/vmaster)
+
+    === "Unstable Master Branch Build (with custom FBW)"
+
+        **How to download**:
+
+        This version is the same as the regular master/development version, but with the WIP custom fly-by-wire system.
+        
+        Expect issues with flight directors/autopilot if you intend to use this version. **No support will be provided via Discord.**
+
+        * [Download custom FBW development build here.](https://flybywiresim-packages.nyc3.cdn.digitaloceanspaces.com/vmaster-cfbw/A32NX-master-cfbw.zip)
+
+        * [**IMPORTANT:** view warnings and info for the custom FBW build here.](https://github.com/flybywiresim/a32nx/tree/fbw/docs)
+        
+        * This version is the same as the regular master/development version, but with the WIP custom fly-by-wire system. Expect issues with flight directors/autopilot if you intend to use this version. No support will be provided via Discord.
+
+
 
 ---
 ## Installation

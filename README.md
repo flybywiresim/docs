@@ -1,4 +1,4 @@
-# Working on FBW docs
+# FBW User Documentation
 
 Future integration to proper repository pending. Currently running this as a demo and primer for official FBW user documentation.
 
@@ -19,6 +19,15 @@ Future integration to proper repository pending. Currently running this as a dem
 │     └─ sample.md
 └─ mkdocs.yml
 ```
+## Recommended Reading
+
+Main documentation
+* [MkDocs Documentation](https://www.mkdocs.org/)
+
+Theme Documentation
+* [MkDocs-Material](https://squidfunk.github.io/mkdocs-material/)
+* References for various styling through dependency integrations
+ * [MkDocs-Material-References](https://squidfunk.github.io/mkdocs-material/reference/abbreviations/)
 
 ## Contributing
 
