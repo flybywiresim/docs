@@ -1,5 +1,7 @@
+![Logo](assets/images/FBW-Logo.png){: align=center}
+
 # A32NX Documentation
-**FlyByWire Simulations** - Logo PlaceHolder
+
 ***
 
 Start flying with our [Installation Guide](guide.md).
