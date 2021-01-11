@@ -1,7 +1,9 @@
 # Project Information
 site_name: FlyByWire Simulations Guides
-repo_url: https://github.com/Valastiri/fbw-userguide
-repo_name: Valastiri/fbw-userguide
+# repo allows for linking main repo to docs
+# Uncomment to use
+#repo_url:
+#repo_name:
 
 # Navigation
 # Section Containers are defined by `- Section Name:`
@@ -19,6 +21,8 @@ nav:
 # Configuration
 theme:
   name: material
+# Theme Overhaul configruation. Use with caution.
+# Uncomment custom_dir requires additional setup.
   #custom_dir: overrides
   logo: assets/images/FBW-Square-White.png
   palette:
@@ -43,7 +47,11 @@ extra:
 
 # Additional Markdown Extensions to use bundled icon sets
 markdown_extensions:
-  - pymdownx.emoji:
+  - admonition # Makes things pretty
+  - pymdownx.superfences # Nestled code
+  - attr_list
+  - pymdownx.tabbed #content tabs
+  - pymdownx.details # Additional features to admonition
+  - pymdownx.emoji: #Allows emjoy style inline embeds for icons
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
-  - attr_list
