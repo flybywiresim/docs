@@ -13,12 +13,30 @@ edit_uri: "" #removes edit button and icon
 # Nestle all pages under neath sections as seen below:
 nav:
  - Home: index.md
- - Installation Guide:
-   - Downloads + Guide: installation-guide/guide.md
- - A32NX Information:
-   - Limitations: a32nx-information/limitations.md
+ - Getting Started:
+   - Installation: start/installation.md
+   - Starting the plane: start/first-steps.md
+   - Common Questions: start/faq.md
+ - SDK Overview:
+   - Docker & Building: sdk/docker.md
+   - HTML/JS Gauges: sdk/html-gauges.md
+   - WASM Gauges: sdk/wasm-gauges.md
+   - XML & RNP: sdk/xml-rnp.md
+   - Sounds: sdk/sounds.md
+   - Texturing: sdk/textures.md
+ - Common Development:
+  - Blender Plugin: common-dev/blender.md
+  - EFB: common-dev/efb.md
+  - Installer: common-dev/installer.md
+  - Rust SDK: common-dev/msfs-rs.md
+  - Web API: common-dev/web-api.md
+ - A32NX Development:
+  - HTML/JS Code: a32nx-dev/html.md
+  - Local SimVars: a32nx-dev/simvars.md
+  - XML ModelBehaviors: a32nx-dev/xml.md
+  - React Overhaul: a32nx-dev/react.md  
  - Donate: donate.md
- - FAQ: faq.md
+ 
 
 # Configuration
 theme:

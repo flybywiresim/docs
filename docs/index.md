@@ -1,5 +1,3 @@
-![Logo](assets/images/FBW-Logo.png){: align=center}
-
 # A32NX Documentation
 
 ***
