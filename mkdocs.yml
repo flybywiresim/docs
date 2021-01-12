@@ -23,7 +23,8 @@ nav:
    - WASM Gauges: sdk/wasm-gauges.md
    - XML & RNP: sdk/xml-rnp.md
    - Sounds: sdk/sounds.md
-   - Texturing: sdk/textures.md
+   - Modeling: sdk/modeling.md
+   - Texturing: sdk/texturing.md
  - Common Development:
    - Blender Plugin: common-dev/blender.md
    - EFB: common-dev/efb.md
