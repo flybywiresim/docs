@@ -32,6 +32,7 @@ nav:
    - Rust SDK: common-dev/msfs-rs.md
    - Web API: common-dev/web-api.md
  - A32NX Development:
+   - Overview: a32nx-dev/overview.md
    - HTML/JS Code: a32nx-dev/html.md
    - Local SimVars: a32nx-dev/simvars.md
    - XML ModelBehaviors: a32nx-dev/xml.md
