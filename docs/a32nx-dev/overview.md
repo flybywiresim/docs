@@ -2,22 +2,22 @@
 
 ## Introduction
 
-This guide has the objective of teaching you how to contribute efficiently to the FlyByWire A32MX project.
+This guide has the objective of teaching you how to contribute efficiently to the FlyByWire A32NX project.
 
 You will learn how to:
 
-- Setup a functional development environment;
-- Get familiar with the technologies involved;
-- Understand our build process;
-- Integrate into our development cycle and best practices.
+- Setup a functional development environment
+- Get familiar with the technologies involved
+- Understand our build process
+- Integrate into our development cycle and best practices
 
 ## Setting up a development environment
 
-Working on the addon will require, at a minimum, the following software:
+Working on the addon will require at a minimum the following software:
 
 - A code editor (with at least syntax highlighting, search and replace, and support for workspaces)
 - A `git` client (along with any editor integrations of your choice)
-- Docker desktop (either WSL2 or HyperV backend work, but the latter is faster)
+- Docker Desktop (either WSL2 or HyperV backend work, but the latter is faster)
 
 Most of our team works with either Visual Studio Code or IntelliJ IDEA-based IDEs for development. Obviously, your choice is yours as long as the resulting code conforms to our standards.
 
@@ -34,7 +34,7 @@ Knowledge of all items on this list is obviously not necessary, but this can hop
 
 ## Build process
 
-Due to how Microsoft Flight Simulator package building works, it is necessary for us to maintain our own, bespoke build tools.
+Due to how Microsoft Flight Simulator package building works, it is necessary for us to maintain our own bespoke build tools.
 
 The high-level goal of the build process is to eventually have all code in the `src/` directory.
 
@@ -50,11 +50,11 @@ Commonly, the following items will be found in the source:
     ... more to come
 ```
 
-Each directory will usually contain a build.js/build.sh file that is called from a central build script located in `srcipts/build.sh`.
+Each directory will usually contain a build.js/build.sh file that is called from a central build script located in `scripts/build.sh`.
 
 A Docker container is used to ship pre-configured build environments to developers. It contains necessary library headers and compilers, and requires no user intervention at all.
 
-This build process is optimized to be run in a cloud CI pipelines on GitHub Actions. This allows us to automatically distribute development master builds to thousands of users without any manual intervention. It lets the team deploy critical fixes to production in a matter of minutes.
+This build process is optimized to be run in cloud CI pipelines on GitHub Actions. This allows us to automatically distribute development master builds to thousands of users without any manual intervention. It lets the team deploy critical fixes to production in a matter of minutes.
 
 The automatic CI pipeline is sometimes manually added to other branches in order to provide the community with experimental versions.
 
@@ -101,7 +101,7 @@ Additionally, a few practices are straight up forbidden:
 
 ### Reference material
 
-Creating a high-fidelity aircraft is a serious task that requires focus and dedication. But more importantly, it's a strive for accuracy and realism. Therefore, any change that affects the appearance or behavior of a plane needs to reference IRL documentation.
+Creating a high-fidelity aircraft is a serious task that requires focus and dedication. But more importantly, it's a strive for accuracy and realism. Therefore, any change that affects the appearance or behavior of a plane needs to reference real documentation.
 
 The maintainer team has the role of deciding if references are suitable for a change. It is understandable that new developers do not have access to in-depth resource material.
 
