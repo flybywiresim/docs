@@ -2,7 +2,7 @@
 
 ***
 
-Start flying with our [Installation Guide](guide.md).
+Start flying with our [Installation Guide](start/installation).
 
 ## Introduction
 

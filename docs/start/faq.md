@@ -1,6 +1,6 @@
 **Q: Can I download the aircraft in the current state?**
 
-A: Yes, see [Downloads](#Downloads).
+A: Yes, see [Downloads](/start/installation/#downloads).
 
 **Q: Where is the plane in-sim?**
 
@@ -8,11 +8,11 @@ A: The mod is added on top of the default A320neo from Asobo. If you want to uni
 
 **Q: What are the liveries available?**
 
-A: All liveries for the default A320 are compatible with the A32NX Mod. You can download some of your favourite liveries at [Flightsim.to](https://flightsim.to).
+A: All liveries for the default A320 are compatible with the A32NX Mod. You can download some of your favorite liveries at [Flightsim.to](https://flightsim.to).
 
 **Q: When will it be released?**
 
-A: The project is an ongoing rolling release. See [Downloads](#Downloads).
+A: The project is an ongoing rolling release. See [Downloads](/start/installation/#downloads).
 
 **Q: When is the next update?**
 
@@ -20,7 +20,7 @@ A: We don't know, since it depends on many factors. We will announce each Stable
 
 **Q: How do I join the team?**
 
-A: Head over to [Contributing.md](.github/Contributing.md) and join our Discord to get started.
+A: Head over to [A32NX Development Overview](/a32nx-dev/overview) and join our Discord to get started.
 
 **Q: Is it payware?**
 
