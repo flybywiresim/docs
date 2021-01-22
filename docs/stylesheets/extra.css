@@ -33,4 +33,30 @@ h4 {
 /*Additional Modifications*/
 .md-typeset .admonition {
   border-left: .2rem solid #00C2CB;
+  border-color: #00C2CB;
+}
+/*Admonition Question Variant*/
+/*Upper Section*/
+.md-typeset .question>.admonition-title, .md-typeset .question>summary,
+.md-typeset .faq>.admonition-title, .md-typeset .faq>summary,
+.md-typeset .help>.admonition-title, .md-typeset .help>summary {
+  border-color: #00C2CB;
+  background-color: rgba(0,184,212,.1);
+  font-size: 0.8rem;
+}
+.md-typeset .question>.admonition-title::before, .md-typeset .question>summary::before,
+.md-typeset .faq>.admonition-title::before, .md-typeset .faq>summary::before,
+.md-typeset .help>.admonition-title::before, .md-typeset .help>summary::before {
+  background-color: #00C2CB;
+  top: 0.5rem;
+}
+.md-typeset summary::after {
+  top: 0.5rem;
+}
+/*Lower Section*/
+.md-typeset .admonition.question, .md-typeset details.question,
+.md-typeset .admonition.faq, .md-typeset details.faq,
+.md-typeset .admonition.help, .md-typeset details.help {
+  border-color: #00C2CB;
+  font-size: 0.8rem;
 }
