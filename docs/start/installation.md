@@ -8,7 +8,7 @@ Please follow the information on this page to install the FlyByWire Simulations 
 
 ### A32NX Installer
 
-Download the new A32NX installer where you can select either the Stable or Developer build, and download and install the mod directly into your community folder, [download here](https://github.com/Externoak/A32NX-installer/releases/latest/download/A32NX_Downloader.zip) ([source](https://github.com/Externoak/A32NX-installer/)).
+Download the new A32NX installer where you can select either the Stable or Developer build, and download and install the mod directly into your community folder, [download here](https://api.flybywiresim.com/installer) ([source](https://github.com/flybywiresim/installer)).
 
 ---
 
@@ -25,7 +25,7 @@ Download the new A32NX installer where you can select either the Stable or Devel
           This is the recommended stable release, as it has been thoroughly tested.
 
           * [Download the stable release here.](https://github.com/flybywiresim/a32nx/releases/latest/download/flybywiresim-a32nx.zip)
-          
+
           * You can see the changelog on the releases page: [View Here.](https://github.com/flybywiresim/a32nx/releases)
 
 
@@ -45,13 +45,13 @@ Download the new A32NX installer where you can select either the Stable or Devel
         **How to download**:
 
         This version is the same as the regular master/development version, but with the WIP custom fly-by-wire system.
-        
+
         Expect issues with flight directors/autopilot if you intend to use this version. **No support will be provided via Discord.**
 
         * [Download custom FBW development build here.](https://flybywiresim-packages.nyc3.cdn.digitaloceanspaces.com/vmaster-cfbw/A32NX-master-cfbw.zip)
 
         * [**IMPORTANT:** view warnings and info for the custom FBW build here.](https://github.com/flybywiresim/a32nx/tree/fbw/docs)
-        
+
         * This version is the same as the regular master/development version, but with the WIP custom fly-by-wire system. Expect issues with flight directors/autopilot if you intend to use this version. No support will be provided via Discord.
 
 
@@ -102,7 +102,7 @@ If the above methods do not work:
 
 ## Contributing
 
-See [Contributing.md](.github/Contributing.md)
+See [A32NX Development Overview](/a32nx-dev/overview)
 
 ### Known Issues
 
@@ -114,3 +114,11 @@ See [Contributing.md](.github/Contributing.md)
 - BLEED page is not fully functional
 - Automatic ECAM page switching has minor bugs
 - APU/Engine fire covers cannot be retracted once opened
+
+## SimBrief Airframe
+
+***
+
+The FlyByWire Simulations SimBrief airframe with correct weights is available below.
+
+✈ [SimBrief Airframe Link](https://www.simbrief.com/system/dispatch.php?sharefleet=eyJ0cyI6IjE2MDU4MjAwNzg5NDYiLCJiYXNldHlwZSI6IkEzMjAiLCJjb21tZW50cyI6IkZMWSBCWSBXSVJFIiwiaWNhbyI6IkEyME4iLCJuYW1lIjoiQTMyME5FTyBGQlciLCJlbmdpbmVzIjoiTEVBUC0xQTI2IiwicmVnIjoiQTIwTiIsImZpbiI6IiIsInNlbGNhbCI6IiIsImhleGNvZGUiOiIiLCJjYXQiOiJNIiwicGVyIjoiQyIsImVxdWlwIjoiU0RFM0ZHSElSV1kiLCJ0cmFuc3BvbmRlciI6IkxCMSIsInBibiI6IkExQjFDMUQxTzFTMSIsImV4dHJhcm1rIjoiIiwibWF4cGF4IjoiMTgwIiwid2d0dW5pdHMiOiJLR1MiLCJvZXciOiI0MTAwMCIsIm16ZnciOiI2MjUwMCIsIm10b3ciOiI3OTAwMCIsIm1sdyI6IjY2MDAwIiwibWF4ZnVlbCI6IjIxMjczIiwicGF4d2d0IjoiMTA0IiwiZGVmYXVsdGNpIjoiIiwiZnVlbGZhY3RvciI6IlAwMCIsImNydWlzZW9mZnNldCI6IlAwMDAwIn0-) Credits: [@viniciusfont](https://github.com/viniciusfont)
