@@ -16,6 +16,7 @@ nav:
  - Getting Started:
    - Installation: start/installation.md
    - Starting the plane: start/first-steps.md
+   - Airliner Flying: start/airliner-flying.md
    - Common Questions: start/faq.md
  - SDK Overview:
    - Docker & Building: sdk/docker.md
@@ -36,9 +37,9 @@ nav:
    - HTML/JS Code: a32nx-dev/html.md
    - Local SimVars: a32nx-dev/simvars.md
    - XML ModelBehaviors: a32nx-dev/xml.md
-   - React Overhaul: a32nx-dev/react.md  
+   - React Overhaul: a32nx-dev/react.md
  - Donate: donate.md
- 
+
 
 # Configuration
 theme:

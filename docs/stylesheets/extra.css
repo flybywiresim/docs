@@ -60,3 +60,8 @@ h4 {
   border-color: #00C2CB;
   font-size: 0.8rem;
 }
+/*Table Styling*/
+.md-typeset table:not([class]) th {
+  font-weight: bold;
+  background-color: #00C2CB;
+}
