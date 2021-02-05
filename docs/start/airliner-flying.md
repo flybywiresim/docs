@@ -107,3 +107,89 @@ the parking stands completely blind. The A320 family are capable of everything i
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Furtwangen_Jan_05_fog_GHB.jpg/640px-Furtwangen_Jan_05_fog_GHB.jpg" width="600" />
   <figcaption>MichaelDiederich CC BY-SA 3.0</figcaption>
 </figure>
+
+---
+
+## Minimums and MDA/DH
+
+So, you have picked your approach and are flying towards the runway, but how close can you get before you decide it is a bad idea and to try again somewhere else? This is where the minimums come into effect. These are fixed values that decide how low you can go on the approach, and when you get to this altitude, you cannot go any lower until you can see the runway.
+
+| Minimum Type | Defined As | Approaches Used In |
+| :-------------: | :--------------: | :-----------: |
+| MDA <br>\(Minimum Decision Altitude\) | Altitude Above Mean Sea Level | CAT 1 / CAT 1 LTS ILS <br> VOR, NDB, RNAV, RNP, Visual, SRA </br> |
+| DH <br>\(Decision Height\)</br> | Height Above the Ground | CAT 2 ILS <br> CAT 3 A/B/C ILS </br>
+
+These are defined in feet, \(or meters if that airspace uses meter altitudes\) and can be found at the bottom of the aeronautical chart that is published for that approach. Each approach to each airport will have a separate value, changing due to obstacles, terrain, and other things that may get in the way while descending towards the runway.
+
+***
+
+### Aircraft Approach categories
+
+Now depending on the aircraft you are flying, depends on the minimums you are allowed to use. These are grouped together by the approach speed of your aircraft, while in normal landing configuration at the maximum landing weight that it is certified to do.
+
+* The higher the maximum weight approach speed means:
+* The higher category is required, which means:
+* The higher minimums are used.
+
+| Aircraft Category | Approach Speeds | Typical Aircraft |
+| :-------------: | :--------------: | :-----------: |
+| A | < 91 knots | C172 PA28 SR22 DC3 |
+| B | 91 - 120 knots | ATR72 C17 S340 TBM850 |
+| C | 121 - 140 knots | A320 A380 737 MD80 |
+| D | 141 - 165 knots | A340 A350 747 777 787 MD11 |
+| E | 166 - 210 knots | Concorde and specialist military |
+
+***
+
+### MDA/DH on a chart
+
+**Image goes here**
+
+In the above example, which is for the ILS or LOC/DME for Runway 23 at Buffalo Airport, NY in the USA, this chart uses a format designed by the Federal Aviation Administration (FAA) of the USA. Each chart designer unfortunately has slight differences compared to each other, but the basics are usually the same. So, for the above approach:
+
+**Follow up Image**
+
+In this example, for Paris Charles De Gaulle Airport, ILS or LOC/DME for runway 26L:
+
+**Chart images go here**
+
+As this chart is now designed differently, it has described the MDA as a DA for the ILS. Now this is just a difference between charts and countries, some use one terminology over the other. Also to note is the inclusion of OCH values. These are the obstacle clearance heights of all possible objects on the approach path, so if you descend below this, then there is a possibility of a collision. These OCH values are not used by the pilots in an approach but are used by the professional bodies who design the approaches as to what the minimums values should be.
+
+***
+
+## Reading a Chart
+
+### Chart Sample 1
+**Full chart \#1 image here with marks for information**
+
+1. The category of aircraft allowed to do this approach \(A, B, C & D\). <br> The altitude of the airfield (392ft) and altitude of the runway touchdown (317ft)
+2. A top-down picture of the approach (solid line), go-around (dotted line), dangerous airspace (red area), the airport layout and obsacles nearby. <br> A box in the top-left corner showing local holding waypoints (MOPAR) with speed limits (230 knots) and altitude limits (between FL070 and FL110).
+3. The transition altitude (5000ft).
+4. The missed approach described in text form.
+5. The minimums box for this approach.
+6. A box describing, depending on your groundspeed, how long it will take you to get to the runway from the first point you start to descend and what vertical speed is expected.
+7. The ILS frequency (108.35), its identifier (DSU) and that is has a DME linked to it. <br> The magnetic variation of the area (0 degrees).
+8. Special notes for this approach that may be different than normal.
+9. A side-on view of the approach, with starting altitude (4000ft), inbound course (265 degrees), slope of the glideslope (3.0) and distances to the runway for several points along the bottom.
+10. A distance-altitude check box, where the altitude you should be at for different distances is described. This is useful to check in case there are any issues with any of the radio beacons you are using.
+
+!!! info "NOTE"
+    All approach charts, no matter the designer, will have this information provided to you as a bare minimum.
+
+    However, the layout may be significantly different, so a quick 5 minutes to look at the charge can make all the difference before starting an approach.
+
+***
+
+### Chart Sample 2
+**Chart /#2 image**
+
+1. One of the starting waypoints of the arrival (RILAX), including a holding pattern with Minimum Holding Altitude (FL110) and Maximum (FL200).
+2. A radio beacon used on this arrival (Trasadingen VOR), with its identifier (TRA), frequency (114.3) and morse code (-.-..-).
+3. The airfield that this approach is designed for (Zurich), with the runway layout and an on-airfield radio beacon (Kloten VOR).
+4. The names of the arrivals and where they terminate (AMIKI).
+5. The location of the waypoint (NEGRA) defined by radio beacons (TRA & KLO), by the distance and direction from each of them (track 087 at 40.2 nautical miles/track 066 at 39.2 nautical miles).
+6. The initial approach fix or IAF (AMIKI), which is normally where the arrival will end and the approach chart will start from.
+7. A text description of the route for each arrival.
+8. Special notes for this arrival that may be diffreent than normal.
+9. A box with ATC frequency information, the airport altitude (1416 feet) and the transition level and altitude (by ATC/7000ft).
+10. The minimum safe altitude (MSA), which below this you are in danger of hitting terrain. This is traditionally based on a 25 nautical mile ring around a VOR beacon (KLO), and different segments are split up by tracks into the beacon.
