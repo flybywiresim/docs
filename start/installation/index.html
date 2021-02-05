@@ -12,7 +12,7 @@
         <link rel="canonical" href="https://docs.flybywiresim.com/start/installation/">
       
       <link rel="shortcut icon" href="../../assets/images/FBW-tail.png">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.5">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.8">
     
     
       
@@ -20,10 +20,10 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.15aa0b43.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.cb6bc1d0.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.75751829.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.39b8e14a.min.css">
         
       
     
@@ -297,7 +297,6 @@
       
       
 
-
   
   
   
@@ -312,7 +311,6 @@
       
       
       
-
 
   
   
@@ -411,18 +409,12 @@
     Contributing
   </a>
   
-    <nav class="md-nav" aria-label="Contributing">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
+</li>
+      
+        <li class="md-nav__item">
   <a href="#known-issues" class="md-nav__link">
     Known Issues
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -474,7 +466,6 @@
       
       
       
-
 
   
   
@@ -591,7 +582,6 @@
       
       
 
-
   
   
   
@@ -682,7 +672,6 @@
       
       
       
-
 
   
   
@@ -775,7 +764,6 @@
       
       
 
-
   
   
   
@@ -802,6 +790,7 @@
                 
                 <h1 id="installation-guide">Installation guide</h1>
 <p>Please follow the information on this page to install the FlyByWire Simulations A32NX Mod for Microsoft Flight Simulator 2020</p>
+<p><em>Last Update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">February 5, 2021</span></em></p>
 <hr />
 <h2 id="downloads">Downloads</h2>
 <h3 id="a32nx-installer">A32NX Installer</h3>
@@ -892,20 +881,37 @@
 <hr />
 <h2 id="contributing">Contributing</h2>
 <p>See <a href="/a32nx-dev/overview">A32NX Development Overview</a></p>
-<h3 id="known-issues">Known Issues</h3>
+<h2 id="known-issues">Known Issues</h2>
+<hr />
 <p><strong>(Please note that most issues are being worked on and some of them may even be fixed in the master branch)</strong></p>
 <ul>
 <li>Captain's PFD may occasionally turn off during flight</li>
 <li>No Smoking switch doesn't use a full range of motion.</li>
-<li>F/CTL page does not have working speedbrake integration</li>
-<li>BLEED page is not fully functional</li>
-<li>Automatic ECAM page switching has minor bugs</li>
-<li>APU/Engine fire covers cannot be retracted once opened</li>
+<li>Automatic ECAM page switching has minor bugs.</li>
+<li>AP not following flight plan (leaking input values affect, but don't disconnect the AP) <br> <em>[ Workaround: Set dead-zones for your input device higher ]</em></li>
+<li>Autopilot goes direct to RWY on APP (same with default A320) <br> <em>[ Workaround: Use DIR to a waypoint or selected heading ]</em></li>
+<li>Upper ECAM displays wrong THR levers position / N1 rating.</li>
+<li>Rudder key bindings not working (you have to set your key binding to rudder axis right and left)</li>
+<li>Wing dips on landing (due to bad transition to direct law in flare, same with default A320) <br> <em>[ Workaround: Use minimal aileron input on landing ]</em></li>
+<li>Black screens / unable to start (conflict with another mod/livery or incorrect installation of the A32NX mod, use the <a href="https://api.flybywiresim.com/installer">installer</a>)</li>
 </ul>
 <h2 id="simbrief-airframe">SimBrief Airframe</h2>
 <hr />
 <p>The FlyByWire Simulations SimBrief airframe with correct weights is available below.</p>
 <p>✈ <a href="https://www.simbrief.com/system/dispatch.php?sharefleet=eyJ0cyI6IjE2MDU4MjAwNzg5NDYiLCJiYXNldHlwZSI6IkEzMjAiLCJjb21tZW50cyI6IkZMWSBCWSBXSVJFIiwiaWNhbyI6IkEyME4iLCJuYW1lIjoiQTMyME5FTyBGQlciLCJlbmdpbmVzIjoiTEVBUC0xQTI2IiwicmVnIjoiQTIwTiIsImZpbiI6IiIsInNlbGNhbCI6IiIsImhleGNvZGUiOiIiLCJjYXQiOiJNIiwicGVyIjoiQyIsImVxdWlwIjoiU0RFM0ZHSElSV1kiLCJ0cmFuc3BvbmRlciI6IkxCMSIsInBibiI6IkExQjFDMUQxTzFTMSIsImV4dHJhcm1rIjoiIiwibWF4cGF4IjoiMTgwIiwid2d0dW5pdHMiOiJLR1MiLCJvZXciOiI0MTAwMCIsIm16ZnciOiI2MjUwMCIsIm10b3ciOiI3OTAwMCIsIm1sdyI6IjY2MDAwIiwibWF4ZnVlbCI6IjIxMjczIiwicGF4d2d0IjoiMTA0IiwiZGVmYXVsdGNpIjoiIiwiZnVlbGZhY3RvciI6IlAwMCIsImNydWlzZW9mZnNldCI6IlAwMDAwIn0-">SimBrief Airframe Link</a> Credits: <a href="https://github.com/viniciusfont">@viniciusfont</a></p>
+                
+                  
+                    
+
+<hr>
+<div class="md-source-date">
+  <small>
+    
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">February 5, 2021</span>
+    
+  </small>
+</div>
+                  
                 
               
               
@@ -982,15 +988,15 @@
       
     </div>
     
-      <script src="../../assets/javascripts/vendor.93c04032.min.js"></script>
-      <script src="../../assets/javascripts/bundle.83e5331e.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      <script src="../../assets/javascripts/vendor.18f0862e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.994580cf.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
       
       <script>
         app = initialize({
           base: "../..",
           features: ['navigation.tabs', 'navigation.instant', 'toc.integrate'],
           search: Object.assign({
-            worker: "../../assets/javascripts/worker/search.8c7e0a7e.min.js"
+            worker: "../../assets/javascripts/worker/search.9c0e82ba.min.js"
           }, typeof search !== "undefined" && search)
         })
       </script>
