@@ -55,6 +55,12 @@ theme:
    - toc.integrate
   favicon: assets/images/FBW-tail.png
 
+# Plugins
+plugins:
+  - search
+  - git-revision-date-localized:
+      type: date
+
 # Styling Front-end
 extra_css:
   - stylesheets/extra.css
