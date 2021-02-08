@@ -53,7 +53,6 @@ theme:
   features:
    - navigation.tabs
    - navigation.instant
-   - toc.integrate
   favicon: assets/images/FBW-tail.png
 
 # Plugins
@@ -81,6 +80,9 @@ markdown_extensions:
   - attr_list
   - pymdownx.tabbed #content tabs
   - pymdownx.details # Additional features to admonition
+  - pymdownx.caret 
+  - pymdownx.mark
+  - pymdownx.tilde
   - pymdownx.emoji: #Allows emjoy style inline embeds for icons
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
