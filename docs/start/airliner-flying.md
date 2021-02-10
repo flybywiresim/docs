@@ -109,7 +109,7 @@ So, you have picked your approach and are flying towards the runway, but how clo
 
 | Minimum Type | Defined As | Approaches Used In |
 | :-------------: | :--------------: | :-----------: |
-| MDA <br>\(Minimum Decision Altitude\) | Altitude Above Mean Sea Level | CAT 1 / CAT 1 LTS ILS <br> VOR, NDB, RNAV, RNP, Visual, SRA  |
+| MDA <br>\(Minimum Descent Altitude\) | Altitude Above Mean Sea Level | CAT 1 / CAT 1 LTS ILS <br> VOR, NDB, RNAV, RNP, Visual, SRA  |
 | DH <br>\(Decision Height\) | Height Above the Ground | CAT 2 ILS <br> CAT 3 A/B/C ILS
 
 These are defined in feet, \(or meters if that airspace uses meter altitudes\) and can be found at the bottom of the aeronautical chart that is published for that approach. Each approach to each airport will have a separate value, changing due to obstacles, terrain, and other things that may get in the way while descending towards the runway.
