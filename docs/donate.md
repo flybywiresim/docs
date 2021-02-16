@@ -8,6 +8,6 @@ We accept donations via our Open Collective Page. You can donate via the link be
 
 We have a special donator role on our Discord.
 
-Please provide us with a receipt for verification by contacting a moderator on discord.
+Please contact a moderator on discord and keep your receipt handy for verification. 
 
 [:fontawesome-brands-discord:{: .discord } - **Discord Link**](https://discord.gg/flybywire)
