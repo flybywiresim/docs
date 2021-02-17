@@ -28,7 +28,7 @@ A precision approach will give you full guidance, both vertically and laterally,
 ![ILS](https://upload.wikimedia.org/wikipedia/commons/6/61/ILS_diagramsimplified.png)
 <sub> ILS DiagramSimplified, U.S. Dept. of Transportation, Federal Aviation Administration, Public domain, via Wikimedia Commons
 
-Using a localiser beacon at the end of the runway, and a glisdeslop beacon at the side, the aircraft is guided along two radio signals to the touchdown point. These can be accurate enough to position the aircraft all the way down to touchdown and steer it along the runway. The pilots need to tune the ILS frequency into their aircraft's radio navigation system to receive the correct signals.
+Using a localiser beacon at the end of the runway, and a glideslope beacon at the side, the aircraft is guided along two radio signals to the touchdown point. These can be accurate enough to position the aircraft all the way down to touchdown and steer it along the runway. The pilots need to tune the ILS frequency into their aircraft's radio navigation system to receive the correct signals.
 
 #### ^^GLS^^
 
@@ -56,7 +56,7 @@ A non-precision approach officially can only give you lateral guidance to the po
 | LNAV Only | GPS or the Aircrafts position inside the flight management computers | Approaches where there are no radio beacons in the area |
 | Visual | Pilots eyeball! | Where there is no issue with the weather and the runway is already in sight |
 
-These approaches are all flown traditionally with just a beacon pointer or the localiser giving left/right corrections. With a helpful co-pilot who will be using the altitude table to check if you are high or low, you keep correcting down towards the runway. As the term non-precision hints, these approaches are nowhere near as accurate as a precision approach and as such can require quite good weather to be able to attempt them. VOR and NBD beacons are slowly disappearing due to maintenance costs and the more useful APV approaches being made available.
+These approaches are all flown traditionally with just a beacon pointer or the localiser giving left/right corrections. With a helpful co-pilot who will be using the altitude table to check if you are high or low, you keep correcting down towards the runway. As the term non-precision hints, these approaches are nowhere near as accurate as a precision approach and as such can require quite good weather to be able to attempt them. VOR and NDB beacons are slowly disappearing due to maintenance costs and the more useful APV approaches being made available.
 
 ***
 

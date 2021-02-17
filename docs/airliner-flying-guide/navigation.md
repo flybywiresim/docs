@@ -139,7 +139,7 @@ Where a SID is the route out of an airport, the STAR is the way in. Extremely si
 
 With the advent of more complex autopilots and reference systems inside aircraft, aircraft systems are now much more capable of knowing their position in three dimensions. From earlier technology such as the CIVA INS, to the complex fully automated RNP approaches without any radio guidance that we have now, the terms LNAV and VNAV have become commonplace within the airliner world.
 
-### ^^LNAV (Laternal Navigation)^^
+### ^^LNAV (Lateral Navigation)^^
 
 The earliest form of navigation would involve a compass and looking out of the cockpit windows for landmarks, or possibly setting a heading and correcting for weather over distance.
 
