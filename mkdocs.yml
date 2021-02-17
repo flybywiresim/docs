@@ -16,8 +16,13 @@ nav:
  - Getting Started:
    - Installation: start/installation.md
    - Starting the plane: start/first-steps.md
-   - Airliner Flying: start/airliner-flying.md
    - Common Questions: start/faq.md
+ - Airliner Flying Guide:
+   - Overview: airliner-flying-guide/airliner-flying.md
+   - Types of Approaches: airliner-flying-guide/approaches.md
+   - Navigation: airliner-flying-guide/navigation.md
+   - Understanding Altitude References: airliner-flying-guide/altitude-refs.md
+   - METARs/TAFs/ATIS: airliner-flying-guide/weather.md
  - SDK Overview:
    - Docker & Building: sdk/docker.md
    - HTML/JS Gauges: sdk/html-gauges.md
@@ -80,7 +85,7 @@ markdown_extensions:
   - attr_list
   - pymdownx.tabbed #content tabs
   - pymdownx.details # Additional features to admonition
-  - pymdownx.caret 
+  - pymdownx.caret
   - pymdownx.mark
   - pymdownx.tilde
   - pymdownx.emoji: #Allows emjoy style inline embeds for icons
