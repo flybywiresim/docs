@@ -171,7 +171,7 @@ Temporarily between 10Z and 18Z on the 4th, 7000m visibility in light rain, clou
 
 Probability of 30%, temporarily between 15Z and 18Z on the 4th, 3000m in rain and drizzle with clouds at 300ft.
 
-What does this all mean to us though? The weather at Heathrow for the next 24 hours or so is going to be a bit wet, with short of bursts rain bringing the visibility and cloud down, that is about it really!
+What does this all mean to us though? The weather at Heathrow for the next 24 hours or so is going to be a bit wet, with short bursts of rain bringing the visibility and cloud down, that is about it really!
 
 ![TAF1](https://upload.wikimedia.org/wikipedia/commons/d/d2/Rainbow_over_the_Airport-0-1%2B_%28617941420%29.jpg)
 <sub> Sheba_Also 43,000 photos, CC BY-SA 2.0 <https://creativecommons.org/licenses/by-sa/2.0>, via Wikimedia Commons
