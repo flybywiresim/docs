@@ -4,7 +4,7 @@
 
     Please try and remove all other mods/liveries from the community folder and test our mod again. This will help rule out mod conflicts.
 
-    <sub>Report back the result of this test.
+    <sub>Report back the result of this test on our Discord.
 
 FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim Version: 1.13.16.0*
 
