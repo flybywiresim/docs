@@ -15,7 +15,7 @@ QFE is the setting of the altimeter so that it will read the height above the ai
 
 ### ^^STD^^
 
-STD (standard) is the setting of the altimeter to reference to ISA conditions. ISA is a weather model to set a benchmark for pressure and temperature changes at altitude, and for pilots, this means a QNH of 1013 hPA or 29.92 inhg.
+STD (standard) is the setting of the altimeter to reference to ISA conditions. ISA is a weather model to set a benchmark for pressure and temperature changes at altitude, and for pilots, this means a QNH of 1013 hPA or 29.92 inHg.
 
 To fly a flight level (i.e., FL350 as opposed to 35000ft), all aircraft are required to be set to STD to remove any chances of differences between QNH causing aircraft to be closer to each other than the altimeters are indicating. The change from being on a QNH to STD happens at the transition altitude, and at the transition level vice-versa. A QNH/QFE is required to be set before landing. To set the STD in the Airbus, pull the dial that sets the altimeter, and push to return to QNH.
 

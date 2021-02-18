@@ -130,7 +130,7 @@ In the above image, you can see all the possible SID routes out of Munich Airpor
 
 ### ^^STAR (Standard Terminal Arrival Route)^^
 
-Where a SID is the route out of an airport, the STAR is the way in. Extremely similar in design to the SID, this will route you down from the end of an airway normally, until ending at the start of the approach for the runway you are landing on. A STAR will have a route that also keeps it clear of obstacles/terrain etc and give hard altitudes for the pilot to descend to when cleared. Some of these charts will also have holding patterns listed on them for controllers to keep aircraft out of the way to wait until the flow of traffic allows them to land.
+Where a SID is the route out of an airport, the STAR is the way in. Extremely similar in design to the SID, this will route you down from the end of an airway normally, until ending at the start of the approach for the runway you are landing on. A STAR will have a route that also keeps it clear of obstacles/terrain etc. and give hard altitudes for the pilot to descend to when cleared. Some of these charts will also have holding patterns listed on them for controllers to keep aircraft out of the way to wait until the flow of traffic allows them to land.
 
 ***
 
