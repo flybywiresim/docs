@@ -6,7 +6,7 @@
 
     <sub>Report back the result of this test.
 
-Sim Version: 1.13.16.0
+FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim Version: 1.13.16.0*
 
 *Last Update: {{git_revision_date_localized}}*
 
@@ -28,17 +28,19 @@ Sim Version: 1.13.16.0
     - Check your content manager for missing packages
     - Livery/Mod Conflict
 
-* Upper ECAM displays wrong THR levers position / N1 rating.
-
-* Newly added ASOBO A320 liveries are incompatible with the A32NX mod.
-
 * Rudder keybindings not working  
     * You have to set your keybinding to rudder axis right and left
 
 * Wing dips on landing (due to bad transition to direct law in flare, same with the default A320)
     * Workaround use minimal aileron input on landing
 
-* Black screens / unable to start  (conflict with another mod/livery or incorrect installation of the A32NX mod, use the installer linked at the bottom)
+* Black screens / unable to start  
+    * Conflict with another mod/livery or incorrect installation of the A32NX mod
+    * Use our [installer](https://api.flybywiresim.com/installer)
+
+* Upper ECAM displays wrong THR levers position / N1 rating.
+
+* Newly added ASOBO A320 liveries are incompatible with the A32NX mod.
 
 ---
 
