@@ -1,9 +1,14 @@
 /*Primary Thematic Colors*/
 :root {
   --md-primary-fg-color:        #00C2CB;
-  --md-primary-fg-color--dark:  #00C2CB;
+  --md-primary-fg-color--dark:  #1D1E26;
   --md-primary-fg-color--light: #00C2CB;
   --md-accent-fg-color:         #00C2CB;
+}
+
+/* Navigation Modifications */
+.md-header {
+  background: var(--md-primary-fg-color--dark);
 }
 
 /*Header Modifications*/

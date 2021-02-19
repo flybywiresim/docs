@@ -47,7 +47,7 @@ theme:
 # Theme Overhaul configruation. Use with caution.
 # Uncomment custom_dir requires additional setup.
   #custom_dir: overrides
-  logo: assets/images/FBW-Square-White.png
+  logo: assets/images/FBW-Tail.png
   palette:
     scheme: slate
   features:
