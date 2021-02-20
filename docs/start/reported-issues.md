@@ -12,6 +12,11 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
 
 ---
 
+* ILS not showing on approach / does not auto populate in RADNAV
+    - Workarounds:
+        - Manually input your ILS frequency into RADNAV. Type in the frequency found on your chart and press the key next to LS/Freq. Sample: 111.30
+        - Reselect your arrival STAR and RWY in the F-PLN page a second time.
+
 * AP not following the flight plan (leaking input values affect, but doesn't disconnect the AP)
     - Workaround: Set dead-zones for your input device higher
         - Go to your settings
