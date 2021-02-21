@@ -18,6 +18,12 @@ nav:
    - Starting the plane: start/first-steps.md
    - Reported Issues: start/reported-issues.md
    - Common Questions: start/faq.md
+ - Airliner Flying Guide:
+   - Overview: airliner-flying-guide/airliner-flying.md
+   - Types of Approaches: airliner-flying-guide/approaches.md
+   - Navigation: airliner-flying-guide/navigation.md
+   - Understanding Altitude References: airliner-flying-guide/altitude-refs.md
+   - METARs/TAFs/ATIS: airliner-flying-guide/weather.md
  - SDK Overview:
    - Docker & Building: sdk/docker.md
    - HTML/JS Gauges: sdk/html-gauges.md
@@ -53,7 +59,6 @@ theme:
   features:
    - navigation.tabs
    - navigation.instant
-   - toc.integrate
   favicon: assets/images/FBW-tail.png
 
 # Plugins
@@ -81,6 +86,9 @@ markdown_extensions:
   - attr_list
   - pymdownx.tabbed #content tabs
   - pymdownx.details # Additional features to admonition
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
   - pymdownx.emoji: #Allows emjoy style inline embeds for icons
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
