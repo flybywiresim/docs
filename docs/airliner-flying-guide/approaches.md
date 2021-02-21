@@ -63,12 +63,12 @@ These approaches are all flown traditionally with just a beacon pointer, a local
 
 ### ^^Approaches with Vertical Guidance \(APV\)^^
 
-A newer kind of approach, that uses both lateral and vertical guidance from sources such as GPS satellites, and does not require the use of radio beacons at all. At time of writing, these approaches were not yet classed as precision, as they do not quite have the accuracy required but are constantly getting better with each new design. They are now flown very similarly to an ILS and do not require much input from the pilots.
+A newer kind of approach, that uses both lateral and vertical guidance from sources such as GPS satellites, and does not require the use of radio beacons at all. At the time of writing, these approaches were not yet classed as precision, as they do not quite have the accuracy required but are constantly getting better with each new design. They are now flown very similarly to an ILS and do not require much input from the pilots.
 
 | Approach Type | Equipment Used | Used For |
 | :-------------: | :--------------: | :--------: |
-| RNP/RNAV | Satellite GPS systems and the aircrafts on board positioning system | Approaches where there are no radio beacons in the area |
-| RNP-AR | Satellite GPS systems and the aircrafts onboard positioning system | As per RNP/RNAV but allow curved approaches with margins as little as 0.1 NM. |
+| RNP/RNAV | Satellite GPS systems and the aircraft's on board positioning system | Approaches where there are no radio beacons in the area |
+| RNP-AR | Satellite GPS systems and the aircraft's onboard positioning system | As per RNP/RNAV but allow curved approaches with margins as little as 0.1 NM. |
 
 ***
 
