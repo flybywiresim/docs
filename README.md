@@ -59,7 +59,7 @@ You should be setup at this point to locally view your changes as you apply them
 
 If you want to test the build before pushing your PR upstream
 * Use `mkdocs build --no-directory-urls` and the site will be built locally under `/site/index.html` on in your local repo for user testing.
-  * `--no-directory-urls` allows for reference links when browsing the built site preventing having to find each index.html related to every `filename.md`. 
+  * `--no-directory-urls` allows usage of reference links when browsing the locally built site. Prevents having to find each index.html related to every `filename.md` to preview the relevant page. 
 
 ## Recommended Reading
 
