@@ -41,7 +41,7 @@ nav:
  - FAQ: faq.md
  ```
 
-## Testing deployment Locally
+## Testing Deployment Locally
 
 If you want to preview your build while you edit follow the instructions below. This helps preview any changes to the style the of documents or propose changes to the branding of the mkdocs.
 
