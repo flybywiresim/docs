@@ -12,6 +12,10 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
 
 ---
 
+* PFD artifical horizon freezes
+    - Workaround:
+        - Turn off PFD, wait >10 seconds and turn PFD back on.
+
 * ILS not showing on approach / does not auto populate in RADNAV
     - Workarounds:
         - Manually input your ILS frequency into RADNAV. Type in the frequency found on your chart and press the key next to LS/Freq. Sample: 111.30
