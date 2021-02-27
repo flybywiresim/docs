@@ -33,6 +33,7 @@ nav:
    - Modeling: sdk/modeling.md
    - Texturing: sdk/texturing.md
  - Common Development:
+   - Overview: common-dev/overview.md
    - Blender Plugin: common-dev/blender.md
    - EFB: common-dev/efb.md
    - Installer: common-dev/installer.md
