@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#flybywire-development-guide-overview" class="md-skip">
+        <a href="#a32nx-development-guide-overview" class="md-skip">
           Skip to content
         </a>
       
@@ -228,7 +228,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../common-dev/blender/" class="md-tabs__link">
+      <a href="../../common-dev/overview/" class="md-tabs__link">
         Common Development
       </a>
     </li>
@@ -636,6 +636,18 @@
   
   
     <li class="md-nav__item">
+      <a href="../../common-dev/overview/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../common-dev/blender/" class="md-nav__link">
         Blender Plugin
       </a>
@@ -784,29 +796,8 @@
     Build process
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#development-practices" class="md-nav__link">
-    Development practices
-  </a>
-  
-    <nav class="md-nav" aria-label="Development practices">
+    <nav class="md-nav" aria-label="Build process">
       <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#version-control" class="md-nav__link">
-    Version control
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#code-quality" class="md-nav__link">
-    Code quality
-  </a>
-  
-</li>
         
           <li class="md-nav__item">
   <a href="#reference-material" class="md-nav__link">
@@ -954,29 +945,8 @@
     Build process
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#development-practices" class="md-nav__link">
-    Development practices
-  </a>
-  
-    <nav class="md-nav" aria-label="Development practices">
+    <nav class="md-nav" aria-label="Build process">
       <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#version-control" class="md-nav__link">
-    Version control
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#code-quality" class="md-nav__link">
-    Code quality
-  </a>
-  
-</li>
         
           <li class="md-nav__item">
   <a href="#reference-material" class="md-nav__link">
@@ -1010,7 +980,7 @@
               
                 
                 
-                <h1 id="flybywire-development-guide-overview">FlyByWire Development Guide Overview</h1>
+                <h1 id="a32nx-development-guide-overview">A32NX Development Guide Overview</h1>
 <h2 id="introduction">Introduction</h2>
 <p>This guide has the objective of teaching you how to contribute efficiently to the FlyByWire A32NX project.</p>
 <p>You will learn how to:</p>
@@ -1054,38 +1024,6 @@
 <p>This build process is optimized to be run in cloud CI pipelines on GitHub Actions. This allows us to automatically distribute development master builds to thousands of users without any manual intervention. It lets the team deploy critical fixes to production in a matter of minutes.</p>
 <p>The automatic CI pipeline is sometimes manually added to other branches in order to provide the community with experimental versions.</p>
 <p>An automatic system that allows us to enable CI for specific branches might be considered in the future.</p>
-<h2 id="development-practices">Development practices</h2>
-<p>FlyByWire Simulations aims to maintain professional standards as well as industry-wide best practices in order to maximize developer productivity and deliver high-quality, tested products.</p>
-<p>This is why we adopt a set of rules and practices that create a strong framework, not only around the usage of <code>git</code> but also surrounding code quality.</p>
-<h3 id="version-control">Version control</h3>
-<p>Our version control approach maintains the following guidelines:</p>
-<ul>
-<li>Commit messages should be short and to the point. The <a href="https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-commit-message-format">Angular commit message convention</a> is often used and recommended but not enforced at the moment</li>
-<li>Merge commits are discouraged in commit histories and disallowed when merging pull requests</li>
-<li>Squash commits are exclusively used for pull request merges  </li>
-<li>One approving review from a maintainer is required to merge a pull request</li>
-<li>Positive reports from a number of QA testers (varies depending on the PR scope and size) are required before merging, unless a maintainer judges appropriate to bypass this rule</li>
-<li>Creation of draft pull requests is required when a developer wishes to get working on a project, to avoid duplicate PR situations</li>
-</ul>
-<h3 id="code-quality">Code quality</h3>
-<p>Code quality is of an utmost importance as it allows other developers to more easily find bugs and understand logic.</p>
-<p>An ESLint configuration is provided and should cover most code style rules.</p>
-<p>A few guidelines apply:</p>
-<ul>
-<li>Prefer self-documenting code over having to write tons of comments</li>
-<li>However, do not hesitate to write comments when complex logic is used</li>
-<li>Use language-specific docstring tools (JSDoc, rustdoc)</li>
-<li>Maintain separation of concerns</li>
-<li>Do not be afraid to separate code into logical blocks, even if resulting sub-functions are only used locally (while maintaining a reasonable limit)</li>
-<li>Avoid polling - prefer reactive APIs (but remain sure of not introducing state that cannot be externally read)</li>
-<li>Avoid introducing new technologies/languages without talking with the development team</li>
-</ul>
-<p>Additionally, a few practices are straight up forbidden:</p>
-<ul>
-<li>Do not use <code>async/await</code> without a good reason (it does not make code run faster unless you are calling threaded APIs like <code>fetch</code>)</li>
-<li>Do not use hungarian notation (b, m, g identifier prefixes)</li>
-<li>Do not perform business logic calculations in presentation code</li>
-</ul>
 <h3 id="reference-material">Reference material</h3>
 <p>Creating a high-fidelity aircraft is a serious task that requires focus and dedication. But more importantly, it's a strive for accuracy and realism. Therefore, any change that affects the appearance or behavior of a plane needs to reference real documentation.</p>
 <p>The maintainer team has the role of deciding if references are suitable for a change. It is understandable that new developers do not have access to in-depth resource material.</p>
@@ -1104,7 +1042,7 @@
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">January 15, 2021</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">February 28, 2021</span>
     
   </small>
 </div>
