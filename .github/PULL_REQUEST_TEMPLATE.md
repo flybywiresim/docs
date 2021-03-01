@@ -1,14 +1,8 @@
 ## Summary of Changes
-<!-- Please provide a summary of changes for this pull request, ensuring all changes are explained. -->
+<!-- Please provide a summary of changes for this pull request. Simple changes can ignore this template. -->
 
 ## Screenshots (if necessary)
 <!-- If your PR includes visual changes, images, or is a relatively large PR, screenshots should be included to provide an at-a-glance idea of changes. -->
-
-## Additional context
-<!-- Add any other context about the pull request here. -->
-
-<!-- You may optionally provide your discord username, so that we may contact you directly. -->
-Discord username (if different from GitHub):
 
 <!-- DO NOT DELETE THIS -->
 ## How to download the PR for QA/Preview
