@@ -6,7 +6,7 @@
 
     <sub>Report back the result of this test on our Discord.
 
-FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim Version: 1.13.16.0*
+FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim Version: 1.13.17.0*
 
 *Last Update: {{git_revision_date_localized}}*
 
