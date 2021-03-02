@@ -50,7 +50,7 @@ Download the new A32NX installer where you can select either the Stable or Devel
 
         Expect issues with flight directors/autopilot if you intend to use this version. **No support will be provided via Discord.**
 
-        * [Download custom FBW development build here.](https://flybywiresim-packages.nyc3.cdn.digitaloceanspaces.com/vmaster-cfbw/A32NX-master-cfbw.zip)
+        * [Download custom FBW development build here.](https://api.flybywiresim.com/api/v1/download?url=https://flybywiresim-packages.b-cdn.net/vmaster-cfbw/A32NX-master-cfbw.zip)
 
         * [**IMPORTANT:** view warnings and info for the custom FBW build here.](https://github.com/flybywiresim/a32nx/tree/fbw/docs)
 
