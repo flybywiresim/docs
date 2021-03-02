@@ -6,7 +6,7 @@
 
     <sub>Report back the result of this test on our Discord.
 
-FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim Version: 1.13.16.0*
+FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim Version: 1.13.17.0*
 
 *Last Update: {{git_revision_date_localized}}*
 
@@ -16,10 +16,9 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
     - Workaround:
         - Turn off PFD, wait >10 seconds and turn PFD back on.
 
-* ILS not showing on approach / does not auto populate in RADNAV
-    - Workarounds:
+* ILS not showing on approach / does not auto populate in RADNAV (fixed)
+    - Workarounds (may apply to 3rd party sceneries):
         - Manually input your ILS frequency into RADNAV. Type in the frequency found on your chart and press the key next to LS/Freq. Sample: 111.30
-        - Reselect your arrival STAR and RWY in the F-PLN page a second time.
 
 * AP not following the flight plan (leaking input values affect, but doesn't disconnect the AP)
     - Workaround: Set dead-zones for your input device higher
@@ -49,7 +48,7 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
 
 * Upper ECAM displays wrong THR levers position / N1 rating.
 
-* Newly added ASOBO A320 liveries are incompatible with the A32NX mod.
+* ASOBO *Aviator/Beta Club* A320 liveries are incompatible with the A32NX mod.
 
 ---
 
