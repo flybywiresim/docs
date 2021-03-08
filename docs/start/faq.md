@@ -32,7 +32,7 @@ A: Report bugs to us in the [Discord server](https://discord.gg/flybywire), unde
 
 **Q: Why is my version not the same as what I see others using?**
 
-A: We have three versions: The Stable , Developer (Master), and Experimental.
+A: We have three versions: Stable , Developer (Master), and Experimental.
 
 * The Stable version is a 'snapshot' of the development which we regard as stable with the current version of the simulator.
 
