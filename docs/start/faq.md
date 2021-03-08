@@ -32,4 +32,10 @@ A: Report bugs to us in the [Discord server](https://discord.gg/flybywire), unde
 
 **Q: Why is my version not the same as what I see others using?**
 
-A: We have two versions, the Stable and Developer (Master). The Stable version is a 'snapshot' of the development which we regard as stable with the current version of the simulator. The Developer build is updated daily and is a constant work in progress and although we test thoroughly each update, minor issues may occur from time to time. If you find this to be the case, you can report these issues in #help in discord or via GitHub Issues (Check there is not an existing issue of the same nature as yours).
+A: We have three versions: Stable , Developer (Master), and Experimental.
+
+* The Stable version is a 'snapshot' of the development which we regard as stable with the current version of the simulator.
+
+* The Developer build is updated daily and is a constant work in progress. Although we test thoroughly each update, minor issues may occur from time to time. If you find this to be the case, you can report these issues in [#help](https://discord.com/channels/738864299392630914/785976111875751956) in discord or via [GitHub Issues](https://github.com/flybywiresim/a32nx/issues/new/choose) Please check there is not an existing issue of the same nature as yours first.
+
+* The Experimental version contains the custom fly by wire system. This branch is updated whenever the 'fbw' branch on Github is updated, which is around every 12 hours. No support is provided for this version via Discord.
