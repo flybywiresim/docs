@@ -3,7 +3,7 @@
 There are various video tutorials on the [FBW YouTube Channel](https://www.youtube.com/channel/UCX-dvWU-YQi5U2UjUBtrthg), [320 Sim Pilot's channel](https://www.youtube.com/user/filanjix), or [British Avgeek's channel](https://www.youtube.com/channel/UCiRbrJu4xfX7uRtZpXdFEdg) however some of us are textual learners, or just like to see it in a text form. So here it is.
 
 #### Preliminary Cockpit Preperation.
-- Check both engione master switches are in the off position.
+- Check both engine master switches are in the off position.
 - Check engine mode selector switch is on NORM.
 - Check the lading gear lever is indeed down.
 - Turn on both batteries.
