@@ -16,7 +16,8 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
   
 * V/S mode stuck at 1500 fpm or inoperable.  
   
-* Left PFD lagging / freezing (The team is aware of the issue and is working hard to resolve it, potential fixes are being tested)  
+* Left PFD lagging / freezing 
+  - The team is aware of the issue and is working hard to resolve it, potential fixes are being tested  
   
 * PFD artificial horizon freezes
     - Workaround:
