@@ -14,7 +14,7 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
 
 * EFB not clickable
   
-* V/S mode stuck at 1500 fpm (fix in progress)
+* V/S mode stuck at 1500 fpm or not inoperable.  
   
 * Left PFD lagging / freezing (The team is aware of the issue and is working hard to resolve it, potential fixes are being tested)  
   
