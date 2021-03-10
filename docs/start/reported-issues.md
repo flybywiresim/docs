@@ -14,7 +14,7 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
 
 * EFB not clickable
 * V/S mode stuck at 1500 fpm 
-* PFD artifical horizon freezes
+* PFD artificial horizon freezes
     - Workaround:
         - Turn off PFD, wait >10 seconds and turn PFD back on.
 * ILS not showing on approach / does not auto populate in RADNAV (fixed)
