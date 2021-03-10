@@ -13,7 +13,7 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
 ---
 
 * EFB not clickable
-* V/S mode stuck at 1500 fpm 
+* V/S mode stuck at 1500 fpm (fix in progress)
 * PFD artificial horizon freezes
     - Workaround:
         - Turn off PFD, wait >10 seconds and turn PFD back on.
