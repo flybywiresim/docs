@@ -6,16 +6,22 @@
 
     <sub>Report back the result of this test on our Discord.
 
-FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim Version: 1.13.17.0*
+FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim Version: 1.14.5.0*
 
 *Last Update: {{git_revision_date_localized}}*
 
 ---
 
-* PFD artifical horizon freezes
+* EFB not clickable
+  
+* V/S mode stuck at 1500 fpm or not inoperable.  
+  
+* Left PFD lagging / freezing (The team is aware of the issue and is working hard to resolve it, potential fixes are being tested)  
+  
+* PFD artificial horizon freezes
     - Workaround:
         - Turn off PFD, wait >10 seconds and turn PFD back on.
-
+    
 * ILS not showing on approach / does not auto populate in RADNAV (fixed)
     - Workarounds (may apply to 3rd party sceneries):
         - Manually input your ILS frequency into RADNAV. Type in the frequency found on your chart and press the key next to LS/Freq. Sample: 111.30
