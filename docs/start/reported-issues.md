@@ -8,7 +8,7 @@
 
 !!! warning "After Microsoft Flight Simulator Updates"
 
-    Make sure you reinstall/redownload A32NX.
+    Make sure you reinstall A32NX. (Delete A32NX folder from your community folder.)
     
     Do this before reporting bugs. 
 
