@@ -24,7 +24,7 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
   
 * V/S mode stuck at 1500 fpm or inoperable *(fixed in development version)*
   
-* Left PFD lagging / freezing.
+* Left PFD lagging / freezing
     - The team is aware of the issue and is working hard to resolve it, potential fixes are being tested  
   
 * PFD artificial horizon freezes
@@ -61,9 +61,9 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
     * Conflict with another mod/livery or incorrect installation of the A32NX mod
     * Use our [installer](https://api.flybywiresim.com/installer)
 
-* Upper ECAM displays wrong THR levers position / N1 rating.
+* Upper ECAM displays wrong THR levers position / N1 rating
 
-* ASOBO *Aviator/Beta Club* A320 liveries are incompatible with the A32NX mod.
+* ASOBO *Aviator/Beta Club* A320 liveries are incompatible with the A32NX mod
 
 ---
 
