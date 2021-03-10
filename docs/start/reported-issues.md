@@ -12,12 +12,14 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
 
 ---
 
-* EFB not clickable
+* Wipers don't function correctly on FSX Liveries
   
-* V/S mode stuck at 1500 fpm or inoperable.  
+* EFB not clickable (fixed in development version)
   
-* Left PFD lagging / freezing 
-  - The team is aware of the issue and is working hard to resolve it, potential fixes are being tested  
+* V/S mode stuck at 1500 fpm or inoperable.  (fixed in development version)
+  
+* Left PFD lagging / freezing.
+    - The team is aware of the issue and is working hard to resolve it, potential fixes are being tested  
   
 * PFD artificial horizon freezes
     - Workaround:
