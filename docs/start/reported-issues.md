@@ -6,24 +6,34 @@
 
     <sub>Report back the result of this test on our Discord.
 
+!!! warning "After Microsoft Flight Simulator Updates"
+
+    Make sure you reinstall A32NX. (Delete A32NX folder from your community folder.)
+    
+    Do this before reporting bugs. 
+
 FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim Version: 1.14.5.0*
 
 *Last Update: {{git_revision_date_localized}}*
 
 ---
 
-* EFB not clickable
+* VOR/ADF indicators not showing on the ND (fix in testing)
+
+* Wipers don't function correctly on FSX Liveries
   
-* V/S mode stuck at 1500 fpm or inoperable.  
+* EFB not clickable *(fixed in development version)*
   
-* Left PFD lagging / freezing 
-  - The team is aware of the issue and is working hard to resolve it, potential fixes are being tested  
+* V/S mode stuck at 1500 fpm or inoperable *(fixed in development version)*
+  
+* Left PFD lagging / freezing
+    - The team is aware of the issue and is working hard to resolve it, potential fixes are being tested  
   
 * PFD artificial horizon freezes
     - Workaround:
         - Turn off PFD, wait >10 seconds and turn PFD back on.
     
-* ILS not showing on approach / does not auto populate in RADNAV (fixed)
+* ILS not showing on approach / does not auto populate in RADNAV *(fixed)*
     - Workarounds (may apply to 3rd party sceneries):
         - Manually input your ILS frequency into RADNAV. Type in the frequency found on your chart and press the key next to LS/Freq. Sample: 111.30
 
@@ -53,9 +63,9 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
     * Conflict with another mod/livery or incorrect installation of the A32NX mod
     * Use our [installer](https://api.flybywiresim.com/installer)
 
-* Upper ECAM displays wrong THR levers position / N1 rating.
+* Upper ECAM displays wrong THR levers position / N1 rating
 
-* ASOBO *Aviator/Beta Club* A320 liveries are incompatible with the A32NX mod.
+* ASOBO *Aviator/Beta Club* A320 liveries are incompatible with the A32NX mod
 
 ---
 
