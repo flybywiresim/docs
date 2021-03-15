@@ -18,7 +18,7 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
 
 ---
 
-### New
+### ^^Latest Issues^^
 
 * VOR/ADF indicators not showing on the ND (fix in testing)
 
@@ -33,7 +33,7 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
 
 ***
 
-### Common
+### ^^Common Issues^^
 
 * AP not following the flight plan (leaking input values affect, but doesn't disconnect the AP)
     - Workaround: Set dead-zones for your input device higher
@@ -67,7 +67,7 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
 
 ***
 
-### Fixed
+### ^^Fixed Issues^^
 
 * Unable to climb / flaps 1 issue *(fixed in development version)*
   
