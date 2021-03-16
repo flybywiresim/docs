@@ -16,7 +16,7 @@ Reminder the main branch is `primary`
 5. Use editor of choice to preview your .md
 7. Submit PR.
 
-**Note:** A build artifact is created during checks to facilitate PR reviews that have added images, special formatting, or the PR is large in nature.
+**Note:** A build artifact can be created on demand by applying a **Build Artifact** label to a relevant PR. This provides support for reviewing PRs with added images, special formatting, or the PR is large in nature.
 
 You may still and should test your build locally via the methods below.  
 
