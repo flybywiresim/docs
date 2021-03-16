@@ -20,8 +20,6 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
 
 ### ^^Latest Issues^^
 
-* VOR/ADF indicators not showing on the ND (fix in testing)
-
 * Wipers don't function correctly on FSX Liveries
 
 ***
@@ -62,6 +60,8 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
 
 ### ^^Fixed Issues^^
 
+* VOR/ADF indicators not showing on the ND *(fixed)*
+  
 * Unable to climb / flaps 1 issue *(fixed)*
   
 * EFB not clickable *(fixed in development version)*
