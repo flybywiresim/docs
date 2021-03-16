@@ -18,24 +18,13 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
 
 ---
 
-* VOR/ADF indicators not showing on the ND (fix in testing)
+### ^^Latest Issues^^
 
 * Wipers don't function correctly on FSX Liveries
-  
-* EFB not clickable *(fixed in development version)*
-  
-* V/S mode stuck at 1500 fpm or inoperable *(fixed in development version)*
-  
-* Left PFD lagging / freezing
-    - The team is aware of the issue and is working hard to resolve it, potential fixes are being tested  
-  
-* PFD artificial horizon freezes
-    - Workaround:
-        - Turn off PFD, wait >10 seconds and turn PFD back on.
-    
-* ILS not showing on approach / does not auto populate in RADNAV *(fixed)*
-    - Workarounds (may apply to 3rd party sceneries):
-        - Manually input your ILS frequency into RADNAV. Type in the frequency found on your chart and press the key next to LS/Freq. Sample: 111.30
+
+***
+
+### ^^Common Issues^^
 
 * AP not following the flight plan (leaking input values affect, but doesn't disconnect the AP)
     - Workaround: Set dead-zones for your input device higher
@@ -53,13 +42,13 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
     - Check your content manager for missing packages
     - Livery/Mod Conflict
 
-* Rudder keybindings not working  
+* Rudder keybindings not working
     * You have to set your keybinding to rudder axis right and left
 
 * Wing dips on landing (due to bad transition to direct law in flare, same with the default A320)
     * Workaround use minimal aileron input on landing
 
-* Black screens / unable to start  
+* Black screens / unable to start
     * Conflict with another mod/livery or incorrect installation of the A32NX mod
     * Use our [installer](https://api.flybywiresim.com/installer)
 
@@ -67,6 +56,29 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
 
 * ASOBO *Aviator/Beta Club* A320 liveries are incompatible with the A32NX mod
 
+***
+
+### ^^Fixed Issues^^
+
+* VOR/ADF indicators not showing on the ND *(fixed)*
+  
+* Unable to climb / flaps 1 issue *(fixed)*
+  
+* EFB not clickable *(fixed in development version)*
+  
+* V/S mode stuck at 1500 fpm or inoperable *(fixed)*
+    
+* ILS not showing on approach / does not auto populate in RADNAV *(fixed)*
+    - Workarounds (may apply to 3rd party sceneries):
+        - Manually input your ILS frequency into RADNAV. Type in the frequency found on your chart and press the key next to LS/Freq. Sample: 111.30
+
+* Left PFD lagging / freezing *(fixed)*
+    - The team is aware of the issue and is working hard to resolve it, potential fixes are being tested
+
+* PFD artificial horizon freezes *(fixed)*
+    - Workaround:
+        - Turn off PFD, wait >10 seconds and turn PFD back on.
+    
 ---
 
 If you are here from our social media please visit our discord for support.
