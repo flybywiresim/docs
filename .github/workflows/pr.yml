@@ -1,16 +1,13 @@
-name: PR
+name: Artifact Requested
 on:
   pull_request:
     types:
-      - opened
-      - synchronize
-      - reopened
-      - ready_for_review
+      - labeled
 
 jobs:
-  build:
+  ondemand:
     runs-on: ubuntu-latest
-    if: github.event.pull_request.draft == false
+    if: github.event.label.name == 'Build Artifact'
     steps:
       - name: Checkout Source
         uses: actions/checkout@v2
