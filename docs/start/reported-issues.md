@@ -20,6 +20,11 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
 
 ### ^^Latest Issues^^
 
+* Installer v1.1.1 potential issues:
+    - Please delete the A32NX folder from your *community folder* before installing
+    - Getting default version after using installer 
+        - Workaround: Install stable version first then switch to the version you want
+
 * Wipers don't function correctly on FSX Liveries
 
 ***
