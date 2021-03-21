@@ -21,10 +21,11 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
 ### ^^Latest Issues^^
 
 * Installer v1.1.1 potential issues:
-    - Please delete the A32NX folder from your `community folder` before installing
-    - Getting default version after using installer 
-        - Workaround: Install stable version first then switch to the version you want
-
+    - Getting default version or black screens after using installer on v1.1.0
+        - Workaround: Delete the `flybywire-aircraft-a320-neo folder`, then install it again.     
+    - Installer not showing your existing installation:
+        - This is due to the new modular system which requires a new full installation.
+        - Workaround: Install the mod again via the installer.
 * Wipers don't function correctly on FSX Liveries
 
 ***
