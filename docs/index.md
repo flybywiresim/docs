@@ -4,7 +4,7 @@
 
 Start flying with our [Installation Guide](start/installation)
 
-Having issues? See our [Reported Issues](start/reported-issues.md) page
+Having issues? See our [Reported Issues](start/reported-issues.md) 
 
 ## Introduction
 
