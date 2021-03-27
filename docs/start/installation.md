@@ -10,7 +10,7 @@ Please follow the information on this page to install the FlyByWire Simulations 
 
 ### FlyByWire Installer
 
-Download the new FlyByWire installer where you can select either the Stable, Development, or Custom FBW build. Our installer downloads and installs the mod directly into your community folder. 
+Download the new FlyByWire installer where you can select either the Stable, Development, or Experimental build. Our installer downloads and installs the mod directly into your community folder. 
 
 The following commands can be used:
 
