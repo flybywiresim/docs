@@ -56,7 +56,7 @@ These are weather reports created by an on-airport weather station and tend to b
         | | Partial (**PR**) | Fog (**FG**) |
         | | Showers (**SH**) | Smoke (**FU**) |
         | | Thunderstorm (**TS**) | Hail > 5mm (**GR**) |
-        | | | Smart Hail (**GS**) |
+        | | | Small Hail (**GS**) |
         | | | Haze (**HZ**) |
         | | | Ice Crystals (**IC**) |
         | | | Ice Pellets (**PL**) |
@@ -178,7 +178,7 @@ What does this all mean to us though? The weather at Heathrow for the next 24 ho
 
 ***
 
-## Atis (Automatic Terminal Information Service)
+## ATIS (Automatic Terminal Information Service)
 
 Now using the METAR or TAF is good for seeing what is happening at an airport throughout the day or generally as a guide, but it does not tell us much about what is happening at the airport at the time when we want to land.
 
@@ -187,6 +187,7 @@ This is where the ATIS comes in, which is a message transmitted over a specific 
 Now to make things easier, Digital ATIS is starting to be used throughout the world, which allows for the aircraft to print out a text version of the ATIS from a distance beyond the range of the radio frequency. This means that the workload in the cockpit is much less, as some ATIS radios can only be received in the descent. Here is an example of a DATIS:
 
 ![TAF2](../assets/flying-guide/METARSTAFATIS-2.jpg)
+
 <sub> Credit - Shomas [Z] Pilot on Discord "I guess you can see why I saved this one"
 
 As you can see, this is information W, Whiskey for Manchester, UK EGCC. The weather information is written out in a METAR like format, but with the addition of a QFE as well.
