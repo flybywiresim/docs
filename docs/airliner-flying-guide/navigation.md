@@ -158,7 +158,7 @@ VNAV allows for an aircraft to climb and descend using a calculated path to opti
 
 With a good database inside the MCDU, the Airbus family can fly an entire SID or STAR with no interaction from the pilots, if the data has been checked beforehand. Speed and altitude restrictions are followed to match the chart information.
 
-The Airbus Flight Management will try to calculate a 3-degree path backwards from the runway you are landing at up to the current cruising level. This will generate a point on the Navigation Display for the top of descent where if the altitude is set lower than the cruising level, and you push for DES, then the aircraft will follow the 3-degree path. The altitude always needs to be set lower than your current altitude, as the Airbus will stop at whatever is set in the FCU i.e., it will not carry on with the VNAV path. Unlike the Boeing fleet, the Airbus will also not automatically descend at ToD and requires a descent mode to be selected.
+The Airbus Flight Management will try to calculate a 3-degree path from the start of the runway you are landing on, working backwards through your flight plan to achieve all the restrictions until it arrives at your current cruising altitude. This will generate a point on the Navigation Display for the top of descent where if the altitude is set lower than the cruising level, and you push for DES, then the aircraft will follow the 3-degree path. The altitude always needs to be set lower than your current altitude, as the Airbus will stop at whatever is set in the FCU i.e., it will not carry on with the VNAV path. Unlike the Boeing fleet, the Airbus will also not automatically descend at ToD and requires a descent mode to be selected.
 
 
 ***
