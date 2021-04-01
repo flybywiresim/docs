@@ -26,6 +26,9 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
     - Installer not showing your existing installation:
         - This is due to the new modular system which requires a new full installation.
         - Workaround: Install the mod again via the installer.
+* Installer Memory Leak
+    - Commonly happens when our installer updates. Currently being investigated.
+        - Workaround: Exit out of the FlyByWire Installer. Open `Task Manager` and find FlyByWire Installer. End Task.
 * Wipers don't function correctly on FSX Liveries
 
 ***
