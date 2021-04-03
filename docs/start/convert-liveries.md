@@ -1,4 +1,4 @@
-# Converting Liveries Guide
+# Converting Liveries
 
 *This guide is provided with no guarantee of compatibility and meant for conversion of liveries for personal use.*
 
@@ -21,3 +21,14 @@ To convert a livery of your choice you have to edit three files in that livery's
         fallback.X=..\..\FlyByWire_A320_NEO\TEXTURE
 
     (X = the number of the fallback)
+
+!!! info "Step Three"
+
+    Open the model.cfg in `..\SimObjects\AirPlanes\NAME_OF_THE_LIVERY\MODEL.XXX`
+
+    The two model lines should look like this:
+
+        exterior=../../FlyByWire_A320_NEO/model/A320_NEO.xml
+        interior=../../FlyByWire_A320_NEO/model/A320_NEO_INTERIOR.xml
+
+Ready to go! Launch the sim and see if it worked. 
