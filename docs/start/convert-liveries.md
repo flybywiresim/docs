@@ -2,7 +2,7 @@
 
 *This guide is provided with no guarantee of compatibility and meant for conversion of liveries for personal use.*
 
-To convert a livery of your choice you have to edit three files in that livery's' folder. 
+To convert a livery of your choice you have to edit three files in that livery's folder. 
 
 !!! info "Step One"
 
