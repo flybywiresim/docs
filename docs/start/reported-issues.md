@@ -26,7 +26,9 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
 
     Liveries made for the default A320neo will no longer function in the new FlyByWire package. Liveries will need to be converted by their respective authors. 
 
-    While this might represent an inconvenience for a short amount of time, we are sure that 3rd party content authors will be quick to provide you with updated liveries and programs. If you wish to avoid this, we advise that you remain on your currently installed development/experimental versions for now.
+    While this might represent an inconvenience for a short amount of time, we are sure that 3rd party content authors will be quick to provide you with updated liveries and programs. *If you wish to avoid this, we advise that you remain on your currently installed development/experimental versions for now.*
+
+    **Workaround:** See our guide to [convert liveries](convert-liveries.md) 
 
 * Installer v1.1.1 potential issues:
     - Getting default version or black screens after using installer on v1.1.0
