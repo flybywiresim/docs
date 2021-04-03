@@ -12,13 +12,21 @@
     
     Do this before reporting bugs. 
 
-FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim Version: 1.14.5.0*
+FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim Version: 1.14.6.0*
 
 *Last Update: {{git_revision_date_localized}}*
 
 ---
 
 ### ^^Latest Issues^^
+
+!!! warning "Liveries incompatible due to Hard Fork"
+
+    **Will only affect new versions of the development and experimental branches for now (a 0.6.0 stable release with the fork will come within the week).**
+
+    Liveries made for the default A320neo will no longer function in the new FlyByWire package. Liveries will need to be converted by their respective authors. 
+
+    While this might represent an inconvenience for a short amount of time, we are sure that 3rd party content authors will be quick to provide you with updated liveries and programs. If you wish to avoid this, we advise that you remain on your currently installed development/experimental versions for now.
 
 * Installer v1.1.1 potential issues:
     - Getting default version or black screens after using installer on v1.1.0
