@@ -10,6 +10,10 @@
 .md-header {
   background: var(--md-primary-fg-color--dark);
 }
+.md-nav--primary .md-nav__title[for=__drawer] {
+    background: var(--md-primary-fg-color--dark);
+    overflow: visible;
+}
 
 /*Header Modifications*/
 .md-typeset h1 {
