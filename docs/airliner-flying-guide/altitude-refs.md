@@ -9,13 +9,13 @@ These codes are all related to settings on your altimeter, which can give you se
 
 Part of the “Q-codes” created by the British Government in roughly 1909, these are used to set altimeters to a specific reference. These, unlike most acronyms in the aviation world, do not have any direct meaning for their letter combinations, though some instructors think of the letters FE in QFE as being for “field elevation”.
 
-QNH is the setting of the altimeter so that it will read the altitude above mean sea level (MSL) based on the location where that altimeter reading was set. This is to say that if you landed on an ocean, this setting would cause the altimeter to read zero. QNH is the most used reference in airline operations and several airlines ban flying using a QFE reference.
+QNH is the setting of the altimeter so that it will read the altitude above mean sea level (MSL) based on the location where that altimeter reading was set. This is to say that if you landed on an ocean, this setting would cause the altimeter to read zero. QNH is the most used reference in airline operations and several airlines prohibit flying using a QFE reference.
 
 QFE is the setting of the altimeter so that it will read the height above the airport that you are landing or departing from. The aim is for the altimeter to read approximately zero when the wheels of the aircraft touch down on the runway. Very commonly used during General Aviation flying or during early instruction.
 
 ### ^^STD^^
 
-STD (standard) is the setting of the altimeter to reference to ISA conditions. ISA is an internationally developed and recognized model of how air pressure, temperature, and density vary with altitude, and for pilots, this means a QNH of 1013 hPA or 29.92 inhg. 
+STD (standard) is the setting of the altimeter to reference to ISA conditions. ISA is an internationally developed and recognized model of how air pressure, temperature, and density vary with altitude, and for pilots, this means a QNH of 1013 hPa or 29.92 in.Hg. 
 
 To fly a flight level (i.e., FL350 as opposed to 35000ft), all aircraft are required to be set to STD to remove any chances of differences between QNH causing aircraft to be closer to each other than the altimeters are indicating. The change from being on a QNH to STD happens at the transition altitude, and at the transition level vice-versa. A QNH/QFE is required to be set before landing. To set the STD in the Airbus, pull the dial that sets the altimeter, and push to return to QNH.
 
