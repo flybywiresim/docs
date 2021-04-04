@@ -154,7 +154,12 @@ To know of the position of the aircraft, the Inertial Reference Systems (IRS) ar
 
 ### ^^Vertical navigation^^
 
-VNAV allows for an aircraft to climb and descend using a calculated path to optimise the flight. It will maintain restrictions on SIDs and STARs, plan the ToD (Top of Descent) and minimise fuel burn while still allowing for the aircraft to get into a position to land. For VNAV to work correctly, the aircraft’s computer systems must be correctly set with the correct weights, route, weather and performance information.
+VNAV allows for an aircraft to climb and descend using a calculated path to optimise the flight.  It will maintain restrictions on SIDs and STARs, plan the ToD (Top of Descent) and minimise fuel burn while still allowing for the aircraft to get into a position to land. For VNAV to work correctly, the aircraft’s computer systems must be correctly set with the correct weights, route, weather and performance information.
+
+With a good database inside the MCDU, the Airbus family can fly an entire SID or STAR with no interaction from the pilots, if the data has been checked beforehand. Speed and altitude restrictions are followed to match the chart information.
+
+The Airbus Flight Management will try to calculate a 3-degree path from the start of the runway you are landing on, working backwards through your flight plan to achieve all the restrictions until it arrives at your current cruising altitude. This will generate a point on the Navigation Display for the top of descent where if the altitude is set lower than the cruising level, and you push for DES, then the aircraft will follow the 3-degree path. The altitude always needs to be set lower than your current altitude, as the Airbus will stop at whatever is set in the FCU i.e., it will not carry on with the VNAV path. Unlike the Boeing fleet, the Airbus will also not automatically descend at ToD and requires a descent mode to be selected.
+
 
 ***
 
