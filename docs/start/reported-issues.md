@@ -30,6 +30,11 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
 
     **Workaround:** See our guide to [convert liveries](convert-liveries.md) 
 
+* Package separation or "fork" issues:
+    -  Default aircraft showing
+        - Select the *FlyByWire Simulations A320neo (LEAP)* in the aircraft selector instead of the Asobo one. 
+    - Invisible plane / Sounds not working / Installation issues
+        - Reinstall A32NX, delete any old version from your Community Folder.
 * Installer v1.1.1 potential issues:
     - Getting default version or black screens after using installer on v1.1.0
         - Workaround: Delete the `flybywire-aircraft-a320-neo folder`, then install it again.     
