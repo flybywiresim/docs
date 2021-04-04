@@ -33,17 +33,11 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
 
     **Workaround:** See our guide to [convert liveries](convert-liveries.md) 
 
-* Package separation or "fork" issues:
+* Package separation or "fork" issues (*Development or Experimental*):
     -  Default aircraft showing
-        - Select the *FlyByWire Simulations A320neo (LEAP)* in the aircraft selector instead of the Asobo one. 
+        - Solution: Select the *FlyByWire Simulations A320neo (LEAP)* in the aircraft selector instead of the Asobo one. 
     - Invisible plane / Sounds not working / Installation issues
-        - Reinstall A32NX, delete any old version from your Community Folder.
-* Installer v1.1.1 potential issues:
-    - Getting default version or black screens after using installer on v1.1.0
-        - Workaround: Delete the `flybywire-aircraft-a320-neo folder`, then install it again.     
-    - Installer not showing your existing installation:
-        - This is due to the new modular system which requires a new full installation.
-        - Workaround: Install the mod again via the installer.
+        - Workaround: Reinstall A32NX, delete any old version from your Community Folder.
 * Installer Memory Leak
     - Commonly happens when our installer updates. Currently being investigated.
         - Workaround: Exit out of the FlyByWire Installer. Open `Task Manager` and find FlyByWire Installer. End Task.
@@ -86,6 +80,13 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
 ***
 
 ### ^^Fixed Issues^^
+
+* Installer v1.1.1 potential issues: *(fixed)*
+    - Getting default version or black screens after using installer on v1.1.0
+        - Workaround: Delete the `flybywire-aircraft-a320-neo folder`, then install it again.
+    - Installer not showing your existing installation:
+        - This is due to the new modular system which requires a new full installation.
+        - Workaround: Install the mod again via the installer.
 
 * VOR/ADF indicators not showing on the ND *(fixed)*
   
