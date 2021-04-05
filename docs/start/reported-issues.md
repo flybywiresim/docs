@@ -37,7 +37,7 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
     -  Default aircraft showing
         - Solution: Select the *FlyByWire Simulations A320neo (LEAP)* in the aircraft selector instead of the Asobo one. 
     - Invisible plane / Sounds not working / Installation issues
-        - Workaround: Reinstall A32NX, delete any old version from your Community Folder.
+        - Workaround: Reinstall A32NX, delete any old version from your Community Folder. Ensure you are on Installer v1.1.4.
 * Installer Memory Leak
     - Commonly happens when our installer updates. Currently being investigated.
         - Workaround: Exit out of the FlyByWire Installer. Open `Task Manager` and find FlyByWire Installer. End Task.
