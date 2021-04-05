@@ -8,7 +8,10 @@
 
 !!! warning "After Microsoft Flight Simulator Updates"
 
-    Make sure you reinstall A32NX. (Delete A32NX folder from your community folder.)
+    Make sure you do a full reinstall A32NX. Delete either of the folders below from your community folder: 
+
+    * A32NX
+    * flybywire-aircraft-a320-neo 
     
     Do this before reporting bugs. 
 
@@ -30,12 +33,11 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
 
     **Workaround:** See our guide to [convert liveries](convert-liveries.md) 
 
-* Installer v1.1.1 potential issues:
-    - Getting default version or black screens after using installer on v1.1.0
-        - Workaround: Delete the `flybywire-aircraft-a320-neo folder`, then install it again.     
-    - Installer not showing your existing installation:
-        - This is due to the new modular system which requires a new full installation.
-        - Workaround: Install the mod again via the installer.
+* Package separation or "fork" issues (*Development or Experimental*):
+    -  Default aircraft showing
+        - Solution: Select the *FlyByWire Simulations A320neo (LEAP)* in the aircraft selector instead of the Asobo one. 
+    - Invisible plane / Sounds not working / Installation issues
+        - Workaround: Reinstall A32NX, delete any old version from your Community Folder. Ensure you are on Installer v1.1.4.
 * Installer Memory Leak
     - Commonly happens when our installer updates. Currently being investigated.
         - Workaround: Exit out of the FlyByWire Installer. Open `Task Manager` and find FlyByWire Installer. End Task.
@@ -78,6 +80,13 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
 ***
 
 ### ^^Fixed Issues^^
+
+* Installer v1.1.1 potential issues: *(fixed)*
+    - Getting default version or black screens after using installer on v1.1.0
+        - Workaround: Delete the `flybywire-aircraft-a320-neo folder`, then install it again.
+    - Installer not showing your existing installation:
+        - This is due to the new modular system which requires a new full installation.
+        - Workaround: Install the mod again via the installer.
 
 * VOR/ADF indicators not showing on the ND *(fixed)*
   
