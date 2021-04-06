@@ -18,7 +18,10 @@ The following commands can be used:
 
 `Ctrl+F12` - Opens the debug tool
 
-* You can send us logs if you encounter issues with the installer by using `right-click` and `Save As` so we can provide support via our [Discord](https://discord.gg/flybywire)
+You can send us logs to our [Discord](https://discord.gg/flybywire) for support if you encounter issues with the installer. Please follow the steps below:
+  * In the debug tool find and select `Console` in the top menu.
+  * `Right+Click` anywhere in the log displayed. 
+  * Click `Save as` and send the log to us.
 
 [Download Installer](https://api.flybywiresim.com/installer){ .md-button }
 
