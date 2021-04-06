@@ -13,7 +13,7 @@ To convert a livery made for the default A320neo to work with the new FBW A32NX,
 
     Open the aircraft.cfg in `..\SimObjects\AirPlanes\NAME_OF_THE_LIVERY\`
 
-    The base container line should look like this:
+    The following lines should look like this:
 
         base_container = "..\FlyByWire_A320_NEO"
         ui_type = "A320neo (LEAP)"
