@@ -16,6 +16,8 @@ To convert a livery made for the default A320neo to work with the new FBW A32NX,
     The base container line should look like this:
 
         base_container = "..\FlyByWire_A320_NEO"
+        ui_type = "A320neo (LEAP)"
+        ui_manufacturer = "FlyByWire Simulations"
 
 !!! info "Step Two"
 
