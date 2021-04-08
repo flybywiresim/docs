@@ -10,7 +10,7 @@
 
 The FlyByWire Simulations A32NX has now been separated from the default Asobo A320neo which has resulted in changes to some file structures.
 
-To be able to use your previously set custom camera views with the FBW A32NX
+To be able to use your previously set custom camera views with the FBW A32NX follow the steps below.
 
 !!! info "Step One"
 
