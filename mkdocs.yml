@@ -12,55 +12,54 @@ edit_uri: "" #removes edit button and icon
 # These should have NO filename.md next to them
 # Nestle all pages under neath sections as seen below:
 nav:
- - Home: index.md
- - Getting Started:
-   - Installation: start/installation.md
-   - Converting Liveries: start/convert-liveries.md
-   - Starting the plane: start/first-steps.md
-   - Reported Issues: start/reported-issues.md
-   - Common Questions: start/faq.md
- - Airliner Flying Guide:
-   - Overview: airliner-flying-guide/overview.md
-   - Types of Approaches: airliner-flying-guide/approaches.md
-   - Navigation: airliner-flying-guide/navigation.md
-   - Understanding Altitude References: airliner-flying-guide/altitude-refs.md
-   - METARs/TAFs/ATIS: airliner-flying-guide/weather.md
- - SDK Overview:
-   - Docker & Building: sdk/docker.md
-   - HTML/JS Gauges: sdk/html-gauges.md
-   - WASM Gauges: sdk/wasm-gauges.md
-   - XML & RNP: sdk/xml-rnp.md
-   - Sounds: sdk/sounds.md
-   - Modeling: sdk/modeling.md
-   - Texturing: sdk/texturing.md
- - Common Development:
-   - Overview: common-dev/overview.md
-   - Blender Plugin: common-dev/blender.md
-   - EFB: common-dev/efb.md
-   - Installer: common-dev/installer.md
-   - Rust SDK: common-dev/msfs-rs.md
-   - Web API: common-dev/web-api.md
- - A32NX Development:
-   - Overview: a32nx-dev/overview.md
-   - HTML/JS Code: a32nx-dev/html.md
-   - Local SimVars: a32nx-dev/simvars.md
-   - XML ModelBehaviors: a32nx-dev/xml.md
-   - React Overhaul: a32nx-dev/react.md
- - Donate: donate.md
-
+  - Home: index.md
+  - Getting Started:
+      - Installation: start/installation.md
+      - Converting Liveries: start/convert-liveries.md
+      - Starting the plane: start/first-steps.md
+      - Reported Issues: start/reported-issues.md
+      - Common Questions: start/faq.md
+  - Airliner Flying Guide:
+      - Overview: airliner-flying-guide/overview.md
+      - Types of Approaches: airliner-flying-guide/approaches.md
+      - Navigation: airliner-flying-guide/navigation.md
+      - Understanding Altitude References: airliner-flying-guide/altitude-refs.md
+      - METARs/TAFs/ATIS: airliner-flying-guide/weather.md
+  - SDK Overview:
+      - Docker & Building: sdk/docker.md
+      - HTML/JS Gauges: sdk/html-gauges.md
+      - WASM Gauges: sdk/wasm-gauges.md
+      - XML & RNP: sdk/xml-rnp.md
+      - Sounds: sdk/sounds.md
+      - Modeling: sdk/modeling.md
+      - Texturing: sdk/texturing.md
+  - Common Development:
+      - Overview: common-dev/overview.md
+      - Blender Plugin: common-dev/blender.md
+      - EFB: common-dev/efb.md
+      - Installer: common-dev/installer.md
+      - Rust SDK: common-dev/msfs-rs.md
+      - Web API: common-dev/web-api.md
+  - A32NX Development:
+      - Overview: a32nx-dev/overview.md
+      - HTML/JS Code: a32nx-dev/html.md
+      - Local SimVars: a32nx-dev/simvars.md
+      - XML ModelBehaviors: a32nx-dev/xml.md
+      - React Overhaul: a32nx-dev/react.md
+  - Donate: donate.md
 
 # Configuration
 theme:
   name: material
-# Theme Overhaul configruation. Use with caution.
-# Uncomment custom_dir requires additional setup.
+  # Theme Overhaul configruation. Use with caution.
+  # Uncomment custom_dir requires additional setup.
   #custom_dir: overrides
   logo: assets/images/FBW-Tail.png
   palette:
     scheme: slate
   features:
-   - navigation.tabs
-   - navigation.instant
+    - navigation.tabs
+    - navigation.instant
   favicon: assets/images/FBW-tail.png
 
 # Plugins
@@ -77,9 +76,24 @@ extra_css:
 extra:
   generator: false
   social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/flybywiresim
+      name: FlyByWire Simulations on Github
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/FlyByWireSim
+      name: FlyByWire Simulations on Twitter
     - icon: fontawesome/brands/facebook
-      link: https://www.facebook.com/FlyByWireSimulations/
+      link: https://www.facebook.com/FlyByWireSimulations
       name: FlyByWire Simulations on Facebook
+    - icon: fontawesome/brands/discord
+      link: https://discord.com/invite/flybywire
+      name: FlyByWire Simulations on Discord
+    - icon: fontawesome/brands/twitch
+      link: https://www.twitch.tv/flybywiresimulations
+      name: FlyByWire Simulations on Twitch
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/c/FlyByWireSimulations/
+      name: FlyByWire Simulations on Youtube
 
 # Additional Markdown Extensions to use bundled icon sets
 markdown_extensions:
