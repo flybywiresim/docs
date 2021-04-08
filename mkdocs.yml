@@ -77,9 +77,24 @@ extra_css:
 extra:
   generator: false
   social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/flybywiresim
+      name: FlyByWire Simulations on Github
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/FlyByWireSim
+      name: FlyByWire Simulations on Twitter
     - icon: fontawesome/brands/facebook
-      link: https://www.facebook.com/FlyByWireSimulations/
+      link: https://www.facebook.com/FlyByWireSimulations
       name: FlyByWire Simulations on Facebook
+    - icon: fontawesome/brands/discord
+      link: https://discord.com/invite/flybywire
+      name: FlyByWire Simulations on Discord
+    - icon: fontawesome/brands/twitch
+      link: https://www.twitch.tv/flybywiresimulations
+      name: FlyByWire Simulations on Twitch
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/flybywiresimulations
+      name: FlyByWire Simulations on Youtube
 
 # Additional Markdown Extensions to use bundled icon sets
 markdown_extensions:
