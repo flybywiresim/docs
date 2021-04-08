@@ -60,7 +60,7 @@ theme:
   features:
     - navigation.tabs
     - navigation.instant
-  favicon: assets/images/FBW-tail.png
+  favicon: assets/images/FBW-Tail.png
 
 # Plugins
 plugins:
