@@ -8,19 +8,22 @@
 
     **No support will be provided**
 
-The FlyByWire Simulations A32NX has been separated from the Asobo A320neo included with the MSFS. To transfer your custom camera views to the A32NX, follow the instructions bellow.
+The FlyByWire Simulations A32NX has now been separated from the default Asobo A320neo which has resulted in changes to some file structures.
+
+To be able to use your previously set custom camera views with the FBW A32NX
+
 !!! info "Step One"
 
-    Find CAMERAS.CFG in your simulator directory `..\LocalCache\SimObjects\Airplanes\Asobo_A320_NEO`
+    Find CAMERAS.CFG in `..\LocalCache\SimObjects\Airplanes\Asobo_A320_NEO`
 
-    Copy the file to your clipboard using ctrl c or right clicking on the file and clicking copy
+    Copy the following file (using CTRL+C or right click+copy)
 
 !!! info "Step Two"
 
-    Find CAMERAS.CFG in your simulator directory `..\LocalCache\SimObjects\Airplanes\FlyByWire_A320_NEO`
+    Find CAMERAS.CFG in directory `..\LocalCache\SimObjects\Airplanes\FlyByWire_A320_NEO`
 
-    Paste the CAMERAS.CFG in your clipboard into this folder replacing the old one.
+    Paste the file you copied into this folder, and replace/overwrite when asked to.
 
-    If FlyByWire_A320_NEO is not there create a folder naming it FlyByWire_A320_NEO.
+    If the folder FlyByWire_A320_NEO does not exist, create a new one with the name FlyByWire_A320_NEO.
 
 Ready to go! Launch the sim and load into the New A32NX. Use the same keybinds you used before to load your custom camera views.
