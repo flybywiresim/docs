@@ -10,7 +10,7 @@ edit_uri: "" #removes edit button and icon
 # Navigation
 # Section Containers are defined by `- Section Name:`
 # These should have NO filename.md next to them
-# Nestle all pages under neath sections as seen below:
+# Nestle all pages underneath sections as seen below:
 nav:
   - Home: index.md
   - Getting Started:
@@ -51,8 +51,8 @@ nav:
 # Configuration
 theme:
   name: material
-  # Theme Overhaul configruation. Use with caution.
-  # Uncomment custom_dir requires additional setup.
+  # Theme Overhaul configuration. Use with caution.
+  # Uncommenting custom_dir requires additional setup.
   #custom_dir: overrides
   logo: assets/images/FBW-Tail.png
   palette:
@@ -60,7 +60,7 @@ theme:
   features:
     - navigation.tabs
     - navigation.instant
-  favicon: assets/images/FBW-tail.png
+  favicon: assets/images/FBW-Tail.png
 
 # Plugins
 plugins:
@@ -99,12 +99,12 @@ extra:
 markdown_extensions:
   - admonition # Makes things pretty
   - pymdownx.superfences # Nestled code
-  - attr_list
-  - pymdownx.tabbed #content tabs
+  - attr_list # Add HTML attributes and CSS classes to Markdown elements
+  - pymdownx.tabbed # Content tabs
   - pymdownx.details # Additional features to admonition
-  - pymdownx.caret
-  - pymdownx.mark
-  - pymdownx.tilde
-  - pymdownx.emoji: #Allows emjoy style inline embeds for icons
+  - pymdownx.caret # Formatting Extension
+  - pymdownx.mark # Formatting Extension
+  - pymdownx.tilde # Formatting Extension
+  - pymdownx.emoji: # Allows emoji style inline embeds for icons
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
