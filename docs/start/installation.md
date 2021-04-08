@@ -35,7 +35,7 @@ You can send us logs to our [Discord](https://discord.gg/flybywire) for support 
 
         **How to download**:
 
-        **Current Stable Version - v0.5.4**
+        **Current Stable Version - v0.6.0**
 
           Stable is our variant that has the least bugs and best performance. This version will not always be up to date but we gurantee its compatibility with each major patch from MSFS. 
 
