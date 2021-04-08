@@ -99,12 +99,12 @@ extra:
 markdown_extensions:
   - admonition # Makes things pretty
   - pymdownx.superfences # Nestled code
-  - attr_list
-  - pymdownx.tabbed #content tabs
+  - attr_list # add HTML attributes and CSS classes to Markdown elements
+  - pymdownx.tabbed # Content tabs
   - pymdownx.details # Additional features to admonition
-  - pymdownx.caret
-  - pymdownx.mark
-  - pymdownx.tilde
-  - pymdownx.emoji: #Allows emjoy style inline embeds for icons
+  - pymdownx.caret # Formatting Extension
+  - pymdownx.mark # Formatting Extension
+  - pymdownx.tilde # Formatting Extension
+  - pymdownx.emoji: #Allows emoji style inline embeds for icons
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
