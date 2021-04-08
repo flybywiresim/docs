@@ -16,14 +16,14 @@ To be able to use your previously set custom camera views with the FBW A32NX fol
 
     Find CAMERAS.CFG in `..\LocalCache\SimObjects\Airplanes\Asobo_A320_NEO`
 
-    Copy the following file (using CTRL+C or right click+copy)
+    Copy the file above (using CTRL + C or Right Click + Copy)
 
 !!! info "Step Two"
 
     Find CAMERAS.CFG in directory `..\LocalCache\SimObjects\Airplanes\FlyByWire_A320_NEO`
 
-    Paste the file you copied into this folder, and replace/overwrite when asked to.
+    Paste the file you copied in step one, and replace/overwrite when asked to.
 
     If the folder FlyByWire_A320_NEO does not exist, create a new one with the name FlyByWire_A320_NEO.
 
-Ready to go! Launch the sim and load into the New A32NX. Use the same keybinds you used before to load your custom camera views.
+Ready to go! Launch the sim and load into the new A32NX. Use the same keybinds you used before to load your custom camera views.
