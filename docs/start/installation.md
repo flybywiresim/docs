@@ -1,6 +1,6 @@
 # Installation guide
 
-Please follow the information on this page to install the FlyByWire Simulations A32NX Mod for Microsoft Flight Simulator 2020
+Please follow the information on this page to install the FlyByWire Simulations A32NX addon for Microsoft Flight Simulator 2020
 
 *Last Update: {{git_revision_date_localized}}*
 
@@ -75,7 +75,7 @@ You can send us logs to our [Discord](https://discord.gg/flybywire) for support 
 
 
 ---
-## Installation
+## Manual Installation
 
 **Please follow ALL steps in this section if you encounter any issues with installation before seeking support.**
 
@@ -113,6 +113,9 @@ It is located in:
 
 * `C:\Users\[YOUR USERNAME]\AppData\Local\MSFSPackages\Community`.
 
+---
+
+### Troubleshooting
 
 If the above methods do not work:
 
@@ -127,7 +130,7 @@ If the above methods do not work:
 
 [:fontawesome-brands-github:{: .github } -  **GitHub Contributing.md**](https://github.com/flybywiresim/a32nx/blob/master/.github/Contributing.md)
 
-More info [A32NX Development Overview](/a32nx-dev/overview)
+More info [A32NX Development Overview](../a32nx-dev/overview.md)
 
 ***
 

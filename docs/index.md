@@ -2,9 +2,9 @@
 
 ***
 
-Start flying with our [Installation Guide](start/installation)
+Start flying with our [Installation Guide](start/installation.md)
 
-Having issues? See our [Reported Issues](start/reported-issues.md) 
+Having issues? See our [Reported Issues](start/reported-issues.md)
 
 ## Introduction
 
