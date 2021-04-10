@@ -16,6 +16,7 @@ nav:
   - Getting Started:
       - Installation: start/installation.md
       - Converting Liveries: start/convert-liveries.md
+      - Porting Custom Camera Views: start/porting-custom-cameras.md
       - Starting the plane: start/first-steps.md
       - Reported Issues: start/reported-issues.md
       - Common Questions: start/faq.md
