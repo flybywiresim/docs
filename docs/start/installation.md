@@ -4,6 +4,15 @@ Please follow the information on this page to install the FlyByWire Simulations 
 
 *Last Update: {{git_revision_date_localized}}*
 
+!!! warning "Important Notice"
+
+    All FlyByWire Simulations A32NX versions are now independent from the default A320neo.
+
+    We’d like to remind all users of the following two **important changes**:
+
+    - Has a separate folder in community titled “flybywire-aircraft-a320-neo”
+    - Appears as a separate airplane in the simulator titled “FlyByWire Simulations - A320neo (LEAP)”. 
+
 ---
 
 ## Downloads
