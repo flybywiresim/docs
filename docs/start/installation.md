@@ -10,8 +10,13 @@ Please follow the information on this page to install the FlyByWire Simulations 
 
     We’d like to remind all users of the following two **important changes**:
 
-    - Has a separate folder in community titled “flybywire-aircraft-a320-neo”
-    - Appears as a separate airplane in the simulator titled “FlyByWire Simulations - A320neo (LEAP)”. 
+    The folder in the Community directory is now:
+
+      - `flybywire-aircraft-a320-neo`
+
+    The airplane in the simulator is now titled:
+
+      - `FlyByWire Simulations - A320neo (LEAP)` 
 
 ---
 
