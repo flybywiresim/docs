@@ -91,7 +91,7 @@ You can send us logs to our [Discord](https://discord.gg/flybywire) for support 
 
 **Please follow ALL steps in this section if you encounter any issues with installation before seeking support.**
 
-Open the zip that you downloaded from one of the links above, and drag the A32NX folder inside the zip into your Community folder.
+Open the zip that you downloaded from one of the links above, and drag the `flybywire-aircraft-a320-neo` folder inside the zip into your Community folder.
 
 See below for the location of your Community folder:
 
@@ -99,7 +99,7 @@ See below for the location of your Community folder:
 
 ### Microsoft Store and/or Game Pass edition
 
-- Copy the "A32NX" folder into your community package folder.
+- Copy the `flybywire-aircraft-a320-neo` folder into your community package folder.
 
 It is located in:
 
@@ -109,7 +109,7 @@ It is located in:
 
 ### Steam edition
 
-- Copy the "A32NX" folder into your community package folder.
+- Copy the `flybywire-aircraft-a320-neo` folder into your community package folder.
 
 It is located in:
 
@@ -119,7 +119,7 @@ It is located in:
 
 ### Boxed edition
 
-- Copy the "A32NX" folder into your community package folder.
+- Copy the `flybywire-aircraft-a320-neo` folder into your community package folder.
 
 It is located in:
 
