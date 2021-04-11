@@ -97,7 +97,7 @@ See below for the location of your Community folder:
 
 ---
 
-### Microsoft Store AND/OR Gamepass edition
+### Microsoft Store and/or Game Pass edition
 
 - Copy the "A32NX" folder into your community package folder.
 
