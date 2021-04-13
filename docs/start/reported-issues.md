@@ -43,6 +43,11 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
         - Workaround: Exit out of the FlyByWire Installer. Open `Task Manager` and find FlyByWire Installer. End Task.
 * Wipers don't function correctly on FSX Liveries
 
+#### MSFS WU4 Known Issues
+
+* Instruments may break if you let the pre-flight cinematic with the "FLY" button play all the way through
+* Most addons which use standalone modules like YourControls, MobiFlight or FSUIPC will cause CTDs
+
 ***
 
 ### ^^Common Issues^^
