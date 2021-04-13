@@ -10,23 +10,25 @@ To start please ensure your installer is updated to version 1.2.0 or above. Make
 ### ^^Step 1^^
 
 When launching the installer you will be greeted by the following prompt:
-![installer conversion one](https://media.discordapp.net/attachments/717548046522777604/831236525223968768/unknown.png?width=983&height=702)
+![installer conversion one](../assets/images/installer1.png)
 
 ### ^^Step 2^^
 
 Click `Convert` and the prompt will expand offering you the choice to select specific liveries or `Select All`. 
-![installer conversion two](https://media.discordapp.net/attachments/717548046522777604/831236693213708338/unknown.png?width=983&height=702)
+![installer conversion two](../assets/images/installer2.png)
 
 ### ^^Step 3^^
 
-Select all liveries or as many as you'd like and press `Confirm`. Your liveries will now be converted. You can confirm conversion by looking into your community directory and checking that the new folder name is `livery_folder_name_a32nx`. You can now safely remove the older folders if you wish.
+Select all liveries or as many as you'd like and press `Confirm`. Your liveries will now be converted. The progress bar will display 100% when complete.  
+
+You can confirm conversion by looking into your community directory and checking that the new folder name is `livery_folder_name_a32nx`. You can now safely remove the older folders if you wish.
 
 ### ^^Optional Steps^^
 
 If you are using an application to host your liveries in a separate directory you can visit the `Settings` at the bottom left of the installer. 
 
 Select the toggle for `Separate Liveries Directory` to select a path.
-![installer conversion three](https://cdn.discordapp.com/attachments/757387126173204540/830892976733290606/unknown.png)
+![installer conversion three](../assets/images/installer3.png)
 
 
 ***
