@@ -46,7 +46,7 @@ Select the toggle for `Separate Liveries Directory` to select a path.
 
     **No support will be provided**
 
-To convert a livery made for the default A320neo to work with the new FBW A32NX, you have to edit three files in that livery's folder. 
+To manually convert a livery made for the default A320neo to work with the new FBW A32NX, you have to edit three files in that livery's folder. 
 
 !!! info "Step One"
 
