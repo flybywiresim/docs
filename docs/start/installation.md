@@ -1,16 +1,46 @@
 # Installation guide
 
-Please follow the information on this page to install the FlyByWire Simulations A32NX Mod for Microsoft Flight Simulator 2020
+Please follow the information on this page to install the FlyByWire Simulations A32NX addon for Microsoft Flight Simulator 2020
 
 *Last Update: {{git_revision_date_localized}}*
+
+!!! warning "Important Notice"
+
+    All FlyByWire Simulations A32NX versions are now independent from the default A320neo.
+
+    We’d like to remind all users of the following two **important changes**:
+
+    The folder in the Community directory is now:
+
+      - `flybywire-aircraft-a320-neo`
+
+    The airplane in the simulator is now titled:
+
+      - `FlyByWire Simulations - A320neo (LEAP)` 
 
 ---
 
 ## Downloads
 
-### A32NX Installer
+### FlyByWire Installer
 
-Download the new A32NX installer where you can select either the Stable or Developer build, and download and install the mod directly into your community folder, [download here](https://api.flybywiresim.com/installer) ([source](https://github.com/flybywiresim/installer)).
+Download the new FlyByWire installer where you can select either the Stable, Development, or Experimental build. Our installer downloads and installs the mod directly into your community folder. 
+
+The following commands can be used:
+
+`Ctrl+F5` - Refreshes Installer
+
+`Ctrl+F12` - Opens the debug tool
+
+You can send us logs to our [Discord](https://discord.gg/flybywire) for support if you encounter issues with the installer. Please follow the steps below:
+
+  * In the debug tool find and select `Console` in the top menu.
+    
+  * `Right+Click` anywhere in the log displayed. 
+    
+  * Click `Save as` and send the log to us.
+
+[Download Installer](https://api.flybywiresim.com/installer){ .md-button }
 
 ---
 
@@ -18,58 +48,63 @@ Download the new A32NX installer where you can select either the Stable or Devel
 
 !!! info "Methods"
 
-    === "Latest Stable Release"
+    === "Latest Stable Version"
 
         **How to download**:
 
-          > Current Stable Version - v0.5.2
+        **Current Stable Version - v0.6.0**
 
-          This is the recommended stable release, as it has been thoroughly tested.
+          Stable is our variant that has the least bugs and best performance. This version will not always be up to date but we gurantee its compatibility with each major patch from MSFS. 
 
-          * [Download the stable release here.](https://github.com/flybywiresim/a32nx/releases/latest/download/flybywiresim-a32nx.zip)
+          [Download Stable](https://api.flybywiresim.com/api/v1/download?url=https://flybywiresim-packages.b-cdn.net/stable/A32NX-stable.zip){ .md-button }
 
-          * You can see the changelog on the releases page: [View Here.](https://github.com/flybywiresim/a32nx/releases)
-
-
-    === "Unstable Master Branch Build"
-
-        **How to download**:
-
-        This has the latest features, but is much more unstable, use at your own risk.
+          You can see the changelog on the releases page: [View Here](https://github.com/flybywiresim/a32nx/releases)
 
 
-         * [Download developer build here.](https://github.com/flybywiresim/a32nx/releases/download/vmaster/A32NX-master.zip)
-
-         * [View info about the latest build here.](https://github.com/flybywiresim/a32nx/releases/tag/vmaster)
-
-    === "Unstable Master Branch Build (with custom FBW)"
+    === "Development Version"
 
         **How to download**:
 
-        This version is the same as the regular master/development version, but with the WIP custom fly-by-wire system.
+        Development will have the latest features that will end up in the next stable. Bugs are to be expected. 
 
-        Expect issues with flight directors/autopilot if you intend to use this version. **No support will be provided via Discord.**
+        It updates whenever something is added to the 'master' branch on GitHub. 
 
-        * [Download custom FBW development build here.](https://api.flybywiresim.com/api/v1/download?url=https://flybywiresim-packages.b-cdn.net/vmaster-cfbw/A32NX-master-cfbw.zip)
+         [Download Development](https://api.flybywiresim.com/api/v1/download?url=https://flybywiresim-packages.b-cdn.net/vmaster/A32NX-master.zip){ .md-button }
 
-        * [**IMPORTANT:** view warnings and info for the custom FBW build here.](https://github.com/flybywiresim/a32nx/tree/fbw/docs)
+         [View info about the latest build here](https://github.com/flybywiresim/a32nx/releases/tag/vmaster)
 
-        * This version is the same as the regular master/development version, but with the WIP custom fly-by-wire system. Expect issues with flight directors/autopilot if you intend to use this version. No support will be provided via Discord.
+    === "Experimental Version"
+
+        **How to download**:
+
+        This version is similar to the development version, but contains custom systems (including fly-by-wire, autopilot, FADEC, etc.).
+
+        This version is updated whenever the 'autopilot' branch on GitHub is updated, which is around every 12 hours. 
+
+        **No support will be provided via Discord.**
+
+        [Download Experimental](https://api.flybywiresim.com/api/v1/download?url=https://flybywiresim-packages.b-cdn.net/vmaster-cfbw-cap/A32NX-master-cfbw-cap.zip){ .md-button }
+
+        [**IMPORTANT:** view warnings and info for the experimental version here](https://github.com/flybywiresim/a32nx/tree/autopilot/docs)
+
+        This version is the same as the regular master/development version, but with the WIP custom fly-by-wire system. Expect issues with flight directors/autopilot if you intend to use this version. No support will be provided via Discord.
 
 
 
 ---
-## Installation
+## Manual Installation
 
-**Please follow ALL steps in this README if you encounter any issues with installation before seeking support.**
+**Please follow ALL steps in this section if you encounter any issues with installation before seeking support.**
 
-Open the zip that you downloaded from one of the links above, and drag the A32NX folder inside the zip into your Community folder.
+Open the zip that you downloaded from one of the links above, and drag the `flybywire-aircraft-a320-neo` folder inside the zip into your Community folder.
 
 See below for the location of your Community folder:
 
-For the Microsoft Store edition AND/OR Gamepass edition:
+---
 
-- Copy the "A32NX" folder into your community package folder.
+### Microsoft Store and/or Game Pass edition
+
+- Copy the `flybywire-aircraft-a320-neo` folder into your community package folder.
 
 It is located in:
 
@@ -77,9 +112,9 @@ It is located in:
 
 ---
 
-For the Steam edition:
+### Steam edition
 
-- Copy the "A32NX" folder into your community package folder.
+- Copy the `flybywire-aircraft-a320-neo` folder into your community package folder.
 
 It is located in:
 
@@ -87,29 +122,39 @@ It is located in:
 
 ---
 
-For the Boxed edition:
+### Boxed edition
 
-- Copy the "A32NX" folder into your community package folder.
+- Copy the `flybywire-aircraft-a320-neo` folder into your community package folder.
 
 It is located in:
 
 * `C:\Users\[YOUR USERNAME]\AppData\Local\MSFSPackages\Community`.
 
+---
+
+### Troubleshooting
 
 If the above methods do not work:
-- You can find your community folder by going into FS2020 general options and enabling developer mode. You will see a menu appear on top. Go to tools and virtual file system. Click on watch bases and your community folder will be listed in one of the folders.
-- Please make sure you're copying the "A32NX" folder into your community package folder, NOT the "flybywiresim-a32nx" folder.
+
+- You can find your community folder by going into Microsoft Flight Simulator general options and enabling developer mode. You will see a menu appear on top. 
+    - Go to tools and virtual file system.
+    - Click on watch bases and your community folder will be listed in one of the folders.
 
 ***
 
 ## Contributing
 
-See [A32NX Development Overview](/a32nx-dev/overview)
+[:fontawesome-brands-github:{: .github } -  **GitHub Contributing.md**](https://github.com/flybywiresim/a32nx/blob/master/.github/Contributing.md)
 
-## SimBrief Airframe
+More info [A32NX Development Overview](../a32nx-dev/overview.md)
 
 ***
+
+## SimBrief Airframe
 
 The FlyByWire Simulations SimBrief airframe with correct weights is available below.
 
 ✈ [SimBrief Airframe Link](https://www.simbrief.com/system/dispatch.php?sharefleet=eyJ0cyI6IjE2MDU4MjAwNzg5NDYiLCJiYXNldHlwZSI6IkEzMjAiLCJjb21tZW50cyI6IkZMWSBCWSBXSVJFIiwiaWNhbyI6IkEyME4iLCJuYW1lIjoiQTMyME5FTyBGQlciLCJlbmdpbmVzIjoiTEVBUC0xQTI2IiwicmVnIjoiQTIwTiIsImZpbiI6IiIsInNlbGNhbCI6IiIsImhleGNvZGUiOiIiLCJjYXQiOiJNIiwicGVyIjoiQyIsImVxdWlwIjoiU0RFM0ZHSElSV1kiLCJ0cmFuc3BvbmRlciI6IkxCMSIsInBibiI6IkExQjFDMUQxTzFTMSIsImV4dHJhcm1rIjoiIiwibWF4cGF4IjoiMTgwIiwid2d0dW5pdHMiOiJLR1MiLCJvZXciOiI0MTAwMCIsIm16ZnciOiI2MjUwMCIsIm10b3ciOiI3OTAwMCIsIm1sdyI6IjY2MDAwIiwibWF4ZnVlbCI6IjIxMjczIiwicGF4d2d0IjoiMTA0IiwiZGVmYXVsdGNpIjoiIiwiZnVlbGZhY3RvciI6IlAwMCIsImNydWlzZW9mZnNldCI6IlAwMDAwIn0-) Credits: [@viniciusfont](https://github.com/viniciusfont)
+
+Pilot ID can be found in the Optional Entries section of the Dispatch Options page.
+
