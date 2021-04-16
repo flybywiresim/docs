@@ -50,7 +50,7 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
 
 ![installer issue](https://media.discordapp.net/attachments/831654046405230652/832741603940237362/unknown.png)
 
-* If there is an issue with your community directory our installer will display the error above. This means the installer detects a certain directory as your community directory even though it does not exist.
+* If there is an issue with your community directory our installer will display the error above. This means the installer detects a certain directory as your community directory even though it does not exist anymore.
     - Workaround: You can create the specified directory, restart the installer and change the community directory in the installer settings
     
 * Installer Memory Leak
