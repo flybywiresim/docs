@@ -439,6 +439,13 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#installer-issues" class="md-nav__link">
+    Installer Issues
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#msfs-wu4-known-issues" class="md-nav__link">
     MSFS WU4 Known Issues
   </a>
@@ -934,6 +941,13 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#installer-issues" class="md-nav__link">
+    Installer Issues
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#msfs-wu4-known-issues" class="md-nav__link">
     MSFS WU4 Known Issues
   </a>
@@ -982,43 +996,68 @@
 <p class="admonition-title">After Microsoft Flight Simulator Updates</p>
 <p>Make sure you do a full reinstall A32NX. Delete either of the folders below from your community folder: </p>
 <ul>
-<li>A32NX</li>
-<li>flybywire-aircraft-a320-neo </li>
+<li>A32NX (old folder name)</li>
+<li>flybywire-aircraft-a320-neo (new folder name) </li>
 </ul>
 <p>Do this before reporting bugs. </p>
 </div>
 <p>FBW Installer - <a href="https://api.flybywiresim.com/installer">Download Here</a> / <em>Sim Version: 1.15.7.0</em></p>
-<p><em>Last Update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">April 14, 2021</span></em></p>
+<p><em>Last Update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">April 16, 2021</span></em></p>
 <hr />
 <h3 id="latest-issues"><ins>Latest Issues</ins></h3>
 <div class="admonition warning">
-<p class="admonition-title">Liveries incompatible due to Hard Fork</p>
-<p><strong>Will only affect new versions of the development and experimental branches for now (a 0.6.0 stable release with the fork will come within the week).</strong></p>
+<p class="admonition-title">Liveries incompatible due to package separation</p>
+<p><strong>Affects all versions of the A32NX (Stable, Development, and Experimental</strong></p>
 <p>Liveries made for the default A320neo will no longer function in the new FlyByWire package. Liveries will need to be converted by their respective authors. </p>
-<p>While this might represent an inconvenience for a short amount of time, we are sure that 3rd party content authors will be quick to provide you with updated liveries and programs. <em>If you wish to avoid this, we advise that you remain on your currently installed development/experimental versions for now.</em></p>
-<p><strong>Workaround:</strong> See our guide to <a href="../convert-liveries/">convert liveries</a> </p>
+<p>While this might represent an inconvenience for a short amount of time, we are sure that 3rd party content authors will be quick to provide you with updated liveries and programs.</p>
+<p><strong>Convert Your Liveries:</strong> </p>
+<ul>
+<li>See our guide to <a href="../convert-liveries/">convert liveries</a></li>
+<li>Visit Flightsim.to with updated liveries <a href="https://flightsim.to/c/liveries/flybywire-a32nx/">here</a>  </li>
+</ul>
 </div>
 <ul>
-<li>Package separation or "fork" issues (<em>Development or Experimental</em>):<ul>
+<li>
+<p>Package separation or "fork" issues (<em>All Versions</em>):</p>
+<ul>
 <li>Default aircraft showing<ul>
 <li>Solution: Select the <em>FlyByWire Simulations A320neo (LEAP)</em> in the aircraft selector instead of the Asobo one. </li>
 </ul>
 </li>
 <li>Invisible plane / Sounds not working / Installation issues<ul>
-<li>Workaround: Reinstall A32NX, delete any old version from your Community Folder. Ensure you are on Installer v1.1.4.</li>
+<li>Workaround: Reinstall A32NX, delete any old version from your Community Folder. Ensure you are on Installer v1.2.0 or above. </li>
 </ul>
 </li>
 </ul>
 </li>
-<li>Installer Memory Leak<ul>
+<li>
+<p>Wipers don't function correctly on FSX Liveries</p>
+</li>
+</ul>
+<hr />
+<h4 id="installer-issues">Installer Issues</h4>
+<p><img alt="installer issue" src="https://media.discordapp.net/attachments/831654046405230652/832741603940237362/unknown.png" /></p>
+<ul>
+<li>
+<p>If there is an issue with your community directory our installer will display the error above. This means the installer detects a certain directory as your community directory even though it does not exist anymore.</p>
+<ul>
+<li>Solution: You can create the specified directory, restart the installer and change the community directory in the installer settings</li>
+</ul>
+</li>
+<li>
+<p>Installer Memory Leak</p>
+<ul>
 <li>Commonly happens when our installer updates. Currently being investigated.<ul>
 <li>Workaround: Exit out of the FlyByWire Installer. Open <code>Task Manager</code> and find FlyByWire Installer. End Task.</li>
 </ul>
 </li>
 </ul>
 </li>
-<li>Wipers don't function correctly on FSX Liveries</li>
+<li>
+<p>Instructions to send us installer logs can be found <a href="../installation/#flybywire-installer">here</a></p>
+</li>
 </ul>
+<hr />
 <h4 id="msfs-wu4-known-issues">MSFS WU4 Known Issues</h4>
 <ul>
 <li>Instruments may break if you let the pre-flight cinematic with the "FLY" button play all the way through</li>
@@ -1068,7 +1107,7 @@
 <li>
 <p>Wing dips on landing (due to bad transition to direct law in flare, same with the default A320)</p>
 <ul>
-<li>Workaround use minimal aileron input on landing</li>
+<li>Workaround: use minimal aileron input on landing</li>
 </ul>
 </li>
 <li>
@@ -1150,7 +1189,7 @@
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">April 14, 2021</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">April 16, 2021</span>
     
   </small>
 </div>
