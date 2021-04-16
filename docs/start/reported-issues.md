@@ -10,8 +10,8 @@
 
     Make sure you do a full reinstall A32NX. Delete either of the folders below from your community folder: 
 
-    * A32NX
-    * flybywire-aircraft-a320-neo 
+    * A32NX (old folder name)
+    * flybywire-aircraft-a320-neo (new folder name) 
     
     Do this before reporting bugs. 
 
@@ -23,21 +23,24 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
 
 ### ^^Latest Issues^^
 
-!!! warning "Liveries incompatible due to Hard Fork"
+!!! warning "Liveries incompatible due to package separation"
 
-    **Will only affect new versions of the development and experimental branches for now (a 0.6.0 stable release with the fork will come within the week).**
+    **Affects all versions of the A32NX (Stable, Development, and Experimental**
 
     Liveries made for the default A320neo will no longer function in the new FlyByWire package. Liveries will need to be converted by their respective authors. 
 
-    While this might represent an inconvenience for a short amount of time, we are sure that 3rd party content authors will be quick to provide you with updated liveries and programs. *If you wish to avoid this, we advise that you remain on your currently installed development/experimental versions for now.*
+    While this might represent an inconvenience for a short amount of time, we are sure that 3rd party content authors will be quick to provide you with updated liveries and programs.
 
-    **Workaround:** See our guide to [convert liveries](convert-liveries.md) 
+    **Convert Your Liveries:** 
+    
+    - See our guide to [convert liveries](convert-liveries.md)
+    - Visit Flightsim.to with updated liveries [here](https://flightsim.to/c/liveries/flybywire-a32nx/)  
 
-* Package separation or "fork" issues (*Development or Experimental*):
+* Package separation or "fork" issues (*All Versions*):
     -  Default aircraft showing
         - Solution: Select the *FlyByWire Simulations A320neo (LEAP)* in the aircraft selector instead of the Asobo one. 
     - Invisible plane / Sounds not working / Installation issues
-        - Workaround: Reinstall A32NX, delete any old version from your Community Folder. Ensure you are on Installer v1.1.4.
+        - Workaround: Reinstall A32NX, delete any old version from your Community Folder. Ensure you are on Installer v1.2.0 or above. 
     
 #### Installer Issues
 
