@@ -15,7 +15,7 @@ If your community directory has incompatible liveries you will be greeted by the
 
 ![installer conversion one](../assets/images/installer1.png)
 
-### ^^Step 2^^"
+### ^^Step 2^^
 
 Click `Convert` and the prompt will expand offering you the choice to select specific liveries or `Select All`. The image shows the difference between a non-selected and selected livery.
 
@@ -25,7 +25,7 @@ Click `Convert` and the prompt will expand offering you the choice to select spe
 
 Select all liveries or as many as you'd like and press `Confirm`. Your liveries will now be converted. The progress bar will display 100% when all selected liveries have been successfully converted.  
 
-![installer conversion two](../assets/images/installer4.png)
+![installer conversion four](../assets/images/installer4.png)
 
 You can confirm conversion by checking your community directory and checking that the new folder name is `livery_folder_name_a32nx`. You can now safely remove the older folders if you wish.
 
