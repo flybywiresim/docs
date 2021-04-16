@@ -90,7 +90,7 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
     * You have to set your keybinding to rudder axis right and left
 
 * Wing dips on landing (due to bad transition to direct law in flare, same with the default A320)
-    * Workaround use minimal aileron input on landing
+    * Workaround: use minimal aileron input on landing
 
 * Black screens / unable to start
     * Conflict with another mod/livery or incorrect installation of the A32NX mod
