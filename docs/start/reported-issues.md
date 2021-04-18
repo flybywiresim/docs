@@ -15,7 +15,7 @@
     
     Do this before reporting bugs. 
 
-FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim Version: 1.15.7.0*
+FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim Version: 1.15.8.0*
 
 *Last Update: {{git_revision_date_localized}}*
 
@@ -58,13 +58,6 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
         - Workaround: Exit out of the FlyByWire Installer. Open `Task Manager` and find FlyByWire Installer. End Task.
     
 * Instructions to send us installer logs can be found [here](installation.md#flybywire-installer)
-
-***
-
-#### MSFS WU4 Known Issues
-
-* Instruments may break if you let the pre-flight cinematic with the "FLY" button play all the way through
-* Most addons which use standalone modules like YourControls, MobiFlight or FSUIPC will cause CTDs
 
 ***
 
