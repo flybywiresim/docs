@@ -1,127 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
      <loc>https://docs.flybywiresim.com/</loc>
-     <lastmod>2021-04-18</lastmod>
+     <lastmod>2021-04-19</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.flybywiresim.com/start/installation/</loc>
-     <lastmod>2021-04-18</lastmod>
+     <lastmod>2021-04-19</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.flybywiresim.com/start/convert-liveries/</loc>
-     <lastmod>2021-04-18</lastmod>
+     <lastmod>2021-04-19</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.flybywiresim.com/start/porting-custom-cameras/</loc>
-     <lastmod>2021-04-18</lastmod>
+     <lastmod>2021-04-19</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.flybywiresim.com/start/first-steps/</loc>
-     <lastmod>2021-04-18</lastmod>
+     <lastmod>2021-04-19</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.flybywiresim.com/start/reported-issues/</loc>
-     <lastmod>2021-04-18</lastmod>
+     <lastmod>2021-04-19</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.flybywiresim.com/start/faq/</loc>
-     <lastmod>2021-04-18</lastmod>
+     <lastmod>2021-04-19</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.flybywiresim.com/airliner-flying-guide/overview/</loc>
-     <lastmod>2021-04-18</lastmod>
+     <lastmod>2021-04-19</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.flybywiresim.com/airliner-flying-guide/approaches/</loc>
-     <lastmod>2021-04-18</lastmod>
+     <lastmod>2021-04-19</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.flybywiresim.com/airliner-flying-guide/navigation/</loc>
-     <lastmod>2021-04-18</lastmod>
+     <lastmod>2021-04-19</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.flybywiresim.com/airliner-flying-guide/altitude-refs/</loc>
-     <lastmod>2021-04-18</lastmod>
+     <lastmod>2021-04-19</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.flybywiresim.com/airliner-flying-guide/weather/</loc>
-     <lastmod>2021-04-18</lastmod>
+     <lastmod>2021-04-19</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.flybywiresim.com/sdk/docker/</loc>
-     <lastmod>2021-04-18</lastmod>
+     <lastmod>2021-04-19</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.flybywiresim.com/sdk/html-gauges/</loc>
-     <lastmod>2021-04-18</lastmod>
+     <lastmod>2021-04-19</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.flybywiresim.com/sdk/wasm-gauges/</loc>
-     <lastmod>2021-04-18</lastmod>
+     <lastmod>2021-04-19</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.flybywiresim.com/sdk/xml-rnp/</loc>
-     <lastmod>2021-04-18</lastmod>
+     <lastmod>2021-04-19</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.flybywiresim.com/sdk/sounds/</loc>
-     <lastmod>2021-04-18</lastmod>
+     <lastmod>2021-04-19</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.flybywiresim.com/sdk/modeling/</loc>
-     <lastmod>2021-04-18</lastmod>
+     <lastmod>2021-04-19</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.flybywiresim.com/sdk/texturing/</loc>
-     <lastmod>2021-04-18</lastmod>
+     <lastmod>2021-04-19</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://docs.flybywiresim.com/common-dev/overview/</loc>
-     <lastmod>2021-04-18</lastmod>
+     <loc>https://docs.flybywiresim.com/development-projects/overview/</loc>
+     <lastmod>2021-04-19</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://docs.flybywiresim.com/common-dev/blender/</loc>
-     <lastmod>2021-04-18</lastmod>
+     <loc>https://docs.flybywiresim.com/development-projects/blender/</loc>
+     <lastmod>2021-04-19</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://docs.flybywiresim.com/common-dev/efb/</loc>
-     <lastmod>2021-04-18</lastmod>
+     <loc>https://docs.flybywiresim.com/development-projects/efb/</loc>
+     <lastmod>2021-04-19</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://docs.flybywiresim.com/common-dev/installer/</loc>
-     <lastmod>2021-04-18</lastmod>
+     <loc>https://docs.flybywiresim.com/development-projects/installer/</loc>
+     <lastmod>2021-04-19</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://docs.flybywiresim.com/common-dev/msfs-rs/</loc>
-     <lastmod>2021-04-18</lastmod>
+     <loc>https://docs.flybywiresim.com/development-projects/msfs-rs/</loc>
+     <lastmod>2021-04-19</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://docs.flybywiresim.com/common-dev/web-api/</loc>
-     <lastmod>2021-04-18</lastmod>
+     <loc>https://docs.flybywiresim.com/development-projects/website/</loc>
+     <lastmod>2021-04-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://docs.flybywiresim.com/development-projects/web-api/</loc>
+     <lastmod>2021-04-19</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.flybywiresim.com/a32nx-dev/overview/</loc>
-     <lastmod>2021-04-18</lastmod>
+     <lastmod>2021-04-19</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.flybywiresim.com/a32nx-dev/html/</loc>
-     <lastmod>2021-04-18</lastmod>
+     <lastmod>2021-04-19</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.flybywiresim.com/a32nx-dev/simvars/</loc>
-     <lastmod>2021-04-18</lastmod>
+     <lastmod>2021-04-19</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.flybywiresim.com/a32nx-dev/xml/</loc>
-     <lastmod>2021-04-18</lastmod>
+     <lastmod>2021-04-19</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.flybywiresim.com/a32nx-dev/react/</loc>
-     <lastmod>2021-04-18</lastmod>
+     <lastmod>2021-04-19</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.flybywiresim.com/donate/</loc>
-     <lastmod>2021-04-18</lastmod>
+     <lastmod>2021-04-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
