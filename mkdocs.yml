@@ -34,13 +34,14 @@ nav:
       - Sounds: sdk/sounds.md
       - Modeling: sdk/modeling.md
       - Texturing: sdk/texturing.md
-  - Common Development:
-      - Overview: common-dev/overview.md
-      - Blender Plugin: common-dev/blender.md
-      - EFB: common-dev/efb.md
-      - Installer: common-dev/installer.md
-      - Rust SDK: common-dev/msfs-rs.md
-      - Web API: common-dev/web-api.md
+  - Development Projects:
+      - Overview: development-projects/overview.md
+      - Blender Plugin: development-projects/blender.md
+      - EFB: development-projects/efb.md
+      - Installer: development-projects/installer.md
+      - Rust SDK: development-projects/msfs-rs.md
+      - Website: development-projects/website.md
+      - Web API: development-projects/web-api.md
   - A32NX Development:
       - Overview: a32nx-dev/overview.md
       - HTML/JS Code: a32nx-dev/html.md
