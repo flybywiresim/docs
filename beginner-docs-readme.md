@@ -6,7 +6,8 @@ The beginners guide is tailored towards novice pilots and those new to the Airbu
 
 - Write documentation professionally and clearly.
 - Use the full availability of features baked into `Material for MkDocs` to create readable and well formatted guides.
-- Open a `draft PR` if you would like to work on something specific.
+- Working and target branch is `beginner-guide`
+  - Open a `draft PR` if you would like to work on something specific.
 - Proofread your work before marking Ready for Review.
 - Add the relevant `filename.md` to the `mkdocs.yml` and `overview.md` for beginners guide section. 
 - Add image assets to `../assets/beginner-guide/`  
