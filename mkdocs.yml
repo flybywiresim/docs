@@ -22,6 +22,8 @@ nav:
       - Common Questions: start/faq.md
       - MCDU Keyboard Input: start/mcdu-keyboard.md
       - Autopilot / Fly-By-Wire: start/autopilot-fbw.md
+  - Beginner Guide:
+      - Overview: beginner-guide/overview.md
   - Airliner Flying Guide:
       - Overview: airliner-flying-guide/overview.md
       - Types of Approaches: airliner-flying-guide/approaches.md
