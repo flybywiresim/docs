@@ -1,6 +1,8 @@
-After vacating the runway you should follow these steps bellow
+### Lower Pedestal
 
-=== "Bottom left"
+The following actions should be preformed on the lower pedestal
+
+=== "Left Side Lower Pedestal"
 
     * Set your radio frequency to the one assigned by atc if using atc
 
@@ -10,7 +12,7 @@ After vacating the runway you should follow these steps bellow
 
         ![Bottom left](../beginner-guide/placeholder.jpg)
 
-=== "Bottom right"
+=== "Right Side Lower Pedestal"
 
     * Retract your flaps to zero
 
@@ -22,7 +24,11 @@ After vacating the runway you should follow these steps bellow
 
         ![Bottom right positions](../beginner-guide/placeholder.jpg)
 
-=== "Top left"
+### Overhead Panel
+
+The following actions should be preformed on the overhead panel and top ecam
+
+=== "Left Side Overhead Panel"
 
     Set your exterior lights
 
@@ -44,7 +50,7 @@ After vacating the runway you should follow these steps bellow
 
         ![landing light positions](../beginner-guide/placeholder.jpg)
 
-=== "Top right"
+=== "Right Side Overhead Panel"
 
     * Start your APU by clicking the APU master button then the APU start button
 
@@ -52,13 +58,13 @@ After vacating the runway you should follow these steps bellow
 
     * Turn the brake fan on if you get a hot brakes ecam warning
 
-    ![Top right positions](../beginner-guide/placeholder.jpg)
+    ![Right Side Overhead Panel positions](../beginner-guide/placeholder.jpg)
 
 === "Turning into gate"
 
     * When turning into the gate turn off your nose wheel light and your runway turn off lights
 
-    ![Bottom right positions](../beginner-guide/placeholder.jpg)
+    ![Right Side Overhead Panel](../beginner-guide/placeholder.jpg)
 
 
     * Continue with the [Powering Down](TBD.MD) steps
