@@ -1,43 +1,64 @@
-After vacating the runway you should follow the after landing checklist
+After vacating the runway you should follow these steps bellow
 
-Disarm the spoilers by pushing down on the lever
+=== "Bottom left"
 
-Set your exterior lights
+    * Set your radio frequency to the one assigned by atc if using atc
 
-!!! info "Exterior Lights"
+    * Disarm the spoilers by pushing down on the lever
 
-    * Set your noise wheel light to taxi
+    * ENG mode selector to norm
 
-    * Nav on
+        ![Bottom left](../beginner-guide/placeholder.jpg)
 
-    * Beacon on
+=== "Bottom right"
 
-    * Runway turn offs on
+    * Retract your flaps to zero
 
-    * Turn your strobe lights off unless you are crossing an active runway
+    * Set your tcas to standby
 
-    * For landing lights you can choose to retract them or turn them off
+    * Turn your radar off
 
-    Your landing lights should look like this:
+    * Turn your predictive windshear system off
+
+        ![Bottom right positions](../beginner-guide/placeholder.jpg)
+
+=== "Top left"
+
+    Set your exterior lights
+
+    !!! info "Exterior Lights"
+
+        * Set your noise wheel light to taxi
+
+        * Nav on
+
+        * Beacon on
+
+        * Runway turn-offs on
+
+        * Turn your strobe lights off unless you are crossing an active runway
+
+        * For landing lights, you can choose to retract them or turn them off
+
+        Your landing lights should look like this:
+
         ![landing light positions](../beginner-guide/placeholder.jpg)
 
-Turn your radar off
+=== "Top right"
 
-Turn your predictive windshear off
+    * Start your APU by clicking the APU master button then the APU start button
 
-Radar off
+    * Turn your ati-ice off if not needed
 
-Predictive Windshear System off
+    * Turn the brake fan on if you get a hot brakes ecam warning
 
-LIGHTS SAID BY TAREK
-Put noise wheel light to taxi
+    ![Top right positions](../beginner-guide/placeholder.jpg)
 
-Nav on
+=== "Turning into gate"
 
-Becon on
+    * When turning into the gate turn off your nose wheel light and your runway turn off lights
 
-runway turn offs on
+    ![Bottom right positions](../beginner-guide/placeholder.jpg)
 
-Turn your strobe lights off unless you are crossing a active runway
 
-LANDING LIGHTS OFF OR RETRACT
+    * Continue with the [Powering Down](TBD.MD) steps
