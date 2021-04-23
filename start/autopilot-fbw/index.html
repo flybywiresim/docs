@@ -9,14 +9,14 @@
       
       
       
-        <link rel="canonical" href="https://docs.flybywiresim.com/sdk/html-gauges/">
+        <link rel="canonical" href="https://docs.flybywiresim.com/start/autopilot-fbw/">
       
       <link rel="icon" href="../../assets/images/FBW-Tail.png">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.2">
     
     
       
-        <title>HTML/JS Gauges - FlyByWire Simulations Guides</title>
+        <title>Autopilot / Fly-By-Wire - FlyByWire Simulations Guides</title>
       
     
     
@@ -63,7 +63,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#html-javascript-gauges" class="md-skip">
+        <a href="#autopilot-fly-by-wire" class="md-skip">
           Skip to content
         </a>
       
@@ -92,7 +92,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              HTML/JS Gauges
+              Autopilot / Fly-By-Wire
             
           </span>
         </div>
@@ -172,13 +172,15 @@
         
   
   
+    
+  
 
 
   
   
   
     <li class="md-tabs__item">
-      <a href="../../start/installation/" class="md-tabs__link">
+      <a href="../installation/" class="md-tabs__link md-tabs__link--active">
         Getting Started
       </a>
     </li>
@@ -204,15 +206,13 @@
         
   
   
-    
-  
 
 
   
   
   
     <li class="md-tabs__item">
-      <a href="../docker/" class="md-tabs__link md-tabs__link--active">
+      <a href="../../sdk/docker/" class="md-tabs__link">
         SDK Overview
       </a>
     </li>
@@ -327,12 +327,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
       
       <label class="md-nav__link" for="__nav_2">
         Getting Started
@@ -350,7 +352,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../start/installation/" class="md-nav__link">
+      <a href="../installation/" class="md-nav__link">
         Installation
       </a>
     </li>
@@ -362,7 +364,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../start/convert-liveries/" class="md-nav__link">
+      <a href="../convert-liveries/" class="md-nav__link">
         Converting Liveries
       </a>
     </li>
@@ -374,7 +376,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../start/porting-custom-cameras/" class="md-nav__link">
+      <a href="../porting-custom-cameras/" class="md-nav__link">
         Porting Custom Camera Views
       </a>
     </li>
@@ -386,7 +388,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../start/first-steps/" class="md-nav__link">
+      <a href="../first-steps/" class="md-nav__link">
         Starting the plane
       </a>
     </li>
@@ -398,7 +400,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../start/reported-issues/" class="md-nav__link">
+      <a href="../reported-issues/" class="md-nav__link">
         Reported Issues
       </a>
     </li>
@@ -410,7 +412,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../start/faq/" class="md-nav__link">
+      <a href="../faq/" class="md-nav__link">
         Common Questions
       </a>
     </li>
@@ -420,11 +422,186 @@
             
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../../start/autopilot-fbw/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Autopilot / Fly-By-Wire
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Autopilot / Fly-By-Wire
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#custom-autopilot-and-autothrust-system-incl-new-engine-model" class="md-nav__link">
+    Custom Autopilot and Autothrust System incl. new Engine model
+  </a>
+  
+    <nav class="md-nav" aria-label="Custom Autopilot and Autothrust System incl. new Engine model">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#typical-issues-and-how-to-solve-them" class="md-nav__link">
+    Typical issues and how to solve them
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#known-issues" class="md-nav__link">
+    Known issues
+  </a>
+  
+    <nav class="md-nav" aria-label="Known issues">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#not-solved-or-missing-this-list-is-not-conclusive" class="md-nav__link">
+    Not solved or missing (this list is not conclusive)
+  </a>
+  
+    <nav class="md-nav" aria-label="Not solved or missing (this list is not conclusive)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#flight-management" class="md-nav__link">
+    Flight Management
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#autopilot" class="md-nav__link">
+    Autopilot
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#engines" class="md-nav__link">
+    Engines
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#autothrust" class="md-nav__link">
+    Autothrust
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#first-implementation-available" class="md-nav__link">
+    First implementation available
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#considered-solved" class="md-nav__link">
+    Considered solved
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mapping-of-events-to-control-autopilot-autothrust" class="md-nav__link">
+    Mapping of events to control autopilot / autothrust
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sensitivity-dead-zones-and-throttle-mapping" class="md-nav__link">
+    Sensitivity, dead zones and throttle mapping
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#custom-fly-by-wire-system" class="md-nav__link">
+    Custom Fly-By-Wire System
+  </a>
+  
+    <nav class="md-nav" aria-label="Custom Fly-By-Wire System">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#known-issues_1" class="md-nav__link">
+    Known issues
+  </a>
+  
+    <nav class="md-nav" aria-label="Known issues">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#not-solved-or-missing" class="md-nav__link">
+    Not solved or missing
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#considered-solved_1" class="md-nav__link">
+    Considered solved
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -531,14 +708,12 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
       
       <label class="md-nav__link" for="__nav_4">
         SDK Overview
@@ -556,7 +731,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../docker/" class="md-nav__link">
+      <a href="../../sdk/docker/" class="md-nav__link">
         Docker & Building
       </a>
     </li>
@@ -566,58 +741,11 @@
             
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          HTML/JS Gauges
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../sdk/html-gauges/" class="md-nav__link">
         HTML/JS Gauges
       </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#code-structure" class="md-nav__link">
-    Code Structure
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#core-files" class="md-nav__link">
-    Core Files
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -627,7 +755,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../wasm-gauges/" class="md-nav__link">
+      <a href="../../sdk/wasm-gauges/" class="md-nav__link">
         WASM Gauges
       </a>
     </li>
@@ -639,7 +767,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../xml-rnp/" class="md-nav__link">
+      <a href="../../sdk/xml-rnp/" class="md-nav__link">
         XML & RNP
       </a>
     </li>
@@ -651,7 +779,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../sounds/" class="md-nav__link">
+      <a href="../../sdk/sounds/" class="md-nav__link">
         Sounds
       </a>
     </li>
@@ -663,7 +791,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../modeling/" class="md-nav__link">
+      <a href="../../sdk/modeling/" class="md-nav__link">
         Modeling
       </a>
     </li>
@@ -675,7 +803,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../texturing/" class="md-nav__link">
+      <a href="../../sdk/texturing/" class="md-nav__link">
         Texturing
       </a>
     </li>
@@ -933,16 +1061,144 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#code-structure" class="md-nav__link">
-    Code Structure
+  <a href="#custom-autopilot-and-autothrust-system-incl-new-engine-model" class="md-nav__link">
+    Custom Autopilot and Autothrust System incl. new Engine model
   </a>
+  
+    <nav class="md-nav" aria-label="Custom Autopilot and Autothrust System incl. new Engine model">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#typical-issues-and-how-to-solve-them" class="md-nav__link">
+    Typical issues and how to solve them
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#known-issues" class="md-nav__link">
+    Known issues
+  </a>
+  
+    <nav class="md-nav" aria-label="Known issues">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#not-solved-or-missing-this-list-is-not-conclusive" class="md-nav__link">
+    Not solved or missing (this list is not conclusive)
+  </a>
+  
+    <nav class="md-nav" aria-label="Not solved or missing (this list is not conclusive)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#flight-management" class="md-nav__link">
+    Flight Management
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#autopilot" class="md-nav__link">
+    Autopilot
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#engines" class="md-nav__link">
+    Engines
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#autothrust" class="md-nav__link">
+    Autothrust
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#first-implementation-available" class="md-nav__link">
+    First implementation available
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#considered-solved" class="md-nav__link">
+    Considered solved
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mapping-of-events-to-control-autopilot-autothrust" class="md-nav__link">
+    Mapping of events to control autopilot / autothrust
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sensitivity-dead-zones-and-throttle-mapping" class="md-nav__link">
+    Sensitivity, dead zones and throttle mapping
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#core-files" class="md-nav__link">
-    Core Files
+  <a href="#custom-fly-by-wire-system" class="md-nav__link">
+    Custom Fly-By-Wire System
   </a>
+  
+    <nav class="md-nav" aria-label="Custom Fly-By-Wire System">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#known-issues_1" class="md-nav__link">
+    Known issues
+  </a>
+  
+    <nav class="md-nav" aria-label="Known issues">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#not-solved-or-missing" class="md-nav__link">
+    Not solved or missing
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#considered-solved_1" class="md-nav__link">
+    Considered solved
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -959,11 +1215,312 @@
               
                 
                 
-                <h1 id="html-javascript-gauges">HTML &amp; JavaScript Gauges</h1>
-<h2 id="code-structure">Code Structure</h2>
-<p>This is a placeholder.</p>
-<h2 id="core-files">Core Files</h2>
-<p>This is another placeholder.</p>
+                <h1 id="autopilot-fly-by-wire">Autopilot / Fly-By-Wire</h1>
+<div class="admonition warning">
+<p class="admonition-title">Important</p>
+<ul>
+<li>The custom autopilot system needs at least stable 17 fps to work properly. Any lower performance may result in unexpected behaviour.</li>
+<li>Use modern flight model (legacy flight model is not supported)</li>
+<li>It's crucial for the Autothrust system to have properly setup detents. Ensure that you have enough dead zone around the detents.</li>
+<li>Typical issues when this is not done properly: constantly flashing "LVR CLB", FLX / TOGA not engaging or ATHR not holding speed correctly (the latter can also happen when in CLB/OP CLB or DES/OP DES and flying manually -&gt; in that case you need to take care of holding speed with pitch)</li>
+</ul>
+</div>
+<hr />
+<h2 id="custom-autopilot-and-autothrust-system-incl-new-engine-model">Custom Autopilot and Autothrust System incl. new Engine model</h2>
+<p>⚠️ This is work in progress, there are still issues, see the <a href="#known-issues">Known Issues</a></p>
+<h3 id="typical-issues-and-how-to-solve-them">Typical issues and how to solve them</h3>
+<details class="info" open="open"><summary>FMA keeps blinking with message <code>LVR CLB</code></summary><p>If this is the case your throttle calibration is not properly. The values of the throttle axis range from -1.0 to 1.0 independently if you're using reverse on axis or not. When the current throttle position is larger or equal then the start position and smaller or equal than the end position of a detent, the throttles are considered to be in that detent.</p>
+<p>Ensure that:</p>
+<ul>
+<li>detents are large enough defined so hardware inaccuracy is taken into account (i.e. detents on the Thrustmaster TCA are not that hard and values can quite differ even one thinks it's in the detent</li>
+<li>there is enough range between the detents (meaning end position of detent and start position of next detent are at least wide as the detents)</li>
+</ul>
+<p><strong>Important</strong>: if you have issues, don't look at the animation part to check if it's in the detent. Check the values in the EFB, those are relevant and not the animation.</p>
+</details>
+<details class="info"><summary>Autothrust does not hold target speed in manual flight</summary><p>Important rule is to always monitor the FMA. If you're in manual flight and you're in <code>CLB</code>, <code>OP CLB</code>, <code>DES</code> or <code>OP DES</code> the autothrust applies either <code>THR CLB</code> (limited by the throttle levers) or <code>THR IDLE</code>. The speed needs to be controlled by pitch and in manual flight the pilot is responsible to do so by following the flight director orders.</p>
+<p>If this is not your desired mode, you can do two things:</p>
+<ul>
+<li>engage another vertical mode (i.e. V/S or FPA)</li>
+<li>disengage both flight directors, this will force the Autothrust into SPEED mode</li>
+</ul>
+<p><strong>Reminder</strong>: Speed is only controlled properly using thrust when Autothrust is engaged and active, thrust levers are in detent CLB, active FMA mode is <code>SPEED</code> or <code>MACH</code>.</p>
+</details>
+<details class="info"><summary><code>SRS</code> does not engage on take-off</summary><p><code>SRS</code> mode needs at least a V2 entered on TO PERF page. Additionally it does only engage when the detents are set properly. If no FLX temperature is set, this needs to be TOGA. If a FLX temperature is set, it's FLX/MCT or TOGA.</p>
+<p>Other conditions:</p>
+<ul>
+<li>plane needs to be at least 30 s on ground</li>
+<li>Flaps extended at least in position 1+F</li>
+</ul>
+</details>
+<details class="info"><summary><code>RWY</code> does not engage on take-off</summary><p>There is currently no auto-tune available for the LOC on take-off. You need to enter the right frequency manually. Beside that <code>RWY</code> mode only engages with the following conditions:</p>
+<ul>
+<li>LOC signal valid</li>
+<li>LOC deviation smaller than 1/2 dot</li>
+<li>Deviation between plane heading and LOC bearing is &lt; 20°</li>
+<li>Plane needs to be at least 30 s on ground</li>
+<li>Flaps extended at least in position 1+F</li>
+</ul>
+</details>
+<details class="info"><summary><code>LVR CLB</code> flashes immediately after lift-off</summary><p>Ensure that both thrust reduction and acceleration altitude on TO PERF page are properly setup.</p>
+</details>
+<details class="info"><summary><code>LAND</code> mode does not engage</summary><p>Before reaching 400 ft radio altitude the FMA needs to show <code>LOC</code> and <code>G/S</code>. If one of them is still in capture mode (<code>LOC*</code> or <code>G/S*</code>) you need to perform a go around maneuver or land manually, LAND will not engage that way.</p>
+</details>
+<details class="info"><summary>Autoland does not perform as expected</summary><p>The Autoland system is quite complex and is dependent on multiple environmental conditions to work properly, such as:</p>
+<ul>
+<li>LOC accuracy in terms</li>
+<li>alignment of heading to runway heading</li>
+<li>alignment on runway centerline</li>
+<li>availability down to 0 ft and also during roll-out</li>
+<li>G/S accuracy in terms</li>
+<li>alignment to correct height (50 ft over runway threshold)</li>
+<li>availability down to 50 ft</li>
+<li>ground in front of runway threshold needs to be more or less stable (no fast raising terrain) beginning 200 ft radio altitude</li>
+</ul>
+<p><strong>Reminder:</strong> If the autoland warning light goes on it's IRL procedure to go around!</p>
+<p>Unfortunately a lot of runways (either using Navigraph or not) have issues for LOC and/or G/S, either in terms of alignment or availability. On many runways you loose the LOC during <code>ROLL OUT</code>. In that case the roll out has to be performed manually by disengaging the AP.</p>
+</details>
+<hr />
+<h3 id="known-issues">Known issues</h3>
+<p>⚠️ The engine model is not yet finished for all conditions.</p>
+<p>⚠️ The custom autopilot and autothrust system is not yet on study level. In order to achieve this level a longer effort is needed. The system is a large improvement over the default implementation and there is no reason to hold it back longer than necessary.</p>
+<p>ℹ️ Tuning is a large effort to be done for different flight conditions like speed, configuration, weight and center-of-gravity (CG). You can help by reporting issues in certain flight conditions. Please take note of important conditions mentioned before.</p>
+<h4 id="not-solved-or-missing-this-list-is-not-conclusive">Not solved or missing (this list is not conclusive)</h4>
+<h5 id="flight-management">Flight Management</h5>
+<ul>
+<li>❌ Due to lack of LNAV, the flaws of the default flight plan manager still apply (bank to left or right shortly after TO etc)</li>
+<li>❌ Due to lack of VNAV, DES mode is currently only using SPD/MACH</li>
+<li>❌ Due to lack of VNAV, RNAV approaches are not supported yet</li>
+</ul>
+<h5 id="autopilot">Autopilot</h5>
+<ul>
+<li>❌ Transitions might not be as they should</li>
+<li>❌ AP disconnect does not trigger master warning etc.</li>
+<li>❌ NAV mode being armed might show dashes in the FCU instead of selected HDG</li>
+<li>❌ Engine out operations are not yet considered</li>
+<li>❌ AP performance when flying turbulence might not be satisfying in all cases</li>
+<li>❌ AP is not disconnected due to turbulence</li>
+</ul>
+<h5 id="engines">Engines</h5>
+<ul>
+<li>❌ Realistic start-up procedure is missing</li>
+<li>❌ During start, no fuel flow is shown</li>
+<li>❌ Realistic Descent/ Approach idle parameters / drag.</li>
+</ul>
+<h5 id="autothrust">Autothrust</h5>
+<ul>
+<li>❌ N1 thrust limit displayed and achieved may differ</li>
+<li>❌ Thrust limits are preliminary and not finished (they are currently lacking adaptation for Mach)</li>
+</ul>
+<h4 id="first-implementation-available">First implementation available</h4>
+<ul>
+<li>🔸 Switched to different default input source for LNAV, transitions are now better</li>
+<li>🔸 Engines can now be started, realistic start-up procedure is in work</li>
+<li>🔸 first implementation of custom ATHR system is now available</li>
+<li>🔸 principle go-around mode has been added but not all conditions are respected yet</li>
+<li>🔸 NAV mode is for the time being using default flight plan manager until the custom is ready</li>
+<li>🔸 altitude constraints seem to work with CLB and DES (there are many situations out there, so there can still be unknown bugs)</li>
+<li>🔸 Fuel burn should be correct in flight</li>
+<li>🔸 SPD/MACH hold might when flying in curves has been improved</li>
+<li>🔸 FLEX thrust limit is still rough and is also not adapted for Mach yet</li>
+<li>🔸 Pause and slew detection should be ok now</li>
+<li>🔸 Fuel flow is currently always in KG</li>
+<li>🔸 Thrust limits are now corrected for air-conditioning and anti-ice yet</li>
+<li>🔸 LOC* has has been improved in capturing performance, might still need some tuning</li>
+<li>🔸 Flare Law has been improved to handle fast raising ground before the runway; when in 200 ft RA, the ground should in the area of the runway slope, otherwise issues are to be expected</li>
+</ul>
+<h4 id="considered-solved">Considered solved</h4>
+<ul>
+<li>✔️ In case the default AP is for any reason engaged it will be automatically disconnected</li>
+<li>✔️ In manual approach LOC and G/S might be lost too fast with mode reversion to HDG + V/S</li>
+<li>✔️ FMA indications for ATHR system are missing</li>
+<li>✔️ due to this workaround, the engine EGT can go into read area when in (OP) CLB/DES (see workaround above)</li>
+<li>✔️ due to missing custom ATHR system, the (OP) CLB/DES modes might need manual thrust control
+  -&gt; a simple and hacky workaround has been added though</li>
+<li>✔️ FD off/on does not deactivate all FMA items</li>
+<li>✔️ Engagement of AP with FD off is incorrect</li>
+<li>✔️ Flight Director (FD) guidance in pitch is not fully satisfying yet</li>
+<li>✔️ Fuel used since start is not shown correctly on ECAM fuel page, it's basically 0</li>
+<li>✔️ AP is disconnected due to sidestick or rudder input</li>
+<li>✔️ EWD has been improved to correctly display N2 &gt; 100</li>
+</ul>
+<hr />
+<h3 id="mapping-of-events-to-control-autopilot-autothrust">Mapping of events to control autopilot / autothrust</h3>
+<p>⚠️ Not all events are working and it's also difficult to map all default events because there is no 100% match.</p>
+<p>The recommendation is to use a combination of default events and the custom events to trigger the FCU. This has been tested with the Honeycomb Bravo Throttle using SPAD.next or FSUIPC.</p>
+<p>ℹ️ You find an event file for FSUIPC in subfolder FSUIPC. This needs to be placed in the FSUIPC folder beside the ini-file to be recognized. Then you can select those custom events for button press (for FS Control).</p>
+<p>ℹ️ You find an profile for SPAD.neXt in subfolder SPAD.neXt. This needs to be placed your configured SPAD.neXt profile folder. Then you can create a new profile based on that or by editing the XML files you can take-over the custom events in your existing profile.</p>
+<p><strong>Default events:</strong></p>
+<table>
+<thead>
+<tr>
+<th align="right">Event</th>
+<th>Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">AP_MASTER</td>
+<td>Toggles AP 1 master</td>
+</tr>
+<tr>
+<td align="right">AUTOPILOT_OFF</td>
+<td>Disconnect AP (like red button on sidestick)</td>
+</tr>
+<tr>
+<td align="right">AUTOPILOT_DISENGAGE_TOGGLE</td>
+<td>Same as AP_MASTER</td>
+</tr>
+<tr>
+<td align="right">AP_SPD_VAR_INC</td>
+<td>Clockwise dial Speed knob on FCU</td>
+</tr>
+<tr>
+<td align="right">AP_SPD_VAR_DEC</td>
+<td>Anti-clockwise dial Speed knob on FCU</td>
+</tr>
+<tr>
+<td align="right">HEADING_BUG_INC</td>
+<td>Clockwise dial Heading knob on FCU</td>
+</tr>
+<tr>
+<td align="right">HEADING_BUG_DEC</td>
+<td>Anti-clockwise dial Heading knob on FCU</td>
+</tr>
+<tr>
+<td align="right">AP_VS_VAR_INC</td>
+<td>Clockwise dial V/S knob on FCU</td>
+</tr>
+<tr>
+<td align="right">AP_VS_VAR_DEC</td>
+<td>Anti-clockwise dial V/S knob on FCU</td>
+</tr>
+<tr>
+<td align="right">AP_APR_HOLD</td>
+<td>Push APPR button on FCU</td>
+</tr>
+<tr>
+<td align="right">AP_LOC_HOLD</td>
+<td>Push LOC button on FCU</td>
+</tr>
+<tr>
+<td align="right">AUTO_THROTTLE_ARM</td>
+<td>Push ATHR button on FCU</td>
+</tr>
+<tr>
+<td align="right">AUTO_THROTTLE_DISCONNECT</td>
+<td>Disconnect ATHR (like red button on throttle levers)</td>
+</tr>
+<tr>
+<td align="right">AUTO_THROTTLE_TO_GA</td>
+<td>Apply TOGA thrust</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Custom events:</strong></p>
+<table>
+<thead>
+<tr>
+<th align="right">Event</th>
+<th>Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">A32NX.FCU_AP_1_PUSH</td>
+<td>Push AP1 on FCU</td>
+</tr>
+<tr>
+<td align="right">A32NX.FCU_AP_2_PUSH</td>
+<td>Push AP2 on FCU</td>
+</tr>
+<tr>
+<td align="right">A32NX.FCU_SPD_PUSH</td>
+<td>Push Speed knob on FCU</td>
+</tr>
+<tr>
+<td align="right">A32NX.FCU_SPD_PULL</td>
+<td>Pull Speed knob on FCU</td>
+</tr>
+<tr>
+<td align="right">A32NX.FCU_SPD_MACH_TOGGLE_PUSH</td>
+<td>Push SPD/MACH toggle on FCU</td>
+</tr>
+<tr>
+<td align="right">A32NX.FCU_HDG_PUSH</td>
+<td>Push Heading knob on FCU</td>
+</tr>
+<tr>
+<td align="right">A32NX.FCU_HDG_PULL</td>
+<td>Pull Heading knob on FCU</td>
+</tr>
+<tr>
+<td align="right">A32NX.FCU_TRK_FPA_TOGGLE_PUSH</td>
+<td>Push TRK/FPA toggle on FCU</td>
+</tr>
+<tr>
+<td align="right">A32NX.FCU_ALT_PUSH</td>
+<td>Push Altitude knob on FCU</td>
+</tr>
+<tr>
+<td align="right">A32NX.FCU_ALT_PULL</td>
+<td>Pull Altitude knob on FCU</td>
+</tr>
+<tr>
+<td align="right">A32NX.FCU_VS_PUSH</td>
+<td>Push V/S knob on FCU</td>
+</tr>
+<tr>
+<td align="right">A32NX.FCU_VS_PULL</td>
+<td>Pull V/S knob on FCU</td>
+</tr>
+<tr>
+<td align="right">A32NX.FCU_LOC_PUSH</td>
+<td>Push LOC button on FCU</td>
+</tr>
+<tr>
+<td align="right">A32NX.FCU_APPR_PUSH</td>
+<td>Push APPR button on FCU</td>
+</tr>
+<tr>
+<td align="right">A32NX.FCU_EXPED_PUSH</td>
+<td>Push EXPED button on FCU</td>
+</tr>
+</tbody>
+</table>
+<h3 id="sensitivity-dead-zones-and-throttle-mapping">Sensitivity, dead zones and throttle mapping</h3>
+<p>ℹ️ It is recommended that the sidestick uses a linear sensitivity with only dead zone set appropriately.</p>
+<p>ℹ️ It is recommended to use a linear sensitivity for the throttle axis.</p>
+<p>ℹ️ The throttle configuration can be adapted using the EFB.</p>
+<p>⚠️ When throttle sensitivity is changed, the throttle configuration needs to be adapted in most cases.</p>
+<hr />
+<h2 id="custom-fly-by-wire-system">Custom Fly-By-Wire System</h2>
+<p>⚠️ This is work in progress, there are still issues, see section Known issues below!</p>
+<h3 id="known-issues_1">Known issues</h3>
+<p>⚠️ The custom fly-by-wire system is not yet on study level. In order to achieve this level a longer effort is needed. The system is a large improvement over the default implementation and there is no reason to hold it back longer than necessary.</p>
+<p>ℹ️ Tuning is a large effort to be done for differnt flight conditions like speed, configuration, weight and center-of-gravity (CG). You can help by reporting issues in certain flight conditions. Please take note of important conditions mentioned before.</p>
+<h4 id="not-solved-or-missing">Not solved or missing</h4>
+<ul>
+<li>❌ High speed protection</li>
+<li>❌ High angle of attack (AoA) protection</li>
+<li>❌ Alternative Law</li>
+<li>❌ Direct Law (in flight)</li>
+<li>❌ Simulation of hydraulic system missing -&gt; when engines are off / electric pump is off control surfaces should not work</li>
+</ul>
+<h4 id="considered-solved_1">Considered solved</h4>
+<ul>
+<li>✔️ Normal Law (Pitch) creates a too small pitch rate on low speed or g-load on higher speeds</li>
+<li>✔️ Rotation Law including tailstrike protection</li>
+<li>✔️ pitch normal law (C* law) sometimes oscillates on low speed</li>
+<li>✔️ yaw damper / rudder control missing</li>
+<li>✔️ pitch attitude protections can oscillate</li>
+<li>✔️ nose-down pitch attitude protection sometimes kicks-in too early</li>
+<li>✔️ transformation from ground to flight mode might take longer than intended (nose might drop after releasing the stick)</li>
+<li>✔️ auto-trim feature locks trim wheel completely</li>
+<li>✔️ flare mode might be stronger than expected, needs to be investigated</li>
+<li>✔️ after landing sometimes a slight pitch up moment is introduced, needs to be investigated</li>
+<li>✔️ strange interaction with default auto thrust system -&gt; thrust lever sometimes does not move, fix is to manually disable ATHR</li>
+<li>✔️ after a longer pause the fbw system goes crazy</li>
+</ul>
                 
                   
                     
@@ -972,7 +1529,7 @@
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">January 12, 2021</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">April 23, 2021</span>
     
   </small>
 </div>
@@ -995,7 +1552,7 @@
   
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
-        <a href="../docker/" class="md-footer__link md-footer__link--prev" rel="prev">
+        <a href="../faq/" class="md-footer__link md-footer__link--prev" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -1004,19 +1561,19 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              Docker & Building
+              Common Questions
             </div>
           </div>
         </a>
       
       
-        <a href="../wasm-gauges/" class="md-footer__link md-footer__link--next" rel="next">
+        <a href="../../airliner-flying-guide/overview/" class="md-footer__link md-footer__link--next" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              WASM Gauges
+              Overview
             </div>
           </div>
           <div class="md-footer__button md-icon">
