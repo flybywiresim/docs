@@ -50,6 +50,9 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
             - Make sure the check mark next to `Beta: Use UTF-8 for worldwide language support is selected`.
             - Click OK and restart your computer. 
     
+* ADIRS not aligned when spawning anywhere except cold & dark at a gate (*intermittent issue*)
+    - Workaround: Restart the flight 
+    
 * Wipers don't function correctly on FSX Liveries
 
 ***
