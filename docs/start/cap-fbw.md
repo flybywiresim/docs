@@ -1,4 +1,4 @@
-# Needs Title
+# Autopilot / Fly-By-Wire
 
 !!! warning "Important"
 
@@ -79,13 +79,16 @@
 
     Unfortunately a lot of runways (either using Navigraph or not) have issues for LOC and/or G/S, either in terms of alignment or availability. On many runways you loose the LOC during `ROLL OUT`. In that case the roll out has to be performed manually by disengaging the AP.
 
+***
+
 ### Known issues
 
 ⚠️ The engine model is not yet finished for all conditions.
 
 ⚠️ The custom autopilot and autothrust system is not yet on study level. In order to achieve this level a longer effort is needed. The system is a large improvement over the default implementation and there is no reason to hold it back longer than necessary.
 
-ℹ️ Tuning is a large effort to be done for differnt flight conditions like speed, configuration, weight and center-of-gravity (CG). You can help by reporting issues in certain flight conditions. Please take note of important conditions mentioned before.
+ℹ️ Tuning is a large effort to be done for different flight conditions like speed, configuration, weight and center-of-gravity (CG). You can help by reporting issues in certain flight conditions. Please take note of important conditions mentioned before.
+
 
 #### Not solved or missing (this list is not conclusive)
 
@@ -147,6 +150,8 @@
 * ✔️ AP is disconnected due to sidestick or rudder input
 * ✔️ EWD has been improved to correctly display N2 > 100
 
+***
+
 ### Mapping of events to control autopilot / autothrust
 
 ⚠️ Not all events are working and it's also difficult to map all default events because there is no 100% match.
@@ -157,7 +162,7 @@ The recommendation is to use a combination of default events and the custom even
 
 ℹ️ You find an profile for SPAD.neXt in subfolder SPAD.neXt. This needs to be placed your configured SPAD.neXt profile folder. Then you can create a new profile based on that or by editing the XML files you can take-over the custom events in your existing profile.
 
-Default events:
+**Default events:**
 
 | Event | Function |
 | ---: | --- |
@@ -176,7 +181,7 @@ Default events:
 | AUTO_THROTTLE_DISCONNECT | Disconnect ATHR (like red button on throttle levers)
 | AUTO_THROTTLE_TO_GA | Apply TOGA thrust
 
-Custom events:
+**Custom events:**
 
 | Event | Function |
 | ---: | --- |
@@ -205,6 +210,8 @@ Custom events:
 ℹ️ The throttle configuration can be adapted using the EFB.
 
 ⚠️ When throttle sensitivity is changed, the throttle configuration needs to be adapted in most cases.
+
+***
 
 ## Custom Fly-By-Wire System
 
