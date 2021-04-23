@@ -7,6 +7,8 @@
     * It's crucial for the Autothrust system to have properly setup detents. Ensure that you have enough dead zone around the detents.
     * Typical issues when this is not done properly: constantly flashing "LVR CLB", FLX / TOGA not engaging or ATHR not holding speed correctly (the latter can also happen when in CLB/OP CLB or DES/OP DES and flying manually -> in that case you need to take care of holding speed with pitch)
 
+***
+
 ## Custom Autopilot and Autothrust System incl. new Engine model
 
 ⚠️ This is work in progress, there are still issues, see the [Known Issues](#known-issues)
