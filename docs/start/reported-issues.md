@@ -42,6 +42,17 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
     - Invisible plane / Sounds not working / Installation issues
         - Workaround: Reinstall A32NX, delete any old version from your Community Folder. Ensure you are on Installer v1.2.0 or above. 
     
+* Autopilot, FADEC, electrical system unwanted behavior
+    - In rare cases the above mentioned systems may not start or behave erratically. This is in part due to `UTF-8` language support beta not enabled on your machine.
+        - Solution: 
+            - Open Windows Control Panel -> Region.
+            - Go to the Administrative tab and click Change system locale...
+            - Make sure the check mark next to `Beta: Use UTF-8 for worldwide language support is selected`.
+            - Click OK and restart your computer. 
+    
+* ADIRS not aligned when spawning anywhere except cold & dark at a gate (*intermittent issue*)
+    - Workaround: Restart the flight 
+    
 * Wipers don't function correctly on FSX Liveries
 
 ***
