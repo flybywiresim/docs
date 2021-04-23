@@ -9,75 +9,75 @@
 
 ## Custom Autopilot and Autothrust System incl. new Engine model
 
-⚠️ This is work in progress, there are still issues, see section Known issues below!
+⚠️ This is work in progress, there are still issues, see the [Known Issues](#known-issues)
 
 ### Typical issues and how to solve them
 
-#### FMA keeps blinking with message `LVR CLB`
+???+ info "FMA keeps blinking with message `LVR CLB`"
 
-If this is the case your throttle calibration is not properly. The values of the throttle axis range from -1.0 to 1.0 independently if you're using reverse on axis or not. When the current throttle position is larger or equal then the start position and smaller or equal than the end position of a detent, the throttles are considered to be in that detent.
+    If this is the case your throttle calibration is not properly. The values of the throttle axis range from -1.0 to 1.0 independently if you're using reverse on axis or not. When the current throttle position is larger or equal then the start position and smaller or equal than the end position of a detent, the throttles are considered to be in that detent.
 
-Ensure that:
+    Ensure that:
 
-* detents are large enough defined so hardware inaccuracy is taken into account (i.e. detents on the Thrustmaster TCA are not that hard and values can quite differ even one thinks it's in the detent
-* there is enough range between the detents (meaning end position of detent and start position of next detent are at least wide as the detents)
+    * detents are large enough defined so hardware inaccuracy is taken into account (i.e. detents on the Thrustmaster TCA are not that hard and values can quite differ even one thinks it's in the detent
+    * there is enough range between the detents (meaning end position of detent and start position of next detent are at least wide as the detents)
 
-**Important**: if you have issues, don't look at the animation part to check if it's in the detent. Check the values in the EFB, those are relevant and not the animation.
+    **Important**: if you have issues, don't look at the animation part to check if it's in the detent. Check the values in the EFB, those are relevant and not the animation.
 
-#### Autothrust does not hold target speed in manual flight
+??? info "Autothrust does not hold target speed in manual flight"
 
-Important rule is to always monitor the FMA. If you're in manual flight and you're in `CLB`, `OP CLB`, `DES` or `OP DES` the autothrust applies either `THR CLB` (limited by the throttle levers) or `THR IDLE`. The speed needs to be controlled by pitch and in manual flight the pilot is responsible to do so by following the flight director orders.
+    Important rule is to always monitor the FMA. If you're in manual flight and you're in `CLB`, `OP CLB`, `DES` or `OP DES` the autothrust applies either `THR CLB` (limited by the throttle levers) or `THR IDLE`. The speed needs to be controlled by pitch and in manual flight the pilot is responsible to do so by following the flight director orders.
 
-If this is not your desired mode, you can do two things:
+    If this is not your desired mode, you can do two things:
 
-* engage another vertical mode (i.e. V/S or FPA)
-* disengage both flight directors, this will force the Autothrust into SPEED mode
+    * engage another vertical mode (i.e. V/S or FPA)
+    * disengage both flight directors, this will force the Autothrust into SPEED mode
 
-**Reminder**: Speed is only controlled properly using thrust when Autothrust is engaged and active, thrust levers are in detent CLB, active FMA mode is `SPEED` or `MACH`.
+    **Reminder**: Speed is only controlled properly using thrust when Autothrust is engaged and active, thrust levers are in detent CLB, active FMA mode is `SPEED` or `MACH`.
 
-#### `SRS` does not engage on take-off
+??? info "`SRS` does not engage on take-off"
 
-`SRS` mode needs at least a V2 entered on TO PERF page. Additionally it does only engage when the detents are set properly. If no FLX temperature is set, this needs to be TOGA. If a FLX temperature is set, it's FLX/MCT or TOGA.
+    `SRS` mode needs at least a V2 entered on TO PERF page. Additionally it does only engage when the detents are set properly. If no FLX temperature is set, this needs to be TOGA. If a FLX temperature is set, it's FLX/MCT or TOGA.
 
-Other conditions:
+    Other conditions:
 
-* plane needs to be at least 30 s on ground
-* Flaps extended at least in position 1+F
+    * plane needs to be at least 30 s on ground
+    * Flaps extended at least in position 1+F
 
-#### `RWY` does not engage on take-off
+??? info "`RWY` does not engage on take-off"
 
-There is currently no auto-tune available for the LOC on take-off. You need to enter the right frequency manually. Beside that `RWY` mode only engages with the following conditions:
+    There is currently no auto-tune available for the LOC on take-off. You need to enter the right frequency manually. Beside that `RWY` mode only engages with the following conditions:
 
-* LOC signal valid
-* LOC deviation smaller than 1/2 dot
-* Deviation between plane heading and LOC bearing is < 20°
-* Plane needs to be at least 30 s on ground
-* Flaps extended at least in position 1+F
+    * LOC signal valid
+    * LOC deviation smaller than 1/2 dot
+    * Deviation between plane heading and LOC bearing is < 20°
+    * Plane needs to be at least 30 s on ground
+    * Flaps extended at least in position 1+F
 
-#### `LVR CLB` flashes immediately after lift-off
+??? info "`LVR CLB` flashes immediately after lift-off"
 
-Ensure that both thrust reduction and acceleration altitude on TO PERF page are properly setup.
+    Ensure that both thrust reduction and acceleration altitude on TO PERF page are properly setup.
 
-#### `LAND` mode does not engage
+??? info "`LAND` mode does not engage"
 
-Before reaching 400 ft radio altitude the FMA needs to show `LOC` and `G/S`. If one of them is still in capture mode (`LOC*` or `G/S*`) you need to perform a go around maneuver or land manually, LAND will not engage that way.
+    Before reaching 400 ft radio altitude the FMA needs to show `LOC` and `G/S`. If one of them is still in capture mode (`LOC*` or `G/S*`) you need to perform a go around maneuver or land manually, LAND will not engage that way.
 
-#### Autoland does not perform as expected
+??? info "Autoland does not perform as expected"
 
-The Autoland system is quite complex and is dependent on multiple environmental conditions to work properly, such as:
+    The Autoland system is quite complex and is dependent on multiple environmental conditions to work properly, such as:
 
-* LOC accuracy in terms
-    * alignment of heading to runway heading
-    * alignment on runway centerline
-    * availability down to 0 ft and also during roll-out
-* G/S accuracy in terms
-    * alignment to correct height (50 ft over runway threshold)
-    * availability down to 50 ft
-* ground in front of runway threshold needs to be more or less stable (no fast raising terrain) beginning 200 ft radio altitude
+    * LOC accuracy in terms
+      * alignment of heading to runway heading
+      * alignment on runway centerline
+      * availability down to 0 ft and also during roll-out
+    * G/S accuracy in terms
+      * alignment to correct height (50 ft over runway threshold)
+      * availability down to 50 ft
+    * ground in front of runway threshold needs to be more or less stable (no fast raising terrain) beginning 200 ft radio altitude
 
-**Reminder:** If the autoland warning light goes on it's IRL procedure to go around!
+    **Reminder:** If the autoland warning light goes on it's IRL procedure to go around!
 
-Unfortunately a lot of runways (either using Navigraph or not) have issues for LOC and/or G/S, either in terms of alignment or availability. On many runways you loose the LOC during `ROLL OUT`. In that case the roll out has to be performed manually by disengaging the AP.
+    Unfortunately a lot of runways (either using Navigraph or not) have issues for LOC and/or G/S, either in terms of alignment or availability. On many runways you loose the LOC during `ROLL OUT`. In that case the roll out has to be performed manually by disengaging the AP.
 
 ### Known issues
 
