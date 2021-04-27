@@ -1,6 +1,13 @@
 # Contributing
 
-Requires a working knowledge of GitHub.
+Please reference the information below when contributing to this repository. 
+
+## Requirements
+
+* Write documentation professionally and clearly. 
+* Use the full availability of features baked into `Material for MkDocs` to create readable and well formatted guides.
+* Proofread your work before marking Ready for Review.
+* Ensure relevant filenames are web friendly slugs.
 
 ## Pull Request Process
 Reminder the main branch is `primary`
