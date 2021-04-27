@@ -4,7 +4,7 @@ Repository for the FlyByWire Simulations Guides website.
 
 [FlyByWire Simulations Guides Website](https://docs.flybywiresim.com/)
 
-[Main FlyByWire Simulations Repo](https://github.com/flybywiresim/a32nx)
+[FlyByWire Simulations A32NX Repo](https://github.com/flybywiresim/a32nx)
 
 ## Contributing
 
