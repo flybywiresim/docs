@@ -1308,13 +1308,15 @@
 </div>
 <hr />
 <h2 id="reporting-issues">Reporting issues</h2>
-<p>When reporting issues please take the following into account:
-    * read the known and typical issues to be sure it's not already known or can be solved that way
-    * have a look at your fps
-    * note down which flight condition you are (in flight, on ground)
-    * note down what the FMA showed (or take a screenshot)
-    * you can press the DFDR button (right of the throttle levers and above the TCAS panel) to mark an event
-    * if you ask for support you might be asked for a FDR file, those can be found in the work folder (see below)</p>
+<p>When reporting issues please take the following into account:</p>
+<ul>
+<li>read the known and typical issues to be sure it's not already known or can be solved that way</li>
+<li>have a look at your fps</li>
+<li>note down which flight condition you are (in flight, on ground)</li>
+<li>note down what the FMA showed (or even better: take a screenshot or make a video)</li>
+<li>you can press the DFDR button (right of the throttle levers and above the TCAS panel) to mark an event</li>
+<li>if you ask for support you might be asked for a FDR file, those can be found in the work folder (see below)</li>
+</ul>
 <h3 id="work-folder-location">Work folder location</h3>
 <h4 id="microsoft-store-version">Microsoft Store Version</h4>
 <p>The work folder can be found here:
@@ -1604,14 +1606,37 @@
 </tr>
 </tbody>
 </table>
-<p><strong>FCU variables:</strong>
-| Event | Function |
-| ---: | --- |
-| AUTOPILOT AIRSPEED HOLD VAR | Current Airspeed target (can be selected or managed)
-| L:A32NX_AUTOPILOT_HEADING_SELECTED | Selected Heading in FCU
-| AUTOPILOT ALTITUDE LOCK VAR:3 | Selected Altitude in FCU
-| L:A32NX_AUTOPILOT_FPA_SELECTED | Selected FPA in FCU
-| L:A32NX_AUTOPILOT_VS_SELECTED | Selected V/S in FCU</p>
+<p><strong>FCU variables:</strong></p>
+<table>
+<thead>
+<tr>
+<th align="right">Event</th>
+<th>Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">AUTOPILOT AIRSPEED HOLD VAR</td>
+<td>Current Airspeed target (can be selected or managed)</td>
+</tr>
+<tr>
+<td align="right">L:A32NX_AUTOPILOT_HEADING_SELECTED</td>
+<td>Selected Heading in FCU</td>
+</tr>
+<tr>
+<td align="right">AUTOPILOT ALTITUDE LOCK VAR:3</td>
+<td>Selected Altitude in FCU</td>
+</tr>
+<tr>
+<td align="right">L:A32NX_AUTOPILOT_FPA_SELECTED</td>
+<td>Selected FPA in FCU</td>
+</tr>
+<tr>
+<td align="right">L:A32NX_AUTOPILOT_VS_SELECTED</td>
+<td>Selected V/S in FCU</td>
+</tr>
+</tbody>
+</table>
 <h3 id="sensitivity-dead-zones-and-throttle-mapping">Sensitivity, dead zones and throttle mapping</h3>
 <p>ℹ️ It is recommended that the sidestick uses a linear sensitivity with only dead zone set appropriately.</p>
 <p>ℹ️ It is recommended to use a linear sensitivity for the throttle axis.</p>
