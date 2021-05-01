@@ -6,8 +6,31 @@
     * Use modern flight model (legacy flight model is not supported)
     * It's crucial for the Autothrust system to have properly setup detents. Ensure that you have enough dead zone around the detents.
     * Typical issues when this is not done properly: constantly flashing "LVR CLB", FLX / TOGA not engaging or ATHR not holding speed correctly (the latter can also happen when in CLB/OP CLB or DES/OP DES and flying manually -> in that case you need to take care of holding speed with pitch)
+    * any mod or add-on that changes the physics or has impact on the flight model are **not supported**
 
 ***
+
+## Reporting issues
+
+When reporting issues please take the following into account:
+    * read the known and typical issues to be sure it's not already known or can be solved that way
+    * have a look at your fps
+    * note down which flight condition you are (in flight, on ground)
+    * note down what the FMA showed (or take a screenshot)
+    * you can press the DFDR button (right of the throttle levers and above the TCAS panel) to mark an event
+    * if you ask for support you might be asked for a FDR file, those can be found in the work folder (see below)
+
+### Work folder location
+
+#### Microsoft Store Version
+
+The work folder can be found here:
+`%LOCALAPPDATA%\Packages\Microsoft.FlightSimulator_8wekyb3d8bbwe\LocalState\packages\flybywire-aircraft-a320-neo\work\`
+
+#### Steam Version
+
+The work folder can be found here:
+`%APPDATA%\Microsoft Flight Simulator\Packages\flybywire-aircraft-a320-neo\work\`
 
 ## Custom Autopilot and Autothrust System incl. new Engine model
 
@@ -68,11 +91,11 @@
 
     The Autoland system is quite complex and is dependent on multiple environmental conditions to work properly, such as:
 
-    * LOC accuracy in terms
+    * LOC accuracy in terms of
       * alignment of heading to runway heading
       * alignment on runway centerline
       * availability down to 0 ft and also during roll-out
-    * G/S accuracy in terms
+    * G/S accuracy in terms of
       * alignment to correct height (50 ft over runway threshold)
       * availability down to 50 ft
     * ground in front of runway threshold needs to be more or less stable (no fast raising terrain) beginning 200 ft radio altitude
@@ -81,16 +104,37 @@
 
     Unfortunately a lot of runways (either using Navigraph or not) have issues for LOC and/or G/S, either in terms of alignment or availability. On many runways you loose the LOC during `ROLL OUT`. In that case the roll out has to be performed manually by disengaging the AP.
 
+??? info "Flight controls are not working after reload of the sim or airplane"
+
+    Ensure that no `SimConnect.cfg` is in the Documents folder of your user profile. An older version of Kinetic Assistant installed that file and it's causing issues with SimConnect connection between our custom systems and the sim. 
+
+??? info "Autopilot is osciallating on approach or in flight"
+
+    Ensure that you get enough frames per second (see on top).
+
+??? info "Climb performance is not satisfying or plane drops or increases nose heavily on approach"
+
+    Ensure that you're using modern flight model (Options -> General -> Flight Model). Beside that also ensure that you don't have any mods or add-ons installed that have influence on the flight model or other physics.
+
+??? info "Autopilot oscillates when using time compression"
+
+    Time compression is not fully supported yet, this applies also to fuel burn (time compression is not taken into account).
+
+    The reason why it can work for some and not for others is how time compression is working. For example when using time compression of 2x for the custom systems it's like having 1/2 of your displayed fps, when you're using 4x it's like 1/4 of it. So taking into account the 17 fps requirement it means you need ~ 30 fps and ~ 45 fps for 4x to work somehow, at least for smooth cruise.
+
+    When you encounter heavy turbulence it might be needed that time compression is reduced.
+
+    For the time being we do not recommend using it.
+
+??? info "Ailerons are not working when using the keyboard"
+
+    There is currently an issue with the associated events and there is currently no way to solve it.
+
+    We highly recommend using a controller with an axis assigned to use the plane.
+
 ***
 
 ### Known issues
-
-⚠️ The engine model is not yet finished for all conditions.
-
-⚠️ The custom autopilot and autothrust system is not yet on study level. In order to achieve this level a longer effort is needed. The system is a large improvement over the default implementation and there is no reason to hold it back longer than necessary.
-
-ℹ️ Tuning is a large effort to be done for different flight conditions like speed, configuration, weight and center-of-gravity (CG). You can help by reporting issues in certain flight conditions. Please take note of important conditions mentioned before.
-
 
 #### Not solved or missing (this list is not conclusive)
 
@@ -102,39 +146,34 @@
 
 ##### Autopilot
 
-* ❌ Transitions might not be as they should
 * ❌ AP disconnect does not trigger master warning etc.
 * ❌ NAV mode being armed might show dashes in the FCU instead of selected HDG
 * ❌ Engine out operations are not yet considered
 * ❌ AP performance when flying turbulence might not be satisfying in all cases
 * ❌ AP is not disconnected due to turbulence
+* ❌ Time compression is not supported
 
 ##### Engines
 
 * ❌ Realistic start-up procedure is missing
 * ❌ During start, no fuel flow is shown
 * ❌ Realistic Descent/ Approach idle parameters / drag.
+* ❌ Time compression is not supported (fuel burn is not adapted for time compression)
 
 ##### Autothrust
 
-* ❌ N1 thrust limit displayed and achieved may differ
-* ❌ Thrust limits are preliminary and not finished (they are currently lacking adaptation for Mach)
+* ❌ N1 thrust limit displayed and achieved may differ slightly in certain situations
 
 #### First implementation available
 
-* 🔸 Switched to different default input source for LNAV, transitions are now better
+* 🔸 Some transitions might not be as they should or are missing
 * 🔸 Engines can now be started, realistic start-up procedure is in work
-* 🔸 first implementation of custom ATHR system is now available
 * 🔸 principle go-around mode has been added but not all conditions are respected yet
 * 🔸 NAV mode is for the time being using default flight plan manager until the custom is ready
 * 🔸 altitude constraints seem to work with CLB and DES (there are many situations out there, so there can still be unknown bugs)
-* 🔸 Fuel burn should be correct in flight
-* 🔸 SPD/MACH hold might when flying in curves has been improved
 * 🔸 FLEX thrust limit is still rough and is also not adapted for Mach yet
-* 🔸 Pause and slew detection should be ok now
-* 🔸 Fuel flow is currently always in KG
+* 🔸 Thrust limits are already very good but might be improved in the future (they are currently lacking adaptation for Mach)
 * 🔸 Thrust limits are now corrected for air-conditioning and anti-ice yet
-* 🔸 LOC* has has been improved in capturing performance, might still need some tuning
 * 🔸 Flare Law has been improved to handle fast raising ground before the runway; when in 200 ft RA, the ground should in the area of the runway slope, otherwise issues are to be expected
 
 #### Considered solved
@@ -151,6 +190,13 @@
 * ✔️ Fuel used since start is not shown correctly on ECAM fuel page, it's basically 0
 * ✔️ AP is disconnected due to sidestick or rudder input
 * ✔️ EWD has been improved to correctly display N2 > 100
+* ✔️ Fuel flow is currently always in KG
+* ✔️ Pause and slew detection should be ok now
+* ✔️ SPD/MACH hold might when flying in curves has been improved
+* ✔️ Fuel burn should be correct in flight
+* ✔️ ATHR implementation is already quite complete
+* ✔️ Switched to different default input source for LNAV, transitions are now much better
+* ✔️ LOC* has has been improved in capturing performance
 
 ***
 
@@ -175,6 +221,8 @@ The recommendation is to use a combination of default events and the custom even
 | AP_SPD_VAR_DEC | Anti-clockwise dial Speed knob on FCU
 | HEADING_BUG_INC | Clockwise dial Heading knob on FCU
 | HEADING_BUG_DEC | Anti-clockwise dial Heading knob on FCU
+| AP_ALT_VAR_INC | Clockwise dial ALT knob on FCU
+| AP_ALT_VAR_DEC | Anti-clockwise dial ALT knob on FCU
 | AP_VS_VAR_INC | Clockwise dial V/S knob on FCU
 | AP_VS_VAR_DEC | Anti-clockwise dial V/S knob on FCU
 | AP_APR_HOLD | Push APPR button on FCU
@@ -203,6 +251,15 @@ The recommendation is to use a combination of default events and the custom even
 | A32NX.FCU_APPR_PUSH | Push APPR button on FCU
 | A32NX.FCU_EXPED_PUSH | Push EXPED button on FCU
 
+**FCU variables:**
+| Event | Function |
+| ---: | --- |
+| AUTOPILOT AIRSPEED HOLD VAR | Current Airspeed target (can be selected or managed)
+| L:A32NX_AUTOPILOT_HEADING_SELECTED | Selected Heading in FCU
+| AUTOPILOT ALTITUDE LOCK VAR:3 | Selected Altitude in FCU
+| L:A32NX_AUTOPILOT_FPA_SELECTED | Selected FPA in FCU
+| L:A32NX_AUTOPILOT_VS_SELECTED | Selected V/S in FCU
+
 ### Sensitivity, dead zones and throttle mapping
 
 ℹ️ It is recommended that the sidestick uses a linear sensitivity with only dead zone set appropriately.
@@ -217,8 +274,6 @@ The recommendation is to use a combination of default events and the custom even
 
 ## Custom Fly-By-Wire System
 
-⚠️ This is work in progress, there are still issues, see section Known issues below!
-
 ### Known issues
 
 ⚠️ The custom fly-by-wire system is not yet on study level. In order to achieve this level a longer effort is needed. The system is a large improvement over the default implementation and there is no reason to hold it back longer than necessary.
@@ -232,6 +287,7 @@ The recommendation is to use a combination of default events and the custom even
 * ❌ Alternative Law
 * ❌ Direct Law (in flight)
 * ❌ Simulation of hydraulic system missing -> when engines are off / electric pump is off control surfaces should not work
+* ❌ Ailerons cannot be controlled using the keyboard at the moment (issue with SimConnect events)
 
 #### Considered solved
 
