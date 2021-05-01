@@ -457,6 +457,46 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#reporting-issues" class="md-nav__link">
+    Reporting issues
+  </a>
+  
+    <nav class="md-nav" aria-label="Reporting issues">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#work-folder-location" class="md-nav__link">
+    Work folder location
+  </a>
+  
+    <nav class="md-nav" aria-label="Work folder location">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#microsoft-store-version" class="md-nav__link">
+    Microsoft Store Version
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#steam-version" class="md-nav__link">
+    Steam Version
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#custom-autopilot-and-autothrust-system-incl-new-engine-model" class="md-nav__link">
     Custom Autopilot and Autothrust System incl. new Engine model
   </a>
@@ -1061,6 +1101,46 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#reporting-issues" class="md-nav__link">
+    Reporting issues
+  </a>
+  
+    <nav class="md-nav" aria-label="Reporting issues">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#work-folder-location" class="md-nav__link">
+    Work folder location
+  </a>
+  
+    <nav class="md-nav" aria-label="Work folder location">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#microsoft-store-version" class="md-nav__link">
+    Microsoft Store Version
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#steam-version" class="md-nav__link">
+    Steam Version
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#custom-autopilot-and-autothrust-system-incl-new-engine-model" class="md-nav__link">
     Custom Autopilot and Autothrust System incl. new Engine model
   </a>
@@ -1223,9 +1303,25 @@
 <li>Use modern flight model (legacy flight model is not supported)</li>
 <li>It's crucial for the Autothrust system to have properly setup detents. Ensure that you have enough dead zone around the detents.</li>
 <li>Typical issues when this is not done properly: constantly flashing "LVR CLB", FLX / TOGA not engaging or ATHR not holding speed correctly (the latter can also happen when in CLB/OP CLB or DES/OP DES and flying manually -&gt; in that case you need to take care of holding speed with pitch)</li>
+<li>any mod or add-on that changes the physics or has impact on the flight model are <strong>not supported</strong></li>
 </ul>
 </div>
 <hr />
+<h2 id="reporting-issues">Reporting issues</h2>
+<p>When reporting issues please take the following into account:
+    * read the known and typical issues to be sure it's not already known or can be solved that way
+    * have a look at your fps
+    * note down which flight condition you are (in flight, on ground)
+    * note down what the FMA showed (or take a screenshot)
+    * you can press the DFDR button (right of the throttle levers and above the TCAS panel) to mark an event
+    * if you ask for support you might be asked for a FDR file, those can be found in the work folder (see below)</p>
+<h3 id="work-folder-location">Work folder location</h3>
+<h4 id="microsoft-store-version">Microsoft Store Version</h4>
+<p>The work folder can be found here:
+<code>%LOCALAPPDATA%\Packages\Microsoft.FlightSimulator_8wekyb3d8bbwe\LocalState\packages\flybywire-aircraft-a320-neo\work\</code></p>
+<h4 id="steam-version">Steam Version</h4>
+<p>The work folder can be found here:
+<code>%APPDATA%\Microsoft Flight Simulator\Packages\flybywire-aircraft-a320-neo\work\</code></p>
 <h2 id="custom-autopilot-and-autothrust-system-incl-new-engine-model">Custom Autopilot and Autothrust System incl. new Engine model</h2>
 <p>⚠️ This is work in progress, there are still issues, see the <a href="#known-issues">Known Issues</a></p>
 <h3 id="typical-issues-and-how-to-solve-them">Typical issues and how to solve them</h3>
@@ -1267,11 +1363,11 @@
 </details>
 <details class="info"><summary>Autoland does not perform as expected</summary><p>The Autoland system is quite complex and is dependent on multiple environmental conditions to work properly, such as:</p>
 <ul>
-<li>LOC accuracy in terms</li>
+<li>LOC accuracy in terms of</li>
 <li>alignment of heading to runway heading</li>
 <li>alignment on runway centerline</li>
 <li>availability down to 0 ft and also during roll-out</li>
-<li>G/S accuracy in terms</li>
+<li>G/S accuracy in terms of</li>
 <li>alignment to correct height (50 ft over runway threshold)</li>
 <li>availability down to 50 ft</li>
 <li>ground in front of runway threshold needs to be more or less stable (no fast raising terrain) beginning 200 ft radio altitude</li>
@@ -1279,11 +1375,22 @@
 <p><strong>Reminder:</strong> If the autoland warning light goes on it's IRL procedure to go around!</p>
 <p>Unfortunately a lot of runways (either using Navigraph or not) have issues for LOC and/or G/S, either in terms of alignment or availability. On many runways you loose the LOC during <code>ROLL OUT</code>. In that case the roll out has to be performed manually by disengaging the AP.</p>
 </details>
+<details class="info"><summary>Flight controls are not working after reload of the sim or airplane</summary><p>Ensure that no <code>SimConnect.cfg</code> is in the Documents folder of your user profile. An older version of Kinetic Assistant installed that file and it's causing issues with SimConnect connection between our custom systems and the sim. </p>
+</details>
+<details class="info"><summary>Autopilot is osciallating on approach or in flight</summary><p>Ensure that you get enough frames per second (see on top).</p>
+</details>
+<details class="info"><summary>Climb performance is not satisfying or plane drops or increases nose heavily on approach</summary><p>Ensure that you're using modern flight model (Options -&gt; General -&gt; Flight Model). Beside that also ensure that you don't have any mods or add-ons installed that have influence on the flight model or other physics.</p>
+</details>
+<details class="info"><summary>Autopilot oscillates when using time compression</summary><p>Time compression is not fully supported yet, this applies also to fuel burn (time compression is not taken into account).</p>
+<p>The reason why it can work for some and not for others is how time compression is working. For example when using time compression of 2x for the custom systems it's like having 1/2 of your displayed fps, when you're using 4x it's like 1/4 of it. So taking into account the 17 fps requirement it means you need ~ 30 fps and ~ 45 fps for 4x to work somehow, at least for smooth cruise.</p>
+<p>When you encounter heavy turbulence it might be needed that time compression is reduced.</p>
+<p>For the time being we do not recommend using it.</p>
+</details>
+<details class="info"><summary>Ailerons are not working when using the keyboard</summary><p>There is currently an issue with the associated events and there is currently no way to solve it.</p>
+<p>We highly recommend using a controller with an axis assigned to use the plane.</p>
+</details>
 <hr />
 <h3 id="known-issues">Known issues</h3>
-<p>⚠️ The engine model is not yet finished for all conditions.</p>
-<p>⚠️ The custom autopilot and autothrust system is not yet on study level. In order to achieve this level a longer effort is needed. The system is a large improvement over the default implementation and there is no reason to hold it back longer than necessary.</p>
-<p>ℹ️ Tuning is a large effort to be done for different flight conditions like speed, configuration, weight and center-of-gravity (CG). You can help by reporting issues in certain flight conditions. Please take note of important conditions mentioned before.</p>
 <h4 id="not-solved-or-missing-this-list-is-not-conclusive">Not solved or missing (this list is not conclusive)</h4>
 <h5 id="flight-management">Flight Management</h5>
 <ul>
@@ -1293,39 +1400,34 @@
 </ul>
 <h5 id="autopilot">Autopilot</h5>
 <ul>
-<li>❌ Transitions might not be as they should</li>
 <li>❌ AP disconnect does not trigger master warning etc.</li>
 <li>❌ NAV mode being armed might show dashes in the FCU instead of selected HDG</li>
 <li>❌ Engine out operations are not yet considered</li>
 <li>❌ AP performance when flying turbulence might not be satisfying in all cases</li>
 <li>❌ AP is not disconnected due to turbulence</li>
+<li>❌ Time compression is not supported</li>
 </ul>
 <h5 id="engines">Engines</h5>
 <ul>
 <li>❌ Realistic start-up procedure is missing</li>
 <li>❌ During start, no fuel flow is shown</li>
 <li>❌ Realistic Descent/ Approach idle parameters / drag.</li>
+<li>❌ Time compression is not supported (fuel burn is not adapted for time compression)</li>
 </ul>
 <h5 id="autothrust">Autothrust</h5>
 <ul>
-<li>❌ N1 thrust limit displayed and achieved may differ</li>
-<li>❌ Thrust limits are preliminary and not finished (they are currently lacking adaptation for Mach)</li>
+<li>❌ N1 thrust limit displayed and achieved may differ slightly in certain situations</li>
 </ul>
 <h4 id="first-implementation-available">First implementation available</h4>
 <ul>
-<li>🔸 Switched to different default input source for LNAV, transitions are now better</li>
+<li>🔸 Some transitions might not be as they should or are missing</li>
 <li>🔸 Engines can now be started, realistic start-up procedure is in work</li>
-<li>🔸 first implementation of custom ATHR system is now available</li>
 <li>🔸 principle go-around mode has been added but not all conditions are respected yet</li>
 <li>🔸 NAV mode is for the time being using default flight plan manager until the custom is ready</li>
 <li>🔸 altitude constraints seem to work with CLB and DES (there are many situations out there, so there can still be unknown bugs)</li>
-<li>🔸 Fuel burn should be correct in flight</li>
-<li>🔸 SPD/MACH hold might when flying in curves has been improved</li>
 <li>🔸 FLEX thrust limit is still rough and is also not adapted for Mach yet</li>
-<li>🔸 Pause and slew detection should be ok now</li>
-<li>🔸 Fuel flow is currently always in KG</li>
+<li>🔸 Thrust limits are already very good but might be improved in the future (they are currently lacking adaptation for Mach)</li>
 <li>🔸 Thrust limits are now corrected for air-conditioning and anti-ice yet</li>
-<li>🔸 LOC* has has been improved in capturing performance, might still need some tuning</li>
 <li>🔸 Flare Law has been improved to handle fast raising ground before the runway; when in 200 ft RA, the ground should in the area of the runway slope, otherwise issues are to be expected</li>
 </ul>
 <h4 id="considered-solved">Considered solved</h4>
@@ -1342,6 +1444,13 @@
 <li>✔️ Fuel used since start is not shown correctly on ECAM fuel page, it's basically 0</li>
 <li>✔️ AP is disconnected due to sidestick or rudder input</li>
 <li>✔️ EWD has been improved to correctly display N2 &gt; 100</li>
+<li>✔️ Fuel flow is currently always in KG</li>
+<li>✔️ Pause and slew detection should be ok now</li>
+<li>✔️ SPD/MACH hold might when flying in curves has been improved</li>
+<li>✔️ Fuel burn should be correct in flight</li>
+<li>✔️ ATHR implementation is already quite complete</li>
+<li>✔️ Switched to different default input source for LNAV, transitions are now much better</li>
+<li>✔️ LOC* has has been improved in capturing performance</li>
 </ul>
 <hr />
 <h3 id="mapping-of-events-to-control-autopilot-autothrust">Mapping of events to control autopilot / autothrust</h3>
@@ -1385,6 +1494,14 @@
 <tr>
 <td align="right">HEADING_BUG_DEC</td>
 <td>Anti-clockwise dial Heading knob on FCU</td>
+</tr>
+<tr>
+<td align="right">AP_ALT_VAR_INC</td>
+<td>Clockwise dial ALT knob on FCU</td>
+</tr>
+<tr>
+<td align="right">AP_ALT_VAR_DEC</td>
+<td>Anti-clockwise dial ALT knob on FCU</td>
 </tr>
 <tr>
 <td align="right">AP_VS_VAR_INC</td>
@@ -1487,6 +1604,14 @@
 </tr>
 </tbody>
 </table>
+<p><strong>FCU variables:</strong>
+| Event | Function |
+| ---: | --- |
+| AUTOPILOT AIRSPEED HOLD VAR | Current Airspeed target (can be selected or managed)
+| L:A32NX_AUTOPILOT_HEADING_SELECTED | Selected Heading in FCU
+| AUTOPILOT ALTITUDE LOCK VAR:3 | Selected Altitude in FCU
+| L:A32NX_AUTOPILOT_FPA_SELECTED | Selected FPA in FCU
+| L:A32NX_AUTOPILOT_VS_SELECTED | Selected V/S in FCU</p>
 <h3 id="sensitivity-dead-zones-and-throttle-mapping">Sensitivity, dead zones and throttle mapping</h3>
 <p>ℹ️ It is recommended that the sidestick uses a linear sensitivity with only dead zone set appropriately.</p>
 <p>ℹ️ It is recommended to use a linear sensitivity for the throttle axis.</p>
@@ -1494,7 +1619,6 @@
 <p>⚠️ When throttle sensitivity is changed, the throttle configuration needs to be adapted in most cases.</p>
 <hr />
 <h2 id="custom-fly-by-wire-system">Custom Fly-By-Wire System</h2>
-<p>⚠️ This is work in progress, there are still issues, see section Known issues below!</p>
 <h3 id="known-issues_1">Known issues</h3>
 <p>⚠️ The custom fly-by-wire system is not yet on study level. In order to achieve this level a longer effort is needed. The system is a large improvement over the default implementation and there is no reason to hold it back longer than necessary.</p>
 <p>ℹ️ Tuning is a large effort to be done for differnt flight conditions like speed, configuration, weight and center-of-gravity (CG). You can help by reporting issues in certain flight conditions. Please take note of important conditions mentioned before.</p>
@@ -1505,6 +1629,7 @@
 <li>❌ Alternative Law</li>
 <li>❌ Direct Law (in flight)</li>
 <li>❌ Simulation of hydraulic system missing -&gt; when engines are off / electric pump is off control surfaces should not work</li>
+<li>❌ Ailerons cannot be controlled using the keyboard at the moment (issue with SimConnect events)</li>
 </ul>
 <h4 id="considered-solved_1">Considered solved</h4>
 <ul>
@@ -1529,7 +1654,7 @@
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">April 23, 2021</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">May 1, 2021</span>
     
   </small>
 </div>
