@@ -13,12 +13,13 @@
 ## Reporting issues
 
 When reporting issues please take the following into account:
-    * read the known and typical issues to be sure it's not already known or can be solved that way
-    * have a look at your fps
-    * note down which flight condition you are (in flight, on ground)
-    * note down what the FMA showed (or take a screenshot)
-    * you can press the DFDR button (right of the throttle levers and above the TCAS panel) to mark an event
-    * if you ask for support you might be asked for a FDR file, those can be found in the work folder (see below)
+
+* read the known and typical issues to be sure it's not already known or can be solved that way
+* have a look at your fps
+* note down which flight condition you are (in flight, on ground)
+* note down what the FMA showed (or even better: take a screenshot or make a video)
+* you can press the DFDR button (right of the throttle levers and above the TCAS panel) to mark an event
+* if you ask for support you might be asked for a FDR file, those can be found in the work folder (see below)
 
 ### Work folder location
 
@@ -252,6 +253,7 @@ The recommendation is to use a combination of default events and the custom even
 | A32NX.FCU_EXPED_PUSH | Push EXPED button on FCU
 
 **FCU variables:**
+
 | Event | Function |
 | ---: | --- |
 | AUTOPILOT AIRSPEED HOLD VAR | Current Airspeed target (can be selected or managed)
