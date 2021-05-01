@@ -26,11 +26,13 @@ When reporting issues please take the following into account:
 #### Microsoft Store Version
 
 The work folder can be found here:
+
 `%LOCALAPPDATA%\Packages\Microsoft.FlightSimulator_8wekyb3d8bbwe\LocalState\packages\flybywire-aircraft-a320-neo\work\`
 
 #### Steam Version
 
 The work folder can be found here:
+
 `%APPDATA%\Microsoft Flight Simulator\Packages\flybywire-aircraft-a320-neo\work\`
 
 ## Custom Autopilot and Autothrust System incl. new Engine model
@@ -153,6 +155,8 @@ The work folder can be found here:
 * ❌ AP performance when flying turbulence might not be satisfying in all cases
 * ❌ AP is not disconnected due to turbulence
 * ❌ Time compression is not supported
+* ❌ ROLL OUT law is more sensitive to fps than other laws which can cause oscillations
+* ❌ ROLL OUT law can cause a divert from the runway when the runway is short (i.e. EDNY)
 
 ##### Engines
 
