@@ -6,7 +6,7 @@
     * Use modern flight model (legacy flight model is not supported)
     * It's crucial for the Autothrust system to have properly setup detents. Ensure that you have enough dead zone around the detents.
     * Typical issues when this is not done properly: constantly flashing "LVR CLB", FLX / TOGA not engaging or ATHR not holding speed correctly (the latter can also happen when in CLB/OP CLB or DES/OP DES and flying manually -> in that case you need to take care of holding speed with pitch)
-    * any mod or add-on that changes the physics or has impact on the flight model are **not supported**
+    * Any mod or add-on that changes the physics or has impact on the flight model are **not supported**
 
 ***
 
@@ -115,7 +115,7 @@ The work folder can be found here:
 
     Ensure that no `SimConnect.cfg` is in the Documents folder of your user profile. An older version of Kinetic Assistant installed that file and it's causing issues with SimConnect connection between our custom systems and the sim. 
 
-??? info "Autopilot is osciallating on approach or in flight"
+??? info "Autopilot is oscillating on approach or in flight"
 
     Ensure that you get enough frames per second (see on top).
 
@@ -205,7 +205,7 @@ The work folder can be found here:
 * ✔️ Fuel burn should be correct in flight
 * ✔️ ATHR implementation is already quite complete
 * ✔️ Switched to different default input source for LNAV, transitions are now much better
-* ✔️ LOC* has has been improved in capturing performance
+* ✔️ LOC* has been improved in capturing performance
 
 ***
 
@@ -217,7 +217,7 @@ The recommendation is to use a combination of default events and the custom even
 
 ℹ️ You find an event file for FSUIPC in subfolder FSUIPC. This needs to be placed in the FSUIPC folder beside the ini-file to be recognized. Then you can select those custom events for button press (for FS Control).
 
-ℹ️ You find an profile for SPAD.neXt in subfolder SPAD.neXt. This needs to be placed your configured SPAD.neXt profile folder. Then you can create a new profile based on that or by editing the XML files you can take-over the custom events in your existing profile.
+ℹ️ You find a profile for SPAD.neXt in subfolder SPAD.neXt. This needs to be placed your configured SPAD.neXt profile folder. Then you can create a new profile based on that or by editing the XML files you can take-over the custom events in your existing profile.
 
 **Default events:**
 
@@ -288,7 +288,7 @@ The recommendation is to use a combination of default events and the custom even
 
 ⚠️ The custom fly-by-wire system is not yet on study level. In order to achieve this level a longer effort is needed. The system is a large improvement over the default implementation and there is no reason to hold it back longer than necessary.
 
-ℹ️ Tuning is a large effort to be done for differnt flight conditions like speed, configuration, weight and center-of-gravity (CG). You can help by reporting issues in certain flight conditions. Please take note of important conditions mentioned before.
+ℹ️ Tuning is a large effort to be done for different flight conditions like speed, configuration, weight and center-of-gravity (CG). You can help by reporting issues in certain flight conditions. Please take note of important conditions mentioned before.
 
 #### Not solved or missing
 
