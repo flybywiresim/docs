@@ -1303,7 +1303,7 @@
 <li>Use modern flight model (legacy flight model is not supported)</li>
 <li>It's crucial for the Autothrust system to have properly setup detents. Ensure that you have enough dead zone around the detents.</li>
 <li>Typical issues when this is not done properly: constantly flashing "LVR CLB", FLX / TOGA not engaging or ATHR not holding speed correctly (the latter can also happen when in CLB/OP CLB or DES/OP DES and flying manually -&gt; in that case you need to take care of holding speed with pitch)</li>
-<li>any mod or add-on that changes the physics or has impact on the flight model are <strong>not supported</strong></li>
+<li>Any mod or add-on that changes the physics or has impact on the flight model are <strong>not supported</strong></li>
 </ul>
 </div>
 <hr />
@@ -1317,6 +1317,7 @@
 <li>you can press the DFDR button (right of the throttle levers and above the TCAS panel) to mark an event</li>
 <li>if you ask for support you might be asked for a FDR file, those can be found in the work folder (see below)</li>
 </ul>
+<hr />
 <h3 id="work-folder-location">Work folder location</h3>
 <h4 id="microsoft-store-version">Microsoft Store Version</h4>
 <p>The work folder can be found here:</p>
@@ -1324,6 +1325,7 @@
 <h4 id="steam-version">Steam Version</h4>
 <p>The work folder can be found here:</p>
 <p><code>%APPDATA%\Microsoft Flight Simulator\Packages\flybywire-aircraft-a320-neo\work\</code></p>
+<hr />
 <h2 id="custom-autopilot-and-autothrust-system-incl-new-engine-model">Custom Autopilot and Autothrust System incl. new Engine model</h2>
 <p>⚠️ This is work in progress, there are still issues, see the <a href="#known-issues">Known Issues</a></p>
 <h3 id="typical-issues-and-how-to-solve-them">Typical issues and how to solve them</h3>
@@ -1379,7 +1381,7 @@
 </details>
 <details class="info"><summary>Flight controls are not working after reload of the sim or airplane</summary><p>Ensure that no <code>SimConnect.cfg</code> is in the Documents folder of your user profile. An older version of Kinetic Assistant installed that file and it's causing issues with SimConnect connection between our custom systems and the sim. </p>
 </details>
-<details class="info"><summary>Autopilot is osciallating on approach or in flight</summary><p>Ensure that you get enough frames per second (see on top).</p>
+<details class="info"><summary>Autopilot is oscillating on approach or in flight</summary><p>Ensure that you get enough frames per second (see on top).</p>
 </details>
 <details class="info"><summary>Climb performance is not satisfying or plane drops or increases nose heavily on approach</summary><p>Ensure that you're using modern flight model (Options -&gt; General -&gt; Flight Model). Beside that also ensure that you don't have any mods or add-ons installed that have influence on the flight model or other physics.</p>
 </details>
@@ -1454,14 +1456,14 @@
 <li>✔️ Fuel burn should be correct in flight</li>
 <li>✔️ ATHR implementation is already quite complete</li>
 <li>✔️ Switched to different default input source for LNAV, transitions are now much better</li>
-<li>✔️ LOC* has has been improved in capturing performance</li>
+<li>✔️ LOC* has been improved in capturing performance</li>
 </ul>
 <hr />
 <h3 id="mapping-of-events-to-control-autopilot-autothrust">Mapping of events to control autopilot / autothrust</h3>
 <p>⚠️ Not all events are working and it's also difficult to map all default events because there is no 100% match.</p>
 <p>The recommendation is to use a combination of default events and the custom events to trigger the FCU. This has been tested with the Honeycomb Bravo Throttle using SPAD.next or FSUIPC.</p>
 <p>ℹ️ You find an event file for FSUIPC in subfolder FSUIPC. This needs to be placed in the FSUIPC folder beside the ini-file to be recognized. Then you can select those custom events for button press (for FS Control).</p>
-<p>ℹ️ You find an profile for SPAD.neXt in subfolder SPAD.neXt. This needs to be placed your configured SPAD.neXt profile folder. Then you can create a new profile based on that or by editing the XML files you can take-over the custom events in your existing profile.</p>
+<p>ℹ️ You find a profile for SPAD.neXt in subfolder SPAD.neXt. This needs to be placed your configured SPAD.neXt profile folder. Then you can create a new profile based on that or by editing the XML files you can take-over the custom events in your existing profile.</p>
 <p><strong>Default events:</strong></p>
 <table>
 <thead>
@@ -1648,7 +1650,7 @@
 <h2 id="custom-fly-by-wire-system">Custom Fly-By-Wire System</h2>
 <h3 id="known-issues_1">Known issues</h3>
 <p>⚠️ The custom fly-by-wire system is not yet on study level. In order to achieve this level a longer effort is needed. The system is a large improvement over the default implementation and there is no reason to hold it back longer than necessary.</p>
-<p>ℹ️ Tuning is a large effort to be done for differnt flight conditions like speed, configuration, weight and center-of-gravity (CG). You can help by reporting issues in certain flight conditions. Please take note of important conditions mentioned before.</p>
+<p>ℹ️ Tuning is a large effort to be done for different flight conditions like speed, configuration, weight and center-of-gravity (CG). You can help by reporting issues in certain flight conditions. Please take note of important conditions mentioned before.</p>
 <h4 id="not-solved-or-missing">Not solved or missing</h4>
 <ul>
 <li>❌ High speed protection</li>
@@ -1681,7 +1683,7 @@
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">May 1, 2021</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">May 3, 2021</span>
     
   </small>
 </div>
