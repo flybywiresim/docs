@@ -52,7 +52,7 @@ You can send us logs to our [Discord](https://discord.gg/flybywire) for support 
 
         **How to download**:
 
-        **Current Stable Version - v0.6.0**
+        **Current Stable Version - v0.6.1**
 
           Stable is our variant that has the least bugs and best performance. This version will not always be up to date but we gurantee its compatibility with each major patch from MSFS. 
 
@@ -70,26 +70,22 @@ You can send us logs to our [Discord](https://discord.gg/flybywire) for support 
         It updates whenever something is added to the 'master' branch on GitHub. 
 
          [Download Development](https://api.flybywiresim.com/api/v1/download?url=https://flybywiresim-packages.b-cdn.net/vmaster/A32NX-master.zip){ .md-button }
-
-         [View info about the latest build here](https://github.com/flybywiresim/a32nx/releases/tag/vmaster)
+         
+         [**IMPORTANT:** View information on Autopilot / Fly-By-Wire here](autopilot-fbw.md)
 
     === "Experimental Version"
 
         **How to download**:
 
-        This version is similar to the development version, but contains custom systems (including fly-by-wire, autopilot, FADEC, etc.).
+        This version is similar to the development version, but contains custom systems. 
 
-        This version is updated whenever the 'autopilot' branch on GitHub is updated, which is around every 12 hours. 
+        Experimental is currently on **hold**. 
 
         **No support will be provided via Discord.**
 
         [Download Experimental](https://api.flybywiresim.com/api/v1/download?url=https://flybywiresim-packages.b-cdn.net/vmaster-cfbw-cap/A32NX-master-cfbw-cap.zip){ .md-button }
 
         [**IMPORTANT:** view warnings and info for the experimental version here](https://github.com/flybywiresim/a32nx/tree/autopilot/docs)
-
-        This version is the same as the regular master/development version, but with the WIP custom fly-by-wire system. Expect issues with flight directors/autopilot if you intend to use this version. No support will be provided via Discord.
-
-
 
 ---
 ## Manual Installation
