@@ -21,6 +21,8 @@ When reporting issues please take the following into account:
 * you can press the DFDR button (right of the throttle levers and above the TCAS panel) to mark an event
 * if you ask for support you might be asked for a FDR file, those can be found in the work folder (see below)
 
+***
+
 ### Work folder location
 
 #### Microsoft Store Version
@@ -34,6 +36,8 @@ The work folder can be found here:
 The work folder can be found here:
 
 `%APPDATA%\Microsoft Flight Simulator\Packages\flybywire-aircraft-a320-neo\work\`
+
+***
 
 ## Custom Autopilot and Autothrust System incl. new Engine model
 
