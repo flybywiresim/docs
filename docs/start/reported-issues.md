@@ -8,12 +8,12 @@
 
 !!! warning "After Microsoft Flight Simulator Updates"
 
-    Make sure you do a full reinstall A32NX. Delete either of the folders below from your community folder: 
+    Make sure you do a full reinstall A32NX. Delete either of the folders below from your community folder:
 
     * A32NX (old folder name)
-    * flybywire-aircraft-a320-neo (new folder name) 
+    * flybywire-aircraft-a320-neo (new folder name)
     
-    Do this before reporting bugs. 
+    Do this before reporting bugs.
 
 FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim Version: 1.15.8.0*
 
@@ -27,33 +27,42 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
 
     **Affects all versions of the A32NX (Stable, Development, and Experimental**
 
-    Liveries made for the default A320neo will no longer function in the new FlyByWire package. Liveries will need to be converted by their respective authors. 
+    Liveries made for the default A320neo will no longer function in the new FlyByWire package. Liveries will need to be converted by their respective authors.
 
     While this might represent an inconvenience for a short amount of time, we are sure that 3rd party content authors will be quick to provide you with updated liveries and programs.
 
-    **Convert Your Liveries:** 
+    **Convert Your Liveries:**
     
     - See our guide to [convert liveries](convert-liveries.md)
-    - Visit Flightsim.to with updated liveries [here](https://flightsim.to/c/liveries/flybywire-a32nx/)  
+    - Visit Flightsim.to with updated liveries [here](https://flightsim.to/c/liveries/flybywire-a32nx/)
+
+* In development/experimental versions, the engine startup sound is bugged due to a fuel flow issue. This will be fixed when engine startup procedures will be implemented.
 
 * Package separation or "fork" issues (*All Versions*):
     -  Default aircraft showing
-        - Solution: Select the *FlyByWire Simulations A320neo (LEAP)* in the aircraft selector instead of the Asobo one. 
+        - Solution: Select the *FlyByWire Simulations A320neo (LEAP)* in the aircraft selector instead of the Asobo one.
     - Invisible plane / Sounds not working / Installation issues
-        - Workaround: Reinstall A32NX, delete any old version from your Community Folder. Ensure you are on Installer v1.2.0 or above. 
+        - Workaround: Reinstall A32NX, delete any old version from your Community Folder. Ensure you are on Installer v1.2.0 or above.
     
 * Autopilot, FADEC, electrical system unwanted behavior
     - In rare cases the above mentioned systems may not start or behave erratically. This is in part due to `UTF-8` language support beta not enabled on your machine.
-        - Solution: 
+        - Solution:
             - Open Windows Control Panel -> Region.
             - Go to the Administrative tab and click Change system locale...
             - Make sure the check mark next to `Beta: Use UTF-8 for worldwide language support is selected`.
-            - Click OK and restart your computer. 
+            - Click OK and restart your computer.
     
 * ADIRS not aligned when spawning anywhere except cold & dark at a gate (*intermittent issue*)
-    - Workaround: Restart the flight 
+    - Workaround: Restart the flight
     
 * Wipers don't function correctly on FSX Liveries
+
+***
+
+#### MSFS Issues
+
+* The simulator FPS stutters since World Update 4.
+    * Solution: Turn off in-game multiplayer in MSFS settings.
 
 ***
     
@@ -62,7 +71,10 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
 ![installer issue](https://media.discordapp.net/attachments/831654046405230652/832741603940237362/unknown.png)
 
 * If there is an issue with your community directory our installer will display the error above. This means the installer detects a certain directory as your community directory even though it does not exist anymore.
-    - Solution: You can create the specified directory, restart the installer and change the community directory in the installer settings
+    - Solution: 
+        - Create the specified directory stated in the error message
+        - Restart the installer 
+        - Change the community directory in the installer settings
     
 * Installer Memory Leak
     - Commonly happens when our installer updates. Currently being investigated.
