@@ -198,9 +198,50 @@ The simBrief Route used in this guide - [Available Here](../assets/beginner-guid
 
 === "FUEL PRED"
 
+    On this page, we can input our zero fuel weight (ZFW) and zero fuel weight center of gravity (ZFWCG). 
+
+    The A32NX can auto populate this for you. 
+
+    * Press RSK3 to load in the calculated ZFW/ZFWCG into the scratch pad at the bottom of the MCDU. 
+    * Press RSK3 a second time to input the above calculation into the MCDU. (the empty orange boxes should now be filled in by the scratch pad entry). 
+
+    At this time a few extra fields will appear filled in. Starting from the top:
+
+    * Departure Airport - EGCC
+    * Fuel on Board - FOB
+    * ZFW + FOB = Gross Weight - GW 
+    * Center of Gravity - CG
+
 === "SECONDARY FLIGHT PLAN"
 
+    This page will allow you to input a secondary flight plan. This page is currently inoperable in the A32NX. We will update this portion of the guide when it is usable. 
+
 === "RADNAV"
+
+    On this page, you would set any frequencies you would need for the departure and subsequently later enroute the frequencies required for your arrival. 
+
+    For this flight the FCU on managed should handle your departure navigation. If you'd like to have additional navaids for your departure you can input the runway localizer for the initial procedure turn and the BRECON VOR (BCN) to verify your track enroute to BCN. This is a little bit more advance than this guide allows for but we will cover how to input frequencies. 
+
+    ^^VOR^^
+
+    On this depature we have the BCN VOR with a frequency of `117.45`
+
+    * Using the keypad type in `117.45` and press LSK1. This will autopopulate the identifier of the VOR when within range. 
+    * You can also set the desired course to track `031` and press LSK2 to input it. 
+
+    ^^ILS^^
+
+    In a similar fashion you can also input the ILS/LOC frequency on this page if it hasn't been inputted already. Remember our arrival airport/rwy is `EGCC/05R` with ILS05R having a frequency of `111.55`
+
+    When inputting a frequency and you are in range of the ILS it will autopopulate the indentifier and course for you there is no need to fill these fields. 
+
+    * Using the keypad type in `111.55` and press LSK3 to input it. 
+
+    ^^ADF^^
+
+    This works much in the same way as the two above. 
+
+    [Top of Section 2](#section-2)
 
 ***
 
