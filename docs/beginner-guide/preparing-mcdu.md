@@ -75,6 +75,21 @@ The simBrief route used for this guide can be found - [here](https://www.simbrie
 
 === "DATA"
 
+    This MCDU page provides various data for the pilots. It has two pages (accessed by using the horizontal slew keys). It will not be used for this tutorial. 
+
+    DATA includes the pages below:
+
+    * Position Monitor
+    * IRS Monitor
+    * GPS Monitor
+    * A/C Status
+    * Closest Airports
+    * Equitime Point
+    * Waypoints
+    * NavAids
+    * Runway
+    * Route
+
 === "INIT A"
 
     ![Placeholder](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/638px-Placeholder_view_vector.svg.png)
