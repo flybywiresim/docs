@@ -127,6 +127,8 @@ The simBrief route used for this guide can be found - [here](https://www.simbrie
 
 === "FLIGHT PLAN"
 
+***
+
 ### Section 2
 
 === "FUEL PRED"
@@ -134,6 +136,8 @@ The simBrief route used for this guide can be found - [here](https://www.simbrie
 === "SECONDARY FLIGHT PLAN"
 
 === "RADNAV"
+
+***
 
 ### Section 3
 
