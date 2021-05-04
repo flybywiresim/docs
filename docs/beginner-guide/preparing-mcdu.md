@@ -33,7 +33,7 @@ During the course of this guide we will be referring to a few key terms that whi
 
     ![Placeholder](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/638px-Placeholder_view_vector.svg.png)
 
-=== "Scroll Keys"
+=== "Slew Keys"
 
     These keys are referenced below. 
 
@@ -41,11 +41,11 @@ During the course of this guide we will be referring to a few key terms that whi
 
     !!! info
 
-        === "Left and Right"
+        === "Horizontal Slew Keys"
 
             These keys allow you to scroll between certain page i.e. `INIT A` and `INIT B` when the INIT page is selected. 
 
-        === "Up and Down"
+        === "Vertical Slew Keys"
 
             These keys allow to scroll vertically on certain pages i.e. `F-PLN` page. 
 
