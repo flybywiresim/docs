@@ -2,11 +2,13 @@
 
 This guide will help you prepare the MCDU in the A32NX for your departure. It includes a simple route so you can follow along easily and replicate in the simulator.
 
+simBrief Route used in this guide - [View Here](https://www.simbrief.com/ofp/flightplans/EGFFEGCC_PDF_1620029221.pdf)
+
 ***
 
 ## Pre-requisites 
 
-Before programming the MCDU there are a few pre-requisites that are required. These steps should have been completed in the previous step - [Starting the Aircraft](#). 
+Below are a few pre-requisites before programming the MCDU. Visit [Starting the Aircraft](#) to learn more. 
 
 * Make sure the aircraft is powered up.
     * External Power OR APU
@@ -65,6 +67,8 @@ For simplicity's sake this portion of the guide will be split into three section
 
 * Section 3 - [INIT B - PROG - PERF](#section-3)
 
+The simBrief route used for this guide can be found - [here](https://www.simbrief.com/ofp/flightplans/EGFFEGCC_PDF_1620029221.pdf)
+
 ***
 
 ### Section 1
@@ -72,6 +76,39 @@ For simplicity's sake this portion of the guide will be split into three section
 === "DATA"
 
 === "INIT A"
+
+    ![Placeholder](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/638px-Placeholder_view_vector.svg.png)
+
+    ^^FROM/TO Field^^
+
+      * Using the keypad type in `EGFF/EGCC`
+      * Once this is in the scratch pad you can press RSK1.
+      * This following screen would should you "company routes". Since there are none stored select `Return` using LSK6.
+
+    ^^FLT NBR^^
+
+    * Using the keypad type in `EZY123` and press LSK3. Feel free to use your own flight number here!
+    * If you have the Free Text module enabled for your flight, this will enable other users flying the A32NX to send you messages. This will not be covered in this guide. 
+
+    ^^COST INDEX^^
+
+    [placeholder image]
+
+    Your cost index can be found in the image above.
+
+    * Using the keypad type in `44`
+    * Press LSK5. 
+
+    ^^CRZ FL/TEMP^^
+
+    Input your desired cruise flight level in this field. On our OFP this is listed as `0240` or `FL240`. 
+
+    * Using the keypad type in `240`
+    * Press LSK6
+
+    This will input FL240 and the temperature for you as well. 
+
+    [Top of Section 1](#section-1)
 
 === "FLIGHT PLAN"
 
