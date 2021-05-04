@@ -2,7 +2,7 @@
 
 This guide will help you prepare the MCDU in the A32NX for your departure. It includes a simple route so you can follow along easily and replicate in the simulator.
 
-simBrief Route used in this guide - [View Here](https://www.simbrief.com/ofp/flightplans/EGFFEGCC_PDF_1620029221.pdf)
+The simBrief Route used in this guide - [Available Here](../assets/beginner-guide/sample-ofp.pdf)
 
 ***
 
@@ -67,7 +67,7 @@ For simplicity's sake this portion of the guide will be split into three section
 
 * Section 3 - [INIT B - PROG - PERF](#section-3)
 
-The simBrief route used for this guide can be found - [here](https://www.simbrief.com/ofp/flightplans/EGFFEGCC_PDF_1620029221.pdf)
+The simBrief Route used in this guide - [Available Here](../assets/beginner-guide/sample-ofp.pdf)
 
 ***
 
