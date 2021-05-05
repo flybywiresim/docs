@@ -249,6 +249,42 @@ The simBrief Route used in this guide - [Available Here](../assets/beginner-guid
 
 === "INIT B"
 
+    To navigate to the `INIT B` page you first have to select the `INIT` button. Once on `INIT A` use the horizontal slew keys to switch the page to `INIT B`. 
+
+    Once here, you'll notice that your ZFW/ZFWCG has been copied over from the `FUEL PRED` page. Now we can add our fuel on board (FOB). The amount you input in this field can be done in one of three ways:
+
+    * Indicated FOB on the upper ECAM.
+    * You can have the MCDU plan the amount of fuel required for you. 
+        * We recommend loading this fuel via our EFB or using the AOC options. (link-to-add) 
+    * The amount indicated in your OFP.
+        * We recommend loading this fuel via our EFB or using the AOC options. (link-to-add)
+
+    ^^ECAM FOB^^
+
+    Look at your upper ECAM and note the FOB indicated. Let's say that amount is `3091 KG` currently. When inputting the block fuel into the MCDU it is referenced in "Tons" and you should round to the closes decimal point. 
+
+    * Using the keypad type in `3.1` and press RSK2.
+
+    ^^MCDU Planning^^
+
+    You can choose to have the MCDU provide a recommended amount of fuel for your planned flight. 
+
+    * Press RSK3 to compute an amount of fuel. 
+    
+    The Block field will be populated with a calculated fueld amount. 
+
+    * Press RSK3 again to confirm the fuel. 
+    * You should load this amount of fuel via the EFB or AOC option.
+
+    ^^simBrief OFP^^
+
+    You can use the planned block fuel stated on your OFP which in this case is `3091 KG`. 
+
+    * Using the keypad type in `3.1 and press RSK2
+    * You should load this amount of fuel via the EFB or AOC option.
+
+    [Top of Section 3](#section-3)
+
 === "PROG"
 
 === "PERF"
