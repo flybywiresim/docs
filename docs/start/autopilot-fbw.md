@@ -278,11 +278,11 @@ You can grab the required files with the links below.
 
 ### Sensitivity, dead zones and throttle mapping
 
-ℹ️ It is recommended that the sidestick uses a linear sensitivity with only dead zone set appropriately.
+:information_source: It is recommended that the sidestick uses a linear sensitivity with only dead zone set appropriately.
 
-ℹ️ It is recommended to use a linear sensitivity for the throttle axis.
+:information_source: It is recommended to use a linear sensitivity for the throttle axis.
 
-ℹ️ The throttle configuration can be adapted using the EFB.
+:information_source: The throttle configuration can be adapted using the EFB.
 
 ⚠️ When throttle sensitivity is changed, the throttle configuration needs to be adapted in most cases.
 
@@ -294,7 +294,7 @@ You can grab the required files with the links below.
 
 ⚠️ The custom fly-by-wire system is not yet on study level. In order to achieve this level a longer effort is needed. The system is a large improvement over the default implementation and there is no reason to hold it back longer than necessary.
 
-ℹ️ Tuning is a large effort to be done for different flight conditions like speed, configuration, weight and center-of-gravity (CG). You can help by reporting issues in certain flight conditions. Please take note of important conditions mentioned before.
+:information_source: Tuning is a large effort to be done for different flight conditions like speed, configuration, weight and center-of-gravity (CG). You can help by reporting issues in certain flight conditions. Please take note of important conditions mentioned before.
 
 #### Not solved or missing
 
