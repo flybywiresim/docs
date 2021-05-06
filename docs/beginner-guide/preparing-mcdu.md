@@ -339,3 +339,55 @@ The simBrief Route used in this guide - [Available Here](../assets/beginner-guid
 
     [Top of Section 3](#section-3)
 
+***
+
+## A32NX simBrief integration
+
+We've included a quick method to have your simBrief OFP automatically loaded into the MCDU. Please do not select an arrival airport on the MSFS world menu otherwise the integration will not work. 
+
+This portion of the guide assumes that you understand how to generate a simBrief OFP. 
+
+### ^^Step One^^
+
+Enter your simBrief username. Upon entering your username the MCDU will convert it into an ID number. Please ensure you have no special characters in your username OR use the ID number found before generating your OFP. 
+
+* Click on `MCDU MENU`
+* Click on `OPTIONS`
+* Click on `AOC`
+* Click on `SIMBRIEF`
+
+### ^^Step Two^^
+
+* Return to `MCDU MENU`
+* Click on `ATSU`
+* Click on `AOC MENU`
+* Click on `INIT/PRESS`
+* Click on `INIT DATA REQ`
+
+![mcdu2](../assets/beginner-guide/mcdu/mcdu2.png)
+
+This will prepare the MCDU to input the flight plan. 
+
+### ^^Step Three^^
+
+Go back to the AOC menu. 
+
+* Click on `PERF/W&B`
+
+Here you can automatically load your fuel + passenger / cargo weights. You are presented with the `Fuel Page` first then the `Weights and Balance` page. 
+
+* Press LSK5L to instantly load your planned simBrief fuel. (The load button will flash momentarily).
+* You can verify fuel has loaded by looking at your upper ECAM FOB. 
+
+Using the horizontal slew keys you can switch to the weights and balance page.
+
+* Again press LSK5L to instantly load your planned payload and pax. 
+* You can verify the weight has changed by looking at the lower ECAM towards the lower right hand side. 
+
+### ^^Step Four^^
+
+Head over to the `INIT A` page. 
+
+* Select `INIT REQUEST` by pressing LSK2R
+
+![mcdu1b](../assets/beginner-guide/mcdu/mcdu1b.png)
