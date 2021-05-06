@@ -28,13 +28,13 @@ During the course of this guide we will be referring to a few key terms that whi
     * Left hand keys are referenced (in descending order) as `LSK1L - LSK6L`. 
     * Right hand keys are referenced (in descending order) as `LSK1R - LSK6R`.
 
-    ![Placeholder](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/638px-Placeholder_view_vector.svg.png)
+    ![mcdu1](../assets/beginner-guide/mcdu/mcdu1.png)
 
 === "Slew Keys"
 
     These keys are referenced below. 
 
-    ![Placeholder](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/638px-Placeholder_view_vector.svg.png)
+    ![mcdu1a](../assets/beginner-guide/mcdu/mcdu1a.png){ align = right }
 
     !!! info
 
@@ -89,13 +89,13 @@ The simBrief Route used in this guide - [Available Here](../assets/beginner-guid
 
 === "INIT A"
 
-    ![Placeholder](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/638px-Placeholder_view_vector.svg.png)
-
-    ^^FROM/TO Field^^
+    ^^FROM/TO Field^^ 
 
       * Using the keypad type in `EGFF/EGCC`
       * Once this is in the scratch pad you can press LSK1R.
       * This following screen would should you "company routes". Since there are none stored select `Return` using LSK6L.
+
+    ![mcdu5](../assets/beginner-guide/mcdu/mcdu5.png)
 
     ^^FLT NBR^^
 
@@ -104,7 +104,7 @@ The simBrief Route used in this guide - [Available Here](../assets/beginner-guid
 
     ^^COST INDEX^^
 
-    [placeholder image]
+    ![ofp1](../assets/beginner-guide/mcdu/ofp1.png)
 
     Your cost index can be found in the image above.
 
@@ -113,12 +113,14 @@ The simBrief Route used in this guide - [Available Here](../assets/beginner-guid
 
     ^^CRZ FL/TEMP^^
 
-    Input your desired cruise flight level in this field. On our OFP this is listed as `0240` or `FL240`. 
+    ![ofp2](../assets/beginner-guide/mcdu/ofp2.png)
 
-    * Using the keypad type in `240`
+    Input your desired cruise flight level in this field. On our OFP this is listed as `0220` or `FL220`. 
+
+    * Using the keypad type in `220`
     * Press LSK6L
 
-    This will input FL240 and the temperature for you as well. 
+    This will input FL220 and the temperature for you as well. 
 
     [Top of Section 1](#section-1)
 
@@ -126,7 +128,9 @@ The simBrief Route used in this guide - [Available Here](../assets/beginner-guid
 
     Upon loading the flight plan page you should see three entries. Departure airport, `(DECEL)`, and arrival airport. 
 
-    Our route for this flight found on the OFP is:
+    Our route for this flight can be found on the 2nd page of the OFP
+
+    ![ofp3](../assets/beginner-guide/mcdu/ofp3.png)
 
     `EGFF/30 BCN1A BCN N864 MONTY MIRSI1A EGCC/05R`
 
@@ -141,10 +145,12 @@ The simBrief Route used in this guide - [Available Here](../assets/beginner-guid
 
     * Press LSK1 or EGFF (your departure airport)
     * Select `DEPARTURE` shown next to LSK1L
-    * Select the runway you are departing from. In this case `30` using LSK3;.
+    * Select the runway you are departing from. In this case `30` using LSK3L
     * On the list of SIDs select the `BCN1A` depature
 
     The MCDU should now show you at the top of the screen in yellow what you have selected for your depature from EGFF. 
+
+    ![mcdu8](../assets/beginner-guide/mcdu/mcdu8.png)
 
     * Press `INSERT` using LSK6R to program this into your flight plan. 
 
@@ -158,9 +164,11 @@ The simBrief Route used in this guide - [Available Here](../assets/beginner-guid
     * Using the keypad type in `MONTY` *(waypoint)* and press LSK1R. 
         * Remember: Airways are on the left and waypoints are on the right.
 
+    ![mcdu10](../assets/beginner-guide/mcdu/mcdu10.png)
+
     ^^Planning Your Arrival^^
 
-    For the purposes of this guide we will preplan our arrival into EGCC via the MIRSI1A STAR into 05R. 
+    For the purposes of this guide we will preplan our arrival into EGCC via the `MIRSI1A` STAR into 05R. 
 
     !!! info "STAR"
         Standard Terminal Arrival Route
@@ -176,6 +184,8 @@ The simBrief Route used in this guide - [Available Here](../assets/beginner-guid
     * Again use the vertical slew keys to find the STAR for this flight `MIRSI1A` and select it using the corresponding LSK.
     * We won't have any vias for this flight. Select `NO VIAS` using LSK2L. On the following page you can choose transitions if you have them, but for this flight we don't.
     * Insert this STAR into your flight plan using LSK6R.
+
+    ![mcdu12](../assets/beginner-guide/mcdu/mcdu12.png)
 
     Verify your flight plan by using the vertical slew keys to scroll through it. 
 
@@ -202,12 +212,18 @@ The simBrief Route used in this guide - [Available Here](../assets/beginner-guid
     * Press LSK3R to load in the calculated ZFW/ZFWCG into the scratch pad at the bottom of the MCDU. 
     * Press LSK3R a second time to input the above calculation into the MCDU. (the empty orange boxes should now be filled in by the scratch pad entry). 
 
+    ![mcdu13](../assets/beginner-guide/mcdu/mcdu13.png)
+
     At this time a few extra fields will appear filled in. Starting from the top:
 
     * Departure Airport - EGCC
     * Fuel on Board - FOB
     * ZFW + FOB = Gross Weight - GW 
     * Center of Gravity - CG
+
+    ![mcdu14](../assets/beginner-guide/mcdu/mcdu14.png)
+
+    [Top of Section 2](#section-2)
 
 === "SECONDARY FLIGHT PLAN"
 
@@ -233,6 +249,8 @@ The simBrief Route used in this guide - [Available Here](../assets/beginner-guid
     When inputting a frequency and you are in range of the ILS it will autopopulate the indentifier and course for you there is no need to fill these fields. 
 
     * Using the keypad type in `111.55` and press LSK3 to input it. 
+
+    ![mcdu15](../assets/beginner-guide/mcdu/mcdu15.png)
 
     ^^ADF^^
 
@@ -280,10 +298,44 @@ The simBrief Route used in this guide - [Available Here](../assets/beginner-guid
     * Using the keypad type in `3.1 and press LSK2R
     * You should load this amount of fuel via the EFB or AOC option.
 
+    ![mcdu16](../assets/beginner-guide/mcdu/mcdu16.png)
+
     [Top of Section 3](#section-3)
 
 === "PROG"
 
+    On this page you can see details about the flight data pertaining to the current phase oof flight. 
+
+    Your CRZ level that was inputted on `INIT A` will appear here, alongside optimal CRZ level and the REC MAX. You can also change your CRZ level on this page as well. 
+
 === "PERF"
 
+    The performance page changes based on the relavtive stages of flight until you land the aircraft. When programming the MCDU on the ground you start on the takeoff performance page. 
+
+    For this flight we will be taking off with a `1+F` flaps configuration. 
+
+    * Using the keypad type in `1` and press LSK3R
+    
+    You can also choose to set a `FLEX TO TEMP` for the flight. The example we are using today is 60 degrees. (This will normally be calculated via a pilot's company EFB or other tools). 
+
+    * Using the keypad type in `60` and press LSK4R
+
+    Our SID chart mentions that the TRANS ALT for this departure is 6000ft. 
+
+    * Using the keypad type in `6000` and press LSK4L
+
+    The A32NX can calculate your Vspeeds for you automatically. To do this simply:
+
+    * Press LSK1L to have the calculated V1 speed appear in the scratchpad.  
+
+    ![mcdu19](../assets/beginner-guide/mcdu/mcdu19.png)
+
+    * Press LSK1L again to have 130 inputted into the V1 speed. 
+    * Repeat this procedure for VR and V2. 
+
+    Your performance page should now look like this:
+
+    ![mcdu20](../assets/beginner-guide/mcdu/mcdu20.png)
+
+    [Top of Section 3](#section-3)
 
