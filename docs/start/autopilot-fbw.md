@@ -154,12 +154,11 @@ The work folder can be found here:
 #### Not solved or missing (this list is not conclusive)
 
 ##### Fly-By-Wire
-* ❌ High speed protection
-* ❌ High angle of attack (AoA) protection
 * ❌ Alternative Law
 * ❌ Direct Law (in flight)
 * ❌ Simulation of hydraulic system missing -> when engines are off / electric pump is off control surfaces should not work
 * ❌ Ailerons cannot be controlled using the keyboard at the moment (issue with SimConnect events)
+* ❌ Pitch attitude and load factor limitation are currently not applied in high angle of attack (AoA) protection
 
 ##### Flight Management
 
@@ -191,6 +190,10 @@ The work folder can be found here:
 
 #### First implementation available
 
+* 🔸 High speed protection
+* 🔸 High angle of attack (AoA) protection
+* 🔸 V_LS, V_alpha_prot, V_alpha_max are not finished and will be further improved
+* 🔸 Increasing thrust rapidly while being in high alpha protection may additionally trigger alpha floor
 * 🔸 Some transitions might not be as they should or are missing
 * 🔸 Engines can now be started, realistic start-up procedure is in work
 * 🔸 principle go-around mode has been added but not all conditions are respected yet
