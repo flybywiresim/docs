@@ -15,7 +15,7 @@
     
     Do this before reporting bugs.
 
-FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim Version: 1.15.8.0*
+FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim Version: 1.15.10.0*
 
 *Last Update: {{git_revision_date_localized}}*
 
@@ -56,13 +56,6 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
     - Workaround: Restart the flight
     
 * Wipers don't function correctly on FSX Liveries
-
-***
-
-#### MSFS Issues
-
-* The simulator FPS stutters since World Update 4.
-    * Solution: Turn off in-game multiplayer in MSFS settings.
 
 ***
     
