@@ -58,13 +58,6 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
 * Wipers don't function correctly on FSX Liveries
 
 ***
-
-#### MSFS Issues
-
-* The simulator FPS stutters since World Update 4.
-    * Solution: Turn off in-game multiplayer in MSFS settings.
-
-***
     
 #### Installer Issues
 
