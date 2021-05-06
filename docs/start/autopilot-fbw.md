@@ -43,6 +43,14 @@ The work folder can be found here:
 
 ⚠️ This is work in progress, there are still issues, see the [Known Issues](#known-issues)
 
+⚠️ When throttle sensitivity is changed, the throttle configuration needs to be adapted in most cases.
+
+:information_source: It is recommended that the sidestick uses a linear sensitivity with only dead zone set appropriately.
+
+:information_source: It is recommended to use a linear sensitivity for the throttle axis.
+
+:information_source: The throttle configuration can be adapted using the EFB.
+
 ### Typical issues and how to solve them
 
 ???+ info "FMA keeps blinking with message `LVR CLB`"
@@ -145,6 +153,14 @@ The work folder can be found here:
 
 #### Not solved or missing (this list is not conclusive)
 
+##### Fly-By-Wire
+* ❌ High speed protection
+* ❌ High angle of attack (AoA) protection
+* ❌ Alternative Law
+* ❌ Direct Law (in flight)
+* ❌ Simulation of hydraulic system missing -> when engines are off / electric pump is off control surfaces should not work
+* ❌ Ailerons cannot be controlled using the keyboard at the moment (issue with SimConnect events)
+
 ##### Flight Management
 
 * ❌ Due to lack of LNAV, the flaws of the default flight plan manager still apply (bank to left or right shortly after TO etc)
@@ -192,7 +208,6 @@ The work folder can be found here:
 * ✔️ FMA indications for ATHR system are missing
 * ✔️ due to this workaround, the engine EGT can go into read area when in (OP) CLB/DES (see workaround above)
 * ✔️ due to missing custom ATHR system, the (OP) CLB/DES modes might need manual thrust control
-  -> a simple and hacky workaround has been added though
 * ✔️ FD off/on does not deactivate all FMA items
 * ✔️ Engagement of AP with FD off is incorrect
 * ✔️ Flight Director (FD) guidance in pitch is not fully satisfying yet
@@ -206,6 +221,18 @@ The work folder can be found here:
 * ✔️ ATHR implementation is already quite complete
 * ✔️ Switched to different default input source for LNAV, transitions are now much better
 * ✔️ LOC* has been improved in capturing performance
+* ✔️ Normal Law (Pitch) creates a too small pitch rate on low speed or g-load on higher speeds
+* ✔️ Rotation Law including tailstrike protection
+* ✔️ pitch normal law (C* law) sometimes oscillates on low speed
+* ✔️ yaw damper / rudder control missing
+* ✔️ pitch attitude protections can oscillate
+* ✔️ nose-down pitch attitude protection sometimes kicks-in too early
+* ✔️ transformation from ground to flight mode might take longer than intended (nose might drop after releasing the stick)
+* ✔️ auto-trim feature locks trim wheel completely
+* ✔️ flare mode might be stronger than expected, needs to be investigated
+* ✔️ after landing sometimes a slight pitch up moment is introduced, needs to be investigated
+* ✔️ strange interaction with default auto thrust system -> thrust lever sometimes does not move, fix is to manually disable ATHR
+* ✔️ after a longer pause the fbw system goes crazy
 
 ***
 
@@ -275,47 +302,3 @@ You can grab the required files with the links below.
 | AUTOPILOT ALTITUDE LOCK VAR:3 | Selected Altitude in FCU
 | L:A32NX_AUTOPILOT_FPA_SELECTED | Selected FPA in FCU
 | L:A32NX_AUTOPILOT_VS_SELECTED | Selected V/S in FCU
-
-### Sensitivity, dead zones and throttle mapping
-
-:information_source: It is recommended that the sidestick uses a linear sensitivity with only dead zone set appropriately.
-
-:information_source: It is recommended to use a linear sensitivity for the throttle axis.
-
-:information_source: The throttle configuration can be adapted using the EFB.
-
-⚠️ When throttle sensitivity is changed, the throttle configuration needs to be adapted in most cases.
-
-***
-
-## Custom Fly-By-Wire System
-
-### Known issues
-
-⚠️ The custom fly-by-wire system is not yet on study level. In order to achieve this level a longer effort is needed. The system is a large improvement over the default implementation and there is no reason to hold it back longer than necessary.
-
-:information_source: Tuning is a large effort to be done for different flight conditions like speed, configuration, weight and center-of-gravity (CG). You can help by reporting issues in certain flight conditions. Please take note of important conditions mentioned before.
-
-#### Not solved or missing
-
-* ❌ High speed protection
-* ❌ High angle of attack (AoA) protection
-* ❌ Alternative Law
-* ❌ Direct Law (in flight)
-* ❌ Simulation of hydraulic system missing -> when engines are off / electric pump is off control surfaces should not work
-* ❌ Ailerons cannot be controlled using the keyboard at the moment (issue with SimConnect events)
-
-#### Considered solved
-
-* ✔️ Normal Law (Pitch) creates a too small pitch rate on low speed or g-load on higher speeds
-* ✔️ Rotation Law including tailstrike protection
-* ✔️ pitch normal law (C* law) sometimes oscillates on low speed
-* ✔️ yaw damper / rudder control missing
-* ✔️ pitch attitude protections can oscillate
-* ✔️ nose-down pitch attitude protection sometimes kicks-in too early
-* ✔️ transformation from ground to flight mode might take longer than intended (nose might drop after releasing the stick)
-* ✔️ auto-trim feature locks trim wheel completely
-* ✔️ flare mode might be stronger than expected, needs to be investigated
-* ✔️ after landing sometimes a slight pitch up moment is introduced, needs to be investigated
-* ✔️ strange interaction with default auto thrust system -> thrust lever sometimes does not move, fix is to manually disable ATHR
-* ✔️ after a longer pause the fbw system goes crazy
