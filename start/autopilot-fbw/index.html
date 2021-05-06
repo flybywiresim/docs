@@ -528,6 +528,13 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#fly-by-wire" class="md-nav__link">
+    Fly-By-Wire
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#flight-management" class="md-nav__link">
     Flight Management
   </a>
@@ -583,53 +590,6 @@
   <a href="#mapping-of-events-to-control-autopilot-autothrust" class="md-nav__link">
     Mapping of events to control autopilot / autothrust
   </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#sensitivity-dead-zones-and-throttle-mapping" class="md-nav__link">
-    Sensitivity, dead zones and throttle mapping
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#custom-fly-by-wire-system" class="md-nav__link">
-    Custom Fly-By-Wire System
-  </a>
-  
-    <nav class="md-nav" aria-label="Custom Fly-By-Wire System">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#known-issues_1" class="md-nav__link">
-    Known issues
-  </a>
-  
-    <nav class="md-nav" aria-label="Known issues">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#not-solved-or-missing" class="md-nav__link">
-    Not solved or missing
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#considered-solved_1" class="md-nav__link">
-    Considered solved
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
         
@@ -1172,6 +1132,13 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#fly-by-wire" class="md-nav__link">
+    Fly-By-Wire
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#flight-management" class="md-nav__link">
     Flight Management
   </a>
@@ -1230,53 +1197,6 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#sensitivity-dead-zones-and-throttle-mapping" class="md-nav__link">
-    Sensitivity, dead zones and throttle mapping
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#custom-fly-by-wire-system" class="md-nav__link">
-    Custom Fly-By-Wire System
-  </a>
-  
-    <nav class="md-nav" aria-label="Custom Fly-By-Wire System">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#known-issues_1" class="md-nav__link">
-    Known issues
-  </a>
-  
-    <nav class="md-nav" aria-label="Known issues">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#not-solved-or-missing" class="md-nav__link">
-    Not solved or missing
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#considered-solved_1" class="md-nav__link">
-    Considered solved
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
       </ul>
     </nav>
   
@@ -1328,6 +1248,10 @@
 <hr />
 <h2 id="custom-autopilot-and-autothrust-system-incl-new-engine-model">Custom Autopilot and Autothrust System incl. new Engine model</h2>
 <p>⚠️ This is work in progress, there are still issues, see the <a href="#known-issues">Known Issues</a></p>
+<p>⚠️ When throttle sensitivity is changed, the throttle configuration needs to be adapted in most cases.</p>
+<p><img alt="ℹ" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/2139.svg" title=":information_source:" /> It is recommended that the sidestick uses a linear sensitivity with only dead zone set appropriately.</p>
+<p><img alt="ℹ" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/2139.svg" title=":information_source:" /> It is recommended to use a linear sensitivity for the throttle axis.</p>
+<p><img alt="ℹ" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/2139.svg" title=":information_source:" /> The throttle configuration can be adapted using the EFB.</p>
 <h3 id="typical-issues-and-how-to-solve-them">Typical issues and how to solve them</h3>
 <details class="info" open="open"><summary>FMA keeps blinking with message <code>LVR CLB</code></summary><p>If this is the case your throttle calibration is not properly. The values of the throttle axis range from -1.0 to 1.0 independently if you're using reverse on axis or not. When the current throttle position is larger or equal then the start position and smaller or equal than the end position of a detent, the throttles are considered to be in that detent.</p>
 <p>Ensure that:</p>
@@ -1396,6 +1320,15 @@
 <hr />
 <h3 id="known-issues">Known issues</h3>
 <h4 id="not-solved-or-missing-this-list-is-not-conclusive">Not solved or missing (this list is not conclusive)</h4>
+<h5 id="fly-by-wire">Fly-By-Wire</h5>
+<ul>
+<li>❌ High speed protection</li>
+<li>❌ High angle of attack (AoA) protection</li>
+<li>❌ Alternative Law</li>
+<li>❌ Direct Law (in flight)</li>
+<li>❌ Simulation of hydraulic system missing -&gt; when engines are off / electric pump is off control surfaces should not work</li>
+<li>❌ Ailerons cannot be controlled using the keyboard at the moment (issue with SimConnect events)</li>
+</ul>
 <h5 id="flight-management">Flight Management</h5>
 <ul>
 <li>❌ Due to lack of LNAV, the flaws of the default flight plan manager still apply (bank to left or right shortly after TO etc)</li>
@@ -1442,8 +1375,7 @@
 <li>✔️ In manual approach LOC and G/S might be lost too fast with mode reversion to HDG + V/S</li>
 <li>✔️ FMA indications for ATHR system are missing</li>
 <li>✔️ due to this workaround, the engine EGT can go into read area when in (OP) CLB/DES (see workaround above)</li>
-<li>✔️ due to missing custom ATHR system, the (OP) CLB/DES modes might need manual thrust control
-  -&gt; a simple and hacky workaround has been added though</li>
+<li>✔️ due to missing custom ATHR system, the (OP) CLB/DES modes might need manual thrust control</li>
 <li>✔️ FD off/on does not deactivate all FMA items</li>
 <li>✔️ Engagement of AP with FD off is incorrect</li>
 <li>✔️ Flight Director (FD) guidance in pitch is not fully satisfying yet</li>
@@ -1457,6 +1389,18 @@
 <li>✔️ ATHR implementation is already quite complete</li>
 <li>✔️ Switched to different default input source for LNAV, transitions are now much better</li>
 <li>✔️ LOC* has been improved in capturing performance</li>
+<li>✔️ Normal Law (Pitch) creates a too small pitch rate on low speed or g-load on higher speeds</li>
+<li>✔️ Rotation Law including tailstrike protection</li>
+<li>✔️ pitch normal law (C* law) sometimes oscillates on low speed</li>
+<li>✔️ yaw damper / rudder control missing</li>
+<li>✔️ pitch attitude protections can oscillate</li>
+<li>✔️ nose-down pitch attitude protection sometimes kicks-in too early</li>
+<li>✔️ transformation from ground to flight mode might take longer than intended (nose might drop after releasing the stick)</li>
+<li>✔️ auto-trim feature locks trim wheel completely</li>
+<li>✔️ flare mode might be stronger than expected, needs to be investigated</li>
+<li>✔️ after landing sometimes a slight pitch up moment is introduced, needs to be investigated</li>
+<li>✔️ strange interaction with default auto thrust system -&gt; thrust lever sometimes does not move, fix is to manually disable ATHR</li>
+<li>✔️ after a longer pause the fbw system goes crazy</li>
 </ul>
 <hr />
 <h3 id="mapping-of-events-to-control-autopilot-autothrust">Mapping of events to control autopilot / autothrust</h3>
@@ -1644,40 +1588,6 @@
 </tr>
 </tbody>
 </table>
-<h3 id="sensitivity-dead-zones-and-throttle-mapping">Sensitivity, dead zones and throttle mapping</h3>
-<p><img alt="ℹ" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/2139.svg" title=":information_source:" /> It is recommended that the sidestick uses a linear sensitivity with only dead zone set appropriately.</p>
-<p><img alt="ℹ" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/2139.svg" title=":information_source:" /> It is recommended to use a linear sensitivity for the throttle axis.</p>
-<p><img alt="ℹ" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/2139.svg" title=":information_source:" /> The throttle configuration can be adapted using the EFB.</p>
-<p>⚠️ When throttle sensitivity is changed, the throttle configuration needs to be adapted in most cases.</p>
-<hr />
-<h2 id="custom-fly-by-wire-system">Custom Fly-By-Wire System</h2>
-<h3 id="known-issues_1">Known issues</h3>
-<p>⚠️ The custom fly-by-wire system is not yet on study level. In order to achieve this level a longer effort is needed. The system is a large improvement over the default implementation and there is no reason to hold it back longer than necessary.</p>
-<p><img alt="ℹ" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/2139.svg" title=":information_source:" /> Tuning is a large effort to be done for different flight conditions like speed, configuration, weight and center-of-gravity (CG). You can help by reporting issues in certain flight conditions. Please take note of important conditions mentioned before.</p>
-<h4 id="not-solved-or-missing">Not solved or missing</h4>
-<ul>
-<li>❌ High speed protection</li>
-<li>❌ High angle of attack (AoA) protection</li>
-<li>❌ Alternative Law</li>
-<li>❌ Direct Law (in flight)</li>
-<li>❌ Simulation of hydraulic system missing -&gt; when engines are off / electric pump is off control surfaces should not work</li>
-<li>❌ Ailerons cannot be controlled using the keyboard at the moment (issue with SimConnect events)</li>
-</ul>
-<h4 id="considered-solved_1">Considered solved</h4>
-<ul>
-<li>✔️ Normal Law (Pitch) creates a too small pitch rate on low speed or g-load on higher speeds</li>
-<li>✔️ Rotation Law including tailstrike protection</li>
-<li>✔️ pitch normal law (C* law) sometimes oscillates on low speed</li>
-<li>✔️ yaw damper / rudder control missing</li>
-<li>✔️ pitch attitude protections can oscillate</li>
-<li>✔️ nose-down pitch attitude protection sometimes kicks-in too early</li>
-<li>✔️ transformation from ground to flight mode might take longer than intended (nose might drop after releasing the stick)</li>
-<li>✔️ auto-trim feature locks trim wheel completely</li>
-<li>✔️ flare mode might be stronger than expected, needs to be investigated</li>
-<li>✔️ after landing sometimes a slight pitch up moment is introduced, needs to be investigated</li>
-<li>✔️ strange interaction with default auto thrust system -&gt; thrust lever sometimes does not move, fix is to manually disable ATHR</li>
-<li>✔️ after a longer pause the fbw system goes crazy</li>
-</ul>
                 
                   
                     
