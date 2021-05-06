@@ -215,9 +215,15 @@ The work folder can be found here:
 
 The recommendation is to use a combination of default events and the custom events to trigger the FCU. This has been tested with the Honeycomb Bravo Throttle using SPAD.next or FSUIPC.
 
-ℹ️ You find an event file for FSUIPC in subfolder FSUIPC. This needs to be placed in the FSUIPC folder beside the ini-file to be recognized. Then you can select those custom events for button press (for FS Control).
+:information_source: An event file is required for FSUIPC. This needs to be placed in the FSUIPC folder beside the ini-file to be recognized. Then you can select those custom events for button press (for FS Control).
 
-ℹ️ You find a profile for SPAD.neXt in subfolder SPAD.neXt. This needs to be placed your configured SPAD.neXt profile folder. Then you can create a new profile based on that or by editing the XML files you can take-over the custom events in your existing profile.
+:information_source: A profile xml is required for SPAD.neXt. This needs to be placed in your configured SPAD.neXt profile folder. Then you can create a new profile based on that or by editing the XML files you can take-over the custom events in your existing profile.
+
+You can grab the required files with the links below.
+
+[:fontawesome-brands-github:{: .github } FSUIPC Event File](https://github.com/flybywiresim/a32nx/tree/master/docs/FSUIPC){ .md-button } [:fontawesome-brands-github:{: .github } SPAD.neXt Profile](https://github.com/flybywiresim/a32nx/tree/master/docs/SPAD.neXt){ .md-button }
+
+***
 
 **Default events:**
 
@@ -272,11 +278,11 @@ The recommendation is to use a combination of default events and the custom even
 
 ### Sensitivity, dead zones and throttle mapping
 
-ℹ️ It is recommended that the sidestick uses a linear sensitivity with only dead zone set appropriately.
+:information_source: It is recommended that the sidestick uses a linear sensitivity with only dead zone set appropriately.
 
-ℹ️ It is recommended to use a linear sensitivity for the throttle axis.
+:information_source: It is recommended to use a linear sensitivity for the throttle axis.
 
-ℹ️ The throttle configuration can be adapted using the EFB.
+:information_source: The throttle configuration can be adapted using the EFB.
 
 ⚠️ When throttle sensitivity is changed, the throttle configuration needs to be adapted in most cases.
 
@@ -288,7 +294,7 @@ The recommendation is to use a combination of default events and the custom even
 
 ⚠️ The custom fly-by-wire system is not yet on study level. In order to achieve this level a longer effort is needed. The system is a large improvement over the default implementation and there is no reason to hold it back longer than necessary.
 
-ℹ️ Tuning is a large effort to be done for different flight conditions like speed, configuration, weight and center-of-gravity (CG). You can help by reporting issues in certain flight conditions. Please take note of important conditions mentioned before.
+:information_source: Tuning is a large effort to be done for different flight conditions like speed, configuration, weight and center-of-gravity (CG). You can help by reporting issues in certain flight conditions. Please take note of important conditions mentioned before.
 
 #### Not solved or missing
 
