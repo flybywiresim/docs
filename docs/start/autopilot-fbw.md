@@ -215,9 +215,15 @@ The work folder can be found here:
 
 The recommendation is to use a combination of default events and the custom events to trigger the FCU. This has been tested with the Honeycomb Bravo Throttle using SPAD.next or FSUIPC.
 
-ℹ️ You find an event file for FSUIPC in subfolder FSUIPC. This needs to be placed in the FSUIPC folder beside the ini-file to be recognized. Then you can select those custom events for button press (for FS Control).
+:information_source: An event file is required for FSUIPC. This needs to be placed in the FSUIPC folder beside the ini-file to be recognized. Then you can select those custom events for button press (for FS Control).
 
-ℹ️ You find a profile for SPAD.neXt in subfolder SPAD.neXt. This needs to be placed your configured SPAD.neXt profile folder. Then you can create a new profile based on that or by editing the XML files you can take-over the custom events in your existing profile.
+:information_source: A profile xml is required for SPAD.neXt. This needs to be placed in your configured SPAD.neXt profile folder. Then you can create a new profile based on that or by editing the XML files you can take-over the custom events in your existing profile.
+
+You can grab the required files with the links below.
+
+[:fontawesome-brands-github:{: .github } FSUIPC Event File](https://github.com/flybywiresim/a32nx/tree/master/docs/FSUIPC){ .md-button } [:fontawesome-brands-github:{: .github } SPAD.neXt Profile](https://github.com/flybywiresim/a32nx/tree/master/docs/SPAD.neXt){ .md-button }
+
+***
 
 **Default events:**
 
