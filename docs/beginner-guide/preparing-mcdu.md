@@ -1,14 +1,16 @@
 # Preparing the MCDU
 
-This guide will help you prepare the MCDU in the A32NX for your departure. It includes a simple route so you can follow along easily and replicate in the simulator.
+This guide will help you prepare the MCDU in the A32NX for your departure. It includes a simple route that you can use to follow along easily and replicate in the simulator.
 
-The simBrief Route used in this guide - [Available Here](../assets/beginner-guide/mcdu/sample-ofp.pdf)
+The simBrief route used in this guide - [Available Here](../assets/beginner-guide/mcdu/sample-ofp.pdf)
 
 ***
 
 ## Pre-requisites 
 
-Below are a few pre-requisites before programming the MCDU. Visit [Starting the Aircraft](#) to learn more. 
+Below are a few pre-requisites before programming the MCDU. 
+
+Visit [Starting the Aircraft](#) to learn more. 
 
 * Make sure the aircraft is powered up.
     * External Power OR APU
@@ -19,7 +21,7 @@ Below are a few pre-requisites before programming the MCDU. Visit [Starting the 
   
 ## Understanding the MCDU
 
-During the course of this guide we will be referring to a few key terms that which are defined below. 
+During the course of this guide we will be referring to a few key terms which are defined below. 
 
 === "Line Select Key (LSK)"
 
@@ -50,7 +52,7 @@ During the course of this guide we will be referring to a few key terms that whi
 
 ## MCDU Programming 
 
-**D.I.F.F.S.R.I.P.P**
+**D.I.F.F.S.R.I.P.P.**
 
 Pilots commonly use the acronym above when programming the MCDU. It represents the following:
 
@@ -64,7 +66,7 @@ For simplicity's sake this portion of the guide will be split into three section
 
 * Section 3 - [INIT B - PROG - PERF](#section-3)
 
-The simBrief Route used in this guide - [Available Here](../assets/beginner-guide/mcdu/sample-ofp.pdf)
+The simBrief route used in this guide - [Available Here](../assets/beginner-guide/mcdu/sample-ofp.pdf)
 
 ***
 
@@ -141,14 +143,14 @@ The simBrief Route used in this guide - [Available Here](../assets/beginner-guid
 
         These are procedures that are defined and published that takes a flight from the take-off phase to the enroute phase. 
 
-    To program the Standard Instrument Depature (SID):
+    To program the Standard Instrument Departure (SID):
 
-    * Press LSK1 or EGFF (your departure airport)
+    * Press LSK1L or EGFF (your departure airport)
     * Select `DEPARTURE` shown next to LSK1L
     * Select the runway you are departing from. In this case `30` using LSK3L
-    * On the list of SIDs select the `BCN1A` depature
+    * On the list of SIDs select the `BCN1A` departure
 
-    The MCDU should now show you at the top of the screen in yellow what you have selected for your depature from EGFF. 
+    The MCDU should now show you at the top of the screen in yellow what you have selected for your departure from EGFF. 
 
     ![mcdu8](../assets/beginner-guide/mcdu/mcdu8.png)
 
@@ -173,16 +175,17 @@ The simBrief Route used in this guide - [Available Here](../assets/beginner-guid
     !!! info "STAR"
         Standard Terminal Arrival Route
 
-        Similar to the SID, these are procedures that are defined and published that takes a flight from the last point in a route *(in our cause `MONTY`)* to the first point in the approach or the initial approach fix (IAF). 
+        Similar to the SID, these are procedures that are defined and published that takes a flight from the last point in a route *(in our case `MONTY`)* to the first point in the approach or the initial approach fix (IAF). 
 
     Find `EGCC` in green on your flight plan OR select `EGCC` in white under `DEST` using the corresponding LSK. 
 
     * Select `ARRIVAL` using LSK1R
-        * You will be shown the APPR's available designated by `Type``Rwy`. 
+        * You will be shown the approaches available designated by `Type` `Rwy`. 
         * For this guide we will shoot for an ILS to keep it simple. 
     * Use the vertical slew keys to find `ILS05R` and select it using the corresponding LSK.
     * Again use the vertical slew keys to find the STAR for this flight `MIRSI1A` and select it using the corresponding LSK.
     * We won't have any vias for this flight. Select `NO VIAS` using LSK2L. On the following page you can choose transitions if you have them, but for this flight we don't.
+        * *Note:* Due to the default MSFS flight plan manager you maybe directed to proceed via the `MCT` waypoint anyways for your arrival. 
     * Insert this STAR into your flight plan using LSK6R.
 
     ![mcdu12](../assets/beginner-guide/mcdu/mcdu12.png)
@@ -210,7 +213,7 @@ The simBrief Route used in this guide - [Available Here](../assets/beginner-guid
     The A32NX can auto populate this for you. 
 
     * Press LSK3R to load in the calculated ZFW/ZFWCG into the scratch pad at the bottom of the MCDU. 
-    * Press LSK3R a second time to input the above calculation into the MCDU. (the empty orange boxes should now be filled in by the scratch pad entry). 
+    * Press LSK3R a second time to input the above calculation into the MCDU. (The empty orange boxes should now be filled in by the scratch pad entry). 
 
     ![mcdu13](../assets/beginner-guide/mcdu/mcdu13.png)
 
@@ -233,20 +236,20 @@ The simBrief Route used in this guide - [Available Here](../assets/beginner-guid
 
     On this page, you would set any frequencies you would need for the departure and subsequently later enroute the frequencies required for your arrival. 
 
-    For this flight the FCU on managed should handle your departure navigation. If you'd like to have additional navaids for your departure you can input the runway localizer for the initial procedure turn and the BRECON VOR (BCN) to verify your track enroute to BCN. This is a little bit more advance than this guide allows for but we will cover how to input frequencies. 
+    If you'd like to have additional navaids for your departure you can input the runway localizer for the initial procedure turn and the BRECON VOR (BCN) to verify your track enroute to BCN. This is a little bit more advance than this guide allows for but we will cover how to input frequencies. 
 
     ^^VOR^^
 
-    On this depature we have the BCN VOR with a frequency of `117.45`
+    On this departure we have the BCN VOR with a frequency of `117.45`
 
-    * Using the keypad type in `117.45` and press LSK1L. This will autopopulate the identifier of the VOR when within range. 
+    * Using the keypad type in `117.45` and press LSK1L. This will auto populate the identifier of the VOR when within range. 
     * You can also set the desired course to track `031` and press LSK2L to input it. 
 
     ^^ILS^^
 
     In a similar fashion you can also input the ILS/LOC frequency on this page if it hasn't been inputted already. Remember our arrival airport/rwy is `EGCC/05R` with ILS05R having a frequency of `111.55`
 
-    When inputting a frequency and you are in range of the ILS it will autopopulate the indentifier and course for you there is no need to fill these fields. 
+    When inputting a frequency and you are in range of the ILS it will auto populate the indentifier and course for you there is no need to fill these fields. 
 
     * Using the keypad type in `111.55` and press LSK3 to input it. 
 
@@ -269,14 +272,19 @@ The simBrief Route used in this guide - [Available Here](../assets/beginner-guid
     Once here, you'll notice that your ZFW/ZFWCG has been copied over from the `FUEL PRED` page. Now we can add our fuel on board (FOB). The amount you input in this field can be done in one of three ways:
 
     * Indicated FOB on the upper ECAM.
-    * You can have the MCDU plan the amount of fuel required for you. 
-        * We recommend loading this fuel via our EFB or using the AOC options. (link-to-add) 
+    * You can have the MCDU plan the amount of fuel required for you.
     * The amount indicated in your OFP.
-        * We recommend loading this fuel via our EFB or using the AOC options. (link-to-add)
+
+    !!! info "Loading Fuel"
+
+        You can load fuel two ways:
+
+        * Via the AOC - [Learn How](#A32NX-simBrief-integration)
+        * Via the EFB (not covered in this guide)
 
     ^^ECAM FOB^^
 
-    Look at your upper ECAM and note the FOB indicated. Let's say that amount is `3091 KG` currently. When inputting the block fuel into the MCDU it is referenced in "Tons" and you should round to the closes decimal point. 
+    Look at your upper ECAM and note the FOB indicated. Let's say that amount is `3091 KG`. When inputting the block fuel into the MCDU it is referenced in "Tons" and you should round to the closest decimal point. 
 
     * Using the keypad type in `3.1` and press LSK2R.
 
@@ -286,7 +294,7 @@ The simBrief Route used in this guide - [Available Here](../assets/beginner-guid
 
     * Press LSK3R to compute an amount of fuel. 
     
-    The Block field will be populated with a calculated fueld amount. 
+    The `Block` field will be populated with a calculated fuel amount. 
 
     * Press LSK3R again to confirm the fuel. 
     * You should load this amount of fuel via the EFB or AOC option.
@@ -310,7 +318,7 @@ The simBrief Route used in this guide - [Available Here](../assets/beginner-guid
 
 === "PERF"
 
-    The performance page changes based on the relavtive stages of flight until you land the aircraft. When programming the MCDU on the ground you start on the takeoff performance page. 
+    The performance page changes based on the relative stages of flight until you land the aircraft. When programming the MCDU on the ground you start on the take-off performance page. 
 
     For this flight we will be taking off with a `1+F` flaps configuration. 
 
@@ -374,6 +382,8 @@ Go back to the AOC menu.
 
 * Click on `PERF/W&B`
 
+![mcdu3](../assets/beginner-guide/mcdu/mcdu3.png)
+
 Here you can automatically load your fuel + passenger / cargo weights. You are presented with the `Fuel Page` first then the `Weights and Balance` page. 
 
 * Press LSK5L to instantly load your planned simBrief fuel. (The load button will flash momentarily).
@@ -383,6 +393,12 @@ Using the horizontal slew keys you can switch to the weights and balance page.
 
 * Again press LSK5L to instantly load your planned payload and pax. 
 * You can verify the weight has changed by looking at the lower ECAM towards the lower right hand side. 
+
+!!! info "Customizing Fuel and Weights"
+
+    You can adjust the amount of fuel or payload weight manually on these pages. Type in your desired amounts and press the relevant LSK to input it into that field. 
+
+    When you are happy with your changes press `LOAD` using LSK5L to load your custom fuel and weight.
 
 ### ^^Step Four^^
 
