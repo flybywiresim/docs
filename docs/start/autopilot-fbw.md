@@ -151,6 +151,13 @@ The work folder can be found here:
 
 ### Known issues
 
+#### Requirements and Incompatibilities
+
+* ❌ Legacy flight model of MSFS is not supported
+* ❌ Minimum performance requirement is stable 17 fps
+* ❌ No support for AI copilot
+* ❌ Proper throttle calibration via EFB
+
 #### Not solved or missing (this list is not conclusive)
 
 ##### Fly-By-Wire
@@ -272,8 +279,8 @@ You can grab the required files with the links below.
 | AP_VS_VAR_DEC | Anti-clockwise dial V/S knob on FCU
 | AP_APR_HOLD | Push APPR button on FCU
 | AP_LOC_HOLD | Push LOC button on FCU
-| AUTO_THROTTLE_ARM | Push ATHR button on FCU
-| AUTO_THROTTLE_DISCONNECT | Disconnect ATHR (like red button on throttle levers)
+| AUTO_THROTTLE_ARM | Push A/THR button on FCU
+| AUTO_THROTTLE_DISCONNECT | Disconnect A/THR (like red button on throttle levers)
 | AUTO_THROTTLE_TO_GA | Apply TOGA thrust
 
 **Custom events:**
@@ -282,14 +289,29 @@ You can grab the required files with the links below.
 | ---: | --- |
 | A32NX.FCU_AP_1_PUSH | Push AP1 on FCU
 | A32NX.FCU_AP_2_PUSH | Push AP2 on FCU
+| A32NX.FCU_AP_DISCONNECT_PUSH | Disconnect AP (like red button on sidestick)
+| A32NX.FCU_ATHR_PUSH | Push A/THR on FCU
+| A32NX.FCU_ATHR_DISCONNECT_PUSH | Disconnect A/THR (like red button on throttle levers)
+| A32NX.FCU_SPD_INC | Clockwise dial Speed knob on FCU
+| A32NX.FCU_SPD_DEC | Anti-clockwise dial Speed knob on FCU
+| A32NX.FCU_SPD_SET | Set Speed value on FCU (when in MACH mode 78 == M0.78)
 | A32NX.FCU_SPD_PUSH | Push Speed knob on FCU
 | A32NX.FCU_SPD_PULL | Pull Speed knob on FCU
 | A32NX.FCU_SPD_MACH_TOGGLE_PUSH | Push SPD/MACH toggle on FCU
+| A32NX.FCU_HDG_INC | Clockwise dial Heading knob on FCU
+| A32NX.FCU_HDG_DEC | Anti-clockwise dial Heading knob on FCU
+| A32NX.FCU_HDG_SET | Set Heading value on FCU
 | A32NX.FCU_HDG_PUSH | Push Heading knob on FCU
 | A32NX.FCU_HDG_PULL | Pull Heading knob on FCU
 | A32NX.FCU_TRK_FPA_TOGGLE_PUSH | Push TRK/FPA toggle on FCU
+| A32NX.FCU_ALT_INC | Clockwise dial Altitude knob on FCU (parameter 0 = use FCU increment, 100 = 100, 1000 = 1000)
+| A32NX.FCU_ALT_DEC | Anti-clockwise dial Altitude knob on FCU (parameter 0 = use FCU increment, 100 = 100, 1000 = 1000)
+| A32NX.FCU_ALT_SET | Set Altitude value on FCU
 | A32NX.FCU_ALT_PUSH | Push Altitude knob on FCU
 | A32NX.FCU_ALT_PULL | Pull Altitude knob on FCU
+| A32NX.FCU_VS_INC | Clockwise dial V/S knob on FCU
+| A32NX.FCU_VS_DEC | Anti-clockwise dial V/S knob on FCU
+| A32NX.FCU_VS_SET | Set Speed value on FCU (when in TRK/FPA mode 10 == 1.0°)
 | A32NX.FCU_VS_PUSH | Push V/S knob on FCU
 | A32NX.FCU_VS_PULL | Pull V/S knob on FCU
 | A32NX.FCU_LOC_PUSH | Push LOC button on FCU
