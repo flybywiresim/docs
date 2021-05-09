@@ -520,6 +520,13 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#requirements-and-incompatibilities" class="md-nav__link">
+    Requirements and Incompatibilities
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#not-solved-or-missing-this-list-is-not-conclusive" class="md-nav__link">
     Not solved or missing (this list is not conclusive)
   </a>
@@ -1124,6 +1131,13 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#requirements-and-incompatibilities" class="md-nav__link">
+    Requirements and Incompatibilities
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#not-solved-or-missing-this-list-is-not-conclusive" class="md-nav__link">
     Not solved or missing (this list is not conclusive)
   </a>
@@ -1319,6 +1333,13 @@
 </details>
 <hr />
 <h3 id="known-issues">Known issues</h3>
+<h4 id="requirements-and-incompatibilities">Requirements and Incompatibilities</h4>
+<ul>
+<li>❌ Legacy flight model of MSFS is not supported</li>
+<li>❌ Minimum performance requirement is stable 17 fps</li>
+<li>❌ No support for AI copilot</li>
+<li>❌ Proper throttle calibration via EFB</li>
+</ul>
 <h4 id="not-solved-or-missing-this-list-is-not-conclusive">Not solved or missing (this list is not conclusive)</h4>
 <h5 id="fly-by-wire">Fly-By-Wire</h5>
 <ul>
@@ -1477,11 +1498,11 @@
 </tr>
 <tr>
 <td align="right">AUTO_THROTTLE_ARM</td>
-<td>Push ATHR button on FCU</td>
+<td>Push A/THR button on FCU</td>
 </tr>
 <tr>
 <td align="right">AUTO_THROTTLE_DISCONNECT</td>
-<td>Disconnect ATHR (like red button on throttle levers)</td>
+<td>Disconnect A/THR (like red button on throttle levers)</td>
 </tr>
 <tr>
 <td align="right">AUTO_THROTTLE_TO_GA</td>
@@ -1507,6 +1528,30 @@
 <td>Push AP2 on FCU</td>
 </tr>
 <tr>
+<td align="right">A32NX.FCU_AP_DISCONNECT_PUSH</td>
+<td>Disconnect AP (like red button on sidestick)</td>
+</tr>
+<tr>
+<td align="right">A32NX.FCU_ATHR_PUSH</td>
+<td>Push A/THR on FCU</td>
+</tr>
+<tr>
+<td align="right">A32NX.FCU_ATHR_DISCONNECT_PUSH</td>
+<td>Disconnect A/THR (like red button on throttle levers)</td>
+</tr>
+<tr>
+<td align="right">A32NX.FCU_SPD_INC</td>
+<td>Clockwise dial Speed knob on FCU</td>
+</tr>
+<tr>
+<td align="right">A32NX.FCU_SPD_DEC</td>
+<td>Anti-clockwise dial Speed knob on FCU</td>
+</tr>
+<tr>
+<td align="right">A32NX.FCU_SPD_SET</td>
+<td>Set Speed value on FCU (when in MACH mode 78 == M0.78)</td>
+</tr>
+<tr>
 <td align="right">A32NX.FCU_SPD_PUSH</td>
 <td>Push Speed knob on FCU</td>
 </tr>
@@ -1517,6 +1562,18 @@
 <tr>
 <td align="right">A32NX.FCU_SPD_MACH_TOGGLE_PUSH</td>
 <td>Push SPD/MACH toggle on FCU</td>
+</tr>
+<tr>
+<td align="right">A32NX.FCU_HDG_INC</td>
+<td>Clockwise dial Heading knob on FCU</td>
+</tr>
+<tr>
+<td align="right">A32NX.FCU_HDG_DEC</td>
+<td>Anti-clockwise dial Heading knob on FCU</td>
+</tr>
+<tr>
+<td align="right">A32NX.FCU_HDG_SET</td>
+<td>Set Heading value on FCU</td>
 </tr>
 <tr>
 <td align="right">A32NX.FCU_HDG_PUSH</td>
@@ -1531,12 +1588,36 @@
 <td>Push TRK/FPA toggle on FCU</td>
 </tr>
 <tr>
+<td align="right">A32NX.FCU_ALT_INC</td>
+<td>Clockwise dial Altitude knob on FCU (parameter 0 = use FCU increment, 100 = 100, 1000 = 1000)</td>
+</tr>
+<tr>
+<td align="right">A32NX.FCU_ALT_DEC</td>
+<td>Anti-clockwise dial Altitude knob on FCU (parameter 0 = use FCU increment, 100 = 100, 1000 = 1000)</td>
+</tr>
+<tr>
+<td align="right">A32NX.FCU_ALT_SET</td>
+<td>Set Altitude value on FCU</td>
+</tr>
+<tr>
 <td align="right">A32NX.FCU_ALT_PUSH</td>
 <td>Push Altitude knob on FCU</td>
 </tr>
 <tr>
 <td align="right">A32NX.FCU_ALT_PULL</td>
 <td>Pull Altitude knob on FCU</td>
+</tr>
+<tr>
+<td align="right">A32NX.FCU_VS_INC</td>
+<td>Clockwise dial V/S knob on FCU</td>
+</tr>
+<tr>
+<td align="right">A32NX.FCU_VS_DEC</td>
+<td>Anti-clockwise dial V/S knob on FCU</td>
+</tr>
+<tr>
+<td align="right">A32NX.FCU_VS_SET</td>
+<td>Set Speed value on FCU (when in TRK/FPA mode 10 == 1.0°)</td>
 </tr>
 <tr>
 <td align="right">A32NX.FCU_VS_PUSH</td>
@@ -1599,7 +1680,7 @@
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">May 6, 2021</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">May 9, 2021</span>
       
     
   </small>
