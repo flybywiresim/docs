@@ -299,7 +299,7 @@ The simBrief route used in this guide - [Available Here](../assets/beginner-guid
     * Press LSK3R again to confirm the fuel. 
     * You should load this amount of fuel via the EFB or AOC option.
 
-    ^^simBrief OFP^^
+    ^^SimBrief OFP^^
 
     You can use the planned block fuel stated on your OFP which in this case is `3091 KG`. 
 
