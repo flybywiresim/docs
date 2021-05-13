@@ -312,7 +312,7 @@ The simBrief route used in this guide - [Available Here](../assets/beginner-guid
 
 === "PROG"
 
-    On this page you can see details about the flight data pertaining to the current phase oof flight. 
+    On this page you can see details about the flight data pertaining to the current phase of flight. 
 
     Your CRZ level that was inputted on `INIT A` will appear here, alongside optimal CRZ level and the REC MAX. You can also change your CRZ level on this page as well. 
 
