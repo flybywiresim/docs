@@ -308,7 +308,7 @@ The simBrief route used in this guide - [Available Here](../assets/beginner-guid
 
     You can use the planned block fuel stated on your OFP which in this case is `3091 KG`. 
 
-    * Using the keypad type in `3.1 and press LSK2R
+    * Using the keypad type in `3.1` and press LSK2R
     * You should load this amount of fuel via the EFB or AOC option.
 
     ![mcdu16](../assets/beginner-guide/mcdu/mcdu16.png)
