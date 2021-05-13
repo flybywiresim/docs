@@ -210,6 +210,11 @@ The simBrief route used in this guide - [Available Here](../assets/beginner-guid
 
     On this page, we can input our zero fuel weight (ZFW) and zero fuel weight center of gravity (ZFWCG).
 
+    !!! warning "Important Info"
+        Fuel and payload have to be set in the simulator before ZFW/CG for the end result to be correct. (Unless you want to use the default fuel and weight).
+
+        To learn how see [Load Fuel and Payload](#load-fuel-and-payload) in the simBrief integration below.
+
     The A32NX can auto populate this for you. 
 
     * Press LSK3R to load in the calculated ZFW/ZFWCG into the scratch pad at the bottom of the MCDU. 
@@ -279,7 +284,7 @@ The simBrief route used in this guide - [Available Here](../assets/beginner-guid
 
         You can load fuel two ways:
 
-        * Via the AOC - [Learn How](#a32nx-simbrief-integration)
+        * Via the AOC - [Learn How](#load-fuel-and-payload)
         * Via the EFB (not covered in this guide)
 
     ^^ECAM FOB^^
