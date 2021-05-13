@@ -208,7 +208,7 @@ The simBrief route used in this guide - [Available Here](../assets/beginner-guid
 
 === "FUEL PRED"
 
-    On this page, we can input our zero fuel weight (ZFW) and zero fuel weight center of gravity (ZFWCG). 
+    On this page, we can input our zero fuel weight (ZFW) and zero fuel weight center of gravity (ZFWCG).
 
     The A32NX can auto populate this for you. 
 
@@ -279,7 +279,7 @@ The simBrief route used in this guide - [Available Here](../assets/beginner-guid
 
         You can load fuel two ways:
 
-        * Via the AOC - [Learn How](#A32NX-simBrief-integration)
+        * Via the AOC - [Learn How](#a32nx-simbrief-integration)
         * Via the EFB (not covered in this guide)
 
     ^^ECAM FOB^^
@@ -355,7 +355,7 @@ We've included a quick method to have your simBrief OFP automatically loaded int
 
 This portion of the guide assumes that you understand how to generate a simBrief OFP. 
 
-### ^^Step One^^
+### ^^SimBrief MCDU Setup^^
 
 Enter your simBrief username. Upon entering your username the MCDU will convert it into an ID number. Please ensure you have no special characters in your username OR use the ID number found before generating your OFP. 
 
@@ -364,7 +364,7 @@ Enter your simBrief username. Upon entering your username the MCDU will convert 
 * Click on `AOC`
 * Click on `SIMBRIEF`
 
-### ^^Step Two^^
+### ^^Request data from simBrief^^
 
 * Return to `MCDU MENU`
 * Click on `ATSU`
@@ -376,7 +376,7 @@ Enter your simBrief username. Upon entering your username the MCDU will convert 
 
 This will prepare the MCDU to input the flight plan. 
 
-### ^^Step Three^^
+### ^^Load Fuel and Payload^^
 
 Go back to the AOC menu. 
 
@@ -400,10 +400,12 @@ Using the horizontal slew keys you can switch to the weights and balance page.
 
     When you are happy with your changes press `LOAD` using LSK5L to load your custom fuel and weight.
 
-### ^^Step Four^^
+### ^^Initialize Flight Plan^^
 
 Head over to the `INIT A` page. 
 
 * Select `INIT REQUEST` by pressing LSK2R
+
+This will load your flight plan from simBrief directly into the MCDU
 
 ![mcdu1b](../assets/beginner-guide/mcdu/mcdu1b.png)
