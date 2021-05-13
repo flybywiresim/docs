@@ -414,3 +414,5 @@ Head over to the `INIT A` page.
 This will load your flight plan from simBrief directly into the MCDU
 
 ![mcdu1b](../assets/beginner-guide/mcdu/mcdu1b.png)
+
+Continue with [Engine Start and Taxi](#)
