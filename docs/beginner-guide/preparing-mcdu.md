@@ -132,6 +132,9 @@ The simBrief route used in this guide - [Available Here](../assets/beginner-guid
 
     Our route for this flight can be found on the 2nd page of the OFP
 
+    !!! info "Routing Disclaimer"
+        Note, that waypoints, STARs, and SIDs may be called differently due to different nav-databases or different AIRAC cycles between simBrief and the simulator.
+
     ![ofp3](../assets/beginner-guide/mcdu/ofp3.png)
 
     `EGFF/30 BCN1A BCN N864 MONTY MIRSI1A EGCC/05R`
@@ -239,7 +242,9 @@ The simBrief route used in this guide - [Available Here](../assets/beginner-guid
 
 === "RADNAV"
 
-    On this page, you would set any frequencies you would need for the departure and subsequently later enroute the frequencies required for your arrival. 
+    On this page, you would set any frequencies or identifiers you would need for the departure and subsequently later enroute those required for your arrival. 
+
+    For the purposes of this guide we will be using frequencies in the RADNAV page. 
 
     If you'd like to have additional navaids for your departure you can input the runway localizer for the initial procedure turn and the BRECON VOR (BCN) to verify your track enroute to BCN. This is a little bit more advance than this guide allows for but we will cover how to input frequencies. 
 
