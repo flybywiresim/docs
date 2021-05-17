@@ -61,5 +61,8 @@ mkdocs build --clean --no-directory-urls
 
 * The site will be built locally under `/site` on in your local repo for user testing. Open`index.html` in the root of `/site` to preview.
   * **Note:** `--no-directory-urls` allows usage of reference links when browsing the locally built site. Prevents having to find each index.html related to every `filename.md` to preview the relevant page.
+  
+***
 
+[![Powered by Vercel](https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg)](https://vercel.com/?utm_source=[flybywiresim]&utm_campaign=oss "Powered by Vercel")
 
