@@ -56,7 +56,7 @@ theme:
   name: material
   # Theme Overhaul configuration. Use with caution.
   # Uncommenting custom_dir requires additional setup.
-  #custom_dir: overrides
+  custom_dir: overrides
   logo: assets/images/FBW-Tail.png
   palette:
     scheme: slate
