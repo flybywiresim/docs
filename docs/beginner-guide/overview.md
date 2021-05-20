@@ -10,7 +10,7 @@ Topics:
 
 [Starting the Aircraft]
 
-[Preparing the MCDU]
+[Preparing the MCDU](preparing-mcdu.md)
 
 [Engine Start and Taxi]
 
