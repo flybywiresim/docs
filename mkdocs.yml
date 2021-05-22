@@ -17,7 +17,6 @@ nav:
       - Installation: start/installation.md
       - Converting Liveries: start/convert-liveries.md
       - Porting Custom Camera Views: start/porting-custom-cameras.md
-      - Starting the plane: start/first-steps.md
       - Reported Issues: start/reported-issues.md
       - Common Questions: start/faq.md
       - Autopilot / Fly-By-Wire: start/autopilot-fbw.md
@@ -27,28 +26,11 @@ nav:
       - Navigation: airliner-flying-guide/navigation.md
       - Understanding Altitude References: airliner-flying-guide/altitude-refs.md
       - METARs/TAFs/ATIS: airliner-flying-guide/weather.md
-  - SDK Overview:
-      - Docker & Building: sdk/docker.md
-      - HTML/JS Gauges: sdk/html-gauges.md
-      - WASM Gauges: sdk/wasm-gauges.md
-      - XML & RNP: sdk/xml-rnp.md
-      - Sounds: sdk/sounds.md
-      - Modeling: sdk/modeling.md
-      - Texturing: sdk/texturing.md
   - Development Projects:
       - Overview: development-projects/overview.md
-      - Blender Plugin: development-projects/blender.md
-      - EFB: development-projects/efb.md
-      - Installer: development-projects/installer.md
-      - Rust SDK: development-projects/msfs-rs.md
       - Website: development-projects/website.md
-      - Web API: development-projects/web-api.md
   - A32NX Development:
       - Overview: a32nx-dev/overview.md
-      - HTML/JS Code: a32nx-dev/html.md
-      - Local SimVars: a32nx-dev/simvars.md
-      - XML ModelBehaviors: a32nx-dev/xml.md
-      - React Overhaul: a32nx-dev/react.md
   - Donate: donate.md
 
 # Configuration
