@@ -53,7 +53,7 @@ You should be setup at this point to locally view your changes as you apply them
 * Visit `localhost:8000` to preview the documentation site as you make edits.
 * Site renders as you save any `filename.md` you are working on or as you save changes to CSS stylesheets / `mkdocs.yml`.
 
-To build site locally for testing or creating a zip file
+To build site locally for testing
 
 ```
 mkdocs build --clean --no-directory-urls

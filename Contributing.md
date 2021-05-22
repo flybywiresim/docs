@@ -19,7 +19,9 @@ Reminder the main branch is `primary`
 5. Use editor of choice to preview your `filename.md`
 7. Submit PR (ensure merge conflicts are resolved if any)
 
-Ideally you should test your build locally. If your Pull Request is rather large in nature or contains special formatting / images, please send a zip of the `../site` directory created or provide details in your Pull Request.
+Ideally you should test your build locally. 
+
+Note: This repo is equipped with Vercel deployments to preview pull requests on the web.  
 
 ## Recommended Reading
 
