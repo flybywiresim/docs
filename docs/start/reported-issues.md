@@ -65,7 +65,7 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
 
 * If there is an issue with your community directory our installer will display the error above. This means the installer detects a certain directory as your community directory even though it does not exist anymore.
     - Solution:
-        1. - inside `%userprofile%\AppData\Roaming\FlyByWire Installer` delete `config.json`
+        1. - Inside `%userprofile%\AppData\Roaming\FlyByWire Installer` delete `config.json`
             - Restart the installer
             - Change the community directory in the installer settings if necessary
         1. - Create the specified directory stated in the error message
