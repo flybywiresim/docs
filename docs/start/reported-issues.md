@@ -15,7 +15,7 @@
     
     Do this before reporting bugs.
 
-FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim Version: 1.15.10.0*
+FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim Version: 1.16.2.0*
 
 *Last Update: {{git_revision_date_localized}}*
 
@@ -35,6 +35,9 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
     
     - See our guide to [convert liveries](convert-liveries.md)
     - Visit Flightsim.to with updated liveries [here](https://flightsim.to/c/liveries/flybywire-a32nx/)
+
+* Due to changes in the way flap lift is modelled, the plane may bounce when transitioning between certain flaps settings (flaps 1 to flaps 2 and flaps 3 to flaps FULL). 
+    - The stable version is less affected than the development version. 
 
 * In development/experimental versions, the engine startup sound is bugged due to a fuel flow issue. This will be fixed when engine startup procedures will be implemented.
 
