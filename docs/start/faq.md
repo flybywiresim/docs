@@ -7,7 +7,7 @@
     Yes, see [Downloads](/start/installation/#downloads).
 
 ??? info "Q: How do I install this aircraft?"
-    Visit our [Insllation Guide](installation.md).
+    Visit our [Installation Guide](installation.md).
 
 ??? info "Q: What are the liveries available?"
     Liveries made for the default A320neo will no longer function in the new FlyByWire package. Liveries will need to be converted by their respective authors.
