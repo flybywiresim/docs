@@ -1,7 +1,7 @@
 ## General
 
 ???+ info "Q: Where is the plane in-sim?"
-    The mod will appear as a separate aircraft selector screen, select the `FlyByWire Simulations A320neo (LEAP)` in the aircraft selector instead of the Asobo one.
+    The mod will appear as a separate aircraft, select the `FlyByWire Simulations A320neo (LEAP)` in the aircraft selector instead of the Asobo one.
 
 ??? info "Q: Can I download the aircraft in the current state?"
     Yes, see [Downloads](/start/installation/#downloads).
@@ -28,7 +28,7 @@
     The project is an ongoing rolling release. See [Downloads](/start/installation/#downloads).
 
 ??? info "Q: When is the next update?"
-    We don't know, since it depends on many factors. We will announce each Stable build update via [discord](https://discord.gg/flybywire) and our social media: [Facebook](https://www.facebook.com/FlyByWireSimulations), [Twitter](https://twitter.com/FlybywireSim).
+    We don't know, since it depends on many factors. We will announce each Stable build update via [Discord](https://discord.gg/flybywire) and our social media: [Facebook](https://www.facebook.com/FlyByWireSimulations), [Twitter](https://twitter.com/FlybywireSim).
 
 ??? info "Q: How do I join the team?"
     Head over to [A32NX Development Overview](/a32nx-dev/overview) and join our Discord to get started.
@@ -42,7 +42,7 @@
     Just make sure to search for existing issues first before creating a new one.
 
 ??? info "Q: Why is my version not the same as what I see others using?"
-    We have three versions: Stable , Developer (Master), and Experimental.
+    We have three versions: Stable , Development, and Experimental.
 
     **Stable**
 
