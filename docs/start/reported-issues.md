@@ -23,9 +23,6 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
 
 ### ^^Latest Issues^^
 
-* Due to changes in the way flap lift is modelled, the plane may bounce when transitioning between certain flaps settings (flaps 1 to flaps 2 and flaps 3 to flaps FULL). 
-    - The stable version is less affected than the development version. 
-
 * In development/experimental versions, the engine startup sound is bugged due to a fuel flow issue. This will be fixed when engine startup procedures will be implemented.
     
 * Autopilot, FADEC, electrical system unwanted behavior
@@ -123,6 +120,9 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
 
 ### ^^Fixed Issues^^
 
+* Due to changes in the way flap lift is modelled, the plane may bounce when transitioning between certain flaps settings (flaps 1 to flaps 2 and flaps 3 to flaps FULL). *(fixed)*
+    - The stable version is less affected than the development version.
+    
 * Installer v1.1.1 potential issues: *(fixed)*
     - Getting default version or black screens after using installer on v1.1.0
         - Workaround: Delete the `flybywire-aircraft-a320-neo folder`, then install it again.
