@@ -23,29 +23,10 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
 
 ### ^^Latest Issues^^
 
-!!! warning "Liveries incompatible due to package separation"
-
-    **Affects all versions of the A32NX (Stable, Development, and Experimental**
-
-    Liveries made for the default A320neo will no longer function in the new FlyByWire package. Liveries will need to be converted by their respective authors.
-
-    While this might represent an inconvenience for a short amount of time, we are sure that 3rd party content authors will be quick to provide you with updated liveries and programs.
-
-    **Convert Your Liveries:**
-    
-    - See our guide to [convert liveries](convert-liveries.md)
-    - Visit Flightsim.to with updated liveries [here](https://flightsim.to/c/liveries/flybywire-a32nx/)
-
 * Due to changes in the way flap lift is modelled, the plane may bounce when transitioning between certain flaps settings (flaps 1 to flaps 2 and flaps 3 to flaps FULL). 
     - The stable version is less affected than the development version. 
 
 * In development/experimental versions, the engine startup sound is bugged due to a fuel flow issue. This will be fixed when engine startup procedures will be implemented.
-
-* Package separation or "fork" issues (*All Versions*):
-    -  Default aircraft showing
-        - Solution: Select the *FlyByWire Simulations A320neo (LEAP)* in the aircraft selector instead of the Asobo one.
-    - Invisible plane / Sounds not working / Installation issues
-        - Workaround: Reinstall A32NX, delete any old version from your Community Folder. Ensure you are on Installer v1.2.0 or above.
     
 * Autopilot, FADEC, electrical system unwanted behavior
     - In rare cases the above mentioned systems may not start or behave erratically. This is in part due to `UTF-8` language support beta not enabled on your machine.
@@ -59,6 +40,29 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
     - Workaround: Restart the flight
     
 * Wipers don't function correctly on FSX Liveries
+
+***
+
+#### Package Separation Issues
+
+!!! warning "Liveries incompatible due to package separation"
+
+    **Affects all versions of the A32NX (Stable, Development, and Experimental**
+
+    Liveries made for the default A320neo will no longer function in the new FlyByWire package. Liveries will need to be converted by their respective authors.
+
+    While this might represent an inconvenience for a short amount of time, we are sure that 3rd party content authors will be quick to provide you with updated liveries and programs.
+
+    **Convert Your Liveries:**
+    
+    - See our guide to [convert liveries](convert-liveries.md)
+    - Visit Flightsim.to with updated liveries [here](https://flightsim.to/c/liveries/flybywire-a32nx/)
+
+* Package separation or "fork" issues (*All Versions*):
+    -  Default aircraft showing
+        - Solution: Select the *FlyByWire Simulations A320neo (LEAP)* in the aircraft selector instead of the Asobo one.
+    - Invisible plane / Sounds not working / Installation issues
+        - Workaround: Reinstall A32NX, delete any old version from your Community Folder. Ensure you are on Installer v1.2.0 or above.
 
 ***
     
