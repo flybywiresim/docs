@@ -44,7 +44,7 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
 
 !!! warning "Liveries incompatible due to package separation"
 
-    **Affects all versions of the A32NX (Stable, Development, and Experimental**
+    **Affects all versions of the A32NX (Stable, Development, and Experimental)**
 
     Liveries made for the default A320neo will no longer function in the new FlyByWire package. Liveries will need to be converted by their respective authors.
 
