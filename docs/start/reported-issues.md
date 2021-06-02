@@ -23,6 +23,13 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
 
 ### ^^Latest Issues^^
 
+!!! info "Autopilot / Fly-By-Wire Issues"
+    Please visit the dedicated Autopilot / Fly-By-Wire page for more information:
+
+    - [**Main Page**](autopilot-fbw.md)
+    - [**Typical Issues + Solutions**](autopilot-fbw.md#typical-issues-and-how-to-solve-them)
+    - [**Known Issues**](autopilot-fbw.md#known-issues)
+
 * In development/experimental versions, the engine startup sound is bugged due to a fuel flow issue. This will be fixed when engine startup procedures will be implemented.
     
 * Autopilot, FADEC, electrical system unwanted behavior
