@@ -24,6 +24,7 @@ nav:
       - Autopilot / Fly-By-Wire: start/autopilot-fbw.md
   - Beginner Guide:
       - Overview: beginner-guide/overview.md
+      - Engine Start and Taxi: beginner-guide/engine-start-taxi.md
       - Preparing the MCDU: beginner-guide/preparing-mcdu.md
       - Take off, Climb and Cruise: beginner-guide/takeoff-climb-cruise.md
       - Descent: beginner-guide/descent.md
