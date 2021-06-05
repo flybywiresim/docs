@@ -4,67 +4,69 @@ The following actions should be preformed on the lower pedestal
 
 === "Left Side Lower Pedestal"
 
-    * Set your radio frequency to the one assigned by atc if using atc
+    * Set your radio frequency to the one assigned by ATC
+        * ATC is set in accordance with airport requirements
 
     * Disarm the spoilers by pushing down on the lever
 
-    * ENG mode selector to norm
+    * Set your ENG mode selector to NORM
 
-        ![Bottom left](../beginner-guide/placeholder.jpg)
+        ![Bottom left](../assets/beginner-guide/after-landing-steps/placeholder.jpg)
 
 === "Right Side Lower Pedestal"
 
-    * Retract your flaps to zero
+    * Retract your flaps to ZERO
 
-    * Set your tcas to standby
+    * Set your TCAS to STANDBY
 
-    * Turn your radar off
+    * Set your radar OFF
 
-    * Turn your predictive windshear system off
+    * Set your predictive windshear system OFF
 
         ![Bottom right positions](../beginner-guide/placeholder.jpg)
 
 ### Overhead Panel
 
-The following actions should be preformed on the overhead panel and top ecam
+The following actions should be preformed on the overhead panel and top ECAM
 
 === "Left Side Overhead Panel"
 
-    Set your exterior lights
+    Set your exterior lights:
 
-    !!! info "Exterior Lights"
+    * Set your noise wheel light to TAXI
 
-        * Set your noise wheel light to taxi
+    * Set Nav ON
 
-        * Nav on
+    * Set Beacon ON
 
-        * Beacon on
+    * Set Runway turn-offs ON
 
-        * Runway turn-offs on
+    * Set your strobe lights to AUTO/OFF
+        (If you are crossing runway keep them ON until you vacate the runway)
 
-        * Turn your strobe lights off unless you are crossing an active runway
+    * For landing lights, you can choose to retract them or turn them off
 
-        * For landing lights, you can choose to retract them or turn them off
+    Your lights should look like this
+    ![landing light positions](../assets/beginner-guide/after-landing-steps/After landing-Lights.png)
 
-        Your landing lights should look like this:
+    or this
 
-        ![landing light positions](../beginner-guide/placeholder.jpg)
+    ![landing light positions2](../assets/beginner-guide/after-landing-steps/After Landing-Lights2.png)
 
 === "Right Side Overhead Panel"
 
     * Start your APU by clicking the APU master button then the APU start button
 
-    * Turn your ati-ice off if not needed
+    * Turn OFF your anti-ice if it is not required
 
-    * Turn the brake fan on if you get a hot brakes ecam warning
+    * Turn the brake fan on if you get a hot brakes ECAM warning
 
     ![Right Side Overhead Panel positions](../beginner-guide/placeholder.jpg)
 
-=== "Turning into gate"
+=== "Turning Into Gate"
 
     * When turning into the gate turn off your nose wheel light and your runway turn off lights
 
     ![Right Side Overhead Panel](../beginner-guide/placeholder.jpg)
 
-
-    * Continue with the [Powering Down](TBD.MD) steps
+Continue with the [Powering Down](TBD.MD) steps
