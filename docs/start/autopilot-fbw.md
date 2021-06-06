@@ -148,8 +148,9 @@ The work folder can be found here:
     We highly recommend using a controller with an axis assigned to use the plane.
     
     A possible workaround is by using a tool like FSUIPC. Assign the correct events to the keys you want to use. The events that work are (mind the 's' behind aileron):
-    - AILERONS_LEFT
-    - AILERONS_RIGHT
+    
+    * AILERONS_LEFT
+    * AILERONS_RIGHT
 
 ***
 
