@@ -146,6 +146,10 @@ The work folder can be found here:
     There is currently an issue with the associated events and there is currently no way to solve it.
 
     We highly recommend using a controller with an axis assigned to use the plane.
+    
+    A possible workaround is by using a tool like FSUIPC. Assign the correct events to the keys you want to use. The events that work are (mind the 's' behind aileron):
+    - AILERONS_LEFT
+    - AILERONS_RIGHT
 
 ***
 
@@ -178,16 +182,12 @@ The work folder can be found here:
 * ❌ AP disconnect does not trigger master warning etc.
 * ❌ NAV mode being armed might show dashes in the FCU instead of selected HDG
 * ❌ Engine out operations are not yet considered
-* ❌ AP performance when flying turbulence might not be satisfying in all cases
 * ❌ AP is not disconnected due to turbulence
 * ❌ Time compression is not supported
-* ❌ ROLL OUT law is more sensitive to fps than other laws which can cause oscillations
-* ❌ ROLL OUT law can cause a divert from the runway when the runway is short (i.e. EDNY)
 
 ##### Engines
 
 * ❌ Realistic start-up procedure is missing
-* ❌ During start, no fuel flow is shown
 * ❌ Realistic Descent/ Approach idle parameters / drag.
 * ❌ Time compression is not supported (fuel burn is not adapted for time compression)
 
@@ -197,10 +197,7 @@ The work folder can be found here:
 
 #### First implementation available
 
-* 🔸 High speed protection
-* 🔸 High angle of attack (AoA) protection
 * 🔸 V_LS, V_alpha_prot, V_alpha_max are not finished and will be further improved
-* 🔸 Increasing thrust rapidly while being in high alpha protection may additionally trigger alpha floor
 * 🔸 Some transitions might not be as they should or are missing
 * 🔸 Engines can now be started, realistic start-up procedure is in work
 * 🔸 principle go-around mode has been added but not all conditions are respected yet
@@ -210,6 +207,10 @@ The work folder can be found here:
 * 🔸 Thrust limits are already very good but might be improved in the future (they are currently lacking adaptation for Mach)
 * 🔸 Thrust limits are now corrected for air-conditioning and anti-ice yet
 * 🔸 Flare Law has been improved to handle fast raising ground before the runway; when in 200 ft RA, the ground should in the area of the runway slope, otherwise issues are to be expected
+* 🔸 AP performance when flying turbulence might not be satisfying in all cases
+* 🔸 During start, no fuel flow is shown
+* 🔸 ROLL OUT law is more sensitive to fps than other laws which can cause oscillations
+* 🔸 ROLL OUT law can cause a divert from the runway when the runway is short (i.e. EDNY)
 
 #### Considered solved
 
@@ -243,6 +244,9 @@ The work folder can be found here:
 * ✔️ after landing sometimes a slight pitch up moment is introduced, needs to be investigated
 * ✔️ strange interaction with default auto thrust system -> thrust lever sometimes does not move, fix is to manually disable ATHR
 * ✔️ after a longer pause the fbw system goes crazy
+* ✔️ High speed protection
+* ✔️ High angle of attack (AoA) protection
+* ✔️ Increasing thrust rapidly while being in high alpha protection may additionally trigger alpha floor
 
 ***
 
