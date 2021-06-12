@@ -18,6 +18,7 @@ nav:
       - Converting Liveries: start/convert-liveries.md
       - Porting Custom Camera Views: start/porting-custom-cameras.md
       - Reported Issues: start/reported-issues.md
+      - Performance Tips: start/perf-tips.md
       - Common Questions: start/faq.md
       - Autopilot / Fly-By-Wire: start/autopilot-fbw.md
   - Airliner Flying Guide:
