@@ -10,20 +10,19 @@
     **This guide is for Nvidia Graphics cards only**
 ---
 
-##Windows Settings
+## Windows Settings
 
-Firstly you need to make sure your graphics drivers are up to date. You can do this by using NVIDIA GeForce Experience. Or downloading directly from their website.
+- Make sure your graphics drivers are up to date. You can do this by using NVIDIA GeForce Experience. Or downloading directly from their website.
 
-!!! warning "Please note"
+- Make sure windows itself is up to date. This can be done under the `Update & Security` tab in Windows settings.
 
-    After an update in MSFS, it isn't unheard of that your graphics drivers may become 'out of date' and cause some performance issues
+- Under the `Gaming` tab in Windows settings, navigate to `Captures`. I would recomend turning off `Background Recording`.
 
-    If this happens and you notice a decrease in performance, you can try rolling back your graphics driver until a new one is available.
+- Then, navigate to the `Game Mode` tab. Make sure it is set to `On`.
 
-    **Do this at your own risk**
----
+- Set graphics performance to `High Performance` (This may be less effective on a desktop than a laptop).
 
-!!! info "Graphics Settings - This may be less effective on a desktop than a laptop"
+!!! info "Methods - Graphics Performance"
 
     === "Windows Store Version"
         Open Windows settings and search for `Graphics Settings`.
@@ -55,9 +54,22 @@ Firstly you need to make sure your graphics drivers are up to date. You can do t
 
         You can now close Windows Settings.
 
+- Lastly, I would recomend closing any programs running in the background that you don't need. This can be done in your system tray (the upwards pointing arrow to the right side of the task bar). Right click the icon of the program you would like to close and close it. 
+    - You may have a lot of programs open here that you don't use often but start with Windows. You can stop them automatically runing by going to task manager, navigating to the `Start-up` tab and disabling programs you don't want to start with Windows.
+
+
+!!! warning "Please note"
+
+    After an update in MSFS, it isn't unheard of that your graphics drivers may become 'out of date' and cause some performance issues
+
+    If this happens and you notice a decrease in performance, you can try rolling back your graphics driver until a new one is available.
+
+    **Do this at your own risk**
 ---
 
-##NVIDIA Control Panel
+## Add Shadow Play
+
+## NVIDIA Control Panel
 
 Open NVIDIA Control Panel. This can be done by right clicking on your desktop and clicking `NVIDIA Control Panel`.
 
@@ -68,7 +80,8 @@ In the dropdown, select `Microsoft Flight Simulator (Microsoft Flight Simulator)
 Change the settings listed below:
 
 - Power management mode - `Prefer maximum performance`
-- Make sure Vertical sync is set to `Use the 3D application setting'
+- Vertical Sync - `On`
+- Texture Filtering Quality - `High Performance`
 
 !!! info "Global Settings"
 
@@ -78,5 +91,4 @@ Change the settings listed below:
 
     You will then need to go into `Program Settings`, choose Microsoft Flight Simulator and change it to `Max Performance` as detailed above.
 
-    This is important, as having it set to Max Performance globally will force your GPU to stay at its max clock speed causing excess heat and power draw, even at idle. 
-    It is okay to have this setting in the `Program Settings` tab as we want the GPU to run at its highest clock speed for maximum performance when actually running the game.
+    This is important, as having it set to Max Performance globally will force your GPU to stay at its max clock speed causing excess heat and power draw, even at idle. It is okay to have this setting in the `Program Settings` tab as we want the GPU to run at its highest clock speed for maximum performance when actually running the game.
