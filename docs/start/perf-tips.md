@@ -46,7 +46,7 @@
 
         The default location for steam is:
 
-        `C:\Program Files (x86)\Steam\steamapps\common\MicrosoftFlightSimulator\FlightSimulator.exe`.
+        `C:\Program Files (x86)\Steam\steamapps\common\MicrosoftFlightSimulator\FlightSimulator.exe`
 
         (If you have it installed in another location, point it there instead)
 
@@ -67,7 +67,16 @@
     **Do this at your own risk**
 ---
 
-## Add Shadow Play
+## NVIDIA GeForce Experience
+
+Open GeForce Experience and navigate to the settings cog. Under `General` turn off the `In-Game Overlay`.
+
+This disables a feature called ShadowPlay, which is similar to the background recording we talked about in Windows settings.
+
+If you particularly want to use the overlay, you can turn off ShadowPlay individually by pressing `Alt + Z` and making sure `Instant Replay` Is set to off. I would recommend disabling the overlay entirely though.
+
+(The less overlays you have running, the better performance you will get. Examples of overlays are Steam Overlay, Windows Game Bar etc.)
+---
 
 ## NVIDIA Control Panel
 
@@ -81,7 +90,9 @@ Change the settings listed below:
 
 - Power management mode - `Prefer maximum performance`
 - Vertical Sync - `On`
+    - Add about Gsync
 - Texture Filtering Quality - `High Performance`
+    - This setting may mean you loose a small amount of quality in textures with the benefit of more FPS, you can experiment with this to get an acceptable balance.
 
 !!! info "Global Settings"
 
@@ -92,3 +103,11 @@ Change the settings listed below:
     You will then need to go into `Program Settings`, choose Microsoft Flight Simulator and change it to `Max Performance` as detailed above.
 
     This is important, as having it set to Max Performance globally will force your GPU to stay at its max clock speed causing excess heat and power draw, even at idle. It is okay to have this setting in the `Program Settings` tab as we want the GPU to run at its highest clock speed for maximum performance when actually running the game.
+
+---
+
+##Microsoft Flight Simulator
+
+Up to you 
+
+Settings and how they affect performance
