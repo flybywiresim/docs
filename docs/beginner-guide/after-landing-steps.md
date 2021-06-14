@@ -1,6 +1,6 @@
 ### Lower Pedestal
 
-The following actions should be preformed on the lower pedestal
+The following actions should be performed on the lower pedestal
 
 === "Left Side Lower Pedestal"
 
@@ -32,7 +32,7 @@ The following actions should be preformed on the lower pedestal
 
 ### Overhead Panel + Center Instrument Panel
 
-The following actions should be preformed on the overhead panel and top ECAM
+The following actions should be performed on the overhead panel and the center instrument panel. Make note of the ECAMs when checking for brake temperature.
 
 === "Left Side Overhead Panel"
 
