@@ -11,7 +11,8 @@ The following actions should be preformed on the lower pedestal
 
     * Set your ENG mode selector to NORM
 
-        ![Bottom left](../assets/beginner-guide/after-landing-steps/placeholder.jpg)
+        ![Com panel](../assets/beginner-guide/after-landing-steps/landingLayer-3.png)
+        ![Eng knob ](../assets/beginner-guide/after-landing-steps/lgLayer-3.png)
 
 === "Right Side Lower Pedestal"
 
@@ -23,7 +24,8 @@ The following actions should be preformed on the lower pedestal
 
     * Set your predictive windshear system OFF
 
-        ![Bottom right positions](../beginner-guide/placeholder.jpg)
+        ![Tcas](../assets/beginner-guide/after-landing-steps/landingLayer-4.png)
+        ![Radar](../assets/beginner-guide/after-landing-steps/lgLayer-2.png)
 
 ### Overhead Panel
 
@@ -51,7 +53,7 @@ The following actions should be preformed on the overhead panel and top ECAM
 
     or this
 
-    ![landing light positions2](../assets/beginner-guide/after-landing-steps/After Landing-Lights2.png)
+    ![landing light positions2](../assets/beginner-guide/after-landing-steps/After Landing-Taxi  Light .png)
 
 === "Right Side Overhead Panel"
 
@@ -61,12 +63,12 @@ The following actions should be preformed on the overhead panel and top ECAM
 
     * Turn the brake fan on if you get a hot brakes ECAM warning
 
-    ![Right Side Overhead Panel positions](../beginner-guide/placeholder.jpg)
+    ![Hot Brakes](../assets/beginner-guide/after-landing-steps/lgLayer-1.png)
 
 === "Turning Into Gate"
 
     * When turning into the gate turn off your nose wheel light and your runway turn off lights
 
-    ![Right Side Overhead Panel](../beginner-guide/placeholder.jpg)
+    ![Taxi Light](../assets/beginner-guide/after-landing-steps/Beginner-guide-Taxi-Light.png)
 
 Continue with the [Powering Down](TBD.MD) steps
