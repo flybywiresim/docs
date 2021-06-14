@@ -30,11 +30,17 @@ The following actions should be performed on the lower pedestal
 
         ![Radar](../assets/beginner-guide/after-landing-steps/lgLayer-2.png)
 
+---
+
 ### Overhead Panel + Center Instrument Panel
 
-The following actions should be performed on the overhead panel and the center instrument panel. Make note of the ECAMs when checking for brake temperature.
+The following actions should be performed on the overhead panel and the center instrument panel. Make note of the ECAMs when checking for brake temperature. 
 
-=== "Left Side Overhead Panel"
+=== "Overhead Panel"
+
+    * Start your APU by clicking the APU master button then the APU start button
+
+    * Turn OFF your anti-ice if it is not required
 
     Set your exterior lights:
 
@@ -57,11 +63,7 @@ The following actions should be performed on the overhead panel and the center i
 
     ![landing light positions2](../assets/beginner-guide/after-landing-steps/After Landing-Taxi  Light .png)
 
-=== "Right Side Overhead Panel"
-
-    * Start your APU by clicking the APU master button then the APU start button
-
-    * Turn OFF your anti-ice if it is not required
+=== "ECAM + Landing Gear Panel"
 
     * Turn the brake fan on if you get a hot brakes ECAM warning
 
