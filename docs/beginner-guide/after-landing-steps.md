@@ -5,15 +5,15 @@ The following actions should be preformed on the lower pedestal
 === "Left Side Lower Pedestal"
 
     * Set your radio frequency to the one assigned by ATC
-        * ATC is set in accordance with airport requirements
+
+        * ATC is set in accordance with airport requirements 
         
-        ![Com panel](../assets/beginner-guide/after-landing-steps/landingLayer-3.png)
+            ![Comm panel](../assets/beginner-guide/after-landing-steps/landingLayer-3.png)
 
     * Disarm the spoilers by pushing down on the lever
 
-    * Set your ENG mode selector to NORM
-
-        ![Com panel](../assets/beginner-guide/after-landing-steps/landingLayer-3.png)
+    * Set your ENG mode selector to NORM 
+        
         ![Eng knob ](../assets/beginner-guide/after-landing-steps/lgLayer-3.png)
 
 === "Right Side Lower Pedestal"
@@ -22,11 +22,12 @@ The following actions should be preformed on the lower pedestal
 
     * Set your TCAS to STANDBY
 
+        ![Tcas](../assets/beginner-guide/after-landing-steps/landingLayer-4.png)
+
     * Set your radar OFF
 
     * Set your predictive windshear system OFF
 
-        ![Tcas](../assets/beginner-guide/after-landing-steps/landingLayer-4.png)
         ![Radar](../assets/beginner-guide/after-landing-steps/lgLayer-2.png)
 
 ### Overhead Panel
@@ -46,10 +47,13 @@ The following actions should be preformed on the overhead panel and top ECAM
 
     * For landing lights, you can choose to retract them or turn them off
 
-    Your lights should look like this
+    Your lights should look like one of the following:
+
+    ^^**Lights Setup 1**^^
+
     ![landing light positions](../assets/beginner-guide/after-landing-steps/After landing-Lights.png)
 
-    or this
+    ^^**Lights Setup 2**^^
 
     ![landing light positions2](../assets/beginner-guide/after-landing-steps/After Landing-Taxi  Light .png)
 
