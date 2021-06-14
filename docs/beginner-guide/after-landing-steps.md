@@ -37,10 +37,6 @@ The following actions should be preformed on the overhead panel and top ECAM
 
     * Set your noise wheel light to TAXI
 
-    * Set Nav ON
-
-    * Set Beacon ON
-
     * Set Runway turn-offs ON
 
     * Set your strobe lights to AUTO/OFF
@@ -71,4 +67,4 @@ The following actions should be preformed on the overhead panel and top ECAM
 
     ![Taxi Light](../assets/beginner-guide/after-landing-steps/Beginner-guide-Taxi-Light.png)
 
-Continue with the [Powering Down](TBD.MD) steps
+    Continue with the [Powering Down](TBD.MD) steps
