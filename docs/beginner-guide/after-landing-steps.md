@@ -30,7 +30,7 @@ The following actions should be preformed on the lower pedestal
 
         ![Radar](../assets/beginner-guide/after-landing-steps/lgLayer-2.png)
 
-### Overhead Panel
+### Overhead Panel + Center Instrument Panel
 
 The following actions should be preformed on the overhead panel and top ECAM
 
