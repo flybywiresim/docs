@@ -6,6 +6,8 @@ The following actions should be preformed on the lower pedestal
 
     * Set your radio frequency to the one assigned by ATC
         * ATC is set in accordance with airport requirements
+        
+        ![Com panel](../assets/beginner-guide/after-landing-steps/landingLayer-3.png)
 
     * Disarm the spoilers by pushing down on the lever
 
