@@ -15,7 +15,7 @@
     
     Do this before reporting bugs.
 
-FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim Version: 1.16.2.0*
+FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim Version: 1.17.3.0*
 
 *Last Update: {{git_revision_date_localized}}*
 
