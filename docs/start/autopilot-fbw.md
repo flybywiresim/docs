@@ -267,7 +267,7 @@ You can grab the required files with the links below.
 
 ***
 
-**Default events:**
+#### Default events
 
 | Event | Function |
 | ---: | --- |
@@ -288,7 +288,7 @@ You can grab the required files with the links below.
 | AUTO_THROTTLE_DISCONNECT | Disconnect A/THR (like red button on throttle levers)
 | AUTO_THROTTLE_TO_GA | Apply TOGA thrust
 
-**Custom events:**
+#### Custom events
 
 | Event | Function |
 | ---: | --- |
@@ -323,12 +323,47 @@ You can grab the required files with the links below.
 | A32NX.FCU_APPR_PUSH | Push APPR button on FCU
 | A32NX.FCU_EXPED_PUSH | Push EXPED button on FCU
 
-**FCU variables:**
+#### FCU variables
 
-| Event | Function |
+The following gives an overview of the used variables in relation to the FCU. For more detailed explanation of the values please refer to this page:
+
+https://github.com/flybywiresim/a32nx/blob/master/docs/a320-simvars.md
+
+
+##### Common
+
+| Variable | Function |
+| ---: | --- |
+| L:A32NX_AUTOPILOT_1_ACTIVE | Indicates if Autopilot 1 is enaged
+| L:A32NX_AUTOPILOT_2_ACTIVE | Indicates if Autopilot 2 is enaged
+| L:A32NX_AUTOTHRUST_STATUS | Indicates the current status of the ATHR system
+| L:A32NX_FCU_LOC_MODE_ACTIVE | Indicates if LOC button on the FCU is illuminated
+| L:A32NX_FCU_APPR_MODE_ACTIVE | Indicates if APPR button on the FCU is illuminated
+| L:A32NX_TRK_FPA_MODE_ACTIVE | Indicates if TRK/FPA mode is active
+
+##### Speed
+
+| Variable | Function |
 | ---: | --- |
 | AUTOPILOT AIRSPEED HOLD VAR | Current Airspeed target (can be selected or managed)
+| L:A32NX_FCU_SPD_MANAGED_DASHES | Indicates if managed speed/mach mode is active and a numerical value is not displayed
+| L:A32NX_FCU_SPD_MANAGED_DOT | Indicates if managed speed/mach mode is active
+
+##### Heading
+
+| Variable | Function |
+| ---: | --- |
 | L:A32NX_AUTOPILOT_HEADING_SELECTED | Selected Heading in FCU
+| L:A32NX_FCU_HDG_MANAGED_DASHES | Indicates if managed heading mode is active and a numerical value is not displayed
+| L:A32NX_FCU_HDG_MANAGED_DOT | Indicates if managed heading mode is active or armed
+
+##### Altitude + V/S
+
+| Variable | Function |
+| ---: | --- |
 | AUTOPILOT ALTITUDE LOCK VAR:3 | Selected Altitude in FCU
+| L:A32NX_FCU_ALT_MANAGED | Indicates if managed altitude mode is active (dot)
 | L:A32NX_AUTOPILOT_FPA_SELECTED | Selected FPA in FCU
 | L:A32NX_AUTOPILOT_VS_SELECTED | Selected V/S in FCU
+| L:A32NX_FCU_VS_MANAGED | Indicates if managed VS/FPA mode is active
+| L:A32NX_FMA_EXPEDITE_MODE | Indicates if expedite mode is engaged
