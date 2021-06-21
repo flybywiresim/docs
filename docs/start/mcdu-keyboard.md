@@ -64,7 +64,7 @@ To use the `Line Select Keys` ++"-"++ (LSK) with your keyboard use the following
 - CLR held (>2s) 
     * Use ++shift+backspace++ together instead of ++backspace++ 
 - Clicking on screen + using camera keybind keys will cause MCDU to move out of the view. Since the camera is locked it is not possible to click on the screen to unfocus the MCDU
-    * Use keyboard shortcutsb below to unfocus:
+    * Use keyboard shortcuts below to unfocus:
         * ++ctrl+z++
         * ++alt++
 - Keybindings are currently optimized for `ANSI/ISO-UK` keyboard layouts. `ISO-DE/ISO-NORD` users will notice that slash keys on their keyboards may not function as expected. This is an unfortunate limitation of the Coherent Webkit based JS Engine. 
