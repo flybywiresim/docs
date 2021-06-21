@@ -31,6 +31,8 @@ nav:
       - Website: development-projects/website.md
   - A32NX Development:
       - Overview: a32nx-dev/overview.md
+      - Local Varibles (LVAR): a32nx-dev/a32nx-local-vars.md
+      - Custom-K-Events: a32nx-dev/a32nx-custom-k-events.md
   - Donate: donate.md
 
 # Configuration
