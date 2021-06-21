@@ -18,7 +18,7 @@ What this feature allows:
 ## Usage Guide
 
 !!! warning "Important"
-    Focusing the MCDU for keyboard input will stop all sim keybinds from working. Most notably, you will not be able to move the camera. Unfocusing should return control (i.e. camera)
+    Focusing the MCDU for keyboard input will stop all sim keybinds from working. Most notably, you will not be able to move the camera. Unfocusing should return control (i.e. camera).
 
 ### Enable MCDU keyboard
 
@@ -34,7 +34,9 @@ You will have to reload the flight for this change to take effect. (Similar to s
 
 Once you have completed the above steps simply click on the MCDU screen to put it into focus. The MCDU will display a visual indicator when input is ready to be accepted. The scratchpad should be highlighted, and the title will be highlighted in cyan as well.
 
-**[Insert Sample Image Here]**
+Visual indicator sample:
+
+![visual sample](https://media.discordapp.net/attachments/756972656422813807/856489441245397013/unknown.png?width=476&height=352)
 
 ### Accepted Keys
 
@@ -45,12 +47,18 @@ You may now use any combination of the following on your keyboard to use for ent
 - Dots
 - Slashes
 - ++backspace++ - should perform the same usage as `CLR` on the MCDU
-- ++shift+backspace++ - should function as holding down the `CLR` key on the MCDU for 2 seconds
+- ++shift+backspace++ - should function as `CLR HELD` keybind on the MCDU (clears the scratchpad)
 
 To use the `Line Select Keys` ++"-"++ (LSK) with your keyboard use the following keys:
 
 - `LSK1L - LSK6L` uses ++f1++ through ++f6++
 - `LSK1R - LSK6R` uses ++f7++ through ++f12++
+
+To unfocus the MCDU use one of the keys below:
+
+- ++ctrl+z++
+- ++alt++
+
 
 ### How to set a timeout
 
