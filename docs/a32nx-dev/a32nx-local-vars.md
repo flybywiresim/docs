@@ -12,7 +12,7 @@ This list grows continuously as the FlyByWire A32NX is evolving further.
 Changes are to be expected when new functionality is added or variables
 are renamed to be more logical and consistent.
 
-## Aircraft systems
+### Aircraft systems
 
 ATA Reference:
 [http://www.s-techent.com/ATA100.htm](http://www.s-techent.com/ATA100.htm)
@@ -45,7 +45,7 @@ ATA Reference:
 | ATA 45     | [ONBOARD MAINTENANCE SYSTEMS (OMS)](#ata45-onboard-maintenance-systems-oms)                                                     |
 | ATA 49     | [(AIRBORNE) AUXILIARY POWER UNIT](#ata49-auxiliary-power-unit)                                                                  |
 
-## Power Plant
+### Power Plant
 
 | ATA Number | ATA Chapter name                                              |
 |:-----------|:--------------------------------------------------------------|
@@ -56,7 +56,7 @@ ATA Reference:
 | ATA 79     | [OIL](#ata79-oil)                                             |
 | ATA 80     | [STARTING](#ata80-starting)                                   |
 
-## MISCELLANEOUS
+### MISCELLANEOUS
 
 | ATA Number | ATA Chapter name                                             |
 |:-----------|:-------------------------------------------------------------|
@@ -64,7 +64,7 @@ ATA Reference:
 
 --------------------------------------------------------------------------------
 
-## ATA21 AIR CONDITIONING
+### ATA21 AIR CONDITIONING
 
 | Name                                      | Type           | Description                                                                                                   |
 |:------------------------------------------|:---------------|:--------------------------------------------------------------------------------------------------------------|
@@ -90,9 +90,9 @@ ATA Reference:
 | A32NX_VENTILATION_EXTRACT_FAULT           | Boolean        | True if ventilation extractor fault                                                                           |
 | A32NX_VENTILATION_EXTRACT_TOGGLE          | Boolean        | True if ventilation extractor on                                                                              |
 
-## ATA22 AUTO FLIGHT
+### ATA22 AUTO FLIGHT
 
-### ATA22-10 AUTO FLIGHT: Autpilot
+#### ATA22-10 AUTO FLIGHT: Autpilot
 
 | Name                                    | Type                     | Description                                                                                                                                                                                                                                                                                                                                                                                |
 |:----------------------------------------|:-------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -139,7 +139,7 @@ ATA Reference:
 |                                         |                          |                                                                                                                                                                                                                                                                                                                                                                                            |
 | A32NX_TRK_FPA_MODE_ACTIVE               | Boolean                  | True if TRK/FPA mode is active                                                                                                                                                                                                                                                                                                                                                             |
 
-### ATA22-30 AUTO FLIGHT: Autothrust
+#### ATA22-30 AUTO FLIGHT: Autothrust
 
 | Name                                       | Type          | Description                                                                                                                                                                                                                                                                                                                              |
 |:-------------------------------------------|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -155,7 +155,7 @@ ATA Reference:
 | A32NX_AUTOTHRUST_THRUST_LIMIT_TYPE         | Enum          | Indicates the type of current thrust limit <br/>Mode = Value <br/>  NONE = 0 <br/>CLB = 1 <br/>MCT = 2 <br/>FLEX = 3 <br/>TOGA = 4 <br/>REVERSE = 5                                                                                                                                                                                      |
 | A32NX_AUTOTHRUST_TLA_N1:{index}            | Number (% N1) | Indicates the N1 corresponding to the TLA for engine {index}, first    engine has index 1                                                                                                                                                                                                                                                |
 
-## ATA23 COMMUNICATION
+### ATA23 COMMUNICATION
 
 | Name                               | Type    | Description                                                          |
 |:-----------------------------------|:--------|:---------------------------------------------------------------------|
@@ -176,7 +176,7 @@ ATA Reference:
 | A32NX_SVGEINT_OVRD_ON              | Boolean | True if SVGE INT OVRD is on.                                         |
 | PUSH_DOORPANEL_VIDEO               | Boolean | True if pedestal door video button is being held                     |
 
-## ATA24 ELECTRICAL POWER
+### ATA24 ELECTRICAL POWER
 
 | Name                                             | Type    | Description                                                                                                |
 |:-------------------------------------------------|:--------|:-----------------------------------------------------------------------------------------------------------|
@@ -337,9 +337,9 @@ ATA Reference:
 | A32NX_OVHD_EMER_ELEC_RAT_AND_EMER_GEN_IS_PRESSED | Boolean | True if Ram Air Turbine has been manually deployed.                                                        |
 
 
-## ATA25 EQUIPMENT/FURNISHINGS
+### ATA25 EQUIPMENT/FURNISHINGS
 
-### ATA25-60 EQUIPMENT/FURNISHINGS: EMERGENCY
+#### ATA25-60 EQUIPMENT/FURNISHINGS: EMERGENCY
 
 | Name                      | Type    | Description                                        |
 |:--------------------------|:--------|:---------------------------------------------------|
@@ -350,7 +350,7 @@ ATA Reference:
 | A32NX_SLIDES_ARMED        | Boolean | Indicates whether the door slides are armed or not |
 | PUSH_OVHD_EVAC_HORN       | Boolean | True if evac horn cutout button is being pressed   |
 
-## ATA26 FIRE PROTECTION
+### ATA26 FIRE PROTECTION
 
 | Name                            | Type    | Description                                  |
 |:--------------------------------|:--------|:---------------------------------------------|
@@ -358,7 +358,7 @@ ATA Reference:
 | A32NX_CARGOSMOKE_FWD_DISCHARGED | Boolean | True if cargosmoke one bottle is discharged  |
 | A32NX_FIRE_BUTTON_APU           | Boolean | Indicates if the APU fire button is RELEASED |
 
-## ATA27 FLIGHT CONTROLS
+### ATA27 FLIGHT CONTROLS
 
 | Name                                  | Type    | Description                                                                                                                           |
 |:--------------------------------------|:--------|:--------------------------------------------------------------------------------------------------------------------------------------|
@@ -368,7 +368,7 @@ ATA Reference:
 | A32NX_SPOILERS_GROUND_SPOILERS_ACTIVE | Boolean | Indicates if the ground spoilers are active (fully deployed) <br/>Value Position<br/>0 = Inactive<br/> 1 = Active                     |
 | A32NX_SPOILERS_HANDLE_POSITION        | Number  | Indicates the physical handler position without arm/disarm <br/>Value  Position<br/>0 = Retracted<br/> 1 = Full extension             |
 
-### Fly-By-Wire System
+#### Fly-By-Wire System
 
 | Name                              | Type   | Description                                                                                                                              |
 |:----------------------------------|:-------|:-----------------------------------------------------------------------------------------------------------------------------------------|
@@ -379,11 +379,11 @@ ATA Reference:
 | A32NX_SIDESTICK_POSITION_X        | Number | Provides the direct sidestick position (lateral) <br/>Value = Meaning <br/>-1 = full left<br/> 0 = neutral<br/>1 = full right            |
 | A32NX_SIDESTICK_POSITION_Y        | Number | Provides the direct sidestick position (longitudinal) <br/>Value = Meaning <br/>-1 = full forward<br/>0 = neutral<br/> 1 = full backward |
 
-## ATA28 FUEL
+### ATA28 FUEL
 
 Uses MSFS and SIMCONNECT variables and events
 
-## ATA29 HYDRAULIC POWER
+### ATA29 HYDRAULIC POWER
 
 | Name                                   | Type           | Description                                                                                    |
 |:---------------------------------------|:---------------|:-----------------------------------------------------------------------------------------------|
@@ -447,7 +447,7 @@ Uses MSFS and SIMCONNECT variables and events
 |                                        |                |                                                                                                |
 | A32NX_OVHD_HYD_RAT_MAN_ON_IS_PRESSED   | Boolean        | Deploys the RAT manually                                                                       |
 
-## ATA30 ICE AND RAIN PROTECTION
+### ATA30 ICE AND RAIN PROTECTION
 
 | Name                                                | Type    | Description                                                                                      |
 |:----------------------------------------------------|:--------|:-------------------------------------------------------------------------------------------------|
@@ -459,9 +459,9 @@ Uses MSFS and SIMCONNECT variables and events
 | XMLVAR_MOMENTARY_PUSH_OVHD_ANTIICE_ENG{1,2}_PRESSED | Boolean | A/ICE END{1,2} switch ON or OFF (switch position only)                                           |
 | XMLVAR_MOMENTARY_PUSH_OVHD_ANTIICE_WING_PRESSED     | Boolean | A/ICE WING switch ON or OFF (switch position only)                                               |
 
-## ATA32 LANDING GEAR
+### ATA32 LANDING GEAR
 
-### ATA32-40 LANDING GEAR: Brakes
+#### ATA32-40 LANDING GEAR: Brakes
 
 | Name                                       | Type    | Description                                                                                                                                                                                                                                                                                                                                                        |
 |:-------------------------------------------|:--------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -481,7 +481,7 @@ Uses MSFS and SIMCONNECT variables and events
 |                                            |         |                                                                                                                                                                                                                                                                                                                                                                    |
 | A32NX_PARK_BRAKE_LEVER_POS                 | Boolean | Current position of the parking brake lever                                                                                                                                                                                                                                                                                                                        |
 
-## ATA33 LIGHTS
+### ATA33 LIGHTS
 
 | Name                     | Type             | Description                                                                                                                                     |
 |:-------------------------|:-----------------|:------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -497,15 +497,15 @@ The FlyByWire A32NX uses standard SIMCONNECT or MSFS variables and
 events for most lighting and signs. This includes for example
 SIMCONNECT:LIGHT_NAV or MSFS:LIGHT_POTENTIOMETER:{1...}
 
-## ATA34 NAVIGATION
+### ATA34 NAVIGATION
 
-### ATA34-10 NAVIGATION: FLIGHT ENVIRONMENT DATA
+#### ATA34-10 NAVIGATION: FLIGHT ENVIRONMENT DATA
 
 | Name                    | Type    | Description                         |
 |:------------------------|:--------|:------------------------------------|
 | A32NX_METRIC_ALT_TOGGLE | Boolean | True if PFD metric altitude enabled |
 
-### ATA34-40 NAVIGATION: INDEPENDENT POSITION DETERMINING
+#### ATA34-40 NAVIGATION: INDEPENDENT POSITION DETERMINING
 
 | Name                       | Type           | Description                                                                                                                                                         |
 |:---------------------------|:---------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -517,7 +517,7 @@ SIMCONNECT:LIGHT_NAV or MSFS:LIGHT_POTENTIOMETER:{1...}
 | A32NX_RADAR_GCS_AUTO       | Boolean        | True if GCS switch is set to AUTO.                                                                                                                                  |
 | A32NX_RADAR_MULTISCAN_AUTO | Boolean        | True if multiscan switch is set to AUTO.                                                                                                                            |
 
-### ATA34-50 NAVIGATION: DEPENDENT POSITION DETERMINING
+#### ATA34-50 NAVIGATION: DEPENDENT POSITION DETERMINING
 
 | Name                      | Type    | Description                                                                                                                                                                                             |
 |:--------------------------|:--------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -525,7 +525,7 @@ SIMCONNECT:LIGHT_NAV or MSFS:LIGHT_POTENTIOMETER:{1...}
 | XMLVAR_ALT_MODE_REQUESTED | Number  | Used in the `.flt` files to set a default value for the ALT RPTG 2 way switch on the TCAS panel <br/> Maps to the `I:XMLVAR_ALT_MODE_REQUESTED` variable which is the actual backing var for the switch |
 | XMLVAR_Auto               | Number  | Used in the `.flt` files to set a default value for the ATC 3 way switch on the TCAS panel <br/> Maps to the `I:XMLVAR_Auto` variable which is the actual backing var for the switch                    |
 
-### ATA34-60 NAVIGATION: FLIGHT MANAGEMENT COMPUTING
+#### ATA34-60 NAVIGATION: FLIGHT MANAGEMENT COMPUTING
 
 
 | Name                            | Type    | Description                                                                                                                                                                                                                                                                                         |
@@ -562,7 +562,7 @@ SIMCONNECT:LIGHT_NAV or MSFS:LIGHT_POTENTIOMETER:{1...}
 | A32NX_VSPEEDS_VLS_APP           | Knots   | VLS calculated for config full whether A32NX_VSPEEDS_LANDING_CONF3 or not (is mach corrected)                                                                                                                                                                                                       |
 | A32NX_VSPEEDS_VS                | Knots   | Current config stall speed (is mach corrected)                                                                                                                                                                                                                                                      |
 
-## ATA35 OXYGEN
+### ATA35 OXYGEN
 
 | Name                            | Type    | Description                                    |
 |:--------------------------------|:--------|:-----------------------------------------------|
@@ -571,7 +571,7 @@ SIMCONNECT:LIGHT_NAV or MSFS:LIGHT_POTENTIOMETER:{1...}
 | A32NX_OXYGEN_TMR_RESET          | Boolean | True if oxygen timer is being reset.           |
 | A32NX_OXYGEN_TMR_RESET_FAULT    | Boolean | True if fault with oxygen timer.               |
 
-## ATA39 ELECTRICAL - ELECTRONIC PANELS AND MULTIPURPOSE COMPONENTS
+### ATA39 ELECTRICAL - ELECTRONIC PANELS AND MULTIPURPOSE COMPONENTS
 
 | Name                            | Type           | Description                                 |
 |:--------------------------------|:---------------|:--------------------------------------------|
@@ -580,13 +580,13 @@ SIMCONNECT:LIGHT_NAV or MSFS:LIGHT_POTENTIOMETER:{1...}
 | A32NX_KNOB_SWITCHING_3_Position | Position (0-2) | EIS DMC: 0 is CAPT, 1 is NORM, 2 is F/O     |
 | A32NX_KNOB_SWITCHING_4_Position | Position (0-2) | ECAM/ND XFR: 0 is CAPT, 1 is NORM, 2 is F/O |
 
-## ATA45 ONBOARD MAINTENANCE SYSTEMS (OMS)
+### ATA45 ONBOARD MAINTENANCE SYSTEMS (OMS)
 
 | Name                | Type    | Description                          |
 |:--------------------|:--------|:-------------------------------------|
 | A32NX_DLS_ON (INOP) | Boolean | True if data loading selector is on. |
 
-## ATA49 AUXILIARY POWER UNIT
+### ATA49 AUXILIARY POWER UNIT
 
 | Name                                   | Type    | Description                                                                                                                                                                                                 |
 |:---------------------------------------|:--------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -611,9 +611,9 @@ SIMCONNECT:LIGHT_NAV or MSFS:LIGHT_POTENTIOMETER:{1...}
 | A32NX_OVHD_PNEU_APU_BLEED_PB_HAS_FAULT | Boolean | Indicates if the push button's FAULT light should illuminate: a FAULT indicates SMOKE should illuminate.                                                                                                    |
 | A32NX_OVHD_PNEU_APU_BLEED_PB_IS_ON     | Boolean | True when the push button is ON                                                                                                                                                                             |
 
-## ATA72 ENGINE
+### ATA72 ENGINE
 
-## ATA73 ENGINE - FUEL AND CONTROL
+### ATA73 ENGINE - FUEL AND CONTROL
 
 | Name                        | Type          | Description                                                                              |
 |:----------------------------|:--------------|:-----------------------------------------------------------------------------------------|
@@ -629,9 +629,9 @@ SIMCONNECT:LIGHT_NAV or MSFS:LIGHT_POTENTIOMETER:{1...}
 |                             |               |                                                                                          |
 | A32NX_FUEL_USED:{index}     | Number (Kg)   | Fuel burnt by engine {index} on deltaTime                                                |
 
-## ATA75 BLEED AIR
+### ATA75 BLEED AIR
 
-## ATA77 ENGINE INDICATING
+### ATA77 ENGINE INDICATING
 
 | Name                     | Type                         | Description                                                                                                                                                                                                                                                                                                                                                                          |
 |:-------------------------|:-----------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -645,14 +645,14 @@ SIMCONNECT:LIGHT_NAV or MSFS:LIGHT_POTENTIOMETER:{1...}
 | A32NX_ENGINE_IDLE_N2     | Number (% N2)                | Expected idle N2 as a function of temperature and pressure                                                                                                                                                                                                                                                                                                                           |
 | A32NX_ENGINE_IMBALANCE   | Number (2-bit coded decimal) | Defines random engine imbalance of parameters<br/> Bits (from Left) = Parameter <br/>0-1 = Engine affected (01 or 02)<br/> 2-3 = EGT (max 20º imbalance) <br/>4-5 = FF (max 36 Kg/h imbalance) <br/>6-7 = N2 (max 0.3%    imbalance) <br/>8-9 = Oil Qty (max 2 Qt imbalance) <br/>10-11 = Oil Pressure    (max 3 psi imbalance) <br/>12-13 = Idle Oil Pressure (+/- 6 psi imbalance) |
 
-## ATA79 OIL
+### ATA79 OIL
 
 | Name                           | Type            | Description                                                          |
 |:-------------------------------|:----------------|:---------------------------------------------------------------------|
 | A32NX_ENGINE_TANK_OIL:{index}  | Number (quarts) | Total engine {index} oil quantity in the oil tank                    |
 | A32NX_ENGINE_TOTAL_OIL:{index} | Number (quarts) | Total engine {index} oil quantity in the oil system (tank + circuit) |
 
-## ATA80 STARTING
+### ATA80 STARTING
 
 | Name                       | Type             | Description                                                                                                |
 |:---------------------------|:-----------------|:-----------------------------------------------------------------------------------------------------------|
@@ -662,13 +662,13 @@ SIMCONNECT:LIGHT_NAV or MSFS:LIGHT_POTENTIOMETER:{1...}
 | A32NX_ENGMANSTART1_TOGGLE  | Boolean          | True if manual engine 1 start on                                                                           |
 | A32NX_ENGMANSTART2_TOGGLE  | Boolean          | True if manual engine 2 start on                                                                           |
 
-## ATA115 FLIGHT SIMULATOR SYSTEMS
+### ATA115 FLIGHT SIMULATOR SYSTEMS
 
 | Name                                     | Type   | Description                                                                                                                                               |
 |:-----------------------------------------|:-------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | A32NX_3D_THROTTLE_LEVER_POSITION_{index} | Number | Animation position of the throttles in 3D model <br/>Position = Value<br/>FULL REVERSE = 0<br/> IDLE = 25<br/> CLB = 50<br/> FLX/MCT = 75<br/> TOGA = 100 |
 
-### Throttle Mapping System
+#### Throttle Mapping System
 
 | Name                                                                    | Type             | Description                                                                                                                                                                                                |
 |:------------------------------------------------------------------------|:-----------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
