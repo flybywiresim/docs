@@ -326,6 +326,7 @@ You can grab the required files with the links below.
 #### FCU variables
 
 The following gives an overview of the used variables in relation to the FCU. For more detailed explanation of the values please refer to this page:
+
 [:fontawesome-brands-github:{: .github } SimVars Documentation](https://github.com/flybywiresim/a32nx/blob/master/docs/a320-simvars.md){ .md-button }
 
 ##### Common
