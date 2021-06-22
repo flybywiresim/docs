@@ -8,7 +8,7 @@ Please follow the information on this page to install the FlyByWire Simulations 
 
     All FlyByWire Simulations A32NX versions are now independent from the default A320neo.
 
-    We’d like to remind all users of the following two **important changes**:
+    We’d like to remind all users of the following three **important changes**:
 
     The folder in the Community directory is now:
 
@@ -16,7 +16,20 @@ Please follow the information on this page to install the FlyByWire Simulations 
 
     The airplane in the simulator is now titled:
 
-      - `FlyByWire Simulations - A320neo (LEAP)` 
+      - `FlyByWire Simulations - A320neo (LEAP)`
+
+!!! info "Marketplace Version Incompatibility"
+    The A32NX on the MSFS  marketplace is incompatible with any of our installer / standalone versions. 
+
+    You must **choose** one of the options below:
+
+    - The marketplace version installed
+    - One of the branches from our installer/website.  
+
+    If you're an existing user and want to benefit from our regular updates, you should stay on the version you fly already or download using the options below to keep the plane up to date:
+
+    - [FBW installer](#flybywire-installer)
+    - [FlyByWire Simulations website](https://flybywiresim.com)
 
 ---
 
@@ -28,17 +41,17 @@ Download the new FlyByWire installer where you can select either the Stable, Dev
 
 The following commands can be used:
 
-`Ctrl+F5` - Refreshes Installer
+++ctrl+f5++ - Refreshes Installer
 
-`Ctrl+F12` - Opens the debug tool
+++ctrl+f12++ - Opens the debug tool
 
 You can send us logs to our [Discord](https://discord.gg/flybywire) for support if you encounter issues with the installer. Please follow the steps below:
 
-  * In the debug tool find and select `Console` in the top menu.
+  * In the debug tool find and select ++"Console"++ in the top menu.
     
-  * `Right+Click` anywhere in the log displayed. 
+  * `Right Click` anywhere in the log displayed. 
     
-  * Click `Save as` and send the log to us.
+  * Click ++"Save as"++ and send the log to us.
 
 [Download Installer](https://api.flybywiresim.com/installer){ .md-button }
 
