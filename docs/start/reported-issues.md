@@ -1,5 +1,10 @@
 # Reported Known Issues
 
+!!! warning "Use Correct Flight Model"
+    **The modern flight model is required to fly the A32NX**. 
+
+    Please ensure that your flight model is set correctly via the MSFS settings. 
+
 !!! info "Always Try This First"
 
     Please try and remove all other mods/liveries from the community folder and test our mod again. This will help rule out mod conflicts.
