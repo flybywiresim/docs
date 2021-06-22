@@ -155,7 +155,7 @@ If your issue is not related to installation visit - [**Reported Issues**](repor
 
 ## Contributing
 
-[:fontawesome-brands-github:{: .github } -  **GitHub Contributing.md**](https://github.com/flybywiresim/a32nx/blob/master/.github/Contributing.md)
+[:fontawesome-brands-github:{: .github } **GitHub Contributing.md**](https://github.com/flybywiresim/a32nx/blob/master/.github/Contributing.md){ .md-button }
 
 More info [A32NX Development Overview](../a32nx-dev/overview.md)
 
