@@ -11,9 +11,9 @@
 
     <sub>Report back the result of this test on our Discord.
 
-!!! warning "After Microsoft Flight Simulator Updates"
+!!! warning "Issues after Microsoft Flight Simulator Updates"
 
-    Make sure you do a full reinstall A32NX. Delete either of the folders below from your community folder:
+    If you are cannot resolve any issues with solutions listed below perform a clean reinstall of the A32NX. Delete either of the folders below from your community folder:
 
     * A32NX (old folder name)
     * flybywire-aircraft-a320-neo (new folder name)
