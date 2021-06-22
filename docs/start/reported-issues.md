@@ -1,14 +1,19 @@
 # Reported Known Issues
 
+!!! warning "Use Correct Flight Model"
+    **The modern flight model is required to fly the A32NX**. 
+
+    Please ensure that your flight model is set correctly via the MSFS settings. 
+
 !!! info "Always Try This First"
 
     Please try and remove all other mods/liveries from the community folder and test our mod again. This will help rule out mod conflicts.
 
     <sub>Report back the result of this test on our Discord.
 
-!!! warning "After Microsoft Flight Simulator Updates"
+!!! warning "Issues after Microsoft Flight Simulator Updates"
 
-    Make sure you do a full reinstall A32NX. Delete either of the folders below from your community folder:
+    If you are cannot resolve any issues with solutions listed below perform a clean reinstall of the A32NX. Delete either of the folders below from your community folder:
 
     * A32NX (old folder name)
     * flybywire-aircraft-a320-neo (new folder name)
@@ -29,16 +34,14 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
     - [**Main Page**](autopilot-fbw.md)
     - [**Typical Issues + Solutions**](autopilot-fbw.md#typical-issues-and-how-to-solve-them)
     - [**Known Issues**](autopilot-fbw.md#known-issues)
-
-* In development/experimental versions, the engine startup sound is bugged due to a fuel flow issue. This will be fixed when engine startup procedures will be implemented.
     
 * Autopilot, FADEC, electrical system unwanted behavior
     - In rare cases the above mentioned systems may not start or behave erratically. This is in part due to `UTF-8` language support beta not enabled on your machine.
         - Solution:
             - Open Windows Control Panel -> Region.
-            - Go to the Administrative tab and click Change system locale...
+            - Go to the Administrative tab and click ++"Change system locale"++
             - Make sure the check mark next to `Beta: Use UTF-8 for worldwide language support is selected`.
-            - Click OK and restart your computer.
+            - Click ++"OK"++ and restart your computer.
     
 * ADIRS not aligned when spawning anywhere except cold & dark at a gate (*intermittent issue*)
     - Workaround: Restart the flight
@@ -126,6 +129,8 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
 ***
 
 ### ^^Fixed Issues^^
+
+* In development/experimental versions, the engine startup sound is bugged due to a fuel flow issue. This will be fixed when engine startup procedures will be implemented. *(fixed)*
 
 * Due to changes in the way flap lift is modelled, the plane may bounce when transitioning between certain flaps settings (flaps 1 to flaps 2 and flaps 3 to flaps FULL). *(fixed)*
     - The stable version is less affected than the development version.
