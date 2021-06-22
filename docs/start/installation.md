@@ -8,7 +8,7 @@ Please follow the information on this page to install the FlyByWire Simulations 
 
     All FlyByWire Simulations A32NX versions are now independent from the default A320neo.
 
-    We’d like to remind all users of the following three **important changes**:
+    We’d like to remind all users of the following two **important changes**:
 
     The folder in the Community directory is now:
 
