@@ -36,7 +36,7 @@ Once you have completed the above steps simply click on the MCDU screen to put i
 
 Visual indicator sample:
 
-![visual sample](https://media.discordapp.net/attachments/756972656422813807/856489441245397013/unknown.png?width=476&height=352)
+![visual sample](https://media.discordapp.net/attachments/717548046522777604/857051288003674142/unknown.png)
 
 ### Accepted Keys
 
@@ -54,15 +54,24 @@ To use the `Line Select Keys` ++"-"++ (LSK) with your keyboard use the following
 - `LSK1L - LSK6L` uses ++f1++ through ++f6++
 - `LSK1R - LSK6R` uses ++f7++ through ++f12++
 
-To unfocus the MCDU use one of the keys below:
+To unfocus the MCDU use any of actions below:
 
-- ++ctrl+z++
-- ++alt++
+- Click on the MCDU Screen
+- Press ++ctrl+z++
+- Press ++alt++
 
 
 ### How to set a timeout
 
--- No details yet --
+The timeout feature will "automatically unfocus" the MCDU screen should you be unable to use any of the actions above to manually unfocus. 
+
+Return to the realism settings in `MCDU Options`. You should see `INPUT TIMEOUT`. You can specify how long the the timeout feature will wait before unfocusing the MCDU. 
+
+- Valid range is `5 - 120 seconds`
+
+Sample Image:
+
+![timeout screen](https://cdn.discordapp.com/attachments/717548046522777604/857051435471732736/unknown.png)
 
 ---
 
