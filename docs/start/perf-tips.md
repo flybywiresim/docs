@@ -122,10 +122,14 @@ These settings are ultimately up to you. It all depends on your hardware and wea
 
 You can use the built in settings presets (low, medium, high and ultra) to establish a baseline. Once you have found a preset you like, you can then start to change individual settings to further optimise your experience. I strongly encourage you to make a note of existing settings in case you wish to revert back to your previous settings for any reason.
 
-Talk about Settings and how they affect performance
+Below is a really useful guide which shows what each graphics setting in Microsoft Flight Simulator does, as well as outlining how they affect your performance. You can use it in conjunction with this guide to help you dial in your Microsoft Flight Simulator graphics settings. 
+
+[MSFS Settings Guide](https://forums.flightsimulator.com/t/how-to-graphics-settings-and-performance-guide-3-16-2021/132407){ .md-button }
 
 ---
 
-After applying all off these settings it is essential that you restart your PC for some of them to take effect.
+!!! note "Note"
 
-I would also recommend restarting your PC each time you experiment and change graphics settings from within Microsoft Flight Simulator.
+    After applying all off these settings it is essential that you restart your PC for some of them to take effect.
+
+    I would also recommend restarting your PC each time you experiment and change graphics settings from within Microsoft Flight Simulator.
