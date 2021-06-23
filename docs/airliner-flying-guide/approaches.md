@@ -52,7 +52,7 @@ A non-precision approach officially can only give you lateral guidance to the po
 | :-------------: | :--------------: | :--------: |
 | Localiser Only \(LOC\) | A localiser that would be part of an ILS system normally | Some airports only have localiser but also when ILS glideslopes have failed. |
 | VOR-DME or VOR Only | A VOR beacon with/without a distance from a DME | Old style approaches, where ILS cannot be used. |
-| NDB-DME or DME Only | A NDB beacon with/without a distance from a DME | Old style approaches, where an ILS cannot be used |
+| NDB-DME or NDB Only | A NDB beacon with/without a distance from a DME | Old style approaches, where an ILS cannot be used |
 | LNAV Only | GPS or the Aircrafts position inside the flight management computers | Approaches where there are no radio beacons in the area |
 | Approach Surveillance Radar \(ASR\) | A radar dish and a controller <br> (No altitude compared to PAR) | Commonly as a backup, or at military airfields. |
 | Visual | Pilots eyeball! | Where there is no issue with the weather and the runway is already in sight |
