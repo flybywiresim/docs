@@ -3,11 +3,16 @@
 
 !!! warning "Disclaimer"
 
-    Your results may may vary depending on your hardware and other outside factors.
+    Your results may vary depending on your hardware and other outside factors.
+
+    This means you may experience no performance increase so please make a note of existing settings in case you need to revert.
 
     This guide is for a simulator wide performance increase.
 
-    **This guide is for Nvidia Graphics cards only**
+    **Please note, this is for Nvidia Graphics cards only**
+
+Author Credit: *BenW on Discord*
+
 ---
 
 ## Windows Settings
@@ -20,7 +25,7 @@
 
 - Then, navigate to the `Game Mode` tab. Make sure it is set to `On`.
 
-- Set graphics performance to `High Performance` (This may be less effective on a desktop than a laptop).
+- Set graphics performance to `High Performance`, instructions below. (This may be less effective on a desktop than a laptop).
 
 !!! info "Methods - Graphics Performance"
 
@@ -60,7 +65,7 @@
 
 !!! warning "Please note"
 
-    After an update in MSFS, it isn't unheard of that your graphics drivers may become 'out of date' and cause some performance issues
+    After an update in MSFS, it isn't unheard of that your graphics drivers may become 'out of date' and cause some performance issues.
 
     If this happens and you notice a decrease in performance, you can try rolling back your graphics driver until a new one is available.
 
@@ -73,9 +78,10 @@ Open GeForce Experience and navigate to the settings cog. Under `General` turn o
 
 This disables a feature called ShadowPlay, which is similar to the background recording we talked about in Windows settings.
 
-If you particularly want to use the overlay, you can turn off ShadowPlay individually by pressing `Alt + Z` and making sure `Instant Replay` Is set to off. I would recommend disabling the overlay entirely though.
+Alternatively, if you do want to use the overlay, you can leave it on, but turn off ShadowPlay individually by pressing `Alt + Z` and making sure `Instant Replay` is set to off. I would recommend disabling the overlay entirely though if you don't plan on using it.
 
-(The less overlays you have running, the better performance you will get. Examples of overlays are Steam Overlay, Windows Game Bar etc.)
+(The less overlays you have running, the better performance you will get. Examples of overlays are the Steam Overlay, Windows Game Bar etc.)
+
 ---
 
 ## NVIDIA Control Panel
@@ -89,10 +95,12 @@ In the dropdown, select `Microsoft Flight Simulator (Microsoft Flight Simulator)
 Change the settings listed below:
 
 - Power management mode - `Prefer maximum performance`
-- Vertical Sync - `On`
-    - Add about Gsync
 - Texture Filtering Quality - `High Performance`
-    - This setting may mean you loose a small amount of quality in textures with the benefit of more FPS, you can experiment with this to get an acceptable balance.
+    - This setting may mean you lose a small amount of quality in textures with the benefit of more FPS, you can experiment with this to achieve an acceptable balance.
+- Vertical Sync - `On`
+    - If you have a G-SYNC compatible monitor, set Monitor Technology to `G-SYNC Compatible`
+
+Make sure to press `Apply` to save these settings.
 
 !!! info "Global Settings"
 
@@ -104,10 +112,20 @@ Change the settings listed below:
 
     This is important, as having it set to Max Performance globally will force your GPU to stay at its max clock speed causing excess heat and power draw, even at idle. It is okay to have this setting in the `Program Settings` tab as we want the GPU to run at its highest clock speed for maximum performance when actually running the game.
 
+    I would also recommend having Vertical Sync set to `Use the 3D application setting` if choosing to apply these settings globally. This is because most games handle V-Sync well on their own, whereas MSFS doesn't currently.
+
 ---
 
 ##Microsoft Flight Simulator
 
-Up to you 
+These settings are ultimately up to you. It all depends on your hardware and weather you want higher FPS, or a better looking game. You will need to find a balance between performance and graphical quality for your specific hardware.
 
-Settings and how they affect performance
+You can use the built in settings presets (low, medium, high and ultra) to establish a baseline. Once you have found a preset you like, you can then start to change individual settings to further optimise your experience. I strongly encourage you to make a note of existing settings in case you wish to revert back to your previous settings for any reason.
+
+Talk about Settings and how they affect performance
+
+---
+
+After applying all off these settings it is essential that you restart your PC for some of them to take effect.
+
+I would also recommend restarting your PC each time you experiment and change graphics settings from within Microsoft Flight Simulator.
