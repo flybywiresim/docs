@@ -86,6 +86,6 @@ Sample Image:
         * ++alt++
 - Keybindings are currently optimized for `ANSI/ISO-UK` keyboard layouts. `ISO-DE/ISO-NORD` users will notice that slash keys on their keyboards may not function as expected. This is an unfortunate limitation of the Coherent Webkit based JS Engine. 
     * The following keys can be used as substitutes instead: 
-        * ++greater++ or ++less++ (Int backslash) 
-        * ++"#"++ (or ++"'/*"++)
+        * ++greater++ 
+        * ++"#"++ (or ++single-quote++)
     * **Note:** that the numpad will work as expected regardless of keyboard layout.
