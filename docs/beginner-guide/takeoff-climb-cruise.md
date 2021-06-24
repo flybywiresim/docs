@@ -333,7 +333,7 @@ before final approach and landing (under normal flight conditions).
 The aircraft will now climb to the altitude selected in the FCU (in our
 case 5.000ft).
 
-Activate the __Autopilot__ at this point by pressing the AP1 button on the FCU.
+**Activate the __Autopilot__ at this point by pressing the AP1 button on the FCU.**
 
 ![Autopilot and Autothurst buttons](../assets/takeoff-climb-cruise/AP1.png "Autopilot and Autothurst buttons")
 
@@ -351,12 +351,13 @@ The FMA now shows AP1 in white in the upper right corner.
     we tell the __Autopilot__ to fly this heading (Selected Heading Mode).<br/>
     ALT "5000" : means the selected altitude is 5000ft<br/>
 
-When reaching VS speed retract flaps (assuming we took off with FLAPS 1).
+**When reaching VS speed retract flaps (assuming we took off with FLAPS 1).**
+
 VS speed is signified with an S next to the speed band in the PFD.
 
 ![Aircraft shortly before reaching VS speed](../assets/takeoff-climb-cruise/S_speed.png "Aircraft shortly before reaching VS speed")
 
-Now complete the "After Take Off checklist"
+**Now complete the "After Take Off checklist"**
 
 1. Landing gear up
 - Flaps retracted
@@ -379,7 +380,7 @@ Aircraft is climbing to or is at our initially cleared climb altitude.<br/>
 *After take off checklist* is completed.<br/>
 ATC has given us clearance for further climb.
 
-Dial the newly cleared altitude into the FCU. (e.g., 12000ft)
+**Dial the newly cleared altitude into the FCU. (e.g., 12000ft)**
 
 ![Entering the new altitude and pushing knob for Managed Altitude Mode](../assets/takeoff-climb-cruise/Altitude_setting12000.png "Entering the new altitude and pushing knob for Managed Altitude Mode")
 
@@ -401,7 +402,7 @@ Turn off landing lights and when the aircraft is stable (weather, no turn,
 etc.) you can turn off the seatbelt signs. The aircraft will now accelerate
 to CLB speed (defined in MCDU PERF CLB page).
 
-Repeat the climb process above until cruise level (e.g. FL210) is reached.
+**Repeat the climb process above until cruise level (e.g. FL210) is reached.**
 
 ![PFD at cruise level](../assets/takeoff-climb-cruise/Cruise_lvl_pfd.png "PFD at cruise level")
 
@@ -411,7 +412,7 @@ This concludes the *Climb*.
 
 ### 5. Cruise
 **Situation:**<br/>
-Aircraft has leveled of at designated cruise level.<br/>
+Aircraft has leveled of at planned cruise level.<br/>
 Speed is cruise speed as per ECAM PERF CRZ page.
 __Autopilot__ is ON.<<br/>
 Speed is in Managed Mode.<br/>
@@ -421,7 +422,7 @@ It allows time to double-check the systems by going through all ECAM pages, etc.
 
 Regular ATC frequency changes with altitude and position checkins are common.
 
-At some point (200-300NM from destination) we would start with descent-planning  
+At some point (200-300NM from destination) we would start with descent-planning
 and setting up the aircraft for descent and approach.
 
 Descent, Approach and Landing will be covered in the next chapters of this
