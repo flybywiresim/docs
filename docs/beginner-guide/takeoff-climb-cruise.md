@@ -476,7 +476,10 @@ request from ATC or other circumstances like weather, traffic, etc.
   Use the ECAM DIR page to select the waypoint from the plight plan's
   list of waypoints. In rare cases it is a waypoint not in the current
   flight plan then you can enter a new waypoint in the MCDU and put it
-  into the upper left entry field. Select ... to
+  into the upper left entry field. Select DIRECT* on the rght bottom to
+  execute the change.
+
+    ![ECAM direct to](../assets/takeoff-climb-cruise/Dir_to.png "ECAM direct to")
 
 - **ATC requests specific speed **<br/>
   Sometimes ATC requests a specific speed to keep separation between
