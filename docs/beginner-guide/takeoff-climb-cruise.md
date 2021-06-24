@@ -48,7 +48,7 @@ This is in comparison to other airliners a user might be used to.
 
 - Fly-by-wire system.<br/>
 Traditional mechanical and hydro-mechanical flight control systems use a
-series of levers, rods, cables, pulleys, and more which pilots move to
+series of levers, rods, cables, pulleys and more, which pilots move to
 adjust control surfaces to aerodynamic conditions. Their "hands on" design
 gives pilots a direct, tactile feel for how the aircraft is handling
 aerodynamic forces as they fly. On the other hand, mechanical systems
@@ -77,7 +77,7 @@ The A320 has __Autothrust__ which is similar to Autothrottle (e.g., in a Boeing)
 but it does not move the thrust levers. Basically the thrust levers are only
 moved by the pilot and never move on their own. The thrust levers act as a
 maximum allowed power setting for the autothrust system. During normal flight
-(after take off) the levers stay in the CL climb) dedent, and the Autothrust
+(after take off) the levers stay in the CL climb detent, and the Autothrust
 system will set engine power accordingly.
 
 - Autopilot<br/>
@@ -112,21 +112,22 @@ I will do this as the very last step -->
 ### 1. Lineup
 **Situation:**<br/>
 ATC (Ground or Tower)  has instructed us to hold at a runway holding point
-and wait until we are cleared to "line up" or "take off".<br/>  
-Aircraft is still in TAXI state (see previous chapters) and parking brakes are set.
+and wait until we are cleared to "line up" or "take off".<br/>
+Aircraft is still in TAXI state (see previous chapters) and parking brakes
+are set.
 
 ![Holding at runway holding point](../assets/takeoff-climb-cruise/Holding.png "Aircraft holding at runway holding point")
 
-Typically, it is latest here that we are asked to switch to Tower ATC
+Typically, it is here at the latest that we are asked to switch to Tower ATC
 frequency for take off clearance.
 
 #### Preparation and checklist pre-clearance
-While approaching the runway holding point or latest at runway holding point the
-"Before take off checklist" needs to be completed.
+While approaching the runway holding point or at the latest at the runway
+holding point the "Before take off checklist" needs to be completed.
 
 __*The following steps from TAXI setup need to be done and checked:*__
 
-- Check OVHD panel: APU off, no lights visible under normal circumstances<br/>
+1. Check OVHD panel: APU off, no lights visible under normal circumstances<br/>
   (exception: Pack 1+2 might be OFF if part of procedure)
   ![image](../assets/takeoff-climb-cruise/OVHDPanel.png)
 
@@ -182,8 +183,8 @@ to enter the runway.
 "Line up" means that we roll onto the runway and stop at our starting point.
 We __MUST__ wait for ATC to give us "take off clearance" before we can continue.
 
-"Cleared for take off" means we are allowed to actually start the take off and
-after lining up.
+"Cleared for take off" means we are allowed to actually start the take off
+when aligned with the runway.
 
 Before we start rolling onto the runway we do the following steps:
 
@@ -196,11 +197,11 @@ is on final approach. We can also use TCAS on the ND to check for aircraft
 in the vicinity.
 
 If everything is clear we release the parking brake and slowly roll onto the
-runway in the direction of take off and come to s stop on the
-runway on the center line.
+runway in the direction of take off and come to a stop on the
+runway's center line.
 
 There is also a *running start* where we would not stop but directly apply
-thrust for take off once we are straight on the runway. But, as a beginner
+thrust for take off once we are straight on the runway. But, as a beginner,
 a full stop is recommended, so you can double-check everything.
 
 When we reached our starting point we stop and set the parking brakes.
@@ -219,90 +220,87 @@ After ATC has given clearance for take off we can actually start our roll.
 
 **A typical standard take off follows these steps:**
 
-Release parking brake and hold down manual brakes.
+1. Release parking brake and hold down manual brakes.
 
-Apply thrust slowly to about 50% thrust until both engines are stabilized
+- Apply thrust slowly to about 50% thrust until both engines are stabilized
 (N1 stays constant at around 50%) while still holding the brakes.
 
-Push Sidestick forward to about -10° on the PFD to put pressure on the front gear
+- Push Sidestick forward to about -10° on the PFD to put pressure on the front gear
+  ![thrust-brake-forward-pressure](../assets/takeoff-climb-cruise/Thrust-brake-forward-pressure.png "Cockpit before applying take off thrust")
 
-![thrust-brake-forward-pressure](../assets/takeoff-climb-cruise/Thrust-brake-forward-pressure.png "Cockpit before applying take off thrust")
+- Release brakes and apply FLX/MCT or TO GA power.<br/>
+  (depending on if have configured a FLEX temperature, and the runway is long
+  enough for a FLEX start)
+  ![Takeoff_thrust](../assets/takeoff-climb-cruise/Takeoff_thrust.png "Cockpit instruments after applying take off thrust")
 
-Release brakes and apply FLX/MCT or TO GA power.<br/>
-(depending on if have configured a FLEX temperature, and the runway is long
-enough for a FLEX start)
+- The PFD Flight Mode Annunciator (FMA) now shows several things which we
+  should check when aircraft starts rolling:<br/>
+  ![FMA_to_thrust](../assets/takeoff-climb-cruise/FMA_to_thrust.png)
 
-![Takeoff_thrust](../assets/takeoff-climb-cruise/Takeoff_thrust.png "Cockpit instruments after applying take off thrust")
+    From the left:
 
-The PFD Flight Mode Annunciator (FMA) now shows several things which you
-should check when aircraft starts rolling:
+    - Thrust: set to MAN FLX +60
+    - Vertical guidance:
+        - Active (green): SRS (pitch guidance to maintain V2+10)
+        - Armed (blue): CLB mode (is next after SRS is done)
+    - Lateral guidance:
+        - Active: RWY (automatic runway axis follow up through ILS use)
+        - Armed: NAV (navigation guidance according to HDG knob)
+    - Autopilot, Flight Director, Autothrust:
+        - Autopilots are off
+        - Flight Director 1 and 2 are ON
+        - A/THR (Autothrust) is armed (not active yet)
 
-![FMA_to_thrust](../assets/takeoff-climb-cruise/FMA_to_thrust.png)
+    Vertical and lateral guidance are **only shown** via Flight Director as we
+    have not turned on the Autopilot yet and need to be followed manually by the pilot.
 
-From the left:
+    ![Flight Director guidance](../assets/takeoff-climb-cruise/Flight_director_guidance.png "Flight Director guidance")
 
-- Thrust: set to MAN FLX +60
-- Vertical guidance:
-    - Active (green): SRS (pitch guidance to maintain V2+10)
-    - Armed (blue): CLB mode (is next after SRS is done)
-- Lateral guidance:
-    - Active: RWY (automatic runway axis follow up through ILS use)
-    - Armed: NAV (navigation guidance according to HDG knob)
-- Autopilot, Flight Director, Autothrust:
-    - Autopilots are off
-    - Flight Director 1 and 2 are ON
-    - A/THR (Autothrust) is armed (not active yet)
+- Keep the aircraft on the center line while accelerating down the runway.
 
-Vertical and lateral guidance are **only shown** via Flight Director as we
-have not turned on the Autopilot yet and need to be followed manually by the pilot.
+    !!!note
+        There are three important speeds for take off which we have configured
+        earlier when programming the MCDU's PERF page for take off. These are
+        shown in blue on the PFD's speed tape.
 
-![Flight Director guidance](../assets/takeoff-climb-cruise/Flight_director_guidance.png "Flight Director guidance")
+        **V1**: The speed beyond which takeoff should no longer be aborted.
+        
+        **VR**: Rotation speed. The speed at which the pilot begins to apply control inputs to cause the aircraft nose to pitch up, after which it will leave the ground
+        
+        **V2**: Takeoff safety speed. The speed at which the aircraft may safely climb with one engine inoperative
+        
+        On a long enough runway V1 and VR are often very close together and can't be
+        clearly distinguished on the PFD speed tape.
 
-Keep the aircraft on the center line while accelerating down the runway.
-
-!!!note
-    There are three important speeds for take off which you have configured
-    earlier when programming the MCDU's PERF page for take off. These are
-    shown in blue on the PFD's speed tape.
-
-    **V1**: The speed beyond which takeoff should no longer be aborted.
-    
-    **VR**: Rotation speed. The speed at which the pilot begins to apply control inputs to cause the aircraft nose to pitch up, after which it will leave the ground
-    
-    **V2**: Takeoff safety speed. The speed at which the aircraft may safely climb with one engine inoperative
-    
-    On a long enough runway V1 and VR are often very close together and can't be
-    clearly distinguished on the PFD speed tape.
-
-At about 80 knots slowly release the forward pressure on the sidestick until
+- At about 80 knots slowly release the forward pressure on the sidestick until
 about 100 knots when the sidestick should be in neutral position.
 
-Your hand remain on the thrust levers until reaching V1 to be able to quickly
-abort the start. Remove your hand from the thrust levers at V1 to accidentally
-abort after V1.
+- The throttle hand remains on the thrust levers until reaching V1 to be
+  able to quickly abort the start. Remove the hand from the thrust levers
+  at V1 to avoid accidentally aborting after V1.
 
-At VR gently pull back on the Sidestick and try to get a 10-15° climb angle.
-Use the green horizontal flight director line as reference.
+- At VR gently pull back on the Sidestick and try to get a 10-15° climb angle.
+  Use the green horizontal flight director line as reference.
 
-![V1](../assets/takeoff-climb-cruise/V1.png "Speedtape with V1 marker")
+    ![V1](../assets/takeoff-climb-cruise/V1.png "Speedtape with V1 marker")
 
-Once we have confirmed "positive climb" we retract the landing gear.
+- Once we have confirmed "positive climb" we retract the landing gear.
 
-![Positve_climb](../assets/takeoff-climb-cruise/Positve_climb.png).
-![gearup](../assets/takeoff-climb-cruise/Gearup.png)
+    ![Positve_climb](../assets/takeoff-climb-cruise/Positve_climb.png).
+    ![gearup](../assets/takeoff-climb-cruise/Gearup.png)
 
-We confirm that the landing gear is up by looking at the landing gear
+- We confirm that the landing gear is up by looking at the landing gear
 annunciators, and the lower ECAM Wheels page.
 
-![ldg_gear_annun](../assets/takeoff-climb-cruise/Ldg_gear_annun.png "Landing gear annunciators show no lights")<br/>
-![Lower ECAM Wheel page after gear up](../assets/takeoff-climb-cruise/ECAM_wheel.png "Lower ECAM Wheel page after gear up")
+    ![ldg_gear_annun](../assets/takeoff-climb-cruise/Ldg_gear_annun.png "Landing gear annunciators show no lights")<br/>
+    ![Lower ECAM Wheel page after gear up](../assets/takeoff-climb-cruise/ECAM_wheel.png "Lower ECAM Wheel page after gear up")
 
-Now we turn off the TAXI and RWY TURN OFF lights. We do this as they are sitting
+- Now we turn off the TAXI and RWY TURN OFF lights. We do this as they are sitting
 on the front gear and are now within the gear housing getting hot.
 
-![Landing lights after gear up](../assets/takeoff-climb-cruise/Landing_lights_gear_up.png "Landing lights after gear up")
+    ![Landing lights after gear up](../assets/takeoff-climb-cruise/Landing_lights_gear_up.png "Landing lights after gear up")
 
-Last step of this part is disarming the SPEED BRAKE.
+- Last step of this part is disarming the SPEED BRAKE.
 
 This concludes *take off*.
 
@@ -314,8 +312,8 @@ Thrust levers are in FLX MCT or TO GA detent. <br/>
 Flaps are still in T.O. position.
 
 After take off the aircraft will use FLX/MCT or TO GA thrust until
-thrust reduction altitude is reached (typically ~1500ft above runway).
-(this is part of the MCDU setup)
+thrust reduction altitude is reached (typically ~1500ft above runway,
+this is part of the MCDU setup)
 
 After reaching thrust reduction altitude the PFD FMA now shows a flashing
 *LVR CLB* message to instruct the pilot to move thrust levers to the CLB detent.
@@ -335,7 +333,7 @@ Activate the *Autopilot* at this point by pressing the AP1 button on the FCU.
 
 ![Autopilot and Autothurst buttons](../assets/takeoff-climb-cruise/AP1.png "Autopilot and Autothurst buttons")
 
-The FMA now shows AP1 in white in the upper right corner,
+The FMA now shows AP1 in white in the upper right corner.
 
 !!!note
     The FCU (Flight Control Unit) shows three important values:<br/>
