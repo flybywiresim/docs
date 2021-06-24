@@ -2,15 +2,16 @@
 
 This guide will explain the correct procedures to accomplish take off, climb and establish cruise altitude.
 
-!!!note
-    The level of detail in this guide is meant to get a beginner safely up
-    in the air and to cruise level under normal conditions while simplifying
-    details which are not (yet) important for a beginner.<br/>
-    A *beginner* is defined as someone familiar with flying a GA aircraft
-    or different types of airliners. Aviation terminology and knowhow is a
-    requirement to fly any airliner even in Microsoft Flight Simulator.<br/>
-    Further reading:
-    [A320 Autoflight](https://www.smartcockpit.com/aircraft-ressources/A319-320-321-Autoflight.html)<br/>
+!!! warning "Disclaimer"
+    The level of detail in this guide is meant to get a FlyByWire A320neo
+    beginner safely up in the air and to cruise level under normal conditions
+    while simplifying details which are not (yet) important for a beginner.
+
+    A *beginner* is defined as someone familiar with flying a GA aircraft 
+    or different types of airliners. Aviation terminology and know-how is 
+    a requirement to fly any airliner even in Microsoft Flight Simulator.
+    
+    Further reading: [A320 Autoflight](https://www.smartcockpit.com/aircraft-ressources/A319-320-321-Autoflight.html)<br/>
     Also you will find many great videos on YouTube on how to fly the FlyByWire A32NX.<br/>
     Check out the FlyByWire YouTube Channel as well: [FlyByWire on YouTube](https://www.youtube.com/c/FlyByWireSimulations/playlists)
 
@@ -29,8 +30,7 @@ directly continue reading Takeoff.
 
 ## Pre-requisites
 
-- Aircraft is in taxi state (checklist TAXI completed)
-- Aircraft is at runway holding point, parking breaks are set
+Aircraft is in TAXI state as per previous chapters
 
 Download the [FlyByWire Checklist](../assets/FBW_A32NX_CHECKLIST.pdf) here.
 
@@ -114,11 +114,12 @@ plugin functionality when indenting everything within a content tab
 I will do this as the very last step -->
 
 ### 1. Lineup
-**Situation:**<br/>
-ATC (Ground or Tower)  has instructed us to hold at a runway holding point
-and wait until we are cleared to "line up" or "take off".<br/>
-Aircraft is still in TAXI state (see previous chapters) and parking brakes
-are set.
+**Situation:**
+
+- ATC (Ground or Tower)  has instructed us to hold at a runway holding point
+  and wait until we are cleared to "line up" or "take off".<br/>
+- Aircraft is still in TAXI state (see previous chapters) and parking brakes
+  are set.
 
 ![Holding at runway holding point](../assets/takeoff-climb-cruise/Holding.png "Aircraft holding at runway holding point")
 
@@ -133,12 +134,14 @@ __*The following steps from TAXI setup need to be done and checked:*__
 
 1. Check OVHD panel: APU off, no lights visible under normal circumstances<br/>
   (exception: Pack 1+2 might be OFF if part of procedure)
-  ![image](../assets/takeoff-climb-cruise/OVHDPanel.png)
+
+    ![image](../assets/takeoff-climb-cruise/OVHDPanel.png)
 
 - Check Flight Controls
 
 - Check Flight Instruments
-  ![CockpitTOReady](../assets/takeoff-climb-cruise/CockpitTOReady.png "Typical cockpit configuration before entering runway")
+
+    ![CockpitTOReady](../assets/takeoff-climb-cruise/CockpitTOReady.png "Typical cockpit configuration before entering runway")
 
 - Check correct FLAPS setting (must be in line with PERF TAKE OFF page)
 
@@ -165,7 +168,8 @@ __*The following steps from TAXI setup need to be done and checked:*__
     - SPLRS ARM
     - FLAPS TO
     - TO CONFIG NORMAL
-    - ![ECAM](../assets/takeoff-climb-cruise/ECAM.png)
+
+    ![ECAM](../assets/takeoff-climb-cruise/ECAM.png)
 
 - Press T.O. Config button below the ECAM to check take off configuration (last blue text "TEST" should disappear)
 
@@ -217,8 +221,9 @@ If we were only cleared for "line up" we wait here until we get clearance for *t
 This concludes *line up*.
 
 ### 2. Take off
-**Situation:**<br/>
-Aircraft is on runway and fully setup for take off as per previous chapters.
+**Situation:**
+
+- Aircraft is on runway and fully setup for take off as per previous chapters.
 
 After ATC has given clearance for take off we can actually start our roll.
 
@@ -229,7 +234,8 @@ After ATC has given clearance for take off we can actually start our roll.
 - Apply thrust slowly to about 50% thrust until both engines are stabilized
 (N1 stays constant at around 50%) while still holding the brakes.
 
-- Push Sidestick forward to about -10° on the PFD to put pressure on the front gear
+- Push Sidestick forward to about -10° on the PFD to put pressure on the
+  front gear<br/>
   ![thrust-brake-forward-pressure](../assets/takeoff-climb-cruise/Thrust-brake-forward-pressure.png "Cockpit before applying take off thrust")
 
 - Release brakes and apply FLX/MCT or TO GA power.<br/>
@@ -256,28 +262,26 @@ After ATC has given clearance for take off we can actually start our roll.
         - A/THR (Autothrust) is armed (not active yet)
 
     Vertical and lateral guidance are **only shown** via Flight Director as we
-    have not turned on the __Autopilot__ yet and need to be followed manually by the pilot.
+    have not turned on the __Autopilot__ yet and need to be followed manually
+    by the pilot.
 
     ![Flight Director guidance](../assets/takeoff-climb-cruise/Flight_director_guidance.png "Flight Director guidance")
 
 - Keep the aircraft on the center line while accelerating down the runway.
 
-    !!!note
+    !!!info "V-Speeds"
         There are three important speeds for take off which we have configured
         earlier when programming the MCDU's PERF page for take off. These are
         shown in blue on the PFD's speed tape.
 
         **V1**: The speed beyond which takeoff should no longer be aborted.
-        
         **VR**: Rotation speed. The speed at which the pilot begins to apply control inputs to cause the aircraft nose to pitch up, after which it will leave the ground
-        
         **V2**: Takeoff safety speed. The speed at which the aircraft may safely climb with one engine inoperative
         
         On a long enough runway V1 and VR are often very close together and can't be
         clearly distinguished on the PFD speed tape.
 
-- At about 80 knots slowly release the forward pressure on the sidestick until
-about 100 knots when the sidestick should be in neutral position.
+- At about 80 knots slowly release the forward pressure on the sidestick until about 100 knots when the sidestick should be in neutral position.
 
 - The throttle hand remains on the thrust levers until reaching V1 to be
   able to quickly abort the start. Remove the hand from the thrust levers
@@ -299,8 +303,9 @@ annunciators, and the lower ECAM Wheels page.
     ![ldg_gear_annun](../assets/takeoff-climb-cruise/Ldg_gear_annun.png "Landing gear annunciators show no lights")<br/>
     ![Lower ECAM Wheel page after gear up](../assets/takeoff-climb-cruise/ECAM_wheel.png "Lower ECAM Wheel page after gear up")
 
-- Now we turn off the TAXI and RWY TURN OFF lights. We do this as they are sitting
-on the front gear and are now within the gear housing getting hot.
+- Now we turn off the TAXI and RWY TURN OFF lights. We do this as they
+  are sitting on the front gear and are now within the gear housing getting
+  hot.
 
     ![Landing lights after gear up](../assets/takeoff-climb-cruise/Landing_lights_gear_up.png "Landing lights after gear up")
 
@@ -309,11 +314,12 @@ on the front gear and are now within the gear housing getting hot.
 This concludes *take off*.
 
 ### 3. Initial Climb
-**Situation:**<br/>
-Aircraft has left the ground and is climbing at about 15°.<br/>
-Gear is up.<br/>
-Thrust levers are in FLX MCT or TO GA detent. <br/>
-Flaps are still in T.O. position.
+**Situation:**
+
+- Aircraft has left the ground and is climbing at about 15°.
+- Gear is up.
+- Thrust levers are in FLX MCT or TO GA detent.
+- Flaps are still in T.O. position.
 
 After take off the aircraft will use FLX/MCT or TO GA thrust until
 thrust reduction altitude is reached (typically ~1500ft above runway,
@@ -339,7 +345,7 @@ case 5.000ft).
 
 The FMA now shows AP1 in white in the upper right corner.
 
-!!!note
+!!!info "FCU Autopilot Controls"
     The FCU (Flight Control Unit) shows three important values:<br/>
     SPD "---" : means the __Autopilot__ is in Managed Speed mode (e.g. 250knots
     <1000ft, 290 above).<br/>
@@ -375,10 +381,11 @@ __Autopilot__ activated it will level off automatically at the Selected Altitude
 This concludes the *Initial Climb*.
 
 ### 4. Climb
-**Situation:**<br/>
-Aircraft is climbing to or is at our initially cleared climb altitude.<br/>
-*After take off checklist* is completed.<br/>
-ATC has given us clearance for further climb.
+**Situation:**
+
+- Aircraft is climbing to or is at our initially cleared climb altitude.
+- *After take off checklist* is completed.
+- ATC has given us clearance for further climb.
 
 **Dial the newly cleared altitude into the FCU. (e.g., 12000ft)**
 
@@ -411,22 +418,79 @@ to CLB speed (defined in MCDU PERF CLB page).
 This concludes the *Climb*.
 
 ### 5. Cruise
-**Situation:**<br/>
-Aircraft has leveled of at planned cruise level.<br/>
-Speed is cruise speed as per ECAM PERF CRZ page.
-__Autopilot__ is ON.<<br/>
-Speed is in Managed Mode.<br/>
+**Situation:**
+
+- Aircraft has leveled of at planned cruise level.
+- Speed is cruise speed as per ECAM PERF CRZ page.
+- __Autopilot__ is ON.
+- Speed is in Managed Mode.
 
 This is usually the quietest time of the flight.
 It allows time to double-check the systems by going through all ECAM pages, etc.
 
 Regular ATC frequency changes with altitude and position checkins are common.
 
+Here are some typical activities which might happen during cruise mostly on
+request from ATC or other circumstances like weather, traffic, etc.
+
+- **Altitude change (also called flight level change)**<br/>
+  Like before during climb set your new altitude in the FCU and push the
+  ALT knob. The aircraft will descent or climb to the new altitude
+  automatically.
+
+    !!!info "Altitude Selector"
+        The Altitude Selector on the FCU also has a Managed, and a Selected Mode.
+        Managed Altitude Mode will adhere to constraints defined in the
+        flight plan. This is similar to VNAV in other aircraft.
+        E.g., if we want to descent from FL210 to FL80 but there is a constraint
+        of "at or above FL110" the aircraft will only descent to FL110 as per
+        constraint until this constraint no longer
+        applies, or the pilot overrides it with Selected Mode. In Selected
+        Altitude Mode the aircraft ignores any constraints.
+
+        **OBS: Managed Altitude Mode is not yet fully implemented in the 
+        FlyByWire A32NX**  
+      
+        The FMA shows CLB/DES for Managed Altitude Mode and OP CLB/OP DES 
+        for Selected Altitude Mode.  
+
+    !!!info "VS Selector"
+        As an alternative to altitude selection you can select a vertical
+        speed for climb or descent with the Vertical Speed Selector.
+        Set the desired vertical speed and pull the knob. The aircraft
+        will immediately start the climb/descent.
+        If you have not changed the selected altitude a warning sound will
+        start when you leave the selected altitude. If you change the
+        selected altitude so that the chosen vertical speed can reach it,
+        the aircraft will level off at that selected altitude. Otherwise,
+        it will continue to follow the selected vertical speed.
+
+- **Course change with Selected Heading** (given or cleared by ATC)<br/>
+  Dial heading knob to the desired heading and pull knob for Selected
+  Heading Mode. The aircraft will automatically change course to the new
+  heading. If you want the aircraft to follow the planned route again
+  you can push the knob for Managed Heading Mode.
+
+- **Direct course to a waypoint (DIR TO)** <br/>
+  ATC regularly instructs us to go "direct to (waypoint) XYZ".
+  Use the ECAM DIR page to select the waypoint from the plight plan's
+  list of waypoints. In rare cases it is a waypoint not in the current
+  flight plan then you can enter a new waypoint in the MCDU and put it
+  into the upper left entry field. Select ... to
+
+- **ATC requests specific speed **<br/>
+  Sometimes ATC requests a specific speed to keep separation between
+  aircraft. Pull the speed knob to switch to Selected Speed Mode. The
+  current speed will be preselected. Dial to the desired speed. The aircraft
+  will immediately begin to target the new speed by either incresing
+  or decreasing thrust.
+
+
 At some point (200-300NM from destination) we would start with descent-planning
 and setting up the aircraft for descent and approach.
 
-Descent, Approach and Landing will be covered in the next chapters of this
-beginner-guide.
+Descent, Approach and Landing will be covered in later chapters of this
+beginner guide.
 
 This concludes the *cruise*.
 
