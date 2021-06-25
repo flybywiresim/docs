@@ -20,6 +20,7 @@ nav:
       - Reported Issues: start/reported-issues.md
       - Performance Tips: start/performance-tips.md
       - Common Questions: start/faq.md
+      - MCDU Keyboard Input: start/mcdu-keyboard.md
       - Autopilot / Fly-By-Wire: start/autopilot-fbw.md
   - Airliner Flying Guide:
       - Overview: airliner-flying-guide/overview.md
@@ -92,6 +93,8 @@ markdown_extensions:
   - pymdownx.mark # Formatting Extension
   - pymdownx.tilde # Formatting Extension
   - pymdownx.keys # Visual keyboard keys extension
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - pymdownx.emoji: # Allows emoji style inline embeds for icons
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
