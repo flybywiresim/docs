@@ -16,7 +16,20 @@ Please follow the information on this page to install the FlyByWire Simulations 
 
     The airplane in the simulator is now titled:
 
-      - `FlyByWire Simulations - A320neo (LEAP)` 
+      - `FlyByWire Simulations - A320neo (LEAP)`
+
+!!! info "Marketplace Version Incompatibility"
+    The A32NX on the MSFS  marketplace is incompatible with any of our installer / standalone versions. 
+
+    You must **choose** one of the options below:
+
+    - The marketplace version installed
+    - One of the branches from our installer/website.  
+
+    If you're an existing user and want to benefit from our regular updates, you should stay on the version you fly already or download using the options below to keep the plane up to date:
+
+    - [FlyByWire Installer](#flybywire-installer)
+    - [FlyByWire Simulations website](https://flybywiresim.com)
 
 ---
 
@@ -28,17 +41,17 @@ Download the new FlyByWire installer where you can select either the Stable, Dev
 
 The following commands can be used:
 
-`Ctrl+F5` - Refreshes Installer
+++ctrl+f5++ - Refreshes Installer
 
-`Ctrl+F12` - Opens the debug tool
+++ctrl+f12++ - Opens the debug tool
 
 You can send us logs to our [Discord](https://discord.gg/flybywire) for support if you encounter issues with the installer. Please follow the steps below:
 
-  * In the debug tool find and select `Console` in the top menu.
+  * In the debug tool find and select ++"Console"++ in the top menu.
     
-  * `Right+Click` anywhere in the log displayed. 
+  * `Right Click` anywhere in the log displayed. 
     
-  * Click `Save as` and send the log to us.
+  * Click ++"Save as"++ and send the log to us.
 
 [Download Installer](https://api.flybywiresim.com/installer){ .md-button }
 
@@ -142,7 +155,7 @@ If your issue is not related to installation visit - [**Reported Issues**](repor
 
 ## Contributing
 
-[:fontawesome-brands-github:{: .github } -  **GitHub Contributing.md**](https://github.com/flybywiresim/a32nx/blob/master/.github/Contributing.md)
+[:fontawesome-brands-github:{: .github } **GitHub Contributing.md**](https://github.com/flybywiresim/a32nx/blob/master/.github/Contributing.md){ .md-button }
 
 More info [A32NX Development Overview](../a32nx-dev/overview.md)
 
@@ -150,7 +163,11 @@ More info [A32NX Development Overview](../a32nx-dev/overview.md)
 
 ## SimBrief Airframe
 
-The FlyByWire Simulations SimBrief airframe with correct weights is available below.
+SimBrief now has a dedicated airframe for the A320neo. 
+
+- Select `A20N - A320-251N` for your aircraft type.
+
+You may also select the FlyByWire Simulations SimBrief airframe with correct weights is available below.
 
 ✈ [SimBrief Airframe Link](https://www.simbrief.com/system/dispatch.php?sharefleet=eyJ0cyI6IjE2MDU4MjAwNzg5NDYiLCJiYXNldHlwZSI6IkEzMjAiLCJjb21tZW50cyI6IkZMWSBCWSBXSVJFIiwiaWNhbyI6IkEyME4iLCJuYW1lIjoiQTMyME5FTyBGQlciLCJlbmdpbmVzIjoiTEVBUC0xQTI2IiwicmVnIjoiQTIwTiIsImZpbiI6IiIsInNlbGNhbCI6IiIsImhleGNvZGUiOiIiLCJjYXQiOiJNIiwicGVyIjoiQyIsImVxdWlwIjoiU0RFM0ZHSElSV1kiLCJ0cmFuc3BvbmRlciI6IkxCMSIsInBibiI6IkExQjFDMUQxTzFTMSIsImV4dHJhcm1rIjoiIiwibWF4cGF4IjoiMTgwIiwid2d0dW5pdHMiOiJLR1MiLCJvZXciOiI0MTAwMCIsIm16ZnciOiI2MjUwMCIsIm10b3ciOiI3OTAwMCIsIm1sdyI6IjY2MDAwIiwibWF4ZnVlbCI6IjIxMjczIiwicGF4d2d0IjoiMTA0IiwiZGVmYXVsdGNpIjoiIiwiZnVlbGZhY3RvciI6IlAwMCIsImNydWlzZW9mZnNldCI6IlAwMDAwIn0-) Credits: [@viniciusfont](https://github.com/viniciusfont)
 
