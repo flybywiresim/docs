@@ -37,7 +37,7 @@ Author: BenW#8484 on Discord
         - You can now close Windows Settings.
         
     === "Steam Version"
-        Open Windows settings and search for `Graphics Settings`.
+        - Open Windows settings and search for `Graphics Settings`.
 
         - Under 'Choose an app to set preference', select `Desktop App` and click Browse
 
