@@ -43,11 +43,11 @@ Author: BenW#8484 on Discord
 
         - You will need to locate the Microsoft Flight Simulator executable.
 
-        - The default location for steam is:
+          - The default location for steam is:
 
-        - `C:\Program Files (x86)\Steam\steamapps\common\MicrosoftFlightSimulator\FlightSimulator.exe`
+            - `C:\Program Files (x86)\Steam\steamapps\common\MicrosoftFlightSimulator\FlightSimulator.exe`
 
-            - (If you have it installed in another location, point it there instead)
+                - (If you have it installed in another location, point it there instead)
 
         - Click options, then select `High Performance`, save your selection.
 
@@ -69,7 +69,7 @@ Author: BenW#8484 on Discord
 
 Open GeForce Experience and navigate to the settings cog. Under `General` turn off the `In-Game Overlay`. This disables a feature called ShadowPlay, which is similar to the background recording we talked about in Windows settings.
 
-Alternatively, if you do want to use the overlay, you can leave it on, but turn off ShadowPlay individually by pressing ++Alt + Z++ and making sure `Instant Replay` is set to off. We would recommend disabling the overlay entirely though if you don't plan on using it.
+Alternatively, if you do want to use the overlay, you can leave it on, but turn off ShadowPlay individually by pressing ++alt+z++ and making sure `Instant Replay` is set to off. We would recommend disabling the overlay entirely though if you don't plan on using it.
 
 (The fewer overlays you have running, the better performance you will get. Examples of overlays are the Steam Overlay, Windows Game Bar etc.)
 
@@ -111,7 +111,7 @@ Make sure to press `Apply` to save these settings.
 
 These settings are ultimately up to you. It all depends on your hardware and weather you want higher FPS, or a better looking game. You will need to find a balance between performance and graphical quality for your specific hardware.
 
-You can use the built in settings presets (low, medium, high and ultra) to establish a baseline. Once you have found a preset you like, you can then start to change individual settings to further optimise your experience. I strongly encourage you to make a note of existing settings in case you wish to revert back to your previous settings for any reason.
+You can use the built in settings presets (low, medium, high and ultra) to establish a baseline. Once you have found a preset you like, you can then start to change individual settings to further optimise your experience. We strongly encourage you to make a note of existing settings in case you wish to revert back to your previous settings for any reason.
 
 Below is a really useful guide which shows what each graphics setting in Microsoft Flight Simulator does, as well as outlining how they affect your performance. You can use it in conjunction with this guide to help you dial in your Microsoft Flight Simulator graphics settings. 
 
