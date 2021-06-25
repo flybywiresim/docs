@@ -28,7 +28,7 @@ Please follow the information on this page to install the FlyByWire Simulations 
 
     If you're an existing user and want to benefit from our regular updates, you should stay on the version you fly already or download using the options below to keep the plane up to date:
 
-    - [FBW installer](#flybywire-installer)
+    - [FlyByWire Installer](#flybywire-installer)
     - [FlyByWire Simulations website](https://flybywiresim.com)
 
 ---
