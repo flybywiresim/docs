@@ -236,8 +236,6 @@ when aligned with the runway.
 
 Shortly before we start our take off roll we do the following steps:
 
-- Check ENG MODE SEL as required (should be on MODE NORM)
-
 - Check PACKS as required<br/>
   (some airlines take off with Packs OFF to allow more power to thrust
   and save fuel - not necessarily required)
@@ -259,6 +257,8 @@ Shortly before we start our take off roll we do the following steps:
     !!! info "Lights at Take Off"
         Setting the RWY TURN OFF light to ON, the LAND LIGHTS to ON and
         the NOSE light to T.O minimizes bird strike hazard during takeoff.
+
+- Check ENG MODE SEL as required (should be on MODE NORM)
 
 - Set TCAS to TA or TA/TR and traffic to All or ABV)
 
@@ -491,8 +491,6 @@ request from ATC or other circumstances like weather, traffic, etc.
   ALT knob. The aircraft will descent or climb to the new altitude
   automatically.
 
-
-
 - **Course change with Selected Heading** (given or cleared by ATC)<br/>
   Dial heading knob to the desired heading and pull knob for Selected
   Heading Mode. The aircraft will automatically change course to the new
@@ -515,7 +513,6 @@ request from ATC or other circumstances like weather, traffic, etc.
   current speed will be preselected. Dial to the desired speed. The aircraft
   will immediately begin to target the new speed by either incresing
   or decreasing thrust.
-
 
 At some point (200-300NM from destination) we would start with descent-planning
 and setting up the aircraft for descent and approach.
