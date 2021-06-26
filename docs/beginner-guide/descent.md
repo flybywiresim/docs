@@ -1,4 +1,4 @@
-# Take off, climb and cruise
+# Descent Planning and Descent
 
 This guide will explain the correct procedures to plan and fly a descent
 from cruise altitude through STAR and Instrument Approach up to the final approach.
