@@ -7,7 +7,7 @@ The actual final approach (ILS approach) will be covered by a separate chapter.
 
 !!! warning "Disclaimer"
     The level of detail in this guide is meant to get a FlyByWire A320neo
-    beginner safely from cruise level to the IlS glideslope
+    beginner safely from cruise level to the ILS glideslope.
 
     A *beginner* is defined as someone familiar with flying a GA aircraft 
     or different types of airliners. Aviation terminology and know-how is 
@@ -55,7 +55,7 @@ This guide will cover these phases:
     Find a good overview over charts in our airliner guide: [Reading a Chart](../airliner-flying-guide/navigation.md#reading-a-chart)
 
 - __Approach__<br/>
-  The Instrument Approach (IAP or APPR) has similar objectives as a SID or STAR - safely bring aircraft into a position to land while ensure separation between aircraft.
+  The Instrument Approach (IAP or APPR) has similar objectives as a SID or STAR - safely bring an aircraft into a position to land while ensure separation between multiple aircraft.
 
     IAP are often designed for handling maximum traffic in even bad weather conditions. With only little traffic and good weather it is quite common that ATC instructs the pilot to leave the approach route by giving the pilot heading vectors for a more direct route to the final approach fix (FAF, also called final approach point).
 
@@ -119,8 +119,8 @@ I will do this as the very last step -->
 **Example chart:**
 
 ![STAR EGKK TEBRA](../assets/beginner-guide/descent/STAR_EGKK_TEBRA.png "STAR EGKK TEBRA")<br/>
-Copyright © 2021 Navigraph / Jeppesen<br/>
-"Navigraph Charts are intended for flight simulation use only, not for navigational use."
+*Copyright © 2021 Navigraph / Jeppesen<br/>
+"Navigraph Charts are intended for flight simulation use only, not for navigational use."*
 
 **Using the FlyPad:**
 
@@ -141,7 +141,7 @@ Divided by 1000:     54000 / 1000 = 54<br/>
 Plus margin (~10%):  59 NM
 ```
 
-Margin can be lower when headwind and larger for tailwind.
+Margin can be lower for headwind and larger for tailwind.
 
 As can be seen on the chart there will be a further descent to TIMBA at FL70 and after that (not visible on the chartabove) there will be a descent to the final approach which will be at 2000ft at the Final Approach Fix FF26L.
 
@@ -149,15 +149,87 @@ The same methodology/calculation as our initial descent can be applied to these 
 
 ATC will quite often instruct certain altitudes within the STAR and APPR which deviate from the STAR and APPR charts. So expect such instructions at any time.
 
+#### Advanced arrival planning
+
+!!! warning "Advanced arrival planning"
+    The following is a more advanced process for planning our arrival. It is obviously important when we want to have a more realistic experience but in Microsoft Flight Simulator you can skip this part for now. <br/>
+    Also his process is best done with an Online ATC service as the build-in MSFS ATC does not provide the necessary information at the right time.
+
+Before we descent we should also reconfirm our destination runway and input or update our destination data into the MCDU PERF APPR page.
+This is typically done about 50NM before the starting the descent.
+
+![ENTER DEST DATA Message on the MCDU](../assets/beginner-guide/descent/MCDU_Enter_dest_data.png "ENTER DEST DATA Message on the MCDU")
+
+We can obtain this data from the destination airport's ATIS information and the airport charts.
+
+From ATIS we get: QNH, TEMP and MAG WIND. Sometimes TRANS ALT - if not refer to the approach chart.
+
+ATIS Example:
+```
+GATWICK INFORMATION K TIME 2020, RUNWAY IN USE 26L 
+TRANSITION LEVEL FL70, SURFACE WIND 260,7 KNOTS 
+CAVOK TEMPERATURE +16, DEW POINT +12, QNH 1018, 
+ACKNOWLEDGE RECEIPT OF INFORMATION K AND ADVISE AIRCRAFT 
+TYPE ON FIRST CONTACT
+```
+
+From the chart we get TRANS ALT and BARO (=MDA) or RADIO (=DH).
+
+CAT 1 ILS uses MDA and is entered into the BARO field.
+
+CAT 2/3 ILS use DH which is put in the RADIO field. The BARO is based on barometric altitude whereas the RADIO is based on radio altitude (distance to ground).
+
+![Transistion alt on chart](../assets/beginner-guide/descent/EGKK_APPR_chart_1.png "Transistion alt on chart")<br/>
+![ILS information on chart](../assets/beginner-guide/descent/EGKK_APPR_chart_2.png "ILS information on chart")<br/>
+*Copyright © 2021 Navigraph / Jeppesen*
+
+The A320neo is capable of a CAT IIIB ILS approach and has an approach category of "C"<br/>
+(see [Wikipedia Aircraft approach category](https://en.wikipedia.org/wiki/Aircraft_approach_category)
+
+In this chart for EGKK 26L ILS there is no DH for CAT IIIB defined - so we can enter "NO" into the RADIO field.
+
+If your are using Microsoft Flight Simulator without any Online ATC services (VATSIM, IVAO, PilotEdge, ...), and using the MSFS build-in ATC, you usually can't request ATIS information for the destination airport at this point. MSFS ATC makes ATIS only available once close to the destination airport.
+
+If you are flying with Online ATC you can request ATIS via the MCDU-ATSU-ACO page or your network's client at this time.
+
+You can in any case request the METAR weather information for the destination airport via the same page.
+
+![MCDU ATSU AOC page - WX and ATIS](../assets/beginner-guide/descent/MCDU_ATSU_AOC_WX.png "MCDU ATSU AOC page - WX and ATIS")
+
+Once you have confirmed the destination runway and the destination data you are set for the approach and can continue focus on the descent.
+
 This concludes descent planning.
 
 ---
 
 ### 2. Starting the Descent
 
----
+A few minutes before we reach our calculated descent point (TOD) we request clearance for descent from ATC if not already given a descent instruction before.
+
+**Do NOT start the decent without clearance from ATC.**
+
+!!! info "TOD marker A320"
+    The FlyByWire A32NX has not implemented the TOD (top of descent) marker on the ND yet. Usually the A320 has a downward pointing arrow at the TOD to support the pilot with the decision when to descent. Ultimately it is still the pilot's responsibility to calculate and validate the TOD.
+
+When clearance is given we can start our descent to the flight level or altitude ATC has given us.
+
+For descending we set the new flight level or altitude in the FCU with the altitude dial knob. We can then either push the knob for Managed Altitude Mode (constraints are respected) or pull the knob for Selected Altitude Mode (constraints are ignored). You can also use the V/S dial knob to set a specific descent vertical velocity. Pull the V/S knob to start the descent.
+
+![FUC with ALT and V/S knobs](../assets/beginner-guide/descent/FCU_AP_knobs.png "FUC with ALT and V/S knobs")
+
+ATC typically will not clear us to our final target altitude directly but will give us several step descents down to our required altitude.
+Also ATC might still expect us to respect the STAR's constraints although they might have given us a lower clearance. We should then only descent to the constraint's altitude.
+
+!!! info "VNAV in the FlyByWire A32NX"
+    The scenario that we are cleared to a lower altitude or flight level with altitude constraints above the clearance is an ideal scenario for the called so "VNAV" autopilot mode which would be activated by using "Managed altitude Mode" (pushing the ALT knob). The autopilot will automatically level off at the constraint and continue descending when the constraint is no longer valid.
+
+    Unfortunately the current version of the FlyByWire A32NX does not yet support VNAV. This is planned to be implemented in one of the next versions.
+
+We repeat the process until we have reached our desired final approach altitude.
 
 ### 3. Flying the STAR and Approach
+
+
 
 ---
 
