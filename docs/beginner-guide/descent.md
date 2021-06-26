@@ -9,10 +9,10 @@ The actual final approach (ILS approach) will be covered by a separate chapter.
     The level of detail in this guide is meant to get a FlyByWire A320neo
     beginner safely from cruise level down to the ILS glideslope.
 
-    A *beginner* is defined as someone familiar with flying a GA aircraft 
-    or different types of airliners. Aviation terminology and know-how is 
+    A *beginner* is defined as someone familiar with flying a GA aircraft
+    or different types of airliners. Aviation terminology and know-how is
     a requirement to fly any airliner even in Microsoft Flight Simulator.
-    
+
     Further reading: [A320 Autoflight](https://www.smartcockpit.com/aircraft-ressources/A319-320-321-Autoflight.html)<br/>
     Also you will find many great videos on YouTube on how to fly the FlyByWire A32NX.<br/>
     Check out the FlyByWire YouTube Channel as well: [FlyByWire on YouTube](https://www.youtube.com/c/FlyByWireSimulations/playlists)
@@ -71,9 +71,9 @@ This guide will cover these phases:
 !!! info "Microsoft Flight Simulator and navigation charts"
     Although Microsoft Flight Simulator allows some flight planning through the user interface it is highly recommended to use navigational charts when flying airliners. MSFS' flight planning does not provide sufficient information to correctly fly a STAR or an approach.
 
-    There are several good sources for charts - free or subscription based. A good free solution is [Chartfox](https://chartfox.org/) which only requires a free VATSIM account. One of the most known subscription based sources for charts is [Navigraph](https://navigraph.com/home). It is planned to integrate both solutions into the FlyByWire A32NX FlyPad in the future. 
-    
-    Also, often a simple internet search will do the trick: Search for "&lt;airport icao code&gt; charts": E.g., "EDDM charts"  
+    There are several good sources for charts - free or subscription based. A good free solution is [Chartfox](https://chartfox.org/) which only requires a free VATSIM account. One of the most known subscription based sources for charts is [Navigraph](https://navigraph.com/home). It is planned to integrate both solutions into the FlyByWire A32NX FlyPad in the future.
+
+    Also, often a simple internet search will do the trick: Search for "&lt;airport icao code&gt; charts": E.g., "EDDM charts"
 
 ---
 
@@ -166,10 +166,10 @@ From ATIS we get: QNH, TEMP and MAG WIND. Sometimes TRANS ALT - if not refer to 
 
 ATIS Example:
 ```
-GATWICK INFORMATION K TIME 2020, RUNWAY IN USE 26L 
-TRANSITION LEVEL FL70, SURFACE WIND 260,7 KNOTS 
-CAVOK TEMPERATURE +16, DEW POINT +12, QNH 1018, 
-ACKNOWLEDGE RECEIPT OF INFORMATION K AND ADVISE AIRCRAFT 
+GATWICK INFORMATION K TIME 2020, RUNWAY IN USE 26L
+TRANSITION LEVEL FL70, SURFACE WIND 260,7 KNOTS
+CAVOK TEMPERATURE +16, DEW POINT +12, QNH 1018,
+ACKNOWLEDGE RECEIPT OF INFORMATION K AND ADVISE AIRCRAFT
 TYPE ON FIRST CONTACT
 ```
 
