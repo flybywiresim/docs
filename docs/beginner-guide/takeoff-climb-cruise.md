@@ -264,6 +264,9 @@ Shortly before we start our take off roll we do the following steps:
 
 **A typical standard take off follows these steps:**
 
+!!! info "Airline SOPs"
+    Some airline's SOPs (standard operating procedures) might have a different order for these steps.
+
 1. Release parking brake and hold down manual brakes.
 
 - Apply thrust slowly to about 50% thrust until both engines are stabilized
@@ -308,14 +311,13 @@ Shortly before we start our take off roll we do the following steps:
         earlier when programming the MCDU's PERF page for take off. These are
         shown in blue on the PFD's speed tape.
 
-        **V~1~**: The speed beyond which takeoff should no longer be aborted.
+        **V~1~**: The speed beyond which takeoff should no longer be aborted. V~1~ is depicted as a "1" next to the speedband in the PFD.
         
-        **V~R~**: Rotation speed. The speed at which the pilot begins to apply control inputs to cause the aircraft nose to pitch up, after which it will leave the ground
+        **V~R~**: Rotation speed. The speed at which the pilot begins to apply control inputs to cause the aircraft nose to pitch up, after which it will leave the ground. V~R~ is depicted as a cyan circle next to the speedband in the PFD.
         
-        **V~2~**: Takeoff safety speed. The speed at which the aircraft may safely climb with one engine inoperative
+        **V~2~**: Takeoff safety speed. The speed at which the aircraft may safely climb with one engine inoperative. V~2~ is depicted by a magenta triangle next to the speedband in the PFD.
         
-        On a long enough runway V~1~ and V~R~ are often very close together and can't be
-        clearly distinguished on the PFD speed tape.
+        On a long enough runway V~1~ (depicted by "1") and V~R~ (depicted by "o") are often very close together and can't be clearly distinguished on the PFD speed tape.
 
 - At about 80 knots slowly release the forward pressure on the sidestick until about 100 knots when the sidestick should be in neutral position.
 
@@ -338,14 +340,6 @@ annunciators, and the lower ECAM Wheels page.
 
     ![ldg_gear_annun](../assets/takeoff-climb-cruise/Ldg_gear_annun.png "Landing gear annunciators show no lights")<br/>
     ![Lower ECAM Wheel page after gear up](../assets/takeoff-climb-cruise/ECAM_wheel.png "Lower ECAM Wheel page after gear up"){ width=360 }
-
-- Now we turn off the TAXI and RWY TURN OFF lights. We do this as they
-  are sitting on the front gear and are now within the gear housing getting
-  hot.
-
-    ![Landing lights after gear up](../assets/takeoff-climb-cruise/Landing_lights_gear_up.png "Landing lights after gear up"){ width=360 }
-
-- Last step of this part is disarming the SPEED BRAKE.
 
 This concludes *take off*.
 
@@ -411,20 +405,20 @@ S-speed is signified with an S next to the speed band in the PFD.
 
 ![Aircraft shortly before reaching S-speed](../assets/takeoff-climb-cruise/S_speed.png "Aircraft shortly before reaching VS speed")
 
+Now we turn off the TAXI and RWY TURN OFF lights. We do this as they are sitting on the front gear and are now within the gear housing getting hot.
+
+![Landing lights after gear up](../assets/takeoff-climb-cruise/Landing_lights_gear_up.png "Landing lights after gear up"){ width=360 }
+
+Lastly we disarm the SPEED BRAKE and turn on the PACKS if we turned them off for take off.
+
 **Now complete the "After Take Off checklist"**
 
 1. Landing gear up
-- Flaps retracted
 - Packs on
-- Check Baro setting: above transition altitude (defined in the ECAM PERF page)
-  set it to STD by pulling the baro knob. A flashing baro value in the PFD
-  will remind us in case we forgot.
+- Flaps retracted
+- Check Baro setting: above transition altitude (defined in the ECAM PERF page) set it to STD by pulling the baro knob. A flashing baro value in the PFD will remind us in case we forgot.
 
-This is usually a good time to contact ATC Departure to check in with your
-current altitude. In most cases ATC will now give us a higher climb altitude.
-If we did not receive a higher altitude we have to level off at the previously
-cleared altitude (cleared by ATC or navigational charts). If we have the
-__Autopilot__ activated it will level off automatically at the Selected Altitude.
+This is usually a good time to contact ATC Departure to check in with your current altitude. In most cases ATC will now give us a higher climb altitude. If we did not receive a higher altitude we have to level off at the previously cleared altitude (cleared by ATC or navigational charts). If we have the __Autopilot__ activated it will level off automatically at the Selected Altitude.
 
 This concludes the *Initial Climb*.
 
