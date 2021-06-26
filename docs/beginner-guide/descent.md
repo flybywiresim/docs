@@ -1,8 +1,9 @@
 # Take off, climb and cruise
 
 This guide will explain the correct procedures to plan and fly a descent
-rom cruise altitude through STAR and Approach up to final approach.
-ILS landing will be covered by a separate chapter.
+from cruise altitude through STAR and Instrument Approach up to the final approach.
+
+The actual final approach (ILS approach) will be covered by a separate chapter.
 
 !!! warning "Disclaimer"
     The level of detail in this guide is meant to get a FlyByWire A320neo
@@ -38,33 +39,43 @@ This guide will cover these phases:
 ## Base knowledge: Route, Star and Approach
 
 - __Basics__<br/>
-  As we have learned in previous chapters a flight route begins with a origin airport and a SID to safely guide aircraft away from the airport to the first waypoint on their actual route. Similar to a SID the arrival to an airport is done via a STAR (Standard Terminal Arrival Route) and an IAP (Instrument Approach, often APPR) to safely bring aircraft into a position to land on the destination airport with as little ATC communication as possible.
+  As we have learned in previous chapters a flight route begins with a origin airport and a SID to safely guide the aircraft away from the airport to the first waypoint on their actual route. Similar to a SID the arrival to an airport is done via a STAR (Standard Terminal Arrival Route) and an IAP (Instrument Approach, often APPR) to safely bring the aircraft into a position to land on the destination airport with as little ATC communication as possible.
 
 - __STAR__<br/>
-  A Standard Terminal Arrival Route (STAR) ensures safe and efficient traffic from the last en-route waypoint to the initial approach fix (IAF) of the Instrument Approach (IAP).<br/>
-  It separates aircraft and avoids conflicts through specific routing, levels/altitudes, speed restrictions and checkpoints often with holding areas.
-  One main objective is to do this with a minimum of communication between the ATC controller and the pilot.
-  As the STAR is part of the flight plan a pilot can simply continue from the normal route into the STAR if ATC has not given any other instructions. Sometimes ATC might give an explicit clearance for the STAR or change the STAR to manage traffic and landing situation (different runways, etc.)
-  Often a STAR contains a clearance point which can't be passed without explicit clearance by ATC. If clearance is not given then usually a holding must be flown.
- The STAR which a pilot intends to use is usually included in the ATC flight plan and described in detail in navigational charts.
+  A Standard Terminal Arrival Route (STAR) ensures safe and efficient traffic from the last en-route waypoint to the initial approach fix (IAF) of the Instrument Approach (IAP). It separates aircraft and avoids conflicts through specific routing, levels/altitudes, speed restrictions and checkpoints often with holding areas.
 
-    (TODO: STAR Chart example
+    One main objective is, to do this with a minimum of communication between the ATC controller and the pilot. As the STAR is part of the flight plan a pilot can simply continue from the normal route into the STAR if ATC has not given any other instructions. Sometimes ATC might give an explicit clearance for the STAR or change the STAR to manage traffic and landing situation (different runways, etc.).
+
+    Often a STAR contains a clearance point which can't be passed without explicit clearance by ATC. If clearance is not given then usually a holding must be flown.
+
+    The STAR which a pilot intends to use is usually included in the ATC flight plan and described in detail in navigational charts.
+
+    Please also have a look at our airliner guide's SIDs and STAR section [SIDS and STARS](../airliner-flying-guide/navigation.md#sids-and-stars)
+
+    Find a good overview over charts in our airliner guide: [Reading a Chart](../airliner-flying-guide/navigation.md#reading-a-chart)
 
 - __Approach__<br/>
   The Instrument Approach (IAP or APPR) has similar objectives as a SID or STAR - safely bring aircraft into a position to land while ensure separation between aircraft.
-  IAP are often designed for handling maximum traffic in even bad weather conditions. With only little traffic and good weather it is quite common that ATC instructs the pilot to leave the approach route by giving the pilot heading vectors for a more direct route to the final approach fix (FAF, also called final approach point).
-  When flying with Online ATC (VATSIM, IVAO, PilotEdge, ...) expect being vectored to the FAF quite often.
 
-    (TODO: APPR plate example)
+    IAP are often designed for handling maximum traffic in even bad weather conditions. With only little traffic and good weather it is quite common that ATC instructs the pilot to leave the approach route by giving the pilot heading vectors for a more direct route to the final approach fix (FAF, also called final approach point).
+
+    When flying with Online ATC (VATSIM, IVAO, PilotEdge, ...) expect being vectored to the FAF quite often.
+
+    Find a commented ILS approach chart here: [Approach Chart](../airliner-flying-guide/navigation.md#chart-sample-1)
 
 - __ILS__<br/>
   The Instrument Landing System (ILS) is one of several modern forms of helping an aircraft during its final approach to land even in not optimal weather situations. ILS uses a localizer for lateral guidance and a glideslope for vertical guidance from the final appraoch fix down to a minimum at which the pilots need perform the final landing sequence visually.
   Modern airlines like the A320 are even able to use the ILS to land fully automatically as long as the runway's ILS supports it.
 
-    (TODO: ILS chart example)
+    Find a commented ILS approach chart here: [Approach Chart](../airliner-flying-guide/navigation.md#chart-sample-1)
 
 !!! info "Microsoft Flight Simulator and navigation charts"
     Although Microsoft Flight Simulator allows some flight planning through the user interface it is highly recommended to use navigational charts when flying airliners. MSFS' flight planning does not provide sufficient information to correctly fly a STAR or an approach.
+
+    There are several good sources for charts. One we can recommend is
+    [Chartfox](https://chartfox.org/) which you can use for free after creating a free VATSIM account.
+    
+    Often a simple Internet search will do the trick: Search for "<airport icao code> charts": E.g., "EDDM charts"  
 
 ---
 
@@ -77,7 +88,7 @@ I will do this as the very last step -->
 !!! info "Pilot's responsibility"
     It is the sole responsibility of us pilots to conduct proper flight planning and especially proper descent planning. It is not at all ATCs task to do descent planning for us pilots by giving descent instructions. On the other hand ATC often actually give descent instructions, especially on common routes, as they want the aircraft in their responsibility to be at certain altitudes when approaching the destination airport. Nevertheless we pilots must know when we need to descent the latest and if necessary we need to pro-actively request clearance to descent from ATC.
 
-Good descent planning is the foundation for a successful landing. It has to be done early during the flight or even before the flight.
+    Good descent planning is the foundation for a successful landing. It has to be done early during the flight or even before the flight.
 
 #### Important data points for descent planning:
 
@@ -88,8 +99,8 @@ Good descent planning is the foundation for a successful landing. It has to be d
 
 #### Step by step guide for descent planning:
 
-1. Read the STAR chart and determine if there are altitude and speed constraints which we need to consider.
-2. Consider the STAR and APPR route as optional and do not count on them to be flown and available for descending. ATC might want to vector us to a different runway or at least shortcut your approach but they won't be able to if we are still too high for to enter a final approach.<br/>
+1. Read the STAR chart and determine if there are altitude and/or speed constraints which we need to consider.
+2. Consider the STAR and APPR route as optional and do not count on them to be flown and available for descending. ATC might want to vector us to a different runway or at least shortcut our approach. But they won't be able to if we are still too high for the final approach.<br/>
 3. Determine the first descent point you need to meet. This could be a STAR waypoint with an altitude constraint, the final approach fix altitude or the airport elevation itself.
 4. Calculate the required distance needed to descent to that waypoint with a standard descent rate of 3%. We can use the FlyByWire FlyPad in the cockpit or a simple rule of thumb calculation. (Details below)
 5. Use the MCDU PROG page's DIST function to read out the current distance to this waypoint. It is also possible to use the ECAM flight plan, maps or the NDs distance rings to help determining the current distance.
@@ -106,16 +117,18 @@ Good descent planning is the foundation for a successful landing. It has to be d
 - Flight level FL320
 - STAR constraint at waypoint ABTUM "at FL140"
 
-Example simplified chart:
+**Example chart:**
 
-![STAR EGKK TEBRA](../assets/beginner-guide/descent/STAR_EGKK_TEBRA_1.png "STAR EGKK TEBRA")
+![STAR EGKK TEBRA](../assets/beginner-guide/descent/STAR_EGKK_TEBRA.png "STAR EGKK TEBRA")
+
+(source: [www.aurora.nats.co.uk EGKK TEBRA2G](https://www.aurora.nats.co.uk/htmlAIP/Publications/2021-06-17-AIRAC/graphics/203600.pdf))
 
 **Using the FlyPad:**
 
 Standard calculation with 3° descent path:
 ![Descent from FL320 to FL140](../assets/beginner-guide/descent/FlyPad_performance_TOD.png "Descent from FL320 to FL140")
 
-Calculation with a specific distance to get descent velocity:
+Calculation with a specific distance to calculate the required descent velocity (V/S):
 ![Descent calculation with given distance](../assets/beginner-guide/descent/FlyPad_performance_TOD2.png "Descent calculation with given distance")
 
 **Using "Rule of Thumb":**
@@ -131,9 +144,9 @@ Plus margin (~10%):  59 NM
 
 Margin can be lower when headwind and larger for tailwind.
 
-As can be seen on the simplified chart there will be a further descent to TIMBA at FL70 and after that (not on our example chart) there will be a descent to the final approach which will be at 2000ft at the Final Approach Fix FF26L.
+As can be seen on the chart there will be a further descent to TIMBA at FL70 and after that (as can be see on [this](https://www.aurora.nats.co.uk/htmlAIP/Publications/2021-06-17-AIRAC/graphics/114442.pdf) chart) there will be a descent to the final approach which will be at 2000ft at the Final Approach Fix FF26L.
 
-The same methodology can be applied to these descents as well but they are much easier as they are usually designed in a way that an aircraft with a 3° descent can make these descents with ease.
+The same methodology/calculation as our initial descent can be applied to these descents as well but they are much easier as they are usually designed in a way that an aircraft with a 3° descent path can make these descents with ease.
 
 ATC will quite often instruct certain altitudes within the STAR and APPR which deviate from the STAR and APPR charts. So expect such instructions at any time.
 
