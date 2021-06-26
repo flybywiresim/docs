@@ -39,7 +39,7 @@ This guide will cover these phases:
 ## Base knowledge: Route, Star and Approach
 
 - __Basics__<br/>
-  As we have learned in previous chapters a flight route begins with a origin airport and a SID to safely guide the aircraft away from the airport to the first waypoint on their actual route. Similar to a SID the arrival to an airport is done via a STAR (Standard Terminal Arrival Route) and an IAP (Instrument Approach, often APPR) to safely bring the aircraft into a position to land on the destination airport with as little ATC communication as possible.
+  As we have learned in previous chapters a flight route begins with an origin airport and a SID to safely guide the aircraft away from the airport to the first waypoint on their actual route. Similar to a SID the arrival to an airport is done via a STAR (Standard Terminal Arrival Route) and an IAP (Instrument Approach, often APPR) to safely bring the aircraft into a position to land on the destination airport with as little ATC communication as possible.
 
 - __STAR__<br/>
   A Standard Terminal Arrival Route (STAR) ensures safe and efficient traffic from the last en-route waypoint to the initial approach fix (IAF) of the Instrument Approach (IAP). It separates aircraft and avoids conflicts through specific routing, levels/altitudes, speed restrictions and checkpoints often with holding areas.
@@ -72,8 +72,7 @@ This guide will cover these phases:
 !!! info "Microsoft Flight Simulator and navigation charts"
     Although Microsoft Flight Simulator allows some flight planning through the user interface it is highly recommended to use navigational charts when flying airliners. MSFS' flight planning does not provide sufficient information to correctly fly a STAR or an approach.
 
-    There are several good sources for charts. One we can recommend is
-    [Chartfox](https://chartfox.org/) which you can use for free after creating a free VATSIM account.
+    There are several good sources for charts - free or subscription based. A good free solution is [Chartfox](https://chartfox.org/) which only requires a VATSIM account. One of the most known subscription based sources for charts is [Navigraph](https://navigraph.com/home). It is planned to integrate both solutions into the FlyByWire A32NX FlyPad in the future. 
     
     Often a simple Internet search will do the trick: Search for "<airport icao code> charts": E.g., "EDDM charts"  
 
@@ -119,9 +118,9 @@ I will do this as the very last step -->
 
 **Example chart:**
 
-![STAR EGKK TEBRA](../assets/beginner-guide/descent/STAR_EGKK_TEBRA.png "STAR EGKK TEBRA")
-
-(source: [www.aurora.nats.co.uk EGKK TEBRA2G](https://www.aurora.nats.co.uk/htmlAIP/Publications/2021-06-17-AIRAC/graphics/203600.pdf))
+![STAR EGKK TEBRA](../assets/beginner-guide/descent/STAR_EGKK_TEBRA.png "STAR EGKK TEBRA")<br/>
+Copyright © 2021 Navigraph / Jeppesen<br/>
+"Navigraph Charts are intended for flight simulation use only, not for navigational use."
 
 **Using the FlyPad:**
 
@@ -144,7 +143,7 @@ Plus margin (~10%):  59 NM
 
 Margin can be lower when headwind and larger for tailwind.
 
-As can be seen on the chart there will be a further descent to TIMBA at FL70 and after that (as can be see on [this](https://www.aurora.nats.co.uk/htmlAIP/Publications/2021-06-17-AIRAC/graphics/114442.pdf) chart) there will be a descent to the final approach which will be at 2000ft at the Final Approach Fix FF26L.
+As can be seen on the chart there will be a further descent to TIMBA at FL70 and after that (not visible on the chartabove) there will be a descent to the final approach which will be at 2000ft at the Final Approach Fix FF26L.
 
 The same methodology/calculation as our initial descent can be applied to these descents as well but they are much easier as they are usually designed in a way that an aircraft with a 3° descent path can make these descents with ease.
 
