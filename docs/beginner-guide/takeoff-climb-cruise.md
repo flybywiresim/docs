@@ -475,7 +475,7 @@ This concludes the *Climb*.
 This is usually the quietest time of the flight.
 It allows time to double-check the systems by going through all ECAM pages, etc.
 
-Regular ATC frequency changes with altitude and position checkins are common.
+Regular ATC frequency changes with altitude and position check-ins are common.
 
 Here are some **typical activities** which might happen during cruise mostly on
 request from ATC or other circumstances like weather, traffic, etc.
