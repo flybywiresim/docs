@@ -346,6 +346,8 @@ This is usually a good time to contact ATC Departure to check in with your curre
 
 This concludes the *Initial Climb*.
 
+---
+
 ### 4. Climb
 **Situation:**
 
