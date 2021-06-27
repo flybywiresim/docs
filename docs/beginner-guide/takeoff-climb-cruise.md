@@ -59,7 +59,7 @@ The A320 has a feature called "Autotrim", which makes it unnecessary to hold the
 The A320 has __Autothrust__ which is similar to Autothrottle (e.g., in a Boeing), but it does not move the thrust levers. Basically the thrust levers are only moved by the pilot and never move on their own. The thrust levers act as a maximum allowed power setting for the autothrust system. During normal flight (after take off) the levers stay in the CL climb detent, and the Autothrust system will set engine power accordingly.
 
 - __Autopilot__<br/>
-The A320's __Autopilot__ system works a bit differently from other manufacturer's systems. The A320 FCU controls allows setting certain values and then push or pull the knobs. Pushing usually means automatic control (Managed Mode) and pulling will use the manually selected value (Selected Mode).
+The A320's __Autopilot__ system works a bit differently from other manufacturer's systems. The A320 FCU controls allow setting certain values and then push or pull the knobs. Pushing usually means automatic control (Managed Mode) and pulling will use the manually selected value (Selected Mode).
 
     ![FCU](../assets/takeoff-climb-cruise/FCU.png "FCU"){ width=480 }
 
