@@ -39,23 +39,21 @@ This guide will cover these phases:
 ## Base knowledge: Route, Star and Approach
 
 - __Basics__<br/>
-  As we have learned in previous chapters a flight route begins with an origin airport and a SID to safely guide the aircraft away from the airport to the first waypoint on their actual route. Similar to a SID the arrival to an airport is done via a STAR (Standard Terminal Arrival Route) and an IAP (Instrument Approach, often APPR) to safely bring the aircraft into a position to land on the destination airport with as little ATC communication as possible.
+  As we have learned in previous chapters a flight route begins with an origin airport and a SID to safely guide the aircraft away from the airport to the first waypoint on their actual route. Similar to a SID the arrival to an airport is done via a STAR (Standard Terminal Arrival Route) and an IAP (Instrument Approach, often APPR) to safely bring the aircraft into a position to land on the destination airport safely and with as little ATC communication as possible.
 
 - __STAR__<br/>
   A Standard Terminal Arrival Route (STAR) ensures safe and efficient traffic from the last en-route waypoint to the initial approach fix (IAF) of the Instrument Approach (IAP). It separates aircraft, avoids conflicts and helps with noise abatement through specific routing, levels/altitudes, speed restrictions and checkpoints often with holding areas.
 
     One main objective is, to do this with a minimum of communication between the ATC controller and the pilot. As the STAR is part of the flight plan a pilot can simply continue from the normal route into the STAR if ATC has not given any other instructions. Sometimes ATC might give an explicit clearance for the STAR or change the STAR to manage traffic and landing situation (different runways, etc.).
 
-    Often a STAR contains a clearance point which mustn't be passed without explicit clearance by ATC. If clearance is not given then a holding must be flown as described on the charts.
-
-    The STAR which a pilot intends to use is usually included in the ATC flight plan and described in detail in navigational charts.
+    Often a STAR contains a clearance point which mustn't be passed without explicit clearance by ATC. If clearance is not given then a holding must be flown as described in the charts.
 
     Please also have a look at our airliner guide's SIDs and STAR section [SIDS and STARS](../airliner-flying-guide/navigation.md#sids-and-stars)
 
     Find a good overview over charts in our airliner guide: [Reading a Chart](../airliner-flying-guide/navigation.md#reading-a-chart)
 
 - __Approach__<br/>
-  The Instrument Approach (IAP or APPR) has similar objectives as a SID or STAR - safely bring an aircraft into a position to land while ensure separation between multiple aircraft.
+  The Instrument Approach (IAP or APPR) has similar objectives as a SID or STAR - safely bring an aircraft into a position to land while ensuring separation between multiple aircraft, avoiding terrain, support with noise abatement, etc.
 
     IAP are often designed for handling maximum traffic in even bad weather conditions. With only little traffic and good weather it is quite common that ATC instructs the pilot to leave the approach route by giving the pilot heading vectors for a more direct route to the final approach fix (FAF, also called final approach point).
 
@@ -64,7 +62,7 @@ This guide will cover these phases:
     Find a commented ILS approach chart here: [Approach Chart](../airliner-flying-guide/navigation.md#chart-sample-1)
 
 - __ILS__<br/>
-  The Instrument Landing System (ILS) is one of several modern forms of helping an aircraft during its final approach to land even in not optimal weather situations. ILS uses a localizer for lateral guidance and a glideslope for vertical guidance from the final approach fix down to a minimum at which the pilots need perform the final landing sequence visually.
+  The Instrument Landing System (ILS) is one of several modern forms of helping an aircraft during its final approach to land even in non-optimal weather situations. ILS uses a localizer for lateral guidance and a glideslope for vertical guidance from the final approach fix down to a minimum at which the pilot needs to perform the final landing sequence visually.
 
     Modern airlines like the A320 are even able to use the ILS to land fully automatically as long as the runway's ILS supports it.
 
@@ -75,7 +73,7 @@ This guide will cover these phases:
 
     There are several good sources for charts - free or subscription based. A good free solution is [Chartfox](https://chartfox.org/) which only requires a free VATSIM account. One of the most known subscription based sources for charts is [Navigraph](https://navigraph.com/home). It is planned to integrate both solutions into the FlyByWire A32NX FlyPad in the future. 
     
-    Also, often a simple Internet search will do the trick: Search for "&lt;airport icao code&gt; charts": E.g., "EDDM charts"  
+    Also, often a simple internet search will do the trick: Search for "&lt;airport icao code&gt; charts": E.g., "EDDM charts"  
 
 ---
 
@@ -88,16 +86,16 @@ This guide will cover these phases:
 
 #### Important data points for descent planning:
 
-- **Cruise Flight Level:** The higher we fly the earlier we need to start descending. Also for short flights a too high cruising altitude can make it impossible to actually descent to the destination airport in time.
+- **Cruise Flight Level:** The higher we fly the earlier we need to start descending. Also for short flights a too high cruising altitude can make it impossible to actually descent to the destination airport in time. Therefore verify your flight plan if overall distance and flight level makes sense.
 - **Flight Plan Constraints:** STARs often have flight level (FL) or altitude constraints which we must adhere to. We must plan our descent so we can meet these altitude constraints even when they themselves are still far away from the destination airport.
-- **Speed**: STARs also regularly have speed constraints which we need to take into consideration as slowing down will cost time and is hard while descending. If we start our descent too late we might not be able to slow down in time as required by a constraint.
+- **Speed**: STARs also regularly have speed constraints which we need to take into consideration as slowing down will cost time and is hard to do while descending. If we start our descent too late we might not be able to slow down in time as required by a constraint.
 - **Aircraft capability and passenger comfort:** Although not a big concern in the A320, general aircraft capabilities and passenger comfort also come into play. Descending with -4000ft/min is no fun for a passenger.
 
 #### Step by step guide for descent planning:
 
 1. Read the STAR chart and determine if there are altitude and/or speed constraints which we need to consider.
 2. Consider the STAR and APPR route as optional and do not count on them to be flown and available for descending. ATC might want to vector us to a different runway or at least shortcut our approach. But they won't be able to if we are still too high for the final approach.
-3. Determine the first constraint you need to meet. This could be a STAR waypoint with an altitude constraint, the final approach fix altitude or the airport elevation itself.
+3. Determine the first constraint you need to meet. This could be a STAR waypoint with an altitude constraint, the final approach fix altitude or even the airport (or runway) elevation itself.
 4. Calculate the required distance needed to descent to that waypoint with a standard descent angle of 3°. We can use the FlyByWire FlyPad in the cockpit or a simple rule of thumb calculation (details below).
 5. Use the MCDU PROG page's DIST function to read out the current distance to this waypoint. It is also possible to use the ECAM flight plan, maps or the NDs distance rings to help determining the current distance.
 
@@ -138,7 +136,7 @@ Divided by 1000:     54000 / 1000 = 54
 Plus margin (~10%):  59 NM
 ```
 
-Margin can be lower for headwind and larger for tailwind. Some also change the margin to compensate for slowing down while descending.
+Margin can be lower for headwind and larger for tailwind. Some pilots also change the margin to compensate for slowing down while descending.
 
 As can be seen on the chart there will be a further descent to TIMBA at FL70 and after that (not visible on the chart above) there will be a descent to the final approach which will be at 2000ft at the Final Approach Fix FF26L.
 
@@ -172,22 +170,22 @@ TYPE ON FIRST CONTACT
 
 From the chart we get TRANS ALT and BARO (=MDA) or RADIO (=DH).
 
-CAT 1 ILS uses MDA and is entered into the BARO field.
-
-CAT 2/3 ILS use DH which is put in the RADIO field. The BARO is based on barometric altitude whereas the RADIO is based on radio altitude (distance to ground).
+- CAT 1 ILS uses MDA and is entered into the BARO field.
+- CAT 2/3 ILS use DH which is put in the RADIO field.
+- BARO is based on barometric altitude whereas RADIO is based on radio altitude (distance to ground).
 
 ![Transistion alt on chart](../assets/beginner-guide/descent/EGKK_APPR_chart_1.png "Transistion alt on chart")<br/>
 ![ILS information on chart](../assets/beginner-guide/descent/EGKK_APPR_chart_2.png "ILS information on chart")<br/>
 *Copyright © 2021 Navigraph / Jeppesen*
 
-The A320neo is capable of a CAT IIIB ILS approach and has an approach category of "C"<br/>
+The A320neo is capable of a CAT IIIB ILS approach and has an approach category of "C" - see the red area on the chart.<br/>
 (see [Wikipedia Aircraft approach category](https://en.wikipedia.org/wiki/Aircraft_approach_category)
 
-In this chart for EGKK 26L ILS there is no DH for CAT IIIB defined - so we can enter "NO" into the RADIO field.
+In this chart for EGKK 26L ILS there is no DH for CAT IIIB defined - so we can enter "NO" or "NO DH" into the RADIO field.
 
 If we are using Microsoft Flight Simulator without any Online ATC services (VATSIM, IVAO, PilotEdge, ...), and using the MSFS build-in ATC, you usually can't request ATIS information for the destination airport at this point. MSFS ATC makes ATIS only available once close to the destination airport.
 
-If we are flying with Online ATC you can request ATIS via the MCDU-ATSU-ACO page or your network's client at this time.
+If we are flying with Online ATC you can request ATIS via the MCDU-ATSU-ACO page or your Online ATC network's client at this time.
 
 We can in any case request the METAR weather information for the destination airport via the same page.
 
@@ -195,9 +193,9 @@ We can in any case request the METAR weather information for the destination air
 
 If we used Simbrief for flight planning we can also see METAR information on the FlyPad after importing the Simbrief plan to the FlyPad.
 
-(TODO: FlyPadv2 screenshot)
+![FlyPad showing route, weather and map](../assets/beginner-guide/descent/FlyPad_Weather.png "FlyPad showing route, weather and map")
 
-Once we have confirmed the destination runway and the destination data you are set for the approach and can continue focus on the descent.
+Once we have confirmed the destination runway and the destination data we are set for the approach and we can continue focus on the descent.
 
 This concludes *Descent and Approach Planning*.
 
@@ -211,17 +209,16 @@ A few minutes before we reach our calculated descent point (TOD) we request clea
 
 !!! info "TOD marker A320"
     The FlyByWire A32NX has not implemented the TOD (top of descent) marker on the ND yet. Usually the A320 has a downward pointing arrow at the TOD to support the pilot with the decision when to descent. Ultimately it is still the pilot's responsibility to calculate and validate the TOD.
-    (TODO: screenshot of marker)
 
 When clearance is given we can start our descent to the flight level or altitude ATC has given us.
 
-For descending we set the new flight level or altitude in the FCU with the altitude dial knob. We can then either push the knob for Managed Altitude Mode (constraints are respected) or pull the knob for Selected Altitude Mode (constraints are ignored). You can also use the V/S dial knob to set a specific descent vertical velocity. Pull the V/S knob to start the descent.
+For descending we set the new flight level or altitude in the FCU with the altitude dial knob. We can then either push the knob for Managed Altitude Mode (constraints are respected, also know as VNAV) or pull the knob for Selected Altitude Mode (constraints are ignored). You can also use the V/S dial knob to set a specific descent vertical velocity. Pull the V/S knob to start the descent.
 
 ![FUC with ALT and V/S knobs](../assets/beginner-guide/descent/FCU_AP_knobs.png "FUC with ALT and V/S knobs")
 
 ATC typically will not clear us to our final target altitude directly but will give us several step descents down to our required altitude.
 
-Also ATC often still expect us to respect the STAR's constraints although they might have given us a lower clearance. We should then only descent to the constraint's altitude.
+Also ATC will often still expect us to respect the STAR's constraints although they might have given us a lower clearance. We should then only descent to the constraint's altitude.
 
 !!! info "VNAV in the FlyByWire A32NX"
     The scenario that we are cleared to a lower altitude or flight level with altitude constraints above the clearance is an ideal scenario for the called so "VNAV" autopilot mode which would be activated by using "Managed Altitude Mode" (pushing the ALT knob). The autopilot will automatically level off at the constraint and continue descending when the constraint is no longer valid.
@@ -236,10 +233,10 @@ This concludes *Starting the Descent*.
 
 ### 3. Flying the STAR and Approach
 
-Flying the STAR and Approach is very similar to any other part of the route we have in the flight plan. Apart from descending and adhering to constraints the lateral flight path just follows the programmed route.<br/>
+Flying the STAR and Approach is very similar to any other part of the route within in the flight plan. Apart from descending and adhering to constraints the lateral flight path just follows the programmed route.<br/>
  Let the __Autopilot__ do this for you and just adjust altitude and speed according to the charts or the ATC instructions.
 
-Be prepared for ATC instructions to also deviate laterally from the STAR or Approach route to separate from other aircraft or to shortcut the approach when there is little traffic. ATC will then typically give you new heading instructions (heading vectors) and will guide you the rest of the STAR and Approach with further heading instructions up until intercepting the ILS localizer.
+Be prepared for ATC instructions to also deviate laterally from the STAR or Approach route to separate from other aircraft or to shortcut the approach when there is little traffic. ATC will then typically give you new heading instructions (heading vectors) and will guide you the rest of the STAR and Approach with additional heading instructions up until intercepting the ILS localizer.
 
 **Example for shortcuts:**
 
