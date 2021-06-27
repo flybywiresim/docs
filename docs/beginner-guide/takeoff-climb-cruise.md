@@ -260,7 +260,8 @@ Shortly before we start our take off roll we do the following steps:
 
 - The throttle hand remains on the thrust levers until reaching V~1~ to be able to quickly abort the start. Remove the hand from the thrust levers at V~1~ to avoid accidentally aborting after V~1~.
 
-- At V~R~ gently pull back on the sidestick and try to get a 10-15° climb angle. Use the green horizontal flight director line as reference.
+- At V~R~ apply smooth positive backward stick movement on the sidestick and aim for a rotation rate (pitch rate) of 3 deg/sec for about 5 seconds (15°-18° pitch attitude). Once airborne follow the flight director's guidance for pitch attitude.<br/>
+  Tip: Count one-one thousand, two-one-thousand, etc. and hit 15 deg at five-one-thousand - practice this.
 
     ![V~1~](../assets/takeoff-climb-cruise/V1.png "Speedtape with V~1~ marker"){ width=360 }
 
