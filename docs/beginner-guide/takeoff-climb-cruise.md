@@ -388,14 +388,14 @@ This concludes the *Climb*.
 ### 5. Cruise
 **Situation:**
 
-- Aircraft has leveled of at planned cruise level.
+- Aircraft has leveled off at planned cruise level.
 - Speed is cruise speed as per ECAM PERF CRZ page.
 - __Autopilot__ is ON.
 - Speed is in Managed Mode.
 
 This is usually the quietest time of the flight. It allows time to double-check the systems by going through all ECAM pages, etc.
 
-Regular ATC frequency changes with altitude and position checkins are common.
+Regular ATC frequency changes with altitude and position check-ins are common.
 
 Here are some **typical activities** which might happen during cruise mostly on request from ATC or other circumstances like weather, traffic, etc.
 
@@ -418,4 +418,3 @@ At some point (200-300NM from destination) we would start with descent-planning 
 Descent, Approach and Landing will be covered in later chapters of this beginner guide.
 
 This concludes the *cruise*.
-
