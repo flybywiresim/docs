@@ -194,9 +194,9 @@ Shortly before we start our take off roll we do the following steps:
       - WING is usually only ON for wing inspection and to detect ice 
         accretion on the wing
 
-    !!! info "Lights at Take Off"
-        Setting the RWY TURN OFF light to ON, the LAND LIGHTS to ON and
-        the NOSE light to T.O. minimizes bird strike hazard during takeoff.
+!!! info "Lights at Take Off"
+    Setting the RWY TURN OFF light to ON, the LAND LIGHTS to ON and
+    the NOSE light to T.O. minimizes bird strike hazard during takeoff.
 
 - Check ENG MODE SEL as required (should be on MODE NORM)
 
@@ -245,16 +245,16 @@ Shortly before we start our take off roll we do the following steps:
 
 - Keep the aircraft on the center line while accelerating down the runway.
 
-    !!!info "V-Speeds"
-        There are three important speeds for take off which we have configured earlier when programming the MCDU's PERF page for take off. These are shown in blue on the PFD's speed tape.
+!!!info "V-Speeds"
+    There are three important speeds for take off which we have configured earlier when programming the MCDU's PERF page for take off. These are shown in blue on the PFD's speed tape.
 
-        **V~1~**: The speed beyond which takeoff should no longer be aborted. V~1~ is depicted as a "1" next to the speedband in the PFD.
-        
-        **V~R~**: Rotation speed. The speed at which the pilot begins to apply control inputs to cause the aircraft nose to pitch up, after which it will leave the ground. V~R~ is depicted as a cyan circle next to the speedband in the PFD.
-        
-        **V~2~**: Takeoff safety speed. The speed at which the aircraft may safely climb with one engine inoperative. V~2~ is depicted by a magenta triangle next to the speedband in the PFD.
-        
-        On a long enough runway V~1~ (depicted by "1") and V~R~ (depicted by "o") are often very close together and can't be clearly distinguished on the PFD speed tape.
+    **V~1~**: The speed beyond which takeoff should no longer be aborted. V~1~ is depicted as a "1" next to the speedband in the PFD.
+    
+    **V~R~**: Rotation speed. The speed at which the pilot begins to apply control inputs to cause the aircraft nose to pitch up, after which it will leave the ground. V~R~ is depicted as a cyan circle next to the speedband in the PFD.
+    
+    **V~2~**: Takeoff safety speed. The speed at which the aircraft may safely climb with one engine inoperative. V~2~ is depicted by a magenta triangle next to the speedband in the PFD.
+    
+    On a long enough runway V~1~ (depicted by "1") and V~R~ (depicted by "o") are often very close together and can't be clearly distinguished on the PFD speed tape.
 
 - At about 80 knots slowly release the forward pressure on the sidestick until about 100 knots when the sidestick should be in neutral position.
 
