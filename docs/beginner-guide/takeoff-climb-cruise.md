@@ -211,7 +211,7 @@ Shortly before we start our take off roll we do the following steps:
 
 - Apply thrust slowly to about 50% thrust until both engines are stabilized (N1 stays constant at around 50%) while still holding the brakes.
 
-- Push Sidestick forward half the way to put pressure on the front gear<br/>
+- Push sidestick forward half the way to put pressure on the front gear<br/>
 
     ![thrust-brake-forward-pressure](../assets/takeoff-climb-cruise/Thrust-brake-forward-pressure.png "Cockpit before applying take off thrust")
 
@@ -260,7 +260,7 @@ Shortly before we start our take off roll we do the following steps:
 
 - The throttle hand remains on the thrust levers until reaching V~1~ to be able to quickly abort the start. Remove the hand from the thrust levers at V~1~ to avoid accidentally aborting after V~1~.
 
-- At V~R~ gently pull back on the Sidestick and try to get a 10-15° climb angle. Use the green horizontal flight director line as reference.
+- At V~R~ gently pull back on the sidestick and try to get a 10-15° climb angle. Use the green horizontal flight director line as reference.
 
     ![V~1~](../assets/takeoff-climb-cruise/V1.png "Speedtape with V~1~ marker"){ width=360 }
 
