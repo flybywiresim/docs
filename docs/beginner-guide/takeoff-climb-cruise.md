@@ -1,6 +1,6 @@
-# Take off, climb and cruise
+# Takeoff, climb and cruise
 
-This guide will explain the correct procedures to accomplish take off, climb and establish cruise altitude.
+This guide will explain the correct procedures to accomplish takeoff, climb and establish cruise altitude.
 
 !!! warning "Disclaimer"
     The level of detail in this guide is meant to get a FlyByWire A320neo beginner safely up in the air and to cruise level under normal conditions while simplifying details which are not (yet) important for a beginner.
@@ -19,7 +19,7 @@ Microsoft Flight Simulator allows you to start your flight from cold & dark at a
 
 For this guide we assume you started cold & dark at the gate and taxied to the runway holding point as per the previous chapters of this beginner guide.
 
-If you did start on the runway you can skip the first part (Line-up) and directly continue reading Takeoff.
+If you did start on the runway you can skip the first part (Lineup) and directly continue reading [Takeoff](#2-takeoff).
 
 ## Pre-requisites
 
@@ -32,7 +32,7 @@ Download the [FlyByWire Checklist](../assets/FBW_A32NX_CHECKLIST.pdf) here.
 This guide will cover these phases:
 
 1. [Lineup](#1-lineup)
-2. [Takeoff](#2-take-off)
+2. [Takeoff](#2-takeoff)
 3. [Initial climb](#3-initial-climb)
 4. [Climb](#4-climb)
 5. [Cruise](#5-cruise)
@@ -56,7 +56,7 @@ Traditional mechanical and hydro-mechanical flight control systems use a series 
 The A320 has a feature called "Autotrim", which makes it unnecessary to hold the sidestick or use the trim wheel for holding the current pitch. This system is always active, even when the __Autopilot__ is off (in Normal Law which means under normal circumstances with a fully functional aircraft).
 
 - __Autothrust__<br/>
-The A320 has __Autothrust__ which is similar to Autothrottle (e.g., in a Boeing), but it does not move the thrust levers. Basically the thrust levers are only moved by the pilot and never move on their own. The thrust levers act as a maximum allowed power setting for the autothrust system. During normal flight (after take off) the levers stay in the CL climb detent, and the Autothrust system will set engine power accordingly.
+The A320 has __Autothrust__ which is similar to Autothrottle (e.g., in a Boeing), but it does not move the thrust levers. Basically the thrust levers are only moved by the pilot and never move on their own. The thrust levers act as a maximum allowed power setting for the autothrust system. During normal flight (after takeoff) the levers stay in the CL climb detent, and the Autothrust system will set engine power accordingly.
 
 - __Autopilot__<br/>
 The A320's __Autopilot__ system works a bit differently from other manufacturer's systems. The A320 FCU controls allow setting certain values and then push or pull the knobs. Pushing usually means automatic control (Managed Mode) and pulling will use the manually selected value (Selected Mode).
@@ -67,7 +67,7 @@ The A320's __Autopilot__ system works a bit differently from other manufacturer'
         In Microsoft Flight Simulator pushing is clicking the knob "UP" and pulling is clicking the knob "DOWN"<br/> ![Pulling a knob in MSFS](../assets/takeoff-climb-cruise/Pulling_knob.png "Pulling a knob in MSFS"){ width=480 }
 
 - __Flight phases__<br/>
-The A320 uses flight phases to manage different parts of a flight. These are preflight, take off, climb, cruise, descent, approach, go around, done. They match the PERF pages in the MCDU (see [Preparing the MCDU](preparing-mcdu.md)).
+The A320 uses flight phases to manage different parts of a flight. These are preflight, takeoff, climb, cruise, descent, approach, go around, done. They match the PERF pages in the MCDU (see [Preparing the MCDU](preparing-mcdu.md)).
 
 - __Protections__<br/>
 The A320 includes many protections for the pilot which make it nearly impossible to stall or overspeed the aircraft. It's beyond this beginner-guide to go into details (Normal law, Alternate Law, ...)
@@ -77,22 +77,22 @@ The A320 includes many protections for the pilot which make it nearly impossible
 ### 1. Lineup
 **Situation:**
 
-- ATC (Ground or Tower)  has instructed us to hold at a runway holding point and wait until we are cleared to "line up" or "take off".<br/>
+- ATC (Ground or Tower) has instructed us to hold at a runway holding point and wait until we are cleared to "line up" or "take off".<br/>
 - Aircraft is still in TAXI state (see previous chapters) and parking brakes are set.
 
 ![Holding at runway holding point](../assets/takeoff-climb-cruise/Holding.png "Aircraft holding at runway holding point")
 
-Typically, it is here at the latest that we are asked to switch to Tower ATC frequency for take off clearance.
+Typically, it is here at the latest that we are asked to switch to Tower ATC frequency for takeoff clearance.
 
 While approaching the runway holding point or at the latest at the runway
-holding point the **"Before take off checklist"** needs to be completed.
+holding point the **"Before takeoff checklist"** needs to be completed.
 
-!!! info "Before take off checklist"
-    ![Before Take Off Checklist](../assets/takeoff-climb-cruise/BeforeTakeOffChecklist.png "Before Take Off Checklist"){ align=right width=180 }
+!!! info "Before takeoff checklist"
+    ![Before Takeoff Checklist](../assets/takeoff-climb-cruise/BeforeTakeOffChecklist.png "Before Takeoff Checklist"){ align=right width=180 }
 
-    The "Before Take Off" checklist is divided into two parts:
+    The "Before Takeoff" checklist is divided into two parts:
     
-    - **"Down to the line"** (or "Above the line") means **before** "ATC Take Off Clearance".
+    - **"Down to the line"** (or "Above the line") means **before** "ATC Takeoff Clearance".
     - **"Below the line"** means **after** T.O. clearance (when lined up) but before starting the roll.
 
 #### Preparation and "Down to the line" checklist pre-T.O.-clearance
@@ -122,7 +122,7 @@ __*The following steps from TAXI setup need to be done and checked:*__
     - Set ALT RPTG to ON
 
 - Check COM frequency
-    - Tip: set the second frequency to the Departure frequency to be able to quickly change after take off
+    - Tip: set the second frequency to the Departure frequency to be able to quickly change after takeoff
 
 - Check ECAM - no blue writing should be visible for these:
 
@@ -135,7 +135,7 @@ __*The following steps from TAXI setup need to be done and checked:*__
       - FLAPS TO
       - TO CONFIG NORMAL
 
-- Press T.O. Config button below the ECAM to check take off configuration (last blue text "TEST" should disappear)
+- Press T.O. Config button below the ECAM to check takeoff configuration (last blue text "TEST" should disappear)
 
 - Check radar panel:
 
@@ -147,35 +147,35 @@ __*The following steps from TAXI setup need to be done and checked:*__
 #### Entering runway
 Before we start rolling we visually check that no other aircraft is on final approach. We can also use TCAS on the ND to check for aircraft in the vicinity.
 
-If everything is clear we release the parking brake and slowly roll onto the runway in the direction of take off and come to a stop on the runway's center line.
+If everything is clear we release the parking brake and slowly roll onto the runway in the direction of takeoff and come to a stop on the runway's center line.
 
-There is also a *rolling start* where we would not stop but directly apply thrust for take off once we are straight on the runway. But, as a beginner, a full stop is recommended, so we can double-check everything.
+There is also a *rolling start* where we would not stop but directly apply thrust for takeoff once we are straight on the runway. But, as a beginner, a full stop is recommended, so we can double-check everything.
 
 When we reached our starting point we stop and set the parking brakes.
 
 ![image](../assets/takeoff-climb-cruise/Line_up.png "Aircraft at starting point on the runway")
 
-If we were only cleared for "line up" we wait here until we get clearance for *take off*.
+If we were only cleared to "line up" we wait here until we get clearance to *take off*.
 
-This concludes *line up*.
+This concludes *Lineup*.
 
 ---
 
-### 2. Take off
+### 2. Takeoff
 **Situation:**
 
-- Aircraft is on runway and fully setup for take off as per previous chapters.
+- Aircraft is on runway and fully setup for takeoff as per previous chapters.
 
-After ATC has given clearance for take off we can actually start our roll.
+After ATC has given clearance for takeoff we can actually start our roll.
 
 #### Preparation and "Below the line" checklist post-T.O.-clearance
 After ATC (Tower) gives clearance to "line up" or "take off" we are allowed to enter the runway.
 
-- "Line up" means that we roll onto the runway and stop at our starting point. We __MUST__ wait for ATC to give us "take off clearance" before we can continue.
+- To "line up" means that we roll onto the runway and stop at our starting point. We __MUST__ wait for ATC to give us "takeoff clearance" before we can continue.
 
-- "Cleared for take off" means we are allowed to actually start the take off when aligned with the runway.
+- "Cleared for takeoff" means we are allowed to actually start the takeoff when aligned with the runway.
 
-Shortly before we start our take off roll we do the following steps:
+Shortly before we start our takeoff roll we do the following steps:
 
 - Check PACKS as required<br/>
   (some airlines take off with Packs OFF to allow more power to thrust and save fuel - not necessarily required)
@@ -187,14 +187,14 @@ Shortly before we start our take off roll we do the following steps:
       The correct switch settings are:
     
       - RWY TURN OFF lt is ON
-      - NOSE light is at T.O. (take off)
+      - NOSE light is at T.O. (T.O. = takeoff)
       - LAND lights are both ON
       - STROBE is on ON or AUTO
       - BEACON, NAV & LOGO should have been on during TAXI already
       - WING is usually only ON for wing inspection and to detect ice 
         accretion on the wing
 
-!!! info "Lights at Take Off"
+!!! info "Lights at Takeoff"
     Setting the RWY TURN OFF light to ON, the LAND LIGHTS to ON and
     the NOSE light to T.O. minimizes bird strike hazard during takeoff.
 
@@ -202,7 +202,7 @@ Shortly before we start our take off roll we do the following steps:
 
 - Set TCAS to TA or TA/TR and traffic to All or ABV)
 
-**A typical standard take off follows these steps:**
+**A typical standard takeoff follows these steps:**
 
 !!! info "Airline SOPs"
     Some airline's SOPs (standard operating procedures) might have a different order for these steps.
@@ -213,12 +213,12 @@ Shortly before we start our take off roll we do the following steps:
 
 - Push sidestick forward half the way to put pressure on the front gear<br/>
 
-    ![thrust-brake-forward-pressure](../assets/takeoff-climb-cruise/Thrust-brake-forward-pressure.png "Cockpit before applying take off thrust")
+    ![thrust-brake-forward-pressure](../assets/takeoff-climb-cruise/Thrust-brake-forward-pressure.png "Cockpit before applying takeoff thrust")
 
 - Release brakes and apply FLX/MCT or TO GA power.<br/>
   (depending on if have configured a FLEX temperature, and the runway is long enough for a FLEX start)
 
-    ![Takeoff_thrust](../assets/takeoff-climb-cruise/Takeoff_thrust.png "Cockpit instruments after applying take off thrust")
+    ![Takeoff_thrust](../assets/takeoff-climb-cruise/Takeoff_thrust.png "Cockpit instruments after applying takeoff thrust")
 
 - The PFD Flight Mode Annunciator (FMA) now shows several things which we
   should check when aircraft starts rolling:
@@ -246,7 +246,7 @@ Shortly before we start our take off roll we do the following steps:
 - Keep the aircraft on the center line while accelerating down the runway.
 
 !!!info "V-Speeds"
-    There are three important speeds for take off which we have configured earlier when programming the MCDU's PERF page for take off. These are shown in blue on the PFD's speed tape.
+    There are three important speeds for takeoff which we have configured earlier when programming the MCDU's PERF page for takeoff. These are shown in blue on the PFD's speed tape.
 
     **V~1~**: The speed beyond which takeoff should no longer be aborted. V~1~ is depicted as a "1" next to the speedband in the PFD.
     
@@ -275,7 +275,7 @@ Shortly before we start our take off roll we do the following steps:
     ![ldg_gear_annun](../assets/takeoff-climb-cruise/Ldg_gear_annun.png "Landing gear annunciators show no lights")<br/>
     ![Lower ECAM Wheel page after gear up](../assets/takeoff-climb-cruise/ECAM_wheel.png "Lower ECAM Wheel page after gear up"){ width=360 }
 
-This concludes *take off*.
+This concludes *Takeoff*.
 
 ---
 
@@ -287,7 +287,7 @@ This concludes *take off*.
 - Thrust levers are in FLX MCT or TO GA detent.
 - Flaps are still in T.O. position.
 
-After take off the aircraft will use FLX/MCT or TO GA thrust until thrust reduction altitude is reached (typically ~1500ft above runway, this is part of the MCDU setup)
+After takeoff the aircraft will use FLX/MCT or TO GA thrust until thrust reduction altitude is reached (typically ~1500ft above runway, this is part of the MCDU setup)
 
 After reaching thrust reduction altitude the PFD FMA now shows a flashing *LVR CLB* message to instruct the pilot to move thrust levers to the CLB detent.
 
@@ -320,7 +320,7 @@ The FMA now shows AP1 in white in the upper right corner.
 **When reaching S-speed retract flaps.**<br/>
 S-speed is signified with an S next to the speed band in the PFD.
 
-!!! info "Flaps during take off and climb"
+!!! info "Flaps during takeoff and climb"
     Depending on the start configuration there will be different markers next to the speedband in the PFD to show when to retract flaps:
 
     - CONF-2 (Flaps position 2): At "F" and positive speed trend 
@@ -334,9 +334,9 @@ Now we turn off the TAXI and RWY TURN OFF lights. We do this as they are sitting
 
 ![Landing lights after gear up](../assets/takeoff-climb-cruise/Landing_lights_gear_up.png "Landing lights after gear up"){ width=360 }
 
-Lastly we disarm the SPEED BRAKE and turn on the PACKS if we turned them off for take off.
+Lastly we disarm the SPEED BRAKE and turn on the PACKS if we turned them off for takeoff.
 
-**Now complete the "After Take Off checklist"**
+**Now complete the "After takeoff checklist"**
 
 1. Landing gear up
 - Packs on
@@ -353,7 +353,7 @@ This concludes the *Initial Climb*.
 **Situation:**
 
 - Aircraft is climbing to or is at our initially cleared climb altitude.
-- *After take off checklist* is completed.
+- *After takeoff checklist* is completed.
 - ATC has given us clearance for further climb.
 
 **Dial the newly cleared altitude into the FCU. (e.g., 12000ft)**
@@ -417,4 +417,4 @@ At some point (200-300NM from destination) we would start with descent-planning 
 
 Descent, Approach and Landing will be covered in later chapters of this beginner guide.
 
-This concludes the *cruise*.
+This concludes the *Cruise*.
