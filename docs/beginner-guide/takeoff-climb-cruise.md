@@ -3,15 +3,11 @@
 This guide will explain the correct procedures to accomplish take off, climb and establish cruise altitude.
 
 !!! warning "Disclaimer"
-    The level of detail in this guide is meant to get a FlyByWire A320neo
-    beginner safely up in the air and to cruise level under normal conditions
-    while simplifying details which are not (yet) important for a beginner.
+    The level of detail in this guide is meant to get a FlyByWire A320neo beginner safely up in the air and to cruise level under normal conditions while simplifying details which are not (yet) important for a beginner.
 
-    A *beginner* is defined as someone familiar with flying a GA aircraft 
-    or different types of airliners. Aviation terminology and know-how is 
-    a requirement to fly any airliner even in Microsoft Flight Simulator.
+    A *beginner* is defined as someone familiar with flying a GA aircraft or different types of airliners. Aviation terminology and know-how is a requirement to fly any airliner even in Microsoft Flight Simulator.
     
-    Further reading: [A320 Autoflight](https://www.smartcockpit.com/aircraft-ressources/A319-320-321-Autoflight.html)<br/>
+    Further reading: [A320 Autoflight](https://www.smartcockpit.com/aircraft-ressources/A319-320-321-Autoflight.html)<br/> 
     Also you will find many great videos on YouTube on how to fly the FlyByWire A32NX.<br/>
     Check out the FlyByWire YouTube Channel as well: [FlyByWire on YouTube](https://www.youtube.com/c/FlyByWireSimulations/playlists)
 
@@ -19,14 +15,11 @@ This guide will explain the correct procedures to accomplish take off, climb and
 
 ## MSFS start from gate or runways
 
-Microsoft Flight Simulator allows you to start your flight from cold & dark
-at a gate or directly from the runway with the aircraft ready for takeoff.
+Microsoft Flight Simulator allows you to start your flight from cold & dark at a gate or directly from the runway with the aircraft ready for takeoff.
 
-For this guide we assume you started cold & dark at the gate and taxied to
-the runway holding point as per the previous chapters of this beginner guide.
+For this guide we assume you started cold & dark at the gate and taxied to the runway holding point as per the previous chapters of this beginner guide.
 
-If you did start on the runway you can skip the first part (Line-up) and
-directly continue reading Takeoff.
+If you did start on the runway you can skip the first part (Line-up) and directly continue reading Takeoff.
 
 ## Pre-requisites
 
@@ -51,84 +44,48 @@ This list is focussed on differences to other non-Airbus airliners a user
 might be used to.
 
 - __Fly-by-wire system__<br/>
-Traditional mechanical and hydro-mechanical flight control systems use a
-series of levers, rods, cables, pulleys and more, which pilots move to
-adjust control surfaces to aerodynamic conditions. Their "hands on" design
-gives pilots a direct, tactile feel for how the aircraft is handling
-aerodynamic forces as they fly. On the other hand, mechanical systems
-are also complicated to operate, need constant monitoring, are heavy and
-bulky, and require frequent maintenance.<p/>
-In fly-by-wire systems when the pilot moves flight controls, those movements
-are converted into electronic signals, which are then interpreted by the
-aircraft's  Electrical Flight Control System (EFCS) to adjust actuators that move
-flight control surfaces. Computers also monitor sensors throughout the
-aircraft to make automatic adjustments that enhance the flight. <p/>
-Because fly-by-wire is electronic, it is much lighter and less bulky than
-mechanical controls, allowing increases in fuel efficiency and aircraft
-design flexibility, even in legacy aircraft. And to prevent flight critical
-failure, most fly-by-wire systems also have triple or quadruple redundancy
-back-ups built into them. [source: BAE Systems](https://www.baesystems.com/en-us/definition/what-are-fly-by-wire-systems)<p/>
-See also: [Fly-by-wire Wikipedia](https://en.wikipedia.org/wiki/Fly-by-wire)
+Traditional mechanical and hydro-mechanical flight control systems use a series of levers, rods, cables, pulleys and more, which pilots move to adjust control surfaces to aerodynamic conditions. Their "hands on" design gives pilots a direct, tactile feel for how the aircraft is handling aerodynamic forces as they fly. On the other hand, mechanical systems are also complicated to operate, need constant monitoring, are heavy and bulky, and require frequent maintenance.
+
+    In fly-by-wire systems when the pilot moves flight controls, those movements are converted into electronic signals, which are then interpreted by the aircraft's  Electrical Flight Control System (EFCS) to adjust actuators that move flight control surfaces. Computers also monitor sensors throughout the aircraft to make automatic adjustments that enhance the flight.
+
+    Because fly-by-wire is electronic, it is much lighter and less bulky than mechanical controls, allowing increases in fuel efficiency and aircraft design flexibility, even in legacy aircraft. And to prevent flight critical failure, most fly-by-wire systems also have triple or quadruple redundancy back-ups built into them. [source: BAE Systems](https://www.baesystems.com/en-us/definition/what-are-fly-by-wire-systems)
+
+     See also: [Fly-by-wire Wikipedia](https://en.wikipedia.org/wiki/Fly-by-wire)
 
 - __Autotrim__<br/>
-The A320 has a feature called "Autotrim", which makes it unnecessary to
-hold the sidestick or use the trim wheel for holding the current pitch. This
-system is always active, even when the __Autopilot__ is off (in Normal Law which
-means under normal circumstances with a fully functional aircraft).
+The A320 has a feature called "Autotrim", which makes it unnecessary to hold the sidestick or use the trim wheel for holding the current pitch. This system is always active, even when the __Autopilot__ is off (in Normal Law which means under normal circumstances with a fully functional aircraft).
 
 - __Autothrust__<br/>
-The A320 has __Autothrust__ which is similar to Autothrottle (e.g., in a Boeing),
-but it does not move the thrust levers. Basically the thrust levers are only
-moved by the pilot and never move on their own. The thrust levers act as a
-maximum allowed power setting for the autothrust system. During normal flight
-(after take off) the levers stay in the CL climb detent, and the Autothrust
-system will set engine power accordingly.
+The A320 has __Autothrust__ which is similar to Autothrottle (e.g., in a Boeing), but it does not move the thrust levers. Basically the thrust levers are only moved by the pilot and never move on their own. The thrust levers act as a maximum allowed power setting for the autothrust system. During normal flight (after take off) the levers stay in the CL climb detent, and the Autothrust system will set engine power accordingly.
 
 - __Autopilot__<br/>
-The A320's __Autopilot__ system works a bit differently from other manufacturer's
-systems. The A320 FCU controls allows setting certain values and then push
-or pull the knobs. Pushing usually means automatic control (Managed Mode)
-and pulling will use the manually selected value (Selected Mode).
+The A320's __Autopilot__ system works a bit differently from other manufacturer's systems. The A320 FCU controls allows setting certain values and then push or pull the knobs. Pushing usually means automatic control (Managed Mode) and pulling will use the manually selected value (Selected Mode).
 
     ![FCU](../assets/takeoff-climb-cruise/FCU.png "FCU"){ width=480 }
 
     !!!info "Microsoft Flight Simulator knobs"
-        In Microsoft Flight Simulator pushing is clicking the knob "UP" and pulling
-        is clicking the knob "DOWN"<br/>
-        ![Pulling a knob in MSFS](../assets/takeoff-climb-cruise/Pulling_knob.png "Pulling a knob in MSFS"){ width=480 }
+        In Microsoft Flight Simulator pushing is clicking the knob "UP" and pulling is clicking the knob "DOWN"<br/> ![Pulling a knob in MSFS](../assets/takeoff-climb-cruise/Pulling_knob.png "Pulling a knob in MSFS"){ width=480 }
 
 - __Flight phases__<br/>
-The A320 uses flight phases to manage different parts of a flight. These are
-preflight, take off, climb, cruise, descent, approach, go around, done. They
-match the PERF pages in the MCDU (see [Preparing the MCDU](preparing-mcdu.md)).
+The A320 uses flight phases to manage different parts of a flight. These are preflight, take off, climb, cruise, descent, approach, go around, done. They match the PERF pages in the MCDU (see [Preparing the MCDU](preparing-mcdu.md)).
 
 - __Protections__<br/>
-The A320 includes many protections for the pilot which make it nearly
-impossible to stall or overspeed the aircraft. It's beyond this beginner-guide
-to go into details (Normal law, Alternate Law, ...)
+The A320 includes many protections for the pilot which make it nearly impossible to stall or overspeed the aircraft. It's beyond this beginner-guide to go into details (Normal law, Alternate Law, ...)
 
 ---
-
-<!-- Here we could use content tabs. But as I loose my editor's markup
-plugin functionality when indenting everything within a content tab
-I will do this as the very last step -->
 
 ### 1. Lineup
 **Situation:**
 
-- ATC (Ground or Tower)  has instructed us to hold at a runway holding point
-  and wait until we are cleared to "line up" or "take off".<br/>
-- Aircraft is still in TAXI state (see previous chapters) and parking brakes
-  are set.
+- ATC (Ground or Tower)  has instructed us to hold at a runway holding point and wait until we are cleared to "line up" or "take off".<br/>
+- Aircraft is still in TAXI state (see previous chapters) and parking brakes are set.
 
 ![Holding at runway holding point](../assets/takeoff-climb-cruise/Holding.png "Aircraft holding at runway holding point")
 
-Typically, it is here at the latest that we are asked to switch to Tower ATC
-frequency for take off clearance.
+Typically, it is here at the latest that we are asked to switch to Tower ATC frequency for take off clearance.
 
 While approaching the runway holding point or at the latest at the runway
 holding point the **"Before take off checklist"** needs to be completed.
-
 
 !!! info "Before take off checklist"
     ![Before Take Off Checklist](../assets/takeoff-climb-cruise/BeforeTakeOffChecklist.png "Before Take Off Checklist"){ align=right width=180 }
@@ -136,10 +93,7 @@ holding point the **"Before take off checklist"** needs to be completed.
     The "Before Take Off" checklist is divided into two parts:
     
     - **"Down to the line"** (or "Above the line") means **before** "ATC Take Off Clearance".
-    - **"Below the line"** means **after** T.O. clearance (when lined up) but 
-      before starting the roll.
-
-<p/>
+    - **"Below the line"** means **after** T.O. clearance (when lined up) but before starting the roll.
 
 #### Preparation and "Down to the line" checklist pre-T.O.-clearance
 
@@ -158,8 +112,7 @@ __*The following steps from TAXI setup need to be done and checked:*__
 
 - Check correct FLAPS setting (must be in line with PERF TAKE OFF page)
 
-- Check V~1~, V~R~, V~2~ speeds and also, if required, FLX temperature setting
-  (PERF TAKE OFF page)
+- Check V~1~, V~R~, V~2~ speeds and also, if required, FLX temperature setting (PERF TAKE OFF page)
 
 - Check Squawk
   ![ATC-TCAS](../assets/takeoff-climb-cruise/ATC-TCAS.png){align=right width=300}
@@ -169,8 +122,7 @@ __*The following steps from TAXI setup need to be done and checked:*__
     - Set ALT RPTG to ON
 
 - Check COM frequency
-    - Tip: set the second frequency to the Departure frequency to be able
-      to quickly change after take off
+    - Tip: set the second frequency to the Departure frequency to be able to quickly change after take off
 
 - Check ECAM - no blue writing should be visible for these:
 
@@ -190,21 +142,14 @@ __*The following steps from TAXI setup need to be done and checked:*__
     ![Radar panel](../assets/takeoff-climb-cruise/Radar_small.png "Radar panel"){ align=right width=280}
 
     - Set Weather Radar to Sys 1 to show weather on ND<br/>
-    - Check if Predictive Windshear Alerts (PWS) is set to AUTO (should have
-      been set to AUTO done during TAXI)
+    - Check if Predictive Windshear Alerts (PWS) is set to AUTO (should have been set to AUTO done during TAXI)
 
 #### Entering runway
-Before we start rolling we visually check that no other aircraft
-is on final approach. We can also use TCAS on the ND to check for aircraft
-in the vicinity.
+Before we start rolling we visually check that no other aircraft is on final approach. We can also use TCAS on the ND to check for aircraft in the vicinity.
 
-If everything is clear we release the parking brake and slowly roll onto the
-runway in the direction of take off and come to a stop on the
-runway's center line.
+If everything is clear we release the parking brake and slowly roll onto the runway in the direction of take off and come to a stop on the runway's center line.
 
-There is also a *running start* where we would not stop but directly apply
-thrust for take off once we are straight on the runway. But, as a beginner,
-a full stop is recommended, so we can double-check everything.
+There is also a *rolling start* where we would not stop but directly apply thrust for take off once we are straight on the runway. But, as a beginner, a full stop is recommended, so we can double-check everything.
 
 When we reached our starting point we stop and set the parking brakes.
 
@@ -224,20 +169,16 @@ This concludes *line up*.
 After ATC has given clearance for take off we can actually start our roll.
 
 #### Preparation and "Below the line" checklist post-T.O.-clearance
-After ATC (Tower) gives clearance to "line up" or "take off" we are allowed
-to enter the runway.
+After ATC (Tower) gives clearance to "line up" or "take off" we are allowed to enter the runway.
 
-"Line up" means that we roll onto the runway and stop at our starting point.
-We __MUST__ wait for ATC to give us "take off clearance" before we can continue.
+"Line up" means that we roll onto the runway and stop at our starting point. We __MUST__ wait for ATC to give us "take off clearance" before we can continue.
 
-"Cleared for take off" means we are allowed to actually start the take off
-when aligned with the runway.
+"Cleared for take off" means we are allowed to actually start the take off when aligned with the runway.
 
 Shortly before we start our take off roll we do the following steps:
 
 - Check PACKS as required<br/>
-  (some airlines take off with Packs OFF to allow more power to thrust
-  and save fuel - not necessarily required)
+  (some airlines take off with Packs OFF to allow more power to thrust and save fuel - not necessarily required)
 
 - Turn on landing lights and check if Strobe light is in AUTO or ON
 
@@ -268,20 +209,21 @@ Shortly before we start our take off roll we do the following steps:
 
 1. Release parking brake and hold down manual brakes.
 
-- Apply thrust slowly to about 50% thrust until both engines are stabilized
-(N1 stays constant at around 50%) while still holding the brakes.
+- Apply thrust slowly to about 50% thrust until both engines are stabilized (N1 stays constant at around 50%) while still holding the brakes.
 
 - Push Sidestick forward half the way to put pressure on the front gear<br/>
-  ![thrust-brake-forward-pressure](../assets/takeoff-climb-cruise/Thrust-brake-forward-pressure.png "Cockpit before applying take off thrust")
+
+    ![thrust-brake-forward-pressure](../assets/takeoff-climb-cruise/Thrust-brake-forward-pressure.png "Cockpit before applying take off thrust")
 
 - Release brakes and apply FLX/MCT or TO GA power.<br/>
-  (depending on if have configured a FLEX temperature, and the runway is long
-  enough for a FLEX start)
-  ![Takeoff_thrust](../assets/takeoff-climb-cruise/Takeoff_thrust.png "Cockpit instruments after applying take off thrust")
+  (depending on if have configured a FLEX temperature, and the runway is long enough for a FLEX start)
+
+    ![Takeoff_thrust](../assets/takeoff-climb-cruise/Takeoff_thrust.png "Cockpit instruments after applying take off thrust")
 
 - The PFD Flight Mode Annunciator (FMA) now shows several things which we
-  should check when aircraft starts rolling:<br/>
-  ![FMA_to_thrust](../assets/takeoff-climb-cruise/FMA_to_thrust.png)
+  should check when aircraft starts rolling:
+
+    ![FMA_to_thrust](../assets/takeoff-climb-cruise/FMA_to_thrust.png)
 
     From the left:
 
@@ -297,18 +239,14 @@ Shortly before we start our take off roll we do the following steps:
         - Flight Director 1 and 2 are ON
         - A/THR (Autothrust) is armed (not active yet)
 
-    Vertical and lateral guidance are **only shown** via Flight Director as we
-    have not turned on the __Autopilot__ yet and need to be followed manually
-    by the pilot.
+    Vertical and lateral guidance are **only shown** via Flight Director as we have not turned on the __Autopilot__ yet and need to be followed manually by the pilot.
 
     ![Flight Director guidance](../assets/takeoff-climb-cruise/Flight_director_guidance.png "Flight Director guidance")
 
 - Keep the aircraft on the center line while accelerating down the runway.
 
     !!!info "V-Speeds"
-        There are three important speeds for take off which we have configured
-        earlier when programming the MCDU's PERF page for take off. These are
-        shown in blue on the PFD's speed tape.
+        There are three important speeds for take off which we have configured earlier when programming the MCDU's PERF page for take off. These are shown in blue on the PFD's speed tape.
 
         **V~1~**: The speed beyond which takeoff should no longer be aborted. V~1~ is depicted as a "1" next to the speedband in the PFD.
         
@@ -320,12 +258,9 @@ Shortly before we start our take off roll we do the following steps:
 
 - At about 80 knots slowly release the forward pressure on the sidestick until about 100 knots when the sidestick should be in neutral position.
 
-- The throttle hand remains on the thrust levers until reaching V~1~ to be
-  able to quickly abort the start. Remove the hand from the thrust levers
-  at V~1~ to avoid accidentally aborting after V~1~.
+- The throttle hand remains on the thrust levers until reaching V~1~ to be able to quickly abort the start. Remove the hand from the thrust levers at V~1~ to avoid accidentally aborting after V~1~.
 
-- At V~R~ gently pull back on the Sidestick and try to get a 10-15° climb angle.
-  Use the green horizontal flight director line as reference.
+- At V~R~ gently pull back on the Sidestick and try to get a 10-15° climb angle. Use the green horizontal flight director line as reference.
 
     ![V~1~](../assets/takeoff-climb-cruise/V1.png "Speedtape with V~1~ marker"){ width=360 }
 
@@ -334,8 +269,7 @@ Shortly before we start our take off roll we do the following steps:
     ![Positve_climb](../assets/takeoff-climb-cruise/Positve_climb.png){ width=360 }.
     ![gearup](../assets/takeoff-climb-cruise/Gearup.png)
 
-- We confirm that the landing gear is up by looking at the landing gear
-annunciators, and the lower ECAM Wheels page.
+- We confirm that the landing gear is up by looking at the landing gear annunciators, and the lower ECAM Wheels page.
 
     ![ldg_gear_annun](../assets/takeoff-climb-cruise/Ldg_gear_annun.png "Landing gear annunciators show no lights")<br/>
     ![Lower ECAM Wheel page after gear up](../assets/takeoff-climb-cruise/ECAM_wheel.png "Lower ECAM Wheel page after gear up"){ width=360 }
@@ -352,23 +286,17 @@ This concludes *take off*.
 - Thrust levers are in FLX MCT or TO GA detent.
 - Flaps are still in T.O. position.
 
-After take off the aircraft will use FLX/MCT or TO GA thrust until
-thrust reduction altitude is reached (typically ~1500ft above runway,
-this is part of the MCDU setup)
+After take off the aircraft will use FLX/MCT or TO GA thrust until thrust reduction altitude is reached (typically ~1500ft above runway, this is part of the MCDU setup)
 
-After reaching thrust reduction altitude the PFD FMA now shows a flashing
-*LVR CLB* message to instruct the pilot to move thrust levers to the CLB detent.
+After reaching thrust reduction altitude the PFD FMA now shows a flashing *LVR CLB* message to instruct the pilot to move thrust levers to the CLB detent.
 
 **Pull the throttle back into the CL detent.**
 
 ![Thrust levers in CL detent](../assets/takeoff-climb-cruise/Lvr_clb.png "Thrust levers in CL detent"){width=280}
 
-This activates the __Autothrust__ system (FMA shows A/THR in white now).
-In the A320 (and most Airbus models) we will not touch the thrust levers again
-before final approach and landing (under normal flight conditions).
+This activates the __Autothrust__ system (FMA shows A/THR in white now). In the A320 (and most Airbus models) we will not touch the thrust levers again before final approach and landing (under normal flight conditions).
 
-The aircraft will now climb to the altitude selected in the FCU (in our
-case 5.000ft).
+The aircraft will now climb to the altitude selected in the FCU (in our case 5.000ft).
 
 **Activate the __Autopilot__ at this point by pressing the AP1 button on the FCU.**
 
@@ -392,15 +320,12 @@ The FMA now shows AP1 in white in the upper right corner.
 S-speed is signified with an S next to the speed band in the PFD.
 
 !!! info "Flaps during take off and climb"
-    Depending on the start configuration there will be different markers next
-    to the speedband in the PFD to show when to retract flaps:
+    Depending on the start configuration there will be different markers next to the speedband in the PFD to show when to retract flaps:
 
     - CONF-2 (Flaps position 2): At "F" and positive speed trend 
     - CONF-1+F (Flaps position 1): At "S" and positive speed trend
     
-    We always retract flaps by only one step at a time. So when we took off with 
-    flaps 2 (CONF-2) we retract flaps at "F" to flaps 1. Then at "S" we 
-    retract them to flaps 0.  
+    We always retract flaps by only one step at a time. So when we took off with flaps 2 (CONF-2) we retract flaps at "F" to flaps 1. Then at "S" we retract them to flaps 0.  
 
 ![Aircraft shortly before reaching S-speed](../assets/takeoff-climb-cruise/S_speed.png "Aircraft shortly before reaching VS speed")
 
@@ -432,23 +357,17 @@ This concludes the *Initial Climb*.
 
 ![Entering the new altitude and pushing knob for Managed Altitude Mode](../assets/takeoff-climb-cruise/Altitude_setting12000.png "Entering the new altitude and pushing knob for Managed Altitude Mode")
 
-The aircraft will now continue climbing while managing thrust and pitch level.
-The __Autopilot__ ensures that the aircraft stays at the Selected or Managed
-Speed setting and climbs to the new altitude while managing thrust automatically.
+The aircraft will now continue climbing while managing thrust and pitch level. The __Autopilot__ ensures that the aircraft stays at the Selected or Managed Speed setting and climbs to the new altitude while managing thrust automatically.
 
 The PFD's FMA now shows:<br/>
 ![FMA during climb](../assets/takeoff-climb-cruise/FMA_THR_CLB.png "FMA during climb")
 
-Thrust level is "THR CLB", vertical mode is "CLB" (ALT mode armed), lateral
-mode is NAV.
+Thrust level is "THR CLB", vertical mode is "CLB" (ALT mode armed), lateral mode is NAV.
 
-Typically, the climb to the flight plan's cruise level (e.g., FL210) happens
-in several steps (step climbs). Each to be instructed and cleared by ATC.
+Typically, the climb to the flight plan's cruise level (e.g., FL210) happens in several steps (step climbs). Each to be instructed and cleared by ATC.
 
 **Passing 10,000ft**<br/>
-Turn off landing lights and when the aircraft is stable (weather, no turn,
-etc.) you can turn off the seatbelt signs. The aircraft will now accelerate
-to CLB speed (defined in MCDU PERF CLB page).
+Turn off landing lights and when the aircraft is stable (weather, no turn, etc.) you can turn off the seatbelt signs. The aircraft will now accelerate to CLB speed (defined in MCDU PERF CLB page).
 
 
 **Repeat the climb process above until cruise level (e.g. FL210) is reached.**
@@ -471,47 +390,29 @@ This concludes the *Climb*.
 - __Autopilot__ is ON.
 - Speed is in Managed Mode.
 
-This is usually the quietest time of the flight.
-It allows time to double-check the systems by going through all ECAM pages, etc.
+This is usually the quietest time of the flight. It allows time to double-check the systems by going through all ECAM pages, etc.
 
 Regular ATC frequency changes with altitude and position checkins are common.
 
-Here are some **typical activities** which might happen during cruise mostly on
-request from ATC or other circumstances like weather, traffic, etc.
+Here are some **typical activities** which might happen during cruise mostly on request from ATC or other circumstances like weather, traffic, etc.
 
 - **Altitude change (also called flight level change)**<br/>
-  Like before during climb set your new altitude in the FCU and push the
-  ALT knob. The aircraft will descent or climb to the new altitude
-  automatically.
+  Like before during climb set your new altitude in the FCU and push the ALT knob. The aircraft will descent or climb to the new altitude automatically.
 
 - **Course change with Selected Heading** (given or cleared by ATC)<br/>
-  Dial heading knob to the desired heading and pull knob for Selected
-  Heading Mode. The aircraft will automatically change course to the new
-  heading. If you want the aircraft to follow the planned route again
-  you can push the knob for Managed Heading Mode.
+  Dial heading knob to the desired heading and pull knob for Selected Heading Mode. The aircraft will automatically change course to the new heading. If you want the aircraft to follow the planned route again you can push the knob for Managed Heading Mode.
 
 - **Direct course to a waypoint (DIR TO)** <br/>
-  ATC regularly instructs us to go "direct to (waypoint) XYZ".
-  Use the ECAM DIR page to select the waypoint from the plight plan's
-  list of waypoints. In rare cases it is a waypoint not in the current
-  flight plan then you can enter a new waypoint in the MCDU and put it
-  into the upper left entry field. Select DIRECT* on the rght bottom to
-  execute the change.
+  ATC regularly instructs us to go "direct to (waypoint) XYZ". Use the ECAM DIR page to select the waypoint from the plight plan's list of waypoints. In rare cases it is a waypoint not in the current flight plan then you can enter a new waypoint in the MCDU and put it into the upper left entry field. Select DIRECT* on the rght bottom to execute the change.
 
     ![ECAM direct to](../assets/takeoff-climb-cruise/Dir_to.png "ECAM direct to"){ width=360 }
 
 - **ATC requests specific speed **<br/>
-  Sometimes ATC requests a specific speed to keep separation between
-  aircraft. Pull the speed knob to switch to Selected Speed Mode. The
-  current speed will be preselected. Dial to the desired speed. The aircraft
-  will immediately begin to target the new speed by either incresing
-  or decreasing thrust.
+  Sometimes ATC requests a specific speed to keep separation between aircraft. Pull the speed knob to switch to Selected Speed Mode. The current speed will be preselected. Dial to the desired speed. The aircraft will immediately begin to target the new speed by either increasing or decreasing thrust.
 
-At some point (200-300NM from destination) we would start with descent-planning
-and setting up the aircraft for descent and approach.
+At some point (200-300NM from destination) we would start with descent-planning and setting up the aircraft for descent and approach.
 
-Descent, Approach and Landing will be covered in later chapters of this
-beginner guide.
+Descent, Approach and Landing will be covered in later chapters of this beginner guide.
 
 This concludes the *cruise*.
 
