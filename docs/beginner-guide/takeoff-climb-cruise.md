@@ -374,11 +374,11 @@ Turn off landing lights and when the aircraft is stable (weather, no turn, etc.)
 
 **Repeat the climb process above until cruise level (e.g. FL210) is reached.**
 
-![ECAM PERF CRZ page at cruise level](../assets/takeoff-climb-cruise/ECAM_PERF_CRZ_cruise_lvl.png "ECAM PERF CRZ page at cruise level"){ align=left width=320 }
+=== "MCDU and PFD at cruise level"
 
-![PFD at cruise level](../assets/takeoff-climb-cruise/Cruise_lvl_pfd.png "PFD at cruise level"){ align=right width=312 }
+    ![ECAM PERF CRZ page at cruise level](../assets/takeoff-climb-cruise/ECAM_PERF_CRZ_cruise_lvl.png "ECAM PERF CRZ page at cruise level"){ align=left width=320 }
 
-<p/>
+    ![PFD at cruise level](../assets/takeoff-climb-cruise/Cruise_lvl_pfd.png "PFD at cruise level"){ align=right width=312 }
 
 This concludes the *Climb*.
 
