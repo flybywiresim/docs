@@ -7,7 +7,7 @@ The actual final approach (ILS approach) will be covered by a separate chapter.
 
 !!! warning "Disclaimer"
     The level of detail in this guide is meant to get a FlyByWire A320neo
-    beginner safely from cruise level to the ILS glideslope.
+    beginner safely from cruise level down to the ILS glideslope.
 
     A *beginner* is defined as someone familiar with flying a GA aircraft 
     or different types of airliners. Aviation terminology and know-how is 
@@ -46,7 +46,7 @@ This guide will cover these phases:
 
     One main objective is, to do this with a minimum of communication between the ATC controller and the pilot. As the STAR is part of the flight plan a pilot can simply continue from the normal route into the STAR if ATC has not given any other instructions. Sometimes ATC might give an explicit clearance for the STAR or change the STAR to manage traffic and landing situation (different runways, etc.).
 
-    Often a STAR contains a clearance point which can't be passed without explicit clearance by ATC. If clearance is not given then a holding must be flown as described on the charts.
+    Often a STAR contains a clearance point which mustn't be passed without explicit clearance by ATC. If clearance is not given then a holding must be flown as described on the charts.
 
     The STAR which a pilot intends to use is usually included in the ATC flight plan and described in detail in navigational charts.
 
@@ -65,7 +65,8 @@ This guide will cover these phases:
 
 - __ILS__<br/>
   The Instrument Landing System (ILS) is one of several modern forms of helping an aircraft during its final approach to land even in not optimal weather situations. ILS uses a localizer for lateral guidance and a glideslope for vertical guidance from the final approach fix down to a minimum at which the pilots need perform the final landing sequence visually.
-  Modern airlines like the A320 are even able to use the ILS to land fully automatically as long as the runway's ILS supports it.
+
+    Modern airlines like the A320 are even able to use the ILS to land fully automatically as long as the runway's ILS supports it.
 
     Find a commented ILS approach chart here: [Approach Chart](../airliner-flying-guide/navigation.md#chart-sample-1)
 
@@ -74,7 +75,7 @@ This guide will cover these phases:
 
     There are several good sources for charts - free or subscription based. A good free solution is [Chartfox](https://chartfox.org/) which only requires a free VATSIM account. One of the most known subscription based sources for charts is [Navigraph](https://navigraph.com/home). It is planned to integrate both solutions into the FlyByWire A32NX FlyPad in the future. 
     
-    Also, often a simple Internet search will do the trick: Search for "<airport icao code> charts": E.g., "EDDM charts"  
+    Also, often a simple Internet search will do the trick: Search for "&lt;airport icao code&gt; charts": E.g., "EDDM charts"  
 
 ---
 
@@ -96,8 +97,8 @@ This guide will cover these phases:
 
 1. Read the STAR chart and determine if there are altitude and/or speed constraints which we need to consider.
 2. Consider the STAR and APPR route as optional and do not count on them to be flown and available for descending. ATC might want to vector us to a different runway or at least shortcut our approach. But they won't be able to if we are still too high for the final approach.
-3. Determine the first descent point you need to meet. This could be a STAR waypoint with an altitude constraint, the final approach fix altitude or the airport elevation itself.
-4. Calculate the required distance needed to descent to that waypoint with a standard descent rate of 3%. We can use the FlyByWire FlyPad in the cockpit or a simple rule of thumb calculation. (Details below)
+3. Determine the first constraint you need to meet. This could be a STAR waypoint with an altitude constraint, the final approach fix altitude or the airport elevation itself.
+4. Calculate the required distance needed to descent to that waypoint with a standard descent angle of 3°. We can use the FlyByWire FlyPad in the cockpit or a simple rule of thumb calculation (details below).
 5. Use the MCDU PROG page's DIST function to read out the current distance to this waypoint. It is also possible to use the ECAM flight plan, maps or the NDs distance rings to help determining the current distance.
 
     ![ECAM PROG page](../assets/beginner-guide/descent/ECAM_Progress_page.png "ECAM PROG page"){width=310 align=left}
@@ -129,21 +130,21 @@ Calculation with a specific distance to calculate the required descent velocity 
 **Using "Rule of Thumb":**
 
 ```
-Distance = "Altitude difference" * 3 / 1000 + 10%margin**
+Distance = "Altitude difference" * 3 / 1000 + margin**
 
-Altitude difference: 32000 - 14000 = 18000<br/>
-Times 3:             18000 * 3 = 54000<br/>
-Divided by 1000:     54000 / 1000 = 54<br/>
+Altitude difference: 32000 - 14000 = 18000
+Times 3:             18000 * 3 = 54000
+Divided by 1000:     54000 / 1000 = 54
 Plus margin (~10%):  59 NM
 ```
 
-Margin can be lower for headwind and larger for tailwind.
+Margin can be lower for headwind and larger for tailwind. Some also change the margin to compensate for slowing down while descending.
 
-As can be seen on the chart there will be a further descent to TIMBA at FL70 and after that (not visible on the chartabove) there will be a descent to the final approach which will be at 2000ft at the Final Approach Fix FF26L.
+As can be seen on the chart there will be a further descent to TIMBA at FL70 and after that (not visible on the chart above) there will be a descent to the final approach which will be at 2000ft at the Final Approach Fix FF26L.
 
-The same methodology/calculation as our initial descent can be applied to these descents as well but they are much easier as they are usually designed in a way that an aircraft with a 3° descent path can make these descents with ease.
+The same methodology/calculation as our initial descent can be applied to these descents as well but they require less planning as they are usually designed in a way that an aircraft with a 3° descent angle can make these descents with ease.
 
-ATC will quite often instruct certain altitudes within the STAR and APPR which deviate from the STAR and APPR charts. So expect such instructions at any time.
+ATC will quite often instruct certain altitudes within the STAR and APPR which deviate from the STAR and APPR charts. Please expect such instructions at any time.
 
 #### Advanced arrival planning
 
@@ -184,17 +185,21 @@ The A320neo is capable of a CAT IIIB ILS approach and has an approach category o
 
 In this chart for EGKK 26L ILS there is no DH for CAT IIIB defined - so we can enter "NO" into the RADIO field.
 
-If your are using Microsoft Flight Simulator without any Online ATC services (VATSIM, IVAO, PilotEdge, ...), and using the MSFS build-in ATC, you usually can't request ATIS information for the destination airport at this point. MSFS ATC makes ATIS only available once close to the destination airport.
+If we are using Microsoft Flight Simulator without any Online ATC services (VATSIM, IVAO, PilotEdge, ...), and using the MSFS build-in ATC, you usually can't request ATIS information for the destination airport at this point. MSFS ATC makes ATIS only available once close to the destination airport.
 
-If you are flying with Online ATC you can request ATIS via the MCDU-ATSU-ACO page or your network's client at this time.
+If we are flying with Online ATC you can request ATIS via the MCDU-ATSU-ACO page or your network's client at this time.
 
-You can in any case request the METAR weather information for the destination airport via the same page.
+We can in any case request the METAR weather information for the destination airport via the same page.
 
 ![MCDU ATSU AOC page - WX and ATIS](../assets/beginner-guide/descent/MCDU_ATSU_AOC_WX.png "MCDU ATSU AOC page - WX and ATIS")
 
-Once you have confirmed the destination runway and the destination data you are set for the approach and can continue focus on the descent.
+If we used Simbrief for flight planning we can also see METAR information on the FlyPad after importing the Simbrief plan to the FlyPad.
 
-This concludes descent planning.
+(TODO: FlyPadv2 screenshot)
+
+Once we have confirmed the destination runway and the destination data you are set for the approach and can continue focus on the descent.
+
+This concludes *Descent and Approach Planning*.
 
 ---
 
@@ -206,6 +211,7 @@ A few minutes before we reach our calculated descent point (TOD) we request clea
 
 !!! info "TOD marker A320"
     The FlyByWire A32NX has not implemented the TOD (top of descent) marker on the ND yet. Usually the A320 has a downward pointing arrow at the TOD to support the pilot with the decision when to descent. Ultimately it is still the pilot's responsibility to calculate and validate the TOD.
+    (TODO: screenshot of marker)
 
 When clearance is given we can start our descent to the flight level or altitude ATC has given us.
 
@@ -214,22 +220,49 @@ For descending we set the new flight level or altitude in the FCU with the altit
 ![FUC with ALT and V/S knobs](../assets/beginner-guide/descent/FCU_AP_knobs.png "FUC with ALT and V/S knobs")
 
 ATC typically will not clear us to our final target altitude directly but will give us several step descents down to our required altitude.
-Also ATC might still expect us to respect the STAR's constraints although they might have given us a lower clearance. We should then only descent to the constraint's altitude.
+
+Also ATC often still expect us to respect the STAR's constraints although they might have given us a lower clearance. We should then only descent to the constraint's altitude.
 
 !!! info "VNAV in the FlyByWire A32NX"
-    The scenario that we are cleared to a lower altitude or flight level with altitude constraints above the clearance is an ideal scenario for the called so "VNAV" autopilot mode which would be activated by using "Managed altitude Mode" (pushing the ALT knob). The autopilot will automatically level off at the constraint and continue descending when the constraint is no longer valid.
+    The scenario that we are cleared to a lower altitude or flight level with altitude constraints above the clearance is an ideal scenario for the called so "VNAV" autopilot mode which would be activated by using "Managed Altitude Mode" (pushing the ALT knob). The autopilot will automatically level off at the constraint and continue descending when the constraint is no longer valid.
 
     Unfortunately the current version of the FlyByWire A32NX does not yet support VNAV. This is planned to be implemented in one of the next versions.
 
 We repeat the process until we have reached our desired final approach altitude.
 
+This concludes *Starting the Descent*.
+
+---
+
 ### 3. Flying the STAR and Approach
 
+Flying the STAR and Approach is very similar to any other part of the route we have in the flight plan. Apart from descending and adhering to constraints the lateral flight path just follows the programmed route.<br/>
+ Let the __Autopilot__ do this for you and just adjust altitude and speed according to the charts or the ATC instructions.
 
+Be prepared for ATC instructions to also deviate laterally from the STAR or Approach route to separate from other aircraft or to shortcut the approach when there is little traffic. ATC will then typically give you new heading instructions (heading vectors) and will guide you the rest of the STAR and Approach with further heading instructions up until intercepting the ILS localizer.
+
+**Example for shortcuts:**
+
+ROKIL STAR/Transition EDDM (Munich) 26R - it is only in times with a lot of traffic that we would have to fly the whole downwind part of this transition.
+
+![EDDM transition until vectored](../assets/beginner-guide/descent/EDDM_TRANS_chart.png "EDDM transition until vectored")<br/>
+*Copyright © 2021 Navigraph / Jeppesen<br/>
+"Navigraph Charts are intended for flight simulation use only, not for navigational use."*
 
 ---
 
 ### 4. Intercepting ILS
 
+At the end of the Instrument Approach (or by ATC vectoring) we will be on a path to the Final Approach Fix and/or intercepting the ILS localizer and eventually the ILS glidescope.
 
+To intercept the ILS we need to be on the correct altitude and should not have an approach angle larger than 30°.
+
+![EDDM ILS 26R chart](../assets/beginner-guide/descent/EDDM_ILS_26R_chart.png "EDDM ILS 26R chart")<br>
+![EDDM ILS 26R GS  chart](../assets/beginner-guide/descent/EDDM_ILS_26R_GS_chart.png "EDDM ILS 26R GS  chart")<br/>
+*Copyright © 2021 Navigraph / Jeppesen<br/>
+"Navigraph Charts are intended for flight simulation use only, not for navigational use."*
+
+More details regarding the ILS approach and landing in the next chapter.
+
+This concludes *Intercepting ILS*.
 
