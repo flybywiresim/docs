@@ -29,10 +29,10 @@ Download the [FlyByWire Checklist](../assets/FBW_A32NX_CHECKLIST.pdf) here.
 
 This guide will cover these phases:
 
-1. [Descent Planning](#1-descent-planning)
-2. Starting the Descent
-3. Flying the STAR and Approach
-4. Intercepting ILS
+1. [Descent and Approach Planning](#1-descent-and-approach-planning)
+2. [Starting the Descent](#2-starting-the-descent)
+3. [Flying the STAR and Approach](#3-flying-the-star-and-approach)
+4. [Intercepting ILS](#4-intercepting-ils)
 
 ---
 
@@ -42,11 +42,11 @@ This guide will cover these phases:
   As we have learned in previous chapters a flight route begins with an origin airport and a SID to safely guide the aircraft away from the airport to the first waypoint on their actual route. Similar to a SID the arrival to an airport is done via a STAR (Standard Terminal Arrival Route) and an IAP (Instrument Approach, often APPR) to safely bring the aircraft into a position to land on the destination airport with as little ATC communication as possible.
 
 - __STAR__<br/>
-  A Standard Terminal Arrival Route (STAR) ensures safe and efficient traffic from the last en-route waypoint to the initial approach fix (IAF) of the Instrument Approach (IAP). It separates aircraft and avoids conflicts through specific routing, levels/altitudes, speed restrictions and checkpoints often with holding areas.
+  A Standard Terminal Arrival Route (STAR) ensures safe and efficient traffic from the last en-route waypoint to the initial approach fix (IAF) of the Instrument Approach (IAP). It separates aircraft, avoids conflicts and helps with noise abatement through specific routing, levels/altitudes, speed restrictions and checkpoints often with holding areas.
 
     One main objective is, to do this with a minimum of communication between the ATC controller and the pilot. As the STAR is part of the flight plan a pilot can simply continue from the normal route into the STAR if ATC has not given any other instructions. Sometimes ATC might give an explicit clearance for the STAR or change the STAR to manage traffic and landing situation (different runways, etc.).
 
-    Often a STAR contains a clearance point which can't be passed without explicit clearance by ATC. If clearance is not given then usually a holding must be flown.
+    Often a STAR contains a clearance point which can't be passed without explicit clearance by ATC. If clearance is not given then a holding must be flown as described on the charts.
 
     The STAR which a pilot intends to use is usually included in the ATC flight plan and described in detail in navigational charts.
 
@@ -64,7 +64,7 @@ This guide will cover these phases:
     Find a commented ILS approach chart here: [Approach Chart](../airliner-flying-guide/navigation.md#chart-sample-1)
 
 - __ILS__<br/>
-  The Instrument Landing System (ILS) is one of several modern forms of helping an aircraft during its final approach to land even in not optimal weather situations. ILS uses a localizer for lateral guidance and a glideslope for vertical guidance from the final appraoch fix down to a minimum at which the pilots need perform the final landing sequence visually.
+  The Instrument Landing System (ILS) is one of several modern forms of helping an aircraft during its final approach to land even in not optimal weather situations. ILS uses a localizer for lateral guidance and a glideslope for vertical guidance from the final approach fix down to a minimum at which the pilots need perform the final landing sequence visually.
   Modern airlines like the A320 are even able to use the ILS to land fully automatically as long as the runway's ILS supports it.
 
     Find a commented ILS approach chart here: [Approach Chart](../airliner-flying-guide/navigation.md#chart-sample-1)
@@ -72,34 +72,30 @@ This guide will cover these phases:
 !!! info "Microsoft Flight Simulator and navigation charts"
     Although Microsoft Flight Simulator allows some flight planning through the user interface it is highly recommended to use navigational charts when flying airliners. MSFS' flight planning does not provide sufficient information to correctly fly a STAR or an approach.
 
-    There are several good sources for charts - free or subscription based. A good free solution is [Chartfox](https://chartfox.org/) which only requires a VATSIM account. One of the most known subscription based sources for charts is [Navigraph](https://navigraph.com/home). It is planned to integrate both solutions into the FlyByWire A32NX FlyPad in the future. 
+    There are several good sources for charts - free or subscription based. A good free solution is [Chartfox](https://chartfox.org/) which only requires a free VATSIM account. One of the most known subscription based sources for charts is [Navigraph](https://navigraph.com/home). It is planned to integrate both solutions into the FlyByWire A32NX FlyPad in the future. 
     
-    Often a simple Internet search will do the trick: Search for "<airport icao code> charts": E.g., "EDDM charts"  
+    Also, often a simple Internet search will do the trick: Search for "<airport icao code> charts": E.g., "EDDM charts"  
 
 ---
 
-<!-- Here we could use content tabs. But as I loose my editor's markup
-plugin functionality when indenting everything within a content tab
-I will do this as the very last step -->
+### 1. Descent and Approach Planning
 
-### 1. Descent Planning
+!!! warning "Pilot's responsibility"
+    It is the sole responsibility of the pilot to conduct proper flight planning and especially proper descent planning. It is not at all ATC's task to do descent planning for pilots by giving descent instructions. On the other hand ATC often actually gives descent instructions, especially on common routes, as they want the aircraft in their responsibility to be at certain altitudes when approaching the destination airport. Nevertheless  pilots must know when to descent the latest and if necessary need to pro-actively request clearance to descent from ATC.
 
-!!! info "Pilot's responsibility"
-    It is the sole responsibility of us pilots to conduct proper flight planning and especially proper descent planning. It is not at all ATCs task to do descent planning for us pilots by giving descent instructions. On the other hand ATC often actually give descent instructions, especially on common routes, as they want the aircraft in their responsibility to be at certain altitudes when approaching the destination airport. Nevertheless we pilots must know when we need to descent the latest and if necessary we need to pro-actively request clearance to descent from ATC.
-
-    Good descent planning is the foundation for a successful landing. It has to be done early during the flight or even before the flight.
+    Good descent and approach planning is the foundation for a successful landing. It has to be done early during the flight or even before the flight.
 
 #### Important data points for descent planning:
 
 - **Cruise Flight Level:** The higher we fly the earlier we need to start descending. Also for short flights a too high cruising altitude can make it impossible to actually descent to the destination airport in time.
-- **Flight Plan Constraints:** STARs often have flight level (FL) constraints which we must adhere to. We must plan our descent so we can meet these altitude constraints even when they are still far away from the destination airport.
+- **Flight Plan Constraints:** STARs often have flight level (FL) or altitude constraints which we must adhere to. We must plan our descent so we can meet these altitude constraints even when they themselves are still far away from the destination airport.
 - **Speed**: STARs also regularly have speed constraints which we need to take into consideration as slowing down will cost time and is hard while descending. If we start our descent too late we might not be able to slow down in time as required by a constraint.
 - **Aircraft capability and passenger comfort:** Although not a big concern in the A320, general aircraft capabilities and passenger comfort also come into play. Descending with -4000ft/min is no fun for a passenger.
 
 #### Step by step guide for descent planning:
 
 1. Read the STAR chart and determine if there are altitude and/or speed constraints which we need to consider.
-2. Consider the STAR and APPR route as optional and do not count on them to be flown and available for descending. ATC might want to vector us to a different runway or at least shortcut our approach. But they won't be able to if we are still too high for the final approach.<br/>
+2. Consider the STAR and APPR route as optional and do not count on them to be flown and available for descending. ATC might want to vector us to a different runway or at least shortcut our approach. But they won't be able to if we are still too high for the final approach.
 3. Determine the first descent point you need to meet. This could be a STAR waypoint with an altitude constraint, the final approach fix altitude or the airport elevation itself.
 4. Calculate the required distance needed to descent to that waypoint with a standard descent rate of 3%. We can use the FlyByWire FlyPad in the cockpit or a simple rule of thumb calculation. (Details below)
 5. Use the MCDU PROG page's DIST function to read out the current distance to this waypoint. It is also possible to use the ECAM flight plan, maps or the NDs distance rings to help determining the current distance.
@@ -153,7 +149,7 @@ ATC will quite often instruct certain altitudes within the STAR and APPR which d
 
 !!! warning "Advanced arrival planning"
     The following is a more advanced process for planning our arrival. It is obviously important when we want to have a more realistic experience but in Microsoft Flight Simulator you can skip this part for now. <br/>
-    Also his process is best done with an Online ATC service as the build-in MSFS ATC does not provide the necessary information at the right time.
+    Also this process is best done with an Online ATC service as the build-in MSFS ATC does not provide the necessary information at the right time.
 
 Before we descent we should also reconfirm our destination runway and input or update our destination data into the MCDU PERF APPR page.
 This is typically done about 50NM before the starting the descent.
