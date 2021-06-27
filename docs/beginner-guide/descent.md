@@ -48,21 +48,21 @@ This guide will cover these phases:
 
     Often a STAR contains a clearance point which mustn't be passed without explicit clearance by ATC. If clearance is not given then a holding must be flown as described in the charts.
 
-    Please also have a look at our airliner guide's SIDs and STAR section [SIDS and STARS](../airliner-flying-guide/navigation.md#sids-and-stars)
+    Please also have a look at our airliner guide's SIDs and STAR section [SIDs and STARS](../airliner-flying-guide/navigation.md#sids-and-stars)
 
     Find a good overview over charts in our airliner guide: [Reading a Chart](../airliner-flying-guide/navigation.md#reading-a-chart)
 
 - __Approach__<br/>
   The Instrument Approach (IAP or APPR) has similar objectives as a SID or STAR - safely bring an aircraft into a position to land while ensuring separation between multiple aircraft, avoiding terrain, support with noise abatement, etc.
 
-    IAP are often designed for handling maximum traffic in even bad weather conditions. With only little traffic and good weather it is quite common that ATC instructs the pilot to leave the approach route by giving the pilot heading vectors for a more direct route to the final approach fix (FAF, also called final approach point).
+    IAP are often designed for handling maximum traffic in even bad weather conditions. With only little traffic and good weather it is quite common that ATC instructs the pilot to leave the approach route by giving the pilot heading vectors for a more direct route to the Final Approach Fix (FAF, also called final approach point).
 
     When flying with Online ATC (VATSIM, IVAO, PilotEdge, ...) expect being vectored to the FAF quite often.
 
     Find a commented ILS approach chart here: [Approach Chart](../airliner-flying-guide/navigation.md#chart-sample-1)
 
 - __ILS__<br/>
-  The Instrument Landing System (ILS) is one of several modern forms of helping an aircraft during its final approach to land even in non-optimal weather situations. ILS uses a localizer for lateral guidance and a glideslope for vertical guidance from the final approach fix down to a minimum at which the pilot needs to perform the final landing sequence visually.
+  The Instrument Landing System (ILS) is one of several modern forms of helping an aircraft during its final approach to land even in non-optimal weather situations. ILS uses a localizer for lateral guidance and a glideslope for vertical guidance from the Final Approach Fix down to a minimum at which the pilot needs to perform the final landing sequence visually.
 
     Modern airlines like the A320 are even able to use the ILS to land fully automatically as long as the runway's ILS supports it.
 
@@ -95,8 +95,8 @@ This guide will cover these phases:
 
 1. Read the STAR chart and determine if there are altitude and/or speed constraints which we need to consider.
 2. Consider the STAR and APPR route as optional and do not count on them to be flown and available for descending. ATC might want to vector us to a different runway or at least shortcut our approach. But they won't be able to if we are still too high for the final approach.
-3. Determine the first constraint you need to meet. This could be a STAR waypoint with an altitude constraint, the final approach fix altitude or even the airport (or runway) elevation itself.
-4. Calculate the required distance needed to descent to that waypoint with a standard descent angle of 3°. We can use the FlyByWire FlyPad in the cockpit or a simple rule of thumb calculation (details below).
+3. Determine the first constraint you need to meet. This could be a STAR waypoint with an altitude constraint, the Final Approach Fix altitude or even the airport (or runway) elevation itself.
+4. Calculate the required distance needed to descend to that waypoint with a standard descent angle of 3°. We can use the FlyByWire FlyPad in the cockpit or a simple rule of thumb calculation (details below).
 5. Use the MCDU PROG page's DIST function to read out the current distance to this waypoint. It is also possible to use the ECAM flight plan, maps or the NDs distance rings to help determining the current distance.
 
     ![ECAM PROG page](../assets/beginner-guide/descent/ECAM_Progress_page.png "ECAM PROG page"){width=310 align=left}
@@ -150,7 +150,7 @@ ATC will quite often instruct certain altitudes within the STAR and APPR which d
     The following is a more advanced process for planning our arrival. It is obviously important when we want to have a more realistic experience but in Microsoft Flight Simulator you can skip this part for now. <br/>
     Also this process is best done with an Online ATC service as the build-in MSFS ATC does not provide the necessary information at the right time.
 
-Before we descent we should also reconfirm our destination runway and input or update our destination data into the MCDU PERF APPR page.
+Before we descend we should also reconfirm our destination runway and input or update our destination data into the MCDU PERF APPR page.
 This is typically done about 50NM before the starting the descent.
 
 ![ENTER DEST DATA Message on the MCDU](../assets/beginner-guide/descent/MCDU_Enter_dest_data.png "ENTER DEST DATA Message on the MCDU")
@@ -174,7 +174,7 @@ From the chart we get TRANS ALT and BARO (=MDA) or RADIO (=DH).
 - CAT 2/3 ILS use DH which is put in the RADIO field.
 - BARO is based on barometric altitude whereas RADIO is based on radio altitude (distance to ground).
 
-![Transistion alt on chart](../assets/beginner-guide/descent/EGKK_APPR_chart_1.png "Transistion alt on chart")<br/>
+![Transition alt on chart](../assets/beginner-guide/descent/EGKK_APPR_chart_1.png "Transistion alt on chart")<br/>
 ![ILS information on chart](../assets/beginner-guide/descent/EGKK_APPR_chart_2.png "ILS information on chart")<br/>
 *Copyright © 2021 Navigraph / Jeppesen*
 
