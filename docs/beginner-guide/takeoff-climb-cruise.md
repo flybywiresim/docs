@@ -171,9 +171,9 @@ After ATC has given clearance for take off we can actually start our roll.
 #### Preparation and "Below the line" checklist post-T.O.-clearance
 After ATC (Tower) gives clearance to "line up" or "take off" we are allowed to enter the runway.
 
-"Line up" means that we roll onto the runway and stop at our starting point. We __MUST__ wait for ATC to give us "take off clearance" before we can continue.
+- "Line up" means that we roll onto the runway and stop at our starting point. We __MUST__ wait for ATC to give us "take off clearance" before we can continue.
 
-"Cleared for take off" means we are allowed to actually start the take off when aligned with the runway.
+- "Cleared for take off" means we are allowed to actually start the take off when aligned with the runway.
 
 Shortly before we start our take off roll we do the following steps:
 
