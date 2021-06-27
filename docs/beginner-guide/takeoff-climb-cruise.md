@@ -316,7 +316,7 @@ The FMA now shows AP1 in white in the upper right corner.
       we tell the __Autopilot__ to fly this heading (Selected Heading Mode).<br/>
     - ALT "5000" : means the selected altitude is 5000ft<br/>
 
-**When reaching S-speed retract flaps (assuming we took off with FLAPS 1).**<br/>
+**When reaching S-speed retract flaps.**<br/>
 S-speed is signified with an S next to the speed band in the PFD.
 
 !!! info "Flaps during take off and climb"
@@ -325,7 +325,7 @@ S-speed is signified with an S next to the speed band in the PFD.
     - CONF-2 (Flaps position 2): At "F" and positive speed trend 
     - CONF-1+F (Flaps position 1): At "S" and positive speed trend
     
-    We always retract flaps by only one step at a time. So when we took off with flaps 2 (CONF-2) we retract flaps at "F" to flaps 1. Then at "S" we retract them to flaps 0.  
+    We always retract flaps by only one step at a time. So when we took off with FLAPS 2 (CONF-2) we retract FLAPS at "F" to FLAPS 1. Then at "S" we retract them to FLAPS 0.  
 
 ![Aircraft shortly before reaching S-speed](../assets/takeoff-climb-cruise/S_speed.png "Aircraft shortly before reaching VS speed")
 
