@@ -467,7 +467,7 @@ This concludes the *Climb*.
 ### 5. Cruise
 **Situation:**
 
-- Aircraft has leveled of at planned cruise level.
+- Aircraft has leveled off at planned cruise level.
 - Speed is cruise speed as per ECAM PERF CRZ page.
 - __Autopilot__ is ON.
 - Speed is in Managed Mode.
@@ -515,4 +515,3 @@ Descent, Approach and Landing will be covered in later chapters of this
 beginner guide.
 
 This concludes the *cruise*.
-
