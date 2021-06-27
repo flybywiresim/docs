@@ -136,13 +136,12 @@ holding point the **"Before take off checklist"** needs to be completed.
     The "Before Take Off" checklist is divided into two parts:
     
     - **"Down to the line"** (or "Above the line") means **before** "ATC Take Off Clearance".
-    - **"Below the line"** means **after** T.O clearance (when lined up) but 
+    - **"Below the line"** means **after** T.O. clearance (when lined up) but 
       before starting the roll.
-
 
 <p/>
 
-#### Preparation and "Down to the line" checklist pre-T.O-clearance
+#### Preparation and "Down to the line" checklist pre-T.O.-clearance
 
 __*The following steps from TAXI setup need to be done and checked:*__
 
@@ -175,7 +174,7 @@ __*The following steps from TAXI setup need to be done and checked:*__
 
 - Check ECAM - no blue writing should be visible for these:
 
-    ![ECAM before T.O](../assets/takeoff-climb-cruise/ECAM_small.png "ECAM before T.O"){ align=right width=300 }
+    ![ECAM before T.O.](../assets/takeoff-climb-cruise/ECAM_small.png "ECAM before T.O."){ align=right width=300 }
 
     - AUTO BRK MAX
       - SIGN ON
@@ -224,7 +223,7 @@ This concludes *line up*.
 
 After ATC has given clearance for take off we can actually start our roll.
 
-#### Preparation and "Below the line" checklist post-T.O-clearance
+#### Preparation and "Below the line" checklist post-T.O.-clearance
 After ATC (Tower) gives clearance to "line up" or "take off" we are allowed
 to enter the runway.
 
@@ -256,7 +255,7 @@ Shortly before we start our take off roll we do the following steps:
 
     !!! info "Lights at Take Off"
         Setting the RWY TURN OFF light to ON, the LAND LIGHTS to ON and
-        the NOSE light to T.O minimizes bird strike hazard during takeoff.
+        the NOSE light to T.O. minimizes bird strike hazard during takeoff.
 
 - Check ENG MODE SEL as required (should be on MODE NORM)
 
@@ -351,7 +350,7 @@ This concludes *take off*.
 - Aircraft has left the ground and is climbing at about 15°.
 - Gear is up.
 - Thrust levers are in FLX MCT or TO GA detent.
-- Flaps are still in T.O position.
+- Flaps are still in T.O. position.
 
 After take off the aircraft will use FLX/MCT or TO GA thrust until
 thrust reduction altitude is reached (typically ~1500ft above runway,
