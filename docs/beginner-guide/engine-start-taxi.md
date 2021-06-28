@@ -34,7 +34,7 @@ For the purposes of this guide we will use the default MSFS built in ATC.
    ![atc toolbar](../assets/beginner-guide/taxi/toolbar.png)
 2. Locate `GROUND SERVICES` and select it.
 3. Select `REQUEST PUSHBACK`.
-    - You should hear your virtual pilot request pushback and ATC respond confirming. At this time the pushback tug should slowly make it's way to your nose wheel. 
+    - You should hear your virtual pilot request pushback and ATC respond confirming. At this time the pushback tug should slowly make its way to your nose wheel. 
     - You will notice a slight "jerk" as it connects with your nose wheel. Verify NWS STRG DISC is listed on the ECAM memos.
 4. Release your parking brake.
 5. In the ATC window use `REQUEST PUSHBACK STEER TO THE LEFT` OR `REQUEST PUSHBACK STEER TO THE RIGHT` to turn the aircraft.
@@ -42,7 +42,7 @@ For the purposes of this guide we will use the default MSFS built in ATC.
 !!! info "Steering Commands"
     Please note when selecting other option this will "steer" the tail towards the specified direction. 
 
-    For example if your external camera is directly behind the aircraft and you request `STEER TO THE LEFT` the tail of your aircraft will be "steered" to the left. 
+    For example, if your external camera is directly behind the aircraft and you request `STEER TO THE LEFT` the tail of your aircraft will be "steered" to the left. 
 
 6. Select `REQUEST PUSHBACK STOP` to end pushback when you are satisfied with your position on the taxiway.
 
@@ -81,7 +81,7 @@ Start the chronometer above the ND to help you monitor the start up time of your
 
     - N1 is at roughly 20%
     - N1 reported `AVAIL`  
-    - N2 is at roughtly 70%
+    - N2 is at roughly 70%
 
 === "Start Engine 2"
     1. Set `ENG 2` Master to the ON position.
@@ -92,7 +92,7 @@ Start the chronometer above the ND to help you monitor the start up time of your
 
     - N1 is at roughly 20%
     - N1 reported `AVAIL`  
-    - N2 is at roughtly 70%
+    - N2 is at roughly 70%
 
 ---
 
@@ -127,7 +127,7 @@ Configure your lights for taxi:
     - Left and right ailerons position
     - Left and right elevator position
 
-    Fully deflect your sidestick in all directions and observe that full range of motion is respresented on the ECAM page. You should note the upward arrows in the `SPD BRK` area when moving the ailerons and ensure those are displayed when deflecting your side stick. 
+    Fully deflect your sidestick in all directions and observe that full range of motion is represented on the ECAM page. You should note the upward arrows in the `SPD BRK` area when moving the ailerons and ensure those are displayed when deflecting your side stick. 
 
     Move your rudders and pay attention to the rudder symbol to ensure it moves all the way to the left or right. 
 
