@@ -238,6 +238,18 @@ Also ATC will often still expect us to respect the STAR's constraints although t
 
 We repeat the process until we have reached our desired final approach altitude.
 
+#### Approach Checklist
+
+Before passing **10,000ft** we do the **Approach Checklist**:
+
+- Approach Briefing: `CONFIRMED`
+- ECAM Status: `CHECKED`
+- Seat Belts: `ON`
+- Baro Ref: `SET` (when below transition altitude)
+- Minimum: `SET` (part of the `PERF APPR` page)
+- ENG MODE SEL: `AS RQRD`
+- Landing Lights: `ON`
+
 This concludes *Starting the Descent*.
 
 ---
@@ -256,6 +268,9 @@ Flying the STAR and Approach is very similar to any other part of the route with
 
 Be prepared for ATC instructions to also deviate laterally from the STAR or Approach route to separate from other aircraft or to shortcut the approach when there is little traffic. ATC will then typically give you new heading instructions (heading vectors) and will guide you the rest of the STAR and Approach with additional heading instructions up until intercepting the ILS localizer.
 
+!!! info "Above 10,000ft"
+    If we are still above 10,000ft remember the [Approach Checklist](#approach-checklist) from the previous chapter.
+
 **Example for shortcuts:**
 
 ROKIL STAR/Transition EDDM (Munich) 26R - it is only in times with a lot of traffic that we would have to fly the whole downwind part of this transition.
@@ -271,7 +286,7 @@ ROKIL STAR/Transition EDDM (Munich) 26R - it is only in times with a lot of traf
 **Situation:**
 
 - Aircraft is in `DES` phase
-- Aircraft is setup for flight <10,000ft (`seatbelt signs` on, `landing lights` on, etc.)
+- Aircraft is setup for flight <10,000ft (`seat belt signs` on, `landing lights` on, etc.)
 - We are either within the IAP (Instrument Approach) and at the correct altitude and speed or at a heading vector, altitude and speed instructed by ATC
 
 At the end of the Instrument Approach (or by ATC vectoring) we will be on a path to the Final Approach Fix and/or intercepting the ILS localizer and eventually the ILS glidescope.
