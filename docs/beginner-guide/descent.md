@@ -21,9 +21,9 @@ The actual final approach (ILS approach) will be covered by a separate chapter.
 
 ## Pre-requisites
 
-Aircraft is in CRUISE state as per previous chapters
+Aircraft is in CRUISE state and phase as per previous chapters
 
-Download the [FlyByWire Checklist](../assets/FBW_A32NX_CHECKLIST.pdf) here.
+[Download FlyByWire Checklist](../assets/FBW_A32NX_CHECKLIST.pdf){ .md-button }
 
 ## Chapters / Phases
 
@@ -83,6 +83,11 @@ This guide will cover these phases:
     It is the sole responsibility of the pilot to conduct proper flight planning and especially proper descent planning. It is not at all ATC's task to do descent planning for pilots by giving descent instructions. On the other hand ATC often actually gives descent instructions, especially on common routes, as they want the aircraft in their responsibility to be at certain altitudes when approaching the destination airport. Nevertheless  pilots must know when to descent the latest and if necessary need to pro-actively request clearance to descent from ATC.
 
     Good descent and approach planning is the foundation for a successful landing. It has to be done early during the flight or even before the flight.
+
+**Situation:**
+
+- Aircraft is in CRUISE state and phase as per previous chapters
+- Distance to destination is ~200NM (on a short flight start as early as possible and maybe even before the flight)
 
 #### Important data points for descent planning:
 
@@ -203,6 +208,13 @@ This concludes *Descent and Approach Planning*.
 
 ### 2. Starting the Descent
 
+**Situation:**
+
+- Aircraft is in CRUISE state and phase as per previous chapters
+- Descent and approach planning is done
+- First descent point (altitude at certain waypoint) is identified
+- Distance to descent point is calculated (= TOD - top of descent)
+
 A few minutes before we reach our calculated descent point (TOD) we request clearance for descent from ATC if not already given a descent instruction before.
 
 **Do NOT start the decent without clearance from ATC.**
@@ -233,6 +245,13 @@ This concludes *Starting the Descent*.
 
 ### 3. Flying the STAR and Approach
 
+**Situation:**
+
+- Aircraft is in DES phase
+- Descent has started (we are after TOD)
+- We have not yet reached the first waypoint of the STAR
+- MCDU PERF APPR page is filled (beginner can skip this - see chapter [Advanced arrival planning](#advanced-arrival-planning))
+
 Flying the STAR and Approach is very similar to any other part of the route within in the flight plan. Apart from descending and adhering to constraints the lateral flight path just follows the programmed route.<br/>
  Let the __Autopilot__ do this for you and just adjust altitude and speed according to the charts or the ATC instructions.
 
@@ -249,6 +268,12 @@ ROKIL STAR/Transition EDDM (Munich) 26R - it is only in times with a lot of traf
 ---
 
 ### 4. Intercepting ILS
+
+**Situation:**
+
+- Aircraft is in DES phase
+- Aircraft is setup for flight <10,000ft (seatbelt signs on, landing lights on, etc.)
+- We are either within the IAP (Instrument Approach) and at the correct altitude and speed or at a heading vector, altitude and speed instructed by ATC
 
 At the end of the Instrument Approach (or by ATC vectoring) we will be on a path to the Final Approach Fix and/or intercepting the ILS localizer and eventually the ILS glidescope.
 
