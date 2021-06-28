@@ -69,6 +69,8 @@ Start the chronometer above the ND to help you monitor the start up time of your
 
     ![NDlocation](../assets/beginner-guide/taxi/nd.png)
 
+Using the tabs below begin by starting engine 1. 
+
 === "Start Engine 1"
     1. Set the `ENG` mode selector to `IGN/START`
         - You should hear the packs turn off.
@@ -77,22 +79,26 @@ Start the chronometer above the ND to help you monitor the start up time of your
         - Pay attention to your ECAMs and note your engine parameters as ENG 1 starts up. 
         - The engine should take roughly 1 minute to complete its start up sequence - use the chronometer you started earlier to time this.
     
-    Engine 1 will have successfully started when the following applies:
+    Engine 1 will have successfully started when the following applies (at ISA sea level):
 
-    - N1 is at roughly 20%
+    - N1 is at roughly 19%
     - N1 reported `AVAIL`  
-    - N2 is at roughly 70%
+    - N2 is at roughly 68%
+    - EGT settles at about 520°C
+    - FF is at roughly 290 kg/h
 
 === "Start Engine 2"
     1. Set `ENG 2` Master to the ON position.
         - Pay attention to your ECAMs and note your engine parameters as ENG 2 starts up.
         - The engine should take roughly 1 minute to complete its start up sequence - use the chronometer you started earlier to time this.
 
-    Engine 2 will have successfully started when the following applies:
+    Engine 2 will have successfully started when the following applies (at ISA sea level):
 
-    - N1 is at roughly 20%
+    - N1 is at roughly 19%
     - N1 reported `AVAIL`  
-    - N2 is at roughly 70%
+    - N2 is at roughly 68%
+    - EGT settles at about 520°C
+    - FF is at roughly 290 kg/h
 
 ---
 
