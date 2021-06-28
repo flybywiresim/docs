@@ -171,7 +171,6 @@ When approved to cross a runway (active or not) perform the following actions:
 - Look out the windows and visually ensure that there are no visible aircraft to your left and right. 
 - Turn on extra lights to ensure your aircraft is visible when crossing:
     - Strobe lights - `Set to ON`
-    - Landing lights - `Set to ON`
 - Inform ATC you have vacated the runway if required.
 
 !!! warning
