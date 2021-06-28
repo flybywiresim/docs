@@ -142,7 +142,7 @@ Configure your lights for taxi:
 !!! info "Taxi Speed + Engine Thrust"
     The A32NX is perfectly capable taxiing with idle thrust and even gradually accelerate. In certain situations it may be required to provide some thrust to begin rolling. 
 
-    Standard behavior is to allow the aircraft to reach 30GS and apply brakes to 10GS. Repeat as necessary. 
+    Standard behavior is to allow the aircraft to reach 30kts and apply brakes to 10kts. Repeat as necessary. 
 
 ### Performing Taxi
 
@@ -154,7 +154,39 @@ For additional information on signs and markings on the ground please see [Gener
     Ensure the following has been accomplished before moving the aircraft:
 
     - Taxi clearance obtained
-    - Lights set to the correct position
+    - Lights set to the correct position (discussed earlier)
+
+Once you have your routing from ATC and have read back your taxi clearance you are now free to taxi to the runway. For this portion of the guide we will assume that you have pushed back onto a serviceable taxiway parallel to the terminal.
+
+- Verify the ground crew is safely away.
+- Look to your left and right to ensure clearance from other aircraft or vehicles.
+- Release your parking brake.
+
+At this point the aircraft may start rolling. Depending on your weight you may need to add a little power to the engines to get going. Increase power to roughly ~25-30% N1. Be mindful that you are not blasting N1 towards or around the terminal.
+
+- Leave a bit of thrust on and perform a quick brake check to ensure hydraulics and brakes are fully functioning.
+    - You don't need to come to a complete stop but merely check the brake pressure status when performing the brake check.
+
+If you need to perform a sharp turn immediately you may need more than ~25-30% N1 and should set your thrust accordingly. Try not to perform the brake check while in a turn as you don't want to come a complete stop while turning.
+
+While underway to the runway perform a pre-flight briefing/check:
+
+- Check your FMA modes are correct for departure. 
+- Perf page on the MCDU has the correct runway, V speeds, and performance factors.
+- Check your stop altitude (initial climb altitude).
+- Turn on the weather radar if required.
+- Set TCAS to TA/RA.
+
+#### Speed While Taxiing
+
+Pay attention to your ground speed (visible on the ND) while you taxi. This will provide you with your knots on the ground. 
+
+- Straight Line
+    - Anything up to 30kts is reasonable, but some airports may carry their own local restrictions that you should be mindful of. This is not an absolute rule and is more of typical SOP for airlines in a straight line.
+- 90° (Sharp) Turns
+    - A good speed would be around 10kts. This provides safety for the flight crew as they perform their safety demonstration/checks.
+- Regular Turns
+    - Around 15kts is an acceptable speed with a similar concept to providing safety as described above. 
 
 #### Handy Tips While Taxiing
 
