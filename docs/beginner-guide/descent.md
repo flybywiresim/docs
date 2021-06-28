@@ -21,7 +21,7 @@ The actual final approach (ILS approach) will be covered by a separate chapter.
 
 ## Pre-requisites
 
-Aircraft is in CRUISE state and phase as per previous chapters
+Aircraft is in `CRUISE` state and phase as per previous chapters
 
 [Download FlyByWire Checklist](../assets/FBW_A32NX_CHECKLIST.pdf){ .md-button }
 
@@ -86,7 +86,7 @@ This guide will cover these phases:
 
 **Situation:**
 
-- Aircraft is in CRUISE state and phase as per previous chapters
+- Aircraft is in `CRUISE` state and phase as per previous chapters
 - Distance to destination is ~200NM (on a short flight start as early as possible and maybe even before the flight)
 
 #### Important data points for descent planning:
@@ -162,7 +162,7 @@ This is typically done about 50NM before the starting the descent.
 
 We can obtain this data from the destination airport's ATIS information and the airport charts.
 
-From ATIS we get: QNH, TEMP and MAG WIND. Sometimes TRANS ALT - if not refer to the approach chart.
+From ATIS we get: `QNH`, `TEMP` and `MAG WIND`. Sometimes `TRANS ALT` - if not refer to the approach chart.
 
 ATIS Example:
 ```
@@ -173,24 +173,23 @@ ACKNOWLEDGE RECEIPT OF INFORMATION K AND ADVISE AIRCRAFT
 TYPE ON FIRST CONTACT
 ```
 
-From the chart we get TRANS ALT and BARO (=MDA) or RADIO (=DH).
+From the chart we get `TRANS ALT` and `BARO` (=MDA) or `RADIO` (=DH).
 
-- CAT 1 ILS uses MDA and is entered into the BARO field.
-- CAT 2/3 ILS use DH which is put in the RADIO field.
-- BARO is based on barometric altitude whereas RADIO is based on radio altitude (distance to ground).
+- CAT 1 ILS uses MDA and is entered into the `BARO` field.
+- CAT 2/3 ILS use DH which is put in the `RADIO` field.
+- `BARO` is based on barometric altitude whereas `RADIO` is based on radio altitude (distance to ground).
 
 ![Transition alt on chart](../assets/beginner-guide/descent/EGKK_APPR_chart_1.png "Transistion alt on chart")<br/>
 ![ILS information on chart](../assets/beginner-guide/descent/EGKK_APPR_chart_2.png "ILS information on chart")<br/>
 *Copyright © 2021 Navigraph / Jeppesen*
 
-The A320neo is capable of a CAT IIIB ILS approach and has an approach category of "C" - see the red area on the chart.<br/>
-(see [Wikipedia Aircraft approach category](https://en.wikipedia.org/wiki/Aircraft_approach_category)
+The A320neo is capable of a CAT IIIB ILS approach and has an approach category of "C" - see the red area on the chart. (see [Wikipedia Aircraft approach category](https://en.wikipedia.org/wiki/Aircraft_approach_category)
 
-In this chart for EGKK 26L ILS there is no DH for CAT IIIB defined - so we can enter "NO" or "NO DH" into the RADIO field.
+In this chart for EGKK 26L ILS there is no DH for CAT IIIB defined - so we can enter "NO" or "NO DH" into the `RADIO` field.
 
 If we are using Microsoft Flight Simulator without any Online ATC services (VATSIM, IVAO, PilotEdge, ...), and using the MSFS build-in ATC, you usually can't request ATIS information for the destination airport at this point. MSFS ATC makes ATIS only available once close to the destination airport.
 
-If we are flying with Online ATC you can request ATIS via the MCDU-ATSU-ACO page or your Online ATC network's client at this time.
+If we are flying with Online ATC you can request ATIS via the `MCDU-ATSU-ACO` page or your Online ATC network's client at this time.
 
 We can in any case request the METAR weather information for the destination airport via the same page.
 
@@ -210,7 +209,7 @@ This concludes *Descent and Approach Planning*.
 
 **Situation:**
 
-- Aircraft is in CRUISE state and phase as per previous chapters
+- Aircraft is in `CRUISE` state and phase as per previous chapters
 - Descent and approach planning is done
 - First descent point (altitude at certain waypoint) is identified
 - Distance to descent point is calculated (= TOD - top of descent)
@@ -220,20 +219,20 @@ A few minutes before we reach our calculated descent point (TOD) we request clea
 **Do NOT start the decent without clearance from ATC.**
 
 !!! info "TOD marker A320"
-    The FlyByWire A32NX has not implemented the TOD (top of descent) marker on the ND yet. Usually the A320 has a downward pointing arrow at the TOD to support the pilot with the decision when to descent. Ultimately it is still the pilot's responsibility to calculate and validate the TOD.
+    The FlyByWire A32NX has not implemented the TOD (top of descent) marker on the `ND` yet. Usually the A320 has a downward pointing arrow at the TOD to support the pilot with the decision when to descent. Ultimately it is still the pilot's responsibility to calculate and validate the TOD.
 
 When clearance is given we can start our descent to the flight level or altitude ATC has given us.
 
-For descending we set the new flight level or altitude in the FCU with the altitude dial knob. We can then either push the knob for Managed Altitude Mode (constraints are respected, also know as VNAV) or pull the knob for Selected Altitude Mode (constraints are ignored). You can also use the V/S dial knob to set a specific descent vertical velocity. Pull the V/S knob to start the descent.
+For descending we set the new flight level or altitude in the `FCU` with the `altitude selector`. We can then either push the selector for Managed Altitude Mode (constraints are respected, also know as VNAV) or pull the selector for `Selected Altitude Mode` (constraints are ignored). You can also use the `V/S selector` to set a specific descent vertical velocity. Pull the `V/S selector` to start the descent.
 
-![FUC with ALT and V/S knobs](../assets/beginner-guide/descent/FCU_AP_knobs.png "FUC with ALT and V/S knobs")
+![FUC with ALT and V/S selector](../assets/beginner-guide/descent/FCU_AP_selector.png "FUC with ALT and V/S selector")
 
 ATC typically will not clear us to our final target altitude directly but will give us several step descents down to our required altitude.
 
 Also ATC will often still expect us to respect the STAR's constraints although they might have given us a lower clearance. We should then only descent to the constraint's altitude.
 
 !!! info "VNAV in the FlyByWire A32NX"
-    The scenario that we are cleared to a lower altitude or flight level with altitude constraints above the clearance is an ideal scenario for the called so "VNAV" autopilot mode which would be activated by using "Managed Altitude Mode" (pushing the ALT knob). The autopilot will automatically level off at the constraint and continue descending when the constraint is no longer valid.
+    The scenario that we are cleared to a lower altitude or flight level with altitude constraints above the clearance is an ideal scenario for the called so "VNAV" autopilot mode which would be activated by using "`Managed Altitude Mode`" (pushing the `ALT selector`). The autopilot will automatically level off at the constraint and continue descending when the constraint is no longer valid.
 
     Unfortunately the current version of the FlyByWire A32NX does not yet support VNAV. This is planned to be implemented in one of the next versions.
 
@@ -247,10 +246,10 @@ This concludes *Starting the Descent*.
 
 **Situation:**
 
-- Aircraft is in DES phase
+- Aircraft is in `DES` phase
 - Descent has started (we are after TOD)
 - We have not yet reached the first waypoint of the STAR
-- MCDU PERF APPR page is filled (beginner can skip this - see chapter [Advanced arrival planning](#advanced-arrival-planning))
+- `MCDU PERF APPR` page is filled (beginner can skip this - see chapter [Advanced arrival planning](#advanced-arrival-planning))
 
 Flying the STAR and Approach is very similar to any other part of the route within in the flight plan. Apart from descending and adhering to constraints the lateral flight path just follows the programmed route.<br/>
  Let the __Autopilot__ do this for you and just adjust altitude and speed according to the charts or the ATC instructions.
@@ -271,8 +270,8 @@ ROKIL STAR/Transition EDDM (Munich) 26R - it is only in times with a lot of traf
 
 **Situation:**
 
-- Aircraft is in DES phase
-- Aircraft is setup for flight <10,000ft (seatbelt signs on, landing lights on, etc.)
+- Aircraft is in `DES` phase
+- Aircraft is setup for flight <10,000ft (`seatbelt signs` on, `landing lights` on, etc.)
 - We are either within the IAP (Instrument Approach) and at the correct altitude and speed or at a heading vector, altitude and speed instructed by ATC
 
 At the end of the Instrument Approach (or by ATC vectoring) we will be on a path to the Final Approach Fix and/or intercepting the ILS localizer and eventually the ILS glidescope.
