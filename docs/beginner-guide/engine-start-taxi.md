@@ -104,18 +104,12 @@ Using the tabs below begin by starting engine 1.
 
 ## After Engine Start
 
-Perform the AFTER START checklist.
+Complete the following tasks before requesting taxi clearance:
 
-- ANTI ICE - `As required`
-- ECAM STATUS - `Checked`
-- PITCH TRIM - `___% SET`
-- RUDDER TRIM - `Zero`
-
-You may also perform several actions at this time before requesting taxi clearance. 
-
+- Set the `ENG` mode selector to `NORM`
 - Set flaps to CONF specified during MCDU preparation.
 - Arm spoilers
-- Flight controls checked  
+- Flight controls checked
 - AUTO BRK - `Set to MAX`
 - APU BLEED - `Set to OFF`
 - APU MASTER SW - `Set to OFF`
@@ -140,6 +134,13 @@ Configure your lights for taxi:
     **Sidestick right full deflection:**
 
     ![fctl](../assets/beginner-guide/taxi/f-ctl.png)
+
+Perform the AFTER START checklist.
+
+- ANTI ICE - `As required`
+- ECAM STATUS - `Checked`
+- PITCH TRIM - `___% SET`
+- RUDDER TRIM - `Zero`
 
 ---
 
@@ -188,7 +189,7 @@ While underway to the runway perform a pre-flight briefing/check:
 Pay attention to your ground speed (visible on the ND) while you taxi. This will provide you with your knots on the ground. 
 
 - Straight Line
-    - Anything up to 30kts is reasonable, but some airports may carry their own local restrictions that you should be mindful of. This is not an absolute rule and is more of typical SOP for airlines in a straight line.
+    - Anything up to 30kts is reasonable, but some airports may carry their own local restrictions that you should be mindful of. This is not an absolute rule and is usually typical SOP for airlines in a straight line.
 - 90° (Sharp) Turns
     - A good speed would be around 10kts. This provides safety for the flight crew as they perform their safety demonstration/checks.
 - Regular Turns
