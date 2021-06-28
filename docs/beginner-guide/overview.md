@@ -14,7 +14,7 @@ Topics:
 
 [Engine Start and Taxi]
 
-[Takeoff / Climb / Cruise]
+[Takeoff / Climb / Cruise](takeoff-climb-cruise.md)
 
 [Descent]
 
