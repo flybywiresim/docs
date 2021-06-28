@@ -266,10 +266,12 @@ This concludes *Starting the Descent*.
 Flying the STAR and Approach is very similar to any other part of the route within in the flight plan. Apart from descending and adhering to constraints the lateral flight path just follows the programmed route.<br/>
  Let the __Autopilot__ do this for you and just adjust altitude and speed according to the charts or the ATC instructions.
 
-Be prepared for ATC instructions to also deviate laterally from the STAR or Approach route to separate from other aircraft or to shortcut the approach when there is little traffic. ATC will then typically give you new heading instructions (heading vectors) and will guide you the rest of the STAR and Approach with additional heading instructions up until intercepting the ILS localizer.
-
 !!! info "Above 10,000ft"
     If we are still above 10,000ft remember the [Approach Checklist](#approach-checklist) from the previous chapter.
+
+At some point during the descent and when close enough to the airport we will be instructed by ATC to contact ATC Approach for the airport we are flying into.
+
+Be prepared for ATC instructions to deviate laterally from the STAR or Approach route to separate from other aircraft or to shortcut the approach when there is little traffic. ATC will then typically give you new heading instructions (heading vectors) and will guide you the rest of the STAR and Approach with additional heading instructions up until intercepting the ILS localizer.
 
 **Example for shortcuts:**
 
