@@ -128,6 +128,30 @@ Perform the AFTER START checklist.
 
 ---
 
+## Flight Controls Check
+
+Airlines may perform the flight controls check at different points depending on their SOP. Most notably the common instances are:
+
+- After completing the AFTER START checklist and before taxi. 
+- During taxi out. 
+
+### Performing a Flight Controls Check
+
+Using the ECAM control panel press the `F/CTL` button to switch the lower ECAM to the flight controls. Ensure all flight controls are displayed in green.
+
+The `F/CTL` ECAM page shows you a white scale and green index for the following positions:
+
+- Left and right ailerons position
+- Left and right elevator position
+  
+Fully deflect your sidestick in all directions and observe that the full range of motion is reflected on the ECAM page. You should note the upward arrows in the `SPD BRK` area when moving the ailerons and ensure those are displayed when deflecting your side stick. 
+
+Move your rudders and pay attention to the rudder symbol to ensure it moves all the way to the left or right. 
+
+**Sidestick right full deflection:**
+
+![fctl](../assets/beginner-guide/taxi/f-ctl.png)
+
 ## Taxi
 
 !!! info "Taxi Speed + Engine Thrust"
@@ -162,29 +186,12 @@ If you need to perform a sharp turn immediately you may need more than ~25-30% N
 
 While underway to the runway perform a pre-flight briefing/check:
 
-- Flight controls checked.
 - Check your FMA modes are correct for departure. 
 - Perf page on the MCDU has the correct runway, V speeds, and performance factors.
 - Check your stop altitude (initial climb altitude).
 - Turn on the weather radar if required.
 - Set TCAS to TA/RA.
 - AUTO BRK - `Set to MAX`
-
-!!! info "Performing a Flight Controls Check"
-    Using the ECAM control panel press the `F/CTL` button to switch the lower ECAM to the flight controls. Ensure all flight controls are displayed in green.
-
-    The `F/CTL` ECAM page shows you a white scale and green index for the following positions:
-
-    - Left and right ailerons position
-    - Left and right elevator position
-
-    Fully deflect your sidestick in all directions and observe that full range of motion is represented on the ECAM page. You should note the upward arrows in the `SPD BRK` area when moving the ailerons and ensure those are displayed when deflecting your side stick. 
-
-    Move your rudders and pay attention to the rudder symbol to ensure it moves all the way to the left or right. 
-
-    **Sidestick right full deflection:**
-
-    ![fctl](../assets/beginner-guide/taxi/f-ctl.png)
 
 #### Speed While Taxiing
 
