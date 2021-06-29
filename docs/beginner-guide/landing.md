@@ -5,7 +5,7 @@ This guide will explain the correct procedures to fly a final approach and condu
 
 !!! warning "Disclaimer"
     The level of detail in this guide is meant to get a FlyByWire A320neo
-    beginner safely from cruise level down to the ILS glideslope.
+    beginner on approach to intercept the ILS and land the aircraft safely on the runway.
 
     A *beginner* is defined as someone familiar with flying a GA aircraft 
     or different types of airliners. Aviation terminology and know-how is 
@@ -19,7 +19,7 @@ This guide will explain the correct procedures to fly a final approach and condu
 
 ## Pre-requisites
 
-Aircraft is in XXX state as per previous chapters
+Aircraft is on approach shortly before intercepting the ILS and still in phase and state `DES` as per previous chapters.
 
 [Download FlyByWire Checklist](../assets/FBW_A32NX_CHECKLIST.pdf){ .md-button }
 
@@ -27,11 +27,12 @@ Aircraft is in XXX state as per previous chapters
 
 This guide will cover these phases:
 
-1. Interceting ILS Localizer
-2. Intercepting ILS Glidescope
-3. Prepare for Landing
+1. Intercepting the ILS Localizer
+2. Intercepting the ILS Glidescope
+3. Preparation and Checklist for Landing
 4. Landing
 5. Vacate Runway
 
 ---
+
 
