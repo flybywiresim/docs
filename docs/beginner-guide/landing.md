@@ -52,7 +52,7 @@ To intercept the ILS Localizer we follow these steps:
 
     === "Check ILS frequency"
 
-        ![ILS frequency on approach chart](../assets/beginner-guide/landing/EDDM_26R_ILS_freq_chart.png "ILS frequency on approach chart"){align=left width=340}
+        ![ILS frequency on approach chart](../assets/beginner-guide/landing/EDDM_26R_ILS_freq_chart.png "ILS frequency on approach chart"){align=left width=320}
 
         ![ILS frequency on ECAM RNAV page](../assets/beginner-guide/landing/ECAM_RNAV_page_ILS.png "ILS frequency on ECAM RNAV page"){align=right width=300}
 
