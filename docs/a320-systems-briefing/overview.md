@@ -7,6 +7,8 @@ Simulator and the FlyByWire A320neo aircraft mod.
 Other variations of the A320 (A318, A319, A321) have a lot of overlap
 but are omitted in this briefing.
 
+**For Simulation Use Only**
+
 ## Index of chapters
 
 1. General
