@@ -234,7 +234,7 @@ Correct your final heading and bank very carefully. We should not need to correc
  Once over the runway threshold we look towards the end of the runway to better judge our pitch especially for the so called **Flare**.
 
 !!!info "Flare"
-    The flare follows the final approach phase and precedes the touchdown and roll-out phases of landing. In the flare, the nose of the plane is raised, slowing the descent rate and therefore, creating a softer touchdown, and the proper attitude is set for touchdown. [..] In the case of tricycle gear-equipped aircraft, the attitude is set to touchdown on the main (rear) landing gear. (source: [Wikipedia: Landing flare](https://en.wikipedia.org/wiki/Landing_flare) )
+    The flare follows the final approach phase and precedes the touchdown and roll-out phases of landing. In the flare, the nose of the plane is raised, slowing the descent rate and therefore, creating a softer touchdown, and the proper attitude is set for touchdown. \[...\] In the case of tricycle gear-equipped aircraft, the attitude is set to touchdown on the main (rear) landing gear. (source: [Wikipedia: Landing flare](https://en.wikipedia.org/wiki/Landing_flare) )
 
  At the runway threshold we should be about 50ft above ground and prepare to set the thrust levers to idle and flare.
 
