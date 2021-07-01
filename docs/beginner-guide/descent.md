@@ -250,6 +250,12 @@ Before passing **10,000ft** we do the **Approach Checklist**:
 - ENG MODE SEL: `AS RQRD`
 - Landing Lights: `ON`
 
+#### Cabin Crew
+
+In real life the cabin crew will be asked to prepare the cabin for landing during at some point during the descent. The exact moment and process might differ between airlines but most seem to do this when the Seatbelt Signs are turned (typically at the latest at 10,000ft).
+
+The Cabin Crew will notify the pilots either by a "Cabin Ready" button (A320neo) or by a call to the cockpit (A320ceo) once they are ready and strapped in themselves. Typically we will be in final approach by that time.
+
 This concludes *Starting the Descent*.
 
 ---
