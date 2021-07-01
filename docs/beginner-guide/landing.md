@@ -40,7 +40,9 @@ This guide will cover these phases:
 
 - Aircraft is in `DES` phase
 - Aircraft is setup for flight <10,000ft (`seat belt signs` on, `landing lights` on, etc.)
-- We are either within the IAP (Instrument Approach) and at the correct altitude and speed or at a heading vector, altitude and speed instructed by ATC
+- We are within the IAP (Instrument Approach) and either
+    - at the altitude and speed from the chart (Final Approach Fix altitude and 250 knots if there are no other speed restrictions on the chart)
+    - or we are at a heading vector, altitude and speed instructed by ATC
 
 At the end of the Instrument Approach (or by ATC vectoring) we will be on a path to the Final Approach Fix and/or a path to intercept the ILS localizer and eventually the ILS glideslope.
 
@@ -57,29 +59,29 @@ To intercept the ILS Localizer we follow these steps:
         ![ILS frequency on ECAM RNAV page](../assets/beginner-guide/landing/ECAM_RNAV_page_ILS.png "ILS frequency on ECAM RNAV page"){align=right width=300}
 
 
-- Turn on the `ILS localizer and glideslope scales` with the `ILS` button on the glareshield.
+- Turn on the `ILS localizer and glideslope scales` with the `LS` button on the glareshield.
 
     === "Turn on ILS scales"
 
         ![LS button on glareshield](../assets/beginner-guide/landing/GLARE_LS_button.png "LS button on glareshield"){align=left width=100}
       
-        ![ILS Mode on PFD and ND](../assets/beginner-guide/landing/ILS_Mode.png "ILS Mode on PFD and ND"){align=right width=520}  
+        ![ROSE LS Mode on PFD and ND](../assets/beginner-guide/landing/ROSE_LS_Mode.png "ROSE LS Mode on PFD and ND"){align=right width=520}  
 
-- Make sure we are on the correct altitude and we should not have an approach angle larger than 30°.<br/>
+- Make sure we are on the correct altitude (5,000ft in this example) and we should not have an approach angle larger than 30°.<br/>
 
     ![EDDM ILS 26R chart](../assets/beginner-guide/landing/EDDM_ILS_26R_30_chart.png "EDDM ILS 26R chart")<br/>
     ![EDDM glideslope](../assets/beginner-guide/landing/EDDM_ILS_26R_GS_chart.png "EDDM glideslope")
 
-- Optional: Turn on `ILS Mode` for the `ND` (can also be on F.O.'s side). The ILS ROSE Mode shows the deviation from the localizer approach heading path.
+- Optional: Turn on `ROSE LS Mode` for the `ND` (can also be on F.O.'s side). The ROSE LS Mode shows the deviation from the localizer approach heading path.
 
-    ![ND ROSE ILS Mode](../assets/beginner-guide/landing/ND_ROSE_ILS_Mode.png "ND ROSE ILS Mode"){width=360}
+    ![ND ROSE LS Mode](../assets/beginner-guide/landing/ND_ROSE_LS_Mode.png "ND ROSE LS Mode"){width=360}
 
-- Activate the `APPR` phase in the `MCDU-PERF` page. This is usually automatically done by the aircraft at a certain point during the approach, but we make sure that at this point at the latest it is activated. In `APPR` phase the `Autopilot` together with "Managed Speed Mode" reliefs the pilot of a lot of stress by managing the speed according to flaps setting automatically.
+- Activate the `APPR` phase in the `MCDU-PERF` page. This is usually automatically done by the aircraft at a certain point during the approach, but we make sure that at this point at the latest it is activated. In `APPR` phase the `Autopilot` together with "Managed Speed Mode" reliefs the pilot of a lot of stress by managing the speed according to flaps setting automatically (S-Speed after `FLAPS 1`, F-Speed after `FLAPS 2`, V~app~ after landing flap selection).
 
     ![Activate APPR in ECAM PERF](../assets/beginner-guide/landing/ECAM_PERF_activate_APPR.png "Activate APPR in ECAM PERF"){width=360}
 
 - Set `SPEED` to `Managed Speed Mode` (push the `Speed Selector`). The aircraft should now decelerate to `green dot` speed.
-- Set `FLAPS` to 1 when speed is below V~FE~ for the first slat/flap configuration. The aircraft will decelerate further to prepare for the next flaps configuration.
+- Set `FLAPS` to 1 at about V~FE~ -15 knots (but never before speed is below V~FE~) for the first slat/flap configuration (`CONF1`). The aircraft will then decelerate further to prepare for the next flaps configuration.
 
     ![VFE for next configuration](../assets/beginner-guide/landing/PFD_Speedband_flaps_marker.png "VFE for next configuration")
 
@@ -93,7 +95,7 @@ To intercept the ILS Localizer we follow these steps:
 
     ![Established on ILS localizer](../assets/beginner-guide/landing/PFD_ND_established.png "Established on ILS localizer")
 
-Tower ATC will the give us clearance for ILS approach for the target runway. This is the actual clearance that we are allowed to also descent along the ILS glideslope.
+Tower ATC will the give us clearance for ILS approach for the target runway. This clears us to descend on the ILS glideslope.
 
 **Do not descent without explicit clearance from ATC.**
 
@@ -113,21 +115,25 @@ After ATC has given us clearance for ILS approach we can also start descending u
 
 ![PFD glideslope deviation marker](../assets/beginner-guide/landing/PFD_ILS_glideslope.png "PFD glideslope deviation marker"){width=360}
 
-Press the APPR button on the FCU to arm the ILS glideslope descent mode.
+Press the `APPR` button on the `FCU` to arm the ILS glideslope descent mode.
 
 ![Activating APPR mode](../assets/beginner-guide/landing/FCU_ILS_APPR.png "Activating APPR mode")
 
-The vertical `FMA` will now shows `G/S` (glideslope) in blue.
+The vertical `FMA` now shows `G/S` (glideslope) in blue.
 
 ![PFD FMA showing G/S armed](../assets/beginner-guide/landing/PFD_FMA_GS_armed.png "PFD FMA showing G/S armed"){width=360}
 
- This is a good time to set `Flaps 2` (check that the speed is below the V~FE~ for the next flap setting) as slowing down once we are descending along the glideslope can be difficult. We need the drag from the flaps if we do not want to let the gear down too early (which also would help us slowing down).
+ This is a good time to set `Flaps 2` (check that the speed is below the V~FE~ for the next flap setting) as slowing down once we are descending along the glideslope can be difficult. We need the drag from the flaps if we do not want to let the gear down too early (which also would help us slowing down).<br/>
+ There are different guidance when to set `FLAPS 2` but as a beginner we recommend to go to `FLAPS 2` before starting the glideslope descent. Airbus guidance for example is during descent at about 2,000ft.
+
+!!!info "ATC instructed approach speed"
+    The A320 `Autothrust` will manage speed during approach automatically and will reduce speed further with each flap setting. In real live and also when flying with Online ATC like VATSIM we need to expect that ATC instructs us to stay at a certain speed (e.g. 160 knots until 5 NM to the runway). In this case we would use `Selected Speed Mode` (select a speed in the `FCU` and pull the knob) until the instructed distance to the runway where we would then go back to `Managed Speed Mode` and drop the gear then as well as setting flaps to 3 and flaps to full - see below.
 
 The aircraft will start descending when the deviation marker is in the middle (we have captured the ILS glideslope). The vertical `FMA` will now display `G/S` in green.
 
 ![PFD when G/S is activated](../assets/beginner-guide/landing/PFD_FMA_GS_active.png "PFD when G/S is activated"){width=360}
 
-We are now descending along the glideslope. The radio altimeter comes alive at 2,500ft above the ground to display the actual precise altitude above ground.
+We are now descending along the glideslope. The radio altimeter comes alive at 2,500ft above the ground to display the actual precise height above ground.
 
 ![Radio altimeter alive](../assets/beginner-guide/landing/PFD_radio_alt.png "Radio altimeter alive"){width=360}
 
@@ -142,18 +148,32 @@ This concludes *Intercepting the ILS Glideslope*
 - Aircraft is established on ILS localizer and glideslope
 - Flaps are set to 2
 
-At this point we would prepare the aircraft for a possible missed appraoch and go-around by setting the go-around altitude in the FCU (see *MISSED APCH* procedure in the charts). We skip this for this beginner guide.
+At this point we would prepare the aircraft for a possible missed approach and go-around by setting the go-around altitude in the FCU (see *MISSED APCH* procedure in the charts). We skip this for this beginner guide.
 
-For the final approach we do the following steps:
+To set us up for the final approach we do the following steps:
 
-- `Gear down`: Sometime between 2,500ft and 1,000ft , typically around 5-6NM from runway.
+- `Gear down`: Sometime between 2,500ft and 1,500ft , typically around 5-6NM from runway.
+- Turn on `RWY TURN OFF` lights and set `NOSE` light to `T.O`
 - Set `FLAPS 3` and shortly after `FLAPS FULL` (always check speed before setting flaps otherwise you might end up in an overspeed situation).
+- Going `FLAPS FULL` will reduce our speed to V~app~
 - Arm `Autobrakes` (`Low` when dry, `Med` in rain or snow or a short runway)
 - Arm `Speedbrake` by pulling up the `Speedbrake` lever (Speedbrake must be retracted to arm)
 
-**We need to be fully setup at 1,000ft above the ground.**
+**We need to be fully setup and stable at 1,000ft above the ground.**
 
 ![Fully setup for landing](../assets/beginner-guide/landing/Landing_Cockpit.png "Fully setup for landing")
+
+![RWY TURN OFF ON and NOSE T.O](../assets/beginner-guide/landing/Landing_lights.png "RWY TURN OFF ON and NOSE T.O"){width=360}
+
+#### Cabin Crew
+
+In real life the cabin crew will have been asked to prepare the cabin for landing during the descent. The exact moment and process might differ between airlines but most seem to do this when the `Seatbelt Signs` are turned on during descent (typically at the latest at 10,000ft).
+
+The Cabin Crew will notify the pilots either by a "Cabin Ready" button (A320neo) or by a call to the cockpit (A320ceo) once they are ready and strapped in themselves.
+
+In the Microsoft Flight Simulator we simulate this by pressing the `CALLS ALL` button on the left of the overhead panel. This will set the "Cabin Ready" status as shown in the ECAM and there will be a short announcement playing "Cabin Crew take your seats for landing".
+
+![Cabin notification](../assets/beginner-guide/landing/CALLS_all.png "Cabin notification"){width=360}
 
 Complete the **Landing Checklist**
 
