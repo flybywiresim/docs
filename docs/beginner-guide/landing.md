@@ -81,7 +81,7 @@ To intercept the ILS Localizer we follow these steps:
     ![Activate APPR in ECAM PERF](../assets/beginner-guide/landing/ECAM_PERF_activate_APPR.png "Activate APPR in ECAM PERF"){width=360}
 
 - Set `SPEED` to `Managed Speed Mode` (push the `Speed Selector`). The aircraft should now decelerate to `green dot` speed.
-- Set `FLAPS` to 1 at about V~FE~ -15 knots (but never before speed is below V~FE~) for the first slat/flap configuration (`CONF1`). The aircraft will then decelerate further to prepare for the next flaps configuration.
+- Set `FLAPS` to 1 at about V~FE~ -15 knots (but never before speed is below V~FE~) for the first slat/flap configuration (`CONF1`). The aircraft will then decelerate further to prepare for the next flaps configuration. Our target is to be CONF 1 at S speed by the time you get to the glideslope intercept.
 
     ![VFE for next configuration](../assets/beginner-guide/landing/PFD_Speedband_flaps_marker.png "VFE for next configuration")
 
@@ -109,7 +109,7 @@ This concludes *Intercepting the ILS Localizer*
 
 - Aircraft is in `APPR` phase
 - Aircraft is established on ILS localizer
-- Configuration is `FLAPS 1`
+- Configuration is `CONF1` at S-Speed (`FLAPS 1`)
 
 After ATC has given us clearance for ILS approach we can also start descending using the ILS glideslope.
 
@@ -124,7 +124,7 @@ The vertical `FMA` now shows `G/S` (glideslope) in blue.
 ![PFD FMA showing G/S armed](../assets/beginner-guide/landing/PFD_FMA_GS_armed.png "PFD FMA showing G/S armed"){width=360}
 
  This is a good time to set `Flaps 2` (check that the speed is below the V~FE~ for the next flap setting) as slowing down once we are descending along the glideslope can be difficult. We need the drag from the flaps if we do not want to let the gear down too early (which also would help us slowing down).<br/>
- There are different guidance when to set `FLAPS 2` but as a beginner we recommend to go to `FLAPS 2` before starting the glideslope descent. Airbus guidance for example is during descent at about 2,000ft.
+ There is different guidance when to set `FLAPS 2` but for beginners we recommend to go to `FLAPS 2` before starting the glideslope descent. Airbus guidance for example is `FLAPS 2` during glideslope descent at about 2,000ft.
 
 !!!info "ATC instructed approach speed"
     The A320 `Autothrust` will manage speed during approach automatically and will reduce speed further with each flap setting. In real live and also when flying with Online ATC like VATSIM we need to expect that ATC instructs us to stay at a certain speed (e.g. 160 knots until 5 NM to the runway). In this case we would use `Selected Speed Mode` (select a speed in the `FCU` and pull the knob) until the instructed distance to the runway where we would then go back to `Managed Speed Mode` and drop the gear then as well as setting flaps to 3 and flaps to full - see below.
