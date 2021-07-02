@@ -1,34 +1,32 @@
-# Javascript 
+# Javascript
 
-## Intoduction
-
-[need some text]
+Please utilize the following information when developing for the A32NX to keep your javascript functions clean. 
 
 ## Tips and Tricks
 
 !!! info "Don't use eval"
     Just don't.
 
-Don't reassign function parameters
+### Don't reassign function parameters
 
-```js linenums="1"
+```js
 function foo(bar) {
   bar = 1; // no!
 }
 ```
 
-Don't add or remove properties from objects.
+### Don't add or remove properties from objects
 
-```js linenums="1"
+```js
 delete obj.x; // no!
 ```
 
-```js linenums="1"
+```js
 const obj = { y: 1 };
 obj.x = 2; // no!
 ```
 
-```js linenums="1"
+```js
 class X {
   constructor() {
     this.y = 1;
@@ -40,31 +38,34 @@ class X {
 }
 ```
 
-Use specific methods over generic loops where possible
+### Use specific methods over generic loops where possible
 
-```js linenums="1"
+Do not:
+```js
 // no!
 for (const item of array) {
   // ...
 }
-
+```
+Do:
+```js
 // yes!
 array.forEach((item) => {
 });
 ```
 
-Don't create arrays with holes.
+### Don't create arrays with holes
 
-```js linenums="1"
+```js
 // no!
 const array = new Array(5).fill(0);
 // yes!
 let array = Array.from({ length: 5 }, () => 0);
 ```
 
-Use strict equality
+### Use strict equality
 
-```js linenums="1"
+```js
 // no!
 a == b;
 // yes!
