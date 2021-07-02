@@ -22,6 +22,6 @@ Topics:
 
 [After Landing Steps](after-landing-steps.md)
 
-[Powering Down]
+[Powering Down](powering-down.md)
 
 [Glossary of Definitions]
