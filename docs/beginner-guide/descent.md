@@ -119,7 +119,7 @@ This guide will cover these phases:
 **Example chart:**
 
 ![STAR EGKK TEBRA](../assets/beginner-guide/descent/STAR_EGKK_TEBRA.png "STAR EGKK TEBRA")<br/>
-*Copyright © 2021 Navigraph / Jeppesen<br/>
+<sub>*Copyright © 2021 Navigraph / Jeppesen<br/>
 "Navigraph Charts are intended for flight simulation use only, not for navigational use."*
 
 **Using the FlyPad:**
@@ -181,7 +181,7 @@ From the chart we get `TRANS ALT` and `BARO` (=MDA) or `RADIO` (=DH).
 
 ![Transition alt on chart](../assets/beginner-guide/descent/EGKK_APPR_chart_1.png "Transistion alt on chart")<br/>
 ![ILS information on chart](../assets/beginner-guide/descent/EGKK_APPR_chart_2.png "ILS information on chart")<br/>
-*Copyright © 2021 Navigraph / Jeppesen*
+<sub>*Copyright © 2021 Navigraph / Jeppesen*
 
 The A320neo is capable of a CAT IIIB ILS approach and has an approach category of "C" - see the red area on the chart. (see [Wikipedia Aircraft approach category](https://en.wikipedia.org/wiki/Aircraft_approach_category)
 
@@ -284,7 +284,7 @@ Be prepared for ATC instructions to deviate laterally from the STAR or Approach 
 ROKIL STAR/Transition EDDM (Munich) 26R - it is only in times with a lot of traffic that we would have to fly the whole downwind part of this transition.
 
 ![EDDM transition until vectored](../assets/beginner-guide/descent/EDDM_TRANS_chart.png "EDDM transition until vectored")<br/>
-*Copyright © 2021 Navigraph / Jeppesen<br/>
+<sub>*Copyright © 2021 Navigraph / Jeppesen<br/>
 "Navigraph Charts are intended for flight simulation use only, not for navigational use."*
 
 ---
@@ -303,7 +303,7 @@ To intercept the ILS we need to be on the correct altitude and should not have a
 
 ![EDDM ILS 26R chart](../assets/beginner-guide/descent/EDDM_ILS_26R_chart.png "EDDM ILS 26R chart")<br>
 ![EDDM ILS 26R GS  chart](../assets/beginner-guide/descent/EDDM_ILS_26R_GS_chart.png "EDDM ILS 26R GS  chart")<br/>
-*Copyright © 2021 Navigraph / Jeppesen<br/>
+<sub>*Copyright © 2021 Navigraph / Jeppesen<br/>
 "Navigraph Charts are intended for flight simulation use only, not for navigational use."*
 
 More details regarding the ILS approach and landing in the next chapter.
