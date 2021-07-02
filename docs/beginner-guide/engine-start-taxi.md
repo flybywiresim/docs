@@ -28,23 +28,38 @@ There are several options available to you in MSFS to achieve a successful pushb
 - MSFS built in ATC pushback controls
 - Third party pushback addons
 
-For the purposes of this guide we will use the default MSFS built in ATC.
+### Pushback Clearance
+
+For this guide we will assume you are parked at gate 10 at EGFF (Cardiff). When you are ready to begin pushback, you should contact ground ATC and inform then you are ready for push and start. If you are on a network such as VATSIM, a typical response from ground would give you clearance for your request and a direction to face (or any direction). At EGFF you could expect the following push and start clearance from ground: 
+
+"** Your Aircraft Callsign**, ground. You are clear to push and start onto Alpha 3 facing east."
+
+At this point you may begin your pushback away from the terminal onto the taxiway Alpha 3.  
+
+![parking stands](../assets/beginner-guide/taxi/parking-stands-guidelines.png)
+<sub>Copyright © 2021 Navigraph / Jeppesen<br>
+"Navigraph Charts are intended for flight simulation use only, not for navigational use."
+
+---
+
+### How to Use MSFS Pushback
+
+For the purposes of this guide we will use the default MSFS pushback controls built into ATC.
 
 1. Open the ATC menu using the toolbar at the top of your screen. 
    ![atc toolbar](../assets/beginner-guide/taxi/toolbar.png)
 2. Locate `GROUND SERVICES` and select it.
 3. Select `REQUEST PUSHBACK`.
     - You should hear your virtual pilot request pushback and ATC respond confirming. At this time the pushback tug should slowly make its way to your nose wheel. 
-    - You will notice a slight "jerk" as it connects with your nose wheel. Verify NWS STRG DISC is listed on the ECAM memos.
+    - You will notice a slight "jerk" as it connects with your nose wheel. Verify `NWS STRG DISC` is listed on the ECAM memos.
 4. Release your parking brake.
 5. In the ATC window use `REQUEST PUSHBACK STEER TO THE LEFT` OR `REQUEST PUSHBACK STEER TO THE RIGHT` to turn the aircraft.
+6. Select `REQUEST PUSHBACK STOP` to end pushback when you are satisfied with your position on the taxiway.
     
 !!! info "Steering Commands"
     Please note when selecting other option this will "steer" the tail towards the specified direction. 
 
     For example, if your external camera is directly behind the aircraft and you request `STEER TO THE LEFT` the tail of your aircraft will be "steered" to the left. 
-
-6. Select `REQUEST PUSHBACK STOP` to end pushback when you are satisfied with your position on the taxiway.
 
 ---
 
@@ -152,6 +167,8 @@ Move your rudders and pay attention to the rudder symbol to ensure it moves all 
 
 ![fctl](../assets/beginner-guide/taxi/f-ctl.png)
 
+---
+
 ## Taxi
 
 !!! info "Taxi Speed + Engine Thrust"
@@ -171,7 +188,19 @@ For additional information on signs and markings on the ground please see [Gener
     - Taxi clearance obtained
     - Lights set to the correct position (discussed earlier)
 
-Once you have your routing from ATC and have read back your taxi clearance you are now free to taxi to the runway. For this portion of the guide we will assume that you have pushed back onto a serviceable taxiway parallel to the terminal.
+After you have successfully started your engines you can contact ATC to request your taxi clearance. As per our routing in the (Preparing MCDU Guide)(#preparing-MCDU) we should be expecting a takeoff from runway 30. As such a sample taxi clearance may be as follows:
+
+"**Your Aircraft Callsign**, ground. Runway 30, taxi via Alpha, hold short of 30 on Alpha 2."
+
+Referencing the airport chart below, your aircraft should be sitting on the Alpha taxiway near the Alpha 3 holding point. Luckily today our clearance is quite simple and we only have to taxi straight ahead and hold at Alpha 2.
+
+![airport chart](../assets/beginner-guide/taxi/airport-chart-guidelines.png)
+<sub>Copyright © 2021 Navigraph / Jeppesen<br>
+"Navigraph Charts are intended for flight simulation use only, not for navigational use."
+
+Make sure to pay attention to any warnings or notices on your respective taxi chart beforehand so you are aware of any important information while performing your taxi.
+
+Once you have your routing from ATC and have read back your taxi clearance you are now free to taxi to the runway. 
 
 - Verify the ground crew is safely away.
 - Look to your left and right to ensure clearance from other aircraft or vehicles.
