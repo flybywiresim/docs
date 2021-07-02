@@ -68,7 +68,7 @@ If we want to actually do a turn around and start a new flight directly the proc
 
 - Turn on `APU BLEED` before we turn off the engines
 
-    ![APU BLEED ON](../assets/beginner-guide/powering-down/APU_BLEED_on.png "APU BLEED ON"){width=160}
+    ![APU BLEED ON](../assets/beginner-guide/powering-down/APU_BLEED_on.png "APU BLEED ON"){width=120}
 
 - Shut down the engines by setting the `ENG 1` and `ENG 2` master switches to off.
 
@@ -82,13 +82,9 @@ If we want to actually do a turn around and start a new flight directly the proc
 
     ![Seat Belt Sign off](../assets/beginner-guide/powering-down/Seatbelt_off.png "Seat Belt Sign off"){width=120}
 
-- Turn off all external lights: `BEACON`, `NAV & LOGO`, `STROBE`
+- Turn off `BEACON` (leave `NAV & LOGO` on as long as the aircraft has power from external or APU, `STROBES` can remain on AUTO)
 
-    ![All external lights off](../assets/beginner-guide/powering-down/All_Ext_LT_off.png "All external lights off"){width=320}
-
-- Turn off all fuel pumps
-
-    ![Fuel pumps off](../assets/beginner-guide/powering-down/FUEL_PUMS_off.png "Fuel pumps off"){width=480}
+    ![All_Ext_LT_off](../assets/beginner-guide/powering-down/Beacon_off.png){width=120}
 
 - Complete **Parking** checklist.
 
@@ -132,6 +128,10 @@ This concludes *Disembarking passengers and baggage*.
 
 **To secure the aircraft we follow these steps: **
 
+- Turn off all fuel pumps
+
+    ![Fuel pumps off](../assets/beginner-guide/powering-down/FUEL_PUMS_off.png "Fuel pumps off"){width=480}
+
 - Turn off the `ADIRS`
 
     ![ADIRS OFF](../assets/beginner-guide/powering-down/ADIRS.png "ADIRS OFF"){width=320}
@@ -142,7 +142,7 @@ This concludes *Disembarking passengers and baggage*.
 
 - Turn off `APU BLEED`
 
-    ![APU BLEED OFF](../assets/beginner-guide/powering-down/APU_BLEED_off.png "APU BLEED OFF"){width=160}
+    ![APU BLEED OFF](../assets/beginner-guide/powering-down/APU_BLEED_off.png "APU BLEED OFF"){width=120}
 
 - Turn off emergency exit lights `EMER EXIT LT` and no smoking lights `NO SMOKING`
 
@@ -153,11 +153,16 @@ This concludes *Disembarking passengers and baggage*.
 
     ![APU Master off](../assets/beginner-guide/powering-down/APU_Master_off.png "APU Master off"){width=120}
 
+- Wait 2 minutes for the APU FLAP door to close before you turn off power as this needs either APU or external power.
 - Turn off `EXT PWR` if it has been turned on before
 
     ![External Power off](../assets/beginner-guide/powering-down/EXT_PWR_off.png "External Power off"){width=120}
 
-- Turn off `BAT 1` and `BAT 2` (some airlines require to wait 2 minutes before turing off batteries after the APU has been turned off)
+- Turn of `NAV & LOGO` lights (as aircraft no longer has power)
+
+    ![NAV & LOGO off](../assets/beginner-guide/powering-down/NAV_off_1.png "NAV & LOGO off"){width=120}
+
+- Turn off `BAT 1` and `BAT 2`
 
     ![Batteries off](../assets/beginner-guide/powering-down/BAT_off.png "Batteries off"){width=320}
 
