@@ -14,6 +14,9 @@
     background: var(--md-primary-fg-color--dark);
     overflow: visible;
 }
+.md-tabs {
+  background: #3D6575
+}
 
 /*Header Modifications*/
 .md-typeset h1 {
