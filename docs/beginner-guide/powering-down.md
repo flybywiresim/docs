@@ -38,7 +38,7 @@ This guide will cover these phases:
 ## Preface
 Shutting down and securing an aircraft is an important part of the overall procedure. Obviously less important in a simulator as the next flight will have the aircraft start in a cold and dark state again.
 
-If we want to actually do a turn around and start a new flight directly the procedure will be different as we would not turn of certain systems and at some point simply start with the preparation of the aircraft procedure again. We will add notes to the steps what to do in case of a turn around.
+If we want to actually do a turn around and start a new flight directly the procedure will be a little different as we would not turn of certain systems and at some point simply start with the preparation of the aircraft procedure again.
 
 ## Parking at the Gate
 
@@ -148,7 +148,7 @@ This concludes *Disembarking passengers and baggage*.
 
     ![Signs off](../assets/beginner-guide/mcdu/SIGNS_Off.png "Signs off"){width=320}
 
-- Optional or depending on airline SOPs: Reset A/C, lighting and screen brightness
+- Optional or depending on airline SOPs: Reset air conditioning, lighting and screen brightness
 - Turn off `APU MASTER` (expect the APU to still be AVAIL for a few minutes)
 
     ![APU Master off](../assets/beginner-guide/mcdu/APU_Master_off.png "APU Master off"){width=120}
@@ -159,7 +159,7 @@ This concludes *Disembarking passengers and baggage*.
 
 - Turn off `BAT 1` and `BAT 2` (some airlines require to wait 2 minutes before turing off batteries after the APU has been turned off)
 
-    ![BAT off](../assets/beginner-guide/mcdu/BAT_off.png "BAT off"){width=320}
+    ![Batteries off](../assets/beginner-guide/mcdu/BAT_off.png "Batteries off"){width=320}
 
 Now the aircraft is back in a cold and dark state.
 
