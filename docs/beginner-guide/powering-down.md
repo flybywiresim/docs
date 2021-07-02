@@ -51,19 +51,46 @@ If we want to actually do a turn around and start a new flight directly the proc
 - `APU` has been turned on during taxi and is `AVAIL`, `APU BLEED` is off.
 - **After Landing** checklist is completed
 
-Steps after arriving at the gate:
+
+**At the gate:**
+
+![EDDM at gate](../assets/beginner-guide/mcdu/EDDM_at_gate.png "EDDM at gate")
+
+**Steps after arriving at the gate:**
 
 - Set parking break (`PARK BRK`)
-- `NOSE TAXI` and `RWY TURN OFF` lights are usually turned off even before we turn into the gate to not blind the ground personnel. This of course is only done if enough lighting is available to safely park into the gate. Turn the, off if not done so before.
-- Turn on `APU BLEED` before we turn off the engines
-- Shut down the engines by setting the `ENG 1` and `ENG 2` master switches to off.
-- Wait until N2 is below 5% (<== TODO check this)
-- Turn off `Seat Belt` sign
-- Turn off all external lights: `BEACON`, `NAV & LOGO`, `STROBE`
-- Turn off all fuel pumps
-- Complete **Parking** checklist.
 
-(TODO: add images)
+    ![Parking Brake](../assets/beginner-guide/mcdu/Parking_Brake.png "Parking Brake"){width=160}
+
+- `NOSE TAXI` and `RWY TURN OFF` lights are usually turned off even before we turn into the gate to not blind the ground personnel. This of course is only done if enough lighting is available to safely park into the gate. Turn the, off if not done so before.
+
+    ![Taxilights off](../assets/beginner-guide/mcdu/Lights_Taxi_off.png "Taxilights off"){width=320}
+
+- Turn on `APU BLEED` before we turn off the engines
+
+    ![APU BLEED ON](../assets/beginner-guide/mcdu/APU_BLEED_on.png "APU BLEED ON"){width=160}
+
+- Shut down the engines by setting the `ENG 1` and `ENG 2` master switches to off.
+
+    ![Engines off](../assets/beginner-guide/mcdu/ENG_off.png "Engines off"){width=320}
+
+- Wait until `N1` is below 5% (<== TODO check this)
+
+    ![Engines N1 under 5%](../assets/beginner-guide/mcdu/ENG_N1_u5.png "Engines N1 under 5%"){width=320}
+
+- Turn off `Seat Belt` sign
+
+    ![Seat Belt Sign off](../assets/beginner-guide/mcdu/Seatbelt_off.png "Seat Belt Sign off"){width=120}
+
+- Turn off all external lights: `BEACON`, `NAV & LOGO`, `STROBE`
+
+    ![All external lights off](../assets/beginner-guide/mcdu/All_Ext_LT_off.png "All external lights off"){width=320}
+
+- Turn off all fuel pumps
+
+    ![Fuel pumps off](../assets/beginner-guide/mcdu/FUEL_PUMS_off.png "Fuel pumps off"){width=480}
+
+- Complete **Parking** checklist.
 
 If external power is available the ground crew would have connected it by now and we can turn on `EXT PWR`. If we would turn off the APU depends on the turn around time. For a shutdown we do this after the passengers have disembarked to still have airflow in the cabin. See last chapter.
 
@@ -82,10 +109,10 @@ In the simulator though we would have to trigger them by ourselves. For this we 
 Taking care of passengers and luggage with the FlyByWire FlyPad:
 
 - Go to the FlyPad (view can be activated by `Ctrl+0`)
-- Connect the jetway
-- Call cargo/baggage
+- Connect the jetway (PAX)
+- Call cargo/baggage (Baggage)
 
-(TODO: add images)
+![FlyPad Ground page](../assets/beginner-guide/mcdu/FlyPad_Ground.png "FlyPad Ground page")
 
 Obviously this would take a while in real life and we would not be able to shut down the aircraft before everybody is disembarked.
 
@@ -103,18 +130,36 @@ This concludes *Disembarking passengers and baggage*.
 - Aircraft is empty (no passengers or cargo)
 - Cabin is cleaned and ready for shutdown
 
-To secure the aircraft we follow these steps:
+**To secure the aircraft we follow these steps: **
 
 - Turn off the `ADIRS`
-- Turn off `OXYGEN`
-- Turn off `APU BLEED`
-- Turn off emergency exit lights `EMER EXIT LT`
-- Turn off cabin sign: `NO SMOKING`
-- Optional or depending on airline SOPs: Reset A/C, lighting and screen brightness
-- Turn off `APU MASTER`
-- Turn off `BAT 1` and `BAT 2` (some airlines require to wait 2 minutes before turing off batteries after the APU has been shut down)
 
-(TODO: add images)
+    ![ADIRS OFF](../assets/beginner-guide/mcdu/ADIRS.png "ADIRS OFF"){width=320}
+
+- Turn off `OXYGEN`
+
+    ![OXYGEN Crew Supply off](../assets/beginner-guide/mcdu/OXYGEN_Crew_Supply.png "OXYGEN Crew Supply off"){width=120}
+
+- Turn off `APU BLEED`
+
+    ![APU BLEED OFF](../assets/beginner-guide/mcdu/APU_BLEED_off.png "APU BLEED OFF"){width=160}
+
+- Turn off emergency exit lights `EMER EXIT LT` and no smoking lights `NO SMOKING`
+
+    ![Signs off](../assets/beginner-guide/mcdu/SIGNS_Off.png "Signs off"){width=320}
+
+- Optional or depending on airline SOPs: Reset A/C, lighting and screen brightness
+- Turn off `APU MASTER` (expect the APU to still be AVAIL for a few minutes)
+
+    ![APU Master off](../assets/beginner-guide/mcdu/APU_Master_off.png "APU Master off"){width=120}
+
+- Turn off `EXT PWR` if it has been turned on before
+
+    ![External Power off](../assets/beginner-guide/mcdu/EXT_PWR_off.png "External Power off"){width=120}
+
+- Turn off `BAT 1` and `BAT 2` (some airlines require to wait 2 minutes before turing off batteries after the APU has been turned off)
+
+    ![BAT off](../assets/beginner-guide/mcdu/BAT_off.png "BAT off"){width=320}
 
 Now the aircraft is back in a cold and dark state.
 
