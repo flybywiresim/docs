@@ -34,6 +34,15 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
     - [**Main Page**](autopilot-fbw.md)
     - [**Typical Issues + Solutions**](autopilot-fbw.md#typical-issues-and-how-to-solve-them)
     - [**Known Issues**](autopilot-fbw.md#known-issues)
+
+* Toolbar pushback addon may cause unwanted behavior and prevent use of nose wheel steering. 
+    - Solution:
+        - Remove the addon from your community folder or wait for developer to update. 
+        - Use our EFB which has built in pushback controls or another addon. 
+    
+* Custom autopilot unexplained disconnection. 
+    - There seems to be a speed decay issue in certain situations during turns and CONF2. Does not occur in level flight. 
+    - *Currently under investigation.*
     
 * Autopilot, FADEC, electrical system unwanted behavior
     - In rare cases the above mentioned systems may not start or behave erratically. This is in part due to `UTF-8` language support beta not enabled on your machine.
