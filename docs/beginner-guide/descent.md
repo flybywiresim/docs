@@ -59,19 +59,19 @@ This guide will cover these phases:
 
     When flying with Online ATC (VATSIM, IVAO, PilotEdge, ...) expect being vectored to the FAF quite often.
 
-    Find a commented ILS approach chart here: [Approach Chart](../airliner-flying-guide/navigation.md#chart-sample-1)
+    Understand important ILS approach chart features here: [Approach Chart](../airliner-flying-guide/navigation.md#chart-sample-1)
 
 - __ILS__<br/>
   The Instrument Landing System (ILS) is one of several modern forms of helping an aircraft during its final approach to land even in non-optimal weather situations. ILS uses a localizer for lateral guidance and a glideslope for vertical guidance from the Final Approach Fix down to a minimum at which the pilot needs to perform the final landing sequence visually.
 
     Modern airlines like the A320 are even able to use the ILS to land fully automatically as long as the runway's ILS supports it.
 
-    Find a commented ILS approach chart here: [Approach Chart](../airliner-flying-guide/navigation.md#chart-sample-1)
+    Understand important ILS approach chart features here: [Approach Chart](../airliner-flying-guide/navigation.md#chart-sample-1)
 
 !!! info "Microsoft Flight Simulator and navigation charts"
     Although Microsoft Flight Simulator allows some flight planning through the user interface it is highly recommended to use navigational charts when flying airliners. MSFS' flight planning does not provide sufficient information to correctly fly a STAR or an approach.
 
-    There are several good sources for charts - free or subscription based. A good free solution is [Chartfox](https://chartfox.org/) which only requires a free VATSIM account. One of the most known subscription based sources for charts is [Navigraph](https://navigraph.com/home). It is planned to integrate both solutions into the FlyByWire A32NX FlyPad in the future.
+    There are several good sources for charts - free or subscription based. A good free solution is [Chartfox](https://chartfox.org/) which only requires a free VATSIM account. One of the most known subscription based sources for charts is [Navigraph](https://navigraph.com/home). It is planned to integrate both solutions into the FlyByWire A32NX flyPad in the future.
 
     Also, often a simple internet search will do the trick: Search for "&lt;airport icao code&gt; charts": E.g., "EDDM charts"
 
@@ -80,7 +80,7 @@ This guide will cover these phases:
 ### 1. Descent and Approach Planning
 
 !!! warning "Pilot's responsibility"
-    It is the sole responsibility of the pilot to conduct proper flight planning and especially proper descent planning. It is not at all ATC's task to do descent planning for pilots by giving descent instructions. On the other hand ATC often actually gives descent instructions, especially on common routes, as they want the aircraft in their responsibility to be at certain altitudes when approaching the destination airport. Nevertheless  pilots must know when to descent the latest and if necessary need to pro-actively request clearance to descent from ATC.
+    It is the sole responsibility of the pilot to conduct proper flight planning and especially proper descent planning. It is not at all ATC's task to do descent planning for pilots by giving descent instructions. On the other hand ATC often actually gives descent instructions, especially on common routes, as they want the aircraft in their responsibility to be at certain altitudes when approaching the destination airport. Nevertheless pilots must know when approaching their top of decent and if necessary need to pro-actively request clearance to descend from ATC.
 
     Good descent and approach planning is the foundation for a successful landing. It has to be done early during the flight or even before the flight.
 
@@ -91,18 +91,18 @@ This guide will cover these phases:
 
 #### Important data points for descent planning:
 
-- **Cruise Flight Level:** The higher we fly the earlier we need to start descending. Also for short flights a too high cruising altitude can make it impossible to actually descent to the destination airport in time. Therefore verify your flight plan if overall distance and flight level makes sense.
+- **Cruise Flight Level:** The higher we fly the earlier we need to start descending. Also for short flights a too high cruising altitude can make it impossible to actually descend to the destination airport in time. Therefore verify your flight plan if overall distance and flight level makes sense.
 - **Flight Plan Constraints:** STARs often have flight level (FL) or altitude constraints which we must adhere to. We must plan our descent so we can meet these altitude constraints even when they themselves are still far away from the destination airport.
 - **Speed**: STARs also regularly have speed constraints which we need to take into consideration as slowing down will cost time and is hard to do while descending. If we start our descent too late we might not be able to slow down in time as required by a constraint.
-- **Aircraft capability and passenger comfort:** Although not a big concern in the A320, general aircraft capabilities and passenger comfort also come into play. Descending with -4000ft/min is no fun for a passenger.
+- **Aircraft capability and passenger comfort:** Although not a big concern in the A320neo, general aircraft capabilities and passenger comfort also come into play. Descending with -4000ft/min is no fun for a passenger.
 
 #### Step by step guide for descent planning:
 
 1. Read the STAR chart and determine if there are altitude and/or speed constraints which we need to consider.
 2. Consider the STAR and APPR route as optional and do not count on them to be flown and available for descending. ATC might want to vector us to a different runway or at least shortcut our approach. But they won't be able to if we are still too high for the final approach.
 3. Determine the first constraint you need to meet. This could be a STAR waypoint with an altitude constraint, the Final Approach Fix altitude or even the airport (or runway) elevation itself.
-4. Calculate the required distance needed to descend to that waypoint with a standard descent angle of 3°. We can use the FlyByWire FlyPad in the cockpit or a simple rule of thumb calculation (details below).
-5. Use the MCDU PROG page's DIST function to read out the current distance to this waypoint. It is also possible to use the ECAM flight plan, maps or the NDs distance rings to help determining the current distance.
+4. Calculate the required distance needed to descend to that waypoint with a standard descent angle of 3°. We can use the FlyByWire flyPad in the cockpit or a simple rule of thumb calculation (details below).
+5. Use the MCDU PROG page's DIST function to read out the current distance to this waypoint. It is also possible to use the MCDU flight plan page, maps or the NDs distance rings to help determining the current distance.
 
     ![ECAM PROG page](../assets/beginner-guide/descent/ECAM_Progress_page.png "ECAM PROG page"){width=310 align=left}
 
@@ -122,7 +122,7 @@ This guide will cover these phases:
 <sub>*Copyright © 2021 Navigraph / Jeppesen<br/>
 "Navigraph Charts are intended for flight simulation use only, not for navigational use."*
 
-**Using the FlyPad:**
+**Using the flyPad:**
 
 Standard calculation with 3° descent path:
 ![Descent from FL320 to FL140](../assets/beginner-guide/descent/FlyPad_performance_TOD.png "Descent from FL320 to FL140")
@@ -151,7 +151,7 @@ ATC will quite often instruct certain altitudes within the STAR and APPR which d
 
 #### Advanced arrival planning
 
-!!! warning "Advanced arrival planning"
+!!! warning "Important Notice"
     The following is a more advanced process for planning our arrival. It is obviously important when we want to have a more realistic experience but in Microsoft Flight Simulator you can skip this part for now. <br/>
     Also this process is best done with an Online ATC service as the build-in MSFS ATC does not provide the necessary information at the right time.
 
@@ -195,9 +195,9 @@ We can in any case request the METAR weather information for the destination air
 
 ![MCDU ATSU AOC page - WX and ATIS](../assets/beginner-guide/descent/MCDU_ATSU_AOC_WX.png "MCDU ATSU AOC page - WX and ATIS")
 
-If we used Simbrief for flight planning we can also see METAR information on the FlyPad after importing the Simbrief plan to the FlyPad.
+If we used Simbrief for flight planning we can also see METAR information on the flyPad after importing the Simbrief plan to the flyPad.
 
-![FlyPad showing route, weather and map](../assets/beginner-guide/descent/FlyPad_Weather.png "FlyPad showing route, weather and map")
+![flyPad showing route, weather and map](../assets/beginner-guide/descent/FlyPad_Weather.png "flyPad showing route, weather and map")
 
 Once we have confirmed the destination runway and the destination data we are set for the approach and we can continue focus on the descent.
 
@@ -212,7 +212,7 @@ This concludes *Descent and Approach Planning*.
 - Aircraft is in `CRUISE` state and phase as per previous chapters
 - Descent and approach planning is done
 - First descent point (altitude at certain waypoint) is identified
-- Distance to descent point is calculated (= TOD - top of descent)
+- Distance to descent point is calculated, which is called TOD (top of descent)
 
 A few minutes before we reach our calculated descent point (TOD) we request clearance for descent from ATC if not already given a descent instruction before.
 
