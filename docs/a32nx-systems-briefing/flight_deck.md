@@ -1,3 +1,10 @@
+---
+hide:
+    - navigation
+    - toc
+---
+
+
 # Flight Deck Overview
 
 [![OVHD][ovhd_img]][ovhd_link]
@@ -8,7 +15,7 @@
 [![Glareshield][glare_img]][glare_link]
 
   [glare_link]: glareshield/glareshield.md
-  [glare_img]: ../assets/a32nx-systems-briefing/Glareshield.png "Glareshield"
+  [glare_img]: ../assets/a32nx-systems-briefing/Glareshield.png (Glareshield)
 
 
 

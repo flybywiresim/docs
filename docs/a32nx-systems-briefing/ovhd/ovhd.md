@@ -1,11 +1,17 @@
+---
+hide:
+    - navigation
+    - toc
+---
+
 # Overhead Panel
 
-![OVHDPanel](../../assets/a32nx-systems-briefing/OVHDPanel.png){usemap="#ovhd_map"}
+![OVHDPanel](../../assets/a32nx-systems-briefing/OVHDPanel.png){usemap="#ovhd_map" style="max-width:1188px;min-width:1188px;height=auto;"}
 
 <map name="ovhd_map">
-  <area alt="test2" shape="rect" coords="187,68,626,142" href="/a32nx-systems-briefing/ovhd/fire/">
-  <area alt="test3" shape="rect" coords="190,142,623,269" href="/a32nx-systems-briefing/ovhd/hyd/">
-  <area alt="test4" shape="rect" coords="189,269,624,369" href="/a32nx-systems-briefing/ovhd/fuel/">
+  <area shape="rect" coords="272,98,900,204" href="/a32nx-systems-briefing/ovhd/fire/">
+  <area shape="rect" coords="272,205,900,299" href="/a32nx-systems-briefing/ovhd/hyd/">
+  <area shape="rect" coords="272,300,900,388"  href="/a32nx-systems-briefing/ovhd/fuel/">
 </map>
 
 [Flight Deck](../flight_deck.md)
