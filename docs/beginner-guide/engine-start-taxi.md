@@ -136,11 +136,6 @@ Complete the after start flow:
 - PITCH TRIM - `Check`
 - RUDDER TRIM - `Zero`
 
-Configure your lights for taxi:
-
-- RWY TURN OFF - `Set to ON`
-- NOSE - `Set to Taxi`
-
 Perform the AFTER START checklist.
 
 ![after start checklist](../assets/beginner-guide/taxi/afterstart.png)
@@ -178,21 +173,15 @@ Move your rudders and pay attention to the rudder symbol to ensure it moves all 
 !!! info "Taxi Speed + Engine Thrust"
     The A32NX is perfectly capable taxiing with idle thrust and even gradually accelerate. In certain situations it may be required to provide some thrust to begin rolling. 
 
-    Standard behavior is to allow the aircraft to reach 30kts and apply brakes to 10kts. Repeat as necessary. 
-
-### Performing Taxi
+    Standard behavior is to allow the aircraft to reach 30kts and apply brakes to 10kts. Repeat as necessary.
 
 Having charts or diagrams of the airport you are currently in will help you navigate efficiently and safely. There are many resources and applications available online that are either free or paid which you can utilize. 
 
 For additional information on signs and markings on the ground please see [General Resources](#general-resources) below.
 
-!!! info "Before Moving the Aircraft"
-    Ensure the following has been accomplished before moving the aircraft:
+### Taxi Clearance
 
-    - Taxi clearance obtained
-    - Lights set to the correct position (discussed earlier)
-
-After you have successfully started your engines you can contact ATC to request your taxi clearance. As per our routing in the (Preparing MCDU Guide)(#preparing-MCDU) we should be expecting a takeoff from runway 30. As such a sample taxi clearance may be as follows:
+After you have successfully started your engines you can contact ATC to request your taxi clearance. As per our routing in the [Preparing MCDU Guide](preparing-mcdu.md) we should be expecting a takeoff from runway 30. As such a sample taxi clearance may be as follows:
 
 "**Your Aircraft Callsign**, ground. Runway 30, taxi via Alpha, hold short of 30 on Alpha 2."
 
@@ -204,46 +193,117 @@ Referencing the airport chart below, your aircraft should be sitting on the Alph
 
 Make sure to pay attention to any warnings or notices on your respective taxi chart beforehand so you are aware of any important information while performing your taxi.
 
-Once you have your routing from ATC and have read back your taxi clearance you are now free to taxi to the runway. 
+Once you have your routing from ATC and have read back your taxi clearance you are now free to taxi to the runway.
+
+### Moving the Aircraft
+
+Exterior Lights:
+
+- RWY TURN OFF - `Set to ON`
+- NOSE - `Set to Taxi`
+
+Before Moving Safety Check:
 
 - Verify the ground crew is safely away.
 - Look to your left and right to ensure clearance from other aircraft or vehicles.
 - Release your parking brake.
+- Brakes pressure - `Check at Zero`
 
 At this point the aircraft may start rolling. Depending on your weight you may need to add a little power to the engines to get going. Increase power to roughly ~25-30% N1. Be mindful that you are not blasting N1 towards or around the terminal.
 
 - Leave a bit of thrust on and perform a quick brake check to ensure hydraulics and brakes are fully functioning.
     - You don't need to come to a complete stop but merely check the brake pressure status when performing the brake check.
+- If an arc is shown above the brake temperature on the WHEEL SD page on your lower ecam, turn your brake fans on.
 
 If you need to perform a sharp turn immediately you may need more than ~25-30% N1 and should set your thrust accordingly. Try not to perform the brake check while in a turn as you don't want to come a complete stop while turning.
 
-While underway to the runway perform a pre-flight briefing/check:
+### During Taxi
 
-- Check your FMA modes are correct for departure. 
-- Perf page on the MCDU has the correct runway, V speeds, and performance factors.
-- Check your stop altitude (initial climb altitude).
-- Turn on the weather radar if required.
-- Set TCAS to TA/RA.
-- AUTO BRK - `Set to MAX`
+While underway to the runway during your taxi perform the following as part of your taxi flow:
+
+- Use the tiller (currently not implemented) or rudder pedals to steer the aircraft.
+- Perform a [flight controls check](#flight-controls-check) (if you haven't already).
+- Verify your ATC clearance for departure.
+  
+It is important to verify and confirm the information in your MCDU as you taxi. This is increasingly important if your ATC clearance changes enroute to the runway. 
+
+*In case of a runway or takeoff data change, perform the following:*
+
+#### ^^**Takeoff data/Conditions**^^
+
+- FINAL TAKEOFF DATA - `Confirm or Recompute`
+- FMS TAKEOFF DATA - `Check/Revise as RQRD`
+- REVISED FMS TAKEOFF DATA - `Crosscheck`
+- F-PLN (RUNWAY) - `Revise`
+- FLAPS lever - `As Appropriate` *Select takeoff position*
+- V1, VR, V2 - `Reinsert`
+- FLX TO temperature - `Reinsert`
+
+#### ^^**AFS/Flight Instruments**^^
+
+- F-PLN (SID, TRANS) - `Revise or Check`
+    - Check to ensure that your ATC clearance agrees with your flight plan if you are departing using NAV mode.  
+- INITIAL CLIMB SPEED AND SPEED LIMIT - `Modify or Check`
+- CLEARED ALTITUDE ON FCU - `Set`
+- HDG ON FCU - `If Required, Preset`
+    - If ATC requires you to fly a heading after takeoff preset the heading on the FCU. NAV mode will be disarmed and RWY TRK mode will keep the aircraft on the runway track.
+    
+This is your FCU (more details are provided in the [Takeoff Guide](takeoff-climb-cruise.md)):
+![FCU image](../assets/beginner-guide/takeoff-climb-cruise/FCU.png)
+
+- BOTH FD (*flight directors*) - `Check on`
+- PFD/ND - `Check`
+- TAKEOFF BRIEFING - `Confirm`
+- RADAR (if required) - `On`
+  
+    The current implementation of the weather radar in MSFS will show you precipitation on your route. Additional functions are unavailable at this time however you should set the Radar to Sys 1 if required for your departure. 
+  
+- PREDICTIVE WINDSHEAR SYSTEM - `Auto`
+   
+    Currently this only clears the warning on your ECAM and does not provide a function in the sim. You should perform this action regardless.
+
+The weather panel is located on the bottom left of the lower pedestal and looks like the following: 
+
+![weather panel](../assets/beginner-guide/takeoff-climb-cruise/Radar_small.png)
+
+- ATC code/mode - `Confirm/Set for Takeoff`
+- TERR ON ND - `As RQRD`
+- AUTO BRK MAX pb-sw - `On`
+
+!!! info "Getting Ready for Take off"
+    At this point in the guide you should have performed many of the essential flow items before you line up at the runway. The next guide [Take off, Climb, and Cruise](takeoff-climb-cruise.md) will instruct you on performing your final checks and before take off checklist. 
+
+**For additional information:** See the sections below for extended taxi information and visit the [General Resources Section](#general-resources) on this page to help you understand the different signs and elements found on the ground at an airport. 
+
+---
 
 #### Speed While Taxiing
 
 Pay attention to your ground speed (visible on the ND) while you taxi. This will provide you with your knots on the ground. 
 
-- Straight Line
-    - Anything up to 30kts is reasonable, but some airports may carry their own local restrictions that you should be mindful of. This is not an absolute rule and is usually typical SOP for airlines in a straight line.
-- 90° (Sharp) Turns
-    - A good speed would be around 10kts. This provides safety for the flight crew as they perform their safety demonstration/checks.
-- Regular Turns
-    - Around 15kts is an acceptable speed with a similar concept to providing safety as described above. 
+- **Straight Line**
+  
+    Anything up to 30kts is reasonable, but some airports may carry their own local restrictions that you should be mindful of. This is not an absolute rule and is usually typical SOP for airlines in a straight line.
+  
+- **90° (Sharp) Turns**
+  
+    A good speed would be around 10kts. This provides safety for the flight crew as they perform their safety demonstration/checks.
+  
+- **Regular Turns**
+  
+    Around 15kts is an acceptable speed with a similar concept to providing safety as described above. 
 
 #### Handy Tips While Taxiing
 
-- Maintaining Center Line
-    - You can use the grey vertical bar in between the PFD and ND as a reference point and keep the taxi line in between the two screens.  
-- Turning
-    - Using the same bar mentioned above try to "over steer" (keep the nose wheel slightly ahead of the line while you turn). This helps keep you centered while performing a turn.
-    - Slow down while turning!
+- **Maintaining Center Line**
+  
+    You can use the grey vertical bar in between the PFD and ND as a reference point and keep the taxi line in between the two screens.
+  
+- **Turning**
+  
+    Using the same bar mentioned above try to "over steer" (keep the nose wheel slightly ahead of the line while you turn). This helps keep you centered while performing a turn.
+  
+    Slow down while turning!
     
 #### Crossing a Runway
 
