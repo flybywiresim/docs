@@ -7,10 +7,10 @@ This guide will explain the correct procedures to fly a final approach and condu
     The level of detail in this guide is meant to get a FlyByWire A320neo
     beginner currently on approach to intercept the ILS and land the aircraft safely on the runway.
 
-    A *beginner* is defined as someone familiar with flying a GA aircraft 
-    or different types of airliners. Aviation terminology and know-how is 
+    A *beginner* is defined as someone familiar with flying a GA aircraft
+    or different types of airliners. Aviation terminology and know-how is
     a requirement to fly any airliner even in Microsoft Flight Simulator.
-    
+
     You will also find many great videos on YouTube on how to land the FlyByWire A32NX.<br/>
     Check out the FlyByWire YouTube Channel as well: [FlyByWire on YouTube](https://www.youtube.com/c/FlyByWireSimulations/playlists)
 
@@ -38,11 +38,11 @@ This guide will cover these phases:
 
 **Situation:**
 
-- Aircraft is in `DES` phase
-- Aircraft is setup for flight <10,000ft (`seat belt signs` on, `landing lights` on, etc.)
+- Aircraft is in `DES` phase.
+- Aircraft is setup for flight <10,000ft (`seat belt signs` on, `landing lights` on, etc.).
 - We are within the IAP (Instrument Approach) and either
-    - at the altitude and speed from the chart (Final Approach Fix altitude and 250 knots if there are no other speed restrictions on the chart)
-    - or we are at a heading vector, altitude and speed instructed by ATC
+    - at the altitude and speed from the chart (Final Approach Fix altitude and 250 knots if there are no other speed restrictions on the chart).
+    - or we are at a heading vector, altitude and speed instructed by ATC.
 
 At the end of the Instrument Approach (or by ATC vectoring) we will be on a path to the Final Approach Fix and/or a path to intercept the ILS localizer and eventually the ILS glideslope.
 
@@ -50,7 +50,7 @@ As a last instruction from ATC Approach we usually are instructed to contact Tow
 
 To intercept the ILS Localizer we follow these steps:
 
-- Verify that the correct ILS frequency is tuned in the `MCDU-RNAV` page. We find the correct frequency on the approach chart<br/>
+- Verify that the correct ILS frequency is tuned in the `MCDU-RNAV` page. We find the correct frequency on the approach chart.<br/>
 
     === "Check ILS frequency"
 
@@ -153,11 +153,11 @@ At this point we would prepare the aircraft for a possible missed approach and g
 To set us up for the final approach we do the following steps:
 
 - `Gear down`: Sometime between 2,500ft and 1,500ft , typically around 5-6NM from runway.
-- Turn on `RWY TURN OFF` lights and set `NOSE` light to `T.O`
+- Turn on `RWY TURN OFF` lights and set `NOSE` light to `T.O`.
 - Set `FLAPS 3` and shortly after `FLAPS FULL` (always check speed before setting flaps otherwise you might end up in an overspeed situation).
-- Going `FLAPS FULL` will reduce our speed to V~app~
-- Arm `Autobrakes` (`Low` when dry, `Med` in rain or snow or a short runway)
-- Arm `Speedbrake` by pulling up the `Speedbrake` lever (Speedbrake must be retracted to arm)
+- Going `FLAPS FULL` will reduce our speed to V~app~.
+- Arm `Autobrakes` (`Low` when dry, `Med` in rain or snow or a short runway).
+- Arm `Speedbrake` by pulling up the `Speedbrake` lever (Speedbrake must be retracted to arm).
 
 **We need to be fully setup and stable at 1,000ft above the ground.**
 
@@ -197,10 +197,10 @@ This concludes *Preparation and Checklist for Landing*
 
 **Situation:**
 
-- Aircraft is fully setup for landing as per previous chapters
-- Configuration is `FLAPS FULL`
-- Aircraft is at about 1,000ft above the ground
-- Wind is calm (no crosswind for this beginner guide)
+- Aircraft is fully setup for landing as per previous chapters.
+- Configuration is `FLAPS FULL`.
+- Aircraft is at about 1,000ft above the ground.
+- Wind is calm (no crosswind for this beginner guide).
 
 Although the A320 can do an automatic landing (**Autoland**) we will do  a manual landing as this is more common and also more fun.
 
@@ -279,8 +279,8 @@ This concludes *Landing*
 **Situation:**
 
 - Aircraft has landed and is still on the center line of the runway.
-- Speed is < 40 knots
-- Flaps are up
+- Speed is < 40 knots.
+- Flaps are up.
 
 We look for the next runway exit and slow down to about 15 knots before we start turning off the runway.
 
