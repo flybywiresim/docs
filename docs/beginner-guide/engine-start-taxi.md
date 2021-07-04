@@ -146,8 +146,8 @@ Perform the AFTER START checklist.
 
 Airlines may perform the flight controls check at different points depending on their SOP. Most notably the common instances are:
 
-- After completing the AFTER START checklist and before taxi. 
-- During taxi out. 
+- After completing the AFTER START checklist and before taxi.
+- During taxi out.
 
 ### Performing a Flight Controls Check
 
@@ -202,6 +202,8 @@ Exterior Lights:
 - RWY TURN OFF - `Set to ON`
 - NOSE - `Set to Taxi`
 
+![exterior lights](../assets/beginner-guide/after-landing-steps/After Landing-Taxi  Light .png)
+
 Before Moving Safety Check:
 
 - Verify the ground crew is safely away.
@@ -225,11 +227,11 @@ While underway to the runway during your taxi perform the following as part of y
 - Perform a [flight controls check](#flight-controls-check) (if you haven't already).
 - Verify your ATC clearance for departure.
   
-It is important to verify and confirm the information in your MCDU as you taxi. This is increasingly important if your ATC clearance changes enroute to the runway. 
-
-*In case of a runway or takeoff data change, perform the following:*
+It is important to verify and confirm the information in your MCDU as you taxi. This is increasingly important if your ATC clearance changes enroute to the runway.
 
 #### ^^**Takeoff data/Conditions**^^
+
+*In case of a runway or takeoff data change, perform the following:*
 
 - FINAL TAKEOFF DATA - `Confirm or Recompute`
 - FMS TAKEOFF DATA - `Check/Revise as RQRD`
@@ -241,6 +243,8 @@ It is important to verify and confirm the information in your MCDU as you taxi. 
 
 #### ^^**AFS/Flight Instruments**^^
 
+Perform the following:
+
 - F-PLN (SID, TRANS) - `Revise or Check`
     - Check to ensure that your ATC clearance agrees with your flight plan if you are departing using NAV mode.  
 - INITIAL CLIMB SPEED AND SPEED LIMIT - `Modify or Check`
@@ -248,7 +252,7 @@ It is important to verify and confirm the information in your MCDU as you taxi. 
 - HDG ON FCU - `If Required, Preset`
     - If ATC requires you to fly a heading after takeoff preset the heading on the FCU. NAV mode will be disarmed and RWY TRK mode will keep the aircraft on the runway track.
     
-This is your FCU (more details are provided in the [Takeoff Guide](takeoff-climb-cruise.md)):
+This is your FCU (more details are provided in the [Take off, Climb, and Cruise Guide](takeoff-climb-cruise.md)):
 ![FCU image](../assets/beginner-guide/takeoff-climb-cruise/FCU.png)
 
 - BOTH FD (*flight directors*) - `Check on`
@@ -269,6 +273,8 @@ The weather panel is located on the bottom left of the lower pedestal and looks 
 - ATC code/mode - `Confirm/Set for Takeoff`
 - TERR ON ND - `As RQRD`
 - AUTO BRK MAX pb-sw - `On`
+
+![auto brake](../assets/beginner-guide/taxi/auto-brk.png){: style="width:462px;height:350px;" }
 
 !!! info "Getting Ready for Take off"
     At this point in the guide you should have performed many of the essential flow items before you line up at the runway. The next guide [Take off, Climb, and Cruise](takeoff-climb-cruise.md) will instruct you on performing your final checks and before take off checklist. 
