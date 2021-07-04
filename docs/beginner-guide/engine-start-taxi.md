@@ -84,17 +84,19 @@ Start the chronometer above the ND to help you monitor the start up time of your
 
     ![NDlocation](../assets/beginner-guide/taxi/nd.png)
 
-Using the tabs below begin by starting engine 1. 
+**Differing airline SOP may have a different engine start order.**
 
-=== "Start Engine 1"
+For this guide will begin by starting engine 2.  
+
+=== "Start Engine 2"
     1. Set the `ENG` mode selector to `IGN/START`
         - You should hear the packs turn off.
         - The lower ECAM should automatically display the engine parameters screen. 
-    2. Set `ENG 1` Master to the ON position.
-        - Pay attention to your ECAMs and note your engine parameters as ENG 1 starts up. 
+    2. Set `ENG 2` Master to the ON position.
+        - Pay attention to your ECAMs and note your engine parameters as ENG 2 starts up. 
         - The engine should take roughly 1 minute to complete its start up sequence - use the chronometer you started earlier to time this.
     
-    Engine 1 will have successfully started when the following applies (at ISA sea level):
+    Engine 2 will have successfully started when the following applies (at ISA sea level):
 
     - N1 is at roughly 19%
     - N1 reported `AVAIL`  
@@ -102,12 +104,12 @@ Using the tabs below begin by starting engine 1.
     - EGT settles at about 520°C
     - FF is at roughly 290 kg/h
 
-=== "Start Engine 2"
-    1. Set `ENG 2` Master to the ON position.
-        - Pay attention to your ECAMs and note your engine parameters as ENG 2 starts up.
+=== "Start Engine 1"
+    1. Set `ENG 1` Master to the ON position.
+        - Pay attention to your ECAMs and note your engine parameters as ENG 1 starts up.
         - The engine should take roughly 1 minute to complete its start up sequence - use the chronometer you started earlier to time this.
 
-    Engine 2 will have successfully started when the following applies (at ISA sea level):
+    Engine 1 will have successfully started when the following applies (at ISA sea level):
 
     - N1 is at roughly 19%
     - N1 reported `AVAIL`  
@@ -124,6 +126,8 @@ Complete the after start flow:
 - Set the `ENG` mode selector to `NORM`
 - FLAPS - `Set`
     - As defined in the MCDU Preparation guide.
+    - Note: If taxiing in icing conditions with rain, slush or snow:
+        - Maintain the flaps retracted until the aircraft reaches the holding point of the takeoff run. This action prevents contamination of the slats/flaps mechanism.
 - GROUND SPOILERS - `Arm`
 - APU BLEED - `Set to OFF`
 - APU MASTER SW - `Set to OFF`
