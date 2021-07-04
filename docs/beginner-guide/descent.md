@@ -86,8 +86,8 @@ This guide will cover these phases:
 
 **Situation:**
 
-- Aircraft is in `CRUISE` state and phase as per previous chapters
-- Distance to destination is ~200NM (on a short flight start as early as possible and maybe even before the flight)
+- Aircraft is in `CRUISE` state and phase as per previous chapters.
+- Distance to destination is ~200NM (on a short flight start as early as possible and maybe even before the flight).
 
 #### Important data points for descent planning:
 
@@ -112,9 +112,9 @@ This guide will cover these phases:
 
 **Example data:**
 
-- Flight to EGKK via STAR TEBRA 2G
-- Flight level FL320
-- STAR constraint at waypoint ABTUM "at FL140"
+- Flight to EGKK via STAR TEBRA 2G.
+- Flight level FL320.
+- STAR constraint at waypoint ABTUM "at FL140".
 
 **Example chart:**
 
@@ -209,10 +209,10 @@ This concludes *Descent and Approach Planning*.
 
 **Situation:**
 
-- Aircraft is in `CRUISE` state and phase as per previous chapters
-- Descent and approach planning is done
-- First descent point (altitude at certain waypoint) is identified
-- Distance to descent point is calculated, which is called TOD (top of descent)
+- Aircraft is in `CRUISE` state and phase as per previous chapters.
+- Descent and approach planning is done.
+- First descent point (altitude at certain waypoint) is identified.
+- Distance to descent point is calculated, which is called TOD (top of descent).
 
 A few minutes before we reach our calculated descent point (TOD) we request clearance for descent from ATC if not already given a descent instruction before.
 
@@ -264,10 +264,10 @@ This concludes *Starting the Descent*.
 
 **Situation:**
 
-- Aircraft is in `DES` phase
-- Descent has started (we are after TOD)
-- We have not yet reached the first waypoint of the STAR
-- `MCDU PERF APPR` page is filled (beginner can skip this - see chapter [Advanced arrival planning](#advanced-arrival-planning))
+- Aircraft is in `DES` phase.
+- Descent has started (we are after TOD).
+- We have not yet reached the first waypoint of the STAR.
+- `MCDU PERF APPR` page is filled (beginner can skip this - see chapter [Advanced arrival planning](#advanced-arrival-planning)).
 
 Flying the STAR and Approach is very similar to any other part of the route within in the flight plan. Apart from descending and adhering to constraints the lateral flight path just follows the programmed route.<br/>
  Let the __Autopilot__ do this for you and just adjust altitude and speed according to the charts or the ATC instructions.
@@ -293,9 +293,9 @@ ROKIL STAR/Transition EDDM (Munich) 26R - it is only in times with a lot of traf
 
 **Situation:**
 
-- Aircraft is in `DES` phase
-- Aircraft is setup for flight <10,000ft (`seat belt signs` on, `landing lights` on, etc.)
-- We are either within the IAP (Instrument Approach) and at the correct altitude and speed or at a heading vector, altitude and speed instructed by ATC
+- Aircraft is in `DES` phase.
+- Aircraft is setup for flight <10,000ft (`seat belt signs` on, `landing lights` on, etc.).
+- We are either within the IAP (Instrument Approach) and at the correct altitude and speed or at a heading vector, altitude and speed instructed by ATC.
 
 At the end of the Instrument Approach (or by ATC vectoring) we will be on a path to the Final Approach Fix and/or intercepting the ILS localizer and eventually the ILS glidescope.
 
