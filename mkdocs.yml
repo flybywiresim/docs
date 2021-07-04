@@ -26,26 +26,9 @@ nav:
       - Navigation: airliner-flying-guide/navigation.md
       - Understanding Altitude References: airliner-flying-guide/altitude-refs.md
       - METARs/TAFs/ATIS: airliner-flying-guide/weather.md
-  - A32NX System Briefing for Pilots:
-      - Overview: a32nx-systems-briefing/overview.md
-      - General: a32nx-systems-briefing/overview.md
-      - Flight Deck Layout: a32nx-systems-briefing/overview.md
-      - Electrical System: a32nx-systems-briefing/overview.md
-      - Hydraulic System: a32nx-systems-briefing/overview.md
-      - Flight Controls: a32nx-systems-briefing/overview.md
-      - Landing Gear: a32nx-systems-briefing/overview.md
-      - Fuel System: a32nx-systems-briefing/overview.md
-      - Engine Controls: a32nx-systems-briefing/overview.md
-      - Auxiliary Power Unit: a32nx-systems-briefing/overview.md
-      - Automatic Flight System: a32nx-systems-briefing/overview.md
-      - Environmental Flight System: a32nx-systems-briefing/overview.md
-      - Electronic Instrument System: a32nx-systems-briefing/overview.md
-      - Radio Management and Communication: a32nx-systems-briefing/overview.md
-      - Maintenance Centralized Fault Display System: a32nx-systems-briefing/overview.md
-      - Fire Protection: a32nx-systems-briefing/overview.md
-      - Ice and Rain Protection: a32nx-systems-briefing/overview.md
-      - Oxygen: a32nx-systems-briefing/overview.md
-      - Information System: a32nx-systems-briefing/overview.md
+  - A32NX Briefing for Sim-Pilots:
+      - Overview: a32nx-briefing/overview.md
+      - Flight Deck Layout: a32nx-briefing/flight-deck.md
   - Development Projects:
       - Overview: development-projects/overview.md
       - Website: development-projects/website.md
