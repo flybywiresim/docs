@@ -6,8 +6,8 @@ This guide will explain the correct procedures to accomplish takeoff, climb and 
     The level of detail in this guide is meant to get a FlyByWire A320neo beginner safely up in the air and to cruise level under normal conditions while simplifying details which are not (yet) important for a beginner.
 
     A *beginner* is defined as someone familiar with flying a GA aircraft or different types of airliners. Aviation terminology and know-how is a requirement to fly any airliner even in Microsoft Flight Simulator.
-    
-    Further reading: [A320 Autoflight](https://www.smartcockpit.com/aircraft-ressources/A319-320-321-Autoflight.html)<br/> 
+
+    Further reading: [A320 Autoflight](https://www.smartcockpit.com/aircraft-ressources/A319-320-321-Autoflight.html)<br/>
     Also you will find many great videos on YouTube on how to fly the FlyByWire A32NX.<br/>
     Check out the FlyByWire YouTube Channel as well: [FlyByWire on YouTube](https://www.youtube.com/c/FlyByWireSimulations/playlists)
 
@@ -91,7 +91,7 @@ holding point the **"Before takeoff checklist"** needs to be completed.
     ![Before Takeoff Checklist](../assets/beginner-guide/takeoff-climb-cruise/BeforeTakeOffChecklist.png "Before Takeoff Checklist"){ align=right width=180 }
 
     The "Before Takeoff" checklist is divided into two parts:
-    
+
     - **"Down to the line"** (or "Above the line") means **before** "ATC Takeoff Clearance".
     - **"Below the line"** means **after** T.O. clearance (when lined up) but before starting the roll.
 
@@ -122,7 +122,7 @@ __*The following steps from TAXI setup need to be done and checked:*__
     - Set ALT RPTG to ON
 
 - Check COM frequency
-    - Tip: set the second frequency to the Departure frequency to be able to quickly change after takeoff
+    - Tip: set the standby frequency of `COM 1` to the Departure frequency to be able to quickly change after takeoff
 
 - Check ECAM - no blue writing should be visible for these:
 
@@ -142,7 +142,7 @@ __*The following steps from TAXI setup need to be done and checked:*__
     ![Radar panel](../assets/beginner-guide/takeoff-climb-cruise/Radar_small.png "Radar panel"){ align=right width=280}
 
     - Set Weather Radar to Sys 1 to show weather on ND<br/>
-    - Check if Predictive Windshear Alerts (PWS) is set to AUTO (should have been set to AUTO done during TAXI)
+    - Check if Predictive Windshear Alerts (PWS) is set to AUTO (should have been set to AUTO during TAXI)
 
 #### Entering runway
 Before we start rolling we visually check that no other aircraft is on final approach. We can also use TCAS on the ND to check for aircraft in the vicinity.
@@ -323,10 +323,10 @@ S-speed is signified with an S next to the speed band in the PFD.
 !!! info "Flaps during takeoff and climb"
     Depending on the start configuration there will be different markers next to the speedband in the PFD to show when to retract flaps:
 
-    - CONF-2 (Flaps position 2): At "F" and positive speed trend 
+    - CONF-2 (Flaps position 2): At "F" and positive speed trend
     - CONF-1+F (Flaps position 1): At "S" and positive speed trend
-    
-    We always retract flaps by only one step at a time. So when we took off with FLAPS 2 (CONF-2) we retract FLAPS at "F" to FLAPS 1. Then at "S" we retract them to FLAPS 0.  
+
+    We always retract flaps by only one step at a time. So when we took off with FLAPS 2 (CONF-2) we retract FLAPS at "F" to FLAPS 1. Then at "S" we retract them to FLAPS 0.
 
 ![Aircraft shortly before reaching S-speed](../assets/beginner-guide/takeoff-climb-cruise/S_speed.png "Aircraft shortly before reaching VS speed")
 
