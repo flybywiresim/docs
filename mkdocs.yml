@@ -84,6 +84,7 @@ extra:
 
 # Additional Markdown Extensions to use bundled icon sets
 markdown_extensions:
+  - meta # Add front matter to a document
   - admonition # Makes things pretty
   - pymdownx.superfences # Nestled code
   - attr_list # Add HTML attributes and CSS classes to Markdown elements
