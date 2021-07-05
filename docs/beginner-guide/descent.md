@@ -291,7 +291,7 @@ Flying the STAR and Approach is very similar to any other part of the route with
  Let the __Autopilot__ do this for you and just adjust altitude and speed according to the charts or the ATC instructions.
 
 !!! info "Passing 10,000ft"
-    If we are passing 10,000ft within the STAR remember the [At 10,000ft Procedure](#at-10000ft-procedure) procedure and the [Approach Checklist](#approach-checklist) from the previous chapter.
+    If we are passing 10,000ft within the STAR remember the [At 10,000ft Procedure](#at-10000ft-procedure) and the [Approach Checklist](#approach-checklist) from the previous chapter.
 
 At some point during the descent and when close enough to the airport we will be instructed by ATC to contact ATC Approach for the airport we are flying into.
 
