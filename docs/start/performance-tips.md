@@ -109,7 +109,7 @@ Make sure to press `Apply` to save these settings.
 
 ##Microsoft Flight Simulator
 
-These settings are ultimately up to you. It all depends on your hardware and weather you want higher FPS, or a better looking game. You will need to find a balance between performance and graphical quality for your specific hardware.
+These settings are ultimately up to you. It all depends on your hardware and whether you want higher FPS, or a better looking game. You will need to find a balance between performance and graphical quality for your specific hardware.
 
 You can use the built in settings presets (low, medium, high and ultra) to establish a baseline. Once you have found a preset you like, you can then start to change individual settings to further optimise your experience. We strongly encourage you to make a note of existing settings in case you wish to revert back to your previous settings for any reason.
 
