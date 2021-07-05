@@ -16,7 +16,7 @@ Topics:
 
 [Takeoff / Climb / Cruise](takeoff-climb-cruise.md)
 
-[Descent]
+[Descent Planning and Descent](descent.md#descent-planning-and-descent)
 
 [Approach and Landing (ILS)]
 
