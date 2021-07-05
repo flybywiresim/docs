@@ -59,7 +59,7 @@ To intercept the ILS Localizer we follow these steps:
         ![ILS frequency on ECAM RNAV page](../assets/beginner-guide/landing/ECAM_RNAV_page_ILS.png "ILS frequency on ECAM RNAV page"){align=right width=300}
 
 
-- Turn on the `ILS localizer and glideslope scales` with the `LS` button on the glareshield.
+- Turn on the `ILS localizer and glideslope scales` with the `LS` button on the glareshield if not already done before.
 
     === "Turn on ILS scales"
 
@@ -90,6 +90,9 @@ To intercept the ILS Localizer we follow these steps:
     ![Activate LOC mode on FCU](../assets/beginner-guide/landing/FCU_LOC.png "Activate LOC mode on FCU")
 
     ![ILS lateral deviation marker moving inwards](../assets/beginner-guide/landing/PFD_ILS_deviation_scale.png "ILS lateral deviation marker moving inwards")
+
+!!!info "LOC vs. APPR"
+    You could also already press `APPR` on the `FCU` as it does basically the same thing. But `APPR` also starts descending when it captures the glideslope and we do not have clearance for descent yet. Therefore using `LOC` for now ensures we do not accidentally descend without ATC clearance. .
 
 - When we are established on the ILS localizer (the lateral `FMA` shows `LOC` in green) we will contact Tower ATC and report that we are established on the ILS localizer (including call sign and runway).
 
