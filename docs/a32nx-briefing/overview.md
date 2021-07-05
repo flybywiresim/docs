@@ -2,7 +2,7 @@
 
 **For Simulation Use Only**
 
-This A320 System s Briefing shall give a good overview of most A320
+This A320 System s Briefing shall give a good overview of most A320neo
 systems for personal flight simulation with focus on Microsoft Flight
 Simulator and the FlyByWire A320neo aircraft mod.
 

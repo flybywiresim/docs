@@ -28,6 +28,9 @@ nav:
       - Navigation: airliner-flying-guide/navigation.md
       - Understanding Altitude References: airliner-flying-guide/altitude-refs.md
       - METARs/TAFs/ATIS: airliner-flying-guide/weather.md
+  - A32NX Briefing for Sim-Pilots:
+      - Overview: a32nx-briefing/overview.md
+      - Flight Deck Layout: a32nx-briefing/flight-deck.md
   - Development Projects:
       - Overview: development-projects/overview.md
       - Website: development-projects/website.md
