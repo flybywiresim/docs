@@ -85,20 +85,17 @@ To intercept the ILS Localizer we follow these steps:
 
     ![VFE for next configuration](../assets/beginner-guide/landing/PFD_Speedband_flaps_marker.png "VFE for next configuration")
 
-- Turn on `LOC` in the `FCU` to command the aircraft to intercept the ILS localizer. The aircraft will keep the current heading until the localizer is captured and guides the aircraft towards the runway. The `lateral ILS localizer scale` shows the `deviation marker` moving towards the middle of the `lateral deviation scale`. Also the lateral `FMA` shows `LOC` in blue (armed).
+- Turn on `APPR` in the `FCU` to command the aircraft to intercept the ILS localizer. The aircraft will keep the current heading until the localizer is captured and guides the aircraft towards the runway. The `lateral ILS localizer scale` shows the `deviation marker` moving towards the middle of the `lateral deviation scale`. Also the lateral `FMA` shows `LOC` in blue (armed).
 
-    ![Activate LOC mode on FCU](../assets/beginner-guide/landing/FCU_LOC.png "Activate LOC mode on FCU")
+    ![Activate LOC mode on FCU](../assets/beginner-guide/landing/FCU_ILS_APPR.png "Activate APPR mode on FCU")
 
     ![ILS lateral deviation marker moving inwards](../assets/beginner-guide/landing/PFD_ILS_deviation_scale.png "ILS lateral deviation marker moving inwards")
-
-!!!info "LOC vs. APPR"
-    You could also already press `APPR` on the `FCU` as it does basically the same thing. But `APPR` also starts descending when it captures the glideslope and we do not have clearance for descent yet. Therefore using `LOC` for now ensures we do not accidentally descend without ATC clearance. .
 
 - When we are established on the ILS localizer (the lateral `FMA` shows `LOC` in green) we will contact Tower ATC and report that we are established on the ILS localizer (including call sign and runway).
 
     ![Established on ILS localizer](../assets/beginner-guide/landing/PFD_ND_established.png "Established on ILS localizer")
 
-Tower ATC will the give us clearance for ILS approach for the target runway. This clears us to descend on the ILS glideslope.
+Tower ATC will then give us clearance for ILS approach for the target runway. This clears us to descend on the ILS glideslope.
 
 **Do not descent without explicit clearance from ATC.**
 
@@ -118,9 +115,7 @@ After ATC has given us clearance for ILS approach we can also start descending u
 
 ![PFD glideslope deviation marker](../assets/beginner-guide/landing/PFD_ILS_glideslope.png "PFD glideslope deviation marker"){width=360}
 
-Press the `APPR` button on the `FCU` to arm the ILS glideslope descent mode.
-
-![Activating APPR mode](../assets/beginner-guide/landing/FCU_ILS_APPR.png "Activating APPR mode")
+Check that the `APPR` button is activated on the `FCU` to arm the ILS glideslope descent mode.
 
 The vertical `FMA` now shows `G/S` (glideslope) in blue.
 
