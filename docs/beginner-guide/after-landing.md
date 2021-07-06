@@ -1,3 +1,55 @@
+# After landing and taxi to gate
+
+This guide will explain the correct procedures after we have landed and vacated the runway and then taxiing to the designated gate.
+
+!!! warning "Disclaimer"
+    The level of detail in this guide is meant to get a FlyByWire A320neo beginner from the runway to the designated destination gate.
+
+    A *beginner* is defined as someone familiar with flying a GA aircraft or different types of airliners. Aviation terminology and know-how is a requirement to fly any airliner even in Microsoft Flight Simulator.
+
+    Further reading: [A320 Autoflight](https://www.smartcockpit.com/aircraft-ressources/A319-320-321-Autoflight.html)<br/>
+    Also you will find many great videos on YouTube on how to fly the FlyByWire A32NX.<br/>
+    Check out the FlyByWire YouTube Channel as well: [FlyByWire on YouTube](https://www.youtube.com/c/FlyByWireSimulations/playlists)
+
+---
+
+## Pre-requisites
+
+Aircraft has vacated the runway completely and has been brought to a stop on the taxiway as per previous chapters.
+
+Download the [FlyByWire Checklist](../assets/FBW_A32NX_CHECKLIST.pdf) here.
+
+## Chapters / Phases
+
+This guide will cover these phases:
+
+1. After Landing
+2. Taxi to gate
+
+---
+
+### 1. After Landing
+
+**Situation:**
+
+-
+
+
+
+This concludes *After Landing*
+
+### 2. Taxi to Gate
+
+**Situation:**
+
+-
+
+
+This concludes *Taxi to Gate*
+
+
+
+
 ### Lower Pedestal
 
 The following actions should be performed on the lower pedestal
@@ -34,7 +86,7 @@ The following actions should be performed on the lower pedestal
 
 ### Overhead Panel + Center Instrument Panel
 
-The following actions should be performed on the overhead panel and the center instrument panel. Make note of the ECAMs when checking for brake temperature. 
+The following actions should be performed on the overhead panel and the center instrument panel. Make note of the ECAMs when checking for brake temperature.
 
 === "Overhead Panel"
 
