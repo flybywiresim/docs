@@ -737,7 +737,7 @@
 | SEAL           | Sealing                                             |
 | SEC            | Spoiler Elevator Computer                           |
 | SEC            | Secondary                                           |
-| SEC            | SECondary Computer                                  |
+| SEC            | Secondary Computer                                  |
 | SEG            | Segment                                             |
 | SEL            | Select, Selected, Selector, Selection               |
 | SELCAL         | Selective Calling System                            |
