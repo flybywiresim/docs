@@ -32,9 +32,65 @@ This guide will cover these phases:
 
 **Situation:**
 
--
+- Aircraft has vacated the runways completely and has come to a complete stop on the taxi way as per previous chapters.
+- Flaps and Speedbrake are still deployed.
+- ATC has been informed that we vacated the runway.
 
+As already stated in the last chapter in real live the A320 will have two pilots which can actually do things in parallel. Talking to ATC, taxing the aircraft and do the after landing tasks.
 
+In the simulation we are typically alone so it is absolutely ok to stop once we have fully vacated the runway and do these things one after the other.
+
+ATC Tower will usually hand us off to ATC Ground and they will give us taxi instructions for our destination gate. Write them down and read them back as usual but you don't have to move immediately unless ATC explicitly tells you to. Online ATC understand that after landing task do take some time.
+
+**Immediate steps after vacating the runway:**
+
+- Set your radio frequency to the one assigned by ATC.
+    - ATC is set in accordance with airport requirements.
+
+        ![Comm panel](../assets/beginner-guide/after-landing/landingLayer-3.png)
+
+- Disarm the `Speed Brake` lever (Ground Spoilers) by pushing down on the lever.
+
+- Set your `ENG MODE` selector to NORM in case you had set it to IGN/START before.
+
+    ![Eng knob](../assets/beginner-guide/after-landing/lgLayer-3.png)
+
+- Retract your `FLAPS` to 0.
+
+- Set your `TCAS` to STANDBY.
+
+    ![Tcas](../assets/beginner-guide/after-landing/landingLayer-4.png)
+
+- Set your `RADAR` to OFF.
+
+- Set your Predictive Windshear System (`PWS`) to OFF.
+
+    ![Radar](../assets/beginner-guide/after-landing/lgLayer-2.png)
+
+- Start your APU by clicking the APU master button then the APU start button.
+
+- Turn OFF your anti-ice if it is not required.
+
+- Set your exterior lights:
+    - Set your noise wheel light to TAXI
+    - Set Runway turn-offs ON
+    - Set your strobe lights to AUTO/OFF (If you are crossing runway keep them ON until you vacate the runway)
+    - For landing lights, you can choose to retract them or turn them off
+
+        ![After landing lights](../assets/beginner-guide/after-landing/After-landing-lights.png){width=320}
+
+- Turn the brake fan on if you get a hot brakes ECAM warning.
+
+    ![Hot Brakes](../assets/beginner-guide/after-landing/lgLayer-1.png)
+
+- Complete the **After Landing** checklist.
+    ```
+    FLAPS: RETRACTED
+    SPOILERS: DISARMED
+    APU: START
+    RADAR: OFF
+    PREDICTIVE WINDSHEAR SYSTEM: OFF        
+    ```
 
 This concludes *After Landing*
 
@@ -42,89 +98,35 @@ This concludes *After Landing*
 
 **Situation:**
 
--
+- Aircraft on taxiway directly after runway.
+- **After Landing** checklist is completed.
+- ATC Ground has given taxi instructions
 
+**Taxiing**
+
+Make sure to also read the Taxi section of the [Engine Start and Taxi](/engine-start-taxi/#taxi) chapter.
+
+Use your charts to follow the ATC taxi instructions to the designated gate.
+
+**Crossing a Runway**
+
+When approved to cross a runway (active or not) perform the following actions:
+
+- Look out the windows and visually ensure that there are no visible aircraft to your left and right.
+- Turn on extra lights to ensure your aircraft is visible when crossing:
+    - Strobe lights - `Set to ON`
+- Inform ATC you have vacated the runway if required.
+
+!!! warning
+    Never cross a runway without express permission from ATC and providing a read back of said instructions. Always ensure maximum safety when crossing.
+
+**Turning into the Gate**
+
+ When turning into the gate turn off your nose wheel light and your runway turn off lights to not blind the ground personnel. This of course is only done if enough lighting is available to safely park into the gate. Turn them off if they were used to assist in parking.
+
+![Taxi lights off](../assets/beginner-guide/after-landing/Lights_Taxi_off.png "Lights_Taxi_off.png")
 
 This concludes *Taxi to Gate*
 
 
 
-
-### Lower Pedestal
-
-The following actions should be performed on the lower pedestal
-
-=== "Left Side Lower Pedestal"
-
-    * Set your radio frequency to the one assigned by ATC
-
-        * ATC is set in accordance with airport requirements 
-        
-        ![Comm panel](../assets/beginner-guide/after-landing-steps/landingLayer-3.png)
-
-    * Disarm the spoilers by pushing down on the lever
-
-    * Set your ENG mode selector to NORM 
-        
-        ![Eng knob ](../assets/beginner-guide/after-landing-steps/lgLayer-3.png)
-
-=== "Right Side Lower Pedestal"
-
-    * Retract your flaps to ZERO
-
-    * Set your TCAS to STANDBY
-
-        ![Tcas](../assets/beginner-guide/after-landing-steps/landingLayer-4.png)
-
-    * Set your radar OFF
-
-    * Set your predictive windshear system OFF
-
-        ![Radar](../assets/beginner-guide/after-landing-steps/lgLayer-2.png)
-
----
-
-### Overhead Panel + Center Instrument Panel
-
-The following actions should be performed on the overhead panel and the center instrument panel. Make note of the ECAMs when checking for brake temperature.
-
-=== "Overhead Panel"
-
-    * Start your APU by clicking the APU master button then the APU start button
-
-    * Turn OFF your anti-ice if it is not required
-
-    Set your exterior lights:
-
-    * Set your noise wheel light to TAXI
-
-    * Set Runway turn-offs ON
-
-    * Set your strobe lights to AUTO/OFF
-        (If you are crossing runway keep them ON until you vacate the runway)
-
-    * For landing lights, you can choose to retract them or turn them off
-
-    Your lights should look like one of the following:
-
-    ^^**Lights Setup 1**^^
-
-    ![landing light positions](../assets/beginner-guide/after-landing-steps/After landing-Lights.png)
-
-    ^^**Lights Setup 2**^^
-
-    ![landing light positions2](../assets/beginner-guide/after-landing-steps/After Landing-Taxi  Light .png)
-
-=== "ECAM + Landing Gear Panel"
-
-    * Turn the brake fan on if you get a hot brakes ECAM warning
-
-    ![Hot Brakes](../assets/beginner-guide/after-landing-steps/lgLayer-1.png)
-
-=== "Turning Into Gate"
-
-    * When turning into the gate turn off your nose wheel light and your runway turn off lights
-
-    ![Taxi Light](../assets/beginner-guide/after-landing-steps/Beginner-guide-Taxi-Light.png)
-
-    Continue with the [Powering Down](#) steps
