@@ -25,3 +25,5 @@ Topics:
 [Powering Down](powering-down.md)
 
 [Glossary of Definitions]
+
+[Abbreviations](abbreviations.md)
