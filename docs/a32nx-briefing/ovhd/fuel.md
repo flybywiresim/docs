@@ -8,8 +8,6 @@ Back to [Flight Deck](../flight-deck.md)
 
 ![FUEL Control Panel](../../assets/a32nx-briefing/overhead-panel/Fuel-Panel.png "FUEL Control Panel")
 
-![FUEL Control Panel](../../assets/a32nx-briefing/overhead-panel/Fuel.png "FUEL Control Panel")
-
 ## Basic Layout
 
 Total Fuel Capacity:

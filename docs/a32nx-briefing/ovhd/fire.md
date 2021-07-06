@@ -8,8 +8,6 @@ Back to [Flight Deck](../flight-deck.md)
 
 ![Fire Control Panel]( ../../assets/a32nx-briefing/overhead-panel/Fire-Control-Panel.png "Fire Control Panel")
 
-![Fire Control Panel](../../assets/a32nx-briefing/overhead-panel/Fire-control.png "Fire Control Panel")
-
 ## Description
 
 A fire and overheat detection and extinguishing system is installed for:
