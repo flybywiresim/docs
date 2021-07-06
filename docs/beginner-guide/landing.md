@@ -91,6 +91,11 @@ To intercept the ILS Localizer we follow these steps:
 
     ![ILS lateral deviation marker moving inwards](../assets/beginner-guide/landing/PFD_ILS_deviation_scale.png "ILS lateral deviation marker moving inwards")
 
+!!! warning "Arming APPR"
+    Using `APPR` also arms the glideslope descent (G/S) and the aircraft will descend as soon as it captures the ILS glideslope signal.
+    Do not descend without ATC clearance and only when directly on the ILS localizer path as only then obstacle clearance is guaranteed.
+    To help with this you can use the `LOC` button first (only localizer capture) and when cleared and on localizer press `APPR`
+
 - When we are established on the ILS localizer (the lateral `FMA` shows `LOC` in green) we will contact Tower ATC and report that we are established on the ILS localizer (including call sign and runway).
 
     ![Established on ILS localizer](../assets/beginner-guide/landing/PFD_ND_established.png "Established on ILS localizer")
@@ -266,8 +271,6 @@ The upper ECAM should now show the engines in reverse mode (`REV`) and
 
 At about 60knots we put the thrust levers back to idle and at about 40 knots we release the `Autobrakes` by braking manually which deactivates the `Autobrake`.
 
-We retract the flaps and focus on the next possible runway exit.
-
 This concludes *Landing*
 
 ---
@@ -278,7 +281,6 @@ This concludes *Landing*
 
 - Aircraft has landed and is still on the center line of the runway.
 - Speed is < 40 knots.
-- Flaps are up.
 
 We look for the next runway exit and slow down to about 15 knots before we start turning off the runway.
 
