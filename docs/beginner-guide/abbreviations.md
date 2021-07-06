@@ -36,7 +36,7 @@
 | S                  | Minimum speed at which the slats may be retracted at takeoff. Also the minimum speed in approach when in CONF 1.                                                                                                   |
 | O                  | Green dot speed, engine-out operating speed with flaps up, best lift-to-drag ratio speed, also corresponds to final takeoff speed.                                                                                 |
 
-# Abbreviations
+## Abbreviations
 
 | Abbreviation   | Term                                                |
 |:---------------|:----------------------------------------------------|
