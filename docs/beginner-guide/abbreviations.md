@@ -530,7 +530,7 @@
 | MEA            | Minimum En Route IFR Altitude                       |
 | MED            | Medium                                              |
 | MEM            | Memory                                              |
-| MFD            | MultiFunction Display                               |
+| MFD            | Multifunction Display                               |
 | MGT            | Management                                          |
 | mile/h         | Miles per Hour                                      |
 | MIN            | Minimum                                             |
@@ -889,4 +889,3 @@
 | ZFW            | Zero Fuel Weight                                    |
 | Zp             | Pressure Altitude                                   |
 | Zpi            | Indicated Pressure Altitude                         |
-
