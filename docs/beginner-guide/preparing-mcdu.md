@@ -283,9 +283,9 @@ The simBrief route used in this guide - [Available Here](../assets/beginner-guid
 
     ^^Arrival ILS^^
 
-    In a similar fashion you can also input the ILS/LOC frequency on this page if it hasn't been inputted already. Remember our arrival airport/rwy is `EGCC/05R` with ILS05R having a frequency of `111.55`
+    If you inputted a STAR into your flight plan before departure your ILS frequency may not be tuned correctly for arrival. **Ensure** that you verify your ILS frequency when you reach the arrival phase of your flight - see [Approach and Landing (ILS)](landing.md). 
 
-    When inputting a frequency and you are in range of the ILS it will auto populate the indentifier and course for you there is no need to fill these fields. 
+    Remember our arrival airport/rwy is `EGCC/05R` with ILS05R having a frequency of `111.55`. When inputting a frequency and you are in range of the ILS it will auto populate the indentifier and course for you there is no need to fill these fields. 
 
     * Using the keypad type in `111.55` and press LSK3 to input it. 
 
@@ -293,7 +293,7 @@ The simBrief route used in this guide - [Available Here](../assets/beginner-guid
 
     ^^ADF^^
 
-    This works much in the same way as the two above. 
+    This works much in the same way as the examples above. 
 
     [Top of Section 2](#section-2)
 
