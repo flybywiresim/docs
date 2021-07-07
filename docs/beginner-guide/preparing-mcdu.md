@@ -246,7 +246,7 @@ The simBrief route used in this guide - [Available Here](../assets/beginner-guid
 
     For the purposes of this guide we will be using frequencies in the RADNAV page. 
 
-    If you'd like to have additional navaids for your departure you can input the runway localizer for the initial procedure turn and the BRECON VOR (BCN) to verify your track enroute to BCN. This is a little bit more advance than this guide allows for but we will cover how to input frequencies. 
+    If you'd like to have additional navaids for your departure you can input the runway localizer for runway centerline guidance on the PFD and the initial procedure turn, including the BRECON VOR (BCN) to verify your track enroute to BCN. This is a little bit more advanced than this guide allows for but we will cover how to input frequencies. 
 
     ^^VOR^^
 
@@ -255,7 +255,15 @@ The simBrief route used in this guide - [Available Here](../assets/beginner-guid
     * Using the keypad type in `117.45` and press LSK1L. This will auto populate the identifier of the VOR when within range. 
     * You can also set the desired course to track `031` and press LSK2L to input it. 
 
-    ^^ILS^^
+    ^^Departure ILS^^
+
+    When selecting your SID earlier in the flight plan section, the A32NX should have auto-populated the ILS/LOC frequency. If it hasn't you can manually insert it yourself for centerline guidance on take off. 
+
+    Our departure runway is EGFF/30 (runway 30) which has a frequency of `110.7`. When inputting a frequency and you are in range of the ILS it will auto populate the indentifier and course for you there is no need to fill these fields.
+
+    * Using the keypad type in `110.7` and press LSK3 to input it.
+
+    ^^Arrival ILS^^
 
     In a similar fashion you can also input the ILS/LOC frequency on this page if it hasn't been inputted already. Remember our arrival airport/rwy is `EGCC/05R` with ILS05R having a frequency of `111.55`
 
