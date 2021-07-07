@@ -2,7 +2,9 @@
 
 This guide will help you prepare the MCDU in the A32NX for your departure. It includes a simple route that you can use to follow along easily and replicate in the simulator.
 
-The simBrief route used in this guide - [Available Here](../assets/beginner-guide/mcdu/sample-ofp.pdf)
+The simBrief route used in this guide 
+
+[Download simBrief OFP](../assets/beginner-guide/mcdu/sample-ofp.pdf){ .md-button }
 
 ***
 
@@ -16,6 +18,19 @@ Visit [Starting the Aircraft](#) to learn more.
     * External Power OR APU
 * Make sure the ADIRS are set to NAV. 
 * Have a valid flight plan. 
+
+***
+
+## Chapters / Phases
+
+This guide will cover the following topics:
+
+1. [Understanding the MCDU](#understanding-the-mcdu)
+2. [MCDU Programming](#mcdu-programming)
+    * Section 1 - [DATA - INIT A - FLIGHT PLAN](#section-1)
+    * Section 2 - [FUEL PRED - SECONDARY FLIGHT PLAN - RADNAV](#section-2)
+    * Section 3 - [INIT B - PROG - PERF](#section-3)
+3. [A32NX simBrief Integration](#a32nx-simbrief-integration)
 
 ***
   
