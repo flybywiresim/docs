@@ -176,6 +176,9 @@ The simBrief route used in this guide - [Available Here](../assets/beginner-guid
 
     Your flight plan should now have the associated waypoints for the `BCN1A` SID. You can scroll through your flight plan using the vertical slew keys. The SID terminates at `BCN` and this is where we can begin to fill out the rest of the flight plan. 
 
+    !!! info "BCN1A ILS Frequency"
+        When selecting a departure SID that pairs with a LOC/ILS frequency, the respective frequency will be auto-populated in your RADNAV provided it is available from the navdata. 
+
     ^^Enroute Flight Plan^^
 
     * Press the LSK that matches the location of `BCN` on the MCDU screen.
