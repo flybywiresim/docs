@@ -17,18 +17,20 @@ This guide will explain the correct procedures after we have landed and vacated 
 
 Aircraft has vacated the runway completely and has been brought to a stop on the taxiway as per previous chapters.
 
+![Runway vacated](../assets/beginner-guide/after-landing/Runway_vacated.png "Runway vacated")
+
 Download the [FlyByWire Checklist](../assets/FBW_A32NX_CHECKLIST.pdf) here.
 
 ## Chapters / Phases
 
 This guide will cover these phases:
 
-1. After Landing
-2. Taxi to gate
+1. [After Landing](#1-after-landing)
+2. [Taxi to Gate](#2-taxi-to-gate)
 
 ---
 
-### 1. After Landing
+## 1. After Landing
 
 **Situation:**
 
@@ -40,34 +42,39 @@ As already stated in the last chapter in real live the A320 will have two pilots
 
 In the simulation we are typically alone so it is absolutely ok to stop once we have fully vacated the runway and do these things one after the other.
 
-ATC Tower will usually hand us off to ATC Ground and they will give us taxi instructions for our destination gate. Write them down and read them back as usual but you don't have to move immediately unless ATC explicitly tells you to. Online ATC understand that after landing task do take some time.
+ATC Tower will usually hand us off to ATC Ground and they will give us taxi instructions for our destination gate. Write them down and read them back as usual but you don't have to move immediately unless ATC explicitly tells you to. Online ATC understand that the after-landing- tasks do take some time.
 
 **Immediate steps after vacating the runway:**
 
-- Set your radio frequency to the one assigned by ATC.
-    - ATC is set in accordance with airport requirements.
+- Set your radio frequency to the one assigned by ATC or the airport charts.
 
-        ![Comm panel](../assets/beginner-guide/after-landing/landingLayer-3.png)
+    ![EDDM ATC frequencies](../assets/beginner-guide/after-landing/EDDM-frequency-chart.png "EDDM ATC frequencies")
+
+    ![RMP Panel](../assets/beginner-guide/after-landing/RMP-Panel.png "RMP Panel"){width=320}
 
 - Disarm the `Speed Brake` lever (Ground Spoilers) by pushing down on the lever.
 
+    ![Spoiler armed and disarmed](../assets/beginner-guide/after-landing/Spoiler.png "Spoiler armed and disarmed"){width=320}
+
 - Set your `ENG MODE` selector to NORM in case you had set it to IGN/START before.
 
-    ![Eng knob](../assets/beginner-guide/after-landing/lgLayer-3.png)
+    ![Engine Mode Switch Norm](../assets/beginner-guide/after-landing/Engine-Mode-Switch-Norm.png "Engine Mode Switch Norm"){width=320}
 
 - Retract your `FLAPS` to 0.
 
+    ![Flaps 0](../assets/beginner-guide/after-landing/Flaps-0.png "Flaps 0"){width=160}
+
 - Set your `TCAS` to STANDBY.
 
-    ![Tcas](../assets/beginner-guide/after-landing/landingLayer-4.png)
+    ![ATC & TCAS](../assets/beginner-guide/after-landing/ATC-TCAS-Panel.png "ATC & TCAS"){width=320}
 
-- Set your `RADAR` to OFF.
+- Set your `RADAR` and Predictive Windshear System (`PWS`) to OFF.
 
-- Set your Predictive Windshear System (`PWS`) to OFF.
-
-    ![Radar](../assets/beginner-guide/after-landing/lgLayer-2.png)
+    ![WX and PWS off](../assets/beginner-guide/after-landing/WX-PWS-off.png "WX and PWS off"){width=320}
 
 - Start your APU by clicking the APU master button then the APU start button.
+
+    ![APU Start](../assets/beginner-guide/after-landing/APU-Start.png "APU Start"){width=120}
 
 - Turn OFF your anti-ice if it is not required.
 
@@ -77,7 +84,7 @@ ATC Tower will usually hand us off to ATC Ground and they will give us taxi inst
     - Set your strobe lights to AUTO/OFF (If you are crossing runway keep them ON until you vacate the runway)
     - For landing lights, you can choose to retract them or turn them off
 
-        ![After landing lights](../assets/beginner-guide/after-landing/After-landing-lights.png){width=320}
+        ![After landing lights](../assets/beginner-guide/after-landing/Taxi-light-on.png "After landing lights"){width=320}
 
 - Turn the brake fan on if you get a hot brakes ECAM warning.
 
@@ -94,7 +101,7 @@ ATC Tower will usually hand us off to ATC Ground and they will give us taxi inst
 
 This concludes *After Landing*
 
-### 2. Taxi to Gate
+## 2. Taxi to Gate
 
 **Situation:**
 
@@ -124,7 +131,7 @@ When approved to cross a runway (active or not) perform the following actions:
 
  When turning into the gate turn off your nose wheel light and your runway turn off lights to not blind the ground personnel. This of course is only done if enough lighting is available to safely park into the gate. Turn them off if they were used to assist in parking.
 
-![Taxi lights off](../assets/beginner-guide/after-landing/Lights_Taxi_off.png "Lights_Taxi_off.png")
+![Taxi lights off](../assets/beginner-guide/after-landing/Lights_Taxi_off.png "Lights_Taxi_off.png"){width=320}
 
 This concludes *Taxi to Gate*
 
