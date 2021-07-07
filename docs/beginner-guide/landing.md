@@ -1,4 +1,4 @@
-# Final Appraoch and ILS Landing
+# Final Approach and ILS Landing
 
 This guide will explain the correct procedures to fly a final approach and conduct an ILS landing.
 
@@ -83,7 +83,7 @@ To intercept the ILS Localizer we follow these steps:
 - Set `SPEED` to `Managed Speed Mode` (push the `Speed Selector`). The aircraft should now decelerate to `green dot` speed.
 - Set `FLAPS` to 1 at about V~FE~ -15 knots (but never before speed is below V~FE~) for the first slat/flap configuration (`CONF1`). The aircraft will then decelerate further to prepare for the next flaps configuration. Our target is to be CONF 1 at S speed by the time you get to the glideslope intercept.
 
-    ![VFE for next configuration](../assets/beginner-guide/landing/PFD_Speedband_flaps_marker.png "VFE for next configuration")
+    ![VFE for next configuration](../assets/beginner-guide/landing/PFD-Speed-band-flaps-marker.png "VFE for next configuration")
 
 - Turn on `APPR` in the `FCU` to command the aircraft to intercept the ILS localizer. The aircraft will keep the current heading until the localizer is captured and guides the aircraft towards the runway. The `lateral ILS localizer scale` shows the `deviation marker` moving towards the middle of the `lateral deviation scale`. Also the lateral `FMA` shows `LOC` in blue (armed).
 
@@ -257,7 +257,7 @@ On touchdown of the main gear the `Speed Brakes` will deploy automatically (we h
 
 ![Reverse Thrust](../assets/beginner-guide/landing/Thrustlevers_Revers.png "Reverse Thrust")
 
-We let the front gear settle gently on the runway (don't slam it down) and hold the center line of the runway while we are reducing speed. The speed reduction should be monitored on the `PFD` speedband and the speed trend arrow.
+We let the front gear settle gently on the runway (don't slam it down) and hold the center line of the runway while we are reducing speed. The speed reduction should be monitored on the `PFD` speed band and the speed trend arrow.
 
 The `Autobrakes` should now have activated and started to further decelerate the aircraft. This can be checked by the `Autobrake` annunciators.
 
