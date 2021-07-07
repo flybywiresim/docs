@@ -20,7 +20,7 @@ Back to [Flight Deck](../flight-deck.md)
 
 - ADIRU 1 and 2 supply their on side systems. ADIRU 3 is a hot spare
 
-##Function
+##Operation
  
 Normal operation:
 
