@@ -2,7 +2,19 @@
 
 This guide will help you prepare the MCDU in the A32NX for your departure. It includes a simple route that you can use to follow along easily and replicate in the simulator.
 
-The simBrief route used in this guide - [Available Here](../assets/beginner-guide/mcdu/sample-ofp.pdf)
+!!! warning "Disclaimer"
+    The level of detail in this guide is meant to provide a FlyByWire A320neo beginner the ability to adequately program the MCDU to conduct and complete a flight.
+
+    A *beginner* is defined as someone familiar with flying a GA aircraft
+    or different types of airliners. Aviation terminology and know-how is
+    a requirement to fly any airliner even in Microsoft Flight Simulator.
+
+    You will find many great videos on YouTube on how to fly the FlyByWire A32NX.<br/>
+    Check out the FlyByWire YouTube Channel as well: [FlyByWire on YouTube](https://www.youtube.com/c/FlyByWireSimulations/playlists)
+
+The simBrief route used in this guide 
+
+[Download simBrief OFP](../assets/beginner-guide/mcdu/sample-ofp.pdf){ .md-button }
 
 ***
 
@@ -16,6 +28,19 @@ Visit [Starting the Aircraft](#) to learn more.
     * External Power OR APU
 * Make sure the ADIRS are set to NAV. 
 * Have a valid flight plan. 
+
+***
+
+## Chapters / Phases
+
+This guide will cover the following topics:
+
+1. [Understanding the MCDU](#understanding-the-mcdu)
+2. [MCDU Programming](#mcdu-programming)
+    * Section 1 - [DATA - INIT A - FLIGHT PLAN](#section-1)
+    * Section 2 - [FUEL PRED - SECONDARY FLIGHT PLAN - RADNAV](#section-2)
+    * Section 3 - [INIT B - PROG - PERF](#section-3)
+3. [A32NX simBrief Integration](#a32nx-simbrief-integration)
 
 ***
   
@@ -161,6 +186,9 @@ The simBrief route used in this guide - [Available Here](../assets/beginner-guid
 
     Your flight plan should now have the associated waypoints for the `BCN1A` SID. You can scroll through your flight plan using the vertical slew keys. The SID terminates at `BCN` and this is where we can begin to fill out the rest of the flight plan. 
 
+    !!! info "BCN1A ILS Frequency"
+        When selecting a departure SID that pairs with a LOC/ILS frequency, the respective frequency will be auto-populated in your RADNAV provided it is available from the navdata. 
+
     ^^Enroute Flight Plan^^
 
     * Press the LSK that matches the location of `BCN` on the MCDU screen.
@@ -246,7 +274,7 @@ The simBrief route used in this guide - [Available Here](../assets/beginner-guid
 
     For the purposes of this guide we will be using frequencies in the RADNAV page. 
 
-    If you'd like to have additional navaids for your departure you can input the runway localizer for the initial procedure turn and the BRECON VOR (BCN) to verify your track enroute to BCN. This is a little bit more advance than this guide allows for but we will cover how to input frequencies. 
+    If you'd like to have additional navaids for your departure you can input the runway localizer for runway centerline guidance on the PFD and the initial procedure turn, including the BRECON VOR (BCN) to verify your track enroute to BCN. This is a little bit more advanced than this guide allows for but we will cover how to input frequencies. 
 
     ^^VOR^^
 
@@ -255,11 +283,19 @@ The simBrief route used in this guide - [Available Here](../assets/beginner-guid
     * Using the keypad type in `117.45` and press LSK1L. This will auto populate the identifier of the VOR when within range. 
     * You can also set the desired course to track `031` and press LSK2L to input it. 
 
-    ^^ILS^^
+    ^^Departure ILS^^
 
-    In a similar fashion you can also input the ILS/LOC frequency on this page if it hasn't been inputted already. Remember our arrival airport/rwy is `EGCC/05R` with ILS05R having a frequency of `111.55`
+    When selecting your SID earlier in the flight plan section, the A32NX should have auto-populated the ILS/LOC frequency. If it hasn't you can manually insert it yourself for centerline guidance on take off. 
 
-    When inputting a frequency and you are in range of the ILS it will auto populate the indentifier and course for you there is no need to fill these fields. 
+    Our departure runway is EGFF/30 (runway 30) which has a frequency of `110.7`. When inputting a frequency and you are in range of the ILS it will auto populate the indentifier and course for you there is no need to fill these fields.
+
+    * Using the keypad type in `110.7` and press LSK3 to input it.
+
+    ^^Arrival ILS^^
+
+    With an ILS or LOC approach selected, your arrival ILS frequency should be automatically tuned correctly whenever the aircraft is at climb phase or greater and within 250 NM of destination. **Ensure** that you verify your ILS frequency when you reach the arrival phase of your flight - see [Approach and Landing (ILS)](landing.md). 
+
+    Remember our arrival airport/rwy is `EGCC/05R` with ILS05R having a frequency of `111.55`. When inputting a frequency and you are in range of the ILS it will auto populate the indentifier and course for you there is no need to fill these fields. 
 
     * Using the keypad type in `111.55` and press LSK3 to input it. 
 
@@ -267,7 +303,7 @@ The simBrief route used in this guide - [Available Here](../assets/beginner-guid
 
     ^^ADF^^
 
-    This works much in the same way as the two above. 
+    This works much in the same way as the examples above. 
 
     [Top of Section 2](#section-2)
 
