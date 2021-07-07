@@ -211,6 +211,8 @@ Before Moving Safety Check:
 - Release your parking brake.
 - Brakes pressure - `Check at Zero`
 
+![brakes pressure](../assets/beginner-guide/taxi/brakes.png)
+
 At this point the aircraft may start rolling. Depending on your weight you may need to add a little power to the engines to get going. Increase power to roughly ~25-30% N1. Be mindful that you are not blasting N1 towards or around the terminal.
 
 - Leave a bit of thrust on and perform a quick brake check to ensure hydraulics and brakes are fully functioning.
