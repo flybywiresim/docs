@@ -2,6 +2,16 @@
 
 This guide will help you prepare the MCDU in the A32NX for your departure. It includes a simple route that you can use to follow along easily and replicate in the simulator.
 
+!!! warning "Disclaimer"
+    The level of detail in this guide is meant to provide a FlyByWire A320neo beginner the ability to adequately program the MCDU to conduct and complete a flight.
+
+    A *beginner* is defined as someone familiar with flying a GA aircraft
+    or different types of airliners. Aviation terminology and know-how is
+    a requirement to fly any airliner even in Microsoft Flight Simulator.
+
+    You will find many great videos on YouTube on how to fly the FlyByWire A32NX.<br/>
+    Check out the FlyByWire YouTube Channel as well: [FlyByWire on YouTube](https://www.youtube.com/c/FlyByWireSimulations/playlists)
+
 The simBrief route used in this guide 
 
 [Download simBrief OFP](../assets/beginner-guide/mcdu/sample-ofp.pdf){ .md-button }
