@@ -20,6 +20,19 @@ At this time you may request for clearance to push and start from ATC.
 
 ---
 
+## Chapters / Phases
+
+This guide will cover these chapters:
+
+1. [Pushback](#pushback)
+2. [Engine Start](#engine-start)
+3. [After Engine Start](#after-engine-start)
+4. [Flight Controls Check](#flight-controls-check)
+5. [Taxi](#taxi)
+6. [General Resources](#general-resources)
+
+---
+
 ## Pushback
 
 There are several options available to you in MSFS to achieve a successful pushback. 
