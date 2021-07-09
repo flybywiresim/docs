@@ -81,6 +81,37 @@ The removal of energy during this process reduces the temperature of the air, re
     - If &#916;p < 1 psi : The outflow valve opens to about 50 % when under automatic control. It does not automatically open when it is under manual control. Emergency RAM airflow is directly supplied to the mixer unit.
 - OFF: The RAM air inlet closes.
 
+### ENG 1 and ENG 2 BLEED
+
+- ON: Bleed valve opens if:
+    - Upstream pressure is above 8 psi.
+    - APU BLEED pushbutton switch is off or APU bleed valve is closed.
+    - There is no onside wing or pylon leak, and no overpressure or over temperature has been detected.
+    - The ENG FIRE pushbutton has not been popped out.
+    - The engine start valve is closed.
+- FAULT: This amber light comes on, and an ECAM caution appears, if:
+    - There is an overpressure downstream of the bleed valve.
+    - There is a bleed air overheat.
+    - There is a wing or engine leak on the related side.
+    - The bleed valve is not closed during engine start.
+    - The bleed valve is not closed with APU bleed ON.
+    It goes out when the ENG BLEED pushbutton switch is OFF if the fault has disappeared.
+- OFF: The bleed valve and HP valve close. The white OFF light comes on.
+
+
+### APU BLEED
+
+- ON: The APU valve opens if N > 95 % and there is no leak in the APU or in the left side bleed. (If there is a leak on the right side, the x-bleed valve closes.)
+      The blue ON light comes on.
+- OFF: The APU valve closes.
+- FAULT: This amber light comes on, and an ECAM caution appears, when the system detects an APU leak.
+
+### X-BLEED selector
+
+- AUTO: The crossbleed valve is open if the APU bleed valve is open. The crossbleed valve is closed if the APU bleed valve is closed or, in case of a wing, pylon, or APU leak (except during engine start).
+- OPEN: The crossbleed valve is open.
+- CLOSE: The crossbleed valve is closed.
+
 ---
 
 Back to [Flight Deck](../flight-deck.md)
