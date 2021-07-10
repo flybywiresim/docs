@@ -15,14 +15,16 @@ Back to [Flight Deck](../flight-deck.md)
 - The flight interphone system is used for communication between the cockpit and the external service interphone panel, located at the nose gear. 
 
 
-##Operation
+##Function
 
-- When the MECH button is pushed, the cockpit call light will illuminate on the external service interphone panel, and an external horn will sound. When the button is released, the horn is silenced. The cockpit call light will remain illuminated until the reset switch, located on the external service interphone panel, is pushed.
+- MECH - The cockpit call light will illuminate on the external service interphone panel, and an external horn will sound. When the button is released, the horn is silenced. The cockpit call light will remain illuminated until the reset switch, located on the external service interphone panel, is pushed.
 
 - FWD/AFT - These call the forward and aft sections of the cabin.
     - A pink light will illuminate at the corresponding flight attendant area call panel.
     - A "CAPTAIN CALL" message will appear on the corresponding flight attendant indication panel.
     - A high/low chime will sound through the corresponding loudspeaker.
+
+- All - This calls both FWD and AFT.
 
 - EMER - This is used in an emergency, when pressed:
     - The ON and Call light will flash.
