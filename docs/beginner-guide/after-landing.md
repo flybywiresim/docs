@@ -112,7 +112,7 @@ This concludes *After Landing*
 
 **Taxiing**
 
-Make sure to also read the Taxi section of the [Engine Start and Taxi](/engine-start-taxi/#taxi) chapter.
+Make sure to also read the Taxi section of the [Engine Start and Taxi](engine-start-taxi.md/#taxi) chapter.
 
 Use your charts to follow the ATC taxi instructions to the designated gate.
 
@@ -135,4 +135,3 @@ When approved to cross a runway (active or not) perform the following actions:
 ![Taxi lights off](../assets/beginner-guide/after-landing/Lights_Taxi_off.png "Lights_Taxi_off.png"){width=320}
 
 This concludes *Taxi to Gate*
-
