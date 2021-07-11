@@ -293,7 +293,7 @@ The simBrief route used in this guide - [Available Here](../assets/beginner-guid
 
     ^^Arrival ILS^^
 
-    If you inputted a STAR into your flight plan before departure your ILS frequency may not be tuned correctly for arrival. **Ensure** that you verify your ILS frequency when you reach the arrival phase of your flight - see [Approach and Landing (ILS)](landing.md). 
+    With an ILS or LOC approach selected, your arrival ILS frequency should be automatically tuned correctly whenever the aircraft is at climb phase or greater and within 250 NM of destination. **Ensure** that you verify your ILS frequency when you reach the arrival phase of your flight - see [Approach and Landing (ILS)](landing.md). 
 
     Remember our arrival airport/rwy is `EGCC/05R` with ILS05R having a frequency of `111.55`. When inputting a frequency and you are in range of the ILS it will auto populate the indentifier and course for you there is no need to fill these fields. 
 
