@@ -39,7 +39,7 @@ This guide will cover these phases:
 - ATC has been informed that we vacated the runway.
 
 !!!info "Simulation vs. Real Life"
-    In real live the A320 will have two pilots which can actually do things in parallel. Talking to ATC, taxing the aircraft and do the after landing tasks.
+    In real life the A320 will have two pilots who can actually do things in parallel. Talking to ATC, taxing the aircraft and do the after landing tasks.
 
     In the simulation we are typically alone so it is absolutely ok to stop once we have fully vacated the runway and do these things one after the other.
 
@@ -135,5 +135,4 @@ When approved to cross a runway (active or not) perform the following actions:
 ![Taxi lights off](../assets/beginner-guide/after-landing/Lights_Taxi_off.png "Lights_Taxi_off.png"){width=320}
 
 This concludes *Taxi to Gate*
-
 
