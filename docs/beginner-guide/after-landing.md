@@ -34,7 +34,7 @@ This guide will cover these phases:
 
 **Situation:**
 
-- Aircraft has vacated the runways completely and has come to a  stop on the taxi way as per previous chapters.
+- Aircraft has vacated the runways completely and has come to a stop on the taxi way as per previous chapters.
 - Flaps and Ground Spoilers are still deployed.
 - ATC has been informed that we vacated the runway.
 
@@ -135,6 +135,5 @@ When approved to cross a runway (active or not) perform the following actions:
 ![Taxi lights off](../assets/beginner-guide/after-landing/Lights_Taxi_off.png "Lights_Taxi_off.png"){width=320}
 
 This concludes *Taxi to Gate*
-
 
 
