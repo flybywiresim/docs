@@ -20,8 +20,8 @@ hide:
 .imagemap .imagemapname {
   visibility: hidden;
 
-  background-color: rgba(0, 0, 0, .7);
-  color: yellow;
+  background-color: rgba(29, 30, 38,.8);
+  color: rgba(212, 212, 213, 1);
   text-align: center;
   padding: 5px 0;
   border-radius: 6px;
@@ -38,8 +38,8 @@ hide:
     visibility: visible;
 }
 .imagemap:hover {
-    background-color: rgba(255, 0, 0, .25);
-    border: 1px solid yellow;
+    background-color: rgba(10, 144, 153, 0.30);
+    border: 1px solid black;
 }
 </style>
 
