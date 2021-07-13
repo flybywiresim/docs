@@ -93,7 +93,7 @@ hide:
     <a href="#"><div class="imagemap" style="position: absolute; left: 64%; top: 51.5%; width: 27.5%; height: 5.5%;"><span class="imagemapname">EFIS Instruments F.O.</span></div></a>
     <a href="#"><div class="imagemap" style="position: absolute; left: 36%; top: 51.2%; width: 9%; height: 10.5%;"><span class="imagemapname">StdBy Instruments</span></div></a>
     <a href="#"><div class="imagemap" style="position: absolute; left: 45%; top: 51.2%; width: 11%; height: 10.5%;"><span class="imagemapname">ECAM</span></div></a>
-    <a href="#"><div class="imagemap" style="position: absolute; left: 56%; top: 51.2%; width: 8%; height: 10.5%;"><span class="imagemapname">Aurobrake and Gear</span></div></a>
+    <a href="#"><div class="imagemap" style="position: absolute; left: 56%; top: 51.2%; width: 8%; height: 10.5%;"><span class="imagemapname">Autobrake and Gear</span></div></a>
     <!-- Pedestal -->
     <a href="#"><div class="imagemap" style="position: absolute; left: 41.2%; top: 62.5%; width: 17.6%; height: 3.2%;"><span class="imagemapname">Switching Panel</span></div></a>
     <a href="#"><div class="imagemap" style="position: absolute; left: 41.2%; top: 65.7%; width: 17.6%; height: 3.2%;"><span class="imagemapname">ECAM Control Panel</span></div></a>
