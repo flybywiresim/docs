@@ -32,9 +32,9 @@ hide:
     <a title="Oxygen Panel" href="#"><div style="position: absolute; left: 22.5%; top: 39%; width: 12.6%; height: 1.5%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
     <a title="Calls Panel" href="#"><div style="position: absolute; left: 22.5%; top: 40.5%; width: 12.6%; height: 1.45%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
     <a title="Wiper Panel Capt." href="#"><div style="position: absolute; left: 22.5%; top: 41.95%; width: 12.6%; height: 2.2%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
-    <a title="Fire Control Panel" href="#"><div style="position: absolute; left: 35.1%; top: 25.7%; width: 30%; height: 2.7%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
-    <a title="Hydraulic Control Panel" href="#"><div style="position: absolute; left: 35.1%; top: 28.4%; width: 30%; height: 2.3%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
-    <a title="Fuel Control Panel" href="#"><div style="position: absolute; left: 35.1%; top: 30.7%; width: 30%; height: 2.2%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
+    <a title="Fire Control Panel" href="/a32nx-briefing/ovhd/fire/"><div style="position: absolute; left: 35.1%; top: 25.7%; width: 30%; height: 2.7%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
+    <a title="Hydraulic Control Panel" href="/a32nx-briefing/ovhd/hyd/"><div style="position: absolute; left: 35.1%; top: 28.4%; width: 30%; height: 2.3%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
+    <a title="Fuel Control Panel" href="/a32nx-briefing/ovhd/fuel/"><div style="position: absolute; left: 35.1%; top: 30.7%; width: 30%; height: 2.2%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
     <a title="Electricity Control Panel" href="#"><div style="position: absolute; left: 35.1%; top: 32.9%; width: 30%; height: 3.6%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
     <a title="Air Condition Control Panel" href="#"><div style="position: absolute; left: 35.1%; top: 36.5%; width: 30%; height: 3.9%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
     <a title="Anti Ice Control Panel" href="#"><div style="position: absolute; left: 35.1%; top: 40.4%; width: 17.2%; height: 1.7%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
@@ -51,36 +51,36 @@ hide:
     <a title="Engine Manual Start and N1 Mode Panel" href="#"><div style="position: absolute; left: 65.1%; top: 40.3%; width: 12.6%; height: 1.75%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
     <a title="Wiper Panel F.O." href="#"><div style="position: absolute; left: 65.1%; top: 42%; width: 12.6%; height: 2.2%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
     <!-- Flight Instruments and Glareshield -->
-    <a title="Flight Control Unit" href="/a32nx-briefing/glareshield/fcu/"><div style="position: absolute; left: 40.5%; top: 47%; width: 16.5%; height: 3.2%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
-    <a title="EFIS Control Unit Capt." href="#"><div style="position: absolute; left: 40.5%; top: 47%; width: 16.5%; height: 3.2%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
-    <a title="EFIS Control Unit F.O." href="#"><div style="position: absolute; left: 40.5%; top: 47%; width: 16.5%; height: 3.2%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
-    <a title="Alarms and Warnings Capt." href="#"><div style="position: absolute; left: 40.5%; top: 47%; width: 16.5%; height: 3.2%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
-    <a title="Alarms and Warnings F.O." href="#"><div style="position: absolute; left: 40.5%; top: 47%; width: 16.5%; height: 3.2%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
-    <a title="EFIS Instruments Capt." href="#"><div style="position: absolute; left: 40.5%; top: 47%; width: 16.5%; height: 3.2%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
-    <a title="EFIS Instruments F.O." href="#"><div style="position: absolute; left: 40.5%; top: 47%; width: 16.5%; height: 3.2%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
-    <a title="StdBy Instruments" href="#"><div style="position: absolute; left: 40.5%; top: 47%; width: 16.5%; height: 3.2%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
-    <a title="ECAM" href="#"><div style="position: absolute; left: 40.5%; top: 47%; width: 16.5%; height: 3.2%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
-    <a title="Aurobrake and Gear" href="#"><div style="position: absolute; left: 40.5%; top: 47%; width: 16.5%; height: 3.2%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
+    <a title="Flight Control Unit" href="/a32nx-briefing/glareshield/fcu/"><div style="position: absolute; left: 41.5%; top: 46.5%; width: 17%; height: 3.7%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
+    <a title="EFIS Control Unit Capt." href="/a32nx-briefing/glareshield/efis_control/"><div style="position: absolute; left: 31%; top: 47%; width: 10.5%; height: 3.2%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
+    <a title="EFIS Control Unit F.O." href="/a32nx-briefing/glareshield/efis_control/"><div style="position: absolute; left: 58.5%; top: 47%; width: 10.5%; height: 3.2%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
+    <a title="Alarms and Warnings Capt." href="/a32nx-briefing/glareshield/warning/"><div style="position: absolute; left: 0%; top: 47.5%; width: 31%; height: 3.2%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
+    <a title="Alarms and Warnings F.O." href="/a32nx-briefing/glareshield/warning/"><div style="position: absolute; left: 69%; top: 47.5%; width: 31%; height: 3.2%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
+    <a title="EFIS Instruments Capt." href="#"><div style="position: absolute; left: 8.5%; top: 51.5%; width: 27.5%; height: 5.5%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
+    <a title="EFIS Instruments F.O." href="#"><div style="position: absolute; left: 64%; top: 51.5%; width: 27.5%; height: 5.5%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
+    <a title="StdBy Instruments" href="#"><div style="position: absolute; left: 36%; top: 51.2%; width: 9%; height: 10.5%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
+    <a title="ECAM" href="#"><div style="position: absolute; left: 45%; top: 51.2%; width: 11%; height: 10.5%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
+    <a title="Aurobrake and Gear" href="#"><div style="position: absolute; left: 56%; top: 51.2%; width: 8%; height: 10.5%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
     <!-- Pedestal -->
-    <a title="Switching Panel" href="#"><div style="position: absolute; left: 40.5%; top: 47%; width: 16.5%; height: 3.2%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
-    <a title="ECAM Control Panel" href="#"><div style="position: absolute; left: 40.5%; top: 47%; width: 16.5%; height: 3.2%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
-    <a title="MCDU Capt." href="#"><div style="position: absolute; left: 40.5%; top: 47%; width: 16.5%; height: 3.2%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
-    <a title="MCDU F.O." href="#"><div style="position: absolute; left: 40.5%; top: 47%; width: 16.5%; height: 3.2%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
-    <a title="RMP and Audio Control Capt." href="#"><div style="position: absolute; left: 40.5%; top: 47%; width: 16.5%; height: 3.2%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
-    <a title="RMP and Audio Control F.O." href="#"><div style="position: absolute; left: 40.5%; top: 47%; width: 16.5%; height: 3.2%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
-    <a title="Thrust Lever and Elevation Trim" href="#"><div style="position: absolute; left: 40.5%; top: 47%; width: 16.5%; height: 3.2%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
-    <a title="Engine Panel" href="#"><div style="position: absolute; left: 40.5%; top: 47%; width: 16.5%; height: 3.2%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
-    <a title="Lighting Capt." href="#"><div style="position: absolute; left: 40.5%; top: 47%; width: 16.5%; height: 3.2%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
-    <a title="Lighting, AIDS, DFDR F.O." href="#"><div style="position: absolute; left: 40.5%; top: 47%; width: 16.5%; height: 3.2%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
-    <a title="Radar Panel" href="#"><div style="position: absolute; left: 40.5%; top: 47%; width: 16.5%; height: 3.2%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
-    <a title="ATC and TCAS Panel" href="#"><div style="position: absolute; left: 40.5%; top: 47%; width: 16.5%; height: 3.2%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
-    <a title="Speed Brake" href="#"><div style="position: absolute; left: 40.5%; top: 47%; width: 16.5%; height: 3.2%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
-    <a title="Flaps" href="#"><div style="position: absolute; left: 40.5%; top: 47%; width: 16.5%; height: 3.2%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
-    <a title="Cockpit Door Panel" href="#"><div style="position: absolute; left: 40.5%; top: 47%; width: 16.5%; height: 3.2%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
-    <a title="Rudder Trim" href="#"><div style="position: absolute; left: 40.5%; top: 47%; width: 16.5%; height: 3.2%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
-    <a title="Printer" href="#"><div style="position: absolute; left: 40.5%; top: 47%; width: 16.5%; height: 3.2%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
-    <a title="Parking Brake" href="#"><div style="position: absolute; left: 40.5%; top: 47%; width: 16.5%; height: 3.2%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
-    <a title="Gravity Gear Extension" href="#"><div style="position: absolute; left: 40.5%; top: 47%; width: 16.5%; height: 3.2%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
+    <a title="Switching Panel" href="#"><div style="position: absolute; left: 41.2%; top: 62.5%; width: 17.6%; height: 3.2%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
+    <a title="ECAM Control Panel" href="#"><div style="position: absolute; left: 41.2%; top: 65.7%; width: 17.6%; height: 3.2%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
+    <a title="MCDU Capt." href="#"><div style="position: absolute; left: 28.9%; top: 62.5%; width: 12.3%; height: 9.9%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
+    <a title="MCDU F.O." href="#"><div style="position: absolute; left: 58.8%; top: 62.5%; width: 12.3%; height: 9.9%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
+    <a title="RMP and Audio Control Capt." href="#"><div style="position: absolute; left: 28.9%; top: 72.4%; width: 12.3%; height: 7.7%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
+    <a title="RMP and Audio Control F.O." href="#"><div style="position: absolute; left: 58.8%; top: 72.4%; width: 12.3%; height: 7.7%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
+    <a title="Thrust Lever and Elevation Trim" href="#"><div style="position: absolute; left: 41.2%; top: 70%; width: 17.6%; height: 11.7%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
+    <a title="Engine Panel" href="#"><div style="position: absolute; left: 45.5%; top: 81.7%; width: 8.9%; height: 3.3%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
+    <a title="Lighting Capt." href="#"><div style="position: absolute; left: 28.9%; top: 80.1%; width: 12.3%; height: 2.2%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
+    <a title="Radar Panel" href="#"><div style="position: absolute; left: 28.9%; top: 82.3%; width: 12.3%; height: 2.8%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
+    <a title="Lighting, AIDS, DFDR F.O." href="#"><div style="position: absolute; left: 58.8%; top: 80.1%; width: 12.3%; height: 2.2%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
+    <a title="ATC and TCAS Panel" href="#"><div style="position: absolute; left: 58.8%; top: 82.3%; width: 12.3%; height: 2.8%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
+    <a title="Speed Brake" href="#"><div style="position: absolute; left: 41.2%; top: 84%; width: 4.3%; height: 4.7%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
+    <a title="Flaps" href="#"><div style="position: absolute; left: 54.4%; top: 84%; width: 4.3%; height: 4.7%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
+    <a title="Cockpit Door Panel" href="#"><div style="position: absolute; left: 34%; top: 88.7%; width: 12.3%; height: 2.6%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
+    <a title="Printer" href="#"><div style="position: absolute; left: 54%; top: 88.7%; width: 12.3%; height: 2.6%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
+    <a title="Rudder Trim" href="#"><div style="position: absolute; left: 46.3%; top: 86.6%; width: 8%; height: 3%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
+    <a title="Parking Brake" href="#"><div style="position: absolute; left: 46.3%; top: 90.5%; width: 8%; height: 3.2%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
+    <a title="Gravity Gear Extension" href="#"><div style="position: absolute; left: 46.3%; top: 93.7%; width: 8%; height: 3.2%; background-color: rgba(255, 0, 0, .25); border: 1px solid yellow;"></div></a>
 
 </div>
 
