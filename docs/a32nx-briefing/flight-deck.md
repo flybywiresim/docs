@@ -12,8 +12,30 @@ hide:
 
 <style>
 .imagemap {
+    position: relative;
     background-color: rgba(0, 0, 0, .0);
     border: 0px solid yellow;
+    display: inline-block;
+}
+.imagemap .imagemapname {
+  visibility: hidden;
+
+  background-color: rgba(0, 0, 0, .7);
+  color: yellow;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+  width: 120px;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+}
+.imagemap:hover .imagemapname {
+    visibility: visible;
 }
 .imagemap:hover {
     background-color: rgba(255, 0, 0, .25);
@@ -24,10 +46,10 @@ hide:
 <div style="position: relative;">
     <img src="/assets/a32nx-briefing/Cockpit-Overview-Map.png" style="width: 100%; height: auto;">
     <!-- OVHD AFT -->
-    <a title="ELT Panel" href="#"><div class="imagemap" style="position: absolute; left: 22.5%; top: 2.55%; width: 12.5%; height: 1.7%;"></div></a>
+    <a title="ELT Panel" href="#"><div class="imagemap" style="position: absolute; left: 22.5%; top: 2.55%; width: 12.5%; height: 1.7%;"><span class="imagemapname">ELT Panel</span></div></a>
     <a title="Cockpit Door Panel" href="#"><div class="imagemap" style="position: absolute; left: 22.5%; top: 4.25%; width: 12.5%; height: 2.1%;"></div></a>
     <a title="CAPT Light" href="#"><div class="imagemap" style="position: absolute; left: 22.5%; top: 9.9%; width: 12.5%; height: 3.3%;"></div></a>
-    <a title="Circuit Breaker Panel" href="#"><div class="imagemap" style="position: absolute; left: 35%; top: 0%; width: 30.3%; height: 18%;"></div></a>
+    <a href="#"><div class="imagemap" style="position: absolute; left: 35%; top: 0%; width: 30.3%; height: 18%;"><span class="imagemapname">Circuit Breaker Panel</span></div></a>
     <a title="Pedestal Light" href="#"><div class="imagemap" style="position: absolute; left: 35%; top: 18%; width: 30.3%; height: 4.7%;"></div></a>
     <a title="Maintenance Panel" href="#"><div class="imagemap" style="position: absolute; left: 65.3%; top: 0%; width: 12.5%; height: 8%;"></div></a>
     <a title="F.O. Light" href="#"><div class="imagemap" style="position: absolute; left: 65.3%; top: 15.3%; width: 12.5%; height: 3.4%;"></div></a>
