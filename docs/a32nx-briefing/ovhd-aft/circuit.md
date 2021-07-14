@@ -6,20 +6,18 @@ Back to [Flight Deck](../flight-deck.md)
 
 ---
 
-![Circuit Breaker Panel](../../assets/a32nx-briefing/overhead-aft-panel/Circuit-Breaker.png "Circuit Breaker Panel"){width=320}
+![Circuit Breaker Panel](../../assets/a32nx-briefing/overhead-aft-panel/Circuit-Breaker.png "Circuit Breaker Panel"){width=360}
 
 The Overhead Aft Panel contains the Emergency Circuit Breaker Panel.
 
-Circuit breakers (C/Bs) are constantly monitored and the tripping of a C/B will be clearly indicated, either through:
+The aircraft has two types of C/Bs :
 
--	Activation of a system warning
-- 	A failure test
--	An abnormal instrument configuration
+- Monitored (green) : When out for more than one minute, the C/B TRIPPED warning is triggered on the ECAM.
+- Non-monitored (black).
 
-or, for C / Bs monitored by the ECAM system:
+The C/B TRIPPED warning on the ECAM indicates the location of the affected C/B. The following panels are monitored : OVHD PNL, L(R) ELEC BAY, REAR PNL J-M or N-R or S-V or W-Z.
 
-- Six zones have been defined
-- Each time a C / B trips, the corresponding zone is 	identified
+Note : The C/B TRIPPED, caution may be cleared from the ECAM by pressing the CLR or the EMER CANCEL pushbutton. If the EMER CANCEL is used, and if a second C/B is tripped on the same panel, the corresponding C/B TRIPPED caution will not be triggered.
 
 !!!info "Overhead Aft Panel"
     The Overhead Aft Panel is usually not used during flight.
