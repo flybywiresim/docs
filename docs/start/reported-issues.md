@@ -35,6 +35,9 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
     - [**Typical Issues + Solutions**](autopilot-fbw.md#typical-issues-and-how-to-solve-them)
     - [**Known Issues**](autopilot-fbw.md#known-issues)
 
+* Simbrief integration failing to retrieve OFP through the MCDU/EFB.
+    - Solution: Remove any spaces associated with your simBrief username when entering it into the MCDU/EFB.
+
 * Toolbar pushback addon may cause unwanted behavior and prevent use of nose wheel steering. 
     - Solution:
         - Remove the addon from your community folder or wait for developer to update. 
@@ -44,13 +47,14 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
     - There seems to be a speed decay issue in certain situations during turns and CONF2. It can also happen when approaching the level off altitude after open descent. Does not occur in level flight. 
     - *Currently under investigation.*
     
-* Autopilot, FADEC, electrical system unwanted behavior
+* Unwanted behavior - Autopilot, FADEC, electrical system 
     - In rare cases the above mentioned systems may not start or behave erratically. This is in part due to `UTF-8` language support beta not enabled on your machine.
         - Solution:
-            - Open Windows Control Panel -> Region.
-            - Go to the Administrative tab and click ++"Change system locale"++
-            - Make sure the check mark next to `Beta: Use UTF-8 for worldwide language support is selected`.
-            - Click ++"OK"++ and restart your computer.
+            1. - Open Windows Control Panel -> Region.
+                - Go to the Administrative tab and click ++"Change system locale"++
+                - Make sure the check mark next to `Beta: Use UTF-8 for worldwide language support is selected`.
+                - Click ++"OK"++ and restart your computer.
+            1. - Ensure `simconnect.cfg` does not appear in your Documents folder on your computer.
     
 * ADIRS not aligned when spawning anywhere except cold & dark at a gate (*intermittent issue*)
     - Workaround: Restart the flight
