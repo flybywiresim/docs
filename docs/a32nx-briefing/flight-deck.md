@@ -76,7 +76,7 @@ hide:
     <a href="#"><div class="imagemap" style="position: absolute; left: 48.4%; top: 42.1%; width: 3.2%; height: 3.2%;"><span class="imagemapname">APU Panel</span></div></a>
     <a href="#"><div class="imagemap" style="position: absolute; left: 51.6%; top: 42.1%; width: 13.5%; height: 1.4%;"><span class="imagemapname">Internal Lighting Panel</span></div></a>
     <a href="#"><div class="imagemap" style="position: absolute; left: 51.6%; top: 43.5%; width: 13.5%; height: 1.6%;"><span class="imagemapname">Sign Panel</span></div></a>
-    <a href="#"><div class="imagemap" style="position: absolute; left: 65.1%; top: 23.3%; width: 12.6%; height: 3.2%;"><span class="imagemapname">3rd Audio Control Panel</span></div></a>
+    <a href="/a32nx-briefing/ovhd/3rd-radio/"><div class="imagemap" style="position: absolute; left: 65.1%; top: 23.3%; width: 12.6%; height: 3.2%;"><span class="imagemapname">3rd Audio Control Panel</span></div></a>
     <a href="#"><div class="imagemap" style="position: absolute; left: 65.1%; top: 33%; width: 12.6%; height: 1.7%;"><span class="imagemapname">Flight Control Panel Right</span></div></a>
     <a href="#"><div class="imagemap" style="position: absolute; left: 65.1%; top: 34.7%; width: 12.6%; height: 2.4%;"><span class="imagemapname">Cargo Ventilation Panel</span></div></a>
     <a href="#"><div class="imagemap" style="position: absolute; left: 65.1%; top: 37.1%; width: 12.6%; height: 1.65%;"><span class="imagemapname">Cargo Smoke Panel</span></div></a>
