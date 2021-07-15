@@ -35,8 +35,8 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
     - [**Typical Issues + Solutions**](autopilot-fbw.md#typical-issues-and-how-to-solve-them)
     - [**Known Issues**](autopilot-fbw.md#known-issues)
 
-* Simbrief integration failing to retrieve OFP through the MCDU/EFB.
-    - Solution: Remove any spaces associated with your simBrief username when entering it into the MCDU/EFB.
+* Simbrief integration - fuel and payload showing 0 after OFP request
+    - Solution: Ensure that your assigned weights (KG / LBS) are the same in your simBrief flight plan, MCDU, and EFB
 
 * Toolbar pushback addon may cause unwanted behavior and prevent use of nose wheel steering. 
     - Solution:
