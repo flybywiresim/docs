@@ -162,7 +162,7 @@ This is typically done about 50NM before the starting the descent.
 
 We can obtain this data from the destination airport's ATIS information and the airport charts.
 
-From ATIS we get: `QNH`, `TEMP` and `MAG WIND`. Sometimes `TRANS ALT` - if not refer to the approach chart.
++From ATIS we get: `QNH`, `TEMP` and `MAG WIND`. Sometimes `TRANS ALT` or 'TRANS LVL' - if not refer to the approach chart.
 
 ATIS Example:
 ```
@@ -238,17 +238,35 @@ Also ATC will often still expect us to respect the STAR's constraints although t
 
 We repeat the process until we have reached our desired final approach altitude.
 
+!!! info "Airline SOPs"
+    Some airline's SOPs (standard operating procedures) might have a different order for the following steps.
+
+#### At 10,000ft Procedure
+
+- `LAND` lights selector: SET
+    - `LAND` lights may be switched ON, according to the airline policy/regulatory recommendations
+    - Landing lights on the A320neo cause drag as they are extended from under the wings
+- `SEAT BELTS` switch: ON
+- `EFIS` Option push button: `CSTR` on both sides
+- `LS` push button: As required
+    - Select LS, if an ILS, GLS or LOC approach is intended
+    - The PFD displays the LOC and glide scales and deviation symbol, if there is a valid /LS or GLS signal.
+    - Check that the /LS/GLS identification is displayed on the PFD.
+- `RAD NAVAIDS` (`RNAV` page on MCDU): Selected/Identified
+    - Ensure that appropriate radio NAVA/OS are tuned and identified.
+        - Currently the FlyByWire A32NX does not auto tune NAVAIDS
+    - For NDB approaches, manually select the reference NAVAID.
+
 #### Approach Checklist
 
-Before passing **10,000ft** we do the **Approach Checklist**:
-
-- Approach Briefing: `CONFIRMED`
-- ECAM Status: `CHECKED`
-- Seat Belts: `ON`
-- Baro Ref: `SET` (when below transition altitude)
-- Minimum: `SET` (part of the `PERF APPR` page)
-- ENG MODE SEL: `AS RQRD`
-- Landing Lights: `ON`
+```
+- Approach Briefing: CONFIRMED
+- ECAM Status: CHECKED
+- Seat Belts: ON
+- Baro Ref: SET (when below transition altitude/level)
+- Minimum: SET (part of the PERF APPR page)
+- ENG MODE SEL: AS RQRD
+```
 
 #### Cabin Crew
 
@@ -269,11 +287,11 @@ This concludes *Starting the Descent*.
 - We have not yet reached the first waypoint of the STAR.
 - `MCDU PERF APPR` page is filled (beginner can skip this - see chapter [Advanced arrival planning](#advanced-arrival-planning)).
 
-Flying the STAR and Approach is very similar to any other part of the route within in the flight plan. Apart from descending and adhering to constraints the lateral flight path just follows the programmed route.<br/>
+Flying the STAR and Approach is very similar to any other part of the route within the flight plan. Apart from descending and adhering to constraints the lateral flight path just follows the programmed route.<br/>
  Let the __Autopilot__ do this for you and just adjust altitude and speed according to the charts or the ATC instructions.
 
-!!! info "Above 10,000ft"
-    If we are still above 10,000ft remember the [Approach Checklist](#approach-checklist) from the previous chapter.
+!!! info "Passing 10,000ft"
+    If we are passing 10,000ft within the STAR remember the [At 10,000ft Procedure](#at-10000ft-procedure) and the [Approach Checklist](#approach-checklist) from the previous chapter.
 
 At some point during the descent and when close enough to the airport we will be instructed by ATC to contact ATC Approach for the airport we are flying into.
 
