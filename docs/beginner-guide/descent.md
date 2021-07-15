@@ -287,7 +287,7 @@ This concludes *Starting the Descent*.
 - We have not yet reached the first waypoint of the STAR.
 - `MCDU PERF APPR` page is filled (beginner can skip this - see chapter [Advanced arrival planning](#advanced-arrival-planning)).
 
-Flying the STAR and Approach is very similar to any other part of the route within in the flight plan. Apart from descending and adhering to constraints the lateral flight path just follows the programmed route.<br/>
+Flying the STAR and Approach is very similar to any other part of the route within the flight plan. Apart from descending and adhering to constraints the lateral flight path just follows the programmed route.<br/>
  Let the __Autopilot__ do this for you and just adjust altitude and speed according to the charts or the ATC instructions.
 
 !!! info "Passing 10,000ft"
