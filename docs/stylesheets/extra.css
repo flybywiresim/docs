@@ -17,6 +17,9 @@
 .md-tabs {
   background: #3D6575
 }
+.md-top {
+  color: #ffffff;
+}
 
 /*Header Modifications*/
 .md-typeset h1 {
