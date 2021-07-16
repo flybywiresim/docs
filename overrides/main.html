@@ -1,5 +1,35 @@
 {% extends "base.html" %}
 
+<!-- Front matter -->
+{% block extrahead %}
+    {% if page and page.meta and page.meta.robots %}
+        <meta property="robots" content="{{ page.meta.robots }}" />
+    {% else %}
+        <meta property="robots" content="index, follow" />
+    {% endif %}
+
+<!-- Image URL -->
+    {% set image = config.site_url ~ 'assets/images/meta-image-test.png' %}
+
+    <!-- Open graph Meta -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{ title }}" />
+    <meta property="og:description" content="{{ config.description }}" />
+    <meta property="og:url" content="{{ page.canonical_url }}" />
+    <meta property="og:image" content="{{ image }}" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1080" />
+    <meta property="og:image:height" content="568" />
+
+    <!-- Twitter Meta -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@FlyByWireSim" />
+    <meta name="twitter:creator" content="@FlyByWireSim" />
+    <meta name="twitter:title" content="{{ title }}" />
+    <meta name="twitter:description" content="{{ config.description }}" />
+    <meta name="twitter:image" content="{{ image }}" />
+{% endblock %}
+
 {% set extracopyright %}
     <br> Powered by <a href="https://vercel.com/?utm_source=flybywiresim&utm_campaign=oss">
             <img src="/assets/images/vercel-logotype-light.svg" alt="Vercel Logo"></a>
