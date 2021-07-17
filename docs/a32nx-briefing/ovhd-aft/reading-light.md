@@ -1,4 +1,4 @@
-# Reading Lights Capt. & F.O.
+# Reading Lights Jump Seats
 
 ---
 
@@ -6,9 +6,9 @@ Back to [Flight Deck](../flight-deck.md)
 
 ---
 
-![Reading Lights Capt. & F.O.](../../assets/a32nx-briefing/overhead-aft-panel/Capt-Reading-Light.png "Reading Lights Capt. & F.O."){width=320}
+![Reading Lights Jumb Seats](../../assets/a32nx-briefing/overhead-aft-panel/Reading-Lights.png "Reading Lights Jump Seats"){width=320}
 
-Additional lighting for Capt. and F.O. side.
+Additional lighting for the two jump seats behind the pilots.
 
 ---
 
