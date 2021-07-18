@@ -110,7 +110,7 @@ hide:
     <a href="/a32nx-briefing/pedestal/speedbrake/"><div class="imagemap" style="position: absolute; left: 41.2%; top: 84%; width: 4.3%; height: 4.7%;"><span class="imagemapname">Speed Brake</span></div></a>
     <a href="/a32nx-briefing/pedestal/flaps/"><div class="imagemap" style="position: absolute; left: 54.4%; top: 84%; width: 4.3%; height: 4.7%;"><span class="imagemapname">Flaps</span></div></a>
     <a href="/a32nx-briefing/pedestal/cockpit-door/"><div class="imagemap" style="position: absolute; left: 34%; top: 88.7%; width: 12.3%; height: 2.6%;"><span class="imagemapname">Cockpit Door Panel</span></div></a>
-    <a href="/a32nx-briefing/pedestal/printer/"><div class="imagemap" style="position: absolute; left: 54%; top: 88.7%; width: 12.3%; height: 2.6%;"><span class="imagemapname">Printer</span></div></a>
+    <a href="/a32nx-briefing/pedestal/printer/"><div class="imagemap" style="position: absolute; left: 54%; top: 88.7%; width: 12.3%; height: 7.7%;"><span class="imagemapname">Printer</span></div></a>
     <a href="/a32nx-briefing/pedestal/rudder-trim/"><div class="imagemap" style="position: absolute; left: 46.3%; top: 86.6%; width: 8%; height: 3%;"><span class="imagemapname">Rudder Trim</span></div></a>
     <a href="/a32nx-briefing/pedestal/parking-brake/"><div class="imagemap" style="position: absolute; left: 46.3%; top: 90.5%; width: 8%; height: 3.2%;"><span class="imagemapname">Parking Brake</span></div></a>
     <a href="/a32nx-briefing/pedestal/gravity-gear-ext/"><div class="imagemap" style="position: absolute; left: 46.3%; top: 93.7%; width: 8%; height: 3.2%;"><span class="imagemapname">Gravity Gear Extension</span></div></a>
