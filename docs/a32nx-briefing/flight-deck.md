@@ -91,7 +91,7 @@ hide:
     <a href="/a32nx-briefing/glareshield/warning/"><div class="imagemap" style="position: absolute; left: 69%; top: 47.5%; width: 31%; height: 3.2%;"><span class="imagemapname">Alarms and Warnings F.O.</span></div></a>
     <a href="#"><div class="imagemap" style="position: absolute; left: 8.5%; top: 51.5%; width: 31.2%; height: 5.5%;"><span class="imagemapname">EFIS Instruments Capt.</span></div></a>
     <a href="#"><div class="imagemap" style="position: absolute; left: 64%; top: 51.5%; width: 27.5%; height: 5.5%;"><span class="imagemapname">EFIS Instruments F.O.</span></div></a>
-    <a href="/a32nx-briefing/front-middle/sai/"><div class="imagemap" style="position: absolute; left: 39.7%; top: 53.5%; width: 5.2%; height: 2.8%;"><span class="imagemapname">Standby Attitude Indicator</span></div></a>
+    <a href="/a32nx-briefing/front-middle/isis/"><div class="imagemap" style="position: absolute; left: 39.7%; top: 53.5%; width: 5.2%; height: 2.8%;"><span class="imagemapname">Integrated Standby Instrument System</span></div></a>
     <a href="/a32nx-briefing/front-middle/dcdu/"><div class="imagemap" style="position: absolute; left: 36.5%; top: 59.2%; width: 8%; height: 2.5%;"><span class="imagemapname">Datalink Ctl and Display Unit</span></div></a>
     <a href="#"><div class="imagemap" style="position: absolute; left: 45%; top: 51.2%; width: 11%; height: 10.5%;"><span class="imagemapname">ECAM</span></div></a>
     <a href="#"><div class="imagemap" style="position: absolute; left: 56%; top: 51.2%; width: 8%; height: 8%;"><span class="imagemapname">Autobrake and Gear</span></div></a>
