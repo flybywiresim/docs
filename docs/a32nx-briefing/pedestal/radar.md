@@ -6,7 +6,7 @@ Back to [Flight Deck](../flight-deck.md)
 
 ---
 
-![WX Radar Panel](../../assets/a32nx-briefing/pedestal/WX-radar-Panel.png "WX Radar Panel")
+![WX Radar Panel](../../assets/a32nx-briefing/pedestal/WX-radar-Panel.png "WX Radar Panel"){width=50%}
 
 ## Description
 

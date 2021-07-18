@@ -6,7 +6,7 @@ Back to [Flight Deck](../flight-deck.md)
 
 ---
 
-![ATC-TCAS Panel](../../assets/a32nx-briefing/pedestal/ATC-TCAS.png "ATC-TCAS Panel")
+![ATC-TCAS Panel](../../assets/a32nx-briefing/pedestal/ATC-TCAS.png "ATC-TCAS Panel"){width=50%}
 
 ## Description
 

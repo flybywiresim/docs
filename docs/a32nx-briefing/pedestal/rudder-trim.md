@@ -6,7 +6,7 @@ Back to [Flight Deck](../flight-deck.md)
 
 ---
 
-![Rudder Trim Panel](../../assets/a32nx-briefing/pedestal/Rudder-trim-Panel.png "Rudder Trim Panel")
+![Rudder Trim Panel](../../assets/a32nx-briefing/pedestal/Rudder-trim-Panel.png "Rudder Trim Panel"){width=50%}
 
 
 ## Controls

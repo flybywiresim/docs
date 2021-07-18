@@ -6,7 +6,7 @@ Back to [Flight Deck](../flight-deck.md)
 
 ---
 
-![Pedestal Lighting, Aids and Dfdr Panel](../../assets/a32nx-briefing/pedestal/Lighting-Aids-Dfdr-Panel.png "Pedestal Lighting, Aids and Dfdr Panel")
+![Pedestal Lighting, Aids and Dfdr Panel](../../assets/a32nx-briefing/pedestal/Lighting-Aids-Dfdr-Panel.png "Pedestal Lighting, Aids and Dfdr Panel"){width=50%}
 
 
 ### FLOOD LT PED knob

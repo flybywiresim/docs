@@ -6,7 +6,7 @@ Back to [Flight Deck](../flight-deck.md)
 
 ---
 
-![Radio Management Panel](../../assets/a32nx-briefing/pedestal/RMP.png "Radio Management Panel")
+![Radio Management Panel](../../assets/a32nx-briefing/pedestal/RMP.png "Radio Management Panel"){width=50%}
 
 ## Description
 

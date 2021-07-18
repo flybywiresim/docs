@@ -6,7 +6,7 @@ Back to [Flight Deck](../flight-deck.md)
 
 ---
 
-![Flaps Panel](../../assets/a32nx-briefing/pedestal/Flaps-Panel.png "Flaps Panel"){width=360}
+![Flaps Panel](../../assets/a32nx-briefing/pedestal/Flaps-Panel.png "Flaps Panel"){width=50%}
 
 ## Controls
 

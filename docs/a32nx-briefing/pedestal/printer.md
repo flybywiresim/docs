@@ -6,7 +6,7 @@ Back to [Flight Deck](../flight-deck.md)
 
 ---
 
-![Printer Panel](../../assets/a32nx-briefing/pedestal/Printer-Panel.png "Printer Panel")
+![Printer Panel](../../assets/a32nx-briefing/pedestal/Printer-Panel.png "Printer Panel"){width=50%}
 
 ## Description
 

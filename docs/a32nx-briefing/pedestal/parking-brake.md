@@ -6,7 +6,7 @@ Back to [Flight Deck](../flight-deck.md)
 
 ---
 
-![Parking Brake Panel](../../assets/a32nx-briefing/pedestal/Parking-Brake-Panel.png "Parking Brake Panel")
+![Parking Brake Panel](../../assets/a32nx-briefing/pedestal/Parking-Brake-Panel.png "Parking Brake Panel"){width=50%}
 
 ## Controls and Indications
 

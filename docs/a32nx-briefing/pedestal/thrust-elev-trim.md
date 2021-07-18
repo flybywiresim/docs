@@ -6,7 +6,7 @@ Back to [Flight Deck](../flight-deck.md)
 
 ---
 
-![Thrust Lever and Elevation Trim](../../assets/a32nx-briefing/pedestal/Thrust-lever-elev-trim.png "Thrust Lever and Elevation Trim"){width=360}
+![Thrust Lever and Elevation Trim](../../assets/a32nx-briefing/pedestal/Thrust-lever-elev-trim.png "Thrust Lever and Elevation Trim"){width=50%}
 
 ## Description
 

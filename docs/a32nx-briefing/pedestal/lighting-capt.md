@@ -6,7 +6,7 @@ Back to [Flight Deck](../flight-deck.md)
 
 ---
 
-![Pedestal Lighting Knobs](../../assets/a32nx-briefing/pedestal/Pedestal-lighting.png "Pedestal Lighting Knobs")
+![Pedestal Lighting Knobs](../../assets/a32nx-briefing/pedestal/Pedestal-lighting.png "Pedestal Lighting Knobs"){width=50%}
 
 ## Controls and Indications
 
