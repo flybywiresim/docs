@@ -35,8 +35,11 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
     - [**Typical Issues + Solutions**](autopilot-fbw.md#typical-issues-and-how-to-solve-them)
     - [**Known Issues**](autopilot-fbw.md#known-issues)
 
-* Simbrief integration - fuel and payload showing 0 after OFP request
+* Simbrief integration - fuel and payload showing 0 after OFP request in AOC.
     - Solution: Ensure that your assigned weights (KG / LBS) are the same in your simBrief flight plan, MCDU, and EFB
+    
+* EFB unit conversions cause weights on ECAM and MCDU to show 0 when **lbs** is selected by the efb. Fix in progress [PR #5344](https://github.com/flybywiresim/a32nx/pull/5344).
+    - Workaround: Set the desired weight unit using the MCDU. *Restart of flight required*.
 
 * Toolbar pushback addon may cause unwanted behavior and prevent use of nose wheel steering. 
     - Solution:
