@@ -8,14 +8,14 @@ hide:
 
 - Clickable overview of the A320neo flight deck.
 - Move the mouse over the panels to get the name of the panel.
-- Click on the panels to get a more detailed description of that panel (if available yet).
+- Click on the panels to get a more detailed description of that panel.
 
 <style>
 .imagemap {
     position: relative;
     display: inline-block;
-    background-color: rgba(255, 0, 0, .4);
-    border: 1px solid yellow;
+    /*background-color: rgba(255, 0, 0, .4);*/
+    /*border: 1px solid yellow;*/
 }
 .imagemap .imagemapname {
   visibility: hidden;
@@ -30,7 +30,7 @@ hide:
   position: absolute;
   z-index: 1;
   width: 120px;
-  bottom: 100%;
+  top: 0%;
   left: 50%;
   margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
 }
@@ -55,16 +55,16 @@ hide:
     <a href="/a32nx-briefing/ovhd-aft/reading-light/"><div class="imagemap" style="position: absolute; left: 65.3%; top: 15.3%; width: 12.5%; height: 3.4%;"><span class="imagemapname">Jump Seat Left Light</span></div></a>
     <a href="/a32nx-briefing/ovhd-aft/fms-load/"><div class="imagemap" style="position: absolute; left: 65.3%; top: 18.6%; width: 12.5%; height: 2.2%;"><span class="imagemapname">FMS Load Panel</span></div></a>
     <!-- OVHD FWD Left-->
-    <a href="#"><div class="imagemap" style="position: absolute; left: 22.5%; top: 23.8%; width: 12.5%; height: 1.7%;"><span class="imagemapname">PA and Cockpit Door Video</span></div></a>
-    <a href="#"><div class="imagemap" style="position: absolute; left: 22.5%; top: 25.5%; width: 12.6%; height: 4.5%;"><span class="imagemapname">ADIRS Panel</span></div></a>
-    <a href="#"><div class="imagemap" style="position: absolute; left: 22.5%; top: 31.2%; width: 12.6%; height: 1.7%;"><span class="imagemapname">Flight Control Panel Left</span></div></a>
-    <a href="#"><div class="imagemap" style="position: absolute; left: 22.5%; top: 32.9%; width: 12.6%; height: 1.6%;"><span class="imagemapname">Evacuation Panel</span></div></a>
-    <a href="#"><div class="imagemap" style="position: absolute; left: 22.5%; top: 34.5%; width: 12.6%; height: 1.7%;"><span class="imagemapname">Emergency Electric Power Panel</span></div></a>
-    <a href="#"><div class="imagemap" style="position: absolute; left: 22.5%; top: 36.2%; width: 12.6%; height: 1.5%;"><span class="imagemapname">Ground Proximity Warning Panel</span></div></a>
-    <a href="#"><div class="imagemap" style="position: absolute; left: 22.5%; top: 37.7%; width: 12.6%; height: 1.3%;"><span class="imagemapname">Voice Recoder Panel</span></div></a>
-    <a href="#"><div class="imagemap" style="position: absolute; left: 22.5%; top: 39%; width: 12.6%; height: 1.5%;"><span class="imagemapname">Oxygen Panel</span></div></a>
-    <a href="#"><div class="imagemap" style="position: absolute; left: 22.5%; top: 40.5%; width: 12.6%; height: 1.45%;"><span class="imagemapname">Calls Panel</span></div></a>
-    <a href="#"><div class="imagemap" style="position: absolute; left: 22.5%; top: 41.95%; width: 12.6%; height: 2.2%;"><span class="imagemapname">Wiper Panel Capt.</span></div></a>
+    <a href="/a32nx-briefing/ovhd/"><div class="imagemap" style="position: absolute; left: 22.5%; top: 23.8%; width: 12.5%; height: 1.7%;"><span class="imagemapname">PA and Cockpit Door Video</span></div></a>
+    <a href="/a32nx-briefing/ovhd/adirs/"><div class="imagemap" style="position: absolute; left: 22.5%; top: 25.5%; width: 12.6%; height: 4.5%;"><span class="imagemapname">ADIRS Panel</span></div></a>
+    <a href="/a32nx-briefing/ovhd/flight-control-computer/"><div class="imagemap" style="position: absolute; left: 22.5%; top: 31.2%; width: 12.6%; height: 1.7%;"><span class="imagemapname">Flight Control Panel Left</span></div></a>
+    <a href="/a32nx-briefing/ovhd/evacuation/"><div class="imagemap" style="position: absolute; left: 22.5%; top: 32.9%; width: 12.6%; height: 1.6%;"><span class="imagemapname">Evacuation Panel</span></div></a>
+    <a href="/a32nx-briefing/ovhd/emergency-electric/"><div class="imagemap" style="position: absolute; left: 22.5%; top: 34.5%; width: 12.6%; height: 1.7%;"><span class="imagemapname">Emergency Electric Power Panel</span></div></a>
+    <a href="/a32nx-briefing/ovhd/egpws/"><div class="imagemap" style="position: absolute; left: 22.5%; top: 36.2%; width: 12.6%; height: 1.5%;"><span class="imagemapname">Ground Proximity Warning Panel</span></div></a>
+    <a href="/a32nx-briefing/ovhd/voice-recorder/"><div class="imagemap" style="position: absolute; left: 22.5%; top: 37.7%; width: 12.6%; height: 1.3%;"><span class="imagemapname">Voice Recoder Panel</span></div></a>
+    <a href="/a32nx-briefing/ovhd/oxygen/"><div class="imagemap" style="position: absolute; left: 22.5%; top: 39%; width: 12.6%; height: 1.5%;"><span class="imagemapname">Oxygen Panel</span></div></a>
+    <a href="/a32nx-briefing/ovhd/calls/"><div class="imagemap" style="position: absolute; left: 22.5%; top: 40.5%; width: 12.6%; height: 1.45%;"><span class="imagemapname">Calls Panel</span></div></a>
+    <a href="/a32nx-briefing/ovhd/wipers"><div class="imagemap" style="position: absolute; left: 22.5%; top: 41.95%; width: 12.6%; height: 2.2%;"><span class="imagemapname">Wiper Panel Capt.</span></div></a>
     <!-- OVHD FWD Middle-->
     <a href="/a32nx-briefing/ovhd/fire/"><div class="imagemap" style="position: absolute; left: 35.1%; top: 25.7%; width: 30%; height: 2.7%;"><span class="imagemapname">Fire Control Panel</span></div></a>
     <a href="/a32nx-briefing/ovhd/hyd/"><div class="imagemap" style="position: absolute; left: 35.1%; top: 28.4%; width: 30%; height: 2.3%;"><span class="imagemapname">Hydraulic Control Panel</span></div></a>
@@ -86,29 +86,36 @@ hide:
     <a href="/a32nx-briefing/ovhd/eng-man/"><div class="imagemap" style="position: absolute; left: 65.1%; top: 40.3%; width: 12.6%; height: 1.75%;"><span class="imagemapname">Engine Manual Start and N1 Mode Panel</span></div></a>
     <a href="/a32nx-briefing/ovhd/wipers/"><div class="imagemap" style="position: absolute; left: 65.1%; top: 42%; width: 12.6%; height: 2.2%;"><span class="imagemapname">Wiper Panel F.O.</span></div></a>
     <!-- Glareshield -->
-    <a href="/a32nx-briefing/glareshield/fcu/">            <div class="imagemap" style="position: absolute; left: 41.5%; top: 46.5%; width: 17%; height: 3.7%;"><span class="imagemapname">Flight Control Unit</span></div></a>
+    <a href="/a32nx-briefing/glareshield/fcu/"> <div class="imagemap" style="position: absolute; left: 41.5%; top: 46.5%; width: 17%; height: 3.7%;"><span class="imagemapname">Flight Control Unit</span></div></a>
     <a href="/a32nx-briefing/glareshield/efis_control/">   <div class="imagemap" style="position: absolute; left: 31%; top: 47%; width: 10.5%; height: 3.2%;"><span class="imagemapname">EFIS Control Unit Capt.</span></div></a>
     <a href="/a32nx-briefing/glareshield/efis_control/">   <div class="imagemap" style="position: absolute; left: 58.5%; top: 47%; width: 10.5%; height: 3.2%;"><span class="imagemapname">EFIS Control Unit F.O.</span></div></a>
-    <a href="/a32nx-briefing/glareshield/warning/">        <div class="imagemap" style="position: absolute; left: 0%; top: 47.5%; width: 31%; height: 3.2%;"><span class="imagemapname">Alarms and Warnings Capt.</span></div></a>
-    <a href="/a32nx-briefing/glareshield/warning/">        <div class="imagemap" style="position: absolute; left: 69%; top: 47.5%; width: 31%; height: 3.2%;"><span class="imagemapname">Alarms and Warnings F.O.</span></div></a>
+    <a href="/a32nx-briefing/glareshield/warning/"> <div class="imagemap" style="position: absolute; left: 0%; top: 47.5%; width: 31%; height: 3.2%;"><span class="imagemapname">Alarms and Warnings Capt.</span></div></a>
+    <a href="/a32nx-briefing/glareshield/warning/"> <div class="imagemap" style="position: absolute; left: 69%; top: 47.5%; width: 31%; height: 3.2%;"><span class="imagemapname">Alarms and Warnings F.O.</span></div></a>
+    <a href="/a32nx-briefing/glareshield/light-knobs/">    <div class="imagemap" style="position: absolute; left: 0%; top: 50.7%; width: 100%; height: 0.8%;"><span class="imagemapname">Light Knobs</span></div></a>
+    <a href="/a32nx-briefing/glareshield/light-knobs/">    <div class="imagemap" style="position: absolute; left:31%; top: 50.2%; width: 38%; height: 1.3%;"><span class="imagemapname">Light Knobs</span></div></a>
     <!-- Flight Instruments -->
-    <a href="/a32nx-briefing/front-middle/#">              <div class="imagemap" style="position: absolute; left: 8.5%; top: 51.5%; width: 28%; height: 5.5%;"><span class="imagemapname">EFIS Instruments Capt.</span></div></a>
-    <a href="/a32nx-briefing/front-middle/#">              <div class="imagemap" style="position: absolute; left: 36.5%; top: 55.4%; width: 3.2%; height: 2.1%;"><span class="imagemapname">Terrain Switch for ND</span></div></a>
-    <a href="/a32nx-briefing/front-middle/#">              <div class="imagemap" style="position: absolute; left: 64%; top: 51.5%; width: 27.5%; height: 5.5%;"><span class="imagemapname">EFIS Instruments F.O.</span></div></a>
-    <a href="/a32nx-briefing/front-middle/isis/">          <div class="imagemap" style="position: absolute; left: 39.7%; top: 53.5%; width: 5.2%; height: 2.8%;"><span class="imagemapname">Integrated Standby Instrument System</span></div></a>
-    <a href="/a32nx-briefing/front-middle/dcdu/">          <div class="imagemap" style="position: absolute; left: 36.5%; top: 59.2%; width: 8%; height: 2.5%;"><span class="imagemapname">Datalink Ctl and Display Unit</span></div></a>
-    <a href="/a32nx-briefing/front-middle/#">              <div class="imagemap" style="position: absolute; left: 45%; top: 51.2%; width: 11%; height: 10.5%;"><span class="imagemapname">ECAM</span></div></a>
-    <a href="/a32nx-briefing/front-middle/autobrake-gear/"><div class="imagemap" style="position: absolute; left: 56%; top: 51.2%; width: 8%; height: 2.6%;"><span class="imagemapname">Autobrake and Gear</span></div></a>
-    <a href="/a32nx-briefing/front-middle/clock/">         <div class="imagemap" style="position: absolute; left: 56%; top: 53.8%; width: 5.2%; height: 2.5%;"><span class="imagemapname">Clock</span></div></a>
-    <a href="/a32nx-briefing/front-middle/#">              <div class="imagemap" style="position: absolute; left: 61.2%; top: 53.8%; width: 2.8%; height: 2.5%;"><span class="imagemapname">Terrain Switch for ND</span></div></a>
+    <a href="/a32nx-briefing/front-middle/ilcp/"> <div class="imagemap" style="position: absolute; left: 8.5%; top: 51.5%; width: 7%; height: 3.5%;"><span class="imagemapname">Instrument Lighting Control Panel Capt.</span></div></a>
+    <a href="/a32nx-briefing/front-middle/pfd/"> <div class="imagemap" style="position: absolute; left: 15.5%; top: 51.5%; width: 10.5%; height: 5.5%;"><span class="imagemapname">PFD Capt.</span></div></a>
+    <a href="/a32nx-briefing/front-middle/nd/"> <div class="imagemap" style="position: absolute; left: 26%; top: 51.5%; width: 10.5%; height: 5.5%;"><span class="imagemapname">ND Capt.</span></div></a>
+    <a href="/a32nx-briefing/front-middle/nd/"> <div class="imagemap" style="position: absolute; left: 36.5%; top: 55.4%; width: 3.2%; height: 2.1%;"><span class="imagemapname">Terrain Switch for ND</span></div></a>
+    <a href="/a32nx-briefing/front-middle/nd/"> <div class="imagemap" style="position: absolute; left: 64%; top: 51.5%; width: 10%; height: 5.5%;"><span class="imagemapname">ND F.O.</span></div></a>
+    <a href="/a32nx-briefing/front-middle/pfd/"> <div class="imagemap" style="position: absolute; left: 74%; top: 51.5%; width: 10.5%; height: 5.5%;"><span class="imagemapname">PFD F.O.</span></div></a>
+    <a href="/a32nx-briefing/front-middle/ilcp/"> <div class="imagemap" style="position: absolute; left: 84.5%; top: 51.5%; width: 7%; height: 3.5%;"><span class="imagemapname">Instrument Lighting Control Panel F.O.</span></div></a>
+    <a href="/a32nx-briefing/front-middle/isis/"> <div class="imagemap" style="position: absolute; left: 39.7%; top: 53.5%; width: 5.2%; height: 2.8%;"><span class="imagemapname">Integrated Standby Instrument System</span></div></a>
+    <a href="/a32nx-briefing/front-middle/dcdu/"> <div class="imagemap" style="position: absolute; left: 36.5%; top: 59.2%; width: 8%; height: 2.5%;"><span class="imagemapname">Datalink Ctl and Display Unit</span></div></a>
+    <a href="/a32nx-briefing/front-middle/upper-ecam/"> <div class="imagemap" style="position: absolute; left: 45%; top: 51.5%; width: 11%; height: 5.1%;"><span class="imagemapname">Upper ECAM</span></div></a>
+    <a href="/a32nx-briefing/front-middle/lower-ecam/"> <div class="imagemap" style="position: absolute; left: 45%; top: 56.6%; width: 11%; height: 5.2%;"><span class="imagemapname">Lower ECAM</span></div></a>
+    <a href="/a32nx-briefing/front-middle/autobrake-gear/"><div class="imagemap" style="position: absolute; left: 56%; top: 51.5%; width: 8%; height: 2.3%;"><span class="imagemapname">Autobrake and Gear</span></div></a>
+    <a href="/a32nx-briefing/front-middle/clock/"> <div class="imagemap" style="position: absolute; left: 56%; top: 53.8%; width: 5.2%; height: 2.5%;"><span class="imagemapname">Clock</span></div></a>
+    <a href="/a32nx-briefing/front-middle/nd/"> <div class="imagemap" style="position: absolute; left: 61.2%; top: 53.8%; width: 2.8%; height: 2.5%;"><span class="imagemapname">Terrain Switch for ND</span></div></a>
     <a href="/a32nx-briefing/front-middle/autobrake-gear/"><div class="imagemap" style="position: absolute; left: 56%; top: 56.3%; width: 4%; height: 2.9%;"><span class="imagemapname">Gear</span></div></a>
-    <a href="/a32nx-briefing/front-middle/accu/">          <div class="imagemap" style="position: absolute; left: 60%; top: 57.2%; width: 4%; height: 2.0%;"><span class="imagemapname">Accumulator Pressure Indication</span></div></a>
-    <a href="/a32nx-briefing/front-middle/dcdu/">          <div class="imagemap" style="position: absolute; left: 56%; top: 59.2%; width: 8%; height: 2.5%;"><span class="imagemapname">Datalink Ctl and Display Unit</span></div></a>
+    <a href="/a32nx-briefing/front-middle/accu/"> <div class="imagemap" style="position: absolute; left: 60%; top: 57.2%; width: 4%; height: 2.0%;"><span class="imagemapname">Accumulator Pressure Indication</span></div></a>
+    <a href="/a32nx-briefing/front-middle/dcdu/"> <div class="imagemap" style="position: absolute; left: 56%; top: 59.2%; width: 8%; height: 2.5%;"><span class="imagemapname">Datalink Ctl and Display Unit</span></div></a>
     <!-- Pedestal -->
     <a href="/a32nx-briefing/pedestal/switching/"><div class="imagemap" style="position: absolute; left: 41.2%; top: 62.5%; width: 17.6%; height: 3.2%;"><span class="imagemapname">Switching Panel</span></div></a>
-    <a href="#"><div class="imagemap" style="position: absolute; left: 41.2%; top: 65.7%; width: 17.6%; height: 3.2%;"><span class="imagemapname">ECAM Control Panel</span></div></a>
-    <a href="#"><div class="imagemap" style="position: absolute; left: 28.9%; top: 62.5%; width: 12.3%; height: 9.9%;"><span class="imagemapname">MCDU Capt.</span></div></a>
-    <a href="#"><div class="imagemap" style="position: absolute; left: 58.8%; top: 62.5%; width: 12.3%; height: 9.9%;"><span class="imagemapname">MCDU F.O.</span></div></a>
+    <a href="/a32nx-briefing/pedestal/ecam-control/"><div class="imagemap" style="position: absolute; left: 41.2%; top: 65.7%; width: 17.6%; height: 3.2%;"><span class="imagemapname">ECAM Control Panel</span></div></a>
+    <a href="/a32nx-briefing/pedestal/mcdu/"><div class="imagemap" style="position: absolute; left: 28.9%; top: 62.5%; width: 12.3%; height: 9.9%;"><span class="imagemapname">MCDU Capt.</span></div></a>
+    <a href="/a32nx-briefing/pedestal/mcdu/"><div class="imagemap" style="position: absolute; left: 58.8%; top: 62.5%; width: 12.3%; height: 9.9%;"><span class="imagemapname">MCDU F.O.</span></div></a>
     <a href="/a32nx-briefing/pedestal/rmp/"><div class="imagemap" style="position: absolute; left: 28.9%; top: 72.4%; width: 12.3%; height: 7.7%;"><span class="imagemapname">RMP and Audio Control Capt.</span></div></a>
     <a href="/a32nx-briefing/pedestal/rmp/"><div class="imagemap" style="position: absolute; left: 58.8%; top: 72.4%; width: 12.3%; height: 7.7%;"><span class="imagemapname">RMP and Audio Control F.O.</span></div></a>
     <a href="/a32nx-briefing/pedestal/thrust-elev-trim/"><div class="imagemap" style="position: absolute; left: 41.2%; top: 70%; width: 17.6%; height: 11.7%;"><span class="imagemapname">Thrust Lever and Elevation Trim</span></div></a>
