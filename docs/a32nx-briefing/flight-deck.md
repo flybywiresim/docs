@@ -94,23 +94,23 @@ hide:
     <a href="/a32nx-briefing/glareshield/light-knobs/">    <div class="imagemap" style="position: absolute; left: 0%; top: 50.7%; width: 100%; height: 0.8%;"><span class="imagemapname">Light Knobs</span></div></a>
     <a href="/a32nx-briefing/glareshield/light-knobs/">    <div class="imagemap" style="position: absolute; left:31%; top: 50.2%; width: 38%; height: 1.3%;"><span class="imagemapname">Light Knobs</span></div></a>
     <!-- Flight Instruments -->
-    <a href="/a32nx-briefing/front-middle/ilcp/"> <div class="imagemap" style="position: absolute; left: 8.5%; top: 51.5%; width: 7%; height: 3.5%;"><span class="imagemapname">Instrument Lighting Control Panel Capt.</span></div></a>
-    <a href="/a32nx-briefing/front-middle/pfd/"> <div class="imagemap" style="position: absolute; left: 15.5%; top: 51.5%; width: 10.5%; height: 5.5%;"><span class="imagemapname">PFD Capt.</span></div></a>
-    <a href="/a32nx-briefing/front-middle/nd/"> <div class="imagemap" style="position: absolute; left: 26%; top: 51.5%; width: 10.5%; height: 5.5%;"><span class="imagemapname">ND Capt.</span></div></a>
-    <a href="/a32nx-briefing/front-middle/nd/"> <div class="imagemap" style="position: absolute; left: 36.5%; top: 55.4%; width: 3.2%; height: 2.1%;"><span class="imagemapname">Terrain Switch for ND</span></div></a>
-    <a href="/a32nx-briefing/front-middle/nd/"> <div class="imagemap" style="position: absolute; left: 64%; top: 51.5%; width: 10%; height: 5.5%;"><span class="imagemapname">ND F.O.</span></div></a>
-    <a href="/a32nx-briefing/front-middle/pfd/"> <div class="imagemap" style="position: absolute; left: 74%; top: 51.5%; width: 10.5%; height: 5.5%;"><span class="imagemapname">PFD F.O.</span></div></a>
-    <a href="/a32nx-briefing/front-middle/ilcp/"> <div class="imagemap" style="position: absolute; left: 84.5%; top: 51.5%; width: 7%; height: 3.5%;"><span class="imagemapname">Instrument Lighting Control Panel F.O.</span></div></a>
-    <a href="/a32nx-briefing/front-middle/isis/"> <div class="imagemap" style="position: absolute; left: 39.7%; top: 53.5%; width: 5.2%; height: 2.8%;"><span class="imagemapname">Integrated Standby Instrument System</span></div></a>
-    <a href="/a32nx-briefing/front-middle/dcdu/"> <div class="imagemap" style="position: absolute; left: 36.5%; top: 59.2%; width: 8%; height: 2.5%;"><span class="imagemapname">Datalink Ctl and Display Unit</span></div></a>
-    <a href="/a32nx-briefing/front-middle/upper-ecam/"> <div class="imagemap" style="position: absolute; left: 45%; top: 51.5%; width: 11%; height: 5.1%;"><span class="imagemapname">Upper ECAM</span></div></a>
-    <a href="/a32nx-briefing/front-middle/lower-ecam/"> <div class="imagemap" style="position: absolute; left: 45%; top: 56.6%; width: 11%; height: 5.2%;"><span class="imagemapname">Lower ECAM</span></div></a>
-    <a href="/a32nx-briefing/front-middle/autobrake-gear/"><div class="imagemap" style="position: absolute; left: 56%; top: 51.5%; width: 8%; height: 2.3%;"><span class="imagemapname">Autobrake and Gear</span></div></a>
-    <a href="/a32nx-briefing/front-middle/clock/"> <div class="imagemap" style="position: absolute; left: 56%; top: 53.8%; width: 5.2%; height: 2.5%;"><span class="imagemapname">Clock</span></div></a>
-    <a href="/a32nx-briefing/front-middle/nd/"> <div class="imagemap" style="position: absolute; left: 61.2%; top: 53.8%; width: 2.8%; height: 2.5%;"><span class="imagemapname">Terrain Switch for ND</span></div></a>
-    <a href="/a32nx-briefing/front-middle/autobrake-gear/"><div class="imagemap" style="position: absolute; left: 56%; top: 56.3%; width: 4%; height: 2.9%;"><span class="imagemapname">Gear</span></div></a>
-    <a href="/a32nx-briefing/front-middle/accu/"> <div class="imagemap" style="position: absolute; left: 60%; top: 57.2%; width: 4%; height: 2.0%;"><span class="imagemapname">Accumulator Pressure Indication</span></div></a>
-    <a href="/a32nx-briefing/front-middle/dcdu/"> <div class="imagemap" style="position: absolute; left: 56%; top: 59.2%; width: 8%; height: 2.5%;"><span class="imagemapname">Datalink Ctl and Display Unit</span></div></a>
+    <a href="/a32nx-briefing/front/ilcp/"> <div class="imagemap" style="position: absolute; left: 8.5%; top: 51.5%; width: 7%; height: 3.5%;"><span class="imagemapname">Instrument Lighting Control Panel Capt.</span></div></a>
+    <a href="/a32nx-briefing/front/pfd/"> <div class="imagemap" style="position: absolute; left: 15.5%; top: 51.5%; width: 10.5%; height: 5.5%;"><span class="imagemapname">PFD Capt.</span></div></a>
+    <a href="/a32nx-briefing/front/nd/"> <div class="imagemap" style="position: absolute; left: 26%; top: 51.5%; width: 10.5%; height: 5.5%;"><span class="imagemapname">ND Capt.</span></div></a>
+    <a href="/a32nx-briefing/front/nd/"> <div class="imagemap" style="position: absolute; left: 36.5%; top: 55.4%; width: 3.2%; height: 2.1%;"><span class="imagemapname">Terrain Switch for ND</span></div></a>
+    <a href="/a32nx-briefing/front/nd/"> <div class="imagemap" style="position: absolute; left: 64%; top: 51.5%; width: 10%; height: 5.5%;"><span class="imagemapname">ND F.O.</span></div></a>
+    <a href="/a32nx-briefing/front/pfd/"> <div class="imagemap" style="position: absolute; left: 74%; top: 51.5%; width: 10.5%; height: 5.5%;"><span class="imagemapname">PFD F.O.</span></div></a>
+    <a href="/a32nx-briefing/front/ilcp/"> <div class="imagemap" style="position: absolute; left: 84.5%; top: 51.5%; width: 7%; height: 3.5%;"><span class="imagemapname">Instrument Lighting Control Panel F.O.</span></div></a>
+    <a href="/a32nx-briefing/front/isis/"> <div class="imagemap" style="position: absolute; left: 39.7%; top: 53.5%; width: 5.2%; height: 2.8%;"><span class="imagemapname">Integrated Standby Instrument System</span></div></a>
+    <a href="/a32nx-briefing/front/dcdu/"> <div class="imagemap" style="position: absolute; left: 36.5%; top: 59.2%; width: 8%; height: 2.5%;"><span class="imagemapname">Datalink Ctl and Display Unit</span></div></a>
+    <a href="/a32nx-briefing/front/upper-ecam/"> <div class="imagemap" style="position: absolute; left: 45%; top: 51.5%; width: 11%; height: 5.1%;"><span class="imagemapname">Upper ECAM</span></div></a>
+    <a href="/a32nx-briefing/front/lower-ecam/"> <div class="imagemap" style="position: absolute; left: 45%; top: 56.6%; width: 11%; height: 5.2%;"><span class="imagemapname">Lower ECAM</span></div></a>
+    <a href="/a32nx-briefing/front/autobrake-gear/"><div class="imagemap" style="position: absolute; left: 56%; top: 51.5%; width: 8%; height: 2.3%;"><span class="imagemapname">Autobrake and Gear</span></div></a>
+    <a href="/a32nx-briefing/front/clock/"> <div class="imagemap" style="position: absolute; left: 56%; top: 53.8%; width: 5.2%; height: 2.5%;"><span class="imagemapname">Clock</span></div></a>
+    <a href="/a32nx-briefing/front/nd/"> <div class="imagemap" style="position: absolute; left: 61.2%; top: 53.8%; width: 2.8%; height: 2.5%;"><span class="imagemapname">Terrain Switch for ND</span></div></a>
+    <a href="/a32nx-briefing/front/autobrake-gear/"><div class="imagemap" style="position: absolute; left: 56%; top: 56.3%; width: 4%; height: 2.9%;"><span class="imagemapname">Gear</span></div></a>
+    <a href="/a32nx-briefing/front/accu/"> <div class="imagemap" style="position: absolute; left: 60%; top: 57.2%; width: 4%; height: 2.0%;"><span class="imagemapname">Accumulator Pressure Indication</span></div></a>
+    <a href="/a32nx-briefing/front/dcdu/"> <div class="imagemap" style="position: absolute; left: 56%; top: 59.2%; width: 8%; height: 2.5%;"><span class="imagemapname">Datalink Ctl and Display Unit</span></div></a>
     <!-- Pedestal -->
     <a href="/a32nx-briefing/pedestal/switching/"><div class="imagemap" style="position: absolute; left: 41.2%; top: 62.5%; width: 17.6%; height: 3.2%;"><span class="imagemapname">Switching Panel</span></div></a>
     <a href="/a32nx-briefing/pedestal/ecam-control/"><div class="imagemap" style="position: absolute; left: 41.2%; top: 65.7%; width: 17.6%; height: 3.2%;"><span class="imagemapname">ECAM Control Panel</span></div></a>
