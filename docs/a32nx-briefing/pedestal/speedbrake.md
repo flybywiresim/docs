@@ -6,7 +6,7 @@ Back to [Flight Deck](../flight-deck.md)
 
 ---
 
-![Speed Brake Panel](../../assets/a32nx-briefing/pedestal/Speed-brake-panel.png "Speed Brake Panel"){width=50%}
+![Speed Brake Panel](../../assets/a32nx-briefing/pedestal/Speed-brake-panel.png "Speed Brake Panel")
 
 ## Controls
 

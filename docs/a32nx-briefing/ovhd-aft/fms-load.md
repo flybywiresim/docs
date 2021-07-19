@@ -6,7 +6,7 @@ Back to [Flight Deck](../flight-deck.md)
 
 ---
 
-![FMS Load Panel](../../assets/a32nx-briefing/overhead-aft-panel/FMS-Load.png "FMS Load Panel"){width=50%}
+![FMS Load Panel](../../assets/a32nx-briefing/overhead-aft-panel/FMS-Load.png "FMS Load Panel")
 
 This panel helps the aircraft maintenance team to review and update the aircraft's databases.
 

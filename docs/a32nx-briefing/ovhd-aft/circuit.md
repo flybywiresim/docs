@@ -6,7 +6,7 @@ Back to [Flight Deck](../flight-deck.md)
 
 ---
 
-![Circuit Breaker Panel](../../assets/a32nx-briefing/overhead-aft-panel/Circuit-Breaker.png "Circuit Breaker Panel"){width=50%}
+![Circuit Breaker Panel](../../assets/a32nx-briefing/overhead-aft-panel/Circuit-Breaker.png "Circuit Breaker Panel")
 
 The Overhead Aft Panel contains the Emergency Circuit Breaker Panel.
 

@@ -6,7 +6,7 @@ Back to [Flight Deck](../flight-deck.md)
 
 ---
 
-![Cockpit Door Panel](../../assets/a32nx-briefing/pedestal/Cockpit-Door-Panel.png "Cockpit Door Panel"){width=50%}
+![Cockpit Door Panel](../../assets/a32nx-briefing/pedestal/Cockpit-Door-Panel.png "Cockpit Door Panel")
 
 # Description
 

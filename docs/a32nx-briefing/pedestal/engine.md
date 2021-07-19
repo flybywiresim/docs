@@ -6,7 +6,7 @@ Back to [Flight Deck](../flight-deck.md)
 
 ---
 
-![Engine Panel](../../assets/a32nx-briefing/pedestal/Engine-Panel.png "Engine Panel"){width=50%}
+![Engine Panel](../../assets/a32nx-briefing/pedestal/Engine-Panel.png "Engine Panel")
 
 ## Description
 

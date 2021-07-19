@@ -7,7 +7,7 @@ Back to [Flight Deck](../flight-deck.md)
 ---
 
 
-![Pedestal Light and Audio 3 switch](../../assets/a32nx-briefing/overhead-aft-panel/Pedestal-Light.png "Pedestal Light and Audio 3 switch"){width=50%}
+![Pedestal Light and Audio 3 switch](../../assets/a32nx-briefing/overhead-aft-panel/Pedestal-Light.png "Pedestal Light and Audio 3 switch")
 
 
 ### Pedestal Light

@@ -7,7 +7,7 @@ Back to [Flight Deck](../flight-deck.md)
 ---
 
 
-![Cockpit Door Panel](../../assets/a32nx-briefing/overhead-aft-panel/Cockpit-Door-Cont.png "Cockpit Door Panel"){width=50%}
+![Cockpit Door Panel](../../assets/a32nx-briefing/overhead-aft-panel/Cockpit-Door-Cont.png "Cockpit Door Panel")
 
 ### Strikes' status lights
 
