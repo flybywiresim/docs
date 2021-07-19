@@ -46,14 +46,14 @@ hide:
 <div style="position: relative;">
     <img src="/assets/a32nx-briefing/Cockpit-Overview-Map.png" style="width: 100%; height: auto;">
     <!-- OVHD AFT -->
-    <a href="/a32nx-briefing/ovhd-aft/elt/"><div class="imagemap" style="position: absolute; left: 22.5%; top: 2.55%; width: 12.5%; height: 1.7%;"><span class="imagemapname">ELT Panel</span></div></a>
-    <a href="/a32nx-briefing/ovhd-aft/cockpit-door/"><div class="imagemap" style="position: absolute; left: 22.5%; top: 4.25%; width: 12.5%; height: 2.1%;"><span class="imagemapname">Cockpit Door Panel</span></div></a>
-    <a href="/a32nx-briefing/ovhd-aft/reading-light/"><div class="imagemap" style="position: absolute; left: 22.5%; top: 9.9%; width: 12.5%; height: 3.3%;"><span class="imagemapname">Jump Seat Right Light</span></div></a>
-    <a href="/a32nx-briefing/ovhd-aft/circuit/"><div class="imagemap" style="position: absolute; left: 35%; top: 0%; width: 30.3%; height: 18%;"><span class="imagemapname">Circuit Breaker Panel</span></div></a>
-    <a href="/a32nx-briefing/ovhd-aft/pedestal-light/"><div class="imagemap" style="position: absolute; left: 35%; top: 18%; width: 30.3%; height: 4.7%;"><span class="imagemapname">Pedestal Light</span></div></a>
-    <a href="/a32nx-briefing/ovhd-aft/maintenance/"><div class="imagemap" style="position: absolute; left: 65.3%; top: 0%; width: 12.5%; height: 8%;"><span class="imagemapname">Maintenance Panel</span></div></a>
-    <a href="/a32nx-briefing/ovhd-aft/reading-light/"><div class="imagemap" style="position: absolute; left: 65.3%; top: 15.3%; width: 12.5%; height: 3.4%;"><span class="imagemapname">Jump Seat Left Light</span></div></a>
-    <a href="/a32nx-briefing/ovhd-aft/fms-load/"><div class="imagemap" style="position: absolute; left: 65.3%; top: 18.6%; width: 12.5%; height: 2.2%;"><span class="imagemapname">FMS Load Panel</span></div></a>
+    <a href="#"><div class="imagemap" style="position: absolute; left: 22.5%; top: 2.55%; width: 12.5%; height: 1.7%;"><span class="imagemapname">ELT Panel</span></div></a>
+    <a href="#"><div class="imagemap" style="position: absolute; left: 22.5%; top: 4.25%; width: 12.5%; height: 2.1%;"><span class="imagemapname">Cockpit Door Panel</span></div></a>
+    <a href="#"><div class="imagemap" style="position: absolute; left: 22.5%; top: 9.9%; width: 12.5%; height: 3.3%;"><span class="imagemapname">CAPT Light</span></div></a>
+    <a href="#"><div class="imagemap" style="position: absolute; left: 35%; top: 0%; width: 30.3%; height: 18%;"><span class="imagemapname">Circuit Breaker Panel</span></div></a>
+    <a href="#"><div class="imagemap" style="position: absolute; left: 35%; top: 18%; width: 30.3%; height: 4.7%;"><span class="imagemapname">Pedestal Light</span></div></a>
+    <a href="#"><div class="imagemap" style="position: absolute; left: 65.3%; top: 0%; width: 12.5%; height: 8%;"><span class="imagemapname">Maintenance Panel</span></div></a>
+    <a href="#"><div class="imagemap" style="position: absolute; left: 65.3%; top: 15.3%; width: 12.5%; height: 3.4%;"><span class="imagemapname">F.O. Light</span></div></a>
+    <a href="#"><div class="imagemap" style="position: absolute; left: 65.3%; top: 18.6%; width: 12.5%; height: 2.2%;"><span class="imagemapname">FMS Load Panel</span></div></a>
     <!-- OVHD FWD -->
     <a href="#"><div class="imagemap" style="position: absolute; left: 22.5%; top: 23.8%; width: 12.5%; height: 1.7%;"><span class="imagemapname">PA and Cockpit Door Video</span></div></a>
     <a href="#"><div class="imagemap" style="position: absolute; left: 22.5%; top: 25.5%; width: 12.6%; height: 4.5%;"><span class="imagemapname">ADIRS Panel</span></div></a>
@@ -76,13 +76,13 @@ hide:
     <a href="/a32nx-briefing/ovhd/apu/"><div class="imagemap" style="position: absolute; left: 48.4%; top: 42.1%; width: 3.2%; height: 3.2%;"><span class="imagemapname">APU Panel</span></div></a>
     <a href="/a32nx-briefing/ovhd/int-lt/"><div class="imagemap" style="position: absolute; left: 51.6%; top: 42.1%; width: 13.5%; height: 1.4%;"><span class="imagemapname">Internal Lighting Panel</span></div></a>
     <a href="/a32nx-briefing/ovhd/signs/"><div class="imagemap" style="position: absolute; left: 51.6%; top: 43.5%; width: 13.5%; height: 1.6%;"><span class="imagemapname">Sign Panel</span></div></a>
-    <a href="/a32nx-briefing/ovhd/#"><div class="imagemap" style="position: absolute; left: 65.1%; top: 23.3%; width: 12.6%; height: 3.2%;"><span class="imagemapname">3rd Audio Control Panel</span></div></a>
-    <a href="/a32nx-briefing/ovhd/#"><div class="imagemap" style="position: absolute; left: 65.1%; top: 33%; width: 12.6%; height: 1.7%;"><span class="imagemapname">Flight Control Panel Right</span></div></a>
-    <a href="/a32nx-briefing/ovhd/#"><div class="imagemap" style="position: absolute; left: 65.1%; top: 34.7%; width: 12.6%; height: 2.4%;"><span class="imagemapname">Cargo Ventilation Panel</span></div></a>
-    <a href="/a32nx-briefing/ovhd/#"><div class="imagemap" style="position: absolute; left: 65.1%; top: 37.1%; width: 12.6%; height: 1.65%;"><span class="imagemapname">Cargo Smoke Panel</span></div></a>
-    <a href="/a32nx-briefing/ovhd/#"><div class="imagemap" style="position: absolute; left: 65.1%; top: 38.75%; width: 12.6%; height: 1.6%;"><span class="imagemapname">Ventilation Panel</span></div></a>
-    <a href="/a32nx-briefing/ovhd/#"><div class="imagemap" style="position: absolute; left: 65.1%; top: 40.3%; width: 12.6%; height: 1.75%;"><span class="imagemapname">Engine Manual Start and N1 Mode Panel</span></div></a>
-    <a href="/a32nx-briefing/ovhd/#"><div class="imagemap" style="position: absolute; left: 65.1%; top: 42%; width: 12.6%; height: 2.2%;"><span class="imagemapname">Wiper Panel F.O.</span></div></a>
+    <a href="/a32nx-briefing/ovhd/3rd-acp/"><div class="imagemap" style="position: absolute; left: 65.1%; top: 23.3%; width: 12.6%; height: 3.2%;"><span class="imagemapname">3rd Audio Control Panel</span></div></a>
+    <a href="/a32nx-briefing/ovhd/flight-control-computer/"><div class="imagemap" style="position: absolute; left: 65.1%; top: 33%; width: 12.6%; height: 1.7%;"><span class="imagemapname">Flight Control Panel Right</span></div></a>
+    <a href="/a32nx-briefing/ovhd/cargo-vent/"><div class="imagemap" style="position: absolute; left: 65.1%; top: 34.7%; width: 12.6%; height: 2.4%;"><span class="imagemapname">Cargo Ventilation Panel</span></div></a>
+    <a href="/a32nx-briefing/ovhd/cargo-smoke/"><div class="imagemap" style="position: absolute; left: 65.1%; top: 37.1%; width: 12.6%; height: 1.65%;"><span class="imagemapname">Cargo Smoke Panel</span></div></a>
+    <a href="/a32nx-briefing/ovhd/vent/"><div class="imagemap" style="position: absolute; left: 65.1%; top: 38.75%; width: 12.6%; height: 1.6%;"><span class="imagemapname">Ventilation Panel</span></div></a>
+    <a href="/a32nx-briefing/ovhd/eng-man/"><div class="imagemap" style="position: absolute; left: 65.1%; top: 40.3%; width: 12.6%; height: 1.75%;"><span class="imagemapname">Engine Manual Start and N1 Mode Panel</span></div></a>
+    <a href="/a32nx-briefing/ovhd/wipers/"><div class="imagemap" style="position: absolute; left: 65.1%; top: 42%; width: 12.6%; height: 2.2%;"><span class="imagemapname">Wiper Panel F.O.</span></div></a>
     <!-- Flight Instruments and Glareshield -->
     <a href="/a32nx-briefing/glareshield/fcu/"><div class="imagemap" style="position: absolute; left: 41.5%; top: 46.5%; width: 17%; height: 3.7%;"><span class="imagemapname">Flight Control Unit</span></div></a>
     <a href="/a32nx-briefing/glareshield/efis_control/"><div class="imagemap" style="position: absolute; left: 31%; top: 47%; width: 10.5%; height: 3.2%;"><span class="imagemapname">EFIS Control Unit Capt.</span></div></a>
