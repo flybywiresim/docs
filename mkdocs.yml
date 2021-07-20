@@ -30,7 +30,7 @@ nav:
       - METARs/TAFs/ATIS: airliner-flying-guide/weather.md
   - A32NX Briefing for Sim-Pilots:
       - Overview: a32nx-briefing/overview.md
-      - Flight Deck Layout: a32nx-briefing/flight-deck/flight-deck.md
+      - Flight Deck: a32nx-briefing/flight-deck/flight-deck.md
       - ECAM: a32nx-briefing/ecam/ecam.md
       - EFIS PFD: a32nx-briefing/efis/pfd.md
       - EFIS ND: a32nx-briefing/efis/nd.md
