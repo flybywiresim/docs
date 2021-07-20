@@ -13,7 +13,7 @@ This is a work in progress and we will add more chapters over time.
 
 ## Index of chapters
 
-1. [Flight Deck](flight-deck.md)
+1. [Flight Deck](flight-deck/flight-deck.md)
 
 
 <!--
