@@ -26,7 +26,7 @@ It plots configurable information for speed, heading, flight plan, terrain, weat
 The weather radar image can be displayed in all modes except PLAN.
 
 <!-- TODO: UPDATE -->
-A more in depth description of the Navigation Display is currently developed and will be available in the near future.
+**A more in depth description of the Navigation Display is currently developed and will be available in the near future.**
 
 
 ## Usage
