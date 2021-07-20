@@ -11,20 +11,19 @@ Back to [Flight Deck](../flight-deck.md)
 
 ## Controls
 
-
 ###  RUD TRIM Rotary Switch
 
-- Controls the rudder trim actuator, which moves the neutral point of the artificial feel by the equivalent of one degree of rudder travel per second.
-- Note: The rudder trim rotary switch has no effect, when the autopilot is engaged.
+- Pilots can in manual flight use the RUD TRIM to apply rudder.
+- Note: When the autopilot is engaged the rudder trim rotary switch has no effect
 
 ### RESET Pushbutton
 
-- By pushing the RESET pushbutton, the zero trim position is ordered at 1.5° / second.
-- Note: The RESET pushbutton is not active, when the autopilot is engaged.
+- Pushing the RESET pushbutton, the rudder is reset to zero trim position(at 1.5° / second).
+- Note: If Autopilot is engaged the RESET pushbutton is not active.
 
 ### Position Indicator
 
-- Displays the rudder trim direction (L or R) and value (0 to 20°).
+- Displays the current rudder trim direction (L or R) and value (0 to 20°).
 
 
 ---

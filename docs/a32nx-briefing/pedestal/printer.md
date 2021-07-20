@@ -10,8 +10,8 @@ Back to [Flight Deck](../flight-deck.md)
 
 ## Description
 
-The printer prints reports from the following systems (if installed) : ACARS, AIDS, FMGC, CFDIU and EVMU. It prints these on paper, and does so either on the ground or in flight.
+The following systems (if installed) can print reports on paper: ACARS, AIDS, FMGC, CFDIU and EVMU.
 
-It has a SLEW switch which is used to feed paper after having loaded a new roll.
+After loading a new paper roll the SLEW switch can be used to feed the paper forward.
 
-The printer panel can be opened by the printer door latch which locks the door used for loading paper.
+New paper can be added by open the printer panel using the latch which locks the door.

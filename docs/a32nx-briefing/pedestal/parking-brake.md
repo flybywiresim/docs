@@ -8,15 +8,11 @@ Back to [Flight Deck](../flight-deck.md)
 
 ![Parking Brake Panel](../../assets/a32nx-briefing/pedestal/Parking-Brake-Panel.png "Parking Brake Panel"){width=50%}
 
-## Controls and Indications
+## Description
 
-### PARKING BRK handle
+To apply the Parking Brake the flight crew pulls this handle and turns it clockwise.
 
-Flight crew pulls this handle, then turns it clockwise, to apply the parking brake.
-
-The ECAM memo page displays "PARK BRK".
-
-If the pointer is not at ON, the parking brake is not on.
+The message "PARK BRK" appears on the ECAM.
 
 ---
 

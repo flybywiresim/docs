@@ -22,10 +22,10 @@ A deadbolt is installed at the level of the center latch area of the cockpit doo
 
 The Cockpit Door Locking System (CDLS) provides a means of electrically locking and unlocking the cockpit door. This system is mainly composed of:
 
-‐ A keypad, located in the forward cabin, near the cockpit door,
-‐ A toggle switch, located in the center pedestal’s Cockpit Door panel,
-‐ A control unit and its CKPT DOOR CONT normal panel, located on the overhead panel,
-‐ A buzzer.
+- A keypad, located in the forward cabin, near the cockpit door,
+- A toggle switch, located in the center pedestal’s Cockpit Door panel,
+- A control unit and its CKPT DOOR CONT normal panel, located on the overhead panel,
+- A buzzer.
 
 The keypad enables the cabin crew to request access to the cockpit. There are two different access request types: “Routine” and “Emergency” access request.
 
@@ -44,7 +44,7 @@ The buzzer sounds in the cockpit for 1 to 9s to indicate that a routine access r
 ### COCKPIT DOOR toggle switch
 
 - UNLOCK position:
-    - This position is used to enable the cabin crewmember to open the door. The switch must be pulled and maintained in the unlock position until the door is pushed open.
+    - This position is used to enable the cabin crew member to open the door. The switch must be pulled and maintained in the unlock position until the door is pushed open.
 - NORM position:
     - All latches are locked, and EMERGENCY access is possible for the
     cabin crew.
