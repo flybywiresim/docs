@@ -1,8 +1,13 @@
+---
+hide:
+    - navigation
+---
+
 # Navigation Display (ND)
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 ---
 
@@ -26,7 +31,8 @@ It plots configurable information for speed, heading, flight plan, terrain, weat
 The weather radar image can be displayed in all modes except PLAN.
 
 <!-- TODO: UPDATE -->
-**A more in depth description of the Navigation Display is currently developed and will be available in the near future.**
+!!! info "Future Update"
+    A more in depth description of the Navigation Display is currently developed and will be available in the near future.
 
 
 ## Usage
@@ -48,7 +54,9 @@ These pushbutton are located on either side of the ECAM. Each pushbutton control
         - If the predictive functions of the GPWS generate a caution or a warning, while the TERR ON ND is not switched ON, the terrain is automatically displayed on the NDs and the ON light of the TERR ON ND pushbutton comes on.
         - To differentiate between the terrain and the weather display, the TERR indication comes on, instead of the TILT indication, in the lower right corner of the ND.
 
-Back to [Flight Deck](../flight-deck.md)
+---
+
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 
 

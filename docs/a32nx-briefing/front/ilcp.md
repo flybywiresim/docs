@@ -1,8 +1,13 @@
+---
+hide:
+    - navigation
+---
+
 # Instrument Lighting Control Panel
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 ---
 
@@ -53,4 +58,4 @@ equipment.
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }

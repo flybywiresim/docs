@@ -1,8 +1,13 @@
+---
+hide:
+    - navigation
+---
+
 # Engine and Warning Display (Upper ECAM)
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 ---
 
@@ -21,7 +26,7 @@ The Electronic Centralized Aircraft Monitor (ECAM) consists of two displays:
 
 
 <!-- TODO: UPDATE -->
-**A more in depth description of the ECAM is currently developed and will be available in the near future.**
----
+!!! info "Future Update"
+    A more in depth description of the ECAM is currently developed and will be available in the near future.
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }

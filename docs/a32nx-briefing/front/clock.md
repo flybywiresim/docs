@@ -1,8 +1,13 @@
+---
+hide:
+    - navigation
+---
+
 # Clock
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 ---
 
@@ -63,4 +68,4 @@ Note : in order to select the date mode, the UTC selector must be set on "GPS" o
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }

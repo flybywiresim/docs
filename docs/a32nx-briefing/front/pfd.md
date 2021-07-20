@@ -1,8 +1,13 @@
+---
+hide:
+    - navigation
+---
+
 # Primary Flight Display (PFD)
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 ---
 
@@ -26,8 +31,9 @@ The Primary Flight Display (PFD) is the main aviation instrument for the pilots.
 - Various scales and limits (bank limits, max sidestick deflection, pitch, etc.)
 
 <!-- TODO: UPDATE -->
-**A more in depth description of the Primary Flight Display is currently developed and will be available in the near future.**
+!!! info "Future Update"
+    A more in depth description of the Primary Flight Display is currently developed and will be available in the near future.
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }

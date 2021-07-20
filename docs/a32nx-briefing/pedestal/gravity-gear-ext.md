@@ -1,8 +1,13 @@
+---
+hide:
+    - navigation
+---
+
 # Emergency Gravity Gear Extension
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 ---
 
@@ -16,4 +21,4 @@ This also shuts the cutout valve off hydraulic pressure to the landing gear syst
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
