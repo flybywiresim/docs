@@ -1,14 +1,17 @@
 ---
 hide:
-    - navigation
     - toc
+    - navigation
 ---
 
 # Flight Deck Overview
 
-- Clickable overview of the A320neo flight deck.
-- Move the mouse over the panels to get the name of the panel.
-- Click on the panels to get a more detailed description of that panel.
+[Back to Overview](overview.md){ .md-button }
+
+!!! note "Clickable Cockpit"
+    - Clickable overview of the A320neo flight deck.
+    - Move the mouse over the panels to get the name of the panel.
+    - Click on the panels to get a more detailed description of that panel.
 
 <style>
 .imagemap {
