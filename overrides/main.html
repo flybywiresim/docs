@@ -2,10 +2,9 @@
 
 <!-- Front matter -->
 {% block extrahead %}
-    {% if page and page.meta and page.meta.robots %}
-        <meta property="robots" content="{{ page.meta.robots }}" />
-    {% else %}
-        <meta property="robots" content="index, follow" />
+    {% set title = config.site_name %}
+    {% if page and page.title and not page.is_homepage %}
+        {% set title = config.site_name ~ " - " ~ page.title | striptags %}
     {% endif %}
 
 <!-- Image URL -->
