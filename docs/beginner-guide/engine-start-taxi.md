@@ -19,9 +19,7 @@ This guide will explain the correct procedures to accomplish a pushback with eng
 - BEFORE START checklist completed
 - IFR clearance obtained
 - The aircraft is secure
-- EXT power has been disconnected
 - APU MASTER SW - `Set to ON` and the APU is available
-- APU BLEED - `Set to ON`
 - Beacon light - `Set to ON`
   
 At this time you may request for clearance to push and start from ATC.  
@@ -51,9 +49,20 @@ There are several options available to you in MSFS to achieve a successful pushb
 - MSFS built in ATC pushback controls
 - Third party pushback addons
 
+### Before Pushback
+
+Once all passengers have boarded and secured we are ready to begin pushback.
+
+Ensure:
+- All doors to the aircraft are armed and secure.
+- EXT power has been disconnected.
+- APU BLEED - `Set to ON`
+
 ### Pushback Clearance
 
-For this guide we will assume you are parked at gate 10 at EGFF (Cardiff). When you are ready to begin pushback, you should contact ground ATC and inform then you are ready for push and start. If you are on a network such as VATSIM, a typical response from ground would give you clearance for your request and a direction to face (or any direction). At EGFF you could expect the following push and start clearance from ground: 
+For this guide we will assume you are parked at gate 10 at EGFF (Cardiff). 
+
+Contact ground ATC and inform then you are ready for push and start. If you are on a network such as VATSIM, a typical response from ground would give you clearance for your request and a direction to face (or any direction). At EGFF you could expect the following push and start clearance from ground: 
 
 "** Your Aircraft Callsign**, ground. You are clear to push and start onto Alpha 3 facing east."
 
