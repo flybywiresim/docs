@@ -4,8 +4,9 @@ Please utilize the following information when developing for the A32NX to keep y
 
 ## Tips and Tricks
 
-!!! info "Don't use eval"
-    Just don't.
+### Don't use eval
+    
+Just don't.
 
 ### Don't reassign function parameters
 
