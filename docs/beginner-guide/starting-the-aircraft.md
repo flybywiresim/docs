@@ -137,7 +137,7 @@ After setting correct frequencies, look at the **glareshield** and locate the `B
 ![Radio Panel](../assets/beginner-guide/starting-aircraft/radiopanel.png)
 
 At this point you would have completed 5/7 task on the `Before Start` section on the FlyByWire A32NX checklist.
-![](../assets/beginner-guide/starting-aircraft/exterior-lighting.png)
+![](../assets/beginner-guide/starting-aircraft/beforestart.png)
 
 
 This concludes the *Starting the Aircraft* guide.
