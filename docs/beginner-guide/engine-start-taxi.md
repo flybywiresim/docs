@@ -243,7 +243,7 @@ Exterior Lights:
 - RWY TURN OFF - `Set to ON`
 - NOSE - `Set to Taxi`
 
-![exterior lights](../assets/beginner-guide/after-landing/After-landing-taxi-light.png)
+![exterior lights](../assets/beginner-guide/mcdu/taxi-lights.png)
 
 Before Moving Safety Check:
 
