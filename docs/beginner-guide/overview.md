@@ -1,11 +1,11 @@
 # Overview
 
-Welcome to the A32NX Beginner's Guide. Although this guide is tailored towards beginners, each topics below may even serve as reminders of proper procedure at different stages of flight for veteran sim pilots. 
+Welcome to the A32NX Beginner's Guide. Although this guide is tailored towards beginners, each topics below may even serve as reminders of proper procedure at different stages of flight for veteran sim pilots.
 
-Each page was reviewed by an A320 type rated pilot and provides accurate information to aircraft operation. 
+Each page was reviewed by an A320 type rated pilot and provides accurate information to aircraft operation.
 
 !!! info "Airline SOP"
-    Please be aware that different airlines may have slightly different procedures at different stages of flight. 
+    Please be aware that different airlines may have slightly different procedures at different stages of flight.
 
 **For Simulation Use Only**
 
@@ -13,7 +13,7 @@ Each page was reviewed by an A320 type rated pilot and provides accurate informa
 
 Topics:
 
-[Starting the Aircraft]
+[Starting the Aircraft](starting-the-aircraft.md)
 
 [Preparing the MCDU](preparing-mcdu.md)
 
