@@ -3,7 +3,7 @@
 This guide will assist you with starting your aircraft. This guide includes images as well to allow you to understand the locations of all buttons and switches.
 
 !!! warning "Disclaimer"
-    The level of detail in this guide is meant to get a FlyByWire A320neo beginner safely from the terminal to the runway hold short point.
+    The level of detail in this guide is meant to get a FlyByWire A320neo beginner starting the aircraft correctly.
 
     A *beginner* is defined as someone familiar with flying a GA aircraft
     or different types of airliners. Aviation terminology and know-how is
@@ -14,10 +14,12 @@ This guide will assist you with starting your aircraft. This guide includes imag
 
 ---
 
-***
+## Chapters / Phases
 
-For organization purposes and allow the reader of this guide for easy accessibility, we will divide the guide into sections that will be followed in a chronological order.
-- Overhead Panel
+This guide will cover these chapters in order:
+
+1. [Overhead Panel](#overhead-panel)
+2. [Main Panel](#main-panel)
 
 
 ## Pre-Requisites
@@ -45,6 +47,8 @@ Then look up to and view the **overhead panel**. Make sure the following are in 
 
 ## Overhead Panel
 
+Direct your attention to the **ELEC PANEL**
+
 Begin by, turning on batteries `1 AND 2`. After pushing these buttons, ensure no white light is visible on the button.
 
 !!! info "External Power availible"
@@ -58,6 +62,60 @@ To align the Inertial Reference System (or IRS), turn the 3 knobs to the `NAV` p
 To indicate that the aircraft is powered from the exterior, turn on the `NAV & LOGO` light. 
 Following, set the `STROBE` light to the `AUTO` position.   
 (Image)
+
+Once we our exterior lighting is in the correct state, we can then turn on the **seat belts sign and no smoking sign**.
+
+To arm the emergency exit lights, simply put the switch in the `ARM` position. You will also see that the white `OFF` light to the left of the switch will disappear.
+
+Looking up just a bit you will find the `LDG ELEV`. This simply means the landing elevation which you should set in the `AUTO` position.
+
+Managing the temperatures of the cabin is necessary as well. To do this, simply rotate the 3 knobs as needed. 
+(Image)
+
+Looking up to the **hydraulic panel**, ensure that there are no white lights visible.
+
+Just below the hydraulic panel, you will find the **fuel panel**. Turn on all 6 fuel pumps until the white `OFF` light is no longer visible.
+
+!!! warning "Fire Tests"
+    To perform a APU and Engine fire test, hold down on the `TEST` button for each of them for 5 seconds minimum to ensure the lights and aural warnings are working as expected. 
+
+---
+
+## Main Panel
+
+### Displays
+
+If your having a hard time viewing any of the displays, lets show you how to raise the brightness for each display.
+
+For the PFD and ND, the knobs are in the same location. Look left (or right if you are positioned in the first officer seat) of the PFD and you will find the brightness knobs for them. Simply turn both knobs until you are satisified with the brightness on both screens.
+
+For the ECAM upper and lower display, look just in front of the throttles and you will find the brightness knobs. Just like the PFD and ND knobs, rotate them to your liking.
+
+For the ISIS display brightness (just left of the upper ECAM), use the `+` and `-` buttons until the brightness is suitable.
+
+---
+
+While you are at the ISIS display, set the current QNH.
+
+Look down the the **radio panel.**
+
+Set the `RMP 1` to the active **ATIS** frequency and set the standby frequency to the **ground** frequency. 
+
+After setting correct frequencies, look at the **glareshield** and locate the `BARO` reference. You can set the barometer in either `IN HG` or `HPA`. Just below the barometer reference, turn on the `FD`. You should see a green light indicate it has been turned on.
+
+This concludes the *Starting the Aircraft* guide.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
