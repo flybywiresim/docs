@@ -43,6 +43,7 @@ After ensuring everything is set on the bottom pedestal, direct your attention t
 Then look up to and view the **overhead panel**. Make sure the following are in the set position before moving on to starting the aircraft:
 
 - Wiper selectors are in the `OFF` position
+
 ![Wipers](../assets/beginner-guide/starting-aircraft/crewoxy.png)
 
 [Download FlyByWire Checklist](../assets/FBW_A32NX_CHECKLIST.pdf){ .md-button }
@@ -57,16 +58,19 @@ Begin by, turning on batteries `1 AND 2`. After pushing these buttons, check to 
 
 To give power to the aircraft we will use the "Ground Power Unit". If ground power isn't available we can also use the APU.
 
-=== Ground Power
+=== "Ground Power"
     If ground power is available, you should see a green `AVAIL` light on the `EXT PWR` button. Push on this button to give power to the aircraft.
+
     ![GPU](../assets/beginner-guide/starting-aircraft/gpuoff.png)
 
 
-=== APU
+=== "APU"
     If ground power isn't available, turn on the APU. To do this, simply push on the APU `MASTER SW` and `START`. The APU should be on within one minute.
+
     ![APU](../assets/beginner-guide/after-landing/APU-Start.png)
 
 After powering the aircraft, turn on the crew oxygen supply by pushing on the button, diminishing the white `OFF` light.
+
 ![Crew Oxygen](../assets/beginner-guide/starting-aircraft/crewoxyhighlight.png)
 
 To align the Inertial Reference System (or IRS), turn the 3 knobs to the `NAV` position. This will then start the IRS alignment which you can view the progress on the ECAM display.
@@ -136,7 +140,10 @@ Set the `RMP 1` to the active **ATIS** frequency and set the standby frequency t
 After setting correct frequencies, look at the **glareshield** and locate the `BARO` reference. You can set the barometer in either `IN HG` or `HPA`. Just below the barometer reference, turn on the `FD`. You should see a green light indicate it has been turned on.
 ![Radio Panel](../assets/beginner-guide/starting-aircraft/radiopanel.png)
 
+---
+
 At this point you would have completed 5/7 task on the `Before Start` section on the FlyByWire A32NX checklist.
+
 ![](../assets/beginner-guide/starting-aircraft/beforestart.png)
 
 
