@@ -28,19 +28,18 @@ Obviously this is not strictly required in a simulator but for interested sim pi
 
 This guide will cover these phases:
 
-1. Parking at the Gate
-2. Disembarking Passengers and Baggage
-3. Securing the Aircraft
+1. [Parking at the Gate](#1-parking-at-the-gate)
+2. [Disembarking Passengers and Baggage](#2-disembarking-passengers-and-baggage)
+3. [Securing the Aircraft](#3-securing-the-aircraft)
 
 ---
-
 
 ## Preface
 Shutting down and securing an aircraft is an important part of the overall procedure. Obviously less important in a simulator as the next flight will have the aircraft start in a cold and dark state again.
 
-If we want to actually do a turn around and start a new flight directly the procedure will be a little different as we would not turn of certain systems and at some point simply start with the preparation of the aircraft procedure again.
+If we want to actually do a turn around and start a new flight directly the procedure will be a little different as we would not turn off certain systems and at some point simply start with the preparation of the aircraft procedure again.
 
-## Parking at the Gate
+## 1. Parking at the Gate
 
 **Situation**
 
@@ -60,39 +59,41 @@ If we want to actually do a turn around and start a new flight directly the proc
 
 - Set parking brake (`PARK BRK`).
 
-    ![Parking Brake](../assets/beginner-guide/powering-down/Parking_Brake.png "Parking Brake"){width=160}
+    ![Parking Brake](../assets/beginner-guide/powering-down/Parking_Brake.png "Parking Brake"){width=20%}
 
 - `NOSE TAXI` and `RWY TURN OFF` lights are usually turned off even before we turn into the gate to not blind the ground personnel. This of course is only done if enough lighting is available to safely park into the gate. Turn them off if they were used to assist in parking.
 
-    ![Taxilights off](../assets/beginner-guide/powering-down/Lights_Taxi_off.png "Taxilights off"){width=320}
+    ![Taxilights off](../assets/beginner-guide/powering-down/Lights_Taxi_off.png "Taxilights off"){width=50%}
 
 - Turn on `APU BLEED` before we turn off the engines.
 
-    ![APU BLEED ON](../assets/beginner-guide/powering-down/APU_BLEED_on.png "APU BLEED ON"){width=120}
+    ![APU BLEED ON](../assets/beginner-guide/powering-down/APU_BLEED_on.png "APU BLEED ON"){width=20%}
 
 - Shut down the engines by setting the `ENG 1` and `ENG 2` master switches to off.
 
-    ![Engines off](../assets/beginner-guide/powering-down/ENG_off.png "Engines off"){width=320}
+    ![Engines off](../assets/beginner-guide/powering-down/ENG_off.png "Engines off"){width=50%}
 
-- Wait until `N1` is below 5% (<== TODO check this).
+- Wait until `N1` is below 5%.
 
-    ![Engines N1 under 5%](../assets/beginner-guide/powering-down/ENG_N1_u5.png "Engines N1 under 5%"){width=320}
+    ![Engines N1 under 5%](../assets/beginner-guide/powering-down/ENG_N1_u5.png "Engines N1 under 5%"){width=50%}
 
 - Turn off `Seat Belt` sign.
 
-    ![Seat Belt Sign off](../assets/beginner-guide/powering-down/Seatbelt_off.png "Seat Belt Sign off"){width=120}
+    ![Seat Belt Sign off](../assets/beginner-guide/powering-down/Seatbelt_off.png "Seat Belt Sign off"){width=20%}
 
 - Turn off `BEACON` (leave `NAV & LOGO` on as long as the aircraft has power from external or APU, `STROBES` can remain on AUTO).
 
-    ![All_Ext_LT_off](../assets/beginner-guide/powering-down/Beacon_off.png){width=120}
+    ![All_Ext_LT_off](../assets/beginner-guide/powering-down/Beacon_off.png){width=20%}
 
 - Complete **Parking** checklist.
+
+    ![Parking Checklist](../assets/beginner-guide/powering-down/Parking-checklist.png "Parking Checklist"){width=50%}
 
 If external power is available the ground crew would have connected it by now and we can turn on `EXT PWR`. Turning off the APU depends on the turn around time. For a shutdown we do this after the passengers have disembarked to still have airflow in the cabin. See last chapter.
 
 This concludes *Parking at the Gate*.
 
-## Disembarking Passengers and Baggage
+## 2. Disembarking Passengers and Baggage
 
 **Situation:**
 
@@ -118,7 +119,7 @@ After refuelling the pilot would signal the cabin crew that they could let the n
 
 This concludes *Disembarking Passengers and Baggage*.
 
-## Securing the Aircraft
+## 3. Securing the Aircraft
 
 **Situation:**
 
@@ -130,41 +131,41 @@ This concludes *Disembarking Passengers and Baggage*.
 
 - Turn off all fuel pumps.
 
-    ![Fuel pumps off](../assets/beginner-guide/powering-down/FUEL_PUMS_off.png "Fuel pumps off"){width=480}
+    ![Fuel pumps off](../assets/beginner-guide/powering-down/FUEL_PUMS_off.png "Fuel pumps off"){width=80%}
 
 - Turn off the `ADIRS`.
 
-    ![ADIRS OFF](../assets/beginner-guide/powering-down/ADIRS.png "ADIRS OFF"){width=320}
+    ![ADIRS OFF](../assets/beginner-guide/powering-down/ADIRS.png "ADIRS OFF"){width=50%}
 
 - Turn off `OXYGEN`.
 
-    ![OXYGEN Crew Supply off](../assets/beginner-guide/powering-down/OXYGEN_Crew_Supply.png "OXYGEN Crew Supply off"){width=120}
+    ![OXYGEN Crew Supply off](../assets/beginner-guide/powering-down/OXYGEN_Crew_Supply.png "OXYGEN Crew Supply off"){width=20%}
 
 - Turn off `APU BLEED`.
 
-    ![APU BLEED OFF](../assets/beginner-guide/powering-down/APU_BLEED_off.png "APU BLEED OFF"){width=120}
+    ![APU BLEED OFF](../assets/beginner-guide/powering-down/APU_BLEED_off.png "APU BLEED OFF"){width=20%}
 
 - Turn off emergency exit lights `EMER EXIT LT` and no smoking lights `NO SMOKING`.
 
-    ![Signs off](../assets/beginner-guide/powering-down/SIGNS_Off.png "Signs off"){width=320}
+    ![Signs off](../assets/beginner-guide/powering-down/SIGNS_Off.png "Signs off"){width=50%}
 
 - Optional or depending on airline SOPs: Reset air conditioning, lighting and screen brightness.
 - Turn off `APU MASTER` (expect the APU to still be AVAIL for a few minutes if you also had APU Bleed on shortly before as it needs a cool down period).
 
-    ![APU Master off](../assets/beginner-guide/powering-down/APU_Master_off.png "APU Master off"){width=120}
+    ![APU Master off](../assets/beginner-guide/powering-down/APU_Master_off.png "APU Master off"){width=20%}
 
 - Wait 2 minutes for the APU FLAP door to close before you turn off power as this needs either APU or external power.
 - Turn off `EXT PWR` if it has been turned on before
 
-    ![External Power off](../assets/beginner-guide/powering-down/EXT_PWR_off.png "External Power off"){width=120}
+    ![External Power off](../assets/beginner-guide/powering-down/EXT_PWR_off.png "External Power off"){width=20%}
 
 - Turn off `NAV & LOGO` lights (as aircraft no longer has power).
 
-    ![NAV & LOGO off](../assets/beginner-guide/powering-down/NAV_off_1.png "NAV & LOGO off"){width=120}
+    ![NAV & LOGO off](../assets/beginner-guide/powering-down/NAV_off_1.png "NAV & LOGO off"){width=20%}
 
 - Turn off `BAT 1` and `BAT 2`.
 
-    ![Batteries off](../assets/beginner-guide/powering-down/BAT_off.png "Batteries off"){width=320}
+    ![Batteries off](../assets/beginner-guide/powering-down/BAT_off.png "Batteries off"){width=50%}
 
 Now the aircraft is back in a cold and dark state.
 
