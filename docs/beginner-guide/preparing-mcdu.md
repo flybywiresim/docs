@@ -12,22 +12,22 @@ This guide will help you prepare the MCDU in the A32NX for your departure. It in
     You will find many great videos on YouTube on how to fly the FlyByWire A32NX.<br/>
     Check out the FlyByWire YouTube Channel as well: [FlyByWire on YouTube](https://www.youtube.com/c/FlyByWireSimulations/playlists)
 
-The simBrief route used in this guide 
+The simBrief route used in this guide
 
 [Download simBrief OFP](../assets/beginner-guide/mcdu/sample-ofp.pdf){ .md-button }
 
 ***
 
-## Pre-requisites 
+## Pre-requisites
 
-Below are a few pre-requisites before programming the MCDU. 
+Below are a few pre-requisites before programming the MCDU.
 
-Visit [Starting the Aircraft](#) to learn more. 
+Visit [Starting the Aircraft](#) to learn more.
 
 * Make sure the aircraft is powered up.
     * External Power OR APU
-* Make sure the ADIRS are set to NAV. 
-* Have a valid flight plan. 
+* Make sure the ADIRS are set to NAV.
+* Have a valid flight plan.
 
 ***
 
@@ -43,10 +43,10 @@ This guide will cover the following topics:
 3. [A32NX simBrief Integration](#a32nx-simbrief-integration)
 
 ***
-  
+
 ## Understanding the MCDU
 
-During the course of this guide we will be referring to a few key terms which are defined below. 
+During the course of this guide we will be referring to a few key terms which are defined below.
 
 === "Line Select Key (LSK)"
 
@@ -75,7 +75,7 @@ During the course of this guide we will be referring to a few key terms which ar
 
 ***
 
-## MCDU Programming 
+## MCDU Programming
 
 **D.I.F.F.S.R.I.P.P.**
 
@@ -120,7 +120,7 @@ The simBrief route used in this guide - [Available Here](../assets/beginner-guid
 
       * Using the keypad type in `EGFF/EGCC`
       * Once this is in the scratch pad you can press LSK1R.
-      * This following screen would should you "company routes". Since there are none stored select `Return` using LSK6L.
+      * This following screen would show you "company routes". Since there are none stored select `Return` using LSK6L.
 
     ![mcdu5](../assets/beginner-guide/mcdu/mcdu5.png)
 
@@ -170,6 +170,8 @@ The simBrief route used in this guide - [Available Here](../assets/beginner-guid
         Standard Instrument Departure Route
 
         These are procedures that are defined and published that takes a flight from the take-off phase to the enroute phase. 
+    
+        Also see: [SIDS and STARS](../airliner-flying-guide\navigation.md#sids-and-stars)   
 
     To program the Standard Instrument Departure (SID):
 
@@ -207,6 +209,8 @@ The simBrief route used in this guide - [Available Here](../assets/beginner-guid
         Standard Terminal Arrival Route
 
         Similar to the SID, these are procedures that are defined and published that takes a flight from the last point in a route *(in our case `MONTY`)* to the first point in the approach or the initial approach fix (IAF). 
+    
+        Also see: [SIDS and STARS](../airliner-flying-guide\navigation.md#sids-and-stars)       
 
     Find `EGCC` in green on your flight plan OR select `EGCC` in white under `DEST` using the corresponding LSK. 
 
@@ -397,13 +401,13 @@ The simBrief route used in this guide - [Available Here](../assets/beginner-guid
 
 ## A32NX simBrief integration
 
-We've included a quick method to have your simBrief OFP automatically loaded into the MCDU. Please do not select an arrival airport on the MSFS world menu otherwise the integration will not work. 
+We've included a quick method to have your simBrief OFP automatically loaded into the MCDU. Please do not select an arrival airport on the MSFS world menu otherwise the integration will not work.
 
-This portion of the guide assumes that you understand how to generate a simBrief OFP. 
+This portion of the guide assumes that you understand how to generate a simBrief OFP.
 
 ### ^^SimBrief MCDU Setup^^
 
-Enter your simBrief username. Upon entering your username the MCDU will convert it into an ID number. Please ensure you have no special characters in your username OR use the ID number found before generating your OFP. 
+Enter your simBrief username. Upon entering your username the MCDU will convert it into an ID number. Please ensure you have no special characters in your username OR use the ID number found before generating your OFP.
 
 * Click on `MCDU MENU`
 * Click on `OPTIONS`
@@ -420,25 +424,25 @@ Enter your simBrief username. Upon entering your username the MCDU will convert 
 
 ![mcdu2](../assets/beginner-guide/mcdu/mcdu2.png)
 
-This will prepare the MCDU to input the flight plan. 
+This will prepare the MCDU to input the flight plan.
 
 ### ^^Load Fuel and Payload^^
 
-Go back to the AOC menu. 
+Go back to the AOC menu.
 
 * Click on `PERF/W&B`
 
 ![mcdu3](../assets/beginner-guide/mcdu/mcdu3.png)
 
-Here you can automatically load your fuel + passenger / cargo weights. You are presented with the `Fuel Page` first then the `Weights and Balance` page. 
+Here you can automatically load your fuel + passenger / cargo weights. You are presented with the `Fuel Page` first then the `Weights and Balance` page.
 
 * Press LSK5L to instantly load your planned simBrief fuel. (The load button will flash momentarily).
-* You can verify fuel has loaded by looking at your upper ECAM FOB. 
+* You can verify fuel has loaded by looking at your upper ECAM FOB.
 
 Using the horizontal slew keys you can switch to the weights and balance page.
 
-* Again press LSK5L to instantly load your planned payload and pax. 
-* You can verify the weight has changed by looking at the lower ECAM towards the lower right hand side. 
+* Again press LSK5L to instantly load your planned payload and pax.
+* You can verify the weight has changed by looking at the lower ECAM towards the lower right hand side.
 
 !!! info "Customizing Fuel and Weights"
 
@@ -448,7 +452,7 @@ Using the horizontal slew keys you can switch to the weights and balance page.
 
 ### ^^Initialize Flight Plan^^
 
-Head over to the `INIT A` page. 
+Head over to the `INIT A` page.
 
 * Select `INIT REQUEST` by pressing LSK2R
 
@@ -456,4 +460,4 @@ This will load your flight plan from simBrief directly into the MCDU
 
 ![mcdu1b](../assets/beginner-guide/mcdu/mcdu1b.png)
 
-Continue with [Engine Start and Taxi](#)
+Continue with [Engine Start and Taxi](engine-start-taxi.md)
