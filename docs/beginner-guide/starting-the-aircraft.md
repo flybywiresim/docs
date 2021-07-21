@@ -3,7 +3,7 @@
 This guide will assist you with starting your aircraft. It includes images to assist you with understanding the locations of all buttons and switches.
 
 !!! warning "Disclaimer"
-    The level of detail in this guide is meant to get a FlyByWire A320neo beginner starting the aircraft correctly.
+    The level of detail in this guide is meant to teach a FlyByWire A320neo beginner to start the aircraft correctly.
 
     A *beginner* is defined as someone familiar with flying a GA aircraft
     or different types of airliners. Aviation terminology and know-how is
@@ -104,7 +104,6 @@ Set the `RMP 1` to the active **ATIS** frequency and set the standby frequency t
 After setting correct frequencies, look at the **glareshield** and locate the `BARO` reference. You can set the barometer in either `IN HG` or `HPA`. Just below the barometer reference, turn on the `FD`. You should see a green light indicate it has been turned on.
 
 This concludes the *Starting the Aircraft* guide.
-
 
 
 
