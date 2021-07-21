@@ -33,10 +33,12 @@ Begin by looking down at the **bottom pedestal**.
 - Engine mode selector is set to `NORM`
 - Thrust levers are idle
 
-After ensuring everything is set on the bottom pedestal, direct your attention to the **main panel** and make sure the following are set.
+After ensuring everything is set on the bottom pedestal, direct your attention to the **main panel** and make sure the following are set:
+
 - Gear lever is down
 
 Then look up to and view the **overhead panel**. Make sure the following are in the set position before moving on to starting the aircraft:
+
 - Wiper selectors are in the `OFF` position
 
 ---
