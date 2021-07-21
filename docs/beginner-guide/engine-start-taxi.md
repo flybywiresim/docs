@@ -103,13 +103,22 @@ Start the chronometer above the ND to help you monitor the start up time of your
 
     Time is represented as *minutes*' *seconds*" i.e. 04'41" equates to 4 minutes and 44 seconds.
 
+    **Use Cases**
+
+    There are a few different reasons pilots use the chronometer on the ND:
+
+    - Engine startup times.
+    - Duration of flight.
+    - Certain procedures such as a visual pattern or circling approach.
+
     Location on the ND:
 
     ![NDlocation](../assets/beginner-guide/taxi/nd.png)
 
-**Differing airline SOP may have a different engine start order.**
+For this guide will begin by starting engine 2.
 
-For this guide will begin by starting engine 2.  
+!!! info ""
+    **Differing airline SOP may have a different engine start order**
 
 === "Start Engine 2"
     1. Set the `ENG` mode selector to `IGN/START`
