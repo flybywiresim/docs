@@ -28,6 +28,21 @@ Visit [Starting the Aircraft](starting-the-aircraft.md) to learn more.
     * External Power OR APU
 * Make sure the ADIRS are set to NAV.
 * Have a valid flight plan.
+* Ensure IFR clearance has been obtained.
+
+!!! info "Requesting IFR Clearance"
+    Before departing for the flight, we must obtain an IFR clearance from ATC. The clearance may be obtained from clearance delivery or another specific frequency, depending on the airport and available services.
+
+    If you are not flying on network and are using the built in ATC menu, simply find the appropriate selection in the menu and request for IFR clearance. 
+
+    Clearances will usually provide the following information below which as a pilot you would need to readback correctly or acknowledge if using the built in ATC menu.
+
+    - Statement from ATC that the flight is cleared to the destination via specified route in the flight plan.
+    - Initial cleared altitude after departure.
+    - Assigned SID for departure.
+    - Assigned departing runway.
+    - Squak code.
+    - Ground frequency.
 
 ***
 
