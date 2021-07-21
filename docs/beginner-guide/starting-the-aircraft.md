@@ -77,7 +77,7 @@ After powering the aircraft, turn on the crew oxygen supply by pushing on the bu
 
 To align the Inertial Reference System (or IRS), turn the 3 knobs to the `NAV` position. This will then start the IRS alignment which you can view the progress on the ECAM display.
 
-![IRS alignment overhead](../assets/beginner-guide/starting-aircraft/adirsalignment.png)
+![IRS alignment overhead](../assets/beginner-guide/starting-aircraft/adirsaligned.png)
 ![ECAM IRS](../assets/beginner-guide/starting-aircraft/ecamirs.png)
 
 
