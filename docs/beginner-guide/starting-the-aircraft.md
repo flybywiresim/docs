@@ -2,16 +2,29 @@
 
 This guide will assist you with starting your aircraft. This guide includes images as well to allow you to understand the locations of all buttons and switches.
 
+!!! warning "Disclaimer"
+    The level of detail in this guide is meant to get a FlyByWire A320neo beginner safely from the terminal to the runway hold short point.
+
+    A *beginner* is defined as someone familiar with flying a GA aircraft
+    or different types of airliners. Aviation terminology and know-how is
+    a requirement to fly any airliner even in Microsoft Flight Simulator.
+
+    You will find many great videos on YouTube on how to fly the FlyByWire A32NX.<br/>
+    Check out the FlyByWire YouTube Channel as well: [FlyByWire on YouTube](https://www.youtube.com/c/FlyByWireSimulations/playlists)
+
+---
+
 ***
 
 For organization purposes and allow the reader of this guide for easy accessibility, we will divide the guide into sections that will be followed in a chronological order.
 - Overhead Panel
 
 
-# Pre-Requisites
+## Pre-Requisites
 To start off, we will begin by doing a few prechecks in all areas of the cockpit to ensure the aircraft is in an normal position before turning on the batteries.
 
-Begin by looking down at the **bottom pedestal**. 
+Begin by looking down at the **bottom pedestal**.
+
 - Place the parking brake handle in the `OFF` position
 - Ensure the speed brakes have been disarmed/retracted
 - Flaps are retracted
@@ -40,5 +53,9 @@ After powering the aircraft, turn on the crew oxygen supply by pushing on the bu
 To align the Inertial Reference System (or IRS), turn the 3 knobs to the `NAV` position. This will then start the IRS alignment which you can view the progress on the ECAM display.
 (IRS overhead image)(ECAM IRS progress image)
 
-To indicate that the aircraft is powered from the exterior, turn on the `NAV & LOGO` light. Following, set the `STROBE` light to the `AUTO` position.   
+To indicate that the aircraft is powered from the exterior, turn on the `NAV & LOGO` light. 
+Following, set the `STROBE` light to the `AUTO` position.   
 (Image)
+
+
+
