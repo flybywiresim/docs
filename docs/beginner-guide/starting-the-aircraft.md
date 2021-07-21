@@ -73,8 +73,13 @@ After powering the aircraft, turn on the crew oxygen supply by pushing on the bu
 
 ![Crew Oxygen](../assets/beginner-guide/starting-aircraft/crewoxyhighlight.png)
 
+### ADIRS alignment
+
 To align the Inertial Reference System (or IRS), turn the 3 knobs to the `NAV` position. This will then start the IRS alignment which you can view the progress on the ECAM display.
-(IRS overhead image)(ECAM IRS progress image)
+
+![IRS alignment overhead](../assets/beginner-guide/starting-aircraft/adirsalignment.png)
+![ECAM IRS](../assets/beginner-guide/starting-aircraft/ecamirs.png)
+
 
 ### Lighting
 
@@ -139,6 +144,12 @@ Set the `RMP 1` to the active **ATIS** frequency and set the standby frequency t
 
 After setting correct frequencies, look at the **glareshield** and locate the `BARO` reference. You can set the barometer in either `IN HG` or `HPA`. Just below the barometer reference, turn on the `FD`. You should see a green light indicate it has been turned on.
 ![Radio Panel](../assets/beginner-guide/starting-aircraft/radiopanel.png)
+
+### ECAM Fuel Page
+
+Verify that on the ECAM fuel page that your aircraft has enough fuel for the flight.
+
+If you do not have enough fuel for the flight you can refuel via Microsoft Flight Simulators hovering menu bar or through the flyPad.
 
 ---
 
