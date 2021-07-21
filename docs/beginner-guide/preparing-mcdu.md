@@ -22,7 +22,7 @@ The simBrief route used in this guide
 
 Below are a few pre-requisites before programming the MCDU.
 
-Visit [Starting the Aircraft](#) to learn more.
+Visit [Starting the Aircraft](starting-the-aircraft.md) to learn more.
 
 * Make sure the aircraft is powered up.
     * External Power OR APU
