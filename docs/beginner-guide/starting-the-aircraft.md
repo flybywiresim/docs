@@ -49,7 +49,7 @@ Then look up to and view the **overhead panel**. Make sure the following are in 
 
 Direct your attention to the **ELEC PANEL**
 
-Begin by, turning on batteries `1 AND 2`. After pushing these buttons, ensure no white light is visible on the button.
+Begin by, turning on batteries `1 AND 2`. After pushing these buttons, check to see on both sides that there is voltage.
 
 !!! info "External Power availible"
     If the green light indicating `AVAIL` is on the push button, push on it to give power to the aircraft
