@@ -151,11 +151,13 @@ Verify that on the ECAM fuel page that your aircraft has enough fuel for the fli
 
 If you do not have enough fuel for the flight you can refuel via Microsoft Flight Simulators hovering menu bar or through the flyPad.
 
+![flyPad Fuel](../assets/beginner-guide/starting-aircraft/flypadfuel.png)
+
 ---
 
 At this point you would have completed 5/7 task on the `Before Start` section on the FlyByWire A32NX checklist.
 
-![](../assets/beginner-guide/starting-aircraft/beforestart.png)
+![Before Start Checklist](../assets/beginner-guide/starting-aircraft/beforestart.png)
 
 
 This concludes the *Starting the Aircraft* guide.
