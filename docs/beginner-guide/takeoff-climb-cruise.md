@@ -61,10 +61,10 @@ The A320 has __Autothrust__ which is similar to Autothrottle (e.g., in a Boeing)
 - __Autopilot__<br/>
 The A320's __Autopilot__ system works a bit differently from other manufacturer's systems. The A320 FCU controls allow setting certain values and then push or pull the knobs. Pushing usually means automatic control (Managed Mode) and pulling will use the manually selected value (Selected Mode).
 
-    ![FCU](../assets/beginner-guide/takeoff-climb-cruise/FCU.png "FCU"){ width=480 }
+    ![FCU](../assets/beginner-guide/takeoff-climb-cruise/FCU.png "FCU"){ width=70% }
 
     !!!info "Microsoft Flight Simulator knobs"
-        In Microsoft Flight Simulator pushing is clicking the knob "UP" and pulling is clicking the knob "DOWN"<br/> ![Pulling a knob in MSFS](../assets/beginner-guide/takeoff-climb-cruise/Pulling_knob.png "Pulling a knob in MSFS"){ width=480 }
+        In Microsoft Flight Simulator pushing is clicking the knob "UP" and pulling is clicking the knob "DOWN"<br/> ![Pulling a knob in MSFS](../assets/beginner-guide/takeoff-climb-cruise/Pulling_knob.png "Pulling a knob in MSFS"){ width=70% }
 
 - __Flight phases__<br/>
 The A320 uses flight phases to manage different parts of a flight. These are preflight, takeoff, climb, cruise, descent, approach, go around, done. They match the PERF pages in the MCDU (see [Preparing the MCDU](preparing-mcdu.md)).
@@ -88,7 +88,7 @@ While approaching the runway holding point or at the latest at the runway
 holding point the **"Before takeoff checklist"** needs to be completed.
 
 !!! info "Before takeoff checklist"
-    ![Before Takeoff Checklist](../assets/beginner-guide/takeoff-climb-cruise/BeforeTakeOffChecklist.png "Before Takeoff Checklist"){ align=right width=180 }
+    ![Before Takeoff Checklist](../assets/beginner-guide/takeoff-climb-cruise/BeforeTakeOffChecklist.png "Before Takeoff Checklist"){ align=right width=30% }
 
     The "Before Takeoff" checklist is divided into two parts:
 
@@ -115,7 +115,7 @@ __*The following steps from TAXI setup need to be done and checked:*__
 - Check V~1~, V~R~, V~2~ speeds and also, if required, FLX temperature setting (PERF TAKE OFF page)
 
 - Check Squawk
-  ![ATC-TCAS](../assets/beginner-guide/takeoff-climb-cruise/ATC-TCAS.png){align=right width=300}
+  ![ATC-TCAS](../assets/beginner-guide/takeoff-climb-cruise/ATC-TCAS.png){align=right width=45%}
 
     - check squawk ID number
     - Set to AUTO or On
@@ -126,7 +126,7 @@ __*The following steps from TAXI setup need to be done and checked:*__
 
 - Check ECAM - no blue writing should be visible for these:
 
-    ![ECAM before T.O.](../assets/beginner-guide/takeoff-climb-cruise/ECAM_small.png "ECAM before T.O."){ align=right width=300 }
+    ![ECAM before T.O.](../assets/beginner-guide/takeoff-climb-cruise/ECAM_small.png "ECAM before T.O."){ align=right width=45% }
 
     - AUTO BRK MAX
       - SIGN ON
@@ -139,7 +139,7 @@ __*The following steps from TAXI setup need to be done and checked:*__
 
 - Check radar panel:
 
-    ![Radar panel](../assets/beginner-guide/takeoff-climb-cruise/Radar_small.png "Radar panel"){ align=right width=280}
+    ![Radar panel](../assets/beginner-guide/takeoff-climb-cruise/Radar_small.png "Radar panel"){ align=right width=45%}
 
     - Set Weather Radar to Sys 1 to show weather on ND<br/>
     - Check if Predictive Windshear Alerts (PWS) is set to AUTO (should have been set to AUTO during TAXI)
@@ -166,8 +166,6 @@ This concludes *Lineup*.
 
 - Aircraft is on runway and fully setup for takeoff as per previous chapters.
 
-After ATC has given clearance for takeoff we can actually start our roll.
-
 #### Preparation and "Below the line" checklist post-T.O.-clearance
 After ATC (Tower) gives clearance to "line up" or "take off" we are allowed to enter the runway.
 
@@ -177,30 +175,28 @@ After ATC (Tower) gives clearance to "line up" or "take off" we are allowed to e
 
 Shortly before we start our takeoff roll we do the following steps:
 
-- Check PACKS as required<br/>
-  (some airlines take off with Packs OFF to allow more power to thrust and save fuel - not necessarily required)
+- Check `PACKS` as required<br/>
+  (some airlines take off with Packs `OFF` to allow more power to thrust and save fuel - not necessarily required)
 
-- Turn on landing lights and check if Strobe light is in AUTO or ON
+- Turn on landing lights (`LAND`) and check if `STROBE` light is in `AUTO` or `ON`
 
-    ![landing_lights](../assets/beginner-guide/takeoff-climb-cruise/Landing_lights.png){ width=360 }
+    ![landing_lights](../assets/beginner-guide/takeoff-climb-cruise/Landing_lights.png){ width=60% }
 
       The correct switch settings are:
     
-      - RWY TURN OFF lt is ON
-      - NOSE light is at T.O. (T.O. = takeoff)
-      - LAND lights are both ON
-      - STROBE is on ON or AUTO
-      - BEACON, NAV & LOGO should have been on during TAXI already
-      - WING is usually only ON for wing inspection and to detect ice 
-        accretion on the wing
+      - `RWY TURN OFF` lt is `ON`
+      -` NOSE` light is at `T.O.` (T.O. = takeoff)
+      - `LAND` lights are both `ON`
+      - `STROBE` is on `ON` or `AUTO`
+      - `BEACON`, `NAV & LOGO` should have been on during taxi already
+      - `WING` is `OFF`. It is usually only on for wing inspection and to detect ice accretion on the wing
 
 !!! info "Lights at Takeoff"
-    Setting the RWY TURN OFF light to ON, the LAND LIGHTS to ON and
-    the NOSE light to T.O. minimizes bird strike hazard during takeoff.
+    Setting the `RWY TURN OFF` light to `ON`, the `LAND` lights to `ON` and the `NOSE` light to `T.O.` minimizes bird strike hazard during takeoff.
 
-- Check ENG MODE SEL as required (should be on MODE NORM)
+- Check `ENG MODE SEL` as required (should be on `MODE NORM`)
 
-- Set TCAS to TA or TA/TR and traffic to All or ABV)
+- Set `TCAS` to `TA` or `TA/TR` and traffic to `ALL` or ABV)
 
 **A typical standard takeoff follows these steps:**
 
@@ -215,8 +211,8 @@ Shortly before we start our takeoff roll we do the following steps:
 
     ![thrust-brake-forward-pressure](../assets/beginner-guide/takeoff-climb-cruise/Thrust-brake-forward-pressure.png "Cockpit before applying takeoff thrust")
 
-- Release brakes and apply FLX/MCT or TO GA power.<br/>
-  (depending on if have configured a FLEX temperature, and the runway is long enough for a FLEX start)
+- Release brakes and apply `FLX/MCT` or `TO GA` power.<br/>
+  (depending on if have configured a FLEX temperature, and the runway is long enough for a `FLEX` start)
 
     ![Takeoff_thrust](../assets/beginner-guide/takeoff-climb-cruise/Takeoff_thrust.png "Cockpit instruments after applying takeoff thrust")
 
@@ -246,9 +242,9 @@ Shortly before we start our takeoff roll we do the following steps:
 - Keep the aircraft on the center line while accelerating down the runway.
 
 !!!info "V-Speeds"
-    There are three important speeds for takeoff which we have configured earlier when programming the MCDU's PERF page for takeoff. These are shown in blue on the PFD's speed tape.
+    There are three important speeds for takeoff which we have configured earlier when programming the MCDU's PERF page for takeoff. These are shown on the PFD's speed tape.
 
-    **V~1~**: The speed beyond which takeoff should no longer be aborted. V~1~ is depicted as a "1" next to the speedband in the PFD.
+    **V~1~**: The speed beyond which takeoff should no longer be aborted. V~1~ is depicted as a cyan "1" next to the speedband in the PFD.
     
     **V~R~**: Rotation speed. The speed at which the pilot begins to apply control inputs to cause the aircraft nose to pitch up, after which it will leave the ground. V~R~ is depicted as a cyan circle next to the speedband in the PFD.
     
@@ -263,17 +259,17 @@ Shortly before we start our takeoff roll we do the following steps:
 - At V~R~ apply smooth positive backward stick movement on the sidestick and aim for a rotation rate (pitch rate) of 3 deg/sec for about 5 seconds (15°-18° pitch attitude). Once airborne follow the flight director's guidance for pitch attitude.<br/>
   Tip: Count one-one thousand, two-one-thousand, etc. and hit 15 deg at five-one-thousand - practice this.
 
-    ![V~1~](../assets/beginner-guide/takeoff-climb-cruise/V1.png "Speedtape with V~1~ marker"){ width=360 }
+    ![V~1~](../assets/beginner-guide/takeoff-climb-cruise/V1.png "Speedtape with V~1~ marker"){ width=60% }
 
 - Once we have confirmed "positive climb" we retract the landing gear.
 
-    ![Positve_climb](../assets/beginner-guide/takeoff-climb-cruise/Positve_climb.png){ width=360 }.
+    ![Positve_climb](../assets/beginner-guide/takeoff-climb-cruise/Positve_climb.png){ width=60% }.
     ![gearup](../assets/beginner-guide/takeoff-climb-cruise/Gearup.png)
 
 - We confirm that the landing gear is up by looking at the landing gear annunciators, and the lower ECAM Wheels page.
 
     ![ldg_gear_annun](../assets/beginner-guide/takeoff-climb-cruise/Ldg_gear_annun.png "Landing gear annunciators show no lights")<br/>
-    ![Lower ECAM Wheel page after gear up](../assets/beginner-guide/takeoff-climb-cruise/ECAM_wheel.png "Lower ECAM Wheel page after gear up"){ width=360 }
+    ![Lower ECAM Wheel page after gear up](../assets/beginner-guide/takeoff-climb-cruise/ECAM_wheel.png "Lower ECAM Wheel page after gear up"){ width=60% }
 
 This concludes *Takeoff*.
 
@@ -287,61 +283,58 @@ This concludes *Takeoff*.
 - Thrust levers are in FLX MCT or TO GA detent.
 - Flaps are still in T.O. position.
 
-After takeoff the aircraft will use FLX/MCT or TO GA thrust until thrust reduction altitude is reached (typically ~1500ft above runway, this is part of the MCDU setup)
+After takeoff the aircraft will use `FLX/MCT` or `TO GA` thrust until thrust reduction altitude is reached (typically ~1500ft above runway, this is part of the MCDU setup)
 
-After reaching thrust reduction altitude the PFD FMA now shows a flashing *LVR CLB* message to instruct the pilot to move thrust levers to the CLB detent.
+After reaching thrust reduction altitude the `PFD FMA` now shows a flashing *LVR CLB* message to instruct the pilot to move thrust levers to the `CL` detent.
 
 **Pull the throttle back into the CL detent.**
 
-![Thrust levers in CL detent](../assets/beginner-guide/takeoff-climb-cruise/Lvr_clb.png "Thrust levers in CL detent"){width=280}
+![Thrust levers in CL detent](../assets/beginner-guide/takeoff-climb-cruise/Lvr_clb.png "Thrust levers in CL detent"){width=40%}
 
-This activates the __Autothrust__ system (FMA shows A/THR in white now). In the A320 (and most Airbus models) we will not touch the thrust levers again before final approach and landing (under normal flight conditions).
+This activates the __Autothrust__ system (FMA shows `A/THR` in white now). In the A320 (and most Airbus models) we will not touch the thrust levers again before final approach and landing (under normal flight conditions).
 
 The aircraft will now climb to the altitude selected in the FCU (in our case 5.000ft).
 
 **Activate the __Autopilot__ at this point by pressing the AP1 button on the FCU.**
 
-![Autopilot and Autothurst buttons](../assets/beginner-guide/takeoff-climb-cruise/AP1.png "Autopilot and Autothurst buttons"){width=280}
+![Autopilot and Autothurst buttons](../assets/beginner-guide/takeoff-climb-cruise/AP1.png "Autopilot and Autothurst buttons"){width=40%}
 
 The FMA now shows AP1 in white in the upper right corner.
 
 !!!info "FCU Autopilot Controls"
     The FCU (Flight Control Unit) shows three important values:
 
-    - SPD "---" : means the __Autopilot__ is in Managed Speed mode (e.g. 250knots
-      <1000ft, 290 above). If we pull the SPD knob we can select a speed which
-      the __Autopilot__ will then apply.
-    - HDG "---" : means the lateral navigation is in Managed HDG Mode and the
-      __Autopilot__ follows the planned route. Dialing the HDG knob will let us
-      select a heading and by pulling the knob
-      we tell the __Autopilot__ to fly this heading (Selected Heading Mode).<br/>
+    - SPD "---" : means the __Autopilot__ is in Managed Speed mode (e.g. 250knots <1000ft, 290kts above). If we pull the SPD knob we can select a speed which the __Autopilot__ will then apply.
+    - HDG "---" : means the lateral navigation is in Managed HDG Mode and the __Autopilot__ follows the planned route. Dialing the HDG knob will let us select a heading and by pulling the knob we tell the __Autopilot__ to fly this heading (Selected Heading Mode).<br/>
     - ALT "5000" : means the selected altitude is 5000ft<br/>
 
 **When reaching S-speed retract flaps.**<br/>
-S-speed is signified with an S next to the speed band in the PFD.
+S-speed is signified with an S next to the speed band in the `PFD`.
 
 !!! info "Flaps during takeoff and climb"
-    Depending on the start configuration there will be different markers next to the speedband in the PFD to show when to retract flaps:
+    Depending on the start configuration there will be different markers next to the speedband in the `PFD` to show when to retract flaps:
 
-    - CONF-2 (Flaps position 2): At "F" and positive speed trend
-    - CONF-1+F (Flaps position 1): At "S" and positive speed trend
+    - `CONF-2` (Flaps position 2): At "F" and positive speed trend
+    - `CONF-1+F` (Flaps position 1): At "S" and positive speed trend
 
-    We always retract flaps by only one step at a time. So when we took off with FLAPS 2 (CONF-2) we retract FLAPS at "F" to FLAPS 1. Then at "S" we retract them to FLAPS 0.
+    We always retract flaps by only one step at a time. So when we took off with `FLAPS 2` (`CONF-2`) we retract `FLAPS` at "F" to `FLAPS 1`. Then at "S" we retract them to `FLAPS 0`.
 
 ![Aircraft shortly before reaching S-speed](../assets/beginner-guide/takeoff-climb-cruise/S_speed.png "Aircraft shortly before reaching VS speed")
 
-Now we turn off the TAXI and RWY TURN OFF lights. We do this as they are sitting on the front gear and are now within the gear housing getting hot.
+Now we turn off the `TAXI` and `RWY TURN OFF` lights. We do this as they are sitting on the front gear and are now within the gear housing getting hot.
 
-![Landing lights after gear up](../assets/beginner-guide/takeoff-climb-cruise/Landing_lights_gear_up.png "Landing lights after gear up"){ width=360 }
+![Landing lights after gear up](../assets/beginner-guide/takeoff-climb-cruise/Landing_lights_gear_up.png "Landing lights after gear up"){ width=60%}
 
-Lastly we disarm the SPEED BRAKE and turn on the PACKS if we turned them off for takeoff.
+Lastly we disarm the `SPEED BRAKE` and turn on the `PACKS` if we turned them off for takeoff.
 
 **Now complete the "After takeoff checklist"**
 
 1. Landing gear up
 - Packs on
 - Flaps retracted
-- Check Baro setting: above transition altitude (defined in the ECAM PERF page) set it to STD by pulling the baro knob. A flashing baro value in the PFD will remind us in case we forgot.
+- Check Baro setting: above transition altitude (defined in the `ECAM PERF` page) set it to `STD` by pulling the baro knob. A flashing baro value in the `PFD` will remind us in case we forgot.
+
+![After Takeoff checklist](../assets/beginner-guide/takeoff-climb-cruise/After-take-off-cl.png "After Takeoff checklist"){width=35%}
 
 This is usually a good time to contact ATC Departure to check in with your current altitude. In most cases ATC will now give us a higher climb altitude. If we did not receive a higher altitude we have to level off at the previously cleared altitude (cleared by ATC or navigational charts). If we have the __Autopilot__ activated it will level off automatically at the Selected Altitude.
 
@@ -362,24 +355,24 @@ This concludes the *Initial Climb*.
 
 The aircraft will now continue climbing while managing thrust and pitch level. The __Autopilot__ ensures that the aircraft stays at the Selected or Managed Speed setting and climbs to the new altitude while managing thrust automatically.
 
-The PFD's FMA now shows:<br/>
+The PFD's `FMA` now shows:<br/>
 ![FMA during climb](../assets/beginner-guide/takeoff-climb-cruise/FMA_THR_CLB.png "FMA during climb")
 
-Thrust level is "THR CLB", vertical mode is "CLB" (ALT mode armed), lateral mode is NAV.
+Thrust level is `THR CLB`, vertical mode is `CLB` (ALT mode armed), lateral mode is NAV.
 
 Typically, the climb to the flight plan's cruise level (e.g., FL210) happens in several steps (step climbs). Each to be instructed and cleared by ATC.
 
 **Passing 10,000ft**<br/>
-Turn off landing lights and when the aircraft is stable (weather, no turn, etc.) you can turn off the seatbelt signs. The aircraft will now accelerate to CLB speed (defined in MCDU PERF CLB page).
+Turn off landing lights and when the aircraft is stable (weather, no turn, etc.) you can turn off the seatbelt signs. The aircraft will now accelerate to CLB speed (defined in `MCDU PERF CLB` page).
 
 
 **Repeat the climb process above until cruise level (e.g. FL210) is reached.**
 
 === "MCDU and PFD at cruise level"
 
-    ![ECAM PERF CRZ page at cruise level](../assets/beginner-guide/takeoff-climb-cruise/ECAM_PERF_CRZ_cruise_lvl.png "ECAM PERF CRZ page at cruise level"){ align=left width=320 }
+    ![ECAM PERF CRZ page at cruise level](../assets/beginner-guide/takeoff-climb-cruise/ECAM_PERF_CRZ_cruise_lvl.png "ECAM PERF CRZ page at cruise level"){ align=left width=45%}
 
-    ![PFD at cruise level](../assets/beginner-guide/takeoff-climb-cruise/Cruise_lvl_pfd.png "PFD at cruise level"){ align=right width=312 }
+    ![PFD at cruise level](../assets/beginner-guide/takeoff-climb-cruise/Cruise_lvl_pfd.png "PFD at cruise level"){ align=right width=45% }
 
 This concludes the *Climb*.
 
@@ -418,3 +411,5 @@ At some point (200-300NM from destination) we would start with descent-planning 
 Descent, Approach and Landing will be covered in later chapters of this beginner guide.
 
 This concludes the *Cruise*.
+
+Continue with [Descent Planning and Descent](descent.md)
