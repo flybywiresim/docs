@@ -22,7 +22,7 @@ This guide will explain the correct procedures to accomplish a pushback with eng
 - APU MASTER SW - `Set to ON` and the APU is available
 - Beacon light - `Set to ON`
   
-At this time you may request for clearance to push and start from ATC.  
+At this time we may request for clearance to push and start from ATC.  
 
 [Download FlyByWire Checklist](../assets/FBW_A32NX_CHECKLIST.pdf){ .md-button }
 
@@ -62,11 +62,11 @@ Ensure:
 
 For this guide we will assume you are parked at gate 10 at EGFF (Cardiff). 
 
-Contact ground ATC and inform then you are ready for push and start. If you are on a network such as VATSIM, a typical response from ground would give you clearance for your request and a direction to face (or any direction). At EGFF you could expect the following push and start clearance from ground: 
+Contact ground ATC and inform them you are ready for push and start. If you are on a network such as VATSIM, a typical response from ground would give you clearance for your request and a direction to face (or any direction). At EGFF you could expect the following push and start clearance from ground: 
 
 "** Your Aircraft Callsign**, ground. You are clear to push and start onto Alpha 3 facing east."
 
-At this point you may begin your pushback away from the terminal onto the taxiway Alpha 3.  
+At this point we may begin pushback away from the terminal onto the taxiway Alpha 3.  
 
 ![parking stands](../assets/beginner-guide/taxi/parking-stands-guidelines.png)
 <sub>Copyright © 2021 Navigraph / Jeppesen<br>
@@ -97,9 +97,9 @@ For the purposes of this guide we will use the default MSFS pushback controls bu
 
 ## Engine Start
 
-Once you are clear of the terminal and/or the ground crew has notified you it is clear to start engines you can proceed with the following steps. 
+Once we are clear of the terminal and/or the ground crew has notified the flight crew it is clear to start engines, we can proceed with the following steps. 
 
-Start the chronometer above the ND to help you monitor the start up time of your engines. 
+Start the chronometer above the ND to help monitor the start up time of the engines. 
 
 ![chrono button](../assets/beginner-guide/taxi/chrono.png)
 
@@ -131,11 +131,11 @@ For this guide will begin by starting engine 2.
 
 === "Start Engine 2"
     1. Set the `ENG` mode selector to `IGN/START`
-        - You should hear the packs turn off.
+        - Flight crew should hear the packs turn off.
         - The lower ECAM should automatically display the engine parameters screen. 
     2. Set `ENG 2` Master to the ON position.
-        - Pay attention to your ECAMs and note your engine parameters as ENG 2 starts up. 
-        - The engine should take roughly 1 minute to complete its start up sequence - use the chronometer you started earlier to time this.
+        - Pay attention to the ECAMs and note engine parameters as ENG 2 starts up. 
+        - The engine should take roughly 1 minute to complete its start up sequence - use the chronometer started earlier to time this.
     
     Engine 2 will have successfully started when the following applies (at ISA sea level):
 
@@ -147,8 +147,8 @@ For this guide will begin by starting engine 2.
 
 === "Start Engine 1"
     1. Set `ENG 1` Master to the ON position.
-        - Pay attention to your ECAMs and note your engine parameters as ENG 1 starts up.
-        - The engine should take roughly 1 minute to complete its start up sequence - use the chronometer you started earlier to time this.
+        - Pay attention to the ECAMs and note engine parameters as ENG 1 starts up.
+        - The engine should take roughly 1 minute to complete its start up sequence - use the chronometer we started earlier to time this.
 
     Engine 1 will have successfully started when the following applies (at ISA sea level):
 
@@ -194,14 +194,14 @@ Airlines may perform the flight controls check at different points depending on 
 
 Using the ECAM control panel press the `F/CTL` button to switch the lower ECAM to the flight controls. Ensure all flight controls are displayed in green.
 
-The `F/CTL` ECAM page shows you a white scale and green index for the following positions:
+The `F/CTL` ECAM page displays a white scale and green index for the following positions:
 
 - Left and right ailerons position
 - Left and right elevator position
   
-Fully deflect your sidestick in all directions and observe that the full range of motion is reflected on the ECAM page. You should note the upward arrows in the `SPD BRK` area when moving the ailerons and ensure those are displayed when deflecting your side stick. 
+Fully deflect the sidestick in all directions and observe that the full range of motion is reflected on the ECAM page. Note the upward arrows in the `SPD BRK` area when moving the ailerons and ensure those are displayed when deflecting the side stick. 
 
-Move your rudders and pay attention to the rudder symbol to ensure it moves all the way to the left or right. 
+Move the rudders and pay attention to the rudder symbol to ensure it moves all the way to the left or right. 
 
 **Sidestick right full deflection:**
 
@@ -222,19 +222,19 @@ For additional information on signs and markings on the ground please see [Gener
 
 ### Taxi Clearance
 
-After you have successfully started your engines you can contact ATC to request your taxi clearance. As per our routing in the [Preparing MCDU Guide](preparing-mcdu.md) we should be expecting a takeoff from runway 30. As such a sample taxi clearance may be as follows:
+After having successfully started the engines we can contact ATC to request taxi clearance. As per our routing in the [Preparing MCDU Guide](preparing-mcdu.md) we should be expecting a takeoff from runway 30. As such a sample taxi clearance may be as follows:
 
 "**Your Aircraft Callsign**, ground. Runway 30, taxi via Alpha, hold short of 30 on Alpha 2."
 
-Referencing the airport chart below, your aircraft should be sitting on the Alpha taxiway near the Alpha 3 holding point. Luckily today our clearance is quite simple and we only have to taxi straight ahead and hold at Alpha 2.
+Referencing the airport chart below, the aircraft should be sitting on the Alpha taxiway near the Alpha 3 holding point. Luckily today our clearance is quite simple and we only have to taxi straight ahead and hold at Alpha 2.
 
 ![airport chart](../assets/beginner-guide/taxi/airport-chart-guidelines.png)
 <sub>Copyright © 2021 Navigraph / Jeppesen<br>
 "Navigraph Charts are intended for flight simulation use only, not for navigational use."
 
-Make sure to pay attention to any warnings or notices on your respective taxi chart beforehand so you are aware of any important information while performing your taxi.
+Make sure to pay attention to any warnings or notices on the respective taxi chart beforehand so you are aware of any important information while performing your taxi.
 
-Once you have your routing from ATC and have read back your taxi clearance you are now free to taxi to the runway.
+Once we have the routing from ATC and have read back the taxi clearance, we are now free to taxi to the runway.
 
 ### Moving the Aircraft
 
@@ -248,29 +248,29 @@ Exterior Lights:
 Before Moving Safety Check:
 
 - Verify the ground crew is safely away.
-- Look to your left and right to ensure clearance from other aircraft or vehicles.
-- Release your parking brake.
+- Look to the left and right to ensure clearance from other aircraft or vehicles.
+- Release the parking brake.
 - Brakes pressure - `Check at Zero`
 
 ![brakes pressure](../assets/beginner-guide/taxi/brakes.png)
 
-At this point the aircraft may start rolling. Depending on your weight you may need to add a little power to the engines to get going. Increase power to roughly ~25-30% N1. Be mindful that you are not blasting N1 towards or around the terminal.
+At this point the aircraft may start rolling. Depending on the weight of the aircraft we may need to add a little power to the engines to get going. Increase power to roughly ~25-30% N1. Be mindful that we are not blasting N1 towards or around the terminal.
 
 - Leave a bit of thrust on and perform a quick brake check to ensure hydraulics and brakes are fully functioning.
-    - You don't need to come to a complete stop but merely check the brake pressure status when performing the brake check.
-- If an arc is shown above the brake temperature on the WHEEL SD page on your lower ecam, turn your brake fans on.
+    - We don't need to come to a complete stop but merely check the brake pressure status when performing the brake check.
+- If an arc is shown above the brake temperature on the WHEEL SD page on the lower ECAM, turn the brake fans on.
 
-If you need to perform a sharp turn immediately you may need more than ~25-30% N1 and should set your thrust accordingly. Try not to perform the brake check while in a turn as you don't want to come a complete stop while turning.
+If it is required to perform a sharp turn immediately we may need more than ~25-30% N1 and should set the thrust accordingly. Try not to perform the brake check while in a turn as we don't want to come a complete stop while turning.
 
 ### During Taxi
 
-While underway to the runway during your taxi perform the following as part of your taxi flow:
+While underway to the runway perform the following as part of the taxi flow:
 
 - Use the tiller (currently not implemented) or rudder pedals to steer the aircraft.
 - Perform a [flight controls check](#flight-controls-check) (if you haven't already).
-- Verify your ATC clearance for departure.
+- Verify the ATC clearance for departure.
   
-It is important to verify and confirm the information in your MCDU as you taxi. This is increasingly important if your ATC clearance changes enroute to the runway.
+It is important to verify and confirm the information in the MCDU as we taxi. This is increasingly important if the ATC clearance changes enroute to the runway.
 
 #### ^^**Takeoff data/Conditions**^^
 
@@ -289,13 +289,13 @@ It is important to verify and confirm the information in your MCDU as you taxi. 
 Perform the following:
 
 - F-PLN (SID, TRANS) - `Revise or Check`
-    - Check to ensure that your ATC clearance agrees with your flight plan if you are departing using NAV mode.  
+    - Check to ensure that the ATC clearance agrees with the flight plan if we are departing using NAV mode.  
 - INITIAL CLIMB SPEED AND SPEED LIMIT - `Modify or Check`
 - CLEARED ALTITUDE ON FCU - `Set`
 - HDG ON FCU - `If Required, Preset`
-    - If ATC requires you to fly a heading after takeoff preset the heading on the FCU. NAV mode will be disarmed and RWY TRK mode will keep the aircraft on the runway track.
+    - If ATC requires a specific heading after takeoff, preset the heading on the FCU. NAV mode will be disarmed and RWY TRK mode will keep the aircraft on the runway track.
     
-This is your FCU (more details are provided in the [Take off, Climb, and Cruise Guide](takeoff-climb-cruise.md)):
+This is the FCU (more details are provided in the [Take off, Climb, and Cruise Guide](takeoff-climb-cruise.md)):
 ![FCU image](../assets/beginner-guide/takeoff-climb-cruise/FCU.png)
 
 - BOTH FD (*flight directors*) - `Check on`
@@ -303,11 +303,11 @@ This is your FCU (more details are provided in the [Take off, Climb, and Cruise 
 - TAKEOFF BRIEFING - `Confirm`
 - RADAR (if required) - `On`
   
-    The current implementation of the weather radar in MSFS will show you precipitation on your route. Additional functions are unavailable at this time however you should set the Radar to Sys 1 if required for your departure. 
+    The current implementation of the weather radar in MSFS will show precipitation along the route. Additional functions are unavailable at this time however we should set the Radar to Sys 1 if required for departure. 
   
 - PREDICTIVE WINDSHEAR SYSTEM - `Auto`
    
-    Currently this only clears the warning on your ECAM and does not provide a function in the sim. You should perform this action regardless.
+    Currently this only clears the warning on the ECAM and does not provide a function in the sim. We should perform this action regardless.
 
 The weather panel is located on the bottom left of the lower pedestal and looks like the following: 
 
@@ -328,11 +328,11 @@ The weather panel is located on the bottom left of the lower pedestal and looks 
 
 #### Speed While Taxiing
 
-Pay attention to your ground speed (visible on the ND) while you taxi. This will provide you with your knots on the ground. 
+Pay attention to the ground speed (visible on the ND) while taxiing.
 
 - **Straight Line**
   
-    Anything up to 30kts is reasonable, but some airports may carry their own local restrictions that you should be mindful of. This is not an absolute rule and is usually typical SOP for airlines in a straight line.
+    Anything up to 30kts is reasonable, but some airports may carry their own local restrictions that should be noted. This is not an absolute rule and is usually typical SOP for airlines in a straight line.
   
 - **90° (Sharp) Turns**
   
@@ -346,11 +346,11 @@ Pay attention to your ground speed (visible on the ND) while you taxi. This will
 
 - **Maintaining Center Line**
   
-    You can use the grey vertical bar in between the PFD and ND as a reference point and keep the taxi line in between the two screens.
+    We can use the grey vertical bar in between the PFD and ND as a reference point and keep the taxi line in between the two screens.
   
 - **Turning**
   
-    Using the same bar mentioned above try to "over steer" (keep the nose wheel slightly ahead of the line while you turn). This helps keep you centered while performing a turn.
+    Using the same bar mentioned above try to "over steer" (keep the nose wheel slightly ahead of the line while we turn). This helps keep the aircraft centered while performing a turn.
   
     Slow down while turning!
     
@@ -358,10 +358,10 @@ Pay attention to your ground speed (visible on the ND) while you taxi. This will
 
 When approved to cross a runway (active or not) perform the following actions:
 
-- Look out the windows and visually ensure that there are no visible aircraft to your left and right. 
-- Turn on extra lights to ensure your aircraft is visible when crossing:
+- Look out the windows and visually ensure that there are no visible aircraft to the left and right. 
+- Turn on extra lights to ensure the aircraft is visible when crossing:
     - Strobe lights - `Set to ON`
-- Inform ATC you have vacated the runway if required.
+- Inform ATC we have vacated the runway if required.
 
 !!! warning
     Never cross a runway without express permission from ATC and providing a read back of said instructions. Always ensure maximum safety when crossing.
