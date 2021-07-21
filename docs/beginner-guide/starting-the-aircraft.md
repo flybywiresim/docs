@@ -149,7 +149,7 @@ After setting correct frequencies, look at the **glareshield** and locate the `B
 
 Verify that on the ECAM fuel page that your aircraft has enough fuel for the flight.
 
-If you do not have enough fuel for the flight you can refuel via Microsoft Flight Simulators hovering menu bar or through the flyPad.
+If you do not have enough fuel for the flight you can refuel via Microsoft Flight Simulator's hovering menu bar or through the flyPad.
 
 ![flyPad Fuel](../assets/beginner-guide/starting-aircraft/flypadfuel.png)
 
