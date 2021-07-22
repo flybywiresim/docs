@@ -391,7 +391,10 @@ The simBrief route used in this guide - [Available Here](../assets/beginner-guid
 
     * Using the keypad type in `1` and press LSK3R
 
-    The THS field is where we enter our required stabilizer trim for takeoff based on the aircraft's CG. As shown in [Section 2](#section-2) the FUEL PRED page provides an autocalculated CG of 30.5. 
+    !!! info ""
+        **Entry of the THS field is subject to differeing airline SOP and may not be required.**
+
+    The THS field is where we enter the stabilizer trim for takeoff based on the aircraft's CG. As shown in [Section 2](#section-2) the FUEL PRED page provides an autocalculated CG of 30.5. 
 
     Take a look at your throttle quadrant and look for the CG markings on next to the trim wheel. We need to set a nose down trim of about 0.8.
 
