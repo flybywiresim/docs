@@ -128,8 +128,8 @@ The simBrief route used in this guide - [Available Here](../assets/beginner-guid
     * Equitime Point
     * Waypoints
     * NavAids
-    * Runway
-    * Route
+    * Runways
+    * Routes
 
 === "INIT A"
 
