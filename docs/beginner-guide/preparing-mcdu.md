@@ -392,7 +392,7 @@ The simBrief route used in this guide - [Available Here](../assets/beginner-guid
     * Using the keypad type in `1` and press LSK3R
 
     !!! info ""
-        **Entry of the THS field is subject to differeing airline SOP and may not be required.**
+        **Entry of the THS field is subject to airline SOP and may not be required.**
 
     The THS field is where we enter the stabilizer trim for takeoff based on the aircraft's CG. As shown in [Section 2](#section-2) the FUEL PRED page provides an autocalculated CG of 30.5. 
 
