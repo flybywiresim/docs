@@ -390,6 +390,21 @@ The simBrief route used in this guide - [Available Here](../assets/beginner-guid
     For this flight we will be taking off with a `1+F` flaps configuration. 
 
     * Using the keypad type in `1` and press LSK3R
+
+    The THS field is where we enter our required stabilizer trim for takeoff based on the aircraft's CG. As shown in [Section 2](#section-2) the FUEL PRED page provides an autocalculated CG of 30.5. 
+
+    Take a look at your throttle quadrant and look for the CG markings on next to the trim wheel. We need to set a nose down trim of about 0.8.
+
+    ![Throttle quad](../assets/beginner-guide/mcdu/Thrust-lever-elev-trim.png){: style="width:424.4px;height:467.6px;" }
+
+    * Using the keypad type in `/DN0.8` and press LSK3R
+
+    !!! info ""
+        Other valid entires for THS include:
+
+        - With flaps setting example: `1/DN0.8`
+        - Nose up example: `/UP0.5`
+        
     
     We can also choose to set a `FLEX TO TEMP` for the flight. The example we are using today is 60 degrees. (This will normally be calculated via a pilot's company EFB or other tools). 
 
