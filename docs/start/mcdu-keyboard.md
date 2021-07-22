@@ -11,7 +11,8 @@ What this feature allows:
 - [x] Visual indicator that input is being accepted by MCDU
 - [x] Options for MCDU keyboard entry
 - [x] A timer can be set to automatically lose focus from the MCDU after a set period
-- [x] Normal Sim Keyboard Events (i.e. Camera) will be disabled while MCDU is in focus.
+- [x] Normal Sim Keyboard Events (i.e. Camera) will be disabled while MCDU is in focus
+- [x] Keyboard combo's to delete text in MCDU scratchpad
 
 ---
 
@@ -59,6 +60,8 @@ To unfocus the MCDU use any of actions below:
 - Click on the MCDU Screen
 - Press ++ctrl+z++
 - Press ++alt++
+
+### Alternative Scratchpad Deletion
 
 
 ### How to set a timeout
