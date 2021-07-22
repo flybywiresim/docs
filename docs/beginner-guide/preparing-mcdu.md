@@ -35,14 +35,16 @@ Visit [Starting the Aircraft](starting-the-aircraft.md) to learn more.
 
     If you are not flying on network and are using the built in ATC menu, simply find the appropriate selection in the menu and request for IFR clearance. 
 
-    Clearances will usually provide the following information below which as a pilot you would need to readback correctly or acknowledge if using the built in ATC menu.
+    Clearances will usually provide the following information below. As a pilot you would need to readback the clearance correctly or acknowledge it if using the built in ATC menu.
 
-    - Statement from ATC that the flight is cleared to the destination via specified route in the flight plan.
+    - Cleared to the destination via specified route in the filed flight plan.
     - Initial cleared altitude after departure.
-    - Assigned SID for departure.
+    - Assigned SID for departure OR radar vectors
     - Assigned departing runway.
-    - Squak code.
-    - Ground frequency.
+    - Transponder/squawk code.
+    - Departure frequency.
+
+    Additional reading material: [The CRAFT mnemonic](https://en.wikipedia.org/wiki/CRAFT_(aviation))
 
 ***
 
