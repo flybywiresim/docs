@@ -63,6 +63,11 @@ To unfocus the MCDU use any of actions below:
 
 ### Alternative Scratchpad Deletion
 
+We have added new methods to assist in clearing content in the MCDU scratchpad.
+
+- ++ctrl+backspace++ : Delete word from scratchpad.
+- ++ctrl+shift+backspace++ : Delete all contents in the scratchpad.
+- ++ctrl+a++ : Toggle's a mode that allows user to delete the entire line by just using backspace.
 
 ### How to set a timeout
 
