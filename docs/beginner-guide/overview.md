@@ -37,4 +37,4 @@ Primary Author: Cdr_Maverick#6475
 
 Supplementary Authors: Awemeter#3110, Scoopy#1399, Valastiri#8902
 
-A320 Pilot Reviews: Shomas and Tarek
+Guide reviewed by A320 Pilots.
