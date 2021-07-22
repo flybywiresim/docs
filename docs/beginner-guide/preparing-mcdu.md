@@ -276,7 +276,7 @@ The simBrief route used in this guide - [Available Here](../assets/beginner-guid
 
     At this time a few extra fields will appear filled in. Starting from the top:
 
-    * Departure Airport - EGCC
+    * Departure Airport - EGFF
     * Fuel on Board - FOB
     * ZFW + FOB = Gross Weight - GW 
     * Center of Gravity - CG
