@@ -141,7 +141,7 @@ For the PFD and ND, the knobs are in the same location. Look left (or right if y
 
 For the ECAM upper and lower display, look just in front of the throttles and you will find the brightness knobs. Just like the PFD and ND knobs, rotate them to your liking.
 
-![ECAM brightness](../assets/beginner-guide/starting-aircraft/exterior-lighting.png "ECAM brightness"){ width=20% }
+![ECAM brightness](../assets/beginner-guide/starting-aircraft/ecam-knobs.png "ECAM brightness"){: style="width:162.6px;height:255.6" }
 
 For the ISIS display brightness (just left of the upper ECAM), use the `+` and `-` buttons until the brightness is suitable. While you are at the ISIS display, set the current QNH.
 
