@@ -100,11 +100,13 @@ Following this, we set the `STROBE` light to the `AUTO` position.
 
 We can turn on a few lights to help with visibility inside if it is too dark inside the cockpit.
 
-- The `DOME` light has 3 settings to choose from. We  can set it into the `OFF` position, the `DIM` position, or even the `BRT` position.
+- The `DOME` light has 3 settings to choose from. We can set it into the `OFF` position, the `DIM` position, or even the `BRT` position.
 - The `OVHD INTEG LT` will allow us to see the outlines of the overhead panel. Turning the knob will adjust its brightness.
 
+Once our lighting is in the correct state:
 
-Once our lighting is in the correct state, we can then turn on the **seat belts sign and no smoking sign**.
+- Seat belts sign - `Set to ON`
+- No smoking sign - `Set to AUTO`
 
 To arm the emergency exit lights, simply put the switch in the `ARM` position.The white `OFF` light to the left of the switch will disappear.
 
