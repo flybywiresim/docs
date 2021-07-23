@@ -283,7 +283,7 @@ The simBrief route used in this guide - [Available Here](../assets/beginner-guid
     * Center of Gravity - CG
 
     !!! info ""
-        As we complete the rest of the MCDU preparation and fill out INIT B, the FUEL PRED page will serve your fuel prediction during the flight. 
+        Once we complete the rest of the MCDU preparation and fill out INIT B, the FUEL PRED page will provide fuel prediction during the flight. 
 
     ![mcdu14](../assets/beginner-guide/mcdu/mcdu14.png)
 
