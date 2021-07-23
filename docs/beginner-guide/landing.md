@@ -54,18 +54,17 @@ To intercept the ILS Localizer we follow these steps:
 
     === "Check ILS frequency"
 
-        ![ILS frequency on approach chart](../assets/beginner-guide/landing/EDDM-26R-ILS-freq-chart.png "ILS frequency on approach chart"){align=left width=45%}
+        ![ILS frequency on approach chart](../assets/beginner-guide/landing/EDDM-26R-ILS-freq-chart.png "ILS frequency on approach chart"){align=left width=42%}
 
-        ![ILS frequency on ECAM RNAV page](../assets/beginner-guide/landing/ECAM-RNAV-page-ILS.png "ILS frequency on ECAM RNAV page"){align=right width=45%}
+        ![ILS frequency on ECAM RNAV page](../assets/beginner-guide/landing/ECAM-RNAV-page-ILS.png "ILS frequency on ECAM RNAV page"){align=right width=42%}
 
 
 - Turn on the `ILS localizer and glideslope scales` with the `LS` button on the glareshield if not already done before.
 
     === "Turn on ILS scales"
+        ![LS button on glareshield](../assets/beginner-guide/landing/GLARE-LS-button.png "LS button on glareshield"){align=left width=12%}
 
-        ![LS button on glareshield](../assets/beginner-guide/landing/GLARE-LS-button.png "LS button on glareshield"){align=left width=15%}
-      
-        ![ROSE LS Mode on PFD and ND](../assets/beginner-guide/landing/ROSE-LS-Mode.png "ROSE LS Mode on PFD and ND"){align=right width=80%}  
+        ![ROSE LS Mode on PFD and ND](../assets/beginner-guide/landing/ROSE-LS-Mode.png "ROSE LS Mode on PFD and ND"){align=right width=75%}  
 
 - Make sure we are on the correct altitude (5,000ft in this example) and we should not have an approach angle larger than 30°.<br/>
 
