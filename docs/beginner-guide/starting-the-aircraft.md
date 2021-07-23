@@ -143,7 +143,7 @@ For the PFD and ND, the knobs are in the same location. Look left (or right when
 
 For the ECAM upper and lower display, look just in front of the throttles and find the brightness knobs. Just like the PFD and ND knobs, rotate them as required.
 
-![ECAM brightness](../assets/beginner-guide/starting-aircraft/ecam-knobs.png "ECAM brightness"){ width=30% }
+![ECAM brightness](../assets/beginner-guide/starting-aircraft/ecam-knobs.png "ECAM brightness")
 
 For the ISIS display brightness (just left of the upper ECAM), use the `+` and `-` buttons until the brightness is suitable. While we are at the ISIS display, set the current QNH.
 
@@ -157,14 +157,14 @@ Looking down at the **radio panel**, set the `RMP 1` to the active **ATIS** freq
 
 ![Radio Panel](../assets/beginner-guide/starting-aircraft/radiopanel.png "Radio Panel"){ width=70% }
 
-After setting correct frequencies, locate the `BARO` reference on the **glareshield**. We can set the barometer in either `in Hg` or `hPa` by turning the grey inner selector behind the knob. For this flight ensure that you are set to `QNH`. You can change this by "pushing" on the BARO knob (the tooltip will have an upwards arrow). 
+After setting correct frequencies, locate the `BARO` reference on the **glareshield**. We can set the barometer in either `in Hg` or `hPa` by turning the grey inner selector behind the knob. For this flight ensure that you are set to `QNH`. You can change this by "pushing" on the BARO knob (the tooltip will have an upwards arrow).
 
 !!! info "A note on QNH and QFE"
     Choosing between using QNH and QFE is a little beyond the scope of this guide. In most cases you will be flying using `QNH` at or below the transition level for your flight (on departure or arrival).
 
     - **QNH:** Altimeter indicates height above sea level.
-    
-    - **QFE:** Altimeter indicates height above reference elevation in use (airfield or touchdown). This setting is usually tied to a procedure in use by the airfield, where when on the ground the altimeter will read 0. 
+
+    - **QFE:** Altimeter indicates height above reference elevation in use (airfield or touchdown). This setting is usually tied to a procedure in use by the airfield, where when on the ground the altimeter will read 0.
 
 Just below the barometer reference, turn on the `FD`. A green light indicates it has been turned on.
 
