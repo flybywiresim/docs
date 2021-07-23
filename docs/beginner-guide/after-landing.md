@@ -17,7 +17,7 @@ This guide will explain the correct procedures after we have landed and vacated 
 
 Aircraft has vacated the runway completely and has been brought to a stop on the taxiway as per previous chapters.
 
-![Runway vacated](../assets/beginner-guide/after-landing/Runway_vacated.png "Runway vacated")
+![Runway vacated](../assets/beginner-guide/after-landing/Runway-vacated.png "Runway vacated")
 
 Download the [FlyByWire Checklist](../assets/FBW_A32NX_CHECKLIST.pdf) here.
 
@@ -127,7 +127,7 @@ When approved to cross a runway (active or not) perform the following actions:
 
  When turning into the gate turn off your `NOSE` light and your `RWY TURN OFF` lights to not blind the ground personnel. This of course is only done at this point if enough lighting is available to safely park into the gate.
 
-![Taxi lights off](../assets/beginner-guide/after-landing/Lights_Taxi_off.png "Lights_Taxi_off.png"){width=50%}
+![Taxi lights off](../assets/beginner-guide/after-landing/Lights-Taxi-off.png "Lights_Taxi_off.png"){width=50%}
 
 This concludes *Taxi to Gate*
 
