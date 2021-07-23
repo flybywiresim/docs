@@ -104,9 +104,9 @@ This guide will cover these phases:
 4. Calculate the required distance needed to descend to that waypoint with a standard descent angle of 3°. We can use the FlyByWire flyPad in the cockpit or a simple rule of thumb calculation (details below).
 5. Use the MCDU PROG page's DIST function to read out the current distance to this waypoint. It is also possible to use the MCDU flight plan page, maps or the NDs distance rings to help determining the current distance.
 
-    ![ECAM PROG page](../assets/beginner-guide/descent/ECAM_Progress_page.png "ECAM PROG page"){width=310 align=left}
+    ![ECAM PROG page](../assets/beginner-guide/descent/ECAM_Progress_page.png "ECAM PROG page"){width=45% align=left}
 
-    ![ND distance rings](../assets/beginner-guide/descent/ND_disctance_rings.png "ND distance rings"){width=310 align=right}
+    ![ND distance rings](../assets/beginner-guide/descent/ND_disctance_rings.png "ND distance rings"){width=40% align=right}
 
 #### How to calculate the required distance for descent
 
@@ -162,7 +162,7 @@ This is typically done about 50NM before the starting the descent.
 
 We can obtain this data from the destination airport's ATIS information and the airport charts.
 
-+From ATIS we get: `QNH`, `TEMP` and `MAG WIND`. Sometimes `TRANS ALT` or 'TRANS LVL' - if not refer to the approach chart.
+From ATIS we get: `QNH`, `TEMP` and `MAG WIND`. Sometimes `TRANS ALT` or 'TRANS LVL' - if not refer to the approach chart.
 
 ATIS Example:
 ```
@@ -231,6 +231,7 @@ ATC typically will not clear us to our final target altitude directly but will g
 
 Also ATC will often still expect us to respect the STAR's constraints although they might have given us a lower clearance. We should then only descent to the constraint's altitude.
 
+<!-- TODO: update when vertical nav is available -->
 !!! info "VNAV in the FlyByWire A32NX"
     The scenario that we are cleared to a lower altitude or flight level with altitude constraints above the clearance is an ideal scenario for the called so "VNAV" autopilot mode which would be activated by using "`Managed Altitude Mode`" (pushing the `ALT selector`). The autopilot will automatically level off at the constraint and continue descending when the constraint is no longer valid.
 
@@ -249,7 +250,7 @@ We repeat the process until we have reached our desired final approach altitude.
 - `SEAT BELTS` switch: ON
 - `EFIS` Option push button: `CSTR` on both sides
 - `LS` push button: As required
-    - Select LS, if an ILS, GLS or LOC approach is intended
+    - Select `LS`, if an ILS, GLS or LOC approach is intended
     - The PFD displays the LOC and glide scales and deviation symbol, if there is a valid /LS or GLS signal.
     - Check that the /LS/GLS identification is displayed on the PFD.
 - `RAD NAVAIDS` (`RNAV` page on MCDU): Selected/Identified
@@ -259,18 +260,11 @@ We repeat the process until we have reached our desired final approach altitude.
 
 #### Approach Checklist
 
-```
-- Approach Briefing: CONFIRMED
-- ECAM Status: CHECKED
-- Seat Belts: ON
-- Baro Ref: SET (when below transition altitude/level)
-- Minimum: SET (part of the PERF APPR page)
-- ENG MODE SEL: AS RQRD
-```
+![Approach Checklist](../assets/beginner-guide/descent/Approach_checklist.png "Approach Checklist"){width=40%}
 
 #### Cabin Crew
 
-In real life the cabin crew will be asked to prepare the cabin for landing during at some point during the descent. The exact moment and process might differ between airlines but most seem to do this when the Seatbelt Signs are turned (typically at the latest at 10,000ft).
+In real life the cabin crew will be asked to prepare the cabin for landing during at some point during the descent. The exact moment and process might differ between airlines but most seem to do this when the Seatbelt Signs are turned on (typically at the latest at 10,000ft).
 
 The Cabin Crew will notify the pilots either by a "Cabin Ready" button (A320neo) or by a call to the cockpit (A320ceo) once they are ready and strapped in themselves. Typically we will be in final approach by that time.
 
@@ -328,3 +322,4 @@ More details regarding the ILS approach and landing in the next chapter.
 
 This concludes *Intercepting ILS*.
 
+Continue with [Final Approach and Landing](landing.md)
