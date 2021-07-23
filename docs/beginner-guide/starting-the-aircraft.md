@@ -160,7 +160,7 @@ Looking down at the **radio panel**, set the `RMP 1` to the active **ATIS** freq
 After setting correct frequencies, locate the `BARO` reference on the **glareshield**. We can set the barometer to either `inHg` or `hPa` by turning the grey inner selector behind the knob. For this flight ensure that we are set to `QNH`. This can be changed by "pushing" on the BARO knob (the tooltip will have an upwards arrow).
 
 !!! info "A note on QNH and QFE"
-    Choosing between using QNH and QFE is a little beyond the scope of this guide. In most cases you will be flying using `QNH` at or below the transition level for your flight (on departure or arrival).
+    Choosing between using QNH and QFE is a little beyond the scope of this guide. In most cases we will be flying using `QNH`.
 
     - **QNH:** Altimeter indicates height above sea level.
 
