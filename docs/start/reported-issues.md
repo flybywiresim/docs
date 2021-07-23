@@ -134,7 +134,7 @@ If the live weather feature is experiencing issues you may experience the follow
 - Degraded aircraft performance.
 - Airspeed and climb rate issues.
 
-You will typically see might higher or excessive fuel flow alongside exaggerated ISA, SAT, and TAT at relevant flight levels on your lower ECAM. 
+You will typically see higher or excessive fuel flow alongside exaggerated ISA, SAT, and TAT at relevant flight levels on your lower ECAM. 
 
 **Workaround**: Use a static weather preset for your flight. 
 
