@@ -447,4 +447,7 @@ There are usually two types of lighting on taxiways - centerline and edge. Depen
 
 <sub>John Murphy, [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0)</sub>
 
+This concludes the *Taxi*.
+
+Continue with [Takeoff, climb and cruise](takeoff-climb-cruise.md)
 
