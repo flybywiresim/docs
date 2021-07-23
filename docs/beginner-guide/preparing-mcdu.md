@@ -276,10 +276,14 @@ The simBrief route used in this guide - [Available Here](../assets/beginner-guid
 
     At this time a few extra fields will appear filled in. Starting from the top:
 
-    * Departure Airport - EGFF
+    * Destination Airport - EGCC
+        * Line 2 below displays NONE as we do not have an alternate for this flight.
     * Fuel on Board - FOB
-    * ZFW + FOB = Gross Weight - GW 
+    * ZFW + FOB = Gross Weight - GW
     * Center of Gravity - CG
+
+    !!! info ""
+        As we complete the rest of the MCDU preparation and fill out INIT B, the FUEL PRED page will serve your fuel prediction during the flight. 
 
     ![mcdu14](../assets/beginner-guide/mcdu/mcdu14.png)
 
