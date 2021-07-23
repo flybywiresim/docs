@@ -21,8 +21,8 @@ This guide will explain the correct procedures to accomplish a pushback with eng
 - The aircraft is secure
 - APU MASTER SW - `Set to ON` and the APU is available
 - Beacon light - `Set to ON`
-  
-At this time we may request for clearance to push and start from ATC.  
+
+At this time we may request for clearance to push and start from ATC.
 
 [Download FlyByWire Checklist](../assets/FBW_A32NX_CHECKLIST.pdf){ .md-button }
 
@@ -43,7 +43,7 @@ This guide will cover these chapters:
 
 ## Pushback
 
-There are several options available to you in MSFS to achieve a successful pushback. 
+There are several options available to you in MSFS to achieve a successful pushback.
 
 - The flyPad (EFB) ground control screen
 - MSFS built in ATC pushback controls
@@ -60,13 +60,13 @@ Ensure:
 
 ### Pushback Clearance
 
-For this guide we will assume you are parked at gate 10 at EGFF (Cardiff). 
+For this guide we will assume you are parked at gate 10 at EGFF (Cardiff).
 
-Contact ground ATC and inform them you are ready for push and start. If you are on a network such as VATSIM, a typical response from ground would give you clearance for your request and a direction to face (or any direction). At EGFF you could expect the following push and start clearance from ground: 
+Contact ground ATC and inform them you are ready for push and start. If you are on a network such as VATSIM, a typical response from ground would give you clearance for your request and a direction to face (or any direction). At EGFF you could expect the following push and start clearance from ground:
 
 "** Your Aircraft Callsign**, ground. You are clear to push and start onto Alpha 3 facing east."
 
-At this point we may begin pushback away from the terminal onto the taxiway Alpha 3.  
+At this point we may begin pushback away from the terminal onto the taxiway Alpha 3.
 
 ![parking stands](../assets/beginner-guide/taxi/parking-stands-guidelines.png)
 <sub>Copyright © 2021 Navigraph / Jeppesen<br>
@@ -78,18 +78,18 @@ At this point we may begin pushback away from the terminal onto the taxiway Alph
 
 For the purposes of this guide we will use the default MSFS pushback controls built into ATC.
 
-1. Open the ATC menu using the toolbar at the top of your screen. 
+1. Open the ATC menu using the toolbar at the top of your screen.
    ![atc toolbar](../assets/beginner-guide/taxi/toolbar.png)
 2. Locate `GROUND SERVICES` and select it.
 3. Select `REQUEST PUSHBACK`.
-    - You should hear your virtual pilot request pushback and ATC respond confirming. At this time the pushback tug should slowly make its way to your nose wheel. 
+    - You should hear your virtual pilot request pushback and ATC respond confirming. At this time the pushback tug should slowly make its way to your nose wheel.
     - You will notice a slight "jerk" as it connects with your nose wheel. Verify `NWS STRG DISC` is listed on the ECAM memos.
 4. Release your parking brake.
 5. In the ATC window use `REQUEST PUSHBACK STEER TO THE LEFT` OR `REQUEST PUSHBACK STEER TO THE RIGHT` to turn the aircraft.
 6. Select `REQUEST PUSHBACK STOP` to end pushback when you are satisfied with your position on the taxiway.
-    
+
 !!! info "Steering Commands"
-    Please note when selecting other option this will "steer" the tail towards the specified direction. 
+    Please note when selecting other option this will "steer" the tail towards the specified direction.
 
     For example, if your external camera is directly behind the aircraft and you request `STEER TO THE LEFT` the tail of your aircraft will be "steered" to the left. 
 
@@ -97,9 +97,9 @@ For the purposes of this guide we will use the default MSFS pushback controls bu
 
 ## Engine Start
 
-Once we are clear of the terminal and/or the ground crew has notified the flight crew it is clear to start engines, we can proceed with the following steps. 
+Once we are clear of the terminal and/or the ground crew has notified the flight crew it is clear to start engines, we can proceed with the following steps.
 
-Start the chronometer above the ND to help monitor the start up time of the engines. 
+Start the chronometer above the ND to help monitor the start up time of the engines.
 
 ![chrono button](../assets/beginner-guide/taxi/chrono.png)
 
@@ -132,11 +132,11 @@ For this guide will begin by starting engine 2.
 === "Start Engine 2"
     1. Set the `ENG` mode selector to `IGN/START`
         - Flight crew should hear the packs turn off.
-        - The lower ECAM should automatically display the engine parameters screen. 
+        - The lower ECAM should automatically display the engine parameters screen.
     2. Set `ENG 2` Master to the ON position.
-        - Pay attention to the ECAMs and note engine parameters as ENG 2 starts up. 
+        - Pay attention to the ECAMs and note engine parameters as ENG 2 starts up.
         - The engine should take roughly 1 minute to complete its start up sequence - use the chronometer started earlier to time this.
-    
+
     Engine 2 will have successfully started when the following applies (at ISA sea level):
 
     - N1 is at roughly 19%
@@ -198,10 +198,10 @@ The `F/CTL` ECAM page displays a white scale and green index for the following p
 
 - Left and right ailerons position
 - Left and right elevator position
-  
-Fully deflect the sidestick in all directions and observe that the full range of motion is reflected on the ECAM page. Note the upward arrows in the `SPD BRK` area when moving the ailerons and ensure those are displayed when deflecting the side stick. 
 
-Move the rudders and pay attention to the rudder symbol to ensure it moves all the way to the left or right. 
+Fully deflect the sidestick in all directions and observe that the full range of motion is reflected on the ECAM page. Note the upward arrows in the `SPD BRK` area when moving the ailerons and ensure those are displayed when deflecting the side stick.
+
+Move the rudders and pay attention to the rudder symbol to ensure it moves all the way to the left or right.
 
 **Sidestick right full deflection:**
 
@@ -212,11 +212,11 @@ Move the rudders and pay attention to the rudder symbol to ensure it moves all t
 ## Taxi
 
 !!! info "Taxi Speed + Engine Thrust"
-    The A32NX is perfectly capable taxiing with idle thrust and even gradually accelerate. In certain situations it may be required to provide some thrust to begin rolling. 
+    The A32NX is perfectly capable taxiing with idle thrust and even gradually accelerate. In certain situations it may be required to provide some thrust to begin rolling.
 
     Standard behavior is to allow the aircraft to reach 30kts and apply brakes to 10kts. Repeat as necessary.
 
-Having charts or diagrams of the airport you are currently in will help you navigate efficiently and safely. There are many resources and applications available online that are either free or paid which you can utilize. 
+Having charts or diagrams of the airport you are currently in will help you navigate efficiently and safely. There are many resources and applications available online that are either free or paid which you can utilize.
 
 For additional information on signs and markings on the ground please see [General Resources](#general-resources) below.
 
@@ -269,7 +269,7 @@ While underway to the runway perform the following as part of the taxi flow:
 - Use the tiller (currently not implemented) or rudder pedals to steer the aircraft.
 - Perform a [flight controls check](#flight-controls-check) (if you haven't already).
 - Verify the ATC clearance for departure.
-  
+
 It is important to verify and confirm the information in the MCDU as we taxi. This is increasingly important if the ATC clearance changes enroute to the runway.
 
 #### ^^**Takeoff data/Conditions**^^
@@ -289,12 +289,12 @@ It is important to verify and confirm the information in the MCDU as we taxi. Th
 Perform the following:
 
 - F-PLN (SID, TRANS) - `Revise or Check`
-    - Check to ensure that the ATC clearance agrees with the flight plan if we are departing using NAV mode.  
+    - Check to ensure that the ATC clearance agrees with the flight plan if we are departing using NAV mode.
 - INITIAL CLIMB SPEED AND SPEED LIMIT - `Modify or Check`
 - CLEARED ALTITUDE ON FCU - `Set`
 - HDG ON FCU - `If Required, Preset`
     - If ATC requires a specific heading after takeoff, preset the heading on the FCU. NAV mode will be disarmed and RWY TRK mode will keep the aircraft on the runway track.
-    
+
 This is the FCU (more details are provided in the [Take off, Climb, and Cruise Guide](takeoff-climb-cruise.md)):
 ![FCU image](../assets/beginner-guide/takeoff-climb-cruise/FCU.png)
 
@@ -302,16 +302,16 @@ This is the FCU (more details are provided in the [Take off, Climb, and Cruise G
 - PFD/ND - `Check`
 - TAKEOFF BRIEFING - `Confirm`
 - RADAR (if required) - `On`
-  
-    The current implementation of the weather radar in MSFS will show precipitation along the route. Additional functions are unavailable at this time however we should set the Radar to Sys 1 if required for departure. 
-  
+
+    The current implementation of the weather radar in MSFS will show precipitation along the route. Additional functions are unavailable at this time however we should set the Radar to Sys 1 if required for departure.
+
 - PREDICTIVE WINDSHEAR SYSTEM - `Auto`
-   
+
     Currently this only clears the warning on the ECAM and does not provide a function in the sim. We should perform this action regardless.
 
-The weather panel is located on the bottom left of the lower pedestal and looks like the following: 
+The weather panel is located on the bottom left of the lower pedestal and looks like the following:
 
-![weather panel](../assets/beginner-guide/takeoff-climb-cruise/Radar_small.png)
+![weather panel](../assets/beginner-guide/takeoff-climb-cruise/Radar-small.png)
 
 - ATC code/mode - `Confirm/Set for Takeoff`
 - TERR ON ND - `As RQRD`
@@ -320,9 +320,9 @@ The weather panel is located on the bottom left of the lower pedestal and looks 
 ![auto brake](../assets/beginner-guide/taxi/auto-brk.png){: style="width:462px;height:350px;" }
 
 !!! info "Getting Ready for Take off"
-    At this point in the guide you should have performed many of the essential flow items before you line up at the runway. The next guide [Take off, Climb, and Cruise](takeoff-climb-cruise.md) will instruct you on performing your final checks and before take off checklist. 
+    At this point in the guide you should have performed many of the essential flow items before you line up at the runway. The next guide [Take off, Climb, and Cruise](takeoff-climb-cruise.md) will instruct you on performing your final checks and before take off checklist.
 
-**For additional information:** See the sections below for extended taxi information and visit the [General Resources Section](#general-resources) on this page to help you understand the different signs and elements found on the ground at an airport. 
+**For additional information:** See the sections below for extended taxi information and visit the [General Resources Section](#general-resources) on this page to help you understand the different signs and elements found on the ground at an airport.
 
 ---
 
@@ -331,34 +331,34 @@ The weather panel is located on the bottom left of the lower pedestal and looks 
 Pay attention to the ground speed (visible on the ND) while taxiing.
 
 - **Straight Line**
-  
+
     Anything up to 30kts is reasonable, but some airports may carry their own local restrictions that should be noted. This is not an absolute rule and is usually typical SOP for airlines in a straight line.
-  
+
 - **90° (Sharp) Turns**
-  
+
     A good speed would be around 10kts. This provides safety for the flight crew as they perform their safety demonstration/checks.
-  
+
 - **Regular Turns**
-  
-    Around 15kts is an acceptable speed with a similar concept to providing safety as described above. 
+
+    Around 15kts is an acceptable speed with a similar concept to providing safety as described above.
 
 #### Handy Tips While Taxiing
 
 - **Maintaining Center Line**
-  
+
     We can use the grey vertical bar in between the PFD and ND as a reference point and keep the taxi line in between the two screens.
-  
+
 - **Turning**
-  
+
     Using the same bar mentioned above try to "over steer" (keep the nose wheel slightly ahead of the line while we turn). This helps keep the aircraft centered while performing a turn.
-  
+
     Slow down while turning!
-    
+
 #### Crossing a Runway
 
 When approved to cross a runway (active or not) perform the following actions:
 
-- Look out the windows and visually ensure that there are no visible aircraft to the left and right. 
+- Look out the windows and visually ensure that there are no visible aircraft to the left and right.
 - Turn on extra lights to ensure the aircraft is visible when crossing:
     - Strobe lights - `Set to ON`
 - Inform ATC we have vacated the runway if required.
@@ -379,69 +379,69 @@ This section provides you with information on understanding the different signs 
 
 #### FAA Quick Reference Guide
 
-The FAA has a handy guide available for download that contains images of all the pertinent signs you may encounter, their purpose, and location at the airport. 
+The FAA has a handy guide available for download that contains images of all the pertinent signs you may encounter, their purpose, and location at the airport.
 
 [Download FAA Guide](https://www.faa.gov/airports/runway_safety/publications/media/QuickReferenceGuideProof8.pdf){ .md-button }
 
 ---
 
-There are two types of signage at airports - operational guidance signs and mandatory instruction signs. 
+There are two types of signage at airports - operational guidance signs and mandatory instruction signs.
 
-#### Operational Guidance Signs 
+#### Operational Guidance Signs
 
 ^^Location Signs^^
 
 - These signs are yellow text on a black background. Typically, indicates a specific taxiway or runway your aircraft is on or entering.
 
 ^^Direction/Runway Exit Signs^^
-  
+
 - Black text on a yellow background. These will have an arrow indicating direction to turn which helps pilots identify what taxiways they are approaching or runway exits towards a specified runway.
 
     ![signs1](https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Ben_Gurion_International_Airport_taxiway_signs.JPG/640px-Ben_Gurion_International_Airport_taxiway_signs.JPG)
 
 ^^Stop Bar Signs^^
 
-- White text on a blue background. These are non-standard signs that may appear at some airports usually indicating which taxiway a stop bar is positioned. Airports usually use more conventional traffic signs you may see on the road such a regular stop sign. See the [FAA Guide](#faa-quick-reference-guide) for samples. 
+- White text on a blue background. These are non-standard signs that may appear at some airports usually indicating which taxiway a stop bar is positioned. Airports usually use more conventional traffic signs you may see on the road such a regular stop sign. See the [FAA Guide](#faa-quick-reference-guide) for samples.
 
     ![signs2](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Ben_Gurion_International_Airport_4_taxiway_signs.JPG/639px-Ben_Gurion_International_Airport_4_taxiway_signs.JPG)
 
 #### Mandatory Instruction Signs
 
-^^Runway Signs^^ 
+^^Runway Signs^^
 
 - White text on a red background. These signs inform pilots that a runway intersection is ahead.
 
 ^^Holding Position Signs / Markings^^
 
-There are typically three very important holding position signs / markings that appear on the ground at airports. At various airports that operate with low visibility these positions are also paired with a line of red lights across a taxiway to help visually indicate the holding positions. 
+There are typically three very important holding position signs / markings that appear on the ground at airports. At various airports that operate with low visibility these positions are also paired with a line of red lights across a taxiway to help visually indicate the holding positions.
 
 1. Runway Holding Position
     - Two sets of solid yellow lines and two sets of dashed yellow lines indicate a holding position for a runway ahead. These **must never be crossed** without express permission from ATC.
-    
+
         ![holding position](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Holding_position_runway.svg/320px-Holding_position_runway.svg.png)
-   
+
         <sub> "Holding position markings pattern A ahead of a crossing runway" by [Claudius Henrichs](https://commons.wikimedia.org/w/index.php?title=User:Grille_Chompa&action=edit&redlink=1) CC BY SA 4.0
-      
+
 2. Taxiway Holding Position
     - Single dashed yellow line. If this is present along your taxi route it will indicate a position that ground control may request you stop and hold short prior to another taxiway.
-    
+
         ![taxiway hold](../assets/beginner-guide/taxi/taxiway-hold.png){: style="width:320px;height:79px" }
-    
+
 3. ILS Critical Area
     - Solid yellow lines that look like a railroad or ladder. These are another form of hold short point but indicate a critical area where your aircraft would violate the ILS approach airspace while on the ground.
-    
+
         ![ils critical](../assets/beginner-guide/taxi/ils-critical.png)
 
 ---
 
 ### Taxiway Lighting
 
-Taxiway lighting helps the flight crew and ground crew navigate the airport at night or in low visibility and stop at the appropriate locations as given by ATC. 
+Taxiway lighting helps the flight crew and ground crew navigate the airport at night or in low visibility and stop at the appropriate locations as given by ATC.
 
-There are usually two types of lighting on taxiways - centerline and edge. Depending on the airport operator the lightning may differ if the airport operates in low visibility conditions. 
+There are usually two types of lighting on taxiways - centerline and edge. Depending on the airport operator the lightning may differ if the airport operates in low visibility conditions.
 
-- Centerline lighting is green on the principal taxiways located along the taxiway centerline. These lights can alternate between green and yellow when a taxiway crosses a runway or highlight a "lead-off" taxiway from a runway to join a taxiway. 
-- Edge lighting is typically blue and characteristically appears at the edges of a taxiway. Spacing can range from 50 - 200ft apart usually condensing in distance when approaching an intersection. 
+- Centerline lighting is green on the principal taxiways located along the taxiway centerline. These lights can alternate between green and yellow when a taxiway crosses a runway or highlight a "lead-off" taxiway from a runway to join a taxiway.
+- Edge lighting is typically blue and characteristically appears at the edges of a taxiway. Spacing can range from 50 - 200ft apart usually condensing in distance when approaching an intersection.
 
 ![taxiway lights](https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/ATL_TWY_B_-_RWY_Crossing_%2813534655025%29.jpg/640px-ATL_TWY_B_-_RWY_Crossing_%2813534655025%29.jpg)
 
