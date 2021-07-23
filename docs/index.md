@@ -1,10 +1,14 @@
+---
+hide:
+    - navigation
+---
+
 # A32NX Documentation
 
 ***
 
-Start flying with our [Installation Guide](start/installation.md)
-
-Having issues? See our [Reported Issues](start/reported-issues.md)
+## Quick Links
+[Installation Guide](start/installation.md){ .md-button } [Reported Issues](start/reported-issues.md){ .md-button } [Beginner Guide](beginner-guide/overview.md){ .md-button }
 
 ## Introduction
 
