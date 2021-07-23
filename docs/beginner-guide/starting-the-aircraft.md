@@ -143,7 +143,7 @@ For the PFD and ND, the knobs are in the same location. Look left (or right when
 
 For the ECAM upper and lower display, look just in front of the throttles and find the brightness knobs. Just like the PFD and ND knobs, rotate them as required.
 
-![ECAM brightness](../assets/beginner-guide/starting-aircraft/ecam-knobs.png "ECAM brightness"){: style="width:162.6px;height:255.6" }
+![ECAM brightness](../assets/beginner-guide/starting-aircraft/ecam-knobs.png "ECAM brightness"){: style="width:162.6px;height:255.6px" }
 
 For the ISIS display brightness (just left of the upper ECAM), use the `+` and `-` buttons until the brightness is suitable. While we are at the ISIS display, set the current QNH.
 
@@ -155,9 +155,11 @@ For the ISIS display brightness (just left of the upper ECAM), use the `+` and `
 
 Looking down to the **radio panel.**, set the `RMP 1` to the active **ATIS** frequency and set the standby frequency to the **ground** frequency.
 
+![Radio Panel](../assets/beginner-guide/starting-aircraft/radiopanel.png "Radio Panel"){: style="width:443.25px;height:527.25px" }
+
 After setting correct frequencies, locate the `BARO` reference on the **glareshield** . We can set the barometer in either `IN HG` or `HPA`. Just below the barometer reference, turn on the `FD`. A green light indicates it has been turned on.
 
-![Radio Panel](../assets/beginner-guide/starting-aircraft/radiopanel.png "Radio Panel")
+![efis control](../assets/beginner-guide/starting-aircraft/EFIS-Control.png){: style="width:662.25px;height:348.75px" }
 
 ### ECAM Fuel Page
 
