@@ -90,7 +90,7 @@ This guide will cover these phases:
 
 #### Important data points for descent planning:
 
-- **Cruise Flight Level:** The higher we fly the earlier we need to start descending. Also for short flights a too high cruising altitude can make it impossible to actually descend to the destination airport in time. Therefore verify your flight plan if overall distance and flight level makes sense.
+- **Cruise Flight Level:** The higher we fly the earlier we need to start descending. Also for short flights a too high cruising altitude can make it impossible to actually descend to the destination airport in time. Therefore verify your flight plan if overall distance and flight level make sense.
 - **Flight Plan Constraints:** STARs often have flight level (FL) or altitude constraints which we must adhere to. We must plan our descent so we can meet these altitude constraints even when they themselves are still far away from the destination airport.
 - **Speed**: STARs also regularly have speed constraints which we need to take into consideration as slowing down will cost time and is hard to do while descending. If we start our descent too late we might not be able to slow down in time as required by a constraint.
 - **Aircraft capability and passenger comfort:** Although not a big concern in the A320neo, general aircraft capabilities and passenger comfort also come into play. Descending with -4000ft/min is no fun for a passenger.
