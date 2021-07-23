@@ -416,11 +416,21 @@ There are two types of signage at airports - operational guidance signs and mand
 There are typically three very important holding position signs / markings that appear on the ground at airports. At various airports that operate with low visibility these positions are also paired with a line of red lights across a taxiway to help visually indicate the holding positions. 
 
 1. Runway Holding Position
-    - Two sets of solid yellow lines and two sets of dashed yellow lines indicate a holding position for a runway ahead. These **must never be crossed** without express permission from ATC.   
+    - Two sets of solid yellow lines and two sets of dashed yellow lines indicate a holding position for a runway ahead. These **must never be crossed** without express permission from ATC.
+    
+        ![holding position](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Holding_position_runway.svg/320px-Holding_position_runway.svg.png)
+   
+        <sub> "Holding position markings pattern A ahead of a crossing runway" by [Claudius Henrichs](https://commons.wikimedia.org/w/index.php?title=User:Grille_Chompa&action=edit&redlink=1) CC BY SA 4.0
+      
 2. Taxiway Holding Position
     - Single dashed yellow line. If this is present along your taxi route it will indicate a position that ground control may request you stop and hold short prior to another taxiway.
+    
+        ![taxiway hold](../assets/beginner-guide/taxi/taxiway-hold.png){: style="width:320px;height:79px" }
+    
 3. ILS Critical Area
     - Solid yellow lines that look like a railroad or ladder. These are another form of hold short point but indicate a critical area where your aircraft would violate the ILS approach airspace while on the ground.
+    
+        ![ils critical](../assets/beginner-guide/taxi/ils-critical.png)
 
 ---
 
