@@ -33,7 +33,7 @@ To start off, we will begin by doing a few pre-checks in all areas of the cockpi
 
 We begin by looking down at the **bottom pedestal**.
 
-- Place the parking brake handle in the `OFF` position
+- Place the parking brake handle in the `ON` position
 - Ensure the speed brakes have been disarmed/retracted
 - Flaps are retracted
 - Weather radar is switched off
