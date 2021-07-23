@@ -19,13 +19,13 @@ Topics:
 
 [Engine Start and Taxi](engine-start-taxi.md)
 
-[Takeoff / Climb / Cruise](takeoff-climb-cruise.md)
+[Takeoff, Climb and Cruise](takeoff-climb-cruise.md)
 
 [Descent Planning and Descent](descent.md#descent-planning-and-descent)
 
-[Approach and Landing (ILS)](landing.md)
+[Approach and ILS Landing](landing.md)
 
-[After Landing Steps](after-landing.md)
+[After Landing and Taxi to Gate](after-landing.md)
 
 [Powering Down](powering-down.md)
 
