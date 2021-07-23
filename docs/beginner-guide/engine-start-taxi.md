@@ -243,7 +243,7 @@ Exterior Lights:
 - RWY TURN OFF - `Set to ON`
 - NOSE - `Set to Taxi`
 
-![exterior lights](../assets/beginner-guide/mcdu/taxi-lights.png)
+![exterior lights](../assets/beginner-guide/taxi/taxi-lights.png){ width=60% }
 
 Before Moving Safety Check:
 
@@ -296,7 +296,7 @@ Perform the following:
     - If ATC requires a specific heading after takeoff, preset the heading on the FCU. NAV mode will be disarmed and RWY TRK mode will keep the aircraft on the runway track.
 
 This is the FCU (more details are provided in the [Take off, Climb, and Cruise Guide](takeoff-climb-cruise.md)):
-![FCU image](../assets/beginner-guide/takeoff-climb-cruise/FCU.png)
+![FCU image](../assets/beginner-guide/taxi/FCU.png)
 
 - BOTH FD (*flight directors*) - `Check on`
 - PFD/ND - `Check`
@@ -311,7 +311,7 @@ This is the FCU (more details are provided in the [Take off, Climb, and Cruise G
 
 The weather panel is located on the bottom left of the lower pedestal and looks like the following:
 
-![weather panel](../assets/beginner-guide/takeoff-climb-cruise/Radar-small.png)
+![weather panel](../assets/beginner-guide/taxi/wx-radar-panel.png)
 
 - ATC code/mode - `Confirm/Set for Takeoff`
 - TERR ON ND - `As RQRD`
