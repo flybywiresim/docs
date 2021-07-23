@@ -13,7 +13,6 @@ The actual final approach (ILS approach) will be covered by a separate chapter.
     or different types of airliners. Aviation terminology and know-how is
     a requirement to fly any airliner even in Microsoft Flight Simulator.
 
-    Further reading: [A320 Autoflight](https://www.smartcockpit.com/aircraft-ressources/A319-320-321-Autoflight.html)<br/>
     Also you will find many great videos on YouTube on how to fly the FlyByWire A32NX.<br/>
     Check out the FlyByWire YouTube Channel as well: [FlyByWire on YouTube](https://www.youtube.com/c/FlyByWireSimulations/playlists)
 
