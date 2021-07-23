@@ -1,22 +1,28 @@
 # Reported Known Issues
 
-!!! warning "Use Correct Flight Model"
-    **The modern flight model is required to fly the A32NX**. 
-
-    Please ensure that your flight model is set correctly via the MSFS settings. 
-
 !!! info "Always Try This First"
 
     Please try and remove all other mods/liveries from the community folder and test our mod again. This will help rule out mod conflicts.
 
     <sub>Report back the result of this test on our Discord.
 
-!!! warning "Issues after Microsoft Flight Simulator Updates"
+!!! warning "Important Troubleshooting Information"
+    ^^Updates^^
 
     If you are cannot resolve any issues with solutions listed below perform a clean reinstall of the A32NX. Delete either of the folders below from your community folder:
 
     * A32NX (old folder name)
     * flybywire-aircraft-a320-neo (new folder name)
+
+    ---
+
+    ^^Flight Model^^
+
+    **The modern flight model is required to fly the A32NX**.
+
+    Please ensure that your flight model is set correctly via the MSFS settings.
+
+    ---
     
     Do this before reporting bugs.
 
@@ -120,6 +126,19 @@ Using the "lbs" weight setting on the EFB may cause the following issues.
 * Instructions to send us installer logs can be found [here](installation.md#flybywire-installer)
 
 ***
+
+### ^^MSFS Live Weather^^
+
+If the live weather feature is experiencing issues you may experience the following:
+
+- Degraded aircraft performance.
+- Airspeed and climb rate issues.
+
+You will typically see might higher or excessive fuel flow alongside exaggerated ISA, SAT, and TAT at relevant flight levels on your lower ECAM. 
+
+**Workaround**: Use a static weather preset for your flight. 
+
+---
 
 ### ^^Common Issues^^
 
