@@ -45,11 +45,11 @@ This is how the pedestal should look like:
 
 ![Pedestal](../assets/beginner-guide/starting-aircraft/Pedestal.png "Pedestal")
 
-After ensuring everything is set on the bottom pedestal, we direct our attention to the **main panel** and make sure the following are set:
+We then direct our attention to the **main panel** and make sure the following is set:
 
 - Gear lever is down
 
-Then we look up to and view the **overhead panel**. Make sure the following are in the set position before moving on to starting the aircraft:
+Then we look up at the **overhead panel**. Make sure the following are in the set position before moving on to starting the aircraft:
 
 - Wiper selectors are in the `OFF` position
 
@@ -120,10 +120,10 @@ Managing the temperatures of the cabin is necessary as well. Simply rotate the 3
 
 ### Hydraulic and Fuel section
 
-Looking up to the **hydraulic panel**, we ensure that there are no white lights visible.
+Looking up at the **hydraulic panel**, we ensure that there are no white lights visible.
 
 !!! warning "Fire Tests"
-    To perform a APU and Engine fire test, hold down on the `TEST` button for each of them for 5 seconds minimum to ensure the lights and aural warnings are working as expected. Checking the ECAM during the test will also show if the ECAM is performing as expected during a fire.
+    To perform an APU and Engine fire test, hold down the `TEST` button for each of them for 5 seconds minimum to ensure the lights and aural warnings are working as expected. Checking the ECAM during the test will also show if the ECAM is performing as expected during a fire.
 
 Just below the hydraulic panel, we find the **fuel panel**. Turn on all 6 fuel pumps until the white `OFF` light is no longer visible.
 
@@ -153,11 +153,11 @@ For the ISIS display brightness (just left of the upper ECAM), use the `+` and `
 
 ### Radio Panel
 
-Looking down to the **radio panel.**, set the `RMP 1` to the active **ATIS** frequency and set the standby frequency to the **ground** frequency.
+Looking down at the **radio panel**, set the `RMP 1` to the active **ATIS** frequency and set the standby frequency to the **ground** frequency.
 
 ![Radio Panel](../assets/beginner-guide/starting-aircraft/radiopanel.png "Radio Panel"){ width=70% }
 
-After setting correct frequencies, locate the `BARO` reference on the **glareshield** . We can set the barometer in either `IN HG` or `HPA`. Just below the barometer reference, turn on the `FD`. A green light indicates it has been turned on.
+After setting correct frequencies, locate the `BARO` reference on the **glareshield**. We can set the barometer in either `IN HG` or `HPA`. Just below the barometer reference, turn on the `FD`. A green light indicates it has been turned on.
 
 ![efis control](../assets/beginner-guide/starting-aircraft/EFIS-Control.png){ width=90% }
 
