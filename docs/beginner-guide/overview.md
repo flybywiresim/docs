@@ -1,6 +1,6 @@
 # Overview
 
-Welcome to the A32NX Beginner's Guide. Although this guide is tailored towards beginners, each topics below may even serve as reminders of proper procedure at different stages of flight for veteran sim pilots.
+Welcome to the A32NX Beginner's Guide. Although this guide is tailored towards beginners, each topic below may even serve as reminders of proper procedure at different stages of flight for veteran sim pilots.
 
 Each page was reviewed by an A320 type rated pilot and provides accurate information to aircraft operation.
 
