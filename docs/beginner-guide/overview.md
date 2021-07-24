@@ -33,6 +33,16 @@ Topics:
 
 ---
 
+If you have any issues or feedback with this guide, please file an issue here:
+
+[:fontawesome-brands-github:{: .github } -  **FBW Docs Issues**](https://github.com/flybywiresim/docs/issues)
+
+For general questions please visit our Discord:
+
+[:fontawesome-brands-discord:{: .discord } - **Discord Link**](https://discord.gg/flybywire)
+
+---
+
 Primary Author: Cdr_Maverick#6475
 
 Supplementary Authors: Awemeter#3110, Scoopy#1399, Valastiri#8902
