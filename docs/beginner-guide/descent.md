@@ -152,7 +152,7 @@ ATC will quite often instruct certain altitudes within the STAR and APPR which d
 
 !!! warning "Important Notice"
     The following is a more advanced process for planning our arrival. It is obviously important when we want to have a more realistic experience but in Microsoft Flight Simulator you can skip this part for now. <br/>
-    Also this process is best done with an Online ATC service as the build-in MSFS ATC does not provide the necessary information at the right time.
+    Also this process is best done with an Online ATC service as the built-in MSFS ATC does not provide the necessary information at the right time.
 
 Before we descend we should also reconfirm our destination runway and input or update our destination data into the MCDU PERF APPR page.
 This is typically done about 50NM before the starting the descent.
@@ -182,11 +182,11 @@ From the chart we get `TRANS ALT` and `BARO` (=MDA) or `RADIO` (=DH).
 ![ILS information on chart](../assets/beginner-guide/descent/EGKK-APPR-chart-2.png "ILS information on chart")<br/>
 <sub>*Copyright © 2021 Navigraph / Jeppesen*
 
-The A320neo is capable of a CAT IIIB ILS approach and has an approach category of "C" - see the red area on the chart. (see [Wikipedia Aircraft approach category](https://en.wikipedia.org/wiki/Aircraft_approach_category)
+The A320neo is capable of a CAT IIIB ILS approach and has an approach category of "C" - see the red area on the chart. (see [Wikipedia Aircraft approach category](https://en.wikipedia.org/wiki/Aircraft_approach_category))
 
 In this chart for EGKK 26L ILS there is no DH for CAT IIIB defined - so we can enter "NO" or "NO DH" into the `RADIO` field.
 
-If we are using Microsoft Flight Simulator without any Online ATC services (VATSIM, IVAO, PilotEdge, ...), and using the MSFS build-in ATC, you usually can't request ATIS information for the destination airport at this point. MSFS ATC makes ATIS only available once close to the destination airport.
+If we are using Microsoft Flight Simulator without any Online ATC services (VATSIM, IVAO, PilotEdge, ...), and using the MSFS built-in ATC, you usually can't request ATIS information for the destination airport at this point. MSFS ATC makes ATIS only available once close to the destination airport.
 
 If we are flying with Online ATC you can request ATIS via the `MCDU-ATSU-ACO` page or your Online ATC network's client at this time.
 

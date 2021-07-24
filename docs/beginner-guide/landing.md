@@ -1,4 +1,4 @@
-# Final Approach and ILS Landing
+# Approach and ILS Landing
 
 This guide will explain the correct procedures to fly a final approach and conduct an ILS landing.
 
@@ -40,7 +40,7 @@ This guide will cover these phases:
 
 - Aircraft is in `DES` phase.
 - Aircraft is setup for flight <10,000ft (`seat belt signs` on, `landing lights` on, etc.).
-- We are within the IAP (Instrument Approach) and either
+- We are within the IAP (Instrument Approach) and either:
     - at the altitude and speed from the chart (Final Approach Fix altitude and 250 knots if there are no other speed restrictions on the chart).
     - or we are at a heading vector, altitude and speed instructed by ATC.
 

@@ -101,7 +101,7 @@ This concludes *Parking at the Gate*.
 
 In real life there a many things starting automatically after parking at the gate. The jetway is connected to the aircraft, doors are opened, passengers disembark, cargo is unloaded, etc. The pilots don't have to do much to trigger these steps.
 
-In the simulator though we would have to trigger them by ourselves. For this we use the FlyByWire flyPad's ground functionality or the Microsoft Flight Simulator's build-in ATC to start these procedures. There are also some nice add-on tools out there which help with this.
+In the simulator though we would have to trigger them by ourselves. For this we use the FlyByWire flyPad's ground functionality or the Microsoft Flight Simulator's built-in ATC to start these procedures. There are also some nice add-on tools out there which help with this.
 
 Taking care of passengers and luggage with the FlyByWire flyPad:
 

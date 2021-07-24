@@ -30,7 +30,11 @@
 | VY                 | Speed for Best Rate of Climb                                                                                                                                                                                       |
 | VαMAX              | Airbus for the speed that the maximum angle of attack (AoA) can be without the aircraft stalling, shown by the top of a red strip at the bottom of the airspeed indicator.                                         |
 | VαPROT             | Airbus for the speed that the angle of attack (AoA) protection will become active to stop the aircraft from stalling, shown as being the top of the black and amber strip at the bottom of the airspeed indicator. |
-| Additional Speeds: |                                                                                                                                                                                                                    |
+
+##  Additional Speeds
+
+| V-Speed            | Term                                                                                                                                                                                                               |
+|:-------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | MMO                | Maximum operating Mach number.                                                                                                                                                                                     |
 | F                  | Minimum speed at which the flaps may be retracted at takeoff (i.e., CONF 2/3). Also the minimum speed in approach when in CONF 2 or 3                                                                              |
 | S                  | Minimum speed at which the slats may be retracted at takeoff. Also the minimum speed in approach when in CONF 1.                                                                                                   |

@@ -54,6 +54,7 @@ There are several options available to you in MSFS to achieve a successful pushb
 Once all passengers have boarded and secured we are ready to begin pushback.
 
 Ensure:
+
 - All doors to the aircraft are armed and secure.
 - EXT power has been disconnected.
 - APU BLEED - `Set to ON`
@@ -420,7 +421,7 @@ There are typically three very important holding position signs / markings that 
 
         ![holding position](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Holding_position_runway.svg/320px-Holding_position_runway.svg.png)
 
-        <sub> "Holding position markings pattern A ahead of a crossing runway" by [Claudius Henrichs](https://commons.wikimedia.org/w/index.php?title=User:Grille_Chompa&action=edit&redlink=1) CC BY SA 4.0
+        <sub> "Holding position markings pattern A ahead of a crossing runway" by Claudius Henrichs [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0)
 
 2. Taxiway Holding Position
     - Single dashed yellow line. If this is present along your taxi route it will indicate a position that ground control may request you stop and hold short prior to another taxiway.

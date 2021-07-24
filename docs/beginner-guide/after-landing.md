@@ -19,7 +19,7 @@ Aircraft has vacated the runway completely and has been brought to a stop on the
 
 ![Runway vacated](../assets/beginner-guide/after-landing/Runway-vacated.png "Runway vacated")
 
-Download the [FlyByWire Checklist](../assets/FBW_A32NX_CHECKLIST.pdf) here.
+[Download FlyByWire Checklist](../assets/FBW_A32NX_CHECKLIST.pdf){ .md-button }
 
 ## Chapters / Phases
 
@@ -107,7 +107,7 @@ This concludes *After Landing*
 
 **Taxiing**
 
-Make sure to also read the Taxi section of the [Engine Start and Taxi](engine-start-taxi.md/#taxi) chapter.
+Make sure to also read the Taxi section of the [Engine Start and Taxi](engine-start-taxi.md#taxi) chapter.
 
 Use your charts to follow the ATC taxi instructions to the designated gate.
 
