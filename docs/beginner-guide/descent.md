@@ -13,7 +13,6 @@ The actual final approach (ILS approach) will be covered by a separate chapter.
     or different types of airliners. Aviation terminology and know-how is
     a requirement to fly any airliner even in Microsoft Flight Simulator.
 
-    Further reading: [A320 Autoflight](https://www.smartcockpit.com/aircraft-ressources/A319-320-321-Autoflight.html)<br/>
     Also you will find many great videos on YouTube on how to fly the FlyByWire A32NX.<br/>
     Check out the FlyByWire YouTube Channel as well: [FlyByWire on YouTube](https://www.youtube.com/c/FlyByWireSimulations/playlists)
 
@@ -91,7 +90,7 @@ This guide will cover these phases:
 
 #### Important data points for descent planning:
 
-- **Cruise Flight Level:** The higher we fly the earlier we need to start descending. Also for short flights a too high cruising altitude can make it impossible to actually descend to the destination airport in time. Therefore verify your flight plan if overall distance and flight level makes sense.
+- **Cruise Flight Level:** The higher we fly the earlier we need to start descending. Also for short flights a too high cruising altitude can make it impossible to actually descend to the destination airport in time. Therefore verify your flight plan if overall distance and flight level make sense.
 - **Flight Plan Constraints:** STARs often have flight level (FL) or altitude constraints which we must adhere to. We must plan our descent so we can meet these altitude constraints even when they themselves are still far away from the destination airport.
 - **Speed**: STARs also regularly have speed constraints which we need to take into consideration as slowing down will cost time and is hard to do while descending. If we start our descent too late we might not be able to slow down in time as required by a constraint.
 - **Aircraft capability and passenger comfort:** Although not a big concern in the A320neo, general aircraft capabilities and passenger comfort also come into play. Descending with -4000ft/min is no fun for a passenger.
@@ -104,9 +103,9 @@ This guide will cover these phases:
 4. Calculate the required distance needed to descend to that waypoint with a standard descent angle of 3°. We can use the FlyByWire flyPad in the cockpit or a simple rule of thumb calculation (details below).
 5. Use the MCDU PROG page's DIST function to read out the current distance to this waypoint. It is also possible to use the MCDU flight plan page, maps or the NDs distance rings to help determining the current distance.
 
-    ![ECAM PROG page](../assets/beginner-guide/descent/ECAM_Progress_page.png "ECAM PROG page"){width=45% align=left}
+    ![ECAM PROG page](../assets/beginner-guide/descent/ECAM-Progress-page.png "ECAM PROG page"){width=45% align=left}
 
-    ![ND distance rings](../assets/beginner-guide/descent/ND_disctance_rings.png "ND distance rings"){width=40% align=right}
+    ![ND distance rings](../assets/beginner-guide/descent/ND-disctance-rings.png "ND distance rings"){width=40% align=right}
 
 #### How to calculate the required distance for descent
 
@@ -118,17 +117,17 @@ This guide will cover these phases:
 
 **Example chart:**
 
-![STAR EGKK TEBRA](../assets/beginner-guide/descent/STAR_EGKK_TEBRA.png "STAR EGKK TEBRA")<br/>
+![STAR EGKK TEBRA](../assets/beginner-guide/descent/STAR-EGKK-TEBRA.png "STAR EGKK TEBRA")<br/>
 <sub>*Copyright © 2021 Navigraph / Jeppesen<br/>
 "Navigraph Charts are intended for flight simulation use only, not for navigational use."*
 
 **Using the flyPad:**
 
 Standard calculation with 3° descent path:
-![Descent from FL320 to FL140](../assets/beginner-guide/descent/FlyPad_performance_TOD.png "Descent from FL320 to FL140")
+![Descent from FL320 to FL140](../assets/beginner-guide/descent/FlyPad-performance-TOD.png "Descent from FL320 to FL140")
 
 Calculation with a specific distance to calculate the required descent velocity (V/S):
-![Descent calculation with given distance](../assets/beginner-guide/descent/FlyPad_performance_TOD2.png "Descent calculation with given distance")
+![Descent calculation with given distance](../assets/beginner-guide/descent/FlyPad-performance-TOD2.png "Descent calculation with given distance")
 
 **Using "Rule of Thumb":**
 
@@ -158,7 +157,7 @@ ATC will quite often instruct certain altitudes within the STAR and APPR which d
 Before we descend we should also reconfirm our destination runway and input or update our destination data into the MCDU PERF APPR page.
 This is typically done about 50NM before the starting the descent.
 
-![ENTER DEST DATA Message on the MCDU](../assets/beginner-guide/descent/MCDU_Enter_dest_data.png "ENTER DEST DATA Message on the MCDU")
+![ENTER DEST DATA Message on the MCDU](../assets/beginner-guide/descent/MCDU-Enter-dest-data.png "ENTER DEST DATA Message on the MCDU")
 
 We can obtain this data from the destination airport's ATIS information and the airport charts.
 
@@ -179,8 +178,8 @@ From the chart we get `TRANS ALT` and `BARO` (=MDA) or `RADIO` (=DH).
 - CAT 2/3 ILS use DH which is put in the `RADIO` field.
 - `BARO` is based on barometric altitude whereas `RADIO` is based on radio altitude (distance to ground).
 
-![Transition alt on chart](../assets/beginner-guide/descent/EGKK_APPR_chart_1.png "Transistion alt on chart")<br/>
-![ILS information on chart](../assets/beginner-guide/descent/EGKK_APPR_chart_2.png "ILS information on chart")<br/>
+![Transition alt on chart](../assets/beginner-guide/descent/EGKK-APPR-char-1.png "Transistion alt on chart")<br/>
+![ILS information on chart](../assets/beginner-guide/descent/EGKK-APPR-chart-2.png "ILS information on chart")<br/>
 <sub>*Copyright © 2021 Navigraph / Jeppesen*
 
 The A320neo is capable of a CAT IIIB ILS approach and has an approach category of "C" - see the red area on the chart. (see [Wikipedia Aircraft approach category](https://en.wikipedia.org/wiki/Aircraft_approach_category)
@@ -193,11 +192,11 @@ If we are flying with Online ATC you can request ATIS via the `MCDU-ATSU-ACO` pa
 
 We can in any case request the METAR weather information for the destination airport via the same page.
 
-![MCDU ATSU AOC page - WX and ATIS](../assets/beginner-guide/descent/MCDU_ATSU_AOC_WX.png "MCDU ATSU AOC page - WX and ATIS")
+![MCDU ATSU AOC page - WX and ATIS](../assets/beginner-guide/descent/MCDU-ATSU-AOC-WX.png "MCDU ATSU AOC page - WX and ATIS")
 
 If we used Simbrief for flight planning we can also see METAR information on the flyPad after importing the Simbrief plan to the flyPad.
 
-![flyPad showing route, weather and map](../assets/beginner-guide/descent/FlyPad_Weather.png "flyPad showing route, weather and map")
+![flyPad showing route, weather and map](../assets/beginner-guide/descent/FlyPad-Weather.png "flyPad showing route, weather and map")
 
 Once we have confirmed the destination runway and the destination data we are set for the approach and we can continue focus on the descent.
 
@@ -225,7 +224,7 @@ When clearance is given we can start our descent to the flight level or altitude
 
 For descending we set the new flight level or altitude in the `FCU` with the `altitude selector`. We can then either push the selector for Managed Altitude Mode (constraints are respected, also know as VNAV) or pull the selector for `Selected Altitude Mode` (constraints are ignored). You can also use the `V/S selector` to set a specific descent vertical velocity. Pull the `V/S selector` to start the descent.
 
-![FUC with ALT and V/S selector](../assets/beginner-guide/descent/FCU_AP_selector.png "FUC with ALT and V/S selector")
+![FUC with ALT and V/S selector](../assets/beginner-guide/descent/FCU-AP-selector.png "FUC with ALT and V/S selector")
 
 ATC typically will not clear us to our final target altitude directly but will give us several step descents down to our required altitude.
 
@@ -260,7 +259,7 @@ We repeat the process until we have reached our desired final approach altitude.
 
 #### Approach Checklist
 
-![Approach Checklist](../assets/beginner-guide/descent/Approach_checklist.png "Approach Checklist"){width=40%}
+![Approach Checklist](../assets/beginner-guide/descent/Approach-checklist.png "Approach Checklist"){width=40%}
 
 #### Cabin Crew
 
@@ -295,7 +294,7 @@ Be prepared for ATC instructions to deviate laterally from the STAR or Approach 
 
 ROKIL STAR/Transition EDDM (Munich) 26R - it is only in times with a lot of traffic that we would have to fly the whole downwind part of this transition.
 
-![EDDM transition until vectored](../assets/beginner-guide/descent/EDDM_TRANS_chart.png "EDDM transition until vectored")<br/>
+![EDDM transition until vectored](../assets/beginner-guide/descent/EDDM-TRANS-chart.png "EDDM transition until vectored")<br/>
 <sub>*Copyright © 2021 Navigraph / Jeppesen<br/>
 "Navigraph Charts are intended for flight simulation use only, not for navigational use."*
 
@@ -313,8 +312,8 @@ At the end of the Instrument Approach (or by ATC vectoring) we will be on a path
 
 To intercept the ILS we need to be on the correct altitude and should not have an approach angle larger than 30°.
 
-![EDDM ILS 26R chart](../assets/beginner-guide/descent/EDDM_ILS_26R_chart.png "EDDM ILS 26R chart")<br>
-![EDDM ILS 26R GS  chart](../assets/beginner-guide/descent/EDDM_ILS_26R_GS_chart.png "EDDM ILS 26R GS  chart")<br/>
+![EDDM ILS 26R chart](../assets/beginner-guide/descent/EDDM-ILS-26R-chart.png "EDDM ILS 26R chart")<br>
+![EDDM ILS 26R GS  chart](../assets/beginner-guide/descent/EDDM-ILS-26R-GS-chart.png "EDDM ILS 26R GS  chart")<br/>
 <sub>*Copyright © 2021 Navigraph / Jeppesen<br/>
 "Navigraph Charts are intended for flight simulation use only, not for navigational use."*
 
