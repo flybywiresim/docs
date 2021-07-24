@@ -43,8 +43,6 @@ For general questions please visit our Discord:
 
 ---
 
-Primary Author: Cdr_Maverick#6475
-
-Supplementary Authors: Awemeter#3110, Scoopy#1399, Valastiri#8902
+Authors: Awemeter#3110, Cdr_Maverick#6475, Scoopy#1399, Valastiri#8902
 
 Guide reviewed by A320 Pilots.
