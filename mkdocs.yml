@@ -22,6 +22,17 @@ nav:
       - Common Questions: start/faq.md
       - MCDU Keyboard Input: start/mcdu-keyboard.md
       - Autopilot / Fly-By-Wire: start/autopilot-fbw.md
+  - Beginner Guide:
+      - Overview: beginner-guide/overview.md
+      - Starting the aircraft: beginner-guide/starting-the-aircraft.md
+      - Preparing the MCDU: beginner-guide/preparing-mcdu.md
+      - Engine Start and Taxi: beginner-guide/engine-start-taxi.md
+      - Takeoff, Climb and Cruise: beginner-guide/takeoff-climb-cruise.md
+      - Descent Planning and Descent: beginner-guide/descent.md
+      - Approach and ILS Landing: beginner-guide/landing.md
+      - After Landing and Taxi to Gate: beginner-guide/after-landing.md
+      - Powering Down: beginner-guide/powering-down.md
+      - Abbreviations: beginner-guide/abbreviations.md
   - Airliner Flying Guide:
       - Overview: airliner-flying-guide/overview.md
       - Types of Approaches: airliner-flying-guide/approaches.md
