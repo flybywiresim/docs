@@ -8,13 +8,23 @@
 
 #### H5
 
-**Bold**
+---
 
-__Bold__
+**Bold** __Bold__
 
 ^^Underline^^
 
-*Italics*
+*Italics* _Italics_
+
+Super^script^
+
+Sub~script~
+
+Here should follow an included file:
+
+--8<-- "./docs/test_include.md"
+
+---
 
 !!! info "Info box"
     Test of info box
@@ -43,7 +53,7 @@ __Bold__
 
 `Monospaced`
 
-++ctrl+f5++
+Keyboard shortcuts: ++ctrl+f5++
 
 ```
 // code
@@ -52,9 +62,16 @@ h3 {
 }
 ```
 
-[Link](#h1)
+[This is a link to the first headline](#h1)
+
+[This is an external link](https://flybywiresim.com/)
+
+
+Full size logo
 
 ![Logo Image full size](assets/images/FBW-Tail.png)
+
+20% sized responsive logo
 
 ![Logo Image Small](assets/images/FBW-Tail.png){ width=20% }
 
