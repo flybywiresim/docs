@@ -85,6 +85,20 @@ Using the "lbs" weight setting on the EFB may cause the following issues.
 
 ***
 
+#### ^^SU5 Issues^^
+
+Asobo’s implementation of the effects of non-standard day pressure and temperature on altitude remains inaccurate for the release of SU5 affecting the following:
+
+- Airplane altitude provided to ATC from the airplane transponder will not correlate correctly with the airplane indicated on the airplane's altimeter. VATSIM / IVAO will see MSFS airplanes at a different altitude than what the pilots see.
+
+- If temperature is different than ISA, the airplane altimeter will not indicated the correct altitude, most observable when airplane is on the ground at the airport with the proper QNH set. The altimeter should align with the airport's elevation, but it won't with SU5.
+
+- If pressure or temperature is changing with live weather, the airplane's autopilot may wander from the set altitude or "chase" altitude.
+
+- The built-in MSFS ATC will experience the same altitude issues - you may see FL390 on your altimiter, but the ATC will see you at a different altitude.
+
+---
+
 #### ^^Package Separation Issues^^
 
 !!! warning "Liveries incompatible due to package separation"
