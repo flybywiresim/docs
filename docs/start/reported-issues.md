@@ -150,7 +150,10 @@ If the live weather feature is experiencing issues you may experience the follow
 - Degraded aircraft performance.
 - Airspeed and climb rate issues.
 
-You will typically see higher or excessive fuel flow alongside exaggerated ISA, SAT, and TAT at relevant flight levels on your lower ECAM. 
+You will typically see higher or excessive fuel flow alongside exceedingly high SAT, which leads to high TAT and ISA deviation. 
+
+!!! info ""
+    ISA deviation is the difference between SAT and the ISA temperature for that altitude and is indicated by the value next to ISA in the ECAM.
 
 **Workaround**: Use a static weather preset for your flight. 
 
