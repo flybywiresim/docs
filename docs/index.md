@@ -5,6 +5,9 @@ hide:
 
 # A32NX Documentation
 
+
+[Style Test Page](test.md "Style Test Page"){ .md-button }
+
 ***
 
 ## Quick Links
