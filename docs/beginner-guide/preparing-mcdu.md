@@ -456,6 +456,6 @@ This will load your flight plan from simBrief directly into the MCDU
 
 ![mcdu1b](../assets/beginner-guide/mcdu/mcdu1b.png)
 
-Now continue setting up the MCDU as described above beginning at [**^^F^^**LIGHT PLAN](#flight-plan) above.
+Now continue setting up the MCDU as described in the [**^^F^^**LIGHT PLAN](#flight-plan) section above.
 
 After setting up the MCDU continue with [Engine Start and Taxi](engine-start-taxi.md)
