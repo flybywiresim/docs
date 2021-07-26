@@ -58,9 +58,6 @@ Using the "lbs" weight setting on the EFB may cause the following issues.
     
 ---
 
-* Vertical speed indicator not working. 
-    * Fix in Progress [PR #5394](https://github.com/flybywiresim/a32nx/pull/5394)
-
 * Turning off right PFD also disables left one. *Currently under investigation.*
 
 * Toolbar pushback addon may cause unwanted behavior and prevent use of nose wheel steering. 
@@ -180,6 +177,8 @@ You will typically see higher or excessive fuel flow alongside exaggerated ISA, 
 ***
 
 ### ^^Fixed Issues^^
+
+* Vertical speed indicator not working. *Fixed [PR #5398](https://github.com/flybywiresim/a32nx/pull/5398)*
 
 * In development/experimental versions, the engine startup sound is bugged due to a fuel flow issue. This will be fixed when engine startup procedures will be implemented. *(fixed)*
 
