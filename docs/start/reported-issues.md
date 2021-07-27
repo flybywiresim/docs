@@ -97,6 +97,14 @@ The effects of non-standard day pressure and temperature on altitude in MSFS is 
 
 - The built-in MSFS ATC will experience the same altitude issues - you may see FL390 on your altimeter, but the ATC will see you at a different altitude.
 
+- On the first load of the A32NX the heading knob push/pull may not work.
+    - Solutions:
+        1. Restart once as for unknown reasons this event doesn't work the first time.
+        2. Set Cockpit Interaction System to `legacy`
+            - Go to Menu
+            - General Options
+            - Accessibility
+    
 ---
 
 #### ^^Package Separation Issues^^
