@@ -1,5 +1,7 @@
 ﻿# ECAM Bleed page
 
+![ECAM SD Bleed page](../../../../assets/a32nx-briefing/overhead-panel/bleed.png "ECAM SD Bleed page")
+
 | Number | Name                               | Variation        | Meaning                                                                                                                                               |
 |:-------|:-----------------------------------|:-----------------|:------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1      | Pack outlet temperature            | Green color      | It is in the normal temperature range.                                                                                                                |
