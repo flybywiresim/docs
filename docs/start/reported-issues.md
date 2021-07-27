@@ -87,7 +87,7 @@ Using the "lbs" weight setting on the EFB may cause the following issues.
 
 #### ^^SU5 Issues^^
 
-Asobo’s implementation of the effects of non-standard day pressure and temperature on altitude remains inaccurate for the release of SU5 affecting the following:
+The effects of non-standard day pressure and temperature on altitude in MSFS is inaccurate for SU5 affecting the following:
 
 - Airplane altitude provided to ATC from the airplane transponder will not correlate correctly with the airplane indicated on the airplane's altimeter. VATSIM / IVAO will see MSFS airplanes at a different altitude than what the pilots see.
 
