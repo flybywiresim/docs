@@ -26,7 +26,7 @@
     
     Do this before reporting bugs.
 
-FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim Version: 1.17.3.0*
+FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim Version: 1.18.13.0*
 
 *Last Update: {{git_revision_date_localized}}*
 
@@ -85,6 +85,20 @@ Using the "lbs" weight setting on the EFB may cause the following issues.
 
 ***
 
+#### ^^SU5 Issues^^
+
+The effects of non-standard day pressure and temperature on altitude in MSFS is inaccurate for SU5 affecting the following:
+
+- Airplane altitude provided to ATC from the airplane transponder will not correlate correctly with the airplane indicated on the airplane's altimeter. VATSIM / IVAO will see MSFS airplanes at a different altitude than what the pilots see.
+
+- If temperature is different than ISA, the airplane altimeter will not indicate the correct altitude, most observable when airplane is on the ground at the airport with the proper QNH set. The altimeter should align with the airport's elevation, but it won't with SU5.
+
+- If pressure or temperature is changing with live weather, the airplane's autopilot may wander from the set altitude or "chase" altitude.
+
+- The built-in MSFS ATC will experience the same altitude issues - you may see FL390 on your altimeter, but the ATC will see you at a different altitude.
+
+---
+
 #### ^^Package Separation Issues^^
 
 !!! warning "Liveries incompatible due to package separation"
@@ -136,7 +150,10 @@ If the live weather feature is experiencing issues you may experience the follow
 - Degraded aircraft performance.
 - Airspeed and climb rate issues.
 
-You will typically see higher or excessive fuel flow alongside exaggerated ISA, SAT, and TAT at relevant flight levels on your lower ECAM. 
+You will typically see higher or excessive fuel flow alongside exceedingly high SAT, which leads to high TAT and ISA deviation. 
+
+!!! info ""
+    ISA deviation is the difference between SAT and the ISA temperature for that altitude and is indicated by the value next to ISA in the ECAM.
 
 **Workaround**: Use a static weather preset for your flight. 
 
