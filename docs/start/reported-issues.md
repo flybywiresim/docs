@@ -105,6 +105,14 @@ The effects of non-standard day pressure and temperature on altitude in MSFS is 
             - General Options
             - Accessibility
     
+**^^Using the new Cockpit Interaction System^^**
+
+- Highlight a control (like a knob).
+- Hold ++lbutton++ to lock to that control. Now your mouse will not affect any other controls or other mouse bindings.
+- Move the mouse left to turn the knob left, more it right to turn the knob right (with the ++lbutton++ held down)
+- You can also use the scroll wheel while holding ++lbutton++ down to turn the knob left or right.
+- To push a control in, lock to the control using ++lbutton++ and then ++rbutton++.
+    
 ---
 
 #### ^^Package Separation Issues^^
