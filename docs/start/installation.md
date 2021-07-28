@@ -151,6 +151,53 @@ If the above methods do not work:
   
 If your issue is not related to installation visit - [**Reported Issues**](reported-issues.md)
 
+---
+
+## Clean Install Steps
+
+To perform a clean install you simply have to delete the `flybywire-aircraft-a320-neo` folder from your community folder. 
+
+We do however store additional information related to the aircraft in a separate directory. Delete the contents of this folder but not the folder itself.
+
+These locations can be found below.
+
+![localstate folder](https://cdn.discordapp.com/attachments/838062729398976522/869736690695172156/unknown.png){ width=70% }
+
+!!! info "Work Folder"
+    The locations below contain a "work" folder. We store two important things here that you may not want to delete:
+
+    - Your EFB throttle configuration.
+    - Our flight data recorder (for debugging purposes which we may ask you to provide).
+
+    **It is up to you to keep this folder or not.**
+
+To access the folders below:
+
+- Press start.
+- Type in run into the start menu and press ++enter++
+- Type into the box either `%localappdata%` or `%appdata%` depending on your game version below.
+- Press ++"OK"++
+
+If the folders are hidden to you follow the directions on [Microsoft's support site](https://support.microsoft.com/en-us/windows/view-hidden-files-and-folders-in-windows-10-97fbc472-c603-9d90-91d0-1166d1d9f4b5).
+
+### Microsoft Store Version
+
+The folder can be found here:
+
+`%LOCALAPPDATA%\Packages\Microsoft.FlightSimulator_8wekyb3d8bbwe\LocalState\packages\flybywire-aircraft-a320-neo\`
+
+!!! warning ""
+    This is not your community directory
+
+### Steam Version
+
+The folder can be found here:
+
+`%APPDATA%\Microsoft Flight Simulator\Packages\flybywire-aircraft-a320-neo\`
+
+!!! warning ""
+    This is not your community directory
+
 ***
 
 ## Contributing

@@ -14,6 +14,8 @@
     * A32NX (old folder name)
     * flybywire-aircraft-a320-neo (new folder name)
 
+    **[Read - Additional Clean Install Steps](installation.md#clean-install-steps)**
+
     ---
 
     ^^Flight Model^^
@@ -32,7 +34,7 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
 
 ---
 
-### ^^Latest Issues^^
+## Latest Issues
 
 !!! info "Autopilot / Fly-By-Wire Issues"
     Please visit the dedicated Autopilot / Fly-By-Wire page for more information:
@@ -85,7 +87,7 @@ Using the "lbs" weight setting on the EFB may cause the following issues.
 
 ***
 
-#### ^^SU5 Issues^^
+### SU5 Issues
 
 The effects of non-standard day pressure and temperature on altitude in MSFS is inaccurate for SU5 affecting the following:
 
@@ -97,25 +99,46 @@ The effects of non-standard day pressure and temperature on altitude in MSFS is 
 
 - The built-in MSFS ATC will experience the same altitude issues - you may see FL390 on your altimeter, but the ATC will see you at a different altitude.
 
-- On the first load of the A32NX the heading knob push/pull may not work.
-    - Solutions:
-        1. Restart once as for unknown reasons this event doesn't work the first time.
-        2. Set Cockpit Interaction System to `legacy`
-            - Go to Menu
-            - General Options
-            - Accessibility
+- Strobe light function may be reversed (Set to `OFF` but lights on) when starting on the runway. *Under investigation*
+    - Workaround: Start cold and dark at the gate.
     
-**^^Using the new Cockpit Interaction System^^**
+- TCA (Thrustmaster) hardware - can't start engine
+    - Open the controls menu 
+        - REMOVE the below:
+            - “Toggle Engine 2 Fuel Valve” - Set to Joystick Button 4
+            - “Toggle Engine 1 Fuel Valve” - Set to Joystick Button 3
+        - KEEP the below:
+            - “Set Engine 2 Fuel Valve” - Set to Joystick Button 4
+            - “Set Engine 1 Fuel Valve” - Set to Joystick Button 3
+        
+    ![throttle config image](https://cdn.discordapp.com/attachments/754130199804772372/869697814458945546/unknown.png)
+
+#### FCU Heading Knob
+
+On the first load of the A32NX the heading knob push/pull may not work.
+
+- Solution:
+    - Restart once as for unknown reasons this event doesn't work the first time.
+
+!!! info "**Legacy** Cockpit Interaction System"
+    If you want to use the old method of interacting with the cockpit before Sim Update 5:
+
+    - Go to Menu
+    - General Options
+    - Accessibility
+    - Select `legacy`
+    
+Using **New** Cockpit Interaction System
 
 - Highlight a control (like a knob).
-- Hold ++lbutton++ to lock to that control. Now your mouse will not affect any other controls or other mouse bindings.
-- Move the mouse left to turn the knob left, more it right to turn the knob right (with the ++lbutton++ held down)
-- You can also use the scroll wheel while holding ++lbutton++ down to turn the knob left or right.
-- To push a control in, lock to the control using ++lbutton++ and then ++rbutton++.
+- Hold ++"Left Click"++ to lock to that control. Now your mouse will not affect any other controls or other mouse bindings.
+- Move the mouse left to turn the knob left, more it right to turn the knob right (with the ++"Left Click"++ held down)
+- You can also use the scroll wheel while holding ++"Left Click"++ down to turn the knob left or right.
+- To push a control in, lock to the control using ++"Left Click"++ and then ++"Right Click"++.
     
 ---
 
-#### ^^Package Separation Issues^^
+### Package Separation Issues
 
 !!! warning "Liveries incompatible due to package separation"
 
@@ -138,7 +161,7 @@ The effects of non-standard day pressure and temperature on altitude in MSFS is 
 
 ***
     
-#### ^^Installer Issues^^
+### Installer Issues
 
 ![installer issue](https://media.discordapp.net/attachments/831654046405230652/832741603940237362/unknown.png)
 
@@ -159,7 +182,7 @@ The effects of non-standard day pressure and temperature on altitude in MSFS is 
 
 ***
 
-### ^^MSFS Live Weather^^
+## MSFS Live Weather
 
 If the live weather feature is experiencing issues you may experience the following:
 
@@ -175,7 +198,7 @@ You will typically see higher or excessive fuel flow alongside exceedingly high 
 
 ---
 
-### ^^Common Issues^^
+## Common Issues
 
 * AP not following the flight plan (leaking input values affect, but doesn't disconnect the AP)
     - Workaround: Set dead-zones for your input device higher
@@ -209,7 +232,7 @@ You will typically see higher or excessive fuel flow alongside exceedingly high 
 
 ***
 
-### ^^Fixed Issues^^
+## Fixed Issues
 
 * Vertical speed indicator not working. *Fixed [PR #5398](https://github.com/flybywiresim/a32nx/pull/5398)*
 
