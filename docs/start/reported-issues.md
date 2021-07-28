@@ -234,6 +234,21 @@ You will typically see higher or excessive fuel flow alongside exceedingly high 
 
 ***
 
+## CTD Resolution
+
+Crash to desktop (CTD) can either be a sim issue or a conflict with the A32NX. There also is currently no known guaranteed solution, however users have found success with by trying the following:
+
+1. Try without anything else installed in community.
+2. Try without FSUIPC OR update FSUIPC.
+3. Try downloading the bat file that is in the pinned messages, run it to clean up background files.
+4. [Perform a clean install](installation.md#clean-install-steps)
+5. Run without live weather and/or live traffic.
+6. Delete your rolling cache in the sim and create a new one.
+7. Delete any manual cache in the sim and create new ones. 
+8. Visit and read the [MSFS Known Issues Page](https://flightsimulator.zendesk.com/hc/en-us/articles/360016027399-KNOWN-ISSUES-Last-update-July-28-2021-) OR [MSFS Troubleshooting & Support](https://flightsimulator.zendesk.com/hc/en-us/sections/360004475200-Troubleshooting-Support-Windows-10-PC)
+
+---
+
 ## Fixed Issues
 
 * Vertical speed indicator not working. *Fixed [PR #5398](https://github.com/flybywiresim/a32nx/pull/5398)*
