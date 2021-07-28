@@ -14,6 +14,8 @@
     * A32NX (old folder name)
     * flybywire-aircraft-a320-neo (new folder name)
 
+    **[Read - Additional Clean Install Steps](installation.md#clean-install-steps)**
+
     ---
 
     ^^Flight Model^^
