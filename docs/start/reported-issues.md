@@ -238,10 +238,10 @@ You will typically see higher or excessive fuel flow alongside exceedingly high 
 
 Crash to desktop (CTD) can either be a sim issue or a conflict with the A32NX. There also is currently no known guaranteed solution, however users have found success with by trying the following:
 
-1. Try without anything else installed in community.
-2. Try without FSUIPC OR update FSUIPC.
-3. Try downloading the bat file that is in the pinned messages, run it to clean up background files.
-4. [Perform a clean install](installation.md#clean-install-steps)
+1. [Perform a clean install](installation.md#clean-install-steps) 
+2. Try without anything else installed in community.
+3. Try without FSUIPC OR update FSUIPC.
+4. Try downloading the bat file that is in the pinned messages, run it to clean up background files.
 5. Run without live weather and/or live traffic.
 6. Delete your rolling cache in the sim and create a new one.
 7. Delete any manual cache in the sim and create new ones. 
