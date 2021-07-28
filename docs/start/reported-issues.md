@@ -112,8 +112,6 @@ The effects of non-standard day pressure and temperature on altitude in MSFS is 
             - “Set Engine 1 Fuel Valve” - Set to Joystick Button 3
         
     ![throttle config image](https://cdn.discordapp.com/attachments/754130199804772372/869697814458945546/unknown.png)
-    
-    
 
 #### FCU Heading Knob
 
