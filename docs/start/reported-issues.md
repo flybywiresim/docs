@@ -99,6 +99,10 @@ The effects of non-standard day pressure and temperature on altitude in MSFS is 
 
 - The built-in MSFS ATC will experience the same altitude issues - you may see FL390 on your altimeter, but the ATC will see you at a different altitude.
 
+- Cockpit decals flicker. *Under investigation*
+
+- ND Terrain does not appear. *[Under investigation #5440](https://github.com/flybywiresim/a32nx/issues/5440)*
+
 - Strobe light function may be reversed (Set to `OFF` but lights on) when starting on the runway. *Under investigation*
     - Workaround: Start cold and dark at the gate.
     
@@ -231,6 +235,21 @@ You will typically see higher or excessive fuel flow alongside exceedingly high 
 * ASOBO *Aviator/Beta Club* A320 liveries are incompatible with the A32NX mod
 
 ***
+
+## CTD Resolution
+
+Crash to desktop (CTD) can either be a sim issue or a conflict with the A32NX. There also is currently no known guaranteed solution, however users have found success with by trying the following:
+
+1. [Perform a clean install](installation.md#clean-install-steps) 
+2. Try without anything else installed in community.
+3. Try without FSUIPC OR update FSUIPC.
+4. Try downloading the bat file that is in the pinned messages, run it to clean up background files.
+5. Run without live weather and/or live traffic.
+6. Delete your rolling cache in the sim and create a new one.
+7. Delete any manual cache in the sim and create new ones. 
+8. Visit and read the [MSFS Known Issues Page](https://flightsimulator.zendesk.com/hc/en-us/articles/360016027399-KNOWN-ISSUES-Last-update-July-28-2021-) OR [MSFS Troubleshooting & Support](https://flightsimulator.zendesk.com/hc/en-us/sections/360004475200-Troubleshooting-Support-Windows-10-PC)
+
+---
 
 ## Fixed Issues
 
