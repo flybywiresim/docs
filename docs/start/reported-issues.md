@@ -101,6 +101,8 @@ The effects of non-standard day pressure and temperature on altitude in MSFS is 
 
 - Cockpit decals flicker. *Under investigation*
 
+- ND Terrain does not appear. *[Under investigation #5440](https://github.com/flybywiresim/a32nx/issues/5440)*
+
 - Strobe light function may be reversed (Set to `OFF` but lights on) when starting on the runway. *Under investigation*
     - Workaround: Start cold and dark at the gate.
     
