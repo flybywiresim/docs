@@ -101,6 +101,19 @@ The effects of non-standard day pressure and temperature on altitude in MSFS is 
 
 - Strobe light function may be reversed (Set to `OFF` but lights on) when starting on the runway. *Under investigation*
     - Workaround: Start cold and dark at the gate.
+    
+- TCA (Thrustmaster) hardware - can't start engine
+    - Open the controls menu 
+        - REMOVE the below:
+            - “Toggle Engine 2 Fuel Valve” - Set to Joystick Button 4
+            - “Toggle Engine 1 Fuel Valve” - Set to Joystick Button 3
+        - KEEP the below:
+            - “Set Engine 2 Fuel Valve” - Set to Joystick Button 4
+            - “Set Engine 1 Fuel Valve” - Set to Joystick Button 3
+        
+    ![throttle config image](https://cdn.discordapp.com/attachments/754130199804772372/869697814458945546/unknown.png)
+    
+    
 
 #### FCU Heading Knob
 
