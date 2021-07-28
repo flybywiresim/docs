@@ -37,7 +37,7 @@
 
 <div style="position: relative;">
     <img src="/assets/a32nx-briefing/ecam/ECAM-Control-Panel.png" style="width: 100%; height: auto;" alt="ECAM Control Panel">
-    <a href="/a32nx-briefing/ecam/sd/apu/apu/">      <div class="imagemap" style="position: absolute; left: 3.5%; top: 6%; width: 11.5%; height: 21%;"> <span class="imagemapname">ENG</span></div></a>
+    <a href="/a32nx-briefing/ecam/sd/eng/eng/">      <div class="imagemap" style="position: absolute; left: 3.5%; top: 6%; width: 11.5%; height: 21%;"> <span class="imagemapname">ENG</span></div></a>
     <a href="/a32nx-briefing/ecam/sd/bleed/bleed/">  <div class="imagemap" style="position: absolute; left: 20%; top: 6%; width: 11.5%; height: 21%;">  <span class="imagemapname">BLEED</span></div></a>
     <a href="/a32nx-briefing/ecam/sd/press/press/">  <div class="imagemap" style="position: absolute; left: 36.5%; top: 6%; width: 11.5%; height: 21%;"><span class="imagemapname">PRESS</span></div></a>
     <a href="/a32nx-briefing/ecam/sd/elec/elec/">    <div class="imagemap" style="position: absolute; left: 52.5%; top: 6%; width: 11.5%; height: 21%;">  <span class="imagemapname">ELEC</span></div></a>
