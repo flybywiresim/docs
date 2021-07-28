@@ -34,7 +34,7 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
 
 ---
 
-### ^^Latest Issues^^
+## Latest Issues
 
 !!! info "Autopilot / Fly-By-Wire Issues"
     Please visit the dedicated Autopilot / Fly-By-Wire page for more information:
@@ -87,7 +87,7 @@ Using the "lbs" weight setting on the EFB may cause the following issues.
 
 ***
 
-#### ^^SU5 Issues^^
+### ^^SU5 Issues^^
 
 The effects of non-standard day pressure and temperature on altitude in MSFS is inaccurate for SU5 affecting the following:
 
@@ -117,7 +117,7 @@ The effects of non-standard day pressure and temperature on altitude in MSFS is 
     
 ---
 
-#### ^^Package Separation Issues^^
+### ^^Package Separation Issues^^
 
 !!! warning "Liveries incompatible due to package separation"
 
@@ -140,7 +140,7 @@ The effects of non-standard day pressure and temperature on altitude in MSFS is 
 
 ***
     
-#### ^^Installer Issues^^
+### ^^Installer Issues^^
 
 ![installer issue](https://media.discordapp.net/attachments/831654046405230652/832741603940237362/unknown.png)
 
@@ -161,7 +161,7 @@ The effects of non-standard day pressure and temperature on altitude in MSFS is 
 
 ***
 
-### ^^MSFS Live Weather^^
+## MSFS Live Weather
 
 If the live weather feature is experiencing issues you may experience the following:
 
@@ -177,7 +177,7 @@ You will typically see higher or excessive fuel flow alongside exceedingly high 
 
 ---
 
-### ^^Common Issues^^
+## Common Issues
 
 * AP not following the flight plan (leaking input values affect, but doesn't disconnect the AP)
     - Workaround: Set dead-zones for your input device higher
@@ -211,7 +211,7 @@ You will typically see higher or excessive fuel flow alongside exceedingly high 
 
 ***
 
-### ^^Fixed Issues^^
+## Fixed Issues
 
 * Vertical speed indicator not working. *Fixed [PR #5398](https://github.com/flybywiresim/a32nx/pull/5398)*
 
