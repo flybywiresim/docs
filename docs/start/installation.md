@@ -171,6 +171,15 @@ These locations can be found below.
 
     **It is up to you to keep this folder or not.**
 
+To access the folders below:
+
+- Press start.
+- Type in run into the start menu and press ++enter++
+- Type into the box either `%localappdata%` or `%appdata%` depending on your game version below.
+- Press ++"OK"++
+
+If the folders are hidden to you follow the directions on [Microsoft's support site](https://support.microsoft.com/en-us/windows/view-hidden-files-and-folders-in-windows-10-97fbc472-c603-9d90-91d0-1166d1d9f4b5).
+
 ### Microsoft Store Version
 
 The folder can be found here:
