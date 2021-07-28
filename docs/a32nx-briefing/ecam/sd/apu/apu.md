@@ -1,7 +1,6 @@
 ﻿# ECAM APU page
 
-![APU ECAM page](../../../../assets/a32nx-briefing/ecam/sd/apu/apu.png
-"APU ECAM page")
+![APU ECAM page](apu.png "APU ECAM page")
 
 | Number | Name                     | Variation               | Meaning                                                                                               |
 |:-------|:-------------------------|:------------------------|:------------------------------------------------------------------------------------------------------|
