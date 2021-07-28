@@ -131,10 +131,10 @@ On the first load of the A32NX the heading knob push/pull may not work.
 Using **New** Cockpit Interaction System
 
 - Highlight a control (like a knob).
-- Hold ++lbutton++ to lock to that control. Now your mouse will not affect any other controls or other mouse bindings.
-- Move the mouse left to turn the knob left, more it right to turn the knob right (with the ++lbutton++ held down)
-- You can also use the scroll wheel while holding ++lbutton++ down to turn the knob left or right.
-- To push a control in, lock to the control using ++lbutton++ and then ++rbutton++.
+- Hold ++"Left Click"++ to lock to that control. Now your mouse will not affect any other controls or other mouse bindings.
+- Move the mouse left to turn the knob left, more it right to turn the knob right (with the ++"Left Click"++ held down)
+- You can also use the scroll wheel while holding ++"Left Click"++ down to turn the knob left or right.
+- To push a control in, lock to the control using ++"Left Click"++ and then ++"Right Click"++.
     
 ---
 
