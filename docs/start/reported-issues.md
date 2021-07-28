@@ -87,7 +87,7 @@ Using the "lbs" weight setting on the EFB may cause the following issues.
 
 ***
 
-### ^^SU5 Issues^^
+### SU5 Issues
 
 The effects of non-standard day pressure and temperature on altitude in MSFS is inaccurate for SU5 affecting the following:
 
@@ -99,15 +99,22 @@ The effects of non-standard day pressure and temperature on altitude in MSFS is 
 
 - The built-in MSFS ATC will experience the same altitude issues - you may see FL390 on your altimeter, but the ATC will see you at a different altitude.
 
-- On the first load of the A32NX the heading knob push/pull may not work.
-    - Solutions:
-        1. Restart once as for unknown reasons this event doesn't work the first time.
-        2. Set Cockpit Interaction System to `legacy`
-            - Go to Menu
-            - General Options
-            - Accessibility
+#### FCU Heading Knob
+
+On the first load of the A32NX the heading knob push/pull may not work.
+
+- Solution:
+    - Restart once as for unknown reasons this event doesn't work the first time.
+
+!!! info "**Legacy** Cockpit Interaction System"
+    If you want to use the old method of interacting with the cockpit before Sim Update 5:
+
+    - Go to Menu
+    - General Options
+    - Accessibility
+    - Select `legacy`
     
-**^^Using the new Cockpit Interaction System^^**
+Using **New** Cockpit Interaction System
 
 - Highlight a control (like a knob).
 - Hold ++lbutton++ to lock to that control. Now your mouse will not affect any other controls or other mouse bindings.
@@ -117,7 +124,7 @@ The effects of non-standard day pressure and temperature on altitude in MSFS is 
     
 ---
 
-### ^^Package Separation Issues^^
+### Package Separation Issues
 
 !!! warning "Liveries incompatible due to package separation"
 
@@ -140,7 +147,7 @@ The effects of non-standard day pressure and temperature on altitude in MSFS is 
 
 ***
     
-### ^^Installer Issues^^
+### Installer Issues
 
 ![installer issue](https://media.discordapp.net/attachments/831654046405230652/832741603940237362/unknown.png)
 
