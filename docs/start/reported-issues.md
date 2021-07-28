@@ -99,6 +99,8 @@ The effects of non-standard day pressure and temperature on altitude in MSFS is 
 
 - The built-in MSFS ATC will experience the same altitude issues - you may see FL390 on your altimeter, but the ATC will see you at a different altitude.
 
+- Cockpit decals flicker. *Under investigation*
+
 - Strobe light function may be reversed (Set to `OFF` but lights on) when starting on the runway. *Under investigation*
     - Workaround: Start cold and dark at the gate.
     
