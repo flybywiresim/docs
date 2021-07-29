@@ -91,6 +91,21 @@ Using the "lbs" weight setting on the EFB may cause the following issues.
 
 #### General SU5 Issues
 
+!!! warning "Important Notice"
+    If you have the following issues you are **most likely on stable**:
+
+    - White EFB screen
+    - PFD is missing bank angle protection indicators
+    - `NOT IN DATABASE` MCDU error
+
+    Go to your content manager and find our aicraft. If you see the following image:
+
+    ![content manager image](https://media.discordapp.net/attachments/828975068947939368/870365130335088660/unknown.png?width=1440&height=123)
+
+    Uninstall it and restart the sim. Reinstall development verison from our installer. 
+
+    This information is stated on [Installation Guide](installation.md).
+
 - Freelook with mouse causes controls to freeze.
     - Workaround: Try setting `TOGGLE COCKPIT FREELOOK` to your mouse ++middle-button++. Reference: [MSFS Forum Post](https://forums.flightsimulator.com/t/freelook-with-mouse-causes-controls-to-freeze-after-su5/426349/15)
 
