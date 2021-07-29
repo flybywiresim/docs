@@ -67,7 +67,7 @@ hide:
     <a href="/a32nx-briefing/flight-deck/ovhd/voice-recorder/"><div class="imagemap" style="position: absolute; left: 22.5%; top: 37.7%; width: 12.6%; height: 1.3%;"><span class="imagemapname">Voice Recoder Panel</span></div></a>
     <a href="/a32nx-briefing/flight-deck/ovhd/oxygen/"><div class="imagemap" style="position: absolute; left: 22.5%; top: 39%; width: 12.6%; height: 1.5%;"><span class="imagemapname">Oxygen Panel</span></div></a>
     <a href="/a32nx-briefing/flight-deck/ovhd/calls/"><div class="imagemap" style="position: absolute; left: 22.5%; top: 40.5%; width: 12.6%; height: 1.45%;"><span class="imagemapname">Calls Panel</span></div></a>
-    <a href="/a32nx-briefing/flight-deck/ovhd/wipers"><div class="imagemap" style="position: absolute; left: 22.5%; top: 41.95%; width: 12.6%; height: 2.2%;"><span class="imagemapname">Wiper Panel Capt.</span></div></a>
+    <a href="/a32nx-briefing/flight-deck/ovhd/wipers/"><div class="imagemap" style="position: absolute; left: 22.5%; top: 41.95%; width: 12.6%; height: 2.2%;"><span class="imagemapname">Wiper Panel Capt.</span></div></a>
     <!-- OVHD FWD Middle-->
     <a href="/a32nx-briefing/flight-deck/ovhd/fire/"><div class="imagemap" style="position: absolute; left: 35.1%; top: 25.7%; width: 30%; height: 2.7%;"><span class="imagemapname">Fire Control Panel</span></div></a>
     <a href="/a32nx-briefing/flight-deck/ovhd/hyd/"><div class="imagemap" style="position: absolute; left: 35.1%; top: 28.4%; width: 30%; height: 2.3%;"><span class="imagemapname">Hydraulic Control Panel</span></div></a>
