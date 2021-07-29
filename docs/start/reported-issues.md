@@ -110,8 +110,8 @@ Using the "lbs" weight setting on the EFB may cause the following issues.
 - Freelook with mouse causes controls to freeze.
     - Workaround: Try setting `TOGGLE COCKPIT FREELOOK` to your mouse ++middle-button++. Reference: [MSFS Forum Post](https://forums.flightsimulator.com/t/freelook-with-mouse-causes-controls-to-freeze-after-su5/426349/15)
 
-- G1000 addon from marketplace is incompatible. 
-    - Workaround: Uninstall the addon for now.
+- G1000 addon (not from marketplace) may be incompatible. 
+    - Workaround: Uninstall the addon for now. See information at [top of page](reported-issues.md).
 
 - Cockpit decals flicker. *Under investigation*
 
