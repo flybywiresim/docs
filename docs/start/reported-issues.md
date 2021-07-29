@@ -89,6 +89,50 @@ Using the "lbs" weight setting on the EFB may cause the following issues.
 
 ### SU5 Issues
 
+#### General SU5 Issues
+
+!!! warning "Important Notice"
+    If you have the following issues you are **most likely on stable**:
+
+    - White EFB screen
+    - PFD is missing bank angle protection indicators
+    - `NOT IN DATABASE` MCDU error
+    - External lights are not working
+
+    Go to your content manager and find our aicraft. If you see the following image:
+
+    ![content manager image](https://media.discordapp.net/attachments/828975068947939368/870365130335088660/unknown.png?width=1440&height=123)
+
+    Uninstall it and restart the sim. Reinstall development verison from our installer. 
+
+    This information is stated on [Installation Guide](installation.md).
+
+- Freelook with mouse causes controls to freeze.
+    - Workaround: Try setting `TOGGLE COCKPIT FREELOOK` to your mouse ++middle-button++. Reference: [MSFS Forum Post](https://forums.flightsimulator.com/t/freelook-with-mouse-causes-controls-to-freeze-after-su5/426349/15)
+
+- G1000 addon from marketplace is incompatible. 
+    - Workaround: Uninstall the addon for now.
+
+- Cockpit decals flicker. *Under investigation*
+
+- ND Terrain does not appear. *[Under investigation #5440](https://github.com/flybywiresim/a32nx/issues/5440)*
+
+- Strobe light function may be reversed (Set to `OFF` but lights on) when starting on the runway. *Under investigation*
+    - Workaround: Start cold and dark at the gate.
+
+- TCA (Thrustmaster) hardware - can't start engine
+    - Open the controls menu
+        - REMOVE the below:
+            - “Toggle Engine 2 Fuel Valve” - Set to Joystick Button 4
+            - “Toggle Engine 1 Fuel Valve” - Set to Joystick Button 3
+        - KEEP the below:
+            - “Set Engine 2 Fuel Valve” - Set to Joystick Button 4
+            - “Set Engine 1 Fuel Valve” - Set to Joystick Button 3
+
+  ![throttle config image](https://cdn.discordapp.com/attachments/754130199804772372/869697814458945546/unknown.png)
+
+#### Altitude Issues
+
 The effects of non-standard day pressure and temperature on altitude in MSFS is inaccurate for SU5 affecting the following:
 
 - Airplane altitude provided to ATC from the airplane transponder will not correlate correctly with the airplane indicated on the airplane's altimeter. VATSIM / IVAO will see MSFS airplanes at a different altitude than what the pilots see.
@@ -99,23 +143,6 @@ The effects of non-standard day pressure and temperature on altitude in MSFS is 
 
 - The built-in MSFS ATC will experience the same altitude issues - you may see FL390 on your altimeter, but the ATC will see you at a different altitude.
 
-- Cockpit decals flicker. *Under investigation*
-
-- ND Terrain does not appear. *[Under investigation #5440](https://github.com/flybywiresim/a32nx/issues/5440)*
-
-- Strobe light function may be reversed (Set to `OFF` but lights on) when starting on the runway. *Under investigation*
-    - Workaround: Start cold and dark at the gate.
-    
-- TCA (Thrustmaster) hardware - can't start engine
-    - Open the controls menu 
-        - REMOVE the below:
-            - “Toggle Engine 2 Fuel Valve” - Set to Joystick Button 4
-            - “Toggle Engine 1 Fuel Valve” - Set to Joystick Button 3
-        - KEEP the below:
-            - “Set Engine 2 Fuel Valve” - Set to Joystick Button 4
-            - “Set Engine 1 Fuel Valve” - Set to Joystick Button 3
-        
-    ![throttle config image](https://cdn.discordapp.com/attachments/754130199804772372/869697814458945546/unknown.png)
 
 #### FCU Heading Knob
 
@@ -130,7 +157,8 @@ On the first load of the A32NX the heading knob push/pull may not work.
     - Go to Menu
     - General Options
     - Accessibility
-    - Select `legacy`
+    - Find the `Cockpit Interaction System` setting
+    - Change to `legacy`
     
 Using **New** Cockpit Interaction System
 
@@ -246,8 +274,16 @@ Crash to desktop (CTD) can either be a sim issue or a conflict with the A32NX. T
 4. Try downloading the bat file that is in the pinned messages, run it to clean up background files.
 5. Run without live weather and/or live traffic.
 6. Delete your rolling cache in the sim and create a new one.
-7. Delete any manual cache in the sim and create new ones. 
-8. Visit and read the [MSFS Known Issues Page](https://flightsimulator.zendesk.com/hc/en-us/articles/360016027399-KNOWN-ISSUES-Last-update-July-28-2021-) OR [MSFS Troubleshooting & Support](https://flightsimulator.zendesk.com/hc/en-us/sections/360004475200-Troubleshooting-Support-Windows-10-PC)
+7. Delete any manual cache in the sim and create new ones.
+8. Run the game as Administrator.
+9. Visit and read the [MSFS Known Issues Page](https://flightsimulator.zendesk.com/hc/en-us/articles/360016027399-KNOWN-ISSUES-Last-update-July-28-2021-) OR [MSFS Troubleshooting & Support](https://flightsimulator.zendesk.com/hc/en-us/sections/360004475200-Troubleshooting-Support-Windows-10-PC)
+
+!!! warning "Peripherals"
+    This is an important snippet from MSFS known issues.
+
+    If you are getting CTDs, it could be one of your peripherals disconnecting sometime during the flight, which then causes the sim to CTD. 
+
+    It could be anything from a usb drive to a controller. Please try to minimise how many peripherals you have connected.
 
 ---
 
