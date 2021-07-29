@@ -6,8 +6,8 @@ Back to [Flight Deck](../flight-deck.md)
 
 ---
 
-![Flight Control Panel - Left](../../assets/a32nx-briefing/overhead-panel/Flight-Computers-1.png "Flight Control Panel - Left")
-![Flight Control Panel - Right](../../assets/a32nx-briefing/overhead-panel/Flight-Computers-2.png "Flight Control Panel - Right")
+![Flight Control Panel - Left](../../../assets/a32nx-briefing/overhead-panel/Flight-Computers-1.png "Flight Control Panel - Left")
+![Flight Control Panel - Right](../../../assets/a32nx-briefing/overhead-panel/Flight-Computers-2.png "Flight Control Panel - Right")
 
 - ELAC 
     - Normally ELAC 1 commands the operation of the ailerons and ELAC 2 commands the operation of the elevators and horizontal stabilizer. ELAC 1 and 2 perform the following:

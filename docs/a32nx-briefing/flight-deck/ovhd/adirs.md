@@ -6,7 +6,7 @@ Back to [Flight Deck](../flight-deck.md)
 
 ---
 
-![ADIRS Panel](../../assets/a32nx-briefing/overhead-panel/ADIRS.png "ADIRS Panel")
+![ADIRS Panel](../../../assets/a32nx-briefing/overhead-panel/ADIRS.png "ADIRS Panel")
 
 ##Description
 
