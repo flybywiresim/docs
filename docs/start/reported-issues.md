@@ -141,7 +141,8 @@ On the first load of the A32NX the heading knob push/pull may not work.
     - Go to Menu
     - General Options
     - Accessibility
-    - Select `legacy`
+    - Find the `Cockpit Interaction System` setting
+    - Change to `legacy`
     
 Using **New** Cockpit Interaction System
 
