@@ -91,6 +91,9 @@ Using the "lbs" weight setting on the EFB may cause the following issues.
 
 #### General SU5 Issues
 
+- G1000 addon from marketplace is incompatible. 
+    - Workaround: Uninstall the addon for now.
+
 - Cockpit decals flicker. *Under investigation*
 
 - ND Terrain does not appear. *[Under investigation #5440](https://github.com/flybywiresim/a32nx/issues/5440)*
