@@ -89,6 +89,28 @@ Using the "lbs" weight setting on the EFB may cause the following issues.
 
 ### SU5 Issues
 
+#### General SU5 Issues
+
+- Cockpit decals flicker. *Under investigation*
+
+- ND Terrain does not appear. *[Under investigation #5440](https://github.com/flybywiresim/a32nx/issues/5440)*
+
+- Strobe light function may be reversed (Set to `OFF` but lights on) when starting on the runway. *Under investigation*
+    - Workaround: Start cold and dark at the gate.
+
+- TCA (Thrustmaster) hardware - can't start engine
+    - Open the controls menu
+        - REMOVE the below:
+            - “Toggle Engine 2 Fuel Valve” - Set to Joystick Button 4
+            - “Toggle Engine 1 Fuel Valve” - Set to Joystick Button 3
+        - KEEP the below:
+            - “Set Engine 2 Fuel Valve” - Set to Joystick Button 4
+            - “Set Engine 1 Fuel Valve” - Set to Joystick Button 3
+
+  ![throttle config image](https://cdn.discordapp.com/attachments/754130199804772372/869697814458945546/unknown.png)
+
+#### Altitude Issues
+
 The effects of non-standard day pressure and temperature on altitude in MSFS is inaccurate for SU5 affecting the following:
 
 - Airplane altitude provided to ATC from the airplane transponder will not correlate correctly with the airplane indicated on the airplane's altimeter. VATSIM / IVAO will see MSFS airplanes at a different altitude than what the pilots see.
@@ -99,23 +121,6 @@ The effects of non-standard day pressure and temperature on altitude in MSFS is 
 
 - The built-in MSFS ATC will experience the same altitude issues - you may see FL390 on your altimeter, but the ATC will see you at a different altitude.
 
-- Cockpit decals flicker. *Under investigation*
-
-- ND Terrain does not appear. *[Under investigation #5440](https://github.com/flybywiresim/a32nx/issues/5440)*
-
-- Strobe light function may be reversed (Set to `OFF` but lights on) when starting on the runway. *Under investigation*
-    - Workaround: Start cold and dark at the gate.
-    
-- TCA (Thrustmaster) hardware - can't start engine
-    - Open the controls menu 
-        - REMOVE the below:
-            - “Toggle Engine 2 Fuel Valve” - Set to Joystick Button 4
-            - “Toggle Engine 1 Fuel Valve” - Set to Joystick Button 3
-        - KEEP the below:
-            - “Set Engine 2 Fuel Valve” - Set to Joystick Button 4
-            - “Set Engine 1 Fuel Valve” - Set to Joystick Button 3
-        
-    ![throttle config image](https://cdn.discordapp.com/attachments/754130199804772372/869697814458945546/unknown.png)
 
 #### FCU Heading Knob
 
