@@ -97,6 +97,7 @@ Using the "lbs" weight setting on the EFB may cause the following issues.
     - White EFB screen
     - PFD is missing bank angle protection indicators
     - `NOT IN DATABASE` MCDU error
+    - External lights are not working
 
     Go to your content manager and find our aicraft. If you see the following image:
 
