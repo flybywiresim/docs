@@ -249,6 +249,13 @@ Crash to desktop (CTD) can either be a sim issue or a conflict with the A32NX. T
 7. Delete any manual cache in the sim and create new ones. 
 8. Visit and read the [MSFS Known Issues Page](https://flightsimulator.zendesk.com/hc/en-us/articles/360016027399-KNOWN-ISSUES-Last-update-July-28-2021-) OR [MSFS Troubleshooting & Support](https://flightsimulator.zendesk.com/hc/en-us/sections/360004475200-Troubleshooting-Support-Windows-10-PC)
 
+!!! warning "Peripherals"
+    This is an important snippet from MSFS known issues.
+
+    If you are getting CTDs, it could be one of your peripherals disconnecting sometime during the flight, which then causes the sim to CTD. 
+
+    It could be anything from a usb drive to a controller. Please try to minimise how many peripherals you have connected.
+
 ---
 
 ## Fixed Issues
