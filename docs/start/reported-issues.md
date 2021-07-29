@@ -258,8 +258,9 @@ Crash to desktop (CTD) can either be a sim issue or a conflict with the A32NX. T
 4. Try downloading the bat file that is in the pinned messages, run it to clean up background files.
 5. Run without live weather and/or live traffic.
 6. Delete your rolling cache in the sim and create a new one.
-7. Delete any manual cache in the sim and create new ones. 
-8. Visit and read the [MSFS Known Issues Page](https://flightsimulator.zendesk.com/hc/en-us/articles/360016027399-KNOWN-ISSUES-Last-update-July-28-2021-) OR [MSFS Troubleshooting & Support](https://flightsimulator.zendesk.com/hc/en-us/sections/360004475200-Troubleshooting-Support-Windows-10-PC)
+7. Delete any manual cache in the sim and create new ones.
+8. Run the game as Administrator.
+9. Visit and read the [MSFS Known Issues Page](https://flightsimulator.zendesk.com/hc/en-us/articles/360016027399-KNOWN-ISSUES-Last-update-July-28-2021-) OR [MSFS Troubleshooting & Support](https://flightsimulator.zendesk.com/hc/en-us/sections/360004475200-Troubleshooting-Support-Windows-10-PC)
 
 !!! warning "Peripherals"
     This is an important snippet from MSFS known issues.
