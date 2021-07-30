@@ -166,7 +166,14 @@ Using **New** Cockpit Interaction System
 - Hold ++"Left Click"++ to lock to that control. Now your mouse will not affect any other controls or other mouse bindings.
 - Move the mouse left to turn the knob left, more it right to turn the knob right (with the ++"Left Click"++ held down)
 - You can also use the scroll wheel while holding ++"Left Click"++ down to turn the knob left or right.
-- To push a control in, lock to the control using ++"Left Click"++ and then ++"Right Click"++.
+- To push a control / knob in, lock to the control using ++"Left Click"++ and then ++"Right Click"++.
+- To pull a control / knob out, hold ++"Left Click"++ and then click your scroll wheel ++"Middle Mouse"++.
+    - Note: If you already use the ++"Middle Mouse"++ button to activate freelook this may not work. Check your keybinds so this feature does not conflict.
+    
+!!! warning ""
+    This list is based on our testing and feedback. For more information see the [MSFS Release Notes](https://forums.flightsimulator.com/t/microsoft-flight-simulator-available-today-on-xbox-series-x-s-and-xbox-game-pass/425795) - Cockpit Interactions. 
+
+    Direct your support questions and feedback of this feature to Asobo. 
     
 ---
 
