@@ -115,8 +115,6 @@ Using the "lbs" weight setting on the EFB may cause the following issues.
 
 - Cockpit decals flicker. *Under investigation*
 
-- ND Terrain does not appear. *[Under investigation #5440](https://github.com/flybywiresim/a32nx/issues/5440)*
-
 - Strobe light function may be reversed (Set to `OFF` but lights on) when starting on the runway. *Under investigation*
     - Workaround: Start cold and dark at the gate.
 
@@ -295,6 +293,8 @@ Crash to desktop (CTD) can either be a sim issue or a conflict with the A32NX. T
 ---
 
 ## Fixed Issues
+
+* ND Terrain does not appear. *[Fixed #5470](https://github.com/flybywiresim/a32nx/pull/5470)*
 
 * Turning off right PFD also disables left one. *Fixed*
 
