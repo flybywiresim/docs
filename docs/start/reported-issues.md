@@ -60,8 +60,6 @@ Using the "lbs" weight setting on the EFB may cause the following issues.
     
 ---
 
-* Turning off right PFD also disables left one. *Currently under investigation.*
-
 * Toolbar pushback addon may cause unwanted behavior and prevent use of nose wheel steering. 
     - Solution:
         - Remove the addon from your community folder or wait for developer to update. 
@@ -107,6 +105,8 @@ Using the "lbs" weight setting on the EFB may cause the following issues.
 
     This information is stated on [Installation Guide](installation.md).
 
+- Navigraph FMS Beta Users - If you are missing SID/STARs please delete and reinstall your navdata via the Navigraph Center and **restart** your simulator. 
+
 - Freelook with mouse causes controls to freeze.
     - Workaround: Try setting `TOGGLE COCKPIT FREELOOK` to your mouse ++middle-button++. Reference: [MSFS Forum Post](https://forums.flightsimulator.com/t/freelook-with-mouse-causes-controls-to-freeze-after-su5/426349/15)
 
@@ -114,8 +114,6 @@ Using the "lbs" weight setting on the EFB may cause the following issues.
     - Workaround: Uninstall the addon for now. See information at [top of page](reported-issues.md).
 
 - Cockpit decals flicker. *Under investigation*
-
-- ND Terrain does not appear. *[Under investigation #5440](https://github.com/flybywiresim/a32nx/issues/5440)*
 
 - Strobe light function may be reversed (Set to `OFF` but lights on) when starting on the runway. *Under investigation*
     - Workaround: Start cold and dark at the gate.
@@ -295,6 +293,10 @@ Crash to desktop (CTD) can either be a sim issue or a conflict with the A32NX. T
 ---
 
 ## Fixed Issues
+
+* ND Terrain does not appear. *[Fixed #5470](https://github.com/flybywiresim/a32nx/pull/5470)*
+
+* Turning off right PFD also disables left one. *Fixed*
 
 * Vertical speed indicator not working. *Fixed [PR #5398](https://github.com/flybywiresim/a32nx/pull/5398)*
 
