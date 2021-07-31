@@ -97,7 +97,7 @@ Using the "lbs" weight setting on the EFB may cause the following issues.
     - `NOT IN DATABASE` MCDU error
     - External lights are not working
 
-    Go to your content manager and find our aicraft. If you see the following image:
+    Go to your content manager and find our aircraft. If you see the following image:
 
     ![content manager image](https://media.discordapp.net/attachments/828975068947939368/870365130335088660/unknown.png?width=1440&height=123)
 
