@@ -28,7 +28,7 @@
     
     Do this before reporting bugs.
 
-FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim Version: 1.18.13.0*
+FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim Version: 1.18.14.0*
 
 *Last Update: {{git_revision_date_localized}}*
 
@@ -294,8 +294,11 @@ Crash to desktop (CTD) can either be a sim issue or a conflict with the A32NX. T
 
 ## Fixed Issues
 
+<<<<<<< HEAD
 * ND Terrain does not appear. *[Fixed #5470](https://github.com/flybywiresim/a32nx/pull/5470)*
 
+=======
+>>>>>>> moved PFD issue to fixed
 * Turning off right PFD also disables left one. *Fixed*
 
 * Vertical speed indicator not working. *Fixed [PR #5398](https://github.com/flybywiresim/a32nx/pull/5398)*
