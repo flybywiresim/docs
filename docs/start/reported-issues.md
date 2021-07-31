@@ -28,7 +28,7 @@
     
     Do this before reporting bugs.
 
-FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim Version: 1.18.13.0*
+FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim Version: 1.18.14.0*
 
 *Last Update: {{git_revision_date_localized}}*
 
@@ -97,7 +97,7 @@ Using the "lbs" weight setting on the EFB may cause the following issues.
     - `NOT IN DATABASE` MCDU error
     - External lights are not working
 
-    Go to your content manager and find our aicraft. If you see the following image:
+    Go to your content manager and find our aircraft. If you see the following image:
 
     ![content manager image](https://media.discordapp.net/attachments/828975068947939368/870365130335088660/unknown.png?width=1440&height=123)
 
@@ -105,13 +105,12 @@ Using the "lbs" weight setting on the EFB may cause the following issues.
 
     This information is stated on [Installation Guide](installation.md).
 
-- Navigraph FMS Beta Users - If you are missing SID/STARs please delete and reinstall your navdata via the Navigraph Center and **restart** your simulator. 
+- Navigraph FMS Beta Users - If you are missing SID/STARs please delete and reinstall your navdata via the Navigraph Center and **restart** your simulator.
+
+- **Intermittent / Single time event only** - Printing METAR reports may cause a CTD. Please report this to us on our Discord.  
 
 - Freelook with mouse causes controls to freeze.
     - Workaround: Try setting `TOGGLE COCKPIT FREELOOK` to your mouse ++middle-button++. Reference: [MSFS Forum Post](https://forums.flightsimulator.com/t/freelook-with-mouse-causes-controls-to-freeze-after-su5/426349/15)
-
-- G1000 addon (not from marketplace) may be incompatible. 
-    - Workaround: Uninstall the addon for now. See information at [top of page](reported-issues.md).
 
 - Cockpit decals flicker. *Under investigation*
 
@@ -276,7 +275,7 @@ Crash to desktop (CTD) can either be a sim issue or a conflict with the A32NX. T
 1. [Perform a clean install](installation.md#clean-install-steps) 
 2. Try without anything else installed in community.
 3. Try without FSUIPC OR update FSUIPC.
-4. Try downloading the bat file that is in the pinned messages, run it to clean up background files.
+4. Try downloading the bat file that is pinned in the #support channel on our [Discord](https://discord.gg/flybywire). Run it to clean up any FBW background files.
 5. Run without live weather and/or live traffic.
 6. Delete your rolling cache in the sim and create a new one.
 7. Delete any manual cache in the sim and create new ones.
@@ -295,7 +294,7 @@ Crash to desktop (CTD) can either be a sim issue or a conflict with the A32NX. T
 ## Fixed Issues
 
 * ND Terrain does not appear. *[Fixed #5470](https://github.com/flybywiresim/a32nx/pull/5470)*
-
+  
 * Turning off right PFD also disables left one. *Fixed*
 
 * Vertical speed indicator not working. *Fixed [PR #5398](https://github.com/flybywiresim/a32nx/pull/5398)*
