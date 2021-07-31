@@ -35,7 +35,7 @@ In Microsoft Flight Simulator the system is limited by what the simulator provid
 - This knob adjusts the sensitivity of the radar.
 
 !!! note ""
-    Currently not available in the FBW A32NX for for Microsoft Flight Simulator.
+    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
 
 ### MODE - Display mode selector
 
@@ -58,7 +58,7 @@ In Microsoft Flight Simulator the system is limited by what the simulator provid
 This allows tilting the radar antenna when MULTISCAN is MAN. Zero uses the horizon reference from the IRS.
 
 !!! note ""
-    Currently not available in the FBW A32NX for for Microsoft Flight Simulator.
+    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
 
 ### MULTISCAN
 
@@ -68,7 +68,7 @@ This allows tilting the radar antenna when MULTISCAN is MAN. Zero uses the horiz
     - Manually adjust radar antenna tilt using the TILT knob.
 
 !!! note ""
-    Currently not available in the FBW A32NX for for Microsoft Flight Simulator.
+    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
 
 ### GCS (Ground Clutter Suppression)
 
@@ -79,7 +79,7 @@ This allows tilting the radar antenna when MULTISCAN is MAN. Zero uses the horiz
     - Ground clutter is visible.
 
 !!! note ""
-    Currently not available in the FBW A32NX for for Microsoft Flight Simulator.
+    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
 
 ### PWS
 
@@ -89,7 +89,7 @@ This allows tilting the radar antenna when MULTISCAN is MAN. Zero uses the horiz
     - The Predictive WindShear function is off.
 
 !!! note ""
-    Currently not available in the FBW A32NX for for Microsoft Flight Simulator.
+    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
 
 ---
 

@@ -31,7 +31,7 @@ It contains Master Switches for each engine and also an Ignition Mode Switch for
     - The start valve opens, if the MAN START pushbutton switch is ON. Ignition does not fire.
 
     !!! note ""
-        Currently not available in the FBW A32NX for for Microsoft Flight Simulator.
+        Currently not available in the FBW A32NX for Microsoft Flight Simulator.
 
 ### ENG MASTER 1 + 2
 
@@ -49,7 +49,7 @@ It contains Master Switches for each engine and also an Ignition Mode Switch for
 - The fault light comes on when either the HP fuel shutoff valve is in an abnormal position or the automatic start sequence is aborted or there is a malfunction in the thrust control.
 
 !!! note ""
-    Currently not available in the FBW A32NX for for Microsoft Flight Simulator.
+    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
 
 ---
 
