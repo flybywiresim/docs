@@ -60,8 +60,6 @@ Using the "lbs" weight setting on the EFB may cause the following issues.
     
 ---
 
-* Turning off right PFD also disables left one. *Currently under investigation.*
-
 * Toolbar pushback addon may cause unwanted behavior and prevent use of nose wheel steering. 
     - Solution:
         - Remove the addon from your community folder or wait for developer to update. 
@@ -297,6 +295,8 @@ Crash to desktop (CTD) can either be a sim issue or a conflict with the A32NX. T
 ---
 
 ## Fixed Issues
+
+* Turning off right PFD also disables left one. *Fixed*
 
 * Vertical speed indicator not working. *Fixed [PR #5398](https://github.com/flybywiresim/a32nx/pull/5398)*
 
