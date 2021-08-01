@@ -1,8 +1,13 @@
+---
+hide:
+- navigation
+---
+
 # Ground Proximity Warning Panel
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 ---
 
@@ -37,4 +42,4 @@ There are two systems controlled by this panel
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }

@@ -1,8 +1,14 @@
+---
+hide:
+- navigation
+---
+
+
 # Wipers Panel - Left
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 ---
 
@@ -24,4 +30,4 @@ Each windshield is provided with two-speed electric wipers that are controlled b
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }

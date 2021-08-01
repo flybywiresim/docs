@@ -1,8 +1,13 @@
+---
+hide:
+- navigation
+---
+
 # Evacuation Panel
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 ---
 
@@ -27,4 +32,4 @@ The emergency evacuation signal system alerts the flight attendants to evacuate 
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }

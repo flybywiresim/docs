@@ -1,8 +1,13 @@
+---
+hide:
+    - navigation
+---
+
 # ADIRS Panel
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 ---
 
@@ -47,4 +52,4 @@ Abnormal operation:
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }

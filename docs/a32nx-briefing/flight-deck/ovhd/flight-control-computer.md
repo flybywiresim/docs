@@ -1,8 +1,13 @@
+---
+hide:
+- navigation
+---
+
 # Flight Control Panel - Left + Right
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 ---
 
@@ -36,4 +41,4 @@ Back to [Flight Deck](../flight-deck.md)
         - Wind shear detection
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
