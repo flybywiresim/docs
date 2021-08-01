@@ -13,9 +13,9 @@ hide:
 
 ![Outer Glareshield Panel](../../../assets/a32nx-briefing/glareshield/warning-panel.png "Outer Glareshield Panel")
 
-### Usage
+## Usage
 
-#### 1. SIDE STICK PRIORITY Lt
+### 1. SIDE STICK PRIORITY
 
 !!! note ""
     Note: Currently not available in the FBW A32NX for Microsoft Flight Simulator
@@ -32,18 +32,18 @@ hide:
     - Both lights flash will flash if the pilots are attempting to move both sidesticks at the same time and neither pilot takes priority.
     - If a pilot who has taken priority by using the TAKEOVER pb and the other pilot's sidestick is in motion or not neutral, the light of the pilot who has taken priority illuminates. It will extinguish when the opposing sidestick returns to the neutral position.
 
-#### 2. CHRONO Pushbutton
+### 2. CHRONO
 
 - Pushing this button shows the chronometer time on the respective ND.
 - Pushing it a second time will freeze the time.
 - Pushing it a third time will reset the chronometer, and the displayed value disappears from the ND.
 
-#### 3. MASTER WARN
+### 3. MASTER WARN
 
 - Illuminates and flashes red for a level 3 warning.
 - Provides an audible warning (repetitive charms, sounds, or a synthetic voice).
 
-#### 4. MASTER CAUTION
+### 4. MASTER CAUTION
 
 - Illuminates with a steady amber for a level 2 caution.
 - Provides a single audible chime.
@@ -61,7 +61,7 @@ The aural warnings terminate when:
 - The warning event is over.
 - Any pilot presses the EMER CANC pb on the ECAM control panel.
 
-#### 5.  AUTOLAND WARNING LIGHT
+### 5.  AUTOLAND WARNING LIGHT
 
 !!! note ""
 Note: Currently not available in the FBW A32NX for Microsoft Flight Simulator
@@ -73,7 +73,7 @@ Note: Currently not available in the FBW A32NX for Microsoft Flight Simulator
     - LDC signal lost above 15ft or loss of GLIDE signal when above 100ft. The flight director bars flash on the PFD and LAND mode remains engaged.
     - Difference of radio altimeter indications is more than 15ft.
 
-#### 6. ATC MSG
+### 6. ATC MSG
 
 !!! note ""
 Note: Currently not available in the FBW A32NX for Microsoft Flight Simulator
