@@ -60,6 +60,7 @@ theme:
     - navigation.instant
     - navigation.top
   favicon: assets/images/FBW-Tail.png
+  language: en
 
 # Plugins
 plugins:
@@ -93,6 +94,23 @@ extra:
     - icon: fontawesome/brands/youtube
       link: https://youtube.com/flybywiresimulations
       name: FlyByWire Simulations on Youtube
+  alternate:
+    # Switch to English
+    - name: English
+      link: /
+      lang: en
+    # Switch to German
+    - name: Deutsch
+      link: /de/
+      lang: de
+    # Switch to Swedish
+    - name: Swedish
+      link: /sv/
+      lang: sv
+    # Switch to Japanese
+    - name: 日本語
+      link: /ja/
+      lang: ja
 
 # Additional Markdown Extensions to use bundled icon sets
 markdown_extensions:
