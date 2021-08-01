@@ -17,9 +17,6 @@ hide:
 
 ### 1. SIDE STICK PRIORITY
 
-!!! note ""
-    Note: Currently not available in the FBW A32NX for Microsoft Flight Simulator
-
 - Red arrow light:
     - Illuminates in front of the pilot who is losing authority.
     - Light extinguishes if the pilot has recovered authority.
@@ -31,6 +28,9 @@ hide:
 - Green CAPT and F/O lights :
     - Both lights flash will flash if the pilots are attempting to move both sidesticks at the same time and neither pilot takes priority.
     - If a pilot who has taken priority by using the TAKEOVER pb and the other pilot's sidestick is in motion or not neutral, the light of the pilot who has taken priority illuminates. It will extinguish when the opposing sidestick returns to the neutral position.
+
+!!! note ""
+    Note: Currently not available in the FBW A32NX for Microsoft Flight Simulator
 
 ### 2. CHRONO
 
@@ -63,9 +63,6 @@ The aural warnings terminate when:
 
 ### 5.  AUTOLAND WARNING LIGHT
 
-!!! note ""
-Note: Currently not available in the FBW A32NX for Microsoft Flight Simulator
-
 - The events below trigger a flashing AUTOLAND red warning accompanied by a triple click audio warning when the aircraft is below 200ft RA and aircraft is in LAND mode:
 
     - AP1 and AP2 OFF below 200ft RA
@@ -73,12 +70,15 @@ Note: Currently not available in the FBW A32NX for Microsoft Flight Simulator
     - LDC signal lost above 15ft or loss of GLIDE signal when above 100ft. The flight director bars flash on the PFD and LAND mode remains engaged.
     - Difference of radio altimeter indications is more than 15ft.
 
+!!! note ""
+    Note: Currently not available in the FBW A32NX for Microsoft Flight Simulator
+
 ### 6. ATC MSG
 
-!!! note ""
-Note: Currently not available in the FBW A32NX for Microsoft Flight Simulator
-
 - Will flash when an ATC message is received via the CPDLC (Controller-Pilot Data Link Communication), accompanied by an alarm. This notification can be cancelled by pressing the "ATC MSG" pb
+
+!!! note ""
+    Note: Currently not available in the FBW A32NX for Microsoft Flight Simulator
 
 ---
 
