@@ -43,7 +43,7 @@ We begin by looking down at the **bottom pedestal**.
 
 This is how the pedestal should look like:
 
-![Pedestal](../assets/beginner-guide/starting-aircraft/Pedestal.png "Pedestal")
+![Pedestal](../assets/beginner-guide/starting-aircraft/Pedestal.png "Pedestal"){loading=lazy}
 
 We then direct our attention to the **main panel** and make sure the following is set:
 
@@ -53,7 +53,7 @@ Then we look up at the **overhead panel**. Make sure the following are in the se
 
 - Wiper selectors are in the `OFF` position
 
-![Wiper Switch](../assets/beginner-guide/starting-aircraft/wiper-switch.png "Wiper Switch")
+![Wiper Switch](../assets/beginner-guide/starting-aircraft/wiper-switch.png "Wiper Switch"){loading=lazy}
 
 ---
 
@@ -68,23 +68,23 @@ To give power to the aircraft we will use the "Ground Power Unit". If ground pow
 === "Ground Power"
     If ground power is available, we should see a green `AVAIL` light on the `EXT PWR` button. Push on this button to give power to the aircraft.
 
-    ![GPU](../assets/beginner-guide/starting-aircraft/gpuoff.png)
+    ![GPU](../assets/beginner-guide/starting-aircraft/gpuoff.png){loading=lazy}
 
 === "APU"
     If ground power isn't available, we turn on the APU. To do this, we simply push on the APU `MASTER SW` and `START`. The APU should be on within one minute.
 
-    ![APU Start](../assets/beginner-guide/after-landing/APU-Start.png "APU Start"){width=25%}
+    ![APU Start](../assets/beginner-guide/after-landing/APU-Start.png "APU Start"){loading=lazy width=25%}
 
 After powering the aircraft, we turn on the crew oxygen supply by pushing on the button, diminishing the white `OFF` light.
 
-![Crew Oxygen](../assets/beginner-guide/starting-aircraft/crewoxyhighlight.png "Crew Oxygen")
+![Crew Oxygen](../assets/beginner-guide/starting-aircraft/crewoxyhighlight.png "Crew Oxygen"){loading=lazy}
 
 ### ADIRS alignment
 
 To align the Inertial Reference System (or IRS), we turn the 3 knobs to the `NAV` position. This will then start the IRS alignment for which we can view the progress on the ECAM display.
 
-![IRS alignment overhead](../assets/beginner-guide/starting-aircraft/adirsaligned.png)<br/>
-![ECAM IRS](../assets/beginner-guide/starting-aircraft/ecamirs.png)
+![IRS alignment overhead](../assets/beginner-guide/starting-aircraft/adirsaligned.png){loading=lazy}<br/>
+![ECAM IRS](../assets/beginner-guide/starting-aircraft/ecamirs.png){loading=lazy}
 
 ### Lighting
 
@@ -94,7 +94,7 @@ To indicate that the aircraft is powered from the exterior, we turn on the `NAV 
 
 Following this, we set the `STROBE` light to the `AUTO` position.
 
-![Exterior Lights](../assets/beginner-guide/starting-aircraft/exterior-lighting.png)
+![Exterior Lights](../assets/beginner-guide/starting-aircraft/exterior-lighting.png){loading=lazy}
 
 #### Cockpit
 
@@ -112,11 +112,11 @@ To arm the emergency exit lights, simply put the switch in the `ARM` position.Th
 
 Looking up just a bit we find the `LDG ELEV` knob. This simply means the landing elevation which should be in the `AUTO` position.
 
-![3 Panels](../assets/beginner-guide/starting-aircraft/signslights.png)
+![3 Panels](../assets/beginner-guide/starting-aircraft/signslights.png){loading=lazy}
 
 Managing the temperatures of the cabin is necessary as well. Simply rotate the 3 knobs as needed.
 
-![Air Conditioning](../assets/beginner-guide/starting-aircraft/aircond.png "Air Conditioning")
+![Air Conditioning](../assets/beginner-guide/starting-aircraft/aircond.png "Air Conditioning"){loading=lazy}
 
 ### Hydraulic and Fuel section
 
@@ -127,7 +127,7 @@ Looking up at the **hydraulic panel**, we ensure that there are no white lights 
 
 Just below the hydraulic panel, we find the **fuel panel**. Turn on all 6 fuel pumps until the white `OFF` light is no longer visible.
 
-![Fuel Pumps](../assets/beginner-guide/starting-aircraft/fuelpumps.png "Fuel Pumps")
+![Fuel Pumps](../assets/beginner-guide/starting-aircraft/fuelpumps.png "Fuel Pumps"){loading=lazy}
 
 ---
 
@@ -139,15 +139,15 @@ The brightness for each display can be adjusted to make them better readable.
 
 For the PFD and ND, the knobs are in the same location. Look left (or right when in  first officer seat) of the PFD and find the brightness knobs for them. Simply turn both knobs as required.
 
-![PFD and ND brightness](../assets/beginner-guide/starting-aircraft/pfdndbright.png)
+![PFD and ND brightness](../assets/beginner-guide/starting-aircraft/pfdndbright.png){loading=lazy}
 
 For the ECAM upper and lower display, look just in front of the throttles and find the brightness knobs. Just like the PFD and ND knobs, rotate them as required.
 
-![ECAM brightness](../assets/beginner-guide/starting-aircraft/ecam-knobs.png "ECAM brightness")
+![ECAM brightness](../assets/beginner-guide/starting-aircraft/ecam-knobs.png "ECAM brightness"){loading=lazy}
 
 For the ISIS display brightness (just left of the upper ECAM), use the `+` and `-` buttons until the brightness is suitable. While we are at the ISIS display, set the current QNH.
 
-![ISIS](../assets/beginner-guide/starting-aircraft/isis.png)
+![ISIS](../assets/beginner-guide/starting-aircraft/isis.png){loading=lazy}
 
 ---
 
@@ -155,7 +155,7 @@ For the ISIS display brightness (just left of the upper ECAM), use the `+` and `
 
 Looking down at the **radio panel**, set the `RMP 1` to the active **ATIS** frequency and set the standby frequency to the **ground** frequency.
 
-![Radio Panel](../assets/beginner-guide/starting-aircraft/radiopanel.png "Radio Panel"){ width=70% }
+![Radio Panel](../assets/beginner-guide/starting-aircraft/radiopanel.png "Radio Panel"){ loading=lazy width=70% }
 
 After setting correct frequencies, locate the `BARO` reference on the **glareshield**. We can set the barometer to either `inHg` or `hPa` by turning the grey inner selector behind the knob. For this flight ensure that we are set to `QNH`. This can be changed by "pushing" on the BARO knob (the tooltip will have an upwards arrow).
 
@@ -168,7 +168,7 @@ After setting correct frequencies, locate the `BARO` reference on the **glareshi
 
 Just below the barometer reference, turn on the `FD`. A green light indicates it has been turned on.
 
-![efis control](../assets/beginner-guide/starting-aircraft/EFIS-Control.png){ width=90% }
+![efis control](../assets/beginner-guide/starting-aircraft/EFIS-Control.png){ loading=lazy width=90% }
 
 ### ECAM Fuel Page
 
@@ -176,13 +176,13 @@ Verify that on the ECAM fuel page that your aircraft has enough fuel for the fli
 
 If we do not have enough fuel for the flight we can refuel via Microsoft Flight Simulator's hovering menu bar or through the flyPad.
 
-![flyPad Fuel](../assets/beginner-guide/starting-aircraft/flypadfuel.png)
+![flyPad Fuel](../assets/beginner-guide/starting-aircraft/flypadfuel.png){loading=lazy}
 
 ---
 
 At this point we would have completed 5/7 task on the `Before Start` section on the FlyByWire A32NX checklist.
 
-![Before Start Checklist](../assets/beginner-guide/starting-aircraft/beforestart.png)
+![Before Start Checklist](../assets/beginner-guide/starting-aircraft/beforestart.png){loading=lazy}
 
 This concludes the *Starting the Aircraft* guide.
 
