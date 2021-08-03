@@ -63,7 +63,7 @@ If we want to actually do a turn around and start a new flight directly the proc
 
 - `NOSE TAXI` and `RWY TURN OFF` lights are usually turned off even before we turn into the gate to not blind the ground personnel. This of course is only done if enough lighting is available to safely park into the gate. Turn them off if they were used to assist in parking.
 
-    ![Taxilights off](../assets/beginner-guide/powering-down/Lights-Taxi-off.png "Taxilights off"){loading=lazy width=50%}
+    ![Taxilights off](../assets/beginner-guide/powering-down/Lights-Taxi-off.png "Taxilights off"){loading=lazy }
 
 - Turn on `APU BLEED` before we turn off the engines.
 
@@ -71,7 +71,7 @@ If we want to actually do a turn around and start a new flight directly the proc
 
 - Shut down the engines by setting the `ENG 1` and `ENG 2` master switches to off.
 
-    ![Engines off](../assets/beginner-guide/powering-down/ENG-off.png "Engines off"){loading=lazy width=50%}
+    ![Engines off](../assets/beginner-guide/powering-down/ENG-off.png "Engines off"){loading=lazy }
 
 - Wait until `N1` is below 5%.
 
@@ -147,7 +147,7 @@ This concludes *Disembarking Passengers and Baggage*.
 
 - Turn off emergency exit lights `EMER EXIT LT` and no smoking lights `NO SMOKING`.
 
-    ![Signs off](../assets/beginner-guide/powering-down/SIGNS-Off.png "Signs off"){loading=lazy width=50%}
+    ![Signs off](../assets/beginner-guide/powering-down/SIGNS-Off.png "Signs off"){loading=lazy}
 
 - Optional or depending on airline SOPs: Reset air conditioning, lighting and screen brightness.
 - Turn off `APU MASTER` (expect the APU to still be AVAIL for a few minutes if you also had APU Bleed on shortly before as it needs a cool down period).
