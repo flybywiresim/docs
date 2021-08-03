@@ -69,7 +69,7 @@ Contact ground ATC and inform them you are ready for push and start. If you are 
 
 At this point we may begin pushback away from the terminal onto the taxiway Alpha 3.
 
-![parking stands](../assets/beginner-guide/taxi/parking-stands-guidelines.png)
+![parking stands](../assets/beginner-guide/taxi/parking-stands-guidelines.png){loading=lazy}
 <sub>Copyright © 2021 Navigraph / Jeppesen<br>
 "Navigraph Charts are intended for flight simulation use only, not for navigational use."
 
@@ -80,7 +80,7 @@ At this point we may begin pushback away from the terminal onto the taxiway Alph
 For the purposes of this guide we will use the default MSFS pushback controls built into ATC.
 
 1. Open the ATC menu using the toolbar at the top of your screen.
-   ![atc toolbar](../assets/beginner-guide/taxi/toolbar.png)
+   ![atc toolbar](../assets/beginner-guide/taxi/toolbar.png){loading=lazy}
 2. Locate `GROUND SERVICES` and select it.
 3. Select `REQUEST PUSHBACK`.
     - You should hear your virtual pilot request pushback and ATC respond confirming. At this time the pushback tug should slowly make its way to your nose wheel.
@@ -102,7 +102,7 @@ Once we are clear of the terminal and/or the ground crew has notified the flight
 
 Start the chronometer above the ND to help monitor the start up time of the engines.
 
-![chrono button](../assets/beginner-guide/taxi/chrono.png)
+![chrono button](../assets/beginner-guide/taxi/chrono.png){loading=lazy}
 
 !!! info "Using the Chronometer"
     The chrono button has three states depending on how many times you have pushed the button:
@@ -180,7 +180,7 @@ Complete the after start flow:
 
 Perform the AFTER START checklist.
 
-![after start checklist](../assets/beginner-guide/taxi/afterstart.png)
+![after start checklist](../assets/beginner-guide/taxi/afterstart.png){loading=lazy}
 
 ---
 
@@ -206,7 +206,7 @@ Move the rudders and pay attention to the rudder symbol to ensure it moves all t
 
 **Sidestick right full deflection:**
 
-![fctl](../assets/beginner-guide/taxi/f-ctl.png)
+![fctl](../assets/beginner-guide/taxi/f-ctl.png){loading=lazy}
 
 ---
 
@@ -229,7 +229,7 @@ After having successfully started the engines we can contact ATC to request taxi
 
 Referencing the airport chart below, the aircraft should be sitting on the Alpha taxiway near the Alpha 3 holding point. Luckily today our clearance is quite simple and we only have to taxi straight ahead and hold at Alpha 2.
 
-![airport chart](../assets/beginner-guide/taxi/airport-chart-guidelines.png)
+![airport chart](../assets/beginner-guide/taxi/airport-chart-guidelines.png){loading=lazy}
 <sub>Copyright © 2021 Navigraph / Jeppesen<br>
 "Navigraph Charts are intended for flight simulation use only, not for navigational use."
 
@@ -244,7 +244,7 @@ Exterior Lights:
 - RWY TURN OFF - `Set to ON`
 - NOSE - `Set to Taxi`
 
-![exterior lights](../assets/beginner-guide/taxi/taxi-lights.png){ width=60% }
+![exterior lights](../assets/beginner-guide/taxi/taxi-lights.png){loading=lazy width=60%}
 
 Before Moving Safety Check:
 
@@ -297,7 +297,7 @@ Perform the following:
     - If ATC requires a specific heading after takeoff, preset the heading on the FCU. NAV mode will be disarmed and RWY TRK mode will keep the aircraft on the runway track.
 
 This is the FCU (more details are provided in the [Take off, Climb, and Cruise Guide](takeoff-climb-cruise.md)):
-![FCU image](../assets/beginner-guide/taxi/FCU.png)
+![FCU image](../assets/beginner-guide/taxi/FCU.png){loading=lazy}
 
 - BOTH FD (*flight directors*) - `Check on`
 - PFD/ND - `Check`
@@ -312,13 +312,13 @@ This is the FCU (more details are provided in the [Take off, Climb, and Cruise G
 
 The weather panel is located on the bottom left of the lower pedestal and looks like the following:
 
-![weather panel](../assets/beginner-guide/taxi/wx-radar-panel.png)
+![weather panel](../assets/beginner-guide/taxi/wx-radar-panel.png){loading=lazy}
 
 - ATC code/mode - `Confirm/Set for Takeoff`
 - TERR ON ND - `As RQRD`
 - AUTO BRK MAX pb-sw - `On`
 
-![auto brake](../assets/beginner-guide/taxi/auto-brk.png){: style="width:462px;height:350px;" }
+![auto brake](../assets/beginner-guide/taxi/auto-brk.png){ loading=lazy style="width:462px;height:350px;" }
 
 !!! info "Getting Ready for Take off"
     At this point in the guide you should have performed many of the essential flow items before you line up at the runway. The next guide [Take off, Climb, and Cruise](takeoff-climb-cruise.md) will instruct you on performing your final checks and before take off checklist.
@@ -398,13 +398,13 @@ There are two types of signage at airports - operational guidance signs and mand
 
 - Black text on a yellow background. These will have an arrow indicating direction to turn which helps pilots identify what taxiways they are approaching or runway exits towards a specified runway.
 
-    ![signs1](https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Ben_Gurion_International_Airport_taxiway_signs.JPG/640px-Ben_Gurion_International_Airport_taxiway_signs.JPG)
+    ![signs1](https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Ben_Gurion_International_Airport_taxiway_signs.JPG/640px-Ben_Gurion_International_Airport_taxiway_signs.JPG){loading=lazy}
 
 ^^Stop Bar Signs^^
 
 - White text on a blue background. These are non-standard signs that may appear at some airports usually indicating which taxiway a stop bar is positioned. Airports usually use more conventional traffic signs you may see on the road such a regular stop sign. See the [FAA Guide](#faa-quick-reference-guide) for samples.
 
-    ![signs2](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Ben_Gurion_International_Airport_4_taxiway_signs.JPG/639px-Ben_Gurion_International_Airport_4_taxiway_signs.JPG)
+    ![signs2](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Ben_Gurion_International_Airport_4_taxiway_signs.JPG/639px-Ben_Gurion_International_Airport_4_taxiway_signs.JPG){loading=lazy}
 
 #### Mandatory Instruction Signs
 
@@ -419,19 +419,19 @@ There are typically three very important holding position signs / markings that 
 1. Runway Holding Position
     - Two sets of solid yellow lines and two sets of dashed yellow lines indicate a holding position for a runway ahead. These **must never be crossed** without express permission from ATC.
 
-        ![holding position](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Holding_position_runway.svg/320px-Holding_position_runway.svg.png)
+        ![holding position](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Holding_position_runway.svg/320px-Holding_position_runway.svg.png){loading=lazy}
 
         <sub> "Holding position markings pattern A ahead of a crossing runway" by Claudius Henrichs [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0)
 
 2. Taxiway Holding Position
     - Single dashed yellow line. If this is present along your taxi route it will indicate a position that ground control may request you stop and hold short prior to another taxiway.
 
-        ![taxiway hold](../assets/beginner-guide/taxi/taxiway-hold.png){: style="width:320px;height:79px" }
+        ![taxiway hold](../assets/beginner-guide/taxi/taxiway-hold.png){ loading=lazy style="width:320px;height:79px" }
 
 3. ILS Critical Area
     - Solid yellow lines that look like a railroad or ladder. These are another form of hold short point but indicate a critical area where your aircraft would violate the ILS approach airspace while on the ground.
 
-        ![ils critical](../assets/beginner-guide/taxi/ils-critical.png)
+        ![ils critical](../assets/beginner-guide/taxi/ils-critical.png){loading=lazy}
 
 ---
 
@@ -444,7 +444,7 @@ There are usually two types of lighting on taxiways - centerline and edge. Depen
 - Centerline lighting is green on the principal taxiways located along the taxiway centerline. These lights can alternate between green and yellow when a taxiway crosses a runway or highlight a "lead-off" taxiway from a runway to join a taxiway.
 - Edge lighting is typically blue and characteristically appears at the edges of a taxiway. Spacing can range from 50 - 200ft apart usually condensing in distance when approaching an intersection.
 
-![taxiway lights](https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/ATL_TWY_B_-_RWY_Crossing_%2813534655025%29.jpg/640px-ATL_TWY_B_-_RWY_Crossing_%2813534655025%29.jpg)
+![taxiway lights](https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/ATL_TWY_B_-_RWY_Crossing_%2813534655025%29.jpg/640px-ATL_TWY_B_-_RWY_Crossing_%2813534655025%29.jpg){loading=lazy}
 
 <sub>John Murphy, [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0)</sub>
 
