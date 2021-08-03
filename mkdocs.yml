@@ -29,9 +29,9 @@ nav:
       - Understanding Altitude References: airliner-flying-guide/altitude-refs.md
       - METARs/TAFs/ATIS: airliner-flying-guide/weather.md
   - A32NX Briefing for Sim-Pilots:
-      - Overview: a32nx-briefing/overview.md
-      - Flight Deck: a32nx-briefing/flight-deck/flight-deck.md
-      - ECAM: a32nx-briefing/ecam/ecam.md
+      - Overview: a32nx-briefing/index.md
+      - Flight Deck: a32nx-briefing/flight-deck/index.md
+      - ECAM: a32nx-briefing/ecam/index.md
 #      - EFIS PFD: a32nx-briefing/efis/pfd.md
 #      - EFIS ND: a32nx-briefing/efis/nd.md
 #      - MCDU: a32nx-briefing/mcdu/mcdu.md
@@ -52,10 +52,10 @@ nav:
 #      - Maintenance Centralized Fault Display System: a32nx-briefing/tbd.md
 #      - General: a32nx-briefing/tbd.md
   - Development Projects:
-      - Overview: development-projects/overview.md
+      - Overview: development-projects/index.md
       - Website: development-projects/website.md
   - A32NX Development:
-      - Overview: a32nx-dev/overview.md
+      - Overview: a32nx-dev/index.md
   - Donate: donate.md
 
 # Configuration
