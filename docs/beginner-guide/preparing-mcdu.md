@@ -76,13 +76,13 @@ During the course of this guide we will be referring to a few key terms which ar
 * Left hand keys are referenced (in descending order) as `LSK1L - LSK6L`.
 * Right hand keys are referenced (in descending order) as `LSK1R - LSK6R`.
 
-![mcdu1](../assets/beginner-guide/mcdu/mcdu1.png)
+![mcdu1](../assets/beginner-guide/mcdu/mcdu1.png){loading=lazy}
 
 ### Slew Keys
 
 These keys are referenced below.
 
-![mcdu1a](../assets/beginner-guide/mcdu/mcdu1a.png){ align = right }
+![mcdu1a](../assets/beginner-guide/mcdu/mcdu1a.png){loading=lazy}
 
 !!! info
 
@@ -139,7 +139,7 @@ DATA includes the pages below:
   * Once this is in the scratch pad press LSK1R.
   * This following screen would show "company routes". Since there are none stored select `Return` using LSK6L.
 
-![mcdu5](../assets/beginner-guide/mcdu/mcdu5.png)
+![mcdu5](../assets/beginner-guide/mcdu/mcdu5.png){loading=lazy}
 
 ^^FLT NBR^^
 
@@ -148,7 +148,7 @@ DATA includes the pages below:
 
 ^^COST INDEX^^
 
-![ofp1](../assets/beginner-guide/mcdu/ofp1.png)
+![ofp1](../assets/beginner-guide/mcdu/ofp1.png){loading=lazy}
 
 The cost index can be found in the image above.
 
@@ -157,7 +157,7 @@ The cost index can be found in the image above.
 
 ^^CRZ FL/TEMP^^
 
-![ofp2](../assets/beginner-guide/mcdu/ofp2.png)
+![ofp2](../assets/beginner-guide/mcdu/ofp2.png){loading=lazy}
 
 Input the desired cruise flight level in this field. On our OFP this is listed as `0220` or `FL220`.
 
@@ -175,7 +175,7 @@ Our route for this flight can be found on the 2nd page of the OFP
 !!! info "Routing Disclaimer"
     Note, that waypoints, STARs, and SIDs may be called differently due to different nav-databases or different AIRAC cycles between simBrief and the simulator.
 
-![ofp3](../assets/beginner-guide/mcdu/ofp3.png)
+![ofp3](../assets/beginner-guide/mcdu/ofp3.png){loading=lazy}
 
 `EGFF/30 BCN1A BCN N864 MONTY MIRSI1A EGCC/05R`
 
@@ -197,7 +197,7 @@ To program the Standard Instrument Departure (SID):
 
 The MCDU should now show at the top of the screen in yellow what is selected for our departure from EGFF.
 
-![mcdu8](../assets/beginner-guide/mcdu/mcdu8.png)
+![mcdu8](../assets/beginner-guide/mcdu/mcdu8.png){loading=lazy}
 
 * Press `INSERT` using LSK6R to program this into the flight plan.
 
@@ -214,7 +214,7 @@ Our flight plan should now have the associated waypoints for the `BCN1A` SID. We
 * Using the keypad type in `MONTY` *(waypoint)* and press LSK1R.
     * Remember: Airways are on the left and waypoints are on the right.
 
-![mcdu10](../assets/beginner-guide/mcdu/mcdu10.png)
+![mcdu10](../assets/beginner-guide/mcdu/mcdu10.png){loading=lazy}
 
 ^^Planning the Arrival^^
 
@@ -238,7 +238,7 @@ Find `EGCC` in green in flight plan OR select `EGCC` in white under `DEST` using
     * *Note:* Due to the default MSFS flight plan manager we maybe directed to proceed via the `MCT` waypoint anyways for the arrival.
 * Insert this STAR into the flight plan using LSK6R.
 
-![mcdu12](../assets/beginner-guide/mcdu/mcdu12.png)
+![mcdu12](../assets/beginner-guide/mcdu/mcdu12.png){loading=lazy}
 
 Verify the flight plan by using the vertical slew keys to scroll through it.
 
@@ -286,7 +286,7 @@ Remember our arrival airport/rwy is `EGCC/05R` with ILS05R having a frequency of
 
 * Using the keypad type in `111.55` and press LSK3 to input it.
 
-![mcdu15](../assets/beginner-guide/mcdu/mcdu15.png)
+![mcdu15](../assets/beginner-guide/mcdu/mcdu15.png){loading=lazy}
 
 ^^ADF^^
 
@@ -345,7 +345,7 @@ We can use the planned block fuel stated on the OFP which in this case is `3091 
 * Using the keypad type in `3.1` and press LSK2R
 * We should load this amount of fuel via the EFB or AOC option.
 
-![mcdu16](../assets/beginner-guide/mcdu/mcdu16.png)
+![mcdu16](../assets/beginner-guide/mcdu/mcdu16.png){loading=lazy}
 
 ### **^^P^^**ERF
 
@@ -362,7 +362,7 @@ The THS field is where we enter the stabilizer trim for takeoff based on the air
 
 Take a look at your throttle quadrant and look for the CG markings on next to the trim wheel. We need to set a nose down trim of about 0.8.
 
-![Throttle quad](../assets/beginner-guide/mcdu/Thrust-lever-elev-trim.png){: style="width:424.4px;height:467.6px;" }
+![Throttle quad](../assets/beginner-guide/mcdu/Thrust-lever-elev-trim.png){ loading=lazy  }
 
 * Using the keypad type in `/DN0.8` and press LSK3R
 
@@ -418,7 +418,7 @@ Enter your simBrief username. Upon entering your username the MCDU will convert 
 * Click on `INIT/PRESS`
 * Click on `INIT DATA REQ`
 
-![mcdu2](../assets/beginner-guide/mcdu/mcdu2.png)
+![mcdu2](../assets/beginner-guide/mcdu/mcdu2.png){loading=lazy}
 
 This will prepare the MCDU to input the flight plan.
 
@@ -428,7 +428,7 @@ Go back to the AOC menu.
 
 * Click on `PERF/W&B`
 
-![mcdu3](../assets/beginner-guide/mcdu/mcdu3.png)
+![mcdu3](../assets/beginner-guide/mcdu/mcdu3.png){loading=lazy}
 
 Here you can automatically load your fuel + passenger / cargo weights. You are presented with the `Fuel Page` first then the `Weights and Balance` page.
 
@@ -454,7 +454,7 @@ Head over to the `INIT A` page.
 
 This will load your flight plan from simBrief directly into the MCDU
 
-![mcdu1b](../assets/beginner-guide/mcdu/mcdu1b.png)
+![mcdu1b](../assets/beginner-guide/mcdu/mcdu1b.png){loading=lazy}
 
 Now continue setting up the MCDU as described in the [**^^F^^**LIGHT PLAN](#flight-plan) section above.
 
