@@ -73,11 +73,11 @@ To intercept the ILS Localizer we follow these steps:
 
 - Optional: Turn on `ROSE LS Mode` for the `ND` (can also be on F.O.'s side). The ROSE LS Mode shows the deviation from the localizer approach heading path.
 
-    ![ND ROSE LS Mode](../assets/beginner-guide/landing/ND-ROSE-LS-Mode.png "ND ROSE LS Mode"){loading=lazy width=60%}
+    ![ND ROSE LS Mode](../assets/beginner-guide/landing/ND-ROSE-LS-Mode.png "ND ROSE LS Mode"){loading=lazy }
 
 - Activate the `APPR` phase in the `MCDU-PERF` page. This is usually automatically done by the aircraft at a certain point during the approach, but we make sure that at this point at the latest it is activated. In `APPR` phase the `Autopilot` together with "Managed Speed Mode" reliefs the pilot of a lot of stress by managing the speed according to flaps setting automatically (S-Speed after `FLAPS 1`, F-Speed after `FLAPS 2`, V~app~ after landing flap selection).
 
-    ![Activate APPR in ECAM PERF](../assets/beginner-guide/landing/ECAM-PERF-activate-APPR.png "Activate APPR in ECAM PERF"){loading=lazy width=60%}
+    ![Activate APPR in ECAM PERF](../assets/beginner-guide/landing/ECAM-PERF-activate-APPR.png "Activate APPR in ECAM PERF"){loading=lazy }
 
 - Set `SPEED` to `Managed Speed Mode` (push the `Speed Selector`). The aircraft should now decelerate to `green dot` speed.
 - Set `FLAPS` to 1 at about V~FE~ -15 knots (but never before speed is below V~FE~) for the first slat/flap configuration (`CONF1`). The aircraft will then decelerate further to prepare for the next flaps configuration. Our target is to be CONF 1 at S speed by the time you get to the glideslope intercept.
@@ -117,13 +117,13 @@ This concludes *Intercepting the ILS Localizer*
 
 After ATC has given us clearance for ILS approach we can also start descending using the ILS glideslope.
 
-![PFD glideslope deviation marker](../assets/beginner-guide/landing/PFD-ILS-glideslope.png "PFD glideslope deviation marker"){loading=lazy width=60%}
+![PFD glideslope deviation marker](../assets/beginner-guide/landing/PFD-ILS-glideslope.png "PFD glideslope deviation marker"){loading=lazy }
 
 Check that the `APPR` button is activated on the `FCU` to arm the ILS glideslope descent mode.
 
 The vertical `FMA` now shows `G/S` (glideslope) in blue.
 
-![PFD FMA showing G/S armed](../assets/beginner-guide/landing/PFD-FMA-GS-armed.png "PFD FMA showing G/S armed"){loading=lazy width=60%}
+![PFD FMA showing G/S armed](../assets/beginner-guide/landing/PFD-FMA-GS-armed.png "PFD FMA showing G/S armed"){loading=lazy }
 
  This is a good time to set `Flaps 2` (check that the speed is below the V~FE~ for the next flap setting) as slowing down once we are descending along the glideslope can be difficult. We need the drag from the flaps if we do not want to let the gear down too early (which also would help us slowing down).<br/>
  There is different guidance when to set `FLAPS 2` but for beginners we recommend to go to `FLAPS 2` before starting the glideslope descent. Airbus guidance for example is `FLAPS 2` during glideslope descent at about 2,000ft.
@@ -133,11 +133,11 @@ The vertical `FMA` now shows `G/S` (glideslope) in blue.
 
 The aircraft will start descending when the deviation marker is in the middle (we have captured the ILS glideslope). The vertical `FMA` will now display `G/S` in green.
 
-![PFD when G/S is activated](../assets/beginner-guide/landing/PFD-FMA-GS-active.png "PFD when G/S is activated"){loading=lazy width=60%}
+![PFD when G/S is activated](../assets/beginner-guide/landing/PFD-FMA-GS-active.png "PFD when G/S is activated"){loading=lazy }
 
 We are now descending along the glideslope. The radio altimeter comes alive at 2,500ft above the ground to display the actual precise height above ground.
 
-![Radio altimeter alive](../assets/beginner-guide/landing/PFD-radio-alt.png "Radio altimeter alive"){loading=lazy width=60%}
+![Radio altimeter alive](../assets/beginner-guide/landing/PFD-radio-alt.png "Radio altimeter alive"){loading=lazy }
 
 This concludes *Intercepting the ILS Glideslope*
 
@@ -165,7 +165,7 @@ To set us up for the final approach we do the following steps:
 
 ![Fully setup for landing](../assets/beginner-guide/landing/Landing-Cockpit.png "Fully setup for landing"){loading=lazy}
 
-![RWY TURN OFF ON and NOSE T.O](../assets/beginner-guide/landing/Landing-lights.png "RWY TURN OFF ON and NOSE T.O"){loading=lazy width=60%}
+![RWY TURN OFF ON and NOSE T.O](../assets/beginner-guide/landing/Landing-lights.png "RWY TURN OFF ON and NOSE T.O"){loading=lazy }
 
 #### Cabin Crew
 
@@ -175,7 +175,7 @@ The Cabin Crew will notify the pilots either by a "Cabin Ready" button (A320neo)
 
 In the Microsoft Flight Simulator we simulate this by pressing the `CALLS ALL` button on the left of the overhead panel. This will set the "Cabin Ready" status as shown in the ECAM and there will be a short announcement playing "Cabin Crew take your seats for landing".
 
-![Cabin notification](../assets/beginner-guide/landing/CALLS-all.png "Cabin notification"){loading=lazy width=60%}
+![Cabin notification](../assets/beginner-guide/landing/CALLS-all.png "Cabin notification"){loading=lazy }
 
 Complete the **Landing Checklist**
 
@@ -239,7 +239,7 @@ At about 30ft we start our flare by pulling back on the sidestick carefully. We 
 
 At about 10-20ft we pull back the thrust levers to idle (the aircraft also sounds the callout "retard retard ...") so the we are at idle thrust **before** we touch the ground.
 
-![PFD during flare](../assets/beginner-guide/landing/PFD-Flare.png "PFD during flare"){loading=lazy width=60%}
+![PFD during flare](../assets/beginner-guide/landing/PFD-Flare.png "PFD during flare"){loading=lazy }
 
 We hold the attitude of the aircraft until it settles on the ground. **Do not push the sidestick forward (nose down) once flared.** We let the aircraft settle to the runway while holding the pitch.
 
@@ -259,7 +259,7 @@ The `Autobrakes` should now have activated and started to further decelerate the
 The upper ECAM should now show the engines in reverse mode (`REV`) and
  the lower ECAM shows the `Speed Brakes` (spoiler) deployed. Also you should notice that the brakes actually get hotter.
 
-![ECAM showing reverser and speed brakes](../assets/beginner-guide/landing/ECAM-Rev-Speed-Brk.png "ECAM showing reverser and speed brakes"){loading=lazy width=60%}
+![ECAM showing reverser and speed brakes](../assets/beginner-guide/landing/ECAM-Rev-Speed-Brk.png "ECAM showing reverser and speed brakes"){loading=lazy }
 
 At about 60knots we put the thrust levers back to idle and at about 40 knots we release the `Autobrakes` by braking manually which deactivates the `Autobrake`.
 
