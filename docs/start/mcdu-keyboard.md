@@ -4,9 +4,6 @@
 
 The A32NX is now capable of accepting native keyboard inputs when utilizing the MCDU. Your inputs will be seen in the `scratchpad` area.
 
-!!! warning ""
-    Available on Development Version Only
-
 What this feature allows:
 
 - [x] Able to input text and numbers into the MCDU with keyboard
