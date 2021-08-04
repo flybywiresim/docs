@@ -51,31 +51,31 @@ ATC Tower will usually hand us off to ATC Ground and they will give us taxi inst
 
     ![EDDM ATC frequencies](../assets/beginner-guide/after-landing/EDDM-frequency-chart.png "EDDM ATC frequencies"){ loading=lazy }
 
-    ![RMP Panel](../assets/beginner-guide/after-landing/RMP-Panel.png "RMP Panel"){loading=lazy width=50%}
+    ![RMP Panel](../assets/beginner-guide/after-landing/RMP-Panel.png "RMP Panel"){loading=lazy }
 
 - Disarm the `Speed Brake` lever (Ground Spoilers) by pushing down on the lever.
 
-    ![Spoiler armed and disarmed](../assets/beginner-guide/after-landing/Spoiler.png "Spoiler armed and disarmed"){loading=lazy width=50%}
+    ![Spoiler armed and disarmed](../assets/beginner-guide/after-landing/Spoiler.png "Spoiler armed and disarmed"){loading=lazy }
 
 - Set your `ENG MODE` selector to NORM in case you set it to IGN/START before.
 
-    ![Engine Mode Switch Norm](../assets/beginner-guide/after-landing/Engine-Mode-Switch-Norm.png "Engine Mode Switch Norm"){loading=lazy width=50%}
+    ![Engine Mode Switch Norm](../assets/beginner-guide/after-landing/Engine-Mode-Switch-Norm.png "Engine Mode Switch Norm"){loading=lazy }
 
 - Retract your `FLAPS` to 0.
 
-    ![Flaps 0](../assets/beginner-guide/after-landing/Flaps-0.png "Flaps 0"){loading=lazy width=25%}
+    ![Flaps 0](../assets/beginner-guide/after-landing/Flaps-0.png "Flaps 0"){loading=lazy }
 
 - Set your `TCAS` to STANDBY.
 
-    ![ATC & TCAS](../assets/beginner-guide/after-landing/ATC-TCAS-Panel.png "ATC & TCAS"){loading=lazy width=50%}
+    ![ATC & TCAS](../assets/beginner-guide/after-landing/ATC-TCAS-Panel.png "ATC & TCAS"){loading=lazy }
 
 - Set your `RADAR` and Predictive Windshear System (`PWS`) to OFF.
 
-    ![WX and PWS off](../assets/beginner-guide/after-landing/WX-PWS-off.png "WX and PWS off"){loading=lazy width=50%}
+    ![WX and PWS off](../assets/beginner-guide/after-landing/WX-PWS-off.png "WX and PWS off"){loading=lazy }
 
 - Start your `APU` by clicking the `APU MASTER SW` button then the `APU START` button.
 
-    ![APU Start](../assets/beginner-guide/after-landing/APU-Start.png "APU Start"){loading=lazy width=120}
+    ![APU Start](../assets/beginner-guide/after-landing/APU-Start.png "APU Start"){loading=lazy }
 
 - Turn `ANTI ICE` OFF if not required.
 
@@ -85,11 +85,11 @@ ATC Tower will usually hand us off to ATC Ground and they will give us taxi inst
     - Set your `STROBE` lights to AUTO/OFF (If you are crossing runway keep them ON until you vacate the runway).
     - For `LAND` lights, you can choose to retract them or turn them off.
 
-        ![After landing lights](../assets/beginner-guide/after-landing/Taxi-light-on.png "After landing lights"){loading=lazy width=50%}
+        ![After landing lights](../assets/beginner-guide/after-landing/Taxi-light-on.png "After landing lights"){loading=lazy }
 
 - Turn the brake fan (`BRK FAN`) on if you get a hot brakes ECAM warning.
 
-    ![Hot Brakes Brake Fan on](../assets/beginner-guide/after-landing/Brake-Fan.png "Hot Brakes Brake Fan on"){loading=lazy width=80%}
+    ![Hot Brakes Brake Fan on](../assets/beginner-guide/after-landing/Brake-Fan.png "Hot Brakes Brake Fan on"){loading=lazy }
 
 - Complete the **After Landing** checklist.
 
@@ -127,7 +127,7 @@ When approved to cross a runway (active or not) perform the following actions:
 
  When turning into the gate turn off your `NOSE` light and your `RWY TURN OFF` lights to not blind the ground personnel. This of course is only done at this point if enough lighting is available to safely park into the gate.
 
-![Taxi lights off](../assets/beginner-guide/after-landing/Lights-Taxi-off.png "Lights_Taxi_off.png"){loading=lazy width=50%}
+![Taxi lights off](../assets/beginner-guide/after-landing/Lights-Taxi-off.png "Lights_Taxi_off.png"){loading=lazy }
 
 This concludes *Taxi to Gate*
 
