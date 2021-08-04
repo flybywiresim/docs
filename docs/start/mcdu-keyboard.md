@@ -2,7 +2,7 @@
 
 ## Overview
 
-The A32NX is now capable of accepting native keyboard inputs when utilizing the MCDU. Your inputs will be seen in the `scratchpad` area. 
+The A32NX is now capable of accepting native keyboard inputs when utilizing the MCDU. Your inputs will be seen in the `scratchpad` area.
 
 What this feature allows:
 
