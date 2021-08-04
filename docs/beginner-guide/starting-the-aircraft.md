@@ -43,7 +43,7 @@ We begin by looking down at the **bottom pedestal**.
 
 This is how the pedestal should look like:
 
-![Pedestal](../assets/beginner-guide/starting-aircraft/Pedestal.png "Pedestal"){loading=lazy}
+![Pedestal](../assets/beginner-guide/starting-aircraft/Pedestal.jpg "Pedestal"){loading=lazy}
 
 We then direct our attention to the **main panel** and make sure the following is set:
 
@@ -176,7 +176,7 @@ Verify that on the ECAM fuel page that your aircraft has enough fuel for the fli
 
 If we do not have enough fuel for the flight we can refuel via Microsoft Flight Simulator's hovering menu bar or through the flyPad.
 
-![flyPad Fuel](../assets/beginner-guide/starting-aircraft/flypadfuel.png){loading=lazy}
+![flyPad Fuel](../assets/beginner-guide/starting-aircraft/flypadfuel.jpg){loading=lazy}
 
 ---
 
