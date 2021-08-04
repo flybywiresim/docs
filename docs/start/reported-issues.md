@@ -101,7 +101,9 @@ Using the "lbs" weight setting on the EFB may cause the following issues.
 
     ![content manager image](https://media.discordapp.net/attachments/828975068947939368/870365130335088660/unknown.png?width=1440&height=123)
 
-    Uninstall it and restart the sim. Reinstall development verison from our installer. 
+    Uninstall it and restart the sim. Reinstall development verison from our installer.
+    
+    <sub> You may install Stable v0.6.2 for compatibility. We recommend staying on development.
 
     This information is stated on [Installation Guide](installation.md).
 
