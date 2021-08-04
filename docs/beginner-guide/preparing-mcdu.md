@@ -362,7 +362,7 @@ The THS field is where we enter the stabilizer trim for takeoff based on the air
 
 Take a look at your throttle quadrant and look for the CG markings on next to the trim wheel. We need to set a nose down trim of about 0.8.
 
-![Throttle quad](../assets/beginner-guide/mcdu/Thrust-lever-elev-trim.png){ loading=lazy style="width:424.4px;height:467.6px;" }
+![Throttle quad](../assets/beginner-guide/mcdu/Thrust-lever-elev-trim.png){ loading=lazy  }
 
 * Using the keypad type in `/DN0.8` and press LSK3R
 
