@@ -98,7 +98,7 @@ For all changes refer to the official [CHANGELOG](https://github.com/flybywiresi
 | Preselected Speeds in ECAM PERF pages                    |              |                  X                   |
 | Correct QNH flashing at TL/TA                            |              |                  X                   |
 | Several Sound Enhancements                               |              |                  X                   |
-| Several Texture and graphics enhancements                |              |                  X                   |
+| Several Texture and Graphics enhancements                |              |                  X                   |
 | Auto print on printer when PRINTER is selected           |              |                  X                   |
 | EFB flyPadOS v2 new layout, add. settings and features   |              |                  X                   |
 | EFB Navigraph Integration                                |              |                  X                   |
