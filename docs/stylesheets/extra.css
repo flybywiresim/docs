@@ -83,3 +83,9 @@ h4 {
   font-weight: bold;
   background-color: #00C2CB;
 }
+/* reduced table row height */
+.md-typeset table:not([class]) td {
+  border-top: .05rem solid var(--md-default-fg-color--lightest);
+  padding: .2375em 1.25em;
+  vertical-align: top;
+}
