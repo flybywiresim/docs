@@ -14,8 +14,8 @@ edit_uri: "" #removes edit button and icon
 nav:
   - Home: index.md
   - Getting Started:
-      - Installation: start/installation.md
       - FlyByWire Versions: start/fbw-versions.md
+      - Installation: start/installation.md
       - Converting Liveries: start/convert-liveries.md
       - Porting Custom Camera Views: start/porting-custom-cameras.md
       - Reported Issues: start/reported-issues.md
