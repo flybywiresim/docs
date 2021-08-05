@@ -4,11 +4,11 @@
 
 === "Development Version (recommended)"
 
-    Development will have the latest features that will end up in the next stable. In general this version has the latest fixes and newest features but also a slightly higher risk of containing bugs as features had less time to be used and tested be users.
+    Development will have the latest features that will eventually end up in the next stable release. In general this version has the latest fixes and newest features but also a slightly higher risk of containing bugs as features had less time to be used and tested by users.
 
     This version updates often and sometimes several times a days. We recommend to update this version via our installer before every start of the simulator.
 
-    Every addition to the development version is code reviewed and tested by several people, our QA Team and also interested users. In general it tends to be very stable and robust.
+    Every addition to the development version is code-reviewed and tested by several people, our QA Team and also interested users. In general it tends to be very stable and robust.
 
     Latest additions to this version can be seen either in the official [CHANGELOG](https://github.com/flybywiresim/a32nx/blob/master/.github/CHANGELOG.md) or the commits to the master branch of the project: : [Github Commits to Master](https://github.com/flybywiresim/a32nx/commits/master)
 
@@ -17,13 +17,13 @@
     !!! info ""
         **Current Stable Version - v0.6.2**
 
-    Stable is our variant which has features which are the most mature and most tested so that it should be a reliable version for the more conservative user preferring stability over newest features.
+    Stable is our version which has features that are the most mature and most tested so that it should be a reliable version for the more conservative user preferring stability over newest features.
 
     This version will not always be up to date but we work hard at ensuring its compatibility with the current version from Microsoft Flight Simulator.
 
 === "Experimental Version"
 
-    This version is similar to the development version, but contains custom systems.
+    This version is similar to the development version, but contains custom systems in earlier development phases.
 
     !!! info ""
         Experimental is currently on **hold**.
@@ -40,7 +40,7 @@
 
 ## Version Comparison
 
-This is curated list with the most important features for users and will
+This is a curated list with the most important features for users and will
 be updated at least once a month.
 
 For all changes refer to the official
