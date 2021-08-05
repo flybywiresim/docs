@@ -15,7 +15,7 @@ What this feature allows:
 - [x] Options for MCDU keyboard entry
 - [x] A timer can be set to automatically lose focus from the MCDU after a set period
 - [x] Normal Sim Keyboard Events (i.e. Camera) will be disabled while MCDU is in focus
-- [x] Keyboard combo's to delete text in MCDU scratchpad
+- [x] Keyboard shortcuts to delete text in MCDU scratchpad
 
 ---
 
