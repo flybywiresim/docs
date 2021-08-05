@@ -16,6 +16,7 @@ nav:
   - Style Test:
       - Style Test: test.md
   - Getting Started:
+      - FlyByWire Versions: start/fbw-versions.md
       - Installation: start/installation.md
       - Converting Liveries: start/convert-liveries.md
       - Porting Custom Camera Views: start/porting-custom-cameras.md
