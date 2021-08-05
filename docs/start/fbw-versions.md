@@ -1,6 +1,6 @@
 # FlyByWire A32NX Versions
 
-## Version Description
+## Version Overview
 
 === "Development Version (recommended)"
 
@@ -14,7 +14,8 @@
 
 === "Stable Version"
 
-    **Current Stable Version - v0.6.2**
+    !!! info ""
+        **Current Stable Version - v0.6.2**
     
     Stable is our variant which has features which are the most mature and most tested so that it should be a reliable version for the more conservative user preferring stability over newest features.
     
