@@ -311,6 +311,8 @@ You can grab the required files with the links below.
 | A32NX.FCU_TRK_FPA_TOGGLE_PUSH | Push TRK/FPA toggle on FCU
 | A32NX.FCU_ALT_INC | Clockwise dial Altitude knob on FCU (parameter 0 = use FCU increment, 100 = 100, 1000 = 1000)
 | A32NX.FCU_ALT_DEC | Anti-clockwise dial Altitude knob on FCU (parameter 0 = use FCU increment, 100 = 100, 1000 = 1000)
+| A32NX.FCU_ALT_INCREMENT_TOGGLE | Toggle Altitude increment on FCU
+| A32NX.FCU_ALT_INCREMENT_SET | Set Altitude increment on FCU (parameter 100 or 1000)
 | A32NX.FCU_ALT_SET | Set Altitude value on FCU
 | A32NX.FCU_ALT_PUSH | Push Altitude knob on FCU
 | A32NX.FCU_ALT_PULL | Pull Altitude knob on FCU
@@ -344,6 +346,7 @@ The following gives an overview of the used variables in relation to the FCU. Fo
 
 | Variable | Function |
 | ---: | --- |
+| L:A32NX_AUTOPILOT_SPEED_SELECTED | Selected Speed in FCU (can be knots or mach)
 | AUTOPILOT AIRSPEED HOLD VAR | Current Airspeed target (can be selected or managed)
 | L:A32NX_FCU_SPD_MANAGED_DASHES | Indicates if managed speed/mach mode is active and a numerical value is not displayed
 | L:A32NX_FCU_SPD_MANAGED_DOT | Indicates if managed speed/mach mode is active
