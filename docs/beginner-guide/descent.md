@@ -263,7 +263,7 @@ We repeat the process until we have reached our desired final approach altitude.
 
 #### Cabin Crew
 
-In real life the cabin crew will be asked to prepare the cabin for landing during at some point during the descent. The exact moment and process might differ between airlines but most seem to do this when the Seatbelt Signs are turned on (typically at the latest at 10,000ft).
+In real life the cabin crew will be asked to prepare the cabin for landing at some point during the descent. The exact moment and process might differ between airlines but most seem to do this when the Seatbelt Signs are turned on (typically at the latest at 10,000ft).
 
 The Cabin Crew will notify the pilots either by a "Cabin Ready" button (A320neo) or by a call to the cockpit (A320ceo) once they are ready and strapped in themselves. Typically we will be in final approach by that time.
 
