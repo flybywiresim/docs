@@ -22,6 +22,7 @@ nav:
       - Performance Tips: start/performance-tips.md
       - Common Questions: start/faq.md
       - MCDU Keyboard Input: start/mcdu-keyboard.md
+      - Throttle Calibration: start/throttle-calibration.md
       - Autopilot / Fly-By-Wire: start/autopilot-fbw.md
   - Beginner Guide:
       - Overview: beginner-guide/overview.md
