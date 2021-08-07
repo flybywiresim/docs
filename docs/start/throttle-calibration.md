@@ -1,5 +1,9 @@
 # Throttle Calibration FlyByWire A32NX
 
+## Quick Start Summary
+
+TODO
+
 ## TCA or similar (with reverser on axis)
 
 ![Thrustmaster TCA](../assets/throttle-calibration/Thrustmaster-TCA.png "Thrustmaster TCA"){loading=lazy}
@@ -136,21 +140,80 @@ Now let's calibrate the detents as they are **NOT** correct yet - continue with 
 
     ![Test-view](../assets/throttle-calibration/Test-view.jpg "Test-view"){loading=lazy}
 
-**Congratulations! You have successfully calibrated your TCA Throttles!**
+**Congratulations! You have successfully calibrated your TCA Throttle!**
+
+## Throttle without Reverser on Axis and no Detents
+
+This section describes the calibration of a throttle with no Reverser on Axis and also no detents.
+
+Example Thrustmaster TWCS Throttle:
+
+![Thrustmaster TWCS Throttle](../assets/throttle-calibration/Thrustmaster-TWCS-Throttle.png "Thrustmaster TWCS Throttle"){loading=lazy}
+
+The configuration is very similar to the above TCA therefore we are only describing the differences to the settings above.
+
+### Step 1: Microsoft Flight Simulator Controls Option
+
+#### Throttle Sensitivity
+
+Same as described above remove all sensitivity settings and make it linear. You throttle might use different names for the axis. Mve the throttle to see which graph is moving.
+
+![MSFS-Throttle-Sensintivity](../assets/throttle-calibration/MSFS-Throttle-Sensintivity.png "MSFS-Throttle-Sensintivity"){loading=lazy}
+
+#### Throttle Mapping
+
+Instead of `Throttle Axis 1/2` throttles without **Reverser on Axis** often need the `Throttle Axis 1/2 (0 TO 100%)` setting. Some need the `Reverse Axis` box checked, some not. Find the right setting for your throttle by trial and error.
+
+![MSFS ThrottleAxis (0 TO 100%)](../assets/throttle-calibration/MSFS-ThrottleAxis-0to100.jpg "MSFS ThrottleAxis (0 TO 100%)"){loading=lazy}
+
+### Step 2: Calibrating the TCA throttle detents in the FlyByWire flyPad (EFB)
+
+- Go to the flyPad Throttle Calibration page
+
+    ![EFB-Throttle-Calibration-Page](../assets/throttle-calibration/EFB-Calibration-Page2.png "EFB-Throttle-Calibration-Page"){loading=lazy}
+
+- As this throttle has no reverse and only one real axis set the `Reverser on Axis` to OFF **(1)** and also the `Independent Axis` to OFF **(2)**
+
+- Move the throttle all the way back to idle.
+
+- As described above we go through all detents and set the values accordingly with `Set From Throttle`. The easiest way to do that is by having the flyPad in a separate window next to the throttle as in the screenshot below.
+
+    ![Flypad-next-to-Throttle](../assets/throttle-calibration/Flypad-next-to-Throttle.jpg "Flypad-next-to-Throttle"){loading=lazy}
+
+- For the detents CL, FLX and TO GA you can increase the deadzone to make it easier to move your throttle into the detents.
+
+    ![EFB-CLB-Detent](../assets/throttle-calibration/EFB-CLB-Detent.png "EFB-CLB-Detent"){loading=lazy}
+
+    In this example we have set the deadzone to 0.25 on either side of the actual setting. For FLX and TO GA you can use 0.10 or 0.15.
+
+  - Click on "SAVE AND APPLY" **(8)** and test everything
+
+      ![EFB-SaveApply](../assets/throttle-calibration/EFB-SaveApply.png "EFB-SaveApply"){loading=lazy}
+
+**Congratulations! You have successfully calibrated your throttle!**
 
 ## Troubleshooting
 
 TODO
+- red text --> not able to save
 
 ## Manual way with configuration file (only experts)
 
 TODO
+- ThrottleConfiguration.ini
 
 ## Additional video guides
 
 [FBW Tool-Tips | Throttle Calibration](https://www.youtube.com/watch?v=8yZuv2L4jPA&list=PLyIyZ4OtCKhxTSKfpwxxFEROEjAaKta7j)
+
+<iframe width="790" height="450" src="https://www.youtube.com/embed/8yZuv2L4jPA?list=PLyIyZ4OtCKhxTSKfpwxxFEROEjAaKta7j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[FBW Tool-Tips | Throttle Calibration](https://www.youtube.com/watch?v=8yZuv2L4jPA&list=PLyIyZ4OtCKhxTSKfpwxxFEROEjAaKta7j)
 [Flybywire A32NX Throttle Calibration Tutorial](https://www.youtube.com/watch?v=9oqFfAMXCcc)
 
+<!--
+<iframe width="790" height="450" src="https://www.youtube.com/embed/9oqFfAMXCcc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+-->
 
 
 
