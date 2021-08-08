@@ -7,13 +7,19 @@ This guide will help you setting up your throttles for use with the FlyByWire A3
 
 It covers the frequently used [Thrustmaster TCA Throttle Quadrant Airbus edition](#thrustmaster-tca-or-similar-with-reverser-on-axis) with 2 throttle axis, reversers and detents and also the [Thrustmaster TWCS Throttle](#thurstmaster-twcs-or-similar-without-reverser-on-axis-and-no-detents) as an example for a single axis throttle with no reverser and no detents.
 
+Use the **Table of Contents** on the right side to jump to relevant chapters.
+
+---
+
 ## Quick Start
+
+This quickstart lists all necessary steps for calibrating your throttle. Please read the sections below for a detailed step-by-step guide.
 
 ### Step 1: Setup the correct axis in Microsoft Flight Simulator Control operations
 
 - For throttles with reversers map the throttle axis of your controller to `THROTTLE 1 AXIS` and `THROTTLE 2 AXIS`. Do NOT use `THROTTLE 1 AXIS (0 TO 100%)` in this case!
 - For throttles without reversers map the throttle axis of your controller to `THROTTLE 1 AXIS (0 TO 100%)` and `THROTTLE 2 AXIS (0 TO 100%)`. Do NOT use `THROTTLE 1 AXIS` in this case!
-- Test if you need to set `REVERSE AXIS` - the TCA needs this, others might not.
+- Test if you need to set `REVERSE AXIS` - the TCA needs this, other controllers might not.
 - Remove any sensitivity and dead zone settings for the throttle axis of your controller. Your throttle should be fully linear.
 
 [Detailed step-by-step Guide ](#step-1-microsoft-flight-simulator-controls-option)
@@ -23,12 +29,14 @@ It covers the frequently used [Thrustmaster TCA Throttle Quadrant Airbus edition
 - Set `Reverse On Axis` and `Independent Axis` as required for your controller (for the TCA both are ON)
 - Move your controller all the way back (with reverser to `Reverse Full`, without reverser to `Idle`)
 - Click in the middle on the detent's name to select the detent you want to calibrate
-- Click on `Set From Throttle` to set the current throttle position as the value for this detent.
-- Repeat for all positions/detents.
+- Move your controller's throttle to the corresponding detent and click on `Set From Throttle` to set the current throttle position as the value for this detent.
+- Repeat this for all positions/detents.
 - Click `Save & Apply`
 - Test your settings.
 
 [Detailed step-by-step Guide](#step-2-calibrating-the-tca-throttle-detents-in-the-flybywire-flypad-efb)
+
+---
 
 ## Thrustmaster TCA or similar (with reverser on axis)
 
@@ -52,16 +60,16 @@ Use the numbers in this image in the following text.
 
     ![Sensitivity-Setting](../assets/throttle-calibration/Sensitivity-Setting.jpg "Sensitivity-Setting"){loading=lazy}
 
-    Click on **DONE**
+- Click on **DONE**
 
 - Open **POWER MANAGEMENT - THROTTLE** **(3)**
 
     You should see the currently assigned control mappings. If not use FILTER **(6)** to see all controllable attributes.
 
     !!! warning "Important"
-        Make sure **^^NOT^^** to use THROTTLE 1 AXIS (0 TO 100%) or THROTTLE 2 AXIS (0 TO 100%).
+        Make sure **^^NOT^^** to use THROTTLE 1 AXIS (0 TO 100%) or THROTTLE 2 AXIS (0 TO 100%) for the TCA.
 
-        Remove any mapping to these settings by  double clicking the entry and choosing **CLEAR CURRENT INPUT**.
+        Remove any mapping to these settings by double clicking the entry and choosing **CLEAR CURRENT INPUT**.
 
         ![Clear-Current-Input](../assets/throttle-calibration/Clear-Current-Input.jpg "Clear-Current-Input"){loading=lazy}
 
@@ -168,6 +176,8 @@ Now let's calibrate the detents as they are **NOT** correct yet - continue with 
 
 **Congratulations! You have successfully calibrated your TCA Throttle!**
 
+---
+
 ## Thurstmaster TWCS or similar without Reverser on Axis and no Detents
 
 This section describes the calibration of a single axis throttle with no Reverser on Axis and also no detents.
@@ -224,6 +234,8 @@ Hold this button and push the throttle forward to increase reverse thrust.
 
 **Congratulations! You have successfully calibrated your throttle!**
 
+---
+
 ## Troubleshooting
 
 ### Detents overlap
@@ -236,10 +248,99 @@ One of the most common issues is overlapping detents. Especially when coming fro
 
 This can easily be fixed by carefully following the steps [above](#thrustmaster-tca-or-similar-with-reverser-on-axis) which will remove the error message which then in turn allows to `SAVE & APPLY`.
 
-## Manual way with configuration file (only experts)
+Another solution is to simply delete the current configuration file as described in the next chapter.
 
-TODO
-- ThrottleConfiguration.ini
+---
+
+## Manual Configuration
+
+!!! warning "Expert Advice - use with care!"
+    This configuration is meant for users who are comfortable with finding and change setting-files manually.
+    It is important to create a backup copy of each file you modify before changing anything to be able to revert to the previous state in case things go wrong!
+
+To setup or correct throttle calibration values directly we follow these steps which are detailed below.
+
+1. Shut down Microsoft Flight Simulator.
+2. Locate you "**work***" folder.
+3. Locate the "**ThrottleConfiguration.ini**" file.
+4. Create a backup copy of the "**ThrottleConfiguration.ini**" file.
+5. Delete or Edit the "**ThrottleConfiguration.ini**" file as required!
+6. Start Microsoft Flight Simulator and test.
+
+### Work Folder
+
+Microsoft Flight Simulator allows mods like FlyByWire A32NX to store configuration and other data in a folder called "**work**": This folder is located in different places for the **MS Store version** and the **Steam version** of Microsoft Flight Simulator. The folder's location is described in the next paragraphs.
+
+!!! info ""
+    If you can't find the folders these folders might be hidden from you by Windows. Follow the directions on ["View hidden files and folders in Windows 10" on Microsoft's support site](https://support.microsoft.com/en-us/windows/view-hidden-files-and-folders-in-windows-10-97fbc472-c603-9d90-91d0-1166d1d9f4b5).
+
+#### Microsoft Store Version
+
+The folder can be found here:
+
+`%LOCALAPPDATA%\Packages\Microsoft.FlightSimulator_8wekyb3d8bbwe\LocalState\packages\flybywire-aircraft-a320-neo\work`
+
+!!! warning ""
+    This is not your community directory
+
+#### Steam Version
+
+The folder can be found here:
+
+`%APPDATA%\Microsoft Flight Simulator\Packages\flybywire-aircraft-a320-neo\work`
+
+!!! warning ""
+    This is not your community directory
+
+### ThrottleConfiguration.ini
+
+The "**ThrottleConfiguration.ini**" file stores the configuration values from the flyPad Throttle Calibration page.
+
+You can edit or delete this file while Microsoft Flight Simulator is shut down and it will be loaded when you start the next flight with the FlyByWire A32NX.
+
+To restore the default values you can  just delete this file. It will be regenerated the next time you start a flight with the FlyByWire A32NX and use the fylPad Throttle Configuration page to `SAVE & APPLY` a configuration.
+
+!!! warning
+    The below example file can be used as a starting point for a **Thrustmaster TCA Throttle Quadrant** although it is easier to just the delete the the config file and restart configuration.
+
+    Be aware that each throttle is a little different and you MUST verify that these values work for your hardware!
+
+Example "**ThrottleConfiguration.ini**" file based on the default values:
+
+```
+[throttle_common]
+reverse_on_axis = true
+
+[throttle_axis_1]
+reverse_low = -1.00
+reverse_high = -0.95
+reverse_idle_low = -0.72
+reverse_idle_high = -0.62
+idle_low = -0.50
+idle_high = -0.40
+climb_low = -0.03
+climb_high = -0.07
+flex_mct_low = 0.42
+flex_mct_high = 0.52
+toga_low = 0.95
+toga_high = 1.00
+
+[throttle_axis_2]
+reverse_low = -1.00
+reverse_high = -0.95
+reverse_idle_low = -0.72
+reverse_idle_high = -0.62
+idle_low = -0.50
+idle_high = -0.40
+climb_low = -0.03
+climb_high = -0.07
+flex_mct_low = 0.42
+flex_mct_high = 0.52
+toga_low = 0.95
+toga_high = 1.00
+```
+
+---
 
 ## Additional video guides
 
