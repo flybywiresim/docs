@@ -5,9 +5,9 @@
 
 This guide will help you setting up your throttles for use with the FlyByWire A32NX.
 
-It covers the frequently used [Thrustmaster TCA Throttle Quadrant Airbus edition](#thrustmaster-tca-or-similar-with-reverser-on-axis) with 2 throttle axis, reversers and detents and also the [Thrustmaster TWCS Throttle](#thurstmaster-twcs-or-similar-without-reverser-on-axis-and-no-detents) as an example for a single axis throttle with no reverser and no detents.
+It covers the frequently used [Thrustmaster TCA Throttle Quadrant Airbus edition](#thrustmaster-tca-or-similar-with-reverser-on-axis) with 2 throttle axis, reversers and detents and also the [Thrustmaster TWCS Throttle](#thrustmaster-twcs-or-similar-without-reverser-on-axis-and-no-detents) as an example for a single axis throttle with no reverser and no detents.
 
-Use the **Table of Contents** on the right side to jump to relevant chapters.
+Use the **Table of Contents** to jump to relevant chapters (on wide browsers on the right, on narrow browsers in the menu).
 
 ---
 
@@ -178,7 +178,7 @@ Now let's calibrate the detents as they are **NOT** correct yet - continue with 
 
 ---
 
-## Thurstmaster TWCS or similar without Reverser on Axis and no Detents
+## Thrustmaster TWCS or similar without Reverser on Axis and no Detents
 
 This section describes the calibration of a single axis throttle with no Reverser on Axis and also no detents.
 
@@ -186,15 +186,15 @@ Example Thrustmaster TWCS Throttle:
 
 ![Thrustmaster TWCS Throttle](../assets/throttle-calibration/Thrustmaster-TWCS-Throttle.png "Thrustmaster TWCS Throttle"){loading=lazy}
 
-The configuration is very similar to the above TCA therefore we are only describing the differences to the settings above. Read the above section when something is unclear.
+The configuration is very similar to the above TCA, therefore we are only describing the differences to the settings above. Read the above section when something is unclear.
 
 ### Step 1: Microsoft Flight Simulator Controls Option
 
 #### Throttle Sensitivity
 
-Same as described above remove all sensitivity settings and make it linear. Be aware that your throttle might use different names for the axis. Move the throttle to see which graph is moving.
+Same as described above, remove all sensitivity settings and make it linear. Be aware that your throttle might use different names for the axis. Move the throttle to see which graph is moving.
 
-![MSFS-Throttle-Sensintivity](../assets/throttle-calibration/MSFS-Throttle-Sensintivity.png "MSFS-Throttle-Sensintivity"){loading=lazy}
+![MSFS-Throttle-Sensintivity](../assets/throttle-calibration/MSFS-Throttle-Sensitivity.png "MSFS-Throttle-Sensintivity"){loading=lazy}
 
 #### Throttle Mapping
 
@@ -202,19 +202,19 @@ Instead of `Throttle Axis 1/2` throttles without **Reverser on Axis** often need
 
 ![MSFS ThrottleAxis (0 TO 100%)](../assets/throttle-calibration/MSFS-ThrottleAxis-0to100.jpg "MSFS ThrottleAxis (0 TO 100%)"){loading=lazy}
 
-Also, as these throttles do not have reversers on their axis we can map the reverser activation onto a button on the throttle or key on the keyboard (see **2** below). In the example below we used the button "3" for this.
+Also, as these throttles do not have reversers on their axis, we can map the reverser activation onto a button on the throttle or key on the keyboard (see **2** below). In the example below we used the button "3" for this.
 
 ![TWCS-Reverser-Button](../assets/throttle-calibration/TWCS-Reverser-Button.jpg "TWCS-Reverser-Button"){loading=lazy}
 
 Hold this button and push the throttle forward to increase reverse thrust.
 
-### Step 2: Calibrating the TCA throttle detents in the FlyByWire flyPad (EFB)
+### Step 2: Calibrating in the FlyByWire flyPad (EFB)
 
 - Go to the flyPad Throttle Calibration page
 
     ![EFB-Throttle-Calibration-Page](../assets/throttle-calibration/EFB-Calibration-Page2.png "EFB-Throttle-Calibration-Page"){loading=lazy}
 
-- As this throttle has no reverse and only one real axis set the `Reverser on Axis` to OFF **(1)** and also the `Independent Axis` to OFF **(2)**
+- As this throttle has no reverse and only one real axis, set the `Reverser on Axis` to OFF **(1)** and also the `Independent Axis` to OFF **(2)**
 
 - Move the throttle all the way back to idle.
 
@@ -248,7 +248,7 @@ One of the most common issues is overlapping detents. Especially when coming fro
 
 This can easily be fixed by carefully following the steps [above](#thrustmaster-tca-or-similar-with-reverser-on-axis) which will remove the error message which then in turn allows to `SAVE & APPLY`.
 
-Another solution is to simply delete the current configuration file as described in the next chapter.
+Another solution is to simply delete the current configuration file (as described in the next chapter) and start over your configuration from default values.
 
 ---
 
@@ -298,10 +298,10 @@ The "**ThrottleConfiguration.ini**" file stores the configuration values from th
 
 You can edit or delete this file while Microsoft Flight Simulator is shut down and it will be loaded when you start the next flight with the FlyByWire A32NX.
 
-To restore the default values you can  just delete this file. It will be regenerated the next time you start a flight with the FlyByWire A32NX and use the fylPad Throttle Configuration page to `SAVE & APPLY` a configuration.
+To restore the default values you can just delete this file. It will be regenerated the next time you start a flight with the FlyByWire A32NX and use the flyPad Throttle Configuration page to `SAVE & APPLY` a configuration.
 
 !!! warning
-    The below example file can be used as a starting point for a **Thrustmaster TCA Throttle Quadrant** although it is easier to just the delete the the config file and restart configuration.
+    The below example file can be used as a starting point for a **Thrustmaster TCA Throttle Quadrant** although it is easier to just  delete the config file and restart configuration.
 
     Be aware that each throttle is a little different and you MUST verify that these values work for your hardware!
 
