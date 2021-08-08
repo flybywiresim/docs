@@ -226,8 +226,15 @@ Hold this button and push the throttle forward to increase reverse thrust.
 
 ## Troubleshooting
 
-TODO
-- red text --> not able to save
+### Detents overlap
+
+One of the most common issues is overlapping detents. Especially when coming from a different throttle (e.g. without reverser axis).
+
+**You can't Save and/or Apply** while this error message is shown!
+
+![EFB-Overlapping-Detents](../assets/throttle-calibration/EFB-Overlapping-Detents.jpg "EFB-Overlapping-Detents"){loading=lazy}
+
+This can easily be fixed by carefully following the steps [above](#thrustmaster-tca-or-similar-with-reverser-on-axis) which will remove the error message which then in turn allows to `SAVE & APPLY`.
 
 ## Manual way with configuration file (only experts)
 
