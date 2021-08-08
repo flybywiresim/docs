@@ -188,9 +188,15 @@ Same as described above remove all sensitivity settings and make it linear. Be a
 
 #### Throttle Mapping
 
-Instead of `Throttle Axis 1/2` throttles without **Reverser on Axis** often need the `Throttle Axis 1/2 (0 TO 100%)` setting. Some need the `Reverse Axis` box checked, some not. Find the right setting for your throttle by trial and error.
+Instead of `Throttle Axis 1/2` throttles without **Reverser on Axis** often need the `Throttle Axis 1/2 (0 TO 100%)` (see **1** in image below) setting. Some need the `Reverse Axis` box checked, some not. Find the right setting for your throttle by trial and error.
 
 ![MSFS ThrottleAxis (0 TO 100%)](../assets/throttle-calibration/MSFS-ThrottleAxis-0to100.jpg "MSFS ThrottleAxis (0 TO 100%)"){loading=lazy}
+
+Also, as these throttles do not have reversers on their axis we can map the reverser activation onto a button on the throttle or key on the keyboard (see **2** below). In the example below we used the button "3" for this.
+
+![TWCS-Reverser-Button](../assets/throttle-calibration/TWCS-Reverser-Button.jpg "TWCS-Reverser-Button"){loading=lazy}
+
+Hold this button and push the throttle forward to increase reverse thrust.
 
 ### Step 2: Calibrating the TCA throttle detents in the FlyByWire flyPad (EFB)
 
