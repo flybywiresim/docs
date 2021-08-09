@@ -7,7 +7,7 @@ hide:
 
 ---
 
-[Back to Flight Deck](../flight-deck.md){ .md-button }
+[Back to Flight Deck](../index.md){ .md-button }
 
 ---
 
@@ -15,7 +15,7 @@ hide:
 
 ##Description
 
-The voice recorder panel consist of cockpit voice recorder (CVR) and digital flight data recorder (DFDR) controls. 
+The voice recorder panel consist of cockpit voice recorder (CVR) and digital flight data recorder (DFDR) controls.
 
 The CVR and DFDR are energized automatically during the following conditions:
 
@@ -40,4 +40,4 @@ The passenger address system is also recorded if the PA reception knob is select
 
 ---
 
-[Back to Flight Deck](../flight-deck.md){ .md-button }
+[Back to Flight Deck](../index.md){ .md-button }

@@ -7,7 +7,7 @@ hide:
 
 ---
 
-[Back to Flight Deck](../flight-deck.md){ .md-button }
+[Back to Flight Deck](../index.md){ .md-button }
 
 ---
 
@@ -24,12 +24,12 @@ The emergency evacuation signal system alerts the flight attendants to evacuate 
 - HORN SHUT OFF
     - Silences the evacuation horn in the cockpit.
 - CAPT & PERS/CAPT switch
-    - CAPT & PURS 
+    - CAPT & PURS
         - When the evacuation switch is selected to CAPT & PURS the evacuation alert may be activated from the cabin or cockpit.
-    - CAPT 
-        - When evacuation switch is selected to CAPT the evacuation alert may be activated only from the cockpit    
+    - CAPT
+        - When evacuation switch is selected to CAPT the evacuation alert may be activated only from the cockpit
 
 
 ---
 
-[Back to Flight Deck](../flight-deck.md){ .md-button }
+[Back to Flight Deck](../index.md){ .md-button }

@@ -7,7 +7,7 @@ hide:
 
 ---
 
-[Back to Flight Deck](../flight-deck.md){ .md-button }
+[Back to Flight Deck](../index.md){ .md-button }
 
 ---
 
@@ -16,7 +16,7 @@ hide:
 
 ##Description
 
-- ELAC 
+- ELAC
     - Normally ELAC 1 commands the operation of the ailerons and ELAC 2 commands the operation of the elevators and horizontal stabilizer. ELAC 1 and 2 perform the following:
         - Normal pitch and roll, normal LAF
         - Alternate pitch, alternate LAF
@@ -24,7 +24,7 @@ hide:
         - Aileron droop
         - Abnormal attitude
         - Acquisition of autopilot orders
-- SEC 
+- SEC
     - The Spoiler Elevator Computers 1, 2, and 3 command spoiler operation. The SECs control the following
         - Normal roll by controlling the spoilers
         - Speed brakes and ground spoilers
@@ -33,7 +33,7 @@ hide:
         - Alternate LAF
         - Abnormal attitude
         - Direct roll
-- FAC 
+- FAC
     - The Flight Augmentation Computers have three main functions:
         - Rudder trim
         - Rudder travel limits
@@ -42,7 +42,7 @@ hide:
         - Flight envelope and speed computations
         - Wind shear detection
 
-##Function 
+##Function
 
 - ON: When the associated flight control computer switch is ON, it engages the computer and lights are extinguished. This is the normal position.
 
@@ -52,9 +52,9 @@ hide:
 
 - FAULT: The associated FAULT Light illuminates amber:
     - When a failure is detected.
-    - During computer's power-up test (8-second duration). This test occurs for each flight control computer upon electrical power application or after electrical transient/interruption. 
+    - During computer's power-up test (8-second duration). This test occurs for each flight control computer upon electrical power application or after electrical transient/interruption.
     - The FAULT light extinguishes when OFF is selected or at completion of satisfactory power-up test.
 
 ---
 
-[Back to Flight Deck](../flight-deck.md){ .md-button }
+[Back to Flight Deck](../index.md){ .md-button }

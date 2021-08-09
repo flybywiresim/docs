@@ -8,13 +8,13 @@ hide:
 
 ---
 
-[Back to Flight Deck](../flight-deck.md){ .md-button }
+[Back to Flight Deck](../index.md){ .md-button }
 
 ---
 
 ![Wipers Panel - Left](../../../assets/a32nx-briefing/overhead-panel/Wipers-Left.png "Wipers Panel - Left")
 
-##DESCRIPTION 
+##DESCRIPTION
 
 Each windshield is provided with two-speed electric wipers that are controlled by individual WIPER selectors. A rain repellent system is installed, but is deactivated by some airlines.
 
@@ -30,4 +30,4 @@ Each windshield is provided with two-speed electric wipers that are controlled b
 
 ---
 
-[Back to Flight Deck](../flight-deck.md){ .md-button }
+[Back to Flight Deck](../index.md){ .md-button }

@@ -7,7 +7,7 @@ hide:
 
 ---
 
-[Back to Flight Deck](../flight-deck.md){ .md-button }
+[Back to Flight Deck](../index.md){ .md-button }
 
 ---
 
@@ -17,7 +17,7 @@ hide:
 
 - The calls panel will allow the cockpit to initiate calls to the flight attendants via the cabin interphone system, and the ground crew via the flight interphone system.
 - The cabin interphone system is used for communication between the cockpit, flight attendant stations, and other external locations on the aircraft.
-- The flight interphone system is used for communication between the cockpit and the external service interphone panel, located at the nose gear. 
+- The flight interphone system is used for communication between the cockpit and the external service interphone panel, located at the nose gear.
 
 
 ##Function
@@ -36,9 +36,9 @@ hide:
     - A pink light will flash at all flight attendant area call panels.
     - An "EMERGENCY CALL" message appears on all flight attendant indication panels.
     - A high/low chime sounds through all loudspeakers.
-    
+
 - These calls will be reset when the flight attendant/ground crew press the reset switch. The emergency call is reset by turning it from ON to OFF
 
 ---
 
-[Back to Flight Deck](../flight-deck.md){ .md-button }
+[Back to Flight Deck](../index.md){ .md-button }
