@@ -19,7 +19,7 @@ Please follow the information on this page to install the FlyByWire Simulations 
       - `FlyByWire Simulations - A320neo (LEAP)`
 
 !!! info "Marketplace Version Incompatibility"
-    The A32NX on the MSFS  marketplace is incompatible with any of our installer / standalone versions. 
+    The A32NX on the MSFS  marketplace is incompatible with any of our installer / standalone versions.
 
     You must **choose** one of the options below:
 
@@ -37,7 +37,7 @@ Please follow the information on this page to install the FlyByWire Simulations 
 
 ### FlyByWire Installer
 
-Download the new FlyByWire installer where you can select either the Stable, Development, or Experimental build. Our installer downloads and installs the mod directly into your community folder. 
+Download the new FlyByWire installer where you can select either the Stable, Development, or Experimental build. Our installer downloads and installs the mod directly into your community folder.
 
 The following commands can be used:
 
@@ -48,9 +48,9 @@ The following commands can be used:
 You can send us logs to our [Discord](https://discord.gg/flybywire) for support if you encounter issues with the installer. Please follow the steps below:
 
   * In the debug tool find and select ++"Console"++ in the top menu.
-    
-  * `Right Click` anywhere in the log displayed. 
-    
+
+  * `Right Click` anywhere in the log displayed.
+
   * Click ++"Save as"++ and send the log to us.
 
 [Download Installer](https://api.flybywiresim.com/installer){ .md-button }
@@ -145,17 +145,17 @@ It is located in:
 
 If the above methods do not work:
 
-- You can find your community folder by going into Microsoft Flight Simulator general options and enabling developer mode. You will see a menu appear on top. 
+- You can find your community folder by going into Microsoft Flight Simulator general options and enabling developer mode. You will see a menu appear on top.
     - Go to tools and virtual file system.
     - Click on watch bases and your community folder will be listed in one of the folders.
-  
+
 If your issue is not related to installation visit - [**Reported Issues**](reported-issues.md)
 
 ---
 
 ## Clean Install Steps
 
-To perform a clean install you simply have to delete the `flybywire-aircraft-a320-neo` folder from your community folder. 
+To perform a clean install you simply have to delete the `flybywire-aircraft-a320-neo` folder from your community folder.
 
 We do however store additional information related to the aircraft in a separate directory. Delete the contents of this folder but not the folder itself.
 
@@ -204,13 +204,13 @@ The folder can be found here:
 
 [:fontawesome-brands-github:{: .github } **GitHub Contributing.md**](https://github.com/flybywiresim/a32nx/blob/master/.github/Contributing.md){ .md-button }
 
-More info [A32NX Development Overview](../a32nx-dev/overview.md)
+More info [A32NX Development Overview](../../old/a32nx-dev/overview.md)
 
 ***
 
 ## SimBrief Airframe
 
-SimBrief now has a dedicated airframe for the A320neo. 
+SimBrief now has a dedicated airframe for the A320neo.
 
 - Select `A20N - A320-251N` for your aircraft type.
 

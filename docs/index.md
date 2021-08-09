@@ -1,14 +1,9 @@
----
-hide:
-    - navigation
----
-
-# A32NX Documentation
+# FlyByWire A32NX Documentation
 
 ***
 
 ## Quick Links
-[Installation Guide](start/installation.md){ .md-button } [Reported Issues](start/reported-issues.md){ .md-button } [Beginner Guide](beginner-guide/overview.md){ .md-button }
+[Installation Guide](../old/start/installation.md){ .md-button } [Reported Issues](../old/start/reported-issues.md){ .md-button } [Beginner Guide](../old/beginner-guide/overview.md){ .md-button }
 
 ## Introduction
 
