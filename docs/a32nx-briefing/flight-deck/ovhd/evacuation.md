@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![Evacuation Panel](../../../assets/a32nx-briefing/overhead-panel/Evacuation.png "Evacuation Panel")
+![Evacuation Panel](../../../assets/a32nx-briefing/overhead-panel/Evacuation.jpg "Evacuation Panel")
 
 ## Description
 

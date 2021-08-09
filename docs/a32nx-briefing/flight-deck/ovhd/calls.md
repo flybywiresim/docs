@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![Calls Panel](../../../assets/a32nx-briefing/overhead-panel/Calls-Panel.png "Calls Panel")
+![Calls Panel](../../../assets/a32nx-briefing/overhead-panel/Calls-Panel.jpg "Calls Panel")
 
 ## Description
 

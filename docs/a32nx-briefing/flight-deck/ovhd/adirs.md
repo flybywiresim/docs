@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![ADIRS Panel](../../../assets/a32nx-briefing/overhead-panel/ADIRS.png "ADIRS Panel")
+![ADIRS Panel](../../../assets/a32nx-briefing/overhead-panel/ADIRS.jpg "ADIRS Panel")
 
 ##Description
 

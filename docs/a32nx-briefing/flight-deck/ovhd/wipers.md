@@ -12,7 +12,7 @@ hide:
 
 ---
 
-![Wipers Panel - Left](../../../assets/a32nx-briefing/overhead-panel/Wipers-Left.png "Wipers Panel - Left")
+![Wipers Panel - Left](../../../assets/a32nx-briefing/overhead-panel/Wipers-Left.jpg "Wipers Panel - Left")
 
 ## DESCRIPTION
 

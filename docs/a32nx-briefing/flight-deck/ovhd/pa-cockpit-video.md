@@ -7,7 +7,7 @@
 ---
 
 
-![PA and Cockpit Video Panel](../../../assets/a32nx-briefing/overhead-panel/pa-cockpit-video.png "PA and Cockpit Video Panel")
+![PA and Cockpit Video Panel](../../../assets/a32nx-briefing/overhead-panel/pa-cockpit-video.jpg "PA and Cockpit Video Panel")
 
 <!-- TODO -->
 

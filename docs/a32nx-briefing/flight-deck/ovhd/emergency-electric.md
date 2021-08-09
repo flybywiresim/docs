@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![Emergency Electric Power Panel Panel](../../../assets/a32nx-briefing/overhead-panel/Emergency-electrical.png "Emergency Electric Power Panel")
+![Emergency Electric Power Panel Panel](../../../assets/a32nx-briefing/overhead-panel/Emergency-electrical.jpg "Emergency Electric Power Panel")
 
 ## Function
 

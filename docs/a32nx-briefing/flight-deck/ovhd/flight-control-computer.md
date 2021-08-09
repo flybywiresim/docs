@@ -11,8 +11,8 @@ hide:
 
 ---
 
-![Flight Control Panel - Left](../../../assets/a32nx-briefing/overhead-panel/Flight-Computers-1.png "Flight Control Panel - Left")
-![Flight Control Panel - Right](../../../assets/a32nx-briefing/overhead-panel/Flight-Computers-2.png "Flight Control Panel - Right")
+![Flight Control Panel - Left](../../../assets/a32nx-briefing/overhead-panel/Flight-Computers-1.jpg "Flight Control Panel - Left")
+![Flight Control Panel - Right](../../../assets/a32nx-briefing/overhead-panel/Flight-Computers-2.jpg "Flight Control Panel - Right")
 
 ## Description
 

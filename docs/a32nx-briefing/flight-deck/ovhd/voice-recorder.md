@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![Voice Recorder Panel](../../../assets/a32nx-briefing/overhead-panel/Recorder.png "Voice Recorder Panel")
+![Voice Recorder Panel](../../../assets/a32nx-briefing/overhead-panel/Recorder.jpg "Voice Recorder Panel")
 
 ## Description
 

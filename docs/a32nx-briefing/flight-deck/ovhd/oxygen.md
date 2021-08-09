@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![Oxygen Panel](../../../assets/a32nx-briefing/overhead-panel/Oxygen.png "Oxygen Panel")
+![Oxygen Panel](../../../assets/a32nx-briefing/overhead-panel/Oxygen.jpg "Oxygen Panel")
 
 ## Function
 

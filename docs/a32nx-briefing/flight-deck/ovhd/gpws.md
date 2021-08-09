@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![Ground Proximity Warning Panel](../../../assets/a32nx-briefing/overhead-panel/GPWS.png "Ground Proximity Warning Panel")
+![Ground Proximity Warning Panel](../../../assets/a32nx-briefing/overhead-panel/GPWS.jpg "Ground Proximity Warning Panel")
 
 ## Description
 
