@@ -15,7 +15,7 @@ hide:
 
 ##Description
 
-- The Air Data Inertial Reference System (ADIRS) computes the aircraft position, speed, altitude, attitude, and air data for the displays, flight management guidance system, flight controls, engine controls, and other systems.
+- The Air Data Inertial Reference System (ADIRS) computes the aircraft's position, speed, altitude, attitude, and air data for the displays, flight management guidance system, flight controls, engine controls, and other systems.
 
 - There are three identical air data/inertial reference units (ADIRUs) installed in the aircraft. Each ADIRU combines an air data reference (ADR) system with a laser gyro inertial reference (IR) system in a single unit. The ADR and IR systems in each ADIRU operate independently, meaning failure of one system will not cause a failure of the other.
 
@@ -26,12 +26,12 @@ hide:
 - ADIRU 1 and 2 supply their on side systems. ADIRU 3 is a hot spare
 
 ##Operation
- 
+
 Normal operation:
 
 - The IR mode selector should be turned to NAV in the order of 1, 2, then 3.
 
-- ON BATT will then flash as a self-test at the start of alignment. If one or more of the ADRU's are running on battery power, ON BATT will display constantly.
+- ON BATT will then flash as a self-test at the start of alignment. If one or more of the ADIRU's are running on battery power, ON BATT will display constantly.
 
 - IR 1, 2 and 3, as well as ADR, 1, 2 and 3 can be turned off using the corresponding push button.
 
@@ -43,12 +43,11 @@ Abnormal operation:
 
 - The heading data must be entered using the MCDU. This must be updated frequently, roughly every 10 minutes.
 
-- If the IR mode selector is set from NAW to ATT, or NAV to OFF during flight, NAV mode will be inopperable fot the remainder of the flight.
+- If the IR mode selector is set from NAV to ATT, or NAV to OFF during flight, NAV mode will be inoperable for the remainder of the flight.
 
 !!!info "Incorrect Label"
 
-    Please note, the ADIR 1, 2 and 3 lables are incorrect. They should state ADR 1, 2 and 3.
-
+    Please note, the ADIR 1, 2 and 3 labels are incorrect. They should state ADR 1, 2 and 3.
 
 ---
 
