@@ -1,3 +1,8 @@
+**This is a test branch to try out different navigation methods and structures**
+
+---
+
+
 # FBW User Documentation
 
 Repository for the FlyByWire Simulations Guides website.
@@ -16,20 +21,20 @@ If you want to preview your build while you edit follow the instructions below. 
 
 * Requires Python -> [Installer](https://www.python.org/downloads/windows/)
   * Supports Python 3.5, 3.6, 3.7, 3.8 and pyp3.
-* Use pip installation for general compatibility with mkdocs-material theme. 
+* Use pip installation for general compatibility with mkdocs-material theme.
 
 The following must be installed locally for this repo to build correctly.
 * mkdocs-material
 * mkdocs-git-revision-date-localized-plugin
 
 ### Python
-  
+
 Upgrade pip
 
-``` 
+```
 pip install --upgrade pip
 ```
-  
+
 Install pip - recent versions of Python should come bundled with pip.
 
 ```
@@ -38,7 +43,7 @@ python get-pip.py
 
 ### MkDocs Material
 
-Install Dependencies  
+Install Dependencies
 
 ```
 pip install mkdocs-material mkdocs-git-revision-date-localized-plugin
@@ -61,7 +66,7 @@ mkdocs build --clean --no-directory-urls
 
 * The site will be built locally under `/site` on in your local repo for user testing. Open`index.html` in the root of `/site` to preview.
   * **Note:** `--no-directory-urls` allows usage of reference links when browsing the locally built site. Prevents having to find each index.html related to every `filename.md` to preview the relevant page.
-  
+
 ***
 
 [![Powered by Vercel](https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg)](https://vercel.com/?utm_source=[flybywiresim]&utm_campaign=oss "Powered by Vercel")
