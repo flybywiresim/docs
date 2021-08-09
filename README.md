@@ -2,6 +2,15 @@
 - This is a test branch to try out different navigation methods and structures
 ```
 
+ To make this branch work you need to install this:
+
+ https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin
+
+Install:
+```
+ pip install mkdocs-awesome-pages-plugin
+```
+
 ---
 
 
