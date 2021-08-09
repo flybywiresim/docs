@@ -13,10 +13,6 @@ hide:
 
 ![Emergency Electric Power Panel Panel](../../../assets/a32nx-briefing/overhead-panel/Emergency-electrical.png "Emergency Electric Power Panel")
 
-##Description
-
-
-
 ##Function
 
 - MAN ON (guarded)
