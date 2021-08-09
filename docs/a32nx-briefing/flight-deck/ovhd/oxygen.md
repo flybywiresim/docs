@@ -13,9 +13,7 @@ hide:
 
 ![Oxygen Panel](../../../assets/a32nx-briefing/overhead-panel/Oxygen.png "Oxygen Panel")
 
-##Function
-
-- VIDEO IN USE LIGHT: This illuminates in blue when the cabin video system is powered.
+## Function
 
 - MASK MAN ON:
   - AUTO - This is the normal position for this switch. The cabin oxygen mask doors will open automatically when the cabin altitude exceeds 14,000 feet.

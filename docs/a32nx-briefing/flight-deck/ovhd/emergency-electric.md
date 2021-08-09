@@ -13,7 +13,7 @@ hide:
 
 ![Emergency Electric Power Panel Panel](../../../assets/a32nx-briefing/overhead-panel/Emergency-electrical.png "Emergency Electric Power Panel")
 
-##Function
+## Function
 
 - MAN ON (guarded)
     - AUTQ: When the following conditions are met:
@@ -33,10 +33,10 @@ hide:
 - EMER GEN TEST (guarded)
     - Pressed and held:
         - if AC NORMAL BUSES are supplied:
-            - The EMER GEN ts driven hydraulically if the blue electric pump Is running.
+            - The EMER GEN is driven hydraulically if the blue electric pump is running.
             - The AC ESS BUS and the DC ESS BUS are connected to the emergency generator. (The DC ESS SHED and AC ESS SHED buses are not powered.)
             - ECAM displays the ELEC page automatically (only on the ground).
-        - If only the batteries supply the aircraft :
+        - If only the batteries supply the aircraft:
             - The static inverter powers the AC ESS BUS.
 
 - GEN 1 LINE
