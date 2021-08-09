@@ -1,4 +1,6 @@
-**This is a test branch to try out different navigation methods and structures**
+<span style="color:red">
+<b>This is a test branch to try out different navigation methods and structures**</b>
+</span>
 
 ---
 
