@@ -290,14 +290,14 @@ Crash to desktop (CTD) can either be a sim issue or a conflict with the A32NX. T
 
 ## Fixed Issues
 
-- Selected Heading may not work after using DIR feature or inputting a STAR. *Fixed [PR #5593](https://github.com/flybywiresim/a32nx/pull/5593)*
+- Selected Heading may not work after using DIR feature or inputting a STAR. *[Fixed PR #5593](https://github.com/flybywiresim/a32nx/pull/5593)*
     - Closed Issue: [#5479](https://github.com/flybywiresim/a32nx/issues/5479)
 
 * ND Terrain does not appear. *[Fixed #5470](https://github.com/flybywiresim/a32nx/pull/5470)*
   
 * Turning off right PFD also disables left one. *Fixed*
 
-* Vertical speed indicator not working. *Fixed [PR #5398](https://github.com/flybywiresim/a32nx/pull/5398)*
+* Vertical speed indicator not working. *[Fixed PR #5398](https://github.com/flybywiresim/a32nx/pull/5398)*
 
 * In development/experimental versions, the engine startup sound is bugged due to a fuel flow issue. This will be fixed when engine startup procedures will be implemented. *(fixed)*
 
