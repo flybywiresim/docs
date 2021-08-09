@@ -107,14 +107,6 @@ Using the "lbs" weight setting on the EFB may cause the following issues.
 
     This information is stated on [Installation Guide](installation.md).
 
-- Selected Heading may not work after using DIR feature or inputting a STAR. *Under Investigation.*
-    - Workaround: After performing an update of our addon through installer do the following steps:
-        - Load into your flight once. *Press Fly*
-        - Reload / restart the flight after you are in the flight deck.
-        - This usually helps restore functionality. 
-    - Open Issue: [#5479](https://github.com/flybywiresim/a32nx/issues/5479)
-    - Read Discussion: [Developer Comment](https://github.com/flybywiresim/a32nx/issues/5479#issuecomment-891032069)
-
 - Navigraph FMS Beta Users - If you are missing SID/STARs please delete and reinstall your navdata via the Navigraph Center and **restart** your simulator.
 
 - **Intermittent / Single time event only** - Printing METAR reports may cause a CTD. Please report this to us on our Discord.  
@@ -297,6 +289,9 @@ Crash to desktop (CTD) can either be a sim issue or a conflict with the A32NX. T
 ---
 
 ## Fixed Issues
+
+- Selected Heading may not work after using DIR feature or inputting a STAR. *Fixed [PR #5593](https://github.com/flybywiresim/a32nx/pull/5593)*
+    - Closed Issue: [#5479](https://github.com/flybywiresim/a32nx/issues/5479)
 
 * ND Terrain does not appear. *[Fixed #5470](https://github.com/flybywiresim/a32nx/pull/5470)*
   
