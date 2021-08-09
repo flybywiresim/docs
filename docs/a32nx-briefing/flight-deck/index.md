@@ -58,7 +58,7 @@ hide:
     <a href="/a32nx-briefing/flight-deck/ovhd-aft/reading-light/"><div class="imagemap" style="position: absolute; left: 65.3%; top: 15.3%; width: 12.5%; height: 3.4%;"><span class="imagemapname">Jump Seat Left Light</span></div></a>
     <a href="/a32nx-briefing/flight-deck/ovhd-aft/fms-load/"><div class="imagemap" style="position: absolute; left: 65.3%; top: 18.6%; width: 12.5%; height: 2.2%;"><span class="imagemapname">FMS Load Panel</span></div></a>
     <!-- OVHD FWD Left-->
-    <a href="/a32nx-briefing/flight-deck/ovhd/"><div class="imagemap" style="position: absolute; left: 22.5%; top: 23.8%; width: 12.5%; height: 1.7%;"><span class="imagemapname">PA and Cockpit Door Video</span></div></a>
+    <a href="/a32nx-briefing/flight-deck/ovhd/pa-cockpit-video/"><div class="imagemap" style="position: absolute; left: 22.5%; top: 23.8%; width: 12.5%; height: 1.7%;"><span class="imagemapname">PA and Cockpit Door Video</span></div></a>
     <a href="/a32nx-briefing/flight-deck/ovhd/adirs/"><div class="imagemap" style="position: absolute; left: 22.5%; top: 25.5%; width: 12.6%; height: 4.5%;"><span class="imagemapname">ADIRS Panel</span></div></a>
     <a href="/a32nx-briefing/flight-deck/ovhd/flight-control-computer/"><div class="imagemap" style="position: absolute; left: 22.5%; top: 31.2%; width: 12.6%; height: 1.7%;"><span class="imagemapname">Flight Control Panel Left</span></div></a>
     <a href="/a32nx-briefing/flight-deck/ovhd/evacuation/"><div class="imagemap" style="position: absolute; left: 22.5%; top: 32.9%; width: 12.6%; height: 1.6%;"><span class="imagemapname">Evacuation Panel</span></div></a>
