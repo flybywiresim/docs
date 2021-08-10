@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![Overhead Electrical Panel](../../../assets/a32nx-briefing/overhead-panel/ELEC-Panel.png "Overhead Electrical Panel")
+![Overhead Electrical Panel](../../../assets/a32nx-briefing/overhead-panel/ELEC-Panel.jpg "Overhead Electrical Panel"){loading=lazy}
 
 ## Description
 
