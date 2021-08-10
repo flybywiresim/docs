@@ -82,6 +82,7 @@ h4 {
 .md-typeset table:not([class]) th {
   font-weight: bold;
   background-color: #00C2CB;
+  color: var(--md-default-bg-color);
 }
 /* reduced table row height */
 .md-typeset table:not([class]) td {
