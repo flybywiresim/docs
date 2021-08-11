@@ -50,7 +50,7 @@ describe your issue and respond to the questions our support team might have.
 
 !!! warning "Please do a search before you post any questions or report any issues."
 
-## Report Issue on the A32NX Github
+## 5. Report Issue on the A32NX Github
 
 [:fontawesome-brands-github:{: .github } - **Issues / Feature Requests**](https://github.com/flybywiresim/a32nx/issues)
 
