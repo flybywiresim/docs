@@ -263,6 +263,10 @@ You will typically see higher or excessive fuel flow alongside exceedingly high 
 
 * ASOBO *Aviator/Beta Club* A320 liveries are incompatible with the A32NX mod
 
+* `NOT IN DATABASE` when loading flight plan
+    * Upgrade to the latest A32NX package (stable or development).
+    * Install/uninstall Navigraph data with the Navigraph Navdata Center application. __Do not__ delete `navigraph-navdata` from the community packages directory, as this will leave default navdata disabled.
+
 ***
 
 ## CTD Resolution
