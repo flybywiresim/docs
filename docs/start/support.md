@@ -20,9 +20,9 @@ Please make sure you have acquired the knowledge to distinguish a software issue
 
 ## 2. Troubleshoot
 
-Please try and remove all other mods/liveries from the community folder and perform a clean reinstall of the A32NX with the [FlyByWire Installer](https://api.flybywiresim.com/installer). Then start the simulator and check if the problem is still present. This will help rule out mod conflicts.
+Please try and remove all other mods/liveries from the [Community Folder](#community-folder-content) and perform a clean reinstall of the A32NX with the [FlyByWire Installer](https://api.flybywiresim.com/installer). Then start the simulator and check if the problem is still present. This will help rule out mod conflicts.
 
-!!! warning "Please really do this as >90% of all reported issues are caused by conflicts with other mods and liveries, etc. Unfortunately Microsoft Flight Simulator 2020 is very sensible to bad mods and liveries."
+!!! warning "Please really do this as >90% of all reported issues are caused by conflicts with other mods and liveries, etc. Unfortunately Microsoft Flight Simulator 2020 is very sensible to conflicts between mods and liveries."
 
 ##  3. Research Known Issues
 
@@ -45,7 +45,7 @@ Please prepare the following before reporting any issues:
 - [Community Folder Content](#community-folder-content)
 - [Screenshot of Cockpit](#screenshot-of-cockpit)
 
-With this information at hand go to our Discord #support channel and
+With this information at hand go to our Discord  [:fontawesome-brands-discord:{: .discord } - **Discord Link**](https://discord.gg/flybywire) **#support** channel and
 describe your issue and respond to the questions our support team might have.
 
 !!! warning "Please do a search before you post any questions or report any issues."
@@ -63,7 +63,7 @@ Provide at least the following so that our team can reproduce the issue:
 - Clearly describe the issue in a way a third person can fully understand and reproduce it!
 - Include references like screenshots or videos
 
-!!! warning "Be aware that issue that do not follow the template or provide insufficient information might get ignored or closed without response."
+!!! warning "Be aware that issues that do not follow the template or provide insufficient information might get ignored or closed without any response."
 
 ## Collecting Support Information
 
