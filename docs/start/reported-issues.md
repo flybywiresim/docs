@@ -9,7 +9,7 @@
 !!! warning "Important Troubleshooting Information"
     ^^Updates^^
 
-    If you are cannot resolve any issues with solutions listed below perform a clean reinstall of the A32NX. Delete either of the folders below from your community folder:
+    If you cannot resolve any issues with solutions listed below perform a clean reinstall of the A32NX. Delete either of the folders below from your community folder:
 
     * A32NX (old folder name)
     * flybywire-aircraft-a320-neo (new folder name)
