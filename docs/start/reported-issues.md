@@ -74,7 +74,7 @@ Using the "lbs" weight setting on the EFB may cause the following issues.
         - Solution:
             1. - Open Windows Control Panel -> Region.
                 - Go to the Administrative tab and click ++"Change system locale"++
-                - Make sure the check mark next to `Beta: Use UTF-8 for worldwide language support is selected`.
+                - Make sure the check mark next to `Beta: Use UTF-8 for worldwide language support` is selected.
                 - Click ++"OK"++ and restart your computer.
             1. - Ensure `simconnect.cfg` does not appear in your Documents folder on your computer.
 
