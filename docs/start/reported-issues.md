@@ -107,8 +107,6 @@ Using the "lbs" weight setting on the EFB may cause the following issues.
 
     This information is stated on [Installation Guide](installation.md).
 
-- Navigraph FMS Beta Users - If you are missing SID/STARs please delete and reinstall your navdata via the Navigraph Center and **restart** your simulator.
-
 - **Intermittent / Single time event only** - Printing METAR reports may cause a CTD. Please report this to us on our Discord.
 
 - Freelook with mouse causes controls to freeze.
