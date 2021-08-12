@@ -18,7 +18,8 @@ This quickstart lists all necessary steps for calibrating your throttle. Please 
 ### Step 1: Setup the correct axis in Microsoft Flight Simulator Control operations
 
 - For throttles with reversers map the throttle axis of your controller to `THROTTLE 1 AXIS` and `THROTTLE 2 AXIS`. Do NOT use `THROTTLE 1 AXIS (0 TO 100%)` in this case!
-- For throttles without reversers map the throttle axis of your controller to `THROTTLE 1 AXIS (0 TO 100%)` and `THROTTLE 2 AXIS (0 TO 100%)`. Do NOT use `THROTTLE 1 AXIS` in this case!
+- For throttles without reversers map the throttle axis of your controller to `THROTTLE 1 AXIS (0 TO 100%)` and `THROTTLE 2 AXIS (0 TO 100%)`. Do NOT use `THROTTLE 1 AXIS` or `THROTTLE 2 AXIS` in this case!
+-  If you only have one axis on your hardware you still need to map it to both, `THROTTLE 1 AXIS (0 TO 100%)` and `THROTTLE 2 AXIS (0 TO 100%)`, as the A320 has two throttles and both need to be moved.
 - Test if you need to set `REVERSE AXIS` - the TCA needs this, other controllers might not.
 - Remove any sensitivity and dead zone settings for the throttle axis of your controller. Your throttle should be fully linear.
 
