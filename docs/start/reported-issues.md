@@ -6,23 +6,14 @@
 
     <sub>Report back the result of this test on our Discord.
 
-!!! warning "Important Troubleshooting Information"
-    ^^Updates^^
+!!! warning "Read our Support Guide"
 
-    If you cannot resolve any issues with solutions listed below perform a clean reinstall of the A32NX. Delete either of the folders below from your community folder:
-
-    * A32NX (old folder name)
-    * flybywire-aircraft-a320-neo (new folder name)
-
-    **[Read - Additional Clean Install Steps](installation.md#clean-install-steps)**
-
-    ---
-
-    ^^Flight Model^^
-
-    **The modern flight model is required to fly the A32NX**.
-
-    Please ensure that your flight model is set correctly via the MSFS settings.
+    1. [Learn how to fly an A32NX](support.md#1-learn-how-to-fly-an-a32nx)
+    - [Troubleshoot](support.md#2-troubleshoot)
+    - [Research Known Issues](support.md#3-research-known-issues)
+    - [Report Issue on Discord](support.md#4-report-issue-on-discord)
+    - [Report Issue on the A32NX Github](support.md#5-report-issue-on-the-a32nx-github)
+    - [Collecting Support Information](support.md#collecting-support-information)
 
     ---
     
@@ -43,22 +34,15 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
     - [**Typical Issues + Solutions**](autopilot-fbw.md#typical-issues-and-how-to-solve-them)
     - [**Known Issues**](autopilot-fbw.md#known-issues)
 
-**EFB *"pounds (lbs)"* setting**
+* Using the *"pounds (lbs)"* weight setting on the EFB may cause the following issues.
 
-Using the "lbs" weight setting on the EFB may cause the following issues.
-
-* Simbrief integration - fuel and payload showing 0 after OFP request in AOC.
-
-* EFB unit conversions cause weights on ECAM and MCDU to show 0 when **lbs** is selected by the efb.
-
-* FOB displays 0 on ECAM.
-
-**Workaround:** Set lbs through the MCDU only and reload the aircraft.
-
-!!! info ""
-    **Fix in Progress [PR #5344](https://github.com/flybywiresim/a32nx/pull/5344)**
-
----
+    * Simbrief integration - fuel and payload showing 0 after OFP request in AOC.
+    * EFB unit conversions cause weights on ECAM and MCDU to show 0 when **lbs** is selected by the efb.
+    * FOB displays 0 on ECAM.
+        * **Workaround:** Set lbs through the MCDU only and reload the aircraft.
+        * **Fix in Progress [PR #5344](https://github.com/flybywiresim/a32nx/pull/5344)**
+    
+* Fuel consumption may be larger than normal at higher than ISA temps. *Under Investigation*
 
 * Toolbar pushback addon may cause unwanted behavior and prevent use of nose wheel steering.
     - Solution:
