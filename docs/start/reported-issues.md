@@ -41,7 +41,7 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
     * FOB displays 0 on ECAM.
         * **Workaround:** Set lbs through the MCDU only and reload the aircraft.
         * **Fix in Progress [PR #5344](https://github.com/flybywiresim/a32nx/pull/5344)**
-    
+
 * Fuel consumption may be larger than normal at higher than ISA temps. *Under Investigation*
 
 * Toolbar pushback addon may cause unwanted behavior and prevent use of nose wheel steering.
@@ -112,9 +112,9 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
 
 The effects of non-standard day pressure and temperature on altitude in MSFS are inaccurate for SU5 affecting the following:
 
-- In game ATC may still see you at a different altitude than what you see in the flight deck. This is reported to be fixed by Asobo in World Update 6. 
-    - **Workaround:** Climb or descend a copule hundred feet at a time until the in game ATC stops requesting you to climb or descend. 
-    
+- In game ATC may still see you at a different altitude than what you see in the flight deck. This is reported to be fixed by Asobo in World Update 6.
+    - **Workaround:** Climb or descend a copule hundred feet at a time until the in game ATC stops requesting you to climb or descend.
+
 - VATSIM controllers may also see ou at a different altitude when you are below the transition altitude. We recommend including a note on your flight plan that you are using MSFS.
 
 !!! info ""
@@ -146,7 +146,7 @@ Using **New** Cockpit Interaction System
 !!! warning ""
     This list is based on our testing and feedback. For more information see the [MSFS Release Notes](https://forums.flightsimulator.com/t/microsoft-flight-simulator-available-today-on-xbox-series-x-s-and-xbox-game-pass/425795) - Cockpit Interactions.
 
-    Direct your support questions and feedback of this feature to Asobo. 
+    Direct your support questions and feedback of this feature to Asobo.
 
 ---
 
@@ -265,7 +265,7 @@ Crash to desktop (CTD) can either be a sim issue or a conflict with the A32NX. T
 !!! warning "Peripherals"
     This is an important snippet from MSFS known issues.
 
-    If you are getting CTDs, it could be one of your peripherals disconnecting sometime during the flight, which then causes the sim to CTD. 
+    If you are getting CTDs, it could be one of your peripherals disconnecting sometime during the flight, which then causes the sim to CTD.
 
     It could be anything from a usb drive to a controller. Please try to minimise how many peripherals you have connected.
 
