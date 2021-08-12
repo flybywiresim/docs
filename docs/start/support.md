@@ -93,7 +93,7 @@ The version of Microsoft Flight Simulator 2020 you are using can be found via se
 
 - Using the MS Store Update dialog.
 
-    ![MSFS-Version-MSStore](../assets/support-guide/MSFS-Version-MSStore.png "MSFS-Version-MSStore")
+    ![MSFS-Version-MSStore](../assets/support-guide/MSFS-Version-MSStore.jpg "MSFS-Version-MSStore")
 
 ### A32NX Version
 
