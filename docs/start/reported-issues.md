@@ -87,8 +87,6 @@ Using the "lbs" weight setting on the EFB may cause the following issues.
 
 ### SU5 Issues
 
-#### General SU5 Issues
-
 !!! warning "Important Notice"
     If you have the following issues you are **most likely on stable**:
 
@@ -128,7 +126,7 @@ Using the "lbs" weight setting on the EFB may cause the following issues.
 
   ![throttle config image](https://cdn.discordapp.com/attachments/754130199804772372/869697814458945546/unknown.png)
 
-#### Altitude Issues
+### Altitude Issues
 
 The effects of non-standard day pressure and temperature on altitude in MSFS is inaccurate for SU5 affecting the following:
 
@@ -141,7 +139,7 @@ The effects of non-standard day pressure and temperature on altitude in MSFS is 
 - The built-in MSFS ATC will experience the same altitude issues - you may see FL390 on your altimeter, but the ATC will see you at a different altitude.
 
 
-#### Cockpit Interaction System
+### Cockpit Interaction System
 
 !!! info "**Legacy** Cockpit Interaction System"
     If you want to use the old method of interacting with the cockpit before Sim Update 5:
