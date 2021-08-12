@@ -16,6 +16,7 @@ nav:
   - Getting Started:
       - FlyByWire Versions: start/fbw-versions.md
       - Installation: start/installation.md
+      - Support Guide: start/support.md
       - Converting Liveries: start/convert-liveries.md
       - Porting Custom Camera Views: start/porting-custom-cameras.md
       - Reported Issues: start/reported-issues.md
@@ -59,7 +60,8 @@ theme:
     scheme: slate
   features:
     - navigation.tabs
-    - navigation.instant
+    # Temporarily deactivated to provide support for Discord browser + anchor links
+    # - navigation.instant
     - navigation.top
   favicon: assets/images/FBW-Tail.png
 
