@@ -38,7 +38,11 @@ Join our Discord server [:fontawesome-brands-discord:{: .discord } - **Discord L
 
 - Read the Sticky Messages which is automatically posted after each message.
 
+    ![Sticky-Message](../assets/support-guide/Sticky-Message.png "Sticky-Message")
+
 - Search in the #support channel for similar issues other users have reported.
+
+    ![Search-support](../assets/support-guide/Search-support.png "Search-support")
 
 !!! warning "Please do this research before you post any questions or report any issues."
 
