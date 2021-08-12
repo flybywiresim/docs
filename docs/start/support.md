@@ -22,11 +22,11 @@ Please make sure you have acquired the knowledge to distinguish a software issue
 
 Please try and remove all other mods/liveries from the [Community Folder](#community-folder-content) and perform a clean reinstall of the A32NX with the [FlyByWire Installer](https://api.flybywiresim.com/installer). Then start the simulator and check if the problem is still present. This will help rule out mod conflicts.
 
-!!! warning "Please really do this as >90% of all reported issues are caused by conflicts with other mods and liveries, etc. Unfortunately Microsoft Flight Simulator 2020 is very sensible to conflicts between mods and liveries."
+!!! warning "Please really do this as >90% of all reported issues are caused by conflicts with other mods and liveries, etc. Unfortunately Microsoft Flight Simulator 2020 is very sensitive to conflicts between mods and liveries."
 
 ##  3. Research Known Issues
 
-Read the [Reported Issues](support.md) section - most issues users encounter are already on this list.
+Read the [Reported Issues](reported-issues.md) section - most issues users encounter are already on this list.
 
 If you have a github account please also see [Issues](https://github.com/flybywiresim/a32nx/issues) there. Please also use the search for your particular issue.
 
@@ -101,7 +101,7 @@ The version of Microsoft Flight Simulator 2020 you are using can be found via se
 
 You can determine which version of the FBW A32NX you use by looking at:
 
-- the FylByWire Installer
+- the FlyByWire Installer
 
     ![Installer](../assets/support-guide/Installer.jpg "Installer")
 
