@@ -16,6 +16,7 @@ nav:
   - Getting Started:
       - FlyByWire Versions: start/fbw-versions.md
       - Installation: start/installation.md
+      - Support Guide: start/support.md
       - Converting Liveries: start/convert-liveries.md
       - Porting Custom Camera Views: start/porting-custom-cameras.md
       - Reported Issues: start/reported-issues.md
