@@ -30,9 +30,17 @@ Read the [Reported Issues](support.md) section - most issues users encounter are
 
 If you have a github account please also see [Issues](https://github.com/flybywiresim/a32nx/issues) there. Please also use the search for your particular issue.
 
-Join our Discord server [:fontawesome-brands-discord:{: .discord } - **Discord Link**](https://discord.gg/flybywire) and search in the #support channel for similar issue user have reported.
+Join our Discord server [:fontawesome-brands-discord:{: .discord } - **Discord Link**](https://discord.gg/flybywire) and do the following:
 
-!!! warning "Please do some research before you post any questions or report any issues."
+- Read the Pinned Messages for commonly reported issues
+
+    ![Pinned-Messages](../assets/support-guide/Pinned-Messages.png "Pinned-Messages")
+
+- Read the Sticky Messages which is automatically posted after each message.
+
+- Search in the #support channel for similar issues other users have reported.
+
+!!! warning "Please do this research before you post any questions or report any issues."
 
 ## 4. Report Issue on Discord
 
@@ -48,7 +56,7 @@ Please prepare the following before reporting any issues:
 With this information at hand go to our Discord  [:fontawesome-brands-discord:{: .discord } - **Discord**](https://discord.gg/flybywire) **#support** channel and
 describe your issue and respond to the questions our support team might have.
 
-!!! warning "Please do a search before you post any questions or report any issues."
+!!! warning "Please do some research (see [above](#3-research-known-issues) ) before you post any questions or report any issues."
 
 ## 5. Report Issue on the A32NX Github
 
