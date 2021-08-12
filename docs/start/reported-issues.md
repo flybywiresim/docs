@@ -211,22 +211,6 @@ Using **New** Cockpit Interaction System
 
 * Instructions to send us installer logs can be found [here](installation.md#flybywire-installer)
 
-***
-
-## MSFS Live Weather
-
-If the live weather feature is experiencing issues you may experience the following:
-
-- Degraded aircraft performance.
-- Airspeed and climb rate issues.
-
-You will typically see higher or excessive fuel flow alongside exceedingly high SAT, which leads to high TAT and ISA deviation.
-
-!!! info ""
-    ISA deviation is the difference between SAT and the ISA temperature for that altitude and is indicated by the value next to ISA in the ECAM.
-
-**Workaround**: Use a static weather preset for your flight.
-
 ---
 
 ## Common Issues
@@ -265,8 +249,23 @@ You will typically see higher or excessive fuel flow alongside exceedingly high 
 
 * ASOBO *Aviator/Beta Club* A320 liveries are incompatible with the A32NX mod
 
+---
 
-***
+## MSFS Live Weather
+
+If the live weather feature is experiencing issues you may experience the following:
+
+- Degraded aircraft performance.
+- Airspeed and climb rate issues.
+
+You will typically see higher or excessive fuel flow alongside exceedingly high SAT, which leads to high TAT and ISA deviation.
+
+!!! info ""
+ISA deviation is the difference between SAT and the ISA temperature for that altitude and is indicated by the value next to ISA in the ECAM.
+
+**Workaround**: Use a static weather preset for your flight.
+
+---
 
 ## CTD Resolution
 
