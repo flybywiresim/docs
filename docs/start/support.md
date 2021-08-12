@@ -32,11 +32,11 @@ If you have a github account please also see [Issues](https://github.com/flybywi
 
 Join our Discord server [:fontawesome-brands-discord:{: .discord } - **Discord Link**](https://discord.gg/flybywire) and search in the #support channel for similar issue user have reported.
 
-!!! warning "Please do a search before you post any questions or report any issues."
+!!! warning "Please do some research before you post any questions or report any issues."
 
 ## 4. Report Issue on Discord
 
-If you can't solve or find your issue with the above steps, you can use our discord #support channel to get further help.
+If you can't solve or find your issue with the above steps, you can use our [:fontawesome-brands-discord:{: .discord } - **Discord**](https://discord.gg/flybywire) **#support** channel to get further help.
 
 Please prepare the following before reporting any issues:
 
@@ -45,7 +45,7 @@ Please prepare the following before reporting any issues:
 - [Community Folder Content](#community-folder-content)
 - [Screenshot of Cockpit](#screenshot-of-cockpit)
 
-With this information at hand go to our Discord  [:fontawesome-brands-discord:{: .discord } - **Discord Link**](https://discord.gg/flybywire) **#support** channel and
+With this information at hand go to our Discord  [:fontawesome-brands-discord:{: .discord } - **Discord**](https://discord.gg/flybywire) **#support** channel and
 describe your issue and respond to the questions our support team might have.
 
 !!! warning "Please do a search before you post any questions or report any issues."
@@ -122,7 +122,7 @@ Make a screenshot of the Community Folder if requested by our support team.
 
 ### Screenshot of Cockpit
 
-Quite often when issues during flight are reported a Screenshot of the Cockpit will be request by our support team. A good screenshot should contain all screens and the FCU in a sufficient resolution to help the support team to recognize details on the PFD or ND.
+Quite often when issues during flight are reported a screenshot of the Cockpit will be request by our support team. A good screenshot should contain all screens and the FCU in a sufficient resolution to help the support team to recognize details on the PFD, ND or ECAMs.
 
 #### Example:
 
@@ -130,7 +130,7 @@ Quite often when issues during flight are reported a Screenshot of the Cockpit w
 
 #### How to do a good screenshot:
 
-Position yourself in the cockpit to look straight at the front instrument panel as in the example above and then use the Windows Sniping Tool ( [HowTo](https://support.microsoft.com/en-us/windows/open-snipping-tool-and-take-a-screenshot-a35ac9ff-4a58-24c9-3253-f12bac9f9d44)) to take a screenshot.
+Position yourself in the cockpit using arrow keys (default key mapping) to look straight at the front instrument panel as in the example above and then use the Windows Sniping Tool ( [HowTo](https://support.microsoft.com/en-us/windows/open-snipping-tool-and-take-a-screenshot-a35ac9ff-4a58-24c9-3253-f12bac9f9d44)) to take a screenshot of all screens and the FCU.
 
 
 
