@@ -34,40 +34,74 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
     - [**Typical Issues + Solutions**](autopilot-fbw.md#typical-issues-and-how-to-solve-them)
     - [**Known Issues**](autopilot-fbw.md#known-issues)
 
-* Using the *"pounds (lbs)"* weight setting on the EFB may cause the following issues.
+#### Using the *"Pounds (lbs)"* on the EFB
 
-    * Simbrief integration - fuel and payload showing 0 after OFP request in AOC.
-    * EFB unit conversions cause weights on ECAM and MCDU to show 0 when **lbs** is selected by the efb.
-    * FOB displays 0 on ECAM.
-        * **Workaround:** Set lbs through the MCDU only and reload the aircraft.
-        * **Fix in Progress [PR #5344](https://github.com/flybywiresim/a32nx/pull/5344)**
+!!! tip ""
+    *Affected versions: Stable, Development*
 
-* Fuel consumption may be larger than normal at higher than ISA temps. *Under Investigation*
+The lbs weight setting on the EFB may cause the following issues.
 
-* Toolbar pushback addon may cause unwanted behavior and prevent use of nose wheel steering.
-    - Solution:
-        - Remove the addon from your community folder or wait for developer to update.
-        - Use our EFB which has built in pushback controls or another addon.
+- Simbrief integration - fuel and payload showing 0 after OFP request in AOC.
+- EFB unit conversions cause weights on ECAM and MCDU to show 0 when **lbs** is selected by the efb.
+- FOB displays 0 on ECAM.
 
-* Custom autopilot unwanted disconnection.
-    - Excessive speed decay during level off from open descent can lead to unwanted autothrust disconnection or even alpha floor in certain high drag/low speed situations.
-    - *Currently under investigation.*
+- **Workaround:** Set lbs through the MCDU only and reload the aircraft.
+- **Fix in Progress [PR #5344](https://github.com/flybywiresim/a32nx/pull/5344)**
 
-* Unwanted behavior - Autopilot, FADEC, electrical system
-    - In rare cases the above mentioned systems may not start or behave erratically. This is in part due to `UTF-8` language support beta not enabled on your machine.
-        - Solution:
-            1. - Open Windows Control Panel -> Region.
-                - Go to the Administrative tab and click ++"Change system locale"++
-                - Make sure the check mark next to `Beta: Use UTF-8 for worldwide language support` is selected.
-                - Click ++"OK"++ and restart your computer.
-            1. - Ensure `simconnect.cfg` does not appear in your Documents folder on your computer.
+#### Fuel Consumption
 
-* ADIRS not aligned when spawning anywhere except cold & dark at a gate (*intermittent issue*)
-    - Workaround: Restart the flight
+!!! tip ""
+    *Affected versions: Stable, Development*
 
-* Wipers don't function correctly on FSX Liveries
+- May be larger than normal at higher than ISA temps.
+- *Under Investigation*
 
-### SU5 Issues
+#### Toolbar Pushback Addon
+
+!!! tip ""
+    *Affected versions: Stable, Development*
+
+May cause unwanted behavior and prevent use of nose wheel steering.
+
+- Solution:
+    - Remove the addon from your community folder or wait for developer to update.
+    - Use our EFB which has built in pushback controls or another addon.
+
+#### Custom Autopilot Unwanted Disconnection
+
+!!! tip ""
+    *Affected versions: Development*
+
+- Excessive speed decay during level off from open descent can lead to unwanted autothrust disconnection or even alpha floor in certain high drag/low speed situations. *Currently under investigation.*
+
+#### Unwanted behavior - UTF8
+
+!!! tip ""
+    *Affected versions: Stable, Development*
+
+Affects our custom autopilot, FADEC, and electrical system
+
+- In rare cases the above mentioned systems may not start or behave erratically. This is in part due to `UTF-8` language support beta not enabled on your machine.
+- Solution:
+    1. - Open Windows Control Panel -> Region.
+         - Go to the Administrative tab and click ++"Change system locale"++
+         - Make sure the check mark next to `Beta: Use UTF-8 for worldwide language support` is selected.
+         - Click ++"OK"++ and restart your computer.
+    1. - Ensure `simconnect.cfg` does not appear in your Documents folder on your computer.
+
+#### ADIRS - Runway
+
+!!! tip ""
+    *Affected versions: Development*
+
+
+ADIRS may not be aligned when spawning anywhere except cold & dark at a gate (*intermittent issue*)
+
+- Workaround: Restart the flight
+
+---
+
+## SU5 Issues
 
 !!! warning "Important Notice"
     If you have the following issues you are **most likely on stable**:
@@ -81,39 +115,75 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
 
     ![content manager image](https://media.discordapp.net/attachments/828975068947939368/870365130335088660/unknown.png?width=1440&height=123)
 
-    Uninstall it and restart the sim. Reinstall development verison from our installer.
+    Uninstall it and restart the sim. Reinstall development version from our installer.
     
     <sub> You may install Stable v0.6.3 for compatibility. We recommend staying on development.
 
     This information is stated on [Installation Guide](installation.md).
 
-- **Intermittent / Single time event only** - Printing METAR reports may cause a CTD.
+#### Printing METAR Reports May Cause a CTD
 
-- Freelook with mouse causes controls to freeze.
-    - Workaround: Try setting `TOGGLE COCKPIT FREELOOK` to your mouse ++middle-button++. Reference: [MSFS Forum Post](https://forums.flightsimulator.com/t/freelook-with-mouse-causes-controls-to-freeze-after-su5/426349/15)
+!!! tip ""
+    *Affected versions: Stable, Development*
 
-- Cockpit decals flicker. *Under investigation*
+- Intermittent / Single time event only
+- *Under investigation*
 
-- Strobe light function may be reversed (Set to `OFF` but lights on) when starting on the runway. *Under investigation*
-    - Workaround: Start cold and dark at the gate.
+#### Freelook with Mouse
 
-- TCA (Thrustmaster) hardware - can't start engine
-    - Open the controls menu
-        - REMOVE the below:
-            - “Toggle Engine 2 Fuel Valve” - Set to Joystick Button 4
-            - “Toggle Engine 1 Fuel Valve” - Set to Joystick Button 3
-        - KEEP the below:
-            - “Set Engine 2 Fuel Valve” - Set to Joystick Button 4
-            - “Set Engine 1 Fuel Valve” - Set to Joystick Button 3
+!!! tip ""
+    *Affected versions: Stable, Development*
 
-  ![throttle config image](https://cdn.discordapp.com/attachments/754130199804772372/869697814458945546/unknown.png)
+Using freelook may cause controls to freeze.
 
-### Altitude Issues
+- Workaround: Try setting `TOGGLE COCKPIT FREELOOK` to your mouse ++middle-button++. Reference: [MSFS Forum Post](https://forums.flightsimulator.com/t/freelook-with-mouse-causes-controls-to-freeze-after-su5/426349/15)
+
+#### Cockpit Decals Flicker
+
+!!! tip ""
+    *Affected versions: Stable, Development*
+
+- Solution: Update to the latest Stable or Development version.
+
+#### Strobe Light Function Reversed
+
+!!! tip ""
+    *Affected versions: Stable, Development*
+
+When strobe lights are set to `OFF` but the lights are on when starting on the runway. *Under investigation*
+
+- Workaround: Start cold and dark at the gate.
+
+#### TCA (Thrustmaster) hardware
+
+!!! tip ""
+    *Affected versions: Stable, Development*
+
+Can't start engines:
+
+- Open the controls menu
+    - REMOVE the below:
+        - “Toggle Engine 2 Fuel Valve” - Set to Joystick Button 4
+        - “Toggle Engine 1 Fuel Valve” - Set to Joystick Button 3
+    - KEEP the below:
+        - “Set Engine 2 Fuel Valve” - Set to Joystick Button 4
+        - “Set Engine 1 Fuel Valve” - Set to Joystick Button 3
+
+![throttle config image](https://cdn.discordapp.com/attachments/754130199804772372/869697814458945546/unknown.png)
+
+Also see our [Throttle Calibration Guide](throttle-calibration.md)
+
+---
+
+## Altitude Issues
+
+!!! tip ""
+    *Affected versions: Stable, Development*
 
 The effects of non-standard day pressure and temperature on altitude in MSFS are inaccurate for SU5 affecting the following:
 
 - In game ATC may still see you at a different altitude than what you see in the flight deck. This is reported to be fixed by Asobo in World Update 6.
-    - **Workaround:** Climb or descend a copule hundred feet at a time until the in game ATC stops requesting you to climb or descend.
+    - **Workaround:** Climb or descend a couple hundred feet at a time until the in game ATC stops requesting you to climb or descend.
 
 - VATSIM controllers may also see ou at a different altitude when you are below the transition altitude. We recommend including a note on your flight plan that you are using MSFS.
 
@@ -122,7 +192,10 @@ The effects of non-standard day pressure and temperature on altitude in MSFS are
 
 ---
 
-### Cockpit Interaction System
+## Cockpit Interaction System
+
+!!! tip ""
+    *Affected versions: Stable, Development*
 
 !!! info "**Legacy** Cockpit Interaction System"
     If you want to use the old method of interacting with the cockpit before Sim Update 5:
@@ -143,18 +216,21 @@ Using **New** Cockpit Interaction System
 - To pull a control / knob out, hold ++"Left Click"++ and then click your scroll wheel ++"Middle Mouse"++.
     - Note: If you already use the ++"Middle Mouse"++ button to activate freelook this may not work. Check your keybinds so this feature does not conflict.
 
-!!! warning ""
+!!! tip ""
     This list is based on our testing and feedback. For more information see the [MSFS Release Notes](https://forums.flightsimulator.com/t/microsoft-flight-simulator-available-today-on-xbox-series-x-s-and-xbox-game-pass/425795) - Cockpit Interactions.
 
     Direct your support questions and feedback of this feature to Asobo.
 
 ---
 
-### Package Separation Issues
+## Package Separation Issues
+
+!!! tip ""
+    *Affected versions: Stable, Development*
 
 !!! warning "Liveries incompatible due to package separation"
 
-    **Affects all versions of the A32NX (Stable, Development, and Experimental)**
+    **Affects all versions of the A32NX (Stable, Development)**
 
     Liveries made for the default A320neo will no longer function in the new FlyByWire package. Liveries will need to be converted by their respective authors.
 
@@ -173,7 +249,7 @@ Using **New** Cockpit Interaction System
 
 ***
 
-### Installer Issues
+## Installer Issues
 
 ![installer issue](https://media.discordapp.net/attachments/831654046405230652/832741603940237362/unknown.png)
 
@@ -196,43 +272,94 @@ Using **New** Cockpit Interaction System
 
 ## Common Issues
 
-* `NOT IN DATABASE` when loading flight plan
-    * Upgrade to the latest A32NX package (stable or development).
-    * Install/uninstall Navigraph data with the Navigraph Navdata Center application. __Do not__ delete `navigraph-navdata` from the community packages directory, as this will leave default navdata disabled.
+#### NOT IN DATABASE when loading flight plan
 
-* AP not following the flight plan (leaking input values affect, but doesn't disconnect the AP)
-    - Workaround: Set dead-zones for your input device higher
-        - Go to your settings
-        - Controls and select your yoke/joystick/controller.
-            - After that click the sensitivity button on the top left which should take you to the menu where you can adjust your deadzones. Start with 20% deadzone, if the problem persists keep increasing it. If it's fine with 20% you can then slowly decrease it too.
+!!! tip ""
+    *Affected versions: Stable, Development*
 
-* Autopilot goes direct to RWY on APP (same with the default A320)
-    - Workaround: Use DIR to a waypoint or selected heading
+- Upgrade to the latest A32NX package (stable or development).
+- Install/uninstall Navigraph data with the Navigraph Navdata Center application.
+- __Do not__ delete `navigraph-navdata` from the community packages directory, as this will leave default navdata disabled.
 
-* CTD when pressing **FLY** on world menu
-    - Check your content manager for missing packages
+#### AP not following the flight plan
 
-* Plane is invisible
-    - Check your content manager for missing packages
-    - Livery/Mod Conflict
+!!! tip ""
+    *Affected versions: Stable, Development*
 
-* Rudder keybindings not working
-    * You have to set your keybinding to rudder axis right and left
+- Caused by leaking input from controller, but doesn't disconnect the AP
+- Workaround: Set dead-zones for your input device higher
+    - Go to your settings
+    - Controls and select your yoke/joystick/controller.
+    - After that click the sensitivity button on the top left which should take you to the menu where you can adjust your deadzones. Start with 20% deadzone, if the problem persists keep increasing it. If it's fine with 20% you can then slowly decrease it too.
 
-* Wing dips on landing (due to bad transition to direct law in flare, same with the default A320)
-    * Workaround: use minimal aileron input on landing
+#### Autopilot goes direct to RWY on APP (same with the default A320)
 
-* Black screens / unable to start
-    * Conflict with another mod/livery or incorrect installation of the A32NX mod
-    * Use our [installer](https://api.flybywiresim.com/installer)
+!!! tip ""
+    *Affected versions: Stable, Development*
 
-* Upper ECAM displays wrong THR levers position / N1 rating
+- This is a bug in the default Asobo flight plan manager - the FlyByWire team is working on a customFPM which fixes all these bugs and adds much better navigation
+- For now the workaround is to use DIRECT to the next waypoint again or selected heading.
+- If you can, always enter your expected approach in the MCDU before departing. If this doesn't need to be changed, this will skip the turnaround bug on approach. This issue and others like it will be resolved in cFPM.
 
-* ASOBO *Aviator/Beta Club* A320 liveries are incompatible with the A32NX mod
+#### CTD when pressing **FLY** on world menu
+
+!!! tip ""
+    *Affected versions: Stable, Development*
+
+- Check your content manager for missing packages
+
+#### Plane is invisible
+
+!!! tip ""
+    *Affected versions: Stable, Development*
+
+- Check your content manager for missing packages
+- Livery/Mod Conflict
+
+#### Rudder keybindings not working
+
+!!! tip ""
+    *Affected versions: Stable, Development*
+
+- You have to set your keybinding to rudder axis right and left
+
+#### Wing dips on landing
+
+!!! tip ""
+    *Affected versions: Stable*
+
+- Caused by bad transition to direct law in flare, same with the default A320
+- Workaround: use minimal aileron input on landing
+
+#### Black screens / unable to start
+
+!!! tip ""
+    *Affected versions: Stable, Development*
+
+- Conflict with another mod/livery or incorrect installation of the A32NX mod
+- Use our [installer](https://api.flybywiresim.com/installer)
+
+#### Upper ECAM displays wrong THR levers position / N1 rating
+
+!!! tip ""
+    *Affected versions: Stable*
+
+- Solved in Development version after calibrating the throttle.
+
+#### Incompatibilities
+
+!!! tip ""
+    *Affected versions: Stable, Development*
+
+- ASOBO *Aviator/Beta Club* A320 liveries are incompatible with the A32NX mod
+- Wipers don't function correctly with converted FSX Liveries
 
 ---
 
 ## MSFS Live Weather
+
+!!! tip ""
+    *Affected versions: Stable, Development*
 
 If the live weather feature is experiencing issues you may experience the following:
 
@@ -249,6 +376,9 @@ ISA deviation is the difference between SAT and the ISA temperature for that alt
 ---
 
 ## CTD Resolution
+
+!!! tip ""
+    *Affected versions: Stable, Development*
 
 Crash to desktop (CTD) can either be a sim issue or a conflict with the A32NX. There also is currently no known guaranteed solution, however users have found success with by trying the following:
 
