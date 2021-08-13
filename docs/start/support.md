@@ -145,13 +145,13 @@ Make a screenshot of the Community Folder if requested by our support team.
 
 Quite often when issues during flight are reported a screenshot of the Cockpit will be request by our support team. A good screenshot should contain all screens and the FCU in a sufficient resolution to help the support team to recognize details on the PFD, ND or ECAMs.
 
-#### Example:
+#### Example
 
 ![Cockpit screenshot for Support](../assets/support-guide/cockpit-screenshot.jpg "Cockpit screenshot for Support"){loading=lazy}
 
-#### How to do a good screenshot:
+#### How to Take a Good Screenshot
 
-Position yourself in the cockpit using arrow keys (default key mapping) to look straight at the front instrument panel as in the example above and then use the Windows Sniping Tool ( [HowTo](https://support.microsoft.com/en-us/windows/open-snipping-tool-and-take-a-screenshot-a35ac9ff-4a58-24c9-3253-f12bac9f9d44)) to take a screenshot of all screens and the FCU.
+Position yourself in the cockpit using arrow keys (default key mapping) to look straight at the front instrument panel as in the example above and then use the Windows Sniping Tool ([Instructions Here](https://support.microsoft.com/en-us/windows/open-snipping-tool-and-take-a-screenshot-a35ac9ff-4a58-24c9-3253-f12bac9f9d44)) to take a screenshot of all screens and the FCU.
 
 
 
