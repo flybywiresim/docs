@@ -34,40 +34,51 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
     - [**Typical Issues + Solutions**](autopilot-fbw.md#typical-issues-and-how-to-solve-them)
     - [**Known Issues**](autopilot-fbw.md#known-issues)
 
-* Using the *"pounds (lbs)"* weight setting on the EFB may cause the following issues.
+#### Using the *"Pounds (lbs)"* on the EFB
 
-    * Simbrief integration - fuel and payload showing 0 after OFP request in AOC.
-    * EFB unit conversions cause weights on ECAM and MCDU to show 0 when **lbs** is selected by the efb.
-    * FOB displays 0 on ECAM.
-        * **Workaround:** Set lbs through the MCDU only and reload the aircraft.
-        * **Fix in Progress [PR #5344](https://github.com/flybywiresim/a32nx/pull/5344)**
+The lbs weight setting on the EFB may cause the following issues.
 
-* Fuel consumption may be larger than normal at higher than ISA temps. *Under Investigation*
+- Simbrief integration - fuel and payload showing 0 after OFP request in AOC.
+- EFB unit conversions cause weights on ECAM and MCDU to show 0 when **lbs** is selected by the efb.
+- FOB displays 0 on ECAM.
+    * **Workaround:** Set lbs through the MCDU only and reload the aircraft.
+    * **Fix in Progress [PR #5344](https://github.com/flybywiresim/a32nx/pull/5344)**
 
-* Toolbar pushback addon may cause unwanted behavior and prevent use of nose wheel steering.
-    - Solution:
-        - Remove the addon from your community folder or wait for developer to update.
-        - Use our EFB which has built in pushback controls or another addon.
+#### Fuel Consumption
 
-* Custom autopilot unwanted disconnection.
-    - Excessive speed decay during level off from open descent can lead to unwanted autothrust disconnection or even alpha floor in certain high drag/low speed situations.
-    - *Currently under investigation.*
+- May be larger than normal at higher than ISA temps. *Under Investigation*
 
-* Unwanted behavior - Autopilot, FADEC, electrical system
-    - In rare cases the above mentioned systems may not start or behave erratically. This is in part due to `UTF-8` language support beta not enabled on your machine.
-        - Solution:
-            1. - Open Windows Control Panel -> Region.
-                - Go to the Administrative tab and click ++"Change system locale"++
-                - Make sure the check mark next to `Beta: Use UTF-8 for worldwide language support` is selected.
-                - Click ++"OK"++ and restart your computer.
-            1. - Ensure `simconnect.cfg` does not appear in your Documents folder on your computer.
+#### Toolbar Pushback Addon 
 
-* ADIRS not aligned when spawning anywhere except cold & dark at a gate (*intermittent issue*)
-    - Workaround: Restart the flight
+May cause unwanted behavior and prevent use of nose wheel steering.
 
-* Wipers don't function correctly on FSX Liveries
+- Solution:
+    - Remove the addon from your community folder or wait for developer to update.
+    - Use our EFB which has built in pushback controls or another addon.
 
-### SU5 Issues
+#### Custom Autopilot Unwanted Disconnection.
+
+- Excessive speed decay during level off from open descent can lead to unwanted autothrust disconnection or even alpha floor in certain high drag/low speed situations. *Currently under investigation.*
+
+#### Unwanted behavior - UTF8
+
+Affects our custom autopilot, FADEC, and electrical system
+
+- In rare cases the above mentioned systems may not start or behave erratically. This is in part due to `UTF-8` language support beta not enabled on your machine.
+- Solution:
+    1. - Open Windows Control Panel -> Region.
+         - Go to the Administrative tab and click ++"Change system locale"++
+         - Make sure the check mark next to `Beta: Use UTF-8 for worldwide language support` is selected.
+         - Click ++"OK"++ and restart your computer.
+    1. - Ensure `simconnect.cfg` does not appear in your Documents folder on your computer.
+
+#### ADIRS - Runway 
+
+ADIRS may not be aligned when spawning anywhere except cold & dark at a gate (*intermittent issue*)
+
+- Workaround: Restart the flight
+
+## SU5 Issues
 
 !!! warning "Important Notice"
     If you have the following issues you are **most likely on stable**:
@@ -87,26 +98,36 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
 
     This information is stated on [Installation Guide](installation.md).
 
-- **Intermittent / Single time event only** - Printing METAR reports may cause a CTD.
+#### Printing METAR reports may cause a CTD
 
-- Freelook with mouse causes controls to freeze.
-    - Workaround: Try setting `TOGGLE COCKPIT FREELOOK` to your mouse ++middle-button++. Reference: [MSFS Forum Post](https://forums.flightsimulator.com/t/freelook-with-mouse-causes-controls-to-freeze-after-su5/426349/15)
+- Intermittent / Single time event only
 
-- Cockpit decals flicker. *Under investigation*
+#### Freelook with mouse causes controls to freeze
 
-- Strobe light function may be reversed (Set to `OFF` but lights on) when starting on the runway. *Under investigation*
+- Workaround: Try setting `TOGGLE COCKPIT FREELOOK` to your mouse ++middle-button++. Reference: [MSFS Forum Post](https://forums.flightsimulator.com/t/freelook-with-mouse-causes-controls-to-freeze-after-su5/426349/15)
+
+#### Cockpit decals flicker
+
+- *Under investigation*
+
+#### Strobe light function may be reversed 
+
+- Set to `OFF` but lights on when starting on the runway. *Under investigation*
     - Workaround: Start cold and dark at the gate.
 
-- TCA (Thrustmaster) hardware - can't start engine
-    - Open the controls menu
-        - REMOVE the below:
-            - “Toggle Engine 2 Fuel Valve” - Set to Joystick Button 4
-            - “Toggle Engine 1 Fuel Valve” - Set to Joystick Button 3
-        - KEEP the below:
-            - “Set Engine 2 Fuel Valve” - Set to Joystick Button 4
-            - “Set Engine 1 Fuel Valve” - Set to Joystick Button 3
+#### TCA (Thrustmaster) hardware
 
-  ![throttle config image](https://cdn.discordapp.com/attachments/754130199804772372/869697814458945546/unknown.png)
+Can't start engines:
+
+- Open the controls menu
+    - REMOVE the below:
+        - “Toggle Engine 2 Fuel Valve” - Set to Joystick Button 4
+        - “Toggle Engine 1 Fuel Valve” - Set to Joystick Button 3
+    - KEEP the below:
+        - “Set Engine 2 Fuel Valve” - Set to Joystick Button 4
+        - “Set Engine 1 Fuel Valve” - Set to Joystick Button 3
+  
+![throttle config image](https://cdn.discordapp.com/attachments/754130199804772372/869697814458945546/unknown.png)
 
 ### Altitude Issues
 
@@ -229,6 +250,8 @@ Using **New** Cockpit Interaction System
 * Upper ECAM displays wrong THR levers position / N1 rating
 
 * ASOBO *Aviator/Beta Club* A320 liveries are incompatible with the A32NX mod
+
+* Wipers don't function correctly on FSX Liveries
 
 ---
 
