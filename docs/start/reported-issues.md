@@ -134,7 +134,7 @@ Can't start engines:
 The effects of non-standard day pressure and temperature on altitude in MSFS are inaccurate for SU5 affecting the following:
 
 - In game ATC may still see you at a different altitude than what you see in the flight deck. This is reported to be fixed by Asobo in World Update 6.
-    - **Workaround:** Climb or descend a copule hundred feet at a time until the in game ATC stops requesting you to climb or descend.
+    - **Workaround:** Climb or descend a couple hundred feet at a time until the in game ATC stops requesting you to climb or descend.
 
 - VATSIM controllers may also see ou at a different altitude when you are below the transition altitude. We recommend including a note on your flight plan that you are using MSFS.
 
