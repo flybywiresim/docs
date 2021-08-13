@@ -1,5 +1,7 @@
 # Texture Map Changes
 
+Changes made to the A32NX external model texturing will be documented below. The intended audience for this page is livery creators.
+
 ## Sharklet Un-Mirror
 
 The A32NX sharklet model previously mapped both sharklets to the same location on the livery decal texture, despite a second set of sharklets existing on the texture. We have corrected the UV map to utilise the second set of sharklets, to allow accurate depictions of liveries with text, or other items that cannot be mirrored. It was necessary to make use of the existing decals from the original Asobo model because no method has been developed yet to attach new decals to animation bones, so the decals would move with the wing flex.
