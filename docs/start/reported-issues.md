@@ -6,23 +6,14 @@
 
     <sub>Report back the result of this test on our Discord.
 
-!!! warning "Important Troubleshooting Information"
-    ^^Updates^^
+!!! warning "Read our Support Guide"
 
-    If you cannot resolve any issues with solutions listed below perform a clean reinstall of the A32NX. Delete either of the folders below from your community folder:
-
-    * A32NX (old folder name)
-    * flybywire-aircraft-a320-neo (new folder name)
-
-    **[Read - Additional Clean Install Steps](installation.md#clean-install-steps)**
-
-    ---
-
-    ^^Flight Model^^
-
-    **The modern flight model is required to fly the A32NX**.
-
-    Please ensure that your flight model is set correctly via the MSFS settings.
+    1. [Learn how to fly an A32NX](support.md#1-learn-how-to-fly-an-a32nx)
+    - [Troubleshoot](support.md#2-troubleshoot)
+    - [Research Known Issues](support.md#3-research-known-issues)
+    - [Report Issue on Discord](support.md#4-report-issue-on-discord)
+    - [Report Issue on the A32NX Github](support.md#5-report-issue-on-the-a32nx-github)
+    - [Collecting Support Information](support.md#collecting-support-information)
 
     ---
     
@@ -43,30 +34,23 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
     - [**Typical Issues + Solutions**](autopilot-fbw.md#typical-issues-and-how-to-solve-them)
     - [**Known Issues**](autopilot-fbw.md#known-issues)
 
-**EFB *"pounds (lbs)"* setting**
+* Using the *"pounds (lbs)"* weight setting on the EFB may cause the following issues.
 
-Using the "lbs" weight setting on the EFB may cause the following issues.
-
-* Simbrief integration - fuel and payload showing 0 after OFP request in AOC.
-
-* EFB unit conversions cause weights on ECAM and MCDU to show 0 when **lbs** is selected by the efb.
-
-* FOB displays 0 on ECAM.
-
-**Workaround:** Set lbs through the MCDU only and reload the aircraft.
-
-!!! info ""
-    **Fix in Progress [PR #5344](https://github.com/flybywiresim/a32nx/pull/5344)**
-
----
+    * Simbrief integration - fuel and payload showing 0 after OFP request in AOC.
+    * EFB unit conversions cause weights on ECAM and MCDU to show 0 when **lbs** is selected by the efb.
+    * FOB displays 0 on ECAM.
+        * **Workaround:** Set lbs through the MCDU only and reload the aircraft.
+        * **Fix in Progress [PR #5344](https://github.com/flybywiresim/a32nx/pull/5344)**
+    
+* Fuel consumption may be larger than normal at higher than ISA temps. *Under Investigation*
 
 * Toolbar pushback addon may cause unwanted behavior and prevent use of nose wheel steering.
     - Solution:
         - Remove the addon from your community folder or wait for developer to update.
         - Use our EFB which has built in pushback controls or another addon.
 
-* Custom autopilot unexplained disconnection.
-    - There seems to be a speed decay issue in certain situations during turns and CONF2. It can also happen when approaching the level off altitude after open descent. Does not occur in level flight.
+* Custom autopilot unwanted disconnection.
+    - Excessive speed decay during level off from open descent can lead to unwanted autothrust disconnection or even alpha floor in certain high drag/low speed situations.
     - *Currently under investigation.*
 
 * Unwanted behavior - Autopilot, FADEC, electrical system
@@ -74,7 +58,7 @@ Using the "lbs" weight setting on the EFB may cause the following issues.
         - Solution:
             1. - Open Windows Control Panel -> Region.
                 - Go to the Administrative tab and click ++"Change system locale"++
-                - Make sure the check mark next to `Beta: Use UTF-8 for worldwide language support is selected`.
+                - Make sure the check mark next to `Beta: Use UTF-8 for worldwide language support` is selected.
                 - Click ++"OK"++ and restart your computer.
             1. - Ensure `simconnect.cfg` does not appear in your Documents folder on your computer.
 
@@ -86,8 +70,6 @@ Using the "lbs" weight setting on the EFB may cause the following issues.
 ***
 
 ### SU5 Issues
-
-#### General SU5 Issues
 
 !!! warning "Important Notice"
     If you have the following issues you are **most likely on stable**:
@@ -103,7 +85,7 @@ Using the "lbs" weight setting on the EFB may cause the following issues.
 
     Uninstall it and restart the sim. Reinstall development verison from our installer.
     
-    <sub> You may install Stable v0.6.2 for compatibility. We recommend staying on development.
+    <sub> You may install Stable v0.6.3 for compatibility. We recommend staying on development.
 
     This information is stated on [Installation Guide](installation.md).
 
@@ -128,7 +110,7 @@ Using the "lbs" weight setting on the EFB may cause the following issues.
 
   ![throttle config image](https://cdn.discordapp.com/attachments/754130199804772372/869697814458945546/unknown.png)
 
-#### Altitude Issues
+### Altitude Issues
 
 The effects of non-standard day pressure and temperature on altitude in MSFS is inaccurate for SU5 affecting the following:
 
@@ -141,7 +123,7 @@ The effects of non-standard day pressure and temperature on altitude in MSFS is 
 - The built-in MSFS ATC will experience the same altitude issues - you may see FL390 on your altimeter, but the ATC will see you at a different altitude.
 
 
-#### Cockpit Interaction System
+### Cockpit Interaction System
 
 !!! info "**Legacy** Cockpit Interaction System"
     If you want to use the old method of interacting with the cockpit before Sim Update 5:
@@ -211,22 +193,6 @@ Using **New** Cockpit Interaction System
 
 * Instructions to send us installer logs can be found [here](installation.md#flybywire-installer)
 
-***
-
-## MSFS Live Weather
-
-If the live weather feature is experiencing issues you may experience the following:
-
-- Degraded aircraft performance.
-- Airspeed and climb rate issues.
-
-You will typically see higher or excessive fuel flow alongside exceedingly high SAT, which leads to high TAT and ISA deviation.
-
-!!! info ""
-    ISA deviation is the difference between SAT and the ISA temperature for that altitude and is indicated by the value next to ISA in the ECAM.
-
-**Workaround**: Use a static weather preset for your flight.
-
 ---
 
 ## Common Issues
@@ -265,8 +231,23 @@ You will typically see higher or excessive fuel flow alongside exceedingly high 
 
 * ASOBO *Aviator/Beta Club* A320 liveries are incompatible with the A32NX mod
 
+---
 
-***
+## MSFS Live Weather
+
+If the live weather feature is experiencing issues you may experience the following:
+
+- Degraded aircraft performance.
+- Airspeed and climb rate issues.
+
+You will typically see higher or excessive fuel flow alongside exceedingly high SAT, which leads to high TAT and ISA deviation.
+
+!!! info ""
+ISA deviation is the difference between SAT and the ISA temperature for that altitude and is indicated by the value next to ISA in the ECAM.
+
+**Workaround**: Use a static weather preset for your flight.
+
+---
 
 ## CTD Resolution
 
