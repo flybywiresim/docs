@@ -49,6 +49,7 @@ nav:
       - Website: development-projects/website.md
   - A32NX Development:
       - Overview: a32nx-dev/overview.md
+      - Texture Changes: a32nx-dev/texture-changes.md
   - Donate: donate.md
 
 # Configuration
