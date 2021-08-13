@@ -44,15 +44,17 @@ The lbs weight setting on the EFB may cause the following issues.
 - Simbrief integration - fuel and payload showing 0 after OFP request in AOC.
 - EFB unit conversions cause weights on ECAM and MCDU to show 0 when **lbs** is selected by the efb.
 - FOB displays 0 on ECAM.
-    * **Workaround:** Set lbs through the MCDU only and reload the aircraft.
-    * **Fix in Progress [PR #5344](https://github.com/flybywiresim/a32nx/pull/5344)**
+
+- **Workaround:** Set lbs through the MCDU only and reload the aircraft.
+- **Fix in Progress [PR #5344](https://github.com/flybywiresim/a32nx/pull/5344)**
 
 #### Fuel Consumption
 
 !!! tip ""
     *Affected versions: Stable, Development*
 
-- May be larger than normal at higher than ISA temps. *Under Investigation*
+- May be larger than normal at higher than ISA temps.
+- *Under Investigation*
 
 #### Toolbar Pushback Addon
 
@@ -228,7 +230,7 @@ Using **New** Cockpit Interaction System
 
 !!! warning "Liveries incompatible due to package separation"
 
-    **Affects all versions of the A32NX (Stable, Development, and Experimental)**
+    **Affects all versions of the A32NX (Stable, Development)**
 
     Liveries made for the default A320neo will no longer function in the new FlyByWire package. Liveries will need to be converted by their respective authors.
 
