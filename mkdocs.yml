@@ -17,14 +17,14 @@ nav:
       - FlyByWire Versions: start/fbw-versions.md
       - Installation: start/installation.md
       - Support Guide: start/support.md
+      - Reported Issues: start/reported-issues.md
+      - Autopilot / Fly-By-Wire: start/autopilot-fbw.md
+      - Throttle Calibration: start/throttle-calibration.md
+      - MCDU Keyboard Input: start/mcdu-keyboard.md
       - Converting Liveries: start/convert-liveries.md
       - Porting Custom Camera Views: start/porting-custom-cameras.md
-      - Reported Issues: start/reported-issues.md
       - Performance Tips: start/performance-tips.md
       - Common Questions: start/faq.md
-      - MCDU Keyboard Input: start/mcdu-keyboard.md
-      - Throttle Calibration: start/throttle-calibration.md
-      - Autopilot / Fly-By-Wire: start/autopilot-fbw.md
   - Beginner Guide:
       - Overview: beginner-guide/overview.md
       - Starting the aircraft: beginner-guide/starting-the-aircraft.md
