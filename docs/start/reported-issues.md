@@ -98,22 +98,25 @@ ADIRS may not be aligned when spawning anywhere except cold & dark at a gate (*i
 
     This information is stated on [Installation Guide](installation.md).
 
-#### Printing METAR reports may cause a CTD
+#### Printing METAR Reports May Cause a CTD
 
 - Intermittent / Single time event only
 
-#### Freelook with mouse causes controls to freeze
+#### Freelook with Mouse 
+
+Using freelook may cause controls to freeze.
 
 - Workaround: Try setting `TOGGLE COCKPIT FREELOOK` to your mouse ++middle-button++. Reference: [MSFS Forum Post](https://forums.flightsimulator.com/t/freelook-with-mouse-causes-controls-to-freeze-after-su5/426349/15)
 
-#### Cockpit decals flicker
+#### Cockpit Decals Flicker
 
 - *Under investigation*
 
-#### Strobe light function may be reversed 
+#### Strobe Light Function Reversed 
 
-- Set to `OFF` but lights on when starting on the runway. *Under investigation*
-    - Workaround: Start cold and dark at the gate.
+When strobe lights are set to `OFF` but the lights are on when starting on the runway. *Under investigation*
+    
+- Workaround: Start cold and dark at the gate.
 
 #### TCA (Thrustmaster) hardware
 
@@ -129,7 +132,9 @@ Can't start engines:
   
 ![throttle config image](https://cdn.discordapp.com/attachments/754130199804772372/869697814458945546/unknown.png)
 
-### Altitude Issues
+---
+
+## Altitude Issues
 
 The effects of non-standard day pressure and temperature on altitude in MSFS are inaccurate for SU5 affecting the following:
 
@@ -143,7 +148,7 @@ The effects of non-standard day pressure and temperature on altitude in MSFS are
 
 ---
 
-### Cockpit Interaction System
+## Cockpit Interaction System
 
 !!! info "**Legacy** Cockpit Interaction System"
     If you want to use the old method of interacting with the cockpit before Sim Update 5:
@@ -171,7 +176,7 @@ Using **New** Cockpit Interaction System
 
 ---
 
-### Package Separation Issues
+## Package Separation Issues
 
 !!! warning "Liveries incompatible due to package separation"
 
@@ -194,7 +199,7 @@ Using **New** Cockpit Interaction System
 
 ***
 
-### Installer Issues
+## Installer Issues
 
 ![installer issue](https://media.discordapp.net/attachments/831654046405230652/832741603940237362/unknown.png)
 
