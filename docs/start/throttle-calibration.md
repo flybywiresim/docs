@@ -195,7 +195,7 @@ The configuration is very similar to the above TCA, therefore we are only descri
 
 Same as described above, remove all sensitivity settings and make it linear. Be aware that your throttle might use different names for the axis. Move the throttle to see which graph is moving.
 
-![MSFS-Throttle-Sensintivity](../assets/throttle-calibration/MSFS-Throttle-Sensitivity.png "MSFS-Throttle-Sensintivity"){loading=lazy}
+![MSFS-Throttle-Sensitivity](../assets/throttle-calibration/MSFS-Throttle-Sensitivity.png "MSFS-Throttle-Sensitivity"){loading=lazy}
 
 #### Throttle Mapping
 
@@ -222,6 +222,60 @@ Hold this button and push the throttle forward to increase reverse thrust.
 - As described above we go through all detents and set the values accordingly with `Set From Throttle`. The easiest way to do that is by having the flyPad in a separate window next to the throttle as in the screenshot below.
 
     ![Flypad-next-to-Throttle](../assets/throttle-calibration/Flypad-next-to-Throttle.jpg "Flypad-next-to-Throttle"){loading=lazy}
+
+- For the detents CL, FLX and TO GA you can increase the dead zone to make it easier to move your throttle into the detents.
+
+    ![EFB-CLB-Detent](../assets/throttle-calibration/EFB-CLB-Detent.png "EFB-CLB-Detent"){loading=lazy}
+
+    In this example we have set the dead zone to 0.25 on either side of the actual setting. For FLX and TO GA you can use 0.10 or 0.15.
+
+  - Click on "SAVE AND APPLY" **(8)** and test everything
+
+      ![EFB-SaveApply](../assets/throttle-calibration/EFB-SaveApply.png "EFB-SaveApply"){loading=lazy}
+
+**Congratulations! You have successfully calibrated your throttle!**
+
+## Honeycomb Bravo Throttle Quadrant
+
+![Honeycomb-Bravo](../assets/throttle-calibration/Honeycomb-Bravo.png "Honeycomb-Bravo")
+
+The Honeycomb Bravo Throttle Quadrant does not have a real reverser on axis but emulates this by using a button when pulled back into the reverser position.
+
+This makes configuration a bit awkward because Microsoft Flight Simulator is not capable to directly use this setup for a realistic reverser functionality.
+
+To realistically use the reverser the pilot would lift the reverser lever and the pull the throttle back into the reverser range of the throttle axis.
+
+There is however a way to simulate this with MSFS and the FlyByWire Throttle Calibration as described below.
+
+### Step 1: Microsoft Flight Simulator Controls Option
+
+#### Throttle Sensitivity
+
+Same as described above, remove all sensitivity settings and make it linear. Be aware that your throttle might use different names for the axis. Move the throttle to see which graph is moving.
+
+![MSFS-Throttle-Sensitivity](../assets/throttle-calibration/MSFS-Throttle-Sensitivity.png "MSFS-Throttle-Sensitivity"){loading=lazy}
+
+#### Throttle Mapping
+
+The mapping required for the Bravo is shown in this screenshot:
+
+![Bravo-MSFS-Mapping](../assets/throttle-calibration/Bravo-MSFS-Mapping.jpg "Bravo-MSFS-Mapping"){loading=lazy}
+
+Be careful to use THROTTLE 1/2 AXIS and not THROTTLE 1/2 AXIS (0 TO 100%).
+
+The THROTTLE 1/2 DECREASE mapping to Buttons 11,27+10,26 simulates the reverser when the Bravo's reverser lever is lifted and the thrust lever is pulled back. This activates the two buttons configured in the image above and in turn decreases throttle power to negative values for the reverser. When the reverser levers are released and the throttle pushed back into idle the reversers will deactivate.
+
+### Step 2: Calibrating in the FlyByWire flyPad (EFB)
+
+- Go to the flyPad Throttle Calibration page
+
+- As this throttle has no reverser on the axis, set the `Reverser on Axis` to OFF but set `Independent Axis` to ON.
+
+    ![EFB-Throttle-Calibration-Page](../assets/throttle-calibration/EFB-Calibration-Page3.png "EFB-Throttle-Calibration-Page"){loading=lazy}
+
+- Move the throttle all the way back to idle.
+
+- As described above we go through all detents and set the values accordingly with `Set From Throttle`.
 
 - For the detents CL, FLX and TO GA you can increase the dead zone to make it easier to move your throttle into the detents.
 
