@@ -39,7 +39,7 @@ Read the [Reported Issues](reported-issues.md) section - most issues users encou
 
 If you have a github account please also see [Issues](https://github.com/flybywiresim/a32nx/issues) there. Please also use the search for your particular issue.
 
-Join our Discord server [:fontawesome-brands-discord:{: .discord } - **Discord Link**](https://discord.gg/flybywire) and do the following:
+Join our Discord server [:fontawesome-brands-discord:{: .discord } - **Discord Link**](https://discord.gg/flybywire) in channel #support and do the following:
 
 - Read the Pinned Messages for commonly reported issues
 
