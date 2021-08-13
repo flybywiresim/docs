@@ -68,13 +68,13 @@ Use the numbers in this image in the following text.
     You should see the currently assigned control mappings. If not use FILTER **(6)** to see all controllable attributes.
 
     !!! warning "Important"
-        Make sure **^^NOT^^** to use THROTTLE 1 AXIS (0 TO 100%) or THROTTLE 2 AXIS (0 TO 100%) for the TCA.
+        Make sure **^^NOT^^** to use `THROTTLE 1 AXIS (0 TO 100%)` or `THROTTLE 2 AXIS (0 TO 100%)` for the TCA.
 
         Remove any mapping to these settings by double clicking the entry and choosing **CLEAR CURRENT INPUT**.
 
         ![Clear-Current-Input](../assets/throttle-calibration/Clear-Current-Input.jpg "Clear-Current-Input"){loading=lazy}
 
-    Look for THROTTLE 1 AXIS and THROTTLE 2 AXIS and map it like this **(4)**:
+    Look for `THROTTLE 1 AXIS` and `THROTTLE 2 AXIS` and map it like this **(4)**:
 
     ![Throttle-Mapping](../assets/throttle-calibration/Throttle-Mapping.jpg "Throttle-Mapping"){loading=lazy}
 
@@ -261,9 +261,9 @@ The mapping required for the Bravo is shown in this screenshot:
 
 ![Bravo-MSFS-Mapping](../assets/throttle-calibration/Bravo-MSFS-Mapping.jpg "Bravo-MSFS-Mapping"){loading=lazy}
 
-Be careful to use THROTTLE 1/2 AXIS and not THROTTLE 1/2 AXIS (0 TO 100%).
+Be careful to use `THROTTLE 1/2 AXIS` and not `THROTTLE 1/2 AXIS (0 TO 100%)`.
 
-The THROTTLE 1/2 DECREASE mapping to Buttons 11,27+10,26 simulates the reverser when the Bravo's reverser lever is lifted and the thrust lever is pulled back. This activates the two buttons configured in the image above and in turn decreases throttle power to negative values for the reverser. When the reverser levers are released and the throttle pushed back into idle the reversers will deactivate.
+The `THROTTLE 1/2 DECREASE` mapping to `Buttons 10,26` and `Buttons 11,27` simulates the reverser when the Bravo's reverser lever is lifted and the thrust lever is pulled back. This activates the two buttons configured in the image above and in turn decreases throttle power to negative values for the reverser. When the reverser levers are released and the throttle pushed back into idle the reversers will deactivate.
 
 ### Step 2: Calibrating in the FlyByWire flyPad (EFB)
 
