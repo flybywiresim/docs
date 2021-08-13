@@ -41,7 +41,7 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
     * FOB displays 0 on ECAM.
         * **Workaround:** Set lbs through the MCDU only and reload the aircraft.
         * **Fix in Progress [PR #5344](https://github.com/flybywiresim/a32nx/pull/5344)**
-    
+
 * Fuel consumption may be larger than normal at higher than ISA temps. *Under Investigation*
 
 * Toolbar pushback addon may cause unwanted behavior and prevent use of nose wheel steering.
@@ -67,8 +67,6 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
 
 * Wipers don't function correctly on FSX Liveries
 
-***
-
 ### SU5 Issues
 
 !!! warning "Important Notice"
@@ -89,7 +87,7 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
 
     This information is stated on [Installation Guide](installation.md).
 
-- **Intermittent / Single time event only** - Printing METAR reports may cause a CTD. Please report this to us on our Discord.
+- **Intermittent / Single time event only** - Printing METAR reports may cause a CTD.
 
 - Freelook with mouse causes controls to freeze.
     - Workaround: Try setting `TOGGLE COCKPIT FREELOOK` to your mouse ++middle-button++. Reference: [MSFS Forum Post](https://forums.flightsimulator.com/t/freelook-with-mouse-causes-controls-to-freeze-after-su5/426349/15)
@@ -112,16 +110,17 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
 
 ### Altitude Issues
 
-The effects of non-standard day pressure and temperature on altitude in MSFS is inaccurate for SU5 affecting the following:
+The effects of non-standard day pressure and temperature on altitude in MSFS are inaccurate for SU5 affecting the following:
 
-- Airplane altitude provided to ATC from the airplane transponder will not correlate correctly with the airplane indicated on the airplane's altimeter. VATSIM / IVAO will see MSFS airplanes at a different altitude than what the pilots see.
+- In game ATC may still see you at a different altitude than what you see in the flight deck. This is reported to be fixed by Asobo in World Update 6.
+    - **Workaround:** Climb or descend a copule hundred feet at a time until the in game ATC stops requesting you to climb or descend.
 
-- If temperature is different than ISA, the airplane altimeter will not indicate the correct altitude, most observable when airplane is on the ground at the airport with the proper QNH set. The altimeter should align with the airport's elevation, but it won't with SU5.
+- VATSIM controllers may also see ou at a different altitude when you are below the transition altitude. We recommend including a note on your flight plan that you are using MSFS.
 
-- If pressure or temperature is changing with live weather, the airplane's autopilot may wander from the set altitude or "chase" altitude.
+!!! info ""
+    VATSIM software is being modified to remedy this.
 
-- The built-in MSFS ATC will experience the same altitude issues - you may see FL390 on your altimeter, but the ATC will see you at a different altitude.
-
+---
 
 ### Cockpit Interaction System
 
@@ -147,7 +146,7 @@ Using **New** Cockpit Interaction System
 !!! warning ""
     This list is based on our testing and feedback. For more information see the [MSFS Release Notes](https://forums.flightsimulator.com/t/microsoft-flight-simulator-available-today-on-xbox-series-x-s-and-xbox-game-pass/425795) - Cockpit Interactions.
 
-    Direct your support questions and feedback of this feature to Asobo. 
+    Direct your support questions and feedback of this feature to Asobo.
 
 ---
 
@@ -266,7 +265,7 @@ Crash to desktop (CTD) can either be a sim issue or a conflict with the A32NX. T
 !!! warning "Peripherals"
     This is an important snippet from MSFS known issues.
 
-    If you are getting CTDs, it could be one of your peripherals disconnecting sometime during the flight, which then causes the sim to CTD. 
+    If you are getting CTDs, it could be one of your peripherals disconnecting sometime during the flight, which then causes the sim to CTD.
 
     It could be anything from a usb drive to a controller. Please try to minimise how many peripherals you have connected.
 
