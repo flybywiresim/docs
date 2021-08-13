@@ -87,7 +87,7 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
 
     This information is stated on [Installation Guide](installation.md).
 
-- **Intermittent / Single time event only** - Printing METAR reports may cause a CTD. Please report this to us on our Discord.
+- **Intermittent / Single time event only** - Printing METAR reports may cause a CTD.
 
 - Freelook with mouse causes controls to freeze.
     - Workaround: Try setting `TOGGLE COCKPIT FREELOOK` to your mouse ++middle-button++. Reference: [MSFS Forum Post](https://forums.flightsimulator.com/t/freelook-with-mouse-causes-controls-to-freeze-after-su5/426349/15)
