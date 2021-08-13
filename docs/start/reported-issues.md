@@ -139,7 +139,7 @@ Using freelook may cause controls to freeze.
 !!! tip ""
     *Affected versions: Stable, Development*
 
-- *Under investigation*
+- Solution: Update to the latest Stable or Development version.
 
 #### Strobe Light Function Reversed
 
