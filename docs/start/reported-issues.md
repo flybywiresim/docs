@@ -49,8 +49,8 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
         - Remove the addon from your community folder or wait for developer to update.
         - Use our EFB which has built in pushback controls or another addon.
 
-* Custom autopilot unexplained disconnection.
-    - There seems to be a speed decay issue in certain situations during turns and CONF2. It can also happen when approaching the level off altitude after open descent. Does not occur in level flight.
+* Custom autopilot unwanted disconnection.
+    - Excessive speed decay during level off from open descent can lead to unwanted autothrust disconnection or even alpha floor in certain high drag/low speed situations.
     - *Currently under investigation.*
 
 * Unwanted behavior - Autopilot, FADEC, electrical system
