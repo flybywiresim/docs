@@ -65,7 +65,7 @@ May cause unwanted behavior and prevent use of nose wheel steering.
     - Remove the addon from your community folder or wait for developer to update.
     - Use our EFB which has built in pushback controls or another addon.
 
-#### Custom Autopilot Unwanted Disconnection.
+#### Custom Autopilot Unwanted Disconnection
 
 !!! tip ""
     *Affected versions: Development*
@@ -96,6 +96,8 @@ Affects our custom autopilot, FADEC, and electrical system
 ADIRS may not be aligned when spawning anywhere except cold & dark at a gate (*intermittent issue*)
 
 - Workaround: Restart the flight
+
+---
 
 ## SU5 Issues
 
