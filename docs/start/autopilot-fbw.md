@@ -152,6 +152,18 @@ The work folder can be found here:
     * AILERONS_LEFT
     * AILERONS_RIGHT
 
+??? info "Use RUDDER AXIS PLUS and RUDDER AXIS MINUS binding with normal axis instead of Xbox-Controller"
+
+    In MSFS there is a special binding for rudder available for use with Xbox-Controllers (it's bound by default). This binding is Rudder Axis Plus and Rudder Axis Minus. In case of a Xbox-Controller the rudder in centered when both axis (Plus and Minus) are in the middle of the range. When using a "normal" axis with those two bindings this can cause issues because usual axes use the full range.
+    
+    In order to enable the use with normal axes, the following needs to be done.
+    
+    Put a file named `ModelConfiguration.ini` into the work folder (see "Work folder location" on this page) that has the following option set to true:
+    ```
+    [flight_controls]
+    disable_xbox_compatibility_rudder_axis_plus_minus = true
+    ```
+
 ***
 
 ### Known issues
