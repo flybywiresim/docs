@@ -3,6 +3,8 @@
 ## Introduction
 A guide that will help you get through the basics on getting started with development of the FlyByWire Simulations marketing website.
 
+ [:fontawesome-brands-github:{: .github } -  **Website Project Github**](https://github.com/flybywiresim/website)
+
 ## Prerequisites
 - [NodeJS](https://nodejs.org/en/)
 
