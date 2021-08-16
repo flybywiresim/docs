@@ -9,6 +9,5 @@ Topics:
 - [Throttle Calibration](throttle-calibration.md)
 - [Autopilot and fly-by-wire](autopilot-fbw.md)
 - [MCDU Keyboard Support](mcdu-keyboard.md)
-- [Porting Custom Camera Views](porting-custom-cameras.md)
 
 
