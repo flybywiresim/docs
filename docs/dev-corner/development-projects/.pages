@@ -1,3 +1,5 @@
+title: Development Projects
 nav:
-    - overview.md
+    - index.md
+    - development-guide.md
     - website.md
