@@ -3,7 +3,7 @@
 ***
 
 ## Quick Links
-[Installation Guide](01-a32nx-mod/installation.md){ .md-button } [Reported Issues](01-a32nx-mod/support/reported-issues.md){ .md-button } [Beginner Guide](../old/beginner-guide/overview.md){ .md-button }
+[Installation Guide](fbw-a32nx/installation.md){ .md-button } [Reported Issues](fbw-a32nx/support/reported-issues.md){ .md-button } [Beginner Guide](../old/beginner-guide/overview.md){ .md-button }
 
 ## Introduction
 

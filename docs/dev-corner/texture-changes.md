@@ -11,7 +11,7 @@ Some existing liveries making use of the `A320NEO_AIRFRAME_LIVERY_ALBD.png.dds` 
 If you are the author of an affected livery please reference the following:
 
 - Add the second set of sharklets to your `A320NEO_AIRFRAME_LIVERY_ALBD.png.dds` texture.
-- For convenience, here is a copy of the [new sharklet UV map](../04-flybywire-about/assets/a32nx-dev/sharklet_uv_4k.png) that can be added as a layer in your workflow. The decals should be painted un-mirrored.
+- For convenience, here is a copy of the [new sharklet UV map](assets/a32nx-dev/sharklet_uv_4k.png) that can be added as a layer in your workflow. The decals should be painted un-mirrored.
 
 !!! warning ""
     For further context you can review [pull request #5490](https://github.com/flybywiresim/a32nx/pull/5490) on our GitHub if necessary.
