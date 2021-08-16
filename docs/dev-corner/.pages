@@ -3,7 +3,9 @@
 # - Titles for specific pages or subdirectories
 # - Order of pages (otherwise alphabetical order)
 
-title: Developer's Corner
+title: Development Corner
 nav:
-    - Overview: overview.md
+    - Overview: index.md
+    - Development Guide: development-guide.md
     - Texture Changes: texture-changes.md
+    - ...
