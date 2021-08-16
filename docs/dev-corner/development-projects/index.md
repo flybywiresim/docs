@@ -14,7 +14,7 @@ Current sub-projects:
 
 - [Docs](documentation.md)
 
-    Documentation project to manage and improve documentation for our user. This includes documentation about the A32NX, general sim pilot documentation, and documentation about development for A32NX.
+    Documentation project to manage and improve documentation for our users. This includes documentation about the A32NX, general sim- pilot documentation, and documentation about development for the A32NX.
 
 - [Website](website.md)
 
