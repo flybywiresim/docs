@@ -1,3 +1,3 @@
 # FlyByWire Documentation Project
 
-![UnderConstruction](../../assets/UnderConstruction.jpg)
+ ![ComingSoon.png](../../assets/ComingSoon.png)
