@@ -1,4 +1,4 @@
-# FlyByWire Development Guide Overview
+# FlyByWire Development Guide
 
 ## Development practices
 
