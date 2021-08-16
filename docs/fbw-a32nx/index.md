@@ -12,7 +12,7 @@ This section of the FlyByWire Documentation is dedicated to the A32NX mod itself
 
 - [Version and Feature Guide](fbw-versions.md)
 - [Installation Guide](installation.md)
-- [Livery Guide](convert-liveries.md)
+- [Livery Guide](liveries.md)
 - [Support](support/support-guide.md)
 - [Feature Guides](feature-guides/)
 - [A32NX Variables and Events](a32nx-lvar-events/)

@@ -238,7 +238,7 @@ Using **New** Cockpit Interaction System
 
     **Convert Your Liveries:**
     
-    - See our guide to [convert liveries](../convert-liveries.md)
+    - See our guide to [liveries](../liveries.md)
     - Visit Flightsim.to with updated liveries [here](https://flightsim.to/c/liveries/flybywire-a32nx/)
 
 * Package separation or "fork" issues (*All Versions*):

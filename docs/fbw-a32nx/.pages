@@ -8,7 +8,7 @@ nav:
     - Overview: index.md
     - fbw-versions.md
     - installation.md
-    - convert-liveries.md
+    - liveries.md
     - support
     - Feature Guides: feature-guides
     - A32NX Variables and Events: a32nx-lvar-events
