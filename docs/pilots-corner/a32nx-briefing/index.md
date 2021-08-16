@@ -1,3 +1,3 @@
 # A32NX Pilot's Briefing
 
-![UnderConstruction](../../assets/UnderConstruction.jpg)
+ ![ComingSoon.png](../../assets/ComingSoon.png)
