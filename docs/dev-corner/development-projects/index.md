@@ -4,11 +4,11 @@ The FlyByWire project consists of several sub-projects to allow efficient and qu
 
 Current sub-projects:
 
-- [A32NX](https://github.com/flybywiresim/a32nx)
+- [A32NX](https://github.com/flybywiresim/a32nx){target=new}
 
     Main project where the actual FlyByWire A32NX is developed
 
-- [Installer](https://github.com/flybywiresim/installer)
+- [Installer](https://github.com/flybywiresim/installer){target=new}
 
     Project for deveping and improving the FlyByWire Installer.
 
@@ -20,7 +20,7 @@ Current sub-projects:
 
     Marketing website for FlyByWire Simulations
 
-- [msfs-rs](https://github.com/flybywiresim/msfs-rs)
+- [msfs-rs](https://github.com/flybywiresim/msfs-rs){target=new}
 
      A Rusty way to interact with Microsoft Flight Simulator 2020
 

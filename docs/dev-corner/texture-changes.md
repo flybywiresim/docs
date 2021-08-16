@@ -14,4 +14,4 @@ If you are the author of an affected livery please reference the following:
 - For convenience, here is a copy of the [new sharklet UV map](assets/a32nx-dev/sharklet_uv_4k.png) that can be added as a layer in your workflow. The decals should be painted un-mirrored.
 
 !!! warning ""
-    For further context you can review [pull request #5490](https://github.com/flybywiresim/a32nx/pull/5490) on our GitHub if necessary.
+    For further context you can review [pull request #5490](https://github.com/flybywiresim/a32nx/pull/5490){target=new} on our GitHub if necessary.

@@ -53,7 +53,7 @@ Author: BenW#8484 on Discord
 
         - You can now close Windows Settings.
 
-- Lastly, we would recommend closing any programs running in the background that you don't need. This can be done in your system tray (the upwards pointing arrow to the right side of the task bar). Right click the icon of the program you would like to close and close it. 
+- Lastly, we would recommend closing any programs running in the background that you don't need. This can be done in your system tray (the upwards pointing arrow to the right side of the task bar). Right click the icon of the program you would like to close and close it.
     - You may have a lot of programs open here that you don't use often but start with Windows. You can stop them automatically running by going to task manager, navigating to the `Start-up` tab and disabling programs you don't want to start with Windows.
 
 !!! warning "Please note"
@@ -113,9 +113,9 @@ These settings are ultimately up to you. It all depends on your hardware and whe
 
 You can use the built in settings presets (low, medium, high and ultra) to establish a baseline. Once you have found a preset you like, you can then start to change individual settings to further optimise your experience. We strongly encourage you to make a note of existing settings in case you wish to revert back to your previous settings for any reason.
 
-Below is a really useful guide which shows what each graphics setting in Microsoft Flight Simulator does, as well as outlining how they affect your performance. You can use it in conjunction with this guide to help you dial in your Microsoft Flight Simulator graphics settings. 
+Below is a really useful guide which shows what each graphics setting in Microsoft Flight Simulator does, as well as outlining how they affect your performance. You can use it in conjunction with this guide to help you dial in your Microsoft Flight Simulator graphics settings.
 
-[MSFS Settings Guide](https://forums.flightsimulator.com/t/how-to-graphics-settings-and-performance-guide-3-16-2021/132407){ .md-button }
+[MSFS Settings Guide](https://forums.flightsimulator.com/t/how-to-graphics-settings-and-performance-guide-3-16-2021/132407){ .md-button target=new}
 
 !!! info "Note"
 

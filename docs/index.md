@@ -28,11 +28,11 @@ Below you can find links to our GitHub and Discord where we provide support, acc
 
 If you need support or are interested in contributing to the mod please use the links below.
 
-[:fontawesome-brands-discord:{: .discord } - **Discord Link**](https://discord.gg/flybywire)
+[:fontawesome-brands-discord:{: .discord } - **Discord Link**](https://discord.gg/flybywire){target=new}
 
-[:fontawesome-brands-github:{: .github } -  **GitHub A32NX Repository**](https://github.com/flybywiresim/a32nx)
+[:fontawesome-brands-github:{: .github } -  **GitHub A32NX Repository**](https://github.com/flybywiresim/a32nx){target=new}
 
-[:fontawesome-brands-github:{: .github } - **Issues / Feature Requests**](https://github.com/flybywiresim/a32nx/issues)
+[:fontawesome-brands-github:{: .github } - **Issues / Feature Requests**](https://github.com/flybywiresim/a32nx/issues){target=new}
 
 ---
 
@@ -40,6 +40,6 @@ If you need support or are interested in contributing to the mod please use the 
 
 Below you can find links that host the source code for this website and a link to send us any issues you may encounter while using this site.
 
-[:fontawesome-brands-github:{: .github } -  **GitHub FBW Docs Repository**](https://github.com/flybywiresim/docs)
+[:fontawesome-brands-github:{: .github } -  **GitHub FBW Docs Repository**](https://github.com/flybywiresim/docs){target=new}
 
-[:fontawesome-brands-github:{: .github } -  **FBW Docs Issues**](https://github.com/flybywiresim/docs/issues)
+[:fontawesome-brands-github:{: .github } -  **FBW Docs Issues**](https://github.com/flybywiresim/docs/issues){target=new}

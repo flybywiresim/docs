@@ -35,11 +35,11 @@ Topics:
 
 If you have any issues or feedback with this guide, please file an issue here:
 
-[:fontawesome-brands-github:{: .github } -  **FBW Docs Issues**](https://github.com/flybywiresim/docs/issues)
+[:fontawesome-brands-github:{: .github } -  **FBW Docs Issues**](https://github.com/flybywiresim/docs/issues){target=new}
 
 For general questions please visit our Discord:
 
-[:fontawesome-brands-discord:{: .discord } - **Discord Link**](https://discord.gg/flybywire)
+[:fontawesome-brands-discord:{: .discord } - **Discord Link**](https://discord.gg/flybywire){target=new}
 
 ---
 

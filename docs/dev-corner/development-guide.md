@@ -25,7 +25,7 @@ Most of our team works with either Visual Studio Code or IntelliJ IDEA-based IDE
 
 Our tech stack includes the following:
 
-- Systems development for aircraft uses Rust and the [`msfs-rs`](https://github.com/flybywiresim/msfs-rs) library
+- Systems development for aircraft uses Rust and the [`msfs-rs`](https://github.com/flybywiresim/msfs-rs){target=new} library
 - Avionics programming is done using JavaScript or TypeScript (depending on the project), with the `React.js` rendering library.
 - Front-end web or desktop app development uses the same technologies outlined above
 - Server-side development uses `nest.js` for the API and `MySQL` for the database backend
@@ -74,4 +74,4 @@ Our extensive pool of IRL A320/A380 pilots and aircraft maintenance engineers ar
 
 A number of tools make development in Microsoft Flight Simulator easier.
 
-- [`msfs-webui-devkit`](https://github.com/dga711/msfs-webui-devkit/) - simple avionics overlay allowing cache-breaking live reload and basic console view
+- [`msfs-webui-devkit`](https://github.com/dga711/msfs-webui-devkit/){target=new} - simple avionics overlay allowing cache-breaking live reload and basic console view

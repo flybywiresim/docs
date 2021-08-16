@@ -10,7 +10,7 @@ This guide will help you prepare the MCDU in the A32NX for your departure. It in
     a requirement to fly any airliner even in Microsoft Flight Simulator.
 
     You will find many great videos on YouTube on how to fly the FlyByWire A32NX.<br/>
-    Check out the FlyByWire YouTube Channel as well: [FlyByWire on YouTube](https://www.youtube.com/c/FlyByWireSimulations/playlists)
+    Check out the FlyByWire YouTube Channel as well: [FlyByWire on YouTube](https://www.youtube.com/c/FlyByWireSimulations/playlists){target=new}
 
 The simBrief route used in this guide
 

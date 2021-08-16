@@ -8,7 +8,7 @@ This is why we adopt a set of rules and practices that create a strong framework
 
 Our version control approach maintains the following guidelines:
 
-- Commit messages should be short and to the point. The [Angular commit message convention](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-commit-message-format) is often used and recommended but not enforced at the moment
+- Commit messages should be short and to the point. The [Angular commit message convention](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-commit-message-format){target=new} is often used and recommended but not enforced at the moment
 - Merge commits are discouraged in commit histories and disallowed when merging pull requests
 - Squash commits are exclusively used for pull request merges
 - One approving review from a maintainer is required to merge a pull request

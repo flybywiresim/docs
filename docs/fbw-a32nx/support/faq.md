@@ -17,10 +17,10 @@
     **Convert Your Liveries:**
     
     - See our guide to [liveries](../liveries.md)
-    - Visit Flightsim.to with updated liveries [here](https://flightsim.to/c/liveries/flybywire-a32nx/)
+    - Visit Flightsim.to with updated liveries [here](https://flightsim.to/c/liveries/flybywire-a32nx/){target=new}
 
 ??? info "Q: Do we have a simBrief profile for fuel?"
-    Yes we have one available [here](https://www.simbrief.com/system/dispatch.php?sharefleet=eyJ0cyI6IjE2MDU4MjAwNzg5NDYiLCJiYXNldHlwZSI6IkEzMjAiLCJjb21tZW50cyI6IkZMWSBCWSBXSVJFIiwiaWNhbyI6IkEyME4iLCJuYW1lIjoiQTMyME5FTyBGQlciLCJlbmdpbmVzIjoiTEVBUC0xQTI2IiwicmVnIjoiQTIwTiIsImZpbiI6IiIsInNlbGNhbCI6IiIsImhleGNvZGUiOiIiLCJjYXQiOiJNIiwicGVyIjoiQyIsImVxdWlwIjoiU0RFM0ZHSElSV1kiLCJ0cmFuc3BvbmRlciI6IkxCMSIsInBibiI6IkExQjFDMUQxTzFTMSIsImV4dHJhcm1rIjoiIiwibWF4cGF4IjoiMTgwIiwid2d0dW5pdHMiOiJLR1MiLCJvZXciOiI0MTAwMCIsIm16ZnciOiI2MjUwMCIsIm10b3ciOiI3OTAwMCIsIm1sdyI6IjY2MDAwIiwibWF4ZnVlbCI6IjIxMjczIiwicGF4d2d0IjoiMTA0IiwiZGVmYXVsdGNpIjoiIiwiZnVlbGZhY3RvciI6IlAwMCIsImNydWlzZW9mZnNldCI6IlAwMDAwIn0-)
+    Yes we have one available [here](https://www.simbrief.com/system/dispatch.php?sharefleet=eyJ0cyI6IjE2MDU4MjAwNzg5NDYiLCJiYXNldHlwZSI6IkEzMjAiLCJjb21tZW50cyI6IkZMWSBCWSBXSVJFIiwiaWNhbyI6IkEyME4iLCJuYW1lIjoiQTMyME5FTyBGQlciLCJlbmdpbmVzIjoiTEVBUC0xQTI2IiwicmVnIjoiQTIwTiIsImZpbiI6IiIsInNlbGNhbCI6IiIsImhleGNvZGUiOiIiLCJjYXQiOiJNIiwicGVyIjoiQyIsImVxdWlwIjoiU0RFM0ZHSElSV1kiLCJ0cmFuc3BvbmRlciI6IkxCMSIsInBibiI6IkExQjFDMUQxTzFTMSIsImV4dHJhcm1rIjoiIiwibWF4cGF4IjoiMTgwIiwid2d0dW5pdHMiOiJLR1MiLCJvZXciOiI0MTAwMCIsIm16ZnciOiI2MjUwMCIsIm10b3ciOiI3OTAwMCIsIm1sdyI6IjY2MDAwIiwibWF4ZnVlbCI6IjIxMjczIiwicGF4d2d0IjoiMTA0IiwiZGVmYXVsdGNpIjoiIiwiZnVlbGZhY3RvciI6IlAwMCIsImNydWlzZW9mZnNldCI6IlAwMDAwIn0-){target=new}
 
     You can also use the new simBrief A320-251N profile that is already on their website.
 
@@ -28,7 +28,7 @@
     The project is an ongoing rolling release. See [Downloads](../installation.md#downloads).
 
 ??? info "Q: When is the next update?"
-    We don't know, since it depends on many factors. We will announce each Stable build update via [Discord](https://discord.gg/flybywire) and our social media: [Facebook](https://www.facebook.com/FlyByWireSimulations), [Twitter](https://twitter.com/FlybywireSim).
+    We don't know, since it depends on many factors. We will announce each Stable build update via [Discord](https://discord.gg/flybywire){target=new} and our social media: [Facebook](https://www.facebook.com/FlyByWireSimulations){target=new}, [Twitter](https://twitter.com/FlybywireSim){target=new}.
 
 ??? info "Q: How do I join the team?"
     Head over to [A32NX Development Overview](../../dev-corner/development-guide.md) and join our Discord to get started.
@@ -37,7 +37,7 @@
     No, it is a completely free aircraft, open-source.
 
 ??? info "Q: How do we report bugs?"
-    Report bugs to us in the [Discord server](https://discord.gg/flybywire), under the `#support` channel, or by creating a [GitHub issue](https://github.com/flybywiresim/a32nx/issues/new/choose).
+    Report bugs to us in the [Discord server](https://discord.gg/flybywire){target=new}, under the `#support` channel, or by creating a [GitHub issue](https://github.com/flybywiresim/a32nx/issues/new/choose){target=new}.
 
     Just make sure to search for existing issues first before creating a new one.
 
@@ -69,7 +69,7 @@
 ??? info "Q: Which lights should I turn on during taxi/takeoff/flight?"
     There are many fantastic tutorials online which demonstrate the proper use of lighting on the A320noe, take a look at this video from 320 Sim Pilot:
 
-    [Airbus Lights: What you didn't (need to) know! With a Real Airbus Pilot in Flight Simulator](https://www.youtube.com/watch?v=L9XUHepoFDg)
+    [Airbus Lights: What you didn't (need to) know! With a Real Airbus Pilot in Flight Simulator](https://www.youtube.com/watch?v=L9XUHepoFDg){target=new}
 
 ??? info "Q: Is the hold function implemented yet?"
     No - The buttons are on the MCDU however it is not functioning at the moment.

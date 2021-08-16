@@ -10,7 +10,7 @@
 
     Every addition to the development version is code-reviewed and tested by several people, our QA Team and also interested users. In general it tends to be very stable and robust.
 
-    Latest additions to this version can be seen either in the official [CHANGELOG](https://github.com/flybywiresim/a32nx/blob/master/.github/CHANGELOG.md) or the commits to the master branch of the project: : [Github Commits to Master](https://github.com/flybywiresim/a32nx/commits/master)
+    Latest additions to this version can be seen either in the official [CHANGELOG](https://github.com/flybywiresim/a32nx/blob/master/.github/CHANGELOG.md) or the commits to the master branch of the project: : [Github Commits to Master](https://github.com/flybywiresim/a32nx/commits/master){target=new}
 
 === "Stable Version"
 

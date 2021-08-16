@@ -19,7 +19,7 @@
     
     Do this before reporting bugs.
 
-FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim Version: 1.18.15.0*
+FBW Installer - [Download Here](https://api.flybywiresim.com/installer){target=new} / *Sim Version: 1.18.15.0*
 
 *Last Update: {{git_revision_date_localized}}*
 
@@ -46,7 +46,7 @@ The lbs weight setting on the EFB may cause the following issues.
 - FOB displays 0 on ECAM.
 
 - **Workaround:** Set lbs through the MCDU only and reload the aircraft.
-- **Fix in Progress [PR #5344](https://github.com/flybywiresim/a32nx/pull/5344)**
+- **Fix in Progress [PR #5344](https://github.com/flybywiresim/a32nx/pull/5344){target=new}**
 
 #### Fuel Consumption
 
@@ -136,7 +136,7 @@ ADIRS may not be aligned when spawning anywhere except cold & dark at a gate (*i
 
 Using freelook may cause controls to freeze.
 
-- Workaround: Try setting `TOGGLE COCKPIT FREELOOK` to your mouse ++middle-button++. Reference: [MSFS Forum Post](https://forums.flightsimulator.com/t/freelook-with-mouse-causes-controls-to-freeze-after-su5/426349/15)
+- Workaround: Try setting `TOGGLE COCKPIT FREELOOK` to your mouse ++middle-button++. Reference: [MSFS Forum Post](https://forums.flightsimulator.com/t/freelook-with-mouse-causes-controls-to-freeze-after-su5/426349/15){target=new}
 
 #### Cockpit Decals Flicker
 
@@ -239,7 +239,7 @@ Using **New** Cockpit Interaction System
     **Convert Your Liveries:**
     
     - See our guide to [liveries](../liveries.md)
-    - Visit Flightsim.to with updated liveries [here](https://flightsim.to/c/liveries/flybywire-a32nx/)
+    - Visit Flightsim.to with updated liveries [here](https://flightsim.to/c/liveries/flybywire-a32nx/){target=new}
 
 * Package separation or "fork" issues (*All Versions*):
     -  Default aircraft showing
@@ -337,7 +337,7 @@ Using **New** Cockpit Interaction System
     *Affected versions: Stable, Development*
 
 - Conflict with another mod/livery or incorrect installation of the A32NX mod
-- Use our [installer](https://api.flybywiresim.com/installer)
+- Use our [installer](https://api.flybywiresim.com/installer){target=new}
 
 #### Upper ECAM displays wrong THR levers position / N1 rating
 

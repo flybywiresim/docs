@@ -12,7 +12,7 @@ Obviously this is not strictly required in a simulator but for interested sim pi
     or different types of airliners. Aviation terminology and know-how is
     a requirement to fly any airliner even in Microsoft Flight Simulator.
 
-    Check out the FlyByWire YouTube Channel as well: [FlyByWire on YouTube](https://www.youtube.com/c/FlyByWireSimulations/playlists)
+    Check out the FlyByWire YouTube Channel as well: [FlyByWire on YouTube](https://www.youtube.com/c/FlyByWireSimulations/playlists){target=new}
 
     You will find many great videos on YouTube on how to fly the FlyByWire A32NX.<br/>
 
