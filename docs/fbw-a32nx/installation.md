@@ -84,7 +84,7 @@ You can send us logs to our [Discord](https://discord.gg/flybywire) for support 
 
          [Download Development](https://api.flybywiresim.com/api/v1/download?url=https://flybywiresim-packages.b-cdn.net/vmaster/A32NX-master.zip){ .md-button }
          
-         [**IMPORTANT:** View information on Autopilot / Fly-By-Wire here](autopilot-fbw.md)
+         [**IMPORTANT:** View information on Autopilot / Fly-By-Wire here](feature-guides/autopilot-fbw.md)
 
     === "Experimental Version"
 
