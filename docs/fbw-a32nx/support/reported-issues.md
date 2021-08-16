@@ -171,7 +171,7 @@ Can't start engines:
 
 ![throttle config image](https://cdn.discordapp.com/attachments/754130199804772372/869697814458945546/unknown.png)
 
-Also see our [Throttle Calibration Guide](throttle-calibration.md)
+Also see our [Throttle Calibration Guide](../feature-guides/throttle-calibration.md)
 
 ---
 
@@ -266,7 +266,7 @@ Using **New** Cockpit Interaction System
     - Commonly happens when our installer updates. Currently being investigated.
         - Workaround: Exit out of the FlyByWire Installer. Open `Task Manager` and find FlyByWire Installer. End Task.
 
-* Instructions to send us installer logs can be found [here](installation.md#flybywire-installer)
+* Instructions to send us installer logs can be found [here](../installation.md#flybywire-installer)
 
 ---
 
@@ -407,7 +407,7 @@ Crash to desktop (CTD) can either be a sim issue or a conflict with the A32NX. T
     - Closed Issue: [#5479](https://github.com/flybywiresim/a32nx/issues/5479)
 
 * ND Terrain does not appear. *[Fixed #5470](https://github.com/flybywiresim/a32nx/pull/5470)*
-  
+
 * Turning off right PFD also disables left one. *Fixed*
 
 * Vertical speed indicator not working. *[Fixed PR #5398](https://github.com/flybywiresim/a32nx/pull/5398)*
@@ -416,7 +416,7 @@ Crash to desktop (CTD) can either be a sim issue or a conflict with the A32NX. T
 
 * Due to changes in the way flap lift is modelled, the plane may bounce when transitioning between certain flaps settings (flaps 1 to flaps 2 and flaps 3 to flaps FULL). *(fixed)*
     - The stable version is less affected than the development version.
-    
+
 * Installer v1.1.1 potential issues: *(fixed)*
     - Getting default version or black screens after using installer on v1.1.0
         - Workaround: Delete the `flybywire-aircraft-a320-neo folder`, then install it again.
