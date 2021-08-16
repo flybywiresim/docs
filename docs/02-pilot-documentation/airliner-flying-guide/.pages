@@ -6,4 +6,8 @@
 title: Airliner Flying Guide
 nav:
     - Overview: overview.md
+    - approaches.md
+    - navigation.md
+    - altitude-refs.md
+    - weather.md
     - ...

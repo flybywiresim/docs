@@ -1,7 +1,7 @@
-# Throttle Calibration FlyByWire A32NX
+# Throttle Calibration
 
 !!! warning "Please Note"
-    Throttle Calibration is only required and available when using the [Development Version](fbw-versions.md#version-overview)
+    Throttle Calibration is only required and available when using the [Development Version](../../01-a32nx-mod/fbw-versions.md#version-overview)
 
 This guide will help you setting up your throttles for use with the FlyByWire A32NX.
 

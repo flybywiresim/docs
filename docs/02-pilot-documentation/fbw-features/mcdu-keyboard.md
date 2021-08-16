@@ -1,3 +1,5 @@
+# MCDU Keyboard
+
 ---
 
 ## Overview
@@ -74,9 +76,9 @@ We have added new methods to assist in clearing content in the MCDU scratchpad.
 
 ### How to set a timeout
 
-The timeout feature will "automatically unfocus" the MCDU screen should you be unable to use any of the actions above to manually unfocus. 
+The timeout feature will "automatically unfocus" the MCDU screen should you be unable to use any of the actions above to manually unfocus.
 
-Return to the realism settings in `MCDU Options`. You should see `INPUT TIMEOUT`. You can specify how long the the timeout feature will wait before unfocusing the MCDU. 
+Return to the realism settings in `MCDU Options`. You should see `INPUT TIMEOUT`. You can specify how long the the timeout feature will wait before unfocusing the MCDU.
 
 - Valid range is `5 - 120 seconds`
 
@@ -89,14 +91,14 @@ Sample Image:
 ## Known Issues
 
 - ++esc++ and arrow keys are not captured
-- CLR held (>2s) 
-    * Use ++shift+backspace++ together instead of ++backspace++ 
+- CLR held (>2s)
+    * Use ++shift+backspace++ together instead of ++backspace++
 - Clicking on screen + using camera keybind keys will cause MCDU to move out of the view. Since the camera is locked it is not possible to click on the screen to unfocus the MCDU
     * Use keyboard shortcuts below to unfocus:
         * ++ctrl+z++
         * ++alt++
-- Keybindings are currently optimized for `ANSI/ISO-UK` keyboard layouts. `ISO-DE/ISO-NORD` users will notice that slash keys on their keyboards may not function as expected. This is an unfortunate limitation of the Coherent Webkit based JS Engine. 
-    * The following keys can be used as substitutes instead: 
-        * ++greater++ 
+- Keybindings are currently optimized for `ANSI/ISO-UK` keyboard layouts. `ISO-DE/ISO-NORD` users will notice that slash keys on their keyboards may not function as expected. This is an unfortunate limitation of the Coherent Webkit based JS Engine.
+    * The following keys can be used as substitutes instead:
+        * ++greater++
         * ++"#"++ (or ++single-quote++)
     * **Note:** that the numpad will work as expected regardless of keyboard layout.
