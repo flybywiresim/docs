@@ -24,7 +24,7 @@ This guide will explain the correct procedures to accomplish a pushback with eng
 
 At this time we may request for clearance to push and start from ATC.
 
-[Download FlyByWire Checklist](../assets/FBW_A32NX_CHECKLIST.pdf){ .md-button }
+[Download FlyByWire Checklist](../../assets/FBW_A32NX_CHECKLIST.pdf){ .md-button }
 
 ---
 

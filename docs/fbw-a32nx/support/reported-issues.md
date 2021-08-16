@@ -8,12 +8,12 @@
 
 !!! warning "Read our Support Guide"
 
-    1. [Learn how to fly an A32NX](support.md#1-learn-how-to-fly-an-a32nx)
-    - [Troubleshoot](support.md#2-troubleshoot)
-    - [Research Known Issues](support.md#3-research-known-issues)
-    - [Report Issue on Discord](support.md#4-report-issue-on-discord)
-    - [Report Issue on the A32NX Github](support.md#5-report-issue-on-the-a32nx-github)
-    - [Collecting Support Information](support.md#collecting-support-information)
+    1. [Learn how to fly an A32NX](support-guide.md#1-learn-how-to-fly-an-a32nx)
+    - [Troubleshoot](support-guide.md#2-troubleshoot)
+    - [Research Known Issues](support-guide.md#3-research-known-issues)
+    - [Report Issue on Discord](support-guide.md#4-report-issue-on-discord)
+    - [Report Issue on the A32NX Github](support-guide.md#5-report-issue-on-the-a32nx-github)
+    - [Collecting Support Information](support-guide.md#collecting-support-information)
 
     ---
     
@@ -30,9 +30,9 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
 !!! info "Autopilot / Fly-By-Wire Issues"
     Please visit the dedicated Autopilot / Fly-By-Wire page for more information:
 
-    - [**Main Page**](autopilot-fbw.md)
-    - [**Typical Issues + Solutions**](autopilot-fbw.md#typical-issues-and-how-to-solve-them)
-    - [**Known Issues**](autopilot-fbw.md#known-issues)
+    - [**Main Page**](../feature-guides/autopilot-fbw.md)
+    - [**Typical Issues + Solutions**](../feature-guides/autopilot-fbw.md#typical-issues-and-how-to-solve-them)
+    - [**Known Issues**](../feature-guides/autopilot-fbw.md#known-issues)
 
 #### Using the *"Pounds (lbs)"* on the EFB
 
@@ -119,7 +119,7 @@ ADIRS may not be aligned when spawning anywhere except cold & dark at a gate (*i
     
     <sub> You may install Stable v0.6.3 for compatibility. We recommend staying on development.
 
-    This information is stated on [Installation Guide](installation.md).
+    This information is stated on [Installation Guide](../installation.md).
 
 #### Printing METAR Reports May Cause a CTD
 
@@ -238,7 +238,7 @@ Using **New** Cockpit Interaction System
 
     **Convert Your Liveries:**
     
-    - See our guide to [convert liveries](convert-liveries.md)
+    - See our guide to [convert liveries](../convert-liveries.md)
     - Visit Flightsim.to with updated liveries [here](https://flightsim.to/c/liveries/flybywire-a32nx/)
 
 * Package separation or "fork" issues (*All Versions*):

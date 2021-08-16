@@ -3,7 +3,7 @@
 ***
 
 ## Quick Links
-[Installation Guide](fbw-a32nx/installation.md){ .md-button } [Reported Issues](fbw-a32nx/support/reported-issues.md){ .md-button } [Beginner Guide](../old/beginner-guide/overview.md){ .md-button }
+[Installation Guide](fbw-a32nx/installation.md){ .md-button } [Reported Issues](fbw-a32nx/support/reported-issues.md){ .md-button } [Beginner Guide](pilots-corner/beginner-guide/overview.md){ .md-button }
 
 ## Introduction
 

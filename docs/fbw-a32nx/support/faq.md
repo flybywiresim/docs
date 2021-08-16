@@ -16,7 +16,7 @@
 
     **Convert Your Liveries:**
     
-    - See our guide to [convert liveries](convert-liveries.md)
+    - See our guide to [convert liveries](../convert-liveries.md)
     - Visit Flightsim.to with updated liveries [here](https://flightsim.to/c/liveries/flybywire-a32nx/)
 
 ??? info "Q: Do we have a simBrief profile for fuel?"

@@ -20,7 +20,7 @@ This guide will explain the correct procedures to fly a final approach and condu
 
 Aircraft is on approach shortly before intercepting the ILS and is still in phase and state `DES` as per previous chapters.
 
-[Download FlyByWire Checklist](../assets/FBW_A32NX_CHECKLIST.pdf){ .md-button }
+[Download FlyByWire Checklist](../../assets/FBW_A32NX_CHECKLIST.pdf){ .md-button }
 
 ## Chapters / Phases
 

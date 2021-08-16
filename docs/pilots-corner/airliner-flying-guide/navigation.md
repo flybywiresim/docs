@@ -174,6 +174,6 @@ Airports will describe in their airfield documents which departure you should be
 Geneva LSGG.
 
 ![noiseabatement](../assets/flying-guide/NoiseAbatement-1.png)
-<sub> Credit - Shomas [Z] Pilot on Discord
+<sub> Credit - Shomas Pilot on Discord
 
 ***

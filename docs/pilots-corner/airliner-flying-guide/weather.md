@@ -188,7 +188,7 @@ Now to make things easier, Digital ATIS is starting to be used throughout the wo
 
 ![TAF2](../assets/flying-guide/METARSTAFATIS-2.jpg)
 
-<sub> Credit - Shomas [Z] Pilot on Discord "I guess you can see why I saved this one"
+<sub> Credit - Shomas Pilot on Discord "I guess you can see why I saved this one"
 
 As you can see, this is information W, Whiskey for Manchester, UK EGCC. The weather information is written out in a METAR like format, but with the addition of a QFE as well.
 
