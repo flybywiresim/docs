@@ -4,6 +4,9 @@ This section of the FlyByWire Documentation is dedicated to the development aspe
 
 ## Quick Links
 
+
+[:fontawesome-brands-github:{: .github } **GitHub Contributing.md**](https://github.com/flybywiresim/a32nx/blob/master/.github/Contributing.md){ .md-button }
+
 [Development Guide](development-guide.md){ .md-button }
 
 ##  Topics:
