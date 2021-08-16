@@ -2,4 +2,5 @@ title: Development Projects
 nav:
     - index.md
     - development-guide.md
-    - website.md
+    - Website Project: website.md
+    - Documentation Project: documentation.md
