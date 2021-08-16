@@ -5,5 +5,8 @@
 
 title: Support
 nav:
-    - index.md
+    - support-guide.md
+    - reported-issues.md
+    - performance-tips.md
+    - Common Questions: faq.md
     - ...

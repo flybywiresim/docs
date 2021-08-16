@@ -48,7 +48,7 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer) / *Sim V
 Using the "lbs" weight setting on the EFB may cause the following issues.
 
 * Simbrief integration - fuel and payload showing 0 after OFP request in AOC.
-    
+
 * EFB unit conversions cause weights on ECAM and MCDU to show 0 when **lbs** is selected by the efb.
 
 * FOB displays 0 on ECAM.
@@ -57,19 +57,19 @@ Using the "lbs" weight setting on the EFB may cause the following issues.
 
 !!! info ""
     **Fix in Progress [PR #5344](https://github.com/flybywiresim/a32nx/pull/5344)**
-    
+
 ---
 
-* Toolbar pushback addon may cause unwanted behavior and prevent use of nose wheel steering. 
+* Toolbar pushback addon may cause unwanted behavior and prevent use of nose wheel steering.
     - Solution:
-        - Remove the addon from your community folder or wait for developer to update. 
-        - Use our EFB which has built in pushback controls or another addon. 
-    
-* Custom autopilot unexplained disconnection. 
-    - There seems to be a speed decay issue in certain situations during turns and CONF2. It can also happen when approaching the level off altitude after open descent. Does not occur in level flight. 
+        - Remove the addon from your community folder or wait for developer to update.
+        - Use our EFB which has built in pushback controls or another addon.
+
+* Custom autopilot unexplained disconnection.
+    - There seems to be a speed decay issue in certain situations during turns and CONF2. It can also happen when approaching the level off altitude after open descent. Does not occur in level flight.
     - *Currently under investigation.*
-    
-* Unwanted behavior - Autopilot, FADEC, electrical system 
+
+* Unwanted behavior - Autopilot, FADEC, electrical system
     - In rare cases the above mentioned systems may not start or behave erratically. This is in part due to `UTF-8` language support beta not enabled on your machine.
         - Solution:
             1. - Open Windows Control Panel -> Region.
@@ -77,10 +77,10 @@ Using the "lbs" weight setting on the EFB may cause the following issues.
                 - Make sure the check mark next to `Beta: Use UTF-8 for worldwide language support is selected`.
                 - Click ++"OK"++ and restart your computer.
             1. - Ensure `simconnect.cfg` does not appear in your Documents folder on your computer.
-    
+
 * ADIRS not aligned when spawning anywhere except cold & dark at a gate (*intermittent issue*)
     - Workaround: Restart the flight
-    
+
 * Wipers don't function correctly on FSX Liveries
 
 ***
@@ -111,13 +111,13 @@ Using the "lbs" weight setting on the EFB may cause the following issues.
     - Workaround: After performing an update of our addon through installer do the following steps:
         - Load into your flight once. *Press Fly*
         - Reload / restart the flight after you are in the flight deck.
-        - This usually helps restore functionality. 
+        - This usually helps restore functionality.
     - Open Issue: [#5479](https://github.com/flybywiresim/a32nx/issues/5479)
     - Read Discussion: [Developer Comment](https://github.com/flybywiresim/a32nx/issues/5479#issuecomment-891032069)
 
 - Navigraph FMS Beta Users - If you are missing SID/STARs please delete and reinstall your navdata via the Navigraph Center and **restart** your simulator.
 
-- **Intermittent / Single time event only** - Printing METAR reports may cause a CTD. Please report this to us on our Discord.  
+- **Intermittent / Single time event only** - Printing METAR reports may cause a CTD. Please report this to us on our Discord.
 
 - Freelook with mouse causes controls to freeze.
     - Workaround: Try setting `TOGGLE COCKPIT FREELOOK` to your mouse ++middle-button++. Reference: [MSFS Forum Post](https://forums.flightsimulator.com/t/freelook-with-mouse-causes-controls-to-freeze-after-su5/426349/15)
@@ -166,7 +166,7 @@ On the first load of the A32NX the heading knob push/pull may not work.
     - Accessibility
     - Find the `Cockpit Interaction System` setting
     - Change to `legacy`
-    
+
 Using **New** Cockpit Interaction System
 
 - Highlight a control (like a knob).
@@ -176,12 +176,12 @@ Using **New** Cockpit Interaction System
 - To push a control / knob in, lock to the control using ++"Left Click"++ and then ++"Right Click"++.
 - To pull a control / knob out, hold ++"Left Click"++ and then click your scroll wheel ++"Middle Mouse"++.
     - Note: If you already use the ++"Middle Mouse"++ button to activate freelook this may not work. Check your keybinds so this feature does not conflict.
-    
+
 !!! warning ""
-    This list is based on our testing and feedback. For more information see the [MSFS Release Notes](https://forums.flightsimulator.com/t/microsoft-flight-simulator-available-today-on-xbox-series-x-s-and-xbox-game-pass/425795) - Cockpit Interactions. 
+    This list is based on our testing and feedback. For more information see the [MSFS Release Notes](https://forums.flightsimulator.com/t/microsoft-flight-simulator-available-today-on-xbox-series-x-s-and-xbox-game-pass/425795) - Cockpit Interactions.
 
     Direct your support questions and feedback of this feature to Asobo. 
-    
+
 ---
 
 ### Package Separation Issues
@@ -206,7 +206,7 @@ Using **New** Cockpit Interaction System
         - Workaround: Reinstall A32NX, delete any old version from your Community Folder. Ensure you are on Installer v1.2.0 or above.
 
 ***
-    
+
 ### Installer Issues
 
 ![installer issue](https://media.discordapp.net/attachments/831654046405230652/832741603940237362/unknown.png)
@@ -219,12 +219,12 @@ Using **New** Cockpit Interaction System
         1. - Create the specified directory stated in the error message
             - Restart the installer
             - Change the community directory in the installer settings
-    
+
 * Installer Memory Leak
     - Commonly happens when our installer updates. Currently being investigated.
         - Workaround: Exit out of the FlyByWire Installer. Open `Task Manager` and find FlyByWire Installer. End Task.
-    
-* Instructions to send us installer logs can be found [here](installation.md#flybywire-installer)
+
+* Instructions to send us installer logs can be found [here](../installation.md#flybywire-installer)
 
 ***
 
@@ -235,12 +235,12 @@ If the live weather feature is experiencing issues you may experience the follow
 - Degraded aircraft performance.
 - Airspeed and climb rate issues.
 
-You will typically see higher or excessive fuel flow alongside exceedingly high SAT, which leads to high TAT and ISA deviation. 
+You will typically see higher or excessive fuel flow alongside exceedingly high SAT, which leads to high TAT and ISA deviation.
 
 !!! info ""
     ISA deviation is the difference between SAT and the ISA temperature for that altitude and is indicated by the value next to ISA in the ECAM.
 
-**Workaround**: Use a static weather preset for your flight. 
+**Workaround**: Use a static weather preset for your flight.
 
 ---
 
@@ -282,7 +282,7 @@ You will typically see higher or excessive fuel flow alongside exceedingly high 
 
 Crash to desktop (CTD) can either be a sim issue or a conflict with the A32NX. There also is currently no known guaranteed solution, however users have found success with by trying the following:
 
-1. [Perform a clean install](installation.md#clean-install-steps) 
+1. [Perform a clean install](../installation.md#clean-install-steps)
 2. Try without anything else installed in community.
 3. Try without FSUIPC OR update FSUIPC.
 4. Try downloading the bat file that is pinned in the #support channel on our [Discord](https://discord.gg/flybywire). Run it to clean up any FBW background files.
@@ -304,7 +304,7 @@ Crash to desktop (CTD) can either be a sim issue or a conflict with the A32NX. T
 ## Fixed Issues
 
 * ND Terrain does not appear. *[Fixed #5470](https://github.com/flybywiresim/a32nx/pull/5470)*
-  
+
 * Turning off right PFD also disables left one. *Fixed*
 
 * Vertical speed indicator not working. *Fixed [PR #5398](https://github.com/flybywiresim/a32nx/pull/5398)*
@@ -313,7 +313,7 @@ Crash to desktop (CTD) can either be a sim issue or a conflict with the A32NX. T
 
 * Due to changes in the way flap lift is modelled, the plane may bounce when transitioning between certain flaps settings (flaps 1 to flaps 2 and flaps 3 to flaps FULL). *(fixed)*
     - The stable version is less affected than the development version.
-    
+
 * Installer v1.1.1 potential issues: *(fixed)*
     - Getting default version or black screens after using installer on v1.1.0
         - Workaround: Delete the `flybywire-aircraft-a320-neo folder`, then install it again.
@@ -322,13 +322,13 @@ Crash to desktop (CTD) can either be a sim issue or a conflict with the A32NX. T
         - Workaround: Install the mod again via the installer.
 
 * VOR/ADF indicators not showing on the ND *(fixed)*
-  
+
 * Unable to climb / flaps 1 issue *(fixed)*
-  
+
 * EFB not clickable *(fixed in development version)*
-  
+
 * V/S mode stuck at 1500 fpm or inoperable *(fixed)*
-    
+
 * ILS not showing on approach / does not auto populate in RADNAV *(fixed)*
     - Workarounds (may apply to 3rd party sceneries):
         - Manually input your ILS frequency into RADNAV. Type in the frequency found on your chart and press the key next to LS/Freq. Sample: 111.30
@@ -339,7 +339,7 @@ Crash to desktop (CTD) can either be a sim issue or a conflict with the A32NX. T
 * PFD artificial horizon freezes *(fixed)*
     - Workaround:
         - Turn off PFD, wait >10 seconds and turn PFD back on.
-    
+
 ---
 
 If you are here from our social media please visit our discord for support.

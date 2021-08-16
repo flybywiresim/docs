@@ -4,10 +4,10 @@
     The mod will appear as a separate aircraft, select the `FlyByWire Simulations A320neo (LEAP)` in the aircraft selector instead of the Asobo one.
 
 ??? info "Q: Can I download the aircraft in the current state?"
-    Yes, see [Downloads](/start/installation/#downloads).
+    Yes, see [Downloads](../installation.md#downloads).
 
 ??? info "Q: How do I install this aircraft?"
-    Visit our [Installation Guide](installation.md).
+    Visit our [Installation Guide](../installation.md).
 
 ??? info "Q: What are the liveries available?"
     Liveries made for the default A320neo will no longer function in the new FlyByWire package. Liveries will need to be converted by their respective authors.
@@ -25,19 +25,19 @@
     You can also use the new simBrief A320-251N profile that is already on their website.
 
 ??? info "Q: When will it be released?"
-    The project is an ongoing rolling release. See [Downloads](/start/installation/#downloads).
+    The project is an ongoing rolling release. See [Downloads](../installation.md#downloads).
 
 ??? info "Q: When is the next update?"
     We don't know, since it depends on many factors. We will announce each Stable build update via [Discord](https://discord.gg/flybywire) and our social media: [Facebook](https://www.facebook.com/FlyByWireSimulations), [Twitter](https://twitter.com/FlybywireSim).
 
 ??? info "Q: How do I join the team?"
-    Head over to [A32NX Development Overview](/a32nx-dev/overview) and join our Discord to get started.
+    Head over to [A32NX Development Overview](../../03-a32nx-development/overview.md) and join our Discord to get started.
 
 ??? info "Q: Is it payware?"
     No, it is a completely free aircraft, open-source.
 
 ??? info "Q: How do we report bugs?"
-    Report bugs to us in the [Discord server](https://discord.gg/flybywire), under the `#support` channel, or by creating a [GitHub issue](https://github.com/flybywiresim/a32nx/issues/new/choose). 
+    Report bugs to us in the [Discord server](https://discord.gg/flybywire), under the `#support` channel, or by creating a [GitHub issue](https://github.com/flybywiresim/a32nx/issues/new/choose).
 
     Just make sure to search for existing issues first before creating a new one.
 

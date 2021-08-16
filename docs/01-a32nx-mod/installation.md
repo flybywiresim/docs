@@ -65,7 +65,7 @@ You can send us logs to our [Discord](https://discord.gg/flybywire) for support 
 
         **How to download**:
 
-        **Current Stable Version - v0.6.2**
+        **Current Stable Version - v0.6.3**
 
           Stable is our variant that has the least bugs and best performance. This version will not always be up to date but we gurantee its compatibility with each major patch from MSFS. 
 
@@ -111,6 +111,8 @@ See below for the location of your Community folder:
 
 ---
 
+## Community Folder
+
 ### Microsoft Store and/or Game Pass edition
 
 - Copy the `flybywire-aircraft-a320-neo` folder into your community package folder.
@@ -149,7 +151,7 @@ If the above methods do not work:
     - Go to tools and virtual file system.
     - Click on watch bases and your community folder will be listed in one of the folders.
 
-If your issue is not related to installation visit - [**Reported Issues**](reported-issues.md)
+If your issue is not related to installation visit - [**Reported Issues**](support/reported-issues.md)
 
 ---
 
@@ -204,7 +206,7 @@ The folder can be found here:
 
 [:fontawesome-brands-github:{: .github } **GitHub Contributing.md**](https://github.com/flybywiresim/a32nx/blob/master/.github/Contributing.md){ .md-button }
 
-More info [A32NX Development Overview](../../old/a32nx-dev/overview.md)
+More info [A32NX Development Overview](../03-a32nx-development/overview.md)
 
 ***
 

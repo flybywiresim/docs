@@ -13,19 +13,19 @@ If you are using a separate directory for addons see [Optional Steps](#optional-
 
 If your community directory has incompatible liveries you will be greeted by the following prompt when launching our installer:
 
-![installer conversion one](../../docs/assets/images/installer1.png)
+![installer conversion one](assets/installer1.png)
 
 ### ^^Step 2^^
 
 Click `Convert` and the prompt will expand offering you the choice to select specific liveries or `Select All`. The image shows the difference between a non-selected and selected livery.
 
-![installer conversion two](../../docs/assets/images/installer2.png)
+![installer conversion two](assets/installer2.png)
 
 ### ^^Step 3^^
 
 Select all liveries or as many as you'd like and press `Confirm`. Your liveries will now be converted. The progress bar will display 100% when all selected liveries have been successfully converted.
 
-![installer conversion four](../../docs/assets/images/installer4.png)
+![installer conversion four](assets/installer4.png)
 
 You can confirm conversion by checking your community directory and checking that the new folder name is `livery_folder_name_a32nx`. You can now safely remove the older folders if you wish.
 
@@ -34,7 +34,7 @@ You can confirm conversion by checking your community directory and checking tha
 If you are using an application to host your liveries in a separate directory you can visit the `Settings` at the bottom left of the installer.
 
 Select the toggle for `Separate Liveries Directory` to select a path.
-![installer conversion three](../../docs/assets/images/installer3.png)
+![installer conversion three](assets/installer3.png)
 
 ***
 

@@ -5,7 +5,7 @@
 
 title: FlyByWire A32NX
 nav:
-    - index.md
     - fbw-versions.md
     - installation.md
+    - convert-liveries.md
     - support
