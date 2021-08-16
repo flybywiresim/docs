@@ -6,6 +6,7 @@ This section of the FlyByWire Documentation is dedicated to the A32NX mod itself
 
 [Support Guide](support/support-guide.md){ .md-button }
 [Reported Issues](support/reported-issues.md){ .md-button }
+[Throttle Calibration Guide](feature-guides/throttle-calibration.md){ .md-button }
 
 ##  Topics:
 
