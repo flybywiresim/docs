@@ -104,7 +104,8 @@ theme:
     scheme: slate
   features:
     - navigation.tabs
-    - navigation.instant
+    # Temporarily deactivated to provide support for Discord browser + anchor links
+    # - navigation.instant
     - navigation.top
   favicon: assets/images/FBW-Tail.png
 
