@@ -57,13 +57,11 @@ You can send us logs to our [Discord](https://discord.gg/flybywire) for support 
 
 ---
 
-### Traditional Download Methods
+## Manual Installation
 
-!!! info "Methods"
+!!! info "Download"
 
     === "Latest Stable Version"
-
-        **How to download**:
 
         **Current Stable Version - v0.6.3**
 
@@ -76,8 +74,6 @@ You can send us logs to our [Discord](https://discord.gg/flybywire) for support 
 
     === "Development Version"
 
-        **How to download**:
-
         Development will have the latest features that will end up in the next stable. Bugs are to be expected. 
 
         It updates whenever something is added to the 'master' branch on GitHub. 
@@ -86,22 +82,7 @@ You can send us logs to our [Discord](https://discord.gg/flybywire) for support 
          
          [**IMPORTANT:** View information on Autopilot / Fly-By-Wire here](feature-guides/autopilot-fbw.md)
 
-    === "Experimental Version"
-
-        **How to download**:
-
-        This version is similar to the development version, but contains custom systems. 
-
-        Experimental is currently on **hold**. 
-
-        **No support will be provided via Discord.**
-
-        [Download Experimental](https://api.flybywiresim.com/api/v1/download?url=https://flybywiresim-packages.b-cdn.net/vmaster-cfbw-cap/A32NX-master-cfbw-cap.zip){ .md-button }
-
-        [**IMPORTANT:** view warnings and info for the experimental version here](https://github.com/flybywiresim/a32nx/tree/autopilot/docs)
-
 ---
-## Manual Installation
 
 **Please follow ALL steps in this section if you encounter any issues with installation before seeking support.**
 
