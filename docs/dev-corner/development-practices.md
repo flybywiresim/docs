@@ -1,12 +1,10 @@
-# FlyByWire Development Guide
-
-## Development practices
+# A32NX Development Practices
 
 FlyByWire Simulations aims to maintain professional standards as well as industry-wide best practices in order to maximize developer productivity and deliver high-quality, tested products.
 
 This is why we adopt a set of rules and practices that create a strong framework, not only around the usage of `git` but also surrounding code quality.
 
-### Version control
+## Version control
 
 Our version control approach maintains the following guidelines:
 
@@ -17,7 +15,7 @@ Our version control approach maintains the following guidelines:
 - Positive reports from a number of QA testers (varies depending on the PR scope and size) are required before merging, unless a maintainer judges appropriate to bypass this rule
 - Creation of draft pull requests is required when a developer wishes to get working on a project, to avoid duplicate PR situations
 
-### Code quality
+## Code quality
 
 Code quality is of an utmost importance as it allows other developers to more easily find bugs and understand logic.
 
