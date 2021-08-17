@@ -1,5 +1,10 @@
 {% extends "base.html" %}
 
+{% block announce %}
+Latest Versions -
+<img src="https://img.shields.io/github/v/release/flybywiresim/a32nx.svg?style=flat-square" />
+<img src="https://img.shields.io/badge/dynamic/json?color=orange&label=Development&query=shortSha&url=https%3A%2F%2Fapi.flybywiresim.com%2Fapi%2Fv1%2Fgit-versions%2Fflybywiresim%2Fa32nx%2Fbranches%2Fmaster&style=flat-square" alt="Development Version" />
+{% endblock %}
 {% set extracopyright %}
     <br> Powered by <a href="https://vercel.com/?utm_source=flybywiresim&utm_campaign=oss">
             <img src="../assets/images/vercel-logotype-light.svg" alt="Vercel Logo"></a>
