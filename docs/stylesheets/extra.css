@@ -90,3 +90,15 @@ h4 {
   padding: .2375em 1.25em;
   vertical-align: top;
 }
+/*Announcement Bar*/
+.md-announce__inner {
+    color: var(--md-footer-fg-color);
+    font-size: .7rem;
+    margin: .6rem auto 0;
+    padding: 0 .8rem;
+}
+.md-typeset img, .md-typeset svg {
+    height: auto;
+    max-width: 100%;
+    vertical-align: text-bottom;
+}
