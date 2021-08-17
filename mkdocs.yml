@@ -29,11 +29,11 @@ plugins:
   - awesome-pages
   - git-revision-date-localized:
       type: date
-#  - redirects:
-#      redirect_maps:
-#        'start/fbw-versions.md': 'fbw-a32nx/fbw-versions.md'
-##        'old.md': 'file.md'
-##        'some_file.md': 'http://external.url.com/foobar'
+  - redirects:
+      redirect_maps:
+        'start/fbw-versions.md': 'fbw-a32nx/fbw-versions.md'
+#        'old.md': 'file.md'
+#        'some_file.md': 'http://external.url.com/foobar'
 
 # Styling Front-end
 extra_css:
