@@ -32,8 +32,18 @@ plugins:
   - redirects:
       redirect_maps:
         'start/fbw-versions.md': 'fbw-a32nx/fbw-versions.md'
-#        'old.md': 'file.md'
-#        'some_file.md': 'http://external.url.com/foobar'
+        'start/installation.md': 'fbw-a32nx/installation.md'
+        'start/convert-liveries.md': 'fbw-a32nx/liveries.md'
+        'start/reported-issues.md': 'fbw-a32nx/support/reported-issues.md'
+        'start/performance-tips.md': 'fbw-a32nx/support/performance-tips.md'
+        'start/faq.md': 'fbw-a32nx/support/faq.md'
+        'start/mcdu-keyboard.md': 'fbw-a32nx/feature-guides/mcdu-keyboard.md'
+        'start/throttle-calibration.md': 'fbw-a32nx/feature-guides/throttle-calibration.md'
+        'start/autopilot-fbw.md': 'fbw-a32nx/feature-guides/autopilot-fbw.md'
+        'beginner-guide/overview.md': 'pilots-corner/beginner-guide/overview.md'
+        'airliner-flying-guide/overview.md': 'pilots-corner/airliner-flying-guide/overview.md'
+        # 'old.md': 'file.md'
+        # 'some_file.md': 'http://external.url.com/foobar'
 
 # Styling Front-end
 extra_css:
