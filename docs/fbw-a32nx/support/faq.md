@@ -1,7 +1,7 @@
 ## General
 
 ???+ info "Q: Where is the plane in-sim?"
-    The mod will appear as a separate aircraft, select the `FlyByWire Simulations A320neo (LEAP)` in the aircraft selector instead of the Asobo one.
+    The add-on will appear as a separate aircraft, select the `FlyByWire Simulations A320neo (LEAP)` in the aircraft selector instead of the Asobo one.
 
 ??? info "Q: Can I download the aircraft in the current state?"
     Yes, see [Downloads](../installation.md#downloads).

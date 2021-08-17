@@ -24,9 +24,9 @@ FWC Std.   H2F9C
 
 ## A32NX GitHub and Support
 
-Below you can find links to our GitHub and Discord where we provide support, accept bug/feature requests, and host the source code to the A32NX mod.
+Below you can find links to our GitHub and Discord where we provide support, accept bug/feature requests, and host the source code to the A32NX add-on.
 
-If you need support or are interested in contributing to the mod please use the links below.
+If you need support or are interested in contributing to the FlyByWire Project please use the links below.
 
 [:fontawesome-brands-discord:{: .discord } - **Discord Link**](https://discord.gg/flybywire){target=new}
 

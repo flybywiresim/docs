@@ -2,7 +2,7 @@
 
 !!! info "Always Try This First"
 
-    Please try and remove all other mods/liveries from the community folder and test our mod again. This will help rule out mod conflicts.
+    Please try and remove all other mods/liveries from the community folder and test our add-on again. This will help rule out conflicts.
 
     <sub>Report back the result of this test on our Discord.
 
@@ -336,7 +336,7 @@ Using **New** Cockpit Interaction System
 !!! tip ""
     *Affected versions: Stable, Development*
 
-- Conflict with another mod/livery or incorrect installation of the A32NX mod
+- Conflict with another mod/livery or incorrect installation of the A32NX add-on
 - Use our [installer](https://api.flybywiresim.com/installer){target=new}
 
 #### Upper ECAM displays wrong THR levers position / N1 rating
@@ -351,7 +351,7 @@ Using **New** Cockpit Interaction System
 !!! tip ""
     *Affected versions: Stable, Development*
 
-- ASOBO *Aviator/Beta Club* A320 liveries are incompatible with the A32NX mod
+- ASOBO *Aviator/Beta Club* A320 liveries are incompatible with the A32NX add-on
 - Wipers don't function correctly with converted FSX Liveries
 
 ---
@@ -422,7 +422,7 @@ Crash to desktop (CTD) can either be a sim issue or a conflict with the A32NX. T
         - Workaround: Delete the `flybywire-aircraft-a320-neo folder`, then install it again.
     - Installer not showing your existing installation:
         - This is due to the new modular system which requires a new full installation.
-        - Workaround: Install the mod again via the installer.
+        - Workaround: Install the add-on again via the installer.
 
 * VOR/ADF indicators not showing on the ND *(fixed)*
 

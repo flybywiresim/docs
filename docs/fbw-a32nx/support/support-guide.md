@@ -4,7 +4,7 @@ Microsoft Flight Simulator 2020 is still a rather young flight simulator and man
 
 The FlyByWire A32NX tries to address many of these issues but it is of course also likely to have issues and bugs itself now and then.
 
-This guide shall help you how to identify and solve these issues by guiding you through a systematic troubleshooting process. These are several sources of information you can check if you experience an issue with the FBW A32NX mod. We will describe each of them in more detail below.
+This guide shall help you how to identify and solve these issues by guiding you through a systematic troubleshooting process. These are several sources of information you can check if you experience an issue with the FBW A32NX add-on. We will describe each of them in more detail below.
 
 ##  Index
 
@@ -29,7 +29,7 @@ Please make sure you have acquired the knowledge to distinguish a software issue
 
 ## 2. Troubleshoot
 
-Please try and remove all other mods/liveries from the [Community Folder](#community-folder-content) and perform a [clean reinstall](../installation.md#clean-install-steps) of the A32NX with the [FlyByWire Installer](https://api.flybywiresim.com/installer){target=new}. Then start the simulator and check if the problem is still present. This will help rule out mod conflicts.
+Please try and remove all other mods/liveries from the [Community Folder](#community-folder-content) and perform a [clean reinstall](../installation.md#clean-install-steps) of the A32NX with the [FlyByWire Installer](https://api.flybywiresim.com/installer){target=new}. Then start the simulator and check if the problem is still present. This will help rule out conflicts.
 
 !!! warning "Please really do this as >90% of all reported issues are caused by conflicts with other mods and liveries, etc. Unfortunately Microsoft Flight Simulator 2020 is very sensitive to conflicts between mods and liveries."
 
@@ -137,7 +137,7 @@ This should contain something like this:
 
 ### Community Folder Content
 
-Make sure that before reporting any issues that your [Community Folder](../installation.md#community-folder) is completely empty with the exception of the FlyByWire mod (folder name `flybywire-aircraft-a320-neo`).
+Make sure that before reporting any issues that your [Community Folder](../installation.md#community-folder) is completely empty with the exception of the FlyByWire add-on (folder name `flybywire-aircraft-a320-neo`).
 
 Make a screenshot of the Community Folder if requested by our support team.
 
