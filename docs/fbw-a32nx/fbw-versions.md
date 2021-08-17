@@ -43,8 +43,7 @@
 This is a curated list with the most important features for users and
 will be updated at least once a month.
 
-For all changes refer to the official
-[CHANGELOG](https://github.com/flybywiresim/a32nx/blob/master/.github/CHANGELOG.md).
+For all changes refer to the official [CHANGELOG](https://github.com/flybywiresim/a32nx/blob/master/.github/CHANGELOG.md){target=new} or commits on the [:fontawesome-brands-github:{: .github } - **GitHub A32NX Repository Master Branch**](https://github.com/flybywiresim/a32nx/commits/master){target=new}.
 
 | Feature                                                                                                                     |   Stable 0.6.3   | Development<br/>(Aug 17th 2021) |
 |:----------------------------------------------------------------------------------------------------------------------------|:----------------:|:-------------------------------:|
