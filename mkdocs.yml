@@ -31,6 +31,7 @@ plugins:
       type: date
   - redirects:
       redirect_maps:
+        # Folder: /start/
         'start/fbw-versions.md': 'fbw-a32nx/fbw-versions.md'
         'start/installation.md': 'fbw-a32nx/installation.md'
         'start/convert-liveries.md': 'fbw-a32nx/liveries.md'
@@ -40,8 +41,18 @@ plugins:
         'start/mcdu-keyboard.md': 'fbw-a32nx/feature-guides/mcdu-keyboard.md'
         'start/throttle-calibration.md': 'fbw-a32nx/feature-guides/throttle-calibration.md'
         'start/autopilot-fbw.md': 'fbw-a32nx/feature-guides/autopilot-fbw.md'
+        # Folder: /beginner-guide/
         'beginner-guide/overview.md': 'pilots-corner/beginner-guide/overview.md'
+        # Folder: /airliner-flying-guide/
         'airliner-flying-guide/overview.md': 'pilots-corner/airliner-flying-guide/overview.md'
+        # Folder: /development-projects/
+        'development-projects/overview.md': 'dev-corner/development-practices.md'
+        'development-projects/website.md': 'dev-corner/development-projects/website.md'
+        # Folder: /a32nx-devs/
+        'a32nx-dev/overview.md': 'dev-corner/development-guide.md'
+        'a32nx-dev/texture-changes.md': 'dev-corner/texture-changes.md'
+
+
         # 'old.md': 'file.md'
         # 'some_file.md': 'http://external.url.com/foobar'
 
