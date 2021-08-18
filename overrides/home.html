@@ -1,0 +1,64 @@
+{% extends "main.html" %}
+{% block tabs %}
+{{ super() }}
+<link rel="stylesheet" href="assets/stylesheets/home.css">
+<!-- Hero -->
+<section class="container">
+    <div class="md-grid md-typeset">
+        <div class="hero">
+            <div class="hero-content">
+                <h1> A32NX Documentation </h1>
+                    <p>The A32NX Project is a community-driven open source project to create a <b>free Airbus A320neo in Microsoft Flight Simulator</b> that is as close to reality as possible. It aims to enhance the default A320neo by <b>improving the systems depth and functionality</b> to bring it up to payware-level, all for free.</p>
+                <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | striptags }}" class="md-button md-button--primary">
+                    Start Here
+                </a>
+                <a href="https://flybywiresim.com/" title="FlyByWire Simulations" class="md-button">
+                    Go to FBW Website
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Page links -->
+<div class="feature-margin">
+    <div class="f-box">
+        <a href="fbw-a32nx/support/reported-issues/">
+        <h2>
+            Reported Issues
+        </h2>
+        <hr>
+        <p>Encountering issues flying the A32NX? This section lists our most commonly reported issues, workarounds, and status of any fixes available.</p>
+        </a>
+    </div>
+    <div class="f-box">
+        <a href="pilots-corner/beginner-guide/overview/">
+        <h2>
+            Beginner Guide
+        </h2>
+        <hr>
+        <p>New to flying the A32NX? Our beginner guide takes you from gate to gate to accomplish a successful flight. Each guide was verified by an A320neo pilot. Click here to start learning!</p>
+        </a>
+    </div>
+    <div class="f-box">
+        <a href="pilots-corner/airliner-flying-guide/overview/">
+        <h2>
+            Airliner Flying Guide
+        </h2>
+        <hr>
+        <p>We have provided a basic guide with general airliner terminology and flying techniques. It is focused towards the Airbus A320neo and our A32NX.</p>
+        </a>
+    </div>
+    <div class="f-box">
+        <a href="dev-corner/development-guide/">
+        <h2>
+            Contributing
+        </h2>
+        <hr>
+        <p>We are an open source development group and welcome contributors to the project! You'll find the resources you need in this section to help get you started with your first pull request.</p>
+        </a>
+    </div>
+</div>
+
+{% endblock %}
+{% block content %}{% endblock %}
