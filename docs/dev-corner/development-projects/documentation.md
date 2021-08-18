@@ -91,7 +91,8 @@ To participate in the FlyByWire Documentation Project you need to have following
 
 #### Technical HowTo
 
-- To create a page simply create a new file "pagename.md" in an appropriate folder and start writing your documentation. Best practices it to look at other pages regarding the general structure (Headings, Material for MkDocs features, etc.)
+- You can edit existing pages simply by editing an existing `pagename.md`.
+- To create a page simply create a new file "pagename.md" in an appropriate folder and start writing your documentation. Best practices it to look at other pages regarding the general structure (Headings, Material for MkDocs features, etc.).
 - Create the page in the navigation folder you feel this page belongs to. The Documentation Team will be happy to support you with the best location and also how to create a navigation to your page.
 - During the PR Review the page still can be moved and navigation can be changed/added. So don't worry too much about it and focus on the content for your page.
 - Add images to the section's asset folder. Consider creating a folder for your page when using several images.
