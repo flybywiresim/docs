@@ -1,4 +1,4 @@
-# Electronic Centralized Aircraft Monitor (ECAM)
+# Electronic Centralized Aircraft Monitoring (ECAM)
 
 ## ECAM Pages
 
