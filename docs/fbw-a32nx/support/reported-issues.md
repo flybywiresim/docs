@@ -8,12 +8,12 @@
 
 !!! warning "Read our Support Guide"
 
-    1. [Learn how to fly an A32NX](support-guide.md#1-learn-how-to-fly-an-a32nx)
-    - [Troubleshoot](support-guide.md#2-troubleshoot)
-    - [Research Known Issues](support-guide.md#3-research-known-issues)
-    - [Report Issue on Discord](support-guide.md#4-report-issue-on-discord)
-    - [Report Issue on the A32NX Github](support-guide.md#5-report-issue-on-the-a32nx-github)
-    - [Collecting Support Information](support-guide.md#collecting-support-information)
+    1. [Learn how to fly an A32NX](index.md#1-learn-how-to-fly-an-a32nx)
+    - [Troubleshoot](index.md#2-troubleshoot)
+    - [Research Known Issues](index.md#3-research-known-issues)
+    - [Report Issue on Discord](index.md#4-report-issue-on-discord)
+    - [Report Issue on the A32NX Github](index.md#5-report-issue-on-the-a32nx-github)
+    - [Collecting Support Information](index.md#collecting-support-information)
 
     ---
     
