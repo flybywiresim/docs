@@ -103,7 +103,7 @@ ADIRS may not be aligned when spawning anywhere except cold & dark at a gate (*i
 !!! tip ""
     *Affected versions: Stable, Development*
 
-Sometimes the sim will "*miss*" the trigger point being reach for outer tank fuel transfer to initialize. This may happen if the sim is "busy" when working with something else. 
+Sometimes the sim will "*miss*" the trigger point being reached for outer tank fuel transfer to initialize. This may happen if the sim is "busy" when working with something else. 
 
 *Intermittent Issue / Under Investigation*
 
