@@ -4,7 +4,7 @@ This section of the FlyByWire Documentation is dedicated to the A32NX add-on its
 
 ## Quick Links
 
-[Support Guide](support/support-guide.md){ .md-button }
+[Support Guide](support/index.md){ .md-button }
 [Reported Issues](support/reported-issues.md){ .md-button }
 [Throttle Calibration Guide](feature-guides/throttle-calibration.md){ .md-button }
 
@@ -13,7 +13,7 @@ This section of the FlyByWire Documentation is dedicated to the A32NX add-on its
 - [Version and Feature Guide](fbw-versions.md)
 - [Installation Guide](installation.md)
 - [Livery Guide](liveries.md)
-- [Support](support/support-guide.md)
+- [Support](support/index.md)
 - [Feature Guides](feature-guides/)
 - [A32NX Variables and Events](a32nx-lvar-events/)
 
