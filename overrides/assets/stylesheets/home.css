@@ -67,6 +67,7 @@
     font-weight: 300;
     box-sizing: border-box;
     padding: 0 15px;
+    margin-bottom: 1.6rem;
 }
 
 .f-box h2 {
@@ -113,7 +114,7 @@
     }
 }
 
-@media screen and (min-width:960px) {
+@media screen and (min-width:900px) {
     .md-sidebar--secondary {
         display: none
     }
@@ -133,8 +134,8 @@
     }
 
     .f-box:hover {
-            background-color: #3D6575;
-            border-radius: 3px;
+        background-color: #3D6575;
+        border-radius: 3px;
     }
 }
 
