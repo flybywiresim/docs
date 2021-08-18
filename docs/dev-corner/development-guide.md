@@ -1,5 +1,7 @@
 # A32NX Development Guide Overview
 
+[:fontawesome-brands-github:{: .github } **GitHub Contributing.md**](https://github.com/flybywiresim/a32nx/blob/master/.github/Contributing.md){ .md-button target=new}
+
 ## Introduction
 
 This guide has the objective of teaching you how to contribute efficiently to the FlyByWire A32NX project.
