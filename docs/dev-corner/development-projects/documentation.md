@@ -96,6 +96,7 @@ To participate in the FlyByWire Documentation Project you need to have following
 - Create the page in the navigation folder you feel this page belongs to. The Documentation Team will be happy to support you with the best location and also how to create a navigation to your page.
 - During the PR Review the page still can be moved and navigation can be changed/added. So don't worry too much about it and focus on the content for your page.
 - Add images to the section's asset folder. Consider creating a folder for your page when using several images.
+- Although the FlyByWire Documentation Team will take care of navigation it might still be of interest how the navigation is done. This is well explained on the [mkdocs-awesome-pages-plugin's README on their Github](https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin#Features){target=new}
 
 #### Tips to work effectively with mkdocs (change, previews, etc.)
 
