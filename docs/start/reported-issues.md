@@ -94,10 +94,20 @@ Affects our custom autopilot, FADEC, and electrical system
 !!! tip ""
     *Affected versions: Development*
 
-
 ADIRS may not be aligned when spawning anywhere except cold & dark at a gate (*intermittent issue*)
 
 - Workaround: Restart the flight
+
+#### Outer Tank Fuel Transfer
+
+!!! tip ""
+    *Affected versions: Stable, Development*
+
+Sometimes the sim will "*miss*" the trigger point being reached for outer tank fuel transfer to initialize. This may happen if the sim is "busy" when working with something else OR initial FOB at the start of flight is below the trigger point. 
+
+*Intermittent Issue / Under Investigation*
+
+- Workaround: Add enough fuel to get past the trigger point of 239 gallons before departing.
 
 ---
 
