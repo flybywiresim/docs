@@ -18,8 +18,8 @@
 
 *Last Update: {{git_revision_date_localized}}*
 
-- Approach mode must be manually armed
-- Only 3 Leg Types/1 Transition Supported at this time
+- Approach Phase must be manually activated (MCDU PERF)
+- Only 3 leg types (TF, RF and VM) and 1 transition type (type 1) supported at this time
 - WX and TERR on ND INOP
 - ARPT, VOR, NDB, WPTs filters INOP on ND
 - Runaway sequencing issues involving type 1 transitions
@@ -28,7 +28,10 @@
 - No traffic shown, TCAS is INOP, elements are cosmetic only
 - EFB Rate of descent now no longer syncs with ND
 - MCDU flight plan INIT DEPARTURE/ARRIVAL page is sometimes cleared when DIRECT-TO is used
-- Defining both from/to in the world map do show in the from/to init page but do not populate the airport list in METAR
+- Defining both from/to in MSFS Flight Planner (World Map) do show in the from/to init page but do not populate the airport list in METAR
+- Flight plans defined in the MSFS Flight Planner (World Map) are loaded to the cFMS once but might contain issues.
+- Any changes to the cFMS flight plan will not be synced back to the MSFS flight plan manager for now.
+- Build-in ATC will not be supported with the cFMS for now.
 
 ### How to report issues
 
