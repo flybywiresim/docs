@@ -126,7 +126,7 @@ Sometimes the sim will "*miss*" the trigger point being reached for outer tank f
     ![content manager image](https://media.discordapp.net/attachments/828975068947939368/870365130335088660/unknown.png?width=1440&height=123)
 
     Uninstall it and restart the sim. Reinstall development version from our installer.
-    
+
     <sub> You may install Stable v0.6.3 for compatibility. We recommend staying on development.
 
     This information is stated on [Installation Guide](../installation.md).
@@ -247,7 +247,7 @@ Using **New** Cockpit Interaction System
     While this might represent an inconvenience for a short amount of time, we are sure that 3rd party content authors will be quick to provide you with updated liveries and programs.
 
     **Convert Your Liveries:**
-    
+
     - See our guide to [liveries](../liveries.md)
     - Visit Flightsim.to with updated liveries [here](https://flightsim.to/c/liveries/flybywire-a32nx/){target=new}
 
