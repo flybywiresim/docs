@@ -25,6 +25,7 @@ nav:
       - Porting Custom Camera Views: start/porting-custom-cameras.md
       - Performance Tips: start/performance-tips.md
       - Common Questions: start/faq.md
+      - Experimental Version: start/exp.md
   - Beginner Guide:
       - Overview: beginner-guide/overview.md
       - Starting the aircraft: beginner-guide/starting-the-aircraft.md
