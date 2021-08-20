@@ -80,6 +80,21 @@ You can send us logs to our [Discord](https://discord.gg/flybywire){target=new} 
          
          [**IMPORTANT:** View information on Autopilot / Fly-By-Wire here](feature-guides/autopilot-fbw.md)
 
+    === "Experimental Version"
+        
+        This version is similar to the development version, but contains custom systems early in the development phase - expect issues.
+    
+        Currently the new FlyByWire Custom Flight Management System (cFMS) is available in the Experimental version.
+    
+        Please read [Experimental Version Support Page](support/exp.md) before using this version.
+    
+        It will be updated with the latest changes to the development version every week or so (not guaranteed).
+
+        [Download Experimental](https://api.flybywiresim.com/api/v1/download?url=https://flybywiresim-packages.b-cdn.net/experimental/A32NX-experimental.zip){ .md-button target=new}
+
+        !!! danger "No Support for Experimental - use at own risk"
+            Please do not seek support for the Experimental Version on Discord and only report issues if you have read this page and the reported and known issues.
+
 ---
 
 **Please follow ALL steps in this section if you encounter any issues with installation before seeking support.**
