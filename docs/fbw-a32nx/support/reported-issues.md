@@ -19,6 +19,10 @@
     
     Do this before reporting bugs.
 
+!!! danger "No Support for Experimental - use at own risk"
+
+    Refer to this page for [Known Issues in the Experimental Version](http://127.0.0.1:8000/fbw-a32nx/support/exp/#known-issues) .
+
 FBW Installer - [Download Here](https://api.flybywiresim.com/installer){target=new} / *Sim Version: 1.18.15.0*
 
 *Last Update: {{git_revision_date_localized}}*
