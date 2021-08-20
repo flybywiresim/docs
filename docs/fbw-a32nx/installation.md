@@ -55,9 +55,7 @@ You can send us logs to our [Discord](https://discord.gg/flybywire){target=new} 
 
 [Download Installer](https://api.flybywiresim.com/installer){ .md-button target=new}
 
----
-
-## Manual Installation
+### Manual Installation
 
 !!! info "Download"
 
@@ -88,9 +86,7 @@ You can send us logs to our [Discord](https://discord.gg/flybywire){target=new} 
 
 Open the zip that you downloaded from one of the links above, and drag the `flybywire-aircraft-a320-neo` folder inside the zip into your Community folder.
 
-See below for the location of your Community folder:
-
----
+See below for the location of your Community folder.
 
 ## Community Folder
 
