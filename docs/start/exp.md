@@ -1,7 +1,7 @@
 # Experimental Version
 
 !!! danger "No Support for Experimental - use at own risk"
-    Please do not seek support for the Experimental Version on Discord and only report issues if you have read this page and the reported and known issues.
+    Please do not seek support for the Experimental Version on Discord and only report issues if you have read this page and the reported and known issues. You can report issues in the Discord channel "#ata-22-fms" in the thread "Bugs and Issues".
 
 ---
 
@@ -35,7 +35,7 @@
 
 ### How to report issues
 
-At this time please only report issues via our Discord thread: "ata-22-fms > Bugs and Issues".
+At this time please only report issues via our Discord channel "#ata-22-fms" in the thread "Bugs and Issues".
 
 !!! warning
     Please read the above Known Issues list and also use the search of  Discord to see if you issue has already been reported.
@@ -49,4 +49,4 @@ At this time please only report issues via our Discord thread: "ata-22-fms > Bug
 ---
 
 !!! danger "No Support for Experimental - use at own risk"
-    Please do not seek support for the Experimental Version on Discord and only report issues if you have read this page and the reported and known issues.
+    Please do not seek support for the Experimental Version on Discord and only report issues if you have read this page and the reported and known issues. You can report issues in the Discord channel "#ata-22-fms" in the thread "Bugs and Issues".
