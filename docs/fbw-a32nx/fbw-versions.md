@@ -24,9 +24,12 @@
 === "Experimental Version"
 
     This version is similar to the development version, but contains custom systems in earlier development phases.
-
-    !!! info ""
-        Experimental is currently on **hold**.
+    
+    Currently the new FlyByWire Custom Flight Management System (cFMS) is available in the Experimental version.
+    
+    Please read [Experimental Version page](support/exp.md) before using the Experimental version.
+    
+    The Experimental version will be updated with the latest changes to the Development version regularly.    
 
     !!! warning ""
         **No support will be provided via Discord for Experimental versions.**
