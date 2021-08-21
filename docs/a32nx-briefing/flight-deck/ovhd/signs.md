@@ -39,7 +39,6 @@ hide:
 
 Note: Chime is barely audible in the cockpit with the cockpit door closed.
 
-
 ### NO SMOKING
 
 - ON:
