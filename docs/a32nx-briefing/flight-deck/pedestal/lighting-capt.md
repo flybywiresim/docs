@@ -7,11 +7,11 @@ hide:
 
 ---
 
-[Back to Flight Deck](../flight-deck.md){ .md-button }
+[Back to Flight Deck](../index.md){ .md-button }
 
 ---
 
-![Pedestal Lighting Knobs](../../../assets/a32nx-briefing/pedestal/Pedestal-lighting.png "Pedestal Lighting Knobs"){ width=60% }
+![Pedestal Lighting Knobs](../../../assets/a32nx-briefing/pedestal/Pedestal-lighting.jpg "Pedestal Lighting Knobs"){ width=60% }
 
 ## Usage
 
@@ -25,4 +25,4 @@ hide:
 
 ---
 
-[Back to Flight Deck](../flight-deck.md){ .md-button }
+[Back to Flight Deck](../index.md){ .md-button }

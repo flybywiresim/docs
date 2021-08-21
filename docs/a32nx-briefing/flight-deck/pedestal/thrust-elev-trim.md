@@ -7,11 +7,11 @@ hide:
 
 ---
 
-[Back to Flight Deck](../flight-deck.md){ .md-button }
+[Back to Flight Deck](../index.md){ .md-button }
 
 ---
 
-![Thrust Lever and Elevation Trim](../../../assets/a32nx-briefing/pedestal/Thrust-lever-elev-trim.png "Thrust Lever and Elevation Trim"){width=60%}
+![Thrust Lever and Elevation Trim](../../../assets/a32nx-briefing/pedestal/Thrust-lever-elev-trim.jpg "Thrust Lever and Elevation Trim"){width=60%}
 
 ## Description
 
@@ -66,4 +66,4 @@ Nevertheless the pitch trim wheels in the cockpit provide mechanical control of 
 
 ---
 
-[Back to Flight Deck](../flight-deck.md){ .md-button }
+[Back to Flight Deck](../index.md){ .md-button }

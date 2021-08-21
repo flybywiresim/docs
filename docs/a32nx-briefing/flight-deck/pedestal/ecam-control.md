@@ -7,11 +7,11 @@ hide:
 
 ---
 
-[Back to Flight Deck](../flight-deck.md){ .md-button }
+[Back to Flight Deck](../index.md){ .md-button }
 
 ---
 
-![ECAM Control Panel](../../../assets/a32nx-briefing/pedestal/ECAM-Control-Panel.png "ECAM Control Panel"){ width=60% }
+![ECAM Control Panel](../../../assets/a32nx-briefing/pedestal/ECAM-Control-Panel.jpg "ECAM Control Panel"){ width=60% }
 
 ## Description
 
@@ -27,7 +27,7 @@ These knobs control the brightness of the ECAM displays and also allow to turn t
 
 Displays the respective page on the SD.
 
-[Detailed ECAM Pages Documentation](../../ecam/ecam.md){ .md-button }
+[Detailed ECAM Pages Documentation](../../ecam){ .md-button }
 
 ### CLR and RCL
 
@@ -60,4 +60,4 @@ The E/WD displays the "TO CONFIG NORMAL" message when the configuration is corre
 
 ---
 
-[Back to Flight Deck](../flight-deck.md){ .md-button }
+[Back to Flight Deck](../index.md){ .md-button }

@@ -7,11 +7,11 @@ hide:
 
 ---
 
-[Back to Flight Deck](../flight-deck.md){ .md-button }
+[Back to Flight Deck](../index.md){ .md-button }
 
 ---
 
-![WX Radar Panel](../../../assets/a32nx-briefing/pedestal/WX-radar-Panel.png "WX Radar Panel"){ width=60% }
+![WX Radar Panel](../../../assets/a32nx-briefing/pedestal/WX-radar-Panel.jpg "WX Radar Panel"){ width=60% }
 
 ## Description
 
@@ -93,5 +93,5 @@ This allows tilting the radar antenna when MULTISCAN is MAN. Zero uses the horiz
 
 ---
 
-[Back to Flight Deck](../flight-deck.md){ .md-button }
+[Back to Flight Deck](../index.md){ .md-button }
 

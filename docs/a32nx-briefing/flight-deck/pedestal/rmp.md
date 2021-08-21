@@ -7,11 +7,11 @@ hide:
 
 ---
 
-[Back to Flight Deck](../flight-deck.md){ .md-button }
+[Back to Flight Deck](../index.md){ .md-button }
 
 ---
 
-![Radio Management Panel](../../../assets/a32nx-briefing/pedestal/RMP.png "Radio Management Panel"){ width=60% }
+![Radio Management Panel](../../../assets/a32nx-briefing/pedestal/RMP.jpg "Radio Management Panel"){ width=60% }
 
 ## Description
 
@@ -175,4 +175,4 @@ Pressed and held: To make an announcement a boom, mask or hand mike is used
 
 ---
 
-[Back to Flight Deck](../flight-deck.md){ .md-button }
+[Back to Flight Deck](../index.md){ .md-button }

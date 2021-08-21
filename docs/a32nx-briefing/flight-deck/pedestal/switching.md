@@ -7,11 +7,11 @@ hide:
 
 ---
 
-[Back to Flight Deck](../flight-deck.md){ .md-button }
+[Back to Flight Deck](../index.md){ .md-button }
 
 ---
 
-![Switching Panel](../../../assets/a32nx-briefing/pedestal/Switching-Panel.png "Switching Panel"){ width=60% }
+![Switching Panel](../../../assets/a32nx-briefing/pedestal/Switching-Panel.jpg "Switching Panel"){ width=60% }
 
 ## Description
 
@@ -63,4 +63,4 @@ To have maximal redundancy A320 pilots can switch backup computers or data sourc
 
 ---
 
-[Back to Flight Deck](../flight-deck.md){ .md-button }
+[Back to Flight Deck](../index.md){ .md-button }
