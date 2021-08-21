@@ -32,30 +32,11 @@ nav:
       - Overview: a32nx-briefing/index.md
       - Flight Deck: a32nx-briefing/flight-deck/index.md
       - ECAM: a32nx-briefing/ecam/index.md
-#      - EFIS PFD: a32nx-briefing/efis/pfd.md
-#      - EFIS ND: a32nx-briefing/efis/nd.md
-#      - MCDU: a32nx-briefing/mcdu/mcdu.md
-#      - Electric System: a32nx-briefing/elec/elec.md
-#      - Hydraulic System: a32nx-briefing/hyd/hyd.md
-#      - Fuel System: a32nx-briefing/fuel/fuel.md
-#      - Flight Controls: a32nx-briefing/hyd/hyd.md
-#      - Landing Gear: a32nx-briefing/tbd.md
-#      - Automatic Flight System: a32nx-briefing/tbd.md
-#      - Auxiliary Power Unit: a32nx-briefing/tbd.md
-#      - Engine Controls: a32nx-briefing/tbd.md
-#      - Radio Management and Communication: a32nx-briefing/tbd.md
-#      - Environmental Flight System: a32nx-briefing/tbd.md
-#      - Fire Protection: a32nx-briefing/tbd.md
-#      - Ice and Rain Protection: a32nx-briefing/tbd.md
-#      - Oxygen: a32nx-briefing/tbd.md
-#      - Information System: a32nx-briefing/tbd.md
-#      - Maintenance Centralized Fault Display System: a32nx-briefing/tbd.md
-#      - General: a32nx-briefing/tbd.md
   - Development Projects:
-      - Overview: development-projects/index.md
+      - Overview: development-projects/overview.md
       - Website: development-projects/website.md
   - A32NX Development:
-      - Overview: a32nx-dev/index.md
+      - Overview: a32nx-dev/overview.md
   - Donate: donate.md
 
 # Configuration
