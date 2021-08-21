@@ -27,7 +27,7 @@
     
     Currently the new FlyByWire Custom Flight Management System (cFMS) is available in the Experimental version.
     
-    The Experimental version will be updated with the latest changes to the cFMS regularly and also with the latest changes to the Developmnet version. Expect updates about once a week (not guaranteed).     
+    The Experimental version will be updated with the latest changes to the cFMS regularly and also with the latest changes to the Development version. Expect updates about once a week (not guaranteed).     
     
     !!! warning 
 
@@ -50,74 +50,78 @@ will be updated at least once a month.
 
 For all changes refer to the official [CHANGELOG](https://github.com/flybywiresim/a32nx/blob/master/.github/CHANGELOG.md){target=new} or commits on the [:fontawesome-brands-github:{: .github } - **GitHub A32NX Repository Master Branch**](https://github.com/flybywiresim/a32nx/commits/master){target=new}.
 
-| Feature                                                                                                                     |   Stable 0.6.3   | Development<br/>(Aug 17th 2021) |
-|:----------------------------------------------------------------------------------------------------------------------------|:----------------:|:-------------------------------:|
-| Standalone Aircraft                                                                                                         | :material-check: |        :material-check:         |
-| EFB                                                                                                                         | :material-check: |        :material-check:         |
-| EFB Simbrief Integration                                                                                                    | :material-check: |        :material-check:         |
-| EFB Ground Handling                                                                                                         | :material-check: |        :material-check:         |
-| Printer                                                                                                                     | :material-check: |        :material-check:         |
-| Custom Electrical System                                                                                                    | :material-check: |        :material-check:         |
-| Custom APU Simulation                                                                                                       | :material-check: |        :material-check:         |
-| Improved Flight Model Accuracy                                                                                              | :material-check: |        :material-check:         |
-| Split RMP1 and RMP2 Radios                                                                                                  | :material-check: |        :material-check:         |
-| Custom Camera Views                                                                                                         | :material-check: |        :material-check:         |
-| Support for CONF 3 (flaps 3) Landings                                                                                       | :material-check: |        :material-check:         |
-| TRK/SPA Mode                                                                                                                | :material-check: |        :material-check:         |
-| GPWS Improvements                                                                                                           | :material-check: |        :material-check:         |
-| Brake Fan                                                                                                                   | :material-check: |        :material-check:         |
-| MCDU/FMC Improvements                                                                                                       | :material-check: |        :material-check:         |
-| Forced Usage of Modern Flight Model                                                                                         | :material-check: |        :material-check:         |
-| Sim Update 5 (SU5) Fixes (Aug 9th)                                                                                          | :material-check: |        :material-check:         |
-| Custom Hydraulic System (initial implementation)                                                                            |                  |        :material-check:         |
-| Connection between Electrical Power and Hydraulics                                                                          |                  |        :material-check:         |
-| VOR/ADF Needles on ND                                                                                                       |                  |        :material-check:         |
-| New PFD (in react)                                                                                                          |                  |        :material-check:         |
-| BRG/DIST Feature on ECAM PROG Page                                                                                          |                  |        :material-check:         |
-| Custom Fly-by-wire System                                                                                                   |                  |        :material-check:         |
-| Custom Autopilot (with Autoland feature)                                                                                    |                  |        :material-check:         |
-| Custom Autothrust                                                                                                           |                  |        :material-check:         |
-| EFB Throttle Calibration                                                                                                    |                  |        :material-check:         |
-| Improved AP, ROLL OUT and Ground Spoiler Logic                                                                              |                  |        :material-check:         |
-| Descent Initiation via FCU V/S Knob                                                                                         |                  |        :material-check:         |
-| Improvement to Custom Fly-by-wire System (Protections)                                                                      |                  |        :material-check:         |
-| Push FCU V/S Knob during APPR to Level off                                                                                  |                  |        :material-check:         |
-| More EVENTS and LVARS for External Control                                                                                  |                  |        :material-check:         |
-| Seatbelt Sign Sync to FCUIPC                                                                                                |                  |        :material-check:         |
-| Hydraulics ECAM Page                                                                                                        |                  |        :material-check:         |
-| OVHD ANN Lt DIM functionality                                                                                               |                  |        :material-check:         |
-| Brakes use Hydraulic System                                                                                                 |                  |        :material-check:         |
-| Custom Autobrake                                                                                                            |                  |        :material-check:         |
-| APU Heat Blur                                                                                                               |                  |        :material-check:         |
-| ISIS and CHRONO Auto Brightness                                                                                             |                  |        :material-check:         |
-| ISIS Brightness Button Push & Hold                                                                                          |                  |        :material-check:         |
-| Support FD OFF Take-off Procedure                                                                                           |                  |        :material-check:         |
-| Improved FCU init values (SPD=100kts, HDG=0°, ALT=100ft)                                                                    |                  |        :material-check:         |
-| ILS Auto-tuning for Departure and Approach                                                                                  |                  |        :material-check:         |
-| Scratchpad clear on CLR held                                                                                                |                  |        :material-check:         |
-| Improved Cold Engine Start-up Model                                                                                         |                  |        :material-check:         |
-| Adapted t.o. A/THR Engagement                                                                                               |                  |        :material-check:         |
-| ISA Deviation on ECAM SD                                                                                                    |                  |        :material-check:         |
-| MCDU Keyboard Input                                                                                                         |                  |        :material-check:         |
-| New Potentiometer for Lights and Screens                                                                                    |                  |        :material-check:         |
-| Improved CHRONO Logic                                                                                                       |                  |        :material-check:         |
-| Pixelated Screens                                                                                                           |                  |        :material-check:         |
-| Advanced ADIRs Implementation                                                                                               |                  |        :material-check:         |
-| Automatic and Improved Cabin Pressurization                                                                                 |                  |        :material-check:         |
-| Preselected Speeds in ECAM PERF Pages                                                                                       |                  |        :material-check:         |
-| Correct QNH Flashing at TL/TA                                                                                               |                  |        :material-check:         |
-| Several Sound Enhancements                                                                                                  |                  |        :material-check:         |
-| Several Texture and Graphics Enhancements                                                                                   |                  |        :material-check:         |
-| Auto Print on Printer when PRINTER is Selected                                                                              |                  |        :material-check:         |
-| EFB flyPadOS v2 New Layout, add. Settings and Features                                                                      |                  |        :material-check:         |
-| EFB Navigraph Integration                                                                                                   |                  |        :material-check:         |
-| EFB VATSIM/IVAO Frequencies, Landing Performance                                                                            |                  |        :material-check:         |
-| EFB Landing Performance Calculator                                                                                          |                  |        :material-check:         |
-| Workaround for Altitude Issues of MSFS                                                                                      |                  |        :material-check:         |
-| Initial implementation of failures ( [#5359](https://github.com/flybywiresim/a32nx/pull/5359){target=new} )                 |                  |        :material-check:         |
-| EFB: Make OFP font size persistent ( [#5538](https://github.com/flybywiresim/a32nx/pull/5538){target=new} )                 |                  |        :material-check:         |
-| Un-mirror sharklet textures ( [#5490](https://github.com/flybywiresim/a32nx/pull/5490){target=new} )                        |                  |        :material-check:         |
-| Improved handling of rudder axis plus/minus ( [#5636](https://github.com/flybywiresim/a32nx/pull/5636){target=new} )        |                  |        :material-check:         |
-| EFB: Power Button  ( [#5624](https://github.com/flybywiresim/a32nx/pull/5624){target=new})                                  |                  |        :material-check:         |
-| EFB: Tabbed Settings Page and Auto-brightness Option ([#5524](https://github.com/flybywiresim/a32nx/pull/5524){target=new}) |                  |        :material-check:         |
+| Feature                                                                                                                         |   Stable 0.6.3   | Development<br/>(Aug 21th 2021) |
+|:--------------------------------------------------------------------------------------------------------------------------------|:----------------:|:-------------------------------:|
+| Standalone Aircraft                                                                                                             | :material-check: |        :material-check:         |
+| EFB                                                                                                                             | :material-check: |        :material-check:         |
+| EFB Simbrief Integration                                                                                                        | :material-check: |        :material-check:         |
+| EFB Ground Handling                                                                                                             | :material-check: |        :material-check:         |
+| Printer                                                                                                                         | :material-check: |        :material-check:         |
+| Custom Electrical System                                                                                                        | :material-check: |        :material-check:         |
+| Custom APU Simulation                                                                                                           | :material-check: |        :material-check:         |
+| Improved Flight Model Accuracy                                                                                                  | :material-check: |        :material-check:         |
+| Split RMP1 and RMP2 Radios                                                                                                      | :material-check: |        :material-check:         |
+| Custom Camera Views                                                                                                             | :material-check: |        :material-check:         |
+| Support for CONF 3 (flaps 3) Landings                                                                                           | :material-check: |        :material-check:         |
+| TRK/SPA Mode                                                                                                                    | :material-check: |        :material-check:         |
+| GPWS Improvements                                                                                                               | :material-check: |        :material-check:         |
+| Brake Fan                                                                                                                       | :material-check: |        :material-check:         |
+| MCDU/FMC Improvements                                                                                                           | :material-check: |        :material-check:         |
+| Forced Usage of Modern Flight Model                                                                                             | :material-check: |        :material-check:         |
+| Sim Update 5 (SU5) Fixes (Aug 9th)                                                                                              | :material-check: |        :material-check:         |
+| Custom Hydraulic System (initial implementation)                                                                                |                  |        :material-check:         |
+| Connection between Electrical Power and Hydraulics                                                                              |                  |        :material-check:         |
+| VOR/ADF Needles on ND                                                                                                           |                  |        :material-check:         |
+| New PFD (in react)                                                                                                              |                  |        :material-check:         |
+| BRG/DIST Feature on ECAM PROG Page                                                                                              |                  |        :material-check:         |
+| Custom Fly-by-wire System                                                                                                       |                  |        :material-check:         |
+| Custom Autopilot (with Autoland feature)                                                                                        |                  |        :material-check:         |
+| Custom Autothrust                                                                                                               |                  |        :material-check:         |
+| EFB Throttle Calibration                                                                                                        |                  |        :material-check:         |
+| Improved AP, ROLL OUT and Ground Spoiler Logic                                                                                  |                  |        :material-check:         |
+| Descent Initiation via FCU V/S Knob                                                                                             |                  |        :material-check:         |
+| Improvement to Custom Fly-by-wire System (Protections)                                                                          |                  |        :material-check:         |
+| Push FCU V/S Knob during APPR to Level off                                                                                      |                  |        :material-check:         |
+| More EVENTS and LVARS for External Control                                                                                      |                  |        :material-check:         |
+| Seatbelt Sign Sync to FCUIPC                                                                                                    |                  |        :material-check:         |
+| Hydraulics ECAM Page                                                                                                            |                  |        :material-check:         |
+| OVHD ANN Lt DIM functionality                                                                                                   |                  |        :material-check:         |
+| Brakes use Hydraulic System                                                                                                     |                  |        :material-check:         |
+| Custom Autobrake                                                                                                                |                  |        :material-check:         |
+| APU Heat Blur                                                                                                                   |                  |        :material-check:         |
+| ISIS and CHRONO Auto Brightness                                                                                                 |                  |        :material-check:         |
+| ISIS Brightness Button Push & Hold                                                                                              |                  |        :material-check:         |
+| Support FD OFF Take-off Procedure                                                                                               |                  |        :material-check:         |
+| Improved FCU init values (SPD=100kts, HDG=0°, ALT=100ft)                                                                        |                  |        :material-check:         |
+| ILS Auto-tuning for Departure and Approach                                                                                      |                  |        :material-check:         |
+| Scratchpad clear on CLR held                                                                                                    |                  |        :material-check:         |
+| Improved Cold Engine Start-up Model                                                                                             |                  |        :material-check:         |
+| Adapted t.o. A/THR Engagement                                                                                                   |                  |        :material-check:         |
+| ISA Deviation on ECAM SD                                                                                                        |                  |        :material-check:         |
+| MCDU Keyboard Input                                                                                                             |                  |        :material-check:         |
+| New Potentiometer for Lights and Screens                                                                                        |                  |        :material-check:         |
+| Improved CHRONO Logic                                                                                                           |                  |        :material-check:         |
+| Pixelated Screens                                                                                                               |                  |        :material-check:         |
+| Advanced ADIRs Implementation                                                                                                   |                  |        :material-check:         |
+| Automatic and Improved Cabin Pressurization                                                                                     |                  |        :material-check:         |
+| Preselected Speeds in ECAM PERF Pages                                                                                           |                  |        :material-check:         |
+| Correct QNH Flashing at TL/TA                                                                                                   |                  |        :material-check:         |
+| Several Sound Enhancements                                                                                                      |                  |        :material-check:         |
+| Several Texture and Graphics Enhancements                                                                                       |                  |        :material-check:         |
+| Auto Print on Printer when PRINTER is Selected                                                                                  |                  |        :material-check:         |
+| EFB flyPadOS v2 New Layout, add. Settings and Features                                                                          |                  |        :material-check:         |
+| EFB Navigraph Integration                                                                                                       |                  |        :material-check:         |
+| EFB VATSIM/IVAO Frequencies, Landing Performance                                                                                |                  |        :material-check:         |
+| EFB Landing Performance Calculator                                                                                              |                  |        :material-check:         |
+| Workaround for Altitude Issues of MSFS                                                                                          |                  |        :material-check:         |
+| Initial implementation of failures ( [#5359](https://github.com/flybywiresim/a32nx/pull/5359){target=new} )                     |                  |        :material-check:         |
+| EFB: Make OFP font size persistent ( [#5538](https://github.com/flybywiresim/a32nx/pull/5538){target=new} )                     |                  |        :material-check:         |
+| Un-mirror sharklet textures ( [#5490](https://github.com/flybywiresim/a32nx/pull/5490){target=new} )                            |                  |        :material-check:         |
+| Improved handling of rudder axis plus/minus ( [#5636](https://github.com/flybywiresim/a32nx/pull/5636){target=new} )            |                  |        :material-check:         |
+| EFB: Power Button  ( [#5624](https://github.com/flybywiresim/a32nx/pull/5624){target=new})                                      |                  |        :material-check:         |
+| EFB: Tabbed Settings Page and Auto-brightness Option ([#5524](https://github.com/flybywiresim/a32nx/pull/5524){target=new})     |                  |        :material-check:         |
+| Completed custom sounds for all sounds                                                                                          |                  |        :material-check:         |
+| Cockpit door lock sounds                                                                                                        |                  |        :material-check:         |
+| Realistic reduction of loudness of chimes in cockpit when door locked                                                           |                  |        :material-check:         |
+| Notification Popup when changes to settings need reload ( [5261](https://github.com/flybywiresim/a32nx/pull/5261){target=new} ) |                  |        :material-check:         |
 
