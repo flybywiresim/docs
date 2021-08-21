@@ -25,11 +25,10 @@
 
     This version is similar to the development version, but contains custom systems in earlier development phases.
 
-    !!! info ""
-        Experimental is currently on **hold**.
+    [Experimental Version with Custom Flight Management System](exp.md)
 
-    !!! warning ""
-        **No support will be provided via Discord for Experimental versions.**
+    !!! danger "No Support for Experimental - use at own risk"
+        Please do not seek support for the Experimental Version on Discord and only report issues if you have read this page and the reported and known issues. You can report issues in the Discord channel "#ata-22-fms" in the thread "Bugs and Issues".
 
 === "Marketplace Version"
 
