@@ -9,10 +9,18 @@
 
 ### Features
 
-- Replaces the default Asobo Flight Plan Manager
-- Editing of waypoints within SID/STAR/APPR
+- Removes Asobo flight plan manager
+- Editable waypoints in SID/STAR/APPR
 - Off-track indicator
-- No more USR waypoints
+- USR waypoints are gone
+- Multiple leg types
+    - TF: Track to a Fix defines a great circle track over ground between two known databases fixes
+    - RF: Constant Radius Arc defines a constant radius turn between two database fixes, lines tangent to the arc and a center fix.
+    - VM: Heading to a Manual termination defines a specified heading until a Manual termination.
+- LNAV turn prediction
+- Roll anticipation distance
+- Correct procedure sequencing
+- Flight plan overhaul
 
 ### Known Issues
 
