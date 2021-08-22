@@ -1,25 +1,54 @@
 /*Primary Thematic Colors*/
 :root {
   --md-primary-fg-color:        #00C2CB;
-  --md-primary-fg-color--dark:  #1D1E26;
+  --md-primary-fg-color--dark:  hsl(216,32%,17%);
   --md-primary-fg-color--light: #00C2CB;
   --md-accent-fg-color:         #00C2CB;
+}
+/* Color Notes
+light hsla(216,32%,17%,1)
+dark rgba(20,30,48,1)
+diff rgba(27,36,52,1)
+*/
+
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: rgb(27,36,52);
 }
 
 /* Navigation Modifications */
 .md-header {
-  background: var(--md-primary-fg-color--dark);
+  background: rgb(20,30,48);
 }
 .md-nav--primary .md-nav__title[for=__drawer] {
     background: var(--md-primary-fg-color--dark);
     overflow: visible;
 }
 .md-tabs {
-  background: #3D6575
+  background: rgb(20,30,48);
 }
 .md-top {
   color: #ffffff;
 }
+.md-top {
+  color: #ffffff;
+}
+
+/*Announcement Bar Temporarily Removed
+.md-announce {
+    background-color: var(--md-footer-bg-color--dark);
+    overflow: auto;
+    padding-bottom: 0.5rem;
+}
+.md-announce__inner {
+    font-size: .7rem;
+    margin: .6rem auto 0;
+    padding: 0 .8rem;
+}
+.md-typeset img, .md-typeset svg {
+    height: auto;
+    max-width: 100%;
+    vertical-align: text-bottom;
+}*/
 
 /*Header Modifications*/
 .md-typeset h1 {
@@ -52,6 +81,15 @@ h4 {
 .md-typeset .admonition {
   border-left: .2rem solid #00C2CB;
   border-color: #00C2CB;
+}
+.md-typeset code {
+    background-color: hsl(232,7%,28%);
+    border-radius: .1rem;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    font-size: .95em;
+    padding: 0 .2941176471em;
+    word-break: break-word;
 }
 /*Admonition Question Variant*/
 /*Upper Section*/
