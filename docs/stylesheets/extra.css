@@ -1,27 +1,53 @@
 /*Primary Thematic Colors*/
 :root {
   --md-primary-fg-color:        #00C2CB;
-  --md-primary-fg-color--dark:  #1D1E26;
+  --md-primary-fg-color--dark:  hsla(216,32%,17%);
   --md-primary-fg-color--light: #00C2CB;
   --md-accent-fg-color:         #00C2CB;
+}
+/* Color Notes
+light hsla(216,32%,17%)
+dark rgba(20,30,48)
+diff rgba(27,36,52,1)
+*/
+
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: rgba(27,36,52,1);
 }
 
 /* Navigation Modifications */
 .md-header {
-  background: var(--md-primary-fg-color--dark);
+  background: rgba(20,30,48);
 }
 .md-nav--primary .md-nav__title[for=__drawer] {
     background: var(--md-primary-fg-color--dark);
     overflow: visible;
 }
 .md-tabs {
-  background: #3D6575;
+  background: rgba(20,30,48);
 }
 .md-top {
   color: #ffffff;
 }
 .md-top {
   color: #ffffff;
+}
+
+/*Announcement Bar*/
+.md-announce {
+    background-color: var(--md-footer-bg-color--dark);
+    overflow: auto;
+    padding-bottom: 0.5rem;
+}
+.md-announce__inner {
+    font-size: .7rem;
+    margin: .6rem auto 0;
+    padding: 0 .8rem;
+}
+.md-typeset img, .md-typeset svg {
+    height: auto;
+    max-width: 100%;
+    vertical-align: text-bottom;
 }
 
 /*Header Modifications*/
@@ -92,16 +118,4 @@ h4 {
   border-top: .05rem solid var(--md-default-fg-color--lightest);
   padding: .2375em 1.25em;
   vertical-align: top;
-}
-/*Announcement Bar*/
-.md-announce__inner {
-    color: var(--md-footer-fg-color);
-    font-size: .7rem;
-    margin: .6rem auto 0;
-    padding: 0 .8rem;
-}
-.md-typeset img, .md-typeset svg {
-    height: auto;
-    max-width: 100%;
-    vertical-align: text-bottom;
 }
