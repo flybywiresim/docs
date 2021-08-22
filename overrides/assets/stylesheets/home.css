@@ -1,6 +1,6 @@
 /* Main Elements */
 .md-main {
-    flex-grow: 0;
+    flex-grow: 1;
 }
 
 .md-main__inner {
@@ -66,7 +66,7 @@
 }
 
 .f-box {
-    font-family: 'Roboto';
+    font-family: 'Nunito Sans';
     font-weight: 300;
     box-sizing: border-box;
     padding: 0 15px;
@@ -167,17 +167,4 @@
         background-color: #3D6575;
         border-radius: 3px;
     }
-}
-
-.text-center {
-    text-align: center;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 15px;
-    font-family: 'Roboto';
-    font-size: 23px;
-    font-weight: 300;
-    padding-bottom: 10px;
 }
