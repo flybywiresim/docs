@@ -1,6 +1,6 @@
 # FlyByWire Documentation Project
 
- [:fontawesome-brands-github:{: .github } -  **Documentation Project Github**](https://github.com/flybywiresim/docs){target=new}
+ [:fontawesome-brands-github:{: .github } -  **Documentation Project Github**](https://github.com/flybywiresim/docs){target=new .md-button}
 
 ## Background
 
@@ -32,7 +32,7 @@ To participate in the FlyByWire Documentation Project you need to have following
     - mkdocs-awesome-pages-plugin
     - mkdocs-git-revision-date-localized-plugin
     - mkdocs-material
-    - mkdocs-material-extensions
+    - mkdocs-redirects
 - Install with this single line command:
 
     ```
@@ -41,18 +41,18 @@ To participate in the FlyByWire Documentation Project you need to have following
 
 - Editor / IDE:
     - Recommended: [Microsoft Visual Studio Code](https://code.visualstudio.com/docs#vscode){target=new}
-        - recommended plugins wot work with markdown:
+        - recommended plugins to work with markdown:
             - any markdown helper plugin - e.g. [https://github.com/yzhang-gh/vscode-markdown](https://github.com/yzhang-gh/vscode-markdown)
             - especially ofr tables: [https://github.com/takumisoft68/vscode-markdown-table](https://github.com/takumisoft68/vscode-markdown-table)
-    - or any [Jetbrains](https://www.jetbrains.com/) IDE, e.g. IntelliJ IDEA or Clion.
-    - or any text editor (even Notepad.exe will do) in conjunction with [stackedit.io](https://stackedit.io/){target=new} - Create and edit markdown on the web. Useful if you don't have / can't setup MkDocs locally on your machine. Does not support material references. Please note this in your PR so a maintainer can double check your references render appropriately.
+    - Or any [Jetbrains](https://www.jetbrains.com/) IDE, e.g. IntelliJ IDEA or Clion.
+    - Or any text editor (even Notepad.exe will do) in conjunction with [stackedit.io](https://stackedit.io/){target=new} - Create and edit markdown on the web. Useful if you don't have / can't setup MkDocs locally on your machine. Does not support material references. Please note this in your PR so a maintainer can double check your references render appropriately.
 
 ### Process
 
 #### Preview your local Clone
 
-- Fork the [:fontawesome-brands-github:{: .github } -  **Documentation Project Github**](https://github.com/flybywiresim/docs){target=new}) ([How to fork a repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo){target=new}).
-- Create a local clone ( [How to cloning your forked repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo#cloning-your-forked-repository){target=new}).
+- Fork the [:fontawesome-brands-github:{: .github } -  **Documentation Project Github**](https://github.com/flybywiresim/docs){target=new} ([How to fork a repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo){target=new}).
+- Create a local clone ([How to cloning your forked repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo#cloning-your-forked-repository){target=new}).
 - Checkout the "primary" branch - this is the main branch of the current FlyByWire Documentation Project.
 - In a command line terminal go to the cloned repository folder and start `mkdocs.exe serve` to start the local preview server.
 
@@ -83,9 +83,9 @@ To participate in the FlyByWire Documentation Project you need to have following
 - Create a [Draft Pull Request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-forkhttps://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork){target=new} (aka PR) early to let people know what you are working on.
     - Explain in the PR Description what you are changing/adding and how people should review your changes.
 - Work on your changes locally, preview constantly and push your changes regularly to get a preview deployment for others to give feedback.
-    - Every time you push changes to your PR a preview is generated with an URL you can share with the documentation team to get feedback. The URL (by the vercel bot) is visible on the PR github page.
-- When finished, push your final changes to the PR, update the PR Description if required and mark it "[Ready for Review](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/changing-the-stage-of-a-pull-request#marking-a-pull-request-as-ready-for-review){target=new}".
-- Someone from the documentation team will review your changes, give feedback, potentially ask for changes and eventually approve and merge your changes.
+    - Every time you push changes to your PR a preview is generated with a URL. You can share this link in Discord for the team to provide feedback easily. The URL (by the vercel bot) is visible as a comment on your PR github page.
+- When finished, push your final changes to the PR, update the PR description if required and mark it "[Ready for Review](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/changing-the-stage-of-a-pull-request#marking-a-pull-request-as-ready-for-review){target=new}".
+- Someone from the documentation team will review your changes, give feedback, potentially ask for changes, and eventually approve and merge your changes.
 
 ### How to write documentation for FlyByWire
 
