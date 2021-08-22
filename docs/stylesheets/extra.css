@@ -83,11 +83,11 @@ h4 {
   border-color: #00C2CB;
 }
 .md-typeset code {
-    background-color: hsl(232deg 15% 12%);
+    background-color: hsl(232deg 7% 28%);
     border-radius: .1rem;
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
-    font-size: .85em;
+    font-size: .95em;
     padding: 0 .2941176471em;
     word-break: break-word;
 }
