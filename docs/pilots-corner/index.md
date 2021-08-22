@@ -8,7 +8,7 @@ This section is aimed at sim pilots of all levels and covers topics regarding fl
 
 [Beginner Guide](beginner-guide/overview.md){ .md-button }
 
-##  Topics:
+##  Topics
 
 - [Beginner Guide](beginner-guide/overview.md)
 - [Airliner Flying Guide](airliner-flying-guide/overview.md)

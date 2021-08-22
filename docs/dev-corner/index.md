@@ -9,7 +9,7 @@ This section of the FlyByWire Documentation is dedicated to the development aspe
 
 [Development Guide](development-guide.md){ .md-button }
 
-##  Topics:
+##  Topics
 
 - [Development Guide](development-guide.md)
 - [Texture Changes](texture-changes.md)

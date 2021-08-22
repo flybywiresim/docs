@@ -21,7 +21,7 @@ FWC Std.   H2F9C
 [Reported Issues](support/reported-issues.md){ .md-button }
 [Throttle Calibration Guide](feature-guides/throttle-calibration.md){ .md-button }
 
-##  Topics:
+##  Topics
 
 - [Version and Feature Guide](fbw-versions.md)
 - [Installation Guide](installation.md)
