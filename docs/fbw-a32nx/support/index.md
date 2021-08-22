@@ -4,7 +4,7 @@ Microsoft Flight Simulator 2020 is still a rather young flight simulator and man
 
 The FlyByWire A32NX tries to address many of these issues but it is of course also likely to have issues and bugs itself now and then.
 
-This guide shall help you how to identify and solve these issues by guiding you through a systematic troubleshooting process. These are several sources of information you can check if you experience an issue with the FBW A32NX add-on. We will describe each of them in more detail below.
+This guide shall help you how to identify and solve these issues by guiding you through a systematic troubleshooting process. There are several sources of information you can check if you experience an issue with the FBW A32NX add-on. We will describe each of them in more detail below.
 
 ##  Index
 
