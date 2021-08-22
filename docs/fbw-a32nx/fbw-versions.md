@@ -4,7 +4,9 @@
 
 === "Development Version (recommended)"
 
-    Development will have the latest features that will eventually end up in the next stable release. In general this version has the latest fixes and newest features but also a slightly higher risk of containing bugs as features had less time to be used and tested by users.
+    Development will have the latest features that will eventually end up in the next stable release. 
+    
+    In general this version has the latest fixes and newest features but also a slightly higher risk of containing bugs as features had less time to be used and tested by users.
 
     This version updates often and sometimes several times a days. We recommend to update this version via our installer before every start of the simulator.
 
@@ -34,7 +36,7 @@
     Please read [Experimental Version page](support/exp.md) before using the Experimental version.
 
     !!! danger "No Support for Experimental - use at own risk"
-        Please do not seek support for the Experimental Version on Discord and only report issues if you have read this page and the reported and known issues.
+        Please do not seek support for the Experimental Version on Discord and only report issues if you have read this page and the reported and known issues. You can report issues in the Discord channel "#ata-22-fms" in the thread "Bugs and Issues".
 
 === "Marketplace Version"
 
