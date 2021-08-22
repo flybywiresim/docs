@@ -36,7 +36,7 @@ To participate in the FlyByWire Documentation Project you need to have following
 - Install with this single line command:
 
     ```
-    pip install mkdocs mkdocs-awesome-pages-plugin mkdocs-git-revision-date-localized-plugin mkdocs-material mkdocs-material-extensions
+    pip install mkdocs-material mkdocs-awesome-pages-plugin mkdocs-git-revision-date-localized-plugin mkdocs-redirects
     ```
 
 - Editor / IDE:
