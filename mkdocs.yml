@@ -23,11 +23,15 @@ theme:
     # Temporarily deactivated to provide support for Discord browser + anchor links
     # - navigation.instant
     - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
   favicon: assets/images/FBW-Tail.png
 
 # Plugins
 plugins:
-  - search
+  - search:
+      lang: en
   - awesome-pages
   - git-revision-date-localized:
       type: date
