@@ -14,7 +14,7 @@
 - Cross-track error indicator
 - USR waypoints are gone
 - Multiple leg types
-    - TF: Track to a Fix defines a great circle track over ground between two known databases fixes
+    - TF: Track to a Fix defines a great circle track over ground between two known databases fixes.
     - RF: Constant Radius Arc defines a constant radius turn between two database fixes, lines tangent to the arc and a center fix.
     - VM: Heading to a manual termination defines a specified heading until a Manual termination.
 - LNAV turn prediction
