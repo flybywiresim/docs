@@ -39,7 +39,7 @@
 - Defining both from/to in MSFS Flight Planner (World Map) do show in the from/to init page but do not populate the airport list in METAR
 - Flight plans defined in the MSFS Flight Planner (World Map) are loaded to the cFMS once but might contain issues.
 - Any changes to the cFMS flight plan will not be synced back to the MSFS flight plan manager for now.
-- Build-in ATC will not be supported with the cFMS for now.
+- Built-in ATC will not be supported with the cFMS for now.
 
 ### How to report issues
 
