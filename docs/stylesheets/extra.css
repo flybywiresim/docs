@@ -1,13 +1,13 @@
 /*Primary Thematic Colors*/
 :root {
   --md-primary-fg-color:        #00C2CB;
-  --md-primary-fg-color--dark:  hsla(216,32%,17%);
+  --md-primary-fg-color--dark:  hsla(216,32%,17%,1);
   --md-primary-fg-color--light: #00C2CB;
   --md-accent-fg-color:         #00C2CB;
 }
 /* Color Notes
-light hsla(216,32%,17%)
-dark rgba(20,30,48)
+light hsla(216,32%,17%,1)
+dark rgba(20,30,48,1)
 diff rgba(27,36,52,1)
 */
 
@@ -17,14 +17,14 @@ diff rgba(27,36,52,1)
 
 /* Navigation Modifications */
 .md-header {
-  background: rgba(20,30,48);
+  background: rgba(20,30,48,1);
 }
 .md-nav--primary .md-nav__title[for=__drawer] {
     background: var(--md-primary-fg-color--dark);
     overflow: visible;
 }
 .md-tabs {
-  background: rgba(20,30,48);
+  background: rgba(20,30,48,1);
 }
 .md-top {
   color: #ffffff;
