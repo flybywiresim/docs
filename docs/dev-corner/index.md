@@ -1,6 +1,6 @@
 # Development Corner Overview
 
-This section of the FlyByWire Documentation is dedicated to the development aspects of A32NX add-on. It is aimed at developers and contributors or everybody who would like to start to contribute to the project.
+This section of the FlyByWire Documentation is dedicated to the development aspects of the A32NX add-on. It is aimed at developers, contributors or anyone who would like to start contributing to the project.
 
 ## Quick Links
 
