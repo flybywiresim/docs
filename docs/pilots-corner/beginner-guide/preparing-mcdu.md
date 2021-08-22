@@ -186,7 +186,7 @@ Our route for this flight can be found on the 2nd page of the OFP
 
     These are procedures that are defined and published that takes a flight from the take-off phase to the enroute phase. 
 
-    Also see: [SIDS and STARS](../airliner-flying-guide\navigation.md#sids-and-stars)   
+    Also see: [SIDS and STARS](../airliner-flying-guide/navigation.md#sids-and-stars)   
 
 To program the Standard Instrument Departure (SID):
 
