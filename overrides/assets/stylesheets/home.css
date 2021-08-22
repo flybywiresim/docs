@@ -1,0 +1,172 @@
+/* Main Elements */
+.md-main {
+    flex-grow: 1;
+}
+
+.md-main__inner {
+    display: flex;
+    height: 100%;
+}
+
+.container {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background: url("../../assets/hero-image.jpg"), #1d1e26;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-position-y: center;
+}
+
+.img hero-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.hero {
+    margin: 15px 1.5rem;
+    color: var(--md-primary-bg-color);
+    justify-content: center;
+}
+
+.hero h1 {
+    margin-bottom: 1.15rem;
+    color: currentColor;
+    font-weight: 650;
+    text-transform: none;
+}
+
+.hero-content {
+    padding-bottom: 1rem;
+    margin: 0 auto;
+}
+
+.hero .md-button {
+    margin-top: .5rem;
+    margin-right: .5rem;
+    color: var(--md-primary-bg-color)
+}
+
+.hero .md-button--primary {
+    background-color: var(--md-primary-bg-color);
+    color: var(--md-primary-fg-color--dark);
+    border-color: var(--md-primary-bg-color)
+}
+
+.hero .md-button:focus,
+.hero .md-button:hover {
+    background-color: var(--md-accent-fg-color);
+    color: #ffffff;
+    border-color: var(--md-accent-fg-color)
+}
+
+/* Features below hero */
+
+.feature-margin {
+    margin-top: 30px;
+}
+
+.f-box {
+    font-family: 'Nunito Sans';
+    font-weight: 300;
+    box-sizing: border-box;
+    padding: 0 15px;
+    margin-bottom: 1.6rem;
+}
+
+.f-box h2 {
+    color: #00C2CB;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: normal;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.f-box p {
+    font-size: 16px;
+    line-height: 2em;
+    color: #ffffff;
+    margin: 0 0 10px;
+    display: block;
+}
+
+.f-box hr {
+    border-top: 1px;
+    border-color: #00C2CB;
+    border-style: solid;
+    padding-top: 0em;
+}
+
+/* Additional Responsive Styling */
+
+@media screen and (max-width:480px) {
+    .container {
+        padding-top: 1.5rem;
+        background: url("../../assets/hero-image.jpg"), #1d1e26;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: overlay;
+        background-position: 35%;
+    }
+
+    .hero h1 {
+        font-size: 2rem
+    }
+
+    .f-box:hover {
+        background-color: #3D6575;
+        border-radius: 3px;
+    }
+}
+
+@media screen and (min-width:900px) {
+    .md-sidebar--secondary {
+        display: none
+    }
+
+    .hero {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-content {
+        max-width: 20rem;
+        margin-top: 2rem;
+        margin-bottom: 2.5rem;
+        margin-right: 4rem;
+        align-items: center;
+    }
+
+    .f-box:hover {
+        background-color: #3D6575;
+        border-radius: 3px;
+    }
+}
+
+@media screen and (min-width:1120px) {
+    .md-sidebar--primary {
+        display: none
+    }
+
+    .feature-margin {
+        width: 100%;
+        display: flex;
+        max-width: 70rem;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0 .5rem;
+    }
+
+    .f-box {
+        flex: 1;
+        min-width: 0;
+    }
+
+    .f-box:hover {
+        background-color: #3D6575;
+        border-radius: 3px;
+    }
+}

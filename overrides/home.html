@@ -1,0 +1,64 @@
+{% extends "main.html" %}
+{% block tabs %}
+{{ super() }}
+<link rel="stylesheet" href="assets/stylesheets/home.css">
+<!-- Hero -->
+<section class="container">
+    <div class="md-grid md-typeset">
+        <div class="hero">
+            <div class="hero-content">
+                <h1> FlyByWire Documentation </h1>
+                    <p>Welcome to the documentation and guides for FlyByWire Simulations open source community-driven projects. Here you'll find plenty of resources that help you to pilot and use our aircraft or contribute towards development of ongoing FlyByWire projects.</p>
+                <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | striptags }}" class="md-button md-button--primary">
+                    Start Here
+                </a>
+                <a href="https://flybywiresim.com/" title="FlyByWire Simulations" class="md-button">
+                    Go to FBW Website
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Page links -->
+<div class="feature-margin">
+    <div class="f-box">
+        <a href="fbw-a32nx/support/">
+            <h2>
+                Support Guide
+            </h2>
+            <hr>
+            <p>The essentials for troubleshooting, reporting issues on our GitHub, and providing the necessary information to our support teams.</p>
+        </a>
+    </div>
+    <div class="f-box">
+        <a href="fbw-a32nx/support/reported-issues/">
+        <h2>
+            Reported Issues
+        </h2>
+        <hr>
+        <p>Encountering issues flying the A32NX? This section lists our most commonly reported issues, workarounds, and status of any fixes available.</p>
+        </a>
+    </div>
+    <div class="f-box">
+        <a href="pilots-corner/beginner-guide/overview/">
+        <h2>
+            Beginner Guide
+        </h2>
+        <hr>
+        <p>Our beginner guide is a comprehensive gate-to-gate flight tutorial for the A32NX. Each guide was verified by an A320neo pilot. Click here to start learning!</p>
+        </a>
+    </div>
+    <div class="f-box">
+        <a href="dev-corner/development-guide/">
+        <h2>
+            Contributing
+        </h2>
+        <hr>
+        <p>We are an open source development group and welcome contributors to the project! You'll find the resources you need in this section to help get you started with your first pull request.</p>
+        </a>
+    </div>
+</div>
+
+{% endblock %}
+{% block content %}{% endblock %}
