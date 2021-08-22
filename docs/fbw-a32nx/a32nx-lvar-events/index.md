@@ -7,7 +7,7 @@ Currently the documentation regarding all custom variables and custom events is 
 Available docs:
 
 - [Custom LVARs](https://github.com/flybywiresim/a32nx/blob/master/docs/a320-simvars.md){target=new}
-- [Custom Evants](https://github.com/flybywiresim/a32nx/blob/master/docs/a320-events.md){target=new}
+- [Custom Events](https://github.com/flybywiresim/a32nx/blob/master/docs/a320-events.md){target=new}
 
 Templates for
 

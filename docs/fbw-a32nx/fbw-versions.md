@@ -29,11 +29,11 @@
     
     Currently the new FlyByWire Custom Flight Management System (cFMS) is available in the Experimental version.
     
-    The Experimental version will be updated with the latest changes to the cFMS regularly and also with the latest changes to the Development version. Expect updates about once a week (not guaranteed).     
+    The experimental version will be updated with the latest changes to the cFMS regularly and also with the latest changes to the Development version. Expect updates about once a week (not guaranteed).     
     
     !!! warning 
 
-    Please read [Experimental Version page](support/exp.md) before using the Experimental version.
+    Please read [Experimental Version Support Page](support/exp.md) before using this version.
 
     !!! danger "No Support for Experimental - use at own risk"
         Please do not seek support for the Experimental Version on Discord and only report issues if you have read this page and the reported and known issues. You can report issues in the Discord channel "#ata-22-fms" in the thread "Bugs and Issues".

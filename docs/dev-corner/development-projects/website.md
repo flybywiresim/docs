@@ -3,7 +3,7 @@
 ## Introduction
 A guide that will help you get through the basics on getting started with development of the FlyByWire Simulations marketing website.
 
- [:fontawesome-brands-github:{: .github } -  **Website Project Github**](https://github.com/flybywiresim/website){target=new}
+ [:fontawesome-brands-github:{: .github } -  **Website Project Github**](https://github.com/flybywiresim/website){target=new .md-button}
 
 ## Prerequisites
 - [NodeJS](https://nodejs.org/en/){target=new}
@@ -22,7 +22,7 @@ A list of relevant documentation regularly used to aid the development of the we
 - [tailwindcss](https://tailwindcss.com/){target=new} low level CSS classes.
 
 ## Getting Started
-Although there are no requirements to getting started, having basic knowledge on Git, HTML, CSS and JavaScript will benifit anyone who decides to contribute towards the website.
+Although there are no requirements to getting started, having basic knowledge on Git, HTML, CSS and JavaScript will benefit anyone who decides to contribute towards the website.
 
 Clone the repository to a safe place on your machine
 ```sh

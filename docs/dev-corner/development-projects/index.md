@@ -1,8 +1,8 @@
 # Overview
 
-The FlyByWire project consists of several sub-projects to allow efficient and quick development of various aspects of the project.
+FlyByWire Simulations consists of several projects to allow efficient and quick development of various aspects of each project.
 
-Current sub-projects:
+Current Projects:
 
 - [A32NX](https://github.com/flybywiresim/a32nx){target=new}
 
@@ -10,11 +10,11 @@ Current sub-projects:
 
 - [Installer](https://github.com/flybywiresim/installer){target=new}
 
-    Project for deveping and improving the FlyByWire Installer.
+    Project for developing and improving the FlyByWire Installer.
 
 - [Docs](documentation.md)
 
-    Documentation project to manage and improve documentation for our users. This includes documentation about the A32NX, general sim- pilot documentation, and documentation about development for the A32NX.
+    Documentation project to manage and improve documentation for our users. This includes documentation about the A32NX, general sim-pilot documentation, and documentation about development for the A32NX.
 
 - [Website](website.md)
 
