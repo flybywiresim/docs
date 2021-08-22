@@ -1,3 +1,3 @@
 # A32NX Pilot's Briefing
 
- ![ComingSoon.png](../../assets/ComingSoon.png)
+ ![ComingSoon.png](../../assets/ComingSoonPlacard.jpg)
