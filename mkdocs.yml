@@ -23,11 +23,15 @@ theme:
     # Temporarily deactivated to provide support for Discord browser + anchor links
     # - navigation.instant
     - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
   favicon: assets/images/FBW-Tail.png
 
 # Plugins
 plugins:
-  - search
+  - search:
+      lang: en
   - awesome-pages
   - git-revision-date-localized:
       type: date
@@ -103,93 +107,3 @@ markdown_extensions:
   - pymdownx.emoji: # Allows emoji style inline embeds for icons
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
-
-
-
-
-
-  # Navigation
-        # Section Containers are defined by `- Section Name:`
-        # These should have NO filename.md next to them
-        # Nestle all pages underneath sections as seen below:
-        #nav:
-        #  - Home: index.md
-        #  - FlyByWire A32NX:
-        #      - Overview: 01-a32nx-mod/index.md
-        #      - Versions and Features: 01-a32nx-mod/fbw-versions.md
-        #      - Installation: 01-a32nx-mod/installation.md
-        #      - Liveries: 01-a32nx-mod/liveries.md
-        #      - Support:
-        #          - Troubleshooting Guide: 01-a32nx-mod/support/troubelshooting.md
-        #          - Reported and Known Issues: 01-a32nx-mod/support/reported-issues.md
-        #  - Pilot's Corner:
-        #      - Overview:  02-pilot-documentation/index.md
-        #      - Beginner Guide:
-        #          - Overview: 02-pilot-documentation/beginner-guide/overview.md
-        #          - ...
-        ##          - Starting the Aircraft: 02-pilot-documentation/beginner-guide/starting-the-aircraft.md
-        ##          - Preparing the MCDU: 02-pilot-documentation/beginner-guide/preparing-mcdu.md
-        ##          - Engine Start and Taxi: 02-pilot-documentation/beginner-guide/engine-start-taxi.md
-        ##          - Takeoff, Climb and Cruise: 02-pilot-documentation/beginner-guide/takeoff-climb-cruise.md
-        ##          - Descent Planning and Descent: 02-pilot-documentation/beginner-guide/descent.md
-        ##          - Approach and ILS Landing: 02-pilot-documentation/beginner-guide/landing.md
-        ##          - After Landing and Taxi to Gate: 02-pilot-documentation/beginner-guide/after-landing.md
-        ##          - Powering Down: 02-pilot-documentation/beginner-guide/powering-down.md
-        ##          - Abbreviations: 02-pilot-documentation/beginner-guide/abbreviations.md
-        #      - Airliner Guide:
-        #          - Overview: 02-pilot-documentation/airliner-flying-guide/overview.md
-        #      - A32NX Pilot Briefing:
-        #          - Overview: 02-pilot-documentation/a32nx-briefing/index.md
-        #          - Flight Deck: 02-pilot-documentation/a32nx-briefing/flight-deck/flight-deck.md
-        #          - ECAM:
-        #              - Overview: 02-pilot-documentation/a32nx-briefing/ecam/ecam.md
-        #              - ECAM1:
-        #                  - Overview: 02-pilot-documentation/a32nx-briefing/ecam/ecam.md
-        #                  - ECAM1-1:
-        #                      - ECAM1-1-1: 02-pilot-documentation/ecam/ecam1-1.md
-        #                      - ECAM1-1-2: 02-pilot-documentation/ecam/ecam1-1.md
-        #                  - ECAM1-2: 02-pilot-documentation/ecam/ecam1-2.md
-        #              - ECAM2: 02-pilot-documentation/ecam/ecam2.md
-        #  - Developer's Corner:
-        #      - Overview: 03-a32nx-development/overview.md
-        #      - Projects:
-        #          - Blender: 03-a32nx-development/blender.md
-        #          - flyPad: 03-a32nx-development/efb.md
-        #          - Installer: 03-a32nx-development/installer.md
-        #  - About FlyByWire:
-        #      - Overview: 04-flybywire-about/overview.md
-
-        #  - Getting Started:
-        #      - FlyByWire Versions: start/fbw-versions.md
-        #      - Installation: start/installation.md
-        #      - Converting Liveries: start/convert-liveries.md
-        #      - Porting Custom Camera Views: start/porting-custom-cameras.md
-        #      - Reported Issues: start/reported-issues.md
-        #      - Performance Tips: start/performance-tips.md
-        #      - Common Questions: start/faq.md
-        #      - MCDU Keyboard Input: start/mcdu-keyboard.md
-        #      - Throttle Calibration: start/throttle-calibration.md
-        #      - Autopilot / Fly-By-Wire: start/autopilot-fbw.md
-        #  - Beginner Guide:
-        #      - Overview: beginner-guide/overview.md
-        #      - Starting the aircraft: beginner-guide/starting-the-aircraft.md
-        #      - Preparing the MCDU: beginner-guide/preparing-mcdu.md
-        #      - Engine Start and Taxi: beginner-guide/engine-start-taxi.md
-        #      - Takeoff, Climb and Cruise: beginner-guide/takeoff-climb-cruise.md
-        #      - Descent Planning and Descent: beginner-guide/descent.md
-        #      - Approach and ILS Landing: beginner-guide/landing.md
-        #      - After Landing and Taxi to Gate: beginner-guide/after-landing.md
-        #      - Powering Down: beginner-guide/powering-down.md
-        #      - Abbreviations: beginner-guide/abbreviations.md
-        #  - Airliner Flying Guide:
-        #      - Overview: airliner-flying-guide/overview.md
-        #      - Types of Approaches: airliner-flying-guide/approaches.md
-        #      - Navigation: airliner-flying-guide/navigation.md
-        #      - Understanding Altitude References: airliner-flying-guide/altitude-refs.md
-        #      - METARs/TAFs/ATIS: airliner-flying-guide/weather.md
-        #  - Development Projects:
-        #      - Overview: development-projects/overview.md
-        #      - Website: development-projects/website.md
-        #  - A32NX Development:
-        #      - Overview: a32nx-dev/overview.md
-      #  - Donate: donate.md
