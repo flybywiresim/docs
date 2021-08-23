@@ -55,11 +55,11 @@ diff rgba(27,36,52,1)
   color: #00C2CB;
 }
 h1 {
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 h2 {
   color: #00C2CB;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   padding-bottom: 0.5em;
 }
 h3 {
