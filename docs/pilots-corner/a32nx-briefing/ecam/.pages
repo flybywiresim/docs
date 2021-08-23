@@ -1,3 +1,4 @@
-title: Electronic Centralized Aircraft Monitoring (ECAM)
+title: ECAM
 nav:
-  - Overview: index.md
+  - ECAM E/WD: ecam-e-wd.md
+  - ECAM SD: ecam-sd.md
