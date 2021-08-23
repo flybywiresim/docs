@@ -1,4 +1,4 @@
-# Electronic Centralized Aircraft Monitor (ECAM)
+# Electronic Centralized Aircraft Monitoring (ECAM)
 
 !!! info "Coming soon"
     This chapter is currently in development.
