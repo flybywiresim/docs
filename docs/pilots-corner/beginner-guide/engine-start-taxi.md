@@ -273,7 +273,7 @@ While underway to the runway perform the following as part of the taxi flow:
 
 It is important to verify and confirm the information in the MCDU as we taxi. This is increasingly important if the ATC clearance changes enroute to the runway.
 
-#### ^^**Takeoff data/Conditions**^^
+#### ^^**Takeoff Data/Conditions**^^
 
 *In case of a runway or takeoff data change, perform the following:*
 
