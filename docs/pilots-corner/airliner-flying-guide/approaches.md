@@ -113,7 +113,7 @@ These are defined in feet, \(or meters if that airspace uses meter altitudes\) a
 
 ***
 
-### ^^Aircraft Approach categories^^
+### ^^Aircraft Approach Categories^^
 
 Now depending on the aircraft you are flying, depends on the minimums you are allowed to use. These are grouped together by the approach speed of your aircraft, while in normal landing configuration at the maximum landing weight that it is certified to do.
 
@@ -131,7 +131,7 @@ Now depending on the aircraft you are flying, depends on the minimums you are al
 
 ***
 
-### ^^MDA/DH on a chart^^
+### ^^MDA/DH on a Chart^^
 
 ![DH-1](../assets/flying-guide/MinimumsMDADH-1.jpg)
 <sub>ILS_RWY_23_KBUF.jpg: The original uploader was Centpacrr at English Wikipedia. Derivative work: Atmoz, Public domain, via Wikimedia Commons
@@ -167,7 +167,7 @@ As this chart is now designed differently, it has described the MDA as a DA for 
 
 Autolands are, unlike what the media might want everyone to think, not used all that frequently! The only time it is fully used is in conditions of bad weather, where the clouds are too low or the visibility not far enough to continue to do a normal manual approach. Special rules must be in place to prevent any interference with the aircraft, as this is a precise manoeuvre with not much room for error.
 
-### ^^Rules at airfield^^
+### ^^Rules at Airfield^^
 
 To fly an Autoland, the approach you are flying must be a CAT 2 ILS or higher. This means that only certain airfields can perform these, where the localiser and glideslopes have been certified as accurate enough to guide the aircraft to a successful landing. An airfield with anything such as an offset ILS, where the ILS is not aligned with the runway, will not be able to offer an Autoland approach.
 
@@ -191,7 +191,7 @@ Another rule onboard is the banning of the use of personal electronic devices (P
 <sub> Norwegian, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons
 
 
-### ^^Rules for the pilots^^
+### ^^Rules for the Pilots^^
 
 Pilots must be certified to commence autolands and are regularly tested in simulators to keep them in check. Most airlines require their pilots to do emergency exercises while recertifying their Autoland qualification, including with engine problems and Autoland failures. At the author’s airline, the captain is also required to be the pilot flying during an Autoland, with the first officer calling out changes to the aircraft state and monitoring the performance of the aircraft for any deviation.
 

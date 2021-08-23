@@ -41,7 +41,7 @@
 - Any changes to the cFMS flight plan will not be synced back to the MSFS flight plan manager for now.
 - Built-in ATC will not be supported with the cFMS for now.
 
-### How to report issues
+### How to Report Issues
 
 At this time please only report issues via our Discord channel "#ata-22-fms" in the thread "Bugs and Issues".
 

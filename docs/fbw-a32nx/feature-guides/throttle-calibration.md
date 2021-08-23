@@ -23,7 +23,7 @@ It covers the frequently used [Thrustmaster TCA Throttle Quadrant Airbus edition
 
 This quickstart lists all necessary steps for calibrating your throttle. Please read the sections below for a detailed step-by-step guide.
 
-### Step 1: Setup the correct axis in Microsoft Flight Simulator Control operations
+### Step 1: Setup the Correct Axis in Microsoft Flight Simulator Control Operations
 
 - For throttles with reversers and the Honeycomb Bravo map the throttle axis of your controller to `THROTTLE 1 AXIS` and `THROTTLE 2 AXIS`. Do NOT use `THROTTLE 1 AXIS (0 TO 100%)` in this case!
 - For throttles without reversers map the throttle axis of your controller to `THROTTLE 1 AXIS (0 TO 100%)` and `THROTTLE 2 AXIS (0 TO 100%)`. Do NOT use `THROTTLE 1 AXIS` or `THROTTLE 2 AXIS` in this case!
@@ -33,7 +33,7 @@ This quickstart lists all necessary steps for calibrating your throttle. Please 
 
 [Detailed step-by-step Guide ](#step-1-microsoft-flight-simulator-controls-option)
 
-### Step 2: flyPad Throttle Calibration page
+### Step 2: flyPad Throttle Calibration Page
 
 - Set `Reverse On Axis` and `Independent Axis` as required for your controller (for the TCA both are ON)
 - Move your controller all the way back (with reverser to `Reverse Full`, without reverser to `Idle`)
@@ -47,7 +47,7 @@ This quickstart lists all necessary steps for calibrating your throttle. Please 
 
 ---
 
-## Thrustmaster TCA or similar (with Reverser on Axis)
+## Thrustmaster TCA or Similar (with Reverser on Axis)
 
 ![Thrustmaster TCA](../assets/throttle-calibration/Thrustmaster-TCA.png "Thrustmaster TCA"){loading=lazy}
 
@@ -94,7 +94,7 @@ Now Microsoft Flight Simulator should be setup correctly. The throttles should a
 
 Now let's calibrate the detents as they are **NOT** correct yet - continue with the next chapter.
 
-### Step 2: Calibrating the TCA throttle detents in the FlyByWire flyPad (EFB)
+### Step 2: Calibrating the TCA throttle Detents in the FlyByWire flyPad (EFB)
 
 #### Full Reverse
 
@@ -308,7 +308,7 @@ To deactivate the reverse thrust the reverse levers must be released and the thr
 
 ## Troubleshooting
 
-### Detents overlap
+### Detents Overlap
 
 One of the most common issues is overlapping detents. Especially when coming from a different throttle (e.g. without reverser axis).
 
@@ -412,7 +412,7 @@ toga_high = 1.00
 
 ---
 
-## Additional video guides
+## Additional Video Guides
 
 [FBW Tool-Tips | Throttle Calibration](https://www.youtube.com/watch?v=8yZuv2L4jPA&list=PLyIyZ4OtCKhxTSKfpwxxFEROEjAaKta7j){target=new}
 

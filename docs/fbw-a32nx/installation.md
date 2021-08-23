@@ -1,4 +1,4 @@
-# Installation guide
+# Installation Guide
 
 Please follow the information on this page to install the FlyByWire Simulations A32NX addon for Microsoft Flight Simulator 2020
 
@@ -105,7 +105,7 @@ See below for the location of your Community folder.
 
 ## Community Folder
 
-### Microsoft Store and/or Game Pass edition
+### Microsoft Store and/or Game Pass Edition
 
 - Copy the `flybywire-aircraft-a320-neo` folder into your community package folder.
 
@@ -115,7 +115,7 @@ It is located in:
 
 ---
 
-### Steam edition
+### Steam Edition
 
 - Copy the `flybywire-aircraft-a320-neo` folder into your community package folder.
 
@@ -125,7 +125,7 @@ It is located in:
 
 ---
 
-### Boxed edition
+### Boxed Edition
 
 - Copy the `flybywire-aircraft-a320-neo` folder into your community package folder.
 

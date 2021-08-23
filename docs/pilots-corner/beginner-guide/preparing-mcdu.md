@@ -18,9 +18,9 @@ The simBrief route used in this guide
 
 ---
 
-## Pre-requisites
+## Prerequisites
 
-Below are a few pre-requisites before programming the MCDU.
+Below are a few Prerequisites before programming the MCDU.
 
 Visit [Starting the Aircraft](starting-the-aircraft.md) to learn more.
 
@@ -395,7 +395,7 @@ The performance page should now look like this:
 
 ---
 
-## A32NX simBrief integration
+## A32NX simBrief Integration
 
 We've included a quick method to have your simBrief OFP automatically loaded into the MCDU. Please do not select an arrival airport on the MSFS world menu otherwise the integration will not work.
 
@@ -410,7 +410,7 @@ Enter your simBrief username. Upon entering your username the MCDU will convert 
 * Click on `AOC`
 * Click on `SIMBRIEF`
 
-### ^^Request data from simBrief^^
+### ^^Request Data from simBrief^^
 
 * Return to `MCDU MENU`
 * Click on `ATSU`

@@ -1,4 +1,4 @@
-# Takeoff, climb and cruise
+# Takeoff, Climb and Cruise
 
 This guide will explain the correct procedures to accomplish takeoff, climb and establish cruise altitude.
 
@@ -13,7 +13,7 @@ This guide will explain the correct procedures to accomplish takeoff, climb and 
 
 ---
 
-## MSFS start from gate or runways
+## MSFS Start from Gate or Runways
 
 Microsoft Flight Simulator allows you to start your flight from cold & dark at a gate or directly from the runway with the aircraft ready for takeoff.
 
@@ -21,7 +21,7 @@ For this guide we assume you started cold & dark at the gate and taxied to the r
 
 If you did start on the runway you can skip the first part (Lineup) and directly continue reading [Takeoff](#2-takeoff).
 
-## Pre-requisites
+## Prerequisites
 
 Aircraft is in TAXI state as per previous chapters
 
@@ -39,7 +39,7 @@ This guide will cover these phases:
 
 ---
 
-## Base knowledge about the Airbus A320 for flight
+## Base Knowledge About the Airbus A320 for Flight
 This list is focussed on differences to other non-Airbus airliners a user
 might be used to.
 
@@ -95,7 +95,7 @@ holding point the **"Before takeoff checklist"** needs to be completed.
     - **"Down to the line"** (or "Above the line") means **before** "ATC Takeoff Clearance".
     - **"Below the line"** means **after** T.O. clearance (when lined up) but before starting the roll.
 
-#### Preparation and "Down to the line" checklist pre-T.O.-clearance
+#### Preparation and "Down to the line" Checklist pre-T.O.-clearance
 
 __*The following steps from TAXI setup need to be done and checked:*__
 
@@ -144,7 +144,7 @@ __*The following steps from TAXI setup need to be done and checked:*__
     - Set Weather Radar to Sys 1 to show weather on ND<br/>
     - Check if Predictive Windshear Alerts (PWS) is set to AUTO (should have been set to AUTO during TAXI)
 
-#### Entering runway
+#### Entering Runway
 Before we start rolling we visually check that no other aircraft is on final approach. We can also use TCAS on the ND to check for aircraft in the vicinity.
 
 If everything is clear we release the parking brake and slowly roll onto the runway in the direction of takeoff and come to a stop on the runway's center line.
@@ -166,7 +166,7 @@ This concludes *Lineup*.
 
 - Aircraft is on runway and fully setup for takeoff as per previous chapters.
 
-#### Preparation and "Below the line" checklist post-T.O.-clearance
+#### Preparation and "Below the line" Checklist post-T.O.-clearance
 After ATC (Tower) gives clearance to "line up" or "take off" we are allowed to enter the runway.
 
 - To "line up" means that we roll onto the runway and stop at our starting point. We __MUST__ wait for ATC to give us "takeoff clearance" before we can continue.
