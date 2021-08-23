@@ -15,7 +15,7 @@ This guide shall help you how to identify and solve these issues by guiding you 
 - [Report Issue on the A32NX Github](#5-report-issue-on-the-a32nx-github)
 - [Collecting Support Information](#collecting-support-information)
 
-## 1. Learn how to fly an A32NX
+## 1. Learn How to Fly an A32NX
 
 !!! warning "IMPORTANT"
 
@@ -71,7 +71,7 @@ describe your issue and respond to the questions our support team might have.
 
 !!! warning "Please do some research (see [above](#3-research-known-issues) ) before you post any questions or report any issues."
 
-## 5. Report Issue on the A32NX Github
+## 5. Report Issue on the A32NX GitHub
 
 [:fontawesome-brands-github:{: .github } - **Issues / Feature Requests**](https://github.com/flybywiresim/a32nx/issues){target=new}
 

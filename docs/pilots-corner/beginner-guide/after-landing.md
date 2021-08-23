@@ -1,4 +1,4 @@
-# After landing and taxi to gate
+# After Landing and Taxi to Gate
 
 This guide will explain the correct procedures after we have landed and vacated the runway and then taxiing to the designated gate.
 

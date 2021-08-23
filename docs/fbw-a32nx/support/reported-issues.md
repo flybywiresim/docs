@@ -286,7 +286,7 @@ Using **New** Cockpit Interaction System
 
 ## Common Issues
 
-#### NOT IN DATABASE when loading flight plan
+#### NOT IN DATABASE when Loading Flight Plan
 
 !!! tip ""
     *Affected versions: Stable, Development*
@@ -295,7 +295,7 @@ Using **New** Cockpit Interaction System
 - Install/uninstall Navigraph data with the Navigraph Navdata Center application.
 - __Do not__ delete `navigraph-navdata` from the community packages directory, as this will leave default navdata disabled.
 
-#### AP not following the flight plan
+#### AP not Following the Flight Plan
 
 !!! tip ""
     *Affected versions: Stable, Development*
@@ -306,7 +306,7 @@ Using **New** Cockpit Interaction System
     - Controls and select your yoke/joystick/controller.
     - After that click the sensitivity button on the top left which should take you to the menu where you can adjust your deadzones. Start with 20% deadzone, if the problem persists keep increasing it. If it's fine with 20% you can then slowly decrease it too.
 
-#### Autopilot goes direct to RWY on APP (same with the default A320)
+#### Autopilot goes Direct to RWY on APP (same with the Default A320)
 
 !!! tip ""
     *Affected versions: Stable, Development*
@@ -322,7 +322,7 @@ Using **New** Cockpit Interaction System
 
 - Check your content manager for missing packages
 
-#### Plane is invisible
+#### Plane is Invisible
 
 !!! tip ""
     *Affected versions: Stable, Development*
@@ -330,14 +330,14 @@ Using **New** Cockpit Interaction System
 - Check your content manager for missing packages
 - Livery/Mod Conflict
 
-#### Rudder keybindings not working
+#### Rudder Keybindings not Working
 
 !!! tip ""
     *Affected versions: Stable, Development*
 
 - You have to set your keybinding to rudder axis right and left
 
-#### Wing dips on landing
+#### Wing Dips on Landing
 
 !!! tip ""
     *Affected versions: Stable*
@@ -345,7 +345,7 @@ Using **New** Cockpit Interaction System
 - Caused by bad transition to direct law in flare, same with the default A320
 - Workaround: use minimal aileron input on landing
 
-#### Black screens / unable to start
+#### Black Screens / Unable to Start
 
 !!! tip ""
     *Affected versions: Stable, Development*
@@ -353,7 +353,7 @@ Using **New** Cockpit Interaction System
 - Conflict with another mod/livery or incorrect installation of the A32NX add-on
 - Use our [installer](https://api.flybywiresim.com/installer){target=new}
 
-#### Upper ECAM displays wrong THR levers position / N1 rating
+#### Upper ECAM Displays Wrong THR Levers Position / N1 Rating
 
 !!! tip ""
     *Affected versions: Stable*

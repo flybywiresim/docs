@@ -35,7 +35,7 @@ This guide will cover these phases:
 
 ---
 
-## Base knowledge: Route, Star and Approach
+## Base Knowledge: Route, Star and Approach
 
 - __Basics__<br/>
   As we have learned in previous chapters a flight route begins with an origin airport and a SID to safely guide the aircraft away from the airport to the first waypoint on their actual route. Similar to a SID the arrival to an airport is done via a STAR (Standard Terminal Arrival Route) and an IAP (Instrument Approach, often APPR) to safely bring the aircraft into a position to land on the destination airport safely and with as little ATC communication as possible.

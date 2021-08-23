@@ -107,7 +107,7 @@ Make sure to press `Apply` to save these settings.
 
 ---
 
-##Microsoft Flight Simulator
+## Microsoft Flight Simulator
 
 These settings are ultimately up to you. It all depends on your hardware and whether you want higher FPS, or a better looking game. You will need to find a balance between performance and graphical quality for your specific hardware.
 

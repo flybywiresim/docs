@@ -74,7 +74,7 @@ We have added new methods to assist in clearing content in the MCDU scratchpad.
 - ++ctrl+shift+backspace++ : Delete all contents in the scratchpad.
 - ++ctrl+a++ : Toggles a mode that allows user to delete the entire line by just using backspace.
 
-### How to set a timeout
+### How to Set a Timeout
 
 The timeout feature will "automatically unfocus" the MCDU screen should you be unable to use any of the actions above to manually unfocus.
 
