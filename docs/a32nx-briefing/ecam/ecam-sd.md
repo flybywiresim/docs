@@ -1,6 +1,7 @@
-# Electronic Centralized Aircraft Monitoring (ECAM)
+# ECAM Systems Display
+(Electronic Centralized Aircraft Monitoring)
 
-## ECAM Pages
+## ECAM System Display Pages
 
 <style>
 .imagemap {
