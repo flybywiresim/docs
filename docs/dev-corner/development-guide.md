@@ -13,7 +13,7 @@ You will learn how to:
 - Understand our build process
 - Integrate into our development cycle and best practices
 
-## Setting up a development environment
+## Setting up a Development Environment
 
 Working on the addon will require at a minimum the following software:
 
@@ -23,7 +23,7 @@ Working on the addon will require at a minimum the following software:
 
 Most of our team works with either Visual Studio Code or IntelliJ IDEA-based IDEs for development. Obviously, your choice is yours as long as the resulting code conforms to our standards.
 
-## Used technologies
+## Used Technologies
 
 Our tech stack includes the following:
 
@@ -34,7 +34,7 @@ Our tech stack includes the following:
 
 Knowledge of all items on this list is obviously not necessary, but this can hopefully give you a better insight into what your skills can fit into.
 
-## Build process
+## Build Process
 
 Due to how Microsoft Flight Simulator package building works, it is necessary for us to maintain our own bespoke build tools.
 
@@ -62,7 +62,7 @@ The automatic CI pipeline is sometimes manually added to other branches in order
 
 An automatic system that allows us to enable CI for specific branches might be considered in the future.
 
-### Reference material
+### Reference Material
 
 Creating a high-fidelity aircraft is a serious task that requires focus and dedication. But more importantly, it's a strive for accuracy and realism. Therefore, any change that affects the appearance or behavior of a plane needs to reference real documentation.
 
@@ -72,7 +72,7 @@ While material like that is generally not in the possession of new contributors,
 
 Our extensive pool of IRL A320/A380 pilots and aircraft maintenance engineers are also able to answer your questions whenever needed.
 
-## Useful tools
+## Useful Tools
 
 A number of tools make development in Microsoft Flight Simulator easier.
 

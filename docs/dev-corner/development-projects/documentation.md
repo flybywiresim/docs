@@ -10,7 +10,7 @@ For this we provide documentation about the A32NX add-on itself but also valuabl
 
 We apply very high standards to quality and accuracy of our documentation so that it is easy to read and understand but also as correct as possible. Therefore we have a strict quality process and everything is reviewed by several users and real pilots from our team.
 
-## How to contribute
+## How to Contribute
 
 ### Contacts for FlyByWire Documentation Team
 
@@ -49,7 +49,7 @@ To participate in the FlyByWire Documentation Project you need to have following
 
 ### Process
 
-#### Preview your local Clone
+#### Preview your Local Clone
 
 - Fork the [:fontawesome-brands-github:{: .github } -  **Documentation Project Github**](https://github.com/flybywiresim/docs){target=new} ([How to fork a repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo){target=new}).
 - Create a local clone ([How to cloning your forked repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo#cloning-your-forked-repository){target=new}).
@@ -76,7 +76,7 @@ To participate in the FlyByWire Documentation Project you need to have following
     - The site will be built locally under `/site` on in your local repo for user testing. Open`index.html` in the root of `/site` to preview.
     - Note: `--no-directory-urls` allows usage of reference links when browsing the locally built site. Prevents having to find each index.html related to every `filename.md` to preview the relevant page.
 
-#### Make changes or additions to the documentation
+#### Make Changes or Additions to the Documentation
 
 - Create a new branch based of branch "primary" (might differ for certain sub-projects) and checkout this new branch. Give a short but meaningful name to the branch.
 - Make initial changes on your local branch.
@@ -87,9 +87,9 @@ To participate in the FlyByWire Documentation Project you need to have following
 - When finished, push your final changes to the PR, update the PR description if required and mark it "[Ready for Review](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/changing-the-stage-of-a-pull-request#marking-a-pull-request-as-ready-for-review){target=new}".
 - Someone from the documentation team will review your changes, give feedback, potentially ask for changes, and eventually approve and merge your changes.
 
-### How to write documentation for FlyByWire
+### How to Write Documentation for FlyByWire
 
-#### Technical HowTo
+#### Technical How-To
 
 - You can edit existing pages simply by editing an existing `pagename.md`.
 - To create a page simply create a new file "pagename.md" in an appropriate folder and start writing your documentation. Best practices it to look at other pages regarding the general structure (Headings, Material for MkDocs features, etc.).
@@ -98,7 +98,7 @@ To participate in the FlyByWire Documentation Project you need to have following
 - Add images to the section's asset folder. Consider creating a folder for your page when using several images.
 - Although the FlyByWire Documentation Team will take care of navigation it might still be of interest how the navigation is done. This is well explained on the [mkdocs-awesome-pages-plugin's README on their Github](https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin#Features){target=new}
 
-#### Tips to work effectively with mkdocs (change, previews, etc.)
+#### Tips to Work Effectively with `mkdocs` (Change, Previews, etc.)
 
 - Have your editor and browser preview side-by-side on your screen.
 - Every time you save your file the "mkdocs serve" should make your browser reload and you can preview your changes directly.
@@ -110,7 +110,7 @@ To participate in the FlyByWire Documentation Project you need to have following
         - look into existing pages for examples
     - Other [Material for MkDocs features](https://squidfunk.github.io/mkdocs-material/reference/abbreviations/){target=new}
 
-#### Writing good documentation
+#### Writing Good Documentation
 
 - Write documentation professionally and clearly.
 - Write for the targeted audience (Sim Beginner, Sim Veteran, Developers, etc.) and don't assume too much pre-knowledge on the reader's side.

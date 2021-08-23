@@ -5,7 +5,7 @@ A guide that will help you get through the basics on getting started with develo
 
  [:fontawesome-brands-github:{: .github } -  **Website Project Github**](https://github.com/flybywiresim/website){target=new .md-button}
 
-## Prerequisites
+## Pre-requisites
 - [NodeJS](https://nodejs.org/en/){target=new}
 
 ## Recommended Tools
