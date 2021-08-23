@@ -13,12 +13,15 @@
 ### ENG MAN START
 
 - ON:
-    - The start valve opens if the ENG MODE selector is set to CRANK or IGN/START and N2 < 20 %. Both pack valves close during the start sequence.
+    - The start valve opens if the ENG MODE selector is set to CRANK or IGN/START and N2 <20%. Both pack valves close during the start sequence.
 
     Note: The start valve closes automatically when N2 ;;:: 50 %. The blue ON light comes on.
 
 - Off:
     - When the ENG MAN START pushbutton switch is set to OFF during a manual engine start, the start valve closes if the MASTER switch is OFF.
+
+!!! note ""
+    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
 
 ### ENG N1 MODE
 
@@ -29,6 +32,9 @@ If plane is equipped with IAE engines there are two additional guarded N1 MODE i
 
 - N1 UNRATED MODE:
     - In the N1 unrated mode (N1 DEGRADED mode on ECAM) the FADEC controls engine N1 as a function of thrust lever position only. The thrust lever detents do not provide limit protections; over boost is possible. With one engine in the N1 rated mode, the N1 of the unrated engine should be matched with the N1 of the rated engine (the thrust levers may not be aligned). If both engines degrade to the N1 unrated mode, N1 limit values in the Takeoff Performance, Climb Performance, and Landing Performance chapters must be used.
+
+!!! note ""
+    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
 
 ---
 
