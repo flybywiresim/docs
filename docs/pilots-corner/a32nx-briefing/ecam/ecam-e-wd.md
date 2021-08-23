@@ -1,6 +1,6 @@
 # ECAM Engine and Warning Display
 
-![ECAM Engine and Warning Display](e-wd.png "ECAM Engine and Warning
+![ECAM Engine/Warning Display](e-wd.png "ECAM Engine/Warning
 Display")
 
 | Number | Name                                      | Variation                             | Meaning                                                                                                                                                                        |
