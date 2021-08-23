@@ -261,27 +261,6 @@ Using **New** Cockpit Interaction System
     - Invisible plane / Sounds not working / Installation issues
         - Workaround: Reinstall A32NX, delete any old version from your Community Folder. Ensure you are on Installer v1.2.0 or above.
 
-***
-
-## Installer Issues
-
-![installer issue](https://media.discordapp.net/attachments/831654046405230652/832741603940237362/unknown.png)
-
-* If there is an issue with your community directory our installer will display the error above. This means the installer detects a certain directory as your community directory even though it does not exist anymore.
-    - Solution:
-        1. - Inside `%userprofile%\AppData\Roaming\FlyByWire Installer` delete `config.json`
-            - Restart the installer
-            - Change the community directory in the installer settings if necessary
-        1. - Create the specified directory stated in the error message
-            - Restart the installer
-            - Change the community directory in the installer settings
-
-* Installer Memory Leak
-    - Commonly happens when our installer updates. Currently being investigated.
-        - Workaround: Exit out of the FlyByWire Installer. Open `Task Manager` and find FlyByWire Installer. End Task.
-
-* Instructions to send us installer logs can be found [here](../installation.md#flybywire-installer)
-
 ---
 
 ## Common Issues
@@ -416,6 +395,8 @@ Crash to desktop (CTD) can either be a sim issue or a conflict with the A32NX. T
 ---
 
 ## Fixed Issues
+
+- Installer v1.2.0 issues resolved in v2.0.
 
 - Selected Heading may not work after using DIR feature or inputting a STAR. *[Fixed PR #5593](https://github.com/flybywiresim/a32nx/pull/5593)*
     - Closed Issue: [#5479](https://github.com/flybywiresim/a32nx/issues/5479)
