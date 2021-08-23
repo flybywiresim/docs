@@ -152,7 +152,7 @@ LNAV allows for the aircraft to navigate across the world using fixed points in 
 
 To know of the position of the aircraft, the Inertial Reference Systems (IRS) are aligned while the aircraft is stationary at the gate which sets a baseline position. This is then updated during flight using tracks and distances from radio beacons or has GPS data fed to it to keep accurate. Without these, as IRS systems are not perfect, the position becomes a guess, and the aircraft will slowly drift off route. This was a particular problem crossing the ocean on older aircraft, where there are no radio beacons and GPS was not invented yet, resulting in the aircraft being possibly miles off course when it eventually arrived overhead land.
 
-### ^^Vertical navigation^^
+### ^^Vertical Navigation^^
 
 VNAV allows for an aircraft to climb and descend using a calculated path to optimise the flight.  It will maintain restrictions on SIDs and STARs, plan the ToD (Top of Descent) and minimise fuel burn while still allowing for the aircraft to get into a position to land. For VNAV to work correctly, the aircraft’s computer systems must be correctly set with the correct weights, route, weather and performance information.
 

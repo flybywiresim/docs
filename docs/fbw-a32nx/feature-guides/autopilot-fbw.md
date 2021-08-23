@@ -23,7 +23,7 @@ When reporting issues please take the following into account:
 
 ***
 
-### Work folder location
+### Work Folder Location
 
 #### Microsoft Store Version
 
@@ -51,7 +51,7 @@ The work folder can be found here:
 
 :information_source: The throttle configuration can be adapted using the EFB.
 
-### Typical issues and how to solve them
+### Typical Issues and How to Solve Them
 
 ???+ info "FMA keeps blinking with message `LVR CLB`"
 
@@ -166,7 +166,7 @@ The work folder can be found here:
 
 ***
 
-### Known issues
+### Known Issues
 
 #### Requirements and Incompatibilities
 
@@ -175,7 +175,7 @@ The work folder can be found here:
 * ❌ No support for AI copilot
 * ❌ Proper throttle calibration via EFB
 
-#### Not solved or missing (this list is not conclusive)
+#### Not Solved or Missing (This List is Not Conclusive)
 
 ##### Fly-By-Wire
 * ❌ Alternative Law
@@ -208,7 +208,7 @@ The work folder can be found here:
 
 * ❌ N1 thrust limit displayed and achieved may differ slightly in certain situations
 
-#### First implementation available
+#### First Implementation Available
 
 * 🔸 V_LS, V_alpha_prot, V_alpha_max are not finished and will be further improved
 * 🔸 Some transitions might not be as they should or are missing
@@ -225,7 +225,7 @@ The work folder can be found here:
 * 🔸 ROLL OUT law is more sensitive to fps than other laws which can cause oscillations
 * 🔸 ROLL OUT law can cause a divert from the runway when the runway is short (i.e. EDNY)
 
-#### Considered solved
+#### Considered Solved
 
 * ✔️ In case the default AP is for any reason engaged it will be automatically disconnected
 * ✔️ In manual approach LOC and G/S might be lost too fast with mode reversion to HDG + V/S
@@ -263,7 +263,7 @@ The work folder can be found here:
 
 ***
 
-### Mapping of events to control autopilot / autothrust
+### Mapping of Events to Control Autopilot / Autothrust
 
 ⚠️ Not all events are working and it's also difficult to map all default events because there is no 100% match.
 
@@ -279,7 +279,7 @@ You can grab the required files with the links below.
 
 ***
 
-#### Default events
+#### Default Events
 
 | Event | Function |
 | ---: | --- |
@@ -300,7 +300,7 @@ You can grab the required files with the links below.
 | AUTO_THROTTLE_DISCONNECT | Disconnect A/THR (like red button on throttle levers)
 | AUTO_THROTTLE_TO_GA | Apply TOGA thrust
 
-#### Custom events
+#### Custom Events
 
 | Event | Function |
 | ---: | --- |
@@ -337,7 +337,7 @@ You can grab the required files with the links below.
 | A32NX.FCU_APPR_PUSH | Push APPR button on FCU
 | A32NX.FCU_EXPED_PUSH | Push EXPED button on FCU
 
-#### FCU variables
+#### FCU Variables
 
 The following gives an overview of the used variables in relation to the FCU. For more detailed explanation of the values please refer to this page:
 

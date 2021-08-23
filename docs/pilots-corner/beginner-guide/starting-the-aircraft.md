@@ -21,7 +21,7 @@ This guide will cover these chapters in order:
 1. [Overhead Panel](#overhead-panel)
 2. [Main Panel](#main-panel)
 
-## Pre-Requisites
+## Prerequisites
 
 Aircraft is in a cold and dark state at a gate.
 
@@ -118,7 +118,7 @@ Managing the temperatures of the cabin is necessary as well. Simply rotate the 3
 
 ![Air Conditioning](../assets/beginner-guide/starting-aircraft/aircond.png "Air Conditioning"){loading=lazy}
 
-### Hydraulic and Fuel section
+### Hydraulic and Fuel Section
 
 Looking up at the **hydraulic panel**, we ensure that there are no white lights visible.
 

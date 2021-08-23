@@ -18,7 +18,7 @@ The actual final approach (ILS approach) will be covered by a separate chapter.
 
 ---
 
-## Pre-requisites
+## Prerequisites
 
 Aircraft is in `CRUISE` state and phase as per previous chapters
 
@@ -35,7 +35,7 @@ This guide will cover these phases:
 
 ---
 
-## Base knowledge: Route, Star and Approach
+## Base Knowledge: Route, Star and Approach
 
 - __Basics__<br/>
   As we have learned in previous chapters a flight route begins with an origin airport and a SID to safely guide the aircraft away from the airport to the first waypoint on their actual route. Similar to a SID the arrival to an airport is done via a STAR (Standard Terminal Arrival Route) and an IAP (Instrument Approach, often APPR) to safely bring the aircraft into a position to land on the destination airport safely and with as little ATC communication as possible.
@@ -88,14 +88,14 @@ This guide will cover these phases:
 - Aircraft is in `CRUISE` state and phase as per previous chapters.
 - Distance to destination is ~200NM (on a short flight start as early as possible and maybe even before the flight).
 
-#### Important data points for descent planning:
+#### Important Data Points for Descent Planning:
 
 - **Cruise Flight Level:** The higher we fly the earlier we need to start descending. Also for short flights a too high cruising altitude can make it impossible to actually descend to the destination airport in time. Therefore verify your flight plan if overall distance and flight level make sense.
 - **Flight Plan Constraints:** STARs often have flight level (FL) or altitude constraints which we must adhere to. We must plan our descent so we can meet these altitude constraints even when they themselves are still far away from the destination airport.
 - **Speed**: STARs also regularly have speed constraints which we need to take into consideration as slowing down will cost time and is hard to do while descending. If we start our descent too late we might not be able to slow down in time as required by a constraint.
 - **Aircraft capability and passenger comfort:** Although not a big concern in the A320neo, general aircraft capabilities and passenger comfort also come into play. Descending with -4000ft/min is no fun for a passenger.
 
-#### Step by step guide for descent planning:
+#### Step-by-step Guide for Descent Planning:
 
 1. Read the STAR chart and determine if there are altitude and/or speed constraints which we need to consider.
 2. Consider the STAR and APPR route as optional and do not count on them to be flown and available for descending. ATC might want to vector us to a different runway or at least shortcut our approach. But they won't be able to if we are still too high for the final approach.
@@ -107,7 +107,7 @@ This guide will cover these phases:
 
     ![ND distance rings](../assets/beginner-guide/descent/ND-disctance-rings.png "ND distance rings"){loading=lazy width=40% align=right}
 
-#### How to calculate the required distance for descent
+#### How to Calculate the Required Distance for Descent
 
 **Example data:**
 
@@ -148,7 +148,7 @@ The same methodology/calculation as our initial descent can be applied to these 
 
 ATC will quite often instruct certain altitudes within the STAR and APPR which deviate from the STAR and APPR charts. Please expect such instructions at any time.
 
-#### Advanced arrival planning
+#### Advanced Arrival Planning
 
 !!! warning "Important Notice"
     The following is a more advanced process for planning our arrival. It is obviously important when we want to have a more realistic experience but in Microsoft Flight Simulator you can skip this part for now. <br/>

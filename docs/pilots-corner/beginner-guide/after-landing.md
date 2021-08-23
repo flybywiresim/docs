@@ -1,4 +1,4 @@
-# After landing and taxi to gate
+# After Landing and Taxi to Gate
 
 This guide will explain the correct procedures after we have landed and vacated the runway and then taxiing to the designated gate.
 
@@ -13,7 +13,7 @@ This guide will explain the correct procedures after we have landed and vacated 
 
 ---
 
-## Pre-requisites
+## Prerequisites
 
 Aircraft has vacated the runway completely and has been brought to a stop on the taxiway as per previous chapters.
 

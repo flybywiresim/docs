@@ -18,7 +18,7 @@ Obviously this is not strictly required in a simulator but for interested sim pi
 
 ---
 
-## Pre-requisites
+## Prerequisites
 
 - Aircraft is at the gate after landing and taxi as per previous chapters.
 
