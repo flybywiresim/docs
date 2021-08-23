@@ -21,7 +21,7 @@ For this guide we assume you started cold & dark at the gate and taxied to the r
 
 If you did start on the runway you can skip the first part (Lineup) and directly continue reading [Takeoff](#2-takeoff).
 
-## Pre-requisites
+## Prerequisites
 
 Aircraft is in TAXI state as per previous chapters
 

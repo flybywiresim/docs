@@ -18,9 +18,9 @@ The simBrief route used in this guide
 
 ---
 
-## Pre-requisites
+## Prerequisites
 
-Below are a few pre-requisites before programming the MCDU.
+Below are a few Prerequisites before programming the MCDU.
 
 Visit [Starting the Aircraft](starting-the-aircraft.md) to learn more.
 

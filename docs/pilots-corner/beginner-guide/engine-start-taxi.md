@@ -14,7 +14,7 @@ This guide will explain the correct procedures to accomplish a pushback with eng
 
 ---
 
-## Pre-requisites
+## Prerequisites
 
 - BEFORE START checklist completed
 - IFR clearance obtained

@@ -13,7 +13,7 @@ This guide will explain the correct procedures after we have landed and vacated 
 
 ---
 
-## Pre-requisites
+## Prerequisites
 
 Aircraft has vacated the runway completely and has been brought to a stop on the taxiway as per previous chapters.
 

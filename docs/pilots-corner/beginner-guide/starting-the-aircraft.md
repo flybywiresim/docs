@@ -21,7 +21,7 @@ This guide will cover these chapters in order:
 1. [Overhead Panel](#overhead-panel)
 2. [Main Panel](#main-panel)
 
-## Pre-requisites
+## Prerequisites
 
 Aircraft is in a cold and dark state at a gate.
 

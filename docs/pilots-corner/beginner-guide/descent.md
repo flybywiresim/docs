@@ -18,7 +18,7 @@ The actual final approach (ILS approach) will be covered by a separate chapter.
 
 ---
 
-## Pre-requisites
+## Prerequisites
 
 Aircraft is in `CRUISE` state and phase as per previous chapters
 
