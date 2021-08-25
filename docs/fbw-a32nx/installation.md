@@ -45,11 +45,15 @@ The following commands can be used:
 
 ++ctrl+f12++ - Opens the debug tool
 
+#### Installer Debug Logs
+
 You can send us logs to our [Discord](https://discord.gg/flybywire){target=new} for support if you encounter issues with the installer. Please follow the steps below:
 
-  * In the debug tool find and select ++"Console"++ in the top menu.
+  * Open the debug tool ++ctrl+f12++. 
 
-  * `Right Click` anywhere in the log displayed.
+  * Find and select ++"Console"++ in the top menu.
+
+  * ++"Right Click"++ anywhere in the log displayed.
 
   * Click ++"Save as"++ and send the log to us.
 
