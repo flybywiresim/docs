@@ -6,7 +6,7 @@ Repository for the FlyByWire Simulations Documentation Project website.
 
 [https://docs.flybywiresim.com/](https://docs.flybywiresim.com/)
 
-## Quick Guide
+## Directory Structure Overview
 
 Appropriate documentation should fall under the following main directories:
 
