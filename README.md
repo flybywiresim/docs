@@ -14,7 +14,7 @@ Appropriate documentation should fall under the following main directories:
 - `pilots-corner`: Aimed at sim pilots of all levels and covers topics regarding flying an airliner and especially the Airbus A320neo.
 - `dev-corner`: Dedicated to the development aspects of the A32NX add-on. It is aimed at developers, contributors or anyone who would like to start contributing to the project.
 
-Note: Please be aware that sub-directories are present in the parent directions mentioned above. The final location of any new documentation may be altered by a maintainer.
+Note: Please be aware that sub-directories are present in the parent directories mentioned above. The final location of any new documentation may be altered by a maintainer.
 
 ## A32NX Project
 
