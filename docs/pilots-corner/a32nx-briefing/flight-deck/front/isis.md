@@ -25,21 +25,17 @@ The ISIS system displays the following information:
 
 ### ”+”/ “-” activation pushbuttons
 
-- Two pushbuttons labelled “+” and “–” are used to adjust the level of brightness.
-- The brightness of the screen automatically adjusts after power-up tests.
-- This is because of the photosensitive cell located on the surface of the ISIS system display.
-- The “+” and “–” pushbuttons then allow this initial brightness to be manually adjusted and changed.
-- Note: The system must be reset after 350 h of continuous electrical supply using the « ATT RST » pushbutton.
+- Used to adjust the level of brightness.
 
 ### LS selection pushbutton
 
 - Pressing the LS pb will display the LS scales. Pressing the LS pb again will remove the LS scales.
 
-### BUGS function selection pushbutton
+### BUGS
 
 - Pressing the BUGS pushbutton will activate the BUGS function and display the bug values to be selected.
 
-### SPD BUG and ALT BUG columns
+SPD BUG and ALT BUG columns:
 
 - The SPD BUG column gives four speed values (in knots) that can be selected by the crew. The ALT BUG column gives two altitude values (feet) to be selected by the crew.
 
@@ -55,9 +51,6 @@ The ISIS system displays the following information:
 - Access from one box to another is obtained by pressing the “+” or “–” pushbutton.
 - When a bug value is entered, access to the next box is obtained by pressing the “–” pushbutton. The box becomes active and flashes.
 - The “+” pushbutton can be used to return to a previous box.
-
-
-
 
 ---
 
