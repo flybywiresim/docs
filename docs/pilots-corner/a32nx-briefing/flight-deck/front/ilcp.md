@@ -14,19 +14,46 @@
 
 ### OFF/BRT knobs
 
-- These knobs turn the PFD and ND display units on and off, and control their brightness.
-- The display brightness automatically adjusts for changing light conditions. It may also be adjusted manually.
-- PFD Brightness Control Knob
-    - Rotating this knob all the way counterclockwise switches off the PFD. In this case, the PFD image is automatically displayed on the NDU, but the pilot may recover the ND by means of the PFD-ND XFR pushbutton.
-- ND Brightness Control Knob
-    - The outer knob controls the brightness of both the weather radar image and the EGPWS terrain display. The inner knob controls the general brightness of the ND symbols. Rotating this knob all the way counterclockwise switches off the NDU.
+These knobs are use to turn the displays (PFD, ND) on and off, and also adjust their brightness.
+
+- PFD
+    - If the PFD is turned off (knob turned all the way counterclockwise) the PFD image is automatically displayed on the NDU, but the pilot may recover the ND by means of the PFD-ND XFR pushbutton.
+
+    !!! note ""
+        Currently PFD/ND XFR is not available in the FBW A32NX for Microsoft Flight Simulator.
+
+- ND
+    - The outer knob adjusts the brightness of both the weather radar image and the EGPWS terrain display. The inner knob adjusts the  brightness of the ND symbols. The ND is turned of if this knob is turned all the way counterclockwise.
 
 ### PFD/ND XFR Pushbutton
 
-Pushing this button interchanges the PFD and the ND. If the PFDU fails, the PFD automatically transfers to the NDU.
+Exchanges the PFD and the ND. If the PFDU fails, the PFD automatically transfers to the NDU.
 
-<!-- TODO: - which one is build into the FBW??? -->
+!!! note ""
+    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
 
+
+### Loudspeaker Volume Knob
+
+Adjusts the volume of the loudspeaker for radio communication.
+
+- OFF:
+    - Radio signals are not broadcast on loudspeaker.
+- Clockwise rotation:
+    - Radio signals are broadcast on loudspeaker at the set volume.
+
+Note: Does not control the loudness of aural alert and voice messages.
+
+!!! note ""
+    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
+
+### Console/Floor Lt.
+
+Adjusts the lights of the side console and of the briefcase on each side of the cockpit. Also adjusts the lighting of the floor around each flight crew member's seat. The lights can be set to bright, dim, or off.
+
+<!-- TODO: - which one is used for FBW??? -->
+
+<!--
 ### GPWS – G/S pushbutton
 
 - GPWS: This red light comes on when any mode from 1 to 4, or any TAD or TCF alert is activated. A specific voice alert accompanies it.
@@ -41,15 +68,7 @@ Pushing this button interchanges the PFD and the ND. If the PFDU fails, the PFD 
 - Note:
     - If the flight crew briefly presses this button, when mode 5 alert is heard, the GPWS light goes out and the aural alert stops.
     - The GPWS can be tested by pressing this pushbutton (on ground only).
-
-### Loudspeaker Volume Knob
-
-This knob adjusts the volume of the loudspeaker for radio communication.
-
-- OFF: Loudspeaker does not respond to signals from the aircraft's radio
-equipment.
-- Clockwise rotation: Loudspeaker broadcasts signals from the aircraft's radio equipment at increasing volume.
-- Note: This knob does not control the loudness of aural alert and voice messages. In the case of acoustic feedback (i.e. Larsen effect) from the cockpit loudspeaker, the flight crew should reduce the volume of the cockpit loudspeaker. However, the flight crew should ensure that the volume of the cockpit loudspeaker is sufficient to hear radio communication.
+-->
 
 ---
 
