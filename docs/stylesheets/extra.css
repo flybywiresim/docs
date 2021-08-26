@@ -32,6 +32,10 @@ diff rgba(27,36,52,1)
 .md-top {
   color: #ffffff;
 }
+.md-tabs__link--active, .md-tabs__link:focus, .md-tabs__link:hover {
+  border-bottom: 1.5px solid #00C2CB;
+  height: -webkit-fill-available;
+}
 
 /*Announcement Bar Temporarily Removed
 .md-announce {
