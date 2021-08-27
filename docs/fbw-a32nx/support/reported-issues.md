@@ -392,7 +392,7 @@ Crash to desktop (CTD) can either be a sim issue or a conflict with the A32NX. T
 ## Fixed Issues
 
 !!! tip ""
-    Unless stated otherwise all fixed issues are first released on our development version.
+    Unless stated otherwise, all fixed issues are first released on our development version.
 
 - Using the *"Pounds (lbs)"* on the EFB. *[Fixed PR #5344](https://github.com/flybywiresim/a32nx/pull/5344){target=new}*
     - Closed Issues: [#5316](https://github.com/flybywiresim/a32nx/issues/5316), [#5321](https://github.com/flybywiresim/a32nx/issues/5321)
