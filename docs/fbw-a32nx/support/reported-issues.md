@@ -121,6 +121,15 @@ Sometimes the sim will "*miss*" the trigger point being reached for outer tank f
 
     This information is stated on [Installation Guide](../installation.md).
 
+#### EFB Issues in External View
+
+!!! tip ""
+    *Affected versions: Stable, Development*
+
+When attempting to pop out the EFB (++"ralt"+"Left Click"++) and switching to external view the EFB may seem unresponsive.
+
+- Workaround: Make sure to click on the actual EFB screen (not the popped out window) before switching to external camera.  
+
 #### Printing METAR Reports May Cause a CTD
 
 !!! tip ""
