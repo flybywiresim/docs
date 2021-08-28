@@ -1,4 +1,4 @@
-# Flight Control Panel - Left + Right
+# Flight Control Panels
 
 ---
 

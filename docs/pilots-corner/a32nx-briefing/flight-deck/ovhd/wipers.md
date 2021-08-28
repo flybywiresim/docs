@@ -1,5 +1,5 @@
 
-# Wipers Panel - Left
+# Wiper Panels
 
 ---
 
