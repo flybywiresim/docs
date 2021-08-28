@@ -10,6 +10,17 @@
 
 ## Description
 
+The Airbus A320neo has three landing gears. Two main gears retracting inward and one nose gear retracting forward.
+
+Two Landing Gear Control and Interface Units (LGCIUs) manage the extension and retraction of the gear and the operation of the doors. They also supply information to the ECAM for display, and send signals indicating whether the aircraft is in flight or on the ground to other aircraft systems.
+
+The nose gear is also used for steering on the ground.
+
+The main wheels have carbon multidisc brakes, which can be actuated by either of two independent brake systems.
+The normal system uses green hydraulic pressure, whereas the alternate system uses the yellow hydraulic system backed up by the hydraulic accumulator.
+
+An anti-skid and autobrake system is also provided.
+
 ## Usage
 
 ### Landing Gear Indicator Panel
