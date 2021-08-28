@@ -43,8 +43,8 @@ An anti-skid and autobrake system is also provided.
 
 Lights up if the landing gear is not locked down when the aircraft is in the landing configuration, and a red warning appears on ECAM.
 
-!!! note ""
-    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
+!!! attention ""
+    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### A/SKID & N/W STRG sw
 

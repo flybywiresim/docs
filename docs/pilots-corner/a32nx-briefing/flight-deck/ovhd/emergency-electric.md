@@ -8,10 +8,13 @@
 
 ![Emergency Electric Power Panel Panel](../../../assets/a32nx-briefing/overhead-panel/Emergency-electrical.jpg "Emergency Electric Power Panel")
 
-## Function
+## Usage
+
+!!! attention ""
+    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 - MAN ON (guarded)
-    - AUTQ: When the following conditions are met:
+    - AUTO: When the following conditions are met:
         - AC BUS 1 is not electrically supplied.
         - AC BUS 2 is not electrically supplied.
         - Aircraft speed is greater than 100 knots.

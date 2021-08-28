@@ -22,16 +22,24 @@ The maintenance crew uses this pushbutton to reset the control circuit, after th
 - ON: The PASSENGER SYS ON light goes off.
 - FAULT: when the door latch solenoids are energized for more than 30s this light comes on in white.
 
+!!! attention ""
+    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+
 ### SVCE INT OVRD pushbutton switch
 
 - Auto: Ground personnel can communicate with the flight crew by means of the service interphone jacks 10s after the aircraft has landed. The landing gear must be compressed.
-- ON: Communication is possible when the landing gear is not compressed.
-The ON light is white.
+- ON: Communication is possible when the landing gear is not compressed. The ON light is white.
+
+!!! attention ""
+    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### AVIONICS COMP LT pushbutton switch
 
 - AUTO: avionic compartment lighting is automatically controlled by door opening
 - ON: avionic compartment lighting is on
+
+!!! attention ""
+    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### BLUE PUMP OVRD pushbutton switch (guarded).
 
@@ -42,6 +50,9 @@ The ON light is white.
 
 - OFF: The corresponding electrohydraulic valve closes and shuts off hydraulic supply to the primary flight controls.
 - ON: The corresponding electrohydraulic valve opens to go back to normal hydraulic supply.
+
+!!! attention ""
+    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### APU
 
@@ -57,12 +68,18 @@ The ON light is white.
 
 - RESET PB: When pressed, resets the test circuit.
 
+!!! attention ""
+    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+
 ### ENG FADEC GND PWR pushbutton switches
 
 - OFF: The electrical network of the aircraft or the FADEC alternator automatically supplies the FADEC.
 - ON: On ground, when pressed the electrical network of the aircraft supplies the FADEC when:
     - The ENG FIRE pb-sw is not pressed,
     - The FADEC alternator does not supply the FADEC.
+
+!!! attention ""
+    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ---
 

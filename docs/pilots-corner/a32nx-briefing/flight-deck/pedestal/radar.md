@@ -29,8 +29,8 @@ In Microsoft Flight Simulator the system is limited by what the simulator provid
 
 - This knob adjusts the sensitivity of the radar.
 
-!!! note ""
-    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
+!!! attention ""
+    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### MODE - Display mode selector
 
@@ -45,15 +45,15 @@ In Microsoft Flight Simulator the system is limited by what the simulator provid
 - MAP:
     - Map mode: No weather display but ground information: Black for water, green for ground, and amber for cities and mountains.
 
-!!! note ""
+!!! attention ""
     Currently only precipitation is available in the FBW A32NX for for Microsoft Flight Simulator.
 
 ###  TILT
 
 This allows tilting the radar antenna when MULTISCAN is MAN. Zero uses the horizon reference from the IRS.
 
-!!! note ""
-    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
+!!! attention ""
+    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### MULTISCAN
 
@@ -62,8 +62,8 @@ This allows tilting the radar antenna when MULTISCAN is MAN. Zero uses the horiz
 - MAN:
     - Manually adjust radar antenna tilt using the TILT knob.
 
-!!! note ""
-    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
+!!! attention ""
+    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### GCS (Ground Clutter Suppression)
 
@@ -73,8 +73,8 @@ This allows tilting the radar antenna when MULTISCAN is MAN. Zero uses the horiz
 - OFF:
     - Ground clutter is visible.
 
-!!! note ""
-    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
+!!! attention ""
+    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### PWS
 
@@ -83,8 +83,8 @@ This allows tilting the radar antenna when MULTISCAN is MAN. Zero uses the horiz
 - OFF:
     - The Predictive WindShear function is off.
 
-!!! note ""
-    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
+!!! attention ""
+    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ---
 

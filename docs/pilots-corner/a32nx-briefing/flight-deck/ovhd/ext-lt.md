@@ -8,6 +8,18 @@
 
 ![Exterior Lighting](../../../assets/a32nx-briefing/overhead-panel/Exterior-Lighting-Panel.jpg "Exterior Lighting")
 
+## Description
+
+The Exterior Lighting of an Airbus A320neo includes these lights:
+
+- The navigation lights
+- The landing lights
+- The runway turn off lights
+- The TO and TAXI lights
+- The logo lights
+- The anticollision lights
+- The wing and engine scan lights.
+
 ## Usage
 
 ### STROBE

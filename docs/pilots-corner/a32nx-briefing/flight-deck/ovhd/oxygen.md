@@ -8,11 +8,11 @@
 
 ![Oxygen Panel](../../../assets/a32nx-briefing/overhead-panel/Oxygen.jpg "Oxygen Panel")
 
-## Function
+## Usage
 
 - MASK MAN ON:
-  - AUTO - This is the normal position for this switch. The cabin oxygen mask doors will open automatically when the cabin altitude exceeds 14,000 feet.
-  - ON - The cabin oxygen mask doors open regardless of cabin altitude when the Oxygen Mask Manual on switch is selected to on.
+    - AUTO: This is the normal position for this switch. The cabin oxygen mask doors will open automatically when the cabin altitude exceeds 14,000 feet.
+    - ON: The cabin oxygen mask doors open regardless of cabin altitude when the Oxygen Mask Manual on switch is selected to on.
 
 - PASSENGER SYS ON: This illuminates in white when the oxygen mask doors are actuated. It remains on until the OXYGEN TIMER RESET switch is pushed on the overhead maintenance panel.
 

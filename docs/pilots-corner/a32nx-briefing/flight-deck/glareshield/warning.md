@@ -24,8 +24,8 @@
     - Both lights flash will flash if the pilots are attempting to move both sidesticks at the same time and neither pilot takes priority.
     - If a pilot who has taken priority by using the TAKEOVER pb and the other pilot's sidestick is in motion or not neutral, the light of the pilot who has taken priority illuminates. It will extinguish when the opposing sidestick returns to the neutral position.
 
-!!! note ""
-    Note: Currently not available in the FBW A32NX for Microsoft Flight Simulator
+!!! attention ""
+    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### 2. CHRONO
 
@@ -65,15 +65,15 @@ The aural warnings terminate when:
     - LDC signal lost above 15ft or loss of GLIDE signal when above 100ft. The flight director bars flash on the PFD and LAND mode remains engaged.
     - Difference of radio altimeter indications is more than 15ft.
 
-!!! note ""
-    Note: Currently not available in the FBW A32NX for Microsoft Flight Simulator
+!!! attention ""
+    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### 6. ATC MSG
 
 - Will flash when an ATC message is received via the CPDLC (Controller-Pilot Data Link Communication), accompanied by an alarm. This notification can be cancelled by pressing the "ATC MSG" pb
 
-!!! note ""
-    Note: Currently not available in the FBW A32NX for Microsoft Flight Simulator
+!!! attention ""
+    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ---
 

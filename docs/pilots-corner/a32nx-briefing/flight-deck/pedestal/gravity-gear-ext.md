@@ -23,6 +23,9 @@ Locking springs help the crew to crank the main gear into the locked condition, 
 The gear doors remain open.
 The flight crew can reset the emergency extension system in flight after using it for training (if green hydraulic pressure is available).
 
+!!! attention ""
+    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+
 ---
 
 [Back to Flight Deck](../index.md){ .md-button }

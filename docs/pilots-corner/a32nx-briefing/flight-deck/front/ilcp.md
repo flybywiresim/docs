@@ -46,8 +46,8 @@ Adjusts the volume of the loudspeaker for radio communication.
 
 Note: Does not control the loudness of aural alert and voice messages.
 
-!!! note ""
-    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
+!!! attention ""
+    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### Console/Floor Lt.
 

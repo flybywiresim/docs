@@ -18,6 +18,9 @@ Brightness for the integral lightning of the overhead panel.
 
 Integral lighting for the standby compass and the visual indicator.
 
+!!! attention ""
+    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+
 ### DOME
 
 Switch for dome lights, OFF, DIM (dimmed) and BRT (bright)

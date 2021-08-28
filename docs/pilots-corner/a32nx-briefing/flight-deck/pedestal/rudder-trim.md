@@ -8,8 +8,7 @@
 
 ![Rudder Trim Panel](../../../assets/a32nx-briefing/pedestal/Rudder-trim-Panel.jpg "Rudder Trim Panel")
 
-
-## Controls
+## Usage
 
 ###  RUD TRIM Rotary Switch
 
@@ -24,7 +23,6 @@
 ### Position Indicator
 
 - Displays the current rudder trim direction (L or R) and value (0 to 20°).
-
 
 ---
 

@@ -8,7 +8,7 @@
 
 ![ADIRS Panel](../../../assets/a32nx-briefing/overhead-panel/ADIRS.jpg "ADIRS Panel")
 
-##Description
+## Description
 
 - The Air Data Inertial Reference System (ADIRS) computes the aircraft's position, speed, altitude, attitude, and air data for the displays, flight management guidance system, flight controls, engine controls, and other systems.
 
@@ -20,7 +20,7 @@
 
 - ADIRU 1 and 2 supply their on side systems. ADIRU 3 is a hot spare
 
-##Operation
+## Operation
 
 Normal operation:
 

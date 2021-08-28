@@ -32,7 +32,8 @@
 - OFF:
     - Turn signs off and chime sounds.
 
-Note: Chime is barely audible in the cockpit with the cockpit door closed.
+!!! note ""
+    Chime is barely audible in the cockpit with the cockpit door closed.
 
 ### NO SMOKING
 
@@ -42,7 +43,8 @@ Note: Chime is barely audible in the cockpit with the cockpit door closed.
     - NO SMOKING and EXIT signs come on when landing gear is extended and go off when landing gear is retracted. Low tone chime sounds when the lights go on or off.
 - OFF:
 
-Note: Chime is barely audible in the cockpit with the cockpit door closed.
+!!! note ""
+    Chime is barely audible in the cockpit with the cockpit door closed.
 
 ---
 

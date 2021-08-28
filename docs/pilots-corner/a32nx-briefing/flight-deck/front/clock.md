@@ -60,9 +60,8 @@ Second push:
 
 Note: In order to select the date mode, the UTC selector must be set on "GPS" or "INT" position.
 
-!!! note ""
+!!! attention ""
     In the FlyByWire A32NX the Date Set button must be held to show date. It switches back to time when released.
-
 
 ---
 

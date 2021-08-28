@@ -23,13 +23,16 @@ The cockpit voice recorder is located in the aft section of the airplane, equipp
 
 The passenger address system is also recorded if the PA reception knob is selected on. Only the last 30 minutes of recording is retained.
 
-## Function
+## Usage
 
-- GND CTRL: The ON function energizes the CVR and DFDR. This is used to test the CVR and DFDR.
+- GND CTRL:
+    - The ON function energizes the CVR and DFDR. This is used to test the CVR and DFDR.
 
-- CVR ERASE: When the ERASE button is pushed for two seconds, it erases the CVR tape, provided the airplane is on the ground and the parking brake is on.
+- CVR ERASE:
+    - When the ERASE button is pushed for two seconds, it erases the CVR tape, provided the airplane is on the ground and the parking brake is on.
 
-- CVR TEST: When pushed and held, the CVR test is activated provided the CVR is energized and the parking brake is on. During the test, a low frequency tone is heard through the cockpit loudspeakers.
+- CVR TEST:
+    - When pushed and held, the CVR test is activated provided the CVR is energized and the parking brake is on. During the test, a low frequency tone is heard through the cockpit loudspeakers.
 
 ---
 

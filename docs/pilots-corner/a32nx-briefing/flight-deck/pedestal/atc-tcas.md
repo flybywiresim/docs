@@ -28,10 +28,6 @@ The XPDR is capable of elementary surveillance (ELS) and enhanced surveillance (
 
 ## Usage
 
-### XPDR Selector
-
-This switch selects XPDR 1 or 2.
-
 ###  Mode Selector
 
 - STBY:
@@ -41,6 +37,13 @@ This switch selects XPDR 1 or 2.
 - AUTO:
     - In flight : Selected XPDR operates.
     - On ground : Selected XPDR only operates in mode S (Selective aircraft interrogation mode).
+
+### XPDR Selector
+
+This switch selects XPDR 1 or 2.
+
+!!! attention ""
+    Currently only 1 is available in the FBW A32NX for Microsoft Flight Simulator.
 
 ### ALT RPTG Switch
 
