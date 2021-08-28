@@ -64,10 +64,10 @@ It has 4 settings: OFF, LO, MED and MAX.
 - MAX (takeoff):
     - If the flight crew aborts the takeoff, maximum pressure goes to the brakes when the ground spoilers are being deployed.
 - LO
-  - Selected usually for landing on a normal-length, dry and uncontaminated runway.
+  - Usually Selected for landing on a normal-length, dry and uncontaminated runway.
   - Sends progressive pressure to the brakes 4 seconds after the ground spoilers deploy. Decelerates the aircraft at 1.7 meters/second^2^ (5.6 feet/second^2^ ).
 - MED
-    - Selected usually for landing on a shorter, wet or contaminated runway.
+    - Usually Selected for landing on a shorter, wet or contaminated runway.
     - Sends progressive pressure to the brakes 2 seconds after the ground spoilers deploy in order to decelerate the aircraft at 3 meters/second^2^ (9.8 feet/second^2^).
 - Lights
     - Blue ON light indicates positive arming.
@@ -79,11 +79,11 @@ It has 4 settings: OFF, LO, MED and MAX.
 ### BRK FAN pb sw
 
 - ON:
-    - If the lefthand main landing gear is down and locked the fans run.
+    - If the left-hand main landing gear is down and locked the fans run.
 - OFF:
     - Brake fans are stopped.
 - HOT Lt:
-    - When the brakes get too hot, thjis amber light comes on and ECAM shows a caution.
+    - When the brakes get too hot, this amber light comes on and ECAM shows a caution.
 
 ---
 
