@@ -1,9 +1,4 @@
----
-hide:
-    - navigation
----
-
-# Fire Control Panel
+# Cargo Vent Panel
 
 ---
 

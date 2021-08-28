@@ -1,8 +1,3 @@
----
-hide:
-    - navigation
----
-
 # Electrical System Control Panel
 
 ---

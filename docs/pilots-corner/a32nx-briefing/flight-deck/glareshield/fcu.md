@@ -1,8 +1,3 @@
----
-hide:
-    - navigation
----
-
 # Flight Control Unit
 
 ---

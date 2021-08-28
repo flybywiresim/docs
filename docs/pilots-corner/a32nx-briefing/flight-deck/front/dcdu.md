@@ -1,8 +1,3 @@
----
-hide:
-    - navigation
----
-
 # Datalink Ctl and Display Unit
 
 ---

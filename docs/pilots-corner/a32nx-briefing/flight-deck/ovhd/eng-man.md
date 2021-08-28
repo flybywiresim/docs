@@ -1,8 +1,3 @@
----
-hide:
-    - navigation
----
-
 # Engine Manual Start and N1 Mode Panel
 
 ---

@@ -1,8 +1,3 @@
----
-hide:
-    - navigation
----
-
 # Switching Panel
 
 ---
@@ -11,7 +6,7 @@ hide:
 
 ---
 
-![Switching Panel](../../../assets/a32nx-briefing/pedestal/Switching-Panel.jpg "Switching Panel"){ width=60% }
+![Switching Panel](../../../assets/a32nx-briefing/pedestal/Switching-Panel.jpg "Switching Panel")
 
 ## Description
 

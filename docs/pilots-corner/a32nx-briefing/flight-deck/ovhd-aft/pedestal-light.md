@@ -1,8 +1,3 @@
----
-hide:
-    - navigation
----
-
 # Pedestal Light and Audio 3 Switch
 
 ---

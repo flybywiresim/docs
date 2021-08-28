@@ -1,8 +1,3 @@
----
-hide:
-    - navigation
----
-
 # Radio Management and Audio Control Panel
 
 ---
@@ -11,7 +6,7 @@ hide:
 
 ---
 
-![Radio Management Panel](../../../assets/a32nx-briefing/pedestal/RMP.jpg "Radio Management Panel"){ width=60% }
+![Radio Management Panel](../../../assets/a32nx-briefing/pedestal/RMP.jpg "Radio Management Panel")
 
 ## Description
 

@@ -1,8 +1,3 @@
----
-hide:
-    - navigation
----
-
 # Autobrake and Gear Indications
 
 ---

@@ -1,8 +1,3 @@
----
-hide:
-    - navigation
----
-
 # Cargo Smoke Panel
 
 ---

@@ -1,8 +1,3 @@
----
-hide:
-    - navigation
----
-
 # Internal Lights Panel
 
 ---

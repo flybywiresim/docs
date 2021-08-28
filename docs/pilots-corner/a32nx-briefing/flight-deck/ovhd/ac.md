@@ -1,8 +1,3 @@
----
-hide:
-    - navigation
----
-
 # Air Condition Control Panel
 
 ---

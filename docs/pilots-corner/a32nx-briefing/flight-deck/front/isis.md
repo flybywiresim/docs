@@ -1,8 +1,3 @@
----
-hide:
-    - navigation
----
-
 # Integrated Standby Instrument System
 
 ---

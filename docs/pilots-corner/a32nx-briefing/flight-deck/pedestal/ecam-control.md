@@ -1,8 +1,3 @@
----
-hide:
-    - navigation
----
-
 # ECAM Control Panel
 
 ---
@@ -11,7 +6,7 @@ hide:
 
 ---
 
-![ECAM Control Panel](../../../assets/a32nx-briefing/pedestal/ECAM-Control-Panel.jpg "ECAM Control Panel"){ width=60% }
+![ECAM Control Panel](../../../assets/a32nx-briefing/pedestal/ECAM-Control-Panel.jpg "ECAM Control Panel")
 
 ## Description
 

@@ -1,8 +1,3 @@
----
-hide:
-    - navigation
----
-
 # Lighting Pedestal, AIDS, DFDR First Officer Side
 
 ---

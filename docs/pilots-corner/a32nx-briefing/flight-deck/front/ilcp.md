@@ -1,8 +1,3 @@
----
-hide:
-    - navigation
----
-
 # Instrument Lighting Control Panel
 
 ---

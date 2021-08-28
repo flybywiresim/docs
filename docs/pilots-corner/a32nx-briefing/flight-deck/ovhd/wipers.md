@@ -1,10 +1,5 @@
----
-hide:
-- navigation
----
 
-
-# Wipers Panel - Left
+# Wiper Panels
 
 ---
 

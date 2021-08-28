@@ -1,8 +1,3 @@
----
-hide:
-    - navigation
----
-
 # WX Radar Panel
 
 ---
@@ -11,7 +6,7 @@ hide:
 
 ---
 
-![WX Radar Panel](../../../assets/a32nx-briefing/pedestal/WX-radar-Panel.jpg "WX Radar Panel"){ width=60% }
+![WX Radar Panel](../../../assets/a32nx-briefing/pedestal/WX-radar-Panel.jpg "WX Radar Panel")
 
 ## Description
 

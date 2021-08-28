@@ -1,8 +1,3 @@
----
-hide:
-    - navigation
----
-
 # Primary Flight Display (PFD)
 
 ---

@@ -1,9 +1,4 @@
----
-hide:
-    - navigation
----
-
-# Speed Brake
+# Rudder Trim
 
 ---
 

@@ -1,8 +1,3 @@
----
-hide:
-- navigation
----
-
 # Ground Proximity Warning Panel
 
 ---
