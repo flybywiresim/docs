@@ -70,6 +70,38 @@ This switch selects XPDR 1 or 2.
 
 - This light comes on if the selected XPDR fails.
 
+### TCAS Mode
+
+TCAS knows the following threat categories:
+
+- Other intruders - white outlined diamond
+- Proximate intruders - white diamond
+- Traffic Advisory (TA) - amber circle
+- Resolution Advisory (RA) - red square
+
+TCAS mode selector:
+
+- TA/RA:
+    - If the ALT RPTG switch is ON and the transponder is not on STBY RAs, TAs and proximate intruders are displayed. Default position.
+- TA:
+    - TCAS only provides Traffic Advisory. Used in case of degraded aircraft performance (engine failure, landing gear extended, or approach on parallel runways).
+    - All RAs are converted into TAs. TAs, proximate and intruders are displayed if the ALT RPTG switch is ON and the transponder is not on STBY.
+    - "TA ONLY" memo is displayed on the NDs.
+- STBY:
+    - TCAS is on standby.
+
+### TCAS TRAFFIC
+
+- THRT:
+    - Proximate and other intruders are displayed only if a TA or RA is present, and they are within 2.700 ft above and 2.700 ft below the aircraft.
+- ALL:
+    - Proximate and other intruders are displayed even if no TA or RA is present (full time function).
+    - The altitude range is –2.700 ft to +2.700 ft.
+- ABV:
+    - Same as ALL, except that the other intruders are displayed if within 9.900 ft above and 2.700 ft below the aircraft.
+- BLW:
+    - Same as ALL, except that the other intruders are displayed if within 9.900 ft below and 2.700 ft above the aircraft.
+
 ---
 
 [Back to Flight Deck](../index.md){ .md-button }
