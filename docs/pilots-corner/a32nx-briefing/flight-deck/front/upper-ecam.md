@@ -1,8 +1,3 @@
----
-hide:
-    - navigation
----
-
 # Engine and Warning Display (Upper ECAM)
 
 ---

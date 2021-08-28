@@ -1,8 +1,3 @@
----
-hide:
-    - navigation
----
-
 # EFIS Control Panel
 
 ---

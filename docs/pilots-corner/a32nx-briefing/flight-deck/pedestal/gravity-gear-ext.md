@@ -1,8 +1,3 @@
----
-hide:
-    - navigation
----
-
 # Emergency Gravity Gear Extension
 
 ---

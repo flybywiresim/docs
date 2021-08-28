@@ -1,8 +1,3 @@
----
-hide:
-    - navigation
----
-
 # 3rd Audio Control Panel
 
 ---

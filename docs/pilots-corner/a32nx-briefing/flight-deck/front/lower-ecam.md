@@ -1,8 +1,3 @@
----
-hide:
-    - navigation
----
-
 # System Display (Lower ECAM)
 
 ---

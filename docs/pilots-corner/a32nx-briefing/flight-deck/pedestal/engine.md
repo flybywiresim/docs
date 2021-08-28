@@ -1,8 +1,3 @@
----
-hide:
-    - navigation
----
-
 # Engine Panel
 
 ---
@@ -11,7 +6,7 @@ hide:
 
 ---
 
-![Engine Panel](../../../assets/a32nx-briefing/pedestal/Engine-Panel.jpg "Engine Panel"){ width=60% }
+![Engine Panel](../../../assets/a32nx-briefing/pedestal/Engine-Panel.jpg "Engine Panel")
 
 ## Description
 

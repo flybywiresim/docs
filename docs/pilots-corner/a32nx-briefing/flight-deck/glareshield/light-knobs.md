@@ -1,8 +1,3 @@
----
-hide:
-    - navigation
----
-
 # Instrument Panel Lighting Knobs
 
 ---

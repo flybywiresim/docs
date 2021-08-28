@@ -1,8 +1,3 @@
----
-hide:
-    - navigation
----
-
 # Exterior Lighting
 
 ---

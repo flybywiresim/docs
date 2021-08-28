@@ -1,8 +1,3 @@
----
-hide:
-    - navigation
----
-
 # Cabin Pressurization
 
 ---

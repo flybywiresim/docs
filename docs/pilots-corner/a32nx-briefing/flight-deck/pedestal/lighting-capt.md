@@ -1,8 +1,3 @@
----
-hide:
-    - navigation
----
-
 # Lighting Pedestal Captain Side
 
 ---
@@ -11,7 +6,7 @@ hide:
 
 ---
 
-![Pedestal Lighting Knobs](../../../assets/a32nx-briefing/pedestal/Pedestal-lighting.jpg "Pedestal Lighting Knobs"){ width=60% }
+![Pedestal Lighting Knobs](../../../assets/a32nx-briefing/pedestal/Pedestal-lighting.jpg "Pedestal Lighting Knobs")
 
 ## Usage
 

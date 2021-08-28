@@ -1,8 +1,3 @@
----
-hide:
-    - navigation
----
-
 # Fire Control Panel
 
 ---

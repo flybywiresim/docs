@@ -1,8 +1,3 @@
----
-hide:
-    - navigation
----
-
 # FMS Load Panel
 
 ---

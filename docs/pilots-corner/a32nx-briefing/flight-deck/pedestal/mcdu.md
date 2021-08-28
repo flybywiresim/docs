@@ -1,8 +1,3 @@
----
-hide:
-    - navigation
----
-
 # Multipurpose Control and Display Unit
 
 ---
