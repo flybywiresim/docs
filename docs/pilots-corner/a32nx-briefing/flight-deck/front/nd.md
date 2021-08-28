@@ -12,7 +12,7 @@
 
 ## Description
 
-The Navigation Display (ND) is one the main instruments for the pilots for situational awareness and navigation in flight.
+The Navigation Display (ND) is one of the main instruments for the pilots for situational awareness and navigation in flight.
 
 It plots configurable information for speed, heading, flight plan, terrain, weather, distances etc. in 5 different basic view modes:
 
@@ -34,7 +34,7 @@ The weather radar image can be displayed in all modes except PLAN.
 
 ### TERR ON ND pushbutton
 
-These pushbutton are located on either side of the ECAM. Each pushbutton controls the onside terrain display.
+These pushbuttons are located on either side of the ECAM. Each pushbutton controls the onside terrain display.
 
 - ON:
     - The terrain is displayed on the ND if the:
