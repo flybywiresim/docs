@@ -14,7 +14,7 @@
 
 ### OFF/BRT knobs
 
-These knobs are use to turn the displays (PFD, ND) on and off, and also adjust their brightness.
+These knobs are used to turn the displays (PFD, ND) on and off, and also adjust their brightness.
 
 - PFD
     - If the PFD is turned off (knob turned all the way counterclockwise) the PFD image is automatically displayed on the NDU, but the pilot may recover the ND by means of the PFD-ND XFR pushbutton.
@@ -23,7 +23,7 @@ These knobs are use to turn the displays (PFD, ND) on and off, and also adjust t
         Currently PFD/ND XFR is not available in the FBW A32NX for Microsoft Flight Simulator.
 
 - ND
-    - The outer knob adjusts the brightness of both the weather radar image and the EGPWS terrain display. The inner knob adjusts the  brightness of the ND symbols. The ND is turned of if this knob is turned all the way counterclockwise.
+    - The outer knob adjusts the brightness of both the weather radar image and the EGPWS terrain display. The inner knob adjusts the  brightness of the ND symbols. The ND is turned off if this knob is turned all the way counterclockwise.
 
 ### PFD/ND XFR Pushbutton
 
