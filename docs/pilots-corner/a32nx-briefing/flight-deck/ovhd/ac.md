@@ -29,7 +29,7 @@ The two air conditioning packs (PACK 1+2) operate automatically and independentl
 - OFF:
     - Hot air valve is closed. FAULT is reset.
 - FAULT:
-    - Amber light and ECAM caution when overheat is detected. (> 88°C/190°F). Vavles close automatically. Below 70°C (158°F) or if the flight crew selects OFF the FAULT light goes OFF.
+    - Amber light and ECAM caution when overheat is detected. (> 88°C/190°F). Valves close automatically. Below 70°C (158°F) or if the flight crew selects OFF the FAULT light goes OFF.
 
 ### PACK 1 + 2
 
@@ -52,7 +52,7 @@ The two air conditioning packs (PACK 1+2) operate automatically and independentl
 - ON:
     - The RAM air inlet opens.
     - If &#916;p >= 1 psi: The outflow valve control remains normal. No emergency RAM air flows in.
-    - If &#916;p < 1 psi: The outflow valve opens to about 50 % whenunder automatic control. It does not automatically open when it is under manual control. Emergency RAM airflow is directly supplied to the mixer unit.
+    - If &#916;p < 1 psi: The outflow valve opens to about 50 % when under automatic control. It does not automatically open when it is under manual control. Emergency RAM airflow is directly supplied to the mixer unit.
     - When DITCHING is pressed this is closed.
 - OFF:
     - The RAM air inlet closes.

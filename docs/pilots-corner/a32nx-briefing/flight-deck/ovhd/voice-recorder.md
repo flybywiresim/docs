@@ -14,10 +14,10 @@ The voice recorder panel consist of cockpit voice recorder (CVR) and digital fli
 
 The CVR and DFDR are energized automatically during the following conditions:
 
-- On the ground for five minutes following electrical power
-- On the ground continuously with at least one engine running
-- Continuously in flight regardless if engines are operating
-- The CVR and DFDR both automatically stop five minutes after the last engine is shut down
+- On the ground for five minutes following electrical power.
+- On the ground continuously with at least one engine running.
+- Continuously in flight regardless if engines are operating.
+- The CVR and DFDR both automatically stop five minutes after the last engine is shut down.
 
 The cockpit voice recorder is located in the aft section of the airplane, equipped with an underwater locating beacon. It records direct conversations between crew members through a cockpit area microphone and boom microphones, aural cockpit warnings, intercommunication and radio transmissions.
 

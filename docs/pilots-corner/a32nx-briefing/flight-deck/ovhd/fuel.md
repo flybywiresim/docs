@@ -18,11 +18,11 @@ Total Fuel Capacity:
 
 The tanks empty in the following sequence :
 
-1. center tank
-2. inner tanks (down to 750 kg in each inner tank)
-3. outer tanks (fuel transferred into the inner tanks)
+1. Center tank
+2. Inner tanks (down to 750 kg in each inner tank)
+3. Outer tanks (fuel transferred into the inner tanks)
 
-Each engine is fed by their corresponding centre and wing tanks. The pumps stay turned on during the flight
+Each engine is fed by their corresponding centre and wing tanks. The pumps stay turned on during the flight.
 
 Both engines can be fed from one side or both sides can feed only one engine.
 

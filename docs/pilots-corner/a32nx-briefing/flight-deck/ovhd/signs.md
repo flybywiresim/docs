@@ -18,7 +18,7 @@
     - Turn off Overhead Emergency Lights, EXIT signs and proximity marking (floor light band) system.
 - ARM:
     - Emergency lighting and proximity marking turn on, when normal aircraft electrical power system fails or DC SHED ESS BUS fails or AC BUS 1 fails.
-    - Exit signs turn on, , when normal aircraft electrical power system fails or DC SHED ESS BUS fails
+    - Exit signs turn on when normal aircraft electrical power system fails or DC SHED ESS BUS fails.
 
 ### EMER EXIT LT
 

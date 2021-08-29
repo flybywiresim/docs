@@ -77,7 +77,7 @@ Passenger Address is used by the flight personnel to make passenger announcement
 
 #### PA transmission key
 
-Pressed and held: To make an announcement a boom, mask or hand mike is used
+Pressed and held: To make an announcement a boom, mask or hand mike is used.
 
 !!! attention ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.

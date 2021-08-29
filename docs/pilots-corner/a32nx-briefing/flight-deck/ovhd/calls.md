@@ -31,7 +31,7 @@
     - An "EMERGENCY CALL" message appears on all flight attendant indication panels.
     - A high/low chime sounds through all loudspeakers.
 
-- These calls will be reset when the flight attendant/ground crew press the reset switch. The emergency call is reset by turning it from ON to OFF
+- These calls will be reset when the flight attendant/ground crew press the reset switch. The emergency call is reset by turning it from ON to OFF.
 
 ---
 

@@ -14,11 +14,11 @@
 
 The ice protection system allows unrestricted operation of the aircraft in icing conditions.
 
-For anit-icing either hot air or electrical heating protects critical areas of the aircraft.
+For anti-icing either hot air or electrical heating protects critical areas of the aircraft.
 
 Hot air is used for the three outboard leading-edge slats of each wing and for the engine air intakes.
 
-Electical heating is used for the flight compartment windows, the sensors, pitot probes and static ports and for the waste-water drain mast.
+Electrical heating is used for the flight compartment windows, the sensors, pitot probes and static ports and for the waste-water drain mast.
 
 ## Usage
 

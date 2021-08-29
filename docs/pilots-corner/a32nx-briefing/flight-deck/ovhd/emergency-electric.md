@@ -23,7 +23,7 @@
         - As soon as the emergency generator electrical parameters are within tolerance the emergency generator is connected to the aircraft network.
     - Pressed:
         - This selects manual RAT extension.
-        - Emergency generator coupling occurs 3 seconds after the RAT is supplying
+        - Emergency generator coupling occurs 3 seconds after the RAT is supplying.
         - the emergency generator.
 
 - FAULT LIGHT: This light comes on red if the emergency generator is not supplying power when AC BUS 1 and AC BUS 2 are not powered.
@@ -32,7 +32,7 @@
     - Pressed and held:
         - if AC NORMAL BUSES are supplied:
             - The EMER GEN is driven hydraulically if the blue electric pump is running.
-            - The AC ESS BUS and the DC ESS BUS are connected to the emergency generator. (The DC ESS SHED and AC ESS SHED buses are not powered.)
+            - The AC ESS BUS and the DC ESS BUS are connected to the emergency generator. (The DC ESS SHED and AC ESS SHED buses are not powered).
             - ECAM displays the ELEC page automatically (only on the ground).
         - If only the batteries supply the aircraft:
             - The static inverter powers the AC ESS BUS.

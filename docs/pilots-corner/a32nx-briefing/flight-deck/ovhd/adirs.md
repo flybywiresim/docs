@@ -18,7 +18,7 @@
 
 - The IR provides attitude, flight path vector, heading, track, acceleration (speed trend), VSI, groundspeed, and aircraft position. The IR provides an inertial position input to the FMGCs for navigation computations. If either IR 1 or 2 fails, IR 3 can be manually selected.
 
-- ADIRU 1 and 2 supply their on side systems. ADIRU 3 is a hot spare
+- ADIRU 1 and 2 supply their on side systems. ADIRU 3 is a hot spare.
 
 ## Operation
 

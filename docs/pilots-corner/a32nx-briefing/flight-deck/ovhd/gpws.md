@@ -10,7 +10,7 @@
 
 ## Description
 
-There are two systems controlled by this panel
+There are two systems controlled by this panel.
 
 - GPWS - Above 30 feet and below 2450 feet RA, GPWS monitors for hazardous flight path conditions and provides visual and aural warnings, alerts or advisories when such conditions are encountered. The GPWS does not provide an alert for flight toward vertically sheer terrain or slow descents into terrain while in the landing configuration. False GPWS warnings may occur due to heavy rain, hail, or system malfunctions.
     - Mode 1: Excessive descent rate
