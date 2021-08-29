@@ -16,6 +16,3 @@ but are omitted in this briefing.
 
 [Clickable Flight Deck](flight-deck/index.md){ .md-button }
 
----
-
- ![ComingSoon.png](../../assets/ComingSoonPlacard.jpg)
