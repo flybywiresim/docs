@@ -25,6 +25,9 @@ If set to CAPT 3 or F/O 3 the corresponding pilot uses his acoustic equipment an
 !!! attention ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
+!!! attention ""
+    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+
 ---
 
 [Back to Flight Deck](../index.md){ .md-button }

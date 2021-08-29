@@ -28,6 +28,9 @@ The switch controls the aft isolation valves and the extraction fan.
 !!! attention ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
+!!! attention ""
+    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+
 ---
 
 [Back to Flight Deck](../index.md){ .md-button }
