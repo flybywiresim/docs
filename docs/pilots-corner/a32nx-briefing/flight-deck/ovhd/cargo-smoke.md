@@ -11,6 +11,10 @@
 !!! note "Incorrect Label"
     The right side and button label is incorrect. It should say AFT.
 
+## Description
+
+The forward and aft cargo compartments are equipped with smoke detection systems which alert the crew and close isolation valves to the cargo compartment.
+
 ## Usage
 
 ### SMOKE light
@@ -22,6 +26,9 @@ Both channels need to detect smoke, or one channel detects smoke and the SDCU fi
 ### DISCH
 
 Ignites the squib to discharge the extinguishing agent in the corresponding compartment (FWD or AFT).
+
+!!! attention ""
+    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### DISCH light
 

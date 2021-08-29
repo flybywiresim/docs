@@ -14,7 +14,7 @@
 - The cabin interphone system is used for communication between the cockpit, flight attendant stations, and other external locations on the aircraft.
 - The flight interphone system is used for communication between the cockpit and the external service interphone panel, located at the nose gear.
 
-## Function
+## Usage
 
 - MECH - The cockpit call light will illuminate on the external service interphone panel, and an external horn will sound. When the button is released, the horn is silenced. The cockpit call light will remain illuminated until the reset switch, located on the external service interphone panel, is pushed.
 
@@ -31,7 +31,7 @@
     - An "EMERGENCY CALL" message appears on all flight attendant indication panels.
     - A high/low chime sounds through all loudspeakers.
 
-- These calls will be reset when the flight attendant/ground crew press the reset switch. The emergency call is reset by turning it from ON to OFF
+- These calls will be reset when the flight attendant/ground crew press the reset switch. The emergency call is reset by turning it from ON to OFF.
 
 ---
 

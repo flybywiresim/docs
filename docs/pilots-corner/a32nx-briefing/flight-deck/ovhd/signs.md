@@ -18,7 +18,7 @@
     - Turn off Overhead Emergency Lights, EXIT signs and proximity marking (floor light band) system.
 - ARM:
     - Emergency lighting and proximity marking turn on, when normal aircraft electrical power system fails or DC SHED ESS BUS fails or AC BUS 1 fails.
-    - Exit signs turn on, , when normal aircraft electrical power system fails or DC SHED ESS BUS fails
+    - Exit signs turn on when normal aircraft electrical power system fails or DC SHED ESS BUS fails.
 
 ### EMER EXIT LT
 
@@ -32,7 +32,8 @@
 - OFF:
     - Turn signs off and chime sounds.
 
-Note: Chime is barely audible in the cockpit with the cockpit door closed.
+!!! note ""
+    Chime is barely audible in the cockpit with the cockpit door closed.
 
 ### NO SMOKING
 
@@ -42,7 +43,8 @@ Note: Chime is barely audible in the cockpit with the cockpit door closed.
     - NO SMOKING and EXIT signs come on when landing gear is extended and go off when landing gear is retracted. Low tone chime sounds when the lights go on or off.
 - OFF:
 
-Note: Chime is barely audible in the cockpit with the cockpit door closed.
+!!! note ""
+    Chime is barely audible in the cockpit with the cockpit door closed.
 
 ---
 

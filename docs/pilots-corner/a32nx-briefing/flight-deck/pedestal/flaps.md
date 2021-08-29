@@ -43,7 +43,7 @@ CONFIG O to CONFIG 1 in flight:
 - CONFIG 1 ( 18°/0°) is selected.
 
 !!! info ""
-    Note : After flap retraction, CONFIG 1 + F is no longer available until the airspeed is 100 knots or less, unless CONFIG 2, 3, or FULL has been selected previously.
+    Note: After flap retraction, CONFIG 1 + F is no longer available until the airspeed is 100 knots or less, unless CONFIG 2, 3, or FULL has been selected previously.
 
 ---
 

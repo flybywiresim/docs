@@ -8,13 +8,12 @@
 
 ![Rudder Trim Panel](../../../assets/a32nx-briefing/pedestal/Rudder-trim-Panel.jpg "Rudder Trim Panel")
 
-
-## Controls
+## Usage
 
 ###  RUD TRIM Rotary Switch
 
 - Pilots can in manual flight use the RUD TRIM to apply rudder.
-- Note: When the autopilot is engaged the rudder trim rotary switch has no effect
+- Note: When the autopilot is engaged the rudder trim rotary switch has no effect.
 
 ### RESET Pushbutton
 
@@ -24,7 +23,6 @@
 ### Position Indicator
 
 - Displays the current rudder trim direction (L or R) and value (0 to 20°).
-
 
 ---
 

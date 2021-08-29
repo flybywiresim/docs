@@ -10,8 +10,8 @@
 
 ## Description
 
-!!! note ""
-    3rd Audio Control Panel is currently not available / inop in the FBW A32NX for Microsoft Flight Simulator.
+!!! attention ""
+    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ## Usage
 
@@ -19,7 +19,7 @@
 
 ![RMP Transmission Keys](../../../assets/a32nx-briefing/pedestal/RMP-transmission-keys.png)
 
-!!! note ""
+!!! attention ""
     Currently only the VHF1-3 channels are available in the FBW A32NX for Microsoft Flight Simulator.
 
 - Pressed:
@@ -39,7 +39,7 @@
 
 ![Reception Knobs](../../../assets/a32nx-briefing/pedestal/RMP-receiption-knobs-2.png "Reception Knobs")
 
-!!! note ""
+!!! attention ""
     Currently only the VHF2-3 channels are available for selection in the FBW A32NX for Microsoft Flight Simulator. VHF1 is always selected although not lit.
 
 These knobs are used to allow the flight crew to activate a channel for reception and to adjust volume.
@@ -51,36 +51,36 @@ These knobs are used to allow the flight crew to activate a channel for receptio
 
 Extinguishes CALL, MECH, and ATT lights.
 
-!!! note ""
-    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
+!!! attention ""
+    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### VOICE
 
 Inhibit the audio navigation signals (VOR, ADF) and filters out ident signals and turns on the green ON light.
 
-!!! note ""
-    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
+!!! attention ""
+    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### INT/RAD
 
 Press-to-talk switch for boom mike or oxygen mask mike.
 
-!!! note ""
-    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
+!!! attention ""
+    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### PA (Passenger Address)
 
 Passenger Address is used by the flight personnel to make passenger announcements through loudspeakers in the cabin.
 
-!!! note ""
-    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
+!!! attention ""
+    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 #### PA transmission key
 
-Pressed and held: To make an announcement a boom, mask or hand mike is used
+Pressed and held: To make an announcement a boom, mask or hand mike is used.
 
-!!! note ""
-    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
+!!! attention ""
+    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 #### PA reception knob
 
@@ -89,8 +89,8 @@ Pressed and held: To make an announcement a boom, mask or hand mike is used
 - Pressed (knob in):
     - The PA system is disconnected. The white light goes out.
 
-!!! note ""
-    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
+!!! attention ""
+    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 
 ---

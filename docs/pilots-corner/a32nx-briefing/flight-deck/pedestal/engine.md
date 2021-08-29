@@ -25,15 +25,15 @@ It contains Master Switches for each engine and also an Ignition Mode Switch for
 - CRANK:
     - The start valve opens, if the MAN START pushbutton switch is ON. Ignition does not fire.
 
-    !!! note ""
-        Currently not available in the FBW A32NX for Microsoft Flight Simulator.
+    !!! attention ""
+        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### ENG MASTER 1 + 2
 
 - ON:
     - Depending on the [ENG MAN START](../ovhd/eng-man.md) this tells the FADEC to start the automatic or manual start sequences.
 
-    !!! note ""
+    !!! attention ""
         Manual start is currently not available in the FBW A32NX for for Microsoft Flight Simulator.
 - OFF:
     - Shuts down the engine or aborts the start sequence of this engine.
@@ -42,9 +42,6 @@ It contains Master Switches for each engine and also an Ignition Mode Switch for
 
 - The fire light comes on when a fire is detected in the engine.
 - The fault light comes on when either the HP fuel shutoff valve is in an abnormal position or the automatic start sequence is aborted or there is a malfunction in the thrust control.
-
-!!! note ""
-    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
 
 ---
 

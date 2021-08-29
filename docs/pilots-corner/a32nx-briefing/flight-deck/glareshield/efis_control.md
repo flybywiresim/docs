@@ -33,11 +33,11 @@ This panel controls:
     - When in STD position pushing the knob makes the last selected QFE or QNH setting available.
     - When pushing the knob after switching from STD position, it will change between ONH to OFE based on current selection. The display window will note QFE or QNH.
 
-- Note: The QFE selection is a program installed on both the FMGC and GPWS computers. It allows for each computer to use the selected program independently from the barometer reference selected through the EFIS control panel.
+- Note: The QFE selection is a program installed on both the FMGC and GPWS computers. It allows for each computer to use the selected program independently of the barometer reference selected through the EFIS control panel.
 
 ###  FD Pushbutton
 
-- Pushing the FD Pb either enables or removes the flight director bars from the respective PFD. If in TRK FPA it will enables or remove the flight path directory symbol.
+- Pushing the FD Pb either enables or removes the flight director bars from the respective PFD. If in TRK FPA it will enable or remove the flight path directory symbol.
 - When `ON` the Pb light is green and when `OFF` there is no illumination.
 
 ###  LS Pushbutton

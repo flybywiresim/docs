@@ -22,7 +22,8 @@ These knobs control the brightness of the ECAM displays and also allow to turn t
 
 Displays the respective page on the SD.
 
-[Detailed ECAM Pages Documentation](../../ecam){ .md-button }
+!!! info "Future Update"
+    A more in depth description of the ECAM Pages is currently developed and will be available in the near future.
 
 ### CLR and RCL
 
@@ -44,12 +45,9 @@ Silences warnings and cancels cautions for the rest of the flight but continues 
 
 The RCL button can be pressed for 3 seconds to recall the caution messages.
 
-!!! note ""
-    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
-
 ### T.O. CONFIG pb
 
-To test the take off configuration this button simulates the use of takeoff power. It triggers a warning, if the aircraft is not in takeoff configuration.
+To test the takeoff configuration this button simulates the use of takeoff power. It triggers a warning, if the aircraft is not in takeoff configuration.
 
 The E/WD displays the "TO CONFIG NORMAL" message when the configuration is correct.
 

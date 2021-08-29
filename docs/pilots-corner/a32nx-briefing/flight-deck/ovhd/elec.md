@@ -23,7 +23,7 @@ When the overhead electrical panel has all switches on AUTO (no lights visible) 
 
 ### BAT 1 + 2
 
-The BAT 1+2 Indicators display the current voltage of the respective battery. Normal values are 25 to 31 Volts and these are displayed in green. Outside of these "normal" values the values will be displayed in amber.
+The BAT 1+2 Indicators display the current voltage of the respective battery. Normal values are 25 to 31 Volts and these are displayed in green. Outside these "normal" values the values will be displayed in amber.
 
 The BAT 1+2 pushbutton switches control the operation of the respective battery charge limiter.
 
@@ -105,13 +105,13 @@ It may be supplied by AC BUS 2 through the AC ESS FEED pushbutton switch.
 
 ### IDG 1 + 2 (guarded)
 
-The IDG switches are normally spring loaded out. Pressing these switches disconnects the IDGs from their driveshafts.
+The IDG switches are normally spring-loaded out. Pressing these switches disconnects the IDGs from their driveshafts.
 
 Only maintenance personnel can reconnect it.
 
 - FAULT:
-    - Amber light and ECAM caution, if :
-        - IDG oil outlet overheats (above 185°C)
+    - Amber light and ECAM caution, if:
+        - IDG oil outlet overheats (above 185°C).
         - IDG oil pressure is low (inhibited at low engine speed: N2 below 14 %). It extinguishes when the IDG is disconnected.
 
 ### GALY & CAB
@@ -126,7 +126,7 @@ Only maintenance personnel can reconnect it.
 ### COMMERCIAL
 
 - ON:
-    - All aircraft commercial electrical loads are supplied :
+    - All aircraft commercial electrical loads are supplied:
         - cabin and cargo lights
         - water and toilet system
         - drain mast ice protection

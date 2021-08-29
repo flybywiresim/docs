@@ -10,78 +10,91 @@
 
 ## Description
 
+The Airbus A320neo has three landing gears. Two main gears retracting inward and one nose gear retracting forward.
+
+Two Landing Gear Control and Interface Units (LGCIUs) manage the extension and retraction of the gear and the operation of the doors. They also supply information to the ECAM for display, and send signals indicating whether the aircraft is in flight or on the ground to other aircraft systems.
+
+The nose gear is also used for steering on the ground.
+
+The main wheels have carbon multidisc brakes, which can be actuated by either of two independent brake systems.
+The normal system uses green hydraulic pressure, whereas the alternate system uses the yellow hydraulic system backed up by the hydraulic accumulator.
+
+An anti-skid and autobrake system is also provided.
+
 ## Usage
 
 ### Landing Gear Indicator Panel
 
-This panel is connected to LGCIU1, which receives signals from proximity detectors.
-
-- UNLK : come on red if the gear is not locked in the selected position.
-- Green Triangle: come on green if the gear is locked down.
-
-Note: The lights on the LDG GEAR indicator panel come on as Jong as the LGC/U1 is electrically supplied.
+- UNLK:
+    - Illuminate red if the gear is not locked in the selected position.
+- Green Triangle:
+    - Illuminate green if the gear is locked down.
 
 ### L/G LEVER
 
 - UP:
-    - This position selects landing gear retraction. While the landing gear doors are opening, the normal brake system brakes the wheels of the main gear automatically. A brake band in the nose gear well brakes the nose gear wheels as the doors close.
+    - Selects landing gear retraction.
+    - The brake system brakes the wheels of the main gear and a brake band in the nose gear well brakes the nose gear wheels.
 - DOWN:
-    - This position selects landing gear extension. An interlock mechanism prevents anyone from accidentally retracting the gear while the aircraft is on the ground. It does so by locking the lever in DOWN position when the shock absorber on either main gear is compressed (aircraft on ground) or the nose wheel steering is not centered. The landing gear hydraulic system remains pressurized as long as the landing gear is extended (if green hydraulic pressure is available).
+    - Selects landing gear extension.
+    - The gear cannot be retracted while the aircraft is on the ground.
 
 ### RED ARROW
 
-This red arrow lights up if the landing gear is not locked down when the aircraft is in the landing configuration, and a red warning appears on ECAM.
+Lights up if the landing gear is not locked down when the aircraft is in the landing configuration, and a red warning appears on ECAM.
+
+!!! attention ""
+    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### A/SKID & N/W STRG sw
 
-The anti-skid system produces maximum braking efficiency by maintaining the wheels just short of an impending skid.
+The anti-skid system is the aircraft's equivalent to modern car's ABS system. It produces maximum braking efficiency by maintaining the wheels just short of an impending skid by releasing brake forces when on the verge of locking. ECAM displays the released brakes in this case.
 
-When a wheel is on the verge of locking, the system sends brake release orders to the normal and alternate servo valves - and to the ECAM, which displays the released brakes.
-
-The anti-skid deactivates when ground speed is less than 20 knots.
+The anti-skid is deactivated when ground speed is less than 20 knots.
 
 - ON:
-    - If green hydraulic pressure is available :
-        - Anti-skid is available.
-        - Nose wheel steering is available.
-    - If green hydraulic pressure is lost:
-        - Yellow hydraulic pressure takes over automatically to supply the brakes.
-        - Anti-skid remains available.
-        - Nose wheel steering is lost.
+    - Available green hydraulic system pressure
+        - then Anti-skid and Nose Wheel Steering is available.
+    - Lost green hydraulic pressure is lost
+        - then the Yellow hydraulic system pressure takes over automatically to supply the brakes:
+        - Anti-skid remains available, while Nose wheel steering is lost.
         - The triple indicator shows yellow system brake pressure.
 - OFF:
-    - Yellow hydraulic system supplies pressure to the brakes.
-    - Anti-skid is deactivated. The pilot must refer to the triple indicator to limit brake pressure and avoid locking a wheel.
+    - Yellow hydraulic system supplies brake pressure.
+    - Anti-skid is deactivated and pilot must limit brake pressure to avoid locking a wheel with the help of the triple indicator.
     - Nose wheel steering is lost.
-    - Differential braking remains available through the pedals.
-    - The triple indicator displays yellow system brake pressure.
+    - Differential braking still available through the pedals.
+    - The triple indicator shows yellow system brake pressure.
 
 ### AUTO/BRK panel
 
-The springloaded MAX, MED, and LO pushbutton switches arm the appropriate
-deceleration rate.
+The A320neo has an autobrake system which activates either in case of an aborted takeoff or after landing and maintains a selected deceleration rate. This improves comfort of passengers and reduces load from the flight crew.
 
-- MAX:
-    - MAX mode is normally selected for takeoff. If the pilot aborts the takeoff, maximum pressure goes to the brakes as soon as the system generates the ground spoiler deployment order.
-- MED or LO:
-    - MED or LO mode is normally selected for landing.
-      - LO mode sends progressive pressure to the brakes 4 seconds after the ground spoilers deploy in order to decelerate the aircraft at 1.7 meters/second^2^ (5.6 feet/second^2^ ).
-      - MED mode sends progressive pressure to the brakes 2 seconds after the ground spoilers deploy in order to decelerate the aircraft at 3 meters/second^2^ (9.8 feet/second^2^).
-- Lights :
-    - The blue ON light comes on to indicate positive arming.
-    - The green DEC EL light comes on when the actual deceleration is 80% of the selected rate.
-    - Note: On slippery runway, the predetermined deceleration may not be reached due to antiskid operation. In this case DECEL light will not illuminate. This does not mean that autobrake is not working.
-    - Off:
-        - The indicated brake mode is not active.
+It has 4 settings: OFF, LO, MED and MAX.
+
+- MAX (takeoff):
+    - If the flight crew aborts the takeoff, maximum pressure goes to the brakes when the ground spoilers are being deployed.
+- LO
+  - Usually Selected for landing on a normal-length, dry and uncontaminated runway.
+  - Sends progressive pressure to the brakes 4 seconds after the ground spoilers deploy. Decelerates the aircraft at 1.7 meters/second^2^ (5.6 feet/second^2^ ).
+- MED
+    - Usually Selected for landing on a shorter, wet or contaminated runway.
+    - Sends progressive pressure to the brakes 2 seconds after the ground spoilers deploy in order to decelerate the aircraft at 3 meters/second^2^ (9.8 feet/second^2^).
+- Lights
+    - Blue ON light indicates positive arming.
+    - Green DECEL light indicates deceleration is 80% of the selected rate.
+    - Note: DECEL light will not illuminate if the predetermined deceleration is not reached due to antiskid operation on a contaminated (slippery) runway. This does not mean that autobrake is not working.
+- Off:
+    - Not active.
 
 ### BRK FAN pb sw
 
 - ON:
-    - The brake fans run if the lefthand main landing gear is down and locked.
+    - If the left-hand main landing gear is down and locked the fans run.
 - OFF:
-    - The brake fans stop.
+    - Brake fans are stopped.
 - HOT Lt:
-    - This amber light comes on when the brakes get too hot. (A caution appears on ECAM, also).
+    - When the brakes get too hot, this amber light comes on and ECAM shows a caution.
 
 ---
 
