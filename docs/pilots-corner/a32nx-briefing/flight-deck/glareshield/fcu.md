@@ -79,7 +79,7 @@ The flight crew uses this button to arm, activate, or disconnect the autothrust 
 
 ### Altitude selector knob (inner and outer)
 
-The range of this value is between 100 to 49000 feet.
+The range of this value is between 100 and 49000 feet.
 
 The outer knob switches the increment step-size for the inner know from 100 to 1000 and vice versa.
 
@@ -103,7 +103,7 @@ When pushed an immediate level off is commanded (V/S of 0). The flight mode annu
 
 ### APPR
 
-Approach modes are activated ot deactivated (armed, disarmed, engageds,disengaged):
+Approach modes are activated ot deactivated (armed, disarmed, engaged, disengaged):
 
 - If an ILS approach is selected in the flight plan it activates LOC and G/S modes
 - If a non precision approach is selected in the flight plan, it activates APP NAV-FINAL modes.

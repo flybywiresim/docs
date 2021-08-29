@@ -13,10 +13,10 @@
 
 The four knobs under the glareshield are used to control brightness of lighting for (from left to right):
 
-- sliding table and map holder lighting Captain side
+- sliding table and map holder lighting Captain side.
 - integral lighting on the glareshield.
 - FCU displays.
-- sliding table and map holder lighting First Officer side
+- sliding table and map holder lighting First Officer side.
 
 ---
 
