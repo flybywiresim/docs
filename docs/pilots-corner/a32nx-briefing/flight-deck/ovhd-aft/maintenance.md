@@ -17,7 +17,7 @@ Headphone output to monitor the Cockpit Voice Recorder, e.g., for testing.
 
 ### OXYGEN TMR RESET pushbutton
 
-The maintenance crew uses this pushbutton to reset the control circuit, after the system has operated.
+The maintenance crew uses this pushbutton to reset the control circuit, after the system is already in operation.
 
 - ON: The PASSENGER SYS ON light goes off.
 - FAULT: when the door latch solenoids are energized for more than 30s this light comes on in white.
@@ -35,8 +35,8 @@ The maintenance crew uses this pushbutton to reset the control circuit, after th
 
 ### AVIONICS COMP LT pushbutton switch
 
-- AUTO: avionic compartment lighting is automatically controlled by door opening
-- ON: avionic compartment lighting is on
+- AUTO: avionic compartment lighting is automatically controlled by door opening.
+- ON: avionic compartment lighting is on.
 
 !!! attention ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
@@ -59,7 +59,7 @@ The maintenance crew uses this pushbutton to reset the control circuit, after th
 - TEST PB-SW: When pressed, tests the following APU circuits:
     - Fire warning
     - Auto extinguishing
-    - Shutdown.
+    - Shutdown
 
     During the test sequence, the APU MASTER sw must be ON.
     If all circuits are operating correctly, the OK light comes on.

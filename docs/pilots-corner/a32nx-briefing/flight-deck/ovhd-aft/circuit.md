@@ -14,7 +14,7 @@ The Overhead Aft Panel contains the Emergency Circuit Breaker Panel.
 
 The aircraft has two types of Circuit Breakers (C/Bs):
 
-- Monitored (green) : When out for more than one minute, the C/B TRIPPED warning is triggered on the ECAM.
+- Monitored (green): When out for more than one minute, the C/B TRIPPED warning is triggered on the ECAM.
 - Non-monitored (black).
 
 The C/B TRIPPED warning on the ECAM points to the location of the affected C/B. These panels are monitored: OVHD PNL, L(R) ELEC BAY, REAR PNL J-M or N-R or S-V or W-Z.
