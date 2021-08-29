@@ -21,7 +21,7 @@ The Electronic Centralized Aircraft Monitoring (ECAM) consists of two displays:
 
 <!-- TODO: UPDATE -->
 !!! info "Future Update"
-    A more in depth description of the ECAM is currently developed and will be available in the near future.
+    A more in depth description of the ECAM is currently being developed and will be available in the near future.
 
 ---
 

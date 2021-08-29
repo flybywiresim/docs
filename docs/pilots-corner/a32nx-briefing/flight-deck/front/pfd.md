@@ -27,7 +27,7 @@ The Primary Flight Display (PFD) is the main aviation instrument for the pilots.
 
 <!-- TODO: UPDATE -->
 !!! info "Future Update"
-    A more in depth description of the Primary Flight Display is currently developed and will be available in the near future.
+    A more in depth description of the Primary Flight Display is currently being developed and will be available in the near future.
 
 ---
 
