@@ -151,7 +151,7 @@ Quite often when issues during flight are reported a screenshot of the Cockpit w
 
 #### How to Take a Good Screenshot
 
-Position yourself in the cockpit using arrow keys (default key mapping) to look straight at the front instrument panel as in the example above and then use the Windows Sniping Tool ([Instructions Here](https://support.microsoft.com/en-us/windows/open-snipping-tool-and-take-a-screenshot-a35ac9ff-4a58-24c9-3253-f12bac9f9d44)) to take a screenshot of all screens and the FCU.
+Position yourself in the cockpit using arrow keys (default key mapping) to look straight at the front instrument panel as in the example above and then use the Windows Snipping Tool ([Instructions Here](https://support.microsoft.com/en-us/windows/open-snipping-tool-and-take-a-screenshot-a35ac9ff-4a58-24c9-3253-f12bac9f9d44)) to take a screenshot of all screens and the FCU.
 
 
 
