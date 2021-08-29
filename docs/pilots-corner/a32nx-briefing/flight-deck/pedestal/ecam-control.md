@@ -47,7 +47,7 @@ The RCL button can be pressed for 3 seconds to recall the caution messages.
 
 ### T.O. CONFIG pb
 
-To test the take off configuration this button simulates the use of takeoff power. It triggers a warning, if the aircraft is not in takeoff configuration.
+To test the takeoff configuration this button simulates the use of takeoff power. It triggers a warning, if the aircraft is not in takeoff configuration.
 
 The E/WD displays the "TO CONFIG NORMAL" message when the configuration is correct.
 

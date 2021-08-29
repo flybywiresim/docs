@@ -38,8 +38,7 @@ In normal circumstance this door is always closed and the cockpit crew controls 
 - OPEN light ON:
     - The door locks are open.
 - OPEN light flashes:
-    - Cabin crew has started an emergency access procedure. If there
-    is no reaction from the flight crew, the door will unlock at the end of the adjustable time delay.
+    - Cabin crew has started an emergency access procedure. If there is no reaction from the flight crew, the door will unlock at the end of the adjustable time delay.
 - FAULT:
     - This light comes on when a system failure has been identified.
 

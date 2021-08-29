@@ -12,7 +12,7 @@
 
 ### SPEED BRAKE
 
-- The speed brake surfaces can be controlled with the SPEED BRAKE lever. Pack
+- The speed brake surfaces can be controlled with the SPEED BRAKE lever.
 - To set speedbrake surfaces to a required position, the lever has to be pushed down and set to the required position.
 - A detent is provided at "½" SPEED BRAKE position.
 - The ground spoilers can be armed via the SPEED BRAKE lever. The lever must be pulled up when in the RET position to achieve this.

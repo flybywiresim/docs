@@ -12,7 +12,7 @@
 
 If the normal system fails to extend the gear hydraulically, the flight crew can use a crank to extend it mechanically.
 
-When a crew member turns the crank clockwise 3 turns, it :
+When a crew member turns the crank clockwise 3 turns, it:
 
 - isolates the landing gear hydraulics from the green hydraulic system,
 - unlocks the landing gear doors and the main and nose main gear,

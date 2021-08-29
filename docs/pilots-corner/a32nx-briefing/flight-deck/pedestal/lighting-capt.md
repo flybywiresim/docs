@@ -12,7 +12,7 @@
 
 ### FLOOD LT MAIN PNL knob
 
-- Brightness of the flood lighting for the center instrument panel.
+- Brightness of the floodlighting for the center instrument panel.
 
 ### INTEG LT MAIN PNL and PED knob
 

@@ -11,21 +11,21 @@
 ## Description
 
 Communication in the A320 is done via these subsystems:
-- VHF/HF transceivers
+- VHF/HF transceivers.
 - Radio tuning systems (Radio Management Panels - RMP).
 - Audio integrating system (Audio Management Unit - AMU, Audio Control Panels - ACP).
 
-To tune the transceivers any of of the Radio Management Panels (RMPs) can be used.
+To tune the transceivers any of the Radio Management Panels (RMPs) can be used.
 
 The interface to the RMPs is the Audio Control Panel (ACP) where the pilot select the VHF or HF system to transmit.
 
-Identical RMPs (Radio Management Panels) :
+Identical RMPs (Radio Management Panels):
 
-- Control of all VHF radio communication systems
-- FMGC's backup for controlling radio navigation systems
+- Control of all VHF radio communication systems.
+- FMGC's backup for controlling radio navigation systems.
 - Three RMPs - two on the pedestal and one on the overhead panel.
 - Each VHF transceiver can by tune by any RMP. RMP1 and RMP2 are are tuning the transceivers directly. RMP3 is connecting via RMP1 or 2.
-- Each RMP is updated when a change or selection in the other RMPs
+- Each RMP is updated when a change or selection in the other RMPs.
 - In EMER ELEC CONFIG only RMP1 functions.
 
 ## Usage
@@ -33,7 +33,7 @@ Identical RMPs (Radio Management Panels) :
 ### Frequency displays
 
 - ACTIVE display: The active frequency of the currently selected radio. The currently selected radio is identified by a green light on the selection key.
-- STBY/CRS (standby/course) display: Standby frequency which can be changed by the frequency change knobs and transferred to the active window by pressing the Transfer Key. .
+- STBY/CRS (standby/course) display: Standby frequency which can be changed by the frequency change knobs and transferred to the active window by pressing the Transfer Key.
 
 ###  Transfer key
 

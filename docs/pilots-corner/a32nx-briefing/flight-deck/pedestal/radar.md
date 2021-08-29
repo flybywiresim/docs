@@ -12,7 +12,7 @@
 
 The A320 is fitted with a weather radar system which includes a Predictive Windshear System (PWS) and a weather hazard prediction function.
 
-The weather radar data can by display on the NDs in ARC or ROSE mode.
+The weather radar data can be displayed on the NDs in ARC or ROSE mode.
 
 In Microsoft Flight Simulator the system is limited by what the simulator provides which currently is only precipitation.
 
@@ -46,7 +46,7 @@ In Microsoft Flight Simulator the system is limited by what the simulator provid
     - Map mode: No weather display but ground information: Black for water, green for ground, and amber for cities and mountains.
 
 !!! attention ""
-    Currently only precipitation is available in the FBW A32NX for for Microsoft Flight Simulator.
+    Currently only precipitation is available in the FBW A32NX for Microsoft Flight Simulator.
 
 ###  TILT
 
@@ -58,7 +58,7 @@ This allows tilting the radar antenna when MULTISCAN is MAN. Zero uses the horiz
 ### MULTISCAN
 
 - AUTO:
-    - Controls radar antenna tilt automatically combineing two scans from different angles to optimize weather detection and minimize ground clutter.
+    - Controls radar antenna tilt automatically combining two scans from different angles to optimize weather detection and minimize ground clutter.
 - MAN:
     - Manually adjust radar antenna tilt using the TILT knob.
 

@@ -16,15 +16,27 @@ Only the selected XPDR operates.
 
 The XPDR automatically responds to requests:
 
-- From the ATC, to ensure effective air traffic surveillance
+- From the ATC, to ensure effective air traffic surveillance.
 - From other aircraft that have a TCAS, to ensure that traffic alerts are triggered.
 
 The XPDR is capable of elementary surveillance (ELS) and enhanced surveillance (EHS). It transmits the following data to the ATC center:
 
-‐ The aircraft 24 bit address, the aircraft altitude, the flight number, the RA report
-‐ The indicated airspeed, the Mach number, and the barometric vertical speed that are all supplied by the ADRs
-‐ The magnetic heading, the roll angle, the ground speed, the track angle, the track angle rate, and the inertial vertical speed, that are all supplied by the IRs
-‐ The selected altitude and barometric reference settings supplied by the FCUs.
+- Supplied by the ADRs:
+    - The aircraft 24 bit address
+    - The aircraft altitude
+    - The flight number
+    - The RA report
+    - The indicated airspeed
+    - The Mach number
+    - The barometric vertical speed
+- Supplied by the IRs:
+    - The magnetic heading
+    - The roll angle 
+    - The ground speed
+    - The track angle
+    - The track angle rate
+    - The inertial vertical speed
+- The selected altitude and barometric reference settings supplied by the FCUs.
 
 ## Usage
 
