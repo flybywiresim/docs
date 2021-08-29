@@ -15,7 +15,7 @@
 
 Headphone output to monitor the Cockpit Voice Recorder, e.g., for testing.
 
-### OXYGEN TMR RESET pushbutton
+### OXYGEN TMR RESET
 
 The maintenance crew uses this pushbutton to reset the control circuit, after the system is already in operation.
 
@@ -25,7 +25,7 @@ The maintenance crew uses this pushbutton to reset the control circuit, after th
 !!! attention ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
-### SVCE INT OVRD pushbutton switch
+### SVCE INT OVRD
 
 - Auto: Ground personnel can communicate with the flight crew by means of the service interphone jacks 10s after the aircraft has landed. The landing gear must be compressed.
 - ON: Communication is possible when the landing gear is not compressed. The ON light is white.
@@ -33,7 +33,7 @@ The maintenance crew uses this pushbutton to reset the control circuit, after th
 !!! attention ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
-### AVIONICS COMP LT pushbutton switch
+### AVIONICS COMP LT
 
 - AUTO: avionic compartment lighting is automatically controlled by door opening.
 - ON: avionic compartment lighting is on.
@@ -41,12 +41,12 @@ The maintenance crew uses this pushbutton to reset the control circuit, after th
 !!! attention ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
-### BLUE PUMP OVRD pushbutton switch (guarded).
+### BLUE PUMP OVRD (guarded)
 
 - ON: The blue electric pump is on if the ELEC PUMP pushbutton switch on the HYD panel is at AUTO.
 - OFF: The blue electric pump is off.
 
-### HYD LEAK MEASUREMENT VALVES pushbutton switch (guarded).
+### HYD LEAK MEASUREMENT VALVES (guarded)
 
 - OFF: The corresponding electrohydraulic valve closes and shuts off hydraulic supply to the primary flight controls.
 - ON: The corresponding electrohydraulic valve opens to go back to normal hydraulic supply.
@@ -71,7 +71,7 @@ The maintenance crew uses this pushbutton to reset the control circuit, after th
 !!! attention ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
-### ENG FADEC GND PWR pushbutton switches
+### ENG FADEC GND PWR
 
 - OFF: The electrical network of the aircraft or the FADEC alternator automatically supplies the FADEC.
 - ON: On ground, when pressed the electrical network of the aircraft supplies the FADEC when:
