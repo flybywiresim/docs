@@ -21,7 +21,7 @@ These knobs are used to turn the displays (PFD, ND) on and off, and also adjust 
 - PFD
     - If the PFD is turned off (knob turned all the way counterclockwise) the PFD image is automatically displayed on the NDU, but the pilot may recover the ND by means of the PFD-ND XFR pushbutton.
 
-    !!! note ""
+    !!! attention ""
         Currently PFD/ND XFR is not available in the FBW A32NX for Microsoft Flight Simulator.
 
 - ND
@@ -31,8 +31,8 @@ These knobs are used to turn the displays (PFD, ND) on and off, and also adjust 
 
 Exchanges the PFD and the ND. If the PFDU fails, the PFD automatically transfers to the NDU.
 
-!!! note ""
-    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
+!!! attention ""
+    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 
 ### Loudspeaker Volume Knob
@@ -57,7 +57,7 @@ Adjusts the lights of the side console and of the briefcase on each side of the 
 
 The Ground Proximity Warning System (GPWS) is warning the flight crew of potentially hazardous situations, such as a collision with terrain. It detects these and triggers aural and visual indications.
 
-Five basic GPWS modes active up to radio height of 2 500 ft:
+Five basic GPWS modes active up to radio height of 2.500 ft:
 
 - Excessive rate of descent (Mode 1)
 - Excessive terrain closure rate (Mode 2)
@@ -72,7 +72,7 @@ Five basic GPWS modes active up to radio height of 2 500 ft:
 - G/S Lt:
     - Amber light when Mode 5 is activated. Accompanied by aural “GLIDE SLOPE” warning.
     - Press to clear G/S light and “GLIDE SLOPE” aural warning (soft or loud).
-Test:
+- Test:
     - On ground, press this pushbutton briefly for some of the aural warnings sounds and pushbutton captions, related to the GPWS, come on. Pressed continuously, then all the aural warnings sound.
 
 ---

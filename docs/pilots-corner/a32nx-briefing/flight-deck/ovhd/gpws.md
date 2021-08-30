@@ -23,22 +23,27 @@ There are two systems controlled by this panel.
 
 ## Usage
 
-- Terrain:
-    - Terrain Awareness Display (TAD) and Terrain Clearance Floor (TCF) is inhibited. (This does not affect basic GPWS modes 1 to 5). ECAM caution NAV GPWS TERR DET FAULT is displayed.
-    - Fault Light: The amber FAULT light illuminates along with an ECAM caution if the TAD or TCF mode fails.
+### Terrain:
 
-- SYS:
-    - All basic GPWS alerts are inhibited (Modes 1 through 5).
-    - Fault Light: An amber FAULT light will illuminate, along with an ECAM caution in the event of a GPWS mode 1 to 5 malfunction.
+- Terrain Awareness Display (TAD) and Terrain Clearance Floor (TCF) is inhibited. (This does not affect basic GPWS modes 1 to 5). ECAM caution NAV GPWS TERR DET FAULT is displayed.
+- Fault Light: The amber FAULT light illuminates along with an ECAM caution if the TAD or TCF mode fails.
 
-- G/S MODE:
-    - Glideslope mode (mode 5) is inhibited.
+### SYS:
 
-- FLAP MODE:
-    - Flap mode (mode 4) is inhibited.
+- All basic GPWS alerts are inhibited (Modes 1 through 5).
+- Fault Light: An amber FAULT light will illuminate, along with an ECAM caution in the event of a GPWS mode 1 to 5 malfunction.
 
-- LDG FLAP 3:
-    - Flap mode (mode 4) is inhibited when in FLAPS CONFIG 3, FLAPS...3 displays on the ECAM under LDG MEMO. (Avoids warnings when landing with flaps 3).
+### G/S MODE:
+
+- Glideslope mode (mode 5) is inhibited.
+
+### FLAP MODE:
+
+- Flap mode (mode 4) is inhibited.
+
+### LDG FLAP 3:
+
+- Flap mode (mode 4) is inhibited when in FLAPS CONFIG 3, FLAPS...3 displays on the ECAM under LDG MEMO. (Avoids warnings when landing with flaps 3).
 
 ---
 

@@ -46,16 +46,15 @@ Lights up if the landing gear is not locked down when the aircraft is in the lan
 !!! attention ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
-### A/SKID & N/W STRG sw
+### A/SKID & N/W STRG
 
 The anti-skid system is the aircraft's equivalent to modern car's ABS system. It produces maximum braking efficiency by maintaining the wheels just short of an impending skid by releasing brake forces when on the verge of locking. ECAM displays the released brakes in this case.
 
 The anti-skid is deactivated when ground speed is less than 20 knots.
 
 - ON:
-    - Available green hydraulic system pressure
-        - then Anti-skid and Nose Wheel Steering is available.
-    - Lost green hydraulic pressure is lost
+    - Available green hydraulic system pressure, then Anti-skid and Nose Wheel Steering is available.
+    - Lost green hydraulic pressure:
         - then the Yellow hydraulic system pressure takes over automatically to supply the brakes:
         - Anti-skid remains available, while Nose wheel steering is lost.
         - The triple indicator shows yellow system brake pressure.
@@ -66,7 +65,7 @@ The anti-skid is deactivated when ground speed is less than 20 knots.
     - Differential braking still available through the pedals.
     - The triple indicator shows yellow system brake pressure.
 
-### AUTO/BRK panel
+### AUTO/BRK
 
 The A320neo has an autobrake system which activates either in case of an aborted takeoff or after landing and maintains a selected deceleration rate. This improves comfort of passengers and reduces load from the flight crew.
 
@@ -75,10 +74,10 @@ It has 4 settings: OFF, LO, MED and MAX.
 - MAX (takeoff):
     - If the flight crew aborts the takeoff, maximum pressure goes to the brakes when the ground spoilers are being deployed.
 - LO
-  - Usually Selected for landing on a normal-length, dry and uncontaminated runway.
-  - Sends progressive pressure to the brakes 4 seconds after the ground spoilers deploy. Decelerates the aircraft at 1.7 meters/second^2^ (5.6 feet/second^2^ ).
+    - Usually selected for landing on a normal-length, dry and uncontaminated runway.
+    - Sends progressive pressure to the brakes 4 seconds after the ground spoilers deploy. Decelerates the aircraft at 1.7 meters/second^2^ (5.6 feet/second^2^ ).
 - MED
-    - Usually Selected for landing on a shorter, wet or contaminated runway.
+    - Usually selected for landing on a shorter, wet or contaminated runway.
     - Sends progressive pressure to the brakes 2 seconds after the ground spoilers deploy in order to decelerate the aircraft at 3 meters/second^2^ (9.8 feet/second^2^).
 - Lights
     - Blue ON light indicates positive arming.
@@ -87,7 +86,7 @@ It has 4 settings: OFF, LO, MED and MAX.
 - Off:
     - Not active.
 
-### BRK FAN pb sw
+### BRK FAN
 
 - ON:
     - If the left-hand main landing gear is down and locked the fans run.

@@ -50,9 +50,6 @@ On the FIRE panel the ENG FIRE pushbutton lights up red, and the SQUIB lights co
 
 On the ENG panel (pedestal) on the pedestal the FIRE lights come on red.
 
-!!! note ""
-    Pedestal FIRE lights are currently not available in the FBW A32NX for Microsoft Flight Simulator.
-
 ### APU FIRE
 
 This button's default position is pushed in and guarded.

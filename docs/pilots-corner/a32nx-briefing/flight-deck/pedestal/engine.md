@@ -23,7 +23,7 @@ It contains Master Switches for each engine and also an Ignition Mode Switch for
     - Starts the automatic or manual start sequences when on ground.
     - When in flight it initiates continues ignition as required.
 - CRANK:
-    - The start valve opens, if the MAN START pushbutton switch is ON. Ignition does not fire.
+    - The start valve opens, if the [ENG MAN START](../ovhd/eng-man.md) pushbutton switch is ON. Ignition does not fire.
 
     !!! attention ""
         Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.

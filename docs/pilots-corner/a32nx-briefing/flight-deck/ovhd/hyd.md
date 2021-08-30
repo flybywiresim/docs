@@ -40,16 +40,16 @@ On ground:
 - OFF:
     - The pump is deactivated (de-pressurized). No generation of hydraulic power.
 - FAULT:
-    - This amber light comes on, and the ECAM caution appears if the reservoir level is low, overheats or air pressure is low. It also lights when the pump pressure is low (inhibited on the ground, when the engine is stopped). It goes out, when the crew selects OFF, except during an overheat where it stays on as long as the overheat lasts.
+    - Amber light and ECAM caution appears if the reservoir level is low, overheats or air pressure is low. It also lights when the pump pressure is low (inhibited on the ground, when the engine is stopped). It goes out, when the crew selects OFF, except during an overheat where it stays on as long as the overheat lasts.
 
 ### BLUE ELEC PUMP
 
 - AUTO:
     - If AC power is available, the electric pump operates when in flight or when on the ground, if one engine is running or if the crew has pressed the BLUE PUMP OVRD pushbutton on the maintenance panel.
--OFF:
+- OFF:
     - The pump is not powered.
--FAULT:
-    - This amber light comes on, and the ECAM caution appears, if the reservoir level is low, overheats or air pressure is low. It also lights when the pump pressure is low (inhibited on the ground, when the engine is stopped) or the pump overheats. It goes out, when the crew selects OFF, except during an overheat where it stays on as long as the overheat lasts.
+- FAULT:
+    - Amber light and ECAM caution appears, if the reservoir level is low, overheats or air pressure is low. It also lights when the pump pressure is low (inhibited on the ground, when the engine is stopped) or the pump overheats. It goes out, when the crew selects OFF, except during an overheat where it stays on as long as the overheat lasts.
 
 ### YELLOW ELEC PUMP
 
@@ -58,7 +58,7 @@ On ground:
 - OFF:
     - The pump is off. When lever of the cargo door manual selector valve is set to OPEN or CLOSE it the pump automatically comes on. This inhibits the operation of other yellow system functions (except alternate braking and engine 2 reverse).
 - FAULT:
-    - This amber light comes on, and the ECAM caution appears, if the reservoir level is low, overheats or air pressure is low. It also lights when the pump pressure is low (inhibited on the ground, when the engine is stopped) or the pump overheats. It goes out, when the crew selects OFF, except during an overheat where it stays on as long as the overheat lasts.
+    - Amber light and ECAM caution appears, if the reservoir level is low, overheats or air pressure is low. It also lights when the pump pressure is low (inhibited on the ground, when the engine is stopped) or the pump overheats. It goes out, when the crew selects OFF, except during an overheat where it stays on as long as the overheat lasts.
 
 ### PTU
 
@@ -67,14 +67,15 @@ On ground:
 
     !!! info ""
         Note : The PTU is inhibited during the first engine start and automatically tested during the second engine start.
+
 - OFF:
     - Both PTU valve close stopping power transfer.
 - FAULT:
-    -  This amber light comes on, and the ECAM caution appears, if the green or the yellow reservoir overheat, have low air pressure or have a low fluid level. It goes out, when the crew selects OFF, except during an overheat where it stays on as long as the overheat lasts.
+    -  Aamber light and ECAM caution appears, if the green or the yellow reservoir overheat, have low air pressure or have a low fluid level. It goes out, when the crew selects OFF, except during an overheat where it stays on as long as the overheat lasts.
 
 ### RAT MAN ON
 
-Manually extends the RAT at any time. The RAT is extended automatically if AC BUS 1 and AC BUS 2 are lost.
+- Manually extends the RAT at any time. The RAT is extended automatically if AC BUS 1 and AC BUS 2 are lost.
 
 ---
 

@@ -14,16 +14,17 @@ The A320 is fitted with a weather radar system which includes a Predictive Winds
 
 The weather radar data can be displayed on the NDs in ARC or ROSE mode.
 
-In Microsoft Flight Simulator the system is limited by what the simulator provides which currently is only precipitation.
+!!! attention ""
+    In Microsoft Flight Simulator the system is limited by what the simulator provides which currently is only precipitation.
 
-## Controls
+## Usage
 
 ### Radar
 
 - ON:
-    - set the switch to position 1
+    - Set the switch to position 1 or 2 to turn on system 1 or 2.
 - OFF:
-    - set the switch to position OFF (middle)
+    - Set the switch to position OFF (middle) to turn off the system.
 
 ### GAIN
 

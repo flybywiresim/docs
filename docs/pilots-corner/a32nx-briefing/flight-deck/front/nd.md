@@ -39,10 +39,12 @@ These pushbuttons are located on either side of the ECAM. Each pushbutton contro
 - ON:
     - The terrain is displayed on the ND if the:
         - TERR pb-sw is selected ON, and
-        ‐ TERR FAULT light is not on.
-        ‐ TERR STBY ECAM memo is not displayed.
-        ‐ The FMGS navigation accuracy is high.
-      The ON light comes on.
+        - TERR FAULT light is not on.
+        - TERR STBY ECAM memo is not displayed.
+        - The FMGS navigation accuracy is high.
+
+    The ON light comes on.
+
 - OFF:
     - The terrain data is not displayed on the ND.
     - Note:

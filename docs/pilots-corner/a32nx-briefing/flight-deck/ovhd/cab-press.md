@@ -67,7 +67,7 @@ This switch controls the outflow valve position, when the MODE SEL pushbutton is
 - Normal:
     - The system functions normally.
 - ON:
-    - The operating system closes all valves to the "outside" (outflow valve, emergency ram air inlet, avionics ventilation inlet and extract valves, and pack flow control valves).
+    - The system closes all valves to the "outside" (outflow valve, emergency ram air inlet, avionics ventilation inlet and extract valves, and pack flow control valves).
 
 ---
 

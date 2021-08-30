@@ -24,7 +24,7 @@ If the thrust lever is between two detents, the FADEC will select the rating lim
 
 ### Manual Thrust Control
 
-When the auto-thrust (A/THR) mode is not armed or not active (levers in wring position) the engines are in manual mode.
+When the auto-thrust (A/THR) mode is not armed or not active (levers in wrong position) the engines are in manual mode.
 
 The thrust lever position controls thrust for the corresponding engine in this case.
 
@@ -35,6 +35,7 @@ FLX/MCT detent:
 - On the ground the engine will produce the Maximum Continuous Thrust (MCT) if the crew did not set a valid FLEX take off temperature. It needs to be higher to the the current Total Air Temperature (TAT) to have any effect.
 
 - After takeoff with FLEX thrust the pilot can, by moving the thrust lever to TOGA or CL, chose MCT thrust. It is not possible to go back to FLEX thrust.
+
     !!! info ""
         Note: Setting the thrust lever out of FLX/MCT detent without reaching TOGA or CL detent has no effect.
 
@@ -42,7 +43,7 @@ MAX TO thrust can always be achieved by pushing the thrust lever all the way for
 
 ### Automatic Thrust Control
 
-In autothrust mode (A/THR function active), the FMGC computes the thrust. Thrust is limited the thrust lever position (except when in alpha-floor mode).
+In autothrust mode (A/THR function active), the FMGC computes the thrust. Thrust is limited by the thrust lever position (except when in alpha-floor mode).
 
 ### PITCH TRIM wheel
 

@@ -57,7 +57,7 @@ Both engines can be fed from one side or both sides can feed only one engine.
 - ON:
     - Pump runs if MAN mode is selected on MODE SEL pushbutton switch. Pump is automatically controlled when AUTO mode is selected.
 - OFF:
-    - Pump is OFF and OFF button lights up white.
+    - Pump is off and OFF button lights up white.
 - FAULT:
     - Amber light and ECAM caution appear, when delivery pressure drops while pump operates.
 

@@ -23,11 +23,11 @@ The ISIS system displays the following information:
 
 ## Usage
 
-### ”+”/ “-” activation pushbuttons
+### ”+” / “-”
 
 - Used to adjust the level of brightness.
 
-### LS selection pushbutton
+### LS
 
 - Pressing the LS pb will display the LS scales. Pressing the LS pb again will remove the LS scales.
 
@@ -37,7 +37,8 @@ The ISIS system displays the following information:
 
 SPD BUG and ALT BUG columns:
 
-- The SPD BUG column gives four speed values (in knots) that can be selected by the crew. The ALT BUG column gives two altitude values (feet) to be selected by the crew.
+- The SPD BUG column gives four speed values (in knots) that can be selected by the crew.
+- The ALT BUG column gives two altitude values (feet) to be selected by the crew.
 
 ### BUGS value selection knob
 
@@ -46,7 +47,7 @@ SPD BUG and ALT BUG columns:
 - The “OFF” label comes on close to the activated box.
 - The entered values are memorized by the system, when exiting the screen, by pressing the BUGS pushbutton (1), or after 15s without any pilot action.
 
-### “+”/”-” box activation buttons
+### “+” / ”-” box activation buttons
 
 - Access from one box to another is obtained by pressing the “+” or “–” pushbutton.
 - When a bug value is entered, access to the next box is obtained by pressing the “–” pushbutton. The box becomes active and flashes.

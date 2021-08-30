@@ -23,7 +23,7 @@ Integral lighting for the standby compass and the visual indicator.
 
 ### DOME
 
-Switch for dome lights, OFF, DIM (dimmed) and BRT (bright)
+Switch for dome lights. Settings are OFF, DIM (dimmed) and BRT (bright)
 
 ### ANN LT
 

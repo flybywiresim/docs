@@ -10,7 +10,7 @@
 
 ## Description
 
-The Flight Control Unit (FCU) provides short-term interface between the Flight Management and Guidance Computer (FMGC) and crew for:
+The Flight Control Unit (FCU) provides short-term interface between the Flight Management and Guidance Computer (FMGC) and the flight crew for:
 
 -	Engagement of A/P, FD, A/THR
 -	Selection of required guidance modes
@@ -18,24 +18,24 @@ The Flight Control Unit (FCU) provides short-term interface between the Flight M
 
 ## FCU Philosophy
 
-In the Airbus A320 the Autopilot has two types on how to guide and control the aircraft. One is called "managed" and is done by the Flight Management Guidance System (FMGS). The other is usually called "selected" as it used the selected values of the flight crew to control the aircraft.
+In the Airbus A320 the Autopilot has two types on how to guide and control the aircraft. One is called "managed" and is done by the Flight Management Guidance System (FMGS). The other is usually called "selected" as it uses the selected values of the flight crew to control the aircraft.
 
-When the aircraft is in managed mode is displays 3 dashes and a dot to the right in the corresponding display.
+When the aircraft is in managed mode it shows 3 dashes and a dot to the right in the corresponding display.
 
 When the aircraft uses selected values from the flight crew, the display shows the selected value and no dot.
 
 The altitude window always displays an altitude selected by the pilot
-and never dashes. The dot signifies managed altitude within the flight crew's parameters.
+and never dashes. The dot signifies managed altitude.
 
-The four knobs used in the FCU, SPD-MACH, HDG-TRK, ALT, V/S-FPA basically have all the same philosophy:
+The four knobs used in the FCU, SPD-MACH, HDG-TRK, ALT, V/S-FPA basically  all have the same philosophy:
 
-Push:
+- Push:
     - Let the FMGS manage the corresponding mode.
 
-Pull:
+- Pull:
     - Use the flight crew selected value for the corresponding mode.
 
-Turn:
+- Turn:
     - Change the value for the selected mode.
 
 Note: In managed mode (lateral, vertical guidance or managed speed), the corresponding display is dashed. By changing the value without pulling the knob, the flight crew can pre-select a value before activating the selected mode. The display remains 45 seconds on the HDG/TRK and V/S windows and 10 seconds on the Speed/Mach window before the dashes reappear. This does not apply to the ALT selector knob/window.

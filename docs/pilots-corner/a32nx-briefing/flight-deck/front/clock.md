@@ -52,10 +52,10 @@ Note: When alternating between "RUN" and "STP" a cumulative elapsed time can be 
 
 ### DATE/SET button
 
-First push:
+- First push:
     - Date mode. The UTC time display is replaced by the date (day month year).
 
-Second push:
+- Second push:
     - Time mode. The date display disappears.
 
 Note: In order to select the date mode, the UTC selector must be set on "GPS" or "INT" position.

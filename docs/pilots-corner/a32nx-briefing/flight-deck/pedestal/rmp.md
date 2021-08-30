@@ -11,6 +11,7 @@
 ## Description
 
 Communication in the A320 is done via these subsystems:
+
 - VHF/HF transceivers.
 - Radio tuning systems (Radio Management Panels - RMP).
 - Audio integrating system (Audio Management Unit - AMU, Audio Control Panels - ACP).
@@ -24,8 +25,8 @@ Identical RMPs (Radio Management Panels):
 - Control of all VHF radio communication systems.
 - FMGC's backup for controlling radio navigation systems.
 - Three RMPs - two on the pedestal and one on the overhead panel.
-- Each VHF transceiver can by tune by any RMP. RMP1 and RMP2 are are tuning the transceivers directly. RMP3 is connecting via RMP1 or 2.
-- Each RMP is updated when a change or selection in the other RMPs.
+- Each VHF transceiver can be tuned by any RMP. RMP1 and RMP2 are tuning the transceivers directly. RMP3 is connecting via RMP1 or 2.
+- Each RMP is updated when a change or selection in the other RMPs is done.
 - In EMER ELEC CONFIG only RMP1 functions.
 
 ## Usage

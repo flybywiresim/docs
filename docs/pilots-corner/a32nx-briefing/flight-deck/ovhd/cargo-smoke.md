@@ -9,7 +9,7 @@
 ![Cargo Smoke Panel](../../../assets/a32nx-briefing/overhead-panel/cargo-smoke.jpg "Cargo Smoke Panel")
 
 !!! note "Incorrect Label"
-    The right side and button label is incorrect. It should say AFT.
+    The right side button label is incorrect. It should say AFT.
 
 ## Description
 
@@ -19,9 +19,7 @@ The forward and aft cargo compartments are equipped with smoke detection systems
 
 ### SMOKE light
 
-When the system detects smoke in the compartment, a red light and an ECAM warning come on.
-
-Both channels need to detect smoke, or one channel detects smoke and the SDCU finds that the other channel is faulty.
+When the system detects smoke in the compartment, a red light and an ECAM warning come on. Both channels need to detect smoke, or one channel detects smoke and the SDCU finds that the other channel is faulty.
 
 ### DISCH
 

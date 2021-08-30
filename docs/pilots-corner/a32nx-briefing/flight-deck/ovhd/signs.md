@@ -13,7 +13,7 @@
 ### EMER EXIT LT
 
 - ON:
-    - Turn on Overhead Emergency Lights, EXIT signs and proximity marking system (floor light band) come on.
+    - Turn on Overhead Emergency Lights, EXIT signs and proximity marking system (floor light band).
 - OFF:
     - Turn off Overhead Emergency Lights, EXIT signs and proximity marking (floor light band) system.
 - ARM:

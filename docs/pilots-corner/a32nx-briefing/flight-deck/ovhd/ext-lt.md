@@ -33,7 +33,7 @@ Turns on and off the three synchronized strobe lights, one on each wing tip and 
 - OFF:
     - Strobe light are off.
 
-Strobes are turned on latest when airborne usually shortly before the take of roll.
+Strobes are turned on at the latest when airborne. Usually shortly before the take of roll.
 
 ![STROBE and NAV](../../../assets/a32nx-briefing/overhead-panel/lights/strobe-right.jpg "STROBE and NAV"){loading=lazy}
 
@@ -43,7 +43,7 @@ Strobes are turned on latest when airborne usually shortly before the take of ro
 
 This switch turns on and off the two flashing red lights, one on top and one on the bottom of the fuselage.
 
-Signals the ground crew that the engines are about to start or running.
+This signals the ground crew that the engines are about to start or still running.
 
 ![Beacon](../../../assets/a32nx-briefing/overhead-panel/lights/beacon.jpg "Beacon"){loading=lazy}
 

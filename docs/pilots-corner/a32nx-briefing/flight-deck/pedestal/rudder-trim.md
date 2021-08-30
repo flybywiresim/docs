@@ -12,12 +12,12 @@
 
 ###  RUD TRIM Rotary Switch
 
-- Pilots can in manual flight use the RUD TRIM to apply rudder.
+- Pilots can (in manual flight) use the RUD TRIM to apply rudder.
 - Note: When the autopilot is engaged the rudder trim rotary switch has no effect.
 
 ### RESET Pushbutton
 
-- Pushing the RESET pushbutton, the rudder is reset to zero trim position(at 1.5° / second).
+- Pushing the RESET pushbutton, the rudder is reset to zero trim position (at 1.5° / second).
 - Note: If Autopilot is engaged the RESET pushbutton is not active.
 
 ### Position Indicator

@@ -16,7 +16,7 @@
 
 - ELAC
     - Normally ELAC 1 commands the operation of the ailerons and ELAC 2 commands the operation of the elevators and horizontal stabilizer. ELAC 1 and 2 perform the following:
-        - Normal pitch and roll, normal LAF.
+        - Normal pitch and roll, normal LAF (Load Alleviation Function).
         - Alternate pitch, alternate LAF.
         - Direct pitch and roll.
         - Aileron droop.
@@ -42,16 +42,20 @@
 
 ## Usage
 
-- ON: When the associated flight control computer switch is ON, it engages the computer and lights are extinguished. This is the normal position.
+- ON:
+    - When the associated flight control computer switch is ON, it engages the computer and lights are extinguished. This is the normal position.
 
-- OFF: When selected to OFF, the OFF light illuminates white and disengages the associated computer.
+- OFF:
+    - When selected to OFF, the OFF light illuminates white and disengages the associated computer.
 
-- RESET: You can reset a computer by turning the computer OFF then ON.
+- RESET:
+    - You can reset a computer by turning the computer OFF then ON.
 
-- FAULT: The associated FAULT Light illuminates amber:
-    - When a failure is detected.
-    - During computer's power-up test (8-second duration). This test occurs for each flight control computer upon electrical power application or after electrical transient/interruption.
-    - The FAULT light extinguishes when OFF is selected or at completion of satisfactory power-up test.
+- FAULT:
+    - The associated FAULT Light illuminates amber:
+        - When a failure is detected.
+        - During computer's power-up test (8-second duration). This test occurs for each flight control computer upon electrical power application or after electrical transient/interruption.
+        - The FAULT light extinguishes when OFF is selected or at completion of satisfactory power-up test.
 
 ---
 
