@@ -30,6 +30,8 @@ What this feature allows:
 
 To begin using your keyboard with the MCDU you must first enable the function within `MCDU Options`. Follow the guide below:
 
+TODO: UPDATE
+
 - Select `MCDU Options`
 - Select `Options`
 - Select `Realism`
