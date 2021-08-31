@@ -78,7 +78,7 @@ Return to the EFB settings page and adjust the `MCDU Focus Timeout` setting.
 
 Sample Image:
 
-![EFB Settings for MCDU Keyboard](../assets/mcdu-kb/efb-settings-simoptions-mcdukb2.jpg "EFB Settings for MCDU Keyboard"){loading=lazy}
+![EFB Settings for MCDU Keyboard](../assets/mcdu-kb/efb-settings-simoptions-mcdukb.jpg "EFB Settings for MCDU Keyboard"){loading=lazy}
 
 ---
 
