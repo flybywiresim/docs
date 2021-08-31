@@ -1,6 +1,8 @@
 ﻿# ECAM Bleed page
 
-![ECAM SD Bleed page](../../../../assets/a32nx-briefing/overhead-panel/bleed.png "ECAM SD Bleed page")
+[Back to ECAM System Display Overview](index.md){ .md-button }
+
+![ECAM SD Bleed page](bleed.png "ECAM SD Bleed page")
 
 | Number | Name                               | Variation        | Meaning                                                                                                                                               |
 |:-------|:-----------------------------------|:-----------------|:------------------------------------------------------------------------------------------------------------------------------------------------------|

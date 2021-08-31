@@ -1,4 +1,5 @@
+collapse_single_pages: true
 title: ECAM
 nav:
   - ECAM E/WD: ecam-e-wd.md
-  - ECAM SD: ecam-sd.md
+  - ECAM SD: sd
