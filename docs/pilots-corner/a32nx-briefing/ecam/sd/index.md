@@ -59,6 +59,8 @@
 !!! note ""
     STS has two links (left/right) to see Status page or Cruise page details.
 
+![ECAM-SD-AllPages.png](ECAM-SD-AllPages.png)
+
 <!--- [ENG](sd/eng/eng.md)-->
 <!--- [BLEED](sd/bleed/bleed.md)-->
 <!--- [PRESS](sd/press/press.md)-->
