@@ -2,7 +2,7 @@
 
 [Back to ECAM System Display Overview](index.md){ .md-button }
 
-![ECAM WHEEL page](wheel.png "ECAM WHEEL page")
+![ECAM WHEEL page](../../../assets/a32nx-briefing/ecam/wheel.png "ECAM WHEEL page")
 
 <!-- TODO -->
 

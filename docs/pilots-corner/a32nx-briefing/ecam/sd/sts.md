@@ -2,7 +2,7 @@
 
 [Back to ECAM System Display Overview](index.md){ .md-button }
 
-![ECAM STS page](sts.png "ECAM STS page")
+![ECAM STS page](../../../assets/a32nx-briefing/ecam/sts.png "ECAM STS page")
 
 <!-- TODO -->
 

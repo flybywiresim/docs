@@ -2,7 +2,7 @@
 
 [Back to ECAM System Display Overview](index.md){ .md-button }
 
-![ECAM PRESS page](press.png "ECAM PRESS page")
+![ECAM PRESS page](../../../assets/a32nx-briefing/ecam/press.png "ECAM PRESS page")
 
 
 | Number | Name                            | Variation                             | Meaning                                                                                                        |

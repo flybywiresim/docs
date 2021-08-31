@@ -2,7 +2,7 @@
 
 [Back to ECAM System Display Overview](index.md){ .md-button }
 
-![ECAM ELEC page](elec.png "ECAM ELEC page")
+![ECAM ELEC page](../../../assets/a32nx-briefing/ecam/elec.png "ECAM ELEC page")
 
 | Number | Name                         | Variation                   | Meaning                                                                                                                   |
 |:-------|:-----------------------------|:----------------------------|:--------------------------------------------------------------------------------------------------------------------------|

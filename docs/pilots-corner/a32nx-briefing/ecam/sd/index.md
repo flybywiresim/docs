@@ -40,26 +40,41 @@
 </style>
 
 <div style="position: relative;">
-    <img src="/pilots-corner/assets/a32nx-briefing/ECAM-Control-Panel.png" style="width: 100%; height: auto;" alt="ECAM Control Panel">
+    <img src="/pilots-corner/assets/a32nx-briefing/ecam/ECAM-Control-Panel.png" style="width: 100%; height: auto;" alt="ECAM Control Panel">
     <a href="/pilots-corner/a32nx-briefing/ecam/sd/eng/">      <div class="imagemap" style="position: absolute; left: 3.5%; top: 6%; width: 11.5%; height: 21%;"> <span class="imagemapname">ENG</span></div></a>
-    <a href="/pilots-corner/a32nx-briefing/ecam/sd/bleed/">  <div class="imagemap" style="position: absolute; left: 20%; top: 6%; width: 11.5%; height: 21%;">  <span class="imagemapname">BLEED</span></div></a>
-    <a href="/pilots-corner/a32nx-briefing/ecam/sd/press/">  <div class="imagemap" style="position: absolute; left: 36.5%; top: 6%; width: 11.5%; height: 21%;"><span class="imagemapname">PRESS</span></div></a>
-    <a href="/pilots-corner/a32nx-briefing/ecam/sd/elec/">    <div class="imagemap" style="position: absolute; left: 52.5%; top: 6%; width: 11.5%; height: 21%;">  <span class="imagemapname">ELEC</span></div></a>
+    <a href="/pilots-corner/a32nx-briefing/ecam/sd/bleed/">    <div class="imagemap" style="position: absolute; left: 20%; top: 6%; width: 11.5%; height: 21%;">  <span class="imagemapname">BLEED</span></div></a>
+    <a href="/pilots-corner/a32nx-briefing/ecam/sd/press/">    <div class="imagemap" style="position: absolute; left: 36.5%; top: 6%; width: 11.5%; height: 21%;"><span class="imagemapname">PRESS</span></div></a>
+    <a href="/pilots-corner/a32nx-briefing/ecam/sd/elec/">     <div class="imagemap" style="position: absolute; left: 52.5%; top: 6%; width: 11.5%; height: 21%;">  <span class="imagemapname">ELEC</span></div></a>
     <a href="/pilots-corner/a32nx-briefing/ecam/sd/hyd/">      <div class="imagemap" style="position: absolute; left: 69%; top: 6%; width: 11.5%; height: 21%;"><span class="imagemapname">HYD</span></div></a>
-    <a href="/pilots-corner/a32nx-briefing/ecam/sd/fuel/">    <div class="imagemap" style="position: absolute; left: 85%; top: 6%; width: 11.5%; height: 21%;">  <span class="imagemapname">FUEL</span></div></a>
+    <a href="/pilots-corner/a32nx-briefing/ecam/sd/fuel/">     <div class="imagemap" style="position: absolute; left: 85%; top: 6%; width: 11.5%; height: 21%;">  <span class="imagemapname">FUEL</span></div></a>
     <a href="/pilots-corner/a32nx-briefing/ecam/sd/apu/">      <div class="imagemap" style="position: absolute; left: 3.5%; top: 35.2%; width: 11.5%; height: 21%;"> <span class="imagemapname">APU</span></div></a>
-    <a href="/pilots-corner/a32nx-briefing/ecam/sd/cond/">    <div class="imagemap" style="position: absolute; left: 20%; top: 35.2%; width: 11.5%; height: 21%;">  <span class="imagemapname">COND</span></div></a>
-    <a href="/pilots-corner/a32nx-briefing/ecam/sd/door/">    <div class="imagemap" style="position: absolute; left: 36.5%; top: 35.2%; width: 11.5%; height: 21%;">  <span class="imagemapname">DOOR</span></div></a>
-    <a href="/pilots-corner/a32nx-briefing/ecam/sd/wheel/">  <div class="imagemap" style="position: absolute; left: 52.5%; top: 35.2%; width: 11.5%; height: 21%;"><span class="imagemapname">WHEEL</span></div></a>
-    <a href="/pilots-corner/a32nx-briefing/ecam/sd/f-ctl/">  <div class="imagemap" style="position: absolute; left: 69%; top: 35.2%; width: 11.5%; height: 21%;">  <span class="imagemapname">F-CTL</span></div></a>
+    <a href="/pilots-corner/a32nx-briefing/ecam/sd/cond/">     <div class="imagemap" style="position: absolute; left: 20%; top: 35.2%; width: 11.5%; height: 21%;">  <span class="imagemapname">COND</span></div></a>
+    <a href="/pilots-corner/a32nx-briefing/ecam/sd/door/">     <div class="imagemap" style="position: absolute; left: 36.5%; top: 35.2%; width: 11.5%; height: 21%;">  <span class="imagemapname">DOOR</span></div></a>
+    <a href="/pilots-corner/a32nx-briefing/ecam/sd/wheel/">    <div class="imagemap" style="position: absolute; left: 52.5%; top: 35.2%; width: 11.5%; height: 21%;"><span class="imagemapname">WHEEL</span></div></a>
+    <a href="/pilots-corner/a32nx-briefing/ecam/sd/f-ctl/">    <div class="imagemap" style="position: absolute; left: 69%; top: 35.2%; width: 11.5%; height: 21%;">  <span class="imagemapname">F-CTL</span></div></a>
     <a href="/pilots-corner/a32nx-briefing/ecam/sd/sts/">      <div class="imagemap" style="position: absolute; left: 36%; top: 68%; width: 5.8%; height: 21%;"><span class="imagemapname">STS</span></div></a>
-    <a href="/pilots-corner/a32nx-briefing/ecam/sd/cruise/"><div class="imagemap" style="position: absolute; left: 41.8%; top: 68%; width: 5.8%; height: 21%;">  <span class="imagemapname">CRUISE</span></div></a>
+    <a href="/pilots-corner/a32nx-briefing/ecam/sd/cruise/">   <div class="imagemap" style="position: absolute; left: 41.8%; top: 68%; width: 5.8%; height: 21%;">  <span class="imagemapname">CRUISE</span></div></a>
 </div>
 
 !!! note ""
     STS has two links (left/right) to see Status page or Cruise page details.
 
-![ECAM-SD-AllPages.png](ECAM-SD-AllPages.png)
+<div style="position: relative;">
+    <img src="/pilots-corner/assets/a32nx-briefing/ecam/ECAM-SD-AllPages.png" style="width: 100%; height: auto;" alt="ECAM Control Panel">
+    <a href="/pilots-corner/a32nx-briefing/ecam/sd/eng/">      <div class="imagemap" style="position: absolute; left: 0%; top: 0%; width: 16.67%; height: 33.3%;"> <span class="imagemapname">ENG</span></div></a>
+    <a href="/pilots-corner/a32nx-briefing/ecam/sd/bleed/">    <div class="imagemap" style="position: absolute; left: 16.67%; top: 0%; width: 16.67%; height: 33.3%;">  <span class="imagemapname">BLEED</span></div></a>
+    <a href="/pilots-corner/a32nx-briefing/ecam/sd/press/">    <div class="imagemap" style="position: absolute; left: 33.4%; top: 0%; width: 16.67%; height: 33.3%;"><span class="imagemapname">PRESS</span></div></a>
+    <a href="/pilots-corner/a32nx-briefing/ecam/sd/elec/">     <div class="imagemap" style="position: absolute; left: 50%; top: 0%; width: 16.67%; height: 33.3%;">  <span class="imagemapname">ELEC</span></div></a>
+    <a href="/pilots-corner/a32nx-briefing/ecam/sd/hyd/">      <div class="imagemap" style="position: absolute; left: 66.67%; top: 0%; width: 16.67%; height: 33.3%;"><span class="imagemapname">HYD</span></div></a>
+    <a href="/pilots-corner/a32nx-briefing/ecam/sd/fuel/">     <div class="imagemap" style="position: absolute; left: 83.3%; top: 0%; width: 16.67%; height: 33.3%;">  <span class="imagemapname">FUEL</span></div></a>
+    <a href="/pilots-corner/a32nx-briefing/ecam/sd/apu/">      <div class="imagemap" style="position: absolute; left: 0%; top: 33.4%;; width: 16.67%; height: 33.3%;"> <span class="imagemapname">APU</span></div></a>
+    <a href="/pilots-corner/a32nx-briefing/ecam/sd/cond/">     <div class="imagemap" style="position: absolute; left: 16.67%; top: 33.4%;; width: 16.67%; height: 33.3%;">  <span class="imagemapname">COND</span></div></a>
+    <a href="/pilots-corner/a32nx-briefing/ecam/sd/door/">     <div class="imagemap" style="position: absolute; left: 33.4%; top: 33.4%;; width: 16.67%; height: 33.3%;">  <span class="imagemapname">DOOR</span></div></a>
+    <a href="/pilots-corner/a32nx-briefing/ecam/sd/wheel/">    <div class="imagemap" style="position: absolute; left: 50%; top: 33.4%;; width: 16.67%; height: 33.3%;"><span class="imagemapname">WHEEL</span></div></a>
+    <a href="/pilots-corner/a32nx-briefing/ecam/sd/f-ctl/">    <div class="imagemap" style="position: absolute; left: 66.67%; top: 33.4%;; width: 16.67%; height: 33.3%;">  <span class="imagemapname">F-CTL</span></div></a>
+    <a href="/pilots-corner/a32nx-briefing/ecam/sd/sts/">      <div class="imagemap" style="position: absolute; left: 33.4%; top: 66.7%; width: 16.67%; height: 33.3%;"><span class="imagemapname">STS</span></div></a>
+    <a href="/pilots-corner/a32nx-briefing/ecam/sd/cruise/">   <div class="imagemap" style="position: absolute; left: 50%; top: 66.7%; width: 16.67%; height: 33.3%;">  <span class="imagemapname">CRUISE</span></div></a>
+</div>
 
 <!--- [ENG](sd/eng/eng.md)-->
 <!--- [BLEED](sd/bleed/bleed.md)-->

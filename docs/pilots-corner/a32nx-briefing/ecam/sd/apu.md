@@ -2,7 +2,7 @@
 
 [Back to ECAM System Display Overview](index.md){ .md-button }
 
-![APU ECAM page](apu.png "APU ECAM page")
+![APU ECAM page](../../../assets/a32nx-briefing/ecam/apu.png "APU ECAM page")
 
 | Number | Name                     | Variation               | Meaning                                                                                               |
 |:-------|:-------------------------|:------------------------|:------------------------------------------------------------------------------------------------------|

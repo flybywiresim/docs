@@ -2,7 +2,7 @@
 
 [Back to ECAM System Display Overview](index.md){ .md-button }
 
-![DOOR ECAM page](door.png "DOOR ECAM page")
+![DOOR ECAM page](../../../assets/a32nx-briefing/ecam/door.png "DOOR ECAM page")
 
 
 | Number | Name                       | Variation          | Meaning                                                                           |

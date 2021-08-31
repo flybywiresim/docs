@@ -2,7 +2,7 @@
 
 [Back to ECAM System Display Overview](index.md){ .md-button }
 
-![FUEL ECAM page](fuel.png "FUEL ECAM page")
+![FUEL ECAM page](../../../assets/a32nx-briefing/ecam/fuel.png "FUEL ECAM page")
 
 
 

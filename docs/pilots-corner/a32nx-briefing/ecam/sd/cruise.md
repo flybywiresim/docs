@@ -2,7 +2,7 @@
 
 [Back to ECAM System Display Overview](index.md){ .md-button }
 
-![ECAM CRUISE page](cruise.png "ECAM CRUISE page")
+![ECAM CRUISE page](../../../assets/a32nx-briefing/ecam/cruise.png "ECAM CRUISE page")
 
 <!-- TODO -->
 

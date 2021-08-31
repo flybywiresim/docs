@@ -2,7 +2,7 @@
 
 [Back to ECAM System Display Overview](index.md){ .md-button }
 
-![ENG ECAM page](eng.png "ENG ECAM page")
+![ENG ECAM page](../../../assets/a32nx-briefing/ecam/eng.png "ENG ECAM page")
 
 | Number | Name                        | Variation      | Meaning                                                                                     |
 |:-------|:----------------------------|:---------------|:--------------------------------------------------------------------------------------------|

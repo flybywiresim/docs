@@ -2,7 +2,7 @@
 
 [Back to ECAM System Display Overview](index.md){ .md-button }
 
-![ECAM COND page](cond.png "ECAM COnd page")
+![ECAM COND page](../../../assets/a32nx-briefing/ecam/cond.png "ECAM COnd page")
 
 | Number | Name                              | Variation       | Meaning                                                                                                   |
 |:-------|:----------------------------------|:----------------|:----------------------------------------------------------------------------------------------------------|

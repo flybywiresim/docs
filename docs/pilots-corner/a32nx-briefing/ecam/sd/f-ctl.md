@@ -2,7 +2,7 @@
 
 [Back to ECAM System Display Overview](index.md){ .md-button }
 
-![ECAM F-CTL page](f-ctl.png "ECAM F-CTL page")
+![ECAM F-CTL page](../../../assets/a32nx-briefing/ecam/f-ctl.png "ECAM F-CTL page")
 
 | Number | Name                              | Variation                   | Meaning                                                                 |
 |:-------|:----------------------------------|:----------------------------|:------------------------------------------------------------------------|

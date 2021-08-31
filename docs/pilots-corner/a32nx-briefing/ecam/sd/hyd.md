@@ -2,7 +2,7 @@
 
 [Back to ECAM System Display Overview](index.md){ .md-button }
 
-![ECAM HYD page](hyd.png "ECAM HYD page")
+![ECAM HYD page](../../../assets/a32nx-briefing/ecam/hyd.png "ECAM HYD page")
 
 | Number | Name                             | Variation                                | Meaning                                                                                     |
 |:-------|:---------------------------------|:-----------------------------------------|:--------------------------------------------------------------------------------------------|
