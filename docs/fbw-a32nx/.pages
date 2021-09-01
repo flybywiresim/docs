@@ -1,0 +1,14 @@
+# Edit this page to get:
+# - Title for the whole directory
+# - Titles for specific pages or subdirectories
+# - Order of pages (otherwise alphabetical order)
+
+title: FlyByWire A32NX
+nav:
+    - Overview: index.md
+    - fbw-versions.md
+    - installation.md
+    - liveries.md
+    - support
+    - Feature Guides: feature-guides
+    - A32NX Variables and Events: a32nx-lvar-events
