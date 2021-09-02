@@ -118,7 +118,7 @@ The MCDU uses small and large fonts according to the following rules:
 
 ## Colors
 
-- <div style="color: white">White</div>
+- White:
     - Titles
     - Comments
     - <, >
@@ -126,38 +126,37 @@ The MCDU uses small and large fonts according to the following rules:
     - Dashes
     - Advisory Messages
 
-- <div style="color: #29D6DD">Blue</div>
+- Blue:
     - Modifiable data
     - Selectable data
     - Brackets
 
-- <div style="color: #37C243">Green</div>
+- Green:
     - Non modifiable data
     - Active data
 
-- <div style="color: #E79A1A">Amber</div>
+- Amber:
     - Mandatory data (boxes)
     - Flight crew action required
     - Important messages
     - Missed constraint
 
-- <div style="color: #CF84D9">Magenta</div>
+- Magenta:
     - Constraints
     - Max altitude
 
-^^Colors used in Flight Plan:^^
+- Colors used in Flight Plan:
+    - Primary Flight Plan: Green waypoints, white legs and
+    - Temporary F-PLN: yellow waypoints, white legs
+    - Secondary F-PLN: white waypoints and legs
+    - Missed Approach (not active): blue waypoints, white legs
+    - Alternate F-PLN (not active): blue waypoints, white legs
+    - Offset: green waypoints, white legs, ofst displayed in the title of the f-pln page
+    - Tuned Navaid: blue
+    - "TO" waypoint and Destination: white
 
-- Primary Flight Plan: Green waypoints, white legs and
-- Temporary F-PLN: yellow waypoints, white legs
-- Secondary F-PLN: white waypoints and legs
-- Missed Approach (not active): blue waypoints, white legs
-- Alternate F-PLN (not active): blue waypoints, white legs
-- Offset: green waypoints, white legs, ofst displayed in the title of the f-pln page
-- Tuned Navaid: blue
-- "TO" waypoint and Destination: white
-
-!!! attention ""
-    Currently only Primary F-PLN is available in the FBW A32NX for Microsoft Flight Simulator.
+    !!! attention ""
+        Currently only Primary F-PLN is available in the FBW A32NX for Microsoft Flight Simulator.
 
 
 
