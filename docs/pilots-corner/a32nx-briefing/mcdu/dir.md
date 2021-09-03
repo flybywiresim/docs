@@ -1,4 +1,4 @@
-# DIR: Direct To Page
+# DIR TO page
 
 ![dir-to-page.jpg](../../assets/a32nx-briefing/mcdu/dir-to-page.jpg)
 
