@@ -1,4 +1,4 @@
-# PROG: Progress Page
+# PROG: Progress page
 
 ![mcdu-030.jpg](../../assets/a32nx-briefing/mcdu/mcdu-030.jpg)
 
