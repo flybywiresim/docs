@@ -16,8 +16,6 @@
 - The cabin interphone system is used for communication between the cockpit, flight attendant stations, and other external locations on the aircraft.
 - The flight interphone system is used for communication between the cockpit and the external service interphone panel, located near the nose gear on the External Power Panel.
 
-## Usage
-
 ### MECH
 
 - The cockpit call light will illuminate on the External Power Panel, and an external horn will sound. When the button is released, the horn is silenced. The cockpit call light will remain illuminated until the reset switch located on the External Power Panel is pushed.
