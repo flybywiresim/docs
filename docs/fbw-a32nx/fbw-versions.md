@@ -52,7 +52,7 @@ will be updated at least once a month.
 
 For all changes refer to the official [CHANGELOG](https://github.com/flybywiresim/a32nx/blob/master/.github/CHANGELOG.md){target=new} or commits on the [:fontawesome-brands-github:{: .github } - **GitHub A32NX Repository Master Branch**](https://github.com/flybywiresim/a32nx/commits/master){target=new}.
 
-| Feature                                                                                                                        |   Stable 0.6.3   | Development<br/>(Sept 9th 2021) |
+| Feature                                                                                                                        |   Stable 0.6.3   | Development<br/>(Sept 5th 2021) |
 |:-------------------------------------------------------------------------------------------------------------------------------|:----------------:|:-------------------------------:|
 | Standalone Aircraft                                                                                                            | :material-check: |        :material-check:         |
 | EFB                                                                                                                            | :material-check: |        :material-check:         |
@@ -127,7 +127,7 @@ For all changes refer to the official [CHANGELOG](https://github.com/flybywiresi
 | EFB: Tabbed Settings Page and Auto-brightness Option ([#5524](https://github.com/flybywiresim/a32nx/pull/5524){target=new})    |                  |        :material-check:         |
 | Completed custom sounds for all sounds                                                                                         |                  |        :material-check:         |
 | Cockpit door lock sounds                                                                                                       |                  |        :material-check:         |
-| Realistic reduction of loudness of chimes in cockpit when door locked                                                          |                  |       :material-check:          |
+| Realistic reduction of loudness of chimes in cockpit when door locked                                                          |                  |        :material-check:         |
 | Notification Popup when changes to settings need reload ([#5261](https://github.com/flybywiresim/a32nx/pull/5261){target=new}) |                  |        :material-check:         |
 | Added language translations ( [#5599](https://github.com/flybywiresim/a32nx/pull/5599){target=new} )                           |                  |        :material-check:         |
 | Improved pitch/C* and ALT* laws ( [#5711](https://github.com/flybywiresim/a32nx/pull/5711){target=new} )                       |                  |        :material-check:         |
