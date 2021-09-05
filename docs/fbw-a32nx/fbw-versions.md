@@ -77,9 +77,6 @@ For all changes refer to the official [CHANGELOG](https://github.com/flybywiresi
 | VOR/ADF Needles on ND                                                                                                          |                  |        :material-check:         |
 | New PFD (in react)                                                                                                             |                  |        :material-check:         |
 | BRG/DIST Feature on ECAM PROG Page                                                                                             |                  |        :material-check:         |
-| Custom Fly-by-wire System                                                                                                      |                  |        :material-check:         |
-| Custom Autopilot (with Autoland feature)                                                                                       |                  |        :material-check:         |
-| Custom Autothrust                                                                                                              |                  |        :material-check:         |
 | EFB Throttle Calibration                                                                                                       |                  |        :material-check:         |
 | Improved AP, ROLL OUT and Ground Spoiler Logic                                                                                 |                  |        :material-check:         |
 | Descent Initiation via FCU V/S Knob                                                                                            |                  |        :material-check:         |
@@ -125,5 +122,9 @@ For all changes refer to the official [CHANGELOG](https://github.com/flybywiresi
 | EFB: Tabbed Settings Page and Auto-brightness Option ([#5524](https://github.com/flybywiresim/a32nx/pull/5524){target=new})    |                  |        :material-check:         |
 | Completed custom sounds for all sounds                                                                                         |                  |        :material-check:         |
 | Cockpit door lock sounds                                                                                                       |                  |        :material-check:         |
-| Realistic reduction of loudness of chimes in cockpit when door locked                                                          |                  |        :material-check:         |
+| Realistic reduction of loudness of chimes in cockpit when door locked                                                          |                  |       :material-check:          |
 | Notification Popup when changes to settings need reload ([#5261](https://github.com/flybywiresim/a32nx/pull/5261){target=new}) |                  |        :material-check:         |
+| Added language translations ( [#5599](https://github.com/flybywiresim/a32nx/pull/5599){target=new} )                           |                  |        :material-check:         |
+| Improved pitch/C* and ALT* laws ( [#5711](https://github.com/flybywiresim/a32nx/pull/5711){target=new} )                       |                  |        :material-check:         |
+| EFB: Physical power button ( [#5697](https://github.com/flybywiresim/a32nx/pull/5697){target=new} )                            |                  |        :material-check:         |
+| MCDU Keyboard settings moved to EFB ( [#5754](https://github.com/flybywiresim/a32nx/pull/5754){target=new} )                   |                  |        :material-check:         |
