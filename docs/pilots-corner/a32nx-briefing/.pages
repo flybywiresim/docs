@@ -1,4 +1,5 @@
-title: A32NX Pilot's Briefing
+title: A320neo Pilot Briefing
 nav:
   - Overview: index.md
-  - ...
+  - flight-deck
+#  - ecam
