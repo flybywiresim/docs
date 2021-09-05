@@ -23,6 +23,8 @@ The ISIS system displays the following information:
 - LS function
 - Bugs
 
+## Usage
+
 ### ”+” / “-”
 
 - Used to adjust the level of brightness.
