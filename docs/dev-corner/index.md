@@ -14,3 +14,4 @@ This section of the FlyByWire Documentation is dedicated to the development aspe
 - [Development Guide](development-guide.md)
 - [Texture Changes](texture-changes.md)
 - [FlyByWire Projects](development-projects/)
+- [flyPad Development](flypad-dev.md)
