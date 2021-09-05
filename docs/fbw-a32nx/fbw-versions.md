@@ -52,7 +52,7 @@ will be updated at least once a month.
 
 For all changes refer to the official [CHANGELOG](https://github.com/flybywiresim/a32nx/blob/master/.github/CHANGELOG.md){target=new} or commits on the [:fontawesome-brands-github:{: .github } - **GitHub A32NX Repository Master Branch**](https://github.com/flybywiresim/a32nx/commits/master){target=new}.
 
-| Feature                                                                                                                        |   Stable 0.6.3   | Development<br/>(Aug 21th 2021) |
+| Feature                                                                                                                        |   Stable 0.6.3   | Development<br/>(Sept 9th 2021) |
 |:-------------------------------------------------------------------------------------------------------------------------------|:----------------:|:-------------------------------:|
 | Standalone Aircraft                                                                                                            | :material-check: |        :material-check:         |
 | EFB                                                                                                                            | :material-check: |        :material-check:         |
@@ -61,7 +61,8 @@ For all changes refer to the official [CHANGELOG](https://github.com/flybywiresi
 | Printer                                                                                                                        | :material-check: |        :material-check:         |
 | Custom Electrical System                                                                                                       | :material-check: |        :material-check:         |
 | Custom APU Simulation                                                                                                          | :material-check: |        :material-check:         |
-| Improved Flight Model Accuracy                                                                                                 | :material-check: |        :material-check:         |
+| Improved Flight Model Accuracy                                                                                                 | :material-check: |  Entirely Redone <br>Flight Model   |
+| Improved Engine Model                                                                                                          | :material-check: | Completely Custom <br>Engine Model  |
 | Split RMP1 and RMP2 Radios                                                                                                     | :material-check: |        :material-check:         |
 | Custom Camera Views                                                                                                            | :material-check: |        :material-check:         |
 | Support for CONF 3 (flaps 3) Landings                                                                                          | :material-check: |        :material-check:         |
