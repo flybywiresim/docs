@@ -28,8 +28,6 @@ Each engine is fed by their corresponding center and wing tanks. The pumps stay 
 
 Both engines can be fed from one side or both sides can feed only one engine.
 
-## Usage
-
 ###  L + R TK PUMPS 1 + 2
 
 - ON:
