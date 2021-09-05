@@ -61,8 +61,8 @@ For all changes refer to the official [CHANGELOG](https://github.com/flybywiresi
 | Printer                                                                                                                        | :material-check: |        :material-check:         |
 | Custom Electrical System                                                                                                       | :material-check: |        :material-check:         |
 | Custom APU Simulation                                                                                                          | :material-check: |        :material-check:         |
-| Improved Flight Model Accuracy                                                                                                 | :material-check: |  Entirely Redone <br>Flight Model   |
-| Improved Engine Model                                                                                                          | :material-check: | Completely Custom <br>Engine Model  |
+| Improved (default) Flight Model Accuracy                                                                                       | :material-check: |        :material-check:         |
+| Improved (default) Engine Model                                                                                                | :material-check: |        :material-check:         |
 | Split RMP1 and RMP2 Radios                                                                                                     | :material-check: |        :material-check:         |
 | Custom Camera Views                                                                                                            | :material-check: |        :material-check:         |
 | Support for CONF 3 (flaps 3) Landings                                                                                          | :material-check: |        :material-check:         |
@@ -72,6 +72,11 @@ For all changes refer to the official [CHANGELOG](https://github.com/flybywiresi
 | MCDU/FMC Improvements                                                                                                          | :material-check: |        :material-check:         |
 | Forced Usage of Modern Flight Model                                                                                            | :material-check: |        :material-check:         |
 | Sim Update 5 (SU5) Fixes (Aug 9th)                                                                                             | :material-check: |        :material-check:         |
+| Custom Flight Model                                                                                                            |                  |        :material-check:         |
+| Custom Engine Model                                                                                                            |                  |        :material-check:         |
+| Custom Fly-by-wire System                                                                                                      |                  |        :material-check:         |
+| Custom Autopilot (with Autoland feature)                                                                                       |                  |        :material-check:         |
+| Custom Autothrust                                                                                                              |                  |        :material-check:         |
 | Custom Hydraulic System (initial implementation)                                                                               |                  |        :material-check:         |
 | Connection between Electrical Power and Hydraulics                                                                             |                  |        :material-check:         |
 | VOR/ADF Needles on ND                                                                                                          |                  |        :material-check:         |
