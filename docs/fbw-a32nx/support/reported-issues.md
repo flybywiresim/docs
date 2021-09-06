@@ -128,7 +128,7 @@ Sometimes the sim will "*miss*" the trigger point being reached for outer tank f
 
 Can't interact with EFB when popped-out (++ralt+"Left Click"++) and switching to the external camera.
 
-- Workaround: Make sure to click on the actual EFB screen (not the popped out window) before switching to external camera.  
+- Workaround: Make sure to click on the actual EFB screen (not the popped out window) before switching to external camera.
 
 #### Printing METAR Reports May Cause a CTD
 
@@ -180,7 +180,7 @@ Can't start engines:
 
 ![throttle config image](https://cdn.discordapp.com/attachments/754130199804772372/869697814458945546/unknown.png)
 
-Also see our [Throttle Calibration Guide](../feature-guides/throttle-calibration.md)
+Also see our [Throttle Calibration Guide](../feature-guides/flyPad/throttle-calibration.md)
 
 ---
 

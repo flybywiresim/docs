@@ -59,6 +59,8 @@ plugins:
         # Folder: /a32nx-devs/
         'a32nx-dev/overview.md': 'dev-corner/development-guide.md'
         'a32nx-dev/texture-changes.md': 'dev-corner/texture-changes.md'
+        # additional redirects:
+        'fbw-a32nx/feature-guides/throttle-calibration.md': 'fbw-a32nx/feature-guides/flyPad/throttle-calibration.md'
 
 
         # 'old.md': 'file.md'
