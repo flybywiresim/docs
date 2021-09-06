@@ -1,19 +1,19 @@
 # A32NX flyPad Development Guide Overview
 
-[**Development Guide Overview**](https://docs.flybywiresim.com/dev-corner/development-guide){ .md-button target=new}
-[:fontawesome-brands-github:{: .github } **GitHub Contributing.md**](https://github.com/flybywiresim/a32nx/blob/master/.github/Contributing.md){ .md-button target=new}
+[**Development Guide Overview**](https://docs.flybywiresim.com/dev-corner/development-guide){.md-button target=new}
+[:fontawesome-brands-github:{: .github } **GitHub Contributing.md**](https://github.com/flybywiresim/a32nx/blob/master/.github/Contributing.md){.md-button target=new}
 
 
 ## Introduction
 
 This guide has the objective of teaching you how to set up your development environment to efficiently contribute to the flyPad/EFB in the A32NX. This guide follows on from [A32NX Development Guide Overview](https://docs.flybywiresim.com/dev-corner/development-guide/) and 
-[GitHub Contributing.md](https://github.com/flybywiresim/a32nx/blob/master/.github/Contributing.md). Please familiarise yourself with the information, steps and requirements listed there before reading further.
+[GitHub Contributing.md](https://github.com/flybywiresim/a32nx/blob/master/.github/Contributing.md){target=new}. Please familiarise yourself with the information, steps and requirements listed there before reading further.
 
 ## Setting up a Development Environment inside MSFS
 
-Before you can load the project to test in your simulator, you first need to ensure you've created a fork of the [A32NX project on GitHub](https://github.com/flybywiresim/a32nx) and have cloned this in your code editor/IDE.
+Before you can load the project to test in your simulator, you first need to ensure you've created a fork of the [A32NX project on GitHub](https://github.com/flybywiresim/a32nx){target=new} and have cloned this in your code editor/IDE.
 We recommend when making changes on your fork, you create a new branch, titled with the change you're looking to make or something similar.
-Make sure you have also run the setup and build scripts shown below and explained in detail on [GitHub Contributing.md](https://github.com/flybywiresim/a32nx/blob/master/.github/Contributing.md).
+Make sure you have also run the setup and build scripts shown below and explained in detail on [GitHub Contributing.md](https://github.com/flybywiresim/a32nx/blob/master/.github/Contributing.md){target=new}.
 
 
 ```
@@ -23,7 +23,7 @@ cd a32nx
 .\scripts\dev-env\run.cmd ./scripts/build.sh
 ```
 
-## Creating a Symlink and setting up instant-reload
+## Creating a Symlink and Setting up Instant-Reload
 
 Once you have the A32NX built, you'll need to link your newly compiled A32NX to your community folder to enable you to quickly update the flyPad with new changes made to your local branch without copying everything over manually again and reloading MSFS.
 This is commonly referred to as a 'Symlink'.
@@ -45,7 +45,7 @@ If this works, you'll receive the response:
 
 "Function created for [Community folder] [Project Folder]" from the terminal.
 
-## Quick reloading the flyPad
+## Quick Reloading the flyPad
 
 Now you've compiled and symlinked your Github fork to your community folder, you should be able to load into the aircraft as normal. Check everything is working with your compiled branch before progressing.
 
@@ -67,12 +67,12 @@ VCockpit16 - EFB_TEMPLATE [coui://html_UI/Pages/VCockpit/Core/VCockpit.html]
 
 ![image](../dev-corner/assets/EFBLoader.png){loading=lazy}
 
-## Getting started with the EFB code
+## Getting Started with the EFB Code
 
 Now you're set up with your own fork, which you can reload instantly and test in MSFS, you're ready to get started making changes. When getting started it's a good idea to spend some time looking around the project and wrapping your head around the structure.
 
 - You'll find the main EFB content under ` src/instruments/src/EFB ` of your Github fork, try making small changes at first to test, such as changing the colour of an icon, or changing a few words to make sure the reloading is working. 
-- Take a look at previous commits made to the flyPad on the [A32NX Github Repository](https://github.com/flybywiresim/a32nx/commits/master) and see what changes were made to get the desired result.
+- Take a look at previous commits made to the flyPad on the [A32NX Github Repository](https://github.com/flybywiresim/a32nx/commits/master){target=new} and see what changes were made to get the desired result.
 
 !!!info "Top tip!"
     When working on your project, make sure to reload the flyPad and test regularly to catch issues as soon as they happen.
