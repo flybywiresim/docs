@@ -36,9 +36,8 @@ Note: Make sure you remove any existing copy of the aircraft from your community
 mklink /J [Community folder path] [Project folder path]
 ```
 Example:
-```
+``` 
 mklink /J C:\Users\USERNAME\AppData\Local\Packages\Microsoft.FlightSimulator_8wekyb3d8bbwe\Community\flybywire-aircraft-a320-neo C:\Users\USERNAME\IdeaProjects\a32nx\flybywire-aircraft-a320-neo
-
 ```
 
 If this works, you'll receive the response:
@@ -55,10 +54,13 @@ Now with your sim open, follow these steps:
 
 ```  npx rollup -wc src/instruments/buildSrc/simulatorBuild.mjs ```
 
-- Navigate to **[http://127.0.0.1:19999](http://127.0.0.1:19999)** in your browser. You should see a page similar to the below. The refresh button at the top (also CTRL+R) will reload your flyPad, causing the display to switch off for a few moments.
-Once turned back on, any changes made and saved in your EFB project file will be updated to the EFB in your simulator session.
+- Navigate to **[http://127.0.0.1:19999](http://127.0.0.1:19999)** in your browser. You should see several options appear, select the below. A page similar to the below should be shown.
 
-** (Need to grab a screenshot and add once I have build running will add later someone pls remind me if I forget thnx) **
+``` VCockpit16 - EFB_TEMPLATE [coui://html_UI/Pages/VCockpit/Core/VCockpit.html]```
+
+- The refresh button at the top (also CTRL+R) will reload your flyPad, causing the display to switch off for a few moments. Once turned back on, any changes made and saved in your EFB project file will be updated to the EFB in your simulator session.
+
+![image](../dev-corner/assets/EFBLoader.png){loading=lazy}
 
 ## Getting started with the EFB code
 
