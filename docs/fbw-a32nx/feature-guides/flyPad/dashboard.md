@@ -46,6 +46,46 @@
     <a href="../settings/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 88.0%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Settings</span></div></a>
 </div>
 
+## Description
+
+The Dashboard is the default flyPad page after starting it.
+
+It has three sections:
+
+- Left:
+    - Shows the currently loaded flight plan if dashes if none is loaded.
+- Right Top:
+    - Shows current METAR information for the loaded origin and destination airport.
+- Right Bottom:
+    - Moving map with your current location marked by a blue plane symbol.
+    - Shows the current weather on the map.
+
+## Usage
+
+### Load From simBrief
+
+!!! block ""
+    ![From simBrief](../../assets/flypad/load-from-simbrief.png)
+
+    If you have [configured](settings.md) you simBrief account correctly, you can click the above button to load your last simBrief flight plan into the flyPad. This does not load the flight plan into the MCDU - you need to load it there separately.
+
+### Map Zoom and Tools
+
+!!! block ""
+    ![Zoom Map](../../assets/flypad/zoom-map.png "Zoom Map"){align=left}
+
+    Zooms the map in (+) and out (-).
+
+!!! block ""
+    ![Map Tools](../../assets/flypad/map-tools.png "Map Tools"){align=left}
+
+    Distance measure tools. 
+
+    !!! attention ""
+        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+
+### After loading of a simBrief flight plan
+
 <div style="position: relative;">
     <img src="/fbw-a32nx/assets/flypad/flypad-dashboard-simbrief.png" style="width: 100%; height: auto;">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.3%; top:  8.3%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Dashboard</span></div></a>
