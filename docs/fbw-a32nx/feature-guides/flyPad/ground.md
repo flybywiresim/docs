@@ -34,6 +34,8 @@
 }
 </style>
 
+## Ground Service
+
 <div style="position: relative;">
     <img src="/fbw-a32nx/assets/flypad/flypad-ground.png" style="width: 100%; height: auto;">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.3%; top:  8.3%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Dashboard</span></div></a>
@@ -45,3 +47,57 @@
     <a href="../failures/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 57.5%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Failures</span></div></a>
     <a href="../settings/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 88.0%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Settings</span></div></a>
 </div>
+
+## Usage
+
+### Pax
+
+When standing at a gate this connects and disconnects the gate's jetway if a jetway is available at the current gate.
+
+### Door Fwd
+
+Opens and closes the forward door.
+
+### Baggage
+
+Calls the baggage service if available at the current airport and gate. Baggage service will open the cargo door, load baggage and then close the cargo door automatically.
+
+### Ext. Power
+
+Calls a ground power unit (GPU) if available at the current airport and gate or stand. This can be used if otherwise no extra power is available.
+
+### Fuel
+
+Calls the fuel truck if available at the current airport. It will take quite a while until the fuel truck while arrive. 5-10 minutes is not unusual. When the fuel truck arrives the MSFS fuel page appears.
+
+It is not necessary to use this with the FlyByWire A32NX as fuel can be loaded through the MCDU (simBrief import), the flyPad Fuel page or simply the MSFS fuel dialog.
+
+### Door Aft
+
+Opens and closes the aft door.
+
+### Catering
+
+Calls the catering service if available at the current airport and gate. The catering service will open the aft door and automatically closes it after it has virtually supplied the aircraft.
+
+### Call Tug
+
+Calls the pushback tug to be connected to the aircraft. The button will become green if the pushback tug is connected to the aircraft. At some airports the pushback tug might not be visible (MSFS issue) but it will still be possible to pushback the aircraft.
+
+To disconnect the pushback tug press this button again and the button turns blue again.
+
+### Stop (hand symbol)
+
+Press this button to stop any movement of the pushback tug.
+
+### &ldca; (left)
+
+Use this button to push the aircraft backwards and left.
+
+### &darr; (straight)
+
+Use this button to push the aircraft straight backwards.
+
+### &rdca; (right)
+
+Use this button to push the aircraft backwards and right.
