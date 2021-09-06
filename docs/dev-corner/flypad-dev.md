@@ -6,7 +6,7 @@
 
 ## Introduction
 
-This guide has the objective of teaching you how to set up your development environment to efficiently contribute to the flyPad/EFB. This guide follows on from [A32NX Development Guide Overview](https://docs.flybywiresim.com/dev-corner/development-guide/) and 
+This guide has the objective of teaching you how to set up your development environment to efficiently contribute to the flyPad/EFB in the A32NX. This guide follows on from [A32NX Development Guide Overview](https://docs.flybywiresim.com/dev-corner/development-guide/) and 
 [GitHub Contributing.md](https://github.com/flybywiresim/a32nx/blob/master/.github/Contributing.md), please familiarise yourself with the information, steps and requirements listed there before reading further.
 
 ## Setting up a Development Environment inside MSFS
@@ -54,11 +54,11 @@ Now with your sim open, follow these steps:
 
 ```  npx rollup -wc src/instruments/buildSrc/simulatorBuild.mjs ```
 
-- Navigate to **[http://127.0.0.1:19999](http://127.0.0.1:19999)** in your browser. You should see several options appear, select the below. A page similar to the below should be shown.
+- Navigate to **[http://127.0.0.1:19999](http://127.0.0.1:19999)** in your browser. You should see several options appear, select the following option: 
 
 ``` VCockpit16 - EFB_TEMPLATE [coui://html_UI/Pages/VCockpit/Core/VCockpit.html]```
 
-- The refresh button at the top (also CTRL+R) will reload your flyPad, causing the display to switch off for a few moments. Once turned back on, any changes made and saved in your EFB project file will be updated to the EFB in your simulator session.
+- A page similar to the below should be shown. The refresh button at the top of the page will reload your flyPad, causing the display to switch off for a few moments. Once turned back on, any changes made and saved in your EFB project file will be updated to the EFB in your simulator session.
 
 ![image](../dev-corner/assets/EFBLoader.png){loading=lazy}
 
@@ -73,7 +73,7 @@ Now you're set up with your own fork, which you can reload instantly and test in
 
 If there is anything wrong with the code/files in your local branch, when reloading the flyPad, several issues may occur:
 
-- The flyPad will turn on, but switch and stay off when clicking on an affected page a (Reloading the build in the browser will bring this back)
+- The flyPad will turn on, but switch and stay off when clicking on an affected page (Reloading the build in the browser will bring this back).
 - Everything may show as normal but none of your changes have been applied. 
 - The flyPad doesn't turn on at all.
 
