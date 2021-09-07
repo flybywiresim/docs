@@ -129,16 +129,6 @@ It is located in:
 
 ---
 
-### Find you Community folder
-
-![How to find the correct Community folder](assets/find-community-folder.png "How to find the correct Community folder")
-
-To find the Community folder MSFS is actually using you can go to you General Settings in MSFS and activate Developer Mode (1). Then go to the menu and open the Virtual Filesystem (2). After click on Packages Folder --> "Open Community Folder" (3). Also
-
-This opens the Community folder in a Windows Explorer.
-
----
-
 ### Boxed Edition
 
 - Copy the `flybywire-aircraft-a320-neo` folder into your community package folder.
@@ -153,9 +143,11 @@ It is located in:
 
 If the above methods do not work:
 
-- You can find your community folder by going into Microsoft Flight Simulator general options and enabling developer mode. You will see a menu appear on top.
-    - Go to tools and virtual file system.
-    - Click on watch bases and your community folder will be listed in one of the folders.
+![How to find the correct Community folder](assets/find-community-folder.png "How to find the correct Community folder")
+
+To find the Community folder MSFS is actually using you can go to you General Settings in MSFS and activate Developer Mode (1). Then go to the menu and open the Virtual Filesystem (2). After click on Packages Folder --> "Open Community Folder" (3). Also
+
+This opens the Community folder in a Windows Explorer.
 
 If your issue is not related to installation visit - [**Reported Issues**](support/reported-issues.md)
 
