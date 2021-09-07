@@ -145,7 +145,11 @@ If the above methods do not work:
 
 ![How to find the correct Community folder](assets/find-community-folder.png "How to find the correct Community folder")
 
-To find the Community folder MSFS is actually using you can go to your General Settings in MSFS and activate Developer Mode (1). Then go to the menu and open the Virtual Filesystem (2). After click on Packages Folder --> "Open Community Folder" (3).
+To find the Community folder that MSFS is actually using please follow these steps:
+
+1. Go to your General Settings in MSFS and activate Developer Mode. 
+2. Go to the menu and open the Virtual Filesystem. 
+3. Click on Packages Folder --> "Open Community Folder" (3).
 
 This opens the Community folder in a Windows Explorer.
 
