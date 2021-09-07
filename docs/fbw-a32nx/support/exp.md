@@ -37,8 +37,8 @@
 - EFB Rate of descent now no longer syncs with ND
 - MCDU flight plan INIT DEPARTURE/ARRIVAL page is sometimes cleared when DIRECT-TO is used
 - Defining both from/to in MSFS Flight Planner (World Map) do show in the from/to init page but do not populate the airport list in METAR
-- Flight plans defined in the MSFS Flight Planner (World Map) are loaded to the cFMS.
-- Any changes to the cFMS flight plan will not be synced back to the MSFS flight plan manager for now.
+- Flight plans defined in the MSFS Flight Planner (World Map) are loaded to the cFMS
+- Any changes to the cFMS flight plan will not be synced back to the MSFS flight plan manager for now
 - Built-in ATC will not be supported with the cFMS for now.
 
 ### How to Report Issues
