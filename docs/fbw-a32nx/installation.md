@@ -149,7 +149,7 @@ To find the Community folder that MSFS is actually using please follow these ste
 
 1. Go to your General Settings in MSFS and activate Developer Mode. 
 2. Go to the menu and open the Virtual Filesystem. 
-3. Click on Packages Folder --> "Open Community Folder" (3).
+3. Click on Packages Folder --> "Open Community Folder".
 
 This opens the Community folder in a Windows Explorer.
 
