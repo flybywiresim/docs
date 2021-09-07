@@ -185,14 +185,19 @@ Also see our [Throttle Calibration Guide](../feature-guides/throttle-calibration
 !!! tip ""
     *Affected versions: Stable, Development*
 
-    This is reported to be fixed by Asobo in current patch - **World Update 6**.
+### MSFS
 
 The effects of non-standard day pressure and temperature on altitude in MSFS were inaccurate during *Sim Update 5* affecting the following:
 
 - In game ATC may still see you at a different altitude than what you see in the flight deck. 
     - **Workaround:** Climb or descend a couple hundred feet at a time until the in game ATC stops requesting you to climb or descend.
 
-- VATSIM controllers may also see ou at a different altitude when you are below the transition altitude. We recommend including a note on your flight plan that you are using MSFS.
+!!! info ""
+    This is reported to be fixed by Asobo in current patch - **World Update 6**.
+
+### VATSIM
+
+- VATSIM controllers may also see you at a different altitude when you are below the transition altitude. We recommend including a note on your flight plan that you are using MSFS.
 
 !!! info ""
     VATSIM software is being modified to remedy this.
