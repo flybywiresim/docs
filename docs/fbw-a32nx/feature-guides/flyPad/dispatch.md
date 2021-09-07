@@ -39,7 +39,7 @@
 This page provides information about the aircraft. It has no further functionality at this time.
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypad/flypad-dispatch-overview.png" style="width: 100%; height: auto;">
+    <img src="/fbw-a32nx/assets/flypad/flypad-dispatch-overview.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.3%; top:  8.3%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 16.5%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 24.7%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Ground</span></div></a>
@@ -55,7 +55,7 @@ This page provides information about the aircraft. It has no further functionali
 The OFP (Operational Flight Plan) will be displayed on this page after importing it with the [button](dashboard.md#load-from-simbrief) on the [Dashboard](dashboard.md) page.
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypad/flypad-dispatch-ofp.png" style="width: 100%; height: auto;">
+    <img src="/fbw-a32nx/assets/flypad/flypad-dispatch-ofp.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.3%; top:  8.3%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 16.5%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 24.7%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Ground</span></div></a>
@@ -76,7 +76,7 @@ The OFP (Operational Flight Plan) will be displayed on this page after importing
 The fuel page provides accurate information about the quantity of fuel in the different tanks of the aircraft. It also allows to fuel or de-fuel the aircraft to the desired fuel quantity.
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypad/flypad-dispatch-fuel.png" style="width: 100%; height: auto;">
+    <img src="/fbw-a32nx/assets/flypad/flypad-dispatch-fuel.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.3%; top:  8.3%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 16.5%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 24.7%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Ground</span></div></a>

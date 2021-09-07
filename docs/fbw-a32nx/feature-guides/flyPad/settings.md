@@ -35,7 +35,7 @@
 </style>
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypad/flypad-settings-defaults.png" style="width: 100%; height: auto;">
+    <img src="/fbw-a32nx/assets/flypad/flypad-settings-defaults.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.3%; top:  8.3%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 16.5%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 24.7%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Ground</span></div></a>
@@ -47,7 +47,7 @@
 </div>
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypad/flypad-settings-aircraft-configuration.png" style="width: 100%; height: auto;">
+    <img src="/fbw-a32nx/assets/flypad/flypad-settings-aircraft-configuration.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.3%; top:  8.3%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 16.5%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 24.7%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Ground</span></div></a>
@@ -59,7 +59,7 @@
 </div>
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypad/flypad-settings-sim-options.png" style="width: 100%; height: auto;">
+    <img src="/fbw-a32nx/assets/flypad/flypad-settings-sim-options.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.3%; top:  8.3%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 16.5%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 24.7%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Ground</span></div></a>
@@ -71,7 +71,7 @@
 </div>
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypad/flypad-settings-atsu-aoc.png" style="width: 100%; height: auto;">
+    <img src="/fbw-a32nx/assets/flypad/flypad-settings-atsu-aoc.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.3%; top:  8.3%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 16.5%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 24.7%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Ground</span></div></a>
@@ -83,7 +83,7 @@
 </div>
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypad/flypad-settings-audio.png" style="width: 100%; height: auto;">
+    <img src="/fbw-a32nx/assets/flypad/flypad-settings-audio.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.3%; top:  8.3%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 16.5%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 24.7%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Ground</span></div></a>
@@ -95,7 +95,7 @@
 </div>
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypad/flypad/flypad-settings-flypad.png" style="width: 100%; height: auto;">
+    <img src="/fbw-a32nx/assets/flypad/flypad/flypad-settings-flypad.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.3%; top:  8.3%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 16.5%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 24.7%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Ground</span></div></a>
@@ -107,7 +107,7 @@
 </div>
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypad/flypad-setting-throttle-calibration.png" style="width: 100%; height: auto;">
+    <img src="/fbw-a32nx/assets/flypad/flypad-setting-throttle-calibration.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.3%; top:  8.3%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 16.5%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 24.7%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Ground</span></div></a>

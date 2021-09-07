@@ -41,7 +41,7 @@ This calculator helps the pilot to calculate when to start descending (aka the T
 For more information about descent and approach planning see our guide: [Descent and Approach Planning](../../../pilots-corner/beginner-guide/descent.md#1-descent-and-approach-planning)
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypad/flypad-performance-tod.png" style="width: 100%; height: auto;">
+    <img src="/fbw-a32nx/assets/flypad/flypad-performance-tod.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.3%; top:  8.3%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 16.5%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 24.7%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Ground</span></div></a>
@@ -142,7 +142,7 @@ In more formal terms it calculates if the Landing Distance Available (LDA) is gr
 This calculation factors in wind, runway condition, aircraft weight and several others which might cause some runways to be viable in one situation but not viable in another (e.g. more weight, etc.).
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypad/flypad-performance-landing.png" style="width: 100%; height: auto;">
+    <img src="/fbw-a32nx/assets/flypad/flypad-performance-landing.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.3%; top:  8.3%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 16.5%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 24.7%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Ground</span></div></a>
