@@ -270,7 +270,7 @@ Package separation or "fork" issues:
         - Solution: Select the **^^FlyByWire Simulations A320neo (LEAP)^^** in the aircraft selector instead of the Asobo one.
 
     - Invisible plane / Sounds not working / Installation issues
-        - Workaround: Reinstall A32NX, delete any old version from your Community Folder. Ensure you are on Installer v1.2.0 or above.
+        - Workaround: Reinstall A32NX, delete any old version from your Community Folder. Ensure you are on Installer v2.0.0 or above.
 
 ---
 
@@ -413,7 +413,7 @@ Crash to desktop (CTD) can either be a sim issue or a conflict with the A32NX. T
 - Using the *"Pounds (lbs)"* on the EFB. *[Fixed PR #5344](https://github.com/flybywiresim/a32nx/pull/5344){target=new}*
     - Closed Issues: [#5316](https://github.com/flybywiresim/a32nx/issues/5316), [#5321](https://github.com/flybywiresim/a32nx/issues/5321)
 
-- Installer v1.2.0 issues resolved in v2.0.
+- Installer v1.2.0 issues resolved in v2.0.0.
 
 - Selected Heading may not work after using DIR feature or inputting a STAR. *[Fixed PR #5593](https://github.com/flybywiresim/a32nx/pull/5593)*
     - Closed Issue: [#5479](https://github.com/flybywiresim/a32nx/issues/5479)
