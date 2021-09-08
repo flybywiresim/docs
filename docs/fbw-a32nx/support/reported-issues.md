@@ -61,8 +61,16 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer){target=n
 !!! tip ""
     *Affected versions: Stable, Development*
 
-- May be larger than normal at higher than ISA temps.
+- May be larger than normal
 - *Under Investigation*
+
+#### Fuel Prediction
+
+!!! tip ""
+    *Affected versions: Stable, Development*
+
+- Prediction numbers in the F-PLN and FUEL PRED pages are inaccurate.
+- *A fix is in the works.*
 
 #### Toolbar Pushback Addon
 
@@ -124,7 +132,7 @@ Sometimes the sim will "*miss*" the trigger point being reached for outer tank f
 
 Can't interact with EFB when popped-out (++ralt+"Left Click"++) and switching to the external camera.
 
-- Workaround: Make sure to click on the actual EFB screen (not the popped out window) before switching to external camera.  
+- Workaround: Make sure to click on the actual EFB screen (not the popped out window) before switching to external camera.
 
 #### Printing METAR Reports May Cause a CTD
 
@@ -189,7 +197,7 @@ Also see our [Throttle Calibration Guide](../feature-guides/throttle-calibration
 
 The effects of non-standard day pressure and temperature on altitude in MSFS were inaccurate during *Sim Update 5* affecting the following:
 
-- In game ATC may still see you at a different altitude than what you see in the flight deck. 
+- In game ATC may still see you at a different altitude than what you see in the flight deck.
     - **Workaround:** Climb or descend a couple hundred feet at a time until the in game ATC stops requesting you to climb or descend.
 
 !!! info ""
@@ -238,7 +246,7 @@ Using **New** Cockpit Interaction System
 ## Package Separation Issues
 
 !!! tip ""
-    *Affected versions: Stable, Development*
+    *Affected versions: All versions*
 
 !!! warning "Liveries incompatible due to package separation"
 
@@ -253,14 +261,14 @@ Using **New** Cockpit Interaction System
     - See our guide to [liveries](../liveries.md)
     - Visit Flightsim.to with updated liveries [here](https://flightsim.to/c/liveries/flybywire-a32nx/){target=new}
 
-* Package separation or "fork" issues (*All Versions*):
-
-    ![New Aircraft](../assets/new-aircraft.png){width=50% align=right}
+!!! block "Package separation or "fork" issues:"
+    ![New Aircraft](../assets/new-aircraft.png){width=50% align=left loading=lazy}
 
     - Default aircraft showing
         - Solution: Select the **^^FlyByWire Simulations A320neo (LEAP)^^** in the aircraft selector instead of the Asobo one.
+
     - Invisible plane / Sounds not working / Installation issues
-        - Workaround: Reinstall A32NX, delete any old version from your Community Folder. Ensure you are on Installer v1.2.0 or above.
+        - Workaround: Reinstall A32NX, delete any old version from your Community Folder. Ensure you are on Installer v2.0.0 or above.
 
 ---
 
@@ -403,7 +411,7 @@ Crash to desktop (CTD) can either be a sim issue or a conflict with the A32NX. T
 - Using the *"Pounds (lbs)"* on the EFB. *[Fixed PR #5344](https://github.com/flybywiresim/a32nx/pull/5344){target=new}*
     - Closed Issues: [#5316](https://github.com/flybywiresim/a32nx/issues/5316), [#5321](https://github.com/flybywiresim/a32nx/issues/5321)
 
-- Installer v1.2.0 issues resolved in v2.0.
+- Installer v1.2.0 issues resolved in v2.0.0.
 
 - Selected Heading may not work after using DIR feature or inputting a STAR. *[Fixed PR #5593](https://github.com/flybywiresim/a32nx/pull/5593)*
     - Closed Issue: [#5479](https://github.com/flybywiresim/a32nx/issues/5479)
