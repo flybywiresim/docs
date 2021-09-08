@@ -34,7 +34,7 @@ To create your Symlink, open your command terminal and run the below command, su
     Make sure you remove any existing copy of the aircraft from your community folder before doing this.
 
 ```
-mklink /J [Community folder path] [Project folder path]
+mklink /J [MSFS Community folder/flybywire-aircraft-a320-neo] [Project folder path]
 ```
 Example:
 ``` 
@@ -45,11 +45,19 @@ If this works, you'll receive the response:
 
 "Function created for [Community folder] [Project Folder]" from the terminal.
 
+Now you've compiled and symlinked your Github fork to your community folder, you should be able to load into the aircraft as normal. Open MSFS and check everything is working with your compiled branch before progressing.
+
 ## Quick Reloading the flyPad
 
-Now you've compiled and symlinked your Github fork to your community folder, you should be able to load into the aircraft as normal. Check everything is working with your compiled branch before progressing.
+As the aircraft in your project folder is now connected to your MSFS community folder via the Symlink you created in the previous step, each time you load in to the A32NX on MSFS, any changes you've made since the sim was last opened should be updated.
 
-Now with your sim open, follow these steps:
+Rather than reloading MSFS each time you wish to test your changes, you can enable quick reloading directly from your code editor/IDE, then with each change you make in the code, you can save and reload only the flyPad, and keep MSFS running throughout.
+
+!!!info ""
+    From here on, if you're coming back to continue working on your flyPad project, you would only need to run the following quick reload steps again to get everything up and running again!
+
+
+To start quick reloading the project:
 
 - In your code editor/IDE, run the command:
 
@@ -87,4 +95,12 @@ If there is anything wrong with the code/files in your local branch, when reload
 - The flyPad doesn't turn on at all.
 
 This would generally indicate an issue with the code in your project.
-In these cases, it's best to take a look back through changes you've made so far and track down the cause, or revert the last change made if that was the cause. 
+In these cases, it's best to take a look back through changes you've made so far and track down the cause, or revert the last change made if that was the cause.
+
+!!! warning "Unique Error"
+    If you receive the error `Ineffective mark-cmpacts near heap limit Allocation failed - Javascript heap out of memory` when attempting the npx rollup command, run the below command to increase Node's memory limit.
+    This should enable you to continue with the quick reloading process.
+
+    ```
+    $env:NODE_OPTIONS='--max_old_space_size=8192
+    ```
