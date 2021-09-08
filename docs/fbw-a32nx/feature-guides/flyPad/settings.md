@@ -78,9 +78,9 @@ Settings for A32NX aircraft configuration.
 ### Usage:
 
 - Weight Unit:
-    - The weight unit of the aircraft.
+    - The weight unit of the aircraft used for aircraft weight, fuel and simBrief imports.
 - PAX Signs:
-    - Configures if the aircraft should use "No Smoking" or "No Portable Devices" in ECAM message.
+    - Configures if the aircraft should use "No Smoking" or "No Portable Devices" in its ECAM message.
 
 ## Sim Options
 
@@ -130,12 +130,12 @@ Settings for integrations with various data and information sources.
 - ATIS/ATC Source:
     - Choose which Online ATC service should be used for ATIS and ATC.
 - METAR Source:
-    - Choose which weather data provider should be used (MCDU onyl - does not change sim weather).
+    - Choose which weather data provider should be used (MCDU only - does not change sim weather).
     - MeteoBlue is the weather service the sim uses as well.
 - TAF Source:
     - Choose which Terminal Area Forecast (TAF) service should be used.
 - Simbrief Username:
-    - Enter your simBrief username. If you username has space omit them as other wise the authentication will fail.
+    - Enter your simBrief username. If you username has spaces omit them as otherwise the authentication will fail.
     - Example: "My Username" ==> enter "MyUsername".
 
 ## Audio
@@ -155,7 +155,7 @@ Settings for various audio sources and sounds.
 </div>
 
 - PTU Audible in Cockpit (unrealistic):
-    - Allows the PTU to be heard in teh cockpit which in real life is not the case. But many people are used to this sound as it is very audible in the passenger cabin.
+    - Allows the PTU to be heard in the cockpit which in real life is not the case. But many people are used to this sound as it is very audible in the passenger cabin.
 - Exterior Master Volume:
     - Volume for sounds audible when in external views.
 - Engine Interiors Sounds:
@@ -184,7 +184,7 @@ Settings for the flyPad itself.
 - Brightness:
     - Manually set brightness of the flyPad
 - Auto Brightness:
-    -
+    - Sets the brightness of the flyPad automatically based on the time of day.
 
 ## Throttle Configuration
 

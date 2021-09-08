@@ -53,7 +53,7 @@ The Dashboard is the default flyPad page after starting it.
 It has three sections:
 
 - Left:
-    - Shows the currently loaded flight plan if dashes if none is loaded.
+    - Shows the currently loaded flight plan or dashes if none is loaded.
 - Right Top:
     - Shows current METAR information for the loaded origin and destination airport.
 - Right Bottom:
@@ -67,7 +67,7 @@ It has three sections:
 !!! block ""
     ![From simBrief](../../assets/flypad/load-from-simbrief.png)
 
-    If you have [configured](settings.md) you simBrief account correctly, you can click the above button to load your last simBrief flight plan into the flyPad. This does not load the flight plan into the MCDU - you need to load it there separately.
+If you have [configured](settings.md) your simBrief account correctly, you can click the above button to load your last simBrief flight plan into the flyPad. This does not load the flight plan into the MCDU - you need to load it there separately (see [MCDU simBrief Integration](../../../pilots-corner/beginner-guide/preparing-mcdu.md#a32nx-simbrief-integration)) .
 
 ### Map Zoom and Tools
 

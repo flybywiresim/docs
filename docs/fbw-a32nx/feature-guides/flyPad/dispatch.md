@@ -66,7 +66,7 @@ The OFP (Operational Flight Plan) will be displayed on this page after importing
     <a href="../settings/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 88.0%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Settings</span></div></a>
 </div>
 
-!!! block ""
+!!! block "Zoom"
     ![flyPad OFP Page Zoom](../../assets/flypad/ofp-zoom.png "flyPad OFP Page Zoom"){align=left}
 
     The OFP can be zoomed in and out with these buttons. 
@@ -91,7 +91,7 @@ The fuel page provides accurate information about the quantity of fuel in the di
 
 ![flyPad Fuel Page Refuel](../../assets/flypad/fuel-refuel.png "flyPad Fuel Page Refuel")
 
-To set the fuel quantity simply click into the input field and change the quantity to the desired quantity. Type
+To set the fuel quantity simply click into the input field and change the value to the desired quantity.
 
 Press the "play" symbol to start the refuelling process (de-fueling if the new quantity is lower than the current).
 
@@ -99,4 +99,4 @@ Press the "play" symbol to start the refuelling process (de-fueling if the new q
 
 ![flyPad Fuel Page Fuel Time](../../assets/flypad/fuel-time.png "flyPad Fuel Page Fuel Time")
 
-Set this setting to the desired duration of refueling. Either unrealistic instant refueling, realistic refuel time or a middle ground (Fast).
+Set this setting to the desired duration of refueling. Either unrealistic but instant refueling (Instant), realistic refuel time (Real) or a middle ground (Fast).

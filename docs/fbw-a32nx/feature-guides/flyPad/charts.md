@@ -36,9 +36,9 @@
 
 ## Navigraph Integration
 
-With a valid Navigraph subscription the FylByWire flyPad allows access to all Navigraph charts from within the flyPad.
+With a valid Navigraph subscription the FlyByWire flyPad allows access to all Navigraph charts from within the flyPad.
 
-Before you can use the Navigraph integration the flyPad will ask you once to authenticate and authorize Navigraph access by either scanning the bar code of visiting the shown url in a browser. Login in there and authorize FlyByWire to access the Navigraph account.
+Before you can use the Navigraph integration the flyPad will ask you once to authenticate and authorize Navigraph access by either scanning the QR code or visiting the shown url in a browser. Login in there and authorize FlyByWire to access the Navigraph account.
 
 ![Charts Navigraph Login](../../assets/flypad/charts-navigraph-login.png "Charts Navigraph Login"){loading=lazy}
 

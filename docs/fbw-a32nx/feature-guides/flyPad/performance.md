@@ -36,7 +36,7 @@
 
 ## Top of Descent Calculator
 
-This calculator helps the pilot to calculate when to start descending (aka the Top of Descent) based on various variables so that different scenarios can be calculated. E.g. descending with 3° descent rate, descending with a given vertical speed, etc.
+This calculator helps the pilot to calculate when to start descending (aka the Top of Descent) based on various variables so that different scenarios can be calculated (e.g. descending with 3° descent rate, descending with a given vertical speed, etc.).
 
 For more information about descent and approach planning see our guide: [Descent and Approach Planning](../../../pilots-corner/beginner-guide/descent.md#1-descent-and-approach-planning)
 
@@ -56,21 +56,20 @@ For more information about descent and approach planning see our guide: [Descent
 
 There are several scenarios for the TOD Calculation:
 
-1. Angle of Descent bound:
+1. Fixed Angle of Descent:
     - Descending from altitude X to altitude Y with a fixed descent angle (commonly 3°)
-2. Distance to Fix bound:
+2. Fixed Distance to Navigation Fix:
     - Descending from altitude X to altitude Y within a fixed distance (e.g. 90NM)
-3. Rate of Descent bound:
+3. Fixed Rate of Descent:
     - Descending from altitude X to altitude Y within a fixed vertical speed (e.g. -2.000ft/min)
 
-Depending on the scenarios current ground speed (and maybe even several ground speeds at different altitudes)
-are included in the calculation to take into account that during descent we usually also slow down at some point.
+Depending on the scenarios ground speeds are included in the calculation to take into account that during descent we usually also slow down at some point.
 
 The flyPad TOD calculator can be used for all of these scenarios.
 
 #### Angel of Descent
 
-To calculate the TOD with a fixed angel of descent we simply have to enter the starting altitude and the desired target altitude.
+To calculate the TOD with a fixed angle of descent we simply have to enter the starting altitude and the desired target altitude.
 We can also enter a certain angle other than 3°. But 3° is a common standard descent angle in aviation and rarely needs to be changed.
 
 Example:
@@ -137,9 +136,9 @@ Example:
 
 This calculator helps the pilot to determine if a certain runway can be used for landing and which aircraft configuration is required to safely come to a stop on the available runway length.
 
-In more formal terms it calculates if the Landing Distance Available (LDA) is greater than the Landing Distance Required (LDR). See also this article [Landing Distances - Skybrary](https://www.skybrary.aero/index.php/Landing_Distances){target=new}
+In more formal terms it computes if the Landing Distance Available (LDA) is greater than the Landing Distance Required (LDR). See also this article [Landing Distances - Skybrary](https://www.skybrary.aero/index.php/Landing_Distances){target=new}.
 
-This calculation factors in wind, runway condition, aircraft weight and several others which might cause some runways to be viable in one situation but not viable in another (e.g. more weight, etc.).
+This calculation factors in wind, runway condition, aircraft weight and several others which might cause some runways to be viable in one situation but not viable in another situation (e.g. more weight, etc.).
 
 <div style="position: relative;">
     <img src="/fbw-a32nx/assets/flypad/flypad-performance-landing.png" style="width: 100%; height: auto;" loading="lazy">
@@ -182,12 +181,12 @@ for all the fields is descibed in the following section.
     - This information can be obtained from the airport chart (see example below).
 
 - Approach Speed: MCDU PERF APPR
-    - This is part of the MCDU PERF APPR page and can be taken from there.
+    - This is part of the MCDU PERF APPR page and can be taken from there (V~APP~).
 
     ![MCDU PERF APPR page](../../assets/flypad/performance-landing-mcdu-perf.png "MCDU PERF APPR page"){loading=lazy}
 
 - Weight:
-    - This information can be obtained from the ECAM SD.
+    - This information can be obtained from the ECAM SD bottom right corner (GW 59600 KG in the example below).
 
     ![ECAM SD](../../assets/flypad/performance-landing-ecam-sd.png "ECAM SD"){loading=lazy}
 
@@ -199,11 +198,11 @@ for all the fields is descibed in the following section.
 
 - Reverse Thrust:
     - This information can be obtained from the airport chart (see example below).
-    - yes/no (as per airport regulations)
+    - Enter "yes" or "no" as per airport regulations
 
     ![Airport Chart Information](../../assets/flypad/performance-landing-charts-reverser.png "Airport Chart Information"){loading=lazy}
 
-Example Chart:
+#### Example Chart:
 
 ![Airport Chart](../../assets/flypad/performance-landing-chart.png "Airport Chart"){loading=lazy}
 <sub>*Copyright © 2021 Navigraph / Jeppesen<br/>

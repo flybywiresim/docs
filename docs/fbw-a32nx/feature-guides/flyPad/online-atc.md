@@ -45,7 +45,7 @@ It lists all currently available ATC stations which can then be activated in the
 Go to the flyPad [ATSU/AOC settings page](settings.md#atsuaoc) and select your Online ATC service.
 
 !!! warning ""
-    Only VATSIM or IVAO are available at this time.
+    Only VATSIM or IVAO can be used for this feature at this time.
 
 Go back to the ATC page and see the list of the currently available ATC stations. Click on a station to set this frequency in the Captain's RMP.
 

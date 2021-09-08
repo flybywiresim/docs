@@ -45,11 +45,12 @@
     <a href="./failures/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 57.5%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Failures</span></div></a>
     <a href="./settings/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 88.0%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Settings</span></div></a>
 </div>
+Click on the menu icons in this image to see other flyPad pages.
 
 ## Description
 
 !!! warning "Please Note"
-    This guide covers the flyPad feature available in the latest FlyByWire [Development Version](../../fbw-versions.md#version-overview).
+    This guide covers the flyPad version and features available in the latest FlyByWire [Development Version](../../fbw-versions.md#version-overview).
 
     If you use the FlyByWire Stable version you might not have these features available.
 
@@ -59,25 +60,26 @@
     
     An EFB is intended primarily for cockpit/flightdeck or cabin use. For large and turbine aircraft, FAR 91.503 requires the presence of navigational charts on the airplane. If an operator's sole source of navigational chart information is contained on an EFB, the operator must demonstrate the EFB will continue to operate throughout a decompression event, and thereafter, regardless of altitude.
 
-The flyPad is FlyByWire's version of an EFB which allows the user to manage the aircraft and the flight by providing access to aircraft settings, flight plans, ground services, performance calculations,navigational charts, online ATC frequencies.
+The flyPad is FlyByWire's version of an EFB which allows the user to manage the aircraft and the flight by providing access to aircraft settings, flight plans, ground services, performance calculations,navigational charts, online ATC frequencies and more.
 
-The FlyByWire team is in the process of moving all aircraft settings to the EFB and to add more functionality on an ongoing basis.
+The FlyByWire team is in the process of moving all aircraft settings to the EFB and will also add more functionality in the near future.
 
 This documentation takes you through all pages and functions of the flyPad EFB.
 
-# General Usage
+![FlyByWire flyPad](../../assets/flypad/flypad-hero.png "FlyByWire flyPad")
 
-The flyPad is organize into several pages which are described below.
+## General Usage
 
-To **TURN ON** the flyPad you can either:
+The flyPad is organized into several pages. Links to their documentation are below.
 
-- Click anywhere on the screen.
-- Click on the "hardware" button on the top right of the tablet.
+To **TURN ON** and **TURN OFF** the flyPad you can either:
 
-To **TURN OFF** the flyPad you can either:
+!!! block ""
+    ![Flypad on off](../../assets/flypad/flypad-on-off.png "Flypad on off"){loading=lazy align=left}
 
-- Click on the battery symbol in the top right corner
-- Click on the "hardware" button on the top right of the tablet.
+    - To turn it on or off click on the "hardware" button on the top right of the tablet.
+    - To turn it on click anywhere on the screen.
+    - To turn it off click on the battery symbol in the top right corner.
 
 ## flyPad Pages
 
