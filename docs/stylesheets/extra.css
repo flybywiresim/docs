@@ -134,15 +134,15 @@ h4 {
 }
 
 /* for aligning image left or right with control over which text flows around */
-.md-typeset .admonition.block,
-.md-typeset details.block {
-    border-color: var(--md-default-bg-color);
-    background-color: var(--md-default-bg-color);
-    box-shadow: none;
-    font-size: .8rem;
-    margin: 0.5em 0;
-    padding: 0 .3rem;
-}
+ .md-typeset .admonition.block,
+ .md-typeset details.block {
+     border-color: var(--md-default-bg-color);
+     background-color: var(--md-default-bg-color);
+     box-shadow: none;
+     font-size: .8rem;
+     margin: 0.5em 0;
+     padding: 0 .3rem;
+ }
 .md-typeset .block > .admonition-title,
 .md-typeset .admonition-title .block, .md-typeset summary {
     background-color: var(--md-default-bg-color);
