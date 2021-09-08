@@ -238,7 +238,7 @@ Using **New** Cockpit Interaction System
 ## Package Separation Issues
 
 !!! tip ""
-    *Affected versions: Stable, Development*
+    *Affected versions: All versions*
 
 !!! warning "Liveries incompatible due to package separation"
 
@@ -253,12 +253,14 @@ Using **New** Cockpit Interaction System
     - See our guide to [liveries](../liveries.md)
     - Visit Flightsim.to with updated liveries [here](https://flightsim.to/c/liveries/flybywire-a32nx/){target=new}
 
-* Package separation or "fork" issues (*All Versions*):
+Package separation or "fork" issues:
 
-    ![New Aircraft](../assets/new-aircraft.png){width=50% align=right}
+!!! block ""
+    ![New Aircraft](../assets/new-aircraft.png){width=50% align=left loading=lazy}
 
     - Default aircraft showing
         - Solution: Select the **^^FlyByWire Simulations A320neo (LEAP)^^** in the aircraft selector instead of the Asobo one.
+
     - Invisible plane / Sounds not working / Installation issues
         - Workaround: Reinstall A32NX, delete any old version from your Community Folder. Ensure you are on Installer v1.2.0 or above.
 
