@@ -43,7 +43,7 @@ mklink /J C:\Users\USERNAME\AppData\Local\Packages\Microsoft.FlightSimulator_8we
 
 If this works, you'll receive the response:
 
-"Function created for [Community folder] [Project Folder]" from the terminal.
+"Junction created for [Community folder] [Project Folder]" from the terminal.
 
 Now you've compiled and symlinked your Github fork to your community folder, you should be able to load into the aircraft as normal. Open MSFS and check everything is working with your compiled branch before progressing.
 
