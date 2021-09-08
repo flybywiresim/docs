@@ -21,13 +21,31 @@
 
 !!! danger "No Support for Experimental - use at own risk"
 
-    Refer to this page for [Known Issues in the Experimental Version](http://127.0.0.1:8000/fbw-a32nx/support/exp/#known-issues) .
+    Refer to this page for [Known Issues in the Experimental Version](exp.md#known-issues).
 
-FBW Installer - [Download Here](https://api.flybywiresim.com/installer){target=new} / *Sim Version: 1.18.15.0*
+FBW Installer - [Download Here](https://api.flybywiresim.com/installer){target=new} / *Sim Version: 1.19.8.0*
 
 *Last Update: {{git_revision_date_localized}}*
 
 ---
+
+!!! warning "Important Notice"
+    If you have the following issues you are **most likely on stable**:
+
+    - White EFB screen
+    - PFD is missing bank angle protection indicators
+    - `NOT IN DATABASE` MCDU error
+    - External lights are not working
+
+    Go to your content manager and find our aircraft. If you see the following image:
+
+    ![content manager image](https://media.discordapp.net/attachments/828975068947939368/870365130335088660/unknown.png?width=1440&height=123)
+
+    Uninstall it and restart the sim. Reinstall development version from our installer.
+
+    <sub> You may install Stable v0.6.3 for compatibility. We recommend staying on development.
+
+    This information is stated on [Installation Guide](../installation.md).
 
 ## Latest Issues
 
@@ -99,28 +117,6 @@ Sometimes the sim will "*miss*" the trigger point being reached for outer tank f
 
 - Workaround: Add enough fuel to get past the trigger point of 239 gallons before departing.
 
----
-
-## SU5 Issues
-
-!!! warning "Important Notice"
-    If you have the following issues you are **most likely on stable**:
-
-    - White EFB screen
-    - PFD is missing bank angle protection indicators
-    - `NOT IN DATABASE` MCDU error
-    - External lights are not working
-
-    Go to your content manager and find our aircraft. If you see the following image:
-
-    ![content manager image](https://media.discordapp.net/attachments/828975068947939368/870365130335088660/unknown.png?width=1440&height=123)
-
-    Uninstall it and restart the sim. Reinstall development version from our installer.
-
-    <sub> You may install Stable v0.6.3 for compatibility. We recommend staying on development.
-
-    This information is stated on [Installation Guide](../installation.md).
-
 #### EFB Issues in External View
 
 !!! tip ""
@@ -189,12 +185,19 @@ Also see our [Throttle Calibration Guide](../feature-guides/throttle-calibration
 !!! tip ""
     *Affected versions: Stable, Development*
 
-The effects of non-standard day pressure and temperature on altitude in MSFS are inaccurate for SU5 affecting the following:
+### MSFS
 
-- In game ATC may still see you at a different altitude than what you see in the flight deck. This is reported to be fixed by Asobo in World Update 6.
+The effects of non-standard day pressure and temperature on altitude in MSFS were inaccurate during *Sim Update 5* affecting the following:
+
+- In game ATC may still see you at a different altitude than what you see in the flight deck. 
     - **Workaround:** Climb or descend a couple hundred feet at a time until the in game ATC stops requesting you to climb or descend.
 
-- VATSIM controllers may also see ou at a different altitude when you are below the transition altitude. We recommend including a note on your flight plan that you are using MSFS.
+!!! info ""
+    This is reported to be fixed by Asobo in current patch - **World Update 6**.
+
+### VATSIM
+
+- VATSIM controllers may also see you at a different altitude when you are below the transition altitude. We recommend including a note on your flight plan that you are using MSFS.
 
 !!! info ""
     VATSIM software is being modified to remedy this.
@@ -251,7 +254,10 @@ Using **New** Cockpit Interaction System
     - Visit Flightsim.to with updated liveries [here](https://flightsim.to/c/liveries/flybywire-a32nx/){target=new}
 
 * Package separation or "fork" issues (*All Versions*):
-    -  Default aircraft showing
+
+    ![New Aircraft](../assets/new-aircraft.png){width=50% align=right}
+
+    - Default aircraft showing
         - Solution: Select the **^^FlyByWire Simulations A320neo (LEAP)^^** in the aircraft selector instead of the Asobo one.
     - Invisible plane / Sounds not working / Installation issues
         - Workaround: Reinstall A32NX, delete any old version from your Community Folder. Ensure you are on Installer v1.2.0 or above.
