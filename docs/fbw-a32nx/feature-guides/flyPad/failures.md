@@ -34,6 +34,16 @@
 }
 </style>
 
+## Description
+
+This page is a prototype of failures simulation for the FlyByWire A32NX. It lays
+the foundation for future failure scenarios in the aircraft which will be configured
+on this page.
+
+This page will therefore change along the implementation of the failure system.
+
+See the developer description for this feature: [Feature Failures](https://github.com/flybywiresim/a32nx/pull/5359){target=new}
+
 <div style="position: relative;">
     <img src="/fbw-a32nx/assets/flypad/flypad-failures.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.3%; top:  8.3%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Dashboard</span></div></a>
@@ -46,3 +56,6 @@
     <a href="../settings/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 88.0%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Settings</span></div></a>
 </div>
 
+## Usage
+
+Just click on the desired failure to simulate it. It turns red when activated.
