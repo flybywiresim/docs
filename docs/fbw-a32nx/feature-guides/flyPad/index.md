@@ -48,6 +48,10 @@
 
 ## Description
 
+!!! warning "Please Note"
+    This guide covers the flyPad feature available in the latest FlyByWire [Development Version](../../fbw-versions.md#version-overview).
+
+    If you use the FlyByWire Stable version you might not have these features available.
 
 !!! abstract "From Wikipedia: [Electronic Flight Bag](https://en.wikipedia.org/wiki/Electronic_flight_bag){target=new}:"
 
