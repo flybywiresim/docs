@@ -61,8 +61,16 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer){target=n
 !!! tip ""
     *Affected versions: Stable, Development*
 
-- May be larger than normal at higher than ISA temps.
+- May be larger than normal
 - *Under Investigation*
+
+#### Fuel Prediction
+
+!!! tip ""
+    *Affected versions: Stable, Development*
+
+- Prediction numbers in the F-PLN and FUEL PRED pages are inaccurate. 
+- *A fix is in the works.*
 
 #### Toolbar Pushback Addon
 
