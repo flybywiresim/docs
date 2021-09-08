@@ -144,7 +144,7 @@ h4 {
      padding: 0 .3rem;
  }
 .md-typeset .block > .admonition-title,
-.md-typeset .admonition-title, .md-typeset summary {
+.md-typeset .admonition-title .block, .md-typeset summary {
     background-color: var(--md-default-bg-color);
     border-color: var(--md-default-bg-color);
     border-left: .2rem solid #448aff;
