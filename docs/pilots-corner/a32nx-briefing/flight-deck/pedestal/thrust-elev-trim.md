@@ -10,9 +10,9 @@
 
 ## Description
 
-The A320 has so called FADACs which stands for Full Authority Digital Engine Control and is responsible to ensure the engine to perform at maximum efficiency for the given condition.
+The A320 has so called FADECs which stands for Full Authority Digital Engine Control and is responsible to ensure the engine to perform at maximum efficiency for the given condition.
 
-As one FADAC dedicated to each engine controls the engines' operation the pilots or the FMGS can set the thrust. The pilot uses the thrust levers when in manual mode and the FMGS sets the thrust in automatic mode (A/THR aka Autothrust).
+As one FADEC dedicated to each engine controls the engines' operation the pilots or the FMGS can set the thrust. The pilot uses the thrust levers when in manual mode and the FMGS sets the thrust in automatic mode (A/THR aka Autothrust).
 
 The thrust levers in the A320 can only be moved manually and are not moved by an autothrottle system as it does in Boeing aircraft.
 
