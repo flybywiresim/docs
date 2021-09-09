@@ -1,13 +1,13 @@
 # FlyByWire Development Guide - Overview
 
-##  Topics:
+##  Topics / Notes:
 
-- Resources
+- Resources (page)
     - Github Repo(s)
     - Discord dev-support and other channels
     - Tools (WebUI-DevKit, devtools-backend-refurb)
     - Gauge Reference (P3D XML Gauge Reference - still applies to FS2020)
-- Setting up Development Environment
+- Setting up Development Environment (page)
     - Required Software, Tools and libraries
         - git / github
         - Docker
@@ -20,7 +20,7 @@
     - Quick reloading of avionics displays
     - Tips & Tricks
     - Troubleshooting
-- Contribution Guidelines
+- Contribution Guidelines (page)
     - General Development Process and Practices
         - FBW Process (e.g. PR->Code Review->QA->merge)
         - Helping others
@@ -32,7 +32,7 @@
     - Testing
     - Pull Requests
     - References Material (real life aircraft)
-- Specific Development areas:
+- Specific Development areas (page)
     - Avionics
     - flyPad
     - JavaScript
