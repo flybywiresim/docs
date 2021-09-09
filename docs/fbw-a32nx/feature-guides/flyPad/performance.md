@@ -51,7 +51,7 @@ Example:
 
 #### Distance to Fix
 
-To calculate the TOD with a fixed distance to the a specific fix we have to enter the starting altitude and the desired target altitude and also the distance to the target fix.
+To calculate the TOD with a fixed distance to a specific fix we have to enter the starting altitude, the desired target altitude, and the distance to the target fix.
 
 Example:
 
