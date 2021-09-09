@@ -29,7 +29,7 @@ There are several scenarios for the TOD Calculation:
 3. Fixed Rate of Descent:
     - Descending from altitude X to altitude Y within a fixed vertical speed (e.g. -2.000ft/min)
 
-Depending on the scenarios ground speeds are included in the calculation to take into account that during descent we usually also slow down at some point.
+Depending on the scenario, ground speeds are included in the calculation to take into account that we usually also slow down at some point during descent.
 
 The flyPad TOD calculator can be used for all of these scenarios.
 
