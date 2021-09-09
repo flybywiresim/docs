@@ -65,4 +65,4 @@ Press the "play" symbol to start the refuelling process (de-fueling if the new q
 
 ![flyPad Fuel Page Fuel Time](../../assets/flypad/fuel-time.png "flyPad Fuel Page Fuel Time")
 
-Set this setting to the desired duration of refueling. Either unrealistic but instant refueling (Instant), realistic refuel time (Real) or a middle ground (Fast).
+Set this setting to the desired duration of refueling. Either instant refueling (Instant - but unrealistic), realistic refuel time (Real) or a middle ground (Fast).
