@@ -6,7 +6,7 @@ This page is a prototype for utilizing failures simulation for the FlyByWire A32
 the foundation for future failure scenarios in the aircraft which will be configured
 on this page.
 
-This page will therefore change along the implementation of the failure system.
+This page will therefore change alongside the implementation of the failure system.
 
 See the developer description for this feature: [Feature Failures](https://github.com/flybywiresim/a32nx/pull/5359){target=new}
 
