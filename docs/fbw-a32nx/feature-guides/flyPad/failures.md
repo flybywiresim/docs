@@ -2,7 +2,7 @@
 
 ## Description
 
-This page is a prototype of failures simulation for the FlyByWire A32NX. It lays
+This page is a prototype for utilizing failures simulation for the FlyByWire A32NX. It lays
 the foundation for future failure scenarios in the aircraft which will be configured
 on this page.
 
