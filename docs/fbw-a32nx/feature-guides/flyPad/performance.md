@@ -1,39 +1,5 @@
 # flyPad Performance
 
-<style>
-.imagemap {
-    position: relative;
-    display: inline-block;
-    /*background-color: rgba(255, 0, 0, .4);*/
-    /*border: 1px solid yellow;*/
-}
-.imagemap .imagemapname {
-  visibility: hidden;
-
-  background-color: rgba(29, 30, 38, 0.9);
-  color: rgba(212, 212, 213, 1);
-  text-align: center;
-  padding: 5px 0;
-  border-radius: 6px;
-  border: 1px solid #00C2CC;
-
-  /* Position the tooltip text - see examples below! */
-  position: absolute;
-  z-index: 1;
-  width: 200px;
-  top: 5%;
-  left: 300%;
-  margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
-}
-.imagemap:hover .imagemapname {
-    visibility: visible;
-}
-.imagemap:hover {
-    background-color: rgba(10, 144, 153, 0.30);
-    border: 1px solid #00C2CC;
-}
-</style>
-
 ## Top of Descent Calculator
 
 This calculator helps the pilot to calculate when to start descending (aka the Top of Descent) based on various variables so that different scenarios can be calculated (e.g. descending with 3° descent rate, descending with a given vertical speed, etc.).
