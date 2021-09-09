@@ -41,7 +41,7 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer){target=n
 #### Using the *"Pounds (lbs)"* on the EFB
 
 !!! tip ""
-    *Affected versions: Stable, Development*
+    *Affected versions: Stable, Development, Experimental*
 
 The lbs weight setting on the EFB may cause the following issues.
 
@@ -63,7 +63,7 @@ The lbs weight setting on the EFB may cause the following issues.
 #### Toolbar Pushback Addon
 
 !!! tip ""
-    *Affected versions: Stable, Development*
+    *Affected versions: Stable, Development, Experimental*
 
 May cause unwanted behavior and prevent use of nose wheel steering.
 
@@ -74,14 +74,14 @@ May cause unwanted behavior and prevent use of nose wheel steering.
 #### Custom Autopilot Unwanted Disconnection
 
 !!! tip ""
-    *Affected versions: Development*
+    *Affected versions: Development, Experimental*
 
 - Excessive speed decay during level off from open descent can lead to unwanted autothrust disconnection or even alpha floor in certain high drag/low speed situations. *Currently under investigation.*
 
 #### Unwanted behavior - UTF8
 
 !!! tip ""
-    *Affected versions: Stable, Development*
+    *Affected versions: Stable, Development, Experimental*
 
 Affects our custom autopilot, FADEC, and electrical system
 
@@ -96,7 +96,7 @@ Affects our custom autopilot, FADEC, and electrical system
 #### ADIRS - Runway
 
 !!! tip ""
-    *Affected versions: Development*
+    *Affected versions: Development, Experimental*
 
 ADIRS may not be aligned when spawning anywhere except cold & dark at a gate (*intermittent issue*)
 
@@ -105,7 +105,7 @@ ADIRS may not be aligned when spawning anywhere except cold & dark at a gate (*i
 #### Outer Tank Fuel Transfer
 
 !!! tip ""
-    *Affected versions: Stable, Development*
+    *Affected versions: Stable, Development, Experimental*
 
 Sometimes the sim will "*miss*" the trigger point being reached for outer tank fuel transfer to initialize. This may happen if the sim is "busy" when working with something else OR initial FOB at the start of flight is below the trigger point.
 
@@ -138,26 +138,26 @@ Sometimes the sim will "*miss*" the trigger point being reached for outer tank f
 #### Printing METAR Reports May Cause a CTD
 
 !!! tip ""
-    *Affected versions: Stable, Development*
+    *Affected versions: Stable, Development, Experimental*
 
 - Intermittent / Single time event only
 - *Under investigation*
 
-#### Freelook with Mouse
+#### Freelook with Mouse <!-- Was apparently fixed in WU6, Can move this to fixed issues list if you want -->
 
 !!! tip ""
-    *Affected versions: Stable, Development*
+    *Affected versions: Stable, Development, Experimental* 
 
-Using freelook may cause controls to freeze.
+Using freelook may cause controls to freeze. 
 
-- Workaround: Try setting `TOGGLE COCKPIT FREELOOK` to your mouse ++middle-button++. Reference: [MSFS Forum Post](https://forums.flightsimulator.com/t/freelook-with-mouse-causes-controls-to-freeze-after-su5/426349/15){target=new}
+- Workaround: Try setting `TOGGLE COCKPIT FREELOOK` to your mouse ++middle-button++. Reference: [MSFS Forum Post](https://forums.flightsimulator.com/t/freelook-with-mouse-causes-controls-to-freeze-after-su5/426349/15){target=new} 
 
 #### Cockpit Decals Flicker
 
 !!! tip ""
-    *Affected versions: Stable, Development*
+    *Affected versions: Stable, Development, Experimental*
 
-- Solution: Update to the latest Stable or Development version.
+- Solution: Update to the latest Stable, Development or version.
 
 #### Strobe Light Function Reversed
 
@@ -171,7 +171,7 @@ When strobe lights are set to `OFF` but the lights are on when starting on the r
 #### TCA (Thrustmaster) hardware
 
 !!! tip ""
-    *Affected versions: Stable, Development*
+    *Affected versions: Stable, Development, Experimental*
 
 Can't start engines:
 
@@ -189,10 +189,10 @@ Also see our [Throttle Calibration Guide](../feature-guides/throttle-calibration
 
 ---
 
-## Altitude Issues
+## Altitude Issues <!-- Was apparently fixed with WU6, can move to fixed issues list if you want -->
 
 !!! tip ""
-    *Affected versions: Stable, Development*
+    *Affected versions: Stable, Development, Experimental*
 
 The effects of non-standard day pressure and temperature on altitude in MSFS are inaccurate for SU5 affecting the following:
 
@@ -209,7 +209,7 @@ The effects of non-standard day pressure and temperature on altitude in MSFS are
 ## Cockpit Interaction System
 
 !!! tip ""
-    *Affected versions: Stable, Development*
+    *Affected versions: Stable, Development, Experimental*
 
 !!! info "**Legacy** Cockpit Interaction System"
     If you want to use the old method of interacting with the cockpit before Sim Update 5:
@@ -240,11 +240,11 @@ Using **New** Cockpit Interaction System
 ## Package Separation Issues
 
 !!! tip ""
-    *Affected versions: Stable, Development*
+    *Affected versions: Stable, Development, Experimental*
 
 !!! warning "Liveries incompatible due to package separation"
 
-    **Affects all versions of the A32NX (Stable, Development)**
+    **Affects all versions of the A32NX (Stable, Development, Experimental)**
 
     Liveries made for the default A320neo will no longer function in the new FlyByWire package. Liveries will need to be converted by their respective authors.
 
@@ -268,7 +268,7 @@ Using **New** Cockpit Interaction System
 #### NOT IN DATABASE when Loading Flight Plan
 
 !!! tip ""
-    *Affected versions: Stable, Development*
+    *Affected versions: Stable, Development, Experimental*
 
 - Upgrade to the latest A32NX package (stable or development).
 - Install/uninstall Navigraph data with the Navigraph Navdata Center application.
@@ -277,7 +277,7 @@ Using **New** Cockpit Interaction System
 #### AP not Following the Flight Plan
 
 !!! tip ""
-    *Affected versions: Stable, Development*
+    *Affected versions: Stable, Development, Experimental*
 
 - Caused by leaking input from controller, but doesn't disconnect the AP
 - Workaround: Set dead-zones for your input device higher
@@ -297,14 +297,14 @@ Using **New** Cockpit Interaction System
 #### CTD when pressing **FLY** on world menu
 
 !!! tip ""
-    *Affected versions: Stable, Development*
+    *Affected versions: Stable, Development Experimental*
 
 - Check your content manager for missing packages
 
 #### Plane is Invisible
 
 !!! tip ""
-    *Affected versions: Stable, Development*
+    *Affected versions: Stable, Development, Experimental*
 
 - Check your content manager for missing packages
 - Livery/Mod Conflict
@@ -312,7 +312,7 @@ Using **New** Cockpit Interaction System
 #### Rudder Keybindings not Working
 
 !!! tip ""
-    *Affected versions: Stable, Development*
+    *Affected versions: Stable, Development, Experimental*
 
 - You have to set your keybinding to rudder axis right and left
 
@@ -327,7 +327,7 @@ Using **New** Cockpit Interaction System
 #### Black Screens / Unable to Start
 
 !!! tip ""
-    *Affected versions: Stable, Development*
+    *Affected versions: Stable, Development, Experimental*
 
 - Conflict with another mod/livery or incorrect installation of the A32NX add-on
 - Use our [installer](https://api.flybywiresim.com/installer){target=new}
@@ -337,12 +337,12 @@ Using **New** Cockpit Interaction System
 !!! tip ""
     *Affected versions: Stable*
 
-- Solved in Development version after calibrating the throttle.
+- Solved in Development and Experimental versions after calibrating the throttle.
 
 #### Incompatibilities
 
 !!! tip ""
-    *Affected versions: Stable, Development*
+    *Affected versions: Stable, Development, Experimental*
 
 - ASOBO *Aviator/Beta Club* A320 liveries are incompatible with the A32NX add-on
 - Wipers don't function correctly with converted FSX Liveries
@@ -352,7 +352,7 @@ Using **New** Cockpit Interaction System
 ## MSFS Live Weather
 
 !!! tip ""
-    *Affected versions: Stable, Development*
+    *Affected versions: Stable, Development, Experimental*
 
 If the live weather feature is experiencing issues you may experience the following:
 
@@ -371,7 +371,7 @@ You will typically see higher or excessive fuel flow alongside exceedingly high 
 ## CTD Resolution
 
 !!! tip ""
-    *Affected versions: Stable, Development*
+    *Affected versions: Stable, Development, Experimental*
 
 Crash to desktop (CTD) can either be a sim issue or a conflict with the A32NX. There also is currently no known guaranteed solution, however users have found success with by trying the following:
 
