@@ -66,7 +66,7 @@ Example:
 
 #### Rate of Descent
 
-To calculate the TOD with a fixed vertical speed (rate of descent) we have to enter the starting altitude and the desired target altitude and also the desired vertical speed.
+To calculate the TOD with a fixed vertical speed (rate of descent) we have to enter the starting altitude, the desired target altitude, and the desired vertical speed.
 
 Example:
 
