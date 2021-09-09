@@ -40,7 +40,8 @@ Calls a ground power unit (GPU) if available at the current airport and gate or 
 
 Calls the fuel truck if available at the current airport. It will take quite a while until the fuel truck while arrive. 5-10 minutes is not unusual. When the fuel truck arrives the MSFS fuel page appears.
 
-It is not necessary to use this with the FlyByWire A32NX as fuel can be loaded through the MCDU ([MCDU Load Fuel & Payload](../../../pilots-corner/beginner-guide/preparing-mcdu.md#load-fuel-and-payload)), the flyPad [Fuel page](dispatch.md#fuel-page) or simply the MSFS fuel dialog.
+!!! warning ""
+    We recommend to not use the MSFS Fuel Page with the FlyByWire A32NX as fuel and payload should be loaded through the MCDU ([MCDU Load Fuel & Payload](../../../pilots-corner/beginner-guide/preparing-mcdu.md#load-fuel-and-payload)).
 
 ### Door Aft
 
