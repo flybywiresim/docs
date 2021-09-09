@@ -47,7 +47,7 @@ Example:
 
 ![flyPad Performance TOD Calculator](../../assets/flypad/performance-tod-angle.png "flyPad Performance TOD Calculator"){loading=lazy}
 
-**Result: We need to start our descent ^^88NM^^ before the target fix at which we want to reach 11.000ft. **
+**Result: We need to start our descent ^^88NM^^ before the target fix at which we want to reach 11.000ft.**
 
 #### Distance to Fix
 
