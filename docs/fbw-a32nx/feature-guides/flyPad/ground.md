@@ -4,7 +4,7 @@
 
 This page allows managing ground operation similar to the in-sim ATC ground services but without having to use the in-sim ATC.
 
-It also has more and better features as the default sim ground services.
+It also has more and better features than the default sim ground services.
 
 <div style="position: relative;">
     <img src="/fbw-a32nx/assets/flypad/flypad-ground.png" style="width: 100%; height: auto;" loading="lazy">
