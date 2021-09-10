@@ -66,7 +66,7 @@ Settings for simulation aspects of the A32NX aircraft.
 
 ### Usage
 
-- ADRIS Align Time:
+- ADIRS Align Time:
     - User can set this to either a realistic time (~8min), a faster time (~2min) or instant.
 - DMC Self Test Time:
     - User can set the time for the Display Management Computer's self test (Real ~15sec, Fast ~5sec, Instant).

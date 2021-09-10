@@ -33,7 +33,7 @@ Depending on the scenario, ground speeds are included in the calculation to take
 
 The flyPad TOD calculator can be used for all of these scenarios.
 
-#### Angel of Descent
+#### Angle of Descent
 
 To calculate the TOD with a fixed angle of descent we simply have to enter the starting altitude and the desired target altitude.
 We can also enter a certain angle other than 3°. But 3° is a common standard descent angle in aviation and rarely needs to be changed.

@@ -35,7 +35,12 @@ The OFP (Operational Flight Plan) will be displayed on this page after importing
 !!! block "Zoom"
     ![flyPad OFP Page Zoom](../../assets/flypad/ofp-zoom.png "flyPad OFP Page Zoom"){align=left}
 
-    The OFP can be zoomed in and out with these buttons. 
+    The OFP can be zoomed in and out with these buttons.
+
+!!! block "Scroll"
+    ![flyPad OFP Scrollbar](../../assets/flypad/ofp-scroll.png "flyPad OFP Scrollbar"){align=left}
+
+    You can scroll through the OFP by using the scrollbar on the right. 
 
 ## Fuel Page
 

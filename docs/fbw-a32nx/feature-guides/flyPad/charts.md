@@ -1,4 +1,4 @@
-# flyPad Naviagtion & Charts
+# flyPad Navigation & Charts
 
 ## Navigraph Integration
 
@@ -22,6 +22,6 @@ Before you can use the Navigraph integration the flyPad will ask you once to aut
 
 When authenticated successfully you can enter the desired airport ICAO into the search field and as soon as a valid ICAO code is entered the corresponding airport is highlighted in the cyan box.
 
-You can now chose the required chart in a similar way as in the Navigraph client.
+You can now choose the required chart in a similar way as in the Navigraph client.
 
 The chart window allows maximizing, switching between dark mode and light mode and also zooming and panning (with mouse button pressed).

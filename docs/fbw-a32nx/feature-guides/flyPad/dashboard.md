@@ -30,10 +30,16 @@ It has three sections:
 
 ### Load From simBrief
 
-!!! block ""
-    ![From simBrief](../../assets/flypad/load-from-simbrief.png)
+![From simBrief](../../assets/flypad/load-from-simbrief.png)
 
 If you have [configured](settings.md) your simBrief account correctly, you can click the above button to load your last simBrief flight plan into the flyPad. This does not load the flight plan into the MCDU - you need to load it there separately (see [MCDU simBrief Integration](../../../pilots-corner/beginner-guide/preparing-mcdu.md#a32nx-simbrief-integration)) .
+
+### LINK MCDU
+
+![INOP Link MCDU](../../assets/flypad/link-mcdu.png "INOP Link MCDU")
+
+!!! attention ""
+    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### Map Zoom and Tools
 
