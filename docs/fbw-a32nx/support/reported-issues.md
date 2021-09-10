@@ -36,12 +36,15 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer){target=n
     - PFD is missing bank angle protection indicators
     - `NOT IN DATABASE` MCDU error
     - External lights are not working
+    - Invisible Aircraft
 
     Go to your content manager and find our aircraft. If you see the following image:
 
     ![content manager image](https://media.discordapp.net/attachments/828975068947939368/870365130335088660/unknown.png?width=1440&height=123)
 
     Uninstall it and restart the sim. Reinstall development version from our installer.
+
+    Your content manager 
 
     <sub> You may install Stable v0.6.3 for compatibility. We recommend staying on development.
 
