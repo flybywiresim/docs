@@ -184,7 +184,7 @@ Can't start engines:
 
 ![throttle config image](https://cdn.discordapp.com/attachments/754130199804772372/869697814458945546/unknown.png)
 
-Also see our [Throttle Calibration Guide](../feature-guides/throttle-calibration.md)
+Also see our [Throttle Calibration Guide](../feature-guides/flyPad/throttle-calibration.md)
 
 ---
 
