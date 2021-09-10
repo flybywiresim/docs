@@ -16,6 +16,14 @@
     - [Collecting Support Information](index.md#collecting-support-information)
 
     ---
+
+    Please visit the dedicated Autopilot / Fly-By-Wire page for more information:
+
+    - [**Main Page**](../feature-guides/autopilot-fbw.md)
+    - [**Typical Issues + Solutions**](../feature-guides/autopilot-fbw.md#typical-issues-and-how-to-solve-them)
+    - [**Known Issues**](../feature-guides/autopilot-fbw.md#known-issues)
+
+    ---
     
     Do this before reporting bugs.
 
@@ -32,18 +40,14 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer){target=n
 
 ## Latest Issues
 
-!!! info "Autopilot / Fly-By-Wire Issues"
-    Please visit the dedicated Autopilot / Fly-By-Wire page for more information:
-
-    - [**Main Page**](../feature-guides/autopilot-fbw.md)
-    - [**Typical Issues + Solutions**](../feature-guides/autopilot-fbw.md#typical-issues-and-how-to-solve-them)
-    - [**Known Issues**](../feature-guides/autopilot-fbw.md#known-issues)
-
-#### Several Installs or Old Installs of A32NX aircraft
+#### Installation Version Conflicts
 
 !!! error "Hot Issue"
 
-If you have the following issues you are **most likely on stable** or you have an **installation conflict**:
+!!! tip ""
+    *Affected versions: Stable, Development*
+
+If you have the following issues you are **most likely on an outdated stable** or you have an **installation conflict**:
 
 - White EFB screen
 - PFD is missing bank angle protection indicators
@@ -55,12 +59,11 @@ Go to your content manager and filter for "flybywire" as you see on the followin
 
 ![version sample](../assets/version-sample.jpg)
 
-If you see old versions (e.g. 0.6.1) or if you have multiple installs of the A32NX please uninstall them in the Content Manager and restart the sim. Reinstall development version from our installer.
+If you see old versions (e.g. v0.6.1) or if you have multiple installations of the A32NX please uninstall them in the Content Manager and restart the sim. Reinstall development version from our [installer](https://api.flybywiresim.com/installer){target=new}.
 
 <sub> You may install Stable v0.6.3 for compatibility. We recommend staying on development.
 
 Information on how to install with the FlyByWire Installer can be found here: [Installation Guide](../installation.md).
-
 
 #### Fuel Consumption
 
