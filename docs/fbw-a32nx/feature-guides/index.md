@@ -6,7 +6,7 @@ It is not a complete collection of all features but a growing list which is exte
 
 Topics:
 
-- [Throttle Calibration](throttle-calibration.md)
+- [Throttle Calibration](flyPad/throttle-calibration.md)
 - [Autopilot and fly-by-wire](autopilot-fbw.md)
 - [MCDU Keyboard Support](mcdu-keyboard.md)
 
