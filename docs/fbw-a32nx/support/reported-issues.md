@@ -44,6 +44,9 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer){target=n
 
 !!! error "Hot Issue"
 
+!!! tip ""
+    *Affected versions: Stable, Development*
+
 If you have the following issues you are **most likely on an outdated stable** or you have an **installation conflict**:
 
 - White EFB screen
