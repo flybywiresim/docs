@@ -157,3 +157,8 @@ h4 {
 .md-typeset .block > summary::before {
     height: 0rem;
 }
+
+/* Tasklist */
+ .md-typeset [type=checkbox]:checked+.task-list-indicator:before {
+    background-color: #00A2AB;
+}
