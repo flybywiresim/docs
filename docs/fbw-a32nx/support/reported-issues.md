@@ -44,7 +44,9 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer){target=n
 
     Uninstall it and restart the sim. Reinstall development version from our installer.
 
-    Your content manager 
+    Always make sure that there is only **one A32NX installed** and that it is listed as "Community" as shown below:
+
+    ![version sample](../assets/version-sample.jpg)
 
     <sub> You may install Stable v0.6.3 for compatibility. We recommend staying on development.
 
