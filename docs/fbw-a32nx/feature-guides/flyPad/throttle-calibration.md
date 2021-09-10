@@ -80,7 +80,7 @@ Use the numbers in this image in the following text.
 
         Remove any mapping to these settings by double clicking the entry and choosing **CLEAR CURRENT INPUT**.
 
-        ![Clear-Current-Input](../../assets/throttle-calibration/Clear-Current-Input.jpg "Clear-Current-Input"){loading=lazy}
+        ![Clear-Current-Input](../../assets/flypad/throttle-calibration/Clear-Current-Input.jpg "Clear-Current-Input"){loading=lazy}
 
     Look for `THROTTLE 1 AXIS` and `THROTTLE 2 AXIS` and map it like this **(4)**:
 

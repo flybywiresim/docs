@@ -46,7 +46,7 @@ plugins:
         'start/performance-tips.md': 'fbw-a32nx/support/performance-tips.md'
         'start/faq.md': 'fbw-a32nx/support/faq.md'
         'start/mcdu-keyboard.md': 'fbw-a32nx/feature-guides/mcdu-keyboard.md'
-        'start/throttle-calibration.md': 'fbw-a32nx/feature-guides/throttle-calibration.md'
+        'start/throttle-calibration.md': 'fbw-a32nx/feature-guides/flyPad/throttle-calibration.md'
         'start/autopilot-fbw.md': 'fbw-a32nx/feature-guides/autopilot-fbw.md'
         'start/exp.md': 'fbw-a32nx/support/exp.md'
         # Folder: /beginner-guide/
