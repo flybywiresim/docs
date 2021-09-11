@@ -23,7 +23,7 @@ It has three sections:
 - Left:
     - Shows the currently loaded flight plan or dashes if none is loaded.
 - Right Top:
-    - Shows current METAR information for the loaded origin and destination airport.
+    - Shows current METAR information for the loaded origin and destination airports.
 - Right Bottom:
     - Moving map with your current location marked by a blue plane symbol.
     - Shows the current weather on the map.
