@@ -16,6 +16,14 @@
     - [Collecting Support Information](index.md#collecting-support-information)
 
     ---
+
+    Please visit the dedicated Autopilot / Fly-By-Wire page for more information:
+
+    - [**Main Page**](../feature-guides/autopilot-fbw.md)
+    - [**Typical Issues + Solutions**](../feature-guides/autopilot-fbw.md#typical-issues-and-how-to-solve-them)
+    - [**Known Issues**](../feature-guides/autopilot-fbw.md#known-issues)
+
+    ---
     
     Do this before reporting bugs.
 
@@ -29,32 +37,33 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer){target=n
 
 ---
 
-!!! warning "Important Notice"
-    If you have the following issues you are **most likely on stable**:
-
-    - White EFB screen
-    - PFD is missing bank angle protection indicators
-    - `NOT IN DATABASE` MCDU error
-    - External lights are not working
-
-    Go to your content manager and find our aircraft. If you see the following image:
-
-    ![content manager image](https://media.discordapp.net/attachments/828975068947939368/870365130335088660/unknown.png?width=1440&height=123)
-
-    Uninstall it and restart the sim. Reinstall development version from our installer.
-
-    <sub> You may install Stable v0.6.3 for compatibility. We recommend staying on development.
-
-    This information is stated on [Installation Guide](../installation.md).
 
 ## Latest Issues
 
-!!! info "Autopilot / Fly-By-Wire Issues"
-    Please visit the dedicated Autopilot / Fly-By-Wire page for more information:
+#### Installation Version Conflicts
 
-    - [**Main Page**](../feature-guides/autopilot-fbw.md)
-    - [**Typical Issues + Solutions**](../feature-guides/autopilot-fbw.md#typical-issues-and-how-to-solve-them)
-    - [**Known Issues**](../feature-guides/autopilot-fbw.md#known-issues)
+!!! error "Hot Issue"
+
+!!! tip ""
+    *Affected versions: Stable, Development*
+
+If you have the following issues you are **most likely on an outdated stable** or you have an **installation conflict**:
+
+- White EFB screen
+- PFD is missing bank angle protection indicators
+- `NOT IN DATABASE` MCDU error
+- External lights are not working
+- Invisible Aircraft
+
+Go to your content manager and filter for "flybywire" as you see on the following image.
+
+![version sample](../assets/version-sample.jpg){loading=lazy}
+
+If you see old versions (e.g. v0.6.1) or if you have multiple installations of the A32NX please uninstall them in the Content Manager and restart the sim. Reinstall development version from our [installer](https://api.flybywiresim.com/installer){target=new}.
+
+<sub> You may install Stable v0.6.3 for compatibility. We recommend staying on development.
+
+Information on how to install with the FlyByWire Installer can be found here: [Installation Guide](../installation.md).
 
 #### Fuel Consumption
 
