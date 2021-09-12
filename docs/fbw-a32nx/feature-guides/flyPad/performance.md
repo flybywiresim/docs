@@ -67,6 +67,9 @@ Example:
 **Result: We need to start our descent 90NM before the target fix with either an average
 of ^^vertical speed of -2.333ft/min^^ or an average ^^descent angle of -2.9°^^** during the descent distance.
 
+!!! note ""
+    The above result is averaged over the descent distance and the values are approximations. For more precision use one of the other two methods.
+
 #### Rate of Descent
 
 To calculate the TOD with a fixed vertical speed (rate of descent) we have to enter the starting altitude, the desired target altitude, and the desired vertical speed.
