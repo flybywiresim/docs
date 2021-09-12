@@ -32,28 +32,28 @@ Controls the APU operation and its start- and shutdown sequence.
     - Air inlet flap closes at 7%
 - FAULT Lt:
     - Amber light and ECAM warning message, if an automatic APU shutdown occurs. Possible causes:
-        -Air inlet flap closed
-        -Clogged oil filter
-        -DC power lost (BAT OFF when aircraft on batteries only)
-        -ECB failure
-        -EGT overtemperature
-        -Fire (on ground only)
-        -High oil temperature
-        -IGV failure
-        -Inlet overheat
-        -Loss of EGT thermocouples
-        -Loss of overspeed protection
-        -Low oil pressure
-        -No acceleration
-        -No flame
-        -No speed
-        -Oil system shutdown
-        -Overcurrent
-        -Overspeed
-        -Reverse flow
-        -Sensor failure
-        -Slow start
-        -Underspeed
+        - Air inlet flap closed
+        - Clogged oil filter
+        - DC power lost (BAT OFF when aircraft on batteries only)
+        - ECB failure
+        - EGT overtemperature
+        - Fire (on ground only)
+        - High oil temperature
+        - IGV failure
+        - Inlet overheat
+        - Loss of EGT thermocouples
+        - Loss of overspeed protection
+        - Low oil pressure
+        - No acceleration
+        - No flame
+        - No speed
+        - Oil system shutdown
+        - Overcurrent
+        - Overspeed
+        - Reverse flow
+        - Sensor failure
+        - Slow start
+        - Underspeed
 
 ### START
 
