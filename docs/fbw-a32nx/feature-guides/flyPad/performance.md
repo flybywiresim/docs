@@ -8,15 +8,17 @@ For more information about descent and approach planning see our guide: [Descent
 
 <div style="position: relative;">
     <img src="/fbw-a32nx/assets/flypad/flypad-performance-tod.png" style="width: 100%; height: auto;" loading="lazy">
-    <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.3%; top:  8.3%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Dashboard</span></div></a>
-    <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 16.5%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Dispatch</span></div></a>
-    <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 24.7%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Ground</span></div></a>
-    <a href="../performance/"> <div class="imagemap" style="position: absolute; left: 1.3%; top: 32.8%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Performance</span></div></a>
-    <a href="../charts/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 41.0%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Navigation & Charts</span></div></a>
-    <a href="../online-atc/">  <div class="imagemap" style="position: absolute; left: 1.3%; top: 49.3%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Online ATC</span></div></a>
-    <a href="../failures/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 57.5%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Failures</span></div></a>
-    <a href="../settings/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 88.0%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Settings</span></div></a>
+    <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.3%; top:  7.7%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Dashboard</span></div></a>
+    <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 15.6%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Dispatch</span></div></a>
+    <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 23.5%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Ground</span></div></a>
+    <a href="../performance/"> <div class="imagemap" style="position: absolute; left: 1.3%; top: 31.4%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Performance</span></div></a>
+    <a href="../charts/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 39.3%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Navigation & Charts</span></div></a>
+    <a href="../online-atc/">  <div class="imagemap" style="position: absolute; left: 1.3%; top: 47.2%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Online ATC</span></div></a>
+    <a href="../failures/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 55.1%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Failures</span></div></a>
+    <a href="../settings/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 84.1%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Settings</span></div></a>
+    <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
+
 
 ### Usage
 
@@ -62,7 +64,11 @@ Example:
 
 ![flyPad Performance TOD Calculator](../../assets/flypad/performance-tod-distance.png "flyPad Performance TOD Calculator"){loading=lazy}
 
-**Result: We need to start our descent 90NM before the target fix with either a ^^vertical speed of -2.333ft/min^^ or a ^^descent angle of -2.9°^^**
+**Result: We need to start our descent 90NM before the target fix with either an average
+of ^^vertical speed of -2.333ft/min^^ or an average ^^descent angle of -2.9°^^** during the descent distance.
+
+!!! note ""
+    The above result is averaged over the descent distance and the values are approximations. For more precision use one of the other two methods.
 
 #### Rate of Descent
 
@@ -108,15 +114,17 @@ This calculation factors in wind, runway condition, aircraft weight and several 
 
 <div style="position: relative;">
     <img src="/fbw-a32nx/assets/flypad/flypad-performance-landing.png" style="width: 100%; height: auto;" loading="lazy">
-    <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.3%; top:  8.3%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Dashboard</span></div></a>
-    <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 16.5%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Dispatch</span></div></a>
-    <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 24.7%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Ground</span></div></a>
-    <a href="../performance/"> <div class="imagemap" style="position: absolute; left: 1.3%; top: 32.8%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Performance</span></div></a>
-    <a href="../charts/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 41.0%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Navigation & Charts</span></div></a>
-    <a href="../online-atc/">  <div class="imagemap" style="position: absolute; left: 1.3%; top: 49.3%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Online ATC</span></div></a>
-    <a href="../failures/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 57.5%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Failures</span></div></a>
-    <a href="../settings/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 88.0%; width: 5.8%; height: 8.1%;"><span class="imagemapname">Settings</span></div></a>
+    <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.3%; top:  7.7%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Dashboard</span></div></a>
+    <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 15.6%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Dispatch</span></div></a>
+    <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 23.5%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Ground</span></div></a>
+    <a href="../performance/"> <div class="imagemap" style="position: absolute; left: 1.3%; top: 31.4%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Performance</span></div></a>
+    <a href="../charts/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 39.3%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Navigation & Charts</span></div></a>
+    <a href="../online-atc/">  <div class="imagemap" style="position: absolute; left: 1.3%; top: 47.2%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Online ATC</span></div></a>
+    <a href="../failures/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 55.1%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Failures</span></div></a>
+    <a href="../settings/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 84.1%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Settings</span></div></a>
+    <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
+
 
 ### Usage
 
@@ -157,14 +165,14 @@ for all the fields is descibed in the following section.
     ![ECAM SD](../../assets/flypad/performance-landing-ecam-sd.png "ECAM SD"){loading=lazy}
 
 - Flaps:
-    - as required
+    - Planned landing flap setting (CONF FULL or CONF 3).
 
 - Overweight Procedure:
-    - as required
+    - Will the landing weight be greater than the maximum landing weight (Yes or No).
 
 - Reverse Thrust:
-    - This information can be obtained from the airport chart (see example below).
-    - Enter "yes" or "no" as per airport regulations
+    - Will reverse thrust be used (Yes or No)?
+    - Subject to airport requirements that can be found on the airport chart (see example below).
 
     ![Airport Chart Information](../../assets/flypad/performance-landing-charts-reverser.png "Airport Chart Information"){loading=lazy}
 
@@ -177,14 +185,14 @@ for all the fields is descibed in the following section.
 
 #### Example 1
 
-This runway can be used for landing with the given circumstances and full flaps in all autobrake configurations (low, medium, max manual).
+This runway can be used for landing with the given circumstances and full flaps in all braking configurations (low, medium, max manual).
 
 ![flyPad Performance Calculator Landing](../../assets/flypad/performance-landing-ok.png "flyPad Performance Calculator Landing"){loading=lazy}
 
 #### Example 2
 
-This runway could be technically used for landing with the given circumstances and full flaps and with max manual braking.
-Be aware that there might be other restriction that prohibit landing of an A320neo on this airport/runway.
+This runway's landing distance available is long enough to be used for landing with full flaps and with max manual braking.
+Be aware that there might be other restrictions that prohibit landing of an A320neo on this airport/runway.
 
 ![flyPad Performance Calculator Landing](../../assets/flypad/performance-landing-maxok.png "flyPad Performance Calculator Landing"){loading=lazy}
 

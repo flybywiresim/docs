@@ -4,6 +4,7 @@
     /*background-color: rgba(255, 0, 0, .4);*/
     /*border: 1px solid yellow;*/
 }
+
 .imagemap .imagemapname {
     visibility: hidden;
 
@@ -22,10 +23,20 @@
     left: 300%;
     margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
 }
+
 .imagemap:hover .imagemapname {
     visibility: visible;
 }
+
 .imagemap:hover {
     background-color: rgba(10, 144, 153, 0.30);
     border: 1px solid #00C2CC;
 }
+
+.imagesub {
+    font-size: .6rem;
+    font-style: italic;
+    line-height: 0;
+}
+
+
