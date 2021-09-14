@@ -47,81 +47,14 @@
 
 ## Version Comparison
 
-??? note "Included in Stable Version 0.7.0"
-    - Standalone Aircraft
-    - EFB
-    - EFB Simbrief Integration
-    - EFB Ground Handling
-    - Printer
-    - Custom Electrical System
-    - Custom APU Simulation
-    - Improved Flight Model Accuracy
-    - Split RMP1 and RMP2 Radios
-    - Custom Camera Views
-    - Support for CONF 3 (flaps 3) Landings
-    - TRK/SPA Mode
-    - GPWS Improvements
-    - Brake Fan
-    - MCDU/FMC Improvements
-    - Forced Usage of Modern Flight Model
-    - Sim Update 5 (SU5) Fixes (Aug 9th)
-    - Custom Hydraulic System (initial implementation)
-    - Connection between Electrical Power and Hydraulics
-    - VOR/ADF Needles on ND
-    - New PFD (in react)
-    - BRG/DIST Feature on ECAM PROG Page
-    - Custom Fly-by-wire System
-    - Custom Autopilot (with Autoland feature)
-    - Custom Autothrust
-    - EFB Throttle Calibration
-    - Improved AP, ROLL OUT and Ground Spoiler Logic
-    - Descent Initiation via FCU V/S Knob
-    - Improvement to Custom Fly-by-wire System (Protections)
-    - Push FCU V/S Knob during APPR to Level off
-    - More EVENTS and LVARS for External Control
-    - Seatbelt Sign Sync to FCUIPC
-    - Hydraulics ECAM Page
-    - OVHD ANN Lt DIM functionality
-    - Brakes use Hydraulic System
-    - Custom Autobrake
-    - APU Heat Blur
-    - ISIS and CHRONO Auto Brightness
-    - ISIS Brightness Button Push & Hold
-    - Support FD OFF Take-off Procedure
-    - Improved FCU init values (SPD=100kts, HDG=0°, ALT=100ft)
-    - ILS Auto-tuning for Departure and Approach
-    - Scratchpad clear on CLR held
-    - Improved Cold Engine Start-up Model
-    - Adapted t.o. A/THR Engagement
-    - ISA Deviation on ECAM SD
-    - MCDU Keyboard Input
-    - New Potentiometer for Lights and Screens
-    - Improved CHRONO Logic
-    - Pixelated Screens
-    - Advanced ADIRs Implementation
-    - Automatic and Improved Cabin Pressurization
-    - Preselected Speeds in ECAM PERF Pages
-    - Correct QNH Flashing at TL/TA
-    - Several Sound Enhancements
-    - Several Texture and Graphics Enhancements
-    - Auto Print on Printer when PRINTER is Selected
-    - EFB flyPadOS v2 New Layout, add. Settings and Features
-    - EFB Navigraph Integration
-    - EFB VATSIM/IVAO Frequencies, Landing Performance
-    - EFB Landing Performance Calculator
-    - Workaround for Altitude Issues of MSFS
-    - Initial implementation of failures ( [#5359](https://github.com/flybywiresim/a32nx/pull/5359){target=new} )
-    - EFB: Make OFP font size persistent ( [#5538](https://github.com/flybywiresim/a32nx/pull/5538){target=new} )
-    - Un-mirror sharklet textures ( [#5490](https://github.com/flybywiresim/a32nx/pull/5490){target=new} )
-    - Improved handling of rudder axis plus/minus ( [#5636](https://github.com/flybywiresim/a32nx/pull/5636){target=new} )
-    - EFB: Power Button  ( [#5624](https://github.com/flybywiresim/a32nx/pull/5624){target=new})
-    - EFB: Tabbed Settings Page and Auto-brightness Option ([#5524](https://github.com/flybywiresim/a32nx/pull/5524){target=new})
-    - Completed custom sounds for all sounds
-    - Cockpit door lock sounds
-    - Realistic reduction of loudness of chimes in cockpit when door locked
-    - Notification Popup when changes to settings need reload ([#5261](https://github.com/flybywiresim/a32nx/pull/5261){target=new})
+See [Release Notes for Stable 0.7.0](../release-notes/v070.md)
 
 ### New Features in the Development Version since Release of Stable 0.7.0
+
+This is a curated list with the most important features for users and
+will be updated at least once a month.
+
+For all changes refer to the official [CHANGELOG](https://github.com/flybywiresim/a32nx/blob/master/.github/CHANGELOG.md){target=new} or commits on the [:fontawesome-brands-github:{: .github } - **GitHub A32NX Repository Master Branch**](https://github.com/flybywiresim/a32nx/commits/master){target=new}.
 
 *Last Update: 14. Sep 2021*
 
