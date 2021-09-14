@@ -12,14 +12,14 @@
 
     Every addition to the development version is code-reviewed and tested by several people, our QA Team and also interested users. In general it tends to be very stable and robust.
 
-    Latest additions to this version can be seen either in the official [CHANGELOG](https://github.com/flybywiresim/a32nx/blob/master/.github/CHANGELOG.md) or the commits to the master branch of the project: : [Github Commits to Master](https://github.com/flybywiresim/a32nx/commits/master){target=new}
+    Latest additions to this version can be seen either in the official [CHANGELOG](https://github.com/flybywiresim/a32nx/blob/master/.github/CHANGELOG.md) or the commits to the master branch of the project: [Github Commits to Master](https://github.com/flybywiresim/a32nx/commits/master){target=new}
 
 === "Stable Version"
 
     !!! info ""
         **Current Stable Version - v0.7.0**
 
-    Stable is our version which has features that are the most mature and most tested so that it should be a reliable version for the more conservative user preferring stability over newest features.
+    Stable is our version which has features that are the most mature and most tested. This should be a reliable version for those users preferring stability over newest features.
 
     This version will not always be up to date but we work hard at ensuring its compatibility with the current version from Microsoft Flight Simulator.
 
@@ -36,7 +36,7 @@
     Please read [Experimental Version Support Page](support/exp.md) before using this version.
 
     !!! danger "No Support for Experimental - use at own risk"
-        Please do not seek support for the Experimental Version on Discord and only report issues if you have read this page and the reported and known issues. You can report issues in the Discord channel "#ata-22-fms" in the thread "Bugs and Issues".
+        Please do not seek support for the Experimental Version on Discord and only report issues if you have read this page and the reported and known issues. You can report issues in the Discord channel "#ata-22-fms" in the thread "[CFMS LNAV ONLY Bugs + Issues](https://discord.com/channels/738864299392630914/876140343735771147/882442909918584862){ target=new }".
 
 === "Marketplace Version"
 
