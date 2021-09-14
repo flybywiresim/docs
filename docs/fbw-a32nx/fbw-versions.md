@@ -123,7 +123,7 @@
 
 ### New Features in the Development Version since Release of Stable 0.7.0
 
-*Last Update: 26th Aug 2021*
+*Last Update: 14. Sep 2021*
 
 - Added language translations ( [#5599](https://github.com/flybywiresim/a32nx/pull/5599){target=new} )
 - Improved pitch/C* and ALT* laws ( [#5711](https://github.com/flybywiresim/a32nx/pull/5711){target=new} )
