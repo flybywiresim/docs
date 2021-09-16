@@ -23,8 +23,8 @@ Controls the APU operation and its start- and shutdown sequence.
     - APU system is powered (performs a power-up test after set to ON).
     - APU Air intake flap opens.
     - Fuel valve opens.
-    - If fuel pressure is too low (<1.5 bar) the APU Fuel Pump will be automatically activated.
     - The APU uses fuel from the left wing tank only.
+    - If both main fuel pumps in the left wing tank are off the APU Fuel Pump will be automatically activated.
     - ECAM shows APU page
 - OFF:
     - Manual shutdown sequence.
