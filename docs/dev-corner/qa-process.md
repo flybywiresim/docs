@@ -17,7 +17,7 @@ To QA test for FlyByWire you need the following prerequisites:
 - Having read and understood this page!
 - Microsoft Flight Simulator (PC)
 - GitHub Account and access to our [Pull Requests](https://github.com/flybywiresim/a32nx/pulls){target=new}
-- Discord Account and joined our server [FlyByWire Simulations](https://discord.gg/R38aaXdP)
+- Discord Account and joined our server [FlyByWire Simulations](https://discord.gg/flybywire)
 - A QA Trainee or QA Tester Discord role
 
 ## Becoming a QA Tester
@@ -27,7 +27,7 @@ We try to keep the number of QA testers at a reasonable and manageable level to 
 If you'd like to apply for the QA Trainee role we recommend to actually
 conduct a few tests as described below without submitting any reports to GitHub!
 
-Send an application message and your test reports to the [Contacts](#contacts) at the bottom of this page via DM and the QA leaders will decide if you are eligible for a QA Trainee role (provided there are open positions).
+Send an application message and your test reports to the [Contact(s)](#contacts) at the bottom of this page via DM and the QA leaders will decide if you are eligible for a QA Trainee role (provided there are open positions).
 
 !!! attention ""
     **Please do not submit reports to GitHub without having a QA Discord role.**
