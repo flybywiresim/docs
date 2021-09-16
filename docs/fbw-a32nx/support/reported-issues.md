@@ -6,6 +6,8 @@
 
     *Most reported issues are caused by conflicts with other mods and liveries. If this does not resolve your issue please continue below.*
 
+    **Throttle Calibration is Required** - [Guide Here](../feature-guides/flyPad/throttle-calibration.md)
+
     ---
 
     <img src="https://img.shields.io/github/v/release/flybywiresim/a32nx.svg?color=2F4E5B&style=flat" /> <img src="https://img.shields.io/badge/dynamic/json?color=00848A&label=Development&query=shortSha&url=https%3A%2F%2Fapi.flybywiresim.com%2Fapi%2Fv1%2Fgit-versions%2Fflybywiresim%2Fa32nx%2Fbranches%2Fmaster&style=flat" alt="Development Version" />
