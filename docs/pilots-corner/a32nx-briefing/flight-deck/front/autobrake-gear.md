@@ -71,8 +71,6 @@ The A320neo has an autobrake system which activates either in case of an aborted
 
 It has 4 settings: OFF, LO, MED and MAX.
 
-MED mode sends progressive pressure to the brakes 2 s after the ground spoilers deploy in order to decelerate the aircraft at 3 m/s² (9.8 ft/s²) LO mode sends progressive pressure to the brakes 2 s after the ground spoilers deploy, in order to decelerate the aircraft at 2 m/s² (6.6 ft/s²).
-
 - MAX (takeoff):
     - If the flight crew aborts the takeoff, maximum pressure goes to the brakes when the ground spoilers are being deployed.
     - Can only be activated for takeoff and not while airborne.
