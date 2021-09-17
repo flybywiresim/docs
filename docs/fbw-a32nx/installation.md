@@ -216,7 +216,7 @@ More info [A32NX Development Overview](../dev-corner/development-guide.md)
 
 ## SimBrief Airframe
 
-The FlyByWire Simulations SimBrief airframe with correct weights is available below. This is a new airframe based on our updated flight model, and will always be kept up-to-date thanks to Navigraph's new features.
+The FlyByWire Simulations simBrief airframe with correct weights is available below. This is a new airframe based on our updated flight model, and will always be kept up-to-date thanks to Navigraph's new features. 
 
 ✈ [SimBrief Airframe Link](https://www.simbrief.com/system/dispatch.php?sharefleet=337364_1631550522735){target=new} Credits: [@sidnov](https://github.com/sidnov){target=new}
 
