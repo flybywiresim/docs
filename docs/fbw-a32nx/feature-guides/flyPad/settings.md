@@ -69,7 +69,6 @@ Settings for simulation aspects of the A32NX aircraft.
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
 
-
 ### Usage
 
 - ADIRS Align Time:
@@ -129,7 +128,6 @@ Settings for various audio sources and sounds.
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
 
-
 - PTU Audible in Cockpit (unrealistic):
     - Allows the PTU to be heard in the cockpit which in real life is not the case. But many people are used to this sound as it is very audible in the passenger cabin.
 - Exterior Master Volume:
@@ -155,7 +153,6 @@ Settings for the flyPad itself.
     <a href="../settings/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 84.1%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Settings</span></div></a>
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
-
 
 ### Usage
 
