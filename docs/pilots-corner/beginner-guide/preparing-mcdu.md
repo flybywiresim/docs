@@ -401,14 +401,9 @@ We've included a quick method to have your simBrief OFP automatically loaded int
 
 This portion of the guide assumes that you understand how to generate a simBrief OFP.
 
-### ^^SimBrief MCDU Setup^^
+### ^^SimBrief Setup^^
 
-Enter your simBrief username. Upon entering your username the MCDU will convert it into an ID number. Please ensure you have no special characters in your username OR use the ID number found before generating your OFP.
-
-* Click on `MCDU MENU`
-* Click on `OPTIONS`
-* Click on `AOC`
-* Click on `SIMBRIEF`
+Learn how to setup the [simBrief Integration](../../fbw-a32nx/feature-guides/flyPad/settings.md#simbrief-integration).
 
 ### ^^Request Data from simBrief^^
 
