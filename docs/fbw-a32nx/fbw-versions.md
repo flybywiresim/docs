@@ -40,7 +40,7 @@
 
 ## Version Comparison
 
-See [Release Notes for Stable 0.7.0](../../release-notes/v070.md)
+See [Release Notes for Stable 0.7.0](../release-notes/v070.md)
 
 ### New Features in the Development Version since Release of Stable 0.7.0
 
