@@ -1,6 +1,6 @@
 # PROG: Progress page
 
-![mcdu-030.jpg](../../assets/a32nx-briefing/mcdu/mcdu-030.jpg)
+![mcdu-030.jpg](../../assets/a32nx-briefing/mcdu/prog-page.jpg)
 
 
 ## Description
