@@ -1,7 +1,7 @@
-# flyPad Throttle Calibration
+# Throttle Calibration
 
 !!! warning "Please Note"
-    Throttle Calibration is only required and available when using the [Development Version](../../fbw-versions.md#version-overview)
+    Throttle Calibration is required for all versions of the FlyByWire A32NX.
 
 This guide will help you setting up your throttles for use with the FlyByWire A32NX.
 
@@ -274,9 +274,7 @@ Be careful to use `THROTTLE 1/2 AXIS` and not `THROTTLE 1/2 AXIS (0 TO 100%)`.
 
 Also do make sure to have `REVERSE AXIS` unchecked!
 
-With the default Boeing levers the `THROTTLE 1/2 DECREASE` mapping to `Buttons 10,26` and `Buttons 11,27` simulates the reverser when the Bravo's reverser lever is lifted (buttons 10 and 11) and the thrust lever is pulled back (buttons 26 and 27). This activates the buttons configured in the image above and in turn decreases throttle power to negative values for the reverser.
-
-If you use the A320 Throttle pack levers you must map the `Buttons 30 + 26` for lever 1 and `Buttons 48 + 27` for lever 2.
+The `THROTTLE 1/2 DECREASE` mapping to `Buttons 10,26` and `Buttons 11,27` simulates the reverser when the Bravo's reverser lever is lifted (buttons 10 and 11) and the thrust lever is pulled back (buttons 26 and 27). This activates the buttons configured in the image above and in turn decreases throttle power to negative values for the reverser.
 
 If you use the GA levers please only configure `Button 26` and `Button 27` as without the reverse levers of the airliner levers the other buttons (10, 11) will not be there.
 

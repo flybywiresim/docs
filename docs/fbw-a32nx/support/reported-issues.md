@@ -1,10 +1,18 @@
 # Reported Known Issues
 
-!!! info "Always Try This First"
+!!! error  "STOP - Read this First"
 
     Please try and remove all other mods/liveries from the community folder and test our add-on again. This will help rule out conflicts.
 
-    <sub>Report back the result of this test on our Discord.
+    *Most reported issues are caused by conflicts with other mods and liveries. If this does not resolve your issue please continue below.*
+
+    **Throttle Calibration is Required** - [Guide Here](../feature-guides/flyPad/throttle-calibration.md)
+
+    ---
+
+    <img src="https://img.shields.io/github/v/release/flybywiresim/a32nx.svg?color=2F4E5B&style=flat" /> <img src="https://img.shields.io/badge/dynamic/json?color=00848A&label=Development&query=shortSha&url=https%3A%2F%2Fapi.flybywiresim.com%2Fapi%2Fv1%2Fgit-versions%2Fflybywiresim%2Fa32nx%2Fbranches%2Fmaster&style=flat" alt="Development Version" />
+
+    FBW Installer - [Download Here](https://api.flybywiresim.com/installer){target=new} / *Sim Version: 1.19.9.0*
 
 !!! warning "Read our Support Guide"
 
@@ -24,14 +32,12 @@
     - [**Known Issues**](../feature-guides/autopilot-fbw.md#known-issues)
 
     ---
-    
+
     Do this before reporting bugs.
 
 !!! danger "No Support for Experimental - use at own risk"
 
     Refer to this page for [Known Issues in the Experimental Version](exp.md#known-issues).
-
-FBW Installer - [Download Here](https://api.flybywiresim.com/installer){target=new} / *Sim Version: 1.19.8.0*
 
 *Last Update: {{git_revision_date_localized}}*
 
@@ -61,7 +67,7 @@ Go to your content manager and filter for "flybywire" as you see on the followin
 
 If you see old versions (e.g. v0.6.1) or if you have multiple installations of the A32NX please uninstall them in the Content Manager and restart the sim. Reinstall development version from our [installer](https://api.flybywiresim.com/installer){target=new}.
 
-<sub> You may install Stable v0.6.3 for compatibility. We recommend staying on development.
+<sub> You may install Stable v0.7.0 for compatibility. We recommend staying on development.
 
 Information on how to install with the FlyByWire Installer can be found here: [Installation Guide](../installation.md).
 
