@@ -216,7 +216,10 @@ More info [A32NX Development Overview](../dev-corner/development-guide.md)
 
 ## SimBrief Airframe
 
-The FlyByWire Simulations simBrief airframe with correct weights is available below. This is a new airframe based on our updated flight model, and will always be kept up-to-date thanks to Navigraph's new features.
+The FlyByWire Simulations simBrief airframe with correct weights is available below. Please choose the correct airframe based on the version you have installed. 
+
+!!! info ""
+    The development/experimental airframe is new and based on our updated flight model, and will always be kept up-to-date thanks to Navigraph's new sharable airframe feature.
 
 - Stable Version: ✈ [SimBrief Airframe Link](https://www.simbrief.com/system/dispatch.php?sharefleet=eyJ0cyI6IjE2MjAyMTYxMzY2MjciLCJiYXNldHlwZSI6IkEyME4iLCJjb21tZW50cyI6IkZCVyBBMzJOWCIsImljYW8iOiJBMjBOIiwibmFtZSI6IkEzMjBORU8gRkJXIiwiZW5naW5lcyI6IkxFQVAtMUEyNiIsInJlZyI6IkQtQUZCVyIsImZpbiI6IiIsInNlbGNhbCI6IiIsImhleGNvZGUiOiIiLCJjYXQiOiJNIiwicGVyIjoiQyIsImVxdWlwIjoiU0RFMkUzRkdISUoxUldYWSIsInRyYW5zcG9uZGVyIjoiTEIxIiwicGJuIjoiQTFCMUMxRDFPMVMyIiwiZXh0cmFybWsiOiIiLCJtYXhwYXgiOiIxODAiLCJ3Z3R1bml0cyI6IktHUyIsIm9ldyI6IjQxMDA1IiwibXpmdyI6IjY0MzAwIiwibXRvdyI6Ijc5MDAwIiwibWx3IjoiNjc0MDAiLCJtYXhmdWVsIjoiMTkwNDUiLCJwYXh3Z3QiOiIxMDQiLCJkZWZhdWx0Y2kiOiIiLCJmdWVsZmFjdG9yIjoiUDAwIiwiY3J1aXNlb2Zmc2V0IjoiUDAwMDAifQ--){target=new} - Credits: [@viniciusfont](https://github.com/viniciusfont){target=new}
 
