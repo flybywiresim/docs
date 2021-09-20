@@ -18,18 +18,10 @@ Please follow the information on this page to install the FlyByWire Simulations 
 
       - `FlyByWire Simulations - A320neo (LEAP)`
 
-!!! info "Marketplace Version Incompatibility"
-    The A32NX on the MSFS  marketplace is incompatible with any of our installer / standalone versions.
+!!! danger "MSFS Marketplace Version Discontinued"
+    Please uninstall any marketplace version. 
 
-    You must **choose** one of the options below:
-
-    - The marketplace version installed
-    - One of the branches from our installer/website.  
-
-    If you're an existing user and want to benefit from our regular updates, you should stay on the version you fly already or download using the options below to keep the plane up to date:
-
-    - [FlyByWire Installer](#flybywire-installer)
-    - [FlyByWire Simulations website](https://flybywiresim.com)
+    You can reference [this issue](support/reported-issues.md#installation-version-conflicts) in our reported issues page for more details. 
 
 ---
 
