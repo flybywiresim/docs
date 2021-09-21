@@ -23,7 +23,7 @@ The FBW A32NX aims to become a realistic simulation of a real Airbus A320neo. Ac
 
 A good place to start learning to fly and operate the FlyByWire A32NX is our [Beginner Guide](../../pilots-corner/beginner-guide/overview.md).
 
-Further help can be found on our [:fontawesome-brands-discord:{: .discord } - **Discord Link**](https://discord.gg/flybywire){target=new} in the channel #aviation-chat.
+Further help can be found on our [:fontawesome-brands-discord:{: .discord } - **Discord Link**](https://discord.gg/flybywire){target=new} in the channel #flight-school .
 
 Please make sure you have acquired the knowledge to distinguish a software issue within the A32NX from lack of knowledge on your part. You will help keep our support channel effective for other users reporting actual issues.
 
