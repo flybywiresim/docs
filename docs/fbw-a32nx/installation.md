@@ -219,3 +219,7 @@ The FlyByWire Simulations simBrief airframe with correct weights is available be
 
 Pilot ID can be found in the Optional Entries section of the Dispatch Options page.
 
+To learn how to use the various features related to our simBrief integration see the page below.
+
+[SimBrief Integration Guide](feature-guides/simbrief.md){.md-button}
+
