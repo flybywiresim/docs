@@ -73,25 +73,6 @@ h4 {
   padding-top: 1em;
 }
 
-/* highlighting */
-.md-typeset mark { /* ==text== */
-    background-color: #244559;
-    color: white;
-    text-decoration: none;
-}
-.md-typeset ins {  /* ^^text^^ */
-    background-color: #594a47;
-    color: white;
-    text-decoration: none;
-}
-
-.md-typeset del {  /* ~~text~~ */
-    background-color: #47324d;
-    color: white;
-    text-decoration: none;
-}
-
-
 /*Standardize Font Awesome CSS Styling*/
 .discord {
   font-size: 20px;
