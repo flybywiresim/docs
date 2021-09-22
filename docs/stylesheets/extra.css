@@ -79,12 +79,11 @@ h4 {
     color: white;
     text-decoration: none;
 }
-.md-typeset ins {  /* ^^text^^ */
-    background-color: #594a47;
-    color: white;
-    text-decoration: none;
-}
-
+/*.md-typeset ins {  !* ^^text^^ *!*/
+/*    background-color: #594a47;*/
+/*    color: white;*/
+/*    text-decoration: none;*/
+/*}*/
 .md-typeset del {  /* ~~text~~ */
     background-color: #47324d;
     color: white;
