@@ -2,9 +2,9 @@
 
 ## Overview
 
-As part of our custom autopilot and autothrust system (now available in all versions of the A32NX) we have implemented alpha floor protection (A.FLOOR on the PFD). 
+Alpha floor protection is a safety feature of the envelope protection system designed for low speed protection in Normal Law when the aircraft approaches dangerous stall conditions.
 
-This a safety feature of the envelope protection system and is designed as a low speed protection available in Normal Law where if the aircraft approaches dangerous stall conditions. Additionally, the autothrust will command TOGA thrust regardless of the position of the thrust lever.  
+This feature is part of our custom autopilot and autothrust system - available in all versions of the A32NX.
 
 ## Identifying A.FLOOR
 
