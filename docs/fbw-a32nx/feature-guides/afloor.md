@@ -1,0 +1,33 @@
+# Alpha Floor Protection
+
+## Overview
+
+As part of our custom autopilot and auto thrust system (now available in all versions of the A32NX) we have implemented ==alpha floor protection (A.FLOOR on the PFD)==. This a safety feature of the envelope protection system and is designed as a low speed protection available in Normal Law where if the aircraft approaches dangerous stall conditions. Additionally, the autothrust will command TOGA thrust regardless of the position of the thrust lever.  
+
+## Identifying A.FLOOR
+
+### Trigger Conditions
+
+When the angle of attack and airspeed of the aircraft reaches the alpha protection range indicated by the yellow and black band on the PFD speed page. Simply put A.Floor will trigger when approaching a stall in the aircraft's current configuration.
+
+!!! danger "Reactivation of autopilot will not be possible when in A.FLOOR conditions"
+
+### FMA Indications
+
+When A.FLOOR protection is active this will be indicated in the left most FMA on the PFD in green with a flashing amber box around it. 
+
+![A.FLOOR](../assets/feature-guides/afloor1.png)
+
+### Resolving A.FLOOR
+
+To recover from the A.FLOOR condition and prevent further stall conditions, manually pitch the nose downwards to increase your speed to reduce the angle of attack. When angle of attack is sufficiently reduced and the aircraft speed is out of the alpha protection range you can safely switch autopilot back on. 
+
+==Note: In most situations the A.FLOOR condition will be followed by a TOGA LK FMA indication on the PFD.==
+
+## TOGA LK
+
+This indication typically appears after triggering A.FLOOR protection where full TOGA (take off go around) thrust has been set automatically and "locked". This autothurst mode will be kept active until the crew has safely resolved the previous A.FLOOR condition. 
+
+![tglk](../assets/feature-guides/tglk1.png)
+
+### 
