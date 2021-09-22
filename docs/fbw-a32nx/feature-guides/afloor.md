@@ -30,4 +30,12 @@ This indication typically appears after triggering A.FLOOR protection where full
 
 ![tglk](../assets/feature-guides/tglk1.png)
 
-### 
+### Resolving TOGA LK
+
+Resolution of TOGA LK is quite simple and accomplished in a few easy steps.
+
+1. Disconnect the autothrust on the FCU.
+2. Set the new position for the thrust levers (or return to CLB detent).
+3. Reactivate autothrust. 
+
+After these steps are complete you should be able to resume your flight normally with autothrust and autopilot enabled. 
