@@ -136,7 +136,9 @@ In our development version we have introduced a new flight model paired with a n
 
     ![W&B 3](../assets/feature-guides/simbrief/wb3.png){width=50% loading=lazy}
 
-    You can now start boarding by selecting LSK6L (the indication will change from `START` to `STOP` in yellow) and watch as the passengers board the aircraft. You do not need to remain on this page as boarding continues.
+    You can now start boarding by selecting LSK6L (the indication will change from `START` to `STOP` in yellow) and watch as the passengers board the aircraft. 
+
+    ==**You do not need to remain on this page as boarding continues.**==
 
     ![W&B 4](../assets/feature-guides/simbrief/wb4.png){width=40%} ![W&B 5](../assets/feature-guides/simbrief/wb5.png){width=40% loading=lazy}
 
