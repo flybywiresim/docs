@@ -12,11 +12,11 @@ Depending on what equipment the airfield has, what the aircraft is capable of, w
 
 A precision approach will give you full guidance, both vertically and laterally, to guide you down to a point where you can see the runway. This information can come from a set of radio beacons on the ground, satellite information or from a controller.
 
-| Approach Type | Equipment Used | Used For |
-| :-------------: | :--------------: | :--------: |
-| Instrument Landing System \(ILS\) | A localiser and glideslope radio beacon | Most precise available, the most common for airliner operations.|
-| GBAS Landing System \(GLS\) | GPS Satellite systems and ground transmitters | A new alternative to ILS, for difficult approaches |
-| Precision Approach Radar \(PAR\) | A radar dish and a controller | Commonly as a backup, or at military airfields |
+| Approach Type                     | Equipment Used                                | Used For                                                         |
+| :-------------:                   | :--------------:                              | :--------:                                                       |
+| Instrument Landing System \(ILS\) | A localiser and glideslope radio beacon       | Most precise available, the most common for airliner operations. |
+| GBAS Landing System \(GLS\)       | GPS Satellite systems and ground transmitters | A new alternative to ILS, for difficult approaches               |
+| Precision Approach Radar \(PAR\)  | A radar dish and a controller                 | Commonly as a backup, or at military airfields                   |
 
 ![runway](https://upload.wikimedia.org/wikipedia/commons/a/ad/Brussels_Airport_Runway_25_R.jpg)
 <sub> Lucash, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons
@@ -48,14 +48,14 @@ When all other systems fail, this system can be used as a backup to provide thes
 
 A non-precision approach officially can only give you lateral guidance to the point where you can see the runway. This is fed either to the pilots either using a single radio beacon or by satellite navigation, but these cannot tell you if you are too high or low. The only way is to use a table off an aviation chart that shows you at what altitude you need to be at certain distances.
 
-| Approach Type | Equipment Used | Used For |
-| :-------------: | :--------------: | :--------: |
-| Localiser Only \(LOC\) | A localiser that would be part of an ILS system normally | Some airports only have localiser but also when ILS glideslopes have failed. |
-| VOR-DME or VOR Only | A VOR beacon with/without a distance from a DME | Old style approaches, where ILS cannot be used. |
-| NDB-DME or NDB Only | A NDB beacon with/without a distance from a DME | Old style approaches, where an ILS cannot be used |
-| LNAV Only | GPS or the Aircrafts position inside the flight management computers | Approaches where there are no radio beacons in the area |
-| Approach Surveillance Radar \(ASR\) | A radar dish and a controller <br> (No altitude compared to PAR) | Commonly as a backup, or at military airfields. |
-| Visual | Pilots eyeball! | Where there is no issue with the weather and the runway is already in sight |
+| Approach Type                       | Equipment Used                                                       | Used For                                                                     |
+| :-------------:                     | :--------------:                                                     | :--------:                                                                   |
+| Localiser Only \(LOC\)              | A localiser that would be part of an ILS system normally             | Some airports only have localiser but also when ILS glideslopes have failed. |
+| VOR-DME or VOR Only                 | A VOR beacon with/without a distance from a DME                      | Old style approaches, where ILS cannot be used.                              |
+| NDB-DME or NDB Only                 | A NDB beacon with/without a distance from a DME                      | Old style approaches, where an ILS cannot be used                            |
+| LNAV Only                           | GPS or the Aircrafts position inside the flight management computers | Approaches where there are no radio beacons in the area                      |
+| Approach Surveillance Radar \(ASR\) | A radar dish and a controller <br> (No altitude compared to PAR)     | Commonly as a backup, or at military airfields.                              |
+| Visual                              | Pilots eyeball!                                                      | Where there is no issue with the weather and the runway is already in sight  |
 
 These approaches are all flown traditionally with just a beacon pointer, a localiser giving left/right corrections, or a controller giving rough headings. With a helpful co-pilot who will be using the altitude table to check if you are high or low, you keep correcting down towards the runway. As the term non-precision hints, these approaches are nowhere near as accurate as a precision approach and as such can require quite good weather to be able to attempt them. VOR and NDB beacons are slowly disappearing due to maintenance costs and the more useful APV approaches being made available.
 
@@ -65,10 +65,10 @@ These approaches are all flown traditionally with just a beacon pointer, a local
 
 A newer kind of approach, that uses both lateral and vertical guidance from sources such as GPS satellites, and does not require the use of radio beacons at all. At the time of writing, these approaches were not yet classed as precision, as they do not quite have the accuracy required but are constantly getting better with each new design. They are now flown very similarly to an ILS and do not require much input from the pilots.
 
-| Approach Type | Equipment Used | Used For |
-| :-------------: | :--------------: | :--------: |
-| RNP/RNAV | Satellite GPS systems and the aircraft's on board positioning system | Approaches where there are no radio beacons in the area |
-| RNP-AR | Satellite GPS systems and the aircraft's onboard positioning system | As per RNP/RNAV but allow curved approaches with margins as little as 0.1 NM. |
+| Approach Type   | Equipment Used                                                       | Used For                                                                      |
+| :-------------: | :--------------:                                                     | :--------:                                                                    |
+| RNP/RNAV        | Satellite GPS systems and the aircraft's on board positioning system | Approaches where there are no radio beacons in the area                       |
+| RNP-AR          | Satellite GPS systems and the aircraft's onboard positioning system  | As per RNP/RNAV but allow curved approaches with margins as little as 0.1 NM. |
 
 ***
 
@@ -76,14 +76,14 @@ A newer kind of approach, that uses both lateral and vertical guidance from sour
 
 With the ILS system, there are several categories that have different requirements from the pilots, the aircraft, the weather and the airport equipment. They are known as CAT, short for category, and are listed as both roman numerals and Latin numbers:
 
-| ILS Category | Autoland Required <br>\(in the Airbus\) | Weather <br>\(Normally\) | MDA or DH |
-| :-------------: | :--------------: | :-----------: | :----------: |
-| CAT 1 / CAT I | No <br>\(May also be unsafe due to interference\) | Cloud base above 200ft <br>Visibility 550m | MDA |
-| CAT 1 LTS / CAT I LTS <br>\(Lower Than Standard\) | Yes | Cloud base above 200ft <br>Visibility 400m or 450m | MDA |
-| CAT 2 / CAT II | Yes | Cloud base above 100ft <br>Visibility 300m | DH |
-| CAT 3A / CAT IIIA | Yes | Cloud base above 100ft <br>Visibility 200m | DH |
-| CAT 3B / CAT IIIB | Yes \(2 Autopilots\) | Cloud base above 50ft <br>Visibility 75m | DH <br>\(can be 0\) |
-| CAT 3C / CAT IIIC | Yes \(2 Autopilots\) | Cloud base above 0ft <br>Visibility 0m | DH <br>\(can be 0\) |
+| ILS Category                          | Autoland Required <br>\(in the Airbus\)           | Weather <br>\(Normally\)                           | MDA or DH           |
+| :-------------:                       | :--------------:                                  | :-----------:                                      | :----------:        |
+| CAT I                                 | No <br>\(May also be unsafe due to interference\) | Cloud base above 200ft <br>Visibility 550m         | MDA                 |
+| CAT I LTS <br>\(Lower Than Standard\) | Yes                                               | Cloud base above 200ft <br>Visibility 400m or 450m | MDA                 |
+| CAT II                                | Yes                                               | Cloud base above 100ft <br>Visibility 300m         | DH                  |
+| CAT IIIA                              | Yes                                               | Cloud base above 100ft <br>Visibility 200m         | DH                  |
+| CAT IIIB                              | Yes \(2 Autopilots\)                              | Cloud base above 50ft <br>Visibility 75m           | DH <br>\(can be 0\) |
+| CAT IIIC                              | Yes \(2 Autopilots\)                              | Cloud base above 0ft <br>Visibility 0m             | DH <br>\(can be 0\) |
 
 
 As the weather gets progressively worse, the higher the category you need to use, which in turn
@@ -104,10 +104,10 @@ the parking stands completely blind. The A320 family are capable of everything i
 
 So, you have picked your approach and are flying towards the runway, but how close can you get before you decide it is a bad idea and to try again somewhere else? This is where the minimums come into effect. These are fixed values that decide how low you can go on the approach, and when you get to this altitude, you cannot go any lower until you can see the runway.
 
-| Minimum Type | Defined As | Approaches Used In |
-| :-------------: | :--------------: | :-----------: |
-| MDA <br>\(Minimum Descent Altitude\) | Altitude Above Mean Sea Level | CAT 1 / CAT 1 LTS ILS <br> VOR, NDB, RNAV, RNP, Visual, SRA  |
-| DH <br>\(Decision Height\) | Height Above the Ground | CAT 2 ILS <br> CAT 3 A/B/C ILS
+| Minimum Type                         | Defined As                    | Approaches Used In                                          |
+| :-------------:                      | :--------------:              | :-----------:                                               |
+| MDA <br>\(Minimum Descent Altitude\) | Altitude Above Mean Sea Level | CAT I / CAT I LTS ILS <br> VOR, NDB, RNAV, RNP, Visual, SRA |
+| DH <br>\(Decision Height\)           | Height Above the Ground       | CAT II ILS <br> CAT III A/B/C ILS                           |
 
 These are defined in feet, \(or meters if that airspace uses meter altitudes\) and can be found at the bottom of the aeronautical chart that is published for that approach. Each approach to each airport will have a separate value, changing due to obstacles, terrain, and other things that may get in the way while descending towards the runway.
 
@@ -121,13 +121,13 @@ Now depending on the aircraft you are flying, depends on the minimums you are al
 * The higher category is required, which means:
 * The higher minimums are used.
 
-| Aircraft Category | Approach Speeds | Typical Aircraft |
-| :-------------: | :--------------: | :-----------: |
-| A | < 91 knots | C172 PA28 SR22 DC3 |
-| B | 91 - 120 knots | ATR72 C17 S340 TBM850 |
-| C | 121 - 140 knots | A320 A380 737 MD80 |
-| D | 141 - 165 knots | A340 A350 747 777 787 MD11 |
-| E | 166 - 210 knots | Concorde and specialist military |
+| Aircraft Category | Approach Speeds  | Typical Aircraft                 |
+| :-------------:   | :--------------: | :-----------:                    |
+| A                 | < 91 knots       | C172 PA28 SR22 DC3               |
+| B                 | 91 - 120 knots   | ATR72 C17 S340 TBM850            |
+| C                 | 121 - 140 knots  | A320 A380 737 MD80               |
+| D                 | 141 - 165 knots  | A340 A350 747 777 787 MD11       |
+| E                 | 166 - 210 knots  | Concorde and specialist military |
 
 ***
 
@@ -139,11 +139,11 @@ Now depending on the aircraft you are flying, depends on the minimums you are al
 
 In the above example, which is for the ILS or LOC/DME for Runway 23 at Buffalo Airport, NY in the USA, this chart uses a format designed by the Federal Aviation Administration (FAA) of the USA. Each chart designer unfortunately has slight differences compared to each other, but the basics are usually the same. So, for the above approach:
 
-| | MDA <br>(ft) | Visibility <br> (in 100s of ft (USA)) | Visibility <br>(m) | Height above the ground <br>(ft) |
-| -------------: | :-------------: | :--------------: | :-----------: | :-----------: |
-| ILS CAT 1 RW23 | 928 | 1800 | 550 | 200 |
-| LOC RW23 <br>(Category ABC) | 1060 | 2400 | 730 | 332 |
-| LOC RW23 <br>(Category D) | 1060 | 4000 | 1220 | 332 |
+|                             | MDA <br>(ft)    | Visibility <br> (in 100s of ft (USA)) | Visibility <br>(m) | Height above the ground <br>(ft) |
+| -------------:              | :-------------: | :--------------:                      | :-----------:      | :-----------:                    |
+| ILS CAT I RW23              | 928             | 1800                                  | 550                | 200                              |
+| LOC RW23 <br>(Category ABC) | 1060            | 2400                                  | 730                | 332                              |
+| LOC RW23 <br>(Category D)   | 1060            | 4000                                  | 1220               | 332                              |
 
 <sub> N.b. The brackets in the above image are used by the FAA for military operations, nothing to worry about in an airliner!
 
@@ -154,10 +154,10 @@ In this example, for Paris Charles De Gaulle Airport, ILS or LOC/DME for runway 
 <sub>SIA, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
 
 
-| | MDA <br>(ft) |  Visibility <br>(m) | Height above the ground <br>(ft) |
-| -------------: |  :--------------: | :-----------: | :-----------: |
-| ILS CAT 1 R26L | 520 | 550 | 200 |
-| LOC 23 | 710 | 1100 | 390 |
+|                | MDA <br>(ft)     | Visibility <br>(m) | Height above the ground <br>(ft) |
+| -------------: | :--------------: | :-----------:      | :-----------:                    |
+| ILS CAT I R26L | 520              | 550                | 200                              |
+| LOC 23         | 710              | 1100               | 390                              |
 
 As this chart is now designed differently, it has described the MDA as a DA for the ILS. Now this is just a difference between charts and countries, some use one terminology over the other. Also to note is the inclusion of OCH values. These are the obstacle clearance heights of all possible objects on the approach path, so if you descend below this, then there is a possibility of a collision. These OCH values are not used by the pilots in an approach but are used by the professional bodies who design the approaches as to what the minimums values should be.
 
@@ -199,8 +199,8 @@ In the Airbus, a Quick Reference Handbook (QRH) is carried in the cockpit which 
 
 The Airbus will have several Flight Mode Annunciators (FMAs) display during an Autoland:
 
-| FMA | Description |
-| :-------------: | :--------------: |
-| LAND | Appears at 350ft AGL and locks in the final guidance |
-| FLARE | At or below 40ft AGL, and flares the aircraft for landing |
-| ROLLOUT | On touchdown, keeps the aircraft straight on the runway until the autopilot is disconnected |
+| FMA             | Description                                                                                 |
+| :-------------: | :--------------:                                                                            |
+| LAND            | Appears at 350ft AGL and locks in the final guidance                                        |
+| FLARE           | At or below 40ft AGL, and flares the aircraft for landing                                   |
+| ROLLOUT         | On touchdown, keeps the aircraft straight on the runway until the autopilot is disconnected |
