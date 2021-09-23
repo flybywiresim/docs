@@ -65,8 +65,6 @@ plugins:
 # Styling Front-end
 extra_css:
   - stylesheets/extra.css
-  - stylesheets/EFB-interactive.css
-  - stylesheets/pfd-interactive.css
 
 # Extra Functions / Customizations
 extra:
