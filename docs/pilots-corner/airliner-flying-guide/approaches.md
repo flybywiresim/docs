@@ -113,6 +113,19 @@ So, you have picked your approach and are flying towards the runway, but how clo
 
 These are defined in feet, \(or meters if that airspace uses meter altitudes\) and can be found at the bottom of the aeronautical chart that is published for that approach. Each approach to each airport will have a separate value, changing due to obstacles, terrain, and other things that may get in the way while descending towards the runway.
 
+!!! info "Expanded Information from FAA Instrument Procedure Handbook"
+    Chapter 4: Approaches in the FAA IPH provides more context on the definition of the different types of minimums.
+    
+    **MDA** - the lowest altitude, expressed in feet MSL, to which descent is authorized on final approach or during circle-to land maneuvering in execution of a standard instrument approach procedure (SIAP) where no electronic glideslope is provided.
+
+    **DA** - a specified altitude in the precision approach at which a missed approach must be initiated if the required visual reference to continue the approach has not been established.
+
+    **DH** - with respect to the operation of aircraft, means the height at which a decision must be made during an ILS, MLS, or PAR IAP to either continue the approach or to execute a missed approach. CAT II and III approach DHs are referenced to AGL and measured with a radio altimeter.
+
+    Source: [FAA IPH - FAA-H-8083-16B; Chapter 4](https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/instrument_procedures_handbook/media/FAA-H-8083-16B_Chapter_4.pdf){target=new}
+    
+    [Download FAA IPH](https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/instrument_procedures_handbook/){.md-button target=new}
+
 ***
 
 ### ^^Aircraft Approach Categories^^
