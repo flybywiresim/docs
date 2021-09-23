@@ -6,11 +6,11 @@ To make these controllers fully compatible you need to replace their default dri
 
 The examples below are configured via SPAD.neXt and the configuration documentation is linked below each controller.
 
-With SPAD.neXt you can also download complete profiles for aircraft and hardware controllers. For the controllers below this downloadable profile is used:
+With SPAD.neXt you can also download complete profiles for aircraft and hardware controllers. For the FlyByWire A32NX and the controllers below this profile is used (which is downloadable from within SPAD.neXt):
 
 ![SPAD.eXt A32NX Profile](../assets/api-guide/spad-profile1.png "SPAD.eXt A32NX Profile"){loading=lazy}
 
-Find the complete documentation for these controllers in this single file: SPAD FlyByWire A32NX Profile Documentation: [A32NX FBW MSFS2020.pdf](../assets/api-guide/A32NX%20FBW%20MSFS2020.pdf)
+Find the complete documentation for these controllers in this single file: [A32NX FBW MSFS2020.pdf](../assets/api-guide/A32NX%20FBW%20MSFS2020.pdf)
 
 This profile is maintained by Cdr_Maverick#6475.
 
@@ -36,6 +36,9 @@ This profile is maintained by Cdr_Maverick#6475.
 
 [A32NX FBW MSFS2020 TCA-Q Addon.pdf](../assets/api-guide/A32NX%20FBW%20MSFS2020%20TCA-Q%20Addon.pdf)
 
+!!! tip ""
+    Remember to calibrate you throttle detents for the this Throttle: [TCA Throttle Calibration](../feature-guides/flyPad/throttle-calibration.md#thrustmaster-tca-or-similar-with-reverser-on-axis)
+
 ### Thrustmaster TCA Throttle Add-On TCA Quadrant Add-on Airbus Edition
 
 ![Thrustmaster TCA Quadrant Add-on Airbus Edition](../assets/api-guide/thrustmaster-tca-quadrant-add-on.png "Thrustmaster TCA Quadrant Add-on Airbus Edition"){loading=lazy}
@@ -56,6 +59,22 @@ This profile is maintained by Cdr_Maverick#6475.
 
     ![Thrustmaster-T.16000M FCS](../assets/api-guide/thrustmaster-t16000m-fcs.png "Thrustmaster-T.16000M FCS"){loading=lazy align=right width=46%}
 
+These flight sticks have normal flight surface controls (pitch, roll and yaw) but they also have 10 configurable buttons, 8-way hat switch and a slider.
+
+We recommend to use the Microsoft Flight Simulator normal mapping for the flight surfaces. This includes sensitivity settings which are not available in SPAD.
+
+![flight-control-mapping](../assets/api-guide/flight-control-mapping.png)
+
+The rest of the buttons can be mapped as you require it.
+
 ### Thrustmaster TWCS Throttle
 
 ![Thrustmaster TWCS Throttle](../assets/api-guide/thrustmaster-twcs-throttle.png "Thrustmaster TWCS Throttle"){loading=lazy}
+
+!!! tip ""
+    Remember to calibrate you throttle detents for the this Throttle: [TWCS Throttle Calibration](../feature-guides/flyPad/throttle-calibration.md#thrustmaster-twcs-or-similar-without-reverser-on-axis-and-no-detents)
+
+The rest of the buttons can be mapped as you require it.
+
+
+
