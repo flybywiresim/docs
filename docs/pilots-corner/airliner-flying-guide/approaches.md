@@ -96,6 +96,7 @@ the parking stands completely blind. The A320 family are capable of everything i
 3C.
 
 ![fog](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Furtwangen_Jan_05_fog_GHB.jpg/640px-Furtwangen_Jan_05_fog_GHB.jpg)
+
 <sub> MichaelDiederich CC BY-SA 3.0
 
 ---
@@ -104,10 +105,11 @@ the parking stands completely blind. The A320 family are capable of everything i
 
 So, you have picked your approach and are flying towards the runway, but how close can you get before you decide it is a bad idea and to try again somewhere else? This is where the minimums come into effect. These are fixed values that decide how low you can go on the approach, and when you get to this altitude, you cannot go any lower until you can see the runway.
 
-| Minimum Type                         | Defined As                    | Approaches Used In                                          |
-| :-------------:                      | :--------------:              | :-----------:                                               |
-| MDA <br>\(Minimum Descent Altitude\) | Altitude Above Mean Sea Level | CAT I / CAT I LTS ILS <br> VOR, NDB, RNAV, RNP, Visual, SRA |
-| DH <br>\(Decision Height\)           | Height Above the Ground       | CAT II ILS <br> CAT III A/B/C ILS                           |
+| Minimum Type                         | Defined As                               | Approaches Used In                             |
+| :-------------:                      | :--------------:                         | :-----------:                                  |
+| MDA <br>\(Minimum Descent Altitude\) | Altitude Above Mean Sea Level            | LOC, LDA, SDF, VOR <br> NDB, LNAV, ASR, Visual |
+| DA <br>(Decision Altitude)           | Barometric Altitude Above Mean Sea Level | CAT I ILS <br> LNAV / VNAV, LPV, RNP, PAR, GLS |
+| DH <br>\(Decision Height\)           | Radio Altitude Above Ground Level        | CAT II ILS <br> CAT III A/B/C ILS              |
 
 These are defined in feet, \(or meters if that airspace uses meter altitudes\) and can be found at the bottom of the aeronautical chart that is published for that approach. Each approach to each airport will have a separate value, changing due to obstacles, terrain, and other things that may get in the way while descending towards the runway.
 
