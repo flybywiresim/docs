@@ -2,7 +2,7 @@
 
 ## Overview
 
-Alpha floor protection is a safety feature of the envelope protection system designed for low speed protection in Normal Law when the aircraft approaches dangerous stall conditions.
+Alpha floor protection is a safety feature of the envelope protection system designed for low speed protection in Normal Law (aircraft fully operational).
 
 This feature is part of our custom autopilot and autothrust system - available in all versions of the A32NX.
 
