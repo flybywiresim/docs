@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="../../../../stylesheets/EFB-interactive.css">
+
 # flyPad Dashboard
 
 <div style="position: relative;">
