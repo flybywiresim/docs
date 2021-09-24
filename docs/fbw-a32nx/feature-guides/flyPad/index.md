@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="../../../../stylesheets/efb-interactive.css">
+
 # flyPad EFB
 
 <div style="position: relative;">

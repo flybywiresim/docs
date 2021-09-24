@@ -1,5 +1,6 @@
-# flyPad Online ATC
+<link rel="stylesheet" href="../../../../stylesheets/efb-interactive.css">
 
+# flyPad Online ATC
 
 ## Description
 
