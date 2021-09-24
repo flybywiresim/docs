@@ -4,21 +4,19 @@ This section is aimed at sim pilots who want to use external hardware or softwar
 
 ## General
 
-Many sim pilots want to use dedicated hardware or specific software to control their aircraft which goes beyond just the normal flight stick and maybe controller for thrust.
+Many sim pilots want to use dedicated hardware or specific software to control their aircraft which goes beyond just the normal flight stick and maybe a controller for thrust.
 
-However hardware alone is not sufficient to control an aircraft in Microsoft Flight Simulator (or any sim). A software is required to tell the sim what the different levers (axis) and buttons shall actually do.
+However hardware alone is not sufficient to control an aircraft in Microsoft Flight Simulator (or any sim). Software is required to tell the sim what the different levers (axis) and buttons shall actually do.
 
-Most hardware (or software) vendors therefore ship their products with a driver for their hardware which translates hardware input into software commands which are then sent to the simulator.
+Most hardware (or software) vendors ship their products with a driver for their hardware which translates hardware input into software commands which are then sent to the simulator.
 
-The problem with this approach is that for this to work all aircraft need to actually use the same software commands (API) for this to work on any aircraft. For Microsoft Flight Simulator this has been achieved by most default aircraft delivered with MSFS itself.
-
-Unfortunately the APIs used (Simconnect, MSFS API) are not able to handle more complex aircraft and in addition there are other limitations with this approach which would go beyond this guide to explain.
+The problem with this approach is that all aircraft need to actually use the same software commands (API) for this to work on. For Microsoft Flight Simulator this has been achieved by most default aircraft delivered when MSFS launched. Unfortunately, the API used (Simconnect, MSFS API) is not able to handle more complex aircraft and in addition, there are other limitations that would go beyond this guide to explain.
 
 To make it possible for 3rd party aircraft developers to go beyond these limitations, Microsoft Flight Simulator enables aircraft developers to create their own API, most commonly in the form of so called sim-vars and sim-events.
 
-All of the major custom aircraft on the market use this approach. So not only the FlybyWire A32NX does this but e.g. the Aerosoft CRJ, PMDG DC-6, Working Titles CJ4 mod, Justflight PA-28 Arrow, etc.
+All of the major custom aircraft on the market use this possibility. So not only does the FlybyWire A32NX do this but e.g. the Aerosoft CRJ, PMDG DC-6, Working Title's CJ4 mod, Justflight PA-28 Arrow, etc.
 
-All these advanced aircraft have in common that any standard drivers for hardware (or software) controllers are not able to use the additional aircraft APIs (variables and events).
+What these advanced aircraft have in common is that any standard drivers for hardware (or software) controllers are not able to use the additional aircraft APIs (variables and events).
 
 Therefore, much to the frustration of users many hardware controllers do not correctly work with these aircraft with their default drivers.
 
