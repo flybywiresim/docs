@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="../../../../stylesheets/pfd-interactive.css">
+
 # Primary Flight Display (PFD)
 
 ## Interactive PFD
