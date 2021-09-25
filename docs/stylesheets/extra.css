@@ -47,6 +47,7 @@ diff rgba(27,36,52,1)
     font-size: .7rem;
     margin: .6rem auto 0;
     padding: 0 .8rem;
+    text-align: center;
 }
 .md-typeset img, .md-typeset svg {
     height: auto;
