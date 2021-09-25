@@ -64,7 +64,7 @@ plugins:
         # ########################################
         # Needed for URL within the A32NX aircraft
         # ########################################
-        'telex.md': "https://bityl.co/8qFN" # fbw-a32nx/feature-guides/flyPad/settings/#atsuaoc
+        'telex.md': "https://bityl.co/8qKq" # fbw-a32nx/feature-guides/flyPad/settings/#atsuaoc
 
 # Styling Front-end
 extra_css:
