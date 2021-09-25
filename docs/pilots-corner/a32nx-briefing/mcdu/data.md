@@ -26,23 +26,26 @@ PAGE 2 is dedicated to navigation data that is entered or stored in the FMGS.
 List of all FMGC computed positions using various methods. The positions of the different methods should be nearly identical.
 
 - FMGC 1 (1L)
-    - This line shows the latitude and longitude, as calculated by the FMGC 1, and the navigation method used by the FMGC for that calculation (Example: “3 IRS/DME/DME”).
+    - FMGC 1 calculated latitude and longitude, and the methods used by the FMGC for the calculation (Example: “3 IRS/DME/DME”).
 - FMGC 2 (2L)
-    - This line shows the latitude and longitude, as calculated by the FMGC 2, and the navigation method used.
+    - FMGC 2 calculated latitude and longitude, and the methods used by the FMGC for the calculation.
 - RADIO or GPS or GPIRS (3L)
-    - This line shows the latitude and longitude, calculated by the onside FMGC from selected radio NAVAIDs (Example: DME/DME, VOR/DME, or LOC) or from GPS or GPIRS.
+    - Onside FMGC calculated latitude and longitude, calculated from selected radio NAVAIDs (Example: DME/DME, VOR/DME, or LOC) or from GPS or GPIRS.
 - MIX IRS (4L)
-    - This line shows the latitude and longitude of the weighted mean inertial reference system (IRS) calculated by the onside FMGC from the available IRSs.
+    - Onside FMGC calculated latitude and longitude, of the weighted mean inertial reference system (IRS) calculated from the available IRSs.
 - IRS 1,2,3 (5L)
-    - This line shows the deviation in nautical miles of each IRS position from the onside FMGC position. It also displays the IRS mode, which can be INVAL, ALIGN, NAV or ATT.
-      !!! note ""
-          INVAL is displayed when an ADIRS has failed, or the IRS position is not refreshed.
+    - Deviation in nautical miles of each IRS position from the onside FMGC position.
+    - Displays the IRS mode, which can be INVAL, ALIGN, NAV or ATT.
+
+        !!! note ""
+            Displayed INVAL when an ADIRS has failed, or the IRS position is not refreshed.
 
 - FREEZE/UNFREEZE (6L)
-    - The pilot presses this key to freeze (or unfreeze) all the data displayed on the page. When the data is frozen, the title of the page specifies the time at which it was frozen.
+    - To freeze (or unfreeze) all the data displayed on the page.
+    - When frozen, the title of the page specifies the time at which it was frozen.
 
 - SEL NAVAIDS (6R)
-    - The pilot presses this key to access the selected NAVAIDs page.
+    - Access to selected NAVAIDs page.
 
 ### IRS MONITOR
 
