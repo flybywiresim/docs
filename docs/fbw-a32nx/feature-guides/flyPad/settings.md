@@ -107,6 +107,12 @@ Settings for integrations with various data and information sources.
     - MeteoBlue is the weather service the sim uses as well.
 - TAF Source:
     - Choose which Terminal Area Forecast (TAF) service should be used.
+- TELEX:
+    - Enables free text and live map ([Live Map](https://flybywiresim.com/map/)).
+
+        !!! warning ""
+            If enabled, aircraft position data is published for the duration of the flight. Messages are public and not moderated. ~~USE AT YOU OWN RISK~~
+
 - Simbrief Username/Pilot ID
     - see next chapter
 
