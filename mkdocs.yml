@@ -64,6 +64,7 @@ theme:
     scheme: slate
   features:
     - navigation.tabs
+    - navigation.tabs.sticky
     # Temporarily deactivated to provide support for Discord browser + anchor links
     # - navigation.instant
     - navigation.top
