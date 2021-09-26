@@ -146,6 +146,18 @@ In our development version we have introduced a new flight model paired with a n
 
     ![W&B 6](../assets/feature-guides/simbrief/wb6.png){width=90% loading=lazy}
 
+    #### ^^Deboard Passengers^^
+
+    Once you have completed your flight you can opt to deboard passengers from the aircraft. Return to the AOC MENU and head to page 2 of `W&B`. Type in 0 into the scratch pad so that your MCDU page looks like the following:
+
+    ![deboarding](../assets/feature-guides/simbrief/deboarding.png){width=50% loading=lazy}
+
+    Select `LSK1L` to input the 0 passenger value into the TOTAL PAX field on this page. Your page should now look like the following:
+
+    ![deboarding 2](../assets/feature-guides/simbrief/deboarding2.png){width=50% loading=lazy}
+
+    Simply press START to begin the deboard process.
+
 ??? info "Stable"
     Once on the `W&B` page (2/2) you can adjust payload here or accept the numbers provided to you via your simBrief OFP.
 
