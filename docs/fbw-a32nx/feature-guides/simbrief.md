@@ -149,7 +149,7 @@ In our development version we have introduced a new flight model paired with a n
     !!! block ""
         ![W&B 2](../assets/feature-guides/simbrief/wb2.png){align=right width=50% loading=lazy}
 
-        Once on `W&B` page (2/2) it should have "0 (0)" in all fields on the left even if you have pressed OFP REQUEST in a previous section.
+        Once on `W&B` page (2/2) it should look like the sample image even if you have pressed OFP REQUEST in a previous section.
 
     !!! block ""
         ![W&B 3](../assets/feature-guides/simbrief/wb3.png){align=right width=50% loading=lazy}
