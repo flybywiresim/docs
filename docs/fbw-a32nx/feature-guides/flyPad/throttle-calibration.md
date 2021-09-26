@@ -15,6 +15,8 @@ It covers the frequently used [Thrustmaster TCA Throttle Quadrant Airbus edition
 - [Thrustmaster TCA or similar (with Reverser on Axis)](#thrustmaster-tca-or-similar-with-reverser-on-axis)
 - [Thrustmaster TWCS or similar (without Reverser on Axis and no Detents)](#thrustmaster-twcs-or-similar-without-reverser-on-axis-and-no-detents)
 - [Honeycomb Bravo Throttle Quadrant](#honeycomb-bravo-throttle-quadrant)
+- [Keyboard](#keyboard)
+- [XBox Controller](#xbox-controller)
 - [Troubleshooting](#troubleshooting)
 
 ---
@@ -303,6 +305,66 @@ To deactivate the reverse thrust the reverse levers must be released and the thr
       ![EFB-SaveApply](../../assets/flypad/throttle-calibration/EFB-SaveApply.png "EFB-SaveApply"){loading=lazy}
 
 **Congratulations! You have successfully calibrated your throttle!**
+
+---
+
+## Keyboard
+
+![Keyboard F1-F4](../../assets/flypad/throttle-calibration/keyboard-f1-f4.png){loading=lazy}
+
+The keyboard does not have any axis which could be used for controlling the throttles. It uses various keys to set the throttles to predetermined positions or to increase and decrease the throttles.
+
+The default Microsoft Flight Simulator mappings is:
+
+- ++ctrl+f1++: Set throttles to `IDLE`
+- ++ctrl+f2++: `Decrease` throttle by 1/40th  (below IDLE this engages the reverser)
+- ++ctrl+f3++: `Increase` throttle by 1/40th
+- ++ctrl+f4++: Set throttles to `MAX`
+
+The A32NX throttle calibration uses values from -1.0 to +1.0:
+
+- `Full Reverse` is at -1.0
+- `IDLE` detent is at -0.5
+- `CLB` detent is at 0.0
+- `MCT/FLX` is at 0.5
+- `TO/GA` is at +1.0.
+
+The step size for ++f2++ and ++f3++ is 0.05. This result in 40 steps in total from `Full Reverse` to `TO/GA`. The `CLB` detent is right in the middle at 20 steps.
+
+With the default throttle configuration built into the A32NX this results in the following number of steps:
+
+Counting from `IDLE` (-0.5):
+
+- 10 times ++ctrl+f2++ (decrease) for `Full Reverse` (-1.0)
+- 10 times ++ctrl+f3++ (increase) for `CLB` detent (-0.0)
+- 10 times ++ctrl+f3++ (increase) for `MCT/FLX` detent (0.5)
+- 10 times ++ctrl+f3++ (increase) for `TO/GA` detent (1.0)
+
+**Congratulations! No need to calibrate your keyboard throttle!**
+
+---
+
+## XBox Controller
+
+![XBox-Controller](../../assets/flypad/throttle-calibration/xbox-controller.png "XBox-Controller"){loading=lazy}
+
+The XBox-Controller (or any other game controller) is very similar to controlling the throttle with the keyboard. It uses buttons to increase and decrease the throttles.
+
+Therefore read the [Keyboard](#keyboard) section section but instead of ++f2++ or ++f3++ use the buttons mapped to throttle increase and decrease on your controller.
+
+For the XBox-Controller the default buttons are:
+
+- A: Increase throttle
+- B: Decrease throttle
+
+Of course you can map different buttons in MSFS. Also other controllers might have different default buttons for the throttle.
+
+!!! block ""
+    ![msfs-throttle cut](../../assets/flypad/throttle-calibration/msfs-throttle%20cut.png){loading=lazy align=right}
+
+    We recommend to also map a button to set the throttles to IDLE during landing. This can be done by mapping the `THROTTLE CUT` function to a button.
+
+**Congratulations! No need to calibrate your XBox controller!**
 
 ---
 
