@@ -16,7 +16,7 @@ It covers the frequently used [Thrustmaster TCA Throttle Quadrant Airbus edition
 - [Thrustmaster TWCS or similar (without Reverser on Axis and no Detents)](#thrustmaster-twcs-or-similar-without-reverser-on-axis-and-no-detents)
 - [Honeycomb Bravo Throttle Quadrant](#honeycomb-bravo-throttle-quadrant)
 - [Keyboard](#keyboard)
-- [XBox Controller](#xbox-controller)
+- [Xbox Controller](#xbox-controller)
 - [Troubleshooting](#troubleshooting)
 
 ---
@@ -346,17 +346,17 @@ With the default throttle configuration built into the A32NX this results in the
 
 ---
 
-## XBox Controller
+## Xbox Controller
 
-![XBox-Controller](../../assets/flypad/throttle-calibration/xbox-controller.png "XBox-Controller"){loading=lazy}
+![Xbox-Controller](../../assets/flypad/throttle-calibration/xbox-controller.png "Xbox-Controller"){loading=lazy}
 
-==No calibration required for the XBox-Controller - read below!==
+==No calibration required for the Xbox-Controller - read below!==
 
-The XBox-Controller (or any other game controller) is very similar to controlling the throttle with the keyboard. It uses buttons to increase and decrease the throttles.
+The Xbox-Controller (or any other game controller) is very similar to controlling the throttle with the keyboard. It uses buttons to increase and decrease the throttles.
 
 Therefore read the [Keyboard](#keyboard) section section but instead of ++f2++ or ++f3++ use the buttons mapped to throttle increase and decrease on your controller.
 
-For the XBox-Controller the default buttons are:
+For the Xbox-Controller the default buttons are:
 
 - A: Increase throttle
 - B: Decrease throttle
@@ -368,7 +368,7 @@ Of course you can map different buttons in MSFS. Also other controllers might ha
 
     We recommend to also map a button to set the throttles to `IDLE` during landing. This can be done by mapping the `THROTTLE CUT` function to a controller button.
 
-**Congratulations! No need to calibrate your XBox controller!**
+**Congratulations! No need to calibrate your Xbox controller!**
 
 ---
 
