@@ -30,7 +30,7 @@ You can reference this against any OFP you may have generated through simBrief. 
 
 ## Zero Fuel Weight Center of Gravity
 
-The auto population of ZFW and ZFWCG on the INIT B page (once the aircraft and associated payload is loaded into the simulator) should insert the correct ZFW, however please do be aware that the ZFWCG value maybe incorrectly pulled from the MSFS Fuel and Weights window. Please verify that the ZFWCG in your OFP or ZFWCG shown on the [Weights and Balance](simbrief.md#weights-and-balance) page in MCDU OPTIONS matches your INIT B page.
+The auto population of ZFW and ZFWCG on the INIT B page (once the aircraft and associated payload is loaded into the simulator) should match your simBrief OFP.
 
 - See our [Weights and Balance](simbrief.md#weights-and-balance) section in the simBrief integration feature guide.
 - You can read about INIT B configuration [here](../../pilots-corner/beginner-guide/preparing-mcdu.md#init-b).
@@ -44,7 +44,7 @@ An acceptable range for takeoff CG in the A32NX is between 16-40%. An easy way t
 
 [sample image here]
 
-Trimming the aircraft for takeoff can be optional but please reference the above image when setting the correct trim. "Auto-rotation" indicates an issue with your CG being well aft of the limits (and/or THS too far nose up).
+Trimming the aircraft for takeoff can be optional and technically not required. However, please reference the above image when setting the correct trim. "Auto-rotation" indicates an issue with your CG being well aft of the limits (and/or THS too far nose up).
 
 Ideally, anything less than 25% CG is considered FWD load, and anything more than 25% is considered an AFT load. While opting to choose between either CG configuration (aft/fwd) please consider the information below.
 
