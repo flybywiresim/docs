@@ -2,7 +2,7 @@
 
 ## Overview
 
-This short appendix describes appropriate loading of fuel and weights for the A32NX to ensure that you have the best center of gravity (CG) configured for the aircraft.
+This page provides information on the A32NX weights configuration and insight on how to utilize and reference onboard/sim features to configure the aircraft appropriately for departure.
 
 !!! danger "Please do not touch values in MSFS Fuel & Weights window in the toolbar."
 
@@ -16,12 +16,12 @@ This short appendix describes appropriate loading of fuel and weights for the A3
 - MLW (Max Landing Weight): 67400 (in kilograms)
 - Max Fuel Capacity: 19045 (in kilograms)
 - Passenger Weight: 104 (in kilograms)
-  - 84 kg for passenger (including clothing and carry-on bags)
-  - 20 kg for checked luggage
+    - 84 kg for passenger (including clothing and carry-on bags)
+    - 20 kg for checked luggage
 
 ## Zero Fuel Weight
 
-In simple terms the zero fuel weight (ZFW) is the empty weight of the aircraft + payload. The payload would be passengers, baggage, and no fuel on board. In a situation where your payload would be something like 14000 KG *based on our new airframe:* 
+In simple terms the zero fuel weight (ZFW) is the empty weight of the aircraft + payload. The payload would be passengers, baggage, and no fuel on board. In a situation where your payload would be something like 14000 KG - *based on our new airframe:* 
 
 !!! tip ""
     Your ZFW would total - 56500 KG
@@ -40,9 +40,9 @@ The auto population of ZFW and ZFWCG on the INIT B page (once the aircraft and a
 An acceptable range for takeoff CG in the A32NX is between 16-40%. An easy way to check your takeoff CG is to open the MSFS fuel and weights window from the toolbar. It will show you the current CG of the aircraft.
 
 !!! info ""
-    It would be best to check MSFS fuel and weights window shortly before takeoff to account for taxi fuel burned.
+    It would be best to check MSFS fuel and weights window shortly before takeoff to account for taxi fuel burned. **You may have to expand this window to see the CG information.** Sample image provided below.
 
-[sample image here]
+![Takeoff CG](../assets/feature-guides/takeoffcg.jpg){loading=lazy}
 
 Trimming the aircraft for takeoff can be optional and technically not required. However, please reference the above image when setting the correct trim. "Auto-rotation" indicates an issue with your CG being well aft of the limits (and/or THS too far nose up).
 
