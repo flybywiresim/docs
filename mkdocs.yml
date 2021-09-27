@@ -69,7 +69,6 @@ extra_css:
 
 # Extra Functions / Customizations
 extra:
-  generator: false
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/flybywiresim
