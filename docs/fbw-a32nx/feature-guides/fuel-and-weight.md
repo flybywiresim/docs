@@ -44,7 +44,7 @@ An acceptable range for takeoff CG in the A32NX is between 16-40%. An easy way t
 
 ![Takeoff CG](../assets/feature-guides/takeoffcg.jpg){loading=lazy}
 
-Trimming the aircraft for takeoff can be optional and technically not required. However, please reference the above image when setting the correct trim. "Auto-rotation" indicates an issue with your CG being well aft of the limits (and/or THS too far nose up).
+Trimming the aircraft for takeoff can be optional and technically not required. However, please reference the above image in your simulator to find takeoff CG and use the [FBW Checklist](../../pilots-corner/SOP.md) to set the appropriate trim. "Auto-rotation" indicates an issue with your CG being well aft of the limits (and/or THS too far nose up).
 
 Ideally, anything less than 25% CG is considered FWD load, and anything more than 25% is considered an AFT load. While opting to choose between either CG configuration (aft/fwd) please consider the information below.
 
