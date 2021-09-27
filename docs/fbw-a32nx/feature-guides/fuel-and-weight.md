@@ -30,7 +30,7 @@ You can reference this against any OFP you may have generated through simBrief. 
 
 ## Zero Fuel Weight Center of Gravity
 
-The auto population of ZFW and ZFWCG on the INIT B page (once the aircraft and associated payload is loaded into the simulator) should accurately reflect your simBrief OFP once your passengers and cargo have been loaded onboard. Please verify that the ZFWCG shown on the [Weights and Balance](simbrief.md#weights-and-balance) page in MCDU OPTIONS matches your INIT B page.
+The auto population of ZFW and ZFWCG on the INIT B page (once the aircraft and associated payload is loaded into the simulator) should insert the correct ZFW, however please do be aware that the ZFWCG value maybe incorrectly pulled from the MSFS Fuel and Weights window. Please verify that the ZFWCG in your OFP or ZFWCG shown on the [Weights and Balance](simbrief.md#weights-and-balance) page in MCDU OPTIONS matches your INIT B page.
 
 - See our [Weights and Balance](simbrief.md#weights-and-balance) section in the simBrief integration feature guide.
 - You can read about INIT B configuration [here](../../pilots-corner/beginner-guide/preparing-mcdu.md#init-b).
