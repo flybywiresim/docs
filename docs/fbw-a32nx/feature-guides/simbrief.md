@@ -125,26 +125,62 @@ Using the horizontal slew keys you can switch to the weights and balance page.
 
 #### ^^Weights and Balance^^
 
+<style>
+.md-typeset details {
+    display: flow-root;
+    overflow: visible;
+    padding-top: 0;
+    font-size: 0.8rem;
+}
+.md-typeset .admonition-title, .md-typeset summary {
+    background-color: rgba(68,138,255,.1);
+    border-left: .2rem solid #448aff;
+    font-weight: 700;
+    font-size: 0.7rem;
+    margin: 0 -.6rem 0 -.8rem;
+    padding: .4rem .6rem .4rem 2rem;
+    position: relative;
+}
+</style>
+
 In our development version we have introduced a new flight model paired with a new weight and balance payload method that incorporates seat rows and the correct center of gravity. Please use the correct instructions for your corresponding installed version.
 
 ??? info "Development"
-    Once on `W&B` page (2/2) you should see the following image even if you have pressed OFP REQUEST in a previous section.
+    !!! block ""
+        ![W&B 2](../assets/feature-guides/simbrief/wb2.png){align=right width=50% loading=lazy}
 
-    ![W&B 2](../assets/feature-guides/simbrief/wb2.png){width=50% loading=lazy}
+        Once on `W&B` page (2/2) it should look like the sample image even if you have pressed OFP REQUEST in a previous section.
 
-    You will have to request OFP again for this specific page and your `W&B` page will show total passengers and passengers per row awaiting boarding.
+    !!! block ""
+        ![W&B 3](../assets/feature-guides/simbrief/wb3.png){align=right width=50% loading=lazy}
 
-    ![W&B 3](../assets/feature-guides/simbrief/wb3.png){width=50% loading=lazy}
+        You will have to request OFP again for this specific page and your `W&B` page will show total passengers and passengers per row awaiting boarding.
 
     You can now start boarding by selecting LSK6L (the indication will change from `START` to `STOP` in yellow) and watch as the passengers board the aircraft. 
 
     ==**You do not need to remain on this page as boarding continues.**==
 
-    ![W&B 4](../assets/feature-guides/simbrief/wb4.png){width=40%} ![W&B 5](../assets/feature-guides/simbrief/wb5.png){width=40% loading=lazy}
+    ![W&B 4](../assets/feature-guides/simbrief/wb4.png){width=45%} ![W&B 5](../assets/feature-guides/simbrief/wb5.png){width=45% loading=lazy}
 
     Once boarding has completed all rows and total pax should turn green and the boarding indication returns to `START`. Verify your ZFW on this screen and check your lower ECAM that GW has been updated. 
 
     ![W&B 6](../assets/feature-guides/simbrief/wb6.png){width=90% loading=lazy}
+
+    #### ^^Deboard Passengers^^
+
+    !!! block ""
+        ![deboarding](../assets/feature-guides/simbrief/deboarding.png){align=right width=50% loading=lazy}
+
+        Once you have completed your flight you can opt to deboard passengers from the aircraft. Return to the AOC MENU and head to page 2 of `W&B`. 
+
+        Type in 0 into the scratch pad so your page looks like the image.
+
+    !!! block ""    
+        ![deboarding 2](../assets/feature-guides/simbrief/deboarding2.png){align=right width=50% loading=lazy}
+
+        Select `LSK1L` to input the 0 passenger value into the TOTAL PAX field on this page. Your page should now look like the sample to the right.
+
+        Simply press START to begin the deboard process.
 
 ??? info "Stable"
     Once on the `W&B` page (2/2) you can adjust payload here or accept the numbers provided to you via your simBrief OFP.
