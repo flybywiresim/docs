@@ -146,7 +146,7 @@ Using the horizontal slew keys you can switch to the weights and balance page.
 }
 </style>
 
-In our development version we have introduced a new flight model paired with a new weight and balance payload method that incorporates seat rows and the correct center of gravity. Please use the correct instructions for your corresponding installed version. 
+In our development version we have introduced a new flight model paired with a new weight and balance payload method that incorporates seat rows and the correct center of gravity. Please use the correct instructions for your corresponding installed version.
 
 !!! warning "Read additional information on [Fuel and Weights](fuel-and-weight.md)"
 
@@ -202,7 +202,9 @@ In our development version we have introduced a new flight model paired with a n
 
         You can now start boarding by selecting LSK6L (the indication will change from `START` to `STOP` in yellow) and watch as the passengers board the aircraft. 
 
-        ==**You do not need to remain on this page as boarding continues.**==
+        **You do not need to remain on this page as boarding continues.**
+
+        [Setting boarding simulation time on the EFB](flyPad/settings.md#usage_2)
 
     !!! block ""
         ![W&B Loaded](../assets/feature-guides/simbrief/wb-loaded.jpg){align=right width=50% loading=lazy}
