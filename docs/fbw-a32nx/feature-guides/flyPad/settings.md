@@ -45,7 +45,7 @@ Settings for A32NX aircraft configuration.
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
 
-### Usage:
+### Usage
 
 - Weight Unit:
     - The weight unit of the aircraft used for aircraft weight, fuel and simBrief imports.
