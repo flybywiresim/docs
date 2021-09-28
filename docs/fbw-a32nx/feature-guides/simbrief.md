@@ -129,11 +129,11 @@ Using the horizontal slew keys you can switch to the weights and balance page.
 #### ^^Weights and Balance^^
 
 <style>
-.md-typeset details {
+.md-typeset .admonition.info {
     display: flow-root;
     overflow: visible;
     padding-top: 0;
-    font-size: 0.8rem;
+    font-size: 0.75rem;
 }
 .md-typeset .admonition-title, .md-typeset summary {
     background-color: rgba(68,138,255,.1);
@@ -146,18 +146,56 @@ Using the horizontal slew keys you can switch to the weights and balance page.
 }
 </style>
 
-In our development version we have introduced a new flight model paired with a new weight and balance payload method that incorporates seat rows and the correct center of gravity. Please use the correct instructions for your corresponding installed version.
+In our development version we have introduced a new flight model paired with a new weight and balance payload method that incorporates seat rows and the correct center of gravity. Please use the correct instructions for your corresponding installed version. 
+
+!!! warning "Read additional information on [Fuel and Weights](fuel-and-weight.md)"
 
 === "Development"
+    !!! info "Dyanmic Fields and Colors"
+        Payload, ZFW, ZFWCG are dynamic fields that are updated alongside the loading/boarding process.
+
+        - Payload = Pax Weight + Baggage Weight + Cargo
+        - ZFW (Zero Fuel Weight) = OEW (Operating Empty Weight) + Payload
+        - ZFWCG = CG based on ZFW (**Not to be mistaken for takeoff CG**)
+
+        Stations in CYAN indicate they are reading/waiting to board/load.
+
+        Stations that are fully loaded will turn GREEN.
+
     !!! block ""
         ![W&B 2](../assets/feature-guides/simbrief/wb2.png){align=right width=50% loading=lazy}
 
         Once on `W&B` page (2/2) it should look like the sample image even if you have pressed OFP REQUEST in a previous section.
 
+        === "PAX Rows Format"
+            - X (Y)
+            - X denotes PAX already boarded into the relevant station
+            - Y denotes PAX target (awaiting boarding) for the relevant station.
+
+        === "Cargo Hold Format"
+            - X (Y)
+            - X denotes cargo loaded in the hold
+            - Y denotes cargo target for the hold (includes baggage)
+
+    ---
+
     !!! block ""
         ![W&B 3](../assets/feature-guides/simbrief/wb3.png){align=right width=50% loading=lazy}
 
-        You will have to request OFP again for this specific page and your `W&B` page will show total passengers and passengers per row awaiting boarding.
+        You will have to request OFP again for this specific page and your `W&B` page will show total pax, pax per row and cargo hold (in metric tonnes) which populate automatically. 
+
+        Do note that this not start the boarding process. (Cargo will be limited as a protection to a max capacity if the simBrief OFP cargo exceeds the cargo hold limits).
+
+    !!! info "Loading Manually"
+        It is possible to input these values manually to customize your passenger loading. Please note the following information when customizing your pax loading manually:
+
+        - To assign a value to a row (station) enter the amount into your scratchpad using the MDCU keyboard and press the relevant LSK next to the desired station.
+        - If inputting a value into the `TOTAL PAX` using LSK1L this will automatically distribute passengers based on an ideal CG.
+        - Make sure to input pax values (either total or individual row-wise values) BEFORE inputting cargo. Check-in baggage weight is calculated automatically (Pax * 20 KG).
+        - Once the above weights are accounted for you can input remaining weight (cargo weight) in a `X.X` format denoting metric tonnes.
+            - Cargo weight is limited to max capacity if it exceeds the cargo hold limits.
+
+    ---
 
     You can now start boarding by selecting LSK6L (the indication will change from `START` to `STOP` in yellow) and watch as the passengers board the aircraft. 
 
