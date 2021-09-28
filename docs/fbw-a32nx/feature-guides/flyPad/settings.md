@@ -90,7 +90,7 @@ Settings for simulation aspects of the A32NX aircraft.
     - User can set the time for the Display Management Computer's self test (Real ~15sec, Fast ~5sec, Instant).
 - Boarding Time:
     - User can set the simulated boarding time to either a realistic time (~15min), a faster time (~3-4min), or instant.
-        - Based on full load - 174 passengers and full cargo. 
+        - Based on full load - 174 passengers and full cargo.
 - Default Baro:
     - User can set which baro setting he wants to have as a default: inHg, hPA or Auto (depends on the airport where the aircraft spawned).
 - Sync MSFS Flight Plan:
