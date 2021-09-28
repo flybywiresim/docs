@@ -213,19 +213,31 @@ In our development version we have introduced a new flight model paired with a n
 
     #### ^^Deboard Passengers^^
 
+    ##### Complete Deboard
+
     !!! block ""
-        ![deboarding](../assets/feature-guides/simbrief/deboarding.png){align=right width=50% loading=lazy}
+        ![deboarding full](../assets/feature-guides/simbrief/deboarded1.jpg){align=right width=50% loading=lazy}
 
         Once you have completed your flight you can opt to deboard passengers from the aircraft. Return to the AOC MENU and head to page 2 of `W&B`. 
 
-        Type in 0 into the scratch pad so your page looks like the image.
+        To perform a complete deboard (all pax and cargo) input 0 into the scratchpad and select `LSK1L` into the TOTAL PAX field. 
+
+        Press START to begin the process.
+
+    ---
+
+    ##### Partial Deboard
 
     !!! block ""    
-        ![deboarding 2](../assets/feature-guides/simbrief/deboarding2.png){align=right width=50% loading=lazy}
+        ![deboarding partial](../assets/feature-guides/simbrief/deboarding2.jpg){align=right width=50% loading=lazy}
 
-        Select `LSK1L` to input the 0 passenger value into the TOTAL PAX field on this page. Your page should now look like the sample to the right.
+        In case of a partial offload you can input the desired remaining pax and cargo for leg 2. The example to the right shows a planned retention of 142 passengers. 
 
-        Simply press START to begin the deboard process.
+        **NOTE:** Cargo will show only bag weight for 142 pax. Please ensure that you re-add any additional cargo that you may have been carrying originally.
+
+        Press START to begin the process.
+
+    [Return to Top - Weights and Balance](#weights-and-balance){.md-button}
 
 === "Stable"
     Once on the `W&B` page (2/2) you can adjust payload here or accept the numbers provided to you via your simBrief OFP.
