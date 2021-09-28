@@ -180,11 +180,11 @@ In our development version we have introduced a new flight model paired with a n
     ---
 
     !!! block ""
-        ![W&B 3](../assets/feature-guides/simbrief/wb3.png){align=right width=50% loading=lazy}
+        ![W&B 3](../assets/feature-guides/simbrief/wb1.jpg){align=right width=50% loading=lazy}
 
         You will have to request OFP again for this specific page and your `W&B` page will show total pax, pax per row and cargo hold (in metric tonnes) which populate automatically. 
 
-        Do note that this not start the boarding process. (Cargo will be limited as a protection to a max capacity if the simBrief OFP cargo exceeds the cargo hold limits).
+        Note: this not start the boarding process. (Cargo will be limited as a protection to a max capacity if the simBrief OFP cargo exceeds the cargo hold limits).
 
     !!! info "Loading Manually"
         It is possible to input these values manually to customize your passenger loading. Please note the following information when customizing your pax loading manually:
@@ -197,15 +197,19 @@ In our development version we have introduced a new flight model paired with a n
 
     ---
 
-    You can now start boarding by selecting LSK6L (the indication will change from `START` to `STOP` in yellow) and watch as the passengers board the aircraft. 
+    !!! block ""
+        ![W&B Boarding](../assets/feature-guides/simbrief/wb-boarding.jpg){align=right width=50% loading=lazy}
 
-    ==**You do not need to remain on this page as boarding continues.**==
+        You can now start boarding by selecting LSK6L (the indication will change from `START` to `STOP` in yellow) and watch as the passengers board the aircraft. 
 
-    ![W&B 4](../assets/feature-guides/simbrief/wb4.png){width=45%} ![W&B 5](../assets/feature-guides/simbrief/wb5.png){width=45% loading=lazy}
+        ==**You do not need to remain on this page as boarding continues.**==
 
-    Once boarding has completed all rows and total pax should turn green and the boarding indication returns to `START`. Verify your ZFW on this screen and check your lower ECAM that GW has been updated. 
+    !!! block ""
+        ![W&B Loaded](../assets/feature-guides/simbrief/wb-loaded.jpg){align=right width=50% loading=lazy}
+    
+        Once boarding has completed all rows and total pax should turn green and the boarding indication returns to `START`. Verify your ZFW on this screen and check your lower ECAM that GW has been updated.
 
-    ![W&B 6](../assets/feature-guides/simbrief/wb6.png){width=90% loading=lazy}
+    ---
 
     #### ^^Deboard Passengers^^
 
