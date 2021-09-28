@@ -10,6 +10,7 @@ Topics:
 - [Autopilot and fly-by-wire](autopilot-fbw.md)
 - [Flight Management System](cFMS.md)
 - [Fix Info](fixinfo.md)
+- [Fuel and Weight](fuel-and-weight.md)
 - [MCDU Keyboard Support](mcdu-keyboard.md)
 - [SimBrief Integration](simbrief.md)
 - [Throttle Calibration](flyPad/throttle-calibration.md)
