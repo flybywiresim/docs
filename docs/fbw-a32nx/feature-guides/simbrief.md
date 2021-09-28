@@ -151,7 +151,7 @@ In our development version we have introduced a new flight model paired with a n
 !!! warning "Read additional information on [Fuel and Weights](fuel-and-weight.md)"
 
 === "Development"
-    !!! info "Dyanmic Fields and Colors"
+    !!! info "Dynamic Fields and Colors"
         Payload, ZFW, ZFWCG are dynamic fields that are updated alongside the loading/boarding process.
 
         - Payload = Pax Weight + Baggage Weight + Cargo
