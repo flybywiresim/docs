@@ -19,7 +19,9 @@ FWC Std.   H2F9C
 
 [Support Guide](support/index.md){ .md-button }
 [Reported Issues](support/reported-issues.md){ .md-button }
+
 [Throttle Calibration Guide](feature-guides/flyPad/throttle-calibration.md){ .md-button }
+[Feature Guides](feature-guides/index.md){ .md-button }
 
 ##  Topics
 
