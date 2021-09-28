@@ -148,7 +148,7 @@ Using the horizontal slew keys you can switch to the weights and balance page.
 
 In our development version we have introduced a new flight model paired with a new weight and balance payload method that incorporates seat rows and the correct center of gravity. Please use the correct instructions for your corresponding installed version.
 
-??? info "Development"
+=== "Development"
     !!! block ""
         ![W&B 2](../assets/feature-guides/simbrief/wb2.png){align=right width=50% loading=lazy}
 
@@ -185,7 +185,7 @@ In our development version we have introduced a new flight model paired with a n
 
         Simply press START to begin the deboard process.
 
-??? info "Stable"
+=== "Stable"
     Once on the `W&B` page (2/2) you can adjust payload here or accept the numbers provided to you via your simBrief OFP.
 
     - Press LSK5L to instantly load your planned payload and pax.
