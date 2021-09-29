@@ -184,7 +184,7 @@ In our development version we have introduced a new flight model paired with a n
 
         You will have to request OFP again for this specific page and your `W&B` page will show total pax, pax per row and cargo hold (in metric tonnes) which populate automatically. 
 
-        Note: this not start the boarding process. (Cargo will be limited as a protection to a max capacity if the simBrief OFP cargo exceeds the cargo hold limits).
+        Note: this does not start the boarding process. (Cargo will be limited as a protection to a max capacity if the simBrief OFP cargo exceeds the cargo hold limits).
 
     !!! info "Loading Manually"
         It is possible to input these values manually to customize your passenger loading. Please note the following information when customizing your pax loading manually:
