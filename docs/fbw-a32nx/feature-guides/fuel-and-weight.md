@@ -19,9 +19,20 @@ This page provides information on the A32NX weights configuration and insight on
     - 84 kg for passenger (including clothing and carry-on bags)
     - 20 kg for checked luggage
 
+!!! info "A Note on OEW"
+    It is important to understand that the term "operating empty weight" can seem a little generic. OEW is typically calculated as "manufacturer's empty weight + standard items + operator items". These items can be the following (not all inclusive):
+
+    - Crew members
+    - Manuals
+    - Food and Beverage
+    - Emergency Equipment
+    - and any equipment/supplies considered standard by the operator
+
+    When considering your ZFW below please keep into consideration the above information with OEW with particular regard that this weight does include the flight crew.
+
 ## Zero Fuel Weight
 
-In simple terms the zero fuel weight (ZFW) is the empty weight of the aircraft + payload. The payload would be passengers, baggage, and no fuel on board. In a situation where your payload would be something like 14000 KG - *based on our new airframe:* 
+In simple terms the zero fuel weight (ZFW) = OEW + payload. The payload would be passengers, baggage, and no fuel on board. In a situation where your payload would be something like 14000 KG - *based on our new airframe:* 
 
 !!! tip ""
     Your ZFW would total - 56500 KG
@@ -30,7 +41,7 @@ You can reference this against any OFP you may have generated through simBrief. 
 
 ## Zero Fuel Weight Center of Gravity
 
-The auto population of ZFW and ZFWCG on the INIT B page (once the aircraft and associated payload is loaded into the simulator) should match your simBrief OFP.
+The A32NX will auto calculate the ZFW and ZFWCG on the INIT B page (once the aircraft and associated payload is loaded into the simulator) based on the payload in each loading station.
 
 - See our [Weights and Balance](simbrief.md#weights-and-balance) section in the simBrief integration feature guide.
 - You can read about INIT B configuration [here](../../pilots-corner/beginner-guide/preparing-mcdu.md#init-b).
