@@ -11,6 +11,7 @@ This page provides information on the A32NX weights configuration and insight on
 **Development + Experimental Version Only** - See our [simBrief Profile](../installation.md#simbrief-airframe)
 
 - OEW (Empty Weight): 42500 (in kilograms)
+    - Also referred to as DOW (Dry Operating Weight) which can be seen in other simBrief OFP formats such as EZY
 - MZFW (Max Zero Fuel Weight): 64300 (in kilograms)
 - MTOW (Max Takeoff Weight): 79000 (in kilograms)
 - MLW (Max Landing Weight): 67400 (in kilograms)
@@ -41,21 +42,25 @@ You can reference this against any OFP you may have generated through simBrief. 
 
 ## Zero Fuel Weight Center of Gravity
 
-The A32NX will auto calculate the ZFW and ZFWCG on the INIT B page (once the aircraft and associated payload is loaded into the simulator) based on the payload in each loading station.
+The A32NX will auto calculate the ZFW and ZFWCG on the INIT B page once the aircraft and associated payload is loaded into the simulator.
 
 - See our [Weights and Balance](simbrief.md#weights-and-balance) section in the simBrief integration feature guide.
 - You can read about INIT B configuration [here](../../pilots-corner/beginner-guide/preparing-mcdu.md#init-b).
 
 ## Center of Gravity
 
-An acceptable range for takeoff CG in the A32NX is between 16-40%. An easy way to check your takeoff CG is to open the MSFS fuel and weights window from the toolbar. It will show you the current CG of the aircraft.
+An acceptable range for takeoff CG in the A32NX is between 16-40%. The CG is balanced during the passenger loading process.
+
+<!-- Temporarily removed // remove before pending @sid's info --> 
+
+<!-- An easy way to check your takeoff CG is to open the MSFS fuel and weights window from the toolbar. It will show you the current CG of the aircraft.
 
 !!! info ""
     It would be best to check MSFS fuel and weights window shortly before takeoff to account for taxi fuel burned. **You may have to expand this window to see the CG information.** Sample image provided below.
 
-![Takeoff CG](../assets/feature-guides/takeoffcg.jpg){loading=lazy}
+![Takeoff CG](../assets/feature-guides/takeoffcg.jpg){loading=lazy} -->
 
-Trimming the aircraft for takeoff can be optional and technically not required. However, please reference the above image in your simulator to find takeoff CG and use the [FBW Checklist](../../pilots-corner/SOP.md) to set the appropriate trim. "Auto-rotation" indicates an issue with your CG being well aft of the limits (and/or THS too far nose up).
+Trimming the aircraft for takeoff can be optional and technically not required. Please reference our the [FBW Checklist](../../pilots-corner/SOP.md) to set the appropriate trim should you wish to.
 
 Ideally, anything less than 25% CG is considered FWD load, and anything more than 25% is considered an AFT load. While opting to choose between either CG configuration (aft/fwd) please consider the information below.
 
