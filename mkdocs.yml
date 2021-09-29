@@ -62,6 +62,10 @@ plugins:
         'a32nx-dev/texture-changes.md': 'dev-corner/texture-changes.md'
         # additional redirects:
         'fbw-a32nx/feature-guides/throttle-calibration.md': 'fbw-a32nx/feature-guides/flyPad/throttle-calibration.md'
+        # ########################################
+        # Needed for URL within the A32NX aircraft
+        # ########################################
+        'telex.md': "https://bityl.co/8qKq" # fbw-a32nx/feature-guides/flyPad/settings/#atsuaoc
 
 # Styling Front-end
 extra_css:
