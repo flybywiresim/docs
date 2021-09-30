@@ -51,7 +51,79 @@ List of all FMGC computed positions using various methods. The positions of the 
 
 ![MCDU Data IRS Page](../../assets/a32nx-briefing/mcdu/data-irs.png "MCDU Data IRS Page"){loading=lazy}
 
+This page is used to display the current IRS data the aircraft has from the 3 IRS systems.
+
+- DRIFT AT XXXX (TITLE)
+    - Displays “DRIFT AT” runway identifier in amber, if at least one IRS average drift is displayed.
+
+        !!! attention ""
+            Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+
+- IRS 1-3 (1R, 2R, 3R)
+    - Access to the associated IRS pages.
+    - Label line displays the mode (NAV, ALIGN, ATT or INVAL), the average drift (upon transition to DONE phase), and the Time To NAV (if IRS in align) for each IRS.
+    - Displays the status message of the associated IRS in small green font.
+    - List of available messages:
+        - IR FAULT
+        - CHECK C/B
+        - DELAYED MAINT
+        - CDU FAULT
+        - ENTER PPOS
+        - ENTER HEADING
+        - SELECT ATT
+        - REENTER PPOS
+        - EXCESS MOTION
+        - SYS BELOW -15 °
+        - SWITCH ADR
+
+    !!! attention ""
+        Currently only partly available in the FBW A32NX for Microsoft Flight Simulator.
+
+- SET HDG (5R)
+    - Displayed, if at least one IRS is in ATT mode.
+    - It allows initialization of a heading for IRS in ATT mode:
+        ‐ If a heading has been entered in this field, or on the ADIRS panel, the value is displayed in blue.
+        ‐ If not, amber boxes are displayed.
+
+        !!! attention ""
+            Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+
 ![MCDU Data IRS1 Page](../../assets/a32nx-briefing/mcdu/data-irs1.png "MCDU Data IRS1 Page"){loading=lazy}
+
+Displays the IRS parameters and GPS/IRS hybrid parameters.
+
+- TITLE
+    - Displays the selected IRS in large white font. When frozen, IRS is replaced by “IRS FROZEN AT” and the time at which the pilot has frozen the display.
+
+- POSITION (1L)
+    - Latitude/longitude given by the selected IRS.
+
+- TTRK (2L)
+    - True track
+
+- THDG (3L)
+    - True heading
+
+- WIND (4L)
+    - True wind direction/velocity
+
+- GPIRS (5L)
+    - GPS/IRS hybrid position of the IRS
+
+- FREEZE/UNFREEZE (6L)
+    - Allows to freeze or unfreeze all data displayed on all three IRS pages. When frozen, the title of the page specifies the time at which it was frozen. It is automatically unfrozen when exiting the page.
+
+- GS (2R)
+    - Ground speed
+
+- MHDG (3R)
+    - Magnetic heading
+
+- GPIRS ACCUR (4R)
+    - GPS/IRS Figure of Merit (meters or feet)
+
+- NEXT IRS (6R)
+    - This prompt calls up the next IRS page
 
 ### GPS MONITOR
 
