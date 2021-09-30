@@ -159,9 +159,50 @@ Displays the IRS parameters and GPS/IRS hybrid parameters.
 
 ![MCDU Data Status Page](../../assets/a32nx-briefing/mcdu/data-status.png "MCDU Data Status Page"){loading=lazy}
 
+Automatically displayed this page at power up.  Pilots may also call it up by pressing the DATA key on the MCDU console.
+
+!!! attention ""
+    Currently only partly available in the FBW A32NX for Microsoft Flight Simulator.
+
+- TITLE
+    - Aircraft Type
+
+- ENGINE TYPE (1L)
+    -Used this to calculate predictions.
+
+- ACTIVE DATABASE (2L)
+    - Validity period and part number (large font).
+
+- SECOND DATABASE (3L)
+    - Validity period in small font.
+    - A press to the 3L key switches to the second database as the active database.
+
+- CHG CODE (5L)
+    - Entry of code to change the IDLE and/or PERF factor, displayed in 6L.
+    - Displayed in the PREFLIGHT and DONE phases.
+    - Label is displayed in small white font.
+    - The brackets, or the entered value, is displayed in large blue font.
+
+- IDLE/PERF (6L)
+    - Aircraft must be on ground to enter values.
+    - FMS displays default values from the Airline Modifiable Information (AMI) file if nothing is entered.
+    - Default values are displayed in small font.
+    - Manually entered values are displayed in large font.
+    - When it is necessary to modify the IDLE or the PERF factor:
+        ‐ ENTER the change code in the CHG CODE field (5L).
+        - Default value for the code is “ARM” but can be modified in the Airline Modifiable Information (AMI) file.
+        - With a valid code, the IDLE and PERF factors are displayed in blue.
+        ‐ ENTER the new IDLE and/or PERF factor(s) in the scratchpad.
+        ‐ PRESS the (6L) key to insert the new IDLE and/or PERF factor.
+        - The new IDLE and/or PERF factors are displayed in large blue font.
+
+- STATUS/XLOAD (6R)
+    - Calls up the P/N STATUS and P/N XLOAD pages.
+
 ### CLOSEST AIRPORTS
 
 ![MCDU Data GPS Page](../../assets/a32nx-briefing/mcdu/data-closest-airports.png "MCDU Data GPS Page"){loading=lazy}
+
 ## DATA INDEX page 2
 
 ![MCDU Data Index 2 Page](../../assets/a32nx-briefing/mcdu/data-index-2.png "MCDU Data Index 2 Page"){loading=lazy}
