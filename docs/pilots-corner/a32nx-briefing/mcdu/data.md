@@ -129,6 +129,32 @@ Displays the IRS parameters and GPS/IRS hybrid parameters.
 
 ![MCDU Data GPS Page](../../assets/a32nx-briefing/mcdu/data-gps.png "MCDU Data GPS Page"){loading=lazy}
 
+- GPS 1,2 POSITION (1L, 4L)
+
+- TTRK GPS 1, 2 (2L, 5L)
+    - true track
+
+- MERIT GPS 1, 2 (3L, 6L)
+    - figure of merit (meters or feet)
+
+- GS GPS 1, 2 (2R, 5R)
+    - ground speed
+
+- MODE/SAT (3R, 6R)
+    - Mode of GPS 1, 2 and number of satellites tracked.
+        - INIT: System initialization
+        - ACQ: Satellite acquisition
+        - NAV: Normal mode
+        - TEST: System test
+        - FAULT: Invalid system
+        - ALTAID/AIDED: Degraded modes. GPS uses aircraft inputs for computation purposes.
+
+- UTC (2, 5)
+    - GPS 1, 2 UTC
+
+- GPS ALT (3, 6)
+    - GPS altitude is displayed for information purposes. It is not used by the FMGS.
+
 ### A/C STATUS
 
 ![MCDU Data Status Page](../../assets/a32nx-briefing/mcdu/data-status.png "MCDU Data Status Page"){loading=lazy}
