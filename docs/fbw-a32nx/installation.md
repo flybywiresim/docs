@@ -137,13 +137,13 @@ If the above methods do not work:
 
 ![How to find the correct Community folder](assets/find-community-folder.png "How to find the correct Community folder")
 
-To find the Community folder that MSFS is actually using please follow these steps:
+To find the Community folder that MSFS is using please follow these steps:
 
 1. Go to your General Settings in MSFS and activate Developer Mode.
-2. Go to the menu and open the Virtual Filesystem.
-3. Click on Packages Folder --> "Open Community Folder".
+2. Go to the menu and select 'Virtual File System'.
+3. Click on 'Packages Folders' and select 'Open Community Folder'.
 
-This opens the Community folder in a Windows Explorer.
+This opens the Community folder in a Windows Explorer. Please ensure that your addons are installed in the folder that is opened.
 
 ---
 
