@@ -37,12 +37,12 @@ This quickstart lists all necessary steps for calibrating your throttle. Please 
 
 ### Step 2: flyPad Throttle Calibration Page
 
-- Set `Reverse On Axis` and `Independent Axis` as required for your controller (for the TCA both are ON)
-- Move your controller all the way back (with reverser to `Reverse Full`, without reverser to `Idle`)
-- Click in the middle on the detent's name to select the detent you want to calibrate
+- Set `Reverse On Axis` and `Independent Axis` as required for your controller (for the TCA both are ON).
+- Move your controller all the way back (with reverser to `Reverse Full`, without reverser to `Idle`).
+- Click in the middle on the detent's name to select the detent you want to calibrate.
 - Move your controller's throttle to the corresponding detent and click on `Set From Throttle` to set the current throttle position as the value for this detent.
 - Repeat this for all positions/detents.
-- Click `Save & Apply`
+- Click `Save & Apply`.
 - Test your settings.
 
 [Detailed step-by-step Guide](#step-2-calibrating-the-tca-throttle-detents-in-the-flybywire-flypad-efb)
@@ -316,6 +316,13 @@ To deactivate the reverse thrust the reverse levers must be released and the thr
 
 The keyboard does not have any axis which could be used for controlling the throttles. It uses various keys to increase and decrease the throttles or to set the throttles to predetermined positions.
 
+!!! warning "Please Note the Following"
+    If you have trouble hitting the detents with the keyboard you might have an old configuration which has detents defined that are smaller than the 0.05 button stroke step size. To fix this you either: 
+
+    - Manually remove the old ThrottleConfiguration.ini in our work folder. 
+        - See [Work Folder Section](#work-folder) for details.
+    - Fix the problematic detent's deadband size to be large than 0.05.
+
 The default Microsoft Flight Simulator mappings is:
 
 - ++ctrl+f1++: Set throttles to `IDLE`
@@ -342,7 +349,7 @@ With the default throttle configuration built into the A32NX this results in the
 - 10 times ++ctrl+f3++ (increase) for `MCT/FLX` detent (0.5)
 - 10 times ++ctrl+f3++ (increase) for `TO/GA` detent (1.0)
 
-**Congratulations! No need to calibrate your keyboard throttle!**
+**Congratulations! You can use the keyboard for throttle control!**
 
 ---
 
@@ -350,7 +357,7 @@ With the default throttle configuration built into the A32NX this results in the
 
 ![Xbox-Controller](../../assets/flypad/throttle-calibration/xbox-controller.png "Xbox-Controller"){loading=lazy}
 
-==No calibration required for the Xbox-Controller - read below!==
+==No calibration required for the Xbox controller - read below!==
 
 The Xbox-Controller (or any other game controller) is very similar to controlling the throttle with the keyboard. It uses buttons to increase and decrease the throttles.
 
@@ -368,7 +375,7 @@ Of course you can map different buttons in MSFS. Also other controllers might ha
 
     We recommend to also map a button to set the throttles to `IDLE` during landing. This can be done by mapping the `THROTTLE CUT` function to a controller button.
 
-**Congratulations! No need to calibrate your Xbox controller!**
+**Congratulations! You can use your Xbox controller for throttle control!**
 
 ---
 
