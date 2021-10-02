@@ -65,15 +65,23 @@ We begin with turning on batteries `BAT 1 AND 2`. After pushing these buttons, w
 
 To give power to the aircraft we will use the "Ground Power Unit". If ground power isn't available we can also use the APU.
 
-=== "Ground Power"
-    If ground power is available, we should see a green `AVAIL` light on the `EXT PWR` button. Push on this button to give power to the aircraft.
+#### Ground Power
 
-    ![GPU](../assets/beginner-guide/starting-aircraft/gpuoff.png){loading=lazy}
+If ground power is available, we should see a green `AVAIL` light on the `EXT PWR` button. Push on this button to give power to the aircraft.
 
-=== "APU"
-    If ground power isn't available, we turn on the APU. To do this, we simply push on the APU `MASTER SW` and `START`. The APU should be on within one minute.
+![GPU](../assets/beginner-guide/starting-aircraft/gpuoff.png){loading=lazy}
 
-    ![APU Start](../assets/beginner-guide/after-landing/APU-Start.png "APU Start"){loading=lazy width=25%}
+#### APU
+
+If ground power isn't available, we turn on the APU now. To do this, we simply push on the APU `MASTER SW` and `START`. The APU should be on within one minute.
+
+![APU Start](../assets/beginner-guide/after-landing/APU-Start.png "APU Start"){loading=lazy width=25%}
+
+!!! note "Engine Start"
+    APU Bleed Air is required for starting the engines. See [Engine Start and Taxi](engine-start-taxi.md)
+
+!!! note "COVID SOP"
+    Many airlines require the air condition to run before passengers enter the aircraft and then run continuously. Therefore turning on the APU now even with ground power is required as the air conditioning packs need the APU Bleed air as long as engines are not running. Especially if a ground air conditioning unit is not available.
 
 After powering the aircraft, we turn on the crew oxygen supply by pushing on the button, diminishing the white `OFF` light.
 
