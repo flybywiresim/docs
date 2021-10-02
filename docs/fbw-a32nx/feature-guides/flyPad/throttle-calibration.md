@@ -312,11 +312,16 @@ To deactivate the reverse thrust the reverse levers must be released and the thr
 
 ![Keyboard F1-F4](../../assets/flypad/throttle-calibration/keyboard-f1-f4.png){loading=lazy}
 
-==Calibration not strictly required for keyboard - read below!==
+==No calibration required for keyboard - read below!==
 
 The keyboard does not have any axis which could be used for controlling the throttles. It uses various keys to increase and decrease the throttles or to set the throttles to predetermined positions.
 
-!!! warning "Check you have set a large enough range/deadband on the EFB to ensure compatibility. For a basic description - [Read Here](#step-2-flypad-throttle-calibration-page)"
+!!! warning "Please Note the Following"
+    If you have trouble hitting the detents with the keyboard you might have an old configuration which has detents defined that are smaller than the 0.05 button stroke step size. To fix this you either: 
+
+    - Manually remove the old ThrottleConfiguration.ini in our work folder. 
+        - See [Work Folder Section](#work-folder) for details.
+    - Fix the problematic detent's deadband size to be large than 0.05.
 
 The default Microsoft Flight Simulator mappings is:
 
@@ -352,13 +357,11 @@ With the default throttle configuration built into the A32NX this results in the
 
 ![Xbox-Controller](../../assets/flypad/throttle-calibration/xbox-controller.png "Xbox-Controller"){loading=lazy}
 
-==Calibration not strictly required for the Xbox-Controller - read below!==
+==No calibration required for the Xbox controller - read below!==
 
 The Xbox-Controller (or any other game controller) is very similar to controlling the throttle with the keyboard. It uses buttons to increase and decrease the throttles.
 
 Therefore read the [Keyboard](#keyboard) section section but instead of ++f2++ or ++f3++ use the buttons mapped to throttle increase and decrease on your controller.
-
-!!! warning "Check you have set a large enough range/deadband on the EFB to ensure compatibility. For a basic description - [Read Here](#step-2-flypad-throttle-calibration-page)"
 
 For the Xbox-Controller the default buttons are:
 
