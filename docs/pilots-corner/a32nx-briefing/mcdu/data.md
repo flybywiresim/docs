@@ -201,7 +201,53 @@ Automatically displayed this page at power up.  Pilots may also call it up by pr
 
 ### CLOSEST AIRPORTS
 
-![MCDU Data GPS Page](../../assets/a32nx-briefing/mcdu/data-closest-airports.png "MCDU Data GPS Page"){loading=lazy}
+![MCDU Data Closest Airports 1 Page](../../assets/a32nx-briefing/mcdu/data-closest-airports-1.png "MCDU Data Closest Airports 1 Page"){loading=lazy}
+
+Automatically selected closest 4 airports from the current position. The
+
+Pilots can add a 5th airport.
+
+Page 1 displays the bearing, distance, and time to go to each airport.
+
+- (1L - 4L)
+    - Closest four airports from the database ordered by distance from the current position.
+- BRG
+    - Current bearing to the airport.
+- DIST
+    - Current great-circle distance to the airport.
+- UTC
+    - Predicted time to the airport
+    - Computed using the current wind or a wind vector entered on page 2, and the speed according to the current mode (managed or selected).
+    - This is only computed in cruise phase.
+
+- (5L)
+    - A 5th airport ICAO can be entered.
+    - Can by modified at any time, even when “LIST FROZEN” is displayed.
+    - WHen ICAO is not in the database, then “NOT IN DATABASE” appears in the scratchpad.
+
+- EFOB/WIND (6R)
+    - Gives access to page 2.
+    - Automatically freezes the list of the four closest airports when pressed.
+
+![MCDU Data Closest Airports 2 Page](../../assets/a32nx-briefing/mcdu/data-closest-airports-2.png "MCDU Data Closest Airports 2 Page"){loading=lazy}
+
+Page 2 displays the EFOB and allows the crew to enter an effective wind to be flown to each airport.
+
+- EFF WIND (1-5)
+    - EFOB at each airport.
+    - EFOB is only computed in cruise phase.
+    - Enter an anticipated headwind or tailwind along the bearing to the airport. If entry is preceded by +, T, or TL, a tailwind is assumed.
+    - If entry is preceded by -, H, or HD, a headwind is assumed.
+    - Default value may be displayed, based on the current wind.
+    - Used to compute the EFOB and time to the airport.
+
+        !!! attention ""
+            Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+
+- FREEZE/UNFREEZE (6L)
+    - This prompt enables the pilot to freeze and unfreeze the list of four airports.
+    - The list is automatically frozen when accessing page 2. It will remain frozen upon returning to page 1.
+    - The “LIST FROZEN” message is always displayed on page 2.
 
 ## DATA INDEX page 2
 
