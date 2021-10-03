@@ -53,7 +53,7 @@ A non-precision approach officially can only give you lateral guidance to the po
 | Localiser Only \(LOC\)              | A localiser that would be part of an ILS system normally             | Some airports only have localiser but also when ILS glideslopes have failed. |
 | VOR-DME or VOR Only                 | A VOR beacon with/without a distance from a DME                      | Old style approaches, where ILS cannot be used.                              |
 | NDB-DME or NDB Only                 | A NDB beacon with/without a distance from a DME                      | Old style approaches, where an ILS cannot be used                            |
-| LNAV Only                           | GPS or the Aircrafts position inside the flight management computers | Approaches where there are no radio beacons in the area                      |
+| LNAV Only                           | GPS or the aircraft's position inside the flight management computers | Approaches where there are no radio beacons in the area                      |
 | Approach Surveillance Radar \(ASR\) | A radar dish and a controller <br> (No altitude compared to PAR)     | Commonly as a backup, or at military airfields.                              |
 | Visual                              | Pilots eyeball!                                                      | Where there is no issue with the weather and the runway is already in sight  |
 
@@ -74,12 +74,19 @@ A newer kind of approach, that uses both lateral and vertical guidance from sour
 
 ## The Different Categories of ILS
 
+!!! info "MDA and DA"
+    Due to differences between established regulations by EUROCONTROL and the FAA it is critical that pilots use and understand the difference between Minimum Descent Alittude (MDA) and Decision Altitude (DA) where appropriate. This ensures that there is no discrepancy between which minimum to use for the type of approach planned.
+
+    While the information provided below can suffice as a guideline it is always best to understand the minimums posted on the approach plate as your minimum criteria.
+
+    [Read More Here](#minimums-and-mdadh)
+
 With the ILS system, there are several categories that have different requirements from the pilots, the aircraft, the weather and the airport equipment. They are known as CAT, short for category, and are listed as both roman numerals and Latin numbers:
 
-| ILS Category                          | Autoland Required <br>\(in the Airbus\)           | Weather <br>\(Normally\)                           | MDA or DH           |
+| ILS Category                          | Autoland Required <br>\(in the Airbus\)           | Weather <br>\(Normally\)                           | MDA/DA or DH           |
 | :-------------:                       | :--------------:                                  | :-----------:                                      | :----------:        |
-| CAT I                                 | No <br>\(May also be unsafe due to interference\) | Cloud base above 200ft <br>Visibility 550m         | MDA                 |
-| CAT I LTS <br>\(Lower Than Standard\) | Yes                                               | Cloud base above 200ft <br>Visibility 400m or 450m | MDA                 |
+| CAT I                                 | No <br>\(May also be unsafe due to interference\) | Cloud base above 200ft <br>Visibility 550m         | MDA/DA                 |
+| CAT I LTS <br>\(Lower Than Standard\) | Yes                                               | Cloud base above 200ft <br>Visibility 400m or 450m | MDA/DA                 |
 | CAT II                                | Yes                                               | Cloud base above 100ft <br>Visibility 300m         | DH                  |
 | CAT IIIA                              | Yes                                               | Cloud base above 100ft <br>Visibility 200m         | DH                  |
 | CAT IIIB                              | Yes \(2 Autopilots\)                              | Cloud base above 50ft <br>Visibility 75m           | DH <br>\(can be 0\) |
@@ -91,7 +98,7 @@ requires more advanced equipment both on the airfield and in the cockpit. To be 
 pilots are required to retrain on low visibility operations every year.
 
 The CAT 3C can be performed without ever seeing anything at all but this is not in practice yet
-as there has not been designed a system for the aircraft to be able to leave the runway and go to
+as there has not been a system designed for the aircraft to be able to leave the runway and go to
 the parking stands completely blind. The A320 family are capable of everything including CAT
 3C.
 
