@@ -184,7 +184,7 @@ The brightness for each display can be adjusted to make them better readable.
 
 For the PFD and ND, the knobs are in the same location. Look left (or right when in  first officer seat) of the PFD and find the brightness knobs for them. Simply turn both knobs as required.
 
-![PFD and ND brightness](../assets/beginner-guide/starting-aircraft/pfdndbright.png){loading=lazy}
+![PFD and ND brightness](../assets/beginner-guide/starting-aircraft/pfdndbright.png "PFD and ND brightness"){loading=lazy}
 
 For the ECAM upper and lower display, look just in front of the throttles and find the brightness knobs. Just like the PFD and ND knobs, rotate them as required.
 
@@ -192,7 +192,7 @@ For the ECAM upper and lower display, look just in front of the throttles and fi
 
 For the ISIS display brightness (just left of the upper ECAM), use the `+` and `-` buttons until the brightness is suitable. While we are at the ISIS display, set the current QNH.
 
-![ISIS](../assets/beginner-guide/starting-aircraft/isis.png){loading=lazy}
+![ISIS](../assets/beginner-guide/starting-aircraft/isis.png "ISIS"){loading=lazy}
 
 ---
 
@@ -200,7 +200,7 @@ For the ISIS display brightness (just left of the upper ECAM), use the `+` and `
 
 Looking down at the **radio panel**, set the `RMP 1` to the active **ATIS** frequency and set the standby frequency to the **ground** frequency.
 
-![Radio Panel](../assets/beginner-guide/starting-aircraft/radiopanel.png "Radio Panel"){ loading=lazy width=70% }
+![Radio Panel](../assets/beginner-guide/starting-aircraft/radiopanel.png "Radio Panel"){ loading=lazy}
 
 After setting correct frequencies, locate the `BARO` reference on the **glareshield**. We can set the barometer to either `inHg` or `hPa` by turning the grey inner selector behind the knob. For this flight ensure that we are set to `QNH`. This can be changed by "pushing" on the BARO knob (the tooltip will have an upwards arrow).
 
@@ -213,15 +213,15 @@ After setting correct frequencies, locate the `BARO` reference on the **glareshi
 
 Just below the barometer reference, turn on the `FD`. A green light indicates it has been turned on.
 
-![efis control](../assets/beginner-guide/starting-aircraft/EFIS-Control.png){ loading=lazy width=90% }
+![EFIS Control Panel](../assets/beginner-guide/starting-aircraft/efis-control.png "EFIS Control Panel"){ loading=lazy}
 
 ### ECAM Fuel Page
 
-Verify that on the ECAM fuel page that your aircraft has enough fuel for the flight.
+Verify on the Upper ECAM that your aircraft has enough fuel for the flight.
 
-If we do not have enough fuel for the flight we can refuel via Microsoft Flight Simulator's hovering menu bar or through the flyPad.
+![ECAM Fuel On Board](../assets/beginner-guide/starting-aircraft/ecam-fuel.png "ECAM Fuel On Board")
 
-![flyPad Fuel](../assets/beginner-guide/starting-aircraft/flypadfuel.jpg){loading=lazy}
+If we do not have enough fuel for the flight we can refuel via the [flyPad EFB Fuel Page](../../fbw-a32nx/feature-guides/flyPad/dispatch.md#fuel-page) .
 
 ---
 
