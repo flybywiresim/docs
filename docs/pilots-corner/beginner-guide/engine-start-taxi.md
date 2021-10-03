@@ -75,24 +75,38 @@ At this point we may begin pushback away from the terminal onto the taxiway Alph
 
 ---
 
-### How to Use MSFS Pushback
+### How to Pushback
 
-For the purposes of this guide we will use the default MSFS pushback controls built into ATC.
+The FlyByWire A32NX has a ground operations page on its build in flyPad EFB (Electronic Flight Bag). This page allows to control the pushback of the aircraft and other useful ground operations such as calling the jetway, baggage or catering, etc.
 
-1. Open the ATC menu using the toolbar at the top of your screen.
-   ![atc toolbar](../assets/beginner-guide/taxi/toolbar.png){loading=lazy}
-2. Locate `GROUND SERVICES` and select it.
-3. Select `REQUEST PUSHBACK`.
-    - You should hear your virtual pilot request pushback and ATC respond confirming. At this time the pushback tug should slowly make its way to your nose wheel.
-    - You will notice a slight "jerk" as it connects with your nose wheel. Verify `NWS STRG DISC` is listed on the ECAM memos.
-4. Release your parking brake.
-5. In the ATC window use `REQUEST PUSHBACK STEER TO THE LEFT` OR `REQUEST PUSHBACK STEER TO THE RIGHT` to turn the aircraft.
-6. Select `REQUEST PUSHBACK STOP` to end pushback when you are satisfied with your position on the taxiway.
+Although Microsoft Flight Simulator also has some pushback functionality build into the default ATC service this guide will only cover the A32NX pushback functionality.
 
-!!! info "Steering Commands"
-    Please note when selecting other option this will "steer" the tail towards the specified direction.
+![flyPad EFB Ground Operations](../assets/beginner-guide/taxi/flyPad-ground-page.png "flyPad EFB Ground Operations"){loading=lazy}
 
-    For example, if your external camera is directly behind the aircraft and you request `STEER TO THE LEFT` the tail of your aircraft will be "steered" to the left. 
+
+!!! block ""
+    ![Call Tug](../assets/beginner-guide/taxi/call-tug-button.png "Call Tug"){loading=lazy align=left}
+
+    After we received clearance to pushback we will call the pushback tug by pressing the `Call Tug` button on the flyPad.
+    
+    If a pushback tug is available at this gate or stand it will then start attaching itself to the nose wheel.
+
+    !!! warning ""
+        Some airports / gates / stands do not show a tug. This functionality still works and you can push back as if a tug is attached. I looks like an invisible tug is pushing the aircraft.
+
+After the tug is attached to the nose wheel we can start pushing back by using these control buttons:
+
+!!! block ""
+    ![Tug steer buttons](../assets/beginner-guide/taxi/tug-steer-buttons.png "Tug steer buttons"){loading=lazy align=left}
+
+    Steer with the left, straight and right buttons to position the aircraft as required.
+
+!!! block ""
+    ![Tug Stop](../assets/beginner-guide/taxi/tug-stop-button.png "Tug Stop"){loading=lazy align=left}
+
+    To stop or pause the pushback press the red button.
+    
+    Press the `Call Tug` again to release the tug. 
 
 ---
 
