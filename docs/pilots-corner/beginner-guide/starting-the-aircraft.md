@@ -55,22 +55,24 @@ Then we look up at the **overhead panel**. Make sure the following are in the se
 
 ### Electrical section
 
-We begin with turning on batteries `BAT 1 AND 2`. After pushing these buttons, we check to see on both sides that there is voltage. We will also hear chimes indicating the batteries are on.
+![GPU](../assets/beginner-guide/starting-aircraft/gpuoff.png){loading=lazy}
 
-To give power to the aircraft we will use the "Ground Power Unit". If ground power isn't available we can also use the APU.
+#### Batteries
+
+We begin with turning on batteries `BAT 1 AND 2`. We will hear chimes indicating the batteries are on.
+
+Batteries only power a small part of the aircraft. For the rest either ground power, APU or a running engine is required.
 
 #### Ground Power
 
 If ground power is available, we should see a green `AVAIL` light on the `EXT PWR` button. Push on this button to give power to the aircraft.
-
-![GPU](../assets/beginner-guide/starting-aircraft/gpuoff.png){loading=lazy}
 
 !!! note "Ground Power Not Available"
     Some gates or stands are not equipped with ground power. In Microsoft Flight Simulator this happens regularly at smaller airports. This is not a bug but a realistic situation. You can then either try to call a Ground Power Unit (GPU) if available at the airport or just use the APU as described in the next step.
 
 #### APU
 
-If ground power isn't available, we turn on the APU already now. We will have to do it later to start the engines anyway.
+If ground power isn't available, we turn on the APU now.
 
 To do this, we simply push on the APU `MASTER SW` and `START`. The APU should be on within one minute.
 
