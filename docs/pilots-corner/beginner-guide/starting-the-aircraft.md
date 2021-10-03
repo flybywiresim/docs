@@ -127,6 +127,9 @@ Following this, we set the `STROBE` light to the `AUTO` position.
 
 ![Exterior Lights](../assets/beginner-guide/starting-aircraft/exterior-lighting.png "Exterior Lights"){loading=lazy}
 
+!!! tip
+    Overview of [External Lighting configurations](../a32nx-briefing/flight-deck/ovhd/ext-lt.md#external-lighting-configuration)
+
 ### Interior Lighting
 
 #### Cabin
