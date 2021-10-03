@@ -71,17 +71,46 @@ If ground power is available, we should see a green `AVAIL` light on the `EXT PW
 
 ![GPU](../assets/beginner-guide/starting-aircraft/gpuoff.png){loading=lazy}
 
+!!! note "Ground Power Not Available"
+    Some gates or stands are not equipped with ground power. In Microsoft Flight Simulator this happens regularly at smaller airports. This is not a bug but a realistic situation. You can then either try to call a Ground Power Unit (GPU) if available at the airport or just use the APU as described in the next step.
+
 #### APU
 
-If ground power isn't available, we turn on the APU now. To do this, we simply push on the APU `MASTER SW` and `START`. The APU should be on within one minute.
+If ground power isn't available, we turn on the APU already now. We will have to do it later to start the engines anyway.
 
-![APU Start](../assets/beginner-guide/after-landing/APU-Start.png "APU Start"){loading=lazy width=25%}
+To do this, we simply push on the APU `MASTER SW` and `START`. The APU should be on within one minute.
+
+![APU Start](../assets/beginner-guide/starting-aircraft/APU-Start.png "APU Start"){loading=lazy}
+
+!!! note "COVID SOP"
+    !!! block ""
+        ![APU BLEED](../assets/beginner-guide/starting-aircraft/apu-bleed.png "APU BLEED"){loading=lazy align=left width=20%}
+
+        Many airlines require the air condition to run before passengers enter the aircraft and then run it continuously. Therefore turning on the APU now even with ground power is required as the air conditioning packs need the APU Bleed air as long as engines are not running. Especially if a ground air conditioning unit is not available.
+
+        Make sure to turn on APU Bleed on the overhead panel. 
 
 !!! note "Engine Start"
     APU Bleed Air is required for starting the engines. See [Engine Start and Taxi](engine-start-taxi.md)
 
-!!! note "COVID SOP"
-    Many airlines require the air condition to run before passengers enter the aircraft and then run continuously. Therefore turning on the APU now even with ground power is required as the air conditioning packs need the APU Bleed air as long as engines are not running. Especially if a ground air conditioning unit is not available.
+??? note "Real World APU and A/C Start Procedure"
+    The above process is a simplified version of how real world airline start up the APU (documented in their SOP - Standard Operating Procedures).
+
+    Here is a description of an actual real world procedure of a well known airline.
+
+    - Check A/C Packs are OFF before powering the aircraft
+    - Set APU MASTER switch to ON
+    - Press APU START 
+        - some airlines still require the pilot to wait 3sec for the APU flap to open. This is no longer required in the A320neo as the startup sequence waits for the flap to be open automatically. 
+    - Wait until APU START button shows "AVAIL" (or check on lower ECAM APU page)
+    - Wait 1 min (use [CHRONO](../a32nx-briefing/flight-deck/glareshield/warning.md#2-chrono) to time this)
+    - Set APU BLEED to ON      
+    - Wait 1 min (use [CHRONO](../a32nx-briefing/flight-deck/glareshield/warning.md#2-chrono) to time this)
+    - Set PACK 1 to ON (because of COVID many airlines require both A/C PACKS to be ON)
+    
+    The two waiting step are to avoid any APU oil fumes to get into the air conditioning.  
+
+### Crew Oxygen Supply
 
 After powering the aircraft, we turn on the crew oxygen supply by pushing on the button, diminishing the white `OFF` light.
 

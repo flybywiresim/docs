@@ -75,7 +75,7 @@ ATC Tower will usually hand us off to ATC Ground and they will give us taxi inst
 
 - Start your `APU` by clicking the `APU MASTER SW` button then the `APU START` button.
 
-    ![APU Start](../assets/beginner-guide/after-landing/APU-Start.png "APU Start"){loading=lazy }
+    ![APU Start](../assets/beginner-guide/starting-aircraft/APU-Start.png "APU Start"){loading=lazy }
 
 - Turn `ANTI ICE` OFF if not required.
 
