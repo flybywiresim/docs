@@ -31,29 +31,23 @@ Aircraft is in a cold and dark state at a gate.
 
 To start off, we will begin by doing a few pre-checks in all areas of the cockpit to ensure the aircraft is in an normal position before turning on the batteries.
 
-We begin by looking down at the **bottom pedestal**.
+We begin by looking down at the [**bottom pedestal**](../a32nx-briefing/flight-deck/index.md).
 
-- Place the parking brake handle in the `ON` position
-- Ensure the speed brakes have been disarmed/retracted
-- Flaps are retracted
-- Weather radar is switched off
-- Engine masters 1 and 2 are in the `OFF` position
-- Engine mode selector is set to `NORM`
-- Thrust levers are idle
-
-This is how the pedestal should look like:
-
-![Pedestal](../assets/beginner-guide/starting-aircraft/Pedestal.jpg "Pedestal"){loading=lazy}
+- Place the [Parking Brake](../a32nx-briefing/flight-deck/pedestal/parking-brake.md) handle in the `ON` position
+- Ensure the [Speed Brakes](../a32nx-briefing/flight-deck/pedestal/speedbrake.md) have been disarmed/retracted
+- [Flaps](../a32nx-briefing/flight-deck/pedestal/flaps.md) are retracted
+- [Weather Radar](../a32nx-briefing/flight-deck/pedestal/radar.md) is switched off
+- [Engine Masters 1 and 2](../a32nx-briefing/flight-deck/pedestal/engine.md) are in the `OFF` position
+- [Engine Mode](../a32nx-briefing/flight-deck/pedestal/engine.md) selector is set to `NORM`
+- [Thrust Levers](../a32nx-briefing/flight-deck/pedestal/thrust-elev-trim.md) are idle
 
 We then direct our attention to the **main panel** and make sure the following is set:
 
-- Gear lever is down
+- [Gear Lever](../a32nx-briefing/flight-deck/front/autobrake-gear.md) is down
 
 Then we look up at the **overhead panel**. Make sure the following are in the set position before moving on to starting the aircraft:
 
-- Wiper selectors are in the `OFF` position
-
-![Wiper Switch](../assets/beginner-guide/starting-aircraft/wiper-switch.png "Wiper Switch"){loading=lazy}
+- [Wiper](../a32nx-briefing/flight-deck/ovhd/wipers.md) selectors are in the `OFF` position
 
 ---
 
@@ -114,46 +108,56 @@ To do this, we simply push on the APU `MASTER SW` and `START`. The APU should be
 
 After powering the aircraft, we turn on the crew oxygen supply by pushing on the button, diminishing the white `OFF` light.
 
-![Crew Oxygen](../assets/beginner-guide/starting-aircraft/crewoxyhighlight.png "Crew Oxygen"){loading=lazy}
+![Crew Oxygen](../assets/beginner-guide/starting-aircraft/Oxygen.png "Crew Oxygen"){loading=lazy}
 
 ### ADIRS alignment
 
 To align the Inertial Reference System (or IRS), we turn the 3 knobs to the `NAV` position. This will then start the IRS alignment for which we can view the progress on the ECAM display.
 
-![IRS alignment overhead](../assets/beginner-guide/starting-aircraft/adirsaligned.png){loading=lazy}<br/>
+![ADIRS Alignment](../assets/beginner-guide/starting-aircraft/adirsaligned.png "ADIRS Alignment"){loading=lazy}<br/>
 ![ECAM IRS](../assets/beginner-guide/starting-aircraft/ecamirs.png){loading=lazy}
 
-### Lighting
-
-#### Exterior
+### Exterior Lighting
 
 To indicate that the aircraft is powered from the exterior, we turn on the `NAV & LOGO` light.
 
 Following this, we set the `STROBE` light to the `AUTO` position.
 
-![Exterior Lights](../assets/beginner-guide/starting-aircraft/exterior-lighting.png){loading=lazy}
+![Exterior Lights](../assets/beginner-guide/starting-aircraft/exterior-lighting.png "Exterior Lights"){loading=lazy}
 
-#### Cockpit
+### Interior Lighting
+
+#### Cabin
 
 We can turn on a few lights to help with visibility inside if it is too dark inside the cockpit.
+
+![Internal Lighting](../assets/beginner-guide/starting-aircraft/int-lt.png "Internal Lighting"){loading=lazy}
 
 - The `DOME` light has 3 settings to choose from. We can set it into the `OFF` position, the `DIM` position, or even the `BRT` position.
 - The `OVHD INTEG LT` will allow us to see the outlines of the overhead panel. Turning the knob will adjust its brightness.
 
-Once our lighting is in the correct state:
+#### Passenger Signs
+
+![Passenger Signs](../assets/beginner-guide/starting-aircraft/passenger-signs.png "Passenger Signs")
 
 - Seat belts sign - `Set to ON`
 - No smoking sign - `Set to AUTO`
+- Arm the emergency exit lights - `Set to ARM`
 
-To arm the emergency exit lights, simply put the switch in the `ARM` position.The white `OFF` light to the left of the switch will disappear.
+!!! note "Real World Procedure"
+    The Seat Belts sign is not turned on until fueling is complete.
+
+### Cabin Pressure
+
+![Cabin Pressure](../assets/beginner-guide/starting-aircraft/cabin-pressure.png "Cabin Pressure"){loading=lazy}
 
 Looking up just a bit we find the `LDG ELEV` knob. This simply means the landing elevation which should be in the `AUTO` position.
 
-![3 Panels](../assets/beginner-guide/starting-aircraft/signslights.png){loading=lazy}
-
-Managing the temperatures of the cabin is necessary as well. Simply rotate the 3 knobs as needed.
+### Cabin Temperature
 
 ![Air Conditioning](../assets/beginner-guide/starting-aircraft/aircond.png "Air Conditioning"){loading=lazy}
+
+Managing the temperatures of the cabin is necessary as well. Simply rotate the 3 knobs as needed.
 
 ### Hydraulic and Fuel Section
 
@@ -161,6 +165,8 @@ Looking up at the **hydraulic panel**, we ensure that there are no white lights 
 
 !!! warning "Fire Tests"
     To perform an APU and Engine fire test, hold down the `TEST` button for each of them for 5 seconds minimum to ensure the lights and aural warnings are working as expected. Checking the ECAM during the test will also show if the ECAM is performing as expected during a fire.
+
+    ![Fire Panel](../assets/beginner-guide/starting-aircraft/fire-panel.png "Fire Panel")
 
 Just below the hydraulic panel, we find the **fuel panel**. Turn on all 6 fuel pumps until the white `OFF` light is no longer visible.
 
