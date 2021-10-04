@@ -20,6 +20,10 @@ The Exterior Lighting of an Airbus A320neo includes these lights:
 - The anticollision lights
 - The wing and engine scan lights.
 
+### External lighting configuration:
+
+![External Lighting Configurations](../../../assets/a32nx-briefing/overhead-panel/lights/ext-lt-table.png "External Lighting Configurations"){loading=lazy}
+
 ## Usage
 
 ### STROBE
