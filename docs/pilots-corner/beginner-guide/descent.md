@@ -105,7 +105,26 @@ This guide will cover these phases:
 
     ![ECAM PROG page](../assets/beginner-guide/descent/ECAM-Progress-page.png "ECAM PROG page"){loading=lazy width=45% align=left}
 
-    ![ND distance rings](../assets/beginner-guide/descent/ND-disctance-rings.png "ND distance rings"){loading=lazy width=40% align=right}
+    ![ND distance rings](../assets/beginner-guide/descent/ND-disctance-rings.png "ND distance rings"){loading=lazy width=45% align=right}
+
+??? tip "FIX INFO in Experimental Version"
+    ##### Fix Info Distance Ring
+
+    Also a great aid for knowing when to descent is the new FIX INFO feature available for testing in the Experimental Version.
+
+    You can add a ring around a waypoint or fix with a specified distance. As we need 57NM for our descent from FL320 to FL140 at ABTUM we can set the fix distance ring to 57NM.
+    
+    Now we can easily see or TOD (top of descent) on the ND. 
+
+    !!! block ""
+    
+        ![FIX INFO Distance Ring](../assets/beginner-guide/descent/fix-info-ring.png "FIX INFO Distance Ring"){loading=lazy width=45% align=left}
+    
+        ![ND Fix Distance Ring](../assets/beginner-guide/descent/nd-fix-distance-ring.png "ND Fix Distance Ring"){loading=lazy width=45% align=right}
+
+    The MCDU FIX INFO page can be access by selecting the first waypoint on the F-PLN page and pressing LSK 1L "FIX INFO".
+    
+    !!! warning "Not available in the Stable or Development Version!" 
 
 #### How to Calculate the Required Distance for Descent
 
