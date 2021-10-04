@@ -97,10 +97,9 @@ As the weather gets progressively worse, the higher the category you need to use
 requires more advanced equipment both on the airfield and in the cockpit. To be able to do this,
 pilots are required to retrain on low visibility operations every year.
 
-The CAT 3C can be performed without ever seeing anything at all but this is not in practice yet
+The CAT IIIC can be performed without ever seeing anything at all but this is not in practice yet
 as there has not been a system designed for the aircraft to be able to leave the runway and go to
-the parking stands completely blind. The A320 family are capable of everything including CAT
-3C.
+the parking stands completely blind. The A320 family are capable of everything including CAT IIIC.
 
 ![fog](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Furtwangen_Jan_05_fog_GHB.jpg/640px-Furtwangen_Jan_05_fog_GHB.jpg)
 
@@ -191,7 +190,7 @@ Autolands are, unlike what the media might want everyone to think, not used all 
 
 ### ^^Rules at Airfield^^
 
-To fly an Autoland, the approach you are flying must be a CAT 2 ILS or higher. This means that only certain airfields can perform these, where the localiser and glideslopes have been certified as accurate enough to guide the aircraft to a successful landing. An airfield with anything such as an offset ILS, where the ILS is not aligned with the runway, will not be able to offer an Autoland approach.
+To fly an Autoland, the approach you are flying must be a CAT II ILS or higher. This means that only certain airfields can perform these, where the localiser and glideslopes have been certified as accurate enough to guide the aircraft to a successful landing. An airfield with anything such as an offset ILS, where the ILS is not aligned with the runway, will not be able to offer an Autoland approach.
 
 The airfield must also be in Low Visibility Procedures (LVPs). This aims to reduce the chance of anything interfering with the ILS signals by reducing the amount of vehicles and aircraft near the runway at any time. Special holding points that are further back from the runway are used, and an ILS critical area is established. The image below is a form of LVP ILS holding point.
 
@@ -202,7 +201,7 @@ No vehicles or aircraft are allowed into this area while an Autoland is being ma
 
 ### ^^Rules on the Aircraft^^
 
-The aircraft must first be certified as capable of doing an Autoland and have all the equipment functioning that it was certified with. Many systems used must have a backup, especially for the very low visibility approaches such as CAT 3B/C, including dual autopilots. If any of these systems fail, the aircraft is normally reduced in its landing capability to a lower Category of ILS. The Airbus has an extra Red warning light in front of the pilot’s eyesight which flashes if any Autoland equipment fails while the aircraft is performing an Autoland. Depending on when this happens, this can force the pilots to do a go-around to prevent an accident.
+The aircraft must first be certified as capable of doing an Autoland and have all the equipment functioning that it was certified with. Many systems used must have a backup, especially for the very low visibility approaches such as CAT IIIB/C, including dual autopilots. If any of these systems fail, the aircraft is normally reduced in its landing capability to a lower Category of ILS. The Airbus has an extra Red warning light in front of the pilot’s eyesight which flashes if any Autoland equipment fails while the aircraft is performing an Autoland. Depending on when this happens, this can force the pilots to do a go-around to prevent an accident.
 
 ![autoland2](https://upload.wikimedia.org/wikipedia/commons/3/34/Cockpit_of_Kam_Air_Airbus_A320.jpeg)
 <sub> UR-SDV (GFDL <http://www.gnu.org/copyleft/fdl.html> or GFDL <http://www.gnu.org/copyleft/fdl.html>), via Wikimedia Commons
