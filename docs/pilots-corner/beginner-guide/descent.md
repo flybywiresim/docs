@@ -174,8 +174,8 @@ TYPE ON FIRST CONTACT
 
 From the chart we get `TRANS ALT` and `BARO` (=MDA) or `RADIO` (=DH).
 
-- CAT 1 ILS uses MDA and is entered into the `BARO` field.
-- CAT 2/3 ILS use DH which is put in the `RADIO` field.
+- CAT I ILS uses MDA and is entered into the `BARO` field.
+- CAT II/III ILS use DH which is put in the `RADIO` field.
 - `BARO` is based on barometric altitude whereas `RADIO` is based on radio altitude (distance to ground).
 
 ![Transition alt on chart](../assets/beginner-guide/descent/EGKK-APPR-char-1.png "Transistion alt on chart"){loading=lazy}<br/>
