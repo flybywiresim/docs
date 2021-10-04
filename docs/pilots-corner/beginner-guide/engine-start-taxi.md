@@ -116,7 +116,7 @@ Once we are clear of the terminal and/or the ground crew has notified the flight
 
 Start the chronometer above the ND to help monitor the start up time of the engines.
 
-![chrono button](../assets/beginner-guide/taxi/chrono.png){loading=lazy}
+![CHRONO Button](../assets/beginner-guide/taxi/chrono.png "CHRONO Button"){loading=lazy}
 
 !!! info "Using the Chronometer"
     The chrono button has three states depending on how many times you have pushed the button:
@@ -137,7 +137,7 @@ Start the chronometer above the ND to help monitor the start up time of the engi
 
     Location on the ND:
 
-    ![NDlocation](../assets/beginner-guide/taxi/nd.png)
+    ![ND Chrono](../assets/beginner-guide/taxi/nd.png "ND Chrono")
 
 For this guide will begin by starting engine 2.
 
@@ -267,7 +267,7 @@ Exterior Lights:
 - RWY TURN OFF - `Set to ON`
 - NOSE - `Set to Taxi`
 
-![exterior lights](../assets/beginner-guide/taxi/taxi-lights.png){loading=lazy width=60%}
+![exterior lights](../assets/beginner-guide/taxi/taxi-lights.png){loading=lazy}
 
 Before Moving Safety Check:
 
@@ -320,7 +320,7 @@ Perform the following:
     - If ATC requires a specific heading after takeoff, preset the heading on the FCU. NAV mode will be disarmed and RWY TRK mode will keep the aircraft on the runway track.
 
 This is the FCU (more details are provided in the [Take off, Climb, and Cruise Guide](takeoff-climb-cruise.md)):
-![FCU image](../assets/beginner-guide/taxi/FCU.png){loading=lazy}
+![FCU](../assets/beginner-guide/taxi/FCU.png "FCU"){loading=lazy}
 
 - BOTH FD (*flight directors*) - `Check on`
 - PFD/ND - `Check`
@@ -335,13 +335,13 @@ This is the FCU (more details are provided in the [Take off, Climb, and Cruise G
 
 The weather panel is located on the bottom left of the lower pedestal and looks like the following:
 
-![weather panel](../assets/beginner-guide/taxi/wx-radar-panel.png){loading=lazy}
+![WX Radar Panel](../assets/beginner-guide/taxi/wx-radar-panel.png "WX Radar Panel"){loading=lazy}
 
 - ATC code/mode - `Confirm/Set for Takeoff`
 - TERR ON ND - `As RQRD`
 - AUTO BRK MAX pb-sw - `On`
 
-![auto brake](../assets/beginner-guide/taxi/auto-brk.png){ loading=lazy style="width:462px;height:350px;" }
+![Auto Brake](../assets/beginner-guide/taxi/auto-brk.png "Auto Brake"){loading=lazy}
 
 !!! info "Getting Ready for Take off"
     At this point in the guide you should have performed many of the essential flow items before you line up at the runway. The next guide [Take off, Climb, and Cruise](takeoff-climb-cruise.md) will instruct you on performing your final checks and before take off checklist.
