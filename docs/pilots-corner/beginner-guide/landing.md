@@ -54,17 +54,16 @@ To intercept the ILS Localizer we follow these steps:
 
     === "Check ILS frequency"
 
-        ![ILS frequency on approach chart](../assets/beginner-guide/landing/EDDM-26R-ILS-freq-chart.png "ILS frequency on approach chart"){align=left width=42%}
-
-        ![ILS frequency on ECAM RNAV page](../assets/beginner-guide/landing/ECAM-RNAV-page-ILS.png "ILS frequency on ECAM RNAV page"){align=right width=42%}
+        ![ILS frequency on approach chart](../assets/beginner-guide/landing/EDDM-26R-ILS-freq-chart.png "ILS frequency on approach chart"){align=left width=45%}
+        
+        ![ILS frequency on ECAM RNAV page](../assets/beginner-guide/landing/ECAM-RNAV-page-ILS.png "ILS frequency on ECAM RNAV page"){align=right width=45%}
 
 
 - Turn on the `ILS localizer and glideslope scales` with the `LS` button on the glareshield if not already done before.
 
     === "Turn on ILS scales"
-        ![LS button on glareshield](../assets/beginner-guide/landing/GLARE-LS-button.png "LS button on glareshield"){loading=lazy align=left width=12%}
-
-        ![ROSE LS Mode on PFD and ND](../assets/beginner-guide/landing/ROSE-LS-Mode.png "ROSE LS Mode on PFD and ND"){align=right width=75%}  
+        ![LS button on glareshield](../assets/beginner-guide/landing/GLARE-LS-button.png "LS button on glareshield"){loading=lazy align=left}
+        ![LS Mode on PFD and ND](../assets/beginner-guide/landing/LS-Mode.png "LS Mode on PFD and ND"){align=right width=75%}
 
 - Make sure we are on the correct altitude (5,000ft in this example) and we should not have an approach angle larger than 30°.<br/>
 
@@ -73,7 +72,7 @@ To intercept the ILS Localizer we follow these steps:
 
 - Optional: Turn on `ROSE LS Mode` for the `ND` (can also be on F.O.'s side). The ROSE LS Mode shows the deviation from the localizer approach heading path.
 
-    ![ND ROSE LS Mode](../assets/beginner-guide/landing/ND-ROSE-LS-Mode.png "ND ROSE LS Mode"){loading=lazy }
+    ![ND ROSE LS Mode](../assets/beginner-guide/landing/ND-ROSE-LS-Mode.png "ND ROSE LS Mode"){loading=lazy}
 
 - Activate the `APPR` phase in the `MCDU-PERF` page. This is usually automatically done by the aircraft at a certain point during the approach, but we make sure that at this point at the latest it is activated. In `APPR` phase the `Autopilot` together with "Managed Speed Mode" reliefs the pilot of a lot of stress by managing the speed according to flaps setting automatically (S-Speed after `FLAPS 1`, F-Speed after `FLAPS 2`, V~app~ after landing flap selection).
 
@@ -86,9 +85,12 @@ To intercept the ILS Localizer we follow these steps:
 
 - Turn on `APPR` in the `FCU` to command the aircraft to intercept the ILS localizer. The aircraft will keep the current heading until the localizer is captured and guides the aircraft towards the runway. The `lateral ILS localizer scale` shows the `deviation marker` moving towards the middle of the `lateral deviation scale`. Also the lateral `FMA` shows `LOC` in blue (armed).
 
-    ![Activate LOC mode on FCU](../assets/beginner-guide/landing/FCU-ILS-APPR.png "Activate APPR mode on FCU"){loading=lazy}
+    ![Activate APPR mode on FCU](../assets/beginner-guide/landing/FCU-ILS-APPR.png "Activate APPR mode on FCU"){loading=lazy}
 
     ![ILS lateral deviation marker moving inwards](../assets/beginner-guide/landing/PFD-ILS-deviation-scale.png "ILS lateral deviation marker moving inwards"){loading=lazy}
+
+??? note "What is the blue dashed line?"
+    You might ask what the blue dashed line is. It is part of the new FIX INFO feature available only in the Experimental version for the time being. It allows to draw distance rings or radial lines from navigation fixes. For this illustration it helped us to visualize the localizer signal path at 261° into the runway which we are going to capture with the APPR mode.
 
 !!! warning "Arming APPR"
     Using `APPR` also arms the glideslope descent (G/S) and the aircraft will descend as soon as it captures the ILS glideslope signal.
@@ -117,13 +119,12 @@ This concludes *Intercepting the ILS Localizer*
 
 After ATC has given us clearance for ILS approach we can also start descending using the ILS glideslope.
 
-![PFD glideslope deviation marker](../assets/beginner-guide/landing/PFD-ILS-glideslope.png "PFD glideslope deviation marker"){loading=lazy }
 
 Check that the `APPR` button is activated on the `FCU` to arm the ILS glideslope descent mode.
 
 The vertical `FMA` now shows `G/S` (glideslope) in blue.
 
-![PFD FMA showing G/S armed](../assets/beginner-guide/landing/PFD-FMA-GS-armed.png "PFD FMA showing G/S armed"){loading=lazy }
+![PFD glideslope deviation marker](../assets/beginner-guide/landing/PFD-ILS-glideslope.png "PFD glideslope deviation marker"){loading=lazy }
 
  This is a good time to set `Flaps 2` (check that the speed is below the V~FE~ for the next flap setting) as slowing down once we are descending along the glideslope can be difficult. We need the drag from the flaps if we do not want to let the gear down too early (which also would help us slowing down).<br/>
  There is different guidance when to set `FLAPS 2` but for beginners we recommend to go to `FLAPS 2` before starting the glideslope descent. Airbus guidance for example is `FLAPS 2` during glideslope descent at about 2,000ft.
@@ -259,7 +260,11 @@ The `Autobrakes` should now have activated and started to further decelerate the
 The upper ECAM should now show the engines in reverse mode (`REV`) and
  the lower ECAM shows the `Speed Brakes` (spoiler) deployed. Also you should notice that the brakes actually get hotter.
 
-![ECAM showing reverser and speed brakes](../assets/beginner-guide/landing/ECAM-Rev-Speed-Brk.png "ECAM showing reverser and speed brakes"){loading=lazy }
+!!! block ""
+
+    ![ECAM showing reverser](../assets/beginner-guide/landing/ECAM-Rev.png "ECAM showing reverser"){loading=lazy align=left width=45%}
+    
+    ![ECAM showing speed brakes](../assets/beginner-guide/landing/ECAM-Spped-Vrk.png "ECAM showing speed brakes"){loading=lazy align=right width=45%}
 
 At about 60knots we put the thrust levers back to idle and at about 40 knots we release the `Autobrakes` by braking manually which deactivates the `Autobrake`.
 
