@@ -65,16 +65,16 @@ A descent is required at 63NM before ABTUM as calculated by the flyPad Top of De
 "Navigraph Charts are intended for flight simulation use only, not for navigational use."*</sub>
 
 !!! block ""
-    ![Fix Info with radius set](../assets/fixinfo/mcdu-fixinfo-radius.png "Fix Info with radius set"){loading=lazy align=left width=45%}
-    ![ABTUM 63NM circle](../assets/fixinfo/nd-abtum-circle.png "ABTUM 63NM circle"){loading=lazy align=right width=45%}
+    ![Fix Info with radius set](../assets/fixinfo/mcdu-fixinfo-radius.png "Fix Info with radius set"){loading=lazy align=left width=43%}
+    ![ABTUM 63NM circle](../assets/fixinfo/nd-abtum-circle.png "ABTUM 63NM circle"){loading=lazy align=right width=43%}
 
 ### ILS Localizer Extension Line
 
 To visualize the ILS localizer for the approach the runway fix can be used to display a radial line corresponding to the ILS track course.
 
 !!! block ""
-    ![Fix Info Page EGKK26L](../assets/fixinfo/mcdu-fixinfo-egkk26l.png "Fix Info Page EGKK26L"){loading=lazy align=left width=45%}
-    ![Localizer Line for EGKK 26L](../assets/fixinfo/nd-egkk26l-locline.png "Localizer Line for EGKK 26L"){loading=lazy align=right width=45%}
+    ![Fix Info Page EGKK26L](../assets/fixinfo/mcdu-fixinfo-egkk26l.png "Fix Info Page EGKK26L"){loading=lazy align=left width=43%}
+    ![Localizer Line for EGKK 26L](../assets/fixinfo/nd-egkk26l-locline.png "Localizer Line for EGKK 26L"){loading=lazy align=right width=43%}
 
 ### VOR Intercept in SID
 
@@ -93,11 +93,11 @@ As you can read in the Initial Climb description for 36R we need to meet certain
 To visualize these points we can use the fix info page to define a 2NM distance circle and 2 lines for R155 and R090/270 on the ND.
 
 !!! block ""
-    ![Fix Info ORL](../assets/fixinfo/mcdu-orl-fixinfo1.png "Fix Info ORL"){loading=lazy align=left width=45%}
-    ![Fix Info ORL](../assets/fixinfo/mcdu-orl-fixinfo2.png "Fix Info ORL"){loading=lazy align=right width=45%}
+    ![Fix Info ORL](../assets/fixinfo/mcdu-orl-fixinfo1.png "Fix Info ORL"){loading=lazy align=left width=43%}
+    ![Fix Info ORL](../assets/fixinfo/mcdu-orl-fixinfo2.png "Fix Info ORL"){loading=lazy align=right width=43%}
 
 !!! block ""
-    ![Fix Info ORL](../assets/fixinfo/nd-orl-fixinfo1.png "Fix Info ORL"){loading=lazy align=left width=45%}
-    ![Fix Info ORL](../assets/fixinfo/nd-orl-fixinfo2.png "Fix Info ORL"){loading=lazy align=right width=45%}
+    ![Fix Info ORL](../assets/fixinfo/nd-orl-fixinfo1.png "Fix Info ORL"){loading=lazy align=left width=43%}
+    ![Fix Info ORL](../assets/fixinfo/nd-orl-fixinfo2.png "Fix Info ORL"){loading=lazy align=right width=43%}
 
 
