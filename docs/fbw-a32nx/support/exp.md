@@ -29,7 +29,6 @@
 - Approach Phase must be manually activated (MCDU PERF)
 - Only 3 leg types (TF, RF and VM) are supported at this time
 - WX and TERR on ND INOP
-- ARPT, VOR, NDB, WPTs filters INOP on ND
 - May encounter runaway sequencing issues
 - Sequencing also may not be aggressive enough at times
 - Rendering of terminal procedure legs may be incorrect during flight
