@@ -6,9 +6,11 @@
 
 The MCDU FIX INFO page is used to create radial lines and distance circles around a database navigation fix.
 
-It  displays these lines or circles on the ND and also uses them to compute intercept waypoints.
+These lines or circles are displayed on the ND and also used to compute intercept waypoints which can be added to the active flight plan.
 
-The A32NX has implemented the display of these lines and circles on the ND. The computed intercept waypoints are not yet available.
+The current Experimental version of the A32NX has implemented the display of these lines and circles on the ND.
+
+The computed intercept waypoints and ABEAM functionality are not yet implemented.
 
 ## Use Cases
 
@@ -49,7 +51,7 @@ With radius 63NM around the waypoint ABTUM:
 
 ### 4) Additional Fix Info Pages
 
-You can define up to 4 different fixes by selecting the lateral skew navigation button to go to the next page.
+You can define up to 4 different fixes by selecting the horizontal skew navigation button to go to the next page.
 
 ![Go to previous or next page](../assets/fixinfo/mcdu-fixinfo-pages.png "Go to previous or next page"){loading=lazy}
 
@@ -79,7 +81,7 @@ To visualize the ILS localizer for the approach the runway fix can be used to di
 
 ### VOR Intercept in SID
 
-In this scenario we have a departure on 36R in KMC= (Orlando) with the ORLANDO 4 DEPARTURE SID (ORLA4). This departure expects ATC to assign a headings after departure to intercept the filed and assigned route.
+In this scenario we have a departure on 36R in KMCO (Orlando) with the ORLANDO 4 DEPARTURE SID (ORLA4). This departure expects ATC to assign headings after departure to intercept the filed/assigned route.
 
 ![KMCO OLRA4 SID](../assets/fixinfo/navigraph-kmco-orla4.png "KMCO OLRA4 SID")
 <br/><sub>*Copyright © 2021 Navigraph / Jeppesen<br/>
