@@ -282,8 +282,6 @@ If you release the reverser levers (buttons 10+11) the mapping to `THROTTLE CUT`
 
 If you use the GA levers you will need to map the reverser to some other button, e.g. on your yoke/side stick, as the reverser buttons (10, 11) will not be there.
 
-To deactivate the reverse thrust the reverse levers must be released and the thrust lever must be pushed a bit above the idle position.
-
 ### Step 2: Calibrating in the FlyByWire flyPad (EFB)
 
 ??? tip "Tip: Default Values for Bravo"
