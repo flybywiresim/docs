@@ -72,6 +72,9 @@ h3 {
 h4 {
   padding-top: 1em;
 }
+.md-typeset h5 {
+  color: hsl(0deg 0% 100%);
+}
 
 /* highlighting */
 .md-typeset mark { /* ==text== */
