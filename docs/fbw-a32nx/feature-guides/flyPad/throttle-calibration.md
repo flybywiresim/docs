@@ -286,6 +286,44 @@ To deactivate the reverse thrust the reverse levers must be released and the thr
 
 ### Step 2: Calibrating in the FlyByWire flyPad (EFB)
 
+??? tip "Tip: Default Values for Bravo"
+    You can use these default values for the Bravo throttle. See [Manual Configuration](#manual-configuration) on how to do this.
+
+    You still should verify the configurations as described below as all hardware units are slightly different.
+
+    ```
+    [throttle_common]
+    reverse_on_axis = false
+    
+    [throttle_axis_1]
+    reverse_low = -1.000000
+    reverse_high = -0.950000
+    reverse_idle_low = -0.720000
+    reverse_idle_high = -0.620000
+    idle_low = -1.000000
+    idle_high = -0.900000
+    climb_low = -0.161230
+    climb_high = 0.138770
+    flex_mct_low = 0.840000
+    flex_mct_high = 0.940000
+    toga_low = 0.950000
+    toga_high = 1.000000
+    
+    [throttle_axis_2]
+    reverse_low = -1.000000
+    reverse_high = -0.950000
+    reverse_idle_low = -0.720000
+    reverse_idle_high = -0.620000
+    idle_low = -1.000000
+    idle_high = -0.900000
+    climb_low = -0.169348
+    climb_high = 0.130652
+    flex_mct_low = 0.820000
+    flex_mct_high = 0.920000
+    toga_low = 0.950000
+    toga_high = 1.000000
+    ``` 
+
 - Go to the flyPad Throttle Calibration page
 
 - As this throttle has no reverser on the axis, set the `Reverser on Axis` to OFF but set `Independent Axis` to ON.
