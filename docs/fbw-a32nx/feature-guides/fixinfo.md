@@ -19,6 +19,7 @@ Common use case are:
 - Top of descent circle, to display the exact point on the lateral path when to start a descent into a specific fix.
 - ILS localizer extension line, to easier identify where the localizer beam should be in extension from the runway
 - VOR intercepting
+- Go Around procedure aid
 
 ## Step by Step Guide
 
