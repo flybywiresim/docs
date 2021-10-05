@@ -270,7 +270,7 @@ Same as described above, remove all sensitivity settings and make it linear. Be 
 
 The mapping required for the Bravo is shown in this screenshot:
 
-![Bravo-MSFS-Mapping](../../assets/flypad/throttle-calibration/Bravo-MSFS-Mapping.jpg "Bravo-MSFS-Mapping"){loading=lazy}
+![Bravo-MSFS-Mapping](../../assets/flypad/throttle-calibration/Bravo-MSFS-Mapping.png "Bravo-MSFS-Mapping"){loading=lazy}
 
 Be careful to use `THROTTLE 1/2 AXIS` and not `THROTTLE 1/2 AXIS (0 TO 100%)`.
 
@@ -278,11 +278,49 @@ Also do make sure to have `REVERSE AXIS` unchecked!
 
 The `THROTTLE 1/2 DECREASE` mapping to `Buttons 10,26` and `Buttons 11,27` simulates the reverser when the Bravo's reverser lever is lifted (buttons 10 and 11) and the thrust lever is pulled back (buttons 26 and 27). This activates the buttons configured in the image above and in turn decreases throttle power to negative values for the reverser.
 
-If you use the GA levers please only configure `Button 26` and `Button 27` as without the reverse levers of the airliner levers the other buttons (10, 11) will not be there.
+If you release the reverser levers (buttons 10+11) the mapping to `THROTTLE CUT` activates and put the thrust back to idle.
 
-To deactivate the reverse thrust the reverse levers must be released and the thrust lever must be pushed a bit above the idle position.
+If you use the GA levers you will need to map the reverser to some other button, e.g. on your yoke/side stick, as the reverser buttons (10, 11) will not be there.
 
 ### Step 2: Calibrating in the FlyByWire flyPad (EFB)
+
+??? tip "Tip: Default Values for Bravo"
+    You can use these default values for the Bravo throttle. See [Manual Configuration](#manual-configuration) on how to do this.
+
+    You still should verify the configurations as described below as all hardware units are slightly different.
+
+    ```
+    [throttle_common]
+    reverse_on_axis = false
+    
+    [throttle_axis_1]
+    reverse_low = -1.000000
+    reverse_high = -0.950000
+    reverse_idle_low = -0.720000
+    reverse_idle_high = -0.620000
+    idle_low = -1.000000
+    idle_high = -0.900000
+    climb_low = -0.161230
+    climb_high = 0.138770
+    flex_mct_low = 0.840000
+    flex_mct_high = 0.940000
+    toga_low = 0.950000
+    toga_high = 1.000000
+    
+    [throttle_axis_2]
+    reverse_low = -1.000000
+    reverse_high = -0.950000
+    reverse_idle_low = -0.720000
+    reverse_idle_high = -0.620000
+    idle_low = -1.000000
+    idle_high = -0.900000
+    climb_low = -0.169348
+    climb_high = 0.130652
+    flex_mct_low = 0.820000
+    flex_mct_high = 0.920000
+    toga_low = 0.950000
+    toga_high = 1.000000
+    ``` 
 
 - Go to the flyPad Throttle Calibration page
 
@@ -317,7 +355,7 @@ To deactivate the reverse thrust the reverse levers must be released and the thr
 The keyboard does not have any axis which could be used for controlling the throttles. It uses various keys to increase and decrease the throttles or to set the throttles to predetermined positions.
 
 !!! warning "Please Note the Following"
-    If you have trouble hitting the detents with the keyboard you might have an old configuration which has detents defined that are smaller than the 0.05 button stroke step size. To fix this you either: 
+    If you have trouble hitting the detents with the keyboard you might have an old configuration which has detents defined that are smaller than the 0.05 button stroke step size. To fix this you either:
 
     - Manually remove the old ThrottleConfiguration.ini in our work folder. 
         - See [Work Folder Section](#work-folder) for details.
