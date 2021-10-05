@@ -16,7 +16,7 @@ The computed intercept waypoints and ABEAM functionality are not yet implemented
 
 Fix info is a powerful supplemental tool for pilots to improve situational awareness and easier, more precise navigation.
 
-Common use case are:
+Common use cases are:
 
 - Top of descent circle, to display the exact point on the lateral path when to start a descent into a specific fix.
 - ILS localizer extension line, to easier identify where the localizer beam should be in extension from the runway
