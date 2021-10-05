@@ -47,7 +47,7 @@ With radius 63NM around the waypoint ABTUM:
 
 ![Fix Info with radius set](../assets/fixinfo/mcdu-fixinfo-radius.png "Fix Info with radius set"){loading=lazy}
 
-### Additional Fix Info Pages
+### 4) Additional Fix Info Pages
 
 You can define up to 4 different fixes by selecting the lateral skew navigation button to go to the next page.
 
