@@ -31,29 +31,23 @@ Aircraft is in a cold and dark state at a gate.
 
 To start off, we will begin by doing a few pre-checks in all areas of the cockpit to ensure the aircraft is in an normal position before turning on the batteries.
 
-We begin by looking down at the **bottom pedestal**.
+We begin by looking down at the [**bottom pedestal**](../a32nx-briefing/flight-deck/index.md).
 
-- Place the parking brake handle in the `ON` position
-- Ensure the speed brakes have been disarmed/retracted
-- Flaps are retracted
-- Weather radar is switched off
-- Engine masters 1 and 2 are in the `OFF` position
-- Engine mode selector is set to `NORM`
-- Thrust levers are idle
-
-This is how the pedestal should look like:
-
-![Pedestal](../assets/beginner-guide/starting-aircraft/Pedestal.jpg "Pedestal"){loading=lazy}
+- Place the [Parking Brake](../a32nx-briefing/flight-deck/pedestal/parking-brake.md) handle in the `ON` position
+- Ensure the [Speed Brakes](../a32nx-briefing/flight-deck/pedestal/speedbrake.md) have been disarmed/retracted
+- [Flaps](../a32nx-briefing/flight-deck/pedestal/flaps.md) are retracted
+- [Weather Radar](../a32nx-briefing/flight-deck/pedestal/radar.md) is switched off
+- [Engine Masters 1 and 2](../a32nx-briefing/flight-deck/pedestal/engine.md) are in the `OFF` position
+- [Engine Mode](../a32nx-briefing/flight-deck/pedestal/engine.md) selector is set to `NORM`
+- [Thrust Levers](../a32nx-briefing/flight-deck/pedestal/thrust-elev-trim.md) are idle
 
 We then direct our attention to the **main panel** and make sure the following is set:
 
-- Gear lever is down
+- [Gear Lever](../a32nx-briefing/flight-deck/front/autobrake-gear.md) is down
 
 Then we look up at the **overhead panel**. Make sure the following are in the set position before moving on to starting the aircraft:
 
-- Wiper selectors are in the `OFF` position
-
-![Wiper Switch](../assets/beginner-guide/starting-aircraft/wiper-switch.png "Wiper Switch"){loading=lazy}
+- [Wiper](../a32nx-briefing/flight-deck/ovhd/wipers.md) selectors are in the `OFF` position
 
 ---
 
@@ -61,62 +55,114 @@ Then we look up at the **overhead panel**. Make sure the following are in the se
 
 ### Electrical section
 
-We begin with turning on batteries `BAT 1 AND 2`. After pushing these buttons, we check to see on both sides that there is voltage. We will also hear chimes indicating the batteries are on.
+![GPU](../assets/beginner-guide/starting-aircraft/gpuoff.png){loading=lazy}
 
-To give power to the aircraft we will use the "Ground Power Unit". If ground power isn't available we can also use the APU.
+#### Batteries
 
-=== "Ground Power"
-    If ground power is available, we should see a green `AVAIL` light on the `EXT PWR` button. Push on this button to give power to the aircraft.
+We begin with turning on batteries `BAT 1 AND 2`. We will hear chimes indicating the batteries are on.
 
-    ![GPU](../assets/beginner-guide/starting-aircraft/gpuoff.png){loading=lazy}
+Batteries only power a small part of the aircraft. For the rest either ground power, APU or a running engine is required.
 
-=== "APU"
-    If ground power isn't available, we turn on the APU. To do this, we simply push on the APU `MASTER SW` and `START`. The APU should be on within one minute.
+#### Ground Power
 
-    ![APU Start](../assets/beginner-guide/after-landing/APU-Start.png "APU Start"){loading=lazy width=25%}
+If ground power is available, we should see a green `AVAIL` light on the `EXT PWR` button. Push on this button to give power to the aircraft.
+
+!!! note "Ground Power Not Available"
+    Some gates or stands are not equipped with ground power. In Microsoft Flight Simulator this happens regularly at smaller airports. This is not a bug but a realistic situation. You can then either try to call a Ground Power Unit (GPU) if available at the airport or just use the APU as described in the next step.
+
+#### APU
+
+If ground power isn't available, we turn on the APU now.
+
+To do this, we simply push on the APU `MASTER SW` and `START`. The APU should be on within one minute.
+
+![APU Start](../assets/beginner-guide/starting-aircraft/APU-Start.png "APU Start"){loading=lazy}
+
+!!! note "COVID SOP"
+    !!! block ""
+        ![APU BLEED](../assets/beginner-guide/starting-aircraft/apu-bleed.png "APU BLEED"){loading=lazy align=left width=20%}
+
+        Many airlines require the air conditioning to be running prior to passengers entering the aircraft, and remain on until deboarding is complete to ensure proper air circulation. Therefore, turning on the APU even with ground power is now required, as the air conditioning packs need the APU Bleed air to function whenever the engines are not running. Especially if a ground air conditioning unit is not available.    
+
+        Make sure to turn on APU Bleed on the overhead panel. 
+
+!!! note "Engine Start"
+    APU Bleed Air is required for starting the engines. See [Engine Start and Taxi](engine-start-taxi.md)
+
+??? note "Real World APU and A/C Start Procedure"
+    The above process is a simplified version of how real world airline start up the APU (documented in their SOP - Standard Operating Procedures).
+
+    Here is a description of an actual real world procedure of a well known airline.
+
+    - Check A/C Packs are OFF before powering the aircraft
+    - Set APU MASTER switch to ON
+    - Press APU START 
+        - Some airlines still require the pilot to wait 3sec for the APU flap to open. This is no longer required in the A320neo as the startup sequence waits for the flap to be open automatically. 
+    - Wait until APU START button shows "AVAIL" (or check on lower ECAM APU page)
+    - Wait 1 min (use [CHRONO](../a32nx-briefing/flight-deck/glareshield/warning.md#2-chrono) to time this)
+    - Set APU BLEED to ON      
+    - Wait 1 min (use [CHRONO](../a32nx-briefing/flight-deck/glareshield/warning.md#2-chrono) to time this)
+    - Set PACK 1 to ON (due of COVID many airlines require both A/C PACKS to be ON)
+    
+    The two waiting steps are to avoid any APU oil fumes to get into the air conditioning.  
+
+### Crew Oxygen Supply
 
 After powering the aircraft, we turn on the crew oxygen supply by pushing on the button, diminishing the white `OFF` light.
 
-![Crew Oxygen](../assets/beginner-guide/starting-aircraft/crewoxyhighlight.png "Crew Oxygen"){loading=lazy}
+![Crew Oxygen](../assets/beginner-guide/starting-aircraft/Oxygen.png "Crew Oxygen"){loading=lazy}
 
 ### ADIRS alignment
 
 To align the Inertial Reference System (or IRS), we turn the 3 knobs to the `NAV` position. This will then start the IRS alignment for which we can view the progress on the ECAM display.
 
-![IRS alignment overhead](../assets/beginner-guide/starting-aircraft/adirsaligned.png){loading=lazy}<br/>
+![ADIRS Alignment](../assets/beginner-guide/starting-aircraft/adirsaligned.png "ADIRS Alignment"){loading=lazy}<br/>
 ![ECAM IRS](../assets/beginner-guide/starting-aircraft/ecamirs.png){loading=lazy}
 
-### Lighting
-
-#### Exterior
+### Exterior Lighting
 
 To indicate that the aircraft is powered from the exterior, we turn on the `NAV & LOGO` light.
 
 Following this, we set the `STROBE` light to the `AUTO` position.
 
-![Exterior Lights](../assets/beginner-guide/starting-aircraft/exterior-lighting.png){loading=lazy}
+![Exterior Lights](../assets/beginner-guide/starting-aircraft/exterior-lighting.png "Exterior Lights"){loading=lazy}
 
-#### Cockpit
+!!! tip
+    Overview of [External Lighting configurations](../a32nx-briefing/flight-deck/ovhd/ext-lt.md#external-lighting-configuration)
+
+### Interior Lighting
+
+#### Cabin
 
 We can turn on a few lights to help with visibility inside if it is too dark inside the cockpit.
+
+![Internal Lighting](../assets/beginner-guide/starting-aircraft/int-lt.png "Internal Lighting"){loading=lazy}
 
 - The `DOME` light has 3 settings to choose from. We can set it into the `OFF` position, the `DIM` position, or even the `BRT` position.
 - The `OVHD INTEG LT` will allow us to see the outlines of the overhead panel. Turning the knob will adjust its brightness.
 
-Once our lighting is in the correct state:
+#### Passenger Signs
+
+![Passenger Signs](../assets/beginner-guide/starting-aircraft/passenger-signs.png "Passenger Signs")
 
 - Seat belts sign - `Set to ON`
 - No smoking sign - `Set to AUTO`
+- Arm the emergency exit lights - `Set to ARM`
 
-To arm the emergency exit lights, simply put the switch in the `ARM` position.The white `OFF` light to the left of the switch will disappear.
+!!! note "Real World Procedure"
+    The Seat Belts sign is not turned on until fueling is complete.
+
+### Cabin Pressure
+
+![Cabin Pressure](../assets/beginner-guide/starting-aircraft/cabin-pressure.png "Cabin Pressure"){loading=lazy}
 
 Looking up just a bit we find the `LDG ELEV` knob. This simply means the landing elevation which should be in the `AUTO` position.
 
-![3 Panels](../assets/beginner-guide/starting-aircraft/signslights.png){loading=lazy}
-
-Managing the temperatures of the cabin is necessary as well. Simply rotate the 3 knobs as needed.
+### Cabin Temperature
 
 ![Air Conditioning](../assets/beginner-guide/starting-aircraft/aircond.png "Air Conditioning"){loading=lazy}
+
+Managing the temperatures of the cabin is necessary as well. Simply rotate the 3 knobs as needed.
 
 ### Hydraulic and Fuel Section
 
@@ -124,6 +170,8 @@ Looking up at the **hydraulic panel**, we ensure that there are no white lights 
 
 !!! warning "Fire Tests"
     To perform an APU and Engine fire test, hold down the `TEST` button for each of them for 5 seconds minimum to ensure the lights and aural warnings are working as expected. Checking the ECAM during the test will also show if the ECAM is performing as expected during a fire.
+
+    ![Fire Panel](../assets/beginner-guide/starting-aircraft/fire-panel.png "Fire Panel")
 
 Just below the hydraulic panel, we find the **fuel panel**. Turn on all 6 fuel pumps until the white `OFF` light is no longer visible.
 
@@ -139,7 +187,7 @@ The brightness for each display can be adjusted to make them better readable.
 
 For the PFD and ND, the knobs are in the same location. Look left (or right when in  first officer seat) of the PFD and find the brightness knobs for them. Simply turn both knobs as required.
 
-![PFD and ND brightness](../assets/beginner-guide/starting-aircraft/pfdndbright.png){loading=lazy}
+![PFD and ND brightness](../assets/beginner-guide/starting-aircraft/pfdndbright.png "PFD and ND brightness"){loading=lazy}
 
 For the ECAM upper and lower display, look just in front of the throttles and find the brightness knobs. Just like the PFD and ND knobs, rotate them as required.
 
@@ -147,7 +195,7 @@ For the ECAM upper and lower display, look just in front of the throttles and fi
 
 For the ISIS display brightness (just left of the upper ECAM), use the `+` and `-` buttons until the brightness is suitable. While we are at the ISIS display, set the current QNH.
 
-![ISIS](../assets/beginner-guide/starting-aircraft/isis.png){loading=lazy}
+![ISIS](../assets/beginner-guide/starting-aircraft/isis.png "ISIS"){loading=lazy}
 
 ---
 
@@ -155,7 +203,7 @@ For the ISIS display brightness (just left of the upper ECAM), use the `+` and `
 
 Looking down at the **radio panel**, set the `RMP 1` to the active **ATIS** frequency and set the standby frequency to the **ground** frequency.
 
-![Radio Panel](../assets/beginner-guide/starting-aircraft/radiopanel.png "Radio Panel"){ loading=lazy width=70% }
+![Radio Panel](../assets/beginner-guide/starting-aircraft/radiopanel.png "Radio Panel"){ loading=lazy}
 
 After setting correct frequencies, locate the `BARO` reference on the **glareshield**. We can set the barometer to either `inHg` or `hPa` by turning the grey inner selector behind the knob. For this flight ensure that we are set to `QNH`. This can be changed by "pushing" on the BARO knob (the tooltip will have an upwards arrow).
 
@@ -168,15 +216,15 @@ After setting correct frequencies, locate the `BARO` reference on the **glareshi
 
 Just below the barometer reference, turn on the `FD`. A green light indicates it has been turned on.
 
-![efis control](../assets/beginner-guide/starting-aircraft/EFIS-Control.png){ loading=lazy width=90% }
+![EFIS Control Panel](../assets/beginner-guide/starting-aircraft/efis-control.png "EFIS Control Panel"){ loading=lazy}
 
 ### ECAM Fuel Page
 
-Verify that on the ECAM fuel page that your aircraft has enough fuel for the flight.
+Verify on the Upper ECAM that your aircraft has enough fuel for the flight.
 
-If we do not have enough fuel for the flight we can refuel via Microsoft Flight Simulator's hovering menu bar or through the flyPad.
+![ECAM Fuel On Board](../assets/beginner-guide/starting-aircraft/ecam-fuel.png "ECAM Fuel On Board")
 
-![flyPad Fuel](../assets/beginner-guide/starting-aircraft/flypadfuel.jpg){loading=lazy}
+If we do not have enough fuel for the flight we can refuel via the [flyPad EFB Fuel Page](../../fbw-a32nx/feature-guides/flyPad/dispatch.md#fuel-page) .
 
 ---
 

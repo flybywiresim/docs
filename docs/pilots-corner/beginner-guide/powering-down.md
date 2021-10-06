@@ -53,25 +53,25 @@ If we want to actually do a turn around and start a new flight directly the proc
 
 **At the gate:**
 
-![EDDM at gate](../assets/beginner-guide/powering-down/EDDM-at-gate.png "EDDM at gate"){loading=lazy}
+![EDDM at gate](../assets/beginner-guide/powering-down/eddm-at-the-gate.png "EDDM at gate"){loading=lazy}
 
 **Steps after arriving at the gate:**
 
 - Set parking brake (`PARK BRK`).
 
-    ![Parking Brake](../assets/beginner-guide/powering-down/Parking-Brake.png "Parking Brake"){loading=lazy width=20%}
+    ![Parking Brake](../assets/beginner-guide/powering-down/parking-brk.png "Parking Brake"){loading=lazy}
 
 - `NOSE TAXI` and `RWY TURN OFF` lights are usually turned off even before we turn into the gate to not blind the ground personnel. This of course is only done if enough lighting is available to safely park into the gate. Turn them off if they were used to assist in parking.
 
-    ![Taxilights off](../assets/beginner-guide/powering-down/Lights-Taxi-off.png "Taxilights off"){loading=lazy }
+    ![Taxilights off](../assets/beginner-guide/powering-down/lights-taxi-off.png "Taxilights off"){loading=lazy}
 
 - Turn on `APU BLEED` before we turn off the engines.
 
-    ![APU BLEED ON](../assets/beginner-guide/powering-down/APU-BLEED-on.png "APU BLEED ON"){width=20%}
+    ![APU BLEED ON](../assets/beginner-guide/powering-down/apu-bleed-on1.png "APU BLEED ON"){loading=lazy width=20%}
 
 - Shut down the engines by setting the `ENG 1` and `ENG 2` master switches to off.
 
-    ![Engines off](../assets/beginner-guide/powering-down/ENG-off.png "Engines off"){loading=lazy }
+    ![Engines off](../assets/beginner-guide/powering-down/engine-off.png "Engines off"){loading=lazy }
 
 - Wait until `N1` is below 5%.
 
@@ -79,11 +79,11 @@ If we want to actually do a turn around and start a new flight directly the proc
 
 - Turn off `Seat Belt` sign.
 
-    ![Seat Belt Sign off](../assets/beginner-guide/powering-down/Seatbelt-off.png "Seat Belt Sign off"){loading=lazy width=20%}
+    ![Seat Belt Sign off](../assets/beginner-guide/powering-down/seatbelts-off.png "Seat Belt Sign off"){loading=lazy width=20%}
 
 - Turn off `BEACON` (leave `NAV & LOGO` on as long as the aircraft has power from external or APU, `STROBES` can remain on AUTO).
 
-    ![All_Ext_LT_off](../assets/beginner-guide/powering-down/Beacon-off.png){width=20%}
+    ![All_Ext_LT_off](../assets/beginner-guide/powering-down/beacons-off.png){width=20%}
 
 - Complete **Parking** checklist.
 
@@ -109,7 +109,7 @@ Taking care of passengers and luggage with the FlyByWire flyPad:
 - Connect the jetway (PAX).
 - Call cargo/baggage (Baggage).
 
-![flyPad Ground page](../assets/beginner-guide/powering-down/FlyPad-Ground.png "flyPad Ground page"){loading=lazy}
+![flyPad Ground page](../assets/beginner-guide/powering-down/flyPad-ground-page.png "flyPad Ground page"){loading=lazy}
 
 Obviously this would take a while in real life and we would not be able to shut down the aircraft before everybody is disembarked.
 
@@ -131,41 +131,41 @@ This concludes *Disembarking Passengers and Baggage*.
 
 - Turn off all fuel pumps.
 
-    ![Fuel pumps off](../assets/beginner-guide/powering-down/FUEL-PUMS-off.png "Fuel pumps off"){loading=lazy width=80%}
+    ![Fuel pumps off](../assets/beginner-guide/powering-down/fuel-pumps-off.png "Fuel pumps off"){loading=lazy width=80%}
 
 - Turn off the `ADIRS`.
 
-    ![ADIRS OFF](../assets/beginner-guide/powering-down/ADIRS.png "ADIRS OFF"){loading=lazy width=50%}
+    ![ADIRS OFF](../assets/beginner-guide/powering-down/adirs-off.png "ADIRS OFF"){loading=lazy }
 
 - Turn off `OXYGEN`.
 
-    ![OXYGEN Crew Supply off](../assets/beginner-guide/powering-down/OXYGEN-Crew-Supply.png "OXYGEN Crew Supply off"){loading=lazy width=20%}
+    ![OXYGEN Crew Supply off](../assets/beginner-guide/powering-down/crewoxyhighlight.png "OXYGEN Crew Supply off"){loading=lazy}
 
 - Turn off `APU BLEED`.
 
-    ![APU BLEED OFF](../assets/beginner-guide/powering-down/APU-BLEED-off.png "APU BLEED OFF"){loading=lazy width=20%}
+    ![APU BLEED OFF](../assets/beginner-guide/powering-down/apu-bleed.png "APU BLEED OFF"){loading=lazy width=20%}
 
 - Turn off emergency exit lights `EMER EXIT LT` and no smoking lights `NO SMOKING`.
 
-    ![Signs off](../assets/beginner-guide/powering-down/SIGNS-Off.png "Signs off"){loading=lazy}
+    ![Signs off](../assets/beginner-guide/powering-down/passenger-signs.png "Signs off"){loading=lazy}
 
 - Optional or depending on airline SOPs: Reset air conditioning, lighting and screen brightness.
 - Turn off `APU MASTER` (expect the APU to still be AVAIL for a few minutes if you also had APU Bleed on shortly before as it needs a cool down period).
 
-    ![APU Master off](../assets/beginner-guide/powering-down/APU-Master-off.png "APU Master off"){loading=lazy width=20%}
+    ![APU Master off](../assets/beginner-guide/powering-down/apu-master-off1.png "APU Master off"){loading=lazy width=20%}
 
 - Wait 2 minutes for the APU FLAP door to close before you turn off power as this needs either APU or external power.
 - Turn off `EXT PWR` if it has been turned on before
 
-    ![External Power off](../assets/beginner-guide/powering-down/EXT-PWR-off.png "External Power off"){loading=lazy width=20%}
+    ![External Power off](../assets/beginner-guide/powering-down/ext-power-off.png "External Power off"){loading=lazy width=20%}
 
 - Turn off `NAV & LOGO` lights (as aircraft no longer has power).
 
-    ![NAV & LOGO off](../assets/beginner-guide/powering-down/NAV-off-1.png "NAV & LOGO off"){loading=lazy width=20%}
+    ![NAV & LOGO off](../assets/beginner-guide/powering-down/nav-logo-off-1.png "NAV & LOGO off"){loading=lazy width=20%}
 
 - Turn off `BAT 1` and `BAT 2`.
 
-    ![Batteries off](../assets/beginner-guide/powering-down/BAT-off.png "Batteries off"){loading=lazy width=50%}
+    ![Batteries off](../assets/beginner-guide/powering-down/batteries-off.png "Batteries off"){loading=lazy width=70%}
 
 Now the aircraft is back in a cold and dark state.
 
