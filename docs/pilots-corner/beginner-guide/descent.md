@@ -110,7 +110,7 @@ This guide will cover these phases:
 ??? tip "FIX INFO in Experimental Version"
     ##### Fix Info Distance Ring
 
-    Also a great aid for knowing when to descent is the new FIX INFO feature available for testing in the Experimental Version.
+    Also a great aid for knowing when to descend is the new FIX INFO feature available for testing in the Experimental Version.
 
     You can add a ring around a waypoint or fix with a specified distance. As we need 57NM for our descent from FL320 to FL140 at ABTUM we can set the fix distance ring to 57NM.
     
@@ -124,7 +124,9 @@ This guide will cover these phases:
 
     The MCDU FIX INFO page can be access by selecting the first waypoint on the F-PLN page and pressing LSK 1L "FIX INFO".
     
-    !!! warning "Not available in the Stable or Development Version!" 
+    See our feature guide [Fix Info](../../fbw-a32nx/feature-guides/fixinfo.md) for how to use this function. 
+    
+    !!! warning "Available only in the Experimental version!" 
 
 #### How to Calculate the Required Distance for Descent
 

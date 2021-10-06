@@ -82,7 +82,7 @@ To do this, we simply push on the APU `MASTER SW` and `START`. The APU should be
     !!! block ""
         ![APU BLEED](../assets/beginner-guide/starting-aircraft/apu-bleed.png "APU BLEED"){loading=lazy align=left width=20%}
 
-        Many airlines require the air condition to run before passengers enter the aircraft and then run it continuously. Therefore turning on the APU now even with ground power is required as the air conditioning packs need the APU Bleed air as long as engines are not running. Especially if a ground air conditioning unit is not available.
+        Many airlines require the air conditioning to be running prior to passengers entering the aircraft, and remain on until deboarding is complete to ensure proper air circulation. Therefore, turning on the APU even with ground power is now required, as the air conditioning packs need the APU Bleed air to function whenever the engines are not running. Especially if a ground air conditioning unit is not available.    
 
         Make sure to turn on APU Bleed on the overhead panel. 
 
@@ -97,14 +97,14 @@ To do this, we simply push on the APU `MASTER SW` and `START`. The APU should be
     - Check A/C Packs are OFF before powering the aircraft
     - Set APU MASTER switch to ON
     - Press APU START 
-        - some airlines still require the pilot to wait 3sec for the APU flap to open. This is no longer required in the A320neo as the startup sequence waits for the flap to be open automatically. 
+        - Some airlines still require the pilot to wait 3sec for the APU flap to open. This is no longer required in the A320neo as the startup sequence waits for the flap to be open automatically. 
     - Wait until APU START button shows "AVAIL" (or check on lower ECAM APU page)
     - Wait 1 min (use [CHRONO](../a32nx-briefing/flight-deck/glareshield/warning.md#2-chrono) to time this)
     - Set APU BLEED to ON      
     - Wait 1 min (use [CHRONO](../a32nx-briefing/flight-deck/glareshield/warning.md#2-chrono) to time this)
-    - Set PACK 1 to ON (because of COVID many airlines require both A/C PACKS to be ON)
+    - Set PACK 1 to ON (due of COVID many airlines require both A/C PACKS to be ON)
     
-    The two waiting step are to avoid any APU oil fumes to get into the air conditioning.  
+    The two waiting steps are to avoid any APU oil fumes to get into the air conditioning.  
 
 ### Crew Oxygen Supply
 

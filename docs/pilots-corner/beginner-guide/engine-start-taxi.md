@@ -77,9 +77,9 @@ At this point we may begin pushback away from the terminal onto the taxiway Alph
 
 ### How to Pushback
 
-The FlyByWire A32NX has a ground operations page on its build in flyPad EFB (Electronic Flight Bag). This page allows to control the pushback of the aircraft and other useful ground operations such as calling the jetway, baggage or catering, etc.
+The FlyByWire A32NX has a ground operations page on its built-in flyPad EFB (Electronic Flight Bag). This page allows to control the pushback of the aircraft and other useful ground operations such as calling the jetway, baggage or catering, etc.
 
-Although Microsoft Flight Simulator also has some pushback functionality build into the default ATC service this guide will only cover the A32NX pushback functionality.
+Although Microsoft Flight Simulator also has some pushback functionality built into the default ATC service this guide will only cover the A32NX pushback functionality.
 
 ![flyPad EFB Ground Operations](../assets/beginner-guide/taxi/flyPad-ground-page.png "flyPad EFB Ground Operations"){loading=lazy}
 
@@ -92,7 +92,7 @@ Although Microsoft Flight Simulator also has some pushback functionality build i
     If a pushback tug is available at this gate or stand it will then start attaching itself to the nose wheel.
 
     !!! warning ""
-        Some airports / gates / stands do not show a tug. This functionality still works and you can push back as if a tug is attached. I looks like an invisible tug is pushing the aircraft.
+        Some airports / gates / stands do not show a tug. This functionality still works and you can push back as if a tug is attached. It looks like an invisible tug is pushing the aircraft.
 
 After the tug is attached to the nose wheel we can start pushing back by using these control buttons:
 
