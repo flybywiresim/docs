@@ -26,7 +26,7 @@
 
 ### Known Issues
 
-*Last Update: 5th Oct 2021*<br/>
+*Last Update: {{git_revision_date_localized}}*<br/>
 (get the latest list from our Discord: [Experimental Known Issues List](https://discord.com/channels/738864299392630914/876140343735771147/876140346009075722){target=new})
 
 - Approach phase must be manually activated
