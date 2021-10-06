@@ -17,7 +17,7 @@ This guide will explain the correct procedures after we have landed and vacated 
 
 Aircraft has vacated the runway completely and has been brought to a stop on the taxiway as per previous chapters.
 
-![Runway vacated](../assets/beginner-guide/after-landing/Runway-vacated.png "Runway vacated"){ loading=lazy }
+![Runway vacated](../assets/beginner-guide/after-landing/rwy-vacated.png "Runway vacated"){ loading=lazy }
 
 [Download FlyByWire Checklist](../../assets/FBW_A32NX_CHECKLIST.pdf){ .md-button }
 
@@ -67,15 +67,15 @@ ATC Tower will usually hand us off to ATC Ground and they will give us taxi inst
 
 - Set your `TCAS` to STANDBY.
 
-    ![ATC & TCAS](../assets/beginner-guide/after-landing/ATC-TCAS-Panel.png "ATC & TCAS"){loading=lazy }
+    ![ATC & TCAS](../assets/beginner-guide/after-landing/tcas-panel.png "ATC & TCAS"){loading=lazy }
 
 - Set your `RADAR` and Predictive Windshear System (`PWS`) to OFF.
 
-    ![WX and PWS off](../assets/beginner-guide/after-landing/WX-PWS-off.png "WX and PWS off"){loading=lazy }
+    ![WX and PWS off](../assets/beginner-guide/after-landing/radar-pws-off.png "WX and PWS off"){loading=lazy }
 
 - Start your `APU` by clicking the `APU MASTER SW` button then the `APU START` button.
 
-    ![APU Start](../assets/beginner-guide/after-landing/APU-Start.png "APU Start"){loading=lazy }
+    ![APU Start](../assets/beginner-guide/starting-aircraft/APU-Start.png "APU Start"){loading=lazy }
 
 - Turn `ANTI ICE` OFF if not required.
 
@@ -85,7 +85,7 @@ ATC Tower will usually hand us off to ATC Ground and they will give us taxi inst
     - Set your `STROBE` lights to AUTO/OFF (If you are crossing runway keep them ON until you vacate the runway).
     - For `LAND` lights, you can choose to retract them or turn them off.
 
-        ![After landing lights](../assets/beginner-guide/after-landing/Taxi-light-on.png "After landing lights"){loading=lazy }
+        ![After landing lights](../assets/beginner-guide/after-landing/taxi-lights-on.png "After landing lights"){loading=lazy }
 
 - Turn the brake fan (`BRK FAN`) on if you get a hot brakes ECAM warning.
 
@@ -127,7 +127,7 @@ When approved to cross a runway (active or not) perform the following actions:
 
  When turning into the gate turn off your `NOSE` light and your `RWY TURN OFF` lights to not blind the ground personnel. This of course is only done at this point if enough lighting is available to safely park into the gate.
 
-![Taxi lights off](../assets/beginner-guide/after-landing/Lights-Taxi-off.png "Lights_Taxi_off.png"){loading=lazy }
+![Taxi lights off](../assets/beginner-guide/after-landing/taxi-lights-off.png "Lights_Taxi_off.png"){loading=lazy }
 
 This concludes *Taxi to Gate*
 
