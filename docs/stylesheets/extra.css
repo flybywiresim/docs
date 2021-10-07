@@ -37,7 +37,7 @@ diff rgba(27,36,52,1)
   height: -webkit-fill-available;
 }
 
-/*Announcement Bar Temporarily Removed*/
+/*Announcement Bar*/
 .md-announce {
     background-color: var(--md-footer-bg-color--dark);
     overflow: auto;
