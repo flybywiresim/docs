@@ -1,11 +1,9 @@
 {% extends "base.html" %}
 
 <!-- Announcement Bar Implementation -->
-<!-- Latest Versions -
-    <a href="/fbw-a32nx/installation/#downloads">
-        <img src="https://img.shields.io/github/v/release/flybywiresim/a32nx.svg?color=2F4E5B&style=flat" />
-        <img src="https://img.shields.io/badge/dynamic/json?color=00848A&label=Development&query=shortSha&url=https%3A%2F%2Fapi.flybywiresim.com%2Fapi%2Fv1%2Fgit-versions%2Fflybywiresim%2Fa32nx%2Fbranches%2Fmaster&style=flat" alt="Development Version" />
-    </a>-->
+{% block announce %}
+    Read our <a href="https://flybywiresim.com/notams/development_notam-2021-10/">September Development NOTAM</a>
+{% endblock %}
 {% set extracopyright %}
     <br> Powered by <a href="https://vercel.com/?utm_source=flybywiresim&utm_campaign=oss" target="_blank">
             <img src="/assets/images/vercel-logotype-light.svg" alt="Vercel Logo"></a>
