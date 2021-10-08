@@ -129,7 +129,7 @@ The work folder can be found here:
 
 ??? info "Climb performance is not satisfying or plane drops or increases nose heavily on approach"
 
-    Ensure that you're using modern flight model (Options -> General -> Flight Model). Beside that also ensure that you don't have any mods or add-ons installed that have influence on the flight model or other physics.
+    Ensure that you don't have any mods or add-ons installed that have influence on the flight model or other physics.
 
 ??? info "Autopilot oscillates when using time compression"
 
