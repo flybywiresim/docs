@@ -49,10 +49,23 @@ will be updated at least once a month.
 
 For all changes refer to the official [CHANGELOG](https://github.com/flybywiresim/a32nx/blob/master/.github/CHANGELOG.md){target=new} or commits on the [:fontawesome-brands-github:{: .github } - **GitHub A32NX Repository Master Branch**](https://github.com/flybywiresim/a32nx/commits/master){target=new}.
 
-*Last Update: 14. Sep 2021*
+*Last Update: 7. Oct 2021*
 
 - Added language translations ( [#5599](https://github.com/flybywiresim/a32nx/pull/5599){target=new} )
 - Improved pitch/C* and ALT* laws ( [#5711](https://github.com/flybywiresim/a32nx/pull/5711){target=new} )
 - EFB: Physical power button ( [#5697](https://github.com/flybywiresim/a32nx/pull/5697){target=new} )
 - MCDU Keyboard settings moved to EFB ( [#5754](https://github.com/flybywiresim/a32nx/pull/5754){target=new} )
+- PTU sounds, engine sound enhancements, and some fixes ( [#5796](https://github.com/flybywiresim/a32nx/pull/5796) )
+- EFB: In-flight refueling capabilitie ( [#5775](https://github.com/flybywiresim/a32nx/pull/5775) )
+- Updated flight model weights and balances ( [#5547](https://github.com/flybywiresim/a32nx/pull/5547) )
+- AP and FBW improvements v2 ( [#5781](https://github.com/flybywiresim/a32nx/pull/5781) )
+- Move simBrief username input out of MCDU ( [#5813](https://github.com/flybywiresim/a32nx/pull/5813) )
+- AP: Improved LOC-CPT, LOC-ALIGN, and ROLLOUT laws ( [#5862](https://github.com/flybywiresim/a32nx/pull/5862) )
+- FBW: Improved speed dependent roll law model ( [#5842](https://github.com/flybywiresim/a32nx/pull/5842) )
+- Model: Independent landing light animation ( [#5913](https://github.com/flybywiresim/a32nx/pull/5913) )
+- HYD: Rigid body simulation for cargo door ( [#5341](https://github.com/flybywiresim/a32nx/pull/5341) )
+- EFB/MCDU: Move telex prompt out of MCDU (MSFS now provides a warning) ( [#5902](https://github.com/flybywiresim/a32nx/pull/5902) )
+- Lights: Sync Strobe/Beacon + EXT LT adjustments + LDG LT behavior ( [#5928](https://github.com/flybywiresim/a32nx/pull/5928) )
+- AP: Improved SPD/MACH law model ( [#5918](https://github.com/flybywiresim/a32nx/pull/5918) )
+- AP: Fixed roll law instability and improved behavior when using high sim rate and low performance ( [#5935](https://github.com/flybywiresim/a32nx/pull/5935) )
 
