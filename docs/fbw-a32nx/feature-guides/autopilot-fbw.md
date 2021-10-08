@@ -3,7 +3,7 @@
 !!! warning "Important"
 
     * The custom autopilot system needs at least stable 17 fps to work properly. Any lower performance may result in unexpected behaviour.
-    * Use modern flight model (legacy flight model is not supported)
+    * The A32NX forces the __^^modern flight model^^__ and selection in the MSFS settings is not necessary.
     * It's crucial for the Autothrust system to have properly setup detents. Ensure that you have enough dead zone around the detents.
     * Typical issues when this is not done properly: constantly flashing "LVR CLB", FLX / TOGA not engaging or ATHR not holding speed correctly (the latter can also happen when in CLB/OP CLB or DES/OP DES and flying manually -> in that case you need to take care of holding speed with pitch)
     * Any mod or add-on that changes the physics or has impact on the flight model are **not supported**
@@ -14,12 +14,12 @@
 
 When reporting issues please take the following into account:
 
-* read the known and typical issues to be sure it's not already known or can be solved that way
-* have a look at your fps
-* note down which flight condition you are (in flight, on ground)
-* note down what the FMA showed (or even better: take a screenshot or make a video)
-* you can press the DFDR button (right of the throttle levers and above the TCAS panel) to mark an event
-* if you ask for support you might be asked for a FDR file, those can be found in the work folder (see below)
+* Read the known and typical issues to be sure it's not already known or can be solved that way.
+* Have a look at your fps.
+* Note down which flight condition you are (in flight, on ground).
+* Note down what the FMA showed (or even better: take a screenshot or make a video).
+* You can press the DFDR button (right of the throttle levers and above the TCAS panel) to mark an event.
+* If you ask for support you might be asked for a FDR file, those can be found in the work folder (see below).
 
 ***
 
