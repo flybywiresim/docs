@@ -8,6 +8,11 @@ hide:
 [A320neo Pilot Briefing](index.md){ .md-button }
 [Clickable Flight Deck](flight-deck/index.md){ .md-button }
 
+!!! note ""
+    The below table might lag behind the current developments of the A32NX. It is based on the A32NX Development version and we try to keep it updated as best as possible.
+
+    If you find any errors please report them on our [:fontawesome-brands-discord:{: .discord } - **Discord**](https://discord.gg/flybywire){target=new} in the **#support** channel.
+
 ## ELEC Panel
 
 Back to [ELEC Panel](flight-deck/ovhd/elec.md)
@@ -58,3 +63,59 @@ Back to [ELEC Panel](flight-deck/ovhd/elec.md)
 | COMMERCIAL  | A32NX_OVHD_ELEC_COMMERCIAL_PB_IS_AUTO     | 0 \| 1 | R/W        | Custom LVAR      |                                            |
 |             | A32NX_OVHD_ELEC_COMMERCIAL_PB_HAS_FAULT   | 0 \| 1 | R          | Custom LVAR      |                                            |
 |             |                                           |        |            |                  |                                            |
+
+## External Lights Panel
+
+Back to [EXT LT Panel](flight-deck/ovhd/ext-lt.md)
+
+| Function     | API Usage             | Values | Read/Write | Type             | Remark                              |
+|:-------------|:----------------------|:-------|:-----------|:-----------------|:------------------------------------|
+| STROBE       | STROBES_SET           | 0 \| 1 | -          | SIMCONNECT EVENT | OFF and ON (no AUTO)                |
+|              | STROBES_TOGGLE        | -      | -          | SIMCONNECT EVENT | OFF and ON (no AUTO)                |
+|              | STROBES_ON            | -      | -          | SIMCONNECT EVENT | OFF and ON (no AUTO)                |
+|              | STROBES_OFF           | -      | -          | SIMCONNECT EVENT | OFF and ON (no AUTO)                |
+|              | LIGHT STROBE          | 0 \| 1 | R/W        | SIMCONNECT VAR   | OFF and ON (no AUTO)                |
+|              | STROBE_0_AUTO         | 0 \| 1 | R/W        | Custom LVAR      | AUTO only when STROBES are ON       |
+|              | LIGHTING_STROBE_0     | 0 \| 1 | R          |                  | 2=OFF, 1=AUTO, 0=ON                 |
+|              |                       |        |            |                  |                                     |
+| BEACON       | BEACON_SET            | 0 \| 1 | -          | SIMCONNECT EVENT |                                     |
+|              | BEACON_TOGGLE         | -      | -          | SIMCONNECT EVENT |                                     |
+|              | BEACON_ON             | -      | -          | SIMCONNECT EVENT |                                     |
+|              | BEACON_OFF            | -      | -          | SIMCONNECT EVENT |                                     |
+|              | LIGHT BEACON          | 0 \| 1 | R/W        | SIMCONNECT VAR   |                                     |
+|              |                       |        |            |                  |                                     |
+| WING         | WING_SET              | 0 \| 1 | -          | SIMCONNECT EVENT |                                     |
+|              | BEACON_TOGGLE         | -      | -          | SIMCONNECT EVENT |                                     |
+|              | BEACON_ON             | -      | -          | SIMCONNECT EVENT |                                     |
+|              | BEACON_OFF            | -      | -          | SIMCONNECT EVENT |                                     |
+|              | LIGHT BEACON          | 0 \| 1 | R/W        | SIMCONNECT VAR   |                                     |
+|              |                       |        |            |                  |                                     |
+| NAV & LOGO   | NAV_LIGHTS_SET        | 0 \| 1 | -          | SIMCONNECT EVENT | LOGO needs to be set separately     |
+|              | LIGHT NAV             | 0 \| 1 | R/W        | SIMCONNECT VAR   | LOGO needs to be set separately     |
+|              | LOGO_LIGHTS_SET       | 0 \| 1 | -          | SIMCONNECT EVENT | LOGO does not move switch           |
+|              | LIGHT LOGO            | 0 \| 1 | R/W        | SIMCONNECT VAR   | LOGO does not move switch           |
+|              |                       |        |            |                  |                                     |
+| RWY TURN OFF | CIRCUIT SWITCH ON:21  | 0 \| 1 | R/W        | SIMCONNECT VAR   | Left Rwy Turn Off Light + Switch    |
+|              | CIRCUIT SWITCH ON:22  | 0 \| 1 | R/W        | SIMCONNECT VAR   | Left Rwy Turn Off Light             |
+|              | LIGHTING_TAXI_2       | 0 \| 1 | R          | Custom LVAR      |                                     |
+|              |                       |        |            |                  |                                     |
+| LAND L + R   | LANDING_LIGHTS_ON     | 0..3   | -          | SIMCONNECT EVENT | 0=all, 1=NOSE, 2=L, 3=R             |
+|              | LANDING_LIGHTS_OFF    | 0..3   | -          | SIMCONNECT EVENT | 0=all, 1=NOSE, 2=L, 3=R             |
+|              | LANDING_LIGHTS_TOGGLE | 0..3   | -          | SIMCONNECT EVENT | 0=all, 1=NOSE, 2=L, 3=R             |
+|              |                       |        |            |                  |                                     |
+| NOSE         | TOGGLE_TAXI_LIGHTS    | -      | -          | SIMCONNECT EVENT | Also toggles RWY TURN OFF LIGHT     |
+|              | LIGHT TAXI            | 0 \| 1 | R/W        | SIMCONNECT VAR   | Only switches TAXI light            |
+|              | LANDING_LIGHTS_TOGGLE | 1      | -          | SIMCONNECT EVENT | Toggles switch between T.O. and OFF |
+
+## Interior Lights Panel
+
+Back to [INT LT Panel](flight-deck/ovhd/int-lt.md)
+
+| Function               | API Usage              | Values | Read/Write | Type             | Remark               |
+|:-----------------------|:-----------------------|:-------|:-----------|:-----------------|:---------------------|
+| OVHD INTEG Lt          | LIGHT POTENTIOMETER:86 | 0..100 | R/W        | MSFS VAR         |                      |
+| ICE IND & STBY COMPASS | N/A                    |        |            |                  |                      |
+| DOME                   | TOGGLE_CABIN_LIGHTS    | -      | -          | SIMCONNECT EVENT | Toggle OFF-DIM-BRT   |
+|                        | LIGHT POTENTIOMETER:7  | 0..100 | R/W        | MSFS VAR         |                      |
+| ANN LT                 | A32NX_OVHD_INTLT_ANN   | 0..2   | R/W        | Custom LVAR      | 2=DIM, 1=BRT, 0=TEST |
+
