@@ -27,16 +27,16 @@
 
     This version is similar to the development version, but contains custom systems in earlier development phases. 
     
-    Currently the new FlyByWire Custom Flight Management System (cFMS) is available in the Experimental version.
+    Currently we are testing the new implementation of the TCAS.
     
-    The experimental version will be updated with the latest changes to the cFMS regularly and also with the latest changes to the Development version. Expect updates about once a week (not guaranteed).     
+    The experimental version will be updated regularly and also with the latest changes to the Development version. Expect updates about once a week (not guaranteed).     
     
     !!! warning 
     
     The Experimental version has a less strict QA process and is used for actual QA testing. Bugs and Issues are to be expected. Please read [Experimental Version Support Page](support/exp.md) before using this version.
 
     !!! danger "No Support for Experimental - use at own risk"
-        Please do not seek support for the Experimental Version on Discord and only report issues if you have read this page and the reported and known issues. You can report issues in the Discord channel "#ata-22-fms" in the thread "[CFMS LNAV ONLY Bugs + Issues](https://discord.com/channels/738864299392630914/876140343735771147/882442909918584862){ target=new }".
+        Please do not seek support for the Experimental Version on Discord and only report issues if you have read this page and the reported and known issues.
 
 ## Version Comparison
 
