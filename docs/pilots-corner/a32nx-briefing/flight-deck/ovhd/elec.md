@@ -141,7 +141,10 @@ The IDG switches are normally spring-loaded out. Pressing these switches disconn
 
 ## ECAM ELEC page
 
-![ECAM Elec page](../../../assets/a32nx-briefing/overhead-panel/ECAM-Elec-page.jpg "ECAM Elec page"){loading=lazy}
+See [ECAM ELEC page](../../ecam/sd/elec.md)
+
+
+
 
 ---
 
