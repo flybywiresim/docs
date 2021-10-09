@@ -18,6 +18,7 @@ but are omitted in this briefing.
 ##  Topics
 
 - [Flight-Deck](flight-deck/index.md)
+- [Flight-Deck A32NX API](a32nx_api.md)
 - [ECAM](ecam/index.md)
 - [PFD](pfd/index.md)
 <!--- [ND](nd/index.md)-->
