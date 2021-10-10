@@ -15,7 +15,9 @@ hide:
 
 The order of the panels below is roughly done after the standard cold & dark setup procedure.
 
-## ELEC Panel
+## Overhead Forward
+
+### ELEC Panel
 
 Flight Deck:  [ELEC Panel](flight-deck/ovhd/elec.md)
 
@@ -66,7 +68,7 @@ Flight Deck:  [ELEC Panel](flight-deck/ovhd/elec.md)
 |             | A32NX_OVHD_ELEC_COMMERCIAL_PB_HAS_FAULT   | 0 \| 1 | R          | Custom LVAR      |                                            |
 |             |                                           |        |            |                  |                                            |
 
-## External Lights Panel
+### External Lights Panel
 
 Flight Deck:  [EXT LT Panel](flight-deck/ovhd/ext-lt.md)
 
@@ -109,7 +111,7 @@ Flight Deck:  [EXT LT Panel](flight-deck/ovhd/ext-lt.md)
 |              | LIGHT TAXI            | 0 \| 1 | R/W        | SIMCONNECT VAR   | Only switches TAXI light            |
 |              | LANDING_LIGHTS_TOGGLE | 1      | -          | SIMCONNECT EVENT | Toggles switch between T.O. and OFF |
 
-## Interior Lights Panel
+### Interior Lights Panel
 
 Flight Deck: [INT LT Panel](flight-deck/ovhd/int-lt.md)
 
@@ -124,7 +126,7 @@ Flight Deck: [INT LT Panel](flight-deck/ovhd/int-lt.md)
 |                        |                        |        |            |                  |                      |
 | ANN LT                 | A32NX_OVHD_INTLT_ANN   | 0..2   | R/W        | Custom LVAR      | 2=DIM, 1=BRT, 0=TEST |
 
-## Signs Panel
+### Signs Panel
 
 Flight Deck: [Signs Panel](flight-deck/ovhd/signs.md)
 
@@ -137,7 +139,7 @@ Flight Deck: [Signs Panel](flight-deck/ovhd/signs.md)
 |              |                                              |        |            |                  |                     |
 | EMER EXIT LT | XMLVAR_SWITCH_OVHD_INTLT_EMEREXIT_POSITION   | 0..2   | R/W        | Custom LVAR      | 0=ON, 1=AUTO, 2=OFF |
 
-## ADIRS Panel
+### ADIRS Panel
 
 Flight Deck: [ADIRS Panel](flight-deck/ovhd/adirs.md)
 
@@ -157,7 +159,7 @@ Flight Deck: [ADIRS Panel](flight-deck/ovhd/adirs.md)
 |                          |                                          |         |            |             |                      |
 | ON BAT light             | A32NX_OVHD_ADIRS_ON_BAT_IS_ILLUMINATED   | 0 \| 1  | R          | Custom LVAR |                      |
 
-## APU Panel
+### APU Panel
 
 Flight Deck: [APU Panel](flight-deck/ovhd/apu.md)
 
@@ -171,7 +173,7 @@ Flight Deck: [APU Panel](flight-deck/ovhd/apu.md)
 
 !!! note "Search for APU in our [list for all Custom LVARS](https://github.com/flybywiresim/a32nx/blob/master/docs/a320-simvars.md){target=new} for further variables."
 
-## RCDR Panel
+### RCDR Panel
 
 Flight Deck: [RCDR Panel](flight-deck/ovhd/voice-recorder.md)
 
@@ -183,7 +185,7 @@ Flight Deck: [RCDR Panel](flight-deck/ovhd/voice-recorder.md)
 |           |                              |        |            |             |        |
 | CVR TEST  | A32NX_RCDR_TEST              | 0 \| 1 | R/W        | Custom LVAR |        |
 
-## Oxygen Panel
+### Oxygen Panel
 
 Flight Deck: [Oxygen Panel](flight-deck/ovhd/oxygen.md)
 
@@ -195,11 +197,11 @@ Flight Deck: [Oxygen Panel](flight-deck/ovhd/oxygen.md)
 |             |                                 |        |            |             |        |
 | CREW SUPPLY | PUSH_OVHD_OXYGEN_CREW           | 0 \| 1 | R/W        | Custom LVAR |        |
 
-## Fire Panel
+### Fire Panel
 
 Flight Deck: [Fire Panel](flight-deck/ovhd/fire.md)
 
-!!! note "The below table shows the API for ENG FIRE 1. Replace `1` with `2`for ENG FIRE 2."
+!!! note "The below table shows the API for ENG 1. Replace `1` with `2`for ENG 2."
 
 | Function         | API Usage                        | Values | Read/Write | Type        | Remark                                   |
 |:-----------------|:---------------------------------|:-------|:-----------|:------------|:-----------------------------------------|
@@ -221,3 +223,20 @@ Flight Deck: [Fire Panel](flight-deck/ovhd/fire.md)
 |                  |                                  |        |            |             |                                          |
 | ENG 1 AGENT 2    | A32NX_FIRE_ENG2_AGENT1_DISCHARGE | 0 -> 1 | R/W        | Custom LVAR | Press Fire button first. Can't be reset. |
 
+### Fuel Panel
+
+Flight Deck: [Fuel Panel](flight-deck/ovhd/fuel.md)
+
+!!! note "The below table shows the API for PUMP 1. Replace `1` with `2..6` for the other pumps."
+    L1=2, L2=5. C1=1, C2=4, R1=3, R2=6
+
+| Function    | API Usage                 | Values | Read/Write | Type       | Remark |
+|:------------|:--------------------------|:-------|:-----------|:-----------|:-------|
+| Fuel Pump 1 | FUELSYSTEM_PUMP_TOGGLE    | 1..6   | -          | MSFS EVENT |        |
+|             | FUELSYSTEM PUMP ACTIVE:1  | 0 \| 1 | R          | MSFS VAR   |        |
+|             | FUELSYSTEM PUMP SWITCH:1  | 0 \| 1 | R          | MSFS VAR   |        |
+|             |                           |        |            |            |        |
+| X FEED      | FUELSYSTEM_VALVE_TOGGLE   | 3      | -          | MSFS EVENT |        |
+|             | FUELSYSTEM VALVE SWITCH:3 | 0 \| 1 | R          | MSFS VAR   |        |
+|             |                           |        |            |            |        |
+| MODE SEL    | N/A                       |        |            |            |        |
