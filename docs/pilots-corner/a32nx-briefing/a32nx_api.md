@@ -13,6 +13,8 @@ hide:
 
     If you find any errors please report them on our [:fontawesome-brands-discord:{: .discord } - **Discord**](https://discord.gg/flybywire){target=new} in the **#support** channel.
 
+The order of the panels below is roughly done after the standard cold & dark setup procedure.
+
 ## ELEC Panel
 
 Flight Deck:  [ELEC Panel](flight-deck/ovhd/elec.md)
@@ -154,3 +156,31 @@ Flight Deck: [ADIRS Panel](flight-deck/ovhd/adirs.md)
 | Remaining Alignment Time | A32NX_ADIRS_REMAINING_IR_ALIGNMENT_TIME  | seconds | R          | Custom LVAR |                      |
 |                          |                                          |         |            |             |                      |
 | ON BAT light             | A32NX_OVHD_ADIRS_ON_BAT_IS_ILLUMINATED   | 0 \| 1  | R          | Custom LVAR |                      |
+
+## APU Panel
+
+Flight Deck: [APU Panel](flight-deck/ovhd/apu.md)
+
+| Function  | API Usage                                | Values | Read/Write | Type        | Remark |
+|:----------|:-----------------------------------------|:-------|:-----------|:------------|:-------|
+| MASTER SW | A32NX_OVHD_APU_MASTER_SW_PB_IS_ON        | 0 \| 1 | R/W        | Custom LVAR |        |
+|           | A32NX_OVHD_APU_MASTER_SW_PB_HAS_FAULT    | 0 \| 1 | R          | Custom LVAR |        |
+|           |                                          |        |            |             |        |
+| START     | A32NX_OVHD_APU_MASTER_SW_PB_IS_ON        | 0 \| 1 | R/W        | Custom LVAR |        |
+|           | A32NX_OVHD_APU_MASTER_SW_PB_IS_AVAILABLE | 0 \| 1 | R          | Custom LVAR |        |
+
+!!! note "Search for APU in our [list for all Custom LVARS](https://github.com/flybywiresim/a32nx/blob/master/docs/a320-simvars.md){target=new} for further variables."
+
+## RCDR Panel
+
+Flight Deck: [RCDR Panel](flight-deck/ovhd/voice-recorder.md)
+
+| Function  | API Usage                    | Values | Read/Write | Type        | Remark |
+|:----------|:-----------------------------|:-------|:-----------|:------------|:-------|
+| GND CTL   | A32NX_RCDR_GROUND_CONTROL_ON | 0 \| 1 | R/W        | Custom LVAR |        |
+|           |                              |        |            |             |        |
+| CVR ERASE | N/A                          |        |            |             |        |
+|           |                              |        |            |             |        |
+| CVR TEST  | A32NX_RCDR_TEST              | 0 \| 1 | R/W        | Custom LVAR |        |
+|           |                              |        |            |             |        |
+|           |                              |        |            |             |        |
