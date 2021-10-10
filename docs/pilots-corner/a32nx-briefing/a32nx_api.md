@@ -15,7 +15,7 @@ hide:
 
 ## ELEC Panel
 
-Back to [ELEC Panel](flight-deck/ovhd/elec.md)
+Flight Deck:  [ELEC Panel](flight-deck/ovhd/elec.md)
 
 | Function    | API Usage                                 | Values | Read/Write | Type             | Remark                                     |
 |:------------|:------------------------------------------|:-------|:-----------|:-----------------|:-------------------------------------------|
@@ -66,7 +66,7 @@ Back to [ELEC Panel](flight-deck/ovhd/elec.md)
 
 ## External Lights Panel
 
-Back to [EXT LT Panel](flight-deck/ovhd/ext-lt.md)
+Flight Deck:  [EXT LT Panel](flight-deck/ovhd/ext-lt.md)
 
 | Function     | API Usage             | Values | Read/Write | Type             | Remark                              |
 |:-------------|:----------------------|:-------|:-----------|:-----------------|:------------------------------------|
@@ -109,13 +109,29 @@ Back to [EXT LT Panel](flight-deck/ovhd/ext-lt.md)
 
 ## Interior Lights Panel
 
-Back to [INT LT Panel](flight-deck/ovhd/int-lt.md)
+Flight Deck: [INT LT Panel](flight-deck/ovhd/int-lt.md)
 
 | Function               | API Usage              | Values | Read/Write | Type             | Remark               |
 |:-----------------------|:-----------------------|:-------|:-----------|:-----------------|:---------------------|
 | OVHD INTEG Lt          | LIGHT POTENTIOMETER:86 | 0..100 | R/W        | MSFS VAR         |                      |
+|                        |                        |        |            |                  |                      |
 | ICE IND & STBY COMPASS | N/A                    |        |            |                  |                      |
+|                        |                        |        |            |                  |                      |
 | DOME                   | TOGGLE_CABIN_LIGHTS    | -      | -          | SIMCONNECT EVENT | Toggle OFF-DIM-BRT   |
 |                        | LIGHT POTENTIOMETER:7  | 0..100 | R/W        | MSFS VAR         |                      |
+|                        |                        |        |            |                  |                      |
 | ANN LT                 | A32NX_OVHD_INTLT_ANN   | 0..2   | R/W        | Custom LVAR      | 2=DIM, 1=BRT, 0=TEST |
+
+## Signs Panel
+
+Flight Deck: [Signs Panel](flight-deck/ovhd/signs.md)
+
+| Function     | API Usage                                    | Values | Read/Write | Type             | Remark              |
+|:-------------|:---------------------------------------------|:-------|:-----------|:-----------------|:--------------------|
+| SEAT BELTS   | CABIN_SEATBELTS_ALERT_SWITCH_TOGGLE          | -      | -          | SIMCONNECT EVENT |                     |
+|              | CABIN SEATBELTS ALERT SWITCH                 | 0 \| 1 | R          | SIMCONNECT VAR   |                     |
+|              |                                              |        |            |                  |                     |
+| NO SMOKING   | XMLVAR_SWITCH_OVHD_INTLT_NONSMOKING_POSITION | 0..2   | R/W        | Custom LVAR      | 0=ON, 1=AUTO, 2=OFF |
+|              |                                              |        |            |                  |                     |
+| EMER EXIT LT | XMLVAR_SWITCH_OVHD_INTLT_EMEREXIT_POSITION   | 0..2   | R/W        | Custom LVAR      | 0=ON, 1=AUTO, 2=OFF |
 
