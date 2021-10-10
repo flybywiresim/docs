@@ -135,3 +135,22 @@ Flight Deck: [Signs Panel](flight-deck/ovhd/signs.md)
 |              |                                              |        |            |                  |                     |
 | EMER EXIT LT | XMLVAR_SWITCH_OVHD_INTLT_EMEREXIT_POSITION   | 0..2   | R/W        | Custom LVAR      | 0=ON, 1=AUTO, 2=OFF |
 
+## ADIRS Panel
+
+Flight Deck: [ADIRS Panel](flight-deck/ovhd/adirs.md)
+
+!!! note "The below table shows the API for ADIR 1. It is identical for 2 and 3."
+
+| Function                 | API Usage                                | Values  | Read/Write | Type        | Remark               |
+|:-------------------------|:-----------------------------------------|:--------|:-----------|:------------|:---------------------|
+| ADIR 1 knob              | A32NX_OVHD_ADIRS_IR_1_MODE_SELECTOR_KNOB | 0..2    | R/W        | Custom LVAR | 0=OFF, 1=NAV, 2=ATT  |
+|                          |                                          |         |            |             |                      |
+| IR 1                     | A32NX_OVHD_ADIRS_IR_1_PB_IS_ON           | 0 \| 1  | R/W        | Custom LVAR |                      |
+|                          | A32NX_OVHD_ADIRS_IR_1_PB_HAS_FAULT       | 0 \| 1  | R          | Custom LVAR |                      |
+|                          |                                          |         |            |             |                      |
+| ADR 1                    | A32NX_OVHD_ADIRS_ADR_1_PB_IS_ON          | 0 \| 1  | R/W        | Custom LVAR |                      |
+|                          | A32NX_OVHD_ADIRS_ADR_1_PB_HAS_FAULT      | 0 \| 1  | R          | Custom LVAR |                      |
+|                          |                                          |         |            |             |                      |
+| Remaining Alignment Time | A32NX_ADIRS_REMAINING_IR_ALIGNMENT_TIME  | seconds | R          | Custom LVAR |                      |
+|                          |                                          |         |            |             |                      |
+| ON BAT light             | A32NX_OVHD_ADIRS_ON_BAT_IS_ILLUMINATED   | 0 \| 1  | R          | Custom LVAR |                      |
