@@ -240,3 +240,42 @@ Flight Deck: [Fuel Panel](flight-deck/ovhd/fuel.md)
 |             | FUELSYSTEM VALVE SWITCH:3 | 0 \| 1 | R          | MSFS VAR   |        |
 |             |                           |        |            |            |        |
 | MODE SEL    | N/A                       |        |            |            |        |
+
+### Air Condition Panel
+
+Flight Deck: [AC Panel](flight-deck/ovhd/ac.md)
+
+| Function       | API Usage                                                 | Values | Read/Write | Type        | Remark       |
+|:---------------|:----------------------------------------------------------|:-------|:-----------|:------------|:-------------|
+| APU BLEED      | A32NX_OVHD_PNEU_APU_BLEED_PB_IS_ON                        | 0 \| 1 | R/W        | Custom LVAR |              |
+|                |                                                           |        |            |             |              |
+| ENG 1 BLEED    | ENGINE_BLEED_AIR_SOURCE_TOGGLE                            | 1      | -          | MSFS EVENT  |              |
+|                | XMLVAR_MOMENTARY_PUSH_<br/>OVHD_AIRCOND_ENG1BLEED_PRESSED | 0 \| 1 | R          | Custom LVAR |              |
+|                |                                                           |        |            |             |              |
+| ENG 2 BLEED    | ENGINE_BLEED_AIR_SOURCE_TOGGLE                            | 2      | -          | Custom LVAR |              |
+|                | XMLVAR_MOMENTARY_PUSH_<br/>OVHD_AIRCOND_ENG2BLEED_PRESSED      | 0 \| 1 | R          | Custom LVAR |              |
+|                |                                                           |        |            |             |              |
+| X BLEED knob   | A32NX_KNOB_OVHD_AIRCOND_XBLEED_POSITION                   | 0..2   | R/W        | Custom LVAR |              |
+|                |                                                           |        |            |             |              |
+| PACK 1         | A32NX_AIRCOND_PACK1_TOGGLE                                | 0 \| 1 | R/W        | Custom LVAR |              |
+|                | A32NX_AIRCOND_PACK2_FAULT                                 | 0 \| 1 | R/W        | Custom LVAR |              |
+|                |                                                           |        |            |             |              |
+| PACK 2         | A32NX_AIRCOND_PACK2_TOGGLE                                | 0 \| 1 | R/W        | Custom LVAR |              |
+|                | A32NX_AIRCOND_PACK2_FAULT                                 | 0 \| 1 | R/W        | Custom LVAR |              |
+|                |                                                           |        |            |             |              |
+| PACK FLOW knob | A32NX_KNOB_OVHD_AIRCOND_PACKFLOW_POSITION                 | 0 \| 1 | R/W        | Custom LVAR |              |
+|                |                                                           |        |            |             |              |
+| COCKPIT knob   | A32NX_CKPT_TRIM_TEMP                                      | 18..30 | R          | Custom LVAR |              |
+|                | A32NX_CKPT_TEMP                                           | 18..30 | R          | Custom LVAR |              |
+|                |                                                           |        |            |             |              |
+| FWD CABIN knob | A32NX_FWD_TRIM_TEMP                                       | 18..30 | R          | Custom LVAR |              |
+|                | A32NX_FWD_TEMP                                            | 18..30 | R          | Custom LVAR |              |
+|                |                                                           |        |            |             |              |
+| AFT CABIN knob | A32NX_AFT_TRIM_TEMP                                       | 18..30 | R          | Custom LVAR |              |
+|                | A32NX_AFT_TEMP                                            | 18..30 | R          | Custom LVAR |              |
+|                |                                                           |        |            |             |              |
+| HOT AIR        | A32NX_AIRCOND_HOTAIR_TOGGLE                               | 0 \| 1 | R/W        | Custom LVAR |              |
+|                | A32NX_AIRCOND_HOTAIR_FAULT                                | 0 \| 1 | R/W        | Custom LVAR |              |
+|                |                                                           |        |            |             |              |
+| RAM AIR        | A32NX_AIRCOND_RAMAIR_TOGGLE_LOCK                          | 0 \| 1 | R          | Custom LVAR | Switch Guard |
+|                | A32NX_AIRCOND_RAMAIR_TOGGLE                               | 0 \| 1 | R/W        | Custom LVAR |              |
