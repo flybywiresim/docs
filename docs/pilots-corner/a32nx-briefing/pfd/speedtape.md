@@ -90,7 +90,7 @@ The top of the red and black strip along the speed scale represents this speed. 
 
 ### Decision Speed (V~1~)
 
-It is sown as blue numeral one (1) at a speed that the pilot inserted manually in the takeoff performance page in the MCDU. When it is off the scale, the upper part of the scale shows the speed in numbers. It disappears after liftoff.
+It is shown as blue numeral one (1) at a speed that the pilot inserted manually in the takeoff performance page in the MCDU. When it is off the scale, the upper part of the scale shows the speed in numbers. It disappears after liftoff.
 
 ### Minimum Flap Retraction Speed (F)
 
