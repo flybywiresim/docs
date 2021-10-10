@@ -182,5 +182,15 @@ Flight Deck: [RCDR Panel](flight-deck/ovhd/voice-recorder.md)
 | CVR ERASE | N/A                          |        |            |             |        |
 |           |                              |        |            |             |        |
 | CVR TEST  | A32NX_RCDR_TEST              | 0 \| 1 | R/W        | Custom LVAR |        |
-|           |                              |        |            |             |        |
-|           |                              |        |            |             |        |
+
+## OXYGEN Panel
+
+Flight Deck: [OXYGEN Panel](flight-deck/ovhd/oxygen.md)
+
+| Function    | API Usage                       | Values | Read/Write | Type        | Remark |
+|:------------|:--------------------------------|:-------|:-----------|:------------|:-------|
+| MASK MAN ON | A32NX_OXYGEN_MASKS_DEPLOYED     | 0 \| 1 | R/W        | Custom LVAR |        |
+|             |                                 |        |            |             |        |
+| PASSENGER   | A32NX_OXYGEN_PASSENGER_LIGHT_ON | 0 \| 1 | R/W        | Custom LVAR |        |
+|             |                                 |        |            |             |        |
+| CREW SUPPLY | PUSH_OVHD_OXYGEN_CREW           | 0 \| 1 | R/W        | Custom LVAR |        |
