@@ -110,7 +110,14 @@ This is a blue dot on the right side of the speedtape. It displays the speed at 
 
 ### V~2~
 
-This is a magenta triangle on the right side of the speedtape. It displays the V~2~ speed which has been set in the TAKE OFF PERF page of the MCDU. This is the speed the aircraft needs to maintain at a minimum up to the acceleration altitude.
+This is a magenta triangle on the right side of the speedtape. It displays the V~2~ speed which has been set in the TAKE OFF PERF page of the MCDU. V~2~ is the minimum speed that needs to be maintained in the even to of an engine failure after V~1~ up to acceleration altitude.
+
+V~2~+10 provides the best climb performance (before acceleration altitude + during NAPs).
+
+!!! info "Engine Loss V~2~ Speeds"
+    After takeoff **V~2~+10** is the targeted speed you should reach and maintain by the time you attain a height of 35 FT after takeoff with an engine failure until reaching the acceleration altitude. Pilots should not degrade to V~2~ after an engine failure but rather maintain the speed at point of engine loss where V~2~ is the minimum allowable speed.
+
+
 
 ---
 
