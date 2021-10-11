@@ -8,6 +8,8 @@
 
 ![Flight Control Unit (FCU)](../../../assets/a32nx-briefing/glareshield/FCU.jpg "Flight Control Unit (FCU)")
 
+!!! note "API Documentation: [FCU Panel](../../a32nx_api.md#fcu-panel)"
+
 ## Description
 
 The Flight Control Unit (FCU) provides short-term interface between the Flight Management and Guidance Computer (FMGC) and the flight crew for:
