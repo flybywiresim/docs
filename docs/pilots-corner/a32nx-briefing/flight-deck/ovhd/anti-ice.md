@@ -8,6 +8,8 @@
 
 ![Anti Ice Panel](../../../assets/a32nx-briefing/overhead-panel/Anti-Ice-Panel.jpg "Anti Ice Panel")
 
+!!! note "API Documentation: [Anit Ice Panel API](../../a32nx_api.md#anit-ice-panel)"
+
 ---
 
 ## Description

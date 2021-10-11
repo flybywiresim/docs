@@ -253,7 +253,7 @@ Flight Deck: [AC Panel](flight-deck/ovhd/ac.md)
 |                | XMLVAR_MOMENTARY_PUSH_<br/>OVHD_AIRCOND_ENG1BLEED_PRESSED | 0 \| 1 | R          | Custom LVAR |              |
 |                |                                                           |        |            |             |              |
 | ENG 2 BLEED    | ENGINE_BLEED_AIR_SOURCE_TOGGLE                            | 2      | -          | Custom LVAR |              |
-|                | XMLVAR_MOMENTARY_PUSH_<br/>OVHD_AIRCOND_ENG2BLEED_PRESSED      | 0 \| 1 | R          | Custom LVAR |              |
+|                | XMLVAR_MOMENTARY_PUSH_<br/>OVHD_AIRCOND_ENG2BLEED_PRESSED | 0 \| 1 | R          | Custom LVAR |              |
 |                |                                                           |        |            |             |              |
 | X BLEED knob   | A32NX_KNOB_OVHD_AIRCOND_XBLEED_POSITION                   | 0..2   | R/W        | Custom LVAR |              |
 |                |                                                           |        |            |             |              |
@@ -279,3 +279,24 @@ Flight Deck: [AC Panel](flight-deck/ovhd/ac.md)
 |                |                                                           |        |            |             |              |
 | RAM AIR        | A32NX_AIRCOND_RAMAIR_TOGGLE_LOCK                          | 0 \| 1 | R          | Custom LVAR | Switch Guard |
 |                | A32NX_AIRCOND_RAMAIR_TOGGLE                               | 0 \| 1 | R/W        | Custom LVAR |              |
+
+### Anit Ice Panel
+
+Flight Deck: [Anti Ice Panel](flight-deck/ovhd/anti-ice.md)
+
+| Function          | API Usage                                            | Values | Read/Write | Type             | Remark                  |
+|:------------------|:-----------------------------------------------------|:-------|:-----------|:-----------------|:------------------------|
+| WING              | TOGGLE_STRUCTURAL_DEICE                              | -      | -          | SIMCONNECT EVENT | Function & Button light |
+|                   | STRUCURAL DEICE SWITCH                               | 0 \| 1 | R/W        | SIMCONNECT VAR   | Function & Button light            |
+|                   | XMLVAR_MOMENTARY_PUSH_OVHD_<br/>ANTIICE_WING_PRESSED | 0 \| 1 | R/W        | Custom LVAR      | Button state            |
+|                   |                                                      |        |            |                  |                         |
+| ENG 1             | ANTI_ICE_TOGGLE_ENG1                                 | -      | -          | SIMCONNECT EVENT | Function & Button light            |
+|                   | ENG ANTI ICE:1                                       | 0 \| 1 | R/W        | SIMCONNECT VAR   | Function & Button light            |
+|                   | XMLVAR_MOMENTARY_PUSH_OVHD_<br/>ANTIICE_ENG1_PRESSED | 0 \| 1 | R/W        | Custom LVAR      | Button state            |
+|                   |                                                      |        |            |                  |                         |
+| ENG 2             | ANTI_ICE_TOGGLE_ENG2                                 | -      | -          | SIMCONNECT EVENT | Function & Button light            |
+|                   | ENG ANTI ICE:2                                       | 0 \| 1 | R/W        | SIMCONNECT VAR   | Function & Button light            |
+|                   | XMLVAR_MOMENTARY_PUSH_OVHD_<br/>ANTIICE_ENG2_PRESSED | 0 \| 1 | R/W        | Custom LVAR      | Button state            |
+|                   |                                                      |        |            |                  |                         |
+| PROBE/WINDOW HEAT | A32NX_MAN_PITOT_HEAT                                 | 0 \| 1 | R/W        | Custom LVAR      | Function & Button light            |
+|                   | XMLVAR_MOMENTARY_PUSH_OVHD_<br/>PROBESWINDOW_PRESSED | 0 \| 1 | R/W        | Custom LVAR      | Button state            |
