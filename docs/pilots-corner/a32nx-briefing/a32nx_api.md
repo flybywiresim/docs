@@ -303,6 +303,20 @@ Flight Deck: [Anti Ice Panel](flight-deck/ovhd/anti-ice.md)
 
 ## Glareshield
 
+### Lighting Knobs
+
+Flight Deck: [Glareshield Lighting Knobs](flight-deck/glareshield/light-knobs.md)
+
+| Function                    | API Usage              | Values | Read/Write | Type     | Remark |
+|:----------------------------|:-----------------------|:-------|:-----------|:---------|:-------|
+| Glareshield Integral Lights | LIGHT POTENTIOMETER:84 | 0..100 | R/W        | MSFS VAR |        |
+|                             |                        |        |            |          |        |
+| Glareshield LCD Lights      | LIGHT POTENTIOMETER:87 | 0..100 | R/W        | MSFS VAR |        |
+|                             |                        |        |            |          |        |
+| Table Light Capt.           | LIGHT POTENTIOMETER:10 | 0..100 | R/W        | MSFS VAR |        |
+|                             |                        |        |            |          |        |
+| Table Light F.O.            | LIGHT POTENTIOMETER:11 | 0..100 | R/W        | MSFS VAR |        |
+
 ## Instrument Panel
 
 ### Instrument Lighting Control Panel
@@ -349,5 +363,35 @@ Flight Deck: [Lighting Pedestal Cpt. Side Panel](flight-deck/pedestal/lighting-c
 | INTEG LT      | LIGHT POTENTIOMETER:85 | 0..100 | R/W        | MSFS VAR |              |
 |               |                        |        |            |          |              |
 | FLOOD LT F.O. | LIGHT POTENTIOMETER:76 | 0..100 | R/W        | MSFS VAR | On F.O. side |
+
+### ECAM Control Panel
+
+Flight Deck: [ECAM Control Panel](flight-deck/pedestal/ecam-control.md)
+
+| Function      | API Usage              | Values | Read/Write | Type     | Remark |
+|:--------------|:-----------------------|:-------|:-----------|:---------|:-------|
+| Upper Display | LIGHT POTENTIOMETER:92 | 0..100 | R/W        | MSFS VAR |        |
+|               |                        |        |            |          |        |
+| Lower Display | LIGHT POTENTIOMETER:93 | 0..100 | R/W        | MSFS VAR |        |
+
+### MCDU
+
+Flight Deck: [MCDU Panel](flight-deck/pedestal/mcdu.md)
+
+!!! note "The below table shows the API for left MCDU. Replace `L` with `R` for the right MCDU."
+
+| Function    | API Usage               | Values | Read/Write | Type     | Remark |
+|:------------|:------------------------|:-------|:-----------|:---------|:-------|
+| BRT / DIM L | A32NX_MCDU_L_BRIGHTNESS | 0..100 | R/W        | MSFS VAR |        |
+
+# DCDU
+
+Flight Deck: [DCDU Panel](flight-deck/front/dcdu.md)
+
+note "The below table shows the API for left DCDU. Replace `L` with `R` for the right DCDU."
+
+| Function    | API Usage                     | Values | Read/Write | Type     | Remark |
+|:------------|:------------------------------|:-------|:-----------|:---------|:-------|
+| BRT / DIM L | A32NX_PANEL_DCDU_L_BRIGHTNESS | 0..100 | R/W        | MSFS VAR |        |
 
 

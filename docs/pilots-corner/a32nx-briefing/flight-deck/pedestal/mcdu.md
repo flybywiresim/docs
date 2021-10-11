@@ -8,6 +8,8 @@
 
 ![Multipurpose Control and Display Unit](../../../assets/a32nx-briefing/pedestal/mcdu.jpg "Multipurpose Control and Display Unit")
 
+!!! note "API Documentation: [MCDU Panel API](../../a32nx_api.md#mcdu)"
+
 ## Description
 
 The MCDU is the main interface for the flight crew to the FMGC (Flight Management Guidance Computer). There are two MCDUs installed in the A320.

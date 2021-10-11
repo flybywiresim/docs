@@ -8,6 +8,7 @@
 
 ![Lighting Knob](../../../assets/a32nx-briefing/glareshield/Lighting-Knob.jpg "Lighting Knob")
 
+!!! note "API Documentation: [Lighting Knobs API](../../a32nx_api.md#lighting-knobs)"
 
 ## Description
 
