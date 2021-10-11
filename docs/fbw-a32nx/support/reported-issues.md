@@ -70,6 +70,21 @@ If you see old versions (e.g. v0.6.1) or if you have multiple installations of t
 
 Information on how to install with the FlyByWire Installer can be found here: [Installation Guide](../installation.md).
 
+#### Ailerons are not working when using the keyboard
+
+!!! tip ""
+    *Affected versions: Stable, Development*
+
+    **Note:** This is reported on our [Autopilot / Fly-By-Wire Page](../feature-guides/autopilot-fbw.md) and duplicated here for visibility.
+
+There is currently an issue with the associated events and there is **currently no way to solve it**. We highly recommend using a controller with an axis assigned to use the plane.
+
+Workaround:
+
+- A possible workaround is by using a tool like FSUIPC. Assign the correct events to the keys you want to use. The events that work are (mind the 's' behind aileron):
+    - AILERONS_LEFT
+    - AILERONS_RIGHT
+
 #### Fuel Consumption
 
 !!! tip ""
