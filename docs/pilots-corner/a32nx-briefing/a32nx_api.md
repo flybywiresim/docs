@@ -300,3 +300,24 @@ Flight Deck: [Anti Ice Panel](flight-deck/ovhd/anti-ice.md)
 |                   |                                                      |        |            |                  |                         |
 | PROBE/WINDOW HEAT | A32NX_MAN_PITOT_HEAT                                 | 0 \| 1 | R/W        | Custom LVAR      | Function & Button light            |
 |                   | XMLVAR_MOMENTARY_PUSH_OVHD_<br/>PROBESWINDOW_PRESSED | 0 \| 1 | R/W        | Custom LVAR      | Button state            |
+
+## Instrument Panel
+
+### Instrument Lighting Control Panel
+
+Flight Deck: [ILCP Panel](flight-deck/front/ilcp.md)
+
+| Function       | API Usage              | Values    | Read/Write | Type     | Remark |
+|:---------------|:-----------------------|:----------|:-----------|:---------|:-------|
+| PFD Brt        | LIGHT POTENTIOMETER:88 | 0..100    | R/W        | MSFS VAR |        |
+|                |                        |           |            |          |        |
+| PFD/ND XFR     | N/A                    |           |            |          |        |
+|                |                        |           |            |          |        |
+| ND Brt         | LIGHT POTENTIOMETER:89 | 0..100    | R/W        | MSFS VAR |        |
+|                |                        |           |            |          |        |
+| WX/Terrain Brt | LIGHT POTENTIOMETER:94 | 0..100    | R/W        | MSFS VAR |        |
+|                |                        |           |            |          |        |
+| Loud Spkr      | N/A                    |           |            |          |        |
+|                |                        |           |            |          |        |
+| CONSOLE/FLOOR  | LIGHT POTENTIOMETER:8  | 50 \| 100 | R/W        | MSFS VAR |        |
+
