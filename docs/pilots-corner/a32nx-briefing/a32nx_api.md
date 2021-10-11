@@ -317,6 +317,18 @@ Flight Deck: [Glareshield Lighting Knobs](flight-deck/glareshield/light-knobs.md
 |                             |                        |        |            |          |        |
 | Table Light F.O.            | LIGHT POTENTIOMETER:11 | 0..100 | R/W        | MSFS VAR |        |
 
+### Warning Panel
+
+!!! error "TODO"
+
+### EIS Control Panel
+
+!!! error "TODO"
+
+### FCU Panel
+
+!!! error "TODO"
+
 ## Instrument Panel
 
 ### Instrument Lighting Control Panel
@@ -349,8 +361,86 @@ Flight Deck: [ILCP Panel](flight-deck/front/ilcp.md)
 |                     |                        |           |            |          |        |
 | CONSOLE/FLOOR F.O.  | LIGHT POTENTIOMETER:9  | 50 \| 100 | R/W        | MSFS VAR |        |
 
+### Autobrake, Gear Lever and Gear Annunciation
+
+Flight Deck: [Autobrake and Gear Panel](flight-deck/front/autobrake-gear.md)
+
+| Function              | API Usage                   | Values | Read/Write | Type             | Remark                    |
+|:----------------------|:----------------------------|:-------|:-----------|:-----------------|:--------------------------|
+| Gear lever            | GEAR_UP                     | -      | -          | SIMCONNECT EVENT |                           |
+|                       | GEAR_DOWN                   | -      | -          | SIMCONNECT EVENT |                           |
+|                       | GEAR HANDLE POSITION        | 0 \| 1 | R/W        | SIMCONNECT VAR   |                           |
+|                       |                             |        |            |                  |                           |
+| LDG GEAR Annunciators | GEAR LEFT POSITION          | 0..100 | R          | SIMCONNECT VAR   |                           |
+|                       | GEAR CENTER POSITION        | 0..100 | R          | SIMCONNECT VAR   |                           |
+|                       | GEAR RIGHT POSITION         | 0..100 | R          | SIMCONNECT VAR   |                           |
+|                       |                             |        |            |                  |                           |
+| AUTO BRK LO/MED/MAX   | A32NX_AUTOBRAKE_ARMED_MODE  | 0..3   | R/W        | Custom LVAR      | 0=OFF, 1=LO, 2=MED, 3=MAX |
+|                       |                             |        |            |                  |                           |
+| BRK FAN               | A32NX_BRAKE_FAN_BTN_PRESSED | 0 \| 1 | R/W        | Custom LVAR      |                           |
+|                       |                             |        |            |                  |                           |
+| A/SKID & N/W STRG     | ANTISKID_BRAKES_TOGGLE      | -      | -          | SIMCONNECT EVENT |                           |
+|                       | ANTISKID BRAKES ACTIVE      | 0 \| 1 | R/W        | SIMCONNECT VAR   |                           |
+
+### ISIS
+
+Flight Deck: [ISIS Panel](flight-deck/front/isis.md)
+
+| Function   | API Usage             | Values | Read/Write | Type        | Remark                                      |
+|:-----------|:----------------------|:-------|:-----------|:------------|:--------------------------------------------|
+| BRIGHTNESS | A32NX_BARO_BRIGHTNESS | 0..100 | R/W        | Custom LVAR | Auto-brightness - will automatically change |
+
+### Clock
+
+!!! error "TODO"
+
+### TERR ON ND
+
+!!! error "TODO"
+
+### DCDU
+
+Flight Deck: [DCDU Panel](flight-deck/front/dcdu.md)
+
+note "The below table shows the API for left DCDU. Replace `L` with `R` for the right DCDU."
+
+| Function    | API Usage                     | Values | Read/Write | Type     | Remark |
+|:------------|:------------------------------|:-------|:-----------|:---------|:-------|
+| BRT / DIM L | A32NX_PANEL_DCDU_L_BRIGHTNESS | 0..100 | R/W        | MSFS VAR |        |
 
 ## Pedestal
+
+### MCDU Panel
+
+Flight Deck: [MCDU Panel](flight-deck/pedestal/mcdu.md)
+
+!!! note "The below table shows the API for left MCDU. Replace `L` with `R` for the right MCDU."
+
+| Function    | API Usage               | Values | Read/Write | Type     | Remark |
+|:------------|:------------------------|:-------|:-----------|:---------|:-------|
+| BRT / DIM L | A32NX_MCDU_L_BRIGHTNESS | 0..100 | R/W        | MSFS VAR |        |
+
+### Switching Panel
+
+!!! error "TODO"
+
+### ECAM Control Panel
+
+Flight Deck: [ECAM Control Panel](flight-deck/pedestal/ecam-control.md)
+
+| Function      | API Usage              | Values | Read/Write | Type     | Remark |
+|:--------------|:-----------------------|:-------|:-----------|:---------|:-------|
+| Upper Display | LIGHT POTENTIOMETER:92 | 0..100 | R/W        | MSFS VAR |        |
+|               |                        |        |            |          |        |
+| Lower Display | LIGHT POTENTIOMETER:93 | 0..100 | R/W        | MSFS VAR |        |
+
+### Thrust Lever and Trim Wheel
+
+!!! error "TODO"
+
+### RMP
+
+!!! error "TODO"
 
 ### Lighting Pedestal Captain Side Panel
 
@@ -364,34 +454,38 @@ Flight Deck: [Lighting Pedestal Cpt. Side Panel](flight-deck/pedestal/lighting-c
 |               |                        |        |            |          |              |
 | FLOOD LT F.O. | LIGHT POTENTIOMETER:76 | 0..100 | R/W        | MSFS VAR | On F.O. side |
 
-### ECAM Control Panel
+### WX Radar
 
-Flight Deck: [ECAM Control Panel](flight-deck/pedestal/ecam-control.md)
+!!! error "TODO"
 
-| Function      | API Usage              | Values | Read/Write | Type     | Remark |
-|:--------------|:-----------------------|:-------|:-----------|:---------|:-------|
-| Upper Display | LIGHT POTENTIOMETER:92 | 0..100 | R/W        | MSFS VAR |        |
-|               |                        |        |            |          |        |
-| Lower Display | LIGHT POTENTIOMETER:93 | 0..100 | R/W        | MSFS VAR |        |
+### ATC-TCAS
 
-### MCDU
+!!! error "TODO"
 
-Flight Deck: [MCDU Panel](flight-deck/pedestal/mcdu.md)
+### ENG Panel
 
-!!! note "The below table shows the API for left MCDU. Replace `L` with `R` for the right MCDU."
+!!! error "TODO"
 
-| Function    | API Usage               | Values | Read/Write | Type     | Remark |
-|:------------|:------------------------|:-------|:-----------|:---------|:-------|
-| BRT / DIM L | A32NX_MCDU_L_BRIGHTNESS | 0..100 | R/W        | MSFS VAR |        |
+### Speed Brake
 
-# DCDU
+!!! error "TODO"
 
-Flight Deck: [DCDU Panel](flight-deck/front/dcdu.md)
+### Flaps
 
-note "The below table shows the API for left DCDU. Replace `L` with `R` for the right DCDU."
+!!! error "TODO"
 
-| Function    | API Usage                     | Values | Read/Write | Type     | Remark |
-|:------------|:------------------------------|:-------|:-----------|:---------|:-------|
-| BRT / DIM L | A32NX_PANEL_DCDU_L_BRIGHTNESS | 0..100 | R/W        | MSFS VAR |        |
+### Parking Brake
 
+!!! error "TODO"
 
+### Rudder Trim
+
+!!! error "TODO"
+
+### Cockpit Door
+
+!!! error "TODO"
+
+## Flight Stick
+
+!!! error "TODO"
