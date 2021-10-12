@@ -8,6 +8,8 @@
 
 ![Calls Panel](../../../assets/a32nx-briefing/overhead-panel/Calls-Panel.jpg "Calls Panel")
 
+!!! note "API Documentation: [Calls Panel](../../a32nx_api.md#calls-panel)"
+
 ## Description
 
 - The calls panel will allow the cockpit to initiate calls to the flight attendants via the cabin interphone system, and the ground crew via the flight interphone system.

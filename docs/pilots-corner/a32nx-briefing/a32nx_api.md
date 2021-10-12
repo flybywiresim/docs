@@ -310,6 +310,23 @@ Flight Deck: [Anti Ice Panel](flight-deck/ovhd/anti-ice.md)
 | PROBE/WINDOW HEAT | A32NX_MAN_PITOT_HEAT                                 | 0 \| 1 | R/W        | Custom LVAR      | Function & Button light            |
 |                   | XMLVAR_MOMENTARY_PUSH_OVHD_<br/>PROBESWINDOW_PRESSED | 0 \| 1 | R/W        | Custom LVAR      | Button state            |
 
+### Calls Panel
+
+Flight Deck: [Calls Panel](flight-deck/ovhd/calls.md)
+
+| Function | API Usage                | Values | Read/Write | Type        | Remark |
+|:---------|:-------------------------|:-------|:-----------|:------------|:-------|
+| MECH     | PUSH_OVHD_CALLS_MECH     | 0 \| 1 | R/W        | Custom LVAR |        |
+|          |                          |        |            |             |        |
+| ALL      | PUSH_OVHD_CALLS_ALL      | 0 \| 1 | R/W        | Custom LVAR |        |
+|          |                          |        |            |             |        |
+| FWD      | PUSH_OVHD_CALLS_FWD      | 0 \| 1 | R/W        | Custom LVAR |        |
+|          |                          |        |            |             |        |
+| AFT      | PUSH_OVHD_CALLS_AFT      | 0 \| 1 | R/W        | Custom LVAR |        |
+|          |                          |        |            |             |        |
+| EMER     | A32NX_CALLS_EMER_ON_LOCK | 0 \| 1 | R          | Custom LVAR |        |
+|          | A32NX_CALLS_EMER_ON      | 0 \| 1 | R/W        | Custom LVAR |        |
+
 ## Glareshield
 
 ### Lighting Knobs
