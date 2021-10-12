@@ -799,7 +799,24 @@ Flight Deck: [Lighting Pedestal Cpt. Side Panel](flight-deck/pedestal/lighting-c
 
 ### WX Radar
 
-!!! error "TODO"
+Flight Deck: [WX Radar Panel](flight-deck/pedestal/radar.md)
+
+| Function   | API Usage                       | Values | Read/Write | Type        | Remark                      |
+|:-----------|:--------------------------------|:-------|:-----------|:------------|:----------------------------|
+| SYS        | XMLVAR_A320_WEATHERRADAR_SYS    | 0..2   | R/W        | Custom LVAR | 0=1, 1=OFF, 2=2             |
+|            |                                 |        |            |             |                             |
+| PWS        | A32NX_SWITCH_RADAR_PWS_POSITION | 0 \| 1 | R/W        | Custom LVAR | 0=OFF, 1=AUTO               |
+|            |                                 |        |            |             |                             |
+| MODE       | XMLVAR_A320_WEATHERRADAR_MODE   | 0..3   | R/W        | Custom LVAR | 0=WX, 1=WX+T, 2=TURB, 3=MAP |
+|            |                                 |        |            |             |                             |
+| GAIN       | N/A                             |        |            |             |                             |
+|            |                                 |        |            |             |                             |
+| MULTISCANS | N/A                             |        |            |             |                             |
+|            |                                 |        |            |             |                             |
+| GCS        | N/A                             |        |            |             |                             |
+|            |                                 |        |            |             |                             |
+| TILT       | N/A                             |        |            |             |                             |
+
 
 ### ATC-TCAS
 
