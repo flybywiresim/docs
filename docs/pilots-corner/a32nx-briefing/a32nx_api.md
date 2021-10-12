@@ -856,7 +856,7 @@ Flight Deck: [ENG Panel](flight-deck/pedestal/engine.md)
 
 ### Speed Brake
 
-Flight Deck: [ENG Panel](flight-deck/pedestal/speedbrake.md)
+Flight Deck: [Speed Brake Panel](flight-deck/pedestal/speedbrake.md)
 
 | Function         | API Usage                      | Values   | Read/Write | Type             | Remark                           |
 |:-----------------|:-------------------------------|:---------|:-----------|:-----------------|:---------------------------------|
@@ -868,7 +868,18 @@ Flight Deck: [ENG Panel](flight-deck/pedestal/speedbrake.md)
 
 ### Flaps
 
-!!! error "TODO"
+Flight Deck: [Speed Brake Panel](flight-deck/pedestal/flaps.md)
+
+| Function   | API Usage  | Values   | Read/Write | Type              | Remark                       |
+|:-----------|:-----------|:---------|:-----------|:------------------|:-----------------------------|
+| Flaps Axis | FLAPS_SET  | 0..16384 | -          | SIMCONNECT EVENT  | 0=FLAPS UP, 16384=FLAPS FULL |
+|            | FLAPS_UP   | -        | -          | SIMCONNECT EVENT  |                              |
+|            | FLAPS_1    | -        | -          | SIMCONNECT EVENT  |                              |
+|            | FLAPS_2    | -        | -          | SIMCONNECT EVENT  |                              |
+|            | FLAPS_3    | -        | -          | SIMCONNECT EVENT  |                              |
+|            | FLAPS_DOWN | -        | -          | SIMCONNECT EVENT  |                              |
+|            | FLAPS_INC  | -        | -          | SIMCONNECT EVENT  |                              |
+|            | FLAPS_DEC  | -        | -          | SIMCONNECT EVENT  |                              |
 
 ### Parking Brake
 
