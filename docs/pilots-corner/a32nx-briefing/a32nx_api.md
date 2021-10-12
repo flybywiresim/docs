@@ -503,15 +503,18 @@ Flight Deck: [ISIS Panel](flight-deck/front/isis.md)
 |:-----------|:----------------------|:-------|:-----------|:------------|:--------------------------------------------|
 | BRIGHTNESS | A32NX_BARO_BRIGHTNESS | 0..100 | R/W        | Custom LVAR | Auto-brightness - will automatically change |
 
-!!! error "TODO"
-
 ### Clock
 
-!!! error "TODO"
+N/A
 
 ### TERR ON ND
 
-!!! error "TODO"
+Flight Deck: [ND Panel](flight-deck/front/nd.md)
+
+| Function       | API Usage             | Values | Read/Write | Type        | Remark                |
+|:---------------|:----------------------|:-------|:-----------|:------------|:----------------------|
+| TERR ON ND L+R | BTN_TERRONND_1_ACTIVE | 0 \| 1 | R/W        | Custom LVAR | (not on Experimental) |
+|                | BTN_TERRONND_2_ACTIVE | 0 \| 1 | R/W        | Custom LVAR | (not on Experimental) |
 
 ### DCDU
 
@@ -535,27 +538,219 @@ Flight Deck: [MCDU Panel](flight-deck/pedestal/mcdu.md)
 |:------------|:------------------------|:-------|:-----------|:---------|:-------|
 | BRT / DIM L | A32NX_MCDU_L_BRIGHTNESS | 0..100 | R/W        | MSFS VAR |        |
 
-!!! error "TODO"
+
+??? note "MCDU API"
+    The MCDU API is vast as it contains many buttons.
+
+    ~~Currently most of the buttons don't have a PRESSED event/var. So a complete remote control is not yet possible.~~  
+
+    - A32NX_MCDU_CLR_MinReleaseTime
+    - A32NX_MCDU_CLR_Pressed
+    - A32NX_MCDU_L_BRIGHTNESS
+    - A32NX_MCDU_R_BRIGHTNESS
+    - A32NX_MCDU_MASK_OPACITY
+
+    - A32NX_MCDU_PUSH_ANIM_1_0
+    - A32NX_MCDU_PUSH_ANIM_1_1
+    - A32NX_MCDU_PUSH_ANIM_1_2
+    - A32NX_MCDU_PUSH_ANIM_1_3
+    - A32NX_MCDU_PUSH_ANIM_1_4
+    - A32NX_MCDU_PUSH_ANIM_1_5
+    - A32NX_MCDU_PUSH_ANIM_1_6
+    - A32NX_MCDU_PUSH_ANIM_1_7
+    - A32NX_MCDU_PUSH_ANIM_1_8
+    - A32NX_MCDU_PUSH_ANIM_1_9
+    - A32NX_MCDU_PUSH_ANIM_1_A
+    - A32NX_MCDU_PUSH_ANIM_1_AIRPORT
+    - A32NX_MCDU_PUSH_ANIM_1_ATC
+    - A32NX_MCDU_PUSH_ANIM_1_B
+    - A32NX_MCDU_PUSH_ANIM_1_C
+    - A32NX_MCDU_PUSH_ANIM_1_CLR
+    - A32NX_MCDU_PUSH_ANIM_1_D
+    - A32NX_MCDU_PUSH_ANIM_1_DARROW
+    - A32NX_MCDU_PUSH_ANIM_1_DATA
+    - A32NX_MCDU_PUSH_ANIM_1_DIR
+    - A32NX_MCDU_PUSH_ANIM_1_DOT
+    - A32NX_MCDU_PUSH_ANIM_1_E
+    - A32NX_MCDU_PUSH_ANIM_1_F
+    - A32NX_MCDU_PUSH_ANIM_1_FPLN
+    - A32NX_MCDU_PUSH_ANIM_1_FUEL
+    - A32NX_MCDU_PUSH_ANIM_1_G
+    - A32NX_MCDU_PUSH_ANIM_1_H
+    - A32NX_MCDU_PUSH_ANIM_1_I
+    - A32NX_MCDU_PUSH_ANIM_1_INIT
+    - A32NX_MCDU_PUSH_ANIM_1_J
+    - A32NX_MCDU_PUSH_ANIM_1_K
+    - A32NX_MCDU_PUSH_ANIM_1_L
+    - A32NX_MCDU_PUSH_ANIM_1_L1
+    - A32NX_MCDU_PUSH_ANIM_1_L2
+    - A32NX_MCDU_PUSH_ANIM_1_L3
+    - A32NX_MCDU_PUSH_ANIM_1_L4
+    - A32NX_MCDU_PUSH_ANIM_1_L5
+    - A32NX_MCDU_PUSH_ANIM_1_L6
+    - A32NX_MCDU_PUSH_ANIM_1_LARROW
+    - A32NX_MCDU_PUSH_ANIM_1_M
+    - A32NX_MCDU_PUSH_ANIM_1_MENU
+    - A32NX_MCDU_PUSH_ANIM_1_N
+    - A32NX_MCDU_PUSH_ANIM_1_O
+    - A32NX_MCDU_PUSH_ANIM_1_OVFY
+    - A32NX_MCDU_PUSH_ANIM_1_P
+    - A32NX_MCDU_PUSH_ANIM_1_PERF
+    - A32NX_MCDU_PUSH_ANIM_1_PLUSMINUS
+    - A32NX_MCDU_PUSH_ANIM_1_PROG
+    - A32NX_MCDU_PUSH_ANIM_1_Q
+    - A32NX_MCDU_PUSH_ANIM_1_R
+    - A32NX_MCDU_PUSH_ANIM_1_R1
+    - A32NX_MCDU_PUSH_ANIM_1_R2
+    - A32NX_MCDU_PUSH_ANIM_1_R3
+    - A32NX_MCDU_PUSH_ANIM_1_R4
+    - A32NX_MCDU_PUSH_ANIM_1_R5
+    - A32NX_MCDU_PUSH_ANIM_1_R6
+    - A32NX_MCDU_PUSH_ANIM_1_RAD
+    - A32NX_MCDU_PUSH_ANIM_1_RARROW
+    - A32NX_MCDU_PUSH_ANIM_1_S
+    - A32NX_MCDU_PUSH_ANIM_1_SEC
+    - A32NX_MCDU_PUSH_ANIM_1_SLASH
+    - A32NX_MCDU_PUSH_ANIM_1_SP
+    - A32NX_MCDU_PUSH_ANIM_1_T
+    - A32NX_MCDU_PUSH_ANIM_1_U
+    - A32NX_MCDU_PUSH_ANIM_1_UARROW
+    - A32NX_MCDU_PUSH_ANIM_1_V
+    - A32NX_MCDU_PUSH_ANIM_1_W
+    - A32NX_MCDU_PUSH_ANIM_1_X
+    - A32NX_MCDU_PUSH_ANIM_1_Y
+    - A32NX_MCDU_PUSH_ANIM_1_Z
+    - A32NX_MCDU_PUSH_ANIM_2_0
+    - A32NX_MCDU_PUSH_ANIM_2_1
+    - A32NX_MCDU_PUSH_ANIM_2_2
+    - A32NX_MCDU_PUSH_ANIM_2_3
+    - A32NX_MCDU_PUSH_ANIM_2_4
+    - A32NX_MCDU_PUSH_ANIM_2_5
+    - A32NX_MCDU_PUSH_ANIM_2_6
+    - A32NX_MCDU_PUSH_ANIM_2_7
+    - A32NX_MCDU_PUSH_ANIM_2_8
+    - A32NX_MCDU_PUSH_ANIM_2_9
+    - A32NX_MCDU_PUSH_ANIM_2_A
+    - A32NX_MCDU_PUSH_ANIM_2_AIRPORT
+    - A32NX_MCDU_PUSH_ANIM_2_ATC
+    - A32NX_MCDU_PUSH_ANIM_2_B
+    - A32NX_MCDU_PUSH_ANIM_2_C
+    - A32NX_MCDU_PUSH_ANIM_2_CLR
+    - A32NX_MCDU_PUSH_ANIM_2_D
+    - A32NX_MCDU_PUSH_ANIM_2_DARROW
+    - A32NX_MCDU_PUSH_ANIM_2_DATA
+    - A32NX_MCDU_PUSH_ANIM_2_DIR
+    - A32NX_MCDU_PUSH_ANIM_2_DOT
+    - A32NX_MCDU_PUSH_ANIM_2_E
+    - A32NX_MCDU_PUSH_ANIM_2_F
+    - A32NX_MCDU_PUSH_ANIM_2_FPLN
+    - A32NX_MCDU_PUSH_ANIM_2_FUEL
+    - A32NX_MCDU_PUSH_ANIM_2_G
+    - A32NX_MCDU_PUSH_ANIM_2_H
+    - A32NX_MCDU_PUSH_ANIM_2_I
+    - A32NX_MCDU_PUSH_ANIM_2_INIT
+    - A32NX_MCDU_PUSH_ANIM_2_J
+    - A32NX_MCDU_PUSH_ANIM_2_K
+    - A32NX_MCDU_PUSH_ANIM_2_L
+    - A32NX_MCDU_PUSH_ANIM_2_L1
+    - A32NX_MCDU_PUSH_ANIM_2_L2
+    - A32NX_MCDU_PUSH_ANIM_2_L3
+    - A32NX_MCDU_PUSH_ANIM_2_L4
+    - A32NX_MCDU_PUSH_ANIM_2_L5
+    - A32NX_MCDU_PUSH_ANIM_2_L6
+    - A32NX_MCDU_PUSH_ANIM_2_LARROW
+    - A32NX_MCDU_PUSH_ANIM_2_M
+    - A32NX_MCDU_PUSH_ANIM_2_MENU
+    - A32NX_MCDU_PUSH_ANIM_2_N
+    - A32NX_MCDU_PUSH_ANIM_2_O
+    - A32NX_MCDU_PUSH_ANIM_2_OVFY
+    - A32NX_MCDU_PUSH_ANIM_2_P
+    - A32NX_MCDU_PUSH_ANIM_2_PERF
+    - A32NX_MCDU_PUSH_ANIM_2_PLUSMINUS
+    - A32NX_MCDU_PUSH_ANIM_2_PROG
+    - A32NX_MCDU_PUSH_ANIM_2_Q
+    - A32NX_MCDU_PUSH_ANIM_2_R
+    - A32NX_MCDU_PUSH_ANIM_2_R1
+    - A32NX_MCDU_PUSH_ANIM_2_R2
+    - A32NX_MCDU_PUSH_ANIM_2_R3
+    - A32NX_MCDU_PUSH_ANIM_2_R4
+    - A32NX_MCDU_PUSH_ANIM_2_R5
+    - A32NX_MCDU_PUSH_ANIM_2_R6
+    - A32NX_MCDU_PUSH_ANIM_2_RAD
+    - A32NX_MCDU_PUSH_ANIM_2_RARROW
+    - A32NX_MCDU_PUSH_ANIM_2_S
+    - A32NX_MCDU_PUSH_ANIM_2_SEC
+    - A32NX_MCDU_PUSH_ANIM_2_SLASH
+    - A32NX_MCDU_PUSH_ANIM_2_SP
+    - A32NX_MCDU_PUSH_ANIM_2_T
+    - A32NX_MCDU_PUSH_ANIM_2_U
+    - A32NX_MCDU_PUSH_ANIM_2_UARROW
+    - A32NX_MCDU_PUSH_ANIM_2_V
+    - A32NX_MCDU_PUSH_ANIM_2_W
+    - A32NX_MCDU_PUSH_ANIM_2_X
+    - A32NX_MCDU_PUSH_ANIM_2_Y
+    - A32NX_MCDU_PUSH_ANIM_2_Z
+
 
 ### Switching Panel
 
-!!! error "TODO"
+Flight Deck: [Switching Panel](flight-deck/pedestal/switching.md)
+
+| Function    | API Usage                        | Values | Read/Write | Type        | Remark                |
+|:------------|:---------------------------------|:-------|:-----------|:------------|:----------------------|
+| ATT HDG     | A32NX_ATT_HDG_SWITCHING_KNOB     | 0..2   | R/W        | Custom LVAR | 0=CAPT, 1=NORM, 2=F/O |
+|             |                                  |        |            |             |                       |
+| AIR DATA    | A32NX_AIR_DATA_SWITCHING_KNOB    | 0..2   | R/W        | Custom LVAR | 0=CAPT, 1=NORM, 2=F/O |
+|             |                                  |        |            |             |                       |
+| EIS DMC     | A32NX_EIS_DMC_SWITCHING_KNOB     | 0..2   | R/W        | Custom LVAR | 0=CAPT, 1=NORM, 2=F/O |
+|             |                                  |        |            |             |                       |
+| ECAM/NA XFR | A32NX_ECAM_ND_XFR_SWITCHING_KNOB | 0..2   | R/W        | Custom LVAR | 0=CAPT, 1=NORM, 2=F/O |
 
 ### ECAM Control Panel
 
 Flight Deck: [ECAM Control Panel](flight-deck/pedestal/ecam-control.md)
 
-| Function      | API Usage              | Values | Read/Write | Type     | Remark |
-|:--------------|:-----------------------|:-------|:-----------|:---------|:-------|
-| Upper Display | LIGHT POTENTIOMETER:92 | 0..100 | R/W        | MSFS VAR |        |
-|               |                        |        |            |          |        |
-| Lower Display | LIGHT POTENTIOMETER:93 | 0..100 | R/W        | MSFS VAR |        |
+| Function              | API Usage                        | Values | Read/Write | Type        | Remark                                                                     |
+|:----------------------|:---------------------------------|:-------|:-----------|:------------|:---------------------------------------------------------------------------|
+| Upper Display         | LIGHT POTENTIOMETER:92           | 0..100 | R/W        | MSFS VAR    |                                                                            |
+|                       |                                  |        |            |             |                                                                            |
+| Lower Display         | LIGHT POTENTIOMETER:93           | 0..100 | R/W        | MSFS VAR    |                                                                            |
+|                       |                                  |        |            |             |                                                                            |
+| ECAM SD Page button   | A32NX_ECAM_SD_CURRENT_PAGE_INDEX | -1..12 | R          | Custom LVAR | See below. <br/>~~(changes button, but does not switch ECAM page)~~        |
+|                       |                                  |        |            |             |                                                                            |
+| Left CLR  button      | A32NX_BTN_CLR                    | 0 \| 1 | R/W        | Custom LVAR |                                                                            |
+|                       |                                  |        |            |             |                                                                            |
+| Right CLR button      | A32NX_BTN_CLR2                   | 0 \| 1 | R/W        | Custom LVAR |                                                                            |
+|                       |                                  |        |            |             |                                                                            |
+| RCL button            | A32NX_BTN_RCL                    | 0 \| 1 | R/W        | Custom LVAR |                                                                            |
+|                       |                                  |        |            |             |                                                                            |
+| T.O. CONFIG button    | A32NX_BTN_TOCONFIG               | 0 \| 1 | R/W        | Custom LVAR |                                                                            |
+|                       |                                  |        |            |             |                                                                            |
+| EMER CANC button      | A32NX_BTN_EMERCANC               | 0 \| 1 | R/W        | Custom LVAR |                                                                            |
+|                       |                                  |        |            |             |                                                                            |
+| Page to show on error | A32NX_ECAM_SFAIL                 | -1..12 | R          | Custom LVAR | See below. <br/>Has the page index of the page called by the error message |
 
-!!! error "TODO"
+A32NX_ECAM_SD_CURRENT_PAGE_INDEX:
+
+- -1  = none
+- 0  = ENG
+- 1  = BLEED
+- 2  = PRESS
+- 3  = ELEC
+- 4  = HYD
+- 5  = FUEL
+- 6  = APU
+- 7  = COND
+- 8  = DOOR
+- 9  = WHEEL
+- 10 = F-CTL
+- 11 = STS
+- 12 = CRUISE
+
 
 ### Thrust Lever and Trim Wheel
 
-Flight Deck: [Thrust Leverl Panel](flight-deck/pedestal/thrust-elev-trim.md)
+Flight Deck: [Thrust Lever Panel](flight-deck/pedestal/thrust-elev-trim.md)
 
 | Function              | API Usage                   | Values        | Read/Write | Type             | Remark  |
 |:----------------------|:----------------------------|:--------------|:-----------|:-----------------|:--------|
@@ -568,8 +763,27 @@ Flight Deck: [Thrust Leverl Panel](flight-deck/pedestal/thrust-elev-trim.md)
 
 ### RMP
 
-!!! error "TODO"
+Flight Deck: [RMP Panel](flight-deck/pedestal/rmp.md)
 
+!!! note "The below table shows the API for RMP 1. Replace `1` with `2` or `3` for the other RMPs."
+
+| Function         | API Usage                 | Values           | Read/Write | Type             | Remark                        |
+|:-----------------|:--------------------------|:-----------------|:-----------|:-----------------|:------------------------------|
+| Active Frequency | COM ACTIVE FREQUENCY:1    | 118.000..136.975 | R/W        | SIMCONNECT VAR   |                               |
+|                  |                           |                  |            |                  |                               |
+| Stdby Frequency  | COM STANDBY FREQUENCY:1   | 118.000..136.975 | R/W        | SIMCONNECT VAR   |                               |
+|                  |                           |                  |            |                  |                               |
+| XFER Frequency   | COM1_RADIO_SWAP           | -                | -          | SIMCONNECT EVENT |                               |
+|                  |                           |                  |            |                  |                               |
+| RMP MODE         | A32NX_RMP_L_SELECTED_MODE | 0..3             | R/W        | Custom LVAR      | 0=SEL, 1=VHF1, 2=VHF2, 3=VHF3 |
+|                  |                           |                  |            |                  |                               |
+| RMP ON/OFF       | A32NX_RMP_L_TOGGLE_SWITCH | 0 \| 1           | R/W        | Custom LVAR      |                               |
+|                  |                           |                  |            |                  |                               |
+| Transmit VHF1    | COM TRANSMIT:1            | 0 \| 1           | R          | SIMCONNECT VAR   |                               |
+|                  |                           |                  |            |                  |                               |
+| Transmit VHF2    | COM TRANSMIT:2            | 0 \| 1           | R          | SIMCONNECT VAR   |                               |
+|                  |                           |                  |            |                  |                               |
+| Transmit VHF3    | COM TRANSMIT:3            | 0 \| 1           | R          | SIMCONNECT VAR   |                               |
 
 ### Lighting Pedestal Captain Side Panel
 
