@@ -820,7 +820,21 @@ Flight Deck: [WX Radar Panel](flight-deck/pedestal/radar.md)
 
 ### ATC-TCAS
 
-!!! error "TODO"
+Flight Deck: [ATC-TCAS Panel](flight-deck/pedestal/atc-tcas.md)
+
+| Function     | API Usage                          | Values | Read/Write | Type        | Remark                                           |
+|:-------------|:-----------------------------------|:-------|:-----------|:------------|:-------------------------------------------------|
+| ATC MODE     | TRANSPONDER STATE:1                | 0 \| 4 | R/W        | MSFS VAR    | 0=STBY, 4=AUTO/ON<br/>~~(probably more states)~~ |
+|              |                                    |        |            |             |                                                  |
+| ATC XPDR 1/2 | N/A                                |        |            |             |                                                  |
+|              |                                    |        |            |             |                                                  |
+| ALT RPTG     | A32NX_SWITCH_ATC_ALT               | 0..2   | R/W        | Custom LVAR | 0=OFF, 1=?, 2=ON                                 |
+|              |                                    |        |            |             |                                                  |
+| IDENT        | N/A                                |        |            |             |                                                  |
+|              |                                    |        |            |             |                                                  |
+| TCAS MODE    | A32NX_SWITCH_TCAS_TRAFFIC_POSITION | 0..3   | R/W        | Custom LVAR | 0=THRT, 1=ALL, 2=ABV, 3=BLW                      |
+|              |                                    |        |            |             |                                                  |
+| TCAS TRAFFIC | A32NX_SWITCH_TCAS_POSITION         | 0..2   | R/W        | Custom LVAR | 0=STBY, 1=TA, 2=TA/RA                            |
 
 ### ENG Panel
 
