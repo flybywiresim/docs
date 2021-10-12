@@ -8,6 +8,8 @@
 
 ![Parking Brake Panel](../../../assets/a32nx-briefing/pedestal/Parking-Brake-Panel.jpg "Parking Brake Panel")
 
+!!! note "API Documentation: [Parking Brake Panel](../../a32nx_api.md#parking-brake)"
+
 ## Description
 
 To apply the Parking Brake the flight crew pulls this handle and turns it clockwise.
