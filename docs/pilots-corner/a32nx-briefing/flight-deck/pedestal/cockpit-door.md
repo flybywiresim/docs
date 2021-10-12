@@ -8,6 +8,8 @@
 
 ![Cockpit Door Panel](../../../assets/a32nx-briefing/pedestal/Cockpit-Door-Panel.jpg "Cockpit Door Panel")
 
+!!! note "API Documentation: [Cockpit Door Panel](../../a32nx_api.md#cockpit-door)"
+
 ## Description
 
 A forward-opening, bulletproof and decompression safe door to the cockpit protects the cockpit from unwanted intruders.

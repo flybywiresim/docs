@@ -907,8 +907,28 @@ Flight Deck: [Rudder Trim Panel](flight-deck/pedestal/rudder-trim.md)
 
 ### Cockpit Door
 
-!!! error "TODO"
+Flight Deck: [Cockpit Door Panel](flight-deck/pedestal/cockpit-door.md)
+
+| Function     | API Usage                 | Values | Read/Write | Type        | Remark |
+|:-------------|:--------------------------|:-------|:-----------|:------------|:-------|
+| COCKPIT DOOR | A32NX_COCKPIT_DOOR_LOCKED | 0 \| 1 | R/W        | Custom LVAR |        |
+|              |                           |        |            |             |        |
+| VIDEO        | PUSH_DOORPANEL_VIDEO      | 0 \| 1 | R/W        | Custom LVAR |        |
 
 ## Flight Stick
 
-!!! error "TODO"
+Flight Deck: [Cockpit Door Panel](flight-deck/pedestal/cockpit-door.md)
+
+| Function             | API Usage                 | Values        | Read/Write | Type             | Remark                        |
+|:---------------------|:--------------------------|:--------------|:-----------|:-----------------|:------------------------------|
+| Aileron              | AILERON_SET               | -16383..16384 | -          | SIMCONNECT EVENT |                               |
+|                      | AILERON POSITION          | -1.0..1.0     | R          | SIMCONNECT VAR   |                               |
+|                      |                           |               |            |                  |                               |
+| Elevator             | ELEVATOR_SET              | -16383..16384 | -          | SIMCONNECT EVENT |                               |
+|                      | ELEVATOR POSITION         | -1.0..1.0     | R          | SIMCONNECT VAR   |                               |
+|                      |                           |               |            |                  |                               |
+| TAKE OVER pushbutton | A32NX_PRIORITY_TAKEOVER:1 | 0 \| 1        | R          | Custom LVAR      | Causes AP disconnection       |
+|                      | A32NX_PRIORITY_TAKEOVER:2 | 0 \| 1        | R          | Custom LVAR      | Causes AP disconnection       |
+|                      |                           |               |            |                  |                               |
+| Rudder               | RUDDER_SET                | -16383..16384 | -          | SIMCONNECT EVENT | Some Sticks havea rudder AXIS |
+|                      | RUDDER POSITION           | -1.0..1.0     | R          | SIMCONNECT VAR   |                               |
