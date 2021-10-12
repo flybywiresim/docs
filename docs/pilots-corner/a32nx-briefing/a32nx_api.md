@@ -330,11 +330,19 @@ Flight Deck: [Glareshield Lighting Knobs](flight-deck/glareshield/light-knobs.md
 
 Flight Deck: [Warning Panel](flight-deck/glareshield/warning.md)
 
-| Function | API Usage | Values | Read/Write | Type | Remark |
-|:---------|:----------|:-------|:-----------|:-----|:-------|
-|          |           |        |            |      |        |
-
-!!! error "TODO"
+| Function            | API Usage                        | Values | Read/Write | Type        | Remark |
+|:--------------------|:---------------------------------|:-------|:-----------|:------------|:-------|
+| MASTER CAUTION      | A32NX_MASTER_CAUTION             | 0 \| 1 | R/W        | Custom LVAR |        |
+|                     |                                  |        |            |             |        |
+| MASTER WARNING      | A32NX_MASTER_WARNING             | 0 \| 1 | R/W        | Custom LVAR |        |
+|                     |                                  |        |            |             |        |
+| CHRONO              | N/A                              |        |            |             |        |
+|                     |                                  |        |            |             |        |
+| SIDE STICK PRIORITY | N/A                              |        |            |             |        |
+|                     |                                  |        |            |             |        |
+| AUTOLAND WARNING    | A32NX_AUTOPILOT_AUTOLAND_WARNING | 0 \| 1 | R/W        | Custom LVAR |        |
+|                     |                                  |        |            |             |        |
+| ATC MSG             | N/A                              |        |            |             |        |
 
 ### EFIS Control Panel
 
