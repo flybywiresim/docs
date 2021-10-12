@@ -894,7 +894,16 @@ Flight Deck: [Parking Brake Panel](flight-deck/pedestal/parking-brake.md)
 
 ### Rudder Trim
 
-!!! error "TODO"
+Flight Deck: [Rudder Trim Panel](flight-deck/pedestal/rudder-trim.md)
+
+| Function | API Usage         | Values        | Read/Write | Type             | Remark                                                                         |
+|:---------|:------------------|:--------------|:-----------|:-----------------|:-------------------------------------------------------------------------------|
+| Display  | RUDDER TRIM PCT   | -1.0..1.0     | R          | SIMCONNECT VAR   | -1.0=20° left, 1.0=20° right                                                   |
+|          | RUDDER TRIM       | -0.35..0.35   | R          | SIMCONNECT VAR   | Radians: 0.3490×180°/π = 19.99°                                                |
+|          |                   |               |            |                  |                                                                                |
+| RESET    | RUDDER TRIM SET   | -16383..16384 | .          | SIMCONNECT EVENT |                                                                                |
+|          |                   |               |            |                  |                                                                                |
+| RUD TRIM | XMLVAR_RUDDERTRIM | 0 \| 2        | R/W        | Custom LVAR      | ~~Knob jumps back. Needs to be set repeatately until target value is reached~~ |
 
 ### Cockpit Door
 
