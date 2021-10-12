@@ -840,23 +840,31 @@ Flight Deck: [ATC-TCAS Panel](flight-deck/pedestal/atc-tcas.md)
 
 Flight Deck: [ENG Panel](flight-deck/pedestal/engine.md)
 
-| Function       | API Usage                    | Values | Read/Write | Type       | Remark                 |    |
-|:---------------|:-----------------------------|:-------|:-----------|:-----------|:-----------------------|:---|
-| ENG 1+2 MASTER | FUELSYSTEN_VALVE_OPEN        | 1 \| 2 | -          | MSFS EVENT | Activates the switch   |    |
-|                | FUELSYSTEN_VALVE_CLOSE       | 1 \| 2 | -          | MSFS EVENT | Deactivates the switch |    |
-|                | FUELSYSTEM VALVE SWITCH:1    | 0 \| 1 | R          | MSFS VAR   |                        |    |
-|                | FUELSYSTEM VALVE SWITCH:2    | 0 \| 1 | R          | MSFS VAR   |                        |    |
-|                |                              |        |            |            |                        |    |
-| MODE           | TURBINE_IGNITION_SWITCH_SET1 | 0..2   | -          | MSFS EVENT | 0=CRANK, 1=NORM, 2=IGN |    |
-|                | TURBINE_IGNITION_SWITCH_SET2 | 0..2   | -          | MSFS EVENT | 0=CRANK, 1=NORM, 2=IGN |    |
-|                | TURB ENG IGNITION SWITCH EX1 | 0..2   | R/W        | MSFS VAR   | 0=CRANK, 1=NORM, 2=IGN |    |
-|                | TURB ENG IGNITION SWITCH EX2 | 0..2   | R/W        | MSFS VAR   | 0=CRANK, 1=NORM, 2=IGN |    |
-|                |                              |        |            |            |                        |    |
-| FIRE 1 + 2     | N/A                          |        |            |            |                        |    |
+| Function       | API Usage                    | Values | Read/Write | Type       | Remark                 |
+|:---------------|:-----------------------------|:-------|:-----------|:-----------|:-----------------------|
+| ENG 1+2 MASTER | FUELSYSTEN_VALVE_OPEN        | 1 \| 2 | -          | MSFS EVENT | Activates the switch   |
+|                | FUELSYSTEN_VALVE_CLOSE       | 1 \| 2 | -          | MSFS EVENT | Deactivates the switch |
+|                | FUELSYSTEM VALVE SWITCH:1    | 0 \| 1 | R          | MSFS VAR   |                        |
+|                | FUELSYSTEM VALVE SWITCH:2    | 0 \| 1 | R          | MSFS VAR   |                        |
+|                |                              |        |            |            |                        |
+| MODE           | TURBINE_IGNITION_SWITCH_SET1 | 0..2   | -          | MSFS EVENT | 0=CRANK, 1=NORM, 2=IGN |
+|                | TURBINE_IGNITION_SWITCH_SET2 | 0..2   | -          | MSFS EVENT | 0=CRANK, 1=NORM, 2=IGN |
+|                | TURB ENG IGNITION SWITCH EX1 | 0..2   | R/W        | MSFS VAR   | 0=CRANK, 1=NORM, 2=IGN |
+|                | TURB ENG IGNITION SWITCH EX2 | 0..2   | R/W        | MSFS VAR   | 0=CRANK, 1=NORM, 2=IGN |
+|                |                              |        |            |            |                        |
+| FIRE 1 + 2     | N/A                          |        |            |            |                        |
 
 ### Speed Brake
 
-!!! error "TODO"
+Flight Deck: [ENG Panel](flight-deck/pedestal/speedbrake.md)
+
+| Function         | API Usage                      | Values   | Read/Write | Type             | Remark                           |
+|:-----------------|:-------------------------------|:---------|:-----------|:-----------------|:---------------------------------|
+| SPEED BRAKE AXIS | SPOILER SET                    | 0..16384 | -          | SIMCONNECT EVENT |                                  |
+|                  | A32NX_SPOILERS_HANDLE_POSITION | 0.0..1.0 | R          | Custom LVAR      | (add. SIMCONNECT VARS available) |
+|                  |                                |          |            |                  |                                  |
+| GND SPOILER ARM  | SPOILERS_ARM_TOGGLE            | -        | -          | SIMCONNECT EVENT |                                  |
+|                  | SPOILERS ARMED                 | 0 \| 1   | R/W        | SIMCONNECT VAR   |                                  |
 
 ### Flaps
 
