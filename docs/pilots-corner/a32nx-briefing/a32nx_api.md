@@ -15,7 +15,7 @@ hide:
     version of A32NX and are marked as such.
 
     If you find any errors please report them on our [:fontawesome-brands-discord:{: .discord }
-    - **Discord**](https://discord.gg/flybywire){target=new} in the **#support** channel.
+      - **Discord**](https://discord.gg/flybywire){target=new} in the **#support** channel.
 
 Find the complete list of Custom Event and Custom LVARS of the A32NX:
 
@@ -838,7 +838,21 @@ Flight Deck: [ATC-TCAS Panel](flight-deck/pedestal/atc-tcas.md)
 
 ### ENG Panel
 
-!!! error "TODO"
+Flight Deck: [ENG Panel](flight-deck/pedestal/engine.md)
+
+| Function       | API Usage                    | Values | Read/Write | Type       | Remark                 |    |
+|:---------------|:-----------------------------|:-------|:-----------|:-----------|:-----------------------|:---|
+| ENG 1+2 MASTER | FUELSYSTEN_VALVE_OPEN        | 1 \| 2 | -          | MSFS EVENT | Activates the switch   |    |
+|                | FUELSYSTEN_VALVE_CLOSE       | 1 \| 2 | -          | MSFS EVENT | Deactivates the switch |    |
+|                | FUELSYSTEM VALVE SWITCH:1    | 0 \| 1 | R          | MSFS VAR   |                        |    |
+|                | FUELSYSTEM VALVE SWITCH:2    | 0 \| 1 | R          | MSFS VAR   |                        |    |
+|                |                              |        |            |            |                        |    |
+| MODE           | TURBINE_IGNITION_SWITCH_SET1 | 0..2   | -          | MSFS EVENT | 0=CRANK, 1=NORM, 2=IGN |    |
+|                | TURBINE_IGNITION_SWITCH_SET2 | 0..2   | -          | MSFS EVENT | 0=CRANK, 1=NORM, 2=IGN |    |
+|                | TURB ENG IGNITION SWITCH EX1 | 0..2   | R/W        | MSFS VAR   | 0=CRANK, 1=NORM, 2=IGN |    |
+|                | TURB ENG IGNITION SWITCH EX2 | 0..2   | R/W        | MSFS VAR   | 0=CRANK, 1=NORM, 2=IGN |    |
+|                |                              |        |            |            |                        |    |
+| FIRE 1 + 2     | N/A                          |        |            |            |                        |    |
 
 ### Speed Brake
 
