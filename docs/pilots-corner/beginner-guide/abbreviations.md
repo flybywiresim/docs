@@ -287,6 +287,7 @@
 | CDSU | Cockpit Door Surveillance Unit |
 | CDU | Control and Display Unit |
 | CFDS           | Centralized Fault Display System                    |
+| CFMI | CFM International |
 | CG | Center of Gravity |
 | CHAS           | Chassis                                             |
 | CHG            | Change                                              |
@@ -762,8 +763,11 @@
 | MEA            | Minimum En Route IFR Altitude                       |
 | MED            | Medium                                              |
 | MEM            | Memory                                              |
+| MEW | Manufacturer's Empty Weight |
 | MFD            | Multifunction Display                               |
 | MGT            | Management                                          |
+| MID | Middle |
+| MIC | Microphone |
 | mile/h         | Miles per Hour                                      |
 | MIN            | Minimum                                             |
 | min            | Minute                                              |
@@ -774,14 +778,18 @@
 | MLG            | Main Landing Gear                                   |
 | MM             | Middle Marker                                       |
 | mm             | Millimeter                                          |
+| MMEL | Master Minimum Equipment List |
 | MMO            | Mach Max Operating Speed                            |
 | MMO            | Maximum Operating Mach                              |
 | Mn             | Mach Number                                         |
 | MON            | Monitor, Monitoring, Monitored                      |
 | MRW            | Maximum Ramp Weight                                 |
+| MSA | Minimum Safe Altitude |
 | MSG            | Message                                             |
+| MSL | Mean Sea Level |
 | MSTR           | Master                                              |
 | MTO            | Maximum Take-Off                                    |
+| MTOGW | Maximum Takeoff Gross Weight |
 | MTOW           | Maximum Design Takeoff Weight                       |
 | MTR            | Meter                                               |
 | MWARN          | Master Warning                                      |
@@ -801,6 +809,7 @@
 | N1             | Low Pressure Rotor Speed                            |
 | N1             | Engine Fan Speed                                    |
 | N1.D           | N1 Descent                                          |
+| N1.L | N1 Latch |
 | N2             | High Pressure Rotor Speed                           |
 | NAV            | Navigation                                          |
 | NAVAID         | Navigation Aid                                      |
@@ -816,13 +825,21 @@
 | No             | Number                                              |
 | NORM           | Normal                                              |
 | NOTAM          | Notice to Airmen                                    |
+| NS | No Smoking |
 | NW             | Nose Wheel                                          |
 | O              | Open                                                |
 | O2             | Oxygen (Symbol)                                     |
+| O/P | Output |
+| OANC | Onboard Airport Navigation Computer |
+| OANS | Onboard Airport Navigation System |
 | OAT            | Outside Air Temperature                             |
+| OBSV | Observation |
+| OCL | Obstacle Clearance Limit |
 | OEW            | Operational Empty Weight                            |
 | OFFR           | Off/Reset                                           |
 | OFST           | Offset                                              |
+| OIS | Onboard Information System |
+| OIT | Onboard Information Terminal |
 | OK             | Correct                                             |
 | OLW            | Operational Landing Weight                          |
 | OM             | Outer Marker                                        |
@@ -839,6 +856,7 @@
 | OUT            | Outlet                                              |
 | OUT            | Output                                              |
 | OUTR           | Outer                                               |
+| OVBD | Overboard |
 | OVFL           | Overflow                                            |
 | OVHD           | Overhead                                            |
 | OVHT           | Overheat                                            |
@@ -855,12 +873,15 @@
 | P/B            | Pushbutton                                          |
 | P/BSW          | Pushbutton Switch                                   |
 | P/L            | Payload                                             |
+| PA | Passenger Address |
+| PA | Public Address |
 | Pa             | Pascal                                              |
 | PARK           | Parking                                             |
 | PAS            | Pitch Attitude Sensor                               |
 | PAX            | PAX Announcement Entertainment &                    |
 | PAX            | Passenger                                           |
 | Pb             | Pressure Ambient                                    |
+| PC | Pack Controller |
 | PCT            | Percent                                             |
 | PCU            | Power Control Unit                                  |
 | PED            | Pedestal                                            |
@@ -871,27 +892,39 @@
 | phi            | Bank Angle                                          |
 | phi N          | Nominal Bank Angle                                  |
 | PHR            | Pounds per Hour                                     |
+| PIREP | Pilot Report |
 | PLT            | Pilot                                               |
 | PMP            | Pump                                                |
 | PMU            | Power Management Unit                               |
 | PNEU           | Pneumatic                                           |
+| PNF | Pilot Non Flying |
 | PNL            | Panel                                               |
 | POS            | Position                                            |
 | PPM            | Parts per Million                                   |
+| PPOS | Present Position |
 | PR             | Pressure                                            |
 | PRB            | Probe                                               |
+| PRESEL | Preselection, Preselector |
+| PRESS | Pressure, Pressurization, Pressurize |
 | PREV           | Previous                                            |
 | PRGM           | Program                                             |
 | PRI            | Priority                                            |
 | PROC           | Procedure                                           |
 | PROG           | Progress                                            |
+| PROT | Protection |
+| PROX | Proximity |
 | PSU            | Power Supply Unit                                   |
+| PT | Point |
 | PTR            | Push to Reset                                       |
 | PTT            | Push to Test                                        |
 | PTT            | Push-to-Talk                                        |
 | PTU            | Power Transfer Unit                                 |
+| PURS | Purser |
 | PW             | Pratt and Whitney                                   |
 | PWR            | Power                                               |
+| PWS | Predictive WindShear |
+| Q | Pitch Rate |
+| QAR | Quick Access Recorder |
 | QFE            | Baro Pressure Setting for Airfield Altitude         |
 | QFE            | Field Elevation Atmospheric Pressure                |
 | QFE            | Pressure Setting for Airfield Altitude              |
@@ -900,6 +933,8 @@
 | QNH            | Sea Level Atmospheric Pressure                      |
 | QNH            | Pressure Setting for En Route Altitude              |
 | QNH            | Sea Level Pressure                                  |
+| QRH | Quick Reference Handbook |
+| QTY | Quantity |
 | R              | Red                                                 |
 | R              | Radius                                              |
 | R              | Release                                             |
@@ -908,21 +943,31 @@
 | R/C            | Rate of Climb                                       |
 | R/D            | Rate of Descent                                     |
 | R/H            | Radar Height                                        |
+| R/I | Radio/Inertial |
 | R/L            | Reading Light                                       |
 | r/min          | Revolutions per Minute                              |
 | R/T            | Receiver Transmitter Unit                           |
 | R/T            | Radio Transmit                                      |
 | RA             | Resolution Advisory                                 |
 | RA             | Radio Altimeter, Radio Altitude                     |
+| RAAS | Runway Awareness and Advisory System |
 | RAD            | Radio                                               |
+| RAI | Ram Air Inlet |
+| RAIMS | Radio and Audio Integrating Management System |
 | RAT            | Ram Air Turbine                                     |
+| RC | Repetitive Chime |
 | RCDR           | Recorder                                            |
+| RCL | Recall |
 | RCLM           | Runway Center Line Marking                          |
 | RCLS           | Runway Center Line Light System                     |
 | RCVR           | Receiver                                            |
 | RCVY           | Recovery                                            |
 | RDY            | Ready                                               |
 | RECOG          | Recognition                                         |
+| RED | Reduction |
+| REDUND | Redundancy |
+| REF | Reference |
+| REF ALIGN | Reference Alignment |
 | REFLNG         | Refueling                                           |
 | REFUEL         | Refueling                                           |
 | RET            | Retract                                             |
@@ -951,6 +996,7 @@
 | RTOW           | Runway Takeoff Weight                               |
 | RTR            | Router                                              |
 | RTRSW          | Rotary Switch                                       |
+| RTRY | Rotary |
 | RTU            | Radar Transceiver Unit                              |
 | RUD            | Rudder                                              |
 | RVR            | Runway Visual Range                                 |
@@ -961,11 +1007,14 @@
 | S              | Minimum Slat Retract Speed (EFIS)                   |
 | s              | Second                                              |
 | S/C S/D        | Step Climb Step Descent                             |
+| S/W | Software |
 | SAT            | Static Air Temperature                              |
 | SATCOM         | Satellite Communication                             |
 | SBL            | Symbol                                              |
 | SC             | Single Chime                                        |
 | SD             | System Display                                      |
+| SDAC | System Daa Analog Converter |
+| SDCU | Smoke Detection Control Unit |
 | SEAL           | Sealing                                             |
 | SEC            | Spoiler Elevator Computer                           |
 | SEC            | Secondary                                           |
@@ -983,15 +1032,19 @@
 | SIG            | Signal                                              |
 | SIM            | Simulation                                          |
 | SL             | Sea Level                                           |
+| SLD | Slide, Sliding |
 | SLT            | Slat                                                |
 | SMK            | Smoke                                               |
+| SN | Serial Number |
 | SNSR           | Sensor                                              |
 | SPAD           | Scratchpad                                          |
 | SPD            | Speed                                               |
 | SPD/M          | Speed-Mach                                          |
 | SPEC           | Specification                                       |
+| SPKR | Speaker |
 | SPLR           | Spoiler                                             |
 | SPLY           | Supply                                              |
+| SQ | Squelch |
 | SRS            | Speed Reference System                              |
 | STAB           | Stabilizer                                          |
 | STAR           | Standard Terminal Arrival Route                     |
@@ -1002,9 +1055,12 @@
 | STRG           | Steering                                            |
 | STRUCT         | Structure                                           |
 | STS            | Status                                              |
+| SUCT | Suction |
 | SURF           | Surface                                             |
 | SVCE           | Service                                             |
 | SW             | Switch                                              |
+| SWTG | Switching |
+| SYNC | Synchro, Synchronise |
 | SYS            | System                                              |
 | T              | True                                                |
 | T              | Turn                                                |
@@ -1014,9 +1070,12 @@
 | T/C            | Top of Climb                                        |
 | T/D            | Top of Descent                                      |
 | T/R            | Thrust Reverser                                     |
+| T2CAS | Traffic and Terrain Collision Avoidance System |
 | TA             | Traffic Advisory                                    |
+| TAC | Taxiing Aid Camera |
 | TACAN          | Ultra-high Frequency Tactical Air Navigation Aid    |
 | TACH           | Tachometer                                          |
+| TADB | Terrain/Airport DataBase |
 | TAS            | True Airspeed                                       |
 | TAT            | Total Air Temperature                               |
 | TBC            | To Be Confirmed                                     |
@@ -1034,6 +1093,7 @@
 | TKE            | Track Angle Error                                   |
 | TLA            | Throttle Lever Angle                                |
 | TMA            | Terminal Control Area                               |
+| TMG | Timing |
 | TMR            | Timer                                               |
 | TO             | Takeoff                                             |
 | TO/APPR        | Takeoff/Approach                                    |
@@ -1047,6 +1107,7 @@
 | TR             | Thrust Reverser                                     |
 | TRANS          | Transition                                          |
 | TRANSF         | Transfer                                            |
+| TRC | Thrust Rating Computer |
 | TRGT           | Target                                              |
 | TRIG           | Trigger                                             |
 | TRK            | Track                                               |
@@ -1061,14 +1122,20 @@
 | TWY            | Taxiway                                             |
 | TX             | Transmission (TCAS to Transponder)                  |
 | TYP            | Typical                                             |
+| UD | Upper Deck |
 | UHF            | Ultra High Frequency                                |
+| UTC | Universal Time Coordinated |
 | V              | Volt, Voltage                                       |
 | V              | Valve                                               |
 | V/L            | VOR/LOC                                             |
 | V/L            | VOR/Localizer                                       |
-| V/S V1 V1 V2   | Vertical Speed                                      |
+| V/S   | Vertical Speed                                      |
+| V1 | Critical Engine Failure Speed |
+| V1 | Decision Speed |
+| V2 | Takeoff Safety Speed |
 | V2min          | Critical Engine Failure Speed Decision Speed        |
 | VACU           | Vacuum                                              |
+| VAR | Variable, Variation |
 | VCTREND        | Airspeed Tendency                                   |
 | VDF            | Very High Frequency Direction Finding Station       |
 | VDR            | VHF Data Radio                                      |
@@ -1084,6 +1151,7 @@
 | VOR.D          | VOR-DME                                             |
 | VORTAC         | Visual Omni-Range Tactical Air Navigation           |
 | VSI            | Vertical Speed Indicator                            |
+| VSW | Stall Warning Speed |
 | W              | Weight                                              |
 | W              | Watt                                                |
 | W              | West                                                |
@@ -1105,6 +1173,7 @@
 | X BLEED X FEED | Crossfeed                                           |
 | X LINE         | Crossline                                           |
 | X VALVE        | Cross Valve                                         |
+| XCHECK | Crosscheck |
 | XFR            | Transfer                                            |
 | XING           | Crossing                                            |
 | XPDR           | Transponder                                         |
