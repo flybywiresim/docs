@@ -46,44 +46,97 @@
 |:---------------|:----------------------------------------------------|
 | A.ICE          | Anti-ice, Anti-icing                                |
 | A/BRK          | Autobrake Aircraft                                  |
+| A/C            | Aircraft                                            |
+| A/COLL         | Anti-Collision                                      |
+| A/F            | Auto Flight                                         |
+| A/G            | Air to Ground                                       |
+| A/L            | Airline                                             |
+| A/S            | Airspeed                                            |
+| A/SKID         | Anti-Skid                                           |
+| A/STAB         | Auto Stabilizer                                     |
 | A/THR          | Autothrust                                          |
+| A/XFMR         | Autotransformer                                     |
+| ABCU           | Alternate Braking Control Unit                      |
+| ABN            | Abnormal                                            |
+| ABNORM         | Abnormal                                            |
+| ABRN           | Airborne                                            |
+| ABS            | Autobrake System                                    |
 | ABV            | Above                                               |
+| AC             | Alternating Current                                 |
 | ACARS          | Aircraft Communication Addressing and               |
 | ACAS           | Airborne Collision Avoidance System                 |
+| ACC            | Active Clearance Control                            |
 | ACCEL          | Acceleration/Accelerate                             |
+| ACCELMTR       | Accelerometer                                       |
 | ACCU           | Accumulator                                         |
+| ACCUR          | Accuracy                                            |
+| ACD            | Additional Control Device                           |
 | ACFT           | Aircraft                                            |
+| ACGS           | Aircraft GSM Server                                 |
 | ACK            | Acknowledge                                         |
+| ACMS | Aircraft Condition Monitoring System |
 | ACP            | Audio Control Panel                                 |
 | ACQ            | Acquire                                             |
 | ACQN           | Acquisition                                         |
+| ACR | Avionics Communication Router |
 | ACT            | Active                                              |
+| ACT | Addutuibak Center Tank |
+| ACTG | Actuating |
+| ACTIV | Active |
+| ACTR | Actuator |
+| ACTVN | Activation |
+| ACTVT | Activate |
+| ACU | Air Cooling Unit |
+| ADB | Area Distribution Box |
+| ADB | Airport Database |
+| ADC | Air Data Computer |
+| ADCN | Avionics Data Communication Network |
 | ADD            | Addition, Additional                                |
 | ADF            | Automatic Direction Finder                          |
+| ADG | Air Driven Generator |
+| ADI | Attitude Director Indicator |
 | ADIRS          | Air Data/Inertial Reference System                  |
 | ADIRU          | Air Data/Inertial Reference Unit                    |
+| ADM | Air data Module |
 | ADR            | Air Data Reference                                  |
 | ADS            | Air Data System                                     |
+| ADU | Area Distribution Unit |
 | ADV            | Advisory                                            |
 | AESS           | Aircraft Environment Surveillance System            |
 | AESU           | Aircraft Environment Surveillance Unit              |
 | AEVC           | Avionics Equipment Ventilation Computer             |
+| AF | Audio Frequency |
+| AFDX | Avionics Full Duplex Switched Ethernet |
+| AFECU | Automatic Fire Extinguishing Control Unit |
+| AFFECTD | Affected |
 | AFFIRM         | Affirmative                                         |
 | AFIS           | Airline In Flight Information System                |
 | AFM            | Aircraft Flight Manual                              |
+| AFMC | Auxiliary Fuel Management Computer |
 | AFS            | Automatic Flight System                             |
 | AFTR           | After                                               |
+| AGC | Automatic Gain Control, APU Generato Contactor |
+| AGE | Aircraft Ground Equipment |
 | AGL            | Above Ground Level                                  |
+| AGP | Alternate Gauging Processor |
 | AGS            | Air Generation System                               |
 | AGU            | Air Generation Unit                                 |
 | AGW            | Actual Gross Weight                                 |
 | AI             | Anti-Icing                                          |
+| AICU | Anti Ice Control Unit |
 | AIDS           | Aircraft Integrated Data System                     |
 | AIL            | Aileron                                             |
+| AIM | Aircraft Integrated Maintenance |
+| AIMI | Avionics Information Management Interface |
+| AINS | Aircraft Information Network System |
+| AIP | Attendant Indication Panel |
+| AIP | Aeronautical Information Publication |
 | AIRCOND        | Air Conditioning                                    |
 | AIS            | Audio Integrated System                             |
 | AIS            | Aeronautical Information Service                    |
+| AL | Airline |
 | ALIGN          | Alignment                                           |
+| ALIGND | Aligned |
 | ALLWD          | Allowed                                             |
 | ALPHA          | Angle-of-Attack                                     |
 | ALPHANUM       | Alphanumerical                                      |
@@ -93,24 +146,44 @@
 | ALT TO         | Alternate To                                        |
 | ALTM           | Altimeter                                           |
 | ALTN           | Alternate, Alternative                              |
+| ALTU | Annunciator Light Test Unit |
+| AM | Amplitude Modulation |
 | AMB            | Ambient                                             |
+| AMDB | Airport Mapping DataBase | 
+| AMM | Aircraft Maintenance Manual |
+| AMM | Ammeter |
 | AMP            | Ampere                                              |
+| AMPL | Amplifier |
+| AMU | Audio Management Unit |
+| ANLG | Analogic |
 | ANN            | Annunciator                                         |
+| ANNCE | Announce |
+| ANNCMT | Announcement |
 | ANN LT         | Annunciator Light                                   |
+| ANSA | At Nearest Suitable Airport |
+| ANT | Antenna |
 | AOA            | Angle Of Attack                                     |
 | AOC            | Airline Operational Control                         |
+| AOC | Air Operator's Certificate |
+| AOD | Audio On Demand |
 | AOG            | Aircraft On Ground                                  |
+| AOHX | Air/Oil Heat Exchanger |
+| AOM | Aircraft Operating Manual |
 | AP             | Autopilot                                           |
 | AP/FD          | Autopilot/Flight Director                           |
+| APP | Approach Control-Approach Control Office |
 | APPR           | Approach                                            |
 | APPROX         | Approximately                                       |
 | APU            | Auxiliary Power Unit                                |
 | APU AFE        | APU Automatic Fire Extinguishing Control Unit       |
+| AR | As Required |
+| ARINC | Aeronautical Radio Incorporated |
 | ARMD           | Armed                                               |
 | ARMG           | Arming                                              |
 | ARND           | Around                                              |
 | ARPT           | Airport                                             |
 | ARR            | Arrival, Arriving                                   |
+| ARV | Alterate Refill Valve |
 | AS             | Airspeed                                            |
 | ASD            | Accelerate Stop Distance                            |
 | ASI            | Airspeed Indicator                                  |
@@ -122,17 +195,26 @@
 | ATC            | Air Traffic Control                                 |
 | ATCI           | Air Traffic Control and Information                 |
 | ATCK           | Attack                                              |
+| ATD | Actual Time of Departure |
+| ATE | Automatic Test Equipment |
 | ATIS           | Automatic Terminal Information Service              |
+| ATM | Air Traffic Management |
+| ATS | Air Traffic Service |
 | ATS            | Autothrottle / Autothrust System                    |
 | ATSU           | Air Traffic Service Unit                            |
 | ATT            | Attitude                                            |
+| ATTND | Attendant |
+| AUTO | Automatic |
 | AUTOLAND       | Automatic Landing                                   |
+| AUX | Auxiliary |
 | AVAIL          | Available                                           |
 | AVAIL          | Availability                                        |
 | AVG            | Average                                             |
 | AVIONICS       | Aviation Electronics                                |
 | AVNCS          | Avionics                                            |
+| AVS | Avionics Ventilation System |
 | AWY            | Airway                                              |
+| AZFW | Actual Zero Fuel Weight |
 | B              | Blue                                                |
 | B/C            | Business Class                                      |
 | BARO           | Barometric                                          |
@@ -143,11 +225,17 @@
 | BCU            | Brake Control Unit                                  |
 | BETW           | Between                                             |
 | BEW            | Basic Empty Weight                                  |
+| BHD | Bulhead |
+| BKFLW | Backflow |
 | BKUP           | Backup                                              |
 | BL             | Bleed                                               |
+| BLG | Body Landing Gear |
 | BLK            | Block                                               |
 | BLK            | Black                                               |
 | BLW            | Below                                               |
+| BLST | Ballast |
+| BLV | Bleed Valve |
+| BLWG | Blowing |
 | BM             | Beam                                                |
 | BRDG           | Bridge                                              |
 | BRG            | Bearing                                             |
@@ -157,34 +245,62 @@
 | BRKS           | Brakes                                              |
 | BRKT           | Bracket                                             |
 | BRT            | Bright, Brightness                                  |
+| BSCS | Braking and Steering Control System |
+| BSCU | Braking and Steering Control Unit |
 | BT             | Bus Tie                                             |
+| BTC | Bus Tie Contactor |
 | BTL            | Bottle                                              |
+| BTMS | Brake Temperature Monitoring System |
+| BTMU | Brake Temperature Monitoring Unit |
 | BTN            | Button                                              |
 | BU             | Battery Unit                                        |
 | BUS            | Busbar                                              |
 | BYP            | Bypass                                              |
 | C              | Celsius, Centigrade                                 |
+| C | Cyan |
 | C/B            | Circuit Breaker                                     |
 | C/L            | Check List                                          |
 | C/M            | Crew Member                                         |
+| C/O | Change Over |
+| C/S | Call Sign |
 | CAB            | Cabin                                               |
 | CAB PRESS      | Cabin Pressurization                                |
+| CAL | Calibration, Calibrated |
+| CANC | Cancellation |
+| CANCD | Cancelled |
 | CAPT           | Captain                                             |
 | CAS            | Collision Avoidance System                          |
+| CAS | Calibrated Air Speed |
 | CAT            | Category                                            |
 | CAUT           | Caution                                             |
 | CAUT LT        | Caution Light                                       |
+| CCD | Cursor Control Device |
+| CCRM | Cabin Crew Rest Module |
+| CCS | Cabin Communication System |
+| CCW | Counter Clock Wise |
+| CD | Control Display |
+| CD | Compact Disk |
+| CDC | Cargo Door Controller |
+| CDL | Configuration Deviation List |
+| CDS | Control and Display System |
+| CDSS | Cockpit Door Surveillance System |
+| CDSU | Cockpit Door Surveillance Unit |
+| CDU | Control and Display Unit |
 | CFDS           | Centralized Fault Display System                    |
+| CG | Center of Gravity |
 | CHAS           | Chassis                                             |
 | CHG            | Change                                              |
 | CHK            | Check                                               |
 | CHM            | Chime                                               |
+| CHRO | Chronometer |
 | CIDS           | Cabin Intercommunication Data System                |
 | CK             | Check                                               |
 | CKD            | Checked                                             |
 | CKPT           | Cockpit                                             |
 | CL             | Climb                                               |
+| CL | Check List |
 | CLB            | Climb                                               |
+| CLD | Closed |
 | CLG            | Ceiling                                             |
 | CLK            | Clock                                               |
 | CLR            | Clear                                               |
@@ -195,6 +311,7 @@
 | CLSG           | Closing                                             |
 | CM             | Centimeters                                         |
 | CMD            | Command                                             |
+| CMPLTD | Completed |
 | CNCT           | Connect                                             |
 | CNCTD          | Connected                                           |
 | CNTOR          | Contactor                                           |
@@ -204,24 +321,40 @@
 | COM            | Communication                                       |
 | COMP           | Compass                                             |
 | COND           | Condition                                           |
+| COND | Conditioning |
+| CONFIG | Configuration |
+| CONFIRMD | Confirmed |
+| CONSUMPT | Consumption |
 | CONT           | Continue, Continuous                                |
 | COOL           | Cooling                                             |
+| COOLG | Cooling |
 | CORR           | Correct                                             |
 | COUNT          | Counter                                             |
+| CPC | Cabin Pressure Controller |
 | CPT            | Capture                                             |
+| CRC | Continuous Repetitive Chime |
 | CRG            | Cargo                                               |
 | CRK            | Crank                                               |
+| CRS | Course | 
+| CRT | Cathode Ray Tube |
 | CRZ            | Cruise                                              |
+| CS | Call Switch |
 | CSL            | Console                                             |
 | CSTR           | Constraint                                          |
 | CTK            | Center Tank                                         |
 | CTL            | Control                                             |
 | CTL            | Central                                             |
 | CTLR           | Controller                                          |
+| CTR | Center |
 | CU             | Control Unit                                        |
 | CUR            | Current                                             |
+| CVM | Cabin Video Monitoring |
+| CVR | Cockpit Voice Recorder |
+| CVRS | Cockpit Voice Recorder System |
 | CW             | Clockwise                                           |
+| CWS | Cabin Work Station |
 | CY             | Cycle                                               |
+| DA | Drift Angle |
 | DAC            | Digital to Analog Converter                         |
 | DADC           | Digital Air Data Computer                           |
 | DADS           | Digital Air Data System                             |
@@ -233,20 +366,29 @@
 | DB             | Database                                            |
 | dB(A)          | A-Weighted Decibel                                  |
 | DC             | Direct Current                                      |
+| DCD | Data Control and Display |
 | DCDU           | Datalink Control and Display Unit                   |
+| DCL | Digital Cabin Logbook |
 | DCP            | Display Control Panel                               |
+| DCU | Direction Control Unit |
 | DECEL          | Decelerate                                          |
+| DECR | Decrease |
 | DEG            | Degree                                              |
 | DEGRADD        | Degraded                                            |
 | DEL            | Delete                                              |
+| DEP | Departure |
+| DEPRESS | Depressurization |
 | DES            | Descent                                             |
+| DES | Descend |
 | DEST           | Destination                                         |
 | DET            | Detection, Detector                                 |
+| DETECTD | Detected |
 | DEV            | Deviation                                           |
 | DFDAMU         | Digital Flight Data Acquisition and Management Unit |
 | DFDAU          | Digital Flight Data Acquisition Unit                |
 | DFDR           | Digital Flight Data Recorder                        |
 | DFDRS          | Digital Flight Data Recording System                |
+| DG | Directional Gyro |
 | DH             | Decision Height                                     |
 | DI             | Deicing                                             |
 | DIBU           | Door Illumination Ballast Unit                      |
@@ -260,19 +402,32 @@
 | DIST           | Distance                                            |
 | DISTR          | Distribute, Distribution, Distributor               |
 | DITCH          | Ditching                                            |
+| DIVERTG | Diverting |
+| DLCM | Data Loading Configuration Manager |
+| DLCS | Data Loading and Configuration System |
 | DLK            | Data Link                                           |
+| DLOAD | Data Loading |
 | DLY            | Delay                                               |
+| DMA | Direct Memory Access |
+| DMC | Display Management Computer |
 | DMD            | Demand                                              |
 | DME            | Distance Measuring Equipment                        |
 | DN             | Down                                                |
+| DOLLI | Dome LED Light |
 | DOW            | Dry Operating Weight                                |
 | DPI            | Differential Pressure Indicator                     |
 | DR             | Door                                                |
 | DSPL           | Display                                             |
+| DTG | Distance To Go |
+| DU | Display Unit |
+| DWG | Drawing |
 | E              | East                                                |
+| EBAS | Engine Bleed Air System |
 | EC             | Engine Control                                      |
 | ECAM           | Electronic Centralized Aircraft Monitoring          |
 | ECM            | Engine Condition Monitoring                         |
+| ECON | Economy |
+| ECP | ECAM Control Panel |
 | ECS            | Environmental Control System                        |
 | ECU            | Electronic Control Unit                             |
 | EE             | Electrical and Electronic                           |
@@ -280,42 +435,70 @@
 | EFCC           | Electronic Flight Control Computer                  |
 | EFCS           | Electrical Flight Control System                    |
 | EFCU           | Electrical Flight Control Unit                      |
+| EFF | Effective, Effectivity |
 | EFIS           | Electronic Flight Information System                |
+| EFOB | Estimated Fuel On Board |
+| EGT | Exhaust Gas Temperature |
+| EIS | Electronic Instrument System |
 | ELAC           | Elevator Aileron Computer                           |
 | ELAPS          | Elapsed Time                                        |
 | ELEC           | Electric, Electrical, Electricity                   |
+| ELEK | Electronic |
 | ELEV           | Elevator                                            |
+| ELEVN | Elevation |
 | ELS            | Emergency Lighting System                           |
 | ELT            | Emergency Locator Transmitter                       |
 | ELV            | Elevation                                           |
 | EMER           | Emergency                                           |
 | EMLS           | Emergency Lighting System                           |
+| EMU | Engine Monitoring Unit |
+| END | Endurance |
 | ENG            | Engine                                              |
 | ENG OUT        | Engine Out                                          |
 | ENT            | Entry                                               |
+| ENTR | Entrance |
 | ENV            | Envelope                                            |
 | EO             | Engine Out                                          |
 | EO ACCEL ALT   | Engine Out Acceleration Altitude                    |
+| EO THR RED SPD | Engine Out Thrust Reduction Speed |
+| EOSID | Engine Out Standard Instrument Departure |
+| EPR | Engine Pressure Ratio |
+| EPSU | Emergency Power Supply Unit |
 | EPU            | Emergency Power Unit                                |
+| EQPT | Equipment |
+| ER | Extended Range |
 | ERR            | Error                                               |
 | ERS            | Erase                                               |
 | ESC            | Escape                                              |
 | ESD            | Electronic System Display                           |
+| ESS | Essential |
 | EST            | Estimated                                           |
 | ET             | Elapsed Time                                        |
 | ETA            | Estimated Time of Arrival                           |
+| ETACS | External and Taxiing Aid Camera System |
 | ETD            | Estimated Time of Departure                         |
 | ETE            | Estimated Time En Route                             |
 | ETO            | Estimated Time Over                                 |
 | ETOPS          | Extended Range Twin Engined Aircraft Operations     |
+| ETP | Equal Time Point |
+| ETRAC | Electronic Thrust Reverser Actuation Controller |
+| ETRAS | Electronic Thrust Reverser Actuation System |
 | ETT            | Estimated Time for Takeoff                          |
 | EVAC           | Evacuation                                          |
+| EVAC | Evacuate |
 | EWD            | Engine/Warning Display                              |
 | EWS            | Electronic Warning System                           |
+| EX | Example |
+| ESCESS | Excessive |
+| EXT | Exterior |
 | EXT            | Extend, Extension                                   |
+| EXTING | Extinguishing |
+| Exting | Extinguish |
+| EXTN | Extension |
 | F              | Fuel                                                |
 | F              | Fahrenheit                                          |
 | F              | Minimum Flap Retract Speed (EFIS)                   |
+| F/C | First Class |
 | F/CTL          | Flight Controls                                     |
 | F/O            | First Officer                                       |
 | F/S            | Fast/Slow                                           |
@@ -326,8 +509,12 @@
 | FADEC          | Full Authority Digital Engine Control               |
 | FAF            | Final Approach Fix                                  |
 | FAIL           | Failed, Failure                                     |
+| FAIR | Fairing |
+| FAP | Flight Attendant Panel |
+| FAS | Flight Augmentation System |
 | FAWP           | Final Approach Waypoint                             |
 | FBW            | Fly-by-wire                                         |
+| FC | Fully Closed |
 | FCC            | Flight Control Computer                             |
 | FCCS           | Flight Control Computer System                      |
 | FCCU           | Flight Control Computer Unit                        |
@@ -345,17 +532,24 @@
 | FDU            | Fire Detection Unit                                 |
 | FE             | Flight Envelope                                     |
 | FEC            | Flight Envelope Computer                            |
+| FEDR | Feeder |
 | FES            | Fire Extinguishing System                           |
 | FF             | Fuel Flow                                           |
 | FG             | Flight Guidance                                     |
+| F-G/S | FLS Glide Slope |
 | FGES           | Flight Guidance and Envelope System                 |
 | FGS            | Flight Guidance System                              |
+| FH | Flight Hours |
+| FIX | Fixed |
 | FL             | Flight Level                                        |
 | FLDK           | Flight Deck                                         |
 | FLEX           | Flexible                                            |
+| F-LOC | FLS Localizer |
 | FLP            | Flap                                                |
+| FLS | FMS Landing System |
 | FLT            | Flight                                              |
 | FLT CTL        | Flight Control                                      |
+| FLTR | Filter |
 | FM             | Flight Management                                   |
 | FMA            | Flight Mode Annunciator                             |
 | FMC            | Flight Management Computer                          |
@@ -369,11 +563,18 @@
 | FNA            | Final Approach                                      |
 | FNCP           | Flight Navigation Control Panel                     |
 | FNSG           | Flight Navigation Symbol Generator                  |
+| FO  | Fully Open |
 | FOB            | Fuel On Board                                       |
+| FOD | Foreign Object Damage |
 | FPA            | Flight Path Angle                                   |
 | FPL            | Flight Plan                                         |
 | F-PLN          | Flight Plan                                         |
 | FPM            | Feet per Minute                                     |
+| FPS | Fire Protection System |
+| FPT | Flight Plan Target |
+| FPV | Flight Path Vector |
+| FQ | Fuel Quantity |
+| FR | Frame |
 | FREQ           | Frequency                                           |
 | ft             | Feet, Foot                                          |
 | ft/mn          | Feet per Minute                                     |
@@ -385,6 +586,7 @@
 | FWS            | Flight Warning System                               |
 | FWSD           | Flight Warning and System Display                   |
 | G              | Green                                               |
+| G | Galley |
 | g              | Gram                                                |
 | G/S            | Glide Slope                                         |
 | GA             | Go-Around                                           |
@@ -401,6 +603,7 @@
 | GPWC           | Ground Proximity Warning Computer                   |
 | GPWS           | Ground Proximity Warning System                     |
 | GR             | Gear                                                |
+| GRVTY | Gravity |
 | GS             | Ground Speed                                        |
 | GSHLD          | Glareshield                                         |
 | GW             | Gross Weight                                        |
@@ -409,9 +612,15 @@
 | h              | Hour                                                |
 | h              | Height                                              |
 | H NAV          | Horizontal Navigation                               |
+| HA | Holding Pattern to an Altitude Termination |
+| HARN | Harness |
 | HCU            | Hydraulic Control Unit                              |
 | HDG            | Heading                                             |
 | HDG/S          | Heading Selected                                    |
+| HDL | Handle |
+| HEATG | Heating |
+| HF | Holding Pattern to a Fixed Waypoint |
+| HF | High Frequency |
 | HI             | High                                                |
 | HLD            | Hold                                                |
 | HOLD           | Holding                                             |
@@ -421,7 +630,9 @@
 | HR             | Hour                                                |
 | HRS            | Hours                                               |
 | HSI            | Horizontal Situation Indicator                      |
+| HTG | Heating |
 | HUD            | Head Up Display                                     |
+| HV | High Voltage |
 | HYD            | Hydraulic                                           |
 | HZ             | Hertz                                               |
 | I/P            | Intercept Point                                     |
@@ -430,10 +641,12 @@
 | ICAO           | International Civil Aviation Organisation           |
 | IDENT          | Identification, Identifier, Identify                |
 | IF             | Initial Fix                                         |
+| IFE | In-FLight Entertainment |
 | IFR            | Instrument Flight Rules                             |
 | IGN            | Ignition                                            |
 | ILS            | Instrument Landing System (LOC and G/S)             |
 | IM             | Inner Marker                                        |
+| IMM | Immediate |
 | IMU            | Inertial Measurement Unit                           |
 | in             | Inch                                                |
 | IN             | Inch                                                |
@@ -449,23 +662,34 @@
 | INHIB          | Inhibit, Inhibited, Inhibition                      |
 | INIT           | Initial(ization)                                    |
 | INOP           | Inoperative                                         |
+| INR | Inner |
 | INS            | Inertial Navigation System                          |
 | INST           | Instrument                                          |
+| INT | Interior |
+| INTL | Internal |
 | INTCP          | Intercept                                           |
 | INTERCOM       | Intercommunication                                  |
 | INV            | Inverter                                            |
 | IPDU           | Ice Protection Data Unit                            |
+| IR | Inertial Reference |
 | IRS            | Inertial Reference System                           |
 | IRU            | Inertial Reference Unit                             |
 | ISA            | Inertial Sensor Assembly                            |
 | ISO            | International Standardization Organisation          |
+| ISOL | Isolation |
+| IV | Isolation Valve |
+| JAM | Jammed, Jamming |
 | JEP            | Jeppesen                                            |
+| JTSN | Jettison |
+| KBD | Keyboard |
+| KCCU | Keyboard and Cursor Control Unit |
 | kg             | Kilogram                                            |
 | kg/m³          | Kilograms/Cubic Meter                               |
 | KHZ            | Kilohertz                                           |
 | KIAS           | Knots Indicated Airspeed                            |
 | kPa            | Kilo Pascal                                         |
 | KT             | Knot(s)                                             |
+| KU | Keyboard Unit |
 | KV             | Kilo Volt                                           |
 | KVA            | Kilovolt Ampere                                     |
 | kW             | Kilowatt                                            |
@@ -486,7 +710,9 @@
 | LB-IN          | Pound - Inch                                        |
 | LCD            | Liquid Crystal Display                              |
 | LCH            | Latch                                               |
+| LCTR | Locator |
 | LD             | Load                                                |
+| LD | Lower Deck |
 | LDG            | Landing                                             |
 | LDG GR         | Landing Gear                                        |
 | LED            | Light Emitting Diode                                |
@@ -494,7 +720,9 @@
 | LGMS           | Landing Gear Management System                      |
 | LH             | Left Hand                                           |
 | LIM            | Limit, Limitation, Limiting, Limiter                |
+| LIQD | Liquid |
 | LKD            | Locked                                              |
+| LL | Latitude/Longitude |
 | LO             | Low                                                 |
 | LO PR          | Low Pressure                                        |
 | LOC            | Localizer                                           |
