@@ -766,6 +766,12 @@ Flight Deck: [ECAM Control Panel](flight-deck/pedestal/ecam-control.md)
 
 A32NX_ECAM_SD_CURRENT_PAGE_INDEX:
 
+<style>
+.md-typeset li {
+    line-height: 1.0
+}
+</style>
+
 - -1  = none
 - 0  = ENG
 - 1  = BLEED
@@ -780,7 +786,6 @@ A32NX_ECAM_SD_CURRENT_PAGE_INDEX:
 - 10 = F-CTL
 - 11 = STS
 - 12 = CRUISE
-
 
 ### Thrust Lever and Trim Wheel
 
