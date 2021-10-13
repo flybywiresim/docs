@@ -573,7 +573,7 @@ Flight Deck: [MCDU Panel](flight-deck/pedestal/mcdu.md)
 | BRT / DIM L | A32NX_MCDU_L_BRIGHTNESS | 0..100 | R/W        | MSFS VAR |        |
 
 
-??? note "MCDU API"
+??? note "MCDU API (Click to Expand)"
     The MCDU API is vast as it contains many buttons.
 
     ~~Currently most of the buttons don't have a PRESSED event/var. So a complete remote control is not yet possible.~~  
