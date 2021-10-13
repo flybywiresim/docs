@@ -9,6 +9,8 @@
 
 ![Wipers Panel - Left](../../../assets/a32nx-briefing/overhead-panel/Wipers-Left.jpg "Wipers Panel - Left")
 
+!!! note "API Documentation: [Wiper Panel](../../a32nx_api.md#wiper-panel)"
+
 ## DESCRIPTION
 
 Each windshield is provided with two-speed electric wipers that are controlled by individual WIPER selectors. A rain repellent system is installed, but is deactivated by some airlines.

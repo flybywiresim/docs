@@ -327,6 +327,23 @@ Flight Deck: [Calls Panel](flight-deck/ovhd/calls.md)
 | EMER     | A32NX_CALLS_EMER_ON_LOCK | 0 \| 1 | R          | Custom LVAR |        |
 |          | A32NX_CALLS_EMER_ON      | 0 \| 1 | R/W        | Custom LVAR |        |
 
+### Wiper Panel
+
+Flight Deck: [Wiper Panel](flight-deck/ovhd/wipers.md)
+
+| Function     | API Usage                            | Values | Read/Write | Type        | Remark                                                                   |
+|:-------------|:-------------------------------------|:-------|:-----------|:------------|:-------------------------------------------------------------------------|
+| WIPER L knob | CIRCUIT ON:77                        | 0 \| 1 | R          |             |                                                                          |
+|              | ELECTRICAL_CIRCUIT_POWER_SETTING_SET | 77     |            |             | ~~Unclear how to set power correctly~~                                   |
+|              | ELECTRICAL_CIRCUIT_TOGGLE            | 77     |            |             |                                                                          |
+|              |                                      |        |            |             |                                                                          |
+| WIPER R knob | CIRCUIT ON:88                        | 0 \| 1 | R          |             |                                                                          |
+|              | ELECTRICAL_CIRCUIT_TOGGLE            | 88     |            |             |                                                                          |
+|              | ELECTRICAL_CIRCUIT_POWER_SETTING_SET | 88     |            |             | ~~Unclear how to set power correctly~~                                   |
+|              |                                      |        |            |             |                                                                          |
+| RAIN RPLNT   | A32NX_RAIN_REPELLENT_LEFT_ON         | 0 \| 1 | R          | Custom LVAR | Left and Right are exchanged in the 3D model<br/>~~Fixed with PR #6006~~ |
+|              | A32NX_RAIN_REPELLENT_RIGHT_ON        | 0 \| 1 | R          | Custom LVAR | Left and Right are exchanged in the 3D model<br/>~~Fixed with PR #6006~~ |
+
 ## Glareshield
 
 ### Lighting Knobs
@@ -378,9 +395,9 @@ Flight Deck: [EFIS Control Panel](flight-deck/glareshield/efis_control.md)
 | FD           | AUTOPILOT FLIGHT DIRECTOR ACTIVE | 0 \| 1           | R          | SIMCONNECT VAR   |                                                                       |
 |              | TOGGLE_FLIGHT_DIRECTOR           | -                | -          | SIMCONNECT EVENT |                                                                       |
 |              |                                  |                  |            |                  |                                                                       |
-| LS Capt.     | BTN_LS_1_FILTER_ACTIVE           | 0 \| 1           | R          | Custom LVAR      |                                                                       |
-| LS F.O.      | BTN_LS_2_FILTER_ACTIVE           | 0 \| 1           | R          | Custom LVAR      |                                                                       |
-|              | ???                              |                  |            |                  | No way to change it.                                                  |
+| LS Capt.     | BTN_LS_1_FILTER_ACTIVE           | 0 \| 1           | R          | Custom LVAR      | ~~No way to change it.~~                                              |
+| LS F.O.      | BTN_LS_2_FILTER_ACTIVE           | 0 \| 1           | R          | Custom LVAR      | ~~No way to change it.~~                                              |
+|              |                                  |                  |            |                  |                                                                      |
 |              |                                  |                  |            |                  |                                                                       |
 | ND Filter    | A32NX_EFIS_L_OPTION              | 0..5             | R/W        | Custom LVAR      | 0=none, 1=CSTR, 2=VOR, 3=WPT, 4=NDB, 5=ARPT (Experimental only)       |
 |              | A32NX_EFIS_R_OPTION              | 0..5             | R/W        | Custom LVAR      | 0=none, 1=CSTR, 2=VOR, 3=WPT, 4=NDB, 5=ARPT (Experimental only)       |
@@ -392,9 +409,9 @@ Flight Deck: [EFIS Control Panel](flight-deck/glareshield/efis_control.md)
 |              | A32NX_EFIS_R_ND_RANGE            | 0..5             | R/W        | Custom LVAR      | 0=10, ..., 5=320 (Experimental only)                                  |
 |              |                                  |                  |            |                  |                                                                       |
 | ADF-VOR      | A32NX_EFIS_L_NAVAID_1_MODE       | 0..2             | R/W        | Custom LVAR      | 0=OFF, 1=ADF, 2=VOR (Experimental only)                               |
-|              | A32NX_EFIS_L_NAVAID_2_MODE       | 0..2             | R/W        | Custom LVAR      | 0=OFF, 1=ADF, 2=VOR (Experimental only)                                                   |
-|              | A32NX_EFIS_R_NAVAID_1_MODE       | 0..2             | R/W        | Custom LVAR      | 0=OFF, 1=ADF, 2=VOR (Experimental only)                                                   |
-|              | A32NX_EFIS_R_NAVAID_2_MODE       | 0..2             | R/W        | Custom LVAR      | 0=OFF, 1=ADF, 2=VOR (Experimental only)                                                   |
+|              | A32NX_EFIS_L_NAVAID_2_MODE       | 0..2             | R/W        | Custom LVAR      | 0=OFF, 1=ADF, 2=VOR (Experimental only)                               |
+|              | A32NX_EFIS_R_NAVAID_1_MODE       | 0..2             | R/W        | Custom LVAR      | 0=OFF, 1=ADF, 2=VOR (Experimental only)                               |
+|              | A32NX_EFIS_R_NAVAID_2_MODE       | 0..2             | R/W        | Custom LVAR      | 0=OFF, 1=ADF, 2=VOR (Experimental only)                               |
 
 ### FCU Panel
 
