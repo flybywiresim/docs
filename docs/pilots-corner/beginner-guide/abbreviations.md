@@ -1168,8 +1168,7 @@
 | V/L            | VOR/LOC                                             |
 | V/L            | VOR/Localizer                                       |
 | V/S   | Vertical Speed                                      |
-| V1 | Critical Engine Failure Speed |
-| V1 | Decision Speed |
+| V1 | Decision Speed/Critical Engine Failure Speed |
 | V2 | Takeoff Safety Speed |
 | V2min          | Critical Engine Failure Speed Decision Speed        |
 | VACU           | Vacuum                                              |
