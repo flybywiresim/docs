@@ -36,7 +36,7 @@
     The Experimental version has a less strict QA process and is used for actual QA testing. Bugs and Issues are to be expected. Please read [Experimental Version Support Page](support/exp.md) before using this version.
 
     !!! danger "No Support for Experimental - use at own risk"
-        Please do not seek support for the Experimental Version on Discord and only report issues if you have read this page and the reported and known issues.
+        Please do not seek support for the Experimental Version on Discord and only report issues if you have read this page as well as the reported and known issues.
 
 ## Version Comparison
 
