@@ -49,13 +49,13 @@ This is displayed in green and is shown if the Mach number reaches above 0.5. It
 
 This is displayed in green and shows the speed at which overspeed protections become active.
 
-This speed is V~MO~~ (maximum operating speed) + 6 knots or MMO (maximum Mach speed) + 0.01
+This speed is V~MO~ (maximum operating speed) + 6 knots or M~MO~ (maximum Mach speed) + 0.01
 
 ### ECON Speed Range
 
 This appears in descent mode with ECON/AUTO SPD mode active. Two half triangles will represent the upper and lower limits calculated by the FMGC. This replaces the target speed symbol.
 
-The upper speed is equal to the target speed + 20 knots, limited to V~MAX~, V~MO~ - 3 knots or MMO - 0.006, whichever is the lowest.
+The upper speed is equal to the target speed + 20 knots, limited to V~MAX~, V~MO~ - 3 knots or M~MO~ - 0.006, whichever is the lowest.
 
 If a speed constraint or limit applies then the upper margin is limited to ECON SPD + 5kts.
 
@@ -80,7 +80,7 @@ The top of a red strip along the speed scale indicates this speed. It represents
 
 The lower end of a red and black strip along the speed scale represents this speed. It is the lowest of:
 
-- V~MO~ or the corresponding to MMO
+- V~MO~ or the corresponding to M~MO~
 - V~LE~
 - V~FE~
 
@@ -90,7 +90,7 @@ The top of the red and black strip along the speed scale represents this speed. 
 
 ### Decision Speed (V~1~)
 
-It is sown as blue numeral one (1) at a speed that the pilot inserted manually in the takeoff performance page in the MCDU. When it is off the scale, the upper part of the scale shows the speed in numbers. It disappears after liftoff.
+It is shown as blue numeral one (1) at a speed that the pilot inserted manually in the takeoff performance page in the MCDU. When it is off the scale, the upper part of the scale shows the speed in numbers. It disappears after liftoff.
 
 ### Minimum Flap Retraction Speed (F)
 
@@ -110,7 +110,17 @@ This is a blue dot on the right side of the speedtape. It displays the speed at 
 
 ### V~2~
 
-This is a magenta triangle on the right side of the speedtape. It displays the V~2~ speed which has been set in the TAKE OFF PERF page of the MCDU. This is the speed the aircraft needs to maintain at a minimum up to the acceleration altitude.
+This is a magenta triangle on the right side of the speedtape. It displays the V~2~ speed which has been set in the TAKE OFF PERF page of the MCDU. V~2~ is the minimum speed that needs to be maintained in the event of an engine failure after V~1~ up to acceleration altitude.
+
+V~2~+10 provides better climb performance (before acceleration altitude and during noise abatement program departures).
+
+!!! info "Engine Loss V~2~ Speeds"
+    After takeoff **V~2~+10** is the targeted speed you should reach and maintain by the time you attain a height of 35 FT after takeoff until reaching the acceleration altitude.  
+
+    When an engine failure occurs (shortly before or after takeoff), V~2~ is the minimum allowable speed. Pilots should aim to meet the criteria below at point of engine loss:
+
+    - In a situation where engine is lost before reaching V~2~ the targeted speed is V~2~.
+    - If the aircraft speed is higher than V~2~ then pilots should maintain the higher speed but not exceed V~2~+15.
 
 ---
 
