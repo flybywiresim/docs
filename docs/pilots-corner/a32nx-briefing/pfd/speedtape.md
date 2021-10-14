@@ -122,8 +122,6 @@ V~2~+10 provides better climb performance (before acceleration altitude and duri
     - In a situation where engine is lost before reaching V~2~ the targeted speed is V~2~.
     - If the aircraft speed is higher than V~2~ then pilots should maintain the higher speed but not exceed V~2~+15.
 
-
-
 ---
 
 [Back to Interactive PFD](index.md){ .md-button }
