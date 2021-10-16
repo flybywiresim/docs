@@ -39,7 +39,7 @@ Please follow the steps below. If you can't reproduce the issue until the last i
 - To make sure the issue you are experiencing is not caused by a conflict with other add-ons or liveries remove **everything (really everything!)** from your [Community Folder](#community-folder-content) and perform a [clean reinstall](../installation.md#clean-install-steps) of the A32NX with the [FlyByWire Installer](https://api.flybywiresim.com/installer){target=new}.
 - Also ensure no other 3rd party software such as FSUIPC, SPAD.neXt, YourControls, FS2Crew, etc. are running while you are troubleshooting.
 - Read [3. Research Known Issues](#3-research-known-issues)
-- If the issue is not already known and is reproducible please do make screenshots or a video of the issue situation and continue with chapter [4. Report Issue on Discord](#4-report-issue-on-discord).
+- If the issue is not already known and is reproducible please take screenshots or a video clearly showing your issue and continue with chapter [4. Report Issue on Discord](#4-report-issue-on-discord).
 
 !!! warning "Please really do this as >90% of all reported issues are caused by conflicts with other mods and liveries, etc. Unfortunately Microsoft Flight Simulator 2020 is very sensitive to conflicts between mods and liveries."
 
