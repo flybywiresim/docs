@@ -35,7 +35,7 @@ Please follow the steps below. If you can't reproduce the issue until the last i
 
 1. Read [3. Research Known Issues](#3-research-known-issues)
 - **Make sure the issue is reproducible!**<br/>
-    Issues which happen only once can have many causes and can usually not be investigated or fixed as long as they can't reproduced by the FlyByWire team. To do so restart the sim and try to create the same situation again (e.g. same airports, route, livery, time of day, weather, etc.).
+    Issues which happen only once can have many causes and can usually not be investigated or fixed as they can't reproduced by the FlyByWire team. To do so restart the sim and try to create the same situation again (e.g. same airports, route, livery, time of day, weather, etc.).
 - If the issue is reproducible do a **test in a different situation** (different airports, route, weather, etc.).
 - If the issue is still reproducible please do a **test with another aircraft** (preferably a default Microsoft Flight Simulator aircraft). If the issue is reproducible with other aircraft it is most likely **not** a FlyByWire A32NX issue. If it is not reproducible with other aircraft follow the next steps.
 - To make sure the issue you are experiencing is not caused by a conflict with other add-ons or liveries ***remove everything (really everything!) from your [Community Folder](#community-folder-content)** and perform a [clean reinstall](../installation.md#clean-install-steps) of the A32NX with the [FlyByWire Installer](https://api.flybywiresim.com/installer){target=new}.
