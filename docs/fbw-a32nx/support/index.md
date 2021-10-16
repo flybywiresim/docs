@@ -33,13 +33,14 @@ Please make sure you have acquired the knowledge to distinguish a software issue
 
 Please follow the steps below. If you can't reproduce the issue until the last item in the list then it is most likely NOT a FlyByWire A32NX issue.
 
-1. Make sure the issue is reproducible! Issues which happen only once can have many causes and can usually not be investigated or fixed as long as they can't reproduced by the FlyByWire team. To do so restart the sim and try to create the same situation again (e.g. same airports, route, livery, time of day, weather, etc.).
-- If the issue is reproducible do a test in a different situation (different airports, route, weather, etc.).
-- If the issue is still reproducible please do a test with another aircraft (preferably a default Microsoft Flight Simulator aircraft). If the issue is reproducible with other aircraft it is most likely **not** a FlyByWire A32NX issue. If it is not reproducible with other aircraft follow the next steps.
-- To make sure the issue you are experiencing is not caused by a conflict with other add-ons or liveries remove **everything (really everything!)** from your [Community Folder](#community-folder-content) and perform a [clean reinstall](../installation.md#clean-install-steps) of the A32NX with the [FlyByWire Installer](https://api.flybywiresim.com/installer){target=new}.
-- Also ensure no other 3rd party software such as FSUIPC, SPAD.neXt, YourControls, FS2Crew, etc. are running while you are troubleshooting.
-- Read [3. Research Known Issues](#3-research-known-issues)
-- If the issue is not already known and is reproducible please take screenshots or a video clearly showing your issue and continue with chapter [4. Report Issue on Discord](#4-report-issue-on-discord).
+1. Read [3. Research Known Issues](#3-research-known-issues)
+- **Make sure the issue is reproducible!**<br/>
+    Issues which happen only once can have many causes and can usually not be investigated or fixed as long as they can't reproduced by the FlyByWire team. To do so restart the sim and try to create the same situation again (e.g. same airports, route, livery, time of day, weather, etc.).
+- If the issue is reproducible do a **test in a different situation** (different airports, route, weather, etc.).
+- If the issue is still reproducible please do a **test with another aircraft** (preferably a default Microsoft Flight Simulator aircraft). If the issue is reproducible with other aircraft it is most likely **not** a FlyByWire A32NX issue. If it is not reproducible with other aircraft follow the next steps.
+- To make sure the issue you are experiencing is not caused by a conflict with other add-ons or liveries ***remove everything (really everything!) from your [Community Folder](#community-folder-content)** and perform a [clean reinstall](../installation.md#clean-install-steps) of the A32NX with the [FlyByWire Installer](https://api.flybywiresim.com/installer){target=new}.
+- Also **ensure no other 3rd party software** such as FSUIPC, SPAD.neXt, YourControls, FS2Crew, etc. **is running** while you are troubleshooting.
+- If the issue is not already known and is reproducible please** take screenshots or a video clearly showing your issue** and continue with chapter [4. Report Issue on Discord](#4-report-issue-on-discord).
 
 !!! warning "Please really do this as >90% of all reported issues are caused by conflicts with other mods and liveries, etc. Unfortunately Microsoft Flight Simulator 2020 is very sensitive to conflicts between mods and liveries."
 
