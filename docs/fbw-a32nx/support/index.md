@@ -8,14 +8,14 @@ This guide shall help you how to identify and solve these issues by guiding you 
 
 ##  Index
 
-1. [Learn how to fly an A32NX](#1-learn-how-to-fly-an-a32nx)
+1. [Learn how to fly the A32NX](#1-learn-how-to-fly-the-a32nx)
 - [Troubleshoot](#2-troubleshoot)
 - [Research Known Issues](#3-research-known-issues)
 - [Report Issue on Discord](#4-report-issue-on-discord)
 - [Report Issue on the A32NX Github](#5-report-issue-on-the-a32nx-github)
 - [Collecting Support Information](#collecting-support-information)
 
-## 1. Learn How to Fly an A32NX
+## 1. Learn How to Fly the A32NX
 
 !!! warning "IMPORTANT"
 
