@@ -70,7 +70,20 @@ If you see old versions (e.g. v0.6.1) or if you have multiple installations of t
 
 Information on how to install with the FlyByWire Installer can be found here: [Installation Guide](../installation.md).
 
-#### Ailerons are not working when using the keyboard
+#### Unicode Characters in Windows Username
+
+!!! tip ""
+    *Affected versions: Stable, Development*
+
+If your username on your windows machine (not Xbox gamertag) contains any unicode characters it may cause MSFS to freeze after selecting `Ready to Fly`.
+
+Sample characters (not all inclusive): **ë** or **õ**
+
+Workaround:
+
+- Change your windows username and remove any unicode characters present. [Guide Here](https://www.windowscentral.com/how-change-account-name-windows-10-sign-screen){target=new}
+
+#### Ailerons are Not Working When Using the Keyboard
 
 !!! tip ""
     *Affected versions: Stable, Development*
