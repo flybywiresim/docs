@@ -9,7 +9,7 @@ This guide shall help you how to identify and solve these issues by guiding you 
 ##  Index
 
 1. [Learn how to fly the A32NX](#1-learn-how-to-fly-the-a32nx)
-- [Troubleshoot](#2-troubleshoot)
+- [How to Troubleshoot](#2-how-to-troubleshoot)
 - [Research Known Issues](#3-research-known-issues)
 - [Report Issue on Discord](#4-report-issue-on-discord)
 - [Report Issue on the A32NX Github](#5-report-issue-on-the-a32nx-github)
@@ -27,7 +27,7 @@ Further help can be found on our [:fontawesome-brands-discord:{: .discord } - **
 
 Please make sure you have acquired the knowledge to distinguish a software issue within the A32NX from lack of knowledge on your part. You will help keep our support channel effective for other users reporting actual issues.
 
-## 2. Troubleshoot
+## 2. How to Troubleshoot
 
 !!! warning "Before reporting an issue on the FlyByWire Discord or on GitHub please follow this troubleshoot steps first."
 
