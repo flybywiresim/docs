@@ -331,18 +331,18 @@ Flight Deck: [Calls Panel](flight-deck/ovhd/calls.md)
 
 Flight Deck: [Wiper Panel](flight-deck/ovhd/wipers.md)
 
-| Function     | API Usage                            | Values | Read/Write | Type        | Remark                                                                   |
-|:-------------|:-------------------------------------|:-------|:-----------|:------------|:-------------------------------------------------------------------------|
-| WIPER L knob | CIRCUIT ON:77                        | 0 \| 1 | R          |             |                                                                          |
-|              | ELECTRICAL_CIRCUIT_POWER_SETTING_SET | 77     |            |             | ~~Unclear how to set power correctly~~                                   |
-|              | ELECTRICAL_CIRCUIT_TOGGLE            | 77     |            |             |                                                                          |
-|              |                                      |        |            |             |                                                                          |
-| WIPER R knob | CIRCUIT ON:88                        | 0 \| 1 | R          |             |                                                                          |
-|              | ELECTRICAL_CIRCUIT_TOGGLE            | 88     |            |             |                                                                          |
-|              | ELECTRICAL_CIRCUIT_POWER_SETTING_SET | 88     |            |             | ~~Unclear how to set power correctly~~                                   |
-|              |                                      |        |            |             |                                                                          |
-| RAIN RPLNT   | A32NX_RAIN_REPELLENT_LEFT_ON         | 0 \| 1 | R          | Custom LVAR | Left and Right are exchanged in the 3D model<br/>~~Fixed with PR #6006~~ |
-|              | A32NX_RAIN_REPELLENT_RIGHT_ON        | 0 \| 1 | R          | Custom LVAR | Left and Right are exchanged in the 3D model<br/>~~Fixed with PR #6006~~ |
+| Function     | API Usage                            | Values | Read/Write | Type        | Remark                                 |
+|:-------------|:-------------------------------------|:-------|:-----------|:------------|:---------------------------------------|
+| WIPER L knob | CIRCUIT ON:77                        | 0 \| 1 | R          |             |                                        |
+|              | ELECTRICAL_CIRCUIT_POWER_SETTING_SET | 77     |            |             | ~~Unclear how to set power correctly~~ |
+|              | ELECTRICAL_CIRCUIT_TOGGLE            | 77     |            |             |                                        |
+|              |                                      |        |            |             |                                        |
+| WIPER R knob | CIRCUIT ON:88                        | 0 \| 1 | R          |             |                                        |
+|              | ELECTRICAL_CIRCUIT_TOGGLE            | 88     |            |             |                                        |
+|              | ELECTRICAL_CIRCUIT_POWER_SETTING_SET | 88     |            |             | ~~Unclear how to set power correctly~~ |
+|              |                                      |        |            |             |                                        |
+| RAIN RPLNT   | A32NX_RAIN_REPELLENT_LEFT_ON         | 0 \| 1 | R          | Custom LVAR |                                        |
+|              | A32NX_RAIN_REPELLENT_RIGHT_ON        | 0 \| 1 | R          | Custom LVAR |                                        |
 
 ## Glareshield
 
