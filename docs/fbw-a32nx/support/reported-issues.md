@@ -334,9 +334,9 @@ There are certain bugs with the default FMS - the FlyByWire team is working on a
 
 1. Autopilot goes tries to go Direct to RWY when activating approach.
 - Autopilot tries to return to a previous waypoint when activating approach.
-- Selecting a STAR and arrival runway in the MCDU in flight will result in the issues above.
+- Selecting a STAR and arrival runway in the MCDU while in flight will result in the issues above.
 
-Workaround: Use DIRECT to head to the correct waypoint on your F-PLN or use selected heading. This should allow you to continue your original / correct STAR for arrival. 
+Workaround: Use DIRECT to head to the correct waypoint on your F-PLN or use selected heading. This should allow you to continue with your selected STAR for arrival. 
 
 - If you can, always enter your expected approach in the MCDU before departing. If this doesn't need to be changed, this will skip the turnaround bug on approach. This issue and others like it will be resolved in cFMS.
 
