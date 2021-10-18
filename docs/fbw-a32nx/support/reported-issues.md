@@ -339,7 +339,8 @@ There are certain bugs with the default FMS - the FlyByWire team is working on a
 Workarounds: 
 
 - Use DIRECT to head to the correct waypoint on your F-PLN or use selected heading. This should allow you to continue with your selected STAR for arrival.
-- You can also try switching to selected heading BEFORE selecting your STAR and arrival runway.
+- You can also try switching to selected heading BEFORE selecting your STAR and arrival runway to prevent unwanted flight plan redirection.
+    - Ensure your next waypoint is correct on the ND before returning to managed HDG/NAV mode on the FCU.
 - If you can, always enter your expected approach in the MCDU before departing. If this doesn't need to be changed, this will skip the turnaround bug on approach. This issue and others like it will be resolved in cFMS.
 
 #### CTD when pressing **FLY** on world menu
