@@ -325,25 +325,23 @@ Using **New** Cockpit Interaction System
 - Install/uninstall Navigraph data with the Navigraph Navdata Center application.
 - __Do not__ delete `navigraph-navdata` from the community packages directory, as this will leave default navdata disabled.
 
-#### AP not Following the Flight Plan
+#### Default (Asobo) Flight Management System Issues
 
 !!! tip ""
     *Affected versions: Stable, Development*
 
-- Caused by leaking input from controller, but doesn't disconnect the AP
-- Workaround: Set dead-zones for your input device higher
-    - Go to your settings
-    - Controls and select your yoke/joystick/controller.
-    - After that click the sensitivity button on the top left which should take you to the menu where you can adjust your deadzones. Start with 20% deadzone, if the problem persists keep increasing it. If it's fine with 20% you can then slowly decrease it too.
+There are certain bugs with the default FMS - the FlyByWire team is working on a custom FMS which will fix and address all these bugs and adds much better lateral navigation.
 
-#### Autopilot goes Direct to RWY on APP (same with the Default A320)
+1. Autopilot tries to go Direct to RWY when activating approach.
+- Autopilot tries to return to a previous waypoint when activating approach.
+- Selecting a STAR and arrival runway in the MCDU while in flight will result in the issues above.
 
-!!! tip ""
-    *Affected versions: Stable, Development*
+Workarounds: 
 
-- This is a bug in the default Asobo flight plan manager - the FlyByWire team is working on a customFPM which fixes all these bugs and adds much better navigation
-- For now the workaround is to use DIRECT to the next waypoint again or selected heading.
-- If you can, always enter your expected approach in the MCDU before departing. If this doesn't need to be changed, this will skip the turnaround bug on approach. This issue and others like it will be resolved in cFPM.
+- Use DIRECT to head to the correct waypoint on your F-PLN or use selected heading. This should allow you to continue with your selected STAR for arrival.
+- You can also try switching to selected heading BEFORE selecting your STAR and arrival runway to prevent unwanted flight plan redirection.
+    - Ensure your next waypoint is correct on the ND before returning to managed HDG/NAV mode on the FCU.
+- If you can, always enter your expected approach in the MCDU before departing. If this doesn't need to be changed, this will skip the turnaround bug on approach. This issue and others like it will be resolved in cFMS.
 
 #### CTD when pressing **FLY** on world menu
 
@@ -434,6 +432,8 @@ Crash to desktop (CTD) can either be a sim issue or a conflict with the A32NX. T
 
 !!! tip ""
     Unless stated otherwise, all fixed issues are first released on our development version.
+
+- AP not Following the Flight Plan (Deadzones Issue) - Fixed with custom autopilot.
 
 - Wing Dips on Landing
 
