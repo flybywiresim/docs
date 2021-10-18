@@ -332,12 +332,14 @@ Using **New** Cockpit Interaction System
 
 There are certain bugs with the default FMS - the FlyByWire team is working on a custom FMS which will fix and address all these bugs and adds much better lateral navigation.
 
-1. Autopilot goes tries to go Direct to RWY when activating approach.
+1. Autopilot tries to go Direct to RWY when activating approach.
 - Autopilot tries to return to a previous waypoint when activating approach.
 - Selecting a STAR and arrival runway in the MCDU while in flight will result in the issues above.
 
-Workaround: Use DIRECT to head to the correct waypoint on your F-PLN or use selected heading. This should allow you to continue with your selected STAR for arrival. 
+Workarounds: 
 
+- Use DIRECT to head to the correct waypoint on your F-PLN or use selected heading. This should allow you to continue with your selected STAR for arrival.
+- You can also try switching to selected heading BEFORE selecting your STAR and arrival runway.
 - If you can, always enter your expected approach in the MCDU before departing. If this doesn't need to be changed, this will skip the turnaround bug on approach. This issue and others like it will be resolved in cFMS.
 
 #### CTD when pressing **FLY** on world menu
