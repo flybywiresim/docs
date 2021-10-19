@@ -103,7 +103,13 @@ To learn how to set up the MCDU you can read the [**^^F^^**LIGHT PLAN](../../pil
 
     When you are happy with your changes press `LOAD` using LSK5L to load your custom fuel and weight.
 
-    !!! danger "Please do not touch values in MSFS Fuel & Weights window in the toolbar."
+    !!! danger "Development Version - MSFS Fuel & Weights window in the toolbar"
+        We have blocked the UI elements in the MSFS fuel and weights window. However, the sliders in the MSFS window are movable but in a matter of 1-3 seconds the fuel and payload levels should return to the initial value.
+
+        **PLEASE NOTE** we have changed fuel and payload loading.
+
+        - Fuel: Now done via the [EFB](flyPad/dispatch.md#fuel-page).
+        - Payload: Done through the [W&B in the MCDU](#weights-and-balance)
 
 As described in the previous section return to the AOC menu in MCDU menu.
 
@@ -114,17 +120,23 @@ As described in the previous section return to the AOC menu in MCDU menu.
 
 #### ^^Fuel^^
 
-!!! info "flyPad Fuel Loading"
-    You may also perform fuel loading via our EFB which has a great UI to see the status of fuel tanks and other options. [Guide Here](flyPad/dispatch.md#fuel-page)
+!!! warning "Stable vs Development Fuel Loading"
+    There are differences between how you load fuel depending on the version you are currently flying. Please reference the correct instructons below.
 
-![MCDU ATSU AOC PERF/W&B](../../fbw-a32nx/assets/feature-guides/simbrief/mcdu3.png "MCDU ATSU AOC PERF/W&B"){loading=lazy}
+=== "Development"
+    Fuel loading is now exclusively done via our EFB which has a great UI to see the status of fuel tanks and other options. [Guide Here](flyPad/dispatch.md#fuel-page)
 
-You are presented with the `Fuel Page` first then the `Weights and Balance` page. On the first page you can automatically load your fuel.
+=== "Stable"
+    ![MCDU ATSU AOC PERF/W&B](../../fbw-a32nx/assets/feature-guides/simbrief/mcdu3.png "MCDU ATSU AOC PERF/W&B"){loading=lazy}
 
-* Press LSK5L to instantly load your planned simBrief fuel. (The load button will flash momentarily).
-* You can verify fuel has loaded by looking at your upper ECAM FOB.
+    You are presented with the `Fuel Page` first then the `Weights and Balance` page. On the first page you can automatically load your fuel.
 
-Using the horizontal slew keys you can switch to the weights and balance page.
+    * Press LSK5L to instantly load your planned simBrief fuel. (The load button will flash momentarily).
+    * You can verify fuel has loaded by looking at your upper ECAM FOB.
+
+    Using the horizontal slew keys you can switch to the weights and balance page.
+
+---
 
 #### ^^Weights and Balance^^
 
@@ -158,14 +170,14 @@ In our development version we have introduced a new flight model paired with a n
         - ZFW (Zero Fuel Weight) = OEW (Operating Empty Weight) + Payload
         - ZFWCG = CG based on ZFW (**Not to be mistaken for takeoff CG**)
 
-        Stations in CYAN indicate they are reading/waiting to board/load.
+        Stations in <span style="color:cyan">CYAN</span> indicate they are reading/waiting to board/load.
 
-        Stations that are fully loaded will turn GREEN.
+        Stations that are fully loaded will turn <span style="color:green">GREEN</span>.
 
     !!! block ""
         ![W&B 2](../assets/feature-guides/simbrief/wb2.png){align=right width=50% loading=lazy}
 
-        Once on `W&B` page (2/2) it should look like the sample image even if you have pressed OFP REQUEST in a previous section.
+        Once on `W&B` page it should look like the sample image even if you have pressed OFP REQUEST in a different section.
 
         === "PAX Rows Format"
             - X (Y)
@@ -182,7 +194,7 @@ In our development version we have introduced a new flight model paired with a n
     !!! block ""
         ![W&B 3](../assets/feature-guides/simbrief/wb1.jpg){align=right width=50% loading=lazy}
 
-        You will have to request OFP again for this specific page and your `W&B` page will show total pax, pax per row and cargo hold (in metric tonnes) which populate automatically. 
+        Press OFP Request for this specific page and your `W&B` page will show total pax, pax per row and cargo hold (in metric tonnes) which populate automatically. 
 
         Note: this does not start the boarding process. (Cargo will be limited as a protection to a max capacity if the simBrief OFP cargo exceeds the cargo hold limits).
 

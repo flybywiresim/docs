@@ -4,7 +4,13 @@
 
 This page provides information on the A32NX weights configuration and insight on how to utilize and reference onboard/sim features to configure the aircraft appropriately for departure.
 
-!!! danger "Please do not touch values in MSFS Fuel & Weights window in the toolbar."
+!!! danger "Development Version - MSFS Fuel & Weights window in the toolbar"
+    We have blocked the UI elements in the MSFS fuel and weights window. However, the sliders in the MSFS window are movable but in a matter of 1-3 seconds the fuel and payload levels should return to the initial value.
+
+    **PLEASE NOTE** we have changed fuel and payload loading.
+
+    - Fuel: Now done via the [EFB](flyPad/dispatch.md#fuel-page).
+    - Payload: Done through the [W&B in the MCDU](#weights-and-balance)
 
 ### A32NX Configuration
 
