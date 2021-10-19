@@ -9,12 +9,16 @@ This page provides information on the A32NX weights configuration and insight on
 
     **PLEASE NOTE** we have changed fuel and payload loading.
 
-    - Fuel: Now done via the [EFB](flyPad/dispatch.md#fuel-page).
+    - Fuel: Now done via the [EFB](../flyPad/dispatch.md#fuel-page).
     - Payload: Done through the [W&B in the MCDU](#weights-and-balance)
+
+[Fuel and Weights Loading Guide](loading-fuel-weight.md){.md-button}
+
+---
 
 ### A32NX Configuration
 
-**Development + Experimental Version Only** - See our [simBrief Profile](../installation.md#simbrief-airframe)
+**Development + Experimental Version Only** - See our [simBrief Profile](../../installation.md#simbrief-airframe)
 
 - OEW (Empty Weight): 42500 (in kilograms)
     - Also referred to as DOW (Dry Operating Weight) which can be seen in other simBrief OFP formats such as EZY
@@ -44,14 +48,14 @@ In simple terms the zero fuel weight (ZFW) = OEW + payload. The payload would be
 !!! tip ""
     Your ZFW would total - 56500 KG
 
-You can reference this against any OFP you may have generated through simBrief. For usage of our simBrief integration - [read here](simbrief.md).
+You can reference this against any OFP you may have generated through simBrief. For usage of our simBrief integration - [read here](../simbrief.md).
 
 ## Zero Fuel Weight Center of Gravity
 
 The A32NX will auto calculate the ZFW and ZFWCG on the INIT B page once the aircraft and associated payload is loaded into the simulator.
 
-- See our [Weights and Balance](simbrief.md#weights-and-balance) section in the simBrief integration feature guide.
-- You can read about INIT B configuration [here](../../pilots-corner/beginner-guide/preparing-mcdu.md#init-b).
+- See our [Weights and Balance](loading-fuel-weight.md#weights-and-balance) section in the simBrief integration feature guide.
+- You can read about INIT B configuration [here](../../../pilots-corner/beginner-guide/preparing-mcdu.md#init-b).
 
 ## Center of Gravity
 
@@ -66,7 +70,7 @@ An acceptable range for takeoff CG in the A32NX is between 16-40%. The CG is bal
 
 ![Takeoff CG](../assets/feature-guides/takeoffcg.jpg){loading=lazy} -->
 
-Trimming the aircraft for takeoff can be optional and technically not required. Please reference our the [FBW Checklist](../../pilots-corner/SOP.md) to set the appropriate trim should you wish to.
+Trimming the aircraft for takeoff can be optional and technically not required. Please reference our the [FBW Checklist](../../../pilots-corner/SOP.md) to set the appropriate trim should you wish to.
 
 Ideally, anything less than 25% CG is considered FWD load, and anything more than 25% is considered an AFT load. While opting to choose between either CG configuration (aft/fwd) please consider the information below.
 
