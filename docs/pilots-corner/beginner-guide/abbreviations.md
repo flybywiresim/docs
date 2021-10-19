@@ -35,10 +35,10 @@
 
 | V-Speed            | Term                                                                                                                                                                                                               |
 |:-------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| MMO                | Maximum operating Mach number.                                                                                                                                                                                     |
 | F                  | Minimum speed at which the flaps may be retracted at takeoff (i.e., CONF 2/3). Also the minimum speed in approach when in CONF 2 or 3                                                                              |
-| S                  | Minimum speed at which the slats may be retracted at takeoff. Also the minimum speed in approach when in CONF 1.                                                                                                   |
+| MMO                | Maximum operating Mach number.                                                                                                                                                                                     |
 | O                  | Green dot speed, engine-out operating speed with flaps up, best lift-to-drag ratio speed, also corresponds to final takeoff speed.                                                                                 |
+| S                  | Minimum speed at which the slats may be retracted at takeoff. Also the minimum speed in approach when in CONF 1.                                                                                                   |
 
 
 ## Weight
