@@ -17,7 +17,7 @@
 === "Stable Version"
 
     !!! info ""
-        **Current Stable Version - v0.7.0**
+        **Current Stable Version -** <img src="https://img.shields.io/github/v/release/flybywiresim/a32nx.svg?color=2F4E5B&style=flat" />
 
     Stable is our version which has features that are the most mature and most tested. This should be a reliable version for those users preferring stability over newest features.
 

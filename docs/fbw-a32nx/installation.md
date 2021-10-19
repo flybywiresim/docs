@@ -57,7 +57,7 @@ You can send us logs to our [Discord](https://discord.gg/flybywire){target=new} 
 
     === "Latest Stable Version"
 
-        **Current Stable Version - v0.7.0**
+        **Current Stable Version - ** <img src="https://img.shields.io/github/v/release/flybywiresim/a32nx.svg?color=2F4E5B&style=flat" />
 
           Stable is our variant that has the least bugs and best performance. This version will not always be up to date but we gurantee its compatibility with each major patch from MSFS. 
 
