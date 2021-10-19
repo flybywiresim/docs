@@ -108,6 +108,7 @@ markdown_extensions:
   - pymdownx.tabbed # Content tabs
   - pymdownx.details # Additional features to admonition
   - pymdownx.caret # Formatting Extension
+  - pymdownx.critic # Alternate Formatting Extension
   - pymdownx.mark # Formatting Extension
   - pymdownx.tilde # Formatting Extension
   - pymdownx.keys # Visual keyboard keys extension
