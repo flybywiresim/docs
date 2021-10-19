@@ -49,23 +49,25 @@ will be updated at least once a month.
 
 For all changes refer to the official [CHANGELOG](https://github.com/flybywiresim/a32nx/blob/master/.github/CHANGELOG.md){target=new} or commits on the [:fontawesome-brands-github:{: .github } - **GitHub A32NX Repository Master Branch**](https://github.com/flybywiresim/a32nx/commits/master){target=new}.
 
-*Last Update: 7. Oct 2021*
+*Last Update: 20. Oct 2021*
 
-- Added language translations ( [#5599](https://github.com/flybywiresim/a32nx/pull/5599){target=new} )
-- Improved pitch/C* and ALT* laws ( [#5711](https://github.com/flybywiresim/a32nx/pull/5711){target=new} )
-- EFB: Physical power button ( [#5697](https://github.com/flybywiresim/a32nx/pull/5697){target=new} )
-- MCDU Keyboard settings moved to EFB ( [#5754](https://github.com/flybywiresim/a32nx/pull/5754){target=new} )
+- EFB: Physical power button ( [#5697](https://github.com/flybywiresim/a32nx/pull/5697) )
+- MCDU Keyboard settings moved to EFB ( [#5754](https://github.com/flybywiresim/a32nx/pull/5754) )
 - PTU sounds, engine sound enhancements, and some fixes ( [#5796](https://github.com/flybywiresim/a32nx/pull/5796) )
 - EFB: In-flight refueling capabilitie ( [#5775](https://github.com/flybywiresim/a32nx/pull/5775) )
-- Updated flight model weights and balances ( [#5547](https://github.com/flybywiresim/a32nx/pull/5547) )
-- AP and FBW improvements v2 ( [#5781](https://github.com/flybywiresim/a32nx/pull/5781) )
 - Move simBrief username input out of MCDU ( [#5813](https://github.com/flybywiresim/a32nx/pull/5813) )
-- AP: Improved LOC-CPT, LOC-ALIGN, and ROLLOUT laws ( [#5862](https://github.com/flybywiresim/a32nx/pull/5862) )
-- FBW: Improved speed dependent roll law model ( [#5842](https://github.com/flybywiresim/a32nx/pull/5842) )
 - Model: Independent landing light animation ( [#5913](https://github.com/flybywiresim/a32nx/pull/5913) )
 - HYD: Rigid body simulation for cargo door ( [#5341](https://github.com/flybywiresim/a32nx/pull/5341) )
 - EFB/MCDU: Move telex prompt out of MCDU (MSFS now provides a warning) ( [#5902](https://github.com/flybywiresim/a32nx/pull/5902) )
 - Lights: Sync Strobe/Beacon + EXT LT adjustments + LDG LT behavior ( [#5928](https://github.com/flybywiresim/a32nx/pull/5928) )
-- AP: Improved SPD/MACH law model ( [#5918](https://github.com/flybywiresim/a32nx/pull/5918) )
 - AP: Fixed roll law instability and improved behavior when using high sim rate and low performance ( [#5935](https://github.com/flybywiresim/a32nx/pull/5935) )
-
+- Lights: TAXI/TO logic, ambience for TAXI/TO/RW/LDG LT + min. fixes to STROBE/BEACON/NAV ( [#5973](https://github.com/flybywiresim/a32nx/pull/5973) )
+- Engines: feat: correctly adapt fuel burn with sim rate ( [#5983](https://github.com/flybywiresim/a32nx/pull/5983) )
+- EFB: Support all ofp formats ( [#5897](https://github.com/flybywiresim/a32nx/pull/5897) )
+- ISIS: Add in.Hg and metric altitude pin programs ( [#5998](https://github.com/flybywiresim/a32nx/pull/5998) )
+- PFD: Added beta target indication ( [#6019](https://github.com/flybywiresim/a32nx/pull/6019) )
+- Lights: Add INTEG LT ambience, fix C&D, MAIN PNL flood and PED ambience ( [#6030](https://github.com/flybywiresim/a32nx/pull/6030) )
+- MCDU: Annunciator Lights ( [#6008](https://github.com/flybywiresim/a32nx/pull/6008) )
+- RMP: 25 khz vhf spacing option ( [#6037](https://github.com/flybywiresim/a32nx/pull/6037) )
+- ECAM: Revised ECAM SD fuel page to match NEO ( [#5989](https://github.com/flybywiresim/a32nx/pull/5989) )
+- EIS: New EIS2 font ( [#6009](https://github.com/flybywiresim/a32nx/pull/6009) )
