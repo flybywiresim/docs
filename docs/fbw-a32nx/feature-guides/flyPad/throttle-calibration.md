@@ -18,6 +18,7 @@ It covers the frequently used [Thrustmaster TCA Throttle Quadrant Airbus edition
 - [Keyboard](#keyboard)
 - [Xbox Controller](#xbox-controller)
 - [Troubleshooting](#troubleshooting)
+- [Manual Configuration](#manual-configuration)
 
 ---
 
