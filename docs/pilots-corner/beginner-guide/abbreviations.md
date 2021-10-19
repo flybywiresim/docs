@@ -124,8 +124,8 @@
 | ACTVN          | Activation                                          |
 | ACTVT          | Activate                                            |
 | ACU            | Air Cooling Unit                                    |
-| ADB            | Area Distribution Box                               |
 | ADB            | Airport Database                                    |
+| ADB            | Area Distribution Box                               |
 | ADC            | Air Data Computer                                   |
 | ADCN           | Avionics Data Communication Network                 |
 | ADD            | Addition, Additional                                |
@@ -166,11 +166,11 @@
 | AIM            | Aircraft Integrated Maintenance                     |
 | AIMI           | Avionics Information Management Interface           |
 | AINS           | Aircraft Information Network System                 |
-| AIP            | Attendant Indication Panel                          |
 | AIP            | Aeronautical Information Publication                |
+| AIP            | Attendant Indication Panel                          |
 | AIRCOND        | Air Conditioning                                    |
-| AIS            | Audio Integrated System                             |
 | AIS            | Aeronautical Information Service                    |
+| AIS            | Audio Integrated System                             |
 | AL             | Airline                                             |
 | ALIGN          | Alignment                                           |
 | ALIGND         | Aligned                                             |
@@ -194,14 +194,14 @@
 | AMU            | Audio Management Unit                               |
 | ANLG           | Analogic                                            |
 | ANN            | Annunciator                                         |
+| ANN LT         | Annunciator Light                                   |
 | ANNCE          | Announce                                            |
 | ANNCMT         | Announcement                                        |
-| ANN LT         | Annunciator Light                                   |
 | ANSA           | At Nearest Suitable Airport                         |
 | ANT            | Antenna                                             |
 | AOA            | Angle Of Attack                                     |
-| AOC            | Airline Operational Control                         |
 | AOC            | Air Operator's Certificate                          |
+| AOC            | Airline Operational Control                         |
 | AOD            | Audio On Demand                                     |
 | AOG            | Aircraft On Ground                                  |
 | AOHX           | Air/Oil Heat Exchanger                              |
@@ -243,8 +243,8 @@
 | AUTO           | Automatic                                           |
 | AUTOLAND       | Automatic Landing                                   |
 | AUX            | Auxiliary                                           |
-| AVAIL          | Available                                           |
 | AVAIL          | Availability                                        |
+| AVAIL          | Available                                           |
 | AVG            | Average                                             |
 | AVIONICS       | Aviation Electronics                                |
 | AVNCS          | Avionics                                            |
@@ -266,11 +266,11 @@
 | BKUP           | Backup                                              |
 | BL             | Bleed                                               |
 | BLG            | Body Landing Gear                                   |
-| BLK            | Block                                               |
 | BLK            | Black                                               |
-| BLW            | Below                                               |
+| BLK            | Block                                               |
 | BLST           | Ballast                                             |
 | BLV            | Bleed Valve                                         |
+| BLW            | Below                                               |
 | BLWG           | Blowing                                             |
 | BM             | Beam                                                |
 | BRDG           | Bridge                                              |
@@ -305,8 +305,8 @@
 | CANC           | Cancellation                                        |
 | CANCD          | Cancelled                                           |
 | CAPT           | Captain                                             |
-| CAS            | Collision Avoidance System                          |
 | CAS            | Calibrated Air Speed                                |
+| CAS            | Collision Avoidance System                          |
 | CAT            | Category                                            |
 | CAUT           | Caution                                             |
 | CAUT LT        | Caution Light                                       |
@@ -314,8 +314,8 @@
 | CCRM           | Cabin Crew Rest Module                              |
 | CCS            | Cabin Communication System                          |
 | CCW            | Counter Clock Wise                                  |
-| CD             | Control Display                                     |
 | CD             | Compact Disk                                        |
+| CD             | Control Display                                     |
 | CDA            | Continuous Descent Arrival                          |
 | CDC            | Cargo Door Controller                               |
 | CDL            | Configuration Deviation List                        |
@@ -335,8 +335,8 @@
 | CK             | Check                                               |
 | CKD            | Checked                                             |
 | CKPT           | Cockpit                                             |
-| CL             | Climb                                               |
 | CL             | Check List                                          |
+| CL             | Climb                                               |
 | CLB            | Climb                                               |
 | CLD            | Closed                                              |
 | CLG            | Ceiling                                             |
@@ -380,8 +380,8 @@
 | CSL            | Console                                             |
 | CSTR           | Constraint                                          |
 | CTK            | Center Tank                                         |
-| CTL            | Control                                             |
 | CTL            | Central                                             |
+| CTL            | Control                                             |
 | CTLR           | Controller                                          |
 | CTR            | Center                                              |
 | CU             | Control Unit                                        |
@@ -398,11 +398,9 @@
 | DADS           | Digital Air Data System                             |
 | DAMP           | Damping                                             |
 | DAU            | Data Acquisition Unit                               |
-| DB             | Decibel                                             |
 | DB             | Data Base                                           |
-| dB             | Decibel                                             |
 | DB             | Database                                            |
-| dB(A)          | A-Weighted Decibel                                  |
+| DB             | Decibel                                             |
 | DC             | Direct Current                                      |
 | DCD            | Data Control and Display                            |
 | DCDU           | Datalink Control and Display Unit                   |
@@ -416,8 +414,8 @@
 | DEL            | Delete                                              |
 | DEP            | Departure                                           |
 | DEPRESS        | Depressurization                                    |
-| DES            | Descent                                             |
 | DES            | Descend                                             |
+| DES            | Descent                                             |
 | DEST           | Destination                                         |
 | DET            | Detection, Detector                                 |
 | DETECTD        | Detected                                            |
@@ -522,20 +520,23 @@
 | ETRAC          | Electronic Thrust Reverser Actuation Controller     |
 | ETRAS          | Electronic Thrust Reverser Actuation System         |
 | ETT            | Estimated Time for Takeoff                          |
-| EVAC           | Evacuation                                          |
 | EVAC           | Evacuate                                            |
+| EVAC           | Evacuation                                          |
 | EWD            | Engine/Warning Display                              |
 | EWS            | Electronic Warning System                           |
 | EX             | Example                                             |
 | EXCESS         | Excessive                                           |
-| EXT            | Exterior                                            |
 | EXT            | Extend, Extension                                   |
+| EXT            | Exterior                                            |
 | EXTING         | Extinguishing                                       |
-| Exting         | Extinguish                                          |
 | EXTN           | Extension                                           |
-| F              | Fuel                                                |
+| Exting         | Extinguish                                          |
 | F              | Fahrenheit                                          |
+| F              | Fuel                                                |
 | F              | Minimum Flap Retract Speed (EFIS)                   |
+| F-G/S          | FLS Glide Slope                                     |
+| F-LOC          | FLS Localizer                                       |
+| F-PLN          | Flight Plan                                         |
 | F/C            | First Class                                         |
 | F/CTL          | Flight Controls                                     |
 | F/O            | First Officer                                       |
@@ -575,7 +576,6 @@
 | FES            | Fire Extinguishing System                           |
 | FF             | Fuel Flow                                           |
 | FG             | Flight Guidance                                     |
-| F-G/S          | FLS Glide Slope                                     |
 | FGES           | Flight Guidance and Envelope System                 |
 | FGS            | Flight Guidance System                              |
 | FH             | Flight Hours                                        |
@@ -583,7 +583,6 @@
 | FL             | Flight Level                                        |
 | FLDK           | Flight Deck                                         |
 | FLEX           | Flexible                                            |
-| F-LOC          | FLS Localizer                                       |
 | FLP            | Flap                                                |
 | FLS            | FMS Landing System                                  |
 | FLT            | Flight                                              |
@@ -607,7 +606,6 @@
 | FOD            | Foreign Object Damage                               |
 | FPA            | Flight Path Angle                                   |
 | FPL            | Flight Plan                                         |
-| F-PLN          | Flight Plan                                         |
 | FPM            | Feet per Minute                                     |
 | FPS            | Fire Protection System                              |
 | FPT            | Flight Plan Target                                  |
@@ -615,8 +613,6 @@
 | FQ             | Fuel Quantity                                       |
 | FR             | Frame                                               |
 | FREQ           | Frequency                                           |
-| ft             | Feet, Foot                                          |
-| ft/mn          | Feet per Minute                                     |
 | FTK            | Fuel Tank                                           |
 | FU             | Fuel Used                                           |
 | FUSLG          | Fuselage                                            |
@@ -624,9 +620,8 @@
 | FWD            | Forward                                             |
 | FWS            | Flight Warning System                               |
 | FWSD           | Flight Warning and System Display                   |
-| G              | Green                                               |
 | G              | Galley                                              |
-| g              | Gram                                                |
+| G              | Green                                               |
 | G/S            | Glide Slope                                         |
 | GA             | Go-Around                                           |
 | GDNC           | Guidance                                            |
@@ -648,8 +643,6 @@
 | GW             | Gross Weight                                        |
 | GYRO           | Gyroscope                                           |
 | H              | Hot (Electrical Point)                              |
-| h              | Hour                                                |
-| h              | Height                                              |
 | H NAV          | Horizontal Navigation                               |
 | HA             | Holding Pattern to an Altitude Termination          |
 | HARN           | Harness                                             |
@@ -658,13 +651,12 @@
 | HDG/S          | Heading Selected                                    |
 | HDL            | Handle                                              |
 | HEATG          | Heating                                             |
-| HF             | Holding Pattern to a Fixed Waypoint                 |
 | HF             | High Frequency                                      |
+| HF             | Holding Pattern to a Fixed Waypoint                 |
 | HI             | High                                                |
 | HLD            | Hold                                                |
 | HOLD           | Holding                                             |
 | HP             | High Pressure                                       |
-| Hpa            | Hecto Pascal                                        |
 | HPA            | High Power Amplifier                                |
 | HR             | Hour                                                |
 | HRS            | Hours                                               |
@@ -674,6 +666,7 @@
 | HV             | High Voltage                                        |
 | HYD            | Hydraulic                                           |
 | HZ             | Hertz                                               |
+| Hpa            | Hecto Pascal                                        |
 | I/P            | Intercept Point                                     |
 | IAF            | Initial Approach Fix                                |
 | IAS            | Indicated Airspeed                                  |
@@ -687,7 +680,6 @@
 | IM             | Inner Marker                                        |
 | IMM            | Immediate                                           |
 | IMU            | Inertial Measurement Unit                           |
-| in             | Inch                                                |
 | IN             | Inch                                                |
 | IN HG          | Inches of Mercury                                   |
 | INA            | Initial Approach                                    |
@@ -705,9 +697,9 @@
 | INS            | Inertial Navigation System                          |
 | INST           | Instrument                                          |
 | INT            | Interior                                            |
-| INTL           | Internal                                            |
 | INTCP          | Intercept                                           |
 | INTERCOM       | Intercommunication                                  |
+| INTL           | Internal                                            |
 | INV            | Inverter                                            |
 | IPDU           | Ice Protection Data Unit                            |
 | IR             | Inertial Reference                                  |
@@ -724,20 +716,16 @@
 | KCAS           | Knot Calibrated Air Speed                           |
 | KCCU           | Keyboard and Cursor Control Unit                    |
 | KEAS           | Knots Equivalent Air Speed                          |
-| kg             | Kilogram                                            |
-| kg/m³          | Kilograms/Cubic Meter                               |
 | KHZ            | Kilohertz                                           |
 | KIAS           | Knots Indicated Airspeed                            |
-| kPa            | Kilo Pascal                                         |
 | KT             | Knot(s)                                             |
 | KTAS           | Knot True Air Speed                                 |
 | KU             | Keyboard Unit                                       |
 | KV             | Kilo Volt                                           |
 | KVA            | Kilovolt Ampere                                     |
-| kW             | Kilowatt                                            |
+| L              | Left                                                |
 | L              | Length                                              |
 | L              | Litre or Liter                                      |
-| L              | Left                                                |
 | L ECAM DU      | Left ECAM Display Unit                              |
 | L/D            | Lift/Drag                                           |
 | L/G            | Landing Gear                                        |
@@ -745,9 +733,7 @@
 | LAT            | Lateral                                             |
 | LAT            | Latitude                                            |
 | LAV            | Lavatory                                            |
-| lb             | Pound                                               |
 | LB             | Pounds                                              |
-| lbf/in²        | Pounds force per square inch                        |
 | LB-FT          | Pound - Force - Foot (Torque)                       |
 | LB-IN          | Pound - Inch                                        |
 | LCD            | Liquid Crystal Display                              |
@@ -780,12 +766,11 @@
 | LVR            | Lever                                               |
 | LW             | Landing Weight                                      |
 | LWR            | Lower                                               |
-| M              | Maneuvering Speed (EFIS)                            |
-| M              | Magenta                                             |
-| m              | Meter                                               |
-| M              | Mode                                                |
-| M              | Mach Number                                         |
 | M              | Mach                                                |
+| M              | Mach Number                                         |
+| M              | Magenta                                             |
+| M              | Maneuvering Speed (EFIS)                            |
+| M              | Mode                                                |
 | MA             | Milli-Ampere                                        |
 | MAG            | Magnetic                                            |
 | MAINT          | Maintenance                                         |
@@ -794,7 +779,6 @@
 | MAX CLB        | Maximum Climb                                       |
 | MAX DES        | Maximum Descent                                     |
 | MB             | Millibars                                           |
-| mbar           | Millibar                                            |
 | MCDU           | Multipurpose Control & Display Unit                 |
 | MCT            | Maximum Continuous Thrust                           |
 | MCU            | Master Control Unit                                 |
@@ -807,22 +791,17 @@
 | MEW            | Manufacturer's Empty Weight                         |
 | MFD            | Multifunction Display                               |
 | MGT            | Management                                          |
-| MID            | Middle                                              |
 | MIC            | Microphone                                          |
-| mile/h         | Miles per Hour                                      |
+| MID            | Middle                                              |
 | MIN            | Minimum                                             |
-| min            | Minute                                              |
 | MIN FUEL       | Minimum Fuel                                        |
 | MIN TIME       | Minimum Time                                        |
 | MISC           | Miscellaneous                                       |
-| ml             | Milliliter                                          |
 | MLG            | Main Landing Gear                                   |
 | MM             | Middle Marker                                       |
-| mm             | Millimeter                                          |
 | MMEL           | Master Minimum Equipment List                       |
 | MMO            | Mach Max Operating Speed                            |
 | MMO            | Maximum Operating Mach                              |
-| Mn             | Mach Number                                         |
 | MON            | Monitor, Monitoring, Monitored                      |
 | MRW            | Maximum Ramp Weight                                 |
 | MSA            | Minimum Safe Altitude                               |
@@ -839,7 +818,7 @@
 | MWS            | Master Warning System                               |
 | MZFCG          | Maximum Zero Fuel Center of Gravity                 |
 | MZFW           | Maximum Design Zero Fuel Weight                     |
-| n              | Load Factor                                         |
+| Mn             | Mach Number                                         |
 | N              | Newton                                              |
 | N              | Normal                                              |
 | N              | North                                               |
@@ -847,8 +826,8 @@
 | N/P            | Next Page                                           |
 | N/W            | Nose Wheel                                          |
 | N/WS           | Nose Wheel Steering                                 |
-| N1             | Low Pressure Rotor Speed                            |
 | N1             | Engine Fan Speed                                    |
+| N1             | Low Pressure Rotor Speed                            |
 | N1.D           | N1 Descent                                          |
 | N1.L           | N1 Latch                                            |
 | N2             | High Pressure Rotor Speed                           |
@@ -856,21 +835,21 @@
 | NAVAID         | Navigation Aid                                      |
 | ND             | Navigation Display                                  |
 | NDB            | Navigation Data Base                                |
-| NDB            | Non-Directional Radio Beacon                        |
 | NDB            | Non-Directional Beacon                              |
+| NDB            | Non-Directional Radio Beacon                        |
 | NEG            | Negative                                            |
 | NLG            | Nose Landing Gear                                   |
 | NM             | Nautical Mile                                       |
-| Nm             | Moment (Newtonmeter)                                |
 | NO             | Normal Operation                                    |
-| No             | Number                                              |
 | NORM           | Normal                                              |
 | NOTAM          | Notice to Airmen                                    |
 | NS             | No Smoking                                          |
 | NW             | Nose Wheel                                          |
+| Nm             | Moment (Newtonmeter)                                |
+| No             | Number                                              |
 | O              | Open                                                |
-| O2             | Oxygen (Symbol)                                     |
 | O/P            | Output                                              |
+| O2             | Oxygen (Symbol)                                     |
 | OANC           | Onboard Airport Navigation Computer                 |
 | OANS           | Onboard Airport Navigation System                   |
 | OAT            | Outside Air Temperature                             |
@@ -889,8 +868,8 @@
 | OP             | Operational                                         |
 | OPP            | Opposite                                            |
 | OPS            | Operations                                          |
-| OPT            | Optional                                            |
 | OPT            | Optimum                                             |
+| OPT            | Optional                                            |
 | OPTL           | Optional                                            |
 | OPU            | Overspeed Protection Unit                           |
 | OTOW           | Operational Take-Off Weight                         |
@@ -916,12 +895,10 @@
 | P/L            | Payload                                             |
 | PA             | Passenger Address                                   |
 | PA             | Public Address                                      |
-| Pa             | Pascal                                              |
 | PARK           | Parking                                             |
 | PAS            | Pitch Attitude Sensor                               |
 | PAX            | PAX Announcement Entertainment &                    |
 | PAX            | Passenger                                           |
-| Pb             | Pressure Ambient                                    |
 | PC             | Pack Controller                                     |
 | PCT            | Percent                                             |
 | PCU            | Power Control Unit                                  |
@@ -930,8 +907,6 @@
 | PF             | Pilot Flying                                        |
 | PFD            | Primary Flight Display                              |
 | PG             | Page                                                |
-| phi            | Bank Angle                                          |
-| phi N          | Nominal Bank Angle                                  |
 | PHR            | Pounds per Hour                                     |
 | PIREP          | Pilot Report                                        |
 | PLT            | Pilot                                               |
@@ -964,6 +939,8 @@
 | PW             | Pratt and Whitney                                   |
 | PWR            | Power                                               |
 | PWS            | Predictive WindShear                                |
+| Pa             | Pascal                                              |
+| Pb             | Pressure Ambient                                    |
 | Q              | Pitch Rate                                          |
 | QAR            | Quick Access Recorder                               |
 | QFE            | Baro Pressure Setting for Airfield Altitude         |
@@ -971,13 +948,13 @@
 | QFE            | Pressure Setting for Airfield Altitude              |
 | QNE            | Sea Level Standard Atmosphere Pressure              |
 | QNH            | Baro Pressure Setting for en Route Altitude         |
-| QNH            | Sea Level Atmospheric Pressure                      |
 | QNH            | Pressure Setting for En Route Altitude              |
+| QNH            | Sea Level Atmospheric Pressure                      |
 | QNH            | Sea Level Pressure                                  |
 | QRH            | Quick Reference Handbook                            |
 | QTY            | Quantity                                            |
-| R              | Red                                                 |
 | R              | Radius                                              |
+| R              | Red                                                 |
 | R              | Release                                             |
 | R              | Reset                                               |
 | R              | Right                                               |
@@ -986,11 +963,10 @@
 | R/H            | Radar Height                                        |
 | R/I            | Radio/Inertial                                      |
 | R/L            | Reading Light                                       |
-| r/min          | Revolutions per Minute                              |
-| R/T            | Receiver Transmitter Unit                           |
 | R/T            | Radio Transmit                                      |
-| RA             | Resolution Advisory                                 |
+| R/T            | Receiver Transmitter Unit                           |
 | RA             | Radio Altimeter, Radio Altitude                     |
+| RA             | Resolution Advisory                                 |
 | RAAS           | Runway Awareness and Advisory System                |
 | RAD            | Radio                                               |
 | RAI            | Ram Air Inlet                                       |
@@ -1000,8 +976,8 @@
 | RCDR           | Recorder                                            |
 | RCL            | Recall                                              |
 | RCLM           | Runway Center Line Marking                          |
-| RCR            | Runway Condition Report                             |
 | RCLS           | Runway Center Line Light System                     |
+| RCR            | Runway Condition Report                             |
 | RCVR           | Receiver                                            |
 | RCVY           | Recovery                                            |
 | RDY            | Ready                                               |
@@ -1046,9 +1022,8 @@
 | RVS            | Reverse                                             |
 | RVSN           | Reversion                                           |
 | RWY            | Runway                                              |
-| S              | South                                               |
 | S              | Minimum Slat Retract Speed (EFIS)                   |
-| s              | Second                                              |
+| S              | South                                               |
 | S/C S/D        | Step Climb Step Descent                             |
 | S/W            | Software                                            |
 | SAT            | Static Air Temperature                              |
@@ -1059,15 +1034,15 @@
 | SDAC           | System Daa Analog Converter                         |
 | SDCU           | Smoke Detection Control Unit                        |
 | SEAL           | Sealing                                             |
-| SEC            | Spoiler Elevator Computer                           |
 | SEC            | Secondary                                           |
 | SEC            | Secondary Computer                                  |
+| SEC            | Spoiler Elevator Computer                           |
 | SEG            | Segment                                             |
 | SEL            | Select, Selected, Selector, Selection               |
 | SELCAL         | Selective Calling System                            |
 | SEQ            | Sequence, Sequential                                |
-| SER            | Serial Number                                       |
 | SER            | Serial                                              |
+| SER            | Serial Number                                       |
 | SGU            | Symbol Generator Unit                               |
 | SHT            | Short                                               |
 | SI             | Slip Indicator                                      |
@@ -1105,11 +1080,10 @@
 | SWTG           | Switching                                           |
 | SYNC           | Synchro, Synchronise                                |
 | SYS            | System                                              |
+| T              | Time                                                |
+| T              | Trim                                                |
 | T              | True                                                |
 | T              | Turn                                                |
-| T              | Trim                                                |
-| T              | Time                                                |
-| t              | Tonne                                               |
 | T/C            | Top of Climb                                        |
 | T/D            | Top of Descent                                      |
 | T/R            | Thrust Reverser                                     |
@@ -1169,8 +1143,8 @@
 | UD             | Upper Deck                                          |
 | UHF            | Ultra High Frequency                                |
 | UTC            | Universal Time Coordinated                          |
-| V              | Volt, Voltage                                       |
 | V              | Valve                                               |
+| V              | Volt, Voltage                                       |
 | V/L            | VOR/LOC                                             |
 | V/L            | VOR/Localizer                                       |
 | V/S V1 V1 V2   | Vertical Speed                                      |
@@ -1193,8 +1167,8 @@
 | VORTAC         | Visual Omni-Range Tactical Air Navigation           |
 | VSI            | Vertical Speed Indicator                            |
 | VSW            | Stall Warning Speed                                 |
-| W              | Weight                                              |
 | W              | Watt                                                |
+| W              | Weight                                              |
 | W              | West                                                |
 | W/V            | Wind Direction and Speed                            |
 | WAI            | Wing Anti-Ice                                       |
@@ -1214,12 +1188,12 @@
 | X BLEED X FEED | Crossfeed                                           |
 | X LINE         | Crossline                                           |
 | X VALVE        | Cross Valve                                         |
+| X-TALK         | Cross-talk                                          |
 | XCHECK         | Crosscheck                                          |
 | XFR            | Transfer                                            |
 | XING           | Crossing                                            |
 | XPDR           | Transponder                                         |
 | XPNDR          | Transponder                                         |
-| X-TALK         | Cross-talk                                          |
 | XWIND          | Crosswind                                           |
 | Y              | Yellow                                              |
 | Y/C            | Economy Class                                       |
@@ -1231,3 +1205,29 @@
 | ZFW            | Zero Fuel Weight                                    |
 | Zp             | Pressure Altitude                                   |
 | Zpi            | Indicated Pressure Altitude                         |
+| dB             | Decibel                                             |
+| dB(A)          | A-Weighted Decibel                                  |
+| ft             | Feet, Foot                                          |
+| ft/mn          | Feet per Minute                                     |
+| g              | Gram                                                |
+| h              | Height                                              |
+| h              | Hour                                                |
+| in             | Inch                                                |
+| kPa            | Kilo Pascal                                         |
+| kW             | Kilowatt                                            |
+| kg             | Kilogram                                            |
+| kg/m³          | Kilograms/Cubic Meter                               |
+| lb             | Pound                                               |
+| lbf/in²        | Pounds force per square inch                        |
+| m              | Meter                                               |
+| mbar           | Millibar                                            |
+| mile/h         | Miles per Hour                                      |
+| min            | Minute                                              |
+| ml             | Milliliter                                          |
+| mm             | Millimeter                                          |
+| n              | Load Factor                                         |
+| phi            | Bank Angle                                          |
+| phi N          | Nominal Bank Angle                                  |
+| r/min          | Revolutions per Minute                              |
+| s              | Second                                              |
+| t              | Tonne                                               |
