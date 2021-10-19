@@ -442,7 +442,7 @@ Another solution is to simply delete the current configuration file (as describe
 To setup or correct throttle calibration values directly we follow these steps which are detailed below.
 
 1. Shut down Microsoft Flight Simulator.
-2. Locate you "**work***" folder.
+2. Locate your "**work***" folder.
 3. Locate the "**ThrottleConfiguration.ini**" file.
 4. Create a backup copy of the "**ThrottleConfiguration.ini**" file.
 5. Delete or Edit the "**ThrottleConfiguration.ini**" file as required!
