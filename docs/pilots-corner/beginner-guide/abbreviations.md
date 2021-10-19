@@ -34,7 +34,7 @@
 ##  Additional Speeds
 
 | V-Speed            | Term                                                                                                                                                                                                               |
-|:-------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|:-------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | MMO                | Maximum operating Mach number.                                                                                                                                                                                     |
 | F                  | Minimum speed at which the flaps may be retracted at takeoff (i.e., CONF 2/3). Also the minimum speed in approach when in CONF 2 or 3                                                                              |
 | S                  | Minimum speed at which the slats may be retracted at takeoff. Also the minimum speed in approach when in CONF 1.                                                                                                   |
@@ -44,14 +44,14 @@
 ## Weight
 
 | Weight           | Term                                                                                                                                                                                                               |
-|:-------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|:-------------------|:--------------------------------|
 | AGW                 | Actual Gross Weight                 |
 | AUW                 | All-Up Weight                       |
 | AZFW                | Actual Zero Fuel Weight             |
 | BEW                 | Basic Empty Weight                  | 
 | BOH                 | Brake-Off Weight                    |
-| DWE                 | Delivery Empty Weight               |
 | DOW                 | Dry Operating Weight                |
+| DWE                 | Delivery Empty Weight               |
 | GW                  | Gross Weight                        |
 | JFGW                | Jettison Final Gross Weight         |
 | LW                  | Landing Weight                      |
@@ -76,7 +76,6 @@
 | TOGW                | Takeoff Gross Weight                |
 | TOW                 | Takeoff Weight                      |
 | ZFW                 | Zero Fuel Weight                    |
-
 
 ## Abbreviations
 
