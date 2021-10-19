@@ -16,6 +16,10 @@ Current Projects:
 
     Documentation project to manage and improve documentation for our users. This includes documentation about the A32NX, general sim-pilot documentation, and documentation about development for the A32NX.
 
+- [Discord Bot](discord-bot.md)
+
+    FlyByWire Simulations custom bot commands list and changelog. Provides a quick overview of available support commands and changes to bot development.
+
 - [Website](website.md)
 
     Marketing website for FlyByWire Simulations
