@@ -14,7 +14,7 @@ hide:
     as possible. Some variables/events are only available in the Experimental
     version of A32NX and are marked as such.
 
-    If you find any errors please report them on our [:fontawesome-brands-discord:{: .discord }
+    You can help us keep this up to date and improve this by reporting any errors or omissions on our [:fontawesome-brands-discord:{: .discord }
       - **Discord**](https://discord.gg/flybywire){target=new} in the **#support** channel.
 
 Find the complete list of Custom Event and Custom LVARS of the A32NX:
