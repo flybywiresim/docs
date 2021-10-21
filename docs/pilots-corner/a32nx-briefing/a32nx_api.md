@@ -115,10 +115,15 @@ Flight Deck:  [EXT LT Panel](flight-deck/ovhd/ext-lt.md)
 | LAND L + R   | LANDING_LIGHTS_ON     | 0..3   | -          | SIMCONNECT EVENT | 0=all, 1=NOSE, 2=L, 3=R             |
 |              | LANDING_LIGHTS_OFF    | 0..3   | -          | SIMCONNECT EVENT | 0=all, 1=NOSE, 2=L, 3=R             |
 |              | LANDING_LIGHTS_TOGGLE | 0..3   | -          | SIMCONNECT EVENT | 0=all, 1=NOSE, 2=L, 3=R             |
+|              | CIRCUIT SWITCH ON:18  | 0 \| 1 | R/W        | SIMCONNECT VAR   | LL Left                             |
+|              | CIRCUIT SWITCH ON:19  | 0 \| 1 | R/W        | SIMCONNECT VAR   | LL Right                                |
 |              |                       |        |            |                  |                                     |
 | NOSE         | TOGGLE_TAXI_LIGHTS    | -      | -          | SIMCONNECT EVENT | Also toggles RWY TURN OFF LIGHT     |
 |              | LIGHT TAXI            | 0 \| 1 | R/W        | SIMCONNECT VAR   | Only switches TAXI light            |
 |              | LANDING_LIGHTS_TOGGLE | 1      | -          | SIMCONNECT EVENT | Toggles switch between T.O. and OFF |
+|              | CIRCUIT SWITCH ON:20  | 0 \| 1 | R/W        | SIMCONNECT VAR   | NOSE TAXI                           |
+|              | CIRCUIT SWITCH ON:17  | 0 \| 1 | R/W        | SIMCONNECT VAR   | NODE T.O.                           |
+|              |                       |        |            |                  |                                     |
 
 ### Interior Lights Panel
 
@@ -959,18 +964,25 @@ Flight Deck: [Cockpit Door Panel](flight-deck/pedestal/cockpit-door.md)
 
 ## Flight Stick
 
-Flight Deck: [Cockpit Door Panel](flight-deck/pedestal/cockpit-door.md)
+| Function             | API Usage                 | Values        | Read/Write | Type             | Remark                         |
+|:---------------------|:--------------------------|:--------------|:-----------|:-----------------|:-------------------------------|
+| Aileron              | AILERON_SET               | -16383..16384 | -          | SIMCONNECT EVENT |                                |
+|                      | AILERON POSITION          | -1.0..1.0     | R          | SIMCONNECT VAR   |                                |
+|                      |                           |               |            |                  |                                |
+| Elevator             | ELEVATOR_SET              | -16383..16384 | -          | SIMCONNECT EVENT |                                |
+|                      | ELEVATOR POSITION         | -1.0..1.0     | R          | SIMCONNECT VAR   |                                |
+|                      |                           |               |            |                  |                                |
+| TAKE OVER pushbutton | A32NX_PRIORITY_TAKEOVER:1 | 0 \| 1        | R          | Custom LVAR      | Causes AP disconnection        |
+|                      | A32NX_PRIORITY_TAKEOVER:2 | 0 \| 1        | R          | Custom LVAR      | Causes AP disconnection        |
 
-| Function             | API Usage                 | Values        | Read/Write | Type             | Remark                        |
-|:---------------------|:--------------------------|:--------------|:-----------|:-----------------|:------------------------------|
-| Aileron              | AILERON_SET               | -16383..16384 | -          | SIMCONNECT EVENT |                               |
-|                      | AILERON POSITION          | -1.0..1.0     | R          | SIMCONNECT VAR   |                               |
-|                      |                           |               |            |                  |                               |
-| Elevator             | ELEVATOR_SET              | -16383..16384 | -          | SIMCONNECT EVENT |                               |
-|                      | ELEVATOR POSITION         | -1.0..1.0     | R          | SIMCONNECT VAR   |                               |
-|                      |                           |               |            |                  |                               |
-| TAKE OVER pushbutton | A32NX_PRIORITY_TAKEOVER:1 | 0 \| 1        | R          | Custom LVAR      | Causes AP disconnection       |
-|                      | A32NX_PRIORITY_TAKEOVER:2 | 0 \| 1        | R          | Custom LVAR      | Causes AP disconnection       |
-|                      |                           |               |            |                  |                               |
-| Rudder               | RUDDER_SET                | -16383..16384 | -          | SIMCONNECT EVENT | Some Sticks havea rudder AXIS |
-|                      | RUDDER POSITION           | -1.0..1.0     | R          | SIMCONNECT VAR   |                               |
+## Rudder Pedals
+
+| Function | API Usage                      | Values        | Read/Write | Type             | Remark |
+|:---------|:-------------------------------|:--------------|:-----------|:-----------------|:-------|
+| Rudder   | RUDDER_SET                     | -16383..16384 | -          | SIMCONNECT EVENT |        |
+|          | RUDDER POSITION                | -1.0..1.0     | R          | SIMCONNECT VAR   |        |
+|          |                                |               |            |                  |        |
+| Brakes   | A32NX_LEFT_BRAKE_PEDAL_INPUT   | 0..100        | R          | Custom LVAR      |        |
+|          | A32NX_RIGHT_BRAKE_PEDAL_INPUT  | 1..100        | R          | Custom LVAR      |        |
+|          | SIMCONNECT:AXIS_LEFT_BRAKE_SET | -16383..16384 | -          | SIMCONNECT EVENT |        |
+|          | SIMCONNECT:AXIS_LEFT_BRAKE_SET | -16383..16384 | -          | SIMCONNECT EVENT |        |
