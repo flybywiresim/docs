@@ -36,7 +36,7 @@ To participate in the FlyByWire Documentation Project you need to have following
 - Install with this single line command:
 
     ```
-    pip install mkdocs-material mkdocs-awesome-pages-plugin mkdocs-git-revision-date-localized-plugin mkdocs-redirects
+    pip install -r requirements.txt
     ```
 
 - Editor / IDE:
@@ -65,6 +65,16 @@ To participate in the FlyByWire Documentation Project you need to have following
     INFO     -  Documentation built in 4.03 seconds
     INFO     -  [12:05:30] Serving on http://127.0.0.1:8000/
     ```
+  
+!!! info "Faster Preview Server"
+    You can opt to use a faster instance of the developer server by invoking the flag `--dirtyreload`. This just checks for any markdown that has changed since the HTML was rendered and will reconstruct any relevant pages only rather than rebuilding the entire website.
+
+    ```
+    mkdocs.exe server --dirtyreload
+    ```
+
+    !!! danger ""
+        Navigation and new internal links may not get updated on other pages while using `--dirtyreload`. Verify links using the standard serve or build command.
 
 - You can now browse the current checked out branch in a browser at this address: [http://127.0.0.1:8000/](http://127.0.0.1:8000/). The site renders every time you save any `filename.md` you are working on.
 - Optional: Build static site locally for testing:
