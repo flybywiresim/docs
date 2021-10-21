@@ -44,17 +44,17 @@ Flight Deck:  [ELEC Panel](flight-deck/ovhd/elec.md)
 |             | A32NX_OVHD_ELEC_EXT_PWR_PB_IS_ON          | 0 \| 1 | R          | Custom LVAR      |                                            |
 |             |                                           |        |            |                  |                                            |
 | GEN 1       | TOGGLE_ALTERNATOR:1                       | -      | -          | SIMCONNECT EVENT |                                            |
-|             | GENERAL ENG MASTER ALTERNATOR:1           | 0 \| 1 | R/W        | SIMCONNECT VAR   | Alternative                                |
+|             | GENERAL ENG MASTER ALTERNATOR:1           | 0 \| 1 | R/W        | SIMCONNECT VAR   |                                            |
 |             | A32NX_OVHD_ELEC_ENG_GEN_1_PB_IS_ON        | 0 \| 1 | R          | Custom LVAR      |                                            |
 |             | A32NX_OVHD_ELEC_ENG_GEN_1_PB_HAS_FAULT    | 0 \| 1 | R          | Custom LVAR      |                                            |
 | GEN 2       | TOGGLE_ALTERNATOR:2                       | -      | -          | SIMCONNECT EVENT |                                            |
-|             | GENERAL ENG MASTER ALTERNATOR:2           | 0 \| 1 | R/W        | SIMCONNECT VAR   | Alternative                                |
+|             | GENERAL ENG MASTER ALTERNATOR:2           | 0 \| 1 | R/W        | SIMCONNECT VAR   |                                            |
 |             | A32NX_OVHD_ELEC_ENG_GEN_2_PB_IS_ON        | 0 \| 1 | R          | Custom LVAR      |                                            |
 |             | A32NX_OVHD_ELEC_ENG_GEN_2_PB_HAS_FAULT    | 0 \| 1 | R          | Custom LVAR      |                                            |
 |             |                                           |        |            |                  |                                            |
 | APU GEN     | APU_GENERATOR_SWITCH_TOGGLE               | -      | -          | SIMCONNECT EVENT |                                            |
-|             | APU_GENERATOR_SWITCH_SET                  | 0 \| 1 | -          | SIMCONNECT EVENT | Alternative                                |
-|             | APU GENERATOR SWITCH                      | 0 \| 1 | R/W        | SIMCONNECT LVAR  | Alternative                                |
+|             | APU_GENERATOR_SWITCH_SET                  | 0 \| 1 | -          | SIMCONNECT EVENT |                                            |
+|             | APU GENERATOR SWITCH                      | 0 \| 1 | R/W        | SIMCONNECT LVAR  |                                            |
 |             | A32NX_OVHD_ELEC_APU_GEN_1_PB_IS_ON        | 0 \| 1 | R          | Custom LVAR      |                                            |
 |             | A32NX_OVHD_ELEC_APU_GEN_1_PB_HAS_FAULT    | 0 \| 1 | R          | Custom LVAR      |                                            |
 |             |                                           |        |            |                  |                                            |
@@ -387,32 +387,32 @@ Flight Deck: [Warning Panel](flight-deck/glareshield/warning.md)
 
 Flight Deck: [EFIS Control Panel](flight-deck/glareshield/efis_control.md)
 
-| Function     | API Usage                        | Values           | Read/Write | Type             | Remark                                                                    |
-|:-------------|:---------------------------------|:-----------------|:-----------|:-----------------|:--------------------------------------------------------------------------|
-| Baro Display | KOHLSMAN SETTING MB:1            | 948-1084 (hPa)   | R          | MSFS VAR         |                                                                           |
-|              | KOHLSMAN SETTING HG:1            | 27.99-32.01 (Hg) | R          | MSFS VAR         |                                                                           |
-|              |                                  |                  |            |                  |                                                                           |
-| Baro knob    | KOHLMAN_INC                      | -                | -          | SIMCONNECT EVENT |                                                                           |
-|              | KOHLMAN_INC                      | -                | -          | SIMCONNECT EVENT |                                                                           |
-|              |                                  |                  |            |                  |                                                                           |
-| inHG / hPa   | XMLVAR_BARO_SELECTOR_HPA_1       | 0 \| 1           | R/W        | Custom LVAR      | 0=Hg, 1=hPa                                                               |
-|              |                                  |                  |            |                  |                                                                           |
-| FD           | AUTOPILOT FLIGHT DIRECTOR ACTIVE | 0 \| 1           | R          | SIMCONNECT VAR   |                                                                           |
-|              | TOGGLE_FLIGHT_DIRECTOR           | -                | -          | SIMCONNECT EVENT |                                                                           |
-|              |                                  |                  |            |                  |                                                                           |
-| LS Capt.     | BTN_LS_1_FILTER_ACTIVE           | 0 \| 1           | R          | Custom LVAR      | ~~No way to change it.~~                                                  |
-| LS F.O.      | BTN_LS_2_FILTER_ACTIVE           | 0 \| 1           | R          | Custom LVAR      | ~~No way to change it.~~                                                  |
-|              |                                  |                  |            |                  |                                                                           |
-|              |                                  |                  |            |                  |                                                                           |
-| ND Filter    | A32NX_EFIS_L_OPTION              | 0..5             | R/W        | Custom LVAR      | 0=none, 1=CSTR, 2=VOR, 3=WPT, 4=NDB, 5=ARPT <br/>==(Experimental only)==  |
+| Function     | API Usage                        | Values           | Read/Write | Type             | Remark                                                                         |
+|:-------------|:---------------------------------|:-----------------|:-----------|:-----------------|:-------------------------------------------------------------------------------|
+| Baro Display | KOHLSMAN SETTING MB:1            | 948-1084 (hPa)   | R          | MSFS VAR         |                                                                                |
+|              | KOHLSMAN SETTING HG:1            | 27.99-32.01 (Hg) | R          | MSFS VAR         |                                                                                |
+|              |                                  |                  |            |                  |                                                                                |
+| Baro knob    | KOHLMAN_INC                      | -                | -          | SIMCONNECT EVENT |                                                                                |
+|              | KOHLMAN_INC                      | -                | -          | SIMCONNECT EVENT |                                                                                |
+|              |                                  |                  |            |                  |                                                                                |
+| inHG / hPa   | XMLVAR_BARO_SELECTOR_HPA_1       | 0 \| 1           | R/W        | Custom LVAR      | 0=Hg, 1=hPa                                                                    |
+|              |                                  |                  |            |                  |                                                                                |
+| FD           | AUTOPILOT FLIGHT DIRECTOR ACTIVE | 0 \| 1           | R          | SIMCONNECT VAR   |                                                                                |
+|              | TOGGLE_FLIGHT_DIRECTOR           | -                | -          | SIMCONNECT EVENT |                                                                                |
+|              |                                  |                  |            |                  |                                                                                |
+| LS Capt.     | BTN_LS_1_FILTER_ACTIVE           | 0 \| 1           | R          | Custom LVAR      | ~~Not working currently.~~                                                     |
+| LS F.O.      | BTN_LS_2_FILTER_ACTIVE           | 0 \| 1           | R          | Custom LVAR      | ~~Not working currently.~~                                                     |
+|              |                                  |                  |            |                  |                                                                                |
+|              |                                  |                  |            |                  |                                                                                |
+| ND Filter    | A32NX_EFIS_L_OPTION              | 0..5             | R/W        | Custom LVAR      | 0=none, 1=CSTR, 2=VOR, 3=WPT, 4=NDB, 5=ARPT <br/>==(Experimental only)==       |
 |              | A32NX_EFIS_R_OPTION              | 0..5             | R/W        | Custom LVAR      | 0=none, 1=CSTR, 2=VOR, 3=WPT, 4=NDB, 5=ARPT <br/>==(Experimental only)==       |
-|              |                                  |                  |            |                  |                                                                           |
+|              |                                  |                  |            |                  |                                                                                |
 | ND MODE      | A32NX_EFIS_L_ND_MODE             | 0..4             | R/W        | Custom LVAR      | 0=ROSE ILS, 1=ROSE VOR, 2=ROSE NAV. 3=ARC, 4=PLAN <br/>==(Experimental only)== |
 |              | A32NX_EFIS_R_ND_MODE             | 0..4             | R/W        | Custom LVAR      | 0=ROSE ILS, 1=ROSE VOR, 2=ROSE NAV. 3=ARC, 4=PLAN <br/>==(Experimental only)== |
-|              |                                  |                  |            |                  |                                                                           |
+|              |                                  |                  |            |                  |                                                                                |
 | ND RANGE     | A32NX_EFIS_L_ND_RANGE            | 0..5             | R/W        | Custom LVAR      | 0=10, ..., 5=320 <br/>==(Experimental only)==                                  |
 |              | A32NX_EFIS_R_ND_RANGE            | 0..5             | R/W        | Custom LVAR      | 0=10, ..., 5=320 <br/>==(Experimental only)==                                  |
-|              |                                  |                  |            |                  |                                                                           |
+|              |                                  |                  |            |                  |                                                                                |
 | ADF-VOR      | A32NX_EFIS_L_NAVAID_1_MODE       | 0..2             | R/W        | Custom LVAR      | 0=OFF, 1=ADF, 2=VOR <br/>==(Experimental only)==                               |
 |              | A32NX_EFIS_L_NAVAID_2_MODE       | 0..2             | R/W        | Custom LVAR      | 0=OFF, 1=ADF, 2=VOR <br/>==(Experimental only)==                               |
 |              | A32NX_EFIS_R_NAVAID_1_MODE       | 0..2             | R/W        | Custom LVAR      | 0=OFF, 1=ADF, 2=VOR <br/>==(Experimental only)==                               |
