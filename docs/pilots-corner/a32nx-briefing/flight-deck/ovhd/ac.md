@@ -8,6 +8,8 @@
 
 ![Air Conditioning Panel](../../../assets/a32nx-briefing/overhead-panel/AC-Panel.jpg "Air Conditioning Panel"){loading=lazy}
 
+!!! note "API Documentation: [AC Panel API](../../a32nx_api.md#air-condition-panel)"
+
 ## Description
 
 The air conditioning system operation is fully automatic and refreshes air constantly and maintains temperature in the aircraft.

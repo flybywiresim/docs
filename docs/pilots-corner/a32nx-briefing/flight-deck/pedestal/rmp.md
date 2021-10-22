@@ -8,6 +8,8 @@
 
 ![Radio Management Panel](../../../assets/a32nx-briefing/pedestal/RMP.jpg "Radio Management Panel")
 
+!!! note "API Documentation: [RMP Panel](../../a32nx_api.md#rmp)"
+
 ## Description
 
 Communication in the A320 is done via these subsystems:

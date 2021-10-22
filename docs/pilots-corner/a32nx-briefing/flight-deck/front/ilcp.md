@@ -8,6 +8,8 @@
 
 ![Instrument Lighting Control Panel](../../../assets/a32nx-briefing/front/ilcp.jpg "Instrument Lighting Control Panel")
 
+!!! note "API Documentation: [ILCP Panel API](../../a32nx_api.md#instrument-lighting-control-panel)"
+
 ## Description
 
 These additional EFIS Controls help manage and adjust the main displays of the pilots.

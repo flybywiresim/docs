@@ -8,6 +8,8 @@
 
 ![ATC-TCAS Panel](../../../assets/a32nx-briefing/pedestal/ATC-TCAS.jpg "ATC-TCAS Panel")
 
+!!! note "API Documentation: [ATC TCAS Panel](../../a32nx_api.md#atc-tcas)"
+
 ## Description
 
 The aircraft has two ATC transponders (XPDR) which are controlled by a control panel (ATC/TCAS) on the center pedestal.
@@ -31,7 +33,7 @@ The XPDR is capable of elementary surveillance (ELS) and enhanced surveillance (
     - The barometric vertical speed
 - Supplied by the IRs:
     - The magnetic heading
-    - The roll angle 
+    - The roll angle
     - The ground speed
     - The track angle
     - The track angle rate

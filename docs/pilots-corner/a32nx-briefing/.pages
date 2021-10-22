@@ -2,5 +2,6 @@ title: A320neo Pilot Briefing
 nav:
   - Overview: index.md
   - flight-deck
+  - a32nx_api.md
   - ecam
   - pfd

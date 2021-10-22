@@ -4,9 +4,12 @@
 
 [Back to Flight Deck](../index.md){ .md-button }
 
+
 ---
 
 ![Internal Lights Panel](../../../assets/a32nx-briefing/overhead-panel/Int-lt-Panel.jpg "Internal Lights Panel")
+
+!!! note "API Documentation: [INT LT Panel API](../../a32nx_api.md#interior-lights-panel)"
 
 ## Usage
 

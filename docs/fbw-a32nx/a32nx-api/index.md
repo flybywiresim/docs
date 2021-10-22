@@ -42,7 +42,11 @@ But the Aerosoft CRJ aircraft requires these variables:
 
 The mentioned software solutions would then enable the user to map a hardware landing light button to these three aircraft specific variables instead of using the default Simconnect event.
 
-The FlyByWire A32NX also requires specific variables to control its advanced features. The documentation for these variables and events can be found here: [A32NX API Documentation](lvars-events.md)
+The FlyByWire A32NX also requires specific variables to control its advanced features. The documentation for these variables and events can be found here:
+
+Flight-Deck Documentation: [Flight-Deck API](../../pilots-corner/a32nx-briefing/a32nx_api.md)
+
+Developer Documentation: [A32NX API Documentation](lvars-events.md)
 
 The most common software solutions are:
 

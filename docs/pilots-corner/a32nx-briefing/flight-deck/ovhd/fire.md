@@ -8,6 +8,8 @@
 
 ![Fire Control Panel](../../../assets/a32nx-briefing/overhead-panel/Fire-Control-Panel.jpg "Fire Control Panel")
 
+!!! note "API Documentation: [Fire Panel API](../../a32nx_api.md#fire-panel)"
+
 ## Description
 
 The A320's fire and smoke detection system consists of:

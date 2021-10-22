@@ -8,6 +8,8 @@
 
 ![Overhead Electrical Panel](../../../assets/a32nx-briefing/overhead-panel/ELEC-Panel.jpg "Overhead Electrical Panel"){loading=lazy}
 
+!!! note "API Documentation: [ELEC Panel API](../../a32nx_api.md#elec-panel)"
+
 ## Description
 
 The A320neo's electrical system is automatic for most normal operations. There is only very little crew interaction or input required.
@@ -141,7 +143,7 @@ The IDG switches are normally spring-loaded out. Pressing these switches disconn
 
 ## ECAM ELEC page
 
-![ECAM Elec page](../../../assets/a32nx-briefing/overhead-panel/ECAM-Elec-page.jpg "ECAM Elec page"){loading=lazy}
+See [ECAM ELEC page](../../ecam/sd/elec.md)
 
 ---
 

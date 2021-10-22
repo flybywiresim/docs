@@ -8,6 +8,8 @@
 
 ![Thrust Lever and Elevation Trim](../../../assets/a32nx-briefing/pedestal/Thrust-lever-elev-trim.jpg "Thrust Lever and Elevation Trim")
 
+!!! note "API Documentation: [Thrust Lever Panel](../../a32nx_api.md#isis)"
+
 ## Description
 
 The A320 has so called FADECs which stands for Full Authority Digital Engine Control and is responsible to ensure the engine to perform at maximum efficiency for the given condition.

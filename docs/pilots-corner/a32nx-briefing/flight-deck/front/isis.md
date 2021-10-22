@@ -8,6 +8,8 @@
 
 ![Integrated Standby Instrument System](../../../assets/a32nx-briefing/front/ISIS.jpg "Integrated Standby Instrument System")
 
+!!! note "API Documentation: [ISIS Panel](../../a32nx_api.md#isis)"
+
 ## Description
 
 The Integrated Standby Instrument System (ISIS) integrates the 4 classical standby instruments (Compass, Horizon, Airspeed, Altimeter) into one single instrument.

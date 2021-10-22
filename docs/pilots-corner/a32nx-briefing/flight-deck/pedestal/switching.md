@@ -8,6 +8,8 @@
 
 ![Switching Panel](../../../assets/a32nx-briefing/pedestal/Switching-Panel.jpg "Switching Panel")
 
+ !!! note "API Documentation: [EFIS Control Panel](../../a32nx_api.md#switching-panel)"
+
 ## Description
 
 To have maximal redundancy A320 pilots can switch backup computers or data sources to be used for either the Captain's or First Officer's displays.

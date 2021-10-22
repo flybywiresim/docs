@@ -8,6 +8,8 @@
 
 ![Speed Brake Panel](../../../assets/a32nx-briefing/pedestal/Speed-brake-panel.jpg "Speed Brake Panel")
 
+!!! note "API Documentation: [Speed Brake Panel](../../a32nx_api.md#speed-brake)"
+
 ## Usage
 
 ### SPEED BRAKE
