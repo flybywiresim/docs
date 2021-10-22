@@ -914,22 +914,22 @@ Flight Deck: [Speed Brake Panel](flight-deck/pedestal/speedbrake.md)
 
 Flight Deck: [Speed Brake Panel](flight-deck/pedestal/flaps.md)
 
-| Function   | API Usage                  | Values   | Read/Write | Type             | Remark                                      |
-|:-----------|:---------------------------|:---------|:-----------|:-----------------|:--------------------------------------------|
-| Flaps Axis | FLAPS_SET                  | 0..16384 | -          | SIMCONNECT EVENT | 0=FLAPS UP, 16384=FLAPS FULL                |
-|            | FLAPS_UP                   | -        | -          | SIMCONNECT EVENT |                                             |
-|            | FLAPS_1                    | -        | -          | SIMCONNECT EVENT |                                             |
-|            | FLAPS_2                    | -        | -          | SIMCONNECT EVENT |                                             |
-|            | FLAPS_3                    | -        | -          | SIMCONNECT EVENT |                                             |
-|            | FLAPS_DOWN                 | -        | -          | SIMCONNECT EVENT |                                             |
-|            | FLAPS_INC                  | -        | -          | SIMCONNECT EVENT |                                             |
-|            | FLAPS_DEC                  | -        | -          | SIMCONNECT EVENT |                                             |
-|            |                            |          |            |                  |                                             |
-|            | A32NX_FLAPS_HANDLE_INDEX   | 0..4     | R          | Custom LVAR      | 0=UP, 4=FULL                                |
-|            | A32NX_FLAPS_HANDLE_PERCENT | 0.0..1.0 | R          | Custom LVAR      | 0.0=UP, 1.0=FULL                            |
-|            |                            |          |            |                  |                                             |
-|            | FLAPS HANDLE INDEX         | 0..5     | R          | SIMCONNECT VAR   | ~~Currently broken in Development version~~       |
-|            | FLAPS HANDLE PERCENT       | 0.0..1.0 | R          | SIMCONNECT VAR   | ~~Currently broken in Development version~~ |
+| Function   | API Usage                  | Values   | Read/Write | Type             | Remark                        |
+|:-----------|:---------------------------|:---------|:-----------|:-----------------|:------------------------------|
+| Flaps Axis | FLAPS_SET                  | 0..16384 | -          | SIMCONNECT EVENT | 0=FLAPS UP, 16384=FLAPS FULL  |
+|            | FLAPS_UP                   | -        | -          | SIMCONNECT EVENT |                               |
+|            | FLAPS_1                    | -        | -          | SIMCONNECT EVENT |                               |
+|            | FLAPS_2                    | -        | -          | SIMCONNECT EVENT |                               |
+|            | FLAPS_3                    | -        | -          | SIMCONNECT EVENT |                               |
+|            | FLAPS_DOWN                 | -        | -          | SIMCONNECT EVENT |                               |
+|            | FLAPS_INC                  | -        | -          | SIMCONNECT EVENT |                               |
+|            | FLAPS_DEC                  | -        | -          | SIMCONNECT EVENT |                               |
+|            |                            |          |            |                  |                               |
+|            | A32NX_FLAPS_HANDLE_INDEX   | 0..4     | R          | Custom LVAR      | 0=UP, 4=FULL                  |
+|            | A32NX_FLAPS_HANDLE_PERCENT | 0.0..1.0 | R          | Custom LVAR      | 0.0=UP, 1.0=FULL (0.25 steps) |
+|            |                            |          |            |                  |                               |
+|            | FLAPS HANDLE INDEX         | 0..5     | R          | SIMCONNECT VAR   | 0=UP, 5=FULL, 1 is not used.  |
+|            | FLAPS HANDLE PERCENT       | 0.0..1.0 | R          | SIMCONNECT VAR   | 0.0=UP, 1.0=FULL (0.2 steps)  |
 
 ### Parking Brake
 
