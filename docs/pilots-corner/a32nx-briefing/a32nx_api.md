@@ -365,24 +365,6 @@ Flight Deck: [Glareshield Lighting Knobs](flight-deck/glareshield/light-knobs.md
 |                             |                        |        |            |          |        |
 | Table Light F.O.            | LIGHT POTENTIOMETER:11 | 0..100 | R/W        | MSFS VAR |        |
 
-### Warning Panel
-
-Flight Deck: [Warning Panel](flight-deck/glareshield/warning.md)
-
-| Function            | API Usage                        | Values | Read/Write | Type        | Remark |
-|:--------------------|:---------------------------------|:-------|:-----------|:------------|:-------|
-| MASTER CAUTION      | A32NX_MASTER_CAUTION             | 0 \| 1 | R/W        | Custom LVAR |        |
-|                     |                                  |        |            |             |        |
-| MASTER WARNING      | A32NX_MASTER_WARNING             | 0 \| 1 | R/W        | Custom LVAR |        |
-|                     |                                  |        |            |             |        |
-| CHRONO              | N/A                              |        |            |             |        |
-|                     |                                  |        |            |             |        |
-| SIDE STICK PRIORITY | N/A                              |        |            |             |        |
-|                     |                                  |        |            |             |        |
-| AUTOLAND WARNING    | A32NX_AUTOPILOT_AUTOLAND_WARNING | 0 \| 1 | R/W        | Custom LVAR |        |
-|                     |                                  |        |            |             |        |
-| ATC MSG             | N/A                              |        |            |             |        |
-
 ### EFIS Control Panel
 
 Flight Deck: [EFIS Control Panel](flight-deck/glareshield/efis_control.md)
@@ -480,6 +462,25 @@ Flight Deck: [FCU Panel](flight-deck/glareshield/fcu.md)
 |                   |                                     |                  |            |                  |                                       |
 | HDG-TRK / V/S-FPA | A32NX_TRK_FPA_MODE_ACTIVE           | 0 \| 1           | R          | Custom LVAR      |                                       |
 |                   | A32NX.FCU_TRK_FPA_TOGGLE_PUSH       | -                | -          | Custom EVENT     |                                       |
+
+### Warning Panel
+
+Flight Deck: [Warning Panel](flight-deck/glareshield/warning.md)
+
+| Function            | API Usage                        | Values | Read/Write | Type        | Remark |
+|:--------------------|:---------------------------------|:-------|:-----------|:------------|:-------|
+| MASTER CAUTION      | A32NX_MASTER_CAUTION             | 0 \| 1 | R/W        | Custom LVAR |        |
+|                     |                                  |        |            |             |        |
+| MASTER WARNING      | A32NX_MASTER_WARNING             | 0 \| 1 | R/W        | Custom LVAR |        |
+|                     |                                  |        |            |             |        |
+| CHRONO              | N/A                              |        |            |             |        |
+|                     |                                  |        |            |             |        |
+| SIDE STICK PRIORITY | N/A                              |        |            |             |        |
+|                     |                                  |        |            |             |        |
+| AUTOLAND WARNING    | A32NX_AUTOPILOT_AUTOLAND_WARNING | 0 \| 1 | R/W        | Custom LVAR |        |
+|                     |                                  |        |            |             |        |
+| ATC MSG             | N/A                              |        |            |             |        |
+
 
 ## Instrument Panel
 
