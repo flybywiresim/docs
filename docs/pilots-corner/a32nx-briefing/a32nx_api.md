@@ -909,6 +909,7 @@ Flight Deck: [Speed Brake Panel](flight-deck/pedestal/speedbrake.md)
 |                  |                                |          |            |                  |                                  |
 | GND SPOILER ARM  | SPOILERS_ARM_TOGGLE            | -        | -          | SIMCONNECT EVENT |                                  |
 |                  | SPOILERS ARMED                 | 0 \| 1   | R/W        | SIMCONNECT VAR   |                                  |
+|                  | A32NX_SPOILER_ARMED            | 0 \| 1   | R          | Custom LVAR         |                                  |
 
 ### Flaps
 
