@@ -8,6 +8,8 @@
 
 ![WX Radar Panel](../../../assets/a32nx-briefing/pedestal/WX-radar-Panel.jpg "WX Radar Panel")
 
+!!! note "API Documentation: [Radar Panel](../../a32nx_api.md#wx-radar)"
+
 ## Description
 
 The A320 is fitted with a weather radar system which includes a Predictive Windshear System (PWS) and a weather hazard prediction function.

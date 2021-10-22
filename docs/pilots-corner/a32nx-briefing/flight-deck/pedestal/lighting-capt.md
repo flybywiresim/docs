@@ -8,6 +8,8 @@
 
 ![Pedestal Lighting Knobs](../../../assets/a32nx-briefing/pedestal/Pedestal-lighting.jpg "Pedestal Lighting Knobs")
 
+!!! note "API Documentation: [Lighting Pedestal Cpt. Side Panel API](../../a32nx_api.md#lighting-pedestal-captain-side-panel)"
+
 ## Usage
 
 ### FLOOD LT MAIN PNL knob

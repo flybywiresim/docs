@@ -8,6 +8,8 @@
 
 ![Rudder Trim Panel](../../../assets/a32nx-briefing/pedestal/Rudder-trim-Panel.jpg "Rudder Trim Panel")
 
+!!! note "API Documentation: [Rudder Trim Panel](../../a32nx_api.md#rudder-trim)"
+
 ## Usage
 
 ###  RUD TRIM Rotary Switch

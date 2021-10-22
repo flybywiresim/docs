@@ -8,6 +8,8 @@
 
 ![Outer Glareshield Panel](../../../assets/a32nx-briefing/glareshield/warning-panel.png "Outer Glareshield Panel")
 
+!!! note "API Documentation: [Warning Panel](../../a32nx_api.md#warning-panel)"
+
 ## Usage
 
 ### 1. SIDE STICK PRIORITY

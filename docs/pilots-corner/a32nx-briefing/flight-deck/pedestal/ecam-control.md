@@ -8,6 +8,8 @@
 
 ![ECAM Control Panel](../../../assets/a32nx-briefing/pedestal/ECAM-Control-Panel.jpg "ECAM Control Panel")
 
+!!! note "API Documentation: [ECAM Control Panel API](../../a32nx_api.md#ecam-control-panel)"
+
 ## Description
 
 The ECAM Control Panel is used to change what is displayed on the Warning Display and System Display (Lower ECAM) and also has knobs to regulate brightness of the both ECAM displays.

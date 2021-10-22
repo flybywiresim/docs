@@ -8,6 +8,8 @@
 
 ![SIGNS Panel](../../../assets/a32nx-briefing/overhead-panel/Signs-Panel.jpg "SIGNS Panel")
 
+!!! note "API Documentation: [Signs Panel API](../../a32nx_api.md#signs-panel)"
+
 ## Usage
 
 ### EMER EXIT LT

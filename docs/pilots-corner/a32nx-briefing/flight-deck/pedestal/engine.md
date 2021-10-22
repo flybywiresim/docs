@@ -8,6 +8,8 @@
 
 ![Engine Panel](../../../assets/a32nx-briefing/pedestal/Engine-Panel.jpg "Engine Panel")
 
+!!! note "API Documentation: [Engine Panel](../../a32nx_api.md#eng-panel)"
+
 ## Description
 
 The Engine Panel is used to control and start the engines.

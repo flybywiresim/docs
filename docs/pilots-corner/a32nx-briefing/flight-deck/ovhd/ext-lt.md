@@ -8,6 +8,8 @@
 
 ![Exterior Lighting](../../../assets/a32nx-briefing/overhead-panel/Exterior-Lighting-Panel.jpg "Exterior Lighting")
 
+!!! note "API Documentation: [EXT LT Panel API](../../a32nx_api.md#external-lights-panel)"
+
 ## Description
 
 The Exterior Lighting of an Airbus A320neo includes these lights:

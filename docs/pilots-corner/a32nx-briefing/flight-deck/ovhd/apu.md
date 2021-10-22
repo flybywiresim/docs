@@ -8,6 +8,8 @@
 
 ![APU Panel](../../../assets/a32nx-briefing/overhead-panel/Apu-Panel.jpg "APU Panel")
 
+!!! note "API Documentation: [APU Panel API](../../a32nx_api.md#apu-panel)"
+
 ## Description
 
 The Auxiliary Power Unit (APU) is a small jet engine in the back of the A320neo which supplies the aircraft with pneumatic and electrical power.

@@ -8,6 +8,8 @@
 
 ![Voice Recorder Panel](../../../assets/a32nx-briefing/overhead-panel/Recorder.jpg "Voice Recorder Panel")
 
+!!! note "API Documentation: [RCDR Panel API](../../a32nx_api.md#rcdr-panel)"
+
 ## Description
 
 The voice recorder panel consist of cockpit voice recorder (CVR) and digital flight data recorder (DFDR) controls.

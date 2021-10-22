@@ -8,6 +8,8 @@
 
 ![FUEL Control Panel](../../../assets/a32nx-briefing/overhead-panel/Fuel-Panel.jpg "FUEL Control Panel")
 
+!!! note "API Documentation: [Fire Panel API](../../a32nx_api.md#fuel-panel)"
+
 ## Description
 
 Total Fuel Capacity:
