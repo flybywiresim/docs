@@ -51,7 +51,7 @@ For information on how to contribute to bot development visit the Discord bot re
 
 ## Changelog
 
-Update <small?_ October 22, 2021</small>
+Update <small>_ October 22, 2021</small>
 
 - Added `.liveries (.liv)`
 - Added `.simversion (.msfsversion)`
