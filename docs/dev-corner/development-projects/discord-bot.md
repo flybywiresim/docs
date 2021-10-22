@@ -51,6 +51,18 @@ For information on how to contribute to bot development visit the Discord bot re
 
 ## Changelog
 
+Update <small?_ October 22, 2021</small>
+
+- Added `.liveries (.liv)`
+- Added `.simversion (.msfsversion)`
+- Added `.printer`
+- Added `.where`
+- Added `.ctrl+e (.ctrle, .enginestart)`
+- Updated `.briefing` (New alias, `.flightdeck` and `.pfd`)
+- Fix `contributing.md` (typo)
+- Bot repo refactor
+- `index.ts` and `contributing.md` updated for simpler contributing
+
 Update <small>_ October 10, 2021</small>
 
 - Added `.community (.com)`
@@ -63,10 +75,48 @@ Update <small>_ October 10, 2021</small>
 - Updated `.screens` image
 - Updated `.efb` GIF
 
-Update <small>_ September 09, 2021</small>
+Update <small>_ September 29, 2021</small>
 
 - Added `.willithave (.thumb)`
 - Updated `.afloor` to link to docs
 - Updated `.msfs`
 - Updated `.airframe/.simbrief` to link to docs
 - Updated `.utf to .uft8`
+
+Update <small>_ September 20, 2021</small>
+
+- Added `.airframe (.simbrief)`
+- Added `.xbox`
+- Fixed `.unban`
+- Update `.calibrate` links to docs guide
+- Vanity URL used in the readme
+
+Update <small>_ September 17, 2021</small>
+
+- Added `.screenshot`
+- Added `.msfs`
+- Added `.controls`
+- Added `.content`
+- Added `.briefing`
+- Added `.beginnerguide (.bg)`
+- Added `.boris`
+- Updated `.afloor` Links to tooltip
+- Updated `.trythis` (reworded)
+- Updated `.calibrate` with current links
+- Fix `.whois`
+- Fix `.help`
+- Readme, Contributing and PR template have been added!
+
+Update <small>_ August 24, 2021</small>
+
+- Added `.adirs`
+- Added `.installererror (.error)`
+- Added `.reportedissues (.issues)`
+- Added `.autopilot (.ap)`
+- Added `.checklis`
+- Added `.whois`
+- Added `.calibrate`
+- Added `.donate`
+- Added `.utf`
+- Added `.nut`
+- Updated `.exp` and `.versions` experimental is in use
