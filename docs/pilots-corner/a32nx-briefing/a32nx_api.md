@@ -82,49 +82,86 @@ Flight Deck:  [ELEC Panel](flight-deck/ovhd/elec.md)
 
 Flight Deck:  [EXT LT Panel](flight-deck/ovhd/ext-lt.md)
 
-| Function     | API Usage             | Values | Read/Write | Type             | Remark                              |
-|:-------------|:----------------------|:-------|:-----------|:-----------------|:------------------------------------|
-| STROBE       | STROBES_SET           | 0 \| 1 | -          | SIMCONNECT EVENT | OFF and ON (no AUTO)                |
-|              | STROBES_TOGGLE        | -      | -          | SIMCONNECT EVENT | OFF and ON (no AUTO)                |
-|              | STROBES_ON            | -      | -          | SIMCONNECT EVENT | OFF and ON (no AUTO)                |
-|              | STROBES_OFF           | -      | -          | SIMCONNECT EVENT | OFF and ON (no AUTO)                |
-|              | LIGHT STROBE          | 0 \| 1 | R/W        | SIMCONNECT VAR   | OFF and ON (no AUTO)                |
-|              | STROBE_0_AUTO         | 0 \| 1 | R/W        | Custom LVAR      | AUTO only when STROBES are ON       |
-|              | LIGHTING_STROBE_0     | 0 \| 1 | R          |                  | 2=OFF, 1=AUTO, 0=ON                 |
-|              |                       |        |            |                  |                                     |
-| BEACON       | BEACON_SET            | 0 \| 1 | -          | SIMCONNECT EVENT |                                     |
-|              | BEACON_TOGGLE         | -      | -          | SIMCONNECT EVENT |                                     |
-|              | BEACON_ON             | -      | -          | SIMCONNECT EVENT |                                     |
-|              | BEACON_OFF            | -      | -          | SIMCONNECT EVENT |                                     |
-|              | LIGHT BEACON          | 0 \| 1 | R/W        | SIMCONNECT VAR   |                                     |
-|              |                       |        |            |                  |                                     |
-| WING         | WING_SET              | 0 \| 1 | -          | SIMCONNECT EVENT |                                     |
-|              | BEACON_TOGGLE         | -      | -          | SIMCONNECT EVENT |                                     |
-|              | BEACON_ON             | -      | -          | SIMCONNECT EVENT |                                     |
-|              | BEACON_OFF            | -      | -          | SIMCONNECT EVENT |                                     |
-|              | LIGHT BEACON          | 0 \| 1 | R/W        | SIMCONNECT VAR   |                                     |
-|              |                       |        |            |                  |                                     |
-| NAV & LOGO   | NAV_LIGHTS_SET        | 0 \| 1 | -          | SIMCONNECT EVENT | LOGO needs to be set separately     |
-|              | LIGHT NAV             | 0 \| 1 | R/W        | SIMCONNECT VAR   | LOGO needs to be set separately     |
-|              | LOGO_LIGHTS_SET       | 0 \| 1 | -          | SIMCONNECT EVENT | LOGO does not move switch           |
-|              | LIGHT LOGO            | 0 \| 1 | R/W        | SIMCONNECT VAR   | LOGO does not move switch           |
-|              |                       |        |            |                  |                                     |
-| RWY TURN OFF | CIRCUIT SWITCH ON:21  | 0 \| 1 | R/W        | SIMCONNECT VAR   | Left Rwy Turn Off Light + Switch    |
-|              | CIRCUIT SWITCH ON:22  | 0 \| 1 | R/W        | SIMCONNECT VAR   | Left Rwy Turn Off Light             |
-|              | LIGHTING_TAXI_2       | 0 \| 1 | R          | Custom LVAR      |                                     |
-|              |                       |        |            |                  |                                     |
-| LAND L + R   | LANDING_LIGHTS_ON     | 0..3   | -          | SIMCONNECT EVENT | 0=all, 1=NOSE, 2=L, 3=R             |
-|              | LANDING_LIGHTS_OFF    | 0..3   | -          | SIMCONNECT EVENT | 0=all, 1=NOSE, 2=L, 3=R             |
-|              | LANDING_LIGHTS_TOGGLE | 0..3   | -          | SIMCONNECT EVENT | 0=all, 1=NOSE, 2=L, 3=R             |
-|              | CIRCUIT SWITCH ON:18  | 0 \| 1 | R/W        | SIMCONNECT VAR   | LL Left                             |
-|              | CIRCUIT SWITCH ON:19  | 0 \| 1 | R/W        | SIMCONNECT VAR   | LL Right                                |
-|              |                       |        |            |                  |                                     |
-| NOSE         | TOGGLE_TAXI_LIGHTS    | -      | -          | SIMCONNECT EVENT | Also toggles RWY TURN OFF LIGHT     |
-|              | LIGHT TAXI            | 0 \| 1 | R/W        | SIMCONNECT VAR   | Only switches TAXI light            |
-|              | LANDING_LIGHTS_TOGGLE | 1      | -          | SIMCONNECT EVENT | Toggles switch between T.O. and OFF |
-|              | CIRCUIT SWITCH ON:20  | 0 \| 1 | R/W        | SIMCONNECT VAR   | NOSE TAXI                           |
-|              | CIRCUIT SWITCH ON:17  | 0 \| 1 | R/W        | SIMCONNECT VAR   | NODE T.O.                           |
-|              |                       |        |            |                  |                                     |
+| Function     | API Usage             | Values | Read/Write | Type             | Remark                                                             |
+|:-------------|:----------------------|:-------|:-----------|:-----------------|:-------------------------------------------------------------------|
+| STROBE       | STROBES_SET           | 0 \| 1 | -          | SIMCONNECT EVENT | OFF and ON (no AUTO)                                               |
+|              | STROBES_TOGGLE        | -      | -          | SIMCONNECT EVENT | OFF and ON (no AUTO)                                               |
+|              | STROBES_ON            | -      | -          | SIMCONNECT EVENT | OFF and ON (no AUTO)                                               |
+|              | STROBES_OFF           | -      | -          | SIMCONNECT EVENT | OFF and ON (no AUTO)                                               |
+|              | LIGHT STROBE          | 0 \| 1 | R/W        | SIMCONNECT VAR   | OFF and ON (no AUTO)                                               |
+|              | STROBE_0_AUTO         | 0 \| 1 | R/W        | Custom LVAR      | AUTO only when STROBES are ON                                      |
+|              | LIGHTING_STROBE_0     | 0 \| 1 | R          |                  | 2=OFF, 1=AUTO, 0=ON                                                |
+|              |                       |        |            |                  |                                                                    |
+| BEACON       | BEACON_SET            | 0 \| 1 | -          | SIMCONNECT EVENT |                                                                    |
+|              | BEACON_TOGGLE         | -      | -          | SIMCONNECT EVENT |                                                                    |
+|              | BEACON_ON             | -      | -          | SIMCONNECT EVENT |                                                                    |
+|              | BEACON_OFF            | -      | -          | SIMCONNECT EVENT |                                                                    |
+|              | LIGHT BEACON          | 0 \| 1 | R/W        | SIMCONNECT VAR   |                                                                    |
+|              |                       |        |            |                  |                                                                    |
+| WING         | WING_SET              | 0 \| 1 | -          | SIMCONNECT EVENT |                                                                    |
+|              | BEACON_TOGGLE         | -      | -          | SIMCONNECT EVENT |                                                                    |
+|              | BEACON_ON             | -      | -          | SIMCONNECT EVENT |                                                                    |
+|              | BEACON_OFF            | -      | -          | SIMCONNECT EVENT |                                                                    |
+|              | LIGHT BEACON          | 0 \| 1 | R/W        | SIMCONNECT VAR   |                                                                    |
+|              |                       |        |            |                  |                                                                    |
+| NAV & LOGO   | NAV_LIGHTS_SET        | 0 \| 1 | -          | SIMCONNECT EVENT | LOGO needs to be set separately                                    |
+|              | LIGHT NAV             | 0 \| 1 | R/W        | SIMCONNECT VAR   | LOGO needs to be set separately                                    |
+|              | LOGO_LIGHTS_SET       | 0 \| 1 | -          | SIMCONNECT EVENT | LOGO does not move switch                                          |
+|              | LIGHT LOGO            | 0 \| 1 | R/W        | SIMCONNECT VAR   | LOGO does not move switch                                          |
+|              |                       |        |            |                  |                                                                    |
+| RWY TURN OFF | CIRCUIT SWITCH ON:21  | 0 \| 1 | R/W        | SIMCONNECT VAR   | Left Rwy Turn Off Light + Switch                                   |
+|              | CIRCUIT SWITCH ON:22  | 0 \| 1 | R/W        | SIMCONNECT VAR   | Left Rwy Turn Off Light                                            |
+|              | LIGHTING_TAXI_2       | 0 \| 1 | R          | Custom LVAR      |                                                                    |
+|              |                       |        |            |                  |                                                                    |
+| LAND L + R   | LANDING_LIGHTS_ON     | 0..3   | -          | SIMCONNECT EVENT | 0=all, 1=NOSE, 2=L, 3=R                                            |
+|              | LANDING_LIGHTS_OFF    | 0..3   | -          | SIMCONNECT EVENT | 0=all, 1=NOSE, 2=L, 3=R                                            |
+|              | LANDING_LIGHTS_TOGGLE | 0..3   | -          | SIMCONNECT EVENT | 0=all, 1=NOSE, 2=L, 3=R                                            |
+|              | CIRCUIT SWITCH ON:18  | 0 \| 1 | R/W        | SIMCONNECT VAR   | Left landing light                                                 |
+|              | CIRCUIT SWITCH ON:19  | 0 \| 1 | R/W        | SIMCONNECT VAR   | Right landing light                                                |
+|              | LIGHT_LANDING_1       | 0 \| 1 | R/W        | Custom LVAR      | Switch position of the NOSE switch: 2=OFF, 1=TAXI, 0=T.O.          |
+|              | LIGHT_LANDING_2       | 0 \| 1 | R/W        | Custom LVAR      | Switch position of the left landing light: 2=RETRACT, 1=OFF, 2=ON  |
+|              | LIGHT_LANDING_3       | 0 \| 1 | R/W        | Custom LVAR      | Switch position of the right landing light: 2=RETRACT, 1=OFF, 2=ON |
+|              | LANDING_1_RETRACTED   | 0 \| 1 | R/W        | Custom LVAR      | No function - NOSE light can't be retracted                        |
+|              | LANDING_2_RETRACTED   | 0 \| 1 | R/W        | Custom LVAR      | Retraction of left landing light: 0=extended, 1=retracted          |
+|              | LANDING_3_RETRACTED   | 0 \| 1 | R/W        | Custom LVAR      | Retraction of right landing light 0=extended, 1=retracted          |
+|              |                       |        |            |                  |                                                                    |
+| NOSE         | TOGGLE_TAXI_LIGHTS    | -      | -          | SIMCONNECT EVENT | Also toggles RWY TURN OFF LIGHT                                    |
+|              | LIGHT TAXI            | 0 \| 1 | R/W        | SIMCONNECT VAR   | Only switches TAXI light                                           |
+|              | LANDING_LIGHTS_TOGGLE | 1      | -          | SIMCONNECT EVENT | Toggles switch between T.O. and OFF                                |
+|              | CIRCUIT SWITCH ON:20  | 0 \| 1 | R/W        | SIMCONNECT VAR   | NOSE TAXI                                                          |
+|              | CIRCUIT SWITCH ON:17  | 0 \| 1 | R/W        | SIMCONNECT VAR   | NODE T.O.                                                          |
+
+!!! note "Landing and Taxi lights"
+    The default behaviour of the SIMCONNECT events for landing lights and taxi
+    lights is very weird for the A320 as SIMCONNECT does not really account for
+    3 landing lights, one of them on the same switch as the taxi light and an
+    independent RWY TURN OFF light.
+
+    These events often trigger several lights and switches together and it is
+    very hard to specifically map them to single button/switches.
+
+    One solution we have found to be working is:
+    
+    - Landing Lights L
+        - Set `LIGHT_LANDING_2` to 0 (sets the switch to ON)
+        - Set `LANDING_2_RETRACTED` to 0 (extends the landing light)
+        - Delay of 8-10sec (to simulate the time it takes to extend the lights)
+        - Set `CIRCUIT SWITCH ON:18` to 1 (turns on the actual light)        
+    - Landing Lights R
+        - Set `LIGHT_LANDING_3` to 0 (sets the switch to ON)
+        - Set `LANDING_3_RETRACTED` to 0 (extends the landing light)
+        - Delay of 8-10sec (to simulate the time it takes to extend the lights)
+        - Set `CIRCUIT SWITCH ON:19` to 1 (turns on the actual light)    
+    - NOSE
+        - Set `CIRCUIT SWITCH ON:17` (turns on TAXI lights and moves switch to TAXI)
+        - Set `CIRCUIT SWITCH ON:20` (turns on T.O. lights and moves switch to T.O.) 
+        - Set `CIRCUIT SWITCH ON:17` `CIRCUIT SWITCH ON:20` to 0 to turn off all NOSE lights and move the switch to OFF)
+    - RWY TURN OFF
+        - Set `CIRCUIT SWITCH ON:21` to 1 (turns on left light)        
+        - Set `CIRCUIT SWITCH ON:22` to 1 (turns on right light)
+    
+    !!! warning "Doing it this way might break any third party software trying to read the status of the lights through SIMCONNECT."    
+
 
 ### Interior Lights Panel
 
