@@ -505,19 +505,20 @@ Flight Deck: [FCU Panel](flight-deck/glareshield/fcu.md)
 
 Flight Deck: [Warning Panel](flight-deck/glareshield/warning.md)
 
-| Function            | API Usage                        | Values | Read/Write | Type        | Remark |
-|:--------------------|:---------------------------------|:-------|:-----------|:------------|:-------|
-| MASTER CAUTION      | A32NX_MASTER_CAUTION             | 0 \| 1 | R/W        | Custom LVAR |        |
-|                     |                                  |        |            |             |        |
-| MASTER WARNING      | A32NX_MASTER_WARNING             | 0 \| 1 | R/W        | Custom LVAR |        |
-|                     |                                  |        |            |             |        |
-| CHRONO              | N/A                              |        |            |             |        |
-|                     |                                  |        |            |             |        |
-| SIDE STICK PRIORITY | N/A                              |        |            |             |        |
-|                     |                                  |        |            |             |        |
-| AUTOLAND WARNING    | A32NX_AUTOPILOT_AUTOLAND_WARNING | 0 \| 1 | R/W        | Custom LVAR |        |
-|                     |                                  |        |            |             |        |
-| ATC MSG             | N/A                              |        |            |             |        |
+| Function            | API Usage                        | Values | Read/Write | Type                     | Remark |
+|:--------------------|:---------------------------------|:-------|:-----------|:-------------------------|:-------|
+| MASTER CAUTION      | A32NX_MASTER_CAUTION             | 0 \| 1 | R/W        | Custom LVAR              |        |
+|                     |                                  |        |            |                          |        |
+| MASTER WARNING      | A32NX_MASTER_WARNING             | 0 \| 1 | R/W        | Custom LVAR              |        |
+|                     |                                  |        |            |                          |        |
+| CHRONO              | H:A32NX_EFIS_L_CHRONO_PUSHED     | -      | -          | HTML Event (aka H Event) |        |
+|                     | H:A32NX_EFIS_R_CHRONO_PUSHED     | -      | -          | HTML Event (aka H Event) |        |
+|                     |                                  |        |            |                          |        |
+| SIDE STICK PRIORITY | N/A                              |        |            |                          |        |
+|                     |                                  |        |            |                          |        |
+| AUTOLAND WARNING    | A32NX_AUTOPILOT_AUTOLAND_WARNING | 0 \| 1 | R/W        | Custom LVAR              |        |
+|                     |                                  |        |            |                          |        |
+| ATC MSG             | N/A                              |        |            |                          |        |
 
 
 ## Instrument Panel
