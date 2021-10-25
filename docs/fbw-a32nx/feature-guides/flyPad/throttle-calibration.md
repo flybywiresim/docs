@@ -5,7 +5,10 @@
 
 This guide will help you setting up your throttles for use with the FlyByWire A32NX.
 
-It covers the frequently used [Thrustmaster TCA Throttle Quadrant Airbus edition](#thrustmaster-tca-or-similar-with-reverser-on-axis) with 2 throttle axis, reversers and detents, the [Thrustmaster TWCS Throttle](#thrustmaster-twcs-or-similar-without-reverser-on-axis-and-no-detents) as an example for a single axis throttle with no reverser and no detents and the [Honeycomb Bravo Throttle Quadrant](#honeycomb-bravo-throttle-quadrant) with its special button-style reverser.
+Introduction: many thrust levers, many variants....
+
+~~It covers the frequently used [Thrustmaster TCA Throttle Quadrant Airbus edition](#thrustmaster-tca-or-similar-with-reverser-on-axis) with 2 throttle axis, reversers and detents, the [Thrustmaster TWCS Throttle](#thrustmaster-twcs-or-similar-without-reverser-on-axis-and-no-detents) as an example for a single axis throttle with no reverser and no detents and the [Honeycomb Bravo Throttle Quadrant](#honeycomb-bravo-throttle-quadrant) with its special button-style reverser.~~
+
 
 ---
 
@@ -21,6 +24,39 @@ It covers the frequently used [Thrustmaster TCA Throttle Quadrant Airbus edition
 - [Manual Configuration](#manual-configuration)
 
 ---
+
+## Required Steps Summary
+### MSFS Controller Setup
+### A32NX flyPad Detent Calibration
+
+---
+
+## Microsoft Flight Simulator Controller Setup
+
+!!! todo "TODO"
+    - profile
+    - axis and how to test
+    - reverser setup
+        - box for Reverser on Axis or NO Reverser on Axis
+    - sensitivity linear
+    - remove deadzones
+
+## A32NX flyPad (EFB) Detent Calibration
+
+!!! todo "TODO"
+
+    - highlight important steps
+    - where is the calib page
+    - setup the switches at the top
+    - Keep the deadband at default
+        - box for deadband / range
+    - Start with Full Reverse or Idle
+    - Go through all detents
+    - Save and Apply
+    -      
+
+
+!!! failure "vvvv OLD vvvv"
 
 ## Quick Start
 
