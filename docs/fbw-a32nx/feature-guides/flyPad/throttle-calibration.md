@@ -113,7 +113,7 @@ If your throttle does not have a range for the reverser there are two ways to ac
     ??? note "Example: Honeycomb Bravo Throttle Quadrant"
         The mapping required for the Bravo is shown in this screenshot:
 
-        ![Bravo-MSFS-Mapping](../../assets/flypad/throttle-calibration/Bravo-MSFS-Mapping.png "Bravo-MSFS-Mapping"){loading=lazy}
+        ![Bravo-MSFS-Mapping](../../assets/flypad/throttle-calibration/bravo-msfs-mapping1.png "Bravo-MSFS-Mapping"){loading=lazy}
 
         The `THROTTLE 1/2 DECREASE` mapping to `Buttons 10,26` and `Buttons 11,27` simulates the reverser when the Bravo's reverser lever is lifted (buttons 10 and 11) and the thrust lever is pulled back (buttons 26 and 27). This activates the buttons configured in the image above and in turn decreases throttle power to negative values for the reverser.
 
@@ -412,7 +412,7 @@ Click on "Save & Apply".
 
     The mapping required for the Bravo is shown in this screenshot:
 
-    ![Bravo-MSFS-Mapping](../../assets/flypad/throttle-calibration/bravo-msfs-mapping.png "Bravo-MSFS-Mapping"){loading=lazy}
+    ![Bravo-MSFS-Mapping](../../assets/flypad/throttle-calibration/bravo-msfs-mapping1.png "Bravo-MSFS-Mapping"){loading=lazy}
 
     You might need to use `THROTTLE 1/2 AXIS` and not `THROTTLE 1/2 AXIS (0 TO 100%)`.
 
