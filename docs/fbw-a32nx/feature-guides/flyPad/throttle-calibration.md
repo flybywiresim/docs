@@ -3,9 +3,9 @@
 !!! warning "Please Note"
     Throttle Calibration is required for all versions of the FlyByWire A32NX.
 
-This guide will help you setting up your throttles for use with the FlyByWire A32NX.
-
 ## Introduction
+
+This guide will help you set up your throttles for use with the FlyByWire A32NX.
 
 There are many throttle controllers available to use in Microsoft Flight Simulator. Many have dedicated throttle levers/sliders and some have sliders which can be used as throttle levers/sliders.
 
@@ -98,6 +98,10 @@ If your throttle does not have a range for the reverser there are two ways to ac
      ![Reverser Button Configuration](../../assets/flypad/throttle-calibration/reverser-hold.png "Reverser Button Configuration"){loading=lazy}
 
     To activate the reverser hold the configured button while applying thrust with your thrust lever. Instead of forward thrust this will apply reverse thrust. The cockpit levers will move backwards into the reverser range.
+
+    Alternatively you can use `TOGGLE THROTTLE REVERSE THRUST` to use a button or key to activate reverse thrust. While this is active you can push the throttle forward to increase reverse thrust. To deactivate reverse thrust you need to press the mapped key/button again.
+
+    ![Reverser Toggle](../../assets/flypad/throttle-calibration/reverser-toggle-hold.png "Reverser Toggle")
 
 ??? note "How to setup reverser: Controllers with buttons build into the throttle"
     Some controllers have build in buttons which activate when the throttle is moved into the reverse position. With these controllers you can't use the above method as you would have to move the throttles forward to increase reverse thrust. But this would release the reverse button and apply normal forward thrust.
