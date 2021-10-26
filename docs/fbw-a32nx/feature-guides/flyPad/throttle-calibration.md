@@ -148,7 +148,7 @@ If the tests are successful please move to the next chapter. Otherwise go throug
 
     Throttle Calibration Page:
 
-    ![EFB-Calibration-Page](../../assets/flypad/throttle-calibration/efb-calibration-page.png "EFB-Calibration-Page"){loading=lazy}
+    ![EFB-Calibration-Page](../../assets/flypad/throttle-calibration/efb-calibration-page1.png "EFB-Calibration-Page"){loading=lazy}
 
 ### 2. Setup your controller characteristics
 
