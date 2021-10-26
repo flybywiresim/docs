@@ -5,7 +5,30 @@
 
 This guide will help you setting up your throttles for use with the FlyByWire A32NX.
 
-Introduction: many thrust levers, many variants....
+## Introduction
+
+There are many throttle controllers available to use in Microsoft Flight Simulator. Many have dedicated throttle levers/sliders and some have sliders which can be used as throttle levers/sliders.
+
+Although configuration and calibration is similar for most controllers there are subtle differences between different brands and models.
+
+The major differences between the controllers are:
+
+- number of axis (levers/sliders)
+- having detents or not
+- having a reverser range on the throttle axis or not
+- button on the lever/slider to engage reverser or not
+
+??? note "Collection of Controllers and their Features"
+
+    | Controller                                |    Reverser     | # of axis | Detents  |
+    |:------------------------------------------|:---------------:|:---------:|:--------:|
+    | Thrustmaster TCA                          |     On Axis     |     2     |    3     |
+    | Thrustmaster TWCS                         |   Any Button    |     1     |    0     |
+    | Honeycomb Bravo Throttle Quadrant         | Reverser Button |     2     |    ?     |
+    | Thrustmaster T.16000M FCS (Flight Stick)  |   Any Button    |     1     |    0     |
+    | Thrustmaster TCA Sidestick Airbus edition | Reverser Button |     1     | 1 (Idle) |
+
+    Use this table to identify how to configure and calibrate your controller with the steps described below.
 
 ---
 
@@ -227,16 +250,6 @@ Click on "Save & Apply".
     Do a short test flight to confirm that all detents work as expected and also that reversers work as expected.
 
 ---
-
-## Known Controllers
-
-| Controller                                |    Reverser     | # of axis | Detents  |
-|:------------------------------------------|:---------------:|:---------:|:--------:|
-| Thrustmaster TCA                          |     On Axis     |     2     |    3     |
-| Thrustmaster TWCS                         |   Any Button    |     1     |    0     |
-| Honeycomb Bravo Throttle Quadrant         | Reverser Button |     2     |    ?     |
-| Thrustmaster T.16000M FCS (Flight Stick)  |   Any Button    |     1     |    0     |
-| Thrustmaster TCA Sidestick Airbus edition | Reverser Button |     1     | 1 (Idle) |
 
 ## Controller Specifics
 
