@@ -9,24 +9,32 @@ Introduction: many thrust levers, many variants....
 
 ---
 
+<style>
+.md-typeset summary {
+    font-size: .8rem;
+    font-weight: inherit;
+}
+.md-typeset details {
+    font-size: .8rem;
+}
+</style>
+
 ## Microsoft Flight Simulator Controller Setup
 
 ### 1. Create a separate controller profile in Microsoft Flight Simulator
 
-Before you change anything in the controller profile make sure to create a dedicated controller profile in Microsoft Flight Simulator so that any changes to the throttle configuration does not impact other aircraft.
+Before you change anything in the controller profile make sure to create a dedicated controller profile for the FlyByWire A32NX in Microsoft Flight Simulator so that any changes to the throttle configuration does not impact other aircraft.
 
 ??? "How to create a new Controller Profile"
-    Microsoft Flight Simulator allows you to create separate profiles for different controllers. To do that change to the `DEFAULT` profile of your controller and create a copy of it (`DUPLICATE`).
-
-    ![MSFS Duplicate Controller Profile](../../assets/flypad/throttle-calibration/duplicate-controller-profile.png "MSFS Duplicate Controller Profile"){loading=lazy}  
+    Microsoft Flight Simulator allows you to create separate profiles for different controllers. To do that change to the `DEFAULT` profile of your controller and create a copy of it (`DUPLICATE`).<p/>
+    ![MSFS Duplicate Controller Profile](../../assets/flypad/throttle-calibration/duplicate-controller-profile.png "MSFS Duplicate Controller Profile"){loading=lazy}
 
 ### 2. Set Sensitivity to Linear
 
 Set all Sensitivity settings to 0%. This includes Sensitivity + and -, Dead Zone, Neutral and Extremity Dead Zone. Leave Reactivity at 100%.
 
 ??? "How to set Sensitivity to linear"
-    Set your Sensitivity settings exactly like this:
-
+    Set your Sensitivity settings exactly like this:<p/>
     ![Linear Sensitivity Settings](../../assets/flypad/throttle-calibration/sensitivity-seetings.png "Linear Sensitivity Settings"){loading=lazy}
 
 ### 3. Axis Mapping
@@ -40,7 +48,7 @@ Check that the axis mappings are correct.
 
     ![Throttle Axis Mapping](../../assets/flypad/throttle-calibration/throttle-axis-mapping.png "Throttle Axis Mapping"){loading=lazy}   
 
-??? "Test the movement of the throttle in the cockpit now!"
+??? tip "Test the movement of the throttle in the cockpit now!"
     The throttle in the cockpit should now move in the correct direction. If not check the `Reverse Axis` box here:
 
     ![Reverse Axis Box](../../assets/flypad/throttle-calibration/reverse-axis-box.png "Reverse Axis Box"){loading=lazy}
@@ -59,14 +67,14 @@ Check that the axis mappings are correct.
 
 If your throttle does not have a range for the reverser there are two ways to activate and simulate reverser with buttons.
 
-??? "Controller with a separate button or key"
+??? "How to setup reverser: Controller with a separate button or key"
     Microsoft Flight Simulator allows the mapping of a key or button to use the normal throttle axis as the reverser axis. To configure this chose a key or button on your controller and map it like this:
 
      ![Reverser Button Configuration](../../assets/flypad/throttle-calibration/reverser-hold.png "Reverser Button Configuration"){loading=lazy}
     
     To activate the reverser hold the configured button while applying thrust with your thrust lever. Instead of forward thrust this will apply reverse thrust. The cockpit levers will move backwards into the reverser range.  
 
-??? "Controllers with buttons build into the throttle"
+??? "How to setup reverser: Controllers with buttons build into the throttle"
     Some controllers have build in buttons which activate when the throttle is moved into the reverse position. With these controllers you can't use the above method as you would have to move the throttles forward to increase reverse thrust. But this would release the reverse button and apply normal forward thrust.
 
     To simulate reverse thrust with these throttle controllers you can map the reverser button(s) to the `THROTTLE 1/2 DECREASE`. So as long as you keep the controller levers in the reverse position the throttle will be decreased up to full reverse thrust. To stop reverse thrust you would move the throttle forward (button will be released) and apply a little thrust so the throttle moves to a non-reverse value again. 
@@ -84,7 +92,7 @@ If your throttle does not have a range for the reverser there are two ways to ac
 
 ### 5. Test
 
-??? "Do not go on with the guide without successfully testing the following:"
+??? tip "Do not go on with the guide without successfully testing the following:"
 
     - The throttle in the cockpit should now move in the correct direction.
     - The throttle in the cockpit should move to TOGA when your set your controller to full thrust
@@ -162,7 +170,7 @@ Usually there is no need to change the deadbands for the detents as the default 
 
 We start the detent calibration with the lowest throttle setting.
 
-??? "Controllers with Reverser"
+??? "How to calibrate: Controllers with Reverser on Axis"
     For controllers with Reverser the lowest setting is `Full Reverse`.
     Pull your controller levers all the way back into the `Full Reverse` position.
 
@@ -172,7 +180,7 @@ We start the detent calibration with the lowest throttle setting.
     
     {== Press "Set From Throttle" on both sides. ==} 
 
-??? "Controllers without Reverser"
+??? "How to calibrate: Controllers without Reverser on Axis"
     For controllers without Reverser the lowest setting is `IDLE`.
     Pull your controller levers all the way back into the `IDLE` position.
 
@@ -208,7 +216,7 @@ Click on "Save & Apply".
 
 ### 7. Test
 
-??? "How to test calibration"
+??? tip "How to test calibration"
 
     Test each setting with a view like this. Make sure the mouse is outside the popout window otherwise the aircraft's throttles won't move.
 
