@@ -48,8 +48,21 @@ For information on how to contribute to bot development visit the Discord bot re
 | .where          | Help with which aircraft to select in the aircraft selector  | ---                        |
 | .willithave     | Answers the question "Will the A32NX have ... ?"             | ---                        |
 | .xbox           | Xbox/Marketplace NOTAM link                                  | ---                        |
+| .weather        | Explains the current state of the weather and terrain radars | .wx                        |
+| .qa             | Links to the Quality Assurance docs page                     | ---                        |
+| .metar          | Provides the METAR report of the requested airport           | ---                        |
 
 ## Changelog
+
+Update <small>_ October 27, 2021</small>
+
+- Added `.metar`
+- Added `.qa`
+- Added `.weather (.wx)`
+- Updated `.nut` (Halloween)
+- Updated `.bruheg` (Halloween)
+- Fix `.weather` (Grammar)
+- Refactor (Commands split into categories)
 
 Update <small>_ October 22, 2021</small>
 
