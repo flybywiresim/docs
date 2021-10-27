@@ -43,20 +43,14 @@ The major differences between different throttle controllers are:
     font-size: .8rem;
 }
 .md-typeset .admonition.danger {
-    font-size: 1rem;
+    font-size: 0.9rem;
     margin-bottom: 0;
 }
 </style>
 
 ## Microsoft Flight Simulator Control Options
 
-!!! danger "DO NOT SKIP THIS ENTIRE SECTION"
-
-{--
-
-Please ensure this section is **NOT SKIPPED** to ensure your throttle will perform with our aircraft!
-
---}
+!!! danger "PLEASE DO NOT SKIP THIS SECTION!"
 
 ### 1. Create a Separate Controller Profile in Microsoft Flight Simulator
 
