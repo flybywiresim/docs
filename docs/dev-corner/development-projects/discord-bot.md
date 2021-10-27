@@ -33,9 +33,11 @@ For information on how to contribute to bot development visit the Discord bot re
 | .installer      | Provides a link to the installer                             | ---                        |
 | .installererror | Shows installer error resolution (outdated)                  | .error                     |
 | .liveries       | Provides a link to the flightsim.to A32NX liveries page      | .liv                       |
+| .metar          | Provides the METAR report of the requested airport           | ---                        |
 | .msfs           | Links to MSFS Discord and forum (for non-FBW related issues) | ---                        |
 | .nut            | Support Master NUT meme (read the sticky message)            | ---                        |
 | .printer        | Provides a link to the FlyByWire printer tutorial video      | ---                        |
+| .qa             | Links to the Quality Assurance docs page                     | ---                        |
 | .reportedissues | Link to reported issues documentation                        | .issues                    |
 | .roadmap        | FlyByWire Simulations roadmap graphic                        | .goals                     |
 | .screens        | Guide for adjusting various instrument lighting              | ---                        |
@@ -44,12 +46,26 @@ For information on how to contribute to bot development visit the Discord bot re
 | .trythis        | Main support command (remove mods/liveries)                  | ---                        |
 | .utf8           | Resolution steps to solve UTF-8 issues                       | ---                        |
 | .versions       | Information about all available FBW branches                 | ---                        |
+| .weather        | Explains the current state of the weather and terrain radars | .wx                        |
 | .when           | Explain the absence of release dates or ETAs                 | ---                        |
 | .where          | Help with which aircraft to select in the aircraft selector  | ---                        |
 | .willithave     | Answers the question "Will the A32NX have ... ?"             | ---                        |
 | .xbox           | Xbox/Marketplace NOTAM link                                  | ---                        |
 
+
+
+
 ## Changelog
+
+Update <small>_ October 27, 2021</small>
+
+- Added `.metar`
+- Added `.qa`
+- Added `.weather (.wx)`
+- Updated `.nut` (Halloween)
+- Updated `.bruheg` (Halloween)
+- Fix `.weather` (Grammar)
+- Refactor (Commands split into categories)
 
 Update <small>_ October 22, 2021</small>
 
