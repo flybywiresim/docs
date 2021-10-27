@@ -13,10 +13,10 @@ Although configuration and calibration is similar for most controllers there are
 
 The major differences between different throttle controllers are:
 
-- number of axis (levers/sliders)
-- having detents or not
-- having a reverser range on the throttle axis or not
-- button on the lever/slider to engage reverser or not
+- Number of axis (levers/sliders).
+- Having detents or not.
+- Having a reverser range on the throttle axis or not.
+- Button on the lever/slider to engage reverser or not.
 
 !!! warning "Please read this guide carefully and follow it step-by-step. Do not just skim over and skip steps as the calibration might then fail."
 
@@ -46,11 +46,11 @@ The major differences between different throttle controllers are:
 
 ## Microsoft Flight Simulator Control Options
 
-### 1. Create a separate controller profile in Microsoft Flight Simulator
+### 1. Create a Separate Controller Profile in Microsoft Flight Simulator
 
 Before you change anything in the controller profile make sure to create a dedicated controller profile for the FlyByWire A32NX in Microsoft Flight Simulator so that any changes to the throttle configuration does not impact any other aircraft.
 
-??? note "How to create a new Controller Profile"
+??? note "How to Create a New Controller Profile"
     Microsoft Flight Simulator allows you to create separate profiles for different controllers. To do that change to the `DEFAULT` profile of your controller and create a copy of it (`DUPLICATE`).
 
     ![MSFS Duplicate Controller Profile](../../assets/flypad/throttle-calibration/duplicate-controller-profile.png "MSFS Duplicate Controller Profile"){loading=lazy}
@@ -59,7 +59,7 @@ Before you change anything in the controller profile make sure to create a dedic
 
 Set all sensitivity settings to 0%. This includes Sensitivity + and -, Dead Zone, Neutral and Extremity Dead Zone. Leave Reactivity at 100%.
 
-??? note "How to set Sensitivity to linear"
+??? note "How to Set Sensitivity to Linear"
     Set your Sensitivity settings exactly like this:
 
     ![Linear Sensitivity Settings](../../assets/flypad/throttle-calibration/sensitivity-settings.png "Linear Sensitivity Settings"){loading=lazy}
@@ -68,14 +68,14 @@ Set all sensitivity settings to 0%. This includes Sensitivity + and -, Dead Zone
 
 Check that the axis mappings are correct.
 
-??? note "How to set Axis Mapping"
+??? note "How to Set Axis Mapping"
     You can use `THROTTLE 1 AXIS (0 TO 100%)` and `THROTTLE 2 AXIS (0 TO 100%)` for the throttle axis.
 
     !!! tip "To find out which axis is used by your controller you can use the Sensitivity dialog and move the lever to see which axis is moving."
 
     ![Throttle Axis Mapping](../../assets/flypad/throttle-calibration/throttle-axis-mapping.png "Throttle Axis Mapping"){loading=lazy}
 
-??? tip "Test the movement of the throttle in the cockpit now!"
+??? tip "Test the Movement of the Throttle in the Cockpit Now!"
     The throttle in the cockpit should now move in the correct direction. If not check the `Reverse Axis` box here:
 
     ![Reverse Axis Box](../../assets/flypad/throttle-calibration/reverse-axis-box.png "Reverse Axis Box"){loading=lazy}
@@ -94,7 +94,7 @@ Check that the axis mappings are correct.
 
 If your throttle does not have a range for the reverser there are two ways to activate and simulate reverser with buttons.
 
-??? note "How to setup reverser: Controller with a separate button or key"
+??? note "How to Setup Reverser: Controller With a Separate Button or Key"
     Microsoft Flight Simulator allows the mapping of a key or button to use the normal throttle axis as the reverser axis. To configure this chose a key or button on your controller and map it like this:
 
      ![Reverser Button Configuration](../../assets/flypad/throttle-calibration/reverser-hold.png "Reverser Button Configuration"){loading=lazy}
@@ -105,8 +105,8 @@ If your throttle does not have a range for the reverser there are two ways to ac
 
     ![Reverser Toggle](../../assets/flypad/throttle-calibration/reverser-toggle-hold.png "Reverser Toggle")
 
-??? note "How to setup reverser: Controllers with buttons build into the throttle"
-    Some controllers have build in buttons which activate when the throttle is moved into the reverse position. With these controllers you can't use the above method as you would have to move the throttles forward to increase reverse thrust. But this would release the reverse button and apply normal forward thrust.
+??? note "How to Setup Reverser: Controllers With Buttons Built Into the Throttle"
+    Some controllers have built in buttons that activate when the throttle is moved into the reverse position. With these controllers you can't use the above method as you would have to move the throttles forward to increase reverse thrust. But this would release the reverse button and apply normal forward thrust.
 
     To simulate reverse thrust with these throttle controllers you can map the reverser button(s) to the `THROTTLE 1/2 DECREASE`. So as long as you keep the controller levers in the reverse position the throttle will be decreased up to full reverse thrust. To stop reverse thrust you would move the throttle forward (button will be released) and apply a little thrust so the throttle moves to a non-reverse value again.
 
@@ -126,7 +126,7 @@ If your throttle does not have a range for the reverser there are two ways to ac
 ??? tip "Do not go on with the guide without successfully testing the following:"
 
     - The throttle in the cockpit should now move in the correct direction.
-    - The throttle in the cockpit should move to TOGA when you set your controller to full thrust
+    - The throttle in the cockpit should move to TOGA when you set your controller to full thrust.
     - The throttle in the cockpit should move to IDLE when you set your controller to idle.
     - The throttle should move to full reverse if you activate reverse thrust on your controller. See [Reverser Setup](#4-reverser-setup-when-not-on-axis) on how to engage reverser when you throttle does not have a reverser range.
 
@@ -138,9 +138,9 @@ If the tests are successful please move to the next chapter. Otherwise go throug
 
 ### 1. flyPad Calibration Page
 
-??? note "Where is the Throttle Configuration?"
+??? note "Where Is the Throttle Configuration?"
 
-    Open the flyPad (maybe pop it out to a separate window next to the throttle with ++ralt+left-button++) and go to **Settings** -> **Calibrate**.
+    Open the flyPad (maybe pop it out to a separate window next to the throttle with ++ralt+left-button++) and go to **Sim Options (Tab)** -> **Calibrate**.
 
     ![flyPad-Settings](../../assets/flypad/throttle-calibration/flyPad-Settings.jpg "flyPad-Settings"){loading=lazy}
 
@@ -150,22 +150,22 @@ If the tests are successful please move to the next chapter. Otherwise go throug
 
     ![EFB-Calibration-Page](../../assets/flypad/throttle-calibration/efb-calibration-page1.png "EFB-Calibration-Page"){loading=lazy}
 
-### 2. Setup your controller characteristics
+### 2. Setup Your Controller Characteristics
 
 Configure the basic characteristics of your controller at the top of the calibration page.
 
-??? note "How to setup the Controller basics"
+??? note "How to Setup the Controller Basics"
     ![Calibration Base Settings](../../assets/flypad/throttle-calibration/base-settings.png "Calibration Base Settings"){loading=lazy}
 
-    Set `Reverser On Axis` to ON if your throttle has a range for the reverser thrust (lowest setting is full reverse).
+    Set `Reverser on Axis` to ON if your throttle has a range for the reverser thrust (lowest setting is full reverse).
 
-    Set `Reverser On Axis` to OFF if your throttle does not have a range for the reverser thrust (lowest setting is idle).
+    Set `Reverser on Axis` to OFF if your throttle does not have a range for the reverser thrust (lowest setting is idle).
 
     Set `Independent Axis` to ON if you have two throttle levers. If you only have one throttle lever set it to OFF.
 
     Examples for Common Hardware:
 
-    | Controller                        | Reverser On Axis | Independent Axis |
+    | Controller                        | Reverser on Axis | Independent Axis |
     |:----------------------------------|:----------------:|:----------------:|
     | Thrustmaster TCA                  |        ON        |        ON        |
     | Thrustmaster TWCS                 |       OFF        |       OFF        |
@@ -182,7 +182,7 @@ Usually there is no need to change the deadbands for the detents as the default 
 
 ==}
 
-??? note "How to check and change the deadbands"
+??? note "How to Check and Change the Deadbands"
     ![Deadband around a detent setting](../../assets/flypad/throttle-calibration/deadband-setting.png "Deadband around a detent setting"){loading=lazy}
 
     The image above shows the controller in the `IDLE` position with a
@@ -197,11 +197,11 @@ Usually there is no need to change the deadbands for the detents as the default 
 
     !!! warning "Do not change the deadband if not necessary and also never set a too large value as deadband ranges mustn't overlap!"
 
-### 4. Start with Full Reverser (or Idle)
+### 4. Start With Full Reverser (or Idle)
 
 We start the detent calibration with the lowest throttle setting.
 
-??? note "How to calibrate: Controllers with Reverser on Axis"
+??? note "How to Calibrate: Controllers With Reverser on Axis"
     For controllers with Reverser the lowest setting is `Full Reverse`.
     Pull your controller levers all the way back into the `Full Reverse` position.
 
@@ -211,7 +211,7 @@ We start the detent calibration with the lowest throttle setting.
 
     {== Press "Set From Throttle" on both sides. ==}
 
-??? note "How to calibrate: Controllers without Reverser on Axis"
+??? note "How to Calibrate: Controllers Without Reverser on Axis"
     For controllers without Reverser the lowest setting is `IDLE`.
     Pull your controller levers all the way back into the `IDLE` position.
 
@@ -221,12 +221,12 @@ We start the detent calibration with the lowest throttle setting.
 
     {== Press "Set From Throttle" on both sides. ==}
 
-### 5. Go through all Detents
+### 5. Go Through All Detents
 
 Go through all detents from lowest thrust to highest thrust carefully and
 repeat the process from [Step 4.](#4-start-with-full-reverser-or-idle) for each detent.
 
-??? note "How to calibrate all detents"
+??? note "How to Calibrate All Detents"
     Set the controller lever to the desired position and click the corresponding button on the calibration page.
 
     {== Press "Set From Throttle" on both sides for each detent. ==}
@@ -247,7 +247,7 @@ Click on "Save & Apply".
 
 ### 7. Test
 
-??? tip "How to test calibration"
+??? tip "How to Test Calibration"
 
     Test each setting with a view like this. Make sure the mouse is outside the popout window otherwise the aircraft's throttles won't move.
 
@@ -274,7 +274,7 @@ Click on "Save & Apply".
 
         ![EFB-Calibration-Page](../../assets/flypad/throttle-calibration/EFB-Calibration-Page.jpg "EFB-Calibration-Page"){loading=lazy}
 
-    - Set **`Reverser On Axis`**  to ON (see **1** in image).
+    - Set **`Reverser on Axis`**  to ON (see **1** in image).
 
     - Set **`Independent Axis`** to ON (see **2** in image).
 
@@ -301,7 +301,7 @@ Click on "Save & Apply".
         ![EFB-Reverse-Idle](../../assets/flypad/throttle-calibration/EFB-Reverse-Idle.jpg "EFB-Reverse-Idle"){loading=lazy}
 
         !!! info ""
-            Notice how the blue bar (current throttle position) is between two  green lines. These green lines are your deadband range for the detent. As long as the blue bar is between them, the throttle reads this as the corresponding detent (in this case **Reverse Idle**). If you move the throttle outside these green bars they become gray as you now no longer are in the corresponding detent.
+            Notice how the blue bar (current throttle position) is between two green lines. These green lines are your deadband range for the detent. As long as the blue bar is between them, the throttle reads this as the corresponding detent (in this case **Reverse Idle**). If you move the throttle outside these green bars they become gray as you now no longer are in the corresponding detent.
 
             You can enlarge the deadband by increasing the value above the "Set From Throttle" button. Currently this is 0.05 - set it as required which will move the green lines down/up.
 
