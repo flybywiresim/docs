@@ -42,9 +42,21 @@ The major differences between different throttle controllers are:
 .md-typeset details {
     font-size: .8rem;
 }
+.md-typeset .admonition.danger {
+    font-size: 1rem;
+    margin-bottom: 0;
+}
 </style>
 
 ## Microsoft Flight Simulator Control Options
+
+!!! danger "DO NOT SKIP THIS ENTIRE SECTION"
+
+{--
+
+Please ensure this section is **NOT SKIPPED** to ensure your throttle will perform with our aircraft!
+
+--}
 
 ### 1. Create a Separate Controller Profile in Microsoft Flight Simulator
 
@@ -131,6 +143,8 @@ If your throttle does not have a range for the reverser there are two ways to ac
     - The throttle should move to full reverse if you activate reverse thrust on your controller. See [Reverser Setup](#4-reverser-setup-when-not-on-axis) on how to engage reverser when you throttle does not have a reverser range.
 
 If the tests are successful please move to the next chapter. Otherwise go through this chapter again to fix any issues.
+
+!!! danger "DO NOT SKIP THE STEPS ABOVE"
 
 ---
 
