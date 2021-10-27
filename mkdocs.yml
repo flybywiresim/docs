@@ -105,6 +105,7 @@ markdown_extensions:
   - pymdownx.mark # Formatting Extension
   - pymdownx.tilde # Formatting Extension
   - pymdownx.keys # Visual keyboard keys extension
+  - pymdownx.critic
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.emoji: # Allows emoji style inline embeds for icons
