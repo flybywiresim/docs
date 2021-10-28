@@ -42,12 +42,7 @@ plugins:
         'start/fbw-versions.md': 'fbw-a32nx/fbw-versions.md'
         'start/installation.md': 'fbw-a32nx/installation.md'
         'start/support.md': 'fbw-a32nx/support/index.md'
-        'start/convert-liveries.md': 'fbw-a32nx/liveries.md'
         'start/reported-issues.md': 'fbw-a32nx/support/reported-issues.md'
-        'start/performance-tips.md': 'fbw-a32nx/support/performance-tips.md'
-        'start/faq.md': 'fbw-a32nx/support/faq.md'
-        'start/mcdu-keyboard.md': 'fbw-a32nx/feature-guides/mcdu-keyboard.md'
-        'start/throttle-calibration.md': 'fbw-a32nx/feature-guides/flyPad/throttle-calibration.md'
         'start/autopilot-fbw.md': 'fbw-a32nx/feature-guides/autopilot-fbw.md'
         'start/exp.md': 'fbw-a32nx/support/exp.md'
         # Folder: /beginner-guide/
@@ -62,6 +57,7 @@ plugins:
         'a32nx-dev/texture-changes.md': 'dev-corner/texture-changes.md'
         # additional redirects:
         'fbw-a32nx/feature-guides/throttle-calibration.md': 'fbw-a32nx/feature-guides/flyPad/throttle-calibration.md'
+        # Convenience redirects:
         'throttle.md': 'fbw-a32nx/feature-guides/flyPad/throttle-calibration.md'
         # Release Notes Permalink
         'latest-release.md': 'release-notes/v071.md'
