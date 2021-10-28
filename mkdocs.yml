@@ -63,6 +63,8 @@ plugins:
         # additional redirects:
         'fbw-a32nx/feature-guides/throttle-calibration.md': 'fbw-a32nx/feature-guides/flyPad/throttle-calibration.md'
         'throttle.md': 'fbw-a32nx/feature-guides/flyPad/throttle-calibration.md'
+        # Release Notes Permalink
+        'latest-release.md': 'release-notes/v071.md'
         # ########################################
         # Needed for URL within the A32NX aircraft
         # ########################################

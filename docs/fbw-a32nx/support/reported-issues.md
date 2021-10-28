@@ -66,7 +66,7 @@ Go to your content manager and filter for "flybywire" as you see on the followin
 
 If you see old versions (e.g. v0.6.1) or if you have multiple installations of the A32NX please uninstall them in the Content Manager and restart the sim. Reinstall development version from our [installer](https://api.flybywiresim.com/installer){target=new}.
 
-<sub> Currently only Development or Experimental are compatible.
+<sub> You may install Stable - <img src="https://img.shields.io/github/v/release/flybywiresim/a32nx.svg?color=2F4E5B&style=flat" /> for compatibility. We recommend staying on development.
 
 Information on how to install with the FlyByWire Installer can be found here: [Installation Guide](../installation.md).
 
@@ -336,7 +336,7 @@ There are certain bugs with the default FMS - the FlyByWire team is working on a
 - Autopilot tries to return to a previous waypoint when activating approach.
 - Selecting a STAR and arrival runway in the MCDU while in flight will result in the issues above.
 
-Workarounds: 
+Workarounds:
 
 - Use DIRECT to head to the correct waypoint on your F-PLN or use selected heading. This should allow you to continue with your selected STAR for arrival.
 - You can also try switching to selected heading BEFORE selecting your STAR and arrival runway to prevent unwanted flight plan redirection.

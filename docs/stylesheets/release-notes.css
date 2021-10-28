@@ -1,0 +1,12 @@
+.md-typeset ol li, .md-typeset ul li {
+    margin-bottom: .05em;
+    margin-left: 1.25em;
+}
+
+.author {
+  font-size: 0.8em
+}
+
+.feature {
+  color: #00C2CC
+}
