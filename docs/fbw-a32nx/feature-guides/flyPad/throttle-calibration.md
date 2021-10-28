@@ -138,7 +138,7 @@ If your throttle does not have a range for the reverser there are two ways to ac
 
 If the tests are successful please move to the next chapter. Otherwise go through this chapter again to fix any issues.
 
-!!! danger "DO NOT SKIP THE STEPS ABOVE"
+!!! danger "PLEASE DO NOT SKIP THE SECTION ABOVE"
 
 ---
 
