@@ -70,6 +70,25 @@ If you see old versions (e.g. v0.6.1) or if you have multiple installations of t
 
 Information on how to install with the FlyByWire Installer can be found here: [Installation Guide](../installation.md).
 
+#### EFB Input Field Causes Mouse Lock
+
+!!! tip ""
+    *Affected versions: Stable, Development*
+
+In certain situations, if you have selected an input field on the EFB and changed your view away from the EFB, you may no longer have use of your mouse cursor.
+
+Please follow the steps below to bypass this issue:
+
+1. Open your browser (i.e. Chrome / Firefox)
+- In the URL field type in - `localhost:19999`
+- Click on any link
+- Go to the `Console Tab` shown in the browser. (**Note:** This is not the devtools of your browser. The page you are on already has a console tab at the top.)
+- At the bottom type in - `Coherent.call('UNFOCUS_INPUT_FIELD')`
+- Press ++enter++
+
+!!! warning "*Under Investigation*"
+    Sample screenshots maybe provided at a later time. Visit our Discord for support on this issue.
+
 #### Unicode Characters in Windows Username
 
 !!! tip ""
