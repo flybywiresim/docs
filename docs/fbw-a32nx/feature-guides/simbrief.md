@@ -47,6 +47,8 @@ See [flyPad Guide - Load from simBrief](flyPad/dashboard.md#load-from-simbrief)
 
 See [flyPad Guide - OFP](flyPad/dispatch.md#ofp-page) on how to view the simBrief Operational Flight Plan.
 
+See [Fuel and Weight](loading-fuel-weight.md) on how to load fuel and payload.
+
 ---
 
 ## Using the FMS (MCDU) and simBrief Integration
@@ -92,3 +94,7 @@ This will load your flight plan from simBrief directly into the MCDU
 ![MCDU INIT A](../../fbw-a32nx/assets/feature-guides/simbrief/mcdu1b.png "MCDU INIT A"){loading=lazy}
 
 To learn how to set up the MCDU you can read the [**^^F^^**LIGHT PLAN](../../pilots-corner/beginner-guide/preparing-mcdu.md#flight-plan) section in our beginner's guide.
+
+### Fuel and Weight
+
+See [Fuel and Weight](loading-fuel-weight.md)
