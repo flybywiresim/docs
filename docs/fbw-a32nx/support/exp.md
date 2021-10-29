@@ -10,7 +10,7 @@ This page will be updated when we start work on new features in the experimental
 
 For information on what's included in the custom FMS see our dedicated guide. 
 
-[Custom Flight Management System Feature Guide](../feature-guides/cFMS.md){.md-button}
+[Flight Management System Feature Guide](../feature-guides/cFMS.md){.md-button}
 
 !!! info ""
     Downloads available through our [installer](../installation.md) or [website](https://flybywiresim.com/a32nx/#download).
