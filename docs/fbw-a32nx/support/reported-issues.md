@@ -27,11 +27,18 @@
 
     ---
 
-    Please visit the dedicated Autopilot / Fly-By-Wire page for more information:
+    Please visit the dedicated ^^Autopilot / Fly-By-Wire^^ page for more information:
 
     - [**Main Page**](../feature-guides/autopilot-fbw.md)
     - [**Typical Issues + Solutions**](../feature-guides/autopilot-fbw.md#typical-issues-and-how-to-solve-them)
     - [**Known Issues**](../feature-guides/autopilot-fbw.md#known-issues)
+
+    ---
+
+    Please visit the ^^Dedicated Custom Flight Management System^^ page for more information:
+
+    - [**Features + Issues**](../feature-guides/cFMS.md)
+    - [**Special Notes**](../feature-guides/cFMS.md#special-notes)
 
     ---
 
