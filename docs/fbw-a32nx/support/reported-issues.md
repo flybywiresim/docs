@@ -75,14 +75,14 @@ Information on how to install with the FlyByWire Installer can be found here: [I
 !!! tip ""
     *Affected versions: Stable, Development*
 
-In certain situations if you have selected an input field on the EFB and change your view away from the EFB you may no longer have use of your mouse cursor.
+In certain situations, if you have selected an input field on the EFB and changed your view away from the EFB, you may no longer have use of your mouse cursor.
 
 Please follow the steps below to bypass this issue:
 
 1. Open your browser (i.e. Chrome / Firefox)
 - In the URL field type in - `localhost:19999`
 - Click on any link
-- Go to the `Console Tab` show in the browser. (**Note:** This is not the devtools of your browser. The page you are on already has a console tab at the top.)
+- Go to the `Console Tab` shown in the browser. (**Note:** This is not the devtools of your browser. The page you are on already has a console tab at the top.)
 - At the bottom type in - `Coherent.call('UNFOCUS_INPUT_FIELD')`
 - Press ++enter++
 
