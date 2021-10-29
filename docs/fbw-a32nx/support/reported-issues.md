@@ -70,12 +70,12 @@ If you see old versions (e.g. v0.6.1) or if you have multiple installations of t
 
 Information on how to install with the FlyByWire Installer can be found here: [Installation Guide](../installation.md).
 
-#### EFB Input Field Causes Controls Lock
+#### EFB Input Field Causes Mouse Lock
 
 !!! tip ""
     *Affected versions: Stable, Development*
 
-In certain situations if you have selected an input field on the EFB and change your view away from the EFB you can no longer interact with the rest of the virtual cockpit.
+In certain situations if you have selected an input field on the EFB and change your view away from the EFB you may no longer have use of your mouse cursor.
 
 Please follow the steps below to bypass this issue:
 
