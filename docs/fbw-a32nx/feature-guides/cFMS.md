@@ -12,7 +12,7 @@ This page outlines features provided by the initial integration of our custom FM
 - [x] Edit SID/STAR/APPR waypoints
 - [x] Cross-track error indicator
 - [x] USR waypoints are gone
-- [x] Multiple leg types
+- [x] Multiple leg types:
     - [x] TF: Track to a Fix defines a great circle track over ground between two known databases fixes.
     - [x] RF: Constant Radius Arc defines a constant radius turn between two database fixes, lines tangent to the arc and a center fix.
     - [x] VM: Heading to a manual termination defines a specified heading until a Manual termination.
