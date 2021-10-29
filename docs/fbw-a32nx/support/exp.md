@@ -8,14 +8,14 @@ This page will be updated when we start work on new features in the experimental
 
 --}
 
-For information on what's included in the custom FMS see our dedicated guide. 
+For information on what's included in the custom FMS see our dedicated guide.
 
 [Flight Management System Feature Guide](../feature-guides/cFMS.md){.md-button}
 
 !!! info ""
     Downloads available through our [installer](../installation.md) or [website](https://flybywiresim.com/a32nx/#download).
 
-    Please see our [Support Guide](../fbw-a32nx/support/index.md) and [Reported Issues](../fbw-a32nx/support/reported-issues.md).
+    Please see our [Support Guide](index.md) and [Reported Issues](reported-issues.md).
 
 <!-- !!! danger "No Support for Experimental - use at own risk"
     Please do not seek support for the Experimental Version on Discord and only report issues if you have read this page and the reported and known issues. You can report issues in the Discord channel "#ata-22-fms" in the thread "[CFMS LNAV ONLY Bugs + Issues](https://discord.com/channels/738864299392630914/876140343735771147/882442909918584862){ target=new }".-->
