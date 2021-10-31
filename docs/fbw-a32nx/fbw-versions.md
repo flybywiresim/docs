@@ -25,13 +25,15 @@
 
 === "Experimental Version"
 
-    This version is similar to the development version, but contains custom systems in earlier development phases. 
+    This version is similar to the development version, but contains custom systems in earlier development phases.
+
+    The experimental branch will be on hold temporarily until we start work on our next major feature. Please switch to our development branch in the meantime.
     
-    Currently we are testing the new implementation of the TCAS.
+    <!--Currently we are testing the new implementation of the TCAS.
     
-    The experimental version will be updated regularly and also with the latest changes to the Development version. Expect updates about once a week (not guaranteed).     
+    The experimental version will be updated regularly and also with the latest changes to the Development version. Expect updates about once a week (not guaranteed).-->
     
-    !!! warning 
+    !!! warning
     
     The Experimental version has a less strict QA process and is used for actual QA testing. Bugs and Issues are to be expected. Please read [Experimental Version Support Page](support/exp.md) before using this version.
 
