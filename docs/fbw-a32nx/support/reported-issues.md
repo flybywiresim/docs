@@ -44,9 +44,9 @@
 
     Do this before reporting bugs.
 
-!!! danger "No Support for Experimental - use at own risk"
+<!--!!! danger "No Support for Experimental - use at own risk"
 
-    Refer to this page for [Known Issues in the Experimental Version](exp.md#known-issues).
+    Refer to this page for [Known Issues in the Experimental Version](exp.md#known-issues).-->
 
 ---
 
