@@ -10,6 +10,7 @@ This page outlines features provided by the initial integration of our custom FM
 
 - [x] Flight plan manager overhaul
 - [x] Edit SID/STAR/APPR waypoints
+- [x] Discontinuities
 - [x] Cross-track error indicator
 - [x] USR waypoints are gone
 - [x] Multiple leg types:
