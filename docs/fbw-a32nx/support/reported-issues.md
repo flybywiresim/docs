@@ -122,8 +122,8 @@ TEMPLATE
 
     Do not use the printer for the time being.
 
-??? failure "Mouse Lock caused by EFB Input Field"
-    ### Mouse Lock caused by EFB Input Field
+??? failure "Mouse Lock Caused by EFB Input Field"
+    ### Mouse Lock Caused by EFB Input Field
 
     !!! tip ""
         *Affected versions: Stable, Development*
@@ -194,8 +194,8 @@ TEMPLATE
         - AILERONS_LEFT
         - AILERONS_RIGHT
 
-??? failure "Nose Wheel Steering locked (NW STRG DISC)"
-    ### Nose Wheel Steering locked (NW STRG DISC)
+??? failure "Nose Wheel Steering Locked (NW STRG DISC)"
+    ### Nose Wheel Steering Locked (NW STRG DISC)
 
     !!! tip ""
         *Affected versions: Stable, Development*
@@ -212,8 +212,8 @@ TEMPLATE
     - Remove the addon from your community folder or wait for developer to update.
     - Use our EFB which has built in pushback controls or another addon.
 
-??? failure "Unable to Taxi / Aircraft does not move"
-    ### Unable to Taxi / Aircraft does not move
+??? failure "Unable to Taxi / Aircraft Does Not Move"
+    ### Unable to Taxi / Aircraft Does Not Move
 
     !!! tip ""
         *Affected versions: Stable, Development*
@@ -278,7 +278,7 @@ TEMPLATE
 
 ---
 
-??? warning "Fuel Consumption Too High / Fuel Prediction too low"
+??? warning "Fuel Consumption Too High / Fuel Prediction Too low"
     ### Fuel Consumption
 
     !!! tip ""
@@ -455,8 +455,8 @@ TEMPLATE
 
     Also see our [Throttle Calibration Guide](../feature-guides/flyPad/throttle-calibration.md)
 
-??? warning "Liveries Converted From the Default Asobo A320 Cause Issues"
-    ### Liveries Converted From the Default Asobo A320 Cause Issues
+??? warning "Liveries Converted from the Default Asobo A320 Cause Issues"
+    ### Liveries Converted from the Default Asobo A320 Cause Issues
 
     ^^Description^^
 
@@ -704,13 +704,13 @@ TEMPLATE
 
     You can test these issue by using the MSFS World Map. If the required nav data (waypoint, SID, STAR, APPR, RwY, Airport, etc.) is missing in the World Map as well, then it is a general nav data issue and not an issue with the aircraft.
 
-??? warning "NOT IN DATABASE when Loading Flight Plan"
-    ### NOT IN DATABASE when Loading Flight Plan
+??? warning "NOT IN DATABASE When Loading Flight Plan"
+    ### NOT IN DATABASE When Loading Flight Plan
 
     See [Navigation Data Issues](#navigation-data-issues)
 
-??? warning "Rudder Keybindings not Working"
-    ### Rudder Keybindings not Working
+??? warning "Rudder Keybindings Not Working"
+    ### Rudder Keybindings Not Working
 
     !!! tip ""
         *Affected versions: Stable, Development*
