@@ -231,8 +231,8 @@ TEMPLATE
     - Remove the addon from your community folder or wait for developer to update.
     - Use our EFB which has built in pushback controls or another addon.
 
-??? failure "Autopilot, FADEC, Electrical Systems not Working as Intended"
-    ### Autopilot, FADEC, Electrical Systems not Working as Intended
+??? failure "Autopilot, FADEC, Electrical Systems not Working as Intended (UTF8 Issue)"
+    ### Autopilot, FADEC, Electrical Systems not Working as Intended (UTF8 Issue)
 
     !!! tip ""
         *Affected versions: Stable, Development*
