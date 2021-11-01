@@ -51,14 +51,6 @@
 
 ---
 
-## Legend
-
-!!! failure "Breaking Issue"
-!!! warning "Non Breaking Issue / Inconvenience"
-!!! tip "Config Issue / Usage Issue"
-
----
-
 ## Known A32NX Issues
 
 *Last Update: {{git_revision_date_localized}}*
@@ -846,5 +838,13 @@ TEMPLATE
     * PFD artificial horizon freezes *(fixed)*
         - Workaround:
             - Turn off PFD, wait >10 seconds and turn PFD back on.
+
+---
+
+## Legend
+
+!!! failure "Breaking Issue"
+!!! warning "Non Breaking Issue / Inconvenience"
+!!! tip "Config Issue / Usage Issue"
 
 
