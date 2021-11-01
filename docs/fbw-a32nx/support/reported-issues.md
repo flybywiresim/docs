@@ -52,6 +52,14 @@
 
 ---
 
+## Legend
+
+!!! failure "Breaking Issue"
+!!! warning "Non Breaking Issue / Inconvenience"
+!!! tip "Config Issue / Usage Issue"
+
+---
+
 ## Known A32NX Issues
 
 *Last Update: {{git_revision_date_localized}}*
@@ -841,8 +849,4 @@ TEMPLATE
         - Workaround:
             - Turn off PFD, wait >10 seconds and turn PFD back on.
 
-    ---
 
-If you are here from our social media please visit our discord for support.
-
-[:fontawesome-brands-discord:{: .discord } - **Discord Link**](https://discord.gg/flybywire)
