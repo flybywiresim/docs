@@ -49,7 +49,6 @@
 
     Refer to this page for [Known Issues in the Experimental Version](exp.md#known-issues).
 
-
 ---
 
 ## Legend
@@ -487,11 +486,13 @@ TEMPLATE
         *Affected versions: Stable, Development*
 
     ^^Description^^
+
     Switches, knobs and dials can't be used with simple mouse clicks as before.
 
     Controls appear highlighted in color (mostly blue) when the mouse hohvers over them.
 
     ^^Root Cause^^
+
     Asobo
 
     ^^Possible Solution or Workaround^^
@@ -520,9 +521,6 @@ TEMPLATE
         This list is based on our testing and feedback. For more information see the [MSFS Release Notes](https://forums.flightsimulator.com/t/microsoft-flight-simulator-available-today-on-xbox-series-x-s-and-xbox-game-pass/425795) - Cockpit Interactions.
 
     Direct your support questions and feedback of this feature to Asobo.
-
-
-
 
 ??? tip "No EFB (flyPad) in Cockpit"
     ### No EFB (flyPad) in Cockpit
