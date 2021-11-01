@@ -1,5 +1,16 @@
 # Reported Known Issues
 
+<style>
+.md-typeset .admonition-title, .md-typeset summary {
+    font-weight: 700;
+    font-size: .8rem;
+    font-weight: inherit;
+}
+.md-typeset .admonition, .md-typeset details {
+    font-size: .8rem;
+}
+</style>
+
 !!! error  "STOP - Read this First"
 
     Please try and remove all other mods/liveries from the community folder and test our add-on again. This will help rule out conflicts.
@@ -16,12 +27,12 @@
 
 !!! warning "Read our Support Guide"
 
-    1. [Learn how to fly an A32NX](index.md#1-learn-how-to-fly-an-a32nx)
-    - [Troubleshoot](index.md#2-troubleshoot)
-    - [Research Known Issues](index.md#3-research-known-issues)
-    - [Report Issue on Discord](index.md#4-report-issue-on-discord)
-    - [Report Issue on the A32NX Github](index.md#5-report-issue-on-the-a32nx-github)
-    - [Collecting Support Information](index.md#collecting-support-information)
+    1. [Learn how to fly an A32NX](index.md#1-learn-how-to-fly-the-a32nx)
+    2. [Troubleshoot](index.md#2-how-to-troubleshoot)
+    3. [Research Known Issues](index.md#3-research-known-issues)
+    4. [Report Issue on Discord](index.md#4-report-issue-on-discord)
+    5. [Report Issue on the A32NX Github](index.md#5-report-issue-on-the-a32nx-github)
+    6. [Collecting Support Information](index.md#collecting-support-information)
 
     ---
 
@@ -43,15 +54,43 @@
 
 ---
 
+!!! info "Symptom List"
+    If you encounter one of these symptoms click on the possible reported issue links behind to learn more.
+
+    - Invisible Aircraft: [[1](#installation-version-conflicts)]
+    - Unable to control Mouse: [[1](#efb-input-field-causes-mouse-lock)]
+    - MSFS freezes after selecting `Ready to Fly`: [[1](#unicode-characters-in-windows-username)] [[2](#unwanted-behavior---utf8)]
+    - Electric System not working correctly: [[1](#unwanted-behavior---utf8)]
+
+
+
+---
+
 ## Latest Issues
 
-#### Installation Version Conflicts
+### Installation Version Conflicts
+
+<!--
+TEMPLATE
+
+### Issue Headline
+
+!!! tip ""
+    *Affected versions: Stable, Development*
+
+#### Description
+#### Root Cause
+#### Possible Solution or Workaround
+#### Additional Information
+
+-->
 
 !!! error "Hot Issue"
 
 !!! tip ""
     *Affected versions: Stable, Development*
 
+#### Description and Symptoms
 If you have the following issues you are **most likely on an outdated stable** or you have an **installation conflict**:
 
 - White EFB screen
@@ -60,23 +99,34 @@ If you have the following issues you are **most likely on an outdated stable** o
 - External lights are not working
 - Invisible Aircraft
 
+#### Root Cause
+
+Double install of the add-on and conflict with very old, unsupported versions.
+
+#### Possible Solution or Workaround
 Go to your content manager and filter for "flybywire" as you see on the following image.
 
 ![version sample](../assets/version-sample.jpg){loading=lazy}
 
 If you see old versions (e.g. v0.6.1) or if you have multiple installations of the A32NX please uninstall them in the Content Manager and restart the sim. Reinstall development version from our [installer](https://api.flybywiresim.com/installer){target=new}.
 
-<sub> You may install Stable - <img src="https://img.shields.io/github/v/release/flybywiresim/a32nx.svg?color=2F4E5B&style=flat" /> for compatibility. We recommend staying on development.
-
+#### Additional Information
 Information on how to install with the FlyByWire Installer can be found here: [Installation Guide](../installation.md).
 
-#### EFB Input Field Causes Mouse Lock
+---
+
+### EFB Input Field Causes Mouse Lock
 
 !!! tip ""
     *Affected versions: Stable, Development*
 
+#### Description
 In certain situations, if you have selected an input field on the EFB and changed your view away from the EFB, you may no longer have use of your mouse cursor.
 
+#### Root Cause
+Under Investigation.
+
+#### Possible Solution or Workaround
 Please follow the steps below to bypass this issue:
 
 1. Open your browser (i.e. Chrome / Firefox)
@@ -86,23 +136,26 @@ Please follow the steps below to bypass this issue:
 - At the bottom type in - `Coherent.call('UNFOCUS_INPUT_FIELD')`
 - Press ++enter++
 
-!!! warning "*Under Investigation*"
-    Sample screenshots maybe provided at a later time. Visit our Discord for support on this issue.
-
-#### Unicode Characters in Windows Username
+### Unicode Characters in Windows Username
 
 !!! tip ""
     *Affected versions: Stable, Development*
 
+#### Description
 If your username on your windows machine (not Xbox gamertag) contains any unicode characters it may cause MSFS to freeze after selecting `Ready to Fly`.
 
 Sample characters (not all inclusive): **ë** or **õ**
 
-Workaround:
+#### Root Cause
+Under Investigation.
 
+#### Possible Solution or Workaround
 - Change your windows username and remove any unicode characters present. [Guide Here](https://www.windowscentral.com/how-change-account-name-windows-10-sign-screen){target=new}
 
-#### Ailerons are Not Working When Using the Keyboard
+#### Additional Information
+Also see [Unwanted behavior - UTF8](#unwanted-behavior---utf8)
+
+### Ailerons are Not Working When Using the Keyboard
 
 !!! tip ""
     *Affected versions: Stable, Development*
@@ -117,7 +170,7 @@ Workaround:
     - AILERONS_LEFT
     - AILERONS_RIGHT
 
-#### Fuel Consumption
+### Fuel Consumption
 
 !!! tip ""
     *Affected versions: Stable, Development*
@@ -125,7 +178,7 @@ Workaround:
 - May be larger than normal
 - *Under Investigation*
 
-#### Fuel Prediction
+### Fuel Prediction
 
 !!! tip ""
     *Affected versions: Stable, Development*
@@ -133,7 +186,7 @@ Workaround:
 - Prediction numbers in the F-PLN and FUEL PRED pages are inaccurate.
 - *A fix is in the works.*
 
-#### Toolbar Pushback Addon
+### Toolbar Pushback Addon
 
 !!! tip ""
     *Affected versions: Stable, Development*
@@ -144,14 +197,14 @@ May cause unwanted behavior and prevent use of nose wheel steering.
     - Remove the addon from your community folder or wait for developer to update.
     - Use our EFB which has built in pushback controls or another addon.
 
-#### Custom Autopilot Unwanted Disconnection
+### Custom Autopilot Unwanted Disconnection
 
 !!! tip ""
     *Affected versions: Stable, Development*
 
 - Excessive speed decay during level off from open descent can lead to unwanted autothrust disconnection or even alpha floor in certain high drag/low speed situations. *Currently under investigation.*
 
-#### Unwanted behavior - UTF8
+### Unwanted behavior - UTF8
 
 !!! tip ""
     *Affected versions: Stable, Development*
@@ -166,7 +219,7 @@ Affects our custom autopilot, FADEC, and electrical system
          - Click ++"OK"++ and restart your computer.
     1. - Ensure `simconnect.cfg` does not appear in your Documents folder on your computer.
 
-#### ADIRS - Runway
+### ADIRS - Runway
 
 !!! tip ""
     *Affected versions: Development*
@@ -175,7 +228,7 @@ ADIRS may not be aligned when spawning anywhere except cold & dark at a gate (*i
 
 - Workaround: Restart the flight
 
-#### Outer Tank Fuel Transfer
+### Outer Tank Fuel Transfer
 
 !!! tip ""
     *Affected versions: Stable, Development*
@@ -186,7 +239,7 @@ Sometimes the sim will "*miss*" the trigger point being reached for outer tank f
 
 - Workaround: Add enough fuel to get past the trigger point of 239 gallons before departing.
 
-#### EFB Issues in External View
+### EFB Issues in External View
 
 !!! tip ""
     *Affected versions: Stable, Development*
@@ -195,7 +248,7 @@ Can't interact with EFB when popped-out (++ralt+"Left Click"++) and switching to
 
 - Workaround: Make sure to click on the actual EFB screen (not the popped out window) before switching to external camera.
 
-#### Printing METAR Reports May Cause a CTD
+### Printing METAR Reports May Cause a CTD
 
 !!! tip ""
     *Affected versions: Stable, Development*
@@ -203,7 +256,7 @@ Can't interact with EFB when popped-out (++ralt+"Left Click"++) and switching to
 - Intermittent / Single time event only
 - *Under investigation*
 
-#### Freelook with Mouse
+### Freelook with Mouse
 
 !!! tip ""
     *Affected versions: Stable, Development*
@@ -212,14 +265,14 @@ Using freelook may cause controls to freeze.
 
 - Workaround: Try setting `TOGGLE COCKPIT FREELOOK` to your mouse ++middle-button++. Reference: [MSFS Forum Post](https://forums.flightsimulator.com/t/freelook-with-mouse-causes-controls-to-freeze-after-su5/426349/15){target=new}
 
-#### Cockpit Decals Flicker
+### Cockpit Decals Flicker
 
 !!! tip ""
     *Affected versions: Stable, Development*
 
 - Solution: Update to the latest Stable or Development version.
 
-#### Strobe Light Function Reversed
+### Strobe Light Function Reversed
 
 !!! tip ""
     *Affected versions: Stable, Development*
@@ -228,7 +281,7 @@ When strobe lights are set to `OFF` but the lights are on when starting on the r
 
 - Workaround: Start cold and dark at the gate.
 
-#### TCA (Thrustmaster) hardware
+### TCA (Thrustmaster) hardware
 
 !!! tip ""
     *Affected versions: Stable, Development*
@@ -335,7 +388,7 @@ Using **New** Cockpit Interaction System
 
 ## Common Issues
 
-#### NOT IN DATABASE when Loading Flight Plan
+### NOT IN DATABASE when Loading Flight Plan
 
 !!! tip ""
     *Affected versions: Stable, Development*
@@ -344,7 +397,7 @@ Using **New** Cockpit Interaction System
 - Install/uninstall Navigraph data with the Navigraph Navdata Center application.
 - __Do not__ delete `navigraph-navdata` from the community packages directory, as this will leave default navdata disabled.
 
-#### Default (Asobo) Flight Management System Issues
+### Default (Asobo) Flight Management System Issues
 
 !!! tip ""
     *Affected versions: Stable, Development*
@@ -362,14 +415,14 @@ Workarounds:
     - Ensure your next waypoint is correct on the ND before returning to managed HDG/NAV mode on the FCU.
 - If you can, always enter your expected approach in the MCDU before departing. If this doesn't need to be changed, this will skip the turnaround bug on approach. This issue and others like it will be resolved in cFMS.
 
-#### CTD when pressing **FLY** on world menu
+### CTD when pressing **FLY** on world menu
 
 !!! tip ""
     *Affected versions: Stable, Development*
 
 - Check your content manager for missing packages
 
-#### Plane is Invisible
+### Plane is Invisible
 
 !!! tip ""
     *Affected versions: Stable, Development*
@@ -377,14 +430,14 @@ Workarounds:
 - Check your content manager for missing packages
 - Livery/Mod Conflict
 
-#### Rudder Keybindings not Working
+### Rudder Keybindings not Working
 
 !!! tip ""
     *Affected versions: Stable, Development*
 
 - You have to set your keybinding to rudder axis right and left
 
-#### Black Screens / Unable to Start
+### Black Screens / Unable to Start
 
 !!! tip ""
     *Affected versions: Stable, Development*
@@ -392,7 +445,7 @@ Workarounds:
 - Conflict with another mod/livery or incorrect installation of the A32NX add-on
 - Use our [installer](https://api.flybywiresim.com/installer){target=new}
 
-#### Incompatibilities
+### Incompatibilities
 
 !!! tip ""
     *Affected versions: Stable, Development*
