@@ -732,6 +732,7 @@ TEMPLATE
     This is reported to be fixed by Asobo in current patch - **World Update 6**.
 
     ^^Root Cause^^
+
     MSFS issue.
 
     ^^Possible Solution or Workaround^^
