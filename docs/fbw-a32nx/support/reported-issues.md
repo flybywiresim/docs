@@ -8,6 +8,9 @@
 .md-typeset .admonition, .md-typeset details {
     font-size: .8rem;
 }
+.md-typeset .admonition-title:before, .md-typeset summary:before {
+    transform: translateY(10%);
+}
 </style>
 
 !!! error  "STOP - Read this First"
