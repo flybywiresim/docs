@@ -556,12 +556,12 @@ TEMPLATE
     - Add-ons and mods
         - Liveries<br/>(flightsim.to just removed 1000s of them because of that)
         - Airports
-        - basically any add-on and mod
+        - Basically any add-on and mod that may be outdated or have conflicting files
     - MSFS itself (e.g. Rolling Cache is often a cause)
     - Hardware (GFX Card and Driver, Overclocking, etc.)
     - Controllers and Drivers
 
-    Unfortunately just using the sim's API functions might trigger a CTD so the trigger could be the aircraft but the root cause would be the sim.
+    Unfortunately just using the sim's API functions might trigger a CTD, so the trigger could be the aircraft but the root cause would be the sim.
 
     If you can reproduce it reliably please share this information with us on Discord or our GitHub so we can try to also reproduce it. This would be the first step to fix anything.
 
