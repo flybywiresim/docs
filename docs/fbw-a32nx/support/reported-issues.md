@@ -773,13 +773,14 @@ TEMPLATE
 
 ---
 
-### Incompatibilities
+??? warning "Incompatibilities"
+    ### Incompatibilities
 
-!!! tip ""
-    *Affected versions: Stable, Development*
+    !!! tip ""
+        *Affected versions: Stable, Development*
 
-- ASOBO *Aviator/Beta Club* A320 liveries are incompatible with the A32NX add-on
-- Wipers don't function correctly with converted FSX Liveries
+    - ASOBO *Aviator/Beta Club* A320 liveries are incompatible with the A32NX add-on
+    - Wipers don't function correctly with converted FSX Liveries
 
 ---
 
