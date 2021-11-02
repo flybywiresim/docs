@@ -546,9 +546,9 @@ TEMPLATE
 
     ^^Description^^
 
-    With the current state of the sim it is basically impossible to analyze CTDs let alone fix them as MSFS does not provide any tools or logs for analyzing a CTD.
+    With the current state of the sim it is basically impossible to analyze CTDs let alone fix them as MSFS does not provide any tools or logs for analyzing CTDs.
 
-    If we can reliably reproduce it in our aircraft we will try to fix it or at least work around it. But mostly CTDs are very unpredictable and can be caused by many things:
+    If we can reliably reproduce a CTD in our aircraft we will try to fix it or at least work around it. But most CTDs are very unpredictable and can be caused by many things:
 
     - Add-ons and mods
         - Liveries<br/>(flightsim.to just removed 1000s of them because of that)
@@ -558,9 +558,9 @@ TEMPLATE
     - Hardware (GFX Card and Driver, Overclocking, etc.)
     - Controllers and Drivers
 
-    Unfortunately just using a sim API functions might trigger a CTD so the trigger could be the aircraft but the root cause would be the sim.
+    Unfortunately just using the sim's API functions might trigger a CTD so the trigger could be the aircraft but the root cause would be the sim.
 
-    If you can reproduce it reliably please share this information on Discord or our GitHub so we can try to also reproduce it. This would be the first step to fix anything.
+    If you can reproduce it reliably please share this information with us on Discord or our GitHub so we can try to also reproduce it. This would be the first step to fix anything.
 
     ^^Root Cause^^
 
@@ -611,7 +611,7 @@ TEMPLATE
 
      Check your content manager for missing packages
 
-??? failure "Aircraft invisible"
+??? failure "Aircraft Invisible"
     ### Aircraft invisible
 
     !!! tip ""
