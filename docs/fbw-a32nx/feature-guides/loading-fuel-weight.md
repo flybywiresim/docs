@@ -133,6 +133,11 @@ In our development version we have introduced a new flight model paired with a n
 
 Get our [simBrief Profile](../installation.md#simbrief-airframe) for the Development and Experimental versions.
 
+!!! warning "Fuel, Weights and Balance When not Starting Cold & Dark"
+    The process described in this section is for starting the flight at a gate/ramp in a cold and dark state.
+
+    If you start your flight on the runway or in the air the loading process will only work if the Boarding Time [settings](flyPad/settings.md#sim-options) in the flyPad EFB are set to `Instant`. This is deliberate as simulating fueling or boarding and loading when starting from the runway does not make sense.
+
 ??? info "Dynamic Fields and Colors"
     Payload, ZFW, ZFWCG are dynamic fields that are updated alongside the loading/boarding process.
 
