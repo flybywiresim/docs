@@ -14,8 +14,8 @@ hide:
     as possible. Some variables/events are only available in the Experimental
     version of A32NX and are marked as such.
 
-    You can help us keep this up to date and improve this by reporting any errors 
-    or omissions on our [:fontawesome-brands-discord:{: .discord } - **Discord**](https://discord.gg/flybywire){target=new} 
+    You can help us keep this up to date and improve this by reporting any errors
+    or omissions on our [:fontawesome-brands-discord:{: .discord } - **Discord**](https://discord.gg/flybywire){target=new}
     in the **#support** channel or by creating an issue report here: [Docs Issues](https://github.com/flybywiresim/docs/issues){target=new}.
 
 Find the complete list of Custom Event and Custom LVARS of the A32NX:
@@ -46,17 +46,17 @@ Flight Deck:  [ELEC Panel](flight-deck/ovhd/elec.md)
 |             |                                           |        |            |                  |                                            |
 | GEN 1       | TOGGLE_ALTERNATOR:1                       | -      | -          | SIMCONNECT EVENT |                                            |
 |             | GENERAL ENG MASTER ALTERNATOR:1           | 0 \| 1 | R/W        | SIMCONNECT VAR   |                                            |
-|             | A32NX_OVHD_ELEC_ENG_GEN_1_PB_IS_ON        | 0 \| 1 | R          | Custom LVAR      |                                            |
+|             | A32NX_OVHD_ELEC_ENG_GEN_1_PB_IS_ON        | 0 \| 1 | R          | Custom LVAR      | ~~Currently broken~~                                           |
 |             | A32NX_OVHD_ELEC_ENG_GEN_1_PB_HAS_FAULT    | 0 \| 1 | R          | Custom LVAR      |                                            |
 | GEN 2       | TOGGLE_ALTERNATOR:2                       | -      | -          | SIMCONNECT EVENT |                                            |
 |             | GENERAL ENG MASTER ALTERNATOR:2           | 0 \| 1 | R/W        | SIMCONNECT VAR   |                                            |
-|             | A32NX_OVHD_ELEC_ENG_GEN_2_PB_IS_ON        | 0 \| 1 | R          | Custom LVAR      |                                            |
+|             | A32NX_OVHD_ELEC_ENG_GEN_2_PB_IS_ON        | 0 \| 1 | R          | Custom LVAR      | ~~Currently broken~~                                           |
 |             | A32NX_OVHD_ELEC_ENG_GEN_2_PB_HAS_FAULT    | 0 \| 1 | R          | Custom LVAR      |                                            |
 |             |                                           |        |            |                  |                                            |
 | APU GEN     | APU_GENERATOR_SWITCH_TOGGLE               | -      | -          | SIMCONNECT EVENT |                                            |
 |             | APU_GENERATOR_SWITCH_SET                  | 0 \| 1 | -          | SIMCONNECT EVENT |                                            |
 |             | APU GENERATOR SWITCH                      | 0 \| 1 | R/W        | SIMCONNECT LVAR  |                                            |
-|             | A32NX_OVHD_ELEC_APU_GEN_1_PB_IS_ON        | 0 \| 1 | R          | Custom LVAR      |                                            |
+|             | A32NX_OVHD_ELEC_APU_GEN_1_PB_IS_ON        | 0 \| 1 | R          | Custom LVAR      | ~~Currently broken~~                       |
 |             | A32NX_OVHD_ELEC_APU_GEN_1_PB_HAS_FAULT    | 0 \| 1 | R          | Custom LVAR      |                                            |
 |             |                                           |        |            |                  |                                            |
 | BUS TIE     | A32NX_OVHD_ELEC_BUS_TIE_PB_IS_AUTO        | 0 \| 1 | R/W        | Custom LVAR      |                                            |
@@ -141,26 +141,26 @@ Flight Deck:  [EXT LT Panel](flight-deck/ovhd/ext-lt.md)
     very hard to specifically map them to single button/switches.
 
     One solution we have found to be working is:
-    
+
     - Landing Lights L
         - Set `LIGHT_LANDING_2` to 0 (sets the switch to ON)
         - Set `LANDING_2_RETRACTED` to 0 (extends the landing light)
         - Delay of 8-10sec (to simulate the time it takes to extend the lights)
-        - Set `CIRCUIT SWITCH ON:18` to 1 (turns on the actual light)        
+        - Set `CIRCUIT SWITCH ON:18` to 1 (turns on the actual light)
     - Landing Lights R
         - Set `LIGHT_LANDING_3` to 0 (sets the switch to ON)
         - Set `LANDING_3_RETRACTED` to 0 (extends the landing light)
         - Delay of 8-10sec (to simulate the time it takes to extend the lights)
-        - Set `CIRCUIT SWITCH ON:19` to 1 (turns on the actual light)    
+        - Set `CIRCUIT SWITCH ON:19` to 1 (turns on the actual light)
     - NOSE
         - Set `CIRCUIT SWITCH ON:17` (turns on TAXI lights and moves switch to TAXI)
-        - Set `CIRCUIT SWITCH ON:20` (turns on T.O. lights and moves switch to T.O.) 
+        - Set `CIRCUIT SWITCH ON:20` (turns on T.O. lights and moves switch to T.O.)
         - Set `CIRCUIT SWITCH ON:17` `CIRCUIT SWITCH ON:20` to 0 to turn off all NOSE lights and move the switch to OFF)
     - RWY TURN OFF
-        - Set `CIRCUIT SWITCH ON:21` to 1 (turns on left light)        
+        - Set `CIRCUIT SWITCH ON:21` to 1 (turns on left light)
         - Set `CIRCUIT SWITCH ON:22` to 1 (turns on right light)
-    
-    !!! warning "Doing it this way might break any third party software trying to read the status of the lights through SIMCONNECT."    
+
+    !!! warning "Doing it this way might break any third party software trying to read the status of the lights through SIMCONNECT."
 
 
 ### Interior Lights Panel
@@ -621,7 +621,7 @@ Flight Deck: [MCDU Panel](flight-deck/pedestal/mcdu.md)
 ??? note "MCDU API (Click to Expand)"
     The MCDU API is vast as it contains many buttons.
 
-    ~~Currently most of the buttons don't have a PRESSED event/var. So a complete remote control is not yet possible.~~  
+    ~~Currently most of the buttons don't have a PRESSED event/var. So a complete remote control is not yet possible.~~
 
     - A32NX_MCDU_CLR_MinReleaseTime
     - A32NX_MCDU_CLR_Pressed
