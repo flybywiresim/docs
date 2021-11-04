@@ -18,7 +18,7 @@ These are weather reports created by an on-airport weather station and tend to b
 
     === "DATE/TIME"
 
-        Then follows the Date and Time in the format of DDTTTTZ. So, the date in two digits, followed by the Zulu (GMT) time in four digits. The time is always referenced in Zulu no matter what time zone you are in. For example: 032050Z = The 3rd day of that month, 20:50Z or 8:50PM GMT time. If this is followed with AUTO, it means that the weather station is publishing the METARs without any intervention or checks by a human controller.
+        Then follows the Date and Time in the format of DDTTTTZ. So, the date in two digits, followed by the Zulu (UTC) time in four digits. The time is always referenced in Zulu no matter what time zone you are in. For example: 032050Z = The 3rd day of that month, 20:50Z or 8:50PM UTC time. If this is followed with AUTO, it means that the weather station is publishing the METARs without any intervention or checks by a human controller.
 
     === "WIND"
 
