@@ -295,28 +295,29 @@ TEMPLATE
 
     We are working on more realistic simulation of various involved systems, e.g. engines. The fuel estimations and consumptions will be inaccurate until we have completed these systems.
 
-??? warning "Interacting with the EFB May Trigger Autopilot Disconnection"
-    ### Interacting with the EFB May Trigger Autopilot Disconnection
+??? warning "Autopilot: Unwanted Disconnection"
+
+    ### Autopilot Disconnection While Interacting with the EFB
 
     !!! tip ""
         *Affected versions: Stable, Development*
 
     ^^Description^^
 
-    When typing into the EFB, control assignments on your keyboard may still be accepted. Therefore, when using the numpad for input into EFB, you may inadvertently be applying flight control events.
+    When using the EFB Descent TOD calculator, MSFS control assignments on your keyboard may still be accepted. Therefore, when using the numpad for input into EFB, you may inadvertently be applying flight control events.
 
     ^^Root Cause^^
 
-    We have identified it may only be the TOD page that still accepts outside events. *Currently under investigation.*
+    We have identified that the Descent TOD page still accepts outside events.
+
+    *Currently under investigation.*
 
     ^^Possible Solution or Workaround^^
 
     1. Unbind any flight control assignments for your numpad or number keys on the keybaord through the MSFS settings.
-    - Slightly moving the axis of the rudder and/or sidestick (or pressing 5 on the numpad) after entering data into the EFB.
-        - This will center the rudder or alierons to prevent a consistent deflection of flight surfaces.
+    - Slightly moving the axis of the rudder and/or sidestick (or pressing 5 on the numpad) after entering data into the EFB. This will center the rudder or alierons to prevent a consistent deflection of flight surfaces.
 
-??? warning "Unwanted Disconnection of Autopilot"
-    ### Unwanted Disconnection of Autopilot
+    ### Autopilot Disconnection Due to Excessive Speed Decay
 
     !!! tip ""
         *Affected versions: Stable, Development*
