@@ -59,6 +59,7 @@ plugins:
         'fbw-a32nx/feature-guides/throttle-calibration.md': 'fbw-a32nx/feature-guides/flyPad/throttle-calibration.md'
         # Convenience redirects:
         'beginner-guide.md': 'pilots-corner/beginner-guide/overview.md'
+        'installation.md': 'fbw-a32nx/installation.md'
         'throttle.md': 'fbw-a32nx/feature-guides/flyPad/throttle-calibration.md'
         'reported-issues.md': 'fbw-a32nx/support/reported-issues.md'
         'support.md': 'fbw-a32nx/support/index.md'
