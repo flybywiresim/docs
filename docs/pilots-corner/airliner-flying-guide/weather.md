@@ -98,7 +98,7 @@ These are weather reports created by an on-airport weather station and tend to b
 
     === "TEMP/DEWPOINT"
 
-        Next is the temperature and dewpoint written as TT/DD. This is always in Celsius and can be listed with an M before each figure to indicate minus. For example, 02/M03 means 2 degrees Celsius with a dewpoint of -3° Celsius
+        Next is the temperature and dewpoint written as TT/DD. This is always in Celsius and can be listed with an M before each figure to indicate minus. For example, 02/M03 means 2° Celsius with a dewpoint of -3° Celsius
 
     === "QNH"
 
