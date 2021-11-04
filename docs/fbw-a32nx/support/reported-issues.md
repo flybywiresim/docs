@@ -303,15 +303,15 @@ TEMPLATE
 
     ^^Description^^
 
-    When typing into the EFB, control assignments on your keyboard may still be accepted. Therefore, when using the numpad for input into EFB you may inadvertently be applying flight control events.
+    When typing into the EFB, control assignments on your keyboard may still be accepted. Therefore, when using the numpad for input into EFB, you may inadvertently be applying flight control events.
 
     ^^Root Cause^^
 
-    We have identified it may only be the TOD page still accepting outside events. *Currently under investigation.*
+    We have identified it may only be the TOD page that still accepts outside events. *Currently under investigation.*
 
     ^^Possible Solution or Workaround^^
 
-    - Unbind any flight control assignments for your numpad or number keys on the keybaord through the MSFS settings.
+    1. Unbind any flight control assignments for your numpad or number keys on the keybaord through the MSFS settings.
     - Slightly moving the axis of the rudder and/or sidestick (or pressing 5 on the numpad) after entering data into the EFB.
         - This will center the rudder or alierons to prevent a consistent deflection of flight surfaces.
 
