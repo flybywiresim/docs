@@ -98,11 +98,11 @@ These are weather reports created by an on-airport weather station and tend to b
 
     === "TEMP/DEWPOINT"
 
-        Next is the temperature and dewpoint written as TT/DD. This is always in Celsius and can be listed with an M before each figure to indicate minus. For example, 02/M03 means 2 degrees Celsius with a dewpoint of -3 Celsius
+        Next is the temperature and dewpoint written as TT/DD. This is always in Celsius and can be listed with an M before each figure to indicate minus. For example, 02/M03 means 2° Celsius with a dewpoint of -3° Celsius
 
     === "QNH"
 
-        The QNH is next, listed as four digits, started by either a Q for hPA or an A or in.Hg.
+        The QNH is next, listed as four digits, started by either a Q for hPA or an A for in.Hg.
 
     === "REMARKS"
 
@@ -125,23 +125,23 @@ These are weather reports created by an on-airport weather station and tend to b
 
 `EGLL 031150Z AUTO 26004KT 9999 FEW026 OVC035 08/07 Q0994`
 
-London Heathrow, UK, weather recorded on the 3rd day of the month at 11:50Z time. Automatic observation by the weather station. Wind 260 degrees at 4 knots. Visibility 9999m (greater than 10km). Few clouds at 2600ft above the airfield, overcast clouds at 3500ft above the airfield. Temperature 8C, dewpoint 7C. QNH 994 hPa.
+London Heathrow, UK, weather recorded on the 3rd day of the month at 11:50Z time. Automatic observation by the weather station. Wind 260 degrees at 4 knots. Visibility 9999m (greater than 10km). Few clouds at 2600ft above the airfield, overcast clouds at 3500ft above the airfield. Temperature 8°C, dewpoint 7°C. QNH 994 hPa.
 
 `LFPG 031130Z 21018KT 9999 FEW020 BKN024 BKN034 12/08 Q0997 TEMPO 25025G40KT 3000 SHRA FEW015CB SCT020TCU`
 
-Paris Charles de Gaulle, France, weather recorded on the 3rd day of the month at 11:30Z time. Wind 210 degrees at 18 knots. Visibility 9999m (greater than 10km). Few clouds at 2000ft above the airfield, broken clouds at 2400ft above the airfield, broken clouds at 3400ft above the airfield. Temperature 12C, dewpoint 8C. QNH 997 hPa. Temporarily wind 250 degrees at 25 knots gusting 40 knots, 3000m visibility in showers of rain, few cumulonimbus clouds at 1500ft and scattered towering cumulus at 2000ft.
+Paris Charles de Gaulle, France, weather recorded on the 3rd day of the month at 11:30Z time. Wind 210 degrees at 18 knots. Visibility 9999m (greater than 10km). Few clouds at 2000ft above the airfield, broken clouds at 2400ft above the airfield, broken clouds at 3400ft above the airfield. Temperature 12°C, dewpoint 8°C. QNH 997 hPa. Temporarily wind 250 degrees at 25 knots gusting 40 knots, 3000m visibility in showers of rain, few cumulonimbus clouds at 1500ft and scattered towering cumulus at 2000ft.
 
 `VHHH 031130Z 10010KT CAVOK 20/11 Q1021 NOSIG`
 
-Hong Kong International, weather recorded on the 3rd day of the month at 11:30Z time. Wind 100 degrees at 10 knots. Ceiling and visibility okay. Temperature 20C, dewpoint 11C. QNH 1021 hPA. No significant weather
+Hong Kong International, weather recorded on the 3rd day of the month at 11:30Z time. Wind 100 degrees at 10 knots. Ceiling and visibility okay. Temperature 20°C, dewpoint 11°C. QNH 1021 hPA. No significant weather
 
 `KJFK 031151Z 32012KT 9SM -SN OVC070 M01/M05 A2948 RMK AO2 SNE14B45 SLP981 4/011 P0000 60000 70002 T10111050 11006 21017 53013`
 
-New York JFK, USA, weather recorded on the 3rd day of the month at 11:51Z time. Wind 320 degrees at 12 knots. Visibility 9 statute miles. Light snow. Overcast clouds at 7000ft. Temperature -1C, dewpoint -5C. QNH 29.48inHg. (This is then followed by remarks about the snow conditions and temperature variations, too much detail for this guide).
+New York JFK, USA, weather recorded on the 3rd day of the month at 11:51Z time. Wind 320 degrees at 12 knots. Visibility 9 statute miles. Light snow. Overcast clouds at 7000ft. Temperature -1°C, dewpoint -5°C. QNH 29.48inHg. (This is then followed by remarks about the snow conditions and temperature variations, too much detail for this guide).
 
 `EGCC 031120Z VRB2KT 1500 200SW R23R/150D R23L/100N FG VV000 8/8 Q1030`
 
-Manchester, UK, weather recorded on the 3rd day of the month at 11:20Z time. Wind variable at 2 knots. 1500m prevailing visibility, 200m visibility to the south-west. Runway 23R has a visibility of 150m and decreasing, Runway 23L has a visibility if 100m but unchanging. Fog. Vertical visibility of 0, (cannot see upwards due to the fog). Temperature and dewpoint both 8C. QNH 1030hPa.
+Manchester, UK, weather recorded on the 3rd day of the month at 11:20Z time. Wind variable at 2 knots. 1500m prevailing visibility, 200m visibility to the south-west. Runway 23R has a visibility of 150m and decreasing, Runway 23L has a visibility if 100m but unchanging. Fog. Vertical visibility of 0, (cannot see upwards due to the fog). Temperature and dewpoint both 8°C. QNH 1030hPa.
 
 ***
 
