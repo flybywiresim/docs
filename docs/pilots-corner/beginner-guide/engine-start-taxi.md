@@ -211,10 +211,17 @@ Perform the AFTER START checklist.
     There is a rotation law in the NEO that gives you a consistent rotation rate for any given stick input regardless of other conditions. Upon liftoff, the autotrim becomes active.
 
     ---
+    
+    !!! block ""
+        ![Throttle quad](../assets/beginner-guide/mcdu/Thrust-lever-elev-trim.png){loading=lazy width=50% align=left}
 
-    For this flight take a look at your throttle quadrant and look for the CG markings on next to the trim wheel. We need to set a nose down trim of about 0.8.
+        For this flight take a look at your throttle quadrant and look for the trim markings closest to the throttle levers. Based on the [Preparing the MCDU](preparing-mcdu.md) section we have a general estimate of 30.5 for our CG. 
 
-    ![Throttle quad](../assets/beginner-guide/mcdu/Thrust-lever-elev-trim.png){loading=lazy}
+        The FlyByWire checklist's trim section at the bottom indicates we would need to set a nose up trim of about 0.2.
+
+    !!! warning "The CG scale available in the Asobo's model of the flight deck not entirely accurate for the A320neo."
+
+    
 
 ---
 
