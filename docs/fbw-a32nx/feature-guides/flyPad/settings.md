@@ -132,28 +132,6 @@ Settings for integrations with various data and information sources.
 
         ![flypad-settings-atsu-aoc-telex-warning](../../assets/flypad/flypad-settings-atsu-aoc-telex-warning.png)
 
-        !!! tip "Using the Free Text Feature"
-            To begin using the free text feature you first need to input a valid (not already in use) flight number on the INIT A page on the MCDU. Afterwards navigate to the free text menu:
-        
-            - Click on `MCDU MENU`
-            - Click on `ATSU`
-            - Click on `AOC MENU`
-            - Click on `FREE TEXT`
-    
-            Once on this page enter the flight number of the flight you want to send a message to into the scratchpad and press on LSK1L to input it into the `TO:` field.
-
-            ![freetext 1](../../assets/flypad/freetext1.jpg){loading=lazy}
-
-            You may type your message using the MCDU keys into the scratchpad. Press LSK2L to add it into the add it into an empty field. Below you can see a sample message to BAW323 with the message "Hello" ready to be sent.
-
-            ![freetext 2](../../assets/flypad/freetext2.jpg){loading=lazy}
-
-            Use LSK6R to send your message.
-
-            ---
-
-            To see your sent and recieved messages return to the `AOC MENU` and choose the corresponding option to view your messages.
-
 - Simbrief Username/Pilot ID
     - see next chapter
 
