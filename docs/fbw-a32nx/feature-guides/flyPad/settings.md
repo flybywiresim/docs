@@ -62,7 +62,7 @@ Settings for A32NX aircraft configuration.
          Aircraft radio systems transmit on a Very High Frequency (VHF) band between 117.975 and 137 MHz. The number of available VHF assignments has increased over the years by splitting the radio spectrum into narrower bandwidths from 50-kHz to 25-kHz channels. The bandwidth can support 760 channels, if channels are spaced by 25 kHz. In 1994, it was decided to introduce a further channel split from 25 to 8.33 kHz. 8.33-kHz spacing was introduced above Flight Level (FL) 240 in International Civil Aviation Organization (ICAO) European (EUR) regions in October 1999 and above FL 195 from March 15, 2007. Currently, 8.33-kHz channels have been implemented in the airspace of all 20 ICAO EUR region states. So far, Europe is the only region that’s moved to 8.33-kHz channel spacing.
 
          Source: [universalweather.com](https://www.universalweather.com/blog/8-33-khz-radio-channel-spacing-changes-are-coming-to-europe/){target=new)}
-         
+
          See also: [8.33kHz Voice Channel Spacing communications](https://833radio.com/news/show/7){target=new}
 
 ## Sim Options
@@ -82,7 +82,6 @@ Settings for simulation aspects of the A32NX aircraft.
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
 
-
 ### Usage
 
 - ADIRS Align Time:
@@ -90,9 +89,16 @@ Settings for simulation aspects of the A32NX aircraft.
 - DMC Self Test Time:
     - User can set the time for the Display Management Computer's self test (Real ~15sec, Fast ~5sec, Instant).
 - Default Baro:
-    - User can set which baro setting he wants to have as a default: inHg, hPA or Auto (depends on the airport where the aircraft spawned)
+    - User can set which baro setting he wants to have as a default: inHg, hPA or Auto (depends on the airport where the aircraft spawned).
+- MCDU Keyboard Input (unrealistic)
+    - Enables the MCDU Keyboard input feature (see [MCDU Keyboard](../mcdu-keyboard.md)).
+- MCDU Focus Timeout (s)
+    - The timeout feature will "automatically unfocus" the MCDU screen after the given amount of seconds.
+    - Valid range is 5 - 120 seconds.
 - Detents:
-    - See [Throttle Configuration](throttle-calibration.md)
+    - See [Throttle Configuration](throttle-calibration.md).
+- Dynamic Registration Decal:
+    - The dynamic registration number decal shown on the external livery can be disabled to improve appearance when using liveries with a static registration number.
 
 ## ATSU/AOC
 
