@@ -93,6 +93,8 @@ Settings for simulation aspects of the A32NX aircraft.
     - User can set which baro setting he wants to have as a default: inHg, hPA or Auto (depends on the airport where the aircraft spawned)
 - Detents:
     - See [Throttle Configuration](throttle-calibration.md)
+- Dynamic Registration Decal:
+    - The dynamic registration number decal shown on the external livery can be disabled to improve appearance when using liveries with a static registration number.
 
 ## ATSU/AOC
 
