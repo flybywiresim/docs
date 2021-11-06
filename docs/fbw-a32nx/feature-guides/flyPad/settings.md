@@ -125,8 +125,10 @@ Settings for integrations with various data and information sources.
 
         !!! warning
             If enabled, aircraft position data is published for the duration of the flight. Messages are public and not moderated.
-
+  
             ~~USE AT YOUR OWN RISK~~
+    
+            [Free Text - Feature Guide](../freetext.md){.md-button}
 
     - If enabled a message will be displayed to confirm sharing of the free text and position data to the public.
 
