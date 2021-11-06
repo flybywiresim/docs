@@ -16,7 +16,7 @@ revision press the right LSK.
 
 The flight plan page A lists all waypoints of the active flight plan in sequence providing time, speed and altitude predictions.
 
-The FROM waypoit (last waypoint overflown) is listed at the top and TO waypoint is listed in white as the second entry. This FROM-TO is called the active leg.
+The FROM waypoint (last waypoint overflown) is listed at the top and TO waypoint is listed in white as the second entry. This FROM-TO is called the active leg.
 
 To scroll through the flight plan the vertical slew keys can be used. To return to the beginning of the flight plan page, the F-PLN key can be pressed.
 
@@ -41,11 +41,12 @@ If the route contains a published missed approach procedure,it is shown in blue 
 In NAV mode, the TO waypoint can only be cleared by using the DIR key .
 
 #### Predictions
+
 Predictions for all waypoints are calculated based on the current and predicted winds and displayed.
 
 #### Constraints
 
-For the climb, descent, and approach phases the nav database might define constraints for altitude and speed. Constraints can also be manually added by the flight crew ((except at origin, destination, FROM, and pseudo-waypoints).
+For the climb, descent, and approach phases the nav database might define constraints for altitude and speed. Constraints can also be manually added by the flight crew (except at origin, destination, FROM, and pseudo-waypoints).
 
 Constraints are displayed in magenta, as long as predictions are not completed.
 
@@ -58,16 +59,19 @@ Note: SPD and ALT CSTR may either be entered on the VERT REV page or directly on
 
 #### Pseudo Waypoints
 
-!!! bug "TODO"
+Pseudo waypoints are FMS-generated waypoints inserted into the flight plan to indicate a vertical event.
 
-Pseudo-waypoints are geographical positions corresponding to an event in the vertical flight plan:
+Pseudo waypoints are:
 
-- T/C (top of climb)
-- T/D (top of descent),
-- SPD/LIM (speed limit),
-- DECEL (deceleration for approach), etc.
+- Speed limit (SPD LIM)
+- Top-of-climb (T/C)
+- Top-of-descent (T/D)
+- Step climb point (S/C)
+- Step descent point (S/D)
+- Deceleration point (DECEL),
+- Time markers (UTC/HHMM).
 
-The display shows them as waypoints in parentheses.
+Pseudo waypoints are displayed in parentheses.
 
 #### Approach Display
 
@@ -111,6 +115,9 @@ The flight crew cannot enter an altitude constraint at destination or Missed App
         appears).
 
 ## Flight Plan B Page
+
+!!! attention "RTA Page"
+    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ## Lateral Revision Pages
 
