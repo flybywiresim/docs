@@ -90,7 +90,7 @@ To intercept the ILS Localizer we follow these steps:
     ![ILS lateral deviation marker moving inwards](../assets/beginner-guide/landing/PFD-ILS-deviation-scale.png "ILS lateral deviation marker moving inwards"){loading=lazy}
 
 ??? note "What is the blue dashed line?"
-    You might ask what the blue dashed line is. It is part of the new FIX INFO feature available only in the development version for the time being. It allows to draw distance rings or radial lines from navigation fixes. For this illustration it helps us to visualize the localizer signal path at 261° into the runway which we are going to capture with the APPR mode.
+    You might ask what the blue dashed line is. It is part of the new FIX INFO feature available only in the Development version for the time being. It allows to draw distance rings or radial lines from navigation fixes. For this illustration it helps us to visualize the localizer signal path at 261° into the runway which we are going to capture with the APPR mode.
 
 !!! warning "Arming APPR"
     Using `APPR` also arms the glideslope descent (G/S) and the aircraft will descend as soon as it captures the ILS glideslope signal.
