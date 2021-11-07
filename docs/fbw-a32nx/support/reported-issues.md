@@ -760,7 +760,7 @@ TEMPLATE
     ### Flight Planning and Autoflight Issues
 
     !!! tip ""
-        *Affected versions: Stable, Development*
+        *Affected versions: Stable*
 
     ^^Description^^
 
