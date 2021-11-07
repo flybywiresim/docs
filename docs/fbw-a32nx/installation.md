@@ -19,9 +19,9 @@ Please follow the information on this page to install the FlyByWire Simulations 
       - `FlyByWire Simulations - A320neo (LEAP)`
 
 !!! danger "MSFS Marketplace Version Discontinued"
-    Please uninstall any marketplace version. 
+    Please uninstall any marketplace version.
 
-    You can reference [this issue](support/reported-issues.md#installation-version-conflicts) in our reported issues page for more details. 
+    You can reference [this issue](support/reported-issues.md#installation-version-conflicts) in our reported issues page for more details.
 
 ---
 
@@ -77,14 +77,16 @@ You can send us logs to our [Discord](https://discord.gg/flybywire){target=new} 
          [**IMPORTANT:** View information on Autopilot / Fly-By-Wire here](feature-guides/autopilot-fbw.md)
 
     === "Experimental Version"
-        
+
         This version is similar to the development version, but contains custom systems early in the development phase - expect issues.
-    
-        Currently the new FlyByWire Custom Flight Management System (cFMS) is available in the Experimental version.
+
+        <!-- Currently the new FlyByWire Custom Flight Management System (cFMS) is available in the Experimental version.-->
+
+        ~~Currently the Experimental version is on hold until we start testing new major features. We will then update this page.~~
     
         Please read [Experimental Version Support Page](support/exp.md) before using this version.
     
-        It will be updated with the latest changes to the development version every week or so (not guaranteed).
+        It will be updated with the latest changes to the development version every week or so while new major features are tested (not guaranteed).
 
         [Download Experimental](https://api.flybywiresim.com/api/v1/download?url=https://flybywiresim-packages.b-cdn.net/experimental/A32NX-experimental.zip){ .md-button target=new}
 
