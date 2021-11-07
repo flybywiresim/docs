@@ -31,7 +31,7 @@
     
     <!--Currently we are testing the new implementation of the TCAS.
     
-    The experimental version will be updated regularly and also with the latest changes to the Development version. Expect updates about once a week (not guaranteed).-->
+    While not "on hold" the experimental version will be updated regularly and also with the latest changes to the Development version. Expect updates about once a week (not guaranteed).-->
     
     !!! warning
     
