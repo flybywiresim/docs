@@ -54,7 +54,7 @@ Once predictions are calculated, constraints are replaced by speed and altitude 
 
 Note: SPD and ALT CSTR may either be entered on the VERT REV page or directly on the F-PLN A page, whereas TIME CSTR may only be entered from the RTA page.
 
-!!! attention "RTA Page"
+!!! attention ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 #### Pseudo Waypoints
@@ -77,7 +77,7 @@ Pseudo waypoints are displayed in parentheses.
 
 The flight crew cannot enter an altitude constraint at destination or Missed Approach Point (MAP).
 
-### Elements
+### F-PLN Page Elements
 
 - TITLE FLIGHT NUMBER
     - If no flight number has been entered, this is blank.
@@ -120,6 +120,84 @@ The flight crew cannot enter an altitude constraint at destination or Missed App
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ## Lateral Revision Pages
+
+A lateral revision is a change or changes made to the lateral flight plan. The waypoint from which the change origins is the revise waypoint. To enter the Lateral Revision page the pilots pushes the LSK left of the waypoint in the F-PLN page.
+
+There are 4 different types of lateral revisions:
+
+- Adding or removing a waypoint directly on the F-PLN page.
+- Using the LAT REV page.
+- DIR-TO with abeams and radial in or out.
+- Using FIX INFO page and adding radial, radius and abeam intercept points.
+
+There are 4 types of LAT REV pages:
+
+- FROM Origin page:
+- FROM Destination page:
+- FROM Waypoint page
+- FROM Present Position page
+
+SID revisions are done only at the origin airport (Origin page).
+
+STAR revisions are done only at a destination airport (Destination page).
+
+### LAT REV Page Elements
+
+- TITLE / Latitude and Longitude
+    - the FROM waypoint/airport/PPOS
+    - the latitude and longitude of the revised waypoint (not when PPOS)
+- DEPARTURE (1L)
+    - Used for selecting the departure runway and procedure.
+    - Only available on origin or alternate airport.
+- FIX INFO (1R)
+    - Used for entering radial, radius and abeam intercept points.
+    - Only available on departure or alternate departure airport.
+- ARRIVAL (1R)
+    - Used for selecting the arrival runway and procedures (STAR, APPR, TRANS, etc.)
+- OFFSET (2L)
+    - Used to enter an offset from the direct route between two waypoints defined as a distance to the left or right of the direct line between the waypoints.
+    - Only available on waypoint or present position
+    !!! attention ""
+        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+- LL XING/INCR/NO (2R)
+    - The pilot can create latitude or longitude crossing points by entering a starting lat or long, an increment (in degrees), and the number of crossing points desired in 2R
+    - Only available on origin, ppos and waypoint.
+    !!! attention ""
+        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+- HOLD (3L)
+    - Used to setup a hold pattern at the present position or waypoint.
+    - Only available on ppos and waypoint.
+    !!! attention ""
+        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+- NEXT WPT (3R)
+    - A new waypoint after the selected one can entered into this field.
+    - If it is a waypoint already in the flight plan after the current waypoint then all intermediate waypoints are removed.
+    - If it is a new waypoint a discontinuity is created.
+    - Only available on departure, waypoint and destination.
+- ENABLE ALTN (4L)
+    - Used to enable the alternate flight plan.
+    - Will create a temporary flight plan.
+    - Only available on departure, waypoint and destination.
+    !!! attention ""
+        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+- NEW DEST (4R)
+    - Used to change the destination airport.
+    - Will create a temporary flight plan direct to the new destination.
+    - Clears all waypoints between the current waypoint and the new destination.
+    - Creates a discontinuity.
+    - Only available on departure, waypoint.
+- ALTN (5L)
+    - Used to display a list of alternate airports from the database.
+    - Only available on destination airport.
+    !!! attention ""
+       Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+- AIRWAYS (5R)
+    - Displays the AIRWAYS page.
+    - Used to select airways to enter into the flight plan.
+    - Only available on waypoint.
+
+!!! note
+    Any lateral revision done with a LAT REV page creates a temporary flight plan. Lateral revisions done directly on the F-PLN pages do not result in a temporary flight plan.
 
 ## Vertical Revision Pages
 
