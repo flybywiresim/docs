@@ -201,6 +201,53 @@ STAR revisions are done only at a destination airport (Destination page).
 
 ## Vertical Revision Pages
 
+A vertical revision is a change or changes made to the vertical flight plan. The waypoint from which the change origins is the revise waypoint. To enter the Lateral Revision page the pilots pushes the LSK right of the waypoint in the F-PLN page.
+
+Vertical revisions have an immediate or future impact on the flight profile. The flight profile is the desired aircraft trajectory, thrust settings, and speed on the vertical path of the flight plan.
+
+Changes made on the VERT REV page are:
+
+- Speed limits for CLIMB, CRUISE, and DESCENT flight phase.
+- Speed constraints for CLIMB or DESCENT flight phase.
+- Altitude constraints for CLIMB or DESCENT flight phase.
+- Altitude steps.
+- Waypoint winds.
+- Destination QNH.
+- Constant Mach segment.
+
+Any change to the vertical revision page causes a complete recalculation of the vertical flight plan profile and invalidates all performance predictions.
+
+A vertical revision is rejected by the FMS, and NOT ALLOWED is displayed in the scratchpad, if it is not meeting certain criteria.
+
+### VERT REV Page Elements
+
+- EFOB and EXTRA (1L and 1R)
+    - Shows the estimated fuel on board and the extra fuel consumed after taxi, trip, reserves, alternate and final. Extra fuel might be negative if reserves will be used.
+- CLB/DES SPD LIM (2L)
+    - CLB SDP is show in CLIMB phase, DES SPD in DES phase
+    - The speed limit is either a system default, a NAV database airport default, or a pilot--entry.
+- RTA (2R)
+    - Calls Required Time of Arrival page
+    !!! attention ""
+       Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+- SPD CSTR (§L)
+    - Used to enter a speed constraint for this waypoint.
+    - Will be displayed in large magenta font until predictions are calculated.
+    - After predictions are available it will show the predicted spped or constraint speed, whichever is lower.
+    - An asterisk is displayed in amber if the constraint is predicted to be missed, or in magenta if the constraint is predicted to be met.
+- ALT CSTR (3R)
+    - Used to enter an altitude constraint for this waypoint.
+    - Preceded with a + indicates AT OR ABOVE.
+    - Preceded with a - indicates AT OR BELOW.
+    - During TAKEOFF and CLIMB only AT or AT OR ABOVE constraints are restrictive.
+    - During DESCENT and APPROACH only AT or AT OR BELOW constraints are restrictive.
+        - A yellow * indicates the constraint will be missed.
+        - A magenta * indicates the constraint will be met.
+- GS INTCPT (3R)
+    - Shows glideslope intercept altitude when approach is ILS (MLS, GLS).
+    - Only on destination airport.
+    !!! attention ""
+       Currently not available or INOP in the FBW A32NX for Microsoft
 
 
 ## Fix Info Page
