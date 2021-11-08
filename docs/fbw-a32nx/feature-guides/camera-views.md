@@ -4,8 +4,6 @@ The FlyByWire A32NX comes with some built in pre-configured custom camera views.
 
 This guide will give an overview over the custom camera views and how to use them.
 
-It also covers how to use the built in functions from Microsoft Flight Simulator to create your own custom camera views.
-
 ## How to Activate Custom Camera Views
 
 ### Using the Camera Menu Bar
@@ -98,6 +96,3 @@ These views can therefore also be mapped to any button on a controller for quick
 
         ![custom-camera-view-19](../assets/feature-guides/camera-views/custom-camera-view-19.jpg){loading=lazy}
 
-## How to Create own Custom Camera Views
-
-!!! bug "TODO"
