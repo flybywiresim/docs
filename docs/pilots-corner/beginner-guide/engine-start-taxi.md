@@ -201,9 +201,27 @@ Complete the after start flow:
 - PITCH TRIM - `Check`
 - RUDDER TRIM - `Zero`
 
+![after start checklist](../assets/beginner-guide/taxi/afterstart.png){loading=lazy}
+
 Perform the AFTER START checklist.
 
-![after start checklist](../assets/beginner-guide/taxi/afterstart.png){loading=lazy}
+!!! info "Setting Pitch Trim Advice"
+    While setting the pitch trim is standard operating procedure, a precisely set trim value on the trim wheel is not critical. As long as your center of gravity (CG) is within CG limits, any trim setting within the green band will provide for a safe takeoff in the A320neo. Appropriate trim settings can be found at the bottom of our [checklist](../../assets/FBW_A32NX_CHECKLIST.pdf).
+
+    There is a rotation law in the NEO that gives you a consistent rotation rate for any given stick input regardless of other conditions. Upon liftoff, the autotrim becomes active.
+
+    ---
+    
+    !!! block ""
+        ![Throttle quad](../assets/beginner-guide/mcdu/Thrust-lever-elev-trim.png){loading=lazy width=50% align=left}
+
+        For this flight take a look at your throttle quadrant and look for the trim markings closest to the throttle levers. Based on the [Preparing the MCDU](preparing-mcdu.md) section we have a general estimate of 30.5 for our CG. 
+
+        The FlyByWire checklist's trim section at the bottom indicates we would need to set a nose up trim of about 0.2.
+
+    !!! warning "The CG scale available in the Asobo's model of the flight deck not entirely accurate for the A320neo."
+
+    
 
 ---
 

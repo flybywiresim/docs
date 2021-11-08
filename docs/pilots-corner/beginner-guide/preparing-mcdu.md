@@ -357,14 +357,31 @@ For this flight we will be taking off with a `1+F` flaps configuration.
 
 * Using the keypad type in `1` and press LSK3R
 
-!!! info ""
+!!! info "THS Field MCDU"
     **Entry of the THS field is subject to airline SOP and may not be required.**
 
-The THS field is where we enter the stabilizer trim for takeoff based on the aircraft's CG. The FUEL PRED page provides an auto-calculated CG of 30.5.
+    ---
 
-Take a look at your throttle quadrant and look for the CG markings on next to the trim wheel. We need to set a nose down trim of about 0.8.
+    The THS field is where we enter the stabilizer trim for takeoff based on the aircraft's takeoff CG (TOCG). Entiering this value in the MCDU will trigger the ^^F/CTL PITCH TRIM/MCDU/CG DISAGREE^^ ECAM caution, if appropriate.
 
-![Throttle quad](../assets/beginner-guide/mcdu/Thrust-lever-elev-trim.png){ loading=lazy  }
+    If you have already entered your flaps configuration in the step above, applicable entires are formatted `/X.XDN` or `/X.XUP` representing a trim value and nose down or up respectively.
+
+    Examples:
+
+    - Nose down trim of 0.4 can be inputted as `/0.4DN`
+    - Nose up trim of 1.5 can be inputted as `/1.5UP`
+
+    For our flight today we need to set a nose down trim of 0.8, input `/0.8DN` into the scratchpad and press LSK3R.
+
+    See the [After Engine Start](engine-start-taxi.md#after-engine-start) section to physically set your trim.
+
+    {--
+
+    **For the purposes of simulation** we can use the auto-calculated GWCG on the FUEL PRED page to input a value into the THS field. Since this is not accurate for real world use, you can infer the TOCG and pitch trim by referring to this value right before takeoff to confirm the pitch trim configuration for your flight. 
+
+    We plan on adding a better visual representation of the TOCG at later time.
+
+    --}
 
 * Using the keypad type in `/DN0.8` and press LSK3R
 
