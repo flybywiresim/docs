@@ -64,7 +64,7 @@ plugins:
         'reported-issues.md': 'fbw-a32nx/support/reported-issues.md'
         'support.md': 'fbw-a32nx/support/index.md'
         # Release Notes Permalink
-        'latest-release.md': 'release-notes/v071.md'
+        'latest-release.md': 'release-notes/v072.md'
         # ########################################
         # Needed for URL within the A32NX aircraft
         # ########################################
