@@ -20,81 +20,83 @@ These views can therefore also be mapped to any button on a controller for quick
 
 ## List of Custom Camera Views
 
-=== "1"
+!!! info "All Views (use keyboard arrows to navigate)"
 
-    ![custom-camera-view-01](../assets/feature-guides/camera-views/custom-camera-view-01.jpg){loading=lazy}
+    === "1"
 
-=== "2"
+        ![custom-camera-view-01](../assets/feature-guides/camera-views/custom-camera-view-01.jpg){loading=lazy}
 
-    ![custom-camera-view-02](../assets/feature-guides/camera-views/custom-camera-view-02.jpg){loading=lazy}
+    === "2"
 
-=== "3"
+        ![custom-camera-view-02](../assets/feature-guides/camera-views/custom-camera-view-02.jpg){loading=lazy}
 
-    ![custom-camera-view-03](../assets/feature-guides/camera-views/custom-camera-view-03.jpg){loading=lazy}
+    === "3"
 
-=== "4"
+        ![custom-camera-view-03](../assets/feature-guides/camera-views/custom-camera-view-03.jpg){loading=lazy}
 
-    ![custom-camera-view-04](../assets/feature-guides/camera-views/custom-camera-view-04.jpg){loading=lazy}
+    === "4"
 
-=== "5"
+        ![custom-camera-view-04](../assets/feature-guides/camera-views/custom-camera-view-04.jpg){loading=lazy}
 
-    ![custom-camera-view-05](../assets/feature-guides/camera-views/custom-camera-view-05.jpg){loading=lazy}
+    === "5"
 
-=== "6"
+        ![custom-camera-view-05](../assets/feature-guides/camera-views/custom-camera-view-05.jpg){loading=lazy}
 
-    ![custom-camera-view-06](../assets/feature-guides/camera-views/custom-camera-view-06.jpg){loading=lazy}
+    === "6"
 
-=== "7"
+        ![custom-camera-view-06](../assets/feature-guides/camera-views/custom-camera-view-06.jpg){loading=lazy}
 
-    ![custom-camera-view-07](../assets/feature-guides/camera-views/custom-camera-view-07.jpg){loading=lazy}
+    === "7"
 
-=== "8"
+        ![custom-camera-view-07](../assets/feature-guides/camera-views/custom-camera-view-07.jpg){loading=lazy}
 
-    ![custom-camera-view-08](../assets/feature-guides/camera-views/custom-camera-view-08.jpg){loading=lazy}
+    === "8"
 
-=== "9"
+        ![custom-camera-view-08](../assets/feature-guides/camera-views/custom-camera-view-08.jpg){loading=lazy}
 
-    ![custom-camera-view-09](../assets/feature-guides/camera-views/custom-camera-view-09.jpg){loading=lazy}
+    === "9"
 
-=== "10"
+        ![custom-camera-view-09](../assets/feature-guides/camera-views/custom-camera-view-09.jpg){loading=lazy}
 
-    ![custom-camera-view-10](../assets/feature-guides/camera-views/custom-camera-view-10.jpg){loading=lazy}
+    === "10"
 
-=== "11"
+        ![custom-camera-view-10](../assets/feature-guides/camera-views/custom-camera-view-10.jpg){loading=lazy}
 
-    ![custom-camera-view-11](../assets/feature-guides/camera-views/custom-camera-view-11.jpg){loading=lazy}
+    === "11"
 
-=== "12"
+        ![custom-camera-view-11](../assets/feature-guides/camera-views/custom-camera-view-11.jpg){loading=lazy}
 
-    ![custom-camera-view-12](../assets/feature-guides/camera-views/custom-camera-view-12.jpg){loading=lazy}
+    === "12"
 
-=== "13"
+        ![custom-camera-view-12](../assets/feature-guides/camera-views/custom-camera-view-12.jpg){loading=lazy}
 
-    ![custom-camera-view-13](../assets/feature-guides/camera-views/custom-camera-view-13.jpg){loading=lazy}
+    === "13"
 
-=== "14"
+        ![custom-camera-view-13](../assets/feature-guides/camera-views/custom-camera-view-13.jpg){loading=lazy}
 
-    ![custom-camera-view-14](../assets/feature-guides/camera-views/custom-camera-view-14.jpg){loading=lazy}
+    === "14"
 
-=== "15"
+        ![custom-camera-view-14](../assets/feature-guides/camera-views/custom-camera-view-14.jpg){loading=lazy}
 
-    ![custom-camera-view-15](../assets/feature-guides/camera-views/custom-camera-view-15.jpg){loading=lazy}
+    === "15"
 
-=== "16"
+        ![custom-camera-view-15](../assets/feature-guides/camera-views/custom-camera-view-15.jpg){loading=lazy}
 
-    ![custom-camera-view-16](../assets/feature-guides/camera-views/custom-camera-view-16.jpg){loading=lazy}
+    === "16"
 
-=== "17"
+        ![custom-camera-view-16](../assets/feature-guides/camera-views/custom-camera-view-16.jpg){loading=lazy}
 
-    ![custom-camera-view-17](../assets/feature-guides/camera-views/custom-camera-view-17.jpg){loading=lazy}
+    === "17"
 
-=== "18"
+        ![custom-camera-view-17](../assets/feature-guides/camera-views/custom-camera-view-17.jpg){loading=lazy}
 
-    ![custom-camera-view-18](../assets/feature-guides/camera-views/custom-camera-view-18.jpg){loading=lazy}
+    === "18"
 
-=== "19"
+        ![custom-camera-view-18](../assets/feature-guides/camera-views/custom-camera-view-18.jpg){loading=lazy}
 
-    ![custom-camera-view-19](../assets/feature-guides/camera-views/custom-camera-view-19.jpg){loading=lazy}
+    === "19"
+
+        ![custom-camera-view-19](../assets/feature-guides/camera-views/custom-camera-view-19.jpg){loading=lazy}
 
 ## How to Create own Custom Camera Views
 
