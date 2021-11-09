@@ -116,7 +116,7 @@ The flight crew cannot enter an altitude constraint at destination or Missed App
 
 ## Flight Plan B Page
 
-!!! attention "RTA Page"
+!!! attention "F-PLN B"
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ## Lateral Revision Pages
@@ -229,7 +229,7 @@ A vertical revision is rejected by the FMS, and NOT ALLOWED is displayed in the 
 - RTA (2R)
     - Calls Required Time of Arrival page
     !!! attention ""
-       Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 - SPD CSTR (§L)
     - Used to enter a speed constraint for this waypoint.
     - Will be displayed in large magenta font until predictions are calculated.
@@ -247,12 +247,74 @@ A vertical revision is rejected by the FMS, and NOT ALLOWED is displayed in the 
     - Shows glideslope intercept altitude when approach is ILS (MLS, GLS).
     - Only on destination airport.
     !!! attention ""
-       Currently not available or INOP in the FBW A32NX for Microsoft
+        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+- MACH/START WPT (4L)
+    - Used to enter start point for a Constant Mach Segment (CMS).
+    - Only for cruise waypoints.
+    !!! attention ""
+        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+- END WPT (4R)
+    - Used to enter end point for a Constant Mach Segment (CMS).
+    - Only for cruise waypoints.
+    !!! attention ""
+        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+- QNH (4L)
+    - Used to enter the QNH for the destination.
+    - When entered it is also shown on the APPROACH page.
+    - Only on destination airport.
+    !!! attention ""
+        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+- ALT ERROR (4R)
+    - During CLIMB and DESCENT this shows how far the corresponding constraint will be missed (estimation).
+    - When estimated miss is >250ft.
+    !!! attention ""
+        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+- WIND (5L)
+    - Calls the WIND page.
+    - True wind vectors are entered into the WIND page to update the flight plan wind model.
+    !!! attention ""
+        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+- STEP ALTS (5R)
+    - Calls the STEP ALTS page.
+    - Only show once a cruise alt has been entered.
+    - Not shown in DESCENT, APPROACH or GO-AROUND phases
+    !!! attention ""
+        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+- \*CLB OR DES* (L6)
+    - Shown if the system can't determine climb or descent after a constraint has been entered.
+    !!! attention ""
+        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
+## Fix Info Pages
 
-## Fix Info Page
+The FIX INFO pages are used to create waypoint intersections of the
+flight plan with radials, radiuses, and abeam intercept points associated
+with a waypoint.
+
+!!! attention ""
+    Currently only partly implemented in the FBW A32NX for Microsoft Flight Simulator.
+
+See [Feature Guide: Fix Info](../../fbw-a32nx/feature-guides/fixinfo.md)
+
+The FIX INFO pages can be accessed from the LAT REV page of the FROM waypoint.
+
+- REF FIX (1L)
+    - When the FIX INFO page is first accessed, amber boxes are displayed in 1L for the pilot to enter a waypoint identifier.
+    - Once the waypoint identifier is entered, the FIX INFO page is displayed
+- RADIAL (2L, 3L)
+    - Used to create an intercept waypoint with the radial line from the REF FIX.
+- RADIUS (4L)
+    - Used to create intercept waypoints with the radius circle around the REF FIX.
+- ABEAM (5L)
+    - Used to create a an intersection waypoint with the perpendicular line from the REF FIX and the flight plan leg.
+
+Visual example for intersections:
+
+![Fix Info Example](../../assets/a32nx-briefing/mcdu/fixinfo-example.png "Fix Info Example")
 
 ## Offset Page
+
+
 
 ## Airways Page
 
