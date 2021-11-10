@@ -27,6 +27,7 @@ but are omitted in this briefing.
 | [PFD](pfd/index.md)                   |
 <!--- [ND](nd/index.md)-->
 - [MCDU](mcdu/index.md)
+<!--- [ND](nd/index.md)-->
 
 ---
 
