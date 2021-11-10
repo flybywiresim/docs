@@ -19,7 +19,7 @@
 
 ## Description
 
-See also: [V-Speeds](../../beginner-guide/abbreviations.md#v-speeds)
+See also: [V-Speeds](../../abbreviations.md#v-speeds)
 
 ### Actual Airspeed Reference Line and Scale
 

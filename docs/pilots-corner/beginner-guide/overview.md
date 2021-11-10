@@ -20,7 +20,7 @@ The [Preflight](preflight.md) page contains guides on how to set up relevant dat
 ---
 
 | Topics                                               |
-| :-----                                               |
+|:-----------------------------------------------------|
 | [Preflight](preflight.md)                            |
 | [Starting the Aircraft](starting-the-aircraft.md)    |
 | [Preparing the MCDU](preparing-mcdu.md)              |
@@ -30,7 +30,7 @@ The [Preflight](preflight.md) page contains guides on how to set up relevant dat
 | [Approach and ILS Landing](landing.md)               |
 | [After Landing and Taxi to Gate](after-landing.md)   |
 | [Powering Down](powering-down.md)                    |
-| [Abbreviations](abbreviations.md)                    |
+| [Abbreviations](../abbreviations.md)                 |
 
 ---
 
