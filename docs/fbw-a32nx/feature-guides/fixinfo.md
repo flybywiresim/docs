@@ -29,7 +29,7 @@ Fix info is a powerful supplemental tool for pilots to improve situational aware
 
 In the example below we assume a flight plan route passing WP1, WP2 and WP3 with the flight route shown as a line.
 
-A reference fix (REF FIX) named EXP is used to create the three different methods of creating intercept waypoints.
+A reference fix (REF FIX) named EXP is used to show the three different methods of creating intercept waypoints.
 
 - Radial:
     - A Radial is a line from the REF FIX at a specific angle as known from common VOR navigation.
