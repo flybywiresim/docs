@@ -29,7 +29,7 @@ Topics:
 
 [Powering Down](powering-down.md)
 
-[Abbreviations](abbreviations.md)
+[Abbreviations](../abbreviations.md)
 
 ---
 
