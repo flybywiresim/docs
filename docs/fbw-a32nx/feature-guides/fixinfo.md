@@ -6,7 +6,7 @@
 
 The MCDU FIX INFO pages are used to create waypoint intersections of the
 flight plan with radials, radiuses, and abeam intercept points associated
-with a waypoint
+with a waypoint.
 
 These lines or circles are displayed on the ND and also used to compute intercept waypoints which are then added to the active flight plan.
 
@@ -21,9 +21,9 @@ Fix info is a powerful supplemental tool for pilots to improve situational aware
 ### Common Use Cases
 
 - Top of descent circle, to display the exact point on the lateral path when to start a descent into a specific fix.
-- ILS localizer extension line, to easier identify where the localizer beam should be in extension from the runway
-- VOR intercepting
-- Go Around procedure aid
+- ILS localizer extension line, to easier identify where the localizer beam should be in extension from the runway.
+- VOR intercepting.
+- Go Around procedure aid.
 
 ### Examples of FIX INFO Intercept Waypoints
 
@@ -34,7 +34,7 @@ A reference fix (REF FIX) named EXP is used to show the three different methods 
 - Radial:
     - A Radial is a line from the REF FIX at a specific angle as known from common VOR navigation.
 - Radius:
-    - A Radius is a circle of a certain radius around the REF FIX
+    - A Radius is a circle of a certain radius around the REF FIX.
 - Abeam:
     - An Abeam is a line from the REF FIX onto the flight path meeting the flight path ar a 90° angle.
 
@@ -42,18 +42,18 @@ Find examples of these in the illustration below.
 
 ![Fix Info Examples](../assets/fixinfo/fixinfo-example.png "Fix Info Examples")
 
-Entering a radial, radius or abeam the FMGC calculates if an intercection with the flight path is possible and then adds automatically created waypoints into the flight plan.
+Entering a radial, radius or abeam the FMS calculates if an intersection with the flight path is possible and then adds automatically created waypoints into the flight plan.
 
 These waypoints will be named systematically with the type of interception and the REF FIX name.
 
 In our example we get three different intercept waypoints which are added to the flight plan.
 
-- D20EXP:
-    - Radius intercept waypoint at the intersection of a circle with radius 20 around the REF FIX with the current flight path.
-- EXP240:
-    - Radial intercept waypoint at the intersection of a radial line from the REF FIX at a 240° angle.
-- ABEXP:
-    - Abeam intercept waypoint at the intersection of the perpendicular line from the REF FIX onto the flight plan.
+- D20EGK:
+    - Radius intercept waypoint at the intersection of a circle with radius 20 around the REF FIX EGKK with the current flight path.
+- EGK216:
+    - Radial intercept waypoint at the intersection of a radial line from the REF FIX EGKK at a 240° angle.
+- ABEGKK:
+    - Abeam intercept waypoint at the intersection of the perpendicular line from the REF FIX EGKK onto the flight plan.
 
 ## Step by Step Guide
 
