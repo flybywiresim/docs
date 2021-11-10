@@ -42,11 +42,11 @@ Find examples of these in the illustration below.
 
 ![Fix Info Examples](../assets/fixinfo/fixinfo-example.png "Fix Info Examples")
 
-Entering a radial, radius or abeam the FMS calculates if an intersection with the flight path is possible and then adds automatically created waypoints into the flight plan.
+After entering a radial, radius or abeam the FMS calculates if an intersection with the flight path is possible and provides the option to create a waypoint into the flight plan.
 
 These waypoints will be named systematically with the type of interception and the REF FIX name.
 
-In our example we get three different intercept waypoints which are added to the flight plan.
+In our example we get three different intercept waypoints which can be added to the flight plan.
 
 - D20EGK:
     - Radius intercept waypoint at the intersection of a circle with radius 20 around the REF FIX EGKK with the current flight path.
