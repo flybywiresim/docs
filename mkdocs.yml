@@ -63,6 +63,7 @@ plugins:
         'throttle.md': 'fbw-a32nx/feature-guides/flyPad/throttle-calibration.md'
         'reported-issues.md': 'fbw-a32nx/support/reported-issues.md'
         'support.md': 'fbw-a32nx/support/index.md'
+        'discord-bot.md': 'dev-corner/development-projects/discord-bot.md'
         # Release Notes Permalink
         'latest-release.md': 'release-notes/v072.md'
         # ########################################
