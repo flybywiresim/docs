@@ -188,7 +188,7 @@ Shortly before we start our takeoff roll we do the following steps:
     ![External Lights TO config](../assets/beginner-guide/takeoff-climb-cruise/Landing-lights.png "External Lights TO config"){loading=lazy}
 
       The correct switch settings are:
-    
+
       - `RWY TURN OFF` lt is `ON`
       -` NOSE` light is at `T.O.` (T.O. = takeoff)
       - `LAND` lights are both `ON`
