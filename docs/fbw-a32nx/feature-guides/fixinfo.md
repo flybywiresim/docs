@@ -12,8 +12,9 @@ These lines or circles are displayed on the ND and also used to compute intercep
 
 The current Experimental version of the A32NX has implemented the display of these lines and circles on the ND.
 
-**The computed intercept waypoints and ABEAM functionality are not yet implemented.
-**
+!!! warning ""
+    The computed intercept waypoints and ABEAM functionality are not yet implemented.
+
 ## Use Cases
 
 Fix info is a powerful supplemental tool for pilots to improve situational awareness and easier, more precise navigation.
@@ -29,7 +30,7 @@ Fix info is a powerful supplemental tool for pilots to improve situational aware
 
 In the example below we assume a flight plan route passing WP1, WP2 and WP3 with the flight route shown as a line.
 
-A reference fix (REF FIX) named EXP is used to show the three different methods of creating intercept waypoints.
+A reference fix (REF FIX) named EGKK is used to show the three different methods of creating intercept waypoints.
 
 - Radial:
     - A Radial is a line from the REF FIX at a specific angle as known from common VOR navigation.
@@ -38,11 +39,12 @@ A reference fix (REF FIX) named EXP is used to show the three different methods 
 - Abeam:
     - An Abeam is a line from the REF FIX onto the flight path meeting the flight path ar a 90° angle.
 
-Find examples of these in the illustration below.
-
 ![Fix Info Examples](../assets/fixinfo/fixinfo-example.png "Fix Info Examples")
 
 After entering a radial, radius or abeam the FMS calculates if an intersection with the flight path is possible and provides the option to create a waypoint into the flight plan.
+
+!!! warning ""
+    Be aware this is not implemented in the current version of the A32NX yet.
 
 These waypoints will be named systematically with the type of interception and the REF FIX name.
 
