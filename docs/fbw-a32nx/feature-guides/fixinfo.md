@@ -4,24 +4,58 @@
 
 ## Overview
 
-The MCDU FIX INFO page is used to create radial lines and distance circles around a database navigation fix.
+The MCDU FIX INFO pages are used to create waypoint intersections of the
+flight plan with radials, radiuses, and abeam intercept points associated
+with a waypoint.
 
-These lines or circles are displayed on the ND and also used to compute intercept waypoints which can be added to the active flight plan.
+These lines or circles are displayed on the ND and also used to compute intercept waypoints which are then added to the active flight plan.
 
 The current Experimental version of the A32NX has implemented the display of these lines and circles on the ND.
 
-The computed intercept waypoints and ABEAM functionality are not yet implemented.
+!!! warning ""
+    The computed intercept waypoints and ABEAM functionality are not yet implemented.
 
 ## Use Cases
 
 Fix info is a powerful supplemental tool for pilots to improve situational awareness and easier, more precise navigation.
 
-Common use cases are:
+### Common Use Cases
 
 - Top of descent circle, to display the exact point on the lateral path when to start a descent into a specific fix.
-- ILS localizer extension line, to easier identify where the localizer beam should be in extension from the runway
-- VOR intercepting
-- Go Around procedure aid
+- ILS localizer extension line, to easier identify where the localizer beam should be in extension from the runway.
+- VOR intercepting.
+- Go Around procedure aid.
+
+### Examples of FIX INFO Intercept Waypoints
+
+In the example below we assume a flight plan route passing WP1, WP2 and WP3 with the flight route shown as a line.
+
+A reference fix (REF FIX) named EGKK is used to show the three different methods of creating intercept waypoints.
+
+- Radial:
+    - A Radial is a line from the REF FIX at a specific angle as known from common VOR navigation.
+- Radius:
+    - A Radius is a circle of a certain radius around the REF FIX.
+- Abeam:
+    - An Abeam is a line from the REF FIX onto the flight path meeting the flight path at a 90° angle.
+
+![Fix Info Examples](../assets/fixinfo/fixinfo-example.png "Fix Info Examples")
+
+After entering a radial, radius or abeam the FMS calculates if an intersection with the flight path is possible and provides the option to create a waypoint into the flight plan.
+
+!!! warning ""
+    Be aware this is not implemented in the current version of the A32NX yet.
+
+These waypoints will be named systematically with the type of interception and the REF FIX name.
+
+In our example we get three different intercept waypoints which can be added to the flight plan.
+
+- D20EGK:
+    - Radius intercept waypoint at the intersection of a circle with radius 20 around the REF FIX EGKK with the current flight path.
+- EGK216:
+    - Radial intercept waypoint at the intersection of a radial line from the REF FIX EGKK at a 240° angle.
+- ABEGKK:
+    - Abeam intercept waypoint at the intersection of the perpendicular line from the REF FIX EGKK onto the flight plan.
 
 ## Step by Step Guide
 
