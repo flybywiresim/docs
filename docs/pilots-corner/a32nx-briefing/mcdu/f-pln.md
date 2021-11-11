@@ -312,13 +312,6 @@ Visual example for intersections:
 
 ![Fix Info Example](../../assets/a32nx-briefing/mcdu/fixinfo-example.png "Fix Info Example")
 
-## Offset Page
-
-
-
-## Airways Page
-
 ## Departure Pages
 
-## Hold Pages
-
+## Arrival Pages
