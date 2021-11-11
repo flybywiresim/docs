@@ -37,7 +37,7 @@ A reference fix (REF FIX) named EGKK is used to show the three different methods
 - Radius:
     - A Radius is a circle of a certain radius around the REF FIX.
 - Abeam:
-    - An Abeam is a line from the REF FIX onto the flight path meeting the flight path ar a 90° angle.
+    - An Abeam is a line from the REF FIX onto the flight path meeting the flight path at a 90° angle.
 
 ![Fix Info Examples](../assets/fixinfo/fixinfo-example.png "Fix Info Examples")
 
