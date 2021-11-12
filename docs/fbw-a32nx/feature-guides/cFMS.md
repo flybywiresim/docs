@@ -8,21 +8,21 @@ This page outlines features provided by the initial integration of our custom FM
 
 ## Features
 
-- [x] Flight plan manager overhaul
-- [x] Edit SID/STAR/APPR waypoints
-- [x] Discontinuities
-- [x] Cross-track error indicator
-- [x] USR waypoints are gone
-- [x] Multiple leg types:
+- [x] Custom flight plan management replacing the default Asobo flight plan manager.
+- [x] SID/STAR/APPR waypoints can now be edited
+- [x] No more USR waypoints from the Asobo fpm.
+- [x] Correct procedure and direct-to sequencing
+- [x] Added Discontinuities as in the real life aircraft. See our [guide](../../pilots-corner/beginner-guide/preparing-mcdu.md#discontinuity) for more details.
+- [x] Support for multiple leg types:
     - [x] TF: Track to a Fix defines a great circle track over ground between two known databases fixes.
     - [x] RF: Constant Radius Arc defines a constant radius turn between two database fixes, lines tangent to the arc and a center fix.
     - [x] VM: Heading to a manual termination defines a specified heading until a Manual termination.
-- [x] LNAV turn prediction
+- [x] Cross-track error indicator on the ND
+- [x] Improved LNAV turn prediction
 - [x] Roll anticipation distance
-- [x] Correct procedure and direct-to sequencing
 - [x] Improved flight plan rendering / drawing
 - [x] Improved ND display filters for  ARPT, VOR, NDB, WPTs
-- [x] FIX INFO for radials and distance circles on navigation fixes - [Guide Here](fixinfo.md)
+- [x] MCDU FIX INFO page for radials and distance circles on navigation fixes - [Guide Here](fixinfo.md)
 
 ## Known Issues
 
