@@ -29,5 +29,4 @@ See the [MCDU Setup Procedure](../../beginner-guide/preparing-mcdu.md) in our [B
     - [SEC F-PLN](sec-f-plan.md)
     - [ATC COMM](atc-comm.md)
     - [MCDU MENU](mcdu-menu.md)
-    - [AIRPORT](airport.md)
 
