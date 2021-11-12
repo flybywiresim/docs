@@ -163,7 +163,7 @@ Get our [simBrief Profile](../installation.md#simbrief-airframe) for the Develop
 ##### Load OFP Payload Info
 
 !!! block ""
-    ![W&B 2](../../assets/feature-guides/simbrief/wb2.png){align=right width=50% loading=lazy}
+    ![W&B 2](../assets/feature-guides/simbrief/wb2.png){align=right width=50% loading=lazy}
 
     Once on `W&B` page it should look like the sample image even if you have pressed OFP REQUEST in a different section.
 
@@ -178,7 +178,7 @@ Get our [simBrief Profile](../installation.md#simbrief-airframe) for the Develop
         - Y denotes cargo target for the hold (includes baggage)
 
 !!! block ""
-    ![W&B 3](../../assets/feature-guides/simbrief/wb1.jpg){align=right width=50% loading=lazy}
+    ![W&B 3](../assets/feature-guides/simbrief/wb1.jpg){align=right width=50% loading=lazy}
 
     Press OFP Request for this specific page and your `W&B` page will show total pax, pax per row and cargo hold (in metric tonnes) which populate automatically.
 
@@ -199,7 +199,7 @@ Get our [simBrief Profile](../installation.md#simbrief-airframe) for the Develop
 ##### Board Passengers
 
 !!! block ""
-    ![W&B Boarding](../../assets/feature-guides/simbrief/wb-boarding.jpg){align=right width=50% loading=lazy}
+    ![W&B Boarding](../assets/feature-guides/simbrief/wb-boarding.jpg){align=right width=50% loading=lazy}
 
     You can now start boarding by selecting LSK6L (the indication will change from `START` to `STOP` in yellow) and watch as the passengers board the aircraft.
 
@@ -212,7 +212,7 @@ Get our [simBrief Profile](../installation.md#simbrief-airframe) for the Develop
         [Setting boarding simulation time on the EFB](flyPad/settings.md#usage_2)
 
 !!! block ""
-    ![W&B Loaded](../../assets/feature-guides/simbrief/wb-loaded.jpg){align=right width=50% loading=lazy}
+    ![W&B Loaded](../assets/feature-guides/simbrief/wb-loaded.jpg){align=right width=50% loading=lazy}
 
     Once boarding has completed all rows and total pax should turn green and the boarding indication returns to `START`. Verify your ZFW on this screen and check your lower ECAM that GW has been updated.
 
@@ -221,7 +221,7 @@ Get our [simBrief Profile](../installation.md#simbrief-airframe) for the Develop
 ###### Complete Deboard
 
 !!! block ""
-    ![deboarding full](../../assets/feature-guides/simbrief/deboarded1.jpg){align=right width=50% loading=lazy}
+    ![deboarding full](../assets/feature-guides/simbrief/deboarded1.jpg){align=right width=50% loading=lazy}
 
     Once you have completed your flight you can opt to deboard passengers from the aircraft. Return to the AOC MENU and head to page 2 of `W&B`.
 
@@ -232,7 +232,7 @@ Get our [simBrief Profile](../installation.md#simbrief-airframe) for the Develop
 ###### Partial Deboard
 
 !!! block ""
-    ![deboarding partial](../../assets/feature-guides/simbrief/deboarding2.jpg){align=right width=50% loading=lazy}
+    ![deboarding partial](../assets/feature-guides/simbrief/deboarding2.jpg){align=right width=50% loading=lazy}
 
     In case of a partial offload you can input the desired remaining pax and cargo for leg 2. The example to the right shows a planned retention of 142 passengers.
 
@@ -264,7 +264,7 @@ Get our [simBrief Profile](../installation.md#simbrief-airframe) for the Develop
 
 #### Fuel
 
-![MCDU ATSU AOC PERF/W&B](../../../fbw-a32nx/assets/feature-guides/simbrief/mcdu3.png "MCDU ATSU AOC PERF/W&B"){loading=lazy}
+![MCDU ATSU AOC PERF/W&B](../assets/feature-guides/simbrief/mcdu3.png "MCDU ATSU AOC PERF/W&B"){loading=lazy}
 
 You are presented with the `Fuel Page` first then the `Weights and Balance` page. On the first page you can automatically load your fuel.
 

@@ -320,7 +320,7 @@ On this page, we can input our zero fuel weight (ZFW) and zero fuel weight cente
 !!! warning "Important Info"
     Fuel and payload have to be set in the simulator before ZFW/CG for the end result to be correct. (Unless you want to use the default fuel and weight).
 
-    Please see our [Fuel and Weights Guide](../../fbw-a32nx/feature-guides/fuel-weights/index.md) for more information.
+    Please see our [Fuel and Weights Guide](../../fbw-a32nx/feature-guides/loading-fuel-weight.md) for more information.
 
 The A32NX can auto populate this information.
 
