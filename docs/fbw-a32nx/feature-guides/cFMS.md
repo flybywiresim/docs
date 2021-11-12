@@ -9,25 +9,25 @@ This page outlines features provided by the initial integration of our custom FM
 ## Features
 
 - [x] Custom flight plan management replacing the default Asobo flight plan manager.
-- [x] SID/STAR/APPR waypoints can now be edited
+- [x] SID/STAR/APPR waypoints can now be edited.
 - [x] No more USR waypoints from the Asobo fpm.
-- [x] Correct procedure and direct-to sequencing
+- [x] Correct procedure and direct-to sequencing.
 - [x] Added Discontinuities as in the real life aircraft. See our [guide](../../pilots-corner/beginner-guide/preparing-mcdu.md#discontinuity) for more details.
 - [x] Support for multiple leg types:
     - [x] TF: Track to a Fix defines a great circle track over ground between two known databases fixes.
     - [x] RF: Constant Radius Arc defines a constant radius turn between two database fixes, lines tangent to the arc and a center fix.
     - [x] VM: Heading to a manual termination defines a specified heading until a Manual termination.
-- [x] Cross-track error indicator on the ND
-- [x] Improved LNAV turn prediction
-- [x] Roll anticipation distance
-- [x] Improved flight plan rendering / drawing
-- [x] Improved ND display filters for  ARPT, VOR, NDB, WPTs
-- [x] MCDU FIX INFO page for radials and distance circles on navigation fixes - [Guide Here](fixinfo.md)
+- [x] Cross-track error indicator on the ND.
+- [x] Improved LNAV turn prediction.
+- [x] Roll anticipation distance.
+- [x] Improved flight plan rendering / drawing.
+- [x] Improved ND display filters for  ARPT, VOR, NDB, WPTs.
+- [x] MCDU FIX INFO page for radials and distance circles on navigation fixes - [Guide Here](fixinfo.md).
 
 ## Known Issues
 
 - TCAS is not implemented yet. No traffic shown, TCAS elements are cosmetic only.
-- WX and TERR on ND are not implemented yet. We are waiting for better API support by Microsoft Flight Simulator. See this [Feature Request](https://forums.flightsimulator.com/t/implement-weather-and-terrain-api-s-for-aircraft-developers-to-implement-accurate-radar-predictive-windshear-egpws-and-metar-wind-uplink/442016){target=new}
+- WX and TERR on ND are not implemented yet. We are waiting for better API support by Microsoft Flight Simulator. See our [Forums Feature Request](https://forums.flightsimulator.com/t/implement-weather-and-terrain-api-s-for-aircraft-developers-to-implement-accurate-radar-predictive-windshear-egpws-and-metar-wind-uplink/442016){target=new}.
 - Only 3 Leg Types/1 Transition supported at this time. Although these cover most of the important types there might be some issues with other leg types during flight guidance.
 - Rendering of flight path on the ND of terminal procedure legs may be glitched or incorrect during cruise. - [See Feature Guide](../feature-guides/cFMS.md#flight-path-rendering).
 - Rendering of flight path on the ND of legs will be glitched or incorrect if you are flying faster than the appropriate/correct speed. - [See Special Notes](../feature-guides/cFMS.md#flight-path-rendering).
