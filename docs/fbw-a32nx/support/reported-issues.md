@@ -27,7 +27,7 @@
 
     ---
 
-    Due to the complex nature of our custom autopilot, please visit the dedicated ^^Autopilot / Fly-By-Wire^^ page for more information:
+    Due to the complex nature of our custom autopilot, please visit the dedicated ^^Custom Autopilot / Fly-By-Wire^^ page for more information:
 
     - [**Main Page**](../feature-guides/autopilot-fbw.md)
     - [**Typical Issues + Solutions**](../feature-guides/autopilot-fbw.md#typical-issues-and-how-to-solve-them)
