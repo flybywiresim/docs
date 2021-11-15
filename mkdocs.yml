@@ -6,6 +6,8 @@ site_url: https://docs.flybywiresim.com/
 repo_url: https://github.com/flybywiresim/a32nx/
 repo_name: flybywiresim/a32nx
 edit_uri: "" #removes edit button and icon
+copyright: Powered by <a href="https://vercel.com/?utm_source=flybywiresim&utm_campaign=oss" target="_blank">
+  <img src="/assets/images/vercel-logotype-light.svg" alt="Vercel Logo"></a>
 
 # Configuration
 theme:
