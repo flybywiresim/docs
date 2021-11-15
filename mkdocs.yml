@@ -112,7 +112,8 @@ markdown_extensions:
   - admonition # Makes things pretty
   - pymdownx.superfences # Nestled code
   - attr_list # Add HTML attributes and CSS classes to Markdown elements
-  - pymdownx.tabbed # Content tabs
+  - pymdownx.tabbed: # Content tabs
+      alternate_style: true
   - pymdownx.details # Additional features to admonition
   - pymdownx.caret # Formatting Extension
   - pymdownx.critic # Alternate Formatting Extension
