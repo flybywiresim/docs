@@ -1,17 +1,6 @@
 # Reported Known Issues
 
-<style>
-.md-typeset .admonition-title, .md-typeset summary {
-    font-size: .8rem;
-    font-weight: inherit;
-}
-.md-typeset .admonition, .md-typeset details {
-    font-size: .8rem;
-}
-.md-typeset .admonition-title:before, .md-typeset summary:before {
-    transform: translateY(10%);
-}
-</style>
+<link rel="stylesheet" href="/../../stylesheets/reported-issues.css">
 
 !!! error  "STOP - Read this First"
 
@@ -494,6 +483,26 @@ TEMPLATE
     ^^Additional Information^^
 
 ---
+
+??? tip "++ctrl+'E'++ -  Engine Start Unsupported"
+    ### ++ctrl+'E'++ -  Engine Start Unsupported
+
+    !!! tip ""
+        *Affected versions: Stable, Development*
+    
+    ^^Description^^
+
+    The auto start shortcut via ++ctrl+'E'++ will not work. 
+
+    Currently you need at least the APU Avail and APU Bleeds to be switched on, as well as the fuel pumps to be on for a normal engine start. (Crossbleed starts will be implemented at a later time).
+
+    ^^Root Cause^^
+
+    Our custom systems and realistic simulation of onboard systems requires the proper engine start procedure for the A320neo.
+
+    ^^Possible Solution or Workaround^^
+
+    We highly suggest learning how to start the engines manually by reading our beginner guide. [Beginner Guide - Engine Start Section](../../pilots-corner/beginner-guide/engine-start-taxi.md#engine-start).
 
 ??? tip "Cockpit Interaction System"
     ### Cockpit Interaction System
