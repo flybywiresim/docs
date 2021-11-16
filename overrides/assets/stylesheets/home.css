@@ -68,7 +68,6 @@
 }
 
 .f-box {
-    font-family: 'Nunito Sans';
     font-weight: 300;
     box-sizing: border-box;
     padding: 0 15px;
@@ -76,6 +75,7 @@
 }
 
 .f-box h2 {
+    font-family: 'Manrope';
     color: #00E0FE;
     font-weight: 400;
     font-size: 25px;
@@ -85,6 +85,7 @@
 }
 
 .f-box p {
+    font-family: 'Inter';
     font-size: 16px;
     line-height: 2em;
     color: #ffffff;
