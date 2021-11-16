@@ -15,9 +15,9 @@ theme:
   # Theme Overhaul configuration. Use with caution.
   # Uncommenting custom_dir requires additional setup.
   custom_dir: overrides
-  logo: assets/images/FBW-Tail.png
+  logo: assets/images/fbw_logo-n.png
   font:
-    text: Manrope
+    text: Inter
   palette:
     scheme: slate
   features:
@@ -30,7 +30,7 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
-  favicon: assets/images/FBW-Tail.png
+  favicon: assets/images/fbw_logo-n.png
 
 # Plugins
 plugins:
