@@ -62,6 +62,11 @@ diff rgba(27,36,52,1)
   font-weight: 900;
   size: 2em;
 }
+.md-typeset h2, .md-typeset h3, .md-typeset h4 {
+  font-family: Manrope;
+  font-weight: 600;
+  size: 2em;
+}
 h1 {
   /*text-transform: uppercase;*/
 }
