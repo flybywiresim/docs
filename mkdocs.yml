@@ -17,7 +17,7 @@ theme:
   custom_dir: overrides
   logo: assets/images/FBW-Tail.png
   font:
-    text: Nunito Sans
+    text: Manrope
   palette:
     scheme: slate
   features:
