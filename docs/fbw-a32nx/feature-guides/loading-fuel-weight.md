@@ -124,11 +124,11 @@ Get our [simBrief Profile](../installation.md#simbrief-airframe) for the Develop
 
 #### Fuel
 
-Fuel loading is now exclusively done via our EFB which has a great UI to see the status of fuel tanks and other options. [Guide Here](flyPad/dispatch.md#fuel-page)
+Fuel loading is now exclusively done via our EFB which has a great UI to see the status of fuel tanks and other options. [Guide Here](flyPad/dispatch.md#fuel-page).
 
 #### Weights and Balance
 
-In our development version we have introduced a new flight model paired with a new weight and balance payload method that incorporates seat rows and the correct center of gravity. Please use the correct instructions for your corresponding installed version.
+In our development version we have introduced a new flight model paired with a new weight and balance payload method that incorporates seat rows and the correct center of gravity.
 
 Get our [simBrief Profile](../installation.md#simbrief-airframe) for the Development and Experimental versions.
 
