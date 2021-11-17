@@ -20,6 +20,13 @@
 
 This section provides information on the A32NX weights configuration and insight on how to utilize and reference onboard/sim features to configure the aircraft appropriately for departure.
 
+{==
+
+There are differences when using our Stable version vs. Development version.<br/>
+Please select the correct version below.
+
+==}
+
 [Development Version](#development-version){ .md-button }
 [Stable Version](#stable-version){ .md-button }
 
@@ -62,7 +69,6 @@ This section provides information on the A32NX weights configuration and insight
     ### Center of Gravity
     
     An acceptable range for takeoff CG in the A32NX is between 16-40%. The CG is balanced during the passenger loading process.
-    
 
     Trimming the aircraft for takeoff is usually optional and technically not required. Please reference our the [FBW Checklist](../../pilots-corner/SOP.md) to set the appropriate trim should you wish to.
     
@@ -107,13 +113,6 @@ Get our [simBrief Profile](../installation.md#simbrief-airframe) for the Develop
     - 20 kg for checked luggage
 
 ### Loading Fuel and Weight
-
-{==
-
-There may be differences when using our Stable version vs. Development version.<br/>
-Please take note when reading the information on this page.
-
-==}
 
 !!! danger "MSFS Fuel & Weights window in the toolbar"
     We have blocked the UI elements in the MSFS fuel and weights window. However, the sliders in the MSFS window are movable but in a matter of 1-3 seconds the fuel and payload levels should return to the initial value.
@@ -245,8 +244,6 @@ Get our [simBrief Profile](../installation.md#simbrief-airframe) for the Develop
 ## Stable Version
 
 ### A32NX Configuration
-
-!!! bug "TODO - stable airframe???"
 
 Get our [simBrief Profile](../installation.md#simbrief-airframe) for the Development and Experimental versions.
 
