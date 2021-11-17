@@ -318,7 +318,7 @@ To navigate to the `INIT B` page we first have to select the `INIT` button. Once
 On this page, we can input our zero fuel weight (ZFW) and zero fuel weight center of gravity (ZFWCG).
 
 !!! warning "Important Info"
-    Fuel and payload have to be set in the simulator before ZFW/CG for the end result to be correct. (Unless you want to use the default fuel and weight).
+    Fuel and payload have to be set in the aircraft (see link below) and passenger boarding has to be complete for the ZFW/ZFWCG to be correct.
 
     Please see our [Fuel and Weights Guide](../../fbw-a32nx/feature-guides/loading-fuel-weight.md) for more information.
 
@@ -330,7 +330,7 @@ The A32NX can auto populate this information.
 Now we can add our fuel on board (FOB). The amount we input in this field can be done in one of three ways:
 
 * Indicated FOB on the upper ECAM.
-* we can have the MCDU plan the amount of fuel required.
+* We can have the MCDU plan the amount of fuel required.
 * The amount indicated in the OFP.
 
 !!! info "Loading Fuel"
