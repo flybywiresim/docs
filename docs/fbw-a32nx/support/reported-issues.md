@@ -62,6 +62,43 @@ TEMPLATE
 
 -->
 
+??? failure "Not Able to Create or Load Flight Plan"
+    ### Not Able to Create or Load Flight Plan
+
+    !!! tip ""
+        *Affected versions: Stable, Development*
+
+    ^^Description^^
+
+    Sim Update 7 broke flight plan creation and loading in the A32NX.
+
+    ^^Root Cause^^
+
+    Unknown - Investigating.
+
+    ^^Possible Solution or Workaround^^
+
+    Use the Experimental version - this seems to work.
+
+
+??? failure "Bad Performance after Sim Update 7 and Using DX12"
+    ### Poor Performance After Sim Update 7 and Using DX12
+
+    !!! tip ""
+        *Affected versions: Stable, Development, Experimental*
+
+    ^^Description^^
+
+    Using DX12 introduced in Sim Update 7 seems to not work well with our aircraft.
+
+    ^^Root Cause^^
+
+    Unknown - Investigating.
+
+    ^^Possible Solution or Workaround^^
+
+    Please use DX11 for the time being.
+
 ??? failure "Invisible Aircraft"
     ### Invisible Aircraft
 
@@ -489,10 +526,10 @@ TEMPLATE
 
     !!! tip ""
         *Affected versions: Stable, Development*
-    
+
     ^^Description^^
 
-    The auto start shortcut via ++ctrl+'E'++ will not work. 
+    The auto start shortcut via ++ctrl+'E'++ will not work.
 
     Currently you need at least the APU Avail and APU Bleeds to be switched on, as well as the fuel pumps to be on for a normal engine start. (Crossbleed starts will be implemented at a later time).
 
