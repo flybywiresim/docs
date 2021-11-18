@@ -66,7 +66,7 @@ TEMPLATE
     ### Not Able to Create or Load Flight Plan
 
     !!! tip ""
-        *Affected versions: Stable, Development*
+        *Affected versions: Stable*
 
     ^^Description^^
 
@@ -74,12 +74,13 @@ TEMPLATE
 
     ^^Root Cause^^
 
-    Unknown - Investigating.
+    Sim Update 7 changed a vital API.
 
     ^^Possible Solution or Workaround^^
 
-    Use the Experimental version - this seems to work.
+    Update to latest Development version. The issue is fixed there.
 
+    Stable version will be updated with the fix as soon as possible.
 
 ??? failure "Bad Performance after Sim Update 7 and Using DX12"
     ### Poor Performance After Sim Update 7 and Using DX12
@@ -93,11 +94,15 @@ TEMPLATE
 
     ^^Root Cause^^
 
-    Unknown - Investigating.
+    Investigation ongoing.
 
     ^^Possible Solution or Workaround^^
 
-    Please use DX11 for the time being.
+    Use of DX11 is recommended for best performance due to an issue with some
+    glass cockpit technologies in the DX12 version of the simulator. This is
+    not an FBW issue and we cannot address it for now - please keep in mind
+    DX12 is officially a "beta feature" and thus should not be used unless
+    you know what you are doing.
 
 ??? failure "Invisible Aircraft"
     ### Invisible Aircraft
