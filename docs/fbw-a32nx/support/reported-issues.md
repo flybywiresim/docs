@@ -304,6 +304,26 @@ TEMPLATE
 
 ---
 
+??? warning "WX Radar Does Not Update"
+    ### WX Radar Does Not Update
+
+    !!! tip ""
+        *Affected versions: Stable, Development*
+
+    ^^Description^^
+
+    Sim Update 7 broke the weather radar update on the ND in our aircraft.
+
+    ^^Root Cause^^
+
+    Sim Update 7 change - cause unknown. We are investigating.
+
+    ^^Possible Solution or Workaround^^
+
+    No fix or workaround available at this time.
+
+    Turning the WX off and on or TERR ON ND on and off seems to update the WX on the ND.
+
 ??? warning "Fuel Consumption Too High / Fuel Prediction Too low"
     ### Fuel Consumption
 
