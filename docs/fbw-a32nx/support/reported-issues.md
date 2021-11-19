@@ -304,6 +304,26 @@ TEMPLATE
 
 ---
 
+??? warning "Difficulty Accurately Clicking Controls"
+    ### Difficulty Accurately Clicking Controls
+
+    !!! tip ""
+        *Affected versions: Stable, Development*
+    
+    ^^Description^^
+
+    Click spots for different controls in the virtual cockpit may seem "misaligned" or generally difficult to accurate select.
+
+    ^^Root Cause^^
+
+    Sim Update 7 Issues
+
+    ^^Possible Solution or Workaround^^
+
+    Turn off *Lens Correction* in the MSFS graphics settings.
+
+    ![Lens Correction Settings](https://media.discordapp.net/attachments/785976111875751956/911096088809848852/unknown.png?width=1440&height=633)
+
 ??? warning "WX Radar Does Not Update"
     ### WX Radar Does Not Update
 
