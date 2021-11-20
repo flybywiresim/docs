@@ -102,12 +102,12 @@ Please select the correct version below.
 
 Get our [simBrief Profile](../installation.md#simbrief-airframe) for the Development and Experimental versions.
 
-- OEW (Empty Weight): 42500 (in kilograms)
+- OEW (Empty Weight): 42.500 (in kilograms)
     - Also referred to as DOW (Dry Operating Weight) which can be seen in other simBrief OFP formats such as EZY
-- MZFW (Max Zero Fuel Weight): 64300 (in kilograms)
-- MTOW (Max Takeoff Weight): 79000 (in kilograms)
-- MLW (Max Landing Weight): 67400 (in kilograms)
-- Max Fuel Capacity: 19045 (in kilograms)
+- MZFW (Max Zero Fuel Weight): 64.300 (in kilograms)
+- MTOW (Max Takeoff Weight): 79.000 (in kilograms)
+- MLW (Max Landing Weight): 67.400 (in kilograms)
+- Max Fuel Capacity: 19.045 (in kilograms)
 - Passenger Weight: 104 (in kilograms)
     - 84 kg for passenger (including clothing and carry-on bags)
     - 20 kg for checked luggage
@@ -247,12 +247,12 @@ Get our [simBrief Profile](../installation.md#simbrief-airframe) for the Develop
 
 Get our [simBrief Profile](../installation.md#simbrief-airframe) for the stable version.
 
-- OEW (Empty Weight): 46262 (in kilograms)
+- OEW (Empty Weight): 46.262 (in kilograms)
     - Also referred to as DOW (Dry Operating Weight) which can be seen in other simBrief OFP formats such as EZY
-- MZFW (Max Zero Fuel Weight): 64300 (in kilograms)
-- MTOW (Max Takeoff Weight): 79000 (in kilograms)
-- MLW (Max Landing Weight): 67400 (in kilograms)
-- Max Fuel Capacity: 19045 (in kilograms)
+- MZFW (Max Zero Fuel Weight): 64.300 (in kilograms)
+- MTOW (Max Takeoff Weight): 79.000 (in kilograms)
+- MLW (Max Landing Weight): 67.400 (in kilograms)
+- Max Fuel Capacity: 19.045 (in kilograms)
 - Passenger Weight: 104 (in kilograms)
     - 84 kg for passenger (including clothing and carry-on bags)
     - 20 kg for checked luggage
