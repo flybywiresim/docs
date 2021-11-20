@@ -33,7 +33,7 @@ Visit [Starting the Aircraft](starting-the-aircraft.md) to learn more.
 !!! info "Requesting IFR Clearance"
     Before departing for the flight, we must obtain an IFR clearance from ATC. The clearance may be obtained from clearance delivery or another specific frequency, depending on the airport and available services.
 
-    If you are not flying on network and are using the built in ATC menu, simply find the appropriate selection in the menu and request for IFR clearance. 
+    If you are not flying on network and are using the built in ATC menu, simply find the appropriate selection in the menu and request for IFR clearance.
 
     Clearances will usually provide the following information below. As a pilot you would need to read back the clearance correctly or acknowledge it if using the built in ATC menu.
 
@@ -184,9 +184,9 @@ Our route for this flight can be found on the 2nd page of the OFP
 !!! info "SID"
     Standard Instrument Departure Route
 
-    These are procedures that are defined and published that takes a flight from the take-off phase to the enroute phase. 
+    These are procedures that are defined and published that takes a flight from the take-off phase to the enroute phase.
 
-    Also see: [SIDS and STARS](../airliner-flying-guide/navigation.md#sids-and-stars)   
+    Also see: [SIDS and STARS](../airliner-flying-guide/navigation.md#sids-and-stars)
 
 To program the Standard Instrument Departure (SID):
 
@@ -223,9 +223,9 @@ For the purposes of this guide we will preplan our arrival into EGCC via the `MI
 !!! info "STAR"
     Standard Terminal Arrival Route
 
-    Similar to the SID, these are procedures that are defined and published that takes a flight from the last point in a route *(in our case `MONTY`)* to the first point in the approach or the initial approach fix (IAF). 
+    Similar to the SID, these are procedures that are defined and published that takes a flight from the last point in a route *(in our case `MONTY`)* to the first point in the approach or the initial approach fix (IAF).
 
-    Also see: [SIDS and STARS](../airliner-flying-guide\navigation.md#sids-and-stars)       
+    Also see: [SIDS and STARS](../airliner-flying-guide\navigation.md#sids-and-stars)
 
 Find `EGCC` in green in flight plan OR select `EGCC` in white under `DEST` using the corresponding LSK.
 
@@ -242,13 +242,34 @@ Find `EGCC` in green in flight plan OR select `EGCC` in white under `DEST` using
 
 Verify the flight plan by using the vertical slew keys to scroll through it.
 
+!!! info "Discontinuity"
+    #### Discontinuity
+
+    !!! warning "Only Available in the Experimental Version"
+
+    The flight plan might contain so called discontinuities. These are breaks in the flight plan and often separate two flight plan sections like the SID and first in-route waypoint or the STAR and the APPR. They are also often inserted when the flight plan is modified.
+
+    When the aircraft overflies a flight plan discontinuity, the NAV mode automatically reverts to the HDG (TRK) mode. The pilot need to then use DIR TO to fly to the next waypoint.
+
+    These discontinuities can be cleared from the flight plan by using the CLR key on the MCDU and selecting the LSK left of the discontinuity.
+
+    ![Normal Discontinuity](../assets/beginner-guide/mcdu/mcdu-discontinuity-1.png "Normal Discontinuity")
+
+    Sometimes discontinuities are also part of a procedure to indicate that manual input is required (mostly clearance by ATC). The preceding legs are called MANUAL legs.
+
+    A MANUAL leg stays on a constant TRK or HDG and has no termination point. When the aircraft is flying a MANUAL leg, the NAV mode remains engaged and predictions assume that the aircraft will fly a direct leg from its present position to the next waypoint (DIR TO). When the aircraft is cleared to fly to the next waypoint of the flight plan, the flight crew performs a DIR TO.
+
+    Discontinuities after MANUAL legs cannot be cleared from the flight plan.
+
+    ![Manual Leg Discontinuity](../assets/beginner-guide/mcdu/mcdu-discontinuity-2.png "Manual Leg Discontinuity")
+
 !!! info "Viewing Flight Plan on ND"
     We can also verify the route looks correct by selecting `Plan` on the EFIS control panel and watching the ND as we scroll through.
 
 !!! warning "USR Waypoints"
     One thing to note are the USR waypoints the sim inputs into the flight plan. These are pseudo waypoints the simulator creates to draw the flight plan.
 
-    There is a small bug in the simulator where the USR waypoint on arrival may bug out and proceed direct to runway. Please be aware and use selected HDG to mitigate this issue. 
+    There is a small bug in the simulator where the USR waypoint on arrival may bug out and proceed direct to runway. Please be aware and use selected HDG to mitigate this issue.
 
 <!-- TODO: Update when Secondary F-PLAN is available -->
 ### **^^S^^**ECONDARY FLIGHT PLAN
@@ -301,7 +322,7 @@ On this page, we can input our zero fuel weight (ZFW) and zero fuel weight cente
 !!! warning "Important Info"
     Fuel and payload have to be set in the simulator before ZFW/CG for the end result to be correct. (Unless you want to use the default fuel and weight).
 
-    **NOTE:** It is advisable to **not** use the MSFS Fuel Panel to load fuel or weights. 
+    **NOTE:** It is advisable to **not** use the MSFS Fuel Panel to load fuel or weights.
 
     To learn how see [Load Fuel and Payload](../../fbw-a32nx/feature-guides/simbrief.md#loading-fuel-and-weight) in the simBrief integration guide.
 
@@ -377,7 +398,7 @@ For this flight we will be taking off with a `1+F` flaps configuration.
 
     {--
 
-    **For the purposes of simulation** we can use the auto-calculated GWCG on the FUEL PRED page to input a value into the THS field. Since this is not accurate for real world use, you can infer the TOCG and pitch trim by referring to this value right before takeoff to confirm the pitch trim configuration for your flight. 
+    **For the purposes of simulation** we can use the auto-calculated GWCG on the FUEL PRED page to input a value into the THS field. Since this is not accurate for real world use, you can infer the TOCG and pitch trim by referring to this value right before takeoff to confirm the pitch trim configuration for your flight.
 
     We plan on adding a better visual representation of the TOCG at later time.
 
