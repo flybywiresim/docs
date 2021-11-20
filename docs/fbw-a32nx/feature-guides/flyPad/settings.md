@@ -108,10 +108,10 @@ Settings for simulation aspects of the A32NX aircraft.
 - MCDU Focus Timeout (s)
     - The timeout feature will "automatically unfocus" the MCDU screen after the given amount of seconds.
     - Valid range is 5 - 120 seconds.
-- Detents:
-    - See [Throttle Configuration](throttle-calibration.md).
 - Dynamic Registration Decal:
     - The dynamic registration number decal shown on the external livery can be disabled to improve appearance when using liveries with a static registration number.
+- Detents:
+    - See [Throttle Configuration](throttle-calibration.md).
 
 ## ATSU/AOC
 
