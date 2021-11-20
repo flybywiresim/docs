@@ -65,7 +65,7 @@ plugins:
         'support.md': 'fbw-a32nx/support/index.md'
         'discord-bot.md': 'dev-corner/development-projects/discord-bot.md'
         # Release Notes Permalink
-        'latest-release.md': 'release-notes/v072.md'
+        'latest-release.md': 'release-notes/v073.md'
         # ########################################
         # Needed for URL within the A32NX aircraft
         # ########################################
