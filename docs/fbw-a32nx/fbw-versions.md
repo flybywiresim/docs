@@ -25,24 +25,30 @@
 
 === "Experimental Version"
 
-    This version is similar to the development version, but contains custom systems in earlier development phases. 
+    This version is similar to the development version, but contains custom systems in earlier development phases.
     
-    Currently the new FlyByWire Custom Flight Management System (cFMS) is available in the Experimental version.
+    !!! danger ""
+        The experimental branch will be on hold temporarily until we start work on our next major feature. Please switch to our development branch in the meantime.
     
-    The experimental version will be updated with the latest changes to the cFMS regularly and also with the latest changes to the Development version. Expect updates about once a week (not guaranteed).     
-    
-    !!! warning 
+    While not "on hold" the experimental version will be updated regularly and also with the latest changes to the Development version. Expect updates about once a week (not guaranteed).    
+
+    !!! warning
     
     The Experimental version has a less strict QA process and is used for actual QA testing. Bugs and Issues are to be expected. Please read [Experimental Version Support Page](support/exp.md) before using this version.
 
     !!! danger "No Support for Experimental - use at own risk"
-        Please do not seek support for the Experimental Version on Discord and only report issues if you have read this page and the reported and known issues. You can report issues in the Discord channel "#ata-22-fms" in the thread "[CFMS LNAV ONLY Bugs + Issues](https://discord.com/channels/738864299392630914/876140343735771147/882442909918584862){ target=new }".
+        Please do not seek support for the Experimental Version on Discord and only report issues if you have read this page as well as the reported and known issues.
+
+<!--
+Currently we are testing the new implementation of the TCAS.
+
+-->
 
 ## Version Comparison
 
-See [Release Notes for Stable 0.7.1](../release-notes/v071.md)
+See [Release Notes for Stable 0.7.3](../release-notes/v073.md)
 
-### New Features in the Development Version since Release of Stable 0.7.1
+### New Features in the Development Version since Release of Stable 0.7.3
 
 This is a curated list with the most important features for users and
 will be updated at least once a month.

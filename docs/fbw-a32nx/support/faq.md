@@ -55,8 +55,6 @@
 ??? info "Q: What is the Experimental Version?"
     The Experimental Version is the Development build with a custom project added where highly experimental features are tested. These builds are subject to various bugs and errors, which are often changed daily. Users can use this build with the caveat that it is not supported in the `#support` channel.
 
-    **At the time of writing, there is no currently active Experimental project, Development should be used instead.**
-
 ---
 
 ## Aircraft

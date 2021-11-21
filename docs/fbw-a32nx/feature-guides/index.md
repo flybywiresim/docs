@@ -8,6 +8,8 @@ Topics:
 
 - [Alpha Floor Protection](afloor.md)
 - [Autopilot and fly-by-wire](autopilot-fbw.md)
+- [Flight Management System](cFMS.md)
+- [Fix Info](fixinfo.md)
 - [MCDU Keyboard Support](mcdu-keyboard.md)
 - [SimBrief Integration](simbrief.md)
 - [Throttle Calibration](flyPad/throttle-calibration.md)

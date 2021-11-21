@@ -1,6 +1,6 @@
 # Fix Info
 
-!!! warning "Only available in the Experimental Version"
+!!! warning "Not available in the Stable Version"
 
 ## Overview
 
@@ -10,7 +10,7 @@ with a waypoint.
 
 These lines or circles are displayed on the ND and also used to compute intercept waypoints which are then added to the active flight plan.
 
-The current Experimental version of the A32NX has implemented the display of these lines and circles on the ND.
+The A32NX has implemented the display of these lines and circles on the ND.
 
 !!! warning ""
     The computed intercept waypoints and ABEAM functionality are not yet implemented.

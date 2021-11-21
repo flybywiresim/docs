@@ -90,6 +90,16 @@ Settings for simulation aspects of the A32NX aircraft.
     - User can set the time for the Display Management Computer's self test (Real ~15sec, Fast ~5sec, Instant).
 - Default Baro:
     - User can set which baro setting he wants to have as a default: inHg, hPA or Auto (depends on the airport where the aircraft spawned).
+- Sync MSFS Flight Plan:
+    - User can set if and how the flight plan synchronization between the simulator and the aircraft should work.
+    - The options are:
+        - None: No synchronization.
+        - Load Only: Only once when loading the flight.
+        - Save: Synchronization with every change in the aircraft
+
+        !!! warning "Synchronization Issues Expected"
+            The aircraft's custom Flight Management System provides better accuracy and features over the default flight plan manager in Microsoft Flight simulator which results in issues syncing the flight plan from the MCDU back into the simulator. Do not expect it to work properly in all cases.
+
 - MCDU Keyboard Input (unrealistic)
     - Enables the MCDU Keyboard input feature (see [MCDU Keyboard](../mcdu-keyboard.md)).
 - MCDU Focus Timeout (s)
@@ -131,9 +141,9 @@ Settings for integrations with various data and information sources.
 
         !!! warning
             If enabled, aircraft position data is published for the duration of the flight. Messages are public and not moderated.
-  
+
             ~~USE AT YOUR OWN RISK~~
-    
+
             [Free Text - Feature Guide](../freetext.md){.md-button}
 
     - If enabled a message will be displayed to confirm sharing of the free text and position data to the public.

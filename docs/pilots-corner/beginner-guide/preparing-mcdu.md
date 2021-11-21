@@ -245,8 +245,6 @@ Verify the flight plan by using the vertical slew keys to scroll through it.
 !!! info "Discontinuity"
     #### Discontinuity
 
-    !!! warning "Only Available in the Experimental Version"
-
     The flight plan might contain so called discontinuities. These are breaks in the flight plan and often separate two flight plan sections like the SID and first in-route waypoint or the STAR and the APPR. They are also often inserted when the flight plan is modified.
 
     When the aircraft overflies a flight plan discontinuity, the NAV mode automatically reverts to the HDG (TRK) mode. The pilot need to then use DIR TO to fly to the next waypoint.
@@ -266,7 +264,7 @@ Verify the flight plan by using the vertical slew keys to scroll through it.
 !!! info "Viewing Flight Plan on ND"
     We can also verify the route looks correct by selecting `Plan` on the EFIS control panel and watching the ND as we scroll through.
 
-!!! warning "USR Waypoints"
+!!! warning "USR Waypoints (only on Stable version)"
     One thing to note are the USR waypoints the sim inputs into the flight plan. These are pseudo waypoints the simulator creates to draw the flight plan.
 
     There is a small bug in the simulator where the USR waypoint on arrival may bug out and proceed direct to runway. Please be aware and use selected HDG to mitigate this issue.

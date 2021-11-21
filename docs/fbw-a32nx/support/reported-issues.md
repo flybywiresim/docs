@@ -27,7 +27,7 @@
 
     ---
 
-    Please visit the dedicated Autopilot / Fly-By-Wire page for more information:
+    Due to the complex nature of our custom autopilot, please visit the dedicated ^^Custom Autopilot / Fly-By-Wire^^ page for more information:
 
     - [**Main Page**](../feature-guides/autopilot-fbw.md)
     - [**Typical Issues + Solutions**](../feature-guides/autopilot-fbw.md#typical-issues-and-how-to-solve-them)
@@ -35,11 +35,18 @@
 
     ---
 
+    Please visit the ^^Dedicated Custom Flight Management System^^ page for more information:
+
+    - [**Features + Issues**](../feature-guides/cFMS.md)
+    - [**Special Notes**](../feature-guides/cFMS.md#special-notes)
+
+    ---
+
     Do this before reporting bugs.
 
-!!! danger "No Support for Experimental - use at own risk"
+<!--!!! danger "No Support for Experimental - use at own risk"
 
-    Refer to this page for [Known Issues in the Experimental Version](exp.md#known-issues).
+    Refer to this page for [Known Issues in the Experimental Version](exp.md#known-issues).-->
 
 ---
 
@@ -753,7 +760,7 @@ TEMPLATE
     ### Flight Planning and Autoflight Issues
 
     !!! tip ""
-        *Affected versions: Stable, Development*
+        *Affected versions: Stable*
 
     ^^Description^^
 
