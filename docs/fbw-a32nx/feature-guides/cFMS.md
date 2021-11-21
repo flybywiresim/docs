@@ -34,8 +34,8 @@ For guides on utilizing features included with our custom FMS see the [Guides an
 
 ## Guides and Information
 
-- [MCDU Fix Info](fixinfo.md)
-  - [Flight Plan Discontinuities](../../pilots-corner/beginner-guide/preparing-mcdu.md#discontinuity)
+- [MCDU Fix Info](./fixinfo.md)
+- [Flight Plan Discontinuities](../../pilots-corner/beginner-guide/preparing-mcdu.md#discontinuity)
 
 ## Known Issues
 

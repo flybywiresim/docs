@@ -15,46 +15,6 @@ diff rgba(27,36,52,1)
   --md-default-bg-color: rgb(27,36,52);
 }
 
-/* Navigation Modifications */
-.md-header {
-  background: rgb(20,30,48);
-}
-.md-nav--primary .md-nav__title[for=__drawer] {
-    background: var(--md-primary-fg-color--dark);
-    overflow: visible;
-}
-.md-tabs {
-  background: rgb(20,30,48);
-}
-.md-top {
-  color: #ffffff;
-}
-.md-top {
-  color: #ffffff;
-}
-.md-tabs__link--active, .md-tabs__link:focus, .md-tabs__link:hover {
-  border-bottom: 1.5px solid #00C2CB;
-  height: -webkit-fill-available;
-}
-
-/*Announcement Bar*/
-.md-announce {
-    background-color: var(--md-footer-bg-color--dark);
-    overflow: auto;
-    padding-bottom: 0.5rem;
-}
-.md-announce__inner {
-    font-size: .7rem;
-    margin: .6rem auto 0;
-    padding: 0 .8rem;
-    text-align: center;
-}
-.md-typeset img, .md-typeset svg {
-    height: auto;
-    max-width: 100%;
-    vertical-align: text-bottom;
-}
-
 /*Header Modifications*/
 .md-typeset h1 {
   color: #00C2CB;
@@ -93,53 +53,12 @@ h4 {
     color: white;
     text-decoration: none;
 }
-
 /*Standardize Font Awesome CSS Styling*/
 .discord {
   font-size: 20px;
 }
 .github {
   font-size: 20px;
-}
-
-/*Additional Modifications*/
-.md-typeset .admonition {
-  border-left: .2rem solid #00C2CB;
-  border-color: #00C2CB;
-}
-.md-typeset code {
-    background-color: hsl(232,7%,28%);
-    border-radius: .1rem;
-    -webkit-box-decoration-break: clone;
-    box-decoration-break: clone;
-    font-size: .95em;
-    padding: 0 .2941176471em;
-    word-break: break-word;
-}
-/*Admonition Question Variant*/
-/*Upper Section*/
-.md-typeset .question>.admonition-title, .md-typeset .question>summary,
-.md-typeset .faq>.admonition-title, .md-typeset .faq>summary,
-.md-typeset .help>.admonition-title, .md-typeset .help>summary {
-  border-color: #00C2CB;
-  background-color: rgba(0,184,212,.1);
-  font-size: 0.8rem;
-}
-.md-typeset .question>.admonition-title::before, .md-typeset .question>summary::before,
-.md-typeset .faq>.admonition-title::before, .md-typeset .faq>summary::before,
-.md-typeset .help>.admonition-title::before, .md-typeset .help>summary::before {
-  background-color: #00C2CB;
-  top: 0.5rem;
-}
-.md-typeset summary::after {
-  top: 0.5rem;
-}
-/*Lower Section*/
-.md-typeset .admonition.question, .md-typeset details.question,
-.md-typeset .admonition.faq, .md-typeset details.faq,
-.md-typeset .admonition.help, .md-typeset details.help {
-  border-color: #00C2CB;
-  font-size: 0.8rem;
 }
 /*Table Styling*/
 .md-typeset table:not([class]) th {
@@ -153,32 +72,6 @@ h4 {
   padding: .2375em 1.25em;
   vertical-align: top;
 }
-
-/* for aligning image left or right with control over which text flows around */
-.md-typeset .admonition.block,
-.md-typeset details.block {
-   border-color: var(--md-default-bg-color);
-   background-color: var(--md-default-bg-color);
-   box-shadow: none;
-   font-size: .8rem;
-   margin: 0.5em 0;
-   padding: 0 .3rem;
-}
-.md-typeset .block > .admonition-title,
-.md-typeset .block > summary {
-  background-color: var(--md-default-bg-color);
-  border-color: var(--md-default-bg-color);
-  border-left: .2rem solid #448aff;
-  font-weight: 700;
-  margin: 0 -.6rem 0 -.8rem;
-  padding: 0 0 0 0.4rem;
-  position: relative;
-}
-.md-typeset .block > .admonition-title::before,
-.md-typeset .block > summary::before {
-  height: 0rem;
-}
-
 /* Tasklist */
  .md-typeset [type=checkbox]:checked+.task-list-indicator:before {
     background-color: #00A2AB;

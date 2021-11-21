@@ -11,9 +11,11 @@ For information on how to contribute to bot development visit the Discord bot re
 | Command         | Description                                                  | Alias                      |
 | :---            | :---                                                         | :---                       |
 | .ADIRS          | Provides information on how to align ADIRS                   | .adirs                     |
+| .addon          | addon, not mod (meme)                                        | ---                        |
 | .afloor         | Link to the A.FLOOR tooltip video and documentation guide    | ---                        |
 | .airframe       | Link to simBrief airframe                                    | ---                        |
 | .autopilot      | Link to custom autopilot documentation and issues            | .ap                        |
+| .avatar         | Shows the selected users avatar                              | .av                        |
 | .beginnerguide  | Link to Beginner Guide documentation                         | .bg                        |
 | .boratorium     | Boratorium meme                                              | ---                        |
 | .boris          | Boris sound meme                                             | ---                        |
@@ -23,39 +25,88 @@ For information on how to contribute to bot development visit the Discord bot re
 | .checklist      | Displays the checklist                                       | ---                        |
 | .clean          | Links to clean install guide                                 | .cleaninstall <br>.order66 |
 | .community      | Guide to locate community folder                             | .com                       |
+| .coffee         | Would you like some coffee? (meme)                           | ---                        |
 | .content        | Guide to provide screenshot of content manager               | ---                        |
 | .controls       | How to change from new to legacy controls                    | ---                        |
+| .cowsay         | Emulates the famous UNIX program 'cowsay'                    | .cs                        |
 | .ctrl+e         | Displays help regarding CTRL+E engine start                  | .ctrle <br>.enginestart    |
+| .cursor         | Displays steps to help with EFB cursor focus issue           | .efbfocus <br>.unfocus     |
+| .default        | 0_o (meme)                                                   |                            |
 | .donate         | Link to donation website                                     | ---                        |
 | .efb            | Shows the EFB GIF                                            | ---                        |
 | .exp            | Information about the FBW experimental version               | .experimental              |
+| .freetext       | Provides a link to the FBW free text feature guide           | .ft                        |
+| .guard          | MEOW! (meme)                                                 | ---                        |
 | .help           | Send DM of current list of commands                          | ---                        |
 | .installer      | Provides a link to the installer                             | ---                        |
 | .installererror | Shows installer error resolution (outdated)                  | .error                     |
+| .juan           | just... Juan (meme)                                          |                            |
 | .liveries       | Provides a link to the flightsim.to A32NX liveries page      | .liv                       |
+| .merge          | GIT MERGE! (meme)                                            | .git merge                 |
 | .metar          | Provides the METAR report of the requested airport           | ---                        |
 | .msfs           | Links to MSFS Discord and forum (for non-FBW related issues) | ---                        |
 | .nut            | Support Master NUT meme (read the sticky message)            | ---                        |
+| .otter          | Well, it's an otter (meme)                                   | ---                        |
+| .poggers        | POG (meme)                                                   | ---                        |
+| .pov            | Oof (meme)                                                   | ---                        |
 | .printer        | Provides a link to the FlyByWire printer tutorial video      | ---                        |
+| .ptu            | Bark (meme)                                                  | ---                        |
+| .p3d            | No! (meme)                                                   | ---                        |
 | .qa             | Links to the Quality Assurance docs page                     | ---                        |
 | .reportedissues | Link to reported issues documentation                        | .issues                    |
 | .roadmap        | FlyByWire Simulations roadmap graphic                        | .goals                     |
 | .screens        | Guide for adjusting various instrument lighting              | ---                        |
 | .screenshot     | How to take a good screenshot                                | ---                        |
+| .shame          | Shame, shame, shame (meme)                                   | ---                        |
 | .simversion     | Help to identify MSFS version for support                    | .msfsversion               |
+| .synaptic       | Provides link to Synaptic Discord server                     | .syn                       |
+| .station        | Provides station information                                 | ---                        |
 | .trythis        | Main support command (remove mods/liveries)                  | ---                        |
 | .utf8           | Resolution steps to solve UTF-8 issues                       | ---                        |
 | .versions       | Information about all available FBW branches                 | ---                        |
 | .weather        | Explains the current state of the weather and terrain radars | .wx                        |
 | .when           | Explain the absence of release dates or ETAs                 | ---                        |
+| .whened         | you just got .whened! (meme)                                 | ---                        |
 | .where          | Help with which aircraft to select in the aircraft selector  | ---                        |
 | .willithave     | Answers the question "Will the A32NX have ... ?"             | ---                        |
 | .xbox           | Xbox/Marketplace NOTAM link                                  | ---                        |
-
-
+| .xp             | Just... no!                                                  | .XPlane <br>.X-Plane       |
 
 
 ## Changelog
+
+Update <small>_ November 21, 2021</small>
+
+- Added `.cursor (.efbfocus, .unfocus)`
+- Added `.ptu`
+- Added `.logs`
+- Added `.avatar (.av)`
+- Added `.whened`
+- Added `.station`
+- Added `.addon`
+- Added `.freetext (.ft)`
+- Added `.guard`
+- Added `.poggers`
+- Added `.merge`
+- Added `.default`
+- Added `.juan`
+- Added `.p3d`
+- Added `.xp`
+- Added `.pov`
+- Added `.coffee`
+- Added `.otter`
+- Added `.synaptic (.syn)`
+- Added `.cowsay (.cs)`
+- Updated `.nut` (Non Halloween)
+- Updated `.bruheg` (Non Halloween)
+- Updated `.help`
+- Updated `readme.ts`
+- Updated `.ctrle` (New alias `.ctrl-e`)
+- Updated `.printer`
+- Updated `.exp` and `.versions`
+- Updated embed accent colour
+- Deleted `.installererror`
+- Fix `.metar` (Units)
 
 Update <small>_ October 27, 2021</small>
 

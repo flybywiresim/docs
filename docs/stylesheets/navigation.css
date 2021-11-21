@@ -1,0 +1,39 @@
+/* Navigation Modifications */
+.md-header {
+  background: rgb(20,30,48);
+}
+.md-nav--primary .md-nav__title[for=__drawer] {
+    background: var(--md-primary-fg-color--dark);
+    overflow: visible;
+}
+.md-tabs {
+  background: rgb(20,30,48);
+}
+.md-top {
+  color: #ffffff;
+}
+.md-top {
+  color: #ffffff;
+}
+.md-tabs__link--active, .md-tabs__link:focus, .md-tabs__link:hover {
+  border-bottom: 1.5px solid #00C2CB;
+  height: -webkit-fill-available;
+}
+
+/*Announcement Bar*/
+.md-announce {
+    background-color: var(--md-footer-bg-color--dark);
+    overflow: auto;
+    padding-bottom: 0.5rem;
+}
+.md-announce__inner {
+    font-size: .7rem;
+    margin: .6rem auto 0;
+    padding: 0 .8rem;
+    text-align: center;
+}
+.md-typeset img, .md-typeset svg {
+    height: auto;
+    max-width: 100%;
+    vertical-align: text-bottom;
+}
