@@ -58,7 +58,15 @@ For guides on utilizing features included with our custom FMS see the [Guides an
 
 Our custom FMS provides better accuracy and features over the default offering in MSFS which results in issues syncing the flight plan from the MCDU back into the simulator. On routes with significant differences from your flight plan in our FMS (See ND plan mode), don't expect it to go too well.
 
-As noted above *your mileage may vary* but we have provided a feature on the EFB that helps sync the flight plan so MSFS ATC can read it. By default, this feature is set to `None` on the EFB. If you would like to try and use built-in ATC for your flight you need to switch the `Sync MSFS Flight Plan` setting to `Save`. You can find this page in the [EFB Settings - Sim Options](flyPad/settings.md#sim-options).
+As noted above *your mileage may vary* but we have provided a feature on the EFB that helps sync the flight plan so MSFS ATC can read it. By default, this feature is set to `None` on the EFB.
+
+!!! info "Built-in ATC IFR Clearance with cFMS"
+     Before performing an INIT REQ. or inputting your flight plan please follow the steps below if you would like to try and use the built-in ATC for your flight.
+
+    - Go to the EFB Settings and select Sim Options. [Location Here](flyPad/settings.md#sim-options).
+    - Switch the `Sync MSFS Flight Plan` setting to `Save`.
+    - Continue entering your flight plan or perform an INIT REQ.
+    - IFR Clearance Request should be available for your flight through the built-in ATC.
 
 ### Flight Path Rendering
 
