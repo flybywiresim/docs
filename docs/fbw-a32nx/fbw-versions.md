@@ -26,8 +26,9 @@
 === "Experimental Version"
 
     This version is similar to the development version, but contains custom systems in earlier development phases.
-
-    The experimental branch will be on hold temporarily until we start work on our next major feature. Please switch to our development branch in the meantime.
+    
+    !!! danger ""
+        The experimental branch will be on hold temporarily until we start work on our next major feature. Please switch to our development branch in the meantime.
     
     While not "on hold" the experimental version will be updated regularly and also with the latest changes to the Development version. Expect updates about once a week (not guaranteed).    
 
