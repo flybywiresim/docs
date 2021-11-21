@@ -46,9 +46,9 @@ Currently we are testing the new implementation of the TCAS.
 
 ## Version Comparison
 
-See [Release Notes for Stable 0.7.1](../release-notes/v071.md)
+See [Release Notes for Stable 0.7.3](../release-notes/v073.md)
 
-### New Features in the Development Version since Release of Stable 0.7.1
+### New Features in the Development Version since Release of Stable 0.7.3
 
 This is a curated list with the most important features for users and
 will be updated at least once a month.
