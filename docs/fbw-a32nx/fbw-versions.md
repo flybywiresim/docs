@@ -48,8 +48,8 @@ Currently we are testing the new implementation of the TCAS.
 
 See [Latest Release Notes for Stable](/latest-release)
 
-For all changes made to the Development version since the last major release of the Stable version refer to
+For all changes made to the Development version since the last major release of the Stable version refer to:
 
-- the official [CHANGELOG](https://github.com/flybywiresim/a32nx/blob/master/.github/CHANGELOG.md#080){target=new}
-- commits on the [:fontawesome-brands-github:{: .github } - **GitHub A32NX Repository Master Branch**](https://github.com/flybywiresim/a32nx/commits/master){target=new}.
+- Official [CHANGELOG](https://github.com/flybywiresim/a32nx/blob/master/.github/CHANGELOG.md#080){target=new}
+- Commits on the [:fontawesome-brands-github:{: .github } - **GitHub A32NX Repository Master Branch**](https://github.com/flybywiresim/a32nx/commits/master){target=new}.
 
