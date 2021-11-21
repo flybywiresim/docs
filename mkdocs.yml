@@ -74,6 +74,8 @@ plugins:
 # Styling Front-end
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/admonitions.css
+  - stylesheets/navigation.css
 
 # Extra Functions / Customizations
 extra:
