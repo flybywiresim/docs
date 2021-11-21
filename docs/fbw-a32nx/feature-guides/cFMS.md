@@ -44,7 +44,7 @@ For guides on utilizing features included with our custom FMS see the [Guides an
 - Only 3 Leg Types/1 Transition supported at this time. Although these cover most of the important types there might be some issues with other leg types during flight guidance. We will be significantly improving this in future updates.
 - Rendering of flight path on the ND of terminal procedure legs may be glitched or incorrect during cruise. - [See Special Notes](../feature-guides/cFMS.md#flight-path-rendering).
 - Rendering of flight path on the ND of legs will be glitched or incorrect if you are flying faster than the appropriate/correct speed. - [See Special Notes](../feature-guides/cFMS.md#flight-path-rendering).
-- Syncing the aircraft flight plan with the sim's flight plan for default ATC and VFR map is not 100% supported. - [See Special Notes](../feature-guides/cFMS.md#flight-plan-sync).
+- Syncing the aircraft flight plan with the sim's flight plan for default ATC and VFR map is not 100% supported. - [See Special Notes](../feature-guides/cFMS.md#flight-plan-sync-and-msfs-atc).
 - Defining both FROM/TO in the world map shows in the FROM/TO INIT A page but does not populate the airport list in our METAR (AOC) integration.
 - DIRECT-TO: Turning point is not correctly implemented yet.
 - ETA in F-PLN A on the MCDU may not be 100% accurate.
@@ -54,14 +54,22 @@ For guides on utilizing features included with our custom FMS see the [Guides an
 
 ## Special Notes
 
-### Flight Plan Sync
+### Flight Plan Sync and MSFS ATC
 
-Our custom FMS provides better accuracy and features over the default offering in MSFS which results in issues syncing the flight plan from the MCDU back into the simulator.
+Our custom FMS provides better accuracy and features over the default offering in MSFS which results in issues syncing the flight plan from the MCDU back into the simulator. On routes with significant differences from your flight plan in our FMS (See ND plan mode), don't expect it to go too well.
 
-As noted above *your mileage may vary* but we have provided a feature on the EFB that helps sync the flight plan so MSFS ATC can read it. On routes with significant differences from your flight plan in our FMS (See ND plan mode), don't expect it to go too well.
+As noted above *your mileage may vary* but we have provided a feature on the EFB that helps sync the flight plan so MSFS ATC can read it. By default, this feature is set to `None` on the EFB.
+
+!!! info "Built-in ATC IFR Clearance with cFMS"
+     Before performing an INIT REQ. or inputting your flight plan please follow the steps below if you would like to try and use the built-in ATC for your flight.
+
+    - Go to the EFB Settings and select Sim Options. [Location Here](flyPad/settings.md#sim-options).
+    - Switch the `Sync MSFS Flight Plan` setting to `Save`.
+    - Continue entering your flight plan or perform an INIT REQ.
+    - IFR Clearance Request should be available for your flight through the built-in ATC.
 
 ### Flight Path Rendering
 
 In certain instances some legs may not render correctly with our current implementation and may look strange in PLAN mode or while enroute. In most cases the A32NX will attempt to fly the route and you won't experience any major issues.
 
-Additionally, some flight plans may have extraneous waypoints that can lead to wrongly drawn flight paths. While this is can be an edge case, going through your flight plan in `PLAN` mode you can find offending waypoints that need to be removed what will provide a much more reasonable drawn flight path.
+Additionally, some flight plans may have extraneous waypoints that can lead to wrongly drawn flight paths. While this is can be an edge case, going through your flight plan in `PLAN` mode you can find offending waypoints that need to be removed which will provide a much more reasonable drawn flight path.
