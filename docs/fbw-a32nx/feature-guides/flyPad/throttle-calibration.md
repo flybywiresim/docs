@@ -98,7 +98,7 @@ Check that the axis mappings are correct.
 
     ![Reverse Axis Box](../../assets/flypad/throttle-calibration/reverse-axis-box.png "Reverse Axis Box"){loading=lazy}
 
-    !!! warning "Don't worry if the throttle does not go all the way or too far into reverse now. Only the movement direction is import at this point. "
+    !!! warning "Don't worry if the throttle does move all the way or moves too far into reverse now. Only the movement direction is important at this point. "
 
 ### 4. Reverser Setup (when not on axis)
 
