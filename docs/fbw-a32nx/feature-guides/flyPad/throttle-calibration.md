@@ -225,7 +225,7 @@ We start the detent calibration with the lowest throttle setting.
 
     ![Idle Position](../../assets/flypad/throttle-calibration/idle.png "Idle Position"){loading=lazy}
 
-    The "Current Value" should be close to -0.5.
+    The "Current Value" should be close to -1.0.
 
     {== Press "Set From Throttle" on both sides. ==}
 
