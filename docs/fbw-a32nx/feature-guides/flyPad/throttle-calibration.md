@@ -75,26 +75,30 @@ Set all sensitivity settings to 0%. This includes Sensitivity + and -, Dead Zone
 Check that the axis mappings are correct.
 
 ??? note "How to Set Axis Mapping"
-    You can use `THROTTLE 1 AXIS (0 TO 100%)` and `THROTTLE 2 AXIS (0 TO 100%)` for the throttle axis.
 
-    !!! tip "To find out which axis is used by your controller you can use the Sensitivity dialog and move the lever to see which axis is moving."
+    Your controller needs to have an axis which can be used as a throttle lever. This axis needs to be mapped to the throttle input of Microsoft Flight Simulator. Most controllers will be mapped automatically by Microsoft Flight Simulator in the default profile.
 
-    ![Throttle Axis Mapping](../../assets/flypad/throttle-calibration/throttle-axis-mapping.png "Throttle Axis Mapping"){loading=lazy}
+    If this is not the case you can find out which controller axis is used by your controller by using the Sensitivity dialog and move the lever to see which axis is moving.
+
+    You can use ^^either^^ of these MSFS inputs:
+
+    - `THROTTLE 1 AXIS (0 TO 100%)` and `THROTTLE 2 AXIS (0 TO 100%)`<br/>(for a throttle with two levers)
+        ![Throttle Axis Mapping](../../assets/flypad/throttle-calibration/throttle-axis-mapping.png "Throttle Axis Mapping"){loading=lazy}
+
+    - `THROTTLE 1 AXIS` and `THROTTLE 2 AXIS`<br/>(for a throttle with two levers)
+        ![Throttle Axis Mapping](../../assets/flypad/throttle-calibration/throttle-axis-mapping-3.png "Throttle Axis Mapping"){loading=lazy}
+
+    - `THROTTLE AXIS`<br/>(for a throttle with one lever)
+        ![Throttle Axis Mapping](../../assets/flypad/throttle-calibration/throttle-axis-mapping-2.png "Throttle Axis Mapping"){loading=lazy}
+
+    Make sure if you move the throttle all they way from lowest setting to highest setting that the white bar underneath the mapping line also moves all the way in both directions.
 
 ??? tip "Test the Movement of the Throttle in the Cockpit Now!"
     The throttle in the cockpit should now move in the correct direction. If not check the `Reverse Axis` box here:
 
     ![Reverse Axis Box](../../assets/flypad/throttle-calibration/reverse-axis-box.png "Reverse Axis Box"){loading=lazy}
 
-    For Controllers with Reverser on Axis (range for the reverse thrust):
-
-    - The cockpit lever should now move linear from `FULL REVERSE` to `TOGA` together with your hardware controller movements.
-
-    For Controllers without Reverser on Axis:
-
-    - The cockpit lever should now move linear from `IDLE` to `TOGA` together with your hardware controller movements.
-
-    !!! warning "Don't worry about detents for now."
+    !!! warning "Don't worry if the throttle does move all the way or moves too far into reverse now. Only the movement direction is important at this point. "
 
 ### 4. Reverser Setup (when not on axis)
 
@@ -133,8 +137,7 @@ If your throttle does not have a range for the reverser there are two ways to ac
 
     - The throttle in the cockpit should now move in the correct direction.
     - The throttle in the cockpit should move to TOGA when you set your controller to full thrust.
-    - The throttle in the cockpit should move to IDLE when you set your controller to idle.
-    - The throttle should move to full reverse if you activate reverse thrust on your controller. See [Reverser Setup](#4-reverser-setup-when-not-on-axis) on how to engage reverser when you throttle does not have a reverser range.
+    - The throttle in the cockpit should move to IDLE or FULL REVERSE when you set your controller to the lowest possible setting.
 
 If the tests are successful please move to the next chapter. Otherwise go through this chapter again to fix any issues.
 
@@ -239,8 +242,8 @@ repeat the process from [Step 4.](#4-start-with-full-reverser-or-idle) for each 
 
     {== Press "Set From Throttle" on both sides for each detent. ==}
 
-    1. Reverse Full
-    2. Reverse Idle
+    1. Reverse Full (if you have reverser on axis)
+    2. Reverse Idle (if you have reverser on axis)
     3. Idle
     4. CLB
     5. FLX
@@ -669,19 +672,17 @@ toga_low = 0.95
 toga_high = 1.00
 ```
 
----
+<!--## Additional Video Guides-->
 
-## Additional Video Guides
+<!--[FBW Tool-Tips | Throttle Calibration](https://www.youtube.com/watch?v=8yZuv2L4jPA&list=PLyIyZ4OtCKhxTSKfpwxxFEROEjAaKta7j){target=new}-->
 
-[FBW Tool-Tips | Throttle Calibration](https://www.youtube.com/watch?v=8yZuv2L4jPA&list=PLyIyZ4OtCKhxTSKfpwxxFEROEjAaKta7j){target=new}
+<!--<iframe width="790" height="450" src="https://www.youtube.com/embed/8yZuv2L4jPA?list=PLyIyZ4OtCKhxTSKfpwxxFEROEjAaKta7j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>-->
 
-<iframe width="790" height="450" src="https://www.youtube.com/embed/8yZuv2L4jPA?list=PLyIyZ4OtCKhxTSKfpwxxFEROEjAaKta7j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+<!--[FBW Tool-Tips | Throttle Calibration](https://www.youtube.com/watch?v=8yZuv2L4jPA&list=PLyIyZ4OtCKhxTSKfpwxxFEROEjAaKta7j){target=new}-->
+<!--[Flybywire A32NX Throttle Calibration Tutorial](https://www.youtube.com/watch?v=9oqFfAMXCcc){target=new}-->
 
-[FBW Tool-Tips | Throttle Calibration](https://www.youtube.com/watch?v=8yZuv2L4jPA&list=PLyIyZ4OtCKhxTSKfpwxxFEROEjAaKta7j){target=new}
-[Flybywire A32NX Throttle Calibration Tutorial](https://www.youtube.com/watch?v=9oqFfAMXCcc){target=new}
-
-<iframe width="790" height="450" src="https://www.youtube.com/embed/9oqFfAMXCcc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-Credits to [British Avgeek](https://www.youtube.com/channel/UCiRbrJu4xfX7uRtZpXdFEdg){target=new}
+<!--<iframe width="790" height="450" src="https://www.youtube.com/embed/9oqFfAMXCcc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>-->
+<!--Credits to [British Avgeek](https://www.youtube.com/channel/UCiRbrJu4xfX7uRtZpXdFEdg){target=new}-->
 
 
 
