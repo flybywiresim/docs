@@ -32,6 +32,14 @@ For guides on utilizing features included with our custom FMS see the [Guides an
 - [x] Improved ND display filters for ARPT, VOR, NDB, WPTs.
 - [x] MCDU FIX INFO page for radials and distance circles on navigation fixes. See [Guides and Information](#guides-and-information) below.
 
+### WX/TER/TCAS
+
+It is important to note that weather, terrain, and TCAS are not available yet with version 1 of our cFMS. Our current aim with these systems is to ensure performance, reliability, and accurate realistic simulation for our users over the default offering from Asobo. While we work on developing and including them in the A32NX, we are not satisfied with how the default code performs with our custom systems leading to a poor user/flight experience.
+
+We believe the benefits provided by our cFMS for performing flights outweighs the temporary outage of WX/TER/TCAS on the development version. We are already hard at work developing our TCAS system and we'll provide more details on it as soon as we can. Weather and terrain prove to be a challenge due to the lack of a native SDK API. We have posted about it on the MSFS forums where it currently sits at the top of the wishlist and Asobo is investigating how to best improve their API.
+
+[Read more about weather and terrain API.](https://forums.flightsimulator.com/t/implement-weather-and-terrain-api-s-for-aircraft-developers-to-implement-accurate-radar-predictive-windshear-egpws-and-metar-wind-uplink/442016){target=new}
+
 ## Guides and Information
 
 - [MCDU Fix Info](./fixinfo.md)
