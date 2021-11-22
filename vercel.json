@@ -1,3 +1,6 @@
 {
+  "github": {
+    "enabled": true
+  },
   "trailingSlash": true
 }
