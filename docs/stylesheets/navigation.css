@@ -21,15 +21,10 @@
 }
 
 /*Announcement Bar*/
-.md-announce {
+.md-banner {
     background-color: var(--md-footer-bg-color--dark);
+    color: var(--md-footer-fg-color);
     overflow: auto;
-    padding-bottom: 0.5rem;
-}
-.md-announce__inner {
-    font-size: .7rem;
-    margin: .6rem auto 0;
-    padding: 0 .8rem;
     text-align: center;
 }
 .md-typeset img, .md-typeset svg {
