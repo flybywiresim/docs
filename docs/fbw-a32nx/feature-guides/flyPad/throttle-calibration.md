@@ -129,7 +129,7 @@ If your throttle does not have a range for the reverser there are two ways to ac
 
 ### 5. Test
 
-!!! bug "TODO: check this for throttles without reverser!"
+!!! bug "TODO: check this for throttles without reverser!!"
 
 ??? tip "Do not go on with the guide without successfully testing the following:"
 
