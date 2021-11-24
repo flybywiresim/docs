@@ -69,48 +69,6 @@ TEMPLATE
 
 -->
 
-??? failure "Not Able to Create or Load Flight Plan"
-    ### Not Able to Create or Load Flight Plan
-
-    !!! tip ""
-        *Affected versions: Stable*
-
-    ^^Description^^
-
-    Sim Update 7 broke flight plan creation and loading in the A32NX.
-
-    ^^Root Cause^^
-
-    Sim Update 7 changed a vital API.
-
-    ^^Possible Solution or Workaround^^
-
-    Update to latest Development version. The issue is fixed there.
-
-    Stable version will be updated with the fix as soon as possible.
-
-??? failure "Bad Performance after Sim Update 7 and Using DX12"
-    ### Poor Performance After Sim Update 7 and Using DX12
-
-    !!! tip ""
-        *Affected versions: Stable, Development, Experimental*
-
-    ^^Description^^
-
-    Using DX12 introduced in Sim Update 7 seems to not work well with our aircraft.
-
-    ^^Root Cause^^
-
-    Investigation ongoing.
-
-    ^^Possible Solution or Workaround^^
-
-    Use of DX11 is recommended for best performance due to an issue with some
-    glass cockpit technologies in the DX12 version of the simulator. This is
-    not an FBW issue and we cannot address it for now - please keep in mind
-    DX12 is officially a "beta feature" and thus should not be used unless
-    you know what you are doing.
-
 ??? failure "Invisible Aircraft"
     ### Invisible Aircraft
 
@@ -143,17 +101,27 @@ TEMPLATE
 
     Information on how to install with the FlyByWire Installer can be found here: [Installation Guide](../installation.md).
 
-??? failure "Printing METAR Reports May Cause a CTD"
-    ### Printing METAR Reports May Cause a CTD
+??? failure "Bad Performance after Sim Update 7 and Using DX12"
+    ### Poor Performance After Sim Update 7 and Using DX12
 
     !!! tip ""
-        *Affected versions: Stable, Development*
+        *Affected versions: Stable, Development, Experimental*
 
-    See [CTD (Crash to Desktop)](#ctd-crash-to-desktop).
+    ^^Description^^
+
+    Using DX12 introduced in Sim Update 7 seems to not work well with our aircraft.
+
+    ^^Root Cause^^
+
+    Investigation ongoing.
 
     ^^Possible Solution or Workaround^^
 
-    Do not use the printer for the time being.
+    Use of DX11 is recommended for best performance due to an issue with some
+    glass cockpit technologies in the DX12 version of the simulator. This is
+    not an FBW issue and we cannot address it for now - please keep in mind
+    DX12 is officially a "beta feature" and thus should not be used unless
+    you know what you are doing.
 
 ??? failure "Mouse Lock Caused by EFB Input Field"
     ### Mouse Lock Caused by EFB Input Field
@@ -311,26 +279,6 @@ TEMPLATE
 
 ---
 
-??? warning "Difficulty Accurately Clicking Controls"
-    ### Difficulty Accurately Clicking Controls
-
-    !!! tip ""
-        *Affected versions: Stable, Development*
-    
-    ^^Description^^
-
-    Click spots for different controls in the virtual cockpit may seem "misaligned" or generally difficult to accurate select.
-
-    ^^Root Cause^^
-
-    Sim Update 7 Issues
-
-    ^^Possible Solution or Workaround^^
-
-    Turn off *Lens Correction* in the MSFS graphics settings.
-
-    ![Lens Correction Settings](https://media.discordapp.net/attachments/785976111875751956/911096088809848852/unknown.png?width=1440&height=633)
-
 ??? warning "WX Radar Does Not Update"
     ### WX Radar Does Not Update
 
@@ -350,6 +298,18 @@ TEMPLATE
     No fix or workaround available at this time.
 
     Turning the WX off and on or TERR ON ND on and off seems to update the WX on the ND.
+
+??? warning "Printing METAR Reports May Cause a CTD"
+    ### Printing METAR Reports May Cause a CTD
+
+    !!! tip ""
+        *Affected versions: Stable, Development*
+
+    See [CTD (Crash to Desktop)](#ctd-crash-to-desktop).
+
+    ^^Possible Solution or Workaround^^
+
+    This issue should be solved in the latest versions of the aircraft. Please report any CTDs when using the printer on our Discord.
 
 ??? warning "Fuel Consumption Too High / Fuel Prediction Too low"
     ### Fuel Consumption
@@ -756,6 +716,26 @@ TEMPLATE
 
     ^^Additional Information^^
 
+??? warning "Difficulty Accurately Clicking Controls"
+    ### Difficulty Accurately Clicking Controls
+
+    !!! tip ""
+        *Affected versions: Stable, Development*
+
+    ^^Description^^
+
+    Click spots for different controls in the virtual cockpit may seem "misaligned" or generally difficult to accurate select.
+
+    ^^Root Cause^^
+
+    Sim Update 7 Issues
+
+    ^^Possible Solution or Workaround^^
+
+    Turn off *Lens Correction* in the MSFS graphics settings.
+
+    ![Lens Correction Settings](https://media.discordapp.net/attachments/785976111875751956/911096088809848852/unknown.png?width=1440&height=633)
+
 ??? warning "Flight Planning and Autoflight Issues"
     ### Flight Planning and Autoflight Issues
 
@@ -911,6 +891,8 @@ TEMPLATE
 
     !!! tip ""
         Unless stated otherwise, all fixed issues are first released on our development version.
+
+    - Not Able to Create or Load Flight Plan after sim update 7 (fixed in all versions)
 
     - AP not Following the Flight Plan (Deadzones Issue) - Fixed with custom autopilot.
 
