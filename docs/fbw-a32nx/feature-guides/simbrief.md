@@ -81,7 +81,7 @@ This will prepare the MCDU to input the flight plan.
 #### ^^Initialize Flight Plan^^
 
 !!! warning "IMPORTANT"
-    Do not select an arrival airport on the MSFS world menu or flight planner. Doing this "initializes" the `FROM/TO` field when loading into your flight which removes the INIT REQ. option from the `INIT A` page. 
+    Do not select an arrival airport on the MSFS world menu or flight planner. Doing this "initializes" the `FROM/TO` field when loading into your flight removing the INIT REQ. option from the `INIT A` page. 
 
 Head over to the `INIT A` page.
 
