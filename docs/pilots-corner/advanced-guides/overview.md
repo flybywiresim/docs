@@ -15,7 +15,9 @@ Each page was reviewed by an A320 type rated pilot and provides accurate informa
 
 Topics:
 
-[MCDU F-PLN Fix Info](fixinfo.md)
+- [Flight Planning](flight-planning/overview.md)
+- [Flight Guidance](flight-guidance/overview.md)
+- [A.Floor](afloor.md)
 
 ---
 

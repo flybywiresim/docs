@@ -124,7 +124,7 @@ This guide will cover these phases:
 
     The MCDU FIX INFO page can be access by selecting the first waypoint on the F-PLN page and pressing LSK 1L "FIX INFO".
 
-    See our feature guide [Fix Info](../advanced-guides/fixinfo.md) for how to use this function.
+    See our feature guide [Fix Info](../advanced-guides/flight-planning/fixinfo.md) for how to use this function.
 
     !!! warning "Available in the Development version!"
 

@@ -3,9 +3,8 @@
 # - Titles for specific pages or subdirectories
 # - Order of pages (otherwise alphabetical order)
 
-title: Advanced Guides
+title: Flight Planning
 nav:
     - Overview: overview.md
-    - flight-planning
-    - flight-guidance
+    - F-PLN: fplan.md
     - ...

@@ -9,7 +9,7 @@ Topics:
 - [Alpha Floor Protection](../../pilots-corner/advanced-guides/afloor.md)
 - [Autopilot and fly-by-wire](autopilot-fbw.md)
 - [Flight Management System](cFMS.md)
-- [Fix Info](../../pilots-corner/advanced-guides/fixinfo.md)
+- [Fix Info](../../pilots-corner/advanced-guides/flight-planning/fixinfo.md)
 - [MCDU Keyboard Support](mcdu-keyboard.md)
 - [SimBrief Integration](simbrief.md)
 - [Throttle Calibration](flyPad/throttle-calibration.md)
