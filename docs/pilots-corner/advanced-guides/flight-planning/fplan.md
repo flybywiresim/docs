@@ -1,2 +1,2 @@
-# MCDU F-PLN
+# Flight Planning using the MCDU
 

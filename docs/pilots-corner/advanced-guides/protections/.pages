@@ -3,8 +3,8 @@
 # - Titles for specific pages or subdirectories
 # - Order of pages (otherwise alphabetical order)
 
-title: Flight Planning
+title: Protections
 nav:
     - Overview: overview.md
-    - Flight Plan: fplan.md
+    - high-aoa.md
     - ...

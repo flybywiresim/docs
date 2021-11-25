@@ -6,7 +6,7 @@ It is not a complete collection of all features but a growing list which is exte
 
 Topics:
 
-- [Alpha Floor Protection](../../pilots-corner/advanced-guides/afloor.md)
+- [Alpha Floor Protection](../../pilots-corner/advanced-guides/protections/high-aoa.md)
 - [Autopilot and fly-by-wire](autopilot-fbw.md)
 - [Flight Management System](cFMS.md)
 - [Fix Info](../../pilots-corner/advanced-guides/flight-planning/fixinfo.md)

@@ -1,4 +1,4 @@
-# FIX INFO
+# Fix Info
 
 !!! warning "Not available in the Stable Version"
 

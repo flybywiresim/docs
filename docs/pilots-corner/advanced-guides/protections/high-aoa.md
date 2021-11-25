@@ -1,4 +1,6 @@
-# Alpha Floor Protection
+# High Angle of Attack Protection
+
+!!! bug "REWRITE TO INCLUDE HIGH AOA"
 
 ## Overview
 

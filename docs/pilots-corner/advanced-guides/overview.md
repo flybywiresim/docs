@@ -2,7 +2,7 @@
 
 Welcome to the A32NX Advanced Guides.
 
-This is a collection of guide and tutorials for real A320 features which go beyond the scope of our beginner guide. This collection will grow over time as we add topics and also add features to the A32NX add-on.
+This is a collection of guides and tutorials for real A320 features which go beyond the scope of our beginner guide. This collection will grow over time as we add topics and also add features to the A32NX add-on.
 
 Each page was reviewed by an A320 type rated pilot and provides accurate information to aircraft operation.
 
@@ -17,7 +17,9 @@ Topics:
 
 - [Flight Planning](flight-planning/overview.md)
 - [Flight Guidance](flight-guidance/overview.md)
-- [A.Floor](afloor.md)
+- [Protections](protections/overview.md)
+- [Flight Phases](flight-phases.md)
+- [Data Management](data-management.md)
 
 ---
 
@@ -29,8 +31,3 @@ For general questions please visit our Discord:
 
 [:fontawesome-brands-discord:{: .discord } - **Discord Link**](https://discord.gg/flybywire){target=new}
 
----
-
-Authors: Awemeter#3110, Cdr_Maverick#6475, Scoopy#1399, Valastiri#8902
-
-Guide reviewed by A320 Pilots.
