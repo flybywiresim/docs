@@ -541,6 +541,40 @@ Click on "Save & Apply".
 
     **Congratulations! You can use the keyboard for throttle control!**
 
+??? tip "Keyboard Special Mapping"
+    ### Keyboard Special Mapping
+
+    To make your live a bit easier using a keyboard for your throttles you
+    can follow the tip described here.
+
+    Create the following key mapping:
+
+    ![Keyboard Throttle Mapping](../../assets/flypad/throttle-calibration/keyboard-throttle-keymapping.png "Keyboard Throttle Mapping"){loading=lazy}
+
+    Of course instead of ++shift+1++ to ++shift+4++ you can use any key or controller buttons you like.
+
+    You can now use the above described method to calibrate your keyboard throttle positions to the correct detents.
+
+    This should look similar to this although the exact number may vary a bit.
+
+    - Press IDLE = ++shift+1++ and check that the throttle is at IDLE
+        ![keyboard-mapping-idle](../../assets/flypad/throttle-calibration/keyboard-mapping-idle.png){loading=lazy}
+
+    - CLB = ++shift+2++
+        ![keyboard-mapping-clb](../../assets/flypad/throttle-calibration/keyboard-mapping-clb.png){loading=lazy}
+
+    - FLX/MCT = ++shift+3++
+        ![keyboard-mapping-flx](../../assets/flypad/throttle-calibration/keyboard-mapping-flx.png){loading=lazy}
+
+    - TOGA = ++shift+4++
+       ![keyboard-mapping-toga](../../assets/flypad/throttle-calibration/keyboard-mapping-toga.png){loading=lazy}
+
+    - REV IDLE = ++shift+1++ plus 3x ++F2++
+        ![keyboard-mapping-revidle](../../assets/flypad/throttle-calibration/keyboard-mapping-revidle.png){loading=lazy}
+
+    - REV FULL = keep ++F2++ pressed
+        ![keyboard-mapping-revfull](../../assets/flypad/throttle-calibration/keyboard-mapping-revfull.png){loading=lazy}
+
 ??? note "Xbox Controller"
     ### Xbox Controller
 
