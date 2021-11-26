@@ -61,8 +61,7 @@ Overspeed Protection triggers the following warnings
 
 ### Recommended Action to Recover
 
-!!! bug "TODO: PILOT INPUT"
-
+- Extend Speed Brake
 - Increase pitch
 - Reduce thrust and/or activate A/THR
 
@@ -88,8 +87,9 @@ The angle of attack is commonly called &alpha; (alpha) which we  will use in the
     - 4: &alpha;~prot~ limit
         - this speed is maintained when side stick is neutral
         - if sidestick if deflected aft this will eventually activate &alpha;~floor~ protection. See below.
-    - 5: &alpha;~max~ is the speed with the maximum angle of attack (AoA) without the aircraft stalling
+    - 5: &alpha;~max~ is the speed with the maximum angle of attack (AoA) the aircraft will allow
         - this speed is maintained when side stick is deflected fully aft
+        - it has a small margin before reaching the stall AoA
 
 !!! block ""
     ![A.FLOOR FMA](../../assets/advanced-guides/protections/alpha-floor-fma.png "A.FLOOR FMA"){loading=lazy align=left width=15%}
@@ -121,7 +121,7 @@ The load factor limit is:
 ### Indication and warnings
 
 !!! block ""
-    ![G LOAD factor warning on ECAM](../../assets/advanced-guides/afloor/gload-factor-ecam.png "G LOAD factor warning on ECAM"){loading=lazy align=left}
+    ![G LOAD factor warning on ECAM](../../assets/advanced-guides/protections/gload-factor-ecam.png "G LOAD factor warning on ECAM"){loading=lazy align=left}
 
     The lower ECAM displays the load factor (G LOAD) in amber, when the value is above 1.4g or below 0.7g for more than 2s.
 
@@ -144,9 +144,9 @@ If these limits are approached, the aircraft pitch and roll rate decrease and st
 ### Indication and warnings
 
 !!! block ""
-    ![Attitude Limits on PFD](../../assets/advanced-guides/afloor/attitude_limits.png "Attitude Limits on PFD"){loading=lazy align=left width=45%}
+    ![Attitude Limits on PFD](../../assets/advanced-guides/protections/attitude_limits.png "Attitude Limits on PFD"){loading=lazy align=left width=45%}
 
-    ![Attitude Limits on PFD](../../assets/advanced-guides/afloor/attitude_limits_2.png "Attitude Limits on PFD"){loading=lazy align=right width=45%}
+    ![Attitude Limits on PFD](../../assets/advanced-guides/protections/attitude_limits_2.png "Attitude Limits on PFD"){loading=lazy align=right width=45%}
 
 - 1: Bank limit indicator at 67°
 - 2: Pitch down limit indicator at -15°

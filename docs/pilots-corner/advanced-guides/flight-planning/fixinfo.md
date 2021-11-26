@@ -13,7 +13,7 @@ These lines or circles are displayed on the ND and also used to compute intercep
 The A32NX has implemented the display of these lines and circles on the ND.
 
 !!! warning ""
-    The computed intercept waypoints and ABEAM functionality are not yet implemented.
+    The computed intercept waypoints and ABEAM functionality are not yet implemented. This page will be updated as soon as these features are implemented.
 
 ## Use Cases
 
@@ -39,7 +39,7 @@ A reference fix (REF FIX) named EGKK is used to show the three different methods
 - Abeam:
     - An Abeam is a line from the REF FIX onto the flight path meeting the flight path at a 90° angle.
 
-![Fix Info Examples](../assets/advanced-guides/fixinfo/fixinfo-example.png "Fix Info Examples")
+![Fix Info Examples](../../assets/advanced-guides/fixinfo/fixinfo-example.png "Fix Info Examples")
 
 After entering a radial, radius or abeam the FMS calculates if an intersection with the flight path is possible and provides the option to create a waypoint into the flight plan.
 
@@ -65,29 +65,29 @@ You will find the option to select the FIX INFO page on the top most waypoint of
 
 For this go to the MCDU F-PLN page and select the top most waypoint with the left LSK (line select key).
 
-![Top most waypoint in F-PLN](../assets/advanced-guides/fixinfo/mcdu-top-wp.png "Top most waypoint in F-PLN"){loading=lazy}
+![Top most waypoint in F-PLN](../../assets/advanced-guides/fixinfo/mcdu-top-wp.png "Top most waypoint in F-PLN"){loading=lazy}
 
 This brings up the lateral revision page for this waypoint and also displays the FIX INFO page option. Press the right LSK next to `FIX INFO`
 
-![Lateral Revision page](../assets/advanced-guides/fixinfo/mcdu-lat-rev.png "Lateral Revision page"){loading=lazy}
+![Lateral Revision page](../../assets/advanced-guides/fixinfo/mcdu-lat-rev.png "Lateral Revision page"){loading=lazy}
 
 ### 2) Enter a Navigation Fix
 
-![Enter a navigation fix](../assets/advanced-guides/fixinfo/mcdu-fixinfo-enterfix.png "Enter a navigation fix"){loading=lazy}
+![Enter a navigation fix](../../assets/advanced-guides/fixinfo/mcdu-fixinfo-enterfix.png "Enter a navigation fix"){loading=lazy}
 
 ### 3) Enter Radial or Radius
 
-![Fix Info page](../assets/advanced-guides/fixinfo/mcdu-fixinfo.png "Fix Info page"){loading=lazy}
+![Fix Info page](../../assets/advanced-guides/fixinfo/mcdu-fixinfo.png "Fix Info page"){loading=lazy}
 
 With radius 63NM around the waypoint ABTUM:
 
-![Fix Info with radius set](../assets/advanced-guides/fixinfo/mcdu-fixinfo-radius.png "Fix Info with radius set"){loading=lazy}
+![Fix Info with radius set](../../assets/advanced-guides/fixinfo/mcdu-fixinfo-radius.png "Fix Info with radius set"){loading=lazy}
 
 ### 4) Additional Fix Info Pages
 
 You can define up to 4 different fixes by selecting the horizontal skew navigation button to go to the next page.
 
-![Go to previous or next page](../assets/advanced-guides/fixinfo/mcdu-fixinfo-pages.png "Go to previous or next page"){loading=lazy}
+![Go to previous or next page](../../assets/advanced-guides/fixinfo/mcdu-fixinfo-pages.png "Go to previous or next page"){loading=lazy}
 
 ## Examples
 
@@ -97,7 +97,7 @@ FL340 with arrival TEBRA2G into Gatwick EGKK.
 
 A descent is required at 63NM before ABTUM as calculated by the flyPad Top of Descent calculator.
 
-![EGKK STAR TEBRA2G](../assets/advanced-guides/fixinfo/navigraph-egkk-tebra2g.png "EGKK STAR TEBRA2G"){loading=lazy}
+![EGKK STAR TEBRA2G](../../assets/advanced-guides/fixinfo/navigraph-egkk-tebra2g.png "EGKK STAR TEBRA2G"){loading=lazy}
 <br/><sub>*Copyright © 2021 Navigraph / Jeppesen<br/>
 "Navigraph Charts are intended for flight simulation use only, not for navigational use."*</sub>
 
@@ -108,22 +108,22 @@ A descent is required at 63NM before ABTUM as calculated by the flyPad Top of De
 </style>
 
 !!! block ""
-    ![Fix Info with radius set](../assets/advanced-guides/fixinfo/mcdu-fixinfo-radius.png "Fix Info with radius set"){loading=lazy width=48%}
-    ![ABTUM 63NM circle](../assets/advanced-guides/fixinfo/nd-abtum-circle.png "ABTUM 63NM circle"){loading=lazy width=48%}
+    ![Fix Info with radius set](../../assets/advanced-guides/fixinfo/mcdu-fixinfo-radius.png "Fix Info with radius set"){loading=lazy width=48%}
+    ![ABTUM 63NM circle](../../assets/advanced-guides/fixinfo/nd-abtum-circle.png "ABTUM 63NM circle"){loading=lazy width=48%}
 
 ### ILS Localizer Extension Line
 
 To visualize the ILS localizer for the approach the runway fix can be used to display a radial line corresponding to the ILS track course.
 
 !!! block ""
-    ![Fix Info Page EGKK26L](../assets/advanced-guides/fixinfo/mcdu-fixinfo-egkk26l.png "Fix Info Page EGKK26L"){loading=lazy width=48%}
-    ![Localizer Line for EGKK 26L](../assets/advanced-guides/fixinfo/nd-egkk26l-locline.png "Localizer Line for EGKK 26L"){loading=lazy width=48%}
+    ![Fix Info Page EGKK26L](../../assets/advanced-guides/fixinfo/mcdu-fixinfo-egkk26l.png "Fix Info Page EGKK26L"){loading=lazy width=48%}
+    ![Localizer Line for EGKK 26L](../../assets/advanced-guides/fixinfo/nd-egkk26l-locline.png "Localizer Line for EGKK 26L"){loading=lazy width=48%}
 
 ### VOR Intercept in SID
 
 In this scenario we have a departure on 36R in KMCO (Orlando) with the ORLANDO 4 DEPARTURE SID (ORLA4). This departure expects ATC to assign headings after departure to intercept the filed/assigned route.
 
-![KMCO OLRA4 SID](../assets/advanced-guides/fixinfo/navigraph-kmco-orla4.png "KMCO OLRA4 SID")
+![KMCO OLRA4 SID](../../assets/advanced-guides/fixinfo/navigraph-kmco-orla4.png "KMCO OLRA4 SID")
 <br/><sub>*Copyright © 2021 Navigraph / Jeppesen<br/>
 "Navigraph Charts are intended for flight simulation use only, not for navigational use."*</sub>
 
@@ -136,11 +136,11 @@ As you can read in the Initial Climb description for 36R we need to meet certain
 To visualize these points we can use the fix info page to define a 2NM distance circle and 2 lines for R155 and R090/270 on the ND.
 
 !!! block ""
-![Fix Info ORL](../assets/advanced-guides/fixinfo/mcdu-orl-fixinfo1.png "Fix Info ORL"){loading=lazy width=48%}
-![Fix Info ORL](../assets/advanced-guides/fixinfo/mcdu-orl-fixinfo2.png "Fix Info ORL"){loading=lazy width=48%}
+![Fix Info ORL](../../assets/advanced-guides/fixinfo/mcdu-orl-fixinfo1.png "Fix Info ORL"){loading=lazy width=48%}
+![Fix Info ORL](../../assets/advanced-guides/fixinfo/mcdu-orl-fixinfo2.png "Fix Info ORL"){loading=lazy width=48%}
 
 !!! block ""
-![Fix Info ORL](../assets/advanced-guides/fixinfo/nd-orl-fixinfo1.png "Fix Info ORL"){loading=lazy width=48%}
-![Fix Info ORL](../assets/advanced-guides/fixinfo/nd-orl-fixinfo2.png "Fix Info ORL"){loading=lazy width=48%}
+![Fix Info ORL](../../assets/advanced-guides/fixinfo/nd-orl-fixinfo1.png "Fix Info ORL"){loading=lazy width=48%}
+![Fix Info ORL](../../assets/advanced-guides/fixinfo/nd-orl-fixinfo2.png "Fix Info ORL"){loading=lazy width=48%}
 
 

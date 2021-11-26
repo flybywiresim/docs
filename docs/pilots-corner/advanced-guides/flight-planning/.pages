@@ -6,5 +6,6 @@
 title: Flight Planning
 nav:
 #    - Overview: overview.md
+    - fixinfo.md
 #    - Flight Plan: fplan.md
 #    - ...
