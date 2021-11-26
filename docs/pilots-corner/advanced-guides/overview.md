@@ -15,10 +15,10 @@ Each page was reviewed by an A320 type rated pilot and provides accurate informa
 
 Topics:
 
-<!--- [Flight Planning](flight-planning/overview.md)-->
+- [Flight Phases](flight-phases.md)
+- [Flight Planning](flight-planning/fixinfo.md)
 <!--- [Flight Guidance](flight-guidance/overview.md)-->
 - [Protections](protections/overview.md)
-<!--- [Flight Phases](flight-phases.md)-->
 <!--- [Data Management](data-management.md)-->
 
 ---
