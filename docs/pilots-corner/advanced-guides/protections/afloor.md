@@ -1,6 +1,4 @@
-# High Angle of Attack Protection
-
-!!! bug "REWRITE TO INCLUDE HIGH AOA"
+# Alpha Floor and TOGA LK
 
 ## Overview
 
@@ -12,7 +10,7 @@ This feature is part of our custom autopilot and autothrust system - available i
 
 ### Trigger Conditions
 
-When the angle of attack and airspeed of the aircraft reaches the alpha protection range indicated by the yellow and black band on the PFD speed page. Simply put A.FlOOR will trigger when approaching a stall in the aircraft's current configuration.
+When the angle of attack and airspeed of the aircraft reaches the alpha floor protection range indicated by the yellow and black band on the PFD speed page. Simply put A.FlOOR will trigger when approaching a stall in the aircraft's current configuration.
 
 !!! danger "Reactivation of autopilot will not be possible when in A.FLOOR conditions"
 
@@ -20,7 +18,7 @@ When the angle of attack and airspeed of the aircraft reaches the alpha protecti
 
 When A.FLOOR protection is active this will be indicated in the left most FMA on the PFD in green with a flashing amber box around it.
 
-![A.FLOOR](../assets/advanced-guides/afloor/afloor1.png){width=80% loading=lazy}
+![A.FLOOR](../../assets/advanced-guides/protections/afloor/afloor1.png){width=80% loading=lazy}
 
 ### Resolving A.FLOOR
 
@@ -34,7 +32,7 @@ To recover from the A.FLOOR condition and prevent further stall conditions, manu
 
 This indication typically appears after triggering A.FLOOR protection where TOGA (take off go around) thrust has been set automatically and "locked". This autothurst mode will be kept active until the crew has safely resolved the previous A.FLOOR condition.
 
-![tglk](../assets/feature-guides/tglk1.png){width=80% loading=lazy}
+![tglk](../../assets/advanced-guides/protections/afloor/tglk1.png){width=80% loading=lazy}
 
 ### Resolving TOGA LK
 
