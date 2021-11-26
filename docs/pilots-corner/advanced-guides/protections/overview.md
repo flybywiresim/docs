@@ -99,7 +99,7 @@ The angle of attack is commonly called &alpha; (alpha) which we  will use in the
 ### Protective Actions
 
 - Automatic AP disconnection / AP cannot be activated
-- If &alpha; becomes greater than &alpha;~prot~ then angel of attack wiull become will become proportional to stick deflection. Autotrim will stop which results in a nose-down tendency.
+- If &alpha; becomes greater than &alpha;~prot~ then angel of attack will become proportional to stick deflection. Autotrim will stop which results in a nose-down tendency.
 - If &alpha; reaches &alpha;~floor~ the autothrust system will apply go-around thrust.
 - &alpha;~max~ cannot be exceeded even with the pilot pulling the stick full backward. In other words the cannot be stalled in Normal Law by the pilot's pitch up stick input.
 

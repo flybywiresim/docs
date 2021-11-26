@@ -6,7 +6,8 @@
 title: Advanced Guides
 nav:
     - Overview: overview.md
+    - flight-phases.md
     - flight-planning
-#    - flight-guidance
+    #    - flight-guidance
     - protections
 #    - ...
