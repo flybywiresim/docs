@@ -56,7 +56,14 @@ For guides on utilizing features included with our custom FMS see the [Guides an
 
 ### Flight Plan Sync (MSFS ATC + VFR Map)
 
-Our custom FMS provides better accuracy and features over the default offering in MSFS which results in issues syncing the flight plan from the MCDU back into the simulator. On routes with significant differences from your flight plan in our FMS (See ND plan mode), don't expect it to go too well.
+Our custom FMS provides better accuracy and features over the default offering in MSFS which results in issues syncing the flight plan from the MCDU back into the simulator. Flight plans with complex routing may have significant issues if synced backwards to MSFS's simplified flight planning. This will always be difficult unless Asobo improves the built-in flight planner. Other aircraft with complex flight planning capabilities can share this limitation.
+
+!!! warning "VFR Map"
+    We'd like to stress that the VFR Map is not supported and we don't recommend using it - the A320neo is an IFR aircraft after all.
+
+    When flight plan sync is enabled you will not see the proper sequence of waypoints or pathing between waypoints. 
+
+    **The VFR Map will attempt to you show you what the simulator's built-in flight planner produces**, which is not an accurate representation of the LNAV in our cFMS. In the future we may replicate a secondary route visualization (apart from the PLAN mode on the ND) feature in the EFB.
 
 As noted above ^^*your mileage may vary*^^ but we have provided a feature on the EFB that helps sync the flight plan so MSFS ATC can read it. By default, this feature is set to `None` on the EFB.
 
