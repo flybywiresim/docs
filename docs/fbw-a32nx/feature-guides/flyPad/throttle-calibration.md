@@ -569,10 +569,10 @@ Click on "Save & Apply".
     - TOGA = ++shift+4++
        ![keyboard-mapping-toga](../../assets/flypad/throttle-calibration/keyboard-mapping-toga.png){loading=lazy}
 
-    - REV IDLE = ++shift+1++ plus 3x ++F2++
+    - REV IDLE = from IDLE position press 3 times ++F2++
         ![keyboard-mapping-revidle](../../assets/flypad/throttle-calibration/keyboard-mapping-revidle.png){loading=lazy}
 
-    - REV FULL = keep ++F2++ pressed
+    - REV FULL = from IDLE position keep ++F2++ pressed
         ![keyboard-mapping-revfull](../../assets/flypad/throttle-calibration/keyboard-mapping-revfull.png){loading=lazy}
 
 ??? note "Xbox Controller"
