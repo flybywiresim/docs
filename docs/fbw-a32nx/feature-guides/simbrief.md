@@ -47,6 +47,8 @@ See [flyPad Guide - Load from simBrief](flyPad/dashboard.md#load-from-simbrief)
 
 See [flyPad Guide - OFP](flyPad/dispatch.md#ofp-page) on how to view the simBrief Operational Flight Plan.
 
+See [Fuel and Weight](loading-fuel-weight.md) on how to load fuel and payload.
+
 ---
 
 ## Using the FMS (MCDU) and simBrief Integration
@@ -93,101 +95,6 @@ This will load your flight plan from simBrief directly into the MCDU
 
 To learn how to set up the MCDU you can read the [**^^F^^**LIGHT PLAN](../../pilots-corner/beginner-guide/preparing-mcdu.md#flight-plan) section in our beginner's guide.
 
-### Loading Fuel and Weight
+### Fuel and Weight
 
-!!! info "Customizing Fuel and Weight"
-
-    **NOTE:** There may be slight differences when using our Stable version vs. Development verson. Additionally these settings may be moved to our EFB in the future.    
-
-    You can adjust the amount of fuel and weight manually on these pages. Type in your desired amounts and press the relevant LSK to input it into that field. 
-
-    When you are happy with your changes press `LOAD` using LSK5L to load your custom fuel and weight.
-
-    !!! danger "Please do not touch values in MSFS Fuel & Weights window in the toolbar."
-
-As described in the previous section return to the AOC menu in MCDU menu.
-
-* Click on `MCDU MENU`
-* Click on `ATSU`
-* Click on `AOC MENU`
-* Click on `PERF/W&B`
-
-#### ^^Fuel^^
-
-!!! info "flyPad Fuel Loading"
-    You may also perform fuel loading via our EFB which has a great UI to see the status of fuel tanks and other options. [Guide Here](flyPad/dispatch.md#fuel-page)
-
-![MCDU ATSU AOC PERF/W&B](../../fbw-a32nx/assets/feature-guides/simbrief/mcdu3.png "MCDU ATSU AOC PERF/W&B"){loading=lazy}
-
-You are presented with the `Fuel Page` first then the `Weights and Balance` page. On the first page you can automatically load your fuel.
-
-* Press LSK5L to instantly load your planned simBrief fuel. (The load button will flash momentarily).
-* You can verify fuel has loaded by looking at your upper ECAM FOB.
-
-Using the horizontal slew keys you can switch to the weights and balance page.
-
-#### ^^Weights and Balance^^
-
-<style>
-.md-typeset details {
-    display: flow-root;
-    overflow: visible;
-    padding-top: 0;
-    font-size: 0.8rem;
-}
-.md-typeset .admonition-title, .md-typeset summary {
-    background-color: rgba(68,138,255,.1);
-    border-left: .2rem solid #448aff;
-    font-weight: 700;
-    font-size: 0.7rem;
-    margin: 0 -.6rem 0 -.8rem;
-    padding: .4rem .6rem .4rem 2rem;
-    position: relative;
-}
-</style>
-
-In our development version we have introduced a new flight model paired with a new weight and balance payload method that incorporates seat rows and the correct center of gravity. Please use the correct instructions for your corresponding installed version.
-
-??? info "Development"
-    !!! block ""
-        ![W&B 2](../assets/feature-guides/simbrief/wb2.png){align=right width=50% loading=lazy}
-
-        Once on `W&B` page (2/2) it should look like the sample image even if you have pressed OFP REQUEST in a previous section.
-
-    !!! block ""
-        ![W&B 3](../assets/feature-guides/simbrief/wb3.png){align=right width=50% loading=lazy}
-
-        You will have to request OFP again for this specific page and your `W&B` page will show total passengers and passengers per row awaiting boarding.
-
-    You can now start boarding by selecting LSK6L (the indication will change from `START` to `STOP` in yellow) and watch as the passengers board the aircraft. 
-
-    ==**You do not need to remain on this page as boarding continues.**==
-
-    ![W&B 4](../assets/feature-guides/simbrief/wb4.png){width=45%} ![W&B 5](../assets/feature-guides/simbrief/wb5.png){width=45% loading=lazy}
-
-    Once boarding has completed all rows and total pax should turn green and the boarding indication returns to `START`. Verify your ZFW on this screen and check your lower ECAM that GW has been updated. 
-
-    ![W&B 6](../assets/feature-guides/simbrief/wb6.png){width=90% loading=lazy}
-
-    #### ^^Deboard Passengers^^
-
-    !!! block ""
-        ![deboarding](../assets/feature-guides/simbrief/deboarding.png){align=right width=50% loading=lazy}
-
-        Once you have completed your flight you can opt to deboard passengers from the aircraft. Return to the AOC MENU and head to page 2 of `W&B`. 
-
-        Type in 0 into the scratch pad so your page looks like the image.
-
-    !!! block ""    
-        ![deboarding 2](../assets/feature-guides/simbrief/deboarding2.png){align=right width=50% loading=lazy}
-
-        Select `LSK1L` to input the 0 passenger value into the TOTAL PAX field on this page. Your page should now look like the sample to the right.
-
-        Simply press START to begin the deboard process.
-
-??? info "Stable"
-    Once on the `W&B` page (2/2) you can adjust payload here or accept the numbers provided to you via your simBrief OFP.
-
-    - Press LSK5L to instantly load your planned payload and pax.
-    - You can verify the weight has changed by looking at the lower ECAM towards the lower right-hand side.
-
+See [Fuel and Weight](loading-fuel-weight.md)

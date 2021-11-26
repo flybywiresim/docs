@@ -64,6 +64,7 @@ plugins:
         'reported-issues.md': 'fbw-a32nx/support/reported-issues.md'
         'support.md': 'fbw-a32nx/support/index.md'
         'discord-bot.md': 'dev-corner/development-projects/discord-bot.md'
+        'airframe.md': 'https://docs.flybywiresim.com/fbw-a32nx/installation/#simbrief-airframe'
         # Release Notes Permalink
         'latest-release.md': 'release-notes/v073.md'
         # ########################################
@@ -108,6 +109,7 @@ markdown_extensions:
   - pymdownx.tabbed # Content tabs
   - pymdownx.details # Additional features to admonition
   - pymdownx.caret # Formatting Extension
+  - pymdownx.critic # Alternate Formatting Extension
   - pymdownx.mark # Formatting Extension
   - pymdownx.tilde # Formatting Extension
   - pymdownx.keys # Visual keyboard keys extension

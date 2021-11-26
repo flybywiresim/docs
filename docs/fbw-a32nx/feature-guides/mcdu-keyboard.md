@@ -27,7 +27,7 @@ What this feature allows:
 
 To begin using your keyboard with the MCDU you must first enable the function within in the EFB settings:
 
-![EFB Settings for MCDU Keyboard](../assets/mcdu-kb/efb-settings-simoptions-mcdukb.jpg "EFB Settings for MCDU Keyboard"){loading=lazy}
+![EFB Settings for MCDU Keyboard](../assets/mcdu-kb/efb-settings-simoptions-mcdukb.png "EFB Settings for MCDU Keyboard"){loading=lazy}
 
 Once you have completed the above steps simply click on the MCDU screen to put it into focus. The MCDU will display a visual indicator when input is ready to be accepted. The scratchpad should be highlighted, and the title will be highlighted in cyan as well.
 
@@ -75,7 +75,7 @@ Return to the EFB settings page and adjust the `MCDU Focus Timeout` setting.
 
 Sample Image:
 
-![EFB Settings for MCDU Keyboard](../assets/mcdu-kb/efb-settings-simoptions-mcdukb.jpg "EFB Settings for MCDU Keyboard"){loading=lazy}
+![EFB Settings for MCDU Keyboard](../assets/mcdu-kb/efb-settings-simoptions-mcdukb.png "EFB Settings for MCDU Keyboard"){loading=lazy}
 
 ---
 
