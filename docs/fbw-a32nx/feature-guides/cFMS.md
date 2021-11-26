@@ -44,7 +44,7 @@ For guides on utilizing features included with our custom FMS see the [Guides an
 - Only 3 Leg Types/1 Transition supported at this time. Although these cover most of the important types there might be some issues with other leg types during flight guidance. We will be significantly improving this in future updates.
 - Rendering of flight path on the ND of terminal procedure legs may be glitched or incorrect during cruise. - [See Special Notes](../feature-guides/cFMS.md#flight-path-rendering).
 - Rendering of flight path on the ND of legs will be glitched or incorrect if you are flying faster than the appropriate/correct speed. - [See Special Notes](../feature-guides/cFMS.md#flight-path-rendering).
-- Syncing the aircraft flight plan with the sim's flight plan for default ATC and VFR map is not 100% supported. - [See Special Notes](../feature-guides/cFMS.md#flight-plan-sync-and-msfs-atc).
+- Syncing the aircraft flight plan with the sim's flight plan for default ATC and VFR map is not 100% supported. - [See Special Notes](../feature-guides/cFMS.md#flight-plan-sync-msfs-atc--vfr-map).
 - Defining both FROM/TO in the world map shows in the FROM/TO INIT A page but does not populate the airport list in our METAR (AOC) integration.
 - DIRECT-TO: Turning point is not correctly implemented yet.
 - ETA in F-PLN A on the MCDU may not be 100% accurate.
