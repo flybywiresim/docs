@@ -559,7 +559,7 @@ Click on "Save & Apply".
 
     Of course instead of ++shift+1++ to ++shift+4++ you can use any key or controller buttons you like.
 
-    You can now use the above described method to calibrate your keyboard throttle positions to the correct detents.
+    You can now use the [above](#a32nx-flypad-efb-detent-calibration) described method to calibrate your keyboard throttle positions to the correct detents.
 
     This should look similar to this although the exact number may vary a bit.
 
