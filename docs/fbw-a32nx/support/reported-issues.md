@@ -173,28 +173,6 @@ TEMPLATE
     ^^Additional Information^^
     Also see [Unwanted behavior - UTF8](#unwanted-behavior---utf8)
 
-??? failure "Ailerons Not Working When Using the Keyboard"
-    ### Ailerons Not Working When Using the Keyboard
-
-    !!! tip ""
-        *Affected versions: Stable, Development*
-
-        **Note:** This is reported on our [Autopilot / Fly-By-Wire Page](../feature-guides/autopilot-fbw.md) and duplicated here for visibility.
-
-    ^^Description^^
-
-    The aircraft's ailerons can't be controlled with keyboard or button inputs. Therefore the aircraft can't be rolled for left or right turns.
-
-    ^^Root Cause^^
-
-    There is currently an issue with the associated events and there is **currently no way to solve it**. We highly recommend using a controller with an axis assigned to use the plane.
-
-    ^^Possible Solution or Workaround^^
-
-    - A possible workaround is by using a tool like FSUIPC. Assign the correct events to the keys you want to use. The events that work are (mind the 's' behind aileron):
-        - AILERONS_LEFT
-        - AILERONS_RIGHT
-
 ??? failure "Nose Wheel Steering Locked (NW STRG DISC)"
     ### Nose Wheel Steering Locked (NW STRG DISC)
 
@@ -299,17 +277,25 @@ TEMPLATE
 
     Turning the WX off and on or TERR ON ND on and off seems to update the WX on the ND.
 
-??? warning "Printing METAR Reports May Cause a CTD"
-    ### Printing METAR Reports May Cause a CTD
+??? warning "Ailerons Not Working When Using the Keyboard"
+    ### Ailerons Not Working When Using the Keyboard
 
     !!! tip ""
-        *Affected versions: Stable, Development*
+        *Affected versions: Stable*
 
-    See [CTD (Crash to Desktop)](#ctd-crash-to-desktop).
+        **Note:** This is reported on our [Autopilot / Fly-By-Wire Page](../feature-guides/autopilot-fbw.md) and duplicated here for visibility.
+
+    ^^Description^^
+
+    The aircraft's ailerons can't be controlled with keyboard or button inputs. Therefore the aircraft can't be rolled for left or right turns.
+
+    ^^Root Cause^^
+
+    There is currently an issue with the associated events. We highly recommend using a controller with an axis assigned to use the plane.
 
     ^^Possible Solution or Workaround^^
 
-    This issue should be solved in the latest versions of the aircraft. Please report any CTDs when using the printer on our Discord.
+    - Use the latest Development version where we have introduced a workaround for this issue. ( [#6222](https://github.com/flybywiresim/a32nx/pull/6222) )
 
 ??? warning "Fuel Consumption Too High / Fuel Prediction Too low"
     ### Fuel Consumption
@@ -891,6 +877,8 @@ TEMPLATE
 
     !!! tip ""
         Unless stated otherwise, all fixed issues are first released on our development version.
+
+    - Printing METAR causes CTD
 
     - Not Able to Create or Load Flight Plan after sim update 7 (fixed in all versions)
 
