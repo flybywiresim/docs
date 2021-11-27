@@ -55,8 +55,11 @@ plugins:
         # Folder: /a32nx-devs/
         'a32nx-dev/overview.md': 'dev-corner/development-guide.md'
         'a32nx-dev/texture-changes.md': 'dev-corner/texture-changes.md'
+        # TEMP redirects
         # A.FLOOR
         'fbw-a32nx/feature-guides/afloor.md': 'pilots-corner/advanced-guides/protections/afloor.md'
+        # Fix Info
+        'fbw-a32nx/feature-guides/fixinfo.md': 'pilots-corner/advanced-guides/flight-planning/fixinfo.md'
 
         # additional redirects:
         'fbw-a32nx/feature-guides/throttle-calibration.md': 'fbw-a32nx/feature-guides/flyPad/throttle-calibration.md'
