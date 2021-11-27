@@ -550,8 +550,8 @@ Click on "Save & Apply".
 ??? tip "Keyboard Special Mapping"
     ### Keyboard Special Mapping
 
-    To make your live a bit easier using a keyboard for your throttles you
-    can follow the tip described here.
+    To make your life a bit easier when using a keyboard for your throttles, you
+    can follow the tips described here.
 
     Create the following key mapping:
 
