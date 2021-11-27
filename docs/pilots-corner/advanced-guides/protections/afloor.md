@@ -38,7 +38,7 @@ This indication typically appears after triggering A.FLOOR protection where TOGA
 
 Resolution of TOGA LK is quite simple and accomplished in a few easy steps.
 
-1. Disconnect the autothrust on the flight control unit [(FCU)](../../pilots-corner/a32nx-briefing/flight-deck/glareshield/fcu.md).
+1. Disconnect the autothrust on the flight control unit [(FCU)](../../../pilots-corner/a32nx-briefing/flight-deck/glareshield/fcu.md).
 2. Set the new position for the thrust levers (or return to CLB detent).
 3. Reactivate autothrust.
 
