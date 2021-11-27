@@ -93,6 +93,12 @@ Check that the axis mappings are correct.
 
     Make sure if you move the throttle all they way from lowest setting to highest setting that the white bar underneath the mapping line also moves all the way in both directions.
 
+??? tip "You can't see all options? Try this!"
+
+    Make sure to set the filter to show all options like this:
+
+    ![msfs-controller-options-filter](../../assets/flypad/throttle-calibration/msfs-controller-options-filter.png)
+
 ??? tip "Test the Movement of the Throttle in the Cockpit Now!"
     The throttle in the cockpit should now move in the correct direction. If not check the `Reverse Axis` box here:
 
@@ -575,6 +581,8 @@ Click on "Save & Apply".
     - REV FULL = from IDLE position keep ++F2++ pressed
         ![keyboard-mapping-revfull](../../assets/flypad/throttle-calibration/keyboard-mapping-revfull.png){loading=lazy}
 
+    **Congratulations! You can use the keyboard for throttle control!**
+
 ??? note "Xbox Controller"
     ### Xbox Controller
 
@@ -582,9 +590,11 @@ Click on "Save & Apply".
 
     ==No calibration required for the Xbox controller - read below!==
 
+
     The Xbox-Controller (or any other game controller) is very similar to controlling the throttle with the keyboard. It uses buttons to increase and decrease the throttles.
 
     Therefore read the [Keyboard](#keyboard) section section but instead of ++f2++ or ++f3++ use the buttons mapped to throttle increase and decrease on your controller.
+    See also the [Keyboard Special Mapping](#keyboard-special-mapping) as this also works for the Xbox buttons.
 
     For the Xbox-Controller the default buttons are:
 
