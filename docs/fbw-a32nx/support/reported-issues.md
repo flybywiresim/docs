@@ -297,18 +297,6 @@ TEMPLATE
 
     - Use the latest Development version where we have introduced a workaround for this issue. ( [#6222](https://github.com/flybywiresim/a32nx/pull/6222) )
 
-??? warning "Printing METAR Reports May Cause a CTD"
-    ### Printing METAR Reports May Cause a CTD
-
-    !!! tip ""
-        *Affected versions: Stable*
-
-    See [CTD (Crash to Desktop)](#ctd-crash-to-desktop).
-
-    ^^Possible Solution or Workaround^^
-
-    This issue should be solved in the latest versions of the aircraft. Please report any CTDs when using the printer on our Discord.
-
 ??? warning "Fuel Consumption Too High / Fuel Prediction Too low"
     ### Fuel Consumption
 
@@ -889,6 +877,8 @@ TEMPLATE
 
     !!! tip ""
         Unless stated otherwise, all fixed issues are first released on our development version.
+
+    - Printing METAR causes CTD
 
     - Not Able to Create or Load Flight Plan after sim update 7 (fixed in all versions)
 
