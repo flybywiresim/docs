@@ -17,7 +17,7 @@ define the vertical profile.
 
 Two types of autopilot and flight director modes are available to guide the aircraft:
 
-### Managed modes:
+### Managed modes
 
 When the aircraft is using managed targets, the Flight Management and Guidance System (FMGS) guides it along lateral and vertical flight paths and speed profiles computed by the Flight Management function (FM) from data in the MCDU. FM manages the guidance targets.
 

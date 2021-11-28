@@ -53,7 +53,7 @@ The APPROACH phase starts when the pilot activates and confirms the approach on 
 
 ## GO-AROUND Phase
 
-The GO-AROUND phase is activated when the thrust levers are moved to the TOGA position. The FMS then guides the aircraft through the missed approach procedure.
+The GO-AROUND phase is activated when the thrust levers are moved to the TOGA position while in the APPROACH phase. The FMS then guides the aircraft through the missed approach procedure.
 
 To return to the APPROACH flight phase, activate and confirm the APPROACH phase on the PERF GO-AROUND page.
 

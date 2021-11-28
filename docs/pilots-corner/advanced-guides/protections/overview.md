@@ -154,6 +154,8 @@ If these limits are approached, the aircraft pitch and roll rate decrease and st
 
 ## Windshear Protection
 
+!!! warning "Not available in the A32NX on Microsoft Flight Simulator"
+
 Windshear Protection is available during take off and approach phases when:
 
 - at takeoff 3s after lift off up to 1.300ft RA
@@ -162,8 +164,8 @@ Windshear Protection is available during take off and approach phases when:
 
 ### Indication and warnings
 
-‐ Visual “WINDSHEAR” red message displayed on both PFDs for a minimum of 15s.
-‐ Aural synthetic voice announcing “WINDSHEAR” three times.
+- Visual “WINDSHEAR” red message displayed on both PFDs for a minimum of 15s.
+- Aural synthetic voice announcing “WINDSHEAR” three times.
 
 ### Recommended Action to Recover
 
@@ -171,6 +173,8 @@ Windshear Protection is available during take off and approach phases when:
 - Pilot must set TOGa thrust immediately and follow the FD pitch order to execute optimum escape maneuver.
 
 ## Low Energy Protection
+
+!!! warning "Not available in the A32NX on Microsoft Flight Simulator"
 
 If the aircraft’s energy level is going below a threshold an aural low-energy “SPEED SPEED SPEED” alert warns the pilot to increase thrust, in order to regain a positive flight path angle through pitch control.
 
