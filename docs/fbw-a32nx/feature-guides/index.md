@@ -8,7 +8,6 @@ Topics:
 
 - [Autopilot and fly-by-wire](autopilot-fbw.md)
 - [Flight Management System](cFMS.md)
-- [Fix Info](../../pilots-corner/advanced-guides/flight-planning/fixinfo.md)
 - [Fuel and Weight](loading-fuel-weight.md)
 - [MCDU Keyboard Support](mcdu-keyboard.md)
 - [SimBrief Integration](simbrief.md)
