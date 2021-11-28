@@ -121,7 +121,7 @@ The work folder can be found here:
 
 ??? info "Flight controls are not working after reload of the sim or airplane"
 
-    Ensure that no `SimConnect.cfg` is in the Documents folder of your user profile. An older version of Kinetic Assistant installed that file and it's causing issues with SimConnect connection between our custom systems and the sim. 
+    Ensure that no `SimConnect.cfg` is in the Documents folder of your user profile. An older version of Kinetic Assistant installed that file and it's causing issues with SimConnect connection between our custom systems and the sim.
 
 ??? info "Autopilot is oscillating on approach or in flight"
 
@@ -141,23 +141,12 @@ The work folder can be found here:
 
     For the time being we do not recommend using it.
 
-??? info "Ailerons are not working when using the keyboard"
-
-    There is currently an issue with the associated events and there is currently no way to solve it.
-
-    We highly recommend using a controller with an axis assigned to use the plane.
-    
-    A possible workaround is by using a tool like FSUIPC. Assign the correct events to the keys you want to use. The events that work are (mind the 's' behind aileron):
-    
-    * AILERONS_LEFT
-    * AILERONS_RIGHT
-
 ??? info "Use RUDDER AXIS PLUS and RUDDER AXIS MINUS binding with normal axis instead of Xbox-Controller"
 
     In MSFS there is a special binding for rudder available for use with Xbox-Controllers (it's bound by default). This binding is Rudder Axis Plus and Rudder Axis Minus. In case of a Xbox-Controller the rudder in centered when both axis (Plus and Minus) are in the middle of the range. When using a "normal" axis with those two bindings this can cause issues because usual axes use the full range.
-    
+
     In order to enable the use with normal axes, the following needs to be done.
-    
+
     Put a file named `ModelConfiguration.ini` into the work folder (see "Work folder location" on this page) that has the following option set to true:
     ```
     [flight_controls]
@@ -170,10 +159,9 @@ The work folder can be found here:
 
 #### Requirements and Incompatibilities
 
-* ❌ Legacy flight model of MSFS is not supported
 * ❌ Minimum performance requirement is stable 17 fps
 * ❌ No support for AI copilot
-* ❌ Proper throttle calibration via EFB
+* ❌ Proper throttle calibration via EFB required
 
 #### Not Solved or Missing (This List is Not Conclusive)
 
@@ -181,7 +169,6 @@ The work folder can be found here:
 * ❌ Alternative Law
 * ❌ Direct Law (in flight)
 * ❌ Simulation of hydraulic system missing -> when engines are off / electric pump is off control surfaces should not work
-* ❌ Ailerons cannot be controlled using the keyboard at the moment (issue with SimConnect events)
 * ❌ Pitch attitude and load factor limitation are currently not applied in high angle of attack (AoA) protection
 
 ##### Flight Management
@@ -196,13 +183,13 @@ The work folder can be found here:
 * ❌ NAV mode being armed might show dashes in the FCU instead of selected HDG
 * ❌ Engine out operations are not yet considered
 * ❌ AP is not disconnected due to turbulence
-* ❌ Time compression is not supported
+* ❌ Time compression is not supported (sim rate increase)
 
 ##### Engines
 
 * ❌ Realistic start-up procedure is missing
 * ❌ Realistic Descent/ Approach idle parameters / drag.
-* ❌ Time compression is not supported (fuel burn is not adapted for time compression)
+* ❌ Time compression (sim rate increase) is not supported (fuel burn is not adapted for time compression)
 
 ##### Autothrust
 

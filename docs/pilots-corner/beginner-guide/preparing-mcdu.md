@@ -225,7 +225,7 @@ For the purposes of this guide we will preplan our arrival into EGCC via the `MI
 
     Similar to the SID, these are procedures that are defined and published that takes a flight from the last point in a route *(in our case `MONTY`)* to the first point in the approach or the initial approach fix (IAF).
 
-    Also see: [SIDS and STARS](../airliner-flying-guide\navigation.md#sids-and-stars)
+    Also see: [SIDS and STARS](../airliner-flying-guide/navigation.md#sids-and-stars)
 
 Find `EGCC` in green in flight plan OR select `EGCC` in white under `DEST` using the corresponding LSK.
 
@@ -318,11 +318,9 @@ To navigate to the `INIT B` page we first have to select the `INIT` button. Once
 On this page, we can input our zero fuel weight (ZFW) and zero fuel weight center of gravity (ZFWCG).
 
 !!! warning "Important Info"
-    Fuel and payload have to be set in the simulator before ZFW/CG for the end result to be correct. (Unless you want to use the default fuel and weight).
+    Fuel and payload have to be set in the aircraft (see link below) and passenger boarding has to be complete for the ZFW/ZFWCG to be correct.
 
-    **NOTE:** It is advisable to **not** use the MSFS Fuel Panel to load fuel or weights.
-
-    To learn how see [Load Fuel and Payload](../../fbw-a32nx/feature-guides/simbrief.md#loading-fuel-and-weight) in the simBrief integration guide.
+    Please see our [Fuel and Weights Guide](../../fbw-a32nx/feature-guides/loading-fuel-weight.md) for more information.
 
 The A32NX can auto populate this information.
 
@@ -332,15 +330,12 @@ The A32NX can auto populate this information.
 Now we can add our fuel on board (FOB). The amount we input in this field can be done in one of three ways:
 
 * Indicated FOB on the upper ECAM.
-* we can have the MCDU plan the amount of fuel required.
+* We can have the MCDU plan the amount of fuel required.
 * The amount indicated in the OFP.
 
 !!! info "Loading Fuel"
 
-    We can load fuel two ways:
-
-    * Via the AOC - [Learn How](../../fbw-a32nx/feature-guides/simbrief.md#loading-fuel-and-weight)
-    * Via the EFB - [Learn How](../../fbw-a32nx/feature-guides/flyPad/dispatch.md#fuel-page)
+    Via the EFB - [Learn How](../../fbw-a32nx/feature-guides/flyPad/dispatch.md#fuel-page)
 
 ^^ECAM FOB^^
 

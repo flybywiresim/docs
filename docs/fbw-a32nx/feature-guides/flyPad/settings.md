@@ -45,7 +45,7 @@ Settings for A32NX aircraft configuration.
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
 
-### Usage:
+### Usage
 
 - Weight Unit:
     - The weight unit of the aircraft used for aircraft weight, fuel and simBrief imports.
@@ -88,6 +88,9 @@ Settings for simulation aspects of the A32NX aircraft.
     - User can set this to either a realistic time (~8min), a faster time (~2min) or instant.
 - DMC Self Test Time:
     - User can set the time for the Display Management Computer's self test (Real ~15sec, Fast ~5sec, Instant).
+- Boarding Time:
+    - User can set the simulated boarding time to either a realistic time (~15min), a faster time (~3-4min), or instant.
+        - Based on full load - 174 passengers and full cargo.
 - Default Baro:
     - User can set which baro setting he wants to have as a default: inHg, hPA or Auto (depends on the airport where the aircraft spawned).
 - Sync MSFS Flight Plan:
@@ -105,10 +108,10 @@ Settings for simulation aspects of the A32NX aircraft.
 - MCDU Focus Timeout (s)
     - The timeout feature will "automatically unfocus" the MCDU screen after the given amount of seconds.
     - Valid range is 5 - 120 seconds.
-- Detents:
-    - See [Throttle Configuration](throttle-calibration.md).
 - Dynamic Registration Decal:
     - The dynamic registration number decal shown on the external livery can be disabled to improve appearance when using liveries with a static registration number.
+- Detents:
+    - See [Throttle Configuration](throttle-calibration.md).
 
 ## ATSU/AOC
 
