@@ -200,7 +200,7 @@ Get our [simBrief Profile](../installation.md#simbrief-airframe) for the Develop
 !!! block ""
     ![W&B Boarding](../assets/feature-guides/simbrief/wb-boarding.jpg){align=right width=50% loading=lazy}
 
-    You can now start boarding by selecting LSK6L (the indication will change from `START` to `STOP` in yellow) and watch as the passengers board the aircraft.
+    You can now start boarding by selecting LSK6R (the indication will change from `START` to `STOP` in yellow) and watch as the passengers board the aircraft.
 
     **You do not need to remain on this page as boarding continues.**
 
