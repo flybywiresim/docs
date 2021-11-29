@@ -5,7 +5,7 @@
 ## Overview
 
 The MCDU FIX INFO pages are used to create waypoint intersections of the
-flight plan with radials, radiuses, and abeam intercept points associated
+flight plan with radial, radius, and abeam intercept points associated
 with a waypoint.
 
 These lines or circles are displayed on the ND and also used to compute intercept waypoints which are then added to the active flight plan.
