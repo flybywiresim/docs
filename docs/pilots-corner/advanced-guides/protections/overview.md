@@ -106,7 +106,6 @@ The High Angle of Attack Protection is engaged when:
         - this speed is maintained when side stick is deflected fully aft
         - it has a small margin before reaching the stall AoA
 
-
 ### Protective Actions
 
 - Automatic AP disconnection
