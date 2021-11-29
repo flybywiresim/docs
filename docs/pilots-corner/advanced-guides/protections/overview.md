@@ -22,7 +22,8 @@ The guides in this section shall cover some of the main envelope protections of 
 ##  Envelope Protections Overview:
 
 - [Overspeed Protection](#overspeed-protection)
-- [Angle of Attack Protection](#angle-of-attack-protection)
+- [High Angle of Attack Protection](#high-angle-of-attack-protection)
+- [Alpha Floor Protection](#alpha-floor-protection)
 - [Manoeuvre Protection](#manoeuvre-protection)
 - [Attitude Protection](#attitude-protection)
 - [Windshear Protection](#windshear-protection)
@@ -67,7 +68,7 @@ High Speed Protection triggers the following warnings
 - Increase pitch
 - Reduce thrust and/or activate A/THR
 
-## Angle of Attack Protection
+## High Angle of Attack Protection
 
 The Angle of Attack Protection in the A320 is in simple terms a protection against a too high angle of attack and in consequence stalling the aircraft.
 
@@ -78,20 +79,62 @@ The Angle of Attack Protection in the A320 is in simple terms a protection again
 
 The angle of attack is commonly called &alpha; (alpha) which we  will use in the following sections.
 
+### Engagement Conditions
+
+The High Angle of Attack Protection is engaged when:
+
+- current angle of attack ia greater that &alpha;~prot~ (in Normal Law) when above 100ft RA
+- Below 100 ft RA during the landing, when &alpha;~max~ is reached
+
 ### Indication and warnings
 
 !!! block ""
-    ![Angle of Attack Protection Speeds](../../assets/advanced-guides/protections/speedband_aoa.png "Angle of Attack Protection Speeds"){loading=lazy align=left width=15%}
+    ![High Angle of Attack Protection Speeds](../../assets/advanced-guides/protections/speedband_aoa.png "High Angle of Attack Protection Speeds"){loading=lazy align=left width=15%}
 
     - 1: Green Dot Speed is the best lift-to-drag ratio speed in the clean configuration.
     - 2: V~LS~ is minimal selectable speed providing an appropriate margin to the stall speed. The autopilot will not go below this speed if autothrust is active.
     - 3: Selected speed in the FCU
     - 4: &alpha;~prot~ limit
         - this speed is maintained when side stick is neutral
-        - if sidestick if deflected aft this will eventually activate &alpha;~floor~ protection. See below.
+        - if sidestick if deflected aft this will eventually activate &alpha;~floor~ A/THR protection - see [Alpha Floor Protection](#alpha-floor-protection)
     - 5: &alpha;~max~ is the speed with the maximum angle of attack (AoA) the aircraft will allow
         - this speed is maintained when side stick is deflected fully aft
         - it has a small margin before reaching the stall AoA
+
+
+### Protective Actions
+
+- Automatic AP disconnection
+- If &alpha; becomes greater than &alpha;~prot~ then angel of attack will become proportional to stick deflection. Autotrim will stop which results in a nose-down tendency.
+- If &alpha; reaches &alpha;~floor~ the autothrust system will apply go-around thrust. See [Alpha Floor Protection](#alpha-floor-protection).
+- &alpha;~max~ cannot be exceeded even with the pilot pulling the stick full backward. In other words the cannot be stalled in Normal Law by the pilot's pitch up stick input.
+
+### Recommended Action to Recover
+
+- Push sidestick forward to reduce pitch and gain speed.
+
+- If Alpha Floor Protection (&alpha;~floor~) is activated see next chapter [Alpha Floor Protection](#alpha-floor-protection)
+
+## Alpha Floor Protection
+
+The Alpha Floor Protection automatically sets TOGA thrust when a very high angle of attack is reached.
+
+### Engagement Conditions
+
+Alpha Floor Protection **engages** after lift-off until 100ft RA before landing, when:
+
+- &alpha; is >&alpha;~floor~
+    - 9.5° in CONFIG 0, 15° in CONFIG 1 and 2, 14° in CONFIG 3, 13° in CONFIG FULL
+- Sidestick deflection is >14° when either
+    - [High Angle of Attack Protection](#high-angle-of-attack-protection) is active, or
+    - the [Attitude Protection](#attitude-protection) for pitch is active.
+
+Alpha Floor Protection is **inhibited**, when:
+
+- speed is above 0.6 Mach
+- TCAS mode is engaged
+
+### Indication and warnings
 
 !!! block ""
     ![A.FLOOR FMA](../../assets/advanced-guides/protections/alpha-floor-fma.png "A.FLOOR FMA"){loading=lazy align=left width=15%}
@@ -100,16 +143,13 @@ The angle of attack is commonly called &alpha; (alpha) which we  will use in the
 
 ### Protective Actions
 
-- Automatic AP disconnection / AP cannot be activated
-- If &alpha; becomes greater than &alpha;~prot~ then angel of attack will become proportional to stick deflection. Autotrim will stop which results in a nose-down tendency.
-- If &alpha; reaches &alpha;~floor~ the autothrust system will apply go-around thrust.
-- &alpha;~max~ cannot be exceeded even with the pilot pulling the stick full backward. In other words the cannot be stalled in Normal Law by the pilot's pitch up stick input.
+Alpha Floor Protection signals the autothrust system to set TOGA thrust. Thrust lever positions are ignored.
+
+As &alpha;~floor~ also implies &alpha;~prot~ see [High Angle of Attack Protection](#high-angle-of-attack-protection) for additional actions.
 
 ### Recommended Action to Recover
 
-- Push sidestick forward to reduce pitch and gain speed.
-
-- If in A.FLOOR (&alpha;~floor~) protection see this guide: [A.FLOOR and TOGA LK](afloor.md)
+See our specific guide on how to recover from A.FLOOR: [A.FLOOR and TOGA LK](afloor.md)
 
 ## Manoeuvre Protection
 
