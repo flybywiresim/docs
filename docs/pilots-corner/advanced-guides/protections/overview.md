@@ -28,9 +28,9 @@ The guides in this section shall cover some of the main envelope protections of 
 - [Windshear Protection](#windshear-protection)
 - [Low Energy Protection](#low-energy-protection)
 
-## Overspeed Protection
+## High Speed Protection
 
-This protections aims to protect the aircraft from overspeed situation exceeding the V~mo~ or M~mo~ speeds (maximum operating speeds in knots or mach).
+High Speed Protection (HSP) aims to protect the aircraft from overspeed situation exceeding the V~mo~ or M~mo~ speeds (maximum operating speeds in knots or mach).
 
 See also [V-Speeds](../..//beginner-guide/abbreviations.md#v-speeds)
 
@@ -46,7 +46,7 @@ The overspeed limits are shown on the speed band on the PFD as a black and red s
     - 3: Current IAS (In Air Speed)
     - 4: Current Mach speed
 
-Overspeed Protection triggers the following warnings
+High Speed Protection triggers the following warnings
 
 - Continuous repetitive chime
 - Master warning light
@@ -55,9 +55,11 @@ Overspeed Protection triggers the following warnings
 
 ### Protective Actions
 
-- Automatic AP disconnection
+- Automatic AP disconnection (V~mo~ + 15kt or M~mo~ + 0.04)
 - When V~mo~ + 6kt or M~mo~ + 0.01 is reached a positive load factor demand is automatically applied (pitch up action)
 - When full nose-down stick is maintained speed is limited to around V~mo~ + 16kt and M~mo~ + 0.04 (pilot nose-down authority is reduced)
+- When side stick is released the aircraft's bank angle will return to 0° (instead of 33° outside of HSP)
+- Bank angle limit is reduced from 67° to 40°.
 
 ### Recommended Action to Recover
 
