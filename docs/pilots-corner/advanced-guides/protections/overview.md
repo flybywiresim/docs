@@ -21,7 +21,7 @@ The guides in this section shall cover some of the main envelope protections of 
 
 ##  Envelope Protections Overview:
 
-- [Overspeed Protection](#overspeed-protection)
+- [High Speed Protection](#high-speed-protection)
 - [High Angle of Attack Protection](#high-angle-of-attack-protection)
 - [Alpha Floor Protection](#alpha-floor-protection)
 - [Manoeuvre Protection](#manoeuvre-protection)
