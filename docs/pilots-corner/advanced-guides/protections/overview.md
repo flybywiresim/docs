@@ -35,6 +35,10 @@ High Speed Protection (HSP) aims to protect the aircraft from overspeed situatio
 
 See also [V-Speeds](../..//beginner-guide/abbreviations.md#v-speeds)
 
+### Engagement Conditions
+
+HSP is activated at or above V~mo~ or M~mo~ speeds (maximum operating speeds in knots or mach), depending on flight conditions.
+
 ### Indication and warnings
 
 The overspeed limits are shown on the speed band on the PFD as a black and red strip and a pair of green lines.
@@ -60,7 +64,8 @@ High Speed Protection triggers the following warnings
 - When V~mo~ + 6kt or M~mo~ + 0.01 is reached a positive load factor demand is automatically applied (pitch up action)
 - When full nose-down stick is maintained speed is limited to around V~mo~ + 16kt and M~mo~ + 0.04 (pilot nose-down authority is reduced)
 - When side stick is released the aircraft's bank angle will return to 0° (instead of 33° outside of HSP)
-- Bank angle limit is reduced from 67° to 40°.
+- Bank angle limit is reduced from 67° to 40°
+- Pitch trim is frozen
 
 ### Recommended Action to Recover
 
