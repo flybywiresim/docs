@@ -1,0 +1,11 @@
+# Edit this page to get:
+# - Title for the whole directory
+# - Titles for specific pages or subdirectories
+# - Order of pages (otherwise alphabetical order)
+
+title: Flight Planning
+nav:
+#    - Overview: overview.md
+    - fixinfo.md
+#    - Flight Plan: fplan.md
+#    - ...
