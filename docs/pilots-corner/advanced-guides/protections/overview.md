@@ -201,7 +201,7 @@ If these limits are approached, the aircraft pitch and roll rate decrease and st
 
 ## Windshear Protection
 
-!!! warning "Not available in the A32NX on Microsoft Flight Simulator"
+!!! warning "Not yet available in the A32NX on Microsoft Flight Simulator"
 
 Windshear Protection is available during take off and approach phases when:
 
@@ -221,7 +221,7 @@ Windshear Protection is available during take off and approach phases when:
 
 ## Low Energy Protection
 
-!!! warning "Not available in the A32NX on Microsoft Flight Simulator"
+!!! warning "Not yet available in the A32NX on Microsoft Flight Simulator"
 
 If the aircraft’s energy level is going below a threshold an aural low-energy “SPEED SPEED SPEED” alert warns the pilot to increase thrust, in order to regain a positive flight path angle through pitch control.
 
