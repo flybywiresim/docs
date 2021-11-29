@@ -18,7 +18,7 @@ Flight planning and performance planning happen during this phase.
 
 The TAKEOFF phase starts when applying take off thrust (FLX or TOGA) and extends until reaching the acceleration altitude.
 
-Autopilot can be engaged at 50ft above ground or 5 seconds ofter takeoff, whichever is later.
+Autopilot can be engaged at 100ft above ground or 5 seconds ofter takeoff, whichever is later.
 
 At thrust reduction altitude the thrust levers are normally set in the climb thurst detent (CL detent). The FMGC is in managed mode at this point guiding the aircraft vertically and laterally along the flight plan.
 

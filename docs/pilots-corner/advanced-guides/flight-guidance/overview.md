@@ -50,7 +50,7 @@ The following guidancve modes are available and displayed in the PFD's FMA as ei
 |          | ROLL OUT                  |                |
 |          |                           |                |
 | VERTICAL | SRS (TO and GA)           |                |
-|          | CLD, DEC                  | OP CLB, OP DES |
+|          | CLB, DES                  | OP CLB, OP DES |
 |          | ALT CST*, ALT CST         | ALT*, ALT      |
 |          | ALT CRZ                   | EXPEDITE       |
 |          | G/S*, G/S                 |                |
