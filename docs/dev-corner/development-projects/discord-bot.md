@@ -62,6 +62,7 @@ For information on how to contribute to bot development visit the Discord bot re
 | .synaptic       | Provides link to Synaptic Discord server                     | .syn                       |
 | .station        | Provides station information                                 | ---                        |
 | .trythis        | Main support command (remove mods/liveries)                  | ---                        |
+| .tug            | Provides a solution to the tug disconnection issue.          | ---                        |
 | .utf8           | Resolution steps to solve UTF-8 issues                       | ---                        |
 | .versions       | Information about all available FBW branches                 | ---                        |
 | .weather        | Explains the current state of the weather and terrain radars | .wx                        |
