@@ -31,13 +31,17 @@ The guides in this section shall cover some of the main envelope protections of 
 
 ## High Speed Protection
 
-High Speed Protection (HSP) aims to protect the aircraft from overspeed situation exceeding the V~mo~ or M~mo~ speeds (maximum operating speeds in knots or mach).
+High Speed Protection (HSP) aims to protect the aircraft from overspeed situations and activates latest when VMO+6kt or MMO+0.015 speeds (maximum operating speeds in knots or mach) are reached.
 
 See also [V-Speeds](../..//beginner-guide/abbreviations.md#v-speeds)
 
 ### Engagement Conditions
 
-HSP is activated at or above V~mo~ or M~mo~ speeds (maximum operating speeds in knots or mach), depending on flight conditions.
+HSP is activated at or above VMO or MMO speeds (maximum operating speeds in knots or mach), depending on flight conditions.
+
+### Disengagement Conditions
+
+HSP is deactivated when speed is reduced below VMO/MMO.
 
 ### Indication and warnings
 
@@ -46,12 +50,13 @@ The overspeed limits are shown on the speed band on the PFD as a black and red s
 !!! block ""
     ![Speedband Overspeed Limits](../../assets/advanced-guides/protections/speedband_overspeed.png "Speedband Overspeed Limits"){loading=lazy align=left width=12%}
 
-    - 1: V~max~ = Lowest of V~mo~, M~mo~, V~LE~, V~FE~
-    - 2: V~mo~ + 6kt or M~mo~ + 0.01 Overspeed Protection becomes active
-    - 3: Current IAS (In Air Speed)
+    - 1: VMAX = Lowest of VMO, MMO, VLE, VFE
+    - 2: VMO + 6kt or MMO + 0.01 Overspeed Protection becomes active
+    - 3: Actual Airspeed Reference Line
     - 4: Current Mach speed
 
-High Speed Protection triggers the following warnings
+
+High Speed Protection is usually accompanied by the Overspeed Warnings:
 
 - Continuous repetitive chime
 - Master warning light
@@ -60,10 +65,11 @@ High Speed Protection triggers the following warnings
 
 ### Protective Actions
 
-- Automatic AP disconnection (V~mo~ + 15kt or M~mo~ + 0.04)
-- When V~mo~ + 6kt or M~mo~ + 0.01 is reached a positive load factor demand is automatically applied (pitch up action)
-- When full nose-down stick is maintained speed is limited to around V~mo~ + 16kt and M~mo~ + 0.04 (pilot nose-down authority is reduced)
-- When side stick is released the aircraft's bank angle will return to 0° (instead of 33° outside of HSP)
+- Automatic AP disconnection (VMO + 15kt or MMO + 0.04)
+- When VMO + 6kt or MMO + 0.01 is reached a positive load factor demand is automatically applied (pitch up action)
+- When full nose-down stick is maintained speed is limited to around VMO + 16kt and MMO + 0.04 (pilot nose-down authority is reduced)
+- When sidestick is released the aircraft's bank angle will return to 0° (instead of 33° outside of HSP)
+- When sidestick is released at HSP activation, the airplane will slightly overshoot VMO/MMO and fly back towards the envelope.
 - Bank angle limit is reduced from 67° to 40°
 - Pitch trim is frozen
 
@@ -75,7 +81,7 @@ High Speed Protection triggers the following warnings
 
 ## High Angle of Attack Protection
 
-The Angle of Attack Protection in the A320 is in simple terms a protection against a too high angle of attack and in consequence stalling the aircraft.
+The Angle of Attack Protection protects against stalling the aircraft.
 
 ??? info "Angle of Attack"
     "The Angle of Attack is the angle at which relative wind meets an Aerofoil. It is the angle formed by the Chord of the aerofoil and the direction of the relative wind or the vector representing the relative motion between the aircraft and the atmosphere."
@@ -88,16 +94,16 @@ The angle of attack is commonly called &alpha; (alpha) which we  will use in the
 
 The High Angle of Attack Protection is engaged when:
 
-- current angle of attack ia greater that &alpha;~prot~ (in Normal Law) when above 100ft RA
+- Current angle of attack ia greater than &alpha;~prot~ (in Normal Law) when above 100ft RA
 - Below 100 ft RA during the landing, when &alpha;~max~ is reached
 
-### Indication and warnings
+### Indications and Warnings
 
 !!! block ""
     ![High Angle of Attack Protection Speeds](../../assets/advanced-guides/protections/speedband_aoa.png "High Angle of Attack Protection Speeds"){loading=lazy align=left width=15%}
 
     - 1: Green Dot Speed is the best lift-to-drag ratio speed in the clean configuration.
-    - 2: V~LS~ is minimal selectable speed providing an appropriate margin to the stall speed. The autopilot will not go below this speed if autothrust is active.
+    - 2: VLS is the lowest selectable speed and provides an appropriate margin to the stall speed. The autopilot will not go below this speed if autothrust is active.
     - 3: Selected speed in the FCU
     - 4: &alpha;~prot~ limit
         - this speed is maintained when side stick is neutral
@@ -109,9 +115,9 @@ The High Angle of Attack Protection is engaged when:
 ### Protective Actions
 
 - Automatic AP disconnection
-- If &alpha; becomes greater than &alpha;~prot~ then angel of attack will become proportional to stick deflection. Autotrim will stop which results in a nose-down tendency.
+- If &alpha; becomes greater than &alpha;~prot~ then angle of attack will become proportional to stick deflection. Autotrim will stop which results in a nose-down tendency.
 - If &alpha; reaches &alpha;~floor~ the autothrust system will apply go-around thrust. See [Alpha Floor Protection](#alpha-floor-protection).
-- &alpha;~max~ cannot be exceeded even with the pilot pulling the stick full backward. In other words the cannot be stalled in Normal Law by the pilot's pitch up stick input.
+- &alpha;~max~ cannot be exceeded even with the pilot pulling the stick full backward. In other words the aircraft cannot be stalled in Normal Law by the pilot's pitch up stick input.
 
 ### Recommended Action to Recover
 
@@ -133,12 +139,14 @@ Alpha Floor Protection **engages** after lift-off until 100ft RA before landing,
     - [High Angle of Attack Protection](#high-angle-of-attack-protection) is active, or
     - the [Attitude Protection](#attitude-protection) for pitch is active.
 
+!!! warning "The above values for &alpha;~floor~ and sidestick deflection are not modelled realistically in Microsoft Flight Simulator."
+
 Alpha Floor Protection is **inhibited**, when:
 
 - speed is above 0.6 Mach
 - TCAS mode is engaged
 
-### Indication and warnings
+### Indications and Warnings
 
 !!! block ""
     ![A.FLOOR FMA](../../assets/advanced-guides/protections/alpha-floor-fma.png "A.FLOOR FMA"){loading=lazy align=left width=15%}
