@@ -53,6 +53,15 @@ h4 {
     color: white;
     text-decoration: none;
 }
+.md-typeset code {
+    background-color: hsl(232,7%,28%);
+    border-radius: .1rem;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    font-size: .95em;
+    padding: 0 .2941176471em;
+    word-break: break-word;
+}
 /*Standardize Font Awesome CSS Styling*/
 .discord {
   font-size: 20px;
