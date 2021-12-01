@@ -68,8 +68,8 @@ High Speed Protection is usually accompanied by the Overspeed Warnings:
 - Automatic AP disconnection (VMO + 15kt or MMO + 0.04)
 - When VMO + 6kt or MMO + 0.01 is reached a positive load factor demand is automatically applied (pitch up action)
 - When full nose-down stick is maintained speed is limited to around VMO + 16kt and MMO + 0.04 (pilot nose-down authority is reduced)
-- When sidestick is released the aircraft's bank angle will return to 0° (instead of 33° outside of HSP)
 - When sidestick is released at HSP activation, the airplane will slightly overshoot VMO/MMO and fly back towards the envelope.
+- When sidestick is released the aircraft's bank angle will return to 0° (instead of 33° outside of HSP)
 - Bank angle limit is reduced from 67° to 40°
 - Pitch trim is frozen
 
@@ -118,6 +118,7 @@ The High Angle of Attack Protection is engaged when:
 - If &alpha; becomes greater than &alpha;~prot~ then angle of attack will become proportional to stick deflection. Autotrim will stop which results in a nose-down tendency.
 - If &alpha; reaches &alpha;~floor~ the autothrust system will apply go-around thrust. See [Alpha Floor Protection](#alpha-floor-protection).
 - &alpha;~max~ cannot be exceeded even with the pilot pulling the stick full backward. In other words the aircraft cannot be stalled in Normal Law by the pilot's pitch up stick input.
+- Bank angle limit is reduced from 67° to 45°
 
 ### Recommended Action to Recover
 
@@ -181,7 +182,7 @@ The load factor limit is:
 
 ## Attitude Protection
 
-Attitude Protection is meant to complement AOA and high speed protection in extreme conditions and in windshear.
+Attitude Protection is meant to complement and enhance AOA and HSP in extreme conditions and in windshear.
 
 For this it limits:
 
@@ -190,10 +191,17 @@ For this it limits:
     - limited to 67° stick fully deflected
 
 - Pitch angle:
-    - limited to 30° nose up
+    - limited to 30° nose up in CONF 0 to 3
+        - progressively reduced to 25 ° at low speed
+    - limited to 25° nose up in CONF FULL
+        - progressively reduced to 20 ° at low speed
     - limited to 15° nose down
 
 If these limits are approached, the aircraft pitch and roll rate decrease and stop at the limit.
+
+The flight director bars disappear when pitch exceeds 25° up or 13° down or bank angle exceeds 45°. They appear again when pitch returns to 22° up or 10° down or bank angle is less than 40°.
+
+These limits may be further reduced if [High Angle of Attack Protection](#high-angle-of-attack-protection) or [High Speed Protection](#high-speed-protection) or active.
 
 ### Indication and warnings
 
