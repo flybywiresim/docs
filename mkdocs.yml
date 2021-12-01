@@ -26,6 +26,7 @@ theme:
     # Temporarily deactivated to provide support for Discord browser + anchor links
     # - navigation.instant
     - navigation.top
+    - navigation.tracking
     - search.suggest
     - search.highlight
     - search.share
