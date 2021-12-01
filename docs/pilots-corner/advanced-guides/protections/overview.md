@@ -24,8 +24,9 @@ The guides in this section shall cover some of the main envelope protections of 
 - [High Speed Protection](#high-speed-protection)
 - [High Angle of Attack Protection](#high-angle-of-attack-protection)
 - [Alpha Floor Protection](#alpha-floor-protection)
-- [Manoeuvre Protection](#manoeuvre-protection)
-- [Attitude Protection](#attitude-protection)
+- [Load Factor Protection](#load-factor-protection)
+- [Pitch Attitude Protection](#pitch-attitude-protection)
+- [Bank Angle Protection](#bank-angle-protection)
 - [Windshear Protection](#windshear-protection)
 - [Low Energy Protection](#low-energy-protection)
 
@@ -164,9 +165,9 @@ As &alpha;~floor~ also implies &alpha;~prot~ see [High Angle of Attack Protectio
 
 See our specific guide on how to recover from A.FLOOR: [A.FLOOR and TOGA LK](afloor.md)
 
-## Manoeuvre Protection
+## Load Factor Protection
 
-Manoeuvre Protection, also called Load Factor Protection, enables immediate PF reaction, by pulling the sidestick to full aft without any risk of overstressing the aircraft.
+Manoeuvre Protection, also called Manoeuvre Protection, enables immediate PF reaction, by pulling the sidestick to full aft without any risk of overstressing the aircraft.
 
 The load factor limit is:
 
@@ -180,30 +181,23 @@ The load factor limit is:
 
     The lower ECAM displays the load factor (G LOAD) in amber, when the value is above 1.4g or below 0.7g for more than 2s.
 
-## Attitude Protection
+## Pitch Attitude Protection
 
-Attitude Protection is meant to complement and enhance AOA and HSP in extreme conditions and in windshear.
+To protect the aircraft from excessive pitch attitudes this protection limits pitch angels in the following ways:
 
-For this it limits:
+- Nose up limited to 30° in CONF 0 to 3
+    - Progressively reduced to 25 ° at low speed
+- Nose up limited to 25° in CONF FULL
+    - Progressively reduced to 20 ° at low speed
+- Limited to 15° nose down
 
-- Bank angle:
-    - limited to 33° stick released
-    - limited to 67° stick fully deflected
+If these limits are approached, the aircraft's pitch rate decreases and will stop at the limit.
 
-- Pitch angle:
-    - limited to 30° nose up in CONF 0 to 3
-        - progressively reduced to 25 ° at low speed
-    - limited to 25° nose up in CONF FULL
-        - progressively reduced to 20 ° at low speed
-    - limited to 15° nose down
+The flight director bars disappear when pitch exceeds 25° up or 13° down. They appear again when pitch returns to 22° up or 10° down.
 
-If these limits are approached, the aircraft pitch and roll rate decrease and stop at the limit.
+Pitch Attitude Protection supports high speed protection, high load factor protection, and high AOA protection.
 
-The flight director bars disappear when pitch exceeds 25° up or 13° down or bank angle exceeds 45°. They appear again when pitch returns to 22° up or 10° down or bank angle is less than 40°.
-
-These limits may be further reduced if [High Angle of Attack Protection](#high-angle-of-attack-protection) or [High Speed Protection](#high-speed-protection) or active.
-
-### Indication and warnings
+### PFD Attitude Indicators
 
 !!! block ""
     ![Attitude Limits on PFD](../../assets/advanced-guides/protections/attitude_limits.png "Attitude Limits on PFD"){loading=lazy align=left width=45%}
@@ -213,6 +207,24 @@ These limits may be further reduced if [High Angle of Attack Protection](#high-a
 - 1: Bank limit indicator at 67°
 - 2: Pitch down limit indicator at -15°
 - 3: Pitch up limit indicator at 30°
+
+## Bank Angle Protection
+
+Bank angle during normal conditions is limited at 67° if the pilots holds the sidestick fully deflected laterally.
+
+If the sidestick is neutral and the bank angle was upt p 33° the system will hold the roll attitude constant and the current roll angle.
+
+If the bank angle was greater than 33° and the sidestick is released to neutral the system reduces the bank angel automatically to 33° and holds it there.
+
+If these limits are approached, the aircraft's roll rate decreases and will stop at the limit.
+
+If [High Angle of Attack Protection](#high-angle-of-attack-protection) is active the bank angle is limited to 45°.
+
+If [High Speed Protection](#high-speed-protection) is active the bank angle is limited to 40° and will roll back to 0° when the sidestick is released to neutral.
+
+The autopilot disconnects and the flight director bars disappear when bank angle exceeds 45°. They appear again when bank angle is less than 40°.
+
+See [PFD Attitude Indicators](#pfd-attitude-indicators).
 
 ## Windshear Protection
 
