@@ -6,10 +6,8 @@ It is not a complete collection of all features but a growing list which is exte
 
 Topics:
 
-- [Alpha Floor Protection](afloor.md)
 - [Autopilot and fly-by-wire](autopilot-fbw.md)
 - [Flight Management System](cFMS.md)
-- [Fix Info](fixinfo.md)
 - [Fuel and Weight](loading-fuel-weight.md)
 - [MCDU Keyboard Support](mcdu-keyboard.md)
 - [SimBrief Integration](simbrief.md)

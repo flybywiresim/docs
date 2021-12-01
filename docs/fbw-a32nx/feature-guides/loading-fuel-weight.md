@@ -72,8 +72,6 @@ Please select the correct version below.
 
     Trimming the aircraft for takeoff is usually optional and technically not required. Please reference our the [FBW Checklist](../../pilots-corner/SOP.md) to set the appropriate trim should you wish to.
     
-    !!! bug "TODO where to get CG?"
-    
     Ideally, anything less than 25% CG is considered FWD load, and anything more than 25% is considered an AFT load. While opting to choose between either CG configuration (aft/fwd) please consider the information below.
     
     !!! info "Notes on Differing CG Configurations"

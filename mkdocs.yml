@@ -58,6 +58,12 @@ plugins:
         # Folder: /a32nx-devs/
         'a32nx-dev/overview.md': 'dev-corner/development-guide.md'
         'a32nx-dev/texture-changes.md': 'dev-corner/texture-changes.md'
+        # TEMP redirects
+        # A.FLOOR
+        'fbw-a32nx/feature-guides/afloor.md': 'pilots-corner/advanced-guides/protections/afloor.md'
+        # Fix Info
+        'fbw-a32nx/feature-guides/fixinfo.md': 'pilots-corner/advanced-guides/flight-planning/fixinfo.md'
+
         # additional redirects:
         'fbw-a32nx/feature-guides/throttle-calibration.md': 'fbw-a32nx/feature-guides/flyPad/throttle-calibration.md'
         # Convenience redirects:
@@ -68,6 +74,8 @@ plugins:
         'support.md': 'fbw-a32nx/support/index.md'
         'discord-bot.md': 'dev-corner/development-projects/discord-bot.md'
         'airframe.md': 'https://docs.flybywiresim.com/fbw-a32nx/installation/#simbrief-airframe'
+        'fdr.md': 'https://docs.flybywiresim.com/fbw-a32nx/support/#fdr-files'
+
         # Release Notes Permalink
         'latest-release.md': 'release-notes/v073.md'
         # ########################################
