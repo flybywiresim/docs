@@ -164,6 +164,42 @@ Quite often when issues during flight are reported a screenshot of the Cockpit w
 
 Position yourself in the cockpit using arrow keys (default key mapping) to look straight at the front instrument panel as in the example above and then use the Windows Snipping Tool ([Instructions Here](https://support.microsoft.com/en-us/windows/open-snipping-tool-and-take-a-screenshot-a35ac9ff-4a58-24c9-3253-f12bac9f9d44)) to take a screenshot of all screens and the FCU.
 
+### FDR Files
 
+The FlyByWire A32NX has a built-in data collection system to help with development, debugging and user support.
 
+The idea is taken from real aircraft and their flight data recorder and helps to analyze issues and performance of the simulated aircraft.
+
+These files are stored in your [work folder](#work-folder) and you will find the FDR files for the last 10 flights you did.
+
+You should recognize the correct one by the filename, which is the date and time of the flight. For a long flight, it might have been split into several files.
+
+Example: 2021-11-15-12-57-13.fdr
+
+Compress/Zip the file(s) and upload them to a sharing site (e.g. [Swisstransfer.com](https://www.swisstransfer.com/){target=new} ) as these files are likely to be very large.
+
+### Work Folder
+
+Microsoft Flight Simulator allows mods like FlyByWire A32NX to store configuration and other data in a folder called "**work**": This folder is located in different places for the **MS Store version** and the **Steam version** of Microsoft Flight Simulator. The folder's location is described in the next paragraphs.
+
+!!! info ""
+    If you can't find the folders these folders might be hidden from you by Windows. Follow the directions on ["View hidden files and folders in Windows 10" on Microsoft's support site](https://support.microsoft.com/en-us/windows/view-hidden-files-and-folders-in-windows-10-97fbc472-c603-9d90-91d0-1166d1d9f4b5){target=new}.
+
+#### Microsoft Store Version
+
+The folder can be found here:
+
+`%LOCALAPPDATA%\Packages\Microsoft.FlightSimulator_8wekyb3d8bbwe\LocalState\packages\flybywire-aircraft-a320-neo\work`
+
+!!! warning ""
+    This is not your community directory
+
+#### Steam Version
+
+The folder can be found here:
+
+`%APPDATA%\Microsoft Flight Simulator\Packages\flybywire-aircraft-a320-neo\work`
+
+!!! warning ""
+    This is not your community directory
 
