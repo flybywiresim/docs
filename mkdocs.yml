@@ -6,6 +6,8 @@ site_url: https://docs.flybywiresim.com/
 repo_url: https://github.com/flybywiresim/a32nx/
 repo_name: flybywiresim/a32nx
 edit_uri: "" #removes edit button and icon
+copyright: Powered by <a href="https://vercel.com/?utm_source=flybywiresim&utm_campaign=oss" target="_blank">
+  <img src="/assets/images/vercel-logotype-light.svg" alt="Vercel Logo"></a>
 
 # Configuration
 theme:
@@ -114,7 +116,8 @@ markdown_extensions:
   - admonition # Makes things pretty
   - pymdownx.superfences # Nestled code
   - attr_list # Add HTML attributes and CSS classes to Markdown elements
-  - pymdownx.tabbed # Content tabs
+  - pymdownx.tabbed: # Content tabs
+      alternate_style: true
   - pymdownx.details # Additional features to admonition
   - pymdownx.caret # Formatting Extension
   - pymdownx.critic # Alternate Formatting Extension
