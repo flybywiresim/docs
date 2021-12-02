@@ -1,13 +1,13 @@
 /* Navigation Modifications */
 .md-header {
-  background: rgb(20,30,48);
+  background: rgb(14,19,27);
 }
 .md-nav--primary .md-nav__title[for=__drawer] {
     background: var(--md-primary-fg-color--dark);
     overflow: visible;
 }
 .md-tabs {
-  background: rgb(20,30,48);
+  background: rgb(14,19,27);
 }
 .md-top {
   color: #ffffff;
@@ -16,14 +16,13 @@
   color: #ffffff;
 }
 .md-tabs__link--active, .md-tabs__link:focus, .md-tabs__link:hover {
-  border-bottom: 1.5px solid #00C2CB;
+  border-bottom: 1.5px solid #00E0FE;
   height: -webkit-fill-available;
 }
 
 /*Announcement Bar*/
 .md-banner {
     background-color: var(--md-footer-bg-color--dark);
-    color: var(--md-footer-fg-color);
     overflow: auto;
     text-align: center;
 }
