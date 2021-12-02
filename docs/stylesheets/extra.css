@@ -15,46 +15,6 @@ diff rgba(27,36,52,1)
   --md-default-bg-color: rgb(23,30,44);
 }
 
-/* Navigation Modifications */
-.md-header {
-  background: rgb(14,19,27);
-}
-.md-nav--primary .md-nav__title[for=__drawer] {
-    background: var(--md-primary-fg-color--dark);
-    overflow: visible;
-}
-.md-tabs {
-  background: rgb(14,19,27);
-}
-.md-top {
-  color: #ffffff;
-}
-.md-top {
-  color: #ffffff;
-}
-.md-tabs__link--active, .md-tabs__link:focus, .md-tabs__link:hover {
-  border-bottom: 1.5px solid #00E0FE;
-  height: -webkit-fill-available;
-}
-
-/*Announcement Bar*/
-.md-announce {
-    background-color: var(--md-footer-bg-color--dark);
-    overflow: auto;
-    padding-bottom: 0.5rem;
-}
-.md-announce__inner {
-    font-size: .7rem;
-    margin: .6rem auto 0;
-    padding: 0 .8rem;
-    text-align: center;
-}
-.md-typeset img, .md-typeset svg {
-    height: auto;
-    max-width: 100%;
-    vertical-align: text-bottom;
-}
-
 /*Header Modifications*/
 .md-typeset h1 {
   color: #00E0FE;
