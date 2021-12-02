@@ -212,9 +212,9 @@ Pitch Attitude Protection supports high speed protection, high load factor prote
 
 Bank angle during normal conditions is limited at 67° if the pilots holds the sidestick fully deflected laterally.
 
-If the sidestick is neutral and the bank angle was upt p 33° the system will hold the roll attitude constant and the current roll angle.
+If the sidestick is neutral and the bank angle is no greater than 33°, the system will hold that bank angle.
 
-If the bank angle was greater than 33° and the sidestick is released to neutral the system reduces the bank angel automatically to 33° and holds it there.
+If the bank angle was greater than 33° and the sidestick is released to neutral the system reduces the bank angle automatically to 33° and holds it there.
 
 If these limits are approached, the aircraft's roll rate decreases and will stop at the limit.
 
