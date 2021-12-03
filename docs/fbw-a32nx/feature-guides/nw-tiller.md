@@ -114,7 +114,7 @@ During takeoff and landing you will usually only use the rudder and you need to 
 
 As the currently solution is a workaround of a missing Microsoft Flight Simulator feature there are some small issues in the implementation:
 
--Full tiller one way and rudder the opposite way can move the steering even without hydraulic power
--Full rudder action can overcome to some extent our system implementation: you can move a bit the steering even with no hydraulic power, as msfs will turn the wheel even when our internal implementation is not moving at all.
+- Full tiller one way and rudder the opposite way can move the steering even without hydraulic power
+- Full rudder action can overcome to some extent our system implementation. It is possible to move the nose wheel even with no hydraulic power, as MSFS will turn the wheel even when our internal implementation is not moving at all.
 
-Modifying steering animation so it shows our internal system state will mask those issues and allow for perfect visual behaviour. But it can cause strange plane rotation behaviour when above mentioned issues will be triggered.
+Modifying steering animation so it shows our internal system state will mask those issues and allow for perfect visual behaviour. But it can cause strange plane rotation behaviour when these issues will be triggered.
