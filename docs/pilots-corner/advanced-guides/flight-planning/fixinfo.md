@@ -143,4 +143,7 @@ To visualize these points we can use the fix info page to define a 2NM distance 
 ![Fix Info ORL](../../assets/advanced-guides/fixinfo/nd-orl-fixinfo1.png "Fix Info ORL"){loading=lazy width=48%}
 ![Fix Info ORL](../../assets/advanced-guides/fixinfo/nd-orl-fixinfo2.png "Fix Info ORL"){loading=lazy width=48%}
 
+## 320 Sim Pilot Video
+
+<iframe width="790" height="447" src="https://www.youtube-nocookie.com/embed/dHZZ2ukxU9Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
