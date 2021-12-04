@@ -204,7 +204,7 @@ The folder can be found here:
 
 [:fontawesome-brands-github:{: .github } **GitHub Contributing.md**](https://github.com/flybywiresim/a32nx/blob/master/.github/Contributing.md){ .md-button target=new }
 
-More info [A32NX Development Overview](../dev-corner/development-guide.md)
+More info [A32NX Development Overview](../dev-corner/dev-guide/index.md)
 
 ***
 
