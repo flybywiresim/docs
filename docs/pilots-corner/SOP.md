@@ -12,7 +12,7 @@ They are available for download or preview online via the links below.
 
 An in-flight checklist for flight crew operations. Items critical in regard to flight safety are on this list.
 
-[Download](https://github.com/flybywiresim/manuals/blob/master/raw/A32NX%20Documentation/FBW%20A32NX%20Checklist.pdf){ .md-button } [:fontawesome-brands-github:{: .github } Online Preview](https://github.com/flybywiresim/manuals/raw/master/pdf/A32NX%20Documentation/FBW%20A32NX%20Checklist.pdf){ target=new .md-button }
+[Download](https://github.com/flybywiresim/manuals/raw/master/pdf/A32NX%20Documentation/FBW%20A32NX%20Checklist.pdf){ .md-button } [:fontawesome-brands-github:{: .github } Online Preview](https://github.com/flybywiresim/manuals/blob/master/pdf/A32NX%20Documentation/FBW%20A32NX%20Checklist.pdf){ target=new .md-button }
 
 ## Flight Crew Flow
 
