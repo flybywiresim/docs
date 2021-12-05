@@ -45,7 +45,7 @@ The ground crew can deactivate the steering system by using a switch in the elec
 
     We recommend to turn off all assistance features in MSFS as they interfere with the A32NX systems.
 
-    ![MSFS Assistance Options](../assets/nw-tiller/assistance-options.png "MSFS Assistance Options")
+    ![MSFS Assistance Options](../assets/nw-tiller/assistance-options.png "MSFS Assistance Options"){loading=lazy}
 
 ### Using an Axis
 
@@ -55,7 +55,7 @@ As Microsoft Flight Simulator does not yet support a separate tiller axis we hav
 
 We have chosen to use `MIXTURE 4 AXIS (-100% to 100%)` for this.
 
-![MSFS Controller Options Mapping](../assets/nw-tiller/handwheel-controller-mapping.png "MSFS Controller Options Mapping")
+![MSFS Controller Options Mapping](../assets/nw-tiller/handwheel-controller-mapping.png "MSFS Controller Options Mapping"){loading=lazy}
 
 Map `MIXTURE 4 AXIS (-100% to 100%)` to the controller axis you want to use for the tiller. It needs to be different from the axis you use for the rudder.
 
@@ -70,7 +70,7 @@ As an alternative to mapping an axis you can also map keys from the keyboard or 
 
 Use these or similar mappings on your controller or keyboard:
 
-![MSFS Controller Options Keyboard Mapping](../assets/nw-tiller/handwheel-keyboard-mapping.png "MSFS Controller Options Keyboard Mapping")
+![MSFS Controller Options Keyboard Mapping](../assets/nw-tiller/handwheel-keyboard-mapping.png "MSFS Controller Options Keyboard Mapping"){loading=lazy}
 
 Decrease will turn the tiller and nose wheel to the left.
 
@@ -86,7 +86,7 @@ Again Microsoft Flight Simulator does not support this directly so we again reus
 
 The MSFS Controller Option we are using is `TOGGLE WATER RUDDER` and your mapping should look similar to this:
 
-![MSFS Controller Option for Pedals Disconnect](../assets/nw-tiller/handwheel-disconnect-button-mapping.png "MSFS Controller Option for Pedals Disconnect")
+![MSFS Controller Option for Pedals Disconnect](../assets/nw-tiller/handwheel-disconnect-button-mapping.png "MSFS Controller Option for Pedals Disconnect"){loading=lazy}
 
 !!! warning "This key/button is not used as a toggle! You need to hold the button/key for the disconnect to work!"
 
@@ -94,7 +94,7 @@ The MSFS Controller Option we are using is `TOGGLE WATER RUDDER` and your mappin
 
 To activate the tiller feature you need to go to the flyPad Settings page and enable the `Separate Tiller from Rudder` feature.
 
-![flyPad Settings Sim Options Tiller](../assets/nw-tiller/flypad-settings-simoptions-tiller.png "flyPad Settings Sim Options Tiller")
+![flyPad Settings Sim Options Tiller](../assets/nw-tiller/flypad-settings-simoptions-tiller.png "flyPad Settings Sim Options Tiller"){loading=lazy}
 
 ## Using the Tiller and Rudder
 
