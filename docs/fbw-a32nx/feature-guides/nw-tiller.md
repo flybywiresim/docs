@@ -40,6 +40,13 @@ The ground crew can deactivate the steering system by using a switch in the elec
 
 ## Mapping of the Tiller Axis
 
+??? warning "De-activate MSFS Assistance Auto-Rudder"
+    This feature is not compatible with the Microsoft Flight Simulator feature "Assistance Auto-Rudder". It is required to deactivate this feature in MSFS.
+
+    We recommend to turn off all assistance features in MSFS as they interfere with the A32NX systems.
+
+    ![MSFS Assistance Options](../assets/nw-tiller/assistance-options.png "MSFS Assistance Options")
+
 ### Using an Axis
 
 As Microsoft Flight Simulator does not yet support a separate tiller axis we have used an unused axis to map the movement of you controller to the tiller handwheel.
@@ -82,7 +89,6 @@ The MSFS Controller Option we are using is `TOGGLE WATER RUDDER` and your mappin
 ![MSFS Controller Option for Pedals Disconnect](../assets/nw-tiller/handwheel-disconnect-button-mapping.png "MSFS Controller Option for Pedals Disconnect")
 
 !!! warning "This key/button is not used as a toggle! You need to hold the button/key for the disconnect to work!"
-
 
 ## Activating the Feature in the flyPad
 
