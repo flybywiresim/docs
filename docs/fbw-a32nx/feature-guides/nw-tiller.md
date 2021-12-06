@@ -1,10 +1,10 @@
 # Nose Wheel and Tiller Operation
 
-We have introduced a feature for using the tiller to steer the nose wheel independently of the rudder. As Microsoft Flight Simulator does not natively supports this feature yet we had to become creative to build a solution for this.
+We have introduced a feature for using the tiller to steer the nose wheel independently of the rudder. As Microsoft Flight Simulator does not natively support this feature yet we had to become creative to build a solution for this.
 
 {--
 
-Therefore this feature is deactivated per default. Before the tiller steering can be used it needs to be mapped to a controller input and activated in the flyPad Settings.
+Therefore this feature is deactivated by default. Before the tiller steering can be used it needs to be mapped to a controller input and activated in the flyPad Settings.
 
 --}
 
@@ -20,7 +20,7 @@ This handwheel is used on the ground for turning the nose wheel during taxi. It 
 
 The rudder controls only can turn the nose wheel up to 6° and won't be sufficient for taxi operations.
 
-The turn angle of the nosewheel is speed dependent and the limits to which angle it can be turned follows this graph:
+The maximum turn angle of the nosewheel is speed dependent and the limits to which angle it can be turned follows this graph:
 
 ![Nose wheel Steering Speed Reference](../assets/nw-tiller/nosewheel-steering-reference.png "Nose wheel Steering Speed Reference"){loading=lazy}
 
@@ -34,7 +34,7 @@ The nose wheel steering is operative when:
 
 The tiller has push button which allows to disconnect any rudder orders from the nose wheel.
 
-The ground crew can deactivate the steering system by using a switch in the electrical towing box for towing. The upper ECAM then shows a MEMO on the upper ECAM "N/W STEER DISC" (in green while engines are off, in amber when at least one engine is running).
+The ground crew can deactivate the steering system by using a switch in the electrical towing box for towing. The upper ECAM then shows a MEMO "N/W STEER DISC" (in green while engines are off, in amber when at least one engine is running).
 
 !!! warning "Microsoft Flight Simulator sometimes has an invisible towing tug attached to the aircraft. The ECAM MEMO helps you recognize this."
 
@@ -114,11 +114,11 @@ We recommend to practice this a bit until you get used to it.
 
 ### Takeoff and Landing
 
-During takeoff and landing you will usually only use the rudder and you need to be aware that this only gives some turning authority over the nose wheel (up to 6°). This is especially critical if you are at a slow speed when the rudder has not enough effect.
+During takeoff and landing you will usually only use the rudder and you need to be aware that this only gives some turning authority over the nose wheel (up to 6°). This is especially critical if you are at a slow speed when the rudder has limited effect.
 
 ## Known Issues
 
-As the currently solution is a workaround of a missing Microsoft Flight Simulator feature there are some small issues in the implementation:
+As the current solution is a workaround of a missing Microsoft Flight Simulator feature there are some small issues in the implementation:
 
 - Full tiller one way and rudder the opposite way can move the steering even without hydraulic power
 - Full rudder action can overcome to some extent our system implementation. It is possible to move the nose wheel even with no hydraulic power, as MSFS will turn the wheel even when our internal implementation is not moving at all.
