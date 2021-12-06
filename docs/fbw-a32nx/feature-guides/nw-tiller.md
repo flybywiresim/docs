@@ -49,7 +49,7 @@ The ground crew can deactivate the steering system by using a switch in the elec
 
 ### Using an Axis
 
-As Microsoft Flight Simulator does not yet support a separate tiller axis we have used an unused axis to map the movement of you controller to the tiller handwheel.
+As Microsoft Flight Simulator does not yet support a separate tiller axis we have used an unused axis to map the movement of your controller to the tiller handwheel.
 
 !!! note "Although MSFS provides the option `SET STEERING` which is unfortunately broken."
 
