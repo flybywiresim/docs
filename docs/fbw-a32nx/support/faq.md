@@ -9,15 +9,11 @@
 ??? info "Q: How do I install this aircraft?"
     Visit our [Installation Guide](../installation.md).
 
-??? info "Q: What are the liveries available?"
-    Liveries made for the default A320neo will no longer function in the new FlyByWire package. Liveries will need to be converted by their respective authors.
-
-    While this might represent an inconvenience for a short amount of time, we are sure that 3rd party content authors will be quick to provide you with updated liveries and programs.
+??? info "Q: What liveries are available?"
+    Liveries working for the default A320neo will not be compatible with the A32NX. We recommend downloading your liveries from [Flightsim.to](https://flightsim.to/c/liveries/flybywire-a32nx/){target=new}
 
     **Convert Your Liveries:**
-    
     - See our guide to [liveries](../liveries.md)
-    - Visit Flightsim.to with updated liveries [here](https://flightsim.to/c/liveries/flybywire-a32nx/){target=new}
 
 ??? info "Q: Do we have a simBrief profile for the A32NX?"
     Yes, we have one available for our Stable, Development, and Experimental versions where you can find the most updated profiles by visiting our Simbrief Airframes [here](../installation.md#simbrief-airframe)
