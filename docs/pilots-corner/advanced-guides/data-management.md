@@ -18,18 +18,19 @@ The following chapters will explain how to create, use and delete these stored w
 
 ### How to Create a Stored Waypoint
 
-There are two ways to create new custom waypoints:
+There are three ways to create new custom waypoints:
 
 1. Enter a new unique identifier into the scratchpad and insert it into the flight plan as if inserting a normal additional waypoint. This will bring up the `NEW WAYPOINT` page with the identifier already filled out.
 2. Press the LSK 5R (5th on the right) of `NEW WAYPOINT` on the `STORED WAYPOINT` page
+3. By directly entering the new waypoint in one of the three formats into the scratchpad on the F-PLN page and inserting it into the the flight plan. In this case the FMS will generate a default name (PBDnn, PBXnn, or LLnn, where nn is the storage number of the stored waypoint).
 
-In both cases, the `NEW WAYPOINT` page comes up.
+#### New Waypoint Page
 
 ![MCDU DATA New Waypoint Page](../assets/advanced-guides/stored-waypoints/mcdu-data-new-waypoint-page.png "MCDU DATA New Waypoint Page"){loading=lazy width=50%}
 
 Here you have 3 methods of creating a new waypoint.
 
-#### Latitude-Longitude (LL)
+### Format: Latitude-Longitude (LL)
 
 This creates a point at an exact latitude and longitude.
 
@@ -40,13 +41,13 @@ The format is:
 - longitude is 4 digits with one decimal digit and N or S (for Northern or Southern hemisphere)
 - latitude is 4 or 5 digits with one decimal digit and E or W (for Eastern or Western hemisphere)
 
-??? tip "Example for LL"
+!!! tip "Example for LL"
     !!! block ""
         ![Example for LL](../assets/advanced-guides/stored-waypoints/example-ll.png "Example for LL"){loading=lazy align=left width=46%}
 
         ![Example for LL](../assets/advanced-guides/stored-waypoints/example-ll-2.png "Example for LL"){loading=lazy align=right width=46%}
 
-#### Place-Bearing-Distance (PBD)
+### Format: Place-Bearing-Distance (PBD)
 
 This creates a point at a specified bearing and distance from another fix.
 
@@ -54,13 +55,13 @@ The format is:
 
 &lt;ident1&gt;/&lt;bearing&gt;/&lt;distance&gt;
 
-??? tip "Example for PBD"
+!!! tip "Example for PBD"
     !!! block ""
         ![Example for PBD](../assets/advanced-guides/stored-waypoints/example-pbd.png "Example for PBD"){loading=lazy align=left width=46%}
 
         ![Example for PBD](../assets/advanced-guides/stored-waypoints/example-pbd-2.png "Example for PBD"){loading=lazy align=right width=46%}
 
-#### Place-Bearing-Place-Bearing (PBX)
+### Format: Place-Bearing-Place-Bearing (PBX)
 
 This creates a point at the intersection of a line on a bearing from one fix, and a similar line on a bearing from another fix.
 
@@ -68,7 +69,7 @@ The format is:
 
 &lt;ident1&gt;-&lt;bearing&gt/&lt;ident2&gt;-&lt;bearing&gt;
 
-??? tip "Example for PBX"
+!!! tip "Example for PBX"
     !!! block ""
         ![Example for PBX](../assets/advanced-guides/stored-waypoints/example-pbx.png "Example for PBX"){loading=lazy align=left width=46%}
 
@@ -82,15 +83,21 @@ Stored waypoints can be added to the flight plan as any other navigation fix. Ju
 
 ### How to Delete Stored Waypoints
 
+You can delete a single or all stored waypoints at any time. If you try to delete any waypoints used within the FMS the waypoint will be retained and a scratchpad message `F-PLN ELEMENT RETAINED` appears.
+
 ### Delete a Single Stored Waypoint
 
 Single stored waypoints can be deleted from the list of stored waypoints by calling up the stored waypoint's page and use CLR on the identifier to delete it.
 
 ![MCDU DATA Stored Waypoint CLR](../assets/advanced-guides/stored-waypoints/mcdu-data-stored-waypoint_clr.png "MCDU DATA Stored Waypoint CLR"){loading=lazy width=50%}
 
-
 ### Delete All Stored Waypoints
 
 To delete all stored waypoints use the `DELETE ALL` option from any stored waypoint page.
 
 ![MCDU DATA Stored Waypoint CLR ALL](../assets/advanced-guides/stored-waypoints/mcdu-data-stored-waypoint_clr_all.png "MCDU DATA Stored Waypoint CLR ALL"){loading=lazy width=50%}
+
+Alternatively you can use the `MCDU DATA A/C STATUS` page to delete all stored waypoints.
+
+![MCDU DATA A/C STATUS](../assets/advanced-guides/stored-waypoints/mcdu-data-acstatus.png "MCDU DATA A/C STATUS"){loading=lazy width=50%}
+
