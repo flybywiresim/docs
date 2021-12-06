@@ -41,11 +41,11 @@
 
     **Stable**
 
-    The Stable version is a 'snapshot' of the development which we regard as stable with the current version of the simulator. See [Downloads](/start/installation/#downloads).
+    The Stable version is a 'snapshot' of the development which we regard as stable with the current version of the simulator. See [Downloads](../installation.md#downloads).
 
     **Development**
 
-    The Development build is updated daily and is a constant work in progress and although we test each update thoroughly, minor issues may occur from time to time. See [Downloads](/start/installation/#downloads).
+    The Development build is updated daily and is a constant work in progress and although we test each update thoroughly, minor issues may occur from time to time. See [Downloads](../installation.md#downloads).
 
 ??? info "Q: What is the Experimental Version?"
     The Experimental Version is the Development build with a custom project added where highly experimental features are tested. These builds are subject to various bugs and errors, which are often changed daily. Users can use this build with the caveat that it is not supported in the `#support` channel.
