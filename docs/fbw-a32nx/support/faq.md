@@ -1,7 +1,7 @@
 ## General
 
 ???+ info "Q: Where is the plane in-sim?"
-    The add-on will appear as a separate aircraft, select the `FlyByWire Simulations A320neo (LEAP)` in the aircraft selector instead of the Asobo one.
+    The A32NX is now a separate aircraft from the default, you need to select this aircraft in the 'aircraft selection' menu prior to loading the flight. The add-on will appear as a separate aircraft, select the `FlyByWire Simulations A320neo (LEAP)` in the aircraft selector instead of the Asobo one.
 
 ??? info "Q: Can I download the aircraft in the current state?"
     Yes, see [Downloads](../installation.md#downloads).
