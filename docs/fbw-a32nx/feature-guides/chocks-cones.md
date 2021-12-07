@@ -19,3 +19,6 @@ Conditions:
 - `BEACON LT` is off
 - Airplane is on `GND`
 - Pushback is disconnected
+
+
+- Brake force is applied when checks are in place
