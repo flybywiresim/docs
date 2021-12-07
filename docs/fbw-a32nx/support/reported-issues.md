@@ -435,6 +435,7 @@ TEMPLATE
     Reference: [MSFS Forum Post](https://forums.flightsimulator.com/t/freelook-with-mouse-causes-controls-to-freeze-after-su5/426349/15){target=new}
 
 ??? warning "TCA Throttle Autobrake Disengages While Looking Around"
+    ### TCA Throttle Autobrake Disengages While Looking Around
 
     !!! tip ""
         *Affected versions: Stable, Development*
