@@ -21,7 +21,6 @@ It also has more and better features than the default sim ground services.
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
 
-
 ## Usage
 
 ### Pax
@@ -45,7 +44,25 @@ Calls a ground power unit (GPU) if available at the current airport and gate or 
 Calls the fuel truck if available at the current airport. It will take quite a while until the fuel truck while arrive. 5-10 minutes is not unusual. When the fuel truck arrives the MSFS fuel page appears.
 
 !!! warning ""
-    We recommend to not use the MSFS Fuel Page with the FlyByWire A32NX as fuel and payload should be loaded through the [EFB's Fuel Dispatch](dispatch.md#fuel-and-de-fuel) or instant loading via the [MCDU simBrief Integration](../simbrief.md#loading-fuel-and-weight).
+    Fuel must be loaded through the [EFB's Fuel Dispatch](dispatch.md#fuel-and-de-fuel).
+
+### Wheel Chocks
+
+Enables placement of the wheel chocks if the other requirements for the wheel chocks to be visible are met:
+
+- `ENG1+2 N2` < 1%
+- `BEACON LT` is off
+- Airplane is on `GND`
+- Pushback is disconnected
+
+### Safety Cones
+
+Enables placement of the safety cones if the other requirements for the safety cones to be visible are met:
+
+- `ENG1+2 N2` < 1%
+- `BEACON LT` is off
+- Airplane is on `GND`
+- Pushback is disconnected
 
 ### Door Aft
 
