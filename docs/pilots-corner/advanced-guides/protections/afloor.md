@@ -10,7 +10,7 @@ This feature is part of our custom autopilot and autothrust system - available i
 
 ### Trigger Conditions
 
-When the angle of attack and airspeed of the aircraft reaches the alpha floor protection range indicated by the yellow and black band on the PFD speed page. Simply put, A.FlOOR will trigger when approaching a stall in the aircraft's current configuration.
+When the angle of attack and airspeed of the aircraft reaches the alpha floor protection range indicated by the amber and black band on the PFD speed page. Simply put, A.FlOOR will trigger when approaching a stall in the aircraft's current configuration.
 
 !!! danger "Reactivation of autopilot will not be possible when in A.FLOOR conditions"
 
