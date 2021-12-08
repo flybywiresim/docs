@@ -21,6 +21,7 @@ theme:
   palette:
     scheme: slate
   features:
+    - header.autohide
     - navigation.tabs
     - navigation.tabs.sticky
     # Temporarily deactivated to provide support for Discord browser + anchor links
