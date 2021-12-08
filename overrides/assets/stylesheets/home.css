@@ -49,6 +49,7 @@
 .hero .md-button {
     margin-top: .5rem;
     margin-right: .5rem;
+    border-radius: .2rem;
     color: var(--md-primary-bg-color)
 }
 

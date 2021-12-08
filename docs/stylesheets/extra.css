@@ -38,18 +38,18 @@ h1 {
   /*text-transform: uppercase;*/
 }
 h2 {
-  color: #00C2CB;
+  color: #00E0FE; /*Cyan*/
   /*text-transform: uppercase;*/
   padding-bottom: 0.5em;
 }
 h3 {
-  color: #A9CEEF;
+  color: #00CCFF;
 }
 h4 {
   padding-top: 1em;
 }
 .md-typeset h5 {
-  color: hsl(0deg 0% 100%);
+  color: hsl(0, 0%, 100%);
 }
 
 /* highlighting */
