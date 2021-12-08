@@ -15,7 +15,7 @@
     While this might represent an inconvenience for a short amount of time, we are sure that 3rd party content authors will be quick to provide you with updated liveries and programs.
 
     **Convert Your Liveries:**
-    
+
     - See our guide to [liveries](../liveries.md)
     - Visit Flightsim.to with updated liveries [here](https://flightsim.to/c/liveries/flybywire-a32nx/){target=new}
 
@@ -31,7 +31,7 @@
     We don't know, since it depends on many factors. We will announce each Stable build update via [Discord](https://discord.gg/flybywire){target=new} and our social media: [Facebook](https://www.facebook.com/FlyByWireSimulations){target=new}, [Twitter](https://twitter.com/FlybywireSim){target=new}.
 
 ??? info "Q: How do I join the team?"
-    Head over to [A32NX Development Overview](../../dev-corner/development-guide.md) and join our Discord to get started.
+    Head over to [A32NX Development Overview](../../dev-corner/dev-guide/index.md) and join our Discord to get started.
 
 ??? info "Q: Is it payware?"
     No, it is a completely free aircraft, open-source.
