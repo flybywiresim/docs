@@ -50,7 +50,7 @@
 
 ---
 
-## Known A32NX Issues
+## Known A32NX Bugs
 
 *Last Update: {{git_revision_date_localized}}*
 
@@ -69,7 +69,7 @@ TEMPLATE
 
 -->
 
-??? failure "Invisible Aircraft"
+??? bug "Invisible Aircraft"
     ### Invisible Aircraft
 
     !!! tip ""
@@ -101,7 +101,7 @@ TEMPLATE
 
     Information on how to install with the FlyByWire Installer can be found here: [Installation Guide](../installation.md).
 
-??? failure "Bad Performance after Sim Update 7 and Using DX12"
+??? bug "Bad Performance after Sim Update 7 and Using DX12"
     ### Poor Performance After Sim Update 7 and Using DX12
 
     !!! tip ""
@@ -123,7 +123,7 @@ TEMPLATE
     DX12 is officially a "beta feature" and thus should not be used unless
     you know what you are doing.
 
-??? failure "Mouse Lock Caused by EFB Input Field"
+??? bug "Mouse Lock Caused by EFB Input Field"
     ### Mouse Lock Caused by EFB Input Field
 
     !!! tip ""
@@ -148,7 +148,7 @@ TEMPLATE
     - At the bottom type in - `Coherent.call('UNFOCUS_INPUT_FIELD')`
     - Press ++enter++
 
-??? failure "MSFS Freezes after **Ready To Fly**"
+??? bug "MSFS Freezes after **Ready To Fly**"
     ### MSFS Freezes after **Ready To Fly**
 
     !!! tip ""
@@ -173,7 +173,7 @@ TEMPLATE
     ^^Additional Information^^
     Also see [Unwanted behavior - UTF8](#unwanted-behavior---utf8)
 
-??? failure "Nose Wheel Steering Locked (NW STRG DISC)"
+??? bug "Nose Wheel Steering Locked (NW STRG DISC)"
     ### Nose Wheel Steering Locked (NW STRG DISC)
 
     !!! tip ""
@@ -191,7 +191,7 @@ TEMPLATE
     - Remove the addon from your community folder or wait for developer to update.
     - Use our EFB which has built in pushback controls or another addon.
 
-??? failure "Unable to Taxi / Aircraft Does Not Move"
+??? bug "Unable to Taxi / Aircraft Does Not Move"
     ### Unable to Taxi / Aircraft Does Not Move
 
     !!! tip ""
@@ -209,7 +209,7 @@ TEMPLATE
     - Remove the addon from your community folder or wait for developer to update.
     - Use our EFB which has built in pushback controls or another addon.
 
-??? failure "Autopilot, FADEC, Electrical Systems not Working as Intended (UTF8 Issue)"
+??? bug "Autopilot, FADEC, Electrical Systems not Working as Intended (UTF8 Issue)"
     ### Autopilot, FADEC, Electrical Systems not Working as Intended (UTF8 Issue)
 
     !!! tip ""
@@ -233,7 +233,7 @@ TEMPLATE
          - Click ++"OK"++ and restart your computer.
     2. - Ensure `simconnect.cfg` does not appear in your Documents folder on your computer.
 
-??? failure "Black Screens / Unable to Start"
+??? bug "Black Screens / Unable to Start"
     ### Black Screens / Unable to Start
 
     !!! tip ""
@@ -256,6 +256,7 @@ TEMPLATE
     Also see [Autopilot, FADEC, Electrical Systems not Working as Intended](#autopilot-fadec-electrical-systems-not-working-as-intended).
 
 ---
+## Known A32NX Issues
 
 ??? warning "WX Radar Does Not Update"
     ### WX Radar Does Not Update
@@ -536,6 +537,7 @@ TEMPLATE
     ^^Additional Information^^
 
 ---
+## A32NX Config/Usage Issues
 
 ??? tip "++ctrl+'E'++ -  Engine Start Unsupported"
     ### ++ctrl+'E'++ -  Engine Start Unsupported
@@ -622,9 +624,9 @@ TEMPLATE
 
 ---
 
-## Common MSFS Issues impacting all Aircraft
+## Common MSFS Issues Impacting All Aircraft
 
-??? failure "CTD (Crash to Desktop)"
+??? bug "CTD (Crash to Desktop)"
     ### CTD (Crash to Desktop)
 
     !!! tip ""
@@ -685,7 +687,7 @@ TEMPLATE
 
         It could be anything from a usb drive to a controller. Please try to minimise how many peripherals you have connected.
 
-??? failure "Latest Nvidia Driver Causes CTD"
+??? bug "Latest Nvidia Driver Causes CTD"
     ### Latest Nvidia Driver Causes CTD
 
     !!! tip ""
@@ -703,7 +705,7 @@ TEMPLATE
 
     Driver version `472.47` seems to be compatible as reported by one of our contributors.
 
-??? failure "CTD When Pressing **FLY** on World Menu"
+??? bug "CTD When Pressing **FLY** on World Menu"
     ### CTD when pressing **FLY** on world menu
 
     !!! tip ""
@@ -715,7 +717,7 @@ TEMPLATE
 
      Check your content manager for missing packages
 
-??? failure "Aircraft Invisible"
+??? bug "Aircraft Invisible"
     ### Aircraft invisible
 
     !!! tip ""
@@ -921,6 +923,7 @@ TEMPLATE
     Use a static weather preset for your flight.
 
 ---
+## Known A32NX Incompatibilities
 
 ??? warning "Incompatibilities"
     ### Incompatibilities
@@ -932,6 +935,7 @@ TEMPLATE
     - Wipers don't function correctly with converted FSX Liveries
 
 ---
+## A32NX Fixed Issues
 
 ??? info "Fixed Issues"
     ## Fixed Issues
@@ -998,7 +1002,7 @@ TEMPLATE
 
 ## Legend
 
-!!! failure "Breaking Issue"
+!!! bug "Breaking Issue /Bug"
 !!! warning "Non Breaking Issue / Inconvenience"
 !!! tip "Config Issue / Usage Issue"
 
