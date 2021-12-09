@@ -424,7 +424,7 @@ TEMPLATE
 
     ^^Root Cause^^
 
-    MSFS blocks all other inputs when using freelook with right mouse buttons pressed.
+    MSFS blocks all other inputs when using freelook with mouse button pressed.
 
     ^^Possible Solution or Workaround^^
 
@@ -433,6 +433,24 @@ TEMPLATE
     ^^Additional Information^^
 
     Reference: [MSFS Forum Post](https://forums.flightsimulator.com/t/freelook-with-mouse-causes-controls-to-freeze-after-su5/426349/15){target=new}
+
+??? warning "TCA Throttle Autobrake Disengages While Looking Around"
+    ### TCA Throttle Autobrake Disengages While Looking Around
+
+    !!! tip ""
+        *Affected versions: Stable, Development*
+
+    ^^Description^^
+
+    MSFS blocks all other inputs when using freelook with mouse button pressed. The TCA knob for Autobrake setting will be lost if this block lasts longer than 1.5sec.
+
+    ^^Root Cause^^
+
+    See the root cause here: [Controls Freeze up While Looking Around](#controls-freeze-up-while-looking-around)
+
+    ^^Possible Solution or Workaround^^
+
+    Do not look around the cockpit for >1.5sec
 
 ??? warning "Cockpit Decals Flicker"
     ### Cockpit Decals Flicker

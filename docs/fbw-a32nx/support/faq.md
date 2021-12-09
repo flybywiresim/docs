@@ -26,7 +26,7 @@
     We don't know when the next update will be, however you can keep track of development in our [Discord](https://discord.gg/flybywire){target=new} channels `#progress and #a32nx-releases`. Our social media: [Facebook](https://www.facebook.com/FlyByWireSimulations){target=new}, [Twitter](https://twitter.com/FlybywireSim){target=new} will share any new updates!
 
 ??? info "Q: How do I join the team?"
-    Head over to [A32NX Development Overview](../../dev-corner/development-guide.md) and join our Discord to get started.
+    Head over to [A32NX Development Overview](../../dev-corner/dev-guide/index.md) and join our Discord to get started.
 
 ??? info "Q: Is it payware?"
     No, it is a completely free aircraft, open-source.

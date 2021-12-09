@@ -107,7 +107,7 @@ Flight Deck:  [EXT LT Panel](flight-deck/ovhd/ext-lt.md)
 |              | LIGHT LOGO            | 0 \| 1 | R/W        | SIMCONNECT VAR   | LOGO does not move switch                                          |
 |              |                       |        |            |                  |                                                                    |
 | RWY TURN OFF | CIRCUIT SWITCH ON:21  | 0 \| 1 | R/W        | SIMCONNECT VAR   | Left Rwy Turn Off Light + Switch                                   |
-|              | CIRCUIT SWITCH ON:22  | 0 \| 1 | R/W        | SIMCONNECT VAR   | Left Rwy Turn Off Light                                            |
+|              | CIRCUIT SWITCH ON:22  | 0 \| 1 | R/W        | SIMCONNECT VAR   | Right Rwy Turn Off Light                                               |
 |              | LIGHTING_TAXI_2       | 0 \| 1 | R          | Custom LVAR      |                                                                    |
 |              |                       |        |            |                  |                                                                    |
 | LAND L + R   | LANDING_LIGHTS_ON     | 0..3   | -          | SIMCONNECT EVENT | 0=all, 1=NOSE, 2=L, 3=R                                            |
