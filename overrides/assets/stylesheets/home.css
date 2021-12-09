@@ -13,9 +13,12 @@
 }
 
 .container {
+    display: flex;
+    flex-direction: row;
+    padding-left: 5rem;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    background: url("../../assets/hero-image.jpg"), #1d1e26;
+    background: url("../../assets/images/doc-hero-bg-new.png") #4e4e4e;
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
@@ -36,7 +39,6 @@
 
 .hero h1 {
     margin-bottom: 1.15rem;
-    color: currentColor;
     font-weight: 650;
     text-transform: none;
 }
@@ -110,7 +112,7 @@
 @media screen and (max-width:480px) {
     .container {
         padding-top: 1.5rem;
-        background: url("../../assets/hero-image.jpg"), #1d1e26;
+        background: url("../../assets/images/doc-hero-bg-new.png"), #4e4e4e;
         background-repeat: no-repeat;
         background-size: cover;
         background-blend-mode: overlay;
