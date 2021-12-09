@@ -4,29 +4,29 @@
     The A32NX is now a separate aircraft from the default, you need to select this aircraft in the 'aircraft selection' menu prior to loading the flight. The add-on will appear as a separate aircraft, select the `FlyByWire Simulations A320neo (LEAP)` in the aircraft selector instead of the Asobo one.
 
 ??? info "Q: Can I download the aircraft in the current state?"
-    Yes, see [Downloads](../installation.md#downloads).
+    Yes, see [Downloads](installation.md#downloads).
 
 ??? info "Q: How do I install this aircraft?"
-    Visit our [Installation Guide](../installation.md).
+    Visit our [Installation Guide](installation.md).
 
 ??? info "Q: What liveries are available?"
-    Liveries working for the default A320neo will not be compatible with the A32NX. We recommend downloading your liveries from [Flightsim.to](https://flightsim.to/c/liveries/flybywire-a32nx/){target=new}.
+    Liveries for the default A320neo will not be compatible with the A32NX. We recommend downloading compatible liveries from [Flightsim.to](https://flightsim.to/c/liveries/flybywire-a32nx/){target=new}.
 
     **Convert Your Liveries:**
-    - See our guide to [liveries](../liveries.md)
+    - See our guide to [liveries](liveries.md)
 
 ??? info "Q: Do we have a simBrief profile for the A32NX?"
-    Yes, we have one available for our Stable, Development, and Experimental versions where you can find the most updated profiles by visiting our Simbrief Airframes [here](../installation.md#simbrief-airframe).
+    Yes, we have one available for our Stable, Development, and Experimental versions. You can find the most updated profiles by visiting our Simbrief Airframes [here](installation.md#simbrief-airframe).
 
 
 ??? info "Q: When will it be released?"
-    The project is an ongoing rolling release. See [Downloads](../installation.md#downloads).
+    The project is an ongoing rolling release. See [Downloads](installation.md#downloads).
 
 ??? info "Q: When is the next update?"
-    We don't know when the next update will be, however you can keep track of development in our [Discord](https://discord.gg/flybywire){target=new} channels `#progress and #a32nx-releases`. Our social media: [Facebook](https://www.facebook.com/FlyByWireSimulations){target=new}, [Twitter](https://twitter.com/FlybywireSim){target=new} will share any new updates!
+    We don't know when the next update will be, however you can keep track of development via commit logs and Stable release logs [here](fbw-versions.md).
 
 ??? info "Q: How do I join the team?"
-    Head over to [A32NX Development Overview](../../dev-corner/dev-guide/index.md) and join our Discord to get started.
+    Head over to [A32NX Development Overview](../dev-corner/dev-guide/index.md) and join our Discord to get started.
 
 ??? info "Q: Is it payware?"
     No, it is a completely free aircraft, open-source.
@@ -41,14 +41,14 @@
 
     **Stable**
 
-    The Stable version is a 'snapshot' of the development which we regard as stable with the current version of the simulator. See [Downloads](../installation.md#downloads).
+    The Stable version is a 'snapshot' of the development which we regard as stable with the current version of the simulator. See [Downloads](installation.md#downloads).
 
     **Development**
 
-    The Development build is updated daily and is a constant work in progress and although we test each update thoroughly, minor issues may occur from time to time. See [Downloads](../installation.md#downloads).
+    The Development build is updated daily and is a constant work in progress and although we test each update thoroughly, minor issues may occur from time to time. See [Downloads](installation.md#downloads).
 
 ??? info "Q: What is the Experimental Version?"
-    The Experimental Version is the Development build with a custom project added where highly experimental features are tested. These builds are subject to various bugs and errors, which are often changed daily. Users can use this build with the caveat that it is not supported in the `#support` channel.
+    Please read more [here](support/exp.md).
 
 ---
 
