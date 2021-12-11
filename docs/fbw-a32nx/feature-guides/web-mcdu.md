@@ -32,7 +32,7 @@ This will open a command window providing you with links for your browser to acc
 
 ### Browser on Local PC
 
-If you want to use a browser on the some machine where you are running the Microsoft Flight Simulator and the MCDU Server it is very easy to connect to the MCDU Web Interface.
+If you want to use a browser on the same machine on which you are running the Microsoft Flight Simulator and the MCDU Server it is very easy to connect to the MCDU Web Interface.
 
 Just use ++ctrl+left-button++ on the `localhost`link in the command window and your browser should open the MCDU Web Interface in your default browser.
 
@@ -42,17 +42,18 @@ Just use ++ctrl+left-button++ on the `localhost`link in the command window and y
 
 If you want to use the MCDU Web Interface from a remote device (e.g. tablet, phone, 2nd PC, etc.) you need to first make sure you can access the MCDU Web Interface on your PC by allowing incoming network connections to the server through your Windows Firewall. See how to do this here: [Windows Firewall](#windows-firewall)
 
-You also need to know the correct network address of your PC running the MCDU Server.
+The MCDU Server command window tries to guess your IP address. Use the `http://xxx.xxx.xxx.xxx:8125` address and enter it into your browser on the remote device.
 
-The MCDU Server command windows tries to guess your IP address but sometimes this is not the correct one you need to connect from a remote device.
+!!! note "Incorrect IP Address "
+    Sometimes a wrong IP address will be shown in the MCDU Server command window and it will not be possible to connect to the MCDU Server from a remote device.
 
-To find your correct IP address follow this guide: [How to Find Your IP Address on Windows 11](https://www.howtogeek.com/744082/how-to-find-your-ip-address-on-windows-11/){target=new}
+    To find your correct IP address follow this guide: [How to Find Your IP Address on Windows 11](https://www.howtogeek.com/744082/how-to-find-your-ip-address-on-windows-11/){target=new}
 
-The port is always set to 8125.
+    The port is always set to 8125.
 
-Enter the correct IP address and port into the remote device's browser address line and hit enter.
+    Enter the correct IP address and port into the remote device's browser address line and hit enter.
 
-Example: http://192.168.16.1:8125
+    Example: http://192.168.16.1:8125
 
 ## How to Use the MCDU Web Interface
 
