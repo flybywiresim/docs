@@ -6,6 +6,7 @@
 title: FlyByWire A32NX
 nav:
     - Overview: index.md
+    - Common Questions: faq.md
     - fbw-versions.md
     - installation.md
     - liveries.md
