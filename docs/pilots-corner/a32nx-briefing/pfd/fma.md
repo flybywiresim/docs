@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../../../../stylesheets/pfd-interactive.css">
 
-# Flight Mode Annunciators
+# Flight Mode Annunciator
 ---
 
 <div style="position: relative; width: 413px; height: auto; margin-left: auto;  margin-right: auto;">
@@ -41,20 +41,20 @@ The FMA has various ways to signify different states:
 - Armed flight modes are displayed in cyan text.
 - Changed modes have a white box around the new annunciation for 10 seconds.
 
-Each of the 5 columns at the top of the PFD will display different types of Flight Mode Annunciators. You can learn more about each annunciator by clicking on each column on the PFD below.
+Each of the 5 columns at the top of the PFD will display different types of Flight Mode Annunciations. You can learn more about each annunciation by clicking on each column on the PFD below.
 
-There are also some annunciators that take up two columns. These can either be Special Message Annunciators or Common Mode Annunciators.
+There are also some annunciations that take up two columns. These can either be Special Message Annunciations or Common Mode Annunciations.
 
 ---
 
 ## Chapters
 
-- [First Column (Autothrust Mode Annunciators)](first-column.md)
-- [Second Column (Vertical Mode Annunciators)](second-column.md)
-- [Third Column (Lateral Mode Annunciators)](third-column.md)
-- [Fourth Column (Approach Annunciators)](fourth-column.md)
-- [Fifth Column (Autopilot Status Annunciators)](fifth-column.md)
-- [Special Message and Common Mode Annunciators](special-message-annunciators.md)
+- [First Column (Autothrust Mode Annunciations)](first-column.md)
+- [Second Column (Vertical Mode Annunciations)](second-column.md)
+- [Third Column (Lateral Mode Annunciations)](third-column.md)
+- [Fourth Column (Approach Annunciations)](fourth-column.md)
+- [Fifth Column (Autopilot Status Annunciations)](fifth-column.md)
+- [Special Message and Common Mode Annunciations](special-message-annunciators.md)
 
 ---
 
