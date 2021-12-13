@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../../../../stylesheets/pfd-interactive.css">
 
-# Autothrust Mode Annunciators
+# Autothrust Mode Annunciations
 
 <div style="position: relative; width: 413px; height: auto; margin-left: auto;  margin-right: auto;">
     <img src="/pilots-corner/assets/a32nx-briefing/pfd/pfd-small.png" style="width: 413px; height: auto;">

@@ -1,7 +1,6 @@
 <link rel="stylesheet" href="../../../../stylesheets/pfd-interactive.css">
 
-# Autopilot Status Annunciators
-
+# Autopilot Status Annunciations
 <div style="position: relative; width: 413px; height: auto; margin-left: auto;  margin-right: auto;">
     <img src="/pilots-corner/assets/a32nx-briefing/pfd/pfd-small.png" style="width: 413px; height: auto;">
     <a href="/pilots-corner/a32nx-briefing/pfd/fma/">               <div class="imagemap highlighted" style="position: absolute; left:     0%; top:     0%; width:   100%; height: 15.00%;"><span class="imagemapname">Flight Mode Annunciators</span></div></a>
