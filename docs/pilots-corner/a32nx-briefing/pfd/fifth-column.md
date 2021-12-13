@@ -29,7 +29,7 @@
 
 ## Description
 
-This column tells the pilot which autopilot and which flight director is activated. It will also display the engagement status of the autothrust.
+This column displays the autotthrust modes that are armed or active, as well as any requested pilot actions.
 
 ---
 
