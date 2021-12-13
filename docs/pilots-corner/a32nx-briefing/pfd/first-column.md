@@ -40,7 +40,7 @@ Displayed with white text surrounded by a white box. This is displayed when Auto
 
 ### MAN FLX XX
 
-Displayed with white text surrounded by a white box. The numbers are blue. Displayed when Autothrust is armed and at least one thrust lever is in the MCT/FLX detent. The FLX TO temp will be displayed as XX in blue.
+Displayed with white text surrounded by a white box. The numbers are blue. Displayed when Autothrust is armed and at least one thrust lever is in the MCT/FLX detent and the other is at or below this detent. The FLX TO temp will be displayed as XX in blue.
 
 ### MAN MCT
 
