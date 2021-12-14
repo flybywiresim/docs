@@ -46,7 +46,7 @@ After this the MCDU Server will start and will provide you with links for your l
 
 If you want to use a browser on the same machine on which you are running the Microsoft Flight Simulator and the MCDU Server it is very easy to connect to the MCDU Web Interface.
 
-Just use ++ctrl+left-button++ on the `localhost`link in the command window and it should open the MCDU Web Interface in your default browser.
+Just use ++ctrl+left-button++ on the `localhost` link in the command window and it should open the MCDU Web Interface in your default browser.
 
 [http://localhost:8125](http://localhost:8125){target=new}
 
