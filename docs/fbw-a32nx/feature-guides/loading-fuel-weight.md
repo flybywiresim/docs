@@ -1,22 +1,6 @@
 # Fuel and Weight
 
-<style>
-.md-typeset .admonition.info {
-    display: flow-root;
-    overflow: visible;
-    padding-top: 0;
-    font-size: 0.75rem;
-}
-.md-typeset .admonition-title, .md-typeset summary {
-    background-color: rgba(68,138,255,.1);
-    border-left: .2rem solid #448aff;
-    font-weight: 700;
-    font-size: 0.7rem;
-    margin: 0 -.6rem 0 -.8rem;
-    padding: .4rem .6rem .4rem 2rem;
-    position: relative;
-}
-</style>
+<link rel="stylesheet" href="/../../stylesheets/fuel-weight.css">
 
 This section provides information on the A32NX weights configuration and insight on how to utilize and reference onboard/sim features to configure the aircraft appropriately for departure.
 
