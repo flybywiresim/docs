@@ -27,7 +27,7 @@ Double click on the `server.exe` file to start the MCDU Server.
 
 Once started the MCDU Server application will ask if you want to use your real printer instead of the virtual printer in the cockpit.
 
-If you choose to use your real printer the press ++y++ after which you need to select which printer you want to use. The MCDU Server will list all printers available in your Windows.
+If you choose to use your real printer then press ++y++, after which you need to select which printer you want to use. The MCDU Server will list all printers available in your Windows.
 
 If you do not want to use your printer select ++n++.
 
