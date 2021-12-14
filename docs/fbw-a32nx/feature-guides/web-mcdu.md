@@ -38,7 +38,7 @@ After this the MCDU Server will start and will provide you with links for your l
 ![MCDU Server Command Window](../assets/mcdu-server/mcdu-server-cmd-window.png "MCDU Server Command Window")
 
 !!! warning "IP Address for Remote Device"
-    The IP address shown for the remote device might be incorrect. The tool pics the first local address it finds put there is a chance that you need to use a different ip address to reach your PC.
+    The IP address shown for the remote device might be incorrect. The tool chooses the first local address it finds put there is a chance that you need to use a different IP address to reach your PC.
 
     Details see in chapter [Browser on Remote Device](#browser-on-remote-device)
 
