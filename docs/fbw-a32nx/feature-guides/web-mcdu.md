@@ -7,6 +7,8 @@ The MCDU Web Interface allows you to display and control the MCDU on any browser
 !!! note "MCDU Web Interface on iPad"
     ![Web MCDU Interface on the iPad](../assets/mcdu-server/web-mcdu-ipad.png "Web MCDU Interface on the iPad"){loading=lazy}
 
+It also allows to use your real printer to be used as a cockpit printer for the MCDU.
+
 ## Starting the MCDU Web Interface
 
 ### Start the MCDU Web Interface Server
@@ -21,7 +23,17 @@ To do this locate the `flybywire-aircraft-a320-neo` folder in your MSFS Communit
 
 Double click on the `server.exe` file to start the MCDU Server.
 
-This will open a command window providing you with links for your browser to access the MCDU Web Interface. **You will need to keep this window open to use the MCDU Web Interface***.
+!!! tip "You can also you as a command line prompt to start the server."
+
+Once started the MCDU Server application will ask if you want to use your real printer instead of the virtual printer in the cockpit.
+
+If you choose to use your real printer the press ++y++ after which you need to select which printer you want to use. The MCDU Server will list all printers available in your Windows.
+
+If you do not want to use your printer select ++n++.
+
+After this the MCDU Server will start and will provide you with links for your local browser to access the MCDU Web Interface.
+
+**You will need to keep this window open and the MCDU Server running to use the MCDU Web Interface**.
 
 ![MCDU Server Command Window](../assets/mcdu-server/mcdu-server-cmd-window.png "MCDU Server Command Window")
 
@@ -34,9 +46,13 @@ This will open a command window providing you with links for your browser to acc
 
 If you want to use a browser on the same machine on which you are running the Microsoft Flight Simulator and the MCDU Server it is very easy to connect to the MCDU Web Interface.
 
-Just use ++ctrl+left-button++ on the `localhost`link in the command window and your browser should open the MCDU Web Interface in your default browser.
+Just use ++ctrl+left-button++ on the `localhost`link in the command window and it should open the MCDU Web Interface in your default browser.
 
 [http://localhost:8125](http://localhost:8125){target=new}
+
+If you want to start with only the MCDU display then add "/fullscreen" to the url.
+
+[http://localhost:8125/fullscreen](http://localhost:8125/fullscreen){target=new}
 
 ### Browser on Remote Device
 
@@ -55,6 +71,8 @@ The MCDU Server command window tries to guess your IP address. Use the `http://x
 
     Example: http://192.168.16.1:8125
 
+If you want to start with only the MCDU display then add "/fullscreen" to the url.
+
 ## How to Use the MCDU Web Interface
 
 The MCDU Web Interface can then be used by mouse (our touch on touch enabled devices).
@@ -62,6 +80,10 @@ The MCDU Web Interface can then be used by mouse (our touch on touch enabled dev
 It is also possible to click on the MCDU screen items themselves to actually click the corresponding LSK (Line Select Key).
 
 Changes done in the MCDU Web Interface will be reflected immediately in the cockpit and vice versa. Any change in the cockpit will be immediately shown in the MCDU Web Interface.
+
+If you want only the MCDU display to be shown then tap on the top-most part of the MCDU display. To return to full MCDU view tap anywhere on the display.
+
+If you want to start with only the MCDU display then add "/fullscreen" to the url.
 
 ## Windows Firewall
 
