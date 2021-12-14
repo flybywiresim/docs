@@ -27,8 +27,9 @@
     overflow: auto;
     text-align: center;
 }
-.md-typeset img, .md-typeset svg {
-    height: auto;
-    max-width: 100%;
-    vertical-align: text-bottom;
-}
+/*8.1.1 compatibility*/
+/*.md-typeset img, .md-typeset svg {*/
+/*    height: auto;*/
+/*    max-width: 100%;*/
+/*    vertical-align: text-bottom;*/
+/*}*/

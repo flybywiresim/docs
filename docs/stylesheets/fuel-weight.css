@@ -1,0 +1,13 @@
+.md-typeset .admonition.info {
+    display: flow-root;
+    overflow: visible;
+    padding-top: 0;
+    font-size: 0.75rem;
+}
+.md-typeset .admonition-title, .md-typeset summary {
+    font-weight: 700;
+    font-size: 0.7rem;
+    margin: 0 -.6rem 0 -.8rem;
+    padding: .4rem .6rem .4rem 2rem;
+    position: relative;
+}
