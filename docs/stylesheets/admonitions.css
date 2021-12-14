@@ -1,9 +1,4 @@
-/*Additional Modifications*/
-.md-typeset .admonition {
-  border-left: .2rem solid #00C2CB;
-  border-color: #00C2CB;
-}
-/*Admonition Question Variant*/
+/*Admonition Modifications*/
 /*Upper Section*/
 .md-typeset .question>.admonition-title, .md-typeset .question>summary,
 .md-typeset .faq>.admonition-title, .md-typeset .faq>summary,
