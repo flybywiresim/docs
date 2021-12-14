@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../../../../stylesheets/pfd-interactive.css">
 
-# Approach Annunciators
+# Approach Annunciations
 
 <div style="position: relative; width: 413px; height: auto; margin-left: auto;  margin-right: auto;">
     <img src="/pilots-corner/assets/a32nx-briefing/pfd/pfd-small.png" style="width: 413px; height: auto;">
@@ -30,10 +30,10 @@
 
 ## Description
 
-These annunciators are related to the approach flight phase. They show the category of approach that the aircraft is capable of as well as the DH or MDA (if selected).
+These annunciations are related to the approach flight phase. They show the category of approach that the aircraft is capable of as well as the DH or MDA (if selected).
 
 !!! note ""
-    These annunciators are showing the aircraft's capabilities and are independent from the actual airport and runway capabilities.
+    These annunciations are showing the aircraft's capabilities and are independent from the actual airport and runway capabilities.
 
 ---
 

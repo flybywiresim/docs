@@ -1,11 +1,11 @@
 <link rel="stylesheet" href="../../../../stylesheets/pfd-interactive.css">
 
-# Flight Mode Annunciators
+# Flight Mode Annunciator
 ---
 
 <div style="position: relative; width: 413px; height: auto; margin-left: auto;  margin-right: auto;">
     <img src="/pilots-corner/assets/a32nx-briefing/pfd/pfd-small.png" style="width: 413px; height: auto;">
-    <a href="/pilots-corner/a32nx-briefing/pfd/fma/">               <div class="imagemap highlighted" style="position: absolute; left:     0%; top:     0%; width:   100%; height: 15.00%;"><span class="imagemapname">Flight Mode Annunciators</span></div></a>
+    <a href="/pilots-corner/a32nx-briefing/pfd/fma/">               <div class="imagemap highlighted" style="position: absolute; left:     0%; top:     0%; width:   100%; height: 15.00%;"><span class="imagemapname">Flight Mode Annunciator</span></div></a>
     <a href="/pilots-corner/a32nx-briefing/pfd/altitude-indicator/"><div class="imagemap"             style="position: absolute; left: 72.60%; top: 20.00%; width: 16.00%; height: 58.00%;"><span class="imagemapname">Altitude Indicator</span></div></a>
     <a href="/pilots-corner/a32nx-briefing/pfd/vertical-speed/">    <div class="imagemap"             style="position: absolute; left: 89.00%; top: 18.15%; width: 11.00%; height: 64.20%;"><span class="imagemapname">Vertical Speed Indicator</span></div></a>
     <a href="/pilots-corner/a32nx-briefing/pfd/baro-ref/">          <div class="imagemap"             style="position: absolute; left: 74.04%; top: 81.00%; width: 19.44%; height:   5.8%;"><span class="imagemapname">Barometric Reference</span></div></a>
@@ -41,20 +41,20 @@ The FMA has various ways to signify different states:
 - Armed flight modes are displayed in cyan text.
 - Changed modes have a white box around the new annunciation for 10 seconds.
 
-Each of the 5 columns at the top of the PFD will display different types of Flight Mode Annunciators. You can learn more about each annunciator by clicking on each column on the PFD below.
+Each of the 5 columns at the top of the PFD will display different types of Flight Mode Annunciations. You can learn more about each annunciation by clicking on each column on the PFD below.
 
-There are also some annunciators that take up two columns. These can either be Special Message Annunciators or Common Mode Annunciators.
+There are also some annunciations that take up two columns. These can either be Special Message Annunciations or Common Mode Annunciations.
 
 ---
 
 ## Chapters
 
-- [First Column (Autothrust Mode Annunciators)](first-column.md)
-- [Second Column (Vertical Mode Annunciators)](second-column.md)
-- [Third Column (Lateral Mode Annunciators)](third-column.md)
-- [Fourth Column (Approach Annunciators)](fourth-column.md)
-- [Fifth Column (Autopilot Status Annunciators)](fifth-column.md)
-- [Special Message and Common Mode Annunciators](special-message-annunciators.md)
+- [First Column (Autothrust Mode Annunciations)](first-column.md)
+- [Second Column (Vertical Mode Annunciations)](second-column.md)
+- [Third Column (Lateral Mode Annunciations)](third-column.md)
+- [Fourth Column (Approach Annunciations)](fourth-column.md)
+- [Fifth Column (Autopilot Status Annunciations)](fifth-column.md)
+- [Special Message and Common Mode Annunciations](special-message-annunciators.md)
 
 ---
 
