@@ -80,7 +80,7 @@ If you use externally configured controls using SPAD.neXt, FSUIPC or Axis and Oh
 
 ### Pedal Disconnect Button
 
-The tiller handwheel has a button to disconnect any input from rudder pedals or autopilot so that only the tiller handwheel itself controls the nose wheel.
+The tiller handwheel has a button to disconnect any input from rudder pedals to the nose wheel.
 
 Again Microsoft Flight Simulator does not support this directly so we again reused an existing option to map a key or button to this.
 
