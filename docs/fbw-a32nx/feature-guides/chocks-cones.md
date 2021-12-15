@@ -6,9 +6,11 @@ The A32NX has gotten some additional safety features with Wheel Chocks and GSE S
 
 !!! block ""
 
-    ![GSE Safety Cone](../assets/feature-guides/chocks-cones/cones.png "GSE Safety Cone"){loading=lazy align=left width=30%}
-    ![Wheel Chocks](../assets/feature-guides/chocks-cones/chocks.png "Wheel Chocks"){loading=lazy align=left width=30%}
-    ![EFB Ground Buttons for Chocks and Cones](../assets/feature-guides/chocks-cones/efb-ground-chocks-cones-.png "EFB Ground Buttons for Chocks and Cones"){loading=lazy align=left width=30%}
+    ![Wheel Chocks](../assets/feature-guides/chocks-cones/chocks.png "Wheel Chocks"){loading=lazy align=left width=45%}
+    ![Wheel Chocks](../assets/feature-guides/chocks-cones/chocks_2.png "Wheel Chocks"){loading=lazy align=left width=45%}
+     <br>
+    ![GSE Safety Cone](../assets/feature-guides/chocks-cones/cones.png "GSE Safety Cone"){loading=lazy align=left width=45%}
+    ![EFB Ground Buttons for Chocks and Cones](../assets/feature-guides/chocks-cones/efb-ground-chocks-cones-.png "EFB Ground Buttons for Chocks and Cones"){loading=lazy align=left width=45%}
 
 Other than just looking gorgeous the wheel chocks even apply some braking force to hold the aircraft in place.
 
