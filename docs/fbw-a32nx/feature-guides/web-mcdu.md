@@ -144,7 +144,7 @@ However there will be browsers where this will not work. In this case we recomme
 
 We have tested these browsers during the development and these should therefore work ok:
 
-- Windows 11: Edge, Firefox, Chrome (current versions)
+- Windows: Edge, Firefox, Chrome (current versions)
 - iOS: Safari, Firefox, Edge, Chrome (current versions)
 - Android: Chrome, Edge (current versions)
 - Mac OS: Safari, Firefox, Edge, Chrome (current versions)
