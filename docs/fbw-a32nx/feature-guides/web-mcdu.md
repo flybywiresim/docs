@@ -2,7 +2,9 @@
 
 ## Overview
 
-The MCDU Web Interface allows you to display and control the MCDU on any browser including mobile devices like phones or tablets.
+The MCDU Web Interface allows you to display and control the MCDU on a browser including browsers on mobile devices like phones or tablets.
+
+See list of compatible and tested browsers: [Compatible Browsers](#compatible-browsers)
 
 !!! note "MCDU Web Interface on iPad"
     ![Web MCDU Interface on the iPad](../assets/mcdu-server/web-mcdu-ipad.png "Web MCDU Interface on the iPad"){loading=lazy}
@@ -131,6 +133,23 @@ The websocket port is the port where the MCDU Web Interface will communicate wit
 This will allow to have different UI implementations or even hardware MCDUs in the future. We plan to eventually also create a separate documentation for using this websocket connection directly.
 
 We recommend to **not** change the default port for the websocket. If you have to change this port because it is already occupied on your machine you need to change it as well in the EFB Sim Options Settings page.
+
+## Compatible Browsers
+
+With hundreds of different browsers available today it is not possible to test and support all browsers and their different versions.
+
+In general we expect this feature to work with the common standard browsers on Windows, iOS, Android.
+
+However there will be browsers where this will not work. In this case we recommend to use a standard browser.
+
+We have tested these browsers during the development and these should therefore work ok:
+
+- Windows 11: Edge, Firefox, Chrome (current versions)
+- iOS: Safari, Firefox, Edge, Chrome (current versions)
+- Android: Chrome, Edge (current versions)
+- Mac OS: Safari, Firefox, Edge, Chrome (current versions)
+- Linux:
+
 
 ## Windows Firewall
 
