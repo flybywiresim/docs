@@ -28,4 +28,4 @@ The Wheel Chocks and Safety Cones appear when the following conditions are given
 
 If chocks are in place there will be brake force applied to the aircraft so it should not move even when the parking brake is disengaged.
 
-If any of the above conditions is not given the checks and cones will disappear (ground crew will virtually have them removed).
+If any of the above conditions is not given the chocks and cones will disappear (ground crew will virtually have them removed).
