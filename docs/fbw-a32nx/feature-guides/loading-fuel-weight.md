@@ -93,6 +93,16 @@ Get our [simBrief Profile](../installation.md#simbrief-airframe) for the Develop
 - Passenger Weight: 104 (in kilograms)
     - 84 kg for passenger (including clothing and carry-on bags)
     - 20 kg for checked luggage
+- Passenger compartments: 4
+    - ECONOMY ROWS 1-6 (seats: 36 max: 6670lbs/3024kg)
+    - ECONOMY ROWS 7-13 (seats: 42 max: 7780lb/3530kg)
+    - ECONOMY ROWS 14-21 (seats: 48 max: 8880lb/4032kg)
+    - ECONOMY ROWS 22-29 (seats: 48 max: 8880lb/4032kg)
+- Cargo Compartments: 4
+    - FWD BAGGAGE/CONTAINER (max: 5600lb/2540kg)
+    - AFT CONTAINER (max: 4000lb/1815kg)
+    - AFT BAGGAGE (max: 3500lb/1585kg)
+    - AFT BULK/LOOSE (max: 2750lb/1245kg)
 
 ### Loading Fuel and Weight
 
