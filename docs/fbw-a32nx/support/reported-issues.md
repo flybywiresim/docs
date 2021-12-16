@@ -822,8 +822,8 @@ TEMPLATE
 
     Also see this post on the MSFS forum: [Navigraph airac cycle 2112-load MSFS Database is empty](https://forums.flightsimulator.com/t/navigraph-airac-cycle-2112-load-msfs-database-is-empty-no-vors-sids-or-stars/479371){target=new}
 
-??? warning "MSFS Anit-Ice vs. De-Ice Functionality"
-    ### MSFS Anit-Ice vs. De-Ice Functionality
+??? warning "MSFS Anti-Ice vs. De-Ice Functionality"
+    ### MSFS Anti-Ice vs. De-Ice Functionality
 
     ^^Description^^
 
