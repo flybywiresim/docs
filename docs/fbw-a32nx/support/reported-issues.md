@@ -631,11 +631,11 @@ TEMPLATE
         *Affected versions: Stable, Development*
 
     ^^Description^^
-    
+
     Reports on the MSFS forums note that CTD's are happening after updating to the latest driver's from Nvidia. See - [this forum post](https://forums.flightsimulator.com/t/new-nvidia-497-09-always-ctd/477825?page=3).
 
     ^^Possible Solution or Workaround^^
-    
+
     Please roll back your drivers. [Driver Rollback Instructions | Nvidia](https://www.nvidia.com/en-gb/drivers/driver-rollback/)
 
     ^^Additional Information^^
@@ -819,6 +819,19 @@ TEMPLATE
     ^^Additional Information^^
 
     You can test these issue by using the MSFS World Map. If the required nav data (waypoint, SID, STAR, APPR, RwY, Airport, etc.) is missing in the World Map as well, then it is a general nav data issue and not an issue with the aircraft.
+
+    Also see this post on the MSFS forum: [Navigraph airac cycle 2112-load MSFS Database is empty](https://forums.flightsimulator.com/t/navigraph-airac-cycle-2112-load-msfs-database-is-empty-no-vors-sids-or-stars/479371){target=new}
+
+??? warning "MSFS Anit-Ice vs. De-Ice Functionality"
+    ### "MSFS Anit-Ice vs. De-Ice Functionality"
+
+    ^^Description^^
+
+
+
+    ^^Root Cause^^
+    ^^Possible Solution or Workaround^^
+    ^^Additional Information^^
 
 ??? warning "NOT IN DATABASE When Loading Flight Plan"
     ### NOT IN DATABASE When Loading Flight Plan
