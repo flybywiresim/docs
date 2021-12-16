@@ -622,6 +622,8 @@ TEMPLATE
 
 ---
 
+## Common MSFS Issues impacting all Aircraft
+
 ??? failure "CTD (Crash to Desktop)"
     ### CTD (Crash to Desktop)
 
@@ -682,8 +684,6 @@ TEMPLATE
         If you are getting CTDs, it could be one of your peripherals disconnecting sometime during the flight, which then causes the sim to CTD.
 
         It could be anything from a usb drive to a controller. Please try to minimise how many peripherals you have connected.
-
-## Common MSFS Issues impacting all Aircraft
 
 ??? failure "Latest Nvidia Driver Causes CTD"
     ### Latest Nvidia Driver Causes CTD
