@@ -31,7 +31,9 @@ There are three ways to create new custom waypoints:
 
 ![MCDU DATA New Waypoint Page](../assets/advanced-guides/stored-waypoints/mcdu-data-new-waypoint-page.png "MCDU DATA New Waypoint Page"){loading=lazy width=50%}
 
-Here you have 3 methods of creating a new waypoint.
+Enter a unique name for your waypoint into the scratchpad and press the LSK 1L left of the IDENT field.
+
+Here you have then 3 methods of creating a new waypoint.
 
 ### Format: Latitude-Longitude (LL)
 
@@ -49,6 +51,25 @@ The format is:
         ![Example for LL](../assets/advanced-guides/stored-waypoints/example-ll.png "Example for LL"){loading=lazy align=left width=46%}
 
         ![Example for LL](../assets/advanced-guides/stored-waypoints/example-ll-2.png "Example for LL"){loading=lazy align=right width=46%}
+
+!!! tip "Detailed Format Description"
+
+    |      | Format                   | Range          | Units                        |
+    |:-----|:-------------------------|:---------------|:-----------------------------|
+    | LAT  | DDMM.MB or BDDMM.M       |                |                              |
+    |      | DD is degrees            | DD: 0-90       | Degrees                      |
+    |      | MM.M is minutes          | MM.M: 0.0-59.9 | Minutes and tenth of minutes |
+    |      | B is direction           | B: N or S      |                              |
+    |      | Leading 0 may be omitted |                |                              |
+    |      | Displayed as DDMM.MB     |                |                              |
+    |      |                          |                |                              |
+    | LONG | DDDMM.MB or BDDDMM.M     |                |                              |
+    |      | DDD is degrees           | B: E or W      |                              |
+    |      | MM.M is minutes          | DDD: 0-180     | Degrees                      |
+    |      | B is direction           | MM.M: 0.0-59.9 | Minutes and tenth of minutes |
+    |      | Leading 0 may be omitted |                |                              |
+    |      | Displayed as DDDMM.MB    |                |                              |
+
 
 ### Format: Place-Bearing-Distance (PBD)
 
