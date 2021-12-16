@@ -622,26 +622,6 @@ TEMPLATE
 
 ---
 
-## Common MSFS Issues impacting all Aircraft
-
-??? failure "Latest Nvidia Driver Causes CTD"
-    ### Latest Nvidia Driver Causes CTD
-
-    !!! tip ""
-        *Affected versions: Stable, Development*
-
-    ^^Description^^
-
-    Reports on the MSFS forums note that CTD's are happening after updating to the latest driver's from Nvidia. See - [this forum post](https://forums.flightsimulator.com/t/new-nvidia-497-09-always-ctd/477825?page=3).
-
-    ^^Possible Solution or Workaround^^
-
-    Please roll back your drivers. [Driver Rollback Instructions | Nvidia](https://www.nvidia.com/en-gb/drivers/driver-rollback/)
-
-    ^^Additional Information^^
-
-    Driver version `472.47` seems to be compatible as reported by one of our contributors.
-
 ??? failure "CTD (Crash to Desktop)"
     ### CTD (Crash to Desktop)
 
@@ -702,6 +682,26 @@ TEMPLATE
         If you are getting CTDs, it could be one of your peripherals disconnecting sometime during the flight, which then causes the sim to CTD.
 
         It could be anything from a usb drive to a controller. Please try to minimise how many peripherals you have connected.
+
+## Common MSFS Issues impacting all Aircraft
+
+??? failure "Latest Nvidia Driver Causes CTD"
+    ### Latest Nvidia Driver Causes CTD
+
+    !!! tip ""
+        *Affected versions: Stable, Development*
+
+    ^^Description^^
+
+    Reports on the MSFS forums note that CTD's are happening after updating to the latest driver's from Nvidia. See - [this forum post](https://forums.flightsimulator.com/t/new-nvidia-497-09-always-ctd/477825?page=3).
+
+    ^^Possible Solution or Workaround^^
+
+    Please roll back your drivers. [Driver Rollback Instructions | Nvidia](https://www.nvidia.com/en-gb/drivers/driver-rollback/)
+
+    ^^Additional Information^^
+
+    Driver version `472.47` seems to be compatible as reported by one of our contributors.
 
 ??? failure "CTD When Pressing **FLY** on World Menu"
     ### CTD when pressing **FLY** on world menu
