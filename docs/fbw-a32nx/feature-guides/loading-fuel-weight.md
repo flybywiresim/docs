@@ -94,6 +94,17 @@ Get our [simBrief Profile](../installation.md#simbrief-airframe) for the Develop
     - 84 kg for passenger (including clothing and carry-on bags)
     - 20 kg for checked luggage
 
+```
+station_load.0 = 3300, 21.98, 0, 5, ECONOMY ROWS 1-6 (seats: 36 max: 6670lbs/3024kg), 0
+station_load.1 = 3850, 2.86, 0, 5.1, ECONOMY ROWS 7-13 (seats: 42 max: 7780lb/3530kg), 0
+station_load.2 = 4400, -15.34, 0, 5.3, ECONOMY ROWS 14-21 (seats: 48 max: 8880lb/4032kg), 0
+station_load.3 = 6600, -32.81, 0, 5.5, ECONOMY ROWS 22-29 (seats: 48 max: 8880lb/4032kg), 0
+station_load.4 = 2800, 18.28, 0, 0.9, FWD BAGGAGE/CONTAINER (max: 5600lb/2540kg), 0
+station_load.5 = 1950, -15.96, 0, 1, AFT CONTAINER (max: 4000lb/1815kg), 0
+station_load.6 = 1700, -27.10, 0, 1.2, AFT BAGGAGE (max: 3500lb/1585kg), 0
+station_load.7 = 1300, -37.35, 0, 1.4, AFT BULK/LOOSE (max: 2750lb/1245kg), 0
+```
+
 ### Loading Fuel and Weight
 
 !!! danger "MSFS Fuel & Weights window in the toolbar"
