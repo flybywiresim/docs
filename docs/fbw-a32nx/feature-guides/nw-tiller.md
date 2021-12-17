@@ -4,7 +4,7 @@ We have introduced a feature for using the tiller to steer the nose wheel indepe
 
 {--
 
-Therefore this feature is deactivated by default. Before the tiller steering can be used it needs to be mapped to a controller input and activated in the flyPad Settings.
+This feature is deactivated by default. Before the tiller steering can be used it needs to be mapped to a controller input and activated in the flyPad Settings.
 
 --}
 
