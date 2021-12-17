@@ -4,6 +4,12 @@ Welcome to the A32NX Beginner's Guide. Although this guide is tailored towards b
 
 Each page was reviewed by an A320 type rated pilot and provides accurate information to aircraft operation.
 
+{--
+
+The [Preflight](preflight.md) page contains guides on how to set up relevant data and configurations before starting your flight. We recommend starting there.
+
+--}
+
 !!! info "Airline SOP"
     Please be aware that different airlines may have slightly different procedures at different stages of flight.
 
@@ -12,6 +18,8 @@ Each page was reviewed by an A320 type rated pilot and provides accurate informa
 ---
 
 Topics:
+
+[Preflight](preflight.md)
 
 [Starting the Aircraft](starting-the-aircraft.md)
 
