@@ -6,9 +6,9 @@ Before you start your flight in earnest, we have included various features in th
 
 ## Nav Data
 
-MSFS Nav Data is updated during their patching process. It's important to take stock of what nav data you are currently using and if it matches the current AIRAC cycle. When using simBrief without a Navigraph subscription you may encounter route discrepancies OR the [flight plan import](#flight-plan-import) may fail due to outdated/incorrect AIRAC cycle. 
+MSFS Nav Data is updated during their patching process. It's important to take stock of what nav data you are currently using and if it matches the current AIRAC cycle. When using simBrief without a Navigraph subscription you may encounter `AWY/WPT Mismatch` OR the [flight plan import](#flight-plan-import) may fail due to outdated/incorrect AIRAC cycle. 
 
-Owning a Navigraph subscription gives you access to their standalone nav data addon for MSFS that pairs with their simBrief flight planning. Not only does it provide you with an up-to-date AIRAC with their revisions, it will ensure compatibility when importing from simBrief or planning your flight manually.
+Owning a Navigraph subscription gives you access to their standalone nav data addon for MSFS that pairs with their simBrief flight planning. Not only does it provide you with an up-to-date AIRAC alongside any revisions, it will ensure compatibility when importing from simBrief or planning your flight manually.
 
 ## Flight Planning
 
