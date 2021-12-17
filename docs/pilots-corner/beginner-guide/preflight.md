@@ -12,6 +12,7 @@ We highly recommend **not** using the built-in MSFS flight planner. SimBrief is 
     - [SimBrief Website](https://www.simbrief.com/) (Flight Planning) 
     - [Little Nav Map](https://albar965.github.io/littlenavmap.html) (Flight Planning and Charts)
     - [ChartFox](https://chartfox.org/) (Charts)
+    - [Navigraph](https://navigraph.com/) (Flight Planning and Charts) *Requires Subscription*
     - See our [Custom Flight Management System](../../fbw-a32nx/feature-guides/cFMS.md) page and the [special notes section](../../fbw-a32nx/feature-guides/cFMS.md#special-notes) when using our development version of the aircraft.
 
 ## Flight Plan Import
@@ -25,6 +26,8 @@ If you wish to expedite the process of inputting your flight plan on the MCDU we
 ## Flight Plan Discontinuities
 
 When inputting your flight plan into the MCDU, discontinuities appearing is an intended feature. The page below describes how to handle these when encountered during your preflight preparations.
+
+!!! info "MCDU Interaction Requires Aircraft to be Powered"
 
 [Flight Plan Discontinuities](preparing-mcdu.md#discontinuity){.md-button}
 
