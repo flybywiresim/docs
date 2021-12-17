@@ -4,6 +4,12 @@ Before you start your flight in earnest, we have included various features in th
 
 ---
 
+## Nav Data
+
+MSFS Nav Data is updated during their patching process. It's important to take stock of what nav data you are currently using and if it matches the current AIRAC cycle. When using simBrief without a Navigraph subscription you may encounter route discrepancies OR the [flight plan import](#flight-plan-import) may fail due to outdated/incorrect AIRAC cycle. 
+
+Owning a Navigraph subscription gives you access to their standalone nav data addon for MSFS that pairs with their simBrief flight planning. Not only does it provide you with an up-to-date AIRAC with their revisions, it will ensure compatibility when importing from simBrief or planning your flight manually.
+
 ## Flight Planning
 
 We highly recommend **not** using the built-in MSFS flight planner. SimBrief is a great resources that provides routing and other information to successfully plan your flight. You can choose to use other software/websites to plan your route but when using simBrief we have a handy import feature as seen in the next section.
@@ -22,6 +28,12 @@ If you wish to expedite the process of inputting your flight plan on the MCDU we
 !!! info "SimBrief Import Requires the Aircraft to be Powered"
 
 [SimBrief A32NX Features](../../fbw-a32nx/feature-guides/simbrief.md){.md-button}
+
+### Manual Flight Planning
+
+!!! info "MCDU Interaction Requires Aircraft to be Powered"
+
+The [Flight Plan Section](preparing-mcdu.md#flight-plan) in the "Preparing the MCDU" guide contains a sample routing to showcase how to input your waypoints, departure SID, and arrival STAR / procedure.
 
 ## Flight Plan Discontinuities
 
