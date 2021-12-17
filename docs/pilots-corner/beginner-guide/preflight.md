@@ -8,8 +8,11 @@ Before you start your flight in earnest, we have included various features in th
 
 We highly recommend **not** using the built-in MSFS flight planner. SimBrief is a great resources that provides routing and other information to successfully plan your flight. You can choose to use other software/websites to plan your route but when using simBrief we have a handy import feature as seen in the next section.
 
-!!! info "Important Note for Flight PLanning"
-    See our [Custom Flight Management System](../../fbw-a32nx/feature-guides/cFMS.md) page and the [special notes section](../../fbw-a32nx/feature-guides/cFMS.md#special-notes) when using our development version of the aircraft.
+!!! tip "Important Links for Flight Planning"
+    - [SimBrief Website](https://www.simbrief.com/) (Flight Planning) 
+    - [Little Nav Map](https://albar965.github.io/littlenavmap.html) (Flight Planning and Charts)
+    - [ChartFox](https://chartfox.org/) (Charts)
+    - See our [Custom Flight Management System](../../fbw-a32nx/feature-guides/cFMS.md) page and the [special notes section](../../fbw-a32nx/feature-guides/cFMS.md#special-notes) when using our development version of the aircraft.
 
 ## Flight Plan Import
 
