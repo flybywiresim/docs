@@ -18,7 +18,7 @@ We highly recommend **not** using the built-in MSFS flight planner. SimBrief is 
     - [SimBrief Website](https://www.simbrief.com/) (Flight Planning) 
     - [Little Nav Map](https://albar965.github.io/littlenavmap.html) (Flight Planning and Charts)
     - [ChartFox](https://chartfox.org/) (Charts)
-    - [Navigraph](https://navigraph.com/) (Flight Planning and Charts) *Requires Subscription*
+    - [Navigraph](https://navigraph.com/) (Flight Planning and Charts) <span style="color:red;">**Requires Subscription**</span>
     - See our [Custom Flight Management System](../../fbw-a32nx/feature-guides/cFMS.md) page and the [special notes section](../../fbw-a32nx/feature-guides/cFMS.md#special-notes) when using our development version of the aircraft.
 
 ## Flight Plan Import
