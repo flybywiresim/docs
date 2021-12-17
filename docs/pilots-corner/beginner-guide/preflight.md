@@ -22,6 +22,12 @@ If you wish to expedite the process of inputting your flight plan on the MCDU we
 
 [SimBrief A32NX Features](../../fbw-a32nx/feature-guides/simbrief.md){.md-button}
 
+## Flight Plan Discontinuities
+
+When inputting your flight plan into the MCDU, discontinuities appearing is an intended feature. The page below describes how to handle these when encountered during your preflight preparations.
+
+[Flight Plan Discontinuities](preparing-mcdu.md#discontinuity){.md-button}
+
 ## Payload Management
 
 In order to configure your aircraft we have provided options onboard the aircraft to load fuel (via the EFB) and passengers / baggage (via the MCDU). Please see the following page and note any advisories.
