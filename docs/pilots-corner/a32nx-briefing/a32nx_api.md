@@ -953,8 +953,8 @@ Flight Deck: [ENG Panel](flight-deck/pedestal/engine.md)
 
 | Function       | API Usage                    | Values | Read/Write | Type       | Remark                 |
 |:---------------|:-----------------------------|:-------|:-----------|:-----------|:-----------------------|
-| ENG 1+2 MASTER | FUELSYSTEN_VALVE_OPEN        | 1 \| 2 | -          | MSFS EVENT | Activates the switch   |
-|                | FUELSYSTEN_VALVE_CLOSE       | 1 \| 2 | -          | MSFS EVENT | Deactivates the switch |
+| ENG 1+2 MASTER | FUELSYSTEM_VALVE_OPEN        | 1 \| 2 | -          | MSFS EVENT | Activates the switch   |
+|                | FUELSYSTEM_VALVE_CLOSE       | 1 \| 2 | -          | MSFS EVENT | Deactivates the switch |
 |                | FUELSYSTEM VALVE SWITCH:1    | 0 \| 1 | R          | MSFS VAR   |                        |
 |                | FUELSYSTEM VALVE SWITCH:2    | 0 \| 1 | R          | MSFS VAR   |                        |
 |                |                              |        |            |            |                        |
