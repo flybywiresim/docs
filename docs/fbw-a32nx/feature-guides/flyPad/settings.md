@@ -151,8 +151,10 @@ Settings for integrations with various data and information sources.
 - TELEX:
     - Enables free text and live map ([FlyByWire Live Map](https://flybywiresim.com/map/){target=new}).
 
-        !!! warning "USE AT YOUR OWN RISK"
+        !!! warning
             If enabled, aircraft position data is published for the duration of the flight. Messages are public and not moderated.
+
+            ~~USE AT YOUR OWN RISK~~
 
             [Free Text - Feature Guide](../freetext.md){.md-button}
 
