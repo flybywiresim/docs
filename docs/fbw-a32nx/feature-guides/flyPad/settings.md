@@ -109,9 +109,9 @@ Settings for simulation aspects of the A32NX aircraft.
     - The timeout feature will "automatically unfocus" the MCDU screen after the given amount of seconds.
     - Valid range is 5 - 120 seconds.
 - External MCDU Server Port
-    - User can change the port for the internal MCDU websocket server in case the default value is already occupied on the user's system.
+    - User can change the port for the internal MCDU websocket server in case the default port is already occupied on the user's system.
     - Default is: 8080
-    - !!! warning "This is not the port for using in the browser to access the MCDU Web Interface."
+    - ~~This is not the port for using in the browser to access the MCDU Web Interface.~~
 - Dynamic Registration Decal:
     - The dynamic registration number decal shown on the external livery can be disabled to improve appearance when using liveries with a static registration number.
 - Detents:
@@ -146,10 +146,8 @@ Settings for integrations with various data and information sources.
 - TELEX:
     - Enables free text and live map ([FlyByWire Live Map](https://flybywiresim.com/map/){target=new}).
 
-        !!! warning
+        !!! warning "USE AT YOUR OWN RISK"
             If enabled, aircraft position data is published for the duration of the flight. Messages are public and not moderated.
-
-            ~~USE AT YOUR OWN RISK~~
 
             [Free Text - Feature Guide](../freetext.md){.md-button}
 
