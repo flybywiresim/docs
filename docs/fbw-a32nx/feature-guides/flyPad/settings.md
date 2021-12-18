@@ -114,6 +114,11 @@ Settings for simulation aspects of the A32NX aircraft.
     - ~~This is not the port for using in the browser to access the MCDU Web Interface.~~
 - Dynamic Registration Decal:
     - The dynamic registration number decal shown on the external livery can be disabled to improve appearance when using liveries with a static registration number.
+- Separate Tiller from Rudder Inputs
+    - User can chose to use how the nose wheel shall be controlled:
+        - Legacy mode (Disabled): Rudder controls also move the nose wheel. No separation.
+        - Realistic mode (Enabled): Nose Wheel steering with tiller handwheel is separate from the rudder.
+            - See our guide: [Nose Wheel and Tiller Operation](../nw-tiller.md)
 - Detents:
     - See [Throttle Configuration](throttle-calibration.md).
 
