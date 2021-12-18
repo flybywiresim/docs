@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../../../../stylesheets/pfd-interactive.css">
 
-# Vertical Mode Annunciators
+# Vertical Mode Annunciations
 
 <div style="position: relative; width: 413px; height: auto; margin-left: auto;  margin-right: auto;">
     <img src="/pilots-corner/assets/a32nx-briefing/pfd/pfd-small.png" style="width: 413px; height: auto;">
@@ -30,7 +30,7 @@
 
 ## Description
 
-These annunciators tell the pilots which vertical mode the autopilot and flight director are engaged in and which mode is armed.
+These annunciations tell the pilots which vertical mode the autopilot and flight director are engaged in and which mode is armed.
 
 ### SRS
 

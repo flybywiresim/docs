@@ -41,8 +41,6 @@ Flight Deck:  [ELEC Panel](flight-deck/ovhd/elec.md)
 | EXT PWR     | TOGGLE_EXTERNAL_POWER                     | -      | -          | MSFS EVENT       |                                            |
 |             | EXTERNAL POWER AVAILABLE                  | 0 \| 1 | R          | MSFS VAR         |                                            |
 |             | EXTERNAL POWER ON                         | 0 \| 1 | R          | MSFS VAR         |                                            |
-|             | A32NX_OVHD_ELEC_EXT_PWR_PB_IS_AVAILABLE   | 0 \| 1 | R          | Custom LVAR      |                                            |
-|             | A32NX_OVHD_ELEC_EXT_PWR_PB_IS_ON          | 0 \| 1 | R          | Custom LVAR      |                                            |
 |             |                                           |        |            |                  |                                            |
 | GEN 1       | TOGGLE_ALTERNATOR:1                       | -      | -          | SIMCONNECT EVENT |                                            |
 |             | GENERAL ENG MASTER ALTERNATOR:1           | 0 \| 1 | R/W        | SIMCONNECT VAR   |                                            |
@@ -955,8 +953,8 @@ Flight Deck: [ENG Panel](flight-deck/pedestal/engine.md)
 
 | Function       | API Usage                    | Values | Read/Write | Type       | Remark                 |
 |:---------------|:-----------------------------|:-------|:-----------|:-----------|:-----------------------|
-| ENG 1+2 MASTER | FUELSYSTEN_VALVE_OPEN        | 1 \| 2 | -          | MSFS EVENT | Activates the switch   |
-|                | FUELSYSTEN_VALVE_CLOSE       | 1 \| 2 | -          | MSFS EVENT | Deactivates the switch |
+| ENG 1+2 MASTER | FUELSYSTEM_VALVE_OPEN        | 1 \| 2 | -          | MSFS EVENT | Activates the switch   |
+|                | FUELSYSTEM_VALVE_CLOSE       | 1 \| 2 | -          | MSFS EVENT | Deactivates the switch |
 |                | FUELSYSTEM VALVE SWITCH:1    | 0 \| 1 | R          | MSFS VAR   |                        |
 |                | FUELSYSTEM VALVE SWITCH:2    | 0 \| 1 | R          | MSFS VAR   |                        |
 |                |                              |        |            |            |                        |

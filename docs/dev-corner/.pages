@@ -6,7 +6,5 @@
 title: Development Corner
 nav:
     - Overview: index.md
-    - Development Guide: development-guide.md
-    - Development Practices: development-practices.md
     - Texture Changes: texture-changes.md
     - ...

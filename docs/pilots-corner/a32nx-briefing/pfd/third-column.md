@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../../../../stylesheets/pfd-interactive.css">
 
-# Lateral Mode Annunciators
+# Lateral Mode Annunciations
 
 <div style="position: relative; width: 413px; height: auto; margin-left: auto;  margin-right: auto;">
     <img src="/pilots-corner/assets/a32nx-briefing/pfd/pfd-small.png" style="width: 413px; height: auto;">
@@ -30,7 +30,7 @@
 
 ## Description
 
-These annunciators tell the pilots which lateral mode the autopilot and the flight director are engaged in and which modes are armed.
+These annunciations tell the pilots which lateral mode the autopilot and the flight director are engaged in and which modes are armed.
 
 ---
 

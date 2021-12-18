@@ -10,4 +10,5 @@ nav:
     - flight-planning
     - flight-guidance
     - protections
+    - data-management.md
 #    - ...

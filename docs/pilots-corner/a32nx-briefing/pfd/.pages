@@ -1,7 +1,7 @@
 title: PFD
 nav:
  - Overview: index.md
- - Flight Mode Annunciations: fma.md
+ - Flight Mode Annunciator: fma.md
  - Airspeed: speedtape.md
  - Attitude and Guidance: artificial-horizon.md
  - ILS Indications: ils-indicator.md

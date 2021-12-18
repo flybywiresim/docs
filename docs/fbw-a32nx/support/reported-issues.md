@@ -685,6 +685,24 @@ TEMPLATE
 
         It could be anything from a usb drive to a controller. Please try to minimise how many peripherals you have connected.
 
+??? failure "Latest Nvidia Driver Causes CTD"
+    ### Latest Nvidia Driver Causes CTD
+
+    !!! tip ""
+        *Affected versions: Stable, Development*
+
+    ^^Description^^
+
+    Reports on the MSFS forums note that CTD's are happening after updating to the latest driver's from Nvidia. See - [this forum post](https://forums.flightsimulator.com/t/new-nvidia-497-09-always-ctd/477825?page=3).
+
+    ^^Possible Solution or Workaround^^
+
+    Please roll back your drivers. [Driver Rollback Instructions | Nvidia](https://www.nvidia.com/en-gb/drivers/driver-rollback/)
+
+    ^^Additional Information^^
+
+    Driver version `472.47` seems to be compatible as reported by one of our contributors.
+
 ??? failure "CTD When Pressing **FLY** on World Menu"
     ### CTD when pressing **FLY** on world menu
 
@@ -801,6 +819,31 @@ TEMPLATE
     ^^Additional Information^^
 
     You can test these issue by using the MSFS World Map. If the required nav data (waypoint, SID, STAR, APPR, RwY, Airport, etc.) is missing in the World Map as well, then it is a general nav data issue and not an issue with the aircraft.
+
+    Also see this post on the MSFS forum: [Navigraph airac cycle 2112-load MSFS Database is empty](https://forums.flightsimulator.com/t/navigraph-airac-cycle-2112-load-msfs-database-is-empty-no-vors-sids-or-stars/479371){target=new}
+
+??? warning "MSFS Anti-Ice vs. De-Ice Functionality"
+    ### MSFS Anti-Ice vs. De-Ice Functionality
+
+    ^^Description^^
+
+    Icing occurs (windshield, engines, wings) although Anti-Ice is turned on.
+
+    ^^Root Cause^^
+
+    There is actually no anti-ice capability in MSFS and Asobo currently has no plans to add it in the near future.
+
+    The anti-ice systems therefore work as deice systems (after the fact) rather than anti-ice systems (preventive).
+
+    ^^Possible Solution or Workaround^^
+
+    No workaround but flights should not be impacted too much by this.
+
+    ^^Additional Information^^
+
+     Consequence of this MSFS behaviour is that the auto probe/windshield heat will not always prevent ice from forming on the windshield or the pitot probe. Although the ice should melt fairly quickly (and no need to switch from auto to on), the windshield can still freeze over and you can lose airspeed information upon first entering icing conditions if they are severe enough.
+
+    The same goes for wing and engine anti-ice - turning them on before ice actually forms may not prevent ice from forming there, but it should melt fairly quickly.
 
 ??? warning "NOT IN DATABASE When Loading Flight Plan"
     ### NOT IN DATABASE When Loading Flight Plan

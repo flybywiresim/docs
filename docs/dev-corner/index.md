@@ -7,10 +7,11 @@ This section of the FlyByWire Documentation is dedicated to the development aspe
 
 [:fontawesome-brands-github:{: .github } **GitHub Contributing.md**](https://github.com/flybywiresim/a32nx/blob/master/.github/Contributing.md){ .md-button target=new}
 
-[Development Guide](development-guide.md){ .md-button }
+[Development Guide](dev-guide/index.md){ .md-button }
 
 ##  Topics
 
-- [Development Guide](development-guide.md)
+- [Development Guide](dev-guide/index.md)
 - [Texture Changes](texture-changes.md)
 - [FlyByWire Projects](development-projects/)
+
