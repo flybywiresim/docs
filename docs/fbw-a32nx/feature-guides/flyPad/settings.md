@@ -108,6 +108,10 @@ Settings for simulation aspects of the A32NX aircraft.
 - MCDU Focus Timeout (s)
     - The timeout feature will "automatically unfocus" the MCDU screen after the given amount of seconds.
     - Valid range is 5 - 120 seconds.
+- External MCDU Server Port
+    - User can change the port for the internal MCDU websocket server in case the default value is already occupied on the user's system.
+    - Default is: 8080
+    - !!! warning "This is not the port for using in the browser to access the MCDU Web Interface."
 - Dynamic Registration Decal:
     - The dynamic registration number decal shown on the external livery can be disabled to improve appearance when using liveries with a static registration number.
 - Detents:
