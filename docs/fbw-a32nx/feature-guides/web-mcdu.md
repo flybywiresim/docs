@@ -144,12 +144,16 @@ However there will be browsers where this will not work. In this case we recomme
 
 We have tested these browsers during the development and these should therefore work ok:
 
-- Windows: Edge, Firefox, Chrome (current versions)
-- iOS: Safari, Firefox, Edge, Chrome (current versions)
-- Android: Chrome, Edge (current versions)
-- Mac OS: Safari, Firefox, Edge, Chrome (current versions)
-- Linux:
+- Windows: Edge, Firefox, Chrome
+- iOS: Safari, Firefox, Edge, Chrome, duckduckgo, Brave, Bing
+- Android: Chrome, Edge
+- Mac OS: Safari, Firefox, Edge, Chrome
+- Samsung phone: Chrome, Firefox, duckduckgo
+- Linux: Firefox
 
+Known unsupported browsers:
+
+- Samsung Internet
 
 ## Windows Firewall
 
