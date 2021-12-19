@@ -77,7 +77,7 @@ TEMPLATE
 
     ^^Description^^
 
-    The Load Modules Asynchronously WASM setting causes the development version to crash if turned on.
+    The Load Modules Asynchronously WASM setting causes the development version to crash if turned on. Crash occurs usually 3/4 through the loading bar after selecting FLY.
     
     ^^Root Cause^^
     
