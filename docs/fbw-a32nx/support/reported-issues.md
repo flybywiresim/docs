@@ -73,7 +73,7 @@ TEMPLATE
     ### Load Modules Async Causes CTD
 
     !!! tip ""
-        *Affected versions: Stable, Development*
+        *Affected versions: Development*
 
     ^^Description^^
 
@@ -95,8 +95,9 @@ TEMPLATE
 
     ^^Additional Information^^
 
-    Here is a sample of the setting that needs to be turned off.
-    ![WASM issue image](https://user-images.githubusercontent.com/74841560/146688656-426aaf32-285e-48c9-a780-147e1018dad1.png)
+    Here is a sample of the setting that needs to be deselected. You can also turn off Fast WASM Compilation as well.
+
+    ![WASM issue image](https://cdn.discordapp.com/attachments/838062729398976522/922226489724907561/dev-bar.png)
 
 ??? failure "Invisible Aircraft"
     ### Invisible Aircraft
