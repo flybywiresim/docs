@@ -6,6 +6,10 @@
 
 ---
 
+See our detailed documentation for the Lower ECAM:
+
+[ECAM Systems Display](../../ecam/sd/index.md){ .md-button }
+
 ![Lower ECAM](../../../assets/a32nx-briefing/front/Lower-ECAM.jpg "Lower ECAM")
 
 ## Description
@@ -18,10 +22,6 @@ The Electronic Centralized Aircraft Monitoring (ECAM) consists of two displays:
 - the Systems Display (SD) aka Lower ECAM
     - Synoptic diagrams of aircraft systems, and status messages
     - Permanent flight data
-
-<!-- TODO: UPDATE -->
-!!! info "Future Update"
-    A more in depth description of the ECAM is currently being developed and will be available in the near future.
 
 ---
 
