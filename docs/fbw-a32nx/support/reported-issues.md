@@ -91,7 +91,7 @@ TEMPLATE
     - Go to General Settings
     - Go to Developers and switch Developer Mode to `ON`
     - Go to the top bar that appears and find Options
-    - Under WASM ensure deselect `Load Modules Asynchronously`
+    - Under WASM ensure `Load Modules Asynchronously` is deselected
 
     ^^Additional Information^^
 
