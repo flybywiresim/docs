@@ -69,6 +69,36 @@ TEMPLATE
 
 -->
 
+??? failure "Load Modules Async Causes CTD"
+    ### Load Modules Async Causes CTD
+
+    !!! tip ""
+        *Affected versions: Development*
+
+    ^^Description^^
+
+    The Load Modules Asynchronously WASM setting causes the development version to crash if turned on. Crash occurs usually 3/4 through the loading bar after selecting FLY.
+    
+    ^^Root Cause^^
+    
+    *Under Investigation*
+
+    ^^Possible Solution or Workaround^^
+    
+    We recommend turning this setting off in the developer mode settings. Please see the following steps:
+
+    1. Go to Options
+    - Go to General Settings
+    - Go to Developers and switch Developer Mode to `ON`
+    - Go to the top bar that appears and find Options
+    - Under WASM ensure `Load Modules Asynchronously` is deselected
+
+    ^^Additional Information^^
+
+    Here is a sample of the setting that needs to be deselected. You can also turn off Fast WASM Compilation as well.
+
+    ![WASM issue image](https://cdn.discordapp.com/attachments/838062729398976522/922226489724907561/dev-bar.png)
+
 ??? failure "Invisible Aircraft"
     ### Invisible Aircraft
 
@@ -171,6 +201,7 @@ TEMPLATE
     Change your windows username and remove any unicode characters present. [Guide Here](https://www.windowscentral.com/how-change-account-name-windows-10-sign-screen){target=new}
 
     ^^Additional Information^^
+
     Also see [Unwanted behavior - UTF8](#unwanted-behavior---utf8)
 
 ??? failure "Nose Wheel Steering Locked (NW STRG DISC)"
@@ -188,6 +219,7 @@ TEMPLATE
     Toolbar Pushback Addon
 
     ^^Possible Solution or Workaround^^
+
     - Remove the addon from your community folder or wait for developer to update.
     - Use our EFB which has built in pushback controls or another addon.
 
@@ -206,6 +238,7 @@ TEMPLATE
     Toolbar Pushback Addon
 
     ^^Possible Solution or Workaround^^
+
     - Remove the addon from your community folder or wait for developer to update.
     - Use our EFB which has built in pushback controls or another addon.
 
