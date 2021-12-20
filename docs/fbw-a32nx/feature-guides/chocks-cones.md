@@ -1,4 +1,4 @@
-# Wheel Chocks and<br/>GSE Safety Cones
+# Wheel Chocks and GSE Safety Cones
 
 ## Overview
 
