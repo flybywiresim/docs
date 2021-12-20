@@ -14,7 +14,7 @@ The A32NX has gotten some additional safety features with Wheel Chocks and GSE S
 
 Other than just looking gorgeous the wheel chocks even apply some braking force to hold the aircraft in place.
 
-The flight crew activates the Wheel Chocks and Safety Cones in the flyPad EFB. This simulates asking the ground crew to place or remove the chocks or cones. The ground crew will then (virtually) determine if chocks and cones should be placed or removed based on some specific criteria, which are described in the next section.
+The flight crew activates the Wheel Chocks and Safety Cones through the flyPad EFB. This simulates asking the ground crew to place or remove the chocks or cones. The ground crew will then (virtually) determine if chocks and cones should be placed or removed based on specific criteria, which are described in the next section.
 
 ## Usage
 
