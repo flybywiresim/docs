@@ -80,7 +80,6 @@ For information on how to contribute to bot development visit the Discord bot re
 | .buildinfo      | Link to docs for build info                                  | .buildinfo                 |
 | .navdata        | Provides help with Navigraph navdata reinstall               | ---                        |
 | .assistance     | Explains to the user why assistance options should be disabled| .assi <br>.as             |
-| .tug            | Provides a solution to an issue where the tug fails to disconnect| .stuck                |
 | .crak           | What's your sim version?                                     | ---                        |
 | .dx12           | Explanation for the current state of MSFS DirectX12 support  | ---                        |
 | .fixinfo        | Provide information about the fix info feature               | ---                        |
