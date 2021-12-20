@@ -71,10 +71,60 @@ For information on how to contribute to bot development visit the Discord bot re
 | .where          | Help with which aircraft to select in the aircraft selector  | ---                        |
 | .willithave     | Answers the question "Will the A32NX have ... ?"             | ---                        |
 | .xbox           | Xbox/Marketplace NOTAM link                                  | ---                        |
-| .xp             | Just... no!                                                  | .XPlane <br>.X-Plane       |
+| .xp             | Just... no!                                                  | .XPlane <br>.X-Plane       | 
+| .discontinuity  | Link to docs about discontinuities                           | .disco                     | 
+| .fridge         | Fridge                                                       | ---                        |
+| .tiller         | Provides a link to the tiller feature guide                  | .til <br>.steer <br>.steering|
+| .cfms           | Provides information on the new cfms                         | ---                        |
+| .fdr            | Information on how to provide fdr files                      | ---                        |
+| .buildinfo      | Link to docs for build info                                  | .buildinfo                 |
+| .navdata        | Provides help with Navigraph navdata reinstall               | ---                        |
+| .assistance     | Explains to the user why assistance options should be disabled| .assi <br>.as             |
+| .tug            | Provides a solution to an issue where the tug fails to disconnect| .stuck                |
+| .crak           | What's your sim version?                                     | ---                        |
+| .dx12           | Explanation for the current state of MSFS DirectX12 support  | ---                        |
+| .fixinfo        | Provide information about the fix info feature               | ---                        |
+| .weights        | Provides a link to the fuel and weights docs guide           | .wb <br>.wnb <br>.w+b <br>.w&b <br>.fuel|
+| .goldenrules    | Provides an image describing the golden rules an Airbus pilot should follow| .golden <br>.gr            |
+| .sop            | Displays first page of SOP and provides PDF download         | ---                        |
 
 
 ## Changelog
+Update <small>_ December 20, 2021</small>
+
+- Added `.discontinuity (.disco)`
+- Added `.fdr`
+- Added `.cfms`
+- Added `.buildinfo (.build)`
+- Added `.navdata`
+- Added `.dx12`
+- Added `.whended`
+- Added `.tug`
+- Added `.crak`
+- Added `.rules`
+- Added `.weights (.fuel, .wb, .w/b, .w+b, .wnb, .w&b)`
+- Added `.fixinfo`
+- Added `.welcome`
+- Added `.sop`
+- Added `.goldenrules (.gr, .golden)`
+- Added `.fridge`
+- Added `.tiller (.steer, .steering, .til)`
+- Added `.assistance (.assi, .as)`
+- Added source assets for the welcome Discord banner
+- Updated `readme.md` to include other maintainers
+- Updated `.afloor` and `.fixinfo` (Docs links)
+- Updated gif in `.efb`
+- Updated link in `.fixinfo`
+- Updated `.roadmap` image
+- Updated `.faq` to include moderation team role
+- Updated `.checklist` image
+- Deleted `.whened` and `.whended`
+- Fix `.fridge` (image)
+- Fix `.welcome` emotes and `.faq` docs link
+- Fix `index.ts` to include whended
+- Fix `.experimental`, `.versions` and `.tug` (wording and format)
+- Fix `.help` to ping the correct user
+- Refactor (moved `.cowsay`)
 
 Update <small>_ November 21, 2021</small>
 
