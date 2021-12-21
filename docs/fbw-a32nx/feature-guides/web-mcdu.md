@@ -123,8 +123,8 @@ Options:
     - To skip the prompt asking to choose a printer and have a specific local printer configured. This option is required if you want to start the server without any manual interaction (e.g. starting it with the sim).
 - websocket-port:
     - The port where the MCDU Web Interface will communicate with the MCDU itself.
-    - **This is not the port you need to access the MCDU Web Interface with your browser **.
-    - We recommend to **only** change it if absolutely required (e.g. port is already occupied). See [Websocket Port](#websocket-port) for details.
+    - ~~This is not the port you need to access the MCDU Web Interface with your browser~~.
+    - ~~We recommend to **only** change this if absolutely required (e.g. port is already occupied). See [Websocket Port](#websocket-port) for details.~~
 
 ### Websocket Port
 
@@ -132,7 +132,7 @@ The websocket port is the port where the MCDU Web Interface will communicate wit
 
 This will allow to have different UI implementations or even hardware MCDUs in the future. We plan to eventually also create a separate documentation for using this websocket connection directly.
 
-We recommend to **not** change the default port for the websocket. If you have to change this port because it is already occupied on your machine you need to change it as well in the EFB Sim Options Settings page.
+!!! warning "We recommend to **not** change the default port for the websocket. If you have to change this port because it is already occupied on your machine you need to change it as well in the EFB Sim Options Settings page."
 
 ## Compatible Browsers
 
@@ -160,5 +160,5 @@ Known unsupported browsers:
 !!! danger "Disclaimer"
     Changing Windows settings, especially security settings like the firewall comes with certain risks. Please do not change these settings if you are not comfortable doing so. FlyByWire Simulations cannot take any responsibility for any issues caused by your changes to Windows or security settings.
 
-[Opening a Port on Windows Firewall Instructions](https://www.howtogeek.com/394735/how-do-i-open-a-port-on-windows-firewall/){target=new}
+[Opening a Port on Windows Firewall Instructions](https://www.howtogeek.com/394735/how-do-i-open-a-port-on-windows-firewall/){target=new .md-button}
 
