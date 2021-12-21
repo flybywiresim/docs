@@ -160,5 +160,5 @@ Known unsupported browsers:
 !!! danger "Disclaimer"
     Changing Windows settings, especially security settings like the firewall comes with certain risks. Please do not change these settings if you are not comfortable doing so. FlyByWire Simulations cannot take any responsibility for any issues caused by your changes to Windows or security settings.
 
-[How Do I Open a Port on Windows Firewall?](https://www.howtogeek.com/394735/how-do-i-open-a-port-on-windows-firewall/){target=new}
+[Opening a Port on Windows Firewall Instructions](https://www.howtogeek.com/394735/how-do-i-open-a-port-on-windows-firewall/){target=new}
 
