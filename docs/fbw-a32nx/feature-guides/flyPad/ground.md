@@ -52,7 +52,7 @@ Enables placement of the wheel chocks if the other requirements for the wheel ch
 
 - `ENG1+2 N2` < 1%
 - `BEACON LT` is off
-- Airplane is on `GND`
+- Airplane is on ground
 - Pushback is disconnected
 
 ### Safety Cones
@@ -61,7 +61,7 @@ Enables placement of the safety cones if the other requirements for the safety c
 
 - `ENG1+2 N2` < 1%
 - `BEACON LT` is off
-- Airplane is on `GND`
+- Airplane is on ground
 - Pushback is disconnected
 
 ### Door Aft

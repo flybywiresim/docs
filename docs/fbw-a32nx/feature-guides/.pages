@@ -2,4 +2,5 @@ nav:
     - Overview: index.md
     - Custom AP: autopilot-fbw.md
     - Custom FMS: cFMS.md
+    - flyPad EFB: flyPad
     - ...
