@@ -90,7 +90,7 @@ If you want to start with only the MCDU display visible then add "/fullscreen" t
 
 ## Using Your Local Printer
 
-If you chose a local printer during the start of the MCDU Server every prints you will make from the MCDU to the cockpit printer will instead by printed using your previously selected printer.
+If you chose a local printer when starting the MCDU Server, every print you will make from the MCDU to the cockpit printer will instead be printed using your previously selected printer.
 
 The printers available are those known to the PC where you run Microsoft Flight Simulator and the MCDU Server on. It is not relevant if your remote device where you use the MCDU Web Interface actually knows this printer.
 
