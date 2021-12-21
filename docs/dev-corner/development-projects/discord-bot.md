@@ -16,11 +16,13 @@ For information on how to contribute to bot development visit the Discord bot re
 | .airframe       | Link to simBrief airframe                                    | ---                        |
 | .autopilot      | Link to custom autopilot documentation and issues            | .ap                        |
 | .avatar         | Shows the selected users avatar                              | .av                        |
+| .assistance     | Explains to the user why assistance options should be disabled| .assi <br>.as             |
 | .beginnerguide  | Link to Beginner Guide documentation                         | .bg                        |
 | .boratorium     | Boratorium meme                                              | ---                        |
 | .boris          | Boris sound meme                                             | ---                        |
 | .briefing       | Link to A32NX Briefing documentation                         | ---                        |
 | .bruheg         | Bruheg meme                                                  | ---                        |
+| .buildinfo      | Link to docs for build info                                  | .buildinfo                 |
 | .calibrate      | Link to calibration guide                                    | ---                        |
 | .checklist      | Displays the checklist                                       | ---                        |
 | .clean          | Links to clean install guide                                 | .cleaninstall <br>.order66 |
@@ -31,12 +33,20 @@ For information on how to contribute to bot development visit the Discord bot re
 | .cowsay         | Emulates the famous UNIX program 'cowsay'                    | .cs                        |
 | .ctrl+e         | Displays help regarding CTRL+E engine start                  | .ctrle <br>.enginestart    |
 | .cursor         | Displays steps to help with EFB cursor focus issue           | .efbfocus <br>.unfocus     |
+| .crak           | What's your sim version?                                     | ---                        |
+| .cfms           | Provides information on the new cfms                         | ---                        |
 | .default        | 0_o (meme)                                                   |                            |
 | .donate         | Link to donation website                                     | ---                        |
+| .discontinuity  | Link to docs about discontinuities                           | .disco                     |
+| .dx12           | Explanation for the current state of MSFS DirectX12 support  | ---                        |
 | .efb            | Shows the EFB GIF                                            | ---                        |
 | .exp            | Information about the FBW experimental version               | .experimental              |
 | .freetext       | Provides a link to the FBW free text feature guide           | .ft                        |
+| .fixinfo        | Provide information about the fix info feature               | ---                        |
+| .fridge         | Fridge                                                       | ---                        |
+| .fdr            | Information on how to provide fdr files                      | ---                        |
 | .guard          | MEOW! (meme)                                                 | ---                        |
+| .goldenrules    | Provides an image describing the golden rules an Airbus pilot should follow| .golden <br>.gr            |
 | .help           | Send DM of current list of commands                          | ---                        |
 | .installer      | Provides a link to the installer                             | ---                        |
 | .installererror | Shows installer error resolution (outdated)                  | .error                     |
@@ -46,6 +56,7 @@ For information on how to contribute to bot development visit the Discord bot re
 | .metar          | Provides the METAR report of the requested airport           | ---                        |
 | .msfs           | Links to MSFS Discord and forum (for non-FBW related issues) | ---                        |
 | .nut            | Support Master NUT meme (read the sticky message)            | ---                        |
+| .navdata        | Provides help with Navigraph navdata reinstall               | ---                        |
 | .otter          | Well, it's an otter (meme)                                   | ---                        |
 | .poggers        | POG (meme)                                                   | ---                        |
 | .pov            | Oof (meme)                                                   | ---                        |
@@ -61,8 +72,10 @@ For information on how to contribute to bot development visit the Discord bot re
 | .simversion     | Help to identify MSFS version for support                    | .msfsversion               |
 | .synaptic       | Provides link to Synaptic Discord server                     | .syn                       |
 | .station        | Provides station information                                 | ---                        |
+| .sop            | Displays first page of SOP and provides PDF download         | ---                        |
 | .trythis        | Main support command (remove mods/liveries)                  | ---                        |
 | .tug            | Provides a solution to the tug disconnection issue.          | ---                        |
+| .tiller         | Provides a link to the tiller feature guide                  | .til <br>.steer <br>.steering|
 | .utf8           | Resolution steps to solve UTF-8 issues                       | ---                        |
 | .versions       | Information about all available FBW branches                 | ---                        |
 | .weather        | Explains the current state of the weather and terrain radars | .wx                        |
@@ -70,22 +83,9 @@ For information on how to contribute to bot development visit the Discord bot re
 | .whened         | you just got .whened! (meme)                                 | ---                        |
 | .where          | Help with which aircraft to select in the aircraft selector  | ---                        |
 | .willithave     | Answers the question "Will the A32NX have ... ?"             | ---                        |
-| .xbox           | Xbox/Marketplace NOTAM link                                  | ---                        |
-| .xp             | Just... no!                                                  | .XPlane <br>.X-Plane       | 
-| .discontinuity  | Link to docs about discontinuities                           | .disco                     | 
-| .fridge         | Fridge                                                       | ---                        |
-| .tiller         | Provides a link to the tiller feature guide                  | .til <br>.steer <br>.steering|
-| .cfms           | Provides information on the new cfms                         | ---                        |
-| .fdr            | Information on how to provide fdr files                      | ---                        |
-| .buildinfo      | Link to docs for build info                                  | .buildinfo                 |
-| .navdata        | Provides help with Navigraph navdata reinstall               | ---                        |
-| .assistance     | Explains to the user why assistance options should be disabled| .assi <br>.as             |
-| .crak           | What's your sim version?                                     | ---                        |
-| .dx12           | Explanation for the current state of MSFS DirectX12 support  | ---                        |
-| .fixinfo        | Provide information about the fix info feature               | ---                        |
 | .weights        | Provides a link to the fuel and weights docs guide           | .wb <br>.wnb <br>.w+b <br>.w&b <br>.fuel|
-| .goldenrules    | Provides an image describing the golden rules an Airbus pilot should follow| .golden <br>.gr            |
-| .sop            | Displays first page of SOP and provides PDF download         | ---                        |
+| .xbox           | Xbox/Marketplace NOTAM link                                  | ---                        |
+| .xp             | Just... no!                                                  | .XPlane <br>.X-Plane       |
 
 
 ## Changelog
