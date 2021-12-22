@@ -84,13 +84,6 @@ Settings for simulation aspects of the A32NX aircraft.
 
 ### Usage
 
-- ADIRS Align Time:
-    - User can set this to either a realistic time (~8min), a faster time (~2min) or instant.
-- DMC Self Test Time:
-    - User can set the time for the Display Management Computer's self test (Real ~15sec, Fast ~5sec, Instant).
-- Boarding Time:
-    - User can set the simulated boarding time to either a realistic time (~15min), a faster time (~3-4min), or instant.
-        - Based on full load - 174 passengers and full cargo.
 - Default Baro:
     - User can set which baro setting he wants to have as a default: inHg, hPA or Auto (depends on the airport where the aircraft spawned).
 - Sync MSFS Flight Plan:
@@ -102,25 +95,51 @@ Settings for simulation aspects of the A32NX aircraft.
 
         !!! warning "Synchronization Issues Expected"
             The aircraft's custom Flight Management System provides better accuracy and features over the default flight plan manager in Microsoft Flight simulator which results in issues syncing the flight plan from the MCDU back into the simulator. Do not expect it to work properly in all cases.
-
-- MCDU Keyboard Input (unrealistic)
-    - Enables the MCDU Keyboard input feature (see [MCDU Keyboard](../mcdu-keyboard.md)).
-- MCDU Focus Timeout (s)
-    - The timeout feature will "automatically unfocus" the MCDU screen after the given amount of seconds.
-    - Valid range is 5 - 120 seconds.
 - External MCDU Server Port
     - User can change the port for the internal MCDU websocket server in case the default port is already occupied on the user's system.
     - Default is: 8080
     - ~~This is not the port for using in the browser to access the MCDU Web Interface.~~
 - Dynamic Registration Decal:
     - The dynamic registration number decal shown on the external livery can be disabled to improve appearance when using liveries with a static registration number.
+- Detents:
+    - See [Throttle Configuration](throttle-calibration.md).
+
+## Realism
+
+Settings for realism aspects of the A32NX aircraft.
+
+<div style="position: relative;">
+    <img src="/fbw-a32nx/assets/flypad/flypad-settings-realism.png" style="width: 100%; height: auto;" loading="lazy">
+    <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.3%; top:  7.7%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Dashboard</span></div></a>
+    <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 15.6%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Dispatch</span></div></a>
+    <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 23.5%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Ground</span></div></a>
+    <a href="../performance/"> <div class="imagemap" style="position: absolute; left: 1.3%; top: 31.4%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Performance</span></div></a>
+    <a href="../charts/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 39.3%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Navigation & Charts</span></div></a>
+    <a href="../online-atc/">  <div class="imagemap" style="position: absolute; left: 1.3%; top: 47.2%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Online ATC</span></div></a>
+    <a href="../failures/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 55.1%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Failures</span></div></a>
+    <a href="../settings/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 84.1%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Settings</span></div></a>
+    <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
+</div>
+
+### Usage
+
+- ADIRS Align Time:
+    - User can set this to either a realistic time (~8min), a faster time (~2min) or instant.
+- DMC Self Test Time:
+    - User can set the time for the Display Management Computer's self test (Real ~15sec, Fast ~5sec, Instant).
+- Boarding Time:
+    - User can set the simulated boarding time to either a realistic time (~15min), a faster time (~3-4min), or instant.
+        - Based on full load - 174 passengers and full cargo.
+- MCDU Keyboard Input (unrealistic)
+    - Enables the MCDU Keyboard input feature (see [MCDU Keyboard](../mcdu-keyboard.md)).
+- MCDU Focus Timeout (s)
+    - The timeout feature will "automatically unfocus" the MCDU screen after the given amount of seconds.
+    - Valid range is 5 - 120 seconds.
 - Separate Tiller from Rudder Inputs
     - User can chose to use how the nose wheel shall be controlled:
         - Legacy mode (Disabled): Rudder controls also move the nose wheel. No separation.
         - Realistic mode (Enabled): Nose Wheel steering with tiller handwheel is separate from the rudder.
             - See our guide: [Nose Wheel and Tiller Operation](../nw-tiller.md)
-- Detents:
-    - See [Throttle Configuration](throttle-calibration.md).
 
 ## ATSU/AOC
 

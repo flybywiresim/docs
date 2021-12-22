@@ -10,6 +10,13 @@ This feature is deactivated by default. Before the tiller steering can be used i
 
 This guides helps to set everything up and will also provide tips how to use it for taxi as this more realistic way of steering needs a bit of practice to master it.
 
+!!! warning "De-activate MSFS Assistance Auto-Rudder"
+    This A32NX is not compatible with the Microsoft Flight Simulator feature "Assistance Auto-Rudder". It is required to deactivate this feature in MSFS.
+
+    We recommend to turn off all assistance features in MSFS as they interfere with the A32NX systems.
+
+    ![MSFS Assistance Options](../assets/nw-tiller/assistance-options.png "MSFS Assistance Options"){loading=lazy}
+
 ## What is the Tiller
 
 The tiller is the handwheel located next to the sidestick on the side consoles.
@@ -39,13 +46,6 @@ The ground crew can deactivate the steering system by using a switch in the elec
 !!! warning "Microsoft Flight Simulator sometimes has an invisible towing tug attached to the aircraft. The ECAM MEMO helps you recognize this."
 
 ## Mapping of the Tiller Axis
-
-??? warning "De-activate MSFS Assistance Auto-Rudder"
-    This feature is not compatible with the Microsoft Flight Simulator feature "Assistance Auto-Rudder". It is required to deactivate this feature in MSFS.
-
-    We recommend to turn off all assistance features in MSFS as they interfere with the A32NX systems.
-
-    ![MSFS Assistance Options](../assets/nw-tiller/assistance-options.png "MSFS Assistance Options"){loading=lazy}
 
 ### Using an Axis
 

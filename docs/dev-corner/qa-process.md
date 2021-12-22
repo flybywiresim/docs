@@ -57,7 +57,7 @@ How to download the PR for QA
 
     ![GitHub PR Checks tab](assets/qa-process/pr-checks-tab.png "GitHub PR Checks tab")
 
-3. On the left side click on the bottom PR label.
+3. On the left side click on the PR label saying `on: pull_request`.
 
     ![GitHub PR Check PR](assets/qa-process/pr-check-pr.png "GitHub PR Check PR")
 
@@ -174,7 +174,7 @@ Media:
     3. Give your saved reply a name and paste the QA template.
 
     Then when writing a QA report, click on the arrow in the top right corner of the comment field. Select your saved reply and insert the necessary data.
-    
+
     Alternatively you can use the keyboard shortcut CTRL+. CTRL+1 -> note that the number represents your saved replies so if you have multiple and your QA template is the third one you would have to use CTRL+3.
 
 ## Discord Roles
@@ -192,7 +192,7 @@ After being accepted as QA tester (see [Becoming a QA Tester](#becoming-a-qa-tes
 
     ---
 
-    **QA Testers** 
+    **QA Testers**
 
     Free to test all available Pull Requests ready to test. The high standard they have proven as a QA Trainee will continue to be expected from them.
 

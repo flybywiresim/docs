@@ -6,6 +6,10 @@
 
 ---
 
+See our detailed documentation for the upper ECAM:
+
+[ECAM Engine and Warning Display](../../ecam/ecam-e-wd.md){ .md-button }
+
 ![Upper ECAM](../../../assets/a32nx-briefing/front/Upper-ECAM.jpg "Upper ECAM")
 
 ## Description
@@ -20,8 +24,5 @@ The Electronic Centralized Aircraft Monitoring (ECAM) consists of two displays:
     - Permanent flight data
 
 
-<!-- TODO: UPDATE -->
-!!! info "Future Update"
-    A more in depth description of the ECAM is currently being developed and will be available in the near future.
 
 [Back to Flight Deck](../index.md){ .md-button }
