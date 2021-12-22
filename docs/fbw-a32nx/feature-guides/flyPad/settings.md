@@ -176,7 +176,7 @@ Settings for integrations with various data and information sources.
 
     - If enabled a message will be displayed to confirm sharing of the free text and position data to the public.
 
-        ![flypad-settings-atsu-aoc-telex-warning](../../assets/flypad/flypad-settings-atsu-aoc-telex-warning.png){loading=lazy}
+        ![flypad-settings-atsu-aoc-telex-warning](../../assets/flypad/flypad-settings-atsu-aoc-telex-warning.png)
 
 - Simbrief Username/Pilot ID
     - see next chapter
@@ -185,18 +185,18 @@ Settings for integrations with various data and information sources.
 
 Before you can use the A32NX simBrief Integration you need to provide your simBrief account details.
 
-- Simbrief Username:
-    - Enter your simBrief username.
+- Simbrief Username/Pilot ID:
+    - Enter your simBrief username or Pilot ID.
 
-        ![simBrief Account field](../../assets/flypad/simbrief-account-field.png "simBrief Account field"){loading=lazy}
+        ![simBrief Account field](../../assets/flypad/simbrief-account-field.png "simBrief Account field")
 
     - If you entered a wrong username or Pilot ID a red error message will be displayed.
 
-        ![simBrief Account Field Error](../../assets/flypad/simbrief-account-field-error.png "simBrief Account Field Error"){loading=lazy}
+        ![simBrief Account Field Error](../../assets/flypad/simbrief-account-field-error.png "simBrief Account Field Error")
 
-To get your simBrief username you can go to your simBrief Account settings and open "Simbrief Data".
+To get your simBrief username or Pilot ID you can go to your simBrief Account settings and open "Simbrief Data".
 
-![simBrief Account Data](../../assets/flypad/simbrief-account-data.png "simBrief Account Data"){loading=lazy}
+![simBrief Account Data](../../assets/flypad/simbrief-account-data.png "simBrief Account Data")
 
 !!! attention ""
     If you use the Stable version please omit any space characters in your username. If for example your username is "Mr Pilot" the please use "MrPilot" as username.
