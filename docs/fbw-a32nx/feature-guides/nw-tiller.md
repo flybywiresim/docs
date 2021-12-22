@@ -125,7 +125,13 @@ As the current solution is a workaround of a missing Microsoft Flight Simulator 
 
 Modifying steering animation so it shows our internal system state will mask those issues and allow for perfect visual behaviour. But it can cause strange plane rotation behaviour when these issues will be triggered.
 
-## 320 Sim Pilot Video
+## YouTube Videos
+
+### 320 Sim Pilot Video
 
 <iframe width="790" height="450" src="https://www.youtube-nocookie.com/embed/2gWx0EblS30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Easyjetsimpilot
+
+<iframe width="790" height="450" src="https://www.youtube-nocookie.com/embed/JM6WrwJJjIo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
