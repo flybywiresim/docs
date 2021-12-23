@@ -104,15 +104,15 @@ Flight Deck:  [EXT LT Panel](flight-deck/ovhd/ext-lt.md)
 |              | LOGO_LIGHTS_SET       | 0 \| 1 | -          | SIMCONNECT EVENT | LOGO does not move switch                                          |
 |              | LIGHT LOGO            | 0 \| 1 | R/W        | SIMCONNECT VAR   | LOGO does not move switch                                          |
 |              |                       |        |            |                  |                                                                    |
-| RWY TURN OFF | CIRCUIT SWITCH ON:21  | 0 \| 1 | R/W        | SIMCONNECT VAR   | Left Rwy Turn Off Light + Switch                                   |
-|              | CIRCUIT SWITCH ON:22  | 0 \| 1 | R/W        | SIMCONNECT VAR   | Right Rwy Turn Off Light                                               |
+| RWY TURN OFF | CIRCUIT SWITCH ON:21  | 0 \| 1 | R/W        | MSFS VAR         | Left Rwy Turn Off Light + Switch                                   |
+|              | CIRCUIT SWITCH ON:22  | 0 \| 1 | R/W        | MSFS VAR         | Right Rwy Turn Off Light                                           |
 |              | LIGHTING_TAXI_2       | 0 \| 1 | R          | Custom LVAR      |                                                                    |
 |              |                       |        |            |                  |                                                                    |
 | LAND L + R   | LANDING_LIGHTS_ON     | 0..3   | -          | SIMCONNECT EVENT | 0=all, 1=NOSE, 2=L, 3=R                                            |
 |              | LANDING_LIGHTS_OFF    | 0..3   | -          | SIMCONNECT EVENT | 0=all, 1=NOSE, 2=L, 3=R                                            |
 |              | LANDING_LIGHTS_TOGGLE | 0..3   | -          | SIMCONNECT EVENT | 0=all, 1=NOSE, 2=L, 3=R                                            |
-|              | CIRCUIT SWITCH ON:18  | 0 \| 1 | R/W        | SIMCONNECT VAR   | Left landing light                                                 |
-|              | CIRCUIT SWITCH ON:19  | 0 \| 1 | R/W        | SIMCONNECT VAR   | Right landing light                                                |
+|              | CIRCUIT SWITCH ON:18  | 0 \| 1 | R/W        | MSFS VAR         | Left landing light                                                 |
+|              | CIRCUIT SWITCH ON:19  | 0 \| 1 | R/W        | MSFS VAR         | Right landing light                                                |
 |              | LIGHT_LANDING_1       | 0 \| 1 | R/W        | Custom LVAR      | Switch position of the NOSE switch: 2=OFF, 1=TAXI, 0=T.O.          |
 |              | LIGHT_LANDING_2       | 0 \| 1 | R/W        | Custom LVAR      | Switch position of the left landing light: 2=RETRACT, 1=OFF, 2=ON  |
 |              | LIGHT_LANDING_3       | 0 \| 1 | R/W        | Custom LVAR      | Switch position of the right landing light: 2=RETRACT, 1=OFF, 2=ON |
@@ -123,8 +123,8 @@ Flight Deck:  [EXT LT Panel](flight-deck/ovhd/ext-lt.md)
 | NOSE         | TOGGLE_TAXI_LIGHTS    | -      | -          | SIMCONNECT EVENT | Also toggles RWY TURN OFF LIGHT                                    |
 |              | LIGHT TAXI            | 0 \| 1 | R/W        | SIMCONNECT VAR   | Only switches TAXI light                                           |
 |              | LANDING_LIGHTS_TOGGLE | 1      | -          | SIMCONNECT EVENT | Toggles switch between T.O. and OFF                                |
-|              | CIRCUIT SWITCH ON:20  | 0 \| 1 | R/W        | SIMCONNECT VAR   | NOSE TAXI                                                          |
-|              | CIRCUIT SWITCH ON:17  | 0 \| 1 | R/W        | SIMCONNECT VAR   | NODE T.O.                                                          |
+|              | CIRCUIT SWITCH ON:20  | 0 \| 1 | R/W        | MSFS VAR         | NOSE TAXI                                                          |
+|              | CIRCUIT SWITCH ON:17  | 0 \| 1 | R/W        | MSFS VAR         | NODE T.O.                                                          |
 
 !!! note "Landing and Taxi lights"
     The default behaviour of the SIMCONNECT events for landing lights and taxi
@@ -371,13 +371,13 @@ Flight Deck: [Wiper Panel](flight-deck/ovhd/wipers.md)
 
 | Function     | API Usage                            | Values | Read/Write | Type        | Remark                                 |
 |:-------------|:-------------------------------------|:-------|:-----------|:------------|:---------------------------------------|
-| WIPER L knob | CIRCUIT ON:77                        | 0 \| 1 | R          |             |                                        |
-|              | ELECTRICAL_CIRCUIT_POWER_SETTING_SET | 77     |            |             | ~~Unclear how to set power correctly~~ |
-|              | ELECTRICAL_CIRCUIT_TOGGLE            | 77     |            |             |                                        |
+| WIPER L knob | CIRCUIT ON:77                        | 0 \| 1 | R          | MSFS VAR    |                                        |
+|              | ELECTRICAL_CIRCUIT_POWER_SETTING_SET | 77     |            | MSFS Event  | ~~Unclear how to set power correctly~~ |
+|              | ELECTRICAL_CIRCUIT_TOGGLE            | 77     |            | MSFS Event  |                                        |
 |              |                                      |        |            |             |                                        |
-| WIPER R knob | CIRCUIT ON:88                        | 0 \| 1 | R          |             |                                        |
-|              | ELECTRICAL_CIRCUIT_TOGGLE            | 88     |            |             |                                        |
-|              | ELECTRICAL_CIRCUIT_POWER_SETTING_SET | 88     |            |             | ~~Unclear how to set power correctly~~ |
+| WIPER R knob | CIRCUIT ON:88                        | 0 \| 1 | R          | MSFS        |                                        |
+|              | ELECTRICAL_CIRCUIT_TOGGLE            | 88     |            | MSFS VAR    |                                        |
+|              | ELECTRICAL_CIRCUIT_POWER_SETTING_SET | 88     |            | MSFS Event  | ~~Unclear how to set power correctly~~ |
 |              |                                      |        |            |             |                                        |
 | RAIN RPLNT   | A32NX_RAIN_REPELLENT_LEFT_ON         | 0 \| 1 | R          | Custom LVAR |                                        |
 |              | A32NX_RAIN_REPELLENT_RIGHT_ON        | 0 \| 1 | R          | Custom LVAR |                                        |
