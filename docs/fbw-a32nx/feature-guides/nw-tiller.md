@@ -124,3 +124,14 @@ As the current solution is a workaround of a missing Microsoft Flight Simulator 
 - Full rudder action can overcome to some extent our system implementation. It is possible to move the nose wheel even with no hydraulic power, as MSFS will turn the wheel even when our internal implementation is not moving at all.
 
 Modifying steering animation so it shows our internal system state will mask those issues and allow for perfect visual behaviour. But it can cause strange plane rotation behaviour when these issues will be triggered.
+
+## YouTube Videos
+
+### 320 Sim Pilot Video
+
+<iframe width="790" height="450" src="https://www.youtube-nocookie.com/embed/2gWx0EblS30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Easyjetsimpilot
+
+<iframe width="790" height="450" src="https://www.youtube-nocookie.com/embed/JM6WrwJJjIo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
