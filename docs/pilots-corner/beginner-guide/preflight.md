@@ -1,6 +1,6 @@
 # Preflight
 
-Before you start your flight in earnest, we have included various features in the A32NX that assist in configuring the aircraft and in-flight support. Some of these feature require the aircraft to be powered on. Additionally, these guides will be linked in the appropriate locations throughout the beginner guide. 
+Before you start your flight in earnest, we have included various features in the A32NX that assist in configuring the aircraft and in-flight support. Some of these features require the aircraft to be powered on. Additionally, these guides will be linked in the appropriate locations throughout the beginner guide. 
 
 ---
 
