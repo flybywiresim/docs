@@ -6,6 +6,7 @@
 title: Beginner Guide
 nav:
     - Overview: overview.md
+    - preflight.md
     - starting-the-aircraft.md
     - preparing-mcdu.md
     - engine-start-taxi.md
