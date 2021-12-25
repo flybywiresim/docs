@@ -91,7 +91,7 @@ Check that the axis mappings are correct.
     - `THROTTLE AXIS`<br/>(for a throttle with one lever)
         ![Throttle Axis Mapping](../../assets/flypad/throttle-calibration/throttle-axis-mapping-2.png "Throttle Axis Mapping"){loading=lazy}
 
-    Make sure if you move the throttle all they way from lowest setting to highest setting that the white bar underneath the mapping line also moves all the way in both directions.
+    Make sure if you move the throttle all the way from lowest setting to highest setting that the white bar underneath the mapping line also moves all the way in both directions.
 
 ??? tip "You can't see all options? Try this!"
 
