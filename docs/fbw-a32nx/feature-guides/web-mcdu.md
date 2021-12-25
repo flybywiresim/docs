@@ -40,11 +40,6 @@ After this the MCDU Server will start and will provide you with links for your l
 
 ![MCDU Server Command Window](../assets/mcdu-server/mcdu-server-cmd-window.png "MCDU Server Command Window")
 
-!!! warning "IP Address for Remote Device"
-    The IP address shown for the remote device might be incorrect. The tool chooses the first local address it finds put there is a chance that you need to use a different IP address to reach your PC.
-
-    Details see in chapter [Browser on Remote Device](#browser-on-remote-device)
-
 ### Browser on Local PC
 
 If you want to use a browser on the same machine on which you are running the Microsoft Flight Simulator and the MCDU Server it is very easy to connect to the MCDU Web Interface.
