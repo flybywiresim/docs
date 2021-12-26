@@ -56,11 +56,10 @@ If you want to start with only the MCDU display and not the whole MCDU panel the
 
 If you want to use the MCDU Web Interface from a remote device (e.g. tablet, phone, 2nd PC, etc.) you need to first make sure you can access the MCDU Web Interface on your PC by allowing incoming network connections to the server through your Windows Firewall. See how to do this here: [Windows Firewall](#windows-firewall)
 
-The MCDU Server command window tries to guess your IP address. Use the `http://xxx.xxx.xxx.xxx:8125` address and enter it into your browser on the remote device.
+The MCDU Server command window tries to detect your IP address. Use the `http://xxx.xxx.xxx.xxx:8125` address and enter it into your browser on the remote device.
 
-??? note "Incorrect IP Address (click to expand)"
-    Sometimes a wrong IP address will be shown in the MCDU Server command window and it will not be possible to connect to the MCDU Server from a remote device.
-
+??? note "Unknown IP Address (click to expand)"
+    Sometimes the MCDU Server is not able to detect your IP address.
     To find your correct IP address follow this guide: [How to Find Your IP Address on Windows 11](https://www.howtogeek.com/744082/how-to-find-your-ip-address-on-windows-11/){target=new}
 
     The port is set to 8125 per default and can be changed be command line options (see [Advanced Start Options](#advanced-start-options)) .
