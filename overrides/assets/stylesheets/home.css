@@ -1,3 +1,7 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&family=Manrope:wght@700&display=swap" rel="stylesheet">
+
 /* Main Elements */
 .md-main {
     flex-grow: 1;
@@ -75,7 +79,7 @@
 }
 
 .f-box h2 {
-    font-family: 'Manrope';
+    font-family: 'Manrope', sans-serif;
     color: #00E0FE;
     font-weight: 400;
     font-size: 25px;
@@ -85,7 +89,7 @@
 }
 
 .f-box p {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     line-height: 2em;
     color: #ffffff;
