@@ -4,6 +4,7 @@
   --md-primary-fg-color--dark:  hsl(216,32%,17%);
   --md-primary-fg-color--light: #00E0FE;
   --md-accent-fg-color:         #00C2CB;
+  --header-font:       "<Manrope>";
 }
 /* Color Notes
 light hsla(216,32%,17%,1)
@@ -15,16 +16,22 @@ diff rgba(27,36,52,1)
   --md-default-bg-color: rgb(23,30,44);
 }
 
+/*Font Override*/
+@font-face {
+  font-family: "<Manrope>";
+  src: "https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap";
+}
+
 /*Header Modifications*/
 .md-typeset h1 {
   color: #00E0FE;
-  font-family: Manrope;
-  font-weight: 900;
+  font-family: var(--header-font), sans-serif;
+  font-weight: 600;
   size: 2em;
 }
 .md-typeset h2, .md-typeset h3, .md-typeset h4 {
-  font-family: Manrope;
-  font-weight: 600;
+  font-family: var(--header-font), sans-serif;
+  font-weight: 400;
   size: 2em;
 }
 h1 {
