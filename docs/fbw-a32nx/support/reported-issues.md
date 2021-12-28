@@ -926,7 +926,6 @@ TEMPLATE
 ## Known A32NX Incompatibilities
 
 ??? warning "Incompatibilities"
-    ### Incompatibilities
 
     !!! tip ""
         *Affected versions: Stable, Development*
@@ -938,7 +937,6 @@ TEMPLATE
 ## A32NX Fixed Issues
 
 ??? info "Fixed Issues"
-    ## Fixed Issues
 
     !!! tip ""
         Unless stated otherwise, all fixed issues are first released on our development version.
