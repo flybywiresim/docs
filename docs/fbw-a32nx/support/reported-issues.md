@@ -1000,7 +1000,7 @@ TEMPLATE
 
 ## Legend
 
-!!! bug "Breaking Issue /Bug"
+!!! bug "Breaking Issue / Bug"
 !!! warning "Non Breaking Issue / Inconvenience"
 !!! tip "Config Issue / Usage Issue"
 
