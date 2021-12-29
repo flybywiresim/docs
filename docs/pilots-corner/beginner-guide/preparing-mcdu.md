@@ -376,9 +376,9 @@ For this flight we will be taking off with a `1+F` flaps configuration.
 
     ---
 
-    The THS field is where we enter the stabilizer trim for takeoff based on the aircraft's takeoff CG (TOCG). Entiering this value in the MCDU will trigger the ^^F/CTL PITCH TRIM/MCDU/CG DISAGREE^^ ECAM caution, if appropriate.
+    The THS field is where we enter the stabilizer trim for takeoff based on the aircraft's takeoff CG (TOCG). Entering this value in the MCDU will trigger the ^^F/CTL PITCH TRIM/MCDU/CG DISAGREE^^ ECAM caution, if appropriate.
 
-    If you have already entered your flaps configuration in the step above, applicable entires are formatted `/X.XDN` or `/X.XUP` representing a trim value and nose down or up respectively.
+    If you have already entered your flaps configuration in the step above, applicable entries are formatted `/X.XDN` or `/X.XUP` representing a trim value and nose down or up respectively.
 
     Examples:
 
