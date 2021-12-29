@@ -25,7 +25,7 @@ To do this locate the `flybywire-aircraft-a320-neo` folder in your MSFS Communit
 
 Double click on the `server.exe` file to start the MCDU Server.
 
-!!! tip "You can also you as a command line prompt to start the server."
+!!! tip "You can also use the command prompt to start the server manually"
     See advanced startup options below: [Advanced Start Options](#advanced-start-options)
 
 Once started the MCDU Server application will ask if you want to use your real printer instead of the virtual printer in the cockpit.
@@ -44,7 +44,7 @@ After this the MCDU Server will start and will provide you with links for your l
 
 If you want to use a browser on the same machine on which you are running the Microsoft Flight Simulator and the MCDU Server it is very easy to connect to the MCDU Web Interface.
 
-Just use ++ctrl+left-button++ on the `localhost` link in the command window and it should open the MCDU Web Interface in your default browser.
+Just use ++ctrl+"Left Click"++ on the `localhost` link in the command window and it should open the MCDU Web Interface in your default browser.
 
 [http://localhost:8125](http://localhost:8125){target=new}
 
