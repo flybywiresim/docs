@@ -117,14 +117,14 @@ Options:
     - To skip the prompt asking to choose a printer and have a specific local printer configured. This option is required if you want to start the server without any manual interaction (e.g. starting it with the sim).
 - websocket-port:
     - The port where the MCDU Web Interface will communicate with the MCDU itself.
-    - ~~This is not the port you need to access the MCDU Web Interface with your browser~~.
+    - ~~This is not the port you need to access the MCDU Web Interface with your browser.~~
     - ~~We recommend to **only** change this if absolutely required (e.g. port is already occupied). See [Websocket Port](#websocket-port) for details.~~
 
 ### Websocket Port
 
 The websocket port is the port where the MCDU Web Interface will communicate with the actual MCDU. It sends and receives data through this connection.
 
-This will allow to have different UI implementations or even hardware MCDUs in the future. We plan to eventually also create a separate documentation for using this websocket connection directly.
+This will allow to have different UI implementations or even hardware MCDUs in the future. We plan to eventually also create separate documentation for using this websocket connection directly.
 
 !!! warning "We recommend to **not** change the default port for the websocket. If you have to change this port because it is already occupied on your machine you need to change it as well in the EFB Sim Options Settings page."
 
@@ -134,7 +134,7 @@ With hundreds of different browsers available today it is not possible to test a
 
 In general we expect this feature to work with the common standard browsers on Windows, iOS, Android.
 
-However there will be browsers where this will not work. In this case we recommend to use a standard browser.
+However, there will be browsers where this will not work. In this case we recommend to use a standard browser.
 
 We have tested these browsers during the development and these should therefore work ok:
 
