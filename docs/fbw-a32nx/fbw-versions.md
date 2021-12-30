@@ -2,49 +2,44 @@
 
 ## Version Overview
 
-=== "Development Version (recommended)"
+### "Development Version (recommended)"
 
-    Development will have the latest features that will eventually end up in the next stable release. 
-    
-    In general this version has the latest fixes and newest features but also a slightly higher risk of containing bugs as features had less time to be used and tested by users.
+Development will have the latest features that will eventually end up in the next stable release.
 
-    This version updates often and sometimes several times a days. We recommend to update this version via our installer before every start of the simulator.
+In general this version has the latest fixes and newest features but also a slightly higher risk of containing bugs as features had less time to be used and tested by users.
 
-    Every addition to the development version is code-reviewed and tested by several people, our QA Team and also interested users. In general it tends to be very stable and robust.
+This version updates often and sometimes several times a days. We recommend to update this version via our installer before every start of the simulator.
 
-    Latest additions to this version can be seen either in the official [CHANGELOG](https://github.com/flybywiresim/a32nx/blob/master/.github/CHANGELOG.md) or the commits to the master branch of the project: [Github Commits to Master](https://github.com/flybywiresim/a32nx/commits/master){target=new}
+Every addition to the development version is code-reviewed and tested by several people, our QA Team and also interested users. In general it tends to be very stable and robust.
 
-=== "Stable Version"
+Latest additions to this version can be seen either in the official [CHANGELOG](https://github.com/flybywiresim/a32nx/blob/master/.github/CHANGELOG.md) or the commits to the master branch of the project: [Github Commits to Master](https://github.com/flybywiresim/a32nx/commits/master){target=new}
 
-    !!! info ""
-        **Current Stable Version -** <img src="https://img.shields.io/github/v/release/flybywiresim/a32nx.svg?color=2F4E5B&style=flat" />
+### "Stable Version"
 
-    Stable is our version which has features that are the most mature and most tested. This should be a reliable version for those users preferring stability over newest features.
+!!! info ""
+    **Current Stable Version -** <img src="https://img.shields.io/github/v/release/flybywiresim/a32nx.svg?color=2F4E5B&style=flat" />
 
-    This version will not always be up to date but we work hard at ensuring its compatibility with the current version from Microsoft Flight Simulator.
+Stable is our version which has features that are the most mature and most tested. This should be a reliable version for those users preferring stability over newest features.
 
-=== "Experimental Version"
+This version will not always be up to date but we work hard at ensuring its compatibility with the current version from Microsoft Flight Simulator.
 
-    This version is similar to the development version, but contains custom systems in earlier development phases.
-    
-    Currently we are testing our upcoming LNAV update with support for overfly, more procedure leg types, much more resilient path generation, ND data transmission modelled after real-world EIS architecture and more.
-    
-    The Experimental version is a test version to find problems and issues and to improve functionality based on your feedback. It is not meant to be used for daily use or when you try to do a serious flight on VATSIM.    
-    
-    The experimental version will be updated regularly and also with the latest changes to the Development version. Expect updates about once a week (not guaranteed).    
+### "Experimental Version"
 
-    !!! warning
-    
-    The Experimental version has a less strict QA process and is used for actual QA testing. Bugs and Issues are to be expected. Please read [Experimental Version Support Page](support/exp.md) before using this version.
+This version is similar to the development version, but contains custom systems in earlier development phases.
 
-    !!! danger "No Support for Experimental - use at own risk"
-    
-    Please do not seek support for the Experimental Version on Discord and only report issues if you have read this page as well as the reported and known issues.
+Currently we are testing our upcoming LNAV update with support for overfly, more procedure leg types, much more resilient path generation, ND data transmission modelled after real-world EIS architecture and more.
 
-<!--
-Currently we are testing the new implementation of the TCAS.
+The Experimental version is a test version to find problems and issues and to improve functionality based on your feedback. It is not meant to be used for daily use or when you try to do a serious flight on VATSIM.
 
--->
+The experimental version will be updated regularly and also with the latest changes to the Development version. Expect updates about once a week (not guaranteed).
+
+!!! warning
+
+The Experimental version has a less strict QA process and is used for actual QA testing. Bugs and Issues are to be expected. Please read [Experimental Version Support Page](support/exp.md) before using this version.
+
+!!! danger "No Support for Experimental - use at own risk"
+
+Please do not seek support for the Experimental Version on Discord and only report issues if you have read this page as well as the reported and known issues.
 
 ## Version Comparison
 
