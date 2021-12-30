@@ -230,18 +230,12 @@ Sometimes the default ports 8080 or 8125 are already used by other services on y
 In this case you should get error messages similar to this:
 
 ```
-Error: listen EADDRINUSE: address already in use :::8125
-```
-<!-- to be changed after update is done
 Error: Port 8125 is already in use
--->
+```
 or
 ```
-Error: listen EACCES: permission denied 0.0.0.0:8080
-```
-<!-- to be changed after update is done
 Error: Port 8080 is already in use
--->
+```
 
 ??? tip "How To Check If a Port is Already In Use?"
     You can see if a port is occupied by making sure the MCDU Server is off and then running this command:
@@ -290,14 +284,10 @@ Of course now the firewall might need to be opened for this new port.
 If you you start the server and get this error messages:
 
 ```
-(node:77404) UnhandledPromiseRejectionWarning: Error: Command failed:
- Powershell.exe -Command Get-CimInstance Win32_Printer -Property DeviceID,Name
-...
-```
-<!-- to be changed after update is done
 Error: Failed to load printers.
 Make sure the "Print Spooler" Windows service is running.
--->
+...
+```
 
 Make sure the "Printer Spooler" Windows service is turned on:
 
