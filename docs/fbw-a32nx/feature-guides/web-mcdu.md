@@ -145,9 +145,14 @@ We have tested these browsers during the development and these should therefore 
 - Samsung phone: Chrome, Firefox, duckduckgo
 - Linux: Firefox
 
-Known unsupported browsers:
+Always the latest versions of the operating system and the browser.
 
-- Samsung Internet
+We have not tested older operating systems or browsers and can't support them. The might or might not work.
+
+Known unsupported operating systems or browsers:
+
+- Samsung Internet Browser
+- iOS 9.x, iOS 10.x
 - Very old browsers not supporting Web Sockets. See [Can I use Web Sockets](https://caniuse.com/?search=web%20sockets){target=new}
 
 ## Troubleshooting and Advanced Configuration
