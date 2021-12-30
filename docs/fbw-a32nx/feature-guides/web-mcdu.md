@@ -149,10 +149,90 @@ Known unsupported browsers:
 
 - Samsung Internet
 
-## Windows Firewall
+## Troubleshooting and Advanced Configuration
+
+### Firewall Configuration
 
 !!! danger "Disclaimer"
     Changing Windows settings, especially security settings like the firewall comes with certain risks. Please do not change these settings if you are not comfortable doing so. FlyByWire Simulations cannot take any responsibility for any issues caused by your changes to Windows or security settings.
 
-[Opening a Port on Windows Firewall Instructions](https://www.howtogeek.com/394735/how-do-i-open-a-port-on-windows-firewall/){target=new .md-button}
+If you can't reach your MCDU server from your browser on your device or locally then it is very likely that your PC firewall is blocking this network traffic.
 
+To test this turn off your firewall and try again to reach your MCDU via your browser. If you now can access your MCDU from your browser you have confirmed that it is indeed the firewall that bocks this access. **Turn the firewall back on again.**
+
+We now know we need to open the ports we want to use. The default ports are TCP 8125 and TCP 8080 and these must be allowed to pass the firewall.
+
+There are several ways to open ports on your PC firewall.
+
+For the Windows Firewall you can either do it like it is described here: [Opening a Port on Windows Firewall Instructions](https://www.howtogeek.com/394735/how-do-i-open-a-port-on-windows-firewall/){target=new}
+
+Or if you open a Command Line prompt as Administrator you can use these commands:
+
+```
+netsh advfirewall firewall add rule name="MCDU Web Server" dir=in action=allow protocol=TCP localport=8125
+
+netsh advfirewall firewall add rule name="MCDU WebSocket Server" dir=in action=allow protocol=TCP localport=8080
+```
+
+For an advanced guide of this command see the Microsoft documentation: [netsh advfirewall firewall](https://docs.microsoft.com/en-US/troubleshoot/windows-server/networking/netsh-advfirewall-firewall-control-firewall-behavior){target=new}
+
+This should now allow access from your browser to the MCDU.
+
+### Occupied Port
+
+Sometimes the default ports 8080 and 8125 are already used by other services on your PC.
+
+In this case you should get error messages similar to this:
+
+```
+Error: listen EADDRINUSE: address already in use :::8125
+```
+or
+```
+Error: listen EACCES: permission denied 0.0.0.0:8080"
+```
+
+You can see if a port is occupied by making sure the MCDU Server is off and running this command:
+
+Windows Command Line:
+```
+netstat -ano | find "8080"
+```
+or
+Windows Powershell:
+```
+netstat -aon | findstr 8080
+```
+
+If the corresponding port is already in use the output should be similar to this:
+```
+  TCP    0.0.0.0:8080           0.0.0.0:0              LISTENING       4
+  TCP    [::]:8080              [::]:0                 LISTENING       4
+  ...
+```
+
+#### Webserver Port is Occupied
+
+If the port for the webserver 8125 is already in use you can simply start the MCDU server with this option:
+
+```
+server.exe --http-port=8126
+```
+
+Of course now the firewall needs to opened for this new port.
+
+#### MCDU Websocket Server Port is Occupied
+
+If the port for the MCDU Websocket Server is occupied you need to first change this port in the [flyPad EFB Sim options page](/fbw-a32nx/feature-guides/flyPad/settings/#sim-options) .
+
+You can then start the MCDU server with this option:
+
+```
+server.exe --websocket-port=8081
+```
+
+Of course now the firewall needs to opened for this new port.
+
+### MCDU Server Architecture
+
+![MCDU Server Architecture](../assets/mcdu-server/mcdu-server-architecture.png "MCDU Server Architecture")
