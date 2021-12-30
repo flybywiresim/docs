@@ -286,10 +286,6 @@ server.exe --websocket-port=8081
 
 Of course now the firewall might need to be opened for this new port.
 
-### MCDU Server Architecture
-
-![MCDU Server Architecture](../assets/mcdu-server/mcdu-server-architecture.png "MCDU Server Architecture"){loading=lazy}
-
 ### Printer Issues
 
 If you you start the server and get this error messages:
@@ -307,3 +303,7 @@ Make sure the "Print Spooler" Windows service is running.
 Make sure the "Printer Spooler" Windows service is turned on:
 
 ![mcdu-windows-service-printer](../assets/mcdu-server/mcdu-windows-service-printer.png){loading=lazy}
+
+## MCDU Server Architecture
+
+![MCDU Server Architecture](../assets/mcdu-server/mcdu-server-architecture.png "MCDU Server Architecture"){loading=lazy}
