@@ -218,9 +218,8 @@ Alternatively you can open a Command Line prompt as Administrator and use this c
 netsh advfirewall firewall add rule name="MCDU Server" dir=in action=allow protocol=TCP localport=8080,8125
 ```
 
-For an advanced guide of this command see the Microsoft documentation:
-
-[netsh advfirewall firewall](https://docs.microsoft.com/en-US/troubleshoot/windows-server/networking/netsh-advfirewall-firewall-control-firewall-behavior){target=new .md-button}
+For an advanced guide of this command see the Microsoft documentation:<br/>
+[netsh advfirewall firewall](https://docs.microsoft.com/en-US/troubleshoot/windows-server/networking/netsh-advfirewall-firewall-control-firewall-behavior){target=new}
 
 This should now allow access from your browser to the MCDU.
 
