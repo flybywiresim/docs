@@ -38,7 +38,7 @@ After this the MCDU Server will start and will provide you with links for your l
 
 **You will need to keep this window open and the MCDU Server running to use the MCDU Web Interface**.
 
-![MCDU Server Command Window](../assets/mcdu-server/mcdu-server-cmd-window.png "MCDU Server Command Window")
+![MCDU Server Command Window](../assets/mcdu-server/mcdu-server-cmd-window.png "MCDU Server Command Window"){loading=lazy}
 
 ### Browser on Local PC
 
@@ -148,23 +148,54 @@ We have tested these browsers during the development and these should therefore 
 Known unsupported browsers:
 
 - Samsung Internet
+- Very old browsers not supporting Web Sockets. See [Can I use Web Sockets](https://caniuse.com/?search=web%20sockets){target=new}
 
 ## Troubleshooting and Advanced Configuration
+
+### Network Configuration
+
+To access the MCDU Server from a remote device you need to make sure that this device is on the same network as the PC running the MCDU Server.
+
+This is typically the case if both, the PC and the device use the same Internet router and the same WiFi.i
+
+To check this you can look at the IP address the MCDU server has listed in its command window.
+
+![MCDU Server Command Window](../assets/mcdu-server/mcdu-server-cmd-window.png "MCDU Server Command Window"){loading=lazy}
+
+In the example above the IP address is `192.168.1.19`.
+
+Your device should typically also have an IP address starting with `192.168.1.x` in this case.
+
+You can check this in the device's network configuration.
+
+??? tip "Examples for Device Network Information"
+    **iPad:**
+
+    ![iPad Network Info](../assets/mcdu-server/ipad-network-info.png "iPad Network Info"){loading=lazy}
+
+    **Samsung Android:**
+
+    ![Samsung Network Info](../assets/mcdu-server/samsung-network-info.png "Samsung Network Info"){loading=lazy}
+
+If you still can't connect to the MCDU server your firewall might block the traffic. See next chapter.
 
 ### Firewall Configuration
 
 !!! danger "Disclaimer"
     Changing Windows settings, especially security settings like the firewall comes with certain risks. Please do not change these settings if you are not comfortable doing so. FlyByWire Simulations cannot take any responsibility for any issues caused by your changes to Windows or security settings.
 
-If you can't reach your MCDU server from your browser on your device or locally then it is very likely that your PC firewall is blocking this network traffic.
+If you can't reach your MCDU server from your browser on your device or on your local PC then it is very likely that your PC firewall is blocking this network traffic.
 
-To test this turn off your firewall and try again to reach your MCDU via your browser. If you now can access your MCDU from your browser you have confirmed that it is indeed the firewall that bocks this access. **Turn the firewall back on again.**
+To test and confirm this turn off your firewall and try again to reach your MCDU via your browser. If you now can access your MCDU from your browser you have confirmed that it is indeed the firewall that blocks this access.
+
+ **Turn the firewall back on again.**<br/>
+ *(never run a PC without a firewall)*
 
 We now know we need to open the ports we want to use. The default ports are **TCP 8125** and **TCP 8080** and these must be allowed to pass the firewall.
 
 There are several ways to open ports on your PC firewall.
 
-For the Windows Firewall you can follow the guide here: [Opening a Port on Windows Firewall Instructions](https://www.howtogeek.com/394735/how-do-i-open-a-port-on-windows-firewall/){target=new  .md-button }
+For the Windows Firewall you can follow this guide here: [Opening a Port on Windows Firewall Instructions](https://www.howtogeek.com/394735/how-do-i-open-a-port-on-windows-firewall/){target=new  .md-button }
 
 Alternatively you can open a Command Line prompt as Administrator and use these commands:
 
@@ -192,7 +223,7 @@ or
 Error: listen EACCES: permission denied 0.0.0.0:8080
 ```
 
-You can see if a port is occupied by making sure the MCDU Server is off and running this command:
+You can see if a port is occupied by making sure the MCDU Server is off and then running this command:
 
 Windows Command Line:
 ```
@@ -219,11 +250,11 @@ If the port for the webserver 8125 is already in use you can simply start the MC
 server.exe --http-port=8126
 ```
 
-Of course now the firewall needs to be opened for this new port.
+Of course now the firewall might need to be opened for this new port.
 
 #### MCDU Websocket Server Port is Occupied
 
-If the port for the MCDU Websocket Server is occupied you need to first change this port in the [flyPad EFB Sim options page](/fbw-a32nx/feature-guides/flyPad/settings/#sim-options) .
+If the port for the MCDU Websocket Server is occupied you need to first change this port in the [flyPad EFB Sim options page](/fbw-a32nx/feature-guides/flyPad/settings/#sim-options).
 
 You can then start the MCDU server using the new websocket port with this option:
 
@@ -231,11 +262,11 @@ You can then start the MCDU server using the new websocket port with this option
 server.exe --websocket-port=8081
 ```
 
-Of course now the firewall needs to be opened for this new port.
+Of course now the firewall might need to be opened for this new port.
 
 ### MCDU Server Architecture
 
-![MCDU Server Architecture](../assets/mcdu-server/mcdu-server-architecture.png "MCDU Server Architecture")
+![MCDU Server Architecture](../assets/mcdu-server/mcdu-server-architecture.png "MCDU Server Architecture"){loading=lazy}
 
 ### Printer Issues
 
@@ -249,4 +280,4 @@ If you you start the server and get a similar error messages as this:
 
 Make sure the "Printer Spooler" Windows service is turned on:
 
-![mcdu-windows-service-printer](../assets/mcdu-server/mcdu-windows-service-printer.png)
+![mcdu-windows-service-printer](../assets/mcdu-server/mcdu-windows-service-printer.png){loading=lazy}
