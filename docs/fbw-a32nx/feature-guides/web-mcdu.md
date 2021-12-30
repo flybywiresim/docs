@@ -145,9 +145,13 @@ We have tested these browsers during the development and these should therefore 
 - Samsung phone: Chrome, Firefox, duckduckgo
 - Linux: Firefox
 
-Always the latest versions of the operating system and the browser.
+{==
 
-We have not tested older operating systems or browsers and can't support them. The might or might not work.
+Always use the latest versions of the operating system and the browser.
+
+We have not tested older operating systems or browsers and can't support them. They might or might not work.
+
+==}
 
 Known unsupported operating systems or browsers:
 
@@ -161,7 +165,7 @@ Known unsupported operating systems or browsers:
 
 To access the MCDU Server from a remote device you need to make sure that this device is on the same network as the PC running the MCDU Server.
 
-This is typically the case if both, the PC and the device use the same Internet router and the same WiFi.i
+This is typically the case if both, the PC and the device use the same Internet router and the same WiFi.
 
 To check this you can look at the IP address the MCDU server has listed in its command window.
 
@@ -193,14 +197,20 @@ If you can't reach your MCDU server from your browser on your device or on your 
 
 To test and confirm this turn off your firewall and try again to reach your MCDU via your browser. If you now can access your MCDU from your browser you have confirmed that it is indeed the firewall that blocks this access.
 
+{==
+
  **Turn the firewall back on again.**<br/>
  *(never run a PC without a firewall)*
+
+==}
 
 We now know we need to open the ports we want to use. The default ports are **TCP 8125** and **TCP 8080** and these must be allowed to pass the firewall.
 
 There are several ways to open ports on your PC firewall.
 
-For the Windows Firewall you can follow this guide here: [Opening a Port on Windows Firewall Instructions](https://www.howtogeek.com/394735/how-do-i-open-a-port-on-windows-firewall/){target=new  .md-button }
+For the Windows Firewall you can follow this guide here: 
+
+[Opening a Port on Windows Firewall Instructions](https://www.howtogeek.com/394735/how-do-i-open-a-port-on-windows-firewall/){target=new  .md-button }
 
 Alternatively you can open a Command Line prompt as Administrator and use these commands:
 
@@ -210,7 +220,9 @@ netsh advfirewall firewall add rule name="MCDU Web Server" dir=in action=allow p
 netsh advfirewall firewall add rule name="MCDU WebSocket Server" dir=in action=allow protocol=TCP localport=8080
 ```
 
-For an advanced guide of this command see the Microsoft documentation:<br/>[netsh advfirewall firewall](https://docs.microsoft.com/en-US/troubleshoot/windows-server/networking/netsh-advfirewall-firewall-control-firewall-behavior){target=new}
+For an advanced guide of this command see the Microsoft documentation:
+
+[netsh advfirewall firewall](https://docs.microsoft.com/en-US/troubleshoot/windows-server/networking/netsh-advfirewall-firewall-control-firewall-behavior){target=new .md-button}
 
 This should now allow access from your browser to the MCDU.
 
