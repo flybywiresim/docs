@@ -160,13 +160,13 @@ If you can't reach your MCDU server from your browser on your device or locally 
 
 To test this turn off your firewall and try again to reach your MCDU via your browser. If you now can access your MCDU from your browser you have confirmed that it is indeed the firewall that bocks this access. **Turn the firewall back on again.**
 
-We now know we need to open the ports we want to use. The default ports are TCP 8125 and TCP 8080 and these must be allowed to pass the firewall.
+We now know we need to open the ports we want to use. The default ports are **TCP 8125** and **TCP 8080** and these must be allowed to pass the firewall.
 
 There are several ways to open ports on your PC firewall.
 
-For the Windows Firewall you can either do it like it is described here: [Opening a Port on Windows Firewall Instructions](https://www.howtogeek.com/394735/how-do-i-open-a-port-on-windows-firewall/){target=new}
+For the Windows Firewall you can follow the guide here: [Opening a Port on Windows Firewall Instructions](https://www.howtogeek.com/394735/how-do-i-open-a-port-on-windows-firewall/){target=new  .md-button }
 
-Or if you open a Command Line prompt as Administrator you can use these commands:
+Alternatively you can open a Command Line prompt as Administrator and use these commands:
 
 ```
 netsh advfirewall firewall add rule name="MCDU Web Server" dir=in action=allow protocol=TCP localport=8125
@@ -174,7 +174,7 @@ netsh advfirewall firewall add rule name="MCDU Web Server" dir=in action=allow p
 netsh advfirewall firewall add rule name="MCDU WebSocket Server" dir=in action=allow protocol=TCP localport=8080
 ```
 
-For an advanced guide of this command see the Microsoft documentation: [netsh advfirewall firewall](https://docs.microsoft.com/en-US/troubleshoot/windows-server/networking/netsh-advfirewall-firewall-control-firewall-behavior){target=new}
+For an advanced guide of this command see the Microsoft documentation:<br/>[netsh advfirewall firewall](https://docs.microsoft.com/en-US/troubleshoot/windows-server/networking/netsh-advfirewall-firewall-control-firewall-behavior){target=new}
 
 This should now allow access from your browser to the MCDU.
 
@@ -189,7 +189,7 @@ Error: listen EADDRINUSE: address already in use :::8125
 ```
 or
 ```
-Error: listen EACCES: permission denied 0.0.0.0:8080"
+Error: listen EACCES: permission denied 0.0.0.0:8080
 ```
 
 You can see if a port is occupied by making sure the MCDU Server is off and running this command:
@@ -236,3 +236,17 @@ Of course now the firewall needs to opened for this new port.
 ### MCDU Server Architecture
 
 ![MCDU Server Architecture](../assets/mcdu-server/mcdu-server-architecture.png "MCDU Server Architecture")
+
+### Printer Issues
+
+If you you start the server and get a similar error messages as this:
+
+```
+(node:77404) UnhandledPromiseRejectionWarning: Error: Command failed:
+ Powershell.exe -Command Get-CimInstance Win32_Printer -Property DeviceID,Name
+...
+```
+
+Make sure the "Printer Spooler" Windows service is turned on:
+
+![mcdu-windows-service-printer](../assets/mcdu-server/mcdu-windows-service-printer.png)
