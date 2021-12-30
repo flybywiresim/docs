@@ -180,7 +180,7 @@ This should now allow access from your browser to the MCDU.
 
 ### Occupied Port
 
-Sometimes the default ports 8080 and 8125 are already used by other services on your PC.
+Sometimes the default ports 8080 or 8125 are already used by other services on your PC.
 
 In this case you should get error messages similar to this:
 
@@ -213,25 +213,25 @@ If the corresponding port is already in use the output should be similar to this
 
 #### Webserver Port is Occupied
 
-If the port for the webserver 8125 is already in use you can simply start the MCDU server with this option:
+If the port for the webserver 8125 is already in use you can simply start the MCDU server with a different web server port with this option:
 
 ```
 server.exe --http-port=8126
 ```
 
-Of course now the firewall needs to opened for this new port.
+Of course now the firewall needs to be opened for this new port.
 
 #### MCDU Websocket Server Port is Occupied
 
 If the port for the MCDU Websocket Server is occupied you need to first change this port in the [flyPad EFB Sim options page](/fbw-a32nx/feature-guides/flyPad/settings/#sim-options) .
 
-You can then start the MCDU server with this option:
+You can then start the MCDU server using the new websocket port with this option:
 
 ```
 server.exe --websocket-port=8081
 ```
 
-Of course now the firewall needs to opened for this new port.
+Of course now the firewall needs to be opened for this new port.
 
 ### MCDU Server Architecture
 
