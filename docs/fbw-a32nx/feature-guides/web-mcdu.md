@@ -208,16 +208,14 @@ We now know we need to open the ports we want to use. The default ports are **TC
 
 There are several ways to open ports on your PC firewall.
 
-For the Windows Firewall you can follow this guide here: 
+For the Windows Firewall you can follow this guide here:
 
 [Opening a Port on Windows Firewall Instructions](https://www.howtogeek.com/394735/how-do-i-open-a-port-on-windows-firewall/){target=new  .md-button }
 
-Alternatively you can open a Command Line prompt as Administrator and use these commands:
+Alternatively you can open a Command Line prompt as Administrator and use this command:
 
 ```
-netsh advfirewall firewall add rule name="MCDU Web Server" dir=in action=allow protocol=TCP localport=8125
-
-netsh advfirewall firewall add rule name="MCDU WebSocket Server" dir=in action=allow protocol=TCP localport=8080
+netsh advfirewall firewall add rule name="MCDU Server" dir=in action=allow protocol=TCP localport=8080,8125
 ```
 
 For an advanced guide of this command see the Microsoft documentation:
@@ -235,29 +233,36 @@ In this case you should get error messages similar to this:
 ```
 Error: listen EADDRINUSE: address already in use :::8125
 ```
+<!-- to be changed after update is done
+Error: Port 8125 is already in use
+-->
 or
 ```
 Error: listen EACCES: permission denied 0.0.0.0:8080
 ```
+<!-- to be changed after update is done
+Error: Port 8080 is already in use
+-->
 
-You can see if a port is occupied by making sure the MCDU Server is off and then running this command:
+??? tip "How To Check If a Port is Already In Use?"
+    You can see if a port is occupied by making sure the MCDU Server is off and then running this command:
 
-Windows Command Line:
-```
-netstat -ano | find "8080"
-```
-or
-Windows Powershell:
-```
-netstat -aon | findstr 8080
-```
+    Windows Command Line:
+    ```
+    netstat -ano | find "8080"
+    ```
+    or
+    Windows Powershell:
+    ```
+    netstat -aon | findstr 8080
+    ```
 
-If the corresponding port is already in use the output should be similar to this:
-```
-  TCP    0.0.0.0:8080           0.0.0.0:0              LISTENING       4
-  TCP    [::]:8080              [::]:0                 LISTENING       4
-  ...
-```
+    If the corresponding port is already in use the output should be similar to this:
+    ```
+      TCP    0.0.0.0:8080       0.0.0.0:0              LISTENING       4
+      TCP    [::]:8080          [::]:0                 LISTENING       4
+      ...
+    ```
 
 #### Webserver Port is Occupied
 
@@ -287,13 +292,17 @@ Of course now the firewall might need to be opened for this new port.
 
 ### Printer Issues
 
-If you you start the server and get a similar error messages as this:
+If you you start the server and get this error messages:
 
 ```
 (node:77404) UnhandledPromiseRejectionWarning: Error: Command failed:
  Powershell.exe -Command Get-CimInstance Win32_Printer -Property DeviceID,Name
 ...
 ```
+<!-- to be changed after update is done
+Error: Failed to load printers.
+Make sure the "Print Spooler" Windows service is running.
+-->
 
 Make sure the "Printer Spooler" Windows service is turned on:
 
