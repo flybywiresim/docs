@@ -88,7 +88,7 @@ Although Microsoft Flight Simulator also has some pushback functionality built i
     ![Call Tug](../assets/beginner-guide/taxi/call-tug-button.png "Call Tug"){loading=lazy align=left}
 
     After we received clearance to pushback we will call the pushback tug by pressing the `Call Tug` button on the flyPad.
-    
+
     If a pushback tug is available at this gate or stand it will then start attaching itself to the nose wheel.
 
     !!! warning ""
@@ -105,8 +105,8 @@ After the tug is attached to the nose wheel we can start pushing back by using t
     ![Tug Stop](../assets/beginner-guide/taxi/tug-stop-button.png "Tug Stop"){loading=lazy align=left}
 
     To stop or pause the pushback press the red button.
-    
-    Press the `Call Tug` again to release the tug. 
+
+    Press the `Call Tug` again to release the tug.
 
 ---
 
@@ -149,9 +149,9 @@ For this guide will begin by starting engine 2.
 
     **To start the engines, you need to have the APU available and the APU Bleed ON.**
 
-    In real life you can start the second engine with bleed air (X-Bleed) from the first engine. This is not yet implemented in the A32NX. It would usually not be used at the gate as the APU would be running anyway but it is used during single engine taxi when the second engine is started while rolling to the runway. 
-    
-    Also, in very rare cases the gate or a mobile ground unit has pressurized air to be connected to the aircraft so the first engine can be started without APU. This is usually done when the APU is INOP. Microsoft Flight Simulator does not provide this option. 
+    In real life you can start the second engine with bleed air (X-Bleed) from the first engine. This is not yet implemented in the A32NX. It would usually not be used at the gate as the APU would be running anyway but it is used during single engine taxi when the second engine is started while rolling to the runway.
+
+    Also, in very rare cases the gate or a mobile ground unit has pressurized air to be connected to the aircraft so the first engine can be started without APU. This is usually done when the APU is INOP. Microsoft Flight Simulator does not provide this option.
 
 === "Start Engine 2"
     1. Set the `ENG` mode selector to `IGN/START`
@@ -211,17 +211,17 @@ Perform the AFTER START checklist.
     There is a rotation law in the NEO that gives you a consistent rotation rate for any given stick input regardless of other conditions. Upon liftoff, the autotrim becomes active.
 
     ---
-    
+
     !!! block ""
         ![Throttle quad](../assets/beginner-guide/mcdu/Thrust-lever-elev-trim.png){loading=lazy width=50% align=left}
 
-        For this flight take a look at your throttle quadrant and look for the trim markings closest to the throttle levers. Based on the [Preparing the MCDU](preparing-mcdu.md) section we have a general estimate of 30.5 for our CG. 
+        For this flight take a look at your throttle quadrant and look for the trim markings closest to the throttle levers. Based on the [Preparing the MCDU](preparing-mcdu.md) section we have a general estimate of 30.5 for our CG.
 
         The FlyByWire checklist's trim section at the bottom indicates we would need to set a nose up trim of about 0.2.
 
     !!! warning "The CG scale available in the Asobo's model of the flight deck not entirely accurate for the A320neo."
 
-    
+
 
 ---
 
@@ -308,7 +308,8 @@ If it is required to perform a sharp turn immediately we may need more than ~25-
 
 While underway to the runway perform the following as part of the taxi flow:
 
-- Use the tiller (currently not implemented) or rudder pedals to steer the aircraft.
+- Use the tiller or rudder pedals to steer the aircraft.
+    - See [Nose Wheel and Tiller Operation](../../fbw-a32nx/feature-guides/nw-tiller.md)
 - Perform a [flight controls check](#flight-controls-check) (if you haven't already).
 - Verify the ATC clearance for departure.
 
