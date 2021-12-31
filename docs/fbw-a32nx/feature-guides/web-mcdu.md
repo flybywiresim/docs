@@ -375,7 +375,7 @@ For this to work the browser must be able to reach the MCDU Server via the two T
 
     Solution: [Websocket Port is Occupied](#websocket-port-is-occupied)
 
-??? warning "MCDU Server Waiting for Simulator Although Flight is Started"
+??? warning "MCDU Server: `Waiting for Simulator...` Although Flight is Started"
     The MCDU Server continues to show `Waiting for simulator ...` although the flight is started and aircraft is loaded.
 
     The web socket port 8080 is already in use.
