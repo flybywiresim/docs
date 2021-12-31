@@ -1,34 +1,39 @@
 # Experimental Version
 
-{--
+The current Experimental Version of the FlyByWire A32NX we are testing our upcoming LNAV update with support for overfly, more procedure leg types, much more resilient path generation, ND data transmission modelled after real-world EIS architecture and more.
 
-Our custom FMS has now been moved into the **development branch**. Please switch to our development branch to continue using this feature with the latest updates.
+The Experimental version is a test version to find problems and issues and to improve functionality based on your feedback. It is not meant to be used for daily use or when you try to do a serious flight on an Online ATC service.
 
-This page will be updated when we start work on new features in the experimental branch.
+!!! danger "No Support for Experimental - use at own risk"
+    Please do not seek support for the Experimental Version on Discord and only report issues if you have read this page and the reported and known issues.
 
---}
+## New Features to be Tested
 
-For information on what's included in the custom FMS see our dedicated guide.
+!!! bug "TODO"
 
-[Flight Management System Feature Guide](../feature-guides/cFMS.md){.md-button}
+## Know Issues
 
-!!! info ""
-    Downloads available through our [installer](../installation.md) or [website](https://flybywiresim.com/a32nx/#download).
+!!! bug "TODO"
 
-    Please see our [Support Guide](index.md) and [Reported Issues](reported-issues.md).
+- Stringing issues from the flight plan manager might still occur - will be fixed by the upcoming flight plan manager rewrite
+- Some path captures (sharp angle turn into a leg) might be off / intercept at the wrong position - will **not** affect guidance
+- Course capture turns (course to altitude, INTCPT) and CX legs do not adapt to achieved turn radius
+- Some turns might revert / de-revert right before they become active in case of speed changes
+- Turn reversion heuristics are not tuned perfectly yet
+- VM legs sometimes have wrong course
+- Holding patterns embedded in some procedures might not have perfect entries or turn radius
+- AF, CD, VI, VR, FA, FM, FC, FD, PI legs are not supported
 
-<!-- !!! danger "No Support for Experimental - use at own risk"
-    Please do not seek support for the Experimental Version on Discord and only report issues if you have read this page and the reported and known issues. You can report issues in the Discord channel "#ata-22-fms" in the thread "[CFMS LNAV ONLY Bugs + Issues](https://discord.com/channels/738864299392630914/876140343735771147/882442909918584862){ target=new }".-->
+## How to Report Issues
 
-<!-- ### How to Report Issues
-
-At this time please only report issues via our Discord channel "#ata-22-fms" in the thread "[CFMS LNAV ONLY Bugs + Issues](https://discord.com/channels/738864299392630914/876140343735771147/882442909918584862){ target=new }".
+!!! bug "TODO"
+At this time please only report issues via our Discord channel ...
 
 !!! warning
     Please read the above Known Issues list and also use the search of  Discord to see if your issue has already been reported.
 
 **Do not open any issues on Github for the Experimental Version!** -->
 
-<!--### Download and Install-->
+### Download and Install
 
-<!--See [Installation Guide](../installation.md#downloads).-->
+See [Installation Guide](../installation.md#downloads).
