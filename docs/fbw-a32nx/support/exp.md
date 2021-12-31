@@ -33,7 +33,7 @@ We are currently testing updates to our custom FMS LNAV, and other additional im
 
 At this time please only report issues via our Discord channel thread:
 
- [Experimental - Issue Reports [NO SUPPORT]](https://discord.com/channels/738864299392630914/926586416820011098/926592547059531866){target=new .md-button}.
+ [Experimental - Issue Reports [NO SUPPORT]](https://discord.com/channels/738864299392630914/926586416820011098/926592547059531866){target=new .md-button}
 
 Do not expect support or immediate solutions for your issues. We will collect all issues and fix and improve continuously.
 
