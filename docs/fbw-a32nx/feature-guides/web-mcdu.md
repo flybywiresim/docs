@@ -95,7 +95,7 @@ The printers available are those known to the PC where you run Microsoft Flight 
 
 The MCDU Server application has several additional command line options to control the startup configuration.
 
-```
+``` cmd title="Windows Command Line"
 > server.exe -h
 
 Usage:
@@ -216,7 +216,7 @@ For the Windows Firewall you can follow this guide here:
 
 Alternatively you can open a Command Line prompt as Administrator and use this command:
 
-```
+``` powershell title="Windows Powershell"
 netsh advfirewall firewall add rule name="MCDU Server" dir=in action=allow protocol=TCP localport=8080,8125
 ```
 
@@ -245,11 +245,11 @@ Sometimes the default ports 8080 or 8125 are already used by other services on y
 
 In this case you should get error messages similar to this:
 
-```
+``` cmd title="Windows Command Line"
 Error: Port 8125 is already in use
 ```
 or
-```
+``` cmd title="Windows Command Line"
 Error: Port 8080 is already in use
 ```
 
@@ -257,17 +257,17 @@ Error: Port 8080 is already in use
     You can see if a port is occupied by making sure the MCDU Server is off and then running this command:
 
     Windows Command Line:
-    ```
+    ``` cmd title="Windows Command Line"
     netstat -ano | find "8080"
     ```
     or
     Windows Powershell:
-    ```
+    ``` powershell title="Windows Powershell"
     netstat -aon | findstr 8080
     ```
 
     If the corresponding port is already in use the output should be similar to this:
-    ```
+    ``` cmd title="Windows Command Line"
       TCP    0.0.0.0:8080       0.0.0.0:0              LISTENING       4
       TCP    [::]:8080          [::]:0                 LISTENING       4
       ...
@@ -277,7 +277,7 @@ Error: Port 8080 is already in use
 
 If the port for the webserver 8125 is already in use you can simply start the MCDU server with a different web server port with this option:
 
-```
+``` cmd title="Windows Command Line"
 server.exe --http-port=8126
 ```
 
@@ -289,7 +289,7 @@ If the port for the MCDU Websocket Server is occupied you need to first change t
 
 You can then start the MCDU server using the new websocket port with this option:
 
-```
+``` cmd title="Windows Command Line"
 server.exe --websocket-port=8081
 ```
 
@@ -299,10 +299,9 @@ Of course now the firewall might need to be opened for this new port.
 
 If you you start the server and get this error messages:
 
-```
+``` cmd title="Windows Command Line"
 Error: Failed to load printers.
 Make sure the "Print Spooler" Windows service is running.
-...
 ```
 
 Make sure the "Printer Spooler" Windows service is turned on:
@@ -321,15 +320,17 @@ For this configuration we need to edit a file called `exe.xml` in the MSFS confi
 
 You can find this folder here:
 
-Sim from MS Store:<br/>
+``` cmd title="Sim from MS Store"
 %localAppData%\Packages\Microsoft.FlightSimulator_8wekyb3d8bbwe\LocalCache
+```
 
-Sim from Steam:<br/>
+``` cmd title="Sim from Steam"
 %appData%\Microsoft Flight Simulator
+```
 
 This file should similar to this although it already might have entries not shown in this example:
 
-```
+``` xml title="exe.xml"
 <?xml version="1.0" encoding="Windows-1252"?>
 <SimBase.Document Type="SimConnect" version="1,0">
 	<Descr>SimConnect</Descr>
@@ -343,7 +344,7 @@ This file should similar to this although it already might have entries not show
 
 Add the following section before the `</SimBase.Document>` tag and change the `YOUR_COMMUNITY_FOLDER` placeholder with the path to your Community folder.
 
-```
+``` xml title="exe.xml (partial)"
 	<Launch.Addon>
 		<Name>FlyByWire MCDU Server</Name>
 		<Disabled>False</Disabled>
@@ -448,7 +449,7 @@ The printers available are those known to the PC where you run Microsoft Flight 
 
 The MCDU Server application has several additional command line options to control the startup configuration.
 
-```
+``` cmd title="Windows Command Line"
 > server.exe -h
 
 Usage:
@@ -569,7 +570,7 @@ For the Windows Firewall you can follow this guide here:
 
 Alternatively you can open a Command Line prompt as Administrator and use this command:
 
-```
+``` cmd title="Windows Powershell"
 netsh advfirewall firewall add rule name="MCDU Server" dir=in action=allow protocol=TCP localport=8080,8125
 ```
 
@@ -598,11 +599,11 @@ Sometimes the default ports 8080 or 8125 are already used by other services on y
 
 In this case you should get error messages similar to this:
 
-```
+``` cmd title="Windows Command Line"
 Error: Port 8125 is already in use
 ```
 or
-```
+``` cmd title="Windows Command Line"
 Error: Port 8080 is already in use
 ```
 
@@ -610,17 +611,17 @@ Error: Port 8080 is already in use
     You can see if a port is occupied by making sure the MCDU Server is off and then running this command:
 
     Windows Command Line:
-    ```
+    ``` cmd title="Windows Command Line"
     netstat -ano | find "8080"
     ```
     or
     Windows Powershell:
-    ```
+    ``` cmd title="Windows Powershell"
     netstat -aon | findstr 8080
     ```
 
     If the corresponding port is already in use the output should be similar to this:
-    ```
+    ``` cmd title="Output"
       TCP    0.0.0.0:8080       0.0.0.0:0              LISTENING       4
       TCP    [::]:8080          [::]:0                 LISTENING       4
       ...
@@ -630,7 +631,7 @@ Error: Port 8080 is already in use
 
 If the port for the webserver 8125 is already in use you can simply start the MCDU server with a different web server port with this option:
 
-```
+``` cmd title="Windows Command Line"
 server.exe --http-port=8126
 ```
 
@@ -642,7 +643,7 @@ If the port for the MCDU Websocket Server is occupied you need to first change t
 
 You can then start the MCDU server using the new websocket port with this option:
 
-```
+``` cmd title="Windows Command Line"
 server.exe --websocket-port=8081
 ```
 
@@ -652,7 +653,7 @@ Of course now the firewall might need to be opened for this new port.
 
 If you you start the server and get this error messages:
 
-```
+``` cmd title="Windows Command Line"
 Error: Failed to load printers.
 Make sure the "Print Spooler" Windows service is running.
 ...
@@ -674,15 +675,17 @@ For this configuration we need to edit a file called `exe.xml` in the MSFS confi
 
 You can find this folder here:
 
-Sim from MS Store:<br/>
+``` title="Sim from MS Store"
 %localAppData%\Packages\Microsoft.FlightSimulator_8wekyb3d8bbwe\LocalCache
+```
 
-Sim from Steam:<br/>
+``` title="Sim from Steam"
 %appData%\Microsoft Flight Simulator
+```
 
 This file should similar to this although it already might have entries not shown in this example:
 
-```
+``` xml title="exe.xml"
 <?xml version="1.0" encoding="Windows-1252"?>
 <SimBase.Document Type="SimConnect" version="1,0">
 	<Descr>SimConnect</Descr>
@@ -696,7 +699,7 @@ This file should similar to this although it already might have entries not show
 
 Add the following section before the `</SimBase.Document>` tag and change the `YOUR_COMMUNITY_FOLDER` placeholder with the path to your Community folder.
 
-```
+``` xml title="exe.xml (partial)"
 	<Launch.Addon>
 		<Name>FlyByWire MCDU Server</Name>
 		<Disabled>False</Disabled>
