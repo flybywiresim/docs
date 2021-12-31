@@ -1,6 +1,6 @@
 # Experimental Version
 
-The current Experimental Version of the FlyByWire A32NX we are testing our upcoming LNAV update with support for overfly, more procedure leg types, much more resilient path generation, ND data transmission modelled after real-world EIS architecture and more.
+We are currently testing our upcoming LNAV update with support for overfly, more procedure leg types, much more resilient path generation, ND data transmission modelled after real-world EIS architecture and more.
 
 The Experimental version is a test version to find problems and issues and to improve functionality based on your feedback. It is not meant to be used for daily use or when you try to do a serious flight on an Online ATC service.
 
@@ -11,7 +11,7 @@ The Experimental version is a test version to find problems and issues and to im
 
 !!! bug "TODO"
 
-## Know Issues
+## Known Issues
 
 !!! bug "TODO"
 
@@ -20,7 +20,7 @@ The Experimental version is a test version to find problems and issues and to im
 - Course capture turns (course to altitude, INTCPT) and CX legs do not adapt to achieved turn radius
 - Some turns might revert / de-revert right before they become active in case of speed changes
 - Turn reversion heuristics are not tuned perfectly yet
-- VM legs sometimes have wrong course
+- VM legs sometimes have the wrong course
 - Holding patterns embedded in some procedures might not have perfect entries or turn radius
 - AF, CD, VI, VR, FA, FM, FC, FD, PI legs are not supported
 
