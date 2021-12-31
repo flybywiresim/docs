@@ -375,6 +375,28 @@ For this to work the browser must be able to reach the MCDU Server via the two T
 
     Solution: [Websocket Port is Occupied](#websocket-port-is-occupied)
 
+??? warning "MCDU Server Waiting for Simulator Although Flight is Started"
+    The MCDU Server continues to show `Waiting for simulator ...` although the flight is started and aircraft is loaded.
+
+    Cause: This is most likely a network or firewall issue.
+
+    Solutions:
+
+    - [Firewall Configuration](#firewall-configuration)
+
+??? warning "MCDU Server Error: Failed to load printers"
+
+    If you you start the server and get this error messages:
+
+    ``` cmd title="Windows Command Line"
+    Error: Failed to load printers.
+    Make sure the "Print Spooler" Windows service is running.
+    ```
+
+    Make sure the "Printer Spooler" Windows service is turned on:
+
+    ![mcdu-windows-service-printer](../assets/mcdu-server/mcdu-windows-service-printer.png){loading=lazy}
+
 ??? warning "Browser Can't Connect to MCDU Web Interface"
     You browser can't connect to the MCDU Web Interface and times out eventually.
 
@@ -399,24 +421,12 @@ For this to work the browser must be able to reach the MCDU Server via the two T
 
     Solution: Power up the aircraft.
 
-??? warning "MCDU Server Waiting for Simulator Although Flight is Started"
-    The MCDU Server continues to show `Waiting for simulator ...` although the flight is started and aircraft is loaded.
+??? warning "Browser Shows MCDU Web Interface only partly or garbled"
+    Your browser can connect to the server but does not show the MCDU Web Interface correctly or not at all.
 
-    Cause: This is most likely a network or firewall issue.
+    Cause: This is most likely an incompatible browser.
 
     Solutions:
 
-    - [Firewall Configuration](#firewall-configuration)
-
-??? warning "MCDU Server Error: Failed to load printers"
-
-    If you you start the server and get this error messages:
-
-    ``` cmd title="Windows Command Line"
-    Error: Failed to load printers.
-    Make sure the "Print Spooler" Windows service is running.
-    ```
-
-    Make sure the "Printer Spooler" Windows service is turned on:
-
-    ![mcdu-windows-service-printer](../assets/mcdu-server/mcdu-windows-service-printer.png){loading=lazy}
+    - Use a different browser.
+    - See tested browsers: [Compatible Browsers](#compatible-browsers)
