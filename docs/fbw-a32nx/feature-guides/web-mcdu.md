@@ -1,5 +1,7 @@
 # MCDU Web Interface
 
+!!! warning "Not available in the Stable Version"
+
 ## Overview
 
 The MCDU Web Interface allows you to display and control the MCDU on a browser including browsers on mobile devices like phones or tablets.
