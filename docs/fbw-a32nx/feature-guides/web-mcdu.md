@@ -394,6 +394,8 @@ For this to work the browser must be able to reach the MCDU Server via the two T
 
     ![mcdu-windows-service-printer](../assets/mcdu-server/mcdu-windows-service-printer.png){loading=lazy}
 
+    You can find the Services Manager by pressing ++windows+r++ and then type `services.msc`.
+
 ??? warning "MCDU Server Error: `...Encoding not recognized...`"
 
     When you start the server and and it crashes immediately with an error message mentioning `...Encoding not recognized...` you Windows most likely uses a rare UTF-8 based encoding.
