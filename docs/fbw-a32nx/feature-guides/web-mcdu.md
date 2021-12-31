@@ -715,12 +715,11 @@ Now every time Microsoft Flight Simulator starts it will also start the MCDU Ser
 
 ![MCDU Server Architecture](../assets/mcdu-server/mcdu-server-architecture.png "MCDU Server Architecture"){loading=lazy}
 
+The MCDU Server uses a web application running in the browser to send and receive data via the Web Socket protocol from the MCDU.
 
-!!! warning ""
-    Unfortunately MSFS does not stop the automatically stated applications after shutting down and you need to close the MCDU Server window manually.
+To open the web application the browser will connect to the MCDU Server's webserver via http protocol (default port 8125) and download and run the MCDU Web Interface application (HTML/CSS/JavaScript).
 
-    If you do not do this there will be an error message the next time you start MSFS or the MCDU Server as it is already running.
+The MCDU Web Interface application will open a data connection to the MCDU via Web Socket protocol (default port 8080) and receive data (screen content) and send data (user input like button pushes) from and to the MCDU.
 
-## MCDU Server Architecture
+For this to work the browser must be able to reach the MCDU Server via the two TCP ports 8080 and 8125 (these defaults can be changed) which means users might need to reconfigure their network and firewall settings accordingly (see documentation above).
 
-![MCDU Server Architecture](../assets/mcdu-server/mcdu-server-architecture.png "MCDU Server Architecture"){loading=lazy}
