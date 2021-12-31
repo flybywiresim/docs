@@ -1,8 +1,6 @@
 # Experimental Version
 
-We are currently testing our upcoming LNAV update with support for overfly, more procedure leg types, much more resilient path generation, ND data transmission modelled after real-world EIS architecture and more.
-
-The Experimental version is a test version to find problems and issues and to improve functionality based on your feedback. It is not meant to be used for daily use or when you try to do a serious flight on an Online ATC service.
+The Experimental version is a test version to find problems and issues and to improve functionality based on your feedback. It is not meant to be used for daily use or when you try to do a serious flight on an Online ATC service. We are currently testing updates to our cFMS LNAV, TCAS, and additional improvements -- see below for a full list.
 
 !!! danger "No Support for Experimental - use at own risk"
     Please do not seek support for the Experimental Version on Discord and only report issues if you have read this page and the reported and known issues.
@@ -10,6 +8,13 @@ The Experimental version is a test version to find problems and issues and to im
 ## New Features to be Tested
 
 !!! bug "TODO"
+
+- Waypoint overfly support
+- More procedure leg types are supported
+- Path generation is more resilient
+- ND data transmission is modelled after real-world EIS architecture
+- Initial implementation of the Traffic Alert and Collision Avoidance System (TCAS)
+- Improvements to the ATHR SPEED/MACH law
 
 ## Known Issues
 
