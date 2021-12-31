@@ -1,6 +1,8 @@
 # Experimental Version
 
-The Experimental version is a test version to find problems and issues and to improve functionality based on your feedback. It is not meant to be used for daily use or when you try to do a serious flight on an Online ATC service. We are currently testing updates to our cFMS LNAV, TCAS, and additional improvements -- see below for a full list.
+The Experimental version is a test version to find problems and issues and to improve functionality based on your feedback. It is not meant to be used for daily use or when you try to do a serious flight on an Online ATC service. 
+
+We are currently testing updates to our cFMS LNAV, TCAS, and other additional improvements -- see below for a full list.
 
 !!! danger "No Support for Experimental - use at own risk"
     Please do not seek support for the Experimental Version on Discord and only report issues if you have read this page and the reported and known issues.
