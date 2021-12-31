@@ -390,10 +390,20 @@ For this to work the browser must be able to reach the MCDU Server via the two T
     Error: Failed to load printers.
     Make sure the "Print Spooler" Windows service is running.
     ```
-
-    Make sure the "Printer Spooler" Windows service is turned on:
+    Solution: Make sure the "Printer Spooler" Windows service is turned on:
 
     ![mcdu-windows-service-printer](../assets/mcdu-server/mcdu-windows-service-printer.png){loading=lazy}
+
+??? warning "MCDU Server Error: `...Encoding not recognized...`"
+
+    When you start the server and and it crashes immediately with an error message mentioning `...Encoding not recognized...` you Windows most likely uses a rare UTF-8 based encoding.
+
+    Solution:
+
+    - Open Windows Control Panel -> Region.
+    - Go to the Administrative tab and click Change system locale
+    - Make sure the check mark next to Beta: Use UTF-8 for worldwide language support is selected.
+    - Click OK and restart your computer.
 
 ??? warning "Browser Can't Connect to MCDU Web Interface"
     You browser can't connect to the MCDU Web Interface and times out eventually.
