@@ -1,5 +1,7 @@
 # MCDU Web Interface
 
+<link rel="stylesheet" href="/../../stylesheets/web-mcdu.css">
+
 !!! warning "Not available in the Stable Version"
 
 ## Overview
@@ -161,7 +163,7 @@ Known unsupported operating systems or browsers:
 - iOS 9.x, iOS 10.x
 - Very old browsers not supporting Web Sockets. See [Can I use Web Sockets](https://caniuse.com/?search=web%20sockets){target=new}
 
-## Troubleshooting and Advanced Configuration
+## Advanced Configuration
 
 ### Network Configuration
 
@@ -283,7 +285,7 @@ server.exe --http-port=8126
 
 Of course now the firewall might need to be opened for this new port.
 
-#### MCDU Websocket Server Port is Occupied
+#### Websocket Port is Occupied
 
 If the port for the MCDU Websocket Server is occupied you need to first change this port in the [flyPad EFB Sim options page](/fbw-a32nx/feature-guides/flyPad/settings/#sim-options).
 
@@ -294,20 +296,6 @@ server.exe --websocket-port=8081
 ```
 
 Of course now the firewall might need to be opened for this new port.
-
-### Printer Issues
-
-If you you start the server and get this error messages:
-
-``` cmd title="Windows Command Line"
-Error: Failed to load printers.
-Make sure the "Print Spooler" Windows service is running.
-...
-```
-
-Make sure the "Printer Spooler" Windows service is turned on:
-
-![mcdu-windows-service-printer](../assets/mcdu-server/mcdu-windows-service-printer.png){loading=lazy}
 
 ## Starting the MCDU Server with Microsoft Flight Simulator
 
@@ -372,3 +360,63 @@ The MCDU Web Interface application will open a data connection to the MCDU via W
 
 For this to work the browser must be able to reach the MCDU Server via the two TCP ports 8080 and 8125 (these defaults can be changed) which means users might need to reconfigure their network and firewall settings accordingly (see documentation above).
 
+## Troubleshooting
+
+??? warning "No MCDU SERVER Folder"
+    The MCDU Server is only available in the Development Version.
+
+??? warning "MCDU Server Error: Port 8125 is already in use"
+    The http port 8125 is already in use.
+
+    Solution: [Webserver Port is Occupied](#webserver-port-is-occupied)
+
+??? warning "MCDU Server Error: Port 8080 is already in use"
+    The web socket port 8080 is already in use.
+
+    Solution: [Websocket Port is Occupied](#websocket-port-is-occupied)
+
+??? warning "Browser Can't Connect to MCDU Web Interface"
+    You browser can't connect to the MCDU Web Interface and times out eventually.
+
+    Cause: This is most likely a network or firewall issue.
+
+    Solutions:
+
+    - [Network Configuration](#network-configuration)
+    - [Firewall Configuration](#firewall-configuration)
+
+??? warning "Browser Shows MCDU Web Interface but Display Remains Black"
+    You browser can't connect to the MCDU Web Socket port.
+
+    Cause: This is most likely a network or firewall issue.
+
+    Solutions:
+
+    - [Network Configuration](#network-configuration)
+    - [Firewall Configuration](#firewall-configuration)
+
+    Cause: Aircraft has no Power / MCDU is still off.
+
+    Solution: Power up the aircraft.
+
+??? warning "MCDU Server Waiting for Simulator Although Flight is Started"
+    The MCDU Server continues to show `Waiting for simulator ...` although the flight is started and aircraft is loaded.
+
+    Cause: This is most likely a network or firewall issue.
+
+    Solutions:
+
+    - [Firewall Configuration](#firewall-configuration)
+
+??? warning "MCDU Server Error: Failed to load printers"
+
+    If you you start the server and get this error messages:
+
+    ``` cmd title="Windows Command Line"
+    Error: Failed to load printers.
+    Make sure the "Print Spooler" Windows service is running.
+    ```
+
+    Make sure the "Printer Spooler" Windows service is turned on:
+
+    ![mcdu-windows-service-printer](../assets/mcdu-server/mcdu-windows-service-printer.png){loading=lazy}
