@@ -32,7 +32,7 @@ At this time please only report issues via our Discord channel ...
 !!! warning
     Please read the above Known Issues list and also use the search of  Discord to see if your issue has already been reported.
 
-**Do not open any issues on Github for the Experimental Version!** -->
+**Do not open any issues on Github for the Experimental Version!**
 
 ### Download and Install
 
