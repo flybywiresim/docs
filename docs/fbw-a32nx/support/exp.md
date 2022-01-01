@@ -31,6 +31,14 @@ See [List of Leg Types ](../../pilots-corner/advanced-guides/flight-planning/leg
 
 See [List of Leg Types ](../../pilots-corner/advanced-guides/flight-planning/leg-types.md)
 
+### TCAS Specific Issues
+
+- No support for offline AI traffic (sim limitation)
+- No support of multiplayer (MSFS) traffic (sim limitation)
+- Possible false detection of ground traffic
+- Possible ghost TA / RA due to jumping traffic (*improvements and changes expected*)
+- No performance optimization yet
+
 ## How to Report Issues
 
 !!! warning
