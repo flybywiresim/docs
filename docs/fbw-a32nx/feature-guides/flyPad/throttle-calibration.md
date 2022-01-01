@@ -48,6 +48,12 @@ The major differences between different throttle controllers are:
 }
 </style>
 
+## Resetting To Defaults
+
+If you have done previous calibration or if you have trouble with the calibration you can reset the calibration to its default values by press the reset button.
+
+
+
 ## Microsoft Flight Simulator Control Options
 
 !!! danger "PLEASE DO NOT SKIP THIS SECTION!"
