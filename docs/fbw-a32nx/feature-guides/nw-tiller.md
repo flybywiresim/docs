@@ -51,13 +51,16 @@ The ground crew can deactivate the steering system by using a switch in the elec
 
 As Microsoft Flight Simulator does not yet support a separate tiller axis we have used an unused axis to map the movement of your controller to the tiller handwheel.
 
-!!! note "Although MSFS provides the option `SET STEERING` which is unfortunately broken."
+!!! note "MSFS provides an option `SET STEERING` which is unfortunately broken."
 
 We have chosen to use `MIXTURE 4 AXIS (-100% to 100%)` for this.
 
 ![MSFS Controller Options Mapping](../assets/nw-tiller/handwheel-controller-mapping.png "MSFS Controller Options Mapping"){loading=lazy}
 
 Map `MIXTURE 4 AXIS (-100% to 100%)` to the controller axis you want to use for the tiller. It needs to be different from the axis you use for the rudder.
+
+!!! bug "French Version of MSFS"
+    Unfortunately MSFS does not show the `MIXTURE 4 AXIS (-100% to 100%)` axis in the French translation of Microsoft Flight Simulator. The axis should be called `AXE MÉLANGE 4 (-100 À 100%)`. To map the axis you need to switch MSFS to the English language. After mapping (and testing) you can switch MSFS back to French.
 
 !!! tip "Example"
     If you have a twistable flight stick like the Thrustmaster TCA Sidestick Airbus Edition and you also have rudder pedals you can map the rudder to your hardware pedals (as it should be) and the sidestick's twist axis for the tiller.
