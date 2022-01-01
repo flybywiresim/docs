@@ -7,5 +7,6 @@ title: Flight Planning
 nav:
 #    - Overview: overview.md
     - fixinfo.md
+    - leg-types.md
 #    - Flight Plan: fplan.md
 #    - ...
