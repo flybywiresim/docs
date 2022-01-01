@@ -623,7 +623,7 @@ If you have done a previous calibration or if you have trouble with the calibrat
 
 ![EFB-Calibration-Page](../../assets/flypad/throttle-calibration/efb-calibration-page-reset.png "EFB-Calibration-Page"){loading=lazy}
 
-After click the Reset button you can also click the Apply button so the default settings are send to the aircraft.
+After clicking the Reset button you can also click the Apply button so the default settings are send to the aircraft.
 
 ### Detents Overlap
 
