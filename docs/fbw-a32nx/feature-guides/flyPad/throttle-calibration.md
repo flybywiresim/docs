@@ -48,6 +48,9 @@ The major differences between different throttle controllers are:
 }
 </style>
 
+!!! tip "Resetting to Defaults"
+    Before you start with calibration consider resetting your settings to default values as described here: [Resetting To Defaults](#resetting-to-defaults)
+
 ## Microsoft Flight Simulator Control Options
 
 !!! danger "PLEASE DO NOT SKIP THIS SECTION!"
@@ -613,6 +616,14 @@ Click on "Save & Apply".
 ---
 
 ## Troubleshooting
+
+### Resetting To Defaults
+
+If you have done a previous calibration or if you have trouble with the calibration you can reset the calibration to its default values by pressing the reset button.
+
+![EFB-Calibration-Page](../../assets/flypad/throttle-calibration/efb-calibration-page-reset.png "EFB-Calibration-Page"){loading=lazy}
+
+After clicking the Reset button you can also click the Apply button so the default settings are send to the aircraft.
 
 ### Detents Overlap
 
