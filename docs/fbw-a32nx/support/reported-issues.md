@@ -671,7 +671,7 @@ TEMPLATE
 
     *Under Investigation*
 
-    We will release an experimental version soon that contains some fixes to help mitigate this. Please join our Discord and follow our `#server-announcements` channel.
+    We have released a new experimental version that contains some fixes to help mitigate this. Please join our Discord and follow our `#server-announcements` channel.
 
     You can also check [this page](exp.md) for details on experimental.
 
