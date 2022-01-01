@@ -112,7 +112,7 @@
 @media screen and (max-width:480px) {
     .container {
         padding-top: 1.5rem;
-        background: url("../../assets/images/doc-hero-bg-new.png"), #4e4e4e;
+        background: url("../../assets/hero-image.jpg"), #4e4e4e;
         background-repeat: no-repeat;
         background-size: cover;
         background-blend-mode: overlay;
