@@ -665,7 +665,7 @@ TEMPLATE
     
     ^^Description^^
 
-    Reports in the MSFS forums detail issues impacting FPS performance in the sim. Notably this occurs during flights that are longer than 2 hours but is not contained to this metric. You may see your normal FPS drop to <10 FPS or even single digits as a result of this issue.
+    Reports in the MSFS forums detail issues impacting FPS performance in the sim. Notably this occurs during flights that are longer than 2 hours but is not contained to this metric. You may see your normal FPS drop to <10 FPS as a result of this issue.
 
     ^^Possible Solution or Workaround^^
 
