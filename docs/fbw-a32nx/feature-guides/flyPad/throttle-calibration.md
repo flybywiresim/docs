@@ -619,6 +619,8 @@ Click on "Save & Apply".
 
 ### Resetting To Defaults
 
+!!! warning "Not available in the Stable version"
+
 If you have done a previous calibration or if you have trouble with the calibration you can reset the calibration to its default values by pressing the reset button.
 
 ![EFB-Calibration-Page](../../assets/flypad/throttle-calibration/efb-calibration-page-reset.png "EFB-Calibration-Page"){loading=lazy}
