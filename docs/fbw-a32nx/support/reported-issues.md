@@ -657,6 +657,28 @@ TEMPLATE
 
 ## Common MSFS Issues impacting all Aircraft
 
+??? failure "Performance Degradation In-Flight"
+    ### Performance Degradation In-Flight
+
+    !!! tip ""
+        *Affected versions: Stable, Development*
+    
+    ^^Description^^
+
+    Reports in the MSFS forums detail issues impacting FPS performance in the sim. Notably this occurs during flights that are longer than 2 hours but is not contained to this metric. You may see your normal FPS drop to <10 FPS or even single digits as a result of this issue.
+
+    ^^Possible Solution or Workaround^^
+
+    *Under Investigation*
+
+    We will release an experimental version soon that contains some fixes to help mitigate this. Please join our Discord and follow our `#server-announcements` channel.
+
+    You can also check [this page](exp.md) for details on experimental.
+
+    ^^Additional Information^^
+
+    Follow the MSFS Forums Discussion - [here](https://forums.flightsimulator.com/t/after-playing-a-few-hours-fps-drops-from-40-to-5fps/389603/941).
+
 ??? failure "CTD (Crash to Desktop)"
     ### CTD (Crash to Desktop)
 
