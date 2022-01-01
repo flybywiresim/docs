@@ -71,3 +71,4 @@ See [Installation Guide](../installation.md#downloads).
 | VI         | Planned              | Heading to a Next Leg Intercept defines a specified heading to intercept the subsequent leg at an unspecified position.                                                                                                                |
 | VR         | Planned              | Heading to a radial termination defines a specified heading to a specified radial from a specific database VOR NAVAID.                                                                                                                 |
 
+Source: [Instrument Procedures Handbook (IPH) - Chapter 6](https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/instrument_procedures_handbook/){target=new}
