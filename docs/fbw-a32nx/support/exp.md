@@ -10,13 +10,12 @@ We are currently testing updates to our custom FMS LNAV, and other additional im
 ## New Features to be Tested
 
 - Support for more legs types: CA (partially), CF, CR, DF, HX (partially), IF
+    - see [List of Leg Types ](../../pilots-corner/advanced-guides/flight-planning/leg-types.md)
 - Better turn prediction algorithm with support for overfly, course capture, path capture, direct turn, reverse turn, reversions and more
 - Support for marking waypoints as overfly in the F-PLN page
 - Realistic ND rendering based on IRL hardware and software architecture
 - Fixes for performance issues over long flights
 - Initial implementation of the Traffic Alert and Collision Avoidance System (TCAS)
-
-See [List of Leg Types ](../../pilots-corner/advanced-guides/flight-planning/leg-types.md)
 
 ## Known Issues
 
@@ -28,8 +27,7 @@ See [List of Leg Types ](../../pilots-corner/advanced-guides/flight-planning/leg
 - VM legs sometimes have the wrong course
 - Holding patterns embedded in some procedures might not have perfect entries or turn radius
 - AF, CD, VI, VR, FA, FM, FC, FD, PI legs are not supported
-
-See [List of Leg Types ](../../pilots-corner/advanced-guides/flight-planning/leg-types.md)
+    - see [List of Leg Types ](../../pilots-corner/advanced-guides/flight-planning/leg-types.md)
 
 ### TCAS Specific Issues
 
