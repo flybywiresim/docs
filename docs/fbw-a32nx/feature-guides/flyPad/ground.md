@@ -63,7 +63,7 @@ Enables placement of the safety cones if the other requirements for the safety c
 - `BEACON LT` is off
 - Airplane is on ground
 - Pushback is disconnected
-
+- Airplane speed = 0kts
 ### Door Aft
 
 Opens and closes the aft door.
