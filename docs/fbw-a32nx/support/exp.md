@@ -14,6 +14,7 @@ We are currently testing updates to our custom FMS LNAV, and other additional im
 - Support for marking waypoints as overfly in the F-PLN page
 - Realistic ND rendering based on IRL hardware and software architecture
 - Fixes for performance issues over long flights
+- Initial implementation of the Traffic Alert and Collision Avoidance System (TCAS)
 
 See [List of Leg Types ](../../pilots-corner/advanced-guides/flight-planning/leg-types.md)
 
