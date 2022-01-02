@@ -12,3 +12,6 @@ feature guide:
 
 support:
   - fbw-a32nx/support/*
+
+repo:
+  - '*'
