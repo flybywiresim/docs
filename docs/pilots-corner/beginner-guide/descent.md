@@ -209,7 +209,7 @@ In this chart for EGKK 26L ILS there is no DH for CAT IIIB defined - so we can e
 
 If we are using Microsoft Flight Simulator without any Online ATC services (VATSIM, IVAO, PilotEdge, ...), and using the MSFS built-in ATC, you usually can't request ATIS information for the destination airport at this point. MSFS ATC makes ATIS only available once close to the destination airport.
 
-If we are flying with Online ATC you can request ATIS via the `MCDU-ATSU-ACO` page or your Online ATC network's client at this time.
+If we are flying with Online ATC you can request ATIS via the `MCDU-ATSU-AOC` page or your Online ATC network's client at this time.
 
 We can in any case request the METAR weather information for the destination airport via the same page.
 
