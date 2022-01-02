@@ -9,7 +9,7 @@ We are currently testing updates to our custom FMS LNAV, and other additional im
 
 ## New Features to be Tested
 
-- Support for more legs types: CA (partially), CF, CR, DF, HX (partially), IF
+- Support for more legs types: CA (partially), CF, CI (partially), CR, DF, HX (partially), IF
     - see [List of Leg Types ](../../pilots-corner/advanced-guides/flight-planning/leg-types.md)
 - Better turn prediction algorithm with support for overfly, course capture, path capture, direct turn, reverse turn, reversions and more
 - Support for marking waypoints as overfly in the F-PLN page
