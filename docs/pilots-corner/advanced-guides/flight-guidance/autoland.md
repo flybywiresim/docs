@@ -32,19 +32,36 @@
 
 ## Introduction
 
-- not used everytime - in fact rarely
-- more stressful for pilots than normal landings
-- pilot is always responsible and needs to be prepared to GA any time if aircraft does not behave as expected
-- should not replace learning how to land manually!
-- PM looks outside, PF looks to instruments
+The FlyByWire A32NX has implemented the Airbus A320 Autoland feature. This guide shall give you a realistic description on when and how to use successfully.
+
+!!! info "Standard Operation"
+    The focus of this guide is on standard operations without failures as these are not yet implemented in the A32NX.
+
+In flight simulation the Autoland feature is a very often requested feature as many simmers use it as a replacement to learn how to land manually. And for recreational flight simulation this is of course ok.
+
+In real life autoland is very rarely used and requires extra training and certifications by the flight crew. In fact most pilots feel it's more stressful as they are not in control but need to monitor the systems very closely so they can take manual control at any time.
+
+This is on top of the fact that autoland is mostly used in very bad visual situations where the pilots can't see anything and have to trust the autopilot to successfully perform the autoland.
+
+In summary:
+
+- Autoland is not a replacement for learning and training how to land manually.
+- Special training and certifications are required for real pilots.
+- Aircraft and airport and airport must have the appropriate capability.
+- It requires a high amount of preparation and limiting conditions need to be checked constantly (e.g. maximum crosswind).
+- Autoland requires high focus from the flight crew monitoring the systems and to always be ready to take over for a go around. Pilot monitoring (PM) usually will look outside the aircraft while pilot flying (PF) will watch the instruments.
 
 ## Real World Considerations
 
 ### When to Use Autoland
 
 - weather conditions
+    - cross wind <20ft
+    - head wind ??
+    - tail wind ??
 - pilot training - pilots need to do this regularly to keep certification
     - 2 times a year in simulator in Germany
+- CAT III in general and A/B/C types
 
 ### Crew Requirements
 
@@ -59,7 +76,8 @@
 
 ### Preparations
 
-- Check aircraft, crew and airport capability
+- Check aircraft capability
+- Check airport capability
 - Check Limitations - cross winds
 - Check aircraft status
 - Minima - CAT??
@@ -97,7 +115,24 @@
 
 ### Flow From 1000ft
 
-- step by step pilot (PF) actions
+Autoland is not much different from a normal ILS landing apart from the fact that the Autopilot(s) will not be turned off for the landing but stay on the pilot only monitors the landing via the instruments.
+
+Assuming that we are fully configured for landing at 1000ft above ground, with CONFIG 3 or CONFIG FULL, V~appr~ speed, gear down, autobrake armed, ground spoilers armed, ECAM landing memo no blue, landing checklist complete.
+
+- At 1000ft: callout "one thousand"
+- At 500ft: Now callouts every hundred feet
+- Shortly after the 400 callout and before 350ft the FMA must show LAND n green to signal that the aircraft is now in landing mode.
+- At 150ft: The white line signifying the ground on the starts to move up
+- At 100ft: callout "hundred"
+- At 50ft: callout "fifty" and now callouts every 10 ft
+- Shortly after 50ft FMA must show FLARE or otherwise the flight crew needs to perform a go around.
+- Also the autothrust FMA should switch to THRUST IDLE.
+- Between about 20ft and 10ft the aircraft corrects its crosswind crab angle to bring it  longitudinal axis in line with the runway.
+- At 10ft: Callout "Retard" commands the PF to set the throttle levers to idle.
+- At touchdown:
+    - FMA shows ROLL OUT - autopilot keeps aircraft on center line
+    - PM checks and calls out: "touchdown", "spoilers", "reversers", "auto brake", "descel".
+
 
 ### Go Around
 
