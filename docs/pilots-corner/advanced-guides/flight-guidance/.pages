@@ -8,4 +8,5 @@ nav:
     - Overview: overview.md
     - TCAS: tcas.md
     - Vertical Guidance: vertical-guidance
+    - Autoland: autoland.md
 #   - ...
