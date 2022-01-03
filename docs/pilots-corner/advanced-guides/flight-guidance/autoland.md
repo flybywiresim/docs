@@ -36,6 +36,7 @@
 - more stressful for pilots than normal landings
 - pilot is always responsible and needs to be prepared to GA any time if aircraft does not behave as expected
 - should not replace learning how to land manually!
+- PM looks outside, PF looks to instruments
 
 ## Real World Considerations
 
@@ -43,6 +44,7 @@
 
 - weather conditions
 - pilot training - pilots need to do this regularly to keep certification
+    - 2 times a year in simulator in Germany
 
 ### Crew Requirements
 
@@ -106,3 +108,7 @@
 
 - fly manually
 - do go around
+
+### Miscellaneous
+
+- CAT II/CAT III holding points on ground
