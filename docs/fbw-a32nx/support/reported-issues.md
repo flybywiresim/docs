@@ -740,6 +740,25 @@ TEMPLATE
 
         It could be anything from a usb drive to a controller. Please try to minimise how many peripherals you have connected.
 
+??? failure "Live Weather Causing CTD"
+
+    !!! tip ""
+        *Affected versions: Stable, Development*
+    
+    ^^Description^^
+
+    A public service announcement when live on the MSFS forums detailing an issue where using live weather and/or switching presets after loading in will cause a crash to desktop.
+
+    ^^Possible Solution or Workaround^^
+
+    It is recommended by the MSFS team to start a flight with a **preset** weather selection. **Do this before starting your flight**. 
+
+    It may be advisable to also not switch presets or use live weather at all during your flight.
+
+    ^^Additional Information^^
+
+    Keep up to date with the follow MSFS forum post - [Current issue with live weather and associated ctd](https://forums.flightsimulator.com/t/current-issue-with-live-weather-and-associated-ctd-and-possibly-black-screen-on-xbox/486177)
+
 ??? failure "Latest Nvidia Driver Causes CTD"
     ### Latest Nvidia Driver Causes CTD
 
@@ -748,11 +767,15 @@ TEMPLATE
 
     ^^Description^^
 
-    Reports on the MSFS forums note that CTD's are happening after updating to the latest driver's from Nvidia. See - [this forum post](https://forums.flightsimulator.com/t/new-nvidia-497-09-always-ctd/477825?page=3).
+    Reports on the MSFS forums note that CTD's are happening after updating to the latest driver's from Nvidia - version `497.09`. See - [this forum post](https://forums.flightsimulator.com/t/new-nvidia-497-09-always-ctd/477825?page=3).
 
     ^^Possible Solution or Workaround^^
 
-    Please roll back your drivers. [Driver Rollback Instructions | Nvidia](https://www.nvidia.com/en-gb/drivers/driver-rollback/)
+    - Please roll back your drivers. [Driver Rollback Instructions | Nvidia](https://www.nvidia.com/en-gb/drivers/driver-rollback/)
+    - Nvidia released an updated driver that included CTD fixes for MSFS specifically. You can also choose to update to the lates available driver now - version `497.29`. *Note: your milage may still vary here*.
+        - Nvidia Fixed Release Items for MSFS in version 497.29:
+            - [Microsoft Flight Simulator]: The game may crash to the desktop during gameplay. [3454519]
+            - [Microsoft Flight Simulator]: Purple/blue artifacts appear on ground textures in the game. [3454530]
 
     ^^Additional Information^^
 
