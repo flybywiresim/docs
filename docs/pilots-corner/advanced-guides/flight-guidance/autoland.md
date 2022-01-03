@@ -119,11 +119,13 @@ Autoland is not much different from a normal ILS landing apart from the fact tha
 
 Assuming that we are fully configured for landing at 1000ft above ground, with CONFIG 3 or CONFIG FULL, V~appr~ speed, gear down, autobrake armed, ground spoilers armed, ECAM landing memo no blue, landing checklist complete.
 
-- At 1000ft: callout "one thousand"
-- At 500ft: Now callouts every hundred feet
+!!! bug "TODO - add screenshots"
+
+- At 1000ft: callout "one thousand".
+- At 500ft: Now callouts every hundred feet.
 - Shortly after the 400 callout and before 350ft the FMA must show LAND n green to signal that the aircraft is now in landing mode.
-- At 150ft: The white line signifying the ground on the starts to move up
-- At 100ft: callout "hundred"
+- At 150ft: The white line signifying the ground on the PFD attitude indicator starts to move up.
+- At 100ft: callout "hundred".
 - At 50ft: callout "fifty" and now callouts every 10 ft
 - Shortly after 50ft FMA must show FLARE or otherwise the flight crew needs to perform a go around.
 - Also the autothrust FMA should switch to THRUST IDLE.
@@ -132,7 +134,8 @@ Assuming that we are fully configured for landing at 1000ft above ground, with C
 - At touchdown:
     - FMA shows ROLL OUT - autopilot keeps aircraft on center line
     - PM checks and calls out: "touchdown", "spoilers", "reversers", "auto brake", "descel".
-
+- At about 40-60kts the PF will manually brake to deactivate the autobrake and also disconnect the autopilot.
+- From here on it is a normal runway exit and taxi procedure.
 
 ### Go Around
 
