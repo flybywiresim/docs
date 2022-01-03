@@ -741,6 +741,7 @@ TEMPLATE
         It could be anything from a usb drive to a controller. Please try to minimise how many peripherals you have connected.
 
 ??? failure "Live Weather Causing CTD"
+    ### Live Weather Causing CTD
 
     !!! tip ""
         *Affected versions: Stable, Development*
