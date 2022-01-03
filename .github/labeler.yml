@@ -1,0 +1,17 @@
+a32nx briefing:
+  - pilots-corner/a32nx-briefing/**/*
+
+beginner guide:
+  - pilots-corner/beginner-guide/**/*
+
+advanced guides:
+  - pilots-corner/advance-guides/**/*
+
+feature guide:
+  - fbw-a32nx/feature-guides/**/*
+
+support:
+  - fbw-a32nx/support/*
+
+repo:
+  - '*'
