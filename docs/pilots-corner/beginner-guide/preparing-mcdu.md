@@ -412,7 +412,7 @@ We can also choose to set a `FLEX TO TEMP` for the flight. The example we are us
 !!! tip "What is Flex Temp?"
     Flex temp is entered into the MCDU enabling the computer to use the pilot specified air temperature to allow for take-off at less than rated thrust. This is a method of creating cost savings by increasing engine life resulting in reduced overhaul and fuel costs. This value is normally calculated via a pilot's company EFB or other tools.
 
-    Unfortunately, A320neo performance data for FLEX temp performance calclators alongside other various tools are not pubically available and guarded by Airbus. For the purposes of simulation it's important to note the following:
+    Unfortunately, A320neo performance data for FLEX temp performance calculators alongside other various tools are not publicly available and guarded by Airbus. For the purposes of simulation, it's important to note the following:
 
     {==
 
