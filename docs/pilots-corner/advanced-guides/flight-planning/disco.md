@@ -1,5 +1,11 @@
 # Discontinuities
 
+<style>
+    .md-typeset .admonition.block, .md-typeset details.block {
+        text-align: center;
+    }
+</style>
+
 ## What are Discontinuities?
 
 Discontinuities are breaks in the flight plan and often separate two flight plan sections like the SID and first in-route waypoint or the STAR and the APPR. They are also often inserted when the flight plan is modified.
@@ -32,8 +38,9 @@ If no ATC is available (or when using MSFS ATC) the user must use heading mode (
     ![Manual Leg Discontinuity](../../assets/advanced-guides/disco/mcdu-discontinuity-2.png "Manual Leg Discontinuity"){width=45% loading=lazy}
 
 !!! info "DIR TO to next waypoint or Selected HDG"
-    ![DIR TO to next waypoint](../../assets/advanced-guides/disco/mcdu-discontinuity-dirto.png "DIR TO to next waypoint"){align=left width=45% loading=lazy}
-    ![Heading to intercept ILS](../../assets/advanced-guides/disco/mcdu-discontinuity-heading.png "Heading to intercept ILS"){align=right width=45% loading=lazy}
+    !!! block ""
+        ![DIR TO to next waypoint](../../assets/advanced-guides/disco/mcdu-discontinuity-dirto.png "DIR TO to next waypoint"){width=47% loading=lazy}
+        ![Heading to intercept ILS](../../assets/advanced-guides/disco/mcdu-discontinuity-heading.png "Heading to intercept ILS"){width=48% loading=lazy}
 
 If the aircraft is flying into a MANUAL leg, NAV mode remains engaged and predictions assume that the aircraft will fly a direct leg from its present position to the next waypoint.
 
@@ -51,8 +58,8 @@ If the aircraft is flying into a MANUAL leg, NAV mode remains engaged and predic
 
 !!! info "Manual leg in ND Plan Mode and in ARC Mode"
     !!! block ""
-        ![Manual leg discontinuity on ND plan mode](../../assets/advanced-guides/disco/mcdu-discontinuity-manual-nd-plan.png "Manual leg discontinuity on ND plan mode"){align=left width=44% loading=lazy}
-        ![Manual leg discontinuity on ND](../../assets/advanced-guides/disco/mcdu-discontinuity-manual-nd.png "Manual leg discontinuity on ND"){align=right width=44% loading=lazy}
+        ![Manual leg discontinuity on ND plan mode](../../assets/advanced-guides/disco/mcdu-discontinuity-manual-nd-plan.png "Manual leg discontinuity on ND plan mode"){width=48% loading=lazy}
+        ![Manual leg discontinuity on ND](../../assets/advanced-guides/disco/mcdu-discontinuity-manual-nd.png "Manual leg discontinuity on ND"){width=48% loading=lazy}
     !!! warning "MANUAL label to be removed!"
         The MANUAL label on the ND will be removed in a future version as it is not displayed in the real aircraft.
 
