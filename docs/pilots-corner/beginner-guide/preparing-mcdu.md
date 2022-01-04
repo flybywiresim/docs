@@ -247,19 +247,13 @@ Verify the flight plan by using the vertical slew keys to scroll through it.
 
     The flight plan might contain so called discontinuities. These are breaks in the flight plan and often separate two flight plan sections like the SID and first in-route waypoint or the STAR and the APPR. They are also often inserted when the flight plan is modified.
 
-    When the aircraft overflies a flight plan discontinuity, the NAV mode automatically reverts to the HDG (TRK) mode. The pilot need to then use DIR TO to fly to the next waypoint.
-
-    These discontinuities can be cleared from the flight plan by using the CLR key on the MCDU and selecting the LSK left of the discontinuity.
-
-    ![Normal Discontinuity](../assets/beginner-guide/mcdu/mcdu-discontinuity-1.png "Normal Discontinuity")
-
     Sometimes discontinuities are also part of a procedure to indicate that manual input is required (mostly clearance by ATC). The preceding legs are called MANUAL legs.
 
-    A MANUAL leg stays on a constant TRK or HDG and has no termination point. When the aircraft is flying a MANUAL leg, the NAV mode remains engaged and predictions assume that the aircraft will fly a direct leg from its present position to the next waypoint (DIR TO). When the aircraft is cleared to fly to the next waypoint of the flight plan, the flight crew performs a DIR TO.
+    Discontinuities between waypoints can be cleared from the flight plan by using the CLR key on the MCDU and selecting the LSK left of the discontinuity.
 
     Discontinuities after MANUAL legs cannot be cleared from the flight plan.
 
-    ![Manual Leg Discontinuity](../assets/beginner-guide/mcdu/mcdu-discontinuity-2.png "Manual Leg Discontinuity")
+    See our detailed documentation for [Discontinuities](../advanced-guides/flight-planning/disco.md)
 
 !!! info "Viewing Flight Plan on ND"
     We can also verify the route looks correct by selecting `Plan` on the EFIS control panel and watching the ND as we scroll through.
