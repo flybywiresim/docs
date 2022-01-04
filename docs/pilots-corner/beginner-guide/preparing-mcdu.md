@@ -376,7 +376,7 @@ For this flight we will be taking off with a `1+F` flaps configuration.
 
     ---
 
-    The THS field is where we enter the stabilizer trim for takeoff based on the aircraft's takeoff CG (TOCG). Entering this value in the MCDU will trigger the ^^F/CTL PITCH TRIM/MCDU/CG DISAGREE^^ ECAM caution, if appropriate.
+    The Trimmable Horizontal Stabiliser (THS) field is where we enter the stabilizer trim for takeoff based on the aircraft's takeoff CG (TOCG). Entering this value in the MCDU will trigger the ^^F/CTL PITCH TRIM/MCDU/CG DISAGREE^^ ECAM caution, if appropriate.
 
     If you have already entered your flaps configuration in the step above, applicable entries are formatted `/X.XDN` or `/X.XUP` representing a trim value and nose down or up respectively.
 
@@ -408,6 +408,19 @@ For this flight we will be taking off with a `1+F` flaps configuration.
 We can also choose to set a `FLEX TO TEMP` for the flight. The example we are using today is 60 degrees. (This will normally be calculated via a pilot's company EFB or other tools).
 
 * Using the keypad type in `60` and press LSK4R
+
+!!! tip "What is Flex Temp?"
+    Flex temp is entered into the MCDU enabling the computer to use the pilot specified air temperature to allow for take-off at less than rated thrust. This is a method of creating cost savings by increasing engine life resulting in reduced overhaul and fuel costs. This value is normally calculated via a pilot's company EFB or other tools.
+
+    Unfortunately, A320neo performance data for FLEX temp performance calclators alongside other various tools are not pubically available and guarded by Airbus. For the purposes of simulation it's important to note the following:
+
+    {==
+
+    Valid flex temps are above ISA+29C (44C at sea level) and above current temp, but no higher than ISA+55C (70 C at sea level). 44-70C valid range.
+
+    Additionally, a decent rule of thumb for simulation purposes is to use a lower number if heavy or on a short runway and higher for the opposite.
+
+    ==}
 
 Our SID chart mentions that the TRANS ALT for this departure is 6000ft.
 
