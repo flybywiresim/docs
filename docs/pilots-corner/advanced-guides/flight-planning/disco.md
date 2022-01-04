@@ -2,7 +2,7 @@
 
 ## What are Discontinuities?
 
-The flight plan might contain so called discontinuities. These are breaks in the flight plan and often separate two flight plan sections like the SID and first in-route waypoint or the STAR and the APPR. They are also often inserted when the flight plan is modified.
+Discontinuities are breaks in the flight plan and often separate two flight plan sections like the SID and first in-route waypoint or the STAR and the APPR. They are also often inserted when the flight plan is modified.
 
 There are basically two types of discontinuities:
 
