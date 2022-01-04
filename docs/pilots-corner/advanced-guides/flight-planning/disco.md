@@ -48,11 +48,10 @@ If the aircraft is flying into a MANUAL leg, NAV mode remains engaged and predic
     <sub>*Copyright © 2021 Navigraph / Jeppesen<br/>
     "Navigraph Charts are intended for flight simulation use only, not for navigational use."*
 
-!!! info "Manual leg in ND Plan Mode"
-    ![Manual leg discontinuity on ND plan mode](../../assets/advanced-guides/disco/mcdu-discontinuity-manual-nd-plan.png "Manual leg discontinuity on ND plan mode"){loading=lazy}
 
-!!! info "Manual leg in ARC Mode"
-    ![Manual leg discontinuity on ND](../../assets/advanced-guides/disco/mcdu-discontinuity-manual-nd.png "Manual leg discontinuity on ND"){loading=lazy}
+!!! info "Manual leg in ND Plan Mode and in ARC Mode""
+    ![Manual leg discontinuity on ND plan mode](../../assets/advanced-guides/disco/mcdu-discontinuity-manual-nd-plan.png "Manual leg discontinuity on ND plan mode"){align=left width=45% loading=lazy}
+    ![Manual leg discontinuity on ND](../../assets/advanced-guides/disco/mcdu-discontinuity-manual-nd.png "Manual leg discontinuity on ND"){align=right width=45% loading=lazy}
 
 
 
