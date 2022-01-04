@@ -24,7 +24,7 @@ Sometimes discontinuities are also part of a procedure to indicate that manual g
 
 A MANUAL leg stays on a constant TRK or HDG and has no termination point.
 
-The core principle of a MANUAL leg is that air traffic control (ATC)  will give the flight crew headings (vectors) or a direct-to instruction to guide the aircraft to the planned approach path.
+The core principle of a MANUAL leg is that air traffic control (ATC) will give the flight crew headings (vectors) or a direct-to instruction to guide the aircraft to the planned approach path.
 
 If no ATC is available (or when using MSFS ATC) the user must use heading mode (Selected HDG) or direct to (DIR TO) to guide the aircraft to an appropriate intercept course for the approach.
 
