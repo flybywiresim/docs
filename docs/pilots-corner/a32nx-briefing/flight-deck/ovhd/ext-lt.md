@@ -19,7 +19,7 @@ The Exterior Lighting of an Airbus A320neo includes these lights:
 - The runway turn off lights
 - The TO and TAXI lights
 - The logo lights
-- The anticollision lights
+- The anti collision lights
 - The wing and engine scan lights.
 
 ### External lighting configuration:
