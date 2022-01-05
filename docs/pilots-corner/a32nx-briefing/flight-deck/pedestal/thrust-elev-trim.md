@@ -57,6 +57,8 @@ This system is always active, even when the Autopilot is off (in Normal Law whic
 
 Nevertheless, the pitch trim wheels in the cockpit provide mechanical control of the Trimmable Horizontal Stabilizer (THS) and have priority over electrical control. The Autopilot is disconnected when a pilot uses the trim wheel during flight.
 
+See our [Preparing MCDU: PERF](../../../beginner-guide/preparing-mcdu.md#perf) guide for additional info about trimming.
+
 !!! info ""
     Note: Pilot's use of the pitch trim wheel does not disconnect the ELACs to make sure that the computers remain synchronized with the manually-selected position.
 
