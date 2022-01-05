@@ -119,7 +119,7 @@ When pushed an immediate level off is commanded (V/S of 0). The flight mode annu
 
 ### APPR
 
-Approach modes are activated ot deactivated (armed, disarmed, engaged, disengaged):
+Approach modes are activated or deactivated (armed, disarmed, engaged, disengaged):
 
 - If an ILS approach is selected in the flight plan it activates LOC and G/S modes
 - If a non precision approach is selected in the flight plan, it activates APP NAV-FINAL modes.
