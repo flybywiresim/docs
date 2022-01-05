@@ -31,7 +31,7 @@ Before selecting any position, the pilot must pull the lever out of the detent. 
 
 Takeoff in CONFIG 1:
 
-- 1 + F (18°/10°) is selected. If the pilot does not select configuration 0 after takeoff, the flaps retract automatically at 210 knots.
+- 1 + F (18° Slats /  10° **F**laps) is selected. If the pilot does not select configuration 0 after takeoff, the flaps retract automatically at 210 knots.
 
 Takeoff or go-around in CONFIG 2 or 3:
 
@@ -40,7 +40,7 @@ Takeoff or go-around in CONFIG 2 or 3:
 
 CONFIG O to CONFIG 1 in flight:
 
-- CONFIG 1 ( 18°/0°) is selected.
+- CONFIG 1 ( 18° Slats / 0° Flaps) is selected.
 
 !!! info ""
     Note: After flap retraction, CONFIG 1 + F is no longer available until the airspeed is 100 knots or less, unless CONFIG 2, 3, or FULL has been selected previously.
