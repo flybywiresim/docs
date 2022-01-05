@@ -99,7 +99,7 @@ Settings for simulation aspects of the A32NX aircraft.
     - The dynamic registration number decal shown on the external livery can be disabled to improve appearance when using liveries with a static registration number.
 - External MCDU Server Port
     - User can change the port for the internal MCDU websocket server in case the default port is already occupied on the user's system.
-    - Default is: 8080
+    - Default is: 8380
     - ~~This is not the port for using in the browser to access the MCDU Web Interface.~~
 - Detents:
     - See [Throttle Configuration](throttle-calibration.md).
