@@ -106,7 +106,7 @@ Power supply to the RMP.
     - Green lines come on.
     - Deselecting by pressing the pushbutton again, through selecting another channel.
 - CALL:
-    -  When the SELCAL system detects a call the legend flashes amber (and buzzer sounds).
+    -  When the [SELCAL](https://skybrary.aero/articles/selective-calling-system-selcal){target=new} system detects a call the legend flashes amber (and buzzer sounds).
 - MECH:
     - When called from the nose gear bay the legend flashes amber (and buzzer sounds). If it is not reset, the MECH light goes off after 60 seconds.
 - ATT:
