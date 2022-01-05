@@ -136,7 +136,7 @@ CAT I runway considerations before using Autoland:
 
 ### Flow From 1000ft
 
-Autoland is not much different from a normal ILS landing apart from the fact that the Autopilot(s) will not be turned off for the landing but stay on the pilot only monitors the landing via the instruments.
+Autoland is not much different from a normal ILS landing apart from the fact that the Autopilot(s) will not be turned off for the landing but stay on and the flight crew only monitors the landing via the instruments.
 
 Assuming that we are fully configured for landing at 1000ft above ground, with CONFIG 3 or CONFIG FULL, V~appr~ speed, gear down, autobrake armed, ground spoilers armed, ECAM landing memo no blue, landing checklist complete.
 
@@ -144,7 +144,7 @@ Assuming that we are fully configured for landing at 1000ft above ground, with C
 
 - At 1000ft: callout "one thousand".
 - At 500ft: Now callouts every hundred feet.
-- Shortly after the 400 callout and before 350ft the FMA must show LAND n green to signal that the aircraft is now in landing mode.
+- Shortly after the 400 callout and before 350ft the FMA must show LAND in green to signal that the aircraft is now in landing mode.
 - At 150ft: The white line signifying the ground on the PFD attitude indicator starts to move up.
 - At 100ft: callout "hundred".
 - At 50ft: callout "fifty" and now callouts every 10 ft
