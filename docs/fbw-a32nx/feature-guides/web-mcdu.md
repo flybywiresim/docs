@@ -92,38 +92,6 @@ If you chose a local printer when starting the MCDU Server, every print you will
 
 The printers available are those known to the PC where you run Microsoft Flight Simulator and the MCDU Server is on. It is not relevant if your remote device where you use the MCDU Web Interface actually knows this printer.
 
-
-## Advanced Start Options
-
-The MCDU Server application has several additional command line options to control the startup configuration.
-
-``` cmd title="Windows Command Line"
-> server.exe -h
-
-Usage:
-server [options]
-
-Options:
---debug              enables debug mode
--h, --help           print command line options
---http-port=...      sets port for http server (default: 8125)
---no-printer         skips prompt to select printer
---printer=...        enables printing to the specified printer
---websocket-port=... sets port for websocket server (default: 8080)
-```
-
-- http-port:
-    - This is the port you need to add to your URL in the browser to access the MCDU Web Interface.
-    - E.g. 8125 for this URL: http://localhost:**==8125==**
-- no-printer:
-    - To skip the prompt asking to choose a printer and not have a local printer configured. This option is required if you want to start the server without any manual interaction (e.g. starting it with the sim).
-- printer:
-    - To skip the prompt asking to choose a printer and have a specific local printer configured. This option is required if you want to start the server without any manual interaction (e.g. starting it with the sim).
-- websocket-port:
-    - The port where the MCDU Web Interface will communicate with the MCDU itself.
-    - ~~This is not the port you need to access the MCDU Web Interface with your browser.~~
-    - ~~We recommend to **only** change this if absolutely required (e.g. port is already occupied). See [Websocket Port](#websocket-port) for details.~~
-
 ### Websocket Port
 
 The websocket port is the port where the MCDU Web Interface will communicate with the actual MCDU. It sends and receives data through this connection.
@@ -165,6 +133,77 @@ Known unsupported operating systems or browsers:
 
 ## Advanced Configuration
 
+### Advanced Start Options
+
+The MCDU Server application has several additional command line options to control the startup configuration.
+
+``` cmd title="Windows Command Line"
+> server.exe -h
+
+Usage:
+server [options]
+
+Options:
+--debug              shows full error details and logs websocket traffic
+--font-size=...      sets font size for printing (default: 19)
+-h, --help           print command line options
+--http-port=...      sets port for http server (default: 8320)
+--no-printer         skips prompt to select printer
+--paper-size=...     sets paper size for printing (default: A4)
+--printer=...        enables printing to the specified printer
+--websocket-port=... sets port for websocket server (default: 8380)
+```
+
+- debug:
+    - Additional error output and logs websocket traffic
+- http-port:
+    - This is the port you need to add to your URL in the browser to access the MCDU Web Interface.
+    - E.g. 8125 for this URL: http://localhost:**==8125==**
+- websocket-port:
+    - The port where the MCDU Web Interface will communicate with the MCDU itself.
+    - ~~This is not the port you need to access the MCDU Web Interface with your browser.~~
+    - ~~We recommend to **only** change this if absolutely required (e.g. port is already occupied). See [Websocket Port](#websocket-port) for details.~~
+- no-printer:
+    - To skip the prompt asking to choose a printer and not have a local printer configured. This option is required if you want to start the server without any manual interaction (e.g. starting it with the sim).
+- printer:
+    - To skip the prompt asking to choose a printer and have a specific local printer configured. This option is required if you want to start the server without any manual interaction (e.g. starting it with the sim).
+- font-size
+    - This defines the font size the printer out will use.
+    - Default is 19 but for smaller printouts (e.g. thermal printer) a smaller size may be required.
+- paper-size:
+    - This defines the paper size the printer out uses.
+    - See a list of all supported paper sizes below.
+
+??? info "Supported Paper Sizes (click to expand)"
+    Based on this list: [PDFKIT Paper Sizes](https://pdfkit.org/docs/paper_sizes.html){target=new}
+
+    - A-series: A0 ... A10
+    - B-series: B0 ... B10
+    - C-series: C0 ... C10
+    - RA-series: RA0 ... RA4
+    - SRA-series: SRA0 ... SRA4
+    - Common U.S. sizes
+        - EXECUTIVE
+        - LEGAL
+        - LETTER
+        - TABLOID
+    - Other
+        - 4A0
+        - 2A0
+        - FOLIO
+
+    The exact size can be found here:
+    [Overview_of_ISO_paper_sizes](https://en.wikipedia.org/wiki/Paper_size#Overview_of_ISO_paper_sizes){target=new}
+
+To use advanced startup options you can use a Windows Powershell or Windows Command Prompt.
+
+![Windows Command Prompt](../assets/mcdu-server/windows-command-prompt.png "Windows Command Prompt"){loading=lazy}
+
+Alternatively you can create a Windows Shortcut for the server.exe file and add the parameters to the target field.
+
+![Windows Shortcut Dialog](../assets/mcdu-server/windows-shortcut-dialog.png "Windows Shortcut Dialog"){loading=lazy}
+
+
 ### Network Configuration
 
 To access the MCDU Server from a remote device you need to make sure that this device is on the same network as the PC running the MCDU Server.
@@ -181,7 +220,7 @@ Your device should typically also have an IP address starting with `192.168.1.x`
 
 You can check this in the device's network configuration.
 
-??? tip "Examples for Device Network Information"
+??? tip "Examples for Device Network Information (click to expand)"
     **iPad:**
 
     ![iPad Network Info](../assets/mcdu-server/ipad-network-info.png "iPad Network Info"){loading=lazy}
@@ -208,7 +247,7 @@ To test and confirm this turn off your firewall and try again to reach your MCDU
 
 ==}
 
-We now know we need to open the ports we want to use. The default ports are **TCP 8125** and **TCP 8080** and these must be allowed to pass the firewall.
+We now know we need to open the ports we want to use. The default ports are **TCP 8125** and **TCP 8380** and these must be allowed to pass the firewall.
 
 There are several ways to open ports on your PC firewall.
 
@@ -219,13 +258,13 @@ For the Windows Firewall you can follow this guide here:
 Alternatively you can open a Command Line prompt as Administrator and use this command:
 
 ``` cmd title="Windows Powershell"
-netsh advfirewall firewall add rule name="MCDU Server" dir=in action=allow protocol=TCP localport=8080,8125
+netsh advfirewall firewall add rule name="MCDU Server" dir=in action=allow protocol=TCP localport=8380,8125
 ```
 
 For an advanced guide of this command see the Microsoft documentation:<br/>
 [netsh advfirewall firewall](https://docs.microsoft.com/en-US/troubleshoot/windows-server/networking/netsh-advfirewall-firewall-control-firewall-behavior){target=new}
 
-??? warning "Remove Autogenerated Rules"
+??? warning "Remove Autogenerated Rules (click to expand)"
     Sometimes Windows has already automatically generated some rules after showing you a firewall dialog when starting the MCDU Server.
 
     If you still can't connect to the MCDU Server these rules might be the cause. After adding your own rule as described above you don't need these anymore and they can be deleted.
@@ -243,7 +282,7 @@ This should now allow access from your browser to the MCDU.
 
 ### Occupied Port
 
-Sometimes the default ports 8080 or 8125 are already used by other services on your PC.
+Sometimes the default ports 8380 or 8125 are already used by other services on your PC.
 
 In this case you should get error messages similar to this:
 
@@ -252,26 +291,26 @@ Error: Port 8125 is already in use
 ```
 or
 ``` cmd title="Windows Command Line"
-Error: Port 8080 is already in use
+Error: Port 8380 is already in use
 ```
 
-??? tip "How To Check If a Port is Already In Use?"
+??? tip "How To Check If a Port is Already In Use? (click to expand)"
     You can see if a port is occupied by making sure the MCDU Server is off and then running this command:
 
     Windows Command Line:
     ``` cmd title="Windows Command Line"
-    netstat -ano | find "8080"
+    netstat -ano | find "8380"
     ```
     or
     Windows Powershell:
     ``` cmd title="Windows Powershell"
-    netstat -aon | findstr 8080
+    netstat -aon | findstr 8380
     ```
 
     If the corresponding port is already in use the output should be similar to this:
     ``` cmd title="Output"
-      TCP    0.0.0.0:8080       0.0.0.0:0              LISTENING       4
-      TCP    [::]:8080          [::]:0                 LISTENING       4
+      TCP    0.0.0.0:8380       0.0.0.0:0              LISTENING       4
+      TCP    [::]:8380          [::]:0                 LISTENING       4
       ...
     ```
 
@@ -292,7 +331,7 @@ If the port for the MCDU Websocket Server is occupied you need to first change t
 You can then start the MCDU server using the new websocket port with this option:
 
 ``` cmd title="Windows Command Line"
-server.exe --websocket-port=8081
+server.exe --websocket-port=8381
 ```
 
 Of course now the firewall might need to be opened for this new port.
@@ -356,9 +395,9 @@ The MCDU Server uses a web application running in the browser to send and receiv
 
 To open the web application the browser will connect to the MCDU Server's webserver via http protocol (default port 8125) and download and run the MCDU Web Interface application (HTML/CSS/JavaScript).
 
-The MCDU Web Interface application will open a data connection to the MCDU via Web Socket protocol (default port 8080) and receive data (screen content) and send data (user input like button pushes) from and to the MCDU.
+The MCDU Web Interface application will open a data connection to the MCDU via Web Socket protocol (default port 8380) and receive data (screen content) and send data (user input like button pushes) from and to the MCDU.
 
-For this to work the browser must be able to reach the MCDU Server via the two TCP ports 8080 and 8125 (these defaults can be changed) which means users might need to reconfigure their network and firewall settings accordingly (see documentation above).
+For this to work the browser must be able to reach the MCDU Server via the two TCP ports 8380 and 8125 (these defaults can be changed) which means users might need to reconfigure their network and firewall settings accordingly (see documentation above).
 
 ## Troubleshooting
 
@@ -370,15 +409,15 @@ For this to work the browser must be able to reach the MCDU Server via the two T
 
     Solution: [Webserver Port is Occupied](#webserver-port-is-occupied)
 
-??? warning "MCDU Server Error: Port 8080 is already in use"
-    The web socket port 8080 is already in use.
+??? warning "MCDU Server Error: Port 8380 is already in use"
+    The web socket port 8380 is already in use.
 
     Solution: [Websocket Port is Occupied](#websocket-port-is-occupied)
 
 ??? warning "MCDU Server: `Waiting for Simulator...` Although Flight is Started"
     The MCDU Server continues to show `Waiting for simulator ...` although the flight is started and aircraft is loaded.
 
-    The web socket port 8080 is already in use.
+    The web socket port 8380 is already in use.
 
     Solution: [Websocket Port is Occupied](#websocket-port-is-occupied)
 
@@ -440,3 +479,10 @@ For this to work the browser must be able to reach the MCDU Server via the two T
 
     - Use a different browser.
     - See tested browsers: [Compatible Browsers](#compatible-browsers)
+
+??? warning "Printout format incorrect / receipt printer"
+    The default format the printer uses is paper size A4 and font size 19.
+
+    For some printer especially receipt printer a different paper size and font size must be used to make the output look good.
+
+    We recommend to experiment with this a bit to find good values for your printer. In our tests we found paper size C8 and font size 10 a good starting point.
