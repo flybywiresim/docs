@@ -76,7 +76,7 @@ If you want to start with only the MCDU display without the MCDU panel then add 
 
 ## How to Use the MCDU Web Interface
 
-The MCDU Web Interface can then be used by mouse or touch on touch enabled devices.
+The MCDU Web Interface can then be used by mouse or touch depending on your device.
 
 It is also possible to click on the MCDU screen items themselves to actually click the corresponding LSK (Line Select Key).
 
@@ -88,9 +88,11 @@ If you want to start with only the MCDU display visible then add "/fullscreen" t
 
 ## Using Your Local Printer
 
-If you chose a local printer when starting the MCDU Server, every print you will make from the MCDU to the cockpit printer will instead be printed using your previously selected printer.
+If you chose a local printer when starting the MCDU Server, every print you will make from the MCDU to the cockpit printer will be also printed using your previously selected printer.
 
 The printers available are those known to the PC where you run Microsoft Flight Simulator and the MCDU Server is on. It is not relevant if your remote device where you use the MCDU Web Interface actually knows this printer.
+
+For different printers and paper size the server allows to specify the paper size and font size. See [Advanced Start Options](#advanced-start-options)
 
 ### Websocket Port
 
@@ -98,17 +100,17 @@ The websocket port is the port where the MCDU Web Interface will communicate wit
 
 This will allow to have different UI implementations or even hardware MCDUs in the future. We plan to eventually also create separate documentation for using this websocket connection directly.
 
-!!! warning "We recommend to **not** change the default port for the websocket. If you have to change this port because it is already occupied on your machine you need to change it as well in the EFB Sim Options Settings page."
+!!! warning "We recommend to **not** change the default port for the websocket if not required. If you have to change this port because it is already occupied on your machine you need to change it as well in the EFB Sim Options Settings page."
 
 ## Compatible Browsers
 
 With hundreds of different browsers available today it is not possible to test and support all browsers and their different versions.
 
-In general we expect this feature to work with the common standard browsers on Windows, iOS, Android.
+In general we expect this feature to work with the common modern standard browsers on Windows, iOS, Android.
 
 However, there will be browsers where this will not work. In this case we recommend to use a standard browser.
 
-We have tested these browsers during the development and these should therefore work ok:
+We have tested these browsers (current versions) during the development and these should therefore work ok:
 
 - Windows: Edge, Firefox, Chrome
 - iOS: Safari, Firefox, Edge, Chrome, duckduckgo, Brave, Bing
