@@ -18,9 +18,12 @@ Typical usage is the definition and selection of a flight plan for lateral and v
 
 After entry or selection of the flight plan and other required performance data into the MCDU, the FMGS generates the climb and descent profiles for departure and arrival, provides automatic airplane guidance, and computes current and predicted progress along the flight plan.
 
+Learn how to setup the MCDU for flight here: [Preparing MCDU](../../../beginner-guide/preparing-mcdu.md)
+
 <!-- TODO: UPDATE -->
 !!! info "Future Update"
     A more in depth briefing section of the MCDU is currently being developed and will be available in the near future.
+
 
 ---
 

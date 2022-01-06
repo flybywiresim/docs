@@ -14,6 +14,10 @@
 
 The ECAM Control Panel is used to change what is displayed on the Warning Display and System Display (Lower ECAM) and also has knobs to regulate brightness of the both ECAM displays.
 
+See detailed ECAM briefing:
+
+[ECAM SD](../../ecam/sd/index.md){ .md-button }
+
 ## Usage
 
 ###  OFF / BRT knobs
@@ -25,9 +29,6 @@ These knobs control the brightness of the ECAM displays and also allow to turn t
 Displays the respective page on the SD.
 
 Available pages are: ENG, BLEED, PRESS, ELEC, HYD, FUEL, APU, COND, DOOR, WHEEL, F CTL, STS, CRUISE.
-
-!!! info "Future Update"
-    A more in depth description of the ECAM Pages is currently being developed and will be available in the near future.
 
 ### CLR and RCL
 

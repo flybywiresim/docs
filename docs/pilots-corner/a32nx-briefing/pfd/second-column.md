@@ -46,6 +46,14 @@ Displayed in green when climb mode is engaged and the FMGS Target altitude is hi
 
 Displayed in green when open climb mode is engaged and the FCU selected altitude is higher that the actual altitude. Altitude constraints are disregarded.
 
+### EXP CLB
+
+Displayed when the aircraft is in EXP CLB mode.
+
+The target speed is Green Dot, which is maintained with pitch control. Autothrust, if active, sets the thrust at CLB THRUST automatically.
+
+When EXPEDITE is engaged, the system disregards SPD CSTR, ALT CSTR, and SPD LIM.
+
 ### ALT\* or ALT CST\*
 
 Altitude Capture is engaged
@@ -71,6 +79,15 @@ Displayed in green when descent mode (managed) is engaged and the FMGS target al
 ### OP DES
 
 Displayed in green when open descent (selected) mode is engaged and the FCU selected altitude is lower than the current altitude. Altitude Constraints are not taken into account.
+
+### EXP DES
+
+Displayed when the aircraft is in EXP DES mode.
+
+When the aircraft is in EXP DES, the target speed is 340 kt or M 0.8 which is maintained with pitch
+control. Autothrust, if active, sets the thrust at IDLE automatically.
+
+When EXPEDITE is engaged, the system disregards SPD CSTR, ALT CSTR, and SPD LIM.
 
 ### G/S\*
 
