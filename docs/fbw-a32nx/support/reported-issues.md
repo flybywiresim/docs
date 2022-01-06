@@ -14,7 +14,7 @@
 
     <img src="https://img.shields.io/github/v/release/flybywiresim/a32nx.svg?color=2F4E5B&style=flat" /> <img src="https://img.shields.io/badge/dynamic/json?color=00848A&label=Development&query=shortSha&url=https%3A%2F%2Fapi.flybywiresim.com%2Fapi%2Fv1%2Fgit-versions%2Fflybywiresim%2Fa32nx%2Fbranches%2Fmaster&style=flat" alt="Development Version" />
 
-    FBW Installer - [Download Here](https://api.flybywiresim.com/installer){target=new} / *Sim Version: 1.21.13.0*
+    FBW Installer - [Download Here](https://api.flybywiresim.com/installer){target=new} / *Sim Version: 1.21.18.0*
 
 !!! warning "Read our Support Guide"
 
