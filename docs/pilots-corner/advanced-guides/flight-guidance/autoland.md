@@ -70,7 +70,7 @@ Airbus requires an operator to be Low Visibility Operation (LVO) certified to pe
 ### Airport Requirements
 
 !!! info "Airport Requirement Misunderstandings"
-    Performing an Autoland is permissible for CAT II/CAT III runways when low visibility procedures (LVP) are not enforced and this may even extend to CAT I runways. However, it is important to note that while LVO (CAT III) **requires** the use of Autoland.
+    Performing an Autoland is permissible for CAT II/CAT III runways when low visibility procedures (LVP) are not enforced and this may even extend to CAT I runways. However, it is important to note that  low visibility operations (LVO) CAT III **requires** the use of Autoland.
 
     All of the above may also be subject to local procedures and authorities.
 
