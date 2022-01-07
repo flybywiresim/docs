@@ -79,7 +79,7 @@ Below is a list of considerations before using of Autoland:
 - CAT II / CAT III - LVP Not Enforced
 
 !!! danger "Low Visibility Operations Not Enforced"
-    If the flight crew opts to perform an Autoland on a CAT II/CAT III capable runway when LVO is not enforced (checked with ATIS or ATC) the runway **must be considered a CAT I runway**. 
+    If the flight crew opts to perform an Autoland on a CAT II / CAT III capable runway when LVO is not enforced (checked with ATIS or ATC) the runway **must be considered a CAT I runway**. 
 
     Crews should be alert to ILS beam / signal contamination since the LOC/GS signal strength may not be guaranteed.
 
@@ -89,7 +89,7 @@ CAT I runway considerations before using Autoland:
 - CAT II should at least be indicated on the FMA and the flight crew should apply the respective CAT II / CAT III FCOM procedures
 - Visual contact should be established at the CAT I minimum at the latest
 
-### Airctaft Limitations
+### Aircraft Limitations
 
 *New Section Pending*
 
