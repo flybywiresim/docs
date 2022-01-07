@@ -87,6 +87,10 @@ CAT I runway considerations before using Autoland:
 - CAT II should at least be indicated on the FMA and the flight crew should apply the respective CAT II / CAT III FCOM procedures
 - Visual contact should be established at the CAT I minimum at the latest
 
+### Airctaft Limitations
+
+*New Section Pending*
+
 ## Autoland HowTo
 
 ### Preparations
