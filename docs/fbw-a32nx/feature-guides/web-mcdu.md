@@ -88,7 +88,7 @@ If you want to start with only the MCDU display visible then add "/fullscreen" t
 
 ## Using Your Local Printer
 
-If you chose a local printer when starting the MCDU Server, every print you will make from the MCDU to the cockpit printer will be also printed using your previously selected printer.
+If you chose a local printer when starting the MCDU Server, every print you will make from the MCDU to the cockpit printer will also be printed using your previously selected printer.
 
 The printers available are those known to the PC where you run Microsoft Flight Simulator and the MCDU Server is on. It is not relevant if your remote device where you use the MCDU Web Interface actually knows this printer.
 
@@ -149,7 +149,7 @@ Options:
 --debug              shows full error details and logs websocket traffic
 --font-size=...      sets font size for printing (default: 19)
 -h, --help           print command line options
---http-port=...      sets port for http server (default: 8320)
+--http-port=...      sets port for http server (default: 8125)
 --no-printer         skips prompt to select printer
 --paper-size=...     sets paper size for printing (default: A4)
 --printer=...        enables printing to the specified printer
