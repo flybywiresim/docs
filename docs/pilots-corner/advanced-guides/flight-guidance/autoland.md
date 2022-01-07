@@ -59,9 +59,6 @@ In summary:
     - cross wind <20ft
     - head wind ??
     - tail wind ??
-- pilot training - pilots need to do this regularly to keep certification
-    - 2 times a year in simulator in Germany
-- CAT III in general and A/B/C types
 
 ### Crew Requirements
 
@@ -70,16 +67,19 @@ Airbus requires an operator to be Low Visibility Operation (LVO) certified to pe
 ### Airport Requirements
 
 !!! info "Airport Requirement Misunderstandings"
-    Performing an Autoland is permissible for CAT II/CAT III runways when low visibility procedures (LVP) are not enforced and this may even extend to CAT I runways. However, it is important to note that  low visibility operations (LVO) CAT III **requires** the use of Autoland.
+    Performing an Autoland is permissible for CAT II/CAT III runways when low visibility procedures (LVP) are not enforced and this may even extend to CAT I runways. However, low visibility operations (LVO) CAT III **requires** the use of Autoland.
 
-    All of the above may also be subject to local procedures and authorities.
+    Autolands can also be subject to local procedures and authorities.
 
 Below is a list of considerations before using of Autoland:
 
 - CAT III - LVP Enforced
-- CAT II/CAT III - LVP Not Enforced
 - Operators have a list of runways that are authorized to use Autoland
-  - List should cross checked with AFM/FCOM limitations and any precautions when performing an Autoland on CAT I runways
+    - List should cross checked with AFM/FCOM limitations and any precautions when performing an Autoland on CAT I runways
+- CAT II/CAT III - LVP Not Enforced
+
+!!! danger "Low Visibility Operations Not Enforced"
+    If the flight crew opts to perform an Autoland on a CAT II/CAT III capable runway when LVO is not enforced (checked with ATIS or ATC) the runway **must be considered a CAT I runway**. Crews should be alert to ILS beam / signal contamination since the LOC/GS signal strength may not be guaranteed.
 
 CAT I runway considerations before using Autoland:
 
