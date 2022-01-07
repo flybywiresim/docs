@@ -65,12 +65,27 @@ In summary:
 
 ### Crew Requirements
 
-- training and certification
+Airbus requires an operator to be Low Visibility Operation (LVO) certified to perform an Autoland. Other training may also be required before being able to perform an Autoland. It is also the responsibility of the operator to maintain the LVO certification or any approvals by airworthiness authorities to perform automatic landings.
 
 ### Airport Requirements
 
-- CAT III ???
-- ???
+!!! info "Airport Requirement Misunderstandings"
+    Performing an Autoland is permissible for CAT II/CAT III runways when low visibility procedures (LVP) are not enforced and this may even extend to CAT I runways. However, it is important to note that while LVO (CAT III) **requires** the use of Autoland.
+
+    All of the above may also be subject to local procedures and authorities.
+
+Below is a list of considerations before using of Autoland:
+
+- CAT III - LVP Enforced
+- CAT II/CAT III - LVP Not Enforced
+- Operators have a list of runways that are authorized to use Autoland
+  - List should cross checked with AFM/FCOM limitations and any precautions when performing an Autoland on CAT I runways
+
+CAT I runway considerations before using Autoland:
+
+- Pilots must be read to disconnect the AP if any ILS fluctuations are detected
+- CAT II should at least be indicated on the FMA and the flight crew should apply the respective CAT II / CAT III FCOM procedures
+- Visual contact should be established at the CAT I minimum at the latest
 
 ## Autoland HowTo
 
