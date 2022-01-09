@@ -140,7 +140,7 @@ Known unsupported operating systems or browsers:
 The MCDU Server application has several additional command line options to control the startup configuration.
 
 ``` cmd title="Windows Command Line"
-> server.exe -h
+>server.exe -h
 
 Usage:
 server [options]
@@ -150,6 +150,7 @@ Options:
 --font-size=...      sets font size for printing (default: 19)
 -h, --help           print command line options
 --http-port=...      sets port for http server (default: 8125)
+--margin=...         sets margin for printing in points
 --no-printer         skips prompt to select printer
 --paper-size=...     sets paper size for printing (default: A4)
 --printer=...        enables printing to the specified printer
@@ -158,23 +159,25 @@ Options:
 
 - debug:
     - Additional error output and logs websocket traffic
+- font-size
+    - This defines the font size the printer out will use.
+    - Default is 19 but for smaller printouts (e.g. thermal printer) a smaller size may be required.
 - http-port:
     - This is the port you need to add to your URL in the browser to access the MCDU Web Interface.
     - E.g. 8125 for this URL: http://localhost:**==8125==**
+- margin:
+    - This defines the margins for the print out
+- no-printer:
+    - To skip the prompt asking to choose a printer and not have a local printer configured. This option is required if you want to start the server without any manual interaction (e.g. starting it with the sim).
+- paper-size:
+    - This defines the paper size the printer out uses.
+    - See a list of all supported paper sizes below.
+- printer:
+    - To skip the prompt asking to choose a printer and have a specific local printer configured. This option is required if you want to start the server without any manual interaction (e.g. starting it with the sim).
 - websocket-port:
     - The port where the MCDU Web Interface will communicate with the MCDU itself.
     - ~~This is not the port you need to access the MCDU Web Interface with your browser.~~
     - ~~We recommend to **only** change this if absolutely required (e.g. port is already occupied). See [Websocket Port](#websocket-port) for details.~~
-- no-printer:
-    - To skip the prompt asking to choose a printer and not have a local printer configured. This option is required if you want to start the server without any manual interaction (e.g. starting it with the sim).
-- printer:
-    - To skip the prompt asking to choose a printer and have a specific local printer configured. This option is required if you want to start the server without any manual interaction (e.g. starting it with the sim).
-- font-size
-    - This defines the font size the printer out will use.
-    - Default is 19 but for smaller printouts (e.g. thermal printer) a smaller size may be required.
-- paper-size:
-    - This defines the paper size the printer out uses.
-    - See a list of all supported paper sizes below.
 
 ??? info "Supported Paper Sizes (click to expand)"
     Based on this list: [PDFKIT Paper Sizes](https://pdfkit.org/docs/paper_sizes.html){target=new}
