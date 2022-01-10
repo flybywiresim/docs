@@ -78,8 +78,8 @@ Below is a list of considerations before using of Autoland:
     - List should cross checked with AFM/FCOM limitations and any precautions when performing an Autoland on CAT I runways
 - CAT II / CAT III - LVP Not Enforced
 
-!!! danger "Low Visibility Operations Not Enforced"
-    If the flight crew opts to perform an Autoland on a CAT II / CAT III capable runway when LVO is not enforced (checked with ATIS or ATC) the runway **must be considered a CAT I runway**. 
+!!! danger "Low Visibility Operations (LVO) Not Enforced"
+    If the flight crew opts to perform an Autoland on a CAT II / CAT III capable runway when LVO is not enforced (checked with ATIS or ATC) the runway **must be considered a CAT I runway**.
 
     Crews should be alert to ILS beam / signal contamination since the LOC/GS signal strength may not be guaranteed.
 
@@ -112,7 +112,7 @@ CAT I runway considerations before using Autoland:
 - AP 1+2
 - A/THR
 - CAT IIIB (alarm when downgraded)
-- MINIA (NO DH)
+- MINIMUM (NO DH)
 - LOC / G/S
 - SPEED
 
@@ -150,7 +150,7 @@ Assuming that we are fully configured for landing at 1000ft above ground, with C
 - At 50ft: callout "fifty" and now callouts every 10 ft
 - Shortly after 50ft FMA must show FLARE or otherwise the flight crew needs to perform a go around.
 - Also the autothrust FMA should switch to THRUST IDLE.
-- Between about 20ft and 10ft the aircraft corrects its crosswind crab angle to bring it  longitudinal axis in line with the runway.
+- Between about 20ft and 10ft the aircraft corrects its crosswind crab angle to bring its longitudinal axis in line with the runway.
 - At 10ft: Callout "Retard" commands the PF to set the throttle levers to idle.
 - At touchdown:
     - FMA shows ROLL OUT - autopilot keeps aircraft on center line
