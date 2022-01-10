@@ -102,7 +102,7 @@ This is displayed with a green letter S. It appears when the flap selector is in
 
 ### V~FE~ NEXT
 
-It is displayed with an amber double bar (=) and shows the VFE corresponding to the next flap lever position. It appears when the aircraft altitude is below 15,000 feet or 20,000 feet depending upon the FAC standard.
+It is displayed with an amber double bar (=) and shows the V~FE~ corresponding to the next flap lever position. It appears when the aircraft altitude is below 15,000 feet or 20,000 feet depending upon the FAC standard.
 
 ### V~R~ (Rotation Velocity)
 
@@ -115,7 +115,7 @@ This is a magenta triangle on the right side of the speedtape. It displays the V
 V~2~+10 provides better climb performance (before acceleration altitude and during noise abatement program departures).
 
 !!! info "Engine Loss V~2~ Speeds"
-    After takeoff **V~2~+10** is the targeted speed you should reach and maintain by the time you attain a height of 35 FT after takeoff until reaching the acceleration altitude.  
+    After takeoff **V~2~+10** is the targeted speed you should reach and maintain by the time you attain a height of 35 FT after takeoff until reaching the acceleration altitude.
 
     When an engine failure occurs (shortly before or after takeoff), V~2~ is the minimum allowable speed. Pilots should aim to meet the criteria below at point of engine loss:
 

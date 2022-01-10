@@ -32,17 +32,17 @@ The guides in this section shall cover some of the main envelope protections of 
 
 ## High Speed Protection
 
-High Speed Protection (HSP) aims to protect the aircraft from overspeed situations and activates latest when VMO+6kt or MMO+0.015 speeds (maximum operating speeds in knots or mach) are reached.
+High Speed Protection (HSP) aims to protect the aircraft from overspeed situations and activates latest when V~MO~+6kt or M~MO~+0.015 speeds (maximum operating speeds in knots or mach) are reached.
 
 See also [V-Speeds](../..//beginner-guide/abbreviations.md#v-speeds)
 
 ### Engagement Conditions
 
-HSP is activated at or above VMO or MMO speeds (maximum operating speeds in knots or mach), depending on flight conditions.
+HSP is activated at or above V~MO~ or M~MO~ speeds (maximum operating speeds in knots or mach), depending on flight conditions.
 
 ### Disengagement Conditions
 
-HSP is deactivated when speed is reduced below VMO/MMO.
+HSP is deactivated when speed is reduced below V~MO~/M~MO~.
 
 ### Indication and warnings
 
@@ -51,11 +51,10 @@ The overspeed limits are shown on the speed band on the PFD as a black and red s
 !!! block ""
     ![Speedband Overspeed Limits](../../assets/advanced-guides/protections/speedband_overspeed.png "Speedband Overspeed Limits"){loading=lazy align=left width=12%}
 
-    - 1: VMAX = Lowest of VMO, MMO, VLE, VFE
-    - 2: VMO + 6kt or MMO + 0.01 Overspeed Protection becomes active
+    - 1: V~MAX~ = Lowest of V~MO~, M~MO~, V~LE~, V~FE~
+    - 2: V~MO~ + 6kt or M~MO~ + 0.01 Overspeed Protection becomes active
     - 3: Actual Airspeed Reference Line
     - 4: Current Mach speed
-
 
 High Speed Protection is usually accompanied by the Overspeed Warnings:
 
@@ -66,10 +65,10 @@ High Speed Protection is usually accompanied by the Overspeed Warnings:
 
 ### Protective Actions
 
-- Automatic AP disconnection (VMO + 15kt or MMO + 0.04)
-- When VMO + 6kt or MMO + 0.01 is reached a positive load factor demand is automatically applied (pitch up action)
-- When full nose-down stick is maintained speed is limited to around VMO + 16kt and MMO + 0.04 (pilot nose-down authority is reduced)
-- When sidestick is released at HSP activation, the airplane will slightly overshoot VMO/MMO and fly back towards the envelope.
+- Automatic AP disconnection (V~MO~ + 15kt or M~MO~ + 0.04)
+- When V~MO~ + 6kt or M~MO~ + 0.01 is reached a positive load factor demand is automatically applied (pitch up action)
+- When full nose-down stick is maintained speed is limited to around V~MO~ + 16kt and M~MO~ + 0.04 (pilot nose-down authority is reduced)
+- When sidestick is released at HSP activation, the airplane will slightly overshoot V~MO~/M~MO~ and fly back towards the envelope.
 - When sidestick is released the aircraft's bank angle will return to 0° (instead of 33° outside of HSP)
 - Bank angle limit is reduced from 67° to 40°
 - Pitch trim is frozen
@@ -104,7 +103,7 @@ The High Angle of Attack Protection is engaged when:
     ![High Angle of Attack Protection Speeds](../../assets/advanced-guides/protections/speedband_aoa.png "High Angle of Attack Protection Speeds"){loading=lazy align=left width=15%}
 
     - 1: Green Dot Speed is the best lift-to-drag ratio speed in the clean configuration.
-    - 2: VLS is the lowest selectable speed and provides an appropriate margin to the stall speed. The autopilot will not go below this speed if autothrust is active.
+    - 2: V~LS~ is the lowest selectable speed and provides an appropriate margin to the stall speed. The autopilot will not go below this speed if autothrust is active.
     - 3: Selected speed in the FCU
     - 4: &alpha;~prot~ limit
         - this speed is maintained when side stick is neutral

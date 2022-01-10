@@ -63,13 +63,13 @@ These are flags and messages displayed on the PFD. The numbers correspond to the
 
     This is displayed in red. It appears when both FACs are inoperative, or in case of dual flap/slat channel failure. In this case, the following information is lost:
     
-    - VLS
+    - V~LS~
     - S
     - F
     - Green Dot
-    - Vtrend
-    - Vmax
-    - VFE next
+    - V-trend
+    - V~MAX~
+    - V~FE~ next
     - VSW
 
 === "9"
