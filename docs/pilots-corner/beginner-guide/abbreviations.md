@@ -2,43 +2,43 @@
 
 ## V-Speeds
 
-| V-Speed            | Term                                                                                                                                                                                                               |
-|:-------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| V1                 | The highest speed during take-off that you can reject the take-off and still stop on the runway.                                                                                                                   |
-| V2                 | Take-off safety speed, where if an engine fails, climb out and control is still guaranteed.                                                                                                                        |
-| VA                 | Maximum design maneuvering speed, the maximum speed to do full control deflection in normal or alternate law.                                                                                                      |
-| VAPP               | Speed for flying down the approach.                                                                                                                                                                                |
-| VF                 | Design Flap Speed                                                                                                                                                                                                  |
-| VFE                | Maximum Flap Extended Speed.                                                                                                                                                                                       |
-| VFEN               | Predictive VFE at next flap/slat position                                                                                                                                                                          |
-| VFTO               | Final Takeoff Speed                                                                                                                                                                                                |
-| VLE                | Maximum gear extension speed, often lower than the operating speed to prevent gear door damage.                                                                                                                    |
-| VLO                | Maximum gear operating speed, which means the max speed for the gear being down.                                                                                                                                   |
-| VLOF               | Lift-off Speed                                                                                                                                                                                                     |
-| VLS                | Lower Selectable Speed                                                                                                                                                                                             |
-| VMAX               | Airbus for the maximum speed for the current configuration, represented by black and red strip at the top of the airspeed indication.                                                                              |
-| VMCA               | Minimum speed in the air that if one engine fails and the other is at TO thrust, you can still control the aircraft with the primary flight controls up to a bank of 5 degrees.                                    |
-| VMCG               | Minimum speed on the ground that if one engine fails and the other is at TO thrust, you can still control the aircraft with the primary flight controls.                                                           |
-| VMO                | Maximum operating speed, also has MMO for maximum Mach number.                                                                                                                                                     |
-| VR                 | Rotate speed, the point where you lift the nose off the runway.                                                                                                                                                    |
-| VREF               | Reference speed for a normal approach, what you aim to touchdown roughly at.                                                                                                                                       |
-| VS                 | Stalling Speed at which Airplane is Controllable                                                                                                                                                                   |
-| VS1                | Stalling Speed or Minimum Steady Flight Speed obtained in a specified Configuration                                                                                                                                |
-| VSO                | Stalling Speed or Minimum Steady Flight Speed in the Landing configuration                                                                                                                                         |
-| VSW                | Airbus for when the stall warning will activate, represented by a black and red strip at the bottom of the airspeed indicator, when there has been a failure to affect the flight control laws.                    |
-| VX                 | Speed of Best Angle of Climb                                                                                                                                                                                       |
-| VY                 | Speed for Best Rate of Climb                                                                                                                                                                                       |
-| VαMAX              | Airbus for the speed that the maximum angle of attack (AoA) can be without the aircraft stalling, shown by the top of a red strip at the bottom of the airspeed indicator.                                         |
-| VαPROT             | Airbus for the speed that the angle of attack (AoA) protection will become active to stop the aircraft from stalling, shown as being the top of the black and amber strip at the bottom of the airspeed indicator. |
+| V-Speed       | Term                                                                                                                                                                                                               |
+|:--------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| V1            | The highest speed during take-off that you can reject the take-off and still stop on the runway.                                                                                                                   |
+| V2            | Take-off safety speed, where if an engine fails, climb out and control is still guaranteed.                                                                                                                        |
+| VA            | Maximum design maneuvering speed, the maximum speed to do full control deflection in normal or alternate law.                                                                                                      |
+| V~APP~        | Speed for flying down the approach.                                                                                                                                                                                |
+| VD / MD       | Maximum structural design limit speed and Mach                                                                                                                                                                     |
+| VF            | Design Flap Speed                                                                                                                                                                                                  |
+| V~FE~         | Maximum Flap Extended Speed.                                                                                                                                                                                       |
+| V~FEN~        | Predictive V~FE~ at next flap/slat position                                                                                                                                                                        |
+| V~FTO~        | Final Takeoff Speed                                                                                                                                                                                                |
+| V~LE~         | Maximum gear extension speed, often lower than the operating speed to prevent gear door damage.                                                                                                                    |
+| V~LO~         | Maximum gear operating speed, which means the max speed for the gear being down.                                                                                                                                   |
+| V~LOF~        | Lift-off Speed                                                                                                                                                                                                     |
+| V~LS~         | Lower Selectable Speed                                                                                                                                                                                             |
+| V~MAX~        | Airbus for the maximum speed for the current configuration, represented by black and red strip at the top of the airspeed indication.                                                                              |
+| V~MCA~        | Minimum speed in the air that if one engine fails and the other is at TO thrust, you can still control the aircraft with the primary flight controls up to a bank of 5 degrees.                                    |
+| V~MCG~        | Minimum speed on the ground that if one engine fails and the other is at TO thrust, you can still control the aircraft with the primary flight controls.                                                           |
+| V~MO~ / M~MO~ | Maximum operating speed, also has M~MO~ for maximum Mach number.                                                                                                                                                   |
+| VR            | Rotate speed, the point where you lift the nose off the runway.                                                                                                                                                    |
+| V~REF~        | Reference speed for a normal approach, what you aim to touchdown roughly at.                                                                                                                                       |
+| V~S~          | Stalling Speed at which Airplane is Controllable                                                                                                                                                                   |
+| V~S1~         | Stalling Speed or Minimum Steady Flight Speed obtained in a specified Configuration                                                                                                                                |
+| V~SO~         | Stalling Speed or Minimum Steady Flight Speed in the Landing configuration                                                                                                                                         |
+| V~SW~         | Airbus for when the stall warning will activate, represented by a black and red strip at the bottom of the airspeed indicator, when there has been a failure to affect the flight control laws.                    |
+| VX            | Speed of Best Angle of Climb                                                                                                                                                                                       |
+| VY            | Speed for Best Rate of Climb                                                                                                                                                                                       |
+| V~αMAX~       | Airbus for the speed that the maximum angle of attack (AoA) can be without the aircraft stalling, shown by the top of a red strip at the bottom of the airspeed indicator.                                         |
+| V~αPROT~      | Airbus for the speed that the angle of attack (AoA) protection will become active to stop the aircraft from stalling, shown as being the top of the black and amber strip at the bottom of the airspeed indicator. |
 
 ##  Additional Speeds
 
-| V-Speed            | Term                                                                                                                                                                                                               |
-|:-------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| MMO                | Maximum operating Mach number.                                                                                                                                                                                     |
-| F                  | Minimum speed at which the flaps may be retracted at takeoff (i.e., CONF 2/3). Also the minimum speed in approach when in CONF 2 or 3                                                                              |
-| S                  | Minimum speed at which the slats may be retracted at takeoff. Also the minimum speed in approach when in CONF 1.                                                                                                   |
-| O                  | Green dot speed, engine-out operating speed with flaps up, best lift-to-drag ratio speed, also corresponds to final takeoff speed.                                                                                 |
+| V-Speed | Term                                                                                                                                  |
+|:--------|:--------------------------------------------------------------------------------------------------------------------------------------|
+| F       | Minimum speed at which the flaps may be retracted at takeoff (i.e., CONF 2/3). Also the minimum speed in approach when in CONF 2 or 3 |
+| S       | Minimum speed at which the slats may be retracted at takeoff. Also the minimum speed in approach when in CONF 1.                      |
+| O or GD | Green dot speed, engine-out operating speed with flaps up, best lift-to-drag ratio speed, also corresponds to final takeoff speed.    |
 
 ## Abbreviations
 
@@ -546,8 +546,8 @@
 | MLG            | Main Landing Gear                                   |
 | MM             | Middle Marker                                       |
 | mm             | Millimeter                                          |
-| MMO            | Mach Max Operating Speed                            |
-| MMO            | Maximum Operating Mach                              |
+| M~MO~            | Mach Max Operating Speed                            |
+| M~MO~            | Maximum Operating Mach                              |
 | Mn             | Mach Number                                         |
 | MON            | Monitor, Monitoring, Monitored                      |
 | MRW            | Maximum Ramp Weight                                 |
