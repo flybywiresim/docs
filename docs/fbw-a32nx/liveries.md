@@ -4,7 +4,7 @@
 
 ## Getting Liveries
 
-Best source for liveries for FlyByWire A32NX is [FBW A32NX @ flightsim.to](https://flightsim.to/c/liveries/flybywire-a32nx/){target=new}.
+Best source for liveries for FlyByWire A32NX is [FBW A32NX @ flightsim.to](https://flightsim.to/c/liveries/flybywire-a32nx/most-downloaded){target=new}.
 
 !!! warning "Always keep liveries up to date"
 
@@ -14,6 +14,10 @@ Our recommendation is to download the dedicated FlyByWire liveries and also to k
 
 
 ## Converting Liveries
+
+!!! warning "Do Not Convert Liveries"
+    Although our current Installer (v2.x) still has this functionality we recommend to **not** convert old liveries any longer. Many liveries for the Asobo A320, especially the ones from livery collections are often very old, low quality and not maintained. They cause a number of issues and can even lead to CTDs (crash to desktop).
+    Download a few high quality liveries you will actually use as described here: [Getting Liveries](#getting-liveries).
 
 ### Automatic Conversion
 
