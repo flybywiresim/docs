@@ -118,6 +118,7 @@ We have tested these browsers (current versions) during the development and thes
 - Mac OS: Safari, Firefox, Edge, Chrome
 - Samsung phone: Chrome, Firefox, duckduckgo
 - Linux: Firefox
+- Amazon Kindle Fire HD 10 : Silk <br/>(App Version 94.2.2.4606.119.10 Android 5.1.1, Fire OS 5.6.9.0)
 
 {==
 
