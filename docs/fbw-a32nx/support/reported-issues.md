@@ -78,13 +78,13 @@ TEMPLATE
     ^^Description^^
 
     The Load Modules Asynchronously WASM setting causes the development version to crash if turned on. Crash occurs usually 3/4 through the loading bar after selecting FLY.
-    
+
     ^^Root Cause^^
-    
+
     *Under Investigation*
 
     ^^Possible Solution or Workaround^^
-    
+
     We recommend turning this setting off in the developer mode settings. Please see the following steps:
 
     1. Go to Options
@@ -662,7 +662,7 @@ TEMPLATE
 
     !!! tip ""
         *Affected versions: Stable, Development*
-    
+
     ^^Description^^
 
     Reports in the MSFS forums detail issues impacting FPS performance in the sim. Notably this occurs during flights that are longer than 2 hours but is not contained to this metric. You may see your normal FPS drop to <10 FPS as a result of this issue.
@@ -698,6 +698,7 @@ TEMPLATE
     - MSFS itself (e.g. Rolling Cache is often a cause)
     - Hardware (GFX Card and Driver, Overclocking, etc.)
     - Controllers and Drivers
+    - Any third party application that connects to MSFS
 
     Unfortunately just using the sim's API functions might trigger a CTD, so the trigger could be the aircraft but the root cause would be the sim.
 
@@ -711,15 +712,15 @@ TEMPLATE
 
     There also is currently no known guaranteed solution, however users have found success with by trying the following:
 
-    1. [Perform a clean install](../installation.md#clean-install-steps)
-    2. Try without anything else installed in community.
-    3. Try without FSUIPC OR update FSUIPC.
-    4. Try downloading the bat file that is pinned in the #support channel on our [Discord](https://discord.gg/flybywire). Run it to clean up any FBW background files.
-    5. Run without live weather and/or live traffic.
-    6. Delete your rolling cache in the sim and create a new one.
-    7. Delete any manual cache in the sim and create new ones.
-    8. Run the game as Administrator.
-    9. Visit and read the [MSFS Known Issues Page](https://flightsimulator.zendesk.com/hc/en-us/articles/360016027399-KNOWN-ISSUES-Last-update-July-28-2021-) OR [MSFS Troubleshooting & Support](https://flightsimulator.zendesk.com/hc/en-us/sections/360004475200-Troubleshooting-Support-Windows-10-PC)
+    1. Remove everything from the Community folder - **really everything**!
+    2. Perform a [Clean Install](../installation.md#clean-install-steps)
+    3. Stop any third party application which connect to MSFS<br/>
+       FSUIPC, YourControls, Fs2Crew, SPAD.next, ...
+    4. Run without live weather and/or live traffic.
+    5. Delete your rolling cache in the sim and create a new one.
+    6. Delete any manual cache in the sim and create new ones.
+    7. Run the game as Administrator.
+    8. Visit and read the [MSFS Known Issues Page](https://flightsimulator.zendesk.com/hc/en-us/articles/360016027399-KNOWN-ISSUES-Last-update-July-28-2021-) OR [MSFS Troubleshooting & Support](https://flightsimulator.zendesk.com/hc/en-us/sections/360004475200-Troubleshooting-Support-Windows-10-PC)
 
     ^^Additional Information^^
 
@@ -745,14 +746,14 @@ TEMPLATE
 
     !!! tip ""
         *Affected versions: Stable, Development*
-    
+
     ^^Description^^
 
     A public service announcement when live on the MSFS forums detailing an issue where using live weather and/or switching presets after loading in will cause a crash to desktop.
 
     ^^Possible Solution or Workaround^^
 
-    It is recommended by the MSFS team to start a flight with a **preset** weather selection. **Do this before starting your flight**. 
+    It is recommended by the MSFS team to start a flight with a **preset** weather selection. **Do this before starting your flight**.
 
     It may be advisable to also not switch presets or use live weather at all during your flight.
 
