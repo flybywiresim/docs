@@ -200,7 +200,7 @@ The folder can be found here:
 
 To help with the clean install you can also use the Windows batch file to do the cleaning for you.
 
-Create a new empty file called "clean_fbw.bat" on you Desktop an copy and paste this into it. Save and double click it.
+Create a new empty file called "clean_fbw.bat" on your Desktop an copy and paste this into it. Save and run it.
 
 ``` bat title="Windows Batch File"
 @echo off
