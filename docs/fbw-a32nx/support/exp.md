@@ -19,7 +19,7 @@ We are currently testing updates to our custom FMS LNAV, and other additional im
 
 ### Autopilot and Fly-by-wire
 
-We have made some improvements to the AP and FBW. We **highly recommend** using a sensitivity setting of `+/- 30%` to better simulate the increased force you need to push or pull the real sidestick in the aircraft. Please see the screenshot below for an example:
+We have made some improvements to the AP and FBW. We **highly recommend** using a sensitivity setting of `-30%` to better simulate the increased force you need to push or pull the real sidestick in the aircraft. Please see the screenshot below for an example:
 
 ![sensitivity sample](https://cdn.discordapp.com/attachments/747571985831297145/929335587893309480/unknown.png)
 
