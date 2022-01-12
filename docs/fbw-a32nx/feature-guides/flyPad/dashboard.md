@@ -32,18 +32,17 @@ It has three sections:
 
 ## Usage
 
+### Requesting METAR
+
+You can type in any airport ICAO code into the weather widget to get the corresponding METAR information.
+
+![ICAO Input to Weather Widget](../../assets/flypad/weather-widget-input.png "ICAO Input to Weather Widget")
+
 ### Load From simBrief
 
 ![From simBrief](../../assets/flypad/load-from-simbrief.png)
 
 If you have [configured](settings.md) your simBrief account correctly, you can click the above button to load your last simBrief flight plan into the flyPad. This does not load the flight plan into the MCDU - you need to load it there separately (see [MCDU simBrief Integration](../../../pilots-corner/beginner-guide/preparing-mcdu.md#a32nx-simbrief-integration)) .
-
-### LINK MCDU
-
-![INOP Link MCDU](../../assets/flypad/link-mcdu.png "INOP Link MCDU")
-
-!!! attention ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### Map Zoom and Tools
 
@@ -55,7 +54,7 @@ If you have [configured](settings.md) your simBrief account correctly, you can c
 !!! block ""
     ![Map Tools](../../assets/flypad/map-tools.png "Map Tools"){align=left}
 
-    Distance measurement tools. 
+    Distance measurement tools.
 
     !!! attention ""
         Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
