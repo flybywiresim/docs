@@ -655,6 +655,30 @@ TEMPLATE
 
 ---
 
+## FBW Installer Issue
+
+??? failure "Livery Module Error"
+    ### Livery Module Error
+
+    !!! tip ""
+        *Affects Installer Downloads*
+
+    ^^Description^^
+
+    In certain situations the A32NX may fail to update and display `Retrying livery module` text alongside `Error`.
+
+    ![sample installer image](https://media.discordapp.net/attachments/926586416820011098/929800696302276718/unknown.png)
+
+    ^^Root Cause^^
+
+    Small issue with our installer and the A32NX files
+
+    ^^Possible Solution or Workaround^^
+
+    Please delete the flybywire folder in your community folder and redownload the aircraft.
+
+---
+
 ## Common MSFS Issues impacting all Aircraft
 
 ??? failure "Performance Degradation In-Flight"
