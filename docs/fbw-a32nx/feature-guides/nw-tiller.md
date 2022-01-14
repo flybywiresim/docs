@@ -75,9 +75,9 @@ Use these or similar mappings on your controller or keyboard:
 
 ![MSFS Controller Options Keyboard Mapping](../assets/nw-tiller/handwheel-keyboard-mapping.png "MSFS Controller Options Keyboard Mapping"){loading=lazy}
 
-Decrease will turn the tiller and nose wheel to the left.
-
 Increase will turn the tiller and nose wheel to the right.
+
+Decrease will turn the tiller and nose wheel to the left.
 
 If you use externally configured controls using SPAD.neXt, FSUIPC or Axis and Ohs you can use the `SIMCONNECT:STEERING_DEC` and `SIMCONNECT:STEERING_INC` events.
 
