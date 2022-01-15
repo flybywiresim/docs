@@ -556,8 +556,6 @@ TEMPLATE
     !!! tip ""
         *Affected versions: Stable, Development*
 
-        **Note:** This is reported on our [Autopilot / Fly-By-Wire Page](../feature-guides/autopilot-fbw.md) and duplicated here for visibility.
-
     ^^Description^^
 
     We highly recommend using a yoke / stick to fly with an axis assigned to fly the A32NX as the "intended experience". Previously, there used to be an issue with associated events in MSFS where the aircraft's ailerons couldn't be controlled with keyboard or button inputs. Therefore the aircraft can't be rolled for left or right turns.
