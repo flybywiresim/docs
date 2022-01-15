@@ -21,7 +21,7 @@ We are currently testing updates to our custom FMS LNAV, and other additional im
 
 We have made some improvements to the AP and FBW. We **highly recommend** using a sensitivity setting of `-30%` to better simulate the increased force you need to push or pull the real sidestick in the aircraft. Please see the screenshot below for an example:
 
-![sensitivity sample](https://cdn.discordapp.com/attachments/747571985831297145/929335587893309480/unknown.png)
+![Custom AP Sensitivity](../assets/feature-guides/sensitivity-custom-ap.png "Custom AP Sensitivity")
 
 ## Known Issues
 
@@ -44,7 +44,7 @@ We have made some improvements to the AP and FBW. We **highly recommend** using 
 - No performance optimization yet
 
 !!! tip "A Quick Note on TCAS Performance"
-    TCAS relative altitude is now based on plane altitude (true altitude) for both airplanes. This should work exactly as intended for MSFS airplanes relative to one another (though not as the IRL TCAS works). It can still be somewhat of an issue when on a network with non-MSFS airplanes. 
+    TCAS relative altitude is now based on plane altitude (true altitude) for both airplanes. This should work exactly as intended for MSFS airplanes relative to one another (though not as the IRL TCAS works). It can still be somewhat of an issue when on a network with non-MSFS airplanes.
 
     The reason for this is that MSFS is the only sim that should correctly compute the true altitude. Depending on the atmospheric conditions, an MSFS airplane flying in the same weather and with the same baro setting as a non-MSFS airplane may be at a different true altitude than the non-MSFS airplane. Said differently, each aircraft could be at the same altitude in their respective simulator, but TCAS would show them at different altitudes.
 
