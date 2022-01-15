@@ -310,26 +310,6 @@ TEMPLATE
 
     Turning the WX off and on or TERR ON ND on and off seems to update the WX on the ND.
 
-??? warning "Ailerons Not Working When Using the Keyboard"
-    ### Ailerons Not Working When Using the Keyboard
-
-    !!! tip ""
-        *Affected versions: Stable*
-
-        **Note:** This is reported on our [Autopilot / Fly-By-Wire Page](../feature-guides/autopilot-fbw.md) and duplicated here for visibility.
-
-    ^^Description^^
-
-    The aircraft's ailerons can't be controlled with keyboard or button inputs. Therefore the aircraft can't be rolled for left or right turns.
-
-    ^^Root Cause^^
-
-    There is currently an issue with the associated events. We highly recommend using a controller with an axis assigned to use the plane.
-
-    ^^Possible Solution or Workaround^^
-
-    - Use the latest Development version where we have introduced a workaround for this issue. ( [#6222](https://github.com/flybywiresim/a32nx/pull/6222) )
-
 ??? warning "Fuel Consumption Too High / Fuel Prediction Too low"
     ### Fuel Consumption
 
@@ -570,6 +550,22 @@ TEMPLATE
 
 ---
 
+??? tip "Ailerons When Using the Keyboard"
+    ### Ailerons When Using the Keyboard
+
+    !!! tip ""
+        *Affected versions: Stable, Development*
+
+        **Note:** This is reported on our [Autopilot / Fly-By-Wire Page](../feature-guides/autopilot-fbw.md) and duplicated here for visibility.
+
+    ^^Description^^
+
+    We highly recommend using a yoke / stick to fly with an axis assigned to fly the A32NX as the "intended experience". Previously, there used to be an issue with associated events in MSFS where the aircraft's ailerons couldn't be controlled with keyboard or button inputs. Therefore the aircraft can't be rolled for left or right turns.
+
+    We have introduced a workaround that is available on both the Stable and Development versions of air aircraft.
+
+    See here -> [#6222](https://github.com/flybywiresim/a32nx/pull/6222)
+
 ??? tip "++ctrl+'E'++ -  Engine Start Unsupported"
     ### ++ctrl+'E'++ -  Engine Start Unsupported
 
@@ -765,6 +761,7 @@ TEMPLATE
 
         It could be anything from a usb drive to a controller. Please try to minimise how many peripherals you have connected.
 
+<!-- Temporary Removal of Issue / Bring Back if detected
 ??? failure "Live Weather Causing CTD"
     ### Live Weather Causing CTD
 
@@ -784,6 +781,8 @@ TEMPLATE
     ^^Additional Information^^
 
     Keep up to date with the follow MSFS forum post - [Current issue with live weather and associated ctd](https://forums.flightsimulator.com/t/current-issue-with-live-weather-and-associated-ctd-and-possibly-black-screen-on-xbox/486177)
+
+-->
 
 ??? failure "Latest Nvidia Driver Causes CTD"
     ### Latest Nvidia Driver Causes CTD
