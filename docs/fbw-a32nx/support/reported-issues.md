@@ -558,11 +558,17 @@ TEMPLATE
 
     ^^Description^^
 
-    We highly recommend using a yoke / stick to fly with an axis assigned to fly the A32NX as the "intended experience". Previously, there used to be an issue with associated events in MSFS where the aircraft's ailerons couldn't be controlled with keyboard or button inputs. Therefore the aircraft can't be rolled for left or right turns.
+    Previously, there used to be an issue with associated events in MSFS where the aircraft's ailerons couldn't be controlled with keyboard or button inputs. This meant the aircraft can't be rolled for left or right turns.
 
     We have introduced a workaround that is available on both the Stable and Development versions of air aircraft.
 
-    See here -> [#6222](https://github.com/flybywiresim/a32nx/pull/6222)
+    See here -> [Github PR #6222](https://github.com/flybywiresim/a32nx/pull/6222)
+
+    {==
+
+     We still highly recommend using a yoke / stick to fly with an axis assigned to fly the A32NX as the "intended experience". 
+
+    ==}
 
 ??? tip "++ctrl+'E'++ -  Engine Start Unsupported"
     ### ++ctrl+'E'++ -  Engine Start Unsupported
