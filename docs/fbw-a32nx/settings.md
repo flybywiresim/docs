@@ -6,7 +6,7 @@
     }
 </style>
 
-This page aims to list a few recommended settings for the Microsoft Flight Simulator before and while using the FlyByWire A32NX.
+This page aims to list a few recommended settings for the Microsoft Flight Simulator, Windows and the A32NX itself before and while using the FlyByWire A32NX.
 
 ## Microsoft Flight Simulator Settings
 
@@ -33,7 +33,9 @@ To ensure optimal compatibility and best functionality of the A32NX features we 
 
 #### Sidestick / Joystick
 
-We **highly recommend** using a sensitivity setting of `-30%` to better simulate the increased force you need to **push or pull** the real sidestick in the aircraft. Please see the screenshot below for an example:
+We **highly recommend** to use a joystick or flight stick when flying any aircraft in a simulator. Keyboard or controller buttons simply do not have the range and sensitivity required for successfully controlling an aircraft.
+
+For the flight stick pitch control (up/backward and down/forward) we recommend using a sensitivity setting of `-30%` to better simulate the increased force you need to **push or pull** the real sidestick in the aircraft. Please see the screenshot below for an example:
 
 ![Custom AP Sensitivity](../assets/feature-guides/sensitivity-custom-ap.png "Custom AP Sensitivity")
 
@@ -43,23 +45,7 @@ For roll (left or right) use what you think is best for you. The above mentioned
 
 For the rudder, which by default also controls the nosewheel in MSFS, we recommend a little bit of sensitivity although linear should also work fine.
 
-If you have an extra axis you can use (e.g. twisting joystick while rudder is on pedals) you can separate the nosewheel steering via tiller from the rudder inputs.
-
-Also see [Nosewheel Tiller Separation](feature-guides/nw-tiller.md)
-
-## Important A32NX Settings
-
-### Intallation With Installer
-
-Always use the FlyByWire Installer to install and update the A32NX add-on.
-
-See our [Installation Guide](installation.md).
-
-### Throttle
-
-Our Custom Autopilot implementation requires that the throttle is calibrated to be able to correctly recognize the detents the A320 autoflight system relies on.
-
-See [Throttle Calibration Guide](feature-guides/flypad/throttle-calibration.md)
+If you have an extra axis on your controllers (e.g. twisting joystick while rudder is on pedals) you can separate the nosewheel steering via tiller from the rudder inputs. See [Nosewheel Tiller Separation](feature-guides/nw-tiller.md)
 
 ## Windows Settings
 
@@ -77,3 +63,18 @@ Some users experience problems with various system in the A32NX. These are cause
 ### Performance Settings
 
 See [Performance Tips](support/performance-tips.md)
+
+## Important A32NX Settings
+
+### Intallation With Installer
+
+Always use the FlyByWire Installer to install and update the A32NX add-on.
+
+See our [Installation Guide](installation.md).
+
+### Throttle
+
+Our Custom Autopilot implementation requires that the throttle is calibrated to be able to correctly recognize the detents the A320 autoflight system relies on.
+
+See [Throttle Calibration Guide](feature-guides/flypad/throttle-calibration.md)
+

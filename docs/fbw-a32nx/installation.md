@@ -99,6 +99,10 @@ Open the zip that you downloaded from one of the links above, and drag the `flyb
 
 See below for the location of your Community folder.
 
+## Recommended Settings for A32NX, MSFS and Windows
+
+See [Recommended Settings](settings.md).
+
 ## Community Folder
 
 ### Microsoft Store and/or Game Pass Edition
