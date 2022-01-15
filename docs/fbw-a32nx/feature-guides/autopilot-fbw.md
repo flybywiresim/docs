@@ -12,7 +12,7 @@
 
 ## Recommended Sensitivity Settings
 
-We have made some improvements to the AP and FBW. We **highly recommend** using a sensitivity setting of `-30%` to better simulate the increased force you need to push or pull the real sidestick in the aircraft. Please see the screenshot below for an example:
+We **highly recommend** using a sensitivity setting of `-30%` to better simulate the increased force you need to push or pull the real sidestick in the aircraft. Please see the screenshot below for an example:
 
 ![Custom AP Sensitivity](../assets/feature-guides/sensitivity-custom-ap.png "Custom AP Sensitivity")
 
