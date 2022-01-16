@@ -14,7 +14,7 @@ This page aims to list a few recommended settings for the Microsoft Flight Simul
 
 Use of DX11 is recommended for best performance due to an issue with some glass cockpit technologies in the DX12 version of the simulator. This is not an FBW issue and we cannot address it for now - please keep in mind DX12 is officially a "beta feature" and thus should not be used unless you know what you are doing.
 
-![MSFS DX11 Setting](assets/settings/msfs-dx11.png "MSFS DX11 Setting")
+![MSFS DX11 Setting](assets/settings/msfs-dx11.png "MSFS DX11 Setting"){loading=lazy}
 
 ### Graphics Settings
 
@@ -24,22 +24,22 @@ If you do not deactivate it it will be harder to click and move switches, knobs 
 
 Set the `Glass Cockpit Refresh Rate` to `Medium` or Low to avoid unnecessary display output calculations which might cause fps loss.
 
-![MSFS Graphic Settings](assets/settings/msfs-settings.png "MSFS Graphic Settings")
+![MSFS Graphic Settings](assets/settings/msfs-settings.png "MSFS Graphic Settings"){loading=lazy}
 
 ### Deactivate MSFS Assistance Features
 
 Please turn off all MSFS Assistance and AI functions while using the A32NX
 To ensure optimal compatibility and best functionality of the A32NX features we recommend to turn all MSFS Assistance and AI features off as they interfere with the A32NX custom systems!
 
-!!! block ""
-    ![MSFS Assistance Options](assets/settings/assistance-options.png "MSFS Assistance Options"){valign=top width=48% loading=lazy}
-    ![MSFS AI Options](assets/settings/ai-options.png "MSFS AI Options"){valign=top width=48% loading=lazy}
+![MSFS Assistance Options](assets/settings/assistance-options.png "MSFS Assistance Options"){loading=lazy}
+
+![MSFS AI Options](assets/settings/ai-options.png "MSFS AI Options"){loading=lazy}
 
 ### Legacy Cockpit Interaction System
 
 We recommend the legacy (previous) method of the Cockpit Interaction System (Menu > General Options > Accessibility).
 
-![MSFS Cockpit Interaction Legacy System](assets/msfs-legacy-controls.png "MSFS Cockpit Interaction Legacy System")
+![MSFS Cockpit Interaction Legacy System](assets/settings/msfs-legacy-controls.png "MSFS Cockpit Interaction Legacy System"){loading=lazy}
 
 ### Controllers
 
@@ -49,7 +49,7 @@ We **highly recommend** to use a joystick or flight stick when flying any aircra
 
 For the flight stick pitch control (up/backward and down/forward) we recommend using a sensitivity setting of `-30%` to better simulate the increased force you need to **push or pull** the real sidestick in the aircraft. Please see the screenshot below for an example:
 
-![Custom AP Sensitivity](../assets/feature-guides/sensitivity-custom-ap.png "Custom AP Sensitivity")
+![Custom AP Sensitivity](../assets/feature-guides/sensitivity-custom-ap.png "Custom AP Sensitivity"){loading=lazy width=30%}
 
 For roll (left or right) use what you think is best for you. The above mentioned -30% is a good starting point.
 
@@ -70,7 +70,7 @@ Some users experience problems with various system in the A32NX. These are cause
 - Make sure the check mark next to Beta: Use UTF-8 for worldwide language support is selected.
 - Click OK and ~~restart your computer~~~.
 
-![Windows Region UTF8 Support Setting](assets/settings/utf8-windows-setting.png "Windows Region UTF8 Support Setting")
+![Windows Region UTF8 Support Setting](assets/settings/utf8-windows-setting.png "Windows Region UTF8 Support Setting"){loading=lazy}
 
 ### Performance Settings
 
