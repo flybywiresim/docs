@@ -57,7 +57,7 @@ If you have an extra axis on your controllers (e.g. twisting joystick while rudd
 
 ### UTF8 Support
 
-Some users experience problems with various system in the A32NX. These are caused by an issue within MSFS which requires to use the UTF8 REgion setting in Windows.
+Some users experience problems with various system in the A32NX. These are caused by an issue within MSFS which requires to use the UTF8 Region setting in Windows.
 
 - Open Windows Control Panel -> Region.
 - Go to the Administrative tab and click Change system locale
