@@ -550,26 +550,6 @@ TEMPLATE
 
 ---
 
-??? tip "Ailerons When Using the Keyboard"
-    ### Ailerons When Using the Keyboard
-
-    !!! tip ""
-        *Affected versions: Stable, Development*
-
-    ^^Description^^
-
-    Previously, there used to be an issue with associated events in MSFS where the aircraft's ailerons couldn't be controlled with keyboard or button inputs. This meant the aircraft can't be rolled for left or right turns.
-
-    We have introduced a workaround that is available on both the Stable and Development versions of air aircraft.
-
-    See here -> [Github PR #6222](https://github.com/flybywiresim/a32nx/pull/6222)
-
-    {==
-
-     We still highly recommend using a yoke / stick to fly with an axis assigned to fly the A32NX as the "intended experience". 
-
-    ==}
-
 ??? tip "++ctrl+'E'++ -  Engine Start Unsupported"
     ### ++ctrl+'E'++ -  Engine Start Unsupported
 
@@ -655,7 +635,7 @@ TEMPLATE
 
 ---
 
-## FBW Installer Issue
+## FBW Installer Issues
 
 ??? failure "Livery Module Error"
     ### Livery Module Error
@@ -676,6 +656,8 @@ TEMPLATE
     ^^Possible Solution or Workaround^^
 
     Please delete the flybywire folder in your community folder and redownload the aircraft.
+
+    This should only be necessary once.
 
 ---
 
@@ -1045,6 +1027,9 @@ TEMPLATE
 
     !!! tip ""
         Unless stated otherwise, all fixed issues are first released on our development version.
+
+    - Ailerons now work when using the keyboard. See -> [Github PR #6222](https://github.com/flybywiresim/a32nx/pull/6222)
+        - We still highly recommend using a yoke / stick to fly with an axis assigned to fly the A32NX as the "intended experience". 
 
     - Printing METAR causes CTD
 
