@@ -14,7 +14,7 @@ This page aims to list a few recommended settings for the Microsoft Flight Simul
 
 Use of DX11 is recommended for best performance due to an issue with some glass cockpit technologies in the DX12 version of the simulator. This is not an FBW issue and we cannot address it for now - please keep in mind DX12 is officially a "beta feature" and thus should not be used unless you know what you are doing.
 
-![MSFS DX11 Setting](assets/msfs-dx11.png "MSFS DX11 Setting")
+![MSFS DX11 Setting](assets/settings/msfs-dx11.png "MSFS DX11 Setting")
 
 ### Graphics Settings
 
@@ -24,7 +24,7 @@ If you do not deactivate it it will be harder to click and move switches, knobs 
 
 Set the `Glass Cockpit Refresh Rate` to `Medium` or Low to avoid unnecessary display output calculations which might cause fps loss.
 
-![MSFS Graphic Settings](assets/msfs-settings.png "MSFS Graphic Settings")
+![MSFS Graphic Settings](assets/settings/msfs-settings.png "MSFS Graphic Settings")
 
 ### Deactivate MSFS Assistance Features
 
