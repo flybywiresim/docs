@@ -22,14 +22,13 @@ Turn off the `Lens Correction` setting in the Graphics settings page.
 
 If you do not deactivate it it will be harder to click and move switches, knobs and buttons in the cockpit.
 
-Set the `Glass Cockpit Refresh Rate` to `Medium` or Low to avoid unnecessary display output calculations which might cause fps loss.
+Set the `Glass Cockpit Refresh Rate` to `Medium` or `Low` to avoid unnecessary display calculations which might cause fps loss.
 
 ![MSFS Graphic Settings](assets/settings/msfs-settings.png "MSFS Graphic Settings"){loading=lazy}
 
 ### Deactivate MSFS Assistance Features
 
-Please turn off all MSFS Assistance and AI functions while using the A32NX
-To ensure optimal compatibility and best functionality of the A32NX features we recommend to turn all MSFS Assistance and AI features off as they interfere with the A32NX custom systems!
+Please turn off all MSFS Assistance and AI functions while using the A32NX as they interfere with the A32NX custom systems!
 
 ![MSFS Assistance Options](assets/settings/assistance-options.png "MSFS Assistance Options"){loading=lazy}
 
@@ -68,7 +67,7 @@ Some users experience problems with various system in the A32NX. These are cause
 - Open Windows Control Panel -> Region.
 - Go to the Administrative tab and click Change system locale
 - Make sure the check mark next to Beta: Use UTF-8 for worldwide language support is selected.
-- Click OK and ~~restart your computer~~~.
+- Click OK and ~~restart your computer~~.
 
 ![Windows Region UTF8 Support Setting](assets/settings/utf8-windows-setting.png "Windows Region UTF8 Support Setting"){loading=lazy}
 
