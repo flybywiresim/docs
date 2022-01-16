@@ -13,9 +13,6 @@
 }
 
 .container {
-    display: flex;
-    flex-direction: row;
-    padding-left: 5rem;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     background: url("../../assets/hero-image.jpg") #1d1e26;
@@ -112,7 +109,7 @@
 @media screen and (max-width:480px) {
     .container {
         padding-top: 1.5rem;
-        background: url("../../assets/hero-image.jpg"), #4e4e4e;
+        background: url("../../assets/hero-image.jpg"), #1d1e26;
         background-repeat: no-repeat;
         background-size: cover;
         background-blend-mode: overlay;
