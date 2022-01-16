@@ -14,11 +14,17 @@ This page aims to list a few recommended settings for the Microsoft Flight Simul
 
 Use of DX11 is recommended for best performance due to an issue with some glass cockpit technologies in the DX12 version of the simulator. This is not an FBW issue and we cannot address it for now - please keep in mind DX12 is officially a "beta feature" and thus should not be used unless you know what you are doing.
 
-### Lens Correction Setting
+![MSFS DX11 Setting](assets/msfs-dx11.png "MSFS DX11 Setting")
 
-Turn off the Lens Correction setting in the Graphics settings page.
+### Graphics Settings
+
+Turn off the `Lens Correction` setting in the Graphics settings page.
 
 If you do not deactivate it it will be harder to click and move switches, knobs and buttons in the cockpit.
+
+Set the `Glass Cockpit Refresh Rate` to `Medium` or Low to avoid unnecessary display output calculations which might cause fps loss.
+
+![MSFS Graphic Settings](assets/msfs-settings.png "MSFS Graphic Settings")
 
 ### Deactivate MSFS Assistance Features
 
@@ -26,8 +32,8 @@ Please turn off all MSFS Assistance and AI functions while using the A32NX
 To ensure optimal compatibility and best functionality of the A32NX features we recommend to turn all MSFS Assistance and AI features off as they interfere with the A32NX custom features!
 
 !!! block ""
-    ![MSFS Assistance Options](assets/assistance-options.png "MSFS Assistance Options"){valign=top width=48% loading=lazy}
-    ![MSFS AI Options](assets/ai-options.png "MSFS AI Options"){valign=top width=48% loading=lazy}
+    ![MSFS Assistance Options](assets/settings/assistance-options.png "MSFS Assistance Options"){valign=top width=48% loading=lazy}
+    ![MSFS AI Options](assets/settings/ai-options.png "MSFS AI Options"){valign=top width=48% loading=lazy}
 
 ### Controllers
 
@@ -58,7 +64,7 @@ Some users experience problems with various system in the A32NX. These are cause
 - Make sure the check mark next to Beta: Use UTF-8 for worldwide language support is selected.
 - Click OK and ~~restart your computer~~~.
 
-![Windows Region UTF8 Support Setting](assets/utf8-windows-setting.png "Windows Region UTF8 Support Setting")
+![Windows Region UTF8 Support Setting](assets/settings/utf8-windows-setting.png "Windows Region UTF8 Support Setting")
 
 ### Performance Settings
 
