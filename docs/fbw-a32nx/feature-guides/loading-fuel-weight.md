@@ -268,6 +268,6 @@ Fuel loading can also be done via our EFB which has a great UI to see the status
 
 Once on the `W&B` page (2/2) you can adjust payload here or accept the numbers provided to you via your simBrief OFP.
 
-- Press LSK5R to payload load the data from the simbrief OFP.
-- Press LSK6R to then load your planned payload and pax.
+- Press LSK5R to pre-load the payload data from the simbrief OFP.
+- Press LSK6R to then load your payload and pax into the aircraft.
 - You can verify the weight has changed by looking at the lower ECAM towards the lower right-hand side.
