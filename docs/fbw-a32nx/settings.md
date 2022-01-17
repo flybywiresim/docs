@@ -8,6 +8,8 @@
 
 This page aims to list a few recommended settings for the Microsoft Flight Simulator, Windows and the A32NX itself before and while using the FlyByWire A32NX.
 
+If you are new to the FlyByWire A32NX please also make sure to read the [A32NX Beginner Guide](../pilots-corner/beginner-guide/overview.md) especially [Preflight](../pilots-corner/beginner-guide/preflight.md).
+
 ## Microsoft Flight Simulator Settings
 
 ### Use DX11
@@ -42,6 +44,12 @@ We recommend the legacy (previous) method of the Cockpit Interaction System (Men
 
 ### Controllers
 
+{==
+
+Sensitivity settings are highly hardware depended and can be different for each controller. The below recommendations are therefore initial starting points and it might be necessary to adapt these for your controller and your preference.
+
+==}
+
 #### Sidestick / Joystick
 
 We **highly recommend** to use a joystick or flight stick when flying any aircraft in a simulator. Keyboard or controller buttons simply do not have the range and sensitivity required for successfully controlling an aircraft.
@@ -56,7 +64,13 @@ For roll (left or right) use what you think is best for you. The above mentioned
 
 For the rudder, which by default also controls the nosewheel in MSFS, we recommend a little bit of sensitivity although linear should also work fine.
 
-If you have an extra axis on your controllers (e.g. twisting joystick while rudder is on pedals) you can separate the nosewheel steering via tiller from the rudder inputs. See [Nosewheel Tiller Separation](feature-guides/nw-tiller.md)
+If you have an extra axis on your controllers (e.g. twisting joystick while rudder is on pedals) you can separate the nosewheel steering via tiller from the rudder inputs. See [Nosewheel Tiller Separation](feature-guides/nw-tiller.md).
+
+#### Throttle
+
+Throttle should have linear sensitivity.
+
+See [Throttle Calibration Guide](feature-guides/flypad/throttle-calibration.md).
 
 ## Windows Settings
 
