@@ -21,7 +21,7 @@ Please follow the information on this page to install the FlyByWire Simulations 
 !!! danger "MSFS Marketplace Version Discontinued"
     Please uninstall any marketplace version.
 
-    You can reference [this issue](support/reported-issues.md#installation-version-conflicts) in our reported issues page for more details.
+    You can reference [this issue](support/reported-issues.md#invisible-aircraft) in our reported issues page for more details.
 
 ---
 
