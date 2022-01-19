@@ -58,7 +58,7 @@
 .hero .md-button:focus,
 .hero .md-button:hover {
     background-color: var(--md-accent-fg-color);
-    color: #ffffff;
+    color: black;
     border-color: var(--md-accent-fg-color)
 }
 
