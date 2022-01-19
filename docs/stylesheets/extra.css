@@ -1,10 +1,11 @@
+@import url(https://fonts.googleapis.com/css2?family=Manrope&display=swap);
 /*Primary Thematic Colors*/
 :root {
   --md-primary-fg-color:        #00E0FE;
   --md-primary-fg-color--dark:  hsl(216,32%,17%);
   --md-primary-fg-color--light: #00E0FE;
   --md-accent-fg-color:         #00C2CB;
-  --header-font:                "Manrope";
+  --header-font:                Manrope;
 }
 /* Color Notes
 light hsla(216,32%,17%,1)
@@ -14,12 +15,6 @@ diff rgba(27,36,52,1)
 
 [data-md-color-scheme="slate"] {
   --md-default-bg-color: rgb(23,30,44);
-}
-
-/*Font Override*/
-@font-face {
-  font-family: "Manrope";
-  src: url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
 }
 
 /*Header Modifications*/
@@ -33,9 +28,6 @@ diff rgba(27,36,52,1)
   font-family: var(--header-font), sans-serif;
   font-weight: 400;
   size: 2em;
-}
-h1 {
-  /*text-transform: uppercase;*/
 }
 h2 {
   color: #00E0FE; /*Cyan*/
