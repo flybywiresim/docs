@@ -39,6 +39,12 @@ h4 {
 .md-typeset h5 {
   color: hsl(0, 0%, 100%);
 }
+.md-ellipsis {
+  font-family: var(--header-font), sans-serif;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
 
 /* highlighting */
 .md-typeset mark { /* ==text== */
