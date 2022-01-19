@@ -58,7 +58,7 @@ We **highly recommend** to use a joystick or flight stick when flying any aircra
 
 For the flight stick pitch control (up/backward and down/forward) we recommend using a sensitivity setting of `-30%` to better simulate the increased force you need to **push or pull** the real sidestick in the aircraft. Please see the screenshot below for an example:
 
-![Custom AP Sensitivity](../assets/feature-guides/sensitivity-custom-ap.png "Custom AP Sensitivity"){loading=lazy width=30%}
+![Custom AP Sensitivity](assets/feature-guides/sensitivity-custom-ap.png "Custom AP Sensitivity"){loading=lazy width=30%}
 
 For roll (left or right) use what you think is best for you. The above mentioned -30% is a good starting point.
 
@@ -72,7 +72,7 @@ On the Development version if you have an extra axis on your controllers (e.g. t
 
 Throttle should have linear sensitivity.
 
-See [Throttle Calibration Guide](feature-guides/flypad/throttle-calibration.md).
+See [Throttle Calibration Guide](feature-guides/flyPad/throttle-calibration.md).
 
 ## Windows Settings
 
@@ -103,5 +103,5 @@ See our [Installation Guide](installation.md).
 
 Our Custom Autopilot implementation requires that the throttle is calibrated to be able to correctly recognize the detents the A320 autoflight system relies on.
 
-See [Throttle Calibration Guide](feature-guides/flypad/throttle-calibration.md)
+See [Throttle Calibration Guide](feature-guides/flyPad/throttle-calibration.md)
 
