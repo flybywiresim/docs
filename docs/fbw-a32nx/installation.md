@@ -21,7 +21,7 @@ Please follow the information on this page to install the FlyByWire Simulations 
 !!! danger "MSFS Marketplace Version Discontinued"
     Please uninstall any marketplace version.
 
-    You can reference [this issue](support/reported-issues.md#installation-version-conflicts) in our reported issues page for more details.
+    You can reference [this issue](support/reported-issues.md#invisible-aircraft) in our reported issues page for more details.
 
 ---
 
@@ -98,6 +98,10 @@ You can send us logs to our [Discord](https://discord.gg/flybywire){target=new} 
 Open the zip that you downloaded from one of the links above, and drag the `flybywire-aircraft-a320-neo` folder inside the zip into your Community folder.
 
 See below for the location of your Community folder.
+
+## Recommended Settings for A32NX, MSFS and Windows
+
+See [Recommended Settings](settings.md).
 
 ## Community Folder
 
