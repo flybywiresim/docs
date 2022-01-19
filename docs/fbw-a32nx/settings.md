@@ -93,7 +93,7 @@ See [Performance Tips](support/performance-tips.md)
 
 ## Important A32NX Settings
 
-### Intallation With Installer
+### Installation With FBW Installer
 
 Always use the FlyByWire Installer to install and update the A32NX add-on.
 
