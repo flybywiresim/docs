@@ -59,8 +59,6 @@ The work folder can be found here:
 
 ⚠️ When throttle sensitivity is changed, the throttle configuration needs to be adapted in most cases.
 
-:information_source: It is recommended that the sidestick uses a linear sensitivity with only dead zone set appropriately.
-
 :information_source: It is recommended to use a linear sensitivity for the throttle axis.
 
 :information_source: The throttle configuration can be adapted using the EFB.
