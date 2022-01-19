@@ -19,7 +19,7 @@ diff rgba(27,36,52,1)
 /*Font Override*/
 @font-face {
   font-family: "Manrope";
-  src: "https://fonts.googleapis.com/css?family=Manrope";
+  src: url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
 }
 
 /*Header Modifications*/
