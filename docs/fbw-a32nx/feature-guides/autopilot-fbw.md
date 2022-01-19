@@ -12,6 +12,14 @@
 
 ## Recommended Sensitivity Settings
 
+{==
+
+Sensitivity settings are highly hardware depended and can be different for each controller. The below recommendations are therefore initial starting points and it might be necessary to adapt these for your controller and your preference.
+
+==}
+
+!!! warning "Not applicable for the Stable version."
+
 We **highly recommend** using a sensitivity setting of `-30%` to better simulate the increased force you need to push or pull the real sidestick in the aircraft. Please see the screenshot below for an example:
 
 ![Custom AP Sensitivity](../assets/feature-guides/sensitivity-custom-ap.png "Custom AP Sensitivity")
