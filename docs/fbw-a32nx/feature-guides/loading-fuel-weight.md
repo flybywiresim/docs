@@ -119,7 +119,7 @@ Get our [simBrief Profile](../installation.md#simbrief-airframe) for the Develop
 
 !!! note "Additional Payload Information"
     - Passenger weight and luggage is currently fixed to 84kg + 20kg and cannot be changed. Changes in the simbrief airframe will be ignored.
-    - Maximum Payload is determined by the lowest of these calculation:
+    - Maximum payload is determined by the lowest of these calculations:
         - MZFW - OEW, or  64300 kg - 42500 kg = 21800 kg
         - MTOW  - empty weight - (fuel load - taxi out fuel), or 79000 - 42500 - (fuel load - taxi out fuel)
         - MLW - empty weight - (all reserve/contingency fuel + extra fuel) , or 67400 - 42500 - (all reserve fuel/contingency/extra fuel).
