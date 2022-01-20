@@ -99,7 +99,7 @@ Get our [simBrief Profile](../installation.md#simbrief-airframe) for the Develop
     - 1x Center Tank: 6622kg
 
 #### Passengers
-- Max Passenger Capacity: 174pax * 104kg = 18096kg
+- Max Passenger Capacity: 18096kg (174 seats * 104kg)
 - Passenger Weight: 104 (in kilograms)
     - 84 kg for passenger (including clothing and carry-on bags)
     - 20 kg for checked luggage
