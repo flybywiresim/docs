@@ -93,16 +93,28 @@ Get our [simBrief Profile](../installation.md#simbrief-airframe) for the Develop
 - Passenger Weight: 104 (in kilograms)
     - 84 kg for passenger (including clothing and carry-on bags)
     - 20 kg for checked luggage
+- Max Passenger Capacity: 174 * 104kg = 18096kg
 - Passenger compartments: 4
     - ECONOMY ROWS 1-6 (seats: 36 max: 6670lbs/3024kg)
     - ECONOMY ROWS 7-13 (seats: 42 max: 7780lb/3530kg)
     - ECONOMY ROWS 14-21 (seats: 48 max: 8880lb/4032kg)
     - ECONOMY ROWS 22-29 (seats: 48 max: 8880lb/4032kg)
+- Max Cargo Capacity: 20.800lb/9435kg
 - Cargo Compartments: 4
-    - FWD BAGGAGE/CONTAINER (max: 5600lb/2540kg)
-    - AFT CONTAINER (max: 4000lb/1815kg)
-    - AFT BAGGAGE (max: 3500lb/1585kg)
-    - AFT BULK/LOOSE (max: 2750lb/1245kg)
+    - FWD BAGGAGE/CONTAINER (max: 7500lb/3402kg)
+    - AFT CONTAINER (max: 5350lb/2426kg)
+    - AFT BAGGAGE (max: 4650lb/2110kg)
+    - AFT BULK/LOOSE (max: 3300lb/1497kg)
+
+!!! note "Additional Fuel and Payload Information"
+    - Passenger weight and luggage is currently fixed to 84kg + 20kg and cannot be changed. Changes in the simbrief airframe will be ignored.
+    - Maximum Payload is determined by the lowest of these calculation:
+        - MZFW - OEW, or  64300 kg - 42500 kg = 21800 kg
+        - MTOW  - empty weight - (fuel load - taxi out fuel), or 79000 - 42500 - (fuel load - taxi out fuel)
+        - MLW - empty weight - (all reserve/contingency fuel + extra fuel) , or 67400 - 42500 - (all reserve fuel/contingency/extra fuel).
+    - When manually loading the payload, the MLW and MTOW limits are currently not checked and are the responsibility of the pilot.
+    - Simbrief does manage payload limits by reducing the number of bags from passengers automatically. Due to the fixed values for passengers and luggage the A32NX does still load the full 104kg per passenger. This will be improved in the near future.
+    - If Simbrief limits the extra cargo due to payload limits this is picked up by the A32NX and the correct weights should be loaded.
 
 ### Loading Fuel and Weight
 
