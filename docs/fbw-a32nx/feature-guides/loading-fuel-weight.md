@@ -92,11 +92,11 @@ Get our [simBrief Profile](../installation.md#simbrief-airframe) for the Develop
 - MLW (Max Landing Weight): 67.400 (in kilograms)
 
 #### Fuel
-- Max Fuel Capacity: 19.046 (in kilograms)
+- Max Fuel Capacity: 41989lbs/19.046kg
 - Fuel tanks: 5
-    - 2x Outer Tanks: 693kg each
-    - 2x Inner Tanks: 5519kg each
-    - 1x Center Tank: 6622kg
+    - 2x Outer Tanks: 1528lbs/693kg each
+    - 2x Inner Tanks: 12167lbs/5519kg each
+    - 1x Center Tank: 14599lbs/6622kg
 
 #### Passengers
 - Max Passenger Capacity: 18096kg (174 seats * 104kg)
