@@ -1,6 +1,8 @@
 # FlyByWire A32NX API
 
-Currently the documentation regarding all custom variables and custom events is hosted on our project's github: [:fontawesome-brands-github:{: .github } -  **Docs section on Github**](https://github.com/flybywiresim/a32nx/tree/master/docs){target=new}
+Flight-Deck API Documentation: [Flight-Deck API](../../pilots-corner/a32nx-briefing/a32nx_api.md)
+
+In addition to the above documentation all custom variables and custom events are documented by our developers on our project's github: [:fontawesome-brands-github:{: .github } -  **Docs section on Github**](https://github.com/flybywiresim/a32nx/tree/master/docs){target=new}
 
 ## Docs:
 
