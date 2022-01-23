@@ -4,7 +4,7 @@ This page shows you a collection of common flight simulation hardware which can 
 
 To make these controllers fully compatible you need to replace their default drivers with the appropriate software. See [here](index.md#solutions).
 
-The examples below are configured via SPAD.neXt and the configuration documentation is linked below each controller.
+The examples below are configured via SPAD.neXt and the configuration documentation is linked below.
 
 With SPAD.neXt you can also download complete profiles for aircraft and hardware controllers. For the FlyByWire A32NX and the controllers below this profile is used (which is downloadable from within SPAD.neXt):
 
@@ -20,13 +20,9 @@ To build your own profile you can use our Flight-Deck API Documentation: [Flight
 
 ![Logitech Switch Panel](../assets/api-guide/logitech-switch-panel.png "Logitech Switch Panel"){loading=lazy}
 
-[](https://www.logitechg.com/en-us/products/flight/flight-simulator-switch-panel.945-000030.html#product-tech-specs){target=new}
-
 ### Logitech Multi Panel
 
 ![Logitech Multi Panel](../assets/api-guide/logitech-multi-panel.png "Logitech Multi Panel"){loading=lazy}
-
-[](https://www.logitechg.com/en-us/products/flight/flight-simulator-autopilot-multipanel.945-000028.html){target=new}
 
 ### Thrustmaster TCA Quadrant Airbus Edition
 
