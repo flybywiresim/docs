@@ -10,9 +10,11 @@ With SPAD.neXt you can also download complete profiles for aircraft and hardware
 
 ![SPAD.eXt A32NX Profile](../assets/api-guide/spad-profile1.png "SPAD.eXt A32NX Profile"){loading=lazy}
 
-Find the complete documentation for these controllers in this single file: [A32NX FBW MSFS2020.pdf](../assets/api-guide/A32NX%20FBW%20MSFS2020.pdf){target=new}
+Find the complete SPAD documentation for these controllers in this single file: [A32NX FBW MSFS2020.pdf](../assets/api-guide/A32NX%20FBW%20MSFS2020.pdf){target=new}
 
 This profile is maintained by Cdr_Maverick#6475.
+
+To build you own profile you can use our Flight-Deck API Documentation: [Flight-Deck API](../../pilots-corner/a32nx-briefing/a32nx_api.md)
 
 ### Logitech Switch Panel
 
@@ -20,36 +22,26 @@ This profile is maintained by Cdr_Maverick#6475.
 
 [](https://www.logitechg.com/en-us/products/flight/flight-simulator-switch-panel.945-000030.html#product-tech-specs){target=new}
 
-[A32NX FBW MSFS2020 Pro Switch Panel.pdf](../assets/api-guide/A32NX%20FBW%20MSFS2020%20Pro%20Switch%20Panel.pdf){target=new}
-
 ### Logitech Multi Panel
 
 ![Logitech Multi Panel](../assets/api-guide/logitech-multi-panel.png "Logitech Multi Panel"){loading=lazy}
 
 [](https://www.logitechg.com/en-us/products/flight/flight-simulator-autopilot-multipanel.945-000028.html){target=new}
 
-[A32NX FBW MSFS2020 Multi Panel.pdf](../assets/api-guide/A32NX%20FBW%20MSFS2020%20Multi%20Panel.pdf){target=new}
-
 ### Thrustmaster TCA Quadrant Airbus Edition
 
 ![thrustmaster-tca-quadrant.png](../assets/api-guide/thrustmaster-tca-quadrant.png){loading=lazy}
 
-[A32NX FBW MSFS2020 TCA-Q Addon.pdf](../assets/api-guide/A32NX%20FBW%20MSFS2020%20TCA-Q%20Addon.pdf){target=new}
-
 !!! tip ""
-    Remember to calibrate you throttle detents for this throttle: [TCA Throttle Calibration](../feature-guides/flyPad/throttle-calibration.md#thrustmaster-tca-or-similar-with-reverser-on-axis)
+    Remember to calibrate you throttle detents for this throttle: [TCA Throttle Calibration](../feature-guides/flyPad/throttle-calibration.md#thrustmaster-tca-throttle)
 
 ### Thrustmaster TCA Throttle Add-On TCA Quadrant Add-on Airbus Edition
 
 ![Thrustmaster TCA Quadrant Add-on Airbus Edition](../assets/api-guide/thrustmaster-tca-quadrant-add-on.png "Thrustmaster TCA Quadrant Add-on Airbus Edition"){loading=lazy}
 
-[A32NX FBW MSFS2020 TCA-Q Addon.pdf](../assets/api-guide/A32NX%20FBW%20MSFS2020%20TCA-Q%20Addon.pdf){target=new}
-
 ### Elgato Stream Deck
 
 ![Elgato Stream Deck](../assets/api-guide/stream-deck.png "Elgato Stream Deck"){loading=lazy}
-
-[A32NX FBW MSFS2020 Stream Deck XL.pdf](../assets/api-guide/A32NX%20FBW%20MSFS2020%20Stream%20Deck%20XL.pdf){target=new}
 
 ### Thrustmaster TCA Sidestick Airbus Edition or T.16000M FCS
 
@@ -61,7 +53,7 @@ This profile is maintained by Cdr_Maverick#6475.
 
 These flight sticks have normal flight surface controls (pitch, roll and yaw) but they also have 10 configurable buttons, 8-way hat switch and a slider.
 
-We recommend using the Microsoft Flight Simulator normal mapping for the flight surfaces. This includes sensitivity settings which are not available in SPAD.
+We recommend using the Microsoft Flight Simulator normal mapping for the flight surfaces.
 
 ![flight-control-mapping](../assets/api-guide/flight-control-mapping.png)
 
@@ -72,7 +64,7 @@ The rest of the buttons can be mapped as you require it.
 ![Thrustmaster TWCS Throttle](../assets/api-guide/thrustmaster-twcs-throttle.png "Thrustmaster TWCS Throttle"){loading=lazy}
 
 !!! tip ""
-    Remember to calibrate you throttle detents for this throttle: [TWCS Throttle Calibration](../feature-guides/flyPad/throttle-calibration.md#thrustmaster-twcs-or-similar-without-reverser-on-axis-and-no-detents)
+    Remember to calibrate you throttle detents for this throttle: [TWCS Throttle Calibration](../feature-guides/flyPad/throttle-calibration.md#thrustmaster-twcs-throttle)
 
 The rest of the buttons can be mapped as you require it.
 
