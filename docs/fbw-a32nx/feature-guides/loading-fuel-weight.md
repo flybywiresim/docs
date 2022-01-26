@@ -85,11 +85,11 @@ Please select the correct version below.
 Get our [simBrief Profile](../installation.md#simbrief-airframe) for the Development and Experimental versions.
 
 #### Weights
-- OEW (Empty Weight): 42.500 (in kilograms)
+- OEW (Empty Weight): 42500 (in kilograms)
     - Also referred to as DOW (Dry Operating Weight) which can be seen in other simBrief OFP formats such as EZY
-- MZFW (Max Zero Fuel Weight): 64.300 (in kilograms)
-- MTOW (Max Takeoff Weight): 79.000 (in kilograms)
-- MLW (Max Landing Weight): 67.400 (in kilograms)
+- MZFW (Max Zero Fuel Weight): 64300 (in kilograms)
+- MTOW (Max Takeoff Weight): 79000 (in kilograms)
+- MLW (Max Landing Weight): 67400 (in kilograms)
 
 #### Fuel
 - Max Fuel Capacity: 41989lbs/19.046kg
@@ -110,7 +110,7 @@ Get our [simBrief Profile](../installation.md#simbrief-airframe) for the Develop
     - ECONOMY ROWS 22-29 (seats: 48 max: 8880lb/4032kg)
 
 #### Cargo
-- Max Cargo Capacity: 20.800lb/9435kg
+- Max Cargo Capacity: 20800lb/9435kg
 - Cargo Compartments: 4
     - FWD BAGGAGE/CONTAINER (max: 7500lb/3402kg)
     - AFT CONTAINER (max: 5350lb/2426kg)
