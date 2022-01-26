@@ -84,12 +84,22 @@ Please select the correct version below.
 
 Get our [simBrief Profile](../installation.md#simbrief-airframe) for the Development and Experimental versions.
 
-- OEW (Empty Weight): 42.500 (in kilograms)
+#### Weights
+- OEW (Empty Weight): 42500 (in kilograms)
     - Also referred to as DOW (Dry Operating Weight) which can be seen in other simBrief OFP formats such as EZY
-- MZFW (Max Zero Fuel Weight): 64.300 (in kilograms)
-- MTOW (Max Takeoff Weight): 79.000 (in kilograms)
-- MLW (Max Landing Weight): 67.400 (in kilograms)
-- Max Fuel Capacity: 19.045 (in kilograms)
+- MZFW (Max Zero Fuel Weight): 64300 (in kilograms)
+- MTOW (Max Takeoff Weight): 79000 (in kilograms)
+- MLW (Max Landing Weight): 67400 (in kilograms)
+
+#### Fuel
+- Max Fuel Capacity: 41989lbs/19.046kg
+- Fuel tanks: 5
+    - 2x Outer Tanks: 1528lbs/693kg each
+    - 2x Inner Tanks: 12167lbs/5519kg each
+    - 1x Center Tank: 14599lbs/6622kg
+
+#### Passengers
+- Max Passenger Capacity: 18096kg (174 seats * 104kg)
 - Passenger Weight: 104 (in kilograms)
     - 84 kg for passenger (including clothing and carry-on bags)
     - 20 kg for checked luggage
@@ -98,11 +108,24 @@ Get our [simBrief Profile](../installation.md#simbrief-airframe) for the Develop
     - ECONOMY ROWS 7-13 (seats: 42 max: 7780lb/3530kg)
     - ECONOMY ROWS 14-21 (seats: 48 max: 8880lb/4032kg)
     - ECONOMY ROWS 22-29 (seats: 48 max: 8880lb/4032kg)
+
+#### Cargo
+- Max Cargo Capacity: 20800lb/9435kg
 - Cargo Compartments: 4
-    - FWD BAGGAGE/CONTAINER (max: 5600lb/2540kg)
-    - AFT CONTAINER (max: 4000lb/1815kg)
-    - AFT BAGGAGE (max: 3500lb/1585kg)
-    - AFT BULK/LOOSE (max: 2750lb/1245kg)
+    - FWD BAGGAGE/CONTAINER (max: 7500lb/3402kg)
+    - AFT CONTAINER (max: 5350lb/2426kg)
+    - AFT BAGGAGE (max: 4650lb/2110kg)
+    - AFT BULK/LOOSE (max: 3300lb/1497kg)
+
+!!! note "Additional Payload Information"
+    - Passenger weight and luggage is currently fixed to 84kg + 20kg and cannot be changed. Changes in the simbrief airframe will be ignored.
+    - Maximum payload is determined by the lowest of these calculations:
+        - MZFW - OEW, or  64300 kg - 42500 kg = 21800 kg
+        - MTOW  - empty weight - (fuel load - taxi out fuel), or 79000 - 42500 - (fuel load - taxi out fuel)
+        - MLW - empty weight - (all reserve/contingency fuel + extra fuel) , or 67400 - 42500 - (all reserve fuel/contingency/extra fuel).
+    - When manually loading the payload, the MLW and MTOW limits are currently not checked and are the responsibility of the pilot.
+    - Simbrief does manage payload limits by reducing the number of bags from passengers automatically. Due to the fixed values for passengers and luggage the A32NX does still load the full 104kg per passenger. This will be improved in the near future.
+    - If Simbrief limits the extra cargo due to payload limits this is picked up by the A32NX and the correct weights should be loaded.
 
 ### Loading Fuel and Weight
 
