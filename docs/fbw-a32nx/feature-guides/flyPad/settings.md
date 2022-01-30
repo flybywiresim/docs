@@ -140,6 +140,9 @@ Settings for realism aspects of the A32NX aircraft.
         - Legacy mode (Disabled): Rudder controls also move the nose wheel. No separation.
         - Realistic mode (Enabled): Nose Wheel steering with tiller handwheel is separate from the rudder.
             - See our guide: [Nose Wheel and Tiller Operation](../nw-tiller.md)
+- Home Cockpit Mode
+    - Removes backlight bleed from PFD, ND, and ECAMs
+    - Removes reflection from the ISIS
 
 ## ATSU/AOC
 
@@ -249,7 +252,6 @@ Settings for the flyPad itself.
     <a href="../settings/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 84.1%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Settings</span></div></a>
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
-
 
 ### Usage
 
