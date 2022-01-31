@@ -14,7 +14,7 @@
 
     <img src="https://img.shields.io/github/v/release/flybywiresim/a32nx.svg?color=2F4E5B&style=flat" /> <img src="https://img.shields.io/badge/dynamic/json?color=00848A&label=Development&query=shortSha&url=https%3A%2F%2Fapi.flybywiresim.com%2Fapi%2Fv1%2Fgit-versions%2Fflybywiresim%2Fa32nx%2Fbranches%2Fmaster&style=flat" alt="Development Version" />
 
-    FBW Installer - [Download Here](https://api.flybywiresim.com/installer){target=new} / *Sim Version: 1.21.18.0*
+    FBW Installer - [Download Here](https://api.flybywiresim.com/installer){target=new} / *Sim Version: 1.22.2.0*
 
 !!! warning "Read our Support Guide"
 
@@ -1029,7 +1029,7 @@ TEMPLATE
         Unless stated otherwise, all fixed issues are first released on our development version.
 
     - Ailerons now work when using the keyboard. See -> [Github PR #6222](https://github.com/flybywiresim/a32nx/pull/6222)
-        - We still highly recommend using a yoke / stick to fly with an axis assigned to fly the A32NX as the "intended experience". 
+        - We still highly recommend using a yoke / stick to fly with an axis assigned to fly the A32NX as the "intended experience".
 
     - Printing METAR causes CTD
 
