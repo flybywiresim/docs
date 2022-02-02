@@ -132,7 +132,7 @@ It can be helpful to check if messages are sent to the Hoppie network.
 A website shows all sent and received messages to and from a specific callsign.
 
 The link follows the the following syntax:
-http://www.hoppie.nl/acars/system/callsign.html?network=<NETWORK>&callsign=<CALLSIGN>
+http://www.hoppie.nl/acars/system/callsign.html?network=&lt;NETWORK&gt;&callsign=&lt;CALLSIGN&gt;
 
 &lt;NETWORK&gt; needs to be set as IVAO or VATSIM, depending on the used network.
 &lt;CALLSIGN&gt; is the used callsign of the A32NX in the Hoppie network. It is the same as the callsign on the init-page of the MCDU.
