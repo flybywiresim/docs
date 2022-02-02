@@ -136,3 +136,4 @@ http://www.hoppie.nl/acars/system/callsign.html?network=<NETWORK>&callsign=<CALL
 
 <NETWORK> needs to be set as IVAO or VATSIM, depending on the used network.
 <CALLSIGN> is the used callsign of the A32NX in the Hoppie network. It is the same as the callsign on the init-page of the MCDU.
+
