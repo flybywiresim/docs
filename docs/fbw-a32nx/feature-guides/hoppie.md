@@ -39,7 +39,7 @@ All configuration entries are set in the Settings-pages of the EFB.
 ### ATSU/AOC
 
 The Hoppie logon code needs to be set in the ATSU/AOC page.
-![ATSU/AOC](../assets/feature-guides/hoppie/atsu_aoc.png "ATSU/AOC page"){loading=lazy}
+![ATSU/AOC](../assets/feature-guides/hoppie/ATSU_AOC.png "ATSU/AOC page"){loading=lazy}
 
 The logon code needs to be set in "Hoppie User ID".
 
@@ -52,7 +52,7 @@ The real CPDLC system guarantees a maximum communication time between sending an
 A datalink system is simulated and all AOC and ATC requests are synchronized via this module.
 
 The datalink simulation speed can be configured in the Realsim-page.
-![Realism](../assets/feature-guides/hoppie/realism.png "Realism page"){loading=lazy}
+![Realism](../assets/feature-guides/hoppie/Realism.png "Realism page"){loading=lazy}
 
 It is possible to configure the simulated waiting time between a send and a receive of messages.
 Three different transmission times can be defined:
@@ -136,4 +136,5 @@ http://www.hoppie.nl/acars/system/callsign.html?network=&lt;NETWORK&gt;&callsign
 
 &lt;NETWORK&gt; needs to be set as IVAO or VATSIM, depending on the used network.
 &lt;CALLSIGN&gt; is the used callsign of the A32NX in the Hoppie network. It is the same as the callsign on the init-page of the MCDU.
+
 
