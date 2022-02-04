@@ -23,6 +23,8 @@ It lists all currently available ATC stations which can then be activated in the
 
 ## Usage
 
+### Changing Frequencies
+
 Go to the flyPad [ATSU/AOC settings page](settings.md#atsuaoc) and select your Online ATC service.
 
 !!! warning ""
@@ -31,3 +33,7 @@ Go to the flyPad [ATSU/AOC settings page](settings.md#atsuaoc) and select your O
 Go back to the ATC page and see the list of the currently available ATC stations. Click on a station to set this frequency in the Captain's RMP.
 
 ![Online ATC Frequency via click](../../assets/flypad/online-atc-frequency.png "Online ATC Frequency via click"){loading=lazy}
+
+### Using Hoppie ACARS
+
+See documentation for [Hoppie ACARS](../hoppie.md)
