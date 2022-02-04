@@ -227,7 +227,7 @@ The link follows the the following syntax:
 http://www.hoppie.nl/acars/system/callsign.html?network=<NETWORK>&callsign=<CALLSIGN>
 ```
 
-Example: [http://www.hoppie.nl/acars/system/callsign.html?network=VATSIM&callsign=FWB291](http://www.hoppie.nl/acars/system/callsign.html?network=VATSIM&callsign=FBW291){target=new}
+Example: [http://www.hoppie.nl/acars/system/callsign.html?network=VATSIM&callsign=FBW291](http://www.hoppie.nl/acars/system/callsign.html?network=VATSIM&callsign=FBW291){target=new}
 
 - &lt;NETWORK&gt;: Needs to be set as IVAO or VATSIM, depending on the used network.
 - &lt;CALLSIGN&gt;: Is the used callsign of the A32NX in the Hoppie network. It is the same as the callsign on the init-page of the MCDU.
