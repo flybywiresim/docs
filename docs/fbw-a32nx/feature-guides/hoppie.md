@@ -65,7 +65,7 @@ The Hoppie logon code needs to be set in the [EFB Settings ATSU/AOC](./flyPad/se
 
 The logon code needs to be set in "Hoppie User ID".
 
-### Turning on Hoppiew ACARS
+### Turning on Hoppie ACARS
 
 You need to turn on the Hoppie ACARS Connection on the EFB ATC page every time before doing a flight.
 
@@ -227,7 +227,7 @@ The link follows the the following syntax:
 http://www.hoppie.nl/acars/system/callsign.html?network=<NETWORK>&callsign=<CALLSIGN>
 ```
 
-Example: [http://www.hoppie.nl/acars/system/callsign.html?network=VATSIM&callsign=FWB291](http://www.hoppie.nl/acars/system/callsign.html?network=VATSIM&callsign=FWB291){target=new}
+Example: [http://www.hoppie.nl/acars/system/callsign.html?network=VATSIM&callsign=FWB291](http://www.hoppie.nl/acars/system/callsign.html?network=VATSIM&callsign=FBW291){target=new}
 
 - &lt;NETWORK&gt;: Needs to be set as IVAO or VATSIM, depending on the used network.
 - &lt;CALLSIGN&gt;: Is the used callsign of the A32NX in the Hoppie network. It is the same as the callsign on the init-page of the MCDU.
