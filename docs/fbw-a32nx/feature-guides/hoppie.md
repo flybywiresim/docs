@@ -208,9 +208,9 @@ You can logoff from the current station if the next station does not provide CPD
 
 ## Troubleshooting
 
-Sometimes can it happen that the ATC station does not respond to PDC or CPDLC messages. This can happen due to aircraft, ATC or Hoppie issues.
+Sometimes the ATC station does not respond to PDC or CPDLC messages. This mostly happens because of ATC controllers not responding, an issue in the Hoppie network or potentially an issue with the A32NX.
 
-This chapter gives some hints to check if the missing communication is caused by the A32NX.
+This chapter will give you some hints to check what the actual cause of the issue is.
 
 ### Find online stations
 
