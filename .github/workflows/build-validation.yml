@@ -9,6 +9,17 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ github.event.issue.pull_request && github.event.comment.body == 'check build'}}
     steps:
+      - name: React to comment
+        uses: actions/github-script@v4
+        with:
+          script: |
+            const {owner, repo} = context.issue;
+            github.reactions.createForIssueComment({
+              owner,
+              repo,
+              comment_id: context.payload.comment.id,
+              content: "rocket",
+            });
       - name: Get PR SHA
         id: sha
         uses: actions/github-script@v5
@@ -25,17 +36,6 @@ jobs:
       - uses: actions/checkout@v2
         with:
           ref: ${{ steps.sha.outputs.result }}
-      - name: React to comment
-        uses: actions/github-script@v4
-        with:
-          script: |
-            const {owner, repo} = context.issue;
-            github.reactions.createForIssueComment({
-              owner,
-              repo,
-              comment_id: context.payload.comment.id,
-              content: "rocket",
-            });
       - uses: actions/setup-python@v2
         with:
           python-version: 3.x
