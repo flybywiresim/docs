@@ -1,7 +1,5 @@
 # Hoppie ACARS
 
-!!! bug "D R A F T"
-
 !!! warning "Not available in the Stable Version"
 
 !!! warning "Development in progress"
