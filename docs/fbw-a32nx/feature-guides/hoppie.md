@@ -198,7 +198,7 @@ A frequency change can be given via CPDLC. This message contains the next statio
 !!! note "Instruction to contact ATC station via voice"
     ![Contact next station](../assets/feature-guides/hoppie/dcdu-contact.png "Contact next station"){loading=lazy}
 
-If the next ATC station provides CPDLC we can notify this next station which would log us off the current station when accepted. See [Station Handover / Notification](#station-handover--notification).
+If the next ATC station provides CPDLC we can notify this next station which would log us off the current station when accepted. See [Station Handover / Notification](#station-handover-notification).
 
 ### Logoff From Station
 
