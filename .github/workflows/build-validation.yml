@@ -7,7 +7,7 @@ on:
 jobs:
   validate:
     runs-on: ubuntu-latest
-    # Check if PR, prevent running on forksm and trigger comment
+    # Check if PR, prevent running on forks and trigger comment
     if: ${{ github.event.issue.pull_request && github.repository_owner == 'flybywiresim' && github.event.comment.body == 'check build'}}
     steps:
       - name: React to comment
@@ -40,9 +40,10 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: 3.x
-      - name: Create Build
-        run: pip install -r requirements.txt
-      - run: mkdocs build -s
+      - name: Build
+        run: |
+          pip install -r requirements.txt
+          mkdocs build -s
       - name: Message success
         if: ${{ success() }}
         uses: actions/github-script@v5
