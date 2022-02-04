@@ -69,13 +69,17 @@ The Hoppie logon code needs to be set in the [EFB Settings ATSU/AOC](./flyPad/se
 
 The logon code needs to be set in "Hoppie User ID".
 
+### Turning on Hoppiew ACARS
+
+You need to turn on the Hoppie ACARS on the EFB ATC page every time before doing a flight. These
+
+![Hoppie Connect/Disconnect Button](../assets/feature-guides/hoppie/efb-atc-hoppie-button.png "Hoppie Connect/Disconnect Button")
+
 {==
 
-The toggle "Connect to Hoppie system" is reset with every restart of the simulator or reloading of the aircraft.
+The button "Connect" is reset with every restart of the simulator or reloading of the aircraft. It is required to activate it if the CPDLC system shall be used.
 
-It is required to activate it if the CPDLC system shall be used.
-
-This is required to avoid traffic on the Hoppie Network when not using the feature.
+This is necessary to avoid traffic on the Hoppie Network when not using the feature.
 
 ==}
 
