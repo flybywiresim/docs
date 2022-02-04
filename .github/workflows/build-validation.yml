@@ -5,7 +5,7 @@ on:
     types: [created]
 
 jobs:
-  validate:
+  initialize:
     runs-on: ubuntu-latest
     # Check if PR, prevent running on forks and trigger comment
     if: ${{ github.event.issue.pull_request && github.repository_owner == 'flybywiresim' && github.event.comment.body == 'check build' }}
@@ -21,12 +21,31 @@ jobs:
               comment_id: context.payload.comment.id,
               content: "rocket",
             });
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get PR SHA
+        id: sha
+        uses: actions/github-script@v5
+        with:
+          result-encoding: string
+          script: |
+            const { owner, repo, number } = context.issue;
+            const pr = await github.rest.pulls.get({
+              owner,
+              repo,
+              pull_number: number,
+            });
+            return pr.data.head.sha
       - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
+        with:
+          ref: ${{ steps.sha.outputs.result }}
+          fetch-depth: 0
+      - name: Make Build
+        uses: actions/setup-python@v2
         with:
           python-version: 3.x
-      - name: Build
-        run: |
+      - run: |
           pip install -r requirements.txt
           mkdocs build -s
       - name: Message success
