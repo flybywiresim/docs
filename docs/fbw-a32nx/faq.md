@@ -60,7 +60,7 @@
     The PTU now has a toggleable switch on the EFB (flyPad) settings that allows you to hear it in the cockpit when it is running.
 
 ??? info "Q: Which lights should I turn on during taxi/takeoff/flight?"
-    There are many fantastic tutorials online which demonstrate the proper use of lighting on the A320noe, take a look at this video from 320 Sim Pilot:
+    There are many fantastic tutorials online which demonstrate the proper use of lighting on the A320neo, take a look at this video from 320 Sim Pilot:
 
     [Airbus Lights: What you didn't (need to) know! With a Real Airbus Pilot in Flight Simulator](https://www.youtube.com/watch?v=L9XUHepoFDg){target=new}
 
