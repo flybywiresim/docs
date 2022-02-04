@@ -143,6 +143,11 @@ Settings for realism aspects of the A32NX aircraft.
 - Home Cockpit Mode
     - Removes backlight bleed from PFD, ND, and ECAMs
     - Removes reflection from the ISIS
+- DATALINK transmission time
+    - Instant: sends and receives messages within two seconds
+    - Fast: sends and receives messages within twenty seconds
+    - Real: sends and receives messages within sixty seconds
+    - See [Hoppie ACARS](../hoppie.md)
 
 ## ATSU/AOC
 
