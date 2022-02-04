@@ -8,7 +8,7 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     # Check if PR, prevent running on forks and trigger comment
-    if: ${{ github.event.issue.pull_request && github.repository_owner == 'flybywiresim' && github.event.comment.body == 'check build'}}
+    if: ${{ github.event.issue.pull_request && github.repository_owner == 'flybywiresim' && github.event.comment.body == 'check build' }}
     steps:
       - name: React to comment
         uses: actions/github-script@v5
@@ -21,22 +21,7 @@ jobs:
               comment_id: context.payload.comment.id,
               content: "rocket",
             });
-      - name: Get PR SHA
-        id: sha
-        uses: actions/github-script@v5
-        with:
-          result-encoding: string
-          script: |
-            const { owner, repo, number } = context.issue;
-            const pr = await github.rest.pulls.get({
-              owner,
-              repo,
-              pull_number: number,
-            });
-            return pr.data.head.sha
       - uses: actions/checkout@v2
-        with:
-          ref: ${{ steps.sha.outputs.result }}
       - uses: actions/setup-python@v2
         with:
           python-version: 3.x
