@@ -1,0 +1,65 @@
+name: Build Validation
+
+on:
+  issue_comment:
+    types: [created]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.issue.pull_request && github.event.comment.body == 'check build'}}
+    steps:
+      - name: Get PR SHA
+        id: sha
+        uses: actions/github-script@v5
+        with:
+          result-encoding: string
+          script: |
+            const { owner, repo, number } = context.issue;
+            const pr = await github.rest.pulls.get({
+              owner,
+              repo,
+              pull_number: number,
+            });
+            return pr.data.head.sha
+      - uses: actions/checkout@v2
+        with:
+          ref: ${{ steps.sha.outputs.result }}
+      - name: React to comment
+        uses: actions/github-script@v4
+        with:
+          script: |
+            const {owner, repo} = context.issue;
+            github.reactions.createForIssueComment({
+              owner,
+              repo,
+              comment_id: context.payload.comment.id,
+              content: "rocket",
+            });
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+      - run: pip install -r requirements.txt
+      - run: mkdocs build -s
+      - name: Message success
+        if: ${{ success() }}
+        uses: actions/github-script@v5
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: 'Strict Build Validated! ✅',
+            });
+      - name: Message failure
+        if: ${{ failure() }}
+        uses: actions/github-script@v5
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: 'Strict Build Failed! ❌',
+            });
