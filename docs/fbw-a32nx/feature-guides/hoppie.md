@@ -2,22 +2,31 @@
 
 !!! warning "Not available in the Stable Version"
 
+!!! warning "Requires credentials with Hoppie service"
+
 !!! warning "Development in progress"
-    The Hoppie ACARS system is a complex system and we have decided to develop and release it step-by-step. So please be aware that not all features are available in the early releases and that we will add additional functionality in the future.
+    The Hoppie ACARS system is a complex system and we have decided to develop and release it step-by-step. So please be aware that not all features are available in the early releases and that we will add additional functionality over time.
+
+    The initial version will lay the base for communication with the Hoppie network. It will have the following features:
+
+    - Logon/Logoff
+    - Handover
+    - Station identifier
+    - Controller to pilot: All Instructions
+    - Pilot to controller: Pre departure clearance (PDC)
 
     The currently planned future releases are adding these features:
 
     - Datalink Status
     - Automatic D-ATIS, DCL, OCL
-    - Vert, Lat requests, Text
-    - Other requests, when can we expect
+    - Pilot requests: Vert & Lat requests, Text
+    - Other pilot requests: E.g. "When can we expect..."
     - Emergency
-    - Automatic preparation of replies for report-requests
+    - Controller report-requests and automatic preparation of pilot replies
     - FPL changes for Lat requests
     - Flight Monitoring for conditional reports
 
     This plan might change at any time.
-
 
 ## Hoppie System
 
@@ -29,7 +38,7 @@ The A32NX implements the TELEX and CPDLC communication between ATC stations and 
 
 !!! note "[CPDLC](https://skybrary.aero/articles/controller-pilot-data-link-communications-cpdlc){target=new} stands for Controller Pilot Data Link Communication."
 
-It allows a communication from ATC stations with the aircraft without the use of voice, but it is still required that the pilot monitors the voice frequency.
+It allows communication between ATC stations and the aircraft without the use of voice, but it is still required that the pilot monitors the voice frequency.
 
 CPDLC is used to send requests to the ATC station or from the ATC station requesting flight information or issuing instructions to the pilot.
 
@@ -215,7 +224,7 @@ This chapter will give you some hints to check what the actual cause of the issu
 ### Find online stations
 
 It is possible to find all currently online stations. This is helpful to check if the responsible ATC station provides CPDLC or PDC.
-A complete list can be found [here](http://www.hoppie.nl/acars/system/online.html).
+A complete list can be found [here](http://www.hoppie.nl/acars/system/online.html){target=new}.
 
 ### Find sent and received messages
 
