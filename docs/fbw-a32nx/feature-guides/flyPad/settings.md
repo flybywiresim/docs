@@ -143,6 +143,11 @@ Settings for realism aspects of the A32NX aircraft.
 - Home Cockpit Mode
     - Removes backlight bleed from PFD, ND, and ECAMs
     - Removes reflection from the ISIS
+- DATALINK transmission time
+    - Instant: sends and receives messages within two seconds
+    - Fast: sends and receives messages within twenty seconds
+    - Real: sends and receives messages within sixty seconds
+    - See [Hoppie ACARS](../hoppie.md)
 
 ## ATSU/AOC
 
@@ -185,7 +190,10 @@ Settings for integrations with various data and information sources.
         ![flypad-settings-atsu-aoc-telex-warning](../../assets/flypad/flypad-settings-atsu-aoc-telex-warning.png)
 
 - Simbrief Username/Pilot ID
-    - see next chapter
+    - See [next chapter](#simbrief-integration.)
+- Hoppie User ID:
+    - Unique logon code that is used to identify the user for the Hoppie ACARS communication.
+    - See [Create a logon code](../hoppie.md#create-a-logon-code) in our documentation for Hoppie ACARS.
 
 ### simBrief Integration
 
