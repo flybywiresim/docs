@@ -194,7 +194,7 @@ Find some examples below.
 !!! note "Climb instruction"
     ![Climb instruction](../assets/feature-guides/hoppie/dcdu-climb.png "Climb instruction"){loading=lazy}
 
-Possible responses usually are `WILCO` ("will comply"), `STDBY` ("standby by") or `UNABLE` ("unable to comply").
+Possible responses usually are `WILCO` ("will comply"), `STDBY` ("standby") or `UNABLE` ("unable to comply").
 
 If you select STBY the message will be marked with `STDBY` and you can respond with `WILCO` or `UNABLE` after we have checked our ability to comply.
 
