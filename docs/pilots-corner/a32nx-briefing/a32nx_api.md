@@ -210,13 +210,13 @@ Flight Deck: [ADIRS Panel](flight-deck/ovhd/adirs.md)
 
 Flight Deck: [APU Panel](flight-deck/ovhd/apu.md)
 
-| Function  | API Usage                                | Values | Read/Write | Type        | Remark |
-|:----------|:-----------------------------------------|:-------|:-----------|:------------|:-------|
-| MASTER SW | A32NX_OVHD_APU_MASTER_SW_PB_IS_ON        | 0 \| 1 | R/W        | Custom LVAR |        |
-|           | A32NX_OVHD_APU_MASTER_SW_PB_HAS_FAULT    | 0 \| 1 | R          | Custom LVAR |        |
-|           |                                          |        |            |             |        |
-| START     | A32NX_OVHD_APU_MASTER_SW_PB_IS_ON        | 0 \| 1 | R/W        | Custom LVAR |        |
-|           | A32NX_OVHD_APU_MASTER_SW_PB_IS_AVAILABLE | 0 \| 1 | R          | Custom LVAR |        |
+| Function  | API Usage                             | Values | Read/Write | Type        | Remark |
+|:----------|:--------------------------------------|:-------|:-----------|:------------|:-------|
+| MASTER SW | A32NX_OVHD_APU_MASTER_SW_PB_IS_ON     | 0 \| 1 | R/W        | Custom LVAR |        |
+|           | A32NX_OVHD_APU_MASTER_SW_PB_HAS_FAULT | 0 \| 1 | R          | Custom LVAR |        |
+|           |                                       |        |            |             |        |
+| START     | A32NX_OVHD_APU_START_PB_IS_ON         | 0 \| 1 | R/W        | Custom LVAR |        |
+|           | A32NX_OVHD_APU_START_PB_IS_AVAILABLE  | 0 \| 1 | R          | Custom LVAR |        |
 
 !!! note "Search for APU in our [list for all Custom LVARS](https://github.com/flybywiresim/a32nx/blob/master/docs/a320-simvars.md){target=new} for further variables."
 
@@ -409,6 +409,7 @@ Flight Deck: [EFIS Control Panel](flight-deck/glareshield/efis_control.md)
 |              |                                  |                  |            |                  |                                                   |
 | Baro knob    | KOHLMAN_INC                      | -                | -          | SIMCONNECT EVENT |                                                   |
 |              | KOHLMAN_INC                      | -                | -          | SIMCONNECT EVENT |                                                   |
+|              | XMLVAR_Baro1_Mode                | 0..2             | R/W        | Custom LVAR      | 0=QFE, 1=QNH, 2=STD                               |
 |              |                                  |                  |            |                  |                                                   |
 | inHG / hPa   | XMLVAR_BARO_SELECTOR_HPA_1       | 0 \| 1           | R/W        | Custom LVAR      | 0=Hg, 1=hPa                                       |
 |              |                                  |                  |            |                  |                                                   |
@@ -594,7 +595,7 @@ Flight Deck: [Autobrake and Gear Panel](flight-deck/front/autobrake-gear.md)
 |                       | GEAR CENTER POSITION        | 0..100 | R          | SIMCONNECT VAR   |                           |
 |                       | GEAR RIGHT POSITION         | 0..100 | R          | SIMCONNECT VAR   |                           |
 |                       |                             |        |            |                  |                           |
-| AUTO BRK LO/MED/MAX   | A32NX_AUTOBRAKE_ARMED_MODE  | 0..3   | R/W        | Custom LVAR      | 0=OFF, 1=LO, 2=MED, 3=MAX |
+| AUTO BRK LO/MED/MAX   | A32NX_AUTOBRAKES_ARMED_MODE | 0..3   | R/W        | Custom LVAR      | 0=OFF, 1=LO, 2=MED, 3=MAX |
 |                       |                             |        |            |                  |                           |
 | BRK FAN               | A32NX_BRAKE_FAN_BTN_PRESSED | 0 \| 1 | R/W        | Custom LVAR      |                           |
 |                       |                             |        |            |                  |                           |
