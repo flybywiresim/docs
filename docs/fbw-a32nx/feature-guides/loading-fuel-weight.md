@@ -117,6 +117,8 @@ Get our [simBrief Profile](../installation.md#simbrief-airframe) for the Develop
     - AFT BAGGAGE (max: 4650lb/2110kg)
     - AFT BULK/LOOSE (max: 3300lb/1497kg)
 
+!!! bug "TODO UPDATE"
+
 !!! note "Additional Payload Information"
     - Passenger weight and luggage is currently fixed to 84kg + 20kg and cannot be changed. Changes in the simbrief airframe will be ignored.
     - Maximum payload is determined by the lowest of these calculations:
