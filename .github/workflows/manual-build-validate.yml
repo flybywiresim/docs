@@ -1,15 +1,26 @@
-name: Strict Build Validation
+name: Build Validation
 
 on:
-  pull_request_target:
-    types: [opened, ready_for_review]
+  issue_comment:
+    types: [created]
 
 jobs:
   validate:
-    # Prevent running this on forks
-    if: github.repository_owner == 'flybywiresim'
     runs-on: ubuntu-latest
+    # Check if PR, prevent running on forks and trigger comment
+    if: ${{ github.event.issue.pull_request && github.repository_owner == 'flybywiresim' && github.event.comment.body == 'check build' }}
     steps:
+      - name: React to comment
+        uses: actions/github-script@v5
+        with:
+          script: |
+            const {owner, repo} = context.issue;
+            github.rest.reactions.createForIssueComment({
+              owner,
+              repo,
+              comment_id: context.payload.comment.id,
+              content: "rocket",
+            });
       - name: Get PR SHA
         id: sha
         uses: actions/github-script@v5
@@ -54,5 +65,5 @@ jobs:
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: 'Strict Build Failed! ❌ - Please checkout this PR locally to fix the issue before merging or see checks.',
+              body: 'Strict Build Failed! ❌ - Please checkout this PR locally to fix the issue before merging or visit the actions tab.',
             });
