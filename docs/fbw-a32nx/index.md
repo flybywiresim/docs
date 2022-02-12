@@ -15,6 +15,8 @@ FMGS       Honeywell Pegasus II
 FWC Std.   H2F9C
 ```
 
+Invalid Link: [invalid](invalid.md)
+
 ## Quick Links
 
 [Support Guide](support/index.md){ .md-button }
