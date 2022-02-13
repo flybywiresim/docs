@@ -115,12 +115,14 @@ This will speed up finding and fixing issues and bugs significantly.
 
 {==
 
-You can  decide to activate or deactivate it at time in the flyPad EFB.
+You can decide to activate or deactivate this at any time in the flyPad EFB.
 
 ==}
 
 The first time you start the aircraft after this feature has been included and also everytime you enable Error Reporting you will see a confirmation dialog where you need to click on `Yes`.
 
 ![Consent Dialog for Error Reporting](assets/settings/error-reporting-consent.png "Consent Dialog for Error Reporting")
+
+flyPad EFB Settings for Error Reporting:
 
 ![flyPad EFB Setting Error Reporting](assets/settings/efb-settings-atsuaoc-error-reporting.png "flyPad EFB Setting Error Reporting")
