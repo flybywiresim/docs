@@ -145,13 +145,11 @@ The work folder can be found here:
 
 ??? info "Autopilot oscillates when using time compression"
 
-    Time compression is not fully supported yet, this applies also to fuel burn (time compression is not taken into account).
+    In most cases a time compression up to 4x is safe to use. Nevertheless depending on environmental conditions and the performance of your computer osciallations can still occur.
 
     The reason why it can work for some and not for others is how time compression is working. For example when using time compression of 2x for the custom systems it's like having 1/2 of your displayed fps, when you're using 4x it's like 1/4 of it. So taking into account the 17 fps requirement it means you need ~ 30 fps and ~ 45 fps for 4x to work somehow, at least for smooth cruise.
 
     When you encounter heavy turbulence it might be needed that time compression is reduced.
-
-    For the time being we do not recommend using it.
 
 ??? info "Use RUDDER AXIS PLUS and RUDDER AXIS MINUS binding with normal axis instead of Xbox-Controller"
 
@@ -180,85 +178,24 @@ The work folder can be found here:
 ##### Fly-By-Wire
 * ❌ Alternative Law
 * ❌ Direct Law (in flight)
-* ❌ Simulation of hydraulic system missing -> when engines are off / electric pump is off control surfaces should not work
-* ❌ Pitch attitude and load factor limitation are currently not applied in high angle of attack (AoA) protection
+* ❌ Simulation of hydraulic system with impact on flight model
 
 ##### Flight Management
 
-* ❌ Due to lack of LNAV, the flaws of the default flight plan manager still apply (bank to left or right shortly after TO etc)
 * ❌ Due to lack of VNAV, DES mode is currently only using SPD/MACH
 * ❌ Due to lack of VNAV, RNAV approaches are not supported yet
 
 ##### Autopilot
 
-* ❌ AP disconnect does not trigger master warning etc.
-* ❌ NAV mode being armed might show dashes in the FCU instead of selected HDG
 * ❌ Engine out operations are not yet considered
-* ❌ AP is not disconnected due to turbulence
-* ❌ Time compression is not supported (sim rate increase)
-
-##### Engines
-
-* ❌ Realistic start-up procedure is missing
-* ❌ Realistic Descent/ Approach idle parameters / drag.
-* ❌ Time compression (sim rate increase) is not supported (fuel burn is not adapted for time compression)
 
 ##### Autothrust
 
-* ❌ N1 thrust limit displayed and achieved may differ slightly in certain situations
+* ❌ N1 cannot be achieved in certain situations; an update of the engine model is in the works
 
-#### First Implementation Available
+##### Autothrust
 
-* 🔸 V_LS, V_alpha_prot, V_alpha_max are not finished and will be further improved
-* 🔸 Some transitions might not be as they should or are missing
-* 🔸 Engines can now be started, realistic start-up procedure is in work
-* 🔸 principle go-around mode has been added but not all conditions are respected yet
-* 🔸 NAV mode is for the time being using default flight plan manager until the custom is ready
-* 🔸 altitude constraints seem to work with CLB and DES (there are many situations out there, so there can still be unknown bugs)
-* 🔸 FLEX thrust limit is still rough and is also not adapted for Mach yet
-* 🔸 Thrust limits are already very good but might be improved in the future (they are currently lacking adaptation for Mach)
-* 🔸 Thrust limits are now corrected for air-conditioning and anti-ice yet
-* 🔸 Flare Law has been improved to handle fast raising ground before the runway; when in 200 ft RA, the ground should in the area of the runway slope, otherwise issues are to be expected
-* 🔸 AP performance when flying turbulence might not be satisfying in all cases
-* 🔸 During start, no fuel flow is shown
-* 🔸 ROLL OUT law is more sensitive to fps than other laws which can cause oscillations
-* 🔸 ROLL OUT law can cause a divert from the runway when the runway is short (i.e. EDNY)
-
-#### Considered Solved
-
-* ✔️ In case the default AP is for any reason engaged it will be automatically disconnected
-* ✔️ In manual approach LOC and G/S might be lost too fast with mode reversion to HDG + V/S
-* ✔️ FMA indications for ATHR system are missing
-* ✔️ due to this workaround, the engine EGT can go into read area when in (OP) CLB/DES (see workaround above)
-* ✔️ due to missing custom ATHR system, the (OP) CLB/DES modes might need manual thrust control
-* ✔️ FD off/on does not deactivate all FMA items
-* ✔️ Engagement of AP with FD off is incorrect
-* ✔️ Flight Director (FD) guidance in pitch is not fully satisfying yet
-* ✔️ Fuel used since start is not shown correctly on ECAM fuel page, it's basically 0
-* ✔️ AP is disconnected due to sidestick or rudder input
-* ✔️ EWD has been improved to correctly display N2 > 100
-* ✔️ Fuel flow is currently always in KG
-* ✔️ Pause and slew detection should be ok now
-* ✔️ SPD/MACH hold might when flying in curves has been improved
-* ✔️ Fuel burn should be correct in flight
-* ✔️ ATHR implementation is already quite complete
-* ✔️ Switched to different default input source for LNAV, transitions are now much better
-* ✔️ LOC* has been improved in capturing performance
-* ✔️ Normal Law (Pitch) creates a too small pitch rate on low speed or g-load on higher speeds
-* ✔️ Rotation Law including tailstrike protection
-* ✔️ pitch normal law (C* law) sometimes oscillates on low speed
-* ✔️ yaw damper / rudder control missing
-* ✔️ pitch attitude protections can oscillate
-* ✔️ nose-down pitch attitude protection sometimes kicks-in too early
-* ✔️ transformation from ground to flight mode might take longer than intended (nose might drop after releasing the stick)
-* ✔️ auto-trim feature locks trim wheel completely
-* ✔️ flare mode might be stronger than expected, needs to be investigated
-* ✔️ after landing sometimes a slight pitch up moment is introduced, needs to be investigated
-* ✔️ strange interaction with default auto thrust system -> thrust lever sometimes does not move, fix is to manually disable ATHR
-* ✔️ after a longer pause the fbw system goes crazy
-* ✔️ High speed protection
-* ✔️ High angle of attack (AoA) protection
-* ✔️ Increasing thrust rapidly while being in high alpha protection may additionally trigger alpha floor
+* ❌ Secondary parameters are not finished yet and are wrong
 
 ***
 
