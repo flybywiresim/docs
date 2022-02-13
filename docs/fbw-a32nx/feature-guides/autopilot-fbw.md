@@ -187,7 +187,8 @@ The work folder can be found here:
 
 ##### Autopilot
 
-* ❌ Engine out operations are not yet considered
+* ❌ Engine out operations are not fully considered yet
+* ❌ Autoland with one engine out is not supported
 
 ##### Autothrust
 
