@@ -137,7 +137,7 @@ The A32NX uses the following default weights for passengers and their baggage.
 
 These default weights cannot be changed in the aircraft at the moment. It is planned to provide an option to change these defaults with a future weights and balance flyPad EFB page.
 
-It possible to change these defaults by changing the simBrief airframe.
+It is possible to change these defaults by changing the simBrief airframe.
 
 To do this open your simBrief airframe on the simBrief website under "MY FLEET".
 
