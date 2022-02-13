@@ -84,7 +84,9 @@ Changes done in the MCDU Web Interface will be reflected immediately in the cock
 
 If you want only the MCDU display to be shown then tap on the top-most part of the MCDU display. To return to the full MCDU view tap anywhere on the display.
 
-If you want to start with only the MCDU display visible then add "/fullscreen" to the url.
+If you want to start with only the MCDU display visible then add `/fullscreen` to the url.
+
+You can enable click sounds when pressing buttons on the MCDU by adding `/sound` to the url.
 
 ## Using Your Local Printer
 
