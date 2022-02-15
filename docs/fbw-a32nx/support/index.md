@@ -140,7 +140,7 @@ To get the actual build number of your installed A32NX go into your Community fo
 <your-Community-Folder>\flybywire-aircraft-a320-neo\build_info.json
 
 This should contain something like this:
-```
+```json title="build_info.json"
 {
   "built": "2021-08-11T07:29:20+00:00",
   "ref": "master",
