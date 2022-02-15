@@ -41,10 +41,10 @@ This creates a point at an exact latitude and longitude.
 
 The format is:
 
-&lt;longitude&gt;/&lt;latitude&gt;
+&lt;latitude&gt;/&lt;longitude&gt;
 
-- longitude is 4 digits with one decimal digit and N or S (for Northern or Southern hemisphere)
-- latitude is 4 or 5 digits with one decimal digit and E or W (for Eastern or Western hemisphere)
+- latitude is 4 digits with one decimal digit and N or S (for Northern or Southern hemisphere)
+- longitude is 4 or 5 digits with one decimal digit and E or W (for Eastern or Western hemisphere)
 
 !!! tip "Example for LL"
     !!! block ""
@@ -91,7 +91,7 @@ This creates a point at the intersection of a line on a bearing from one fix, an
 
 The format is:
 
-&lt;ident1&gt;-&lt;bearing&gt/&lt;ident2&gt;-&lt;bearing&gt;
+&lt;ident1&gt;-&lt;bearing&gt;/&lt;ident2&gt;-&lt;bearing&gt;
 
 !!! tip "Example for PBX"
     !!! block ""
