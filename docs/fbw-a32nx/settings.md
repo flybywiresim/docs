@@ -105,3 +105,24 @@ Our Custom Autopilot implementation requires that the throttle is calibrated to 
 
 See [Throttle Calibration Guide](feature-guides/flyPad/throttle-calibration.md)
 
+### Error Reporting
+
+While using our aircraft you can help us to identify errors by turning on Error Reporting. This is completely optional and anonymous.
+
+With Error Reporting enabled, any severe error in any display of the aircraft (e.g. flyPad, MCDU, PFD, ND, etc.) will create a log entry with our issue tracking system. This will help our development team to see these issues and get some important details to hopefully identify what caused the error.
+
+This will speed up finding and fixing both issues and bugs significantly.
+
+{==
+
+You can decide to activate or deactivate this at any time in the flyPad EFB.
+
+==}
+
+The first time you start the aircraft after this feature has been included and also everytime you enable Error Reporting you will see a confirmation dialog where you need to click on `Yes`.
+
+![Consent Dialog for Error Reporting](assets/settings/error-reporting-consent.png "Consent Dialog for Error Reporting")
+
+flyPad EFB Settings for Error Reporting:
+
+![flyPad EFB Setting Error Reporting](assets/settings/efb-settings-atsuaoc-error-reporting.png "flyPad EFB Setting Error Reporting")

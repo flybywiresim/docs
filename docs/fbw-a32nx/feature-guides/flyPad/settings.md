@@ -189,6 +189,8 @@ Settings for integrations with various data and information sources.
 
         ![flypad-settings-atsu-aoc-telex-warning](../../assets/flypad/flypad-settings-atsu-aoc-telex-warning.png)
 
+- Error Reporting
+    - Enables error reports to be sent to Sentry.io to allow the FlyByWire team to easier find and fix issues with the aircraft.
 - Simbrief Username/Pilot ID
     - See [next chapter](#simbrief-integration.)
 - Hoppie User ID:
