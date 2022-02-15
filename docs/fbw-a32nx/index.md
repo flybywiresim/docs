@@ -10,11 +10,17 @@ The A32NX Project is a community-driven open source project to create a free Air
 
 The following aircraft configurations are currently simulated:
 
-```
-Model      A320-251N
-Engine     LEAP 1A-26
-FMGS       Honeywell Pegasus II
-FWC Std.   H2F9C
+```title="Simulated Hardware"
+Model       A320-251N
+Engine      CFM LEAP 1A-26
+APU         APS3200
+FMS         Honeywell Release H3
+FWC Std.    H2F9C
+TAWS        Honeywell EGPWS
+ACAS        Honeywell TPA-100B
+ATC         Honeywell TRA-100B
+MMR         Honeywell iMMR
+WXR         Honeywell RDR-4000
 ```
 
 ## Quick Links
