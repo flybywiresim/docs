@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="../../stylesheets/toc-tables.css">
+
 # FlyByWire A32NX Overview
 
 This section of the FlyByWire Documentation is dedicated to the A32NX add-on itself. It covers the software and more technical aspects of the FlyByWire add-on.
@@ -25,12 +27,13 @@ FWC Std.   H2F9C
 
 ##  Topics
 
-- [Version and Feature Guide](fbw-versions.md)
-- [Installation Guide](installation.md)
-- [Livery Guide](liveries.md)
-- [Support](support/index.md)
-- [Feature Guides](feature-guides/)
-- [API and Hardware](a32nx-api)
+| Featured List                                |
+| :----                                        |
+| [Installation Guide](installation.md)        |
+| [Version and Feature Guide](fbw-versions.md) |
+| [Livery Guide](liveries.md)                  |
+| [Support](support/index.md)                  |
+| [API and Hardware](a32nx-api)                |
 
 
 
