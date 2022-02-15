@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="../../stylesheets/toc-tables.css">
+
 # Support Guide
 
 Microsoft Flight Simulator 2020 is still a rather young flight simulator and many issues still need to be addressed.
@@ -8,12 +10,14 @@ This guide shall help you how to identify and solve these issues by guiding you 
 
 ##  Index
 
-1. [Learn how to fly the A32NX](#1-learn-how-to-fly-the-a32nx)
-- [How to Troubleshoot](#2-how-to-troubleshoot)
-- [Research Known Issues](#3-research-known-issues)
-- [Report Issue on Discord](#4-report-issue-on-discord)
-- [Report Issue on the A32NX Github](#5-report-issue-on-the-a32nx-github)
-- [Collecting Support Information](#collecting-support-information)
+| Quick Links                                                                |
+| :----                                                                      |
+| 1. [Learn how to fly the A32NX](#1-learn-how-to-fly-the-a32nx)             |
+| 2. [How to Troubleshoot](#2-how-to-troubleshoot)                           |
+| 3. [Research Known Issues](#3-research-known-issues)                       |
+| 4. [Report Issue on Discord](#4-report-issue-on-discord)                   |
+| 5. [Report Issue on the A32NX Github](#5-report-issue-on-the-a32nx-github) |
+| 6. [Collecting Support Information](#collecting-support-information)       |
 
 ## 1. Learn How to Fly the A32NX
 
