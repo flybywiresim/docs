@@ -85,11 +85,11 @@ Please select the correct version below.
 Get our [simBrief Profile](../installation.md#simbrief-airframe) for the Development and Experimental versions.
 
 #### Weights
-- OEW (Empty Weight): 42500 (in kilograms)
+- OEW (Empty Weight): 42500 kg / 93697 lbs
     - Also referred to as DOW (Dry Operating Weight) which can be seen in other simBrief OFP formats such as EZY
-- MZFW (Max Zero Fuel Weight): 64300 (in kilograms)
-- MTOW (Max Takeoff Weight): 79000 (in kilograms)
-- MLW (Max Landing Weight): 67400 (in kilograms)
+- MZFW (Max Zero Fuel Weight): 64300 kg / 141757 lbs
+- MTOW (Max Takeoff Weight): 79000 kg / 174165 lbs
+- MLW (Max Landing Weight): 67400 kg / 148591 lbs
 
 #### Fuel
 - Max Fuel Capacity: 41989lbs/19.046kg
@@ -118,16 +118,6 @@ Get our [simBrief Profile](../installation.md#simbrief-airframe) for the Develop
     - AFT BAGGAGE (max: 4650lb/2110kg)
     - AFT BULK/LOOSE (max: 3300lb/1497kg)
 
-!!! note "Additional Payload Information"
-    - Passenger weight and luggage defaults to 84kg + 20kg and can be changed in the simbrief airframe.
-    - Maximum payload is determined by the lowest of these calculations:
-        - MZFW - OEW, or  64300 kg - 42500 kg = 21800 kg
-        - MTOW  - empty weight - (fuel load - taxi out fuel), or 79000 - 42500 - (fuel load - taxi out fuel)
-        - MLW - empty weight - (all reserve/contingency fuel + extra fuel) , or 67400 - 42500 - (all reserve fuel/contingency/extra fuel).
-    - When manually loading the payload, the MLW and MTOW limits are currently not checked and are the responsibility of the pilot.
-    - Simbrief does manage payload limits by reducing the number of bags from passengers automatically. Due to the fixed values for passengers and luggage the A32NX does still load the full 104kg per passenger. This will be improved in the near future.
-    - If Simbrief limits the extra cargo due to payload limits this is picked up by the A32NX and the correct weights should be loaded.
-
 ### Changing Default Weights Using simBrief
 
 The A32NX uses the following default weights for passengers and their baggage.
@@ -148,6 +138,19 @@ Scroll down to find the entries for Passenger Weight and Baggage Weight.
 ![SimBrief Pax and Baggage Weights](../assets/feature-guides/simbrief/simbrief-pax-baggage.png "SimBrief Pax and Baggage Weights")
 
 Change the default weights as required. The A32NX will use these new values when you import an operational flight plan based on this airframe into aircraft the next time.
+
+!!! warning "Do Not Overload the Aircraft"
+    It is the responsibility of the pilot to make sure the aircraft is not overloaded and within the specified limits.
+
+    Especially important are:
+
+    - MZFW (Max Zero Fuel Weight): 64300 kg / 141757 lbs
+    - Maximum payload (passengers, baggage, freight) is determined by the lowest of these calculations:
+        - MZFW - OEW, or  64300 kg - 42500 kg = 21800 kg
+        - MTOW  - empty weight - (fuel load - taxi out fuel), or 79000 - 42500 - (fuel load - taxi out fuel)
+        - MLW - empty weight - (all reserve/contingency fuel + extra fuel) , or 67400 - 42500 - (all reserve fuel/contingency/extra fuel).
+    - When manually loading the payload, the MLW and MTOW limits are currently not checked and are the responsibility of the pilot.
+    - Simbrief does manage payload limits by reducing the number of bags or passengers automatically. This is picked up by the aircraft correctly then.
 
 ### Loading Fuel and Weight
 
