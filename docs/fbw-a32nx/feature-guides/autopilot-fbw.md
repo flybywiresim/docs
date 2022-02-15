@@ -158,7 +158,7 @@ The work folder can be found here:
     In order to enable the use with normal axes, the following needs to be done.
 
     Put a file named `ModelConfiguration.ini` into the work folder (see "Work folder location" on this page) that has the following option set to true:
-    ```
+    ```ini title="ModelConfiguration.ini"
     [flight_controls]
     disable_xbox_compatibility_rudder_axis_plus_minus = true
     ```
