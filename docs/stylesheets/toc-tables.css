@@ -1,0 +1,16 @@
+/*Table Styling*/
+.md-typeset table:not([class]) th {
+  font-weight: bold;
+  background-color: #00C2CB;
+  color: var(--md-default-bg-color);
+  font-size: larger;
+  padding: .75em;
+  text-align: center;
+}
+/* reduced table row height */
+.md-typeset table:not([class]) td {
+  border-top: .05rem solid var(--md-default-fg-color--lightest);
+  padding: .75em 1.25em;
+  vertical-align: top;
+  font-size: initial;
+}
