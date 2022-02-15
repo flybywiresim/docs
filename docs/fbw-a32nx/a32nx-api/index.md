@@ -34,7 +34,7 @@ So, for example the standard software command for the landing lights is the Simc
 
 But the Aerosoft CRJ aircraft requires these variables:
 
-```
+```title="Sample Variables"
     - set ASCRJ_OVHD_LDG_LEFT -> 1  
     - set ASCRJ_OVHD_LDG_NOSE -> 1  
     - set ASCRJ_OVHD_LDG_RIGHT -> 1
