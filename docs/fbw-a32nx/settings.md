@@ -107,11 +107,11 @@ See [Throttle Calibration Guide](feature-guides/flyPad/throttle-calibration.md)
 
 ### Error Reporting
 
-While using our aircraft you can help us identifying errors by turning on Error Reporting. This is completely optional and anonymous.
+While using our aircraft you can help us to identify errors by turning on Error Reporting. This is completely optional and anonymous.
 
-With Error Reporting enabled every severe error in any display of the aircraft (e.g. flyPad, MCDU, PFD, ND, etc.) will log an issue with our issue tracking system where our development team can see the issues and get some important details to hopefully see what caused the error.
+With Error Reporting enabled, any severe error in any display of the aircraft (e.g. flyPad, MCDU, PFD, ND, etc.) will create a log entry with our issue tracking system, where our development team can see the issues and get some important details to hopefully see what caused the error.
 
-This will speed up finding and fixing issues and bugs significantly.
+This will speed up finding and fixing both issues and bugs significantly.
 
 {==
 
