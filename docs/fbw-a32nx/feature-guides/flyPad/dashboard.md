@@ -38,7 +38,7 @@ The METAR widget on the top right shows the current METAR information of either 
 
 You can type in any airport ICAO code into the input fields to get the corresponding METAR information. To get back to the simBrief imported airports simply delete the manually entered ICAO.
 
-You can switch between the weather summary which shows the most important METAR parts with icons or a the raw view of the METAR information.
+You can switch between the weather summary which shows the most important METAR parts with icons or a raw view of the METAR information.
 
 ![ICAO Input to Weather Widget](../../assets/flypad/weather-widget-input.png "ICAO Input to Weather Widget"){loading=lazy}
 
