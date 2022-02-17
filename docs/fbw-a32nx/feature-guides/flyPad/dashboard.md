@@ -32,11 +32,23 @@ It has three sections:
 
 ## Usage
 
-### Requesting METAR
+### METAR Information
 
-You can type in any airport ICAO code into the weather widget to get the corresponding METAR information.
+The METAR widget on the top right shows the current METAR information of either the simBrief imported airports or manually entered airports.
 
-![ICAO Input to Weather Widget](../../assets/flypad/weather-widget-input.png "ICAO Input to Weather Widget")
+You can type in any airport ICAO code into the input fields to get the corresponding METAR information. To get back to the simBrief imported airports simply delete the manually entered ICAO.
+
+You can switch between the weather summary which shows the most important METAR parts with icons or a the raw view of the METAR information.
+
+![ICAO Input to Weather Widget](../../assets/flypad/weather-widget-input.png "ICAO Input to Weather Widget"){loading=lazy}
+
+We have applied a helpful coloring scheme a large European airline uses to point out significant parts of the raw METAR information to the pilots. This coloring uses the following colors:
+
+- Cyan: Chosen airport ICAO
+- White: standard value with no special concern
+- Amber: highlights significant values as a caution to the pilot
+- Red: highlights very significant values as a warning to the pilot
+- Grey: additional information and remarks
 
 ### Load From simBrief
 
