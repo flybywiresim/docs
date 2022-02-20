@@ -1,5 +1,7 @@
 # Nose Wheel and Tiller Operation
 
+!!! warning "Not available in the Stable Version"
+
 We have introduced a feature for using the tiller to steer the nose wheel independently of the rudder. As Microsoft Flight Simulator does not natively support this feature yet we had to become creative to build a solution for this.
 
 {--
