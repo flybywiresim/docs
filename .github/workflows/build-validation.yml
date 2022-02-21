@@ -34,17 +34,6 @@ jobs:
       - run: |
           pip install -r requirements.txt
           mkdocs build -s
-      - name: Message success
-        if: ${{ success() }}
-        uses: actions/github-script@v5
-        with:
-          script: |
-            github.rest.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: 'Strict Build Validated! ✅',
-            });
       - name: Message failure
         if: ${{ failure() }}
         uses: actions/github-script@v5
