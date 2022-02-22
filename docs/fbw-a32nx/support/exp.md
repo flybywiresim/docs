@@ -9,8 +9,10 @@ We are currently testing updates to our custom FMS LNAV, and other additional im
 
 ## New Features to be Tested
 
-- Support for more legs types: CA (partially), CF, CI (partially), CR, DF, HX (partially), IF
-    - see [List of Leg Types ](../../pilots-corner/advanced-guides/flight-planning/leg-types.md)
+- Support for more legs types:
+    - <span style="color:lightgreen">**New**</span> - HA, HF, HM legs are now implemented
+    - CA (partially), CF, CI (partially), CR, DF, HX (partially), IF
+        - see [List of Leg Types ](../../pilots-corner/advanced-guides/flight-planning/leg-types.md)
 - Better turn prediction algorithm with support for overfly, course capture, path capture, direct turn, reverse turn, reversions and more
 - Support for marking waypoints as overfly in the F-PLN page
 - Realistic ND rendering based on IRL hardware and software architecture
@@ -31,7 +33,6 @@ We have made some improvements to the AP and FBW. We **highly recommend** using 
 - Some turns might revert / de-revert right before they become active in case of speed changes
 - Turn reversion heuristics are not tuned perfectly yet
 - VM legs sometimes have the wrong course
-- Holding patterns embedded in some procedures might not have perfect entries or turn radius
 - AF, CD, VI, VR, FA, FM, FC, FD, PI legs are not supported
     - see [List of Leg Types ](../../pilots-corner/advanced-guides/flight-planning/leg-types.md)
 
