@@ -115,25 +115,36 @@ It is important to call the controller on an initial call per voice and monitor 
 
 The CPDLC system is only a convenience to relax the voice frequency. Time critical instructions will be given via voice.
 
-### Pre-Departure Clearance
+### Departure Clearance
 
-After preparation of the aircraft an IFR clearance is required which can be requested via PDC (Pre-Departure Clearance).
+After preparation of the aircraft an IFR clearance is required which can be requested via DCL (Departure Clearance).
 
-The request page can be found in the MCDU ATSU-AOC menu.
+The request page can be found in the MCDU ATC COMM menu page 2:
 
-!!! note "MCDU ATSU AOC Menu"
-    ![AOC](../assets/feature-guides/hoppie/mcdu-aoc-pdc.png "AOC"){loading=lazy}
+!!! note "MCDU ATC COMM Menu"
+    !!! block ""
+        ![atc-menu-p1](../assets/feature-guides/hoppie/atc-menu-p1.png){align=center width=48% loading=lazy}
+        ![atc-menu-p2](../assets/feature-guides/hoppie/atc-menu-p2-dcl.png){align=center width=48% loading=lazy}
 
 The DEPART REQ page requires the current ATC station code and the current ATIS. Providing a gate and freetext is optional.
 
 !!! note "Departure Request"
     !!! block ""
-        ![DEPART REQ](../assets/feature-guides/hoppie/mcdu-pdc.png "PDC"){align=center width=48% loading=lazy}
-        ![DEPART REQ Filled](../assets/feature-guides/hoppie/mcdu-pdc-filled.png "PDC"){align=center width=48% loading=lazy}
+        ![DEPART REQ](../assets/feature-guides/hoppie/mcdu-dcl.png "DCL"){align=center width=48% loading=lazy}
+        ![DEPART REQ Filled](../assets/feature-guides/hoppie/mcdu-dlc-filled.png "DCL"){align=center width=48% loading=lazy}
 
-The `ATC FLT NBR` and `FROM/TO` is taken from the INIT A page. So it is important that the aircraft is set up before requesting the IFR clearance.
+The `ATC FLT NBR` and `FROM/TO` is taken from the INIT A page. So it is important that the INIT A page is set up before requesting the IFR clearance.
 
 Freetext can and should be used to provide additional information to the controller. E.g. the inability for specific SIDs or the request of a dedicated SID.
+
+Press `REQ DISPL` to transfer the request to the DCDU.
+
+You can then check the message in the DCDU and send it by pressing the button next to `SEND*`
+
+!!! note "DCDU Departure Request"
+    !!! block ""
+        ![dcdu-dcl-before-send](../assets/feature-guides/hoppie/dcdu-dcl-before-send.png){align=center width=48% loading=lazy}
+        ![dcdu-dcl-after-send](../assets/feature-guides/hoppie/dcdu-dcl-after-send.png){align=center width=48% loading=lazy}
 
 The controller sends the clearance with all relevant information.
 This information includes usually the departure runway, the SID, the assigned squawk code and a startup time.
@@ -214,6 +225,61 @@ If the next ATC station provides CPDLC we can notify this next station which wou
 You can logoff from the current station if the next station does not provide CPDLC.
 
 ![Logoff / Disconnect](../assets/feature-guides/hoppie/dcdu-logoff.png "Logoff / Disconnect"){loading=lazy}
+
+### Oceanic clearance
+
+It is also possible to request an Oceanic Clearance (OCL) from ATC.
+
+!!! note "MCDU ATC COMM Menu"
+    !!! block ""
+        ![atc-menu-p1](../assets/feature-guides/hoppie/atc-menu-p1.png){align=center width=48% loading=lazy}
+        ![atc-menu-p2-ocl](../assets/feature-guides/hoppie/atc-menu-p2-ocl.png){align=center width=48% loading=lazy}
+
+The OCEANIC REQ page requires you to be on the last station before an oceanic route. You need to enter your planned entry point, time at entry point, speed and flight level.
+
+In the example below this would be station `EGGX` (Shanwick Oceanic FIR) and the entry point would be `ETIKI` for NAT D.
+
+You would ask for the oceanic clearance about 30min before reaching the entry point.
+
+!!! note "Oceanic Request"
+    !!! block ""
+        ![OCEANIC  REQ](../assets/feature-guides/hoppie/mcdu-ocl.png "OCL"){align=center width=48% loading=lazy}
+        ![OCEANIC REQ Filled](../assets/feature-guides/hoppie/mcdu-olc-filled.png "OCL"){align=center width=48% loading=lazy}
+
+!!! note "Oceanic Clearance Request and ATC Response"
+    !!! block ""
+        ![dcdu-ocl-req](../assets/feature-guides/hoppie/dcdu-ocl-req.png){align=center width=48% loading=lazy}
+        ![dcdu-ocl-clearance](../assets/feature-guides/hoppie/dcdu-ocl-clearance.png){align=center width=48% loading=lazy}
+
+Fifteen (15) minutes after passing the entry point you need to set your squawk to 2000. You will receive a new squawk when entering a domestic sector again.
+
+##  ATIS Auto Update
+
+To receive ATIS information and setup auto update of specific ATIS go to the ATC COMM menu and click on `ATIS`.
+
+The source for your ATIS information can be configured in the EFB Settings page: [EFB ATSU-AOC Options](./flyPad/settings.md#atsuaoc)
+
+!!! note "MCDU ATC COMM Menu"
+    !!! block ""
+        ![atc-menu-p1](../assets/feature-guides/hoppie/atc-menu-p1.png){align=center width=48% loading=lazy}
+        ![atc-menu-p2-atis](../assets/feature-guides/hoppie/atc-menu-p2-atis.png){align=center width=48% loading=lazy}
+
+From the `ATIS Menu` page you can request ATIS information directly by pushing the right side LSK next to `REQ SEND*`. You also can clr, change and add additional airports (example formats see screenshots).
+
+You can chose to automatically update ATIS information by pressing the LSK R4 `AUTO UPDATE`and then configure the auto updates on the next page.
+
+!!! note "ATIS and Auto Update"
+    !!! block ""
+        ![mcdu-atis-menu](../assets/feature-guides/hoppie/mcdu-atis-menu.png){align=center width=48% loading=lazy}
+        ![mcdu-atis-autoupdate](../assets/feature-guides/hoppie/mcdu-atis-autoupdate.png){align=center width=48% loading=lazy}
+        <br/>
+        ![mcdu-atis-menu-2](../assets/feature-guides/hoppie/mcdu-atis-menu-2.png){align=center width=48% loading=lazy}
+        ![mcdu-atis-menu-3](../assets/feature-guides/hoppie/mcdu-atis-menu-3.png){align=center width=48% loading=lazy}
+        <br/>
+        ![mcdu-atis-4](../assets/feature-guides/hoppie/mcdu-atis-4.png){align=center width=48% loading=lazy}
+        ![mcdu-atis-details](../assets/feature-guides/hoppie/mcdu-atis-details.png){align=center width=48% loading=lazy}
+
+Pressing the LSK R6 allows you to automatically print ATIS information to the printer.
 
 ## Troubleshooting
 
