@@ -78,7 +78,7 @@ The logon code needs to be set in "Hoppie User ID".
 
 You need to turn on the Hoppie ACARS Connection on the EFB ATC page every time before doing a flight.
 
-![Hoppie Connect/Disconnect Button](../assets/feature-guides/hoppie/efb-atc-hoppie-button.png "Hoppie Connect/Disconnect Button")
+![Hoppie Connect/Disconnect Button](../assets/feature-guides/hoppie/efb-atc-hoppie-button.png "Hoppie Connect/Disconnect Button"){loading=lazy}
 
 {==
 
