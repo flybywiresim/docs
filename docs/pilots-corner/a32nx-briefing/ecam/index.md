@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="../../../stylesheets/toc-tables.css">
+
 # ECAM Overview
 
 ## Description
@@ -14,5 +16,7 @@ The Electronic Centralized Aircraft Monitoring (ECAM) consists of two displays:
 
 ##  Topics
 
-- [ECAM Engine and Warning Display](ecam-e-wd.md)
-- [ECAM Systems Display](sd/index.md)
+| Quick Links                                     |
+| :----                                           |
+| [ECAM Engine and Warning Display](ecam-e-wd.md) |
+| [ECAM Systems Display](sd/index.md)             |

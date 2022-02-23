@@ -451,7 +451,7 @@ Click on "Save & Apply".
 
         You still should verify the configurations as described below as all hardware units are slightly different.
 
-        ```
+        ```ini title="ThrottleConfiguration.ini"
         [throttle_common]
         reverse_on_axis = false
 
@@ -696,7 +696,7 @@ To restore the default values you can just delete this file. It will be regenera
 
 Example "**ThrottleConfiguration.ini**" file based on the default values:
 
-```
+```ini title="ThrottleConfiguration.ini"
 [throttle_common]
 reverse_on_axis = true
 

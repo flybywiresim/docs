@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="../../../../stylesheets/pfd-interactive.css">
+<link rel="stylesheet" href="../../../stylesheets/toc-tables.css">
 
 # Primary Flight Display (PFD)
 
@@ -45,11 +46,13 @@ The Primary Flight Display (PFD) is the main aviation instrument for the pilots.
 
 ## Chapters
 
-- [Flight Mode Annunciators](fma.md)
-- [Actual Airspeed Reference Line and Scale](speedtape.md)
-- [Attitude and Guidance](artificial-horizon.md)
-- [Altitude Indicator](altitude-indicator.md)
-- [Barometric Reference](baro-ref.md)
-- [Heading Reference Line and Scale](heading-ref.md)
-- [Vertical Speed indicator](vertical-speed.md)
-- [Flags and Messages](flags-messages.md)
+|Quick Links|
+|:----|
+| [Flight Mode Annunciators](fma.md)|
+|[Actual Airspeed Reference Line and Scale](speedtape.md)|
+|[Attitude and Guidance](artificial-horizon.md)|
+|[Altitude Indicator](altitude-indicator.md)|
+|[Barometric Reference](baro-ref.md)|
+|[Heading Reference Line and Scale](heading-ref.md)|
+|[Vertical Speed indicator](vertical-speed.md)|
+|[Flags and Messages](flags-messages.md)|

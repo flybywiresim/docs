@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="../../stylesheets/toc-tables.css">
+
 # FlyByWire A32NX Overview
 
 This section of the FlyByWire Documentation is dedicated to the A32NX add-on itself. It covers the software and more technical aspects of the FlyByWire add-on.
@@ -8,11 +10,17 @@ The A32NX Project is a community-driven open source project to create a free Air
 
 The following aircraft configurations are currently simulated:
 
-```
-Model      A320-251N
-Engine     LEAP 1A-26
-FMGS       Honeywell Pegasus II
-FWC Std.   H2F9C
+```title="Simulated Hardware"
+Model       A320-251N
+Engine      CFM LEAP 1A-26
+APU         APS3200
+FMS         Honeywell Release H3
+FWC Std.    H2F9C
+TAWS        Honeywell EGPWS
+ACAS        Honeywell TPA-100B
+ATC         Honeywell TRA-100B
+MMR         Honeywell iMMR
+WXR         Honeywell RDR-4000
 ```
 
 ## Quick Links
@@ -25,12 +33,13 @@ FWC Std.   H2F9C
 
 ##  Topics
 
-- [Version and Feature Guide](fbw-versions.md)
-- [Installation Guide](installation.md)
-- [Livery Guide](liveries.md)
-- [Support](support/index.md)
-- [Feature Guides](feature-guides/)
-- [API and Hardware](a32nx-api)
+| Featured List                                |
+| :----                                        |
+| [Installation Guide](installation.md)        |
+| [Version and Feature Guide](fbw-versions.md) |
+| [Livery Guide](liveries.md)                  |
+| [Support](support/index.md)                  |
+| [API and Hardware](a32nx-api)                |
 
 
 
