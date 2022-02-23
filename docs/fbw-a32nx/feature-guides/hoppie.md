@@ -7,24 +7,26 @@
 !!! warning "Development in progress"
     The Hoppie ACARS system is a complex system and we have decided to develop and release it step-by-step. So please be aware that not all features are available in the early releases and that we will add additional functionality over time.
 
-    The initial version will lay the base for communication with the Hoppie network. It will have the following features:
+    The current version has have the following features:
 
     - Logon/Logoff
     - Handover
     - Station identifier
     - Controller to pilot: All Instructions
-    - Pilot to controller: Pre departure clearance (PDC)
+    - Automatic D-ATIS
+    - Departure Clearance (DCL)
+    - Oceanic Clearance (OCL)
 
     The currently planned future releases are adding these features:
 
     - Datalink Status
-    - Automatic D-ATIS, DCL, OCL
     - Pilot requests: Vert & Lat requests, Text
     - Other pilot requests: E.g. "When can we expect..."
     - Emergency
     - Controller report-requests and automatic preparation of pilot replies
     - FPL changes for Lat requests
     - Flight Monitoring for conditional reports
+    - Realistic datalink communication simulation (VHF+VDL3)
 
     This plan might change at any time.
 
@@ -226,7 +228,7 @@ You can logoff from the current station if the next station does not provide CPD
 
 ![Logoff / Disconnect](../assets/feature-guides/hoppie/dcdu-logoff.png "Logoff / Disconnect"){loading=lazy}
 
-### Oceanic clearance
+## Oceanic clearance
 
 It is also possible to request an Oceanic Clearance (OCL) from ATC.
 
