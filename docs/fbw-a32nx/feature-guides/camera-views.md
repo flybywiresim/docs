@@ -18,7 +18,7 @@ These views can therefore also be mapped to any button on a controller for quick
 
 ## List of Custom Camera Views
 
-!!! info "All and maybe more or maybe lkess Views (use keyboard arrows to navigate)"
+!!! info "All Views (use keyboard arrows to navigate)"
 
     === "1"
 
