@@ -39,7 +39,10 @@ This is best explained by simBrief itself - [simBrief User Guide](https://www.si
 
 ### Setup A32NX simBrief Integration
 
-See [Setup simBrief Integration](flyPad/settings.md#simbrief-integration)
+The simbrief username needs to configured in the flyPad EFB. See [Setup simBrief Integration](flyPad/settings.md#simbrief-integration)
+
+!!! warning "Stable Version: simBrief Configuration"
+    In addition to the flyPad EFB configuration the Stable version also needs the simbrief ID to be configured in the MCDU MENU page under `OPTIONS -> AOC -> SIMBRIEF`.
 
 ### Importing the simBrief OFP to the flyPad
 
@@ -83,7 +86,7 @@ This will prepare the MCDU to input the flight plan.
 #### ^^Initialize Flight Plan^^
 
 !!! warning "IMPORTANT"
-    Do not select an arrival airport on the MSFS world menu or flight planner. Doing this "initializes" the `FROM/TO` field when loading into your flight removing the INIT REQ. option from the `INIT A` page. 
+    Do not select an arrival airport on the MSFS world menu or flight planner. Doing this "initializes" the `FROM/TO` field when loading into your flight removing the INIT REQ. option from the `INIT A` page.
 
 Head over to the `INIT A` page.
 
