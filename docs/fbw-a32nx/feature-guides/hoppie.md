@@ -266,7 +266,7 @@ The source for your ATIS information can be configured in the EFB Settings page:
         ![atc-menu-p1](../assets/feature-guides/hoppie/atc-menu-p1.png){align=center width=48% loading=lazy}
         ![atc-menu-p2-atis](../assets/feature-guides/hoppie/atc-menu-p2-atis.png){align=center width=48% loading=lazy}
 
-From the `ATIS Menu` page you can request ATIS information directly by pushing the right side LSK next to `REQ SEND*`. You also can clr, change and add additional airports (example formats see screenshots).
+From the `ATIS Menu` page you can request ATIS information directly by pushing the right side LSK next to `REQ SEND*`. You also can CLR, change and add additional airports (example formats see screenshots).
 
 You can chose to automatically update ATIS information by pressing the LSK R4 `AUTO UPDATE`and then configure the auto updates on the next page.
 
