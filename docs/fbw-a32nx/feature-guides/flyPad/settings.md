@@ -101,7 +101,9 @@ Settings for simulation aspects of the A32NX aircraft.
     - User can change the port for the internal MCDU websocket server in case the default port is already occupied on the user's system.
     - Default is: 8380
     - ~~This is not the port for using in the browser to access the MCDU Web Interface.~~
-- Detents:
+- Use calculated ILS signals
+    - Enable this setting to use a calculated ILS signal instead of the signal provided by Microsoft Flight Simulator.
+    - This avoids unwanted and unrealistic loss of the ILS signal in Microsoft Flight Simulator which often happens when the aircraft gets below the antenna position.
     - See [Throttle Configuration](throttle-calibration.md).
 
 ## Realism
