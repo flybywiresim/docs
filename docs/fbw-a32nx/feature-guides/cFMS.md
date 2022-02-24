@@ -70,7 +70,6 @@ For guides on utilizing features included with our custom FMS see the [Guides an
 - INTCPT calculation can be off on large distances.
 - Course captures do not adapt to PPOS when nextLeg is active. This can cause the final path to be off to the side.
 - WX and TERR on ND are not implemented yet. We are waiting for better API support by Microsoft Flight Simulator. See our [Forums Feature Request](https://forums.flightsimulator.com/t/implement-weather-and-terrain-api-s-for-aircraft-developers-to-implement-accurate-radar-predictive-windshear-egpws-and-metar-wind-uplink/442016){target=new}.
-- Only 3 Leg Types/1 Transition supported at this time. Although these cover most of the important types there might be some issues with other leg types during flight guidance. We will be significantly improving this in future updates.
 - Rendering of flight path on the ND of terminal procedure legs may be glitched or incorrect during cruise. - [See Special Notes](../feature-guides/cFMS.md#flight-path-rendering).
 - Rendering of flight path on the ND of legs will be glitched or incorrect if you are flying faster than the appropriate/correct speed. - [See Special Notes](../feature-guides/cFMS.md#flight-path-rendering).
 - Syncing the aircraft flight plan with the sim's flight plan for default ATC and VFR map is not 100% supported. - [See Special Notes](../feature-guides/cFMS.md#flight-plan-sync-msfs-atc--vfr-map).
@@ -108,13 +107,13 @@ Enabling this feature should allow:
     - Switch the `Sync MSFS Flight Plan` setting to `Save`.
     - Continue entering your flight plan or perform an INIT REQ.
 
-### WX/TER/TCAS
+### WX/TER
 
-!!! note "As stated in our [CFMS NOTAM](https://flybywiresim.com/notams/cfms/)"
+!!! note "TCAS is now available in the development version. Please see our [CFMS NOTAM](https://flybywiresim.com/notams/cfms/) for further WX/TER information."
 
-It is important to note that the weather and terrain radars, as well as TCAS, are not available yet with cFMS v1. Our current focus is to deliver a more realistic flight planning and navigation experience while maintaining performance and reliability. However, we are not satisfied with how the default code performs together with our custom systems.
+It is important to note that the weather and terrain radars are not available yet with the latest version of our cFMS(v1.5). Our current focus is to deliver a more realistic flight planning and navigation experience while maintaining performance and reliability. However, we are not satisfied with how the default code performs together with our custom systems.
 
-We believe the benefits that cFMS provides outweigh the temporary lack of WX/TERR/TCAS functionality on the development version. We are already hard at work developing our TCAS system and we will provide more details on it as soon as we can. Weather and terrain still prove to be a challenge due to the lack of a native SDK API. We have posted about it on the MSFS forums, where it currently sits at the top of the wishlist and Asobo are investigating how to best improve their API.
+We believe the benefits that cFMS provides outweigh the temporary lack of WX/TERR/ functionality on the development version. Weather and terrain still prove to be a challenge due to the lack of a native SDK API. We have posted about it on the MSFS forums, where it currently sits at the top of the wishlist and Asobo are investigating how to best improve their API.
 
 [Read more about weather and terrain API.](https://forums.flightsimulator.com/t/implement-weather-and-terrain-api-s-for-aircraft-developers-to-implement-accurate-radar-predictive-windshear-egpws-and-metar-wind-uplink/442016){target=new}
 
