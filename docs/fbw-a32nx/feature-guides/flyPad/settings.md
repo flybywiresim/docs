@@ -104,6 +104,8 @@ Settings for simulation aspects of the A32NX aircraft.
 - Use calculated ILS signals
     - Enable this setting to use a calculated ILS signal instead of the signal provided by Microsoft Flight Simulator.
     - This avoids unwanted and unrealistic loss of the ILS signal in Microsoft Flight Simulator which often happens when the aircraft gets below the antenna position.
+    - In some rare cases this can cause a faulty G/S signal. In this case this setting can be disabled with immediate effect.
+- Detents
     - See [Throttle Configuration](throttle-calibration.md).
 
 ## Realism
