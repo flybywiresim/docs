@@ -65,6 +65,10 @@ For guides on utilizing features included with our custom FMS see the [Guides an
 
 ## Known Issues
 
+- CA leg terminations are sometimes in the wrong place, and do not adapt to V/S.
+- Some path captures will be incorrectly drawn. This will not affect guidance.
+- INTCPT calculation can be off on large distances.
+- Course captures do not adapt to PPOS when nextLeg is active. This can cause the final path to be off to the side.
 - WX and TERR on ND are not implemented yet. We are waiting for better API support by Microsoft Flight Simulator. See our [Forums Feature Request](https://forums.flightsimulator.com/t/implement-weather-and-terrain-api-s-for-aircraft-developers-to-implement-accurate-radar-predictive-windshear-egpws-and-metar-wind-uplink/442016){target=new}.
 - Only 3 Leg Types/1 Transition supported at this time. Although these cover most of the important types there might be some issues with other leg types during flight guidance. We will be significantly improving this in future updates.
 - Rendering of flight path on the ND of terminal procedure legs may be glitched or incorrect during cruise. - [See Special Notes](../feature-guides/cFMS.md#flight-path-rendering).
