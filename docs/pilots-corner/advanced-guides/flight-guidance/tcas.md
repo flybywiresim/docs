@@ -4,7 +4,7 @@
 
 The initial implementation of TCAS is available in the development and experimental branch at this time. Please note details about this system and it's functions will come at a later time.
 
-Currently we support online network traffic (Vatsim / IVAO).
+Our TCAS supports online network traffic services (Vatsim / IVAO).
 
 ==}
 
