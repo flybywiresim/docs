@@ -14,7 +14,6 @@ Our TCAS supports online network traffic services (Vatsim / IVAO).
 - No support of multiplayer (MSFS) traffic (sim limitation)
 - Possible false detection of ground traffic
 - Possible ghost TA / RA due to jumping traffic (*improvements and changes expected*)
-- No performance optimization yet
 
 !!! tip "A Quick Note on TCAS Performance"
     TCAS relative altitude is now based on plane altitude (true altitude) for both airplanes. This should work exactly as intended for MSFS airplanes relative to one another (though not as the IRL TCAS works). It can still be somewhat of an issue when on a network with non-MSFS airplanes.
