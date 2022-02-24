@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="/../../stylesheets/reported-issues.css">
+
 # Custom Flight Management System
 
 !!! warning "Not available in the Stable Version"
@@ -65,7 +67,7 @@ For guides on utilizing features included with our custom FMS see the [Guides an
 
 ## Known Issues
 
-- CA leg terminations are sometimes in the wrong place, and do not adapt to V/S.
+- CA leg terminations are sometimes in the wrong place, and does not adapt to V/S.
 - Some path captures will be incorrectly drawn. This will not affect guidance.
 - INTCPT calculation can be off on large distances.
 - Course captures do not adapt to PPOS when nextLeg is active. This can cause the final path to be off to the side.
