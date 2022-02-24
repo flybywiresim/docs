@@ -40,7 +40,7 @@ We have made some improvements to the AP and FBW. We **highly recommend** using 
 
 !!! tip "Now Available in the Development Version"
 
-Please see our [cFMS page](../feature-guides/cFMS.md) for more details.
+Please see our [TCAS Page](../../pilots-corner/advanced-guides/flight-guidance/tcas.md) for more details.
 
 ## How to Report Issues
 
