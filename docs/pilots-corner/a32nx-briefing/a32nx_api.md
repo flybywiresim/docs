@@ -620,14 +620,7 @@ Flight Deck: [ISIS Panel](flight-deck/front/isis.md)
 
 ### Clock
 
-
-Flight Deck: [Chrono Panel](flight-deck/front/clock.md)
-
-| Function            | API Usage                    | Values                | Read/Write | Type        | Remark                       |
-|:--------------------|:-----------------------------|:----------------------|:-----------|:------------|:-----------------------------|
-| ELAPSED TIME SWITCH | A32NX_CHRONO_ET_SWITCH_POS   | 0..2                  | R/W        | Custom LVAR | 0 = RUN, 1 = STOP, 2 = RESET |
-| ELAPSED TIME        | A32NX_CHRONO_ET_ELAPSED_TIME | seconds with decimals | R          | Custom LVAR |                              |
-| CHRONO TIME         | A32NX_CHRONO_ELAPSED_TIME    | seconds with decimals | R          | Custom LVAR |                              |
+N/A
 
 ### TERR ON ND
 
