@@ -14,32 +14,57 @@ For guides on utilizing features included with our custom FMS see the [Guides an
 
 ## Features
 
-### Version 1
+???+ info "Version 1.5"
+    ### Version 1.5
 
-- [x] Custom flight plan management replacing the default Asobo flight plan manager (FPM).
-- [x] SID/STAR/APPR waypoints can now be edited.
-- [x] No more USR waypoints from the Asobo FPM.
-- [x] Correct procedure and direct-to sequencing.
-- [x] Added Discontinuities as in the real life aircraft. See [Guides and Information](#guides-and-information) below.
-- [x] Support for multiple leg types:
-    - [x] TF: Track to a Fix defines a great circle track over ground between two known databases fixes.
-    - [x] RF: Constant Radius Arc defines a constant radius turn between two database fixes, lines tangent to the arc and a center fix.
-    - [x] VM: Heading to a manual termination defines a specified heading until a Manual termination.
-- [x] Cross-track error indicator on the ND.
-- [x] Improved LNAV turn prediction.
-- [x] Roll anticipation distance.
-- [x] Improved flight plan rendering / drawing.
-- [x] Improved ND display filters for ARPT, VOR, NDB, WPTs.
-- [x] MCDU FIX INFO page for radials and distance circles on navigation fixes. See [Guides and Information](#guides-and-information) below.
+    We have introduced new features to the custom flight management system as part of a minor update. Please see the list below:
+
+    - LNAV Updates
+        - Holding Patterns
+        - Turn direction constraints on non-TF legs
+        - Overfly restriction support
+        - ARINC424 Leg Types
+            - AF, CA, CI, CR, CF, DF, HF, HM, HA legs ([See List of Leg Types](../../pilots-corner/advanced-guides/flight-planning/leg-types.md))
+        - Turn Prediction Types
+            - Path capture
+            - Course capture
+            - Direct to fix turn
+            - Holding pattern entry turn
+    - Navigation Display
+        - Removed flight plan loading from localStorage
+        - Corrected active waypoint ETA display
+        - Added `EfisVectors` systems with optimized transmit task queue + support for future display of OFFSET, SECONDARY, SECONDARY DASHED, MISSED APPROACH, ALTERNATE and EOSID flight paths.
+    - Initial Implementation of Traffic Alert and Collision Avoidance System (TCAS) 
+
+??? info "Version 1"
+    ### Version 1
+
+    This constitutes the original feature set of our custom flight management system.
+        
+    - Custom flight plan management replacing the default Asobo flight plan manager (FPM).
+    - SID/STAR/APPR waypoints can now be edited.
+    - No more USR waypoints from the Asobo FPM.
+    - Correct procedure and direct-to sequencing.
+    - Added Discontinuities as in the real life aircraft. See [Guides and Information](#guides-and-information) below.
+    - Support for multiple leg types:
+        - TF: Track to a Fix defines a great circle track over ground between two known databases fixes.
+        - RF: Constant Radius Arc defines a constant radius turn between two database fixes, lines tangent to the arc and a center fix.
+        - VM: Heading to a manual termination defines a specified heading until a Manual termination.
+    - Cross-track error indicator on the ND.
+    - Improved LNAV turn prediction.
+    - Roll anticipation distance.
+    - Improved flight plan rendering / drawing.
+    - Improved ND display filters for ARPT, VOR, NDB, WPTs.
+    - MCDU FIX INFO page for radials and distance circles on navigation fixes. See [Guides and Information](#guides-and-information) below.
 
 ## Guides and Information
 
 - [MCDU Fix Info](../../pilots-corner/advanced-guides/flight-planning/fixinfo.md)
 - [Flight Plan Discontinuities](../../pilots-corner/beginner-guide/preparing-mcdu.md#discontinuity)
+- TCAS Guide - <span style="color:red">**Advanced Guide Coming Soon**</span>
 
 ## Known Issues
 
-- TCAS is not implemented yet. No traffic shown, TCAS elements are cosmetic only.
 - WX and TERR on ND are not implemented yet. We are waiting for better API support by Microsoft Flight Simulator. See our [Forums Feature Request](https://forums.flightsimulator.com/t/implement-weather-and-terrain-api-s-for-aircraft-developers-to-implement-accurate-radar-predictive-windshear-egpws-and-metar-wind-uplink/442016){target=new}.
 - Only 3 Leg Types/1 Transition supported at this time. Although these cover most of the important types there might be some issues with other leg types during flight guidance. We will be significantly improving this in future updates.
 - Rendering of flight path on the ND of terminal procedure legs may be glitched or incorrect during cruise. - [See Special Notes](../feature-guides/cFMS.md#flight-path-rendering).
@@ -51,6 +76,25 @@ For guides on utilizing features included with our custom FMS see the [Guides an
 - Flight plan frozen on loading in (Please post the specific route on which this occurs and under what circumstances, i.e. spawning in c&d using the MSFS flight planner, or simBrief, or loading in .PLN generated by simBrief or other external program).
 - Fuel calculations might be incorrect.
 - Route on VFR map will not match up with what is shown on the ND.
+
+### TCAS Known Issues
+
+- No support for offline AI traffic (sim limitation)
+- No support of multiplayer (MSFS) traffic (sim limitation)
+- Possible false detection of ground traffic
+- Possible ghost TA / RA due to jumping traffic (*improvements and changes expected*)
+- No performance optimization yet
+
+!!! tip "A Quick Note on TCAS Performance"
+    TCAS relative altitude is now based on plane altitude (true altitude) for both airplanes. This should work exactly as intended for MSFS airplanes relative to one another (though not as the IRL TCAS works). It can still be somewhat of an issue when on a network with non-MSFS airplanes.
+
+    The reason for this is that MSFS is the only sim that should correctly compute the true altitude. Depending on the atmospheric conditions, an MSFS airplane flying in the same weather and with the same baro setting as a non-MSFS airplane may be at a different true altitude than the non-MSFS airplane. Said differently, each aircraft could be at the same altitude in their respective simulator, but TCAS would show them at different altitudes.
+
+    {==
+
+    This is not just a TCAS issue. It is an issue that VATSIM and all the other networks are struggling with so that ATC sees all airplanes, regardless of sim, at the right altitudes, at least relative to one another.
+
+    ==}
 
 ## Special Notes
 
