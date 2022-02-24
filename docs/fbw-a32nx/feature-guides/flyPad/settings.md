@@ -243,10 +243,10 @@ Settings for various audio sources and sounds.
     - Volume for sounds audible when in external views.
 
 - Engine Interiors Sounds:
-    - Volume for engine sounds inside the cockpit.
+    - Volume for engine sounds when in interior views.
 
 - Wind Interior Volume:
-    - Volume for wind sounds inside in cockpit.
+    - Volume for wind sounds when in interior views.
 
 - Passenger Ambience
     - If this setting is enabled the following ambience sounds are played:
