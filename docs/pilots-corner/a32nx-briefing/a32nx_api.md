@@ -85,7 +85,7 @@ Flight Deck:  [EXT LT Panel](flight-deck/ovhd/ext-lt.md)
 |              | STROBES_OFF           | -      | -          | SIMCONNECT EVENT | OFF and ON (no AUTO)                                               |
 |              | LIGHT STROBE          | 0 \| 1 | R/W        | SIMCONNECT VAR   | OFF and ON (no AUTO)                                               |
 |              | STROBE_0_AUTO         | 0 \| 1 | R/W        | Custom LVAR      | AUTO only when STROBES are ON                                      |
-|              | LIGHTING_STROBE_0     | 0 \| 1 | R          |                  | 2=OFF, 1=AUTO, 0=ON                                                |
+|              | LIGHTING_STROBE_0     | 0..2   | R/W        |                  | 2=OFF, 1=AUTO, 0=ON                                                |
 |              |                       |        |            |                  |                                                                    |
 | BEACON       | BEACON_SET            | 0 \| 1 | -          | SIMCONNECT EVENT |                                                                    |
 |              | BEACON_TOGGLE         | -      | -          | SIMCONNECT EVENT |                                                                    |
@@ -97,7 +97,7 @@ Flight Deck:  [EXT LT Panel](flight-deck/ovhd/ext-lt.md)
 |              | BEACON_TOGGLE         | -      | -          | SIMCONNECT EVENT |                                                                    |
 |              | BEACON_ON             | -      | -          | SIMCONNECT EVENT |                                                                    |
 |              | BEACON_OFF            | -      | -          | SIMCONNECT EVENT |                                                                    |
-|              | LIGHT BEACON          | 0 \| 1 | R/W        | SIMCONNECT VAR   |                                                                    |
+|              | LIGHT WING            | 0 \| 1 | R/W        | SIMCONNECT VAR   |                                                                    |
 |              |                       |        |            |                  |                                                                    |
 | NAV & LOGO   | NAV_LIGHTS_SET        | 0 \| 1 | -          | SIMCONNECT EVENT | LOGO needs to be set separately                                    |
 |              | LIGHT NAV             | 0 \| 1 | R/W        | SIMCONNECT VAR   | LOGO needs to be set separately                                    |
@@ -124,7 +124,7 @@ Flight Deck:  [EXT LT Panel](flight-deck/ovhd/ext-lt.md)
 |              | LIGHT TAXI            | 0 \| 1 | R/W        | SIMCONNECT VAR   | Only switches TAXI light                                           |
 |              | LANDING_LIGHTS_TOGGLE | 1      | -          | SIMCONNECT EVENT | Toggles switch between T.O. and OFF                                |
 |              | CIRCUIT SWITCH ON:20  | 0 \| 1 | R/W        | MSFS VAR         | NOSE TAXI                                                          |
-|              | CIRCUIT SWITCH ON:17  | 0 \| 1 | R/W        | MSFS VAR         | NODE T.O.                                                          |
+|              | CIRCUIT SWITCH ON:17  | 0 \| 1 | R/W        | MSFS VAR         | NOSE T.O.                                                          |
 
 !!! note "Landing and Taxi lights"
     The default behaviour of the SIMCONNECT events for landing lights and taxi
@@ -942,19 +942,21 @@ Flight Deck: [WX Radar Panel](flight-deck/pedestal/radar.md)
 
 Flight Deck: [ATC-TCAS Panel](flight-deck/pedestal/atc-tcas.md)
 
-| Function     | API Usage                          | Values | Read/Write | Type        | Remark                                           |
-|:-------------|:-----------------------------------|:-------|:-----------|:------------|:-------------------------------------------------|
-| ATC MODE     | TRANSPONDER STATE:1                | 0 \| 4 | R/W        | MSFS VAR    | 0=STBY, 4=AUTO/ON<br/>~~(probably more states)~~ |
-|              |                                    |        |            |             |                                                  |
-| ATC XPDR 1/2 | N/A                                |        |            |             |                                                  |
-|              |                                    |        |            |             |                                                  |
-| ALT RPTG     | A32NX_SWITCH_ATC_ALT               | 0..2   | R/W        | Custom LVAR | 0=OFF, 1=?, 2=ON                                 |
-|              |                                    |        |            |             |                                                  |
-| IDENT        | N/A                                |        |            |             |                                                  |
-|              |                                    |        |            |             |                                                  |
-| TCAS MODE    | A32NX_SWITCH_TCAS_TRAFFIC_POSITION | 0..3   | R/W        | Custom LVAR | 0=THRT, 1=ALL, 2=ABV, 3=BLW                      |
-|              |                                    |        |            |             |                                                  |
-| TCAS TRAFFIC | A32NX_SWITCH_TCAS_POSITION         | 0..2   | R/W        | Custom LVAR | 0=STBY, 1=TA, 2=TA/RA                            |
+| Function     | API Usage                          | Values      | Read/Write | Type             | Remark                      |
+|:-------------|:-----------------------------------|:------------|:-----------|:-----------------|:----------------------------|
+| ATC MODE     | A32NX_TRANSPONDER_MODE             | 0..2        | R/W        | Custom LVAR      | 0=STBY, 1=AUTO, 2=ON        |
+|              |                                    |             |            |                  |                             |
+| ATC SYSTEM   | A32NX_TRANSPONDER_SYSTEM           | 0 \| 1      | R/W        | Custom LVAR      | 0 = System 1, 1 = System 2  |
+|              |                                    |             |            |                  |                             |
+| ALT RPTG     | A32NX_SWITCH_ATC_ALT               | 0 \| 1      | R/W        | Custom LVAR      | 0=OFF, 1=ON                 |
+|              |                                    |             |            |                  |                             |
+| SQUAWK       | TRANSPONDER CODE:1                 | 0000...7777 | R/W        | SIMCONNECT VAR   |                             |
+|              |                                    |             |            |                  |                             |
+| IDENT        | XPNDR_IDENT_ON                     | -           | -          | SIMCONNECT EVENT |                             |
+|              |                                    |             |            |                  |                             |
+| TCAS MODE    | A32NX_SWITCH_TCAS_TRAFFIC_POSITION | 0..3        | R/W        | Custom LVAR      | 0=THRT, 1=ALL, 2=ABV, 3=BLW |
+|              |                                    |             |            |                  |                             |
+| TCAS TRAFFIC | A32NX_SWITCH_TCAS_POSITION         | 0..2        | R/W        | Custom LVAR      | 0=STBY, 1=TA, 2=TA/RA       |
 
 ### ENG Panel
 
