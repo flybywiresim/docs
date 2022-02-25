@@ -16,29 +16,31 @@ For guides on utilizing features included with our custom FMS see the [Guides an
 
 ## Features
 
-???+ info "Version 1.5"
-    ### Version 1.5
+We will always list the latest updates in the following section. As we improve our custom flight management system older versions will be listed in a collapsible format in the [Older Versions](#older-versions) section. 
 
-    We have introduced new features to the custom flight management system as part of a minor update. Please see the list below:
+### Latest - Version 1.5
 
-    - LNAV Updates
-        - Holding Patterns
-        - Turn direction constraints on non-TF legs
-        - Overfly restriction support
-        - ARINC424 Leg Types
-            - AF, CA, CI, CR, CF, DF, HF, HM, HA legs ([See List of Leg Types](../../pilots-corner/advanced-guides/flight-planning/leg-types.md))
-        - Turn Prediction Types
-            - Path capture
-            - Course capture
-            - Direct to fix turn
-            - Holding pattern entry turn
-    - Navigation Display
-        - Removed flight plan loading from localStorage
-        - Corrected active waypoint ETA display
-        - Added `EfisVectors` systems with optimized transmit task queue + support for future display of OFFSET, SECONDARY, SECONDARY DASHED, MISSED APPROACH, ALTERNATE and EOSID flight paths.
+We have introduced new features to the custom flight management system as part of a minor update. Please see the list below:
+
+- LNAV Updates
+    - Holding Patterns
+    - Turn direction constraints on non-TF legs
+    - Overfly restriction support
+    - ARINC424 Leg Types
+        - AF, CA, CI, CR, CF, DF, HF, HM, HA legs ([See List of Leg Types](../../pilots-corner/advanced-guides/flight-planning/leg-types.md))
+    - Turn Prediction Types
+        - Path capture
+        - Course capture
+        - Direct to fix turn
+        - Holding pattern entry turn
+- Navigation Display
+    - Removed flight plan loading from localStorage
+    - Corrected active waypoint ETA display
+    - Added `EfisVectors` systems with optimized transmit task queue + support for future display of OFFSET, SECONDARY, SECONDARY DASHED, MISSED APPROACH, ALTERNATE and EOSID flight paths.
+
+### Older Versions
 
 ??? info "Version 1"
-    ### Version 1
 
     This constitutes the original feature set of our custom flight management system.
         
