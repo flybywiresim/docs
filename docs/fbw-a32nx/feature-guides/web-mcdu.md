@@ -80,13 +80,20 @@ The MCDU Web Interface can then be used by mouse or touch depending on your devi
 
 It is also possible to click on the MCDU screen items themselves to actually click the corresponding LSK (Line Select Key).
 
+You can hold the CLR key for >1.5sec to clear all of the scratchpad's content as it is possible in the cockpit itself.
+
 Changes done in the MCDU Web Interface will be reflected immediately in the cockpit and vice versa. Any change in the cockpit will be immediately shown in the MCDU Web Interface.
 
-If you want only the MCDU display to be shown then tap on the top-most part of the MCDU display. To return to the full MCDU view tap anywhere on the display.
+### Fullscreen Display
+If you only want the MCDU display to be shown then tap on the top-most part of the MCDU display. To return to the full MCDU view tap anywhere on the display.
 
 If you want to start with only the MCDU display visible then add `/fullscreen` to the url.
 
+### Sound
 You can enable click sounds when pressing buttons on the MCDU by adding `/sound` to the url.
+
+### Day and Night Mode
+It is possible to switch between a day and night mode MCDU visualization be clicking/touching the BRT/DIM button in the Web MCDU.
 
 ## Using Your Local Printer
 
