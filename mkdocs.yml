@@ -36,6 +36,15 @@ theme:
 plugins:
   - search:
       lang: en
+  - exclude-search:
+      exclude:
+        - pilots-corner/advanced-guides/flight-planning/holds.md
+        - pilots-corner/advanced-guides/flight-planning/fplan.md
+        - pilots-corner/advanced-guides/flight-planning/offset.md
+        - pilots-corner/advanced-guides/flight-guidance/approaches.md
+        - pilots-corner/advanced-guides/flight-guidance/autopilot.md
+        - pilots-corner/advanced-guides/flight-guidance/lnav.md
+        - pilots-corner/advanced-guides/flight-guidance/vnav.md
   - awesome-pages
   - git-revision-date-localized:
       type: date
