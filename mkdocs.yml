@@ -41,6 +41,7 @@ plugins:
         - pilots-corner/advanced-guides/flight-planning/holds.md
         - pilots-corner/advanced-guides/flight-planning/fplan.md
         - pilots-corner/advanced-guides/flight-planning/offset.md
+        - pilots-corner/advanced-guides/flight-planning/overview.md
         - pilots-corner/advanced-guides/flight-guidance/approaches.md
         - pilots-corner/advanced-guides/flight-guidance/autopilot.md
         - pilots-corner/advanced-guides/flight-guidance/lnav.md
