@@ -254,7 +254,7 @@ Settings for various audio sources and sounds.
 
 - Passenger Ambience
     - If this setting is enabled the following ambience sounds are played:
-        - Boarding sound begins when the W/B in `MCDU-ATSU-AOC/W&B` boarding is started.
+        - Boarding sound begins when the W/B in `MCDU-ATSU-AOC-W&B` boarding is started.
         - Once passengers are on the plane, a constant passenger ambience sound plays.
         - Deboarding through the the W/B section in `MCDU-ATSU-AO-W&B` triggers the deboarding sound.
 
