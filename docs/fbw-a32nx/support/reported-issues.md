@@ -69,6 +69,32 @@ TEMPLATE
 
 -->
 
+??? failure "Captain Side PFD Black Screen"
+
+    !!! tip ""
+        *Affected versions: Development*
+    
+    ^^Description^^
+
+    At varying stages of flight the captain's side PFD may switch off and remain black.
+    
+    ^^Root Cause^^
+
+    *Under Investigation*
+    
+    ^^Additional Information^^
+    
+    If you would like you can provide the following screenshot to use in our #support channel on Discord by following the steps below:
+    
+    ```title="Support Screenshot of PFD_TEMPLATE"
+    1. Pause your sim using ESC
+    2. Open your browser
+    3. Go to `http://localhost:19999/`
+    4. Click on the first link that says "PFD_TEMPLATE"
+    5. On the page that appears, click on the "Console" tab
+    6. Send a screenshot to our #support channel on Discord
+    ```
+
 ??? failure "Load Modules Async Causes CTD"
     ### Load Modules Async Causes CTD
 
