@@ -6,6 +6,15 @@
 
 !!! warning "Not available in the Stable Version"
 
+!!! info "Changes to Previous Version"
+    The MCDU Web Interface now uses a web server built into the newly release Local API Server. This Local API Server will host additional local services required for some features of the A32NX.
+
+    In the previous version it was necessary to have a http port (default 8125) and a websocket port (default 8380). The new server only requires one port to be configured. The default port is 8380.
+
+    The URL for the MCDU Web Interface has changed to [http://localhost:8380/interfaces/mcdu](http://localhost:8380/interfaces/mcdu){target=new}
+
+    Configuration is now done via a config file and not with command line arguments any longer. See [Advanced Start Options](#advanced-start-options).
+
 ## Overview
 
 The MCDU Web Interface allows you to display and control the MCDU on a browser including browsers on mobile devices like phones or tablets.
@@ -13,7 +22,7 @@ The MCDU Web Interface allows you to display and control the MCDU on a browser i
 See list of compatible and tested browsers: [Compatible Browsers](#compatible-browsers)
 
 !!! note "MCDU Web Interface"
-    ![Web MCDU Interface](../assets/mcdu-server/web-mcdu-ipad.webp "Web MCDU Interface"){loading=lazy}
+    ![Web MCDU Interface](../assets/mcdu-server/web-mcdu.png "Web MCDU Interface"){loading=lazy}
 
 It also allows to use your real printer on to be used as a cockpit printer for the MCDU.
 
@@ -21,18 +30,16 @@ It also allows to use your real printer on to be used as a cockpit printer for t
 
 ### Start the MCDU Web Interface Server
 
-To be able to use the MCDU Web Interface you need to start the web server which will provide the application to your browser.
+To be able to use the MCDU Web Interface you need to start the Local API Server which includes the MCDU Server and which will provide the application to your browser.
 
-To do this locate the `flybywire-aircraft-a320-neo` folder in your MSFS Community folder. Within this folder you will find a folder called `MCDU SERVER`. Open this folder.
+To do this locate the `flybywire-aircraft-a320-neo` folder in your MSFS Community folder. Within this folder you will find a an executable file called `local-server.exe`.
 
-![MCDU Server Folder](../assets/mcdu-server/mcdu-server-folder.png "MCDU Server Folder"){loading=lazy}
+![Local API Server](../assets/mcdu-server/local-api-server.png "Local API Server"){loading=lazy}
 
-![MCDU Server Executable](../assets/mcdu-server/mcdr-server.exe.png "MCDU Server Executable"){loading=lazy}
-
-Double-click on the `server.exe` file to start the MCDU Server.
+Double click on the `local-server.exe` file to start the Local API Server.
 
 !!! tip "You can also use the command prompt to start the server manually"
-    See advanced startup options below: [Advanced Start Options](#advanced-start-options)
+    See advanced startup options below: [Local API Server Configuration](#local-api-server-configuration)
 
 Once started the MCDU Server application will ask if you want to use your real printer instead of the virtual printer in the cockpit.
 
@@ -42,9 +49,10 @@ If you do not want to use your printer select ++n++.
 
 After this the MCDU Server will start and will provide you with links for your local browser to access the MCDU Web Interface.
 
-**You will need to keep this window open and the MCDU Server running to use the MCDU Web Interface**.
+**You will need to keep this window open and the Local API Server running to use the MCDU Web Interface**.
 
-![MCDU Server Command Window](../assets/mcdu-server/mcdu-server-cmd-window.png "MCDU Server Command Window"){loading=lazy}
+!!! info "Local API Server Command Window"
+    ![Local API Server Command Window](../assets/mcdu-server/local-api-server-cmd-window.png "Local API Server Command Window"){loading=lazy}
 
 ### MCDU Server Connection Attempts Timeout
 
@@ -72,29 +80,21 @@ If you want to use a browser on the same machine on which you are running the Mi
 
 Just use ++ctrl+"Left Click"++ on the `localhost` link in the command window and it should open the MCDU Web Interface in your default browser.
 
-[http://localhost:8125](http://localhost:8125){target=new}
-
-If you want to start with only the MCDU display and not the whole MCDU panel then add "/fullscreen" to the url.
-
-[http://localhost:8125/fullscreen](http://localhost:8125/fullscreen){target=new}
+[http://localhost:8380/interfaces/mcdu](http://localhost:8380/interfaces/mcdu){target=new}
 
 ### Browser on Remote Device
 
 If you want to use the MCDU Web Interface from a remote device (e.g. tablet, phone, 2nd PC, etc.) you need to first make sure you can access the MCDU Web Interface on your PC by allowing incoming network connections to the server through your Windows Firewall. See how to do this here: [Windows Firewall](#windows-firewall)
 
-The MCDU Server command window tries to detect your IP address. Use the `http://xxx.xxx.xxx.xxx:8125` address and enter it into your browser on the remote device.
+The IP address of the MCDU Web Interface will be displayed during the Local API Server start up.
 
-??? note "Unknown IP Address (click to expand)"
-    Sometimes the MCDU Server is not able to detect your IP address.
-    To find your correct IP address follow this guide: [How to Find Your IP Address on Windows 11](https://www.howtogeek.com/744082/how-to-find-your-ip-address-on-windows-11/){target=new}
+!!! bug "TODO: image of startup log"
 
-    The port is set to 8125 per default and can be changed be command line options (see [Advanced Start Options](#advanced-start-options)) .
+To learn how to find your ip address read this Microsoft article: [Find your IP address in Windows](https://support.microsoft.com/en-au/windows/find-your-ip-address-in-windows-f21a9bbc-c582-55cd-35e0-73431160a1b9)
 
-    Enter the correct IP address and port into the remote device's browser address line and hit enter.
+Enter the correct IP address and port into the remote device's browser address line and hit enter.
 
-    Example: http://192.168.16.1:8125
-
-If you want to start with only the MCDU display without the MCDU panel then add "/fullscreen" to the url.
+Example: http://192.168.16.1:8380/interfaces/mcdu
 
 ## How to Use the MCDU Web Interface
 
@@ -109,10 +109,10 @@ Changes done in the MCDU Web Interface will be reflected immediately in the cock
 ### Fullscreen Display
 If you only want the MCDU display to be shown then tap on the top-most part of the MCDU display. To return to the full MCDU view tap anywhere on the display.
 
-If you want to start with only the MCDU display visible then add `/fullscreen` to the url.
+If you want to start with only the MCDU display visible then add `?fullscreen` to the url.
 
 ### Sound
-You can enable click sounds when pressing buttons on the MCDU by adding `/sound` to the url.
+You can enable click sounds when pressing buttons on the MCDU by adding `?sound` to the url.
 
 ### Day and Night Mode
 It is possible to switch between a day and night mode MCDU visualization be clicking/touching the BRT/DIM button in the Web MCDU.
@@ -123,15 +123,9 @@ If you chose a local printer when starting the MCDU Server, every print you will
 
 The printers available are those known to the PC where you run Microsoft Flight Simulator and the MCDU Server is on. It is not relevant if your remote device where you use the MCDU Web Interface actually knows this printer.
 
-For different printers and paper size the server allows to specify the paper size and font size. See [Advanced Start Options](#advanced-start-options)
+Available printers are listed at startup and you need to add the printer you want to use to the configuration as shown here: [Local API Server Configuration](#local-api-server-configuration).
 
-### Websocket Port
-
-The websocket port is the port where the MCDU Web Interface will communicate with the actual MCDU. It sends and receives data through this connection.
-
-This will allow to have different UI implementations or even hardware MCDUs in the future. We plan to eventually also create separate documentation for using this websocket connection directly.
-
-!!! warning "We recommend to **not** change the default port for the websocket if not required. If you have to change this port because it is already occupied on your machine you need to change it as well in the EFB Sim Options Settings page."
+You can also configure font size, margin size and paper size.
 
 ## Compatible Browsers
 
@@ -167,49 +161,49 @@ Known unsupported operating systems or browsers:
 
 ## Advanced Configuration
 
-### Advanced Start Options
+### Local API Server Configuration
 
-The MCDU Server application has several additional command line options to control the startup configuration.
+!!! bug "TODO"
 
-``` cmd title="Windows Command Line"
->server.exe -h
+The Local API configuration file can be found here:
 
-Usage:
-server [options]
+!!! note "Local API Server Configuration File"
+    ![Local API Server Configuration File](../assets/mcdu-server/configuration-properties-file.png "configuration-properties-file")
 
-Options:
---debug              shows full error details and logs websocket traffic
---font-size=...      sets font size for printing (default: 19)
--h, --help           print command line options
---http-port=...      sets port for http server (default: 8125)
---margin=...         sets margin for printing in points
---no-printer         skips prompt to select printer
---paper-size=...     sets paper size for printing (default: A4)
---printer=...        enables printing to the specified printer
---websocket-port=... sets port for websocket server (default: 8380)
+```json title="Local API Server Configuration"
+{
+	"server": {
+		"port": 8380
+	},
+	"printer": {
+		"enabled": false,
+		"printerName": null,
+		"fontSize": 19,
+		"paperSize": "A4",
+		"margin": 30
+	}
+}
 ```
 
-- debug:
-    - Additional error output and logs websocket traffic
-- font-size
-    - This defines the font size the printer out will use.
-    - Default is 19 but for smaller printouts (e.g. thermal printer) a smaller size may be required.
-- http-port:
-    - This is the port you need to add to your URL in the browser to access the MCDU Web Interface.
-    - E.g. 8125 for this URL: http://localhost:**==8125==**
-- margin:
-    - This defines the margins for the print out
-- no-printer:
-    - To skip the prompt asking to choose a printer and not have a local printer configured. This option is required if you want to start the server without any manual interaction (e.g. starting it with the sim).
-- paper-size:
-    - This defines the paper size the printer out uses.
-    - See a list of all supported paper sizes below.
-- printer:
-    - To skip the prompt asking to choose a printer and have a specific local printer configured. This option is required if you want to start the server without any manual interaction (e.g. starting it with the sim).
-- websocket-port:
-    - The port where the MCDU Web Interface will communicate with the MCDU itself.
-    - ~~This is not the port you need to access the MCDU Web Interface with your browser.~~
-    - ~~We recommend to **only** change this if absolutely required (e.g. port is already occupied). See [Websocket Port](#websocket-port) for details.~~
+- port:
+    - This is the port you need to add to your URL in the browser to access the MCDU Web Interface
+    - E.g. 8380 for this URL: http://localhost:**==8125==**/interfaces/mcdu
+
+- printer
+    - enabled:
+        - Set it to true if you want to use the printer.
+        - Set it to false otherwise.
+    - printerName:
+        - Put the name of the printer you want to use here.
+        - The names of the printers available is displayed during the Local API Server startup.
+    - font-size
+        - This defines the font size the printer out will use.
+        - Default is 19 but for smaller printouts (e.g. thermal printer) a smaller size may be required.
+    - margin:
+        - This defines the margins for the print out.
+    - paper-size:
+        - This defines the paper size the printer out uses.
+        - See a list of all supported paper sizes below.
 
 ??? info "Supported Paper Sizes (click to expand)"
     Based on this list: [PDFKIT Paper Sizes](https://pdfkit.org/docs/paper_sizes.html){target=new}
@@ -232,15 +226,6 @@ Options:
     The exact size can be found here:
     [Overview_of_ISO_paper_sizes](https://en.wikipedia.org/wiki/Paper_size#Overview_of_ISO_paper_sizes){target=new}
 
-To use advanced startup options you can use a Windows Powershell or Windows Command Prompt.
-
-![Windows Command Prompt](../assets/mcdu-server/windows-command-prompt.png "Windows Command Prompt"){loading=lazy}
-
-Alternatively you can create a Windows Shortcut for the server.exe file and add the parameters to the target field.
-
-![Windows Shortcut Dialog](../assets/mcdu-server/windows-shortcut-dialog.png "Windows Shortcut Dialog"){loading=lazy}
-
-
 ### Network Configuration
 
 To access the MCDU Server from a remote device you need to make sure that this device is on the same network as the PC running the MCDU Server.
@@ -249,7 +234,9 @@ This is typically the case if both, the PC and the device use the same Internet 
 
 To check this you can look at the IP address the MCDU server has listed in its command window.
 
-![MCDU Server Command Window](../assets/mcdu-server/mcdu-server-cmd-window.png "MCDU Server Command Window"){loading=lazy}
+![MCDU Server Command Window](../assets/mcdu-server/local-api-server-cmd-window.png "MCDU Server Command Window"){loading=lazy}
+
+Or check it as described here: [Find your IP address in Windows](https://support.microsoft.com/en-au/windows/find-your-ip-address-in-windows-f21a9bbc-c582-55cd-35e0-73431160a1b9)
 
 In the example above the IP address is `192.168.1.19`.
 
@@ -284,7 +271,7 @@ To test and confirm this turn off your firewall and try again to reach your MCDU
 
 ==}
 
-We now know we need to open the ports we want to use. The default ports are **TCP 8125** and **TCP 8380** and these must be allowed to pass the firewall.
+We now know we need to open the port we want to use. The default port is **TCP 8380** and this must be allowed to pass the firewall.
 
 There are several ways to open ports on your PC firewall.
 
@@ -295,7 +282,7 @@ For the Windows Firewall you can follow this guide here:
 Alternatively you can open a Command Line prompt as Administrator and use this command:
 
 ``` cmd title="Windows Powershell"
-netsh advfirewall firewall add rule name="MCDU Server" dir=in action=allow protocol=TCP localport=8380,8125
+netsh advfirewall firewall add rule name="Local API Server" dir=in action=allow protocol=TCP localport=8380
 ```
 
 For an advanced guide of this command see the Microsoft documentation:<br/>
@@ -319,16 +306,12 @@ This should now allow access from your browser to the MCDU.
 
 ### Occupied Port
 
-Sometimes the default ports 8380 or 8125 are already used by other services on your PC.
+Sometimes the default ports 8380 is already used by other services on your PC.
 
 In this case you should get error messages similar to this:
 
 ``` cmd title="Windows Command Line"
-Error: Port 8125 is already in use
-```
-or
-``` cmd title="Windows Command Line"
-Error: Port 8380 is already in use
+Error: listen EADDRINUSE: address already in use :::8380
 ```
 
 ??? tip "How To Check If a Port is Already In Use? (click to expand)"
@@ -351,25 +334,11 @@ Error: Port 8380 is already in use
       ...
     ```
 
-#### Webserver Port is Occupied
+#### Port is Occupied
 
-If the port for the webserver 8125 is already in use you can simply start the MCDU server with a different web server port with this option:
+If the port is indeed already occupied then you need to change the default port in the configuration file [Local API Server Configuration](#local-api-server-configuration)
 
-``` cmd title="Windows Command Line"
-server.exe --http-port=8126
-```
-
-Of course now the firewall might need to be opened for this new port.
-
-#### Websocket Port is Occupied
-
-If the port for the MCDU Websocket Server is occupied you need to first change this port in the [flyPad EFB Sim options page](/fbw-a32nx/feature-guides/flyPad/settings/#sim-options).
-
-You can then start the MCDU server using the new websocket port with this option:
-
-``` cmd title="Windows Command Line"
-server.exe --websocket-port=8381
-```
+You also need to change the port in the [flyPad EFB Sim options page](/fbw-a32nx/feature-guides/flyPad/settings/#sim-options).
 
 Of course now the firewall might need to be opened for this new port.
 
@@ -411,10 +380,9 @@ Add the following section before the `</SimBase.Document>` tag and change the `Y
 
 ``` xml title="exe.xml (partial)"
 	<Launch.Addon>
-		<Name>FlyByWire MCDU Server</Name>
+		<Name>FlyByWire Local API Server</Name>
 		<Disabled>False</Disabled>
-		<Path>YOUR_COMMUNITY_FOLDER\flybywire-aircraft-a320-neo\MCDU SERVER\server.exe</Path>
-		<CommandLine>--no-printer</CommandLine>
+		<Path>YOUR_COMMUNITY_FOLDER\flybywire-aircraft-a320-neo\local-server.exe</Path>
 	</Launch.Addon>
 ```
 Now every time Microsoft Flight Simulator starts it will also start the MCDU Server.
@@ -430,33 +398,28 @@ Now every time Microsoft Flight Simulator starts it will also start the MCDU Ser
 
 The MCDU Server uses a web application running in the browser to send and receive data via the Web Socket protocol from the MCDU.
 
-To open the web application the browser will connect to the MCDU Server's webserver via http protocol (default port 8125) and download and run the MCDU Web Interface application (HTML/CSS/JavaScript).
+To open the web application the browser will connect to the Local API Server's webserver via http protocol (default port 8030) and download and run the MCDU Web Interface application (HTML/CSS/JavaScript).
 
 The MCDU Web Interface application will open a data connection to the MCDU via Web Socket protocol (default port 8380) and receive data (screen content) and send data (user input like button pushes) from and to the MCDU.
 
-For this to work the browser must be able to reach the MCDU Server via the two TCP ports 8380 and 8125 (these defaults can be changed) which means users might need to reconfigure their network and firewall settings accordingly (see documentation above).
+For this to work the browser must be able to reach the MCDU Server via the two TCP port 8380 (this default can be changed) which means users might need to reconfigure their network and firewall settings accordingly (see documentation above).
 
 ## Troubleshooting
 
 ??? warning "No MCDU SERVER Folder"
     The MCDU Server is only available in the Development Version.
 
-??? warning "MCDU Server Error: Port 8125 is already in use"
-    The http port 8125 is already in use.
-
-    Solution: [Webserver Port is Occupied](#webserver-port-is-occupied)
-
 ??? warning "MCDU Server Error: Port 8380 is already in use"
     The web socket port 8380 is already in use.
 
-    Solution: [Websocket Port is Occupied](#websocket-port-is-occupied)
+    Solution: [Port is Occupied](#port-is-occupied)
 
-??? warning "MCDU Server: `Waiting for Simulator...` Although Flight is Started"
-    The MCDU Server continues to show `Waiting for simulator ...` although the flight is started and aircraft is loaded.
+??? warning "MCDU Server not connecting to simulator although flight is Started"
+    The MCDU Server does not connect to the flight simulator although the flight is started and aircraft is loaded.
 
-    The web socket port 8380 is already in use.
+    The port 8380 is already in use.
 
-    Solution: [Websocket Port is Occupied](#websocket-port-is-occupied)
+    Solution: [Port is Occupied](#port-is-occupied)
 
 ??? warning "MCDU Server Error: Failed to load printers"
 
