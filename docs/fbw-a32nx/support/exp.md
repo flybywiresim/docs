@@ -14,7 +14,7 @@ The Experimental version is a test version to find problems and issues and to im
 ## Planned Feature Testing
 
 - New PFD based on MSFS Avoinics framework
-- Improved FLARE law (*highly experimental and may not be included)
+- Improved FLARE law (*highly experimental and may not be included*)
 - Improved stringing logic
 - Coarse LNAV speed predictions
 - Hydraulic elevator/rudder control
