@@ -296,6 +296,8 @@ Settings for the flyPad itself.
     - Manually set brightness of the flyPad
 - Auto Brightness:
     - Sets the brightness of the flyPad automatically based on the time of day.
+- Colored Metar:
+    - Enable or disable the colored raw METAR on the flyPad Dashboard.
 
 ## Throttle Configuration
 
