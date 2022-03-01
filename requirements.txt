@@ -2,3 +2,4 @@ mkdocs-material==8.2.3
 mkdocs-awesome-pages-plugin
 mkdocs-git-revision-date-localized-plugin
 mkdocs-redirects
+mkdocs-exclude-search
