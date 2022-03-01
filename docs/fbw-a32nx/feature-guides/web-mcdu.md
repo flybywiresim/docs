@@ -1,5 +1,7 @@
 # MCDU Web Interface
 
+!!! bug "TODO rewrite"
+
 <link rel="stylesheet" href="/../../stylesheets/web-mcdu.css">
 
 !!! warning "Not available in the Stable Version"
