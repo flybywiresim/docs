@@ -101,7 +101,11 @@ Settings for simulation aspects of the A32NX aircraft.
     - User can change the port for the internal MCDU websocket server in case the default port is already occupied on the user's system.
     - Default is: 8380
     - ~~This is not the port for using in the browser to access the MCDU Web Interface.~~
-- Detents:
+- Use calculated ILS signals
+    - Enable this setting to use a calculated ILS signal instead of the signal provided by Microsoft Flight Simulator.
+    - This avoids unwanted and unrealistic loss of the ILS signal in Microsoft Flight Simulator which often happens when the aircraft gets below the antenna position.
+    - In some rare cases this can cause a faulty G/S signal. In this case this setting can be disabled with immediate effect.
+- Detents
     - See [Throttle Configuration](throttle-calibration.md).
 
 ## Realism
@@ -236,15 +240,38 @@ Settings for various audio sources and sounds.
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
 
-
 - PTU Audible in Cockpit (unrealistic):
     - Allows the PTU to be heard in the cockpit which in real life is not the case. But many people are used to this sound as it is very audible in the passenger cabin.
+
 - Exterior Master Volume:
     - Volume for sounds audible when in external views.
+
 - Engine Interiors Sounds:
-    - Volume for engine sounds inside the cockpit.
+    - Volume for engine sounds when in interior views.
+
 - Wind Interior Volume:
-    - Volume for wind sounds inside in cockpit.
+    - Volume for wind sounds when in interior views.
+
+- Passenger Ambience
+    - If this setting is enabled the following ambience sounds are played:
+        - Boarding sound begins when the W/B in `MCDU-ATSU-AOC-W&B` boarding is started.
+        - Once passengers are on the plane, a constant passenger ambience sound plays.
+        - Deboarding through the the W/B section in `MCDU-ATSU-AO-W&B` triggers the deboarding sound.
+
+- Announcements
+    - If this setting is enabled the following crew announcements are played:
+        - When boarding is finished, the flight attendant says "boarding completed."
+        - 30 seconds after "boarding completed", the captain makes a "welcome on board" announcement.
+        - Beacon light triggers the FA "arm doors" announcement
+        - 30 seconds after the "arm doors" announcement a safety demo is played.
+        - The cabin ready trigger triggers the "prepare for takeoff announcement." (engines must be running)
+        - 30 seconds after entering **Cruise Phase** the captain makes a cruise announcement.
+        - 30 seconds after entering **Descent Phase** the captain makes a descent announcement.
+        - Cabin ready and being in **Approach Phase** phase activates the prepare for landing announcement.
+        - Being in the **Done Phase** (after landing) and deactivating beacon light triggers the disarm doors announcement.
+
+- Boarding Music
+    - If enabled music will be playing during boarding.
 
 ## flyPad Settings
 
@@ -269,6 +296,8 @@ Settings for the flyPad itself.
     - Manually set brightness of the flyPad
 - Auto Brightness:
     - Sets the brightness of the flyPad automatically based on the time of day.
+- Colored Metar:
+    - Enable or disable the colored raw METAR on the flyPad Dashboard.
 
 ## Throttle Configuration
 

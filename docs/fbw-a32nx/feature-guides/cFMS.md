@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="/../../stylesheets/reported-issues.css">
+
 # Custom Flight Management System
 
 !!! warning "Not available in the Stable Version"
@@ -14,23 +16,49 @@ For guides on utilizing features included with our custom FMS see the [Guides an
 
 ## Features
 
-### Version 1
+We will always list the latest updates in the following section. As we improve our custom flight management system older versions will be listed in a collapsible format in the [Older Versions](#older-versions) section. 
 
-- [x] Custom flight plan management replacing the default Asobo flight plan manager (FPM).
-- [x] SID/STAR/APPR waypoints can now be edited.
-- [x] No more USR waypoints from the Asobo FPM.
-- [x] Correct procedure and direct-to sequencing.
-- [x] Added Discontinuities as in the real life aircraft. See [Guides and Information](#guides-and-information) below.
-- [x] Support for multiple leg types:
-    - [x] TF: Track to a Fix defines a great circle track over ground between two known databases fixes.
-    - [x] RF: Constant Radius Arc defines a constant radius turn between two database fixes, lines tangent to the arc and a center fix.
-    - [x] VM: Heading to a manual termination defines a specified heading until a Manual termination.
-- [x] Cross-track error indicator on the ND.
-- [x] Improved LNAV turn prediction.
-- [x] Roll anticipation distance.
-- [x] Improved flight plan rendering / drawing.
-- [x] Improved ND display filters for ARPT, VOR, NDB, WPTs.
-- [x] MCDU FIX INFO page for radials and distance circles on navigation fixes. See [Guides and Information](#guides-and-information) below.
+### Latest - Version 1.5
+
+We have introduced new features to the custom flight management system as part of a minor update. Please see the list below:
+
+- LNAV Updates
+    - Holding Patterns
+    - Turn direction constraints on non-TF legs
+    - Overfly restriction support
+    - ARINC424 Leg Types
+        - AF, CA, CI, CR, CF, DF, HF, HM, HA legs ([See List of Leg Types](../../pilots-corner/advanced-guides/flight-planning/leg-types.md))
+    - Turn Prediction Types
+        - Path capture
+        - Course capture
+        - Direct to fix turn
+        - Holding pattern entry turn
+- Navigation Display
+    - Removed flight plan loading from localStorage
+    - Corrected active waypoint ETA display
+    - Added `EfisVectors` systems with optimized transmit task queue + support for future display of OFFSET, SECONDARY, SECONDARY DASHED, MISSED APPROACH, ALTERNATE and EOSID flight paths.
+
+### Older Versions
+
+??? info "Version 1"
+
+    This constitutes the original feature set of our custom flight management system.
+        
+    - Custom flight plan management replacing the default Asobo flight plan manager (FPM).
+    - SID/STAR/APPR waypoints can now be edited.
+    - No more USR waypoints from the Asobo FPM.
+    - Correct procedure and direct-to sequencing.
+    - Added Discontinuities as in the real life aircraft. See [Guides and Information](#guides-and-information) below.
+    - Support for multiple leg types:
+        - TF: Track to a Fix defines a great circle track over ground between two known databases fixes.
+        - RF: Constant Radius Arc defines a constant radius turn between two database fixes, lines tangent to the arc and a center fix.
+        - VM: Heading to a manual termination defines a specified heading until a Manual termination.
+    - Cross-track error indicator on the ND.
+    - Improved LNAV turn prediction.
+    - Roll anticipation distance.
+    - Improved flight plan rendering / drawing.
+    - Improved ND display filters for ARPT, VOR, NDB, WPTs.
+    - MCDU FIX INFO page for radials and distance circles on navigation fixes. See [Guides and Information](#guides-and-information) below.
 
 ## Guides and Information
 
@@ -39,9 +67,11 @@ For guides on utilizing features included with our custom FMS see the [Guides an
 
 ## Known Issues
 
-- TCAS is not implemented yet. No traffic shown, TCAS elements are cosmetic only.
+- CA leg terminations are sometimes in the wrong place, and does not adapt to V/S.
+- Some path captures will be incorrectly drawn. This will not affect guidance.
+- INTCPT calculation can be off on large distances.
+- Course captures do not adapt to PPOS when nextLeg is active. This can cause the final path to be off to the side.
 - WX and TERR on ND are not implemented yet. We are waiting for better API support by Microsoft Flight Simulator. See our [Forums Feature Request](https://forums.flightsimulator.com/t/implement-weather-and-terrain-api-s-for-aircraft-developers-to-implement-accurate-radar-predictive-windshear-egpws-and-metar-wind-uplink/442016){target=new}.
-- Only 3 Leg Types/1 Transition supported at this time. Although these cover most of the important types there might be some issues with other leg types during flight guidance. We will be significantly improving this in future updates.
 - Rendering of flight path on the ND of terminal procedure legs may be glitched or incorrect during cruise. - [See Special Notes](../feature-guides/cFMS.md#flight-path-rendering).
 - Rendering of flight path on the ND of legs will be glitched or incorrect if you are flying faster than the appropriate/correct speed. - [See Special Notes](../feature-guides/cFMS.md#flight-path-rendering).
 - Syncing the aircraft flight plan with the sim's flight plan for default ATC and VFR map is not 100% supported. - [See Special Notes](../feature-guides/cFMS.md#flight-plan-sync-msfs-atc--vfr-map).
@@ -79,13 +109,13 @@ Enabling this feature should allow:
     - Switch the `Sync MSFS Flight Plan` setting to `Save`.
     - Continue entering your flight plan or perform an INIT REQ.
 
-### WX/TER/TCAS
+### WX/TER
 
-!!! note "As stated in our [CFMS NOTAM](https://flybywiresim.com/notams/cfms/)"
+!!! note "TCAS is now available in the development version. Please see our [CFMS NOTAM](https://flybywiresim.com/notams/cfms/) for further WX/TER information."
 
-It is important to note that the weather and terrain radars, as well as TCAS, are not available yet with cFMS v1. Our current focus is to deliver a more realistic flight planning and navigation experience while maintaining performance and reliability. However, we are not satisfied with how the default code performs together with our custom systems.
+It is important to note that the weather and terrain radars are not available yet with the latest version of our cFMS(v1.5). Our current focus is to deliver a more realistic flight planning and navigation experience while maintaining performance and reliability. However, we are not satisfied with how the default code performs together with our custom systems.
 
-We believe the benefits that cFMS provides outweigh the temporary lack of WX/TERR/TCAS functionality on the development version. We are already hard at work developing our TCAS system and we will provide more details on it as soon as we can. Weather and terrain still prove to be a challenge due to the lack of a native SDK API. We have posted about it on the MSFS forums, where it currently sits at the top of the wishlist and Asobo are investigating how to best improve their API.
+We believe the benefits that cFMS provides outweigh the temporary lack of WX/TERR/ functionality on the development version. Weather and terrain still prove to be a challenge due to the lack of a native SDK API. We have posted about it on the MSFS forums, where it currently sits at the top of the wishlist and Asobo are investigating how to best improve their API.
 
 [Read more about weather and terrain API.](https://forums.flightsimulator.com/t/implement-weather-and-terrain-api-s-for-aircraft-developers-to-implement-accurate-radar-predictive-windshear-egpws-and-metar-wind-uplink/442016){target=new}
 

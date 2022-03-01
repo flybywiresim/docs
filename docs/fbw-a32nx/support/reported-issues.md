@@ -14,7 +14,7 @@
 
     <img src="https://img.shields.io/github/v/release/flybywiresim/a32nx.svg?color=2F4E5B&style=flat" /> <img src="https://img.shields.io/badge/dynamic/json?color=00848A&label=Development&query=shortSha&url=https%3A%2F%2Fapi.flybywiresim.com%2Fapi%2Fv1%2Fgit-versions%2Fflybywiresim%2Fa32nx%2Fbranches%2Fmaster&style=flat" alt="Development Version" />
 
-    FBW Installer - [Download Here](https://api.flybywiresim.com/installer){target=new} / *Sim Version: 1.22.2.0*
+    FBW Installer - [Download Here](https://api.flybywiresim.com/installer){target=new} / *Sim Version: 1.23.12.0*
 
 !!! warning "Read our Support Guide"
 
@@ -68,6 +68,32 @@ TEMPLATE
 ^^Additional Information^^
 
 -->
+
+??? failure "Captain Side PFD Black Screen"
+
+    !!! tip ""
+        *Affected versions: Development*
+    
+    ^^Description^^
+
+    At varying stages of flight the captain's side PFD may switch off and remain black.
+    
+    ^^Root Cause^^
+
+    *Under Investigation*
+    
+    ^^Additional Information^^
+    
+    If you would like you can provide the following screenshot to use in our #support channel on Discord by following the steps below:
+    
+    ```title="Support Screenshot of PFD_TEMPLATE"
+    1. Pause your sim using ESC
+    2. Open your browser
+    3. Go to `http://localhost:19999/`
+    4. Click on the first link that says "PFD_TEMPLATE"
+    5. On the page that appears, click on the "Console" tab
+    6. Send a screenshot to our #support channel on Discord
+    ```
 
 ??? failure "Load Modules Async Causes CTD"
     ### Load Modules Async Causes CTD
