@@ -128,3 +128,25 @@ Alternatively you can use the `MCDU DATA A/C STATUS` page to delete all stored w
 ### 320 Sim Pilot Video
 
 <iframe width="790" height="447" src="https://www.youtube-nocookie.com/embed/qDM8Ijp--3o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Stored Company Routes
+
+!!! bug "TODO"
+
+Co route loading
+
+- generate a simbrief flight plan and download the XML datafile.
+- run the local-api.exe in the root addon folder, this will create the resources folder structure
+- dump the xml file in the coroutes folder and rename it to whatever you want BUT less than 9 characters
+    - RENAME TO "FROMTO" IS REQUIRED
+- start the sim, load your aircraft and enter the coroute name in the coroute field, the FROM/TO and route (excluding SIDs and STARs) should be populated
+- modify the route in anyway, observe Co Route field is now blank (Not implemented)
+
+Coroute viewing
+
+- Enter a FROM/TO which has the ICAOs that match that of a coroute (not filename, this is regarding the origin and destination ICAO within the XML) you have in the coroutes folder.
+- Observe the ROUTE page outlining the details of your coroute, press insert
+    - ==> SCREENSHOT
+- (optional) if you have multiple coroutes with the same ICAOs as the entered FROM/TO in the coroute folder, observe the multiple pages in the ROUTE page,
+- (optional) if the route is especially long you may have the optional to scroll, observe this by pressing the up and down keys on the MCDU
+- Press insert, observe the from/to populated as-well as the route (Excluding SIDs and STARs, CI, CRZ FL etc. as suggested by IRL pilots, as these parameters vary greatly).
