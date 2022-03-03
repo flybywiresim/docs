@@ -95,7 +95,9 @@ TEMPLATE
     6. Send a screenshot to our #support channel on Discord
     ```
 
-    **Workaround:** Once you've completed the steps above before sending a screenshot of the issue you can try refreshing the system by clicking on the reload button near the top of the page displayed. See the following image:
+    **Workaround:** Once you've completed the steps above before sending a screenshot of the issue you can try refreshing the system by clicking on the reload button near the top of the page displayed. After clicking the refresh button return to your simulator. 
+
+    See the following image:
 
     ![Restart PFD](https://cdn.discordapp.com/attachments/867146231553327154/949001164131807313/unknown.png)
 
