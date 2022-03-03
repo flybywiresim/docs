@@ -82,18 +82,22 @@ TEMPLATE
 
     *Under Investigation*
     
-    ^^Additional Information^^
+    ^^Additional Information / Workaround^^
     
-    If you would like you can provide the following screenshot to use in our #support channel on Discord by following the steps below:
+    Please complete the steps below to perform a workaround and/or send us screenshot in our #support channel.
     
     ```title="Support Screenshot of PFD_TEMPLATE"
     1. Pause your sim using ESC
     2. Open your browser
-    3. Go to `http://localhost:19999/`
+    3. Go to `http://localhost:19999/` OR `http://127.0.0.1:19999/`
     4. Click on the first link that says "PFD_TEMPLATE"
     5. On the page that appears, click on the "Console" tab
     6. Send a screenshot to our #support channel on Discord
     ```
+
+    **Workaround:** Once you've completed the steps above before sending a screenshot of the issue you can try refreshing the system by clicking on the reload button near the top of the page displayed. See the following image:
+
+    ![Restart PFD](https://cdn.discordapp.com/attachments/867146231553327154/949001164131807313/unknown.png)
 
 ??? failure "Load Modules Async Causes CTD"
     ### Load Modules Async Causes CTD
