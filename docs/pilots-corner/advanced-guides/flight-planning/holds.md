@@ -10,9 +10,8 @@ Holding patterns , as they are officialy known, can be used as a delaying tactic
 Holdings are typically used to delay aircraft, or less common, to burn of fuel for landing.
 A good example usecase of a hold can be seen in Innsbruck (LOWI) in the picture below.
 
+
 ![LOWI](../assets/advanced-guides/holds/LOWI.png "LOWI"){loading=lazy width=45% align=left}
-
-
 
 
 ### How to enter and exit a hold
