@@ -21,31 +21,12 @@ The TCAS panel can be found on the lower pedestal to the right of the throttle q
 
 For more information on how ensure TCAS is active for your flight and the corresponding controls please see the [ATC TCAS PANEL](../../a32nx-briefing/flight-deck/pedestal/atc-tcas.md) page.
 
-### Traffic Advisory
-
-This advisory is generated when TCAS detects an intruder along the current flight path it would consider a potential threat. Flight crews will receive multiple cues from TCAS that identifies a TA. No specific action is mandatory during a TA but the flight crew should remain vigilant of intruders and anticipate a potential RA.
-
-- Visual amber cues on the navigation display (ND providing information about the potential threat
-- "*Traffic, Traffic*" aural warning
-
-[**Images of different TA icons on ND Here**]
-
-### Resolution Advisory
-
-When a traffic advisory becomes collision threat an RA is generated. AP/FD TCAS shines in this regard allowing for fully automated flight in the case of an RA. Pilots will now have additional information provided to them on the performance display (PFD) and navigation display depending on what actions the flight crew need to perform to clear the conflict.
-
-- Visual red cues on the ND providing information about the potential threat
-- Aural commands instruction pilot of what type of vertical maneuver to perform
-- Visual green and red zones on the vertical speed indicators on the PFD
-
-[**Images of different RA icons on ND Here**]
-
 ## AP/FD TCAS
 
 !!! warning "Manual Flight Assumptions"
     The operating flight crew should always be able to take command of hte aircraft manually by disconnecting the autopilot and flight directors to respond to a TCAS RA by flying the verticial speed out of the red zone in the vertical speed indicator.
 
-AP/FD TCAS includes vertical guidance as part of the Auto Flight System (AFS) to support pilots during a TCAS RA. It provides control of the vertical speed via the AFS which is specifically tailored to each target that generated an RA.  
+AP/FD TCAS includes vertical guidance as part of the Auto Flight System (AFS) to support pilots during a TCAS RA. It provides control of the vertical speed via the AFS which is specifically tailored to each target that generated an RA. One of the major benefits of this system is to assist flight crews perform optimal maneuvers when a conflict arises.
 
 Essentially this feature allows the flight crew to resolve TCAS RAs with the autopilot and flight directors engaged. It is entirely possible to complete a TCAS RA maneuver manually by using the flight director guidance with the autopilot switched off as well.
 
@@ -61,9 +42,60 @@ Essentially this feature allows the flight crew to resolve TCAS RAs with the aut
     === "AP + FD Disengaged"
         The FD bars will appear automatically. TCAS mode will be engaged and provide guidance and flight crews should perform actions as stated in above.
 
-### Behaviors
+### Traffic Advisory
 
-[Pending]
+This advisory is generated when TCAS detects an intruder along the current flight path it would consider a potential threat. Flight crews will receive multiple cues from TCAS that identifies a TA. No specific action is mandatory during a TA but the flight crew should remain vigilant of intruders and anticipate a potential RA. 
+
+- Visual amber cues on the navigation display (ND providing information about the potential threat
+- "*Traffic, Traffic*" aural warning
+
+[**Images of different TA icons on ND Here**]
+
+Once a TA is triggered the AP/FD TCAS will arm itself to notify the crew (alongside other visual cues noted above). This ensures that if the intruder would turn into a threat that triggers an RA the system is ready.
+
+### Resolution Advisory
+
+When a traffic advisory becomes collision threat an RA is generated. AP/FD TCAS shines in this regard allowing for fully automated flight in the case of an RA. Pilots will now have additional information provided to them on the performance display (PFD) and navigation display depending on what actions the flight crew need to perform to clear the conflict.
+
+- Visual red cues on the ND providing information about the potential threat
+- Aural commands instruction pilot of what type of vertical maneuver to perform
+- Visual green and red zones on the vertical speed indicators on the PFD
+
+[**Images of different RA icons on ND Here**]
+
+There are generally two types of behaviors associated with an RA - preventative and corrective
+
+#### Preventative
+
+This behavior starts with the vertical speed out of the red zone of the VSI. It requires the flight crew or commands the autopilot to maintain the current vertical speed and is coupled with an audible alert to "Monitor V/S". This would help increase the safety margin before any further measures would need to be taken and allow for safe capture of a selected flight level clear of any conflicts. The following conditions will apply:
+
+- TCAS will maintain a safe V/S target
+- Longitudinal modes previously armed will automatically be disarmed except ALT^*^
+- In the situation that conditions for altitude capture are met a preventative RA will allow for safe capture of the targeted altitude.
+    - This prevents the aircraft from exceeding a commanded altitude
+- "Adjust V/S" RA will safely maintain a vertical speed when attempting to level-off
+- To ensure a safe speed during any maneuvers A/THR will engage SPEED/MACH
+
+#### Corrective
+
+This behavior starts with the vertical speed in the red zone of the VSI. As the behavior denotes this RA will require active corrective measure automatically via the autopilot or manually from the flight crew to fly out of the red zone towards the edge of the green / red zone on the VSI. It is usually coupled with audiable alerts such as "Climb, Descend".
+
+- TCAS will engage and ensure vertical guidance to avoid conflict. It will target the zone mentioned above.
+- Targets a V/S of 200ft/min inside of the green band on the VSI.
+- Longitudinal modes previously armed will automatically be disarmed except ALT^*^
+    - This prevents the aircraft from exceeding a commanded altitude / prevent excursions
+    - A V/S of 0 ft/min is always within the safe zone for a corrective RA which allows for TCAS to capture a targeted flight level if capture conditions are met
+- To ensure a safe speed during any maneuvers A/THR will engage SPEED/MACH
+
+---
+
+## External Resources
+
+Airbus' Safety First publication has great resources further explaining their systems in-depth with supporting graphics and statistics. We've provided a link below to a great article detailing TCAS Alert Prevention (TCAP) and the AP/FD TCAS function.
+
+[Safe Handing of TCAS Alerts](https://safetyfirst.airbus.com/safe-handling-of-tcas-alerts/){.md-button primary}
+
+---
 
 ## TCAS Known Issues
 
