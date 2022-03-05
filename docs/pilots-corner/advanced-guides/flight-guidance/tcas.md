@@ -2,7 +2,7 @@
 
 {==
 
-The initial implementation of TCAS is available in the development and experimental branch at this time. Please note details about this system and it's functions will come at a later time.
+The initial implementation of TCAS features the AP/FD TCAS function and is available in the Development version.
 
 Our TCAS supports online network traffic services (Vatsim / IVAO).
 
