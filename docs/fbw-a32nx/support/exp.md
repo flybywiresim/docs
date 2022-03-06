@@ -4,7 +4,7 @@ The Experimental version is a test version to find problems and issues and to im
 
 {--
 
-**Currently experimental is undergoing updates that are not 100% ready for public use. Please see below for features planned for testing.**
+**Currently experimental is undergoing updates that can break the aircraft and is not 100% ready for public use. All previous features have been moved to our development version. Please see below for features planned for testing.**
 
 --}
 
