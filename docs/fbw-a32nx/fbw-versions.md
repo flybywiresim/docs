@@ -27,19 +27,17 @@ This version will not always be up to date but we work hard at ensuring its comp
 
 This version is similar to the development version, but contains custom systems in earlier development phases.
 
-Currently we are testing our upcoming LNAV update with support for overfly, more procedure leg types, much more resilient path generation, ND data transmission modelled after real-world EIS architecture and more.
-
-The Experimental version is a test version to find problems and issues and to improve functionality based on your feedback. It is not meant to be used for daily use or when you try to do a serious flight on VATSIM.
-
-The experimental version will be updated regularly and also with the latest changes to the Development version. Expect updates about once a week (not guaranteed).
+Currently, experimental is undergoing updates that can break the aircraft and is not 100% ready for public use. It is not meant to be used for daily use or when you try to do a serious flight on VATSIM.
 
 !!! warning
 
-The Experimental version has a less strict QA process and is used for actual QA testing. Bugs and Issues are to be expected. Please read [Experimental Version Support Page](support/exp.md) before using this version.
+The Experimental version has a less strict QA process and is used for actual QA testing. Bugs and Issues are to be expected. Please read [Experimental Version Support Page](support/exp.md) before using this version. 
+
+The experimental version will be updated regularly and also with the latest changes to the Development version. Expect updates about once a week (not guaranteed).
 
 !!! danger "No Support for Experimental - use at own risk"
 
-Please do not seek support for the Experimental Version on Discord and only report issues if you have read the reported and known issues.
+Please do not seek support for the Experimental Version on Discord. <!--and only report issues if you have read the reported and known issues.-->
 
 ## Version Comparison
 
