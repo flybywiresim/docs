@@ -406,8 +406,8 @@ TEMPLATE
     N/A
 
 
-??? warning "ADIRS not Aligned When not Starting at Gate."
-    ### ADIRS not Aligned When not Starting at Gate.
+??? warning "ADIRS not Aligned When not Starting at Gate"
+    ### ADIRS not Aligned When not Starting at Gate
 
     !!! tip ""
         *Affected versions: Development*
