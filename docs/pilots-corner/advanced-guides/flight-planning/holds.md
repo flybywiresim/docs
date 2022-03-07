@@ -14,7 +14,8 @@ Holdings are typically used to delay aircraft, or less common, to burn of fuel f
 A good example usecase of a hold can be seen in Innsbruck (LOWI) in the picture below.
 
 
-![LOWI](../assets/advanced-guides/holds/LOWI.png )
+![LOWI](/assets/advanced-guides/holds/LOWI.png)
+
 
 
 ### Preparing the hold
@@ -32,44 +33,98 @@ Now that you know where to hold, you should know how to set up the hold. To do t
 
  Below you will find samples of diffrent holds with the information filtered out.  
 
-!!! info "Reading Chart Samples"
+!!! info "Examples of holds in charts"
 
     === "1"
 
         Lorum ipsum
 
+        | Fix           | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
+        | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
+        | ARNUM         | 216              |Right               | STD           | STD        |FL140  | FL100         |
+      
+
+        
+
     === "2"
 
         Lorum ipsum
+
+        | Fix           | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
+        | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
+        | SUGOL         | 110              |Right               | STD           | STD        |FL250  | FL70          |
         
     === "3"
 
         Lorum ipsum
 
+        | Fix           | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
+        | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
+        | OKLAX         | 149              |Left                | STD           | 210KT      |STD    | 8000FT        |
+
     === "4"
 
         Lorum ipsum
+
+        | Fix           | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
+        | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
+        | DVN           | 053              |Right               | ????????      | 210KT      |-      | 2900FT        |
     
     === "5"
 
         Lorum ipsum
-    
+
+        | Fix           | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
+        | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
+        | BOTON         | *049             |Right               | STD           | STD        |-      | ????          |
+        | PANZE         | *049             |Left                | STD           | STD        |-      | ????          |
+        | CAMRN         | 041              |Left                | STD           | 210KT      |14000FT| 6001FT        |
+        
+       * the inbound course can be calulated by subtracting or adding 180 to the reciprocal.
+
     === "6"
 
         Lorum ipsum
+
+        | Fix           | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
+        | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
+        | SKENS         | 274              |Right               | 10NM          | STD        |-      |13000FT        |
 
     === "7"
 
         Lorum ipsum
 
+        | Fix           | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
+        | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
+        | SNAAG         | 061              |Right               | 10NM          | STD        |-      |?????          |
+
     === "8"
 
         Lorum ipsum
+
+        | Fix           | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
+        | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
+        | TIGER         | 315              |Right               | STD           | STD        |FL240  | FL150         |
+        | BIG           | 302              |Right               | STD           | ?????      |FL150  | FL70          |
     
     === "9"
 
         Lorum ipsum
 
+        |Fix            | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
+        | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
+        | DDM           | 059              |Left                | STD           | 230KT      |-      | 6000FT        |
+        | EGN           | 108              |Left                | STD           | 230KT      |-      | 4000FT        |
+        | KEA           | 335              |Right               | STD           | 230KT      |-      | 5000FT        |
+
+    === "10"
+
+        Lorum ipsum
+
+        |Fix            | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
+        | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
+        | CRS           | 001              |Left                |Until CVO VOR reads 34.0 NM|STD|-   | FL120         |
+     
 ### Entering the hold
 
 ### Leaving the hold
