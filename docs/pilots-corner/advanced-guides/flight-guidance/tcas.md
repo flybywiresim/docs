@@ -19,6 +19,8 @@ There are two typical procedures pilots will encounter when TCAS detects an intr
 
 The TCAS panel can be found on the lower pedestal to the right of the throttle quadrant.
 
+![ATC-TCAS Panel](../../assets/a32nx-briefing/pedestal/ATC-TCAS.jpg "ATC-TCAS Panel")
+
 For more information on how to ensure TCAS is active for your flight and the corresponding controls please see the [ATC TCAS PANEL](../../a32nx-briefing/flight-deck/pedestal/atc-tcas.md) page.
 
 ## AP/FD TCAS
