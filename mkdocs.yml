@@ -36,6 +36,13 @@ theme:
 plugins:
   - search:
       lang: en
+  - minify:
+      minify_html: true
+      minify_css: true
+      css_files:
+        - stylesheets/admonitions.css
+        - stylesheets/extra.css
+        - stylesheets/navigation.css
   - exclude-search:
       exclude:
         - pilots-corner/advanced-guides/flight-planning/holds.md
