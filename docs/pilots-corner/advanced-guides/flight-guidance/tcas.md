@@ -14,8 +14,8 @@ The Traffic Collision Avoidance System (TCAS) is a system available on Airbus ai
 
 There are two typical procedures pilots will encounter when TCAS detects an intruder in the flight path of the aircraft.
 
-- Traffic Advisory (TA)
-- Resolution Advisory (RA)
+- [Traffic Advisory (TA)](#traffic-advisory): Potential threats to monitor
+- [Resolution Advisory (RA)](#resolution-advisory): Collision threats that require intervention
 
 The TCAS panel can be found on the lower pedestal to the right of the throttle quadrant.
 
@@ -71,17 +71,17 @@ This behavior starts with the vertical speed in the <span style=color:green>gree
 
 - TCAS will maintain a safe V/S target
 - Longitudinal modes previously armed will automatically be disarmed except ALT^*^
-- In the situation that conditions for altitude capture are met a preventative RA will allow for safe capture of the targeted altitude.
+- In the situation that conditions for altitude capture are met a preventative RA will allow for safe capture of the targeted altitude
     - This prevents the aircraft from exceeding a commanded altitude in the FCU
-- The audible alert "Adjust V/S" will safely maintain a vertical speed when attempting to level-off
+- The audible alert "Adjust V/S" will play and TCAS will avoid conflicts by maintaining a safe vertical speed when attempting to level-off at a targeted altitude
 - To ensure a safe speed during any maneuvers A/THR will engage SPEED/MACH
 
 #### Corrective
 
 This behavior starts with the vertical speed in the <span style=color:red>red zone</span> of the VSI. As the behavior denotes this RA will require active corrective measure either automatically via the autopilot or manually from the flight crew to fly out of the red zone towards the edge of the green / red zone on the VSI. It is usually coupled with audible alerts such as "Climb, Descend".
 
-- TCAS will engage and modify vertical guidance to avoid conflict. It will target the zone mentioned above.
-- Targets a V/S of 200ft/min inside the green band on the VSI.
+- TCAS will engage and modify vertical guidance to avoid conflict. It will target the zone mentioned above
+- Targets a V/S of 200ft/min inside the green band on the VSI
 - Longitudinal modes previously armed will automatically be disarmed except ALT^*^
     - This prevents the aircraft from exceeding a commanded altitude / prevent excursions
     - A V/S of 0 ft/min is always within the safe zone for a corrective RA which allows for TCAS to capture a targeted flight level if capture conditions are met
