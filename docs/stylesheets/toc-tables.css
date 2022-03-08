@@ -1,7 +1,7 @@
 /*Table Styling*/
 .md-typeset table:not([class]) th {
   font-weight: bold;
-  background-color: #00C2CB;
+  background-color: #00E0FE;
   color: var(--md-default-bg-color);
   font-size: larger;
   padding: .75em;
