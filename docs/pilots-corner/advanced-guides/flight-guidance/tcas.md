@@ -4,13 +4,13 @@
 
 The initial implementation of TCAS features the AP/FD TCAS function and is available in the Development version.
 
-Our TCAS supports online network traffic services (Vatsim / IVAO).
+Our TCAS supports online network traffic services (Vatsim / IVAO) and the live traffic feature in MSFS.
 
 ==}
 
 ## Overview
 
-Traffic Collision Avoidance System (TCAS) is a system available on Airbus aircraft that help reduce airborne collisions and risks. Numerous improvements have been made to this system over the years that enhances the pilot interface and decreases non-optimum pilot handling of advisories from TCAS. The FlyByWire A32NX uses the AP/FD TCAS mode function developed by Airbus.
+The Traffic Collision Avoidance System (TCAS) is a system available on Airbus aircraft that helps to reduce the risk of airborne collisions. Numerous improvements have been made to this system over the years that enhance the pilot interface and decrease non-optimum pilot handling of advisories from TCAS. The FlyByWire A32NX uses the AP/FD TCAS mode function developed by Airbus.
 
 There are two typical procedures pilots will encounter when TCAS detects an intruder in the flight path of the aircraft.
 
@@ -19,16 +19,16 @@ There are two typical procedures pilots will encounter when TCAS detects an intr
 
 The TCAS panel can be found on the lower pedestal to the right of the throttle quadrant.
 
-For more information on how ensure TCAS is active for your flight and the corresponding controls please see the [ATC TCAS PANEL](../../a32nx-briefing/flight-deck/pedestal/atc-tcas.md) page.
+For more information on how to ensure TCAS is active for your flight and the corresponding controls please see the [ATC TCAS PANEL](../../a32nx-briefing/flight-deck/pedestal/atc-tcas.md) page.
 
 ## AP/FD TCAS
 
 !!! warning "Manual Flight Assumptions"
-    The operating flight crew should always be able to take command of hte aircraft manually by disconnecting the autopilot and flight directors to respond to a TCAS RA by flying the verticial speed out of the red zone in the vertical speed indicator.
+    The operating flight crew should always be able to take command of the aircraft manually by disconnecting the autopilot and flight directors to respond to a TCAS RA by flying the aircraft at a vertical speed outside the red zone in the vertical speed indicator.
 
 AP/FD TCAS includes vertical guidance as part of the Auto Flight System (AFS) to support pilots during a TCAS RA. It provides control of the vertical speed via the AFS which is specifically tailored to each target that generated an RA. 
 
-Essentially this feature allows the flight crew to resolve TCAS RAs using the autopilot and flight directors engaged. It is also entirely possible to complete a TCAS RA maneuver manually by using the flight director guidance with the autopilot switched off as well. The major benefit of this system is to provide optimal maneuvers when a conflict arises.
+Essentially this feature allows the flight crew to resolve TCAS RAs using the autopilot. It is also entirely possible to complete a TCAS RA maneuver manually by using the flight director guidance with the autopilot switched off as well. The major benefit of this system is to provide optimal maneuvers when a conflict arises.
 
 !!! info "AP/FD TCAS Conditions"
     There are conditions that happen when a TCAS RA is triggered causing the AP/FD TCAS mode to do the following:
@@ -55,7 +55,7 @@ Once a TA is triggered the AP/FD TCAS will arm itself to notify the crew (alongs
 
 ### Resolution Advisory
 
-When a traffic advisory becomes a collision threat an RA is generated. AP/FD TCAS shines in this regard allowing for fully automated flight in the case of an RA. Pilots will now have additional information provided to them on the performance display (PFD) and navigation display depending on what actions the flight crew need to perform to clear the conflict.
+When a traffic advisory becomes a collision threat an RA is generated. AP/FD TCAS shines in this regard allowing for fully automated flight in the case of an RA. Pilots will now have additional information provided to them on the primary flight display (PFD) and navigation display (ND) depending on what actions the flight crew needs to perform to clear the conflict.
 
 - Visual red cues on the ND providing information about the potential threat
 - Aural commands instructing the pilot of what type of vertical maneuver to perform
@@ -93,7 +93,7 @@ This behavior starts with the vertical speed in the <span style=color:red>red zo
 
 Airbus' Safety First publication has great resources further explaining their systems in-depth with supporting graphics and statistics. We've provided a link below to a great article detailing TCAS Alert Prevention (TCAP) and the AP/FD TCAS function.
 
-[Safe Handing of TCAS Alerts](https://safetyfirst.airbus.com/safe-handling-of-tcas-alerts/){.md-button primary}
+[Safe Handing of TCAS Alerts](https://safetyfirst.airbus.com/safe-handling-of-tcas-alerts/){.md-button primary target=new}
 
 ---
 
