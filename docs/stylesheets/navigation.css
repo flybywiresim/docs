@@ -1,13 +1,13 @@
 /* Navigation Modifications */
 .md-header {
-  background: rgb(20,30,48);
+  background: rgb(14,19,27);
 }
 .md-nav--primary .md-nav__title[for=__drawer] {
     background: var(--md-primary-fg-color--dark);
     overflow: visible;
 }
 .md-tabs {
-  background: rgb(20,30,48);
+  background: rgb(14,19,27);
 }
 .md-top {
   color: #ffffff;
@@ -16,16 +16,16 @@
   color: #ffffff;
 }
 .md-tabs__link--active, .md-tabs__link:focus, .md-tabs__link:hover {
-  border-bottom: 1.5px solid #00C2CB;
+  border-bottom: 1.5px solid #00E0FE;
   height: -webkit-fill-available;
 }
 
 /*Announcement Bar*/
 .md-banner {
     background-color: var(--md-footer-bg-color--dark);
-    color: var(--md-footer-fg-color);
     overflow: auto;
     text-align: center;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%2300E0FEFF' stroke-width='5' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
 }
 /*8.1.1 compatibility*/
 /*.md-typeset img, .md-typeset svg {*/

@@ -1,40 +1,56 @@
+@import url(https://fonts.googleapis.com/css2?family=Manrope&display=swap);
+
 /*Primary Thematic Colors*/
 :root {
-  --md-primary-fg-color:        #00C2CB;
+  --md-primary-fg-color:        #00E0FE;
   --md-primary-fg-color--dark:  hsl(216,32%,17%);
-  --md-primary-fg-color--light: #00C2CB;
-  --md-accent-fg-color:         #00C2CB;
+  --md-primary-fg-color--light: #00E0FE;
+  --md-accent-fg-color:         #00E0FE;
+  --header-font:                Manrope;
 }
-/* Color Notes
-light hsla(216,32%,17%,1)
-dark rgba(20,30,48,1)
-diff rgba(27,36,52,1)
-*/
 
 [data-md-color-scheme="slate"] {
-  --md-default-bg-color: rgb(27,36,52);
+  --md-default-bg-color: rgb(23,30,44);
 }
 
 /*Header Modifications*/
 .md-typeset h1 {
-  color: #00C2CB;
+  color: #00E0FE;
+  font-family: var(--header-font), sans-serif;
+  font-weight: 550;
+  size: 2em;
 }
-h1 {
-  /*text-transform: uppercase;*/
+.md-typeset h2, .md-typeset h3, .md-typeset h4 {
+  font-family: var(--header-font), sans-serif;
+  font-weight: 400;
+  size: 2em;
 }
 h2 {
-  color: #00C2CB;
+  color: #00E0FE; /*Cyan*/
   /*text-transform: uppercase;*/
   padding-bottom: 0.5em;
 }
 h3 {
-  color: #A9CEEF;
+  color: #00CCFF;
 }
 h4 {
   padding-top: 1em;
 }
 .md-typeset h5 {
-  color: hsl(0deg 0% 100%);
+  color: hsl(0, 0%, 100%);
+}
+.md-ellipsis {
+  font-family: var(--header-font), sans-serif;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Button Hover State */
+.md-typeset .md-button:is(:focus,:hover) {
+    background-color: var(--md-accent-fg-color);
+    border-color: var(--md-accent-fg-color);
+    color: black;
 }
 
 /* highlighting */
@@ -72,7 +88,7 @@ h4 {
 /*Table Styling*/
 .md-typeset table:not([class]) th {
   font-weight: bold;
-  background-color: #00C2CB;
+  background-color: #00E0FE;
   color: var(--md-default-bg-color);
 }
 /* reduced table row height */

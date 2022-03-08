@@ -6,7 +6,7 @@ This section of the FlyByWire Documentation is dedicated to the A32NX add-on its
 
 The A32NX Project is a community-driven open source project to create a free Airbus A320neo in Microsoft Flight Simulator that is as close to reality as possible. It started out as an enhancement project to the default A320neo and is now proceeding as an independent add-on project aiming to bring the FlyByWire A32NX up to payware-level systems depth and functionality, all for free.
 
-**Aircraft Configuration(s)**
+### **Aircraft Configuration(s)**
 
 The following aircraft configurations are currently simulated:
 
@@ -25,11 +25,9 @@ WXR         Honeywell RDR-4000
 
 ## Quick Links
 
-[Support Guide](support/index.md){ .md-button }
-[Reported Issues](support/reported-issues.md){ .md-button }
+[Support Guide](support/index.md){ .md-button } [Reported Issues](support/reported-issues.md){ .md-button } [Feature Guides](feature-guides/index.md){ .md-button }
 
 [Throttle Calibration Guide](feature-guides/flyPad/throttle-calibration.md){ .md-button }
-[Feature Guides](feature-guides/index.md){ .md-button }
 
 ##  Topics
 

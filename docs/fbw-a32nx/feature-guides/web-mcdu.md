@@ -10,8 +10,8 @@ The MCDU Web Interface allows you to display and control the MCDU on a browser i
 
 See list of compatible and tested browsers: [Compatible Browsers](#compatible-browsers)
 
-!!! note "MCDU Web Interface on iPad"
-    ![Web MCDU Interface on the iPad](../assets/mcdu-server/web-mcdu-ipad.png "Web MCDU Interface on the iPad"){loading=lazy}
+!!! note "MCDU Web Interface"
+    ![Web MCDU Interface](../assets/mcdu-server/web-mcdu-ipad.webp "Web MCDU Interface"){loading=lazy}
 
 It also allows to use your real printer on to be used as a cockpit printer for the MCDU.
 
