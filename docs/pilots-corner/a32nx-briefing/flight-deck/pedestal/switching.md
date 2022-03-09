@@ -8,7 +8,7 @@
 
 ![Switching Panel](../../../assets/a32nx-briefing/pedestal/Switching-Panel.jpg "Switching Panel")
 
- !!! note "API Documentation: [EFIS Control Panel](../../a32nx_api.md#switching-panel)"
+!!! note "API Documentation: [Switching Panel](../../a32nx_api.md#switching-panel)"
 
 ## Description
 
