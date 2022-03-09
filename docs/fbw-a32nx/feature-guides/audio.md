@@ -10,7 +10,7 @@ For information on the other settings available on the EFB visit our [flyPad Set
 
 ## Passenger Simulation
 
-We have included various settings that provide flight crew simulation with passengers on board.
+We have included various settings that simulate flight crew interactions with passengers on board.
 
 ### Passenger Ambience
 If this setting is enabled the following ambience sounds are played:
@@ -38,7 +38,7 @@ If this setting is enabled the following crew announcements are played.
 ### Boarding Music
 If enabled music will be played during boarding.
 
-## Realism
+## Realism Settings
 
 ### PTU
 
