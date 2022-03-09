@@ -10,6 +10,11 @@ For information on the other settings available on the EFB visit our [flyPad Set
 
 ## Passenger Simulation
 
+!!! important "Cockpit Door"
+    The cockpit door in the A32NX is simulating a real A320 cockpit door which in consequence dampens most of the sounds from the passenger cabin. 
+
+    If you want to enjoy the Passenger Ambience sounds make sure it is open. 
+
 We have included various settings that simulate flight crew interactions with passengers on board.
 
 ### Passenger Ambience
@@ -17,7 +22,7 @@ If this setting is enabled the following ambience sounds are played:
 
 - Boarding sound begins when the W/B in `MCDU-ATSU-AOC-W&B` boarding is started.
 - Once passengers are on the plane, a constant passenger ambience background sound plays.
-- Deboarding through the the W/B section in `MCDU-ATSU-AO-W&B` triggers the deboarding sound.
+- Deboarding through the W/B section in `MCDU-ATSU-AO-W&B` triggers the deboarding sound.
 
 ### Announcements
 
