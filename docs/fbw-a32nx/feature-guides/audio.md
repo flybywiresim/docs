@@ -4,9 +4,9 @@ This page provides an overview of the various audio settings available in the A3
 
 These settings can be found on the EFB:
 
-![EFB Audio Settings](#)
+![EFB Audio Settings](../assets/flypad/flypad-settings-audio.png)
 
-For information on the other settings available on the EFB visit our [flyPad Settings](#) page.
+For information on the other settings available on the EFB visit our [flyPad Settings](flyPad/settings.md) page.
 
 ## Passenger Simulation
 
@@ -38,8 +38,15 @@ If this setting is enabled the following crew announcements are played.
 ### Boarding Music
 If enabled music will be played during boarding.
 
-- PTU Audible in Cockpit (unrealistic):
-    - Allows the PTU to be heard in the cockpit which in real life is not the case. But many people are used to this sound as it is very audible in the passenger cabin.
+## Realism
+
+### PTU
+
+The PTU is generally not heard in the cockpit. As a passenger we understand people may be used to this sound as it is very audible in the passenger cabin.
+
+We have added a toggle to allow the PTU to be heard in the cockpit which in real life is not the case. 
+
+## Engine and Wind
 
 - Exterior Master Volume:
     - Volume for sounds audible when in external views.
