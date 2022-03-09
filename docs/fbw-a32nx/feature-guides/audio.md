@@ -32,8 +32,8 @@ If this setting is enabled the following crew announcements are played.
 | Landing Lights set to `ON`                 | "Prepare for Takeoff" Announcement              |     Captain      |
 | Enter **Cruise Phase** + 30s               | "Cruise" Announcement                           |     Captain      |
 | Enter **Descent Phase** + 30s              | "Descent" Announcement                          |     Captain      |
-| Gear Down + **Approach Phase** Active      | "Prepare for Landing" Announcement              |       ???        |
-| **Done Phase** + Beacon Light set to `OFF` | "Disarm Doors" Announcement                     |       ???        |
+| Gear Down + **Approach Phase** Active      | "Prepare for Landing" Announcement              |     Captain      |
+| **Done Phase** + Beacon Light set to `OFF` | "Disarm Doors" Announcement                     | Flight Attendant |
 
 ### Boarding Music
 If enabled music will be played during boarding.
