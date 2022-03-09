@@ -14,7 +14,7 @@ Holdings are typically used to delay aircraft, or less common, to burn of fuel f
 A good example usecase of a hold can be seen in Innsbruck (LOWI) in the picture below.
 
 
-![LOWI](/assets/advanced-guides/holds/LOWI.png)
+![LOWI](docs\pilots-corner\assets\advanced-guides\holds\LOWI.png)
 
 
 
@@ -31,7 +31,7 @@ Now that you know where to hold, you should know how to set up the hold. To do t
  
  Eather the inbound course/heading or the reciprocal of the hold is always depicted on the chart.
 
- Below you will find samples of diffrent holds with the information filtered out.  
+ Below you will find samples of diffrent holds with red dots placed where the information is located.  
 
 !!! info "Examples of holds in charts"
 
@@ -68,7 +68,7 @@ Now that you know where to hold, you should know how to set up the hold. To do t
 
         | Fix           | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
         | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
-        | DVN           | 053              |Right               | ????????      | 210KT      |-      | 2900FT        |
+        | DVN           | 053              |Right               | STD           | 210KT      |-      | 2900FT        |
     
     === "5"
 
@@ -76,11 +76,11 @@ Now that you know where to hold, you should know how to set up the hold. To do t
 
         | Fix           | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
         | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
-        | BOTON         | *049             |Right               | STD           | STD        |-      | ????          |
-        | PANZE         | *049             |Left                | STD           | STD        |-      | ????          |
+        | BOTON         | *049             |Right               | STD           | STD        |-      | 6000FT        |
+        | PANZE         | *049             |Left                | STD           | STD        |-      | 6000FT        |
         | CAMRN         | 041              |Left                | STD           | 210KT      |14000FT| 6001FT        |
         
-       * the inbound course can be calulated by subtracting or adding 180 to the reciprocal.
+             * the inbound course can be calulated by subtracting or adding 180 to the reciprocal.
 
     === "6"
 
@@ -96,7 +96,7 @@ Now that you know where to hold, you should know how to set up the hold. To do t
 
         | Fix           | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
         | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
-        | SNAAG         | 061              |Right               | 10NM          | STD        |-      |?????          |
+        | SNAAG         | 061              |Right               | 10NM          | STD        |-      |-              |
 
     === "8"
 
@@ -105,7 +105,7 @@ Now that you know where to hold, you should know how to set up the hold. To do t
         | Fix           | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
         | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
         | TIGER         | 315              |Right               | STD           | STD        |FL240  | FL150         |
-        | BIG           | 302              |Right               | STD           | ?????      |FL150  | FL70          |
+        | BIG           | 302              |Right               | STD           | STD        |FL150  | FL70          |
     
     === "9"
 
@@ -125,6 +125,12 @@ Now that you know where to hold, you should know how to set up the hold. To do t
         | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
         | CRS           | 001              |Left                |Until CVO VOR reads 34.0 NM|STD|-   | FL120         |
      
-### Entering the hold
+STD leg distance is defined by the FAA to be 
 
+STD Max hold speed is defined by the FAA to be 
+
+### Entering the hold
+Now all information of the hold is known it is time to create a hold in the FMS via the MCDU. A step by step guide is provided below. 
+
+step one. Situation. we are gonna hold in SKENS like on example 6. First select the skens waypoint in the F-PLN menu of the MCDU. 
 ### Leaving the hold

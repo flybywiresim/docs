@@ -38,7 +38,6 @@ plugins:
       lang: en
   - exclude-search:
       exclude:
-        - pilots-corner/advanced-guides/flight-planning/holds.md
         - pilots-corner/advanced-guides/flight-planning/fplan.md
         - pilots-corner/advanced-guides/flight-planning/offset.md
         - pilots-corner/advanced-guides/flight-planning/overview.md
