@@ -2,6 +2,42 @@
 
 This page provides an overview of the various audio settings available in the A32NX and their respective functions.
 
+These settings can be found on the EFB:
+
+![EFB Audio Settings](#)
+
+For information on the other settings available on the EFB visit our [flyPad Settings](#) page.
+
+## Passenger Simulation
+
+We have included various settings that provide flight crew simulation with passengers on board.
+
+### Passenger Ambience
+If this setting is enabled the following ambience sounds are played:
+
+- Boarding sound begins when the W/B in `MCDU-ATSU-AOC-W&B` boarding is started.
+- Once passengers are on the plane, a constant passenger ambience background sound plays.
+- Deboarding through the the W/B section in `MCDU-ATSU-AO-W&B` triggers the deboarding sound.
+
+### Announcements
+
+If this setting is enabled the following crew announcements are played.
+
+| Trigger                                    | Audio Played                                    |     Speaker      |
+|:-------------------------------------------|:------------------------------------------------|:----------------:|
+| Boarding Completed                         | "Boarding Completed" announcement               | Flight Attendant |
+| Boarding Completed + 30s                   | Captain makes a "welcome on board" announcement |     Captain      |
+| Beacon Light set to `ON`                   | "Arm Doors" Announcement                        | Flight Attendant |
+| "Arm Doors" Announcement + 30s             | Safety Demo                                     | On-Board System  |
+| Landing Lights set to `ON`                 | "Prepare for Takeoff" Announcement              |     Captain      |
+| Enter **Cruise Phase** + 30s               | "Cruise" Announcement                           |     Captain      |
+| Enter **Descent Phase** + 30s              | "Descent" Announcement                          |     Captain      |
+| Gear Down + **Approach Phase** Active      | "Prepare for Landing" Announcement              |       ???        |
+| **Done Phase** + Beacon Light set to `OFF` | "Disarm Doors" Announcement                     |       ???        |
+
+### Boarding Music
+If enabled music will be played during boarding.
+
 - PTU Audible in Cockpit (unrealistic):
     - Allows the PTU to be heard in the cockpit which in real life is not the case. But many people are used to this sound as it is very audible in the passenger cabin.
 
@@ -13,24 +49,3 @@ This page provides an overview of the various audio settings available in the A3
 
 - Wind Interior Volume:
     - Volume for wind sounds when in interior views.
-
-- Passenger Ambience
-    - If this setting is enabled the following ambience sounds are played:
-        - Boarding sound begins when the W/B in `MCDU-ATSU-AOC-W&B` boarding is started.
-        - Once passengers are on the plane, a constant passenger ambience sound plays.
-        - Deboarding through the the W/B section in `MCDU-ATSU-AO-W&B` triggers the deboarding sound.
-
-- Announcements
-    - If this setting is enabled the following crew announcements are played:
-        - When boarding is finished, the flight attendant says "boarding completed."
-        - 30 seconds after "boarding completed", the captain makes a "welcome on board" announcement.
-        - Beacon light triggers the FA "arm doors" announcement
-        - 30 seconds after the "arm doors" announcement a safety demo is played.
-        - Turning on the Landing Lights before take off triggers the "prepare for takeoff" announcement.
-        - 30 seconds after entering **Cruise Phase** the captain makes a cruise announcement.
-        - 30 seconds after entering **Descent Phase** the captain makes a descent announcement.
-        - Gear down and being in **Approach Phase** phase triggers the "prepare for landing" announcement.
-        - Being in the **Done Phase** (after landing) and deactivating the Beacon light triggers the "disarm doors" announcement.
-
-- Boarding Music
-    - If enabled music will be playing during boarding.
