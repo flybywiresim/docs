@@ -335,7 +335,7 @@ Flight Deck: [AC Panel](flight-deck/ovhd/ac.md)
 | RAM AIR        | A32NX_AIRCOND_RAMAIR_TOGGLE_LOCK                          | 0 \| 1 | R          | Custom LVAR | Switch Guard |
 |                | A32NX_AIRCOND_RAMAIR_TOGGLE                               | 0 \| 1 | R/W        | Custom LVAR |              |
 
-### Anit Ice Panel
+### Anti Ice Panel
 
 Flight Deck: [Anti Ice Panel](flight-deck/ovhd/anti-ice.md)
 
