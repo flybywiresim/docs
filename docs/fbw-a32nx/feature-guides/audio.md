@@ -26,7 +26,7 @@ If this setting is enabled the following crew announcements are played.
 | Trigger                                    | Audio Played                                    |     Speaker      |
 |:-------------------------------------------|:------------------------------------------------|:----------------:|
 | Boarding Completed                         | "Boarding Completed" announcement               | Flight Attendant |
-| Boarding Completed + 30s                   | Captain makes a "welcome on board" announcement |     Captain      |
+| Boarding Completed + 30s                   | Captain makes a "Welcome on Board" announcement |     Captain      |
 | Beacon Light set to `ON`                   | "Arm Doors" Announcement                        | Flight Attendant |
 | "Arm Doors" Announcement + 30s             | Safety Demo                                     | On-Board System  |
 | Landing Lights set to `ON`                 | "Prepare for Takeoff" Announcement              |     Captain      |
