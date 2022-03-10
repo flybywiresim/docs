@@ -344,7 +344,7 @@ TEMPLATE
 
     Turning the WX off and on or TERR ON ND on and off seems to update the WX on the ND.
 
-??? warning "Fuel Consumption Too High / Fuel Prediction Too low"
+??? warning "Fuel Prediction Too low"
     ### Fuel Consumption
 
     !!! tip ""
@@ -352,19 +352,19 @@ TEMPLATE
 
     ^^Description^^
 
-    Fuel consumption may be higher than estimated in the MCDU (Fuel Pred, F-PLN).
+    Fuel prediction on the MCDU may not calculate enough fuel for the duration of your flight.
 
     ^^Root Cause^^
 
-    *A fix is in the works.*
+    We are working on more realistic simulation of various involved systems, e.g. engines. *A fix is in the works.*
 
     ^^Possible Solution or Workaround^^
 
-    Take more fuel especially for longer flights.
+    Take more fuel especially for longer flights or increase your fuel factor when planning on simBrief.
 
     ^^Additional Information^^
 
-    We are working on more realistic simulation of various involved systems, e.g. engines. The fuel estimations and consumptions will be inaccurate until we have completed these systems.
+    The fuel predication and consumptions will be inaccurate until we have completed these systems.
 
 ??? warning "Autopilot: Unwanted Disconnection"
 
