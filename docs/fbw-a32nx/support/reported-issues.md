@@ -356,15 +356,11 @@ TEMPLATE
 
     ^^Root Cause^^
 
-    We are working on more realistic simulation of various involved systems, e.g. engines. *A fix is in the works.*
+    We are working on more realistic simulation of various involved systems, e.g. engines. The fuel predication will be inaccurate until we have updated the fuel planning feature on the MCDU. *Under Investigation*
 
     ^^Possible Solution or Workaround^^
 
-    Take more fuel especially for longer flights or increase your fuel factor when planning on simBrief.
-
-    ^^Additional Information^^
-
-    The fuel predication and consumptions will be inaccurate until we have completed these systems.
+    When using the MCDU fuel planning feature, take more fuel than what is calculated for you - especially for longer flights.
 
 ??? warning "Autopilot: Unwanted Disconnection"
 
