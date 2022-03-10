@@ -48,3 +48,38 @@
 .md-typeset .block > summary::before {
   height: 0rem;
 }
+/*Established Admonitions Changes*/
+/*Info*/
+.md-typeset :is(.admonition,details):is(.info) {
+    border-color: #00E0FE;
+}
+.md-typeset :is(.info)>:is(.admonition-title,summary) {
+    border-color: #00E0FE;
+    background-color: rgba(0,224,254,.1);
+}
+.md-typeset :is(.info,.todo)>:is(.admonition-title,summary):before {
+    background-color: #00E0FE;
+    -webkit-mask-image: var(--md-admonition-icon--info);
+    mask-image: var(--md-admonition-icon--info);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+}
+/*Note*/
+.md-typeset :is(.admonition,details):is(.note) {
+    border-color: #00E0FE;
+}
+.md-typeset :is(.note)>:is(.admonition-title,summary) {
+    border-color: #00E0FE;
+    background-color: rgba(0,224,254,.1);
+}
+.md-typeset :is(.note)>:is(.admonition-title,summary):before {
+    background-color: #00E0FE;
+    -webkit-mask-image: var(--md-admonition-icon--note);
+    mask-image: var(--md-admonition-icon--note);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+}
