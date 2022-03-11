@@ -199,7 +199,7 @@ From the chart we get `TRANS ALT` and `BARO` (=MDA) or `RADIO` (=DH).
 - CAT II/III ILS use DH which is put in the `RADIO` field.
 - `BARO` is based on barometric altitude whereas `RADIO` is based on radio altitude (distance to ground).
 
-![Transition alt on chart](../assets/beginner-guide/descent/EGKK-APPR-char-1.png "Transistion alt on chart"){loading=lazy}<br/>
+![Transition level on chart](../assets/beginner-guide/descent/EGKK-APPR-char-1.png "Transition level on chart"){loading=lazy}<br/>
 ![ILS information on chart](../assets/beginner-guide/descent/EGKK-APPR-chart-2.png "ILS information on chart"){loading=lazy}<br/>
 <sub>*Copyright © 2021 Navigraph / Jeppesen*
 
