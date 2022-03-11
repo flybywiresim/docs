@@ -85,7 +85,7 @@ With radius 63NM around the waypoint ABTUM:
 
 ### 4) Additional Fix Info Pages
 
-You can define up to 4 different fixes by selecting the horizontal skew navigation button to go to the next page.
+You can define up to 4 different fixes by selecting the horizontal slew navigation button to go to the next page.
 
 ![Go to previous or next page](../../assets/advanced-guides/fixinfo/mcdu-fixinfo-pages.png "Go to previous or next page"){loading=lazy}
 
