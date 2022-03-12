@@ -178,11 +178,16 @@ ATC will quite often instruct certain altitudes within the STAR and APPR which d
 Before we descend we should also reconfirm our destination runway and input or update our destination data into the MCDU PERF APPR page.
 This is typically done about 50NM before the starting the descent.
 
+!!! info "Honeywell MCDU and PERF APPR Page"
+    It is important to note that when entering a value in the `TRANS ALT` field on this page that the flight crew reference the appropriate `TRANS LVL`. In this spec of the MCDU, Honeywell has not yet corrected the field to reflect `TRANS LVL` as the value required.
+
+    As a quick reminder, when descending from cruise the flight crew is moving from a "Flight Level" to a local altimeter for arrival which is where the `TRANS LVL` value is derived from. 
+
 ![ENTER DEST DATA Message on the MCDU](../assets/beginner-guide/descent/MCDU-Enter-dest-data.png "ENTER DEST DATA Message on the MCDU"){loading=lazy}
 
 We can obtain this data from the destination airport's ATIS information and the airport charts.
 
-From ATIS we get: `QNH`, `TEMP` and `MAG WIND`. Sometimes `TRANS ALT` or 'TRANS LVL' - if not refer to the approach chart.
+From ATIS we get: `QNH`, `TEMP`, `MAG WIND` and `TRANS LVL` - if not refer to the approach chart.
 
 ATIS Example:
 ```
@@ -193,13 +198,20 @@ ACKNOWLEDGE RECEIPT OF INFORMATION K AND ADVISE AIRCRAFT
 TYPE ON FIRST CONTACT
 ```
 
-From the chart we get `TRANS ALT` and `BARO` (=MDA) or `RADIO` (=DH).
+From the chart we get `Trans level` and `BARO` (=MDA) or `RADIO` (=DH). 
 
 - CAT I ILS uses MDA and is entered into the `BARO` field.
 - CAT II/III ILS use DH which is put in the `RADIO` field.
 - `BARO` is based on barometric altitude whereas `RADIO` is based on radio altitude (distance to ground).
 
-![Transition alt on chart](../assets/beginner-guide/descent/EGKK-APPR-char-1.png "Transistion alt on chart"){loading=lazy}<br/>
+!!! tip "Trans level: By ATC"
+    In the particular example below the `Trans level` field states `By ATC`. If you are not flying on a network such as Vatsim or IVAO you can try the following things:
+
+    - Search online for the real life D-ATIS at your arrival airport (much like the ATIS example above).
+    - Use the `Trans ALT` + 1000 ft.
+        - **Development Version:** If you have imported your flight plan via our simBrief integration this value would be autopopulated for you.  
+
+![Transition level on chart](../assets/beginner-guide/descent/EGKK-APPR-char-1.png "Transition level on chart"){loading=lazy}<br/>
 ![ILS information on chart](../assets/beginner-guide/descent/EGKK-APPR-chart-2.png "ILS information on chart"){loading=lazy}<br/>
 <sub>*Copyright © 2021 Navigraph / Jeppesen*
 
