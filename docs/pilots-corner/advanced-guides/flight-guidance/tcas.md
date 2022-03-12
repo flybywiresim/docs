@@ -10,7 +10,7 @@ Our TCAS supports online network traffic services (Vatsim / IVAO) and the live t
 
 ## Overview
 
-The Traffic Collision Avoidance System (TCAS) is a system available on Airbus aircraft that helps to reduce the risk of airborne collisions. Numerous improvements have been made to this system over the years that enhance the pilot interface and decrease non-optimum pilot handling of advisories from TCAS. The FlyByWire A32NX uses the AP/FD TCAS mode function developed by Airbus.
+The Traffic Collision Avoidance System (TCAS) is a system available on Airbus aircraft that helps to reduce the risk of airborne collisions. Numerous improvements have been made to this system over the years that enhance the pilot interface and decrease non-optimal pilot handling of advisories from TCAS. The FlyByWire A32NX uses the AP/FD TCAS mode function developed by Airbus.
 
 There are two typical procedures pilots will encounter when TCAS detects an intruder in the flight path of the aircraft.
 
@@ -53,7 +53,7 @@ This advisory is generated when TCAS detects an intruder along the current fligh
 
 [**Images of different TA icons on ND Here**]
 
-Once a TA is triggered the AP/FD TCAS will arm itself to notify the crew (alongside other visual cues noted above). This ensures that if the intruder would turn into a threat that triggers an RA the system is ready.
+Once a TA is triggered the AP/FD TCAS will arm itself to notify the crew (alongside other visual cues noted above). This ensures that if the intruder would turn into a threat that would trigger an RA the system is ready to act.
 
 ### Resolution Advisory
 
