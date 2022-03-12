@@ -26,6 +26,9 @@ If this setting is enabled the following ambience sounds are played:
 
 ### Announcements
 
+!!! important "Customizations"
+    Due to limitations with MSFS audio configurations adding user customizable announcements/sounds is not easily possible at this time.
+
 If this setting is enabled the following crew announcements are played.
 
 | Trigger                                    | Audio Played                                    |     Speaker      |
