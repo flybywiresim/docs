@@ -198,11 +198,18 @@ ACKNOWLEDGE RECEIPT OF INFORMATION K AND ADVISE AIRCRAFT
 TYPE ON FIRST CONTACT
 ```
 
-From the chart we get `Trans level` and `BARO` (=MDA) or `RADIO` (=DH).
+From the chart we get `Trans level` and `BARO` (=MDA) or `RADIO` (=DH). 
 
 - CAT I ILS uses MDA and is entered into the `BARO` field.
 - CAT II/III ILS use DH which is put in the `RADIO` field.
 - `BARO` is based on barometric altitude whereas `RADIO` is based on radio altitude (distance to ground).
+
+!!! tip "Trans level: By ATC"
+    In the particular example below the `Trans level` field states `By ATC`. If you are not flying on a network such as Vatsim or IVAO you can try the following things:
+
+    - Search online for the real life D-ATIS at your arrival airport (much like the ATIS example above).
+    - Use the `Trans ALT` + 1000 ft.
+        - **Development Version:** If you have imported your flight plan via our simBrief integration this value would be autopopulated for you.  
 
 ![Transition level on chart](../assets/beginner-guide/descent/EGKK-APPR-char-1.png "Transition level on chart"){loading=lazy}<br/>
 ![ILS information on chart](../assets/beginner-guide/descent/EGKK-APPR-chart-2.png "ILS information on chart"){loading=lazy}<br/>
