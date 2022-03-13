@@ -39,8 +39,6 @@ This advisory is generated when TCAS detects an intruder along the current fligh
 - Visual amber cues on the navigation display (ND providing information about the potential threat
 - "*Traffic, Traffic*" aural warning
 
-[**Images of different TA icons on ND Here**]
-
 Once a TA is triggered the AP/FD TCAS will arm itself to notify the crew (alongside other visual cues noted above). This ensures that if the intruder would turn into a threat that would trigger an RA the system is ready to act.
 
 ### Resolution Advisory
@@ -62,8 +60,6 @@ When a traffic advisory becomes a collision threat an RA is generated. AP/FD TCA
 
     === "AP + FD Disengaged"
         The FD bars will appear automatically. TCAS mode will be engaged and provide guidance and flight crews should perform actions as stated in above.
-
-[**Images of different RA icons on ND Here**]
 
 There are generally two types of behaviors associated with an RA - preventative and corrective
 
