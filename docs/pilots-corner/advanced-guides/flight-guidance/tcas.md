@@ -32,18 +32,6 @@ AP/FD TCAS includes vertical guidance as part of the Auto Flight System (AFS) to
 
 Essentially this feature allows the flight crew to resolve TCAS RAs using the autopilot. It is also entirely possible to complete a TCAS RA maneuver manually by using the flight director guidance with the autopilot switched off as well. The major benefit of this system is to provide optimal maneuvers when a conflict arises.
 
-**Vertical speed indicator during a TCAS RA**
-
-!!! block ""
-    ![pfd vsi](../../assets/advanced-guides/flight/pfd-vsi.png){align=left}
-
-    This is an example of the PFD's vertical speed indicator during a TCAS RA. It showcases a corrective measure to "descend" the aircraft to prevent a collision. These zones can also indicate a positive vertical speed change in the case of a corrective measure to "climb".
-
-    There are two notable indiations in this example. 
-
-    - <span style=color:green>Green Zone</span> which indicates the proper and safe vertical speed during the TCAS maneuver. 
-    - <span style=color:red>Red Zone</span> which indicates a forbidden vertical speed during the TCAS maneuver.
-
 ### Traffic Advisory
 
 This advisory is generated when TCAS detects an intruder along the current flight path it would consider a potential threat. Flight crews will receive multiple cues from TCAS that identifies a TA. No specific action is mandatory during a TA but the flight crew should remain vigilant of intruders and anticipate a potential RA. 
@@ -100,6 +88,42 @@ This behavior starts with the vertical speed in the <span style=color:red>red zo
     - This prevents the aircraft from exceeding a commanded altitude / prevent excursions
     - A V/S of 0 ft/min is always within the safe zone for a corrective RA which allows for TCAS to capture a targeted flight level if capture conditions are met
 - To ensure a safe speed during any maneuvers A/THR will engage SPEED/MACH
+
+---
+
+## Flight Instrument Indicators
+
+### PFD during TCAS RA
+
+!!! block ""
+    ![pfd-tcas](../../assets/advanced-guides/flight/pfd-tcas.png){width=50% align=left}
+
+    This image showcases an aircraft experiencing a TCAS RA during cruise to "descend". 
+
+    There are two critical elements to pay attention to in this image:
+
+    - The Flight Mode Annunciators (FMA) in the highlighted box
+    - The Vertical speed indicator (VSI) to the right of the PFD.
+
+As a conflict occurs and the AP/FD TCAS system kicks in typically you will see:
+
+- TCAS in the FMA:
+    - TCAS will be armed in <span style=color:cyan>cyan</span> below the current vertical guidance mode. (Not Pictured).
+    - A mode revision and TCAS will engage with a box around it. (Pictured).
+    - TCAS in <span style=color:green>green</span> after 10s.
+- The aircraft will also target a safe vertical speed in the VSI as seen below.
+
+!!! block ""
+    ![pfd vsi](../../assets/advanced-guides/flight/pfd-vsi.png){align=left}
+
+    This is an example of the PFD's vertical speed indicator during a TCAS RA. It showcases a corrective measure to "descend" the aircraft to prevent a collision. These zones can also indicate a positive vertical speed change in the case of a corrective measure to "climb".
+
+    There are two notable indiations in this example. 
+
+    - <span style=color:green>Green Zone</span> which indicates the proper and safe vertical speed during the TCAS maneuver. 
+    - <span style=color:red>Red Zone</span> which indicates a forbidden vertical speed during the TCAS maneuver.
+
+### ND Symbology
 
 ---
 
