@@ -53,7 +53,7 @@ When a traffic advisory becomes a collision threat an RA is generated. AP/FD TCA
     Please be aware that there are certain scenarios that happen during a TCAS RA that affects how flight crews should react depending on the conditions of the flight deck.
 
     === "AP + FD Engaged"
-        Any vertical mode will revert to `TCAS` in the FMA and the autopilot will fly the TCAS maneuver
+        Any vertical mode will revert to `TCAS` in the FMA and the autopilot will fly the TCAS maneuver.
 
     === "AP Disengaged / FD Engaged"
         TCAS mode will be engaged and supercede the flight directory guidance. Flight crews should ensure they are centered on the pitch bar and bring the vertical speed of the aircraft into the green zone indicated on the vertical speed indicator on the PFD.
@@ -61,11 +61,13 @@ When a traffic advisory becomes a collision threat an RA is generated. AP/FD TCA
     === "AP + FD Disengaged"
         The FD bars will appear automatically. TCAS mode will be engaged and provide guidance and flight crews should perform actions as stated in above.
 
-There are generally two types of behaviors associated with an RA - preventative and corrective
+There are generally two types of behaviors associated with an RA - preventative and corrective.
 
 #### Preventative
 
-This behavior starts with the vertical speed in the <span style=color:green>green zone</span> of the VSI. It requires the flight crew or commands the autopilot to maintain the current vertical speed and is coupled with an audible alert such as "Monitor V/S". This would help increase the safety margin before any further measures would need to be taken and allow for safe capture of a selected flight level clear of any conflicts. The following conditions will apply:
+This behavior starts with the vertical speed in the <span style=color:green>green zone</span> of the VSI. It requires the flight crew or commands the autopilot to maintain the current vertical speed and is coupled with an audible alert such as "Monitor V/S". This would help increase the safety margin before any further measures would need to be taken and allow for safe capture of a selected flight level clear of any conflicts. 
+
+The following conditions will apply:
 
 - TCAS will maintain a safe V/S target
 - Longitudinal modes previously armed will automatically be disarmed except ALT^*^
@@ -78,7 +80,9 @@ This behavior starts with the vertical speed in the <span style=color:green>gree
 
 This behavior starts with the vertical speed in the <span style=color:red>red zone</span> of the VSI. As the behavior denotes this RA will require active corrective measure either automatically via the autopilot or manually from the flight crew to fly out of the red zone towards the edge of the green / red zone on the VSI. It is usually coupled with audible alerts such as "Climb, Descend".
 
-- TCAS will engage and modify vertical guidance to avoid conflict. It will target the zone mentioned above
+The following conditions will apply:
+
+- TCAS will engage and modify vertical guidance to avoid conflict targeting the <span style=color:green>green zone</span>.
 - Targets a V/S of 200ft/min inside the green band on the VSI
 - Longitudinal modes previously armed will automatically be disarmed except ALT^*^
     - This prevents the aircraft from exceeding a commanded altitude / prevent excursions
