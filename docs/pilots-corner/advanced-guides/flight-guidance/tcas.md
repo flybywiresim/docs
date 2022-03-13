@@ -38,6 +38,22 @@ Once a TA is triggered the AP/FD TCAS will arm itself to notify the crew with th
 - Once the predicted flight paths of the aircraft or the aircraft themselves are no longer in proximity, TCAS will issue a "Clear of Conflict"
 - If the threat increases, because the aircraft are predicted to approach too close to each other, TCAS will upgrade the Traffic Advisory to a Resolution Advisory.
 
+### TA Pilot Actions
+
+As soon as the "*Traffic, Traffic*" aural warning is heard pilots should begin analyzing the potential threat. **Corrective maneuvers should not be performed in response to a TA.**
+
+- Confirm the TCAS panel is correctly configured
+- Confirm that TCAS is armed in <span style=color:cyan>cyan</span> on the PFD's FMA (AP/FD TCAS feature)
+    - If TCAS is not armed the flight crew should be mentally prepared to disconnect the autopilot and manually follow TCAS commands
+- Ensure A/THR is set to `ON`
+- Pilot monitoring (PM):
+    - Check the ND for the potential threat
+        - *It may be necessary to set the zoom level to 60nm or below.* - **Needs Verification**
+    - Contact ATC about any nearby aircraft
+    - Keep pilot flying (PF) informed about the status of the threat
+    - Confirm the PF takes the correct actions if the TA upgrades to an RA
+    - Consider turning on additional exterior lighting for increased visibility
+    
 ## Resolution Advisory
 
 When a traffic advisory becomes a collision threat an RA is generated. RA actions require the flight crew to promptly follow any commanded actions by TCAS and notify ATC. According to the Airbus Flight Crew Techniques Manual (FCTM) the flight crew **must follow TCAS RA commands even** in the following situations:
