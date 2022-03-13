@@ -54,7 +54,7 @@ Read the [Reported Issues](reported-issues.md) section - most issues users encou
 
 If you have a github account please also see [Issues](https://github.com/flybywiresim/a32nx/issues){target=new} there. Please also use the search for your particular issue.
 
-Join our Discord server [:fontawesome-brands-discord:{: .discord } - **Discord Link**](https://discord.gg/flybywire){target=new} in channel #support and do the following:
+Join our Discord server [:fontawesome-brands-discord:{: .discord } - **Discord Link**](https://discord.gg/flybywire){target=new} in channel #a32nx-support and do the following:
 
 - Read the Pinned Messages for commonly reported issues
 
@@ -64,7 +64,7 @@ Join our Discord server [:fontawesome-brands-discord:{: .discord } - **Discord L
 
     ![Sticky-Message](../assets/support-guide/Sticky-Message.png "Sticky-Message")
 
-- Search in the #support channel for similar issues other users have reported.
+- Search in the #a32nx-support channel for similar issues other users have reported.
 
     ![Search-support](../assets/support-guide/Search-support.png "Search-support")
 
@@ -72,7 +72,7 @@ Join our Discord server [:fontawesome-brands-discord:{: .discord } - **Discord L
 
 ## 4. Report Issue on Discord
 
-If you can't solve or find your issue with the above steps, you can use our [:fontawesome-brands-discord:{: .discord } - **Discord**](https://discord.gg/flybywire){target=new} **#support** channel to get further help.
+If you can't solve or find your issue with the above steps, you can use our [:fontawesome-brands-discord:{: .discord } - **Discord**](https://discord.gg/flybywire){target=new} **#a32nx-support** channel to get further help.
 
 Please prepare the following before reporting any issues:
 
@@ -81,7 +81,7 @@ Please prepare the following before reporting any issues:
 - [Community Folder Content](#community-folder-content)
 - [Screenshot of Cockpit](#screenshot-of-cockpit)
 
-With this information at hand go to our Discord  [:fontawesome-brands-discord:{: .discord } - **Discord**](https://discord.gg/flybywire){target=new} **#support** channel and
+With this information at hand go to our Discord  [:fontawesome-brands-discord:{: .discord } - **Discord**](https://discord.gg/flybywire){target=new} **#a32nx-support** channel and
 describe your issue and respond to the questions our support team might have.
 
 !!! warning "Please do some research (see [above](#3-research-known-issues) ) before you post any questions or report any issues."
