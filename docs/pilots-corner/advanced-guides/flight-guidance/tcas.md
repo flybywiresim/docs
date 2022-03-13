@@ -120,10 +120,27 @@ As a conflict occurs and the AP/FD TCAS system kicks in typically you will see:
 
     There are two notable indiations in this example. 
 
-    - <span style=color:green>Green Zone</span> which indicates the proper and safe vertical speed during the TCAS maneuver. 
+    - <span style=color:green>Green Zone</span> which indicates the proper and safe vertical speed during the TCAS maneuver.
     - <span style=color:red>Red Zone</span> which indicates a forbidden vertical speed during the TCAS maneuver.
 
 ### ND Symbology
+
+The following chart explains the various symbols displayed on the navigation display (ND) when TCAS detects potential threats (increasing in severity):
+
+|                                            Symbol on ND                                             |     Type of Traffic      | Information                                                                 |
+|:---------------------------------------------------------------------------------------------------:|:------------------------:|:----------------------------------------------------------------------------|
+|       ![tcas other traffic](../../assets/advanced-guides/flight/other-traffic.png){width=75%}       |      Other Traffic       | Not a threat.<br>Visible within the surveillance field.                     |
+|       ![tcas proximate traffic](../../assets/advanced-guides/flight/proximate.png){width=75%}       |    Proximate Traffic     | Not a threat.<br>Identified as a possible intruder within 6 NM and 1200 FT. |
+|    ![tcas traffic advisory](../../assets/advanced-guides/flight/traffic-advisory.png){width=75%}    |  Traffic Advisory (TA)   | Possible threat.                                                            |
+| ![tcas resolution advisory](../../assets/advanced-guides/flight/resolution-advisory.png){width=75%} | Resolution Advisory (RA) | Collision threat.                                                           |
+
+This next chart includes additional symbology when traffic is seen on the ND.
+
+|                                          Symbol                                           | Information                                                                                                                                      |
+|:-----------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------|
+|  ![tcas other traffic](../../assets/advanced-guides/flight/tcas-arrow-up.png){width=75%}  | This arrow represents traffic that is climbing.                                                                                                  |
+| ![tcas other traffic](../../assets/advanced-guides/flight/tcas-arrow-down.png){width=75%} | This arrow represents traffic that is descending.                                                                                                |
+|  ![tcas other traffic](../../assets/advanced-guides/flight/tcas-traffic.png){width=75%}   | Complete picture of traffic on the ND.<br>This example showcases Proximate Traffic that is 1000 ft above the aircraft and is currently climbing. |
 
 ---
 
