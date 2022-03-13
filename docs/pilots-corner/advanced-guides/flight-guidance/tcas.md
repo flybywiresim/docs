@@ -69,18 +69,6 @@ AP/FD TCAS shines in this regard allowing for fully automated flight in the case
     - See [ND Symbology](#nd-symbology)
 - Visual green and red zones on the vertical speed indicators on the PFD
 
-!!! info "Additional Conditions with AP/FD TCAS"
-    Please be aware that there are certain scenarios that happen during a TCAS RA that affects how flight crews should react depending on the conditions of the flight deck.
-
-    === "AP + FD Engaged"
-        Any vertical mode will revert to `TCAS` in the FMA and the autopilot will fly the TCAS maneuver.
-
-    === "AP Disengaged / FD Engaged"
-        TCAS mode will be engaged and supercede the flight directory guidance. Flight crews should ensure they are centered on the pitch bar and bring the vertical speed of the aircraft into the green zone indicated on the vertical speed indicator on the PFD.
-
-    === "AP + FD Disengaged"
-        The FD bars will appear automatically. TCAS mode will be engaged and provide guidance and flight crews should perform actions as stated in above.
-
 There are generally two types of behaviors associated with an RA - preventative and corrective.
 
 ### Preventative
@@ -108,6 +96,26 @@ The following conditions will apply:
     - This prevents the aircraft from exceeding a commanded altitude / prevent excursions
     - A V/S of 0 ft/min is always within the safe zone for a corrective RA which allows for TCAS to capture a targeted flight level if capture conditions are met
 - To ensure a safe speed during any maneuvers A/THR will engage SPEED/MACH
+
+### RA Pilot Actions
+
+As soon as the threat upgrades to an RA, TCAS will engage and provide corrective action based on the types discussed above. While there are many benefits to having AP/FD TCAS installed and having the autopilot perform any corrective maneuvers, the flight crew should still monitor all actions taken by the system and prepare to take manual control at any time.
+
+- Ensure TCAS is now the active mode on the FMA
+- Ensure the AP is targeting the <span style=color:green>green zone</span> on the VSI
+- Notify ATC
+
+!!! info "Additional Considerations with AP/FD TCAS"
+    Please be aware that there are certain scenarios that happen during a TCAS RA that affects how flight crews should react depending on the conditions of the flight deck.
+
+    === "AP + FD Engaged"
+        Any vertical mode will revert to `TCAS` in the FMA and the autopilot will fly the TCAS maneuver.
+
+    === "AP Disengaged / FD Engaged"
+        TCAS mode will be engaged and supercede the flight directory guidance. Flight crews should ensure they are centered on the pitch bar and bring the vertical speed of the aircraft into the green zone indicated on the vertical speed indicator on the PFD.
+
+    === "AP + FD Disengaged"
+        The FD bars will appear automatically. TCAS mode will be engaged and provide guidance and flight crews should perform actions as stated in above.
 
 ---
 
