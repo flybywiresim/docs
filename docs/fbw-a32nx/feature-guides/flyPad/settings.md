@@ -240,7 +240,20 @@ Settings for various audio sources and sounds.
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
 
-For detailed information on these settings please visit the [Audio Configuration](../audio.md) page.
+For detailed information on these settings please visit: 
+
+[Audio Configuration Page](../audio.md){.md-button target=new}
+
+- Toggle ON/OFF - PTU Audible in Cockpit (unrealistic)
+
+- Volume Sliders
+    - Dynamically adjust various audio elements while in the virtual cockpit  
+
+- Toggle ON/OFF - Various Passenger Ambience Sounds
+
+- Toggle ON/OFF - Announcements in Flight
+
+- Toggle ON/OFF - Boarding Music
 
 ## flyPad Settings
 
