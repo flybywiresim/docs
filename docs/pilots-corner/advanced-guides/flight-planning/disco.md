@@ -1,11 +1,5 @@
 # Discontinuities
 
-<style>
-    .md-typeset .admonition.block, .md-typeset details.block {
-        text-align: center;
-    }
-</style>
-
 ## What are Discontinuities?
 
 Discontinuities are breaks in the flight plan and often separate two flight plan sections like the SID and first in-route waypoint or the STAR and the APPR. They are also often inserted when the flight plan is modified.
@@ -33,6 +27,12 @@ A MANUAL leg stays on a constant TRK or HDG and has no termination point.
 The core principle of a MANUAL leg is that air traffic control (ATC) will give the flight crew headings (vectors) or a direct-to instruction to guide the aircraft to the planned approach path.
 
 If no ATC is available (or when using MSFS ATC) the user must use heading mode (Selected HDG) or direct to (DIR TO) to guide the aircraft to an appropriate intercept course for the approach.
+
+<style>
+    .md-typeset .admonition.block, .md-typeset details.block {
+        text-align: center;
+    }
+</style>
 
 !!! info "Discontinuities after MANUAL legs cannot be cleared from the flight plan."
     ![Manual Leg Discontinuity](../../assets/advanced-guides/disco/mcdu-discontinuity-2.png "Manual Leg Discontinuity"){width=45% loading=lazy}
