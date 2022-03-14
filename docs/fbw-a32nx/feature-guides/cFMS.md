@@ -63,7 +63,7 @@ We have introduced new features to the custom flight management system as part o
 ## Guides and Information
 
 - [MCDU Fix Info](../../pilots-corner/advanced-guides/flight-planning/fixinfo.md)
-- [Flight Plan Discontinuities](../../pilots-corner/beginner-guide/preparing-mcdu.md#discontinuity)
+- [Flight Plan Discontinuities](../../pilots-corner/advanced-guides/flight-planning/disco.md)
 
 ## Known Issues
 
@@ -74,7 +74,7 @@ We have introduced new features to the custom flight management system as part o
 - WX and TERR on ND are not implemented yet. We are waiting for better API support by Microsoft Flight Simulator. See our [Forums Feature Request](https://forums.flightsimulator.com/t/implement-weather-and-terrain-api-s-for-aircraft-developers-to-implement-accurate-radar-predictive-windshear-egpws-and-metar-wind-uplink/442016){target=new}.
 - Rendering of flight path on the ND of terminal procedure legs may be glitched or incorrect during cruise. - [See Special Notes](../feature-guides/cFMS.md#flight-path-rendering).
 - Rendering of flight path on the ND of legs will be glitched or incorrect if you are flying faster than the appropriate/correct speed. - [See Special Notes](../feature-guides/cFMS.md#flight-path-rendering).
-- Syncing the aircraft flight plan with the sim's flight plan for default ATC and VFR map is not 100% supported. - [See Special Notes](../feature-guides/cFMS.md#flight-plan-sync-msfs-atc--vfr-map).
+- Syncing the aircraft flight plan with the sim's flight plan for default ATC and VFR map is not 100% supported. - [See Special Notes](../feature-guides/cFMS.md#flight-plan-sync-msfs-atc-vfr-map).
 - Defining both FROM/TO in the world map shows in the FROM/TO INIT A page but does not populate the airport list in our METAR (AOC) integration.
 - DIRECT-TO: Turning point is not correctly implemented yet.
 - ETA in F-PLN A on the MCDU may not be 100% accurate.
