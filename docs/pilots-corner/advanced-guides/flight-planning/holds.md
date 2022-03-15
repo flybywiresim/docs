@@ -14,8 +14,7 @@ Holdings are typically used to delay aircraft, or less common, to burn of fuel f
 A good example usecase of a hold can be seen in Innsbruck (LOWI) in the picture below.
 
 
-![LOWI](docs\pilots-corner\assets\advanced-guides\holds\LOWI.png)
-
+![LOWI](../../assets/advanced-guides/holds/LOWI.png)
 
 
 ### Preparing the hold
@@ -39,9 +38,12 @@ Now that you know where to hold, you should know how to set up the hold. To do t
 
         Lorum ipsum
 
+        ![HOLD1](../../assets/advanced-guides/holds/HOLD1.png)
+
+
         | Fix           | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
         | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
-        | ARNUM         | 216              |Right               | STD           | STD        |FL140  | FL100         |
+        | ARNUM         | 216°              |Right               | STD           | STD        |FL140  | FL100         |
       
 
         
@@ -50,37 +52,48 @@ Now that you know where to hold, you should know how to set up the hold. To do t
 
         Lorum ipsum
 
+        ![HOLD2](../../assets/advanced-guides/holds/HOLD2.png)
+
+
         | Fix           | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
         | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
-        | SUGOL         | 110              |Right               | STD           | STD        |FL250  | FL70          |
+        | SUGOL         | 110°              |Right               | STD           | STD        |FL250  | FL70          |
         
     === "3"
 
         Lorum ipsum
 
+        ![HOLD3](../../assets/advanced-guides/holds/HOLD3.png)
+
+
         | Fix           | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
         | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
-        | OKLAX         | 149              |Left                | STD           | 210KT      |STD    | 8000FT        |
+        | OKLAX         | 149°              |Left                | STD           | 210KT      |STD    | 8000FT        |
 
     === "4"
 
         Lorum ipsum
 
+        ![HOLD4](../../assets/advanced-guides/holds/HOLD4.png)
+
+
         | Fix           | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
         | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
-        | DVN           | 053              |Right               | STD           | 210KT      |-      | 2900FT        |
+        | DVN           | 053°              |Right               | STD           | 210KT      |-      | 2900FT        |
     
     === "5"
 
         Lorum ipsum
 
+        
+
         | Fix           | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
         | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
-        | BOTON         | *049             |Right               | STD           | STD        |-      | 6000FT        |
-        | PANZE         | *049             |Left                | STD           | STD        |-      | 6000FT        |
-        | CAMRN         | 041              |Left                | STD           | 210KT      |14000FT| 6001FT        |
+        | BOTON         | *049°             |Right               | STD           | STD        |-      | 6000FT        |
+        | PANZE         | *049°             |Left                | STD           | STD        |-      | 6000FT        |
+        | CAMRN         | 041°              |Left                | STD           | 210KT      |14000FT| 6001FT        |
         
-             the inbound course can be calulated by subtracting or adding 180 to the reciprocal.
+        The inbound course can be calulated by subtracting or adding 180 to the reciprocal.
 
     === "6"
 
@@ -88,7 +101,7 @@ Now that you know where to hold, you should know how to set up the hold. To do t
 
         | Fix           | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
         | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
-        | SKENS         | 274              |Right               | 10NM          | STD        |-      |13000FT        |
+        | SKENS         | 274°              |Right               | 10NM          | STD        |-      |13000FT        |
 
     === "7"
 
@@ -96,7 +109,7 @@ Now that you know where to hold, you should know how to set up the hold. To do t
 
         | Fix           | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
         | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
-        | SNAAG         | 061              |Right               | 10NM          | STD        |-      |-              |
+        | SNAAG         | 061°              |Right               | 10NM          | STD        |-      |-              |
 
     === "8"
 
@@ -104,8 +117,8 @@ Now that you know where to hold, you should know how to set up the hold. To do t
 
         | Fix           | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
         | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
-        | TIGER         | 315              |Right               | STD           | STD        |FL240  | FL150         |
-        | BIG           | 302              |Right               | STD           | STD        |FL150  | FL70          |
+        | TIGER         | 315°              |Right               | STD           | STD        |FL240  | FL150         |
+        | BIG           | 302°              |Right               | STD           | STD        |FL150  | FL70          |
     
     === "9"
 
@@ -113,9 +126,9 @@ Now that you know where to hold, you should know how to set up the hold. To do t
 
         |Fix            | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
         | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
-        | DDM           | 059              |Left                | STD           | 230KT      |-      | 6000FT        |
-        | EGN           | 108              |Left                | STD           | 230KT      |-      | 4000FT        |
-        | KEA           | 335              |Right               | STD           | 230KT      |-      | 5000FT        |
+        | DDM           | 059°              |Left                | STD           | 230KT      |-      | 6000FT        |
+        | EGN           | 108°              |Left                | STD           | 230KT      |-      | 4000FT        |
+        | KEA           | 335°              |Right               | STD           | 230KT      |-      | 5000FT        |
 
     === "10"
 
@@ -123,7 +136,7 @@ Now that you know where to hold, you should know how to set up the hold. To do t
 
         |Fix            | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
         | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
-        | CRS           | 001              |Left                |Until CVO VOR reads 34.0 NM|STD|-   | FL120         |
+        | CRS           | 001°              |Left                |Until CVO VOR reads 34.0 NM|STD|-   | FL120         |
      
 STD leg distance is defined by the FAA to be:
 
