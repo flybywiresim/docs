@@ -201,7 +201,7 @@ Shortly before we start our takeoff roll we do the following steps:
 
 - Check `ENG MODE SEL` as required (should be on `MODE NORM`)
 
-- Set `TCAS` to `TA` or `TA/TR` and traffic to `ALL` or ABV)
+- Set `TCAS` to `TA` or `TA/RA` and traffic to `ALL` or ABV
 
 **A typical standard takeoff follows these steps:**
 
