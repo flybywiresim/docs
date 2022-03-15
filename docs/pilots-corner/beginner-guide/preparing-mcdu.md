@@ -403,6 +403,8 @@ We can also choose to set a `FLEX TO TEMP` for the flight. The example we are us
 
 * Using the keypad type in `60` and press LSK4R
 
+#### Flex Temp
+
 !!! tip "What is Flex Temp?"
     Flex temp is entered into the MCDU enabling the computer to use the pilot specified air temperature to allow for take-off thrust that is less than TOGA but not less than CLB. This is a method of creating cost savings by increasing engine life resulting in reduced overhaul and fuel costs. This value is normally calculated via a pilot's company EFB or other tools.
 
@@ -410,7 +412,7 @@ We can also choose to set a `FLEX TO TEMP` for the flight. The example we are us
 
     {==
 
-    Typically, Flex temps are above ISA+29C (44C at sea level) and above current temp, but no higher than ISA+55C (70 C at sea level). Usable Flex temps are from 45 C (or current OAT if it is higher) to 70 C.
+    Flex temps are above ISA+29°C (44°C at sea level) and above current temp, but no higher than ISA+59°C (74°C at sea level). Usable Flex temps at sea level are from 45°C (or current OAT if it is higher) to 74°C.
 
     Additionally, a decent rule of thumb for simulation purposes is to use a lower number if heavy or on a short runway and higher for the opposite.
 
