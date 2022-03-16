@@ -117,6 +117,13 @@ As soon as the threat upgrades to an RA, TCAS will engage and provide corrective
     === "AP + FD Disengaged"
         The FD bars will appear automatically. TCAS mode will be engaged and provide guidance and flight crews should perform actions as stated in above.
 
+## Clear of Conflict
+
+TCAS will notify the flight crew via the aural warning "Clear of Conflict" when separation and range from a threat is adequate. At this time the flight crew should:
+
+- Return to previously assigned ATC clearance
+- Notify ATC - clear of conflict
+
 ---
 
 ## AP/FD TCAS
