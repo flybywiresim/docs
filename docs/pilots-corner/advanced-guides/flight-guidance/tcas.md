@@ -181,6 +181,27 @@ This next chart includes additional symbology when traffic is seen on the ND.
 | ![tcas other traffic](../../assets/advanced-guides/flight/tcas-arrow-down.png){width=75%} | This arrow represents traffic that is descending.                                                                                                |
 |  ![tcas other traffic](../../assets/advanced-guides/flight/tcas-traffic.png){width=75%}   | Complete picture of traffic on the ND.<br>This example showcases Proximate Traffic that is 1000 ft above the aircraft and is currently climbing. |
 
+## Aural Warnings
+
+The following table includes a list of auditory messages when a TA/RA is detected.
+
+|               Aural Warning                | Description                                                                                              |
+|:------------------------------------------:|----------------------------------------------------------------------------------------------------------|
+|              Traffic Traffic               | Traffic Alert Detected.                                                                                  |
+|                Climb Climb                 | Perform climb indicated in the green zone on the VSI.                                                    |
+|       Climb, Crossing Climb (twice)        | *See above*. Additionally indicates you are crossing the altitude of the intruder.                       |
+|           Increase Climb (twice)           | Warning is played after CLIMB warning when vertical speed is still insufficient.                         |
+|              Descend Descend               | Perform descent indicated in the green zone on the VSI.                                                  |
+|      Decend, Crossing Descend (twice)      | *See above*. Additionally indicates you are crossing the altitude of the intruder.                       |
+|          Increase Descend (twice)          | Warning is played after DESCEND warning when vertical speed is still insufficient.                       |
+|            Level off, Level off            | Set vertical speed to 0.                                                                                 |
+|          Climb Climb Now (twice)           | Warning is played after DESCEND warning when the trajectory of the intruder has changed.                 |
+|        Descend Descend Now (twice)         | Warning is played after the CLIMB warning when the trajectory of the intruder has changed.               |
+|           Monitor Vertical Speed           | Warning is played in the case of preventative RA. Ensure aircraft is not within the red zone on the VSI. |
+|     Maintain Vertical Speed, Maintain      | Maintain vertical speed in the green zone of the VSI.                                                    |
+| Maintain Vertical Speed, Crossing Maintain | *See above*. Additionally indicates you are crossing the altitude of the intruder.                       |
+|             Clear of Conflict              | Return to assigned ATC clearance. Threat has passed.                                                     |
+
 ---
 
 ## External Resources
