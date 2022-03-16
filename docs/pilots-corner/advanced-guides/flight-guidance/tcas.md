@@ -65,9 +65,11 @@ When a traffic advisory becomes a collision threat an RA is generated. RA action
 AP/FD TCAS shines in this regard allowing for fully automated flight in the case of an RA. Pilots will now have additional information provided to them on the primary flight display (PFD) and navigation display (ND) depending on what actions the flight crew needs to perform to clear the conflict.
 
 - Aural commands instructing the pilot of what type of vertical maneuver to perform
+    - See [Aural Messages](#aural-messages) for a list
 - Visual red cues on the ND providing information about the potential threat
     - See [ND Symbology](#nd-symbology)
 - Visual green and red zones on the vertical speed indicators on the PFD
+    - See [Flight Instrument Indicators](#flight-instrument-indicators)
 
 There are generally two types of behaviors associated with an RA - preventative and corrective.
 
@@ -188,26 +190,26 @@ This next chart includes additional symbology when traffic is seen on the ND.
 | ![tcas other traffic](../../assets/advanced-guides/flight/tcas-arrow-down.png){width=75%} | This arrow represents traffic that is descending.                                                                                                |
 |  ![tcas other traffic](../../assets/advanced-guides/flight/tcas-traffic.png){width=75%}   | Complete picture of traffic on the ND.<br>This example showcases Proximate Traffic that is 1000 ft above the aircraft and is currently climbing. |
 
-## Aural Warnings
+## Aural Messages
 
 The following table includes a list of auditory messages when a TA/RA is detected.
 
-|                Aural Warning                | Description                                                                                              |
-|:-------------------------------------------:|----------------------------------------------------------------------------------------------------------|
-|               Traffic Traffic               | Traffic Alert Detected.                                                                                  |
-|                 Climb Climb                 | Perform climb indicated in the green zone on the VSI.                                                    |
-|      Climb, Crossing Climb<br>(twice)       | *See above*. Additionally indicates you are crossing the altitude of the intruder.                       |
-|          Increase Climb<br>(twice)          | Warning is played after CLIMB warning when vertical speed is still insufficient.                         |
-|               Descend Descend               | Perform descent indicated in the green zone on the VSI.                                                  |
-|     Decend, Crossing Descend<br>(twice)     | *See above*. Additionally indicates you are crossing the altitude of the intruder.                       |
-|         Increase Descend<br>(twice)         | Warning is played after DESCEND warning when vertical speed is still insufficient.                       |
-|            Level off, Level off             | Set vertical speed to 0.                                                                                 |
-|         Climb Climb Now<br>(twice)          | Warning is played after DESCEND warning when the trajectory of the intruder has changed.                 |
-|       Descend Descend Now<br>(twice)        | Warning is played after the CLIMB warning when the trajectory of the intruder has changed.               |
-|           Monitor Vertical Speed            | Warning is played in the case of preventative RA. Ensure aircraft is not within the red zone on the VSI. |
-|      Maintain Vertical Speed, Maintain      | Maintain vertical speed in the green zone of the VSI.                                                    |
-| Maintain Vertical Speed, Crossing Maintain  | *See above*. Additionally indicates you are crossing the altitude of the intruder.                       |
-|              Clear of Conflict              | Return to assigned ATC clearance. Separation is adequate and threat has passed.                          |
+|               Aural Messages               | Description                                                                                              |
+|:------------------------------------------:|----------------------------------------------------------------------------------------------------------|
+|              Traffic Traffic               | Traffic Alert Detected.                                                                                  |
+|                Climb Climb                 | Perform climb indicated in the green zone on the VSI.                                                    |
+|      Climb, Crossing Climb<br>(twice)      | *See above*. Additionally indicates you are crossing the altitude of the intruder.                       |
+|         Increase Climb<br>(twice)          | Warning is played after CLIMB warning when vertical speed is still insufficient.                         |
+|              Descend Descend               | Perform descent indicated in the green zone on the VSI.                                                  |
+|    Decend, Crossing Descend<br>(twice)     | *See above*. Additionally indicates you are crossing the altitude of the intruder.                       |
+|        Increase Descend<br>(twice)         | Warning is played after DESCEND warning when vertical speed is still insufficient.                       |
+|            Level off, Level off            | Set vertical speed to 0.                                                                                 |
+|         Climb Climb Now<br>(twice)         | Warning is played after DESCEND warning when the trajectory of the intruder has changed.                 |
+|       Descend Descend Now<br>(twice)       | Warning is played after the CLIMB warning when the trajectory of the intruder has changed.               |
+|           Monitor Vertical Speed           | Warning is played in the case of preventative RA. Ensure aircraft is not within the red zone on the VSI. |
+|     Maintain Vertical Speed, Maintain      | Maintain vertical speed in the green zone of the VSI.                                                    |
+| Maintain Vertical Speed, Crossing Maintain | *See above*. Additionally indicates you are crossing the altitude of the intruder.                       |
+|             Clear of Conflict              | Return to assigned ATC clearance. Separation is adequate and threat has passed.                          |
 
 ---
 
