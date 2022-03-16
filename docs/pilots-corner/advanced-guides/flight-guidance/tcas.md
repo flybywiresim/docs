@@ -200,7 +200,7 @@ The following table includes a list of auditory messages when a TA/RA is detecte
 |           Monitor Vertical Speed            | Warning is played in the case of preventative RA. Ensure aircraft is not within the red zone on the VSI. |
 |      Maintain Vertical Speed, Maintain      | Maintain vertical speed in the green zone of the VSI.                                                    |
 | Maintain Vertical Speed, Crossing Maintain  | *See above*. Additionally indicates you are crossing the altitude of the intruder.                       |
-|              Clear of Conflict              | Return to assigned ATC clearance. Threat has passed.                                                     |
+|              Clear of Conflict              | Return to assigned ATC clearance. Separation is adequate and threat has passed.                          |
 
 ---
 
