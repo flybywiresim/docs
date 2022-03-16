@@ -56,9 +56,9 @@ As soon as the "*Traffic, Traffic*" aural warning is heard pilots should begin a
     
 ## Resolution Advisory
 
-When a traffic advisory becomes a collision threat an RA is generated. RA actions require the flight crew to promptly follow any commanded actions by TCAS and notify ATC. According to the Airbus Flight Crew Techniques Manual (FCTM) the flight crew **must follow TCAS RA commands even** in the following situations:
+When a traffic advisory becomes a collision threat an RA is generated. RA actions require the flight crew to promptly follow any commanded actions by TCAS and notify ATC. According to the Airbus Flight Crew Techniques Manual (FCTM) the flight crew **must follow TCAS RA commands** even in the following situations:
 
-- TCAS RA commands conflict with ATC instructions
+- TCAS RA issues commands that conflict with ATC instructions
 - Aural warnings such as "Climb, Climb" or "Increase Climb" exceed max ceiling altitude
 - Results in crossing altitude of intruder
 
