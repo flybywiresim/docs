@@ -48,7 +48,7 @@ As soon as the "*Traffic, Traffic*" aural warning is heard pilots should begin a
 - Ensure A/THR is set to `ON`
 - Pilot monitoring (PM):
     - Check the ND for the potential threat
-        - *It may be necessary to set the zoom level to 60nm or below.* - **Needs Verification**
+        - It may be necessary to set the zoom level to 40nm or below
     - Contact ATC about any nearby aircraft
     - Keep pilot flying (PF) informed about the status of the threat
     - Confirm the PF takes the correct actions if the TA upgrades to an RA
