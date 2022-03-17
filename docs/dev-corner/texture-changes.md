@@ -31,7 +31,7 @@ The A32NX model previously mapped both cargo door hinges to the same location on
 
 If you are the author of a livery that needs individual texturing of these hinges, please reference the following:
 
-- Add a new 512x512px texture called `DECALS_DOOR_CARGO_HINGES_ALBD.PNG.DDS` to your livery.
+- Add a new *512x512px* texture called `DECALS_DOOR_CARGO_HINGES_ALBD.PNG.DDS` to your livery.
 - We provide a `DECALS_DOOR_CARGO_HINGES_COMP.PNG.DDS`, but this could also be replaced if needed.
 
 For convenience, here is a copy fo the [cargo door UV Map](assets/a32nx-dev/cargo-door-uv.png){target=new} that can be added as a layer in your workflow.
