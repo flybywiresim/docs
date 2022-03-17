@@ -6,8 +6,8 @@
 
 Holding patterns , as they are officialy known, can be used as a delaying tactic for airborn aircraft. Typically holding patterns have a racetrack pattern and can easily be spotted on flight trackers. All holds are made up out of segments, the segments are shown in the figure below. 
 
-<!--- input composition of hold as the FAA doc shows
---->
+![DEFINITIONS](../../assets/advanced-guides/holds/Holddefinitions.png)
+
 
 ### Why hold?
 Holdings are typically used to delay aircraft, or less common, to burn of fuel for landing.
@@ -32,7 +32,7 @@ Now that you know where to hold, you should know how to set up the hold. To do t
 
  Below you will find samples of diffrent holds with red dots placed where the information is located.  
 
-!!! info "Examples of holds in charts"
+!!! info "Example charts to aquire hold information"
 
     === "1"
 
@@ -85,7 +85,8 @@ Now that you know where to hold, you should know how to set up the hold. To do t
 
         Lorum ipsum
 
-        
+        ![HOLD5](../../assets/advanced-guides/holds/HOLD5.png)
+
 
         | Fix           | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
         | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
@@ -99,6 +100,9 @@ Now that you know where to hold, you should know how to set up the hold. To do t
 
         Lorum ipsum
 
+        ![HOLD6](../../assets/advanced-guides/holds/HOLD6.png)
+
+
         | Fix           | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
         | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
         | SKENS         | 274°              |Right               | 10NM          | STD        |-      |13000FT        |
@@ -107,6 +111,8 @@ Now that you know where to hold, you should know how to set up the hold. To do t
 
         Lorum ipsum
 
+        ![HOLD7](../../assets/advanced-guides/holds/HOLD7.png)
+
         | Fix           | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
         | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
         | SNAAG         | 061°              |Right               | 10NM          | STD        |-      |-              |
@@ -114,6 +120,8 @@ Now that you know where to hold, you should know how to set up the hold. To do t
     === "8"
 
         Lorum ipsum
+
+        ![HOLD8](../../assets/advanced-guides/holds/HOLD8.png)
 
         | Fix           | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
         | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
@@ -124,6 +132,8 @@ Now that you know where to hold, you should know how to set up the hold. To do t
 
         Lorum ipsum
 
+        ![HOLD9](../../assets/advanced-guides/holds/HOLD9.png)
+
         |Fix            | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
         | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
         | DDM           | 059°              |Left                | STD           | 230KT      |-      | 6000FT        |
@@ -133,6 +143,8 @@ Now that you know where to hold, you should know how to set up the hold. To do t
     === "10"
 
         Lorum ipsum
+
+        ![HOLD10](../../assets/advanced-guides/holds/HOLD10.png)
 
         |Fix            | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
         | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
