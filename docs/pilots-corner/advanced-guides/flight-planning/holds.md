@@ -4,21 +4,27 @@
 
 ## Overview
 
-Holding patterns , as they are officialy known, can be used as a delaying tactic for airborn aircraft. Typically holding patterns have a racetrack pattern and can easily be spotted on flight trackers. All holds are made up out of segments, the segments are shown in the figure below. 
+Holding patterns, as they are officially known, can be used as a delaying tactic for airborne aircraft. Typically holding patterns have a racetrack pattern and can easily be spotted on flight trackers. All holds are made up out of segments, the segments are shown in the figure below. 
 
 ![DEFINITIONS](../../assets/advanced-guides/holds/Holddefinitions.png)
 
 
-### Why hold?
-Holdings are typically used to delay aircraft, or less common, to burn of fuel for landing.
-A good example usecase of a hold can be seen in Innsbruck (LOWI) in the picture below.
+### Why Hold?
+Holds are always used to 'hold' aircraft roughly on the same place. There are a lot of reasons airplanes might need to hold, some more common examples are:
+
+- Bad weather passing over the airport
+- Traffic
+- To lose energy in the plane (altitude or speed)
+- To burn of fuel
+
+Sometimes holds are used because of topographical constraints, Innsbruck-Kranebitten International Airport (LOWI) is a good example of such constraint because is situated in a vally as can be seen in the picture below.
 
 
 ![LOWI](../../assets/advanced-guides/holds/LOWI.png)
 
 
 ### Preparing the hold
-Aircraft can technically hold, if given permission by ATC in advance, at any waypoint. Holds that are published on aviation charts are called published holds. For the purpose of this guide we will only take a published hold into condideration. Holds can be spotted on charts in 2 ways where both options can be applied on the same chart. For example look at the chart below. 
+Aircraft can technically hold at any waypoint, if given permission by ATC in advance. Holds that are published on aviation charts are called published holds. For the purpose of this guide we will only take a published hold into consideration. Holds can be spotted on charts in 2 ways where both options can be applied on the same chart. For example look at the chart below. 
 
 Waypoints with published holds can be spotted by a racetrack pattern or a white H in a black box drawn in a chart. Holds displayed by the white H in the black box will always be accompanied by a visual racetrack patern in a diagram on the side of the chart. 
 
@@ -28,7 +34,7 @@ Now that you know where to hold, you should know how to set up the hold. To do t
 3. Turning direction
 4. Length of the legs, eather in time or distance
  
- Eather the inbound course/heading or the reciprocal of the hold is always depicted on the chart.
+ The inbound course/heading or the reciprocal of the hold is always depicted on the chart.
 
  Below you will find samples of diffrent holds with red dots placed where the information is located.  
 
@@ -166,7 +172,7 @@ STD Max hold speed is defined by the FAA to be:
 | 14001FT and above | 265             |
 
 ### Entering the hold
-Now all information of the hold is known it is time to create a hold in the FMS via the MCDU. A step by step guide to hold at SKENS as with example chart 6 (above) is provided below.
+Now that all information of the hold is known it is time to create a hold in the FMS via the MCDU. A step by step guide to hold at SKENS as with example chart 6 (above) is provided below.
 
 !!! info "Programming the hold"
 
