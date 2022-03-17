@@ -11,7 +11,7 @@ Some existing liveries making use of the `A320NEO_AIRFRAME_LIVERY_ALBD.png.dds` 
 If you are the author of an affected livery please reference the following:
 
 - Add the second set of sharklets to your `A320NEO_AIRFRAME_LIVERY_ALBD.png.dds` texture.
-- For convenience, here is a copy of the [new sharklet UV map](assets/a32nx-dev/sharklet_uv_4k.png) that can be added as a layer in your workflow. The decals should be painted un-mirrored.
+- For convenience, here is a copy of the [new sharklet UV map](assets/a32nx-dev/sharklet_uv_4k.png){target=new} that can be added as a layer in your workflow. The decals should be painted un-mirrored.
 
 !!! warning ""
     For further context you can review [pull request #5490](https://github.com/flybywiresim/a32nx/pull/5490){target=new} on our GitHub if necessary.
@@ -24,3 +24,14 @@ The A32NX has a [toggle option in the EFB to disable the dynamic registration nu
     Overriding `panel.cfg` creates future conflicts with A32NX development.
 
     Please avoid using `panel.cfg` to disable the registration number decal, and instead advise users to [disable the dynamic decal in the EFB settings](../../fbw-a32nx/feature-guides/flyPad/settings/#sim-options).
+
+## Cargo Hinges
+
+The A32NX model previously mapped both cargo door hinges to the same location on the livery decal texture. We have added a new mesh in order to make each hinge have individual textures.
+
+If you are the author of a livery that needs individual texturing of these hinges, please reference the following:
+
+- Add a new 512x512px texture called `DECALS_DOOR_CARGO_HINGES_ALBD.PNG.DDS` to your livery.
+- We provide a `DECALS_DOOR_CARGO_HINGES_COMP.PNG.DDS`, but this could also be replaced if needed.
+
+For convenience, here is a copy fo the [cargo door UV Map](assets/a32nx-dev/cargo-door-uv.png){target=new} that can be added as a layer in your workflow.
