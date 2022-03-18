@@ -4,13 +4,13 @@
 
 ## Overview
 
-Holding patterns, as they are officially known, can be used as a delaying tactic for airborne aircraft. Typically holding patterns have a racetrack pattern and can easily be spotted on flight trackers. All holds are made up out of segments, the segments are shown in the figure below. 
+Holding patterns, as they are officially known, can be used as a delaying tactic for airborne aircraft. Typically holding patterns have a racetrack pattern that can easily be spotted on flight trackers. All holds are made up out of segments, the segments are shown in the figure below. 
 
 ![DEFINITIONS](../../assets/advanced-guides/holds/Holddefinitions.png)
 
 
 ### Why Hold?
-Holds are always used to 'hold' aircraft roughly on the same place. There are a lot of reasons airplanes might need to hold, some more common examples are:
+Holds are always used to delay aircraft near a navigational fix in certain airspace. There are a lot of reasons airplanes might need to hold, some more common examples are:
 
 - Bad weather passing over the airport
 - Traffic
@@ -29,14 +29,19 @@ Aircraft can technically hold at any waypoint, if given permission by ATC in adv
 Waypoints with published holds can be spotted by a racetrack pattern or a white H in a black box drawn in a chart. Holds displayed by the white H in the black box will always be accompanied by a visual racetrack patern in a diagram on the side of the chart. 
 
 Now that you know where to hold, you should know how to set up the hold. To do this you will need to find information on the chart and move it into the FMS. The main information you need to have is:
+
 1. Name of the fix/waypoint
 2. Inbound course
 3. Turning direction
-4. Length of the legs, eather in time or distance
+4. Length of the legs, eather in time or distance*
+5. Maximum airspeed*
+
+*There are standards for length of legs and airspeeds that have to be respected if no other information is present on the chart. The standards are published in [Hold Standards](##Hold-Standards).
+
  
  The inbound course/heading or the reciprocal of the hold is always depicted on the chart.
 
- Below you will find samples of diffrent holds with red dots placed where the information is located.  
+ Below you will find samples of different holds with red dots placed where the information is located.  
 
 !!! info "Example charts to aquire hold information"
 
@@ -156,6 +161,8 @@ Now that you know where to hold, you should know how to set up the hold. To do t
         | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
         | CRS           | 001°              |Left                |Until CVO VOR reads 34.0 NM|STD|-   | FL120         |
      
+## Hold Standards
+
 STD leg distance is defined by the FAA to be:
 
 | Altitude (MSL)    | Leg distance  |
