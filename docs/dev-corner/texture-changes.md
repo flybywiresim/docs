@@ -25,6 +25,17 @@ The A32NX has a [toggle option in the EFB to disable the dynamic registration nu
 
     Please avoid using `panel.cfg` to disable the registration number decal, and instead advise users to [disable the dynamic decal in the EFB settings](../../fbw-a32nx/feature-guides/flyPad/settings/#sim-options).
 
+## Mirrored Wheel Texture
+
+The A32NX model previously used a single UV for all wheels. This caused the right main gear wheel to appear mirrored. We have flipped the UV for the right wheel texture, so now any texture on the right wheel will appear correct.
+
+If you are the author of a livery that has textured wheels, with text or anything else orientation critical.
+
+- No action is required. The current wheel texture will appear correct on the right main gear wheel.
+
+!!! warning ""
+    For further context you can review [pull request #6931](https://github.com/flybywiresim/a32nx/pull/6931) on our GitHub if necessary.
+
 ## Cargo Hinges
 
 The A32NX model previously mapped both cargo door hinges to the same location on the livery decal texture. We have added a new mesh in order to make each hinge have individual textures.
