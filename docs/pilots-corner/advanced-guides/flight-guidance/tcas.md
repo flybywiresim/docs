@@ -103,27 +103,54 @@ The following conditions will apply:
 
 As soon as the threat upgrades to an RA, TCAS will engage and provide corrective action based on the types discussed above. While there are many benefits to having AP/FD TCAS installed and having the autopilot perform any corrective maneuvers, the flight crew should still monitor all actions taken by the system and prepare to take manual control at any time.
 
+**AP/FD TCAS Actions**
+
 - Ensure TCAS is now the active mode on the FMA
 - Ensure the AP is targeting the <span style=color:green>green zone</span> on the VSI
 - Notify ATC
 
+**Manual TCAS Actions**
+
+- Set AP to `OFF`
+- Ensure both FDs set to `OFF`
+- Fly the aircraft into the <span style=color:green>green zone</span> on the VSI smoothly and promptly
+    - TCAS aural commands will also play at this time
+
 !!! info "Additional Considerations with AP/FD TCAS"
     Please be aware that there are certain scenarios that happen during a TCAS RA that affects how flight crews should react depending on the conditions of the flight deck.
 
-    === "AP + FD Engaged"
-        Any vertical mode will revert to `TCAS` in the FMA and the autopilot will fly the TCAS maneuver.
+    ---
 
-    === "AP Disengaged / FD Engaged"
-        TCAS mode will be engaged and supercede the flight directory guidance. Flight crews should ensure they are centered on the pitch bar and bring the vertical speed of the aircraft into the green zone indicated on the vertical speed indicator on the PFD.
+    **AP + FD Engaged**
 
-    === "AP + FD Disengaged"
-        The FD bars will appear automatically. TCAS mode will be engaged and provide guidance and flight crews should perform actions as stated in above.
+    Any vertical mode will revert to `TCAS` in the FMA and the autopilot will fly the TCAS maneuver.
+
+    ---
+
+    **AP Disengaged / FD Engaged**
+
+    TCAS mode will be engaged and supercede the flight directory guidance. Flight crews should ensure they are centered on the pitch bar and bring the vertical speed of the aircraft into the green zone indicated on the vertical speed indicator on the PFD.
+
+    ---
+
+    **AP + FD Disengaged**
+    
+    The FD bars will appear automatically. TCAS mode will be engaged and provide guidance and flight crews should perform actions as stated in above.
 
 ## Clear of Conflict
 
-TCAS will notify the flight crew via the aural warning "Clear of Conflict" when separation and range from a threat is adequate. At this time the flight crew should:
+TCAS will notify the flight crew via the aural warning "Clear of Conflict" when separation and range from a threat is adequate. At this time the flight crew should perform the following actions:
 
-- Return to previously assigned ATC clearance
+If maneuver performed using AP/FD TCAS:
+
+- Monitor AP/FD TCAS returns aircraft to previously assigned ATC clearance
+- Notify ATC - clear of conflict
+
+If manual actions were taken during the TCAS RA:
+
+- Engage Flight Directors
+- Set new commands on the FCU
+- Engage the Autopilot
 - Notify ATC - clear of conflict
 
 ---
