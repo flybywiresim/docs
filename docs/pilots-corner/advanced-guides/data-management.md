@@ -131,22 +131,45 @@ Alternatively you can use the `MCDU DATA A/C STATUS` page to delete all stored w
 
 ## Stored Company Routes
 
-!!! bug "TODO"
+Stored Company Routes allow you to save routes you regularly fly to your PC. It uses simBrief XML Datafiles format 
+so you can easily use your simBrief planning to create a stored company route. 
 
-Co route loading
+To allow the aircraft to access local files you need to have the FlyByWire Local-API Server running.
+See [Local-API Server documentation](../../fbw-a32nx/feature-guides/local-api-server.md) how to start it. 
 
-- generate a simbrief flight plan and download the XML datafile.
-- run the local-api.exe in the root addon folder, this will create the resources folder structure
-- dump the xml file in the coroutes folder and rename it to whatever you want BUT less than 9 characters
-    - RENAME TO "FROMTO" IS REQUIRED
-- start the sim, load your aircraft and enter the coroute name in the coroute field, the FROM/TO and route (excluding SIDs and STARs) should be populated
-- modify the route in anyway, observe Co Route field is now blank (Not implemented)
+### Generating a Stored Company Route Using simBrief
 
-Coroute viewing
+- Generate a flight plan using simBrief 
+- Download the `XML Datafile' from simbrief
 
-- Enter a FROM/TO which has the ICAOs that match that of a coroute (not filename, this is regarding the origin and destination ICAO within the XML) you have in the coroutes folder.
-- Observe the ROUTE page outlining the details of your coroute, press insert
-    - ==> SCREENSHOT
-- (optional) if you have multiple coroutes with the same ICAOs as the entered FROM/TO in the coroute folder, observe the multiple pages in the ROUTE page,
-- (optional) if the route is especially long you may have the optional to scroll, observe this by pressing the up and down keys on the MCDU
-- Press insert, observe the from/to populated as-well as the route (Excluding SIDs and STARs, CI, CRZ FL etc. as suggested by IRL pilots, as these parameters vary greatly).
+    ![simBrief Datafile Download](../assets/advanced-guides/stored-coroutes/simbrief-datafile-download.png){loading=lazy}
+
+- Save the simBrief XML Datafile to this folder:<br/>`<YOUR_COMMUNITY_FOLDER>\flybywire-aircraft-a320-neo\resources\coroutes`
+- Rename the simBrief XML Datafile to any name with maximal 9 characters. E.g. `EDDSEKCH.xml`
+
+### Using a Stored Company Route
+
+#### Entering a Company Route Name 
+- Start a flight at the appropriate departure airport and follow the standard setup procedure
+- When setting up the flight management system in the MCDU you can directly head to the INIT A page
+- Enter the name of your company route into the `CO RTE` field
+
+    ![MCDU INIT A Loading CoRoute](../assets/advanced-guides/stored-coroutes/mcdu-init-a-load.png){loading=lazy}
+
+- This populates FROM/TO and also the basic flight plan. 
+- A Stored Company Route does not include the flight number, cost index or cruise level.
+- Also, SID/STAR and APPR or any other flight specific data (pax, cargo, etc.) are not part of a stored company route.
+- You can now complete the flight plan setup by entering the missing data manually.
+
+#### Entering a FROM/TO Pair
+- **Alternatively** you can enter the FROM/TO pair of routes you have stored which will bring up the co-route selection page
+    
+    ![MCDU Co Route Selection Page](../assets/advanced-guides/stored-coroutes/mcdu-coroute-selection-page.png){loading=lazy}
+
+- The co-route selection page shows summary of each stored route.
+- You can navigate between the routes with the horizontal slew keys.
+- For long routes you can scroll the page by using the vertical slew keys.
+- You can choose and insert a route by pressing the LSK 6L next to `INSERT*`
+- A Stored Company Route does not include the flight number, cost index or cruise level.
+- Also, SID/STAR and APPR or any other flight specific data (pax, cargo, etc.) are not part of a stored company route.
+- You can now complete the flight plan setup by entering the missing data manually.
