@@ -117,7 +117,7 @@ You can check this in the device's network configuration.
 
     ![Samsung Network Info](../assets/mcdu-server/samsung-network-info.png "Samsung Network Info"){loading=lazy}
 
-If you still can't connect to the MCDU server your firewall might block the traffic. See next chapter.
+If you still can't connect to the MCDU server your firewall might be blocking the traffic. See next chapter.
 
 ## Firewall Configuration
 
