@@ -298,7 +298,7 @@ The log is also stored in a file in this folder:
 
 ??? warning "Local API Server Error: `...Encoding not recognized...`"
 
-    When you start the server and and it crashes immediately with an error message mentioning `...Encoding not recognized...` you Windows most likely uses a rare UTF-8 based encoding.
+    When you start the server and and it crashes immediately with an error message mentioning `...Encoding not recognized...` your Windows OS most likely uses a rare UTF-8 based encoding.
 
     Solution:
 
