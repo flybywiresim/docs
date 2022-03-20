@@ -2,7 +2,7 @@
 
 {==
 
-The initial implementation of TCAS features the AP/FD TCAS function and is available in the Development version.
+The TCAS system is not available in the Stable version at this time.
 
 For a list of compatible networks and known issues - [see here](#compatibilities-and-known-issues).
 
@@ -22,6 +22,8 @@ There are two types of advisories pilots will encounter when TCAS detects an int
 The TCAS panel can be found on the lower pedestal to the right of the throttle quadrant.
 
 ![ATC-TCAS Panel](../../assets/a32nx-briefing/pedestal/ATC-TCAS.jpg "ATC-TCAS Panel")
+
+Make sure that the ATC system is on `AUTO` or `ON` and the `ALT RPTG` knob is in position `ON`. The TCAS mode switch should be in position `TA/RA` when entering the runway for takeoff.
 
 For more information on how to ensure TCAS is active for your flight and the corresponding controls please see the [ATC TCAS PANEL](../../a32nx-briefing/flight-deck/pedestal/atc-tcas.md) page.
 
