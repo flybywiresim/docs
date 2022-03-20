@@ -17,8 +17,8 @@ hide:
 .imagemap {
     position: relative;
     display: inline-block;
-    /*background-color: rgba(255, 0, 0, .4);*/
-    /*border: 1px solid yellow;*/
+    /* background-color: rgba(255, 0, 0, .4); */
+    /* border: 1px solid yellow; */
 }
 .imagemap .imagemapname {
   visibility: hidden;
@@ -115,8 +115,8 @@ hide:
     <a href="/pilots-corner/a32nx-briefing/flight-deck/front/accu/"> <div class="imagemap"          style="position: absolute; left: 60%; top: 57%; width: 4%; height: 2.1%;"><span class="imagemapname">Accumulator Pressure Indication</span></div></a>
     <a href="/pilots-corner/a32nx-briefing/flight-deck/front/dcdu/"> <div class="imagemap"          style="position: absolute; left: 56%; top: 59%; width: 8.5%; height: 2.7%;"><span class="imagemapname">Datalink Ctl and Display Unit</span></div></a>
     <!-- Pedestal -->
-    <a href="/pilots-corner/a32nx-briefing/flight-deck/pedestal/switching/"><div class="imagemap" style="position: absolute; left: 41.2%; top: 62.5%; width: 17.6%; height: 3.2%;"><span class="imagemapname">Switching Panel</span></div></a>
-    <a href="/pilots-corner/a32nx-briefing/flight-deck/pedestal/ecam-control/"><div class="imagemap" style="position: absolute; left: 41.2%; top: 65.7%; width: 17.6%; height: 3.2%;"><span class="imagemapname">ECAM Control Panel</span></div></a>
+    <a href="/pilots-corner/a32nx-briefing/flight-deck/pedestal/switching/"><div class="imagemap" style="position: absolute; left: 41.2%; top: 62.5%; width: 17.6%; height: 3.0%;"><span class="imagemapname">Switching Panel</span></div></a>
+    <a href="/pilots-corner/a32nx-briefing/flight-deck/pedestal/ecam-control/"><div class="imagemap" style="position: absolute; left: 41.2%; top: 65.5%; width: 17.6%; height: 3.3%;"><span class="imagemapname">ECAM Control Panel</span></div></a>
     <a href="/pilots-corner/a32nx-briefing/flight-deck/pedestal/mcdu/"><div class="imagemap" style="position: absolute; left: 28.9%; top: 62.5%; width: 12.3%; height: 9.9%;"><span class="imagemapname">MCDU Capt.</span></div></a>
     <a href="/pilots-corner/a32nx-briefing/flight-deck/pedestal/mcdu/"><div class="imagemap" style="position: absolute; left: 58.8%; top: 62.5%; width: 12.3%; height: 9.9%;"><span class="imagemapname">MCDU F.O.</span></div></a>
     <a href="/pilots-corner/a32nx-briefing/flight-deck/pedestal/rmp/"><div class="imagemap" style="position: absolute; left: 28.9%; top: 72.4%; width: 12.3%; height: 7.7%;"><span class="imagemapname">RMP and Audio Control Capt.</span></div></a>
@@ -134,7 +134,9 @@ hide:
     <a href="/pilots-corner/a32nx-briefing/flight-deck/pedestal/rudder-trim/"><div class="imagemap" style="position: absolute; left: 46.3%; top: 86.6%; width: 8%; height: 3.1%;"><span class="imagemapname">Rudder Trim</span></div></a>
     <a href="/pilots-corner/a32nx-briefing/flight-deck/pedestal/parking-brake/"><div class="imagemap" style="position: absolute; left: 46.3%; top: 90.8%; width: 8%; height: 3%;"><span class="imagemapname">Parking Brake</span></div></a>
     <a href="/pilots-corner/a32nx-briefing/flight-deck/pedestal/gravity-gear-ext/"><div class="imagemap" style="position: absolute; left: 46.3%; top: 93.8%; width: 8%; height: 3.2%;"><span class="imagemapname">Gravity Gear Extension</span></div></a>
-
+    <!-- Consoles -->
+    <a href="/pilots-corner/a32nx-briefing/flight-deck/pedestal/console/"><div class="imagemap" style="position: absolute; left: 2%; top: 68.5%; width: 24%; height: 10.5%;"><span class="imagemapname">Console Capt.</span></div></a>
+    <a href="/pilots-corner/a32nx-briefing/flight-deck/pedestal/console/"><div class="imagemap" style="position: absolute; left: 74%; top: 68.5%; width: 24%; height: 10.5%;"><span class="imagemapname">Console F.O.</span></div></a>
 </div>
 
 ---
