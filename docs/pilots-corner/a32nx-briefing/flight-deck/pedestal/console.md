@@ -30,7 +30,7 @@ Each sidestick has two controls:
 - The Radio Push To Talk switch
 - The sidestick pb, for autopilot disengagement, or sidestick priority
 
-At all times, only one flight crewmember should fly the aircraft. However, if both flight crewmembers use their sidesticks simultaneously, their orders are algebraically added. The flight control laws limit the combined order to the equivalent of the full deflection of one sidestick. In this case the two green SIDE STICK PRIORITY lights on the glareshield come on and "DUAL INPUT" voice message is activated.
+At all times, only one flight crewmember should fly the aircraft. However, if both flight crewmembers use their sidesticks simultaneously, their orders are algebraically added. The flight control laws limit the combined order to the equivalent of the full deflection of one sidestick. In this case, the two green SIDE STICK PRIORITY lights on the glareshield come on and "DUAL INPUT" voice message is activated.
 
 A flight crewmember can deactivate the other sidestick and take full control, by pressing and keeping pressed the sidestick pb. To deactivate the other sidestick, the flight crewmember must press their sidestick pb for 40s. The other sidestick is permanently deactivated, until any flight crewmember presses their sidestick pb. If both flight crew members press their sidestick pb, the last pilot to press gets the priority. If one sidestick was deactivated on ground, the CONFIG L(R) SIDESTICK FAULT alert is triggered at takeoff power application, or during the TO CONFIG test.
 
