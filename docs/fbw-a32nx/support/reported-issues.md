@@ -86,7 +86,7 @@ TEMPLATE
     
     ^^Root Cause^^
 
-    We have noted that the MSFS internal engine does not close and remove websocket objects correctly when the MCDU server is not reachable (e.g. offline) causing potential memory leaks and stutter issues. 
+    We have noted that the MSFS internal engine does not close and remove websocket objects correctly when the MCDU server is not reachable (e.g. offline) causing potential memory leaks and stutter issues. **This issue will be reported to Asobo.** 
 
     We have reverted a [socket change PR](https://github.com/flybywiresim/a32nx/pull/6944) to help alleviate this and a more definitive fix will arrive via the [EFB in PR #6947](https://github.com/flybywiresim/a32nx/pull/6947).
     
