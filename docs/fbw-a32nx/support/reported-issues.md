@@ -69,37 +69,35 @@ TEMPLATE
 
 -->
 
-??? bug "Captain Side PFD Black Screen"
+??? bug "A32NX Performance Issues"
+    ### Performance Issues
 
     !!! tip ""
         *Affected versions: Development*
     
     ^^Description^^
 
-    At varying stages of flight the captain's side PFD may switch off and remain black.
+    Note: Please be aware this is different from the separate issues below:
+
+    - [Poor Performance After Sim Update 7 and Using DX12](#poor-performance-after-sim-update-7-and-using-dx12)
+    - [MSFS Performance Degradation In-Flight](#msfs-performance-degradation-in-flight)
+
+    For some users there is a noticeable performance degradation over longer flights (2h+) particularly closer to descent / approach phases. While we have had trouble replicating this across different user configurations we have identified some places we can attempt to mitigate this.
     
     ^^Root Cause^^
 
-    *Under Investigation*
+    We have noted that the MSFS internal engine does not close and remove websocket objects correctly when the MCDU server is not reachable (e.g. offline) causing potential memory leaks and stutter issues. **This issue has been reported to Asobo's dev support channels - [here](https://devsupport.flightsimulator.com/questions/6375/websockets-are-not-cleaned-up.html).** 
+
+    We have reverted a [socket change PR](https://github.com/flybywiresim/a32nx/pull/6944) to help alleviate this and a more definitive fix will arrive via the [EFB in PR #6947](https://github.com/flybywiresim/a32nx/pull/6947).
     
     ^^Additional Information / Workaround^^
     
-    Please complete the steps below to perform a workaround and/or send us screenshot in our #a32nx-support channel.
-    
-    ```title="Support Screenshot of PFD_TEMPLATE"
-    1. Pause your sim using ESC
-    2. Open your browser
-    3. Go to `http://localhost:19999/` OR `http://127.0.0.1:19999/`
-    4. Click on the first link that says "PFD_TEMPLATE"
-    5. On the page that appears, click on the "Console" tab
-    6. Send a screenshot to our #a32nx-support channel on Discord
-    ```
+    While you wait for the fix described above [PR #6947](https://github.com/flybywiresim/a32nx/pull/6947), you can run our built in MCDU server feature and make sure you are connected.
 
-    **Workaround:** Once you've completed the steps above before sending a screenshot of the issue you can try refreshing the system by clicking on the reload button near the top of the page displayed. After clicking the refresh button return to your simulator. 
+    !!! warning ""
+        **Note:** There is no need to actually use the feature - simply have the MCDU server running during your flight.
 
-    See the following image:
-
-    ![Restart PFD](https://cdn.discordapp.com/attachments/867146231553327154/949001164131807313/unknown.png)
+    For instructions on how to find and start the MCDU server - see [our feature guide](../feature-guides/web-mcdu.md#start-the-mcdu-web-interface-server).
 
 ??? bug "Load Modules Async Causes CTD"
     ### Load Modules Async Causes CTD
@@ -695,8 +693,8 @@ TEMPLATE
 
 ## Common MSFS Issues Impacting All Aircraft
 
-??? bug "Performance Degradation In-Flight"
-    ### Performance Degradation In-Flight
+??? bug "MSFSPerformance Degradation In-Flight"
+    ### MSFS Performance Degradation In-Flight
 
     !!! tip ""
         *Affected versions: Stable, Development*
@@ -704,14 +702,6 @@ TEMPLATE
     ^^Description^^
 
     Reports in the MSFS forums detail issues impacting FPS performance in the sim. Notably this occurs during flights that are longer than 2 hours but is not contained to this metric. You may see your normal FPS drop to <10 FPS as a result of this issue.
-
-    ^^Possible Solution or Workaround^^
-
-    *Under Investigation*
-
-    We have released a new experimental version that contains some fixes to help mitigate this. Please join our Discord and follow our `#server-announcements` channel.
-
-    You can also check [this page](exp.md) for details on experimental.
 
     ^^Additional Information^^
 
@@ -1059,6 +1049,8 @@ TEMPLATE
 
     !!! tip ""
         Unless stated otherwise, all fixed issues are first released on our development version.
+
+    - Captain Side PFD Black Screen
 
     - Ailerons now work when using the keyboard. See -> [Github PR #6222](https://github.com/flybywiresim/a32nx/pull/6222)
         - We still highly recommend using a yoke / stick to fly with an axis assigned to fly the A32NX as the "intended experience".
