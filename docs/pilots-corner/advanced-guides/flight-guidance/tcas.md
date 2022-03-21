@@ -257,7 +257,7 @@ Airbus' Safety First publication has great resources further explaining their sy
 
 Our implementation of TCAS supports the following networks:
 
-- Vatsim
+- VATSIM
 - IVAO
 - Live Traffic in MSFS
 
