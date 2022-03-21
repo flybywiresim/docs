@@ -92,7 +92,7 @@ TEMPLATE
     
     ^^Additional Information / Workaround^^
     
-    While you wait for you can run our built in MCDU server feature and make sure you are connected. 
+    While you wait for the fix described above [PR #6947](https://github.com/flybywiresim/a32nx/pull/6947), you can run our built in MCDU server feature and make sure you are connected.
 
     !!! warning ""
         **Note:** There is no need to actually use the feature - simply have the MCDU server running during your flight.
