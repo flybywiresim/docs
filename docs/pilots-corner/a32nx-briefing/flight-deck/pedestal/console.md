@@ -15,7 +15,7 @@
 The sidesticks are the pilots' primary control for manual flight. 
 
 They are springloaded and automatically return to the neutral position. They do not receive any feedback from the 
-control surfaces as the Airbus uses a flybywire systems without force feedback.
+control surfaces as Airbus use the fly-by-wire system without force feedback.
 
 When the autopilot is engaged the sidsticks are locked in neutral position. 
 
