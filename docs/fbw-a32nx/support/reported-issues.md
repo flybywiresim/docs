@@ -610,7 +610,7 @@ TEMPLATE
 
     Switches, knobs and dials can't be used with simple mouse clicks as before.
 
-    Controls appear highlighted in color (mostly blue) when the mouse hohvers over them.
+    Controls appear highlighted in color (mostly blue) when the mouse hovers over them.
 
     ^^Root Cause^^
 
@@ -651,11 +651,11 @@ TEMPLATE
 
     ^^Description^^
 
-    No EFB (fylPad) visible in cockpit.
+    No EFB (flyPad) visible in cockpit.
 
     ^^Root Cause^^
 
-    Default Asobo A320 aircraft selected isntead of the FlyByWire A32NX.
+    Default Asobo A320 aircraft selected instead of the FlyByWire A32NX.
 
     ^^Possible Solution or Workaround^^
 
