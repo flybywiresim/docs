@@ -23,7 +23,7 @@ If the pilot applies a force above a given threshold:
 
 - The sidesticks unlock
 - The autopilot disengages
-- The AUTO FLT AP OFF alert triggers.
+- The AUTO FLT AP OFF alert triggers
 
 Each sidestick has two controls:
 
