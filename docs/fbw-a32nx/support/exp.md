@@ -4,7 +4,7 @@ The Experimental version is a test version to find problems and issues and to im
 
 {--
 
-**Currently experimental is geared toward testing the initial version of VNAV. Please use the appropriate discord thread #exp-vnav-reporting to discuss any issues.**
+Currently experimental is geared toward testing the initial version of VNAV. Please use the appropriate discord thread **#cFMS LNAV+VNAV Issue Reports** to discuss any issues.
 
 --}
 
@@ -55,11 +55,11 @@ These features are not yet available but will be implemented at a later time.
 
     At this time please only report issues via our Discord channel thread:
 
-    [Experimental - VNAV Reporting [NO SUPPORT]](#){target=new .md-button}
+    [cFMS LNAV+VNAV Issue Reports [NO SUPPORT]](https://discord.com/channels/738864299392630914/926586416820011098){target=new .md-button}
 
     {--
 
-    Do not expect support or immediate solutions for your issues. We will collect all issues and fix and improve continuously.
+    Do not expect support or immediate solutions for your issues. We will collect all issues to fix and improve features in testing continuously.
 
     --}
 
