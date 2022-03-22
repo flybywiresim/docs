@@ -27,11 +27,14 @@ This version will not always be up to date but we work hard at ensuring its comp
 
 This version is similar to the development version, but contains custom systems in earlier development phases.
 
-Currently, experimental is undergoing updates that can break the aircraft and is not 100% ready for public use. It is not meant to be used for daily use or when you try to do a serious flight on VATSIM.
+We use this version to find problems, issues and to improve functionality based on your feedback. It is not meant to be used for daily use or when you try to do a serious flight on VATSIM.
 
 !!! warning
 
-The Experimental version has a less strict QA process and is used for actual QA testing. Bugs and Issues are to be expected. Please read [Experimental Version Support Page](support/exp.md) before using this version. 
+The Experimental version has a less strict QA process and is used for actual QA testing. Bugs and Issues are to be expected. 
+
+!!! danger ""
+    Before using this version please read [Experimental Version Support Page](support/exp.md) to see what is currently being tested. 
 
 The experimental version will be updated regularly and also with the latest changes to the Development version. Expect updates about once a week (not guaranteed).
 
