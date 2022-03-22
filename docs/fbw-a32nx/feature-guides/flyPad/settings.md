@@ -95,12 +95,21 @@ Settings for simulation aspects of the A32NX aircraft.
 
         !!! warning "Synchronization Issues Expected"
             The aircraft's custom Flight Management System provides better accuracy and features over the default flight plan manager in Microsoft Flight simulator which results in issues syncing the flight plan from the MCDU back into the simulator. Do not expect it to work properly in all cases.
+ 
 - Dynamic Registration Decal:
     - The dynamic registration number decal shown on the external livery can be disabled to improve appearance when using liveries with a static registration number.
 - External MCDU Server Port
     - User can change the port for the internal MCDU websocket server in case the default port is already occupied on the user's system.
     - Default is: 8380
     - ~~This is not the port for using in the browser to access the MCDU Web Interface.~~
+- Enable MCDU Server Connection
+    - Auto On:
+        - The MCDU attempts to connect to the MCDU Server for 5min after pressing "Ready to Fly". 
+        - If this setting is selected the MCDU will try to connect to the MCDU Server for 5min after every start of a new flight.
+    - Auto Off:
+        - After 5min of unsuccessful connection attempts the MCDU will stop any further attempts and this setting will be automatically set.
+    - Perm Off:
+        - The MCDU will not make any attempts to connect to the MCDU Server.
 - Use calculated ILS signals
     - Enable this setting to use a calculated ILS signal instead of the signal provided by Microsoft Flight Simulator.
     - This avoids unwanted and unrealistic loss of the ILS signal in Microsoft Flight Simulator which often happens when the aircraft gets below the antenna position.
