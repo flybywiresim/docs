@@ -23,6 +23,15 @@ The Experimental version is a test version to find problems and issues and to im
 - Partial implementation of descent guidance.
 - Ability to enter winds for climb, cruise, and descent.
 
+### Planned Implementations
+
+These features are not yet available but will be implemented at a later time.
+
+- Time constraints, RTA
+- Flight plan B
+- Constant Mach segments
+- Vertical guidance for RNAV approaches
+
 ## Known Issues
 
 - LNAV does not use VNAV speed predictions yet. This means that an approach path will not be forecasted properly. Furthermore, the T/D (Top of Descent) could be misplaced, since the system expects more track miles.
