@@ -1047,7 +1047,7 @@ Flight Deck: [Cockpit Door Panel](flight-deck/pedestal/cockpit-door.md)
 |              |                           |            |            |             |        |
 | VIDEO        | PUSH_DOORPANEL_VIDEO      | 0 &#124; 1 | R/W        | Custom LVAR |        |
 
-## Flight Stick
+## Side Stick
 
 | Function             | API Usage                 | Values        | Read/Write | Type             | Remark                  |
 |:---------------------|:--------------------------|:--------------|:-----------|:-----------------|:------------------------|
@@ -1059,6 +1059,10 @@ Flight Deck: [Cockpit Door Panel](flight-deck/pedestal/cockpit-door.md)
 |                      |                           |               |            |                  |                         |
 | TAKE OVER pushbutton | A32NX_PRIORITY_TAKEOVER:1 | 0 &#124; 1    | R          | Custom LVAR      | Causes AP disconnection |
 |                      | A32NX_PRIORITY_TAKEOVER:2 | 0 &#124; 1    | R          | Custom LVAR      | Causes AP disconnection |
+
+## Tiller
+
+See [Nose Wheel and Tiller Operation](../../fbw-a32nx/feature-guides/nw-tiller.md)
 
 ## Rudder Pedals
 
