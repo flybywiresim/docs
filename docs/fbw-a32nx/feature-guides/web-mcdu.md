@@ -49,7 +49,8 @@ After this the MCDU Server will start and will provide you with links for your l
     
     A setting in the fylPad EFB SimOptions page has been introduced to allow users to restart the connection attempts or to turn off the attempts to connect to the MCDU Server completely.
 
-    >>> IMAGE <<<
+    !!! bug "TODO"
+        >>> IMAGE <<<
 
     The three settings are:
 
