@@ -44,6 +44,22 @@ After this the MCDU Server will start and will provide you with links for your l
 
 ![MCDU Server Command Window](../assets/mcdu-server/mcdu-server-cmd-window.png "MCDU Server Command Window"){loading=lazy}
 
+!!! bug "MCDU Server Connection Attempts Timeout"
+    Due to issues in the Microsoft Flight Simulator Coherent Engine (Javascript Engine) continuous connection attempts lead to performance issues because of issues handling unsuccessful connections. Therefore, a timeout mechanism has been built into the MCDU limiting the number of connection attempts the MCDU will execute.
+    
+    A setting in the fylPad EFB SimOptions page has been introduced to allow users to restart the connection attempts or to turn off the attempts to connect to the MCDU Server completely.
+
+    >>> IMAGE <<<
+
+    The three settings are:
+
+    - Auto On: 
+        - The MCDU tries to connect to the MCDU Server for 5min after pressing "Ready to Fly". If on this setting every start of a flight will again try to connect to the MCDU Server for 5min. 
+    - Auto Off: 
+        - After 5min of unsuccessful connection attempts the MCDU will stop any further attempts and this setting will be automatically set. 
+    - Perm Off: 
+        - The MCDU will not make any attempts to connect to the MCDU Server. 
+
 ### Browser on Local PC
 
 If you want to use a browser on the same machine on which you are running the Microsoft Flight Simulator and the MCDU Server it is very easy to connect to the MCDU Web Interface.
