@@ -8,7 +8,7 @@ The Local API Server is a support application for the FlyByWire aircraft to be a
 
 This server will facilitate reading and writing of local files to allow usage of locally stored company routes, charts, images or other configurations.
 
-It will also host services like the Remote MCDU Server to access the aircraft's MCDU via a browser from any device connected to the network.
+It will also host services like the Remote MCDU Server to access the aircraft's MCDU via a browser from any device connected to the local network.
 
 !!! note "Local API Server Roadmap"
     The Local API Server will be continuously extended and will provide new additional services in the future (e.g. remote access to any display in the aircraft, etc.)
@@ -21,14 +21,14 @@ Locate the `flybywire-aircraft-a320-neo` folder in your MSFS Community folder. W
 
 Double click on the `local-server.exe` file to start the Local API Server. The Local API Server does not need any command line paramters and is configured completely by the configuration file. See [Local API Server Configuration](#local-api-server-configuration)
 
-**You will need to keep this window open and the Local API Server running to use the MCDU Web Interface**.
+**You will need to keep the Local API Server running to use remote web interfaces and local file features like co-routes**.
 
 !!! info "Local API Server Command Window"
     ![Local API Server Command Window](../assets/local-api-server/local-api-server-cmd-window.png "Local API Server Command Window"){loading=lazy}
 
 ## Local API Server Configuration
 
-The Local API configuration file can be found here:
+The Local API configuration file can be found in the `resources` folder of the addon:
 
 !!! note "Local API Server Configuration File"
     ![Local API Server Configuration File](../assets/local-api-server/configuration-properties-file.png "configuration-properties-file")
@@ -260,10 +260,11 @@ The command window running the Local API Server displays the servers log file in
 
 It also shows the available printer to help with configuring the Remote MCDU service for local printing.
 
-The log is also stored in a file in this folder:
+The log file is also stored in a file in this folder, formatted by date:
 ```
 <YOUR_COMMUNITY_FOLDER>\flybywire-aircraft-a320-neo\resources\logs\local-api
 ```
+Please send us the latest logfile to the support channel on discord or on github issues if you're facing issues using the Local API's features.
 
 ## Troubleshooting
 

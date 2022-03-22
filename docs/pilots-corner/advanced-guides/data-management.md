@@ -145,7 +145,7 @@ See [Local-API Server documentation](../../fbw-a32nx/feature-guides/local-api-se
     ![simBrief Datafile Download](../assets/advanced-guides/stored-coroutes/simbrief-datafile-download.png){loading=lazy}
 
 - Save the simBrief XML Datafile to this folder:<br/>`<YOUR_COMMUNITY_FOLDER>\flybywire-aircraft-a320-neo\resources\coroutes`
-- Rename the simBrief XML Datafile to any name with maximal 9 characters. E.g. `EDDSEKCH.xml`
+- Rename the simBrief XML Datafile to any name with maximal 9 characters. E.g. the airport's IATA codes `STRCPH1.xml`
 
 ### Using a Stored Company Route
 
