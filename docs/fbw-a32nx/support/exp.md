@@ -1,6 +1,6 @@
 # Experimental Version
 
-The Experimental version is a test version to find problems, issues and to improve functionality based on your feedback. It is not meant to be used for daily **use or serious flights with** an Online ATC service.
+The Experimental version is a test version to find problems, issues and to improve functionality based on your feedback. It is <span style=color:red>**not**</span> meant to be used for **daily use or serious flights with** an Online ATC service.
 
 {--
 
