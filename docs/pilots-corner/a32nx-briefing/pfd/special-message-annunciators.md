@@ -74,7 +74,7 @@ Displayed in white when the aircraft is in engine out mode and the speed target 
 
 ### SET HOLD SPD
 
-Displayed in white when the aircraft is in selected speed control, a holding pattern has been inserted into the MCDU flight plan and the aircraft is 30 seconds out from the deceleration point to the the computed hold speed.
+Displayed in white when the aircraft is in selected speed control, a holding pattern has been inserted into the MCDU flight plan and the aircraft is 30 seconds out from the deceleration point to the computed hold speed.
 
 ### DECELERATE
 
