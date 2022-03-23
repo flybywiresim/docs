@@ -27,7 +27,7 @@ To do this locate the `flybywire-aircraft-a320-neo` folder in your MSFS Communit
 
 ![MCDU Server Executable](../assets/mcdu-server/mcdr-server.exe.png "MCDU Server Executable"){loading=lazy}
 
-Double click on the `server.exe` file to start the MCDU Server.
+Double-click on the `server.exe` file to start the MCDU Server.
 
 !!! tip "You can also use the command prompt to start the server manually"
     See advanced startup options below: [Advanced Start Options](#advanced-start-options)
@@ -43,6 +43,26 @@ After this the MCDU Server will start and will provide you with links for your l
 **You will need to keep this window open and the MCDU Server running to use the MCDU Web Interface**.
 
 ![MCDU Server Command Window](../assets/mcdu-server/mcdu-server-cmd-window.png "MCDU Server Command Window"){loading=lazy}
+
+### MCDU Server Connection Attempts Timeout
+
+Due to issues in the Microsoft Flight Simulator Coherent Engine (Javascript Engine) continuous connection attempts lead to performance problems for some users because of how the engine handles unsuccessful connections. 
+
+Therefore, a timeout mechanism has been built into the MCDU limiting the number of connection attempts the MCDU will execute.
+
+A setting in the fylPad EFB Sim Options page has been introduced to allow users to restart the connection attempts or to turn off the attempts to connect to the MCDU Server completely.
+
+![flyPad EFB Settings Sim Options](../assets/mcdu-server/efb-setting-simoptions.png)
+
+The three settings are:
+
+- Auto On:
+    - The MCDU attempts to connect to the MCDU Server for 5min after pressing "Ready to Fly".
+    - If this setting is selected the MCDU will try to connect to the MCDU Server for 5min after every start of a new flight.
+- Auto Off:
+    - After 5min of unsuccessful connection attempts the MCDU will stop any further attempts and this setting will be automatically set.
+- Perm Off:
+    - The MCDU will not make any attempts to connect to the MCDU Server.
 
 ### Browser on Local PC
 

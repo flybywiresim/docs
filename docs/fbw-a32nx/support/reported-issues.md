@@ -69,66 +69,6 @@ TEMPLATE
 
 -->
 
-??? bug "A32NX Performance Issues"
-    ### Performance Issues
-
-    !!! tip ""
-        *Affected versions: Development*
-    
-    ^^Description^^
-
-    Note: Please be aware this is different from the separate issues below:
-
-    - [Poor Performance After Sim Update 7 and Using DX12](#poor-performance-after-sim-update-7-and-using-dx12)
-    - [MSFS Performance Degradation In-Flight](#msfs-performance-degradation-in-flight)
-
-    For some users there is a noticeable performance degradation over longer flights (2h+) particularly closer to descent / approach phases. While we have had trouble replicating this across different user configurations we have identified some places we can attempt to mitigate this.
-    
-    ^^Root Cause^^
-
-    We have noted that the MSFS internal engine does not close and remove websocket objects correctly when the MCDU server is not reachable (e.g. offline) causing potential memory leaks and stutter issues. **This issue has been reported to Asobo's dev support channels - [here](https://devsupport.flightsimulator.com/questions/6375/websockets-are-not-cleaned-up.html).** 
-
-    We have reverted a [socket change PR](https://github.com/flybywiresim/a32nx/pull/6944) to help alleviate this and a more definitive fix will arrive via the [EFB in PR #6947](https://github.com/flybywiresim/a32nx/pull/6947).
-    
-    ^^Additional Information / Workaround^^
-    
-    While you wait for the fix described above [PR #6947](https://github.com/flybywiresim/a32nx/pull/6947), you can run our built in MCDU server feature and make sure you are connected.
-
-    !!! warning ""
-        **Note:** There is no need to actually use the feature - simply have the MCDU server running during your flight.
-
-    For instructions on how to find and start the MCDU server - see [our feature guide](../feature-guides/web-mcdu.md#start-the-mcdu-web-interface-server).
-
-??? bug "Load Modules Async Causes CTD"
-    ### Load Modules Async Causes CTD
-
-    !!! tip ""
-        *Affected versions: Development*
-
-    ^^Description^^
-
-    The Load Modules Asynchronously WASM setting causes the development version to crash if turned on. Crash occurs usually 3/4 through the loading bar after selecting FLY.
-
-    ^^Root Cause^^
-
-    *Under Investigation*
-
-    ^^Possible Solution or Workaround^^
-
-    We recommend turning this setting off in the developer mode settings. Please see the following steps:
-
-    1. Go to Options
-    - Go to General Settings
-    - Go to Developers and switch Developer Mode to `ON`
-    - Go to the top bar that appears and find Options
-    - Under WASM ensure `Load Modules Asynchronously` is deselected
-
-    ^^Additional Information^^
-
-    Here is a sample of the setting that needs to be deselected. You can also turn off Fast WASM Compilation as well.
-
-    ![WASM issue image](https://cdn.discordapp.com/attachments/838062729398976522/922226489724907561/dev-bar.png)
-
 ??? bug "Invisible Aircraft"
     ### Invisible Aircraft
 
@@ -160,6 +100,36 @@ TEMPLATE
     ^^Additional Information^^
 
     Information on how to install with the FlyByWire Installer can be found here: [Installation Guide](../installation.md).
+
+??? bug "Load Modules Async Causes CTD"
+    ### Load Modules Async Causes CTD
+
+    !!! tip ""
+        *Affected versions: Development*
+
+    ^^Description^^
+
+    The Load Modules Asynchronously WASM setting causes the development version to crash if turned on. Crash occurs usually 3/4 through the loading bar after selecting FLY.
+
+    ^^Root Cause^^
+
+    *Under Investigation*
+
+    ^^Possible Solution or Workaround^^
+
+    We recommend turning this setting off in the developer mode settings. Please see the following steps:
+
+    1. Go to Options
+    - Go to General Settings
+    - Go to Developers and switch Developer Mode to `ON`
+    - Go to the top bar that appears and find Options
+    - Under WASM ensure `Load Modules Asynchronously` is deselected
+
+    ^^Additional Information^^
+
+    Here is a sample of the setting that needs to be deselected. You can also turn off Fast WASM Compilation as well.
+
+    ![WASM issue image](https://cdn.discordapp.com/attachments/838062729398976522/922226489724907561/dev-bar.png)
 
 ??? bug "Bad Performance after Sim Update 7 and Using DX12"
     ### Poor Performance After Sim Update 7 and Using DX12
