@@ -15,13 +15,17 @@ planning capability lets the pilot enter published departure, arrival, and appro
 waypoints that include speed/altitude constraints. These constraints, as well as the entered cruise altitude and 
 cost index, define the vertical profile.
 
-Vertical guidance is managed by the Flight Management Guidance Systems (FMGS), in particular, the Flight Guidance Computer (FGC)
-which controls the Flight Directors (FD), the Autopilots (AP), and the Autothrust (A/THR).    
+Vertical guidance is managed by the Flight Management Guidance Systems (FMGS), in particular, the Flight Guidance 
+Computer (FGC) which controls the Flight Directors (FD), the Autopilots (AP), and the Autothrust (A/THR).    
 
 !!! warning "Real Life Considerations"
-    It is the sole responsibility of the pilot to conduct proper flight planning and execution. It is not sufficient to solely rely on the automatic aircraft guidance and indications. All indications and guidance need to be reconfirmed with flight crew calculations. 
+    It is the sole responsibility of the pilot to conduct proper flight planning and execution. It is not sufficient 
+to solely rely on the automatic aircraft guidance and indications. All indications and guidance need to be 
+reconfirmed with flight crew calculations. 
 
-    This is especially true for indications like the **Top of Descent** which typically does not account for likely ATC interventions and often lead to delayed descents preventing ATC from issuing approach shortcuts and may even lead to forced holds to lose altitude. 
+    This is especially true for indications like the **Top of Descent** which typically does not account for likely 
+ATC interventions and often lead to late descents preventing ATC from issuing approach shortcuts and may even lead to 
+forced holds to lose altitude. 
 
 ## Vertical Modes
 
@@ -39,7 +43,11 @@ Vertical guidance includes these modes:
 
 Find a detailed description of the modes in the blow chapters. 
 
-Vertical guidance interacts closely with the autothrust system and the speed control modes selected in the FCU (managed vs. selected).
+Vertical guidance interacts closely with the autothrust system and the speed control modes selected in the FCU 
+(managed vs. selected).
+
+One of the main notable differences between Selected and Managed Vertical Guidance is that the managed mode accounts 
+for altitude and speed constraints at waypoints and computes the vertical flight path accordingly.
 
 ## Selected Vertical Modes
 
@@ -60,7 +68,13 @@ Vertical guidance interacts closely with the autothrust system and the speed con
 - Energy and speed management
 - Descent Profile Computation
 
+### SRS 
+
 ### CLB
+
+### ALT CST, ALT CST*
+
+### ALT CRZ
 
 ### DES
 
@@ -70,12 +84,6 @@ Vertical guidance interacts closely with the autothrust system and the speed con
 - The speed constraint, or
 - The manoeuvring speed of the current aircraft configuration, or
 - VAPP.
-
-### SRS 
-
-### ALT CST, ALT CST*
-
-### ALT CRZ
 
 ### G/S, G/S*
 
