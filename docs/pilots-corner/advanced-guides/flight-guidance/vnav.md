@@ -54,12 +54,108 @@ Selected modes guide the aircraft according to target values that the pilot sele
 FCU windows display.
 
 ### OP CLB
+The OPEN CLB mode is a selected mode. It uses the AP/FD pitch mode to maintain a SPD/MACH
+(selected or managed) while the autothrust (if active) maintains maximum climb thrust.
+
+When OPEN CLB is engaged, the target speed/Mach is maintained by adjusting the pitch with the
+elevator, whereas thrust is maintained either by the A/THR, or manually by the flight crew. Speed
+target may either be selected or managed.
+
+The OPEN CLB mode disregards all altitude constraints up to the FCU selected altitude.
+
+OP CLB mode can be engaged when:
+
+‐ the aircraft has been in flight for more than 5 seconds
+- LAND mode is not engaged
+- the altitude selected in the FCU is higher than the present altitude
+
+It is activated when:
+
+- the flight crew pulls the FCU ALT knob
+- guidance reverts to speed protection
+- acceleration altitude is reached with CLB armed and lateral navigation (NAV) not engaged
+- 
 
 ### OP DES
+The OPEN DES mode is a selected mode. It maintains a SPD/MACH (selected or managed) with the AP/FD pitch mode while 
+autothrust (if active) maintains IDLE thrust. It is not to be used for final approach.
+
+When OPEN DES is engaged, pitch control maintains the target speed/Mach number, and autothrust
+maintains idle thrust (or the flight crew maintains it manually). The speed target may be either
+selected or managed.
+
+The OPEN DES mode disregards all altitude constraints.
+
+OP DES mode can be engaged when:
+
+‐ the aircraft has been in flight for more than 5 seconds
+‐ LAND mode is not engaged
+- the altitude selected in the FCU is lower than the present altitude
+
+It is activated when:
+- the flight crew pulls the FCU ALT knob
+‐ Selecting a manual speed when EXPEDITE mode is engaged.
 
 ### V/S and FPA
+The V/S - FPA mode is a selected mode. It acquires and holds the vertical speed or the flight path angle displayed 
+in the V/S - FPA window of the FCU. The HDG V/S -TRK FPA pb on the FCU allows the flight crew to select either type 
+of reference to be used for guidance and for display on the PFD.
+
+The FMGC pitch mode guides the aircraft to the target V/S or FPA. The corresponding A/THR mode is SPEED or MACH. The 
+FMA displays V/S (FPA).
+
+{--
+
+The V/S (FPA) guidance has priority over the speed guidance. If the selected target V/S or FPA is too high (relative 
+to the current thrust condition and speed), the FMGC will steer the aircraft to the target V/S or FPA, but the 
+aircraft will also accelerate or decelerate.
+
+When the speed reaches its authorized limit, V/S or FPA automatically decreases to maintain the
+minimum (or maximum) speed limit.
+
+--}
+
+V/S-FPA can be engaged when:
+
+- the aircraft has been in flight for more than 5 seconds
+- the AP or FD are activated when they have been off
+- changing target altitude by >250ft when in ALT^*^ mode
+- selecting a higher altitude when in any descent mode
+- selecting a lower altitude when in any climb mode
+
+It engages automatically when:
+- no other vertical mode is engaged after 5 seconds after lift off
+‐ loss of G/S* or G/S mode
+‐ loss of FINAL mode
+‐ loss of LOC* or LOC mode
+‐ loss of NAV mode when DES mode is engaged
+‐ loss of vertical flight path in DES mode
+‐ TCAS mode disengagement.
+
+To immediate level off the aircraft the flight crew can push the FCU V/S knob or set the V/S to 0.
+
+Note: If AP is engaged while a V/S is selected with only FD ON, the V/S will synchronise on the
+current aircraft V/S.
 
 ### Expedite
+Expedite mode is an OPEN mode used in climb or descent to reach the desired altitude with the
+maximum vertical gradient.
+
+When the aircraft is in EXP CLB, the target speed is Green Dot, which is maintained with pitch control. Autothrust, 
+if active, sets the thrust at CLB THRUST automatically.
+
+When the aircraft is in EXP DES, the target speed is 340 kt or M 0.8 which is maintained with pitch control. 
+Autothrust, if active, sets the thrust at IDLE automatically.
+
+When EXPEDITE is engaged, the system disregards SPD CSTR, ALT CSTR, and SPD LIM.
+
+EXPEDITE can be engaged when
+‐ the aircraft has been in flight for more than 5 s
+‐ managed speed is available.
+
+It is engaged manually only when
+‐ the FCU selected altitude is higher than present altitude, EXP CLB mode engages
+‐ the FCU selected altitude is lower than present altitude, EXP DES mode engages
 
 ### ALT/ALT*
 
@@ -73,6 +169,49 @@ is in managed mode.
 ### SRS 
 
 ### CLB
+CLB mode guides the aircraft in a managed climb, at either a managed or a selected target speed, to an FCU selected
+altitude, taking into account altitude constraints at waypoints. The system also considers speed constraints if the
+target speed is managed.
+
+Climb mode gives the aircraft managed vertical guidance to the FCU selected altitude. It meets altitude constraints 
+at waypoints either with managed speed incorporating speed constraints or with selected speed as target speed. The 
+AP/FD pitch controls the speed or Mach number target and the A/THR is in thrust mode (CLB) corresponding to maximum 
+climb thrust. The flight path may include several segments. The flight crew can arm the CLB mode during the takeoff, 
+go-around, climb, and cruise phases and engage it during the climb and cruise phases.
+
+The CLB mode can be armed under the following conditions:
+
+- On ground or when in SRS mode
+    - if no other vertical mode is activated
+    - the acceleration altitude defined in the MCDU PERF TO or GA page is below the lowest altitude constraint and
+      also below the altitude selected in the FCU
+- In flight in climb or go-around phase
+    - if lateral navigation (NAV) is engaged
+    - if the altitude selected in the FCU is above the current altitude and the aircraft captures or flies an
+      altitude constraint.
+
+The CLB mode can be engaged when:
+
+‐ the aircraft has been in flight for more than 5 seconds
+- the altitude selected in the FCU is above the current altitude
+- not in descent, approach, or go-around phase
+- Lateral navigation (NAV) is engaged
+- Not in G/S mode#
+
+It is automatically engaged at acceleration altitude (ACC ALT) or when a waypoint with an altitude constraint is
+passed while CLB mode was armed.
+
+It can be manually engaged by pushing the FCU ALT knob while the CLB mode is not armed and the current altitude is
+not at an altitude constraint.
+
+- When CLB mode is engaged, the system arms ALT and displays the applicable target altitude on
+  the ALT scale.
+    - Magenta for another altitude constraint
+    - Blue for a FCU selected altitude
+- The guidance does not modify the target speed in order to satisfy an altitude constraint. Therefore, the
+  constraint may not be met and may be predicted as missed
+  ‐ When the aircraft levels off at the ALT CSTR, CLB mode arms automatically, then engages when the aircraft passes
+  the constrained waypoint (if the FCU altitude is above the constraint altitude).
 
 ### ALT CST, ALT CST*
 
@@ -131,6 +270,19 @@ Therefore, the AP/FD pitch modes and A/THR mode are coordinated as follows:
 
 ### FLARE
 
+## TCAS Mode 
+The TCAS mode is an Auto Flight System (AFS) guidance mode that provides vertical guidance in the case of a Traffic
+Alert and Collision Avoidance System (TCAS) Resolution Advisory (RA). When a Traffic Advisory (TA) is triggered, the TCAS mode arms.
+
+When a RA is triggered, the TCAS mode engages. The TCAS mode provides vertical guidance in accordance with the TCAS
+RA order.
+
+When clear of conflict (the “CLEAR OF CONFLICT” aural alert sounds), the TCAS mode disengages.
+
+The AFS provides guidance toward the latest target altitude set on the FCU.
+
+See or detailed guide for TCAS: [Traffic Alert and Collision Avoidance System](tcas.md)
+
 ## Descent Strategies
 
 ### Decelerated Approach (without CDA)
@@ -148,6 +300,8 @@ ILLUSTRATION
 
 - V/DEV Indication
 - Speed Range 
+- Target Alt (magnenta, blue) 
+- FMA (link to PFD briefing?)
 
 ### Navigation Display Indications
 
@@ -160,3 +314,5 @@ ILLUSTRATION
 - V/DEV Indication
 
 ## Example Flight
+
+>> take off - press button until TOD; watch Netflix; press button again, autoland <<
