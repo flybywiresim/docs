@@ -18,14 +18,13 @@ cost index, define the vertical profile.
 Vertical guidance is managed by the Flight Management Guidance Systems (FMGS), in particular, the Flight Guidance 
 Computer (FGC) which controls the Flight Directors (FD), the Autopilots (AP), and the Autothrust (A/THR).    
 
-!!! warning "Real Life Considerations"
+!!! warning "Real Life and Online ATC Considerations"
     It is the sole responsibility of the pilot to conduct proper flight planning and execution. It is not sufficient 
-to solely rely on the automatic aircraft guidance and indications. All indications and guidance need to be 
-reconfirmed with flight crew calculations. 
-
+    to solely rely on the automatic aircraft guidance and indications. All indications and guidance need to be 
+    reconfirmed by the flight crew with their own calculations.<p/> 
     This is especially true for indications like the **Top of Descent** which typically does not account for likely 
-ATC interventions and often lead to late descents preventing ATC from issuing approach shortcuts and may even lead to 
-forced holds to lose altitude. 
+    ATC interventions and often lead to late descents preventing ATC from issuing approach shortcuts and may even lead to 
+    forced holds to lose altitude. 
 
 ## Vertical Modes
 
@@ -51,6 +50,9 @@ for altitude and speed constraints at waypoints and computes the vertical flight
 
 ## Selected Vertical Modes
 
+Selected modes guide the aircraft according to target values that the pilot selects and the
+FCU windows display.
+
 ### OP CLB
 
 ### OP DES
@@ -62,11 +64,11 @@ for altitude and speed constraints at waypoints and computes the vertical flight
 ### ALT/ALT*
 
 ## Managed Vertical Modes
+Managed modes guide the aircraft along the vertical profile according to the data the pilot inserts into the MCDU. 
+Flight Management (in the Flight Management and Guidance Computer) computes the corresponding guidance targets.
 
-- Accounts for altitude constraints at waypoints
-- Accounts for speed constraints at waypoints (when in Managed Speed Mode)
-- Energy and speed management
-- Descent Profile Computation
+Managed modes accounts for altitude constraints at waypoints and also for speed constraints at waypoints when speed 
+is in managed mode.
 
 ### SRS 
 
@@ -77,13 +79,51 @@ for altitude and speed constraints at waypoints and computes the vertical flight
 ### ALT CRZ
 
 ### DES
+The managed descent mode guides the aircraft along the FMS computed vertical flight path. The DES mode is preferred 
+when conditions permit since it ensures the management of altitude constraints and reduces the operating cost when 
+flying at ECON DES speed.
 
-#### Managed Speed in DES
+The DES mode is only available when the aircraft flies on the FMS lateral flight plan, i.e. when the aircraft uses 
+the NAV horizontal guidance mode.
+
+### Speed Target in Manged Vertical Modes
+In flight, either the AP/FD pitch control, or autothrust may acquire and hold a target speed or Mach
+number, depending on the engaged modes.
+
+Speed control is:
+‐ Managed when the target comes from the FMGS
+‐ Selected when the target comes from the SPD/MACH FCU window.
+
+During the descent, approach and landing the managed speed is equal to either:
 
 - ECON DES speed or the descent speed manually entered in the PERF DES page of the FMS, or
 - The speed constraint, or
 - The manoeuvring speed of the current aircraft configuration, or
-- VAPP.
+- V~APP~.
+
+For this the AP and FD pitch modes can control a target SPD/MACH or a vertical trajectory, and the A/THR
+mode can control a fixed thrust or a target SPD/MACH. However, the AP/FD and the A/THR cannot
+both control a target SPD/MACH simultaneously.
+
+Therefore, the AP/FD pitch modes and A/THR mode are coordinated as follows:
+‐ If an AP/FD pitch mode controls a vertical trajectory, the A/THR mode controls the target SPD/MACH.
+‐ If an AP/FD pitch mode controls a target SPD or MACH, the A/THR mode controls the thrust.
+‐ If no AP/FD pitch mode is engaged, the A/THR mode reverts to controlling the SPD/MACH mode.
+
+| AP/FD Pitch Modes                               | A/THR Modes          |
+|-------------------------------------------------|----------------------|
+| V/S - FPA                                       | SPEED/MACH MODE      |
+| DES (geometric path)                            | SPEED/MACH MODE      |
+| ALT*, ALT, ALT CRZ*. ALT CRZ, ALT CST*, ALT CST | SPEED/MACH MODE      |
+| G/S*, G/S                                       | SPEED/MACH MODE      |   
+| FINAL. FINAL APP                                | SPEED/MACH MODE      |
+| TCAS                                            | SPEED/MACH MODE      |
+| FD/AP OFF                                       | SPEED/MACH MODE      |
+| CLB/DES (idle path)                             | THR (CLB, IDLE) MODE |
+| OP CLB/OP DES                                   | THR (CLB, IDLE) MODE |
+| EXP CLB/EXP DES                                 | THR (CLB, IDLE) MODE |
+| SRS                                             | THR (CLB, IDLE) MODE |
+| FLARE                                           | RETARD (IDLE)        |
 
 ### G/S, G/S*
 
@@ -91,27 +131,31 @@ for altitude and speed constraints at waypoints and computes the vertical flight
 
 ### FLARE
 
-### Descent Strategies
+## Descent Strategies
 
-#### Decelerated Approach (without CDA)
+### Decelerated Approach (without CDA)
 
 ILLUSTRATION
 Source: [](https://safetyfirst.airbus.com/control-your-speed-during-descent-approach-and-landing/)
 
-#### Continuous Descent Approach (CDA)
+### Continuous Descent Approach (CDA)
 
 ILLUSTRATION
 
-## Primary Flight Display Indications
+## Indications in Flight Instruments
+
+###  Primary Flight Display Indications
 
 - V/DEV Indication
 - Speed Range 
 
-## Navigation Display Indications
+### Navigation Display Indications
 
 - symbols and explanations
+- Energy Circle
+- Level-off Arrow
 
-## FMS (MCDU) PROG Page Indications
+### FMS (MCDU) PROG Page Indications
 
 - V/DEV Indication
 
