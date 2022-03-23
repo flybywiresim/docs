@@ -1,14 +1,47 @@
+<link rel="stylesheet" href="/../../stylesheets/larger-admon-font.css">
+
 # Vertical Guidance
 
 ![](../../../assets/UnderConstruction.jpg)
 
 ## Overview
 
-Source: [](https://safetyfirst.airbus.com/control-your-speed-during-descent-approach-and-landing/)
+Vertical guidance in the A320 is supporting the flight crew by providing guidance or automations for the vertical 
+flight paths during a flight. This reduces the workload of the flight crew and allows for a nearly fully automated 
+flight in combination with Lateral Guidance and Manged Speed.
 
-## Real Life Considerations
+Vertical guidance is available for TAKEOFF, CLIMB, CRUISE, DESCENT, and APPROACH phases of the flight plan. The flight 
+planning capability lets the pilot enter published departure, arrival, and approach segments with individual pseudo
+waypoints that include speed/altitude constraints. These constraints, as well as the entered cruise altitude and 
+cost index, define the vertical profile.
 
-## Manual Vertical Modes
+Vertical guidance is managed by the Flight Management Guidance Systems (FMGS), in particular, the Flight Guidance Computer (FGC)
+which controls the Flight Directors (FD), the Autopilots (AP), and the Autothrust (A/THR).    
+
+!!! warning "Real Life Considerations"
+    It is the sole responsibility of the pilot to conduct proper flight planning and execution. It is not sufficient to solely rely on the automatic aircraft guidance and indications. All indications and guidance need to be reconfirmed with flight crew calculations. 
+
+    This is especially true for indications like the **Top of Descent** which typically does not account for likely ATC interventions and often lead to delayed descents preventing ATC from issuing approach shortcuts and may even lead to forced holds to lose altitude. 
+
+## Vertical Modes
+
+Vertical guidance includes these modes:
+
+| Guidance | MANAGED                   | SELECTED       |
+|:---------|:--------------------------|:---------------|
+| VERTICAL | SRS (TO and GA)           |                |
+|          | CLB, DES                  | OP CLB, OP DES |
+|          | ALT CST*, ALT CST         | ALT*, ALT      |
+|          | ALT CRZ                   | EXPEDITE       |
+|          | G/S*, G/S                 |                |
+|          | FINAL, FINAL APP          |                |
+|          | FLARE                     |                |
+
+Find a detailed description of the modes in the blow chapters. 
+
+Vertical guidance interacts closely with the autothrust system and the speed control modes selected in the FCU (managed vs. selected).
+
+## Selected Vertical Modes
 
 ### OP CLB
 
@@ -17,6 +50,8 @@ Source: [](https://safetyfirst.airbus.com/control-your-speed-during-descent-appr
 ### V/S and FPA
 
 ### Expedite
+
+### ALT/ALT*
 
 ## Managed Vertical Modes
 
@@ -36,9 +71,24 @@ Source: [](https://safetyfirst.airbus.com/control-your-speed-during-descent-appr
 - The manoeuvring speed of the current aircraft configuration, or
 - VAPP.
 
+### SRS 
+
+### ALT CST, ALT CST*
+
+### ALT CRZ
+
+### G/S, G/S*
+
+### FINAL / FINAL APP
+
+### FLARE
+
+### Descent Strategies
+
 #### Decelerated Approach (without CDA)
 
 ILLUSTRATION
+Source: [](https://safetyfirst.airbus.com/control-your-speed-during-descent-approach-and-landing/)
 
 #### Continuous Descent Approach (CDA)
 
@@ -56,3 +106,5 @@ ILLUSTRATION
 ## FMS (MCDU) PROG Page Indications
 
 - V/DEV Indication
+
+## Example Flight

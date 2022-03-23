@@ -13,6 +13,8 @@ The primary flight plan is used for lateral guidance and automatically sequences
 Vertical guidance is available for TAKEOFF, CLIMB, CRUISE, DESCENT, and APPROACH phases of the flight plan. The flight planning capability lets the pilot enter published departure, arrival, and approach segments with individual pseudo waypoints that include speed/altitude constraints. These constraints, as well as the entered cruise altitude and cost index,
 define the vertical profile.
 
+See the detailed documentation for [Vertical Guidance](vnav.md)
+
 ## Autopilot and Flight Director Modes
 
 Two types of autopilot and flight director modes are available to guide the aircraft:
