@@ -38,7 +38,7 @@ Computer (FGC) which controls the Flight Directors (FD), the Autopilots (AP), an
 | [Descent Strategies](#descent-strategies)                               |
 | [Indications in Flight Instruments](#indications-in-flight-instruments) |
 
-## Vertical Modes
+## Vertical Modes Overview 
 
 Vertical guidance includes these modes:
 
@@ -65,7 +65,7 @@ for altitude and speed constraints at waypoints and computes the vertical flight
 Selected modes guide the aircraft according to target values that the pilot selects and the
 FCU windows display.
 
-### OP CLB
+### OP CLB (Open Climb)
 The OPEN CLB mode is a selected mode. It uses the AP/FD pitch mode to maintain a SPD/MACH
 (selected or managed) while the autothrust (if active) maintains maximum climb thrust.
 
@@ -86,9 +86,8 @@ It is activated when:
 - the flight crew pulls the FCU ALT knob
 - guidance reverts to speed protection
 - acceleration altitude is reached with CLB armed and lateral navigation (NAV) not engaged
-- 
 
-### OP DES
+### OP DES (Open Descent)
 The OPEN DES mode is a selected mode. It maintains a SPD/MACH (selected or managed) with the AP/FD pitch mode while 
 autothrust (if active) maintains IDLE thrust. It is not to be used for final approach.
 
@@ -108,7 +107,7 @@ It is activated when:
 - the flight crew pulls the FCU ALT knob
 ‐ Selecting a manual speed when EXPEDITE mode is engaged.
 
-### V/S and FPA
+### V/S and FPA (Vertical Speed and Flight Path Angle)
 The V/S - FPA mode is a selected mode. It acquires and holds the vertical speed or the flight path angle displayed 
 in the V/S - FPA window of the FCU. The HDG V/S -TRK FPA pb on the FCU allows the flight crew to select either type 
 of reference to be used for guidance and for display on the PFD.
@@ -149,7 +148,7 @@ To immediate level off the aircraft the flight crew can push the FCU V/S knob or
 Note: If AP is engaged while a V/S is selected with only FD ON, the V/S will synchronise on the
 current aircraft V/S.
 
-### Expedite
+### EXP (Expedite)
 Expedite mode is an OPEN mode used in climb or descent to reach the desired altitude with the
 maximum vertical gradient.
 
@@ -169,8 +168,6 @@ It is engaged manually only when
 ‐ the FCU selected altitude is higher than present altitude, EXP CLB mode engages
 ‐ the FCU selected altitude is lower than present altitude, EXP DES mode engages
 
-### ALT/ALT*
-
 ## Managed Vertical Modes
 Managed modes guide the aircraft along the vertical profile according to the data the pilot inserts into the MCDU. 
 Flight Management (in the Flight Management and Guidance Computer) computes the corresponding guidance targets.
@@ -178,9 +175,35 @@ Flight Management (in the Flight Management and Guidance Computer) computes the 
 Managed modes accounts for altitude constraints at waypoints and also for speed constraints at waypoints when speed 
 is in managed mode.
 
-### SRS 
+### SRS (Speed Reference System)
+The SRS mode controls pitch to steer the aircraft along a path in the vertical plan at a speed
+defined by the SRS guidance law.
 
-### CLB
+In SRS mode, the aircraft maintains a speed target equal to V2+10 kt in normal engine configuration. When the FMGS 
+detects an engine failure, the speed target becomes the highest of V2 or current speed, limited by V2+15 kt.
+
+The SRS mode engages automatically when the thrust levers are set to the TOGA or FLX/MCT detent (when a Flex 
+takeoff temperature has been selected), if:
+
+- V2 has been inserted in the MCDU PERF TAKEOFF page
+- The slats are extended
+- The aircraft has been on ground for at least 30 s.
+
+The SRS mode disengages:
+- Automatically, at the acceleration altitude (ACC ALT), or if ALT* or ALT CST* mode engages (above 400 ft RA)
+- If the flight crew engages another vertical mode.
+- If the flight crew selects a speed while in SRS mode: SRS reverts to OP CLB mode, and a triple-click aural 
+warning is heard
+- If the TCAS mode engages.
+
+The SRS guidance law also includes:
+
+- Attitude protection to reduce aircraft nose-up effect during takeoff (18 ° or 22.5 ° maximum in
+case of windshear)
+- Flight path angle protection that ensures a minimum vertical speed of 120 ft/min
+- A speed protection limiting the target speed to V2+15 kt.
+
+### CLB (Climb)
 CLB mode guides the aircraft in a managed climb, at either a managed or a selected target speed, to an FCU selected
 altitude, taking into account altitude constraints at waypoints. The system also considers speed constraints if the
 target speed is managed.
@@ -229,7 +252,7 @@ not at an altitude constraint.
 
 ### ALT CRZ
 
-### DES
+### DES (Descent)
 The managed descent mode guides the aircraft along the FMS computed vertical flight path. The DES mode is preferred 
 when conditions permit since it ensures the management of altitude constraints and reduces the operating cost when 
 flying at ECON DES speed.
@@ -282,6 +305,48 @@ Therefore, the AP/FD pitch modes and A/THR mode are coordinated as follows:
 
 ### FLARE
 
+## Altitude Acquire Mode (ALT*)
+ALT* mode guides the aircraft to acquire the FCU selected altitude.
+
+ALT CST* guides the aircraft to acquire an altitude constraint provided by Flight Management. Once the aircraft has 
+reached the altitude, the altitude mode (ALT or ALT CST) engages.
+
+The mode engages when the aircraft reaches the altitude capture zone, defined by the aircraft vertical speed (among 
+other parameters).
+
+### Altitude Hold Mode (ALT)
+The ALT mode maintains a target altitude. This target altitude is either the FCU selected altitude or an altitude 
+constraint delivered by Flight Management.
+
+The ALT mode arms automatically whenever the aircraft climbs or descends toward the target altitude.
+
+When ALT is armed, the FMA displays the ALT message on its second line:
+
+- Blue when the target altitude is the FCU selected altitude
+- Magenta if the target altitude is an altitude constraint.
+
+The ALT mode is engaged automatically when the difference between present altitude and the target altitude becomes 
+less than 20 ft with ALT* engaged.
+
+The altitude that ALT mode holds is the altitude it memorized when engaged. It is not affected by a change of 
+reference in the ALT window or by a change in the barometric correction.
+
+When ALT is engaged, the FMA displays ALT in green (FCU altitude hold) or ALT CST in green if it is an altitude 
+constraint.
+
+## TCAS Mode 
+The TCAS mode is an Auto Flight System (AFS) guidance mode that provides vertical guidance in the case of a Traffic
+Alert and Collision Avoidance System (TCAS) Resolution Advisory (RA). When a Traffic Advisory (TA) is triggered, the TCAS mode arms.
+
+When a RA is triggered, the TCAS mode engages. The TCAS mode provides vertical guidance in accordance with the TCAS
+RA order.
+
+When clear of conflict (the “CLEAR OF CONFLICT” aural alert sounds), the TCAS mode disengages.
+
+The AFS provides guidance toward the latest target altitude set on the FCU.
+
+See or detailed guide for TCAS: [Traffic Alert and Collision Avoidance System](tcas.md)
+
 ## Vertical Guidance Symbology
 
 |      Pseudo Waypoint      | Definition                                                     | Conditions / Additional Info                                                                                                               |
@@ -301,20 +366,6 @@ Therefore, the AP/FD pitch modes and A/THR mode are coordinated as follows:
 |                           |                                                                | If vertical deviation is detected while in DES mode, continuously indicates predicted point where aircraft will intercept the descent path |
 |                           |                                                                |                                                                                                                                            |
 |        magenta dot        | Indicates the speed change symbol (magenta)                    | Point on the flight plan where the aircraft with automatically accelerate or decelerate to a new computed speed                            |
-
-
-## TCAS Mode 
-The TCAS mode is an Auto Flight System (AFS) guidance mode that provides vertical guidance in the case of a Traffic
-Alert and Collision Avoidance System (TCAS) Resolution Advisory (RA). When a Traffic Advisory (TA) is triggered, the TCAS mode arms.
-
-When a RA is triggered, the TCAS mode engages. The TCAS mode provides vertical guidance in accordance with the TCAS
-RA order.
-
-When clear of conflict (the “CLEAR OF CONFLICT” aural alert sounds), the TCAS mode disengages.
-
-The AFS provides guidance toward the latest target altitude set on the FCU.
-
-See or detailed guide for TCAS: [Traffic Alert and Collision Avoidance System](tcas.md)
 
 ## Descent Strategies
 
