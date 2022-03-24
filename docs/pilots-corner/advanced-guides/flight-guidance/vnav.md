@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="/../../stylesheets/larger-admon-font.css">
+<link rel="stylesheet" href="/../../stylesheets/toc-tables.css">
 
 # Vertical Guidance
 
@@ -24,7 +25,18 @@ Computer (FGC) which controls the Flight Directors (FD), the Autopilots (AP), an
     reconfirmed by the flight crew with their own calculations.<p/> 
     This is especially true for indications like the **Top of Descent** which typically does not account for likely 
     ATC interventions and often lead to late descents preventing ATC from issuing approach shortcuts and may even lead to 
-    forced holds to lose altitude. 
+    forced holds to lose altitude.
+
+## Chapters
+
+| Quick Links                                                             |
+|:------------------------------------------------------------------------|
+| [Vertical Modes](#vertical-modes)                                       |
+| [Selected Vertical Modes](#selected-vertical-modes)                     |
+| [Managed Vertical Modes](#managed-vertical-modes)                       |
+| [TCAS Mode](#tcas-mode)                                                 |
+| [Descent Strategies](#descent-strategies)                               |
+| [Indications in Flight Instruments](#indications-in-flight-instruments) |
 
 ## Vertical Modes
 
@@ -270,6 +282,27 @@ Therefore, the AP/FD pitch modes and A/THR mode are coordinated as follows:
 
 ### FLARE
 
+## Vertical Guidance Symbology
+
+|      Pseudo Waypoint      | Definition                                                     | Conditions / Additional Info                                                                                                               |
+|:-------------------------:|:---------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
+| Images here - Placeholder | Indicates *top of climb* or *level-off* under with conditions. | The FCU selected altitude                                                                                                                  |
+|                           |                                                                | A constraint altitude (if all appropriate modes are engaged)                                                                               |
+|                           |                                                                | Will not appear if the aircraft is 100 ft above or below selected altitude                                                                 |
+|                           |                                                                |                                                                                                                                            |
+|            TOD            | Indicates *top of descent* or *continue descent*.              | Arrow is White if DES is not armed                                                                                                         |
+|                           |                                                                | Arrow is Blue if DES is armed                                                                                                              |
+|                           |                                                                |                                                                                                                                            |
+|        start Climb        | Indicates start of `CLIMB`                                     | Arrow is White if CLB is not armed                                                                                                         |
+|                           |                                                                | Arrow is BLUE if CLB is armed                                                                                                              |
+|                           |                                                                |                                                                                                                                            |
+|         Squiggle          | Indicates intercept point                                      | Symbol is White if NAV mode is engaged                                                                                                     |
+|                           |                                                                | Symbol is Blue, if DES mode is engaged                                                                                                     |
+|                           |                                                                | If vertical deviation is detected while in DES mode, continuously indicates predicted point where aircraft will intercept the descent path |
+|                           |                                                                |                                                                                                                                            |
+|        magenta dot        | Indicates the speed change symbol (magenta)                    | Point on the flight plan where the aircraft with automatically accelerate or decelerate to a new computed speed                            |
+
+
 ## TCAS Mode 
 The TCAS mode is an Auto Flight System (AFS) guidance mode that provides vertical guidance in the case of a Traffic
 Alert and Collision Avoidance System (TCAS) Resolution Advisory (RA). When a Traffic Advisory (TA) is triggered, the TCAS mode arms.
@@ -306,7 +339,7 @@ This section will showcase a complete picture of the PFD and the ND during diffe
 Specific details on the symbology associated with vertical guidance can be seen in the section below:
 
 <!-- add this section later in table format -->
-[Vertical Guidance Symbology](#){.md-button}
+[Vertical Guidance Symbology](#vertical-guidance-symbology){.md-button}
 
 ###  Primary Flight Display Indications
 
@@ -349,7 +382,7 @@ Specific details on the symbology associated with vertical guidance can be seen 
 
 ### Navigation Display Indications
 
-As a reminder the section [Veritcal Guidance Symbology](#) contains detailed descriptions of the various symbols you'll encounter when indicated on the flight instruments.
+As a reminder the section [Veritcal Guidance Symbology](#vertical-guidance-symbology) contains detailed descriptions of the various symbols you'll encounter when indicated on the flight instruments.
 
 #### ^^Departure^^
 
