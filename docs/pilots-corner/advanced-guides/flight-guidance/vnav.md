@@ -288,6 +288,10 @@ Each descent can have the following segments:
       
     !!! warning "Repressurization segments are not yet implemented in the A32NX"
 
+If the aircraft levels off at an ALT CSTR, the DES mode arms and remains armed until the aircraft passes the 
+constraint, then reengages (if the FCU altitude is set below the altitude of the constraint).
+
+#### Engaging DES Mode
 The DES mode can be engaged when:
 
 - the altitude selected in the FCU os lower than the present altitude
@@ -307,6 +311,7 @@ During the descent, approach and landing the managed speed is equal to either:
 - The manoeuvring speed of the current aircraft configuration, or
 - V~APP~.
 
+#### Initiating Decent
 Descent initiation is not started automatically in the Airbus A320.  To start the descent the flight crew sets the 
 ATC cleared altitude in to the FCU and pushes the ALT knob. If the aircraft has not yet reached the top of descent 
 point it will start descent immediately at a constant V/S until intercepting the cmputed descent path. If the 
@@ -321,19 +326,60 @@ acceptable speed variations around the nominal descent speed target.
 Associated with the VDEV displayed on PFD, the ND shows an intercept point (zigzag symbol) on the flight plan. It 
 indicates the position where the system predicts that the aircraft will intercept the descent profile.
 
+
+
 See all symbols below: [Vertical Guidance Symbology](#vertical-guidance-symbology).
 
-### G/S, G/S*
+#### Vertical Path Deviation
+If the aircraft is above the descent profile, the speed will increase toward the upper limit of the managed speed 
+range. If the speed reaches the upper limit, the aircraft will maintain the speed but will deviate from the profile 
+(autothrust at idle).
 
-!!! bug "TODO"
+The navigation display presents a pseudo waypoint (intercept point) along the flight plan that
+assumes the aircraft will return to the profile using:
 
-### FINAL / FINAL APP
+- Idle thrust
+- 1/2 speedbrake extension
+- ECON speed plus a margin (until intercepting the profile).
 
-!!! bug "TODO"
+If necessary, the message “MORE DRAG” comes up on the PFD and the MCDU, and remains there as long as more drag 
+(speedbrakes) is still required. The flight crew should respond to this message by deploying half speedbrakes. 
 
-### FLARE
+If the aircraft is below the descent profile, its speed will be maintained at target speed until it reaches the 
+descent profile. The lower margin becomes effective when the aircraft is on the descent profile but has to lose 
+speed in order to stay on it.
 
-!!! bug "TODO"
+!!! warning "The MODE DRAG message is not yet implemented in the A32NX"
+
+!!! bug "TODO: Vertical deviation management characteristics"
+
+!!! bug "TODO: Guidance in Hold"
+
+!!! bug "TODO: Too Steep Path"
+
+### Approach modes
+
+#### G/S, G/S*
+Glideslope capture (G/S^*^) and glideslope modes are used in precision approaches (ILS, MLS).
+
+#### FINAL / FINAL APP
+APP NAV and FINAL modes are use in non-precision approaches (VOR/DEM, VOR, NDB, RNAV).
+
+!!! warning "Not yet implemented in the A32NX"
+
+#### LAND
+LAND mode automatically engages when the LOC and G/S modes are engaged, and the aircraft is below 400 ft RA. The 
+FMA displays “LAND”, indicating that LOC and G/S are locked. LAND mode can only be disengaged by a go-around. FLARE 
+and ROLL OUT modes will successively engage.
+
+#### FLARE
+FLARE mode engages once the aircraft reaches approximately 40 ft RA (the precise value is a function of V/S). The 
+FMA displays “FLARE” in green.
+
+At 30 ft RA, the AP/FD aligns the yaw axis with the runway center line and the aircraft flares
+on the pitch axis. If the autothrust is active, thrust is automatically reduced to IDLE (callout "retard").
+When both AP/FDs are disengaged, FLARE mode disengages. After main landing gear touchdown, the autopilot (if engaged)
+sends a nose down order.
 
 ## Altitude Acquire Mode (ALT*, ALT CST^*^)
 ALT* mode guides the aircraft to acquire the FCU selected altitude.
