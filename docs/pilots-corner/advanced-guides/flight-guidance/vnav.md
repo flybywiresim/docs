@@ -51,15 +51,15 @@ Computer (FGC) which controls the Flight Directors (FD), the Autopilots (AP), an
 
 Vertical guidance includes these modes:
 
-| Guidance | MANAGED                   | SELECTED       |
-|:---------|:--------------------------|:---------------|
-| VERTICAL | SRS (TO and GA)           |                |
-|          | CLB, DES                  | OP CLB, OP DES |
-|          | ALT CST*, ALT CST         | ALT*, ALT      |
-|          | ALT CRZ                   | EXPEDITE       |
-|          | G/S*, G/S                 |                |
-|          | FINAL, FINAL APP          |                |
-|          | FLARE                     |                |
+| Guidance | MANAGED           | SELECTED       |
+|:---------|:------------------|:---------------|
+| VERTICAL | SRS (TO and GA)   |                |
+|          | CLB, DES          | OP CLB, OP DES |
+|          | ALT CST*, ALT CST | ALT*, ALT      |
+|          | ALT CRZ           | EXPEDITE       |
+|          | G/S*, G/S         |                |
+|          | FINAL, FINAL APP  |                |
+|          | LAND, FLARE       |                |
 
 Find a detailed description of the modes in the sections below. 
 
@@ -81,7 +81,7 @@ Selected modes disregard all altitude constraints.
 The OPEN CLB mode uses the AP/FD pitch mode to maintain a SPD/MACH (selected or managed) while the autothrust (if 
 active) maintains maximum climb thrust.
 
-When OPEN CLB is engaged, the target speed/Mach is maintained by adjusting the pitch with the
+When OPEN CLB is engaged, the target speed/mach is maintained by adjusting the pitch with the
 elevator, whereas thrust is maintained either by the A/THR, or manually by the flight crew. Speed
 target may either be selected or managed.
 
@@ -512,16 +512,12 @@ The selected Speed/Mach target mode activates when:
 |                           |                                                                |                                                                                                                                            |
 |        magenta dot        | Indicates the speed change symbol (magenta)                    | Point on the flight plan where the aircraft with automatically accelerate or decelerate to a new computed speed                            |
 
-## Descent Strategies
-
-### Decelerated Approach (without CDA)
-
-ILLUSTRATION
-Source: [](https://safetyfirst.airbus.com/control-your-speed-during-descent-approach-and-landing/)
+## Descent Strategy
 
 ### Continuous Descent Approach (CDA)
 
 ILLUSTRATION
+Source: [](https://safetyfirst.airbus.com/control-your-speed-during-descent-approach-and-landing/)
 
 ## Indications in Flight Instruments
 
@@ -569,7 +565,7 @@ Specific details on the symbology associated with vertical guidance can be seen 
 
 #### ^^Descent^^
 
-**WIP**
+!!! bug "TODO"
 
 - V/DEV Indication
 - Speed Range 
@@ -618,7 +614,7 @@ There are also a few **pseudo waypoints** indicated on the ND indicating differe
 
 #### ^^Descent^^
 
-**WIP**
+!!! bug "TODO"
 
 ### FMS (MCDU) PROG Page Indications
 
@@ -630,4 +626,4 @@ When the aircraft is descending you can take note of the vertical deviation agai
 
 ## Example Flight
 
->> take off - press button until TOD; watch Netflix; press button again, autoland <<
+!!! bug "TODO: take off - press button until TOD; watch Netflix; press button again, autoland"
