@@ -259,14 +259,6 @@ not at an altitude constraint.
   ‐ When the aircraft levels off at the ALT CSTR, CLB mode arms automatically, then engages when the aircraft passes
   the constrained waypoint (if the FCU altitude is above the constraint altitude).
 
-### ALT CST, ALT CST*
-
-!!! bug "TODO"
-
-### ALT CRZ
-
-!!! bug "TODO"
-
 ### DES (Descent)
 The managed descent mode guides the aircraft along the FMS computed vertical flight path. The DES mode is preferred 
 when conditions permit since it ensures the management of altitude constraints and reduces the operating cost when 
@@ -275,14 +267,61 @@ flying at ECON DES speed.
 The DES mode is only available when the aircraft flies on the FMS lateral flight plan, i.e. when the aircraft uses 
 the NAV horizontal guidance mode.
 
+The FMGS computes the flight path backwards from the deceleration point up to the top of descent (T/D), with 
+respect to the speed and altitude constraints at the deceleration point, the guidance begins the deceleration to 
+V~APP~, to be reached at 1 000 ft above touchdown on the final descent path.
+
+This computation starts with an idle power segment down to the first constraint followed by geometric 
+segments between constraints until reaching the deceleration point. The FMGS accounts for wind and data from 
+the vertical and lateral flight plan and bases its computations on the managed speed profile. Holding patterns are 
+not considered.  
+
+Each descent can have the following segments:
+
+- Idle path segment:
+    - Autothrust uses idle thrust while the AF/FD controls speed by adjusting the vertical trajectory (pitch)
+- Geometric path segment:
+    - AP/FD controls the required vertical path while autothrust controls speed.   
+- Repressurization segment:
+    - If required, this ensures a specific rate of pressurization for the cabin during descent. It is calculated 
+      from the destination airport altitude and the selected cabin rate (default -350ft/min which can be modified)
+      
+    !!! warning "Repressurization segments are not yet implemented in the A32NX"
+
+The DES mode can be engaged when:
+
+- the altitude selected in the FCU os lower than the present altitude
+- either MVA, LOC^*^, LOC are active
+- takeoff, climb or go-around phase are not active
+- vertical flight path is valid
+- not in TO, G/S, LAND, FINAL or GA mode
+- Either 
+    - an ALT CSTR waypoint is sequenced (passed) and DES mode was armend (DES will activate automatically), or
+    - pilot presses the ALT knob (ALT CST^*^, ATL CST may not be active), or
+    - pilot presses the ALT knob when ALT^*^ or ALT is active and current altitude is not a constraint
+
 During the descent, approach and landing the managed speed is equal to either:
 
 - ECON DES speed or the descent speed manually entered in the PERF DES page of the FMS, or
-- The speed constraint, or
+- The speed constraint, speed limit, or
 - The manoeuvring speed of the current aircraft configuration, or
 - V~APP~.
 
-!!! bug "TODO"
+Descent initiation is not started automatically in the Airbus A320.  To start the descent the flight crew sets the 
+ATC cleared altitude in to the FCU and pushes the ALT knob. If the aircraft has not yet reached the top of descent 
+point it will start descent immediately at a constant V/S until intercepting the cmputed descent path. If the 
+aircraft is at or beyond the top of descent point it descents at idle thrust. 
+
+After initiating the descent the aircraft shows a vertical deviation symbol (green dot) next to the altitude scale on the 
+PFD so that the flight crew can monitor the aircraft's position relative to the descent path. 
+
+When the speed is managed, a target speed range is displayed in the speed band on the PFD (magenta bars) which defines 
+acceptable speed variations around the nominal descent speed target.
+
+Associated with the VDEV displayed on PFD, the ND shows an intercept point (zigzag symbol) on the flight plan. It 
+indicates the position where the system predicts that the aircraft will intercept the descent profile.
+
+See all symbols below: [Vertical Guidance Symbology](#vertical-guidance-symbology).
 
 ### G/S, G/S*
 
@@ -296,7 +335,7 @@ During the descent, approach and landing the managed speed is equal to either:
 
 !!! bug "TODO"
 
-## Altitude Acquire Mode (ALT*)
+## Altitude Acquire Mode (ALT*, ALT CST^*^)
 ALT* mode guides the aircraft to acquire the FCU selected altitude.
 
 ALT CST* guides the aircraft to acquire an altitude constraint provided by Flight Management. Once the aircraft has 
@@ -305,7 +344,7 @@ reached the altitude, the altitude mode (ALT or ALT CST) engages.
 The mode engages when the aircraft reaches the altitude capture zone, defined by the aircraft vertical speed (among 
 other parameters).
 
-## Altitude Hold Mode (ALT)
+## Altitude Hold Mode (ALT, ALT CST, ALT CRZ)
 The ALT mode maintains a target altitude. This target altitude is either the FCU selected altitude or an altitude 
 constraint delivered by Flight Management.
 
@@ -322,8 +361,8 @@ less than 20 ft with ALT* engaged.
 The altitude that ALT mode holds is the altitude it memorized when engaged. It is not affected by a change of 
 reference in the ALT window or by a change in the barometric correction.
 
-When ALT is engaged, the FMA displays ALT in green (FCU altitude hold) or ALT CST in green if it is an altitude 
-constraint.
+When ALT is engaged, the FMA displays ALT in green (FCU altitude hold), ALT CST in green if it is an altitude 
+constraint, or ALT CRZ in green if cruise flight level is held.  
 
 ## TCAS Mode 
 The TCAS mode is an Auto Flight System (AFS) guidance mode that provides vertical guidance in the case of a Traffic
