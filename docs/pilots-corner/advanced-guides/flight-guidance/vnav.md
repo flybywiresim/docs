@@ -27,6 +27,12 @@ Computer (FGC) which controls the Flight Directors (FD), the Autopilots (AP), an
     ATC interventions and often lead to late descents preventing ATC from issuing approach shortcuts and may even lead to 
     forced holds to lose altitude.
 
+!!! warning "Disclaimer"
+    The level of detail in this guide is meant to provide FlyByWire A32NX users the ability to adequately use the  
+    vertical navigation features of the aircraft.<p/>
+    As this is a vast and complicated topic this guide can't cover everything and additional sources and further 
+    reading is recommended to master this topic.  
+
 ## Chapters
 
 | Quick Links                                                             |
@@ -37,6 +43,7 @@ Computer (FGC) which controls the Flight Directors (FD), the Autopilots (AP), an
 | [Altitude Acquire Mode](#altitude-acquire-mode-alt)                     |
 | [Altitude Hold Mode](#altitude-hold-mode-alt)                           |
 | [TCAS Mode](#tcas-mode)                                                 |
+| [Speed/Mach Control](#speedmach-control)                                |
 | [Descent Strategies](#descent-strategies)                               |
 | [Indications in Flight Instruments](#indications-in-flight-instruments) |
 
@@ -60,7 +67,8 @@ Vertical guidance interacts closely with the autothrust system and the speed con
 (managed vs. selected).
 
 One of the main notable differences between Selected and Managed Vertical Guidance is that the managed mode accounts 
-for altitude and speed constraints at waypoints and computes the vertical flight path accordingly.
+for altitude and speed constraints at waypoints and computes the vertical flight path accordingly. Selected mode on 
+the other hand ignore any constraints from the flight plan.
 
 ## Selected Vertical Modes
 
@@ -180,7 +188,7 @@ Flight Management (in the Flight Management and Guidance Computer) computes the 
 Managed modes accounts for altitude constraints at waypoints and also for speed constraints at waypoints when speed 
 is in managed mode.
 
-### TakeOff SRS (Speed Reference System)
+### Takeoff SRS (Speed Reference System)
 The SRS mode controls pitch at takeoff to steer the aircraft along a path in the vertical plan at a speed
 defined by the SRS guidance law.
 
