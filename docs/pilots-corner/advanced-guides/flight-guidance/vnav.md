@@ -34,6 +34,8 @@ Computer (FGC) which controls the Flight Directors (FD), the Autopilots (AP), an
 | [Vertical Modes](#vertical-modes)                                       |
 | [Selected Vertical Modes](#selected-vertical-modes)                     |
 | [Managed Vertical Modes](#managed-vertical-modes)                       |
+| [Altitude Acquire Mode](#altitude-acquire-mode-alt)                     |
+| [Altitude Hold Mode](#altitude-hold-mode-alt)                           |
 | [TCAS Mode](#tcas-mode)                                                 |
 | [Descent Strategies](#descent-strategies)                               |
 | [Indications in Flight Instruments](#indications-in-flight-instruments) |
@@ -52,7 +54,7 @@ Vertical guidance includes these modes:
 |          | FINAL, FINAL APP          |                |
 |          | FLARE                     |                |
 
-Find a detailed description of the modes in the blow chapters. 
+Find a detailed description of the modes in the sections below. 
 
 Vertical guidance interacts closely with the autothrust system and the speed control modes selected in the FCU 
 (managed vs. selected).
@@ -65,9 +67,11 @@ for altitude and speed constraints at waypoints and computes the vertical flight
 Selected modes guide the aircraft according to target values that the pilot selects and the
 FCU windows display.
 
+Selected modes disregard all altitude constraints.
+
 ### OP CLB (Open Climb)
-The OPEN CLB mode is a selected mode. It uses the AP/FD pitch mode to maintain a SPD/MACH
-(selected or managed) while the autothrust (if active) maintains maximum climb thrust.
+The OPEN CLB mode uses the AP/FD pitch mode to maintain a SPD/MACH (selected or managed) while the autothrust (if 
+active) maintains maximum climb thrust.
 
 When OPEN CLB is engaged, the target speed/Mach is maintained by adjusting the pitch with the
 elevator, whereas thrust is maintained either by the A/THR, or manually by the flight crew. Speed
@@ -75,9 +79,9 @@ target may either be selected or managed.
 
 The OPEN CLB mode disregards all altitude constraints up to the FCU selected altitude.
 
-OP CLB mode can be engaged when:
+OPEN CLB mode can be engaged when:
 
-‐ the aircraft has been in flight for more than 5 seconds
+- the aircraft has been in flight for more than 5 seconds
 - LAND mode is not engaged
 - the altitude selected in the FCU is higher than the present altitude
 
@@ -88,7 +92,7 @@ It is activated when:
 - acceleration altitude is reached with CLB armed and lateral navigation (NAV) not engaged
 
 ### OP DES (Open Descent)
-The OPEN DES mode is a selected mode. It maintains a SPD/MACH (selected or managed) with the AP/FD pitch mode while 
+The OPEN DES mode maintains a SPD/MACH (selected or managed) with the AP/FD pitch mode while 
 autothrust (if active) maintains IDLE thrust. It is not to be used for final approach.
 
 When OPEN DES is engaged, pitch control maintains the target speed/Mach number, and autothrust
@@ -99,18 +103,18 @@ The OPEN DES mode disregards all altitude constraints.
 
 OP DES mode can be engaged when:
 
-‐ the aircraft has been in flight for more than 5 seconds
-‐ LAND mode is not engaged
+- the aircraft has been in flight for more than 5 seconds
+- LAND mode is not engaged
 - the altitude selected in the FCU is lower than the present altitude
 
 It is activated when:
 - the flight crew pulls the FCU ALT knob
-‐ Selecting a manual speed when EXPEDITE mode is engaged.
+- Selecting a manual speed when EXPEDITE mode is engaged.
 
 ### V/S and FPA (Vertical Speed and Flight Path Angle)
-The V/S - FPA mode is a selected mode. It acquires and holds the vertical speed or the flight path angle displayed 
-in the V/S - FPA window of the FCU. The HDG V/S -TRK FPA pb on the FCU allows the flight crew to select either type 
-of reference to be used for guidance and for display on the PFD.
+The V/S-FPA mode acquires and holds the vertical speed or the flight path angle displayed 
+in the V/S-FPA window of the FCU. The HDG V/S-TRK FPA pb on the FCU allows the flight crew to select vertical speed 
+or flight path angle to be used. 
 
 The FMGC pitch mode guides the aircraft to the target V/S or FPA. The corresponding A/THR mode is SPEED or MACH. The 
 FMA displays V/S (FPA).
@@ -126,7 +130,7 @@ minimum (or maximum) speed limit.
 
 --}
 
-V/S-FPA can be engaged when:
+V/S-FPA can be manually engaged when:
 
 - the aircraft has been in flight for more than 5 seconds
 - the AP or FD are activated when they have been off
@@ -143,22 +147,23 @@ It engages automatically when:
 ‐ loss of vertical flight path in DES mode
 ‐ TCAS mode disengagement.
 
-To immediate level off the aircraft the flight crew can push the FCU V/S knob or set the V/S to 0.
+To immediate level off the aircraft the flight crew can push the FCU V/S-FPA knob or set the V/S-FPA to 0.
 
 Note: If AP is engaged while a V/S is selected with only FD ON, the V/S will synchronise on the
 current aircraft V/S.
 
 ### EXP (Expedite)
-Expedite mode is an OPEN mode used in climb or descent to reach the desired altitude with the
+Expedite mode is used in climb or descent to reach the desired altitude with the
 maximum vertical gradient.
 
-When the aircraft is in EXP CLB, the target speed is Green Dot, which is maintained with pitch control. Autothrust, 
-if active, sets the thrust at CLB THRUST automatically.
+When the aircraft is in EXP CLB, the target speed is Green Dot, which is maintained with pitch control. If 
+Autothrust is active it sets the thrust at CLB THRUST automatically.
 
 When the aircraft is in EXP DES, the target speed is 340 kt or M 0.8 which is maintained with pitch control. 
-Autothrust, if active, sets the thrust at IDLE automatically.
+If Autothrust is active it sets the thrust at IDLE automatically.
 
-When EXPEDITE is engaged, the system disregards SPD CSTR, ALT CSTR, and SPD LIM.
+When EXPEDITE is engaged, the system disregards speed constraints (SPD CSTR), altitude constraints (ALT CSTR), and 
+speed limits (SPD LIM).
 
 EXPEDITE can be engaged when
 ‐ the aircraft has been in flight for more than 5 s
@@ -175,8 +180,8 @@ Flight Management (in the Flight Management and Guidance Computer) computes the 
 Managed modes accounts for altitude constraints at waypoints and also for speed constraints at waypoints when speed 
 is in managed mode.
 
-### SRS (Speed Reference System)
-The SRS mode controls pitch to steer the aircraft along a path in the vertical plan at a speed
+### TakeOff SRS (Speed Reference System)
+The SRS mode controls pitch at takeoff to steer the aircraft along a path in the vertical plan at a speed
 defined by the SRS guidance law.
 
 In SRS mode, the aircraft maintains a speed target equal to V2+10 kt in normal engine configuration. When the FMGS 
@@ -208,9 +213,7 @@ CLB mode guides the aircraft in a managed climb, at either a managed or a select
 altitude, taking into account altitude constraints at waypoints. The system also considers speed constraints if the
 target speed is managed.
 
-Climb mode gives the aircraft managed vertical guidance to the FCU selected altitude. It meets altitude constraints 
-at waypoints either with managed speed incorporating speed constraints or with selected speed as target speed. The 
-AP/FD pitch controls the speed or Mach number target and the A/THR is in thrust mode (CLB) corresponding to maximum 
+The AP/FD pitch controls the speed or Mach number target and the A/THR is in thrust mode (CLB) corresponding to maximum 
 climb thrust. The flight path may include several segments. The flight crew can arm the CLB mode during the takeoff, 
 go-around, climb, and cruise phases and engage it during the climb and cruise phases.
 
@@ -243,14 +246,18 @@ not at an altitude constraint.
   the ALT scale.
     - Magenta for another altitude constraint
     - Blue for a FCU selected altitude
-- The guidance does not modify the target speed in order to satisfy an altitude constraint. Therefore, the
+- The guidance does **not** modify the target speed in order to satisfy an altitude constraint. Therefore, the
   constraint may not be met and may be predicted as missed
   ‐ When the aircraft levels off at the ALT CSTR, CLB mode arms automatically, then engages when the aircraft passes
   the constrained waypoint (if the FCU altitude is above the constraint altitude).
 
 ### ALT CST, ALT CST*
 
+!!! bug "TODO"
+
 ### ALT CRZ
+
+!!! bug "TODO"
 
 ### DES (Descent)
 The managed descent mode guides the aircraft along the FMS computed vertical flight path. The DES mode is preferred 
@@ -260,14 +267,6 @@ flying at ECON DES speed.
 The DES mode is only available when the aircraft flies on the FMS lateral flight plan, i.e. when the aircraft uses 
 the NAV horizontal guidance mode.
 
-### Speed Target in Manged Vertical Modes
-In flight, either the AP/FD pitch control, or autothrust may acquire and hold a target speed or Mach
-number, depending on the engaged modes.
-
-Speed control is:
-‐ Managed when the target comes from the FMGS
-‐ Selected when the target comes from the SPD/MACH FCU window.
-
 During the descent, approach and landing the managed speed is equal to either:
 
 - ECON DES speed or the descent speed manually entered in the PERF DES page of the FMS, or
@@ -275,35 +274,19 @@ During the descent, approach and landing the managed speed is equal to either:
 - The manoeuvring speed of the current aircraft configuration, or
 - V~APP~.
 
-For this the AP and FD pitch modes can control a target SPD/MACH or a vertical trajectory, and the A/THR
-mode can control a fixed thrust or a target SPD/MACH. However, the AP/FD and the A/THR cannot
-both control a target SPD/MACH simultaneously.
-
-Therefore, the AP/FD pitch modes and A/THR mode are coordinated as follows:
-‐ If an AP/FD pitch mode controls a vertical trajectory, the A/THR mode controls the target SPD/MACH.
-‐ If an AP/FD pitch mode controls a target SPD or MACH, the A/THR mode controls the thrust.
-‐ If no AP/FD pitch mode is engaged, the A/THR mode reverts to controlling the SPD/MACH mode.
-
-| AP/FD Pitch Modes                               | A/THR Modes          |
-|-------------------------------------------------|----------------------|
-| V/S - FPA                                       | SPEED/MACH MODE      |
-| DES (geometric path)                            | SPEED/MACH MODE      |
-| ALT*, ALT, ALT CRZ*. ALT CRZ, ALT CST*, ALT CST | SPEED/MACH MODE      |
-| G/S*, G/S                                       | SPEED/MACH MODE      |   
-| FINAL. FINAL APP                                | SPEED/MACH MODE      |
-| TCAS                                            | SPEED/MACH MODE      |
-| FD/AP OFF                                       | SPEED/MACH MODE      |
-| CLB/DES (idle path)                             | THR (CLB, IDLE) MODE |
-| OP CLB/OP DES                                   | THR (CLB, IDLE) MODE |
-| EXP CLB/EXP DES                                 | THR (CLB, IDLE) MODE |
-| SRS                                             | THR (CLB, IDLE) MODE |
-| FLARE                                           | RETARD (IDLE)        |
+!!! bug "TODO"
 
 ### G/S, G/S*
 
+!!! bug "TODO"
+
 ### FINAL / FINAL APP
 
+!!! bug "TODO"
+
 ### FLARE
+
+!!! bug "TODO"
 
 ## Altitude Acquire Mode (ALT*)
 ALT* mode guides the aircraft to acquire the FCU selected altitude.
@@ -314,7 +297,7 @@ reached the altitude, the altitude mode (ALT or ALT CST) engages.
 The mode engages when the aircraft reaches the altitude capture zone, defined by the aircraft vertical speed (among 
 other parameters).
 
-### Altitude Hold Mode (ALT)
+## Altitude Hold Mode (ALT)
 The ALT mode maintains a target altitude. This target altitude is either the FCU selected altitude or an altitude 
 constraint delivered by Flight Management.
 
@@ -346,6 +329,75 @@ When clear of conflict (the “CLEAR OF CONFLICT” aural alert sounds), the TCA
 The AFS provides guidance toward the latest target altitude set on the FCU.
 
 See or detailed guide for TCAS: [Traffic Alert and Collision Avoidance System](tcas.md)
+
+## Speed/Mach Control
+In flight, either the AP/FD pitch control, or autothrust may acquire and hold a target speed or Mach
+number, depending on the engaged modes.
+
+Speed control is:
+‐ Managed when the target comes from the FMGS
+‐ Selected when the target comes from the SPD/MACH FCU window.
+
+### Managed Speed/Mach Target
+Managed Speed/Mach target is engaged when:
+
+- the SPD/MACH knob is pushed
+- EXP mode engaged
+- V2 is inserted into the MCDU PERF page
+- SRS mode is engaged (SRS will not engage if V2 is not set in the MCDU PERF page)
+- The TCAS mode is engaged.
+
+Managed Speed/Mach disengages if a target speed is selected in the FCU by pulling the knob or if a preselected speed 
+was configured in the MCDU PERF pages.
+
+Managed speed accounts for all speed constraints in the flight plan when the lateral navigation NAV is enabled. 
+Otherwise, any speed constraints are ignored. 
+
+The speed profile when NAV is enabled is as follows: V2, SPD LIM, SPD CSTR (if applicable), ECON CLB SPD/MACH, ECON 
+CRZ MACH, ECON or preset DES MACH/SPD, SPD LIM, SPD CSTR (if applicable), HOLD SPD (if applicable), V~APP~.
+
+The speed profile when NAV is not enabled is as follows: V2, SPD LIM, ECON CLB SPD/MACH, ECON CRZ MACH, ECON or 
+preset DES MACH/SPD, SPD LIM - V~APP~.
+
+In managed mode the AP and FD pitch modes can control a target SPD/MACH or a vertical trajectory, and the A/THR
+mode can control a fixed thrust or a target SPD/MACH. However, the AP/FD and the A/THR cannot
+both control a target SPD/MACH simultaneously.
+
+Therefore, the AP/FD pitch modes and A/THR mode are coordinated as follows:
+‐ If an AP/FD pitch mode controls a vertical trajectory, the A/THR mode controls the target SPD/MACH.
+‐ If an AP/FD pitch mode controls a target SPD or MACH, the A/THR mode controls the thrust.
+‐ If no AP/FD pitch mode is engaged, the A/THR mode reverts to controlling the SPD/MACH mode.
+
+| AP/FD Pitch Modes                               | A/THR Modes          |
+|-------------------------------------------------|----------------------|
+| V/S - FPA                                       | SPEED/MACH MODE      |
+| DES (geometric path)                            | SPEED/MACH MODE      |
+| ALT*, ALT, ALT CRZ*. ALT CRZ, ALT CST*, ALT CST | SPEED/MACH MODE      |
+| G/S*, G/S                                       | SPEED/MACH MODE      |   
+| FINAL. FINAL APP                                | SPEED/MACH MODE      |
+| TCAS                                            | SPEED/MACH MODE      |
+| FD/AP OFF                                       | SPEED/MACH MODE      |
+| CLB/DES (idle path)                             | THR (CLB, IDLE) MODE |
+| OP CLB/OP DES                                   | THR (CLB, IDLE) MODE |
+| EXP CLB/EXP DES                                 | THR (CLB, IDLE) MODE |
+| SRS                                             | THR (CLB, IDLE) MODE |
+| FLARE                                           | RETARD (IDLE)        |
+
+### Selected Speed/Mach Target
+To use a selected Speed/Mach target, the flight crew uses the knob on the FCU to set the target speed, which is 
+then displayed in the FCU window. It is also displayed in blue on the PFD speed scale.
+
+Selected speed has priority over managed speed. The only automatic change-over from selected to managed speed 
+target may occur at go-around mode engagement. In flight, if the situation calls for managed speed, both the PFD 
+and the MCDU display a message proposing a manual change to managed speed (for example, SET MANAGED SPEED, SET HOLD 
+SPEED, or SET GREEN DOT SPEED).
+
+The selected Speed/Mach target mode activates when:
+
+- the SPD/MACH knob is pulled
+- both AP/FDs are off
+- the next phase has a preselected speed configured in the corresponding MCDU PERF page
+- the flight management target is lost or the FMGC is powered up during flight
 
 ## Vertical Guidance Symbology
 
