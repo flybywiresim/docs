@@ -1,4 +1,4 @@
-mkdocs-material==8.2.5
+mkdocs-material==8.2.7
 mkdocs-awesome-pages-plugin
 mkdocs-git-revision-date-localized-plugin
 mkdocs-redirects
