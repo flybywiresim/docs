@@ -511,6 +511,21 @@ The selected Speed/Mach target mode activates when:
 |                           |                                                                | If vertical deviation is detected while in DES mode, continuously indicates predicted point where aircraft will intercept the descent path |
 |                           |                                                                |                                                                                                                                            |
 |        magenta dot        | Indicates the speed change symbol (magenta)                    | Point on the flight plan where the aircraft with automatically accelerate or decelerate to a new computed speed                            |
+|                           |                                                                |                                                                                                                                            |
+|           Decel           | Indicates decelerate point                                     | Predicted point on the flight plan where aircraft is predicted to decelerate for approach (and change to approach phase)                   |
+|                           |                                                                | Symbol is Magenta if managed speed and NAV / Approach mode are engaged                                                                     |
+|                           |                                                                | Symbol is White if in selected speed or HDG/TRK mode                                                                                       |
+|                           |                                                                | Automatic deceleration only when symbol is Magenta                                                                                         |
+|                           |                                                                |                                                                                                                                            |
+|         Alt cstr          | Set around a waypoint and indicates a constrained waypoint     | Symbol is Magenta indicates predicted `ALT CSTR` will be satisfied                                                                         |
+|                           |                                                                | Symbol is Amber indicates predicted `ALT CSTR` will be missed                                                                              |
+|                           |                                                                | Symbol is White indicates `ALT CSTR` is not applicable and NAV mode is engaged                                                             |
+|                           |                                                                |                                                                                                                                            |
+|         etp/hhmm          | Indicates TIME MARKER or EQUI-TIME POINT (ETP)                 | Symbol is appears in Green indicating on the flight plan where the aircraft will reach the time marker or ETP                              |
+|                           |                                                                |                                                                                                                                            |
+|       energy circle       | Indicates the ENERGY CIRCLE symbol                             | Symbol is oriented to the current track line and centered on the aircraft position                                                         |
+|                           |                                                                | Indicates Required Distance to Land                                                                                                        |
+|                           |                                                                | Displayed during descent and approach phase when selected HDG or TRK mode is engaged                                                       |
 
 ## Descent Strategy
 
