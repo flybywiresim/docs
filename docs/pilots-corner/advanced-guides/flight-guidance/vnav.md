@@ -7,9 +7,9 @@
 
 ## Overview
 
-Vertical guidance in the A320 is supporting the flight crew by providing guidance or automations for the vertical 
+Vertical guidance in the A320 supports the flight crew by providing guidance or automations for the vertical 
 flight paths during a flight. This reduces the workload of the flight crew and allows for a nearly fully automated 
-flight in combination with Lateral Guidance and Manged Speed.
+flight in combination with Lateral Guidance and Managed Speed.
 
 Vertical guidance is available for TAKEOFF, CLIMB, CRUISE, DESCENT, and APPROACH phases of the flight plan. The flight 
 planning capability lets the pilot enter published departure, arrival, and approach segments with individual pseudo
@@ -30,7 +30,7 @@ Computer (FGC) which controls the Flight Directors (FD), the Autopilots (AP), an
 !!! warning "Disclaimer"
     The level of detail in this guide is meant to provide FlyByWire A32NX users the ability to adequately use the  
     vertical navigation features of the aircraft.<p/>
-    As this is a vast and complicated topic this guide can't cover everything and additional sources and further 
+    As this is a vast and complicated topic this guide can't cover everything. Additional sources and further 
     reading is recommended to master this topic.  
 
 ## Chapters
@@ -63,7 +63,7 @@ Vertical guidance includes these modes:
 
 Find a detailed description of the modes in the sections below. 
 
-Vertical guidance interacts closely with the autothrust system and the speed control modes selected in the FCU 
+Vertical guidance interacts closely with the Autothrust system and the speed control modes selected in the FCU 
 (managed vs. selected).
 
 One of the main notable differences between Selected and Managed Vertical Guidance is that the managed mode accounts 
@@ -78,7 +78,7 @@ FCU windows display.
 Selected modes disregard all altitude constraints.
 
 ### OP CLB (Open Climb)
-The OPEN CLB mode uses the AP/FD pitch mode to maintain a SPD/MACH (selected or managed) while the autothrust (if 
+The OPEN CLB mode uses the AP/FD pitch mode to maintain a SPD/MACH (selected or managed) while the Autothrust (if 
 active) maintains maximum climb thrust.
 
 When OPEN CLB is engaged, the target speed/mach is maintained by adjusting the pitch with the
@@ -101,9 +101,9 @@ It is activated when:
 
 ### OP DES (Open Descent)
 The OPEN DES mode maintains a SPD/MACH (selected or managed) with the AP/FD pitch mode while 
-autothrust (if active) maintains IDLE thrust. It is not to be used for final approach.
+Autothrust (if active) maintains IDLE thrust. It is not to be used for final approach.
 
-When OPEN DES is engaged, pitch control maintains the target speed/Mach number, and autothrust
+When OPEN DES is engaged, pitch control maintains the target speed/Mach number, and Autothrust
 maintains idle thrust (or the flight crew maintains it manually). The speed target may be either
 selected or managed.
 
@@ -155,7 +155,7 @@ It engages automatically when:
 ‐ loss of vertical flight path in DES mode
 ‐ TCAS mode disengagement.
 
-To immediate level off the aircraft the flight crew can push the FCU V/S-FPA knob or set the V/S-FPA to 0.
+To immediately level off the aircraft the flight crew can push the FCU V/S-FPA knob or set the V/S-FPA to 0.
 
 Note: If AP is engaged while a V/S is selected with only FD ON, the V/S will synchronise on the
 current aircraft V/S.
@@ -281,7 +281,7 @@ Each descent can have the following segments:
 - Idle path segment:
     - Autothrust uses idle thrust while the AF/FD controls speed by adjusting the vertical trajectory (pitch)
 - Geometric path segment:
-    - AP/FD controls the required vertical path while autothrust controls speed.   
+    - AP/FD controls the required vertical path while Autothrust controls speed.   
 - Repressurization segment:
     - If required, this ensures a specific rate of pressurization for the cabin during descent. It is calculated 
       from the destination airport altitude and the selected cabin rate (default -350ft/min which can be modified)
@@ -313,8 +313,8 @@ During the descent, approach and landing the managed speed is equal to either:
 
 #### Initiating Decent
 Descent initiation is not started automatically in the Airbus A320.  To start the descent the flight crew sets the 
-ATC cleared altitude in to the FCU and pushes the ALT knob. If the aircraft has not yet reached the top of descent 
-point it will start descent immediately at a constant V/S until intercepting the cmputed descent path. If the 
+ATC cleared altitude into the FCU and pushes the ALT knob. If the aircraft has not yet reached the top of descent 
+point it will start descent immediately at a constant V/S until intercepting the computed descent path. If the 
 aircraft is at or beyond the top of descent point it descents at idle thrust. 
 
 After initiating the descent the aircraft shows a vertical deviation symbol (green dot) next to the altitude scale on the 
@@ -326,14 +326,12 @@ acceptable speed variations around the nominal descent speed target.
 Associated with the VDEV displayed on PFD, the ND shows an intercept point (zigzag symbol) on the flight plan. It 
 indicates the position where the system predicts that the aircraft will intercept the descent profile.
 
-
-
 See all symbols below: [Vertical Guidance Symbology](#vertical-guidance-symbology).
 
 #### Vertical Path Deviation
 If the aircraft is above the descent profile, the speed will increase toward the upper limit of the managed speed 
 range. If the speed reaches the upper limit, the aircraft will maintain the speed but will deviate from the profile 
-(autothrust at idle).
+(Autothrust at idle).
 
 The navigation display presents a pseudo waypoint (intercept point) along the flight plan that
 assumes the aircraft will return to the profile using:
@@ -424,7 +422,7 @@ The AFS provides guidance toward the latest target altitude set on the FCU.
 See or detailed guide for TCAS: [Traffic Alert and Collision Avoidance System](tcas.md)
 
 ## Speed/Mach Control
-In flight, either the AP/FD pitch control, or autothrust may acquire and hold a target speed or Mach
+In flight, either the AP/FD pitch control, or Autothrust may acquire and hold a target speed or Mach
 number, depending on the engaged modes.
 
 Speed control is:
@@ -545,7 +543,6 @@ This section will showcase a complete picture of the PFD and the ND during diffe
 
 Specific details on the symbology associated with vertical guidance can be seen in the section below:
 
-<!-- add this section later in table format -->
 [Vertical Guidance Symbology](#vertical-guidance-symbology){.md-button}
 
 ###  Primary Flight Display Indications
@@ -565,7 +562,7 @@ Specific details on the symbology associated with vertical guidance can be seen 
 !!! block ""
     ![Takeoff VNAV](../../assets/advanced-guides/vnav/takeoff-vnav.png){align=left width=50%}
 
-    This example showcases the aircraft in a managed climb after taking off from the runway. You can still see `5000` in magenta at the top of the alitude indicator however the FMA has new information.
+    This example showcases the aircraft in a managed climb after taking off from the runway. You can still see `5000` in magenta at the top of the altitude indicator however the FMA has new information.
 
     The current mode is `CLB` but the aircraft has an `ALT` armed in magenta. This means that the aircraft is ready to level off at 5000 ft and will transition to `ALT CST*`.
 
@@ -580,7 +577,7 @@ Specific details on the symbology associated with vertical guidance can be seen 
 
 #### ^^Descent^^
 
-!!! bug "TODO"
+!!! bug "TODO PFD Descent Example"
 
 - V/DEV Indication
 - Speed Range 
@@ -589,7 +586,7 @@ Specific details on the symbology associated with vertical guidance can be seen 
 
 ### Navigation Display Indications
 
-As a reminder the section [Veritcal Guidance Symbology](#vertical-guidance-symbology) contains detailed descriptions of the various symbols you'll encounter when indicated on the flight instruments.
+As a reminder the section [Vertical Guidance Symbology](#vertical-guidance-symbology) contains detailed descriptions of the various symbols you'll encounter when indicated on the flight instruments.
 
 #### ^^Departure^^
 
@@ -629,7 +626,7 @@ There are also a few **pseudo waypoints** indicated on the ND indicating differe
 
 #### ^^Descent^^
 
-!!! bug "TODO"
+!!! bug "TODO ND Descent Example"
 
 ### FMS (MCDU) PROG Page Indications
 
