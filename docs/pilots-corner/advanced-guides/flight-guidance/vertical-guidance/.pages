@@ -1,0 +1,15 @@
+# Edit this page to get:
+# - Title for the whole directory
+# - Titles for specific pages or subdirectories
+# - Order of pages (otherwise alphabetical order)
+
+title: Vertical Guidance
+nav:
+    - Overview: overview.md
+    - Selected Vertical Modes: selected-modes.md
+    - Managed Vertical Modes: managed-modes.md
+    - Speed/Mach Control: speed-control.md
+    - Navigation Display Symbols: nd-symbols.md
+    - Primary Flight Display Indications: pfd-indications.md
+    - Example Managed Flight: example.md
+    - ...
