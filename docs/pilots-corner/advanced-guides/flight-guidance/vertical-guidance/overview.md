@@ -3,6 +3,18 @@
 
 # Vertical Guidance
 
+## Chapters
+
+| Quick Links                                    |
+|:-----------------------------------------------|
+| [Vertical Modes](#vertical-modes-overview)     |
+| [Selected Vertical Modes](./selected-modes.md) |
+| [Managed Vertical Modes](./managed-modes.md)   |
+| [Speed/Mach Control](./speed-control.md)       |
+| [ND Symbols](./nd-symbols.md)                  |
+| [PFD Indications](./pfd-indications.md)        |
+| [Example Flight](./example.md)                 |
+
 ## Foreword
 Vertical Guidance in the A320 is a huge topic and it will take a lot of time to master for many sim pilots. 
 
@@ -40,19 +52,6 @@ cost index, define the vertical profile.
     general constantly and they must be able to take over the flight manually at any moment.<p/>
     Always remember Airbus' Golden Rules:<p/>
     ![img.png](../../../assets/advanced-guides/vnav/goldenrules.png)
-
-## Chapters
-
-| Quick Links                                    |
-|:-----------------------------------------------|
-| [Vertical Modes](#vertical-modes-overview)     |
-| [Selected Vertical Modes](./selected-modes.md) |
-| [Managed Vertical Modes](./managed-modes.md)   |
-| [Speed/Mach Control](./speed-control.md)       |
-| [ND Symbols](./nd-symbols.md)                  |
-| [PFD Indications](./pfd-indications.md)        |
-| [Example Flight](./example.md)                 |
-| [Descent Strategies](#descent-strategies)      |
 
 ## Vertical Modes Overview 
 
