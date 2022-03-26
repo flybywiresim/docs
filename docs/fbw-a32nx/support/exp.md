@@ -25,7 +25,7 @@ Currently experimental is geared toward testing the initial version of VNAV. Ple
 - Partial implementation of descent guidance.
 - Ability to enter winds for climb, cruise, and descent.
 
-#### Vertical Guidance Planned Implementations
+#### ^^Vertical Guidance Planned Implementations^^
 
 These features are not yet available but will be implemented at a later time.
 
@@ -37,28 +37,38 @@ These features are not yet available but will be implemented at a later time.
 ### flyPadOS Version 3 (EFB)
 
 - Completely new design
-- Improved Dashboard with flight info, customizable info section for weather, pinned charts, pinned checklists, 
-  maintenance 
-- Stateful - remembering tabs and content of pages
+- Improved Dashboard
+    - Flight info
+    - Customizable info section for weather
+    - Pinned charts
+    - Pinned checklists 
+    - Maintenance 
+- Stateful (remembers tabs and content of pages)
 - Improved ground service pages
 - Improved pushback tool
 - Improved performance calculators
-- Improved navigation charts page:
-    - Improved Navigraph chart support: Current position on chart, fullscreen mode, easier search and selection   
-    - Support for local files (PFD, images) - requires local-api server (not yet merged)
+- Improved navigation charts page
+    - Improved Navigraph chart support 
+        - Current position on chart
+        - Fullscreen mode
+        - Easier search and selection
     - Support for pinning of charts
 - Improved online ATC page
 - Improved failure support incl. categories and search
 - Interactive checklists incl. autofill and option to pin to dashboard
 - Presets for customizable lighting settings and predefined aircraft states
-- Improved settings - better structure and more configuration options
+- Improved settings (better structure and more configuration options)
 - Onscreen keyboard
-- Themes: blue, dark and light
+- Themes
+    - Blue
+    - Dark
+    - Light
 
-#### EFB Planned Implementations
+#### ^^EFB Planned Implementations^^
 
 These features are not yet available but will be implemented at a later time.
 
+- Support for local files (PFD, images) - requires local-api server (not yet merged)
 - Tooltips and built-in help
 - Improvements to pushback page
 
