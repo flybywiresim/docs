@@ -67,7 +67,7 @@ These features are not yet available but will be implemented at a later time.
 
 #### ^^EFB Planned Implementations^^
 
-These features are not yet available but will be implemented at a later time.
+These features are not yet available but are generally planned and might be implemented at a later time.
 
 - Support for local files (PFD, images) - requires local-api server (not yet merged)
 - Tooltips and built-in help
@@ -88,7 +88,7 @@ These features are not yet available but will be implemented at a later time.
 
 ### flyPadOSv3 Issues
 
-- Local Files does not work yet. Needs additional feature PR ([local-api](https://github.
+- Local files does not work yet. Needs additional feature PR ([local-api](https://github.
   com/flybywiresim/a32nx/pull/6411/){target=new})
 - Fuel page: During flight only Instant is available - buttons do not reflect this (should be greyed out)
 - Date in the top left corner shows the wrong day of the week
