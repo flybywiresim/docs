@@ -19,6 +19,8 @@ VHHH/07R SKATE1X SKATE V4 NOMAN A461 AVMUP W16 TADEL TADEL7R RPLL/06
 
 Specific details on the symbology associated with vertical guidance can be seen in the section below:
 
+!!! warning "TODO: Get STAR IMAGE"
+
 [Vertical Guidance Symbology](nd-symbols.md){loading=lazy .md-button}
 
 ##  Primary Flight Display Indications
@@ -57,7 +59,7 @@ Specific details on the symbology associated with vertical guidance can be seen 
 
 In above example we have just initiated a managed descent to FL100. There are three important things to pay attention on the PFD (from left to right):
 
-1. (indicator) shows you the targeted managed speed alongside the range within the aircraft will deviate to match the descent the profile.
+1. Shows you the targeted managed speed alongside the range the aircraft will deviate to match the descent the profile.
 - The V/DEV or "yoyo" indicator. It provides a visual indicator of how far below the descent profile from the command altitude (FL100). In this case you will notice the aircraft is far below the profile in part due to starting the descent early.
     - This can happen due to various factors such as ATC instructions.
 - When starting a descent early the aircraft will typically target a V/S -1000 ft.
@@ -160,6 +162,12 @@ When the aircraft is descending you can take note of the vertical deviation agai
     ![MCDU VDEV 2](../../../assets/advanced-guides/vnav/mcdu-vdev2.png){loading=lazy width=45% align=right}
 
 ### INIT A Winds
+
+You can find expected winds on your OFP from simBrief. Depending on the format you choose for your OFP's the location may vary. An example from the LIDO format is found after the FLIGHT LOG section.
+
+Sample Image:
+
+![Wind Info](../../../assets/advanced-guides/vnav/wind-info.png)
 
 !!! block ""
     ![MCDU INITA](../../../assets/advanced-guides/vnav/mcdu-inita.png){loading=lazy width=60% align=left}
