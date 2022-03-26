@@ -392,16 +392,18 @@ For this flight we will be taking off with a `1+F` flaps configuration.
 
     ^^ZFWCG^^
 
-    You can insert a THS value based on the ZFWCG values found in the following areas in the MCDU:
+    While not *realistic or accurate*, you can insert a THS value based on the ZFWCG values found in the following areas in the MCDU:
 
     - Auto populated when entering information in the [INIT FUEL PRED](#init-fuel-pred) page
     - ZFWCG value on the [W&B page](../../fbw-a32nx/feature-guides/loading-fuel-weight.md#load-ofp-payload-info) in the AOC Menu.
+
+    Make sure to update this value or set the correct trim once your engines have started.
 
     ---
 
     ^^After Engine Start^^
     
-    Once the engines have been started, we can use the auto-calculated GWCG on the FUEL PRED page to input a value into the THS field. You can infer the TOCG and pitch trim by referring to this value right before takeoff to confirm the pitch trim configuration for your flight.
+    Once the engines have been started, we can use the auto-calculated GWCG on the FUEL PRED page to input a value into the THS field. You can infer the TOCG and pitch trim by referring to this value right before takeoff to confirm the pitch trim configuration for your flight. However, at this time you can and should set your trim on the trim wheel.
 
     --}
 
