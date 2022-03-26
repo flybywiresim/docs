@@ -3,10 +3,8 @@
 
 # Vertical Guidance
 
-![](../../../../assets/UnderConstruction.jpg)
-
 ## Foreword
-Vertical Guidance in the A320 is a huge topic and will take a lot of time for many sim pilots to master fully. 
+Vertical Guidance in the A320 is a huge topic and will for many sim pilots take a lot of time to master fully. 
 
 Also implementing it correctly and realistically is an enormous task and the FlyByWire team will be working 
 continuously to extend and improve its implementation in the A32NX. 
@@ -15,11 +13,10 @@ Therefore, the level of detail in this guide is meant to provide FlyByWire A32NX
 the vertical navigation features of the aircraft in the simulator without overburdening the user with an extreme 
 level of detail.
 
-If you have additional questions beyond the scope of this guide do not hestitate to come to our Discord's 
-\#flight-school channel. We have many real world pilots in our community who are happy to help and answer your questions.
-
-![img.png](../../../assets/advanced-guides/vnav/goldenrules.png)
-
+If you have additional questions beyond the scope of this guide do not hesitate to come to the (
+[:fontawesome-brands-discord:{: .discord } - **FlyByWire Discord**](https://discord.gg/flybywire){target=new}) into 
+channel \#flight-school. We have many real world pilots in our community who are happy to help and answer your 
+questions.
 
 ## Overview
 
@@ -41,13 +38,9 @@ Computer (FGC) which controls the Flight Directors (FD), the Autopilots (AP), an
     reconfirmed by the flight crew with their own calculations.<p/> 
     This is especially true for indications like the **Top of Descent** which typically does not account for likely 
     ATC interventions and often lead to late descents preventing ATC from issuing approach shortcuts and may even lead to 
-    forced holds to lose altitude.
-
-!!! warning "Disclaimer"
-    The level of detail in this guide is meant to provide FlyByWire A32NX users the ability to adequately use the  
-    vertical navigation features of the aircraft.<p/>
-    As this is a vast and complicated topic this guide can't cover everything. Additional sources and further 
-    reading is recommended to master this topic.  
+    forced holds to lose altitude.<p/>
+    Always remember Airbus' Golden Rules:<p/>
+    ![img.png](../../../assets/advanced-guides/vnav/goldenrules.png)
 
 ## Chapters
 
@@ -66,15 +59,15 @@ Computer (FGC) which controls the Flight Directors (FD), the Autopilots (AP), an
 
 Vertical guidance includes these modes:
 
-| [SELECTED](selected-modes.md) | [MANAGED](./managed-modes.md) |
-|:------------------------------|:------------------------------|
-|                               | SRS (TO and GA)               |
-| OP CLB, OP DES                | CLB, DES                      |
-| ALT*, ALT                     | ALT CST*, ALT CST             |
-| EXPEDITE                      | ALT CRZ                       |
-|                               | G/S*, G/S                     |
-|                               | FINAL, FINAL APP              |
-|                               | LAND, FLARE                   |
+| [SELECTED](selected-modes.md)                                                                        | [MANAGED](./managed-modes.md)                                                                                              |
+|:-----------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------|
+|                                                                                                      | [SRS](managed-modes.md#takeoff-srs-speed-reference-system) (TO and GA)                                                     |
+| [OP CLB](selected-modes.md#op-clb-open-climb)[OP DES](selected-modes.md#op-des-open-descent)         | [CLB](managed-modes.md#clb-climb), [DES](managed-modes.md#des-descent)                                                     |
+| [ALT*](selected-modes.md#altitude-acquire-mode-alt), [ALT](selected-modes.md#altitude-hold-mode-alt) | [ALT CST*](managed-modes.md#altitude-acquire-mode-alt-cst), [ALT CST](managed-modes.md#altitude-hold-mode-alt-cst-alt-crz) |
+| [EXPEDITE](selected-modes.md#exp-expedite)                                                           | [ALT CRZ](managed-modes.md#altitude-hold-mode-alt-cst-alt-crz)                                                             |
+|                                                                                                      | [G/S*, G/S](managed-modes.md#gs-gs)                                                                                        |
+|                                                                                                      | [FINAL, FINAL APP](managed-modes.md#final--final-app)                                                                      |
+|                                                                                                      | [LAND](managed-modes.md#land), [FLARE](managed-modes.md#flare)                                                             |
 
 Find a detailed description of the modes in the sections below. 
 

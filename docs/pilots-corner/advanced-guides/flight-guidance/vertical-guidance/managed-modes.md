@@ -196,16 +196,14 @@ on the pitch axis. If the autothrust is active, thrust is automatically reduced 
 When both AP/FDs are disengaged, FLARE mode disengages. After main landing gear touchdown, the autopilot (if engaged)
 sends a nose down order.
 
-# Altitude Acquire Mode (ALT*, ALT CST^*^)
-ALT* mode guides the aircraft to acquire the FCU selected altitude.
-
+## Altitude Acquire Mode (ALT CST^*^)
 ALT CST* guides the aircraft to acquire an altitude constraint provided by Flight Management. Once the aircraft has
 reached the altitude, the altitude mode (ALT or ALT CST) engages.
 
 The mode engages when the aircraft reaches the altitude capture zone, defined by the aircraft vertical speed (among
 other parameters).
 
-# Altitude Hold Mode (ALT, ALT CST, ALT CRZ)
+## Altitude Hold Mode (ALT CST, ALT CRZ)
 The ALT mode maintains a target altitude. This target altitude is either the FCU selected altitude or an altitude
 constraint delivered by Flight Management.
 
@@ -225,7 +223,7 @@ reference in the ALT window or by a change in the barometric correction.
 When ALT is engaged, the FMA displays ALT in green (FCU altitude hold), ALT CST in green if it is an altitude
 constraint, or ALT CRZ in green if cruise flight level is held.
 
-# TCAS Mode
+## TCAS Mode
 The TCAS mode is an Auto Flight System (AFS) guidance mode that provides vertical guidance in the case of a Traffic
 Alert and Collision Avoidance System (TCAS) Resolution Advisory (RA). When a Traffic Advisory (TA) is triggered, the TCAS mode arms.
 

@@ -109,3 +109,29 @@ It is engaged manually only when
 ‐ the FCU selected altitude is higher than present altitude, EXP CLB mode engages
 ‐ the FCU selected altitude is lower than present altitude, EXP DES mode engages
 
+## Altitude Acquire Mode (ALT^*^)
+ALT* mode guides the aircraft to acquire the FCU selected altitude.
+
+The mode engages when the aircraft reaches the altitude capture zone, defined by the aircraft vertical speed (among
+other parameters).
+
+## Altitude Hold Mode (ALT)
+The ALT mode maintains a target altitude. This target altitude is either the FCU selected altitude or an altitude
+constraint delivered by Flight Management.
+
+The ALT mode arms automatically whenever the aircraft climbs or descends toward the target altitude.
+
+When ALT is armed, the FMA displays the ALT message on its second line:
+
+- Blue when the target altitude is the FCU selected altitude
+- Magenta if the target altitude is an altitude constraint.
+
+The ALT mode is engaged automatically when the difference between present altitude and the target altitude becomes
+less than 20 ft with ALT* engaged.
+
+The altitude that ALT mode holds is the altitude it memorized when engaged. It is not affected by a change of
+reference in the ALT window or by a change in the barometric correction.
+
+When ALT is engaged, the FMA displays ALT in green (FCU altitude hold), ALT CST in green if it is an altitude
+constraint, or ALT CRZ in green if cruise flight level is held.
+
