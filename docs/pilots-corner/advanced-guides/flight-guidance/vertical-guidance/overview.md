@@ -4,7 +4,7 @@
 # Vertical Guidance
 
 ## Foreword
-Vertical Guidance in the A320 is a huge topic and will for many sim pilots take a lot of time to master fully. 
+Vertical Guidance in the A320 is a huge topic and it will take a lot of time to master for many sim pilots. 
 
 Also implementing it correctly and realistically is an enormous task and the FlyByWire team will be working 
 continuously to extend and improve its implementation in the A32NX. 
@@ -20,25 +20,24 @@ questions.
 
 ## Overview
 
-Vertical guidance in the A320 supports the flight crew by providing guidance or automations for the vertical 
-flight paths during a flight. This reduces the workload of the flight crew and allows for a nearly fully automated 
-flight in combination with Lateral Guidance and Managed Speed.
+Vertical guidance in the A320 relieves the workload of the flight crew by providing guidance or automations for the 
+vertical flight paths during a flight. This adds significantly to the safety of flights and allows for a nearly 
+fully automated flight in combination with Lateral Guidance and Managed Speed.
 
-Vertical guidance is available for TAKEOFF, CLIMB, CRUISE, DESCENT, and APPROACH phases of the flight plan. The flight 
-planning capability lets the pilot enter published departure, arrival, and approach segments with individual pseudo
-waypoints that include speed/altitude constraints. These constraints, as well as the entered cruise altitude and 
-cost index, define the vertical profile.
-
-Vertical guidance is managed by the Flight Management Guidance Systems (FMGS), in particular, the Flight Guidance 
+Vertical guidance is managed by the Flight Management Guidance Systems (FMGS), in particular, the Flight Guidance
 Computer (FGC) which controls the Flight Directors (FD), the Autopilots (AP), and the Autothrust (A/THR).    
+
+Vertical guidance is available for TAKEOFF, CLIMB, CRUISE, DESCENT, and APPROACH phases of the flight plan. The flight
+planning capability lets the pilot enter published departure, arrival, and approach segments with individual pseudo
+waypoints that include speed/altitude constraints. These constraints, as well as the entered cruise altitude and
+cost index, define the vertical profile.
 
 !!! warning "Real Life and Online ATC Considerations"
     It is the sole responsibility of the pilot to conduct proper flight planning and execution. It is not sufficient 
     to solely rely on the automatic aircraft guidance and indications. All indications and guidance need to be 
-    reconfirmed by the flight crew with their own calculations.<p/> 
-    This is especially true for indications like the **Top of Descent** which typically does not account for likely 
-    ATC interventions and often lead to late descents preventing ATC from issuing approach shortcuts and may even lead to 
-    forced holds to lose altitude.<p/>
+    monitored and reconfirmed by the flight crew at all times.<p/> 
+    This is especially true for Auto Flight where the flight crew must monitor all instruments and the flight in
+    general constantly and they must be able to take over the flight manually at any moment.<p/>
     Always remember Airbus' Golden Rules:<p/>
     ![img.png](../../../assets/advanced-guides/vnav/goldenrules.png)
 
@@ -57,32 +56,36 @@ Computer (FGC) which controls the Flight Directors (FD), the Autopilots (AP), an
 
 ## Vertical Modes Overview 
 
+The vertical modes are divided into two main grouds:
+
+- Selected Vertical Modes
+- Manages Vertical Modes
+
+One of the main notable differences between Selected and Managed Vertical Guidance is that the managed mode accounts
+for altitude and speed constraints at waypoints and computes the vertical flight path accordingly. Selected mode on
+the other hand ignore any constraints from the flight plan.
+
 Vertical guidance includes these modes:
 
 | [SELECTED](selected-modes.md)                                                                        | [MANAGED](./managed-modes.md)                                                                                              |
 |:-----------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------|
 |                                                                                                      | [SRS](managed-modes.md#takeoff-srs-speed-reference-system) (TO and GA)                                                     |
-| [OP CLB](selected-modes.md#op-clb-open-climb)[OP DES](selected-modes.md#op-des-open-descent)         | [CLB](managed-modes.md#clb-climb), [DES](managed-modes.md#des-descent)                                                     |
+| [OP CLB](selected-modes.md#op-clb-open-climb), [OP DES](selected-modes.md#op-des-open-descent)       | [CLB](managed-modes.md#clb-climb), [DES](managed-modes.md#des-descent)                                                     |
 | [ALT*](selected-modes.md#altitude-acquire-mode-alt), [ALT](selected-modes.md#altitude-hold-mode-alt) | [ALT CST*](managed-modes.md#altitude-acquire-mode-alt-cst), [ALT CST](managed-modes.md#altitude-hold-mode-alt-cst-alt-crz) |
 | [EXPEDITE](selected-modes.md#exp-expedite)                                                           | [ALT CRZ](managed-modes.md#altitude-hold-mode-alt-cst-alt-crz)                                                             |
 |                                                                                                      | [G/S*, G/S](managed-modes.md#gs-gs)                                                                                        |
-|                                                                                                      | [FINAL, FINAL APP](managed-modes.md#final--final-app)                                                                      |
+|                                                                                                      | [FINAL, FINAL APP](managed-modes.md#final-final-app)                                                                       |
 |                                                                                                      | [LAND](managed-modes.md#land), [FLARE](managed-modes.md#flare)                                                             |
 
-Find a detailed description of the modes in the sections below. 
-
-Vertical guidance interacts closely with the Autothrust system and the speed control modes selected in the FCU 
+Vertical guidance interacts closely with the Autothrust system and the speed control modes selected in the FCU
 (managed vs. selected).
 
-One of the main notable differences between Selected and Managed Vertical Guidance is that the managed mode accounts 
-for altitude and speed constraints at waypoints and computes the vertical flight path accordingly. Selected mode on 
-the other hand ignore any constraints from the flight plan.
+See the [Speed/Mach Control](speed-control.md) page for more information. 
 
-## Descent Strategies
+## Additional Reading
 
-### Continuous Descent Approach (CDA)
-
-ILLUSTRATION
-Source: [Airbus](https://safetyfirst.airbus.com/control-your-speed-during-descent-approach-and-landing/)
+We recommend this excellent "Safety First" article from airbus:<br/> 
+[Control your Speed… During Descent, Approach and Landing](https://safetyfirst.airbus.
+com/control-your-speed-during-descent-approach-and-landing/){target=new}
 
 
