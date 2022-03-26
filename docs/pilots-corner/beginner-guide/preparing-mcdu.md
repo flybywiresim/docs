@@ -384,7 +384,7 @@ For this flight we will be taking off with a `1+F` flaps configuration.
 
     {--
 
-    **For the purposes of simulation** there are a couple methods to set your THS. We plan on adding a better visual representation of the TOCG at later time since loadsheets are not available.
+    **For the purposes of simulation** there are a couple methods to set the value of THS described below. We plan on adding a better visual representation of the TOCG at later time since loadsheets are not available.
 
     See the [After Engine Start](engine-start-taxi.md#after-engine-start) section to find the appropriate trim value and to physically set your trim.
 
