@@ -292,6 +292,28 @@ TEMPLATE
 
 ## Known A32NX Issues
 
+??? warning "CPDLC with Hoppie on IVAO"
+    ### CPDLC with Hoppie on IVAO
+
+    !!! warning ""
+        *Affected versions: Development*
+
+    ^^Description^^
+
+    The answer-transmission of ATC instructions cannot be sent and the DCDU shows "SYSTEM BUSY" or does not send the message. It is not possible to send answers, close or delete ATC instructions.
+
+    ^^Root Cause^^
+
+    The IVAO ATC software Aurora sends wrong message IDs in instructions. In the message handling of the A32NX this causes the wrong interpretation and association of messages.
+
+    ^^Possible Solution or Workaround^^
+
+    Do not use CPDLC on IVAO.
+
+    ^^Additional Information^^
+
+    We are working with IVAO on a bugfix.
+
 ??? warning "WX Radar Does Not Update"
     ### WX Radar Does Not Update
 
