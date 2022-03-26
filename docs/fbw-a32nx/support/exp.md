@@ -13,6 +13,8 @@ Currently experimental is geared toward testing the initial version of VNAV. Ple
 
 ## Implemented Features for Testing
 
+### Vertical Guidance
+
 - Speed and altitude predictions in the flight plan page, including magenta or amber asterisks.
 - Reworked fuel burn and time predictions in the flight plan page (no flight plan B page).
 - Pseudowaypoints in the flight plan (SPD/LIM, T/C, T/D, S/C, S/D, DECEL).
@@ -23,7 +25,7 @@ Currently experimental is geared toward testing the initial version of VNAV. Ple
 - Partial implementation of descent guidance.
 - Ability to enter winds for climb, cruise, and descent.
 
-### Planned Implementations
+#### Vertical Guidance Planned Implementations
 
 These features are not yet available but will be implemented at a later time.
 
@@ -32,7 +34,19 @@ These features are not yet available but will be implemented at a later time.
 - Constant Mach segments
 - Vertical guidance for RNAV approaches
 
+### flyPadOS Version 3 (EFB)
+
+- Add here
+
+#### EFB Planned Implementations
+
+These features are not yet available but will be implemented at a later time.
+
+- Add here
+
 ## Known Issues
+
+### Vertical Guidance Issues
 
 - LNAV does not use VNAV speed predictions yet. This means that an approach path will not be forecasted properly. Furthermore, the T/D (Top of Descent) could be misplaced, since the system expects more track miles.
 - The descent guidance does not use the speed margins properly yet. The aircraft does not speed up to catch a profile below it.
@@ -42,6 +56,10 @@ These features are not yet available but will be implemented at a later time.
 - Fuel predictions in the MCDU are not very accurate.
 - Descent guidance is sensitive to QNH changes. This is partially due to an inaccuracy in MSFS' atmospheric model.
 - Winds are not yet taken into account for all phases of flight.
+
+### flyPadOSv3 Issues
+
+- Add here
 
 ## How to Report Issues
 
