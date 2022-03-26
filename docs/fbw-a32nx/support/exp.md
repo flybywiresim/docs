@@ -36,13 +36,31 @@ These features are not yet available but will be implemented at a later time.
 
 ### flyPadOS Version 3 (EFB)
 
-- Add here
+- Completely new design
+- Improved Dashboard with flight info, customizable info section for weather, pinned charts, pinned checklists, 
+  maintenance 
+- Stateful - remembering tabs and content of pages
+- Improved ground service pages
+- Improved pushback tool
+- Improved performance calculators
+- Improved navigation charts page:
+    - Improved Navigraph chart support: Current position on chart, fullscreen mode, easier search and selection   
+    - Support for local files (PFD, images) - requires local-api server (not yet merged)
+    - Support for pinning of charts
+- Improved online ATC page
+- Improved failure support incl. categories and search
+- Interactive checklists incl. autofill and option to pin to dashboard
+- Presets for customizable lighting settings and predefined aircraft states
+- Improved settings - better structure and more configuration options
+- Onscreen keyboard
+- Themes: blue, dark and light
 
 #### EFB Planned Implementations
 
 These features are not yet available but will be implemented at a later time.
 
-- Add here
+- Tooltips and built-in help
+- Improvements to pushback page
 
 ## Known Issues
 
@@ -59,7 +77,10 @@ These features are not yet available but will be implemented at a later time.
 
 ### flyPadOSv3 Issues
 
-- Add here
+- Local Files does not work yet. Needs additional feature PR ([local-api](https://github.
+  com/flybywiresim/a32nx/pull/6411/){target=new})
+- Fuel page: During flight only Instant is available - buttons do not reflect this (should be greyed out)
+- Date in the top left corner shows the wrong day of the week
 
 ## How to Report Issues
 
@@ -71,9 +92,11 @@ These features are not yet available but will be implemented at a later time.
 !!! warning
     Please read the above Known Issues list and also use the search of Discord to see if your issue has already been reported.
 
-    At this time please only report issues via our Discord channel thread:
+    At this time please only report issues via our Discord channel threads:
 
     [cFMS LNAV+VNAV Issue Reports [NO SUPPORT]](https://discord.com/channels/738864299392630914/926586416820011098){target=new .md-button}
+
+    [flyPadOS3 Experimental - Issue Reports [NO SUPPORT]](https://discord.com/channels/738864299392630914/926586416820011098){target=new .md-button}
 
     {--
 
