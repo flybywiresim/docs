@@ -39,10 +39,11 @@ These features are not yet available but will be implemented at a later time.
 - Completely new design
 - Improved Dashboard
     - Flight info
-    - Customizable info section for weather
-    - Pinned charts
-    - Pinned checklists 
-    - Maintenance 
+    - Customizable info section for:
+        - Weather
+        - Pinned charts
+        - Pinned checklists 
+        - Maintenance 
 - Stateful (remembers tabs and content of pages)
 - Improved ground service pages
 - Improved pushback tool
