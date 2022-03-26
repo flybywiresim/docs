@@ -379,17 +379,19 @@ For this flight we will be taking off with a `1+F` flaps configuration.
     - Nose down trim of 0.4 can be inputted as `/0.4DN`
     - Nose up trim of 1.5 can be inputted as `/1.5UP`
 
+    {--
+
+    **For the purposes of simulation** once the engines have been starte, we can use the auto-calculated GWCG on the FUEL PRED page to input a value into the THS field. Since this is not accurate for real world use, you can infer the TOCG and pitch trim by referring to this value right before takeoff to confirm the pitch trim configuration for your flight.
+
+    We plan on adding a better visual representation of the TOCG at later time since loadsheets are not available.
+
+    --}
+
     For our flight today we need to set a nose down trim of 0.8, input `/0.8DN` into the scratchpad and press LSK3R.
 
     See the [After Engine Start](engine-start-taxi.md#after-engine-start) section to physically set your trim.
 
-    {--
 
-    **For the purposes of simulation** we can use the auto-calculated GWCG on the FUEL PRED page to input a value into the THS field. Since this is not accurate for real world use, you can infer the TOCG and pitch trim by referring to this value right before takeoff to confirm the pitch trim configuration for your flight.
-
-    We plan on adding a better visual representation of the TOCG at later time.
-
-    --}
 
 * Using the keypad type in `/DN0.8` and press LSK3R
 
