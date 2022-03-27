@@ -14,7 +14,7 @@
 
     <img src="https://img.shields.io/github/v/release/flybywiresim/a32nx.svg?color=2F4E5B&style=flat" /> <img src="https://img.shields.io/badge/dynamic/json?color=00848A&label=Development&query=shortSha&url=https%3A%2F%2Fapi.flybywiresim.com%2Fapi%2Fv1%2Fgit-versions%2Fflybywiresim%2Fa32nx%2Fbranches%2Fmaster&style=flat" alt="Development Version" />
 
-    FBW Installer - [Download Here](https://api.flybywiresim.com/installer){target=new}
+    FBW Installer - [Download Here](https://api.flybywiresim.com/installer){target=new} / *Latest Sim Version: 1.24.5.0*
 
 !!! warning "Read our Support Guide"
 
@@ -68,6 +68,35 @@ TEMPLATE
 ^^Additional Information^^
 
 -->
+
+??? bug "3rd Party Interior Textures - Black Screens"
+    ### 3rd Party Interior Textures Black Screens
+
+    !!! tip ""
+        *Affected versions: Development*
+    
+    ^^Description^^
+
+    3rd party interior textures mods are breaking the state of our custom instruments. This is similar to the older `panel.cfg` livery issue that created systems conflicts.
+
+    We have identified the following texture pack to be the main offender:
+
+    !!! bug ""
+        Improved Textures Mod - A32NX & A320neo | by FlightFlow
+
+    {--
+
+    Please do not install addons that modify files or overwrite files inside the `flybywire-aircraft-a320-neo` folder.
+
+    --}
+
+    ^^Root Cause^^
+
+    Conflict with our own hand crafted textures.
+
+    ^^Possible Solution or Workaround^^
+
+    Remove the offending 3rd party interior texture.
 
 ??? bug "Invisible Aircraft"
     ### Invisible Aircraft
@@ -291,6 +320,28 @@ TEMPLATE
 ---
 
 ## Known A32NX Issues
+
+??? warning "CPDLC with Hoppie on IVAO"
+    ### CPDLC with Hoppie on IVAO
+
+    !!! warning ""
+        *Affected versions: Development*
+
+    ^^Description^^
+
+    The answer-transmission of ATC instructions cannot be sent and the DCDU shows "SYSTEM BUSY" or does not send the message. It is not possible to send answers, close or delete ATC instructions.
+
+    ^^Root Cause^^
+
+    The IVAO ATC software Aurora sends wrong message IDs in instructions. In the message handling of the A32NX this causes the wrong interpretation and association of messages.
+
+    ^^Possible Solution or Workaround^^
+
+    Do not use CPDLC on IVAO.
+
+    ^^Additional Information^^
+
+    We are working with IVAO on a bugfix.
 
 ??? warning "WX Radar Does Not Update"
     ### WX Radar Does Not Update
