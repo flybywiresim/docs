@@ -14,7 +14,7 @@
 
     <img src="https://img.shields.io/github/v/release/flybywiresim/a32nx.svg?color=2F4E5B&style=flat" /> <img src="https://img.shields.io/badge/dynamic/json?color=00848A&label=Development&query=shortSha&url=https%3A%2F%2Fapi.flybywiresim.com%2Fapi%2Fv1%2Fgit-versions%2Fflybywiresim%2Fa32nx%2Fbranches%2Fmaster&style=flat" alt="Development Version" />
 
-    FBW Installer - [Download Here](https://api.flybywiresim.com/installer){target=new}
+    FBW Installer - [Download Here](https://api.flybywiresim.com/installer){target=new} / *Latest Sim Version: 1.24.5.0*
 
 !!! warning "Read our Support Guide"
 
@@ -69,19 +69,24 @@ TEMPLATE
 
 -->
 
-??? bug "3rd Party Textures - Black Screens"
-    ### 3rd Party Textures Black Screens
+??? bug "3rd Party Interior Textures - Black Screens"
+    ### 3rd Party Interior Textures Black Screens
 
     !!! tip ""
         *Affected versions: Development*
     
     ^^Description^^
 
-    3rd party textures mods are breaking the state of our custom instruments. This is similar to the older `panel.cfg` issue that created systems conflicts. 
+    3rd party interior textures mods are breaking the state of our custom instruments. This is similar to the older `panel.cfg` livery issue that created systems conflicts.
+
+    We have identified the following texture pack to be the main offender:
+
+    !!! bug ""
+        Improved Textures Mod - A32NX & A320neo | by FlightFlow
 
     {--
 
-    Please do not install addons that modify files inside the `flybywire-aircraft-a320-neo` folder.
+    Please do not install addons that modify files or overwrite files inside the `flybywire-aircraft-a320-neo` folder.
 
     --}
 
@@ -91,7 +96,7 @@ TEMPLATE
 
     ^^Possible Solution or Workaround^^
 
-    Remove the offending 3rd party texture.
+    Remove the offending 3rd party interior texture.
 
 ??? bug "Invisible Aircraft"
     ### Invisible Aircraft
