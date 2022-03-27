@@ -59,7 +59,7 @@ This guide will cover the following topics:
     - [**^^F^^**LIGHT PLAN](#flight-plan)
     - [**^^S^^**ECONDARY FLIGHT PLAN](#secondary-flight-plan)
     - [**^^R^^**AD NAV](#rad-nav)
-    - [**^^I^^**NIT B](#init-b)
+    - [**^^I^^**NIT FUEL PRED](#init-fuel-pred)
     - [**^^P^^**ERF](#perf)
 3. [A32NX simBrief Integration](#a32nx-simbrief-integration)
 
@@ -88,7 +88,7 @@ These keys are referenced below.
 
     === "Horizontal Slew Keys"
 
-        These keys scroll between certain pages i.e. `INIT A` and `INIT B` when the INIT page is selected. 
+        These keys scroll between certain pages i.e. `INIT A` and `INIT FUEL PRED` when the INIT page is selected. 
 
     === "Vertical Slew Keys"
 
@@ -107,7 +107,7 @@ Pilots commonly use the acronym above when programming the MCDU. It represents t
 - [**^^F^^**LIGHT PLAN](#flight-plan)
 - [**^^S^^**ECONDARY FLIGHT PLAN](#secondary-flight-plan)
 - [**^^R^^**AD NAV](#rad-nav)
-- [**^^I^^**NIT B](#init-b)
+- [**^^I^^**NIT FUEL PRED](#init-fuel-pred)
 - [**^^P^^**ERF](#perf)
 
 The simBrief route used in this guide - [Available Here](../assets/beginner-guide/mcdu/sample-ofp.pdf)
@@ -305,9 +305,12 @@ Remember our arrival airport/rwy is `EGCC/05R` with ILS05R having a frequency of
 
 This works much in the same way as the examples above.
 
-### **^^I^^**NIT B
+### **^^I^^**NIT FUEL PRED
 
-To navigate to the `INIT B` page we first have to select the `INIT` button. Once on `INIT A` use the horizontal slew keys to switch the page to `INIT B`.
+!!! warning "Stable Version Difference"
+    This MCDU page was previously known as INIT B. The updated Honeywell FMS now refers to this page as INIT FUEL PRED. Please be aware of these differences.
+
+To navigate to the `INIT FUEL PRED` page we first have to select the `INIT` button. Once on `INIT A` use the horizontal slew keys to switch the page to `INIT FUEL PRED`.
 
 On this page, we can input our zero fuel weight (ZFW) and zero fuel weight center of gravity (ZFWCG).
 
@@ -379,25 +382,30 @@ For this flight we will be taking off with a `1+F` flaps configuration.
     - Nose down trim of 0.4 can be inputted as `/0.4DN`
     - Nose up trim of 1.5 can be inputted as `/1.5UP`
 
-    For our flight today we need to set a nose down trim of 0.8, input `/0.8DN` into the scratchpad and press LSK3R.
-
-    See the [After Engine Start](engine-start-taxi.md#after-engine-start) section to physically set your trim.
-
     {--
 
-    **For the purposes of simulation** we can use the auto-calculated GWCG on the FUEL PRED page to input a value into the THS field. Since this is not accurate for real world use, you can infer the TOCG and pitch trim by referring to this value right before takeoff to confirm the pitch trim configuration for your flight.
+    **For the purposes of simulation** there are a couple methods to set the value of THS described below. We plan on adding a better visual representation of the TOCG at later time since loadsheets are not available.
 
-    We plan on adding a better visual representation of the TOCG at later time.
+    See the [After Engine Start](engine-start-taxi.md#after-engine-start) section to find the appropriate trim value and to physically set your trim.
+
+    ---
+
+    ^^ZFWCG^^
+
+    While not *realistic or accurate*, you can insert a THS value based on the ZFWCG values found in the following areas in the MCDU:
+
+    - Auto populated when entering information in the [INIT FUEL PRED](#init-fuel-pred) page
+    - ZFWCG value on the [W&B page](../../fbw-a32nx/feature-guides/loading-fuel-weight.md#load-ofp-payload-info) in the AOC Menu.
+
+    Make sure to update this value or set the correct trim once your engines have started.
+
+    ---
+
+    ^^After Engine Start^^
+    
+    Once the engines have been started, we can use the auto-calculated CG value (not the ZFWCG value) on the FUEL PRED page for determining the pitch trim setting. You can now update the THS setting (if you chose to input a THS value) in the take-off performance page and set the pitch trim using the trim wheel. Although the TOCG may be slightly different due to fuel being used for taxi, it will not change enough to require a change in pitch trim.
 
     --}
-
-* Using the keypad type in `/DN0.8` and press LSK3R
-
-!!! info ""
-    Other valid entries for THS include:
-
-    - With flaps setting example: `1/DN0.8`
-    - Nose up example: `/UP0.5`
 
 We can also choose to set a `FLEX TO TEMP` for the flight. The example we are using today is 60 degrees. (This will normally be calculated via a pilot's company EFB or other tools).
 
