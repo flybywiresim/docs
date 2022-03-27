@@ -403,7 +403,7 @@ For this flight we will be taking off with a `1+F` flaps configuration.
 
     ^^After Engine Start^^
     
-    Once the engines have been started, we can use the auto-calculated GWCG on the FUEL PRED page to input a value into the THS field. You can infer the TOCG and pitch trim by referring to this value right before takeoff to confirm the pitch trim configuration for your flight. However, at this time you can and should set your trim on the trim wheel.
+    Once the engines have been started, we can use the auto-calculated CG value (not the ZFWCG value) on the FUEL PRED page to use for determining the pitch trim setting. You can now update the THS setting (if you chose to input a THS value) in the take-off performance page and set the pitch trim using the trim wheel. Although the TOCG may be slightly different due to fuel being used for taxi, it will not change enough to require a change in pitch trim.
 
     --}
 
