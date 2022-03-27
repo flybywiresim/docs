@@ -86,5 +86,11 @@ We recommend this excellent "Safety First" article from airbus:<br/>
 
 ## 320 Sim Pilot Video
 
-<iframe width="790" height="447" src="https://www.youtube-nocookie.com/embed/cFPgNqoV4GQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<iframe 
+    width="790" 
+    height="480" 
+    src="https://www.youtube-nocookie.com/embed/cFPgNqoV4GQ" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen></iframe>
