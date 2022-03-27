@@ -69,6 +69,30 @@ TEMPLATE
 
 -->
 
+??? bug "3rd Party Textures - Black Screens"
+    ### 3rd Party Textures Black Screens
+
+    !!! tip ""
+        *Affected versions: Development*
+    
+    ^^Description^^
+
+    3rd party textures mods are breaking the state of our custom instruments. This is similar to the older `panel.cfg` issue that created systems conflicts. 
+
+    {--
+
+    Please do not install addons that modify files inside the `flybywire-aircraft-a320-neo` folder.
+
+    --}
+
+    ^^Root Cause^^
+
+    Conflict with our own hand crafted textures.
+
+    ^^Possible Solution or Workaround^^
+
+    Remove the offending 3rd party texture.
+
 ??? bug "Invisible Aircraft"
     ### Invisible Aircraft
 
