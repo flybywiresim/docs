@@ -7,15 +7,17 @@
 Settings for various default values of the aircraft.
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypad/flypad-settings-defaults.png" style="width: 100%; height: auto;" loading="lazy">
-    <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.3%; top:  7.7%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Dashboard</span></div></a>
-    <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 15.6%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Dispatch</span></div></a>
-    <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 23.5%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Ground</span></div></a>
-    <a href="../performance/"> <div class="imagemap" style="position: absolute; left: 1.3%; top: 31.4%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Performance</span></div></a>
-    <a href="../charts/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 39.3%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Navigation & Charts</span></div></a>
-    <a href="../online-atc/">  <div class="imagemap" style="position: absolute; left: 1.3%; top: 47.2%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Online ATC</span></div></a>
-    <a href="../failures/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 55.1%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Failures</span></div></a>
-    <a href="../settings/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 84.1%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Settings</span></div></a>
+    <img src="/fbw-a32nx/assets/flypados3/flypad-settings-defaults.png" style="width: 100%; height: auto;" loading="lazy">
+    <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
+    <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
+    <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
+    <a href="../performance/"> <div class="imagemap" style="position: absolute; left: 1.7%; top: 28.3%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Performance</span></div></a>
+    <a href="../charts/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 35.6%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Navigation & Charts</span></div></a>
+    <a href="../online-atc/">  <div class="imagemap" style="position: absolute; left: 1.7%; top: 43.0%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Online ATC</span></div></a>
+    <a href="../failures/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 50.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Failures</span></div></a>
+    <a href="../checklist/">   <div class="imagemap" style="position: absolute; left: 1.7%; top: 57.3%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Checklists</span></div></a>
+    <a href="../presets/">     <div class="imagemap" style="position: absolute; left: 1.7%; top: 64.7%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Presets</span></div></a>
+    <a href="../settings/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 85.0%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Settings</span></div></a>
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
 
@@ -33,15 +35,17 @@ Settings for various default values of the aircraft.
 Settings for A32NX aircraft configuration.
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypad/flypad-settings-aircraft-configuration.png" style="width: 100%; height: auto;" loading="lazy">
-    <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.3%; top:  7.7%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Dashboard</span></div></a>
-    <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 15.6%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Dispatch</span></div></a>
-    <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 23.5%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Ground</span></div></a>
-    <a href="../performance/"> <div class="imagemap" style="position: absolute; left: 1.3%; top: 31.4%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Performance</span></div></a>
-    <a href="../charts/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 39.3%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Navigation & Charts</span></div></a>
-    <a href="../online-atc/">  <div class="imagemap" style="position: absolute; left: 1.3%; top: 47.2%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Online ATC</span></div></a>
-    <a href="../failures/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 55.1%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Failures</span></div></a>
-    <a href="../settings/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 84.1%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Settings</span></div></a>
+    <img src="/fbw-a32nx/assets/flypados3/flypad-settings-aircraft-configuration.png" style="width: 100%; height: auto;" loading="lazy">
+    <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
+    <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
+    <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
+    <a href="../performance/"> <div class="imagemap" style="position: absolute; left: 1.7%; top: 28.3%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Performance</span></div></a>
+    <a href="../charts/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 35.6%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Navigation & Charts</span></div></a>
+    <a href="../online-atc/">  <div class="imagemap" style="position: absolute; left: 1.7%; top: 43.0%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Online ATC</span></div></a>
+    <a href="../failures/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 50.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Failures</span></div></a>
+    <a href="../checklist/">   <div class="imagemap" style="position: absolute; left: 1.7%; top: 57.3%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Checklists</span></div></a>
+    <a href="../presets/">     <div class="imagemap" style="position: absolute; left: 1.7%; top: 64.7%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Presets</span></div></a>
+    <a href="../settings/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 85.0%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Settings</span></div></a>
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
 
@@ -70,15 +74,17 @@ Settings for A32NX aircraft configuration.
 Settings for simulation aspects of the A32NX aircraft.
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypad/flypad-settings-sim-options.png" style="width: 100%; height: auto;" loading="lazy">
-    <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.3%; top:  7.7%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Dashboard</span></div></a>
-    <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 15.6%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Dispatch</span></div></a>
-    <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 23.5%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Ground</span></div></a>
-    <a href="../performance/"> <div class="imagemap" style="position: absolute; left: 1.3%; top: 31.4%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Performance</span></div></a>
-    <a href="../charts/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 39.3%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Navigation & Charts</span></div></a>
-    <a href="../online-atc/">  <div class="imagemap" style="position: absolute; left: 1.3%; top: 47.2%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Online ATC</span></div></a>
-    <a href="../failures/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 55.1%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Failures</span></div></a>
-    <a href="../settings/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 84.1%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Settings</span></div></a>
+    <img src="/fbw-a32nx/assets/flypados3/flypad-settings-sim-options.png" style="width: 100%; height: auto;" loading="lazy">
+    <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
+    <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
+    <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
+    <a href="../performance/"> <div class="imagemap" style="position: absolute; left: 1.7%; top: 28.3%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Performance</span></div></a>
+    <a href="../charts/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 35.6%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Navigation & Charts</span></div></a>
+    <a href="../online-atc/">  <div class="imagemap" style="position: absolute; left: 1.7%; top: 43.0%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Online ATC</span></div></a>
+    <a href="../failures/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 50.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Failures</span></div></a>
+    <a href="../checklist/">   <div class="imagemap" style="position: absolute; left: 1.7%; top: 57.3%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Checklists</span></div></a>
+    <a href="../presets/">     <div class="imagemap" style="position: absolute; left: 1.7%; top: 64.7%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Presets</span></div></a>
+    <a href="../settings/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 85.0%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Settings</span></div></a>
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
 
@@ -122,15 +128,17 @@ Settings for simulation aspects of the A32NX aircraft.
 Settings for realism aspects of the A32NX aircraft.
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypad/flypad-settings-realism.png" style="width: 100%; height: auto;" loading="lazy">
-    <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.3%; top:  7.7%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Dashboard</span></div></a>
-    <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 15.6%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Dispatch</span></div></a>
-    <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 23.5%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Ground</span></div></a>
-    <a href="../performance/"> <div class="imagemap" style="position: absolute; left: 1.3%; top: 31.4%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Performance</span></div></a>
-    <a href="../charts/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 39.3%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Navigation & Charts</span></div></a>
-    <a href="../online-atc/">  <div class="imagemap" style="position: absolute; left: 1.3%; top: 47.2%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Online ATC</span></div></a>
-    <a href="../failures/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 55.1%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Failures</span></div></a>
-    <a href="../settings/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 84.1%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Settings</span></div></a>
+    <img src="/fbw-a32nx/assets/flypados3/flypad-settings-realism.png" style="width: 100%; height: auto;" loading="lazy">
+    <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
+    <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
+    <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
+    <a href="../performance/"> <div class="imagemap" style="position: absolute; left: 1.7%; top: 28.3%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Performance</span></div></a>
+    <a href="../charts/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 35.6%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Navigation & Charts</span></div></a>
+    <a href="../online-atc/">  <div class="imagemap" style="position: absolute; left: 1.7%; top: 43.0%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Online ATC</span></div></a>
+    <a href="../failures/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 50.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Failures</span></div></a>
+    <a href="../checklist/">   <div class="imagemap" style="position: absolute; left: 1.7%; top: 57.3%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Checklists</span></div></a>
+    <a href="../presets/">     <div class="imagemap" style="position: absolute; left: 1.7%; top: 64.7%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Presets</span></div></a>
+    <a href="../settings/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 85.0%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Settings</span></div></a>
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
 
@@ -167,15 +175,17 @@ Settings for realism aspects of the A32NX aircraft.
 Settings for integrations with various data and information sources.
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypad/flypad-settings-atsu-aoc.png" style="width: 100%; height: auto;" loading="lazy">
-    <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.3%; top:  7.7%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Dashboard</span></div></a>
-    <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 15.6%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Dispatch</span></div></a>
-    <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 23.5%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Ground</span></div></a>
-    <a href="../performance/"> <div class="imagemap" style="position: absolute; left: 1.3%; top: 31.4%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Performance</span></div></a>
-    <a href="../charts/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 39.3%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Navigation & Charts</span></div></a>
-    <a href="../online-atc/">  <div class="imagemap" style="position: absolute; left: 1.3%; top: 47.2%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Online ATC</span></div></a>
-    <a href="../failures/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 55.1%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Failures</span></div></a>
-    <a href="../settings/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 84.1%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Settings</span></div></a>
+    <img src="/fbw-a32nx/assets/flypados3/flypad-settings-atsu-aoc.png" style="width: 100%; height: auto;" loading="lazy">
+    <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
+    <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
+    <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
+    <a href="../performance/"> <div class="imagemap" style="position: absolute; left: 1.7%; top: 28.3%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Performance</span></div></a>
+    <a href="../charts/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 35.6%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Navigation & Charts</span></div></a>
+    <a href="../online-atc/">  <div class="imagemap" style="position: absolute; left: 1.7%; top: 43.0%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Online ATC</span></div></a>
+    <a href="../failures/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 50.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Failures</span></div></a>
+    <a href="../checklist/">   <div class="imagemap" style="position: absolute; left: 1.7%; top: 57.3%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Checklists</span></div></a>
+    <a href="../presets/">     <div class="imagemap" style="position: absolute; left: 1.7%; top: 64.7%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Presets</span></div></a>
+    <a href="../settings/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 85.0%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Settings</span></div></a>
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
 
@@ -200,7 +210,7 @@ Settings for integrations with various data and information sources.
 
     - If enabled a message will be displayed to confirm sharing of the free text and position data to the public.
 
-        ![flypad-settings-atsu-aoc-telex-warning](../../assets/flypad/flypad-settings-atsu-aoc-telex-warning.png)
+        ![flypad-settings-atsu-aoc-telex-warning](../../assets/flypados3/flypad-settings-atsu-aoc-telex-warning.png)
 
 - Error Reporting
     - Enables error reports to be sent to Sentry.io to allow the FlyByWire team to easier find and fix issues with the aircraft.
@@ -217,15 +227,15 @@ Before you can use the A32NX simBrief Integration you need to provide your simBr
 - Simbrief Username/Pilot ID:
     - Enter your simBrief username or Pilot ID.
 
-        ![simBrief Account field](../../assets/flypad/simbrief-account-field.png "simBrief Account field")
+        ![simBrief Account field](../../assets/flypados3/simbrief-account-field.png "simBrief Account field")
 
     - If you entered a wrong username or Pilot ID a red error message will be displayed.
 
-        ![simBrief Account Field Error](../../assets/flypad/simbrief-account-field-error.png "simBrief Account Field Error")
+        ![simBrief Account Field Error](../../assets/flypados3/simbrief-account-field-error.png "simBrief Account Field Error")
 
 To get your simBrief username or Pilot ID you can go to your simBrief Account settings and open "Simbrief Data".
 
-![simBrief Account Data](../../assets/flypad/simbrief-account-data.png "simBrief Account Data")
+![simBrief Account Data](../../assets/flypados3/simbrief-account-data.png "simBrief Account Data")
 
 !!! attention ""
     If you use the Stable version please omit any space characters in your username. If for example your username is "Mr Pilot" the please use "MrPilot" as username.
@@ -237,15 +247,17 @@ To get your simBrief username or Pilot ID you can go to your simBrief Account se
 Settings for various audio sources and sounds.
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypad/flypad-settings-audio.png" style="width: 100%; height: auto;" loading="lazy">
-    <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.3%; top:  7.7%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Dashboard</span></div></a>
-    <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 15.6%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Dispatch</span></div></a>
-    <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 23.5%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Ground</span></div></a>
-    <a href="../performance/"> <div class="imagemap" style="position: absolute; left: 1.3%; top: 31.4%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Performance</span></div></a>
-    <a href="../charts/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 39.3%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Navigation & Charts</span></div></a>
-    <a href="../online-atc/">  <div class="imagemap" style="position: absolute; left: 1.3%; top: 47.2%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Online ATC</span></div></a>
-    <a href="../failures/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 55.1%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Failures</span></div></a>
-    <a href="../settings/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 84.1%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Settings</span></div></a>
+    <img src="/fbw-a32nx/assets/flypados3/flypad-settings-audio.png" style="width: 100%; height: auto;" loading="lazy">
+    <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
+    <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
+    <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
+    <a href="../performance/"> <div class="imagemap" style="position: absolute; left: 1.7%; top: 28.3%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Performance</span></div></a>
+    <a href="../charts/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 35.6%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Navigation & Charts</span></div></a>
+    <a href="../online-atc/">  <div class="imagemap" style="position: absolute; left: 1.7%; top: 43.0%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Online ATC</span></div></a>
+    <a href="../failures/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 50.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Failures</span></div></a>
+    <a href="../checklist/">   <div class="imagemap" style="position: absolute; left: 1.7%; top: 57.3%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Checklists</span></div></a>
+    <a href="../presets/">     <div class="imagemap" style="position: absolute; left: 1.7%; top: 64.7%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Presets</span></div></a>
+    <a href="../settings/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 85.0%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Settings</span></div></a>
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
 
@@ -269,15 +281,17 @@ For detailed information on these settings please visit:
 Settings for the flyPad itself.
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypad/flypad-settings-flypad.png" style="width: 100%; height: auto;" loading="lazy">
-    <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.3%; top:  7.7%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Dashboard</span></div></a>
-    <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 15.6%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Dispatch</span></div></a>
-    <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 23.5%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Ground</span></div></a>
-    <a href="../performance/"> <div class="imagemap" style="position: absolute; left: 1.3%; top: 31.4%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Performance</span></div></a>
-    <a href="../charts/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 39.3%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Navigation & Charts</span></div></a>
-    <a href="../online-atc/">  <div class="imagemap" style="position: absolute; left: 1.3%; top: 47.2%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Online ATC</span></div></a>
-    <a href="../failures/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 55.1%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Failures</span></div></a>
-    <a href="../settings/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 84.1%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Settings</span></div></a>
+    <img src="/fbw-a32nx/assets/flypados3/flypad-settings-flypad.png" style="width: 100%; height: auto;" loading="lazy">
+    <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
+    <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
+    <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
+    <a href="../performance/"> <div class="imagemap" style="position: absolute; left: 1.7%; top: 28.3%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Performance</span></div></a>
+    <a href="../charts/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 35.6%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Navigation & Charts</span></div></a>
+    <a href="../online-atc/">  <div class="imagemap" style="position: absolute; left: 1.7%; top: 43.0%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Online ATC</span></div></a>
+    <a href="../failures/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 50.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Failures</span></div></a>
+    <a href="../checklist/">   <div class="imagemap" style="position: absolute; left: 1.7%; top: 57.3%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Checklists</span></div></a>
+    <a href="../presets/">     <div class="imagemap" style="position: absolute; left: 1.7%; top: 64.7%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Presets</span></div></a>
+    <a href="../settings/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 85.0%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Settings</span></div></a>
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
 
@@ -295,15 +309,17 @@ Settings for the flyPad itself.
 Please see the [Throttle Configuration Guide](throttle-calibration.md) on how to use this page.
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypad/flypad-setting-throttle-calibration.png" style="width: 100%; height: auto;" loading="lazy">
-    <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.3%; top:  7.7%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Dashboard</span></div></a>
-    <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 15.6%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Dispatch</span></div></a>
-    <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 23.5%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Ground</span></div></a>
-    <a href="../performance/"> <div class="imagemap" style="position: absolute; left: 1.3%; top: 31.4%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Performance</span></div></a>
-    <a href="../charts/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 39.3%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Navigation & Charts</span></div></a>
-    <a href="../online-atc/">  <div class="imagemap" style="position: absolute; left: 1.3%; top: 47.2%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Online ATC</span></div></a>
-    <a href="../failures/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 55.1%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Failures</span></div></a>
-    <a href="../settings/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 84.1%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Settings</span></div></a>
+    <img src="/fbw-a32nx/assets/flypados3/flypad-setting-throttle-calibration.png" style="width: 100%; height: auto;" loading="lazy">
+    <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
+    <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
+    <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
+    <a href="../performance/"> <div class="imagemap" style="position: absolute; left: 1.7%; top: 28.3%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Performance</span></div></a>
+    <a href="../charts/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 35.6%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Navigation & Charts</span></div></a>
+    <a href="../online-atc/">  <div class="imagemap" style="position: absolute; left: 1.7%; top: 43.0%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Online ATC</span></div></a>
+    <a href="../failures/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 50.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Failures</span></div></a>
+    <a href="../checklist/">   <div class="imagemap" style="position: absolute; left: 1.7%; top: 57.3%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Checklists</span></div></a>
+    <a href="../presets/">     <div class="imagemap" style="position: absolute; left: 1.7%; top: 64.7%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Presets</span></div></a>
+    <a href="../settings/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 85.0%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Settings</span></div></a>
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
 

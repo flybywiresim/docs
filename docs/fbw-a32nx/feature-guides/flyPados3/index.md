@@ -3,15 +3,17 @@
 # flyPadOS 3 EFB
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypad/flypad-dashboard-menu.png" style="width: 100%; height: auto;" loading="lazy">
-    <a href="./dashboard/">   <div class="imagemap" style="position: absolute; left: 1.3%; top:  7.7%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Dashboard</span></div></a>
-    <a href="./dispatch/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 15.6%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Dispatch</span></div></a>
-    <a href="./ground/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 23.5%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Ground</span></div></a>
-    <a href="./performance/"> <div class="imagemap" style="position: absolute; left: 1.3%; top: 31.4%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Performance</span></div></a>
-    <a href="./charts/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 39.3%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Navigation & Charts</span></div></a>
-    <a href="./online-atc/">  <div class="imagemap" style="position: absolute; left: 1.3%; top: 47.2%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Online ATC</span></div></a>
-    <a href="./failures/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 55.1%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Failures</span></div></a>
-    <a href="./settings/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 84.1%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Settings</span></div></a>
+    <img src="/fbw-a32nx/assets/flypados3/flypad-dashboard-menu.png" style="width: 100%; height: auto;" loading="lazy">
+    <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
+    <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
+    <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
+    <a href="../performance/"> <div class="imagemap" style="position: absolute; left: 1.7%; top: 28.3%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Performance</span></div></a>
+    <a href="../charts/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 35.6%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Navigation & Charts</span></div></a>
+    <a href="../online-atc/">  <div class="imagemap" style="position: absolute; left: 1.7%; top: 43.0%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Online ATC</span></div></a>
+    <a href="../failures/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 50.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Failures</span></div></a>
+    <a href="../checklist/">   <div class="imagemap" style="position: absolute; left: 1.7%; top: 57.3%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Checklists</span></div></a>
+    <a href="../presets/">     <div class="imagemap" style="position: absolute; left: 1.7%; top: 64.7%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Presets</span></div></a>
+    <a href="../settings/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 85.0%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Settings</span></div></a>
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
 
@@ -34,7 +36,7 @@ The FlyByWire team is in the process of moving all aircraft settings to the EFB 
 
 This documentation takes you through all pages and functions of the flyPad EFB.
 
-![FlyByWire flyPad](../../assets/flypad/flypad-hero.png "FlyByWire flyPad")
+![FlyByWire flyPad](../../assets/flypados3/flypad-hero.png "FlyByWire flyPad")
 
 ## General Usage
 
@@ -43,11 +45,12 @@ The flyPad is organized into several pages. Links to their documentation are bel
 To **TURN ON** and **TURN OFF** the flyPad you can either:
 
 !!! block ""
-    ![Flypad on off](../../assets/flypad/flypad-on-off.png "Flypad on off"){loading=lazy align=left}
+    ![flyPad On Off](../../assets/flypados3/flypad-on-off.png){loading=lazy align=left width=50%}
 
     - To turn it on or off click on the "hardware" button on the top right of the tablet.
     - To turn it on click anywhere on the screen.
-    - To turn it off click on the battery symbol in the top right corner.
+    - To turn it off click on the On-Off symbol in the top right corner.
+    - Reset the flyPad by clicking and holding the the On-Off symbol.
 
 ## flyPad Pages
 
