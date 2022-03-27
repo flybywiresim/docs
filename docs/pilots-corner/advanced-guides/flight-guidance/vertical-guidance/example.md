@@ -187,8 +187,3 @@ To enter the examples highlighted in the image you can type:
 
 - `050/009/390` and press LSK 1L to input the FL390 winds.
 - `081/012` and press LSK 1R to input the FL100 winds. **Note:** the flight level is omitted in the entry.
-
-
-# Example Flight
-
-!!! bug "TODO: take off - press button until TOD; watch Netflix; press button again, autoland"

@@ -34,3 +34,4 @@
 |                       (Energy Circle not yet implemented in the A32NX)                       |                                                            | Indicates Required Distance to Land                                                                                                                                                |
 |                                                                                              |                                                            | Displayed during descent and approach phase when selected HDG or TRK mode is engaged                                                                                               |
 
+Also see our [Example Managed Flight](example.md) with several screenshots of the ND symbols during flight. 
