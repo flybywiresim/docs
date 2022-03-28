@@ -69,7 +69,7 @@ Example:
 ![flyPad Performance TOD Calculator](../../assets/flypados3/performance-tod-distance.png "flyPad Performance TOD Calculator"){loading=lazy}
 
 **Result: We need to start our descent 90NM before the target fix with either an average
-of ^^vertical speed of -2.333ft/min^^ or an average ^^descent angle of -2.9°^^** during the descent distance.
+of ^^vertical speed of -2.333ft/min^^ or an average ^^descent angle of -3.0°^^** during the descent distance.
 
 !!! note ""
     The above result is averaged over the descent distance and the values are approximations. For more precision use one of the other two methods.
@@ -181,6 +181,9 @@ for all the fields is descibed in the following section.
     - Subject to airport requirements that can be found on the airport chart (see example below).
 
     ![Airport Chart Information](../../assets/flypados3/performance-landing-charts-reverser.png "Airport Chart Information"){loading=lazy}
+
+- Autoland:
+    - If an autoland is planned then set this to Yes.  
 
 #### Example Chart:
 
