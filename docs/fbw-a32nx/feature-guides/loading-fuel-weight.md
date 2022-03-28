@@ -129,7 +129,7 @@ These default weights cannot be changed in the aircraft at the moment. It is pla
 
 It is possible to change these defaults by changing the simBrief airframe.
 
-To do this open your simBrief airframe on the simBrief website under "MY FLEET".
+To do this open your simBrief airframe on the simBrief website under "MY FLEET" by clicking the Edit button.
 
 ![SimBrief MyFleet Page](../assets/feature-guides/simbrief/simbrief-myfleet.png "SimBrief MyFleet Page")
 
@@ -137,7 +137,7 @@ Scroll down to find the entries for Passenger Weight and Baggage Weight.
 
 ![SimBrief Pax and Baggage Weights](../assets/feature-guides/simbrief/simbrief-pax-baggage.png "SimBrief Pax and Baggage Weights")
 
-Change the default weights as required. The A32NX will use these new values when you import an operational flight plan based on this airframe into aircraft the next time.
+Change the default weights as required and make sure you select Save Aircraft at the bottom of the page. The A32NX will use these new values the next time you import an operational flight plan based on this airframe.
 
 !!! warning "Do Not Overload the Aircraft"
     It is the responsibility of the pilot to make sure the aircraft is not overloaded and within the specified limits.
@@ -151,6 +151,11 @@ Change the default weights as required. The A32NX will use these new values when
         - MLW - empty weight - (all reserve/contingency fuel + extra fuel) , or 67400 - 42500 - (all reserve fuel/contingency/extra fuel).
     - When manually loading the payload, the MLW and MTOW limits are currently not checked and are the responsibility of the pilot.
     - Simbrief does manage payload limits by reducing the number of bags or passengers automatically. This is picked up by the aircraft correctly then.
+    
+    !!! danger ""
+        If you manually specify a custom number of passengers that exceeds aircraft weight limitations please be aware that the OFP will still reflect the user-selected number of passengers.
+
+        This is in part due to the fact that at the time when the OFP was generated, it interprets the passenger count as "booked passengers" and not current passengers on board the aircraft.
 
 ### Loading Fuel and Weight
 
