@@ -191,7 +191,6 @@ for all the fields is descibed in the following section.
 <sub>*Copyright © 2021 Navigraph / Jeppesen<br/>
 "Navigraph Charts are intended for flight simulation use only, not for navigational use."*</sub>
 
-
 #### Example 1
 
 This runway can be used for landing with the given circumstances and full flaps in all braking configurations (low, medium, max manual).
