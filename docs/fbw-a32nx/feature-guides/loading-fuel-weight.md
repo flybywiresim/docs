@@ -137,7 +137,7 @@ Scroll down to find the entries for Passenger Weight and Baggage Weight.
 
 ![SimBrief Pax and Baggage Weights](../assets/feature-guides/simbrief/simbrief-pax-baggage.png "SimBrief Pax and Baggage Weights")
 
-Change the default weights as required and make sure you select Save Aircraft at the bottom of the page. The A32NX will use these new values when you import an operational flight plan based on this airframe into aircraft the next time.
+Change the default weights as required and make sure you select Save Aircraft at the bottom of the page. The A32NX will use these new values the next time you import an operational flight plan based on this airframe.
 
 !!! warning "Do Not Overload the Aircraft"
     It is the responsibility of the pilot to make sure the aircraft is not overloaded and within the specified limits.
@@ -152,8 +152,10 @@ Change the default weights as required and make sure you select Save Aircraft at
     - When manually loading the payload, the MLW and MTOW limits are currently not checked and are the responsibility of the pilot.
     - Simbrief does manage payload limits by reducing the number of bags or passengers automatically. This is picked up by the aircraft correctly then.
     
-    !!! tip ""
-        If you manually specify a custom amount of passengers the OFP will still reflect the user-selected number of passengers. SimBrief identifies this as "booked passengers" and it will appear unmodified on the OFP. 
+    !!! danger ""
+        If you manually specify a custom number of passengers that exceeds aircraft weight limitations please be aware that the OFP will still reflect the user-selected number of passengers.
+
+        This is in part due to the fact that at the time when the OFP was generated, it interprets the passenger count as "booked passengers" and not current passengers on board the aircraft.
 
 ### Loading Fuel and Weight
 
