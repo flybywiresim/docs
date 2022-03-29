@@ -25,9 +25,7 @@ Therefore, the level of detail in this guide is meant to provide FlyByWire A32NX
 the vertical navigation features of the aircraft in the simulator without overburdening the user with an extreme 
 level of detail.
 
-If you have additional questions beyond the scope of this guide do not hesitate to come to the (
-[:fontawesome-brands-discord:{: .discord } - **FlyByWire Discord**](https://discord.gg/flybywire){target=new}) into 
-channel \#flight-school. We have many real world pilots in our community who are happy to help and answer your 
+If you have additional questions beyond the scope of this guide do not hesitate to come to the ([:fontawesome-brands-discord:{: .discord } - **FlyByWire Discord**](https://discord.gg/flybywire){target=new}) and visit our #flight-school channel. We have many real world pilots in our community who are happy to help and answer your 
 questions.
 
 ## Overview
@@ -55,7 +53,7 @@ cost index, define the vertical profile.
 
 ## Vertical Modes Overview 
 
-The vertical modes are divided into two main grouds:
+The vertical modes are divided into two main modes:
 
 - Selected Vertical Modes
 - Manages Vertical Modes
