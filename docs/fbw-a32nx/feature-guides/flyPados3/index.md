@@ -48,9 +48,10 @@ To **TURN ON** and **TURN OFF** the flyPad you can either:
     ![flyPad On Off](../../assets/flypados3/flypad-on-off.png){loading=lazy align=left width=50%}
 
     - To turn it on or off click on the "hardware" button on the top right of the tablet.
+        - Turning it off via this "hardware" button will aslo reset the tablet. 
     - To turn it on click anywhere on the screen.
-    - To turn it off click on the On-Off symbol in the top right corner.
-    - Reset the flyPad by clicking and holding the the On-Off symbol.
+    - To turn it off (standby) click on the On-Off symbol in the top right corner.
+    - Turn off and reset the flyPad by clicking and holding the the On-Off symbol.
 
 ## flyPad Pages
 
