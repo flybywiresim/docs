@@ -63,6 +63,14 @@ We have applied a helpful coloring scheme a large European airline uses to point
 - Red: highlights very significant values as a warning to the pilot
 - Grey: additional information and remarks
 
+### Pinned Charts Widget
+
+![img_4.png](../../assets/flypados3/pinned-charts-widget.png)
+
+### Checklist and Maintenance Widget
+
+![img_5.png](../../assets/flypados3/checklist-maintenance-widget.png)
+
 ### Load From simBrief
 
 ![From simBrief](../../assets/flypados3/load-from-simbrief.png)
