@@ -1,7 +1,5 @@
 # Example Managed Flight
 
-## Indications in Flight Instruments
-
 This section will showcase a complete picture of the PFD and the ND during different flight phases to help pilots understand what might be seen when climbing or descending in managed modes. It will be based on the following routing:
 
 ```title="Sample Routing"
@@ -17,11 +15,16 @@ VHHH/07R SKATE1X SKATE V4 NOMAN A461 AVMUP W16 TADEL TADEL7R RPLL/06
 <sub>*Copyright © 2021 Navigraph / Jeppesen<br/>
 "Navigraph Charts are intended for flight simulation use only, not for navigational use."*
 
+`TADE7R` arrival into RWY 06 at RPLL
+
+![Navigraph Star Chart](../../../assets/advanced-guides/vnav/navigraph-sample2.png){loading=lazy width=90%}
+
+<sub>*Copyright © 2021 Navigraph / Jeppesen<br/>
+"Navigraph Charts are intended for flight simulation use only, not for navigational use."*
+
 Specific details on the symbology associated with vertical guidance can be seen in the section below:
 
-!!! warning "TODO: Get STAR IMAGE"
-
-[Vertical Guidance Symbology](nd-symbols.md){loading=lazy .md-button}
+[Navigation Display Symbols](nd-symbols.md){loading=lazy .md-button}
 
 ##  Primary Flight Display Indications
 
@@ -72,7 +75,7 @@ As we catch up to the profile you will notice the V/DEV indicator shift and matc
 
 ## Navigation Display Indications
 
-As a reminder the section [Vertical Guidance Symbology](nd-symbols.md) contains detailed descriptions of the various symbols you'll encounter when indicated on the flight instruments.
+As a reminder the section [Navigation Display Symbols](nd-symbols.md) contains detailed descriptions of the various symbols you'll encounter when indicated on the flight instruments.
 
 ### ^^Departure^^
 
@@ -108,7 +111,9 @@ There are also a few **pseudo waypoints** indicated on the ND indicating differe
 
     - The solid <span style=color:magenta>magenta dot</span> inidcating our aircraft will increase speed to 250 kts as we climb out of 7000 ft.
     - The <span style=color:cyan>cyan arrow</span> indicating the point where the FCU commanded altitude (in our case FL170) will be reached.
-        - **Note:** This pseudo waypoint can shift as various flight conditions affect climb performance.
+
+!!! tip ""
+    **Note:** The top of climb pseudo waypoint can shift as various flight conditions affect climb performance.
 
 ### ^^Descent^^
 
