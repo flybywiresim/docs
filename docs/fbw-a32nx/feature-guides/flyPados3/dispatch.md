@@ -2,10 +2,6 @@
 
 # flyPad Dispatch
 
-## Overview Page
-
-This page provides information about the aircraft. It has no further functionality at this time.
-
 <div style="position: relative;">
     <img src="/fbw-a32nx/assets/flypados3/flypad-dispatch-overview.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
@@ -21,6 +17,9 @@ This page provides information about the aircraft. It has no further functionali
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
 
+## Overview Page
+
+This page provides information about the aircraft. It has no further functionality at this time.
 
 ## OFP Page
 

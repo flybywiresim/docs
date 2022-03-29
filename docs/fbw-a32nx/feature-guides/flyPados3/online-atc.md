@@ -2,12 +2,6 @@
 
 # flyPad Online ATC
 
-## Description
-
-The FlyByWire flyPad helps pilots managing the communication frequencies when using Online ATC services like VATSIM or IVAO.
-
-It lists all currently available ATC stations which can then be activated in the RMP 1 by a single click.
-
 <div style="position: relative;">
     <img src="/fbw-a32nx/assets/flypados3/flypad-online-atc-vatsim.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
@@ -22,6 +16,12 @@ It lists all currently available ATC stations which can then be activated in the
     <a href="../settings/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 85.0%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Settings</span></div></a>
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
+
+## Description
+
+The FlyByWire flyPad helps pilots managing the communication frequencies when using Online ATC services like VATSIM or IVAO.
+
+It lists all currently available ATC stations which can then be activated in the RMP 1 by a single click.
 
 ## Usage
 
