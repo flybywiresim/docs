@@ -231,7 +231,7 @@ We can in any case request the METAR weather information for the destination air
 
 If we used Simbrief for flight planning we can also see METAR information on the flyPad after importing the Simbrief plan to the flyPad.
 
-![flyPad showing route, weather and map](../assets/beginner-guide/descent/FlyPad-Weather.png "flyPad showing route, weather and map"){loading=lazy}
+![flyPad showing weather](../../fbw-a32nx/assets/flypados3/weather-widget-input.png){loading=lazy}
 
 Once we have confirmed the destination runway and the destination data we are set for the approach and we can continue focus on the descent.
 
