@@ -159,15 +159,15 @@ If the tests are successful please move to the next chapter. Otherwise go throug
 ### 1. flyPad Calibration Page
 
 ??? note "Where Is the Throttle Configuration?"
-
     Open the flyPad (maybe pop it out to a separate window next to the throttle with ++ralt+left-button++) and go to **Sim Options (Tab)** -> **Calibrate**.
-
-    ![flyPad-Settings](../../assets/flypados3/throttle-calibration/flyPad-Settings.jpg "flyPad-Settings"){loading=lazy}
-
-    ![EFB-Calibrate](../../assets/flypados3/throttle-calibration/EFB-Calibrate.jpg "EFB-Calibrate"){loading=lazy}
-
+    <p/>
+    ![flyPad-Settings](../../assets/flypados3/throttle-calibration/flyPad-Settings.png "flyPad-Settings"){loading=lazy}
+    <p/>
+    ![Sim Options](../../assets/flypados3/throttle-calibration/flypad-simoptions-highlighted.png){loading=lazy}
+    ![EFB-Calibrate](../../assets/flypados3/throttle-calibration/flypad-calibrate.png){loading=lazy}
+    <p/>
     Throttle Calibration Page:
-
+    <p/>
     ![EFB-Calibration-Page](../../assets/flypados3/throttle-calibration/efb-calibration-page1.png "EFB-Calibration-Page"){loading=lazy}
 
 ### 2. Setup Your Controller Characteristics
@@ -224,21 +224,21 @@ We start the detent calibration with the lowest throttle setting.
 ??? note "How to Calibrate: Controllers With Reverser on Axis"
     For controllers with Reverser the lowest setting is `Full Reverse`.
     Pull your controller levers all the way back into the `Full Reverse` position.
-
+    <p/>
     ![Full Reverse Position](../../assets/flypados3/throttle-calibration/full-reverse.png "Full Reverse Position"){loading=lazy}
-
+    <p/>
     The "Current Value" should be close to -1.0.
-
+    <p/>
     {== Press "Set From Throttle" on both sides. ==}
 
 ??? note "How to Calibrate: Controllers Without Reverser on Axis"
     For controllers without Reverser the lowest setting is `IDLE`.
     Pull your controller levers all the way back into the `IDLE` position.
-
+    <p/>
     ![Idle Position](../../assets/flypados3/throttle-calibration/idle.png "Idle Position"){loading=lazy}
-
+    <p/>
     The "Current Value" should be close to -1.0.
-
+    <p/>
     {== Press "Set From Throttle" on both sides. ==}
 
 ### 5. Go Through All Detents
@@ -268,11 +268,10 @@ Click on "Save & Apply".
 ### 7. Test
 
 ??? tip "How to Test Calibration"
-
     Test each setting with a view like this. Make sure the mouse is outside the popout window otherwise the aircraft's throttles won't move.
-
-    ![Test-view](../../assets/flypados3/throttle-calibration/Test-view.jpg "Test-view"){loading=lazy}
-
+    <p/>
+    ![Test-view](../../assets/flypados3/throttle-calibration/Test-view.png "Test-view"){loading=lazy}
+    <p/>
     Do a short test flight to confirm that all detents work as expected and also that reversers work as expected.
 
 ---
@@ -633,7 +632,7 @@ One of the most common issues is overlapping detents. Especially when coming fro
 
 **You can't Save and/or Apply** while this error message is shown!
 
-![EFB-Overlapping-Detents](../../assets/flypados3/throttle-calibration/EFB-Overlapping-Detents.jpg "EFB-Overlapping-Detents"){loading=lazy}
+![EFB-Overlapping-Detents](../../assets/flypados3/throttle-calibration/EFB-Overlapping-Detents.png "EFB-Overlapping-Detents"){loading=lazy}
 
 This can easily be fixed by carefully following the steps [above](#4-start-with-full-reverser-or-idle) which will remove the error message which then in turn allows to `SAVE & APPLY`.
 
