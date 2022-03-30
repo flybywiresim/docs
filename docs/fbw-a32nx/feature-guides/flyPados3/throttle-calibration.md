@@ -291,7 +291,7 @@ Click on "Save & Apply".
 
         Throttle Calibration Page:
 
-        ![EFB-Calibration-Page](../../assets/flypados3/throttle-calibration/EFB-Calibration-Page.jpg "EFB-Calibration-Page"){loading=lazy}
+        ![EFB-Calibration-Page](../../assets/flypados3/throttle-calibration/flypad-calibration-page.jpg "EFB-Calibration-Page"){loading=lazy}
 
     - Set **`Reverser on Axis`**  to ON (see **1** in image).
 
@@ -364,7 +364,7 @@ Click on "Save & Apply".
 
     - Test each setting with a view like this. Make sure the mouse is outside the popout window otherwise the aircraft's throttles won't move.
 
-        ![Test-view](../../assets/flypados3/throttle-calibration/Test-view.jpg "Test-view"){loading=lazy}
+        ![Test-view](../../assets/flypados3/throttle-calibration/Test-view.png "Test-view"){loading=lazy}
 
     **Congratulations! You have successfully calibrated your TCA Throttle!**
 
@@ -390,7 +390,7 @@ Click on "Save & Apply".
 
     - Go to the flyPad Throttle Calibration page
 
-        ![EFB-Throttle-Calibration-Page](../../assets/flypados3/throttle-calibration/EFB-Calibration-Page2.png "EFB-Throttle-Calibration-Page"){loading=lazy}
+        ![EFB-Throttle-Calibration-Page](../../assets/flypados3/throttle-calibration/flypad-calibration-page2.png "EFB-Throttle-Calibration-Page"){loading=lazy}
 
     - As this throttle has no reverse and only one real axis, set the `Reverser on Axis` to OFF **(1)** and also the `Independent Axis` to OFF **(2)**
 
@@ -402,7 +402,7 @@ Click on "Save & Apply".
 
     - For the detents CL, FLX and TO GA you can increase the dead zone to make it easier to move your throttle into the detents.
 
-        ![EFB-CLB-Detent](../../assets/flypados3/throttle-calibration/EFB-CLB-Detent.png "EFB-CLB-Detent"){loading=lazy}
+        ![EFB-CLB-Detent](../../assets/flypados3/throttle-calibration/flypad-clb-detent.png "EFB-CLB-Detent"){loading=lazy}
 
         In this example we have set the dead zone to 0.25 on either side of the actual setting. For FLX and TO GA you can use 0.10 or 0.15.
 
@@ -487,7 +487,7 @@ Click on "Save & Apply".
 
     - As this throttle has no reverser on the axis, set the `Reverser on Axis` to OFF but set `Independent Axis` to ON.
 
-        ![EFB-Throttle-Calibration-Page](../../assets/flypados3/throttle-calibration/EFB-Calibration-Page3.png "EFB-Throttle-Calibration-Page"){loading=lazy}
+        ![EFB-Throttle-Calibration-Page](../../assets/flypados3/throttle-calibration/flypad-calibration-page3.png "EFB-Throttle-Calibration-Page"){loading=lazy}
 
     - Move the throttle all the way back to idle.
 
@@ -495,7 +495,7 @@ Click on "Save & Apply".
 
     - For the detents CL, FLX and TO GA you can increase the dead zone to make it easier to move your throttle into the detents.
 
-        ![EFB-CLB-Detent](../../assets/flypados3/throttle-calibration/EFB-CLB-Detent.png "EFB-CLB-Detent"){loading=lazy}
+        ![EFB-CLB-Detent](../../assets/flypados3/throttle-calibration/flypad-clb-detent.png "EFB-CLB-Detent"){loading=lazy}
 
         In this example we have set the dead zone to 0.25 on either side of the actual setting. For FLX and TO GA you can use 0.10 or 0.15.
 
