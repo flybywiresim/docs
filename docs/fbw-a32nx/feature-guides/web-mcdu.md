@@ -54,12 +54,13 @@ A setting in the fylPad EFB Sim Options page has been introduced to allow users 
 
 The three settings are:
 
-- Auto On:
-    - The MCDU attempts to connect to the MCDU Server for 5min after pressing "Ready to Fly".
+- Auto:
+    - The MCDU attempts to connect to the MCDU Server for 5min after pressing "Ready to Fly" (`Active` is shown).
     - If this setting is selected the MCDU will try to connect to the MCDU Server for 5min after every start of a new flight.
-- Auto Off:
-    - After 5min of unsuccessful connection attempts the MCDU will stop any further attempts and this setting will be automatically set.
-- Perm Off:
+    - After 5min of unsuccessful connection attempts the MCDU will stop any further attempts and `Inactive` will be 
+      shown.
+    - If `Inactive` is shown but you want to connect to the MCDU server just click on `Off` and then `Auto` again. 
+- Off:
     - The MCDU will not make any attempts to connect to the MCDU Server.
 
 ### Browser on Local PC
