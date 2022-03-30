@@ -2,12 +2,33 @@
 
 # flyPad Settings
 
-## Defaults
+<div style="position: relative;">
+    <img src="/fbw-a32nx/assets/flypados3/flypad-settings-overview.png" style="width: 100%; height: auto;" loading="lazy">
+    <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
+    <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
+    <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
+    <a href="../performance/"> <div class="imagemap" style="position: absolute; left: 1.7%; top: 28.3%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Performance</span></div></a>
+    <a href="../charts/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 35.6%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Navigation & Charts</span></div></a>
+    <a href="../online-atc/">  <div class="imagemap" style="position: absolute; left: 1.7%; top: 43.0%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Online ATC</span></div></a>
+    <a href="../failures/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 50.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Failures</span></div></a>
+    <a href="../checklists/">  <div class="imagemap" style="position: absolute; left: 1.7%; top: 57.3%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Checklists</span></div></a>
+    <a href="../presets/">     <div class="imagemap" style="position: absolute; left: 1.7%; top: 64.7%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Presets</span></div></a>
+    <a href="../settings/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 85.0%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Settings</span></div></a>
+    <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
+</div>
 
-Settings for various default values of the aircraft.
+## Overview
+
+There are various aspects of the aircraft and its simulation which can and sometimes must be configured. 
+
+Find a descriptions of all available setting categories and its settings below. 
+
+## Aircraft Options / Pin Programs
+
+Settings for A32NX aircraft configuration.
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypados3/flypad-settings-defaults.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/fbw-a32nx/assets/flypados3/flypad-settings-aircraft-configuration.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
@@ -29,28 +50,6 @@ Settings for various default values of the aircraft.
     - Default for the MCDU setting for acceleration height (above ground).
 - Engine-Out Acceleration Height (ft):
     - Default for the MCDU setting for engine-out acceleration height (above ground).
-
-## Aircraft Configuration
-
-Settings for A32NX aircraft configuration.
-
-<div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypados3/flypad-settings-aircraft-configuration.png" style="width: 100%; height: auto;" loading="lazy">
-    <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
-    <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
-    <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
-    <a href="../performance/"> <div class="imagemap" style="position: absolute; left: 1.7%; top: 28.3%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Performance</span></div></a>
-    <a href="../charts/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 35.6%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Navigation & Charts</span></div></a>
-    <a href="../online-atc/">  <div class="imagemap" style="position: absolute; left: 1.7%; top: 43.0%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Online ATC</span></div></a>
-    <a href="../failures/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 50.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Failures</span></div></a>
-    <a href="../checklists/">  <div class="imagemap" style="position: absolute; left: 1.7%; top: 57.3%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Checklists</span></div></a>
-    <a href="../presets/">     <div class="imagemap" style="position: absolute; left: 1.7%; top: 64.7%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Presets</span></div></a>
-    <a href="../settings/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 85.0%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Settings</span></div></a>
-    <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
-</div>
-
-### Usage
-
 - Weight Unit:
     - The weight unit of the aircraft used for aircraft weight, fuel and simBrief imports.
 - PAX Signs:
@@ -91,7 +90,8 @@ Settings for simulation aspects of the A32NX aircraft.
 ### Usage
 
 - Default Baro:
-    - User can set which baro setting he wants to have as a default: inHg, hPA or Auto (depends on the airport where the aircraft spawned).
+    - User can set which baro setting is wanted as a default: inHg, hPA or Auto (depends on the airport where 
+      the aircraft spawned).
 - Sync MSFS Flight Plan:
     - User can set if and how the flight plan synchronization between the simulator and the aircraft should work.
     - The options are:
@@ -102,8 +102,6 @@ Settings for simulation aspects of the A32NX aircraft.
         !!! warning "Synchronization Issues Expected"
             The aircraft's custom Flight Management System provides better accuracy and features over the default flight plan manager in Microsoft Flight simulator which results in issues syncing the flight plan from the MCDU back into the simulator. Do not expect it to work properly in all cases.
  
-- Dynamic Registration Decal:
-    - The dynamic registration number decal shown on the external livery can be disabled to improve appearance when using liveries with a static registration number.
 - External MCDU Server Port
     - User can change the port for the internal MCDU websocket server in case the default port is already occupied on the user's system.
     - Default is: 8380
@@ -116,12 +114,14 @@ Settings for simulation aspects of the A32NX aircraft.
         - After 5min of unsuccessful connection attempts the MCDU will stop any further attempts and this setting will be automatically set.
     - Perm Off:
         - The MCDU will not make any attempts to connect to the MCDU Server.
+- Dynamic Registration Decal:
+    - The dynamic registration number decal shown on the external livery can be disabled to improve appearance when using liveries with a static registration number.
 - Use calculated ILS signals
     - Enable this setting to use a calculated ILS signal instead of the signal provided by Microsoft Flight Simulator.
     - This avoids unwanted and unrealistic loss of the ILS signal in Microsoft Flight Simulator which often happens when the aircraft gets below the antenna position.
     - In some rare cases this can cause a faulty G/S signal. In this case this setting can be disabled with immediate effect.
-- Detents
-    - See [Throttle Configuration](throttle-calibration.md).
+- Throttle Detents
+    - Please see the [Throttle Configuration Guide](throttle-calibration.md).
 
 ## Realism
 
@@ -161,7 +161,7 @@ Settings for realism aspects of the A32NX aircraft.
         - Legacy mode (Disabled): Rudder controls also move the nose wheel. No separation.
         - Realistic mode (Enabled): Nose Wheel steering with tiller handwheel is separate from the rudder.
             - See our guide: [Nose Wheel and Tiller Operation](../nw-tiller.md)
-- Home Cockpit Mode
+- Cockpit Mode
     - Removes backlight bleed from PFD, ND, and ECAMs
     - Removes reflection from the ISIS
 - DATALINK transmission time
@@ -169,6 +169,9 @@ Settings for realism aspects of the A32NX aircraft.
     - Fast: sends and receives messages within twenty seconds
     - Real: sends and receives messages within sixty seconds
     - See [Hoppie ACARS](../hoppie.md)
+- Autofill Checklists
+    - Supports the user with checking items from the checklists by watching the corresponding switches, knobs and 
+      buttons and setting the checklist item to complete when the setup is correct.  
 
 ## ATSU/AOC
 
@@ -194,7 +197,7 @@ Settings for integrations with various data and information sources.
 - ATIS/ATC Source:
     - Choose which Online ATC service should be used for ATIS and ATC.
 - METAR Source:
-    - Choose which weather data provider should be used (MCDU only - does not change sim weather).
+    - Choose which weather data provider should be used (Aircraft only - does not change sim weather).
     - MeteoBlue is the weather service the sim uses as well.
 - TAF Source:
     - Choose which Terminal Area Forecast (TAF) service should be used.
@@ -212,13 +215,15 @@ Settings for integrations with various data and information sources.
 
         ![flypad-settings-atsu-aoc-telex-warning](../../assets/flypados3/flypad-settings-atsu-aoc-telex-warning.png)
 
-- Error Reporting
-    - Enables error reports to be sent to Sentry.io to allow the FlyByWire team to easier find and fix issues with the aircraft.
 - Simbrief Username/Pilot ID
     - See [next chapter](#simbrief-integration.)
+- Automatically Import SimBrief Data
+    - Imports latest SimBrief flight automatically when starting the flyPad.   
 - Hoppie User ID:
     - Unique logon code that is used to identify the user for the Hoppie ACARS communication.
     - See [Create a logon code](../hoppie.md#create-a-logon-code) in our documentation for Hoppie ACARS.
+- Error Reporting
+    - Enables error reports to be sent to Sentry.io to allow the FlyByWire team to easier find and fix issues with the aircraft.
 
 ### simBrief Integration
 
@@ -261,16 +266,17 @@ Settings for various audio sources and sounds.
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
 
-- Toggle ON/OFF - PTU Audible in Cockpit (unrealistic)
-
-- Volume Sliders
-    - Dynamically adjust various audio elements while in the virtual cockpit  
-
-- Toggle ON/OFF - Various Passenger Ambience Sounds
-
-- Toggle ON/OFF - Announcements in Flight
-
-- Toggle ON/OFF - Boarding Music
+- PTU Audible in Cockpit (unrealistic):
+    - The aircraft's PTU sound (barking sound) is not audible in the cockpit in the real aircraft.
+    - To make it audible in the cockpit set this option to on.
+- Volume Sliders:
+    - Dynamically adjust various audio elements while in the virtual cockpit.  
+- Passenger Ambience:
+    - Select if passenger audio sounds should be played.  
+- Announcements:
+    - Select if crew announcements should be played.
+- Boarding Music:
+    - Select if music should be played while boarding. 
 
 For detailed information on these settings please visit:
 
@@ -301,15 +307,26 @@ Settings for the flyPad itself.
     - Manually set brightness of the flyPad
 - Auto Brightness:
     - Sets the brightness of the flyPad automatically based on the time of day.
+- Theme:
+    - Select which coloring theme the flyPad should have.
+- Automatically Show Onscreen Keyboard:
+    - A virtual keyboard will appear whenever an input field is entered by the user. 
+- Time Displayed:
+    - Select which time should be displayed in the top bar of the flyPad screens.  
+- Local Time Format:
+    - Select if local time should be shown in 12 or 24 hours format. 
+- Show Status Bar Flight Progress:
+    - Select if the progress of the flight shall be shown in the top status of the flyPad screen.
 - Colored Metar:
     - Enable or disable the colored raw METAR on the flyPad Dashboard.
 
-## Throttle Configuration
+### About
 
-Please see the [Throttle Configuration Guide](throttle-calibration.md) on how to use this page.
+The About page provides the build information which is sometimes requested when seeking support on the FlyByWire 
+Discord.
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypados3/flypad-setting-throttle-calibration.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/fbw-a32nx/assets/flypados3/flypad-settings-about.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
@@ -322,4 +339,3 @@ Please see the [Throttle Configuration Guide](throttle-calibration.md) on how to
     <a href="../settings/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 85.0%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Settings</span></div></a>
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
-
