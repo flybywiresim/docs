@@ -51,12 +51,15 @@ For convenience, here is a copy of the
 ## Bandit / Racoon mask.
 The bandit/racoon mask is disabled by default.
 To enable the mask, in any color of your choice, use the `DECALS_BANDIT_WINDOW_ALBD.PNG.DDS` texture and fill the 
-associated square referenced in the [UV map legend](https://user-images.githubusercontent.com/433429/160307120-ce74ee62-8cb9-4c03-9d37-796a411b4863.png). (Note that the UV legend is 1024x1024, for readability, while the real texture only is 64x64)
+associated square referenced in the [UV map legend](assets/textures/uv-map-legend.png).
+
+Note that the UV legend is 1024x1024, for readability, while the real texture only is 64x64.
 
 ## Elevator trim scale
 The fill and outline color or the elevator trim scale, is configured in the `DECALS_BANDIT_WINDOW_ALBD.PNG.DDS` texture.
-See [UV map legend](https://user-images.githubusercontent.com/433429/160307120-ce74ee62-8cb9-4c03-9d37-796a411b4863.png)
-for reference. (Note that the UV legend is 1024x1024, for readability, while the real texture only is 64x64)
+See the [UV map legend](assets/textures/uv-map-legend.png) for reference. 
+
+Note that the UV legend is 1024x1024, for readability, while the real texture only is 64x64.
 
 ## Logo / sticker / alliance decal
 We have added a mesh between the fwd doors and the cockpit, to ease with high quality logos, stickers, etc.
