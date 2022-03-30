@@ -119,6 +119,16 @@ Settings for simulation aspects of the A32NX aircraft.
     - User can change the port for the internal MCDU websocket server in case the default port is already occupied on the user's system.
     - Default is: 8380
     - ~~This is not the port for using in the browser to access the MCDU Web Interface.~~
+- Enable MCDU Server Connection
+    - Auto:
+        - The MCDU attempts to connect to the MCDU Server for 5min after pressing "Ready to Fly" (`Active` is shown).
+        - If this setting is selected the MCDU will try to connect to the MCDU Server for 5min after every start of 
+           a new flight.
+        - After 5min of unsuccessful connection attempts the MCDU will stop any further attempts and `Inactive` will be
+          shown.
+        - If `Inactive` is shown but you want to connect to the MCDU server just click on `Off` and then `Auto` again.
+    - Off:
+        - The MCDU will not make any attempts to connect to the MCDU Server.
 - Dynamic Registration Decal:
     - The dynamic registration number decal shown on the external livery can be disabled to improve appearance when using liveries with a static registration number.
 - Use calculated ILS signals
