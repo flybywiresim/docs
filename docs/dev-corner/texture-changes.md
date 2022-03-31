@@ -45,4 +45,26 @@ If you are the author of a livery that needs individual texturing of these hinge
 - Add a new *512x512px* texture called `DECALS_DOOR_CARGO_HINGES_ALBD.PNG.DDS` to your livery.
 - We provide a `DECALS_DOOR_CARGO_HINGES_COMP.PNG.DDS`, but this could also be replaced if needed.
 
-For convenience, here is a copy of the [cargo door UV Map](assets/a32nx-dev/cargo-door-uv.png){target=new} that can be added as a layer in your workflow.
+For convenience, here is a copy of the 
+[cargo door UV Map](assets/a32nx-dev/cargo-door-uv.png){target=new} that can be added as a layer in your workflow.
+
+## Bandit / Racoon mask.
+The bandit/racoon mask is disabled by default.
+To enable the mask, in any color of your choice, use the `DECALS_BANDIT_WINDOW_ALBD.PNG.DDS` texture and fill the 
+associated square referenced in the [UV map legend](assets/textures/uv-map-legend.png).
+
+Note that the UV legend is 1024x1024, for readability, while the real texture only is 64x64.
+
+## Elevator trim scale
+The fill and outline color of the elevator trim scale, is configured in the `DECALS_BANDIT_WINDOW_ALBD.PNG.DDS` texture.
+See the [UV map legend](assets/textures/uv-map-legend.png) for reference. 
+
+Note that the UV legend is 1024x1024, for readability, while the real texture only is 64x64.
+
+## Logo / sticker / alliance decal
+We have added a mesh between the forward doors and the cockpit, to ease with high quality logos, stickers, etc.
+The texture for logo / stickers / alliance is transparent by default.
+To enable this texture, add a 2048x2048 `DECAL_LOGO_FRONT_COMP.PNG.DDS` texture and add your graphics in the 
+associated square referenced in the image below. 
+
+![](assets/textures/logo-mesh.png)
