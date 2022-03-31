@@ -64,15 +64,20 @@ the other hand ignore any constraints from the flight plan.
 
 Vertical guidance includes these modes:
 
-| [SELECTED](selected-modes.md)                                                                        | [MANAGED](./managed-modes.md)                                                                                              |
-|:-----------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                      | [SRS](managed-modes.md#takeoff-srs-speed-reference-system) (TO and GA)                                                     |
-| [OP CLB](selected-modes.md#op-clb-open-climb), [OP DES](selected-modes.md#op-des-open-descent)       | [CLB](managed-modes.md#clb-climb), [DES](managed-modes.md#des-descent)                                                     |
-| [ALT*](selected-modes.md#altitude-acquire-mode-alt), [ALT](selected-modes.md#altitude-hold-mode-alt) | [ALT CST*](managed-modes.md#altitude-acquire-mode-alt-cst), [ALT CST](managed-modes.md#altitude-hold-mode-alt-cst-alt-crz) |
-| [EXPEDITE](selected-modes.md#exp-expedite)                                                           | [ALT CRZ](managed-modes.md#altitude-hold-mode-alt-cst-alt-crz)                                                             |
-|                                                                                                      | [G/S*, G/S](managed-modes.md#gs-gs)                                                                                        |
-|                                                                                                      | [FINAL, FINAL APP](managed-modes.md#final-final-app)                                                                       |
-|                                                                                                      | [LAND](managed-modes.md#land), [FLARE](managed-modes.md#flare)                                                             |
+| [SELECTED](selected-modes.md)                                                | [MANAGED](./managed-modes.md)                                          |
+|:-----------------------------------------------------------------------------|:-----------------------------------------------------------------------|
+| [OP CLB](selected-modes.md#op-clb-open-climb)                                | [SRS](managed-modes.md#takeoff-srs-speed-reference-system) (TO and GA) |
+| [OP DES](selected-modes.md#op-des-open-descent)                              | [CLB](managed-modes.md#clb-climb),                                     |
+| [EXPEDITE](selected-modes.md#exp-expedite)                                   | [DES](managed-modes.md#des-descent)                                    |
+| [V/S-FPA](selected-modes.md#vs-and-fpa-vertical-speed-and-flight-path-angle) | [ALT CST*](managed-modes.md#altitude-acquire-mode-alt-cst)             |
+| [ALT*](selected-modes.md#altitude-acquire-mode-alt)                          | [ALT CST](managed-modes.md#altitude-hold-mode-alt-cst-alt-crz)         |
+| [ALT](selected-modes.md#altitude-hold-mode-alt)                              | [ALT CRZ](managed-modes.md#altitude-hold-mode-alt-cst-alt-crz)         |
+|                                                                              | [G/S*, G/S](managed-modes.md#gs-gs)                                    |
+|                                                                              | [FINAL, FINAL APP](managed-modes.md#final-final-app)                   |
+|                                                                              | [LAND](managed-modes.md#land)                                          |
+|                                                                              | [FLARE](managed-modes.md#flare)                                        |
+|                                                                              | [TCAS](managed-modes.md#tcas-mode)                                     |                                                              
+
 
 Vertical guidance interacts closely with the Autothrust system and the speed control modes selected in the FCU
 (managed vs. selected).
