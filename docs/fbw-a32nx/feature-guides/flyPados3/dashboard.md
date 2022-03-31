@@ -53,6 +53,8 @@ to the simBrief imported airports simply delete the manually entered ICAO.
 You can switch between the weather summary which shows the most important METAR parts with icons or a raw view of 
 the METAR information.
 
+The METAR information is updated every 5 minutes.
+
 ![ICAO Input to Weather Widget](../../assets/flypados3/weather-widget-input.png "ICAO Input to Weather Widget"){loading=lazy}
 
 We have applied a helpful coloring scheme a large European airline uses to point out significant parts of the raw METAR information to the pilots. This coloring uses the following colors:
