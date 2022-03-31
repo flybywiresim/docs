@@ -56,7 +56,7 @@ associated square referenced in the [UV map legend](assets/textures/uv-map-legen
 Note that the UV legend is 1024x1024, for readability, while the real texture only is 64x64.
 
 ## Elevator trim scale
-The fill and outline color or the elevator trim scale, is configured in the `DECALS_BANDIT_WINDOW_ALBD.PNG.DDS` texture.
+The fill and outline color of the elevator trim scale, is configured in the `DECALS_BANDIT_WINDOW_ALBD.PNG.DDS` texture.
 See the [UV map legend](assets/textures/uv-map-legend.png) for reference. 
 
 Note that the UV legend is 1024x1024, for readability, while the real texture only is 64x64.
