@@ -186,9 +186,9 @@ After selecting this you can navigate through different stages of flight CLB, CR
 
     The winds page accept the following format: `HDG / SPEED / ALTITUDE`. 
 
-    When entering the winds for FL100 the flight crew can omit the `ALTITUDE` value as that has been populated on the right side of the screen. 
+    When entering the winds for the alternate destination the flight crew can omit the `ALTITUDE` value as that has been populated on the right side of the screen. 
 
 To enter the examples highlighted in the image you can type:
 
 - `050/009/390` and press LSK 1L to input the FL390 winds.
-- `081/012` and press LSK 1R to input the FL100 winds. **Note:** the flight level is omitted in the entry.
+- `081/012` and press LSK 1R to input the alternate destination winds at FL100. **Note:** the flight level is omitted in the entry.
