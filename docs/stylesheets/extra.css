@@ -25,16 +25,19 @@
   font-weight: 400;
   size: 2em;
 }
-h2 {
+/*Specific Header Modifications*/
+.md-typeset h2 {
   color: #00E0FE; /*Cyan*/
   /*text-transform: uppercase;*/
   padding-bottom: 0.5em;
 }
-h3 {
+.md-typeset h3 {
   color: #00CCFF;
 }
-h4 {
+.md-typeset h4 {
   padding-top: 1em;
+  text-decoration: underline;
+  font-weight: bold;
 }
 .md-typeset h5 {
   color: hsl(0, 0%, 100%);
