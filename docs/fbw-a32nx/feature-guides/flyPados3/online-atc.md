@@ -23,17 +23,12 @@ The FlyByWire flyPad helps pilots managing the communication frequencies when us
 
 It lists all currently available ATC stations which can then be activated in the RMP 1 by a single click.
 
-## Usage
-
-### Changing Frequencies
-
 Go to the flyPad [ATSU/AOC settings page](settings.md#atsuaoc) and select your Online ATC service.
 
 !!! warning ""
     Only VATSIM or IVAO can be used for this feature at this time.
 
-Go back to the ATC page and see the list of the currently available ATC stations. Click on a station to set this 
-frequency in the Captain's RMP.
+## Usage
 
 <div style="position: relative;">
     <img src="/fbw-a32nx/assets/flypados3/online-atc-frequency.png" style="width: 100%; height: auto;" loading="lazy">
@@ -49,6 +44,15 @@ frequency in the Captain's RMP.
     <a href="../settings/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 85.0%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Settings</span></div></a>
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
+
+### Getting ATIS
+
+To get the ATIS information of the channel hover over the station and click on the `i` symbol. 
+
+### Changing Frequencies
+
+To change a frequency hover over the station and click either `Set Active` or `Set Standby` depending on if you 
+want to immediately set the frequency as the active frequency or just as the standby frequency for later use. 
 
 ### Using Hoppie ACARS
 
