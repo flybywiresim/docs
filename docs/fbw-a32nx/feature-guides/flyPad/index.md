@@ -47,7 +47,7 @@ To **TURN ON** and **TURN OFF** the flyPad you can either:
 
     - To turn it on or off click on the "hardware" button on the top right of the tablet.
     - To turn it on click anywhere on the screen.
-    - To turn it off click on the battery symbol in the top right corner.
+    - To turn it off click on the power symbol in the top right corner.
 
 ## flyPad Pages
 
