@@ -163,6 +163,59 @@ You can cancel  loading of a preset any time by pressing the `Cancel` button. Th
 completed and the aircraft will be in between presets in the state up to the last executed step. You can then either 
 complete the setup manually or simply click another preset (or the same) to be loaded.   
 
+### Aircraft States Overview
+
+| State              | System                      |
+|--------------------|-----------------------------|
+| Cold & Dark        | All Systems Off             |
+|                    |                             |
+| Turnaround         | BAT 1+2 On                  |
+|                    | EXT PWR On                  |
+|                    | APU Master On               |
+|                    | APU Start On                |
+|                    | AC BUS Avail Check          |
+|                    | Nav & Logo Lt On            |
+|                    | ADIRS 1,2,3 Nav             |
+|                    | GND CTL On                  |
+|                    | Crew Oxy On                 |
+|                    | NO SMOKING Auto             |
+|                    | EMER EXT Lt Arm             |
+|                    | APU Avail Check             |
+|                    | APU Bleed On                |
+|                    |                             |
+| Ready for Pushback | EXT PWR Off                 |
+|                    | FUEL PUMP 1-6 On            |
+|                    | Radar PWS On                |
+|                    | Transponder On              |
+|                    | ATC ALT RPTG On             |
+|                    | TCAS TRAFFIC ABV            |
+|                    | COCKPIT DOOR LCK            |
+|                    | Strobe Auto                 |
+|                    | Beacon On                   |
+|                    | SEAT BELTS On               |
+|                    | ADIRS 1,2,3 Await Alignment |
+|                    |                             |
+| Ready for Taxi     | ENG MODE SEL START          |
+|                    | ENG 2 ON                    |
+|                    | ENG 2 Avail Check           |
+|                    | ENG 1 ON                    |
+|                    | ENG 1 Avail Check           |
+|                    | ENG MODE SEL NORM           |
+|                    | APU Bleed Off               |
+|                    | APU Master Off              |
+|                    | Autobrake Max               |
+|                    | Spoiler Arm                 |
+|                    | Rudder Trim Reset           |
+|                    | Flaps 1                     |
+|                    | NOSE Lt Taxi                |
+|                    | RWY TURN OFF Light L&R On   |
+|                    |                             |
+| Ready for Takeoff  | WX Radar On                 |
+|                    | WX Radar Mode               |
+|                    | TCAS Switch TA/RA           |
+|                    | NOSE Light Takeoff          |
+|                    | Landing Light L&R On        |
+
 ## Quick Help
 
 For convenience there is also a summarized help page in the flyPad for your reference. 
