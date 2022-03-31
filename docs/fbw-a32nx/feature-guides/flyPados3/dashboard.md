@@ -47,13 +47,13 @@ By clicking on the edit symbol (pen) the widgets can be rearranged as required b
 The Weather widget shows the current METAR information of either the simBrief imported airports or manually entered 
 airports.
 
-You can type in any airport ICAO code into the input fields to get the corresponding METAR information. To get back 
+You can type in any airport ICAO-code into the input fields to get the corresponding METAR information. To get back 
 to the simBrief imported airports simply delete the manually entered ICAO.
 
 You can switch between the weather summary which shows the most important METAR parts with icons or a raw view of 
 the METAR information.
 
-The METAR information is updated every 5 minutes.
+Selected METAR information is updated every 5 minutes.
 
 ![ICAO Input to Weather Widget](../../assets/flypados3/weather-widget-input.png "ICAO Input to Weather Widget"){loading=lazy}
 
