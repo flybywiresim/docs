@@ -23,20 +23,20 @@ A precision approach will give you full guidance, both vertically and laterally,
 
 ***
 
-#### ^^ILS^^
+#### ILS
 
 ![ILS](https://upload.wikimedia.org/wikipedia/commons/6/61/ILS_diagramsimplified.png)
 <sub> ILS DiagramSimplified, U.S. Dept. of Transportation, Federal Aviation Administration, Public domain, via Wikimedia Commons
 
 Using a localiser beacon at the end of the runway, and a glideslope beacon at the side, the aircraft is guided along two radio signals to the touchdown point. These can be accurate enough to position the aircraft all the way down to touchdown and steer it along the runway. The pilots need to tune the ILS frequency into their aircraft's radio navigation system to receive the correct signals.
 
-#### ^^GLS^^
+#### GLS
 
 Like an ILS, but instead of using a set of radio beacons, the aircraft is guided by being fed information from a set of ground stations, which are in turn fed details about the position of the aircraft through GPS satellites.
 
 Not common, but as they do not need radio signals that go out in straight lines, the station can guide the aircraft around curves and turns to avoid terrain and built up/sensitive areas. Only some aircraft are equipped to do GLS and is only an option on the A320 family.
 
-#### ^^PAR^^
+#### PAR
 
 This is an approach where a controller, with an advanced radar, steers you towards the runway while telling you corrections to your heading or altitude. To the pilot, the controller will give you corrections such as, “Left 2 degrees”, “Right 3 degrees”, “Slightly high, correcting”, to bring you towards the runway.
 

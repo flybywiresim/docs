@@ -33,8 +33,6 @@ This is why FlyByWire has implemented our simBrief integration and will continue
 
 This is best explained by simBrief itself - [simBrief User Guide](https://www.simbrief.com/system/guide.php){target=new}
 
-
-
 ---
 
 ## Using the flyPad simBrief Integration
@@ -71,7 +69,7 @@ This portion of the guide assumes that you understand how to generate a simBrief
 
     If setting is not enabled the import function may only populate the departure and arrival airports into the flight page on the MCDU.
 
-#### ^^Request Data from simBrief^^
+#### Request Data from simBrief
 
 * Return to `MCDU MENU`
 * Click on `ATSU`
@@ -83,7 +81,7 @@ This portion of the guide assumes that you understand how to generate a simBrief
 
 This will prepare the MCDU to input the flight plan.
 
-#### ^^Initialize Flight Plan^^
+#### Initialize Flight Plan
 
 !!! warning "IMPORTANT"
     Do not select an arrival airport on the MSFS world menu or flight planner. Doing this "initializes" the `FROM/TO` field when loading into your flight removing the INIT REQ. option from the `INIT A` page.

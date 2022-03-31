@@ -26,20 +26,20 @@ lights and display brightness settings.
 
 !!! tip "Lighting Preset can only be loaded and saved when the aircraft is powered." 
 
-#### ^^Changing Preset Name^^
+#### Changing Preset Name
 
 To change a preset's name click on the current name of the preset and change the name to any string up to 16 
 characters. The name will be saved as soon as you leave the input field.
 
 ![img_11.png](../../assets/flypados3/flypad-presets-name-change.png)
 
-#### ^^Load a Preset^^
+#### Load a Preset
 
 To load a preset please click on the "Load Preset" button. The aircraft must be powered for the buttons to be enabled. 
 
 ![img_1.png](../../assets/flypados3/flypad-presets-load-button.png)
 
-#### ^^Save a Preset^^
+#### Save a Preset
 
 To save a preset please click on the "Save Preset" button. The aircraft must be powered for the buttons to be enabled.
 
