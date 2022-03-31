@@ -62,7 +62,7 @@ See the [UV map legend](assets/textures/uv-map-legend.png) for reference.
 Note that the UV legend is 1024x1024, for readability, while the real texture only is 64x64.
 
 ## Logo / sticker / alliance decal
-We have added a mesh between the fwd doors and the cockpit, to ease with high quality logos, stickers, etc.
+We have added a mesh between the forward doors and the cockpit, to ease with high quality logos, stickers, etc.
 The texture for logo / stickers / alliance is transparent by default.
 To enable this texture, add a 2048x2048 `DECAL_LOGO_FRONT_COMP.PNG.DDS` texture and add your graphics in the 
 associated square referenced in the image below. 
