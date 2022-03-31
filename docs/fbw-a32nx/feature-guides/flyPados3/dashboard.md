@@ -25,7 +25,7 @@ The Dashboard is the default flyPad page after starting it.
 
 ### Widgets
 
-The Dashboard provides several widgets to allow quick access to specific indformation and pages.
+The Dashboard provides several widgets to allow quick access to specific information and pages.
 
 The provided widget are: 
 

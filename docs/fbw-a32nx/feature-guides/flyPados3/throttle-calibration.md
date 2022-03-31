@@ -113,7 +113,7 @@ Check that the axis mappings are correct.
 
 If your throttle does not have a range for the reverser there are two ways to activate and simulate reverser with buttons.
 
-??? note "How to Setup Reverser: Controller With a Separate Button or Key"
+??? note "How to Set Up Reverser: Controller With a Separate Button or Key"
     Microsoft Flight Simulator allows the mapping of a key or button to use the normal throttle axis as the reverser axis. To configure this chose a key or button on your controller and map it like this:
 
      ![Reverser Button Configuration](../../assets/flypados3/throttle-calibration/reverser-hold.png "Reverser Button Configuration"){loading=lazy}
@@ -124,7 +124,7 @@ If your throttle does not have a range for the reverser there are two ways to ac
 
     ![Reverser Toggle](../../assets/flypados3/throttle-calibration/reverser-toggle-hold.png "Reverser Toggle")
 
-??? note "How to Setup Reverser: Controllers With Buttons Built Into the Throttle"
+??? note "How to Set Up Reverser: Controllers With Buttons Built Into the Throttle"
     Some controllers have built in buttons that activate when the throttle is moved into the reverse position. With these controllers you can't use the above method as you would have to move the throttles forward to increase reverse thrust. But this would release the reverse button and apply normal forward thrust.
 
     To simulate reverse thrust with these throttle controllers you can map the reverser button(s) to the `THROTTLE 1/2 DECREASE`. So as long as you keep the controller levers in the reverse position the throttle will be decreased up to full reverse thrust. To stop reverse thrust you would move the throttle forward (button will be released) and apply a little thrust so the throttle moves to a non-reverse value again.
@@ -148,7 +148,7 @@ If your throttle does not have a range for the reverser there are two ways to ac
     - The throttle in the cockpit should move to TOGA when you set your controller to full thrust.
     - The throttle in the cockpit should move to IDLE or FULL REVERSE when you set your controller to the lowest possible setting.
 
-If the tests are successful please move to the next chapter. Otherwise go through this chapter again to fix any issues.
+If the tests are successful please move to the next chapter. Otherwise, go through this chapter again to fix any issues.
 
 !!! danger "PLEASE DO NOT SKIP THE SECTION ABOVE"
 
@@ -170,11 +170,11 @@ If the tests are successful please move to the next chapter. Otherwise go throug
     <p/>
     ![EFB-Calibration-Page](../../assets/flypados3/throttle-calibration/efb-calibration-page1.png "EFB-Calibration-Page"){loading=lazy}
 
-### 2. Setup Your Controller Characteristics
+### 2. Set Up Your Controller Characteristics
 
 Configure the basic characteristics of your controller at the top of the calibration page.
 
-??? note "How to Setup the Controller Basics"
+??? note "How to Set Up the Controller Basics"
     ![Calibration Base Settings](../../assets/flypados3/throttle-calibration/base-settings.png "Calibration Base Settings"){loading=lazy}
 
     Set `Reverser on Axis` to ON if your throttle has a range for the reverser thrust (lowest setting is full reverse).
@@ -194,7 +194,8 @@ Configure the basic characteristics of your controller at the top of the calibra
 
 ### 3. Deadband / Range Setting
 
-Analog controllers always have some imprecision and it is necessary to define a range of values which should be treated as a valid range for a detent. This is called a `deadband`.
+Analog controllers always have some imprecision, and it is necessary to define a range of values which should be 
+treated as a valid range for a detent. This is called a `deadband`.
 
 {==
 
@@ -243,7 +244,7 @@ We start the detent calibration with the lowest throttle setting.
 
 ### 5. Go Through All Detents
 
-Go through all detents from lowest thrust to highest thrust carefully and
+Go through all detents from the lowest thrust to the highest thrust carefully and
 repeat the process from [Step 4.](#4-start-with-full-reverser-or-idle) for each detent.
 
 ??? note "How to Calibrate All Detents"
@@ -268,7 +269,8 @@ Click on "Save & Apply".
 ### 7. Test
 
 ??? tip "How to Test Calibration"
-    Test each setting with a view like this. Make sure the mouse is outside the popout window otherwise the aircraft's throttles won't move.
+    Test each setting with a view like this. Make sure the mouse is outside the pop-out window otherwise the 
+    aircraft's throttles won't move.
     <p/>
     ![Test-view](../../assets/flypados3/throttle-calibration/Test-view.png "Test-view"){loading=lazy}
     <p/>
@@ -362,7 +364,8 @@ Click on "Save & Apply".
 
         ![EFB-SaveApply](../../assets/flypados3/throttle-calibration/EFB-SaveApply.png "EFB-SaveApply"){loading=lazy}
 
-    - Test each setting with a view like this. Make sure the mouse is outside the popout window otherwise the aircraft's throttles won't move.
+    - Test each setting with a view like this. Make sure the mouse is outside the pop-out window otherwise the 
+      aircraft's throttles won't move.
 
         ![Test-view](../../assets/flypados3/throttle-calibration/Test-view.png "Test-view"){loading=lazy}
 
@@ -624,7 +627,7 @@ If you have done a previous calibration or if you have trouble with the calibrat
 
 ![EFB-Calibration-Page](../../assets/flypados3/throttle-calibration/efb-calibration-page-reset.png "EFB-Calibration-Page"){loading=lazy}
 
-After clicking the Reset button you can also click the Apply button so the default settings are send to the aircraft.
+After clicking the Reset button you can also click the Apply button so the default settings are sent to the aircraft.
 
 ### Detents Overlap
 
@@ -643,10 +646,10 @@ Another solution is to simply delete the current configuration file (as describe
 ## Manual Configuration
 
 !!! warning "Expert Advice - use with care!"
-    This configuration is meant for users who are comfortable with finding and change setting-files manually.
+    This configuration is meant for users who are comfortable finding and changing setting-files manually.
     It is important to create a backup copy of each file you modify before changing anything to be able to revert to the previous state in case things go wrong!
 
-To setup or correct throttle calibration values directly we follow these steps which are detailed below.
+To set up or correct throttle calibration values directly we follow these steps which are detailed below.
 
 1. Shut down Microsoft Flight Simulator.
 2. Locate your "**work***" folder.
@@ -684,7 +687,8 @@ The folder can be found here:
 
 The "**ThrottleConfiguration.ini**" file stores the configuration values from the flyPad Throttle Calibration page.
 
-You can edit or delete this file while Microsoft Flight Simulator is shut down and it will be loaded when you start the next flight with the FlyByWire A32NX.
+You can edit or delete this file while Microsoft Flight Simulator is shut down, and it will be loaded when you start 
+the next flight with the FlyByWire A32NX.
 
 To restore the default values you can just delete this file. It will be regenerated the next time you start a flight with the FlyByWire A32NX and use the flyPad Throttle Configuration page to `SAVE & APPLY` a configuration.
 
@@ -727,32 +731,3 @@ flex_mct_high = 0.52
 toga_low = 0.95
 toga_high = 1.00
 ```
-
-<!--## Additional Video Guides-->
-
-<!--[FBW Tool-Tips | Throttle Calibration](https://www.youtube.com/watch?v=8yZuv2L4jPA&list=PLyIyZ4OtCKhxTSKfpwxxFEROEjAaKta7j){target=new}-->
-
-<!--<iframe width="790" height="450" src="https://www.youtube.com/embed/8yZuv2L4jPA?list=PLyIyZ4OtCKhxTSKfpwxxFEROEjAaKta7j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>-->
-
-<!--[FBW Tool-Tips | Throttle Calibration](https://www.youtube.com/watch?v=8yZuv2L4jPA&list=PLyIyZ4OtCKhxTSKfpwxxFEROEjAaKta7j){target=new}-->
-<!--[Flybywire A32NX Throttle Calibration Tutorial](https://www.youtube.com/watch?v=9oqFfAMXCcc){target=new}-->
-
-<!--<iframe width="790" height="450" src="https://www.youtube.com/embed/9oqFfAMXCcc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>-->
-<!--Credits to [British Avgeek](https://www.youtube.com/channel/UCiRbrJu4xfX7uRtZpXdFEdg){target=new}-->
-
-
-
-
-
-
-
-
-
-
-<!--
-
----
-
----
-
--->

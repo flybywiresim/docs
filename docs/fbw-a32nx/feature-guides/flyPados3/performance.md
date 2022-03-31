@@ -106,7 +106,8 @@ Example:
 **Result: We need to start our descent ^^98NM^^ before the target fix with a vertical speed of -2.000ft/min**
 
 !!! note "Wind"
-    Wind is not a factor and can be ignored as these calculation are done based on ground speed which includes any wind impacting an aircraft in the air.
+    Wind is not a factor and can be ignored as these calculations are done based on ground speed which includes any 
+    wind impacting an aircraft in the air.
 
 ## Landing Performance Calculator
 
@@ -136,7 +137,7 @@ This calculation factors in wind, runway condition, aircraft weight and several 
 
 Enter the required data into the calculator fields. Weather data can be automatically
 filled by entering an airport icao and pressing "Get METAR". How to get the information
-for all the fields is descibed in the following section.
+for all the fields is described in the following section.
 
 - Wind, Temperature, QNH:
     - This information can be obtained from METAR or ATIS.

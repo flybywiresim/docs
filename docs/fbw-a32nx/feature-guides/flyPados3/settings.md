@@ -113,7 +113,7 @@ Settings for simulation aspects of the A32NX aircraft.
            a new flight.
         - After 5min of unsuccessful connection attempts the MCDU will stop any further attempts and `Inactive` will be
           shown.
-        - If `Inactive` is shown but you want to connect to the MCDU server just click on `Off` and then `Auto` again.
+        - If `Inactive` is shown, but you want to connect to the MCDU server just click on `Off` and then `Auto` again.
     - Off:
         - The MCDU will not make any attempts to connect to the MCDU Server.
 - Dynamic Registration Decal:
@@ -156,10 +156,10 @@ Settings for realism aspects of the A32NX aircraft.
 - MCDU Keyboard Input (unrealistic)
     - Enables the MCDU Keyboard input feature (see [MCDU Keyboard](../mcdu-keyboard.md)).
 - MCDU Focus Timeout (s)
-    - The timeout feature will "automatically unfocus" the MCDU screen after the given amount of seconds.
+    - The timeout feature will automatically deactivate the focus of the MCDU screen after the given amount of seconds.
     - Valid range is 5 - 120 seconds.
 - Separate Tiller from Rudder Inputs
-    - User can chose to use how the nose wheel shall be controlled:
+    - User can choose to use how the nose wheel shall be controlled:
         - Legacy mode (Disabled): Rudder controls also move the nose wheel. No separation.
         - Realistic mode (Enabled): Nose Wheel steering with tiller handwheel is separate from the rudder.
             - See our guide: [Nose Wheel and Tiller Operation](../nw-tiller.md)
@@ -218,7 +218,7 @@ Settings for integrations with various data and information sources.
         ![flypad-settings-atsu-aoc-telex-warning](../../assets/flypados3/flypad-settings-atsu-aoc-telex-warning.png)
 
 - Simbrief Username/Pilot ID
-    - See [next chapter](#simbrief-integration.)
+    - See [next chapter](#simbrief-integration)
 - Automatically Import SimBrief Data
     - Imports latest SimBrief flight automatically when starting the flyPad.   
 - Hoppie User ID:
@@ -227,7 +227,7 @@ Settings for integrations with various data and information sources.
 - Error Reporting
     - Enables error reports to be sent to Sentry.io to allow the FlyByWire team to easier find and fix issues with the aircraft.
 
-### simBrief Integration
+### SimBrief Integration
 
 Before you can use the A32NX simBrief Integration you need to provide your simBrief account details.
 
@@ -245,7 +245,8 @@ To get your simBrief username or Pilot ID you can go to your simBrief Account se
 ![simBrief Account Data](../../assets/flypados3/simbrief-account-data.png "simBrief Account Data")
 
 !!! attention ""
-    If you use the Stable version please omit any space characters in your username. If for example your username is "Mr Pilot" the please use "MrPilot" as username.
+    If you use the Stable version please omit any space characters in your username. If for example your username is 
+    "Mr Pilot" then please use "MrPilot" as username.
 
     Also the Stable version does only allow the username to be entered here, not the Pilot ID.
 

@@ -130,7 +130,7 @@ The controls are similar to the Navigraph chart view although there will not be 
 ## Pinned Charts
 
 Available charts can be pinned by clicking on the pin symbol. The pinned charts are then available in this tab and 
-also in the charts widget on the Dashboard. 
+also in the charts-widget on the Dashboard. 
 
 <div style="position: relative;">
     <img src="/fbw-a32nx/assets/flypados3/pinned-charts.png" style="width: 100%; height: auto;" loading="lazy">

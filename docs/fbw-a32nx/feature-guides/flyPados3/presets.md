@@ -51,12 +51,12 @@ A confirmation dialog will appear to prevent you to accidentally overwrite exist
 
 ## Aircraft Presets
 
-Aircraft presets allow you to automatically let a virtual co-pilot setup your aircraft to the requested preset state. 
+Aircraft presets allow you to automatically let a virtual co-pilot set up your aircraft to the requested preset state. 
 
 When loading a preset the virtual co-pilot will perform all necessary setup tasks in real time. Therefore, systems 
 like ADIR alignment, APU start, Engine starts will take the usual time to start up. 
 
-You as the pilot can use the time to set up the FMGC (MCDU), Flight Control Unit (FCU), Transponder ident and radios.
+You as the pilot can use the time to set up the FMGC (MCDU), Flight Control Unit (FCU), Transponder-Ident and radios.
 
 !!! warning "It is important that you still set up the MCDU and FCU correctly for a successful flight."
 

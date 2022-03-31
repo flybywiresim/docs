@@ -94,7 +94,7 @@ lists corresponding to the current flight phase.
 If you want to map the "Mark item as complete" button to a hardware button of your controller you can use this local 
 variable to do so:
 
-LVAR: A32NX_EFB_CHECKLIST_COMPLETE_ITEM
+LVAR:A32NX_EFB_CHECKLIST_COMPLETE_ITEM
 
 Set this variable to 1 to advance a step. It will be reset to 0 automatically. 
 

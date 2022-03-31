@@ -80,13 +80,16 @@ door and automatically closes it after it has virtually supplied the aircraft.
 
 ### Call Tug
 
-Calls the pushback tug to be connected to the aircraft. The button will become green if the pushback tug is connected to the aircraft. At some airports the pushback tug might not be visible (MSFS issue) but it will still be possible to pushback the aircraft.
+Calls the pushback tug to be connected to the aircraft. The button will become green if the pushback tug is 
+connected to the aircraft. At some airports the pushback tug might not be visible (MSFS issue) but it will still be 
+possible to push back the aircraft.
 
 To disconnect the pushback tug press this button again and the button turns blue again.
 
 ## Fuel Page
 
-The fuel page provides accurate information about the quantity of fuel in the different tanks of the aircraft. It also allows to fuel or de-fuel the aircraft to the desired fuel quantity.
+The fuel page provides accurate information about the quantity of fuel in the different tanks of the aircraft. It 
+also allows fueling or de-fueling the aircraft to the desired fuel quantity.
 
 <div style="position: relative;">
     <img src="/fbw-a32nx/assets/flypados3/flypad-dispatch-fuel.png" style="width: 100%; height: auto;" loading="lazy">

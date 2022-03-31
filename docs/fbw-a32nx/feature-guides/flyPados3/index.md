@@ -59,9 +59,11 @@ To **TURN ON** and **TURN OFF** the flyPad you can either:
 - [flyPad Dispatch](dispatch.md)
 - [flyPad Ground](ground.md)
 - [flyPad Performance](performance.md)
-- [flyPad Naviagtion & Charts](charts.md)
+- [flyPad Navigation & Charts](charts.md)
 - [flyPad Online ATC](online-atc.md)
 - [flyPad Failures](failures.md)
+- [flyPad Checklists](checklists.md)
+- [flyPad Presets](presets.md)
 - [flyPad Settings](settings.md)
 - [flyPad Throttle Calibration](throttle-calibration.md)
 
