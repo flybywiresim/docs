@@ -166,6 +166,8 @@ These locations are found below:
 - [Microsoft Store Version](#microsoft-store-version)
 - [Steam Version](#steam-version)
 
+If the above folders are hidden to you follow the directions on [Microsoft's support site](https://support.microsoft.com/en-us/windows/view-hidden-files-and-folders-in-windows-10-97fbc472-c603-9d90-91d0-1166d1d9f4b5).
+
 Once in the correct directory delete the files show here:
 
 ![localstate folder](https://cdn.discordapp.com/attachments/838062729398976522/869736690695172156/unknown.png){ width=70% }
@@ -177,8 +179,6 @@ Once in the correct directory delete the files show here:
     - Our flight data recorder (for debugging purposes which we may ask you to provide).
 
     **It is up to you to keep this folder or not.**
-
-If the folders are hidden to you follow the directions on [Microsoft's support site](https://support.microsoft.com/en-us/windows/view-hidden-files-and-folders-in-windows-10-97fbc472-c603-9d90-91d0-1166d1d9f4b5).
 
 ### Microsoft Store Version
 
