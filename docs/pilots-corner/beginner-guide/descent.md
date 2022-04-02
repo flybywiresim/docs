@@ -198,10 +198,10 @@ ACKNOWLEDGE RECEIPT OF INFORMATION K AND ADVISE AIRCRAFT
 TYPE ON FIRST CONTACT
 ```
 
-From the chart we get `Trans level` and `BARO` (=MDA) or `RADIO` (=DH). 
+From the chart we get `Trans level` and `BARO` (=DA or MDA) or `RADIO` (=RA or DH). 
 
-- CAT I ILS uses MDA and is entered into the `BARO` field.
-- CAT II/III ILS use DH which is put in the `RADIO` field.
+- CAT I ILS uses DA or MDA and is entered into the `BARO` field.
+- CAT II/III ILS use RA or DH which is put in the `RADIO` field.
 - `BARO` is based on barometric altitude whereas `RADIO` is based on radio altitude (distance to ground).
 
 !!! tip "Trans level: By ATC"
