@@ -643,9 +643,12 @@ Another solution is to simply delete the current configuration file (as describe
 
 If you have used different throttles with your system that have custom profiles saved in the simulator this may cause conflicts with calibration. One example is a reported rare case with the TurtleBeach yoke and the Thrustmaster quadrant creating a conflict when both throttles have a saved profile in the sim. 
 
-Even if you have disconnected any "not in use" throttle quadrants the sim **may** assume the profile is active and conflict with the hardware that you do have plugged in for your flight. We suggest either:
+Even if you have disconnected any "not in use" throttle quadrants the sim **may** assume the profile is active and conflict with the hardware that you do have plugged in for your flight. 
 
-- Change the profile not in use to a different type of engine mapping that does not have the throttle levers mapped. For example: change it to a single engine profile.
+We suggest either:
+
+- Change the profile not in use to a different type of engine mapping that does not have the throttle levers mapped. 
+    - For example: change it to a single engine profile.
 - Removing one of the profiles that you don't use.
 
 ---
