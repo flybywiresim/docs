@@ -137,6 +137,10 @@ Enter the required data into the calculator fields. Weather data can be automati
 filled by entering an airport ICAO and pressing "Get METAR". How to get the information
 for all the fields is described in the following section.
 
+For expanded information and examples see the linked page below.
+
+[Landing Calculator Additional Info](../../../pilots-corner/advanced-guides/flight-planning/landing-calculations.md){.md-button target=new}
+
 - Wind, Temperature, QNH:
     - This information can be obtained from METAR or ATIS.
 
@@ -149,7 +153,7 @@ for all the fields is described in the following section.
 - Rwy Condition:
     - This information can be obtained from METAR or ATIS and from NOTAMS on the OFP (Operational Flight Plan).
     - SimBrief provides field condition reports (FICON) which helps populate appropriate data for this field.
-        - For information see the [RWY Conditions](#rwy-conditions) section.
+        - For information see the [RWY Conditions](../../../pilots-corner/advanced-guides/flight-planning/landing-calculations.md#rwy-conditions){target=new} section on the landing calculator additional info page.
 
 - Rwy Slope:
     - This information can be obtained from the airport chart (see example below) but requires a little calculation.
@@ -189,6 +193,7 @@ for all the fields is described in the following section.
 #### Example Chart:
 
 ![Airport Chart](../../assets/flypados3/performance-landing-chart.png "Airport Chart"){loading=lazy}
+
 <sub>*Copyright © 2021 Navigraph / Jeppesen<br/>
 "Navigraph Charts are intended for flight simulation use only, not for navigational use."*</sub>
 
@@ -210,30 +215,4 @@ Be aware that there might be other restrictions that prohibit landing of an A320
 This runway can not be used for landing with the given circumstances. It is similar to Example 2 but has a higher weight and therefore higher approach speed.
 
 ![flyPad Performance Calculator Landing](../../assets/flypados3/performance-landing-notok.png "flyPad Performance Calculator Landing"){loading=lazy}
-
-### RWY Conditions
-
-!!! danger "TODO"
-    - Add matrix
-    - Add additional information
-    - Consider extra page
-
-For runways that are not dry, a field condition report (or FICON) is included in the NOTAMs for that airport. See this example for a SimBrief prepared OFP for KPIT-KPHL.
-
-!!! block ""
-    ![Runway Condition](../../assets/flypados3/rwy-condition.png){align=left width=60%}
-
-    This is a screenshot for the runways at the arrival airport. 
-
-    It provides runway condition codes (the numbers X/X/X) for each third of the specified runway as well as a text description of the surface condition and the time of the report.
-
-As for the condition codes, a dry runway is a 6 and would never be reported unless portions of the runway were codes less than 6. The lowest of the 3 reported codes should be used (unless you are certain that you would be not using the last third of the runway, for example). 
-
-For our landing perf calculator:
-
-- 5 is Good
-- 4 is Good-Medium
-- 3 is medium
-- 2 is Medium-Poor
-- 1 is Poor
 
