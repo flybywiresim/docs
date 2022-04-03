@@ -34,12 +34,24 @@ This runway can not be used for landing with the given circumstances. It is simi
 
 ## RWY Conditions
 
-!!! danger "TODO"
-    - Add matrix
-    - Add additional information
-    - Consider extra page
+If runway condition codes are provided in the ATIS or NOTAM report in the field condition report (FICON) section. 
 
-For runways that are not dry, a field condition report (or FICON) is included in the NOTAMs for that airport. See this example for a SimBrief prepared OFP for KPIT-KPHL.
+!!! tip "RWY Condition Codes"
+    These will be in the form `X/Y/Z`, where X is the code for the first third of the runway length, Y is the code for the middle third of the runway length, and Z is the code for the last third of the runway length. See the [Runway Correlation Matrix](#runway-correlation-matrix) below for additional information.
+
+    For our landing perf calculator:
+
+    - 5 is Good
+    - 4 is Good-Medium
+    - 3 is medium
+    - 2 is Medium-Poor
+    - 1 is Poor
+
+    Codes are not required to be given when the runway is dry, so if no code is given, and there is no weather information to the contrary, you can assume the runway is dry. You should use all available weather information to make a determination of what code to use.
+
+You should use the lowest code for the section of runway you will be using for landing. Normally, all runway sections should be considered, unless you are sure that your landing distance will allow you to stop or use a runway turnoff before the last third of the runway. For example, if the code is 5/3/3, you should use a code of 3 (Medium) for your landing distance calculation.
+
+See this example for a SimBrief prepared OFP for KPIT-KPHL.
 
 !!! block ""
     ![Runway Condition](../../../fbw-a32nx/assets/flypados3/rwy-condition.png){align=left width=60%}
@@ -48,12 +60,13 @@ For runways that are not dry, a field condition report (or FICON) is included in
 
     It provides runway condition codes (the numbers X/X/X) for each third of the specified runway as well as a text description of the surface condition and the time of the report.
 
-As for the condition codes, a dry runway is a 6 and would never be reported unless portions of the runway were codes less than 6. The lowest of the 3 reported codes should be used (unless you are certain that you would be not using the last third of the runway, for example).
+### Runway Correlation Matrix
 
-For our landing perf calculator:
-
-- 5 is Good
-- 4 is Good-Medium
-- 3 is medium
-- 2 is Medium-Poor
-- 1 is Poor
+| Runway<br/> Condition Code |  Braking Action  | Representative<br/> Surface Condition                    | Maximum Allowable<br/> Crosswind for Landing |
+|:--------------------------:|:----------------:|:---------------------------------------------------------|:--------------------------------------------:|
+|             6              |       Dry        | Dry                                                      |                   38 Knots                   |
+|             5              |       Good       | Wet<br/> Up to 3mm (1/8") Snow or Slush                  |                   38 Knots                   |
+|             4              | Good<br/> Medium | Compacted Snow at or below -15°C                         |                   29 Knots                   |
+|             3              |      Medium      | More than 3mm (1/8") Snow<br/> Compacted Snow above 15°C |                   25 Knots                   |
+|             2              | Medium<br/> Poor | More than 3mm (1/8") Standing Water or Slush             |                   20 Knots                   |
+|             1              |       Poor       | Ice                                                      |                   15 Knots                   |
