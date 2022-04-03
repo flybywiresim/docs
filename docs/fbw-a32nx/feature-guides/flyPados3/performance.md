@@ -133,9 +133,9 @@ The calculator results are shown both numerical and graphically. Variations in a
 
 ### Usage
 
-Enter the required data into the calculator fields. Weather data can be automatically
-filled by entering an airport ICAO and pressing "Get METAR". How to get the information
-for all the fields is described in the following section.
+Enter the required data into the calculator fields. The initial state of the calculator will have all input fields blank except for runway condition (Dry), flap setting (Full), overweight procedure (No), and reverse thrust (No). It is important to note that all fields must be filled in order to activate the "Calculate" button. The "Clear" button will return input fields to the initial state. 
+
+Weather data can be automatically filled by entering an airport ICAO and pressing "Get METAR". How to get the information for all the fields is described in the following section.
 
 For expanded information and examples see the linked page below.
 
@@ -153,7 +153,7 @@ For expanded information and examples see the linked page below.
 - Rwy Condition:
     - This information can be obtained from METAR or ATIS and from NOTAMS on the OFP (Operational Flight Plan).
     - SimBrief provides field condition reports (FICON) which helps populate appropriate data for this field.
-        - For information see the [RWY Conditions](../../../pilots-corner/advanced-guides/flight-planning/landing-calculations.md#rwy-conditions){target=new} section on the landing calculator additional info page.
+        - For detailed information see the [RWY Conditions](../../../pilots-corner/advanced-guides/flight-planning/landing-calculations.md#rwy-conditions){target=new} section on the landing calculator additional info page.
 
 - Rwy Slope:
     - This information can be obtained from the airport chart (see example in [Landing Calculator Additional Info](../../../pilots-corner/advanced-guides/flight-planning/landing-calculations.md#example-chart){target=new}) but requires a little calculation.
@@ -180,13 +180,14 @@ For expanded information and examples see the linked page below.
 
 - Overweight Procedure:
     - Will the landing weight be greater than the maximum landing weight (Yes or No).
+    - Reminder: maximum landing weight is 67400 KG.
 
 - Reverse Thrust:
     - Will reverse thrust be used (Yes or No)?
-    - Subject to airport requirements that can be found on the airport chart (see example below).
+    - May be subject to airport requirements. If there are airport requirements regarding the use of reverse thrust, these can be found on the airport chart (see example below).
 
     ![Airport Chart Information](../../assets/flypados3/performance-landing-charts-reverser.png "Airport Chart Information"){loading=lazy}
 
 - Autoland:
-    - If an autoland is planned then set this to Yes.
+    - If an Autoland is planned then set this to Yes.
 
