@@ -204,6 +204,8 @@ From the chart we get `Trans level` and `BARO` (=DA or MDA) or `RADIO` (=RA or D
 - CAT II/III ILS use RA or DH which is put in the `RADIO` field.
 - `BARO` is based on barometric altitude whereas `RADIO` is based on radio altitude (distance to ground).
 
+For more information on the different types of minimums see the [Minimums and MDA/DH](../airliner-flying-guide/approaches.md#minimums-and-mdadh) section on the [Approaches](../airliner-flying-guide/approaches.md) page in the airliner flying guide.
+
 !!! tip "Trans level: By ATC"
     In the particular example below the `Trans level` field states `By ATC`. If you are not flying on a network such as Vatsim or IVAO you can try the following things:
 
