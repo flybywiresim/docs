@@ -7,7 +7,7 @@
 !!! warning "Development in progress"
     The Hoppie ACARS system is a complex system and we have decided to develop and release it step-by-step. So please be aware that not all features are available in the early releases and that we will add additional functionality over time.
 
-    The current version has have the following features:
+    The current version has the following features:
 
     - Logon/Logoff
     - Handover
