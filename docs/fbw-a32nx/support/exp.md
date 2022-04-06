@@ -77,6 +77,8 @@ These features are not yet available but are generally planned and might be impl
 
 ### Vertical Guidance Issues
 
+- There has been a large number of reports indicating that the T/D was placed too late. This will be investigated this further, but we ask you to please check your arrival routing for any odd path drawings. These are not unusual for the speed predictions of VNAV do not affect the LNAV path computations yet, which causes certain turns to be drawn at a larger radius than what will actually be flown. Consequently, VNAV will calculate a profile with more track mileage than what is realistically available and place the T/D too late.
+- There is a problem with manually inserted constraints right now, where they are ignored or treated wrongly. Be aware of this and, if possible, advise if you have added any constraints manually when reporting an issue with the profile calculation. This is crucial in helping us identify and reproduce your issue.
 - LNAV does not use VNAV speed predictions yet. This means that an approach path will not be forecasted properly. Furthermore, the T/D (Top of Descent) could be misplaced, since the system expects more track miles.
 - The descent guidance does not use the speed margins properly yet. The aircraft does not speed up to catch a profile below it.
 - The linear deviation indication (green "yoyo") on the PFD might jump around during the descent. This effect is particularly noticable when new waypoints are sequenced.
@@ -89,8 +91,14 @@ These features are not yet available but are generally planned and might be impl
 ### flyPadOSv3 Issues
 
 - Local files does not work yet. Needs additional feature PR ([local-api](https://github.com/flybywiresim/a32nx/pull/6411/){target=new})
-- Fuel page: During flight only Instant is available - buttons do not reflect this (should be greyed out)
+- Fuel Page: During flight only Instant is available - buttons do not reflect this (should be greyed out)
+- Fuel Page: Units not corresponding to settings 
 - Date in the top left corner shows the wrong day of the week
+- Lighting Presets: if loading a preset not configured/stored before everything is set to zero instead of the expected 50%
+- Lighting Presets: EFB settings is not correctly applied
+- Pushback page: not yet fully functional or complete - changes to be expected
+- Stuck notifications are caused by CSS animations being disabled.
+    - Fix: `General Options` -> `Accessibility` -> Turn On `Menu Animations` under `User Interface` 
 
 ## How to Report Issues
 
