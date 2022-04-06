@@ -185,7 +185,7 @@ complete the setup manually or simply click another preset (or the same) to be l
 |                    |                             |
 | Ready for Pushback | EXT PWR Off                 |
 |                    | FUEL PUMP 1-6 On            |
-|                    | Radar PWS On                |
+|                    | PWS Auto                    |
 |                    | Transponder On              |
 |                    | ATC ALT RPTG On             |
 |                    | TCAS TRAFFIC ABV            |
