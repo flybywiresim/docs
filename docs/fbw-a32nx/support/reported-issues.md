@@ -714,7 +714,7 @@ TEMPLATE
 
 ## Common MSFS Issues Impacting All Aircraft
 
-??? bug "MSFSPerformance Degradation In-Flight"
+??? bug "MSFS Performance Degradation In-Flight"
     ### MSFS Performance Degradation In-Flight
 
     !!! tip ""
@@ -869,6 +869,26 @@ TEMPLATE
     Check your content manager for missing packages
 
     ^^Additional Information^^
+
+??? warning "Multiple Throttle Profiles Conflict"
+    ### Multiple Throttle Profiles Conflict
+
+    !!! tip ""
+        *Affected versions: Stable, Development*
+
+    ^^Description^^
+
+    If you have used different throttles with your system that have custom profiles saved in the simulator this may cause conflicts with calibration. One example is a reported rare case with the TurtleBeach yoke and the Thrustmaster quadrant creating a conflict when both throttles have a saved profile in the sim.
+
+    ^^Root Cause^^
+
+    Even if you have disconnected any "not in use" throttle quadrants the sim **may** assume the profile is active and conflict with the hardware that you do have plugged in for your flight.
+
+    ^^Possible Solution or Workaround^^
+
+    - Change the profile not in use to a different type of engine mapping that does not have the throttle levers mapped.
+        - For example: change it to a single engine profile.
+    - Removing one of the profiles that you don't use.
 
 ??? warning "Difficulty Accurately Clicking Controls"
     ### Difficulty Accurately Clicking Controls
