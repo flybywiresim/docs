@@ -6,7 +6,7 @@ FCU windows display.
 Selected modes disregard all altitude constraints.
 
 ## OP CLB (Open Climb)
-In OPEN CLB, the target speed/mach is maintained by the AP/FD system by adjusting the pitch with the elevator, 
+The OPEN CLB mode specifically wants (and commands) Climb Thrust. The target speed/mach is maintained by the AP/FD system by adjusting the pitch with the elevator, 
 whereas thrust is maintained either by the Autothrust system, or manually by the flight crew. Speed target may 
 either be selected or managed.
 
@@ -46,7 +46,7 @@ reference in the ALT window or by a change in the barometric correction.
 When ALT is engaged after OP CLD/DES, the FMA displays ALT in green (FCU altitude hold).
 
 ## OP DES (Open Descent)
-In OPEN DES, the target speed/mach is maintained by the AP/FD system by adjusting the pitch with the elevator,
+The OPEN DES mode is specifically designed for IDLE thrust. The target speed/mach is maintained by the AP/FD system by adjusting the pitch with the elevator,
 whereas thrust is maintained either by the Autothrust system, or manually by the flight crew. Speed target may
 either be selected or managed.
 
