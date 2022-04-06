@@ -56,7 +56,7 @@ cost index, define the vertical profile.
 The vertical modes are divided into two main modes:
 
 - Selected Vertical Modes
-- Manages Vertical Modes
+- Managed Vertical Modes
 
 One of the main notable differences between Selected and Managed Vertical Guidance is that the managed mode accounts
 for altitude and speed constraints at waypoints and computes the vertical flight path accordingly. Selected mode on
