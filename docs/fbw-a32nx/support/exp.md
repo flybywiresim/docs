@@ -81,7 +81,7 @@ These features are not yet available but are generally planned and might be impl
 - There is a problem with manually inserted constraints right now, where they are ignored or treated wrongly. Be aware of this and, if possible, advise if you have added any constraints manually when reporting an issue with the profile calculation. This is crucial in helping us identify and reproduce your issue.
 - LNAV does not use VNAV speed predictions yet. This means that an approach path will not be forecasted properly. Furthermore, the T/D (Top of Descent) could be misplaced, since the system expects more track miles.
 - The descent guidance does not use the speed margins properly yet. The aircraft does not speed up to catch a profile below it.
-- The linear deviation indication (green "yoyo") on the PFD might jump around during the descent. This effect is particularly noticable when new waypoints are sequenced.
+- The linear deviation indication (green "yoyo") on the PFD might jump around during the descent. This effect is particularly noticeable when new waypoints are sequenced.
 - Layout inaccuracies in the MCDU, mostly on the PERF page.
 - Predicted speed changes in the descent might seem to show up erratically. The same for the level off arrow while in descent mode.
 - Fuel predictions in the MCDU are not very accurate.
