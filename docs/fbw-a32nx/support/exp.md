@@ -25,7 +25,7 @@ Currently experimental is geared toward testing the initial version of VNAV. Ple
 - Partial implementation of descent guidance.
 - Ability to enter winds for climb, cruise, and descent.
 
-#### ^^Vertical Guidance Planned Implementations^^
+#### Vertical Guidance Planned Implementations
 
 These features are not yet available but will be implemented at a later time.
 
@@ -60,17 +60,18 @@ These features are not yet available but will be implemented at a later time.
 - Presets for customizable lighting settings and predefined aircraft states
 - Improved settings (better structure and more configuration options)
 - Onscreen keyboard
+- Tooltips
 - Themes
     - Blue
     - Dark
     - Light
+- Multilingual - English, French, Spanish, German, Russian - more to come....
 
-#### ^^EFB Planned Implementations^^
+#### EFB Planned Implementations
 
 These features are not yet available but are generally planned and might be implemented at a later time.
 
 - Support for local files (PFD, images) - requires local-api server (not yet merged)
-- Tooltips and built-in help
 - Improvements to pushback page
 
 ## Known Issues
@@ -91,14 +92,11 @@ These features are not yet available but are generally planned and might be impl
 ### flyPadOSv3 Issues
 
 - Local files does not work yet. Needs additional feature PR ([local-api](https://github.com/flybywiresim/a32nx/pull/6411/){target=new})
-- Fuel Page: During flight only Instant is available - buttons do not reflect this (should be greyed out)
-- Fuel Page: Units not corresponding to settings 
-- Date in the top left corner shows the wrong day of the week
-- Lighting Presets: if loading a preset not configured/stored before everything is set to zero instead of the expected 50%
-- Lighting Presets: EFB settings is not correctly applied
 - Pushback page: not yet fully functional or complete - changes to be expected
 - Stuck notifications are caused by CSS animations being disabled.
     - Fix: `General Options` -> `Accessibility` -> Turn On `Menu Animations` under `User Interface` 
+- Translations not yet complete / Missing translations and layout issues to be expected
+- Tooltips not yet complete
 
 ## How to Report Issues
 
