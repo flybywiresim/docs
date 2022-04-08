@@ -34,7 +34,7 @@ The guides in this section shall cover some of the main envelope protections of 
 
 High Speed Protection (HSP) aims to protect the aircraft from overspeed situations and activates latest when V~MO~+6kt or M~MO~+0.015 speeds (maximum operating speeds in knots or mach) are reached.
 
-See also [V-Speeds](../..//beginner-guide/abbreviations.md#v-speeds)
+See also [V-Speeds](../../abbreviations.md#v-speeds)
 
 ### Engagement Conditions
 
