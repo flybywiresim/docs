@@ -43,39 +43,39 @@
 
 ## Weight
 
-| Weight           | Term                                                                                                                                                                                                               |
-|:-------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| AGW                 | Actual Gross Weight                                                                                                                  |
-| AUW                 | All-Up Weight                                                                                                                         |
-| AZFW                 | Actual Zero Fuel Weight                                                                                                     |
-| BEW             | Basic Empty Weight                                                                                                                                         |
-| BOH                 | Brake-Off Weight                                                    |
-| DWE               | Delivery Empty Weight    |
-| DOW              | Dry Operating Weight                      |
-| GW             | Gross Weight             |
-| JFGW               | Jettison Final Gross Weight                      |
-| LW              | Landing Weight                             |
-| MEW         | Manufacturer's Empty Weight                    |
-| MFTW               | Maximum Design Fuel Transfer Weight              |
-| MFW             | Maximum Design Flight Weight                             |
-| MLW              | Maximum Design Landing Weight                       |
-| MRW            | Maximum Ramp Weight                                 |
-| MTOGW                | Maximum takeoff Gross Weight                      |
-| MTOW             | Maximum Design Takeoff Weight                                |
-| MTW              | Maximum Design Taxi Weight                                   |
-| MTXW               | Maximum Taxi Weight         |
-| MWE             | Manufacturer's Weight Empty                 |
-| MZFW               | Maximum Design Zero Fuel Weight  |
-| OEW                | Operational Empty Weight                  |
-| OLW                | Operational Landing Weight      |
-| OTOW               | Operational Take-Off Weight     |
-| OWE           | Operating Weight Empty                                      |
-| RTOLW            | Runway Takeoff and Landing Weight |
-| RTOW | Runway Takeoff Weight |
-| SBEW | Standard Basic Empty Weight |
-| TOGW | Takeoff Gross Weight |
-| TOW | Takeoff Weight |
-| ZFW | Zero Fuel Weight |
+| Weight | Term                                |
+|:-------|:------------------------------------|
+| AGW    | Actual Gross Weight                 |
+| AUW    | All-Up Weight                       |
+| AZFW   | Actual Zero Fuel Weight             |
+| BEW    | Basic Empty Weight                  |
+| BOH    | Brake-Off Weight                    |
+| DWE    | Delivery Empty Weight               |
+| DOW    | Dry Operating Weight                |
+| GW     | Gross Weight                        |
+| JFGW   | Jettison Final Gross Weight         |
+| LW     | Landing Weight                      |
+| MEW    | Manufacturer's Empty Weight         |
+| MFTW   | Maximum Design Fuel Transfer Weight |
+| MFW    | Maximum Design Flight Weight        |
+| MLW    | Maximum Design Landing Weight       |
+| MRW    | Maximum Ramp Weight                 |
+| MTOGW  | Maximum takeoff Gross Weight        |
+| MTOW   | Maximum Design Takeoff Weight       |
+| MTW    | Maximum Design Taxi Weight          |
+| MTXW   | Maximum Taxi Weight                 |
+| MWE    | Manufacturer's Weight Empty         |
+| MZFW   | Maximum Design Zero Fuel Weight     |
+| OEW    | Operational Empty Weight            |
+| OLW    | Operational Landing Weight          |
+| OTOW   | Operational Take-Off Weight         |
+| OWE    | Operating Weight Empty              |
+| RTOLW  | Runway Takeoff and Landing Weight   |
+| RTOW   | Runway Takeoff Weight               |
+| SBEW   | Standard Basic Empty Weight         |
+| TOGW   | Takeoff Gross Weight                |
+| TOW    | Takeoff Weight                      |
+| ZFW    | Zero Fuel Weight                    |
 
 
 ## Abbreviations
