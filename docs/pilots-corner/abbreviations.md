@@ -899,7 +899,6 @@
 | PA             | Public Address                                         |
 | PARK           | Parking                                                |
 | PAS            | Pitch Attitude Sensor                                  |
-| PAX            | PAX Announcement Entertainment &                       |
 | PAX            | Passenger                                              |
 | PC             | Pack Controller                                        |
 | PCT            | Percent                                                |
