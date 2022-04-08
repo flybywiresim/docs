@@ -138,7 +138,7 @@ Alpha Floor Protection **engages** after lift-off until 100ft RA before landing,
     - 9.5° in CONFIG 0, 15° in CONFIG 1 and 2, 14° in CONFIG 3, 13° in CONFIG FULL
 - Sidestick deflection is >14° when either
     - [High Angle of Attack Protection](#high-angle-of-attack-protection) is active, or
-    - the [Attitude Protection](#attitude-protection) for pitch is active.
+    - the [Pitch Attitude Protection](#pitch-attitude-protection) for pitch is active.
 
 !!! warning "The above values for &alpha;~floor~ and sidestick deflection are not modelled realistically in Microsoft Flight Simulator."
 
