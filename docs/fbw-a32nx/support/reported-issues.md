@@ -684,6 +684,24 @@ TEMPLATE
 
     ![New Aircraft](../assets/new-aircraft.png){width=50% align=left loading=lazy}
 
+??? tip "Incompatible Keyboard Mapping for Pause Function"
+    ### Incompatible Keyboard Mapping for Pause Function
+
+    !!! tip ""
+        *Affected versions: Stable, Development*
+
+    ^^Description^^
+
+    If the `Pause` function is mapped to any key other than ++esc++ this other key will trigger `Pause` 
+    when typing it into input fields of the EFB or the MCDU when using the keyboard input mode.
+
+    ^^Root Cause^^
+    
+    This is a MSFS limitation for Coherent driven Javascript instruments. 
+
+    ^^Possible Solution or Workaround^^
+
+    Make sure that the `Pause` function is only mapped to the ++esc++ key and not to any other keys.
 ---
 
 ## FBW Installer Issues

@@ -74,6 +74,11 @@ Throttle should have linear sensitivity.
 
 See [Throttle Calibration Guide](feature-guides/flyPad/throttle-calibration.md).
 
+### Keyboard Mapping for Pause Function
+
+Make sure that the `Pause` function is only mapped to the ++esc++ key and not to any other key as otherwise this mapped 
+key will trigger `Pause` in input fields of the EFB or the MCDU when using the keyboard input mode. 
+
 ## Windows Settings
 
 ### UTF8 Support
