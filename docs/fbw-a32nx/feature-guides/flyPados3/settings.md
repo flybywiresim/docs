@@ -50,14 +50,12 @@ Settings for A32NX aircraft configuration.
     - Default for the MCDU setting for acceleration height (above ground).
 - Engine-Out Acceleration Height (ft):
     - Default for the MCDU setting for engine-out acceleration height (above ground).
-- Weight Unit:
-    - The weight unit of the aircraft used for aircraft weight, fuel and simBrief imports.
-- PAX Signs:
-    - Configures if the aircraft should use "No Smoking" or "No Portable Devices" in its ECAM message when the no smoking selector switch on the overhead panel is selected on.
 - ISIS Baro Unit
     - User can set which baro setting he wants to have in the ISIS backup instrument.
 - ISIS Metric Altitude
     - User can set which units setting he wants to have in the ISIS backup instrument.
+- PAX Signs:
+    - Configures if the aircraft should use "No Smoking" or "No Portable Devices" in its ECAM message when the no smoking selector switch on the overhead panel is selected on.
 - RMP VHF Spacing
     - Changes the spacing for selectable frequencies in the RMPs from 8.33kHz to 25kHz and vice versa.
 
@@ -68,6 +66,8 @@ Settings for A32NX aircraft configuration.
 
          See also: [8.33kHz Voice Channel Spacing communications](https://833radio.com/news/show/7){target=new}
 
+- Weight Unit:
+    - The weight unit of the aircraft used for aircraft weight, fuel and simBrief imports.
 ## Sim Options
 
 Settings for simulation aspects of the A32NX aircraft.
@@ -102,10 +102,6 @@ Settings for simulation aspects of the A32NX aircraft.
         !!! warning "Synchronization Issues Expected"
             The aircraft's custom Flight Management System provides better accuracy and features over the default flight plan manager in Microsoft Flight simulator which results in issues syncing the flight plan from the MCDU back into the simulator. Do not expect it to work properly in all cases.
  
-- External MCDU Server Port
-    - User can change the port for the internal MCDU websocket server in case the default port is already occupied on the user's system.
-    - Default is: 8380
-    - ~~This is not the port for using in the browser to access the MCDU Web Interface.~~
 - Enable MCDU Server Connection
     - Auto:
         - The MCDU attempts to connect to the MCDU Server for 5min after pressing "Ready to Fly" (`Active` is shown).
@@ -116,6 +112,10 @@ Settings for simulation aspects of the A32NX aircraft.
         - If `Inactive` is shown, but you want to connect to the MCDU server just click on `Off` and then `Auto` again.
     - Off:
         - The MCDU will not make any attempts to connect to the MCDU Server.
+- External MCDU Server Port
+    - User can change the port for the internal MCDU websocket server in case the default port is already occupied on the user's system.
+    - Default is: 8380
+    - ~~This is not the port for using in the browser to access the MCDU Web Interface.~~
 - Dynamic Registration Decal:
     - The dynamic registration number decal shown on the external livery can be disabled to improve appearance when using liveries with a static registration number.
 - Use calculated ILS signals
@@ -153,19 +153,6 @@ Settings for realism aspects of the A32NX aircraft.
 - Boarding Time:
     - User can set the simulated boarding time to either a realistic time (~15min), a faster time (~3-4min), or instant.
         - Based on full load - 174 passengers and full cargo.
-- MCDU Keyboard Input (unrealistic)
-    - Enables the MCDU Keyboard input feature (see [MCDU Keyboard](../mcdu-keyboard.md)).
-- MCDU Focus Timeout (s)
-    - The timeout feature will automatically deactivate the focus of the MCDU screen after the given amount of seconds.
-    - Valid range is 5 - 120 seconds.
-- Separate Tiller from Rudder Inputs
-    - User can choose to use how the nose wheel shall be controlled:
-        - Legacy mode (Disabled): Rudder controls also move the nose wheel. No separation.
-        - Realistic mode (Enabled): Nose Wheel steering with tiller handwheel is separate from the rudder.
-            - See our guide: [Nose Wheel and Tiller Operation](../nw-tiller.md)
-- Cockpit Mode
-    - Removes backlight bleed from PFD, ND, and ECAMs
-    - Removes reflection from the ISIS
 - DATALINK transmission time
     - Instant: sends and receives messages within two seconds
     - Fast: sends and receives messages within twenty seconds
@@ -174,6 +161,20 @@ Settings for realism aspects of the A32NX aircraft.
 - Autofill Checklists
     - Supports the user with checking items from the checklists by watching the corresponding switches, knobs and 
       buttons and setting the checklist item to complete when the setup is correct.  
+- Home Cockpit Mode
+    - Removes backlight bleed from PFD, ND, and ECAMs
+    - Removes reflection from the ISIS
+- Separate Tiller from Rudder Inputs
+    - User can choose to use how the nose wheel shall be controlled:
+        - Legacy mode (Disabled): Rudder controls also move the nose wheel. No separation.
+        - Realistic mode (Enabled): Nose Wheel steering with tiller handwheel is separate from the rudder.
+            - See our guide: [Nose Wheel and Tiller Operation](../nw-tiller.md)
+- MCDU Keyboard Input (unrealistic)
+    - Enables the MCDU Keyboard input feature (see [MCDU Keyboard](../mcdu-keyboard.md)).
+- MCDU Focus Timeout (s)
+    - The timeout feature will automatically deactivate the focus of the MCDU screen after the given amount of seconds.
+    - Valid range is 5 - 120 seconds.
+    - Setting is only available if MCDU Keyboard Input is enabled.
 
 ## ATSU/AOC
 
@@ -203,6 +204,10 @@ Settings for integrations with various data and information sources.
     - MeteoBlue is the weather service the sim uses as well.
 - TAF Source:
     - Choose which Terminal Area Forecast (TAF) service should be used.
+- Automatically Import SimBrief Data
+    - Imports latest SimBrief flight automatically when starting the flyPad.   
+- Error Reporting
+    - Enables error reports to be sent to Sentry.io to allow the FlyByWire team to easier find and fix issues with the aircraft.
 - TELEX:
     - Enables free text and live map ([FlyByWire Live Map](https://flybywiresim.com/map/){target=new}).
 
@@ -219,13 +224,9 @@ Settings for integrations with various data and information sources.
 
 - Simbrief Username/Pilot ID
     - See [next chapter](#simbrief-integration)
-- Automatically Import SimBrief Data
-    - Imports latest SimBrief flight automatically when starting the flyPad.   
 - Hoppie User ID:
     - Unique logon code that is used to identify the user for the Hoppie ACARS communication.
     - See [Create a logon code](../hoppie.md#create-a-logon-code) in our documentation for Hoppie ACARS.
-- Error Reporting
-    - Enables error reports to be sent to Sentry.io to allow the FlyByWire team to easier find and fix issues with the aircraft.
 
 ### SimBrief Integration
 
@@ -269,11 +270,11 @@ Settings for various audio sources and sounds.
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
 
+- Volume Sliders:
+    - Dynamically adjust various audio elements while in the virtual cockpit.  
 - PTU Audible in Cockpit (unrealistic):
     - The aircraft's PTU sound (barking sound) is not audible in the cockpit in the real aircraft.
     - To make it audible in the cockpit set this option to on.
-- Volume Sliders:
-    - Dynamically adjust various audio elements while in the virtual cockpit.  
 - Passenger Ambience:
     - Select if passenger audio sounds should be played.  
 - Announcements:
@@ -306,22 +307,33 @@ Settings for the flyPad itself.
 
 ### Usage
 
-- Brightness:
-    - Manually set brightness of the flyPad
-- Auto Brightness:
-    - Sets the brightness of the flyPad automatically based on the time of day.
-- Theme:
-    - Select which coloring theme the flyPad should have.
+- Language
+    - Selects the flyPad language
+- Onscreen Keyboard Layout
+    - Selects the keyboard layout of the flyPad's on screen keyboard
 - Automatically Show Onscreen Keyboard:
     - A virtual keyboard will appear whenever an input field is entered by the user. 
+- Auto Brightness:
+    - Sets the brightness of the flyPad automatically based on the time of day.
+- Brightness:
+    - Manually set brightness of the flyPad.
+    - This setting is only available if Auto Brightness is off.
+- Battery Life Simulated
+    - If enabled the flyPad battery will discharge if aircraft is not powered.
+    - The battery will last about 9h. 
+    - If the sim's time is changed forward 9+h after loading the flight the battery will be empty.
+    - Battery will be charged if the aircraft is powered (Ext. Power, APU, one engine)
+- Show Status Bar Flight Progress:
+    - Select if the progress of the flight shall be shown in the top status of the flyPad screen.
+- Show Colored Metar:
+    - Enable or disable the colored raw METAR on the flyPad Dashboard.
 - Time Displayed:
     - Select which time should be displayed in the top bar of the flyPad screens.  
 - Local Time Format:
-    - Select if local time should be shown in 12 or 24 hours format. 
-- Show Status Bar Flight Progress:
-    - Select if the progress of the flight shall be shown in the top status of the flyPad screen.
-- Colored Metar:
-    - Enable or disable the colored raw METAR on the flyPad Dashboard.
+    - Select if local time should be shown in 12 or 24 hours format.
+    - This setting is only available if Time Displayed is showing local time.
+- Theme:
+    - Select which coloring theme the flyPad should have.
 
 ### About
 
