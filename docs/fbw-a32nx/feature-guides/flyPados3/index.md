@@ -53,6 +53,16 @@ To **TURN ON** and **TURN OFF** the flyPad you can either:
     - To turn it off (standby) click on the On-Off symbol in the top right corner.
     - Turn off and reset the flyPad by clicking and holding the the On-Off symbol.
 
+## Battery Life
+
+The battery life of the flyPad is simulated by discharging the battery over time (120min) when the aircraft is not 
+powered. 
+
+This can happen quickly if you change the time of day of the sim after starting the flight.
+
+If the flyPad is empty, it will show a red empty battery symbol. To charge it you only need to power up the aircraft 
+(Ext. Pwr, APU or at least one engine).
+
 ## flyPad Pages
 
 - [flyPad Dashboard](dashboard.md)
