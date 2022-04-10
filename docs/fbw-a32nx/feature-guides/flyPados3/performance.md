@@ -113,7 +113,8 @@ Example:
 
 The primary purpose of this calculator is to aid the flight crew in assessing whether a landing can be safely made within the given runway length in existing conditions. The pilot can also use this tool to determine the appropriate level of braking and whether reverse thrust is needed to stop within the available runway distance. 
 
-The calculator results are shown both numerical and graphically. Variations in airplane configuration, approach speed, runway surface condition, and other parameters can also be investigated to see their effect on the airplane's landing distance. The landing distance results include a safety margin of 15% added to the calculated distance.
+The calculator results are shown both numerically and graphically. Variations in airplane configuration, approach 
+speed, runway surface condition, and other parameters can also be investigated to see their effect on the airplane's landing distance. The landing distance results include a safety margin of 15% added to the calculated distance.
 
 <div style="position: relative;">
     <img src="/fbw-a32nx/assets/flypados3/flypad-performance-landing.png" style="width: 100%; height: auto;" loading="lazy">
@@ -142,7 +143,7 @@ For expanded information and examples see the linked page below.
 [Landing Calculator Additional Info](../../../pilots-corner/advanced-guides/flight-planning/landing-calculations.md){.md-button target=new}
 
 - Wind, Temperature, QNH:
-    - This information can be obtained from METAR or ATIS.
+    - This information can be obtained from the METAR or ATIS.
 
 - Rwy Altitude:
     - This information can be obtained from the airport chart (see example below).
@@ -151,16 +152,16 @@ For expanded information and examples see the linked page below.
     - This information can be obtained from the airport chart (see example below).
 
 - Rwy Condition:
-    - This information can be obtained from METAR or ATIS and from NOTAMS on the OFP (Operational Flight Plan).
-    - SimBrief provides field condition reports (FICON) which helps populate appropriate data for this field.
+    - This information can be obtained from the METAR or ATIS and from NOTAMs on the OFP (Operational Flight Plan).
+    - SimBrief provides field condition reports (FICONs) which helps populate appropriate data for this field.
         - For detailed information see the [RWY Conditions](../../../pilots-corner/advanced-guides/flight-planning/landing-calculations.md#rwy-conditions){target=new} section on the landing calculator additional info page.
 
 - Rwy Slope:
     - This information can be obtained from the airport chart (see example in [Landing Calculator Additional Info](../../../pilots-corner/advanced-guides/flight-planning/landing-calculations.md#example-chart){target=new}) but requires a little calculation.
     - Formula: (((Runway elevation on touchdown side) - (Runway elevation on far side)) / Runway length) * 100.
     - Eg. EDDM 26R: 1.449ft - 1.467ft = -18ft.
-    - Then -18ft / 13.123ft = -0,00137.
-    - Then -0,00137 * 100 = -0.137% slope.
+    - Then -18ft / 13.123ft = -0.00137.
+    - Then -0.00137 * 100 = -0.137% slope.
 
 - Rwy LDA (Landing Distance Available):
     - This information can be obtained from the airport chart (see example below).
@@ -184,6 +185,7 @@ For expanded information and examples see the linked page below.
 
 - Reverse Thrust:
     - Will reverse thrust be used (Yes or No)?
+    - Use of reverse thrust on a wet or contaminated runway would be considered necessary for safety reasons.
     - May be subject to airport requirements. If there are airport requirements regarding the use of reverse thrust, these can be found on the airport chart (see example below).
 
     ![Airport Chart Information](../../assets/flypados3/performance-landing-charts-reverser.png "Airport Chart Information"){loading=lazy}
