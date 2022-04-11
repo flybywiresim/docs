@@ -430,18 +430,37 @@ Click on "Save & Apply".
 
     #### Throttle Mapping
 
-    The mapping required for the Bravo is shown in this screenshot:
-
-    ![Bravo-MSFS-Mapping](../../assets/flypad/throttle-calibration/bravo-msfs-mapping1.png "Bravo-MSFS-Mapping"){loading=lazy}
-
     You might need to use `THROTTLE 1/2 AXIS` and not `THROTTLE 1/2 AXIS (0 TO 100%)`.
 
     Also do make sure to have `REVERSE AXIS` unchecked!
+
+    The mapping required for the Bravo is shown in this screenshot (Please check the appropriate section depending 
+    on what throttle levers you use):
+
+    ---
+
+    **^^Boeing Throttle Levers (Base Product)^^**
+    
+    ![Bravo-MSFS-Mapping](../../assets/flypad/throttle-calibration/bravo-msfs-mapping1.png "Bravo-MSFS-Mapping"){loading=lazy}
 
     The `THROTTLE 1/2 DECREASE` mapping to `Buttons 10,26` and `Buttons 11,27` simulates the reverser when the Bravo's reverser lever is lifted (buttons 10 and 11) and the thrust lever is pulled back (buttons 26 and 27). This activates the buttons configured in the image above and in turn decreases throttle power to negative values for the reverser.
 
     If you release the reverser levers (buttons 10+11) the mapping to `THROTTLE CUT` activates and put the thrust back to idle.
 
+    ---
+
+    **^^Airbus Throttle Levers (Separate Purchase)^^**
+    
+    ![Bravo-MSFS-Mapping](../../assets/flypad/throttle-calibration/bravo-airbus-msfs-mapping.png){loading=lazy}
+
+    For the Airbus pack the `THROTTLE 1/2 DECREASE` mapping to `Buttons 30,26` and `Buttons 48,27` simulates the 
+    reverser when the Bravo's reverser lever is lifted (buttons 30 and 48) and the thrust lever is pulled back (buttons 
+    26 and 27). This activates the buttons configured in the image above and in turn decreases throttle power to negative values for the reverser.
+
+    ---
+
+    **^^GA Levers (Base Product)^^**
+    
     If you use the GA levers you will need to map the reverser to some other button, e.g. on your yoke/side stick, as the reverser buttons (10, 11) will not be there.
 
     #### Calibrating in the FlyByWire flyPad (EFB)
