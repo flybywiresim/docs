@@ -230,30 +230,6 @@ To quickly locate `%appdata%`:
 !!! warning ""
     This is not your community directory
 
-### Clean Install Batch File
-
-To help with the clean install you can also use the Windows batch file below to do the cleaning for you.
-
-Create a new empty file called "clean_fbw.bat" on your Desktop and copy & paste this into it. Save and run it.
-
-``` bat title="Windows Batch File"
-@echo off
-set "UserList="
-set Users="dir C:\Users\ /B"
-setlocal enableDelayedExpansion
-for /F "tokens=1*" %%a in ('%Users%') do (
-    set "Name=%%a"
-    set "UserList=!UserList! "
-    set "UserList=!UserList!%%a"
-)
-(for %%a in (%UserList%) do (
-    del "C:\Users\%%a\AppData\Roaming\Microsoft Flight Simulator\Packages\flybywire-aircraft-a320-neo\*.*"
-    del "C:\Users\%%a\AppData\Roaming\Microsoft Flight Simulator\Packages\a32nx\*.*"
-    del "C:\Users\%%a\AppData\Local\Packages\Microsoft.FlightSimulator_8wekyb3d8bbwe\LocalState\packages\flybywire-aircraft-a320-neo\*.*"
-    del "C:\Users\%%a\AppData\Local\Packages\Microsoft.FlightSimulator_8wekyb3d8bbwe\LocalState\packages\a32nx\*.*"
-))
-```
-
 ***
 
 ## Contributing
