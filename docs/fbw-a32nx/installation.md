@@ -157,7 +157,25 @@ If your issue is not related to installation visit - [**Reported Issues**](suppo
 
 ## Clean Install Steps
 
-To perform a clean install you first have to delete the `flybywire-aircraft-a320-neo` folder from your community folder.
+### Automatic Clean Install
+
+FBW Installer version 3.0.0 introduced the `Uninstall` feature. To perform an automatic clean install:
+
+- Ensure you have the latest FBW Installer on your machine. 
+    - The installer updates itself. If you would like to 
+    download our installer again see the [FlyByWire Installer Section](#flybywire-installer).
+- Click on the "Uninstall" button.
+
+!!! tip ""
+    This removes the aircraft from your community folder and the extra files in `%appdata` or `%localappdata`.
+
+    Your `Work` folder is retained to save your throttle configuration, FDR files, and any other presets we save. 
+    (These are small files and do not need to be deleted to fulfill a "clean install" state.)
+
+### Manual Clean Install
+
+If you would like to manually perform a clean install you first have to delete the 
+`flybywire-aircraft-a320-neo` folder from your community folder.
 
 We also store additional information related to the aircraft in a separate directory which is built when you load the aircraft in the simulator. You also need to delete the contents of this folder but not the folder itself. 
 
@@ -180,7 +198,7 @@ Once in the correct directory delete the files show here:
 
     **It is up to you to keep this folder or not.**
 
-### Microsoft Store Version
+#### Microsoft Store Version
 
 The folder can be found here:
 
@@ -196,7 +214,7 @@ To quickly locate the `%localappdata%`:
 !!! warning ""
     This is not your community directory
 
-### Steam Version
+#### Steam Version
 
 The folder can be found here:
 
