@@ -1,3 +1,17 @@
+Known issues with page:
+
+1. Table is too wide for page so it has a slider, need to get rid of slider
+2. entry paterns are not discussed in depth, is this a issue? i (sven) dont think it belongs in this guide
+3. Notes ,in the Example charts to aquire hold information, are a little faded ish. would like to make them bright white or some other more stand out color
+4. Last exit is a little strangly positioned on the page now, i (sven) didnt quite know a better place unfortionatly
+5. The [video of 320 Sim Pilot](#video-tutorial-by-320-sim-pilot) is embedded in the page at the bottom, there is no supporting text or copywrite thing, what is desired here?
+6. The rank of titles is a little odd, please advise if there is a more logical solution here
+7. A thorough spelling and grammar check has not yet been done by me
+9. Images at [Leaving the hold](#leaving-the-hold) do not have any subscript, I (Sven) think it might be good to add a little supportive text there
+8. Images are not yet optimized and the images are made in Powerpoint, I (Sven) have the powerpoint file to make changes to the figures.  Plan is to optimize after content of figure is good. Would it be helpfull to place the powerpoint file in the assets/hold directory? please let me know what is desired here.
+
+Now the real page will start. 
+
 # Holds
 
 !!! warning "Not available in the Stable Version"
@@ -48,7 +62,8 @@ Now that you know where to hold, you should know how to set up the hold. To do t
 
     === "1"
 
-        Lorum ipsum
+        
+
 
         ![HOLD1](../../assets/advanced-guides/holds/HOLD1.png)
 
@@ -62,7 +77,7 @@ Now that you know where to hold, you should know how to set up the hold. To do t
 
     === "2"
 
-        Lorum ipsum
+        >**_NOTE:_**  The altitude constraints of the fix SUGOL are not relevant for the altitude constraints of the hold at SUGOL. The same principle applies to speed restrictions aswell.
 
         ![HOLD2](../../assets/advanced-guides/holds/HOLD2.png)
 
@@ -73,7 +88,7 @@ Now that you know where to hold, you should know how to set up the hold. To do t
         
     === "3"
 
-        Lorum ipsum
+        
 
         ![HOLD3](../../assets/advanced-guides/holds/HOLD3.png)
 
@@ -84,7 +99,7 @@ Now that you know where to hold, you should know how to set up the hold. To do t
 
     === "4"
 
-        Lorum ipsum
+        >**_NOTE:_**  The design of the chart makes it confusing what the leg length is for the DVN hold. An argument could be made that this is 3.4 NM, however, 3.4 is just the length between the D11.0 SPL and the DVN fix and has no influence over the hold leg length.
 
         ![HOLD4](../../assets/advanced-guides/holds/HOLD4.png)
 
@@ -95,7 +110,7 @@ Now that you know where to hold, you should know how to set up the hold. To do t
     
     === "5"
 
-        Lorum ipsum
+        >**_NOTE:_**  Holds at BOTON and PANZE have a mimimum hold altitude dictated by the minimum flight altitude 6000FT of the earlier and following legs. 
 
         ![HOLD5](../../assets/advanced-guides/holds/HOLD5.png)
 
@@ -106,11 +121,11 @@ Now that you know where to hold, you should know how to set up the hold. To do t
         | PANZE         | *049°             |Left                | STD           | STD        |-      | 6000FT        |
         | CAMRN         | 041°              |Left                | STD           | 210KT      |14000FT| 6001FT        |
         
-        The inbound course can be calulated by subtracting or adding 180 to the reciprocal.
+        *The inbound course can be calulated by subtracting or adding 180 to the reciprocal.
 
     === "6"
 
-        Lorum ipsum
+        
 
         ![HOLD6](../../assets/advanced-guides/holds/HOLD6.png)
 
@@ -121,7 +136,7 @@ Now that you know where to hold, you should know how to set up the hold. To do t
 
     === "7"
 
-        Lorum ipsum
+        
 
         ![HOLD7](../../assets/advanced-guides/holds/HOLD7.png)
 
@@ -131,7 +146,7 @@ Now that you know where to hold, you should know how to set up the hold. To do t
 
     === "8"
 
-        Lorum ipsum
+        
 
         ![HOLD8](../../assets/advanced-guides/holds/HOLD8.png)
 
@@ -142,7 +157,7 @@ Now that you know where to hold, you should know how to set up the hold. To do t
     
     === "9"
 
-        Lorum ipsum
+        
 
         ![HOLD9](../../assets/advanced-guides/holds/HOLD9.png)
 
@@ -154,13 +169,13 @@ Now that you know where to hold, you should know how to set up the hold. To do t
 
     === "10"
 
-        Lorum ipsum
+        >**_NOTE:_**  The leg length for the CRS hold is presented as a distance from another naviagional beacon.
 
         ![HOLD10](../../assets/advanced-guides/holds/HOLD10.png)
 
         |Fix            | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
         | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
-        | CRS           | 001°              |Left                |Until CVO VOR reads 34.0 NM|STD|-   | FL120         |
+        | CRS           | 001°              |Left                |Until D34.0 CVO|STD|-   | FL120         |
      
 ## Hold Standards
 
@@ -269,3 +284,7 @@ The TCAS system should remain on TA/RA when flying in the hold, however it might
 The plane will continue to fly in the hold until a pilot gives the command to the FMS to leave. During the hold the F-PLN page will display IMM EXIT in amber. To leave the hold all a pilot has to do is to press the LSK right of the IMM EXIT. The amber text will now change in RESUME HOLD. When RESUME HOLD is displayed the aircraft will complete the remaining hold lap and continue its flightplan when it reaches the hold fix again.
 
 ![Hold Modes](../../assets/advanced-guides/holds/MCDU-hold-14.png)
+
+# Video Tutorial by 320 Sim Pilot
+
+<iframe width="826" height="465" src="https://www.youtube.com/embed/NYlSICln1So" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
