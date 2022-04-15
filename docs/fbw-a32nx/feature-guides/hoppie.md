@@ -85,21 +85,6 @@ The Hoppie ACARS system will log you in automatically provided the following ite
 - The weather source is set to VATSIM or IVAO.
     - See [EFB Settings ATSU/AOC](flyPad/settings.md#atsuaoc).
 
-### Realism
-
-The real CPDLC system guarantees a maximum communication time between sending and transmitting a message of 240 seconds. A datalink system is simulated and all AOC and ATC requests are synchronized via this module.
-
-The datalink simulation speed can be configured in the [EFB Settings Realsim](./flyPad/settings.md#realism) page.
-![Realism](../assets/feature-guides/hoppie/efb-settings-realism.png "Realism page"){loading=lazy}
-
-It is possible to configure the simulated waiting time between sending and receiving messages.
-
-Three different transmission times can be defined:
-
- - Instant: sends and receives messages within two seconds
- - Fast: sends and receives messages within twenty seconds
- - Real: sends and receives messages within sixty seconds
-
 ## Example flight
 
 This chapter shows an example how a normal flight on VATSIM is handled with PDC and CPDLC.
