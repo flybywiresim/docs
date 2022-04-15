@@ -16,6 +16,7 @@
     - Automatic D-ATIS
     - Departure Clearance (DCL)
     - Oceanic Clearance (OCL)
+    - Realistic datalink communication simulation (VHF+VDL3)
 
     The currently planned future releases are adding these features:
 
@@ -26,7 +27,6 @@
     - Controller report-requests and automatic preparation of pilot replies
     - FPL changes for Lat requests
     - Flight Monitoring for conditional reports
-    - Realistic datalink communication simulation (VHF+VDL3)
 
     This plan might change at any time.
 
