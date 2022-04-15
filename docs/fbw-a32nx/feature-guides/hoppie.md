@@ -16,6 +16,7 @@
     - Automatic D-ATIS
     - Departure Clearance (DCL)
     - Oceanic Clearance (OCL)
+    - Realistic datalink communication simulation (VHF+VDL3)
 
     The currently planned future releases are adding these features:
 
@@ -26,7 +27,6 @@
     - Controller report-requests and automatic preparation of pilot replies
     - FPL changes for Lat requests
     - Flight Monitoring for conditional reports
-    - Realistic datalink communication simulation (VHF+VDL3)
 
     This plan might change at any time.
 
@@ -78,32 +78,12 @@ The logon code needs to be set in "Hoppie User ID".
 
 ### Turning on Hoppie ACARS
 
-You need to turn on the Hoppie ACARS Connection on the EFB ATC page every time before doing a flight.
+The Hoppie ACARS system will log you in automatically provided the following items are complete:
 
-![Hoppie Connect/Disconnect Button](../assets/feature-guides/hoppie/efb-atc-hoppie-button.png "Hoppie Connect/Disconnect Button"){loading=lazy}
-
-{==
-
-The button "Connect" is reset with every restart of the simulator or reloading of the aircraft. It is required to activate it if the CPDLC system shall be used.
-
-This is necessary to avoid traffic on the Hoppie Network when not using the feature.
-
-==}
-
-### Realism
-
-The real CPDLC system guarantees a maximum communication time between sending and transmitting a message of 240 seconds. A datalink system is simulated and all AOC and ATC requests are synchronized via this module.
-
-The datalink simulation speed can be configured in the [EFB Settings Realsim](./flyPad/settings.md#realism) page.
-![Realism](../assets/feature-guides/hoppie/efb-settings-realism.png "Realism page"){loading=lazy}
-
-It is possible to configure the simulated waiting time between sending and receiving messages.
-
-Three different transmission times can be defined:
-
- - Instant: sends and receives messages within two seconds
- - Fast: sends and receives messages within twenty seconds
- - Real: sends and receives messages within sixty seconds
+- Logon code is entered.
+- A flight number is set.
+- The weather source is set to VATSIM or IVAO.
+    - See [EFB Settings ATSU/AOC](flyPad/settings.md#atsuaoc).
 
 ## Example flight
 
