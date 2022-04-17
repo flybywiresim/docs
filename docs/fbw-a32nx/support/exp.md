@@ -4,7 +4,8 @@ The Experimental version is a test version to find problems, issues and to impro
 
 {--
 
-Currently experimental is geared toward testing the initial version of VNAV. Please use the appropriate discord thread **#cFMS LNAV+VNAV Issue Reports** to discuss any issues.
+Currently experimental is geared toward testing the initial version of VNAV. Please use the appropriate discord 
+thread to report any issues - [How to Report Issues](#how-to-report-issues).
 
 --}
 
@@ -113,6 +114,9 @@ These features are not yet available but are generally planned and might be impl
     [cFMS LNAV+VNAV Issue Reports [NO SUPPORT]](https://discord.com/channels/738864299392630914/926586416820011098){target=new .md-button}
 
     [flyPadOS3 Experimental - Issue Reports [NO SUPPORT]](https://discord.com/channels/738864299392630914/926586416820011098){target=new .md-button}
+
+    [General Experimental Issue Reports [NO SUPPORT]](https://discord.
+    com/channels/738864299392630914/965072479796215888){target=new .md-button}
 
     {--
 
