@@ -1,0 +1,1 @@
+{{ external_markdown('https://raw.githubusercontent.com/flybywiresim/a32nx/master/docs/a320-events.md', '') }}
