@@ -6,8 +6,8 @@ In addition to the above documentation all custom variables and custom events ar
 
 ## Docs:
 
-- [Custom LVARs](https://github.com/flybywiresim/a32nx/blob/master/docs/a320-simvars.md){target=new}
-- [Custom Events](https://github.com/flybywiresim/a32nx/blob/master/docs/a320-events.md){target=new}
+- [Custom LVARs](../../dev-corner/dev-guide/a32nx-repo-docs/a320-simvars.md){target=new}
+- [Custom Events](../../dev-corner/dev-guide/a32nx-repo-docs/a320-events.md){target=new}
 
 ## Templates
 
