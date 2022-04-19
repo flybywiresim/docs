@@ -541,6 +541,10 @@ Click on "Save & Apply".
             - See [Work Folder Section](#work-folder) for details.
         - Fix the problematic detent's deadband size to be large than 0.05.
 
+        You can also now manually define the value of each button stroke step size. For more information see [Change 
+        Key Increments Manually](#change-key-increments-manually) section below. **This is an advanced configuration 
+        option and should not be needed for normal use.**
+
     The default Microsoft Flight Simulator mappings is:
 
     - ++ctrl+f1++: Set throttles to `IDLE`
@@ -612,11 +616,11 @@ Click on "Save & Apply".
 
     ==No calibration required for the Xbox controller - read below!==
 
-
     The Xbox-Controller (or any other game controller) is very similar to controlling the throttle with the keyboard. It uses buttons to increase and decrease the throttles.
 
     Therefore read the [Keyboard](#keyboard) section section but instead of ++f2++ or ++f3++ use the buttons mapped to throttle increase and decrease on your controller.
-    See also the [Keyboard Special Mapping](#keyboard-special-mapping) as this also works for the Xbox buttons.
+    See also the [Keyboard Special Mapping](#keyboard-special-mapping) and the [Change 
+    Key Increments Manually](#change-key-increments-manually) sections as this also works for the Xbox buttons.
 
     For the Xbox-Controller the default buttons are:
 
@@ -746,6 +750,29 @@ flex_mct_low = 0.42
 flex_mct_high = 0.52
 toga_low = 0.95
 toga_high = 1.00
+```
+
+#### Change Key Increments Manually
+
+!!! warning ""
+    Not available on the Stable Versions
+
+As an option users can define the increment that is used when key events are pressed (normal and small) when 
+attempting to move the throttle. This will notably affect keyboard and controller users should you decide to 
+increase or decrease these ranges.
+
+You would need to add the following lines to your `ThrottleConfiguration.ini` file, save it, and load it into the 
+EFB in the simulator.
+
+!!! tip ""
+    **Note:** The lines that start with `; text here` indicate a comment describing the value and are not needed as part of the configuration.
+
+```ini title="Key Increment Configuration Parameters"
+[throttle_common]
+; determines the increment for a key event (+/-):
+key_increment_normal = 0.05
+; determines the increment for a "small" key event (+/-):
+key_increment_small = 0.025
 ```
 
 <!--## Additional Video Guides-->
