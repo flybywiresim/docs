@@ -97,6 +97,7 @@ These features are not yet available but are generally planned and might be impl
     - Doors will appear closed after gravity extension visually, but they stay opened internally
 - Gravity extension can't be reverted. It's possible internally but feature is turned off until handle animation works
 - Wheels page not updated yet
+- Sounds might have some issues, update is coming soon (and it's amazing)
 
 ### Vertical Guidance Issues
 
