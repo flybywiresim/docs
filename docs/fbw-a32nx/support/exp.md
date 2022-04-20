@@ -14,7 +14,7 @@ thread to report any issues - [How to Report Issues](#how-to-report-issues).
 
 ## Implemented Features for Testing
 
-### Hydraulic gear system
+### Hydraulic Gear System
 
 - Rigid body physics of doors and gears
 - Dual LGCIU computers implementation with possible failures
