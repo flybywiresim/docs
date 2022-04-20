@@ -91,7 +91,7 @@ These features are not yet available but are generally planned and might be impl
 
 ## Known Issues
 
-### Hydraulic gear system
+### Hydraulic Gear System Issues
 
 - Doors animations are wrong due to default 3D model issues. Door positions are internally simulated correctly
     - Doors will appear closed after gravity extension visually, but they stay opened internally
