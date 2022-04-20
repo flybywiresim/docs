@@ -19,7 +19,7 @@ thread to report any issues - [How to Report Issues](#how-to-report-issues).
 - Rigid body physics of doors and gears
 - Dual LGCIU computers implementation with possible failures
     - Cycling gear handle will switch over to the other LGCIU if available
-- Landging gear lever baulk lock mechanism (both unpowered lgcius will lock lever down)
+- Landing gear lever baulk lock mechanism (both unpowered LGCUIs will lock lever down)
 - Unpowered LGCIU 1 will cause gear light indicator to fail
 - All proximity sensors simulated and some (for now) can be failed
 - Hydraulic system simulated
