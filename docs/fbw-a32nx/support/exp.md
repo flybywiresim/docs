@@ -14,6 +14,20 @@ thread to report any issues - [How to Report Issues](#how-to-report-issues).
 
 ## Implemented Features for Testing
 
+### Hydraulic gear system
+
+- Rigid body physics of doors and gears
+- Dual LGCIU computers implementation with possible failures
+    - Cycling gear handle will switch over to the other LGCIU if available
+- Landging gear lever baulk lock mechanism (both unpowered lgcius will lock lever down)
+- Unpowered LGCIU 1 will cause gear light indicator to fail
+- All proximity sensors simulated and some (for now) can be failed
+- Hydraulic system simulated
+    - Security valve closed above 260kts
+    - All doors / gears / uplock / downlock actuators
+    - Mechanical system of gravity extension can control shut-off / vent valve and uplocks
+- Gravity extension by keeping pressed in-game binding "GEAR EMERGENCY HANDLE TOGGLE" until all gears unlocked
+
 ### Vertical Guidance
 
 - Speed and altitude predictions in the flight plan page, including magenta or amber asterisks.
@@ -76,6 +90,13 @@ These features are not yet available but are generally planned and might be impl
 - Improvements to pushback page
 
 ## Known Issues
+
+### Hydraulic gear system
+
+- Doors animations are wrong due to default 3D model issues. Door positions are internally simulated correctly
+    - Doors will appear closed after gravity extension visually, but they stay opened internally
+- Gravity extension can't be reverted. It's possible internally but feature is turned off until handle animation works
+- Wheels page not updated yet
 
 ### Vertical Guidance Issues
 
