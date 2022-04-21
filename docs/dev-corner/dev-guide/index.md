@@ -18,10 +18,11 @@ It is structured in a series of sections which are based on each other starting 
 
 ##  Topics
 
-| Quick Links                                                | Description                                                                                                                                 |
-| :----                                                      | :----                                                                                                                                       |
-| [Resources](resources.md)                                  | General information and documentation resources                                                                                             |
-| [Setting up Development Environment](setup-environment.md) | From software to troubleshooting everything you need to successfully change and compile the code.                                           |
-| [Contribution Guidelines](contribute.md)                   | From General Development Process and Practices to Pull Requests - everything you need to know to collaborate and contribute to the project. |
-| [Specific Development Areas](specific/)                    | Information for specific parts of the project like the flyPad or avionics.                                                                  |
+| Quick Links                                                | Description                                                                                                                                        |
+|:-----------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Resources](resources.md)                                  | General information and documentation resources                                                                                                    |
+| [Setting up Development Environment](setup-environment.md) | From software to troubleshooting everything you need to successfully change and compile the code.                                                  |
+| [Contribution Guidelines](contribute.md)                   | From General Development Process and Practices to Pull Requests - everything you need to know to collaborate and contribute to the project.        |
+| [A32NX Repository Documentation](a32nx-repo-docs/)         | This section contains A32NX specific documentation from various locations in the [A32NX GitHub Repository](https://github.com/flybywiresim/a32nx). |
+| [Specific Development Areas](specific/)                    | Information for specific parts of the project like the flyPad or avionics.                                                                         |
 
