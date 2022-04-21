@@ -11,9 +11,17 @@ There are basically two types of discontinuities:
 
 ## Discontinuities Between Waypoints
 
-These discontinuities <span style=color:red>should not</span> be cleared from the flight plan. Ideally the NAV mode 
-automatically reverts to the HDG (TRK) mode and pilots should follow ATC guidance (if on network) or use the DIR TO 
-function to proceed to the next waypoint on your flight plan.
+These discontinuities <span style=color:red>should not</span> be cleared from the flight plan in normal operations. Typically, you will notice a discontinuity in the following 
+instances:
+
+- Between the SID and the rest of your route.
+- Between the STAR and the selected approach.
+
+!!! tip ""
+    Approaches that are radar vectored without a MANUAL will also have a discontinuity by design. Please be aware of these approaches and follow the principles outlined below.
+
+Ideally the NAV mode automatically reverts to the HDG (TRK) mode and pilots should follow ATC guidance (if on network) or use the DIR TO function to proceed to the next 
+waypoint on your flight plan.
 
 !!! info "Normal Discontinuity in the MCDU F-PLN Page"
      ![Normal Discontinuity](../../assets/advanced-guides/disco/mcdu-discontinuity-1.png "Normal Discontinuity")
@@ -21,13 +29,6 @@ function to proceed to the next waypoint on your flight plan.
 ## Discontinuities After MANUAL Leg
 
 Sometimes discontinuities are also part of a procedure to indicate that manual guidance is required (mostly directed by ATC). The preceding legs are called MANUAL legs (Manual Termination leg).
-
-{==
-
-Approaches that are radar vectored without a MANUAL will also have a discontinuity by design. Please be aware of 
-these approaches and follow the principles outlined below.
-
-==}
 
 A MANUAL leg stays on a constant TRK or HDG and has no termination point.
 
