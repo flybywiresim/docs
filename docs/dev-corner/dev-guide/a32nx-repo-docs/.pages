@@ -1,3 +1,8 @@
 title: A32NX Repository Documentation
 nav:
+    - Overview: index.md
+    - Systems: systems.md
+    - Systems Guidelines: systems-guidelines.md
+    - Custom Events: a320-events.md
+    - SimVars: a320-simvars.md
     - ...
