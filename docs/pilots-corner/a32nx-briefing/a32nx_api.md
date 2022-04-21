@@ -605,7 +605,7 @@ Flight Deck: [Autobrake and Gear Panel](flight-deck/front/autobrake-gear.md)
 | AUTO BRK LO/MED/MAX   | A32NX_AUTOBRAKES_ARMED_MODE     | 0..3     | R          | Custom LVAR      | 0=DIS, 1=LO, 2=MED, 3=MAX          |
 |                       | A32NX_AUTOBRAKES_ARMED_MODE_SET | -1..3    | W          | Custom LVAR      | -1=techn. 0=DIS, 1=LO,2=MED, 3=MAX |
 |                       | A32NX_AUTOBRAKES_ACTIVE         | 0&#124;1 | R          | Custom LVAR      | 0=not braking, 1=braking           |
-|                       | A32NX_AUTOBRAKES_DECEL_LIGHT    | 0&#124;1 |            |                  |                                    |
+|                       | A32NX_AUTOBRAKES_DECEL_LIGHT    | 0&#124;1 | R          | Custom LVAR      | 0=off, 1=on                        |
 |                       | A32NX.AUTOBRAKE_SET             | 1..4     |            | Custom EVENT     | 1=DIS, 2=LO, 3=MED, 4=MAX          |
 |                       | A32NX.AUTOBRAKE_SET_DISARM      | -        | -          | Custom EVENT     |                                    |
 |                       | A32NX.AUTOBRAKE_SET_LO          | -        | -          | Custom EVENT     |                                    |
