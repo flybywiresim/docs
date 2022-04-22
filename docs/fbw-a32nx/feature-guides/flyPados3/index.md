@@ -55,7 +55,7 @@ To **TURN ON** and **TURN OFF** the flyPad you can either:
 
 ## Battery Life
 
-The battery life of the flyPad is simulated by discharging the battery over time (120min) when the aircraft is not 
+The battery life of the flyPad is simulated by discharging the battery over time (9h) when the aircraft is not 
 powered. 
 
 This can happen quickly if you change the time of day of the sim after starting the flight.

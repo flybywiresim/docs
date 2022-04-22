@@ -29,7 +29,8 @@ lights and display brightness settings.
 #### Changing Preset Name
 
 To change a preset's name click on the current name of the preset and change the name to any string up to 16 
-characters. The name will be saved as soon as you leave the input field.
+characters. When you leave the input field a confirmation dialog will ask you to confirm the name change. Press 
+`Confirm` to save the new name.   
 
 ![img_11.png](../../assets/flypados3/flypad-presets-name-change.png)
 

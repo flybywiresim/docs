@@ -80,15 +80,13 @@ view and pin them, etc. See the list of controls below.
 
 ## Local Files
 
-### Local-API Server Required
+### FlyByWire SimBridge Required
 
-!!! warning "Not yet available"
+For accessing local files from the PC the FlyByWire SimBridge is required. It is currently being developed and will 
+allow access to local files from within the sim. This server is necessary as the sim itself does not allow access 
+to arbitrary files on the PC. 
 
-For accessing local files from the PC the Local-API server is required. It is currently being developed and will 
-allow access to local files from within the sim. This server is necessary as the sim itself does not allow  
-access to arbitrary files on the PC. 
-
-We will provide a detailed documentation for the Local-API server once it is available.
+We will provide a detailed documentation for the FlyByWire SimBridge once it is available.
 
 <div style="position: relative;">
     <img src="/fbw-a32nx/assets/flypados3/local-files-establish-connection.png" style="width: 100%; height: auto;" loading="lazy">

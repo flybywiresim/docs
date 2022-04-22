@@ -134,13 +134,13 @@ speed, runway surface condition, and other parameters can also be investigated t
 
 ### Usage
 
-Enter the required data into the calculator fields. The initial state of the calculator will have all input fields blank except for runway condition (Dry), flap setting (Full), overweight procedure (No), and reverse thrust (No). It is important to note that all fields must be filled in order to activate the "Calculate" button. The "Clear" button will return input fields to the initial state. 
+Enter the required data into the calculator fields. The initial state of the calculator will have all input fields 
+blank except for runway condition (Dry), flap setting (Full), overweight procedure (No), and reverse thrust (No). 
+It is important to note that all fields must be filled in order to activate the "Calculate" button. The "Clear" 
+button will return input fields to the initial state. 
 
-Weather data can be automatically filled by entering an airport ICAO and pressing "Get METAR". How to get the information for all the fields is described in the following section.
-
-For expanded information and examples see the linked page below.
-
-[Landing Calculator Additional Info](../../../pilots-corner/advanced-guides/flight-planning/landing-calculations.md){.md-button target=new}
+Weather data can be automatically filled by entering an airport ICAO and pressing "Get METAR". How to get the 
+information for all the fields is described in the following section.
 
 - Wind, Temperature, QNH:
     - This information can be obtained from the METAR or ATIS.
@@ -154,10 +154,11 @@ For expanded information and examples see the linked page below.
 - Rwy Condition:
     - This information can be obtained from the METAR or ATIS and from NOTAMs on the OFP (Operational Flight Plan).
     - SimBrief provides field condition reports (FICONs) which helps populate appropriate data for this field.
-        - For detailed information see the [RWY Conditions](../../../pilots-corner/advanced-guides/flight-planning/landing-calculations.md#rwy-conditions){target=new} section on the landing calculator additional info page.
+        - For detailed information see the [RWY Conditions](../../../pilots-corner/airliner-flying-guide/runway-conditions.md#rwy-conditions)
+          section on the landing calculator additional info page.
 
 - Rwy Slope:
-    - This information can be obtained from the airport chart (see example in [Landing Calculator Additional Info](../../../pilots-corner/advanced-guides/flight-planning/landing-calculations.md#example-chart){target=new}) but requires a little calculation.
+    - This information can be obtained from the airport chart (see example in [Landing Calculator Additional Info](../../../pilots-corner/airliner-flying-guide/runway-conditions.md#example-chart){target=new}) but requires a little calculation.
     - Formula: (((Runway elevation on touchdown side) - (Runway elevation on far side)) / Runway length) * 100.
     - Eg. EDDM 26R: 1.449ft - 1.467ft = -18ft.
     - Then -18ft / 13.123ft = -0.00137.
@@ -193,3 +194,33 @@ For expanded information and examples see the linked page below.
 - Autoland:
     - If an Autoland is planned then set this to Yes.
 
+### Example Data
+
+Below you can find an example of runway details and how to identify it to input data into the respective fields.
+
+#### Example Chart:
+
+![Airport Chart](../../../fbw-a32nx/assets/flypados3/performance-landing-chart.png "Airport Chart"){loading=lazy}
+
+<sub>*Copyright © 2021 Navigraph / Jeppesen<br/>
+"Navigraph Charts are intended for flight simulation use only, not for navigational use."*</sub>
+
+#### Example 1
+
+This runway can be used for landing with the given circumstances and full flaps in all braking configurations (low, medium, max manual).
+
+![flyPad Performance Calculator Landing](../../../fbw-a32nx/assets/flypados3/performance-landing-ok.png "flyPad Performance Calculator Landing"){loading=lazy}
+
+#### Example 2
+
+This runway's landing distance available is long enough to be used for landing with full flaps only and with max manual
+braking.
+Be aware that there might be other restrictions that prohibit landing of an A320neo on this airport/runway.
+
+![flyPad Performance Calculator Landing](../../../fbw-a32nx/assets/flypados3/performance-landing-maxok.png "flyPad Performance Calculator Landing"){loading=lazy}
+
+#### Example 3
+
+This runway can't be used for landing with the given circumstances. It is similar to Example 2 but has a higher weight and therefore higher approach speed.
+
+![flyPad Performance Calculator Landing](../../../fbw-a32nx/assets/flypados3/performance-landing-notok.png "flyPad Performance Calculator Landing"){loading=lazy}

@@ -66,6 +66,9 @@ Settings for A32NX aircraft configuration.
 
          See also: [8.33kHz Voice Channel Spacing communications](https://833radio.com/news/show/7){target=new}
 
+- FMGC Lat/Lon Waypoint Format
+    - Configures the name format for the [Stored Waypoints](../../../pilots-corner/advanced-guides/data-management.md#stored-waypoints) to be used when 
+      NAT routes are imported via SimBrief.  
 - Weight Unit:
     - The weight unit of the aircraft used for aircraft weight, fuel and simBrief imports.
 ## Sim Options
@@ -153,11 +156,6 @@ Settings for realism aspects of the A32NX aircraft.
 - Boarding Time:
     - User can set the simulated boarding time to either a realistic time (~15min), a faster time (~3-4min), or instant.
         - Based on full load - 174 passengers and full cargo.
-- DATALINK transmission time
-    - Instant: sends and receives messages within two seconds
-    - Fast: sends and receives messages within twenty seconds
-    - Real: sends and receives messages within sixty seconds
-    - See [Hoppie ACARS](../hoppie.md)
 - Autofill Checklists
     - Supports the user with checking items from the checklists by watching the corresponding switches, knobs and 
       buttons and setting the checklist item to complete when the setup is correct.  

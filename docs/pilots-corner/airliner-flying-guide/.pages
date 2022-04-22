@@ -10,4 +10,5 @@ nav:
     - navigation.md
     - altitude-refs.md
     - weather.md
+    - runway-conditions.md
     - ...

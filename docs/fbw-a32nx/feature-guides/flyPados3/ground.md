@@ -21,8 +21,6 @@
 
 This page allows managing ground operation similar to the in-sim ATC ground services but without having to use the in-sim ATC.
 
-It also has more and better features than the default sim ground services.
-
 ### Connect Jet Bridge
 
 When standing at a gate this connects and disconnects the gate's jetway if a jetway is available at the current gate.
@@ -48,7 +46,7 @@ load baggage and then close the cargo door automatically.
 ### Connect External Power
 
 Calls a ground power unit (GPU) if available at the current airport and gate or stand. This can be used if there is 
-no external power available.
+otherwise no external power available.
 
 ### Door Aft
 

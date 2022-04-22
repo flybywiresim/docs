@@ -31,7 +31,8 @@ Go to the flyPad [ATSU/AOC settings page](settings.md#atsuaoc) and select your O
 ## Usage
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypados3/online-atc-frequency.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/fbw-a32nx/assets/flypados3/flypad-online-atc-frequency.png" style="width: 100%; height: auto;" 
+loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
@@ -54,6 +55,3 @@ To get the ATIS information of the channel hover over the station and click on t
 To change a frequency hover over the station and click either `Set Active` or `Set Standby` depending on if you 
 want to immediately set the frequency as the active frequency or just as the standby frequency for later use. 
 
-### Using Hoppie ACARS
-
-See documentation for [Hoppie ACARS](../hoppie.md)
