@@ -149,6 +149,8 @@ also in the charts-widget on the Dashboard.
     ![](../../assets/flypados3/pinned-charts-delete.png){loading=lazy width=70% align=left}
     Click on edit to unpin charts. Of course this can also be done by unchecking the pin symbol in the chart lists. 
 
+You can also remove all pinned charts at once by clicking the `Remove All` button (trash can) above the charts.
+
 !!! block ""
     ![](../../assets/flypados3/pinned-charts-sort.png){loading=lazy width=30% align=left}
     Pinned charts can be sorted by selected one of the sort options. 
