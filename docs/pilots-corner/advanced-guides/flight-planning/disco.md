@@ -11,12 +11,20 @@ There are basically two types of discontinuities:
 
 ## Discontinuities Between Waypoints
 
-These discontinuities can and should be cleared from the flight plan by using the CLR key on the MCDU and selecting the LSK left of the discontinuity.
+These discontinuities <span style=color:red>should not</span> be cleared from the flight plan in normal operations. Typically, you will notice a discontinuity in the following 
+instances:
+
+- Between the SID and the rest of your route.
+- Between the STAR and the selected approach.
+
+!!! tip ""
+    Approaches that are radar vectored without a MANUAL will also have a discontinuity by design. Please be aware of these approaches and follow the principles outlined below.
+
+Ideally the NAV mode automatically reverts to the HDG (TRK) mode and pilots should follow ATC guidance (if on network) or use the DIR TO function to proceed to the next 
+waypoint on your flight plan.
 
 !!! info "Normal Discontinuity in the MCDU F-PLN Page"
      ![Normal Discontinuity](../../assets/advanced-guides/disco/mcdu-discontinuity-1.png "Normal Discontinuity")
-
-If the discontinuity is not deleted and the aircraft overflies the waypoint before the discontinuity, the NAV mode automatically reverts to the HDG (TRK) mode. The pilot then needs to use DIR TO to fly to the next waypoint.
 
 ## Discontinuities After MANUAL Leg
 

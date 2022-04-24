@@ -249,11 +249,8 @@ Verify the flight plan by using the vertical slew keys to scroll through it.
 
     Sometimes discontinuities are also part of a procedure to indicate that manual input is required (mostly clearance by ATC). The preceding legs are called MANUAL legs.
 
-    Discontinuities between waypoints can be cleared from the flight plan by using the CLR key on the MCDU and selecting the LSK left of the discontinuity.
-
-    Discontinuities after MANUAL legs cannot be cleared from the flight plan.
-
-    See our detailed documentation for [Discontinuities](../advanced-guides/flight-planning/disco.md)
+    See our detailed documentation for [Discontinuities](../advanced-guides/flight-planning/disco.md) to understand how to appropriately handle these when encountered on your 
+    F-PLN page.
 
 !!! info "Viewing Flight Plan on ND"
     We can also verify the route looks correct by selecting `Plan` on the EFIS control panel and watching the ND as we scroll through.
