@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="../../../../stylesheets/efb-interactive.css">
+<link rel="stylesheet" href="../../../../stylesheets/toc-tables.css">
 
 # flyPad EFB
 
@@ -51,15 +52,28 @@ To **TURN ON** and **TURN OFF** the flyPad you can either:
 
 ## flyPad Pages
 
-- [flyPad Dashboard](dashboard.md)
-- [flyPad Dispatch](dispatch.md)
-- [flyPad Ground](ground.md)
-- [flyPad Performance](performance.md)
-- [flyPad Naviagtion & Charts](charts.md)
-- [flyPad Online ATC](online-atc.md)
-- [flyPad Failures](failures.md)
-- [flyPad Settings](settings.md)
-- [flyPad Throttle Calibration](throttle-calibration.md)
+|                       Quick Links                        |
+|:--------------------------------------------------------:|
+|             [flyPad Dashboard](dashboard.md)             |
+|              [flyPad Dispatch](dispatch.md)              |
+|                [flyPad Ground](ground.md)                |
+|           [flyPad Performance](performance.md)           |
+|         [flyPad Navigation & Charts](charts.md)          |
+|            [flyPad Online ATC](online-atc.md)            |
+|              [flyPad Failures](failures.md)              |
+|              [flyPad Settings](settings.md)              |
+|  [flyPad Throttle Calibration](throttle-calibration.md)  |
+
+
+
+
+
+
+
+
+
+
+
 
 
 
