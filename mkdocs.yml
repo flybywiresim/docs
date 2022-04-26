@@ -49,6 +49,7 @@ plugins:
   - awesome-pages
   - git-revision-date-localized:
       type: date
+  - external-markdown
   - redirects:
       redirect_maps:
         # Folder: /start/
