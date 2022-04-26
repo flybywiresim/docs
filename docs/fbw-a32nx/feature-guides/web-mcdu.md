@@ -452,9 +452,15 @@ For this to work the browser must be able to reach the MCDU Server via the two T
 ??? warning "MCDU Server: `Waiting for Simulator...` Although Flight is Started"
     The MCDU Server continues to show `Waiting for simulator ...` although the flight is started and aircraft is loaded.
 
-    The web socket port 8380 is already in use.
+    Two known causes:
+    
+    - The web socket port 8380 is already in use.
+    - MCDU Server Connection Timeout 
 
-    Solution: [Websocket Port is Occupied](#websocket-port-is-occupied)
+    Solution: 
+
+    - [Websocket Port is Occupied](#websocket-port-is-occupied)
+    - [MCDU Server Connection Timeout](#mcdu-server-connection-attempts-timeout)
 
 ??? warning "MCDU Server Error: Failed to load printers"
 
