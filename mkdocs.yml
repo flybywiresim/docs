@@ -87,7 +87,7 @@ plugins:
         'fdr.md': 'https://docs.flybywiresim.com/fbw-a32nx/support/#fdr-files'
         'exp.md': 'fbw-a32nx/support/exp.md'
         # Release Notes Permalink
-        'latest-release.md': 'release-notes/v074.md'
+        'latest-release.md': 'release-notes/v075.md'
         # ########################################
         # Needed for URL within the A32NX aircraft
         # ########################################
