@@ -78,7 +78,12 @@ The logon code needs to be set in "Hoppie User ID".
 
 ### Turning on Hoppie ACARS
 
-The Hoppie ACARS system will log you in automatically provided the following items are complete:
+!!! tip ""
+    Please ensure that the Hoppie toggle is set to `Enabled` within the EFB. This can be found on the EFB Settings page under ATSU/AOC. (*Not pictured above*).
+
+    This is important to ensure that a connection is established.
+
+Once the above toggle is set appropriately, the Hoppie ACARS system will log you in automatically provided the following items are complete:
 
 - Logon code is entered.
 - A flight number is set.
