@@ -51,23 +51,37 @@ The ground crew can deactivate the steering system by using a switch in the elec
 
 ### Using an Axis
 
-As Microsoft Flight Simulator does not yet support a separate tiller axis we have used an unused axis to map the movement of your controller to the tiller handwheel.
+Microsoft Flight Simulator introduced a separate nose wheel axis with the launch of Sim Update 9. 
 
-!!! note "MSFS provides an option `SET STEERING` which is unfortunately broken."
+For compatibility, we currently have two settings available for use with our Nose Wheel Tiller implementation. Originally we were utilizing an unused axis to map the movement 
+of your desired controller. Please see the two options below:
 
-We have chosen to use `MIXTURE 4 AXIS (-100% to 100%)` for this.
+- `NOSE WHEEL STEERING AXIS` - <span style=color:green>**Recommended Setting**</span>
+- `MIXTURE 4 AXIS (-100% to 100%)` - <span style=color:orange>To be depreciated soon.</span>
 
-![MSFS Controller Options Mapping](../assets/nw-tiller/handwheel-controller-mapping.png "MSFS Controller Options Mapping"){loading=lazy}
+#### How to Configure NOSE WHEEL STEERING AXIS
 
-Map `MIXTURE 4 AXIS (-100% to 100%)` to the controller axis you want to use for the tiller. It needs to be different from the axis you use for the rudder.
+Find the following setting:
 
-!!! bug "French Version of MSFS"
-    Unfortunately MSFS does not show the `MIXTURE 4 AXIS (-100% to 100%)` axis in the French translation of Microsoft Flight Simulator. The axis should be called `AXE MÉLANGE 4 (-100 À 100%)`. To map the axis you need to switch MSFS to the English language. After mapping (and testing) you can switch MSFS back to French.
+![NWS Axis](../assets/nw-tiller/nws-axis.png){loading=lazy}
+
+Map `NOSE WHEEL STEERING AXIS` to the controller axis you want to use for the tiller. This needs to be different from the axis you use for the rudder.
+
+??? warning "How to configure MIXTURE 4 AXIS (-100% to 100%) - OLD"
+
+    Please this note this configuration <span style=color:orange>will be depreciated soon.</span>
+
+    ![MSFS Controller Options Mapping](../assets/nw-tiller/handwheel-controller-mapping.png "MSFS Controller Options Mapping"){loading=lazy}
+
+    Map `MIXTURE 4 AXIS (-100% to 100%)` to the controller axis you want to use for the tiller. It needs to be different from the axis you use for the rudder.
+
+    !!! bug "French Version of MSFS"
+        Unfortunately MSFS does not show the `MIXTURE 4 AXIS (-100% to 100%)` axis in the French translation of Microsoft Flight Simulator. The axis should be called `AXE MÉLANGE 4 (-100 À 100%)`. To map the axis you need to switch MSFS to the English language. After mapping (and testing) you can switch MSFS back to French.
 
 !!! tip "Example"
     If you have a twistable flight stick like the Thrustmaster TCA Sidestick Airbus Edition and you also have rudder pedals you can map the rudder to your hardware pedals (as it should be) and the sidestick's twist axis for the tiller.
 
-If you use externally configured controls using SPAD.neXt, FSUIPC or Axis and Ohs you can use the `SIMCONNECT:AXIS_MIXTURE4_SET` event. The parameter for full left is -16383, for straight it is 0 and for full right it is +16383.
+If you use externally configured controls using SPAD.neXt, FSUIPC or Axis and Ohs you can use the `SIMCONNECT:AXIS_STEERING_SET` event. The parameter for full left is -16383, for straight it is 0 and for full right it is +16383.
 
 ### Using Keyboard or Controller Buttons
 
