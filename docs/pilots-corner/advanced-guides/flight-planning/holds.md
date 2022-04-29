@@ -16,14 +16,14 @@ Now the real page will start.
 
 !!! warning "Not available in the Stable Version"
 
-## Overview
+# Overview
 
 Holding patterns, as they are officially known, can be used as a delaying tactic for airborne aircraft. Typically holding patterns have a racetrack pattern that can easily be spotted on flight trackers. All holds are made up out of segments, the segments are shown in the figure below. 
 
 ![DEFINITIONS](../../assets/advanced-guides/holds/Holddefinitions.png)
 
 
-### Why Hold?
+## Why Hold?
 Holds are always used to delay aircraft near a navigational fix in certain airspace. There are a lot of reasons airplanes might need to hold, some more common examples are:
 
 - Bad weather passing over the airport
@@ -37,7 +37,8 @@ Sometimes holds are used because of topographical constraints, Innsbruck-Kranebi
 ![LOWI](../../assets/advanced-guides/holds/LOWI.png)
 
 
-### Preparing the hold
+## Identifying Holds
+
 Aircraft can technically hold at any waypoint, if given permission by ATC in advance. Holds that are published on aviation charts are called published holds. For the purpose of this guide we will only take a published hold into consideration. Holds can be spotted on charts in 2 ways where both options can be applied on the same chart. For example look at the chart below. 
 
 Waypoints with published holds can be spotted by a racetrack pattern or holds can be published displayed in a diagram in one of the corners of the main navigation section on the chart. 
@@ -196,10 +197,12 @@ STD Max hold speed is defined by the FAA to be:
 
 
 
-### Entering the hold
+## Programming Holds 
 Now that all information of the hold is known it is time to create a hold in the FMS via the MCDU. A step by step guide to hold at SKENS as with example chart 6 (above) is provided below.
 
-!!! info "Programming the hold"
+### MCDU Setup
+
+!!! info "MCDU Setup"
 
     === "1"
 
@@ -274,12 +277,12 @@ Now that all information of the hold is known it is time to create a hold in the
         Also, the F-PLN page on the MCDU will now show IMM EXIT*. This is needed when [leaving the hold](#leaving-the-hold).
 
 
-### Desending in the hold
+### Descending in the Hold
 Altitude changes are done with the vertical speed mode set at 1000 ft/min. This is to make sure all aircraft are spaced out enough to comply with spacing safety standards/
 
 The TCAS system should remain on TA/RA when flying in the hold, however it might be convenient to switch to ALL or BLW.
 
-### Leaving the hold
+### Leaving the Hold
 
 The plane will continue to fly in the hold until a pilot gives the command to the FMS to leave. During the hold the F-PLN page will display IMM EXIT in amber. To leave the hold all a pilot has to do is to press the LSK right of the IMM EXIT. The amber text will now change in RESUME HOLD. When RESUME HOLD is displayed the aircraft will complete the remaining hold lap and continue its flightplan when it reaches the hold fix again.
 
