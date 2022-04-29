@@ -37,8 +37,7 @@ Sometimes holds are used because of topographical constraints, Innsbruck-Kranebi
 ![LOWI](../../assets/advanced-guides/holds/LOWI.png)
 
 
-## Identifying Holds
-
+## Preparing the hold
 Aircraft can technically hold at any waypoint, if given permission by ATC in advance. Holds that are published on aviation charts are called published holds. For the purpose of this guide we will only take a published hold into consideration. Holds can be spotted on charts in 2 ways where both options can be applied on the same chart. For example look at the chart below. 
 
 Waypoints with published holds can be spotted by a racetrack pattern or holds can be published displayed in a diagram in one of the corners of the main navigation section on the chart. 
