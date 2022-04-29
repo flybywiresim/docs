@@ -12,8 +12,8 @@ For information on how to contribute to bot development visit the Discord bot re
 
 ## Bot Commands
 
-{{ external_markdown('https://raw.githubusercontent.com/Valastiri/discord-bot/docs/.github/command-docs.md', '') }}
+{{ external_markdown('https://raw.githubusercontent.com/flybywiresim/discord-bot/master/.github/command-docs.md', '') }}
 
 ## Changelog
 
-{{ external_markdown('https://raw.githubusercontent.com/Valastiri/discord-bot/docs/.github/CHANGELOG.md', '') }}
+{{ external_markdown('https://raw.githubusercontent.com/flybywiresim/discord-bot/master/.github/CHANGELOG.md', '') }}
