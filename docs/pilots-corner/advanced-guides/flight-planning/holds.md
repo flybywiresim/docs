@@ -12,8 +12,6 @@ Known issues with page:
 
 Now the real page will start. 
 
-# Holds
-
 !!! warning "Not available in the Stable Version"
 
 # Overview
@@ -54,8 +52,7 @@ Now that you know where to hold, you should know how to program the hold. To do 
 5. Maximum airspeed (see Standards below)
 
 !!! tip "Standards"
-
-There are standards for length of legs and airspeeds that have to be respected if no other information is present on the chart. The standards are published in [Hold Standards](#hold-standards).
+    There are standards for length of legs and airspeeds that have to be respected if no other information is present on the chart. The standards are published in [Hold Standards](#hold-standards).
 
 
  
