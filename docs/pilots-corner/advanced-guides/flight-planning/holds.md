@@ -23,13 +23,13 @@ Holding patterns, as they are officially known, can be used as a delaying tactic
 ![DEFINITIONS](../../assets/advanced-guides/holds/Holddefinitions.png)
 
 
-## Why Hold?
-Holds are always used to delay aircraft near a navigational fix in certain airspace. There are a lot of reasons airplanes might need to hold, some more common examples are:
+### Why Hold?
+Holds are always used to delay aircraft near a navigational fix in certain airspace. There are a lot of reasons airplanes might need to hold, where common examples would be:
 
 - Bad weather passing over the airport
 - Traffic
 - To lose energy in the plane (altitude or speed)
-- To burn of fuel
+- To burn off fuel
 
 Sometimes holds are used because of topographical constraints, Innsbruck-Kranebitten International Airport (LOWI) is a good example of such constraint because it is situated in a valley as can be seen in the picture below.
 
@@ -37,20 +37,25 @@ Sometimes holds are used because of topographical constraints, Innsbruck-Kranebi
 ![LOWI](../../assets/advanced-guides/holds/LOWI.png)
 
 
-## Preparing the hold
-Aircraft can technically hold at any waypoint, if given permission by ATC in advance. Holds that are published on aviation charts are called published holds. For the purpose of this guide we will only take a published hold into consideration. Holds can be spotted on charts in 2 ways where both options can be applied on the same chart. For example look at the chart below. 
+## Identifying Holds
+
+Aircraft can technically hold at any waypoint if given permission by or requested from ATC in advance. Holds that are published on aviation charts are called published holds. For the purpose of this guide, we will only take a published hold into consideration. Holds can be identified on charts in 2 different ways, where both options can be applied on the same chart. For example look at the chart below.
+
+![Hold types](../../assets/advanced-guides/holds/HOLD-types.png)
 
 Waypoints with published holds can be spotted by a racetrack pattern or holds can be published displayed in a diagram in one of the corners of the main navigation section on the chart. 
 
-Now that you know where to hold, you should know how to set up the hold. To do this you will need to find information on the chart and move it into the FMS. The main information you need to have is:
+Now that you know where to hold, you should know how to program the hold. To do this you will need to find information on the chart to enter into the FMS. The main information you need to have is:
 
 1. Name of the fix/waypoint
 2. Inbound course
 3. Turning direction
-4. Length of the legs, eather in time or distance*
-5. Maximum airspeed*
+4. Length of the legs, eather in time or distance (see Standards below)
+5. Maximum airspeed (see Standards below)
 
-*There are standards for length of legs and airspeeds that have to be respected if no other information is present on the chart. The standards are published in [Hold Standards](#hold-standards).
+!!! tip "Standards"
+
+There are standards for length of legs and airspeeds that have to be respected if no other information is present on the chart. The standards are published in [Hold Standards](#hold-standards).
 
 
  
@@ -238,10 +243,14 @@ Now that all information of the hold is known it is time to create a hold in the
 
         ![MCDU](../../assets/advanced-guides/holds/MCDU-hold-5.png)
 
-        As can be seen in the chart in example 6 above, the hold has a leg length of 10NM. To enter this in the FMS type '/10' in the MCDU and select LSK3 to feed it in the TIME/DIST box. 
+        As can be seen in the chart, the hold has a leg length of 10NM. To enter this in the FMS type `/10` in the MCDU and select LSK3 to feed it in the TIME/DIST box. 
         The time needed to complete the leg is also re-calculated and is 3.3 minutes in this case. 
 
         If leg distance is constrained by time (as it is for a standard hold) this can be set by typing for example 1.5 in the MCDU and feeding it in the TIME/DIST box. Also now, the leg distance will automatically be re-calculated.
+
+        ![HOLD6](../../assets/advanced-guides/holds/HOLD6.png)
+
+    
 
 
     === "Last Exit"
@@ -283,7 +292,7 @@ The TCAS system should remain on TA/RA when flying in the hold, however it might
 
 ### Leaving the Hold
 
-The plane will continue to fly in the hold until a pilot gives the command to the FMS to leave. During the hold the F-PLN page will display IMM EXIT in amber. To leave the hold all a pilot has to do is to press the LSK right of the IMM EXIT. The amber text will now change in RESUME HOLD. When RESUME HOLD is displayed the aircraft will complete the remaining hold lap and continue its flightplan when it reaches the hold fix again.
+The plane will continue to fly in the hold until a pilot gives the command to the FMS to leave. During the hold the F-PLN page will display IMM EXIT in amber. To leave the hold the pilot has to press the right LSK next to IMM EXIT. The amber text will now change in RESUME HOLD. The aircraft will complete the remaining hold lap and continue its flightplan when it reaches the hold fix again. 
 
 ![Hold Modes](../../assets/advanced-guides/holds/MCDU-hold-14.png)
 
