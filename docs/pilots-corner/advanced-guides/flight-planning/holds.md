@@ -31,7 +31,7 @@ Holds are always used to delay aircraft near a navigational fix in certain airsp
 - To lose energy in the plane (altitude or speed)
 - To burn of fuel
 
-Sometimes holds are used because of topographical constraints, Innsbruck-Kranebitten International Airport (LOWI) is a good example of such constraint because is situated in a vally as can be seen in the picture below.
+Sometimes holds are used because of topographical constraints, Innsbruck-Kranebitten International Airport (LOWI) is a good example of such constraint because it is situated in a valley as can be seen in the picture below.
 
 
 ![LOWI](../../assets/advanced-guides/holds/LOWI.png)
