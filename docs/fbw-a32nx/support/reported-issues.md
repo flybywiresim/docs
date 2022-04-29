@@ -69,6 +69,39 @@ TEMPLATE
 
 -->
 
+??? bug "Your Controls Performance Issues"
+
+    !!! tip ""
+        *Affected versions: Stable, Development*
+
+    ^^Description^^
+
+    If you have this 3rd party addon installed but it is not in use for your flight you may experience degraded performance (FPS) in the simulator.
+
+    ^^Possible Solution or Workaround^^
+
+    - Remove the addon from your community folder if it will not be in use for your flight.
+
+??? bug "Toolbar Pushback Addon Issues"
+    ### Toolbar Pushback Addon Issues
+
+    !!! tip ""
+        *Affected versions: Stable, Development*
+
+    ^^Description^^
+
+    This 3rd party addon may have the following intermittent issues:
+
+    - Stuck aircraft
+    - Unable to taxi
+    - Performance degradation.
+
+    ^^Possible Solution or Workaround^^
+
+    - Remove the addon from your community folder or wait for developer to update or see next item.
+    - Keep the addon but remove it from the toolbar once you have pushed back
+    - Use our EFB which has built in pushback controls or another addon.
+
 ??? bug "3rd Party Interior Textures - Black Screens"
     ### 3rd Party Interior Textures Black Screens
 
@@ -241,16 +274,7 @@ TEMPLATE
 
     ^^Description^^
 
-    Nose wheel steering not working and ECAM might show NW STRG DISC.
-
-    ^^Root Cause^^
-
-    Toolbar Pushback Addon
-
-    ^^Possible Solution or Workaround^^
-
-    - Remove the addon from your community folder or wait for developer to update.
-    - Use our EFB which has built in pushback controls or another addon.
+    See [Toolbar Pushback Addon Issues](#toolbar-pushback-addon-issues)
 
 ??? bug "Unable to Taxi / Aircraft Does Not Move"
     ### Unable to Taxi / Aircraft Does Not Move
@@ -260,16 +284,7 @@ TEMPLATE
 
     ^^Description^^
 
-    Nose wheel steering not working and ECAM might show NW STRG DISC.
-
-    ^^Root Cause^^
-
-    Toolbar Pushback Addon
-
-    ^^Possible Solution or Workaround^^
-
-    - Remove the addon from your community folder or wait for developer to update.
-    - Use our EFB which has built in pushback controls or another addon.
+    See [Toolbar Pushback Addon Issues](#toolbar-pushback-addon-issues)
 
 ??? bug "Autopilot, FADEC, Electrical Systems not Working as Intended (UTF8 Issue)"
     ### Autopilot, FADEC, Electrical Systems not Working as Intended (UTF8 Issue)
@@ -320,6 +335,25 @@ TEMPLATE
 ---
 
 ## Known A32NX Issues
+
+??? warning "SU9 and TCA Throttle Issues"
+
+    !!! tip ""
+        *Affected versions: Stable, Development*
+
+    ^^Description^^
+
+    Sim Update 9 caused previous keybindings to cause the engine start switch in the simulator to have erratic behavior causing an input leak making the switch unusable.
+
+    ^^Root Cause^^
+
+    Early reports are the secondary input on release is bugged. 
+
+    ^^Possible Solution or Workaround^^
+
+    Please ensure that you set the value `Joystick Button 8` for both the values shown here:
+
+    ![Sample TCA ENG issue resolution](https://cdn.discordapp.com/attachments/717548046522777604/969479348723793951/unknown.png)
 
 ??? warning "CPDLC with Hoppie on IVAO"
     ### CPDLC with Hoppie on IVAO
