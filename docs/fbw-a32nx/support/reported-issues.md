@@ -94,7 +94,7 @@ TEMPLATE
 
     - Stuck aircraft
     - Unable to taxi
-    - Performance degradation.
+    - Performance degradation
 
     ^^Possible Solution or Workaround^^
 
@@ -353,7 +353,7 @@ TEMPLATE
 
     Please ensure that you set the value `Joystick Button 8` for both the values shown here:
 
-    ![Sample TCA ENG issue resolution](https://cdn.discordapp.com/attachments/717548046522777604/969479348723793951/unknown.png)
+    ![Sample TCA ENG issue resolution](https://media.discordapp.net/attachments/717548046522777604/969480302210719774/unknown.png)
 
 ??? warning "CPDLC with Hoppie on IVAO"
     ### CPDLC with Hoppie on IVAO
