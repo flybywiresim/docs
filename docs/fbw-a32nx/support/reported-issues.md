@@ -337,6 +337,7 @@ TEMPLATE
 ## Known A32NX Issues
 
 ??? warning "SU9 and TCA Throttle Issues"
+    ### SU9 and TCA Throttle Issues
 
     !!! tip ""
         *Affected versions: Stable, Development*
@@ -351,9 +352,11 @@ TEMPLATE
 
     ^^Possible Solution or Workaround^^
 
-    Please ensure that you set the value `Joystick Button 8` for both the values shown here:
+    Please ensure that you set the value `Joystick Button 8` for both the values shown here and the ACTION TYPE is set to `ON RELEASE`:
 
-    ![Sample TCA ENG issue resolution](https://media.discordapp.net/attachments/717548046522777604/969480302210719774/unknown.png)
+    ![Sample TCA ENG issue resolution](https://media.discordapp.net/attachments/717548046522777604/969480302210719774/unknown.png){loading=lazy}
+
+    ![On release](https://media.discordapp.net/attachments/838062729398976522/969870219537436682/unknown.png){loading=lazy}
 
 ??? warning "CPDLC with Hoppie on IVAO"
     ### CPDLC with Hoppie on IVAO
