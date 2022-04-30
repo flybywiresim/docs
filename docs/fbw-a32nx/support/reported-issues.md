@@ -352,7 +352,10 @@ TEMPLATE
 
     ^^Possible Solution or Workaround^^
 
-    Please ensure that you set the value `Joystick Button 8` for both the values shown here and the ACTION TYPE is set to `ON RELEASE`:
+    Please ensure the following:
+
+    - Set the value `Joystick Button 8` for both the values shown below.
+    - Set the ACTION TYPE for SET ENGINE NORM MODE to `ON RELEASE` shown below.
 
     ![Sample TCA ENG issue resolution](https://media.discordapp.net/attachments/717548046522777604/969480302210719774/unknown.png){loading=lazy}
 
