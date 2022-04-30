@@ -61,7 +61,7 @@ You can send us logs to our [Discord](https://discord.gg/flybywire){target=new} 
 
           Stable is our variant that has the least bugs and best performance. This version will not always be up to date but we gurantee its compatibility with each major patch from MSFS. 
 
-          [Download Stable](http://cdn.flybywiresim.com/addons/a32nx/stable/full.zip){ .md-button target=new}
+          [Download Stable](https://cdn.flybywiresim.com/addons/a32nx/stable/full.zip){ .md-button target=new}
 
           You can see the changelog on the releases page: [View Here](https://github.com/flybywiresim/a32nx/releases){target=new}
 
@@ -72,7 +72,7 @@ You can send us logs to our [Discord](https://discord.gg/flybywire){target=new} 
 
         It updates whenever something is added to the 'master' branch on GitHub. 
 
-         [Download Development](http://cdn.flybywiresim.com/addons/a32nx/master/full.zip){ .md-button target=new}
+         [Download Development](https://cdn.flybywiresim.com/addons/a32nx/master/full.zip){ .md-button target=new}
          
          [**IMPORTANT:** View information on Autopilot / Fly-By-Wire here](feature-guides/autopilot-fbw.md)
 
@@ -86,7 +86,7 @@ You can send us logs to our [Discord](https://discord.gg/flybywire){target=new} 
     
         It will be updated with the latest changes to the development version every week or so while new major features are tested (not guaranteed).
 
-        [Download Experimental](http://cdn.flybywiresim.com/addons/a32nx/experimental/full.zip){ .md-button target=new}
+        [Download Experimental](https://cdn.flybywiresim.com/addons/a32nx/experimental/full.zip){ .md-button target=new}
 
         !!! danger "No Support for Experimental - use at own risk"
             Please do not seek support for the Experimental Version on Discord and only report issues if you have read this page and the reported and known issues.
