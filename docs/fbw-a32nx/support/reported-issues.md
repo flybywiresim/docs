@@ -70,6 +70,7 @@ TEMPLATE
 -->
 
 ??? bug "Your Controls Performance Issues"
+    ### Your Controls Performance Issues
 
     !!! tip ""
         *Affected versions: Stable, Development*
