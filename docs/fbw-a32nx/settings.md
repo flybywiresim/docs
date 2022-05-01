@@ -33,7 +33,7 @@ Set the `Glass Cockpit Refresh Rate` to `Medium` or `Low` to avoid unnecessary d
 Please turn off all MSFS Assistance and AI functions while using the A32NX as they interfere with the A32NX custom systems! 
 
 !!! danger "Displayed Warning in Simulator"
-    We now display a warning withint the simulator when the A32NX detects these systems are turned on. This warning will **persist** until the features are turned off for 
+    We now display a warning within the simulator when the A32NX detects these systems are turned on. This warning will **persist** until the features are turned off for 
     compatibility.
     
     ![AI Settings Alert](assets/settings/a32nx-ai-alert.png)
