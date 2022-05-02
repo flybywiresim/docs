@@ -36,7 +36,7 @@ Please turn off all MSFS Assistance and AI functions while using the A32NX as th
     We now display a warning within the simulator when the A32NX detects these systems are turned on. This warning will **persist** until the features are turned off for 
     compatibility.
     
-    ![AI Settings Alert](assets/settings/a32nx-ai-alert.png)
+    ![AI Settings Alert](assets/settings/a32nx-ai-alert.png){loading=lazy}
 
 ![MSFS Assistance Options](assets/settings/assistance-options.png "MSFS Assistance Options"){loading=lazy}
 
