@@ -249,8 +249,8 @@ The FlyByWire Simulations simBrief airframe with correct weights is available be
 
     Please stay tuned to our social media for updates.
 
-- **Stable Version**: ✈ [SimBrief Airframe Link](https://www.simbrief.com/system/dispatch.php?sharefleet=eyJ0cyI6IjE2MzU1MjIxNTI2NzUiLCJiYXNldHlwZSI6IkEyME4iLCJjb21tZW50cyI6IkZMWUJZV0lSRSBBMzJOWCBTVEFCTEUiLCJpY2FvIjoiQTIwTiIsIm5hbWUiOiJGQlcgQTMyTlgiLCJlbmdpbmVzIjoiTEVBUC0xQTI2IiwicmVnIjoiRC1BRkJXIiwiZmluIjoiIiwic2VsY2FsIjoiQUdMUiIsImhleGNvZGUiOiIiLCJjYXQiOiJNIiwicGVyIjoiQyIsImVxdWlwIjoiU0RFMkUzRkdISUoxUldYWSIsInRyYW5zcG9uZGVyIjoiTEIxIiwicGJuIjoiQTFCMUMxRDFPMVMyIiwiZXh0cmFybWsiOiJGTFlCWVdJUkUgQTMyTlgiLCJtYXhwYXgiOiIxNzQiLCJ3Z3R1bml0cyI6IktHUyIsIm9ldyI6IjQ2MjYyIiwibXpmdyI6IjY0MzAwIiwibXRvdyI6Ijc5MDAwIiwibWx3IjoiNjc0MDAiLCJtYXhmdWVsIjoiMTkwNDUiLCJwYXh3Z3QiOiIxMDQiLCJkZWZhdWx0Y2kiOiIxNSIsImZ1ZWxmYWN0b3IiOiJQMTAiLCJjZWlsaW5nIjoiMzk4MDAiLCJjcnVpc2VvZmZzZXQiOiJQMDAwMCJ9){target=new}
-- **Development and Experimental Versions**: ✈ [SimBrief Airframe Link](https://www.simbrief.com/system/dispatch.php?sharefleet=337364_1631550522735){target=new} - Credits: [@sidnov](https://github.com/sidnov){target=new}
+- **All Versions**: ✈ [SimBrief Airframe Link](https://www.simbrief.com/system/dispatch.php?sharefleet=337364_1631550522735){target=new} - Credits: [@sidnov](https://github.
+  com/sidnov){target=new}
 
 Pilot ID can be found in the Optional Entries section of the Dispatch Options page.
 
