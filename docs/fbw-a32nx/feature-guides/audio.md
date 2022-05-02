@@ -15,8 +15,6 @@ For information on the other settings available on the EFB visit our [flyPad Set
 
     If you want to enjoy the Passenger Ambience sounds make sure it is open.
 
-!!! warning "Passenger simulation audio and flight crew announcements is not available on the Stable Version"
-
 We have included various settings that simulate flight crew interactions with passengers on board.
 
 ### Passenger Ambience

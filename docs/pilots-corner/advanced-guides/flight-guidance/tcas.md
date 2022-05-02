@@ -2,8 +2,6 @@
 
 {==
 
-The TCAS system is not available in the Stable version at this time.
-
 For a list of compatible networks and known issues - [see here](#compatibilities-and-known-issues).
 
 ==}

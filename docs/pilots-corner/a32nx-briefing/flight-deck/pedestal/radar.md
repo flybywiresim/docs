@@ -49,7 +49,7 @@ The weather radar data can be displayed on the NDs in ARC or ROSE mode.
     - Map mode: No weather display but ground information: Black for water, green for ground, and amber for cities and mountains.
 
 !!! attention ""
-    Currently only precipitation is available in the Stable version of the FBW A32NX for Microsoft Flight Simulator. Weather is simulated via Asobo's WX radar.
+    Weather is not available in the Stable version. We are awaiting Asobo API implementation. See [Custom FMS Special Notes](../../../../fbw-a32nx/feature-guides/cFMS.md#special-notes)
 
 ###  TILT
 

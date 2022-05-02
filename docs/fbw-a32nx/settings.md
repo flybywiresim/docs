@@ -58,8 +58,6 @@ Sensitivity settings are highly hardware depended and can be different for each 
 
 #### Sidestick / Joystick
 
-!!! warning "Not applicable for the Stable version."
-
 We **highly recommend** to use a joystick or flight stick when flying any aircraft in a simulator. Keyboard or controller buttons simply do not have the range and sensitivity required for successfully controlling an aircraft.
 
 For the flight stick pitch control (up/backward and down/forward) we recommend using a sensitivity setting of `-30%` to better simulate the increased force you need to **push or pull** the real sidestick in the aircraft. Please see the screenshot below for an example:
