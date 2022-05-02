@@ -63,6 +63,9 @@ of your desired controller. Please see the two options below:
 
 Find the following setting:
 
+!!! warning ""
+    **NOTE: Reverse Axis should remain unticked in the settings as per the image below.**
+
 ![NWS Axis](../assets/nw-tiller/nws-axis.png){loading=lazy}
 
 Map `NOSE WHEEL STEERING AXIS` to the controller axis you want to use for the tiller. This needs to be different from the axis you use for the rudder.
