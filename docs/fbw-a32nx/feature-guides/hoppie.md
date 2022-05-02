@@ -1,11 +1,13 @@
 # Hoppie ACARS
 
-!!! warning "Not available in the Stable Version"
-
 !!! warning "Requires credentials with Hoppie service"
 
 !!! warning "Development in progress"
     The Hoppie ACARS system is a complex system and we have decided to develop and release it step-by-step. So please be aware that not all features are available in the early releases and that we will add additional functionality over time.
+
+    !!! danger ""
+        This page will be current for Stable version 0.8.0. Any changes to our development branch will be noted with the appropriate flag or indicator. Please be aware of any 
+        differences when using our CPDLC implementation.
 
     The current version has the following features:
 
