@@ -19,11 +19,11 @@
     - Departure Clearance (DCL)
     - Oceanic Clearance (OCL)
     - Realistic datalink communication simulation (VHF+VDL3)
+    - Pilot requests: Vert & Lat requests, Text
 
     The currently planned future releases are adding these features:
 
     - Datalink Status
-    - Pilot requests: Vert & Lat requests, Text
     - Other pilot requests: E.g. "When can we expect..."
     - Emergency
     - Controller report-requests and automatic preparation of pilot replies
