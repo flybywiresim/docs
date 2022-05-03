@@ -30,17 +30,14 @@ Set the `Glass Cockpit Refresh Rate` to `Medium` or `Low` to avoid unnecessary d
 
 ### Deactivate MSFS Assistance Features
 
-Please turn off all MSFS Assistance and AI functions while using the A32NX as they interfere with the A32NX custom systems! 
+We have disabled all assistance and AI features to prevent compatibility issues with A32NX custom systems.
 
-!!! danger "Displayed Warning in Simulator"
-    We now display a warning within the simulator when the A32NX detects these systems are turned on. This warning will **persist** until the features are turned off for 
-    compatibility.
-    
-    ![AI Settings Alert](assets/settings/a32nx-ai-alert.png){loading=lazy}
+??? tip "Verify Settings"
+    You can verify the assistance and AI features are switched off by checking the following settings.
 
-![MSFS Assistance Options](assets/settings/assistance-options.png "MSFS Assistance Options"){loading=lazy}
+    ![MSFS Assistance Options](assets/settings/assistance-options.png "MSFS Assistance Options"){loading=lazy}
 
-![MSFS AI Options](assets/settings/ai-options.png "MSFS AI Options"){loading=lazy}
+    ![MSFS AI Options](assets/settings/ai-options.png "MSFS AI Options"){loading=lazy}
 
 ### Legacy Cockpit Interaction System
 
