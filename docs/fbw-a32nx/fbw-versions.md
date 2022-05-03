@@ -38,9 +38,9 @@ The Experimental version has a less strict QA process and is used for actual QA 
 
 The experimental version will be updated regularly and also with the latest changes to the Development version. Expect updates about once a week (not guaranteed).
 
-!!! danger "No Support for Experimental - use at own risk"
-
-Please do not seek support for the Experimental Version on Discord. <!--and only report issues if you have read the reported and known issues.-->
+!!! danger "Support for Experimental is not guaranteed - use at own risk!"
+    
+We ask that you understand support is **not guaranteed** due to the nature of this version and we will happily answer questions time permitting.
 
 ## Version Comparison
 
