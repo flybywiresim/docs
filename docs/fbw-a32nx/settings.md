@@ -31,7 +31,15 @@ Set the `Glass Cockpit Refresh Rate` to `Medium` or `Low` to avoid unnecessary d
 ### Deactivate MSFS Assistance Features
 
 We have disabled all assistance and AI features to prevent compatibility issues with A32NX custom systems. You may manually enable some AI features through MSFS settings 
-accessible when pressing `ESC`. You can see what settings you can customize in the image below.
+accessible when pressing `ESC`. You can see what settings you can customize in the image below. 
+
+!!! tip ""
+    Having any AI features or assistance features switched on created some stability issues with our custom systems:
+
+    - A/THR failing to arm or activate.
+    - Engines turning off in-flight or after takeoff.
+    - Constant right or left rudder.
+    - Inability to taxi.
 
 ![AI Settings New](assets/settings/ai-settings-new.png){loading=lazy}
 
