@@ -1,7 +1,5 @@
 # Fix Info
 
-!!! warning "Not available in the Stable Version"
-
 ## Overview
 
 The MCDU FIX INFO pages are used to create waypoint intersections of the

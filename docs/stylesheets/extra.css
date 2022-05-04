@@ -102,5 +102,5 @@
 }
 /* Tasklist */
  .md-typeset [type=checkbox]:checked+.task-list-indicator:before {
-    background-color: #00A2AB;
+    background-color: #00E0FE;
 }

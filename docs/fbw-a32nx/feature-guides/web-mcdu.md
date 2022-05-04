@@ -2,8 +2,6 @@
 
 <link rel="stylesheet" href="/../../stylesheets/web-mcdu.css">
 
-!!! warning "Not available in the Stable Version"
-
 ## Overview
 
 The MCDU Web Interface allows you to display and control the MCDU on a browser including browsers on mobile devices like phones or tablets.
@@ -78,7 +76,8 @@ If you want to start with only the MCDU display and not the whole MCDU panel the
 
 ### Browser on Remote Device
 
-If you want to use the MCDU Web Interface from a remote device (e.g. tablet, phone, 2nd PC, etc.) you need to first make sure you can access the MCDU Web Interface on your PC by allowing incoming network connections to the server through your Windows Firewall. See how to do this here: [Windows Firewall](#windows-firewall)
+If you want to use the MCDU Web Interface from a remote device (e.g. tablet, phone, 2nd PC, etc.) you need to first make sure you can access the MCDU Web Interface on your PC 
+by allowing incoming network connections to the server through your Windows Firewall. See how to do this here: [Firewall Configuration](#firewall-configuration).
 
 The MCDU Server command window tries to detect your IP address. Use the `http://xxx.xxx.xxx.xxx:8125` address and enter it into your browser on the remote device.
 
@@ -361,7 +360,7 @@ Of course now the firewall might need to be opened for this new port.
 
 #### Websocket Port is Occupied
 
-If the port for the MCDU Websocket Server is occupied you need to first change this port in the [flyPad EFB Sim options page](/fbw-a32nx/feature-guides/flyPad/settings/#sim-options).
+If the port for the MCDU Websocket Server is occupied you need to first change this port in the [flyPad EFB Sim options page](flyPad/settings.md#sim-options).
 
 You can then start the MCDU server using the new websocket port with this option:
 

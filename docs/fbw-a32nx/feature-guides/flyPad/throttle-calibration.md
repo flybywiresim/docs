@@ -642,8 +642,6 @@ Click on "Save & Apply".
 
 ### Resetting To Defaults
 
-!!! warning "Not available in the Stable version"
-
 If you have done a previous calibration or if you have trouble with the calibration you can reset the calibration to its default values by pressing the reset button.
 
 ![EFB-Calibration-Page](../../assets/flypad/throttle-calibration/efb-calibration-page-reset.png "EFB-Calibration-Page"){loading=lazy}
@@ -753,9 +751,6 @@ toga_high = 1.00
 ```
 
 #### Change Key Increments Manually
-
-!!! warning ""
-    Not available on the Stable Versions
 
 As an option users can define the increment that is used when key events are pressed (normal and small) when 
 attempting to move the throttle. This will notably affect keyboard and controller users should you decide to 

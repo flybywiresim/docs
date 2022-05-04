@@ -4,6 +4,7 @@
 
 This section provides information on the A32NX weights configuration and insight on how to utilize and reference onboard/sim features to configure the aircraft appropriately for departure.
 
+<!-- Saving this section for any future changes
 {==
 
 There are differences when using our Stable version vs. Development version.<br/>
@@ -13,6 +14,7 @@ Please select the correct version below.
 
 [Development Version](#development-version){ .md-button }
 [Stable Version](#stable-version){ .md-button }
+-->
 
 ---
 
@@ -66,7 +68,9 @@ Please select the correct version below.
 
 ---
 
-## Development Version
+## A32NX Configuration
+
+Make sure you have our latest [simBrief Profile](../installation.md#simbrief-airframe)
 
 !!! danger "MSFS Fuel & Weights window in the toolbar"
     We have blocked the UI elements in the MSFS fuel and weights window. However, the sliders in the MSFS window are movable but in a matter of 1-3 seconds the fuel and payload levels should return to the initial value.
@@ -80,25 +84,23 @@ Please select the correct version below.
     - Fuel: Now done via the [EFB](flyPad/dispatch.md#fuel-page).
     - Payload: Done through the [W&B in the MCDU](#weights-and-balance)
 
-### A32NX Configuration
 
-Get our [simBrief Profile](../installation.md#simbrief-airframe) for the Development and Experimental versions.
 
-#### Weights
+### Weights
 - OEW (Empty Weight): 42500 kg / 93697 lbs
     - Also referred to as DOW (Dry Operating Weight) which can be seen in other simBrief OFP formats such as EZY
 - MZFW (Max Zero Fuel Weight): 64300 kg / 141757 lbs
 - MTOW (Max Takeoff Weight): 79000 kg / 174165 lbs
 - MLW (Max Landing Weight): 67400 kg / 148591 lbs
 
-#### Fuel
+### Fuel
 - Max Fuel Capacity: 41989lbs/19.046kg
 - Fuel tanks: 5
     - 2x Outer Tanks: 1528lbs/693kg each
     - 2x Inner Tanks: 12167lbs/5519kg each
     - 1x Center Tank: 14599lbs/6622kg
 
-#### Passengers
+### Passengers
 - Max Passenger Capacity: 18096kg (174 seats * 104kg)
 - Passenger Weight: 104 (in kilograms)
     - 84 kg for passenger (including clothing and carry-on bags)
@@ -110,7 +112,7 @@ Get our [simBrief Profile](../installation.md#simbrief-airframe) for the Develop
     - ECONOMY ROWS 14-21 (seats: 48 max: 8880lb/4032kg)
     - ECONOMY ROWS 22-29 (seats: 48 max: 8880lb/4032kg)
 
-#### Cargo
+### Cargo
 - Max Cargo Capacity: 20800lb/9435kg
 - Cargo Compartments: 4
     - FWD BAGGAGE/CONTAINER (max: 7500lb/3402kg)
@@ -118,7 +120,7 @@ Get our [simBrief Profile](../installation.md#simbrief-airframe) for the Develop
     - AFT BAGGAGE (max: 4650lb/2110kg)
     - AFT BULK/LOOSE (max: 3300lb/1497kg)
 
-### Changing Default Weights Using simBrief
+## Changing Default Weights Using simBrief
 
 The A32NX uses the following default weights for passengers and their baggage.
 
@@ -157,7 +159,7 @@ Change the default weights as required and make sure you select Save Aircraft at
 
         This is in part due to the fact that at the time when the OFP was generated, it interprets the passenger count as "booked passengers" and not current passengers on board the aircraft.
 
-### Loading Fuel and Weight
+## Loading Fuel and Weight
 
 !!! danger "MSFS Fuel & Weights window in the toolbar"
     We have blocked the UI elements in the MSFS fuel and weights window. However, the sliders in the MSFS window are movable but in a matter of 1-3 seconds the fuel and payload levels should return to the initial value.
@@ -167,11 +169,11 @@ Change the default weights as required and make sure you select Save Aircraft at
     - Fuel: Now done via the [EFB](flyPad/dispatch.md#fuel-page).
     - Payload: Done through the [W&B in the MCDU](#weights-and-balance)
 
-#### Fuel
+### Fuel
 
 Fuel loading is now exclusively done via our EFB which has a great UI to see the status of fuel tanks and other options. [Guide Here](flyPad/dispatch.md#fuel-page).
 
-#### Weights and Balance
+### Weights and Balance
 
 In our development version we have introduced a new flight model paired with a new weight and balance payload method that incorporates seat rows and the correct center of gravity.
 
@@ -204,7 +206,7 @@ Get our [simBrief Profile](../installation.md#simbrief-airframe) for the Develop
     * Click on `AOC MENU` (AOC = Airline Operational Center)
     * Click on `PERF/W&B`
 
-##### Load OFP Payload Info
+#### Load OFP Payload Info
 
 !!! block ""
     ![W&B 2](../assets/feature-guides/simbrief/wb2.png){align=right width=50% loading=lazy}
@@ -240,7 +242,7 @@ Get our [simBrief Profile](../installation.md#simbrief-airframe) for the Develop
     - Once the above weights are accounted for you can input remaining weight (cargo weight) in a `X.X` format denoting metric tonnes.
         - Cargo weight is limited to max capacity if it exceeds the cargo hold limits.
 
-##### Board Passengers
+#### Board Passengers
 
 !!! block ""
     ![W&B Boarding](../assets/feature-guides/simbrief/wb-boarding.jpg){align=right width=50% loading=lazy}
@@ -260,9 +262,9 @@ Get our [simBrief Profile](../installation.md#simbrief-airframe) for the Develop
 
     Once boarding has completed all rows and total pax should turn green and the boarding indication returns to `START`. Verify your ZFW on this screen and check your lower ECAM that GW has been updated.
 
-##### Deboard Passengers
+#### Deboard Passengers
 
-###### Complete Deboard
+##### Complete Deboard
 
 !!! block ""
     ![deboarding full](../assets/feature-guides/simbrief/deboarded1.jpg){align=right width=50% loading=lazy}
@@ -273,7 +275,7 @@ Get our [simBrief Profile](../installation.md#simbrief-airframe) for the Develop
 
     Press START to begin the process.
 
-###### Partial Deboard
+##### Partial Deboard
 
 !!! block ""
     ![deboarding partial](../assets/feature-guides/simbrief/deboarding2.jpg){align=right width=50% loading=lazy}
@@ -283,46 +285,3 @@ Get our [simBrief Profile](../installation.md#simbrief-airframe) for the Develop
     **NOTE:** Cargo will show only bag weight for 142 pax. Please ensure that you re-add any additional cargo that you may have been carrying originally.
 
     Press START to begin the process.
-
-
-
----
-
-## Stable Version
-
-### A32NX Configuration
-
-Get our [simBrief Profile](../installation.md#simbrief-airframe) for the stable version.
-
-- OEW (Empty Weight): 46.262 (in kilograms)
-    - Also referred to as DOW (Dry Operating Weight) which can be seen in other simBrief OFP formats such as EZY
-- MZFW (Max Zero Fuel Weight): 64.300 (in kilograms)
-- MTOW (Max Takeoff Weight): 79.000 (in kilograms)
-- MLW (Max Landing Weight): 67.400 (in kilograms)
-- Max Fuel Capacity: 19.045 (in kilograms)
-- Passenger Weight: 104 (in kilograms)
-    - 84 kg for passenger (including clothing and carry-on bags)
-    - 20 kg for checked luggage
-
-### Loading Fuel and Weight
-
-#### Fuel
-
-![MCDU ATSU AOC PERF/W&B](../assets/feature-guides/simbrief/mcdu3.png "MCDU ATSU AOC PERF/W&B"){loading=lazy}
-
-You are presented with the `Fuel Page` first then the `Weights and Balance` page. On the first page you can automatically load your fuel.
-
-* Press LSK5L to instantly load your planned simBrief fuel. (The load button will flash momentarily).
-* You can verify fuel has loaded by looking at your upper ECAM FOB.
-
-Using the horizontal slew keys you can switch to the weights and balance page.
-
-Fuel loading can also be done via our EFB which has a great UI to see the status of fuel tanks and other options. [Guide Here](flyPad/dispatch.md#fuel-page)
-
-#### Weights and Balance
-
-Once on the `W&B` page (2/2) you can adjust payload here or accept the numbers provided to you via your simBrief OFP.
-
-- Press LSK5R to pre-load the payload data from the simbrief OFP.
-- Press LSK6R to then load your payload and pax into the aircraft.
-- You can verify the weight has changed by looking at the lower ECAM towards the lower right-hand side.

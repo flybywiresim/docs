@@ -205,7 +205,7 @@ Settings for integrations with various data and information sources.
 - Error Reporting
     - Enables error reports to be sent to Sentry.io to allow the FlyByWire team to easier find and fix issues with the aircraft.
 - Simbrief Username/Pilot ID
-    - See [next chapter](#simbrief-integration.)
+    - See [next chapter](#simbrief-integration).
 - Hoppie User ID:
     - Unique logon code that is used to identify the user for the Hoppie ACARS communication.
     - See [Create a logon code](../hoppie.md#create-a-logon-code) in our documentation for Hoppie ACARS.
@@ -226,11 +226,6 @@ Before you can use the A32NX simBrief Integration you need to provide your simBr
 To get your simBrief username or Pilot ID you can go to your simBrief Account settings and open "Simbrief Data".
 
 ![simBrief Account Data](../../assets/flypad/simbrief-account-data.png "simBrief Account Data")
-
-!!! attention ""
-    If you use the Stable version please omit any space characters in your username. If for example your username is "Mr Pilot" the please use "MrPilot" as username.
-
-    Also the Stable version does only allow the username to be entered here, not the Pilot ID.
 
 ## Audio
 

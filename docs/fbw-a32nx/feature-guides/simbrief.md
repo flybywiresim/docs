@@ -41,9 +41,6 @@ This is best explained by simBrief itself - [simBrief User Guide](https://www.si
 
 The simbrief username needs to configured in the flyPad EFB. See [Setup simBrief Integration](flyPad/settings.md#simbrief-integration)
 
-!!! warning "Stable Version: simBrief Configuration"
-    In addition to the flyPad EFB configuration the Stable version also needs the simbrief ID to be configured in the MCDU MENU page under `OPTIONS -> AOC -> SIMBRIEF`.
-
 ### Importing the simBrief OFP to the flyPad
 
 See [flyPad Guide - Load from simBrief](flyPad/dashboard.md#load-from-simbrief)

@@ -30,17 +30,27 @@ Set the `Glass Cockpit Refresh Rate` to `Medium` or `Low` to avoid unnecessary d
 
 ### Deactivate MSFS Assistance Features
 
-Please turn off all MSFS Assistance and AI functions while using the A32NX as they interfere with the A32NX custom systems! 
+We have disabled all assistance and AI features to prevent compatibility issues with A32NX custom systems. You may manually enable some AI features through MSFS settings 
+accessible when pressing `ESC`. You can see what settings you can customize in the image below. 
 
-!!! danger "Displayed Warning in Simulator"
-    We now display a warning within the simulator when the A32NX detects these systems are turned on. This warning will **persist** until the features are turned off for 
-    compatibility.
-    
-    ![AI Settings Alert](assets/settings/a32nx-ai-alert.png){loading=lazy}
+!!! tip ""
+    Having any AI features or assistance features switched on created some stability issues with our custom systems:
 
-![MSFS Assistance Options](assets/settings/assistance-options.png "MSFS Assistance Options"){loading=lazy}
+    - A/THR failing to arm or activate.
+    - Engines turning off in-flight or after takeoff.
+    - Constant right or left rudder.
+    - Inability to taxi.
 
-![MSFS AI Options](assets/settings/ai-options.png "MSFS AI Options"){loading=lazy}
+![AI Settings New](assets/settings/ai-settings-new.png){loading=lazy}
+
+<!-- Information kept in case of future changes to Asobo base implementation
+??? tip "Verify Settings"
+    You can verify the assistance and AI features are switched off by checking the following settings.
+
+    ![MSFS Assistance Options](assets/settings/assistance-options.png "MSFS Assistance Options"){loading=lazy}
+
+    ![MSFS AI Options](assets/settings/ai-options.png "MSFS AI Options"){loading=lazy}
+-->
 
 ### Legacy Cockpit Interaction System
 
@@ -57,8 +67,6 @@ Sensitivity settings are highly hardware depended and can be different for each 
 ==}
 
 #### Sidestick / Joystick
-
-!!! warning "Not applicable for the Stable version."
 
 We **highly recommend** to use a joystick or flight stick when flying any aircraft in a simulator. Keyboard or controller buttons simply do not have the range and sensitivity required for successfully controlling an aircraft.
 
