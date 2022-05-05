@@ -59,7 +59,7 @@
 !!! info "NOTE"
     All approach charts, no matter the designer, will have this information provided to you as a bare minimum.
 
-    However, the layout may be significantly different, so a quick 5 minutes to look at the charge can make all the difference before starting an approach.
+    However, the layout may be significantly different, so a quick 5 minutes to look at the chart can make all the difference before starting an approach.
 
 ***
 
