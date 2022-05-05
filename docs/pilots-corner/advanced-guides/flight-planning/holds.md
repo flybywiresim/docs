@@ -59,7 +59,7 @@ Now that you know where to hold, you should learn how to program the hold. Next,
  
  The inbound course/heading or the reciprocal of the hold is always depicted on the chart.
 
- Below you will find samples of different holds with red boxes placed where the information is located.  
+ Below you will find [example charts of different holds](#hold-examples) with red boxes placed where the information is located.  
 
 !!! info "Example charts to aquire hold information"
 
@@ -70,6 +70,15 @@ Now that you know where to hold, you should learn how to program the hold. Next,
 
         ![HOLD1](../../assets/advanced-guides/holds/HOLD1.png)
 
+        |Hold information|Details|
+        |---|---|
+        |Fix| ARNUM|
+        |Inbound course|216°|
+        |Turning direction|Right|
+        |Leg distance|STD|
+        |Max speed|STD|
+        |Max alt|FL140|
+        |Min alt (MHA)|FL100|
 
         | Fix           | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
         | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
@@ -302,3 +311,137 @@ RESUME HOLD can be pressed to cancel the hold exit. The aircraft will now stay i
 # Video Tutorial by 320 Sim Pilot
 
 <iframe width="826" height="465" src="https://www.youtube.com/embed/NYlSICln1So" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Hold Examples
+
+!!! info "Example charts to aquire hold information"
+
+    === "1"
+
+        
+
+
+        ![HOLD1](../../assets/advanced-guides/holds/HOLD1.png)
+
+        |Hold information|Details|
+        |---|---|
+        |Fix| ARNUM|
+        |Inbound course|216°|
+        |Turning direction|Right|
+        |Leg distance|STD|
+        |Max speed|STD|
+        |Max alt|FL140|
+        |Min alt (MHA)|FL100|
+
+        | Fix           | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
+        | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
+        | ARNUM         | 216°              |Right               | STD           | STD        |FL140  | FL100         |
+      
+
+        
+
+    === "2"
+
+        >**_NOTE:_**  The altitude constraints of the fix SUGOL are not relevant for the altitude constraints of the hold at SUGOL. The same principle applies to speed restrictions as well.
+
+        ![HOLD2](../../assets/advanced-guides/holds/HOLD2.png)
+
+
+        | Fix           | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
+        | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
+        | SUGOL         | 110°              |Right               | STD           | STD        |FL250  | FL70          |
+        
+    === "3"
+
+        
+
+        ![HOLD3](../../assets/advanced-guides/holds/HOLD3.png)
+
+
+        | Fix           | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
+        | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
+        | OKLAX         | 149°              |Left                | STD           | 210KT      |STD    | 8000FT        |
+
+    === "4"
+
+        >**_NOTE:_**  The chart's design makes it confusing what the leg length is for the DVN hold. You could argue that this is 3.4 NM. However, 3.4 is just the length between the D11.0 SPL and the DVN fix and does not influence the hold leg length.
+
+        ![HOLD4](../../assets/advanced-guides/holds/HOLD4.png)
+
+
+        | Fix           | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
+        | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
+        | DVN           | 053°              |Right               | STD           | 210KT      |-      | 2900FT        |
+    
+    === "5"
+
+        >**_NOTE:_**  Holds at BOTON and PANZE have a minimum hold altitude dictated by the minimum flight altitude of 6000FT of the earlier and following legs. 
+
+        ![HOLD5](../../assets/advanced-guides/holds/HOLD5.png)
+
+
+        | Fix           | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
+        | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
+        | BOTON         | *049°             |Right               | STD           | STD        |-      | 6000FT        |
+        | PANZE         | *049°             |Left                | STD           | STD        |-      | 6000FT        |
+        | CAMRN         | 041°              |Left                | STD           | 210KT      |14000FT| 6001FT        |
+        
+        *The inbound course can be calculated by subtracting or adding 180 to the reciprocal.
+
+    === "6"
+
+        
+
+        ![HOLD6](../../assets/advanced-guides/holds/HOLD6.png)
+
+
+        | Fix           | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
+        | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
+        | SKENS         | 274°              |Right               | 10NM          | STD        |-      |13000FT        |
+
+    === "7"
+
+        
+
+        ![HOLD7](../../assets/advanced-guides/holds/HOLD7.png)
+
+        | Fix           | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
+        | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
+        | SNAAG         | 061°              |Right               | 10NM          | STD        |-      |-              |
+
+    === "8"
+
+        
+
+        ![HOLD8](../../assets/advanced-guides/holds/HOLD8.png)
+
+        | Fix           | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
+        | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
+        | TIGER         | 315°              |Right               | STD           | STD        |FL240  | FL150         |
+        | BIG           | 302°              |Right               | STD           | STD        |FL150  | FL70          |
+    
+    === "9"
+
+        
+
+        ![HOLD9](../../assets/advanced-guides/holds/HOLD9.png)
+
+        |Fix            | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
+        | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
+        | DDM           | 059°              |Left                | STD           | 230KT      |-      | 6000FT        |
+        | EGN           | 108°              |Left                | STD           | 230KT      |-      | 4000FT        |
+        | KEA           | 335°              |Right               | STD           | 230KT      |-      | 5000FT        |
+
+    === "10"
+
+        >**_NOTE:_**  The leg length for the CRS hold is presented as a distance from another navigational beacon
+
+        ![HOLD10](../../assets/advanced-guides/holds/HOLD10.png)
+
+        |Fix            | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
+        | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
+        | CRS           | 001°              |Left                |Until D34.0 CVO|STD|-   | FL120         |
+
+
+!!! tip "Standards"
+    There are standards for length of legs and airspeeds that must be respected if no other information is present on the chart. The standards are published in [Hold Standards](#hold-standards).        
