@@ -1,7 +1,7 @@
 Known issues with page:
 
 1. Table is too wide for page so it has a slider, need to get rid of slider
-2. entry paterns are not discussed in depth, is this a issue? i (sven) dont think it belongs in this guide
+2. ~~entry paterns are not discussed in depth, is this a issue? i (sven) dont think it belongs in this guide~~
 3. Notes ,in the Example charts to aquire hold information, are a little faded ish. would like to make them bright white or some other more stand out color
 4. Last exit is a little strangly positioned on the page now, i (sven) didnt quite know a better place unfortionatly
 5. The [video of 320 Sim Pilot](#video-tutorial-by-320-sim-pilot) is embedded in the page at the bottom, there is no supporting text or copywrite thing, what is desired here?
@@ -9,6 +9,7 @@ Known issues with page:
 7. A thorough spelling and grammar check has not yet been done by me
 9. Images at [Leaving the hold](#leaving-the-hold) do not have any subscript, I (Sven) think it might be good to add a little supportive text there
 8. Images are not yet optimized and the images are made in Powerpoint, I (Sven) have the powerpoint file to make changes to the figures.  Plan is to optimize after content of figure is good. Would it be helpfull to place the powerpoint file in the assets/hold directory? please let me know what is desired here.
+9. check behaviour when desending in the hold and green dot speed
 
 Now the real page will start. 
 
@@ -196,6 +197,7 @@ STD Max hold speed is defined by the FAA to be:
 | 6001FT - 14000FT  | 230             |
 | 14001FT and above | 265             |
 
+Standard hold direction for non-published holds is defined by the FAA with **right hand turns**.
 
 
 ## Programming Holds 
@@ -272,24 +274,26 @@ Now that all information of the hold is known it is time to create a hold in the
     === "7"
         ![MCDU](../../assets/advanced-guides/holds/MCDU-hold-8.png)
         
-        As soon as the aircraft is heading to the waypoint with the hold programmed the hold will be calculated and completely shown on the ND.  
+        As soon as the aircraft is heading to the waypoint with the hold programmed the hold will be calculated and completely shown on the ND. [IMM EXIT*](#leaving-the-hold) will also appear on the MCDU. 
 
     === "8"
         ![MCDU](../../assets/advanced-guides/holds/MCDU-hold-9.png)
 
-        When the aircraft passes the hold fix for the first time (entering the hold) the airplane will fly at green dot speed. The green dot speed is the speed at which the A320 can stay airborne while using the minimum amount of fuel per hour making. 
+        Before the A320 passes the hold fix for the first time it will slow down to 'green dot speed'. This is the speed at which the aircraft uses the minimum fuel per hour to ensure it can stay in the hold as long as possible. Make sure to set speed to managed speed to fly at green dot speed. 
 
-        Also, the F-PLN page on the MCDU will now show IMM EXIT*. This is needed when [leaving the hold](#leaving-the-hold).
+        Also, the F-PLN page on the MCDU will continue to show IMM EXIT*. This is needed when [leaving the hold](#leaving-the-hold).
 
 
 ### Descending in the Hold
-Altitude changes are done with the vertical speed mode set at 1000 ft/min. This is to make sure all aircraft are spaced out enough to comply with spacing safety standards/
+Altitude changes are done with the vertical speed mode set at 1000 ft/min. This is to make sure all aircraft are spaced out enough to comply with spacing safety standards.
 
 The TCAS system should remain on TA/RA when flying in the hold, however it might be convenient to switch to ALL or BLW.
 
 ### Leaving the Hold
 
-The plane will continue to fly in the hold until a pilot gives the command to the FMS to leave. During the hold the F-PLN page will display IMM EXIT in amber. To leave the hold the pilot has to press the right LSK next to IMM EXIT. The amber text will now change in RESUME HOLD. The aircraft will complete the remaining hold lap and continue its flightplan when it reaches the hold fix again. 
+The plane will continue to fly in the hold until a pilot gives the command to the FMS to leave. During the hold the F-PLN page will display IMM EXIT in amber. To leave the hold the pilot has to press the right LSK next to IMM EXIT. The amber text will now change in RESUME HOLD. The aircraft will fly the shortest distance to the original hold fix and then exit, such as doing a tight circle or turning early on downwind. The aircraft will continue its flightplan when it reaches the hold fix again. 
+
+RESUME HOLD can be pressed to cancel the hold exit. The aircraft will now stay in the hold and IMM EXIT is shown again.
 
 ![Hold Modes](../../assets/advanced-guides/holds/MCDU-hold-14.png)
 
