@@ -2,6 +2,7 @@
 
 ## Gear system
 New gear system aims at replicating its real counterpart in the slightest details. While more improvements will come, the current system already features:
+
 - Rigid body physics of gears and doors
 - Hydraulic actuators simulation with "push to retract" main gears and "push to extend" nose gear. 
 - All proximity sensors, one set per LGCIU computer
@@ -11,6 +12,7 @@ New gear system aims at replicating its real counterpart in the slightest detail
 - Emergency extension system
 
 Non exhaustive list of features yet to come:
+
 - Aerodynamic effects
 - Complete fault monitoring and BITE tests of LGCIUs
 - Complete set of failures
@@ -37,13 +39,16 @@ Note: Only issues on LGCIU1 proximity sensors will show erroneous information on
 Gravity extension is already fully supported by our gear system. However, user experience is not perfect yet due to current model limitations.
 
 While this feature will eventually be perfectly supported with a moving crank handle, for now gravity extension can be used by two means:
+
 - Clicking and holding left mouse button on the red part of the crank handle.
     [ADD IMAGE]
+    
 - Using the ingame binding "EMERGENCY GEAR TOGGLE" by holding it.
   
 Using either of those above methods, you need to click and hold until gear is released. 
 
 If not holding long enough, you will end up with crank handle only doing one or two turns, which will have following consequences:
+
 - After 1 turn, hydraulic supply to gear system is closed
 - After 2 turns, doors uplocks will be released and door will stay opened
 
