@@ -17,6 +17,21 @@ Non exhaustive list of features yet to come:
 - Complete fault monitoring and BITE tests of LGCIUs
 - Complete set of failures
 - Animated emergency gear crank handle
+
+### Functionality
+Using the gear system should not be different from before. Selecting gear up will switch to the next available LGCIU computer available, and will start the retracting sequence. Gear down will start the extension sequence same as before.
+
+However, because it's now closer to the real system under the hood, you have to be aware of some subtleties of the gear system.
+
+First of all, as all hydraulics are simulated, the behaviour of the system will highly depend on the hydraulic status of the plane. Even in nominal conditions, gear system is such a high flow consumer that it can impact the green system pressure, and also trigger the PTU to help providing hydraulic power from the yellow side. Be aware that any degraded condition will impact the behaviour of the retraction/extension sequence. PTU being off will cause green system pressure to reach lower pressure level during the sequence, while using only yellow electric pump for the gear sequence might cause LGCIU faults as the sequence can get quite a long time to perform.
+
+Be aware that there's a safety valve that will cut off any hydraulic supply to the gear system above approximately 260kts. This safety system is independant from LGCIU computers, and if you use the gear while crossing that speed limit, strange behaviour and ECAM faults are to be expected. 
+If such a situation happens:
+
+- Get your speed below 260kts (which is already too high!!)
+- Getting the gear lever back to down position, then to up will hopefully switch on the second LGCIU computer and save the day.
+
+Always check your speed when using gear system, and everything will be ok!
   
 
 ### Failures
@@ -41,7 +56,7 @@ Gravity extension is already fully supported by our gear system. However, user e
 While this feature will eventually be perfectly supported with a moving crank handle, for now gravity extension can be used by two means:
 
 - Clicking and holding left mouse button on the red part of the crank handle.
-    [ADD IMAGE]
+![Clickable emergency handle reference](../assets/custom-hydraulics/gear/emergency_input.png "Clickable emergency handle reference"){loading=lazy}
     
 - Using the ingame binding "EMERGENCY GEAR TOGGLE" by holding it.
   
@@ -55,13 +70,16 @@ If not holding long enough, you will end up with crank handle only doing one or 
 For now the process cannot be reverted, so once crank handle is used, there's no turning back. This will be subject to change when we find a suitable way to provide feedback about the handle position.
 
 ### Known issues
-- Door visual position is not modeled yet due to 3D model issues. Their actual position is however fully simulated internally.
-
-  Because of this:
-  
- - Gear doors will start to visually open with a 2 to 3s delay, because actual doors are in fact already opening during those 2-3s while you cannot see them
- - Gear doors will visually close at end of gear extension even if actual doors stay open (for exemple after gravity extension)
- - Visual movement of doors is only coming from gear movement, thus causing strange door oscillations in some cases that are not real.
- 
 - Gear system can only be used through in game binding events or in-cockpit lever. Writing to simvars to control gear is not supported
 - If a hardware input is set to GEAR UP or GEAR DOWN, in-cockpit lever cannot be clicked or mouse draged
+- Aerodynamic effects are not implemented yet, so gravity extension can have difficulties to lock the gear down, especially if plane is not stabilized during the procedure.
+
+- Door visual position is not modeled yet due to 3D model issues. Their actual position is however fully simulated internally.
+
+
+  Because of that last point:
+  
+   - Gear doors will start to visually open with a 2 to 3s delay, because actual doors are in fact already opening during those 2-3s while you cannot see them
+   - Gear doors will visually close at end of gear extension even if actual doors stay open (for exemple after gravity extension)
+   - Visual movement of doors is only coming from gear movement, thus causing strange door oscillations in some cases that are not real.
+
