@@ -60,5 +60,5 @@ For now the process cannot be reverted, so once crank handle is used, there's no
   - Gear doors will start to visually open with a 2 to 3s delay, because actual doors are in fact already opening during those 2-3s while you cannot see them
   - Gear doors will visually close at end of gear extension even if actual doors stay open (for exemple after gravity extension)
   - Visual movement of doors is only coming from gear movement, thus causing strange door oscillations in some cases that are not real.
-- Gear system can only be used through in game binding events or in cockpit lever. Writing to simvars to control gear is not supported
-- If a hardware input is set to GEAR UP or GEAR DOWN, in cockpit lever cannot be clicked or mouse draged
+- Gear system can only be used through in game binding events or in-cockpit lever. Writing to simvars to control gear is not supported
+- If a hardware input is set to GEAR UP or GEAR DOWN, in-cockpit lever cannot be clicked or mouse draged
