@@ -17,6 +17,7 @@ Non exhaustive list of features yet to come:
 - Complete fault monitoring and BITE tests of LGCIUs
 - Complete set of failures
 - Animated emergency gear crank handle
+- Ability to start with gear already up
 
 ### Functionality
 Using the gear system should not be different from before. Selecting gear up will switch to the next available LGCIU computer available, and will start the retracting sequence. Gear down will start the extension sequence same as before.
@@ -69,6 +70,7 @@ For now the process cannot be reverted, so once crank handle is used, there's no
 !!! tip "Have the plane correctly stabilized before using this procedure. Remember that gears are physically simulated, and are really heavy. Bank angle and/or load factor WILL have impacts on the extension time / assymetry / ability to reach downlock position."  
 
 ### Known issues
+- Gear always starts in downlocked state, even when spawning in the air. Have to manually raise gear after spawn (check speed below 260kts!!)
 - Gear system can only be used through in game binding events or in-cockpit lever. Writing to simvars to control gear is not supported
 - If a hardware input is set to GEAR UP or GEAR DOWN, in-cockpit lever cannot be clicked or mouse draged
 - Aerodynamic effects are not implemented yet, so gravity extension can have difficulties to lock the gear down, especially if plane is not stabilized during the procedure.
