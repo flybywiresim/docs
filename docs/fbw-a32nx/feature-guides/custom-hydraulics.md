@@ -55,8 +55,9 @@ Gravity extension is already fully supported by our gear system. However, user e
 While this feature will eventually be perfectly supported with a moving crank handle, for now gravity extension can be used by two means:
 
 - Clicking and holding left mouse button on the red part of the crank handle.
-![Clickable emergency handle reference](../assets/custom-hydraulics/gear/emergency_input.png "Clickable emergency handle reference"){loading=lazy}
+![Clickable emergency handle reference](../assets/custom-hydraulics/gear/crank_handle.png "Clickable emergency handle reference"){loading=lazy}
 - Using the ingame binding "EMERGENCY GEAR TOGGLE" by holding it.
+![In-game binding reference](../assets/custom-hydraulics/gear/emergency_input.png "In-game binding reference"){loading=lazy}
   
 Using either of those above methods, you need to click and hold until gear is released. 
 
