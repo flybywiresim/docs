@@ -81,8 +81,14 @@ For now the process cannot be reverted, so once crank handle is used, there's no
     - Ability to reach downlock position
 
 ### Known Issues
+
+{--
+
+**Please Note:** Gear system can only be used through in game binding events or in-cockpit lever. Writing to simvars to control gear is not supported.
+
+--}
+
 - Gear always starts in downlocked state, even when spawning in the air. Have to manually raise gear after spawn (check speed below 260kts!!).
-- Gear system can only be used through in game binding events or in-cockpit lever. Writing to simvars to control gear is not supported.
 - If a hardware input is set to GEAR UP or GEAR DOWN, in-cockpit lever cannot be clicked or mouse dragged.
 - Aerodynamic effects are not implemented yet, so gravity extension can have difficulties to lock the gear down, especially if plane is not stabilized during the procedure.
 
