@@ -1,7 +1,7 @@
 # Custom Hydraulics
 
 ## Gear system
-Our new gear system aims at replicating its real counterpart in even in the slightest details. While more improvements will come, the current system already features:
+Our new gear system aims at replicating its real counterpart even in the slightest details. While more improvements will come, the current system already features:
 
 - Rigid body physics of gears and doors
 - Hydraulic actuators simulation with "push to retract" main gears and "push to extend" nose gear. 
