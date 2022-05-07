@@ -76,9 +76,9 @@ For now the process cannot be reverted, so once crank handle is used, there's no
     Have the plane correctly stabilized before using this procedure. Remember that gears are physically simulated, and are really heavy. Bank angle and/or load factor WILL have 
     impacts on:
 
-  - The extension time  
-  - Asymmetry  
-  - Ability to reach downlock position
+    - The extension time  
+    - Asymmetry  
+    - Ability to reach downlock position
 
 ### Known Issues
 - Gear always starts in downlocked state, even when spawning in the air. Have to manually raise gear after spawn (check speed below 260kts!!).
