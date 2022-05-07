@@ -47,7 +47,7 @@ Some first failures are provided, and while ECAM information impact is a tempora
 !!! tip "Power failure on LGCIU1 will cause the gear light indicator to be lost."
 !!! tip "A failed LGCIU can be reset by toggling this fault on and off, as would a circuit breaker cycle do."
 
-- LGCIU internal error failure will cause the LGCIU to fail its internal continuous tests. It will declare a fault and Other LGCIU will take control to ensure gear control. Power input in that case is still present, so an internal error on LGCIU1 will still maintain the gear light indicator.
+- LGCIU internal error failure will cause the LGCIU to fail its internal continuous tests. It will declare a fault and other LGCIU will take control to ensure gear control. Power input in that case is still present, so an internal error on LGCIU1 will still maintain the gear light indicator.
 
 - Proximity sensor failure are physical issues on the considered LGCIU sensors. Those cannot be electrically detected by the computer, so it may cause gear retraction or extension sequence to fail and get stuck. A LGCIU fault will finally be declared because of too long sequence time. A gear lever recycling down to up will switch gear control to the other computer to complete current sequence.
 
