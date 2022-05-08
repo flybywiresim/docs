@@ -59,6 +59,15 @@ door and automatically closes it after it has virtually supplied the aircraft.
 
 ## Pushback
 
+{--
+
+The flyPadOS 3 pushback system is in general not compatible with other pushback add-ons as they all use 
+the same sim variables and will conflict with each other.
+
+See [Pushback System On/Off](#pushback-system-onoff).
+
+--}
+
 <div style="position: relative;">
     <img src="/fbw-a32nx/assets/flypados3/flypad-pushback.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
@@ -74,15 +83,108 @@ door and automatically closes it after it has virtually supplied the aircraft.
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
 
-!!! bug "TODO"
+The flyPad pushback system provides comfortable pushback from within the cockpit using buttons or controllers and the 
+built-in map.  
 
-### Call Tug
+### Pushback System On/Off
 
-Calls the pushback tug to be connected to the aircraft. The button will become green if the pushback tug is 
-connected to the aircraft. At some airports the pushback tug might not be visible (MSFS issue) but it will still be 
-possible to push back the aircraft.
+As pushback add-ons all use the same sim variables to control and move the aircraft during pushback the flyPad 
+pushback system and these add-ons can usually not be used at the same time. Because of this the flyPad pushback system 
+can be disabled completely to avoid any interference with other pushback add-ons.
 
-To disconnect the pushback tug press this button again and the button turns blue again.
+!!! block ""
+    ![img.png](../../assets/flypados3/flypad-pushback-system-off.png){align=center width=49% loading=lazy}
+    ![img_1.png](../../assets/flypados3/flypad-pushback-system-on.png){align=center width=49% loading=lazy}
+
+A warning message will appear if you enable the system to remind users of these potential incompatibilities.  
+
+External add-ons can recognize the flyPad pushback system and also deactivate it if they choose to do so by 
+reading/setting this LVAR variable: `L:A32NX_PUSHBACK_SYSTEM_ENABLED`.
+
+### Call/Release Tug
+
+Pressing this button will call and attach the pushback tug or release it in case it was already attached. 
+
+!!! warning "Tug Animation"
+    From the point of view of the aircraft the tug appears to be immediately attached. This is a sim issue as the tug's 
+    animation is not in sync with the tug-attached signal to the aircraft. This also allows pushback immediately 
+    although the visual tug is not yet connected to the aircraft.
+    <p />
+    To overcome this limitation the sim's pushback tug model would need to be changed which would conflict with 
+    other pushback add-ons which use this method. We have therefore chosen not to implement this at this time.
+
+When releasing the tug the button will stay amber until the pushback pin is removed and the ECAM memo "NW STRG DISC" 
+has disappeared (~15sec). The aircraft cannot be steered with the nose wheel steering pin installed. 
+
+!!! block ""
+    ![img.png](../../assets/flypados3/flypad-pushback-tugcall.png){align=center width=32% loading=lazy}
+    ![img_2.png](../../assets/flypados3/flypad-pushback-tugwait.png){align=center width=32% loading=lazy}
+    ![img_1.png](../../assets/flypados3/flypad-pushback-tugrelease.png){align=center width=32% loading=lazy}
+
+### Parking Brake
+
+Convenience button to set or release the parking brake while using the pushback system.  
+
+### Forward/Backward
+
+The forward and backward buttons control the speed of the pushback tug. 
+
+The `Forward` button changes the speed in forward direction (increase speed when already moving forwards, decrease speed 
+when moving backwards).
+
+The `Backward`button is vice versa. 
+
+### Pause Movement
+
+Pauses all movement and resets speed and direction to zero. 
+
+### Left/Right
+
+The `Left` and `Right` buttons control the direction of the tug-aircraft movement. 
+
+`Left` changes the direction towards the left (more left when already in a left turn, less right when in a right turn). 
+
+`Right` is vice versa. 
+
+### Tug Direction Slider
+
+The tug direction slider can be dragged with the mouse to quickly set the desired direction.
+
+### Tug Speed Slider
+
+The tug speed slider can be dragged with the mouse to quickly set the desired speed.
+
+### Using Rudder and Elevator Control for Pushback
+
+You can use the standard sim rudder axis control for steering left and right.
+
+You can use the standard elevator axis (pitch) for controlling the speed of the pushback tug. 
+
+### Map
+
+The pushback map allows to execute the pushback without leaving the cockpit view. It depicts the airport and ground 
+markings so that a precise pushback can be accomplished. 
+
+!!! block ""
+    ![img_5.png](../../assets/flypados3/flypad-pushback-mapzoom.png){align=left width=5% loading=lazy}    
+    <p />
+    The map allows to zoom in and out as require using the zoom buttons. 
+
+
+!!! block ""
+    ![img_7.png](../../assets/flypados3/flypad-pushback-map-aircraft-icon-filled.png){align=left width=5% loading=lazy} 
+    ![img_8.png](../../assets/flypados3/flypad-pushback-map-aircraft-icon-outlined.png){align=left width=5% loading=lazy}
+    <p />
+    If the aircraft symbol is filled the map is in centered aircraft mode and moves with the aircraft movement. 
+    If it is outlined the map is fixed and the aircraft symbol is moving.
+    <p />
+    The map can also be dragged and moved with the mouse. To reset the map to be centered on the aircraft press the 
+    aircraft symbol.
+
+!!! block "" 
+    ![img_6.png](../../assets/flypados3/flypad-pushback-map-turn-prediction.png){align=left width=15% loading=lazy}
+    <p />
+    The map also features a turn prediction indicator providing a visual aid while turning. 
 
 ## Fuel Page
 
