@@ -64,8 +64,8 @@
 
     [Airbus Lights: What you didn't (need to) know! With a Real Airbus Pilot in Flight Simulator](https://www.youtube.com/watch?v=L9XUHepoFDg){target=new}
 
-??? info "Q: Is the hold function implemented yet?"
-    No - The buttons are on the MCDU however it is not functioning at the moment.
+??? info "Q: Is the Hold function implemented yet?"
+    Yes - the Hold function is available in the MCDU. 
 
 ??? info "Q: Why is the overall interior lighting different? (Blue light effect on pedestal and displays)"
     Based on IRL A320 pilot feedback, the blue light effect can only be seen from images. Also, the pedestal should be dark at night to improve pilots' vision at night.
