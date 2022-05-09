@@ -16,6 +16,12 @@ thread to report any issues - [How to Report Issues](#how-to-report-issues).
 
 ## Implemented Features for Testing
 
+### Pause at Top of Descent (TOD)
+
+- New setting in located in the EFB under Realism - Pause at TOD (configurable by distance between 0-50 nm before TOD)
+- When enabled, flight will pause at the specified distance before TOD
+    - If the TOD point shifts before your present position, or AP mode reverts in CRZ, this will pause the simulation.
+
 ### Hydraulic Gear System
 
 Featured released in Development Version. See our guide for usage and known issues.
@@ -83,6 +89,10 @@ These features are not yet available but are generally planned and might be impl
 - Support for local files (PFD, images) - requires FlyByWire SimBridge (not yet merged)
 
 ## Known Issues
+
+### Pause at TOD Issues
+
+- Since the feature is linked to vertical guidance, having an inaccurate T/D or missing T/D may not pause the simulation.
 
 ### Vertical Guidance Issues
 
