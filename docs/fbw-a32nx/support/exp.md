@@ -9,8 +9,10 @@ thread to report any issues - [How to Report Issues](#how-to-report-issues).
 
 --}
 
-!!! danger "No Support for Experimental - use at own risk"
-    Please do not seek support for the Experimental Version on Discord and only report issues if you have read this page and the reported and known issues.
+!!! danger "Do not expect support for the experimental version - use at own risk!"
+    Please ensure that you have at least read this page and the known issues before reporting issues in the appropriate threads on our Discord server.
+
+    We ask that you understand that we may not offer support for any experimental issues due to the nature of this version. We will happily answer questions time permitting.
 
 ## Implemented Features for Testing
 
@@ -126,7 +128,7 @@ These features are not yet available but are generally planned and might be impl
 
     {--
 
-    Do not expect support or immediate solutions for your issues. We will collect all issues to fix and improve features in testing continuously.
+    Support or immediate solutions for your issues is **not guranteed**. We will collect all issues to fix and improve features in testing continuously.
 
     --}
 
@@ -135,4 +137,3 @@ These features are not yet available but are generally planned and might be impl
 ### Download and Install
 
 See [Installation Guide](../installation.md#downloads).
-
