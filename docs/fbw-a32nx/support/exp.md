@@ -9,10 +9,10 @@ thread to report any issues - [How to Report Issues](#how-to-report-issues).
 
 --}
 
-!!! danger "Support for Experimental is not guaranteed - use at own risk!"
+!!! danger "Do not expect support for the experimental version - use at own risk!"
     Please ensure that you have at least read this page and the known issues before reporting issues in the appropriate threads on our Discord server.
 
-    We ask that you understand support is **not guaranteed** due to the nature of this version and we will happily answer questions time permitting.
+    We ask that you understand that we may not offer support for any experimental issues due to the nature of this version. We will happily answer questions time permitting.
 
 ## Implemented Features for Testing
 
