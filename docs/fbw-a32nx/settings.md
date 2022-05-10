@@ -30,8 +30,7 @@ Set the `Glass Cockpit Refresh Rate` to `Medium` or `Low` to avoid unnecessary d
 
 ### Deactivate MSFS Assistance Features
 
-We have disabled all assistance and AI features to prevent compatibility issues with A32NX custom systems. You may manually enable some AI features through MSFS settings 
-accessible when pressing `ESC`. You can see what settings you can customize in the image below. 
+A warning will be displayed if you have certain AI assistance features turned on. Please ensure you have disabled them.
 
 !!! tip ""
     Having any AI features or assistance features switched on created some stability issues with our custom systems:
@@ -41,16 +40,15 @@ accessible when pressing `ESC`. You can see what settings you can customize in t
     - Constant right or left rudder.
     - Inability to taxi.
 
-![AI Settings New](assets/settings/ai-settings-new.png){loading=lazy}
+<!--![AI Settings New](assets/settings/ai-settings-new.png){loading=lazy}-->
 
-<!-- Information kept in case of future changes to Asobo base implementation
 ??? tip "Verify Settings"
     You can verify the assistance and AI features are switched off by checking the following settings.
 
     ![MSFS Assistance Options](assets/settings/assistance-options.png "MSFS Assistance Options"){loading=lazy}
 
     ![MSFS AI Options](assets/settings/ai-options.png "MSFS AI Options"){loading=lazy}
--->
+
 
 ### Legacy Cockpit Interaction System
 
