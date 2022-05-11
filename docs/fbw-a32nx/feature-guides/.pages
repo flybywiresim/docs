@@ -3,5 +3,5 @@ nav:
     - Custom AP: autopilot-fbw.md
     - Custom FMS: cFMS.md
     - Custom Hydraulics: custom-hydraulics.md
-    - flyPad EFB: flyPad
     - ...
+    - flyPad EFB: flypad
