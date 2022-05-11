@@ -2,7 +2,9 @@
 
 ## Overview
 
-The A32NX has gotten some additional safety features with Wheel Chocks and GSE Safety Cones.
+!!! warning "Not available in the Stable Version."
+
+This page details the safety equipment available at the gate when parked with the A32NX.
 
 !!! block ""
 
@@ -21,7 +23,7 @@ The flight crew activates the Wheel Chocks and Safety Cones through the flyPad E
 The Wheel Chocks and Safety Cones appear when the following conditions are given:
 
 - Chocks and/or Safety Cones are activated in the [flyPad EFB Ground Page](flyPad/ground.md)
-- Engines are off (`ENG1+2 N2` < 3.5%)
+- Engines are off (`ENG1+2 N1` < 3.5%)
 - Beacon lights are off
 - Airplane is on ground
 - Airplane is not moving / rolling
