@@ -21,9 +21,10 @@ The flight crew activates the Wheel Chocks and Safety Cones through the flyPad E
 The Wheel Chocks and Safety Cones appear when the following conditions are given:
 
 - Chocks and/or Safety Cones are activated in the [flyPad EFB Ground Page](flyPad/ground.md)
-- Engines are off (`ENG1+2 N2` < 1%)
+- Engines are off (`ENG1+2 N2` < 3.5%)
 - Beacon lights are off
 - Airplane is on ground
+- Airplane is not moving / rolling
 - Pushback is disconnected
 
 If chocks are in place there will be brake force applied to the aircraft so it should not move even when the parking brake is disengaged.
