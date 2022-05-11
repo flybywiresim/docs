@@ -4,7 +4,10 @@
 
 !!! warning "Not available in the Stable Version."
 
-This page details the safety equipment available at the gate when parked with the A32NX.
+This page details the safety equipment available when parked with the A32NX. Other than just looking gorgeous the wheel chocks even apply some braking force to hold the aircraft in place.
+
+The flight crew activates the Wheel Chocks and Safety Cones through the flyPad EFB. This simulates asking the ground crew to place or remove the chocks or cones. The ground 
+crew will then (virtually) determine if chocks and cones should be placed or removed based on specific criteria, which are described in the [next section](#usage).
 
 !!! block ""
 
@@ -13,10 +16,6 @@ This page details the safety equipment available at the gate when parked with th
      <br>
     ![GSE Safety Cone](../assets/feature-guides/chocks-cones/cones.png "GSE Safety Cone"){loading=lazy align=left width=45%}
     ![EFB Ground Buttons for Chocks and Cones](../assets/feature-guides/chocks-cones/efb-ground-chocks-cones-.png "EFB Ground Buttons for Chocks and Cones"){loading=lazy align=left width=45%}
-
-Other than just looking gorgeous the wheel chocks even apply some braking force to hold the aircraft in place.
-
-The flight crew activates the Wheel Chocks and Safety Cones through the flyPad EFB. This simulates asking the ground crew to place or remove the chocks or cones. The ground crew will then (virtually) determine if chocks and cones should be placed or removed based on specific criteria, which are described in the next section.
 
 ## Usage
 
