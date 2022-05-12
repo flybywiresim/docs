@@ -13,6 +13,7 @@ In addition to the obvious route planning there are several other aspects which 
     - Routing and Constraints
 - Fuel Calculation
 - Weather Forecast
+- Wind Profiles
 - Cost and Time Optimization
 
 See [Flight Planning](https://en.wikipedia.org/wiki/Flight_planning){target=new} on Wikipedia for more information.
@@ -94,6 +95,20 @@ This will load your flight plan from simBrief directly into the MCDU
 ![MCDU INIT A](../../fbw-a32nx/assets/feature-guides/simbrief/mcdu1b.png "MCDU INIT A"){loading=lazy}
 
 To learn how to set up the MCDU you can read the [**^^F^^**LIGHT PLAN](../../pilots-corner/beginner-guide/preparing-mcdu.md#flight-plan) section in our beginner's guide.
+
+### Wind Profiles
+
+<!-- Insert Init A page with WIND/TEMP highlighted -->
+
+On the `INIT A` page, select `WIND/TEMP` by pressing LSK4R. This brings you to the `CLIMB WIND` page.
+
+<!-- Insert Climb Wind page photo -->
+
+To request the wind data from the simbrief flight plan, select `WIND REQUEST` by pressing LSK3R. This will calculate the wind profiles during the climb phase based on the simbrief-provided wind data.
+
+Press LSK5R to go to the `NEXT PHASE`, `CRZ WIND`. The same procedure of pressing LSK3R for `WIND REQUEST` applies here. Per-waypoint entry and request of cruise winds is still being implemented.
+
+Finally, press LSK5R to go to the `NEXT PHASE`, `DESCENT WIND`. Pressing LSK3R for `WIND REQUEST` will calculate the wind profiles during the descent phase based on the simbrief-provided wind data.
 
 ### Fuel and Weight
 
