@@ -57,6 +57,12 @@ Opens and closes the aft door.
 Calls the catering service if available at the current airport and gate. The catering service will open the aft 
 door and automatically closes it after it has virtually supplied the aircraft.
 
+### Ground Equipment 
+
+See [Wheel Chocks and GSE Safety Cones](../wheel-chocks-cones.md)
+
+For settings see: [flyPad Sim Options Settings](settings.md#sim-options)
+
 ## Pushback
 
 {--

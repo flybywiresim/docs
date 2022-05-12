@@ -71,6 +71,7 @@ Settings for A32NX aircraft configuration.
       NAT routes are imported via SimBrief.  
 - Weight Unit:
     - The weight unit of the aircraft used for aircraft weight, fuel and simBrief imports.
+  
 ## Sim Options
 
 Settings for simulation aspects of the A32NX aircraft.
@@ -135,6 +136,14 @@ Settings for simulation aspects of the A32NX aircraft.
     - Enable this setting to use a calculated ILS signal instead of the signal provided by Microsoft Flight Simulator.
     - This avoids unwanted and unrealistic loss of the ILS signal in Microsoft Flight Simulator which often happens when the aircraft gets below the antenna position.
     - In some rare cases this can cause a faulty G/S signal. In this case this setting can be disabled with immediate effect.
+- Wheel Chocks
+    - Enable wheel chocks visible in the external view
+    - Only visible if ground crew has not removed them - see [Wheel Chocks and GSE Safety Cones](../wheel-chocks-cones.md) for more 
+      information. 
+- Safety Cones
+    - Enable safety cones visible in the external view
+    - Only visible if ground crew has not removed them - see [Wheel Chocks and GSE Safety Cones](../wheel-chocks-cones.md) for more
+        information.
 - Throttle Detents
     - Please see the [Throttle Configuration Guide](throttle-calibration.md).
 
