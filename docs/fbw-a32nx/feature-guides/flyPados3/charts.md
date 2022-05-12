@@ -80,6 +80,12 @@ view and pin them, etc. See the list of controls below.
 
 ## Local Files
 
+!!! bug "Feature not yet available!"
+    Unfortunately this feature is not yet available. As soon as the required component has been released this page 
+    will be updated. 
+
+<!--
+
 ### FlyByWire SimBridge Required
 
 For accessing local files from the PC the FlyByWire SimBridge is required. It is currently being developed and will 
@@ -160,3 +166,4 @@ You can also remove all pinned charts at once by clicking the `Remove All` butto
     Pinned charts can be searched by typing the search term into the search field. Select where to search in the 
     dropdown.  
 
+-->
