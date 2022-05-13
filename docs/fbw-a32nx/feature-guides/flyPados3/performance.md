@@ -4,10 +4,6 @@
 
 ## Top of Descent Calculator
 
-This calculator helps the pilot to calculate when to start descending (aka the Top of Descent) based on various variables so that different scenarios can be calculated (e.g. descending with 3° descent rate, descending with a given vertical speed, etc.).
-
-For more information about descent and approach planning see our guide: [Descent and Approach Planning](../../../pilots-corner/beginner-guide/descent.md#1-descent-and-approach-planning)
-
 <div style="position: relative;">
     <img src="/fbw-a32nx/assets/flypados3/flypad-performance-tod.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
@@ -23,6 +19,9 @@ For more information about descent and approach planning see our guide: [Descent
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
 
+This calculator helps the pilot to calculate when to start descending (aka the Top of Descent) based on various variables so that different scenarios can be calculated (e.g. descending with 3° descent rate, descending with a given vertical speed, etc.).
+
+For more information about descent and approach planning see our guide: [Descent and Approach Planning](../../../pilots-corner/beginner-guide/descent.md#1-descent-and-approach-planning)
 
 ### Usage
 
@@ -69,7 +68,7 @@ Example:
 ![flyPad Performance TOD Calculator](../../assets/flypados3/performance-tod-distance.png "flyPad Performance TOD Calculator"){loading=lazy}
 
 **Result: We need to start our descent 90NM before the target fix with either an average
-of ^^vertical speed of -2.333ft/min^^ or an average ^^descent angle of -3.0°^^** during the descent distance.
+^^vertical speed of -2.333ft/min^^ or an average ^^descent angle of -3.0°^^** during the descent distance.
 
 !!! note ""
     The above result is averaged over the descent distance and the values are approximations. For more precision use one of the other two methods.

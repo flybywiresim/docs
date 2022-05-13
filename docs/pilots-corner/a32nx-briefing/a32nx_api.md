@@ -669,160 +669,6 @@ Flight Deck: [MCDU Panel](flight-deck/pedestal/mcdu.md)
 |:------------|:------------------------|:-------|:-----------|:---------|:-------|
 | BRT / DIM L | A32NX_MCDU_L_BRIGHTNESS | 0..100 | R/W        | MSFS VAR |        |
 
-
-??? note "MCDU API (Click to Expand)"
-    The MCDU API is vast as it contains many buttons.
-
-    ~~Currently most of the buttons don't have a PRESSED event/var. So a complete remote control is not yet possible.~~
-
-    - A32NX_MCDU_CLR_MinReleaseTime
-    - A32NX_MCDU_CLR_Pressed
-    - A32NX_MCDU_L_BRIGHTNESS
-    - A32NX_MCDU_R_BRIGHTNESS
-    - A32NX_MCDU_MASK_OPACITY
-
-    - A32NX_MCDU_PUSH_ANIM_1_0
-    - A32NX_MCDU_PUSH_ANIM_1_1
-    - A32NX_MCDU_PUSH_ANIM_1_2
-    - A32NX_MCDU_PUSH_ANIM_1_3
-    - A32NX_MCDU_PUSH_ANIM_1_4
-    - A32NX_MCDU_PUSH_ANIM_1_5
-    - A32NX_MCDU_PUSH_ANIM_1_6
-    - A32NX_MCDU_PUSH_ANIM_1_7
-    - A32NX_MCDU_PUSH_ANIM_1_8
-    - A32NX_MCDU_PUSH_ANIM_1_9
-    - A32NX_MCDU_PUSH_ANIM_1_A
-    - A32NX_MCDU_PUSH_ANIM_1_AIRPORT
-    - A32NX_MCDU_PUSH_ANIM_1_ATC
-    - A32NX_MCDU_PUSH_ANIM_1_B
-    - A32NX_MCDU_PUSH_ANIM_1_C
-    - A32NX_MCDU_PUSH_ANIM_1_CLR
-    - A32NX_MCDU_PUSH_ANIM_1_D
-    - A32NX_MCDU_PUSH_ANIM_1_DARROW
-    - A32NX_MCDU_PUSH_ANIM_1_DATA
-    - A32NX_MCDU_PUSH_ANIM_1_DIR
-    - A32NX_MCDU_PUSH_ANIM_1_DOT
-    - A32NX_MCDU_PUSH_ANIM_1_E
-    - A32NX_MCDU_PUSH_ANIM_1_F
-    - A32NX_MCDU_PUSH_ANIM_1_FPLN
-    - A32NX_MCDU_PUSH_ANIM_1_FUEL
-    - A32NX_MCDU_PUSH_ANIM_1_G
-    - A32NX_MCDU_PUSH_ANIM_1_H
-    - A32NX_MCDU_PUSH_ANIM_1_I
-    - A32NX_MCDU_PUSH_ANIM_1_INIT
-    - A32NX_MCDU_PUSH_ANIM_1_J
-    - A32NX_MCDU_PUSH_ANIM_1_K
-    - A32NX_MCDU_PUSH_ANIM_1_L
-    - A32NX_MCDU_PUSH_ANIM_1_L1
-    - A32NX_MCDU_PUSH_ANIM_1_L2
-    - A32NX_MCDU_PUSH_ANIM_1_L3
-    - A32NX_MCDU_PUSH_ANIM_1_L4
-    - A32NX_MCDU_PUSH_ANIM_1_L5
-    - A32NX_MCDU_PUSH_ANIM_1_L6
-    - A32NX_MCDU_PUSH_ANIM_1_LARROW
-    - A32NX_MCDU_PUSH_ANIM_1_M
-    - A32NX_MCDU_PUSH_ANIM_1_MENU
-    - A32NX_MCDU_PUSH_ANIM_1_N
-    - A32NX_MCDU_PUSH_ANIM_1_O
-    - A32NX_MCDU_PUSH_ANIM_1_OVFY
-    - A32NX_MCDU_PUSH_ANIM_1_P
-    - A32NX_MCDU_PUSH_ANIM_1_PERF
-    - A32NX_MCDU_PUSH_ANIM_1_PLUSMINUS
-    - A32NX_MCDU_PUSH_ANIM_1_PROG
-    - A32NX_MCDU_PUSH_ANIM_1_Q
-    - A32NX_MCDU_PUSH_ANIM_1_R
-    - A32NX_MCDU_PUSH_ANIM_1_R1
-    - A32NX_MCDU_PUSH_ANIM_1_R2
-    - A32NX_MCDU_PUSH_ANIM_1_R3
-    - A32NX_MCDU_PUSH_ANIM_1_R4
-    - A32NX_MCDU_PUSH_ANIM_1_R5
-    - A32NX_MCDU_PUSH_ANIM_1_R6
-    - A32NX_MCDU_PUSH_ANIM_1_RAD
-    - A32NX_MCDU_PUSH_ANIM_1_RARROW
-    - A32NX_MCDU_PUSH_ANIM_1_S
-    - A32NX_MCDU_PUSH_ANIM_1_SEC
-    - A32NX_MCDU_PUSH_ANIM_1_SLASH
-    - A32NX_MCDU_PUSH_ANIM_1_SP
-    - A32NX_MCDU_PUSH_ANIM_1_T
-    - A32NX_MCDU_PUSH_ANIM_1_U
-    - A32NX_MCDU_PUSH_ANIM_1_UARROW
-    - A32NX_MCDU_PUSH_ANIM_1_V
-    - A32NX_MCDU_PUSH_ANIM_1_W
-    - A32NX_MCDU_PUSH_ANIM_1_X
-    - A32NX_MCDU_PUSH_ANIM_1_Y
-    - A32NX_MCDU_PUSH_ANIM_1_Z
-    - A32NX_MCDU_PUSH_ANIM_2_0
-    - A32NX_MCDU_PUSH_ANIM_2_1
-    - A32NX_MCDU_PUSH_ANIM_2_2
-    - A32NX_MCDU_PUSH_ANIM_2_3
-    - A32NX_MCDU_PUSH_ANIM_2_4
-    - A32NX_MCDU_PUSH_ANIM_2_5
-    - A32NX_MCDU_PUSH_ANIM_2_6
-    - A32NX_MCDU_PUSH_ANIM_2_7
-    - A32NX_MCDU_PUSH_ANIM_2_8
-    - A32NX_MCDU_PUSH_ANIM_2_9
-    - A32NX_MCDU_PUSH_ANIM_2_A
-    - A32NX_MCDU_PUSH_ANIM_2_AIRPORT
-    - A32NX_MCDU_PUSH_ANIM_2_ATC
-    - A32NX_MCDU_PUSH_ANIM_2_B
-    - A32NX_MCDU_PUSH_ANIM_2_C
-    - A32NX_MCDU_PUSH_ANIM_2_CLR
-    - A32NX_MCDU_PUSH_ANIM_2_D
-    - A32NX_MCDU_PUSH_ANIM_2_DARROW
-    - A32NX_MCDU_PUSH_ANIM_2_DATA
-    - A32NX_MCDU_PUSH_ANIM_2_DIR
-    - A32NX_MCDU_PUSH_ANIM_2_DOT
-    - A32NX_MCDU_PUSH_ANIM_2_E
-    - A32NX_MCDU_PUSH_ANIM_2_F
-    - A32NX_MCDU_PUSH_ANIM_2_FPLN
-    - A32NX_MCDU_PUSH_ANIM_2_FUEL
-    - A32NX_MCDU_PUSH_ANIM_2_G
-    - A32NX_MCDU_PUSH_ANIM_2_H
-    - A32NX_MCDU_PUSH_ANIM_2_I
-    - A32NX_MCDU_PUSH_ANIM_2_INIT
-    - A32NX_MCDU_PUSH_ANIM_2_J
-    - A32NX_MCDU_PUSH_ANIM_2_K
-    - A32NX_MCDU_PUSH_ANIM_2_L
-    - A32NX_MCDU_PUSH_ANIM_2_L1
-    - A32NX_MCDU_PUSH_ANIM_2_L2
-    - A32NX_MCDU_PUSH_ANIM_2_L3
-    - A32NX_MCDU_PUSH_ANIM_2_L4
-    - A32NX_MCDU_PUSH_ANIM_2_L5
-    - A32NX_MCDU_PUSH_ANIM_2_L6
-    - A32NX_MCDU_PUSH_ANIM_2_LARROW
-    - A32NX_MCDU_PUSH_ANIM_2_M
-    - A32NX_MCDU_PUSH_ANIM_2_MENU
-    - A32NX_MCDU_PUSH_ANIM_2_N
-    - A32NX_MCDU_PUSH_ANIM_2_O
-    - A32NX_MCDU_PUSH_ANIM_2_OVFY
-    - A32NX_MCDU_PUSH_ANIM_2_P
-    - A32NX_MCDU_PUSH_ANIM_2_PERF
-    - A32NX_MCDU_PUSH_ANIM_2_PLUSMINUS
-    - A32NX_MCDU_PUSH_ANIM_2_PROG
-    - A32NX_MCDU_PUSH_ANIM_2_Q
-    - A32NX_MCDU_PUSH_ANIM_2_R
-    - A32NX_MCDU_PUSH_ANIM_2_R1
-    - A32NX_MCDU_PUSH_ANIM_2_R2
-    - A32NX_MCDU_PUSH_ANIM_2_R3
-    - A32NX_MCDU_PUSH_ANIM_2_R4
-    - A32NX_MCDU_PUSH_ANIM_2_R5
-    - A32NX_MCDU_PUSH_ANIM_2_R6
-    - A32NX_MCDU_PUSH_ANIM_2_RAD
-    - A32NX_MCDU_PUSH_ANIM_2_RARROW
-    - A32NX_MCDU_PUSH_ANIM_2_S
-    - A32NX_MCDU_PUSH_ANIM_2_SEC
-    - A32NX_MCDU_PUSH_ANIM_2_SLASH
-    - A32NX_MCDU_PUSH_ANIM_2_SP
-    - A32NX_MCDU_PUSH_ANIM_2_T
-    - A32NX_MCDU_PUSH_ANIM_2_U
-    - A32NX_MCDU_PUSH_ANIM_2_UARROW
-    - A32NX_MCDU_PUSH_ANIM_2_V
-    - A32NX_MCDU_PUSH_ANIM_2_W
-    - A32NX_MCDU_PUSH_ANIM_2_X
-    - A32NX_MCDU_PUSH_ANIM_2_Y
-    - A32NX_MCDU_PUSH_ANIM_2_Z
-
-
 ### Switching Panel
 
 Flight Deck: [Switching Panel](flight-deck/pedestal/switching.md)
@@ -1085,3 +931,19 @@ See [Nose Wheel and Tiller Operation](../../fbw-a32nx/feature-guides/nw-tiller.m
 |          | A32NX_RIGHT_BRAKE_PEDAL_INPUT  | 1..100        | R          | Custom LVAR      |        |
 |          | SIMCONNECT:AXIS_LEFT_BRAKE_SET | -16383..16384 | -          | SIMCONNECT EVENT |        |
 |          | SIMCONNECT:AXIS_LEFT_BRAKE_SET | -16383..16384 | -          | SIMCONNECT EVENT |        |
+
+## flyPad EFB
+
+| Function                                     | API Usage                             | Values   | Read/Write | Type                     | Remark                                                                              |
+|:---------------------------------------------|:--------------------------------------|:---------|:-----------|:-------------------------|:------------------------------------------------------------------------------------|
+| Hardware Power Button                        | A32NX_EFB_POWER                       | -        | -          | HTML Event (aka H Event) | Toggles EFB Power                                                                   |
+| EFB Brightness                               | A32NX_EFB_BRIGHTNESS                  | 0..100   | R/W        | Custom LVAR              | Overwrites automatic setting                                                        |
+| Pushback System                              | A32NX_PUSHBACK_SYSTEM_ENABLED         | 0&#124;1 | R/W        | Custom LVAR              | To turn off Pushback System completely to not interfere with other pushback add-ons |
+| Load Lighting Preset                         | A32NX_LOAD_LIGHTING_PRESET            | 1..8     | R/W        | Custom LVAR              | Aircraft must be powered. Will be reset to 0 after the preset has been loaded.      |
+| Save Lighting Preset                         | A32NX_SAVE_LIGHTING_PRESET            | 1..8     | R/W        | Custom LVAR              | Aircraft must be powered. Will be reset to 0 after the preset has been saved.       |
+| Load Aircraft Preset                         | A32NX_LOAD_AIRCRAFT_PRESET            | 1..5     | R/W        | Custom LVAR              | Will be reset to 0 after the preset has been loaded.                                |
+| Current Progress for Aircraft Preset Loading | A32NX_LOAD_AIRCRAFT_PRESET_PROGRESS   | 0.0..1.0 | R          | Custom LVAR              | Percent done of the Aircraft State to be loaded.                                    |
+| Current Aircraft Preset Loading Step         | A32NX_LOAD_AIRCRAFT_PRESET_CURRENT_ID | 0..999   | R          | Custom LVAR              | ID of the current step.                                                             |
+
+
+

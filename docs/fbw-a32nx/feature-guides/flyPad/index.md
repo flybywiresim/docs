@@ -1,7 +1,9 @@
 <link rel="stylesheet" href="../../../../stylesheets/efb-interactive.css">
 <link rel="stylesheet" href="../../../../stylesheets/toc-tables.css">
 
-# flyPad EFB
+# flyPadOS 2 EFB
+
+!!! warning "flyPadOS 2 is only available in the Stable version."
 
 <div style="position: relative;">
     <img src="/fbw-a32nx/assets/flypad/flypad-dashboard-menu.png" style="width: 100%; height: auto;" loading="lazy">

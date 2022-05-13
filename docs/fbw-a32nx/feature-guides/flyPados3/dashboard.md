@@ -69,9 +69,15 @@ We have applied a helpful coloring scheme a large European airline uses to point
 
 ![img_4.png](../../assets/flypados3/pinned-charts-widget.png)
 
+Any pinned charts from the [Navigation page](charts.md#pinned-charts) will be shown here. 
+Clicking on a chart card brings up the corresponding chart. 
+
 ### Checklist and Maintenance Widget
 
 ![img_5.png](../../assets/flypados3/checklist-maintenance-widget.png)
+
+This shows relevant checklists in relation to the current flight phase.
+Clicking on a checklist card brings up the corresponding checklist.
 
 ### Load From simBrief
 

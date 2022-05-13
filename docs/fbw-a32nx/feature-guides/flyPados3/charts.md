@@ -131,6 +131,8 @@ The controls are similar to the Navigraph chart view although there will not be 
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
 
+-->
+
 ## Pinned Charts
 
 Available charts can be pinned by clicking on the pin symbol. The pinned charts are then available in this tab and 
@@ -165,5 +167,3 @@ You can also remove all pinned charts at once by clicking the `Remove All` butto
     ![img.png](../../assets/flypados3/pinned-charts-search.png){loading=lazy width=50% align=left}
     Pinned charts can be searched by typing the search term into the search field. Select where to search in the 
     dropdown.  
-
--->

@@ -36,7 +36,7 @@ arrive. 5-10 minutes is not unusual. When the fuel truck arrives the MSFS fuel p
 
 !!! warning ""
     We have deactivated the MSFS Fuel Page and you can't use it with the FlyByWire A32NX.
-    Fuel and payload should be loaded through this page only. 
+    Fuel and payload should be loaded through the [Fuel](#fuel-page) page only. 
 
 ### Call Baggage Truck
 
@@ -113,7 +113,7 @@ Pressing this button will call and attach the pushback tug or release it in case
 
 !!! warning "Tug Animation"
     From the point of view of the aircraft the tug appears to be immediately attached. This is a sim issue as the tug's 
-    animation is not in sync with the tug-attached signal to the aircraft. This also allows pushback immediately 
+    animation is not in sync with the tug-attached signal to the aircraft. This also allows to pushback immediately 
     although the visual tug is not yet connected to the aircraft.
     <p />
     To overcome this limitation the sim's pushback tug model would need to be changed which would conflict with 
@@ -135,8 +135,10 @@ Convenience button to set or release the parking brake while using the pushback 
 
 The forward and backward buttons control the speed of the pushback tug. 
 
-The `Forward` button changes the speed in forward direction (increase speed when already moving forwards, decrease speed 
-when moving backwards).
+The `Forward` button changes the speed in forward direction:
+
+- increase speed when already moving forwards
+- decrease speed when moving backwards
 
 The `Backward`button is vice versa. 
 
@@ -148,7 +150,10 @@ Pauses all movement and resets speed and direction to zero.
 
 The `Left` and `Right` buttons control the direction of the tug-aircraft movement. 
 
-`Left` changes the direction towards the left (more left when already in a left turn, less right when in a right turn). 
+`Left` changes the direction towards the left: 
+
+- more left when already in a left turn
+- less right when in a right turn 
 
 `Right` is vice versa. 
 
