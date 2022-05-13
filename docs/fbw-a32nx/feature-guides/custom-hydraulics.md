@@ -14,6 +14,7 @@ Our new gear system aims at replicating its real counterpart even in the slighte
 !!! warning "Not Yet Implemented"
     Non-exhaustive list of features yet to come:
 
+    - Doors animations
     - Aerodynamic effects
     - Complete fault monitoring and BITE tests of LGCIUs
     - Complete set of failures
@@ -54,7 +55,7 @@ Some first failures are provided, and while ECAM information impact is a tempora
 !!! tip "Only issues on LGCIU1 proximity sensors will show erroneous information on gear light indicator."
 
 ### Gravity Extension
-Gravity extension is already fully supported by our gear system. However, user experience is not perfect yet due to current model limitations.
+Gravity extension is already fully supported by our gear system. However, user experience is not perfect yet due to current 3D model limitations.
 
 While this feature will eventually be perfectly supported with a moving crank handle, for now gravity extension can be used by two means:
 
@@ -70,7 +71,7 @@ If not holding long enough, you will end up with crank handle only doing one or 
 - After 1 turn, hydraulic supply to gear system is closed
 - After 2 turns, doors uplocks will be released and door will stay opened
 
-For now the process cannot be reverted, so once crank handle is used, there's no turning back. This will be subject to change when we find a suitable way to provide feedback about the handle position.
+To revert the process and stow the crank handle back into its place, just click and hold again (provided you already reached 3 turns).
 
 !!! warning "Before Using Gravity Extension"
     Have the plane correctly stabilized before using this procedure. Remember that gears are physically simulated, and are really heavy. Bank angle and/or load factor WILL have 
