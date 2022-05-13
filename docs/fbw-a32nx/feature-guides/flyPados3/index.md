@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="../../../../stylesheets/efb-interactive.css">
+<link rel="stylesheet" href="../../../../stylesheets/toc-tables.css">
 
 # flyPadOS 3 EFB
 
