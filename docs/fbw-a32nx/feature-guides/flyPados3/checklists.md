@@ -24,6 +24,13 @@ The flyPad's interactive checklists help you ensure not to forget important step
 The flyPad checklists are modelled after the official Airbus checklist. You can also download this checklist 
 here: [Checklist and SOP](../../../pilots-corner/SOP.md).
 
+!!! note "A Checklist is Not a Procedure List"
+    Checklists are meant to ensure that the most critical aspects of a procedure are not forgotten and double-checked. 
+    Checklists are not used as a step-by-step guide to configure the aircraft. This is what so-called "Standard 
+    Operation Procedures" are meant to describe.    
+
+    Find the A32NX SOP here: [Checklist and SOP](../../../pilots-corner/SOP.md).
+
 ## Manual Mode
 
 In this mode you will check the items by either clicking on the checkbox or the green button on the bottom saying 
