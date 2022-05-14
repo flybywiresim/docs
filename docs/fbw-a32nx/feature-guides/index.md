@@ -17,4 +17,4 @@ It is not a complete collection of all features but a growing list which is exte
 | [MCDU Web Interface](web-mcdu.md)                      |
 | [Nose Wheel and Tiller Operation](nw-tiller.md)        |
 | [SimBrief Integration](simbrief.md)                    |
-| [Throttle Calibration](flyPad/throttle-calibration.md) |
+| [Throttle Calibration](flypados3/throttle-calibration.md) |

@@ -31,13 +31,15 @@ Selected Modes are activated by pulling the corresponding knob in the FCU.
 
 ### Pulling and Pushing Knobs in Microsoft Flight Simulator
 
-Using the legacy [Cockpit Interaction System](../../../fbw-a32nx/support/reported-issues.md#cockpit-interaction-system) you can push and pull knobs on the FCU like this:
+Using the legacy [Cockpit Interaction System](../../../fbw-a32nx/settings.md#legacy-cockpit-interaction-system) you can push and pull 
+knobs on the FCU 
+like this:
 
-![Pulling-knob](../../../fbw-a32nx/assets/flypad/Pulling-knob.png){loading=lazy width=30%}
+![Pulling-knob](../../assets/advanced-guides/flight/pulling-knob.png){loading=lazy width=30%}
 
 ## Available Guidance Modes
 
-The following guidancve modes are available and displayed in the PFD's FMA as either active or armed. See our [PFD FMA](../../a32nx-briefing//pfd/fma.md) documentation.
+The following guidance modes are available and displayed in the PFD's FMA as either active or armed. See our [PFD FMA](../../a32nx-briefing//pfd/fma.md) documentation.
 
 | Guidance | MANAGED                   | SELECTED       |
 |:---------|:--------------------------|:---------------|

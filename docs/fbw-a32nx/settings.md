@@ -100,7 +100,7 @@ On the Development version if you have an extra axis on your controllers (e.g. t
 
 Throttle should have linear sensitivity.
 
-See [Throttle Calibration Guide](feature-guides/flyPad/throttle-calibration.md).
+See [Throttle Calibration Guide](feature-guides/flypados3/throttle-calibration.md).
 
 ### Keyboard Mapping for Pause Function
 
@@ -136,7 +136,7 @@ See our [Installation Guide](installation.md).
 
 Our Custom Autopilot implementation requires that the throttle is calibrated to be able to correctly recognize the detents the A320 autoflight system relies on.
 
-See [Throttle Calibration Guide](feature-guides/flyPad/throttle-calibration.md)
+See [Throttle Calibration Guide](feature-guides/flypados3/throttle-calibration.md)
 
 ### Error Reporting
 

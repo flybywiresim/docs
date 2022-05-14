@@ -224,7 +224,7 @@ Verify on the Upper ECAM that your aircraft has enough fuel for the flight.
 
 ![ECAM Fuel On Board](../assets/beginner-guide/starting-aircraft/ecam-fuel.png "ECAM Fuel On Board")
 
-If we do not have enough fuel for the flight we can refuel via the [flyPad EFB Fuel Page](../../fbw-a32nx/feature-guides/flyPad/dispatch.md#fuel-page) .
+If we do not have enough fuel for the flight we can refuel via the [flyPad EFB Fuel Page](../../fbw-a32nx/feature-guides/flypados3/dispatch.md#fuel-page) .
 
 ---
 

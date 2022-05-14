@@ -7,7 +7,7 @@
 Settings for various default values of the aircraft.
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypad/flypad-settings-defaults.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/fbw-a32nx/assets/flypados2/flypad-settings-defaults.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.3%; top:  7.7%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 15.6%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 23.5%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Ground</span></div></a>
@@ -33,7 +33,7 @@ Settings for various default values of the aircraft.
 Settings for A32NX aircraft configuration.
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypad/flypad-settings-aircraft-configuration.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/fbw-a32nx/assets/flypados2/flypad-settings-aircraft-configuration.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.3%; top:  7.7%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 15.6%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 23.5%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Ground</span></div></a>
@@ -70,7 +70,7 @@ Settings for A32NX aircraft configuration.
 Settings for simulation aspects of the A32NX aircraft.
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypad/flypad-settings-sim-options.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/fbw-a32nx/assets/flypados2/flypad-settings-sim-options.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.3%; top:  7.7%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 15.6%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 23.5%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Ground</span></div></a>
@@ -128,7 +128,7 @@ Settings for realism aspects of the A32NX aircraft.
 stations and air stations. The current implementation works with fixed timings to simulate transmission delays. This provides better simulation capabilities and includes a VHF signal quality simulation. 
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypad/flypad-settings-realism.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/fbw-a32nx/assets/flypados2/flypad-settings-realism.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.3%; top:  7.7%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 15.6%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 23.5%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Ground</span></div></a>
@@ -170,7 +170,7 @@ stations and air stations. The current implementation works with fixed timings t
 Settings for integrations with various data and information sources.
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypad/flypad-settings-atsu-aoc.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/fbw-a32nx/assets/flypados2/flypad-settings-atsu-aoc.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.3%; top:  7.7%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 15.6%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 23.5%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Ground</span></div></a>
@@ -203,7 +203,7 @@ Settings for integrations with various data and information sources.
 
     - If enabled a message will be displayed to confirm sharing of the free text and position data to the public.
 
-        ![flypad-settings-atsu-aoc-telex-warning](../../assets/flypad/flypad-settings-atsu-aoc-telex-warning.png)
+        ![flypad-settings-atsu-aoc-telex-warning](../../assets/flypados2/flypad-settings-atsu-aoc-telex-warning.png)
 
 - Error Reporting
     - Enables error reports to be sent to Sentry.io to allow the FlyByWire team to easier find and fix issues with the aircraft.
@@ -220,22 +220,22 @@ Before you can use the A32NX simBrief Integration you need to provide your simBr
 - Simbrief Username/Pilot ID:
     - Enter your simBrief username or Pilot ID.
 
-        ![simBrief Account field](../../assets/flypad/simbrief-account-field.png "simBrief Account field")
+        ![simBrief Account field](../../assets/flypados2/simbrief-account-field.png "simBrief Account field")
 
     - If you entered a wrong username or Pilot ID a red error message will be displayed.
 
-        ![simBrief Account Field Error](../../assets/flypad/simbrief-account-field-error.png "simBrief Account Field Error")
+        ![simBrief Account Field Error](../../assets/flypados2/simbrief-account-field-error.png "simBrief Account Field Error")
 
 To get your simBrief username or Pilot ID you can go to your simBrief Account settings and open "Simbrief Data".
 
-![simBrief Account Data](../../assets/flypad/simbrief-account-data.png "simBrief Account Data")
+![simBrief Account Data](../../assets/flypados2/simbrief-account-data.png "simBrief Account Data")
 
 ## Audio
 
 Settings for various audio sources and sounds.
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypad/flypad-settings-audio.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/fbw-a32nx/assets/flypados2/flypad-settings-audio.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.3%; top:  7.7%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 15.6%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 23.5%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Ground</span></div></a>
@@ -267,7 +267,7 @@ For detailed information on these settings please visit:
 Settings for the flyPad itself.
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypad/flypad-settings-flypad.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/fbw-a32nx/assets/flypados2/flypad-settings-flypad.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.3%; top:  7.7%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 15.6%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 23.5%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Ground</span></div></a>
@@ -293,7 +293,7 @@ Settings for the flyPad itself.
 Please see the [Throttle Configuration Guide](throttle-calibration.md) on how to use this page.
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypad/flypad-setting-throttle-calibration.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/fbw-a32nx/assets/flypados2/flypad-setting-throttle-calibration.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.3%; top:  7.7%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 15.6%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 23.5%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Ground</span></div></a>

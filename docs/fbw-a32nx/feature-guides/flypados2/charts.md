@@ -1,15 +1,13 @@
 <link rel="stylesheet" href="../../../../stylesheets/efb-interactive.css">
 
-# flyPad Online ATC
+# flyPad Navigation & Charts
 
-## Description
+## Navigraph Integration
 
-The FlyByWire flyPad helps pilots managing the communication frequencies when using Online ATC services like VATSIM or IVAO.
-
-It lists all currently available ATC stations which can then be activated in the RMP 1 by a single click.
+With a valid Navigraph subscription the FlyByWire flyPad allows access to all Navigraph charts from within the flyPad.
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypad/flypad-online-atc-vatsim.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/fbw-a32nx/assets/flypados2/flypad-navigation.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.3%; top:  7.7%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 15.6%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 23.5%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Ground</span></div></a>
@@ -21,19 +19,13 @@ It lists all currently available ATC stations which can then be activated in the
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
 
-## Usage
 
-### Changing Frequencies
+Before you can use the Navigraph integration the flyPad will ask you once to authenticate and authorize Navigraph access by either scanning the QR code or visiting the shown url in a browser. Login in there and authorize FlyByWire to access the Navigraph account.
 
-Go to the flyPad [ATSU/AOC settings page](settings.md#atsuaoc) and select your Online ATC service.
+![Charts Navigraph Login](../../assets/flypados2/charts-navigraph-login.png "Charts Navigraph Login"){loading=lazy}
 
-!!! warning ""
-    Only VATSIM or IVAO can be used for this feature at this time.
+When authenticated successfully you can enter the desired airport ICAO into the search field and as soon as a valid ICAO code is entered the corresponding airport is highlighted in the cyan box.
 
-Go back to the ATC page and see the list of the currently available ATC stations. Click on a station to set this frequency in the Captain's RMP.
+You can now choose the required chart in a similar way as in the Navigraph client.
 
-![Online ATC Frequency via click](../../assets/flypad/online-atc-frequency.png "Online ATC Frequency via click"){loading=lazy}
-
-### Using Hoppie ACARS
-
-See documentation for [Hoppie ACARS](../hoppie.md)
+The chart window allows maximizing, switching between dark mode and light mode and also zooming and panning (with mouse button pressed).

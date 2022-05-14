@@ -6,7 +6,7 @@
 !!! warning "flyPadOS 2 is only available in the Stable version."
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypad/flypad-dashboard-menu.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/fbw-a32nx/assets/flypados2/flypad-dashboard-menu.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="./dashboard/">   <div class="imagemap" style="position: absolute; left: 1.3%; top:  7.7%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="./dispatch/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 15.6%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="./ground/">      <div class="imagemap" style="position: absolute; left: 1.3%; top: 23.5%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Ground</span></div></a>
@@ -39,7 +39,7 @@ The FlyByWire team is in the process of moving all aircraft settings to the EFB 
 
 This documentation takes you through all pages and functions of the flyPad EFB.
 
-![FlyByWire flyPad](../../assets/flypad/flypad-hero.png "FlyByWire flyPad")
+![FlyByWire flyPad](../../assets/flypados2/flypad-hero.png "FlyByWire flyPad")
 
 ## General Usage
 
@@ -48,7 +48,7 @@ The flyPad is organized into several pages. Links to their documentation are bel
 To **TURN ON** and **TURN OFF** the flyPad you can either:
 
 !!! block ""
-    ![Flypad on off](../../assets/flypad/flypad-on-off.png "Flypad on off"){loading=lazy align=left}
+    ![Flypad on off](../../assets/flypados2/flypad-on-off.png "Flypad on off"){loading=lazy align=left}
 
     - To turn it on or off click on the "hardware" button on the top right of the tablet.
     - To turn it on click anywhere on the screen.

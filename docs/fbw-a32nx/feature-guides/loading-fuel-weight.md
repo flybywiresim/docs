@@ -81,7 +81,7 @@ Make sure you have our latest [simBrief Profile](../installation.md#simbrief-air
 
     --}
 
-    - Fuel: Now done via the [EFB](flyPad/dispatch.md#fuel-page).
+    - Fuel: Now done via the [EFB](flypados3/dispatch.md#fuel-page).
     - Payload: Done through the [W&B in the MCDU](#weights-and-balance)
 
 
@@ -166,12 +166,12 @@ Change the default weights as required and make sure you select Save Aircraft at
 
     **PLEASE NOTE** we have changed fuel and payload loading.
 
-    - Fuel: Now done via the [EFB](flyPad/dispatch.md#fuel-page).
+    - Fuel: Now done via the [EFB](flypados3/dispatch.md#fuel-page).
     - Payload: Done through the [W&B in the MCDU](#weights-and-balance)
 
 ### Fuel
 
-Fuel loading is now exclusively done via our EFB which has a great UI to see the status of fuel tanks and other options. [Guide Here](flyPad/dispatch.md#fuel-page).
+Fuel loading is now exclusively done via our EFB which has a great UI to see the status of fuel tanks and other options. [Guide Here](flypados3/dispatch.md#fuel-page).
 
 ### Weights and Balance
 
@@ -182,7 +182,7 @@ Get our [simBrief Profile](../installation.md#simbrief-airframe) for the Develop
 !!! warning "Fuel, Weights and Balance When not Starting Cold & Dark"
     The process described in this section is for starting the flight at a gate/ramp in a cold and dark state.
 
-    If you start your flight on the runway or in the air the loading process will only work if the Boarding Time [settings](flyPad/settings.md#sim-options) in the flyPad EFB are set to `Instant`. This is deliberate as simulating fueling or boarding and loading when starting from the runway does not make sense.
+    If you start your flight on the runway or in the air the loading process will only work if the Boarding Time [settings](flypados3/settings.md#sim-options) in the flyPad EFB are set to `Instant`. This is deliberate as simulating fueling or boarding and loading when starting from the runway does not make sense.
 
 ??? info "Dynamic Fields and Colors"
     Payload, ZFW, ZFWCG are dynamic fields that are updated alongside the loading/boarding process.
@@ -255,7 +255,7 @@ Get our [simBrief Profile](../installation.md#simbrief-airframe) for the Develop
         Make sure boarding and loading is completed before filling the INIT B page's ZFW and CG!
 
     !!! tip ""
-        [Setting boarding simulation time on the EFB](flyPad/settings.md#usage_2)
+        [Setting boarding simulation time on the EFB](flypados3/settings.md#usage_2)
 
 !!! block ""
     ![W&B Loaded](../assets/feature-guides/simbrief/wb-loaded.jpg){align=right width=50% loading=lazy}

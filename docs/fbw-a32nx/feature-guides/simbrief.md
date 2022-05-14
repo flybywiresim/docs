@@ -39,13 +39,13 @@ This is best explained by simBrief itself - [simBrief User Guide](https://www.si
 
 ### Setup A32NX simBrief Integration
 
-The simbrief username needs to configured in the flyPad EFB. See [Setup simBrief Integration](flyPad/settings.md#simbrief-integration)
+The simbrief username needs to configured in the flyPad EFB. See [Setup simBrief Integration](flypados3/settings.md#simbrief-integration)
 
 ### Importing the simBrief OFP to the flyPad
 
-See [flyPad Guide - Load from simBrief](flyPad/dashboard.md#load-from-simbrief)
+See [flyPad Guide - Load from simBrief](flypados3/dashboard.md#load-from-simbrief)
 
-See [flyPad Guide - OFP](flyPad/dispatch.md#ofp-page) on how to view the simBrief Operational Flight Plan.
+See [flyPad Guide - OFP](flypados3/dispatch.md#ofp-page) on how to view the simBrief Operational Flight Plan.
 
 See [Fuel and Weight](loading-fuel-weight.md) on how to load fuel and payload.
 

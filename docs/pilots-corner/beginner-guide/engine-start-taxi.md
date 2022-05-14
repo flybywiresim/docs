@@ -96,8 +96,7 @@ Although Microsoft Flight Simulator also has some pushback functionality built i
 After the tug is attached to the nose wheel we can start pushing back by using the control buttons or the rudder and 
 elevator controls.
 
-See the flyPad documentation for more details: [flyPad Pushback](../../fbw-a32nx/feature-guides/flyPados3/ground.
-md#pushback)
+See the flyPad documentation for more details: [flyPad Pushback](../../fbw-a32nx/feature-guides/flypados3/ground.md#pushback)
 
 ---
 
