@@ -18,7 +18,7 @@ Please select the correct version below.
 
 ---
 
-??? "General Fuel and Weight Information (Click to expand)"
+??? info "General Fuel and Weight Information (Click to expand)"
     ## General Fuel and Weight Information
 
     ### Operating Empty Weight
@@ -285,3 +285,9 @@ Get our [simBrief Profile](../installation.md#simbrief-airframe) for the Develop
     **NOTE:** Cargo will show only bag weight for 142 pax. Please ensure that you re-add any additional cargo that you may have been carrying originally.
 
     Press START to begin the process.
+
+---
+
+## Fuel Persistence
+
+!!! warning "Not Available in the Stable Version"
