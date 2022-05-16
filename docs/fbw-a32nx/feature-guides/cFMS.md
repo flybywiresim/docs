@@ -72,7 +72,7 @@ We have introduced new features to the custom flight management system as part o
 - WX and TERR on ND are not implemented yet. We are waiting for better API support by Microsoft Flight Simulator. See our [Forums Feature Request](https://forums.flightsimulator.com/t/implement-weather-and-terrain-api-s-for-aircraft-developers-to-implement-accurate-radar-predictive-windshear-egpws-and-metar-wind-uplink/442016){target=new}.
 - Rendering of flight path on the ND of terminal procedure legs may be glitched or incorrect during cruise. - [See Special Notes](#flight-path-rendering).
 - Rendering of flight path on the ND of legs will be glitched or incorrect if you are flying faster than the appropriate/correct speed. - [See Special Notes](#flight-path-rendering).
-- Syncing the aircraft flight plan with the sim's flight plan for default ATC and VFR map is not 100% supported. - [See Special Notes](#flight-plan-sync-msfs-atc-vfr-map).
+- Syncing the aircraft flight plan with the sim's flight plan for default ATC and VFR map is not 100% supported. - [See Special Notes](#special-notes).
 - Defining both FROM/TO in the world map shows in the FROM/TO INIT A page but does not populate the airport list in our METAR (AOC) integration.
 - DIRECT-TO: Turning point is not correctly implemented yet.
 - ETA in F-PLN A on the MCDU may not be 100% accurate.
@@ -82,9 +82,40 @@ We have introduced new features to the custom flight management system as part o
 
 ## Special Notes
 
+Our custom FMS provides better accuracy and features over the default offering in MSFS which results in issues syncing the flight plan from the MCDU back into the simulator.
+Flight plans with complex routing may have significant issues if synced backwards or loaded externally through MSFS's simplified flight planning. This will always be problematic unless Asobo improves the built-in flight planner. Other aircraft with complex flight planning capabilities also have this limitation.
+
+### World Map Flight Plans
+
+You can attempt to load any saved `.pln` file from 3rd party flight planners (i.e. simBrief) into the world map flight planner. This would populate the world menu with the following:
+
+- FROM/TO
+- Routing
+- SID + STAR
+
+Loading your flight plan via this method would allow you to use the built in MSFS ATC to obtain your IFR clearance and ATC coverage throughout your flight. Please see other 
+methods below.
+
+!!! warning "Be Aware"
+    In most cases our custom FMS may require you to select your SID or STAR manually. (This is similar to our simBrief import on the MCDU). We highly recommend you plan your entire route including arrival procedure and runway otherwise the default ATC may not perform adequately.
+
 ### Flight Plan Sync (MSFS ATC + VFR Map)
 
-Our custom FMS provides better accuracy and features over the default offering in MSFS which results in issues syncing the flight plan from the MCDU back into the simulator. Flight plans with complex routing may have significant issues if synced backwards to MSFS's simplified flight planning. This will always be problematic unless Asobo improves the built-in flight planner. Other aircraft with complex flight planning capabilities also have this limitation.
+If you choose to use our built-in simBrief import on the MCDU to bypass the world menu planner (as we recommend), we have provided a feature that helps sync the aircraft's flight plan back to the MSFS' built-in flight plan. This feature can be configured on the EFB and is set to `None` by default.
+
+!!! info "How to Turn on Flight Plan Sync"
+    Before performing an INIT REQ. or inputting your flight plan please follow the steps below if you would like to try and use the built-in ATC for your flight.
+
+    - Go to the EFB Settings and select Sim Options. [Location Here](flyPad/settings.md#sim-options).
+    - Switch the `Sync MSFS Flight Plan` setting to `Save`.
+    - Continue entering your flight plan or perform an INIT REQ.
+
+Enabling this feature should allow:
+
+- **IFR clearance access through the MSFS ATC**
+- **Usage of the VFR map**
+
+#### MSFS ATC + VFR Map
 
 !!! warning "VFR Map"
     We'd like to stress that the VFR Map is not supported and we don't recommend using it - the A320neo is an IFR aircraft after all.
@@ -92,20 +123,6 @@ Our custom FMS provides better accuracy and features over the default offering i
     When flight plan sync is enabled you will often not see the proper sequence of waypoints or pathing between waypoints. 
 
     **The VFR Map will attempt to you show you what the simulator's built-in flight planner produces**, which is not an accurate representation of the LNAV in our cFMS. In the future we may replicate a secondary route visualization (apart from the PLAN mode on the ND) feature in the EFB.
-
-With the information above in mind, we have provided a feature that helps sync the aircraft's flight plan back to the MSFS' built-in flight plan. This feature can be configured on the EFB and is set to `None` by default.
-
-Enabling this feature should allow:
-
-- **IFR clearance access through the MSFS ATC**
-- **Usage of the VFR map**
-
-!!! info "How to Turn on Flight Plan Sync"
-     Before performing an INIT REQ. or inputting your flight plan please follow the steps below if you would like to try and use the built-in ATC for your flight.
-
-    - Go to the EFB Settings and select Sim Options. [Location Here](flyPad/settings.md#sim-options).
-    - Switch the `Sync MSFS Flight Plan` setting to `Save`.
-    - Continue entering your flight plan or perform an INIT REQ.
 
 ### WX/TER
 
