@@ -93,11 +93,34 @@ You can attempt to load any saved `.pln` file from 3rd party flight planners (i.
 - Routing
 - SID + STAR
 
-Loading your flight plan via this method would allow you to use the built in MSFS ATC to obtain your IFR clearance and ATC coverage throughout your flight. Please see other 
+---
+
+#### Steps
+
+!!! danger "Follow each step carefully!"
+
+**We recommend** the flyPad flight plan sync feature is set to `None` before attempting this. *May require you to load into a flight and check that the flyPad is set correctly.* This would allow MSFS to follow your flight plan independently of our custom FMS.
+
+??? info "Finding Flight Plan Sync Setting"
+    - Go to the EFB Settings and select Sim Options. [Location Here](flyPad/settings.md#sim-options).
+    - Switch the `Sync MSFS Flight Plan` setting to `None`.
+
+1. Create a flight plan from simBrief or another 3rd party flight planner.
+2. Download and save the fight plan for MSFS in the `.pln` format to your PC.
+3. Load the `.pln` file in the MSFS world map.
+4. **Make sure** to select a starting gate and destination approach from the world map's drop down menus.
+5. Load your flight.
+6. *Optional.* You can use the MCDU to perform an INIT REQ. to pull down from simBrief to have an accurate flight plan with our custom FMS while having MSFS ATC support. 
+
+---
+
+Loading your flight plan via this method would allow you to use the built-in MSFS ATC to obtain your IFR clearance and ATC coverage throughout your flight. Please see other 
 methods below.
 
-!!! warning "Be Aware"
+!!! warning "Be Aware of the Following"
     In most cases our custom FMS may require you to select your SID or STAR manually. (This is similar to our simBrief import on the MCDU). We highly recommend you plan your entire route including arrival procedure and runway otherwise the default ATC may not perform adequately.
+
+    If your `.pln` file contains VORs they may get shuffled around and lead to inaccurate
 
 ### Flight Plan Sync (MSFS ATC + VFR Map)
 
