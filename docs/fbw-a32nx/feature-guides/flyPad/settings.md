@@ -122,7 +122,7 @@ Settings for simulation aspects of the A32NX aircraft.
 Settings for realism aspects of the A32NX aircraft.
 
 !!! warning "DATALINK Transmission Time"
-    This setting has been removed in Stable 0.8.0. We are no using VDL3 communication protocols.
+    This setting has been removed in Stable 0.8.0. We are now using VDL3 communication protocols.
     
     The real datalink used in VHF-areas is VDL2. For simulation purposes we have chosen to utilize the VDL3 communication protocols to exchange ACARS/CPDLC data between ground 
     stations and airstations. The current implementation works with fixed timings to simulate transmission delays. This provides better simulation capabilities and includes a 
