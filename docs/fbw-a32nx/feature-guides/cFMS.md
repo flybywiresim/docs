@@ -99,14 +99,18 @@ You can attempt to load any saved `.pln` file from 3rd party flight planners (i.
 
 !!! danger "Follow each step carefully!"
 
-**We recommend** the flyPad flight plan sync feature is set to `None` before attempting this. *May require you to load into a flight and check that the flyPad is set correctly.* This would allow MSFS to follow your flight plan independently of our custom FMS.
+**We recommend** the flyPad flight plan sync feature is set to `None` before attempting this. This would allow MSFS to follow your flight plan independently of our custom FMS. 
+While the order you switch the sync feature to `None` may vary it is still important that the sync feature is set appropriately and done before you load any flight plan into 
+the MCDU.
 
 ??? info "Finding Flight Plan Sync Setting"
     - Go to the EFB Settings and select Sim Options. [Location Here](flyPad/settings.md#sim-options).
     - Switch the `Sync MSFS Flight Plan` setting to `None`.
 
 1. Create a flight plan from simBrief or another 3rd party flight planner.
-2. Download and save the fight plan for MSFS in the `.pln` format to your PC.
+     1. When using simBrief please ensure you generate an OFP for the same flight plan you will use for your flight. 
+2. Download and save the fight plan for FS2020 in the `.pln` format to your PC.
+     1. If you would instead like to use our built-in simBrief integration see - [here](simbrief.md).
 3. Load the `.pln` file in the MSFS world map.
 4. **Make sure** to select a starting gate and destination approach from the world map's drop down menus.
 5. Load your flight.
@@ -118,9 +122,11 @@ Loading your flight plan via this method would allow you to use the built-in MSF
 methods below.
 
 !!! warning "Be Aware of the Following"
-    In most cases our custom FMS may require you to select your SID or STAR manually. (This is similar to our simBrief import on the MCDU). We highly recommend you plan your entire route including arrival procedure and runway otherwise the default ATC may not perform adequately.
-
-    If your `.pln` file contains VORs they may get shuffled around and lead to inaccurate
+    - In most cases our custom FMS may require you to select your SID or STAR manually. (This is similar to our simBrief import on the MCDU). We highly recommend you plan your entire route including arrival procedure and runway otherwise the default ATC may not perform adequately.
+    - If your `.pln` file contains VORs they may get shuffled around and lead to inaccurate flight plans in the simulator.
+    - Although these methods allow you to use MSFS ATC with our custom FMS throughout the flight it does not fix the MSFS ATC system.
+        - Do not expect MSFS ATC to be aware of altitude constraints in SIDs and STARs.
+        - Do not expect MSFS ATC to provide descent clearance at the proper time.
 
 ### Flight Plan Sync (MSFS ATC + VFR Map)
 
@@ -136,6 +142,9 @@ If you choose to use our built-in simBrief import on the MCDU to bypass the worl
 Enabling this feature should allow:
 
 - **IFR clearance access through the MSFS ATC**
+    - Although these methods allow you to use MSFS ATC with our custom FMS throughout the flight it does not fix the MSFS ATC system.
+        - Do not expect MSFS ATC to be aware of altitude constraints in SIDs and STARs.
+        - Do not expect MSFS ATC to provide descent clearance at the proper time.
 - **Usage of the VFR map**
 
 #### MSFS ATC + VFR Map
