@@ -291,3 +291,28 @@ Get our [simBrief Profile](../installation.md#simbrief-airframe) for the Develop
 ## Fuel Persistence
 
 !!! warning "Not Available in the Stable Version"
+
+After completing a flight the A32NX saves the amount of fuel on board to a special directory when at least one engine is off. This feature is tied to the aircraft registration 
+found in `atc_id` in the `acft.cfg`. 
+
+If you decide to exit the simulator after your flight, loading back in at a later time with the same livery and associated registration 
+will use the same amount of fuel from your previous flight.
+
+These files are saved in our Work folder under `AircraftStates` alongside other files we store. The work folder can be found using this guide - [here](../support/index.
+md#work-folder).
+
+!!! tip ""
+    Reminder: This file is created/updated **ONLY** on the ground and with at least an engine off.
+
+    If no registraiton is found the default value is ASX320.
+
+`AircraftStates/ASX320.ini` example:
+
+```ini title="ASX320.ini"
+[fuel]
+fuel_center_quantity = 0.000000
+fuel_left_quantity = 364.437298
+fuel_right_quantity = 343.734621
+fuel_left_aux_quantity = 228.000000
+fuel_right_aux_quantity = 228.000000
+```
