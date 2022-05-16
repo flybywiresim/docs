@@ -124,8 +124,9 @@ Settings for realism aspects of the A32NX aircraft.
 !!! warning "DATALINK Transmission Time"
     This setting has been removed in Stable 0.8.0. We are no using VDL3 communication protocols.
     
-    The real datalink uses in VHF-areas VDL2 or VDL3 communication protocols to exchange ACARS/CPDLC data between ground stations and air stations. The current implementation 
-    works with fixed timings to simulate transmission delays. This provides better simulation capabilities and includes a VHR signal quality simulation.  
+    The real datalink used in VHF-areas is VDL2. For simulation purposes we have chosen to utilize the VDL3 communication protocols to exchange ACARS/CPDLC data between ground 
+    stations and airstations. The current implementation works with fixed timings to simulate transmission delays. This provides better simulation capabilities and includes a 
+    VHF signal quality simulation. 
 
 <div style="position: relative;">
     <img src="/fbw-a32nx/assets/flypad/flypad-settings-realism.png" style="width: 100%; height: auto;" loading="lazy">
