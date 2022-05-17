@@ -121,6 +121,12 @@ Settings for simulation aspects of the A32NX aircraft.
 
 Settings for realism aspects of the A32NX aircraft.
 
+!!! warning "DATALINK Transmission Time"
+    This setting has been removed in Stable 0.8.0. We are now using VDL3 communication protocols.
+    
+    The real datalink used in VHF areas is VDL2. For simulation purposes we have chosen to utilize the VDL3 communication protocols to exchange ACARS/CPDLC data between ground 
+stations and air stations. The current implementation works with fixed timings to simulate transmission delays. This provides better simulation capabilities and includes a VHF signal quality simulation. 
+
 <div style="position: relative;">
     <img src="/fbw-a32nx/assets/flypad/flypad-settings-realism.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.3%; top:  7.7%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Dashboard</span></div></a>
@@ -157,10 +163,7 @@ Settings for realism aspects of the A32NX aircraft.
     - Removes backlight bleed from PFD, ND, and ECAMs
     - Removes reflection from the ISIS
 - DATALINK transmission time
-    - Instant: sends and receives messages within two seconds
-    - Fast: sends and receives messages within twenty seconds
-    - Real: sends and receives messages within sixty seconds
-    - See [Hoppie ACARS](../hoppie.md)
+    - Removed in favor of VDL3 simulation time -- [see warning above](#realism).
 
 ## ATSU/AOC
 
