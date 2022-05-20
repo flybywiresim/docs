@@ -326,7 +326,10 @@ S-speed is signified with an S next to the speed band in the `PFD`.
 
 ![Aircraft shortly before reaching S-speed](../assets/beginner-guide/takeoff-climb-cruise/S-speed.png "Aircraft shortly before reaching VS speed"){loading=lazy}
 
-Now we turn off the `TAXI` and `RWY TURN OFF` lights. We do this as they are sitting on the front gear and are now within the gear housing getting hot.
+The `TAXI` and `RWY TURN OFF` lights are automatically switched off when the landing gear is retracted. The flight crew should still move the switches to the `OFF` position as 
+part of after take off flows. 
+
+We do this in case the auto turn off has failed. This would mean the lights sitting on the front gear which are now within the gear housing will start increasing in temperature.
 
 ![Landing lights after gear up](../assets/beginner-guide/takeoff-climb-cruise/Landing-lights-gear-up.png "Landing lights after gear up"){ loading=lazy width=60% }
 
