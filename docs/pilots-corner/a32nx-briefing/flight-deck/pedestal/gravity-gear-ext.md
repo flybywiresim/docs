@@ -26,7 +26,6 @@ The flight crew can reset the emergency extension system in flight after using i
 See our [Custom Hydraulics Guide](../../../../fbw-a32nx/feature-guides/custom-hydraulics.md).
 
 !!! attention ""
-    Emergency crank handle currently cannot be reset in the FBW A32NX for Microsoft Flight Simulator.
 
     *Not Available in the Stable Version.*
 
