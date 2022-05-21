@@ -33,6 +33,8 @@ This is why FlyByWire has implemented our simBrief integration and will continue
 
 This is best explained by simBrief itself - [simBrief User Guide](https://www.simbrief.com/system/guide.php){target=new}
 
+
+
 ---
 
 ## Using the flyPad simBrief Integration
@@ -59,14 +61,15 @@ We've included a quick method to have your simBrief OFP automatically loaded int
 
 This portion of the guide assumes that you understand how to generate a simBrief OFP.
 
-<!--#### ^^SimBrief MCDU Setup^^
+!!! warning "Please Enable Detailed Navlog simBrief Setting"
+    ![OFP Settings](../assets/feature-guides/simbrief/OFP-settings.png){loading=lazy align=left} 
 
-Enter your simBrief username. Upon entering your username the MCDU will convert it into an ID number. Please ensure you have no special characters in your username OR use the ID number found before generating your OFP.
+    It is important when generating your simBrief OFP to ensure that the Detailed Navlog setting is enabled. 
 
-* Click on `MCDU MENU`
-* Click on `OPTIONS`
-* Click on `AOC`
-* Click on `SIMBRIEF`-->
+    This setting is available when generating a new dispatch. Additionally, we recommend that you save any of your preferred settings here including Detailed Navlog as the 
+    default by clicking on `Save Default`. This ensures that this setting is never disabled when generating a new OFP.
+
+    If setting is not enabled the import function may only populate the departure and arrival airports into the flight page on the MCDU.
 
 #### ^^Request Data from simBrief^^
 
