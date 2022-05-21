@@ -71,16 +71,6 @@ This portion of the guide assumes that you understand how to generate a simBrief
 
     If setting is not enabled the import function may only populate the departure and arrival airports into the flight page on the MCDU.
 
-    
-<!--#### ^^SimBrief MCDU Setup^^
-
-Enter your simBrief username. Upon entering your username the MCDU will convert it into an ID number. Please ensure you have no special characters in your username OR use the ID number found before generating your OFP.
-
-* Click on `MCDU MENU`
-* Click on `OPTIONS`
-* Click on `AOC`
-* Click on `SIMBRIEF`-->
-
 #### ^^Request Data from simBrief^^
 
 * Return to `MCDU MENU`
