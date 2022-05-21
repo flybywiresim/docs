@@ -80,6 +80,22 @@ For the rudder, which by default also controls the nosewheel in MSFS, we recomme
 
 On the Development version if you have an extra axis on your controllers (e.g. twisting joystick while rudder is on pedals) you can separate the nosewheel steering via tiller from the rudder inputs. See [Nosewheel Tiller Separation](feature-guides/nw-tiller.md).
 
+??? tip "Racing Pedals Compatibility"
+    The following configuration can be used with the A32NX if you use racing pedals. *Please note* that this may not work for all variations of racing pedals but can serve as a 
+    starting point for your settings.
+
+    Check and map the following settings:
+    
+    - Accelerator Pedal -> `RUDDER AXIS RIGHT` (Reverse Axis with checkmark)
+    - Clutch Pedal -> `RUDDER AXIS LEFT` (Reverse Axis with checkmark)
+    - Accelerator Pedal + Clutch Pedal -> `CENTER RUDDER` (This will center the rudder if it remains deflected)
+    
+    Sample configuration:
+
+    ![Racing Pedals Config](assets/settings/racing-pedals-config.png){loading=lazy}
+
+    <sub>Thanks to SteveCollins100 for the configuration tip.</sub>
+
 #### Throttle
 
 Throttle should have linear sensitivity.
