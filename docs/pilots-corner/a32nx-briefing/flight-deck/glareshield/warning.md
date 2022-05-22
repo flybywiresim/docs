@@ -71,9 +71,6 @@ The aural warnings terminate when:
 
 - Will flash when an ATC message is received via the CPDLC (Controller-Pilot Data Link Communication), accompanied by an alarm. This notification can be cancelled by pressing the "ATC MSG" pb.
 
-!!! attention ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
-
 ---
 
 [Back to Flight Deck](../index.md){ .md-button }
