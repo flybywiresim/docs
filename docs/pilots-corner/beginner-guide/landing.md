@@ -212,7 +212,7 @@ Now look out at the PAPIs which guide us vertically down to the correct touchdow
 
 ![PAPI indication correct path](../assets/beginner-guide/landing/PAPI-2red2white.png "PAPI indication correct path"){loading=lazy}
 
-See also [Wikipedia:PAPI](https://en.wikipedia.org/wiki/Precision_approach_path_indicato)
+See also [Wikipedia:PAPI](https://en.wikipedia.org/wiki/Precision_approach_path_indicator)
 
 We correct our pitch only very carefully when too high (3-4 white) or too low (3-4 red). We don't need a lot of input to the sidestick to correct.
 
