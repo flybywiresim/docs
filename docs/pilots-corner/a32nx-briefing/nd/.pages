@@ -2,7 +2,7 @@ title: ND
 nav:
  - Overview: index.md
  - Course: crs.md
- - Selected: Heading sel-heading.md
+ - Selected Heading: sel-heading.md
  - Other Messages: other-msg.md
  - Chronometer: chrono.md
  - Navigation Receivers: nav-receivers.md
