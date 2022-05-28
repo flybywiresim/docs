@@ -25,7 +25,7 @@ but are omitted in this briefing.
 | [Flight-Deck A32NX API](a32nx_api.md) |
 | [ECAM](ecam/index.md)                 |
 | [PFD](pfd/index.md)                   |
-<!--- [ND](nd/index.md)-->
+| [ND](nd/index.md)                     |
 <!--- [MCDU](mcdu/index.md)-->
 
 ---
