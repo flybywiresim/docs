@@ -8,7 +8,7 @@
 
     *Most reported issues are caused by conflicts with other mods and liveries. If this does not resolve your issue please continue below.*
 
-    **Throttle Calibration is Required** - [Guide Here](../feature-guides/flyPad/throttle-calibration.md)
+    **Throttle Calibration is Required** - [Guide Here](../feature-guides/flypados3/throttle-calibration.md)
 
     ---
 
@@ -614,7 +614,7 @@ TEMPLATE
 
     ^^Additional Information^^
 
-    Also see our [Throttle Calibration Guide](../feature-guides/flyPad/throttle-calibration.md)
+    Also see our [Throttle Calibration Guide](../feature-guides/flypados3/throttle-calibration.md)
 
 ??? warning "Liveries Converted from the Default Asobo A320 Cause Issues"
     ### Liveries Converted from the Default Asobo A320 Cause Issues

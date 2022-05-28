@@ -81,12 +81,11 @@ The FlyByWire A32NX has a ground operations page on its built-in flyPad EFB (Ele
 
 Although Microsoft Flight Simulator also has some pushback functionality built into the default ATC service this guide will only cover the A32NX pushback functionality.
 
-![flyPad EFB Ground Operations](../assets/beginner-guide/taxi/flyPad-ground-page.png "flyPad EFB Ground Operations"){loading=lazy}
-
+![flyPad Pushback](../../fbw-a32nx/assets/flypados3/flypad-pushback.png "flyPad Pushback"){loading=lazy}
 
 !!! block ""
-    ![Call Tug](../assets/beginner-guide/taxi/call-tug-button.png "Call Tug"){loading=lazy align=left}
-
+    ![Call Tug](../../fbw-a32nx/assets/flypados3/flypad-pushback-tugcall.png "Call Tug"){loading=lazy align=left width=30%}
+    
     After we received clearance to pushback we will call the pushback tug by pressing the `Call Tug` button on the flyPad.
 
     If a pushback tug is available at this gate or stand it will then start attaching itself to the nose wheel.
@@ -94,19 +93,10 @@ Although Microsoft Flight Simulator also has some pushback functionality built i
     !!! warning ""
         Some airports / gates / stands do not show a tug. This functionality still works and you can push back as if a tug is attached. It looks like an invisible tug is pushing the aircraft.
 
-After the tug is attached to the nose wheel we can start pushing back by using these control buttons:
+After the tug is attached to the nose wheel we can start pushing back by using the control buttons or the rudder and 
+elevator controls.
 
-!!! block ""
-    ![Tug steer buttons](../assets/beginner-guide/taxi/tug-steer-buttons.png "Tug steer buttons"){loading=lazy align=left}
-
-    Steer with the left, straight and right buttons to position the aircraft as required.
-
-!!! block ""
-    ![Tug Stop](../assets/beginner-guide/taxi/tug-stop-button.png "Tug Stop"){loading=lazy align=left}
-
-    To stop or pause the pushback press the red button.
-
-    Press the `Call Tug` again to release the tug.
+See the flyPad documentation for more details: [flyPad Pushback](../../fbw-a32nx/feature-guides/flypados3/ground.md#pushback)
 
 ---
 
@@ -315,7 +305,7 @@ While underway to the runway perform the following as part of the taxi flow:
 
 It is important to verify and confirm the information in the MCDU as we taxi. This is increasingly important if the ATC clearance changes enroute to the runway.
 
-#### ^^**Takeoff Data/Conditions**^^
+#### **Takeoff Data/Conditions**
 
 *In case of a runway or takeoff data change, perform the following:*
 
@@ -327,7 +317,7 @@ It is important to verify and confirm the information in the MCDU as we taxi. Th
 - V1, VR, V2 - `Reinsert`
 - FLX TO temperature - `Reinsert`
 
-#### ^^**AFS/Flight Instruments**^^
+#### **AFS/Flight Instruments**
 
 Perform the following:
 

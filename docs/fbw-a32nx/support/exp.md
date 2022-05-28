@@ -80,8 +80,7 @@ These features are not yet available but will be implemented at a later time.
 
 These features are not yet available but are generally planned and might be implemented at a later time.
 
-- Support for local files (PFD, images) - requires local-api server (not yet merged)
-- Improvements to pushback page
+- Support for local files (PFD, images) - requires FlyByWire SimBridge (not yet merged)
 
 ## Known Issues
 

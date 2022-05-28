@@ -54,12 +54,13 @@ A setting in the fylPad EFB Sim Options page has been introduced to allow users 
 
 The three settings are:
 
-- Auto On:
-    - The MCDU attempts to connect to the MCDU Server for 5min after pressing "Ready to Fly".
+- Auto:
+    - The MCDU attempts to connect to the MCDU Server for 5min after pressing "Ready to Fly" (`Active` is shown).
     - If this setting is selected the MCDU will try to connect to the MCDU Server for 5min after every start of a new flight.
-- Auto Off:
-    - After 5min of unsuccessful connection attempts the MCDU will stop any further attempts and this setting will be automatically set.
-- Perm Off:
+    - After 5min of unsuccessful connection attempts the MCDU will stop any further attempts and `Inactive` will be 
+      shown.
+    - If `Inactive` is shown but you want to connect to the MCDU server just click on `Off` and then `Auto` again. 
+- Off:
     - The MCDU will not make any attempts to connect to the MCDU Server.
 
 ### Browser on Local PC
@@ -360,7 +361,7 @@ Of course now the firewall might need to be opened for this new port.
 
 #### Websocket Port is Occupied
 
-If the port for the MCDU Websocket Server is occupied you need to first change this port in the [flyPad EFB Sim options page](flyPad/settings.md#sim-options).
+If the port for the MCDU Websocket Server is occupied you need to first change this port in the [flyPad EFB Sim options page](flypados3/settings.md#sim-options).
 
 You can then start the MCDU server using the new websocket port with this option:
 

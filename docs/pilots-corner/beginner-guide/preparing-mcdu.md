@@ -321,7 +321,7 @@ Now we can add our fuel on board (FOB). The amount we input in this field can be
 
 !!! info "Loading Fuel"
 
-    Via the EFB - [Learn How](../../fbw-a32nx/feature-guides/flyPad/dispatch.md#fuel-page)
+    Via the EFB - [Learn How](../../fbw-a32nx/feature-guides/flypados3/dispatch.md#fuel-page)
 
 ^^ECAM FOB^^
 

@@ -118,7 +118,7 @@ altitude after takeoff.
 !!! info "How to Turn on Flight Plan Sync"
     Before performing an INIT REQ. or inputting your flight plan please follow the steps below if you would like to try and use the built-in ATC for your flight.
 
-    - Go to the EFB Settings and select Sim Options. [Location Here](flyPad/settings.md#sim-options).
+    - Go to the EFB Settings and select Sim Options. [Location Here](flypados3/settings.md#sim-options).
     - Switch the `Sync MSFS Flight Plan` setting to `Save`.
     - Continue entering your flight plan or perform an INIT REQ.
 
@@ -141,7 +141,7 @@ While the order you switch the sync feature to `None` may vary it is still impor
 the MCDU.
 
 ??? info "Finding Flight Plan Sync Setting"
-    - Go to the EFB Settings and select Sim Options. [Location Here](flyPad/settings.md#sim-options).
+    - Go to the EFB Settings and select Sim Options. [Location Here](flypados3/settings.md#sim-options).
     - Switch the `Sync MSFS Flight Plan` setting to `None`.
 
 1. Create a flight plan from simBrief or another 3rd party flight planner.
