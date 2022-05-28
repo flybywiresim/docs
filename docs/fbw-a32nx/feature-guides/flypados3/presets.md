@@ -160,7 +160,7 @@ APU start and the engines starts.
 
 ### Canceling Loading a Preset
 
-You can cancel  loading of a preset any time by pressing the `Cancel` button. The currently executed step will be 
+You can cancel loading of a preset any time by pressing the `Cancel` button. The currently executed step will be 
 completed and the aircraft will be in between presets in the state up to the last executed step. You can then either 
 complete the setup manually or simply click another preset (or the same) to be loaded.   
 
