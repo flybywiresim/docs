@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="../../../../stylesheets/pfd-interactive.css">
+<link rel="stylesheet" href="../../../../stylesheets/nd-interactive.css">
 <link rel="stylesheet" href="../../../stylesheets/toc-tables.css">
 
 # Navigation Display (ND)
@@ -27,7 +27,18 @@ The Navigation Display (ND) is the main navigation instrument for the pilots. It
 }
 </style>
 
-- 
+- Lateral position in space
+- Track/heading
+- GS/TAS/Wind
+- To waypoint information with ETA, track miles to go
+- Flight plan
+- Tuned navaids
+- Constraints
+- Airports
+- Navaids
+- Waypoints
+- Weather and terrain info
+- Other messages such as GPS PRIMARY
 
 
 ---

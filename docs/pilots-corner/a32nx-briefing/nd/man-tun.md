@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="../../../../stylesheets/nd-interactive.css">
-
 # Navigation Receivers
 ---
 
@@ -11,8 +9,8 @@
     <a href="/pilots-corner/a32nx-briefing/nd/sel-heading/">       <div class="imagemap" style="position: absolute; left:     0%; top: 18%; width: 9.5%; height: 7.5%;"><span class="imagemapname">Selected Heading</span></div></a>
     <a href="/pilots-corner/a32nx-briefing/nd/other-msg/">         <div class="imagemap" style="position: absolute; left: 20%; top: 89%; width: 60%; height: 9%;"><span class="imagemapname">Other Messages</span></div></a>
     <a href="/pilots-corner/a32nx-briefing/nd/chrono/">            <div class="imagemap" style="position: absolute; left:     0%; top: 81.5%; width: 14%; height: 4.5%;"><span class="imagemapname">Chronometer</span></div></a>
-    <a href="/pilots-corner/a32nx-briefing/nd/nav-receivers/">     <div class="imagemap highlighted" style="position: absolute; left:     0%; top: 87.00%; width: 16.00%; height: 12%;"><span class="imagemapname">Navigation Receivers</span></div></a>
-    <a href="/pilots-corner/a32nx-briefing/nd/nav-receivers/">     <div class="imagemap highlighted" style="position: absolute; left:     80%; top: 87.00%; width: 19.00%; height: 12%;"><span class="imagemapname">Navigation Receivers</span></div></a>
+    <a href="/pilots-corner/a32nx-briefing/nd/nav-receivers/">     <div class="imagemap" style="position: absolute; left:     0%; top: 87.00%; width: 16.00%; height: 12%;"><span class="imagemapname">Navigation Receivers</span></div></a>
+    <a href="/pilots-corner/a32nx-briefing/nd/nav-receivers/">     <div class="imagemap" style="position: absolute; left:     80%; top: 87.00%; width: 19.00%; height: 12%;"><span class="imagemapname">Navigation Receivers</span></div></a>
 </div>
 
 ## Interactive Navigation Receivers
@@ -22,25 +20,9 @@
     <a href="/pilots-corner/a32nx-briefing/nd/first-column">                <div class="imagemap" style="position: absolute; left:     0%; top:    0%; width: 20.77%; height:  95%;"><span class="imagemapname">First Column: Autothrust</span></div></a>
 </div>
 
-## Description
+### TBD
 
-The Navigation Receivers at the bottom left and right corners of the ND displays information regarding nav stations you have tuned in the RADNAV page of your MCDU. It displays five pieces of information:
-
-- Active Nav Station
-- Reminder Information
-- Identifier or Frequency 
-- DME Distance 
-- Manual Tuning
-- VOR Bearing Correction
-
-### Active Nav Station
-VOR1: Indicates the VOR receiver that is currently being displayed on the Navigation Display (ND).
-The pilots can display VOR1 or VOR2 via the <a href="/pilots-corner/a32nx-briefing/flight-deck/glareshield/efis_control/#adf-vor-select-switches"> EFIS Control Panel </a>
-
-ADF1: Indicates the ADF receivers currently being displayed on the Navigation Display(ND).
-The pilots can display ADF1 or ADF2 via the <a href="/pilots-corner/a32nx-briefing/flight-deck/glareshield/efis_control/#adf-vor-select-switches"> EFIS Control Panel </a>
-
----
+TBD
 
 ## Chapters
 
