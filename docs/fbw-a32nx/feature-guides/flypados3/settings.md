@@ -185,8 +185,8 @@ Settings for realism aspects of the A32NX aircraft.
 - MCDU Keyboard Input (unrealistic)
     - Enables the MCDU Keyboard input feature (see [MCDU Keyboard](../mcdu-keyboard.md)).
 - MCDU Focus Timeout (s)
-    - The timeout feature will automatically deactivate the focus of the MCDU screen after the given number of seconds.
-    - Valid range is 5 - 120 seconds.
+    - The timeout feature will automatically deactivate the focus of the MCDU screen after the given amount of seconds.
+    - Valid range is 5 - 120 seconds.
     - Setting is only available if MCDU Keyboard Input is enabled.
 - Sync EFIS controls between Captain and FO (unrealistic)
     - When enabled, the EFIS controls will be synchronized between the Captain and FO.
@@ -198,6 +198,10 @@ Settings for realism aspects of the A32NX aircraft.
 - Show First Officer Avatar
     - When enabled, the first officer avatar will be visible in the cockpit.
     - The avatar style can be chosen in the MSFS settings `General Options -> Misc`.
+- Pause At TOD
+    - Pause at TOD can be configured by distance between 0-50 NM before TOD
+    - When enabled, your aircraft will pause at the specified distance before TOD
+    - If the TOD point shifts before your present position, or AP mode reverts in CRZ, it will pause the simulation.
 
     !!! block ""
         ![img_3.png](../../assets/flypados3/flypad-settings-realism-avatars.png){loading=lazy align=center width=49%}
@@ -238,6 +242,7 @@ These options are separate to provide you with the flexibility to choose what to
     - Enables the option to synchronize GSX and the aircraft's own payload management system.
 - GSX Fuel Sync:
     - Enables the option to synchronize GSX and the aircraft's own fuel management system.
+
 ## ATSU/AOC
 
 Settings for integration with various data and information sources.
