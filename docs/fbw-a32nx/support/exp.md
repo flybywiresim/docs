@@ -24,7 +24,7 @@ thread to report any issues - [How to Report Issues](#how-to-report-issues).
 
 ### Hydraulic Gear System
 
-Featured released in Development Version. See our guide for usage and known issues.
+Feature released in Development Version. See our guide for usage and known issues.
 
 [Custom Hydraulics Guide](../feature-guides/custom-hydraulics.md){.md-button}
 
@@ -51,7 +51,7 @@ These features are not yet available but will be implemented at a later time.
 
 ### flyPadOS Version 3 (EFB)
 
-Featured released in Development Version. See our guide for usage and known issues.
+Feature released in Development Version. See our guide for usage and known issues.
 
 [flyPadOS 3](../feature-guides/flypados3/index.md){.md-button}
 
