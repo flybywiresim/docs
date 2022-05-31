@@ -20,7 +20,7 @@ thread to report any issues - [How to Report Issues](#how-to-report-issues).
 
 - New setting in located in the EFB under Realism - Pause at TOD (configurable by distance between 0-50 nm before TOD)
 - When enabled, flight will pause at the specified distance before TOD
-    - If the TOD point shifts before your present position, or AP mode reverts in CRZ, this will pause the simulation.
+- If the TOD point shifts before your present position, or AP mode reverts in CRZ, this will pause the simulation.
 
 ### Hydraulic Gear System
 
@@ -51,36 +51,9 @@ These features are not yet available but will be implemented at a later time.
 
 ### flyPadOS Version 3 (EFB)
 
-- Completely new design
-- Improved Dashboard
-    - Flight info
-    - Customizable info section for:
-        - Weather
-        - Pinned charts
-        - Pinned checklists 
-        - Maintenance 
-- Stateful (remembers tabs and content of pages)
-- Improved ground service pages
-- Improved pushback tool
-- Improved performance calculators
-- Improved navigation charts page
-    - Improved Navigraph chart support 
-        - Current position on chart
-        - Fullscreen mode
-        - Easier search and selection
-    - Support for pinning of charts
-- Improved online ATC page
-- Improved failure support incl. categories and search
-- Interactive checklists incl. autofill and option to pin to dashboard
-- Presets for customizable lighting settings and predefined aircraft states
-- Improved settings (better structure and more configuration options)
-- Onscreen keyboard
-- Tooltips
-- Themes
-    - Blue
-    - Dark
-    - Light
-- Multilingual - English, French, Spanish, German, Russian - more to come....
+Featured released in Development Version. See our guide for usage and known issues.
+
+[flyPadOS 3](../feature-guides/flypados3/index.md){.md-button}
 
 #### EFB Planned Implementations
 
@@ -106,15 +79,6 @@ These features are not yet available but are generally planned and might be impl
 - Fuel predictions in the MCDU are not very accurate.
 - Descent guidance is sensitive to QNH changes. This is partially due to an inaccuracy in MSFS' atmospheric model.
 - Winds are not yet taken into account for all phases of flight.
-
-### flyPadOSv3 Issues
-
-- Local files does not work yet. Needs additional feature PR ([local-api](https://github.com/flybywiresim/a32nx/pull/6411/){target=new})
-- Pushback page: not yet fully functional or complete - changes to be expected
-- Stuck notifications are caused by CSS animations being disabled.
-    - Fix: `General Options` -> `Accessibility` -> Turn On `Menu Animations` under `User Interface` 
-- Translations not yet complete / Missing translations and layout issues to be expected
-- Tooltips not yet complete
 
 ## How to Report Issues
 
