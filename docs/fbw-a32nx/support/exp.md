@@ -67,6 +67,15 @@ These features are not yet available but are generally planned and might be impl
 
 - Since the feature is linked to vertical guidance, having an inaccurate T/D or missing T/D may not pause the simulation.
 
+!!! warning "Sim Limitations"
+    Note that while aircraft simulation is suspended (i.e. fuel consumption, airspeed, altitude, physics), environmental simulation will continue (Notably Live Weather, Live Traffic/AI Traffic). Consequences of this include that TCAS TA/RAs will still be issued and if there is a significant change in the weather over time (say a few hours), your vertical descent profile and performance figures may no longer be accurate, which means that the actual T/D point may now have shifted from the originally calculated value.
+
+    The timestamp issued in the pause pop-up shows your real local system's time (localized to your locale) to help mitigate against this problem.
+
+    This is considered a sim limitation as the pause event we utilize does not affect the MSFS world environment. Along this line of thinking, we speculate that without historical live weather and traffic, it would not possible to inject or restore the state that the world was in when the pause was initiated (the time slider in the weather toolbar only affects lighting and will still reflect live wind and weather data).
+
+    Flying using a weather preset and without AI/live traffic avoids this limitation entirely, but would also be a compromise in other ways.
+
 ### Vertical Guidance Issues
 
 - There has been a large number of reports indicating that the T/D was placed too late. This will be investigated this further, but we ask you to please check your arrival routing for any odd path drawings. These are not unusual for the speed predictions of VNAV do not affect the LNAV path computations yet, which causes certain turns to be drawn at a larger radius than what will actually be flown. Consequently, VNAV will calculate a profile with more track mileage than what is realistically available and place the T/D too late.
