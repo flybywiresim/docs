@@ -171,7 +171,7 @@ Change the default weights as required and make sure you select Save Aircraft at
 
 ### Fuel
 
-Fuel loading is now exclusively done via our EFB which has a great UI to see the status of fuel tanks and other options. [Guide Here](flypados3/dispatch.md#fuel-page).
+Fuel loading is now exclusively done via our EFB which has a great UI to see the status of fuel tanks and other options. [Guide Here](flypados3/ground.md#fuel-page).
 
 ### Weights and Balance
 
@@ -181,7 +181,11 @@ Get our [simBrief Profile](../installation.md#simbrief-airframe).
 
 {==
 
-Please note that the cargo hold field now depicts either metric tons or metric pounds depending on the unit selected in the EFB Settings for aircraft configuration.
+Please note the following:
+
+- The cargo hold field now depicts either metric tons or metric pounds depending on the unit selected in the EFB Settings for aircraft configuration.
+- **Highly recommend** ensuring that you select the same weights (metric tons or pounds) in the EFB and in simBrief's OFP/Airframe before importing to prevent any values 
+  mismatch.  
 
 See [flyPadOS 2 - Stable Version](flypados2/settings.md#aircraft-configuration) or [flyPadOS 3 - Development Version](flypados3/settings.md#aircraft-options--pin-programs) settings 
 page if you wish to change the weight unit used by the aircraft systems.
