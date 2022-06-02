@@ -68,7 +68,7 @@ You as the pilot can use the time to set up the FMGC (MCDU), Flight Control Unit
     the setup is correct after the virtual co-pilot has finished setting up. Also, there is the risk that the virtual 
     co-pilot will wait for certain steps to complete forever if you interrupt these steps before they complete. 
 
-    E.g. if the virtual co-pilot started the APU and you turn it of before the procedure is complete it can happen 
+    E.g. if the virtual co-pilot started the APU and you turn it off before the procedure is complete it can happen 
     that the virtual co-pilot waits in vain for this step to complete. In this case you must cancel the loading with 
     the `Cancel` button. 
 
