@@ -184,8 +184,7 @@ Get our [simBrief Profile](../installation.md#simbrief-airframe).
 Please note the following:
 
 - The cargo hold field now depicts either metric tons or metric pounds depending on the unit selected in the EFB Settings for aircraft configuration.
-- **Highly recommend** ensuring that you select the same weights (KGS or LBS) in the EFB and in simBrief's OFP/Airframe before importing to prevent any values 
-  mismatch.  
+- **Highly recommend** ensuring that you select the same weights (KGS or LBS) in the EFB and in simBrief's OFP/Airframe before importing to prevent any mismatch in values.
 
 See [flyPadOS 2 - Stable Version](flypados2/settings.md#aircraft-configuration) or [flyPadOS 3 - Development Version](flypados3/settings.md#aircraft-options--pin-programs) settings 
 page if you wish to change the weight unit used by the aircraft systems.
@@ -195,7 +194,8 @@ page if you wish to change the weight unit used by the aircraft systems.
 !!! warning "Fuel, Weights and Balance When Not Starting Cold & Dark"
     The process described in this section is for starting the flight at a gate/ramp in a cold and dark state.
 
-    If you start your flight on the runway or in the air the loading process will only work if the Boarding Time [settings](flypados3/settings.md#sim-options) in the flyPad EFB are set to `Instant`. This is deliberate as simulating fueling or boarding and loading when starting from the runway does not make sense.
+    If you start your flight on the runway or in the air the loading process will only work if the Boarding Time [settings](flypados3/settings.md#sim-options) in the flyPad EFB 
+are set to `Instant`. This is deliberate as simulating the entire fueling or boarding process when starting from the runway does not make sense.
 
 ??? info "Dynamic Fields and Colors"
     Payload, ZFW, ZFWCG are dynamic fields that are updated alongside the loading/boarding process.
@@ -226,12 +226,13 @@ page if you wish to change the weight unit used by the aircraft systems.
     It is possible to input these values manually to customize your passenger loading. Please note the following information when customizing your pax loading manually:
 
     - To assign a value to a row (station) enter the amount into your scratchpad using the MCDU keyboard and press the relevant LSK next to the desired station.
-        - When inputting pax into individual rows this only accounts for the passenger's weight. Baggage and additional freight needs to be added separtely.
+        - When inputting pax into individual rows this only accounts for the passenger's weight (84 kg or 185 lbs per passenger). Baggage and additional freight needs to be added 
+        separately.
     - If inputting a value into the `TOTAL PAX` using LSK1L this will automatically distribute passengers based on an ideal CG.
-        - The bag weight is added to the cargo hold when using the `TOTAL PAX` field.
-    - Once the above weights are accounted for you can input remaining weight (cargo weight) in a `X.X` format denoting either metric tons or metric pounds depending what the 
-    unit selected in the EFB Settings.
-        - Cargo weight is limited to max capacity if it exceeds the cargo hold limits.
+        - The check-in baggage weight (20 kg or 44 lbs) is added to the cargo hold when using the `TOTAL PAX` field.
+    - Once the above weights are accounted for you can input remaining weight (cargo weight) in a `X.X` format denoting either metric tons or thousands of pounds depending what 
+    the unit selected in the EFB Settings.
+        - Cargo weight is limited to max capacity if it exceeds the cargo hold limits (9435 kg or 20800 lbs).
 
 #### Load OFP Payload Info
 
