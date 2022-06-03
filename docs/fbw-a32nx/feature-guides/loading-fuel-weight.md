@@ -184,7 +184,7 @@ Get our [simBrief Profile](../installation.md#simbrief-airframe).
 Please note the following:
 
 - The cargo hold field now depicts either metric tons or metric pounds depending on the unit selected in the EFB Settings for aircraft configuration.
-- **Highly recommend** ensuring that you select the same weights (metric tons or pounds) in the EFB and in simBrief's OFP/Airframe before importing to prevent any values 
+- **Highly recommend** ensuring that you select the same weights (KGS or LBS) in the EFB and in simBrief's OFP/Airframe before importing to prevent any values 
   mismatch.  
 
 See [flyPadOS 2 - Stable Version](flypados2/settings.md#aircraft-configuration) or [flyPadOS 3 - Development Version](flypados3/settings.md#aircraft-options--pin-programs) settings 
@@ -217,7 +217,7 @@ page if you wish to change the weight unit used by the aircraft systems.
     * Click on `MCDU MENU`
     * Click on `ATSU` (ATSU = Air Traffic Service Unit)
     * Click on `AOC MENU` (AOC = Airline Operational Center)
-    * Click on `PERF/W&B`
+    * Click on `W/B`
 
 ???+ tip "Information on Loading A32NX Manually"
 
@@ -226,10 +226,9 @@ page if you wish to change the weight unit used by the aircraft systems.
     It is possible to input these values manually to customize your passenger loading. Please note the following information when customizing your pax loading manually:
 
     - To assign a value to a row (station) enter the amount into your scratchpad using the MCDU keyboard and press the relevant LSK next to the desired station.
-        - When inputting pax into individual rows this only accounts for the passenger's weight. Baggage and additional friend needs to be added separtely.
+        - When inputting pax into individual rows this only accounts for the passenger's weight. Baggage and additional freight needs to be added separtely.
     - If inputting a value into the `TOTAL PAX` using LSK1L this will automatically distribute passengers based on an ideal CG.
         - The bag weight is added to the cargo hold when using the `TOTAL PAX` field.
-    - Make sure to input pax values (either total or individual row-wise values) BEFORE inputting cargo. Check-in baggage weight is calculated automatically (Pax * 20 KG).
     - Once the above weights are accounted for you can input remaining weight (cargo weight) in a `X.X` format denoting either metric tons or metric pounds depending what the 
     unit selected in the EFB Settings.
         - Cargo weight is limited to max capacity if it exceeds the cargo hold limits.
@@ -254,7 +253,7 @@ page if you wish to change the weight unit used by the aircraft systems.
 !!! block ""
     ![W&B 3](../assets/feature-guides/simbrief/wb1.jpg){align=right width=50% loading=lazy}
 
-    Press OFP Request for this specific page and your `W&B` page will show total pax, pax per row and cargo hold (in metric tonnes) which populate automatically.
+    Press OFP Request for this specific page and your `W&B` page will show total pax, pax per row and cargo hold which populate automatically.
 
     Note: this does not start the boarding process. Also Cargo will be limited as a protection to a max capacity if the simBrief OFP cargo exceeds the cargo hold limits).
 
