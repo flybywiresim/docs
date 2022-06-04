@@ -195,7 +195,7 @@ page if you wish to change the weight unit used by the aircraft systems.
     The process described in this section is for starting the flight at a gate/ramp in a cold and dark state.
 
     If you start your flight on the runway or in the air the loading process will only work if the Boarding Time [settings](flypados3/settings.md#sim-options) in the flyPad EFB 
-are set to `Instant`. This is deliberate as simulating the entire fueling or boarding process when starting from the runway does not make sense.
+    are set to `Instant`. This is deliberate as simulating the entire fueling or boarding process when starting from the runway does not make sense.
 
 ??? info "Dynamic Fields and Colors"
     Payload, ZFW, ZFWCG are dynamic fields that are updated alongside the loading/boarding process.
