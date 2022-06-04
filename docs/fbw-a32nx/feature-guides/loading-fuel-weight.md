@@ -183,7 +183,7 @@ Get our [simBrief Profile](../installation.md#simbrief-airframe).
 
 Please note the following:
 
-- The cargo hold field now depicts either metric tons or metric pounds depending on the unit selected in the EFB Settings for aircraft configuration.
+- The cargo hold field now depicts either metric tons or thousands of pounds depending on the unit selected in the EFB Settings for aircraft configuration.
 - **Highly recommend** ensuring that you select the same weights (KGS or LBS) in the EFB and in simBrief's OFP/Airframe before importing to prevent any mismatch in values.
 
 See [flyPadOS 2 - Stable Version](flypados2/settings.md#aircraft-configuration) or [flyPadOS 3 - Development Version](flypados3/settings.md#aircraft-options--pin-programs) settings 
