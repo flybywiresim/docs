@@ -1,9 +1,11 @@
+<link rel="stylesheet" href="../../../stylesheets/toc-tables.css">
+
 # Hoppie ACARS
 
 !!! warning "Requires credentials with Hoppie service"
 
 The Hoppie ACARS system is a complex system and we have decided to develop and release it step-by-step. So please be aware that not all features are available in the early 
-releases and that we will add additional functionality over time. Please see the appropriate feature set below for the version you are flying.
+releases and there may be differences between the **Stable Version** and **Development Version** as outlined below. We will add additional functionality over time.
 
 ??? tip "Development Version - Features (Click to Open)"
     Our development version has the following features:
@@ -47,7 +49,15 @@ releases and that we will add additional functionality over time. Please see the
 
 ## Quick Links
 
-Table of Contents to Directory Goes here
+|                      Topic                      |                       Description                        |
+|:-----------------------------------------------:|:--------------------------------------------------------:|
+|         [Hoppie Setup](#hoppie-system)          | Setting up the A32NX to utilize the Hoppie ACARS System. |
+| [Example Flight](example-flight.md){target=new} | Showcase the CPDLC system in action during your flight.  |
+|                                                 |                                                          |
+|                                                 |                                                          |
+|                                                 |                                                          |
+
+---
 
 ## Hoppie System
 
