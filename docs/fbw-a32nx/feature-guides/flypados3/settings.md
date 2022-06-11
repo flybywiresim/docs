@@ -262,12 +262,6 @@ To get your simBrief username or Pilot ID you can go to your simBrief Account se
 
 ![simBrief Account Data](../../assets/flypados3/simbrief-account-data.png "simBrief Account Data")
 
-!!! attention ""
-    If you use the Stable version please omit any space characters in your username. If for example your username is 
-    "Mr Pilot" then please use "MrPilot" as username.
-
-    Also the Stable version does only allow the username to be entered here, not the Pilot ID.
-
 ## Audio
 
 Settings for various audio sources and sounds.

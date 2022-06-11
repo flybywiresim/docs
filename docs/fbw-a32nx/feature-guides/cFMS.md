@@ -112,7 +112,7 @@ When using either method will allow for the following:
 If you choose to use our built-in simBrief import on the MCDU to bypass the world menu planner (as we recommend), we have provided a feature that helps sync the aircraft's 
 flight plan back to the MSFS' built-in flight planner. This feature can be configured on the EFB and is set to `None` by default.
 
-Using this method MSFS ATC will most likely not detected your planned cruising flight level. You would need to request further climb once established on your initial cleared 
+Using this method MSFS ATC will most likely not detect your planned cruising flight level. You would need to request further climb once established on your initial cleared 
 altitude after takeoff.
 
 !!! info "How to Turn on Flight Plan Sync"
