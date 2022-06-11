@@ -21,10 +21,17 @@ To print a specific flight phase dependent report, the crew can push this button
 
 ### DFDR EVENT
 
-This button sets an event mark on the Flight Data records if pressed (briefly).
+This button sets an event mark on the flight data records if pressed.
 
-!!! attention ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+!!! info "Flight Data Recorder"
+    The A32NX has a virtual flight data recorder which collects hundreds of data points from the aircraft and the 
+    sim. This helps the FlyByWire development and support team to find and reproduce issues quickly. 
+    <p />
+    Pressing the DFDR button will mark a point in time in this recorded data to easily find a specific point in time.
+    <p />
+    See [FDR Files](../../../../fbw-a32nx/support/index.md#fdr-files)
+
+
 
 ---
 
