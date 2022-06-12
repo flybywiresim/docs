@@ -93,7 +93,7 @@ These are weather reports created by an on-airport weather station and tend to b
         | OVC | Overcast (completely covered) | OVC050 | Overcast at 5000ft |
         | CB | Cumulonimbus | FEW007CB | Few Cumulonimbus at 700ft |
         | TCU | Towering Cumulus | SCT012TCU | Scattered TCUs at 1200ft |
-        | VV | Vertical Visibility (can't see a cloud bas) | VV002 | Can see approx. 200ft up |
+        | VV | Vertical Visibility (can't see a cloud base) | VV002 | Can see approx. 200ft up |
         | NSC | No significant cloud | NSC | Nothing to report |
 
     === "TEMP/DEWPOINT"
