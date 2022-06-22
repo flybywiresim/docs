@@ -257,7 +257,16 @@ A few minutes before we reach our calculated descent point (TOD) we request clea
 
 When clearance is given we can start our descent to the flight level or altitude ATC has given us.
 
-For descending we set the new flight level or altitude in the `FCU` with the `altitude selector`. We can then either push the selector for Managed Altitude Mode (constraints are respected, also know as VNAV) or pull the selector for `Selected Altitude Mode` (constraints are ignored). You can also use the `V/S selector` to set a specific descent vertical velocity. Pull the `V/S selector` to start the descent.
+For descending we set the new flight level or altitude in the `FCU` with the `altitude selector`. We can then either 
+push the selector for Managed Altitude Mode (constraints are respected, also known as VNAV) or pull the selector for `Selected Altitude Mode` (constraints are ignored). 
+
+!!! warning "Using V/S"
+    It is not recommended to use V/S for climbing or descending in the A320 (at least not for beginners) as the V/S 
+    guidance has priority over the speed guidance and speed needs to be watched very closely when using V/S.
+    <p/>
+    If the selected target V/S is too high (relative to the current thrust condition and speed), the FMGC will steer the aircraft to the target V/S, but the aircraft will also accelerate or decelerate. When the speed reaches its authorized limit, V/S automatically decreases to maintain the minimum or maximum speed limit.
+    <p/>
+    See also [Protections](../advanced-guides/protections/overview.md).
 
 ![FUC with ALT and V/S selector](../assets/beginner-guide/descent/FCU-AP-selector.png "FUC with ALT and V/S selector"){loading=lazy}
 
