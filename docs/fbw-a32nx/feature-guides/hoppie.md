@@ -121,12 +121,21 @@ The CPDLC system is only a convenience to relax the voice frequency. Time critic
 
 After preparation of the aircraft an IFR clearance is required which can be requested via DCL (Departure Clearance).
 
-The request page can be found in the MCDU ATC COMM menu page 2:
+???+ info "Development Version"
+    The request page can be found by selecting `GROUND REQ` then `DEPARTURE` through the ATC COMM page on the MCDU. 
 
-!!! note "MCDU ATC COMM Menu"
-    !!! block ""
-        ![atc-menu-p1](../assets/feature-guides/hoppie/atc-menu-p1.png){align=center width=48% loading=lazy}
-        ![atc-menu-p2](../assets/feature-guides/hoppie/atc-menu-p2-dcl.png){align=center width=48% loading=lazy}
+    !!! note "MCDU ATC COMM MENU"
+        !!! block ""
+            ![hoppie1](../assets/feature-guides/hoppie/hoppie1.png){align=center width=48% loading=lazy}
+            ![hoppie2](../assets/feature-guides/hoppie/hoppie2.png){align=center width=48% loading=lazy}
+
+??? info "Stable Version"
+    The request page can be found in the MCDU ATC COMM menu page 2:
+
+    !!! note "MCDU ATC COMM Menu"
+        !!! block ""
+            ![atc-menu-p1](../assets/feature-guides/hoppie/atc-menu-p1.png){align=center width=48% loading=lazy}
+            ![atc-menu-p2](../assets/feature-guides/hoppie/atc-menu-p2-dcl.png){align=center width=48% loading=lazy}
 
 The DEPART REQ page requires the current ATC station code and the current ATIS. Providing a gate and freetext is optional.
 
@@ -232,10 +241,17 @@ You can logoff from the current station if the next station does not provide CPD
 
 It is also possible to request an Oceanic Clearance (OCL) from ATC.
 
-!!! note "MCDU ATC COMM Menu"
-    !!! block ""
-        ![atc-menu-p1](../assets/feature-guides/hoppie/atc-menu-p1.png){align=center width=48% loading=lazy}
-        ![atc-menu-p2-ocl](../assets/feature-guides/hoppie/atc-menu-p2-ocl.png){align=center width=48% loading=lazy}
+???+ info "Development Version"
+    !!! note "MCDU ATC COMM Menu"
+        !!! block ""
+            ![hoppie-oceanic-1](../assets/feature-guides/hoppie/hoppieoc.png){align=center width=48% loading=lazy}
+            ![hoppie-oceanic-2](../assets/feature-guides/hoppie/hoppieoc2.png){align=center width=48% loading=lazy}
+
+??? info "Stable Version"
+    !!! note "MCDU ATC COMM Menu"
+        !!! block ""
+            ![atc-menu-p1](../assets/feature-guides/hoppie/atc-menu-p1.png){align=center width=48% loading=lazy}
+            ![atc-menu-p2-ocl](../assets/feature-guides/hoppie/atc-menu-p2-ocl.png){align=center width=48% loading=lazy}
 
 The OCEANIC REQ page requires you to be on the last station before an oceanic route. You need to enter your planned entry point, time at entry point, speed and flight level.
 
