@@ -2,33 +2,46 @@
 
 !!! warning "Requires credentials with Hoppie service"
 
-!!! warning "Development in progress"
-    The Hoppie ACARS system is a complex system and we have decided to develop and release it step-by-step. So please be aware that not all features are available in the early releases and that we will add additional functionality over time.
+The Hoppie ACARS system is a complex system and we have decided to develop and release it step-by-step. So please be aware that not all features are available in the early
+releases and there may be differences between the **Stable Version** and **Development Version** as outlined below. We will add additional functionality over time.
 
+???+ tip "Development Version - Features (Click to Open)"
+    Our development version has the following features:
+
+    - Automatic D-ATIS
+    - Automatic position reports
+    - Controller report-requests and automatic preparation of pilot replies
+    - Controller to pilot: All Instructions including requests, confirmations, etc.
+    - Datalink status
+    - Departure Clearance (DCL)
+    - Flight Monitoring for conditional reports
+    - Handover
+    - Logon/Logoff
+    - Oceanic Clearance (OCL)
+    - Pilot requests: All kinds, incl. emergency
+    - Realistic datalink communication simulation (VHF+VDL3)
+    - Simulation of FANS-A+ and FANS-B+ with automatic mode selection based on logon-code of ATC
+    - Station identifier
+
+??? tip "Stable Version - Features (Click to Open)"
     !!! danger ""
-        This page will be current for Stable version 0.8.0. Any changes to our development branch will be noted with the appropriate flag or indicator. Please be aware of any 
+        This section will be current for Stable version 0.8.0. Any changes to our development branch will be noted with the appropriate flag or indicator. Please be aware of any
         differences when using our CPDLC implementation.
 
     The current version has the following features:
 
-    - Logon/Logoff
-    - Handover
-    - Station identifier
-    - Controller to pilot: All Instructions
     - Automatic D-ATIS
+    - Controller to pilot: All Instructions
     - Departure Clearance (DCL)
+    - Handover
+    - Logon/Logoff
     - Oceanic Clearance (OCL)
-    - Realistic datalink communication simulation (VHF+VDL3)
     - Pilot requests: Vert & Lat requests, Text
+    - Realistic datalink communication simulation (VHF+VDL3)
+    - Station identifier
 
-    The currently planned future releases are adding these features:
-
-    - Datalink Status
-    - Other pilot requests: E.g. "When can we expect..."
-    - Emergency
-    - Controller report-requests and automatic preparation of pilot replies
+??? warning "In Progress Features (Click to Open)"
     - FPL changes for Lat requests
-    - Flight Monitoring for conditional reports
 
     This plan might change at any time.
 
