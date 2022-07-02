@@ -214,7 +214,7 @@ Our flight plan should now have the associated waypoints for the `BCN1A` SID. We
 * Press the LSK that matches the location of `BCN` on the MCDU screen.
 * Select `AIRWAYS` using LSK5R.
 * Using the keypad type in `N864` *(the airway)* and press LSK1L.
-* Using the keypad type in `MONTY` *(waypoint)* and press LSK1R.
+* Using the keypad type in `OKTEM` *(waypoint)* and press LSK1R.
     * Remember: Airways are on the left and waypoints are on the right.
 
 ![mcdu10](../assets/beginner-guide/mcdu/mcdu10.png){loading=lazy}
@@ -236,9 +236,8 @@ Find `EGCC` in green in flight plan OR select `EGCC` in white under `DEST` using
     * We will be shown the approaches available designated by `Type` `Rwy`.
     * For this guide we will shoot for an ILS to keep it simple.
 * Use the vertical slew keys to find `ILS23R` and select it using the corresponding LSK.
-* Again use the vertical slew keys to find the STAR for this flight `MIRSI1A` and select it using the corresponding LSK.
+* Again use the vertical slew keys to find the STAR for this flight `OKTEM1M` and select it using the corresponding LSK.
 * We won't have any vias for this flight. Select `NO VIAS` using LSK2L. On the following page we can choose transitions if available, but for this flight we don't.
-    * *Note:* Due to the default MSFS flight plan manager we maybe directed to proceed via the `MCT` waypoint anyways for the arrival.
 * Insert this STAR into the flight plan using LSK6R.
 
 ![mcdu12](../assets/beginner-guide/mcdu/mcdu12.png){loading=lazy}
