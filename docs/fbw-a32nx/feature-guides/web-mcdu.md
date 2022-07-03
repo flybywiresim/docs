@@ -115,6 +115,11 @@ You can enable click sounds when pressing buttons on the MCDU by adding `/sound`
 ### Day and Night Mode
 It is possible to switch between a day and night mode MCDU visualization be clicking/touching the BRT/DIM button in the Web MCDU.
 
+### 4:3 Aspect Ratio Compatibility Mode
+If you are using MCDU hardware with a 4:3 display, you can use the 4:3 aspect ratio compatibility mode to improve the formatting so that the lines align better with your hardware.
+
+To use this mode, add `/43` to the url.
+
 ## Using Your Local Printer
 
 If you chose a local printer when starting the MCDU Server, every print you will make from the MCDU to the cockpit printer will also be printed using your previously selected printer.
