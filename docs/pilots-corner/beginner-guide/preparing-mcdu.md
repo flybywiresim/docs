@@ -283,7 +283,7 @@ When selecting the SID earlier in the flight plan section, the A32NX should have
 
 Our departure runway is EGFF/30 (runway 30) which has a frequency of `110.7`. When inputting a frequency and we are in range of the ILS it will auto populate the indentifier and course. There is no need to fill these fields.
 
-* Using the keypad type in `110.7` and press LSK3 to input it.
+* Using the keypad type in `110.7` and press LSK3L to input it.
 
 ^^Arrival ILS^^
 
@@ -292,7 +292,7 @@ With an ILS or LOC approach selected, the arrival ILS frequency should be automa
 Remember our arrival airport/rwy is `EGCC/23R` with ILS23R having a frequency of `109.5`. When inputting a frequency and we are in range of the ILS it will auto populate the 
 indentifier and course. There is no need to fill these fields.
 
-* Using the keypad type in `109.5` and press LSK3 to input it.
+* Using the keypad type in `109.5` and press LSK3L to input it.
 
 ![mcdu15](../assets/beginner-guide/mcdu/mcdu15.png){loading=lazy}
 
