@@ -17,7 +17,7 @@
 
 ## Description
 
-The other messages box on the bottom part of the ND Shows messages that do not fit in anywhere else on the ND like:
+The **other messages** box on the bottom part of the ND Shows messages that do not fit in anywhere else on the ND like:
 
 - BACK UP NAV
 - CHECK NORTH REF
@@ -37,19 +37,20 @@ Appears when the MCDUs back up navigation mode is active.
 Appears when the NORTH REF push button selection does not match the your airports MAG/TRUE bearing reference
 
 ### CHK FLT PLN POSITION
-
+Appears when the DMC detects a disagreement between acquisition and the displayed flightplan while  on ARC or ROSE NAV mode. 
 ### GPS PRIMARY
-
+Appears when GPS PRIMARY mode is available or has recovered. If needed the flight crew can clear this message by pressing the CLR button on the MCDU to clear it from the scratch pad.
 ### GPS PRIMARY LOST
-
+Appears when GPS PRIMARY is unavailable and is unable to be cleared by the flight crew.
 ### MAP PARTLY DISPLAYED 
-
+Appears when a incomplete data transmission between the FMGEC and the DMC has accrued, or when the MC is unable to draw the complete map.
 ### NAV ACCUR UPGRAD / NAV ACCUR DOWNGRAD
-
+Appears when there has been a change in the navigation accuracy.
 ### OFF SIDE FM CONTROL
-
+Appears when the offside FMGEC is supplying the outside ND data.
 ### RTA MISSED
-
+Appears when there is a time constraint in the active flight plan and the time constraint is predicted as "missed" by the FMGEC.
 ### SELECT TRUE REF
-
+Appears upon  entering the polar area, IF the TRUE North reference was not selected by the flight crew.
 ### SPECIFIC VOR/D UNAVAIL
+Appears when the NAVAID that is tuned for the chosen approach or departure, is unavailable.

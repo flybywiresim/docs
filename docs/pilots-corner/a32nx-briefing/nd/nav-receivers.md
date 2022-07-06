@@ -40,6 +40,8 @@ The pilots can display VOR1 or VOR2 via the <a href="/pilots-corner/a32nx-briefi
 ADF1: Indicates the ADF receivers currently being displayed on the Navigation Display(ND).
 The pilots can display ADF1 or ADF2 via the <a href="/pilots-corner/a32nx-briefing/flight-deck/glareshield/efis_control/#adf-vor-select-switches"> EFIS Control Panel </a>
 
+### Identifier or Frequency
+
 ---
 
 ## Chapters
