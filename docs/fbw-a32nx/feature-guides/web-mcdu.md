@@ -11,7 +11,7 @@ See list of compatible and tested browsers: [Compatible Browsers](#compatible-br
 !!! note "MCDU Web Interface"
     ![Web MCDU Interface](../assets/mcdu-server/web-mcdu-ipad.webp "Web MCDU Interface"){loading=lazy}
 
-It also allows to use your real printer on to be used as a cockpit printer for the MCDU.
+It also allows you to use your real printer as a cockpit printer for the MCDU.
 
 ## Starting the MCDU Web Interface
 
