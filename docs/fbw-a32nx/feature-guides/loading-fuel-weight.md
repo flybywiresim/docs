@@ -100,7 +100,7 @@ Make sure you have our latest [simBrief Profile](../installation.md#simbrief-air
 
     The Gross Weight (GW) value on the ECAM will appear only when certain conditions are satsified:
 
-    - This page (Init Fuel Pred) has a ZFW/ZFWCG value.
+    - The (INIT FUEL PRED page) has a ZFW/ZFWCG value. **Reminder:** After engines are started INIT FUEL PRED changes to the FUEL PRED page.
     - At least one engine is running.
 
 ### Fuel
@@ -202,8 +202,8 @@ When starting the aircraft from a **Cold and Dark** state please be aware of the
     - **INIT FUEL PRED** must be completed prior to departure. (This is detailed in our [beginner guide](../../pilots-corner/beginner-guide/preparing-mcdu.md#init-fuel-pred). 
     Please ensure that you complete this step when preparing the MCDU.)
     - Failure to complete the `INIT FUEL PRED` page before starting an engine will display `INITIALIZE WEIGHT/CG` on the MCDU Scratchpad.   
-    - When there is a GW mismatch of more than 7 tones between the values calculated aerodynamically and the value calculated using the inputted ZFW and fuel flow `CHECK 
-    WEIGHT` will be displayed in amber on th MCDU Scratchpad.
+    - When there is a GW mismatch of more than 7 tonnes between the values calculated aerodynamically and the value calculated using the inputted ZFW and fuel flow `CHECK 
+    WEIGHT` will be displayed in amber on the MCDU Scratchpad.
 
 See [flyPadOS 2 - Stable Version](flypados2/settings.md#aircraft-configuration) or [flyPadOS 3 - Development Version](flypados3/settings.md#aircraft-options--pin-programs) settings 
 page if you wish to change the weight unit used by the aircraft systems.
