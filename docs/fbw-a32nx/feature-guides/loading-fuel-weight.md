@@ -98,6 +98,11 @@ Make sure you have our latest [simBrief Profile](../installation.md#simbrief-air
 
     Fuel Quantity (Using fuel flow on engine start) + ZFW input in the MCDU.
 
+    The Gear Weight (GW) value on the ECAM will appear only when certain conditions are satsified:
+
+    - This page (Init Fuel Pred) has a ZFW/ZFWCG value.
+    - At least one engine is running.
+
 ### Fuel
 - Max Fuel Capacity: 41989lbs/19.046kg
 - Fuel tanks: 5
