@@ -84,8 +84,6 @@ Make sure you have our latest [simBrief Profile](../installation.md#simbrief-air
     - Fuel: Now done via the [EFB](flypados3/dispatch.md#fuel-page).
     - Payload: Done through the [W&B in the MCDU](#weights-and-balance)
 
-
-
 ### Weights
 - OEW (Empty Weight): 42500 kg / 93697 lbs
     - Also referred to as DOW (Dry Operating Weight) which can be seen in other simBrief OFP formats such as EZY
@@ -199,7 +197,7 @@ Please note the following:
 When starting the aircraft from a **Cold and Dark** state please be aware of the following important information:
 
 - **INIT FUEL PRED** must be completed prior to departure. (This is detailed in our [beginner guide](../../pilots-corner/beginner-guide/preparing-mcdu.md#init-fuel-pred). Please ensure that you complete this step when preparing the MCDU.)
-- Failure to complete the `INIT FUEL PRED` page before starting an engine will display `INITIALIZE WEIGHT/CG` on the MCDU Scratchpad.    
+- Failure to complete the `INIT FUEL PRED` page before starting an engine will display `INITIALIZE WEIGHT/CG` in amber on the MCDU Scratchpad.    
 - When there is a GW mismatch of more than 7 tonnes between the values calculated aerodynamically and the value calculated using the inputted ZFW and fuel flow `CHECK 
   WEIGHT` will be displayed in amber on the MCDU Scratchpad.
 
