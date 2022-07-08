@@ -309,7 +309,12 @@ On this page, we can input our zero fuel weight (ZFW) and zero fuel weight cente
 !!! warning "Important Info"
     Fuel and payload have to be set in the aircraft (see link below) and passenger boarding has to be complete for the ZFW/ZFWCG to be correct.
 
-    Please see our [Fuel and Weights Guide](../../fbw-a32nx/feature-guides/loading-fuel-weight.md) for more information.
+    Gear Weight (GW) value on the ECAM will appear only when certain conditions are satsified:
+
+    - This page (Init Fuel Pred) has a ZFW/ZFWCG value.
+    - At least one engine is running.
+
+    Please see our [Fuel and Weights Guide](../../fbw-a32nx/feature-guides/loading-fuel-weight.md) for more detailed information.
 
 The A32NX can auto populate this information.
 
