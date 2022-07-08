@@ -91,7 +91,7 @@ Make sure you have our latest [simBrief Profile](../installation.md#simbrief-air
 - MTOW (Max Takeoff Weight): 79000 kg / 174165 lbs
 - MLW (Max Landing Weight): 67400 kg / 148591 lbs
 
-!!! tip "Gross Weight (GW)"
+!!! tip "FMS Gross Weight (FMS GW)"
     Gross weight is calculated as: 
 
     Fuel Quantity (Using fuel flow on engine start) + ZFW input in the MCDU.
