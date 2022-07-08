@@ -309,7 +309,7 @@ On this page, we can input our zero fuel weight (ZFW) and zero fuel weight cente
 !!! warning "Important Info"
     Fuel and payload have to be set in the aircraft (see link below) and passenger boarding has to be complete for the ZFW/ZFWCG to be correct.
 
-    Gear Weight (GW) value on the ECAM will appear only when certain conditions are satsified:
+    Gross Weight (GW) value on the ECAM will appear only when certain conditions are satsified:
 
     - This page (Init Fuel Pred) has a ZFW/ZFWCG value.
     - At least one engine is running.

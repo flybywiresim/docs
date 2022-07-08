@@ -93,12 +93,12 @@ Make sure you have our latest [simBrief Profile](../installation.md#simbrief-air
 - MTOW (Max Takeoff Weight): 79000 kg / 174165 lbs
 - MLW (Max Landing Weight): 67400 kg / 148591 lbs
 
-!!! tip "Gear Weight (GW)"
-    Gear weight is calculated as: 
+!!! tip "Gross Weight (GW)"
+    Gross weight is calculated as: 
 
     Fuel Quantity (Using fuel flow on engine start) + ZFW input in the MCDU.
 
-    The Gear Weight (GW) value on the ECAM will appear only when certain conditions are satsified:
+    The Gross Weight (GW) value on the ECAM will appear only when certain conditions are satsified:
 
     - This page (Init Fuel Pred) has a ZFW/ZFWCG value.
     - At least one engine is running.
