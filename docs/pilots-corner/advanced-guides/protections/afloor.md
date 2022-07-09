@@ -30,7 +30,7 @@ To recover from the A.FLOOR condition and prevent further stall conditions, manu
 
 ## TOGA LK
 
-This indication typically appears after triggering A.FLOOR protection where TOGA (take off go around) thrust has been set automatically and "locked". This autothurst mode will be kept active until the crew has safely resolved the previous A.FLOOR condition.
+This indication typically appears after triggering A.FLOOR protection where TOGA (take off go around) thrust has been set automatically and "locked". This autothrust mode will be kept active until the crew has safely resolved the previous A.FLOOR condition.
 
 ![tglk](../../assets/advanced-guides/protections/afloor/tglk1.png){width=80% loading=lazy}
 
