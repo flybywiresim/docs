@@ -302,7 +302,7 @@ The aircraft will now climb to the altitude selected in the FCU (in our case 5.0
 
 **Activate the __Autopilot__ at this point by pressing the AP1 button on the FCU.**
 
-![Autopilot and Autothurst buttons](../assets/beginner-guide/takeoff-climb-cruise/AP1.png "Autopilot and Autothurst buttons"){loading=lazy}
+![Autopilot and Autothrust buttons](../assets/beginner-guide/takeoff-climb-cruise/AP1.png "Autopilot and Autothurst buttons"){loading=lazy}
 
 The FMA now shows AP1 in white in the upper right corner.
 
