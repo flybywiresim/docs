@@ -94,7 +94,8 @@ Make sure you have our latest [simBrief Profile](../installation.md#simbrief-air
 !!! tip "FMS Gross Weight (FMS GW)"
     Gross weight is calculated as: 
 
-    Fuel Quantity (directly from the simulator's fuel system) + ZFW input in the MCDU.
+    !!! info ""
+        Fuel Quantity (directly from the simulator's fuel system) + ZFW input in the MCDU.
 
     The Gross Weight (GW) value on the ECAM will appear only when certain conditions are satsified:
 
