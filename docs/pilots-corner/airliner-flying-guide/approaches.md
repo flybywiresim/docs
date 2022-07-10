@@ -75,7 +75,7 @@ A newer kind of approach, that uses both lateral and vertical guidance from sour
 ## The Different Categories of ILS
 
 !!! info "MDA and DA"
-    Due to differences between established regulations by EUROCONTROL and the FAA it is critical that pilots use and understand the difference between Minimum Descent Alittude (MDA) and Decision Altitude (DA) where appropriate. This ensures that there is no discrepancy between which minimum to use for the type of approach planned.
+    Due to differences between established regulations by EUROCONTROL and the FAA it is critical that pilots use and understand the difference between Minimum Descent Altitude (MDA) and Decision Altitude (DA) where appropriate. This ensures that there is no discrepancy between which minimum to use for the type of approach planned.
 
     While the information provided below can suffice as a guideline it is always best to understand the minimums posted on the approach plate as your minimum criteria.
 
@@ -214,9 +214,9 @@ Another rule onboard is the banning of the use of personal electronic devices (P
 
 ### ^^Rules for the Pilots^^
 
-Pilots must be certified to commence autolands and are regularly tested in simulators to keep them in check. Most airlines require their pilots to do emergency exercises while recertifying their Autoland qualification, including with engine problems and Autoland failures. At the author’s airline, the captain is also required to be the pilot flying during an Autoland, with the first officer calling out changes to the aircraft state and monitoring the performance of the aircraft for any deviation.
+Pilots must be certified to commence autolands and are regularly tested in simulators to keep them in check. Most airlines require their pilots to do emergency exercises while re-certifying their Autoland qualification, including with engine problems and Autoland failures. At the author’s airline, the captain is also required to be the pilot flying during an Autoland, with the first officer calling out changes to the aircraft state and monitoring the performance of the aircraft for any deviation.
 
-In the Airbus, a Quick Reference Handbook (QRH) is carried in the cockpit which includes, as well as emergency procedures, a list of equipment and guidebook briefing to complete an Autoland approach. With the possibility of being so low to the ground without being able to see, in the last stages of an Autoland approach the crew are focused and nonimportant radio calls are ignored to prevent distractions.
+In the Airbus, a Quick Reference Handbook (QRH) is carried in the cockpit which includes, as well as emergency procedures, a list of equipment and guidebook briefing to complete an Autoland approach. With the possibility of being so low to the ground without being able to see, in the last stages of an Autoland approach the crew are focused and non-important radio calls are ignored to prevent distractions.
 
 The Airbus will have several Flight Mode Annunciators (FMAs) display during an Autoland:
 
