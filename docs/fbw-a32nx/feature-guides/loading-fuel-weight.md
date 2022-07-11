@@ -84,14 +84,23 @@ Make sure you have our latest [simBrief Profile](../installation.md#simbrief-air
     - Fuel: Now done via the [EFB](flypados3/dispatch.md#fuel-page).
     - Payload: Done through the [W&B in the MCDU](#weights-and-balance)
 
-
-
 ### Weights
 - OEW (Empty Weight): 42500 kg / 93697 lbs
     - Also referred to as DOW (Dry Operating Weight) which can be seen in other simBrief OFP formats such as EZY
 - MZFW (Max Zero Fuel Weight): 64300 kg / 141757 lbs
 - MTOW (Max Takeoff Weight): 79000 kg / 174165 lbs
 - MLW (Max Landing Weight): 67400 kg / 148591 lbs
+
+!!! tip "FMS Gross Weight (FMS GW)"
+    Gross weight is calculated as: 
+
+    !!! info ""
+        Fuel Quantity (directly from the simulator's fuel system) + ZFW input in the MCDU.
+
+    The Gross Weight (GW) value on the ECAM will appear only when certain conditions are satsified:
+
+    - The (INIT FUEL PRED page) has a ZFW/ZFWCG value. **Reminder:** After engines are started INIT FUEL PRED changes to the FUEL PRED page.
+    - At least one engine is running.
 
 ### Fuel
 - Max Fuel Capacity: 41989lbs/19.046kg
@@ -185,6 +194,13 @@ Please note the following:
 
 - The cargo hold field now depicts either metric tons or thousands of pounds depending on the unit selected in the EFB Settings for aircraft configuration.
 - **Highly recommend** ensuring that you select the same weights (KGS or LBS) in the EFB and in simBrief's OFP/Airframe before importing to prevent any mismatch in values.
+
+When starting the aircraft from a **Cold and Dark** state please be aware of the following important information:
+
+- **INIT FUEL PRED** must be completed prior to departure. (This is detailed in our [beginner guide](../../pilots-corner/beginner-guide/preparing-mcdu.md#init-fuel-pred). Please ensure that you complete this step when preparing the MCDU.)
+- Failure to complete the `INIT FUEL PRED` page before starting an engine will display `INITIALIZE WEIGHT/CG` in amber on the MCDU Scratchpad.    
+- When there is a GW mismatch of more than 7 tonnes between the values calculated aerodynamically and the value calculated using the inputted ZFW and fuel flow `CHECK 
+  WEIGHT` will be displayed in amber on the MCDU Scratchpad.
 
 See [flyPadOS 2 - Stable Version](flypados2/settings.md#aircraft-configuration) or [flyPadOS 3 - Development Version](flypados3/settings.md#aircraft-options--pin-programs) settings 
 page if you wish to change the weight unit used by the aircraft systems.
