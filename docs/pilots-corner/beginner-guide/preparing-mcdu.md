@@ -259,7 +259,10 @@ Verify the flight plan by using the vertical slew keys to scroll through it.
     Sometimes discontinuities are also part of a procedure to indicate that manual input is required (mostly clearance by ATC). The preceding legs are called MANUAL legs.
 
     See our detailed documentation for [Discontinuities](../advanced-guides/flight-planning/disco.md) to understand how to appropriately handle these when encountered on your 
-    F-PLN page.
+    F-PLN page. 
+    
+    !!! warning ""
+        Additionally, make note of this [Special Case](../advanced-guides/flight-planning/disco.md#special-case) on the discontinuity page.
 
 !!! info "Viewing Flight Plan on ND"
     We can also verify the route looks correct by selecting `Plan` on the EFIS control panel and watching the ND as we scroll through.
