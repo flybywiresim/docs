@@ -224,6 +224,7 @@ The payload section can be found in Ground Services tab on the EFB and selecting
 ![wb location](../assets/feature-guides/simbrief/wb_location.png)
 
 Once on this page you will be presented with the following:
+
 - A top-down model of the A32NX seating configuration
 - Entry fields for to configure PAX and Cargo
 - Per passenger weight and baggage weight entry
