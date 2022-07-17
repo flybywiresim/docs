@@ -211,6 +211,42 @@ page if you wish to change the weight unit used by the aircraft systems.
 
 #### Development Version
 
+!!! warning "Fuel, Weights and Balance When Not Starting Cold & Dark"
+    The process described in this section is for starting the flight at a gate/ramp in a cold and dark state.
+
+    If you start your flight on the runway or in the air the loading process will only work if the Boarding Time [settings](flypados3/settings.md#sim-options) in the flyPad EFB 
+    are set to `Instant`. This is deliberate as simulating the entire fueling or boarding process when starting from the runway does not make sense.
+
+##### Finding the Payload Screen
+
+The payload section can be found in Ground Services tab on the EFB and selecting Payload as the category.
+
+![wb location](../assets/feature-guides/simbrief/wb_location.png)
+
+Once on this page you will be presented with the following:
+- A top-down model of the A32NX seating configuration
+- Entry fields for to configure PAX and Cargo
+- Per passenger weight and baggage weight entry
+- Boarding time settings
+- Dynamic CG and payload chart
+
+##### Board Passengers
+
+To begin boarding you must first enter a value in the passenger entry field or the ZFW entry field. To do this click on the respective entry field you wish to modify and input the 
+value you plan or have been allocated via your OFP. This method is the simplest and will calculate appropriate values. The A32NX seat configuration will also display in cyan 
+seats that are filled. 
+
+!!! tip "Passenger or ZFW Field"
+    It is important to note that when first entering a value in the Passenger field it will auto calculate the ZFW. This is conversely true if you enter a value first into the 
+    ZFW field. Please utilize only a single field for your planning purposes.
+
+This can be seen in the examples below:
+
+!!! block ""
+    ![pax cargo](../assets/feature-guides/simbrief/pax_cargo.png){loading=lazy} 
+    ![pax zfw](../assets/feature-guides/simbrief/pax_zfw.png){loading=lazy}
+
+
 ??? info "Legacy Instructions (Stable Version)"
     #### Legacy Instructions (Stable Version)
 
