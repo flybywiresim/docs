@@ -184,7 +184,9 @@ Fuel loading is now exclusively done via our EFB which has a great UI to see the
 
 ### Weights and Balance
 
-We have introduced a new flight model paired with a new weight and balance payload method that incorporates seat rows and the correct center of gravity.
+We have introduced a new flight model paired with a new weight and balance payload method that incorporates seat rows and the correct center of gravity. 
+
+Please read the respective guide pertaining to the version you are flying - [Stable Version](#legacy-instructions-stable-version) or [Development Version](#development-version).
 
 Get our [simBrief Profile](../installation.md#simbrief-airframe).
 
@@ -207,116 +209,121 @@ page if you wish to change the weight unit used by the aircraft systems.
 
 ==}
 
-!!! warning "Fuel, Weights and Balance When Not Starting Cold & Dark"
-    The process described in this section is for starting the flight at a gate/ramp in a cold and dark state.
+#### Development Version
 
-    If you start your flight on the runway or in the air the loading process will only work if the Boarding Time [settings](flypados3/settings.md#sim-options) in the flyPad EFB 
-    are set to `Instant`. This is deliberate as simulating the entire fueling or boarding process when starting from the runway does not make sense.
+??? info "Legacy Instructions (Stable Version)"
+    #### Legacy Instructions (Stable Version)
 
-??? info "Dynamic Fields and Colors"
-    Payload, ZFW, ZFWCG are dynamic fields that are updated alongside the loading/boarding process.
+    !!! warning "Fuel, Weights and Balance When Not Starting Cold & Dark"
+        The process described in this section is for starting the flight at a gate/ramp in a cold and dark state.
 
-    - Payload = Pax Weight + Baggage Weight + Cargo
-    - ZFW (Zero Fuel Weight) = OEW (Operating Empty Weight) + Payload
-    - ZFWCG = CG based on ZFW (**Not to be mistaken for takeoff CG**)
+        If you start your flight on the runway or in the air the loading process will only work if the Boarding Time [settings](flypados3/settings.md#sim-options) in the flyPad EFB 
+        are set to `Instant`. This is deliberate as simulating the entire fueling or boarding process when starting from the runway does not make sense.
 
-    Stations in <span style="color:cyan">CYAN</span> indicate they are reading/waiting to board/load.
+    ??? info "Dynamic Fields and Colors"
+        Payload, ZFW, ZFWCG are dynamic fields that are updated alongside the loading/boarding process.
 
-    Stations that are fully loaded will turn <span style="color:green">GREEN</span>.
+        - Payload = Pax Weight + Baggage Weight + Cargo
+        - ZFW (Zero Fuel Weight) = OEW (Operating Empty Weight) + Payload
+        - ZFWCG = CG based on ZFW (**Not to be mistaken for takeoff CG**)
 
-    See also [General Fuel and Weight Information](#general-fuel-and-weight-information)
+        Stations in <span style="color:cyan">CYAN</span> indicate they are reading/waiting to board/load.
 
-??? info "AOC Menu"
+        Stations that are fully loaded will turn <span style="color:green">GREEN</span>.
 
-    The AOC (Airline Operational Center) menu is found in the MCDU MENU and should be used for certain apsects of this guide.
+        See also [General Fuel and Weight Information](#general-fuel-and-weight-information)
 
-    * Click on `MCDU MENU`
-    * Click on `ATSU` (ATSU = Air Traffic Service Unit)
-    * Click on `AOC MENU` (AOC = Airline Operational Center)
-    * Click on `W/B`
+    ??? info "AOC Menu"
 
-???+ tip "Information on Loading A32NX Manually"
+        The AOC (Airline Operational Center) menu is found in the MCDU MENU and should be used for certain apsects of this guide.
 
-    ##### Loading Manually
+        * Click on `MCDU MENU`
+        * Click on `ATSU` (ATSU = Air Traffic Service Unit)
+        * Click on `AOC MENU` (AOC = Airline Operational Center)
+        * Click on `W/B`
 
-    It is possible to input these values manually to customize your passenger loading. Please note the following information when customizing your pax loading manually:
+    ???+ tip "Information on Loading A32NX Manually"
 
-    - To assign a value to a row (station) enter the amount into your scratchpad using the MCDU keyboard and press the relevant LSK next to the desired station.
-        - When inputting pax into individual rows this only accounts for the passenger's weight (84 kg or 185 lbs per passenger). Baggage and additional freight needs to be added 
-        separately.
-    - If inputting a value into the `TOTAL PAX` using LSK1L this will automatically distribute passengers based on an ideal CG.
-        - The check-in baggage weight (20 kg or 44 lbs) is added to the cargo hold when using the `TOTAL PAX` field.
-    - Once the above weights are accounted for you can input remaining weight (cargo weight) in a `X.X` format denoting either metric tons or thousands of pounds depending what 
-    the unit selected in the EFB Settings.
-        - Cargo weight is limited to max capacity if it exceeds the cargo hold limits (9435 kg or 20800 lbs).
+        ###### Loading Manually
 
-#### Load OFP Payload Info
+        It is possible to input these values manually to customize your passenger loading. Please note the following information when customizing your pax loading manually:
 
-!!! block ""
-    ![W&B 2](../assets/feature-guides/simbrief/wb2.png){align=right width=50% loading=lazy}
+        - To assign a value to a row (station) enter the amount into your scratchpad using the MCDU keyboard and press the relevant LSK next to the desired station.
+            - When inputting pax into individual rows this only accounts for the passenger's weight (84 kg or 185 lbs per passenger). Baggage and additional freight needs to be added 
+            separately.
+        - If inputting a value into the `TOTAL PAX` using LSK1L this will automatically distribute passengers based on an ideal CG.
+            - The check-in baggage weight (20 kg or 44 lbs) is added to the cargo hold when using the `TOTAL PAX` field.
+        - Once the above weights are accounted for you can input remaining weight (cargo weight) in a `X.X` format denoting either metric tons or thousands of pounds depending what 
+            the unit selected in the EFB Settings.
+            - Cargo weight is limited to max capacity if it exceeds the cargo hold limits (9435 kg or 20800 lbs).
 
-    Once on `W&B` page it should look like the sample image even if you have pressed OFP REQUEST in a different section.
+    ###### Load OFP Payload Info
 
-    === "PAX Rows Format"
-        - X (Y)
-        - X denotes PAX already boarded into the relevant station
-        - Y denotes PAX target (awaiting boarding) for the relevant station.
+    !!! block ""
+        ![W&B 2](../assets/feature-guides/simbrief/wb2.png){align=right width=50% loading=lazy}
 
-    === "Cargo Hold Format"
-        - X (Y)
-        - X denotes cargo loaded in the hold
-        - Y denotes cargo target for the hold (includes baggage)
+        Once on `W&B` page it should look like the sample image even if you have pressed OFP REQUEST in a different section.
 
-!!! block ""
-    ![W&B 3](../assets/feature-guides/simbrief/wb1.jpg){align=right width=50% loading=lazy}
+        === "PAX Rows Format"
+            - X (Y)
+            - X denotes PAX already boarded into the relevant station
+            - Y denotes PAX target (awaiting boarding) for the relevant station.
 
-    Press OFP Request for this specific page and your `W&B` page will show total pax, pax per row and cargo hold which populate automatically.
+        === "Cargo Hold Format"
+            - X (Y)
+            - X denotes cargo loaded in the hold
+            - Y denotes cargo target for the hold (includes baggage)
 
-    Note: this does not start the boarding process. Also Cargo will be limited as a protection to a max capacity if the simBrief OFP cargo exceeds the cargo hold limits).
+    !!! block ""
+        ![W&B 3](../assets/feature-guides/simbrief/wb1.jpg){align=right width=50% loading=lazy}
 
-#### Board Passengers
+        Press OFP Request for this specific page and your `W&B` page will show total pax, pax per row and cargo hold which populate automatically.
 
-!!! block ""
-    ![W&B Boarding](../assets/feature-guides/simbrief/wb-boarding.jpg){align=right width=50% loading=lazy}
+        Note: this does not start the boarding process. Also Cargo will be limited as a protection to a max capacity if the simBrief OFP cargo exceeds the cargo hold limits).
 
-    You can now start boarding by selecting LSK6R (the indication will change from `START` to `STOP` in yellow) and watch as the passengers board the aircraft.
+    ##### Board Passengers
 
-    **You do not need to remain on this page as boarding continues.**
+    !!! block ""
+        ![W&B Boarding](../assets/feature-guides/simbrief/wb-boarding.jpg){align=right width=50% loading=lazy}
 
-    !!! warning ""
-        Make sure boarding and loading is completed before filling the INIT B page's ZFW and CG!
+        You can now start boarding by selecting LSK6R (the indication will change from `START` to `STOP` in yellow) and watch as the passengers board the aircraft.
 
-    !!! tip ""
-        [Setting boarding simulation time on the EFB](flypados3/settings.md#usage_2)
+        **You do not need to remain on this page as boarding continues.**
 
-!!! block ""
-    ![W&B Loaded](../assets/feature-guides/simbrief/wb-loaded.jpg){align=right width=50% loading=lazy}
+        !!! warning ""
+            Make sure boarding and loading is completed before filling the INIT B page's ZFW and CG!
 
-    Once boarding has completed all rows and total pax should turn green and the boarding indication returns to `START`. Verify your ZFW on this screen and check your lower ECAM that GW has been updated.
+        !!! tip ""
+            [Setting boarding simulation time on the EFB](flypados3/settings.md#usage_2)
 
-#### Deboard Passengers
+    !!! block ""
+        ![W&B Loaded](../assets/feature-guides/simbrief/wb-loaded.jpg){align=right width=50% loading=lazy}
 
-##### Complete Deboard
+        Once boarding has completed all rows and total pax should turn green and the boarding indication returns to `START`. Verify your ZFW on this screen and check your lower ECAM that GW has been updated.
 
-!!! block ""
-    ![deboarding full](../assets/feature-guides/simbrief/deboarded1.jpg){align=right width=50% loading=lazy}
+    ##### Deboard Passengers
 
-    Once you have completed your flight you can opt to deboard passengers from the aircraft. Return to the AOC MENU and head to page 2 of `W&B`.
+    ###### Complete Deboard
 
-    To perform a complete deboard (all pax and cargo) input 0 into the scratchpad and select `LSK1L` into the TOTAL PAX field.
+    !!! block ""
+        ![deboarding full](../assets/feature-guides/simbrief/deboarded1.jpg){align=right width=50% loading=lazy}
 
-    Press START to begin the process.
+        Once you have completed your flight you can opt to deboard passengers from the aircraft. Return to the AOC MENU and head to page 2 of `W&B`.
 
-##### Partial Deboard
+        To perform a complete deboard (all pax and cargo) input 0 into the scratchpad and select `LSK1L` into the TOTAL PAX field.
 
-!!! block ""
-    ![deboarding partial](../assets/feature-guides/simbrief/deboarding2.jpg){align=right width=50% loading=lazy}
+        Press START to begin the process.
 
-    In case of a partial offload you can input the desired remaining pax and cargo for leg 2. The example to the right shows a planned retention of 142 passengers.
+    ###### Partial Deboard
 
-    **NOTE:** Cargo will show only bag weight for 142 pax. Please ensure that you re-add any additional cargo that you may have been carrying originally.
+    !!! block ""
+        ![deboarding partial](../assets/feature-guides/simbrief/deboarding2.jpg){align=right width=50% loading=lazy}
 
-    Press START to begin the process.
+        In case of a partial offload you can input the desired remaining pax and cargo for leg 2. The example to the right shows a planned retention of 142 passengers.
+
+        **NOTE:** Cargo will show only bag weight for 142 pax. Please ensure that you re-add any additional cargo that you may have been carrying originally.
+
+        Press START to begin the process.
 
 ---
 
