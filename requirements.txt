@@ -4,4 +4,5 @@ mkdocs-git-revision-date-localized-plugin
 mkdocs-redirects
 mkdocs-exclude-search
 mkdocs-embed-external-markdown
+mkdocs-video
 mike

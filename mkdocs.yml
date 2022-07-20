@@ -50,6 +50,8 @@ plugins:
   - git-revision-date-localized:
       type: date
   - external-markdown
+  - mkdocs-video:
+      mark: "video-embed"
   - redirects:
       redirect_maps:
         # Folder: /start/
