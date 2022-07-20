@@ -219,7 +219,7 @@ page if you wish to change the weight unit used by the aircraft systems.
 
 ##### Finding the Payload Screen
 
-The payload section can be found in Ground Services tab on the EFB and selecting Payload as the category.
+The payload section can be found in Ground Services Page on the EFB and selecting the Payload tab.
 
 ![wb location](../assets/feature-guides/simbrief/wb_location.png)
 
@@ -231,7 +231,7 @@ Once on this page you will be presented with the following:
 - Boarding time settings
 - Dynamic CG and payload chart
 
-##### Board Passengers
+##### Passengers and Cargo Configuration
 
 To begin boarding you must first enter a value in the passenger entry field or the ZFW entry field. To do this click on the respective entry field you wish to modify and input the 
 value you plan or have been allocated via your OFP. This method is the simplest and will calculate appropriate values. The A32NX seat configuration will also display in cyan 
@@ -247,6 +247,38 @@ This can be seen in the examples below:
     ![pax cargo](../assets/feature-guides/simbrief/pax_cargo.png){loading=lazy} 
     ![pax zfw](../assets/feature-guides/simbrief/pax_zfw.png){loading=lazy}
 
+If you have imported your simBrief information from the main page on our EFB, you can also automatically fill in the planned values for your passengers and cargo by clicking on 
+the import button in the Payload UI.
+
+![Payload Simbrief](../assets/feature-guides/simbrief/wb_simbrief.png){loading=lazy}
+
+!!! tip "Additional Features"
+    ##### Additional Features    
+    
+    **Extra Cargo**
+
+    After planning your cargo and passengers or using the simBrief import function, you can add additional cargo by modifying the calculated cargo value. 
+
+    !!! warning ""
+        Please ensure you alter this value AFTER entering either your passenger or ZFW values.
+
+    **Custom Passenger Allocation**
+
+    You can also interact with the A32NX model to assign passenger seats and influence the layout of your passengers on board.
+
+##### Boarding Passengers
+
+Once you are happy with the passenger count and weights calculated you can start boarding by pressing the cyan "Play" button in the boarding time section. This field also allows 
+you to customize how quickly passengers enter the aircraft. 
+
+![Boarding Time](../assets/feature-guides/simbrief/wb-boarding.png){loading=lazy}
+
+After boarding has started the "Play" button will turn green, and you will start seeing passengers enter the aircraft, weight values changing in both the dynamic chart and the 
+configuration section's current values.
+
+The seats will also change colors from a dark to lighter cyan indicating which seats passengers are currently occupying.
+
+![Boarded Passengers](../assets/feature-guides/simbrief/wb_boarding2.png){loading=lazy}
 
 ??? info "Legacy Instructions (Stable Version)"
     #### Legacy Instructions (Stable Version)
