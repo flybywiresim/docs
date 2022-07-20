@@ -226,7 +226,7 @@ The payload section can be found in Ground Services Page on the EFB and selectin
 Once on this page you will be presented with the following:
 
 - A top-down model of the A32NX seating configuration
-- Entry fields for to configure PAX and Cargo
+- Entry fields to configure PAX and Cargo
 - Per passenger weight and baggage weight entry
 - Boarding time settings
 - Dynamic CG and payload chart
