@@ -143,5 +143,5 @@ To visualize these points we can use the fix info page to define a 2NM distance 
 
 ## 320 Sim Pilot Video
 
-<iframe width="790" height="447" src="https://www.youtube-nocookie.com/embed/dHZZ2ukxU9Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![video-embed](https://www.youtube-nocookie.com/embed/dHZZ2ukxU9Y)
 

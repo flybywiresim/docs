@@ -147,9 +147,10 @@ Modifying steering animation so it shows our internal system state will mask tho
 
 ### 320 Sim Pilot Video
 
-<iframe width="790" height="450" src="https://www.youtube-nocookie.com/embed/2gWx0EblS30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![video-embed](https://www.youtube-nocookie.com/embed/2gWx0EblS30)
+
 
 ### Easyjetsimpilot
 
-<iframe width="790" height="450" src="https://www.youtube-nocookie.com/embed/JM6WrwJJjIo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![video-embed](https://www.youtube-nocookie.com/embed/JM6WrwJJjIo)
 
