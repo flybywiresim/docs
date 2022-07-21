@@ -108,6 +108,16 @@ To participate in the FlyByWire Documentation Project you need to have following
 - Add images to the section's asset folder. Consider creating a folder for your page when using several images.
 - Although the FlyByWire Documentation Team will take care of navigation it might still be of interest how the navigation is done. This is well explained on the [mkdocs-awesome-pages-plugin's README on their Github](https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin#Features){target=new}
 
+!!! tip "Embedding YouTube Videos"
+    We have included the plugin `mkdocs-video` to streamline adding YouTube embeds into documentation. This removes the necessity to inline `<iframe>` information within 
+    documentation pages. 
+
+    The plugin uses the markdown image syntax with a custom marker defined in mkdocs.yml: `video-embed`.
+
+    ```md title="Sample YouTube Embed Code"
+    ![video-embed](https://www.youtube.com/embed/3i1FaGKOwII)
+    ```
+
 #### Tips to Work Effectively with `mkdocs` (Change, Previews, etc.)
 
 - Have your editor and browser preview side-by-side on your screen.

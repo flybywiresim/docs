@@ -62,7 +62,7 @@
 ??? info "Q: Which lights should I turn on during taxi/takeoff/flight?"
     There are many fantastic tutorials online which demonstrate the proper use of lighting on the A320neo, take a look at this video from 320 Sim Pilot:
 
-    [Airbus Lights: What you didn't (need to) know! With a Real Airbus Pilot in Flight Simulator](https://www.youtube.com/watch?v=L9XUHepoFDg){target=new}
+    ![video-embed](https://www.youtube.com/embed/L9XUHepoFDg)
 
 ??? info "Q: Is the Hold function implemented yet?"
     Yes - the Hold function is available in the MCDU. 
