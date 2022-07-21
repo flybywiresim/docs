@@ -8,6 +8,8 @@ These settings can be found on the EFB:
 
 For information on the other settings available on the EFB visit our [flyPad Settings](flypados3/settings.md) page.
 
+![video-embed](https://www.youtube-nocookie.com/embed/3i1FaGKOwII)
+
 ## Passenger Simulation
 
 !!! important "Cockpit Door"
