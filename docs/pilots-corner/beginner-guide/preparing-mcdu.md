@@ -136,6 +136,13 @@ DATA includes the pages below:
 
 ### **^^I^^**NIT A
 
+!!! warning "Automatic OFP Imports via INIT REQUEST"
+    Please note that the `INIT REQUEST` option will **not** appear if you have selected both a departure and arrival on the MSFS world menu before loading into your flight.
+
+    For more information and a guide to our simBrief A32NX features visit the page below:
+
+    [FMS (MCDU) and simBrief Integration](../../fbw-a32nx/feature-guides/simbrief.md#using-the-fms-mcdu-and-simbrief-integration){ .md-button }
+
 ^^FROM/TO Field^^
 
   * Using the keypad type in `EGFF/EGCC`
