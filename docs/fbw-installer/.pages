@@ -3,6 +3,7 @@
 # - Titles for specific pages or subdirectories
 # - Order of pages (otherwise alphabetical order)
 
-title: SimBridge
+title: FlyByWire Installer
 nav:
     - Overview: index.md
+    - simbridge.md
