@@ -22,5 +22,6 @@ require fewer extra steps before launching into your flights.
 | [Web MCDU](../fbw-a32nx/feature-guides/web-mcdu.md) | Built - Not Yet Migrated |
 |                   Terrain Display                   |     Work in Progress     |
 |                  EFB Local Charts                   |         Planned          |
+|                   Remote Displays                   |         Planned          |
 
 
