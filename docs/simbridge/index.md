@@ -12,7 +12,13 @@
 SimBridge is our custom-built solution to connect our aircraft to various external devices and data. This will ensure features will function seamlessly and 
 require fewer extra steps before launching into your flights.
 
-!!! warning ""
+
+
+!!! warning "Important Notes"
+    Please keep SimBridge updated at all times regardless of the version of aircraft you are currently flying!
+    
+    ---
+
     We are currently in the process of finishing development on certain features and preparing to connect existing ones. 
     
     This page will keep you updated with the status and any further documentation for these services.
