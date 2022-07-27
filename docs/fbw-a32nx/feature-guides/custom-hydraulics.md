@@ -3,7 +3,7 @@
 ## Gear system
 Our new gear system aims at replicating its real counterpart even in the slightest details. While more improvements will come, the current system already features:
 
-- Rigid body physics of gears and doors
+- Rigid body physics of gears and doors, affected by aerodynamics
 - Hydraulic actuators simulation with "push to retract" main gears and "push to extend" nose gear. 
 - All proximity sensors, one set per LGCIU computer
 - LGCIU computers monitoring, sequence control state machine and their change-over mechanism
@@ -15,10 +15,8 @@ Our new gear system aims at replicating its real counterpart even in the slighte
     Non-exhaustive list of features yet to come:
 
     - Doors animations
-    - Aerodynamic effects
     - Complete fault monitoring and BITE tests of LGCIUs
     - Complete set of failures
-    - Animated emergency gear crank handle
 
 ### Functionality
 Using the gear system should not be different from before. Selecting gear up will switch to the next available LGCIU computer available, and will start the retracting sequence. Gear down will start the extension sequence same as before.
@@ -54,23 +52,17 @@ Some first failures are provided, and while ECAM information impact is a tempora
 !!! tip "Only issues on LGCIU1 proximity sensors will show erroneous information on gear light indicator."
 
 ### Gravity Extension
-Gravity extension is already fully supported by our gear system. However, user experience is not perfect yet due to current 3D model limitations.
+Gravity extension is fully supported by our gear system. 
 
-While this feature will eventually be perfectly supported with a moving crank handle, for now gravity extension can be used by two means:
+To use this mechanical-only device, you need to click on the emergency crank handle back on the center pedestal. It will deploy and make one full turn per click.
 
-- Clicking and holding left mouse button on the red part of the crank handle.
-![Clickable emergency handle reference](../assets/custom-hydraulics/gear/crank_handle.png "Clickable emergency handle reference"){loading=lazy}
-- Using the ingame binding "EMERGENCY GEAR TOGGLE" by holding it. You may set this to a keybind of your choice.
-![In-game binding reference](../assets/custom-hydraulics/gear/emergency_input.png "In-game binding reference"){loading=lazy}
-  
-Using either of those above methods, you need to click and hold until gear is released. 
-
-If not holding long enough, you will end up with crank handle only doing one or two turns, which will have the following consequences:
+Each turn of the handle will cause various things to happen:
 
 - After 1 turn, hydraulic supply to gear system is closed
-- After 2 turns, doors uplocks will be released and door will stay opened
+- After 2 turns, doors uplocks will be released and doors will stay opened
+- During last third turn, all gear uplocks will be mechanically release and gear will hopefully go down
 
-To revert the process and stow the crank handle back into its place, just click and hold again (provided you already reached 3 turns).
+To revert the process and stow the crank handle back into its place, just click again until handle is stowed back
 
 !!! warning "Before Using Gravity Extension"
     Have the plane correctly stabilized before using this procedure. Remember that gears are physically simulated, and are really heavy. Bank angle and/or load factor WILL have 
