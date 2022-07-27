@@ -10,13 +10,13 @@ Our new gear system aims at replicating its real counterpart even in the slighte
 - Safety valve / Shut off valve / Vent valves controls
 - Gear lever baulk lock mechanism powered by LGCIUs
 - Emergency extension system
+- Failures
 
 !!! warning "Not Yet Implemented"
     Non-exhaustive list of features yet to come:
 
     - Doors animations
     - Complete fault monitoring and BITE tests of LGCIUs
-    - Complete set of failures
 
 ### Functionality
 Using the gear system should not be different from before. Selecting gear up will switch to the next available LGCIU computer available, and will start the retracting sequence. Gear down will start the extension sequence same as before.
@@ -60,9 +60,11 @@ Each turn of the handle will cause various things to happen:
 
 - After 1 turn, hydraulic supply to gear system is closed
 - After 2 turns, doors uplocks will be released and doors will stay opened
-- During last third turn, all gear uplocks will be mechanically release and gear will hopefully go down
+- During last third turn, all gear uplocks will be mechanically releaseb and gears will hopefully go down
 
 To revert the process and stow the crank handle back into its place, just click again until handle is stowed back
+
+!!! tip "The lowest the speed, the harder it will be to have a full down lock, especially for main gears. Doing steep turns to increase the plane load can be quite effective to help the gears to lock."
 
 !!! warning "Before Using Gravity Extension"
     Have the plane correctly stabilized before using this procedure. Remember that gears are physically simulated, and are really heavy. Bank angle and/or load factor WILL have 
@@ -81,7 +83,6 @@ To revert the process and stow the crank handle back into its place, just click 
 --}
 
 - If a hardware input is set to GEAR UP or GEAR DOWN, in-cockpit lever cannot be clicked or mouse dragged.
-- Aerodynamic effects are not implemented yet, so gravity extension can have difficulties to lock the gear down, especially if plane is not stabilized during the procedure.
 
 - Door visual position is not modeled yet due to 3D model issues. Their actual position is however fully simulated internally.
 
