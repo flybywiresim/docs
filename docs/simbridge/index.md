@@ -23,11 +23,12 @@ require fewer extra steps before launching into your flights.
     
     This page will keep you updated with the status and any further documentation for these services.
 
-|                       Feature                       |          Status          |
-|:---------------------------------------------------:|:------------------------:|
-| [Web MCDU](../fbw-a32nx/feature-guides/web-mcdu.md) | Built - Not Yet Migrated |
-|                   Terrain Display                   |     Work in Progress     |
-|                  EFB Local Charts                   |         Planned          |
-|                   Remote Displays                   |         Planned          |
+|                       Feature                       |          Status               |
+|:---------------------------------------------------:|:-----------------------------:|
+| [Web MCDU](../fbw-a32nx/feature-guides/web-mcdu.md) | Built - Not Yet Migrated      |
+|             Company Route Support                   | Built - Not Yet Migrated      |
+|                   Terrain Display                   | Built - Not Yet Migrated      |
+|                  EFB Local Charts                   | Built - Not Yet Migrated      |
+|                   Remote Displays                   | Work in Progress (MCDU Built) |
 
 

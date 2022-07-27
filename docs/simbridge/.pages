@@ -6,3 +6,6 @@
 title: SimBridge
 nav:
     - Overview: index.md
+    - Installation: installtion
+    - Configuration: configuration
+    - Remote Displays: remote-displays
