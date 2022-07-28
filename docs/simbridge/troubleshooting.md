@@ -5,8 +5,8 @@ By default Simbridge's main window starts hidden to the systems tray, to view it
 
 The main window running Simbridge displays the servers log file information and provides important information about the started services, the necessary urls and ip addresses.
 
-!!! info Note
-    This window does not need to remain open and can be re-hidden using the system's tray icon
+!!! info "Note"
+    This window does not need to remain open and can be re-hidden using the system's tray icon.
 
 ## Network Configuration
 
