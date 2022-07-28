@@ -6,7 +6,7 @@ Due to issues in the Microsoft Flight Simulator Coherent Engine (Javascript Engi
 
 Therefore, a timeout mechanism has been built into displays limiting the number of connection attempts the displays will execute.
 
-A setting in the fylPad EFB Sim Options page has been introduced to allow users to restart the connection attempts or to turn off the attempts to connect to Simbridge completely.
+A setting in the flyPad EFB Sim Options page has been introduced to allow users to restart the connection attempts or to turn off the attempts to connect to SimBridge completely.
 
 ![flyPad EFB Settings Sim Options](../assets/simbridge/efb-setting-simoptions.png)
 
