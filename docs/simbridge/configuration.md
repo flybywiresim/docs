@@ -15,7 +15,7 @@ You can configure SimBridge to provide you with options that best suit your need
 This tab is dedicated to settings regarding the SimBridge server itself.
 
 - Port
-    - You can modify Simbridge's hosted port.
+    - You can modify SimBridge's hosted port.
     - Default: `8380`
     !!! warning "Notice"
         If this is changed make sure to reflect the same port in the [EFB](../fbw-a32nx/feature-guides/flypados3/settings.md#sim-options).

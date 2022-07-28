@@ -1,15 +1,15 @@
 # Troubleshooting
 ## Main Window
-By default Simbridge's main window starts hidden to the systems tray, to view it select `Show/Hide` on the systems tray icon.
+By default SimBridge's main window starts hidden to the systems tray, to view it select `Show/Hide` on the systems tray icon.
 ![main window](assets/simbridge/simbridge_window.png){loading=lazy}
 
-The main window running Simbridge displays the servers log file information and provides important information about the started services, the necessary urls and ip addresses.
+The main window running SimBridge displays the servers log file information and provides important information about the started services, the necessary urls and ip addresses.
 
 !!! info "Note"
     This window does not need to remain open and can be re-hidden using the system's tray icon.
 
 !!! warning "Notice"
-    If the main window is closed (via the (X) button), Simbridge will be closed entirely and will need to be [restarted](autostart.md#manual-start)
+    If the main window is closed (via the (X) button), SimBridge will be closed entirely and will need to be [restarted](autostart.md#manual-start)
 
 ## Network Configuration
 
@@ -43,7 +43,7 @@ If you still can't connect to SimBridge's remote displays your firewall might be
 !!! danger "Disclaimer"
     Changing Windows settings, especially security settings like the firewall comes with certain risks. Please do not change these settings if you are not comfortable doing so. FlyByWire Simulations does not take any responsibility for any issues caused by your changes to Windows or security settings.
 
-If you can't reach Simbridge's remote display from your browser on your device or on your local PC then it is very likely that your PC firewall is blocking this network traffic.
+If you can't reach SimBridge's remote display from your browser on your device or on your local PC then it is very likely that your PC firewall is blocking this network traffic.
 
 To test and confirm this turn off your firewall and try again to reach a [remote-display](remote-displays/remote-mcdu.md) via your browser. If you now can access your MCDU from your browser you have confirmed that it is indeed the firewall that blocks this access.
 
@@ -83,7 +83,7 @@ For an advanced guide of this command see the Microsoft documentation:<br/>
     Windows Dialog creating these automatic rules looks likes like this:
     ![Windows Firewall Dialog](assets/fwrules-dialog.png "Windows Firewall Dialog"){loading=lazy}
 
-This should now allow access from your browser to Simbridge's remote display.
+This should now allow access from your browser to SimBridge's remote display.
 
 ## Occupied Port
 
@@ -115,7 +115,7 @@ Error: listen EADDRINUSE: address already in use :::8380
       ...
     ```
 
-If the port is indeed already occupied then you need to change the default port in [Simbridge Configuration](configuration.md#server-settings).
+If the port is indeed already occupied then you need to change the default port in [SimBridge Configuration](configuration.md#server-settings).
 
 You also need to change the port in the [flyPad EFB Sim options page](/fbw-a32nx/feature-guides/flyPad/settings/#sim-options).
 

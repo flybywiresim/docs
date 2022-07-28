@@ -16,7 +16,7 @@ It also allows you to use your real printer as a cockpit printer for the MCDU.
 ## Opening the MCDU Remote Display
 
 !!! info Notice
-    Ensure Simbridge has [started](../autostart.md#autostart)
+    Ensure SimBridge has [started](../autostart.md#autostart)
 
 - Tray Icon
   - Open the MCDU remote display via the tray-icon

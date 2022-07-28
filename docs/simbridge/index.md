@@ -23,12 +23,12 @@ require fewer extra steps before launching into your flights.
     
     This page will keep you updated with the status and any further documentation for these services.
 
-|                       Feature                       |          Status               |
-|:---------------------------------------------------:|:-----------------------------:|
-|             [Company Route Support](coroute.md)     | Built - Not Yet Migrated      |
-|                   Terrain Display                   | Built - Not Yet Migrated      |
-|                  EFB Local Charts                   | Built - Not Yet Migrated      |
-|                   Remote Displays                   | Work in Progress (MCDU Built) |
-|[MCDU Remote Display](remote-displays/remote-mcdu.md)| Work in Progress (MCDU Built) |
+|                        Feature                        |            Status             |
+|:-----------------------------------------------------:|:-----------------------------:|
+|          [Company Route Support](coroute.md)          |   Built - Not Yet Migrated    |
+|                    Terrain Display                    |   Built - Not Yet Migrated    |
+|                   EFB Local Charts                    |   Built - Not Yet Migrated    |
+|                    Remote Displays                    | Work in Progress (MCDU Built) |
+| [MCDU Remote Display](remote-displays/remote-mcdu.md) | Work in Progress (MCDU Built) |
 
 
