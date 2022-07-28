@@ -27,7 +27,7 @@ Stored Company Routes allow you to save routes you regularly fly to your PC. It 
 - You can now complete the flight plan setup by entering the missing data manually.
 
 #### Entering a FROM/TO Pair
-- **Alternatively** you can enter the FROM/TO pair of routes you have stored which will bring up the co-route selection page
+- **Alternatively** you can enter the FROM/TO pair of routes you have stored which will bring up the co-route selection page.
     
     ![MCDU Co Route Selection Page](assets/mcdu-coroute-selection-page.png){loading=lazy}
 
