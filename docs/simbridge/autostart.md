@@ -27,7 +27,7 @@ There's several avenues to stop simbridge to provide flexibility to you as the u
 - The simplest way is via the installer and selecting the stop button on the Simbridge page.
 
 ## Tray Icon
-- By right-clicking the tray icon in your systems tray and selecting `Exit`, you can also stop SimBridge
+- By right-clicking the tray icon in your systems tray and selecting `Exit`, you can also stop SimBridge.
 
     ![quit simbridge](assets/simbridge/tray_stop.png)
 
