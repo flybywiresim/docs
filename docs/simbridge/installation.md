@@ -93,7 +93,8 @@ Finding/Opening the resources folder can be done through several paths:
 
 - Tray Icon
   - You can right-click the tray-icon and select `Open resources folder` which will open the path in your windows explorer
-  ![tray-icon-picture](assets/simbridge/trayicon-resource.png)
+
+    ![tray-icon-picture](assets/simbridge/trayicon-resource.png)
 
 - Installer
   - Within the installer on the SimBridge tab you'll find the resources folder button which will open the path in your windows explorer

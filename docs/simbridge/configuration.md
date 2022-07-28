@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="../../stylesheets/web-mcdu.css">
+
 # Configuration
 You can configure SimBridge to provide you with options that best suit your needs.
 
@@ -27,7 +29,7 @@ This tab is for modifying settings regarding printing data from the MCDU to your
 -  Margin
    -  Defines the margins for the printout
 
-??? info Supported Paper Sizes (click to expand)
+??? info "Supported Paper Sizes (click to expand)"
     Based on this list: [PDFKIT Paper Sizes](https://pdfkit.org/docs/paper_sizes.html){target=new}
 
     - A-series: A0 ... A10
