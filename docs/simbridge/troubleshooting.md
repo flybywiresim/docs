@@ -78,7 +78,7 @@ For an advanced guide of this command see the Microsoft documentation:<br/>
     ![Windows Automatic Firewall Rules](assets/firewall-rules.png "Windows Automatic Firewall Rules")
 
     Windows Dialog creating these automatic rules looks likes like this:
-    ![Windows Firewall Dialog](../assets/fwrules-dialog.png "Windows Firewall Dialog")
+    ![Windows Firewall Dialog](assets/fwrules-dialog.png "Windows Firewall Dialog")
 
 This should now allow access from your browser to Simbridge's remote display.
 
