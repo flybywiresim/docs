@@ -12,7 +12,8 @@ You can configure SimBridge to provide you with options that best suit your need
     If SimBridge is running make sure to stop and then start the service in order for SimBridge to load the modified settings
 
 ## Server Settings
-This tab is dedicated to settings regarding the SimBridge server itself
+This tab is dedicated to settings regarding the SimBridge server itself.
+
 - Port
   - You can modify Simbridge's hosted port
 
