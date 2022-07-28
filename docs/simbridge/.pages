@@ -6,6 +6,10 @@
 title: SimBridge
 nav:
     - Overview: index.md
-    - Installation: installtion
-    - Configuration: configuration
+    - Installation: installation.md
+    - Configuration: configuration.md
+    - Autostart: autostart.md
     - Remote Displays: remote-displays
+    - Terrain Display: terrain.md
+    - Company Routes: coroute.md
+    - PDF Viewer: pdf-viewer.md

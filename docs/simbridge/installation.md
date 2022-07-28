@@ -1,0 +1,128 @@
+# Installation Guide
+
+Please follow the information on this page to install the FlyByWire SimBridge tools for FlyByWire aircraft
+
+*Last Update: {{git_revision_date_localized}}*
+
+## Downloads
+
+### FlyByWire Installer
+
+#### Addon Install
+
+When you attempt to install an addon or different addon version (for example, switching from Development to Experimental) you will be prompted to install SimBridge
+
+
+
+![Simbridge install prompt](assets/simbridge/installer_prompt.png "Prompt to install Simbridge when installing an addon that requires it")
+
+Select `Yes` to install Simbridge along with your chosen addon/version.
+
+#### Seperate Install
+
+If you select `No` in the [Addon Install](#addon-install) or would like to seperately install Simbridge, then you can install SimBridge by selecting the SimBridge tab.
+
+On the SimBridge tab, select install and the installer will go ahead and install Simbridge
+![Simbridge installer](assets/simbridge/simbridge_installing.png)
+
+#### Installer Debug Logs
+
+You can send us logs to our [Discord](https://discord.gg/flybywire){target=new} for support if you encounter issues with the installer. Please follow the steps below:
+
+  * Open the debug tool ++ctrl+f12++.
+
+  * Find and select ++"Console"++ in the top menu.
+
+  * ++"Right Click"++ anywhere in the log displayed.
+
+  * Click ++"Save as"++ and send the log to us.
+
+[Download Installer](https://api.flybywiresim.com/installer){ .md-button target=new}
+
+### Manual Installation
+
+!!! warning 
+    Using this method means autostart won't be enabled
+
+    [Download Latest](https://github.com/flybywiresim/simbridge/releases/latest/download/fbw-simbridge.zip){ .md-button target=new}
+
+## Community Folder
+
+- Extract the `.zip` file and renamed the folder to `flybywire-externaltools-simbridge`
+
+### Microsoft Store and/or Game Pass Edition
+
+- Copy the `flybywire-externaltools-simbridge` folder into your community package folder.
+
+It is located in:
+
+* `C:\Users\[YOURUSERNAME]\AppData\Local\Packages\Microsoft.FlightSimulator_<RANDOMLETTERS>\LocalCache\Packages\Community`.
+
+---
+
+### Steam Edition
+
+- Copy the `flybywire-externaltools-simbridge` folder into your community package folder.
+
+It is located in:
+
+* `C:\Users\[YOUR USERNAME]\AppData\Roaming\Microsoft Flight Simulator\Packages\Community`.
+
+---
+
+### Boxed Edition
+
+- Copy the `flybywire-externaltools-simbridge` folder into your community package folder.
+
+It is located in:
+
+* `C:\Users\[YOUR USERNAME]\AppData\Local\MSFSPackages\Community`.
+
+---
+
+### Troubleshooting
+
+See [find the community folder](../fbw-a32nx/installation.md#Troubleshooting)
+
+---
+
+If your issue is not related to installation visit - [**Reported Issues**](support/reported-issues.md)
+
+---
+
+## Clean Install Steps
+
+!!! warning Notice
+    If you uninstall SimBridge, your resources folder is also cleared, deleting all of your images, PDFs etc. that you have stored there. 
+    
+    Make sure to back them up before doing so if you intend to keep this data.
+
+### Automatic Clean Install
+
+FBW Installer  introduced the `Uninstall` feature. To perform an automatic clean install:
+
+- Ensure you have the latest FBW Installer on your machine. 
+    - The installer updates itself. If you would like to 
+    download our installer again see the [FlyByWire Installer Section](#flybywire-installer).
+- Click on the "Uninstall" button.
+
+
+!!! tip ""
+    This removes the tool from your community folder and the extra files in `%temp%`.
+
+### Manual Clean Install
+
+If you would like to manually perform a clean install you first have to delete the 
+ `flybywire-externaltools-simbridge` folder from your community folder.
+
+We also store additional information related to the tool in a separate directory which is built when you load the tool. You also need to delete the folder.
+
+These locations are found below:
+
+- `%temp%`
+
+If the above folders are hidden to you follow the directions on [Microsoft's support site](https://support.microsoft.com/en-us/windows/view-hidden-files-and-folders-in-windows-10-97fbc472-c603-9d90-91d0-1166d1d9f4b5).
+
+Once in the correct directory delete the folder shown here:
+
+![localstate folder](assets/temp_folder.png){ width=70% }
