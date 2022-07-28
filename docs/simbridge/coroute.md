@@ -15,9 +15,9 @@ Stored Company Routes allow you to save routes you regularly fly to your PC. It 
 - Rename the simBrief XML Datafile to any name with maximal 9 characters. E.g. the airport's IATA codes `STRCPH1.xml`
 
 #### Entering a Company Route Name 
-- Start a flight at the appropriate departure airport and follow the standard setup procedure
-- When setting up the flight management system in the MCDU you can directly head to the INIT A page
-- Enter the name of your company route into the `CO RTE` field
+- Start a flight at the appropriate departure airport and follow the standard setup procedure.
+- When setting up the flight management system in the MCDU you can directly head to the INIT A page.
+- Enter the name of your company route into the `CO RTE` field.
 
     ![MCDU INIT A Loading CoRoute](assets/mcdu-init-a-load.png){loading=lazy}
 
