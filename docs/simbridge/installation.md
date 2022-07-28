@@ -84,15 +84,28 @@ It is located in:
 
 See [find the community folder](../fbw-a32nx/installation.md#Troubleshooting)
 
----
 
-If your issue is not related to installation visit - [**Reported Issues**](support/reported-issues.md)
 
----
+## Resources Folder
+The resources folder is used for storing various files required by Simbridge to provide it's functionality. 
+ 
+Finding/Opening the resources folder can be done through several paths:
+
+- Tray Icon
+  - You can right-click the tray-icon and select `Open resources folder` which will open the path in your windows explorer
+  ![tray-icon-picture](assets/simbridge/trayicon-resource.png)
+
+- Installer
+  - Within the installer on the SimBridge tab you'll find the resources folder button which will open the path in your windows explorer
+    **requires image**
+
+- Windows Explorer
+  - You can navigate to the [community folder](#community-folder) where you will find `flybywire-externaltools-simbridge` in there you can find the `resources` folder
+  ![windows explorer resources folder](assets/simbridge-location.png)
 
 ## Clean Install Steps
 
-!!! warning Notice
+!!! danger Notice
     If you uninstall SimBridge, your resources folder is also cleared, deleting all of your images, PDFs etc. that you have stored there. 
     
     Make sure to back them up before doing so if you intend to keep this data.

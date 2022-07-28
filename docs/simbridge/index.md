@@ -25,8 +25,7 @@ require fewer extra steps before launching into your flights.
 
 |                       Feature                       |          Status               |
 |:---------------------------------------------------:|:-----------------------------:|
-| [Web MCDU](../fbw-a32nx/feature-guides/web-mcdu.md) | Built - Not Yet Migrated      |
-|             Company Route Support                   | Built - Not Yet Migrated      |
+|             [Company Route Support](coroute.md)                   | Built - Not Yet Migrated      |
 |                   Terrain Display                   | Built - Not Yet Migrated      |
 |                  EFB Local Charts                   | Built - Not Yet Migrated      |
 |                   Remote Displays                   | Work in Progress (MCDU Built) |

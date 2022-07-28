@@ -8,6 +8,7 @@ nav:
     - Overview: index.md
     - Installation: installation.md
     - Configuration: configuration.md
+    - Troubleshooting: troubleshooting.md
     - Autostart: autostart.md
     - Remote Displays: remote-displays
     - Terrain Display: terrain.md

@@ -31,7 +31,8 @@ There's several avenues to stop simbridge to provide flexibility to you as the u
 ![quit simbridge](assets/simbridge/tray_stop.png)
 
 ## API Endpoint
-- You can stop Simbridge by calling the health endpoint via `http://{host machine IP}:{selected port}/health/kill`
+- You can stop Simbridge by calling the health endpoint via http://{[host machine IP](troubleshooting.md#network-configuration)}:{[selected port](configuration.md#server-settings)}/health/kill
+    - For example `https://192.168.1.21:8380/health/kill`
 
 
 ## Task Manager
