@@ -37,5 +37,5 @@ There's several avenues to stop simbridge to provide flexibility to you as the u
 
 
 ## Task Manager
-- You may encounter issues with closing SimBridge in normal circumstance and thus you can kill the `fbw-simbridge.exe` process in Task Manager
+- If you encounter issues when closing SimBridge normally, you can kill the `fbw-simbridge.exe` process in Task Manager.
 ![task manager stop](assets/simbridge/simbridge_stop_tm.png)
