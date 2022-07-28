@@ -2,7 +2,7 @@
 
 ## Autostart
 
-Autostart is a feature provided by the Flybywire Installer that allows SimBridge to be autostarted upon Windows start. Simbridge will live in the systems tray similiar to Navigraph Simlink. 
+Autostart is a feature provided by the FlyByWire Installer that allows SimBridge to be autostarted upon Windows start. SimBridge will live in the systems tray similiar to Navigraph Simlink. 
 
 
 ### Configuration
