@@ -112,7 +112,7 @@ Error: listen EADDRINUSE: address already in use :::8380
       ...
     ```
 
-If the port is indeed already occupied then you need to change the default port in [Simbridge Configuration](configuration.md#server-settings)
+If the port is indeed already occupied then you need to change the default port in [Simbridge Configuration](configuration.md#server-settings).
 
 You also need to change the port in the [flyPad EFB Sim options page](/fbw-a32nx/feature-guides/flyPad/settings/#sim-options).
 
