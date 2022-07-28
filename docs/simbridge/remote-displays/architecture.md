@@ -8,5 +8,5 @@ The Remote Display Interface application will open a data connection to Simbridg
 
 For this to work the browser must be able to reach Simbridge via TCP port, 8380 (these defaults can be changed) which means users may need to reconfigure their network and firewall settings accordingly (see [configuration](../configuration.md#server-settings)).
 
-!!! info Note
+!!! info "Note"
     Manual configuration is not usually required.
