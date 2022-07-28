@@ -18,9 +18,10 @@ This tab is dedicated to settings regarding the SimBridge server itself.
   - You can modify Simbridge's hosted port
 
 ## Printer Settings
-This tab is for modifying settings regarding printing data from the MCDU to your physical printer
+This tab is for modifying settings regarding printing data from the MCDU to your physical printer.
+
 - Enabled
-  - A simple enable/disable option to enable or disable the printer function as a whole
+  - A simple option to enable or disable the printer function as a whole
 - Printer Name
   - This is a dropdown list that lists all of the available printers on your network
 -  Font Size
