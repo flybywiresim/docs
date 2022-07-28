@@ -8,7 +8,7 @@ Therefore, a timeout mechanism has been built into displays limiting the number 
 
 A setting in the flyPad EFB Sim Options page has been introduced to allow users to restart the connection attempts or to turn off the attempts to connect to SimBridge completely.
 
-![flyPad EFB Settings Sim Options](../assets/simbridge/efb-setting-simoptions.png)
+![flyPad EFB Settings Sim Options](../assets/simbridge/efb-setting-simoptions.png){loading=lazy}
 
 The three settings are:
 

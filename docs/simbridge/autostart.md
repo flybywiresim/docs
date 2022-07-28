@@ -29,13 +29,13 @@ There's several avenues to stop simbridge to provide flexibility to you as the u
 ## Tray Icon
 - By right-clicking the tray icon in your systems tray and selecting `Exit`, you can also stop SimBridge.
 
-    ![quit simbridge](assets/simbridge/tray_stop.png)
+    ![quit simbridge](assets/simbridge/tray_stop.png){loading=lazy}
 
 ## API Endpoint
 - You can stop Simbridge by calling the health endpoint via http://{[host machine IP](troubleshooting.md#network-configuration)}:{[selected port](configuration.md#server-settings)}/health/kill
-    - For example `https://192.168.1.21:8380/health/kill`
+- For example `https://192.168.1.21:8380/health/kill`
 
 
 ## Task Manager
 - If you encounter issues when closing SimBridge normally, you can kill the `fbw-simbridge.exe` process in Task Manager.
-![task manager stop](assets/simbridge/simbridge_stop_tm.png)
+![task manager stop](assets/simbridge/simbridge_stop_tm.png){loading=lazy}

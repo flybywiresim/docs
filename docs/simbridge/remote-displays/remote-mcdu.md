@@ -1,6 +1,6 @@
 # Remote MCDU Display
 
-<link rel="stylesheet" href="../../stylesheets/web-mcdu.css">
+<link rel="stylesheet" href="../../../stylesheets/web-mcdu.css">
 
 ## Overview
 
@@ -20,7 +20,7 @@ It also allows you to use your real printer as a cockpit printer for the MCDU.
 
 - Tray Icon
   - Open the MCDU remote display via the tray-icon
-  ![tray icon remote mcdu](../assets/simbridge/trayicon-remote-mcdu.png)
+  ![tray icon remote mcdu](../assets/simbridge/trayicon-remote-mcdu.png){loading=lazy}
 - Web browser
   - Open your browser of choice and navigate to http://{[IP Address](../troubleshooting.md#network-configuration)}:{[Port](../configuration.md#server-settings)}/interfaces/mcdu
   - for example: `http://192.168.1.21:8380/interfaces/mcdu`
@@ -34,6 +34,9 @@ It is also possible to click on the MCDU screen items themselves to actually cli
 You can hold the CLR key for >1.5sec to clear all of the scratchpad's content as it is possible in the cockpit itself.
 
 Changes done in the MCDU Web Interface will be reflected immediately in the cockpit and vice versa. Any change in the cockpit will be immediately shown in the MCDU Web Interface.
+
+!!! info "Notice"
+    You can combine several slash commands to get combined effects. For example `/fullscreen/sound` will enable sound *and* fullscreen modes.
 
 ### Fullscreen Display
 

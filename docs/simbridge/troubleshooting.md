@@ -1,12 +1,15 @@
 # Troubleshooting
 ## Main Window
 By default Simbridge's main window starts hidden to the systems tray, to view it select `Show/Hide` on the systems tray icon.
-![main window](assets/simbridge/simbridge_window.png)
+![main window](assets/simbridge/simbridge_window.png){loading=lazy}
 
 The main window running Simbridge displays the servers log file information and provides important information about the started services, the necessary urls and ip addresses.
 
 !!! info "Note"
     This window does not need to remain open and can be re-hidden using the system's tray icon.
+
+!!! warning "Notice"
+    If the main window is closed (via the (X) button), Simbridge will be closed entirely and will need to be [restarted](autostart.md#manual-start)
 
 ## Network Configuration
 
@@ -75,10 +78,10 @@ For an advanced guide of this command see the Microsoft documentation:<br/>
 
     They usually look like this:
 
-    ![Windows Automatic Firewall Rules](assets/firewall_rules.png "Windows Automatic Firewall Rules")
+    ![Windows Automatic Firewall Rules](assets/firewall_rules.png "Windows Automatic Firewall Rules"){loading=lazy}
 
     Windows Dialog creating these automatic rules looks likes like this:
-    ![Windows Firewall Dialog](assets/fwrules-dialog.png "Windows Firewall Dialog")
+    ![Windows Firewall Dialog](assets/fwrules-dialog.png "Windows Firewall Dialog"){loading=lazy}
 
 This should now allow access from your browser to Simbridge's remote display.
 
