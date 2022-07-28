@@ -1,6 +1,6 @@
 # Installation Guide
 
-Please follow the information on this page to install the FlyByWire SimBridge tools for FlyByWire aircraft
+Please follow the information on this page to install the FlyByWire SimBridge tools for FlyByWire aircraft.
 
 *Last Update: {{git_revision_date_localized}}*
 
