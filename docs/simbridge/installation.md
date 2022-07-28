@@ -113,7 +113,7 @@ Finding/Opening the resources folder can be done through several paths:
 
 ### Automatic Clean Install
 
-FBW Installer  introduced the `Uninstall` feature. To perform an automatic clean install:
+FBW Installer introduced the `Uninstall` feature. To perform an automatic clean install:
 
 - Ensure you have the latest FBW Installer on your machine. 
     - The installer updates itself. If you would like to 
