@@ -75,7 +75,7 @@ For an advanced guide of this command see the Microsoft documentation:<br/>
 
     They usually look like this:
 
-    ![Windows Automatic Firewall Rules](assets/firewall-rules.png "Windows Automatic Firewall Rules")
+    ![Windows Automatic Firewall Rules](assets/firewall_rules.png "Windows Automatic Firewall Rules")
 
     Windows Dialog creating these automatic rules looks likes like this:
     ![Windows Firewall Dialog](assets/fwrules-dialog.png "Windows Firewall Dialog")
