@@ -20,15 +20,25 @@ Currently experimental is geared toward testing the initial version of VNAV with
 The following are features in testing that require the use of SimBridge:
 
 - [Terrain Display](#terrain-display)
-- Remote MCDU (Web MCDU)
+- Remote MCDU (Web MCDU) 
+    - [Setup and Configuration Guide](../../simbridge/remote-displays/configuration.md)
+    - [Usage Guide](../../simbridge/remote-displays/remote-mcdu.md)
 
-If you'd like to learn about SimBridge and further status of various features please - [Read Here](../../simbridge/index.md).
+!!! tip "SimBridge Information"
+    - Learn about SimBridge and further status of various features please - [Read Here](../../simbridge/index.md).
+    - [SimBridge setup and configuration guide](../../simbridge/configuration.md).
 
 #### Terrain Display
 
 ![Terrain Example](https://user-images.githubusercontent.com/64070348/171737355-3633f9dc-b3f9-44fe-8dd0-34e6e8a7569f.png){loading=lazy}
 
-This feature will connect to our external database via SimBridge to accurate display terrain information on the navigation display.
+This feature will connect to our external database via SimBridge to accurately display terrain information on the navigation display. We've followed the peaks-mode implementation 
+of honeywell and do not have map-data above 83° north or below 84° south. 
+
+You can read more about the "PEAKS DISPLAY" in this technical guide from Honeywell - [Read Here](https://skybrary.aero/sites/default/files/bookshelf/3364.pdf){target=new}
+
+!!! tip "Configuration"
+    - [Terrain Usage Guide](../../simbridge/terrain.md)
 
 ### Pause at Top of Descent (TOD)
 
