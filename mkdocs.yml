@@ -47,8 +47,8 @@ plugins:
         - pilots-corner/advanced-guides/flight-guidance/lnav.md
         - pilots-corner/advanced-guides/flight-guidance/vnav.md
         - simbridge/terrain.md
-        - simbridge/coroute.md
-        - simbridge/pdf-viewer.md
+        # - simbridge/coroute.md
+        # - simbridge/pdf-viewer.md
   - awesome-pages
   - git-revision-date-localized:
       type: date
