@@ -4,8 +4,7 @@ The Experimental version is a test version to find problems, issues and to impro
 
 {--
 
-Currently experimental is geared toward testing the initial version of VNAV. Please use the appropriate discord 
-thread to report any issues - [How to Report Issues](#how-to-report-issues).
+Currently experimental is geared toward testing the initial version of VNAV with additional features added at the development team's discretion - [see below](#implemented-features-for-testing). Please use the appropriate discord thread to report any issues - [How to Report Issues](#how-to-report-issues).
 
 --}
 
@@ -16,6 +15,38 @@ thread to report any issues - [How to Report Issues](#how-to-report-issues).
 
 ## Implemented Features for Testing
 
+### SimBridge
+
+The following are features in testing that require the use of SimBridge:
+
+- [Terrain Display](#terrain-display)
+- Remote MCDU (Web MCDU) 
+    - [Setup and Configuration Guide](../../simbridge/remote-displays/configuration.md)
+    - [Usage Guide](../../simbridge/remote-displays/remote-mcdu.md)
+
+!!! tip "SimBridge Information"
+    - Learn about SimBridge and further status of various features please - [Read Here](../../simbridge/index.md).
+    - [SimBridge setup and configuration guide](../../simbridge/configuration.md).
+
+#### Terrain Display
+
+![terrain example](../assets/support-guide/terrain1.png){loading=lazy}
+
+This feature will connect to our external database via SimBridge to accurately display terrain information on the navigation display. We've followed the peaks-mode implementation 
+of honeywell and do not have map-data above 83° north or below 84° south. 
+
+You can read more about the "PEAKS DISPLAY" in this technical guide from Honeywell - [Read Here](https://skybrary.aero/sites/default/files/bookshelf/3364.pdf){target=new}
+
+!!! tip "Configuration"
+    - [Terrain Usage Guide](../../simbridge/terrain.md)
+
+!!! warning "Reporting Bugs / Strange Behaviors"
+    When reporting a bug or strange behavior that we need the GPS position or at least a reference to an airport/VOR/NDB with a distance and direction. 
+
+    This will help us iron out the feature and identify issues faster. For more information on where to report please see [How to Report Issues](#how-to-report-issues) below.
+
+    Expect performance loss as we continue to optimise.
+
 ### Pause at Top of Descent (TOD)
 
 - New setting in located in the EFB under Realism - Pause at TOD (configurable by distance between 0-50 nm before TOD)
@@ -24,7 +55,9 @@ thread to report any issues - [How to Report Issues](#how-to-report-issues).
 
 ### Hydraulic Gear System
 
-Feature released in Development Version. See our guide for usage and known issues.
+- Custom gravity gear extension model
+
+For features that are already available in the Development Version - see our guide for usage and known issues.
 
 [Custom Hydraulics Guide](../feature-guides/custom-hydraulics.md){.md-button}
 
@@ -51,15 +84,16 @@ These features are not yet available but will be implemented at a later time.
 
 ### flyPadOS Version 3 (EFB)
 
-Feature released in Development Version. See our guide for usage and known issues.
+- Updated weight and balance features:
+    - Dynamic weight information
+    - Customizable/interactive passenger and cargo loading
+    ![wb showcase](../assets/support-guide/wb_new1.png)
+
+For features that are already available in the Development Version - see our guide for usage and known issues.
 
 [flyPadOS 3](../feature-guides/flypados3/index.md){.md-button}
 
-#### EFB Planned Implementations
-
-These features are not yet available but are generally planned and might be implemented at a later time.
-
-- Support for local files (PFD, images) - requires FlyByWire SimBridge (not yet merged)
+---
 
 ## Known Issues
 
