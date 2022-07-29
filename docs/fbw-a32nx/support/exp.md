@@ -30,7 +30,7 @@ The following are features in testing that require the use of SimBridge:
 
 #### Terrain Display
 
-![Terrain Example](https://user-images.githubusercontent.com/64070348/171737355-3633f9dc-b3f9-44fe-8dd0-34e6e8a7569f.png){loading=lazy}
+![terrain example](../assets/support-guide/terrain1.png){loading=lazy}
 
 This feature will connect to our external database via SimBridge to accurately display terrain information on the navigation display. We've followed the peaks-mode implementation 
 of honeywell and do not have map-data above 83° north or below 84° south. 
