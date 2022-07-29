@@ -4,8 +4,7 @@ The Experimental version is a test version to find problems, issues and to impro
 
 {--
 
-Currently experimental is geared toward testing the initial version of VNAV. Please use the appropriate discord 
-thread to report any issues - [How to Report Issues](#how-to-report-issues).
+Currently experimental is geared toward testing the initial version of VNAV with additional features added at the development team's discretion - [see below](#implemented-features-for-testing). Please use the appropriate discord thread to report any issues - [How to Report Issues](#how-to-report-issues).
 
 --}
 
@@ -16,6 +15,21 @@ thread to report any issues - [How to Report Issues](#how-to-report-issues).
 
 ## Implemented Features for Testing
 
+### SimBridge
+
+The following are features in testing that require the use of SimBridge:
+
+- [Terrain Display](#terrain-display)
+- Remote MCDU (Web MCDU)
+
+If you'd like to learn about SimBridge and further status of various features please - [Read Here](../../simbridge/index.md).
+
+#### Terrain Display
+
+![Terrain Example](https://user-images.githubusercontent.com/64070348/171737355-3633f9dc-b3f9-44fe-8dd0-34e6e8a7569f.png){loading=lazy}
+
+This feature will connect to our external database via SimBridge to accurate display terrain information on the navigation display.
+
 ### Pause at Top of Descent (TOD)
 
 - New setting in located in the EFB under Realism - Pause at TOD (configurable by distance between 0-50 nm before TOD)
@@ -24,7 +38,9 @@ thread to report any issues - [How to Report Issues](#how-to-report-issues).
 
 ### Hydraulic Gear System
 
-Feature released in Development Version. See our guide for usage and known issues.
+- Custom gravity gear extension model
+
+For features that are already available in the Development Version - see our guide for usage and known issues.
 
 [Custom Hydraulics Guide](../feature-guides/custom-hydraulics.md){.md-button}
 
@@ -51,15 +67,16 @@ These features are not yet available but will be implemented at a later time.
 
 ### flyPadOS Version 3 (EFB)
 
-Feature released in Development Version. See our guide for usage and known issues.
+- Updated weight and balance features:
+    - Dynamic weight information
+    - Customizable/interactive passenger and cargo loading
+    ![wb showcase](../assets/support-guide/wb_new1.png)
+
+For features that are already available in the Development Version - see our guide for usage and known issues.
 
 [flyPadOS 3](../feature-guides/flypados3/index.md){.md-button}
 
-#### EFB Planned Implementations
-
-These features are not yet available but are generally planned and might be implemented at a later time.
-
-- Support for local files (PFD, images) - requires FlyByWire SimBridge (not yet merged)
+---
 
 ## Known Issues
 
