@@ -15,7 +15,7 @@ Our new gear system aims at replicating its real counterpart even in the slighte
 !!! warning "Not Yet Implemented"
     Non-exhaustive list of features yet to come:
 
-    - Doors animations
+    - Doors vs gear collisions
     - Complete fault monitoring and BITE tests of LGCIUs
 
 ### Functionality
@@ -85,12 +85,3 @@ To revert the process and stow the crank handle back into its place, just click 
 --}
 
 - If a hardware input is set to GEAR UP or GEAR DOWN, in-cockpit lever cannot be clicked or mouse dragged.
-
-- Door visual position is not modeled yet due to 3D model issues. Their actual position is however fully simulated internally.
-
-  Because of that last point:
-  
-   - Gear doors will start to visually open with a 2 to 3s delay, because actual doors are in fact already opening during those 2-3s while you cannot see them.
-   - Gear doors will visually close at end of gear extension even if actual doors stay open (for example after gravity extension).
-   - Visual movement of doors is only coming from gear movement, thus causing strange door oscillations in some cases that are not real.
-
