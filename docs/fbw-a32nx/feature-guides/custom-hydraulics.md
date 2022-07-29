@@ -4,7 +4,7 @@
 Our new gear system aims at replicating its real counterpart even in the slightest details. While more improvements will come, the current system already features:
 
 - Rigid body physics of gears and doors, affected by aerodynamics
-- Hydraulic actuators simulation with "push to retract" main gears and "push to extend" nose gear. 
+- Hydraulic actuators simulation with "push to retract" main gears and "push to extend" nose gear
 - All proximity sensors, one set per LGCIU computer
 - LGCIU computers monitoring, sequence control state machine and their change-over mechanism
 - Safety valve / Shut off valve / Vent valves controls
