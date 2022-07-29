@@ -38,5 +38,3 @@ In this mode terrain is displayed with regards to the absolute terrain elevation
 The TAWS displays the surrounding terrain on the ND according to the aircraft's current altitude with color-coding to help provide an understanding to the crew to where they are in relation to the terrain.
 
 ![TAWS Color Coding](assets/taws_color_coding.png "Color coding displays by the TAWS"){loading=lazy}
-
-### Limitations
