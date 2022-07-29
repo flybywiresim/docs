@@ -40,6 +40,10 @@ You can read more about the "PEAKS DISPLAY" in this technical guide from Honeywe
 !!! tip "Configuration"
     - [Terrain Usage Guide](../../simbridge/terrain.md)
 
+!!! warning "Reporting Bugs / Behaviors"
+    When reporting a bug or strange behavior that we need the GPS position or at least a reference to an airport/VOR/NDB with a distance and direction. This will help us iron 
+    out the feature and identify issues faster. For more information on where to report please see [How to Report Issues](#how-to-report-issues) below.
+
 ### Pause at Top of Descent (TOD)
 
 - New setting in located in the EFB under Realism - Pause at TOD (configurable by distance between 0-50 nm before TOD)
