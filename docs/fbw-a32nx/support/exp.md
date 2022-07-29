@@ -16,6 +16,19 @@ thread to report any issues - [How to Report Issues](#how-to-report-issues).
 
 ## Implemented Features for Testing
 
+### SimBridge
+Feature released on experimental and development, however usage is currently in experimental. See our guide for setup, usage and troubleshooting
+
+[SimBridge Guide](../../simbridge/index.md){.md-button}
+
+#### Terrain Display
+![TonND](https://user-images.githubusercontent.com/64070348/171737355-3633f9dc-b3f9-44fe-8dd0-34e6e8a7569f.png)
+
+Please see [here](../../simbridge/terrain.md) for usage and issues.
+
+#### MCDU Remote Display
+Please see [here](../../simbridge/remote-displays/remote-mcdu.md) for usage and issues
+
 ### Pause at Top of Descent (TOD)
 
 - New setting in located in the EFB under Realism - Pause at TOD (configurable by distance between 0-50 nm before TOD)

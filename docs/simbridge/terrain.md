@@ -1,10 +1,13 @@
 # Terrain Display
 ![terrain display](https://user-images.githubusercontent.com/64070348/171737355-3633f9dc-b3f9-44fe-8dd0-34e6e8a7569f.png){loading=lazy}
 
+!!! danger "Experimental-Only"
+    This feature is only available on [experimental](../fbw-a32nx/support/exp.md)
+
 The Terrain Awareness and Warning Systems (TAWS) is a system used to alert the flight crew in a timely manner of hazardous situations ahead of the airport to avoid Controlled Flight Into Terrain (CFIT). A part of TAWS is to overlay the approach terrain on the [ND](../pilots-corner/a32nx-briefing/flight-deck/front/nd.md), refered to as Terrain Awareness and Display (TAD), for the awareness of the crew. this display is derived from a database and subsequently can be out of date which can lead to TAWS making false positives and general nuisances to the crew.
 
 !!! warning "Note"
-    Simbridge *must* be [running](autostart.md) in order for the Terrain Display to function
+    SimBridge *must* be [running](autostart.md) in order for the Terrain Display to function
 
 # Terrain Database
 The aforementioned database has a worldwide coverage and is defined accoreding to a standardized Earth Model, dividing the surface into grid sets. Several optimisations have been made to the database to deal with size constraints within the aircraft.

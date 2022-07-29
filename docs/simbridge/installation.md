@@ -14,7 +14,7 @@ When you attempt to install an addon or different addon version (for example, sw
 
 
 
-![Simbridge install prompt](assets/simbridge/installer_prompt.png "Prompt to install Simbridge when installing an addon that requires it"){loading=lazy}
+![SimBridge install prompt](assets/simbridge/installer_prompt.png "Prompt to install SimBridge when installing an addon that requires it"){loading=lazy}
 
 Select `Yes` to install SimBridge along with your chosen addon/version.
 
@@ -23,7 +23,7 @@ Select `Yes` to install SimBridge along with your chosen addon/version.
 If you select `No` in the [Addon Install](#addon-install) or would like to separately install SimBridge, then you can install SimBridge by selecting the SimBridge tab.
 
 On the SimBridge tab, select install and the installer will go ahead and install SimBridge.
-![Simbridge installer](assets/simbridge/simbridge_installing.png){loading=lazy}
+![SimBridge installer](assets/simbridge/simbridge_installing.png){loading=lazy}
 
 #### Installer Debug Logs
 

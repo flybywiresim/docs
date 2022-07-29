@@ -4,6 +4,9 @@
 
 ## Overview
 
+!!! danger "Experimental-Only"
+    This feature is only available on [experimental](../../fbw-a32nx/support/exp.md), if you wish to use the MCDU Server please revert back to [development](../../fbw-a32nx/fbw-versions.md#development-version-recommended)
+
 The MCDU Remote display allows you to display and control the MCDU on a browser including browsers on mobile devices like phones or tablets.
 
 See list of compatible and tested browsers: [Compatible Browsers](#compatible-browsers)

@@ -7,7 +7,7 @@
 
 # SimBridge
 
-![Simbridge banner](assets/simbridge/simbridge.png){loading=lazy}
+![SimBridge banner](assets/simbridge/simbridge.png){loading=lazy}
 
 SimBridge is our custom-built solution to connect our aircraft to various external devices and data. This will ensure features will function seamlessly and 
 require fewer extra steps before launching into your flights.
@@ -25,10 +25,10 @@ require fewer extra steps before launching into your flights.
 
 |                        Feature                        |            Status             |
 |:-----------------------------------------------------:|:-----------------------------:|
-|          [Company Route Support](coroute.md)          |   Built - Not Yet Migrated    |
-|                    Terrain Display                    |   Built - Not Yet Migrated    |
+|               [Terrain Display](terrain.md)      | In [Experimental](../fbw-a32nx/support/exp.md)  |
+| [MCDU Remote Display](remote-displays/remote-mcdu.md) | In [Experimental](../fbw-a32nx/support/exp.md)  |
+|              Company Route Support                        |   Built - Not Yet Migrated    |
 |                   EFB Local Charts                    |   Built - Not Yet Migrated    |
-|                    Remote Displays                    | Work in Progress (MCDU Built) |
-| [MCDU Remote Display](remote-displays/remote-mcdu.md) | Work in Progress (MCDU Built) |
+|                    Remote Displays                    | Work in Progress |
 
 
