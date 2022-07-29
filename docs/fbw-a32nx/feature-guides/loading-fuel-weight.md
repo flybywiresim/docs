@@ -330,8 +330,7 @@ found in `atc_id` in the `acft.cfg`.
 If you decide to exit the simulator after your flight, loading back in at a later time with the same livery and associated registration 
 will use the same amount of fuel from your previous flight.
 
-These files are saved in our Work folder under `AircraftStates` alongside other files we store. The work folder can be found using this guide - [here](../support/index.
-md#work-folder).
+These files are saved in our Work folder under `AircraftStates` alongside other files we store. The work folder can be found using this guide - [here](../support/index.md).
 
 !!! tip ""
     Reminder: This file is created/updated **ONLY** on the ground and with at least an engine off.
