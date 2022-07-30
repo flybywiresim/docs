@@ -9,7 +9,7 @@ The Terrain Awareness and Warning Systems (TAWS) is a system used to alert the f
 !!! warning "Note"
     SimBridge *must* be [running](autostart.md) in order for the Terrain Display to function
 
-# Terrain Database
+## Terrain Database
 The aforementioned database has a worldwide coverage and is defined accoreding to a standardized Earth Model, dividing the surface into grid sets. Several optimizations have been made to the database to deal with size constraints within the aircraft.
 
 - En-route

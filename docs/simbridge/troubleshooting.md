@@ -1,4 +1,5 @@
 # Troubleshooting
+
 ## Main Window
 By default SimBridge's main window starts hidden to the systems tray, to view it select `Show/Hide` on the systems tray icon.
 ![main window](assets/simbridge/simbridge_window.png){loading=lazy}
