@@ -12,8 +12,6 @@ Please follow the information on this page to install the FlyByWire SimBridge to
 
 When you attempt to install an addon or different addon version (for example, switching from Development to Experimental) you will be prompted to install SimBridge
 
-
-
 ![SimBridge install prompt](assets/simbridge/installer_prompt.png "Prompt to install SimBridge when installing an addon that requires it"){loading=lazy}
 
 Select `Yes` to install SimBridge along with your chosen addon/version.
@@ -83,8 +81,6 @@ It is located in:
 ### Troubleshooting
 
 See [find the community folder](../fbw-a32nx/installation.md#Troubleshooting)
-
-
 
 ## Resources Folder
 The resources folder is used for storing various files required by SimBridge to provide it's functionality. 
