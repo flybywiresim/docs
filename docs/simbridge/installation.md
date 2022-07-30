@@ -18,7 +18,7 @@ When you attempt to install an addon or different addon version (for example, sw
 
 Select `Yes` to install SimBridge along with your chosen addon/version.
 
-#### Seperate Install
+#### Separate Install
 
 If you select `No` in the [Addon Install](#addon-install) or would like to separately install SimBridge, then you can install SimBridge by selecting the SimBridge tab.
 
