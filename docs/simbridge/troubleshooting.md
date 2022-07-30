@@ -129,3 +129,9 @@ The log file is stored in a file in this folder, formatted by date:
 <YOUR_COMMUNITY_FOLDER>\flybywire-externaltools-simbridge\resources\logs
 ```
 Please send us the latest logfile to the support channel on discord or on github issues if you're facing issues using the SimBridge's features.
+
+## Installation and Upgrade
+
+Sometimes the installation or the upgrade of Simbridge will fail with an Error during the [Installation](installation.md). This happens when Simbridge is still running in the background, even though the Installer indicates it isn't.
+
+Use the Windows Task Manager to stop the Simbridge process as described in the [Stopping Simbridge](autostart.md#stopping-simbridge) documentation and then run the installation or upgrade again.
