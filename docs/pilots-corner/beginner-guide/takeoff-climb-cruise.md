@@ -379,7 +379,7 @@ Typically, the climb to the flight plan's cruise level (e.g., FL210) happens in 
     See also [Protections](../advanced-guides/protections/overview.md).
 
 **Passing 10,000ft**<br/>
-Turn off landing lights and when the aircraft is stable (weather, no turn, etc.) you can turn off the seatbelt signs. The aircraft will now accelerate to CLB speed (defined in `MCDU PERF CLB` page).
+Turn off and retract the landing lights and when the aircraft is stable (weather, no turn, etc.) you can turn off the seatbelt signs. The aircraft will now accelerate to CLB speed (defined in `MCDU PERF CLB` page).
 
 **Repeat the climb process above until cruise level (e.g. FL240) is reached.**
 
