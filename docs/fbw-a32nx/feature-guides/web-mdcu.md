@@ -2,6 +2,17 @@
 
 <link rel="stylesheet" href="/../../stylesheets/web-mcdu.css">
 
+!!! danger "STOP"
+    This documentation is applicable for **STABLE** and **DEVELOPMENT** versions only. If you are on Experimental please refer to our SimBridge Documentation instead.
+
+    ---
+
+    **Experimental Version**
+
+    [SimBridge Guides](../../../simbridge){.md-button}
+    
+    [Remote MDCU (Updated Version of this Page)](../../simbridge/remote-displays/remote-mcdu.md){.md-button} 
+
 ## Overview
 
 The MCDU Web Interface allows you to display and control the MCDU on a browser including browsers on mobile devices like phones or tablets.
