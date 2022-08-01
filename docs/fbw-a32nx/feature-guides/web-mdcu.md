@@ -9,7 +9,7 @@ The MCDU Web Interface allows you to display and control the MCDU on a browser i
 See list of compatible and tested browsers: [Compatible Browsers](#compatible-browsers)
 
 !!! note "MCDU Web Interface"
-![Web MCDU Interface](../assets/mcdu-server/web-mcdu-ipad.webp "Web MCDU Interface"){loading=lazy}
+    ![Web MCDU Interface](../assets/mcdu-server/web-mcdu-ipad.webp "Web MCDU Interface"){loading=lazy}
 
 It also allows you to use your real printer as a cockpit printer for the MCDU.
 
@@ -28,7 +28,7 @@ To do this locate the `flybywire-aircraft-a320-neo` folder in your MSFS Communit
 Double-click on the `server.exe` file to start the MCDU Server.
 
 !!! tip "You can also use the command prompt to start the server manually"
-See advanced startup options below: [Advanced Start Options](#advanced-start-options)
+    See advanced startup options below: [Advanced Start Options](#advanced-start-options)
 
 Once started the MCDU Server application will ask if you want to use your real printer instead of the virtual printer in the cockpit.
 
@@ -83,8 +83,8 @@ by allowing incoming network connections to the server through your Windows Fire
 The MCDU Server command window tries to detect your IP address. Use the `http://xxx.xxx.xxx.xxx:8125` address and enter it into your browser on the remote device.
 
 ??? note "Unknown IP Address (click to expand)"
-Sometimes the MCDU Server is not able to detect your IP address.
-To find your correct IP address follow this guide: [How to Find Your IP Address on Windows 11](https://www.howtogeek.com/744082/how-to-find-your-ip-address-on-windows-11/){target=new}
+    Sometimes the MCDU Server is not able to detect your IP address.
+    To find your correct IP address follow this guide: [How to Find Your IP Address on Windows 11](https://www.howtogeek.com/744082/how-to-find-your-ip-address-on-windows-11/){target=new}
 
     The port is set to 8125 per default and can be changed be command line options (see [Advanced Start Options](#advanced-start-options)) .
 
@@ -215,7 +215,7 @@ Options:
     - ~~We recommend to **only** change this if absolutely required (e.g. port is already occupied). See [Websocket Port](#websocket-port) for details.~~
 
 ??? info "Supported Paper Sizes (click to expand)"
-Based on this list: [PDFKIT Paper Sizes](https://pdfkit.org/docs/paper_sizes.html){target=new}
+    Based on this list: [PDFKIT Paper Sizes](https://pdfkit.org/docs/paper_sizes.html){target=new}
 
     - A-series: A0 ... A10
     - B-series: B0 ... B10
@@ -261,7 +261,7 @@ Your device should typically also have an IP address starting with `192.168.1.x`
 You can check this in the device's network configuration.
 
 ??? tip "Examples for Device Network Information (click to expand)"
-**iPad:**
+    **iPad:**
 
     ![iPad Network Info](../assets/mcdu-server/ipad-network-info.png "iPad Network Info"){loading=lazy}
 
@@ -274,7 +274,7 @@ If you still can't connect to the MCDU server your firewall might block the traf
 ### Firewall Configuration
 
 !!! danger "Disclaimer"
-Changing Windows settings, especially security settings like the firewall comes with certain risks. Please do not change these settings if you are not comfortable doing so. FlyByWire Simulations cannot take any responsibility for any issues caused by your changes to Windows or security settings.
+    Changing Windows settings, especially security settings like the firewall comes with certain risks. Please do not change these settings if you are not comfortable doing so. FlyByWire Simulations cannot take any responsibility for any issues caused by your changes to Windows or security settings.
 
 If you can't reach your MCDU server from your browser on your device or on your local PC then it is very likely that your PC firewall is blocking this network traffic.
 
@@ -423,7 +423,7 @@ Add the following section before the `</SimBase.Document>` tag and change the `Y
 Now every time Microsoft Flight Simulator starts it will also start the MCDU Server.
 
 !!! warning ""
-Unfortunately MSFS does not stop the automatically stated applications after shutting down and you need to close the MCDU Server window manually.
+    Unfortunately MSFS does not stop the automatically stated applications after shutting down and you need to close the MCDU Server window manually.
 
     If you do not do this there will be an error message the next time you start MSFS or the MCDU Server as it is already running.
 
@@ -442,20 +442,20 @@ For this to work the browser must be able to reach the MCDU Server via the two T
 ## Troubleshooting
 
 ??? warning "No MCDU SERVER Folder"
-The MCDU Server is only available in the Development Version.
+    The MCDU Server is only available in the Development Version.
 
 ??? warning "MCDU Server Error: Port 8125 is already in use"
-The http port 8125 is already in use.
+    The http port 8125 is already in use.
 
     Solution: [Webserver Port is Occupied](#webserver-port-is-occupied)
 
 ??? warning "MCDU Server Error: Port 8380 is already in use"
-The web socket port 8380 is already in use.
+    The web socket port 8380 is already in use.
 
     Solution: [Websocket Port is Occupied](#websocket-port-is-occupied)
 
 ??? warning "MCDU Server: `Waiting for Simulator...` Although Flight is Started"
-The MCDU Server continues to show `Waiting for simulator ...` although the flight is started and aircraft is loaded.
+    The MCDU Server continues to show `Waiting for simulator ...` although the flight is started and aircraft is loaded.
 
     Two known causes:
     
@@ -493,7 +493,7 @@ The MCDU Server continues to show `Waiting for simulator ...` although the fligh
     - Click OK and restart your computer.
 
 ??? warning "Browser Can't Connect to MCDU Web Interface"
-You browser can't connect to the MCDU Web Interface and times out eventually.
+    Your browser can't connect to the MCDU Web Interface and times out eventually.
 
     Cause: This is most likely a network or firewall issue.
 
@@ -503,7 +503,7 @@ You browser can't connect to the MCDU Web Interface and times out eventually.
     - [Firewall Configuration](#firewall-configuration)
 
 ??? warning "Browser Shows MCDU Web Interface but Display Remains Black"
-You browser can't connect to the MCDU Web Socket port.
+    Your browser can't connect to the MCDU Web Socket port.
 
     Cause: This is most likely a network or firewall issue.
 
@@ -517,7 +517,7 @@ You browser can't connect to the MCDU Web Socket port.
     Solution: Power up the aircraft.
 
 ??? warning "Browser Shows MCDU Web Interface only partly or garbled"
-Your browser can connect to the server but does not show the MCDU Web Interface correctly or not at all.
+    Your browser can connect to the server but does not show the MCDU Web Interface correctly or not at all.
 
     Cause: This is most likely an incompatible browser.
 
@@ -527,7 +527,7 @@ Your browser can connect to the server but does not show the MCDU Web Interface 
     - See tested browsers: [Compatible Browsers](#compatible-browsers)
 
 ??? warning "Printout format incorrect / receipt printer"
-The default format the printer uses is paper size A4 and font size 19.
+    The default format the printer uses is paper size A4 and font size 19.
 
     For some printer especially receipt printer a different paper size and font size must be used to make the output look good.
 
