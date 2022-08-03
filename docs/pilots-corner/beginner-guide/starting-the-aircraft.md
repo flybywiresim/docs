@@ -39,7 +39,7 @@ We begin by looking down at the [**bottom pedestal**](../a32nx-briefing/flight-d
 - [Weather Radar](../a32nx-briefing/flight-deck/pedestal/radar.md) is switched off
 - [Engine Masters 1 and 2](../a32nx-briefing/flight-deck/pedestal/engine.md) are in the `OFF` position
 - [Engine Mode](../a32nx-briefing/flight-deck/pedestal/engine.md) selector is set to `NORM`
-- [Thrust Levers](../a32nx-briefing/flight-deck/pedestal/thrust-elev-trim.md) are idle
+- [Thrust Levers](../a32nx-briefing/flight-deck/pedestal/thrust-pitch-trim.md) are idle
 
 We then direct our attention to the **main panel** and make sure the following is set:
 

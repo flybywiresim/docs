@@ -732,7 +732,7 @@ A32NX_ECAM_SD_CURRENT_PAGE_INDEX:
 
 ### Thrust Lever and Trim Wheel
 
-Flight Deck: [Thrust Lever Panel](flight-deck/pedestal/thrust-elev-trim.md)
+Flight Deck: [Thrust Lever Panel](flight-deck/pedestal/thrust-pitch-trim.md)
 
 | Function              | API Usage                   | Values        | Read/Write | Type             | Remark  |
 |:----------------------|:----------------------------|:--------------|:-----------|:-----------------|:--------|
