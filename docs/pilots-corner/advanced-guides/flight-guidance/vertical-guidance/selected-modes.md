@@ -117,10 +117,12 @@ When EXPEDITE is engaged, the system disregards speed constraints (SPD CSTR), al
 speed limits (SPD LIM).
 
 EXPEDITE can be engaged when
+
 ‐ the aircraft has been in flight for more than 5 s
 ‐ managed speed is available.
 
 It is engaged manually only when
+
 ‐ the FCU selected altitude is higher than present altitude, EXP CLB mode engages
 ‐ the FCU selected altitude is lower than present altitude, EXP DES mode engages
 

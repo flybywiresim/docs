@@ -20,6 +20,7 @@ takeoff temperature has been selected), if:
 - the aircraft has been on ground for at least 30 seconds
 
 The SRS mode disengages:
+
 - automatically, at the acceleration altitude (ACC ALT), or if ALT* or ALT CST* mode engages (above 400 ft RA)
 - if the flight crew engages another vertical mode
 - if the flight crew selects a speed while in SRS mode: SRS reverts to OP CLB mode, and a triple-click aural
@@ -55,7 +56,7 @@ The CLB mode can be armed under the following conditions:
 
 The CLB mode can be engaged when:
 
-‐ the aircraft has been in flight for more than 5 seconds
+- the aircraft has been in flight for more than 5 seconds
 - the altitude selected in the FCU is above the current altitude
 - not in descent, approach, or go-around phase
 - Lateral navigation (NAV) is engaged
@@ -130,7 +131,7 @@ Each descent can have the following segments:
     - If required, this ensures a specific rate of pressurization for the cabin during descent. It is calculated
       from the destination airport altitude and the selected cabin rate (default -350ft/min which can be modified)
 
-  !!! warning "Re-pressurization segments are not yet implemented in the A32NX"
+!!! warning "Re-pressurization segments are not yet implemented in the A32NX"
 
 If the aircraft levels off at an ALT CSTR, the DES mode arms and remains armed until the aircraft passes the
 constraint, then reengages (if the FCU altitude is set below the altitude of the constraint).
@@ -138,7 +139,7 @@ constraint, then reengages (if the FCU altitude is set below the altitude of the
 ### Engaging DES Mode
 The DES mode can be engaged when:
 
-- the altitude selected in the FCU os lower than the present altitude
+- the altitude selected in the FCU is lower than the present altitude
 - either NAV, LOC^*^, LOC are active
 - takeoff, climb or go-around phase are not active
 - vertical flight path is valid
@@ -170,7 +171,7 @@ acceptable speed variations around the nominal descent speed target.
 Associated with the VDEV displayed on PFD, the ND shows an intercept point (zigzag symbol) on the flight plan. It
 indicates the position where the system predicts that the aircraft will intercept the descent profile.
 
-See all symbols below: [Vertical Guidance Symbology](#vertical-guidance-symbology).
+See all symbols below: [Vertical Guidance Symbology](nd-symbols.md).
 
 ### Vertical Path Deviation
 If the aircraft is above the descent profile, the speed will increase toward the upper limit of the managed speed
@@ -196,7 +197,7 @@ speed in order to stay on it.
 ## Approach modes
 
 ### G/S, G/S*
-Glideslope capture (G/S^*^) and glideslope modes are used in precision approaches (ILS, MLS).
+Glideslope capture (G/S^*^) and glideslope (G/S) modes are used in precision approaches (ILS, MLS).
 
 ### FINAL / FINAL APP
 APP NAV and FINAL modes are use in non-precision approaches (VOR/DEM, VOR, NDB, RNAV).

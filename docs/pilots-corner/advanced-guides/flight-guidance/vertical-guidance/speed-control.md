@@ -3,6 +3,7 @@ In flight, either the AP/FD pitch control, or Autothrust may acquire and hold a 
 number, depending on the engaged modes.
 
 Speed control is:
+
 ‐ Managed when the target comes from the FMGS
 ‐ Selected when the target comes from the SPD/MACH FCU window.
 
@@ -32,6 +33,7 @@ mode can control a fixed thrust or a target SPD/MACH. However, the AP/FD and the
 both control a target SPD/MACH simultaneously.
 
 Therefore, the AP/FD pitch modes and A/THR mode are coordinated as follows:
+
 ‐ If an AP/FD pitch mode controls a vertical trajectory, the A/THR mode controls the target SPD/MACH.
 ‐ If an AP/FD pitch mode controls a target SPD or MACH, the A/THR mode controls the thrust.
 ‐ If no AP/FD pitch mode is engaged, the A/THR mode reverts to controlling the SPD/MACH mode.
