@@ -34,9 +34,9 @@ Flight Deck:  [ELEC Panel](flight-deck/ovhd/elec.md)
 | Function    | API Usage                                 | Values   | Read/Write | Type             | Remark                                     |
 |:------------|:------------------------------------------|:---------|:-----------|:-----------------|:-------------------------------------------|
 | BAT 1       | A32NX_OVHD_ELEC_BAT_1_PB_IS_AUTO          | 0&#124;1 | R/W        | Custom LVAR      |                                            |
-|             | A32NX_OVHD_ELEC_BAT_1_PB_IS_FAULT         | 0&#124;1 | R/W        | Custom LVAR      |                                            |
+|             | A32NX_OVHD_ELEC_BAT_1_PB_HAS_FAULT        | 0&#124;1 | R/W        | Custom LVAR      |                                            |
 | BAT 2       | A32NX_OVHD_ELEC_BAT_2_PB_IS_AUTO          | 0&#124;1 | R/W        | Custom LVAR      |                                            |
-|             | A32NX_OVHD_ELEC_BAT_2_PB_IS_FAULT         | 0&#124;1 | R/W        | Custom LVAR      |                                            |
+|             | A32NX_OVHD_ELEC_BAT_2_PB_HAS_FAULT        | 0&#124;1 | R/W        | Custom LVAR      |                                            |
 |             |                                           |          |            |                  |                                            |
 | EXT PWR     | TOGGLE_EXTERNAL_POWER                     | -        | -          | MSFS EVENT       |                                            |
 |             | EXTERNAL POWER AVAILABLE                  | 0&#124;1 | R          | MSFS VAR         |                                            |
