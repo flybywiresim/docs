@@ -121,7 +121,8 @@ hide:
     <a href="/pilots-corner/a32nx-briefing/flight-deck/pedestal/mcdu/"><div class="imagemap" style="position: absolute; left: 58.8%; top: 62.5%; width: 12.3%; height: 9.9%;"><span class="imagemapname">MCDU F.O.</span></div></a>
     <a href="/pilots-corner/a32nx-briefing/flight-deck/pedestal/rmp/"><div class="imagemap" style="position: absolute; left: 28.9%; top: 72.4%; width: 12.3%; height: 7.7%;"><span class="imagemapname">RMP and Audio Control Capt.</span></div></a>
     <a href="/pilots-corner/a32nx-briefing/flight-deck/pedestal/rmp/"><div class="imagemap" style="position: absolute; left: 58.8%; top: 72.4%; width: 12.3%; height: 7.7%;"><span class="imagemapname">RMP and Audio Control F.O.</span></div></a>
-    <a href="/pilots-corner/a32nx-briefing/flight-deck/pedestal/thrust-elev-trim/"><div class="imagemap" style="position: absolute; left: 41.2%; top: 70%; width: 17.6%; height: 11.7%;"><span class="imagemapname">Thrust Lever and Elevation Trim</span></div></a>
+    <a href="/pilots-corner/a32nx-briefing/flight-deck/pedestal/thrust-pitch-trim/"><div class="imagemap" style="position: absolute; left: 41.2%; top: 70%; width: 17.6%; 
+height: 11.7%;"><span class="imagemapname">Thrust Lever and Pitch Trim</span></div></a>
     <a href="/pilots-corner/a32nx-briefing/flight-deck/pedestal/engine/"><div class="imagemap" style="position: absolute; left: 45.5%; top: 81.7%; width: 8.9%; height: 3.3%;"><span class="imagemapname">Engine Panel</span></div></a>
     <a href="/pilots-corner/a32nx-briefing/flight-deck/pedestal/lighting-capt/"><div class="imagemap" style="position: absolute; left: 28.9%; top: 80.1%; width: 12.3%; height: 2.2%;"><span class="imagemapname">Lighting Capt.</span></div></a>
     <a href="/pilots-corner/a32nx-briefing/flight-deck/pedestal/radar/"><div class="imagemap" style="position: absolute; left: 28.9%; top: 82.3%; width: 12.3%; height: 2.8%;"><span class="imagemapname">Radar Panel</span></div></a>
