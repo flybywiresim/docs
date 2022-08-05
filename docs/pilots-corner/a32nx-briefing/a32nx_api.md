@@ -113,9 +113,9 @@ Flight Deck:  [EXT LT Panel](flight-deck/ovhd/ext-lt.md)
 |              | LANDING_LIGHTS_TOGGLE | 0..3     | -          | SIMCONNECT EVENT | 0=all, 1=NOSE, 2=L, 3=R                                            |
 |              | CIRCUIT SWITCH ON:18  | 0&#124;1 | R/W        | MSFS VAR         | Left landing light                                                 |
 |              | CIRCUIT SWITCH ON:19  | 0&#124;1 | R/W        | MSFS VAR         | Right landing light                                                |
-|              | LIGHT_LANDING_1       | 0&#124;1 | R/W        | Custom LVAR      | Switch position of the NOSE switch: 2=OFF, 1=TAXI, 0=T.O.          |
-|              | LIGHT_LANDING_2       | 0&#124;1 | R/W        | Custom LVAR      | Switch position of the left landing light: 2=RETRACT, 1=OFF, 2=ON  |
-|              | LIGHT_LANDING_3       | 0&#124;1 | R/W        | Custom LVAR      | Switch position of the right landing light: 2=RETRACT, 1=OFF, 2=ON |
+|              | LIGHTING_LANDING_1    | 0&#124;1 | R/W        | Custom LVAR      | Switch position of the NOSE switch: 2=OFF, 1=TAXI, 0=T.O.          |
+|              | LIGHTING_LANDING_2    | 0&#124;1 | R/W        | Custom LVAR      | Switch position of the left landing light: 2=RETRACT, 1=OFF, 2=ON  |
+|              | LIGHTING_LANDING_3    | 0&#124;1 | R/W        | Custom LVAR      | Switch position of the right landing light: 2=RETRACT, 1=OFF, 2=ON |
 |              | LANDING_1_RETRACTED   | 0&#124;1 | R/W        | Custom LVAR      | No function - NOSE light can't be retracted                        |
 |              | LANDING_2_RETRACTED   | 0&#124;1 | R/W        | Custom LVAR      | Retraction of left landing light: 0=extended, 1=retracted          |
 |              | LANDING_3_RETRACTED   | 0&#124;1 | R/W        | Custom LVAR      | Retraction of right landing light 0=extended, 1=retracted          |
