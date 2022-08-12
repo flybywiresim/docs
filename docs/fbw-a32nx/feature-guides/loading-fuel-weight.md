@@ -4,7 +4,6 @@
 
 This section provides information on the A32NX weights configuration and insight on how to utilize and reference onboard/sim features to configure the aircraft appropriately for departure.
 
-<!-- Saving this section for any future changes
 {==
 
 There are differences when using our Stable version vs. Development version.<br/>
@@ -13,8 +12,8 @@ Please select the correct version below.
 ==}
 
 [Development Version](#development-version){ .md-button }
-[Stable Version](#stable-version){ .md-button }
--->
+[Stable Version](#legacy-instructions-stable-version){ .md-button }
+
 
 ---
 
@@ -283,12 +282,13 @@ the import button in the Payload UI.
 
     **Cargo Sliders**
 
-    [placeholder image here]
+    ![cargo sliders](../assets/feature-guides/simbrief/wb-sliders.png){loading=lazy}
 
     You can also interact with the sliders above the wireframe aircraft to fill the cargo bays. While this may be not as accurate it does allow modification of the physical 
     distribution of the cargo in the aicraft. The actual numerical weight of the cargo planned will update automatically.
 
-    Each slider represents one baggage compartment. The rear has bulkhead and loose item storage.
+    - Each slider represents one baggage compartment. The rear has bulkhead and loose item storage.
+    - The white arrows in the image above indicate how much cargo to fill into each respective hold.
 
     ---
 
