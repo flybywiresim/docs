@@ -392,7 +392,9 @@ For this flight we will be taking off with a `1+F` flaps configuration.
     While not *realistic or accurate*, you can insert a THS value based on the ZFWCG values found in the following areas in the MCDU:
 
     - Auto populated when entering information in the [INIT FUEL PRED](#init-fuel-pred) page
-    - ZFWCG value on the [W&B page](../../fbw-a32nx/feature-guides/loading-fuel-weight.md#load-ofp-payload-info) in the AOC Menu.
+    - **Stable**: ZFWCG value on the [W&B page](../../fbw-a32nx/feature-guides/loading-fuel-weight.md#load-ofp-payload-info) in the AOC Menu.
+    - **Development**: ZFWCG value on the EFB found on the [Payload Tab on the Grounds Services Page](../../fbw-a32nx/feature-guides/loading-fuel-weight.
+    md#finding-the-payload-screen).
 
     Make sure to update this value or set the correct trim once your engines have started.
 
