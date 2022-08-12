@@ -247,8 +247,8 @@ Once on this page you will be presented with the following:
 - Dynamic CG and payload chart - [Learn More Above](#aircraft-cg-envelopes).
 
 !!! tip "Minimum Landing Weight (MLDW)"
-    This will auto populate on the CG envelope chart once you complete the `INIT FUEL PRED` page on the MCDU. However, please note that this is placeholder logic since more 
-    accurate fuel prediction will require accurate fuel burn predictions which are currently not yet available.
+    This will auto-populate on the CG envelope chart once you complete the `INIT FUEL PRED` page on the MCDU. MLDW is represented by a 3rd dot on the chart in green. However, 
+    please note that this is placeholder logic since more accurate fuel prediction will require accurate fuel burn predictions which are currently not yet available.
 
 ##### Passengers and Cargo Configuration
 
