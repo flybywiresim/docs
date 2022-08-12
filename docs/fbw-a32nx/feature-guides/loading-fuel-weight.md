@@ -281,9 +281,22 @@ the import button in the Payload UI.
     !!! warning ""
         Please ensure you alter this value AFTER entering either your passenger or ZFW values.
 
+    **Cargo Sliders**
+
+    [placeholder image here]
+
+    You can also interact with the sliders above the wireframe aircraft to fill the cargo bays. While this may be not as accurate it does allow modification of the physical 
+    distribution of the cargo in the aicraft. The actual numerical weight of the cargo planned will update automatically.
+
+    Each slider represents one baggage compartment. The rear has bulkhead and loose item storage.
+
+    ---
+
     **Custom Passenger Allocation**
 
     You can also interact with the A32NX model to assign passenger seats and influence the layout of your passengers on board.
+
+    ---
 
     **ZFW MAC %/CG**
 
