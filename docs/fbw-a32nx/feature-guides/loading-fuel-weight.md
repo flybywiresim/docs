@@ -14,7 +14,6 @@ Please select the correct version below.
 [Development Version](#development-version){ .md-button }
 [Stable Version](#legacy-instructions-stable-version){ .md-button }
 
-
 ---
 
 ??? info "General Fuel and Weight Information (Click to expand)"
