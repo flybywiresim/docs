@@ -66,6 +66,15 @@ Please select the correct version below.
 
     For a smaller aircraft as the A320neo, most operators would favor an aft CG loading for fuel consumption benefits when considering the lifetime of the a fleet and how easy the benefits can be obtained.
 
+??? info "Aircraft CG Envelopes (Click to Expand)"
+    ## Aircraft CG Envelopes
+
+    Our dynamic CG and payload chart provides the relevant visual information during the planning and execution of passenger/cargo loading. Fully understanding how the 
+    longitudinal CG envelope affects the aircraft is a rather long winding concept. Below is a great primer on understanding the chart and what the information provided indicates.
+
+    <iframe src="https://vdocuments.net/embed/v1/aircraft-cg-envelopes.html" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;
+    margin-bottom:5px;max-width: 100%; overflow: hidden; width: 100%; height: 600px;" allowfullscreen></iframe>`
+
 ---
 
 ## A32NX Configuration
@@ -82,7 +91,8 @@ Make sure you have our latest [simBrief Profile](../installation.md#simbrief-air
     --}
 
     - Fuel: Now done via the [EFB](flypados3/dispatch.md#fuel-page).
-    - Payload: Done through the [W&B in the MCDU](#weights-and-balance)
+    - Payload (Dev+Exp): Done through the Payload tab on the EFB. See [Weights and Balance](#weights-and-balance)
+    - Payload (Stable): Done through the [W&B in the MCDU](#legacy-instructions-stable-version)
 
 ### Weights
 - OEW (Empty Weight): 42500 kg / 93697 lbs
@@ -173,10 +183,15 @@ Change the default weights as required and make sure you select Save Aircraft at
 !!! danger "MSFS Fuel & Weights window in the toolbar"
     We have blocked the UI elements in the MSFS fuel and weights window. However, the sliders in the MSFS window are movable but in a matter of 1-3 seconds the fuel and payload levels should return to the initial value.
 
+    {--
+
     **PLEASE NOTE** we have changed fuel and payload loading.
 
+    --}
+
     - Fuel: Now done via the [EFB](flypados3/dispatch.md#fuel-page).
-    - Payload: Done through the [W&B in the MCDU](#weights-and-balance)
+    - Payload (Dev+Exp): Done through the Payload tab on the EFB. See [Weights and Balance](#weights-and-balance)
+    - Payload (Stable): Done through the [W&B in the MCDU](#legacy-instructions-stable-version)
 
 ### Fuel
 
@@ -229,7 +244,11 @@ Once on this page you will be presented with the following:
 - Entry fields to configure PAX and Cargo
 - Per passenger weight and baggage weight entry
 - Boarding time settings
-- Dynamic CG and payload chart
+- Dynamic CG and payload chart - [Learn More Above](#aircraft-cg-envelopes).
+
+!!! tip "Minimum Landing Weight (MLDW)"
+    This will auto populate on the CG envelope chart once you complete the `INIT FUEL PRED` page on the MCDU. However, please note that this is placeholder logic since more 
+    accurate fuel prediction will require accurate fuel burn predictions which are currently not yet available.
 
 ##### Passengers and Cargo Configuration
 
@@ -265,6 +284,11 @@ the import button in the Payload UI.
     **Custom Passenger Allocation**
 
     You can also interact with the A32NX model to assign passenger seats and influence the layout of your passengers on board.
+
+    **ZFW MAC %/CG**
+
+    For now this calculation is the same as the normal CG but we don't account for fuel. We will extend this feature at a later time. For more information please see the 
+    [Center of Gravity](#center-of-gravity) section above.
 
 ##### Boarding Passengers
 
