@@ -863,8 +863,8 @@ Flight Deck: [Speed Brake Panel](flight-deck/pedestal/flaps.md)
 |            | FLAPS_2                    | -        | -          | SIMCONNECT EVENT |                               |
 |            | FLAPS_3                    | -        | -          | SIMCONNECT EVENT |                               |
 |            | FLAPS_DOWN                 | -        | -          | SIMCONNECT EVENT |                               |
-|            | FLAPS_INC                  | -        | -          | SIMCONNECT EVENT |                               |
-|            | FLAPS_DEC                  | -        | -          | SIMCONNECT EVENT |                               |
+|            | FLAPS_INCR                 | -        | -          | SIMCONNECT EVENT |                               |
+|            | FLAPS_DECR                 | -        | -          | SIMCONNECT EVENT |                               |
 |            |                            |          |            |                  |                               |
 |            | A32NX_FLAPS_HANDLE_INDEX   | 0..4     | R          | Custom LVAR      | 0=UP, 4=FULL                  |
 |            | A32NX_FLAPS_HANDLE_PERCENT | 0.0..1.0 | R          | Custom LVAR      | 0.0=UP, 1.0=FULL (0.25 steps) |
