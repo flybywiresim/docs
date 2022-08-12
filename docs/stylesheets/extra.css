@@ -40,7 +40,13 @@
   font-weight: bold;
 }
 .md-typeset h5 {
-  color: hsl(0, 0%, 100%);
+  text-transform: capitalize;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+.md-typeset h6 {
+  text-transform: capitalize;
+  color: #FFFFFF;
 }
 .md-ellipsis {
   font-family: var(--header-font), sans-serif;
