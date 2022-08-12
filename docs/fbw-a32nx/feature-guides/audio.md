@@ -22,7 +22,11 @@ If this setting is enabled the following ambience sounds are played:
 
 - Boarding sound begins when the W/B in `MCDU-ATSU-AOC-W&B` boarding is started.
 - Once passengers are on the plane, a constant passenger ambience background sound plays.
-- Deboarding through the W/B section in `MCDU-ATSU-AO-W&B` triggers the deboarding sound.
+- Deboarding sounds are triggered differently depending on the version of aircraft.
+    - Stable: W/B section in `MCDU-ATSU-AO-W&B` triggers the deboarding sound.
+    - Development: Payload tab on the Ground Services page on the EFB triggers the deboarding sound.
+
+[//]: # (- Deboarding through the W/B section in `MCDU-ATSU-AO-W&B` triggers the deboarding sound. // Removed until feature is the same on all versions)
 
 ### Announcements
 
