@@ -424,8 +424,8 @@ Flight Deck: [EFIS Control Panel](flight-deck/glareshield/efis_control.md)
 | FD           | AUTOPILOT FLIGHT DIRECTOR ACTIVE | 0&#124;1         | R          | SIMCONNECT VAR   |                                                   |
 |              | TOGGLE_FLIGHT_DIRECTOR           | -                | -          | SIMCONNECT EVENT |                                                   |
 |              |                                  |                  |            |                  |                                                   |
-| LS Capt.     | BTN_LS_1_FILTER_ACTIVE           | 0&#124;1         | R          | Custom LVAR      |                                                   |
-| LS F.O.      | BTN_LS_2_FILTER_ACTIVE           | 0&#124;1         | R          | Custom LVAR      |                                                   |
+| LS Capt.     | BTN_LS_1_FILTER_ACTIVE           | 0&#124;1         | R/W        | Custom LVAR      |                                                   |
+| LS F.O.      | BTN_LS_2_FILTER_ACTIVE           | 0&#124;1         | R/W        | Custom LVAR      |                                                   |
 |              |                                  |                  |            |                  |                                                   |
 | ND Filter    | A32NX_EFIS_L_OPTION              | 0..5             | R/W        | Custom LVAR      | 0=none, 1=CSTR, 2=VOR, 3=WPT, 4=NDB, 5=ARPT       |
 |              | A32NX_EFIS_R_OPTION              | 0..5             | R/W        | Custom LVAR      | 0=none, 1=CSTR, 2=VOR, 3=WPT, 4=NDB, 5=ARPT       |
