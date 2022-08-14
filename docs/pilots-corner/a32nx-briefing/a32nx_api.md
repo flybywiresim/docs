@@ -824,19 +824,19 @@ Flight Deck: [ATC-TCAS Panel](flight-deck/pedestal/atc-tcas.md)
 
 Flight Deck: [ENG Panel](flight-deck/pedestal/engine.md)
 
-| Function       | API Usage                    | Values     | Read/Write | Type       | Remark                 |
-|:---------------|:-----------------------------|:-----------|:-----------|:-----------|:-----------------------|
-| ENG 1+2 MASTER | FUELSYSTEM_VALVE_OPEN        | 1 &#124; 2 | -          | MSFS EVENT | Activates the switch   |
-|                | FUELSYSTEM_VALVE_CLOSE       | 1 &#124; 2 | -          | MSFS EVENT | Deactivates the switch |
-|                | FUELSYSTEM VALVE SWITCH:1    | 0&#124;1   | R          | MSFS VAR   |                        |
-|                | FUELSYSTEM VALVE SWITCH:2    | 0&#124;1   | R          | MSFS VAR   |                        |
-|                |                              |            |            |            |                        |
-| MODE           | TURBINE_IGNITION_SWITCH_SET1 | 0..2       | -          | MSFS EVENT | 0=CRANK, 1=NORM, 2=IGN |
-|                | TURBINE_IGNITION_SWITCH_SET2 | 0..2       | -          | MSFS EVENT | 0=CRANK, 1=NORM, 2=IGN |
-|                | TURB ENG IGNITION SWITCH EX1 | 0..2       | R/W        | MSFS VAR   | 0=CRANK, 1=NORM, 2=IGN |
-|                | TURB ENG IGNITION SWITCH EX2 | 0..2       | R/W        | MSFS VAR   | 0=CRANK, 1=NORM, 2=IGN |
-|                |                              |            |            |            |                        |
-| FIRE 1 + 2     | N/A                          |            |            |            |                        |
+| Function       | API Usage                      | Values     | Read/Write | Type       | Remark                 |
+|:---------------|:-------------------------------|:-----------|:-----------|:-----------|:-----------------------|
+| ENG 1+2 MASTER | FUELSYSTEM_VALVE_OPEN          | 1 &#124; 2 | -          | MSFS EVENT | Activates the switch   |
+|                | FUELSYSTEM_VALVE_CLOSE         | 1 &#124; 2 | -          | MSFS EVENT | Deactivates the switch |
+|                | FUELSYSTEM VALVE SWITCH:1      | 0&#124;1   | R          | MSFS VAR   |                        |
+|                | FUELSYSTEM VALVE SWITCH:2      | 0&#124;1   | R          | MSFS VAR   |                        |
+|                |                                |            |            |            |                        |
+| MODE           | TURBINE_IGNITION_SWITCH_SET1   | 0..2       | -          | MSFS EVENT | 0=CRANK, 1=NORM, 2=IGN |
+|                | TURBINE_IGNITION_SWITCH_SET2   | 0..2       | -          | MSFS EVENT | 0=CRANK, 1=NORM, 2=IGN |
+|                | TURB ENG IGNITION SWITCH EX1:1 | 0..2       | R/W        | MSFS VAR   | 0=CRANK, 1=NORM, 2=IGN |
+|                | TURB ENG IGNITION SWITCH EX1:2 | 0..2       | R/W        | MSFS VAR   | 0=CRANK, 1=NORM, 2=IGN |
+|                |                                |            |            |            |                        |
+| FIRE 1 + 2     | N/A                            |            |            |            |                        |
 
 ### Speed Brake
 
