@@ -44,6 +44,7 @@ These are weather reports created by an on-airport weather station and tend to b
         -TSRA = Light Thunderstorms and Rain  
         +SHSN = Heavy Showers of Snow
         VCFC = Vicinity Funnel Cloud
+        RESHRA = Recent Showers of Rain
         ```
 
         | First is Intensity | Second is Description | Third is the Weather |
@@ -52,7 +53,7 @@ These are weather reports created by an on-airport weather station and tend to b
         | Moderate \( \) | Blowing (**BL**) | Dust Storm (**DS**) |
         | Heavy (+) | Drifting (**DR**) | Dust (**DU**) |
         | Vicinity (**VC**) | Freezing (**FZ**) | Drizzle (**DZ**) |
-        | | Shallow (**MI**) | Funnel Cloud (**FC**) |
+        | Recent (**RE**) | Shallow (**MI**) | Funnel Cloud (**FC**) |
         | | Partial (**PR**) | Fog (**FG**) |
         | | Showers (**SH**) | Smoke (**FU**) |
         | | Thunderstorm (**TS**) | Hail > 5mm (**GR**) |
