@@ -1,4 +1,4 @@
-Known issues with page:
+Known issues with page (REMOVE THIS):
 
 1. Table is too wide for page so it has a slider, need to get rid of slider
 2. ~~entry paterns are not discussed in depth, is this a issue? i (sven) dont think it belongs in this guide~~
@@ -15,14 +15,13 @@ Now the real page will start.
 
 !!! warning "Not available in the Stable Version"
 
-# Overview
+# Holds
 
 Holding patterns, as they are officially known, can be used as a delaying tactic for airborne aircraft. Typically holding patterns have a racetrack pattern that can easily be spotted on flight trackers. All holds are made up of segments. The segments are shown in the figure below. 
 
 ![DEFINITIONS](../../assets/advanced-guides/holds/Holddefinitions.png)
 
-
-### Why Hold?
+## Why Hold?
 Holds are always used to delay aircraft near a navigational fix in certain airspace. There are a lot of reasons airplanes might need to hold, where common examples would be:
 
 -Bad weather passing over the airport
@@ -32,9 +31,7 @@ Holds are always used to delay aircraft near a navigational fix in certain airsp
 
 Sometimes holds are used because of topographical constraints. Innsbruck-Kranebitten International Airport (LOWI) is an excellent example of such a constraint because it is situated in a valley, as seen in the picture below.
 
-
 ![LOWI](../../assets/advanced-guides/holds/LOWI.png)
-
 
 ## Identifying Holds
 
@@ -54,8 +51,6 @@ Now that you know where to hold, you should learn how to program the hold. Next,
 
 !!! tip "Standards"
     There are standards for length of legs and airspeeds that must be respected if no other information is present on the chart. The standards are published in [Hold Standards](#hold-standards).
-
-
  
  The inbound course/heading or the reciprocal of the hold is always depicted on the chart.
 
@@ -64,9 +59,6 @@ Now that you know where to hold, you should learn how to program the hold. Next,
 !!! info "Example charts to aquire hold information"
 
     === "1"
-
-        
-
 
         ![HOLD1](../../assets/advanced-guides/holds/HOLD1.png)
 
@@ -83,9 +75,6 @@ Now that you know where to hold, you should learn how to program the hold. Next,
         | Fix           | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
         | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
         | ARNUM         | 216°              |Right               | STD           | STD        |FL140  | FL100         |
-      
-
-        
 
     === "2"
 
@@ -93,17 +82,13 @@ Now that you know where to hold, you should learn how to program the hold. Next,
 
         ![HOLD2](../../assets/advanced-guides/holds/HOLD2.png)
 
-
         | Fix           | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
         | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
         | SUGOL         | 110°              |Right               | STD           | STD        |FL250  | FL70          |
         
     === "3"
 
-        
-
         ![HOLD3](../../assets/advanced-guides/holds/HOLD3.png)
-
 
         | Fix           | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
         | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
@@ -115,7 +100,6 @@ Now that you know where to hold, you should learn how to program the hold. Next,
 
         ![HOLD4](../../assets/advanced-guides/holds/HOLD4.png)
 
-
         | Fix           | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
         | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
         | DVN           | 053°              |Right               | STD           | 210KT      |-      | 2900FT        |
@@ -125,7 +109,6 @@ Now that you know where to hold, you should learn how to program the hold. Next,
         >**_NOTE:_**  Holds at BOTON and PANZE have a minimum hold altitude dictated by the minimum flight altitude of 6000FT of the earlier and following legs. 
 
         ![HOLD5](../../assets/advanced-guides/holds/HOLD5.png)
-
 
         | Fix           | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
         | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
@@ -137,18 +120,13 @@ Now that you know where to hold, you should learn how to program the hold. Next,
 
     === "6"
 
-        
-
         ![HOLD6](../../assets/advanced-guides/holds/HOLD6.png)
-
 
         | Fix           | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
         | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
         | SKENS         | 274°              |Right               | 10NM          | STD        |-      |13000FT        |
 
     === "7"
-
-        
 
         ![HOLD7](../../assets/advanced-guides/holds/HOLD7.png)
 
@@ -158,8 +136,6 @@ Now that you know where to hold, you should learn how to program the hold. Next,
 
     === "8"
 
-        
-
         ![HOLD8](../../assets/advanced-guides/holds/HOLD8.png)
 
         | Fix           | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
@@ -168,8 +144,6 @@ Now that you know where to hold, you should learn how to program the hold. Next,
         | BIG           | 302°              |Right               | STD           | STD        |FL150  | FL70          |
     
     === "9"
-
-        
 
         ![HOLD9](../../assets/advanced-guides/holds/HOLD9.png)
 
@@ -208,7 +182,6 @@ The FAA defines STD Max hold speed to be:
 
 The FAA defines the standard hold direction for non-published holds with **right-hand** turns.
 
-
 ## Programming Holds 
 Now that all information about the hold is known, it is time to create a hold in the FMS via the MCDU. A step by step guide to hold at SKENS is provided below.
 
@@ -223,8 +196,6 @@ Now that all information about the hold is known, it is time to create a hold in
         ![MCDU](../../assets/advanced-guides/holds/MCDU-hold-1.png)
 
         Find the waypoint in the F-PLN page on the MCDU. Select the corresponding line. In this case, the 3rd from the top, SKENS, and push the left line selector key (LSK) for SKENS.
-
-
     
     === "2"
 
@@ -240,14 +211,12 @@ Now that all information about the hold is known, it is time to create a hold in
         
         Computed means that this is information provided by the simulator. This information can be wrong and can be edited by overwriting the computed data. 
 
-
     === "4"
         ![MCDU](../../assets/advanced-guides/holds/MCDU-hold-4.png)
 
         As can be seen by the bigger symbols, the inbound course 274 is inserted in the FMS
         
         Note that the title has changed to HOLD, and a REVERT TO COMPUTED appeared.  REVERT TO COMPUTED will restore all hold settings and revert to the computed hold settings.
-
 
     === "5"
 
@@ -259,9 +228,6 @@ Now that all information about the hold is known, it is time to create a hold in
         If leg distance is constrained by time (as it is for a standard hold), this can be set by typing for example `1.5` in the MCDU and feeding it in the TIME/DIST box. Also, the leg distance will automatically be re-calculated.
 
         ![HOLD6](../../assets/advanced-guides/holds/HOLD6.png)
-
-    
-
 
     === "Last Exit"
 
@@ -294,7 +260,6 @@ Now that all information about the hold is known, it is time to create a hold in
 
         Also, the F-PLN page on the MCDU will continue to show IMM EXIT*. This is needed when [leaving the hold](#leaving-the-hold).
 
-
 ### Descending in the Hold
 Altitude changes are done with the vertical speed mode set at 1000 ft/min. This is to make sure all aircraft are spaced out enough to comply with spacing safety standards.
 
@@ -308,18 +273,15 @@ RESUME HOLD can be pressed to cancel the hold exit. The aircraft will now stay i
 
 ![Hold Modes](../../assets/advanced-guides/holds/MCDU-hold-14.png)
 
-# Video Tutorial by 320 Sim Pilot
+## Video Tutorial by 320 Sim Pilot
 
 <iframe width="826" height="465" src="https://www.youtube.com/embed/NYlSICln1So" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Hold Examples
+## Hold Examples
 
-!!! info "Example charts to aquire hold information"
+!!! info "Example charts to acquire hold information"
 
     === "1"
-
-        
-
 
         ![HOLD1](../../assets/advanced-guides/holds/HOLD1.png)
 
@@ -336,9 +298,6 @@ RESUME HOLD can be pressed to cancel the hold exit. The aircraft will now stay i
         | Fix           | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
         | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
         | ARNUM         | 216°              |Right               | STD           | STD        |FL140  | FL100         |
-      
-
-        
 
     === "2"
 
@@ -346,17 +305,13 @@ RESUME HOLD can be pressed to cancel the hold exit. The aircraft will now stay i
 
         ![HOLD2](../../assets/advanced-guides/holds/HOLD2.png)
 
-
         | Fix           | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
         | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
         | SUGOL         | 110°              |Right               | STD           | STD        |FL250  | FL70          |
         
     === "3"
 
-        
-
         ![HOLD3](../../assets/advanced-guides/holds/HOLD3.png)
-
 
         | Fix           | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
         | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
@@ -368,7 +323,6 @@ RESUME HOLD can be pressed to cancel the hold exit. The aircraft will now stay i
 
         ![HOLD4](../../assets/advanced-guides/holds/HOLD4.png)
 
-
         | Fix           | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
         | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
         | DVN           | 053°              |Right               | STD           | 210KT      |-      | 2900FT        |
@@ -378,7 +332,6 @@ RESUME HOLD can be pressed to cancel the hold exit. The aircraft will now stay i
         >**_NOTE:_**  Holds at BOTON and PANZE have a minimum hold altitude dictated by the minimum flight altitude of 6000FT of the earlier and following legs. 
 
         ![HOLD5](../../assets/advanced-guides/holds/HOLD5.png)
-
 
         | Fix           | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
         | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
@@ -390,18 +343,13 @@ RESUME HOLD can be pressed to cancel the hold exit. The aircraft will now stay i
 
     === "6"
 
-        
-
         ![HOLD6](../../assets/advanced-guides/holds/HOLD6.png)
-
 
         | Fix           | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
         | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
         | SKENS         | 274°              |Right               | 10NM          | STD        |-      |13000FT        |
 
     === "7"
-
-        
 
         ![HOLD7](../../assets/advanced-guides/holds/HOLD7.png)
 
@@ -411,8 +359,6 @@ RESUME HOLD can be pressed to cancel the hold exit. The aircraft will now stay i
 
     === "8"
 
-        
-
         ![HOLD8](../../assets/advanced-guides/holds/HOLD8.png)
 
         | Fix           | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
@@ -421,8 +367,6 @@ RESUME HOLD can be pressed to cancel the hold exit. The aircraft will now stay i
         | BIG           | 302°              |Right               | STD           | STD        |FL150  | FL70          |
     
     === "9"
-
-        
 
         ![HOLD9](../../assets/advanced-guides/holds/HOLD9.png)
 
@@ -441,7 +385,6 @@ RESUME HOLD can be pressed to cancel the hold exit. The aircraft will now stay i
         |Fix            | Inbound course   |Turning direction   |Leg distance   |Max speed   |Max alt|Min Alt (MHA)  |
         | -----------   | -----------      |-----------         |  -----------  | --------   | ---   |-----          |
         | CRS           | 001°              |Left                |Until D34.0 CVO|STD|-   | FL120         |
-
 
 !!! tip "Standards"
     There are standards for length of legs and airspeeds that must be respected if no other information is present on the chart. The standards are published in [Hold Standards](#hold-standards).        
