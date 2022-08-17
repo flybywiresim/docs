@@ -152,7 +152,7 @@ the C* law, this is incorrect and will result in issues if no ADR is available.
 
     At this time please only report issues via our Discord channel threads:
 
-    [cFMS LNAV+VNAV Issue Reports [NO SUPPORT]](https://discord.com/channels/738864299392630914/926586416820011098){target=new .md-button}
+[//]: # (    [cFMS LNAV+VNAV Issue Reports [NO SUPPORT]]&#40;https://discord.com/channels/738864299392630914/926586416820011098&#41;{target=new .md-button})
 
     [flyPadOS3 Experimental - Issue Reports [NO SUPPORT]](https://discord.com/channels/738864299392630914/926586416820011098){target=new .md-button}
 
