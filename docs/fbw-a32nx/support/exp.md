@@ -15,6 +15,14 @@ Currently experimental is geared toward testing the initial version of VNAV with
 
 ## Implemented Features for Testing
 
+### Electronic Flight Control System (EFCS) 
+
+We are testing the initial flight control computers implementation. See [Pull Request #6913](https://github.com/flybywiresim/a32nx/pull/6913) on GitHub for a full description 
+of what is to be implemented and currently in testing.
+
+As a quick summary, the above PR will add the various EFCS computers to the A32NX to facilitate realistic data aquisition from the correct 
+sources (ADIRS, RAs, SFCCs, LGCIUs etc.) and compute their logics and laws from this data. Additionally, they will realistically communicate with each other via busses and discrete data.
+
 ### SimBridge
 
 The following are features in testing that require the use of SimBridge:
@@ -96,6 +104,15 @@ For features that are already available in the Development Version - see our gui
 ---
 
 ## Known Issues
+
+### EFCS
+
+- Improve direct and alternate law: Direct law is not scaled down based on Flaps/Slats configuration, thus can be very sensitive at high speeds, Alternate law still uses TAS for 
+the C* law, this is incorrect and will result in issues if no ADR is available.
+- V_stall warn AoAs need to be tuned, currently they are just the same as alpha_prot.
+- In some situations, AP might not be available in alternate law even though it should be. This is due to how the AP commands are currently executed, which requires the normal 
+  laws to be active (IRL this is different). Will take some time to fix this, not planned currently.
+- The electrical bus connections are not quite correct yet, the ELAC/SEC 2s have rather complex logic for power supply switching, which is not done yet.
 
 ### Pause at TOD Issues
 
