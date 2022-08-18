@@ -23,6 +23,9 @@ of what is to be implemented and currently in testing.
 As a quick summary, the above PR will add the various EFCS computers to the A32NX to facilitate realistic data aquisition from the correct 
 sources (ADIRS, RAs, SFCCs, LGCIUs etc.) and compute their logics and laws from this data. Additionally, they will realistically communicate with each other via busses and discrete data.
 
+!!! warning ""
+    ECAM warnings are not perfectly accurate since we are missing our custom FWS.
+
 ### SimBridge
 
 The following are features in testing that require the use of SimBridge:
