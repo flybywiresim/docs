@@ -1165,6 +1165,7 @@ TEMPLATE
 
     - ASOBO *Aviator/Beta Club* A320 liveries are incompatible with the A32NX add-on
     - Wipers don't function correctly with converted FSX Liveries
+    - LVFR A321neo Compatibility Mod
 
 ---
 ## A32NX Fixed Issues
