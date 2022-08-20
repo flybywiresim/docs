@@ -8,6 +8,14 @@
 
     *Most reported issues are caused by conflicts with other mods and liveries. If this does not resolve your issue please continue below.*
 
+    !!! warning ""
+        Outdated versions may cause the following major critical issues:
+
+        - Invisible Aircraft
+        - Infinite loading times
+
+        For information on how outdated versions may further affect your flight and how to resolve this issue see [Outdated Marketplace Version](#outdated-marketplace-version).
+
     **Throttle Calibration is Required** - [Guide Here](../feature-guides/flypados3/throttle-calibration.md)
 
     ---
@@ -68,6 +76,21 @@ TEMPLATE
 ^^Additional Information^^
 
 -->
+
+??? bug "LVFR A321neo Compatibility Mod"
+    ### LVFR A321neo Compatibility Mod
+
+    !!! tip ""
+        *Affected versions: Stable, Development*
+    
+    ^^Description^^
+
+    This compatibility mod is available on flightsim.to and may overwrite our systems / EFB resulting in outdated systems or missing features in our EFB when the mod is installed.
+
+    ^^Possible Solution or Workaround^^
+
+    - Uninstall the mod
+    - Use an addon linker to ensure the mod is only installed when you plan to use it.
 
 ??? bug "Your Controls Performance Issues"
     ### Your Controls Performance Issues
@@ -132,8 +155,8 @@ TEMPLATE
 
     Remove the offending 3rd party interior texture.
 
-??? bug "Invisible Aircraft"
-    ### Invisible Aircraft
+??? bug "Outdated Marketplace Version"
+    ### Outdated Marketplace Version
 
     !!! tip ""
         *Affected versions: Stable, Development*
@@ -147,6 +170,7 @@ TEMPLATE
     - `NOT IN DATABASE` MCDU error
     - External lights are not working
     - Invisible Aircraft
+    - Infinite loading times
 
     ^^Root Cause^^
 
@@ -1141,6 +1165,7 @@ TEMPLATE
 
     - ASOBO *Aviator/Beta Club* A320 liveries are incompatible with the A32NX add-on
     - Wipers don't function correctly with converted FSX Liveries
+    - LVFR A321neo Compatibility Mod
 
 ---
 ## A32NX Fixed Issues
