@@ -8,6 +8,14 @@
 
     *Most reported issues are caused by conflicts with other mods and liveries. If this does not resolve your issue please continue below.*
 
+    !!! warning ""
+        Outdated versions may cause the following major critical issues:
+
+        - Invisible Aircraft
+        - Infinite loading times
+
+        For information on how outdated versions may further affect your flight and how to resolve this issue see [Outdated Marketplace Version](#outdated-marketplace-version).
+
     **Throttle Calibration is Required** - [Guide Here](../feature-guides/flypados3/throttle-calibration.md)
 
     ---
@@ -132,8 +140,8 @@ TEMPLATE
 
     Remove the offending 3rd party interior texture.
 
-??? bug "Invisible Aircraft"
-    ### Invisible Aircraft
+??? bug "Outdated Marketplace Version"
+    ### Outdated Marketplace Version
 
     !!! tip ""
         *Affected versions: Stable, Development*
@@ -147,6 +155,7 @@ TEMPLATE
     - `NOT IN DATABASE` MCDU error
     - External lights are not working
     - Invisible Aircraft
+    - Infinite loading times
 
     ^^Root Cause^^
 
