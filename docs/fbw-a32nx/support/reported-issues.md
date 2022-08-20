@@ -77,6 +77,21 @@ TEMPLATE
 
 -->
 
+??? bug "LVFR A321neo Compatibility Mod"
+    ### LVFR A321neo Compatibility Mod
+
+    !!! tip ""
+        *Affected versions: Stable, Development*
+    
+    ^^Description^^
+
+    This compatibility mod is available on flightsim.to and may overwrite our systems / EFB resulting in outdated systems or missing features in our EFB when the mod is installed.
+
+    ^^Possible Solution or Workaround^^
+
+    - Uninstall the mod
+    - Use an addon linker to ensure the mod is only installed when you plan to use it.
+
 ??? bug "Your Controls Performance Issues"
     ### Your Controls Performance Issues
 
