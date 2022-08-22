@@ -12,5 +12,6 @@ This section of the FlyByWire Documentation is dedicated to the development aspe
 | :----                                       |
 | [Development Guide](dev-guide/index.md)     |
 | [Texture Changes](texture-changes.md)       |
+| [Scenery Developers](scenery-developers.md) |
 | [FlyByWire Projects](development-projects/) |
 
