@@ -150,7 +150,6 @@ Settings for simulation aspects of the A32NX aircraft.
 ## Realism
 
 Settings for realism aspects of the A32NX aircraft.
-
 <div style="position: relative;">
     <img src="/fbw-a32nx/assets/flypados3/flypad-settings-realism.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
@@ -192,7 +191,12 @@ Settings for realism aspects of the A32NX aircraft.
     - The timeout feature will automatically deactivate the focus of the MCDU screen after the given amount of seconds.
     - Valid range is 5 - 120 seconds.
     - Setting is only available if MCDU Keyboard Input is enabled.
-
+- Sync EFIS controls between Captain and FO (unrealistic)
+    - When enabled, the EFIS controls will be synchronized between the Captain and FO.
+    - This includes the Flight Director (FD), Landing System (LS) and Baro (STD, QNH and inHg/hPa) controls.
+    - Note: Baro is currently not separated between the Captain and FO and is always in synchronized independend of 
+      this setting. 
+  
 ## ATSU/AOC
 
 Settings for integrations with various data and information sources.
