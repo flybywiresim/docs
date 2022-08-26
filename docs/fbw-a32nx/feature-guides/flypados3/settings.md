@@ -194,7 +194,7 @@ Settings for realism aspects of the A32NX aircraft.
 - Sync EFIS controls between Captain and FO (unrealistic)
     - When enabled, the EFIS controls will be synchronized between the Captain and FO.
     - This includes the Flight Director (FD), Landing System (LS) and Baro (STD, QNH and inHg/hPa) controls.
-    - Note: Baro is currently not separated between the Captain and FO and is always in synchronized independend of 
+    - Note: Baro is currently not separated between the Captain and FO and is always synchronized independent of 
       this setting. 
   
 ## ATSU/AOC
