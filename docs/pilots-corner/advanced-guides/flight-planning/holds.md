@@ -1,32 +1,6 @@
-[//]: # (Known issues with page &#40;REMOVE THIS&#41;:)
-
-[//]: # ()
-[//]: # (1. Table is too wide for page so it has a slider, need to get rid of slider)
-
-[//]: # (2. ~~entry paterns are not discussed in depth, is this a issue? i &#40;sven&#41; dont think it belongs in this guide~~)
-
-[//]: # (3. Notes ,in the Example charts to aquire hold information, are a little faded ish. would like to make them bright white or some other more stand out color)
-
-[//]: # (4. Last exit is a little strangly positioned on the page now, i &#40;sven&#41; didnt quite know a better place unfortionatly)
-
-[//]: # (5. The [video of 320 Sim Pilot]&#40;#video-tutorial-by-320-sim-pilot&#41; is embedded in the page at the bottom, there is no supporting text or copywrite thing, what is desired here?)
-
-[//]: # (6. The rank of titles is a little odd, please advise if there is a more logical solution here)
-
-[//]: # (7. ~~A thorough spelling and grammar check has not yet been done by me~~)
-
-[//]: # (9. Images at [Leaving the hold]&#40;#leaving-the-hold&#41; do not have any subscript, I &#40;Sven&#41; think it might be good to add a little supportive text there)
-
-[//]: # (8. Images are not yet optimized and the images are made in Powerpoint, I &#40;Sven&#41; have the powerpoint file to make changes to the figures.  Plan is to optimize after content of figure is good. Would it be helpfull to place the powerpoint file in the assets/hold directory? please let me know what is desired here.)
-
-[//]: # (9. check behaviour when desending in the hold and green dot speed)
-
-[//]: # ()
-[//]: # (Now the real page will start. )
+# Holds
 
 !!! warning "Not available in the Stable Version"
-
-# Holds
 
 Holding patterns, as they are officially known, can be used as a delaying tactic for airborne aircraft. Typically holding patterns have a racetrack pattern that can easily be spotted on flight trackers. All holds are made up of segments. The segments are shown in the figure below. 
 
@@ -65,125 +39,9 @@ Now that you know where to hold, you should learn how to program the hold. Next,
  
  The inbound course/heading or the reciprocal of the hold is always depicted on the chart.
 
- Below you will find [example charts of different holds](#hold-examples) with red boxes placed where the information is located.  
-     
-## Hold Standards
+## Hold Examples    
 
-The FAA defines STD leg distance to be:
-
-| Altitude (MSL)    | Leg distance |
-|-------------------|--------------|
-| MHA - 14000FT     | 1 minute     |
-| 14001FT and above | 1.5 minutes  |
-
-The FAA defines STD Max hold speed to be:
-
-| Altitude (MSL)    | Airspeed (KIAS) |
-|-------------------|-----------------|
-| MHA - 6000FT      | 200             |
-| 6001FT - 14000FT  | 230             |
-| 14001FT and above | 265             |
-
-The FAA defines the standard hold direction for non-published holds with **right-hand** turns.
-
-## Programming Holds 
-Now that all information about the hold is known, it is time to create a hold in the FMS via the MCDU. A step by step guide to hold at SKENS is provided below.
-
-![HOLD6](../../assets/advanced-guides/holds/HOLD6.png){loading=lazy}
-
-### MCDU Setup
-
-!!! info "MCDU Setup"
-
-    === "1"
-
-        ![MCDU](../../assets/advanced-guides/holds/MCDU-hold-1.png){loading=lazy}
-
-        Find the waypoint in the F-PLN page on the MCDU. Select the corresponding line. In this case, the 3rd from the top, SKENS, and push the left line selector key (LSK) for SKENS.
-    
-    === "2"
-
-        ![MCDU](../../assets/advanced-guides/holds/MCDU-hold-2.png){loading=lazy}
-
-        In this page, select the 3rd LSK to enter the hold section for the SKENS waypoint.
-
-    === "3"
-
-        ![MCDU](../../assets/advanced-guides/holds/MCDU-hold-3.png){loading=lazy}
-
-        Notice the title of the page is called COMPUTED HOLD at SKENS. 
-        
-        Computed means that this is information provided by the simulator. This information can be wrong and can be edited by overwriting the computed data. 
-
-    === "4"
-        ![MCDU](../../assets/advanced-guides/holds/MCDU-hold-4.png){loading=lazy}
-
-        As can be seen by the bigger symbols, the inbound course 274 is inserted in the FMS
-        
-        Note that the title has changed to HOLD, and a REVERT TO COMPUTED appeared.  REVERT TO COMPUTED will restore all hold settings and revert to the computed hold settings.
-
-    === "5"
-
-        ![MCDU](../../assets/advanced-guides/holds/MCDU-hold-5.png){loading=lazy}
-
-        As can be seen in the chart, the hold has a leg length of 10NM. To enter this in the FMS type `/10` in the MCDU and select LSK3 to feed it in the TIME/DIST box. 
-        The time needed to complete the leg is also re-calculated and is 3.3 minutes in this case. 
-
-        If leg distance is constrained by time (as it is for a standard hold), this can be set by typing for example `1.5` in the MCDU and feeding it in the TIME/DIST box. Also, the leg distance will automatically be re-calculated.
-
-        ![HOLD6](../../assets/advanced-guides/holds/HOLD6.png){loading=lazy}
-
-    === "Last Exit"
-
-        !!! warning "Not yet implemented"
-
-        ![MCDU](../../assets/advanced-guides/holds/MCDU-hold-5.png){loading=lazy}
-
-        In the bottom section of the MCDU screen, 'LAST EXIT' can be found. The section compromises a UTC and FUEL reading. Last exit gives information on how long the airplane can safely stay in the hold while still having the fuel for the rest of the approach, to go around, divert and the final reserve fuel. The UTC and FUEL will give you the time and minimum fuel needed when leaving the hold. 
-
-    === "6"
-
-        ![MCDU](../../assets/advanced-guides/holds/MCDU-hold-7.png){loading=lazy}
-
-        If the inbound course, turning direction and leg distance are set correctly, press the 6th LSK on the right to insert the hold into the Flight plan. 
-
-        Notice the white curved arrow in the ND. In this case, it is turned to the right; however, the arrow would turn left if left-hand turns were selected for the hold.
-        Also, notice how the hold waypoint now appears for an additional time in the flight plan. This is needed for the FMS to calculate a good exit path when leaving the hold.
-
-        Depending on the angle between the aircraft and the inbound course of the hold, aircraft need to fly different entry patterns. The A320 will automatically fly the correct entry pattern.
-
-    === "7"
-        ![MCDU](../../assets/advanced-guides/holds/MCDU-hold-8.png){loading=lazy}
-        
-        As soon as the aircraft is heading to the waypoint with the hold programmed, the hold will be calculated and completely shown on the ND. [IMM EXIT*](#leaving-the-hold) will also appear on the MCDU. 
-
-    === "8"
-        ![MCDU](../../assets/advanced-guides/holds/MCDU-hold-9.png){loading=lazy}
-
-        Before the A320 passes the hold fix for the first time, it will slow down to 'green dot speed'. This is the speed at which the aircraft uses the minimum fuel per hour to ensure it can stay in the hold as long as possible. So make sure to set speed to managed speed to fly at green dot speed. 
-
-        Also, the F-PLN page on the MCDU will continue to show IMM EXIT*. This is needed when [leaving the hold](#leaving-the-hold).
-
-### Descending in the Hold
-Altitude changes are done with the vertical speed mode set at 1000 ft/min. This is to make sure all aircraft are spaced out enough to comply with spacing safety standards.
-
-The TCAS system should remain on TA/RA when flying in the hold. However, it might be convenient to switch to ALL or BLW.
-
-### Leaving the Hold
-
-The plane will continue to fly in the hold until a pilot gives the command to the FMS to leave. During the hold, the F-PLN page will display IMM EXIT in amber. The pilot has to press the right LSK next to IMM EXIT to leave the hold. The amber text will now change in RESUME HOLD. The aircraft will fly the shortest distance to the original hold fix and then exit, such as doing a tight circle or turning early on downwind. The aircraft will continue its flight plan when it reaches the hold fix again. 
-
-RESUME HOLD can be pressed to cancel the hold exit. The aircraft will now stay in the hold, and IMM EXIT is shown again.
-
-![Hold Modes](../../assets/advanced-guides/holds/MCDU-hold-14.png){loading=lazy}
-
-## Video Tutorial by 320 Sim Pilot
-
-<iframe width="826" height="465" src="https://www.youtube.com/embed/NYlSICln1So" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## Hold Examples
-
-!!! info "Example charts to acquire hold information"
+??? info "Example charts to acquire hold information (click to expand)"
 
     === "1"
 
@@ -334,3 +192,119 @@ RESUME HOLD can be pressed to cancel the hold exit. The aircraft will now stay i
         | Max speed         | STD             |
         | Max alt           | -               |
         | Min alt (MHA)     | FL120           |
+     
+## Hold Standards
+
+The FAA defines STD leg distance to be:
+
+| Altitude (MSL)    | Leg distance |
+|-------------------|--------------|
+| MHA - 14000FT     | 1 minute     |
+| 14001FT and above | 1.5 minutes  |
+
+The FAA defines STD Max hold speed to be:
+
+| Altitude (MSL)    | Airspeed (KIAS) |
+|-------------------|-----------------|
+| MHA - 6000FT      | 200             |
+| 6001FT - 14000FT  | 230             |
+| 14001FT and above | 265             |
+
+The FAA defines the standard hold direction for non-published holds with **right-hand** turns.
+
+## Programming Holds 
+Now that all information about the hold is known, it is time to create a hold in the FMS via the MCDU. A step by step guide to hold at SKENS is provided below.
+
+![HOLD6](../../assets/advanced-guides/holds/HOLD6.png){loading=lazy}
+
+### MCDU Setup
+
+!!! info "MCDU Setup"
+
+    === "1"
+
+        ![MCDU](../../assets/advanced-guides/holds/MCDU-hold-1.png){loading=lazy}
+
+        Find the waypoint in the F-PLN page on the MCDU. Select the corresponding line. In this case, the 3rd from the top, SKENS, and push the left line selector key (LSK) for SKENS.
+    
+    === "2"
+
+        ![MCDU](../../assets/advanced-guides/holds/MCDU-hold-2.png){loading=lazy}
+
+        In this page, select the 3rd LSK to enter the hold section for the SKENS waypoint.
+
+    === "3"
+
+        ![MCDU](../../assets/advanced-guides/holds/MCDU-hold-3.png){loading=lazy}
+
+        Notice the title of the page is called COMPUTED HOLD at SKENS. 
+        
+        Computed means that this is information provided by the simulator. This information can be wrong and can be edited by overwriting the computed data. 
+
+    === "4"
+        ![MCDU](../../assets/advanced-guides/holds/MCDU-hold-4.png){loading=lazy}
+
+        As can be seen by the bigger symbols, the inbound course 274 is inserted in the FMS
+        
+        Note that the title has changed to HOLD, and a REVERT TO COMPUTED appeared.  REVERT TO COMPUTED will restore all hold settings and revert to the computed hold settings.
+
+    === "5"
+
+        ![MCDU](../../assets/advanced-guides/holds/MCDU-hold-5.png){loading=lazy}
+
+        As can be seen in the chart, the hold has a leg length of 10NM. To enter this in the FMS type `/10` in the MCDU and select LSK3 to feed it in the TIME/DIST box. 
+        The time needed to complete the leg is also re-calculated and is 3.3 minutes in this case. 
+
+        If leg distance is constrained by time (as it is for a standard hold), this can be set by typing for example `1.5` in the MCDU and feeding it in the TIME/DIST box. Also, the leg distance will automatically be re-calculated.
+
+        ![HOLD6](../../assets/advanced-guides/holds/HOLD6.png){loading=lazy}
+
+    === "Last Exit"
+
+        !!! warning "Not yet implemented"
+
+        ![MCDU](../../assets/advanced-guides/holds/MCDU-hold-5.png){loading=lazy}
+
+        In the bottom section of the MCDU screen, 'LAST EXIT' can be found. The section compromises a UTC and FUEL reading. Last exit gives information on how long the airplane can safely stay in the hold while still having the fuel for the rest of the approach, to go around, divert and the final reserve fuel. The UTC and FUEL will give you the time and minimum fuel needed when leaving the hold. 
+
+    === "6"
+
+        ![MCDU](../../assets/advanced-guides/holds/MCDU-hold-7.png){loading=lazy}
+
+        If the inbound course, turning direction and leg distance are set correctly, press the 6th LSK on the right to insert the hold into the Flight plan. 
+
+        Notice the white curved arrow in the ND. In this case, it is turned to the right; however, the arrow would turn left if left-hand turns were selected for the hold.
+        Also, notice how the hold waypoint now appears for an additional time in the flight plan. This is needed for the FMS to calculate a good exit path when leaving the hold.
+
+        Depending on the angle between the aircraft and the inbound course of the hold, aircraft need to fly different entry patterns. The A320 will automatically fly the correct entry pattern.
+
+    === "7"
+        ![MCDU](../../assets/advanced-guides/holds/MCDU-hold-8.png){loading=lazy}
+        
+        As soon as the aircraft is heading to the waypoint with the hold programmed, the hold will be calculated and completely shown on the ND. [IMM EXIT*](#leaving-the-hold) will also appear on the MCDU. 
+
+    === "8"
+        ![MCDU](../../assets/advanced-guides/holds/MCDU-hold-9.png){loading=lazy}
+
+        Before the A320 passes the hold fix for the first time, it will slow down to 'green dot speed'. This is the speed at which the aircraft uses the minimum fuel per hour to ensure it can stay in the hold as long as possible. So make sure to set speed to managed speed to fly at green dot speed. 
+
+        Also, the F-PLN page on the MCDU will continue to show IMM EXIT*. This is needed when [leaving the hold](#leaving-the-hold).
+
+### Descending in the Hold
+Altitude changes are done with the vertical speed mode set at 1000 ft/min. This is to make sure all aircraft are spaced out enough to comply with spacing safety standards.
+
+The TCAS system should remain on TA/RA when flying in the hold. However, it might be convenient to switch to ALL or BLW.
+
+### Leaving the Hold
+
+The plane will continue to fly in the hold until a pilot gives the command to the FMS to leave. During the hold, the F-PLN page will display IMM EXIT in amber. The pilot has to press the right LSK next to IMM EXIT to leave the hold. The amber text will now change in RESUME HOLD. The aircraft will fly the shortest distance to the original hold fix and then exit, such as doing a tight circle or turning early on downwind. The aircraft will continue its flight plan when it reaches the hold fix again. 
+
+RESUME HOLD can be pressed to cancel the hold exit. The aircraft will now stay in the hold, and IMM EXIT is shown again.
+
+![Hold Modes](../../assets/advanced-guides/holds/MCDU-hold-14.png){loading=lazy}
+
+## Video Tutorial by 320 Sim Pilot
+
+<iframe width="826" height="465" src="https://www.youtube.com/embed/NYlSICln1So" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
