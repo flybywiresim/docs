@@ -97,7 +97,7 @@ The following conditions will apply:
 - Longitudinal modes previously armed will automatically be disarmed except ALT^*^
     - This prevents the aircraft from exceeding a commanded altitude / prevent excursions
     - In this type of RA, a V/S of 0 ft/min is always within the safe zone to prevent commanded altitude excursions allowing for TCAS to reach a targeted flight level if capture conditions are met. Sample scenario:
-    ![tcas level off](assets/tcas-level-ra.png)
+    ![tcas level off](../../assets/advanced-guides/flight/tcas-level-ra.png)
 - To ensure a safe speed during any maneuvers A/THR will engage SPEED/MACH
 
 ### RA Pilot Actions
