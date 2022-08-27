@@ -240,7 +240,8 @@ Correct your final heading and bank very carefully. We should not need to correc
 
 At about 30ft we start our flare by pulling back on the sidestick carefully. We only need a few degrees in positive pitch and hold the aircraft there. Too much flare will cause the aircraft to float down the runway, too little will cause a harder landing.
 
-At about 10-20ft we pull back the thrust levers to idle (the aircraft also sounds the callout "retard retard ...") so the we are at idle thrust **before** we touch the ground.
+At about 10-20ft we pull back the thrust levers to idle (the aircraft also sounds the callout "retard retard ...") 
+so that we are at idle thrust **before** we touch the ground.
 
 ![PFD during flare](../assets/beginner-guide/landing/PFD-Flare.png "PFD during flare"){loading=lazy }
 
