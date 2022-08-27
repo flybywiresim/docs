@@ -30,7 +30,7 @@
 
 Holding patterns, as they are officially known, can be used as a delaying tactic for airborne aircraft. Typically holding patterns have a racetrack pattern that can easily be spotted on flight trackers. All holds are made up of segments. The segments are shown in the figure below. 
 
-![DEFINITIONS](../../assets/advanced-guides/holds/Holddefinitions.png)
+![DEFINITIONS](../../assets/advanced-guides/holds/Holddefinitions.png){loading=lazy}
 
 ## Why Hold?
 Holds are always used to delay aircraft near a navigational fix in certain airspace. There are a lot of reasons airplanes might need to hold, where common examples would be:
@@ -42,13 +42,13 @@ Holds are always used to delay aircraft near a navigational fix in certain airsp
 
 Sometimes holds are used because of topographical constraints. Innsbruck-Kranebitten International Airport (LOWI) is an excellent example of such a constraint because it is situated in a valley, as seen in the picture below.
 
-![LOWI](../../assets/advanced-guides/holds/LOWI.png)
+![LOWI](../../assets/advanced-guides/holds/LOWI.png){loading=lazy}
 
 ## Identifying Holds
 
 Aircraft can technically hold at any waypoint if given permission by or requested from ATC in advance. Holds that are published on aviation charts are called published holds. For this guide, we will only consider a published hold. Holds can be identified on charts in 2 different ways, where both options can be applied on the same chart. For example, look at the chart below.
 
-![Hold types](../../assets/advanced-guides/holds/HOLD-types.png)
+![Hold types](../../assets/advanced-guides/holds/HOLD-types.png){loading=lazy}
 
 Waypoints with published holds can be spotted by a racetrack pattern, or holds can be published and displayed in a diagram in one of the corners of the main navigation section on the chart. 
 
@@ -89,7 +89,7 @@ The FAA defines the standard hold direction for non-published holds with **right
 ## Programming Holds 
 Now that all information about the hold is known, it is time to create a hold in the FMS via the MCDU. A step by step guide to hold at SKENS is provided below.
 
-![HOLD6](../../assets/advanced-guides/holds/HOLD6.png)
+![HOLD6](../../assets/advanced-guides/holds/HOLD6.png){loading=lazy}
 
 ### MCDU Setup
 
@@ -97,26 +97,26 @@ Now that all information about the hold is known, it is time to create a hold in
 
     === "1"
 
-        ![MCDU](../../assets/advanced-guides/holds/MCDU-hold-1.png)
+        ![MCDU](../../assets/advanced-guides/holds/MCDU-hold-1.png){loading=lazy}
 
         Find the waypoint in the F-PLN page on the MCDU. Select the corresponding line. In this case, the 3rd from the top, SKENS, and push the left line selector key (LSK) for SKENS.
     
     === "2"
 
-        ![MCDU](../../assets/advanced-guides/holds/MCDU-hold-2.png)
+        ![MCDU](../../assets/advanced-guides/holds/MCDU-hold-2.png){loading=lazy}
 
         In this page, select the 3rd LSK to enter the hold section for the SKENS waypoint.
 
     === "3"
 
-        ![MCDU](../../assets/advanced-guides/holds/MCDU-hold-3.png)
+        ![MCDU](../../assets/advanced-guides/holds/MCDU-hold-3.png){loading=lazy}
 
         Notice the title of the page is called COMPUTED HOLD at SKENS. 
         
         Computed means that this is information provided by the simulator. This information can be wrong and can be edited by overwriting the computed data. 
 
     === "4"
-        ![MCDU](../../assets/advanced-guides/holds/MCDU-hold-4.png)
+        ![MCDU](../../assets/advanced-guides/holds/MCDU-hold-4.png){loading=lazy}
 
         As can be seen by the bigger symbols, the inbound course 274 is inserted in the FMS
         
@@ -124,26 +124,26 @@ Now that all information about the hold is known, it is time to create a hold in
 
     === "5"
 
-        ![MCDU](../../assets/advanced-guides/holds/MCDU-hold-5.png)
+        ![MCDU](../../assets/advanced-guides/holds/MCDU-hold-5.png){loading=lazy}
 
         As can be seen in the chart, the hold has a leg length of 10NM. To enter this in the FMS type `/10` in the MCDU and select LSK3 to feed it in the TIME/DIST box. 
         The time needed to complete the leg is also re-calculated and is 3.3 minutes in this case. 
 
         If leg distance is constrained by time (as it is for a standard hold), this can be set by typing for example `1.5` in the MCDU and feeding it in the TIME/DIST box. Also, the leg distance will automatically be re-calculated.
 
-        ![HOLD6](../../assets/advanced-guides/holds/HOLD6.png)
+        ![HOLD6](../../assets/advanced-guides/holds/HOLD6.png){loading=lazy}
 
     === "Last Exit"
 
         !!! warning "Not yet implemented"
 
-        ![MCDU](../../assets/advanced-guides/holds/MCDU-hold-5.png)
+        ![MCDU](../../assets/advanced-guides/holds/MCDU-hold-5.png){loading=lazy}
 
         In the bottom section of the MCDU screen, 'LAST EXIT' can be found. The section compromises a UTC and FUEL reading. Last exit gives information on how long the airplane can safely stay in the hold while still having the fuel for the rest of the approach, to go around, divert and the final reserve fuel. The UTC and FUEL will give you the time and minimum fuel needed when leaving the hold. 
 
     === "6"
 
-        ![MCDU](../../assets/advanced-guides/holds/MCDU-hold-7.png)
+        ![MCDU](../../assets/advanced-guides/holds/MCDU-hold-7.png){loading=lazy}
 
         If the inbound course, turning direction and leg distance are set correctly, press the 6th LSK on the right to insert the hold into the Flight plan. 
 
@@ -153,12 +153,12 @@ Now that all information about the hold is known, it is time to create a hold in
         Depending on the angle between the aircraft and the inbound course of the hold, aircraft need to fly different entry patterns. The A320 will automatically fly the correct entry pattern.
 
     === "7"
-        ![MCDU](../../assets/advanced-guides/holds/MCDU-hold-8.png)
+        ![MCDU](../../assets/advanced-guides/holds/MCDU-hold-8.png){loading=lazy}
         
         As soon as the aircraft is heading to the waypoint with the hold programmed, the hold will be calculated and completely shown on the ND. [IMM EXIT*](#leaving-the-hold) will also appear on the MCDU. 
 
     === "8"
-        ![MCDU](../../assets/advanced-guides/holds/MCDU-hold-9.png)
+        ![MCDU](../../assets/advanced-guides/holds/MCDU-hold-9.png){loading=lazy}
 
         Before the A320 passes the hold fix for the first time, it will slow down to 'green dot speed'. This is the speed at which the aircraft uses the minimum fuel per hour to ensure it can stay in the hold as long as possible. So make sure to set speed to managed speed to fly at green dot speed. 
 
@@ -175,7 +175,7 @@ The plane will continue to fly in the hold until a pilot gives the command to th
 
 RESUME HOLD can be pressed to cancel the hold exit. The aircraft will now stay in the hold, and IMM EXIT is shown again.
 
-![Hold Modes](../../assets/advanced-guides/holds/MCDU-hold-14.png)
+![Hold Modes](../../assets/advanced-guides/holds/MCDU-hold-14.png){loading=lazy}
 
 ## Video Tutorial by 320 Sim Pilot
 
@@ -187,7 +187,7 @@ RESUME HOLD can be pressed to cancel the hold exit. The aircraft will now stay i
 
     === "1"
 
-        ![HOLD1](../../assets/advanced-guides/holds/HOLD1.png)
+        ![HOLD1](../../assets/advanced-guides/holds/HOLD1.png){loading=lazy}
 
         | Hold information  | Details |
         |-------------------|---------|
@@ -203,7 +203,7 @@ RESUME HOLD can be pressed to cancel the hold exit. The aircraft will now stay i
 
         >**_NOTE:_**  The altitude constraints of the fix SUGOL are not relevant for the altitude constraints of the hold at SUGOL. The same principle applies to speed restrictions as well.
 
-        ![HOLD2](../../assets/advanced-guides/holds/HOLD2.png)
+        ![HOLD2](../../assets/advanced-guides/holds/HOLD2.png){loading=lazy}
 
         | Hold information  | Details |
         |-------------------|---------|
@@ -217,7 +217,7 @@ RESUME HOLD can be pressed to cancel the hold exit. The aircraft will now stay i
         
     === "3"
 
-        ![HOLD3](../../assets/advanced-guides/holds/HOLD3.png)
+        ![HOLD3](../../assets/advanced-guides/holds/HOLD3.png){loading=lazy}
 
         | Hold information  | Details |
         |-------------------|---------|
@@ -233,7 +233,7 @@ RESUME HOLD can be pressed to cancel the hold exit. The aircraft will now stay i
 
         >**_NOTE:_**  The chart's design makes it confusing what the leg length is for the DVN hold. You could argue that this is 3.4 NM. However, 3.4 is just the length between the D11.0 SPL and the DVN fix and does not influence the hold leg length.
 
-        ![HOLD4](../../assets/advanced-guides/holds/HOLD4.png)
+        ![HOLD4](../../assets/advanced-guides/holds/HOLD4.png){loading=lazy}
 
         | Hold information  | Details |
         |-------------------|---------|
@@ -249,7 +249,7 @@ RESUME HOLD can be pressed to cancel the hold exit. The aircraft will now stay i
 
         >**_NOTE:_**  Holds at BOTON and PANZE have a minimum hold altitude dictated by the minimum flight altitude of 6000FT of the earlier and following legs. 
 
-        ![HOLD5](../../assets/advanced-guides/holds/HOLD5.png)
+        ![HOLD5](../../assets/advanced-guides/holds/HOLD5.png){loading=lazy}
 
         | Hold information  | Details | Details | Details |
         |-------------------|---------|---------|---------|
@@ -265,7 +265,7 @@ RESUME HOLD can be pressed to cancel the hold exit. The aircraft will now stay i
 
     === "6"
 
-        ![HOLD6](../../assets/advanced-guides/holds/HOLD6.png)
+        ![HOLD6](../../assets/advanced-guides/holds/HOLD6.png){loading=lazy}
 
         | Hold information  | Details |
         |-------------------|---------|
@@ -279,7 +279,7 @@ RESUME HOLD can be pressed to cancel the hold exit. The aircraft will now stay i
 
     === "7"
 
-        ![HOLD7](../../assets/advanced-guides/holds/HOLD7.png)
+        ![HOLD7](../../assets/advanced-guides/holds/HOLD7.png){loading=lazy}
 
         | Hold information  | Details |
         |-------------------|---------|
@@ -293,7 +293,7 @@ RESUME HOLD can be pressed to cancel the hold exit. The aircraft will now stay i
 
     === "8"
 
-        ![HOLD8](../../assets/advanced-guides/holds/HOLD8.png)
+        ![HOLD8](../../assets/advanced-guides/holds/HOLD8.png){loading=lazy}
 
         | Hold information  | Details | Details |
         |-------------------|---------|---------|
@@ -307,7 +307,7 @@ RESUME HOLD can be pressed to cancel the hold exit. The aircraft will now stay i
 
     === "9"
 
-        ![HOLD9](../../assets/advanced-guides/holds/HOLD9.png)
+        ![HOLD9](../../assets/advanced-guides/holds/HOLD9.png){loading=lazy}
 
         | Hold information  | Details | Details | Details |
         |-------------------|---------|---------|---------|
@@ -323,7 +323,7 @@ RESUME HOLD can be pressed to cancel the hold exit. The aircraft will now stay i
 
         >**_NOTE:_**  The leg length for the CRS hold is presented as a distance from another navigational beacon
 
-        ![HOLD10](../../assets/advanced-guides/holds/HOLD10.png)
+        ![HOLD10](../../assets/advanced-guides/holds/HOLD10.png){loading=lazy}
 
         | Hold information  | Details         |
         |-------------------|-----------------|
