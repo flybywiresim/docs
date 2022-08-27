@@ -53,6 +53,7 @@ The following are features in testing that require the use of SimBridge:
 - Remote MCDU (Web MCDU) 
     - [Setup and Configuration Guide](../../simbridge/remote-displays/configuration.md)
     - [Usage Guide](../../simbridge/remote-displays/remote-mcdu.md)
+- [Company Routes](#company-routes)
 
 !!! tip "SimBridge Information"
     - Learn about SimBridge and further status of various features please - [Read Here](../../simbridge/index.md).
@@ -68,7 +69,7 @@ of honeywell and do not have map-data above 83° north or below 84° south.
 You can read more about the "PEAKS DISPLAY" in this technical guide from Honeywell - [Read Here](https://skybrary.aero/sites/default/files/bookshelf/3364.pdf){target=new}
 
 !!! tip "Configuration"
-    - [Terrain Usage Guide](../../simbridge/terrain.md)
+    [Terrain Usage Guide](../../simbridge/terrain.md){.md-button}
 
 !!! warning "Reporting Bugs / Strange Behaviors"
     When reporting a bug or strange behavior that we need the GPS position or at least a reference to an airport/VOR/NDB with a distance and direction. 
@@ -76,6 +77,13 @@ You can read more about the "PEAKS DISPLAY" in this technical guide from Honeywe
     This will help us iron out the feature and identify issues faster. For more information on where to report please see [How to Report Issues](#how-to-report-issues) below.
 
     Expect performance loss as we continue to optimise.
+
+#### Company Routes
+
+This feature allows you to save routes you regularly fly to your PC in the simBrief XML Datafiles format for repeated use.
+
+!!! tip "Configuration and Usage"
+    [Company Routes Guide](../../simbridge/coroute.md){.md-button}
 
 ### Pause at Top of Descent (TOD)
 
