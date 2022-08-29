@@ -2,7 +2,7 @@
 
 !!! warning "Not available in the Stable Version"
 
-Holding patterns, as they are officially known, can be used as a delaying tactic for airborne aircraft. Typically holding patterns have a racetrack pattern that can easily be spotted on flight trackers. All holds are made up of segments. The segments are shown in the figure below. 
+Holding patterns, as they are officially known, can be used as a delaying tactic for airborne aircraft, for course reversal, and for gaining altitude prior to crossing terrain in some procedures. Typically holding patterns have a racetrack pattern that can easily be spotted on flight trackers. All holds are made up of segments. The segments are shown in the figure below. 
 
 ![DEFINITIONS](../../assets/advanced-guides/holds/Holddefinitions.png){loading=lazy}
 
