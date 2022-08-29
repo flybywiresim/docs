@@ -319,6 +319,6 @@ reaching the hold fix the RESUME HOLD prompt may be used to re-enable the hold.
 
 ## Video Tutorial by 320 Sim Pilot
 
-<iframe width="826" height="465" src="https://www.youtube.com/embed/NYlSICln1So" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![video-embed](https://www.youtube.com/embed/NYlSICln1So)
 
 
