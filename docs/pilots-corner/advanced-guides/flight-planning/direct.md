@@ -15,11 +15,11 @@ allows pilots to quickly program lateral revisions to a specific waypoint which 
 
 There are three functions available on the DIR TO page.
 
-- DIR TO: Creates a direct leg from the present position of the aircraft to a specified waypoint.
+- [DIR TO](#dir-to): Creates a direct leg from the present position of the aircraft to a specified waypoint.
 
 !!! warning "Not Yet Implemented"
-    - DIR TO/ABEAM (if selected): Calculates the abeam waypoints along the direct leg.
-    - DIR TO/INTCPT: Creates a defined path based on a specified RADIAL INBOUND / OUTBOUND at the inserted waypoint.
+    - [DIR TO/ABEAM](#dir-toabeam) (if selected): Calculates the abeam waypoints along the direct leg.
+    - [DIR TO/INTCPT](#dir-tointcpt): Creates a defined path based on a specified RADIAL INBOUND / OUTBOUND at the inserted waypoint.
 
 ## DIR TO
 
