@@ -304,9 +304,8 @@ The TCAS system should remain on TA/RA when flying in the hold. However, it migh
 
 ### Leaving the Hold
 
-The plane will continue to fly in the hold until a pilot gives the command to the FMS to leave. During the hold, the F-PLN page will display IMM EXIT in amber. The pilot has to press the right LSK next to IMM EXIT to leave the hold. The amber text will now change in RESUME HOLD. The aircraft will fly the shortest distance to the original hold fix and then exit, such as doing a tight circle or turning early on downwind. The aircraft will continue its flight plan when it reaches the hold fix again. 
-
-RESUME HOLD can be pressed to cancel the hold exit. The aircraft will now stay in the hold, and IMM EXIT is shown again.
+```suggestion
+The plane will continue to fly in the hold until a pilot gives the command to the FMS to leave by either activating a direct to (DIR TO), or pressing the IMM EXIT prompt on the F-PLN page. During the hold, and prior to the hold after crossing the deceleration point, the F-PLN page will display IMM EXIT prompt in amber. The pilot may press the right LSK next to IMM EXIT to leave the hold. The aircraft will shorten the hold as much as possible, fly around until reaching the hold fix, and then exit, continuing with the subsequent flight plan. At any time prior to reaching the hold fix the RESUME HOLD prompt may be used to re-enable the hold.
 
 ![Hold Modes](../../assets/advanced-guides/holds/MCDU-hold-14.png){loading=lazy}
 
