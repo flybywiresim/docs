@@ -298,7 +298,7 @@ Now that all information about the hold is known, it is time to create a hold in
         Also, the F-PLN page on the MCDU will continue to show IMM EXIT*. This is needed when [leaving the hold](#leaving-the-hold).
 
 ### Descending in the Hold
-Altitude changes are done with the vertical speed mode set at 1000 ft/min. This is to make sure all aircraft are spaced out enough to comply with spacing safety standards.
+Managed descent mode (DES) in the hold will limit the descent rate to a maximum of -1000 ft/min for traffic separation purposes. Open descent (OP DES) will descend at idle thrust as normal.
 
 The TCAS system should remain on TA/RA when flying in the hold. However, it might be convenient to switch to ALL or BLW.
 
