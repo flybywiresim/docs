@@ -114,8 +114,8 @@ Flight Deck:  [EXT LT Panel](flight-deck/ovhd/ext-lt.md)
 |              | CIRCUIT SWITCH ON:18  | 0&#124;1 | R/W        | MSFS VAR         | Left landing light                                                 |
 |              | CIRCUIT SWITCH ON:19  | 0&#124;1 | R/W        | MSFS VAR         | Right landing light                                                |
 |              | LIGHTING_LANDING_1    | 0&#124;1 | R/W        | Custom LVAR      | Switch position of the NOSE switch: 2=OFF, 1=TAXI, 0=T.O.          |
-|              | LIGHTING_LANDING_2    | 0&#124;1 | R/W        | Custom LVAR      | Switch position of the left landing light: 2=RETRACT, 1=OFF, 2=ON  |
-|              | LIGHTING_LANDING_3    | 0&#124;1 | R/W        | Custom LVAR      | Switch position of the right landing light: 2=RETRACT, 1=OFF, 2=ON |
+|              | LIGHTING_LANDING_2    | 0&#124;1 | R/W        | Custom LVAR      | Switch position of the left landing light: 2=RETRACT, 1=OFF, 0=ON  |
+|              | LIGHTING_LANDING_3    | 0&#124;1 | R/W        | Custom LVAR      | Switch position of the right landing light: 2=RETRACT, 1=OFF, 0=ON |
 |              | LANDING_1_RETRACTED   | 0&#124;1 | R/W        | Custom LVAR      | No function - NOSE light can't be retracted                        |
 |              | LANDING_2_RETRACTED   | 0&#124;1 | R/W        | Custom LVAR      | Retraction of left landing light: 0=extended, 1=retracted          |
 |              | LANDING_3_RETRACTED   | 0&#124;1 | R/W        | Custom LVAR      | Retraction of right landing light 0=extended, 1=retracted          |
@@ -138,12 +138,12 @@ Flight Deck:  [EXT LT Panel](flight-deck/ovhd/ext-lt.md)
     One solution we have found to be working is:
 
     - Landing Lights L
-        - Set `LIGHT_LANDING_2` to 0 (sets the switch to ON)
+        - Set `LIGHTING_LANDING_2` to 0 (sets the switch to ON)
         - Set `LANDING_2_RETRACTED` to 0 (extends the landing light)
         - Delay of 8-10sec (to simulate the time it takes to extend the lights)
         - Set `CIRCUIT SWITCH ON:18` to 1 (turns on the actual light)
     - Landing Lights R
-        - Set `LIGHT_LANDING_3` to 0 (sets the switch to ON)
+        - Set `LIGHTING_LANDING_3` to 0 (sets the switch to ON)
         - Set `LANDING_3_RETRACTED` to 0 (extends the landing light)
         - Delay of 8-10sec (to simulate the time it takes to extend the lights)
         - Set `CIRCUIT SWITCH ON:19` to 1 (turns on the actual light)
