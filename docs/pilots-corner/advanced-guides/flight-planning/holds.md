@@ -7,7 +7,8 @@ Holding patterns, as they are officially known, can be used as a delaying tactic
 ![DEFINITIONS](../../assets/advanced-guides/holds/Holddefinitions.png){loading=lazy}
 
 ## Why Hold?
-Holds are always used to delay aircraft near a navigational fix in certain airspace. There are a lot of reasons airplanes might need to hold, where common examples would be:
+Holds are always used to delay aircraft near a navigational fix in certain airspace. There are a lot of reasons why 
+airplanes might need to hold. Common examples would be:
 
 - Bad weather passing over the airport
 - Traffic
@@ -198,12 +199,13 @@ Now that you know where to hold, you should learn how to program the hold. Next,
 
 The Airbus FMS follows ICAO definitions for default holding pattern parameters. The default leg length for a computed hold is:
 
-| Altitude (ft MSL)  | Leg distance |
+| Altitude (ft MSL) | Leg distance |
 |-------------------|--------------|
 | <=14000           | 1 minute     |
 | > 14000           | 1.5 minutes  |
 
 The managed speed target in a hold is the lowest of:
+
 - maximum endurance (approximately "green dot" speed)
 - ICAO speed limit (see table below)
 - speed constraint
@@ -221,7 +223,8 @@ The ICAO speed limits are as follows:
 The default turn direction for a computed hold is **right**, in-line with ICAO specifications. 
 
 ## Programming Holds 
-Now that all information about the hold is known, it is time to create a hold in the FMS via the MCDU. A step by step guide to hold at SKENS is provided below.
+Now that all information about the hold is known, it is time to create a hold in the FMS via the MCDU. A  
+step-by-step guide to hold at SKENS is provided below.
 
 ![HOLD6](../../assets/advanced-guides/holds/HOLD6.png){loading=lazy}
 
@@ -305,8 +308,12 @@ The TCAS system should remain on TA/RA when flying in the hold. However, it migh
 
 ### Leaving the Hold
 
-```suggestion
-The plane will continue to fly in the hold until a pilot gives the command to the FMS to leave by either activating a direct to (DIR TO), or pressing the IMM EXIT prompt on the F-PLN page. During the hold, and prior to the hold after crossing the deceleration point, the F-PLN page will display IMM EXIT prompt in amber. The pilot may press the right LSK next to IMM EXIT to leave the hold. The aircraft will shorten the hold as much as possible, fly around until reaching the hold fix, and then exit, continuing with the subsequent flight plan. At any time prior to reaching the hold fix the RESUME HOLD prompt may be used to re-enable the hold.
+The plane will continue to fly in the hold until a pilot gives the command to the FMS to leave by either activating 
+a direct to (DIR TO), or pressing the IMM EXIT prompt on the F-PLN page. During the hold, and prior to the hold 
+after crossing the deceleration point, the F-PLN page will display IMM EXIT prompt in amber. The pilot may press the 
+right LSK next to IMM EXIT to leave the hold. The aircraft will shorten the hold as much as possible, fly around 
+until reaching the hold fix, and then exit, continuing with the subsequent flight plan. At any time prior to 
+reaching the hold fix the RESUME HOLD prompt may be used to re-enable the hold.
 
 ![Hold Modes](../../assets/advanced-guides/holds/MCDU-hold-14.png){loading=lazy}
 
