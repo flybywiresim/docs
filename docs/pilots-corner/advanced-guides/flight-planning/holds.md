@@ -293,7 +293,7 @@ Now that all information about the hold is known, it is time to create a hold in
     === "8"
         ![MCDU](../../assets/advanced-guides/holds/MCDU-hold-9.png){loading=lazy}
 
-        Before the A320 passes the hold fix for the first time, it will slow down to 'green dot speed'. This is the speed at which the aircraft uses the minimum fuel per hour to ensure it can stay in the hold as long as possible. So make sure to set speed to managed speed to fly at green dot speed. 
+        The FMS calculates the holding speed in accordance with [Hold Standards](#hold-standards) to acheive the lowest possible fuel consumption, except in approach phase where the "characteristic" speed for the current configuration is used. A deceleration point is calculated giving enough distance before the hold fix to slow down to the holding speed. From this point IMM EXIT becomes available on the F-PLN page, and pressing it prior to actually reaching the hold fix will cause deletion of the hold. If speed is managed the deceleration will begin automatically; if speed is selected a SET HOLD SPEED prompt will appear, prompting the pilot to set their desired holding speed, or to engage managed speed.
 
         Also, the F-PLN page on the MCDU will continue to show IMM EXIT*. This is needed when [leaving the hold](#leaving-the-hold).
 
