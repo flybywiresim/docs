@@ -195,22 +195,29 @@ Now that you know where to hold, you should learn how to program the hold. Next,
      
 ## Hold Standards
 
-The FAA defines STD leg distance to be:
+The Airbus FMS follows ICAO definitions for default holding pattern parameters. The default leg length for a computed hold is:
 
-| Altitude (MSL)    | Leg distance |
+| Altitude (ft MSL)  | Leg distance |
 |-------------------|--------------|
-| MHA - 14000FT     | 1 minute     |
-| 14001FT and above | 1.5 minutes  |
+| <=14000           | 1 minute     |
+| > 14000           | 1.5 minutes  |
 
-The FAA defines STD Max hold speed to be:
+The managed speed target in a hold is the lowest of:
+- maximum endurance (approximately "green dot" speed)
+- ICAO speed limit (see table below)
+- speed constraint
+- speed limit, if below speed limit altitude
 
-| Altitude (MSL)    | Airspeed (KIAS) |
+The ICAO speed limits are as follows:
+
+| Altitude (ft MSL) | Airspeed (KIAS) |
 |-------------------|-----------------|
-| MHA - 6000FT      | 200             |
-| 6001FT - 14000FT  | 230             |
-| 14001FT and above | 265             |
+| < 14000           | 230             |
+| 14000 - 20000     | 240             |
+| 20000 - 34000     | 265             |
+| > 34000           | .83 Mach        |
 
-The FAA defines the standard hold direction for non-published holds with **right-hand** turns.
+The default turn direction for a computed hold is **right**, in-line with ICAO specifications. 
 
 ## Programming Holds 
 Now that all information about the hold is known, it is time to create a hold in the FMS via the MCDU. A step by step guide to hold at SKENS is provided below.
