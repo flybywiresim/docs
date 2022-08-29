@@ -7,6 +7,12 @@ This is a short guide on utilizing the "direct" feature on the MCDU found on the
 While en-route pilots may encounter discontinuities ([read more here](disco.md)) or be instructed by ATC to proceed directly to a specific waypoint. The direct function 
 allows pilots to quickly program lateral revisions to a specific waypoint which would command the LNAV to proceed to that point upon selecting `INSERT`.
 
+!!! tip "HDG/NAV Modes"
+    Please keep in mind the following two concepts:
+
+    - If you are currently in NAV (indicated on the FMA) then the aircraft will stay in this mode and proceed on the new active track.
+    - If you are in HDG mode, the aircraft will revert to NAV and proceed on the new active track.
+
 There are three functions available on the DIR TO page.
 
 - DIR TO: Creates a direct leg from the present position of the aircraft to a specified waypoint.
@@ -30,16 +36,11 @@ If you wish to or are required to proceed direct to a waypoint not on your curre
 On the Navigation Display you will see the calculated track in yellow dashed lines from the aircraft's present position direct to the waypoint specified above. If you are happy 
 with what is displayed you can select LSK 6R to confirm the DIRECT and add it to your flight plan.
 
-!!! info ""
-    Be advised that any existing enroute waypoints between your present position and the selected new waypoint will be removed from the active flight plan.
-
 You will see `T-P` added to your flight plan followed by the waypoint you selected. This indicates your turning point to the now active track to the new waypoint.
 
-!!! info "HDG/NAV Modes"
-    Please keep in mind the following two concepts:
-
-    - If you are currently in NAV (indicated on the FMA) then the aircraft will stay in this mode and proceed on the new active track.
-    - If you are in HDG mode, the aircraft will revert to NAV and proceed on the new active track.
+!!! info "Be Advised"
+    - Any existing en-route waypoints between your present position and the selected new waypoint will be removed from the active flight plan. 
+    - There are cases where the plane does not draw a nice curve between T-P and the direct line. This is true to life in different cases depending on the leg types.
 
 ## DIR TO/ABEAM
 
