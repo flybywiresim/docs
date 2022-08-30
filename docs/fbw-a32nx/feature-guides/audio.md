@@ -43,7 +43,7 @@ If this setting is enabled the following crew announcements are played.
 | Boarding Completed + 30s                   | Captain makes a "Welcome on Board" announcement |     Captain      |
 | Beacon Light set to `ON`                   | "Arm Doors" Announcement                        | Flight Attendant |
 | "Arm Doors" Announcement + 30s             | Safety Demo                                     | On-Board System  |
-| Landing Lights set to `ON`                 | "Prepare for Takeoff" Announcement              |     Captain      |
+| TCAS mode switched to TA ONLY/TA RA        | "Prepare for Takeoff" Announcement              |     Captain      |
 | Enter **Cruise Phase** + 30s               | "Cruise" Announcement                           |     Captain      |
 | Enter **Descent Phase** + 30s              | "Descent" Announcement                          |     Captain      |
 | Gear Down + **Approach Phase** Active      | "Prepare for Landing" Announcement              |     Captain      |
