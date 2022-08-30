@@ -25,8 +25,8 @@ require fewer extra steps before launching into your flights.
 
 |                        Feature                        |                     Status                     |
 |:-----------------------------------------------------:|:----------------------------------------------:|
-|             [Terrain Display](terrain.md)             | In [Experimental](../fbw-a32nx/support/exp.md) |
-| [MCDU Remote Display](remote-displays/remote-mcdu.md) | In [Experimental](../fbw-a32nx/support/exp.md) |
+|             [Terrain Display](terrain.md)             | In [Dev Branch](../../fbw-a32nx/fbw-versions.md#development-version-recommended) |
+| [MCDU Remote Display](remote-displays/remote-mcdu.md) | In [Experimental Branch](../fbw-a32nx/support/exp.md) |
 |                 Company Route Support                 |            Built - Not Yet Migrated            |
 |                   EFB Local Charts                    |            Built - Not Yet Migrated            |
 |                    Remote Displays                    |                Work in Progress                |
