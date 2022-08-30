@@ -3,11 +3,11 @@
 <link rel="stylesheet" href="/../../stylesheets/web-mcdu.css">
 
 !!! danger "STOP"
-    This documentation is applicable for **STABLE** and **DEVELOPMENT** versions only. If you are on Experimental please refer to our SimBridge Documentation instead.
+    This documentation is applicable for **STABLE** versions only. If you are using the Development or Experimental version please refer to our SimBridge Documentation instead.
 
     ---
 
-    **Experimental Version**
+    **Development/Experimental Version**
 
     [SimBridge Guides](../../../simbridge){.md-button}
     
