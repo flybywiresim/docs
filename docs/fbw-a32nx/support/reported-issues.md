@@ -8,14 +8,6 @@
 
     *Most reported issues are caused by conflicts with other mods and liveries. If this does not resolve your issue please continue below.*
 
-    !!! warning ""
-        Outdated versions may cause the following major critical issues:
-
-        - Invisible Aircraft
-        - Infinite loading times
-
-        For information on how outdated versions may further affect your flight and how to resolve this issue see [Outdated Marketplace Version](#outdated-marketplace-version).
-
     **Throttle Calibration is Required** - [Guide Here](../feature-guides/flypados3/throttle-calibration.md)
 
     ---
@@ -52,15 +44,7 @@
 
     Do this before reporting bugs.
 
-<!--!!! danger "No Support for Experimental - use at own risk"
-
-    Refer to this page for [Known Issues in the Experimental Version](exp.md#known-issues).-->
-
 ---
-
-## Known A32NX Bugs
-
-*Last Update: {{git_revision_date_localized}}*
 
 <!--
 TEMPLATE
@@ -76,6 +60,346 @@ TEMPLATE
 ^^Additional Information^^
 
 -->
+
+## Legend
+
+!!! bug "Breaking Issue / Bug"
+!!! warning "Non Breaking Issue / Inconvenience"
+!!! tip "Config Issue / Usage Issue"
+
+## Commonly Reported Issues
+The following list of issues are commonly reported on our Discord support channel. Please check these before 
+reporting any other issue on Discord. 
+
+??? bug "Invisible Aircraft"
+    ### Invisible Aircraft
+
+??? bug "Infinite Loading Times"
+    ### Infinite Loading Times
+
+??? bug "Cockpit Lights and Display Are Erratically On"
+    ### Cockpit Lights and Display Are Erratically On
+
+??? bug "Broken Systems, Black Screens, Broken Cockpit Layout"
+    ### Broken Systems, Black Screens, Broken Cockpit Layout
+
+    !!! tip ""
+        *Affected versions: Stable, Development*
+
+    - UTF8
+    - Using an incompatible Add-On
+
+
+??? bug "Outdated Systems And Missing Features Although Current Version Installed"
+    ### Outdated Systems And Missing Features Although Current Version Installed
+
+??? bug "Performance Issues / FPS Issues"
+    ### Performance Issues / FPS Issues
+
+    !!! tip ""
+        *Affected versions: Stable, Development*
+
+    - Using DX12
+    - Using Toolbar Pushback Add-On
+    - Having YourControls Add-On Installed
+    - Having YourControls Add-On Installed
+
+??? bug "Unable to Move or Taxi"
+    ### Unable to Move or Taxi
+
+??? bug "Hard To Control the Aircraft during Taxi, TakeOff or Land"
+    ### Hard To Control the Aircraft during Taxi, TakeOff or Land
+
+??? bug "Unexpected Engines Shut Down"
+    ### Unexpected Engines Shut Down
+
+    !!! tip ""
+        *Affected versions: Stable, Development*
+
+    - Controller mapping conflict
+    - Out of fuel
+
+??? bug "Crash To Desktop (CTD)"
+    ### Crash To Desktop (CTD)
+
+??? bug "Lost Use of Mouse After Typing in a flyPad Input Field"
+    ### Lost Use of Mouse After Typing in a flyPad Input Field
+
+??? bug "MSFS Freezes After 'Ready To Fly'"
+    ### MSFS Freezes After 'Ready To Fly'
+
+??? bug "MSFS Performance Degradation In-Flight"
+    ### MSFS Performance Degradation In-Flight
+
+
+??? warning "TCA Throttle Issues"
+    ### TCA Throttle Issues
+
+??? warning "CPDLC with Hoppie on IVAO"
+    ### CPDLC with Hoppie on IVAO   
+
+??? warning "No Weather Radar"
+    ### No Weather Radar
+
+??? warning "Fuel Prediction Too Low"
+    ### Fuel Prediction Too Low
+
+??? warning "Autopilot: Unwanted Disconnection"
+    ### Autopilot: Unwanted Disconnection
+
+??? warning "ADIRS Not Aligned When Starting at Runway or in the Air"
+    ### ADIRS Not Aligned When Starting at Runway or in the Air
+
+??? warning "Unexpected Out of Fuel - No Fuel Transfer From Outer Tanks"
+    ### Unexpected Out of Fuel - No Fuel Transfer From Outer Tanks
+
+??? warning "Flypad Can’t Be Used in External View" 
+    ### Flypad Can’t Be Used in External View
+
+??? warning "Controls Freeze up While Looking Around"
+    ### Controls Freeze up While Looking Around
+
+??? warning "Autobrake Deactivates While Looking Around When Using TCA Throttle"
+    ### Autobrake Deactivates While Looking Around When Using TCA Throttle
+
+??? warning "Can't Start Engines When Using TCA Throttle"
+    ### Can't Start Engines When Using TCA Throttle
+
+??? warning "Liveries Converted from the Default Asobo A320 Cause Issues" 
+    ### Liveries Converted from the Default Asobo A320 Cause Issues
+
+??? warning "Ice Building Up on Cockpit Windows"
+    ### Ice Building Up on Cockpit Windows
+
+??? tip "++ctrl+'E'++ - Engine Start Unsupported" 
+    ### ++ctrl+'E'++ - Engine Start Unsupported
+
+??? tip "Can't Push or Pull Knobs, Controls HIghlighted Yellow or Blue"
+    ### Can't Push or Pull Knobs, Controls HIghlighted Yellow or Blue
+
+??? tip "flyPad EFB Missing in Cockpit"
+    ### flyPad EFB Missing in Cockpit
+
+??? tip "Incompatible Keyboard Mapping for Pause Function"
+    ### Incompatible Keyboard Mapping for Pause Function
+
+??? tip "Difficulty Accurately Clicking Controls"
+    ### Difficulty Accurately Clicking Controls
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Solutions to Commonly Reported Issues 
+The following list of solutions solves most reported issues on our Discord support channel. 
+Please try these before reporting any other issue on Discord.
+
+??? tip "Remove Old Marketplace Installation"
+    ### Remove Old Marketplace Installation
+    
+    !!! tip ""
+        *Affected versions: Stable, Development*
+
+    ^^Description and Symptoms^^
+
+    If you have the following issues you are **most likely on an outdated stable** or you have an **installation conflict**:
+
+    - White EFB screen
+    - PFD is missing bank angle protection indicators
+    - `NOT IN DATABASE` MCDU error
+    - External lights are not working
+    - Invisible Aircraft
+    - Infinite loading times
+
+    ^^Root Cause^^
+
+    Double install of the add-on and conflict with very old, unsupported versions.
+
+    ^^Possible Solution or Workaround^^
+
+    Go to your content manager and filter for "flybywire" as you see on the following image.
+
+    ![version sample](../assets/version-sample.jpg){loading=lazy}
+
+    If you see old versions (e.g. v0.6.1) or if you have multiple installations of the A32NX please uninstall them in the Content Manager and restart the sim. Reinstall development version from our [installer](https://api.flybywiresim.com/installer){target=new}.
+
+    ^^Additional Information^^
+
+    Information on how to install with the FlyByWire Installer can be found here: [Installation Guide](../installation.md).
+
+
+??? tip "Make Sure You Run the Latest Version of MS Flight Simulator"
+    ### Make Sure You Run the Latest Version of MS Flight Simulator
+
+??? tip "Make Sure You Have the Latest Version of the A32NX Add-on"
+    ### Make Sure You Have the Latest Version of the A32NX Add-on
+
+??? tip "Clean Install"
+    ### Clean Install
+
+??? tip "Enable Windows UTF8 Support"
+    ### Enable Windows UTF8 Support
+
+??? tip "Test With Only the A32NX Add-on in Community"
+    ### Test With Only the A32NX Add-on in Community
+
+??? tip "Fixing Nav Data Issues"
+    ### Fixing Nav Data Issues
+
+??? tip "Use the Correct Airframe for SimBrief"
+    ### Use the Correct Airframe for SimBrief
+
+??? tip "Turn Off All MS Flight Simulator Assistance Features"
+    ### Turn Off All MS Flight Simulation Assistance Features
+
+??? tip "Throttle Calibration"
+    ### Throttle Calibration
+
+??? tip "Check your MSFS Uses the Correct Community Folder"
+    ### Check your MSFS Uses the Correct Community Folder
+
+??? tip "Setup Your Controller Deadzones"
+    ### Setup Your Controller Deadzones
+
+??? tip "Understand Discontinuities"
+    ### Understand Discontinuities
+
+??? tip "Sync MSFS Flight Plan with the A32NX Flight Plan"
+    ### Sync MSFS Flight Plan with the A32NX Flight Plan
+
+??? tip "Use Legacy Controls"
+    ### Use Legacy Controls
+
+??? tip "Do Not Use DX12"
+    ### Do Not Use DX12
+
+??? tip "Disconnect the Tug"
+    ### Disconnect the Tug
+
+    If you have the "NW STRG DISC" message on the upper ECAM display but you can't see a tug, please press 
+    ++shift+'P'++ on your keyboard to disconnect the invisible pushback tug.
+    
+    This is an MSFS issue sometimes triggered by pushback tools like Toolbar Pushback Add-on and the flyPad pushback 
+    system.   
+
+## FBW Installer Issues
+
+!!! bug "TODO"
+
+## Incompatible and Problematic Add-Ons/Mods
+
+??? bug "LVFR A321neo Compatibility Mod"
+    ### LVFR A321neo Compatibility Mod
+
+    !!! tip ""
+        *Affected versions: Stable, Development*
+    
+    ^^Description^^
+
+    This compatibility mod is available on flightsim.to and may overwrite our systems / EFB resulting in outdated systems or missing features in our EFB when the mod is installed.
+
+    ^^Possible Solution or Workaround^^
+
+    - Uninstall the mod
+    - Use an addon linker to ensure the mod is only installed when you plan to use it.
+
+??? bug "Your Controls Performance Issues"
+    ### Your Controls Performance Issues
+
+    !!! tip ""
+        *Affected versions: Stable, Development*
+
+    ^^Description^^
+
+    If you have this 3rd party addon installed but it is not in use for your flight you may experience degraded performance (FPS) in the simulator.
+
+    ^^Possible Solution or Workaround^^
+
+    - Remove the addon from your community folder if it will not be in use for your flight.
+
+??? bug "Toolbar Pushback Addon Issues"
+    ### Toolbar Pushback Addon Issues
+
+    !!! tip ""
+        *Affected versions: Stable, Development*
+
+    ^^Description^^
+
+    This 3rd party addon may have the following intermittent issues:
+
+    - Stuck aircraft
+    - Unable to taxi
+    - Performance degradation
+
+    ^^Possible Solution or Workaround^^
+
+    - Remove the addon from your community folder or wait for developer to update or see next item.
+    - Keep the addon but remove it from the toolbar once you have pushed back
+    - Use our EFB which has built in pushback controls or another addon.
+
+??? bug "3rd Party Interior Textures - Black Screens"
+    ### 3rd Party Interior Textures Black Screens
+
+    !!! tip ""
+        *Affected versions: Development*
+    
+    ^^Description^^
+
+    3rd party interior textures mods are breaking the state of our custom instruments. This is similar to the older `panel.cfg` livery issue that created systems conflicts.
+
+    We have identified the following texture pack to be the main offender:
+
+    !!! bug ""
+        Improved Textures Mod - A32NX & A320neo | by FlightFlow
+
+    {--
+
+    Please do not install addons that modify files or overwrite files inside the `flybywire-aircraft-a320-neo` folder.
+
+    --}
+
+    ^^Root Cause^^
+
+    Conflict with our own hand crafted textures.
+
+    ^^Possible Solution or Workaround^^
+
+    Remove the offending 3rd party interior texture.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+## Known A32NX Bugs
+
+*Last Update: {{git_revision_date_localized}}*
 
 ??? bug "Mouse Lock Caused by EFB Input Field"
     ### Mouse Lock Caused by EFB Input Field
@@ -740,7 +1064,7 @@ TEMPLATE
         If you are getting CTDs, it could be one of your peripherals disconnecting sometime during the flight, which then causes the sim to CTD.
 
         It could be anything from a usb drive to a controller. Please try to minimise how many peripherals you have connected.
-
+-->
 <!-- Temporary Removal of Issue / Bring Back if detected
 ??? failure "Live Weather Causing CTD"
     ### Live Weather Causing CTD
@@ -784,7 +1108,6 @@ TEMPLATE
     ^^Additional Information^^
 
     Driver version `472.47` seems to be compatible as reported by one of our contributors.
--->
 
 ??? bug "Load Modules Async Causes CTD"
     ### Load Modules Async Causes CTD
@@ -1056,84 +1379,6 @@ TEMPLATE
 ---
 ## Known A32NX Incompatibilities
 
-??? bug "LVFR A321neo Compatibility Mod"
-    ### LVFR A321neo Compatibility Mod
-
-    !!! tip ""
-        *Affected versions: Stable, Development*
-    
-    ^^Description^^
-
-    This compatibility mod is available on flightsim.to and may overwrite our systems / EFB resulting in outdated systems or missing features in our EFB when the mod is installed.
-
-    ^^Possible Solution or Workaround^^
-
-    - Uninstall the mod
-    - Use an addon linker to ensure the mod is only installed when you plan to use it.
-
-??? bug "Your Controls Performance Issues"
-    ### Your Controls Performance Issues
-
-    !!! tip ""
-        *Affected versions: Stable, Development*
-
-    ^^Description^^
-
-    If you have this 3rd party addon installed but it is not in use for your flight you may experience degraded performance (FPS) in the simulator.
-
-    ^^Possible Solution or Workaround^^
-
-    - Remove the addon from your community folder if it will not be in use for your flight.
-
-??? bug "Toolbar Pushback Addon Issues"
-    ### Toolbar Pushback Addon Issues
-
-    !!! tip ""
-        *Affected versions: Stable, Development*
-
-    ^^Description^^
-
-    This 3rd party addon may have the following intermittent issues:
-
-    - Stuck aircraft
-    - Unable to taxi
-    - Performance degradation
-
-    ^^Possible Solution or Workaround^^
-
-    - Remove the addon from your community folder or wait for developer to update or see next item.
-    - Keep the addon but remove it from the toolbar once you have pushed back
-    - Use our EFB which has built in pushback controls or another addon.
-
-??? bug "3rd Party Interior Textures - Black Screens"
-    ### 3rd Party Interior Textures Black Screens
-
-    !!! tip ""
-        *Affected versions: Development*
-    
-    ^^Description^^
-
-    3rd party interior textures mods are breaking the state of our custom instruments. This is similar to the older `panel.cfg` livery issue that created systems conflicts.
-
-    We have identified the following texture pack to be the main offender:
-
-    !!! bug ""
-        Improved Textures Mod - A32NX & A320neo | by FlightFlow
-
-    {--
-
-    Please do not install addons that modify files or overwrite files inside the `flybywire-aircraft-a320-neo` folder.
-
-    --}
-
-    ^^Root Cause^^
-
-    Conflict with our own hand crafted textures.
-
-    ^^Possible Solution or Workaround^^
-
-    Remove the offending 3rd party interior texture.
-
 ---
 ## A32NX Fixed Issues
 
@@ -1201,6 +1446,8 @@ TEMPLATE
     * PFD artificial horizon freezes *(fixed)*
         - Workaround:
             - Turn off PFD, wait >10 seconds and turn PFD back on.
+
+-->
 
 ---
 
