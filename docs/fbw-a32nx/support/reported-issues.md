@@ -77,83 +77,102 @@ TEMPLATE
 
 -->
 
-??? bug "LVFR A321neo Compatibility Mod"
-    ### LVFR A321neo Compatibility Mod
-
-    !!! tip ""
-        *Affected versions: Stable, Development*
-    
-    ^^Description^^
-
-    This compatibility mod is available on flightsim.to and may overwrite our systems / EFB resulting in outdated systems or missing features in our EFB when the mod is installed.
-
-    ^^Possible Solution or Workaround^^
-
-    - Uninstall the mod
-    - Use an addon linker to ensure the mod is only installed when you plan to use it.
-
-??? bug "Your Controls Performance Issues"
-    ### Your Controls Performance Issues
+??? bug "Mouse Lock Caused by EFB Input Field"
+    ### Mouse Lock Caused by EFB Input Field
 
     !!! tip ""
         *Affected versions: Stable, Development*
 
     ^^Description^^
 
-    If you have this 3rd party addon installed but it is not in use for your flight you may experience degraded performance (FPS) in the simulator.
-
-    ^^Possible Solution or Workaround^^
-
-    - Remove the addon from your community folder if it will not be in use for your flight.
-
-??? bug "Toolbar Pushback Addon Issues"
-    ### Toolbar Pushback Addon Issues
-
-    !!! tip ""
-        *Affected versions: Stable, Development*
-
-    ^^Description^^
-
-    This 3rd party addon may have the following intermittent issues:
-
-    - Stuck aircraft
-    - Unable to taxi
-    - Performance degradation
-
-    ^^Possible Solution or Workaround^^
-
-    - Remove the addon from your community folder or wait for developer to update or see next item.
-    - Keep the addon but remove it from the toolbar once you have pushed back
-    - Use our EFB which has built in pushback controls or another addon.
-
-??? bug "3rd Party Interior Textures - Black Screens"
-    ### 3rd Party Interior Textures Black Screens
-
-    !!! tip ""
-        *Affected versions: Development*
-    
-    ^^Description^^
-
-    3rd party interior textures mods are breaking the state of our custom instruments. This is similar to the older `panel.cfg` livery issue that created systems conflicts.
-
-    We have identified the following texture pack to be the main offender:
-
-    !!! bug ""
-        Improved Textures Mod - A32NX & A320neo | by FlightFlow
-
-    {--
-
-    Please do not install addons that modify files or overwrite files inside the `flybywire-aircraft-a320-neo` folder.
-
-    --}
+    In certain situations, if you have selected an input field on the EFB and changed your view away from the EFB, you may no longer have use of your mouse cursor.
 
     ^^Root Cause^^
 
-    Conflict with our own hand crafted textures.
+    Under Investigation.
 
     ^^Possible Solution or Workaround^^
 
-    Remove the offending 3rd party interior texture.
+    Please follow the steps below to bypass this issue:
+
+    1. Open your browser (i.e. Chrome / Firefox)
+    - In the URL field type in - `localhost:19999`
+    - Click on any link
+    - Go to the `Console Tab` shown in the browser. (**Note:** This is not the devtools of your browser. The page you are on already has a console tab at the top.)
+    - At the bottom type in - `Coherent.call('UNFOCUS_INPUT_FIELD')`
+    - Press ++enter++
+
+---
+
+## Known A32NX Issues
+
+??? bug "Autopilot, FADEC, Electrical Systems not Working as Intended (UTF8 Issue)"
+    ### Autopilot, FADEC, Electrical Systems not Working as Intended (UTF8 Issue)
+
+    !!! tip ""
+        *Affected versions: Stable, Development*
+
+    ^^Description^^
+
+    Affects our custom autopilot, FADEC, and electrical system.
+
+    In rare cases the above mentioned systems may not start or behave erratically. This is in part due to `UTF-8` language support beta not enabled on your machine.
+
+    ^^Root Cause^^
+
+    Currently under investigation.
+
+    ^^Possible Solution or Workaround^^
+
+    [UTF8 Support](../settings.md#utf8-support) 
+
+??? bug "MSFS Freezes after **Ready To Fly**"
+    ### MSFS Freezes after **Ready To Fly**
+
+    !!! tip ""
+        *Affected versions: Stable, Development*
+
+    ^^Description^^
+
+    If your username on your windows machine (not Xbox gamertag) contains any unicode characters it may cause MSFS to freeze after selecting `Ready to Fly`.
+
+    Sample characters (not all inclusive): **ë** or **õ**
+
+    ^^Root Cause^^
+
+    Unicode Characters in Windows Username.
+
+    Under Investigation.
+
+    ^^Possible Solution or Workaround^^
+
+    Change your windows username and remove any unicode characters present. [Guide Here](https://www.windowscentral.com/how-change-account-name-windows-10-sign-screen){target=new}
+
+    ^^Additional Information^^
+
+    Also see [UTF8 Support](../settings.md#utf8-support) 
+
+??? bug "Black Screens / Unable to Start"
+    ### Black Screens / Unable to Start
+
+    !!! tip ""
+        *Affected versions: Stable, Development*
+
+    ^^Description^^
+
+    Black displays, Electrical systems not starting, etc.
+
+    ^^Root Cause^^
+
+    - Conflict with another mod/livery or incorrect installation of the A32NX add-on
+
+    ^^Possible Solution or Workaround^^
+
+    - Remove everything from the Community folder (everything!)
+    - Do a [Clean Install](../installation.md#clean-install-steps)
+    - Use our [Installer](https://api.flybywiresim.com/installer){target=new} to reinstall the A32NX add-on
+
+    Also see [Autopilot, FADEC, Electrical Systems not Working as Intended](#autopilot-fadec-electrical-systems-not-working-as-intended).
 
 ??? bug "Outdated Marketplace Version"
     ### Outdated Marketplace Version
@@ -188,35 +207,25 @@ TEMPLATE
 
     Information on how to install with the FlyByWire Installer can be found here: [Installation Guide](../installation.md).
 
-??? bug "Load Modules Async Causes CTD"
-    ### Load Modules Async Causes CTD
+??? bug "Unable to Taxi / Aircraft Does Not Move"
+    ### Unable to Taxi / Aircraft Does Not Move
 
     !!! tip ""
-        *Affected versions: Development*
+        *Affected versions: Stable, Development*
 
     ^^Description^^
 
-    The Load Modules Asynchronously WASM setting causes the development version to crash if turned on. Crash occurs usually 3/4 through the loading bar after selecting FLY.
+    See [Toolbar Pushback Addon Issues](#toolbar-pushback-addon-issues)
 
-    ^^Root Cause^^
+??? bug "Nose Wheel Steering Locked (NW STRG DISC)"
+    ### Nose Wheel Steering Locked (NW STRG DISC)
 
-    *Under Investigation*
+    !!! tip ""
+        *Affected versions: Stable, Development*
 
-    ^^Possible Solution or Workaround^^
+    ^^Description^^
 
-    We recommend turning this setting off in the developer mode settings. Please see the following steps:
-
-    1. Go to Options
-    - Go to General Settings
-    - Go to Developers and switch Developer Mode to `ON`
-    - Go to the top bar that appears and find Options
-    - Under WASM ensure `Load Modules Asynchronously` is deselected
-
-    ^^Additional Information^^
-
-    Here is a sample of the setting that needs to be deselected. You can also turn off Fast WASM Compilation as well.
-
-    ![WASM issue image](https://cdn.discordapp.com/attachments/838062729398976522/922226489724907561/dev-bar.png)
+    See [Toolbar Pushback Addon Issues](#toolbar-pushback-addon-issues)
 
 ??? bug "Bad Performance after Sim Update 7 and Using DX12"
     ### Poor Performance After Sim Update 7 and Using DX12
@@ -239,127 +248,6 @@ TEMPLATE
     not an FBW issue and we cannot address it for now - please keep in mind
     DX12 is officially a "beta feature" and thus should not be used unless
     you know what you are doing.
-
-??? bug "Mouse Lock Caused by EFB Input Field"
-    ### Mouse Lock Caused by EFB Input Field
-
-    !!! tip ""
-        *Affected versions: Stable, Development*
-
-    ^^Description^^
-
-    In certain situations, if you have selected an input field on the EFB and changed your view away from the EFB, you may no longer have use of your mouse cursor.
-
-    ^^Root Cause^^
-
-    Under Investigation.
-
-    ^^Possible Solution or Workaround^^
-
-    Please follow the steps below to bypass this issue:
-
-    1. Open your browser (i.e. Chrome / Firefox)
-    - In the URL field type in - `localhost:19999`
-    - Click on any link
-    - Go to the `Console Tab` shown in the browser. (**Note:** This is not the devtools of your browser. The page you are on already has a console tab at the top.)
-    - At the bottom type in - `Coherent.call('UNFOCUS_INPUT_FIELD')`
-    - Press ++enter++
-
-??? bug "MSFS Freezes after **Ready To Fly**"
-    ### MSFS Freezes after **Ready To Fly**
-
-    !!! tip ""
-        *Affected versions: Stable, Development*
-
-    ^^Description^^
-
-    If your username on your windows machine (not Xbox gamertag) contains any unicode characters it may cause MSFS to freeze after selecting `Ready to Fly`.
-
-    Sample characters (not all inclusive): **ë** or **õ**
-
-    ^^Root Cause^^
-
-    Unicode Characters in Windows Username.
-
-    Under Investigation.
-
-    ^^Possible Solution or Workaround^^
-
-    Change your windows username and remove any unicode characters present. [Guide Here](https://www.windowscentral.com/how-change-account-name-windows-10-sign-screen){target=new}
-
-    ^^Additional Information^^
-
-    Also see [Unwanted behavior - UTF8](#unwanted-behavior---utf8)
-
-??? bug "Nose Wheel Steering Locked (NW STRG DISC)"
-    ### Nose Wheel Steering Locked (NW STRG DISC)
-
-    !!! tip ""
-        *Affected versions: Stable, Development*
-
-    ^^Description^^
-
-    See [Toolbar Pushback Addon Issues](#toolbar-pushback-addon-issues)
-
-??? bug "Unable to Taxi / Aircraft Does Not Move"
-    ### Unable to Taxi / Aircraft Does Not Move
-
-    !!! tip ""
-        *Affected versions: Stable, Development*
-
-    ^^Description^^
-
-    See [Toolbar Pushback Addon Issues](#toolbar-pushback-addon-issues)
-
-??? bug "Autopilot, FADEC, Electrical Systems not Working as Intended (UTF8 Issue)"
-    ### Autopilot, FADEC, Electrical Systems not Working as Intended (UTF8 Issue)
-
-    !!! tip ""
-        *Affected versions: Stable, Development*
-
-    ^^Description^^
-
-    Affects our custom autopilot, FADEC, and electrical system.
-
-    In rare cases the above mentioned systems may not start or behave erratically. This is in part due to `UTF-8` language support beta not enabled on your machine.
-
-    ^^Root Cause^^
-
-    Currently under investigation.
-
-    ^^Possible Solution or Workaround^^
-
-    1. - Open Windows Control Panel -> Region.
-         - Go to the Administrative tab and click ++"Change system locale"++
-         - Make sure the check mark next to `Beta: Use UTF-8 for worldwide language support` is selected.
-         - Click ++"OK"++ and restart your computer.
-    2. - Ensure `simconnect.cfg` does not appear in your Documents folder on your computer.
-
-??? bug "Black Screens / Unable to Start"
-    ### Black Screens / Unable to Start
-
-    !!! tip ""
-        *Affected versions: Stable, Development*
-
-    ^^Description^^
-
-    Black displays, Electrical systems not starting, etc.
-
-    ^^Root Cause^^
-
-    - Conflict with another mod/livery or incorrect installation of the A32NX add-on
-
-    ^^Possible Solution or Workaround^^
-
-    - Remove everything from the Community folder (everything!)
-    - Do a [Clean Install](../installation.md#clean-install-steps)
-    - Use our [Installer](https://api.flybywiresim.com/installer){target=new} to reinstall the A32NX add-on
-
-    Also see [Autopilot, FADEC, Electrical Systems not Working as Intended](#autopilot-fadec-electrical-systems-not-working-as-intended).
-
----
-
-## Known A32NX Issues
 
 ??? warning "SU9 and TCA Throttle Issues"
     ### SU9 and TCA Throttle Issues
@@ -407,26 +295,6 @@ TEMPLATE
     ^^Additional Information^^
 
     We are working with IVAO on a bugfix.
-
-??? warning "WX Radar Does Not Update"
-    ### WX Radar Does Not Update
-
-    !!! tip ""
-        *Affected versions: Stable, Development*
-
-    ^^Description^^
-
-    Sim Update 7 broke the weather radar update on the ND in our aircraft.
-
-    ^^Root Cause^^
-
-    Sim Update 7 change - cause unknown. We are investigating.
-
-    ^^Possible Solution or Workaround^^
-
-    No fix or workaround available at this time.
-
-    Turning the WX off and on or TERR ON ND on and off seems to update the WX on the ND.
 
 ??? warning "Fuel Prediction Too low"
     ### Fuel Consumption
@@ -894,7 +762,6 @@ TEMPLATE
 
     Keep up to date with the follow MSFS forum post - [Current issue with live weather and associated ctd](https://forums.flightsimulator.com/t/current-issue-with-live-weather-and-associated-ctd-and-possibly-black-screen-on-xbox/486177)
 
--->
 
 ??? bug "Latest Nvidia Driver Causes CTD"
     ### Latest Nvidia Driver Causes CTD
@@ -917,6 +784,37 @@ TEMPLATE
     ^^Additional Information^^
 
     Driver version `472.47` seems to be compatible as reported by one of our contributors.
+-->
+
+??? bug "Load Modules Async Causes CTD"
+    ### Load Modules Async Causes CTD
+
+    !!! tip ""
+        *Affected versions: Development*
+
+    ^^Description^^
+
+    The Load Modules Asynchronously WASM setting causes the development version to crash if turned on. Crash occurs usually 3/4 through the loading bar after selecting FLY.
+
+    ^^Root Cause^^
+
+    *Under Investigation*
+
+    ^^Possible Solution or Workaround^^
+
+    We recommend turning this setting off in the developer mode settings. Please see the following steps:
+
+    1. Go to Options
+    - Go to General Settings
+    - Go to Developers and switch Developer Mode to `ON`
+    - Go to the top bar that appears and find Options
+    - Under WASM ensure `Load Modules Asynchronously` is deselected
+
+    ^^Additional Information^^
+
+    Here is a sample of the setting that needs to be deselected. You can also turn off Fast WASM Compilation as well.
+
+    ![WASM issue image](https://cdn.discordapp.com/attachments/838062729398976522/922226489724907561/dev-bar.png)
 
 ??? bug "CTD When Pressing **FLY** on World Menu"
     ### CTD when pressing **FLY** on world menu
@@ -1158,14 +1056,83 @@ TEMPLATE
 ---
 ## Known A32NX Incompatibilities
 
-??? warning "Incompatibilities"
+??? bug "LVFR A321neo Compatibility Mod"
+    ### LVFR A321neo Compatibility Mod
+
+    !!! tip ""
+        *Affected versions: Stable, Development*
+    
+    ^^Description^^
+
+    This compatibility mod is available on flightsim.to and may overwrite our systems / EFB resulting in outdated systems or missing features in our EFB when the mod is installed.
+
+    ^^Possible Solution or Workaround^^
+
+    - Uninstall the mod
+    - Use an addon linker to ensure the mod is only installed when you plan to use it.
+
+??? bug "Your Controls Performance Issues"
+    ### Your Controls Performance Issues
 
     !!! tip ""
         *Affected versions: Stable, Development*
 
-    - ASOBO *Aviator/Beta Club* A320 liveries are incompatible with the A32NX add-on
-    - Wipers don't function correctly with converted FSX Liveries
-    - LVFR A321neo Compatibility Mod
+    ^^Description^^
+
+    If you have this 3rd party addon installed but it is not in use for your flight you may experience degraded performance (FPS) in the simulator.
+
+    ^^Possible Solution or Workaround^^
+
+    - Remove the addon from your community folder if it will not be in use for your flight.
+
+??? bug "Toolbar Pushback Addon Issues"
+    ### Toolbar Pushback Addon Issues
+
+    !!! tip ""
+        *Affected versions: Stable, Development*
+
+    ^^Description^^
+
+    This 3rd party addon may have the following intermittent issues:
+
+    - Stuck aircraft
+    - Unable to taxi
+    - Performance degradation
+
+    ^^Possible Solution or Workaround^^
+
+    - Remove the addon from your community folder or wait for developer to update or see next item.
+    - Keep the addon but remove it from the toolbar once you have pushed back
+    - Use our EFB which has built in pushback controls or another addon.
+
+??? bug "3rd Party Interior Textures - Black Screens"
+    ### 3rd Party Interior Textures Black Screens
+
+    !!! tip ""
+        *Affected versions: Development*
+    
+    ^^Description^^
+
+    3rd party interior textures mods are breaking the state of our custom instruments. This is similar to the older `panel.cfg` livery issue that created systems conflicts.
+
+    We have identified the following texture pack to be the main offender:
+
+    !!! bug ""
+        Improved Textures Mod - A32NX & A320neo | by FlightFlow
+
+    {--
+
+    Please do not install addons that modify files or overwrite files inside the `flybywire-aircraft-a320-neo` folder.
+
+    --}
+
+    ^^Root Cause^^
+
+    Conflict with our own hand crafted textures.
+
+    ^^Possible Solution or Workaround^^
+
+    Remove the offending 3rd party interior texture.
 
 ---
 ## A32NX Fixed Issues
