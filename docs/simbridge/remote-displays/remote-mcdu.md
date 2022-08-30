@@ -5,7 +5,7 @@
 ## Overview
 
 !!! danger "Development/Experimental Only"
-    This feature is only available on [experimental](../../fbw-a32nx/support/exp.md) and [development](../fbw-a32nx/fbw-versions.md#development-version-recommended) versions, if you wish to use the MCDU Server please revert back to the stable release version.
+    This feature is only available on [experimental](../../fbw-a32nx/support/exp.md) and [development](../../fbw-a32nx/fbw-versions.md#development-version-recommended) versions, if you wish to use the MCDU Server please revert back to the stable release version.
 
     For a guide to using the **MCDU Server with the stable version** please see the [Web MCDU Feature Guide](../../fbw-a32nx/feature-guides/web-mcdu.md). 
 
