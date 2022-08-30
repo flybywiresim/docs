@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="/../../stylesheets/web-mcdu.css">
 
 !!! danger "STOP"
-    This documentation is applicable for **STABLE** versions only. If you are using the Development or Experimental branch please refer to our SimBridge Documentation instead.
+    This documentation is applicable for **STABLE** versions only. If you are using the Development or Experimental version please refer to our SimBridge Documentation instead.
 
     ---
 
