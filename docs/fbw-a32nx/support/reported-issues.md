@@ -67,12 +67,20 @@ TEMPLATE
 !!! warning "Non Breaking Issue / Inconvenience"
 !!! tip "Config Issue / Usage Issue"
 
+## Use the Browser's Search Function
+
+On Desktop press ++ctrl+'F'++ to search for an issue within the current page.
+
 ## Commonly Reported Issues
 The following list of issues are commonly reported on our Discord support channel. Please check these before 
 reporting any other issue on Discord. 
 
 ??? bug "Invisible Aircraft"
     ### Invisible Aircraft
+
+    *Affected versions: Stable, Development*
+    
+    See [Remove Old Marketplace Installation](#remove-old-marketplace-installation)
 
 ??? bug "Infinite Loading Times"
     ### Infinite Loading Times
@@ -124,6 +132,28 @@ reporting any other issue on Discord.
 
 ??? bug "Lost Use of Mouse After Typing in a flyPad Input Field"
     ### Lost Use of Mouse After Typing in a flyPad Input Field
+
+    !!! tip ""
+        *Affected versions: Stable, Development*
+
+    ^^Description^^
+
+    In certain situations, if you have selected an input field on the EFB and changed your view away from the EFB, you may no longer have use of your mouse cursor.
+
+    ^^Root Cause^^
+
+    Under Investigation.
+
+    ^^Possible Solution or Workaround^^
+
+    Please follow the steps below to bypass this issue:
+
+    1. Open your browser (i.e. Chrome / Firefox)
+    - In the URL field type in - `localhost:19999`
+    - Click on any link
+    - Go to the `Console Tab` shown in the browser. (**Note:** This is not the devtools of your browser. The page you are on already has a console tab at the top.)
+    - At the bottom type in - `Coherent.call('UNFOCUS_INPUT_FIELD')`
+    - Press ++enter++
 
 ??? bug "MSFS Freezes After 'Ready To Fly'"
     ### MSFS Freezes After 'Ready To Fly'
@@ -186,19 +216,6 @@ reporting any other issue on Discord.
 ??? tip "Difficulty Accurately Clicking Controls"
     ### Difficulty Accurately Clicking Controls
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Solutions to Commonly Reported Issues 
 The following list of solutions solves most reported issues on our Discord support channel. 
 Please try these before reporting any other issue on Discord.
@@ -213,12 +230,12 @@ Please try these before reporting any other issue on Discord.
 
     If you have the following issues you are **most likely on an outdated stable** or you have an **installation conflict**:
 
+    - Invisible Aircraft
+    - Infinite loading times
     - White EFB screen
     - PFD is missing bank angle protection indicators
     - `NOT IN DATABASE` MCDU error
     - External lights are not working
-    - Invisible Aircraft
-    - Infinite loading times
 
     ^^Root Cause^^
 
@@ -378,25 +395,14 @@ Please try these before reporting any other issue on Discord.
 
 
 
+---
+
+---
+
+---
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--
 ## Known A32NX Bugs
 
 *Last Update: {{git_revision_date_localized}}*
