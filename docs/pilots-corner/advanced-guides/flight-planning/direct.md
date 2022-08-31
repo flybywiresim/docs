@@ -40,7 +40,7 @@ This function is the simplest to use.
 
     ![Direct Example](../../assets/advanced-guides/direct/direct1.png){loading=lazy width=40%}
 
-    Before selecting  waypoint you can visually see in this side by side example of the ND matching those displayed on the DIR TO page.
+    Before selecting a waypoint you can visually see your enroute waypoints on the ND matching those displayed on the DIR TO page in the side by side example below: 
 
     ![Direct+ND Example](../../assets/advanced-guides/direct/direct2.png){loading=lazy}
 
