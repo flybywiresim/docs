@@ -1,6 +1,13 @@
 # Direct
 
-This is a short guide on utilizing the "direct" feature on the MCDU found on the "DIR TO" page. Pilots can navigate to this page by selecting the `DIR` key. 
+This is a short guide on utilizing the "direct" feature on the MCDU found on the "DIR TO" page. Pilots can navigate to this page by selecting the `DIR` key.
+
+{==
+
+It is important to note that currently we are simulating the Thales version of the DIR TO page on our MCDU. We plan on changing this at a later time to the Honeywell version to 
+be in line with the rest of our implementation.
+
+==}
 
 ![dir-page](../../assets/advanced-guides/direct/dir-page.png){loading=lazy width=50%}
 
@@ -28,13 +35,26 @@ This function is the simplest to use.
 - Navigate to the DIR TO page by selecting `DIR` key on the MCDU.
 - Select your desired enroute waypoint from your flight plan using the left LSKs.
 
+!!! block ""
+    This is an example of the DIR TO page on the MCDU with enroute waypoints displayed.
+
+    ![Direct Example](../../assets/advanced-guides/direct/direct1.png){loading=lazy width=40%}
+
+    Before selecting  waypoint you can visually see in this side by side example of the ND matching those displayed on the DIR TO page.
+
+    ![Direct+ND Example](../../assets/advanced-guides/direct/direct2.png){loading=lazy}
+
 If you wish to or are required to proceed direct to a waypoint not on your current flight plan you can:
 
 - Enter the waypoint using the MCDU's scratchpad.
 - Select LSK 1L to input it as the desired waypoint.
 
-On the Navigation Display you will see the calculated track in yellow dashed lines from the aircraft's present position direct to the waypoint specified above. If you are happy 
-with what is displayed you can select LSK 6R to confirm the DIRECT and add it to your flight plan.
+Upon selecting a desired waypoint using the corresponding left LSK you should see something like this side by side example:
+
+![Direct+ND Example 2](../../assets/advanced-guides/direct/direct3.png){loading=lazy}
+
+On the Navigation Display you will see the calculated track in yellow dashed lines from the aircraft's present position direct to the waypoint specified above. If you are 
+happy with what is displayed you can select LSK 6R to confirm the DIRECT and add it to your flight plan.
 
 You will see `T-P` added to your flight plan followed by the waypoint you selected. This indicates your turning point to the now active track to the new waypoint.
 
