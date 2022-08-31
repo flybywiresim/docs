@@ -24,6 +24,8 @@
 The Interior Lighting Presets page allows you to save and load up to 8 presets for lighting levels of all internal 
 lights and display brightness settings. 
 
+Lighting presets can be loaded [manually](#manual) or [automatically](#automatic).
+
 !!! tip "Lighting Preset can only be loaded and saved when the aircraft is powered." 
 
 #### Changing Preset Name
@@ -36,9 +38,22 @@ characters. When you leave the input field a confirmation dialog will ask you to
 
 #### Load a Preset
 
+##### Manual
+
 To load a preset please click on the "Load Preset" button. The aircraft must be powered for the buttons to be enabled. 
 
 ![img_1.png](../../assets/flypados3/flypad-presets-load-button.png)
+
+---
+
+##### Automatic
+
+You can also configure the aircraft to set your lighting preset automatically depending on the time of day. There are three configurable settings based on the simulator's time 
+of day.
+
+Select a preset from the dropdown menu and ensure that you enable the feature using the toggle.
+
+![lighting presets](../../assets/flypados3/lighting-presets.png)
 
 #### Save a Preset
 
