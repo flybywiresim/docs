@@ -79,27 +79,89 @@ reporting any other issue on Discord.
     ### Invisible Aircraft
 
     *Affected versions: Stable, Development*
+
+    ^^Description^^
+
+    The aircraft can be selected but is invisible in the Hangar and after starting the flight. 
+
+    ^^Possible Solution or Workaround^^
     
     See [Remove Old Marketplace Installation](#remove-old-marketplace-installation)
 
 ??? bug "Infinite Loading Times"
     ### Infinite Loading Times
 
+    *Affected versions: Stable, Development*
+
+    ^^Description^^
+
+    While loading into a flight the loading never stops and the flight never starts. 
+
+    ^^Possible Solution or Workaround^^
+    
+    Try these solutions:
+
+    - [Remove Old Marketplace Installation](#remove-old-marketplace-installation)
+    - [Clean Install](#clean-install)
+    - [Use the Latest Version of MS Flight Simulator](#use-the-latest-version-of-ms-flight-simulator)
+    - [Enable Windows UTF8 Support](#enable-windows-utf8-support)
+    - [Test With Only the A32NX Add-on in Community](#test-with-only-the-a32nx-add-on-in-community)
+
 ??? bug "Cockpit Lights and Display Are Erratically On"
     ### Cockpit Lights and Display Are Erratically On
+
+    *Affected versions: Stable, Development*
+
+    ^^Description^^
+
+    After loading into a flight the cockpit lights and displays are partly on and partly off.
+
+    ^^Possible Solution or Workaround^^
+    
+    Try these solutions:
+
+    - [Test With Only the A32NX Add-on in Community](#test-with-only-the-a32nx-add-on-in-community)
+    - [Clean Install](#clean-install)
+    - [Remove Old Marketplace Installation](#remove-old-marketplace-installation)
+    - [Enable Windows UTF8 Support](#enable-windows-utf8-support)
+    - [Use the Latest Version of MS Flight Simulator](#use-the-latest-version-of-ms-flight-simulator)
 
 ??? bug "Broken Systems, Black Screens, Broken Cockpit Layout"
     ### Broken Systems, Black Screens, Broken Cockpit Layout
 
-    !!! tip ""
-        *Affected versions: Stable, Development*
+    *Affected versions: Stable, Development*
 
-    - UTF8
-    - Using an incompatible Add-On
+    ^^Description^^
 
+    After loading into a flight some systems like electricity are broken, the cockpit displays are black, the cockpit 
+    layout is broken.
+
+    ^^Possible Solution or Workaround^^
+    
+    Try these solutions:
+
+    - [Test With Only the A32NX Add-on in Community](#test-with-only-the-a32nx-add-on-in-community)
+    - [Clean Install](#clean-install)
+    - [Remove Old Marketplace Installation](#remove-old-marketplace-installation)
+    - [Enable Windows UTF8 Support](#enable-windows-utf8-support)
+    - [Use the Latest Version of MS Flight Simulator](#use-the-latest-version-of-ms-flight-simulator)
 
 ??? bug "Outdated Systems And Missing Features Although Current Version Installed"
     ### Outdated Systems And Missing Features Although Current Version Installed
+
+    *Affected versions: Stable, Development*
+
+    ^^Description^^
+
+    The flyPad EFB or other systems are outdated and missing features compared to what is documented. 
+
+    ^^Possible Solution or Workaround^^
+    
+    Try these solutions:
+
+    - [Make Sure You Have the Latest Version of the A32NX Add-on](#make-sure-you-have-the-latest-version-of-the-a32nx-add-on)
+    - [Test With Only the A32NX Add-on in Community](#test-with-only-the-a32nx-add-on-in-community)
+    - [Clean Install](#clean-install)
 
 ??? bug "Performance Issues / FPS Issues"
     ### Performance Issues / FPS Issues
@@ -107,13 +169,49 @@ reporting any other issue on Discord.
     !!! tip ""
         *Affected versions: Stable, Development*
 
-    - Using DX12
-    - Using Toolbar Pushback Add-On
-    - Having YourControls Add-On Installed
-    - Having YourControls Add-On Installed
+    ^^Description^^
+
+    Experiencing low FPS or stuttering while using the A32NX.
+
+    Sim performance is a very complex topic and it usually is very specific to a user's hardware and configuration. 
+    There are often no general solutions to these issues and users need to configure their system in a way it can handle 
+    complex custom aircraft like the A32NX.  
+
+    Be aware that the A32NX is not a finished product and many systems are not yet optimized for performance. We 
+    will continue to improve this during the ongoing development of the A32NX. 
+
+    The Stable and Development versions of the A32NX are working well for most of our users. If you encounter 
+    problems you might need to tune your system to handle the complexity of the A32NX (see solutions below).
+
+    The Experimental version has a higher risk of having performance issues. Switch to Development if these issue 
+    make the aircraft unusable for you. 
+
+    ^^Possible Solution or Workaround^^
+
+    - [Do Not Use DX12](#do-not-use-dx12)
+    - [Toolbar Pushback Addon Issues](#toolbar-pushback-addon-issues)
+    - [Your Controls Performance Issues](#your-controls-performance-issues)
+    - [Test With Only the A32NX Add-on in Community](#test-with-only-the-a32nx-add-on-in-community)
+    - Make sure MSFS is configured for optimal performance 
+        - See this article: [Graphic Settings in MSFS](https://forums.flightsimulator.com/t/how-to-graphics-settings-and-performance-guide-su5-complete-retest-8-2-2021/132407)
+        - Tip: better to be GPU bound than CPU bound
 
 ??? bug "Unable to Move or Taxi"
     ### Unable to Move or Taxi
+
+    *Affected versions: Stable, Development*
+
+    ^^Description^^
+
+    The aircraft is unable to move or taxi. The ECAM is showing a "NW STRG DISC" warning. 
+    This is caused by an invisible tug which is still connected to the aircraft.
+    This is an MSFS issue as the visual representation of the tug and the connection to the aircraft can get out of 
+    sync. 
+
+    ^^Possible Solution or Workaround^^
+
+    - [Disconnect the Tug](#disconnect-the-tug)
+    - [Toolbar Pushback Addon Issues](#toolbar-pushback-addon-issues)
 
 ??? bug "Hard To Control the Aircraft during Taxi, TakeOff or Land"
     ### Hard To Control the Aircraft during Taxi, TakeOff or Land
@@ -254,8 +352,8 @@ Please try these before reporting any other issue on Discord.
     Information on how to install with the FlyByWire Installer can be found here: [Installation Guide](../installation.md).
 
 
-??? tip "Make Sure You Run the Latest Version of MS Flight Simulator"
-    ### Make Sure You Run the Latest Version of MS Flight Simulator
+??? tip "Use the Latest Version of MS Flight Simulator"
+    ### Use the Latest Version of MS Flight Simulator
 
 ??? tip "Make Sure You Have the Latest Version of the A32NX Add-on"
     ### Make Sure You Have the Latest Version of the A32NX Add-on
