@@ -1,6 +1,7 @@
 # Reported Known Issues
 
-<link rel="stylesheet" href="/../../stylesheets/reported-issues.css">
+<link rel="stylesheet" href="/stylesheets/toc-tables.css">
+<link rel="stylesheet" href="/stylesheets/reported-issues.css">
 
 !!! error  "STOP - Read this First"
 
@@ -61,15 +62,26 @@ TEMPLATE
 
 -->
 
+##  Index
+
+| Quick Links                                                                            |
+|:---------------------------------------------------------------------------------------|
+| [Commonly Reported Issues](#commonly-reported-issues)                                  |
+| [Solutions to Commonly Reported Issues](#solutions-to-commonly-reported-issues)        |
+| [FBW Installer Issues](#fbw-installer-issues)                                          |
+| [Incompatible and Problematic Add-Ons/Mods](#incompatible-and-problematic-add-onsmods) |
+
+## Use the Browser's Search Function
+
+On Desktop press ++ctrl+'F'++ to search for an issue within the current page.
+
 ## Legend
 
 !!! bug "Breaking Issue / Bug"
 !!! warning "Non Breaking Issue / Inconvenience"
 !!! tip "Config Issue / Usage Issue"
 
-## Use the Browser's Search Function
 
-On Desktop press ++ctrl+'F'++ to search for an issue within the current page.
 
 ## Commonly Reported Issues
 The following list of issues are commonly reported on our Discord support channel. Please check these before 
@@ -313,6 +325,20 @@ reporting any other issue on Discord.
 
 ??? tip "Difficulty Accurately Clicking Controls"
     ### Difficulty Accurately Clicking Controls
+
+??? tip "Aircraft Not Following Flight Plan Route"
+    ### Aircraft Not Following Flight Plan Route
+
+    !!! tip ""
+        *Affected versions: Stable, Development*
+
+    ^^Description^^
+    
+    This is typically caused by flying into a discontinuity ar an incomplete setup of the aircraft. 
+
+    ^^Possible Solution or Workaround^^
+
+    - [Disconnect the Tug](#disconnect-the-tug)
 
 ## Solutions to Commonly Reported Issues 
 The following list of solutions solves most reported issues on our Discord support channel. 
