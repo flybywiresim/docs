@@ -51,6 +51,10 @@ To load a preset please click on the "Load Preset" button. The aircraft must be 
 You can also configure the aircraft to set your lighting preset automatically depending on the time of day. There are three configurable settings based on the simulator's time 
 of day.
 
+!!! warning ""
+    Using the automatic preset only sets the aircraft lighting once (when enabled or aircraft power is switched on). This feature will not automatically change your flight deck 
+    lighting as time progresses during your flight.
+
 Select a preset from the dropdown menu and ensure that you enable the feature using the toggle.
 
 ![lighting presets](../../assets/flypados3/lighting-presets.png)
