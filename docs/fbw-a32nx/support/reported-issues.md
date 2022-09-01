@@ -114,6 +114,8 @@ reporting any other issue on Discord.
     
     Try these solutions:
 
+    - Wait at least 20-30min as loading after an aircraft update can take a very long time because 
+      the sim compiles the so called wasm files 
     - [Remove Old Marketplace Installation](#remove-old-marketplace-installation)
     - [Clean Install](#clean-install)
     - [Use the Latest Version of MS Flight Simulator](#use-the-latest-version-of-ms-flight-simulator)
