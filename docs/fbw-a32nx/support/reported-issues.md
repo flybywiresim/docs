@@ -680,8 +680,15 @@ reporting any other issue on Discord.
     [Beginner Guide - Engine Start Section](../../pilots-corner/beginner-guide/engine-start-taxi.md#engine-start).
 
 
-??? tip "Can't Push or Pull Knobs, Controls HIghlighted Yellow or Blue"
+??? tip "Can't Push or Pull Knobs, Controls Highlighted Yellow or Blue"
     ### Can't Push or Pull Knobs, Controls HIghlighted Yellow or Blue
+
+    !!! tip ""
+        *Affected versions: Stable, Development*
+
+    ^^Description^^
+
+    You pro
 
 ??? tip "flyPad EFB Missing in Cockpit"
     ### flyPad EFB Missing in Cockpit
@@ -837,24 +844,27 @@ Please try these before reporting any other issue on Discord.
 ??? tip "Fixing Nav Data Issues"
     ### Fixing Nav Data Issues
 
-    The A32NX uses the sim's nav data. So any nav data issues will be usually also be present in other default 
-    aircrats or the World Map.
+    The A32NX uses the sim's nav data. So any nav data issues will usually also be present in other default 
+    aircrats and the World Map.
 
     You can test these issues by using the MSFS World Map. If the required nav data (waypoint, SID, STAR, APPR, RwY, 
     Airport, etc.) is missing in the World Map as well, then it is a general nav data issue and not an issue with 
     the aircraft. 
 
-    Most issue users encounter are because their flight planning tool (e.g. SimBrief, etc.) uses a different nav data 
-    version (called AIRAC) than the sim. 
+    Most commen nav data issues come from flight planning tools (e.g. SimBrief, etc.) which use outdated nav data 
+    versions (so called AIRAC). These often cost free tools are limited to generating routes using obsolete AIRAC 
+    cycles, while MSFS regularly updates to the latest AIRAC available. This can lead to route incompatibilies and 
+    various error messages when you import or enter the flight plan to the MCDU, including "NOT ALLOWED", "NOT IN 
+    DATABASE", and "AWY/WPT MISMATCH".
+
+    Any of these errors during route import could mean that your route is no longer valid in the current cycle, and 
+    cannot be properly used as a valid flight plan in the sim. 
 
     To avoid this we recommend a Navigraph subscription which will make sure SimBrief and the sim have identical nav 
     data. Also you would have the matching Navigraph charts at your disposal.
 
-    If you do not have a subscription you will find that flight plans from external tools with different nav data 
-    version will cause problems like missing navigation data: - Waypoints, VOR, NDB, etc. - SIDs, STAR, APPR - Airports
-
-    If you have a subscription ybut still have issue with the nav data try a re-install of the navigation data by 
-    removing and installing the data with the Navigraph Data Center tool.  
+    If you have a Navigraph subscription but still have issues with the nav data try a re-install of the navigation 
+    data by removing and installing the data with the Navigraph Data Center tool.
 
 ??? tip "Use the Correct Airframe for SimBrief"
     ### Use the Correct Airframe for SimBrief
