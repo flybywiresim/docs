@@ -48,6 +48,7 @@
 ---
 
 <!--
+
 TEMPLATE
 
 ??? issue "Issue Headline"
@@ -797,11 +798,13 @@ Please try these before reporting any other issue on Discord.
     The A32NX only works with the latest version of MS Flight Simulator. Please make sure that your simulator is up 
     to date.    
 
-??? tip "Make Sure You Have the Latest Version of the A32NX Add-on"
-    ### Make Sure You Have the Latest Version of the A32NX Add-on
+??? tip "Use the Latest Version of the A32NX Add-on"
+    ### Use the Latest Version of the A32NX Add-on
 
     The A32NX is constant being improved and extended. New features, changed features, and bug fixes are constantly 
     being added. Because of this it is important to make sure that you have the latest version of the A32NX add-on.
+
+    The latest fixes and features are available in the Development version of the add-on.
 
     Use our Installer to check availability of new updates and keep your installation as current as possible.
 
@@ -813,14 +816,48 @@ Please try these before reporting any other issue on Discord.
 ??? tip "Enable Windows UTF8 Support"
     ### Enable Windows UTF8 Support
 
+    See [UTF8 Support](../../fbw-a32nx/settings.md#utf8-support)
+
 ??? tip "Test With Only the A32NX Add-on in Community"
     ### Test With Only the A32NX Add-on in Community
+
+    !!! error "**This is the most important troubleshooting step for Microsoft Flight Simulator!!**"
+
+    To make sure the issue you are experiencing is not caused by a conflict with other add-ons or liveries 
+    ***remove everything (really everything!) from your [Community Folder](#community-folder-content)** and perform 
+    a [clean reinstall](../installation.md#clean-install-steps) of the A32NX with the 
+    [FlyByWire Installer](https://api.flybywiresim.com/installer){target=new}.
+
+    An easy way to do this without deleting your add-ons and liveries is to rename the current Community folder to 
+    "Community.old" and then create a new Community folder which then empty. You can the use the FlyByWire Installer 
+    to reinstall the A32NX. 
 
 ??? tip "Fixing Nav Data Issues"
     ### Fixing Nav Data Issues
 
+    The A32NX uses the sim's nav data. So any nav data issues will be usually also be present in other default 
+    aircrats or the World Map.
+
+    You can test these issues by using the MSFS World Map. If the required nav data (waypoint, SID, STAR, APPR, RwY, 
+    Airport, etc.) is missing in the World Map as well, then it is a general nav data issue and not an issue with 
+    the aircraft. 
+
+    Most issue users encounter are because their flight planning tool (e.g. SimBrief, etc.) uses a different nav data 
+    version (called AIRAC) than the sim. 
+
+    To avoid this we recommend a Navigraph subscription which will make sure SimBrief and the sim have identical nav 
+    data. Also you would have the matching Navigraph charts at your disposal.
+
+    If you do not have a subscription you will find that flight plans from external tools with different nav data 
+    version will cause problems like missing navigation data: - Waypoints, VOR, NDB, etc. - SIDs, STAR, APPR - Airports
+
+    If you have a subscription ybut still have issue with the nav data try a re-install of the navigation data by 
+    removing and installing the data with the Navigraph Data Center tool.  
+
 ??? tip "Use the Correct Airframe for SimBrief"
     ### Use the Correct Airframe for SimBrief
+
+    See [SimBrief Airframe](../../fbw-a32nx/installation.md#simbrief-airframe)
 
 ??? tip "Turn Off All MS Flight Simulator Assistance Features"
     ### Turn Off All MS Flight Simulation Assistance Features
@@ -835,14 +872,32 @@ Please try these before reporting any other issue on Discord.
 ??? tip "Check your MSFS Uses the Correct Community Folder"
     ### Check your MSFS Uses the Correct Community Folder
 
+    See [Community Folder](../../fbw-a32nx/installation.md#community-folder)
+
 ??? tip "Setup Your Controller Deadzones"
     ### Setup Your Controller Deadzones
+
+    In certain situations your hardware maybe causing unwanted inputs when attempting to fly the aircraft. Increasing the deadzone setting for your controller can help prevent these inputs.
+
+    - Go to your settings
+    - Controls and select your yoke/joystick/controller.
+    - After that click the sensitivity button on the top left which should take you to the menu where you can adjust 
+    your deadzones.
+    
+    Start with 20% deadzone, if the problem persists keep increasing it. If it's fine with 20% you can then slowly 
+    decrease it too.
+
+    ![Controller Deadzone](../assets/support-guide/controller-deadzone.png){loading=lazy}
 
 ??? tip "Understand Discontinuities"
     ### Understand Discontinuities
 
+    See [Discontinuities Guide](../../pilots-corner/advanced-guides/flight-planning/disco.md)
+
 ??? tip "Sync MSFS Flight Plan with the A32NX Flight Plan"
     ### Sync MSFS Flight Plan with the A32NX Flight Plan
+
+    See [Sync to MSFS Flight Plan](../../fbw-a32nx/feature-guides/cFMS.md#sync-mcdu-to-msfs)
 
 ??? tip "Cockpit Interaction System"
     ### Cockpit Interaction System
@@ -903,7 +958,7 @@ Please try these before reporting any other issue on Discord.
 
 ## FBW Installer Issues
 
-!!! bug "TODO"
+Currently, there are no known issues with the FBW Installer.
 
 ## Incompatible and Problematic Add-Ons/Mods
 
