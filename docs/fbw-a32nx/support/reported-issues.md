@@ -384,6 +384,31 @@ reporting any other issue on Discord.
 
     Follow the MSFS Forums Discussion - [here](https://forums.flightsimulator.com/t/after-playing-a-few-hours-fps-drops-from-40-to-5fps/389603/941).
 
+??? warning "Nav Data Issues"
+    ### Nav Data Issues
+
+    The A32NX uses the sim's nav data. So any nav data issues will usually also be present in other default 
+    aircrats and the World Map.
+
+    You can test these issues by using the MSFS World Map. If the required nav data (waypoint, SID, STAR, APPR, RwY, 
+    Airport, etc.) is missing in the World Map as well, then it is a general nav data issue and not an issue with 
+    the aircraft. 
+
+    Most commen nav data issues come from flight planning tools (e.g. SimBrief, etc.) which use outdated nav data 
+    versions (so called AIRAC). These often cost free tools are limited to generating routes using obsolete AIRAC 
+    cycles, while MSFS regularly updates to the latest AIRAC available. This can lead to route incompatibilies and 
+    various error messages when you import or enter the flight plan to the MCDU, including "NOT ALLOWED", "NOT IN 
+    DATABASE", and "AWY/WPT MISMATCH".
+
+    Any of these errors during route import could mean that your route is no longer valid in the current cycle, and 
+    cannot be properly used as a valid flight plan in the sim. 
+
+    To avoid this we recommend a Navigraph subscription which will make sure SimBrief and the sim have identical nav 
+    data. Also you would have the matching Navigraph charts at your disposal.
+
+    If you have a Navigraph subscription but still have issues with the nav data try a re-install of the navigation 
+    data by removing and installing the data with the Navigraph Data Center tool.
+
 ??? warning "CPDLC with Hoppie on IVAO"
     ### CPDLC with Hoppie on IVAO   
 
@@ -840,31 +865,6 @@ Please try these before reporting any other issue on Discord.
     An easy way to do this without deleting your add-ons and liveries is to rename the current Community folder to 
     "Community.old" and then create a new Community folder which then empty. You can the use the FlyByWire Installer 
     to reinstall the A32NX. 
-
-??? tip "Fixing Nav Data Issues"
-    ### Fixing Nav Data Issues
-
-    The A32NX uses the sim's nav data. So any nav data issues will usually also be present in other default 
-    aircrats and the World Map.
-
-    You can test these issues by using the MSFS World Map. If the required nav data (waypoint, SID, STAR, APPR, RwY, 
-    Airport, etc.) is missing in the World Map as well, then it is a general nav data issue and not an issue with 
-    the aircraft. 
-
-    Most commen nav data issues come from flight planning tools (e.g. SimBrief, etc.) which use outdated nav data 
-    versions (so called AIRAC). These often cost free tools are limited to generating routes using obsolete AIRAC 
-    cycles, while MSFS regularly updates to the latest AIRAC available. This can lead to route incompatibilies and 
-    various error messages when you import or enter the flight plan to the MCDU, including "NOT ALLOWED", "NOT IN 
-    DATABASE", and "AWY/WPT MISMATCH".
-
-    Any of these errors during route import could mean that your route is no longer valid in the current cycle, and 
-    cannot be properly used as a valid flight plan in the sim. 
-
-    To avoid this we recommend a Navigraph subscription which will make sure SimBrief and the sim have identical nav 
-    data. Also you would have the matching Navigraph charts at your disposal.
-
-    If you have a Navigraph subscription but still have issues with the nav data try a re-install of the navigation 
-    data by removing and installing the data with the Navigraph Data Center tool.
 
 ??? tip "Use the Correct Airframe for SimBrief"
     ### Use the Correct Airframe for SimBrief
