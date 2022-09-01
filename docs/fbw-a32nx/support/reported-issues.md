@@ -256,7 +256,8 @@ reporting any other issue on Discord.
     Another common cause is users forgetting to fuel the aircraft. 
 
     - Remove the conflicting mapping (e.g. "Auto Start Engine" or similar)
-    - Follow the correct fueling procedure for the A32NX: [Fuel and Weight](../.. /fbw-a32nx/feature-guides/loading-fuel-weight.md#loading-fuel-and-weight)
+    - Follow the correct fueling procedure for the A32NX: 
+      [Fuel and Weight](../feature-guides/loading-fuel-weight.md#loading-fuel-and-weight)
 
 ??? bug "Crash To Desktop (CTD)"
     ### Crash To Desktop (CTD)
