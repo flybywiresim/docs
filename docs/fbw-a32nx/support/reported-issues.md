@@ -291,6 +291,7 @@ reporting any other issue on Discord.
 
     1. Remove everything from the Community folder - **really everything**!<br />[Test With Only the A32NX Add-on in 
     Community](#test-with-only-the-a32nx-add-on-in-community)
+    1. [Enable Windows UTF8 Support](#enable-windows-utf8-support)
     1. Perform a [Clean Install](../installation.md#clean-install-steps)
     1. Stop any third party application which connect to MSFS<br/>
        FSUIPC, YourControls, Fs2Crew, GSX, SPAD.next, ...
