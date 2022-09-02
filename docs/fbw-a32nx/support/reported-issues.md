@@ -975,6 +975,10 @@ Currently, there are no known issues with the FBW Installer.
 
 ## Incompatible and Problematic Add-Ons/Mods
 
+The following add-ons and mods are known to be incompatible and cause issues with the A32NX. We recommend you
+uninstall these before starting the sim and flying with the A32NX especially if you experience issues with the 
+aircraft. 
+
 ??? bug "LVFR A321neo Compatibility Mod"
     ### LVFR A321neo Compatibility Mod
 
@@ -983,12 +987,59 @@ Currently, there are no known issues with the FBW Installer.
     
     ^^Description^^
 
-    This compatibility mod is available on flightsim.to and may overwrite our systems / EFB resulting in outdated systems or missing features in our EFB when the mod is installed.
+    This Add-ons is known to cause severe issues with the A32NX.
+
+    This compatibility mod is available on flightsim.to and may overwrite our systems / EFB resulting in outdated 
+    systems or missing features in our EFB when the mod is installed.
 
     ^^Possible Solution or Workaround^^
 
     - Uninstall the mod
     - Use an addon linker to ensure the mod is only installed when you plan to use it.
+
+??? bug "Co-Pilot Add-ons"
+    ### Co-Pilot Add-ons
+
+    !!! tip ""
+        *Affected versions: Stable, Development*
+    
+    ^^Description^^
+
+    The Co-Pilot Add-ons are known to cause severe issues with the A32NX.
+    
+    ^^Possible Solution or Workaround^^
+    
+    - Uninstall the add-ons
+
+??? bug "3rd Party Interior Textures - Black Screens"
+    ### 3rd Party Interior Textures Black Screens
+
+    !!! tip ""
+        *Affected versions: Development*
+    
+    ^^Description^^
+
+    3rd party interior textures mods are breaking the state of our custom instruments. This is similar to the older 
+    `panel.cfg` livery issue that created systems conflicts.
+
+    We have identified the following texture pack to be the main offender:
+
+    !!! bug ""
+        Improved Textures Mod - A32NX & A320neo | by FlightFlow
+
+    {--
+
+    Please do not install addons that modify files or overwrite files inside the `flybywire-aircraft-a320-neo` folder.
+
+    --}
+
+    ^^Root Cause^^
+
+    Conflict with our own hand crafted textures.
+
+    ^^Possible Solution or Workaround^^
+
+    Remove the offending 3rd party interior texture.
 
 ??? bug "Your Controls Performance Issues"
     ### Your Controls Performance Issues
@@ -998,7 +1049,8 @@ Currently, there are no known issues with the FBW Installer.
 
     ^^Description^^
 
-    If you have this 3rd party addon installed but it is not in use for your flight you may experience degraded performance (FPS) in the simulator.
+    If you have this 3rd party addon installed but it is not in use for your flight you may experience degraded 
+    performance (FPS) in the simulator.
 
     ^^Possible Solution or Workaround^^
 
@@ -1024,33 +1076,5 @@ Currently, there are no known issues with the FBW Installer.
     - Keep the addon but remove it from the toolbar once you have pushed back
     - Use our EFB which has built in pushback controls or another addon.
 
-??? bug "3rd Party Interior Textures - Black Screens"
-    ### 3rd Party Interior Textures Black Screens
-
-    !!! tip ""
-        *Affected versions: Development*
-    
-    ^^Description^^
-
-    3rd party interior textures mods are breaking the state of our custom instruments. This is similar to the older `panel.cfg` livery issue that created systems conflicts.
-
-    We have identified the following texture pack to be the main offender:
-
-    !!! bug ""
-        Improved Textures Mod - A32NX & A320neo | by FlightFlow
-
-    {--
-
-    Please do not install addons that modify files or overwrite files inside the `flybywire-aircraft-a320-neo` folder.
-
-    --}
-
-    ^^Root Cause^^
-
-    Conflict with our own hand crafted textures.
-
-    ^^Possible Solution or Workaround^^
-
-    Remove the offending 3rd party interior texture.
 
 ---
