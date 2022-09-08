@@ -139,7 +139,7 @@ Assuming that we are fully configured for landing at 1000ft above ground, with C
 
 - fly manually
 - do go around
-- 
+
 ### Go Around
 
 - when
