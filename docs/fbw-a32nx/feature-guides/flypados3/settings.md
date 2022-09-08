@@ -71,6 +71,8 @@ Settings for A32NX aircraft configuration.
       NAT routes are imported via SimBrief.  
 - Weight Unit:
     - The weight unit of the aircraft used for aircraft weight, fuel and simBrief imports.
+- Satcom:
+    - Enables showing the Honeywell JetWave Satcom antenna on the fuselage.   
   
 ## Sim Options
 
