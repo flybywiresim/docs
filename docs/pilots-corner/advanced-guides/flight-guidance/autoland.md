@@ -25,21 +25,29 @@ In summary:
 
 ### When to Use Autoland
 
-- weather conditions
-    - cross wind <20ft
-    - head wind ??
-    - tail wind ??
+Performing an Autoland is permissible for CAT II / CAT III runways when low visibility procedures (LVP) are not 
+enforced and this may even extend to CAT I runways. However, low visibility operations (LVO) CAT III **requires** 
+the use of Autoland.
+
+Autolands can also be subject to local procedures and authorities.
+
+### When Not to Use Autoland
+
+- ATC restrictions
+- Airport capabilities missing or restrictions in place
+- Aircraft capabilities and limitations:
+    - Cross wind <20ft
+    - Head wind ??
+    - Tail wind ??
+    - 
 
 ### Crew Requirements
 
-Airbus requires an operator to be Low Visibility Operation (LVO) certified to perform an Autoland. Other training may also be required before being able to perform an Autoland. It is also the responsibility of the operator to maintain the LVO certification or any approvals by airworthiness authorities to perform automatic landings.
+Airbus requires an operator to be Low Visibility Operation (LVO) certified to perform an Autoland. Other training 
+may also be required before being able to perform an Autoland. It is also the responsibility of the operator to 
+maintain the LVO certification or any approvals by airworthiness authorities to perform automatic landings.
 
 ### Airport Requirements
-
-!!! info "Airport Requirement Misunderstandings"
-    Performing an Autoland is permissible for CAT II / CAT III runways when low visibility procedures (LVP) are not enforced and this may even extend to CAT I runways. However, low visibility operations (LVO) CAT III **requires** the use of Autoland.
-
-    Autolands can also be subject to local procedures and authorities.
 
 Below is a list of considerations before using of Autoland:
 
@@ -55,13 +63,18 @@ Below is a list of considerations before using of Autoland:
 
 CAT I runway considerations before using Autoland:
 
-- Pilots must be read to disconnect the AP if any ILS fluctuations are detected
+- Pilots must be ready to disconnect the AP if any ILS fluctuations are detected
 - CAT II should at least be indicated on the FMA and the flight crew should apply the respective CAT II / CAT III FCOM procedures
 - Visual contact should be established at the CAT I minimum at the latest
 
 ### Aircraft Limitations
 
-*New Section Pending*
+All Airbus aircraft are certified to land automatically. However, limitations and conditions specified in the FCOM 
+must be taken into account. Be aware that other not-so-obvious Autoland-limitations, such as maximum airfield 
+altitude, maximum (minimum) GS angle or maximum runway slope, must also be considered. 
+
+In addition, the flight crew must monitor possible day-to-day technical restrictions (stated in the MEL), or the 
+consequence(s) of a failure that may have occurred during the flight and that may downgrade landing capability.
 
 ## Autoland HowTo
 
