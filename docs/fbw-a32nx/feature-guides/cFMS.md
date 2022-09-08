@@ -181,4 +181,4 @@ note again that terrain radar is being tested in our Experimental version.**
 
 In certain instances some legs may not render correctly with our current implementation and may look strange in PLAN mode or while enroute. In most cases the A32NX will attempt to fly the route and you won't experience any major issues.
 
-Additionally, some flight plans may have extraneous waypoints that can lead to wrongly drawn flight paths. While this is can be an edge case, going through your flight plan in `PLAN` mode you can find offending waypoints that need to be removed which will provide a much more reasonable drawn flight path.
+Additionally, some flight plans may have extraneous waypoints that can lead to wrongly drawn flight paths. While this can be an edge case, going through your flight plan in `PLAN` mode you can find offending waypoints that need to be removed which will provide a much more reasonable drawn flight path.
