@@ -162,16 +162,23 @@ the MCDU.
 
 ### WX/TER
 
-!!! note "TCAS is now available in the development version. Please see our [CFMS NOTAM](https://flybywiresim.com/notams/cfms/) for further WX/TER information."
+!!! info "Important Notice"
+    - TCAS is now available in the Development version. 
+    - Terrain Radar is being tested in the Experimental version via [SimBridge](../../index.md).
+    - Please see our [CFMS NOTAM](https://flybywiresim.com/notams/cfms/) for further WX/TER information.
 
-It is important to note that the weather and terrain radars are not available yet with the latest version of our cFMS(v1.5). Our current focus is to deliver a more realistic flight planning and navigation experience while maintaining performance and reliability. However, we are not satisfied with how the default code performs together with our custom systems.
+It is important to note that the weather radar is not available yet with the latest version of our cFMS(v1.5). Our current focus is to deliver a more realistic flight planning 
+and navigation experience while maintaining performance and reliability. However, we are not satisfied with how the default code performs together with our custom systems.
 
-We believe the benefits that cFMS provides outweigh the temporary lack of WX/TERR/ functionality on the development version. Weather and terrain still prove to be a challenge due to the lack of a native SDK API. We have posted about it on the MSFS forums, where it currently sits at the top of the wishlist and Asobo are investigating how to best improve their API.
+We believe the benefits that cFMS provides outweigh the temporary lack of WX functionality. Weather will still prove to be a challenge due to 
+the lack of a native SDK API. We have posted about it on the MSFS forums, where it currently sits at the top of the wishlist and Asobo are investigating how to best improve their API.
 
-[Read more about weather and terrain API.](https://forums.flightsimulator.com/t/implement-weather-and-terrain-api-s-for-aircraft-developers-to-implement-accurate-radar-predictive-windshear-egpws-and-metar-wind-uplink/442016){target=new}
+[Read more about weather and terrain API.](https://forums.flightsimulator.
+com/t/implement-weather-and-terrain-api-s-for-aircraft-developers-to-implement-accurate-radar-predictive-windshear-egpws-and-metar-wind-uplink/442016){target=new} **Please 
+note again that terrain radar is being tested in our Experimental version.**
 
 ### Flight Path Rendering
 
 In certain instances some legs may not render correctly with our current implementation and may look strange in PLAN mode or while enroute. In most cases the A32NX will attempt to fly the route and you won't experience any major issues.
 
-Additionally, some flight plans may have extraneous waypoints that can lead to wrongly drawn flight paths. While this is can be an edge case, going through your flight plan in `PLAN` mode you can find offending waypoints that need to be removed which will provide a much more reasonable drawn flight path.
+Additionally, some flight plans may have extraneous waypoints that can lead to wrongly drawn flight paths. While this can be an edge case, going through your flight plan in `PLAN` mode you can find offending waypoints that need to be removed which will provide a much more reasonable drawn flight path.
