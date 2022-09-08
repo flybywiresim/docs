@@ -1,35 +1,5 @@
 # Autoland
 
-??? info "Notes"
-    - Technical How To
-        - ILS capture
-        - both APs (CAT IIIB)
-        - FMA Info during the approach
-            - LOC / GS
-            - LAND (350ft)
-            - FLARE (30ft)
-            - ROLL OUT (nosewheel touchdown)
-        - Crosswind correction / de-crabbing (~20ft)
-        - Retard callout
-        - Limits (<CAT IIIB)
-        - Minimums (<CAT IIIB)
-        - STATUS PAGE check for downgrades of CAT
-        - Downgrade audio alarm
-        - AUTOLAND alarm
-        - GO AROUND conditions
-        - PF/PM Call outs
-        - Checks after touchdown
-    - Real World considerations
-        - When is it used in real life
-        - Pilot training and certifications required
-        - Airport readiness / airport need to prepare low vis procedures
-        - Summary
-            - Check aircraft, crew and airport capability
-            - Minima - CAT??
-            - both AP
-            - Monitor FMAs
-            - be prepared to GA any time if aircraft does not behave as expected
-
 ## Introduction
 
 The FlyByWire A32NX has implemented the Airbus A320 Autoland feature. This guide shall give you a realistic description on when and how to use successfully.
@@ -101,13 +71,18 @@ CAT I runway considerations before using Autoland:
 - Check airport capability
 - Check Limitations - cross winds
 - Check aircraft status
-- Minima - CAT??
+- Check Minima
 
 ### ILS Approach
 
-- normal ILS plus dual AP
+- An autoland procedure is very similar to a normal ILS approach and landing
+- Follow the Beginner Guide procedure until the end of this [chapter](../../beginner-guide/landing.md#3-preparation-and-checklist-for-landing)
+- Instead of what is described in the [Beginner Guide for manual landing](../../beginner-guide/landing.md#4-landing) 
+  you will not deactivate the Autopilot AP1 but instead you will activate the AP2 
 
 ### FMA Annunciations
+
+The following FMA annunciations will be displayed during the approach and landing:
 
 - AP 1+2
 - A/THR
@@ -116,12 +91,14 @@ CAT I runway considerations before using Autoland:
 - LOC / G/S
 - SPEED
 
-- LAND (350ft)
-- FLARE (30ft)
-- THRUST IDLE (30ft)
+- At 350ft: LAND
+- At 30ft: FLARE
+- At 30ft: THRUST IDLE
 - ROLL OUT (nosewheel touchdown)
 
 ### Crew Checks and Callouts
+
+The crew will monitor and check the following:
 
 - LOC / GS
 - LAND (350ft)
@@ -158,16 +135,13 @@ Assuming that we are fully configured for landing at 1000ft above ground, with C
 - At about 40-60kts the PF will manually brake to deactivate the autobrake and also disconnect the autopilot.
 - From here on it is a normal runway exit and taxi procedure.
 
+### When Things go Wrong
+
+- fly manually
+- do go around
+- 
 ### Go Around
 
 - when
 - how
 
-### When Things go Wrong
-
-- fly manually
-- do go around
-
-### Miscellaneous
-
-- CAT II/CAT III holding points on ground
