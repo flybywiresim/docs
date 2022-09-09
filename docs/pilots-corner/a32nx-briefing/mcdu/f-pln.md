@@ -22,9 +22,6 @@ To scroll through the flight plan the vertical slew keys can be used. To return 
 
 The AIRPORT key serves as a fast slew key. It can be pressed to call up the next airport (DEST, ALTN, ORIGIN) to be displayed on the flight plan page.
 
-!!! attention "AIRPORT key"
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
-
 Between two waypoints the display shows:
 
 - Name of the leg
@@ -314,4 +311,8 @@ Visual example for intersections:
 
 ## Departure Pages
 
+!!! bug "TODO"
+
 ## Arrival Pages
+
+!!! bug "TODO"
