@@ -243,7 +243,7 @@ Windshear Protection is available during take off and approach phases when:
 ### Recommended Action to Recover
 
 - Flight Director pitch order based on the speed reference system (SRS).
-- Pilot must set TOGa thrust immediately and follow the FD pitch order to execute optimum escape maneuver.
+- Pilot must set TOGA thrust immediately and follow the FD pitch order to execute optimum escape maneuver.
 
 ## Low Energy Protection
 
