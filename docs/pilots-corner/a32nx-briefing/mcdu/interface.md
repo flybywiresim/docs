@@ -1,6 +1,6 @@
 # MCDU Interface
 
-![ecam-overview.png](../../assets/a32nx-briefing/mcdu/ecam-overview.png)
+![ecam-overview.png](../../assets/a32nx-briefing/mcdu/mcdu-overview.png)
 
 ## General
 
@@ -10,7 +10,8 @@ Each page has a title line.
 
 ## Scratchpad
 
-The Scratchpad is mainly used for the crew to enter temporary data before moving the entered data to the appropriate data field. After entering data the crew selects the LSK next to the data field where this data shall be applied to.
+The Scratchpad is mainly used for the crew to enter temporary data before moving the entered data to the appropriate 
+data field. After entering data the crew selects the LSK next to the data field where this data shall be applied to.
 
 The Scratchpad is also displaying specific messages as described in the next chapter.
 
@@ -22,12 +23,18 @@ Amber messages are:
 
 - Navigation messages
 - Data entry messages
-- EFIS repeat messages.
+- EFIS repeat messages
 
 Amber messages are categorized into two types:
 
-- Type 1 messages are a direct result of a flight crew action. Type 1 messages are displayed immediately in the scratchpad ahead of other messages.
-- Type 2 messages inform the flight crew of a given situation or request a specific action. Stored in “last in”, “first out” message queue that holds maximum of 5 messages. Type 2 messages are displayed in the scratchpad only if there are no Type 1 messages or other data and will remain until all the messages have been viewed and cleared with the CLR key.
+- Type 1:
+    - Messages are a direct result of a flight crew action. Type 1 messages are displayed immediately in the 
+      scratchpad ahead of other messages.
+- Type 2:
+    - Messages inform the flight crew of a given situation or request a specific action. Stored in “last in”, 
+      “first out” message queue that holds maximum of 5 messages. Type 2 messages are displayed in the scratchpad 
+      only if there are no Type 1 messages or other data and will remain until all the messages have been viewed and 
+      cleared with the CLR key.
 
 White messages are advisory only.
 
@@ -76,9 +83,6 @@ Allows the aircraft to overfly a selected waypoint.
 ### Airport Key
 
 Calls up the flight plan page that contains the next airport along the current flight plan. Successive pushes on the key show the alternate airport, the origin airport (before takeoff), and the next airport again.
-
-!!! attention ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ## Annunciators
 
@@ -147,13 +151,14 @@ The MCDU uses small and large fonts according to the following rules:
 
 ^^Colors used in Flight Plan:^^
 
-- Primary Flight Plan: Green waypoints, white legs and
-- Temporary F-PLN: yellow waypoints, white legs
+- Primary Flight Plan: <span style="color: #00ff00">Green</span> waypoints, white legs 
+- Temporary F-PLN: <span style="color: yellow">yellow</span> waypoints, white legs
 - Secondary F-PLN: white waypoints and legs
-- Missed Approach (not active): blue waypoints, white legs
-- Alternate F-PLN (not active): blue waypoints, white legs
-- Offset: green waypoints, white legs, ofst displayed in the title of the f-pln page
-- Tuned Navaid: blue
+- Missed Approach (not active): <span style="color: #00ffff">blue</span> waypoints, white legs
+- Alternate F-PLN (not active): <span style="color: #00ffff">blue</span> waypoints, white legs
+- Offset:  <span style="color: #00ff00">green</span> waypoints, white legs, "OFST" displayed in the title of the f-pln 
+  page
+- Tuned Navaid: <span style="color: #00ffff">blue</span>
 - "TO" waypoint and Destination: white
 
 !!! attention ""
