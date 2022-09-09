@@ -3,7 +3,7 @@ nav:
   - Overview: index.md
   - interface.md
   - DIR TO: dir.md
-    #  - PROG: prog.md
+  - PROG: prog.md
     #  - PERF: perf.md
     #  - INIT: init.md
     #  - DATA: data.md
