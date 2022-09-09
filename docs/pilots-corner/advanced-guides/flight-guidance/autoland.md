@@ -126,11 +126,13 @@ The crew will monitor and check the following:
 
 ### Flow From 1000ft
 
-Autoland is not much different from a normal ILS landing apart from the fact that the Autopilot(s) will not be turned off for the landing but stay on and the flight crew only monitors the landing via the instruments.
+Autoland is technically not much different from a normal ILS landing apart from the fact that the Autopilot(s) will 
+not be turned off for the landing but stay on and the flight crew "only" monitors the landing via the instruments.
 
-Assuming that we are fully configured for landing at 1000ft above ground, with CONFIG 3 or CONFIG FULL, V~appr~ speed, gear down, autobrake armed, ground spoilers armed, ECAM landing memo no blue, landing checklist complete.
+Assuming that we are fully configured for landing at 1000ft above ground, with CONFIG 3 or CONFIG FULL, V~appr~ 
+speed, gear down, autobrake armed, ground spoilers armed, ECAM landing memo no blue, landing checklist complete.
 
-!!! bug "TODO - add screenshots"
+See [Beginner Guide Preparation and Checklist for Landing](../../beginner-guide/landing.md#3-preparation-and-checklist-for-landing)
 
 - At 1000ft: callout "one thousand".
 - At 500ft: Now callouts every hundred feet.
@@ -150,11 +152,17 @@ Assuming that we are fully configured for landing at 1000ft above ground, with C
 
 ### When Things go Wrong
 
-- fly manually
-- do go around
+Always remember the Golden Rules: Fly, Navigate, Communicate!
+
+- Fly the aircraft manually!
+- Perform a [Go Around](#go-around)
+- Inform ATC and follow instructions
 
 ### Go Around
 
-- when
-- how
+!!! tip "We are planning an advanced guide for the Go Around procedure. Stay tuned."
+
+## Autoland Video
+
+![video-embed](https://www.youtube.com/embed/Q1hACfew68Y)
 
