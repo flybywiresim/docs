@@ -2,24 +2,32 @@
 
 ## Introduction
 
-The FlyByWire A32NX has implemented the Airbus A320 Autoland feature. This guide shall give you a realistic description on when and how to use successfully.
+The FlyByWire A32NX has implemented the Airbus A320 Autoland feature. This guide shall give you a realistic 
+description on when and how to use it correctly and successfully.
 
 !!! info "Standard Operation"
     The focus of this guide is on standard operations without failures as these are not yet implemented in the A32NX.
 
-In flight simulation the Autoland feature is a very often requested feature as many simmers use it as a replacement to learn how to land manually. And for recreational flight simulation this is of course ok.
+In flight simulation the Autoland feature is a very often requested feature as many simmers use it as a replacement 
+to learn how to land manually. And for recreational flight simulation this is of course ok.
 
-In real life autoland is very rarely used and requires extra training and certifications by the flight crew. In fact most pilots feel it's more stressful as they are not in control but need to monitor the systems very closely so they can take manual control at any time.
+In real life autoland is very rarely used and requires special considerations, extra training and certifications by the 
+flight crew. In fact many pilots feel it's more stressful to use autoland as they are not in control but need to 
+monitor the systems very closely, so they can take manual control at any time.
 
-This is on top of the fact that autoland is mostly used in very bad visual situations where the pilots can't see anything and have to trust the autopilot to successfully perform the autoland.
+This is on top of the fact that autoland is mostly used in very bad visual situations where the pilots have little 
+to no visual references and have to trust the autopilot to successfully perform the autoland.
 
 In summary:
 
 - Autoland is not a replacement for learning and training how to land manually.
 - Special training and certifications are required for real pilots.
-- Aircraft and airport and airport must have the appropriate capability.
-- It requires a high amount of preparation and limiting conditions need to be checked constantly (e.g. maximum crosswind).
-- Autoland requires high focus from the flight crew monitoring the systems and to always be ready to take over for a go around. Pilot monitoring (PM) usually will look outside the aircraft while pilot flying (PF) will watch the instruments.
+- Aircraft and airport must have the appropriate capability.
+- It requires a high amount of preparation and limiting conditions need to be checked constantly (e.g. maximum 
+  crosswind).
+- Autoland requires high focus from the flight crew monitoring the systems and to always be ready to take over for a 
+  go around. Pilot monitoring (PM) usually will look outside the aircraft while pilot flying (PF) will watch the 
+  instruments.
 
 ## Real World Considerations
 
@@ -31,7 +39,7 @@ announced via ATIS are ATC.
 Performing an Autoland is permissible for CAT II / CAT III runways when low visibility procedures (LVP) are not 
 enforced and this may even extend to CAT I runways. 
 
-Autolands can also be subject to local procedures and authorities.
+Autoland can also be subject to local procedures and authorities.
 
 ### When Not to Use Autoland
 
@@ -42,9 +50,10 @@ Autolands can also be subject to local procedures and authorities.
 
 ### Crew Requirements
 
-Airbus requires an operator to be Low Visibility Operation (LVO) certified to perform an Autoland. Other training 
-may also be required before being able to perform an Autoland. It is also the responsibility of the operator to 
-maintain the LVO certification or any approvals by airworthiness authorities to perform automatic landings.
+Airbus requires an operator to be Low Visibility Operation (LVO) certified to perform an Autoland. 
+
+Other training may also be required before being able to perform an Autoland. It is also the responsibility of the 
+operator to maintain the LVO certification or any approvals by airworthiness authorities to perform automatic landings.
 
 ### Airport Requirements
 
@@ -158,7 +167,6 @@ See [Beginner Guide Preparation and Checklist for Landing](../../beginner-guide/
 - At taxi speed: disengage autopilots
 - From here on it is a normal [runway exit](../../beginner-guide/landing.md#5-vacate-runway) and 
   [taxi procedure](../../beginner-guide/after-landing.md).
-
 
 ### When Things go Wrong
 
