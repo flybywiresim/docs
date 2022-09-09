@@ -2,7 +2,7 @@ title: MCDU
 nav:
   - Overview: index.md
   - interface.md
-    #  - DIR TO: dir.md
+  - DIR TO: dir.md
     #  - PROG: prog.md
     #  - PERF: perf.md
     #  - INIT: init.md

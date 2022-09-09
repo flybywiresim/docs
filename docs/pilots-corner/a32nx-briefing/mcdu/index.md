@@ -1,6 +1,6 @@
 # Multipurpose Control and Display Unit
 
-![Multipurpose Control and Display Unit](../../assets/a32nx-briefing/mcdu/mcdu-001.png "Multipurpose Control and 
+![Multipurpose Control and Display Unit](../../assets/a32nx-briefing/mcdu/mcdu-full-index.png "Multipurpose Control and 
 Display Unit"){loading=lazy width=50%}
 
 ## Work In Progress
@@ -20,7 +20,7 @@ This page will keep you updated with the status of the planned sections of this 
 |--------------------------------|-------------------|
 | [MCDU Overview](#)             | Available         |
 | [MCDU Interface](interface.md) | Available         |
-| DIR TO                         | Not yet available |
+| [DIR](dir.md)                  | Not yet available |
 | PROG                           | Not yet available |
 | PERF                           | Not yet available |
 | INIT                           | Not yet available |
