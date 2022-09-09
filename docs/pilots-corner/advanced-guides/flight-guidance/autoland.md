@@ -8,11 +8,11 @@ description on when and how to use it correctly and successfully.
 !!! info "Standard Operation"
     The focus of this guide is on standard operations without failures as these are not yet implemented in the A32NX.
 
-In flight simulation the Autoland feature is a very often requested feature as many simmers use it as a replacement 
+In flight simulation the Autoland feature is an often requested feature as many simmers use it as a substitute 
 to learn how to land manually. And for recreational flight simulation this is of course ok.
 
-In real life autoland is very rarely used and requires special considerations, extra training and certifications by the 
-flight crew. In fact many pilots feel it's more stressful to use autoland as they are not in control but need to 
+In real life autoland is very rarely used and requires special considerations and extra training and certifications by 
+the flight crew. In fact many pilots feel it's more stressful to use autoland as they are not in control but need to 
 monitor the systems very closely, so they can take manual control at any time.
 
 This is on top of the fact that autoland is mostly used in very bad visual situations where the pilots have little 
@@ -34,9 +34,9 @@ In summary:
 ### When to Use Autoland
 
 When low visibility operations (LVO) CAT III are enforced use of Autoland is required. LVO operations are either 
-announced via ATIS are ATC. 
+announced via ATIS or ATC. 
 
-Performing an Autoland is permissible for CAT II / CAT III runways when low visibility procedures (LVP) are not 
+Performing an Autoland is permissible for CAT II / CAT III runways even when low visibility procedures (LVP) are not 
 enforced and this may even extend to CAT I runways. 
 
 Autoland can also be subject to local procedures and authorities.
@@ -96,6 +96,12 @@ Autoland many not be performed outside of these limitations:
 - Aircraft weight above the maximum landing weight
 - Automatic landing is not allowed below -2.000 ft pressure altitude
 
+Minima: 
+
+- ILS CAT II: MDH 100ft
+- ILS CAT III SINGLE: MDH 50ft
+- ILS CAT III DUAL: no DH (minimum RVR 75m)
+
 ## Autoland HowTo
 
 ### Preparations
@@ -104,9 +110,7 @@ Autoland many not be performed outside of these limitations:
 - Check airport capability and limitations
 - Check aircraft status
 - Check Minima
-  - ILS CAT II: MDH 100ft
-  - ILS CAT III SINGLE: MDH 50ft
-  - ILS CAT III DUAL: no DH (minimum RVR 75m)
+
 
 ### ILS Approach
 
