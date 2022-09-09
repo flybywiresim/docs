@@ -291,7 +291,7 @@ with a waypoint.
 !!! attention ""
     Currently only partly implemented in the FBW A32NX for Microsoft Flight Simulator.
 
-See [Feature Guide: Fix Info](../../../fbw-a32nx/feature-guides/fixinfo.md)
+See [Feature Guide: Fix Info](../../../pilots-corner/advanced-guides/flight-planning/fixinfo.md)
 
 The FIX INFO pages can be accessed from the LAT REV page of the FROM waypoint.
 
