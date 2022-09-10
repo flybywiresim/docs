@@ -27,7 +27,7 @@ This page will keep you updated with the status of the planned sections of this 
 | [DIR](dir.md)                  | Available         |
 | [PROG](prog.md)                | Available         |
 | [PERF](perf.md)                | Available         |
-| INIT                           | Not yet available |
+| [INIT](init.md)                | Available         |
 | DATA                           | Not yet available |  
 | F-PLN                          | Not yet available |
 | RAD NAV                        | Not yet available |

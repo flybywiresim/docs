@@ -5,7 +5,7 @@ nav:
   - DIR TO: dir.md
   - PROG: prog.md
   - PERF: perf.md
-    #  - INIT: init.md
+  - INIT: init.md
     #  - DATA: data.md
     #  - F-PLN: f-pln.md
     #  - RAD NAV: rad-nav.md
