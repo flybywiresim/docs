@@ -19,7 +19,7 @@ PAGE 2 is dedicated to navigation data that is entered or stored in the FMGS.
 !!! attention ""
     This section will not cover all DATA INDEX pages as most are not useful in a simulation anyway or not implemented yet in the FlyByWire A32NX.
 
-## DATA INDEX page 1
+## DATA INDEX Page 1
 
 ### POSITION MONITOR
 
@@ -216,7 +216,7 @@ Page 2 displays the EFOB and allows the crew to enter an effective wind to be fl
     - Default value may be displayed, based on the current wind.
     - Used to compute the EFOB and time to the airport.
 
-## DATA INDEX page 2
+## DATA INDEX Page 2
 
 ![DATA 2](../../assets/a32nx-briefing/mcdu/mcdu-data-2-page.png){loading=lazy}
 
