@@ -31,7 +31,7 @@ This page will keep you updated with the status of the planned sections of this 
 | [DATA](data.md)                  | Available           |  
 | F-PLN                            | Not yet available   |
 | [RAD NAV](rad-nav.md)            | Available           |
-| FUEL PRED                        | Not yet available   |
+| [FUEL PRED](fuel-pred.md)        | Available           |
 | [SEC F-PLN ](sec-f-plan.md)      | Available           |
 | [ATC COMM](atc-comm.md)          | Available           |
 | MCDU MENU                        | Not yet available   |
