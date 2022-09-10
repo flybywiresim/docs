@@ -2,9 +2,8 @@
 
 !!! block ""
 
-    ![MCDU Data 1 Page](../../assets/a32nx-briefing/mcdu/data-1-page.png "MCDU Data 1 Page"){loading=lazy align=left width=46%}
-
-    ![MCDU Data 2 Page](../../assets/a32nx-briefing/mcdu/mcdu-048.png "MCDU Data 2 Page"){loading=lazy align=right width=46%}
+    ![DATA 1](../../assets/a32nx-briefing/mcdu/mcdu-data-1-page.png){loading=lazy align=center width=49%}
+    ![DATA 2](../../assets/a32nx-briefing/mcdu/mcdu-data-2-page.png){loading=lazy align=center width=49%}
 
 ## Description
 
@@ -21,7 +20,7 @@ PAGE 2 is dedicated to navigation data that is entered or stored in the FMGS.
 
 ### POSITION MONITOR
 
-![MCDU Data Position Page](../../assets/a32nx-briefing/mcdu/data-position.png "MCDU Data Position Page"){loading=lazy}
+![MCDU Data Position Page](../../assets/a32nx-briefing/mcdu/mcdu-data-position.png "MCDU Data Position Page"){loading=lazy}
 
 List of all FMGC computed positions using various methods. The positions of the different methods should be nearly identical.
 
@@ -49,48 +48,9 @@ List of all FMGC computed positions using various methods. The positions of the 
 
 ### IRS MONITOR
 
-![MCDU Data IRS Page](../../assets/a32nx-briefing/mcdu/data-irs.png "MCDU Data IRS Page"){loading=lazy}
+![MCDU Data IRS Page](../../assets/a32nx-briefing/mcdu/mcdu-data-irs.png "MCDU Data IRS Page"){loading=lazy}
 
-This page is used to display the current IRS data the aircraft has from the 3 IRS systems.
-
-- DRIFT AT XXXX (TITLE)
-    - Displays “DRIFT AT” runway identifier in amber, if at least one IRS average drift is displayed.
-
-        !!! attention ""
-            Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
-
-- IRS 1-3 (1R, 2R, 3R)
-    - Access to the associated IRS pages.
-    - Label line displays the mode (NAV, ALIGN, ATT or INVAL), the average drift (upon transition to DONE phase), and the Time To NAV (if IRS in align) for each IRS.
-    - Displays the status message of the associated IRS in small green font.
-    - List of available messages:
-        - IR FAULT
-        - CHECK C/B
-        - DELAYED MAINT
-        - CDU FAULT
-        - ENTER PPOS
-        - ENTER HEADING
-        - SELECT ATT
-        - REENTER PPOS
-        - EXCESS MOTION
-        - SYS BELOW -15 °
-        - SWITCH ADR
-
-    !!! attention ""
-        Currently only partly available in the FBW A32NX for Microsoft Flight Simulator.
-
-- SET HDG (5R)
-    - Displayed, if at least one IRS is in ATT mode.
-    - It allows initialization of a heading for IRS in ATT mode:
-        ‐ If a heading has been entered in this field, or on the ADIRS panel, the value is displayed in blue.
-        ‐ If not, amber boxes are displayed.
-
-        !!! attention ""
-            Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
-
-![MCDU Data IRS1 Page](../../assets/a32nx-briefing/mcdu/data-irs1.png "MCDU Data IRS1 Page"){loading=lazy}
-
-Displays the IRS parameters and GPS/IRS hybrid parameters.
+Displays the IRS parameters for IRS 1, 2 and 3.
 
 - TITLE
     - Displays the selected IRS in large white font. When frozen, IRS is replaced by “IRS FROZEN AT” and the time at which the pilot has frozen the display.
@@ -127,7 +87,7 @@ Displays the IRS parameters and GPS/IRS hybrid parameters.
 
 ### GPS MONITOR
 
-![MCDU Data GPS Page](../../assets/a32nx-briefing/mcdu/data-gps.png "MCDU Data GPS Page"){loading=lazy}
+![MCDU Data GPS Page](../../assets/a32nx-briefing/mcdu/mcdu-data-gps.png "MCDU Data GPS Page"){loading=lazy}
 
 - GPS 1,2 POSITION (1L, 4L)
 
@@ -157,12 +117,9 @@ Displays the IRS parameters and GPS/IRS hybrid parameters.
 
 ### A/C STATUS
 
-![MCDU Data Status Page](../../assets/a32nx-briefing/mcdu/data-status.png "MCDU Data Status Page"){loading=lazy}
+![MCDU Data Status Page](../../assets/a32nx-briefing/mcdu/mcdu-data-ac-status.png "MCDU Data Status Page"){loading=lazy}
 
 Automatically displayed this page at power up.  Pilots may also call it up by pressing the DATA key on the MCDU console.
-
-!!! attention ""
-    Currently only partly available in the FBW A32NX for Microsoft Flight Simulator.
 
 - TITLE
     - Aircraft Type
@@ -177,11 +134,17 @@ Automatically displayed this page at power up.  Pilots may also call it up by pr
     - Validity period in small font.
     - A press to the 3L key switches to the second database as the active database.
 
+    !!! attention ""
+        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+
 - CHG CODE (5L)
     - Entry of code to change the IDLE and/or PERF factor, displayed in 6L.
     - Displayed in the PREFLIGHT and DONE phases.
     - Label is displayed in small white font.
     - The brackets, or the entered value, is displayed in large blue font.
+
+    !!! attention ""
+        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 - IDLE/PERF (6L)
     - Aircraft must be on ground to enter values.
@@ -196,12 +159,18 @@ Automatically displayed this page at power up.  Pilots may also call it up by pr
         ‐ PRESS the (6L) key to insert the new IDLE and/or PERF factor.
         - The new IDLE and/or PERF factors are displayed in large blue font.
 
+    !!! attention ""
+        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+
 - STATUS/XLOAD (6R)
     - Calls up the P/N STATUS and P/N XLOAD pages.
 
+    !!! attention ""
+        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+
 ### CLOSEST AIRPORTS
 
-![MCDU Data Closest Airports 1 Page](../../assets/a32nx-briefing/mcdu/data-closest-airports-1.png "MCDU Data Closest Airports 1 Page"){loading=lazy}
+![MCDU Data Closest Airports 1 Page](../../assets/a32nx-briefing/mcdu/mcdu-data-closest-airports.png "MCDU Data Closest Airports 1 Page"){loading=lazy}
 
 Automatically selected closest 4 airports from the current position. The
 
@@ -229,11 +198,14 @@ Page 1 displays the bearing, distance, and time to go to each airport.
     - Gives access to page 2.
     - Automatically freezes the list of the four closest airports when pressed.
 
-![MCDU Data Closest Airports 2 Page](../../assets/a32nx-briefing/mcdu/data-closest-airports-2.png "MCDU Data Closest Airports 2 Page"){loading=lazy}
+![MCDU Data Closest Airports 2 Page](../../assets/a32nx-briefing/mcdu/mcdu-data-closest-airports-2.png "MCDU Data Closest Airports 2 Page"){loading=lazy}
 
 Page 2 displays the EFOB and allows the crew to enter an effective wind to be flown to each airport.
 
-- EFF WIND (1-5)
+!!! attention ""
+    Currently not fully available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+
+- AIRPORTS (1-5)
     - EFOB at each airport.
     - EFOB is only computed in cruise phase.
     - Enter an anticipated headwind or tailwind along the bearing to the airport. If entry is preceded by +, T, or TL, a tailwind is assumed.
@@ -241,17 +213,9 @@ Page 2 displays the EFOB and allows the crew to enter an effective wind to be fl
     - Default value may be displayed, based on the current wind.
     - Used to compute the EFOB and time to the airport.
 
-        !!! attention ""
-            Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
-
-- FREEZE/UNFREEZE (6L)
-    - This prompt enables the pilot to freeze and unfreeze the list of four airports.
-    - The list is automatically frozen when accessing page 2. It will remain frozen upon returning to page 1.
-    - The “LIST FROZEN” message is always displayed on page 2.
-
 ## DATA INDEX page 2
 
-![MCDU Data Index 2 Page](../../assets/a32nx-briefing/mcdu/data-index-2.png "MCDU Data Index 2 Page"){loading=lazy}
+![DATA 2](../../assets/a32nx-briefing/mcdu/mcdu-data-2-page.png){loading=lazy}
 
 - WAYPOINTS (1L)
 - NAVAIDS (2L)
@@ -265,11 +229,16 @@ stored in the database.
     Currently not all of these are available in the FBW A32NX for Microsoft Flight Simulator.
 
 - STORED WAYPOINTS (1R)
+    - See [Stored Waypoints Guide](../../advanced-guides/data-management.md#stored-waypoints).
+
 - STORED NAVAIDS (2R)
 - STORED RUNWAYS (3R)
 - STORED ROUTES (4R)
 
-These keys call up waypoints, NAVAIDs, runways, and routes that the pilot has stored, to review and store them in, or delete them from, the database. The airline can choose to have all pilot-stored data automatically erased in the done phase.
+These keys call up waypoints, NAVAIDs, runways, and routes that the pilot has stored, to review and store them in, 
+or delete them from, the database. The airline can choose to have all pilot-stored data automatically erased in the 
+done phase.
 
 !!! attention ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+    Currently not all of these are available in the FBW A32NX for Microsoft Flight Simulator.
+

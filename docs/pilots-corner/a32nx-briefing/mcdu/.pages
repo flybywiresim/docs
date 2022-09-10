@@ -6,7 +6,7 @@ nav:
   - PROG: prog.md
   - PERF: perf.md
   - INIT: init.md
-    #  - DATA: data.md
+  - DATA: data.md
     #  - F-PLN: f-pln.md
     #  - RAD NAV: rad-nav.md
     #  - FUEL PRED: fuel-pred.md
