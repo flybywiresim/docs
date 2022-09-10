@@ -20,9 +20,9 @@ This page will keep you updated with the status of the planned sections of this 
 |--------------------------------|-------------------|
 | [MCDU Overview](#)             | Available         |
 | [MCDU Interface](interface.md) | Available         |
-| [DIR](dir.md)                  | Not yet available |
-| PROG                           | Not yet available |
-| PERF                           | Not yet available |
+| [DIR](dir.md)                  | Available         |
+| [PROG](prog.md)                | Available         |
+| [PERF](perf.md)                | Available         |
 | INIT                           | Not yet available |
 | DATA                           | Not yet available |  
 | F-PLN                          | Not yet available |
