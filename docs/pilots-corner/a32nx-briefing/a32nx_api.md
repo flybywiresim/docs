@@ -642,10 +642,10 @@ Flight Deck: [Chrono Panel](flight-deck/front/clock.md)
 
 Flight Deck: [ND Panel](flight-deck/front/nd.md)
 
-| Function       | API Usage             | Values   | Read/Write | Type        | Remark                  |
-|:---------------|:----------------------|:---------|:-----------|:------------|:------------------------|
-| TERR ON ND L+R | BTN_TERRONND_1_ACTIVE | 0&#124;1 | R/W        | Custom LVAR | Currently not available |
-|                | BTN_TERRONND_2_ACTIVE | 0&#124;1 | R/W        | Custom LVAR | Currently not available |
+| Function       | API Usage                | Values   | Read/Write | Type        | Remark                         |
+|:---------------|:-------------------------|:---------|:-----------|:------------|:-------------------------------|
+| TERR ON ND L   | A32NX_EFIS_TERR_L_ACTIVE | 0&#124;1 | R/W        | Custom LVAR | Currently only in Experimental |
+| TERR ON ND R   | A32NX_EFIS_TERR_R_ACTIVE | 0&#124;1 | R/W        | Custom LVAR | Currently only in Experimental |
 
 ### DCDU
 
