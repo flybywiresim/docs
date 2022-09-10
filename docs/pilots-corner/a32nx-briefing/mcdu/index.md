@@ -19,21 +19,24 @@ This page will keep you updated with the status of the planned sections of this 
 
 ## Chapters
 
-| Page                           | Status            |
-|--------------------------------|-------------------|
-| [MCDU Overview](#)             | Available         |
-| [MCDU Interface](interface.md) | Available         |
-| [DIR](dir.md)                  | Available         |
-| [PROG](prog.md)                | Available         |
-| [PERF](perf.md)                | Available         |
-| [INIT](init.md)                | Available         |
-| [DATA](data.md)                | Available         |  
-| F-PLN                          | Not yet available |
-| [RAD NAV](rad-nav.md)          | Available         |
-| FUEL PRED                      | Not yet available |
-| [SEC F-PLN ](sec-f-plan.md)    | Available         |
-| [ATC COMM](atc-comm.md)        | Available         |
-| MCDU MENU                      | Not yet available |
+| Page                             | Status              |
+|----------------------------------|---------------------|
+| [MCDU Overview](#)               | Available           |
+| [MCDU Interface](interface.md)   | Available           |
+| -------------------------------- | ------------------- |
+| [DIR](dir.md)                    | Available           |
+| [PROG](prog.md)                  | Available           |
+| [PERF](perf.md)                  | Available           |
+| [INIT](init.md)                  | Available           |
+| [DATA](data.md)                  | Available           |  
+| F-PLN                            | Not yet available   |
+| [RAD NAV](rad-nav.md)            | Available           |
+| FUEL PRED                        | Not yet available   |
+| [SEC F-PLN ](sec-f-plan.md)      | Available           |
+| [ATC COMM](atc-comm.md)          | Available           |
+| MCDU MENU                        | Not yet available   |
+| -------------------------------- | ------------------- |
+| MCDU Messages                    | Not yet available   |
 
 ## Description
 
