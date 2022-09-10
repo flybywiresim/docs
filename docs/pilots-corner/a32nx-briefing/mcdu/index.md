@@ -28,7 +28,7 @@ This page will keep you updated with the status of the planned sections of this 
 | [PROG](prog.md)                | Available         |
 | [PERF](perf.md)                | Available         |
 | [INIT](init.md)                | Available         |
-| DATA                           | Not yet available |  
+| [DATA](data.md)                | Available         |  
 | F-PLN                          | Not yet available |
 | RAD NAV                        | Not yet available |
 | FUEL PRED                      | Not yet available |
