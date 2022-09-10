@@ -36,7 +36,7 @@ This page will keep you updated with the status of the planned sections of this 
 | [ATC COMM](atc-comm.md)          | Available           |
 | MCDU MENU                        | Not yet available   |
 | -------------------------------- | ------------------- |
-| MCDU Messages                    | Not yet available   |
+| [MCDU Messages](messages.md)     | Available           |
 
 ## Description
 
