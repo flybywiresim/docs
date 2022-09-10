@@ -1,6 +1,5 @@
 # Multipurpose Control and Display Unit
 
-<link rel="stylesheet" href="/stylesheets/toc-tables.css">
 <link rel="stylesheet" href="/stylesheets/admonition.css">
 <link rel="stylesheet" href="/stylesheets/reported-issues.css">
 
