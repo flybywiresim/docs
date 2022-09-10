@@ -1,6 +1,6 @@
 # PROG: Progress page
 
-![MCDU PROG](../../assets/a32nx-briefing/mcdu/mcdu-prog-page.png)
+![MCDU PROG](../../assets/a32nx-briefing/mcdu/mcdu-prog-page.png){loading=lazy}
 
 ## Description
 

@@ -1,6 +1,6 @@
 # DIR: Direct To page
 
-![DIR](../../assets/a32nx-briefing/mcdu/mcdu-dir-page.png)
+![DIR](../../assets/a32nx-briefing/mcdu/mcdu-dir-page.png){loading=lazy}
 
 ## Description
 
@@ -27,7 +27,7 @@ These lines on the left list the flight plan waypoints for the flight crew to se
 
 ### ERASE (6L)
 
-![DIR TO ERASE](../../assets/a32nx-briefing/mcdu/mcdu-dir-to-6L-erase.png "DIR TO ERASE")
+![DIR TO ERASE](../../assets/a32nx-briefing/mcdu/mcdu-dir-to-6L-erase.png "DIR TO ERASE"){loading=lazy}
 
 After selecting a waypoint (now in 1L data field) an amber ERASE functions appears in 6L.
 
@@ -35,7 +35,7 @@ Pressing ERASE clears the selected DIR TO waypoint in 1L.
 
 ### DIRECT (6R)
 
-![DIR TO DIRECT](../../assets/a32nx-briefing/mcdu/mcdu-dir-to-6R-direct.png "DIR TO DIRECT")
+![DIR TO DIRECT](../../assets/a32nx-briefing/mcdu/mcdu-dir-to-6R-direct.png "DIR TO DIRECT"){loading=lazy}
 
 After selecting a waypoint (now in 1L data field) an amber DIRECT functions appears in 6R.
 
