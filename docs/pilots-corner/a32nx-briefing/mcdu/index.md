@@ -1,5 +1,9 @@
 # Multipurpose Control and Display Unit
 
+<link rel="stylesheet" href="/stylesheets/toc-tables.css">
+<link rel="stylesheet" href="/stylesheets/admonition.css">
+<link rel="stylesheet" href="/stylesheets/reported-issues.css">
+
 ![Multipurpose Control and Display Unit](../../assets/a32nx-briefing/mcdu/mcdu-full-index.png "Multipurpose Control and 
 Display Unit"){loading=lazy width=50%}
 

@@ -1,5 +1,8 @@
 # PERF: Performance Page
 
+<link rel="stylesheet" href="/stylesheets/admonition.css">
+<link rel="stylesheet" href="/stylesheets/reported-issues.css">
+
 ![PERF Page](../../assets/a32nx-briefing/mcdu/mcdu-perf-page.png "PERF Page"){loading=lazy}
 
 ## Description
@@ -8,10 +11,10 @@ The Airbus A320neo divides each flight into these flight phases:
 
 `PREFLIGHT`, `TAKEOFF`, `CLIMB`, `CRUISE`, `DESCENT`, `APPROACH`, `GO-AROUND`, `DONE`.
 
-Except for the `PREFLIGHT` and `DONE` phases, each flight phase has a performance page. These display performance data,
-speeds related to the various phases, and predictions. When pressing the `PERF` key the page for the currently active
-phase brought up. Pages for already completed flight phases are not available anymore. In the `PREFLIGHT` and `DONE`
-phases, pressing the `PERF` key brings up the takeoff performance page.
+Except for the `PREFLIGHT` and `DONE` phases, each flight phase has a performance page. These pages display performance 
+data, speeds related to the various phases, and predictions. When pressing the `PERF` key the page for the currently 
+active phase is brought up. Pages for already completed flight phases are not available anymore. In the `PREFLIGHT` 
+and `DONE` phases, pressing the `PERF` key brings up the takeoff performance page.
 
 Prompts on each PERF page:
 
@@ -20,9 +23,9 @@ Prompts on each PERF page:
       phases.
 - ACTIVATE APPR PHASE (&L):
     - Replaces the PREV PHASE prompt when the current phase is active.
-    - To activate the APPR phase (needs a second push for confirmation).
+    - Push to activate the APPR phase (needs a second push for confirmation).
       !!! note ""
-          Note: If the pilots activates the approach phase inadvertently, they can reselect the cruise flight level
+          Note: If the pilots activate the approach phase inadvertently, they can reselect the cruise flight level
           into the progress page to reactivate the cruise phase.
 - NEXT PHASE (&R):
     - To review the performance page for the next phase.
@@ -34,21 +37,22 @@ Prompts on each PERF page:
 - TITLE TAKE OFF:
     - Green when active, white when inactive.
 
-    !!! note ""
-        If the takeoff shift or the runway is changed after V1, V2 or VR insertion, but the origin airport remains the 
-        same, the MCDU message “CHECK TAKEOFF DATA” is displayed, but all takeoff parameters are retained.
-
 - V1 (1L) VR (2L) V2 (3L):
-    - The boxes remain amber, as long as the pilot does not make entries in them. The pilot can modify any entry, as
+    - The boxes remain amber, as long as the pilot did not make entries in them. The pilot can modify any entry, as
       long as the takeoff phase is not active.
 
-    !!! note ""
-        If the pilot does not enter V2, the SRS mode will not be available at takeoff.
+        !!! note 
+            If the pilot does not enter V2, the SRS mode will not be available at takeoff.
 
+        !!! note 
+            If the takeoff shift (see below) or the runway is changed after V1, V2 or VR insertion, but the origin 
+            airport remains the same, the MCDU message “CHECK TAKEOFF DATA” is displayed, but all takeoff parameters 
+            are retained.
+    
     !!! tip
-        In the FlyByWire A32NX you can click on the LSK next to V1, VR, V2, to let the aircraft calculate the correct 
-        V-Speed for you. This calculated value is placed in the Scratchpad and can be move to the V-Speed field with a 
-        second click. In real life this value us usually calculated by a specific airline application on the EFB.
+        In the FlyByWire A32NX you can click on the LSK next to V1, VR, V2, to let the aircraft calculate the  
+        V-Speed for you. This calculated value is placed in the Scratchpad and can be moved to the V-Speed field with a 
+        second click. In real life this value is usually calculated by a specific airline application on the EFB.
 
 - TRANS ALT (4L)
     - This field displays the navigation database default transition altitude (if defined) once the origin airport is
@@ -59,18 +63,20 @@ Prompts on each PERF page:
       CLIMB (CL detent).
         - The thrust reduction altitude defaults to 1.500 ft above the runway elevation, or to the altitude set by the
           airline.
-        !!! note ""
-            Can be set in the flyPad settings.
+        
+            !!! tip 
+                Can be set in the flyPad settings.
     - The pilot can modify this altitude: The minimum is 400 ft above the runway elevation.
 
 - ACC (5L)
     - Passing acceleration altitude triggers the climb phase.
-    - The target speed changes to the initial climb speed
-    - The default value is 1.500 ft above runway elevation
+    - The target speed changes to the initial climb speed.
+    - The default value is 1.500 ft above runway elevation.
     - The flight crew can modify the value. The minimum value is 400 ft above runway elevation, though it is always
       higher than, or equal to, THR RED.
-    !!! note ""
-        - A clearing action reverts both values to the defaulted ones.
+    
+    !!! note
+        - A clearing action reverts both values to the default values.
         - When the flight crew selects an altitude on the FCU that is below THR RED, it brings THR RED and ACC down to
           this altitude. (The 400 ft minimum still applies).
 
@@ -91,14 +97,17 @@ Prompts on each PERF page:
 - FLAPS/THS (3R)
     - Positions of the flaps and the trimmable horizontal stabilizer (THS) at takeoff to be entered by the crew.
     - Can be edited until takeoff, by entering “UP X.X” or “X.X UP”, or “DN X.X” or “X.X DN” for the THS.
+    - See also the [Beginner Guide PERF TAKEOFF THS](../../beginner-guide/preparing-mcdu.md#perf)
 
 - FLX TO TEMP (4R)
     - Flight crew inserts the FLX TO temperature in Celsius for FLX takeoff setting purposes. It can only be entered
       during preflight. This value will be sent to the FADEC and displayed on the upper ECAM display.
+    - See also the [Beginner Guide PERF TAKEOFF Flex Temp](../../beginner-guide/preparing-mcdu.md#flex-temp)    
 
 - ENG OUT ACC (5R)
-    - Engine-out acceleration altitude, as defined in the database, or manually entered by the flight crew. This is for
-      display only, as a reminder. It cannot be cleared. The above ACC altitude rules of (5L) apply to this field.
+    - Engine-out acceleration altitude, as defined in the database, or manually entered by the flight crew. 
+    - This is for display only, as a reminder. It cannot be cleared. The above ACC altitude rules of (5L) apply to 
+      this field.
 
 ## CLIMB
 
@@ -108,7 +117,8 @@ Prompts on each PERF page:
     - Green when active, white when inactive.
 
 - ACT MODE (1L):
-    - Displays the preselected or active speed mode: SELECTED or MANAGED. Can't be modified from this field.
+    - Displays the preselected or active speed mode: SELECTED or MANAGED. 
+    - Can't be modified from this field.
 
 - CI (2L):
     - Cost index, as initialized either on the INIT A page, defaulted from the database, or inserted in this field by
@@ -117,49 +127,51 @@ Prompts on each PERF page:
 - MANAGED (3L):
     - This field displays the FMGS computed ECON speed/Mach.
     - Before CLIMB phase is active, a star is displayed next to the MANAGED speed, if the preselected speed mode is
-      SELECTED. Pressing the 3L key in this case preselects MANAGED speed, and 4L reverts to brackets.
-
-    !!! attention ""
-        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+      SELECTED. 
+    - Pressing the 3L key in this case preselects MANAGED speed, and 4L reverts to brackets.
+    
+        !!! attention ""
+            Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 - PRESEL or SELECTED (4L):
-    - Climb phase is not active:
+    - Climb phase not active:
         - As long as the climb phase is not active this field displays PRESEL. A preselected speed can be entered.
-    - Climb phase is active:
-        - Title becomes SELECTED.
+  
+    - Climb phase active:
+        - Filed title becomes SELECTED.
         - Displays selected (or preselected) SPD or MACH target.
         - Cannot be modified directly in this field, but with the SPD/MACH selection knob on the FCU.
-        - If the FCU SPD/MACH selection knob if pushed it reverts to managed speed and the system selects/re-selects
+        - If the FCU SPD/MACH selection knob is pushed it reverts to managed speed and the system selects/re-selects
           ECON SPD/MACH and (4L) is blank.
 
-<!-- these are not available in the A32NX but documented in the FCOM
+    - Blank or EXPEDITE (5L):
+        - Blank as long as the aircraft is in preflight.
+        - Displays this legend when the takeoff or climb phase is active.
+        - The flight crew cannot engage EXPEDITE from this field. It indicates the time and distance required to 
+          reach the altitude displayed in the 2R field, in case of climb at green dot.
 
-- Blank or EXPEDITE (5L):
-    - Blank as long as the aircraft is in preflight.
-    - Displays this legend when the takeoff or climb phase is active.
-    - The flight crew cannot engage EXPEDITE from this field. It indicates the time and distance required to reach the altitude displayed in the 2R field, in case of climb at green dot.
+        !!! attention ""
+            Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
-    !!! attention ""
-        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+    - EO CLR (1R):
+        - The system displays the EO CLR prompt in case of engine out in climb.
 
-- EO CLR (1R):
-    - The system displays the EO CLR prompt in case of engine out in climb.
+        !!! attention ""
+            Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
-    !!! attention ""
-        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+    - PRED TO... (2R):
+        - This field displays the target altitude for the predictions shown in 3R, 4R, or 5L. It defaults to FCU 
+          altitude, but the pilot can modify it to any altitude below   CRZ FL.
 
-- PRED TO... (2R):
-    - This field displays the target altitude for the predictions shown in 3R, 4R, or 5L. It defaults to FCU altitude, but the pilot can modify it to any altitude below   CRZ FL.
+        !!! attention ""
+            Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
-    !!! attention ""
-        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+    - (3R) (4R) (5R):
+        - These fields show time and distance predictions for the target altitude selected in (2R), computed for the 
+          current vertical mode and speed mode (MANAGED, SELECTED). These fields are displayed only while the takeoff, or climb phase is active.
 
-- (3R) (4R) (5R):
-    - These fields show time and distance predictions for the target altitude selected in (2R), computed for the current vertical mode and speed mode (MANAGED, SELECTED). These fields are displayed only while the takeoff, or climb phase is active.
-
-    !!! attention ""
-        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
--->
+        !!! attention ""
+            Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ## CRUISE
 
@@ -178,40 +190,57 @@ Prompts on each PERF page:
 - MANAGED (3L):
     - This field displays the FMGS computed ECON speed/Mach.
     - Before CRUISE phase is active, a star is displayed next to the MANAGED speed, if the preselected speed mode is
-      SELECTED. Pressing the 3L key in this case preselects MANAGED speed, and 4L reverts to brackets.
+      SELECTED. 
+    - Pressing the 3L key in this case preselects MANAGED speed, and 4L reverts to brackets.
 
-    !!! attention ""
-        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+        !!! attention ""
+            Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 - PRESEL (4L)
     - Cruise phase not active:
         - A preselected speed or Mach number can be entered.
     - Cruise phase active:
         - This field is blank.
-          !!! note ""
-          If a value in the PRESEL field is entered during the cruise altitude capture (ALT CRZ*), the selected speed in
-          the FCU may revert to M 0.01.
 
-- TIME/UTC DES EFOB
+- TIME/UTC DES EFOB (1R)
     - Before takeoff: Displays the flight time to destination and the predicted remaining fuel on board. If an estimated
       takeoff time has been entered, the field displays automatically the predicted arrival time (UTC) at destination.
     - After takeoff: Displays the predicted arrival time at destination (UTC) and the remaining fuel on board.
     - EO CLR is displayed when an engine out is detected.
 
-<!--  these are not available in the A32NX but documented in the FCOM
+    !!! attention ""
+        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 - STEP TO FL XX, DRIFT DOWN TO FLxxx, or TO T/D (2R):
-    - The field, in combination with 3R, displays the predictions for the step point and the step altitude, the drift down altitude, or the Top of Descent.
+    - The field, in combination with 3R, displays the predictions for the step point and the step altitude, the 
+      drift down altitude, or the Top of Descent.
+
+    !!! attention ""
+        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 - TIME/UTC and DIST (3R):
     - This field displays the time and distance to go to the various points identified (2R).
 
-- DES CABIN RATE (4R)
-    - This field displays MAX (computed DES cabin rate, maximum descent cabin rate). The pilot may modify the value: the FM recomputes then the top of descent in order to match this value. If the FM cannot match the pilot entry, the FM computed value overwrites the pilot entry. A clear action reverts to the default value (-350 ft/min). DES CAB RATE being a negative value, 'minus” is not a necessary entry.
+    !!! attention ""
+        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
+- DES CABIN RATE (4R)
+    - This field displays MAX (computed DES cabin rate, maximum descent cabin rate). 
+    - The pilot may modify the value
+        - The FM then recomputes the top of descent in order to match this value. 
+        - If the FM cannot match the pilot entry, the FM computed value overwrites the pilot entry. A clear action 
+          reverts to the default value (-350 ft/min). DES CAB RATE being a negative value, 'minus” is not a 
+          necessary entry.
+
+    !!! attention ""
+        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+ 
 - STEP ALTS (5R)
     - This key calls up the STEP ALTS page .
--->
+    
+    !!! attention ""
+        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+
 
 ## DESCENT
 
@@ -229,10 +258,10 @@ Prompts on each PERF page:
 
 - MANAGED (3L):
     - If the descent phase is not active:
-      Before the flight crew makes any entry. This field displays MANAGED in white, with the associated ECON descent
-      Mach or speed in blue. The crew may overwrite the ECON descent Mach or speed by entering a Mach number or a speed
-      in this field. The system uses the pilot entry to compute the descent profile. The descent may be flown in managed
-      using this new pilot entry.
+        - Before the flight crew makes any entry. This field displays MANAGED in white, with the associated ECON descent
+          Mach or speed in blue. The crew may overwrite the ECON descent Mach or speed by entering a Mach number or a 
+          speed in this field. The system uses the pilot entry to compute the descent profile. The descent may be 
+          flown in managed using this new pilot entry.
         - The entry is modifiable. It can be cleared to revert to ECON speed/Mach.
     - If the descent phase is active:
         - The flight crew cannot make an entry in this field.
@@ -260,14 +289,23 @@ Prompts on each PERF page:
     - After takeoff: Displays the predicted arrival time at destination (UTC) and the remaining fuel on board.
     - EO CLR is displayed when an engine out is detected.
 
-<!--
-[2R] PRED TO...
-This field displays the target altitude for the predictions in [3R] [4R], or [5R].
-The display defaults to the altitude selected on the FCU. The flight crew can modify it to any altitude lower than present altitude.
+    !!! attention ""
+        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
-[3R] [4R] [5R]
-These fields display time and distance predictions down to the target altitude selected in [2R], computed for the current vertical mode (DES or OP DES) and the indicated speed mode (MANAGED, SELECTED).
--->
+- PRED TO... (2R)
+    - This field displays the target altitude for the predictions in (3R),(4R) or (5R)
+    - The display defaults to the altitude selected on the FCU. The flight crew can modify it to any altitude lower 
+      than present altitude.
+
+    !!! attention ""
+        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+
+- (3R),(4R) or (5R)
+    - These fields display time and distance predictions down to the target altitude selected in [2R], computed for the 
+      current vertical mode (DES or OP DES) and the indicated speed mode (MANAGED, SELECTED).
+
+    !!! attention ""
+        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ## APPROACH
 
@@ -293,7 +331,7 @@ These fields display time and distance predictions down to the target altitude s
         - 29 as 29.00 in.
         - 29.92 as 29.92 in.
 
-        !!! note ""
+        !!! note 
             An erroneous entry of an OAT in QNH field, e.g. 22°C, is accepted by the system as a QNH.
     
     - Pilots can modify this entry at any time.
@@ -323,7 +361,7 @@ These fields display time and distance predictions down to the target altitude s
         - The flight crew can modify VAPP.
         - A clear action reverts VAPP to the computed value.
 
-        !!! note ""
+        !!! note 
             VLS = 1.23 VS1G (Stall Speed) of the selected landing configuration [full or 3).
 
 - FINAL (1R)
@@ -331,17 +369,14 @@ These fields display time and distance predictions down to the target altitude s
     - Can't be modified here.
 
 - BARO (2R):
-    - Shows:
-        - The Minimum Descent Altitude (MDA) with associated brackets, or
-        - The Minimum Descent Height (MDH) with associated brackets, if:
-            - The QFE pin program is activated, or
-            - The FCU setting is QFE
-        - Pilots can modify this at any time.
-        - If an entry in (3R) is made or changes the approach, this is cleared.
+    - The Minimum Descent Altitude (MDA) with associated brackets, or
+    - The Minimum Descent Height (MDH) with associated brackets, if the FCU setting is QFE
+    - Pilots can modify this at any time.
+    - If an entry in (3R) is made or changes the approach, this is cleared.
 
 - RADIO (3R):
     - If an ILS approach is selected in the flight plan, this field shows "RADIO" and empty brackets.
-    - Pilots enter decision height.
+    - Pilots enter decision height for CAT II or CAT III approaches.
     - The system will accept an entry of “NO", "NODH" or "NO DH".
     - If a BARO value is entered in (2R), this field is cleared.
     - The RADIO range is 0 to 700 ft.
@@ -375,7 +410,7 @@ These fields display time and distance predictions down to the target altitude s
     - Engine-out acceleration altitude, as defined in the database, or manually entered by the flight crew. This is for
       display only, as a reminder. It cannot be cleared. The above ACC altitude rules of (5L) apply to this field.
 
-!!! note ""
+!!! note 
     When go-around is active, or if ALTN is enabled, or if a new destination is entered in the active flight plan and 
     a new cruise flight level on the progress page, the go-around phase shifts automatically to the climb phase (target 
     speed jumps from green dot speed to initial climb speed).
