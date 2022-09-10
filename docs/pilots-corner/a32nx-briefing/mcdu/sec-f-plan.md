@@ -1,5 +1,8 @@
 # SEC F-PLN: Secondary Flight Plan Page
 
+<link rel="stylesheet" href="/stylesheets/admonition.css">
+<link rel="stylesheet" href="/stylesheets/reported-issues.css">
+
 ![SEC F-PLN](../../assets/a32nx-briefing/mcdu/mcdu-sec-f-pln-page.png)
 
 The SEC F-PLN key on the MCDU console allows the flight crew to call up the secondary index page

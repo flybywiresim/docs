@@ -3,6 +3,9 @@ hide:
     - toc
 ---
 
+<link rel="stylesheet" href="/stylesheets/admonition.css">
+<link rel="stylesheet" href="/stylesheets/reported-issues.css">
+
 # MCDU Messages
 
 Messages displayed on the MCDU are of two types and displayed in two colors.

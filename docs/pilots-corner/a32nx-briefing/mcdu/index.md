@@ -32,7 +32,7 @@ This page will keep you updated with the status of the planned sections of this 
 | [RAD NAV](rad-nav.md)          | Available         |
 | FUEL PRED                      | Not yet available |
 | [SEC F-PLN ](sec-f-plan.md)    | Available         |
-| ATC COMM                       | Not yet available |
+| [ATC COMM](atc-comm.md)        | Available         |
 | MCDU MENU                      | Not yet available |
 
 ## Description
