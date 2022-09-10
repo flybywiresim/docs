@@ -87,7 +87,7 @@ consequence(s) of a failure that may have occurred during the flight and that ma
 
 Autoland many not be performed outside of these limitations:
 
-- Max. Crosswind: 20ft
+- Max. Crosswind: 20kt
 - Max. Headwind: 30kt
 - Max. Tailwind: 10kt
 - Glide slope angle smaller than -2.5° or greater than -3.25°
@@ -102,7 +102,7 @@ Minima:
 - ILS CAT III SINGLE: MDH 50ft
 - ILS CAT III DUAL: no DH (minimum RVR 75m)
 
-## Autoland HowTo
+## Autoland How-To
 
 ### Preparations
 
@@ -163,7 +163,7 @@ See [Beginner Guide Preparation and Checklist for Landing](../../beginner-guide/
 - At touchdown:
     - FMA shows ROLL OUT - autopilot keeps aircraft on center line
     - Both thrust levers to reverse thrust (idle or max as appropriate)
-    - PM checks and calls out: "touchdown", "spoilers", "reversers", "auto brake", "descel".
+    - PM checks and calls out: "touchdown", "spoilers", "reversers", "auto brake", "decel".
 - At 70kts: PM announces "70kts"
 - At about 40-60kts: PF will set both thrust levers to idle 
 - Before 20kts: the PF manually brakes to deactivate the autobrake and also 
