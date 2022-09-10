@@ -1,9 +1,16 @@
 # DIR: Direct To page
 
-<link rel="stylesheet" href="/stylesheets/admonition.css">
+<link rel="stylesheet" href="/stylesheets/admonitions.css">
 <link rel="stylesheet" href="/stylesheets/reported-issues.css">
 
 ![DIR](../../assets/a32nx-briefing/mcdu/mcdu-dir-page.png){loading=lazy}
+
+{==
+
+It is important to note that currently we are simulating the Thales version of the DIR TO page on our MCDU. We plan on changing this at a later time to the Honeywell version to
+be in line with the rest of our implementation.
+
+==}
 
 ## Description
 

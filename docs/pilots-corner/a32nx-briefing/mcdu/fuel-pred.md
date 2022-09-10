@@ -1,6 +1,6 @@
 # FUEL PRED: Fuel Prediction Page
 
-<link rel="stylesheet" href="/stylesheets/admonition.css">
+<link rel="stylesheet" href="/stylesheets/admonitions.css">
 <link rel="stylesheet" href="/stylesheets/reported-issues.css">
 
 ![FUEL PRED](../../assets/a32nx-briefing/mcdu/mcdu-fuel-pred.png)

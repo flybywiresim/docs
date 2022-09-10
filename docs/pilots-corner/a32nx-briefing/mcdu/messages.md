@@ -3,7 +3,7 @@ hide:
     - toc
 ---
 
-<link rel="stylesheet" href="/stylesheets/admonition.css">
+<link rel="stylesheet" href="/stylesheets/admonitions.css">
 <link rel="stylesheet" href="/stylesheets/reported-issues.css">
 
 # MCDU Messages

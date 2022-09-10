@@ -1,6 +1,6 @@
 # PROG: Progress page
 
-<link rel="stylesheet" href="/stylesheets/admonition.css">
+<link rel="stylesheet" href="/stylesheets/admonitions.css">
 <link rel="stylesheet" href="/stylesheets/reported-issues.css">
 
 ![MCDU PROG](../../assets/a32nx-briefing/mcdu/mcdu-prog-page.png){loading=lazy}

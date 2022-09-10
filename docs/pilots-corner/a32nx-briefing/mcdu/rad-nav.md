@@ -1,6 +1,6 @@
 # RAD NAV: Radio Navigation Page
 
-<link rel="stylesheet" href="/stylesheets/admonition.css">
+<link rel="stylesheet" href="/stylesheets/admonitions.css">
 <link rel="stylesheet" href="/stylesheets/reported-issues.css">
 
 ![RAD NAV](../../assets/a32nx-briefing/mcdu/mcdu-rad-nav-page.png)
