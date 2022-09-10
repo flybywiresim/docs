@@ -3,40 +3,30 @@
 <link rel="stylesheet" href="/stylesheets/reported-issues.css">
 <link rel="stylesheet" href="/stylesheets/admonitions.css">
 
-![Multipurpose Control and Display Unit](../../assets/a32nx-briefing/mcdu/mcdu-full-index.png "Multipurpose Control and 
-Display Unit"){loading=lazy width=50%}
+## CHapters
 
-## Work In Progress
+!!! block ""
 
-{==
+    ![Multipurpose Control and Display Unit](../../assets/a32nx-briefing/mcdu/mcdu-full-index.png "Multipurpose Control and Display Unit"){loading=lazy width=50% align=left}
 
-We are currently in the process of writing this documentation and we have decided to release parts whenever a section
-(e.g. MCDU page) is finished.  
-
-This page will keep you updated with the status of the planned sections of this MCDU guide.
-
-==}
-
-## Chapters
-
-| Page                             | Status              |
-|----------------------------------|---------------------|
-| [MCDU Overview](#)               | Available           |
-| [MCDU Interface](interface.md)   | Available           |
-| -------------------------------- | ------------------- |
-| [DIR](dir.md)                    | Available           |
-| [PROG](prog.md)                  | Available           |
-| [PERF](perf.md)                  | Available           |
-| [INIT](init.md)                  | Available           |
-| [DATA](data.md)                  | Available           |  
-| F-PLN                            | Not yet available   |
-| [RAD NAV](rad-nav.md)            | Available           |
-| [FUEL PRED](fuel-pred.md)        | Available           |
-| [SEC F-PLN ](sec-f-plan.md)      | Available           |
-| [ATC COMM](atc-comm.md)          | Available           |
-| [MCDU MENU](mcdu-menu.md)        | Available           |
-| -------------------------------- | ------------------- |
-| [MCDU Messages](messages.md)     | Available           |
+    | Page                             | 
+    |----------------------------------|
+    | [MCDU Overview](#)               | 
+    | [MCDU Interface](interface.md)   | 
+    | -------------------------------- |   
+    | [DIR](dir.md)                    | 
+    | [PROG](prog.md)                  | 
+    | [PERF](perf.md)                  | 
+    | [INIT](init.md)                  | 
+    | [DATA](data.md)                  | 
+    | [F-PLN](f-pln.md)                | 
+    | [RAD NAV](rad-nav.md)            | 
+    | [FUEL PRED](fuel-pred.md)        | 
+    | [SEC F-PLN ](sec-f-plan.md)      | 
+    | [ATC COMM](atc-comm.md)          | 
+    | [MCDU MENU](mcdu-menu.md)        | 
+    | -------------------------------- | 
+    | [MCDU Messages](messages.md)     | 
 
 ## Description
 
