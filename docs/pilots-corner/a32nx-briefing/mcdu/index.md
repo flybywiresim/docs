@@ -29,9 +29,9 @@ This page will keep you updated with the status of the planned sections of this 
 | [INIT](init.md)                | Available         |
 | [DATA](data.md)                | Available         |  
 | F-PLN                          | Not yet available |
-| RAD NAV                        | Not yet available |
+| [RAD NAV](rad-nav.md)          | Available         |
 | FUEL PRED                      | Not yet available |
-| SEC F-PLN                      | Not yet available |
+| [SEC F-PLN ](sec-f-plan.md)    | Available         |
 | ATC COMM                       | Not yet available |
 | MCDU MENU                      | Not yet available |
 
