@@ -45,23 +45,28 @@ White messages are advisory only.
 
 ### Line Select Keys and Data Fields
 
-The MCDU has two columns of data (left and right) with 6 rows of title and data field on each side. The data is either a stored value, computed value or a value entered by the crew.
+The MCDU has two columns of data (left and right) with 6 rows of title and data field on each side. The data is 
+either a stored value, computed value or a value entered by the crew.
 
-These LSK are used to move data from the scratchpad to the corresponding line, or to call specific function pages indicated by a prompt or a flight plan element next to the LSK.
+These LSK are used to move data from the scratchpad to the corresponding line, or to call specific function pages 
+indicated by a prompt or a flight plan element next to the LSK.
 
 ### Page Keys
 
-These keys call up certain pages used by the flight crew for flight management purposes. They are described in detail in the other sections of this MCDU documentation.
+These keys call up certain pages used by the flight crew for flight management purposes. They are described in 
+detail in the other sections of this MCDU documentation.
 
 ### Slew Keys
 
 &uarr; &darr;: Used to scroll a page up or down. Arrows on the bottom right indicate that the page can be scrolled.
 
-&larr; &rarr;: Used to move to the next page of a multi-page element. Arrow in the top right corner indicates there is another page available.
+&larr; &rarr;: Used to move to the next page of a multi-page element. Arrow in the top right corner indicates there 
+is another page available.
 
 ### Brightness and Dimming Keys
 
-Control the light intensity of the entire MCDU. MCDU power up is performed with the BRT key and MCDU shut down is performed with the DIM key.
+Control the light intensity of the entire MCDU. MCDU power up is performed with the BRT key and MCDU shut down is 
+performed with the DIM key.
 
 ### Alphanumeric Keys
 
@@ -77,7 +82,8 @@ The CLR key is used to:
 
 - remove last character in Scratchpad.
 - clear the whole Scratchpad (hold the CLR key).
-- clearing of data fields by first pressing CLR on an empty Scratchpad so that CLR appears in the Scratchpad and the pressing the LSK next to the data field which shall be erased.
+- clearing of data fields by first pressing CLR on an empty Scratchpad so that CLR appears in the Scratchpad and the 
+  pressing the LSK next to the data field which shall be erased.
 
 ### Overfly Key
 
@@ -85,7 +91,8 @@ Allows the aircraft to overfly a selected waypoint.
 
 ### Airport Key
 
-Calls up the flight plan page that contains the next airport along the current flight plan. Successive pushes on the key show the alternate airport, the origin airport (before takeoff), and the next airport again.
+Calls up the flight plan page that contains the next airport along the current flight plan. Successive pushes on the 
+key show the alternate airport, the origin airport (before takeoff), and the next airport again.
 
 ## Annunciators
 
@@ -106,7 +113,9 @@ Calls up the flight plan page that contains the next airport along the current f
 - FAIL (amber):
     - Indicates that the Multipurpose Control and Display Unit (MCDU) has failed.
 - FM (white):
-    - Comes on while the flight crew is using the MCDU to display peripherals. This light tells the flight crew that the FMGC has an important message to deliver. The flight crew accesses the message by pressing the MCDU MENU key and the line select key adjacent to the FMGC prompt.
+    - Comes on while the flight crew is using the MCDU to display peripherals. This light tells the flight crew that 
+      the FMGC has an important message to deliver. The flight crew accesses the message by pressing the MCDU MENU 
+      key and the line select key adjacent to the FMGC prompt.
 
 ### Right
 

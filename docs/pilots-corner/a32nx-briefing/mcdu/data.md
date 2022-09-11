@@ -17,7 +17,8 @@ PAGE 1 is dedicated to navigation systems and corresponding sub pages.
 PAGE 2 is dedicated to navigation data that is entered or stored in the FMGS.
 
 !!! attention ""
-    This section will not cover all DATA INDEX pages as most are not useful in a simulation anyway or not implemented yet in the FlyByWire A32NX.
+    This section will not cover all DATA INDEX pages as most are not useful in a simulation anyway or not 
+    implemented yet in the FlyByWire A32NX.
 
 ## DATA INDEX Page 1
 
@@ -25,16 +26,20 @@ PAGE 2 is dedicated to navigation data that is entered or stored in the FMGS.
 
 ![MCDU Data Position Page](../../assets/a32nx-briefing/mcdu/mcdu-data-position.png "MCDU Data Position Page"){loading=lazy}
 
-List of all FMGC computed positions using various methods. The positions of the different methods should be nearly identical.
+List of all FMGC computed positions using various methods. The positions of the different methods should be nearly 
+identical.
 
 - FMGC 1 (1L)
-    - FMGC 1 calculated latitude and longitude, and the methods used by the FMGC for the calculation (Example: “3 IRS/DME/DME”).
+    - FMGC 1 calculated latitude and longitude, and the methods used by the FMGC for the calculation (Example: “3 
+      IRS/DME/DME”).
 - FMGC 2 (2L)
     - FMGC 2 calculated latitude and longitude, and the methods used by the FMGC for the calculation.
 - RADIO or GPS or GPIRS (3L)
-    - Onside FMGC calculated latitude and longitude, calculated from selected radio NAVAIDs (Example: DME/DME, VOR/DME, or LOC) or from GPS or GPIRS.
+    - Onside FMGC calculated latitude and longitude, calculated from selected radio NAVAIDs 
+    - (Example: DME/DME, VOR/DME, or LOC) or from GPS or GPIRS.
 - MIX IRS (4L)
-    - Onside FMGC calculated latitude and longitude, of the weighted mean inertial reference system (IRS) calculated from the available IRSs.
+    - Onside FMGC calculated latitude and longitude, of the weighted mean inertial reference system (IRS) calculated 
+      from the available IRSs.
 - IRS 1,2,3 (5L)
     - Deviation in nautical miles of each IRS position from the onside FMGC position.
     - Displays the IRS mode, which can be INVAL, ALIGN, NAV or ATT.
@@ -56,7 +61,8 @@ List of all FMGC computed positions using various methods. The positions of the 
 Displays the IRS parameters for IRS 1, 2 and 3.
 
 - TITLE
-    - Displays the selected IRS in large white font. When frozen, IRS is replaced by “IRS FROZEN AT” and the time at which the pilot has frozen the display.
+    - Displays the selected IRS in large white font. When frozen, IRS is replaced by “IRS FROZEN AT” and the time at 
+      which the pilot has frozen the display.
 
 - POSITION (1L)
     - Latitude/longitude given by the selected IRS.
@@ -74,7 +80,8 @@ Displays the IRS parameters for IRS 1, 2 and 3.
     - GPS/IRS hybrid position of the IRS
 
 - FREEZE/UNFREEZE (6L)
-    - Allows to freeze or unfreeze all data displayed on all three IRS pages. When frozen, the title of the page specifies the time at which it was frozen. It is automatically unfrozen when exiting the page.
+    - Allows to freeze or unfreeze all data displayed on all three IRS pages. When frozen, the title of the page 
+      specifies the time at which it was frozen. It is automatically unfrozen when exiting the page.
 
 - GS (2R)
     - Ground speed
@@ -189,7 +196,8 @@ Page 1 displays the bearing, distance, and time to go to each airport.
     - Current great-circle distance to the airport.
 - UTC
     - Predicted time to the airport
-    - Computed using the current wind or a wind vector entered on page 2, and the speed according to the current mode (managed or selected).
+    - Computed using the current wind or a wind vector entered on page 2, and the speed according to the current 
+      mode (managed or selected).
     - This is only computed in cruise phase.
 
 - (5L)
@@ -211,7 +219,8 @@ Page 2 displays the EFOB and allows the crew to enter an effective wind to be fl
 - AIRPORTS (1-5)
     - EFOB at each airport.
     - EFOB is only computed in cruise phase.
-    - Enter an anticipated headwind or tailwind along the bearing to the airport. If entry is preceded by +, T, or TL, a tailwind is assumed.
+    - Enter an anticipated headwind or tailwind along the bearing to the airport. If entry is preceded by +, T, or 
+      TL, a tailwind is assumed.
     - If entry is preceded by -, H, or HD, a headwind is assumed.
     - Default value may be displayed, based on the current wind.
     - Used to compute the EFOB and time to the airport.

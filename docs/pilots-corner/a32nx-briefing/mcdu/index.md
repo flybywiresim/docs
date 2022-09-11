@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="/stylesheets/reported-issues.css">
 <link rel="stylesheet" href="/stylesheets/admonitions.css">
 
-## CHapters
+## Chapters
 
 !!! block ""
 
@@ -44,7 +44,8 @@ and predicted progress along the flight plan.
 
 This section describes the MCDU in detail, covering each page and also the standard process for setting up a flight.
 
-See the [MCDU Setup Procedure](../../beginner-guide/preparing-mcdu.md) in our [Beginner Guide](../../beginner-guide/overview.md) .
+See the [MCDU Setup Procedure](../../beginner-guide/preparing-mcdu.md) in our 
+[Beginner Guide](../../beginner-guide/overview.md).
 
 
 

@@ -21,7 +21,8 @@ The INIT A page is used by the flight crew to initialize the flight plan and ali
 
 - ALTN/CO RTE (2L):
     - This field is dashed, until a primary destination is entered in the 1R field.
-    - If a preferred alternate is associated with the primary destination, it is displayed in this field with the company route identification.
+    - If a preferred alternate is associated with the primary destination, it is displayed in this field with the 
+      company route identification.
     - The crew may manually enter an alternate and company route.
 
     !!! attention ""
@@ -36,7 +37,8 @@ The INIT A page is used by the flight crew to initialize the flight plan and ali
     - Can be modified.
 
 - CRZ FL/TEMP (6L):
-    - Usually stored in the database with the company route or taken from the OFP. If not, it has to be entered manually.
+    - Usually stored in the database with the company route or taken from the OFP. If not, it has to be entered 
+      manually.
     - When not entered, the system will not provide predictions, while the aircraft is on the ground.
     - Used to enter the temperature at cruise flight level to refine the predictions. If not provided manually, 
       these are computed for ISA conditions.
@@ -61,7 +63,8 @@ The INIT A page is used by the flight crew to initialize the flight plan and ali
         In the FlyByWire A32NX this function is implemented differently and loads a flight plan from 
         SimBrief.
         <p />
-        Make sure to **not** have set a Destination in the MSFS World Map otherwise the INIT REQUEST prompt will not show. 
+        Make sure to **not** have set a Destination in the MSFS World Map otherwise the INIT REQUEST prompt will not 
+        show. 
 
 - IRS INIT (3R):
     - Calls the IRS INIT page to allow aligning the IRS to the origin airport's coordinates.

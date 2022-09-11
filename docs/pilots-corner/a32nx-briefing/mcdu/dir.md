@@ -7,8 +7,8 @@
 
 {==
 
-It is important to note that currently we are simulating the Thales version of the DIR TO page on our MCDU. We plan on changing this at a later time to the Honeywell version to
-be in line with the rest of our implementation.
+It is important to note that currently we are simulating the Thales version of the DIR TO page on our MCDU. We plan 
+on changing this at a later time to the Honeywell version to be in line with the rest of our implementation.
 
 ==}
 

@@ -168,7 +168,8 @@ Prompts on each PERF page:
 
     - (3R) (4R) (5R):
         - These fields show time and distance predictions for the target altitude selected in (2R), computed for the 
-          current vertical mode and speed mode (MANAGED, SELECTED). These fields are displayed only while the takeoff, or climb phase is active.
+          current vertical mode and speed mode (MANAGED, SELECTED). These fields are displayed only while the 
+          takeoff, or climb phase is active.
 
         !!! attention ""
             Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
