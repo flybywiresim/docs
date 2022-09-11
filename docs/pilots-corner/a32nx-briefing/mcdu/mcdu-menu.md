@@ -47,7 +47,10 @@ displays this page at power up.
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 - NAV B/UP (1R)
-
+    - The MCDU NAV B/UP allows to link a MCDU to its associated IRS in order to allow the flight crew to
+      monitor the navigation and to be provided with some basic flight planning functions in case of FM 1 +
+      2 failure.
+    
 !!! attention ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
