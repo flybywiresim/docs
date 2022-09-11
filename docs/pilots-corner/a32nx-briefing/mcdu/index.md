@@ -11,7 +11,6 @@
 
     | Page                             | 
     |----------------------------------|
-    | [MCDU Overview](#)               | 
     | [MCDU Interface](interface.md)   | 
     | -------------------------------- |   
     | [DIR](dir.md)                    | 
