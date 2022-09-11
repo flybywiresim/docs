@@ -178,7 +178,7 @@ Automatically displayed this page at power up.  Pilots may also call it up by pr
     !!! attention ""
         Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
-### CLOSEST AIRPORTS
+### CLOSEST AIRPORTS 1
 
 ![MCDU Data Closest Airports 1 Page](../../assets/a32nx-briefing/mcdu/mcdu-data-closest-airports.png "MCDU Data Closest Airports 1 Page"){loading=lazy}
 
@@ -208,6 +208,8 @@ Page 1 displays the bearing, distance, and time to go to each airport.
 - EFOB/WIND (6R)
     - Gives access to page 2.
     - Automatically freezes the list of the four closest airports when pressed.
+
+### CLOSEST AIRPORTS 2
 
 ![MCDU Data Closest Airports 2 Page](../../assets/a32nx-briefing/mcdu/mcdu-data-closest-airports-2.png "MCDU Data Closest Airports 2 Page"){loading=lazy}
 

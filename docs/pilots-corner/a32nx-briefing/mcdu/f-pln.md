@@ -111,7 +111,7 @@ Pseudo waypoints are displayed in parentheses.
             as a flight level above the transition altitude.
 
 - DEST UTC/TIME DIST, EFOB (6)
-    - DIST: Distance to destination along the displayed flight plan.
+    - DIST: Distance to destination along the displayed flight plan (track miles).
     - EFOB: Estimated fuel on board at destination. EFOB at destination will turn to amber, if it becomes less than 
       the MIN DEST FOB value.
     - Line is permanent and displayed in white font once predictions are available. Not visible when a TMPY F-PLN is 

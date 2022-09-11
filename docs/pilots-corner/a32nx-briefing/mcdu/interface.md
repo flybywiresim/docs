@@ -20,15 +20,16 @@ The Scratchpad is also displaying specific messages as described in the next cha
 
 ### Messages on Scratchpad
 
-Messages displayed on the Scratchpad are colored by importance as either amber or white.
+Messages displayed on the Scratchpad are colored by importance as either <span style="color: #ff9a00">amber</span> or 
+white.
 
-Amber messages are:
+<span style="color: #ff9a00">Amber</span> messages are:
 
 - Navigation messages
 - Data entry messages
 - EFIS repeat messages
 
-Amber messages are categorized into two types:
+<span style="color: #ff9a00">Amber</span> messages are categorized into two types:
 
 - Type 1:
     - Messages are a direct result of a flight crew action. Type 1 messages are displayed immediately in the 
@@ -101,16 +102,16 @@ key show the alternate airport, the origin airport (before takeoff), and the nex
 
 ### Top
 
-- FM 1 and FM 2 (amber):
+- FM 1 and FM 2 (<span style="color: #ff9a00">amber</span>):
     - The onside FM is failed
-- IND (amber):
+- IND (<span style="color: #ff9a00">amber</span>):
     - The onside FM detects an independent mode of operation while both FM are healthly.
-- RDY (green):
+- RDY (<span style="color: #00ff00">green</span>):
     - MCDU has passed its power up test after it was turned off using its DIM key.
 
 ### Left
 
-- FAIL (amber):
+- FAIL (<span style="color: #ff9a00">amber</span>):
     - Indicates that the Multipurpose Control and Display Unit (MCDU) has failed.
 - FM (white):
     - Comes on while the flight crew is using the MCDU to display peripherals. This light tells the flight crew that 
@@ -130,7 +131,7 @@ The MCDU uses small and large fonts according to the following rules:
 - Data fields usually use large font
 - Label lines use small font
 - Flight crew entries and modifiable data use large font
-- Defaulted, computed and non modifiable data use small font.
+- Defaulted, computed and non-modifiable data use small font.
 
 ## Colors
 

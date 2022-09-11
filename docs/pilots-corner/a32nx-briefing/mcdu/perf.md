@@ -50,7 +50,7 @@ Prompts on each PERF page:
             are retained.
     
     !!! tip
-        In the FlyByWire A32NX you can click on the LSK next to V1, VR, V2, to let the aircraft calculate the  
+        In the FlyByWire A32NX you can click on the LSK next to V1, VR, V2, to let the aircraft calculate the 
         V-Speed for you. This calculated value is placed in the Scratchpad and can be moved to the V-Speed field with a 
         second click. In real life this value is usually calculated by a specific airline application on the EFB.
 

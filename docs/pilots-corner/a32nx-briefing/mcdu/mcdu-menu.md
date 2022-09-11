@@ -38,21 +38,21 @@ displays this page at power up.
  
 - AIDS (3L)
 
-!!! attention ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+    !!! attention ""
+        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 - CFDS (4L)
 
-!!! attention ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+    !!! attention ""
+        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 - NAV B/UP (1R)
     - The MCDU NAV B/UP allows to link a MCDU to its associated IRS in order to allow the flight crew to
       monitor the navigation and to be provided with some basic flight planning functions in case of FM 1 +
       2 failure.
     
-!!! attention ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+    !!! attention ""
+        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### AOC MENU Page
 
@@ -71,6 +71,7 @@ displays this page at power up.
 
     !!! attention ""
         Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+
 - MISC (6R)
 
     !!! attention ""
@@ -83,11 +84,12 @@ displays this page at power up.
     ![ATSU AOC INIT 2](../../assets/a32nx-briefing/mcdu/mcdu-atsu-aoc-init-2.png){loading=lazy align=center width=49%}
 
 This page is used to initialize the FMS with the flight plan from SimBrief. 
+
 Press `INIT DATA REQ*` to start the SimBrief import. 
 
 Also see [SimBrief Integration](../../../fbw-a32nx/feature-guides/simbrief.md) for more details.
 
-The rest of these two page is for reviewing the imported data. The second page also gives some information about 
+The rest of these two pages is for reviewing the imported data. The second page also gives some information about 
 various times for events like doors closed, take-off, etc. Some of these are only available after the flight. 
 
 ### WX REQUEST Page

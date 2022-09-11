@@ -5,13 +5,6 @@
 
 ![DIR](../../assets/a32nx-briefing/mcdu/mcdu-dir-page.png){loading=lazy}
 
-{==
-
-It is important to note that currently we are simulating the Thales version of the DIR TO page on our MCDU. We plan 
-on changing this at a later time to the Honeywell version to be in line with the rest of our implementation.
-
-==}
-
 ## Description
 
 The DIR TO page is used by the flight crew to select waypoints from the flight plan or to enter new waypoints to 
