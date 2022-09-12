@@ -125,7 +125,7 @@ The following FMA annunciations will be displayed during the approach and landin
 - SPEED
 - G/S
 - LOC
-- CAT 3 DUAL (alarm when downgraded)
+- CAT 3 DUAL (triple click sound when downgraded)
 - AP 1+2
 - 1 FD 2
 - A/THR
