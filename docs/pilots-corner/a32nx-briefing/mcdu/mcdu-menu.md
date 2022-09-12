@@ -5,7 +5,7 @@
 
 ![MCDU MENU](../../assets/a32nx-briefing/mcdu/mcdu-mcdu-menu.png)
 
-# Description
+## Description
 
 This page lists the various systems which are accessible via the MCDU. The system automatically
 displays this page at power up.
@@ -58,9 +58,9 @@ displays this page at power up.
 
 ![AOC MENU Page](../../assets/a32nx-briefing/mcdu/mcdu-atsu-aoc.png)
 
-- INIT/PRES (1L) --> [INIT/PRES](#initpres-page)
-- WX REQUEST (2L) --> [WX REQUEST](#wx-request-page)
-- ATIS (3L) --> [ATIS](#atis-page)
+- INIT/PRES (1L) --> See [INIT/PRES](#initpres-page)
+- WX REQUEST (2L) --> See [WX REQUEST](#wx-request-page)
+- ATIS (3L) --> See [ATIS](#atis-page)
 - FREE TEXT (1R) --> See [Free Text Guide](../../../fbw-a32nx/feature-guides/freetext.md) 
 - RECEIVED MESSAGES (3R)
     - Shows list of received messages (WX, ATIS, Free Text).

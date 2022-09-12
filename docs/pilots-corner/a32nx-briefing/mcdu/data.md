@@ -17,7 +17,7 @@ PAGE 1 is dedicated to navigation systems and corresponding sub pages.
 PAGE 2 is dedicated to navigation data that is entered or stored in the FMGS.
 
 !!! attention ""
-    This section will not cover all DATA INDEX pages as most are not useful in a simulation anyway or not 
+    This section will not cover all DATA INDEX pages as most are not useful in a simulation or not 
     implemented yet in the FlyByWire A32NX.
 
 ## DATA INDEX Page 1
@@ -29,10 +29,10 @@ PAGE 2 is dedicated to navigation data that is entered or stored in the FMGS.
 List of all FMGC computed positions using various methods. The positions of the different methods should be nearly 
 identical.
 
-- FMGC 1 (1L)
+- FMS 1 (1L)
     - FMGC 1 calculated latitude and longitude, and the methods used by the FMGC for the calculation (Example: “3 
       IRS/DME/DME”).
-- FMGC 2 (2L)
+- FMS 2 (2L)
     - FMGC 2 calculated latitude and longitude, and the methods used by the FMGC for the calculation.
 - RADIO or GPS or GPIRS (3L)
     - Onside FMGC calculated latitude and longitude, calculated from selected radio NAVAIDs 
@@ -135,7 +135,7 @@ Automatically displayed this page at power up.  Pilots may also call it up by pr
     - Aircraft Type
 
 - ENGINE TYPE (1L)
-    -Used this to calculate predictions.
+    - Used to calculate predictions.
 
 - ACTIVE DATABASE (2L)
     - Validity period and part number (large font).
@@ -162,11 +162,11 @@ Automatically displayed this page at power up.  Pilots may also call it up by pr
     - Default values are displayed in small font.
     - Manually entered values are displayed in large font.
     - When it is necessary to modify the IDLE or the PERF factor:
-        ‐ ENTER the change code in the CHG CODE field (5L).
-        - Default value for the code is “ARM” but can be modified in the Airline Modifiable Information (AMI) file.
+        - ENTER the change code in the CHG CODE field (5L).
+        - Default value for the code is "ARM" but can be modified in the Airline Modifiable Information (AMI) file.
         - With a valid code, the IDLE and PERF factors are displayed in blue.
-        ‐ ENTER the new IDLE and/or PERF factor(s) in the scratchpad.
-        ‐ PRESS the (6L) key to insert the new IDLE and/or PERF factor.
+        - ENTER the new IDLE and/or PERF factor(s) in the scratchpad.
+        - PRESS the (6L) key to insert the new IDLE and/or PERF factor.
         - The new IDLE and/or PERF factors are displayed in large blue font.
 
     !!! attention ""
@@ -182,9 +182,7 @@ Automatically displayed this page at power up.  Pilots may also call it up by pr
 
 ![MCDU Data Closest Airports 1 Page](../../assets/a32nx-briefing/mcdu/mcdu-data-closest-airports.png "MCDU Data Closest Airports 1 Page"){loading=lazy}
 
-Automatically selected closest 4 airports from the current position. The
-
-Pilots can add a 5th airport.
+Automatically loads the closest 4 airports from the current position. The pilots can add a 5th airport with a manual entry.
 
 Page 1 displays the bearing, distance, and time to go to each airport.
 

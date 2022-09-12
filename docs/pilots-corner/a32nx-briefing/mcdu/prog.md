@@ -25,9 +25,9 @@ This data field contains the cruise flight level as entered on INIT A page or as
 If the pilot enters an altitude into the FCU which is higher than this value, this value will be adjusted to the new 
 altitude and a message appears in the Scratchpad line.
 
-Value cannot be lower than the altitude selected in the FCU.
+The value cannot be lower than the altitude selected in the FCU.
 
-In descent or approach this shows dashes.
+In the descent or approach phase this field shows dashes.
 
 ### OPT (1M)
 
@@ -94,7 +94,7 @@ by the crew.
 
 ### GPS Source (5R)
 
-GPS PRIMARY is displayed, when the FMS navigation mode is GPS PRIMARY. When GPS PRIMARY is not available, or 
+GPS PRIMARY is displayed when the FMS navigation mode is GPS PRIMARY. When GPS PRIMARY is not available, or 
 navigation mode is not GPS/IRS, this field is blank.
 
 The scratchpad displays the relevant “GPS PRIMARY″ message when this prompt appears; and “GPS PRIMARY LOST”, when 

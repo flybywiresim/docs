@@ -21,20 +21,20 @@ by pressing the FUEL PRED key on the MCDU.
 ## Usage
 
 !!! note
-    All fields, are dashed before engines are started.
+    All fields are dashed before engines are started.
 
 - AT/UTC-TIME/EFOB (1L, 1M, 1R)
     - Display time and fuel predictions to the primary destination. TIME is displayed before takeoff. UTC 
       predictions are displayed after takeoff. If the flight crew has entered an Estimated Takeoff Time (ETT), the 
       UTC is displayed.
-    - The EFOB at destination will turn to amber, if it becomes less than the MIN DEST FOB value.
+    - The EFOB at destination will turn to amber if it becomes less than the MIN DEST FOB value.
 
 - AT/UTC-TIME/EFOB (2L, 2M, 2R)
     - These lines display time and fuel predictions to the alternate airport.
 
 - RTE RSV / % (3L)
     - Before departure, this field displays the route reserve fuel and the corresponding percentage of trip fuel. 
-    - It may be equal to 0.0, if such is the policy of the operator. The crew can either enter a fuel quantity or a 
+    - It may be equal to 0.0 if such is the policy of the operator. The crew can either enter a fuel quantity or a 
       percentage. 
     - After takeoff, it is dashed, and the corresponding fuel is added to the EXTRA fuel.
 
@@ -63,7 +63,7 @@ by pressing the FUEL PRED key on the MCDU.
       engine start on the INIT B page. 
     - The flight crew can re-enter or modify these values after engine start on the 
       FUEL PRED page. 
-    - If at engine start, no ZFW or ZFWCG values have been entered, amber boxes are displayed in the 
+    - If at engine start no ZFW or ZFWCG values have been entered, amber boxes are displayed in the 
       corresponding field. The crew must enter the ZFW/ZFWCG values to obtain a speed profile and predictions.
 
 - FOB (4R)

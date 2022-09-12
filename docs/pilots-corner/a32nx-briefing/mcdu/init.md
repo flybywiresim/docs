@@ -44,7 +44,7 @@ The INIT A page is used by the flight crew to initialize the flight plan and ali
       these are computed for ISA conditions.
 
 - FROM/TO (1R):
-    - ICAO codes for city of origin and destination must be entered here.
+    - ICAO codes for airport of origin and destination must be entered here.
     - Automatically deletes any previously entered route and calls up the route selection page.
     - If one airfield of the pair is not in the database, the display changes to the NEW RWY page.
 
@@ -52,7 +52,7 @@ The INIT A page is used by the flight crew to initialize the flight plan and ali
             Currently the "NEW RWY page" is not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 - INIT REQUEST (2R):
-    - Shown, if no flight plan is entered or the origin/destination pair is changed.
+    - Shown if no flight plan is entered or the origin/destination pair is changed.
     - Selecting this prompt sends the ground a request for active flight plan initialization (downlink message). 
       When the star is not displayed, a downlink message cannot be sent.
     - The uplink flight plan is automatically inserted in the active flight plan, prior to engine start, provided an 
@@ -82,6 +82,9 @@ The INIT A page is used by the flight crew to initialize the flight plan and ali
 - TROPO (6R):
     - Default tropopause altitude is 36 090 ft.
     - Can be modified up to 60 000 ft maximum.
+  
+    !!! tip
+        Learn more here: [Tropopause](https://skybrary.aero/articles/tropopause){target=new}
 
 ## INIT B
 
@@ -146,6 +149,14 @@ will use the FOB to compute its predictions.
 - BLOCK (2R)
     - Block fuel is a mandatory entry.
     - When entered, the page title changes to INIT FUEL PREDICTION.
+
+    !!! tip
+        Block fuel is the total fuel required for the flight and is the sum of the Taxi fuel, the Trip fuel, the 
+        Contingency fuel, the Alternate fuel, the Final Reserve fuel, the Additional fuel and any Extra fuel 
+        carried.<br/>
+        It is usually provided in the SimBrief flight plan.<br/> 
+        See [SimBrief Documentation](https://www.simbrief.com/system/guide.php#dosummary){target=new}. 
+  
 
 - FUEL PLANNING (3R)
     - Amber color.

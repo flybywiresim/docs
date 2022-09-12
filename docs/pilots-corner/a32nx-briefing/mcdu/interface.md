@@ -7,7 +7,7 @@
 
 ## General
 
-The MCDU (Multipurpose Control and Display Unit) has 14 lines and 24 characters in each line.
+The Multipurpose Control and Display Unit (MCDU) has 14 lines and 24 characters in each line.
 
 Each page has a title line.
 
@@ -36,20 +36,20 @@ white.
       scratchpad ahead of other messages.
 - Type 2:
     - Messages inform the flight crew of a given situation or request a specific action. Stored in “last in”, 
-      “first out” message queue that holds maximum of 5 messages. Type 2 messages are displayed in the scratchpad 
+      “first out” message queue that holds a maximum of 5 messages. Type 2 messages are displayed in the scratchpad 
       only if there are no Type 1 messages or other data and will remain until all the messages have been viewed and 
       cleared with the CLR key.
 
-White messages are advisory only.
+White messages are advisory only and do not require an action from the flight crew. These messages can be cleared with the CLR key.
 
 ## Keys
 
 ### Line Select Keys and Data Fields
 
-The MCDU has two columns of data (left and right) with 6 rows of title and data field on each side. The data is 
-either a stored value, computed value or a value entered by the crew.
+The MCDU has two columns of data (left and right) with 6 rows of title and data fields on each side. The data is 
+either a stored value, a computed value or a value entered by the crew.
 
-These LSK are used to move data from the scratchpad to the corresponding line, or to call specific function pages 
+The LSK next to the line is used to move data from the scratchpad to that corresponding line, or to call specific function pages 
 indicated by a prompt or a flight plan element next to the LSK.
 
 ### Page Keys
@@ -83,17 +83,20 @@ The CLR key is used to:
 
 - remove last character in Scratchpad.
 - clear the whole Scratchpad (hold the CLR key).
-- clearing of data fields by first pressing CLR on an empty Scratchpad so that CLR appears in the Scratchpad and the 
-  pressing the LSK next to the data field which shall be erased.
+- clearing of data fields by first pressing CLR on an empty Scratchpad so that CLR appears in the Scratchpad and then 
+  pressing the LSK next to the data field which needs to be erased.
 
 ### Overfly Key
 
-Allows the aircraft to overfly a selected waypoint.
+Allows the aircraft to overfly a selected waypoint (Flyover Waypoint).
+
+See [Waypoint on SKYbrary](https://skybrary.aero/articles/waypoint){target=new} for more information.
 
 ### Airport Key
 
 Calls up the flight plan page that contains the next airport along the current flight plan. Successive pushes on the 
-key show the alternate airport, the origin airport (before takeoff), and the next airport again.
+key show the destination airport, alternate airport (if in the flight plan), the origin airport (before takeoff), and 
+the destination airport again.
 
 ## Annunciators
 
@@ -164,7 +167,7 @@ The MCDU uses small and large fonts according to the following rules:
 
 ^^Colors used in Flight Plan:^^
 
-- Primary Flight Plan: <span style="color: #00ff00">Green</span> waypoints, white legs 
+- Primary Flight Plan: <span style="color: #00ff00">green</span> waypoints, white legs 
 - Temporary F-PLN: <span style="color: yellow">yellow</span> waypoints, white legs
 - Secondary F-PLN: white waypoints and legs
 - Missed Approach (not active): <span style="color: #00ffff">blue</span> waypoints, white legs

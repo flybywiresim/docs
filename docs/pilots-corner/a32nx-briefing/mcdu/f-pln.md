@@ -64,8 +64,9 @@ the STAR is magenta, the system predicts that the aircraft will match the constr
 not more than 10 kt above the constraints). If the star is amber, the system predicts that the aircraft will miss 
 the constraint and the MCDU displays: “SPD ERROR AT WPT”.
 
-Note: SPD and ALT CSTR may either be entered on the VERT REV page or directly on the F-PLN A page, whereas TIME CSTR 
-may only be entered from the RTA page.
+!!! note
+    SPD and ALT CSTR may either be entered on the VERT REV page or directly on the F-PLN A page, whereas TIME CSTR 
+    may only be entered from the RTA page.
 
 !!! attention ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
@@ -157,15 +158,16 @@ STAR revisions are done only at a destination airport (Destination page).
   
 - DEPARTURE (1L)
     - Used for selecting the departure runway and procedure.
-    - Only available on origin or alternate airport.
+    - Only available on origin airport.
   
 - FIX INFO (1R)
     - Used for entering radial, radius and abeam intercept points.
-    - Only available on departure or alternate departure airport.
+    - Only available on the current FROM waypoint (first waypoint when opening the F-PLN page). 
     - See the [FIX INFO Guide](../../advanced-guides/flight-planning/fixinfo.md) for more information.
   
 - ARRIVAL (1R)
     - Used for selecting the arrival runway and procedures (STAR, APPR, TRANS, etc.)
+    - Only available on the destination airport.
     - See [ARRIVAL Page](#arrival-page)
   
 - OFFSET (2L)
@@ -216,7 +218,7 @@ STAR revisions are done only at a destination airport (Destination page).
     - Only available on destination airport.
   
     !!! attention ""
-       Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
   
 - AIRWAYS (5R)
     - Displays the [AIRWAYS](#airways-page) page.
@@ -232,7 +234,7 @@ STAR revisions are done only at a destination airport (Destination page).
 ![Vertical Revision Page](../../assets/a32nx-briefing/mcdu/mcdu-vert-rev-page.png){loading=lazy}
 
 A vertical revision is a change or changes made to the vertical flight plan. The waypoint from which the change 
-origins is the revise waypoint. To enter the Lateral Revision page the pilots pushes the LSK right of the waypoint 
+origins is the revise waypoint. To enter the Vertical Revision page the pilots pushes the LSK right of the waypoint 
 in the F-PLN page.
 
 Vertical revisions have an immediate or future impact on the flight profile. The flight profile is the desired 
@@ -255,7 +257,7 @@ A vertical revision is rejected by the FMS, and NOT ALLOWED is displayed in the 
 certain criteria.
 
 ### VERT REV Page Elements
-- 
+
 - TITLE 
     - “VERT REV AT (location)”
     - Shows the estimated fuel on board and the extra fuel consumed after taxi, trip, reserves, alternate and final. 
@@ -265,8 +267,8 @@ certain criteria.
             Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
   
 - CLB/DES SPD LIM (2L)
-    - CLB SDP is show in CLIMB phase, DES SPD in DES phase
-    - The speed limit is either a system default, a NAV database airport default, or a pilot--entry.
+    - CLB SPD is show in CLIMB phase, DES SPD in DES phase
+    - The speed limit is either a system default, a NAV database airport default, or a pilot entry.
   
 - SPD CSTR (3L)
     - Used to enter a speed constraint for this waypoint.
@@ -284,7 +286,7 @@ certain criteria.
 - QNH (4L - only on destination waypoint)
     - Used to enter the QNH for the destination.
     - When entered it is also shown on the APPROACH page.
-- 
+
 - WIND (5L)
     - Calls the [WIND page](#wind-page).
     - True wind vectors are entered into the [WIND page](#wind-page) to update the flight plan wind model.
@@ -301,8 +303,8 @@ certain criteria.
     - Preceded with a - indicates AT OR BELOW.
     - During TAKEOFF and CLIMB only "AT" or "AT OR ABOVE" constraints are restrictive.
     - During DESCENT and APPROACH only "AT" or "AT OR BELOW" constraints are restrictive.
-        - A yellow * indicates the constraint will be missed.
-        - A magenta * indicates the constraint will be met.
+    - A yellow * indicates the constraint will be missed.
+    - A magenta * indicates the constraint will be met.
     - Could contain a “window” constraint. The altitude window consists of two altitudes within which the aircraft 
       should fly. The crew cannot manually enter a “window” constraint. It is in yellow when a temporary flight plan 
       exists.
@@ -327,7 +329,7 @@ certain criteria.
   
 - STEP ALTS (5R)
     - Calls the [STEP ALTS page](#step-alts-page).
-    - Only show once a cruise alt has been entered.
+    - Only shown once a cruise alt has been entered.
     - Not shown in DESCENT, APPROACH or GO-AROUND phases
   
 - \*CLB OR DES* (6L, 6R)
@@ -341,7 +343,7 @@ certain criteria.
     The 6L/6R fields display “CLB/DES” when the revised waypoint is a cruise phase waypoint, and the FMGS needs to 
     know if the new constraint is to be applied in climb or descent phase. The FMGS will modify the cruise phase 
     accordingly. These 2 prompts also display “CLB/DES” when the predictions are not computed. (Top of climb and top 
-    of descent not yet defined).
+    of descent are not yet defined).
 
 ## DEPARTURE Page
 
@@ -366,20 +368,20 @@ MCDU console.
     - “NONE” is displayed in the SID or TRANS field, if no SID or TRANS exists, or NO SID or NO TRANS was selected
       by the crew.
 
-- RWY/SIDs (2L)
+- RWY/SIDs (2L to 5L)
     - These fields display selectable and selected RWYs or SIDs.
     - The pilot can scroll each list.
     - Selectable RWYs and SIDs are displayed in blue with an arrow.
     - Once a RWY or SID is selected, the arrow disappears.
     - A RWY or SID, already inserted in the flight plan, is displayed in green.
-    - When a runway is selected, a temporary is created or modified, and the DEPARTURE page 2 for SID selection is
+    - When a runway is selected, a temporary flight plan is created or modified, and the DEPARTURE page 2 for SID selection is
       automatically displayed.
     - The display shows the length, course and, if available, the MLS ident and frequency for each runway.
 
 - TRANS (2R to 5R)
     - This field displays the selectable and selected enroute transitions in blue and green respectively.
     - They are blank, if there are no transitions.
-    - When a TRANS is selected, a temporary is created or updated (if one already exists).
+    - When a TRANS is selected, a temporary flight plan is created or updated (if one already exists).
 
 ## ARRIVAL Page
 
@@ -416,9 +418,9 @@ is automatically displayed.
     - In case there are multiple approaches for the same runway, the ILS is identified with the runway plus the
       multiple indicator (i.e. ILS33L-S)
 
-- 3R zo 5R
+- 3R to 5R
     - These fields either display:
-        - The indent and the frequency of the NAVAID specified for the approach, or
+        - The ident and the frequency of the NAVAID specified for the approach, or
         - The enroute transitions compatible with the selected STAR. The active selected TRANS is in green, the
           remaining TRANS are in blue.
 
@@ -542,8 +544,8 @@ ACARS for the various flight phases.
     - Upon sequencing the top of climb, the climb winds are deleted.
 
 - HISTORY WIND (1R) 
-  - This key calls up the history wind page and is only displayed in the preflight phase. It cannot be modified 
-    (white font), but can be inserted into the CLIMB WIND page by using the 6R key and modified accordingly.
+    - This key calls up the history wind page and is only displayed in the preflight phase. It cannot be modified 
+      (white font), but can be inserted into the CLIMB WIND page by using the 6R key and modified accordingly.
 
     !!! attention ""
         Currently only partly implemented in the FBW A32NX for Microsoft Flight Simulator.

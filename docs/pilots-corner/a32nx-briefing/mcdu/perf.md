@@ -21,13 +21,14 @@ Prompts on each PERF page:
 - PREV PHASE (6L):
     - To switch to the page for the previous phase. Not available on the takeoff performance page or already completed
       phases.
-- ACTIVATE APPR PHASE (&L):
+- ACTIVATE APPR PHASE (6L):
     - Replaces the PREV PHASE prompt when the current phase is active.
     - Push to activate the APPR phase (needs a second push for confirmation).
-      !!! note ""
-          Note: If the pilots activate the approach phase inadvertently, they can reselect the cruise flight level
-          into the progress page to reactivate the cruise phase.
-- NEXT PHASE (&R):
+
+    !!! note ""
+        Note: If the pilots activate the approach phase inadvertently, they can reselect the cruise flight level
+        into the progress page to reactivate the cruise phase.
+- NEXT PHASE (6R):
     - To review the performance page for the next phase.
 
 ## TAKE OFF
@@ -50,7 +51,7 @@ Prompts on each PERF page:
             are retained.
     
     !!! tip
-        In the FlyByWire A32NX you can click on the LSK next to V1, VR, V2, to let the aircraft calculate the 
+        In the FlyByWire A32NX you can click on the LSK next to V1, VR and V2, to let the aircraft calculate the 
         V-Speed for you. This calculated value is placed in the Scratchpad and can be moved to the V-Speed field with a 
         second click. In real life this value is usually calculated by a specific airline application on the EFB.
 
@@ -61,24 +62,29 @@ Prompts on each PERF page:
 - THR RED (5L)
     - The thrust reduction altitude is the altitude at which the pilot should reduce the thrust from TOGA/FLX to MAX
       CLIMB (CL detent).
-        - The thrust reduction altitude defaults to 1.500 ft above the runway elevation, or to the altitude set by the
-          airline.
+    - The thrust reduction altitude defaults to 1.500 ft above the runway elevation, or to the altitude set by the
+      airline.
         
-            !!! tip 
-                Can be set in the flyPad settings.
+    !!! tip 
+        The default value can be changed in the EFB Aircraft Options settings page.
+
     - The pilot can modify this altitude: The minimum is 400 ft above the runway elevation.
 
 - ACC (5L)
-    - Passing acceleration altitude triggers the climb phase.
-    - The target speed changes to the initial climb speed.
+    - The acceleration altitude is the altitude at which the climb phase is activated and the target speed is 
+      changed to the initial climb speed.
     - The default value is 1.500 ft above runway elevation.
-    - The flight crew can modify the value. The minimum value is 400 ft above runway elevation, though it is always
-      higher than, or equal to, THR RED.
+
+        !!! tip 
+            The default value can be changed in the EFB Aircraft Options settings page.
+  
+  - The flight crew can modify the value. The minimum value is 400 ft above runway elevation, though it is always
+    higher than, or equal to, THR RED.
     
-    !!! note
-        - A clearing action reverts both values to the default values.
-        - When the flight crew selects an altitude on the FCU that is below THR RED, it brings THR RED and ACC down to
-          this altitude. (The 400 ft minimum still applies).
+  !!! note
+      - A clearing action reverts both values to the default values.
+      - When the flight crew selects an altitude on the FCU that is below THR RED, it brings THR RED and ACC down to
+        this altitude. (The 400 ft minimum still applies).
 
 - UPLINK TO DATA (6L)
     - This key calls up the UPLINK TO DATA REQ page. It is only displayed in the preflight and done phases.
@@ -140,39 +146,39 @@ Prompts on each PERF page:
     - Climb phase active:
         - Filed title becomes SELECTED.
         - Displays selected (or preselected) SPD or MACH target.
-        - Cannot be modified directly in this field, but with the SPD/MACH selection knob on the FCU.
+        - Cannot be modified directly in this field, but it will update when the SPD/MACH is changed using the selection knob on the FCU.
         - If the FCU SPD/MACH selection knob is pushed it reverts to managed speed and the system selects/re-selects
           ECON SPD/MACH and (4L) is blank.
 
-    - Blank or EXPEDITE (5L):
-        - Blank as long as the aircraft is in preflight.
-        - Displays this legend when the takeoff or climb phase is active.
-        - The flight crew cannot engage EXPEDITE from this field. It indicates the time and distance required to 
-          reach the altitude displayed in the 2R field, in case of climb at green dot.
+- Blank or EXPEDITE (5L):
+    - Blank as long as the aircraft is in preflight.
+    - Displays this legend when the takeoff or climb phase is active.
+    - The flight crew cannot engage EXPEDITE from this field. It indicates the time and distance required to 
+      reach the altitude displayed in the 2R field, in case of climb at green dot.
 
-        !!! attention ""
-            Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+    !!! attention ""
+        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
-    - EO CLR (1R):
-        - The system displays the EO CLR prompt in case of engine out in climb.
+- EO CLR (1R):
+    - The system displays the EO CLR prompt in case of engine out in climb.
 
-        !!! attention ""
-            Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+    !!! attention ""
+        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
-    - PRED TO... (2R):
-        - This field displays the target altitude for the predictions shown in 3R, 4R, or 5L. It defaults to FCU 
-          altitude, but the pilot can modify it to any altitude below   CRZ FL.
+- PRED TO... (2R):
+    - This field displays the target altitude for the predictions shown in 3R, 4R, or 5L. It defaults to FCU 
+      altitude, but the pilot can modify it to any altitude below CRZ FL.
 
-        !!! attention ""
-            Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+    !!! attention ""
+        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
-    - (3R) (4R) (5R):
-        - These fields show time and distance predictions for the target altitude selected in (2R), computed for the 
-          current vertical mode and speed mode (MANAGED, SELECTED). These fields are displayed only while the 
-          takeoff, or climb phase is active.
+- (3R) (4R) (5R):
+    - These fields show time and distance predictions for the target altitude selected in (2R), computed for the 
+      current vertical mode and speed mode (MANAGED, SELECTED). These fields are displayed only while the 
+      takeoff, or climb phase is active.
 
-        !!! attention ""
-            Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+    !!! attention ""
+        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ## CRUISE
 
@@ -203,7 +209,7 @@ Prompts on each PERF page:
     - Cruise phase active:
         - This field is blank.
 
-- TIME/UTC DES EFOB (1R)
+- TIME/UTC DES EFOB (1M/1R)
     - Before takeoff: Displays the flight time to destination and the predicted remaining fuel on board. If an estimated
       takeoff time has been entered, the field displays automatically the predicted arrival time (UTC) at destination.
     - After takeoff: Displays the predicted arrival time at destination (UTC) and the remaining fuel on board.
@@ -284,7 +290,7 @@ Prompts on each PERF page:
     - It indicates the time and distance required to reach the altitude displayed in the 2R field at MMO/VMO speed. The
       pilot cannot select the EXPEDITE mode through this field.
 
-- TIME/UTC DES EFOB
+- TIME/UTC DES EFOB (1M/1R)
     - Before takeoff: Displays the flight time to destination and the predicted remaining fuel on board. If an estimated
       takeoff time has been entered, the field displays automatically the predicted arrival time (UTC) at destination.
     - After takeoff: Displays the predicted arrival time at destination (UTC) and the remaining fuel on board.
@@ -302,7 +308,7 @@ Prompts on each PERF page:
         Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 - (3R),(4R) or (5R)
-    - These fields display time and distance predictions down to the target altitude selected in [2R], computed for the 
+    - These fields display time and distance predictions down to the target altitude selected in (2R), computed for the 
       current vertical mode (DES or OP DES) and the indicated speed mode (MANAGED, SELECTED).
 
     !!! attention ""
@@ -318,6 +324,10 @@ Prompts on each PERF page:
 - QNH (1L)
     - \>180 NM from the destination:
         - Blue brackets are displayed
+    
+        !!! attention ""
+            Currently shows amber boxes in this case in the FBW A32NX for Microsoft Flight Simulator.
+  
     - <180 NM:
         - Amber box is displayed to signify a mandatory input required.
         - Pilot must enter the QNH in hPa or in inches of mercury.
@@ -336,42 +346,50 @@ Prompts on each PERF page:
             An erroneous entry of an OAT in QNH field, e.g. 22°C, is accepted by the system as a QNH.
     
     - Pilots can modify this entry at any time.
-    - The Cabin Pressure Controller [CPC) uses QNH to compute the cabin pressurization. Therefore, a wrong QNH 
+    - The Cabin Pressure Controller (CPC) uses QNH to compute the cabin pressurization. Therefore, a wrong QNH 
       entry may result in an inappropriate cabin pressurization.
 
 - TEMP (2L):
     - Shows temperature at destination.
     - \>180 NM from the destination:
         - Blue brackets are displayed
+          
+        !!! attention ""
+            Currently shows amber boxes in this case in the FBW A32NX for Microsoft Flight Simulator.
+  
     - <180 NM:
         - Amber box is displayed to signify a mandatory input required.
-    - Used by the FMGS to refine computation of the descent profile [ISA model).
+    - Used by the FMGS to refine computation of the descent profile (ISA model).
 
 - MAG WIND (3L)
     - Magnetic wind in knots at destination to be entered.
-    - Transmitted to the vertical revision and flight plan B pages [which display wind direction as true, not magnetic).
+    - Transmitted to the vertical revision and flight plan B pages (which display wind direction as true, not magnetic).
 
 - TRANS ALT (4L)
-    - Shows transition altitude taken from the navigational data base [small font) or entered by the flight crew [large
+    - Shows transition altitude taken from the navigational data base (small font) or entered by the flight crew (large
       font).
     - Pilots can modify it at any time.
 
 - VAPP (5L)
     - Computed by FMGC, using the formula:
-        - VAPP = VLS + 1/3 of the headwind components [limited to VLS + 5 as a minimum and VLS + 15 as a maximum).
+        - VAPP = VLS + 1/3 of the headwind components (limited to VLS + 5 as a minimum and VLS + 15 as a maximum).
         - The flight crew can modify VAPP.
         - A clear action reverts VAPP to the computed value.
 
         !!! note 
-            VLS = 1.23 VS1G (Stall Speed) of the selected landing configuration [full or 3).
+            VLS = 1.23 VS1G (Stall Speed) of the selected landing configuration (full or 3).
 
-- FINAL (1R)
+- FINAL (1M)
     - Approach specified in the flight plan.
     - Can't be modified here.
 
+- O, S, F, VLS Speeds (2M, 3M, 4M)
+    - See [Speeds](../../abbreviations.md#additional-speeds) and [V-Speeds](../../abbreviations.md#v-speeds) for
+      more information.
+
 - BARO (2R):
-    - The Minimum Descent Altitude (MDA) with associated brackets, or
-    - The Minimum Descent Height (MDH) with associated brackets, if the FCU setting is QFE
+    - The Minimum Descent/Decision Altitude (MDA) with associated brackets, or
+    - The Minimum Descent/Decision Height (MDH) with associated brackets, if the FCU setting is QFE
     - Pilots can modify this at any time.
     - If an entry in (3R) is made or changes the approach, this is cleared.
 

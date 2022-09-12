@@ -43,7 +43,7 @@ Pressing ERASE clears the selected DIR TO waypoint in 1L.
 After selecting a waypoint (now in 1L data field) an amber DIRECT functions appears in 6R.
 
 Pressing DIRECT inserts the selected DIR TO waypoint in 1L into the flight plan as the active leg and next waypoint. 
-The aircraft immediately starts turing towards the waypoints.
+The aircraft immediately starts turning towards the waypoint.
 
 ### DIRECT TO (2R)
 
@@ -52,7 +52,7 @@ This is the default direct-to mode. With ABEAM PTS, RADIAL IN/OUT are the other 
 ### ABEAM PTS (3R)
 
 !!! warning "Not Yet Implemented"
-    Below is a quick explanation of what this feature entails.
+    Below is a quick explanation of what this functionality entails. It is not yet implemented in the FlyByWire A32NX.
 
 There may be instances where the flight crew would not want existing waypoints to be deleted from the flight plan 
 when performing a direct. By selecting the `WITH ABEAM PTS` option on the DIR TO page this would insert and display 
@@ -70,7 +70,7 @@ The abeam waypoints would be prefaced with `AB` on both the Navigation Display a
 ### RADIAL IN/OUT (4R/5R)
 
 !!! warning "Not Yet Implemented"
-    Below is a quick explanation of what this feature entails.
+    Below is a quick explanation of what this functionality entails. It is not yet implemented in the FlyByWire A32NX.
 
 This feature allows the flight crew to enter a specific radial to intercept a waypoint. Another way to describe this 
 is programming a specific direction from which to approach or leave a waypoint.

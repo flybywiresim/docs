@@ -31,7 +31,7 @@ If either RMP is set on NAV, this page is blank on both MCDUs.
 
 - ILS/FREQ (3L)
     - This field displays the IDENT and frequency of an ILS. 
-    - It is autotuned, if the ILS is associated with the departure runway, or if the flight plan shows an ILS 
+    - It is autotuned if the ILS is associated with the departure runway, or if the flight plan shows an ILS 
       approach selected for the destination and whenever the aircraft is at climb phase or greater and within 250 NM 
       of destination. 
     - The ILS may also be entered manually. 
