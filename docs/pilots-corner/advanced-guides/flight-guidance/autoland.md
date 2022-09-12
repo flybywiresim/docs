@@ -203,8 +203,8 @@ If below 1.000ft AAL (above airport level) but higher than 100ft RA (radio altit
     - [Autoland Warning Light](#autoland-warning-light) (below 200’ RA)  
     - Triple click (downgrading of capability)
 - Proceed in case of:
-    - Fire (red warning: Eng or APU)       
-    - Smoke (red warning: Avncs, Cargo, Lavatory)
+    - Fire (red warning: Engine or APU)       
+    - Smoke (red warning: Avionics, Cargo, Lavatory)
     - Smokes/Fumes in the cockpit/Cabin
 
 If below 100ft RA (radio altitude):
