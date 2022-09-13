@@ -202,6 +202,8 @@ This concludes *Preparation and Checklist for Landing*
 
 Although the A320 can do an automatic landing (**Autoland**) we will do  a manual landing as this is more common and also more fun.
 
+For an advanced guide on Autoland see [here](../advanced-guides/flight-guidance/autoland.md).
+
 We MUST get landing clearance from ATC before we actually are allowed to land. Without landing clearance we must do a go-around (not part of this beginner guide) before touching the runway. Usually ATC will have given us clearance at this point. Late clearance is rare and communicated to us beforehand.
 
 Next we turn the **Autopilot** `OFF` at about 500ft above the ground by pressing the `AP1` button on the `FCU`. We leave the **Autothrust** on so we don't have to worry about thrust and speed at all (Leaving **Autothrust** on for landing is common for the Airbus).
