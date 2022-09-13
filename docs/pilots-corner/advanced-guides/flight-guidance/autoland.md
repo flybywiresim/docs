@@ -205,7 +205,7 @@ If below 1.000ft AAL (above airport level) but higher than 100ft RA (radio altit
 - Proceed in case of:
     - Fire (red warning: Engine or APU)       
     - Smoke (red warning: Avionics, Cargo, Lavatory)
-    - Smokes/Fumes in the cockpit/Cabin
+    - Smokes/Fumes in the Cockpit/Cabin
 
 If below 100ft RA (radio altitude):
 
