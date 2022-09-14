@@ -1069,6 +1069,7 @@ aircraft.
 
     - Stuck aircraft
     - Unable to taxi
+    - Unable to turn nosewheel
     - Performance degradation
 
     ^^Possible Solution or Workaround^^
