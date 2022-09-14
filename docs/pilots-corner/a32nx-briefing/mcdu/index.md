@@ -46,7 +46,3 @@ This section describes the MCDU in detail, covering each page and also the stand
 Also see the [MCDU Setup Procedure](../../beginner-guide/preparing-mcdu.md) in our 
 [Beginner Guide](../../beginner-guide/overview.md).
 
-
-
-
-
