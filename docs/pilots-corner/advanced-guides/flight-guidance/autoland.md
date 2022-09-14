@@ -133,7 +133,7 @@ The following FMA annunciations will be displayed during the approach and landin
 - At 350ft: LAND
 - At 40ft: FLARE
 - At 30ft: THRUST IDLE
-- ROLL OUT (nosewheel touchdown)
+- ROLL OUT (main gear touchdown)
 
 ### Flow From 1000ft
 
@@ -152,7 +152,7 @@ See [Beginner Guide Preparation and Checklist for Landing](../../beginner-guide/
 - At 350ft: check the ILS course on the PFD.
 - At 150ft: The white line signifying the ground on the PFD attitude indicator starts to move up.
 - At 100ft: callout "hundred".
-- At 50ft: callout "fifty" and now callouts every 10 ft
+- At 50ft: callout "fifty" and now callouts every 10 ft.
 - At 40ft: the FMA must show FLARE or otherwise the flight crew needs to either perform a manual landing if 
   visual references are acquired or perform a go around.
 - Autothrust FMA should switch to THRUST IDLE.
@@ -160,13 +160,12 @@ See [Beginner Guide Preparation and Checklist for Landing](../../beginner-guide/
   with the runway.
 - At 10ft: callout "Retard" commands the PF to set the throttle levers to idle.
 - At touchdown:
-    - FMA shows ROLL OUT - autopilot keeps aircraft on center line
-    - Both thrust levers to reverse thrust (idle or max as appropriate)
+    - FMA shows ROLL OUT - autopilot keeps aircraft on center line.
+    - Both thrust levers to reverse thrust (idle or max as appropriate).
     - PM checks and calls out: "touchdown", "spoilers", "reversers", "auto brake", "decel".
 - At 70kts: PM announces "70kts" and PF will set the throttle to reverse idle if reverse max was used. 
-- Before 20kts: the PF manually brakes to deactivate the autobrake and also 
-  disconnect the autopilot.
-- At taxi speed: PF will set both thrust levers to idle and disengage autopilots
+- Before 20kts: the PF manually brakes to deactivate the autobrake.
+- At taxi speed: PF will set both thrust levers to idle and will disengage autopilots.
 - From here on it is a normal [runway exit](../../beginner-guide/landing.md#5-vacate-runway) and 
   [taxi procedure](../../beginner-guide/after-landing.md).
 
