@@ -36,6 +36,8 @@ theme:
 plugins:
   - search:
       lang: en
+  - social:
+      #cards: !ENV [CARDS, false]
   - exclude-search:
       exclude:
         - pilots-corner/advanced-guides/flight-planning/fplan.md
