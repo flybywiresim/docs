@@ -4,4 +4,5 @@ nav:
     - Resources: resources.md
     - Setup Dev Environment: setup-environment.md
     - Contribution Guidelines: contribute.md
+    - a32nx-repo-docs
     - Specific Topics: specific
