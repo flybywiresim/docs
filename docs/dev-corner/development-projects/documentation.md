@@ -35,10 +35,16 @@ To participate in the FlyByWire Documentation Project you need to have following
     - mkdocs-redirects
 - Install with this single line command:
 
-    ```
+    ```title="Run In Terminal"
     pip install -r requirements.txt
     ```
+!!! info "Pillow + Cairo Dependency"
+    As part of the new social card feature released with `mkdocs-material 8.5.0` [Pillow](https://pillow.readthedocs.io/) and [Cairo Graphics](https://www.cairographics.org/) 
+    dependencies were added. If you encounter any issues with these python packages:
 
+    - Install [GTK+](https://www.gtk.org/docs/installations/windows/) for Windows.
+
+    For more information including other operating systems refer to the [Social Card Dependencies](https://squidfunk.github.io/mkdocs-material/setup/setting-up-social-cards/#dependencies) Section on the `mkdocs-material` documentation.
 - Editor / IDE:
     - Recommended: [Microsoft Visual Studio Code](https://code.visualstudio.com/docs#vscode){target=new}
         - recommended plugins to work with markdown:
