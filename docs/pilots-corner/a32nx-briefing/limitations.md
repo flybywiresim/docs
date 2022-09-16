@@ -1,3 +1,15 @@
+<style>
+
+.md-typeset :is(.admonition,details) {
+    font-size: .8rem;
+}
+
+.md-typeset table:not([class]) th {
+    padding: .4em 1.25em;
+}
+
+</style>
+
 # Aircraft Limitations
 
 The page describes various operational limitations of the currently simulated aircraft model of the A32NX. Other 
@@ -140,3 +152,63 @@ This list if by far not complete but should mention the most important operation
     selected altitude is set to, or above, the higher of the two: MDA/MDH or 500 ft AGL.
 
 See also [Autoland](../advanced-guides/flight-guidance/autoland.md#aircraft-limitations)
+
+## Engines
+
+| Parameter                       | Description             | Value                                |
+|---------------------------------|-------------------------|--------------------------------------|
+| N1                              | Max                     | 101 %                                |
+| N2                              | Max                     | 116.5 %                              |
+| Takeoff and Go-around           | All engines operative   | Time Limit: 5 min / EGT Limit 635°C  |
+| Takeoff and Go-around           | One engines inoperative | Time Limit: 10 min / EGT Limit 635°C |
+| Maximum Continuous Thrust (MCT) |                         | Time: Not limited / EGT Limit 610°C  |
+| Starting                        |                         | EGT Limit 635°C                      |
+| Engine start max crosswind      |                         | 45 kt                                |
+| Engine takeoff max crosswind    |                         | 35 kt (incl. gust)                   |
+|                                 |                         |                                      |
+
+!!! note
+    The N1 limit depends on the ambient conditions and on the configuration of the engine air bleed. These 
+    parameters may limit N1 to a value that is less than the above-mentioned N1 value (
+
+## Flight Controls
+
+| Parameter                                                   | Value     |
+|-------------------------------------------------------------|-----------|
+| Maximum operating altitude with slats and/or flaps extended | 20.000 ft |
+
+## Fuel
+
+| Parameter               | Value               |
+|-------------------------|---------------------|
+| Minimum fuel at takeoff | 1.500 kg / 3.307 lb |
+
+## Landing Gear
+
+### Braking System
+
+The braking system is not designed to hold the aircraft in a stationary position when a high thrust
+level is applied on at least one engine.
+During ground procedures that require a thrust increase with braking, the flight crew must ensure that
+the aircraft remains stationary, and must be ready to immediately retard the thrust levers to IDLE.
+
+| Parameter                             | Value |
+|---------------------------------------|-------|
+| Maximum brake temperature for takeoff | 300°C |
+
+## Navigation
+
+### IR Ground Alignment
+
+Possible only between 82° North and 82° South.
+
+### Magnetic Reference 
+
+In NAV mode, the IR will not provide valid magnetic heading and magnetic track angle:
+ 
+- North of 73 ° North, between 90 ° West and 120 ° West (magnetic polar region), and
+- North of 82 ° North, and
+- South of 60 ° South.
+
+Flying at latitudes beyond these limits is prohibited.
+
