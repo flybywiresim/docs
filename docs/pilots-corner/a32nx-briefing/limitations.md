@@ -4,6 +4,10 @@
     font-size: .8rem;
 }
 
+.md-typeset table:not([class]) {
+    font-size: .7rem;
+}
+
 .md-typeset table:not([class]) th {
     padding: .4em 1.25em;
 }
@@ -32,7 +36,7 @@ This list if by far not complete but should mention the most important operation
 
 | Parameter                                  | Value             |
 |--------------------------------------------|-------------------|
-| Runway altitude                            | 9.200 ft          |
+| Runway altitude                            | 9 200 ft          |
 | Runway slope                               | +- 3% (mean)      |
 | Nominal Runway Width                       | 45m               |
 |                                            |                   |
@@ -87,38 +91,38 @@ This list if by far not complete but should mention the most important operation
 
 | Altitude  | VMCA       | VMCG / >CONF 1 |
 |-----------|------------|----------------|
-| -2.000 ft | 115 kt IAS | 117 kt IAS     |
+| -2 000 ft | 115 kt IAS | 117 kt IAS     |
 | 0 ft      | 114 kt IAS | 116 kt IAS     |
-| 2.000 ft  | 114 kt IAS | 116 kt IAS     |
-| 4.000 ft  | 113 kt IAS | 115 kt IAS     |
-| 6.000 ft  | 112 kt IAS | 114 kt IAS     |
-| 8.000 ft  | 109 kt IAS | 112 kt IAS     |
-| 10.000 ft | 106 kt IAS | 109 kt IAS     |
-| 12.000 ft | 103 kt IAS | 106 kt IAS     |
-| 14.100 ft | 99 kt IAS  | 102 kt IAS     |
-| 15.100 ft | 97 kt IAS  | 101 kt IAS     |
+| 2 000 ft  | 114 kt IAS | 116 kt IAS     |
+| 4 000 ft  | 113 kt IAS | 115 kt IAS     |
+| 6 000 ft  | 112 kt IAS | 114 kt IAS     |
+| 8 000 ft  | 109 kt IAS | 112 kt IAS     |
+| 10 000 ft | 106 kt IAS | 109 kt IAS     |
+| 12 000 ft | 103 kt IAS | 106 kt IAS     |
+| 14 100 ft | 99 kt IAS  | 102 kt IAS     |
+| 15 100 ft | 97 kt IAS  | 101 kt IAS     |
 
 #### Taxi Speed
 
-| Parameter          | Description                               | Value               |
-|--------------------|-------------------------------------------|---------------------|
-| Maximum taxi speed | When takeoff weight >76.000kg / 167.550lb | 20 kt during a turn |
+| Parameter          | Description                                | Value               |
+|--------------------|--------------------------------------------|---------------------|
+| Maximum taxi speed | When takeoff weight >76 000kg / 167 550 lb | 20 kt during a turn |
 
 ### Weight Limitations
 
-- OEW (Empty Weight): 42500 kg / 93697 lbs
+- OEW (Empty Weight): 42 500 kg / 93 697 lb
     - Also referred to as DOW (Dry Operating Weight) which can be seen in other simBrief OFP formats such as EZY
-- MZFW (Max Zero Fuel Weight): 64300 kg / 141757 lbs
-- MTOW (Max Takeoff Weight): 79000 kg / 174165 lbs
-- MLW (Max Landing Weight): 67400 kg / 148591 lbs
+- MZFW (Max Zero Fuel Weight): 64 300 kg / 141 757 lb
+- MTOW (Max Takeoff Weight): 79 000 kg / 174 165 lb
+- MLW (Max Landing Weight): 67 400 kg / 148 591 lb
 
-| Parameter | Description              | Value                   |
-|-----------|--------------------------|-------------------------|
-| MTXW      | Maximum Taxi Weight      | 79.400 kg / 175.047 lbs |
-| MTOW      | Maximum Takeoff Weight   | 79.000 kg / 174.165 lbs |
-| MLW       | Maximum Landing Weight   | 67.400 kg / 148.591 lbs |
-| MZFW      | Maximum Zero Fuel Weight | 64.300 kg / 141.757 lbs |
-|           | Minimum Weight           | 40.600 kg / 89.508l lb  |
+| Parameter | Description              | Value                  |
+|-----------|--------------------------|------------------------|
+| MTXW      | Maximum Taxi Weight      | 79 400 kg / 175 047 lb |
+| MTOW      | Maximum Takeoff Weight   | 79 000 kg / 174 165 lb |
+| MLW       | Maximum Landing Weight   | 67 400 kg / 148 591 lb |
+| MZFW      | Maximum Zero Fuel Weight | 64 300 kg / 141 757 lb |
+|           | Minimum Weight           | 40 600 kg / 89 508l lb |
 
 !!! note
     In exceptional cases (in flight turn back or diversion), an immediate landing at weight above maximum landing 
@@ -173,13 +177,13 @@ See also [Autoland](../advanced-guides/flight-guidance/autoland.md#aircraft-limi
 
 | Parameter                                                   | Value     |
 |-------------------------------------------------------------|-----------|
-| Maximum operating altitude with slats and/or flaps extended | 20.000 ft |
+| Maximum operating altitude with slats and/or flaps extended | 20 000 ft |
 
 ## Fuel
 
 | Parameter               | Value               |
 |-------------------------|---------------------|
-| Minimum fuel at takeoff | 1.500 kg / 3.307 lb |
+| Minimum fuel at takeoff | 1 500 kg / 3 307 lb |
 
 ## Landing Gear
 
@@ -187,6 +191,7 @@ See also [Autoland](../advanced-guides/flight-guidance/autoland.md#aircraft-limi
 
 The braking system is not designed to hold the aircraft in a stationary position when a high thrust
 level is applied on at least one engine.
+
 During ground procedures that require a thrust increase with braking, the flight crew must ensure that
 the aircraft remains stationary, and must be ready to immediately retard the thrust levers to IDLE.
 
