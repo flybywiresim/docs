@@ -78,7 +78,7 @@ plugins:
         # Fix Info
         'fbw-a32nx/feature-guides/fixinfo.md': 'pilots-corner/advanced-guides/flight-planning/fixinfo.md'
         # A32NX API
-        '/pilots-corner/a32nx-briefing/a32nx_api.md': '/fbw-a32nx/a32nx-flightdeck-api/a32nx-api.md'
+        'pilots-corner/a32nx-briefing/a32nx_api.md': 'fbw-a32nx/a32nx-api/a32nx-flightdeck-api.md'
 
         # additional redirects:
         'fbw-a32nx/feature-guides/throttle-calibration.md': 'fbw-a32nx/feature-guides/flypados3/throttle-calibration.md'
