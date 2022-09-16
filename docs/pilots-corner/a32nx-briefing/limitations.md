@@ -21,12 +21,11 @@ This list if by far not complete but should mention the most important operation
 
 ### Flight Maneuvering Load Acceleration Limits
 
-- Clean configutation: -1.0g to +2.5g
-- Other configutations: 0g to +2g
+- Clean configuration: -1.0g to +2.5g
+- Other configurations: 0g to +2g
 
 ### Environmental Envelope
 
-!!! bug "IMAGE TO BE REPLACED"
 ![Environmental Envelope](../assets/a32nx-briefing/limitations/a320-251n-envelope.png)
 
 ### Airport Operations and Wind Limitations
@@ -64,7 +63,6 @@ This list if by far not complete but should mention the most important operation
 | VMO       | Maximum operating speed in Knots | 350 kt |
 | MMO       | Maximum operating speed in Mach  | M0.82  |
 
-!!! bug "IMAGE TO BE REPLACED"
 ![vmo-mmo-speeds](../assets/a32nx-briefing/limitations/vmo-mmo.png)
 
 #### Landing Gear
