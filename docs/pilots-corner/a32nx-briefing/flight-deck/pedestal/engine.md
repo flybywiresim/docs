@@ -8,7 +8,7 @@
 
 ![Engine Panel](../../../assets/a32nx-briefing/pedestal/Engine-Panel.jpg "Engine Panel")
 
-!!! note "API Documentation: [Engine Panel](../../a32nx_api.md#eng-panel)"
+!!! note "API Documentation: [Engine Panel](../../../../fbw-a32nx/a32nx-api/a32nx-flightdeck-api.md#eng-panel)"
 
 ## Description
 

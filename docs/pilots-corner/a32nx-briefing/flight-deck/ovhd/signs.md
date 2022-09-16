@@ -8,7 +8,7 @@
 
 ![SIGNS Panel](../../../assets/a32nx-briefing/overhead-panel/Signs-Panel.jpg "SIGNS Panel")
 
-!!! note "API Documentation: [Signs Panel API](../../a32nx_api.md#signs-panel)"
+!!! note "API Documentation: [Signs Panel API](../../../../fbw-a32nx/a32nx-api/a32nx-flightdeck-api.md#signs-panel)"
 
 ## Usage
 

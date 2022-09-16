@@ -14,7 +14,7 @@ Find the complete SPAD documentation for these controllers in this single file: 
 
 This profile is maintained by Cdr_Maverick#6475.
 
-To build your own profile you can use our Flight-Deck API Documentation: [Flight-Deck API](../../pilots-corner/a32nx-briefing/a32nx_api.md)
+To build your own profile you can use our Flight-Deck API Documentation: [Flight-Deck API](a32nx-flightdeck-api.md)
 
 ### Logitech Switch Panel
 

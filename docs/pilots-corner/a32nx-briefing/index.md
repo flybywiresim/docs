@@ -22,7 +22,7 @@ but are omitted in this briefing.
 | Quick Links                           |
 | :-----                                |
 | [Flight-Deck](flight-deck/index.md)   |
-| [Flight-Deck A32NX API](a32nx_api.md) |
+| [Flight-Deck A32NX API](../../fbw-a32nx/a32nx-api/a32nx-flightdeck-api.md) |
 | [ECAM](ecam/index.md)                 |
 | [PFD](pfd/index.md)                   |
 <!--- [ND](nd/index.md)-->

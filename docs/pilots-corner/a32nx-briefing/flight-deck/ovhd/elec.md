@@ -8,7 +8,7 @@
 
 ![Overhead Electrical Panel](../../../assets/a32nx-briefing/overhead-panel/ELEC-Panel.jpg "Overhead Electrical Panel"){loading=lazy}
 
-!!! note "API Documentation: [ELEC Panel API](../../a32nx_api.md#elec-panel)"
+!!! note "API Documentation: [ELEC Panel API](../../../../fbw-a32nx/a32nx-api/a32nx-flightdeck-api.md#elec-panel)"
 
 ## Description
 

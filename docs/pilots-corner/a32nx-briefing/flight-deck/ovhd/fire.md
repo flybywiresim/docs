@@ -8,7 +8,7 @@
 
 ![Fire Control Panel](../../../assets/a32nx-briefing/overhead-panel/Fire-Control-Panel.jpg "Fire Control Panel")
 
-!!! note "API Documentation: [Fire Panel API](../../a32nx_api.md#fire-panel)"
+!!! note "API Documentation: [Fire Panel API](../../../../fbw-a32nx/a32nx-api/a32nx-flightdeck-api.md#fire-panel)"
 
 ## Description
 

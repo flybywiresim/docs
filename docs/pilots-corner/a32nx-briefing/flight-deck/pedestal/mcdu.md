@@ -8,7 +8,7 @@
 
 ![Multipurpose Control and Display Unit](../../../assets/a32nx-briefing/pedestal/mcdu.jpg "Multipurpose Control and Display Unit")
 
-!!! note "API Documentation: [MCDU Panel API](../../a32nx_api.md#mcdu)"
+!!! note "API Documentation: [MCDU Panel API](../../../../fbw-a32nx/a32nx-api/a32nx-flightdeck-api.md#mcdu)"
 
 ## Description
 

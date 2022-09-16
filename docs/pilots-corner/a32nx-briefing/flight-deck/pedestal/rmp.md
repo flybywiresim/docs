@@ -8,7 +8,7 @@
 
 ![Radio Management Panel](../../../assets/a32nx-briefing/pedestal/RMP.jpg "Radio Management Panel")
 
-!!! note "API Documentation: [RMP Panel](../../a32nx_api.md#rmp)"
+!!! note "API Documentation: [RMP Panel](../../../../fbw-a32nx/a32nx-api/a32nx-flightdeck-api.md#rmp)"
 
 ## Description
 

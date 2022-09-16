@@ -8,7 +8,7 @@
 
 ![Flight Control Unit (FCU)](../../../assets/a32nx-briefing/glareshield/FCU.jpg "Flight Control Unit (FCU)")
 
-!!! note "API Documentation: [FCU Panel](../../a32nx_api.md#fcu-panel)"
+!!! note "API Documentation: [FCU Panel](../../../../fbw-a32nx/a32nx-api/a32nx-flightdeck-api.md#fcu-panel)"
 
 ## Description
 

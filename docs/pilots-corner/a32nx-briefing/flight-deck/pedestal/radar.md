@@ -8,7 +8,7 @@
 
 ![WX Radar Panel](../../../assets/a32nx-briefing/pedestal/WX-radar-Panel.jpg "WX Radar Panel")
 
-!!! note "API Documentation: [Radar Panel](../../a32nx_api.md#wx-radar)"
+!!! note "API Documentation: [Radar Panel](../../../../fbw-a32nx/a32nx-api/a32nx-flightdeck-api.md#wx-radar)"
 
 ## Description
 

@@ -8,7 +8,7 @@
 
 ![Rudder Trim Panel](../../../assets/a32nx-briefing/pedestal/Rudder-trim-Panel.jpg "Rudder Trim Panel")
 
-!!! note "API Documentation: [Rudder Trim Panel](../../a32nx_api.md#rudder-trim)"
+!!! note "API Documentation: [Rudder Trim Panel](../../../../fbw-a32nx/a32nx-api/a32nx-flightdeck-api.md#rudder-trim)"
 
 ## Usage
 

@@ -8,7 +8,7 @@
 
 ![ATC-TCAS Panel](../../../assets/a32nx-briefing/pedestal/ATC-TCAS.jpg "ATC-TCAS Panel")
 
-!!! note "API Documentation: [ATC TCAS Panel](../../a32nx_api.md#atc-tcas)"
+!!! note "API Documentation: [ATC TCAS Panel](../../../../fbw-a32nx/a32nx-api/a32nx-flightdeck-api.md#atc-tcas)"
 
 ## Description
 
