@@ -8,7 +8,7 @@
 
 ![Switching Panel](../../../assets/a32nx-briefing/pedestal/Switching-Panel.jpg "Switching Panel")
 
-!!! note "API Documentation: [Switching Panel](../../a32nx_api.md#switching-panel)"
+!!! note "API Documentation: [Switching Panel](../../../../fbw-a32nx/a32nx-api/a32nx-flightdeck-api.md#switching-panel)"
 
 ## Description
 

@@ -8,7 +8,7 @@
 
 ![ECAM Control Panel](../../../assets/a32nx-briefing/pedestal/ECAM-Control-Panel.jpg "ECAM Control Panel")
 
-!!! note "API Documentation: [ECAM Control Panel API](../../a32nx_api.md#ecam-control-panel)"
+!!! note "API Documentation: [ECAM Control Panel API](../../../../fbw-a32nx/a32nx-api/a32nx-flightdeck-api.md#ecam-control-panel)"
 
 ## Description
 

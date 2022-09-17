@@ -3,10 +3,10 @@ hide:
     - navigation
 ---
 
-# Flight Deck A32NX API
+# A32NX Flight Deck API
 
-[A320neo Pilot Briefing](index.md){ .md-button }
-[Clickable Flight Deck](flight-deck/index.md){ .md-button }
+[A320neo Pilot Briefing](../../pilots-corner/a32nx-briefing/index.md){ .md-button }
+[Clickable Flight Deck](../../pilots-corner/a32nx-briefing/flight-deck/index.md){ .md-button }
 
 !!! note ""
     The below table might lag behind the current developments of the A32NX. It is
@@ -29,7 +29,7 @@ Find the complete list of Custom Event and Custom LVARS of the A32NX:
 
 ### ELEC Panel
 
-Flight Deck:  [ELEC Panel](flight-deck/ovhd/elec.md)
+Flight Deck:  [ELEC Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/elec.md)
 
 | Function    | API Usage                                 | Values   | Read/Write | Type             | Remark                                     |
 |:------------|:------------------------------------------|:---------|:-----------|:-----------------|:-------------------------------------------|
@@ -75,7 +75,7 @@ Flight Deck:  [ELEC Panel](flight-deck/ovhd/elec.md)
 
 ### External Lights Panel
 
-Flight Deck:  [EXT LT Panel](flight-deck/ovhd/ext-lt.md)
+Flight Deck:  [EXT LT Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/ext-lt.md)
 
 | Function     | API Usage             | Values   | Read/Write | Type             | Remark                                                             |
 |:-------------|:----------------------|:---------|:-----------|:-----------------|:-------------------------------------------------------------------|
@@ -160,7 +160,7 @@ Flight Deck:  [EXT LT Panel](flight-deck/ovhd/ext-lt.md)
 
 ### Interior Lights Panel
 
-Flight Deck: [INT LT Panel](flight-deck/ovhd/int-lt.md)
+Flight Deck: [INT LT Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/int-lt.md)
 
 | Function               | API Usage              | Values | Read/Write | Type             | Remark               |
 |:-----------------------|:-----------------------|:-------|:-----------|:-----------------|:---------------------|
@@ -175,7 +175,7 @@ Flight Deck: [INT LT Panel](flight-deck/ovhd/int-lt.md)
 
 ### Signs Panel
 
-Flight Deck: [Signs Panel](flight-deck/ovhd/signs.md)
+Flight Deck: [Signs Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/signs.md)
 
 | Function     | API Usage                                    | Values   | Read/Write | Type             | Remark              |
 |:-------------|:---------------------------------------------|:---------|:-----------|:-----------------|:--------------------|
@@ -188,7 +188,7 @@ Flight Deck: [Signs Panel](flight-deck/ovhd/signs.md)
 
 ### ADIRS Panel
 
-Flight Deck: [ADIRS Panel](flight-deck/ovhd/adirs.md)
+Flight Deck: [ADIRS Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/adirs.md)
 
 !!! note "The below table shows the API for ADIR 1. Replace `1` with `2` or `3` for the other ADIRS."
 
@@ -208,7 +208,7 @@ Flight Deck: [ADIRS Panel](flight-deck/ovhd/adirs.md)
 
 ### APU Panel
 
-Flight Deck: [APU Panel](flight-deck/ovhd/apu.md)
+Flight Deck: [APU Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/apu.md)
 
 | Function  | API Usage                             | Values   | Read/Write | Type        | Remark |
 |:----------|:--------------------------------------|:---------|:-----------|:------------|:-------|
@@ -222,7 +222,7 @@ Flight Deck: [APU Panel](flight-deck/ovhd/apu.md)
 
 ### RCDR Panel
 
-Flight Deck: [RCDR Panel](flight-deck/ovhd/voice-recorder.md)
+Flight Deck: [RCDR Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/voice-recorder.md)
 
 | Function  | API Usage                    | Values   | Read/Write | Type        | Remark |
 |:----------|:-----------------------------|:---------|:-----------|:------------|:-------|
@@ -234,7 +234,7 @@ Flight Deck: [RCDR Panel](flight-deck/ovhd/voice-recorder.md)
 
 ### Oxygen Panel
 
-Flight Deck: [Oxygen Panel](flight-deck/ovhd/oxygen.md)
+Flight Deck: [Oxygen Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/oxygen.md)
 
 | Function    | API Usage                       | Values   | Read/Write | Type        | Remark |
 |:------------|:--------------------------------|:---------|:-----------|:------------|:-------|
@@ -246,7 +246,7 @@ Flight Deck: [Oxygen Panel](flight-deck/ovhd/oxygen.md)
 
 ### Fire Panel
 
-Flight Deck: [Fire Panel](flight-deck/ovhd/fire.md)
+Flight Deck: [Fire Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/fire.md)
 
 !!! note "The below table shows the API for ENG 1. Replace `1` with `2`for ENG 2."
 
@@ -272,7 +272,7 @@ Flight Deck: [Fire Panel](flight-deck/ovhd/fire.md)
 
 ### Fuel Panel
 
-Flight Deck: [Fuel Panel](flight-deck/ovhd/fuel.md)
+Flight Deck: [Fuel Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/fuel.md)
 
 !!! note "The below table shows the API for PUMP 1. Replace `1` with `2..6` for the other pumps."
     L1=2, L2=5. C1=1, C2=4, R1=3, R2=6
@@ -290,7 +290,7 @@ Flight Deck: [Fuel Panel](flight-deck/ovhd/fuel.md)
 
 ### Air Condition Panel
 
-Flight Deck: [AC Panel](flight-deck/ovhd/ac.md)
+Flight Deck: [AC Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/ac.md)
 
 | Function       | API Usage                                                 | Values   | Read/Write | Type        | Remark       |
 |:---------------|:----------------------------------------------------------|:---------|:-----------|:------------|:-------------|
@@ -337,7 +337,7 @@ Flight Deck: [AC Panel](flight-deck/ovhd/ac.md)
 
 ### Anti Ice Panel
 
-Flight Deck: [Anti Ice Panel](flight-deck/ovhd/anti-ice.md)
+Flight Deck: [Anti Ice Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/anti-ice.md)
 
 | Function          | API Usage                                            | Values   | Read/Write | Type             | Remark                  |
 |:------------------|:-----------------------------------------------------|:---------|:-----------|:-----------------|:------------------------|
@@ -358,7 +358,7 @@ Flight Deck: [Anti Ice Panel](flight-deck/ovhd/anti-ice.md)
 
 ### Calls Panel
 
-Flight Deck: [Calls Panel](flight-deck/ovhd/calls.md)
+Flight Deck: [Calls Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/calls.md)
 
 | Function | API Usage                | Values   | Read/Write | Type        | Remark |
 |:---------|:-------------------------|:---------|:-----------|:------------|:-------|
@@ -375,7 +375,7 @@ Flight Deck: [Calls Panel](flight-deck/ovhd/calls.md)
 
 ### Wiper Panel
 
-Flight Deck: [Wiper Panel](flight-deck/ovhd/wipers.md)
+Flight Deck: [Wiper Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/wipers.md)
 
 | Function     | API Usage                            | Values   | Read/Write | Type        | Remark                                 |
 |:-------------|:-------------------------------------|:---------|:-----------|:------------|:---------------------------------------|
@@ -394,7 +394,7 @@ Flight Deck: [Wiper Panel](flight-deck/ovhd/wipers.md)
 
 ### Lighting Knobs
 
-Flight Deck: [Glareshield Lighting Knobs](flight-deck/glareshield/light-knobs.md)
+Flight Deck: [Glareshield Lighting Knobs](../../pilots-corner/a32nx-briefing/flight-deck/glareshield/light-knobs.md)
 
 | Function                    | API Usage              | Values | Read/Write | Type     | Remark |
 |:----------------------------|:-----------------------|:-------|:-----------|:---------|:-------|
@@ -408,7 +408,7 @@ Flight Deck: [Glareshield Lighting Knobs](flight-deck/glareshield/light-knobs.md
 
 ### EFIS Control Panel
 
-Flight Deck: [EFIS Control Panel](flight-deck/glareshield/efis_control.md)
+Flight Deck: [EFIS Control Panel](../../pilots-corner/a32nx-briefing/flight-deck/glareshield/efis_control.md)
 
 | Function     | API Usage                        | Values           | Read/Write | Type             | Remark                                            |
 |:-------------|:---------------------------------|:-----------------|:-----------|:-----------------|:--------------------------------------------------|
@@ -443,7 +443,7 @@ Flight Deck: [EFIS Control Panel](flight-deck/glareshield/efis_control.md)
 
 ### FCU Panel
 
-Flight Deck: [FCU Panel](flight-deck/glareshield/fcu.md)
+Flight Deck: [FCU Panel](../../pilots-corner/a32nx-briefing/flight-deck/glareshield/fcu.md)
 
 | Function          | API Usage                           | Values               | Read/Write | Type             | Remark                                                                   |
 |:------------------|:------------------------------------|:---------------------|:-----------|:-----------------|:-------------------------------------------------------------------------|
@@ -538,7 +538,7 @@ Flight Deck: [FCU Panel](flight-deck/glareshield/fcu.md)
 
 ### Warning Panel
 
-Flight Deck: [Warning Panel](flight-deck/glareshield/warning.md)
+Flight Deck: [Warning Panel](../../pilots-corner/a32nx-briefing/flight-deck/glareshield/warning.md)
 
 | Function            | API Usage                        | Values   | Read/Write | Type                     | Remark |
 |:--------------------|:---------------------------------|:---------|:-----------|:-------------------------|:-------|
@@ -560,7 +560,7 @@ Flight Deck: [Warning Panel](flight-deck/glareshield/warning.md)
 
 ### Instrument Lighting Control Panel
 
-Flight Deck: [ILCP Panel](flight-deck/front/ilcp.md)
+Flight Deck: [ILCP Panel](../../pilots-corner/a32nx-briefing/flight-deck/front/ilcp.md)
 
 | Function            | API Usage              | Values      | Read/Write | Type     | Remark |
 |:--------------------|:-----------------------|:------------|:-----------|:---------|:-------|
@@ -590,7 +590,7 @@ Flight Deck: [ILCP Panel](flight-deck/front/ilcp.md)
 
 ### Autobrake, Gear Lever and Gear Annunciation
 
-Flight Deck: [Autobrake and Gear Panel](flight-deck/front/autobrake-gear.md)
+Flight Deck: [Autobrake and Gear Panel](../../pilots-corner/a32nx-briefing/flight-deck/front/autobrake-gear.md)
 
 | Function              | API Usage                       | Values   | Read/Write | Type             | Remark                             |
 |:----------------------|:--------------------------------|:---------|:-----------|:-----------------|:-----------------------------------|
@@ -622,7 +622,7 @@ Flight Deck: [Autobrake and Gear Panel](flight-deck/front/autobrake-gear.md)
 
 ### ISIS
 
-Flight Deck: [ISIS Panel](flight-deck/front/isis.md)
+Flight Deck: [ISIS Panel](../../pilots-corner/a32nx-briefing/flight-deck/front/isis.md)
 
 | Function   | API Usage             | Values | Read/Write | Type        | Remark                                      |
 |:-----------|:----------------------|:-------|:-----------|:------------|:--------------------------------------------|
@@ -630,7 +630,7 @@ Flight Deck: [ISIS Panel](flight-deck/front/isis.md)
 
 ### Clock
 
-Flight Deck: [Chrono Panel](flight-deck/front/clock.md)
+Flight Deck: [Chrono Panel](../../pilots-corner/a32nx-briefing/flight-deck/front/clock.md)
 
 | Function            | API Usage                    | Values                | Read/Write | Type        | Remark                       |
 |:--------------------|:-----------------------------|:----------------------|:-----------|:------------|:-----------------------------|
@@ -640,7 +640,7 @@ Flight Deck: [Chrono Panel](flight-deck/front/clock.md)
 
 ### TERR ON ND
 
-Flight Deck: [ND Panel](flight-deck/front/nd.md)
+Flight Deck: [ND Panel](../../pilots-corner/a32nx-briefing/flight-deck/front/nd.md)
 
 | Function       | API Usage                | Values   | Read/Write | Type        | Remark                         |
 |:---------------|:-------------------------|:---------|:-----------|:------------|:-------------------------------|
@@ -649,7 +649,7 @@ Flight Deck: [ND Panel](flight-deck/front/nd.md)
 
 ### DCDU
 
-Flight Deck: [DCDU Panel](flight-deck/front/dcdu.md)
+Flight Deck: [DCDU Panel](../../pilots-corner/a32nx-briefing/flight-deck/front/dcdu.md)
 
 note "The below table shows the API for left DCDU. Replace `L` with `R` for the right DCDU."
 
@@ -661,7 +661,7 @@ note "The below table shows the API for left DCDU. Replace `L` with `R` for the 
 
 ### MCDU Panel
 
-Flight Deck: [MCDU Panel](flight-deck/pedestal/mcdu.md)
+Flight Deck: [MCDU Panel](../../pilots-corner/a32nx-briefing/flight-deck/pedestal/mcdu.md)
 
 !!! note "The below table shows the API for left MCDU. Replace `L` with `R` for the right MCDU."
 
@@ -671,7 +671,7 @@ Flight Deck: [MCDU Panel](flight-deck/pedestal/mcdu.md)
 
 ### Switching Panel
 
-Flight Deck: [Switching Panel](flight-deck/pedestal/switching.md)
+Flight Deck: [Switching Panel](../../pilots-corner/a32nx-briefing/flight-deck/pedestal/switching.md)
 
 | Function    | API Usage                        | Values | Read/Write | Type        | Remark                |
 |:------------|:---------------------------------|:-------|:-----------|:------------|:----------------------|
@@ -685,7 +685,7 @@ Flight Deck: [Switching Panel](flight-deck/pedestal/switching.md)
 
 ### ECAM Control Panel
 
-Flight Deck: [ECAM Control Panel](flight-deck/pedestal/ecam-control.md)
+Flight Deck: [ECAM Control Panel](../../pilots-corner/a32nx-briefing/flight-deck/pedestal/ecam-control.md)
 
 | Function              | API Usage                        | Values   | Read/Write | Type        | Remark                                                                     |
 |:----------------------|:---------------------------------|:---------|:-----------|:------------|:---------------------------------------------------------------------------|
@@ -732,7 +732,7 @@ A32NX_ECAM_SD_CURRENT_PAGE_INDEX:
 
 ### Thrust Lever and Trim Wheel
 
-Flight Deck: [Thrust Lever Panel](flight-deck/pedestal/thrust-pitch-trim.md)
+Flight Deck: [Thrust Lever Panel](../../pilots-corner/a32nx-briefing/flight-deck/pedestal/thrust-pitch-trim.md)
 
 | Function              | API Usage                   | Values        | Read/Write | Type             | Remark  |
 |:----------------------|:----------------------------|:--------------|:-----------|:-----------------|:--------|
@@ -745,7 +745,7 @@ Flight Deck: [Thrust Lever Panel](flight-deck/pedestal/thrust-pitch-trim.md)
 
 ### RMP
 
-Flight Deck: [RMP Panel](flight-deck/pedestal/rmp.md)
+Flight Deck: [RMP Panel](../../pilots-corner/a32nx-briefing/flight-deck/pedestal/rmp.md)
 
 !!! note "The below table shows the API for RMP 1. Replace `1` with `2` or `3` for the other RMPs."
 
@@ -769,7 +769,7 @@ Flight Deck: [RMP Panel](flight-deck/pedestal/rmp.md)
 
 ### Lighting Pedestal Captain Side Panel
 
-Flight Deck: [Lighting Pedestal Cpt. Side Panel](flight-deck/pedestal/lighting-capt.md)
+Flight Deck: [Lighting Pedestal Cpt. Side Panel](../../pilots-corner/a32nx-briefing/flight-deck/pedestal/lighting-capt.md)
 
 | Function      | API Usage              | Values | Read/Write | Type     | Remark       |
 |:--------------|:-----------------------|:-------|:-----------|:---------|:-------------|
@@ -781,7 +781,7 @@ Flight Deck: [Lighting Pedestal Cpt. Side Panel](flight-deck/pedestal/lighting-c
 
 ### WX Radar
 
-Flight Deck: [WX Radar Panel](flight-deck/pedestal/radar.md)
+Flight Deck: [WX Radar Panel](../../pilots-corner/a32nx-briefing/flight-deck/pedestal/radar.md)
 
 | Function   | API Usage                       | Values   | Read/Write | Type        | Remark                      |
 |:-----------|:--------------------------------|:---------|:-----------|:------------|:----------------------------|
@@ -802,7 +802,7 @@ Flight Deck: [WX Radar Panel](flight-deck/pedestal/radar.md)
 
 ### ATC-TCAS
 
-Flight Deck: [ATC-TCAS Panel](flight-deck/pedestal/atc-tcas.md)
+Flight Deck: [ATC-TCAS Panel](../../pilots-corner/a32nx-briefing/flight-deck/pedestal/atc-tcas.md)
 
 | Function     | API Usage                          | Values      | Read/Write | Type             | Remark                      |
 |:-------------|:-----------------------------------|:------------|:-----------|:-----------------|:----------------------------|
@@ -822,7 +822,7 @@ Flight Deck: [ATC-TCAS Panel](flight-deck/pedestal/atc-tcas.md)
 
 ### ENG Panel
 
-Flight Deck: [ENG Panel](flight-deck/pedestal/engine.md)
+Flight Deck: [ENG Panel](../../pilots-corner/a32nx-briefing/flight-deck/pedestal/engine.md)
 
 | Function       | API Usage                      | Values     | Read/Write | Type       | Remark                 |
 |:---------------|:-------------------------------|:-----------|:-----------|:-----------|:-----------------------|
@@ -840,7 +840,7 @@ Flight Deck: [ENG Panel](flight-deck/pedestal/engine.md)
 
 ### Speed Brake
 
-Flight Deck: [Speed Brake Panel](flight-deck/pedestal/speedbrake.md)
+Flight Deck: [Speed Brake Panel](../../pilots-corner/a32nx-briefing/flight-deck/pedestal/speedbrake.md)
 
 | Function         | API Usage                      | Values   | Read/Write | Type             | Remark                           |
 |:-----------------|:-------------------------------|:---------|:-----------|:-----------------|:---------------------------------|
@@ -853,7 +853,7 @@ Flight Deck: [Speed Brake Panel](flight-deck/pedestal/speedbrake.md)
 
 ### Flaps
 
-Flight Deck: [Speed Brake Panel](flight-deck/pedestal/flaps.md)
+Flight Deck: [Speed Brake Panel](../../pilots-corner/a32nx-briefing/flight-deck/pedestal/flaps.md)
 
 | Function   | API Usage                  | Values   | Read/Write | Type             | Remark                        |
 |:-----------|:---------------------------|:---------|:-----------|:-----------------|:------------------------------|
@@ -874,7 +874,7 @@ Flight Deck: [Speed Brake Panel](flight-deck/pedestal/flaps.md)
 
 ### Parking Brake
 
-Flight Deck: [Parking Brake Panel](flight-deck/pedestal/parking-brake.md)
+Flight Deck: [Parking Brake Panel](../../pilots-corner/a32nx-briefing/flight-deck/pedestal/parking-brake.md)
 
 | Function      | API Usage                  | Values   | Read/Write | Type        | Remark |
 |:--------------|:---------------------------|:---------|:-----------|:------------|:-------|
@@ -882,7 +882,7 @@ Flight Deck: [Parking Brake Panel](flight-deck/pedestal/parking-brake.md)
 
 ### Rudder Trim
 
-Flight Deck: [Rudder Trim Panel](flight-deck/pedestal/rudder-trim.md)
+Flight Deck: [Rudder Trim Panel](../../pilots-corner/a32nx-briefing/flight-deck/pedestal/rudder-trim.md)
 
 | Function | API Usage         | Values        | Read/Write | Type             | Remark                                                                         |
 |:---------|:------------------|:--------------|:-----------|:-----------------|:-------------------------------------------------------------------------------|
@@ -895,7 +895,7 @@ Flight Deck: [Rudder Trim Panel](flight-deck/pedestal/rudder-trim.md)
 
 ### Cockpit Door
 
-Flight Deck: [Cockpit Door Panel](flight-deck/pedestal/cockpit-door.md)
+Flight Deck: [Cockpit Door Panel](../../pilots-corner/a32nx-briefing/flight-deck/pedestal/cockpit-door.md)
 
 | Function     | API Usage                 | Values   | Read/Write | Type        | Remark |
 |:-------------|:--------------------------|:---------|:-----------|:------------|:-------|
@@ -918,7 +918,7 @@ Flight Deck: [Cockpit Door Panel](flight-deck/pedestal/cockpit-door.md)
 
 ## Tiller
 
-See [Nose Wheel and Tiller Operation](../../fbw-a32nx/feature-guides/nw-tiller.md)
+See [Nose Wheel and Tiller Operation](../feature-guides/nw-tiller.md)
 
 ## Rudder Pedals
 

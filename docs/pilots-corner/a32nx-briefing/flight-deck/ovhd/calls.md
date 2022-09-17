@@ -8,7 +8,7 @@
 
 ![Calls Panel](../../../assets/a32nx-briefing/overhead-panel/Calls-Panel.jpg "Calls Panel")
 
-!!! note "API Documentation: [Calls Panel](../../a32nx_api.md#calls-panel)"
+!!! note "API Documentation: [Calls Panel](../../../../fbw-a32nx/a32nx-api/a32nx-flightdeck-api.md#calls-panel)"
 
 ## Description
 

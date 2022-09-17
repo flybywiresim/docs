@@ -8,7 +8,7 @@
 
 ![EFIS Control](../../../assets/a32nx-briefing/glareshield/EFIS-Control.jpg "EFIS Control")
 
-!!! note "API Documentation: [EFIS Control Panel](../../a32nx_api.md#efis-control-panel)"
+!!! note "API Documentation: [EFIS Control Panel](../../../../fbw-a32nx/a32nx-api/a32nx-flightdeck-api.md#efis-control-panel)"
 
 ## Description
 

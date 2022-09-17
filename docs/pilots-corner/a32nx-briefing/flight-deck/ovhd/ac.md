@@ -8,7 +8,7 @@
 
 ![Air Conditioning Panel](../../../assets/a32nx-briefing/overhead-panel/AC-Panel.jpg "Air Conditioning Panel"){loading=lazy}
 
-!!! note "API Documentation: [AC Panel API](../../a32nx_api.md#air-condition-panel)"
+!!! note "API Documentation: [AC Panel API](../../../../fbw-a32nx/a32nx-api/a32nx-flightdeck-api.md#air-condition-panel)"
 
 ## Description
 

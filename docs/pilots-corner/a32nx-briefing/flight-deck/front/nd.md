@@ -8,7 +8,7 @@
 
 ![Navigation Display](../../../assets/a32nx-briefing/front/nd.jpg "Navigation Display")
 
-!!! note "API Documentation: [ND Panel](../../a32nx_api.md#terr-on-nd)"
+!!! note "API Documentation: [ND Panel](../../../../fbw-a32nx/a32nx-api/a32nx-flightdeck-api.md#terr-on-nd)"
 
 ---
 

@@ -8,7 +8,7 @@
 
 ![Console Sidestick and Tiller](../../../assets/a32nx-briefing/console/lateral-console.png)
 
-!!! note "API Documentation: [Sidestick](../../a32nx_api.md#side-stick)"
+!!! note "API Documentation: [Sidestick](../../../../fbw-a32nx/a32nx-api/a32nx-flightdeck-api.md#side-stick)"
 
 ## Sidesticks
 
