@@ -35,32 +35,26 @@ theme:
 
 # Plugins
 plugins:
-  - search:
-      lang: en
-  - social:
-      cards_color:
-        fill: "#171E2C"
-      cards_font: Manrope
-      # Uncomment 'cards' for local builds
-#      cards: !ENV [CARDS, false]
-  - exclude-search:
-      exclude:
-        - pilots-corner/advanced-guides/flight-planning/fplan.md
-        - pilots-corner/advanced-guides/flight-planning/offset.md
-        - pilots-corner/advanced-guides/flight-planning/overview.md
-        - pilots-corner/advanced-guides/flight-guidance/approaches.md
-        - pilots-corner/advanced-guides/flight-guidance/autopilot.md
-        - pilots-corner/advanced-guides/flight-guidance/lnav.md
-        - pilots-corner/advanced-guides/flight-guidance/vnav.md
-        - simbridge/coroute.md
-        - simbridge/pdf-viewer.md
-  - awesome-pages
-  - git-revision-date-localized:
-      type: date
-  - external-markdown
-  - mkdocs-video:
-      mark: "video-embed"
-  - redirects:
+  search:
+    lang: en
+  exclude-search:
+    exclude:
+      - pilots-corner/advanced-guides/flight-planning/fplan.md
+      - pilots-corner/advanced-guides/flight-planning/offset.md
+      - pilots-corner/advanced-guides/flight-planning/overview.md
+      - pilots-corner/advanced-guides/flight-guidance/approaches.md
+      - pilots-corner/advanced-guides/flight-guidance/autopilot.md
+      - pilots-corner/advanced-guides/flight-guidance/lnav.md
+      - pilots-corner/advanced-guides/flight-guidance/vnav.md
+      - simbridge/coroute.md
+      - simbridge/pdf-viewer.md
+  awesome-pages: {}
+  git-revision-date-localized:
+    type: date
+  external-markdown: {}
+  mkdocs-video:
+    mark: "video-embed"
+  redirects:
       redirect_maps:
         # Folder: /start/
         'start/fbw-versions.md': 'fbw-a32nx/fbw-versions.md'
@@ -136,21 +130,20 @@ extra:
 
 # Additional Markdown Extensions to use bundled icon sets
 markdown_extensions:
-  - meta # Add front matter to a document
-  - admonition # Makes things pretty
-  - pymdownx.superfences # Nestled code
-  - attr_list # Add HTML attributes and CSS classes to Markdown elements
-  - pymdownx.tabbed: # Content tabs
-      alternate_style: true
-  - pymdownx.details # Additional features to admonition
-  - pymdownx.caret # Formatting Extension
-  - pymdownx.critic # Alternate Formatting Extension
-  - pymdownx.mark # Formatting Extension
-  - pymdownx.tilde # Formatting Extension
-  - pymdownx.keys # Visual keyboard keys extension
-  - pymdownx.critic
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.emoji: # Allows emoji style inline embeds for icons
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+  meta: {} # Add front matter to a document
+  admonition: {} # Makes things pretty
+  pymdownx.superfences: {} # Nestled code
+  attr_list: {} # Add HTML attributes and CSS classes to Markdown elements
+  pymdownx.tabbed: # Content tabs
+    alternate_style: true
+  pymdownx.details: {} # Additional features to admonition
+  pymdownx.caret: {} # Formatting Extension
+  pymdownx.critic: {} # Alternate Formatting Extension
+  pymdownx.mark: {} # Formatting Extension
+  pymdownx.tilde: {} # Formatting Extension
+  pymdownx.keys: {} # Visual keyboard keys extension
+  pymdownx.tasklist:
+    custom_checkbox: true
+  pymdownx.emoji: # Allows emoji style inline embeds for icons
+    emoji_index: !!python/name:materialx.emoji.twemoji
+    emoji_generator: !!python/name:materialx.emoji.to_svg
