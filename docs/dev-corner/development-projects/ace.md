@@ -2,6 +2,8 @@
 
 `ace`, or Advanced Cockpit Emulator, is a project aiming to provide a complete avionics development environment for Microsoft Flight Simulator aircraft.
 
+![img.png](../assets/fbw-projects/ace-efb.png)
+
 {--
 
 `ace` is meant to be used by developers and is not a finished or polished product. It is a work in progress and is 
@@ -34,8 +36,10 @@ The MSFS CoherentGT engine API is emulated in `ace`, including the `call`, `trig
 3. Run ace with `npm start`
 4. After running the program, select New Project and choose the locations of all your folders. (see [below] (#example-config))
 5. Add a Web Instrument to localhost:9696 (right-click on the project canvas)
-6. Go to your a32nx clone folder and run: `npm run serve:efb`
-7. To interact with the EFB via mouse you need to click enter to turn on interactive mode
+6. Open a new terminal and go to your a32nx clone folder and run: `npm run serve:efb`
+     This allows to see any changes to the instrument's code nearly instantaneously. 
+
+To interact with the EFB via mouse you need to click enter to turn on interactive mode
 
 ### Example Config
 
@@ -52,7 +56,7 @@ The MSFS CoherentGT engine API is emulated in `ace`, including the `call`, `trig
 
 Troubleshooting:
 
-- remember to press Enter for Interactive Mode to turn on the flyPad
+- flyPad: remember to press Enter for Interactive Mode to turn on the flyPad
 
 ## Instrument Setup
 
