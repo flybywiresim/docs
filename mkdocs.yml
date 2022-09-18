@@ -1,6 +1,7 @@
 # Project Information
 site_name: FlyByWire Simulations Documentation
 site_url: https://docs.flybywiresim.com/
+site_description: Comprehensive documentation for FlyByWire Simulations projects
 # repo allows for linking main repo to docs
 # Uncomment to use
 repo_url: https://github.com/flybywiresim/a32nx/
@@ -37,7 +38,11 @@ plugins:
   - search:
       lang: en
   - social:
-      #cards: !ENV [CARDS, false]
+      cards_color:
+        fill: "#171E2C"
+      cards_font: Manrope
+      # Uncomment 'cards' for local builds
+#      cards: !ENV [CARDS, false]
   - exclude-search:
       exclude:
         - pilots-corner/advanced-guides/flight-planning/fplan.md
