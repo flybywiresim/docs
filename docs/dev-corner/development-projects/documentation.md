@@ -45,6 +45,7 @@ To participate in the FlyByWire Documentation Project you need to have following
     - Install [GTK+](https://www.gtk.org/docs/installations/windows/) for Windows.
 
     For more information including other operating systems refer to the [Social Card Dependencies](https://squidfunk.github.io/mkdocs-material/setup/setting-up-social-cards/#dependencies) Section on the `mkdocs-material` documentation.
+
 - Editor / IDE:
     - Recommended: [Microsoft Visual Studio Code](https://code.visualstudio.com/docs#vscode){target=new}
         - recommended plugins to work with markdown:
@@ -52,6 +53,18 @@ To participate in the FlyByWire Documentation Project you need to have following
             - especially for tables: [https://github.com/takumisoft68/vscode-markdown-table](https://github.com/takumisoft68/vscode-markdown-table)
     - Or any [Jetbrains](https://www.jetbrains.com/) IDE, e.g. IntelliJ IDEA or Clion.
     - Or any text editor (even Notepad.exe will do) in conjunction with [stackedit.io](https://stackedit.io/){target=new} - Create and edit markdown on the web. Useful if you don't have / can't setup MkDocs locally on your machine. Does not support material references. Please note this in your PR so a maintainer can double check your references render appropriately.
+
+#### Social Cards Feature
+
+!!! danger "Important Information"
+    For general purposes you do not need to test or utilize this feature locally unless you want to develop or change configurations related to this feature. Please be aware of
+    the information below if you intend to test this locally.
+
+We have added the social cards feature to the FBW documentation project. When generating the social cards locally, the directory `.cache` is created where all the assets are
+generated. See [Complete Local Builds](#complete-local-builds).
+
+You may need to manually clean any files within the `.cache` directory if you encounter any build issues after generating / modifying configuration files related to this 
+feature.
 
 ### Process
 
@@ -102,6 +115,39 @@ To participate in the FlyByWire Documentation Project you need to have following
     - Every time you push changes to your PR a preview is generated with a URL. You can share this link in Discord for the team to provide feedback easily. The URL (by the vercel bot) is visible as a comment on your PR github page.
 - When finished, push your final changes to the PR, update the PR description if required and mark it "[Ready for Review](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/changing-the-stage-of-a-pull-request#marking-a-pull-request-as-ready-for-review){target=new}".
 - Someone from the documentation team will review your changes, give feedback, potentially ask for changes, and eventually approve and merge your changes.
+
+#### Adding Plugins or Markdown Extensions
+
+Please use the alternative "key/value" pairs method when adding plugins or markdown extensions with special note that an empty value must be provided when no options are defined.
+
+```yaml title="Sample New Config"
+plugins:
+  search: {}
+  awesome-pages: {}
+```
+
+```yaml title="Old Config"
+plugins:
+    - search
+    - awesome-pages
+```
+
+### Build Pipeline and Config Changes
+
+In order to facilitate smooth local development we have made some changes between production builds and local development.
+
+Building for production now uses the `production.yml` file which deep merges with mkdocs.yml using the `INHERIT` function with mkdocs.
+
+`mkdocs build --config-file production.yml`
+
+#### Complete Local Builds
+
+You can still follow the instructions to [preview your local clone](#preview-your-local-clone) to test and preview your changes locally.
+
+If you would like to fully test the generation of the open graph cards (Social Cards Feature) you need to run the following:
+
+- `mkdocs.exe serve --config-file production.yml` 
+- `mkdocs.exe build --clean --no-directory-urls --config-file production.yml`
 
 ### How to Write Documentation for FlyByWire
 
