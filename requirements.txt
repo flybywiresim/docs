@@ -6,3 +6,5 @@ mkdocs-exclude-search
 mkdocs-embed-external-markdown
 mkdocs-video
 mike
+pillow
+cairosvg
