@@ -19,7 +19,7 @@
 The page describes various operational limitations of the currently simulated aircraft model of the A32NX. Other 
 variations of the A320 might have different limitations and characteristics.
 
-This list if by far not complete but should mention the most important operational limitations for flight simulation.
+This list is incomplete but should mention the most important operational limitations for flight simulation.
 
 ## Aircraft General
 
