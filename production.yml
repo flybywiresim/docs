@@ -1,5 +1,6 @@
 INHERIT: mkdocs.yml
 
+# on production only
 plugins:
   social:
     cards_color:
