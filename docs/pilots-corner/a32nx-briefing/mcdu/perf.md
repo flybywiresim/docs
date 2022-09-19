@@ -81,10 +81,10 @@ Prompts on each PERF page:
   - The flight crew can modify the value. The minimum value is 400 ft above runway elevation, though it is always
     higher than, or equal to, THR RED.
     
-  !!! note
-      - A clearing action reverts both values to the default values.
-      - When the flight crew selects an altitude on the FCU that is below THR RED, it brings THR RED and ACC down to
-        this altitude. (The 400 ft minimum still applies).
+    !!! note
+        - A clearing action reverts both values to the default values.
+        - When the flight crew selects an altitude on the FCU that is below THR RED, it brings THR RED and ACC down to
+          this altitude. (The 400 ft minimum still applies).
 
 - UPLINK TO DATA (6L)
     - This key calls up the UPLINK TO DATA REQ page. It is only displayed in the preflight and done phases.
