@@ -241,6 +241,8 @@ After starting the engines only "Instant" is available.
 
 ## Payload Page
 
+The Payload page allows setting up the payload of the aircraft, board and de-board passengers and load cargo. 
+
 <div style="position: relative;">
     <img src="/fbw-a32nx/assets/flypados3/flypad-ground-payload.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
@@ -257,3 +259,7 @@ After starting the engines only "Instant" is available.
 </div>
 
 !!! bug "TODO"
+![img.png](../../assets/flypados3/flypad-ground-payload-values.png)
+![img_1.png](../../assets/flypados3/flypad-ground-payload-loadingtime.png)
+![img_2.png](../../assets/flypados3/flypad-ground-payload-cgenvelope.png)
+![img_3.png](../../assets/flypados3/flypad-ground-payload-seatscargo.png)
