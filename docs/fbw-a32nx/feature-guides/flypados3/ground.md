@@ -264,7 +264,7 @@ The Payload page allows setting up the payload of the aircraft, board and de-boa
 This widget allows setting up the payload of the aircraft.
 
 1. Planning
-     - Enter the planned number of passengers, weight of cargo here. 
+     - Enter the planned number of passengers and weight of cargo here. 
      - You can also enter the planned ZFW (zero fuel weight) here which will change the other values accordingly.
 2. Current
     - Shows the current number of passengers, weight of cargo and ZFW.
@@ -272,9 +272,10 @@ This widget allows setting up the payload of the aircraft.
 3. Per Passenger Values
     - Enter the weight of each passenger and the respective baggage weight per passenger.
     - This is used for the calculation of the total weight of passengers and baggage/cargo.
+    - Default values (also for SimBrief) are 80kg for passengers and 24kg for baggage.
 4. Start Boarding/De-Boarding
     - Click on this button to start the boarding/de-boarding process.
-    - The process will take 5sec/1sec/0 per passenger depending on the 
+    - The process will take 5sec/1sec/0sec per passenger depending on the 
       [Boarding/Loading Time setting](#configure-boardingloading-time).
     - The current number of passengers and weight of cargo will change accordingly. 
 5. Load Payload Values from SimBrief
