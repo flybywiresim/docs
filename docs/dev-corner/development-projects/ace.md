@@ -43,7 +43,7 @@ To interact with the EFB via mouse you need to click enter to turn on interactiv
 
 ### Example Config
 
-```json
+```json title="Example Configuration for ace"
 {
 	"name": "a32nx",
 	"paths": {
@@ -61,7 +61,7 @@ Troubleshooting:
 ## Instrument Setup
 
 Each instrument's config.json should use this format:
-```json
+```json title="Example Instrument Configuration"
 {
   "index": "./index.tsx",
   "isInteractive": true,
@@ -74,7 +74,7 @@ Each instrument's config.json should use this format:
 ```
 
 Your rollup should output to a bundles folder within your project using this structure:
-```
+``` title="Example Folder Structure"
 - bundles
   - MFD
     - bundle.js
