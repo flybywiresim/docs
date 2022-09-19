@@ -171,7 +171,7 @@ See also [Autoland](../advanced-guides/flight-guidance/autoland.md#aircraft-limi
 
 !!! note
     The N1 limit depends on the ambient conditions and on the configuration of the engine air bleed. These 
-    parameters may limit N1 to a value that is less than the above-mentioned N1 value (
+    parameters may limit N1 to a value that is less than the above-mentioned N1 value.
 
 ## Flight Controls
 
