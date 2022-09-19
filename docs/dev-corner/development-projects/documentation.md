@@ -31,8 +31,13 @@ To participate in the FlyByWire Documentation Project you need to have following
     - MkDocs ([MkDocs](https://www.mkdocs.org/){target=new})
     - mkdocs-awesome-pages-plugin
     - mkdocs-git-revision-date-localized-plugin
-    - mkdocs-material
     - mkdocs-redirects
+    - mkdocs-exclude-search
+    - mkdocs-embed-external-markdown
+    - mkdocs-video
+    - mike
+    - pillow
+    - cairosvg
 - Install with this single line command:
 
     ```title="Run In Terminal"
@@ -40,7 +45,7 @@ To participate in the FlyByWire Documentation Project you need to have following
     ```
 !!! info "Pillow + Cairo Dependency"
     As part of the new social card feature released with `mkdocs-material 8.5.0` [Pillow](https://pillow.readthedocs.io/) and [Cairo Graphics](https://www.cairographics.org/) 
-    dependencies were added. If you encounter any issues with these python packages:
+    dependencies were added. We bundle this as part of our `requirements.txt` to ensure the dependeices are installed when attempting to test [social cards locally](#social-cards-feature). If you encounter any issues with these python packages:
 
     - Install [GTK+](https://www.gtk.org/docs/installations/windows/) for Windows.
 
