@@ -40,10 +40,17 @@ You have now a copy of the a32nx repository on your local machine to review and 
 
 To compile the source code into a package you can install into the Microsoft Flight Simulator Community folder we have prepared a few scripts you need to run which in turn use the Docker container mentioned above to compile the aircraft add-on.
 
-```
+
+```powershell title="PowerShell or Cmd Prompt"
 cd a32nx
 .\scripts\dev-env\run.cmd ./scripts/setup.sh
 .\scripts\dev-env\run.cmd ./scripts/build.sh
+```
+
+```bash title="git bash or other *nix shells on Windows"
+cd a32nx
+./scripts/dev-env/run.cmd ./scripts/setup.sh
+./scripts/dev-env/run.cmd ./scripts/build.sh
 ```
 
 The setup.sh is configuring the build process and is sometimes necessary when you changed branches which for example use a different Nodes configuration.
