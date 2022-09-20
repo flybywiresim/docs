@@ -15,6 +15,10 @@
 
 The forward and aft cargo compartments are equipped with smoke detection systems which alert the crew and close isolation valves to the cargo compartment.
 
+## Description
+
+The forward and aft cargo compartments are equipped with smoke detection systems which alert the crew and close isolation valves to the cargo compartment.
+
 ## Usage
 
 ### SMOKE light
