@@ -3,6 +3,7 @@ nav:
     - Custom AP: autopilot-fbw.md
     - Custom FMS: cFMS.md
     - Custom Hydraulics: custom-hydraulics.md
+    - Hoppie ACARS (CPDLC): hoppie
     - ...
     - flyPadOS 2 EFB: flypados2
     - flyPadOS 3 EFB: flypados3

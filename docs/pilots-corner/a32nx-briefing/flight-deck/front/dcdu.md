@@ -16,7 +16,7 @@ The Datalink Ctl and Display Unit (DCDU) is used by the pilots to communicate wi
 
 In addition to the DCDU, the MCDU is used to prepare a request.
 
-See our detailed documentation on [Hoppie ACARS](../../../../fbw-a32nx/feature-guides/hoppie.md)
+See our detailed documentation on [Hoppie ACARS](../../../../fbw-a32nx/feature-guides/hoppie/index.md)
 
 ---
 

@@ -12,7 +12,7 @@ It is not a complete collection of all features but a growing list which is exte
 | [Flight Management System](cFMS.md)                    |
 | [Free Text](freetext.md)                               |
 | [Fuel and Weight](loading-fuel-weight.md)              |
-| [Hoppie ACARS](hoppie.md)                              |
+| [Hoppie ACARS](hoppie/index.md)                              |
 | [MCDU Keyboard Support](mcdu-keyboard.md)              |
 | [Nose Wheel and Tiller Operation](nw-tiller.md)        |
 | [SimBrief Integration](simbrief.md)                    |

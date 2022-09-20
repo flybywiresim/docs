@@ -211,7 +211,7 @@ Settings for integrations with various data and information sources.
     - See [next chapter](#simbrief-integration).
 - Hoppie User ID:
     - Unique logon code that is used to identify the user for the Hoppie ACARS communication.
-    - See [Create a logon code](../hoppie.md#create-a-logon-code) in our documentation for Hoppie ACARS.
+    - See [Create a logon code](../hoppie/index.md#create-a-logon-code) in our documentation for Hoppie ACARS.
 
 ### simBrief Integration
 
