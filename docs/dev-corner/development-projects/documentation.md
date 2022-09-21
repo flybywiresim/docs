@@ -76,7 +76,7 @@ feature.
 #### Preview your Local Clone
 
 - Fork the [:fontawesome-brands-github:{: .github } -  **Documentation Project Github**](https://github.com/flybywiresim/docs){target=new} ([How to fork a repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo){target=new}).
-- Create a local clone ([How to cloning your forked repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo#cloning-your-forked-repository){target=new}).
+- Create a local clone ([How to clone your forked repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo#cloning-your-forked-repository){target=new}).
 - Checkout the "primary" branch - this is the main branch of the current FlyByWire Documentation Project.
 - In a command line terminal go to the cloned repository folder and start `mkdocs.exe serve` to start the local preview server.
 
@@ -94,7 +94,7 @@ feature.
     You can opt to use a faster instance of the developer server by invoking the flag `--dirtyreload`. This just checks for any markdown that has changed since the HTML was rendered and will reconstruct any relevant pages only rather than rebuilding the entire website.
 
     ```
-    mkdocs.exe server --dirtyreload
+    mkdocs.exe serve --dirtyreload
     ```
 
     !!! danger ""
@@ -149,10 +149,15 @@ Building for production now uses the `production.yml` file which deep merges wit
 
 You can still follow the instructions to [preview your local clone](#preview-your-local-clone) to test and preview your changes locally.
 
-If you would like to fully test the generation of the open graph cards (Social Cards Feature) you need to run the following:
+If you would like to fully test a complete build of the production website you need to run the following:
 
 - `mkdocs.exe serve --config-file production.yml` 
 - `mkdocs.exe build --clean --no-directory-urls --config-file production.yml`
+
+!!! info "Additional Plugins in `production.yml`"
+    The following plugins are included:
+    
+    - Social Cards
 
 ### How to Write Documentation for FlyByWire
 
