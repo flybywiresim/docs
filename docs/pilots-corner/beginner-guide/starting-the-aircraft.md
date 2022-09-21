@@ -76,6 +76,8 @@ smaller airports. This is not a bug but a realistic situation. You can then eith
 
 #### Flight Warning System Initialization
 
+!!! warning "Currently on the Experimental version only."
+
 The Flight Warning System (FWS) is a system that monitors the aircraft and alerts the crew of any abnormalities. The 
 FWS initializes as soon as AC Bus power (External Power or APU) becomes available. 
 
