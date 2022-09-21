@@ -214,7 +214,7 @@ Just below the hydraulic panel, we find the **fuel panel**. Turn on all 6 fuel p
 
 ![Fire Panel](../assets/beginner-guide/starting-aircraft/fire-panel.png "Fire Panel")
 
-To perform an Engine fire test, hold down the `TEST` button for each of them for 5 seconds minimum to ensure 
+To perform an engine fire test, hold down the `TEST` button for each of them for 5 seconds minimum to ensure 
 the lights and aural warnings are working as expected. Checking the ECAM during the test will also show if the ECAM 
 is performing as expected during a fire.
 
