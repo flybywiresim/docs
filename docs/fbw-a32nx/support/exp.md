@@ -15,9 +15,24 @@ Currently experimental is geared toward testing the initial version of VNAV with
 
 ## Implemented Features for Testing
 
-### FWC 
+### Flight Warning System (FWS)
 
-!!! bug "TODO"
+We are testing the new FWS (Flight Warning System) which replaces the previous provisional system. 
+See technical details in the respective [GitHub Pull Request #4872](https://github.com/flybywiresim/a32nx/pull/4872)
+{target=new}.
+
+![fws-init-ecam](../../pilots-corner/assets/beginner-guide/starting-aircraft/fws-init-ecam.png){loading=lazy width=50%}
+
+Summary:
+
+This PR is the first step on the way to our new flight warning system, written nearly entirely in Rust and using an 
+accurate simulation of the underlying data acquisition and warning logic. The new system is made up of two 
+simulated Flight Warning Computers replacing some foundational logic pieces that were previously written in 
+Javascript. The vast majority of warnings on the EWD still have exactly the same conditions as previously and have 
+not been touched, but will be eventually moved over to the new flight warning computers one by one.
+
+The new Flight Warning Computers are also hooked into the electrical and failure system, so the alerts that are now 
+powered by the FWS truly won't work when both FWCs are unpowered or have failed.
 
 ### Electronic Flight Control System (EFCS) 
 
