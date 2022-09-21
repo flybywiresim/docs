@@ -18,18 +18,20 @@ Each page was reviewed by an A320 type rated pilot and provides accurate informa
 ## Important Pages
 
 [A.FLOOR](protections/afloor.md){ .md-button }
+[Discontinuities](flight-planning/disco.md){ .md-button }
+[Vertical Guidance](flight-guidance/vertical-guidance/overview.md){ .md-button }
 
 ---
 
 ## Topics:
 
 | Quick Links                                    |
-| :-----                                         |
+|:-----------------------------------------------|
 | [Flight Phases](flight-phases.md)              |
 | [Flight Planning](flight-planning/fixinfo.md)  |
 | [Flight Guidance](flight-guidance/overview.md) |
 | [Protections](protections/overview.md)         |
-<!--- [Data Management](data-management.md)-->
+| [Data Management](data-management.md)          |
 
 ---
 
