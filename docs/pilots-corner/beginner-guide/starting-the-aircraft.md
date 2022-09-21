@@ -81,12 +81,11 @@ smaller airports. This is not a bug but a realistic situation. You can then eith
 The Flight Warning System (FWS) is a system that monitors the aircraft and alerts the crew of any abnormalities. The 
 FWS initializes as soon as AC Bus power (External Power or APU) becomes available. 
 
-The Initialization takes about 50 seconds and is indicated by the `FWS FWC 1+2 FAULT` message on the ECAM. The 
+The initialization takes about 50 seconds and is indicated by the `FWS FWC 1+2 FAULT` message on the ECAM. The 
 message will disappear and a various test alarms play shortly once the initialization is complete.
 
-Some cockpit setup tests should not be done before this initialization is complete. Esp. the fire tests should 
-not 
-be done before this initialization is complete.
+Some cockpit setup steps should not be done before this initialization is complete. Especially the fire tests should 
+not be done before this initialization is complete.
 
 ![fws-init-ecam](../assets/beginner-guide/starting-aircraft/fws-init-ecam.png){loading=lazy width=50%}
 
@@ -104,7 +103,7 @@ on the fire panel and the ECAM will show the appropriate warnings.
     ![apu-fire-test](../assets/beginner-guide/starting-aircraft/apu-fire-test.png){loading=lazy valign=top align=center width=49%}
     ![apu-fire-test-ecam](../assets/beginner-guide/starting-aircraft/apu-fire-test-ecam.png){loading=lazy valign=top align=center width=49%}
 
-If External Power is not available at this point, we do a batteries only fire test. In this case only the fire panel 
+If external power is not available at this point, we do a batteries only fire test. In this case only the fire panel 
 buttons will show the test lights. The ECAM remains dark. 
 
 #### APU
