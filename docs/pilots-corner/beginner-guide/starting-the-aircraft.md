@@ -82,7 +82,7 @@ The Flight Warning System (FWS) is a system that monitors the aircraft and alert
 FWS initializes as soon as AC Bus power (External Power or APU) becomes available. 
 
 The initialization takes about 50 seconds and is indicated by the `FWS FWC 1+2 FAULT` message on the ECAM. The 
-message will disappear and a various test alarms play shortly once the initialization is complete.
+message will disappear and various alarms may play once the initialization is complete.
 
 Some cockpit setup steps should not be done before this initialization is complete. Especially the fire tests should 
 not be done before this initialization is complete.
