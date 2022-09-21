@@ -46,7 +46,7 @@ We then direct our attention to the **main panel** and make sure the following i
 
 - [Gear Lever](../a32nx-briefing/flight-deck/front/autobrake-gear.md) is down
 
-Then we look up at the **overhead panel**. Make sure the following are in the set position befor  moving on to 
+Then we look up at the **overhead panel**. Make sure the following are in the set position before moving on to 
 starting the aircraft:
 
 - [Wiper](../a32nx-briefing/flight-deck/ovhd/wipers.md) selectors are in the `OFF` position
