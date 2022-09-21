@@ -29,7 +29,8 @@ Aircraft is in a cold and dark state at a gate.
 
 ## Cockpit Preparation
 
-To start off, we will begin by doing a few pre-checks in all areas of the cockpit to ensure the aircraft is in an normal position before turning on the batteries.
+To start off, we will begin by doing a few pre-checks in all areas of the cockpit to ensure the aircraft is in a 
+normal position before turning on the batteries.
 
 We begin by looking down at the [**bottom pedestal**](../a32nx-briefing/flight-deck/index.md).
 
@@ -45,7 +46,8 @@ We then direct our attention to the **main panel** and make sure the following i
 
 - [Gear Lever](../a32nx-briefing/flight-deck/front/autobrake-gear.md) is down
 
-Then we look up at the **overhead panel**. Make sure the following are in the set position before moving on to starting the aircraft:
+Then we look up at the **overhead panel**. Make sure the following are in the set position before moving on to 
+starting the aircraft:
 
 - [Wiper](../a32nx-briefing/flight-deck/ovhd/wipers.md) selectors are in the `OFF` position
 
@@ -68,11 +70,46 @@ Batteries only power a small part of the aircraft. For the rest either ground po
 If ground power is available, we should see a green `AVAIL` light on the `EXT PWR` button. Push on this button to give power to the aircraft.
 
 !!! note "Ground Power Not Available"
-    Some gates or stands are not equipped with ground power. In Microsoft Flight Simulator this happens regularly at smaller airports. This is not a bug but a realistic situation. You can then either try to call a Ground Power Unit (GPU) if available at the airport or just use the APU as described in the next step.
+    Some gates or stands are not equipped with ground power. In Microsoft Flight Simulator this happens regularly at 
+smaller airports. This is not a bug but a realistic situation. You can then either try to call a Ground Power Unit 
+(GPU) if available at the airport or just use the APU as described in the next step.
+
+#### Flight Warning System Initialization
+
+!!! warning "Currently on the Experimental version only."
+
+The Flight Warning System (FWS) is a system that monitors the aircraft and alerts the crew of any abnormalities. The 
+FWS initializes as soon as AC Bus power (External Power or APU) becomes available. 
+
+The initialization takes about 50 seconds and is indicated by the `FWS FWC 1+2 FAULT` message on the ECAM. The 
+message will disappear and various alarms may play once the initialization is complete.
+
+Some cockpit setup steps should not be done before this initialization is complete. Especially the fire tests should 
+not be done before this initialization is complete.
+
+![fws-init-ecam](../assets/beginner-guide/starting-aircraft/fws-init-ecam.png){loading=lazy width=50%}
+
+#### APU Fire Test
+
+![Fire Panel](../assets/beginner-guide/starting-aircraft/fire-panel.png "Fire Panel"){loading=lazy}
+
+Before starting the APU, we should do a fire test. This is done by pressing and holding the `TEST` button on the fire 
+panel.
+
+If external power is available, the fire test will light up the Fire Extinguish button and the Squib Discharge button
+on the fire panel and the ECAM will show the appropriate warnings. 
+
+!!! block ""
+    ![apu-fire-test](../assets/beginner-guide/starting-aircraft/apu-fire-test.png){loading=lazy valign=top align=center width=49%}
+    ![apu-fire-test-ecam](../assets/beginner-guide/starting-aircraft/apu-fire-test-ecam.png){loading=lazy valign=top align=center width=49%}
+
+If external power is not available at this point, we do a batteries only fire test. In this case only the fire panel 
+buttons will show the test lights. The ECAM remains dark. 
 
 #### APU
 
-If ground power isn't available, we turn on the APU now.
+We now start the APU. Without external power this will provide us with electrical power to setup the aircraft. The 
+startup typically lasts about 1 minute.
 
 To do this, we simply push on the APU `MASTER SW` and `START`. The APU should be on within one minute.
 
@@ -168,14 +205,22 @@ Managing the temperatures of the cabin is necessary as well. Simply rotate the 3
 
 Looking up at the **hydraulic panel**, we ensure that there are no white lights visible.
 
-!!! warning "Fire Tests"
-    To perform an APU and Engine fire test, hold down the `TEST` button for each of them for 5 seconds minimum to ensure the lights and aural warnings are working as expected. Checking the ECAM during the test will also show if the ECAM is performing as expected during a fire.
-
-    ![Fire Panel](../assets/beginner-guide/starting-aircraft/fire-panel.png "Fire Panel")
 
 Just below the hydraulic panel, we find the **fuel panel**. Turn on all 6 fuel pumps until the white `OFF` light is no longer visible.
 
 ![Fuel Pumps](../assets/beginner-guide/starting-aircraft/fuelpumps.png "Fuel Pumps"){loading=lazy}
+
+### ENG Fire Test
+
+![Fire Panel](../assets/beginner-guide/starting-aircraft/fire-panel.png "Fire Panel")
+
+To perform an engine fire test, hold down the `TEST` button for each of them for 5 seconds minimum to ensure 
+the lights and aural warnings are working as expected. Checking the ECAM during the test will also show if the ECAM 
+is performing as expected during a fire.
+
+!!! block ""
+    ![eng-fire-test](../assets/beginner-guide/starting-aircraft/eng-fire-test.png){loading=lazy align=center valign=top width=49%}
+    ![eng-fire-test-ecam](../assets/beginner-guide/starting-aircraft/eng-fire-test-ecam.png){loading=lazy align=center valign=top width=49%}
 
 ---
 
