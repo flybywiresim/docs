@@ -4,5 +4,5 @@ nav:
     - Documentation Project: documentation.md
     - Website Project: website.md
     - Discord Bot: discord-bot.md
-    - ace: ace.md
+    - Advanced Cockpit Emulator: ace.md
     - ...
