@@ -258,7 +258,7 @@ A few minutes before we reach our calculated descent point (TOD) we request clea
 When clearance is given we can start our descent to the flight level or altitude ATC has given us.
 
 For descending we set the new flight level or altitude in the `FCU` with the `altitude selector`. We can then either 
-push the selector for Managed Altitude Mode (constraints are respected, also known as VNAV) or pull the selector for `Selected Altitude Mode` (constraints are ignored). 
+push the selector for `Managed Altitude Mode` (constraints are respected, also known as VNAV or [DES](../a32nx-briefing/pfd/second-column.md#des)) or pull the selector for `Selected Altitude Mode` (constraints are ignored, also known as [OP DES](../a32nx-briefing/pfd/second-column.md#op-des)). 
 
 !!! warning "Using V/S"
     It is not recommended to use V/S for climbing or descending in the A320 (at least not for beginners) as the V/S 
