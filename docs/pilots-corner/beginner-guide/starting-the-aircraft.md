@@ -29,7 +29,7 @@ Aircraft is in a cold and dark state at a gate.
 
 ## Cockpit Preparation
 
-To start off, we will begin by doing a few pre-checks in all areas of the cockpit to ensure the aircraft is in an 
+To start off, we will begin by doing a few pre-checks in all areas of the cockpit to ensure the aircraft is in a 
 normal position before turning on the batteries.
 
 We begin by looking down at the [**bottom pedestal**](../a32nx-briefing/flight-deck/index.md).
