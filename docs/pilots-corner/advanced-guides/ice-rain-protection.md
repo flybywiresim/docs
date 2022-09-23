@@ -58,7 +58,7 @@ Three independent Probe Heating Computers (PHCs) automatically control and monit
 - F/O probes  
 - STBY probes  
 
-They protect against overheating and indicate faults.
+They protect against overheating and indicate faults.  
 The probes are heated:  
 
 - Automatically when at least one engine is running, or when the aircraft is in flight  
@@ -95,25 +95,44 @@ The ice detection system does not control the ENG or WING anti-icing systems.
 
 See also [Anti Ice Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/anti-ice.md) and [Wiper Panels](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/wipers.md)
 
-### Wing Anti-Ice System
-ON GROUND - Can only be used on the ground for a 30-second test sequence  
-IN FLIGHT - Must be `ON` when there is visible airframe icing, either on the visual ice indicator or the wipers  
+### WING Anti-Ice pushbutton  
 
-### Engine Anti-Ice System
-ON GROUND - Must be `ON` during all ground operations where icing conditions exist or are anticipated  
-IN FLIGHT - Must be `ON` during all flight operations where icing conditions exist or are anticipated, except during climb or cruise when the SAT is below -40ᵒC  
+- ON GROUND:  
+      - Can only be used for a 30-second test sequence  
+- IN FLIGHT: 
+      - Must be ON when there is visible airframe icing, either on the visual ice indicator or the wipers  
 
+### ENG 1 + 2 Anti-Ice pushbuttons
 
-### Probe/Window Heat System
+- ON GROUND:  
+      - Must be ON during all ground operations where icing conditions exist or are anticipated  
+- IN FLIGHT:  
+      - Must be ON during all flight operations where icing conditions exist or are anticipated, except during climb or cruise when the SAT is below -40ᵒC  
 
+### PROBE/WINDOW HEAT pushbutton  
 
+- ON GROUND:  
+      - Windows and probes (except TAT probes) are automatically heated when at least one engine is running
+- IN FLIGHT:  
+      - Windows and probes are automatically heated
 
-| ON GROUND | Windows and probes (except TAT probes) are automatically heated when at least one engine is running |  |
-IN FLIGHT  
+### WIPERS  
 
-### Rain Removal System
-ON GROUND  
-IN FLIGHT  
+- ON GROUND:  
+      - Set to SLOW/FAST as required if raining  
+- IN FLIGHT:  
+      - Set to SLOW/FAST as required if raining  
+
+### RAIN RPLNT pushbutton
+
+- ON GROUND:  
+      - PUSH as required in moderate to heavy rain
+      - Inhibited on ground if engines are not running  
+- IN FLIGHT:  
+      - PUSH as required in moderate to heavy rain  
+
+!!! attention ""
+    RAIN RPLNT currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator
 
 ### Other Procedures
 If taxiing in icing conditions, delay the flaps extension until the runway holding point. This prevents contamination in the mechanism.  
