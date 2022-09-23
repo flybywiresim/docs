@@ -56,7 +56,7 @@ want to immediately set the frequency as the active frequency or just as the sta
 
 ### Filter the Station List
 
-![img.png](../../assets/flypados3/flypad-online-atc-filter.png)
+![img.png](../../assets/flypados3/flypad-online-atc-filter.png){loading=lazy}
 
 Use the search and predefined filters to find the station you are looking for. 
 
