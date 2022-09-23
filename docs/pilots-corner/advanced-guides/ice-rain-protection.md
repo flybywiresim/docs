@@ -2,7 +2,7 @@
 
 The A320 is exposed to many types of weather and atmospheric conditions, both in flight and on the ground. These include icing conditions and heavy rain, both of which could be potentially dangerous to the aircraft if they are not managed appropriately.
 
-!!! tip "Definition of Icing Conditions"  
+!!! note "Definition of Icing Conditions"  
 
     - Icing conditions exist when the OAT (on ground or after takeoff) or the TAT (in flight) is at or below 10°C and visible moisture in any form is present (such as clouds, fog with visibility of 1 sm (1 600 m) or less, rain, 
       snow, sleet or ice crystals).   
