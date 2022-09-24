@@ -37,7 +37,7 @@ This list is incomplete but should mention the most important operational limita
 | Parameter                                  | Value             |
 |--------------------------------------------|-------------------|
 | Runway altitude                            | 9 200 ft          |
-| Runway slope                               | +- 3% (mean)      |
+| Runway slope                               | +- 2% (mean)      |
 | Nominal Runway Width                       | 45m               |
 |                                            |                   |
 | Maximum certified crosswind for takeoff    | 35kt (incl. gust) |
@@ -52,13 +52,13 @@ This list is incomplete but should mention the most important operational limita
 
 #### Maximum Flaps/Slats Speeds
 
-| Position | Slats ° | Flaps ° | ECAM  | Max Speed | Phase                 |
-|:--------:|:-------:|:-------:|:-----:|:---------:|:----------------------|
-|    0     |    0    |    0    |       |           | CRUISE                |
-|    1     |   18    |  0/10   | 1/1+F |  230 kts  | HOLD / TAKE OFF       |
-|    2     |   22    |   15    |   2   |  215 kts  | TAKE OFF / APPR       |
-|    3     |   22    |   20    |   3   |  185 kts  | TAKE OFF / LDG / APPR |
-|   FULL   |   27    |   40    | FULL  |  177 kts  | LDG                   |
+| Position | Slats ° | Flaps ° | ECAM  |  Max Speed  | Phase                 |
+|:--------:|:-------:|:-------:|:-----:|:-----------:|:----------------------|
+|    0     |    0    |    0    |       |             | CRUISE                |
+|    1     |   18    |  0/10   | 1/1+F | 230/215 kts | HOLD / TAKE OFF       |
+|    2     |   22    |   15    |   2   |   200 kts   | TAKE OFF / APPR       |
+|    3     |   22    |   20    |   3   |   185 kts   | TAKE OFF / LDG / APPR |
+|   FULL   |   27    |   40    | FULL  |   177 kts   | LDG                   |
 
 #### Maximum Operating Speeds
 
@@ -109,12 +109,6 @@ This list is incomplete but should mention the most important operational limita
 | Maximum taxi speed | When takeoff weight >76 000kg / 167 550 lb | 20 kt during a turn |
 
 ### Weight Limitations
-
-- OEW (Empty Weight): 42 500 kg / 93 697 lb
-    - Also referred to as DOW (Dry Operating Weight) which can be seen in other simBrief OFP formats such as EZY
-- MZFW (Max Zero Fuel Weight): 64 300 kg / 141 757 lb
-- MTOW (Max Takeoff Weight): 79 000 kg / 174 165 lb
-- MLW (Max Landing Weight): 67 400 kg / 148 591 lb
 
 | Parameter | Description              | Value                  |
 |-----------|--------------------------|------------------------|
@@ -167,11 +161,30 @@ See also [Autoland](../advanced-guides/flight-guidance/autoland.md#aircraft-limi
 | Starting                        |                         | EGT Limit 635°C                      |
 | Engine start max crosswind      |                         | 45 kt                                |
 | Engine takeoff max crosswind    |                         | 35 kt (incl. gust)                   |
-|                                 |                         |                                      |
 
 !!! note
     The N1 limit depends on the ambient conditions and on the configuration of the engine air bleed. These 
     parameters may limit N1 to a value that is less than the above-mentioned N1 value.
+
+### Engine Anti-Ice
+
+The engine anti-ice must be ON during all ground and flight operations when icing conditions exist or
+are anticipated, except during climb and cruise when the temperature is below -40°C SAT.
+The engine anti-ice must be ON prior to and during descent in icing conditions, including
+temperatures below -40°C SAT.
+
+!!! note
+    Do not rely on airframe visual icing cues to turn engine anti-ice on. Use the temperature and visual moisture 
+    criteria specified the icing conditions definition. Delaying the use of engine anti-ice until buildup is 
+    visible from the cockpit may result in severe engine damage and/or flameout.
+
+!!! note "Definition of Icing Conditions"
+    - Icing conditions exist when the OAT (on ground or after takeoff) or the TAT (in flight) is at or below 10°C 
+      and visible moisture in any form is present (such as clouds, fog with visibility of 1 sm (1 600 m) or less, rain, 
+      snow, sleet or ice crystals).
+    - Icing conditions also exist when the OAT on the ground and for takeoff is at or below 10°C and operating on 
+      ramps, taxiways or runways where surface snow, standing water or slush may be ingested by the engines, or 
+      freeze on engines, nacelles or engine sensor probes.
 
 ## Flight Controls
 
