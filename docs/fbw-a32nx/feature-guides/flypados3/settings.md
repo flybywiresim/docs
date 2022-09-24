@@ -198,6 +198,16 @@ Settings for realism aspects of the A32NX aircraft.
     - This includes the Flight Director (FD), Landing System (LS) and Baro (STD, QNH and inHg/hPa) controls.
     - Note: Baro is currently not separated between the Captain and FO and is always synchronized independent of 
       this setting. 
+- Show Pilot Avatar
+    - When enabled, the pilot avatar will be visible in the cockpit. 
+    - The avatar style can be chosen in the MSFS settings `General Options -> Misc`.
+- Show First Officer Avatar
+    - When enabled, the first officer avatar will be visible in the cockpit.
+    - The avatar style can be chosen in the MSFS settings `General Options -> Misc`.
+
+    !!! block ""
+        ![img_3.png](../../assets/flypados3/flypad-settings-realism-avatars.png){loading=lazy align=center width=49%}
+        ![img_2.png](../../assets/flypados3/flypad-settings-realism-avatars2.png){loading=lazy align=center width=49%}
   
 ## ATSU/AOC
 
