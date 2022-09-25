@@ -71,8 +71,8 @@ If ground power is available, we should see a green `AVAIL` light on the `EXT PW
 
 !!! note "Ground Power Not Available"
     Some gates or stands are not equipped with ground power. In Microsoft Flight Simulator this happens regularly at 
-smaller airports. This is not a bug but a realistic situation. You can then either try to call a Ground Power Unit 
-(GPU) if available at the airport or just use the APU as described in the next step.
+    smaller airports. This is not a bug but a realistic situation. You can then either try to call a Ground Power Unit 
+    (GPU) if available at the airport or just use the APU as described in the next step.
 
 #### Flight Warning System Initialization
 
