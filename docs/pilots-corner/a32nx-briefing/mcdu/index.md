@@ -1,3 +1,7 @@
+---
+title: Multipurpose Control and Display Unit
+---
+
 # Multipurpose Control and Display Unit
 
 <link rel="stylesheet" href="/stylesheets/reported-issues.css">
