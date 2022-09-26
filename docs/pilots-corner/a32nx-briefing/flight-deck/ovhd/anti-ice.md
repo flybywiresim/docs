@@ -20,7 +20,9 @@ For anti-icing either hot air or electrical heating protects critical areas of t
 
 Hot air is used for the three outboard leading-edge slats of each wing and for the engine air intakes.
 
-Electrical heating is used for the flight compartment windows, the sensors, pitot probes and static ports and for the waste-water drain mast.
+Electrical heating is used for the flight compartment windows, the sensors, pitot probes and static ports and for the waste-water drain mast.  
+
+For more information, see [Ice and Rain Protection](../../../advanced-guides/ice-rain-protection.md)
 
 ## Usage
 
