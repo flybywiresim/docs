@@ -258,6 +258,9 @@ The Payload page allows setting up the payload of the aircraft, board and de-boa
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
 
+See our [Fuel and Weight](../../feature-guides/loading-fuel-weight.md#development-version) page for more information on how to set 
+up the payload.
+
 ### Setting Up Payload
 ![flypad-ground-payload-values](../../assets/flypados3/flypad-ground-payload-values.png)
 
