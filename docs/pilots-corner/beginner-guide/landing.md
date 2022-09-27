@@ -132,7 +132,7 @@ The vertical `FMA` now shows `G/S` (glideslope) in blue.
     There is different guidance when to set `FLAPS 2` at different airlines or Airbus. But for beginners we recommend to go to `FLAPS 2` before starting the glideslope descent. Airbus guidance for example is `FLAPS 2` during glideslope descent at about 2,000ft which only works if speed is already reduced enough.
 
 !!! info "ATC instructed approach speed"
-    The A320 `Autothrust` will manage speed during approach automatically and will reduce speed further with each flap setting. In real live and also when flying with Online ATC like VATSIM we need to expect that ATC instructs us to stay at a certain speed (e.g. 160 knots until 5 NM to the runway). In this case we would use `Selected Speed Mode` (select a speed in the `FCU` and pull the knob) until the instructed distance to the runway where we would then go back to `Managed Speed Mode` and drop the gear then as well as setting flaps to 3 and flaps to full - see below.
+    The A320 `Autothrust` will manage speed during approach automatically and will reduce speed further with each flap setting. In real life and also when flying with Online ATC like VATSIM we need to expect that ATC instructs us to stay at a certain speed (e.g. 160 knots until 5 NM to the runway). In this case we would use `Selected Speed Mode` (select a speed in the `FCU` and pull the knob) until the instructed distance to the runway where we would then go back to `Managed Speed Mode` and drop the gear then as well as setting flaps to 3 and flaps to full - see below.
 
 The aircraft will start descending when the deviation marker is in the middle (we have captured the ILS glideslope). The vertical `FMA` will now display `G/S` in green.
 
@@ -295,7 +295,7 @@ We can now safely stop the aircraft and do our "After Landing" checklist.
 If ATC did not already contact us on the ground we would contact them now to let them now we have vacated the runway. They will give us taxi instructions so we can continue taxiing to our gate once we have completed the after landing tasks.
 
 !!!info "After landing tasks in simulation"
-    In real live the A320 will have two pilots which can actually do things in parallel. Talking to ATC, taxing the aircraft and do the after landing tasks. In the simulation we are typically alone so it is absolutely ok to stop once we have fully vacated the runway and do these things one after the other. Talking to ATC and getting taxi instruction, do the after landing tasks and checklist, taxiing to gate.
+    In real life the A320 will have two pilots which can actually do things in parallel. Talking to ATC, taxing the aircraft and do the after landing tasks. In the simulation we are typically alone so it is absolutely ok to stop once we have fully vacated the runway and do these things one after the other. Talking to ATC and getting taxi instruction, do the after landing tasks and checklist, taxiing to gate.
 
 This concludes *Vacate Runway*
 
