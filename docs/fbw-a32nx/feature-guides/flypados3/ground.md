@@ -75,7 +75,7 @@ See [Pushback System On/Off](#pushback-system-onoff).
 --}
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypados3/flypad-pushback.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/fbw-a32nx/assets/flypados3/flypad-ground-pushback.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
@@ -91,6 +91,9 @@ See [Pushback System On/Off](#pushback-system-onoff).
 
 The flyPad pushback system provides comfortable pushback from within the cockpit using buttons or controllers and the 
 built-in map.  
+
+!!! tip 
+    Use your controller's rudder and elevator axis to steer!
 
 ### Pushback System On/Off
 
@@ -203,7 +206,7 @@ The fuel page provides accurate information about the quantity of fuel in the di
 also allows fueling or de-fueling the aircraft to the desired fuel quantity.
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypados3/flypad-dispatch-fuel.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/fbw-a32nx/assets/flypados3/flypad-ground-fuel.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
@@ -235,3 +238,90 @@ Press the "play" symbol to start the refuelling process (de-fueling if the new q
 Set this setting to the desired duration of refueling. Either instant refueling (Instant - but unrealistic), realistic refuel time (Real) or a middle ground (Fast).
 
 After starting the engines only "Instant" is available. 
+
+## Payload Page
+
+The Payload page allows setting up the payload of the aircraft, board and de-board passengers and load cargo. 
+
+<div style="position: relative;">
+    <img src="/fbw-a32nx/assets/flypados3/flypad-ground-payload.png" style="width: 100%; height: auto;" loading="lazy">
+    <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
+    <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
+    <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
+    <a href="../performance/"> <div class="imagemap" style="position: absolute; left: 1.7%; top: 28.3%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Performance</span></div></a>
+    <a href="../charts/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 35.6%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Navigation & Charts</span></div></a>
+    <a href="../online-atc/">  <div class="imagemap" style="position: absolute; left: 1.7%; top: 43.0%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Online ATC</span></div></a>
+    <a href="../failures/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 50.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Failures</span></div></a>
+    <a href="../checklists/">  <div class="imagemap" style="position: absolute; left: 1.7%; top: 57.3%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Checklists</span></div></a>
+    <a href="../presets/">     <div class="imagemap" style="position: absolute; left: 1.7%; top: 64.7%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Presets</span></div></a>
+    <a href="../settings/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 85.0%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Settings</span></div></a>
+    <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
+</div>
+
+See our [Fuel and Weight](../../feature-guides/loading-fuel-weight.md#development-version) page for more information on how to set 
+up the payload.
+
+### Setting Up Payload
+![flypad-ground-payload-values](../../assets/flypados3/flypad-ground-payload-values.png)
+
+This widget allows setting up the payload of the aircraft.
+
+1. Planning
+     - Enter the planned number of passengers and weight of cargo here. 
+     - You can also enter the planned ZFW (zero fuel weight) here which will change the other values accordingly.
+2. Current
+    - Shows the current number of passengers, weight of cargo and ZFW.
+    - This will change as passengers board and de-board and cargo is loaded and unloaded.
+3. Per Passenger Values
+    - Enter the weight of each passenger and the respective baggage weight per passenger.
+    - This is used for the calculation of the total weight of passengers and baggage/cargo.
+    - Default values (also for SimBrief) are 80kg for passengers and 24kg for baggage.
+4. Start Boarding/De-Boarding
+    - Click on this button to start the boarding/de-boarding process.
+    - The process will take 5sec/1sec/0sec per passenger depending on the 
+      [Boarding/Loading Time setting](#configure-boardingloading-time).
+    - The current number of passengers and weight of cargo will change accordingly. 
+5. Load Payload Values from SimBrief
+    - The values for the number of passengers, weight of cargo and ZFW can be imported from the SimBrief flight plan.
+    - Make sure to have imported the flight plan on the [flyPad Dashboard page](dashboard.md).
+
+### Configure Boarding/Loading Time
+![flypad-ground-payload-loadingtime](../../assets/flypados3/flypad-ground-payload-loadingtime.png)
+
+This widget allows configuring the boarding/loading time.
+
+* Instant: will directly load all passengers and cargo without any delay.
+* Fast: will load 1 passenger every 1sec.
+* Real: will load 1 passenger every 5sec.
+
+### Center of Gravity Diagram
+![flypad-ground-payload-cgenvelope](../../assets/flypados3/flypad-ground-payload-cgenvelope.png)
+
+This shows the CG and ZFWCG envelope of the aircraft. The current CG is sown in cyan and the ZFWCG is shown in white.
+
+These current value indicators move during boarding and de-boarding and loading and unloading of cargo.
+
+### Interactive Seating and Cargo Diagram
+![flypad-ground-payload-seatscargo](../../assets/flypados3/flypad-ground-payload-seatscargo.png)
+
+This widget shows the planned and current loading of the cabin and cargo visually. 
+
+It also allows to change the loading by clicking on the seats or cargo areas.
+
+- Click on seats to plan to board/de-board individual passengers.
+- Click on the cargo areas to plan to change cargo and cargo distribution.
+- Click on the boarding/de-boarding button to start the process.
+
+The current cabin and cargo area layout of the A32NX consists of:
+
+- 174 Seats in 4 passenger areas 
+    - A = rows 1-6
+    - B = rows 7-13
+    - C = rows 14-21
+    - D = rows 22-29
+- 4 Cargo areas
+    - Forward Baggage Container
+    - Aft Baggage Container
+    - Aft Baggage
+    - Aft Bulk Loose
+
