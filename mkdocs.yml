@@ -37,6 +37,7 @@ theme:
 plugins:
   search:
     lang: en
+  tags: {}
   exclude-search:
     exclude:
       - pilots-corner/advanced-guides/flight-planning/fplan.md
