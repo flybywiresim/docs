@@ -295,7 +295,7 @@ We can now safely stop the aircraft and do our "After Landing" checklist.
 If ATC did not already contact us on the ground we would contact them now to let them now we have vacated the runway. They will give us taxi instructions so we can continue taxiing to our gate once we have completed the after landing tasks.
 
 !!!info "After landing tasks in simulation"
-    In real life the A320 will have two pilots which can actually do things in parallel. Talking to ATC, taxing the aircraft and do the after landing tasks. In the simulation we are typically alone so it is absolutely ok to stop once we have fully vacated the runway and do these things one after the other. Talking to ATC and getting taxi instruction, do the after landing tasks and checklist, taxiing to gate.
+    In real life the A320 will have two pilots which can actually do things in parallel. Talking to ATC, taxiing the aircraft and do the after landing tasks. In the simulation we are typically alone so it is absolutely ok to stop once we have fully vacated the runway and do these things one after the other. Talking to ATC and getting taxi instruction, do the after landing tasks and checklist, taxiing to gate.
 
 This concludes *Vacate Runway*
 
