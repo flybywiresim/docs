@@ -15,7 +15,48 @@ As soon as the Captain decides to abort, he calls “STOP”, takes over control
 
 ## Reasons for a rejected takeoff  
 
-It is not possible to list all the factors that could lead to the decision to reject the takeoff. However, in order to help the Captain make a decision, the ECAM inhibits warnings that are not essential from 80 kt to 1500 ft (or 2 min after lift-off, whichever occurs first). When this occurs, a magenta T.O. INHIBIT memo is displayed in the Upper ECAM (E/WD).
+It is not possible to list all the factors that could lead to the decision to reject the takeoff. However, in order to help the Captain make a decision, the ECAM inhibits warnings that are not essential from 80 kt to 1500 ft (or 2 min after lift-off, whichever occurs first). When this occurs, a magenta T.O INHIBIT memo is displayed in the Upper ECAM (E/WD).
 
-- Below 100 kt  
-Any ECAM warning/caution
+- Below 100 kt:  
+    - Any ECAM warning/caution should prompt the Captain to seriously consider discontinuing the takeoff
+- Above 100 kt and below V1:  
+    - Fire warning or severe damage
+    - Sudden loss of engine thrust
+    - Malfunctions or conditions that give unambiguous indications that the aircraft will not fly safely
+    - Any red ECAM warning
+    - Any amber ECAM caution listed below:
+        - F/CTL SIDESTICK FAULT
+        - ENG FAIL
+        - ENG REVERSE FAULT
+        - ENG REVERSE UNLOCKED
+        - ENG 1(2) THR LEVER FAULT
+- Above V1:  
+    - When the aircraft speed is greater than V1, takeoff must be continued
+
+## Rejected Takeoff Procedure  
+
+!!! note
+
+      Because in the simulator most of the time you are on your own, the procedure has been condensed for a single pilot to perform. In real life operations, the procedures are split between the Captain and FO. 
+
+---
+
+"STOP"................................ANNOUNCE  
+THRUST LEVERS.............................IDLE  
+REVERSE THRUST.......................MAX AVAIL  
+REVERSERS.......................CHECK/ANNOUNCE  
+DECELERATION....................CHECK/ANNOUNCE  
+AUDIO WARNINGS..........................CANCEL  
+                AIRCRAFT STOPPED  
+REVERSERS...............................STOWED  
+ATC.....................................NOTIFY  
+PARKING BRAKE...............................ON  
+CABIN CREW...............................ALERT  
+ECAM ACTIONS...........................PERFORM  
+
+---
+
+!!! note 
+
+    - Full reverse thrust may be used until coming to a complete stop. But, if there is enough runway available at the end of the deceleration, it is preferable to reduce reverse thrust when passing 70 kt.
+    - If the brake response from the autobrake does not seem appropriate for the runway condition, FULL manual braking should be applied and maintained. IF IN DOUBT, TAKE OVER MANUALLY.
