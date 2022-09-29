@@ -18,4 +18,4 @@ As soon as the Captain decides to abort, he calls “STOP”, takes over control
 It is not possible to list all the factors that could lead to the decision to reject the takeoff. However, in order to help the Captain make a decision, the ECAM inhibits warnings that are not essential from 80 kt to 1500 ft (or 2 min after lift-off, whichever occurs first). When this occurs, a magenta T.O. INHIBIT memo is displayed in the Upper ECAM (E/WD).
 
 - Below 100 kt  
-  - Any ECAM warning/caution
+Any ECAM warning/caution
