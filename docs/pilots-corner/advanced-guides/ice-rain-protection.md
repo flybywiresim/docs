@@ -55,7 +55,7 @@ Jump to [Usage of the Ice and Rain Protection System](#usage-of-the-ice-and-rain
 
       - Pitot heads  
       - Static ports  
-      - Angle Of Attack (AOA) probes  
+      - Angle of Attack (AOA) probes  
       - Total Air Temperature (TAT) probes  
 
 - Three independent Probe Heating Computers (PHCs) automatically control and monitor:  
