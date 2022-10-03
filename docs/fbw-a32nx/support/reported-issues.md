@@ -67,7 +67,7 @@ TEMPLATE
 |:---------------------------------------------------------------------------------------|
 | [Commonly Reported Issues](#commonly-reported-issues)                                  |
 | [Solutions to Commonly Reported Issues](#solutions-to-commonly-reported-issues)        |
-| [FBW Installer Issues]((#fbw-installer-issues))                                        |
+| [FBW Installer Issues](#fbw-installer-issues)                                          |
 | [Incompatible and Problematic Add-Ons/Mods](#incompatible-and-problematic-add-onsmods) |
 
 ## Use the Browser's Search Function
