@@ -1,6 +1,5 @@
 # F-PLN: Flight Plan Page
 
-<link rel="stylesheet" href="/stylesheets/admonition.css">
 ## Description
 
 The MCDU F-PLN page is actually a series of page for the management of

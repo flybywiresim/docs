@@ -1,6 +1,5 @@
 # MCDU Interface
 
-<link rel="stylesheet" href="/stylesheets/admonitions.css">
 ![ecam-overview.png](../../assets/a32nx-briefing/mcdu/mcdu-overview.png)
 
 ## General

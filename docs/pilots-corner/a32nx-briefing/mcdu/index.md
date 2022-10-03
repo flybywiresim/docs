@@ -5,9 +5,6 @@ description: FCOM-style documentation for the Multipurpose Control and Display U
 
 # Multipurpose Control and Display Unit
 
-<link rel="stylesheet" href="/stylesheets/reported-issues.css">
-<link rel="stylesheet" href="/stylesheets/admonitions.css">
-
 ## Chapters
 
 !!! block ""

@@ -1,6 +1,5 @@
 # MCDU MENU: MCDU Menu Page
 
-<link rel="stylesheet" href="/stylesheets/admonition.css">
 ![MCDU MENU](../../assets/a32nx-briefing/mcdu/mcdu-mcdu-menu.png)
 
 ## Description

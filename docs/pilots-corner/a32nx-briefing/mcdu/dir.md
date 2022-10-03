@@ -1,6 +1,5 @@
 # DIR: Direct To page
 
-<link rel="stylesheet" href="/stylesheets/admonitions.css">
 ![DIR](../../assets/a32nx-briefing/mcdu/mcdu-dir-page.png){loading=lazy}
 
 ## Description

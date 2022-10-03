@@ -1,6 +1,5 @@
 # SEC F-PLN: Secondary Flight Plan Page
 
-<link rel="stylesheet" href="/stylesheets/admonitions.css">
 ![SEC F-PLN](../../assets/a32nx-briefing/mcdu/mcdu-sec-f-pln-page.png)
 
 !!! attention ""
