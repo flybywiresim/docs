@@ -83,3 +83,6 @@
     -webkit-mask-size: contain;
     mask-size: contain;
 }
+.md-typeset :is(.note)>:is(.admonition-title,summary):after {
+    color: #00E0FE;
+}
