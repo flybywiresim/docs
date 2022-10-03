@@ -113,11 +113,6 @@ plugins:
       - skip-lightbox
     auto_caption: false
     caption_position: bottom
-  # REMOVE THIS BEFORE MERGEING THE PR
-  social:
-    cards_color:
-      fill: "#171E2C"
-    cards_font: Manrope
 
 # Styling Front-end
 extra_css:
