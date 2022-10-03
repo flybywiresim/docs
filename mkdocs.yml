@@ -101,6 +101,18 @@ plugins:
         # Needed for URL within the A32NX aircraft
         # ########################################
         'telex.md': 'https://docs.flybywiresim.com/fbw-a32nx/feature-guides/flypados3/settings/#atsuaoc'
+  glightbox:
+    touchNavigation: true
+    loop: false
+    effect: zoom
+    width: 100%
+    height: auto
+    zoomable: true
+    draggable: true
+    skip_classes:
+      - skip-lightbox
+    auto_caption: false
+    caption_position: bottom
   # REMOVE THIS BEFORE MERGEING THE PR
   social:
     cards_color:

@@ -5,6 +5,7 @@ mkdocs-redirects
 mkdocs-exclude-search
 mkdocs-embed-external-markdown
 mkdocs-video
+mkdocs-glightbox
 mike
 pillow
 cairosvg
