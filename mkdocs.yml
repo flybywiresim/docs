@@ -37,7 +37,6 @@ theme:
 plugins:
   search:
     lang: en
-  tags: {}
   exclude-search:
     exclude:
       - pilots-corner/advanced-guides/flight-planning/fplan.md
@@ -50,6 +49,7 @@ plugins:
       - simbridge/coroute.md
       - simbridge/pdf-viewer.md
   awesome-pages: {}
+  tags: {}
   git-revision-date-localized:
     type: date
   external-markdown: {}
