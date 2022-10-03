@@ -1,0 +1,14 @@
+.md-typeset .admonition {
+  font-size: 0.64rem;
+}
+
+.md-typeset .admonition-title, .md-typeset summary {
+    background-color: rgba(68,138,255,.1);
+    border: none;
+    font-size: 0.7rem;
+    font-weight: 700;
+    margin: 0 -.6rem;
+    padding-bottom: .4rem;
+    padding-top: .4rem;
+    position: relative;
+}
