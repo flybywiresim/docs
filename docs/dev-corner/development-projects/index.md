@@ -1,3 +1,8 @@
+---
+title: FlyByWire Development Projects - Overview
+description: Selection of some of the various FlyByWire project and how to contribute.
+---
+
 <link rel="stylesheet" href="../../../stylesheets/toc-tables.css">
 
 # Overview

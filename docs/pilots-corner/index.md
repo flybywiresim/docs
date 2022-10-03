@@ -1,3 +1,8 @@
+---
+title: Pilot's Corner - Overview
+description: The Pilot's Corner is dedicated to guide users to learn how to operate and fly the FlyByWire A32NX aircraft.
+---
+
 <link rel="stylesheet" href="../../stylesheets/toc-tables.css">
 
 # Pilot's Corner Overview
@@ -15,7 +20,7 @@ This section is aimed at sim pilots of all levels and covers topics regarding fl
 ##  Topics
 
 | Featured List                                              |
-| :---                                                       |
+|:-----------------------------------------------------------|
 | [Beginner Guide](beginner-guide/overview.md)               |
 | [Advanced Guides](advanced-guides/overview.md)             |
 | [A320neo Pilot Briefing](a32nx-briefing/index.md)          |

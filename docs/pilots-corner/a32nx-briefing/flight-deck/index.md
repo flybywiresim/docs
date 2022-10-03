@@ -2,6 +2,8 @@
 hide:
     - toc
     - navigation
+title: A320 Flight Deck Overview
+description: The A320 Flight Deck Overview is providing a interactive graphical overview of the A320neo flight deck and its systems. 
 ---
 
 # Flight Deck Overview

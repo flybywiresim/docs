@@ -1,3 +1,8 @@
+---
+title: Development Corner - Overview
+description: The Development Corner is dedicated to provide information about the various FlyByWire projects and how to contribute.
+---
+
 <link rel="stylesheet" href="../../../stylesheets/toc-tables.css">
 
 # Development Corner Overview
@@ -9,7 +14,7 @@ This section of the FlyByWire Documentation is dedicated to the development aspe
 ## Quick Links
 
 | Topics                                      |
-| :----                                       |
+|:--------------------------------------------|
 | [Development Guide](dev-guide/index.md)     |
 | [Texture Changes](texture-changes.md)       |
 | [Scenery Developers](scenery-developers.md) |

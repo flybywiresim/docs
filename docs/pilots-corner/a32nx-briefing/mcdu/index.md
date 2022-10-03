@@ -1,5 +1,6 @@
 ---
-title: Multipurpose Control and Display Unit
+title: A320neo Pilot Briefing - MCDU
+description: FCOM-style documentation for the Multipurpose Control and Display Unit (MCDU).
 ---
 
 # Multipurpose Control and Display Unit

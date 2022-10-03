@@ -1,3 +1,8 @@
+---
+title: flyPadOS 2 EFB - Overview 
+description: A guide the flyPadOS 2 EFB used in the Stable version o fthe A32NX.
+---
+
 <link rel="stylesheet" href="../../../../stylesheets/efb-interactive.css">
 <link rel="stylesheet" href="../../../../stylesheets/toc-tables.css">
 

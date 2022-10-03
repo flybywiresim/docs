@@ -1,3 +1,8 @@
+---
+title:Flight Guidance in the A320 - Overview
+description: The flight management and guidance system (FMGS) performs navigation functions and lateral and vertical flight planning functions.
+---
+
 # Flight Guidance in the A320
 
 The flight management and guidance system (FMGS) performs navigation functions and lateral and vertical flight planning functions. It also computes performance parameters and guides the aircraft along a pre-planned route.
