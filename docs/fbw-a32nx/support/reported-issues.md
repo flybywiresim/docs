@@ -1,8 +1,6 @@
 # Reported Known Issues
 
 <link rel="stylesheet" href="/stylesheets/toc-tables.css">
-<link rel="stylesheet" href="/stylesheets/reported-issues.css">
-
 !!! error  "STOP - Read this First"
 
     Please try and remove all other mods/liveries from the community folder and test our add-on again. This will help rule out conflicts.

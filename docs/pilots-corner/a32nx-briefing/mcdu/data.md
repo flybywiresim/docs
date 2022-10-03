@@ -1,8 +1,6 @@
 # DATA: Data Index Page
 
 <link rel="stylesheet" href="/stylesheets/admonitions.css">
-<link rel="stylesheet" href="/stylesheets/reported-issues.css">
-
 !!! block ""
 
     ![DATA 1](../../assets/a32nx-briefing/mcdu/mcdu-data-1-page.png){loading=lazy align=center width=49%}
