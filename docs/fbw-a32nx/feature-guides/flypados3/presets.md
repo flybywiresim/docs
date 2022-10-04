@@ -185,142 +185,142 @@ complete the setup manually or simply click another preset (or the same) to be l
 
 ### Aircraft States Overview
 
-| State               | System                         |                                                     |
-|---------------------|--------------------------------|-----------------------------------------------------|
-| Cold & Dark         | All Systems Off                |                                                     |
-|                     |                                |                                                     |
-| POWERED_CONFIG_ON   | BAT1 On                        | // SOP: PRELIMINARY COCKPIT PREPARATION             |
-|                     | BAT2 On                        |                                                     |
-|                     | EXT PWR On                     |                                                     |
-|                     | APU Fire Test On               | // if no Ext Pwr is available we start the APU here |
-|                     | APU Fire Test Off              |                                                     |
-|                     | APU Master On                  |                                                     |
-|                     | APU Start On                   |                                                     |
-|                     | Waiting on AC BUS Availability |                                                     |
-|                     | Crew Oxy On                    | // SOP: COCKPIT PREPARATION                         |
-|                     | GND CTL On                     |                                                     |
-|                     | CVR Test On                    |                                                     |
-|                     | CVR Test Off                   |                                                     |
-|                     | ADIRS 1 Nav                    |                                                     |
-|                     | ADIRS 2 Nav                    |                                                     |
-|                     | ADIRS 3 Nav                    |                                                     |
-|                     | Strobe Auto                    |                                                     |
-|                     | Nav & Logo Lt On               |                                                     |
-|                     | SEAT BELTS On                  |                                                     |
-|                     | NO SMOKING Auto                |                                                     |
-|                     | EMER EXT Lt Arm                |                                                     |
-|                     | Waiting on FWC Initialization  |                                                     |
-|                     | Waiting...                     |                                                     |
-|                     | APU Fire Test On               | // APU fire test                                    |
-|                     | APU Fire Test Off              |                                                     |
-|                     | APU Master On                  | // After fire test we start the APU                 |
-|                     | APU Start On                   |                                                     |
-|                     | ENG 1 Fire Test On             | // ENG fire test                                    |
-|                     | ENG 1 Fire Test Off            |                                                     |
-|                     | ENG 2 Fire Test On             |                                                     |
-|                     | ENG 2 Fire Test Off            |                                                     |
-|                     | Waiting on APU Availability    |                                                     |
-|                     | APU Bleed On                   |                                                     |
-|                     |                                |                                                     | 
-| PUSHBACK_CONFIG_ON  | EXT PWR Off                    | // SOP: BEFORE PUSHBACK OR START                    |
-|                     | Beacon On                      |                                                     |
-|                     | FUEL PUMP 2 On                 |                                                     |
-|                     | FUEL PUMP 5 On                 |                                                     |
-|                     | FUEL PUMP 1 On                 |                                                     |
-|                     | FUEL PUMP 4 On                 |                                                     |
-|                     | FUEL PUMP 3 On                 |                                                     |
-|                     | FUEL PUMP 6 On                 |                                                     |
-|                     | COCKPIT DOOR LCK               |                                                     |
-|                     | Await ADIRS 1 Alignment        |                                                     |
-|                     | Await ADIRS 2 Alignment        |                                                     |
-|                     | Await ADIRS 3 Alignment        |                                                     |
-|                     | TAXI_CONFIG_ON                 |                                                     |
-|                     | ENG MODE SEL START             | // SOP: ENGINE START                                |
-|                     | ENG 2 ON                       |                                                     |
-|                     | Await ENG 2 AVAIL              |                                                     |
-|                     | ENG 1 ON                       |                                                     |
-|                     | Await ENG 1 AVAIL              |                                                     |
-|                     | ENG MODE SEL NORM              | // SOP: AFTER START                                 |
-|                     | APU Bleed Off                  |                                                     |
-|                     | APU Master Off                 |                                                     |
-|                     | Spoiler Arm                    |                                                     |
-|                     | Rudder Trim Reset              |                                                     |
-|                     | Flaps 1                        |                                                     |
-|                     | NOSE Lt Taxi                   | // SOP: TAXI                                        |
-|                     | RWY TURN OFF Lt L On           |                                                     |
-|                     | RWY TURN OFF Lt R On           |                                                     |
-|                     | PWS Auto                       |                                                     |
-|                     | Transponder On                 |                                                     |
-|                     | ATC ALT RPTG On                |                                                     |
-|                     | TCAS TRAFFIC ABV               |                                                     |
-|                     | Autobrake Max                  |                                                     |
-|                     | TERR ON ND Capt. On            |                                                     |
-|                     | T.O. Config                    |                                                     |
-|                     |                                |                                                     |
-| TAKEOFF_CONFIG_ON   | WX Radar On                    | // SOP: TAXI                                        |
-|                     | WX Radar Mode                  |                                                     |
-|                     | TCAS Switch TA/RA              | // SOP: BEFORE TAKEOFF                              |
-|                     | Strobe On                      |                                                     |
-|                     | Cabin Ready                    |                                                     |
-|                     | NOSE Lt Takeoff                | // SOP: TAKE OFF                                    |
-|                     | LL Lt L On                     |                                                     |
-|                     | LL Lt R On                     |                                                     |
-|                     |                                |                                                     |
-| TAKEOFF_CONFIG_OFF  | LL Lt L Off                    |                                                     |
-|                     | LL Lt R Off                    |                                                     |
-|                     | NOSE Lt Takeoff                |                                                     |
-|                     | Strobe Auto                    |                                                     |
-|                     | TCAS Switch TA/RA              |                                                     |
-|                     | WX Radar Mode                  |                                                     |
-|                     | WX Radar Off                   |                                                     |
-|                     |                                |                                                     |
-| TAXI_CONFIG_OFF     | TERR ON ND Capt. Off           |                                                     |
-|                     | Autobrake Off                  |                                                     |
-|                     | TCAS TRAFFIC ABV               |                                                     |
-|                     | ATC ALT RPTG Off               |                                                     |
-|                     | Transponder Off                |                                                     |
-|                     | PWS Off                        |                                                     |
-|                     | RWY TURN OFF Lt L Off          |                                                     |
-|                     | RWY TURN OFF Lt R Off          |                                                     |
-|                     | NOSE Lt Taxi                   |                                                     |
-|                     | Flaps 0                        |                                                     |
-|                     | Rudder Trim Reset              |                                                     |
-|                     | Spoiler Disarm                 |                                                     |
-|                     | ENG 1 Off                      |                                                     |
-|                     | ENG 2 Off                      |                                                     |
-|                     | ENG 1 N1 <3%                   |                                                     |
-|                     | ENG 2 N1 <3%                   |                                                     |
-|                     |                                |                                                     |
-| PUSHBACK_CONFIG_OFF | COCKPIT DOOR OP                |                                                     |
-|                     | FUEL PUMP 2 Off                |                                                     |
-|                     | FUEL PUMP 5 Off                |                                                     |
-|                     | FUEL PUMP 1 Off                |                                                     |
-|                     | FUEL PUMP 4 Off                |                                                     |
-|                     | FUEL PUMP 3 Off                |                                                     |
-|                     | FUEL PUMP 6 Off                |                                                     |
-|                     | Beacon Off                     |                                                     |
-|                     |                                |                                                     |
-| POWERED_CONFIG_OFF  | NO SMOKING Off                 |                                                     |
-|                     | EMER EXT Lt Off                |                                                     |
-|                     | GND CTL Off                    |                                                     |
-|                     | SEAT BELTS Off                 |                                                     |
-|                     | Strobe Off                     |                                                     |
-|                     | Nav & Logo Lt Off              |                                                     |
-|                     | Crew Oxy Off                   |                                                     |
-|                     | ADIRS 3 Off                    |                                                     |
-|                     | ADIRS 2 Off                    |                                                     |
-|                     | ADIRS 1 Off                    |                                                     |
-|                     | APU Bleed Off                  |                                                     |
-|                     | APU Master Off                 |                                                     |
-|                     | EXT PWR Off                    |                                                     |
-|                     | BAT2 Off                       |                                                     |
-|                     | BAT1 Off                       |                                                     |
-|                     | AC BUS Off Check               |                                                     |
-|                     | CVR Test Reset                 |                                                     |
-|                     | APU Fire Test Reset            |                                                     |
-|                     | ENG 1 Fire Test Reset          |                                                     |
-|                     | ENG 2 Fire Test Reset          |                                                     |
-|                     | FWC Init Reset                 |                                                     |
+| State               | System                         |                                                  |
+|---------------------|--------------------------------|--------------------------------------------------|
+| Cold & Dark         | All Systems Off                |                                                  |
+|                     |                                |                                                  |
+| POWERED_CONFIG_ON   | BAT1 On                        | SOP: PRELIMINARY COCKPIT PREPARATION             |
+|                     | BAT2 On                        |                                                  |
+|                     | EXT PWR On                     |                                                  |
+|                     | APU Fire Test On               | If no Ext Pwr is available we start the APU here |
+|                     | APU Fire Test Off              |                                                  |
+|                     | APU Master On                  |                                                  |
+|                     | APU Start On                   |                                                  |
+|                     | Waiting on AC BUS Availability |                                                  |
+|                     | Crew Oxy On                    | SOP: COCKPIT PREPARATION                         |
+|                     | GND CTL On                     |                                                  |
+|                     | CVR Test On                    |                                                  |
+|                     | CVR Test Off                   |                                                  |
+|                     | ADIRS 1 Nav                    |                                                  |
+|                     | ADIRS 2 Nav                    |                                                  |
+|                     | ADIRS 3 Nav                    |                                                  |
+|                     | Strobe Auto                    |                                                  |
+|                     | Nav & Logo Lt On               |                                                  |
+|                     | SEAT BELTS On                  |                                                  |
+|                     | NO SMOKING Auto                |                                                  |
+|                     | EMER EXT Lt Arm                |                                                  |
+|                     | Waiting on FWC Initialization  |                                                  |
+|                     | Waiting...                     |                                                  |
+|                     | APU Fire Test On               | APU fire test                                    |
+|                     | APU Fire Test Off              |                                                  |
+|                     | APU Master On                  | After fire test we start the APU                 |
+|                     | APU Start On                   |                                                  |
+|                     | ENG 1 Fire Test On             | ENG fire test                                    |
+|                     | ENG 1 Fire Test Off            |                                                  |
+|                     | ENG 2 Fire Test On             |                                                  |
+|                     | ENG 2 Fire Test Off            |                                                  |
+|                     | Waiting on APU Availability    |                                                  |
+|                     | APU Bleed On                   |                                                  |
+|                     |                                |                                                  | 
+| PUSHBACK_CONFIG_ON  | EXT PWR Off                    | SOP: BEFORE PUSHBACK OR START                    |
+|                     | Beacon On                      |                                                  |
+|                     | FUEL PUMP 2 On                 |                                                  |
+|                     | FUEL PUMP 5 On                 |                                                  |
+|                     | FUEL PUMP 1 On                 |                                                  |
+|                     | FUEL PUMP 4 On                 |                                                  |
+|                     | FUEL PUMP 3 On                 |                                                  |
+|                     | FUEL PUMP 6 On                 |                                                  |
+|                     | COCKPIT DOOR LCK               |                                                  |
+|                     | Await ADIRS 1 Alignment        |                                                  |
+|                     | Await ADIRS 2 Alignment        |                                                  |
+|                     | Await ADIRS 3 Alignment        |                                                  |
+|                     | TAXI_CONFIG_ON                 |                                                  |
+|                     | ENG MODE SEL START             | SOP: ENGINE START                                |
+|                     | ENG 2 ON                       |                                                  |
+|                     | Await ENG 2 AVAIL              |                                                  |
+|                     | ENG 1 ON                       |                                                  |
+|                     | Await ENG 1 AVAIL              |                                                  |
+|                     | ENG MODE SEL NORM              | SOP: AFTER START                                 |
+|                     | APU Bleed Off                  |                                                  |
+|                     | APU Master Off                 |                                                  |
+|                     | Spoiler Arm                    |                                                  |
+|                     | Rudder Trim Reset              |                                                  |
+|                     | Flaps 1                        |                                                  |
+|                     | NOSE Lt Taxi                   | SOP: TAXI                                        |
+|                     | RWY TURN OFF Lt L On           |                                                  |
+|                     | RWY TURN OFF Lt R On           |                                                  |
+|                     | PWS Auto                       |                                                  |
+|                     | Transponder On                 |                                                  |
+|                     | ATC ALT RPTG On                |                                                  |
+|                     | TCAS TRAFFIC ABV               |                                                  |
+|                     | Autobrake Max                  |                                                  |
+|                     | TERR ON ND Capt. On            |                                                  |
+|                     | T.O. Config                    |                                                  |
+|                     |                                |                                                  |
+| TAKEOFF_CONFIG_ON   | WX Radar On                    | SOP: TAXI                                        |
+|                     | WX Radar Mode                  |                                                  |
+|                     | TCAS Switch TA/RA              | SOP: BEFORE TAKEOFF                              |
+|                     | Strobe On                      |                                                  |
+|                     | Cabin Ready                    |                                                  |
+|                     | NOSE Lt Takeoff                | SOP: TAKE OFF                                    |
+|                     | LL Lt L On                     |                                                  |
+|                     | LL Lt R On                     |                                                  |
+|                     |                                |                                                  |
+| TAKEOFF_CONFIG_OFF  | LL Lt L Off                    |                                                  |
+|                     | LL Lt R Off                    |                                                  |
+|                     | NOSE Lt Takeoff                |                                                  |
+|                     | Strobe Auto                    |                                                  |
+|                     | TCAS Switch TA/RA              |                                                  |
+|                     | WX Radar Mode                  |                                                  |
+|                     | WX Radar Off                   |                                                  |
+|                     |                                |                                                  |
+| TAXI_CONFIG_OFF     | TERR ON ND Capt. Off           |                                                  |
+|                     | Autobrake Off                  |                                                  |
+|                     | TCAS TRAFFIC ABV               |                                                  |
+|                     | ATC ALT RPTG Off               |                                                  |
+|                     | Transponder Off                |                                                  |
+|                     | PWS Off                        |                                                  |
+|                     | RWY TURN OFF Lt L Off          |                                                  |
+|                     | RWY TURN OFF Lt R Off          |                                                  |
+|                     | NOSE Lt Taxi                   |                                                  |
+|                     | Flaps 0                        |                                                  |
+|                     | Rudder Trim Reset              |                                                  |
+|                     | Spoiler Disarm                 |                                                  |
+|                     | ENG 1 Off                      |                                                  |
+|                     | ENG 2 Off                      |                                                  |
+|                     | ENG 1 N1 <3%                   |                                                  |
+|                     | ENG 2 N1 <3%                   |                                                  |
+|                     |                                |                                                  |
+| PUSHBACK_CONFIG_OFF | COCKPIT DOOR OP                |                                                  |
+|                     | FUEL PUMP 2 Off                |                                                  |
+|                     | FUEL PUMP 5 Off                |                                                  |
+|                     | FUEL PUMP 1 Off                |                                                  |
+|                     | FUEL PUMP 4 Off                |                                                  |
+|                     | FUEL PUMP 3 Off                |                                                  |
+|                     | FUEL PUMP 6 Off                |                                                  |
+|                     | Beacon Off                     |                                                  |
+|                     |                                |                                                  |
+| POWERED_CONFIG_OFF  | NO SMOKING Off                 |                                                  |
+|                     | EMER EXT Lt Off                |                                                  |
+|                     | GND CTL Off                    |                                                  |
+|                     | SEAT BELTS Off                 |                                                  |
+|                     | Strobe Off                     |                                                  |
+|                     | Nav & Logo Lt Off              |                                                  |
+|                     | Crew Oxy Off                   |                                                  |
+|                     | ADIRS 3 Off                    |                                                  |
+|                     | ADIRS 2 Off                    |                                                  |
+|                     | ADIRS 1 Off                    |                                                  |
+|                     | APU Bleed Off                  |                                                  |
+|                     | APU Master Off                 |                                                  |
+|                     | EXT PWR Off                    |                                                  |
+|                     | BAT2 Off                       |                                                  |
+|                     | BAT1 Off                       |                                                  |
+|                     | AC BUS Off Check               |                                                  |
+|                     | CVR Test Reset                 |                                                  |
+|                     | APU Fire Test Reset            |                                                  |
+|                     | ENG 1 Fire Test Reset          |                                                  |
+|                     | ENG 2 Fire Test Reset          |                                                  |
+|                     | FWC Init Reset                 |                                                  |
 
 
 ## Quick Help
