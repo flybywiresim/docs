@@ -80,19 +80,27 @@ view and pin them, etc. See the list of controls below.
 
 ## Local Files
 
-!!! bug "Feature not yet available!"
-    Unfortunately this feature is not yet available. As soon as the required component has been released this page 
-    will be updated. 
-
-<!--
+<div style="position: relative;">
+    <img src="/fbw-a32nx/assets/flypados3/local-files-img-example.png" style="width: 100%; height: auto;" loading="lazy">
+    <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
+    <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
+    <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
+    <a href="../performance/"> <div class="imagemap" style="position: absolute; left: 1.7%; top: 28.3%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Performance</span></div></a>
+    <a href="../charts/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 35.6%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Navigation & Charts</span></div></a>
+    <a href="../online-atc/">  <div class="imagemap" style="position: absolute; left: 1.7%; top: 43.0%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Online ATC</span></div></a>
+    <a href="../failures/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 50.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Failures</span></div></a>
+    <a href="../checklists/">  <div class="imagemap" style="position: absolute; left: 1.7%; top: 57.3%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Checklists</span></div></a>
+    <a href="../presets/">     <div class="imagemap" style="position: absolute; left: 1.7%; top: 64.7%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Presets</span></div></a>
+    <a href="../settings/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 85.0%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Settings</span></div></a>
+    <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
+</div>
 
 ### FlyByWire SimBridge Required
 
-For accessing local files from the PC the FlyByWire SimBridge is required. It is currently being developed and will 
-allow access to local files from within the sim. This server is necessary as the sim itself does not allow access 
-to arbitrary files on the PC. 
+For accessing local files from the PC the FlyByWire SimBridge is required. This server is necessary as the sim 
+itself does not allow access to arbitrary files on the PC. 
 
-We will provide a detailed documentation for the FlyByWire SimBridge once it is available.
+See our documentation on how to install and configure the [SimBridge](../../../simbridge/index.md).
 
 <div style="position: relative;">
     <img src="/fbw-a32nx/assets/flypados3/local-files-establish-connection.png" style="width: 100%; height: auto;" loading="lazy">
@@ -111,13 +119,13 @@ We will provide a detailed documentation for the FlyByWire SimBridge once it is 
 
 ### Usage
 
-Local files (images, PDF) stored in a specific folder on the PC will be listed and can be opened similar to the 
-Navigraph charts. 
+Local files (images, PDF) stored in a specific folder (see below) on the PC will be listed and can be opened similar to 
+the Navigraph charts. 
 
-The controls are similar to the Navigraph chart view although there will not be a light and dark mode. 
+The controls are similar to the Navigraph chart view (see above) although there will not be a light and dark mode. 
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypados3//local-files-example.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/fbw-a32nx/assets/flypados3/local-files-example.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
@@ -131,7 +139,16 @@ The controls are similar to the Navigraph chart view although there will not be 
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
 
--->
+### Where to Store Local Files
+
+The local files need to be stored in the following folders:
+
+| Type   | Folder Location                               |
+|--------|-----------------------------------------------|
+| Images | `<SimBridge-Install-Folder>\resources\images` |
+| PDF    | `<SimBridge-Install-Folder>\resources\pdf`    |
+
+The feature does not support any subfolders (yet).
 
 ## Pinned Charts
 
