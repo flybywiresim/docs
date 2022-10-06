@@ -1,3 +1,8 @@
+---
+title: FlyByWire A32NX - Overview 
+description: This section is dedicated to the FlyByWire A32NX aircraft and its features.
+---
+
 <link rel="stylesheet" href="../../stylesheets/toc-tables.css">
 
 # FlyByWire A32NX Overview

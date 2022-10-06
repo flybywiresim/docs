@@ -1,8 +1,5 @@
 # PERF: Performance Page
 
-<link rel="stylesheet" href="/stylesheets/admonitions.css">
-<link rel="stylesheet" href="/stylesheets/reported-issues.css">
-
 ![PERF Page](../../assets/a32nx-briefing/mcdu/mcdu-perf-page.png "PERF Page"){loading=lazy}
 
 ## Description

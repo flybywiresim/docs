@@ -1,3 +1,8 @@
+---
+title: A32NX Advanced Guides - Overview
+description: The A32NX Advanced Guides provide additional information on how to operate the FlyByWire A32NX aircraft beyond the Beginner Guide.
+---
+
 <link rel="stylesheet" href="../../../stylesheets/toc-tables.css">
 
 # Overview

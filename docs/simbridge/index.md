@@ -1,3 +1,8 @@
+---
+title: SimBridge - Overview
+description: The SimBridge section is dedicated to documenting the setup and use of the FlyByWire SimBridge. 
+---
+
 <link rel="stylesheet" href="../../stylesheets/toc-tables.css">
 <style>
     .md-typeset h1 {

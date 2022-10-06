@@ -1,4 +1,20 @@
 /*Admonition Modifications*/
+
+/* Global Font Modifications*/
+.md-typeset .admonition-title, .md-typeset summary {
+    font-size: .8rem;
+    font-weight: inherit;
+}
+.md-typeset .admonition, .md-typeset details {
+    font-size: .8rem;
+}
+.md-typeset :is(.admonition,details) {
+    font-size: .8rem;
+}
+.md-typeset .admonition-title:before, .md-typeset summary:before {
+    transform: translateY(10%);
+}
+
 /*Upper Section*/
 .md-typeset .question>.admonition-title, .md-typeset .question>summary,
 .md-typeset .faq>.admonition-title, .md-typeset .faq>summary,

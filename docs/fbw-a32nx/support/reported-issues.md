@@ -1,8 +1,6 @@
 # Reported Known Issues
 
 <link rel="stylesheet" href="/stylesheets/toc-tables.css">
-<link rel="stylesheet" href="/stylesheets/reported-issues.css">
-
 !!! error  "STOP - Read this First"
 
     Please try and remove all other mods/liveries from the community folder and test our add-on again. This will help rule out conflicts.
@@ -69,7 +67,7 @@ TEMPLATE
 |:---------------------------------------------------------------------------------------|
 | [Commonly Reported Issues](#commonly-reported-issues)                                  |
 | [Solutions to Commonly Reported Issues](#solutions-to-commonly-reported-issues)        |
-| [FBW Installer Issues]((#fbw-installer-issues))                                        |
+| [FBW Installer Issues](#fbw-installer-issues)                                          |
 | [Incompatible and Problematic Add-Ons/Mods](#incompatible-and-problematic-add-onsmods) |
 
 ## Use the Browser's Search Function

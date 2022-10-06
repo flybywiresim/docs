@@ -2,6 +2,8 @@
 hide:
     - toc
     - navigation
+title: A320 Flight Deck Overview
+description: The A320 Flight Deck Overview is provides an interactive graphical overview of the A320neo flight deck and its systems. 
 ---
 
 # Flight Deck Overview
@@ -47,7 +49,7 @@ hide:
 </style>
 
 <div style="position: relative;">
-    <img src="/pilots-corner/assets/a32nx-briefing/Cockpit.png" style="width: 100%; height: auto;">
+    <img src="/pilots-corner/assets/a32nx-briefing/Cockpit.png" class="skip-lightbox" style="width: 100%; height: auto;">
     <!-- OVHD AFT -->
     <a href="/pilots-corner/a32nx-briefing/flight-deck/ovhd-aft/elt/"><div class="imagemap" style="position: absolute; left: 22.5%; top: 2.55%; width: 12.5%; height: 1.7%;"><span class="imagemapname">ELT Panel</span></div></a>
     <a href="/pilots-corner/a32nx-briefing/flight-deck/ovhd-aft/cockpit-door/"><div class="imagemap" style="position: absolute; left: 22.5%; top: 4.25%; width: 12.5%; height: 2.1%;"><span class="imagemapname">Cockpit Door Panel</span></div></a>
