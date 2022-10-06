@@ -1,6 +1,6 @@
 ---
 title: Development Corner - Overview
-description: The Development Corner is dedicated to provide information about the various FlyByWire projects and how to contribute.
+description: The Development Corner is dedicated to providing information about the various FlyByWire projects and how to contribute.
 ---
 
 <link rel="stylesheet" href="../../../stylesheets/toc-tables.css">

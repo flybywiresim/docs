@@ -1,6 +1,6 @@
 ---
 title: A32NX Beginner Guide - Overview
-description: The A32NX Beginner Guide is dedicated to guide users to learn how to operate and fly the FlyByWire A32NX aircraft.
+description: The A32NX Beginner Guide teaches users how to operate and fly the FlyByWire A32NX aircraft.
 ---
 
 <link rel="stylesheet" href="../../../stylesheets/toc-tables.css">

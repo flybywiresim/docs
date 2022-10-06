@@ -1,6 +1,6 @@
 ---
 title: SimBridge - Overview
-description: The SimBridge section is dedicated to document the setup and use of the FlyByWire SimBridge. 
+description: The SimBridge section is dedicated to documenting the setup and use of the FlyByWire SimBridge. 
 ---
 
 <link rel="stylesheet" href="../../stylesheets/toc-tables.css">

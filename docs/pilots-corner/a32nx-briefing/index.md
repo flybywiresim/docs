@@ -1,6 +1,6 @@
 ---
 title: A320neo Pilot Briefing - Overview
-description: The A320neo Pilot Briefing is providing Flight Crew Operations Manuals (FCOM) like documentation for the FlyByWire A32NX aircraft. 
+description: The A320neo Pilot Briefing provides Flight Crew Operations Manuals (FCOM) styled documentation for the FlyByWire A32NX aircraft.
 ---
 
 <link rel="stylesheet" href="../../../stylesheets/toc-tables.css">
