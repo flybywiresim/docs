@@ -1,5 +1,5 @@
 ---
-title:Flight Guidance in the A320 - Overview
+title: Flight Guidance in the A320 - Overview
 description: The flight management and guidance system (FMGS) performs navigation functions and lateral and vertical flight planning functions.
 ---
 
@@ -46,7 +46,7 @@ like this:
 
 ## Available Guidance Modes
 
-The following guidance modes are available and displayed in the PFD's FMA as either active or armed. See our [PFD FMA](../../a32nx-briefing//pfd/fma.md) documentation.
+The following guidance modes are available and displayed in the PFD's FMA as either active or armed. See our [PFD FMA](../../a32nx-briefing/pfd/fma.md) documentation.
 
 | Guidance | MANAGED                   | SELECTED       |
 |:---------|:--------------------------|:---------------|
