@@ -1,6 +1,6 @@
 ---
 title: Pilot's Corner - Overview
-description: The Pilot's Corner teaches users how to operate and fly the FlyByWire A32NX aircraft.
+description: The Pilot’s Corner contains guides for both novice and advanced users of the Airbus A320.
 ---
 
 <link rel="stylesheet" href="../../stylesheets/toc-tables.css">
