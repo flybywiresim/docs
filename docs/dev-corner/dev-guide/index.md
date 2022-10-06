@@ -1,6 +1,6 @@
 ---
 title: FlyByWire Development Guide - Overview
-description: The Development Corner is dedicated to providing information about the various FlyByWire projects and how to contribute.
+description: The Development Guide is dedicated to providing information to efficiently contribute to the A32NX project.
 ---
 
 <link rel="stylesheet" href="../../../stylesheets/toc-tables.css">
