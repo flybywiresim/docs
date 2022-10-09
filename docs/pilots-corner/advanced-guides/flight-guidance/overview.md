@@ -1,3 +1,8 @@
+---
+title: Flight Guidance in the A320 - Overview
+description: The flight management and guidance system (FMGS) performs navigation functions and lateral and vertical flight planning functions.
+---
+
 # Flight Guidance in the A320
 
 The flight management and guidance system (FMGS) performs navigation functions and lateral and vertical flight planning functions. It also computes performance parameters and guides the aircraft along a pre-planned route.
@@ -12,6 +17,8 @@ The primary flight plan is used for lateral guidance and automatically sequences
 
 Vertical guidance is available for TAKEOFF, CLIMB, CRUISE, DESCENT, and APPROACH phases of the flight plan. The flight planning capability lets the pilot enter published departure, arrival, and approach segments with individual pseudo waypoints that include speed/altitude constraints. These constraints, as well as the entered cruise altitude and cost index,
 define the vertical profile.
+
+See the detailed documentation for [Vertical Guidance](vertical-guidance/overview.md)
 
 ## Autopilot and Flight Director Modes
 
@@ -31,13 +38,15 @@ Selected Modes are activated by pulling the corresponding knob in the FCU.
 
 ### Pulling and Pushing Knobs in Microsoft Flight Simulator
 
-Using the legacy [Cockpit Interaction System](../../../fbw-a32nx/support/reported-issues.md#cockpit-interaction-system) you can push and pull knobs on the FCU like this:
+Using the legacy [Cockpit Interaction System](../../../fbw-a32nx/settings.md#legacy-cockpit-interaction-system) you can push and pull 
+knobs on the FCU 
+like this:
 
-![Pulling-knob](../../../fbw-a32nx/assets/flypad/Pulling-knob.png){loading=lazy width=30%}
+![Pulling-knob](../../assets/advanced-guides/flight/pulling-knob.png){loading=lazy width=30%}
 
 ## Available Guidance Modes
 
-The following guidancve modes are available and displayed in the PFD's FMA as either active or armed. See our [PFD FMA](../../a32nx-briefing//pfd/fma.md) documentation.
+The following guidance modes are available and displayed in the PFD's FMA as either active or armed. See our [PFD FMA](../../a32nx-briefing/pfd/fma.md) documentation.
 
 | Guidance | MANAGED                   | SELECTED       |
 |:---------|:--------------------------|:---------------|

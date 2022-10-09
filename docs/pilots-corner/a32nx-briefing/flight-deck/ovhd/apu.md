@@ -8,7 +8,7 @@
 
 ![APU Panel](../../../assets/a32nx-briefing/overhead-panel/Apu-Panel.jpg "APU Panel")
 
-!!! note "API Documentation: [APU Panel API](../../a32nx_api.md#apu-panel)"
+!!! note "API Documentation: [APU Panel API](../../../../fbw-a32nx/a32nx-api/a32nx-flightdeck-api.md#apu-panel)"
 
 ## Description
 

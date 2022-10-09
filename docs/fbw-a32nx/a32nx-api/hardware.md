@@ -14,7 +14,7 @@ Find the complete SPAD documentation for these controllers in this single file: 
 
 This profile is maintained by Cdr_Maverick#6475.
 
-To build your own profile you can use our Flight-Deck API Documentation: [Flight-Deck API](../../pilots-corner/a32nx-briefing/a32nx_api.md)
+To build your own profile you can use our Flight-Deck API Documentation: [Flight-Deck API](a32nx-flightdeck-api.md)
 
 ### Logitech Switch Panel
 
@@ -29,7 +29,7 @@ To build your own profile you can use our Flight-Deck API Documentation: [Flight
 ![thrustmaster-tca-quadrant.png](../assets/api-guide/thrustmaster-tca-quadrant.png){loading=lazy}
 
 !!! tip ""
-    Remember to calibrate you throttle detents for this throttle: [TCA Throttle Calibration](../feature-guides/flyPad/throttle-calibration.md#thrustmaster-tca-throttle)
+    Remember to calibrate you throttle detents for this throttle: [TCA Throttle Calibration](../feature-guides/flypados3/throttle-calibration.md#thrustmaster-tca-throttle)
 
 ### Thrustmaster TCA Throttle Add-On TCA Quadrant Add-on Airbus Edition
 
@@ -60,7 +60,7 @@ The rest of the buttons can be mapped as you require it.
 ![Thrustmaster TWCS Throttle](../assets/api-guide/thrustmaster-twcs-throttle.png "Thrustmaster TWCS Throttle"){loading=lazy}
 
 !!! tip ""
-    Remember to calibrate you throttle detents for this throttle: [TWCS Throttle Calibration](../feature-guides/flyPad/throttle-calibration.md#thrustmaster-twcs-throttle)
+    Remember to calibrate you throttle detents for this throttle: [TWCS Throttle Calibration](../feature-guides/flypados3/throttle-calibration.md#thrustmaster-twcs-throttle)
 
 The rest of the buttons can be mapped as you require it.
 

@@ -1,3 +1,8 @@
+---
+title: FlyByWire A32NX - Overview 
+description: This section is dedicated to the FlyByWire A32NX aircraft and its features.
+---
+
 <link rel="stylesheet" href="../../stylesheets/toc-tables.css">
 
 # FlyByWire A32NX Overview
@@ -27,7 +32,7 @@ WXR         Honeywell RDR-4000
 
 [Support Guide](support/index.md){ .md-button } [Reported Issues](support/reported-issues.md){ .md-button } [Feature Guides](feature-guides/index.md){ .md-button }
 
-[Throttle Calibration Guide](feature-guides/flyPad/throttle-calibration.md){ .md-button }
+[Throttle Calibration Guide](feature-guides/flypados3/throttle-calibration.md){ .md-button }
 
 ##  Topics
 

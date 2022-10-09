@@ -41,7 +41,8 @@ When inputting your flight plan into the MCDU, discontinuities appearing is an i
 
 ## Payload Management
 
-In order to configure your aircraft we have provided options onboard the aircraft to load fuel (via the EFB) and passengers / baggage (via the MCDU). Please see the following page and note any advisories.
+In order to configure your aircraft we have provided options onboard the aircraft to load fuel and passengers / baggage. Please be aware there may be differences 
+between the Stable version and Development versions. See the following page and note any advisories.
 
 [Fuel and Weights](../../fbw-a32nx/feature-guides/loading-fuel-weight.md){.md-button}
 
@@ -49,4 +50,4 @@ In order to configure your aircraft we have provided options onboard the aircraf
 
 To help with navigation during your flight our flyPad EFB can connect to your Navigraph account to provide access to all the enroute charts for your flight!
 
-[EFB Navigraph](../../fbw-a32nx/feature-guides/flyPad/charts.md){.md-button}
+[EFB Navigraph](../../fbw-a32nx/feature-guides/flypados3/charts.md){.md-button}

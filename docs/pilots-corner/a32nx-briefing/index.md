@@ -1,3 +1,8 @@
+---
+title: A320neo Pilot Briefing - Overview
+description: The A320neo Pilot Briefing provides Flight Crew Operations Manuals (FCOM) styled documentation for the FlyByWire A32NX aircraft.
+---
+
 <link rel="stylesheet" href="../../../stylesheets/toc-tables.css">
 
 # A320neo Pilot Briefing
@@ -19,14 +24,14 @@ but are omitted in this briefing.
 
 ##  Topics
 
-| Quick Links                           |
-| :-----                                |
-| [Flight-Deck](flight-deck/index.md)   |
-| [Flight-Deck A32NX API](a32nx_api.md) |
-| [ECAM](ecam/index.md)                 |
-| [PFD](pfd/index.md)                   |
-| [ND](nd/index.md)                     |
-<!--- [MCDU](mcdu/index.md)-->
+| Quick Links                                                                |
+|:---------------------------------------------------------------------------|
+| [Flight-Deck](flight-deck/index.md)                                        |
+| [Flight-Deck A32NX API](../../fbw-a32nx/a32nx-api/a32nx-flightdeck-api.md) |
+| [ECAM](ecam/index.md)                                                      |
+| [PFD](pfd/index.md)                                                        |
+| [ND](nd/index.md)                                                          |
+| [MCDU](mcdu/index.md)                                                      |
 
 ---
 

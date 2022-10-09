@@ -11,7 +11,7 @@ This guide shall help you how to identify and solve these issues by guiding you 
 ##  Index
 
 | Quick Links                                                                |
-| :----                                                                      |
+|:---------------------------------------------------------------------------|
 | 1. [Learn how to fly the A32NX](#1-learn-how-to-fly-the-a32nx)             |
 | 2. [How to Troubleshoot](#2-how-to-troubleshoot)                           |
 | 3. [Research Known Issues](#3-research-known-issues)                       |

@@ -1,3 +1,8 @@
+---
+title: FlyByWire A32NX API - Overview
+description: This section is aimed at sim pilots who want to use external hardware or software to connect to the FlyByWire A32NX.
+---
+
 # FlyByWire A32NX API
 
 This section is aimed at sim pilots who want to use external hardware or software to connect to the FlyByWire A32NX to read values and control the aircraft.
@@ -44,7 +49,7 @@ The mentioned software solutions would then enable the user to map a hardware la
 
 The FlyByWire A32NX also requires specific variables to control its advanced features. The documentation for these variables and events can be found here:
 
-Flight-Deck Documentation: [Flight-Deck API](../../pilots-corner/a32nx-briefing/a32nx_api.md)
+Flight-Deck Documentation: [Flight-Deck API](a32nx-flightdeck-api.md)
 
 Developer Documentation: [A32NX API Documentation](lvars-events.md)
 

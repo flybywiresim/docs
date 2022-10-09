@@ -4,7 +4,7 @@ The A320 flight management system defines a set of flight phases each flight wil
 
 It is important to understand these flight phases as they have an impact on planning a flight as well as on the lateral and vertical guidance of the aircraft.
 
-![FLight Phases](../../fbw-a32nx/assets/flypad/flight-phases.png "FLight Phases")
+![FLight Phases](../assets/advanced-guides/flight-phases/flight-phases.png "FLight Phases")
 
 The most prominent place where these phases become visible are the MCDU PERF pages where all phases, apart from PREFLIGHT and DONE, have their own page.
 
@@ -18,9 +18,9 @@ Flight planning and performance planning happen during this phase.
 
 The TAKEOFF phase starts when applying take off thrust (FLX or TOGA) and extends until reaching the acceleration altitude.
 
-Autopilot can be engaged at 100ft above ground or 5 seconds ofter takeoff, whichever is later.
+Autopilot can be engaged at 100ft above ground or 5 seconds after takeoff, whichever is later.
 
-At thrust reduction altitude the thrust levers are normally set in the climb thurst detent (CL detent). The FMGC is in managed mode at this point guiding the aircraft vertically and laterally along the flight plan.
+At thrust reduction altitude the thrust levers are normally set in the climb thrust detent (CL detent). The FMGC is in managed mode at this point guiding the aircraft vertically and laterally along the flight plan.
 
 ## CLIMB Phase
 

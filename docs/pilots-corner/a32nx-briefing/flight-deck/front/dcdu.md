@@ -8,7 +8,7 @@
 
 ![Datalink Ctl and Display Unit](../../../assets/a32nx-briefing/front/DCDU.png "Datalink Ctl and Display Unit")
 
-!!! note "API Documentation: [DCDU Panel API](../../a32nx_api.md#dcdu)"
+!!! note "API Documentation: [DCDU Panel API](../../../../fbw-a32nx/a32nx-api/a32nx-flightdeck-api.md#dcdu)"
 
 ## Description
 

@@ -97,7 +97,7 @@ The following conditions will apply:
 - Longitudinal modes previously armed will automatically be disarmed except ALT^*^
     - This prevents the aircraft from exceeding a commanded altitude / prevent excursions
     - In this type of RA, a V/S of 0 ft/min is always within the safe zone to prevent commanded altitude excursions allowing for TCAS to reach a targeted flight level if capture conditions are met. Sample scenario:
-    ![tcas level off](assets/tcas-level-ra.png)
+    ![tcas level off](../../assets/advanced-guides/flight/tcas-level-ra.png)
 - To ensure a safe speed during any maneuvers A/THR will engage SPEED/MACH
 
 ### RA Pilot Actions
@@ -130,7 +130,7 @@ As soon as the threat upgrades to an RA, TCAS will engage and provide corrective
 
     **AP Disengaged / FD Engaged**
 
-    TCAS mode will be engaged and supercede the flight directory guidance. Flight crews should ensure they are centered on the pitch bar and bring the vertical speed of the aircraft into the green zone indicated on the vertical speed indicator on the PFD.
+    TCAS mode will be engaged and supersede the flight directory guidance. Flight crews should ensure they are centered on the pitch bar and bring the vertical speed of the aircraft into the green zone indicated on the vertical speed indicator on the PFD.
 
     ---
 
@@ -194,7 +194,7 @@ As a conflict occurs and the AP/FD TCAS system kicks in typically you will see:
 
     This is an example of the PFD's vertical speed indicator during a TCAS RA. It showcases a corrective measure to "descend" the aircraft to prevent a collision. These zones can also indicate a positive vertical speed change in the case of a corrective measure to "climb".
 
-    There are two notable indiations in this example. 
+    There are two notable indications in this example. 
 
     - <span style=color:green>Green Zone</span> which indicates the proper and safe vertical speed during the TCAS maneuver.
     - <span style=color:red>Red Zone</span> which indicates a forbidden vertical speed during the TCAS maneuver.
@@ -229,7 +229,7 @@ The following table includes a list of auditory messages when a TA/RA is detecte
 |      Climb, Crossing Climb<br>(twice)      | *See above*. Additionally indicates you are crossing the altitude of the intruder.                       |
 |         Increase Climb<br>(twice)          | Warning is played after CLIMB warning when vertical speed is still insufficient.                         |
 |              Descend Descend               | Perform descent indicated in the green zone on the VSI.                                                  |
-|    Decend, Crossing Descend<br>(twice)     | *See above*. Additionally indicates you are crossing the altitude of the intruder.                       |
+|    Descend, Crossing Descend<br>(twice)     | *See above*. Additionally indicates you are crossing the altitude of the intruder.                       |
 |        Increase Descend<br>(twice)         | Warning is played after DESCEND warning when vertical speed is still insufficient.                       |
 |            Level off, Level off            | Set vertical speed to 0.                                                                                 |
 |         Climb Climb Now<br>(twice)         | Warning is played after DESCEND warning when the trajectory of the intruder has changed.                 |

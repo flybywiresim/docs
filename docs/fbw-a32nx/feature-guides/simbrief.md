@@ -33,21 +33,19 @@ This is why FlyByWire has implemented our simBrief integration and will continue
 
 This is best explained by simBrief itself - [simBrief User Guide](https://www.simbrief.com/system/guide.php){target=new}
 
-
-
 ---
 
 ## Using the flyPad simBrief Integration
 
 ### Setup A32NX simBrief Integration
 
-The simbrief username needs to configured in the flyPad EFB. See [Setup simBrief Integration](flyPad/settings.md#simbrief-integration)
+The simbrief username needs to configured in the flyPad EFB. See [Setup simBrief Integration](flypados3/settings.md#simbrief-integration)
 
 ### Importing the simBrief OFP to the flyPad
 
-See [flyPad Guide - Load from simBrief](flyPad/dashboard.md#load-from-simbrief)
+See [flyPad Guide - Load from simBrief](flypados3/dashboard.md#load-from-simbrief)
 
-See [flyPad Guide - OFP](flyPad/dispatch.md#ofp-page) on how to view the simBrief Operational Flight Plan.
+See [flyPad Guide - OFP](flypados3/dispatch.md#ofp-page) on how to view the simBrief Operational Flight Plan.
 
 See [Fuel and Weight](loading-fuel-weight.md) on how to load fuel and payload.
 
@@ -71,7 +69,7 @@ This portion of the guide assumes that you understand how to generate a simBrief
 
     If setting is not enabled the import function may only populate the departure and arrival airports into the flight page on the MCDU.
 
-#### ^^Request Data from simBrief^^
+#### Request Data from simBrief
 
 * Return to `MCDU MENU`
 * Click on `ATSU`
@@ -83,7 +81,7 @@ This portion of the guide assumes that you understand how to generate a simBrief
 
 This will prepare the MCDU to input the flight plan.
 
-#### ^^Initialize Flight Plan^^
+#### Initialize Flight Plan
 
 !!! warning "IMPORTANT"
     Do not select an arrival airport on the MSFS world menu or flight planner. Doing this "initializes" the `FROM/TO` field when loading into your flight removing the INIT REQ. option from the `INIT A` page.

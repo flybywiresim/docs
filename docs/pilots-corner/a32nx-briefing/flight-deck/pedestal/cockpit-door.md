@@ -8,7 +8,7 @@
 
 ![Cockpit Door Panel](../../../assets/a32nx-briefing/pedestal/Cockpit-Door-Panel.jpg "Cockpit Door Panel")
 
-!!! note "API Documentation: [Cockpit Door Panel](../../a32nx_api.md#cockpit-door)"
+!!! note "API Documentation: [Cockpit Door Panel](../../../../fbw-a32nx/a32nx-api/a32nx-flightdeck-api.md#cockpit-door)"
 
 ## Description
 

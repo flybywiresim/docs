@@ -8,7 +8,7 @@
 
 ![Exterior Lighting](../../../assets/a32nx-briefing/overhead-panel/Exterior-Lighting-Panel.jpg "Exterior Lighting")
 
-!!! note "API Documentation: [EXT LT Panel API](../../a32nx_api.md#external-lights-panel)"
+!!! note "API Documentation: [EXT LT Panel API](../../../../fbw-a32nx/a32nx-api/a32nx-flightdeck-api.md#external-lights-panel)"
 
 ## Description
 

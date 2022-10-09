@@ -8,7 +8,7 @@
 
 ![Instrument Lighting Control Panel](../../../assets/a32nx-briefing/front/ilcp.jpg "Instrument Lighting Control Panel")
 
-!!! note "API Documentation: [ILCP Panel API](../../a32nx_api.md#instrument-lighting-control-panel)"
+!!! note "API Documentation: [ILCP Panel API](../../../../fbw-a32nx/a32nx-api/a32nx-flightdeck-api.md#instrument-lighting-control-panel)"
 
 ## Description
 

@@ -12,7 +12,10 @@ This guide will help you prepare the MCDU in the A32NX for your departure. It in
     You will find many great videos on YouTube on how to fly the FlyByWire A32NX.<br/>
     Check out the FlyByWire YouTube Channel as well: [FlyByWire on YouTube](https://www.youtube.com/c/FlyByWireSimulations/playlists){target=new}
 
-The simBrief route used in this guide
+The simBrief route used in this guide:
+
+!!! tip "AIRAC Updates"
+    Please note we may update this OFP and guide from time to time to ensure it's current with the latest AIRAC provided by the simulator or external navdata.
 
 [Download simBrief OFP](../assets/beginner-guide/mcdu/sample-ofp.pdf){ .md-button }
 
@@ -133,6 +136,13 @@ DATA includes the pages below:
 
 ### **^^I^^**NIT A
 
+!!! warning "Automatic OFP Imports via INIT REQUEST"
+    Please note that the `INIT REQUEST` option will **not** appear if you have selected both a departure and arrival on the MSFS world menu before loading into your flight.
+
+    For more information and a guide to our simBrief A32NX features visit the page below:
+
+    [FMS (MCDU) and simBrief Integration](../../fbw-a32nx/feature-guides/simbrief.md#using-the-fms-mcdu-and-simbrief-integration){ .md-button }
+
 ^^FROM/TO Field^^
 
   * Using the keypad type in `EGFF/EGCC`
@@ -177,7 +187,7 @@ Our route for this flight can be found on the 2nd page of the OFP
 
 ![ofp3](../assets/beginner-guide/mcdu/ofp3.png){loading=lazy}
 
-`EGFF/30 BCN1A BCN N864 MONTY MIRSI1A EGCC/05R`
+`EGFF/30 BCN1A BCN N864 OKTEM OKTEM1M EGCC/23R`
 
 ^^Inputting a SID^^
 
@@ -211,14 +221,14 @@ Our flight plan should now have the associated waypoints for the `BCN1A` SID. We
 * Press the LSK that matches the location of `BCN` on the MCDU screen.
 * Select `AIRWAYS` using LSK5R.
 * Using the keypad type in `N864` *(the airway)* and press LSK1L.
-* Using the keypad type in `MONTY` *(waypoint)* and press LSK1R.
+* Using the keypad type in `OKTEM` *(waypoint)* and press LSK1R.
     * Remember: Airways are on the left and waypoints are on the right.
 
 ![mcdu10](../assets/beginner-guide/mcdu/mcdu10.png){loading=lazy}
 
 ^^Planning the Arrival^^
 
-For the purposes of this guide we will preplan our arrival into EGCC via the `MIRSI1A` STAR into 05R.
+For the purposes of this guide we will pre-plan our arrival into EGCC via the `OKTEM1M` STAR into 23R.
 
 !!! info "STAR"
     Standard Terminal Arrival Route
@@ -232,10 +242,9 @@ Find `EGCC` in green in flight plan OR select `EGCC` in white under `DEST` using
 * Select `ARRIVAL` using LSK1R
     * We will be shown the approaches available designated by `Type` `Rwy`.
     * For this guide we will shoot for an ILS to keep it simple.
-* Use the vertical slew keys to find `ILS05R` and select it using the corresponding LSK.
-* Again use the vertical slew keys to find the STAR for this flight `MIRSI1A` and select it using the corresponding LSK.
+* Use the vertical slew keys to find `ILS23R` and select it using the corresponding LSK.
+* Again use the vertical slew keys to find the STAR for this flight `OKTEM1M` and select it using the corresponding LSK.
 * We won't have any vias for this flight. Select `NO VIAS` using LSK2L. On the following page we can choose transitions if available, but for this flight we don't.
-    * *Note:* Due to the default MSFS flight plan manager we maybe directed to proceed via the `MCT` waypoint anyways for the arrival.
 * Insert this STAR into the flight plan using LSK6R.
 
 ![mcdu12](../assets/beginner-guide/mcdu/mcdu12.png){loading=lazy}
@@ -281,15 +290,16 @@ When selecting the SID earlier in the flight plan section, the A32NX should have
 
 Our departure runway is EGFF/30 (runway 30) which has a frequency of `110.7`. When inputting a frequency and we are in range of the ILS it will auto populate the indentifier and course. There is no need to fill these fields.
 
-* Using the keypad type in `110.7` and press LSK3 to input it.
+* Using the keypad type in `110.7` and press LSK3L to input it.
 
 ^^Arrival ILS^^
 
 With an ILS or LOC approach selected, the arrival ILS frequency should be automatically tuned correctly whenever the aircraft is at climb phase or greater and within 250 NM of destination. **Ensure** that we verify the ILS frequency when we reach the arrival phase of the flight - see [Approach and Landing (ILS)](landing.md).
 
-Remember our arrival airport/rwy is `EGCC/05R` with ILS05R having a frequency of `111.55`. When inputting a frequency and we are in range of the ILS it will auto populate the indentifier and course. There is no need to fill these fields.
+Remember our arrival airport/rwy is `EGCC/23R` with ILS23R having a frequency of `109.5`. When inputting a frequency and we are in range of the ILS it will auto populate the 
+indentifier and course. There is no need to fill these fields.
 
-* Using the keypad type in `111.55` and press LSK3 to input it.
+* Using the keypad type in `109.5` and press LSK3L to input it.
 
 ![mcdu15](../assets/beginner-guide/mcdu/mcdu15.png){loading=lazy}
 
@@ -303,10 +313,15 @@ To navigate to the `INIT FUEL PRED` page we first have to select the `INIT` butt
 
 On this page, we can input our zero fuel weight (ZFW) and zero fuel weight center of gravity (ZFWCG).
 
-!!! warning "Important Info"
+!!! warning "Important Info - FMS Gross Weight (FMS GW)"
     Fuel and payload have to be set in the aircraft (see link below) and passenger boarding has to be complete for the ZFW/ZFWCG to be correct.
 
-    Please see our [Fuel and Weights Guide](../../fbw-a32nx/feature-guides/loading-fuel-weight.md) for more information.
+    Gross Weight (GW) value on the ECAM will appear only when certain conditions are satsified:
+
+    - This page (INIT FUEL PRED) has a ZFW/ZFWCG value. **Reminder:** After engines are started INIT FUEL PRED changes to the FUEL PRED page.
+    - At least one engine is running.
+
+    Please see our [Fuel and Weights Guide](../../fbw-a32nx/feature-guides/loading-fuel-weight.md) for more detailed information.
 
 The A32NX can auto populate this information.
 
@@ -321,7 +336,7 @@ Now we can add our fuel on board (FOB). The amount we input in this field can be
 
 !!! info "Loading Fuel"
 
-    Via the EFB - [Learn How](../../fbw-a32nx/feature-guides/flyPad/dispatch.md#fuel-page)
+    Via the EFB - [Learn How](../../fbw-a32nx/feature-guides/flypados3/dispatch.md#fuel-page)
 
 ^^ECAM FOB^^
 
@@ -384,7 +399,9 @@ For this flight we will be taking off with a `1+F` flaps configuration.
     While not *realistic or accurate*, you can insert a THS value based on the ZFWCG values found in the following areas in the MCDU:
 
     - Auto populated when entering information in the [INIT FUEL PRED](#init-fuel-pred) page
-    - ZFWCG value on the [W&B page](../../fbw-a32nx/feature-guides/loading-fuel-weight.md#load-ofp-payload-info) in the AOC Menu.
+    - **Stable**: ZFWCG value on the [W&B page](../../fbw-a32nx/feature-guides/loading-fuel-weight.md#load-ofp-payload-info) in the AOC Menu.
+    - **Development**: ZFWCG value on the EFB found on the [Payload Tab on the Grounds Services Page](../../fbw-a32nx/feature-guides/loading-fuel-weight.
+    md#finding-the-payload-screen).
 
     Make sure to update this value or set the correct trim once your engines have started.
 

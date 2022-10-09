@@ -8,7 +8,7 @@
 
 ![Integrated Standby Instrument System](../../../assets/a32nx-briefing/front/ISIS.jpg "Integrated Standby Instrument System")
 
-!!! note "API Documentation: [ISIS Panel](../../a32nx_api.md#isis)"
+!!! note "API Documentation: [ISIS Panel](../../../../fbw-a32nx/a32nx-api/a32nx-flightdeck-api.md#isis)"
 
 ## Description
 

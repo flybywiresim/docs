@@ -1,0 +1,8 @@
+INHERIT: mkdocs.yml
+
+# on production only
+plugins:
+  social:
+    cards_color:
+      fill: "#171E2C"
+    cards_font: Manrope

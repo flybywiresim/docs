@@ -9,5 +9,7 @@ nav:
     - fixinfo.md
     - leg-types.md
     - disco.md
+    - direct.md
+    - holds.md
 #    - Flight Plan: fplan.md
 #    - ...

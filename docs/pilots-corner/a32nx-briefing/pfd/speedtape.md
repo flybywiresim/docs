@@ -53,16 +53,15 @@ This speed is V~MO~ (maximum operating speed) + 6 knots or M~MO~ (maximum Mach s
 
 ### ECON Speed Range
 
-This appears in descent mode with ECON/AUTO SPD mode active. Two half triangles will represent the upper and lower limits calculated by the FMGC. This replaces the target speed symbol.
+This appears in descent mode with ECON/AUTO SPD mode active. Two magenta half triangles will represent the upper and 
+lower limits calculated by the FMGC. This replaces the target speed symbol.
 
-The upper speed is equal to the target speed + 20 knots, limited to V~MAX~, V~MO~ - 3 knots or M~MO~ - 0.006, whichever is the lowest.
+The upper speed is equal to the target speed + 20 knots, limited to V~MAX~, V~MO~ - 3 knots or M~MO~ - 0.006, 
+whichever is the lowest.
 
 If a speed constraint or limit applies then the upper margin is limited to ECON SPD + 5kts.
 
 The lower speed margin is the target speed - 20 knots. It is limited to green dot, F, S or V~LS~ speeds, whichever is higher.
-
-!!! attention ""
-    Currently not available for the FBW A32NX for Microsoft Flight Simulator
 
 ### Minimum Selectable Speed (V~LS~)
 

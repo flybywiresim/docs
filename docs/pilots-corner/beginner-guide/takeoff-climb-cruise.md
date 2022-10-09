@@ -302,7 +302,7 @@ The aircraft will now climb to the altitude selected in the FCU (in our case 5.0
 
 **Activate the __Autopilot__ at this point by pressing the AP1 button on the FCU.**
 
-![Autopilot and Autothurst buttons](../assets/beginner-guide/takeoff-climb-cruise/AP1.png "Autopilot and Autothurst buttons"){loading=lazy}
+![Autopilot and Autothrust buttons](../assets/beginner-guide/takeoff-climb-cruise/AP1.png "Autopilot and Autothurst buttons"){loading=lazy}
 
 The FMA now shows AP1 in white in the upper right corner.
 
@@ -370,8 +370,16 @@ Thrust level is `THR CLB`, vertical mode is `CLB` (ALT mode armed), lateral mode
 
 Typically, the climb to the flight plan's cruise level (e.g., FL210) happens in several steps (step climbs). Each to be instructed and cleared by ATC.
 
+!!! warning "Using V/S"
+    It is not recommended to use V/S for climbing or descending in the A320 (at least not for beginners) as the V/S
+    guidance has priority over the speed guidance and speed needs to be watched very closely when using V/S.
+    <p/>
+    If the selected target V/S is too high (relative to the current thrust condition and speed), the FMGC will steer the aircraft to the target V/S, but the aircraft will also accelerate or decelerate. When the speed reaches its authorized limit, V/S automatically decreases to maintain the minimum or maximum speed limit.
+    <p/>
+    See also [Protections](../advanced-guides/protections/overview.md).
+
 **Passing 10,000ft**<br/>
-Turn off landing lights and when the aircraft is stable (weather, no turn, etc.) you can turn off the seatbelt signs. The aircraft will now accelerate to CLB speed (defined in `MCDU PERF CLB` page).
+Turn off and retract the landing lights and when the aircraft is stable (weather, no turn, etc.) you can turn off the seatbelt signs. The aircraft will now accelerate to CLB speed (defined in `MCDU PERF CLB` page).
 
 **Repeat the climb process above until cruise level (e.g. FL240) is reached.**
 

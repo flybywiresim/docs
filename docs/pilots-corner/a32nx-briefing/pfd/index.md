@@ -1,3 +1,8 @@
+---
+title: A320neo Pilot Briefing - PFD
+description: FCOM-style interactive documentation for the Primary Flight Display (PFD).
+---
+
 <link rel="stylesheet" href="../../../../stylesheets/pfd-interactive.css">
 <link rel="stylesheet" href="../../../stylesheets/toc-tables.css">
 

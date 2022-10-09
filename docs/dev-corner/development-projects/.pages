@@ -1,6 +1,8 @@
 title: FlyByWire Projects
 nav:
-    - index.md
-    - Website Project: website.md
+    - Overview: index.md
     - Documentation Project: documentation.md
+    - Website Project: website.md
+    - Discord Bot: discord-bot.md
+    - Advanced Cockpit Emulator: ace.md
     - ...

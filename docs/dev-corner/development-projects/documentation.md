@@ -31,28 +31,52 @@ To participate in the FlyByWire Documentation Project you need to have following
     - MkDocs ([MkDocs](https://www.mkdocs.org/){target=new})
     - mkdocs-awesome-pages-plugin
     - mkdocs-git-revision-date-localized-plugin
-    - mkdocs-material
     - mkdocs-redirects
+    - mkdocs-exclude-search
+    - mkdocs-embed-external-markdown
+    - mkdocs-video
+    - mike
+    - pillow
+    - cairosvg
 - Install with this single line command:
 
-    ```
+    ```title="Run In Terminal"
     pip install -r requirements.txt
     ```
+!!! info "Pillow + Cairo Dependency"
+    As part of the new social card feature released with `mkdocs-material 8.5.0` [Pillow](https://pillow.readthedocs.io/) and [Cairo Graphics](https://www.cairographics.org/) 
+    dependencies were added. We bundle this as part of our `requirements.txt` to ensure the dependeices are installed when attempting to test [social cards locally](#social-cards-feature). If you encounter any issues with these python packages:
+
+    - Install [GTK+](https://www.gtk.org/docs/installations/windows/) for Windows.
+
+    For more information including other operating systems refer to the [Social Card Dependencies](https://squidfunk.github.io/mkdocs-material/setup/setting-up-social-cards/#dependencies) Section on the `mkdocs-material` documentation.
 
 - Editor / IDE:
     - Recommended: [Microsoft Visual Studio Code](https://code.visualstudio.com/docs#vscode){target=new}
         - recommended plugins to work with markdown:
             - any markdown helper plugin - e.g. [https://github.com/yzhang-gh/vscode-markdown](https://github.com/yzhang-gh/vscode-markdown)
-            - especially ofr tables: [https://github.com/takumisoft68/vscode-markdown-table](https://github.com/takumisoft68/vscode-markdown-table)
+            - especially for tables: [https://github.com/takumisoft68/vscode-markdown-table](https://github.com/takumisoft68/vscode-markdown-table)
     - Or any [Jetbrains](https://www.jetbrains.com/) IDE, e.g. IntelliJ IDEA or Clion.
     - Or any text editor (even Notepad.exe will do) in conjunction with [stackedit.io](https://stackedit.io/){target=new} - Create and edit markdown on the web. Useful if you don't have / can't setup MkDocs locally on your machine. Does not support material references. Please note this in your PR so a maintainer can double check your references render appropriately.
+
+#### Social Cards Feature
+
+!!! danger "Important Information"
+    For general purposes you do not need to test or utilize this feature locally unless you want to develop or change configurations related to this feature. Please be aware of
+    the information below if you intend to test this locally.
+
+We have added the social cards feature to the FBW documentation project. When generating the social cards locally, the directory `.cache` is created where all the assets are
+generated. See [Complete Local Builds](#complete-local-builds).
+
+You may need to manually clean any files within the `.cache` directory if you encounter any build issues after generating / modifying configuration files related to this 
+feature.
 
 ### Process
 
 #### Preview your Local Clone
 
 - Fork the [:fontawesome-brands-github:{: .github } -  **Documentation Project Github**](https://github.com/flybywiresim/docs){target=new} ([How to fork a repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo){target=new}).
-- Create a local clone ([How to cloning your forked repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo#cloning-your-forked-repository){target=new}).
+- Create a local clone ([How to clone your forked repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo#cloning-your-forked-repository){target=new}).
 - Checkout the "primary" branch - this is the main branch of the current FlyByWire Documentation Project.
 - In a command line terminal go to the cloned repository folder and start `mkdocs.exe serve` to start the local preview server.
 
@@ -70,7 +94,7 @@ To participate in the FlyByWire Documentation Project you need to have following
     You can opt to use a faster instance of the developer server by invoking the flag `--dirtyreload`. This just checks for any markdown that has changed since the HTML was rendered and will reconstruct any relevant pages only rather than rebuilding the entire website.
 
     ```
-    mkdocs.exe server --dirtyreload
+    mkdocs.exe serve --dirtyreload
     ```
 
     !!! danger ""
@@ -97,6 +121,44 @@ To participate in the FlyByWire Documentation Project you need to have following
 - When finished, push your final changes to the PR, update the PR description if required and mark it "[Ready for Review](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/changing-the-stage-of-a-pull-request#marking-a-pull-request-as-ready-for-review){target=new}".
 - Someone from the documentation team will review your changes, give feedback, potentially ask for changes, and eventually approve and merge your changes.
 
+#### Adding Plugins or Markdown Extensions
+
+Please use the alternative "key/value" pairs method when adding plugins or markdown extensions with special note that an empty value must be provided when no options are defined.
+
+```yaml title="Sample New Config"
+plugins:
+  search: {}
+  awesome-pages: {}
+```
+
+```yaml title="Old Config"
+plugins:
+    - search
+    - awesome-pages
+```
+
+### Build Pipeline and Config Changes
+
+In order to facilitate smooth local development we have made some changes between production builds and local development.
+
+Building for production now uses the `production.yml` file which deep merges with mkdocs.yml using the `INHERIT` function with mkdocs.
+
+`mkdocs build --config-file production.yml`
+
+#### Complete Local Builds
+
+You can still follow the instructions to [preview your local clone](#preview-your-local-clone) to test and preview your changes locally.
+
+If you would like to fully test a complete build of the production website you need to run the following:
+
+- `mkdocs.exe serve --config-file production.yml` 
+- `mkdocs.exe build --clean --no-directory-urls --config-file production.yml`
+
+!!! info "Additional Plugins in `production.yml`"
+    The following plugins are included:
+    
+    - Social Cards
+
 ### How to Write Documentation for FlyByWire
 
 #### Technical How-To
@@ -107,6 +169,16 @@ To participate in the FlyByWire Documentation Project you need to have following
 - During the PR Review the page still can be moved and navigation can be changed/added. So don't worry too much about it and focus on the content for your page.
 - Add images to the section's asset folder. Consider creating a folder for your page when using several images.
 - Although the FlyByWire Documentation Team will take care of navigation it might still be of interest how the navigation is done. This is well explained on the [mkdocs-awesome-pages-plugin's README on their Github](https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin#Features){target=new}
+
+!!! tip "Embedding YouTube Videos"
+    We have included the plugin `mkdocs-video` to streamline adding YouTube embeds into documentation. This removes the necessity to inline `<iframe>` information within 
+    documentation pages. 
+
+    The plugin uses the markdown image syntax with a custom marker defined in mkdocs.yml: `video-embed`.
+
+    ```md title="Sample YouTube Embed Code"
+    ![video-embed](https://www.youtube.com/embed/3i1FaGKOwII)
+    ```
 
 #### Tips to Work Effectively with `mkdocs` (Change, Previews, etc.)
 

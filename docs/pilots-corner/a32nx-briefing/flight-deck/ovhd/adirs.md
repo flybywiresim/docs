@@ -8,7 +8,7 @@
 
 ![ADIRS Panel](../../../assets/a32nx-briefing/overhead-panel/ADIRS.jpg "ADIRS Panel")
 
-!!! note "API Documentation: [ADIRS Panel API](../../a32nx_api.md#adirs-panel)"
+!!! note "API Documentation: [ADIRS Panel API](../../../../fbw-a32nx/a32nx-api/a32nx-flightdeck-api.md#adirs-panel)"
 
 ## Description
 

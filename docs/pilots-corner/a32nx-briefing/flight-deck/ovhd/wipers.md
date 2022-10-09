@@ -9,7 +9,7 @@
 
 ![Wipers Panel - Left](../../../assets/a32nx-briefing/overhead-panel/Wipers-Left.jpg "Wipers Panel - Left")
 
-!!! note "API Documentation: [Wiper Panel](../../a32nx_api.md#wiper-panel)"
+!!! note "API Documentation: [Wiper Panel](../../../../fbw-a32nx/a32nx-api/a32nx-flightdeck-api.md#wiper-panel)"
 
 ## DESCRIPTION
 
@@ -33,6 +33,9 @@ Each windshield is provided with two-speed electric wipers that are controlled b
 
 !!! attention ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+
+    !!! attention ""
+        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ---
 

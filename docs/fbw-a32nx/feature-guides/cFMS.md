@@ -112,13 +112,13 @@ When using either method will allow for the following:
 If you choose to use our built-in simBrief import on the MCDU to bypass the world menu planner (as we recommend), we have provided a feature that helps sync the aircraft's 
 flight plan back to the MSFS' built-in flight planner. This feature can be configured on the EFB and is set to `None` by default.
 
-Using this method MSFS ATC will most likely not detected your planned cruising flight level. You would need to request further climb once established on your initial cleared 
+Using this method MSFS ATC will most likely not detect your planned cruising flight level. You would need to request further climb once established on your initial cleared 
 altitude after takeoff.
 
 !!! info "How to Turn on Flight Plan Sync"
     Before performing an INIT REQ. or inputting your flight plan please follow the steps below if you would like to try and use the built-in ATC for your flight.
 
-    - Go to the EFB Settings and select Sim Options. [Location Here](flyPad/settings.md#sim-options).
+    - Go to the EFB Settings and select Sim Options. [Location Here](flypados3/settings.md#sim-options).
     - Switch the `Sync MSFS Flight Plan` setting to `Save`.
     - Continue entering your flight plan or perform an INIT REQ.
 
@@ -141,7 +141,7 @@ While the order you switch the sync feature to `None` may vary it is still impor
 the MCDU.
 
 ??? info "Finding Flight Plan Sync Setting"
-    - Go to the EFB Settings and select Sim Options. [Location Here](flyPad/settings.md#sim-options).
+    - Go to the EFB Settings and select Sim Options. [Location Here](flypados3/settings.md#sim-options).
     - Switch the `Sync MSFS Flight Plan` setting to `None`.
 
 1. Create a flight plan from simBrief or another 3rd party flight planner.
@@ -162,16 +162,23 @@ the MCDU.
 
 ### WX/TER
 
-!!! note "TCAS is now available in the development version. Please see our [CFMS NOTAM](https://flybywiresim.com/notams/cfms/) for further WX/TER information."
+!!! info "Important Notice"
+    - TCAS is now available in the Development version. 
+    - Terrain Radar is being tested in the Experimental version via [SimBridge](../../index.md).
+    - Please see our [CFMS NOTAM](https://flybywiresim.com/notams/cfms/) for further WX/TER information.
 
-It is important to note that the weather and terrain radars are not available yet with the latest version of our cFMS(v1.5). Our current focus is to deliver a more realistic flight planning and navigation experience while maintaining performance and reliability. However, we are not satisfied with how the default code performs together with our custom systems.
+It is important to note that the weather radar is not available yet with the latest version of our cFMS(v1.5). Our current focus is to deliver a more realistic flight planning 
+and navigation experience while maintaining performance and reliability. However, we are not satisfied with how the default code performs together with our custom systems.
 
-We believe the benefits that cFMS provides outweigh the temporary lack of WX/TERR/ functionality on the development version. Weather and terrain still prove to be a challenge due to the lack of a native SDK API. We have posted about it on the MSFS forums, where it currently sits at the top of the wishlist and Asobo are investigating how to best improve their API.
+We believe the benefits that cFMS provides outweigh the temporary lack of WX functionality. Weather will still prove to be a challenge due to 
+the lack of a native SDK API. We have posted about it on the MSFS forums, where it currently sits at the top of the wishlist and Asobo are investigating how to best improve their API.
 
-[Read more about weather and terrain API.](https://forums.flightsimulator.com/t/implement-weather-and-terrain-api-s-for-aircraft-developers-to-implement-accurate-radar-predictive-windshear-egpws-and-metar-wind-uplink/442016){target=new}
+[Read more about weather and terrain API.](https://forums.flightsimulator.
+com/t/implement-weather-and-terrain-api-s-for-aircraft-developers-to-implement-accurate-radar-predictive-windshear-egpws-and-metar-wind-uplink/442016){target=new} **Please 
+note again that terrain radar is being tested in our Experimental version.**
 
 ### Flight Path Rendering
 
 In certain instances some legs may not render correctly with our current implementation and may look strange in PLAN mode or while enroute. In most cases the A32NX will attempt to fly the route and you won't experience any major issues.
 
-Additionally, some flight plans may have extraneous waypoints that can lead to wrongly drawn flight paths. While this is can be an edge case, going through your flight plan in `PLAN` mode you can find offending waypoints that need to be removed which will provide a much more reasonable drawn flight path.
+Additionally, some flight plans may have extraneous waypoints that can lead to wrongly drawn flight paths. While this can be an edge case, going through your flight plan in `PLAN` mode you can find offending waypoints that need to be removed which will provide a much more reasonable drawn flight path.

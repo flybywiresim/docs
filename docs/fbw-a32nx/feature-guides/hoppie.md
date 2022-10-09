@@ -2,33 +2,46 @@
 
 !!! warning "Requires credentials with Hoppie service"
 
-!!! warning "Development in progress"
-    The Hoppie ACARS system is a complex system and we have decided to develop and release it step-by-step. So please be aware that not all features are available in the early releases and that we will add additional functionality over time.
+The Hoppie ACARS system is a complex system and we have decided to develop and release it step-by-step. So please be aware that not all features are available in the early
+releases and there may be differences between the **Stable Version** and **Development Version** as outlined below. We will add additional functionality over time.
 
+???+ tip "Development Version - Features (Click to Open)"
+    Our development version has the following features:
+
+    - Automatic D-ATIS
+    - Automatic position reports
+    - Controller report-requests and automatic preparation of pilot replies
+    - Controller to pilot: All Instructions including requests, confirmations, etc.
+    - Datalink status
+    - Departure Clearance (DCL)
+    - Flight Monitoring for conditional reports
+    - Handover
+    - Logon/Logoff
+    - Oceanic Clearance (OCL)
+    - Pilot requests: All kinds, incl. emergency
+    - Realistic datalink communication simulation (VHF+VDL3)
+    - Simulation of FANS-A+ and FANS-B+ with automatic mode selection based on logon-code of ATC
+    - Station identifier
+
+??? tip "Stable Version - Features (Click to Open)"
     !!! danger ""
-        This page will be current for Stable version 0.8.0. Any changes to our development branch will be noted with the appropriate flag or indicator. Please be aware of any 
+        This section will be current for Stable version 0.8.0. Any changes to our development branch will be noted with the appropriate flag or indicator. Please be aware of any
         differences when using our CPDLC implementation.
 
     The current version has the following features:
 
-    - Logon/Logoff
-    - Handover
-    - Station identifier
-    - Controller to pilot: All Instructions
     - Automatic D-ATIS
+    - Controller to pilot: All Instructions
     - Departure Clearance (DCL)
+    - Handover
+    - Logon/Logoff
     - Oceanic Clearance (OCL)
-    - Realistic datalink communication simulation (VHF+VDL3)
     - Pilot requests: Vert & Lat requests, Text
+    - Realistic datalink communication simulation (VHF+VDL3)
+    - Station identifier
 
-    The currently planned future releases are adding these features:
-
-    - Datalink Status
-    - Other pilot requests: E.g. "When can we expect..."
-    - Emergency
-    - Controller report-requests and automatic preparation of pilot replies
+??? warning "In Progress Features (Click to Open)"
     - FPL changes for Lat requests
-    - Flight Monitoring for conditional reports
 
     This plan might change at any time.
 
@@ -72,7 +85,7 @@ It is required to configure the A32NX to use the Hoppie system. All configuratio
 
 ### ATSU/AOC
 
-The Hoppie logon code needs to be set in the [EFB Settings ATSU/AOC](./flyPad/settings.md#atsuaoc) page.
+The Hoppie logon code needs to be set in the [EFB Settings ATSU/AOC](flypados3/settings.md#atsuaoc) page.
 
 ![ATSU/AOC](../assets/feature-guides/hoppie/efb-settings-atsu-aoc-page.png "ATSU/AOC page"){loading=lazy}
 
@@ -90,7 +103,7 @@ Once the above toggle is set appropriately, the Hoppie ACARS system will log you
 - Logon code is entered.
 - A flight number is set.
 - The weather source is set to VATSIM or IVAO.
-    - See [EFB Settings ATSU/AOC](flyPad/settings.md#atsuaoc).
+    - See [EFB Settings ATSU/AOC](flypados3/settings.md#atsuaoc).
 
 ## Example flight
 
@@ -108,12 +121,21 @@ The CPDLC system is only a convenience to relax the voice frequency. Time critic
 
 After preparation of the aircraft an IFR clearance is required which can be requested via DCL (Departure Clearance).
 
-The request page can be found in the MCDU ATC COMM menu page 2:
+???+ info "Development Version"
+    The request page can be found by selecting `GROUND REQ` then `DEPARTURE` through the ATC COMM page on the MCDU. 
 
-!!! note "MCDU ATC COMM Menu"
-    !!! block ""
-        ![atc-menu-p1](../assets/feature-guides/hoppie/atc-menu-p1.png){align=center width=48% loading=lazy}
-        ![atc-menu-p2](../assets/feature-guides/hoppie/atc-menu-p2-dcl.png){align=center width=48% loading=lazy}
+    !!! note "MCDU ATC COMM MENU"
+        !!! block ""
+            ![hoppie1](../assets/feature-guides/hoppie/hoppie1.png){align=center width=48% loading=lazy}
+            ![hoppie2](../assets/feature-guides/hoppie/hoppie2.png){align=center width=48% loading=lazy}
+
+??? info "Stable Version"
+    The request page can be found in the MCDU ATC COMM menu page 2:
+
+    !!! note "MCDU ATC COMM Menu"
+        !!! block ""
+            ![atc-menu-p1](../assets/feature-guides/hoppie/atc-menu-p1.png){align=center width=48% loading=lazy}
+            ![atc-menu-p2](../assets/feature-guides/hoppie/atc-menu-p2-dcl.png){align=center width=48% loading=lazy}
 
 The DEPART REQ page requires the current ATC station code and the current ATIS. Providing a gate and freetext is optional.
 
@@ -219,10 +241,17 @@ You can logoff from the current station if the next station does not provide CPD
 
 It is also possible to request an Oceanic Clearance (OCL) from ATC.
 
-!!! note "MCDU ATC COMM Menu"
-    !!! block ""
-        ![atc-menu-p1](../assets/feature-guides/hoppie/atc-menu-p1.png){align=center width=48% loading=lazy}
-        ![atc-menu-p2-ocl](../assets/feature-guides/hoppie/atc-menu-p2-ocl.png){align=center width=48% loading=lazy}
+???+ info "Development Version"
+    !!! note "MCDU ATC COMM Menu"
+        !!! block ""
+            ![hoppie-oceanic-1](../assets/feature-guides/hoppie/hoppieoc.png){align=center width=48% loading=lazy}
+            ![hoppie-oceanic-2](../assets/feature-guides/hoppie/hoppieoc2.png){align=center width=48% loading=lazy}
+
+??? info "Stable Version"
+    !!! note "MCDU ATC COMM Menu"
+        !!! block ""
+            ![atc-menu-p1](../assets/feature-guides/hoppie/atc-menu-p1.png){align=center width=48% loading=lazy}
+            ![atc-menu-p2-ocl](../assets/feature-guides/hoppie/atc-menu-p2-ocl.png){align=center width=48% loading=lazy}
 
 The OCEANIC REQ page requires you to be on the last station before an oceanic route. You need to enter your planned entry point, time at entry point, speed and flight level.
 
@@ -246,7 +275,7 @@ Fifteen (15) minutes after passing the entry point you need to set your squawk t
 
 To receive ATIS information and setup auto update of specific ATIS go to the ATC COMM menu and click on `ATIS`.
 
-The source for your ATIS information can be configured in the EFB Settings page: [EFB ATSU-AOC Options](./flyPad/settings.md#atsuaoc)
+The source for your ATIS information can be configured in the EFB Settings page: [EFB ATSU-AOC Options](flypados3/settings.md#atsuaoc)
 
 !!! note "MCDU ATC COMM Menu"
     !!! block ""

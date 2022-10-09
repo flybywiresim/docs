@@ -97,7 +97,7 @@ If you use externally configured controls using SPAD.neXt, FSUIPC or Axis and Oh
 
 ### Pedal Disconnect Button
 
-The tiller handwheel has a button to disconnect any input from the rudder pedals to the nose wheel. This button is commonly used when performing rudder checks while taxing so there is no unexpected nosewheel movement.
+The tiller handwheel has a button to disconnect any input from the rudder pedals to the nose wheel. This button is commonly used when performing rudder checks while taxiing so there is no unexpected nosewheel movement.
 
 Again Microsoft Flight Simulator does not support this directly so we again reused an existing option to map a key or button to this.
 
@@ -111,7 +111,8 @@ The MSFS Controller Option we are using is `TOGGLE WATER RUDDER` and your mappin
 
 To activate the tiller feature you need to go to the flyPad Settings page and navigate to the `Realism` tab. From there enable the `Separate Tiller from Rudder` feature.
 
-![flyPad Settings Sim Options Tiller](../assets/flypad/flypad-settings-realism.png "flyPad Settings Sim Options Tiller"){loading=lazy}
+![flyPad Settings Sim Options Tiller](../assets/flypados3/flypad-settings-realism.png "flyPad Settings Sim Options 
+Tiller"){loading=lazy}
 
 ## Using the Tiller and Rudder
 
@@ -146,9 +147,10 @@ Modifying steering animation so it shows our internal system state will mask tho
 
 ### 320 Sim Pilot Video
 
-<iframe width="790" height="450" src="https://www.youtube-nocookie.com/embed/2gWx0EblS30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![video-embed](https://www.youtube-nocookie.com/embed/2gWx0EblS30)
+
 
 ### Easyjetsimpilot
 
-<iframe width="790" height="450" src="https://www.youtube-nocookie.com/embed/JM6WrwJJjIo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![video-embed](https://www.youtube-nocookie.com/embed/JM6WrwJJjIo)
 

@@ -23,6 +23,8 @@ instances:
 Ideally the NAV mode automatically reverts to the HDG (TRK) mode and pilots should follow ATC guidance (if on network) or use the DIR TO function to proceed to the next 
 waypoint on your flight plan.
 
+[Learn How to Use Direct Feature](direct.md){.md-button}
+
 !!! info "Normal Discontinuity in the MCDU F-PLN Page"
      ![Normal Discontinuity](../../assets/advanced-guides/disco/mcdu-discontinuity-1.png "Normal Discontinuity")
 
@@ -35,6 +37,8 @@ A MANUAL leg stays on a constant TRK or HDG and has no termination point.
 The core principle of a MANUAL leg is that air traffic control (ATC) will give the flight crew headings (vectors) or a direct-to instruction to guide the aircraft to the planned approach path.
 
 If no ATC is available (or when using MSFS ATC) the user must use heading mode (Selected HDG) or direct to (DIR TO) to guide the aircraft to an appropriate intercept course for the approach.
+
+[Learn How to Use Direct Feature](direct.md){.md-button}
 
 <style>
     .md-typeset .admonition.block, .md-typeset details.block {

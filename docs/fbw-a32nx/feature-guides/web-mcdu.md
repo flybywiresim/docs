@@ -2,6 +2,17 @@
 
 <link rel="stylesheet" href="/../../stylesheets/web-mcdu.css">
 
+!!! danger "STOP"
+    This documentation is applicable for **STABLE** versions only. If you are using the Development or Experimental version please refer to our SimBridge Documentation instead.
+
+    ---
+
+    **Development/Experimental Version**
+
+    [SimBridge Guides](../../../simbridge){.md-button}
+    
+    [Remote MDCU (Updated Version of this Page)](../../simbridge/remote-displays/remote-mcdu.md){.md-button} 
+
 ## Overview
 
 The MCDU Web Interface allows you to display and control the MCDU on a browser including browsers on mobile devices like phones or tablets.
@@ -11,7 +22,7 @@ See list of compatible and tested browsers: [Compatible Browsers](#compatible-br
 !!! note "MCDU Web Interface"
     ![Web MCDU Interface](../assets/mcdu-server/web-mcdu-ipad.webp "Web MCDU Interface"){loading=lazy}
 
-It also allows to use your real printer on to be used as a cockpit printer for the MCDU.
+It also allows you to use your real printer as a cockpit printer for the MCDU.
 
 ## Starting the MCDU Web Interface
 
@@ -44,7 +55,7 @@ After this the MCDU Server will start and will provide you with links for your l
 
 ### MCDU Server Connection Attempts Timeout
 
-Due to issues in the Microsoft Flight Simulator Coherent Engine (Javascript Engine) continuous connection attempts lead to performance problems for some users because of how the engine handles unsuccessful connections. 
+Due to issues in the Microsoft Flight Simulator Coherent Engine (Javascript Engine) continuous connection attempts lead to performance problems for some users because of how the engine handles unsuccessful connections.
 
 Therefore, a timeout mechanism has been built into the MCDU limiting the number of connection attempts the MCDU will execute.
 
@@ -54,12 +65,13 @@ A setting in the fylPad EFB Sim Options page has been introduced to allow users 
 
 The three settings are:
 
-- Auto On:
-    - The MCDU attempts to connect to the MCDU Server for 5min after pressing "Ready to Fly".
+- Auto:
+    - The MCDU attempts to connect to the MCDU Server for 5min after pressing "Ready to Fly" (`Active` is shown).
     - If this setting is selected the MCDU will try to connect to the MCDU Server for 5min after every start of a new flight.
-- Auto Off:
-    - After 5min of unsuccessful connection attempts the MCDU will stop any further attempts and this setting will be automatically set.
-- Perm Off:
+    - After 5min of unsuccessful connection attempts the MCDU will stop any further attempts and `Inactive` will be
+      shown.
+    - If `Inactive` is shown but you want to connect to the MCDU server just click on `Off` and then `Auto` again.
+- Off:
     - The MCDU will not make any attempts to connect to the MCDU Server.
 
 ### Browser on Local PC
@@ -76,7 +88,7 @@ If you want to start with only the MCDU display and not the whole MCDU panel the
 
 ### Browser on Remote Device
 
-If you want to use the MCDU Web Interface from a remote device (e.g. tablet, phone, 2nd PC, etc.) you need to first make sure you can access the MCDU Web Interface on your PC 
+If you want to use the MCDU Web Interface from a remote device (e.g. tablet, phone, 2nd PC, etc.) you need to first make sure you can access the MCDU Web Interface on your PC
 by allowing incoming network connections to the server through your Windows Firewall. See how to do this here: [Firewall Configuration](#firewall-configuration).
 
 The MCDU Server command window tries to detect your IP address. Use the `http://xxx.xxx.xxx.xxx:8125` address and enter it into your browser on the remote device.
@@ -113,6 +125,11 @@ You can enable click sounds when pressing buttons on the MCDU by adding `/sound`
 
 ### Day and Night Mode
 It is possible to switch between a day and night mode MCDU visualization be clicking/touching the BRT/DIM button in the Web MCDU.
+
+### 4:3 Aspect Ratio Compatibility Mode
+If you are using MCDU hardware with a 4:3 display, you can use the 4:3 aspect ratio compatibility mode to improve the formatting so that the lines align better with your hardware.
+
+To use this mode, add `/43` to the url.
 
 ## Using Your Local Printer
 
@@ -276,8 +293,8 @@ To test and confirm this turn off your firewall and try again to reach your MCDU
 
 {==
 
- **Turn the firewall back on again.**<br/>
- *(never run a PC without a firewall)*
+**Turn the firewall back on again.**<br/>
+*(never run a PC without a firewall)*
 
 ==}
 
@@ -360,7 +377,7 @@ Of course now the firewall might need to be opened for this new port.
 
 #### Websocket Port is Occupied
 
-If the port for the MCDU Websocket Server is occupied you need to first change this port in the [flyPad EFB Sim options page](flyPad/settings.md#sim-options).
+If the port for the MCDU Websocket Server is occupied you need to first change this port in the [flyPad EFB Sim options page](flypados3/settings.md#sim-options).
 
 You can then start the MCDU server using the new websocket port with this option:
 
@@ -487,7 +504,7 @@ For this to work the browser must be able to reach the MCDU Server via the two T
     - Click OK and restart your computer.
 
 ??? warning "Browser Can't Connect to MCDU Web Interface"
-    You browser can't connect to the MCDU Web Interface and times out eventually.
+    Your browser can't connect to the MCDU Web Interface and times out eventually.
 
     Cause: This is most likely a network or firewall issue.
 
@@ -497,7 +514,7 @@ For this to work the browser must be able to reach the MCDU Server via the two T
     - [Firewall Configuration](#firewall-configuration)
 
 ??? warning "Browser Shows MCDU Web Interface but Display Remains Black"
-    You browser can't connect to the MCDU Web Socket port.
+    Your browser can't connect to the MCDU Web Socket port.
 
     Cause: This is most likely a network or firewall issue.
 

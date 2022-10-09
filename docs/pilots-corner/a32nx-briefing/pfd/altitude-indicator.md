@@ -24,12 +24,10 @@ If an MDA has been entered into the MCDU perf page, the altitude numbers will ch
 
 ### Vertical Deviation
 
-This is a magenta dot displayed on the left side of the altitude indicator. It appears next to the altitude corresponding to the theoretical vertical profile and is displayed starting from the top of descent to the final intercept altitude.
-
-The pilots can read the VDEV directly from the scale. The range is ± 500 feet and if the VDEV exceeds this limit, the symbol will stay within the limit and the exact value can be found in the PROG page of the MCDU
-
-!!! attention ""
-    Currently not available for the FBW A32NX for Microsoft Flight Simulator
+This green filled circle symbol appears next to the altitude corresponding to the theoretical vertical profile 
+computed by the FMGC. It is displayed from the top of descent down to the MAP altitude. The flight crew can read the 
+linear deviation directly from the altitude scale. The range is ±500 ft. When the linear deviation value exceeds 
+±500 ft, the symbol stays at the range limit but changes to a half filled circle and the PROG page displays the exact value.
 
 ### Target Altitude or Selected Flight Level Symbol
 

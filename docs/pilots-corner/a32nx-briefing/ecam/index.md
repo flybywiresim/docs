@@ -1,3 +1,8 @@
+---
+title: A320neo Pilot Briefing - ECAM
+description: FCOM-style documentation for the Electronic Centralized Aircraft Monitoring (ECAM) system.
+---
+
 <link rel="stylesheet" href="../../../stylesheets/toc-tables.css">
 
 # ECAM Overview
@@ -17,6 +22,6 @@ The Electronic Centralized Aircraft Monitoring (ECAM) consists of two displays:
 ##  Topics
 
 | Quick Links                                     |
-| :----                                           |
+|:------------------------------------------------|
 | [ECAM Engine and Warning Display](ecam-e-wd.md) |
 | [ECAM Systems Display](sd/index.md)             |

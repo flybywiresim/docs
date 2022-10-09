@@ -1,7 +1,11 @@
-mkdocs-material==8.2.15
+mkdocs-material==8.5.6
 mkdocs-awesome-pages-plugin
 mkdocs-git-revision-date-localized-plugin
 mkdocs-redirects
 mkdocs-exclude-search
 mkdocs-embed-external-markdown
+mkdocs-video
+mkdocs-glightbox
 mike
+pillow
+cairosvg

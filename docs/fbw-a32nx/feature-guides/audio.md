@@ -4,9 +4,11 @@ This page provides an overview of the various audio settings available in the A3
 
 These settings can be found on the EFB:
 
-![EFB Audio Settings](../assets/flypad/flypad-settings-audio.png)
+![EFB Audio Settings](../assets/flypados3/flypad-settings-audio.png)
 
-For information on the other settings available on the EFB visit our [flyPad Settings](flyPad/settings.md) page.
+For information on the other settings available on the EFB visit our [flyPad Settings](flypados3/settings.md) page.
+
+![video-embed](https://www.youtube-nocookie.com/embed/3i1FaGKOwII)
 
 ## Passenger Simulation
 
@@ -20,9 +22,13 @@ We have included various settings that simulate flight crew interactions with pa
 ### Passenger Ambience
 If this setting is enabled the following ambience sounds are played:
 
-- Boarding sound begins when the W/B in `MCDU-ATSU-AOC-W&B` boarding is started.
+- Boarding and deboarding sounds are triggered differently depending on the version of aircraft installed.
+    - Stable: W/B section in `MCDU-ATSU-AO-W&B` triggers the deboarding sound.
+    - Development: Payload tab on the Ground Services page on the EFB triggers the deboarding sound.
 - Once passengers are on the plane, a constant passenger ambience background sound plays.
-- Deboarding through the W/B section in `MCDU-ATSU-AO-W&B` triggers the deboarding sound.
+
+[//]: # (- Boarding sound begins when the W/B in `MCDU-ATSU-AOC-W&B` boarding is started.)
+[//]: # (- Deboarding through the W/B section in `MCDU-ATSU-AO-W&B` triggers the deboarding sound. // Removed until feature is the same on all versions)
 
 ### Announcements
 
@@ -37,7 +43,7 @@ If this setting is enabled the following crew announcements are played.
 | Boarding Completed + 30s                   | Captain makes a "Welcome on Board" announcement |     Captain      |
 | Beacon Light set to `ON`                   | "Arm Doors" Announcement                        | Flight Attendant |
 | "Arm Doors" Announcement + 30s             | Safety Demo                                     | On-Board System  |
-| Landing Lights set to `ON`                 | "Prepare for Takeoff" Announcement              |     Captain      |
+| TCAS mode switched to `TA` OR `TA/RA`      | "Prepare for Takeoff" Announcement              |     Captain      |
 | Enter **Cruise Phase** + 30s               | "Cruise" Announcement                           |     Captain      |
 | Enter **Descent Phase** + 30s              | "Descent" Announcement                          |     Captain      |
 | Gear Down + **Approach Phase** Active      | "Prepare for Landing" Announcement              |     Captain      |

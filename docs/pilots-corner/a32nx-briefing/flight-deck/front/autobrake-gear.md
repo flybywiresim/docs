@@ -8,7 +8,7 @@
 
 ![Autobrake and gear indicators, Brake Fan and A/SKID](../../../assets/a32nx-briefing/front/Autobrake-gear.jpg "Autobrake and gear indicators, Brake Fan and A/SKID")
 
-!!! note "API Documentation: [Autobrake and Gear API](../../a32nx_api.md#autobrake-gear-lever-and-gear-annunciation)"
+!!! note "API Documentation: [Autobrake and Gear API](../../../../fbw-a32nx/a32nx-api/a32nx-flightdeck-api.md#autobrake-gear-lever-and-gear-annunciation)"
 
 ## Description
 

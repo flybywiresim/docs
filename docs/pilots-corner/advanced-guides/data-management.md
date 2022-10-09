@@ -127,4 +127,4 @@ Alternatively you can use the `MCDU DATA A/C STATUS` page to delete all stored w
 
 ### 320 Sim Pilot Video
 
-<iframe width="790" height="447" src="https://www.youtube-nocookie.com/embed/qDM8Ijp--3o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![video-embed](https://www.youtube-nocookie.com/embed/qDM8Ijp--3o)

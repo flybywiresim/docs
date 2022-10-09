@@ -1,3 +1,8 @@
+---
+title: Airliner Flying Guide - Overview
+description: General guides for flying an airliner.
+---
+
 <link rel="stylesheet" href="../../../stylesheets/toc-tables.css">
 
 # Overview
@@ -11,7 +16,7 @@ Author Credit: *Shomas on Discord (A320 Pilot)*
 ---
 
 | Topics                                                |
-| :-----                                                |
+|:------------------------------------------------------|
 | [Types of Approaches](approaches.md)                  |
 | [Navigation](navigation.md)                           |
 | [Understanding Altitude References](altitude-refs.md) |

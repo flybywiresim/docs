@@ -231,7 +231,7 @@ We can in any case request the METAR weather information for the destination air
 
 If we used Simbrief for flight planning we can also see METAR information on the flyPad after importing the Simbrief plan to the flyPad.
 
-![flyPad showing route, weather and map](../assets/beginner-guide/descent/FlyPad-Weather.png "flyPad showing route, weather and map"){loading=lazy}
+![flyPad showing weather](../../fbw-a32nx/assets/flypados3/weather-widget-input.png){loading=lazy}
 
 Once we have confirmed the destination runway and the destination data we are set for the approach and we can continue focus on the descent.
 
@@ -257,7 +257,17 @@ A few minutes before we reach our calculated descent point (TOD) we request clea
 
 When clearance is given we can start our descent to the flight level or altitude ATC has given us.
 
-For descending we set the new flight level or altitude in the `FCU` with the `altitude selector`. We can then either push the selector for Managed Altitude Mode (constraints are respected, also know as VNAV) or pull the selector for `Selected Altitude Mode` (constraints are ignored). You can also use the `V/S selector` to set a specific descent vertical velocity. Pull the `V/S selector` to start the descent.
+For descending we set the new flight level or altitude in the `FCU` with the `altitude selector`. We can then either PUSH the selector for `Managed Altitude Mode` (constraints are respected, also known as [DES](../advanced-guides/flight-guidance/vertical-guidance/managed-modes.md#des-descent)) or PULL the selector for `Selected Altitude Mode` (constraints are ignored, also known as [OP DES](../advanced-guides/flight-guidance/vertical-guidance/selected-modes.md#op-des-open-descent)). 
+
+When either of these altitude modes are engaged, the relevant mode will appear in the Second Column of the `FMA`, and will be displayed in green. (See [Vertical Mode Annunciations](../a32nx-briefing/pfd/second-column.md)).
+
+!!! warning "Using V/S"
+    It is not recommended to use V/S for climbing or descending in the A320 (at least not for beginners) as the V/S 
+    guidance has priority over the speed guidance and speed needs to be watched very closely when using V/S.
+    <p/>
+    If the selected target V/S is too high (relative to the current thrust condition and speed), the FMGC will steer the aircraft to the target V/S, but the aircraft will also accelerate or decelerate. When the speed reaches its authorized limit, V/S automatically decreases to maintain the minimum or maximum speed limit.
+    <p/>
+    See also [Protections](../advanced-guides/protections/overview.md).
 
 ![FUC with ALT and V/S selector](../assets/beginner-guide/descent/FCU-AP-selector.png "FUC with ALT and V/S selector"){loading=lazy}
 

@@ -6,5 +6,7 @@
 title: Flight Guidance
 nav:
     - Overview: overview.md
+    - Autoland: autoland.md
     - TCAS: tcas.md
+    - Vertical Guidance: vertical-guidance
 #   - ...

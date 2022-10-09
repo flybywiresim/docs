@@ -4,8 +4,7 @@ The Experimental version is a test version to find problems, issues and to impro
 
 {--
 
-Currently experimental is geared toward testing the initial version of VNAV. Please use the appropriate discord 
-thread to report any issues - [How to Report Issues](#how-to-report-issues).
+Currently experimental is geared toward testing the initial version of VNAV with additional features added at the development team's discretion - [see below](#implemented-features-for-testing). Please use the appropriate discord thread to report any issues - [How to Report Issues](#how-to-report-issues).
 
 --}
 
@@ -16,9 +15,79 @@ thread to report any issues - [How to Report Issues](#how-to-report-issues).
 
 ## Implemented Features for Testing
 
+### Flight Warning System (FWS)
+
+We are testing the new FWS (Flight Warning System) which replaces the previous provisional system. 
+See technical details in the respective 
+[GitHub Pull Request #4872](https://github.com/flybywiresim/a32nx/pull/4872){target=new}.
+
+![fws-init-ecam](../../pilots-corner/assets/beginner-guide/starting-aircraft/fws-init-ecam.png){loading=lazy width=50%}
+
+Summary:
+
+This PR is the first step on the way to our new flight warning system, written nearly entirely in Rust and using an 
+accurate simulation of the underlying data acquisition and warning logic. The new system is made up of two 
+simulated Flight Warning Computers replacing some foundational logic pieces that were previously written in 
+Javascript. The vast majority of warnings on the EWD still have exactly the same conditions as previously and have 
+not been touched, but will be eventually moved over to the new flight warning computers one by one.
+
+The new Flight Warning Computers are also hooked into the electrical and failure system, so the alerts that are now 
+powered by the FWS truly won't work when both FWCs are unpowered or have failed.
+
+### Electronic Flight Control System (EFCS) 
+
+We are testing the initial flight control computers implementation. See [Pull Request #6913](https://github.com/flybywiresim/a32nx/pull/6913) on GitHub for a full description 
+of what is to be implemented and currently in testing.
+
+As a quick summary, the above PR will add the various EFCS computers to the A32NX to facilitate realistic data aquisition from the correct 
+sources (ADIRS, RAs, SFCCs, LGCIUs etc.) and compute their logics and laws from this data. Additionally, they will realistically communicate with each other via busses and discrete data.
+
+!!! warning ""
+    ECAM warnings are not perfectly accurate since we are missing our custom FWS.
+
+### SimBridge
+
+The following are features in testing that require the use of SimBridge:
+
+- [Terrain Display](#terrain-display)
+- Remote MCDU (Web MCDU) 
+    - [Setup and Configuration Guide](../../simbridge/remote-displays/configuration.md)
+    - [Usage Guide](../../simbridge/remote-displays/remote-mcdu.md)
+
+!!! tip "SimBridge Information"
+    - Learn about SimBridge and further status of various features please - [Read Here](../../simbridge/index.md).
+    - [SimBridge setup and configuration guide](../../simbridge/configuration.md).
+
+#### Terrain Display
+
+![terrain example](../assets/support-guide/terrain1.png){loading=lazy}
+
+This feature will connect to our external database via SimBridge to accurately display terrain information on the navigation display. We've followed the peaks-mode implementation 
+of honeywell and do not have map-data above 83° north or below 84° south. 
+
+You can read more about the "PEAKS DISPLAY" in this technical guide from Honeywell - [Read Here](https://skybrary.aero/sites/default/files/bookshelf/3364.pdf){target=new}
+
+!!! tip "Configuration"
+    - [Terrain Usage Guide](../../simbridge/terrain.md)
+
+!!! warning "Reporting Bugs / Strange Behaviors"
+    When reporting a bug or strange behavior that we need the GPS position or at least a reference to an airport/VOR/NDB with a distance and direction. 
+
+    This will help us iron out the feature and identify issues faster. For more information on where to report please see [How to Report Issues](#how-to-report-issues) below.
+
+    Expect performance loss as we continue to optimise.
+
+### Pause at Top of Descent (TOD)
+
+- New setting in located in the EFB under Realism - Pause at TOD (configurable by distance between 0-50 nm before TOD)
+- When enabled, flight will pause at the specified distance before TOD
+- If the TOD point shifts before your present position, or AP mode reverts in CRZ, this will pause the simulation.
+
 ### Hydraulic Gear System
 
-Featured released in Development Version. See our guide for usage and known issues.
+- Custom gravity gear extension model
+
+For features that are already available in the Development Version - see our guide for usage and known issues.
 
 [Custom Hydraulics Guide](../feature-guides/custom-hydraulics.md){.md-button}
 
@@ -45,45 +114,40 @@ These features are not yet available but will be implemented at a later time.
 
 ### flyPadOS Version 3 (EFB)
 
-- Completely new design
-- Improved Dashboard
-    - Flight info
-    - Customizable info section for:
-        - Weather
-        - Pinned charts
-        - Pinned checklists 
-        - Maintenance 
-- Stateful (remembers tabs and content of pages)
-- Improved ground service pages
-- Improved pushback tool
-- Improved performance calculators
-- Improved navigation charts page
-    - Improved Navigraph chart support 
-        - Current position on chart
-        - Fullscreen mode
-        - Easier search and selection
-    - Support for pinning of charts
-- Improved online ATC page
-- Improved failure support incl. categories and search
-- Interactive checklists incl. autofill and option to pin to dashboard
-- Presets for customizable lighting settings and predefined aircraft states
-- Improved settings (better structure and more configuration options)
-- Onscreen keyboard
-- Tooltips
-- Themes
-    - Blue
-    - Dark
-    - Light
-- Multilingual - English, French, Spanish, German, Russian - more to come....
+- Updated weight and balance features:
+    - Dynamic weight information
+    - Customizable/interactive passenger and cargo loading
+    ![wb showcase](../assets/support-guide/wb_new1.png)
 
-#### EFB Planned Implementations
+For features that are already available in the Development Version - see our guide for usage and known issues.
 
-These features are not yet available but are generally planned and might be implemented at a later time.
+[flyPadOS 3](../feature-guides/flypados3/index.md){.md-button}
 
-- Support for local files (PFD, images) - requires local-api server (not yet merged)
-- Improvements to pushback page
+---
 
 ## Known Issues
+
+### EFCS
+
+- Improve direct and alternate law: Direct law is not scaled down based on Flaps/Slats configuration, thus can be very sensitive at high speeds, Alternate law still uses TAS for 
+the C* law, this is incorrect and will result in issues if no ADR is available.
+- V_stall warn AoAs need to be tuned, currently they are just the same as alpha_prot.
+- In some situations, AP might not be available in alternate law even though it should be. This is due to how the AP commands are currently executed, which requires the normal 
+  laws to be active (IRL this is different). Will take some time to fix this, not planned currently.
+- The electrical bus connections are not quite correct yet, the ELAC/SEC 2s have rather complex logic for power supply switching, which is not done yet.
+
+### Pause at TOD Issues
+
+- Since the feature is linked to vertical guidance, having an inaccurate T/D or missing T/D may not pause the simulation.
+
+!!! warning "Sim Limitations"
+    Note that while aircraft simulation is suspended (i.e. fuel consumption, airspeed, altitude, physics), environmental simulation will continue (Notably Live Weather, Live Traffic/AI Traffic). Consequences of this include that TCAS TA/RAs will still be issued and if there is a significant change in the weather over time (say a few hours), your vertical descent profile and performance figures may no longer be accurate, which means that the actual T/D point may now have shifted from the originally calculated value.
+
+    The timestamp issued in the pause pop-up shows your real local system's time (localized to your locale) to help mitigate against this problem.
+
+    This is considered a sim limitation as the pause event we utilize does not affect the MSFS world environment. Along this line of thinking, we speculate that without historical live weather and traffic, it would not possible to inject or restore the state that the world was in when the pause was initiated (the time slider in the weather toolbar only affects lighting and will still reflect live wind and weather data).
+
+    Flying using a weather preset and without AI/live traffic avoids this limitation entirely, but would also be a compromise in other ways.
 
 ### Vertical Guidance Issues
 
@@ -98,15 +162,6 @@ These features are not yet available but are generally planned and might be impl
 - Descent guidance is sensitive to QNH changes. This is partially due to an inaccuracy in MSFS' atmospheric model.
 - Winds are not yet taken into account for all phases of flight.
 
-### flyPadOSv3 Issues
-
-- Local files does not work yet. Needs additional feature PR ([local-api](https://github.com/flybywiresim/a32nx/pull/6411/){target=new})
-- Pushback page: not yet fully functional or complete - changes to be expected
-- Stuck notifications are caused by CSS animations being disabled.
-    - Fix: `General Options` -> `Accessibility` -> Turn On `Menu Animations` under `User Interface` 
-- Translations not yet complete / Missing translations and layout issues to be expected
-- Tooltips not yet complete
-
 ## How to Report Issues
 
 <!--
@@ -119,7 +174,7 @@ These features are not yet available but are generally planned and might be impl
 
     At this time please only report issues via our Discord channel threads:
 
-    [cFMS LNAV+VNAV Issue Reports [NO SUPPORT]](https://discord.com/channels/738864299392630914/926586416820011098){target=new .md-button}
+[//]: # (    [cFMS LNAV+VNAV Issue Reports [NO SUPPORT]]&#40;https://discord.com/channels/738864299392630914/926586416820011098&#41;{target=new .md-button})
 
     [flyPadOS3 Experimental - Issue Reports [NO SUPPORT]](https://discord.com/channels/738864299392630914/926586416820011098){target=new .md-button}
 

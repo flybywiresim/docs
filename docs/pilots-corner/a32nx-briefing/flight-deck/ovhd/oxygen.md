@@ -8,7 +8,7 @@
 
 ![Oxygen Panel](../../../assets/a32nx-briefing/overhead-panel/Oxygen.jpg "Oxygen Panel")
 
-!!! note "API Documentation: [Oxygen Panel API](../../a32nx_api.md#oxygen-panel)"
+!!! note "API Documentation: [Oxygen Panel API](../../../../fbw-a32nx/a32nx-api/a32nx-flightdeck-api.md#oxygen-panel)"
 
 ## Usage
 
