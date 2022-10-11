@@ -6,7 +6,7 @@ Stored Company Routes allow you to save routes you regularly fly to your PC. It 
 
 ### Generating a Stored Company Route Using simBrief
 
-- Generate a flight plan using simBrief .
+- Generate a flight plan using simBrief.
 - Download the `XML Datafile' from simBrief.
 
     ![simBrief Datafile Download](assets/simbridge/simbrief-datafile-download.png){loading=lazy}
