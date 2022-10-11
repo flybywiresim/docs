@@ -15,6 +15,16 @@ Currently experimental is geared toward testing the initial version of VNAV with
 
 ## Implemented Features for Testing
 
+### RMP Navigation Tuning
+
+We are testing the ability for the radio management panel to tune navigational aids. See technical details in the respective [GitHub Pull Request #7241](https://github.
+com/flybywiresim/a32nx/pull/7241){target=new}.
+
+### Fine Tuning Engine Parameters
+
+We are further turning our engine primary parameters in regards to EGT and fuel flow in a two part implementation. See technical details in the respective 
+[GitHub Pull Request #7542](https://github.com/flybywiresim/a32nx/pull/7542){target=new}.
+
 ### Flight Warning System (FWS)
 
 We are testing the new FWS (Flight Warning System) which replaces the previous provisional system. 
@@ -33,17 +43,6 @@ not been touched, but will be eventually moved over to the new flight warning co
 
 The new Flight Warning Computers are also hooked into the electrical and failure system, so the alerts that are now 
 powered by the FWS truly won't work when both FWCs are unpowered or have failed.
-
-### Electronic Flight Control System (EFCS) 
-
-We are testing the initial flight control computers implementation. See [Pull Request #6913](https://github.com/flybywiresim/a32nx/pull/6913) on GitHub for a full description 
-of what is to be implemented and currently in testing.
-
-As a quick summary, the above PR will add the various EFCS computers to the A32NX to facilitate realistic data aquisition from the correct 
-sources (ADIRS, RAs, SFCCs, LGCIUs etc.) and compute their logics and laws from this data. Additionally, they will realistically communicate with each other via busses and discrete data.
-
-!!! warning ""
-    ECAM warnings are not perfectly accurate since we are missing our custom FWS.
 
 ### SimBridge
 
@@ -91,14 +90,6 @@ This feature allows you to save routes you regularly fly to your PC in the simBr
 - When enabled, flight will pause at the specified distance before TOD
 - If the TOD point shifts before your present position, or AP mode reverts in CRZ, this will pause the simulation.
 
-### Hydraulic Gear System
-
-- Custom gravity gear extension model
-
-For features that are already available in the Development Version - see our guide for usage and known issues.
-
-[Custom Hydraulics Guide](../feature-guides/custom-hydraulics.md){.md-button}
-
 ### Vertical Guidance
 
 - Speed and altitude predictions in the flight plan page, including magenta or amber asterisks.
@@ -133,9 +124,21 @@ For features that are already available in the Development Version - see our gui
 
 ---
 
+## Released Into Development Version
+
+Features in testing that have been released into Development but not Stable will be listed here. This list will be pruned with every Stable release.
+
+- Electronic Flight Control System (EFCS)
+- Hydraulic Gear System - [Guide Here](../feature-guides/custom-hydraulics.md)
+
+---
+
 ## Known Issues
 
 ### EFCS
+
+!!! info ""
+    We are keeping these known issues here until dedicated EFCS information is available.
 
 - Improve direct and alternate law: Direct law is not scaled down based on Flaps/Slats configuration, thus can be very sensitive at high speeds, Alternate law still uses TAS for 
 the C* law, this is incorrect and will result in issues if no ADR is available.
