@@ -22,11 +22,12 @@ There are two methods available:
 - [Entering a FROM/TO Pair](#entering-a-fromto-pair)
 
 !!! warning "Important Note"
-     When utilizing a company route please be aware of the following:
+     When utilizing a stored company route please be aware of the following data that is not included:
 
-    - A Stored Company Route does not include the flight number, cost index or cruise level.
-    - Also, SID/STAR and APPR or any other flight specific data (pax, cargo, etc.) are not part of a stored company route.
-    - You can now complete the flight plan setup by entering the missing data manually.
+    - <span style= "color:red;">Does not include</span> the flight number, cost index or cruise level.
+    - <span style= "color:red;">Does not include</span> SID/STAR and APPR or any other flight specific data (pax, cargo, etc.).
+    
+    You can complete the flight plan setup by entering the missing data manually.
 
 #### Entering the Company Route Name 
 - Start a flight at the appropriate departure airport and follow the standard setup procedure.
