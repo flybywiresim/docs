@@ -1,6 +1,12 @@
 # Company Routes
 Stored Company Routes allow you to save routes you regularly fly to your PC. It uses simBrief XML Datafiles format so you can easily use your simBrief planning to create a stored company route.
 
+!!! danger "Experimental-Only"
+    This feature is only available on Experimental. Since this feature is currently in testing, please expect issues and report them in the 
+    appropriate channel on Discord. 
+
+    See the [Experimental Support Guide](../fbw-a32nx/support/exp.md).
+
 !!! warning Notice
     To allow the aircraft to access local files you need to SimBridge running. See [Autostart](autostart.md) documentation on how to start it. 
 
