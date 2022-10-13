@@ -62,7 +62,7 @@ Each turn of the handle will cause various things to happen:
 
 - After 1 turn, hydraulic supply to gear system is closed
 - After 2 turns, doors uplocks will be released and doors will stay opened
-- During last third turn, all gear uplocks will be mechanically released and gears will hopefully go down
+- During the last third turn, all gear uplocks will be mechanically released and gears go down
 
 To revert the process and stow the crank handle back into its place, just click again until handle is stowed back
 
