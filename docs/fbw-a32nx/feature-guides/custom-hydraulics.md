@@ -66,6 +66,8 @@ Each turn of the handle will cause various things to happen:
 
 To revert the process and stow the crank handle back into its place, just click again until handle is stowed back
 
+!!! warning "The lower the speed, the slower doors will open due to smaller aerodynamic forces. Turning the handle too fast might cause the gears to hit the doors that have not yet fully opened. Always wait 3 to 5 seconds between handle turns.
+
 !!! tip "The lower the speed, the harder it will be to have a full down lock of the gear, especially for the main gear. Doing steep turns to increase the load of the plane can be quite effective to help the gears to lock into place."
 
 !!! warning "Before Using Gravity Extension"
