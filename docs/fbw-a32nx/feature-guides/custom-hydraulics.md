@@ -55,7 +55,7 @@ Some first failures are provided, and while ECAM information impact is a tempora
 Gravity extension is fully supported by our gear system. 
 
 To use this mechanical-only device, you need to deploy the handle by clicking on the emergency crank handle back on the center pedestal.
-Then every click on the handle, or using mouse scroll wheel, will make the handle turn once.
+Then every click of the handle, or using the mouse scroll wheel, will make the handle turn once.
 It can be stowed back by clicking on the black plastic lock at any time.
 
 Each turn of the handle will cause various things to happen:
