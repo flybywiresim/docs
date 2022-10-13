@@ -66,7 +66,7 @@ Each turn of the handle will cause various things to happen:
 
 To revert the process and stow the crank handle back into its place, just click again until handle is stowed back
 
-!!! tip "The lower the speed, the harder it will be to have a full down lock, especially for main gears. Doing steep turns to increase the plane load can be quite effective to help the gears to lock."
+!!! tip "The lower the speed, the harder it will be to have a full down lock of the gear, especially for the main gear. Doing steep turns to increase the load of the plane can be quite effective to help the gears to lock into place."
 
 !!! warning "Before Using Gravity Extension"
     Have the plane correctly stabilized before using this procedure. Remember that gears are physically simulated, and are really heavy. Bank angle and/or load factor WILL have 
