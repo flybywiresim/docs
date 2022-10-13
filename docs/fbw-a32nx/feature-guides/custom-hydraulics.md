@@ -77,7 +77,7 @@ To revert the process and stow the crank handle back into its place, just click 
     - Ability to reach downlock position
 
 !!! warning "Gear lever when using gravity extension"
-    When gravity etension is used, you have to set gear lever to down position to avoid possible LGCIU faults. Failing to do so also causes a current ground collision bug.
+    When gravity etension is used, you have to set gear lever to down position to avoid possible LGCIU faults. 
     
 ### Known Issues
 
@@ -88,4 +88,3 @@ To revert the process and stow the crank handle back into its place, just click 
 --}
 
 - If a hardware input is set to GEAR UP or GEAR DOWN, in-cockpit lever cannot be clicked or mouse dragged.
-- Using gravity gear extension with gear lever up causes a sim bug with ground collision detection.
