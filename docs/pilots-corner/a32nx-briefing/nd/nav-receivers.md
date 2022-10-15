@@ -4,7 +4,7 @@
 ---
 
 <div style="position: relative;">
-    <img src="/pilots-corner/assets/a32nx-briefing/nd/nd.png" style="width: 100%; height: auto;">
+    <img src="/pilots-corner/assets/a32nx-briefing/nd/ndconst.png" style="width: 100%; height: auto;">
     <a href="/pilots-corner/a32nx-briefing/nd/tpl/">               <div class="imagemap" style="visibility: visible; position: absolute; left:     0%; top:     0%; width:   17.5%; height: 8%;"><span class="imagemapname">Top Left Corner</span></div></a>
     <a href="/pilots-corner/a32nx-briefing/nd/tpr/">               <div class="imagemap" style="visibility: visible; position: absolute; left:     79.5%; top:     0%; width:   20.5%; height: 13%;"><span class="imagemapname">Top Right Corner</span></div></a>
     <a href="/pilots-corner/a32nx-briefing/nd/crs/">               <div class="imagemap" style="position: absolute; left: 45%; top: 16.5%; width: 10.25%; height: 70%;"><span class="imagemapname">Course</span></div></a>
@@ -41,7 +41,9 @@ ADF1: Indicates the ADF receivers currently being displayed on the Navigation Di
 The pilots can display ADF1 or ADF2 via the <a href="/pilots-corner/a32nx-briefing/flight-deck/glareshield/efis_control/#adf-vor-select-switches"> EFIS Control Panel </a>
 
 ### Identifier or Frequency
-
+M stands for manually tuned in the MCDU
+R stands for tuned through the RMP (Radio Management Panel)
+Nothing stands for automatically tuned by the FMGC
 ---
 
 ## Chapters

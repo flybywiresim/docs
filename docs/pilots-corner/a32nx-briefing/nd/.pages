@@ -1,8 +1,8 @@
 title: ND
 nav:
  - Overview: index.md
- - Course: crs.md
- - Selected Heading: sel-heading.md
- - Other Messages: other-msg.md
- - Chronometer: chrono.md
- - Navigation Receivers: nav-receivers.md
+ - Rose LS: rose-ls.md
+ - ROSE VOR: rose-vor.md
+ - ROSE NAV: rose-nd.md
+ - ARC: arc.md
+ - PLAN: plan.md
