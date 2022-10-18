@@ -141,7 +141,7 @@ The controls are similar to the Navigraph chart view (see above) although there 
 
 ### Where to Store Local Files
 
-The local files need to be stored in the following folders:
+The local files need to be stored in the following folders (located by default in your community directory):
 
 | Type   | Folder Location                               |
 |--------|-----------------------------------------------|
