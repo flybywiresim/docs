@@ -27,6 +27,9 @@ You can choose to use other software/websites to plan your route but when using 
 
 If you wish to expedite the process of inputting your flight plan on the MCDU we have incorporated a simBrief import function on the MCDU. Our EFB can also display your generated OFP within MSFS.
 
+!!! warning "IMPORTANT"
+    If you plan to import the flight plan from Simbrief, do not select an arrival airport on the MSFS world menu or flight planner. Doing this "initializes" the `FROM/TO` field when loading into your flight removing the `INIT REQ.` option from the `INIT A` page.
+
 [SimBrief A32NX Features](../../fbw-a32nx/feature-guides/simbrief.md){.md-button}
 
 ### Manual Flight Planning
