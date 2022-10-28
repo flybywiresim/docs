@@ -23,7 +23,7 @@ require fewer extra steps before launching into your flights.
     Please keep SimBridge updated at all times regardless of the version of aircraft you are currently flying!
 
     !!! tip ""
-        Reminder: Any feature available in Development will also be available in Experimental.
+        Reminder: Any feature available in the Development version will also be available in the Experimental version.
     
     ---
 
