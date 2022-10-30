@@ -49,10 +49,10 @@ powered by the FWS truly won't work when both FWCs are unpowered or have failed.
 The following are features in testing that require the use of SimBridge:
 
 - [Terrain Display](#terrain-display)
-- Remote MCDU (Web MCDU) 
+- Remote MCDU (Web MCDU) - **Now Available on the Development Version**
     - [Setup and Configuration Guide](../../simbridge/remote-displays/configuration.md)
     - [Usage Guide](../../simbridge/remote-displays/remote-mcdu.md)
-- [Company Routes](#company-routes)
+- [Company Routes](#company-routes) - **Now Available on the Development Version**
 
 !!! tip "SimBridge Information"
     - Learn about SimBridge and further status of various features please - [Read Here](../../simbridge/index.md).
@@ -80,6 +80,8 @@ You can read more about the "PEAKS DISPLAY" in this technical guide from Honeywe
 #### Company Routes
 
 This feature allows you to save routes you regularly fly to your PC in the simBrief XML Datafiles format for repeated use.
+
+**Available on the Development Version.**
 
 !!! tip "Configuration and Usage"
     [Company Routes Guide](../../simbridge/coroute.md){.md-button}
