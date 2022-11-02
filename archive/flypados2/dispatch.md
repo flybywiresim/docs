@@ -39,12 +39,12 @@ The OFP (Operational Flight Plan) will be displayed on this page after importing
 
 
 !!! block "Zoom"
-    ![flyPad OFP Page Zoom](../../assets/flypados2/ofp-zoom.png "flyPad OFP Page Zoom"){align=left}
+    ![flyPad OFP Page Zoom](../assets/flypados2/ofp-zoom.png "flyPad OFP Page Zoom"){align=left}
 
     The OFP can be zoomed in and out with these buttons.
 
 !!! block "Scroll"
-    ![flyPad OFP Scrollbar](../../assets/flypados2/ofp-scroll.png "flyPad OFP Scrollbar"){align=left}
+    ![flyPad OFP Scrollbar](../assets/flypados2/ofp-scroll.png "flyPad OFP Scrollbar"){align=left}
 
     You can scroll through the OFP by using the scrollbar on the right. 
 
@@ -68,7 +68,7 @@ The fuel page provides accurate information about the quantity of fuel in the di
 
 ### Fuel and De-Fuel
 
-![flyPad Fuel Page Refuel](../../assets/flypados2/fuel-refuel.png "flyPad Fuel Page Refuel")
+![flyPad Fuel Page Refuel](../assets/flypados2/fuel-refuel.png "flyPad Fuel Page Refuel")
 
 To set the fuel quantity simply click into the input field and change the value to the desired quantity.
 
@@ -76,6 +76,6 @@ Press the "play" symbol to start the refuelling process (de-fueling if the new q
 
 ### Realism Settings for Fuel Time
 
-![flyPad Fuel Page Fuel Time](../../assets/flypados2/fuel-time.png "flyPad Fuel Page Fuel Time")
+![flyPad Fuel Page Fuel Time](../assets/flypados2/fuel-time.png "flyPad Fuel Page Fuel Time")
 
 Set this setting to the desired duration of refueling. Either instant refueling (Instant - but unrealistic), realistic refuel time (Real) or a middle ground (Fast).

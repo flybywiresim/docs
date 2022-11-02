@@ -150,7 +150,7 @@ stations and air stations. The current implementation works with fixed timings t
     - User can set the simulated boarding time to either a realistic time (~15min), a faster time (~3-4min), or instant.
         - Based on full load - 174 passengers and full cargo.
 - MCDU Keyboard Input (unrealistic)
-    - Enables the MCDU Keyboard input feature (see [MCDU Keyboard](../mcdu-keyboard.md)).
+    - Enables the MCDU Keyboard input feature (see [MCDU Keyboard](../../docs/fbw-a32nx/feature-guides/mcdu-keyboard.md)).
 - MCDU Focus Timeout (s)
     - The timeout feature will "automatically unfocus" the MCDU screen after the given amount of seconds.
     - Valid range is 5 - 120 seconds.
@@ -158,7 +158,7 @@ stations and air stations. The current implementation works with fixed timings t
     - User can chose to use how the nose wheel shall be controlled:
         - Legacy mode (Disabled): Rudder controls also move the nose wheel. No separation.
         - Realistic mode (Enabled): Nose Wheel steering with tiller handwheel is separate from the rudder.
-            - See our guide: [Nose Wheel and Tiller Operation](../nw-tiller.md)
+            - See our guide: [Nose Wheel and Tiller Operation](../../docs/fbw-a32nx/feature-guides/nw-tiller.md)
 - Home Cockpit Mode
     - Removes backlight bleed from PFD, ND, and ECAMs
     - Removes reflection from the ISIS
@@ -203,7 +203,7 @@ Settings for integrations with various data and information sources.
 
     - If enabled a message will be displayed to confirm sharing of the free text and position data to the public.
 
-        ![flypad-settings-atsu-aoc-telex-warning](../../assets/flypados2/flypad-settings-atsu-aoc-telex-warning.png)
+        ![flypad-settings-atsu-aoc-telex-warning](../assets/flypados2/flypad-settings-atsu-aoc-telex-warning.png)
 
 - Error Reporting
     - Enables error reports to be sent to Sentry.io to allow the FlyByWire team to easier find and fix issues with the aircraft.
@@ -211,7 +211,7 @@ Settings for integrations with various data and information sources.
     - See [next chapter](#simbrief-integration).
 - Hoppie User ID:
     - Unique logon code that is used to identify the user for the Hoppie ACARS communication.
-    - See [Create a logon code](../hoppie.md#create-a-logon-code) in our documentation for Hoppie ACARS.
+    - See [Create a logon code](../../docs/fbw-a32nx/feature-guides/hoppie.md#create-a-logon-code) in our documentation for Hoppie ACARS.
 
 ### simBrief Integration
 
@@ -220,15 +220,15 @@ Before you can use the A32NX simBrief Integration you need to provide your simBr
 - Simbrief Username/Pilot ID:
     - Enter your simBrief username or Pilot ID.
 
-        ![simBrief Account field](../../assets/flypados2/simbrief-account-field.png "simBrief Account field")
+        ![simBrief Account field](../assets/flypados2/simbrief-account-field.png "simBrief Account field")
 
     - If you entered a wrong username or Pilot ID a red error message will be displayed.
 
-        ![simBrief Account Field Error](../../assets/flypados2/simbrief-account-field-error.png "simBrief Account Field Error")
+        ![simBrief Account Field Error](../assets/flypados2/simbrief-account-field-error.png "simBrief Account Field Error")
 
 To get your simBrief username or Pilot ID you can go to your simBrief Account settings and open "Simbrief Data".
 
-![simBrief Account Data](../../assets/flypados2/simbrief-account-data.png "simBrief Account Data")
+![simBrief Account Data](../assets/flypados2/simbrief-account-data.png "simBrief Account Data")
 
 ## Audio
 
@@ -260,7 +260,7 @@ Settings for various audio sources and sounds.
 
 For detailed information on these settings please visit:
 
-[Audio Configuration Page](../audio.md){.md-button}
+[Audio Configuration Page](../../docs/fbw-a32nx/feature-guides/audio.md){.md-button}
 
 ## flyPad Settings
 

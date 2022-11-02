@@ -175,7 +175,7 @@ If the tests are successful please move to the next chapter. Otherwise go throug
 Configure the basic characteristics of your controller at the top of the calibration page.
 
 ??? note "How to Setup the Controller Basics"
-    ![Calibration Base Settings](../../assets/flypados2/throttle-calibration/base-settings.png "Calibration Base Settings"){loading=lazy}
+    ![Calibration Base Settings](../assets/flypados2/throttle-calibration/base-settings.png "Calibration Base Settings"){loading=lazy}
 
     Set `Reverser on Axis` to ON if your throttle has a range for the reverser thrust (lowest setting is full reverse).
 
@@ -203,7 +203,7 @@ Usually there is no need to change the deadbands for the detents as the default 
 ==}
 
 ??? note "How to Check and Change the Deadbands"
-    ![Deadband around a detent setting](../../assets/flypados2/throttle-calibration/deadband-setting.png "Deadband around a detent setting"){loading=lazy}
+    ![Deadband around a detent setting](../assets/flypados2/throttle-calibration/deadband-setting.png "Deadband around a detent setting"){loading=lazy}
 
     The image above shows the controller in the `IDLE` position with a
     control value of -0.50.
@@ -263,7 +263,7 @@ repeat the process from [Step 4.](#4-start-with-full-reverser-or-idle) for each 
 Click on "Save & Apply".
 
 ??? note "Save & Apply"
-    ![EFB-SaveApply](../../assets/flypados2/throttle-calibration/EFB-SaveApply.png "EFB-SaveApply"){loading=lazy}
+    ![EFB-SaveApply](../assets/flypados2/throttle-calibration/EFB-SaveApply.png "EFB-SaveApply"){loading=lazy}
 
 ### 7. Test
 
@@ -644,7 +644,7 @@ Click on "Save & Apply".
 
 If you have done a previous calibration or if you have trouble with the calibration you can reset the calibration to its default values by pressing the reset button.
 
-![EFB-Calibration-Page](../../assets/flypados2/throttle-calibration/efb-calibration-page-reset.png "EFB-Calibration-Page"){loading=lazy}
+![EFB-Calibration-Page](../assets/flypados2/throttle-calibration/efb-calibration-page-reset.png "EFB-Calibration-Page"){loading=lazy}
 
 After clicking the Reset button you can also click the Apply button so the default settings are send to the aircraft.
 
@@ -654,7 +654,7 @@ One of the most common issues is overlapping detents. Especially when coming fro
 
 **You can't Save and/or Apply** while this error message is shown!
 
-![EFB-Overlapping-Detents](../../assets/flypados2/throttle-calibration/EFB-Overlapping-Detents.jpg "EFB-Overlapping-Detents"){loading=lazy}
+![EFB-Overlapping-Detents](../assets/flypados2/throttle-calibration/EFB-Overlapping-Detents.jpg "EFB-Overlapping-Detents"){loading=lazy}
 
 This can easily be fixed by carefully following the steps [above](#4-start-with-full-reverser-or-idle) which will remove the error message which then in turn allows to `SAVE & APPLY`.
 
