@@ -135,20 +135,6 @@ altitude after takeoff.
 
 You can also use the same flight plan in both the MSFS World Planner and the MCDU to have the ATC be aware of your flight plan. This can be done in two different ways:
 
-- [Custom Flight Management System](#custom-flight-management-system)
-  - [Features](#features)
-    - [Latest - Version 1.5](#latest---version-15)
-    - [Older Versions](#older-versions)
-  - [Guides and Information](#guides-and-information)
-  - [Known Issues](#known-issues)
-  - [Special Notes](#special-notes)
-    - [Sync the MCDU flight plan to MSFS ATC](#sync-the-mcdu-flight-plan-to-msfs-atc)
-    - [Load the same flight plan in the World Planner and the MCDU](#load-the-same-flight-plan-in-the-world-planner-and-the-mcdu)
-      - [Importing a 3rd party flight plan](#importing-a-3rd-party-flight-plan)
-      - [Using the World Planner to generate a flight plan](#using-the-world-planner-to-generate-a-flight-plan)
-    - [WX/TER](#wxter)
-    - [Flight Path Rendering](#flight-path-rendering)
-
 Both options are described in more detail below.
 
 **We recommend** the flyPad flight plan sync feature is set to `None` before attempting this. This would allow MSFS to follow your flight plan independently of our custom FMS.
