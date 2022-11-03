@@ -133,7 +133,7 @@ altitude after takeoff.
 
 ### Load the same flight plan in the World Planner and the MCDU
 
-You can also use the same flight plan in both the MSFS World Planner and the MCDU to have the ATC be aware of your flight plan. This can be done in two different ways:
+You can also use the same flight plan in both the MSFS World Planner and the MCDU to have MSFS ATC be aware of your flight plan. This can be done in two different ways:
 
 Both options are described in more detail below.
 
