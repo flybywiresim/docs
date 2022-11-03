@@ -32,7 +32,7 @@ The MSFS CoherentGT engine API is emulated in `ace`, including the `call`, `trig
 ## Setup
 
 1. Clone [https://github.com/flybywiresim/ace](https://github.com/flybywiresim/ace) locally
-2. Go to the clone's folder and do `npm -i --force`
+2. Go to the clone's folder and do `npm i --force`
 3. Run ace with `npm start`
 4. After running the program, select New Project and choose the locations of all your folders. (see [below] (#example-config))
 5. Add a Web Instrument to localhost:9696 (right-click on the project canvas)
