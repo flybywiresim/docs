@@ -99,8 +99,8 @@ This will load your flight plan from simBrief directly into the MCDU
 
 !!! note 
     #### RWY, SID, STAR, and APPR
-    The SimBrief import will not load RWY, SID, STAR, or APPR. You will need to manually add these into the flight 
-    plan. To learn how to set up the MCDU you can read the 
+    The SimBrief import will <span style=color:red>**not**</span> load RWY, SID, STAR, or APPR. You will need to 
+    manually add these into the flight plan. To learn how to set up the MCDU you can read the 
     [**^^F^^**LIGHT PLAN](../../pilots-corner/beginner-guide/preparing-mcdu.md#flight-plan) section 
     in our beginner's guide.
     <p />
