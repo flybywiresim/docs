@@ -55,9 +55,12 @@ See [Fuel and Weight](loading-fuel-weight.md) on how to load fuel and payload.
 
 ### Importing the simBrief OFP to the FMS (MCDU)
 
-We've included a quick method to have your simBrief OFP automatically loaded into the MCDU. Please do not select an arrival airport on the MSFS world menu otherwise the integration will not work.
+We've included a quick method to have your simBrief OFP automatically loaded into the MCDU. 
 
-This portion of the guide assumes that you understand how to generate a simBrief OFP.
+!!! warning "Please do not select an arrival airport on the MSFS world menu otherwise the integration will not work."
+
+This portion of the guide assumes that you understand how to generate a simBrief OFP. 
+Otherwise read the [simBrief User Guide](https://www.simbrief.com/system/guide.php){target=new} first.
 
 !!! warning "Please Enable Detailed Navlog simBrief Setting"
     ![OFP Settings](../assets/feature-guides/simbrief/OFP-settings.png){loading=lazy align=left} 
@@ -94,7 +97,16 @@ This will load your flight plan from simBrief directly into the MCDU
 
 ![MCDU INIT A](../../fbw-a32nx/assets/feature-guides/simbrief/mcdu1b.png "MCDU INIT A"){loading=lazy}
 
-To learn how to set up the MCDU you can read the [**^^F^^**LIGHT PLAN](../../pilots-corner/beginner-guide/preparing-mcdu.md#flight-plan) section in our beginner's guide.
+!!! note 
+    #### RWY, SID, STAR, and APPR
+    The SimBrief import will not load RWY, SID, STAR, or APPR. You will need to manually add these into the flight 
+    plan. To learn how to set up the MCDU you can read the 
+    [**^^F^^**LIGHT PLAN](../../pilots-corner/beginner-guide/preparing-mcdu.md#flight-plan) section 
+    in our beginner's guide.
+    <p />
+    This is because RWY, SID, STAR and APPR are dependent on factors like active runways, traffic, weather, 
+    etc. and are determined by ATC and not the pilot's flight plan. They can be changed by ATC any time before 
+    takeoff or during flight and are therefore not imported in real life aircraft either.  
 
 ### Fuel and Weight
 
