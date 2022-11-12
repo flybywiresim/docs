@@ -23,12 +23,17 @@ It also allows you to use your real printer as a cockpit printer for the MCDU.
 !!! warning "Notice"
     Ensure SimBridge has [started](../autostart.md#autostart)
 
+### Option 1
+
 - Tray Icon
-  - Open the MCDU remote display via the tray-icon
-  ![tray icon remote mcdu](../assets/simbridge/trayicon-remote-mcdu.png){loading=lazy}
+- Open the MCDU remote display via the tray-icon
+  ![simbridge-context-menu](../assets/simbridge/simbridge-context-menu.png){loading=lazy}
+
+### Option 2
+
 - Web browser
-  - Open your browser of choice and navigate to http://{[IP Address](../troubleshooting.md#network-configuration)}:{[Port](../configuration.md#server-settings)}/interfaces/mcdu
-  - for example: `http://192.168.1.21:8380/interfaces/mcdu`
+- Open your browser of choice and navigate to http://{[IP Address](../troubleshooting.md#network-configuration)}:{[Port](../configuration.md#server-settings)}/interfaces/mcdu
+    - for example: `http://192.168.1.21:8380/interfaces/mcdu`
 
 ## How to Use the MCDU Remote Display
 

@@ -9,8 +9,11 @@ The main window running SimBridge displays the servers log file information and 
 !!! info "Note"
     This window does not need to remain open and can be re-hidden using the system's tray icon.
 
+    !!! warning "Windows 11 Changes"
+        A recent update to Windows 11 made `windows terminal` the default console (replacing `console host`). Unfortunately, at this time `windows terminal` does not support being minmized to the tray.
+
 !!! warning "Notice"
-    If the main window is closed (via the (X) button), SimBridge will be closed entirely and will need to be [restarted](autostart.md#manual-start)
+    If the main window is closed (via the (X) button), SimBridge will be closed entirely and will need to be [restarted](autostart.md#manual-start).
 
 ## Network Configuration
 
@@ -20,13 +23,9 @@ This is typically the case if both, the PC and the device use the same Internet 
 
 To check this you can look at the IP address the MCDU server has listed in its [main window](#main-window) while starting.
 
-Or check it as described here: [Find your IP address in Windows](https://support.microsoft.com/en-au/windows/find-your-ip-address-in-windows-f21a9bbc-c582-55cd-35e0-73431160a1b9)
+[//]: # (Or check it as described here: [Find your IP address in Windows]&#40;https://support.microsoft.com/en-au/windows/find-your-ip-address-in-windows-f21a9bbc-c582-55cd-35e0-73431160a1b9&#41;)
 
 In the example above the IP address is `192.168.1.19`.
-
-Your device should typically also have an IP address starting with `192.168.1.x` in this case.
-
-You can check this in the device's network configuration.
 
 ??? tip "Examples for Device Network Information (click to expand)"
     **iPad:**
@@ -36,6 +35,16 @@ You can check this in the device's network configuration.
     **Samsung Android:**
 
     ![Samsung Network Info](assets/samsung-network-info.png "Samsung Network Info"){loading=lazy}
+
+
+
+
+!!! tip "Alternate Method: Open MCDU from Tray"
+    You can also directly open the Remote MCDU from the system tray by selecting "Open MCDU" in the context menu when using ++"Right Click"++ with your mouse.
+
+    ![simbridge-context-menu](assets/simbridge/simbridge-context-menu.png){loading=lazy}
+
+    You can then copy paste this hyperlink or send it to another device (via browser functions) in order to more easily access the Remote MCDU.
 
 If you still can't connect to SimBridge's remote displays your firewall might be blocking the traffic. See next chapter.
 
