@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600&display=swap');
 
 /*Primary Thematic Colors*/
-:root {
+:root > * {
   --md-primary-fg-color:        #00E0FE;
   --md-primary-fg-color--dark:  hsl(216,32%,17%);
   --md-primary-fg-color--light: #00E0FE;
