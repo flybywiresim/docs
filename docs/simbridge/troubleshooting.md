@@ -25,6 +25,8 @@ To check this you can look at the IP address the MCDU server has listed in its [
 
 In the example above the IP address is `192.168.1.19`.
 
+Your device should typically also have an IP Address starting with `192.168.1.x` in this case. (This is a good way to quickly verify that your remote device is even on the same network.)
+
 ??? tip "Examples for Device Network Information (click to expand)"
     **iPad:**
 
