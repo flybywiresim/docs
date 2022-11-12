@@ -36,9 +36,6 @@ In the example above the IP address is `192.168.1.19`.
 
     ![Samsung Network Info](assets/samsung-network-info.png "Samsung Network Info"){loading=lazy}
 
-
-
-
 !!! tip "Alternate Method: Open MCDU from Tray"
     You can also directly open the Remote MCDU from the system tray by selecting "Open MCDU" in the context menu when using ++"Right Click"++ with your mouse.
 
