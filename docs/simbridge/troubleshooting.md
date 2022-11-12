@@ -23,8 +23,6 @@ This is typically the case if both, the PC and the device use the same Internet 
 
 To check this you can look at the IP address the MCDU server has listed in its [main window](#main-window) while starting.
 
-[//]: # (Or check it as described here: [Find your IP address in Windows]&#40;https://support.microsoft.com/en-au/windows/find-your-ip-address-in-windows-f21a9bbc-c582-55cd-35e0-73431160a1b9&#41;)
-
 In the example above the IP address is `192.168.1.19`.
 
 ??? tip "Examples for Device Network Information (click to expand)"
@@ -35,13 +33,6 @@ In the example above the IP address is `192.168.1.19`.
     **Samsung Android:**
 
     ![Samsung Network Info](assets/samsung-network-info.png "Samsung Network Info"){loading=lazy}
-
-!!! tip "Alternate Method: Open MCDU from Tray"
-    You can also directly open the Remote MCDU from the system tray by selecting "Open MCDU" in the context menu when using ++"Right Click"++ with your mouse.
-
-    ![simbridge-context-menu](assets/simbridge/simbridge-context-menu.png){loading=lazy}
-
-    You can then copy paste this hyperlink or send it to another device (via browser functions) in order to more easily access the Remote MCDU.
 
 If you still can't connect to SimBridge's remote displays your firewall might be blocking the traffic. See next chapter.
 
