@@ -23,7 +23,7 @@ It also allows you to use your real printer as a cockpit printer for the MCDU.
 !!! warning "Notice"
     Ensure SimBridge has [started](../autostart.md#autostart)
 
-### Option 1
+### Option 1: Tray Icon
 
 You can also directly open the Remote MCDU from the system tray by selecting "Open MCDU" in the context menu when using ++"Right Click"++ with your mouse.
 
@@ -31,14 +31,11 @@ You can also directly open the Remote MCDU from the system tray by selecting "Op
 
  You can then copy paste this hyperlink or send it to another device (via browser functions) in order to more easily access the Remote MCDU.
 
-### Option 2
+### Option 2: Web Browser
 
 - Web browser
-- Open your browser of choice and navigate to http://{[IP Address](../troubleshooting.md#network-configuration)}:{[Port](../configuration.md#server-settings)}/interfaces/mcdu
+- Open your browser of choice and navigate to http://{[Computer's Local IP Address](https://support.microsoft.com/en-au/windows/find-your-ip-address-in-windows-f21a9bbc-c582-55cd-35e0-73431160a1b9){target=new}}:{[Port](../configuration.md#server-settings)}/interfaces/mcdu
     - for example: `http://192.168.1.21:8380/interfaces/mcdu`
-
-!!! info "Finding your Local IP Address in Windows"
-    If you are having any issues finding your local IP address see the following guide [here](https://support.microsoft.com/en-au/windows/find-your-ip-address-in-windows-f21a9bbc-c582-55cd-35e0-73431160a1b9){target=new}.
 
 ## How to Use the MCDU Remote Display
 

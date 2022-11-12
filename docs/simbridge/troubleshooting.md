@@ -10,7 +10,7 @@ The main window running SimBridge displays the servers log file information and 
     This window does not need to remain open and can be re-hidden using the system's tray icon.
 
     !!! warning "Windows 11 Changes"
-        A recent update to Windows 11 made `windows terminal` the default console (replacing `console host`). Unfortunately, at this time `windows terminal` does not support being minmized to the tray.
+        A recent update to Windows 11 made `Windows Terminal` the default console (replacing `console host`). Unfortunately, at this time `Windows Terminal` does not support being minmized to the tray.
 
 !!! warning "Notice"
     If the main window is closed (via the (X) button), SimBridge will be closed entirely and will need to be [restarted](autostart.md#manual-start).
