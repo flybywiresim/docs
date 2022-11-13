@@ -27,6 +27,8 @@ In the example above the IP address is `192.168.1.19`.
 
 Your device should typically have an IP Address starting with the same three sets of numbers (starting with 192.168.1 in this case). This is a good way to quickly verify that your remote device is even on the same network.
 
+You can confirm your device is on the same network on that device's network configuration. See tip below.
+
 ??? tip "Examples for Device Network Information (click to expand)"
     **iPad:**
 
