@@ -3,7 +3,9 @@
 
 # Navigation Display (ND)
 
-## Interactive EFIS Control Panel
+## Interactive EFIS Control Panel 
+In order to interact with the EFIS click on the text (LS, VOR, NAV, ARC, PLAN) <br/>
+For more detailed information about the EFIS control panel see [EFIS Control Panel](efis_contro.md)
 
 <div style="position: relative;">
     <img src="/pilots-corner/assets/a32nx-briefing/glareshield/EFIS-Control.jpg" style="width: 100%; height: auto;">
