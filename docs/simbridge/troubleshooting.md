@@ -9,8 +9,11 @@ The main window running SimBridge displays the servers log file information and 
 !!! info "Note"
     This window does not need to remain open and can be re-hidden using the system's tray icon.
 
+    !!! warning "Windows 11 Changes"
+        A recent update to Windows 11 made `Windows Terminal` the default console (replacing `console host`). Unfortunately, at this time `Windows Terminal` does not support being minmized to the tray.
+
 !!! warning "Notice"
-    If the main window is closed (via the (X) button), SimBridge will be closed entirely and will need to be [restarted](autostart.md#manual-start)
+    If the main window is closed (via the (X) button), SimBridge will be closed entirely and will need to be [restarted](autostart.md#manual-start).
 
 ## Network Configuration
 
@@ -20,13 +23,11 @@ This is typically the case if both, the PC and the device use the same Internet 
 
 To check this you can look at the IP address the MCDU server has listed in its [main window](#main-window) while starting.
 
-Or check it as described here: [Find your IP address in Windows](https://support.microsoft.com/en-au/windows/find-your-ip-address-in-windows-f21a9bbc-c582-55cd-35e0-73431160a1b9)
-
 In the example above the IP address is `192.168.1.19`.
 
-Your device should typically also have an IP address starting with `192.168.1.x` in this case.
+Your device should typically have an IP Address starting with the same three sets of numbers (starting with 192.168.1 in this case). This is a good way to quickly verify that your remote device is even on the same network.
 
-You can check this in the device's network configuration.
+You can confirm your device is on the same network on that device's network configuration. See tip below.
 
 ??? tip "Examples for Device Network Information (click to expand)"
     **iPad:**
