@@ -31,6 +31,7 @@ The weather radar image can be displayed in all modes except PLAN.
 !!! info "Future Update"
     A more in depth description of the Navigation Display is currently being developed and will be available in the near future.
 
+    Documentation on the various [vertical guidance symobology](../../../advanced-guides/flight-guidance/vertical-guidance/nd-symbols.md) is now available.
 
 ## Usage
 
