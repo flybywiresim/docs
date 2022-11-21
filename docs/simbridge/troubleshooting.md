@@ -19,9 +19,9 @@ The main window running SimBridge displays the servers log file information and 
 
 ### Windows 11 System Tray Instructions
 
-With the `Windows 11 22H2` update, Windows Terminal is now the default terminal on Windows 11. As described earlier, Windows Terminal no longer supports being minimized to the tray. 
+With the `Windows 11 22H2` update, `Windows Terminal` is now the default terminal on Windows 11. 
 
-The instructions below detail how to regain this functionality at the expense of changing your "default console".
+As described earlier, `Windows Terminal` no longer supports being minimized to the tray. The instructions below detail how to regain this functionality at the expense of changing your "default console".
 
 !!! warning ""
     Please note that switching your default terminal to console host will mean that you lose access to `Windows Terminal` unless you specifically wish to open it.
