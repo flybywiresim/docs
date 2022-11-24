@@ -12,6 +12,19 @@ The main window running SimBridge displays the servers log file information and 
 !!! warning "Notice"
     If the main window is closed (via the (X) button), SimBridge will be closed entirely and will need to be [restarted](autostart.md#manual-start)
 
+## FlyPad Settings
+
+FlyPad will stop trying to connect to simbridge after a 5 minute timer.
+Check the connectivity status on FlyPad by checking if the wifi icon on the top is crossed.
+![FlyPad Wifi](../fbw-a32nx/assets/flypados3/flypad-dashboard-menu.png){loading=lazy}
+
+!!! block ""
+    ![FlyPad Sim Options](../fbw-a32nx/assets/flypados3/flypad-settings-sim-options.png){loading=lazy align=left width=50%}
+    
+    - If the wifi / connectivity icon is crossed, head to Flypad settings --> Sim Options
+    - To attempt connection : Simbridge Connection: Turn "AUTO" to "OFF" and "AUTO" again.
+
+
 ## Network Configuration
 
 To access SimBridge's remote displays from a remote device you need to make sure that this device is on the same network as the PC running the MCDU Server.
