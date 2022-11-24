@@ -48,7 +48,7 @@ powered by the FWS truly won't work when both FWCs are unpowered or have failed.
 
 The following are features in testing that require the use of SimBridge:
 
-- [Terrain Display](#terrain-display)
+- [Terrain Display](#terrain-display) - **Now Available on the Development Version**
 - Remote MCDU (Web MCDU) - **Now Available on the Development Version**
     - [Setup and Configuration Guide](../../simbridge/remote-displays/configuration.md)
     - [Usage Guide](../../simbridge/remote-displays/remote-mcdu.md)
@@ -60,15 +60,14 @@ The following are features in testing that require the use of SimBridge:
 
 #### Terrain Display
 
-![terrain example](../assets/support-guide/terrain1.png){loading=lazy}
-
-This feature will connect to our external database via SimBridge to accurately display terrain information on the navigation display. We've followed the peaks-mode implementation 
-of honeywell and do not have map-data above 83° north or below 84° south. 
-
-You can read more about the "PEAKS DISPLAY" in this technical guide from Honeywell - [Read Here](https://skybrary.aero/sites/default/files/bookshelf/3364.pdf){target=new}
+**Available on the Development Version.**
 
 !!! tip "Configuration"
     [Terrain Usage Guide](../../simbridge/terrain.md){.md-button}
+
+This feature will connect to our external database via SimBridge to accurately display terrain information on the navigation display. We've followed the peaks-mode implementation of honeywell and do not have map-data above 83° north or below 84° south. 
+
+You can read more about the "PEAKS DISPLAY" in this technical guide from Honeywell - [Read Here](https://skybrary.aero/sites/default/files/bookshelf/3364.pdf){target=new}
 
 !!! warning "Reporting Bugs / Strange Behaviors"
     When reporting a bug or strange behavior that we need the GPS position or at least a reference to an airport/VOR/NDB with a distance and direction. 
