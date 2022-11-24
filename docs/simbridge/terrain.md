@@ -1,14 +1,15 @@
 # Terrain Display
-![terrain display](https://user-images.githubusercontent.com/64070348/171737355-3633f9dc-b3f9-44fe-8dd0-34e6e8a7569f.png){loading=lazy}
+![terrain display](assets/terr-nd1.png){loading=lazy}
 
-!!! danger "Experimental-Only"
-    This feature is only available on [experimental](../fbw-a32nx/support/exp.md), as this feature is currently in testing, expect performance loss as we continue to optimise.
+<small>Sicily, Italy</small>
 
 The Terrain Awareness and Warning Systems (TAWS) is a system used to alert the flight crew in a timely manner of hazardous situations ahead of the airport to avoid Controlled 
 Flight Into Terrain (CFIT). A part of TAWS is to overlay the approach terrain on the [ND](../pilots-corner/a32nx-briefing/flight-deck/front/nd.md), referred to as Terrain Awareness and Display (TAD), for the awareness of the crew. This display is derived from a database and subsequently can be out of date which can lead to TAWS making false positives and general nuisances to the crew.
 
 !!! warning "Note"
-    SimBridge *must* be [running](autostart.md) in order for the Terrain Display to function
+    SimBridge *must* be [running](autostart.md) in order for the Terrain Display to function.
+
+    Please be aware that we are still continously optimizing performance of the TERR ON ND feature.
 
 ## Terrain Database
 The aforementioned database has a worldwide coverage and is defined according to a standardized Earth Model, dividing the surface into grid sets. Several optimizations have been made to the database to deal with size constraints within the aircraft.
@@ -36,7 +37,9 @@ The terrain is displayed according to the vertical displacement between the terr
 #### Peaks mode
 In this mode terrain is displayed with regards to the absolute terrain elevation (referring to the sea level instead of the aircraft elevation). It aims to improve terrain awareness of the flight crew. If the aircraft is more than 2,000 ft above the terrain, the terrain is still displayed but with a gradient of green (see right-side of image [below](#colors)). It also displays the highest and lowest terrain elevations as two figures in the bottom right corner of the display.
 
-![taws peak mode](assets/taws_peak_mode.png)
+![taws peaks mode](assets/terr-nd2.png){loading=lazy}
+
+<small>Innsbruck, Austria</small>
 
 ### Colors
 The TAWS displays the surrounding terrain on the ND according to the aircraft's current altitude with color-coding to help provide an understanding to the crew to where they are in relation to the terrain.

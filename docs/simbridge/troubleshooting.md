@@ -9,8 +9,41 @@ The main window running SimBridge displays the servers log file information and 
 !!! info "Note"
     This window does not need to remain open and can be re-hidden using the system's tray icon.
 
+    !!! warning "Windows 11 Changes"
+        A recent update to Windows 11 made `Windows Terminal` the default console (replacing `console host`). Unfortunately, at this time `Windows Terminal` does not support being minmized to the tray.
+
+        If you would like to revert back to `console host` to regain the hide to system tray function please see [Windows 11 System Tray Instructions](#windows-11-system-tray-instructions) below. 
+
 !!! warning "Notice"
-    If the main window is closed (via the (X) button), SimBridge will be closed entirely and will need to be [restarted](autostart.md#manual-start)
+    If the main window is closed (via the (X) button), SimBridge will be closed entirely and will need to be [restarted](autostart.md#manual-start).
+
+### Windows 11 System Tray Instructions
+
+With the `Windows 11 22H2` update, `Windows Terminal` is now the default terminal on Windows 11. 
+
+As described earlier, `Windows Terminal` no longer supports being minimized to the tray. The instructions below detail how to regain this functionality at the expense of changing your "default console".
+
+!!! warning ""
+    Please note that switching your default terminal to console host will mean that you lose access to `Windows Terminal` unless you specifically wish to open it.
+
+Steps to regain functionality:
+
+- Open settings, and navigate to `Privacy & Security --> For Developers`
+ 
+    ??? info "Example (Click to Expand)"
+        ![W11 Example 1](assets/simbridge/w11ch1.png){loading=lazy}
+
+- Set Terminal to `Windows Console Host`
+
+    ??? info "Example (Click to Expand)"
+        ![W11 Example 2](assets/simbridge/w11ch2.png){loading=lazy}
+
+- Close the settings app and open SimBridge, it should now open in the legacy Windows Console Host.
+
+    ??? info "Example (Click to Expand)"
+        ![W11 Example 3](assets/simbridge/w11ch3.png){loading=lazy}
+
+SimBridge should now be able to be minimized to the tray appropriately.
 
 ## FlyPad Settings
 
@@ -33,13 +66,11 @@ This is typically the case if both, the PC and the device use the same Internet 
 
 To check this you can look at the IP address the MCDU server has listed in its [main window](#main-window) while starting.
 
-Or check it as described here: [Find your IP address in Windows](https://support.microsoft.com/en-au/windows/find-your-ip-address-in-windows-f21a9bbc-c582-55cd-35e0-73431160a1b9)
-
 In the example above the IP address is `192.168.1.19`.
 
-Your device should typically also have an IP address starting with `192.168.1.x` in this case.
+Your device should typically have an IP Address starting with the same three sets of numbers (starting with 192.168.1 in this case). This is a good way to quickly verify that your remote device is even on the same network.
 
-You can check this in the device's network configuration.
+You can confirm your device is on the same network on that device's network configuration. See tip below.
 
 ??? tip "Examples for Device Network Information (click to expand)"
     **iPad:**
