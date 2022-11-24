@@ -33,7 +33,7 @@ require fewer extra steps before launching into your flights.
 
 |                                      Feature                                       |                                         Status                                          |
 |:----------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------:|
-|                           [Terrain Display](terrain.md)                            |                 In [Experimental](../fbw-a32nx/support/exp.md) Version                  |
+|                           [Terrain Display](terrain.md)                            | In [Development](../fbw-a32nx/fbw-versions.md#development-version-recommended) Version  |
 |               [MCDU Remote Display](remote-displays/remote-mcdu.md)                | In [Development](../fbw-a32nx/fbw-versions.md#development-version-recommended) Version  |
 |                        [Company Routes Support](coroute.md)                        | In [Development](../fbw-a32nx/fbw-versions.md#development-version-recommended) Version  |
 | [flyPad Local Charts](../fbw-a32nx/feature-guides/flypados3/charts.md#local-files) | In [Development](../fbw-a32nx/fbw-versions.md#development-version-recommended) Version  |
