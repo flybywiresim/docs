@@ -65,10 +65,7 @@ The following are features in testing that require the use of SimBridge:
 !!! tip "Configuration"
     [Terrain Usage Guide](../../simbridge/terrain.md){.md-button}
 
-![terrain example](../assets/support-guide/terrain1.png){loading=lazy}
-
-This feature will connect to our external database via SimBridge to accurately display terrain information on the navigation display. We've followed the peaks-mode implementation 
-of honeywell and do not have map-data above 83° north or below 84° south. 
+This feature will connect to our external database via SimBridge to accurately display terrain information on the navigation display. We've followed the peaks-mode implementation of honeywell and do not have map-data above 83° north or below 84° south. 
 
 You can read more about the "PEAKS DISPLAY" in this technical guide from Honeywell - [Read Here](https://skybrary.aero/sites/default/files/bookshelf/3364.pdf){target=new}
 
