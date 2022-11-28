@@ -45,7 +45,6 @@ plugins:
       - pilots-corner/advanced-guides/flight-guidance/approaches.md
       - pilots-corner/advanced-guides/flight-guidance/autopilot.md
       - pilots-corner/advanced-guides/flight-guidance/lnav.md
-      - simbridge/pdf-viewer.md
   awesome-pages: {}
   tags: {}
   git-revision-date-localized:
