@@ -120,6 +120,8 @@ Settings for simulation aspects of the A32NX aircraft.
           seconds, and then click on `Auto` again.
     - Off:
         - The aircraft will not make any attempts to connect to the SimBridge.
+    - Also see our [SimBridge Guide](../../../simbridge/index.md) on which features require the SimBridge and how to 
+      set up and configure it. 
  
 - External SimBridge Port
     - User can change the port for the SimBridge in case the default port is already occupied on the user's system.
