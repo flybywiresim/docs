@@ -119,7 +119,7 @@ Settings for simulation aspects of the A32NX aircraft.
         - If `Inactive` is shown, but you want to connect to the SimBridge just click on `Off`, wait a few 
           seconds, and then click on `Auto` again.
     - Off:
-        - The MCDU will not make any attempts to connect to the MCDU Server.
+        - The aircraft will not make any attempts to connect to the SimBridge.
  
 - External SimBridge Port
     - User can change the port for the SimBridge in case the default port is already occupied on the user's system.
