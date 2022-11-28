@@ -116,8 +116,8 @@ Settings for simulation aspects of the A32NX aircraft.
            a new flight.
         - After 5min of unsuccessful connection attempts the aircraft will stop any further attempts and `Inactive` 
           will be shown.
-        - If `Inactive` is shown, but you want to connect to the MCDU server just click on `Off`, wait a few seconds, 
-          and then click on `Auto` again.
+        - If `Inactive` is shown, but you want to connect to the SimBridge just click on `Off`, wait a few 
+          seconds, and then click on `Auto` again.
     - Off:
         - The MCDU will not make any attempts to connect to the MCDU Server.
  
