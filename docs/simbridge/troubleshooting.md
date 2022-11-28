@@ -55,7 +55,7 @@ Check the connectivity status on FlyPad by checking if the wifi icon on the top 
     ![FlyPad Sim Options](../fbw-a32nx/assets/flypados3/flypad-settings-sim-options.png){loading=lazy align=left width=50%}
     
     - If the wifi / connectivity icon is crossed, head to Flypad settings --> Sim Options
-    - To attempt connection : Simbridge Connection: Turn "AUTO" to "OFF" and "AUTO" again.
+    - To attempt connection : Simbridge Connection: Turn "AUTO" to "OFF" for a few seconds and "AUTO" again.
 
 
 ## Network Configuration
