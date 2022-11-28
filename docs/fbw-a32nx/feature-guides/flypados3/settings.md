@@ -107,31 +107,26 @@ Settings for simulation aspects of the A32NX aircraft.
 
         !!! warning "Synchronization Issues Expected"
             The aircraft's custom Flight Management System provides better accuracy and features over the default flight plan manager in Microsoft Flight simulator which results in issues syncing the flight plan from the MCDU back into the simulator. Do not expect it to work properly in all cases.
+
+- Enable SimBridge Connection
+    - Auto:
+        - The aircraft attempts to connect to the SimBridge for 5min after pressing "Ready to Fly" (`Active` is 
+          shown).
+        - If this setting is selected the aircraft will try to connect to the SimBridge for 5min after every start of 
+           a new flight.
+        - After 5min of unsuccessful connection attempts the aircraft will stop any further attempts and `Inactive` 
+          will be shown.
+        - If `Inactive` is shown, but you want to connect to the SimBridge just click on `Off`, wait a few 
+          seconds, and then click on `Auto` again.
+    - Off:
+        - The aircraft will not make any attempts to connect to the SimBridge.
+    - Also see our [SimBridge Guide](../../../simbridge/index.md) on which features require the SimBridge and how to 
+      set up and configure it. 
  
-- Enable MCDU Server Connection
-    - Auto:
-        - The MCDU attempts to connect to the MCDU Server for 5min after pressing "Ready to Fly" (`Active` is shown).
-        - If this setting is selected the MCDU will try to connect to the MCDU Server for 5min after every start of 
-           a new flight.
-        - After 5min of unsuccessful connection attempts the MCDU will stop any further attempts and `Inactive` will be
-          shown.
-        - If `Inactive` is shown, but you want to connect to the MCDU server just click on `Off` and then `Auto` again.
-    - Off:
-        - The MCDU will not make any attempts to connect to the MCDU Server.
-- External MCDU Server Port
-    - User can change the port for the internal MCDU websocket server in case the default port is already occupied on the user's system.
+- External SimBridge Port
+    - User can change the port for the SimBridge in case the default port is already occupied on the user's system.
     - Default is: 8380
-    - ~~This is not the port for using in the browser to access the MCDU Web Interface.~~
-- Enable MCDU Server Connection
-    - Auto:
-        - The MCDU attempts to connect to the MCDU Server for 5min after pressing "Ready to Fly" (`Active` is shown).
-        - If this setting is selected the MCDU will try to connect to the MCDU Server for 5min after every start of 
-           a new flight.
-        - After 5min of unsuccessful connection attempts the MCDU will stop any further attempts and `Inactive` will be
-          shown.
-        - If `Inactive` is shown but you want to connect to the MCDU server just click on `Off` and then `Auto` again.
-    - Off:
-        - The MCDU will not make any attempts to connect to the MCDU Server.
+
 - Dynamic Registration Decal:
     - The dynamic registration number decal shown on the external livery can be disabled to improve appearance when using liveries with a static registration number.
 - Use calculated ILS signals
