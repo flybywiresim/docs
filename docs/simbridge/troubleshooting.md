@@ -49,7 +49,7 @@ SimBridge should now be able to be minimized to the tray appropriately.
 
 FlyPad will stop trying to connect to simbridge after a 5 minute timer.
 Check the connectivity status on FlyPad by checking if the wifi icon on the top is crossed.
-![FlyPad Wifi](../fbw-a32nx/assets/flypados3/flypad-dashboard-connectivity.png){loading=lazy align=center width=78%}
+![FlyPad Wifi](../fbw-a32nx/assets/flypados3/flypad-dashboard-connectivity.png){loading=lazy}
 
 Icon Crossed             |  Icon Normal
 :-------------------------:|:-------------------------:
