@@ -2,8 +2,9 @@
 
 !!! warning "Requires credentials with Hoppie service"
 
-The Hoppie ACARS system is a complex system and we have decided to develop and release it step-by-step. So please be aware that not all features are available in the early
-releases and there may be differences between the **Stable Version** and **Development Version** as outlined below. We will add additional functionality over time.
+The Hoppie ACARS system is a complex system and we have decided to develop and release it step-by-step. 
+
+[//]: # (So please be aware that not all features are available in the early releases and there may be differences between the **Stable Version** and **Development Version** as outlined below. We will add additional functionality over time.)
 
 [//]: # (???+ tip "Development Version - Features &#40;Click to Open&#41;")
 
