@@ -25,10 +25,6 @@ The flight crew can reset the emergency extension system in flight after using i
 
 See our [Custom Hydraulics Guide](../../../../fbw-a32nx/feature-guides/custom-hydraulics.md).
 
-!!! attention ""
-
-    *Not Available in the Stable Version.*
-
 ---
 
 [Back to Flight Deck](../index.md){ .md-button }

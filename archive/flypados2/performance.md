@@ -6,7 +6,7 @@
 
 This calculator helps the pilot to calculate when to start descending (aka the Top of Descent) based on various variables so that different scenarios can be calculated (e.g. descending with 3° descent rate, descending with a given vertical speed, etc.).
 
-For more information about descent and approach planning see our guide: [Descent and Approach Planning](../../../pilots-corner/beginner-guide/descent.md#1-descent-and-approach-planning)
+For more information about descent and approach planning see our guide: [Descent and Approach Planning](../../docs/pilots-corner/beginner-guide/descent.md#1-descent-and-approach-planning)
 
 <div style="position: relative;">
     <img src="/fbw-a32nx/assets/flypados2/flypad-performance-tod.png" style="width: 100%; height: auto;" loading="lazy">
@@ -49,7 +49,7 @@ Example:
 - Descent angle: 3°
 - Ground Speed: has no impact on the calculation because of the fixed angle.
 
-![flyPad Performance TOD Calculator](../../assets/flypados2/performance-tod-angle.png "flyPad Performance TOD Calculator"){loading=lazy}
+![flyPad Performance TOD Calculator](../assets/flypados2/performance-tod-angle.png "flyPad Performance TOD Calculator"){loading=lazy}
 
 **Result: We need to start our descent ^^88NM^^ before the target fix at which we want to reach 11.000ft.**
 
@@ -64,7 +64,7 @@ Example:
 - Distance to fix: 90NM
 - Ground Speed: 450 kt (constant)
 
-![flyPad Performance TOD Calculator](../../assets/flypados2/performance-tod-distance.png "flyPad Performance TOD Calculator"){loading=lazy}
+![flyPad Performance TOD Calculator](../assets/flypados2/performance-tod-distance.png "flyPad Performance TOD Calculator"){loading=lazy}
 
 **Result: We need to start our descent 90NM before the target fix with either an average
 of ^^vertical speed of -2.333ft/min^^ or an average ^^descent angle of -2.9°^^** during the descent distance.
@@ -83,7 +83,7 @@ Example:
 - Vertical Speed: -2.000ft/min
 - Ground Speed: 450 kt (constant)
 
-![flyPad Performance TOD Calculator](../../assets/flypados2/performance-tod-vs.png "flyPad Performance TOD Calculator"){loading=lazy}
+![flyPad Performance TOD Calculator](../assets/flypados2/performance-tod-vs.png "flyPad Performance TOD Calculator"){loading=lazy}
 
 **Result: We need to start our descent ^^105NM^^ before the target fix with a vertical speed of -2.000ft/min**
 
@@ -99,7 +99,7 @@ Example:
 - Vertical Speed: -2.000ft/min
 - Ground Speed: 420 kt at or above 10.000ft, 250kt below 10.000ft
 
-![flyPad Performance TOD Calculator](../../assets/flypados2/performance-tod-gs.png "flyPad Performance TOD Calculator"){loading=lazy}
+![flyPad Performance TOD Calculator](../assets/flypados2/performance-tod-gs.png "flyPad Performance TOD Calculator"){loading=lazy}
 
 **Result: We need to start our descent ^^98NM^^ before the target fix with a vertical speed of -2.000ft/min**
 
@@ -159,12 +159,12 @@ for all the fields is descibed in the following section.
 - Approach Speed: MCDU PERF APPR
     - This is part of the MCDU PERF APPR page and can be taken from there (V~APP~).
 
-    ![MCDU PERF APPR page](../../assets/flypados2/performance-landing-mcdu-perf.png "MCDU PERF APPR page"){loading=lazy}
+    ![MCDU PERF APPR page](../assets/flypados2/performance-landing-mcdu-perf.png "MCDU PERF APPR page"){loading=lazy}
 
 - Weight:
     - This information can be obtained from the ECAM SD bottom right corner (GW 59600 KG in the example below).
 
-    ![ECAM SD](../../assets/flypados2/performance-landing-ecam-sd.png "ECAM SD"){loading=lazy}
+    ![ECAM SD](../assets/flypados2/performance-landing-ecam-sd.png "ECAM SD"){loading=lazy}
 
 - Flaps:
     - Planned landing flap setting (CONF FULL or CONF 3).
@@ -176,11 +176,11 @@ for all the fields is descibed in the following section.
     - Will reverse thrust be used (Yes or No)?
     - Subject to airport requirements that can be found on the airport chart (see example below).
 
-    ![Airport Chart Information](../../assets/flypados2/performance-landing-charts-reverser.png "Airport Chart Information"){loading=lazy}
+    ![Airport Chart Information](../assets/flypados2/performance-landing-charts-reverser.png "Airport Chart Information"){loading=lazy}
 
 #### Example Chart:
 
-![Airport Chart](../../assets/flypados2/performance-landing-chart.png "Airport Chart"){loading=lazy}
+![Airport Chart](../assets/flypados2/performance-landing-chart.png "Airport Chart"){loading=lazy}
 <sub>*Copyright © 2021 Navigraph / Jeppesen<br/>
 "Navigraph Charts are intended for flight simulation use only, not for navigational use."*</sub>
 
@@ -189,18 +189,18 @@ for all the fields is descibed in the following section.
 
 This runway can be used for landing with the given circumstances and full flaps in all braking configurations (low, medium, max manual).
 
-![flyPad Performance Calculator Landing](../../assets/flypados2/performance-landing-ok.png "flyPad Performance Calculator Landing"){loading=lazy}
+![flyPad Performance Calculator Landing](../assets/flypados2/performance-landing-ok.png "flyPad Performance Calculator Landing"){loading=lazy}
 
 #### Example 2
 
 This runway's landing distance available is long enough to be used for landing with full flaps and with max manual braking.
 Be aware that there might be other restrictions that prohibit landing of an A320neo on this airport/runway.
 
-![flyPad Performance Calculator Landing](../../assets/flypados2/performance-landing-maxok.png "flyPad Performance Calculator Landing"){loading=lazy}
+![flyPad Performance Calculator Landing](../assets/flypados2/performance-landing-maxok.png "flyPad Performance Calculator Landing"){loading=lazy}
 
 #### Example 3
 
 This runway can not be used for landing with the given circumstances. It is similar to Example 2 but has a higher weight and therefore higher approach speed.
 
-![flyPad Performance Calculator Landing](../../assets/flypados2/performance-landing-notok.png "flyPad Performance Calculator Landing"){loading=lazy}
+![flyPad Performance Calculator Landing](../assets/flypados2/performance-landing-notok.png "flyPad Performance Calculator Landing"){loading=lazy}
 

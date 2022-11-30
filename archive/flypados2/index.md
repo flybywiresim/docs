@@ -44,7 +44,7 @@ The FlyByWire team is in the process of moving all aircraft settings to the EFB 
 
 This documentation takes you through all pages and functions of the flyPad EFB.
 
-![FlyByWire flyPad](../../assets/flypados2/flypad-hero.png "FlyByWire flyPad")
+![FlyByWire flyPad](../assets/flypados2/flypad-hero.png "FlyByWire flyPad")
 
 ## General Usage
 
@@ -53,7 +53,7 @@ The flyPad is organized into several pages. Links to their documentation are bel
 To **TURN ON** and **TURN OFF** the flyPad you can either:
 
 !!! block ""
-    ![Flypad on off](../../assets/flypados2/flypad-on-off.png "Flypad on off"){loading=lazy align=left}
+    ![Flypad on off](../assets/flypados2/flypad-on-off.png "Flypad on off"){loading=lazy align=left}
 
     - To turn it on or off click on the "hardware" button on the top right of the tablet.
     - To turn it on click anywhere on the screen.

@@ -2,8 +2,6 @@
 
 ## Overview
 
-!!! warning "Not available in the Stable Version."
-
 This page details the safety equipment available when parked with the A32NX. Other than just looking gorgeous the wheel chocks even apply some braking force to hold the aircraft in place.
 
 The flight crew activates the Wheel Chocks and Safety Cones through the 

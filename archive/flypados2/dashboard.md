@@ -40,7 +40,7 @@ You can type in any airport ICAO code into the input fields to get the correspon
 
 You can switch between the weather summary which shows the most important METAR parts with icons or a raw view of the METAR information.
 
-![ICAO Input to Weather Widget](../../assets/flypados2/weather-widget-input.png "ICAO Input to Weather Widget"){loading=lazy}
+![ICAO Input to Weather Widget](../assets/flypados2/weather-widget-input.png "ICAO Input to Weather Widget"){loading=lazy}
 
 We have applied a helpful coloring scheme a large European airline uses to point out significant parts of the raw METAR information to the pilots. This coloring uses the following colors:
 
@@ -52,19 +52,19 @@ We have applied a helpful coloring scheme a large European airline uses to point
 
 ### Load From simBrief
 
-![From simBrief](../../assets/flypados2/load-from-simbrief.png)
+![From simBrief](../assets/flypados2/load-from-simbrief.png)
 
-If you have [configured](settings.md) your simBrief account correctly, you can click the above button to load your last simBrief flight plan into the flyPad. This does not load the flight plan into the MCDU - you need to load it there separately (see [MCDU simBrief Integration](../../../pilots-corner/beginner-guide/preparing-mcdu.md#a32nx-simbrief-integration)) .
+If you have [configured](settings.md) your simBrief account correctly, you can click the above button to load your last simBrief flight plan into the flyPad. This does not load the flight plan into the MCDU - you need to load it there separately (see [MCDU simBrief Integration](../../docs/pilots-corner/beginner-guide/preparing-mcdu.md#a32nx-simbrief-integration)) .
 
 ### Map Zoom and Tools
 
 !!! block ""
-    ![Zoom Map](../../assets/flypados2/zoom-map.png "Zoom Map"){align=left}
+    ![Zoom Map](../assets/flypados2/zoom-map.png "Zoom Map"){align=left}
 
     Zooms the map in (+) and out (-).
 
 !!! block ""
-    ![Map Tools](../../assets/flypados2/map-tools.png "Map Tools"){align=left}
+    ![Map Tools](../assets/flypados2/map-tools.png "Map Tools"){align=left}
 
     Distance measurement tools.
 

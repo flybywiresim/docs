@@ -32,8 +32,8 @@ Go to the flyPad [ATSU/AOC settings page](settings.md#atsuaoc) and select your O
 
 Go back to the ATC page and see the list of the currently available ATC stations. Click on a station to set this frequency in the Captain's RMP.
 
-![Online ATC Frequency via click](../../assets/flypados2/online-atc-frequency.png "Online ATC Frequency via click"){loading=lazy}
+![Online ATC Frequency via click](../assets/flypados2/online-atc-frequency.png "Online ATC Frequency via click"){loading=lazy}
 
 ### Using Hoppie ACARS
 
-See documentation for [Hoppie ACARS](../hoppie.md)
+See documentation for [Hoppie ACARS](../../docs/fbw-a32nx/feature-guides/hoppie.md)

@@ -22,7 +22,7 @@ With a valid Navigraph subscription the FlyByWire flyPad allows access to all Na
 
 Before you can use the Navigraph integration the flyPad will ask you once to authenticate and authorize Navigraph access by either scanning the QR code or visiting the shown url in a browser. Login in there and authorize FlyByWire to access the Navigraph account.
 
-![Charts Navigraph Login](../../assets/flypados2/charts-navigraph-login.png "Charts Navigraph Login"){loading=lazy}
+![Charts Navigraph Login](../assets/flypados2/charts-navigraph-login.png "Charts Navigraph Login"){loading=lazy}
 
 When authenticated successfully you can enter the desired airport ICAO into the search field and as soon as a valid ICAO code is entered the corresponding airport is highlighted in the cyan box.
 

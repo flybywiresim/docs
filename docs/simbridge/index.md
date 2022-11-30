@@ -12,7 +12,7 @@ description: The SimBridge section is dedicated to documenting the setup and use
 
 # SimBridge
 
-![SimBridge banner](assets/simbridge/simbridge.png){loading=lazy}
+![SimBridge banner](assets/simbridge/simbridge.png)
 
 SimBridge is our custom-built solution to connect our aircraft to various external devices and data. This will ensure features will function seamlessly and 
 require fewer extra steps before launching into your flights.
@@ -34,9 +34,9 @@ require fewer extra steps before launching into your flights.
 |                                      Feature                                       |                                         Status                                          |
 |:----------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------:|
 |                           [Terrain Display](terrain.md)                            | In [Development](../fbw-a32nx/fbw-versions.md#development-version-recommended) Version  |
-|               [MCDU Remote Display](remote-displays/remote-mcdu.md)                | In [Development](../fbw-a32nx/fbw-versions.md#development-version-recommended) Version  |
-|                        [Company Routes Support](coroute.md)                        | In [Development](../fbw-a32nx/fbw-versions.md#development-version-recommended) Version  |
-| [flyPad Local Charts](../fbw-a32nx/feature-guides/flypados3/charts.md#local-files) | In [Development](../fbw-a32nx/fbw-versions.md#development-version-recommended) Version  |
+|               [MCDU Remote Display](remote-displays/remote-mcdu.md)                |                Available in [All Versions](../fbw-a32nx/fbw-versions.md)                |
+|                        [Company Routes Support](coroute.md)                        |                Available in [All Versions](../fbw-a32nx/fbw-versions.md)                |
+| [flyPad Local Charts](../fbw-a32nx/feature-guides/flypados3/charts.md#local-files) |                Available in [All Versions](../fbw-a32nx/fbw-versions.md)                |
 |                                  Remote Displays                                   |                                    Work in Progress                                     |
 
 

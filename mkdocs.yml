@@ -45,7 +45,6 @@ plugins:
       - pilots-corner/advanced-guides/flight-guidance/approaches.md
       - pilots-corner/advanced-guides/flight-guidance/autopilot.md
       - pilots-corner/advanced-guides/flight-guidance/lnav.md
-      - simbridge/pdf-viewer.md
   awesome-pages: {}
   tags: {}
   git-revision-date-localized:
@@ -93,7 +92,7 @@ plugins:
         'fdr.md': 'https://docs.flybywiresim.com/fbw-a32nx/support/#fdr-files'
         'exp.md': 'fbw-a32nx/support/exp.md'
         # Release Notes Permalink
-        'latest-release.md': 'release-notes/v082.md'
+        'latest-release.md': 'release-notes/v090.md'
         'latest-installer-release.md': 'release-notes/installer/v330.md'
         # ########################################
         # Needed for URL within the A32NX aircraft
