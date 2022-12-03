@@ -9,16 +9,18 @@ The MCDU Remote display allows you to display and control the MCDU on a browser 
 See list of compatible and tested browsers: [Compatible Browsers](#compatible-browsers)
 
 !!! note "MCDU Web Interface"
-    ![Web MCDU Interface](../../assets/simbridge/web-mcdu-ipad.webp "Web MCDU Interface"){loading=lazy}
+    ![Web MCDU Interface](../../assets/web-mcdu-ipad.webp "Web MCDU Interface"){loading=lazy}
 
 It also allows you to use your real printer as a cockpit printer for the MCDU.
 
 ## Opening the MCDU Remote Display
 
-!!! warning "Notice"
-    Ensure SimBridge has [started](../../install-configure/autostart.md#autostart).
+!!! warning Notice
+    SimBridge *must* be [running](../install-configure/autostart.md) in order to connect remotely.
 
-    Having issues? See our [troubleshooting section](../../troubleshooting.md#network-configuration).
+    See [Autostart](../install-configure/autostart.md) documentation on how to start it. 
+
+    Check [Troubleshooting](../troubleshooting.md) if you are having issues.
 
 ### Option 1: simbridge.local
 
@@ -38,7 +40,7 @@ Having issues on a _supported_ device? Make sure Option 2 or 3 works, and if the
 
 You can directly open the Remote MCDU from the system tray by selecting "Open MCDU" in the context menu when using ++"Right Click"++ with your mouse.
 
-![simbridge-context-menu](../../assets/simbridge/simbridge-context-menu.png){loading=lazy}
+![simbridge-context-menu](../../assets/simbridge-context-menu.png){loading=lazy}
 
  You can then copy paste this hyperlink or send it to another device (via browser functions) in order to more easily access the Remote MCDU.
 

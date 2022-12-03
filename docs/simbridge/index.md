@@ -12,7 +12,7 @@ description: The SimBridge section is dedicated to documenting the setup and use
 
 # SimBridge
 
-![SimBridge banner](assets/simbridge/simbridge.png)
+![SimBridge banner](assets/simbridge.png)
 
 SimBridge is our custom-built solution to connect our aircraft to various external devices and data. This will ensure features will function seamlessly and 
 require fewer extra steps before launching into your flights.

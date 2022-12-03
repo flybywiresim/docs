@@ -2,14 +2,18 @@
 Stored Company Routes allow you to save routes you regularly fly to your PC. It uses simBrief XML Datafiles format so you can easily use your simBrief planning to create a stored company route.
 
 !!! warning Notice
-    To allow the aircraft to access local files you need to SimBridge running. See [Autostart](../install-configure/autostart.md) documentation on how to start it. 
+    SimBridge *must* be [running](../install-configure/start-simbridge.md) to access local files.
+
+    See [Autostart](../install-configure/autostart.md) documentation on how to start it. 
+
+    Check [Troubleshooting](../troubleshooting.md) if you are having issues.
 
 ### Generating a Stored Company Route Using simBrief
 
 - Generate a flight plan using simBrief.
 - Download the `XML Datafile' from simBrief.
 
-    ![simBrief Datafile Download](../assets/simbridge/simbrief-datafile-download.png){loading=lazy}
+    ![simBrief Datafile Download](../assets/simbrief-datafile-download.png){loading=lazy}
 
 - Save the simBrief XML Datafile to the coroutes folder in the [resources folder](../install-configure/installation.md#resources-folder).
 - Rename the simBrief XML Datafile to any name with maximal 9 characters. E.g. the airport's IATA codes `STRCPH1.xml`.

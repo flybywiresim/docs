@@ -6,5 +6,5 @@
 title: Install + Configure
 nav:
     - Installation: installation.md
-    - Autostart: autostart.md
+    - Starting SimBridge: start-simbridge.md
     - Configuration: configuration.md

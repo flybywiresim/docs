@@ -12,7 +12,7 @@ Please follow the information on this page to install the FlyByWire SimBridge to
 
 When you attempt to install an addon or different addon version (for example, switching from Development to Experimental) you will be prompted to install SimBridge
 
-![SimBridge install prompt](../assets/simbridge/installer_prompt.png "Prompt to install SimBridge when installing an addon that requires it"){loading=lazy}
+![SimBridge install prompt](../assets/installer_prompt.png "Prompt to install SimBridge when installing an addon that requires it"){loading=lazy}
 
 Select `Yes` to install SimBridge along with your chosen addon/version.
 
@@ -21,7 +21,7 @@ Select `Yes` to install SimBridge along with your chosen addon/version.
 If you select `No` in the [Addon Install](#addon-install) or would like to separately install SimBridge, then you can install SimBridge by selecting the SimBridge tab.
 
 On the SimBridge tab, select install and the installer will go ahead and install SimBridge.
-![SimBridge installer](../assets/simbridge/simbridge_installing.png){loading=lazy}
+![SimBridge installer](../assets/simbridge_installing.png){loading=lazy}
 
 #### Installer Debug Logs
 
@@ -90,7 +90,7 @@ Finding/Opening the resources folder can be done through several paths:
 - Tray Icon
   - You can right-click the tray-icon and select `Open resources folder` which will open the path in your windows explorer
 
-    ![tray-icon-picture](../assets/simbridge/trayicon-resource.png){loading=lazy}
+    ![tray-icon-picture](../assets/trayicon-resource.png){loading=lazy}
 
 - Installer
   - Within the installer on the SimBridge tab you'll find the resources folder button which will open the path in your windows explorer

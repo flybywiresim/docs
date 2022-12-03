@@ -50,7 +50,7 @@ The following are features in testing that require the use of SimBridge:
 
 - [Terrain Display](#terrain-display) - **Now Available on the Development Version**
 - Remote MCDU (Web MCDU) - **Now Available on the Development Version**
-    - [Setup and Configuration Guide](../../simbridge/simbridge-feature-guides/remote-displays/configuration.md)
+    - [Setup and Configuration Guide](../../simbridge/simbridge-feature-guides/remote-displays/remote-mcdu.md)
     - [Usage Guide](../../simbridge/simbridge-feature-guides/remote-displays/remote-mcdu.md)
 - [Company Routes](#company-routes) - **Now Available on the Development Version**
 

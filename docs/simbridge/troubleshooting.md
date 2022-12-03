@@ -1,8 +1,29 @@
 # Troubleshooting
 
+## Timeout for SimBridge Connection Attempts
+
+Due to issues in the Microsoft Flight Simulator Coherent Engine (Javascript Engine) continuous connection attempts 
+lead to performance problems for some users because of how the engine handles unsuccessful connections.
+
+Therefore, a timeout mechanism has been built into the aircraft's SimBridge client limiting the number of connection 
+attempts it will execute.
+
+A setting in the flyPad Settings SimOptions page has been introduced to allow users to restart the connection attempts 
+or to turn off the attempts to connect to SimBridge completely.
+
+![flyPad EFB Settings Sim Options](assets/efb-setting-simoptions.png){loading=lazy}
+
+If the aircraft is not able to connect to SimBridge within 5min the aircraft will stop any further attempts and
+`Inactive` will be shown. If `Inactive` is shown, but you want to connect to SimBridge just click on `Off`, wait 
+a few seconds and then click on `Auto` again.
+
+Check this page for more details: [SimBridge Aircraft Settings](install-configure/configuration.md#aircraft-settings)
+
 ## Main Window
-By default SimBridge's main window starts hidden to the systems tray, to view it select `Show/Hide` on the systems tray icon.
-![main window](assets/simbridge/simbridge_window.png){loading=lazy}
+By default, SimBridge's main window starts hidden to the system's tray, to view it select `Show/Hide` on the systems 
+tray icon.
+
+![main window](assets/simbridge_window.png){loading=lazy}
 
 The main window running SimBridge displays the servers log file information and provides important information about the started services, the necessary urls and ip addresses.
 
@@ -15,7 +36,7 @@ The main window running SimBridge displays the servers log file information and 
         If you would like to revert back to `console host` to regain the hide to system tray function please see [Windows 11 System Tray Instructions](#windows-11-system-tray-instructions) below.
 
 !!! warning "Notice"
-    If the main window is closed (via the (X) button), SimBridge will be closed entirely and will need to be [restarted](install-configure/autostart.md#manual-start).
+    If the main window is closed (via the (X) button), SimBridge will be closed entirely and will need to be [restarted](install-configure/start-simbridge.md#manual-start).
 
 ### Windows 11 System Tray Instructions
 
@@ -31,17 +52,17 @@ Steps to regain functionality:
 - Open settings, and navigate to `Privacy & Security --> For Developers`
 
     ??? info "Example (Click to Expand)"
-        ![W11 Example 1](assets/simbridge/w11ch1.png){loading=lazy}
+        ![W11 Example 1](assets/w11ch1.png){loading=lazy}
 
 - Set Terminal to `Windows Console Host`
 
     ??? info "Example (Click to Expand)"
-        ![W11 Example 2](assets/simbridge/w11ch2.png){loading=lazy}
+        ![W11 Example 2](assets/w11ch2.png){loading=lazy}
 
 - Close the settings app and open SimBridge, it should now open in the legacy Windows Console Host.
 
     ??? info "Example (Click to Expand)"
-        ![W11 Example 3](assets/simbridge/w11ch3.png){loading=lazy}
+        ![W11 Example 3](assets/w11ch3.png){loading=lazy}
 
 SimBridge should now be able to be minimized to the tray appropriately.
 
@@ -214,4 +235,4 @@ Please send us the latest logfile to the support channel on discord or on github
 
 Sometimes the installation or the upgrade of Simbridge will fail with an Error during the [Installation](install-configure/installation.md). This happens when Simbridge is still running in the background, even though the Installer indicates it isn't.
 
-Use the Windows Task Manager to stop the Simbridge process as described in the [Stopping Simbridge](install-configure/autostart.md#stopping-simbridge) documentation and then run the installation or upgrade again.
+Use the Windows Task Manager to stop the Simbridge process as described in the [Stopping Simbridge](install-configure/start-simbridge.md#stopping-simbridge) documentation and then run the installation or upgrade again.
