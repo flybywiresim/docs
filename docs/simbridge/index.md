@@ -17,7 +17,19 @@ description: The SimBridge section is dedicated to documenting the setup and use
 SimBridge is our custom-built solution to connect our aircraft to various external devices and data. This will ensure features will function seamlessly and 
 require fewer extra steps before launching into your flights.
 
+[Install + Config - Start Here](install-configure/installation.md){.md-button}
 
+[Troubleshooting](troubleshooting.md){.md-button}
+
+## Feature Guides
+
+|                                       Feature                                       |                                         Status                                          |
+|:-----------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------:|
+|               [Terrain Display](simbridge-feature-guides/terrain.md)                | In [Development](../fbw-a32nx/fbw-versions.md#development-version-recommended) Version  |
+|   [MCDU Remote Display](simbridge-feature-guides/remote-displays/remote-mcdu.md)    |                Available in [All Versions](../fbw-a32nx/fbw-versions.md)                |
+|            [Company Routes Support](simbridge-feature-guides/coroute.md)            |                Available in [All Versions](../fbw-a32nx/fbw-versions.md)                |
+| [flyPad Local Charts](../fbw-a32nx/feature-guides/flypados3/charts.md#local-files)  |                Available in [All Versions](../fbw-a32nx/fbw-versions.md)                |
+|                                   Remote Displays                                   |                                    Work in Progress                                     |
 
 !!! warning "Important Notes"
     Please keep SimBridge updated at all times regardless of the version of aircraft you are currently flying!
@@ -31,12 +43,6 @@ require fewer extra steps before launching into your flights.
     
     This page will keep you updated with the status and any further documentation for these services.
 
-|                                      Feature                                       |                                         Status                                          |
-|:----------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------:|
-|                           [Terrain Display](simbridge-feature-guides/terrain.md)                            | In [Development](../fbw-a32nx/fbw-versions.md#development-version-recommended) Version  |
-|               [MCDU Remote Display](simbridge-feature-guides/remote-displays/remote-mcdu.md)                |                Available in [All Versions](../fbw-a32nx/fbw-versions.md)                |
-|                        [Company Routes Support](simbridge-feature-guides/coroute.md)                        |                Available in [All Versions](../fbw-a32nx/fbw-versions.md)                |
-| [flyPad Local Charts](../fbw-a32nx/feature-guides/flypados3/charts.md#local-files) |                Available in [All Versions](../fbw-a32nx/fbw-versions.md)                |
-|                                  Remote Displays                                   |                                    Work in Progress                                     |
+
 
 
