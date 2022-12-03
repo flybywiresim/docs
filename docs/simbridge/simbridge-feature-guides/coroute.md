@@ -4,7 +4,7 @@ Stored Company Routes allow you to save routes you regularly fly to your PC. It 
 !!! warning Notice
     SimBridge *must* be [running](../install-configure/start-simbridge.md) to access local files.
 
-    See [Autostart](../install-configure/autostart.md) documentation on how to start it. 
+    See [Autostart](../install-configure/start-simbridge.md#autostart) documentation on how to start it. 
 
     Check [Troubleshooting](../troubleshooting.md) if you are having issues.
 

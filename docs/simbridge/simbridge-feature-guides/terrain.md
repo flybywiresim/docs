@@ -9,9 +9,10 @@ Flight Into Terrain (CFIT). A part of TAWS is to overlay the approach terrain on
 !!! warning "Note"
     Please be aware that we are still continously optimizing performance of the TERR ON ND feature.
 
-    SimBridge *must* be [running](../install-configure/autostart.md) in order for the Terrain Display to function.
+    SimBridge *must* be [running](../install-configure/start-simbridge.md#autostart) in order for the Terrain 
+    Display to function.
 
-    See [Autostart](../install-configure/autostart.md) documentation on how to start it. 
+    See [Autostart](../install-configure/start-simbridge.md#autostart) documentation on how to start it. 
 
     Check [Troubleshooting](../troubleshooting.md) if you are having issues.
 

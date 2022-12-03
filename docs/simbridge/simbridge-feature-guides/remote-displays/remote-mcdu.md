@@ -16,11 +16,11 @@ It also allows you to use your real printer as a cockpit printer for the MCDU.
 ## Opening the MCDU Remote Display
 
 !!! warning Notice
-    SimBridge *must* be [running](../install-configure/autostart.md) in order to connect remotely.
+    SimBridge *must* be [running](../../install-configure/start-simbridge.md#autostart) in order to connect remotely.
 
-    See [Autostart](../install-configure/autostart.md) documentation on how to start it. 
+    See [Autostart](../../install-configure/start-simbridge#autostart) documentation on how to start it. 
 
-    Check [Troubleshooting](../troubleshooting.md) if you are having issues.
+    Check [Troubleshooting](../../troubleshooting.md) if you are having issues.
 
 ### Option 1: simbridge.local
 
