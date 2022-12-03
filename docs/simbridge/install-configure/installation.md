@@ -88,16 +88,19 @@ The resources folder is used for storing various files required by SimBridge to 
 Finding/Opening the resources folder can be done through several paths:
 
 - Tray Icon
-  - You can right-click the tray-icon and select `Open resources folder` which will open the path in your windows explorer
+    - You can right-click the tray-icon and select `Open resources folder` which will open the path in your windows 
+     explorer
 
     ![tray-icon-picture](../assets/trayicon-resource.png){loading=lazy}
 
 - Installer
-  - Within the installer on the SimBridge tab you'll find the resources folder button which will open the path in your windows explorer
+    - Within the installer on the SimBridge tab you'll find the resources folder button which will open the path in 
+     your windows explorer
     **requires image**
 
 - Windows Explorer
-  - You can navigate to the [community folder](#community-folder) where you will find `flybywire-externaltools-simbridge` in there you can find the `resources` folder
+    - You can navigate to the [community folder](#community-folder) where you will find 
+     `flybywire-externaltools-simbridge` in there you can find the `resources` folder
   ![windows explorer resources folder](../assets/simbridge-location.png){loading=lazy}
 
 ## Clean Install Steps
