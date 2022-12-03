@@ -50,20 +50,20 @@ The following are features in testing that require the use of SimBridge:
 
 - [Terrain Display](#terrain-display) - **Now Available on the Development Version**
 - Remote MCDU (Web MCDU) - **Now Available on the Development Version**
-    - [Setup and Configuration Guide](../../simbridge/remote-displays/configuration.md)
-    - [Usage Guide](../../simbridge/remote-displays/remote-mcdu.md)
+    - [Setup and Configuration Guide](../../simbridge/simbridge-feature-guides/remote-displays/configuration.md)
+    - [Usage Guide](../../simbridge/simbridge-feature-guides/remote-displays/remote-mcdu.md)
 - [Company Routes](#company-routes) - **Now Available on the Development Version**
 
 !!! tip "SimBridge Information"
     - Learn about SimBridge and further status of various features please - [Read Here](../../simbridge/index.md).
-    - [SimBridge setup and configuration guide](../../simbridge/configuration.md).
+    - [SimBridge setup and configuration guide](../../simbridge/install-configure/configuration.md).
 
 #### Terrain Display
 
 **Available on the Development Version.**
 
 !!! tip "Configuration"
-    [Terrain Usage Guide](../../simbridge/terrain.md){.md-button}
+    [Terrain Usage Guide](../../simbridge/simbridge-feature-guides/terrain.md){.md-button}
 
 This feature will connect to our external database via SimBridge to accurately display terrain information on the navigation display. We've followed the peaks-mode implementation of honeywell and do not have map-data above 83° north or below 84° south. 
 
@@ -83,7 +83,7 @@ This feature allows you to save routes you regularly fly to your PC in the simBr
 **Available on the Development Version.**
 
 !!! tip "Configuration and Usage"
-    [Company Routes Guide](../../simbridge/coroute.md){.md-button}
+    [Company Routes Guide](../../simbridge/simbridge-feature-guides/coroute.md){.md-button}
 
 ### Pause at Top of Descent (TOD)
 

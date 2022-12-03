@@ -3,9 +3,8 @@
 # - Titles for specific pages or subdirectories
 # - Order of pages (otherwise alphabetical order)
 
-title: SimBridge
+title: Install + Configure
 nav:
-    - Overview: index.md
-    - install-configure
-    - Troubleshooting: troubleshooting.md
-    - simbridge-feature-guides
+    - Installation: installation.md
+    - Autostart: autostart.md
+    - Configuration: configuration.md

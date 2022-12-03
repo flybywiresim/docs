@@ -1,6 +1,6 @@
-# Remote MCDU Display
+# Remote MCDU Display Guide
 
-<link rel="stylesheet" href="../../../stylesheets/web-mcdu.css">
+<link rel="stylesheet" href="../../../../stylesheets/web-mcdu.css">
 
 ## Overview
 
@@ -9,16 +9,16 @@ The MCDU Remote display allows you to display and control the MCDU on a browser 
 See list of compatible and tested browsers: [Compatible Browsers](#compatible-browsers)
 
 !!! note "MCDU Web Interface"
-    ![Web MCDU Interface](../assets/simbridge/web-mcdu-ipad.webp "Web MCDU Interface"){loading=lazy}
+    ![Web MCDU Interface](../../assets/simbridge/web-mcdu-ipad.webp "Web MCDU Interface"){loading=lazy}
 
 It also allows you to use your real printer as a cockpit printer for the MCDU.
 
 ## Opening the MCDU Remote Display
 
 !!! warning "Notice"
-    Ensure SimBridge has [started](../autostart.md#autostart).
+    Ensure SimBridge has [started](../../install-configure/autostart.md#autostart).
 
-    Having issues? See our [troubleshooting section](../troubleshooting.md#network-configuration).
+    Having issues? See our [troubleshooting section](../../troubleshooting.md#network-configuration).
 
 ### Option 1: simbridge.local
 
@@ -27,9 +27,9 @@ It also allows you to use your real printer as a cockpit printer for the MCDU.
 
     If you are running an older operating system, proceed to [Option 2](#option-2-tray-icon).
 
-You can easily open the Remote MCDU on any supported device connected to the local network by navigating to ==http://simbridge.local:{[PORT](../configuration.md#server-settings)}/interfaces/mcdu== in your browser of choice.
+You can easily open the Remote MCDU on any supported device connected to the local network by navigating to ==http://simbridge.local:{[PORT](../../install-configure/configuration.md#server-settings)}/interfaces/mcdu== in your browser of choice.
 
-Having issues on a _supported_ device? Make sure Option 2 or 3 works, and if they do, take a look at the [simbridge.local troubleshooting section](../troubleshooting.md#simbridgelocal-mdns). Otherwise, see the [general network troubleshooting section](../troubleshooting.md#network-configuration).
+Having issues on a _supported_ device? Make sure Option 2 or 3 works, and if they do, take a look at the [simbridge.local troubleshooting section](../../troubleshooting.md#simbridgelocal-mdns). Otherwise, see the [general network troubleshooting section](../../troubleshooting.md#network-configuration).
 
 !!! tip ""
     If the default port is being used: [http://simbridge.local:8380/interfaces/mcdu](http://simbridge.local:8380/interfaces/mcdu){target=new}
@@ -38,13 +38,13 @@ Having issues on a _supported_ device? Make sure Option 2 or 3 works, and if the
 
 You can directly open the Remote MCDU from the system tray by selecting "Open MCDU" in the context menu when using ++"Right Click"++ with your mouse.
 
-![simbridge-context-menu](../assets/simbridge/simbridge-context-menu.png){loading=lazy}
+![simbridge-context-menu](../../assets/simbridge/simbridge-context-menu.png){loading=lazy}
 
  You can then copy paste this hyperlink or send it to another device (via browser functions) in order to more easily access the Remote MCDU.
 
 ### Option 3: Web Browser
 
-You can also open your browser of choice and navigate to ==http://{[Computer's Local IP Address](https://support.microsoft.com/en-au/windows/find-your-ip-address-in-windows-f21a9bbc-c582-55cd-35e0-73431160a1b9){target=new}}:{[Port](../configuration.md#server-settings)}/interfaces/mcdu==
+You can also open your browser of choice and navigate to ==http://{[Computer's Local IP Address](https://support.microsoft.com/en-au/windows/find-your-ip-address-in-windows-f21a9bbc-c582-55cd-35e0-73431160a1b9){target=new}}:{[Port](../../install-configure/configuration.md#server-settings)}/interfaces/mcdu==
 
 !!! tip ""
     For example: `http://192.168.1.21:8380/interfaces/mcdu`
@@ -116,4 +116,4 @@ Known unsupported operating systems or browsers:
 
 ## Configuration
 
-Refer [here](../configuration.md) for further configuration.
+Refer [here](../../install-configure/configuration.md) for further configuration.

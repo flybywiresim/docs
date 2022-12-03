@@ -15,7 +15,7 @@ The main window running SimBridge displays the servers log file information and 
         If you would like to revert back to `console host` to regain the hide to system tray function please see [Windows 11 System Tray Instructions](#windows-11-system-tray-instructions) below.
 
 !!! warning "Notice"
-    If the main window is closed (via the (X) button), SimBridge will be closed entirely and will need to be [restarted](autostart.md#manual-start).
+    If the main window is closed (via the (X) button), SimBridge will be closed entirely and will need to be [restarted](install-configure/autostart.md#manual-start).
 
 ### Windows 11 System Tray Instructions
 
@@ -77,7 +77,7 @@ If you still can't connect to SimBridge's remote displays your firewall might be
 
 If you can't reach SimBridge's remote display from your browser on your device or on your local PC then it is very likely that your PC firewall is blocking this network traffic.
 
-To test and confirm this turn off your firewall and try again to reach a [remote-display](remote-displays/remote-mcdu.md) via your browser. If you now can access your MCDU from your browser you have confirmed that it is indeed the firewall that blocks this access.
+To test and confirm this turn off your firewall and try again to reach a [remote-display](simbridge-feature-guides/remote-displays/remote-mcdu.md) via your browser. If you now can access your MCDU from your browser you have confirmed that it is indeed the firewall that blocks this access.
 
 {==
 
@@ -147,7 +147,7 @@ Error: listen EADDRINUSE: address already in use :::8380
       ...
     ```
 
-If the port is indeed already occupied then you need to change the default port in [SimBridge Configuration](configuration.md#server-settings).
+If the port is indeed already occupied then you need to change the default port in [SimBridge Configuration](install-configure/configuration.md#server-settings).
 
 You also need to change the port in the [flyPad EFB Sim options page](../fbw-a32nx/feature-guides/flypados3/settings.md#sim-options).
 
@@ -212,6 +212,6 @@ Please send us the latest logfile to the support channel on discord or on github
 
 ## Installation and Upgrade
 
-Sometimes the installation or the upgrade of Simbridge will fail with an Error during the [Installation](installation.md). This happens when Simbridge is still running in the background, even though the Installer indicates it isn't.
+Sometimes the installation or the upgrade of Simbridge will fail with an Error during the [Installation](install-configure/installation.md). This happens when Simbridge is still running in the background, even though the Installer indicates it isn't.
 
-Use the Windows Task Manager to stop the Simbridge process as described in the [Stopping Simbridge](autostart.md#stopping-simbridge) documentation and then run the installation or upgrade again.
+Use the Windows Task Manager to stop the Simbridge process as described in the [Stopping Simbridge](install-configure/autostart.md#stopping-simbridge) documentation and then run the installation or upgrade again.

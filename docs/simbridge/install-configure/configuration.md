@@ -3,7 +3,7 @@
 # Configuration
 You can configure SimBridge to provide you with options that best suit your needs.
 
-![configuration](assets/simbridge/simbridge_config.png){loading=lazy}
+![configuration](../assets/simbridge/simbridge_config.png){loading=lazy}
 
 !!! info Make sure to save
     Make sure to `Save` or `Discard` any settings you might've changed in order for the settings to be reflected in SimBridge.
@@ -18,7 +18,7 @@ This tab is dedicated to settings regarding the SimBridge server itself.
     - You can modify SimBridge's hosted port.
     - Default: `8380`
     !!! warning "Notice"
-        If this is changed make sure to reflect the same port in the [EFB](../fbw-a32nx/feature-guides/flypados3/settings.md#sim-options).
+        If this is changed make sure to reflect the same port in the [EFB](../../fbw-a32nx/feature-guides/flypados3/settings.md#sim-options).
 
 ## Printer Settings
 This tab is for modifying settings regarding printing data from the MCDU to your physical printer.
