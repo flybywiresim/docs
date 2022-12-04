@@ -94,9 +94,10 @@ Finding/Opening the resources folder can be done through several paths:
     ![tray-icon-picture](../assets/trayicon-resource.png){loading=lazy}
 
 - Installer
-    - Within the installer on the SimBridge tab you'll find the resources folder button which will open the path in 
-     your windows explorer
-    **requires image**
+    - Within the FBW installer on the SimBridge tab you'll find the resources folder button under `About` in the 
+      right menu which will open the path in your windows explorer
+  
+    ![simbridge-resource-folder](../assets/simbridge_resourcefolder.jpg){loading=lazy}
 
 - Windows Explorer
     - You can navigate to the [community folder](#community-folder) where you will find 
