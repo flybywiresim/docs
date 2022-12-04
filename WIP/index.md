@@ -3,7 +3,7 @@
 Our custom-built, open-source installer is where we keep our projects for you to easily install. Pick which feature branch you would like to use, and the installer will 
 automatically download it into the proper folder. The installer will always check if a new release is available prompting an update when you launch the application.
 
-![marketing installer](../docs/simbridge/assets/InstallerScreenshot.webp){loading=lazy}
+![marketing installer](InstallerScreenshot.webp){loading=lazy}
 
 Our installer also features SimBridge - our custom-built application to utilize remote tools. Check out the dedicated page for upcoming features and their status:
 
