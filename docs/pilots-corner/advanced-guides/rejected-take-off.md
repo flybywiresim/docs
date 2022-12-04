@@ -43,18 +43,21 @@ It is not possible to list all the factors that could lead to the decision to re
 
 ---
 
-"STOP"................................ANNOUNCE  
-THRUST LEVERS.............................IDLE  
-REVERSE THRUST.......................MAX AVAIL  
-REVERSERS.......................CHECK/ANNOUNCE  
-DECELERATION....................CHECK/ANNOUNCE  
-AUDIO WARNINGS..........................CANCEL  
-                AIRCRAFT STOPPED  
-REVERSERS...............................STOWED  
-ATC.....................................NOTIFY  
-PARKING BRAKE...............................ON  
-CABIN CREW...............................ALERT  
-ECAM ACTIONS...........................PERFORM  
+"STOP"......................................................ANNOUNCE  
+THRUST LEVERS..................................................IDLE  
+REVERSE THRUST.....................................MAX AVAIL  
+REVERSERS................................CHECK/ANNOUNCE  
+DECELERATION..........................CHECK/ANNOUNCE  
+AUDIO WARNINGS.........................................CANCEL  
+
+**AIRCRAFT STOPPED**  
+
+REVERSERS...................................................STOWED  
+THRUST LEVERS..................................................IDLE  
+ATC...................................................................NOTIFY  
+PARKING BRAKE.....................................................ON  
+CABIN CREW.....................................................ALERT  
+ECAM ACTIONS..........................................PERFORM  
 
 ---
 
