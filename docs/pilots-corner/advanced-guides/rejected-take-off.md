@@ -43,6 +43,8 @@ It is not possible to list all the factors that could lead to the decision to re
 
 ---
 
+![Rejected Takeoff Procedure](../assets/advanced-guides/rejected-takeoff/rejected-takeoff-procedure.JPG "Rejected Takeoff Procedure")
+
 "STOP"......................................................ANNOUNCE  
 THRUST LEVERS..................................................IDLE  
 REVERSE THRUST.....................................MAX AVAIL  
