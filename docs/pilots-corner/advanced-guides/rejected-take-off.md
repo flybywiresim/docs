@@ -43,23 +43,38 @@ It is not possible to list all the factors that could lead to the decision to re
 
 ---
 
-![Rejected Takeoff Procedure](../assets/advanced-guides/rejected-takeoff/rejected-takeoff-procedure.JPG "Rejected Takeoff Procedure")
+![Rejected Takeoff Procedure](../assets/advanced-guides/rejected-takeoff/rejected-takeoff-procedure.png "Rejected 
+Takeoff Procedure")
 
-"STOP"......................................................ANNOUNCE  
-THRUST LEVERS..................................................IDLE  
-REVERSE THRUST.....................................MAX AVAIL  
-REVERSERS................................CHECK/ANNOUNCE  
-DECELERATION..........................CHECK/ANNOUNCE  
-AUDIO WARNINGS.........................................CANCEL  
+[//]: # (Backup Text Below)
 
-**AIRCRAFT STOPPED**  
+[//]: # ("STOP"......................................................ANNOUNCE  )
 
-REVERSERS...................................................STOWED  
-THRUST LEVERS..................................................IDLE  
-ATC...................................................................NOTIFY  
-PARKING BRAKE.....................................................ON  
-CABIN CREW.....................................................ALERT  
-ECAM ACTIONS..........................................PERFORM  
+[//]: # (THRUST LEVERS..................................................IDLE  )
+
+[//]: # (REVERSE THRUST.....................................MAX AVAIL  )
+
+[//]: # (REVERSERS................................CHECK/ANNOUNCE  )
+
+[//]: # (DECELERATION..........................CHECK/ANNOUNCE  )
+
+[//]: # (AUDIO WARNINGS.........................................CANCEL  )
+
+[//]: # ()
+[//]: # (**AIRCRAFT STOPPED**  )
+
+[//]: # ()
+[//]: # (REVERSERS...................................................STOWED  )
+
+[//]: # (THRUST LEVERS..................................................IDLE  )
+
+[//]: # (ATC...................................................................NOTIFY  )
+
+[//]: # (PARKING BRAKE.....................................................ON  )
+
+[//]: # (CABIN CREW.....................................................ALERT  )
+
+[//]: # (ECAM ACTIONS..........................................PERFORM  )
 
 ---
 
