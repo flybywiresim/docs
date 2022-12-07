@@ -61,7 +61,6 @@ FlyPad Settings            |  Sim Options
 :-------------------------:|:-------------------------:
 ![FlyPad Sim Settings](../fbw-a32nx/assets/flypados3/flypad-settings-overview_sim_options_marked.png){loading=lazy}  |      ![FlyPad Sim Options](../fbw-a32nx/assets/flypados3/flypad-settings-sim-options-marked.png){loading=lazy}
 
-
 - To attempt connection : SimBridge Connection: Turn "AUTO" to "OFF" for a few seconds and "AUTO" again.
 
 
