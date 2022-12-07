@@ -47,20 +47,22 @@ SimBridge should now be able to be minimized to the tray appropriately.
 
 ## FlyPad Settings
 
-FlyPad will stop trying to connect to simbridge after a 5 minute timer.
+FlyPad will stop trying to connect to SimBridge after a 5 minute timer.
 Check the connectivity status on FlyPad by checking if the wifi icon on the top is crossed.
 ![FlyPad Wifi](../fbw-a32nx/assets/flypados3/flypad-dashboard-connectivity.png){loading=lazy}
 
 Icon Crossed             |  Icon Normal
 :-------------------------:|:-------------------------:
-![Wifi Crossed](../fbw-a32nx/assets/flypados3/flypad-status-crossed.png)  |  ![Wifi Normal](../fbw-a32nx/assets/flypados3/flypad-status-normal.png)
+![Wifi Crossed](../fbw-a32nx/assets/flypados3/flypad-status-crossed.png){loading=lazy}  |  ![Wifi Normal](../fbw-a32nx/assets/flypados3/flypad-status-normal.png){loading=lazy}
+
+- If the wifi / connectivity icon is crossed, head to Flypad settings --> Sim Options 
+
+FlyPad Settings            |  Sim Options
+:-------------------------:|:-------------------------:
+![FlyPad Sim Settings](../fbw-a32nx/assets/flypados3/flypad-settings-overview_sim_options_marked.png){loading=lazy}  |      ![FlyPad Sim Options](../fbw-a32nx/assets/flypados3/flypad-settings-sim-options-marked.png){loading=lazy}
 
 
-!!! block ""
-    ![FlyPad Sim Options](../fbw-a32nx/assets/flypados3/flypad-settings-sim-options-marked.png){loading=lazy align=left width=50%}
-    
-    - If the wifi / connectivity icon is crossed, head to Flypad settings --> Sim Options
-    - To attempt connection : Simbridge Connection: Turn "AUTO" to "OFF" for a few seconds and "AUTO" again.
+- To attempt connection : SimBridge Connection: Turn "AUTO" to "OFF" for a few seconds and "AUTO" again.
 
 
 ## Network Configuration
