@@ -28,7 +28,7 @@
     <a href="/pilots-corner/a32nx-briefing/pfd/special-message-annunciators"><div class="imagemap" style="position: absolute; left: 21.22%; top:   67%; width: 43.08%; height:  31%;"><span class="imagemapname">Special Message and Common Mode Annunciators</span></div></a>
 </div>
 
-## Description
+## Autothrust Description 
 
 This will display the autothrust modes that are armed or active, as well as a request for the pilot to do something.
 
@@ -105,6 +105,25 @@ Displayed in amber text. Displayed after autothrust disconnection (either pilot 
     !!! attention ""
         Currently not available for the FBW A32NX for Microsoft Flight Simulator
 
+## Autobrake Description
+
+This column is also used for Autobrake status information as a second priority to Autothrust. These messages would 
+only be displayed if no Autothrust message is displayed in the same line. 
+
+### First Line
+
+The first line shows `BRK LO`, `BRK MED` or `BRK MAX` in green with a white box when the corresponding autobrake 
+mode is active. 
+
+### Second Line
+
+The second line shows `BRK LO`, `BRK MED` in cyan when the corresponding autobrake mode is armed.
+
+### Third Line
+
+The third line shows `BRK MAX` in cyan when the autobrake max mode is armed.
+
 ---
 
 [Back to Flight Mode Annunciators](fma.md){ .md-button }
+
