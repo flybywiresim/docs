@@ -11,11 +11,13 @@ There are basically two types of discontinuities:
 
 ### Special Case
 
-!!! warning "STAR and Approach Discontinuity - Special Case"
+!!! warning "STAR and Approach Discontinuity - Inaccuracy"
     If your STAR contains other waypoints after the IAF (initial approach fix) that you have selected via an approach transition (VIA), the FMS will not automatically connect 
     the STAR to the approach at at the IAF.
 
-    This is due a quirk in the stringing algorithm of the real Honeywell FMS, which is accurately present on the A32NX and the A380X.
+    This is a small problem with our current implementation. It will be corrected when we 
+    update to version 2 (fms-v2) of our implementation which contains even better simulation of the 
+    Honeywell FMS.
 
 ## Discontinuities Between Waypoints
 
