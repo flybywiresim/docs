@@ -2,16 +2,20 @@
 Stored Company Routes allow you to save routes you regularly fly to your PC. It uses simBrief XML Datafiles format so you can easily use your simBrief planning to create a stored company route.
 
 !!! warning Notice
-    To allow the aircraft to access local files you need to SimBridge running. See [Autostart](autostart.md) documentation on how to start it. 
+    SimBridge *must* be [running](../install-configure/start-simbridge.md) to access local files.
+
+    See [Autostart](../install-configure/start-simbridge.md#autostart) documentation on how to start it. 
+
+    Check [Troubleshooting](../troubleshooting.md) if you are having issues.
 
 ### Generating a Stored Company Route Using simBrief
 
 - Generate a flight plan using simBrief.
 - Download the `XML Datafile' from simBrief.
 
-    ![simBrief Datafile Download](assets/simbridge/simbrief-datafile-download.png){loading=lazy}
+    ![simBrief Datafile Download](../assets/simbrief-datafile-download.png){loading=lazy}
 
-- Save the simBrief XML Datafile to the coroutes folder in the [resources folder](installation.md#resources-folder).
+- Save the simBrief XML Datafile to the coroutes folder in the [resources folder](../install-configure/installation.md#resources-folder).
 - Rename the simBrief XML Datafile to any name with maximal 9 characters. E.g. the airport's IATA codes `STRCPH1.xml`.
 
 ### How Use a Saved Company Route
@@ -34,7 +38,7 @@ There are two methods available:
 - When setting up the flight management system in the MCDU you can directly head to the INIT A page.
 - Enter the name of your company route into the `CO RTE` field.
 
-    ![MCDU INIT A Loading CoRoute](assets/mcdu-init-a-load.png){loading=lazy}
+    ![MCDU INIT A Loading CoRoute](../assets/mcdu-init-a-load.png){loading=lazy}
 
 - This populates FROM/TO and also the basic flight plan. 
 
@@ -42,7 +46,7 @@ There are two methods available:
 #### Entering a FROM/TO Pair
 - **Alternatively** you can enter the FROM/TO pair of routes you have stored which will bring up the co-route selection page.
     
-    ![MCDU Co Route Selection Page](assets/mcdu-coroute-selection-page.png){loading=lazy}
+    ![MCDU Co Route Selection Page](../assets/mcdu-coroute-selection-page.png){loading=lazy}
 
 - The co-route selection page shows summary of each stored route.
 - You can navigate between the routes with the horizontal slew keys.

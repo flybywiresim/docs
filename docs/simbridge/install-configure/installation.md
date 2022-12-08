@@ -12,7 +12,7 @@ Please follow the information on this page to install the FlyByWire SimBridge to
 
 When you attempt to install an addon or different addon version (for example, switching from Development to Experimental) you will be prompted to install SimBridge
 
-![SimBridge install prompt](assets/simbridge/installer_prompt.png "Prompt to install SimBridge when installing an addon that requires it"){loading=lazy}
+![SimBridge install prompt](../assets/installer_prompt.png "Prompt to install SimBridge when installing an addon that requires it"){loading=lazy}
 
 Select `Yes` to install SimBridge along with your chosen addon/version.
 
@@ -21,7 +21,7 @@ Select `Yes` to install SimBridge along with your chosen addon/version.
 If you select `No` in the [Addon Install](#addon-install) or would like to separately install SimBridge, then you can install SimBridge by selecting the SimBridge tab.
 
 On the SimBridge tab, select install and the installer will go ahead and install SimBridge.
-![SimBridge installer](assets/simbridge/simbridge_installing.png){loading=lazy}
+![SimBridge installer](../assets/simbridge_installing.png){loading=lazy}
 
 #### Installer Debug Logs
 
@@ -80,7 +80,7 @@ It is located in:
 
 ### Troubleshooting
 
-See [find the community folder](../fbw-a32nx/installation.md#Troubleshooting)
+See [find the community folder](../../fbw-a32nx/installation.md#Troubleshooting)
 
 ## Resources Folder
 The resources folder is used for storing various files required by SimBridge to provide it's functionality. 
@@ -88,17 +88,21 @@ The resources folder is used for storing various files required by SimBridge to 
 Finding/Opening the resources folder can be done through several paths:
 
 - Tray Icon
-  - You can right-click the tray-icon and select `Open resources folder` which will open the path in your windows explorer
+    - You can right-click the tray-icon and select `Open resources folder` which will open the path in your windows 
+     explorer
 
-    ![tray-icon-picture](assets/simbridge/trayicon-resource.png){loading=lazy}
+    ![tray-icon-picture](../assets/trayicon-resource.png){loading=lazy}
 
 - Installer
-  - Within the installer on the SimBridge tab you'll find the resources folder button which will open the path in your windows explorer
-    **requires image**
+    - Within the FBW installer on the SimBridge tab you'll find the resources folder button under `About` in the 
+      right menu which will open the path in your windows explorer
+  
+    ![simbridge-resource-folder](../assets/simbridge_resourcefolder.jpg){loading=lazy}
 
 - Windows Explorer
-  - You can navigate to the [community folder](#community-folder) where you will find `flybywire-externaltools-simbridge` in there you can find the `resources` folder
-  ![windows explorer resources folder](assets/simbridge-location.png){loading=lazy}
+    - You can navigate to the [community folder](#community-folder) where you will find 
+     `flybywire-externaltools-simbridge` in there you can find the `resources` folder
+  ![windows explorer resources folder](../assets/simbridge-location.png){loading=lazy}
 
 ## Clean Install Steps
 
@@ -135,4 +139,4 @@ If the above folders are hidden to you follow the directions on [Microsoft's sup
 
 Once in the correct directory delete the folder shown here:
 
-![localstate folder](assets/temp_folder.png){loading=lazy}
+![localstate folder](../assets/temp_folder.png){loading=lazy}

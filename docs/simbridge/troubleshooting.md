@@ -1,8 +1,29 @@
 # Troubleshooting
 
+## Timeout for SimBridge Connection Attempts
+
+Due to issues in the Microsoft Flight Simulator Coherent Engine (Javascript Engine) continuous connection attempts 
+lead to performance problems for some users because of how the engine handles unsuccessful connections.
+
+Therefore, a timeout mechanism has been built into the aircraft's SimBridge client limiting the number of connection 
+attempts it will execute.
+
+A setting in the flyPad Settings SimOptions page has been introduced to allow users to restart the connection attempts 
+or to turn off the attempts to connect to SimBridge completely.
+
+![flyPad EFB Settings Sim Options](assets/efb-setting-simoptions.png){loading=lazy}
+
+If the aircraft is not able to connect to SimBridge within 5min the aircraft will stop any further attempts and
+`Inactive` will be shown. If `Inactive` is shown, but you want to connect to SimBridge just click on `Off`, wait 
+a few seconds and then click on `Auto` again.
+
+Check this page for more details: [SimBridge Aircraft Settings](install-configure/configuration.md#aircraft-settings)
+
 ## Main Window
-By default SimBridge's main window starts hidden to the systems tray, to view it select `Show/Hide` on the systems tray icon.
-![main window](assets/simbridge/simbridge_window.png){loading=lazy}
+By default, SimBridge's main window starts hidden to the system's tray, to view it select `Show/Hide` on the systems 
+tray icon.
+
+![main window](assets/simbridge_window.png){loading=lazy}
 
 The main window running SimBridge displays the servers log file information and provides important information about the started services, the necessary urls and ip addresses.
 
@@ -15,7 +36,7 @@ The main window running SimBridge displays the servers log file information and 
         If you would like to revert back to `console host` to regain the hide to system tray function please see [Windows 11 System Tray Instructions](#windows-11-system-tray-instructions) below.
 
 !!! warning "Notice"
-    If the main window is closed (via the (X) button), SimBridge will be closed entirely and will need to be [restarted](autostart.md#manual-start).
+    If the main window is closed (via the (X) button), SimBridge will be closed entirely and will need to be [restarted](install-configure/start-simbridge.md#manual-start).
 
 ### Windows 11 System Tray Instructions
 
@@ -31,17 +52,17 @@ Steps to regain functionality:
 - Open settings, and navigate to `Privacy & Security --> For Developers`
 
     ??? info "Example (Click to Expand)"
-        ![W11 Example 1](assets/simbridge/w11ch1.png){loading=lazy}
+        ![W11 Example 1](assets/w11ch1.png){loading=lazy}
 
 - Set Terminal to `Windows Console Host`
 
     ??? info "Example (Click to Expand)"
-        ![W11 Example 2](assets/simbridge/w11ch2.png){loading=lazy}
+        ![W11 Example 2](assets/w11ch2.png){loading=lazy}
 
 - Close the settings app and open SimBridge, it should now open in the legacy Windows Console Host.
 
     ??? info "Example (Click to Expand)"
-        ![W11 Example 3](assets/simbridge/w11ch3.png){loading=lazy}
+        ![W11 Example 3](assets/w11ch3.png){loading=lazy}
 
 SimBridge should now be able to be minimized to the tray appropriately.
 
@@ -77,7 +98,7 @@ If you still can't connect to SimBridge's remote displays your firewall might be
 
 If you can't reach SimBridge's remote display from your browser on your device or on your local PC then it is very likely that your PC firewall is blocking this network traffic.
 
-To test and confirm this turn off your firewall and try again to reach a [remote-display](remote-displays/remote-mcdu.md) via your browser. If you now can access your MCDU from your browser you have confirmed that it is indeed the firewall that blocks this access.
+To test and confirm this turn off your firewall and try again to reach a [remote-display](simbridge-feature-guides/remote-displays/remote-mcdu.md) via your browser. If you now can access your MCDU from your browser you have confirmed that it is indeed the firewall that blocks this access.
 
 {==
 
@@ -147,7 +168,7 @@ Error: listen EADDRINUSE: address already in use :::8380
       ...
     ```
 
-If the port is indeed already occupied then you need to change the default port in [SimBridge Configuration](configuration.md#server-settings).
+If the port is indeed already occupied then you need to change the default port in [SimBridge Configuration](install-configure/configuration.md#server-settings).
 
 You also need to change the port in the [flyPad EFB Sim options page](../fbw-a32nx/feature-guides/flypados3/settings.md#sim-options).
 
@@ -212,6 +233,6 @@ Please send us the latest logfile to the support channel on discord or on github
 
 ## Installation and Upgrade
 
-Sometimes the installation or the upgrade of Simbridge will fail with an Error during the [Installation](installation.md). This happens when Simbridge is still running in the background, even though the Installer indicates it isn't.
+Sometimes the installation or the upgrade of Simbridge will fail with an Error during the [Installation](install-configure/installation.md). This happens when Simbridge is still running in the background, even though the Installer indicates it isn't.
 
-Use the Windows Task Manager to stop the Simbridge process as described in the [Stopping Simbridge](autostart.md#stopping-simbridge) documentation and then run the installation or upgrade again.
+Use the Windows Task Manager to stop the Simbridge process as described in the [Stopping Simbridge](install-configure/start-simbridge.md#stopping-simbridge) documentation and then run the installation or upgrade again.
