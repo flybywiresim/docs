@@ -1,19 +1,26 @@
 # Rejected Takeoff in the A320
 
-The term rejected takeoff (also known as RTO) refers to incidents in which an aircraft's pilots elect to abort their departure before reaching a critical speed. This critical speed is known as 'V1' or the “decision speed”, and refers to the maximum speed an aircraft can reach on its takeoff roll and still have sufficient space to stop before the end of the runway. When the aircraft surpasses this speed, the aircraft must take-off. 
+The term rejected takeoff (also known as RTO) refers to incidents in which an aircraft's pilots elect to abort their departure before reaching a critical speed. This critical speed is known as 'V1', and this refers to the maximum speed an aircraft can reach on its takeoff roll and then be brought to a stop whilst remaining within the ASDA (Accelerate-Stop Distance Available). If the aircraft reaches this speed and the Pilot Flying has not yet taken action to stop the plane, the takeoff must be continued unless the airplane is unsafe to fly.  
+
 When the aircraft speed is at or above 100 kt, it may become hazardous to reject a takeoff, therefore a takeoff is split into 3 phases:  
 
 - Below 100 kt  
 - Above 100 kt and below V1  
-- Above V1
+- Above V1  
 
-## What happens during a rejected takeoff?
+!!! attention
+
+    If the takeoff is rejected below 72 kt, spoilers & autobrakes will not activate, therefore full manual braking would be required in addition to the other stop actions listed in the rejected takeoff procedure.  
+
+Jump to [Rejected Takeoff Procedure](#rejected-takeoff-procedure)
+
+## What Happens During a Rejected Takeoff in Real Life?
 
 The decision to reject the takeoff and the stop action is made by the Captain, it is therefore recommended that the Captain keeps his hand on the thrust levers until the aircraft reaches V1, whether he is Pilot Flying (PF) or Pilot Not Flying (PNF).
 
 As soon as the Captain decides to abort, he calls “STOP”, takes over control of the aircraft, and performs the stop actions.
 
-## Reasons for a rejected takeoff  
+## Reasons for a Rejected Takeoff  
 
 It is not possible to list all the factors that could lead to the decision to reject the takeoff. However, in order to help the Captain make a decision, the ECAM inhibits warnings that are not essential from 80 kt to 1500 ft (or 2 min after lift-off, whichever occurs first). When this occurs, a magenta T.O INHIBIT memo is displayed in the Upper ECAM (E/WD).
 
@@ -24,7 +31,6 @@ It is not possible to list all the factors that could lead to the decision to re
 - Above 100 kt and below V1:  
     - Fire warning or severe damage
     - Sudden loss of engine thrust
-    - Malfunctions or conditions that give unambiguous indications that the aircraft will not fly safely
     - Any red ECAM warning
     - Any amber ECAM caution listed below:
         - F/CTL SIDESTICK FAULT
@@ -33,7 +39,7 @@ It is not possible to list all the factors that could lead to the decision to re
         - ENG REVERSE UNLOCKED
         - ENG 1(2) THR LEVER FAULT
 - Above V1:  
-    - When the aircraft speed is greater than V1, takeoff must be continued
+    - Malfunctions or conditions that give unambiguous indications that the aircraft will not fly safely
 
 ## Rejected Takeoff Procedure  
 
