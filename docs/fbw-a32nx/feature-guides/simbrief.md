@@ -102,7 +102,7 @@ This will load your flight plan from simBrief directly into the MCDU
     #### RWY, SID, STAR, and APPR
     The SimBrief import will <span style=color:red>**not**</span> load RWY, SID, STAR, or APPR. You will need to 
     manually add these into the flight plan. To learn how to set up the MCDU you can read the 
-    [**^^F^^**LIGHT PLAN](../../pilots-corner/beginner-guide/preparing-mcdu.md#flight-plan) section 
+    [**^^F^^**LIGHT PLAN](../../pilots-corner/beginner-guide/preparing-mcdu.md#--f---light-plan) section 
     in our beginner's guide.
     <p />
     This is because RWY, SID, STAR and APPR are dependent on factors like active runways, traffic, weather, 
@@ -119,14 +119,16 @@ This will load your flight plan from simBrief directly into the MCDU
     - Per-waypoint entry and request of cruise winds is still being implemented.
     - Wind Request functionality is not 100% accurate to the real aircraft.
 
-<!-- Insert Init A page with WIND/TEMP highlighted -->
+![Wind Request](../assets/feature-guides/simbrief/mcdu-wind1.png){loading=lazy}
 
 On the `INIT A` page, select `WIND/TEMP` by pressing LSK4R. This brings you to the `CLIMB WIND` page.
 
-<!-- Insert Climb Wind page photo -->
+![Wind Request](../assets/feature-guides/simbrief/mcdu-wind2.png){loading=lazy}
 
 To request the wind data from the simBrief flight plan, select `WIND REQUEST` by pressing LSK3R. This will calculate the 
 wind profiles during the climb phase based on the simbrief-provided wind data.
+    
+![Wind Request](../assets/feature-guides/simbrief/mcdu-wind3.png){loading=lazy}
 
 Press LSK5R to go to the `NEXT PHASE`, `CRZ WIND`. The same procedure of pressing LSK3R for `WIND REQUEST` applies here.
 
