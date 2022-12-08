@@ -18,7 +18,8 @@ If you are the author of an affected livery please reference the following:
 
 ## Registration Decal
 
-The A32NX has a [toggle option in the EFB to disable the dynamic registration number decal](../../fbw-a32nx/feature-guides/flypados3/settings/#sim-options) normally located near the rear of the aircraft. The intention of this option is to remove the need for livery designers to include a `panel.cfg` file in their livery packages.
+The A32NX has a [toggle option in the EFB to disable the dynamic registration number decal](../fbw-a32nx/feature-guides/flypados3/settings.md#sim-options) normally located near the rear of the aircraft. The 
+intention of this option is to remove the need for livery designers to include a `panel.cfg` file in their livery packages.
 
 !!! warning "Avoid Using panel.cfg"
     Overriding `panel.cfg` creates future conflicts with A32NX development.
@@ -48,20 +49,20 @@ If you are the author of a livery that needs individual texturing of these hinge
 For convenience, here is a copy of the 
 [cargo door UV Map](assets/a32nx-dev/cargo-door-uv.png){target=new} that can be added as a layer in your workflow.
 
-## Bandit / Racoon mask.
+## Bandit / Racoon Mask
 The bandit/racoon mask is disabled by default.
 To enable the mask, in any color of your choice, use the `DECALS_BANDIT_WINDOW_ALBD.PNG.DDS` texture and fill the 
 associated square referenced in the [UV map legend](assets/textures/uv-map-legend.png).
 
 Note that the UV legend is 1024x1024, for readability, while the real texture only is 64x64.
 
-## Elevator trim scale
+## Elevator Trim Scale
 The fill and outline color of the elevator trim scale, is configured in the `DECALS_BANDIT_WINDOW_ALBD.PNG.DDS` texture.
 See the [UV map legend](assets/textures/uv-map-legend.png) for reference. 
 
 Note that the UV legend is 1024x1024, for readability, while the real texture only is 64x64.
 
-## Logo / sticker / alliance decal
+## Logo / Sticker / Alliance Decal
 We have added a mesh between the forward doors and the cockpit, to ease with high quality logos, stickers, etc.
 The texture for logo / stickers / alliance is transparent by default.
 To enable this texture, add a 2048x2048 `DECAL_LOGO_FRONT_COMP.PNG.DDS` texture and add your graphics in the 
