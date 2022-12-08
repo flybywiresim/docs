@@ -5,7 +5,6 @@ hide:
     - tags
 ---
 
-<link rel="stylesheet" href="/../../stylesheets/larger-admon-font.css">
 <link rel="stylesheet" href="/../../stylesheets/toc-tables.css">
 
 # Vertical Guidance
