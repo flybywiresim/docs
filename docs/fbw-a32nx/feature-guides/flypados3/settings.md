@@ -98,15 +98,27 @@ Settings for simulation aspects of the A32NX aircraft.
 - Default Baro:
     - User can set which baro setting is wanted as a default: inHg, hPA or Auto (depends on the airport where 
       the aircraft spawned).
+     
 - Sync MSFS Flight Plan:
     - User can set if and how the flight plan synchronization between the simulator and the aircraft should work.
     - The options are:
-        - None: No synchronization.
-        - Load Only: Only once when loading the flight.
-        - Save: Synchronization with every change in the aircraft
+        - None: 
+            - The simulator's flight plan will not be loaded and changes to the aircraft's flight plan will not be 
+              saved back to the sim's flight plan. 
+        - Load Only: 
+            - The simulator's flight plan set in the World Map will be loaded once when starting the flight. 
+              Any subsequent changes to the flight plan in the aircraft will not be synchronized back to the simulator.
+        - Save: 
+            - The simulator's flight plan set in the World Map will be loaded once when starting the flight. Any 
+              subsequent changes to the flight plan in the aircraft will be synchronized back to the simulator if 
+              possible. See warning below.
+   
+        !!! note "There is No synchronization from the sim's flight plan to the aircraft after initial load."
 
         !!! warning "Synchronization Issues Expected"
-            The aircraft's custom Flight Management System provides better accuracy and features over the default flight plan manager in Microsoft Flight simulator which results in issues syncing the flight plan from the MCDU back into the simulator. Do not expect it to work properly in all cases.
+            The aircraft's custom Flight Management System provides better accuracy and features over the default 
+            flight plan manager in Microsoft Flight simulator which results in issues syncing the flight plan from the 
+            MCDU back into the simulator. Do not expect it to work properly in all cases.
 
 - Enable SimBridge Connection
     - Auto:
