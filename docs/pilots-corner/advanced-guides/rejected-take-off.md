@@ -2,15 +2,15 @@
 
 The term rejected takeoff (also known as RTO) refers to incidents in which an aircraft's pilots elect to abort their departure before reaching a critical speed. This critical speed is known as 'V1', and this refers to the maximum speed an aircraft can reach on its takeoff roll and then be brought to a stop whilst remaining within the ASDA (Accelerate-Stop Distance Available). If the aircraft reaches this speed and the Pilot Flying has not yet taken action to stop the plane, the takeoff must be continued unless the airplane is unsafe to fly.  
 
-When the aircraft speed is at or above 100 kt, it may become hazardous to reject a takeoff, therefore a takeoff is split into 3 phases:  
+When the aircraft speed is at or above 100 kts, it may become hazardous to reject a takeoff, therefore a takeoff is split into 3 phases:  
 
-- Below 100 kt  
-- Above 100 kt and below V1  
+- Below 100 kts  
+- Above 100 kts and below V1  
 - Above V1  
 
 !!! attention
 
-    If the takeoff is rejected below 72 kt, spoilers & autobrakes will not activate, therefore full manual braking would be required in addition to the other stop actions listed in the rejected takeoff procedure.  
+    If the takeoff is rejected below 72 kts, spoilers & autobrakes will not activate, therefore full manual braking would be required in addition to the other stop actions listed in the rejected takeoff procedure.  
 
 Jump to [Rejected Takeoff Procedure](#rejected-takeoff-procedure)
 
@@ -26,9 +26,9 @@ It is not possible to list all the factors that could lead to the decision to re
 
 ![Upper ECAM T.O INHIBIT](../assets/a32nx-briefing/ecam/Upper-ECAM-t.o-inhibit.jpg "Upper ECAM T.O INHIBIT")
 
-- Below 100 kt:  
+- Below 100 kts:  
     - Any ECAM warning/caution should prompt the Captain to seriously consider discontinuing the takeoff
-- Above 100 kt and below V1:  
+- Above 100 kts and below V1:  
     - Fire warning or severe damage
     - Sudden loss of engine thrust
     - Any red ECAM warning
@@ -45,7 +45,7 @@ It is not possible to list all the factors that could lead to the decision to re
 
 !!! note
 
-      We have modified and condensed the rejected takeoff procedure to assist a single pilot to perform for simulation purposes. In real life operations, the procedures are split between the Captain and FO. 
+      We have modified and condensed the rejected takeoff procedure to enable a single pilot to perform for simulation purposes. In real life operations, the procedures are split between the Captain and FO. 
 
 ---
 
@@ -86,5 +86,5 @@ Takeoff Procedure")
 
 !!! note 
 
-    - Full reverse thrust may be used until coming to a complete stop. But, if there is enough runway available at the end of the deceleration, it is preferable to reduce reverse thrust when passing 70 kt.
+    - Full reverse thrust may be used until coming to a complete stop. But, if there is enough runway available at the end of the deceleration, it is preferable to reduce reverse thrust when passing 70 kts.
     - If the brake response from the autobrake does not seem appropriate for the runway condition, FULL manual braking should be applied and maintained. IF IN DOUBT, TAKE OVER MANUALLY.
