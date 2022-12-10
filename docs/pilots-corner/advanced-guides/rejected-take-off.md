@@ -45,7 +45,7 @@ It is not possible to list all the factors that could lead to the decision to re
 
 !!! note
 
-      Because in the simulator most of the time you are on your own, the procedure has been condensed for a single pilot to perform. In real life operations, the procedures are split between the Captain and FO. 
+      We have modified and condensed the rejected takeoff procedure to assist a single pilot to perform for simulation purposes. In real life operations, the procedures are split between the Captain and FO. 
 
 ---
 
