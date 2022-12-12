@@ -221,7 +221,8 @@ built-in map.
     Use your controller's rudder and elevator axis to steer!
 
 !!! tip
-    The flyPad's pushback system can be remotely controlled by using the A32NX's API. See [Pushback API](../api/pushback.md).
+    The flyPad's pushback system can be remotely controlled by using the A32NX's API. 
+    See [Pushback API](../../a32nx-api/a32nx-flightdeck-api.md#pushback-api).
 
 ### Pushback System On/Off
 
