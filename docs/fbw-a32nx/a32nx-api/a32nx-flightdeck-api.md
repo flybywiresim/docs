@@ -934,16 +934,58 @@ See [Nose Wheel and Tiller Operation](../feature-guides/nw-tiller.md)
 
 ## flyPad EFB
 
-| Function                                     | API Usage                             | Values   | Read/Write | Type                     | Remark                                                                              |
-|:---------------------------------------------|:--------------------------------------|:---------|:-----------|:-------------------------|:------------------------------------------------------------------------------------|
-| Hardware Power Button                        | A32NX_EFB_POWER                       | -        | -          | HTML Event (aka H Event) | Toggles EFB Power                                                                   |
-| EFB Brightness                               | A32NX_EFB_BRIGHTNESS                  | 0..100   | R/W        | Custom LVAR              | Overwrites automatic setting                                                        |
-| Pushback System                              | A32NX_PUSHBACK_SYSTEM_ENABLED         | 0&#124;1 | R/W        | Custom LVAR              | To turn off Pushback System completely to not interfere with other pushback add-ons |
-| Load Lighting Preset                         | A32NX_LOAD_LIGHTING_PRESET            | 1..8     | R/W        | Custom LVAR              | Aircraft must be powered. Will be reset to 0 after the preset has been loaded.      |
-| Save Lighting Preset                         | A32NX_SAVE_LIGHTING_PRESET            | 1..8     | R/W        | Custom LVAR              | Aircraft must be powered. Will be reset to 0 after the preset has been saved.       |
-| Load Aircraft Preset                         | A32NX_LOAD_AIRCRAFT_PRESET            | 1..5     | R/W        | Custom LVAR              | Will be reset to 0 after the preset has been loaded.                                |
-| Current Progress for Aircraft Preset Loading | A32NX_LOAD_AIRCRAFT_PRESET_PROGRESS   | 0.0..1.0 | R          | Custom LVAR              | Percent done of the Aircraft State to be loaded.                                    |
-| Current Aircraft Preset Loading Step         | A32NX_LOAD_AIRCRAFT_PRESET_CURRENT_ID | 0..999   | R          | Custom LVAR              | ID of the current step.                                                             |
+| Function                                     | API Usage                             | Values    | Read/Write | Type                     | Remark                                                                                 |
+|:---------------------------------------------|:--------------------------------------|:----------|:-----------|:-------------------------|:---------------------------------------------------------------------------------------|
+| Hardware Power Button                        | A32NX_EFB_POWER                       | -         | -          | HTML Event (aka H Event) | Toggles EFB Power                                                                      |
+| EFB Brightness                               | A32NX_EFB_BRIGHTNESS                  | 0..100    | R/W        | Custom LVAR              | Overwrites automatic setting                                                           |
+| Load Lighting Preset                         | A32NX_LOAD_LIGHTING_PRESET            | 1..8      | R/W        | Custom LVAR              | Aircraft must be powered. Will be reset to 0 after the preset has been loaded.         |
+| Save Lighting Preset                         | A32NX_SAVE_LIGHTING_PRESET            | 1..8      | R/W        | Custom LVAR              | Aircraft must be powered. Will be reset to 0 after the preset has been saved.          |
+| Load Aircraft Preset                         | A32NX_LOAD_AIRCRAFT_PRESET            | 1..5      | R/W        | Custom LVAR              | Will be reset to 0 after the preset has been loaded.                                   |
+| Current Progress for Aircraft Preset Loading | A32NX_LOAD_AIRCRAFT_PRESET_PROGRESS   | 0.0..1.0  | R          | Custom LVAR              | Percent done of the Aircraft State to be loaded.                                       |
+| Current Aircraft Preset Loading Step         | A32NX_LOAD_AIRCRAFT_PRESET_CURRENT_ID | 0..999    | R          | Custom LVAR              | ID of the current step.                                                                |
 
+### Pushback API
 
+| Function                                     | API Usage                             | Values    | Read/Write | Type                     | Remark                                                                                 |
+|:---------------------------------------------|:--------------------------------------|:----------|:-----------|:-------------------------|:---------------------------------------------------------------------------------------|
+| Pushback System                              | A32NX_PUSHBACK_SYSTEM_ENABLED         | 0&#124;1  | R/W        | Custom LVAR              | To turn off Pushback System completely to not interfere with other pushback add-ons    |
+| Pushback Movement Factor                     | A32NX_PUSHBACK_SPD_FACTOR             | -1.0..1.0 | R/W        | Custom LVAR              | Set the speed of the pushback tug in percent. Negative values are backwards movements. |
+| Pushback Heading Factor                      | A32NX_PUSHBACK_HDG_FACTOR             | -1.0..1.0 | R/W        | Custom LVAR              | Set the turning factor from max left (-1.0) to max right (1.0)                         |
 
+??? tip "Pushback API Tip"
+    #### Pushback API Tip
+    Using the Pushback API is relatively easy, but you also might need some additional sim events/vars to make it work. 
+    The following step-by-step description helps you to use buttons on a controller or a Stream Deck to control the 
+    pushback.  
+
+    * Set the Pushback System to enabled ==> set L:A32NX_PUSHBACK_SYSTEM_ENABLED to 1
+    * Use the sim var `PUSHBACK STATE` to check if the pushback tug is connected to the aircraft
+        - PUSHBACK STATE == 3 ==> Pushback tug is **not** connected
+        - PUSHBACK STATE < 3 ==> Pushback tug is connected
+        - Alternatively there is also the sim var `Pushback Attached` which can also be used.
+    * Call the Pushback Tug via the SimConnect Event `K:TOGGLE_PUSHBACK`
+    * Wait until the Pushback Tug is connected to the aircraft
+        - Should be immideately and is independent of the the actual visual pushback tug being attached to the aircraft 
+        - This is a sim issue as MSFS will not wait for the pushback tug model to be attached before setting the 
+        corresponding sim vars
+    * Set the Pushback Movement Factor via the LVAR `L:A32NX_PUSHBACK_SPD_FACTOR` to the desired value
+    * Set the Pushback Heading Factor via the LVAR `L:A32NX_PUSHBACK_HDG_FACTOR` to the desired value
+    * Set the Pushback Movement Factor via the LVAR `L:A32NX_PUSHBACK_SPD_FACTOR` to `0` to stop the psuhback tug
+    * To disconnect the pushback tug call the SimConnect Event `K:TOGGLE_PUSHBACK` again
+
+    #### Pushback API Example
+
+    ![img.png](pushback-api-example.png){loading=lazy}
+    
+    | Button                      | Pseudo Code                                                                 | Remark                    |
+    |-----------------------------|-----------------------------------------------------------------------------|---------------------------|
+    | PUSHBACK<br/>SYSTEM         | toggle `L:A32NX_PUSHBACK_SYSTEM_ENABLED`                                    | 0 or 1                    |
+    | Forward                     | `L:A32NX_PUSHBACK_SPD_FACTOR` = oldvalue + 0.1                              | -1.0..1.0, 0 = not moving |
+    | TUG                         | call `K:TOGGLE_PUSHBACK`                                                    |                           |
+    | Left                        | `L:A32NX_PUSHBACK_HDG_FACTOR` = oldvalue - 0.1                              | -1.0..1.0, 0 = straight   |
+    | PUSHBACK<br/>STOPPED/MOVING | `L:A32NX_PUSHBACK_SPD_FACTOR` = 0.0<br/>`L:A32NX_PUSHBACK_HDG_FACTOR` = 0.0 |                           |
+    | Right                       | `L:A32NX_PUSHBACK_HDG_FACTOR` = oldvalue + 0.1                              |                           |
+    | STRAIGHT                    | `L:A32NX_PUSHBACK_HDG_FACTOR` = 0.0                                         |                           |
+    | Backward                    | `L:A32NX_PUSHBACK_SPD_FACTOR` = oldvalue - 0.1                              |                           |
+    | 30% back                    | `L:A32NX_PUSHBACK_SPD_FACTOR` = -0.3                                        |                           |
+        
