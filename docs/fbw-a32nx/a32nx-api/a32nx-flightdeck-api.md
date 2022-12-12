@@ -975,7 +975,7 @@ See [Nose Wheel and Tiller Operation](../feature-guides/nw-tiller.md)
 
     #### Pushback API Example
 
-    ![img.png](pushback-api-example.png){loading=lazy}
+    ![img.png](../assets/api-guide/pushback-api-example.png){loading=lazy}
     
     | Button                      | Pseudo Code                                                                 | Remark                    |
     |-----------------------------|-----------------------------------------------------------------------------|---------------------------|
