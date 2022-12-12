@@ -22,9 +22,9 @@ As soon as the Captain decides to abort, he calls “STOP”, takes over control
 
 ## Reasons for a Rejected Takeoff  
 
-It is not possible to list all the factors that could lead to the decision to reject the takeoff. However, in order to help the Captain make a decision, the ECAM inhibits warnings that are not essential from 80 kt to 1500 ft (or 2 min after lift-off, whichever occurs first). When this occurs, a magenta T.O INHIBIT memo is displayed in the Upper ECAM (E/WD).
+It is not possible to list all the factors that could lead to the decision to reject the takeoff. However, in order to help the Captain make a decision, the ECAM inhibits warnings that are not essential once the plane passes 80 kts and stops inhibiting them once the plane reaches 1500 ft AGL (or 2 min after lift-off, whichever occurs first). A magenta T.O INHIBIT memo is displayed in the Upper ECAM (E/WD) to inform the pilots of this.
 
-![Upper ECAM T.O INHIBIT](../assets/a32nx-briefing/ecam/Upper-ECAM-t.o-inhibit.jpg "Upper ECAM T.O INHIBIT")
+![Upper ECAM T.O INHIBIT](../assets/advanced-guides/rejected-takeoff/upper-ecam-to-inhibit.jpg "Upper ECAM T.O INHIBIT")
 
 - Below 100 kts:  
     - Any ECAM warning/caution should prompt the Captain to seriously consider discontinuing the takeoff
@@ -86,5 +86,5 @@ Takeoff Procedure")
 
 !!! note 
 
-    - Full reverse thrust may be used until coming to a complete stop. But, if there is enough runway available at the end of the deceleration, it is preferable to reduce reverse thrust when passing 70 kts.
+    - Full reverse thrust may be used until coming to a complete stop. But, if there is enough runway available at the end of the deceleration, it is preferable to set thrust levers to idle reverse when passing 70 kts.
     - If the brake response from the autobrake does not seem appropriate for the runway condition, FULL manual braking should be applied and maintained. IF IN DOUBT, TAKE OVER MANUALLY.
