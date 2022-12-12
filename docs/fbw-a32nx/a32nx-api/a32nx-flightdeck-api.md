@@ -952,8 +952,8 @@ See [Nose Wheel and Tiller Operation](../feature-guides/nw-tiller.md)
 | Pushback Movement Factor                     | A32NX_PUSHBACK_SPD_FACTOR             | -1.0..1.0 | R/W        | Custom LVAR              | Set the speed of the pushback tug in percent. Negative values are backwards movements. |
 | Pushback Heading Factor                      | A32NX_PUSHBACK_HDG_FACTOR             | -1.0..1.0 | R/W        | Custom LVAR              | Set the turning factor from max left (-1.0) to max right (1.0)                         |
 
-??? tip "Pushback API Tip"
-    #### Pushback API Tip
+??? tip "Pushback API HowTo"
+    #### Pushback API HowTo
     Using the Pushback API is relatively easy, but you also might need some additional sim events/vars to make it work. 
     The following step-by-step description helps you to use buttons on a controller or a Stream Deck to control the 
     pushback.  
