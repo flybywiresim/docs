@@ -2,7 +2,8 @@
 
 This page shows you a collection of common flight simulation hardware which can be used together with Microsoft Flight Simulator and the FlyByWire A32NX.
 
-To make these controllers fully compatible you need to replace their default drivers with the appropriate software. See [here](index.md#solutions).
+To make some of these controllers fully compatible you need to replace their default drivers with the appropriate 
+software. See [here](index.md#solutions).
 
 The examples below are configured via SPAD.neXt and the configuration documentation is linked below.
 
