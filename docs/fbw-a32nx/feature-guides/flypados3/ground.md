@@ -218,10 +218,10 @@ The flyPad pushback system provides comfortable pushback from within the cockpit
 built-in map.
 
 !!! tip
-Use your controller's rudder and elevator axis to steer!
+    Use your controller's rudder and elevator axis to steer!
 
 !!! tip
-The flyPad's pushback system can be remotely controlled by using the A32NX's API. See [Pushback API](../api/pushback.md).
+    The flyPad's pushback system can be remotely controlled by using the A32NX's API. See [Pushback API](../api/pushback.md).
 
 ### Pushback System On/Off
 
@@ -230,8 +230,8 @@ pushback system and these add-ons can usually not be used at the same time. Beca
 can be disabled completely to avoid any interference with other pushback add-ons.
 
 !!! block ""
-![img.png](../../assets/flypados3/flypad-pushback-system-off.png){align=center width=49% loading=lazy}
-![img_1.png](../../assets/flypados3/flypad-pushback-system-on.png){align=center width=49% loading=lazy}
+    ![img.png](../../assets/flypados3/flypad-pushback-system-off.png){align=center width=49% loading=lazy}
+    ![img_1.png](../../assets/flypados3/flypad-pushback-system-on.png){align=center width=49% loading=lazy}
 
 A warning message will appear if you enable the system to remind users of these potential incompatibilities.
 
@@ -243,20 +243,20 @@ reading/setting this LVAR variable: `L:A32NX_PUSHBACK_SYSTEM_ENABLED`.
 Pressing this button will call and attach the pushback tug or release it in case it was already attached.
 
 !!! warning "Tug Animation"
-From the point of view of the aircraft the tug appears to be immediately attached. This is a sim issue as the tug's
-animation is not in sync with the tug-attached signal to the aircraft. This also allows to pushback immediately
-although the visual tug is not yet connected to the aircraft.
-<p />
-To overcome this limitation the sim's pushback tug model would need to be changed which would conflict with
-other pushback add-ons which use this method. We have therefore chosen not to implement this at this time.
+    From the point of view of the aircraft the tug appears to be immediately attached. This is a sim issue as the tug's
+    animation is not in sync with the tug-attached signal to the aircraft. This also allows to pushback immediately
+    although the visual tug is not yet connected to the aircraft.
+    <p />
+    To overcome this limitation the sim's pushback tug model would need to be changed which would conflict with
+    other pushback add-ons which use this method. We have therefore chosen not to implement this at this time.
 
 When releasing the tug the button will stay amber until the pushback pin is removed and the ECAM memo "NW STRG DISC"
 has disappeared (~15sec). The aircraft cannot be steered with the nose wheel steering pin installed.
 
 !!! block ""
-![img.png](../../assets/flypados3/flypad-pushback-tugcall.png){align=center width=32% loading=lazy}
-![img_2.png](../../assets/flypados3/flypad-pushback-tugwait.png){align=center width=32% loading=lazy}
-![img_1.png](../../assets/flypados3/flypad-pushback-tugrelease.png){align=center width=32% loading=lazy}
+    ![img.png](../../assets/flypados3/flypad-pushback-tugcall.png){align=center width=32% loading=lazy}
+    ![img_2.png](../../assets/flypados3/flypad-pushback-tugwait.png){align=center width=32% loading=lazy}
+    ![img_1.png](../../assets/flypados3/flypad-pushback-tugrelease.png){align=center width=32% loading=lazy}
 
 ### Parking Brake
 
