@@ -17,7 +17,7 @@ When the aircraft speed is at or above 100 kts, it may become hazardous to rejec
 - Above 100 kts and below V1  
 - Above V1  
 
-!!! attention
+!!! warning "Attention"
 
     If the takeoff is rejected below 72 kts, spoilers & autobrakes will not activate, therefore full manual braking would be required in addition to the other stop actions listed in the rejected takeoff procedure.  
 
