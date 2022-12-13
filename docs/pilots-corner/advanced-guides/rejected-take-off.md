@@ -1,6 +1,15 @@
 # Rejected Takeoff in the A320
 
-The term rejected takeoff (also known as RTO) refers to incidents in which an aircraft's pilots elect to abort their departure before reaching a critical speed. This critical speed is known as 'V1', and this refers to the maximum speed an aircraft can reach on its takeoff roll and then be brought to a stop whilst remaining within the ASDA (Accelerate-Stop Distance Available). If the aircraft reaches this speed and the Pilot Flying has not yet taken action to stop the plane, the takeoff must be continued unless the airplane is unsafe to fly.  
+The term rejected takeoff (also known as RTO) refers to incidents in which an aircraft's pilots elect to abort their 
+departure before reaching a critical speed. 
+
+This critical speed is known as 'V1', and this refers to the maximum speed an aircraft can reach on its takeoff roll and then be brought to a stop 
+whilst remaining within the accelerate-stop distance (the distance the airplane actually needs to accelerate and stop in accordance with regulations). 
+If the aircraft reaches this speed and the Pilot Flying has not yet taken action to stop the plane, the takeoff must be continued unless the airplane is unsafe to fly.
+
+??? tip "Extra Knowledge - ASDA (Click to Expand)"
+    Another similar term is accelerate-stop distance available (ASDA) which covers the length of runway and stopway that is available for an 
+    accelerate-stop. This distance can be longer than the accelerate-stop distance. 
 
 When the aircraft speed is at or above 100 kts, it may become hazardous to reject a takeoff, therefore a takeoff is split into 3 phases:  
 
