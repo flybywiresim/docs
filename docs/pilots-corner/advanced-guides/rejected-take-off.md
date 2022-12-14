@@ -9,7 +9,11 @@ If the aircraft reaches this speed and the Pilot Flying has not yet taken action
 
 ??? tip "Extra Knowledge - ASDA (Click to Expand)"
     Another similar term is accelerate-stop distance available (ASDA) which covers the length of runway and stopway that is available for an 
-    accelerate-stop. This distance can be longer than the accelerate-stop distance. 
+    accelerate-stop.
+
+    When we approach this concept from a flight planning perspective, ASDA is a fixed value and pilots need to select a V1 for which the 
+    acclearate-stop distance is no greater than the ASDA.
+
 
 When the aircraft speed is at or above 100 kts, it may become hazardous to reject a takeoff, therefore a takeoff is split into 3 phases:  
 
