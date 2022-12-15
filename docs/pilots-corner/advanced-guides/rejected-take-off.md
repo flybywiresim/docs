@@ -3,17 +3,27 @@
 The term rejected takeoff (also known as RTO) refers to incidents in which an aircraft's pilots elect to abort their 
 departure before reaching a critical speed. 
 
-This critical speed is known as 'V1', and this refers to the maximum speed an aircraft can reach on its takeoff roll and then be brought to a stop 
+This critical speed is known as '[V1](../abbreviations.md)', and this refers to the maximum speed an aircraft can reach on its takeoff roll and then be brought to a stop 
 whilst remaining within the accelerate-stop distance (the distance the airplane actually needs to accelerate and stop in accordance with regulations). 
 If the aircraft reaches this speed and the Pilot Flying has not yet taken action to stop the plane, the takeoff must be continued unless the airplane is unsafe to fly.
 
+[V-Speeds Information](../abbreviations.md){.md-button target=new}
+
 ??? tip "Extra Knowledge - ASDA (Click to Expand)"
-    Another similar term is accelerate-stop distance available (ASDA) which covers the length of runway and stopway that is available for an 
-    accelerate-stop.
+    To be able to take off, the takeoff weight and V1 speed must result in an accelerate-stop distance that is no longer than the accelerate-stop
+    distance available (ASDA). 
 
-    When we approach this concept from a flight planning perspective, ASDA is a fixed value and pilots need to select a V1 for which the 
-    acclearate-stop distance is no greater than the ASDA.
+    The ASDA is a distance declared by the airport and is the runway length available for a rejected takeoff plus any
+    stopway that may be present. A stopway is an area beyond the takeoff runway meeting certain dimensional requirements that is designed to support
 
+    ---
+    
+    **Additional Info**
+
+    The reason we mention runway length available for a rejected takeoff above, is that in some cases the ASDA can actually be shorter than the physical length of the runway.
+
+    For example, in the U.S., airports must provide a 1000-foot runway safety area (RSA) or an engineered material arresting system (EMAS) beyond the runway end. If this isn't possible, one option 
+    is to shorten the length of the runway declared as ASDA to provide for the RSA. This could result in the ASDA being up to 1,000 feet shorter than the actual runway.
 
 When the aircraft speed is at or above 100 kts, it may become hazardous to reject a takeoff, therefore a takeoff is split into 3 phases:  
 
