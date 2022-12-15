@@ -76,7 +76,7 @@ Icon Crossed             |  Icon Normal
 :-------------------------:|:-------------------------:
 ![Wifi Crossed](../fbw-a32nx/assets/flypados3/flypad-status-crossed.png){loading=lazy}  |  ![Wifi Normal](../fbw-a32nx/assets/flypados3/flypad-status-normal.png){loading=lazy}
 
-- If the wifi / connectivity icon is crossed, head to the flypad Settings --> Sim Options 
+- If the wifi / connectivity icon is crossed, head to the flyPad Settings --> Sim Options 
 
 FlyPad Settings            |  Sim Options
 :-------------------------:|:-------------------------:
