@@ -68,23 +68,25 @@ SimBridge should now be able to be minimized to the tray appropriately.
 
 ## FlyPad Settings
 
-FlyPad will stop trying to connect to SimBridge after a 5 minute timer.
-Check the connectivity status on FlyPad by checking if the wifi icon on the top is crossed.
+EFB will stop trying to connect to SimBridge after a 5 minute timer.
+Check the connectivity status on the EFB by checking if the wifi icon on the top is crossed.
 ![FlyPad Wifi](../fbw-a32nx/assets/flypados3/flypad-dashboard-connectivity.png){loading=lazy}
 
 Icon Crossed             |  Icon Normal
 :-------------------------:|:-------------------------:
 ![Wifi Crossed](../fbw-a32nx/assets/flypados3/flypad-status-crossed.png){loading=lazy}  |  ![Wifi Normal](../fbw-a32nx/assets/flypados3/flypad-status-normal.png){loading=lazy}
 
-- If the wifi / connectivity icon is crossed, head to Flypad Settings --> Sim Options 
+- If the wifi / connectivity icon is crossed, head to the flypad Settings --> Sim Options 
 
 FlyPad Settings            |  Sim Options
 :-------------------------:|:-------------------------:
 ![FlyPad Sim Settings](../fbw-a32nx/assets/flypados3/flypad-settings-overview_sim_options_marked.png){loading=lazy}  |      ![FlyPad Sim Options](../fbw-a32nx/assets/flypados3/flypad-settings-sim-options-marked.png){loading=lazy}
 
-- To attempt connection : SimBridge Connection: Turn "AUTO" to "OFF" for a few seconds and "AUTO" again.
+To attempt connection:
 
-
+- SimBridge Connection: Turn "AUTO" to "OFF" for a few seconds.
+- Select "AUTO" again.
+  
 ## Network Configuration
 
 To access SimBridge's remote displays from a remote device you need to make sure that this device is on the same network as the PC running the MCDU Server.
