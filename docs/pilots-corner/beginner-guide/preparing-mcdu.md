@@ -259,7 +259,10 @@ Verify the flight plan by using the vertical slew keys to scroll through it.
     Sometimes discontinuities are also part of a procedure to indicate that manual input is required (mostly clearance by ATC). The preceding legs are called MANUAL legs.
 
     See our detailed documentation for [Discontinuities](../advanced-guides/flight-planning/disco.md) to understand how to appropriately handle these when encountered on your 
-    F-PLN page.
+    F-PLN page. 
+    
+    !!! warning ""
+        Additionally, make note of this [Special Case](../advanced-guides/flight-planning/disco.md#special-case) on the discontinuity page.
 
 !!! info "Viewing Flight Plan on ND"
     We can also verify the route looks correct by selecting `Plan` on the EFIS control panel and watching the ND as we scroll through.
@@ -399,9 +402,7 @@ For this flight we will be taking off with a `1+F` flaps configuration.
     While not *realistic or accurate*, you can insert a THS value based on the ZFWCG values found in the following areas in the MCDU:
 
     - Auto populated when entering information in the [INIT FUEL PRED](#init-fuel-pred) page
-    - **Stable**: ZFWCG value on the [W&B page](../../fbw-a32nx/feature-guides/loading-fuel-weight.md#load-ofp-payload-info) in the AOC Menu.
-    - **Development**: ZFWCG value on the EFB found on the [Payload Tab on the Grounds Services Page](../../fbw-a32nx/feature-guides/loading-fuel-weight.
-    md#finding-the-payload-screen).
+    - ZFWCG value on the EFB found on the [Payload Tab on the Grounds Services Page](../../fbw-a32nx/feature-guides/loading-fuel-weightmd#finding-the-payload-screen).
 
     Make sure to update this value or set the correct trim once your engines have started.
 

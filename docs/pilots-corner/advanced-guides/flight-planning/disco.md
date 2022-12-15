@@ -9,6 +9,16 @@ There are basically two types of discontinuities:
 - Discontinuities between two waypoints in the flight plan
 - Discontinuities after a MANUAL leg (Manual Termination)
 
+### Special Case
+
+!!! warning "STAR and Approach Discontinuity - Inaccuracy"
+    If your STAR contains other waypoints after the IAF (initial approach fix) that you have selected via an approach transition (VIA), the FMS will not automatically connect 
+    the STAR to the approach at at the IAF.
+
+    This is a small problem with our current implementation. It will be corrected when we 
+    update to version 2 (fms-v2) of our implementation which contains even better simulation of the 
+    Honeywell FMS.
+
 ## Discontinuities Between Waypoints
 
 These discontinuities <span style=color:red>should not</span> be cleared from the flight plan in normal operations. Typically, you will notice a discontinuity in the following 

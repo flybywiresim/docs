@@ -1,8 +1,29 @@
 # Troubleshooting
 
+## Timeout for SimBridge Connection Attempts
+
+Due to issues in the Microsoft Flight Simulator Coherent Engine (Javascript Engine) continuous connection attempts 
+lead to performance problems for some users because of how the engine handles unsuccessful connections.
+
+Therefore, a timeout mechanism has been built into the aircraft's SimBridge client limiting the number of connection 
+attempts it will execute.
+
+A setting in the flyPad Settings SimOptions page has been introduced to allow users to restart the connection attempts 
+or to turn off the attempts to connect to SimBridge completely.
+
+![flyPad EFB Settings Sim Options](assets/efb-setting-simoptions.png){loading=lazy}
+
+If the aircraft is not able to connect to SimBridge within 5min the aircraft will stop any further attempts and
+`Inactive` will be shown. If `Inactive` is shown, but you want to connect to SimBridge just click on `Off`, wait 
+a few seconds and then click on `Auto` again.
+
+Check this page for more details: [SimBridge Aircraft Settings](install-configure/configuration.md#aircraft-settings)
+
 ## Main Window
-By default SimBridge's main window starts hidden to the systems tray, to view it select `Show/Hide` on the systems tray icon.
-![main window](assets/simbridge/simbridge_window.png){loading=lazy}
+By default, SimBridge's main window starts hidden to the system's tray, to view it select `Show/Hide` on the systems 
+tray icon.
+
+![main window](assets/simbridge_window.png){loading=lazy}
 
 The main window running SimBridge displays the servers log file information and provides important information about the started services, the necessary urls and ip addresses.
 
@@ -12,14 +33,14 @@ The main window running SimBridge displays the servers log file information and 
     !!! warning "Windows 11 Changes"
         A recent update to Windows 11 made `Windows Terminal` the default console (replacing `console host`). Unfortunately, at this time `Windows Terminal` does not support being minmized to the tray.
 
-        If you would like to revert back to `console host` to regain the hide to system tray function please see [Windows 11 System Tray Instructions](#windows-11-system-tray-instructions) below. 
+        If you would like to revert back to `console host` to regain the hide to system tray function please see [Windows 11 System Tray Instructions](#windows-11-system-tray-instructions) below.
 
 !!! warning "Notice"
-    If the main window is closed (via the (X) button), SimBridge will be closed entirely and will need to be [restarted](autostart.md#manual-start).
+    If the main window is closed (via the (X) button), SimBridge will be closed entirely and will need to be [restarted](install-configure/start-simbridge.md#manual-start).
 
 ### Windows 11 System Tray Instructions
 
-With the `Windows 11 22H2` update, `Windows Terminal` is now the default terminal on Windows 11. 
+With the `Windows 11 22H2` update, `Windows Terminal` is now the default terminal on Windows 11.
 
 As described earlier, `Windows Terminal` no longer supports being minimized to the tray. The instructions below detail how to regain this functionality at the expense of changing your "default console".
 
@@ -29,19 +50,19 @@ As described earlier, `Windows Terminal` no longer supports being minimized to t
 Steps to regain functionality:
 
 - Open settings, and navigate to `Privacy & Security --> For Developers`
- 
+
     ??? info "Example (Click to Expand)"
-        ![W11 Example 1](assets/simbridge/w11ch1.png){loading=lazy}
+        ![W11 Example 1](assets/w11ch1.png){loading=lazy}
 
 - Set Terminal to `Windows Console Host`
 
     ??? info "Example (Click to Expand)"
-        ![W11 Example 2](assets/simbridge/w11ch2.png){loading=lazy}
+        ![W11 Example 2](assets/w11ch2.png){loading=lazy}
 
 - Close the settings app and open SimBridge, it should now open in the legacy Windows Console Host.
 
     ??? info "Example (Click to Expand)"
-        ![W11 Example 3](assets/simbridge/w11ch3.png){loading=lazy}
+        ![W11 Example 3](assets/w11ch3.png){loading=lazy}
 
 SimBridge should now be able to be minimized to the tray appropriately.
 
@@ -96,7 +117,7 @@ If you still can't connect to SimBridge's remote displays your firewall might be
 
 If you can't reach SimBridge's remote display from your browser on your device or on your local PC then it is very likely that your PC firewall is blocking this network traffic.
 
-To test and confirm this turn off your firewall and try again to reach a [remote-display](remote-displays/remote-mcdu.md) via your browser. If you now can access your MCDU from your browser you have confirmed that it is indeed the firewall that blocks this access.
+To test and confirm this turn off your firewall and try again to reach a [remote-display](simbridge-feature-guides/remote-displays/remote-mcdu.md) via your browser. If you now can access your MCDU from your browser you have confirmed that it is indeed the firewall that blocks this access.
 
 {==
 
@@ -113,9 +134,9 @@ For the Windows Firewall you can follow this guide here:
 
 [Opening a Port on Windows Firewall Instructions](https://www.howtogeek.com/394735/how-do-i-open-a-port-on-windows-firewall/){target=new  .md-button }
 
-Alternatively you can open a Command Line prompt as Administrator and use this command:
+Alternatively, you can open a Command Line prompt or Windows Powershell as Administrator and use this command:
 
-``` cmd title="Windows Powershell"
+``` cmd title="Windows Command Line/Powershell"
 netsh advfirewall firewall add rule name="Local API Server" dir=in action=allow protocol=TCP localport=8380
 ```
 
@@ -166,11 +187,59 @@ Error: listen EADDRINUSE: address already in use :::8380
       ...
     ```
 
-If the port is indeed already occupied then you need to change the default port in [SimBridge Configuration](configuration.md#server-settings).
+If the port is indeed already occupied then you need to change the default port in [SimBridge Configuration](install-configure/configuration.md#server-settings).
 
 You also need to change the port in the [flyPad EFB Sim options page](../fbw-a32nx/feature-guides/flypados3/settings.md#sim-options).
 
 Of course now the firewall might need to be opened for this new port.
+
+## simbridge.local (mDNS)
+
+!!! danger "Disclaimer"
+    Changing Windows settings, especially security settings like the firewall comes with certain risks. Please do not change these settings if you are not comfortable doing so. FlyByWire Simulations does not take any responsibility for any issues caused by your changes to Windows or security settings.
+
+Once you have made sure that SimBridge's remote display is accessible via the IP address, it is possible that your firewall is blocking mDNS packets preventing you from accessing it via `simbridge.local`.
+
+To test and confirm this, turn off your firewall and try again to reach `simbridge.local` via your browser. If you can now access your MCDU from your browser, you have confirmed that it is indeed the firewall that blocks this access.
+
+{==
+
+ **Turn the firewall back on again.**<br/>
+ *(never run a PC without a firewall)*
+
+==}
+
+We now know we need to open the port we want to use. The mDNS port is **UDP 5353** and it must be allowed to pass the firewall in _both_ directions.
+
+There are several ways to open ports on your PC firewall.
+
+For the Windows Firewall you can follow this guide here:
+
+[Opening a Port on Windows Firewall Instructions](https://www.howtogeek.com/394735/how-do-i-open-a-port-on-windows-firewall/){target=new  .md-button }
+
+Alternatively, you can open a Command Line prompt or Windows Powershell as Administrator and use these commands:
+
+``` cmd title="Windows Command Line/Powershell"
+netsh advfirewall firewall add rule name="simbridge.local mDNS (in)" dir=in action=allow protocol=UDP localport=5353
+netsh advfirewall firewall add rule name="simbridge.local mDNS (out)" dir=out action=allow protocol=UDP remoteport=5353
+```
+
+For an advanced guide of this command see the Microsoft documentation:<br/>
+[netsh advfirewall firewall](https://docs.microsoft.com/en-US/troubleshoot/windows-server/networking/netsh-advfirewall-firewall-control-firewall-behavior){target=new}
+
+??? warning "Remove Autogenerated Rules (click to expand)"
+    Sometimes Windows has already automatically generated some rules after showing you a firewall dialog when starting SimBridge.
+
+    If you still can't connect to `simbridge.local` these rules might be the cause. After adding your own rule as described above you don't need these anymore and they can be deleted.
+
+    They usually look like this:
+
+    ![Windows Automatic Firewall Rules](assets/firewall_rules.png "Windows Automatic Firewall Rules"){loading=lazy}
+
+    Windows Dialog creating these automatic rules looks likes like this:
+    ![Windows Firewall Dialog](assets/fwrules-dialog.png "Windows Firewall Dialog"){loading=lazy}
+
+This should now allow access from your browser to SimBridge's remote display via `simbridge.local`.
 
 ## Logfile
 The logfile contains all of the messages printed by the main window as-well as debug messages.
@@ -183,6 +252,6 @@ Please send us the latest logfile to the support channel on discord or on github
 
 ## Installation and Upgrade
 
-Sometimes the installation or the upgrade of Simbridge will fail with an Error during the [Installation](installation.md). This happens when Simbridge is still running in the background, even though the Installer indicates it isn't.
+Sometimes the installation or the upgrade of Simbridge will fail with an Error during the [Installation](install-configure/installation.md). This happens when Simbridge is still running in the background, even though the Installer indicates it isn't.
 
-Use the Windows Task Manager to stop the Simbridge process as described in the [Stopping Simbridge](autostart.md#stopping-simbridge) documentation and then run the installation or upgrade again.
+Use the Windows Task Manager to stop the Simbridge process as described in the [Stopping Simbridge](install-configure/start-simbridge.md#stopping-simbridge) documentation and then run the installation or upgrade again.

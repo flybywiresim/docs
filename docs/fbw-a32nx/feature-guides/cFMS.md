@@ -69,7 +69,7 @@ We have introduced new features to the custom flight management system as part o
 - Some path captures will be incorrectly drawn. This will not affect guidance.
 - INTCPT calculation can be off on large distances.
 - Course captures do not adapt to PPOS when nextLeg is active. This can cause the final path to be off to the side.
-- WX and TERR on ND are not implemented yet. We are waiting for better API support by Microsoft Flight Simulator. See our [Forums Feature Request](https://forums.flightsimulator.com/t/implement-weather-and-terrain-api-s-for-aircraft-developers-to-implement-accurate-radar-predictive-windshear-egpws-and-metar-wind-uplink/442016){target=new}.
+- WX on ND are not implemented yet. We are waiting for better API support by Microsoft Flight Simulator. See our [Forums Feature Request](https://forums.flightsimulator.com/t/implement-weather-and-terrain-api-s-for-aircraft-developers-to-implement-accurate-radar-predictive-windshear-egpws-and-metar-wind-uplink/442016){target=new}.
 - Rendering of flight path on the ND of terminal procedure legs may be glitched or incorrect during cruise. - [See Special Notes](#flight-path-rendering).
 - Rendering of flight path on the ND of legs will be glitched or incorrect if you are flying faster than the appropriate/correct speed. - [See Special Notes](#flight-path-rendering).
 - Syncing the aircraft flight plan with the sim's flight plan for default ATC and VFR map is not 100% supported. - [See Special Notes](#special-notes).
@@ -185,7 +185,7 @@ Follow these steps:
 
 !!! info "Important Notice"
     - TCAS is now available in the Development version.
-    - Terrain Radar is being tested in the Experimental version via [SimBridge](../../index.md).
+    - Terrain Radar is now available in the Development version via [SimBridge](../../index.md).
     - Please see our [CFMS NOTAM](https://flybywiresim.com/notams/cfms/) for further WX/TER information.
 
 It is important to note that the weather radar is not available yet with the latest version of our cFMS(v1.5). Our current focus is to deliver a more realistic flight planning
