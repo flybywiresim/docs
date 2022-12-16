@@ -13,8 +13,8 @@ If the aircraft reaches this speed and the Pilot Flying has not yet taken action
     To be able to take off, the takeoff weight and V1 speed must result in an accelerate-stop distance that is no longer than the accelerate-stop
     distance available (ASDA). 
 
-    The ASDA is a distance declared by the airport and is the runway length available for a rejected takeoff plus any
-    stopway that may be present. A stopway is an area beyond the takeoff runway meeting certain dimensional requirements that is designed to support
+    The ASDA is a distance declared by the airport and is the runway length available for a rejected takeoff plus any stopway that may be present. A stopway is an area beyond the takeoff runway 
+    meeting certain dimensional requirements that is designed to support the airplane during a rejected takeoff without causing structural damage to the airplane.
 
     ---
     
