@@ -8,7 +8,7 @@
 
 ![FUEL Control Panel](../../../assets/a32nx-briefing/overhead-panel/Fuel-Panel.jpg "FUEL Control Panel")
 
-!!! note "API Documentation: [Fire Panel API](../../../../fbw-a32nx/a32nx-api/a32nx-flightdeck-api.md#fuel-panel)"
+!!! note "API Documentation: [Fuel Panel API](../../../../fbw-a32nx/a32nx-api/a32nx-flightdeck-api.md#fuel-panel)"
 
 ## Description
 
