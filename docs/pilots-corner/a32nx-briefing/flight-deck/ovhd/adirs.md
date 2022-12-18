@@ -8,6 +8,10 @@
 
 ![ADIRS Panel](../../../assets/a32nx-briefing/overhead-panel/ADIRS.jpg "ADIRS Panel")
 
+!!!info "Incorrect Label"
+
+    Please note, the ADIR 1, 2 and 3 labels are incorrect. They should state ADR 1, 2 and 3.
+
 !!! note "API Documentation: [ADIRS Panel API](../../../../fbw-a32nx/a32nx-api/a32nx-flightdeck-api.md#adirs-panel)"
 
 ## Description
@@ -41,10 +45,6 @@ Abnormal operation:
 - The heading data must be entered using the MCDU. This must be updated frequently, roughly every 10 minutes.
 
 - If the IR mode selector is set from NAV to ATT, or NAV to OFF during flight, NAV mode will be inoperable for the remainder of the flight.
-
-!!!info "Incorrect Label"
-
-    Please note, the ADIR 1, 2 and 3 labels are incorrect. They should state ADR 1, 2 and 3.
 
 ---
 
