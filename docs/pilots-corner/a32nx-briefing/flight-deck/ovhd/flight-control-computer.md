@@ -11,9 +11,6 @@
 
 ## Description
 
-!!! attention ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
-
 - ELAC
     - Normally ELAC 1 commands the operation of the ailerons and ELAC 2 commands the operation of the elevators and horizontal stabilizer. ELAC 1 and 2 perform the following:
         - Normal pitch and roll, normal LAF (Load Alleviation Function).
