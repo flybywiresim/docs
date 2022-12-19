@@ -350,14 +350,17 @@ Flight Deck: [Anti Ice Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovh
 | WING              | TOGGLE_STRUCTURAL_DEICE                              | -        | -          | SIMCONNECT EVENT | Function & Button light |
 |                   | STRUCURAL DEICE SWITCH                               | 0&#124;1 | R/W        | SIMCONNECT VAR   | Function & Button light |
 |                   | XMLVAR_MOMENTARY_PUSH_OVHD_<br/>ANTIICE_WING_PRESSED | 0&#124;1 | R/W        | Custom LVAR      | Button state            |
+| WING fault light  | N/A                                                  |          |            |                  |                         |
 |                   |                                                      |          |            |                  |                         |
 | ENG 1             | ANTI_ICE_TOGGLE_ENG1                                 | -        | -          | SIMCONNECT EVENT | Function & Button light |
 |                   | ENG ANTI ICE:1                                       | 0&#124;1 | R/W        | SIMCONNECT VAR   | Function & Button light |
 |                   | XMLVAR_MOMENTARY_PUSH_OVHD_<br/>ANTIICE_ENG1_PRESSED | 0&#124;1 | R/W        | Custom LVAR      | Button state            |
+| ENG 1 fault light | N/A                                                  |          |            |                  |                         |
 |                   |                                                      |          |            |                  |                         |
 | ENG 2             | ANTI_ICE_TOGGLE_ENG2                                 | -        | -          | SIMCONNECT EVENT | Function & Button light |
 |                   | ENG ANTI ICE:2                                       | 0&#124;1 | R/W        | SIMCONNECT VAR   | Function & Button light |
 |                   | XMLVAR_MOMENTARY_PUSH_OVHD_<br/>ANTIICE_ENG2_PRESSED | 0&#124;1 | R/W        | Custom LVAR      | Button state            |
+| ENG 2 fault light | N/A                                                  |          |            |                  |                         |
 |                   |                                                      |          |            |                  |                         |
 | PROBE/WINDOW HEAT | A32NX_MAN_PITOT_HEAT                                 | 0&#124;1 | R/W        | Custom LVAR      | Function & Button light |
 |                   | XMLVAR_MOMENTARY_PUSH_OVHD_<br/>PROBESWINDOW_PRESSED | 0&#124;1 | R/W        | Custom LVAR      | Button state            |
