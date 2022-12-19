@@ -10,7 +10,7 @@
 
 ![A/THR Instinctive Disconnect Push Button](../../../assets/a32nx-briefing/pedestal/thrustlevel-athr-disconnect.jpg)
 
-!!! note "API Documentation: [Thrust Lever Panel](../../../../fbw-a32nx/a32nx-api/a32nx-flightdeck-api.md#isis)"
+!!! note "API Documentation: [Thrust Lever Panel](../../../../fbw-a32nx/a32nx-api/a32nx-flightdeck-api.md#thrust-lever-and-trim-wheel)"
 
 ## Description
 
