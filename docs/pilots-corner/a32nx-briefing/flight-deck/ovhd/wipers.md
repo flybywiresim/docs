@@ -34,9 +34,6 @@ Each windshield is provided with two-speed electric wipers that are controlled b
 !!! attention ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
-    !!! attention ""
-        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
-
 ---
 
 [Back to Flight Deck](../index.md){ .md-button }
