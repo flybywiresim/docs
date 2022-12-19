@@ -396,6 +396,19 @@ Flight Deck: [Wiper Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/w
 | RAIN RPLNT   | A32NX_RAIN_REPELLENT_LEFT_ON            | 0&#124;1           | R          | Custom LVAR |                                                      |
 |              | A32NX_RAIN_REPELLENT_RIGHT_ON           | 0&#124;1           | R          | Custom LVAR |                                                      |
 
+### Flight Control Panel
+
+Flight Deck: [Flight Control Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/flight-control-computer.md)
+
+| Function                 | API Usage                                      | Values   | Read/Write | Type        | Remark |
+|:-------------------------|:-----------------------------------------------|:---------|:-----------|:------------|:-------|
+| ELAC overhead pushbutton | A32NX_ELAC_{1&#124;2}_PUSHBUTTON_PRESSED       | 0&#124;1 | R/W        | Custom LVAR |        |
+| ELAC fault light         | N/A                                            |          |            |             |        |
+| FAC overhead pushbutton  | A32NX_FAC_{1&#124;2}_PUSHBUTTON_PRESSED        | 0&#124;1 | R/W        | Custom LVAR |        |
+| FAC fault light          | N/A                                            |          |            |             |        |
+| SEC overhead pushbutton  | A32NX_SEC_{1&#124;2&#124;3}_PUSHBUTTON_PRESSED | 0&#124;1 | R/W        | Custom LVAR |        |
+| SEC fault light          | A32NX_SEC_{1&#124;2&#124;3}_FAULT_LIGHT_ON     | 0&#124;1 | R          | Custom LVAR |        |
+
 ## Glareshield
 
 ### Lighting Knobs
