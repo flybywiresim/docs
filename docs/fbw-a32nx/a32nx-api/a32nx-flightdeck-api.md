@@ -251,27 +251,25 @@ Flight Deck: [Oxygen Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/
 
 Flight Deck: [Fire Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/fire.md)
 
-!!! note "The below table shows the API for ENG 1. Replace `1` with `2`for ENG 2."
-
-| Function         | API Usage                        | Values   | Read/Write | Type        | Remark                                   |
-|:-----------------|:---------------------------------|:---------|:-----------|:------------|:-----------------------------------------|
-| APU FIRE Test    | A32NX_FIRE_TEST_APU              | 0&#124;1 | R/W        | Custom LVAR |                                          |
-|                  |                                  |          |            |             |                                          |
-| APU FIRE GUARD   | A32NX_FIRE_GUARD_APU             | 0&#124;1 | R/W        | Custom LVAR |                                          |
-|                  |                                  |          |            |             |                                          |
-| APU FIRE         | A32NX_FIRE_BUTTON_APU            | 0 -> 1   | R/W        | Custom LVAR | Open Guard first. Can't be reset.        |
-|                  |                                  |          |            |             |                                          |
-| APU DISCH        | A32NX_FIRE_APU_AGENT1_DISCHARGE  | 0 -> 1   | R/W        | Custom LVAR | Press Fire button first. Can't be reset. |
-|                  |                                  |          |            |             |                                          |
-| ENG 1 FIRE TEST  | A32NX_FIRE_TEST_ENG1             | 0&#124;1 | R/W        | Custom LVAR |                                          |
-|                  |                                  |          |            |             |                                          |
-| ENG 1 FIRE GUARD | A32NX_FIRE_GUARD_ENG1            | 0&#124;1 | R/W        | Custom LVAR |                                          |
-|                  |                                  |          |            |             |                                          |
-| ENG 1 FIRE       | A32NX_FIRE_BUTTON_ENG1           | 0 -> 1   | R/W        | Custom LVAR | Open Guard first. Can't be reset.        |
-|                  |                                  |          |            |             |                                          |
-| ENG 1 AGENT 1    | A32NX_FIRE_ENG1_AGENT1_DISCHARGE | 0 -> 1   | R/W        | Custom LVAR | Press Fire button first. Can't be reset. |
-|                  |                                  |          |            |             |                                          |
-| ENG 1 AGENT 2    | A32NX_FIRE_ENG2_AGENT1_DISCHARGE | 0 -> 1   | R/W        | Custom LVAR | Press Fire button first. Can't be reset. |
+| Function                  | API Usage                                 | Values   | Read/Write | Type        | Remark                                   |
+|:--------------------------|:------------------------------------------|:---------|:-----------|:------------|:-----------------------------------------|
+| APU FIRE Test             | A32NX_FIRE_TEST_APU                       | 0&#124;1 | R/W        | Custom LVAR |                                          |
+|                           |                                           |          |            |             |                                          |
+| APU FIRE GUARD            | A32NX_FIRE_GUARD_APU                      | 0&#124;1 | R/W        | Custom LVAR |                                          |
+|                           |                                           |          |            |             |                                          |
+| APU FIRE                  | A32NX_FIRE_BUTTON_APU                     | 0&#124;1 | R/W        | Custom LVAR | Open Guard first. Can't be reset.        |
+|                           |                                           |          |            |             |                                          |
+| APU DISCH                 | A32NX_FIRE_APU_AGENT1_DISCHARGE           | 0&#124;1 | R/W        | Custom LVAR | Press Fire button first. Can't be reset. |
+|                           |                                           |          |            |             |                                          |
+| ENG {1&#124;2} FIRE TEST  | A32NX_FIRE_TEST_ENG{1&#124;2}             | 0&#124;1 | R/W        | Custom LVAR |                                          |
+|                           |                                           |          |            |             |                                          |
+| ENG {1&#124;2} FIRE GUARD | A32NX_FIRE_GUARD_ENG{1&#124;2}            | 0&#124;1 | R/W        | Custom LVAR |                                          |
+|                           |                                           |          |            |             |                                          |
+| ENG {1&#124;2} FIRE       | A32NX_FIRE_BUTTON_ENG{1&#124;2}           | 0&#124;1 | R/W        | Custom LVAR | Open Guard first. Can't be reset.        |
+|                           |                                           |          |            |             |                                          |
+| ENG {1&#124;2} AGENT1     | A32NX_FIRE_ENG{1&#124;2}_AGENT1_DISCHARGE | 0&#124;1 | R/W        | Custom LVAR | Press Fire button first. Can't be reset. |
+|                           |                                           |          |            |             |                                          |
+| ENG {1&#124;2} AGENT2     | A32NX_FIRE_ENG{1&#124;2}_AGENT2_DISCHARGE | 0&#124;1 | R/W        | Custom LVAR | Press Fire button first. Can't be reset. |
 
 ### Fuel Panel
 
