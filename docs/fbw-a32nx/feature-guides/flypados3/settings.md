@@ -111,7 +111,7 @@ Settings for simulation aspects of the A32NX aircraft.
         - Save: 
             - The simulator's flight plan set in the World Map will be loaded once when starting the flight. Any 
               subsequent changes to the flight plan in the aircraft will be synchronized back to the simulator if 
-              possible. See warning below.
+              possible. See the warning below for more information.
    
         !!! note "There is No synchronization from the sim's flight plan to the aircraft after initial load."
 

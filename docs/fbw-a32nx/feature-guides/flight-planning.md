@@ -17,21 +17,21 @@ In the A32NX for Microsoft Flight Simulator, we have these options to load a fli
 
 - [Entering a Flight Plan Manually](../../pilots-corner/beginner-guide/preparing-mcdu.md#--f---light-plan)
 - [Loading a Flight Plan from SimBrief](simbrief.md) (recommended)
-- Creating and Loading a Flight Plan from the MSFS World Map
+- [Creating and Loading a Flight Plan from the MSFS World Map](#msfs-world-map-flight-planning-atc-and-vfr-map)
 
 As Microsoft Flight Simulator uses a very simplified flight planning system, we have created our own custom FMS 
-(Flight Management System) which is used in the A32NX. It is much closer to the FMS in the real aircraft und 
+(Flight Management System) which is used in the A32NX. It is much closer to the FMS in the real aircraft and it
 understands and represents real world flight plans much more accurately. 
 
 A custom FMS on the other hand results in issues syncing the flight plan from the aircraft back into the 
 simulator. Therefore, simulator-features as the MSFS ATC or the VFR Map will not always work as expected. Especially 
 flight plans with complex routing may have significant issues if saved backwards or loaded externally through 
-simulator's simplified flight planning.
+the simulator's simplified flight planning.
 
 This is a general issue of all realistic and complex airliners in Microsoft Flight Simulator and unless the simulator's 
 built-in flight planner and ATC is significantly improved this will always cause problems with realistic airliners.
 
-## MSFS World Map Flight Planning, ATC, VFR Map
+## MSFS World Map Flight Planning, ATC and VFR Map
 
 Depending on how you want to use the A32NX in combination with the MSFS' World Map Planning, ATC and VFR Map, you 
 can choose between different methods to load a flight plan into the A32NX:
@@ -59,6 +59,11 @@ The MSFS ATC and VFR Map will not be aware of the flight plan at all and cannot 
     This is the ideal setup for users who want to use the A32NX in combination with Online ATC services (Vatsim, Ivao, 
     PilotEdge,...), 3rd party ATC add-ons or no ATC at all. 
 
+!!! warning "For SimBrief Import Do Not Set a Destination in the MSFS World Map"
+    If you plan to import a SimBrief flight plan please do **not** set a destination airport in the MSFS World Map 
+    as otherwise the aircraft will import the MSFS World Map flight plan, and it will not offer the "INIT REQUEST" 
+    option.  
+
 ### Using the MSFS World Map Flight Planner to Create and Load a Flight Plan
 
 If you want to use the MSFS World Map Flight Planner to build and load a flight plan, you need to set the `Sync MSFS 
@@ -77,7 +82,7 @@ Flight Plan` option to `Save`.
 
 With this setting the aircraft will attempt to save any changes to the flight plan made in the MCDU back to the 
 simulator's flight plan. This will **not** always work as expected and may result in issues with the MSFS ATC. See 
-warning below.
+the warning below for more information.
 
 !!! warning "Synchronization Issues Expected"
     The aircraft's custom Flight Management System provides better accuracy and features over the default
@@ -89,9 +94,11 @@ warning below.
 If you are using the aircraft's built-in SimBrief integration to import a flight plan, and you also want to use the
 MSFS ATC you need to set the `flyPad's Setting > Sim Options > Sync MSFS Flight Plan` option to `Save`.
 
+When importing a flight plan from SimBrief into the MCDU, do not select a destination airport and do not build a flight plan using the MSFS World Planner.
+
 With this setting the aircraft attempts to save the loaded SimBrief flight plan and any subsequent changes to the
 flight plan made in the MCDU back to the simulator's flight plan. This will **not** always work as expected and may
-result in issues with the MSFS ATC. See warning below.
+result in issues with the MSFS ATC. See the warning below for more information.
 
 !!! warning "Synchronization Issues Expected"
     The aircraft's custom Flight Management System provides better accuracy and features over the default
