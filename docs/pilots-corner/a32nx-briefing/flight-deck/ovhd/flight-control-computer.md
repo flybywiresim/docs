@@ -9,12 +9,11 @@
 ![Flight Control Panel - Left](../../../assets/a32nx-briefing/overhead-panel/Flight-Computers-1.jpg "Flight Control Panel - Left")
 ![Flight Control Panel - Right](../../../assets/a32nx-briefing/overhead-panel/Flight-Computers-2.jpg "Flight Control Panel - Right")
 
+!!! note "API Documentation: [Flight Control Panel API](../../../../fbw-a32nx/a32nx-api/a32nx-flightdeck-api.md#flight-control-panel)"
+
 ## Description
 
-!!! attention ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
-
-- ELAC
+- ELAC (Elevator Aileron Computer)
     - Normally ELAC 1 commands the operation of the ailerons and ELAC 2 commands the operation of the elevators and horizontal stabilizer. ELAC 1 and 2 perform the following:
         - Normal pitch and roll, normal LAF (Load Alleviation Function).
         - Alternate pitch, alternate LAF.
@@ -22,7 +21,7 @@
         - Aileron droop.
         - Abnormal attitude.
         - Acquisition of autopilot orders.
-- SEC
+- SEC (Spoiler Elevator Computer)
     - The Spoiler Elevator Computers 1, 2, and 3 command spoiler operation. The SECs control the following
         - Normal roll by controlling the spoilers.
         - Speed brakes and ground spoilers.
@@ -31,7 +30,7 @@
         - Alternate LAF.
         - Abnormal attitude.
         - Direct roll.
-- FAC
+- FAC (FlIGHT Augmentation Computer)
     - The Flight Augmentation Computers have three main functions:
         - Rudder trim.
         - Rudder travel limits.

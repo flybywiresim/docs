@@ -31,47 +31,50 @@ Find the complete list of Custom Event and Custom LVARS of the A32NX:
 
 Flight Deck:  [ELEC Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/elec.md)
 
-| Function    | API Usage                                 | Values   | Read/Write | Type             | Remark                                     |
-|:------------|:------------------------------------------|:---------|:-----------|:-----------------|:-------------------------------------------|
-| BAT 1       | A32NX_OVHD_ELEC_BAT_1_PB_IS_AUTO          | 0&#124;1 | R/W        | Custom LVAR      |                                            |
-|             | A32NX_OVHD_ELEC_BAT_1_PB_HAS_FAULT        | 0&#124;1 | R/W        | Custom LVAR      |                                            |
-| BAT 2       | A32NX_OVHD_ELEC_BAT_2_PB_IS_AUTO          | 0&#124;1 | R/W        | Custom LVAR      |                                            |
-|             | A32NX_OVHD_ELEC_BAT_2_PB_HAS_FAULT        | 0&#124;1 | R/W        | Custom LVAR      |                                            |
-|             |                                           |          |            |                  |                                            |
-| EXT PWR     | TOGGLE_EXTERNAL_POWER                     | -        | -          | MSFS EVENT       |                                            |
-|             | EXTERNAL POWER AVAILABLE                  | 0&#124;1 | R          | MSFS VAR         |                                            |
-|             | EXTERNAL POWER ON                         | 0&#124;1 | R          | MSFS VAR         |                                            |
-|             |                                           |          |            |                  |                                            |
-| GEN 1       | TOGGLE_ALTERNATOR:1                       | -        | -          | SIMCONNECT EVENT |                                            |
-|             | GENERAL ENG MASTER ALTERNATOR:1           | 0&#124;1 | R/W        | SIMCONNECT VAR   |                                            |
-|             | A32NX_OVHD_ELEC_ENG_GEN_1_PB_HAS_FAULT    | 0&#124;1 | R          | Custom LVAR      |                                            |
-| GEN 2       | TOGGLE_ALTERNATOR:2                       | -        | -          | SIMCONNECT EVENT |                                            |
-|             | GENERAL ENG MASTER ALTERNATOR:2           | 0&#124;1 | R/W        | SIMCONNECT VAR   |                                            |
-|             | A32NX_OVHD_ELEC_ENG_GEN_2_PB_HAS_FAULT    | 0&#124;1 | R          | Custom LVAR      |                                            |
-|             |                                           |          |            |                  |                                            |
-| APU GEN     | APU_GENERATOR_SWITCH_TOGGLE               | -        | -          | SIMCONNECT EVENT |                                            |
-|             | APU_GENERATOR_SWITCH_SET                  | 0&#124;1 | -          | SIMCONNECT EVENT |                                            |
-|             | APU GENERATOR SWITCH                      | 0&#124;1 | R/W        | SIMCONNECT LVAR  |                                            |
-|             | A32NX_OVHD_ELEC_APU_GEN_1_PB_HAS_FAULT    | 0&#124;1 | R          | Custom LVAR      |                                            |
-|             |                                           |          |            |                  |                                            |
-| BUS TIE     | A32NX_OVHD_ELEC_BUS_TIE_PB_IS_AUTO        | 0&#124;1 | R/W        | Custom LVAR      |                                            |
-|             | A32NX_OVHD_ELEC_BUS_TIE_PB_HAS_FAULT      | 0&#124;1 | R          | Custom LVAR      |                                            |
-|             |                                           |          |            |                  |                                            |
-| AC ESS FEED | A32NX_OVHD_ELEC_AC_ESS_FEED_PB_IS_NORMAL  | 0&#124;1 | R/W        | Custom LVAR      |                                            |
-|             | A32NX_OVHD_ELEC_AC_ESS_FEED_PB_HAS_FAULT  | 0&#124;1 | R          | Custom LVAR      |                                            |
-|             |                                           |          |            |                  |                                            |
-| IDG 1       | A32NX_OVHD_ELEC_IDG_1_PB_IS_RELEASED      | 0 -> 1   | R/W        | Custom LVAR      | Cannot be undone - flight restart required |
-| IDG 1       | A32NX_OVHD_ELEC_IDG_1_PB_HAS_FAULT        | 0&#124;1 | R          | Custom LVAR      |                                            |
-|             |                                           |          |            |                  |                                            |
-| IDG 2       | A32NX_OVHD_ELEC_IDG_2_PB_IS_RELEASED      | 0 -> 1   | R/W        | Custom LVAR      | Cannot be undone - flight restart required |
-| IDG 2       | A32NX_OVHD_ELEC_IDG_2_PB_HAS_FAULT        | 0&#124;1 | R          | Custom LVAR      |                                            |
-|             |                                           |          |            |                  |                                            |
-| GALY & CAB  | A32NX_OVHD_ELEC_GALY_AND_CAB_PB_IS_AUTO   | 0&#124;1 | R/W        | Custom LVAR      |                                            |
-|             | A32NX_OVHD_ELEC_GALY_AND_CAB_PB_HAS_FAULT | 0&#124;1 | R          | Custom LVAR      |                                            |
-|             |                                           |          |            |                  |                                            |
-| COMMERCIAL  | A32NX_OVHD_ELEC_COMMERCIAL_PB_IS_AUTO     | 0&#124;1 | R/W        | Custom LVAR      |                                            |
-|             | A32NX_OVHD_ELEC_COMMERCIAL_PB_HAS_FAULT   | 0&#124;1 | R          | Custom LVAR      |                                            |
-|             |                                           |          |            |                  |                                            |
+| Function      | API Usage                                 | Values    | Read/Write | Type             | Remark                                     |
+|:--------------|:------------------------------------------|:----------|:-----------|:-----------------|:-------------------------------------------|
+| BAT 1         | A32NX_OVHD_ELEC_BAT_1_PB_IS_AUTO          | 0&#124;1  | R/W        | Custom LVAR      |                                            |
+|               | A32NX_OVHD_ELEC_BAT_1_PB_HAS_FAULT        | 0&#124;1  | R/W        | Custom LVAR      |                                            |
+| BAT 2         | A32NX_OVHD_ELEC_BAT_2_PB_IS_AUTO          | 0&#124;1  | R/W        | Custom LVAR      |                                            |
+|               | A32NX_OVHD_ELEC_BAT_2_PB_HAS_FAULT        | 0&#124;1  | R/W        | Custom LVAR      |                                            |
+|               |                                           |           |            |                  |                                            |
+| BAT 1 Display | A32NX_ELEC_BAT_1_POTENTIAL                | 0.0..99.9 | R          | Custom LVAR      |                                            |
+| BAT 2 Display | A32NX_ELEC_BAT_2_POTENTIAL                | 0.0..99.9 | R          | Custom LVAR      |                                            |
+|               |                                           |           |            |                  |                                            |
+| EXT PWR       | TOGGLE_EXTERNAL_POWER                     | -         | -          | MSFS EVENT       |                                            |
+|               | EXTERNAL POWER AVAILABLE                  | 0&#124;1  | R          | MSFS VAR         |                                            |
+|               | EXTERNAL POWER ON                         | 0&#124;1  | R          | MSFS VAR         |                                            |
+|               |                                           |           |            |                  |                                            |
+| GEN 1         | TOGGLE_ALTERNATOR:1                       | -         | -          | SIMCONNECT EVENT |                                            |
+|               | GENERAL ENG MASTER ALTERNATOR:1           | 0&#124;1  | R/W        | SIMCONNECT VAR   |                                            |
+|               | A32NX_OVHD_ELEC_ENG_GEN_1_PB_HAS_FAULT    | 0&#124;1  | R          | Custom LVAR      |                                            |
+| GEN 2         | TOGGLE_ALTERNATOR:2                       | -         | -          | SIMCONNECT EVENT |                                            |
+|               | GENERAL ENG MASTER ALTERNATOR:2           | 0&#124;1  | R/W        | SIMCONNECT VAR   |                                            |
+|               | A32NX_OVHD_ELEC_ENG_GEN_2_PB_HAS_FAULT    | 0&#124;1  | R          | Custom LVAR      |                                            |
+|               |                                           |           |            |                  |                                            |
+| APU GEN       | APU_GENERATOR_SWITCH_TOGGLE               | -         | -          | SIMCONNECT EVENT |                                            |
+|               | APU_GENERATOR_SWITCH_SET                  | 0&#124;1  | -          | SIMCONNECT EVENT |                                            |
+|               | APU GENERATOR SWITCH                      | 0&#124;1  | R/W        | SIMCONNECT LVAR  |                                            |
+|               | A32NX_OVHD_ELEC_APU_GEN_1_PB_HAS_FAULT    | 0&#124;1  | R          | Custom LVAR      |                                            |
+|               |                                           |           |            |                  |                                            |
+| BUS TIE       | A32NX_OVHD_ELEC_BUS_TIE_PB_IS_AUTO        | 0&#124;1  | R/W        | Custom LVAR      |                                            |
+|               | A32NX_OVHD_ELEC_BUS_TIE_PB_HAS_FAULT      | 0&#124;1  | R          | Custom LVAR      |                                            |
+|               |                                           |           |            |                  |                                            |
+| AC ESS FEED   | A32NX_OVHD_ELEC_AC_ESS_FEED_PB_IS_NORMAL  | 0&#124;1  | R/W        | Custom LVAR      |                                            |
+|               | A32NX_OVHD_ELEC_AC_ESS_FEED_PB_HAS_FAULT  | 0&#124;1  | R          | Custom LVAR      |                                            |
+|               |                                           |           |            |                  |                                            |
+| IDG 1         | A32NX_OVHD_ELEC_IDG_1_PB_IS_RELEASED      | 0 -> 1    | R/W        | Custom LVAR      | Cannot be undone - flight restart required |
+| IDG 1         | A32NX_OVHD_ELEC_IDG_1_PB_HAS_FAULT        | 0&#124;1  | R          | Custom LVAR      |                                            |
+|               |                                           |           |            |                  |                                            |
+| IDG 2         | A32NX_OVHD_ELEC_IDG_2_PB_IS_RELEASED      | 0 -> 1    | R/W        | Custom LVAR      | Cannot be undone - flight restart required |
+| IDG 2         | A32NX_OVHD_ELEC_IDG_2_PB_HAS_FAULT        | 0&#124;1  | R          | Custom LVAR      |                                            |
+|               |                                           |           |            |                  |                                            |
+| GALY & CAB    | A32NX_OVHD_ELEC_GALY_AND_CAB_PB_IS_AUTO   | 0&#124;1  | R/W        | Custom LVAR      |                                            |
+|               | A32NX_OVHD_ELEC_GALY_AND_CAB_PB_HAS_FAULT | 0&#124;1  | R          | Custom LVAR      |                                            |
+|               |                                           |           |            |                  |                                            |
+| COMMERCIAL    | A32NX_OVHD_ELEC_COMMERCIAL_PB_IS_AUTO     | 0&#124;1  | R/W        | Custom LVAR      |                                            |
+|               | A32NX_OVHD_ELEC_COMMERCIAL_PB_HAS_FAULT   | 0&#124;1  | R          | Custom LVAR      |                                            |
+|               |                                           |           |            |                  |                                            |
 
 ### External Lights Panel
 
@@ -248,27 +251,25 @@ Flight Deck: [Oxygen Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/
 
 Flight Deck: [Fire Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/fire.md)
 
-!!! note "The below table shows the API for ENG 1. Replace `1` with `2`for ENG 2."
-
-| Function         | API Usage                        | Values   | Read/Write | Type        | Remark                                   |
-|:-----------------|:---------------------------------|:---------|:-----------|:------------|:-----------------------------------------|
-| APU FIRE Test    | A32NX_FIRE_TEST_APU              | 0&#124;1 | R/W        | Custom LVAR |                                          |
-|                  |                                  |          |            |             |                                          |
-| APU FIRE GUARD   | A32NX_FIRE_GUARD_APU             | 0&#124;1 | R/W        | Custom LVAR |                                          |
-|                  |                                  |          |            |             |                                          |
-| APU FIRE         | A32NX_FIRE_BUTTON_APU            | 0 -> 1   | R/W        | Custom LVAR | Open Guard first. Can't be reset.        |
-|                  |                                  |          |            |             |                                          |
-| APU DISCH        | A32NX_FIRE_APU_AGENT1_DISCHARGE  | 0 -> 1   | R/W        | Custom LVAR | Press Fire button first. Can't be reset. |
-|                  |                                  |          |            |             |                                          |
-| ENG 1 FIRE TEST  | A32NX_FIRE_TEST_ENG1             | 0&#124;1 | R/W        | Custom LVAR |                                          |
-|                  |                                  |          |            |             |                                          |
-| ENG 1 FIRE GUARD | A32NX_FIRE_GUARD_ENG1            | 0&#124;1 | R/W        | Custom LVAR |                                          |
-|                  |                                  |          |            |             |                                          |
-| ENG 1 FIRE       | A32NX_FIRE_BUTTON_ENG1           | 0 -> 1   | R/W        | Custom LVAR | Open Guard first. Can't be reset.        |
-|                  |                                  |          |            |             |                                          |
-| ENG 1 AGENT 1    | A32NX_FIRE_ENG1_AGENT1_DISCHARGE | 0 -> 1   | R/W        | Custom LVAR | Press Fire button first. Can't be reset. |
-|                  |                                  |          |            |             |                                          |
-| ENG 1 AGENT 2    | A32NX_FIRE_ENG2_AGENT1_DISCHARGE | 0 -> 1   | R/W        | Custom LVAR | Press Fire button first. Can't be reset. |
+| Function                  | API Usage                                 | Values   | Read/Write | Type        | Remark                                   |
+|:--------------------------|:------------------------------------------|:---------|:-----------|:------------|:-----------------------------------------|
+| APU FIRE Test             | A32NX_FIRE_TEST_APU                       | 0&#124;1 | R/W        | Custom LVAR |                                          |
+|                           |                                           |          |            |             |                                          |
+| APU FIRE GUARD            | A32NX_FIRE_GUARD_APU                      | 0&#124;1 | R/W        | Custom LVAR |                                          |
+|                           |                                           |          |            |             |                                          |
+| APU FIRE                  | A32NX_FIRE_BUTTON_APU                     | 0&#124;1 | R/W        | Custom LVAR | Open Guard first. Can't be reset.        |
+|                           |                                           |          |            |             |                                          |
+| APU DISCH                 | A32NX_FIRE_APU_AGENT1_DISCHARGE           | 0&#124;1 | R/W        | Custom LVAR | Press Fire button first. Can't be reset. |
+|                           |                                           |          |            |             |                                          |
+| ENG {1&#124;2} FIRE TEST  | A32NX_FIRE_TEST_ENG{1&#124;2}             | 0&#124;1 | R/W        | Custom LVAR |                                          |
+|                           |                                           |          |            |             |                                          |
+| ENG {1&#124;2} FIRE GUARD | A32NX_FIRE_GUARD_ENG{1&#124;2}            | 0&#124;1 | R/W        | Custom LVAR |                                          |
+|                           |                                           |          |            |             |                                          |
+| ENG {1&#124;2} FIRE       | A32NX_FIRE_BUTTON_ENG{1&#124;2}           | 0&#124;1 | R/W        | Custom LVAR | Open Guard first. Can't be reset.        |
+|                           |                                           |          |            |             |                                          |
+| ENG {1&#124;2} AGENT1     | A32NX_FIRE_ENG{1&#124;2}_AGENT1_DISCHARGE | 0&#124;1 | R/W        | Custom LVAR | Press Fire button first. Can't be reset. |
+|                           |                                           |          |            |             |                                          |
+| ENG {1&#124;2} AGENT2     | A32NX_FIRE_ENG{1&#124;2}_AGENT2_DISCHARGE | 0&#124;1 | R/W        | Custom LVAR | Press Fire button first. Can't be reset. |
 
 ### Fuel Panel
 
@@ -292,48 +293,51 @@ Flight Deck: [Fuel Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/fu
 
 Flight Deck: [AC Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/ac.md)
 
-| Function       | API Usage                                                 | Values   | Read/Write | Type        | Remark       |
-|:---------------|:----------------------------------------------------------|:---------|:-----------|:------------|:-------------|
-| APU BLEED      | A32NX_OVHD_PNEU_APU_BLEED_PB_IS_ON                        | 0&#124;1 | R/W        | Custom LVAR |              |
-|                |                                                           |          |            |             |              |
-| ENG 1 BLEED    | ENGINE_BLEED_AIR_SOURCE_TOGGLE                            | 1        | -          | MSFS EVENT  |              |
-|                | XMLVAR_MOMENTARY_PUSH_<br/>OVHD_AIRCOND_ENG1BLEED_PRESSED | 0&#124;1 | R          | Custom LVAR |              |
-|                |                                                           |          |            |             |              |
-| ENG 2 BLEED    | ENGINE_BLEED_AIR_SOURCE_TOGGLE                            | 2        | -          | MSFS EVENT  |              |
-|                | XMLVAR_MOMENTARY_PUSH_<br/>OVHD_AIRCOND_ENG2BLEED_PRESSED | 0&#124;1 | R          | Custom LVAR |              |
-|                |                                                           |          |            |             |              |
-| X BLEED knob   | A32NX_KNOB_OVHD_AIRCOND_XBLEED_POSITION                   | 0..2     | R/W        | Custom LVAR |              |
-|                | A32NX_PNEU_XBLEED_VALVE_OPEN                              | 0&#124;1 | R          | Custom LVAR |              |
-|                | APU_BLEED_PRESSURE                                        | ..       | R          | Custom LVAR |              |
-|                |                                                           |          |            |             |              |
-| PACK 1         | A32NX_OVHD_COND_PACK_1_PB_IS_ON                           | 0&#124;1 | R/W        | Custom LVAR |              |
-|                | A32NX_OVHD_COND_PACK_1_PB_HAS_FAULT                       | 0&#124;1 | R/W        | Custom LVAR |              |
-|                | A32NX_COND_PACK_FLOW_VALVE_1_IS_OPEN                      | 0&#124;1 | R          | Custom LVAR |              |
-|                |                                                           |          |            |             |              |
-| PACK 2         | A32NX_OVHD_COND_PACK_2_PB_IS_ON                           | 0&#124;1 | R/W        | Custom LVAR |              |
-|                | A32NX_OVHD_COND_PACK_2_PB_HAS_FAULT                       | 0&#124;1 | R/W        | Custom LVAR |              |
-|                | A32NX_COND_PACK_FLOW_VALVE_2_IS_OPEN                      | 0&#124;1 | R          | Custom LVAR |              |
-|                |                                                           |          |            |             |              |
-| PACK FLOW knob | A32NX_KNOB_OVHD_AIRCOND_PACKFLOW_POSITION                 | 0..2     | R/W        | Custom LVAR |              |
-|                | A32NX_COND_PACK_FLOW                                      | 0..120   | R          | Custom LVAR |              |
-|                |                                                           |          |            |             |              |
-| COCKPIT knob   | A32NX_OVHD_COND_CKPT_SELECTOR_KNOB                        | 0..100   | R/W        | Custom LVAR |              |
-|                | A32NX_COND_CKPT_TEMP                                      | °        | R          | Custom LVAR |              |
-|                | A32NX_COND_CKPT_DUCT_TEMP                                 | °        | R          | Custom LVAR |              |
-|                |                                                           |          |            |             |              |
-| FWD CABIN knob | A32NX_OVHD_COND_FWD_SELECTOR_KNOB                         | 0..100   | R/W        | Custom LVAR |              |
-|                | A32NX_COND_FWD_TEMP                                       | °        | R          | Custom LVAR |              |
-|                | A32NX_COND_FWD_DUCT_TEMP                                  | °        | R          | Custom LVAR |              |
-|                |                                                           |          |            |             |              |
-| AFT CABIN knob | A32NX_OVHD_COND_AFT_SELECTOR_KNOB                         | 0..100   | R/W        | Custom LVAR |              |
-|                | A32NX_COND_AFT_TEMP                                       | °        | R          | Custom LVAR |              |
-|                | A32NX_COND_AFT_DUCT_TEMP                                  | °        | R          | Custom LVAR |              |
-|                |                                                           |          |            |             |              |
-| HOT AIR        | A32NX_AIRCOND_HOTAIR_TOGGLE                               | 0&#124;1 | R/W        | Custom LVAR |              |
-|                | A32NX_AIRCOND_HOTAIR_FAULT                                | 0&#124;1 | R/W        | Custom LVAR |              |
-|                |                                                           |          |            |             |              |
-| RAM AIR        | A32NX_AIRCOND_RAMAIR_TOGGLE_LOCK                          | 0&#124;1 | R          | Custom LVAR | Switch Guard |
-|                | A32NX_AIRCOND_RAMAIR_TOGGLE                               | 0&#124;1 | R/W        | Custom LVAR |              |
+| Function       | API Usage                                     | Values   | Read/Write | Type        | Remark       |
+|:---------------|:----------------------------------------------|:---------|:-----------|:------------|:-------------|
+| APU BLEED      | A32NX_OVHD_PNEU_APU_BLEED_PB_IS_ON            | 0&#124;1 | R/W        | Custom LVAR |              |
+|                | LVAR:A32NX_OVHD_PNEU_APU_BLEED_PB_HAS_FAULT   | 1        | R          | Custom LVAR |              |
+|                |                                               |          |            |             |              |
+| ENG 1 BLEED    | ENGINE_BLEED_AIR_SOURCE_TOGGLE                | 1        | -          | MSFS EVENT  |              |
+|                | BLEED AIR ENGINE:1                            | 0&#124;1 | R          |             |              |
+|                | LVAR:A32NX_OVHD_PNEU_ENG_1_BLEED_PB_HAS_FAULT | 0&#124;1 | R/W        |             |              |
+|                |                                               |          |            |             |              |
+| ENG 2 BLEED    | ENGINE_BLEED_AIR_SOURCE_TOGGLE                | 2        | -          | MSFS EVENT  |              |
+|                | BLEED AIR ENGINE:1                            | 0&#124;1 | R          |             |              |
+|                | LVAR:A32NX_OVHD_PNEU_ENG_2_BLEED_PB_HAS_FAULT | 0&#124;1 | R/W        |             |              |
+|                |                                               |          |            |             |              |
+| X BLEED knob   | A32NX_KNOB_OVHD_AIRCOND_XBLEED_POSITION       | 0..2     | R/W        | Custom LVAR |              |
+|                | A32NX_PNEU_XBLEED_VALVE_OPEN                  | 0&#124;1 | R          | Custom LVAR |              |
+|                | APU_BLEED_PRESSURE                            | ..       | R          | Custom LVAR |              |
+|                |                                               |          |            |             |              |
+| PACK 1         | A32NX_OVHD_COND_PACK_1_PB_IS_ON               | 0&#124;1 | R/W        | Custom LVAR |              |
+|                | A32NX_OVHD_COND_PACK_1_PB_HAS_FAULT           | 0&#124;1 | R/W        | Custom LVAR |              |
+|                | A32NX_COND_PACK_FLOW_VALVE_1_IS_OPEN          | 0&#124;1 | R          | Custom LVAR |              |
+|                |                                               |          |            |             |              |
+| PACK 2         | A32NX_OVHD_COND_PACK_2_PB_IS_ON               | 0&#124;1 | R/W        | Custom LVAR |              |
+|                | A32NX_OVHD_COND_PACK_2_PB_HAS_FAULT           | 0&#124;1 | R/W        | Custom LVAR |              |
+|                | A32NX_COND_PACK_FLOW_VALVE_2_IS_OPEN          | 0&#124;1 | R          | Custom LVAR |              |
+|                |                                               |          |            |             |              |
+| PACK FLOW knob | A32NX_KNOB_OVHD_AIRCOND_PACKFLOW_POSITION     | 0..2     | R/W        | Custom LVAR |              |
+|                | A32NX_COND_PACK_FLOW                          | 0..120   | R          | Custom LVAR |              |
+|                |                                               |          |            |             |              |
+| COCKPIT knob   | A32NX_OVHD_COND_CKPT_SELECTOR_KNOB            | 0..300   | R/W        | Custom LVAR |              |
+|                | A32NX_COND_CKPT_TEMP                          | °        | R          | Custom LVAR |              |
+|                | A32NX_COND_CKPT_DUCT_TEMP                     | °        | R          | Custom LVAR |              |
+|                |                                               |          |            |             |              |
+| FWD CABIN knob | A32NX_OVHD_COND_FWD_SELECTOR_KNOB             | 0..300   | R/W        | Custom LVAR |              |
+|                | A32NX_COND_FWD_TEMP                           | °        | R          | Custom LVAR |              |
+|                | A32NX_COND_FWD_DUCT_TEMP                      | °        | R          | Custom LVAR |              |
+|                |                                               |          |            |             |              |
+| AFT CABIN knob | A32NX_OVHD_COND_AFT_SELECTOR_KNOB             | 0..300   | R/W        | Custom LVAR |              |
+|                | A32NX_COND_AFT_TEMP                           | °        | R          | Custom LVAR |              |
+|                | A32NX_COND_AFT_DUCT_TEMP                      | °        | R          | Custom LVAR |              |
+|                |                                               |          |            |             |              |
+| HOT AIR        | A32NX_AIRCOND_HOTAIR_TOGGLE                   | 0&#124;1 | R/W        | Custom LVAR |              |
+|                | A32NX_AIRCOND_HOTAIR_FAULT                    | 0&#124;1 | R/W        | Custom LVAR |              |
+|                |                                               |          |            |             |              |
+| RAM AIR        | A32NX_AIRCOND_RAMAIR_TOGGLE_LOCK              | 0&#124;1 | R          | Custom LVAR | Switch Guard |
+|                | A32NX_AIRCOND_RAMAIR_TOGGLE                   | 0&#124;1 | R/W        | Custom LVAR |              |
 
 ### Anti Ice Panel
 
@@ -344,14 +348,17 @@ Flight Deck: [Anti Ice Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovh
 | WING              | TOGGLE_STRUCTURAL_DEICE                              | -        | -          | SIMCONNECT EVENT | Function & Button light |
 |                   | STRUCURAL DEICE SWITCH                               | 0&#124;1 | R/W        | SIMCONNECT VAR   | Function & Button light |
 |                   | XMLVAR_MOMENTARY_PUSH_OVHD_<br/>ANTIICE_WING_PRESSED | 0&#124;1 | R/W        | Custom LVAR      | Button state            |
+| WING fault light  | N/A                                                  |          |            |                  |                         |
 |                   |                                                      |          |            |                  |                         |
 | ENG 1             | ANTI_ICE_TOGGLE_ENG1                                 | -        | -          | SIMCONNECT EVENT | Function & Button light |
 |                   | ENG ANTI ICE:1                                       | 0&#124;1 | R/W        | SIMCONNECT VAR   | Function & Button light |
 |                   | XMLVAR_MOMENTARY_PUSH_OVHD_<br/>ANTIICE_ENG1_PRESSED | 0&#124;1 | R/W        | Custom LVAR      | Button state            |
+| ENG 1 fault light | N/A                                                  |          |            |                  |                         |
 |                   |                                                      |          |            |                  |                         |
 | ENG 2             | ANTI_ICE_TOGGLE_ENG2                                 | -        | -          | SIMCONNECT EVENT | Function & Button light |
 |                   | ENG ANTI ICE:2                                       | 0&#124;1 | R/W        | SIMCONNECT VAR   | Function & Button light |
 |                   | XMLVAR_MOMENTARY_PUSH_OVHD_<br/>ANTIICE_ENG2_PRESSED | 0&#124;1 | R/W        | Custom LVAR      | Button state            |
+| ENG 2 fault light | N/A                                                  |          |            |                  |                         |
 |                   |                                                      |          |            |                  |                         |
 | PROBE/WINDOW HEAT | A32NX_MAN_PITOT_HEAT                                 | 0&#124;1 | R/W        | Custom LVAR      | Function & Button light |
 |                   | XMLVAR_MOMENTARY_PUSH_OVHD_<br/>PROBESWINDOW_PRESSED | 0&#124;1 | R/W        | Custom LVAR      | Button state            |
@@ -377,18 +384,31 @@ Flight Deck: [Calls Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/c
 
 Flight Deck: [Wiper Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/wipers.md)
 
-| Function     | API Usage                            | Values   | Read/Write | Type        | Remark                                 |
-|:-------------|:-------------------------------------|:---------|:-----------|:------------|:---------------------------------------|
-| WIPER L knob | CIRCUIT ON:77                        | 0&#124;1 | R          | MSFS VAR    |                                        |
-|              | ELECTRICAL_CIRCUIT_POWER_SETTING_SET | 77       |            | MSFS Event  | ~~Unclear how to set power correctly~~ |
-|              | ELECTRICAL_CIRCUIT_TOGGLE            | 77       |            | MSFS Event  |                                        |
-|              |                                      |          |            |             |                                        |
-| WIPER R knob | CIRCUIT ON:88                        | 0&#124;1 | R          | MSFS        |                                        |
-|              | ELECTRICAL_CIRCUIT_TOGGLE            | 88       |            | MSFS VAR    |                                        |
-|              | ELECTRICAL_CIRCUIT_POWER_SETTING_SET | 88       |            | MSFS Event  | ~~Unclear how to set power correctly~~ |
-|              |                                      |          |            |             |                                        |
-| RAIN RPLNT   | A32NX_RAIN_REPELLENT_LEFT_ON         | 0&#124;1 | R          | Custom LVAR |                                        |
-|              | A32NX_RAIN_REPELLENT_RIGHT_ON        | 0&#124;1 | R          | Custom LVAR |                                        |
+| Function     | API Usage                               | Values             | Read/Write | Type        | Remark                                               |
+|:-------------|:----------------------------------------|:-------------------|:-----------|:------------|:-----------------------------------------------------|
+| WIPER L knob | CIRCUIT SWITCH ON:77                    | 0&#124;1           | R/W        | MSFS VAR    | Turns the wiper on/off - slow/fast via power setting |
+|              | ELECTRICAL_CIRCUIT_TOGGLE:77            |                    |            | MSFS Event  |                                                      |
+|              | ELECTRICAL_CIRCUIT_POWER_SETTING_SET:77 | 0&#124;75&#124;100 |            | MSFS Event  | 0=off, 75=slow, 100=fast                             |           |
+|              |                                         |                    |            |             |                                                      |
+| WIPER R knob | CIRCUIT SWITCH ON:80                    | 0&#124;1           | R/W        | MSFS        |                                                      |
+|              | ELECTRICAL_CIRCUIT_TOGGLE:80            |                    |            | MSFS VAR    |                                                      |
+|              | ELECTRICAL_CIRCUIT_POWER_SETTING_SET:80 | 0&#124;75&#124;100 |            | MSFS Event  | 0=off, 75=slow, 100=fast                             |
+|              |                                         |                    |            |             |                                                      |
+| RAIN RPLNT   | A32NX_RAIN_REPELLENT_LEFT_ON            | 0&#124;1           | R          | Custom LVAR |                                                      |
+|              | A32NX_RAIN_REPELLENT_RIGHT_ON           | 0&#124;1           | R          | Custom LVAR |                                                      |
+
+### Flight Control Panel
+
+Flight Deck: [Flight Control Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/flight-control-computer.md)
+
+| Function                 | API Usage                                      | Values   | Read/Write | Type        | Remark |
+|:-------------------------|:-----------------------------------------------|:---------|:-----------|:------------|:-------|
+| ELAC overhead pushbutton | A32NX_ELAC_{1&#124;2}_PUSHBUTTON_PRESSED       | 0&#124;1 | R/W        | Custom LVAR |        |
+| ELAC fault light         | N/A                                            |          |            |             |        |
+| FAC overhead pushbutton  | A32NX_FAC_{1&#124;2}_PUSHBUTTON_PRESSED        | 0&#124;1 | R/W        | Custom LVAR |        |
+| FAC fault light          | N/A                                            |          |            |             |        |
+| SEC overhead pushbutton  | A32NX_SEC_{1&#124;2&#124;3}_PUSHBUTTON_PRESSED | 0&#124;1 | R/W        | Custom LVAR |        |
+| SEC fault light          | A32NX_SEC_{1&#124;2&#124;3}_FAULT_LIGHT_ON     | 0&#124;1 | R          | Custom LVAR |        |
 
 ## Glareshield
 
