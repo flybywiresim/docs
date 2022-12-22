@@ -37,6 +37,8 @@ theme:
 plugins:
   search:
     lang: en
+  # Comment out the plugin below if building docs without an internet connection.
+  external-markdown: {}
   exclude-search:
     exclude:
       - pilots-corner/advanced-guides/flight-planning/fplan.md
@@ -49,7 +51,6 @@ plugins:
   tags: {}
   git-revision-date-localized:
     type: date
-  external-markdown: {}
   mkdocs-video:
     mark: "video-embed"
   redirects:
