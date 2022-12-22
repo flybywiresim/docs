@@ -3,14 +3,14 @@
 The term rejected takeoff (also known as RTO) refers to incidents in which an aircraft's pilots elect to abort their 
 departure before reaching a critical speed. 
 
-This critical speed is known as '[V1](../abbreviations.md)', and this refers to the maximum speed an aircraft can reach on its takeoff roll and then be brought to a stop 
+This critical speed is known as '[V~1~](../abbreviations.md)', and this refers to the maximum speed an aircraft can reach on its takeoff roll and then be brought to a stop 
 whilst remaining within the accelerate-stop distance (the distance the airplane actually needs to accelerate and stop in accordance with regulations). 
 If the aircraft reaches this speed and the Pilot Flying has not yet taken action to stop the plane, the takeoff must be continued unless the airplane is unsafe to fly.
 
 [V-Speeds Information](../abbreviations.md){.md-button target=new}
 
 ??? tip "Extra Knowledge - ASDA (Click to Expand)"
-    To be able to take off, the takeoff weight and V1 speed must result in an accelerate-stop distance that is no longer than the accelerate-stop
+    To be able to take off, the takeoff weight and V~1~ speed must result in an accelerate-stop distance that is no longer than the accelerate-stop
     distance available (ASDA). 
 
     The ASDA is a distance declared by the airport and is the runway length available for a rejected takeoff plus any stopway that may be present. A stopway is an area beyond the takeoff runway 
@@ -28,8 +28,8 @@ If the aircraft reaches this speed and the Pilot Flying has not yet taken action
 When the aircraft speed is at or above 100 kts, it may become hazardous to reject a takeoff, therefore a takeoff is split into 3 phases:  
 
 - Below 100 kts  
-- Above 100 kts and below V1  
-- Above V1  
+- Above 100 kts and below V~1~  
+- Above V~1~  
 
 !!! warning "Attention"
 
@@ -39,7 +39,8 @@ Jump to [Rejected Takeoff Procedure](#rejected-takeoff-procedure)
 
 ## What Happens During a Rejected Takeoff in Real Life?
 
-The decision to reject the takeoff and the stop action is made by the Captain, it is therefore recommended that the Captain keeps his hand on the thrust levers until the aircraft reaches V1, whether he is Pilot Flying (PF) or Pilot Not Flying (PNF).
+The decision to reject the takeoff and the stop action is made by the Captain, it is therefore recommended that the Captain keeps his hand on the thrust levers until the aircraft reaches V~1~, 
+whether he is Pilot Flying (PF) or Pilot Not Flying (PNF).
 
 As soon as the Captain decides to abort, he calls “STOP”, takes over control of the aircraft, and performs the stop actions.
 
@@ -51,7 +52,7 @@ It is not possible to list all the factors that could lead to the decision to re
 
 - Below 100 kts:  
     - Any ECAM warning/caution should prompt the Captain to seriously consider discontinuing the takeoff
-- Above 100 kts and below V1:  
+- Above 100 kts and below V~1~:  
     - Fire warning or severe damage
     - Sudden loss of engine thrust
     - Any red ECAM warning
@@ -61,7 +62,7 @@ It is not possible to list all the factors that could lead to the decision to re
         - ENG REVERSE FAULT
         - ENG REVERSE UNLOCKED
         - ENG 1(2) THR LEVER FAULT
-- Above V1:  
+- Above V~1~:  
     - Malfunctions or conditions that give unambiguous indications that the aircraft will not fly safely
 
 ## Rejected Takeoff Procedure  
