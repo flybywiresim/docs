@@ -87,7 +87,7 @@ The lower end of a red and black strip along the speed scale represents this spe
 
 The top of the red and black strip along the speed scale represents this speed. It is the speed at which the stall warning will occur. This information is inhibited from touchdown until 5 seconds after liftoff and is displayed only when operating in pitch alternate or pitch direct law.
 
-### Decision Speed (V~1~)
+### V~1~
 
 It is shown as blue numeral one (1) at a speed that the pilot inserted manually in the takeoff performance page in the MCDU. When it is off the scale, the upper part of the scale shows the speed in numbers. It disappears after liftoff.
 
