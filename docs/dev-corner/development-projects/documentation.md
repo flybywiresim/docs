@@ -90,6 +90,32 @@ feature.
     INFO     -  [12:05:30] Serving on http://127.0.0.1:8000/
     ```
   
+    !!! danger "Building the Project with No Internet Connection"
+        This project utilizes the `external-markdown` plugin which pulls MarkDown files from other repositories during the build for both production and development. This helps reference other 
+        important documentation externally without having to copy and paste it into this project.
+        
+        When working on a feature branch without an internet connection your development server may exit and fail to build resulting in:
+        
+        ```
+        Error! https://[hyperlink here] returned connection error
+        ```
+        
+        ---
+
+        In order to bypass this issue you can comment out the `external-markdown` plugin temporarily in `mkdocs.yml` found in the /root of this project. (Please ensure not to commit this change 
+        when creating a Pull Request.) See the example below:
+
+        ``` { .yaml .annotate title="mkdocs.yml example configured for offline builds" }
+        # Plugins
+        plugins:
+        search:
+          lang: en
+        # Comment out the plugin below if building docs without an internet connection.
+        # external-markdown: {} (1)
+        ```
+
+        1. For production or PR purposes please ensure that the above plugin reads `external-markdown: {}` (without the preceding `#`) before finalizing your PR.
+  
 !!! info "Faster Preview Server"
     You can opt to use a faster instance of the developer server by invoking the flag `--dirtyreload`. This just checks for any markdown that has changed since the HTML was rendered and will reconstruct any relevant pages only rather than rebuilding the entire website.
 
