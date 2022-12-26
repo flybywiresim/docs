@@ -80,108 +80,11 @@ We have introduced new features to the custom flight management system as part o
 - Fuel calculations might be incorrect.
 - Route on VFR map will not match up with what is shown on the ND.
 
-## Special Notes
+## MSFS Flight Planning
 
-Our custom FMS provides better accuracy and features over the default offering in MSFS which results in issues syncing the flight plan from the MCDU back into the simulator.
-Flight plans with complex routing may have significant issues if synced backwards or loaded externally through MSFS's simplified flight planning.
+Please see our [Flight Planning in MSFS Guide](flight-planning.md) for more information.
 
-This will always be problematic unless Asobo improves the built-in flight planner. Other aircraft with complex flight planning capabilities also have this limitation.
-
-The options below allow you to use to utilize the built-in MSFS ATC and VFR Map:
-
-- [Sync the MCDU flight plan to MSFS ATC](#sync-the-mcdu-flight-plan-to-msfs-atc) -> After pressing "Fly"
-- [Load the same flight plan in the World Planner and the MCDU](#load-the-same-flight-plan-in-the-world-planner-and-the-mcdu) -> Before pressing "Fly"
-
-When using either method will allow for the following:
-
-- **IFR clearance access through the MSFS ATC**
-  - Although these methods allow you to use MSFS ATC with our custom FMS throughout the flight it does not fix the MSFS ATC system.
-    - Do not expect MSFS ATC to be aware of altitude constraints in SIDs and STARs.
-    - Do not expect MSFS ATC to provide descent clearance at the proper time.
-- **Usage of the VFR map**
-
-??? warning "Issues with VFR Map"
-    We'd like to stress that the VFR Map is not supported and we don't recommend using it - the A320neo is an IFR aircraft after all.
-
-    When flight plan sync is enabled you will often not see the proper sequence of waypoints or pathing between waypoints. 
-
-    **The VFR Map will attempt to you show you what the simulator's built-in flight planner produces**, which is not an accurate representation of the LNAV in our cFMS. In the future we may replicate a secondary route visualization (apart from the PLAN mode on the ND) feature in the EFB.
-
-!!! warning "Be Aware of the Following"
-    - In most cases our custom FMS may require you to select your SID or STAR manually. (This is similar to our simBrief import on the MCDU). We highly recommend you plan your entire route including arrival procedure and runway otherwise the default ATC may not perform adequately.
-    - If your `.pln` file contains VORs they may get shuffled around and lead to inaccurate flight plans following by MSFS ATC and inaccuracies on the VFR map.
-    - Although these methods allow you to use MSFS ATC with our custom FMS throughout the flight it does not fix the MSFS ATC system.
-        - Do not expect MSFS ATC to be aware of altitude constraints in SIDs and STARs.
-        - Do not expect MSFS ATC to provide descent clearance at the proper time.
-
-### Sync the MCDU flight plan to MSFS ATC
-
-If you choose to use our built-in simBrief import on the MCDU to bypass the world menu planner (as we recommend), we have provided a feature that helps sync the aircraft's
-flight plan back to the MSFS' built-in flight planner. This feature can be configured on the EFB and is set to `None` by default.
-
-Using this method MSFS ATC will most likely not detect your planned cruising flight level. You would need to request further climb once established on your initial cleared
-altitude after takeoff.
-
-!!! info "How to Turn on Flight Plan Sync"
-    Before performing an `INIT REQ.` in the MCDU `INIT A` page, or before manually inputting your flight plan, please follow the steps below if you would like to try and use the built-in ATC for your flight.
-
-    - Go to the EFB Settings and select Sim Options. [Location Here](flypados3/settings.md#sim-options).
-    - Switch the `Sync MSFS Flight Plan` setting to `Save`.
-    - Continue entering your flight plan or perform an `INIT REQ.`.
-
----
-
-### Load the same flight plan in the World Planner and the MCDU
-
-You can also use the same flight plan in both the MSFS World Planner and the MCDU to have MSFS ATC be aware of your flight plan. This can be done in two different ways:
-
-Both options are described in more detail below.
-
-**We recommend** the flyPad flight plan sync feature is set to `None` before attempting this. This would allow MSFS to follow your flight plan independently of our custom FMS.
-While the order you switch the sync feature to `None` may vary it is still important that the sync feature is set appropriately and done before you load any flight plan into
-the MCDU.
-
-??? info "Finding Flight Plan Sync Setting"
-    - Go to the EFB Settings and select Sim Options. [Location Here](flypados3/settings.md#sim-options).
-    - Switch the `Sync MSFS Flight Plan` setting to `None`.
-
-#### Importing a 3rd party flight plan
-
-You can attempt to load any saved `.pln` file from 3rd party flight planners (i.e. simBrief) into the world map flight planner. This would populate the world menu with the following:
-
-- FROM/TO
-- Routing
-- SID + STAR
-
-Follow these steps:
-
-1. Create a flight plan from simBrief or another 3rd party flight planner.
-    1. When using simBrief please ensure you generate an OFP for the same flight plan you will use for your flight.
-2. Download and save the fight plan for FS2020 in the `.pln` format to your PC.
-3. Load the `.pln` file in the MSFS world map.
-4. **Make sure** to select a starting gate and destination approach from the world map's drop down menus.
-5. Load your flight.
-6. Use our [built-in simBrief integration](simbrief.md) to populate the MCDU with your flight plan.
-   1. Reminder: This is done by using the `INIT REQ.` line on the `INIT A` MCDU page which will download the generated OFP from simBrief to provide an accurate flight plan with our custom FMS while having MSFS ATC support.
-
-#### Using the World Planner to generate a flight plan
-
-You can also use the World Planner to generate a flight plan and then enter that same flight plan manually in the `F-PLN` page in the MCDU.
-
-!!! warning "The flight plan will not be automatically loaded into the MCDU"
-    When using this method, the flight plan generated by the World Planner will **not** be loaded automatically into the MCDU. You will have to enter it manually!
-
-Follow these steps:
-
-1. In the World Planner, select a departure airport, a departure gate or runway and a destination airport.
-2. Select "IFR" (low or high altitude planning) from the planning dropdown.
-3. Select a Departure (SID), an Arrival (STAR) and an Approach.
-4. Take note of the route the World Planner generates for you. You need each individual waypoint noted down.
-5. Load your flight.
-6. In the `INIT A` page of the MCDU, enter the FROM/TO airports. An example is shown in our [Beginners Guide section on the `INIT A` page](../../pilots-corner/beginner-guide/preparing-mcdu.md#init-a).
-7. In the `F-PLN` page of the MCDU, enter your flight plan as it was generated by the World Planner, starting with the SID, the regular waypoints and finally the STAR. An example is shown in our [Beginners Guide section on the `Flight Plan`](../../pilots-corner/beginner-guide/preparing-mcdu.md#flight-plan).
-
-### WX/TER
+## WX/TER
 
 !!! info "Important Notice"
     - TCAS is now available in the Development version.
@@ -197,7 +100,7 @@ the lack of a native SDK API. We have posted about it on the MSFS forums, where 
 [Read more about weather and terrain API.](https://forums.flightsimulator.com/t/implement-weather-and-terrain-api-s-for-aircraft-developers-to-implement-accurate-radar-predictive-windshear-egpws-and-metar-wind-uplink/442016){target=new}
 **Please note again that terrain radar is being tested in our Experimental version.**
 
-### Flight Path Rendering
+## Flight Path Rendering
 
 In certain instances some legs may not render correctly with our current implementation and may look strange in PLAN mode or while en-route. In most cases the A32NX will attempt to fly the route and you won't experience any major issues.
 
