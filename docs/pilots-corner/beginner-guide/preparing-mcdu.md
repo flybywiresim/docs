@@ -165,6 +165,18 @@ The cost index can be found in the image above.
 * Using the keypad type in `44`
 * Press LSK5L.
 
+!!! tip "Wind Requests"
+    Pilots can choose to import your wind data at this stage through the `WIND/TEMP` option by pressing LSK 4R. For more information on using this feature please see the guide below (*opens in new
+    tab*).
+
+    [Wind Request Guide](../../fbw-a32nx/feature-guides/simbrief.md#wind-request){target=new .md-button}
+
+    Please also note the following:
+
+    - Per-waypoint entry and request of cruise winds is still being implemented.
+    - Wind Request functionality is not 100% accurate to the real aircraft.
+        - In real life selecting the wind requests option on the climb page would populate the winds data for all stages of flight.
+
 ^^CRZ FL/TEMP^^
 
 ![ofp2](../assets/beginner-guide/mcdu/ofp2.png){loading=lazy}
@@ -176,11 +188,6 @@ Input the desired cruise flight level in this field. On our OFP this is listed a
 
 This will input FL220 and the temperature as well.
 
-!!! tip "Wind Requests"
-    Pilots can choose to import your wind data at this stage through the `WIND/TEMP` option by pressing LSK 4R. For more information on using this feature please see the guide below (*opens in new 
-    tab*).
-
-    [Wind Request Guide](../../fbw-a32nx/feature-guides/simbrief.md#wind-request){target=new .md-button}
 
 ### **^^F^^**LIGHT PLAN
 
