@@ -176,6 +176,12 @@ Input the desired cruise flight level in this field. On our OFP this is listed a
 
 This will input FL220 and the temperature as well.
 
+!!! tip "Wind Requests"
+    Pilots can choose to import your wind data at this stage through the `WIND/TEMP` option by pressing LSK 4R. For more information on using this feature please see the guide below (*opens in new 
+    tab*).
+
+    [Wind Request Guide](../../fbw-a32nx/feature-guides/simbrief.md#wind-request){target=new .md-button}
+
 ### **^^F^^**LIGHT PLAN
 
 Upon loading the flight plan page there will be three entries. Departure airport, `(DECEL)`, and arrival airport.
