@@ -792,6 +792,22 @@ reporting any other issue on Discord.
 The following list of solutions solves most reported issues on our Discord support channel. 
 Please try these before reporting any other issue on Discord.
 
+??? tip "General Troubleshooting Steps"
+    ### General Troubleshooting Steps
+
+    ^^Description^^
+
+    Most issues with the A32NX can be solved by following the below steps.<br /> 
+    Try these first before you report an issue on Discord or GitHub. 
+
+    ^^Troubleshooting Steps^^
+   
+    - [Remove Old Marketplace Installation](#remove-old-marketplace-installation)
+    - [Test With Only the A32NX Add-on in Community](#test-with-only-the-a32nx-add-on-in-community)
+    - [Clean Install](#clean-install)
+    - [Enable Windows UTF8 Support](#enable-windows-utf8-support)
+    - [Make Sure to Use the Latest Version of MS Flight Simulator](#use-the-latest-version-of-ms-flight-simulator)
+
 ??? tip "Remove Old Marketplace Installation"
     ### Remove Old Marketplace Installation
     
