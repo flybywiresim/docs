@@ -135,6 +135,15 @@ Press LSK5R to go to the `NEXT PHASE`, `CRZ WIND`. The same procedure of pressin
 Finally, press LSK5R to go to the `NEXT PHASE`, `DESCENT WIND`. Pressing LSK3R for `WIND REQUEST` will calculate the 
 wind profiles during the descent phase based on the simBrief-provided wind data.
 
+!!! tip "Manual Entry"
+    If you are obtaining your winds data from another source please note that the format is as follows:
+
+    ``` title="Winds Format Example"
+    Magnetic Heading / Wind Speed / Altitude 
+    ```
+
+    Examples are provided above and please note that altitude is written in relation to flight level (FL). 
+
 ### Fuel and Weight
 
 See [Fuel and Weight](loading-fuel-weight.md)
