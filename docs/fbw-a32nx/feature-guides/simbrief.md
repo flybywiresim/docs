@@ -116,7 +116,7 @@ This will load your flight plan from simBrief directly into the MCDU
 !!! warning "Important Notes"
     The current implementation of wind requests in the A32NX is in its early stages with a full 
     accurate implementation to follow at a later date. This method provides an easy solution to quickly import winds 
-    from a valid simBrief OFP. 
+    from a valid simBrief OFP.
 
     Please also note the following:
 
