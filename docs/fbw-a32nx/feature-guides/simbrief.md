@@ -109,15 +109,20 @@ This will load your flight plan from simBrief directly into the MCDU
     etc. and are determined by ATC and not the pilot's flight plan. They can be changed by ATC any time before 
     takeoff or during flight and are therefore not imported in real life aircraft either.  
 
+[//]: # (Updates to the wind request section should be mentioned in the preparing-mcdu.md page as well.)
+
 ### Wind Request
 
 !!! warning "Important Notes"
-    The current implementation of wind requests in the A32NX is in it's early stages with a full 
+    The current implementation of wind requests in the A32NX is in its early stages with a full 
     accurate implementation to follow at a later date. This method provides an easy solution to quickly import winds 
-    from a valid simBrief OFP. Please also note the following:
-    
+    from a valid simBrief OFP. 
+
+    Please also note the following:
+
     - Per-waypoint entry and request of cruise winds is still being implemented.
     - Wind Request functionality is not 100% accurate to the real aircraft.
+        - In real life selecting the wind requests option on the climb page would populate the winds data for all stages of flight.
 
 ![Wind Request](../assets/feature-guides/simbrief/mcdu-wind1.png){loading=lazy}
 
