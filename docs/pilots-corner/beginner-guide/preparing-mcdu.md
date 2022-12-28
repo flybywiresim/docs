@@ -171,11 +171,12 @@ The cost index can be found in the image above.
 
     [Wind Request Guide](../../fbw-a32nx/feature-guides/simbrief.md#wind-request){target=new .md-button}
 
-    Please also note the following:
+    !!! warning ""
+        Please also note the following:
 
-    - Per-waypoint entry and request of cruise winds is still being implemented.
-    - Wind Request functionality is not 100% accurate to the real aircraft.
-        - In real life selecting the wind requests option on the climb page would populate the winds data for all stages of flight.
+        - Per-waypoint entry and request of cruise winds is still being implemented.
+        - Wind Request functionality is not 100% accurate to the real aircraft.
+            - In real life selecting the wind requests option on the climb page would populate the winds data for all stages of flight.
 
 ^^CRZ FL/TEMP^^
 
