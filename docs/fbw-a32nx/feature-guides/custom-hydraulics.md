@@ -23,7 +23,7 @@ Using the gear system should not be different from before. Selecting gear up wil
 
 However, because it's now closer to the real system under the hood, you have to be aware of some subtleties of the gear system.
 
-First of all, as all of the hydraulics are simulated, the behaviour of the system will highly depend on the hydraulic status of the plane. Even in nominal conditions, gear system is 
+Since all of the hydraulics are simulated, the behaviour of the system will highly depend on the hydraulic status of the plane. Even in nominal conditions, gear system is 
 such a high flow consumer that it can impact the green system pressure. In turn this will also trigger the PTU to help provide hydraulic power from the yellow side. 
 
 Be aware that any degraded condition will impact the behaviour of the retraction/extension sequence. PTU being off will cause green system pressure to reach lower pressure level during the sequence, while using only yellow electric pump for the gear sequence might cause LGCIU faults as the sequence can get quite a long time to perform.
