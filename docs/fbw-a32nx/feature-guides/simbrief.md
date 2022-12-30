@@ -13,6 +13,7 @@ In addition to the obvious route planning there are several other aspects which 
     - Routing and Constraints
 - Fuel Calculation
 - Weather Forecast
+- Wind Profiles
 - Cost and Time Optimization
 
 See [Flight Planning](https://en.wikipedia.org/wiki/Flight_planning){target=new} on Wikipedia for more information.
@@ -101,12 +102,52 @@ This will load your flight plan from simBrief directly into the MCDU
     #### RWY, SID, STAR, and APPR
     The SimBrief import will <span style=color:red>**not**</span> load RWY, SID, STAR, or APPR. You will need to 
     manually add these into the flight plan. To learn how to set up the MCDU you can read the 
-    [**^^F^^**LIGHT PLAN](../../pilots-corner/beginner-guide/preparing-mcdu.md#flight-plan) section 
+    [**^^F^^**LIGHT PLAN](../../pilots-corner/beginner-guide/preparing-mcdu.md#--f---light-plan) section 
     in our beginner's guide.
     <p />
     This is because RWY, SID, STAR and APPR are dependent on factors like active runways, traffic, weather, 
     etc. and are determined by ATC and not the pilot's flight plan. They can be changed by ATC any time before 
     takeoff or during flight and are therefore not imported in real life aircraft either.  
+
+[//]: # (Updates to the wind request section should be mentioned in the preparing-mcdu.md page as well.)
+
+### Wind Request
+
+!!! warning "Important Notes"
+    The current implementation of wind requests in the A32NX is in its early stages with a full 
+    accurate implementation to follow at a later date. This method provides an easy solution to quickly import winds 
+    from a valid simBrief OFP.
+
+    Please also note the following:
+
+    - Per-waypoint entry and request of cruise winds is still being implemented.
+    - Wind Request functionality is not 100% accurate to the real aircraft.
+        - In real life selecting the wind requests option on the climb page would populate the winds data for all stages of flight.
+
+![Wind Request](../assets/feature-guides/simbrief/mcdu-wind1.png){loading=lazy}
+
+On the `INIT A` page, select `WIND/TEMP` by pressing LSK4R. This brings you to the `CLIMB WIND` page.
+
+![Wind Request](../assets/feature-guides/simbrief/mcdu-wind2.png){loading=lazy}
+
+To request the wind data from the simBrief flight plan, select `WIND REQUEST` by pressing LSK3R. This will calculate the 
+wind profiles during the climb phase based on the simbrief-provided wind data.
+    
+![Wind Request](../assets/feature-guides/simbrief/mcdu-wind3.png){loading=lazy}
+
+Press LSK5R to go to the `NEXT PHASE`, `CRZ WIND`. The same procedure of pressing LSK3R for `WIND REQUEST` applies here.
+
+Finally, press LSK5R to go to the `NEXT PHASE`, `DESCENT WIND`. Pressing LSK3R for `WIND REQUEST` will calculate the 
+wind profiles during the descent phase based on the simBrief-provided wind data.
+
+!!! tip "Manual Entry"
+    If you are obtaining your winds data from another source please note that the format is as follows:
+
+    ``` title="Winds Format Example"
+    Magnetic Heading / Wind Speed / Altitude 
+    ```
+
+    Examples are provided above and please note that altitude is written in relation to flight level (FL). 
 
 ### Fuel and Weight
 
