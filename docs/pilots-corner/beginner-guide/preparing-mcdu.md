@@ -166,10 +166,9 @@ The cost index can be found in the image above.
 * Press LSK5L.
 
 !!! tip "Wind Requests"
-    Pilots can choose to import your wind data at this stage through the `WIND/TEMP` option by pressing LSK 4R. For more information on using this feature please see the guide below (*opens in new
-    tab*).
+    Pilots can choose to import your wind data at this stage through the `WIND/TEMP` option by pressing LSK 4R. For more information on using this feature please see the guide below.
 
-    [Wind Request Guide](../../fbw-a32nx/feature-guides/simbrief.md#wind-request){target=new .md-button}
+    [Wind Request Guide](../../fbw-a32nx/feature-guides/simbrief.md#wind-request){.md-button}
 
     !!! warning ""
         Please also note the following:
