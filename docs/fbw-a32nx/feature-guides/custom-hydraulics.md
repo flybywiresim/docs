@@ -3,29 +3,27 @@
 ## Gear system
 Our new gear system aims at replicating its real counterpart even in the slightest details. While more improvements will come, the current system already features:
 
-- Rigid body physics of gears and doors
-- Hydraulic actuators simulation with "push to retract" main gears and "push to extend" nose gear. 
+- Rigid body physics of gears and doors, affected by aerodynamics
+- Hydraulic actuators simulation with "push to retract" main gears and "push to extend" nose gear
 - All proximity sensors, one set per LGCIU computer
 - LGCIU computers monitoring, sequence control state machine and their change-over mechanism
 - Safety valve / Shut off valve / Vent valves controls
 - Gear lever baulk lock mechanism powered by LGCIUs
 - Emergency extension system
+- Failures
 
 !!! warning "Not Yet Implemented"
     Non-exhaustive list of features yet to come:
 
-    - Doors animations
-    - Aerodynamic effects
+    - Doors vs gear collisions
     - Complete fault monitoring and BITE tests of LGCIUs
-    - Complete set of failures
-    - Animated emergency gear crank handle
 
 ### Functionality
 Using the gear system should not be different from before. Selecting gear up will switch to the next available LGCIU computer available, and will start the retracting sequence. Gear down will start the extension sequence same as before.
 
 However, because it's now closer to the real system under the hood, you have to be aware of some subtleties of the gear system.
 
-First of all, as all of the hydraulics are simulated, the behaviour of the system will highly depend on the hydraulic status of the plane. Even in nominal conditions, gear system is 
+Since all of the hydraulics are simulated, the behaviour of the system will highly depend on the hydraulic status of the plane. Even in nominal conditions, gear system is 
 such a high flow consumer that it can impact the green system pressure. In turn this will also trigger the PTU to help provide hydraulic power from the yellow side. 
 
 Be aware that any degraded condition will impact the behaviour of the retraction/extension sequence. PTU being off will cause green system pressure to reach lower pressure level during the sequence, while using only yellow electric pump for the gear sequence might cause LGCIU faults as the sequence can get quite a long time to perform.
@@ -54,23 +52,24 @@ Some first failures are provided, and while ECAM information impact is a tempora
 !!! tip "Only issues on LGCIU1 proximity sensors will show erroneous information on gear light indicator."
 
 ### Gravity Extension
-Gravity extension is already fully supported by our gear system. However, user experience is not perfect yet due to current 3D model limitations.
+Gravity extension is fully supported by our gear system. 
 
-While this feature will eventually be perfectly supported with a moving crank handle, for now gravity extension can be used by two means:
+To use this mechanical-only device, you need to deploy the handle by clicking on the emergency crank handle back on the center pedestal.
+Then every click of the handle, or using the mouse scroll wheel, will make the handle turn once.
+It can be stowed back by clicking on the black plastic lock at any time.
 
-- Clicking and holding left mouse button on the red part of the crank handle.
-![Clickable emergency handle reference](../assets/custom-hydraulics/gear/crank_handle.png "Clickable emergency handle reference"){loading=lazy}
-- Using the ingame binding "EMERGENCY GEAR TOGGLE" by holding it. You may set this to a keybind of your choice.
-![In-game binding reference](../assets/custom-hydraulics/gear/emergency_input.png "In-game binding reference"){loading=lazy}
-  
-Using either of those above methods, you need to click and hold until gear is released. 
-
-If not holding long enough, you will end up with crank handle only doing one or two turns, which will have the following consequences:
+Each turn of the handle will cause various things to happen:
 
 - After 1 turn, hydraulic supply to gear system is closed
-- After 2 turns, doors uplocks will be released and door will stay opened
+- After 2 turns, doors uplocks will be released and doors will stay opened
+- During the last third turn, all gear uplocks will be mechanically released and gears go down
 
-To revert the process and stow the crank handle back into its place, just click and hold again (provided you already reached 3 turns).
+To revert the process and stow the crank handle back into its place, just click again until handle is stowed back
+
+!!! tip "The lower the speed, the harder it will be to have a full down lock of the gear, especially for the main gear. Doing steep turns to increase the load of the plane can be quite effective to help the gears to lock into place."
+
+!!! warning "Don't rush the handle turning"
+    The lower the speed, the slower doors will open due to smaller aerodynamic forces. Turning the handle too fast might cause the gears to hit the doors that have not yet fully opened. Always wait 3 to 5 seconds between handle turns.
 
 !!! warning "Before Using Gravity Extension"
     Have the plane correctly stabilized before using this procedure. Remember that gears are physically simulated, and are really heavy. Bank angle and/or load factor WILL have 
@@ -80,6 +79,9 @@ To revert the process and stow the crank handle back into its place, just click 
     - Asymmetry  
     - Ability to reach downlock position
 
+!!! warning "Gear lever when using gravity extension"
+    When gravity etension is used, you have to set gear lever to down position to avoid possible LGCIU faults. 
+    
 ### Known Issues
 
 {--
@@ -89,13 +91,3 @@ To revert the process and stow the crank handle back into its place, just click 
 --}
 
 - If a hardware input is set to GEAR UP or GEAR DOWN, in-cockpit lever cannot be clicked or mouse dragged.
-- Aerodynamic effects are not implemented yet, so gravity extension can have difficulties to lock the gear down, especially if plane is not stabilized during the procedure.
-
-- Door visual position is not modeled yet due to 3D model issues. Their actual position is however fully simulated internally.
-
-  Because of that last point:
-  
-   - Gear doors will start to visually open with a 2 to 3s delay, because actual doors are in fact already opening during those 2-3s while you cannot see them.
-   - Gear doors will visually close at end of gear extension even if actual doors stay open (for example after gravity extension).
-   - Visual movement of doors is only coming from gear movement, thus causing strange door oscillations in some cases that are not real.
-
