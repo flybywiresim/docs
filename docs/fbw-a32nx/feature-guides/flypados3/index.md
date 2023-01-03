@@ -8,8 +8,6 @@ description: A guide the flyPadOS 3 EFB used in the Development version of the A
 
 # flyPadOS 3 EFB
 
-!!! warning "flyPadOS 3 is only available in the Development version."
-
 <div style="position: relative;">
     <img src="/fbw-a32nx/assets/flypados3/flypad-dashboard-menu.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="./dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
