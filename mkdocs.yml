@@ -39,14 +39,6 @@ plugins:
     lang: en
   # Comment out the plugin below if building docs without an internet connection.
   external-markdown: {}
-  exclude-search:
-    exclude:
-      - pilots-corner/advanced-guides/flight-planning/fplan.md
-      - pilots-corner/advanced-guides/flight-planning/offset.md
-      - pilots-corner/advanced-guides/flight-planning/overview.md
-      - pilots-corner/advanced-guides/flight-guidance/approaches.md
-      - pilots-corner/advanced-guides/flight-guidance/autopilot.md
-      - pilots-corner/advanced-guides/flight-guidance/lnav.md
   awesome-pages: {}
   tags: {}
   git-revision-date-localized:
