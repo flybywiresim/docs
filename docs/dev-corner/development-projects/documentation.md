@@ -32,7 +32,6 @@ To participate in the FlyByWire Documentation Project you need to have following
     - mkdocs-awesome-pages-plugin
     - mkdocs-git-revision-date-localized-plugin
     - mkdocs-redirects
-    - mkdocs-exclude-search
     - mkdocs-embed-external-markdown
     - mkdocs-video
     - mike
@@ -45,7 +44,8 @@ To participate in the FlyByWire Documentation Project you need to have following
     ```
 !!! info "Pillow + Cairo Dependency"
     As part of the new social card feature released with `mkdocs-material 8.5.0` [Pillow](https://pillow.readthedocs.io/) and [Cairo Graphics](https://www.cairographics.org/) 
-    dependencies were added. We bundle this as part of our `requirements.txt` to ensure the dependeices are installed when attempting to test [social cards locally](#social-cards-feature). If you encounter any issues with these python packages:
+    dependencies were added. We bundle this as part of our `requirements.txt` to ensure the dependencies are installed when attempting to test [social cards locally](#social-cards-feature). If you 
+    encounter any issues with these python packages:
 
     - Install [GTK+](https://www.gtk.org/docs/installations/windows/) for Windows.
 
@@ -204,6 +204,18 @@ If you would like to fully test a complete build of the production website you n
 
     ```md title="Sample YouTube Embed Code"
     ![video-embed](https://www.youtube.com/embed/3i1FaGKOwII)
+    ```
+
+!!! tip "Search Exclusion"
+    While writing documentation you may want to include pages in the final build as part of the `docs/` directory but not have these pages referenced within the search index.
+
+    You can simply add to the top of the document the following meta information to utilize mkdocs-material's built in search exclusion:
+
+    ```md title="Search Exclusion Meta Snippet"
+    ---
+    search:
+        exclude: true
+    ---
     ```
 
 #### Tips to Work Effectively with `mkdocs` (Change, Previews, etc.)
