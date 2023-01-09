@@ -758,7 +758,7 @@ Flight Deck: [Thrust Lever Panel](../../pilots-corner/a32nx-briefing/flight-deck
 |:----------------------|:----------------------------|:--------------|:-----------|:-----------------|:--------|
 | Throttle 1 Axis       | THROTTLE1_AXIS_SET_EX1      | -16383..16384 | -          | MSFS EVENT       |         |
 |                       |                             |               |            |                  |         |
-| Throttle 1 Axis       | THROTTLE2_AXIS_SET_EX1      | -16383..16384 | -          | MSFS EVENT       |         |
+| Throttle 2 Axis       | THROTTLE2_AXIS_SET_EX1      | -16383..16384 | -          | MSFS EVENT       |         |
 |                       |                             |               |            |                  |         |
 | AUTO THRUST DISENGAGE | AUTO_THROTTLE_ARM           | -             | -          | SIMCONNECT EVENT | Toggles |
 |                       | A32NX_AUTOTHRUST_DISCONNECT | 0&#124;1      | R          | Custom LVAR      |         |
