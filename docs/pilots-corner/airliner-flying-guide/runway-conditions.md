@@ -1,4 +1,4 @@
-# Runways Conditions
+# Runway Conditions
 
 The runway condition codes are provided in the ATIS or NOTAM report in the field condition report (FICON) section. 
 It is important to note that not all states or countries have implemented FICONs and the report does not need to be 
