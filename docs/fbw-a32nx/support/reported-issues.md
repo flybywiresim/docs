@@ -782,11 +782,12 @@ reporting any other issue on Discord.
 
     ^^Description^^
     
-    This is typically caused by flying into a discontinuity ar an incomplete setup of the aircraft. 
+    This is typically caused by flying into a discontinuity or an incomplete setup of the aircraft. 
 
-    ^^Possible Solution or Workaround^^
+    ^^Read the documentation about Discontinuities^^
 
-    - [Disconnect the Tug](#disconnect-the-tug)
+    - [Discontinuities](../../pilots-corner/advanced-guides/flight-planning/disco.md)
+    
 
 ## Solutions to Commonly Reported Issues 
 The following list of solutions solves most reported issues on our Discord support channel. 
