@@ -161,7 +161,7 @@ See [Beginner Guide Preparation and Checklist for Landing](../../beginner-guide/
 - At 10ft: callout "Retard" commands the PF to set the throttle levers to idle.
 - At touchdown:
     - FMA shows ROLL OUT - autopilot keeps aircraft on center line.
-    - Both thrust levers to reverse thrust (idle or max as appropriate).
+    - PM sets both thrust levers to reverse thrust (idle or up to max as appropriate).
     - PM checks and calls out: "touchdown", "spoilers", "reversers", "auto brake", "decel".
 - At 70kts: PM announces "70kts" and PF will set the throttle to reverse idle if reverse max was used. 
 - Before 20kts: the PF manually brakes to deactivate the autobrake.
