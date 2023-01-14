@@ -23,8 +23,8 @@
 /* Sidebar Navigation Modifications */
 /* 9.0.3 Compatibility*/
 
-.md-nav__link--passed, .md-nav__link[for] {
-    color: white;
+.md-nav__link[for] {
+    color: white !important;
 }
 
 /*Announcement Bar*/
