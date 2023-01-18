@@ -987,7 +987,41 @@ Please try these before reporting any other issue on Discord.
 
 ## FBW Installer Issues
 
-Currently, there are no known issues with the FBW Installer.
+??? bug "Download Issues - FBW Products"
+    
+    ^^Description^^
+
+    In certain situations your ISP may block our CDN (Content Distribution Network) served by Cloudflare. Cloudflare allows us to save costs when users download our aircraft from our installer to 
+    provide a seamless installation process for a variety of our products.
+
+    Additionally any distrubance to the stability of your connection may cause any downloads to fail and may need to be retried when you have a more stable connection.
+
+    ^^Common Error Codes^^
+
+    - ECONNRESET
+    - ETIMEDOUT
+    - ENOTFOUND
+    - HTTP 403
+
+    ^^Possible Solution or Workaround^^
+
+    We recommend one of the following actions:
+
+    1. TEMPORARY Solution: Try a VPN - a great free one that's reliable is [ProtonVPN](https://protonvpn.com/).
+        - Please do your own due diligence and research when utilizing a VPN even with our recommended one above.
+    2. Download a full build from our website [here]() - Please ensure you follow our [manual installation instructions](../installation.md#manual-installation).
+    3. Contant your ISP to check with them if there are any existing issues utilizing Cloudflare on their network.
+
+    ^^Additional Information^^
+
+    Below is a list of countries that are possibily affected by this issue. Please note that it may not be *every* ISP in the country.
+
+    - Brazil
+    - China
+    - Iberia
+    - Portugal
+    - Saudi Arabia
+    - Spain
 
 ## Incompatible and Problematic Add-Ons/Mods
 
