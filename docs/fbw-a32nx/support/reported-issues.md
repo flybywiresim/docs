@@ -987,7 +987,7 @@ Please try these before reporting any other issue on Discord.
 
 ## FBW Installer Issues
 
-??? bug "ECONNRESET / HTTP 403"
+??? bug "Download Issues - FBW Products"
     
     ^^Description^^
 
@@ -995,6 +995,13 @@ Please try these before reporting any other issue on Discord.
     provide a seamless installation process for a variety of our products.
 
     Additionally any distrubance to the stability of your connection may cause any downloads to fail and may need to be retried when you have a more stable connection.
+
+    ^^Common Error Codes^^
+
+    - ECONNRESET
+    - ETIMEDOUT
+    - ENOTFOUND
+    - HTTP 403
 
     ^^Possible Solution or Workaround^^
 
