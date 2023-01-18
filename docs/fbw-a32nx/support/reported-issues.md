@@ -1007,10 +1007,21 @@ Please try these before reporting any other issue on Discord.
 
     We recommend one of the following actions:
 
-    1. TEMPORARY Solution: Try a VPN - a great free one that's reliable is [ProtonVPN](https://protonvpn.com/)
+    1. TEMPORARY Solution: Try a VPN - a great free one that's reliable is [ProtonVPN](https://protonvpn.com/).
         - Please do your own due diligence and research when utilizing a VPN even with our recommended one above.
     2. Download a full build from our website [here]() - Please ensure you follow our [manual installation instructions](../installation.md#manual-installation).
     3. Contant your ISP to check with them if there are any existing issues utilizing Cloudflare on their network.
+
+    ^^Additional Information^^
+
+    Below is a list of countries that are possibily affected by this issue. Please note that it may not be *every* ISP in the country.
+
+    - Brazil
+    - China
+    - Iberia
+    - Portugal
+    - Saudi Arabia
+    - Spain
 
 ## Incompatible and Problematic Add-Ons/Mods
 
