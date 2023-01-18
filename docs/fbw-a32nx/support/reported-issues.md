@@ -994,6 +994,8 @@ Please try these before reporting any other issue on Discord.
     In certain situations your ISP may block our CDN (Content Distribution Network) served by Cloudflare. Cloudflare allows us to save costs when users download our aircraft from our installer to 
     provide a seamless installation process for a variety of our products.
 
+    Additionally any distrubance to the stability of your connection may cause any downloads to fail and may need to be retried when you have a more stable connection.
+
     ^^Possible Solution or Workaround^^
 
     We recommend one of the following actions:
