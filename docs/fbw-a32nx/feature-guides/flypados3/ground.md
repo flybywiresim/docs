@@ -118,7 +118,7 @@ After starting the engines only "Instant" is available.
       - Set the [fuel quantity](#fuel-and-de-fuel) that you desire and press the "play" button.
       - You can witness outside as the fuel truck begins to re-fuel your aircraft
 2. De-fueling
-        - Due to limitations with GSX, this is not supported, disabled [Fuel Sync](settings.md#3rd-party-options) temporarily, to defuel.
+     - Due to limitations with GSX, this is not supported, disable [Fuel Sync](settings.md#3rd-party-options) temporarily, to defuel.
 
 ## Payload Page
 
@@ -215,12 +215,9 @@ The current cabin and cargo area layout of the A32NX consists of:
 - You won't witness passengers boarding the aircraft until, physical passengers from GSX enter the aircraft. You'll notice this when you request boarding through the GSX menu but nothing appears to happens in the EFB just yet.
 - Due to limitations with events emitted by GSX, cargo/baggage loading is less granular and the aircraft own's weight systems will load in large chunks rather than much more fine grained steps.
 - The aircraft's own boarding sounds are disabled as GSX has it's own sound profile for boarding/deboarding.
+- Once boarding has started you can no longer, edit the fields in the payload screen
 
 #### Usage
-// TODO add picture here
-
-You'll notice the payload screen will look slightly different to what you see in [Setting Up Payload](#setting-up-payload). The "Play" button is removed as this is now managed by the GSX Menu.
-
 1. Boarding
       - Load the aircraft as per normal following the instructions defined in, [Setting Up Payload](#setting-up-payload).
       - Before proceeding, ensure you've set *everything*  to your preferences, this is a point of no return. 
