@@ -39,7 +39,7 @@ Turns on and off the three synchronized strobe lights, one on each wing tip and 
 - OFF:
     - Strobe light are off.
 
-Strobes are turned on at the latest when airborne. Usually shortly before the take of roll.
+Strobes are turned on at the latest when airborne. Usually shortly before the takeoff roll.
 
 ![STROBE and NAV](../../../assets/a32nx-briefing/overhead-panel/lights/strobe-right.jpg "STROBE and NAV"){loading=lazy}
 
