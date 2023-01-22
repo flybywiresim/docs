@@ -218,7 +218,7 @@ The current cabin and cargo area layout of the A32NX consists of:
     You must enable [Payload Sync](settings.md#3rd-party-options) in order for this to function.
 
 #### Caveats
-- You won't witness passengers boarding the aircraft until, physical passengers from GSX enter the aircraft. You'll notice this when you request boarding through the GSX menu but nothing appears to happens in the EFB just yet.
+- You won't witness passengers boarding the aircraft until physical passengers from GSX enter the aircraft. You'll notice this when you request boarding through the GSX menu but nothing appears to happen in the EFB just yet.
 - Due to limitations with events emitted by GSX, cargo/baggage loading is less granular and the aircraft own's weight systems will load in large chunks rather than much more fine grained steps.
 - The aircraft's own boarding sounds are disabled as GSX has it's own sound profile for boarding/deboarding.
 - Once boarding has started you can no longer, edit the fields in the payload screen
