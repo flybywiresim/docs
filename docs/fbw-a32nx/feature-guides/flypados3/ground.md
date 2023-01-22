@@ -102,6 +102,27 @@ Set this setting to the desired duration of refueling. Either instant refueling 
 
 After starting the engines only "Instant" is available. 
 
+### GSX Integration
+
+!!! danger ""
+    This feature is only available in [experimental](../../support/exp.md)
+
+!!! warning ""
+    You must enable [Fuel Sync](settings.md#3rd-party-options)
+
+#### Caveats
+- GSX acts as a visual indicator, the actual fueling is managed by the aircraft's own systems. This allows you the freedom of [various fueling times](#realism-settings-for-fuel-time).
+
+#### Usage
+1. Fueling
+      - The "play" button is disabled until the fuel truck has arrived and the hose is connected
+      - Select `Request Fueling` from the GSX Menu
+      - Wait for the fuel truck to arrive and connect the fuel hose.
+      - Set the [fuel quantity](#fuel-and-de-fuel) that you desire and press the "play" button.
+      - You can witness outside as the fuel truck begins to re-fuel your aircraft
+2. De-fueling
+     - Due to limitations with GSX, this is not supported, disable [Fuel Sync](settings.md#3rd-party-options) temporarily, to defuel.
+
 ## Payload Page
 
 The Payload page allows setting up the payload of the aircraft, board and de-board passengers and load cargo. 
@@ -188,6 +209,32 @@ The current cabin and cargo area layout of the A32NX consists of:
     - Aft Baggage
     - Aft Bulk Loose
 
+### GSX Integration
+
+!!! danger ""
+    This feature is only available in [experimental](../../support/exp.md)
+
+!!! warning ""
+    You must enable [Payload Sync](settings.md#3rd-party-options) in order for this to function.
+
+#### Caveats
+- You won't witness passengers boarding the aircraft until physical passengers from GSX enter the aircraft. You'll notice this when you request boarding through the GSX menu but nothing appears to happen in the EFB just yet.
+- Due to limitations with events emitted by GSX, cargo/baggage loading is less granular and the aircraft own's weight systems will load in large chunks rather than much more fine grained steps.
+- The aircraft's own boarding sounds are disabled as GSX has it's own sound profile for boarding/deboarding.
+- Once boarding has started you can no longer, edit the fields in the payload screen
+
+#### Usage
+1. Boarding
+      - Load the aircraft as per normal following the instructions defined in, [Setting Up Payload](#setting-up-payload).
+      - Before proceeding, ensure you've set *everything*  to your preferences, this is a point of no return. 
+      - Select `Request Boarding` from the GSX Menu.
+      - The payload page will now enter a disabled state, where you can no longer modify anything until *after* deboarding has completed.
+      - Continue with your pre-flight setup and/or observe on the payload page as the aircraft is boarded with passengers and cargo.
+
+2. Deboarding
+      - Once you've arrived at the gate, as per normal, Select `Request De-Boarding` from the GSX Menu.
+      - Observe on the payload page the aircraft is deboarded and cargo removed.
+      - Once the deboarding is complete, the payload page should once again become editable.
 ## Pushback
 
 {--

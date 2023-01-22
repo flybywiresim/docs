@@ -15,6 +15,11 @@ Currently experimental is geared toward testing the initial version of VNAV with
 
 ## Implemented Features for Testing
 
+### GSX Integration
+We are testing GSX's own systems integrating with the A32NX's own backend boarding and fueling system. See technical details in the respectinve [Github Pull Request #7695](https://github.com/flybywiresim/a32nx/pull/7695){target=new}.
+
+Documentation on usage and caveats can be found in the [FlypadOS3 Ground Documentation](../feature-guides/flypados3/ground.md)
+
 ### RMP Navigation Tuning
 
 We are testing the ability for the radio management panel to tune navigational aids. See technical details in the respective [GitHub Pull Request #7241](https://github.
