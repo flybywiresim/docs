@@ -105,7 +105,7 @@ After starting the engines only "Instant" is available.
 ### GSX Integration
 
 !!! danger ""
-    This feature is only available in experimental
+    This feature is only available in [experimental](../../support/exp.md)
 
 !!! warning ""
     You must enable [Fuel Sync](settings.md#3rd-party-options)
@@ -212,7 +212,7 @@ The current cabin and cargo area layout of the A32NX consists of:
 ### GSX Integration
 
 !!! danger ""
-    This feature is only available in experimental
+    This feature is only available in [experimental](../../support/exp.md)
 
 !!! warning ""
     You must enable [Payload Sync](settings.md#3rd-party-options) in order for this to function.
