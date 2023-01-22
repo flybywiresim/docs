@@ -104,6 +104,9 @@ After starting the engines only "Instant" is available.
 
 ### GSX Integration
 
+!!! danger ""
+    This feature is only available in experimental
+
 !!! warning ""
     You must enable [Fuel Sync](settings.md#3rd-party-options)
 
@@ -207,6 +210,9 @@ The current cabin and cargo area layout of the A32NX consists of:
     - Aft Bulk Loose
 
 ### GSX Integration
+
+!!! danger ""
+    This feature is only available in experimental
 
 !!! warning ""
     You must enable [Payload Sync](settings.md#3rd-party-options) in order for this to function.

@@ -220,7 +220,6 @@ Settings for realism aspects of the A32NX aircraft.
 ## 3rd Party Options
 
 Settings for integrations with various 3rd party applications
-// TODO Add an image here 
 <div style="position: relative;">
     <img src="/fbw-a32nx/assets/flypados3/flypad-settings-third-party-options.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  3.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
@@ -235,6 +234,10 @@ Settings for integrations with various 3rd party applications
     <a href="../settings/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 85.0%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Settings</span></div></a>
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
+
+!!! danger ""
+    This feature is only available in experimental
+
 #### GSX Integration
 These options are seperate to provide you with the flexiblity to choose what to sync with GSX and what not to sync. 
 
