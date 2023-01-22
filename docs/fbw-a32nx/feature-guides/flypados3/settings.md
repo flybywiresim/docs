@@ -236,7 +236,7 @@ Settings for integrations with various 3rd party applications
 </div>
 
 !!! danger ""
-    This feature is only available in experimental
+    This feature is only available in [experimental](../../support/exp.md)
 
 #### GSX Integration
 These options are seperate to provide you with the flexiblity to choose what to sync with GSX and what not to sync. 
