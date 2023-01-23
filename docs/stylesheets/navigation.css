@@ -27,6 +27,10 @@
     color: white !important;
 }
 
+.md-nav__title {
+    color: white !important;
+}
+
 /*Announcement Bar*/
 .md-banner {
     background-color: var(--md-footer-bg-color--dark);
