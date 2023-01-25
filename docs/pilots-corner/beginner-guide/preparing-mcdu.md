@@ -275,7 +275,6 @@ Our flight plan should now have the associated waypoints for the `BCN1A` SID. We
     - Type in `OKTEM` so it's visible in the scratchpad.
     - Use `LSK3R` to enter `OKTEM` as the next waypoint on your flight plan.
 
-
 ^^Planning the Arrival^^
 
 For the purposes of this guide we will pre-plan our arrival into EGCC via the `OKTEM1M` STAR into 23R.
