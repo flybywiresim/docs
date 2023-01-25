@@ -1,7 +1,7 @@
 # Reported Known Issues
 
 <link rel="stylesheet" href="/stylesheets/toc-tables.css">
-!!! error  "STOP - Read this First"
+!!! danger  "STOP - Read this First"
 
     Please try and remove all other mods/liveries from the community folder and test our add-on again. This will help rule out conflicts.
 
@@ -872,7 +872,7 @@ Please try these before reporting any other issue on Discord.
 ??? tip "Test With Only the A32NX Add-on in Community"
     ### Test With Only the A32NX Add-on in Community
 
-    !!! error "**This is the most important troubleshooting step for Microsoft Flight Simulator!!**"
+    !!! danger "**This is the most important troubleshooting step for Microsoft Flight Simulator!!**"
 
     To make sure the issue you are experiencing is not caused by a conflict with other add-ons or liveries 
     ***remove everything (really everything!) from your [Community Folder](#community-folder-content)** and perform 

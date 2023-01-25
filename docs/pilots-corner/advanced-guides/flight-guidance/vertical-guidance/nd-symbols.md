@@ -1,10 +1,3 @@
----
-tags:
-    - VNAV
-hide:
-    - tags
----
-
 # Vertical Guidance Symbols
 
 |                                       Pseudo Waypoint                                        | Definition                                                 | Conditions / Additional Info                                                                                                                                                       |

@@ -1,8 +1,7 @@
-mkdocs-material==8.5.10
+mkdocs-material==9.0.6
 mkdocs-awesome-pages-plugin
 mkdocs-git-revision-date-localized-plugin
 mkdocs-redirects
-mkdocs-exclude-search
 mkdocs-embed-external-markdown
 mkdocs-video
 mkdocs-glightbox

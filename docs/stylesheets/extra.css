@@ -13,6 +13,14 @@
   --md-default-bg-color: rgb(23,30,44);
 }
 
+/*Search Function Modification*/
+/* Clamps search results to 5 lines to bypass large blocks of texts in the search results for pages containing large amounts of Markdown table data*/
+.md-search-result .md-typeset {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+
 /*Header Modifications*/
 .md-typeset h1 {
   color: #00E0FE;

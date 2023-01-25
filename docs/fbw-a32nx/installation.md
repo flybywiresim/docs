@@ -2,8 +2,6 @@
 
 Please follow the information on this page to install the FlyByWire Simulations A32NX addon for Microsoft Flight Simulator 2020
 
-*Last Update: {{git_revision_date_localized}}*
-
 !!! warning "Important Notice"
 
     All FlyByWire Simulations A32NX versions are now independent from the default A320neo.
