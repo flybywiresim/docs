@@ -239,6 +239,42 @@ Our flight plan should now have the associated waypoints for the `BCN1A` SID. We
 
 ![mcdu10](../assets/beginner-guide/mcdu/mcdu10.png){loading=lazy}
 
+#### DCT Before a Waypoint
+
+!!! warning ""
+    There will be cases where your flight plan has waypoints and no airways or a mix of both. When you go direct from one waypoint to another it will usually look like the following: `WAYPOINT DCT 
+    WAYPOINT`. You might also see directs represented as two waypoints without a separator, which looks like `WAYPOINT WAYPOINT`.
+
+    Let's look at an example and understand how to program these into the MCDU. (*Please note this is not applicable to the sample flight plan in this guide and we plan to create a more 
+    advanced flight plan entry guide at a later time.*)
+
+    Below is the current flight plan we are utilizing:
+
+    ```title="Current Sample Flight Plan"
+    EGFF/30 BCN1A BCN N864 OKTEM OKTEM1M EGCC/23R
+    ```
+
+    Let's imagine for this example that there was no airway between `BCN` and `OKTEM`. The flight plan would look like the following:
+
+    ```title="Example NO AIRWAY Flight Plan"
+    EGFF/30 BCN1A BCN DCT OKTEM OKTEM1M EGCC/23R
+    ```
+
+    !!! note ""
+        The airway `N864` was replaced with `DCT` indicating from waypoint `BCN` proceed direct to `OKTEM`.
+
+    When you encounter this type of routing, there are a couple of ways to input this leg without the use of the airways page on the MCDU.
+
+    One of the easiest ways is utilizing the lateral revision page. To do this simply find the starting waypoint on your F-PLN page, which in this case is `BCN`.
+
+    - Use the relevant LSK to select it. 
+    - You will then be on the following page:
+
+        ![lat-rev-fpln.png](../assets/beginner-guide/mcdu/mcdu-latrev.png){loading=lazy width=50%}
+
+    - Type in `OKTEM` so it's visible in the scratchpad.
+    - Use `LSK3R` to enter `OKTEM` as the next waypoint on your flight plan.
+
 ^^Planning the Arrival^^
 
 For the purposes of this guide we will pre-plan our arrival into EGCC via the `OKTEM1M` STAR into 23R.
