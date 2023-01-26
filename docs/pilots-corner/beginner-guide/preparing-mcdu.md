@@ -242,13 +242,13 @@ Our flight plan should now have the associated waypoints for the `BCN1A` SID. We
 #### DCT Before a Waypoint
 
 !!! warning ""
-    There will be cases where your flight plan have waypoints and no airways or a mix of both. When you go direct from one airway to another it will usually look like the following: `WAYPOINT DCT 
+    There will be cases where your flight plan has waypoints and no airways or a mix of both. When you go direct from one airway to another it will usually look like the following: `WAYPOINT DCT 
     WAYPOINT`. 
 
     Let's look at an example and understand how program these into the MCDU. (*Please note this is not applicable to the sample flight plan in this guide and we plan to create a more 
     advanced flight plan entry guide at a later time.*)
 
-    Below is the currently flight plan we are utilizing:
+    Below is the current flight plan we are utilizing:
 
     ```title="Current Sample Flight Plan"
     EGFF/30 BCN1A BCN N864 OKTEM OKTEM1M EGCC/23R
@@ -261,7 +261,7 @@ Our flight plan should now have the associated waypoints for the `BCN1A` SID. We
     ```
 
     !!! note ""
-        The airway `N864` was replaced with `DCT` indicating from waypoint `BCN` proceed direct to `OKTEM`.
+        The airway `N864` was replaced with `DCT` indicating from waypoint `BCN` proceeds direct to `OKTEM`.
 
     When you encounter this type of routing there are a couple of ways to input this without the use of the airways page on the MCDU.
 
