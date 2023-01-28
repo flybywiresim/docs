@@ -704,17 +704,6 @@ reporting any other issue on Discord.
     We highly suggest learning how to start the engines manually by reading our beginner guide. 
     [Beginner Guide - Engine Start Section](../../pilots-corner/beginner-guide/engine-start-taxi.md#engine-start).
 
-
-??? tip "Can't Push or Pull Knobs, Controls Highlighted Yellow or Blue"
-    ### Can't Push or Pull Knobs, Controls HIghlighted Yellow or Blue
-
-    !!! tip ""
-        *Affected versions: Stable, Development*
-
-    ^^Description^^
-
-    You pro
-
 ??? tip "flyPad EFB Missing in Cockpit"
     ### flyPad EFB Missing in Cockpit
 
@@ -936,9 +925,7 @@ Please try these before reporting any other issue on Discord.
 
     ^^Description^^
 
-    Switches, knobs and dials can't be used with simple mouse clicks as before.
-
-    Controls appear highlighted in color (mostly blue) when the mouse hovers over them.
+    Switches, knobs and dials can't be used with simple mouse clicks as before. (Can't push or pull knobs).
 
     ^^Root Cause^^
 
