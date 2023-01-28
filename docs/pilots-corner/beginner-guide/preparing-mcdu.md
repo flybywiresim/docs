@@ -390,12 +390,6 @@ Now we can add our fuel on board (FOB). The amount we input in this field can be
 
     Via the EFB - [Learn How](../../fbw-a32nx/feature-guides/flypados3/dispatch.md#fuel-page)
 
-    !!! warning "Fuel Planning - MCDU"
-
-        The *fuel planning* feature on the MCDU should only be used as a reference point bbefore fueling the aircraft using the EFB. 
-
-        Generating / using the vlue provided by this feature may not be accurate and does not actually load fuel into the aircraft.
-
 ^^ECAM FOB^^
 
 Look at the upper ECAM and note the FOB indicated. Let's say that amount is `3091 KG`. When inputting the block fuel into the MCDU it is referenced in "Tons" and we should round to the closest decimal point.
@@ -403,6 +397,12 @@ Look at the upper ECAM and note the FOB indicated. Let's say that amount is `309
 * Using the keypad type in `3.1` and press LSK2R.
 
 ^^MCDU Planning^^
+
+!!! warning "A Note on Fuel Planning"
+
+    The *fuel planning* feature on the MCDU should only be used as a reference point before fueling the aircraft using the EFB. 
+
+    Generating / using the value provided by this feature may not be accurate and does not actually load fuel into the aircraft.
 
 We can choose to have the MCDU provide a recommended amount of fuel for the planned flight.
 
