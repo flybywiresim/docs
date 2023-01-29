@@ -398,6 +398,12 @@ Look at the upper ECAM and note the FOB indicated. Let's say that amount is `309
 
 ^^MCDU Planning^^
 
+!!! warning "A Note on Fuel Planning"
+
+    The *fuel planning* feature on the MCDU should only be used as a reference point before fueling the aircraft using the EFB. 
+
+    Generating / using the value provided by this feature may not be accurate and does not actually load fuel into the aircraft.
+
 We can choose to have the MCDU provide a recommended amount of fuel for the planned flight.
 
 * Press LSK3R to compute an amount of fuel.
@@ -405,14 +411,14 @@ We can choose to have the MCDU provide a recommended amount of fuel for the plan
 The `Block` field will be populated with a calculated fuel amount.
 
 * Press LSK3R again to confirm the fuel.
-* We should load this amount of fuel via the EFB or AOC option.
+* We should load this amount of fuel via the EFB.
 
 ^^SimBrief OFP^^
 
 We can use the planned block fuel stated on the OFP which in this case is `3091 KG`.
 
 * Using the keypad type in `3.1` and press LSK2R
-* We should load this amount of fuel via the EFB or AOC option.
+* We should load this amount of fuel via the EFB option.
 
 ![mcdu16](../assets/beginner-guide/mcdu/mcdu16.png){loading=lazy}
 
