@@ -261,6 +261,15 @@ Our implementation of TCAS supports the following networks:
 
 ### Known Issues
 
+- Broken support for FSLTL Traffic (sim issue)
+    - FSLTL traffic is not visible to TCAS but auditory warnings are still played
+    !!! info "Root Cause for FSLTL + TCAS Issues"
+        Unfortunately this is an issue with how injected traffic uses certain APIs from MSFS. Asobo seems to be aware of the issue and you can track it on the dev support 
+        forum link below:
+
+        [AI aircraft generated airborne do not get returned with the GET_AIR_TRAFFIC Coherent call](https://devsupport.flightsimulator.
+        com/questions/12949/ai-aircraft-generated-airborne-do-not-get-returned.html)
+  
 - No support for offline AI traffic (sim limitation)
 - No support of multiplayer (MSFS) traffic (sim limitation)
 - Possible false detection of ground traffic
