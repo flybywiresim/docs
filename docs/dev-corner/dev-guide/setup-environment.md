@@ -80,12 +80,12 @@ To create your symlink, open your command terminal and run the below command, su
     Make sure you remove any existing copy of the aircraft from your community folder before doing this.
 
 ```
-mklink /J [MSFS Community folder/flybywire-aircraft-a320-neo] [Project folder path]
+mklink /J [MSFS Community folder\flybywire-aircraft-a320-neo] [Project folder path\fbw-a32nx\out\flybywire-aircraft-a320-neo]
 ```
 
 Example:
 ```
-mklink /J C:\Users\USERNAME\AppData\Local\Packages\Microsoft.FlightSimulator_8wekyb3d8bbwe\Community\flybywire-aircraft-a320-neo C:\Users\USERNAME\IdeaProjects\a32nx\flybywire-aircraft-a320-neo
+mklink /J C:\Users\USERNAME\AppData\Local\Packages\Microsoft.FlightSimulator_8wekyb3d8bbwe\Community\flybywire-aircraft-a320-neo C:\Users\USERNAME\IdeaProjects\a32nx\fbw-a32nx\out\flybywire-aircraft-a320-neo
 ```
 
 If this works, you'll receive the response:
