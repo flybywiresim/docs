@@ -29,7 +29,7 @@ conduct a few tests as described below without submitting any reports to GitHub!
 
 Send an application message and your test reports to the [Contact(s)](#contacts) at the bottom of this page via DM and the QA leaders will decide if you are eligible for a QA Trainee role (provided there are open positions).
 
-!!! attention ""
+!!! warning ""
     **Please do not submit reports to GitHub without having a QA Discord role.**
 
 ## What to Test
@@ -67,7 +67,7 @@ How to download the PR for QA
 
 5. Unzip the file and place the "flybywire-aircraft-a320-neo" folder into your Community.
 
-!!! attention "PR Builds only for FlyByWire QA Team"
+!!! info "PR Builds only for FlyByWire QA Team"
     The PR builds are only meant for QA testing and not for daily use. Outside of the FlyByWire QA Team we do not provide any support or answer any questions in regards to these builds.
 
 ## How to Test
