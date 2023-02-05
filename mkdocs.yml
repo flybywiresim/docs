@@ -38,7 +38,7 @@ plugins:
   search:
     lang: en
   # Comment out the plugin below if building docs without an internet connection.
-#  external-markdown: {}
+  external-markdown: {}
   awesome-pages: {}
   tags: {}
   git-revision-date-localized:
