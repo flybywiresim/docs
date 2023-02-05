@@ -16,7 +16,7 @@ The A320 is fitted with a weather radar system which includes a Predictive Winds
 
 The weather radar data can be displayed on the NDs in ARC or ROSE mode.
 
-!!! attention ""
+!!! info ""
     In Microsoft Flight Simulator the system is limited by what the simulator provides which currently is only precipitation.
 
 ## Usage
@@ -32,7 +32,7 @@ The weather radar data can be displayed on the NDs in ARC or ROSE mode.
 
 - This knob adjusts the sensitivity of the radar.
 
-!!! attention ""
+!!! info ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### MODE - Display mode selector
@@ -48,14 +48,14 @@ The weather radar data can be displayed on the NDs in ARC or ROSE mode.
 - MAP:
     - Map mode: No weather display but ground information: Black for water, green for ground, and amber for cities and mountains.
 
-!!! attention ""
+!!! info ""
     Weather is not available in the Stable version. We are awaiting Asobo API implementation. See [Custom FMS Special Notes](../../../../fbw-a32nx/feature-guides/cFMS.md#special-notes)
 
 ###  TILT
 
 This allows tilting the radar antenna when MULTISCAN is MAN. Zero uses the horizon reference from the IRS.
 
-!!! attention ""
+!!! info ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### MULTISCAN
@@ -65,7 +65,7 @@ This allows tilting the radar antenna when MULTISCAN is MAN. Zero uses the horiz
 - MAN:
     - Manually adjust radar antenna tilt using the TILT knob.
 
-!!! attention ""
+!!! info ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### GCS (Ground Clutter Suppression)
@@ -76,7 +76,7 @@ This allows tilting the radar antenna when MULTISCAN is MAN. Zero uses the horiz
 - OFF:
     - Ground clutter is visible.
 
-!!! attention ""
+!!! info ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### PWS
@@ -86,7 +86,7 @@ This allows tilting the radar antenna when MULTISCAN is MAN. Zero uses the horiz
 - OFF:
     - The Predictive WindShear function is off.
 
-!!! attention ""
+!!! info ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ---

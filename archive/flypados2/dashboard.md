@@ -68,7 +68,7 @@ If you have [configured](settings.md) your simBrief account correctly, you can c
 
     Distance measurement tools.
 
-    !!! attention ""
+    !!! info ""
         Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### After loading of a simBrief flight plan

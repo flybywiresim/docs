@@ -51,7 +51,7 @@ Both engines can be fed from one side or both sides can feed only one engine.
 - FAULT:
     - Amber light and ECAM caution appear, when the left or right wing tank has less than 5000 kg (11000 lb) and center tank has more than 250 kg (550 lb).
 
-!!! attention ""
+!!! info ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### CTR TK PUMP 1 + 2

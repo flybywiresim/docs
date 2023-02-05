@@ -56,7 +56,7 @@ The XPDR is capable of elementary surveillance (ELS) and enhanced surveillance (
 
 This switch selects XPDR 1 or 2.
 
-!!! attention ""
+!!! info ""
     Currently only 1 is available in the FBW A32NX for Microsoft Flight Simulator.
 
 ### ALT RPTG Switch

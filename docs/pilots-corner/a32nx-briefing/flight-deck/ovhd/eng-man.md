@@ -10,12 +10,12 @@
 
 ## Usage
 
-!!! attention ""
+!!! info ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### ENG MAN START
 
-!!! attention ""
+!!! info ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 - ON:
@@ -29,7 +29,7 @@
 
 ### ENG N1 MODE
 
-!!! attention ""
+!!! info ""
     These buttons do not exist in an A320neo with LEAP or PW1100 engines. They are exclusively for the CEO IAE V2500 engines. As these buttons are part of Asobo's Default A320 3D model they are still visible and can't be removed at this time.
 
     They are INOP in the FlyByWire A32NX. 

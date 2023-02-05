@@ -22,10 +22,10 @@ Doing so takes away the third occupant's access to the acoustic equipment. AUDIO
 
 If set to CAPT 3 or F/O 3 the corresponding pilot uses his acoustic equipment and the third ACP.
 
-!!! attention ""
+!!! info ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
-!!! attention ""
+!!! info ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ---

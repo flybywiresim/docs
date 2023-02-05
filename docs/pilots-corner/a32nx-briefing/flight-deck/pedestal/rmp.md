@@ -63,7 +63,7 @@ Turning these knobs selects the STBY frequency or CRS.
 
 Used to select AM mode if the aircraft has a VH transceiver.
 
-!!! attention ""
+!!! info ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### SEL indicator
@@ -78,7 +78,7 @@ The SEL indicator glows white on both RMPs when a transceiver normally associate
 
 This is used as a backup to select navigation aids and coursed via the RMP.
 
-!!! attention ""
+!!! info ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### Radio navigation selection keys
@@ -98,7 +98,7 @@ Power supply to the RMP.
 
 ![RMP Transmission Keys](../../../assets/a32nx-briefing/pedestal/RMP-transmission-keys.png)
 
-!!! attention ""
+!!! info ""
     Currently only the VHF1-3 channels are available in the FBW A32NX for Microsoft Flight Simulator.
 
 - Pressed:
@@ -118,7 +118,7 @@ Power supply to the RMP.
 
 ![Reception Knobs](../../../assets/a32nx-briefing/pedestal/RMP-receiption-knobs-2.png "Reception Knobs")
 
-!!! attention ""
+!!! info ""
     Currently only the VHF2-3 channels are available for selection in the FBW A32NX for Microsoft Flight Simulator. VHF1 is always selected although not lit.
 
 These knobs are used to allow the flight crew to activate a channel for reception and to adjust volume.
@@ -130,35 +130,35 @@ These knobs are used to allow the flight crew to activate a channel for receptio
 
 Extinguishes CALL, MECH, and ATT lights.
 
-!!! attention ""
+!!! info ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### VOICE
 
 Inhibit the audio navigation signals (VOR, ADF) and filters out ident signals and turns on the green ON light.
 
-!!! attention ""
+!!! info ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### INT/RAD
 
 Press-to-talk switch for boom mike or oxygen mask mike.
 
-!!! attention ""
+!!! info ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### PA (Passenger Address)
 
 Passenger Address is used by the flight personnel to make passenger announcements through loudspeakers in the cabin.
 
-!!! attention ""
+!!! info ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 #### PA transmission key
 
 Pressed and held: To make an announcement a boom, mask or hand mike is used
 
-!!! attention ""
+!!! info ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 #### PA reception knob
@@ -168,7 +168,7 @@ Pressed and held: To make an announcement a boom, mask or hand mike is used
 - Pressed (knob in):
     - The PA system is disconnected. The white light goes out.
 
-!!! attention ""
+!!! info ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ---

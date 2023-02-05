@@ -60,7 +60,7 @@ Note: When alternating between "RUN" and "STP" a cumulative elapsed time can be 
 
 Note: In order to select the date mode, the UTC selector must be set on "GPS" or "INT" position.
 
-!!! attention ""
+!!! info ""
     In the FlyByWire A32NX the Date Set button must be held to show date. It switches back to time when released.
 
 ---

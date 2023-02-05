@@ -16,7 +16,7 @@ An audio alert starts and a distress signal is transmitted for search and rescue
 
 An additional handheld ELT is usually mounted in the cockpit wardrobe.
 
-!!! attention ""
+!!! info ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ---

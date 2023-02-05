@@ -13,7 +13,7 @@ PAGE 1 is dedicated to navigation systems and corresponding sub pages.
 
 PAGE 2 is dedicated to navigation data that is entered or stored in the FMGS.
 
-!!! attention ""
+!!! info ""
     This section will not cover all DATA INDEX pages as most are not useful in a simulation or not 
     implemented yet in the FlyByWire A32NX.
 
@@ -141,7 +141,7 @@ Automatically displayed this page at power up.  Pilots may also call it up by pr
     - Validity period in small font.
     - A press to the 3L key switches to the second database as the active database.
 
-    !!! attention ""
+    !!! info ""
         Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 - CHG CODE (5L)
@@ -150,7 +150,7 @@ Automatically displayed this page at power up.  Pilots may also call it up by pr
     - Label is displayed in small white font.
     - The brackets, or the entered value, is displayed in large blue font.
 
-    !!! attention ""
+    !!! info ""
         Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 - IDLE/PERF (6L)
@@ -166,13 +166,13 @@ Automatically displayed this page at power up.  Pilots may also call it up by pr
         - PRESS the (6L) key to insert the new IDLE and/or PERF factor.
         - The new IDLE and/or PERF factors are displayed in large blue font.
 
-    !!! attention ""
+    !!! info ""
         Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 - STATUS/XLOAD (6R)
     - Calls up the P/N STATUS and P/N XLOAD pages.
 
-    !!! attention ""
+    !!! info ""
         Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### CLOSEST AIRPORTS 1
@@ -210,7 +210,7 @@ Page 1 displays the bearing, distance, and time to go to each airport.
 
 Page 2 displays the EFOB and allows the crew to enter an effective wind to be flown to each airport.
 
-!!! attention ""
+!!! info ""
     Currently not fully available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 - AIRPORTS (1-5)
@@ -234,7 +234,7 @@ Page 2 displays the EFOB and allows the crew to enter an effective wind to be fl
 These keys call up details of waypoints, NAVAIDs, runways, and routes
 stored in the database.
 
-!!! attention ""
+!!! info ""
     Currently not all of these are available in the FBW A32NX for Microsoft Flight Simulator.
 
 - STORED WAYPOINTS (1R)
@@ -248,6 +248,6 @@ These keys call up waypoints, NAVAIDs, runways, and routes that the pilot has st
 or delete them from, the database. The airline can choose to have all pilot-stored data automatically erased in the 
 done phase.
 
-!!! attention ""
+!!! info ""
     Currently not all of these are available in the FBW A32NX for Microsoft Flight Simulator.
 
