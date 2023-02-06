@@ -8,7 +8,7 @@
 
 !!! warning ""
 
-    Please note, the ADIR 1, 2 and 3 labels are incorrect. They should state ADIR 1, 2 and 3.
+    Please note: Currently the ADIRS are labeled ADIR 1, 3 and 2 which is incorrect. They should be labeled ADIR 1, 2 and 3. This will be fixed in a future update.
 
 ![ADIRS Panel](../../../assets/a32nx-briefing/overhead-panel/ADIRS.jpg "ADIRS Panel")
 
