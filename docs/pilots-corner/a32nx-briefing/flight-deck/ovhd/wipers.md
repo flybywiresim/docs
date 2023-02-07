@@ -31,7 +31,7 @@ Each windshield is provided with two-speed electric wipers that are controlled b
 - When the button is pushed, the timer applies a measured quantity of rain repellent to the applicable windshield. To repeat the cycle, the push button must be pushed again.
 - This function is inhibited when the aircraft is on the ground and the engines are not running.
 
-!!! attention ""
+!!! info ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ---

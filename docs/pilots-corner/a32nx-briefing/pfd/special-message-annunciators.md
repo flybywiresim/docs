@@ -69,7 +69,7 @@ Displayed in white when the aircraft is in engine out mode and the speed target 
 - Less than or equal to the green dot speed minus 10kts or
 - Greater than or equal to the green dot speed plus 10kts (except when the aircraft is in ALT\* mode or ALT mode).
 
-!!! attention ""
+!!! info ""
     Currently not available for the FBW A32NX for Microsoft Flight Simulator
 
 ### SET HOLD SPD
@@ -80,7 +80,7 @@ Displayed in white when the aircraft is in selected speed control, a holding pat
 
 Displayed in white if the thrust is not reduced when the aircraft is passing the top of descent point, and the aircraft is above the descent profile.
 
-!!! attention ""
+!!! info ""
     Currently not available for the FBW A32NX for Microsoft Flight Simulator
 
 ### MORE DRAG
@@ -90,7 +90,7 @@ Displayed in white when descent mode is engaged, idle is selected, and:
 - Either the aircraft is above the vertical profile and the predicted intercept point of the profile is at less than 2 nautical miles away from the next altitude constraint or
 - In auto speed control and the aircraft enters a speedbrake decelerating segment.
 
-!!! attention ""
+!!! info ""
     Currently not available for the FBW A32NX for Microsoft Flight Simulator
 
 ### VERT DISCON AHEAD
@@ -100,7 +100,7 @@ Displayed in amber text. Displays when descent mode is engaged and:
 - A vertical path too steep exists on the next leg .
 - The aircraft is less than 30 seconds from a path that is too steep.
 
-!!! attention ""
+!!! info ""
     Currently not available for the FBW A32NX for Microsoft Flight Simulator
 
 ---
@@ -123,7 +123,7 @@ Displayed in green when roll out mode is engaged.
 
 Displayed in green when APP NAV and Final modes are engaged during a non ILS approach.
 
-!!! attention ""
+!!! info ""
     Currently not available for the FBW A32NX for Microsoft Flight Simulator
 
 ---

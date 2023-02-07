@@ -30,17 +30,17 @@ displays this page at power up.
         - Shows the DATALINK STATUS page with information about the state of the various data link options.   
     - COMM MENU
   
-        !!! attention ""
+        !!! info ""
             Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
  
 - AIDS (3L)
 
-    !!! attention ""
+    !!! info ""
         Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 - CFDS (4L)
 
-    !!! attention ""
+    !!! info ""
         Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 - NAV B/UP (1R)
@@ -48,7 +48,7 @@ displays this page at power up.
       monitor the navigation and to be provided with some basic flight planning functions in case of FM 1 +
       2 failure.
     
-    !!! attention ""
+    !!! info ""
         Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### AOC MENU Page
@@ -66,12 +66,12 @@ displays this page at power up.
     - Shows list of sent messages (Free Text).
 - DIVERSION (5R)
 
-    !!! attention ""
+    !!! info ""
         Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 - MISC (6R)
 
-    !!! attention ""
+    !!! info ""
         Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### INIT/PRES Page

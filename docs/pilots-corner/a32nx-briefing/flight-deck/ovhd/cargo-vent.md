@@ -25,7 +25,7 @@ The switch controls the aft isolation valves and the extraction fan.
 - FAULT Lt:
     - Amber light and ECAM caution when inlet or outlet valve is not in the selected position.
 
-!!! attention ""
+!!! info ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ---

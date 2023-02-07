@@ -86,7 +86,7 @@ Prompts on each PERF page:
 - UPLINK TO DATA (6L)
     - This key calls up the UPLINK TO DATA REQ page. It is only displayed in the preflight and done phases.
 
-    !!! attention ""
+    !!! info ""
         Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 - TO SHIFT (2R)
@@ -94,7 +94,7 @@ Prompts on each PERF page:
       crew should insert this value when taking off from an intersection to ensure a correct update of the FM position.
       The takeoff shift value must be positive, and cannot be greater than the runway length.
 
-    !!! attention ""
+    !!! info ""
         Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 - FLAPS/THS (3R)
@@ -133,7 +133,7 @@ Prompts on each PERF page:
       SELECTED. 
     - Pressing the 3L key in this case preselects MANAGED speed, and 4L reverts to brackets.
     
-        !!! attention ""
+        !!! info ""
             Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 - PRESEL or SELECTED (4L):
@@ -153,20 +153,20 @@ Prompts on each PERF page:
     - The flight crew cannot engage EXPEDITE from this field. It indicates the time and distance required to 
       reach the altitude displayed in the 2R field, in case of climb at green dot.
 
-    !!! attention ""
+    !!! info ""
         Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 - EO CLR (1R):
     - The system displays the EO CLR prompt in case of engine out in climb.
 
-    !!! attention ""
+    !!! info ""
         Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 - PRED TO... (2R):
     - This field displays the target altitude for the predictions shown in 3R, 4R, or 5L. It defaults to FCU 
       altitude, but the pilot can modify it to any altitude below CRZ FL.
 
-    !!! attention ""
+    !!! info ""
         Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 - (3R) (4R) (5R):
@@ -174,7 +174,7 @@ Prompts on each PERF page:
       current vertical mode and speed mode (MANAGED, SELECTED). These fields are displayed only while the 
       takeoff, or climb phase is active.
 
-    !!! attention ""
+    !!! info ""
         Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ## CRUISE
@@ -197,7 +197,7 @@ Prompts on each PERF page:
       SELECTED. 
     - Pressing the 3L key in this case preselects MANAGED speed, and 4L reverts to brackets.
 
-        !!! attention ""
+        !!! info ""
             Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 - PRESEL (4L)
@@ -212,20 +212,20 @@ Prompts on each PERF page:
     - After takeoff: Displays the predicted arrival time at destination (UTC) and the remaining fuel on board.
     - EO CLR is displayed when an engine out is detected.
 
-    !!! attention ""
+    !!! info ""
         Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 - STEP TO FL XX, DRIFT DOWN TO FLxxx, or TO T/D (2R):
     - The field, in combination with 3R, displays the predictions for the step point and the step altitude, the 
       drift down altitude, or the Top of Descent.
 
-    !!! attention ""
+    !!! info ""
         Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 - TIME/UTC and DIST (3R):
     - This field displays the time and distance to go to the various points identified (2R).
 
-    !!! attention ""
+    !!! info ""
         Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 - DES CABIN RATE (4R)
@@ -236,13 +236,13 @@ Prompts on each PERF page:
           reverts to the default value (-350 ft/min). DES CAB RATE being a negative value, 'minus” is not a 
           necessary entry.
 
-    !!! attention ""
+    !!! info ""
         Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
  
 - STEP ALTS (5R)
     - This key calls up the STEP ALTS page .
     
-    !!! attention ""
+    !!! info ""
         Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 
@@ -293,7 +293,7 @@ Prompts on each PERF page:
     - After takeoff: Displays the predicted arrival time at destination (UTC) and the remaining fuel on board.
     - EO CLR is displayed when an engine out is detected.
 
-    !!! attention ""
+    !!! info ""
         Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 - PRED TO... (2R)
@@ -301,14 +301,14 @@ Prompts on each PERF page:
     - The display defaults to the altitude selected on the FCU. The flight crew can modify it to any altitude lower 
       than present altitude.
 
-    !!! attention ""
+    !!! info ""
         Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 - (3R),(4R) or (5R)
     - These fields display time and distance predictions down to the target altitude selected in (2R), computed for the 
       current vertical mode (DES or OP DES) and the indicated speed mode (MANAGED, SELECTED).
 
-    !!! attention ""
+    !!! info ""
         Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ## APPROACH
@@ -322,7 +322,7 @@ Prompts on each PERF page:
     - \>180 NM from the destination:
         - Blue brackets are displayed
     
-        !!! attention ""
+        !!! info ""
             Currently shows amber boxes in this case in the FBW A32NX for Microsoft Flight Simulator.
   
     - <180 NM:
@@ -351,7 +351,7 @@ Prompts on each PERF page:
     - \>180 NM from the destination:
         - Blue brackets are displayed
           
-        !!! attention ""
+        !!! info ""
             Currently shows amber boxes in this case in the FBW A32NX for Microsoft Flight Simulator.
   
     - <180 NM:

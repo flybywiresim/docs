@@ -109,7 +109,7 @@ These are flags and messages displayed on the PFD. The numbers correspond to the
 
     This is displayed in red. It appears if the vertical deviation information fails, and the LS pushbutton has not been pressed. This flag replaces the V/DEV scale.
     
-    !!! attention ""
+    !!! info ""
         Currently not available for the FBW A32NX for Microsoft Flight Simulator.
 
 === "16"
@@ -140,7 +140,7 @@ These are flags and messages displayed on the PFD. The numbers correspond to the
 === "21"
     V/DEV Flag (amber)
 
-    !!! attention ""
+    !!! info ""
         Currently not available for the FBW A32nx for Microsoft Flight Simulator.
     
     This is displayed in amber. It flashes on the top of the glide scale when the aircraft is in the approach phase and when either the final mode is armed/engaged or a non ILS approach has been selected, and the LS pushbutton has been selected.
@@ -167,7 +167,7 @@ These are flags and messages displayed on the PFD. The numbers correspond to the
     
     It remains displayed at least 15 seconds after windshear detection and is associated with an aural windshear warning.
     
-    !!! attention ""
+    !!! info ""
         Currently not available for the FBW A32nx for Microsoft Flight Simulator.
 
 === "25"
@@ -177,6 +177,6 @@ These are flags and messages displayed on the PFD. The numbers correspond to the
 
     This is shown when the predictive windshear function has detected a windshear in front of the aircraft.
     
-    !!! attention ""
+    !!! info ""
         Currently not available for the FBW A32nx for Microsoft Flight Simulator.
 

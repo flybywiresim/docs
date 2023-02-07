@@ -102,7 +102,7 @@ Displayed in amber text. Displayed after autothrust disconnection (either pilot 
      - LVR CLB (If the thrust levers are below the climb detent).
      - LVR MCT ( If the thrust levers are below the FLX/MCT detent).
     
-    !!! attention ""
+    !!! info ""
         Currently not available for the FBW A32NX for Microsoft Flight Simulator
 
 ## Autobrake Description

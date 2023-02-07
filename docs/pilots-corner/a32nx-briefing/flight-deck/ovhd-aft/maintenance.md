@@ -22,7 +22,7 @@ The maintenance crew uses this pushbutton to reset the control circuit, after th
 - ON: The PASSENGER SYS ON light goes off.
 - FAULT: when the door latch solenoids are energized for more than 30s this light comes on in white.
 
-!!! attention ""
+!!! info ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### SVCE INT OVRD
@@ -30,7 +30,7 @@ The maintenance crew uses this pushbutton to reset the control circuit, after th
 - Auto: Ground personnel can communicate with the flight crew by means of the service interphone jacks 10s after the aircraft has landed. The landing gear must be compressed.
 - ON: Communication is possible when the landing gear is not compressed. The ON light is white.
 
-!!! attention ""
+!!! info ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### AVIONICS COMP LT
@@ -38,7 +38,7 @@ The maintenance crew uses this pushbutton to reset the control circuit, after th
 - AUTO: avionic compartment lighting is automatically controlled by door opening.
 - ON: avionic compartment lighting is on.
 
-!!! attention ""
+!!! info ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### BLUE PUMP OVRD (guarded)
@@ -51,7 +51,7 @@ The maintenance crew uses this pushbutton to reset the control circuit, after th
 - OFF: The corresponding electrohydraulic valve closes and shuts off hydraulic supply to the primary flight controls.
 - ON: The corresponding electrohydraulic valve opens to go back to normal hydraulic supply.
 
-!!! attention ""
+!!! info ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### APU
@@ -68,7 +68,7 @@ The maintenance crew uses this pushbutton to reset the control circuit, after th
 
 - RESET PB: When pressed, resets the test circuit.
 
-!!! attention ""
+!!! info ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### ENG FADEC GND PWR
@@ -78,7 +78,7 @@ The maintenance crew uses this pushbutton to reset the control circuit, after th
     - The ENG FIRE pb-sw is not pressed,
     - The FADEC alternator does not supply the FADEC.
 
-!!! attention ""
+!!! info ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ---
