@@ -137,7 +137,7 @@ See also [Anti Ice Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/an
 - IN FLIGHT:  
       - PUSH as required in moderate to heavy rain  
 
-!!! attention ""
+!!! info ""
     RAIN RPLNT is currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator
 
 ### Other Procedures

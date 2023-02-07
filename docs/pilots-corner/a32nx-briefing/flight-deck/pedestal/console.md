@@ -34,7 +34,7 @@ At all times, only one flight crewmember should fly the aircraft. However, if bo
 
 A flight crewmember can deactivate the other sidestick and take full control, by pressing and keeping pressed the sidestick pb. To deactivate the other sidestick, the flight crewmember must press their sidestick pb for 40s. The other sidestick is permanently deactivated, until any flight crewmember presses their sidestick pb. If both flight crew members press their sidestick pb, the last pilot to press gets the priority. If one sidestick was deactivated on ground, the CONFIG L(R) SIDESTICK FAULT alert is triggered at takeoff power application, or during the TO CONFIG test.
 
-!!! attention ""
+!!! info ""
     Sidestick priotity is currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ## Steering Handwheels (Tiller)

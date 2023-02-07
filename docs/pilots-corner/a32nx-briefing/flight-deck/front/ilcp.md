@@ -23,7 +23,7 @@ These knobs are used to turn the displays (PFD, ND) on and off, and also adjust 
 - PFD
     - If the PFD is turned off (knob turned all the way counterclockwise) the PFD image is automatically displayed on the NDU, but the pilot may recover the ND by means of the PFD-ND XFR pushbutton.
 
-    !!! attention ""
+    !!! info ""
         Currently PFD/ND XFR is not available in the FBW A32NX for Microsoft Flight Simulator.
 
 - ND
@@ -33,7 +33,7 @@ These knobs are used to turn the displays (PFD, ND) on and off, and also adjust 
 
 Exchanges the PFD and the ND. If the PFDU fails, the PFD automatically transfers to the NDU.
 
-!!! attention ""
+!!! info ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 
@@ -48,7 +48,7 @@ Adjusts the volume of the loudspeaker for radio communication.
 
 Note: Does not control the loudness of aural alert and voice messages.
 
-!!! attention ""
+!!! info ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### Console/Floor Lt.

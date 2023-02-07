@@ -94,7 +94,7 @@ If this works, you'll receive the response:
 
 Now you've compiled and symlinked your Github fork to your community folder, you should be able to load into the aircraft as normal.
 
-!!! attention ""
+!!! info ""
     Open MSFS and check everything is working with your compiled branch before progressing.
 
 ## Hello World Example

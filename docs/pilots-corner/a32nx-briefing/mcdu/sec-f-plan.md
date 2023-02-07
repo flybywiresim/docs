@@ -2,7 +2,7 @@
 
 ![SEC F-PLN](../../assets/a32nx-briefing/mcdu/mcdu-sec-f-pln-page.png)
 
-!!! attention ""
+!!! info ""
     Currently not implemented yet in the FBW A32NX for Microsoft Flight Simulator.
 
 The SEC F-PLN key on the MCDU console allows the flight crew to call up the secondary index page

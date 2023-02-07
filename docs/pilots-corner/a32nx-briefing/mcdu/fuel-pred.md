@@ -12,7 +12,7 @@ by pressing the FUEL PRED key on the MCDU.
     The flight crew can also call up this page by pressing the “→” key on the MCDU when on
     the INIT A page.
 
-!!! attention ""
+!!! info ""
     Fuel prediction in the A32NX is not yet accurate.
 
 ## Usage
@@ -71,7 +71,7 @@ by pressing the FUEL PRED key on the MCDU.
     - The flight crew can modify the FOB value in flight, or modify the
       sensors used by entering “/FF”, “/FQ” or “/FF+FQ”, as required.
 
-        !!! attention ""
+        !!! info ""
             Changing sensors is not yet supported by the A32NX. 
 
 - GW/CG (5R)

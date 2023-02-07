@@ -9,7 +9,7 @@ These NAVAIDs include: VOR, VOR/DME, TAC, VORTAC, ILS, and ADF.
 
 If either RMP is set on NAV, this page is blank on both MCDUs.
 
-!!! attention ""
+!!! info ""
     Currently RMP based NAV is not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ## Usage
@@ -40,7 +40,7 @@ If either RMP is set on NAV, this page is blank on both MCDUs.
       Otherwise, the course must be entered manually.
     - The course may be backbeam (Bxxx) or frontbeam (Fxxx).
   
-        !!! attention ""
+        !!! info ""
             Currently the backbeam format is not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 - ADF1/FREQ & FREQ/ADF2 (5L, 5R)
@@ -52,7 +52,7 @@ If either RMP is set on NAV, this page is blank on both MCDUs.
     - The flight crew presses this key once to erase the arrow and revert ADF to BFO (Beat Frequency Oscillator) mode.
     - A clear action recalls the arrow, and cancels BFO.
 
-    !!! attention ""
+    !!! info ""
         Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 !!! note 

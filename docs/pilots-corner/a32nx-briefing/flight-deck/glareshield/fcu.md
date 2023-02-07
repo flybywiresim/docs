@@ -83,7 +83,7 @@ The flight crew uses these buttons to engage or disengage the autopilots. Lights
     - If disengaged with the takeover pushbutton on the sidestick, the warnings are temporary (&#8924;3s Master Warning, &#8924;9s ECAM message "AP OFF" (red), &#8924;1.5s Cavalry Charge audio).
     - If disengaged by a failure, or by pushing the pushbutton on the FCU, or from a force on the sidestick, the visual and audio warnings are continual (ECAM message "AUTO FLT AP OFF" in red).
 
-    !!! attention ""
+    !!! info ""
         Currently no continual warnings are implemented and also no ECAM message is displayed in the FBW A32NX for Microsoft Flight Simulator when the AP is disengaged.
 
 ### A/THR pushbutton

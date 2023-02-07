@@ -97,7 +97,7 @@ the destination airport again.
 
 ## Annunciators
 
-!!! attention ""
+!!! info ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### Top
@@ -174,7 +174,7 @@ The MCDU uses small and large fonts according to the following rules:
 - Tuned Navaid: <span style="color: #00ffff">blue</span>
 - "TO" waypoint and Destination: white
 
-!!! attention ""
+!!! info ""
     Currently only Primary F-PLN is available in the FBW A32NX for Microsoft Flight Simulator.
 
 

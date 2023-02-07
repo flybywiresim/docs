@@ -29,7 +29,7 @@ When the system detects smoke in the compartment, a red light and an ECAM warnin
 
 Ignites the squib to discharge the extinguishing agent in the corresponding compartment (FWD or AFT).
 
-!!! attention ""
+!!! info ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### DISCH light
