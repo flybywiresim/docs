@@ -2,7 +2,7 @@
 
 Flight-Deck API Documentation: [Flight-Deck API](a32nx-flightdeck-api.md)
 
-In addition to the above documentation all custom variables and custom events are documented by our developers on our project's github: [:fontawesome-brands-github:{: .github } -  **Docs section on Github**](https://github.com/flybywiresim/a32nx/tree/master/docs){target=new}
+In addition to the above documentation, all custom variables and custom events are documented by our developers on our project's GitHub: [:fontawesome-brands-github:{: .github } -  **Docs section on GitHub**](https://github.com/flybywiresim/a32nx/tree/master/docs){target=new}
 
 ## Docs:
 

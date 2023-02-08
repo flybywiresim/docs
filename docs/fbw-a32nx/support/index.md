@@ -4,7 +4,7 @@
 
 Microsoft Flight Simulator 2020 is still a rather young flight simulator and many issues still need to be addressed.
 
-The FlyByWire A32NX tries to address many of these issues but it is of course also likely to have issues and bugs itself now and then.
+The FlyByWire A32NX tries to address many of these issues, but it is of course also likely to have issues and bugs itself now and then.
 
 This guide shall help you how to identify and solve these issues by guiding you through a systematic troubleshooting process. There are several sources of information you can check if you experience an issue with the FBW A32NX add-on. We will describe each of them in more detail below.
 
@@ -16,14 +16,14 @@ This guide shall help you how to identify and solve these issues by guiding you 
 | 2. [How to Troubleshoot](#2-how-to-troubleshoot)                           |
 | 3. [Research Known Issues](#3-research-known-issues)                       |
 | 4. [Report Issue on Discord](#4-report-issue-on-discord)                   |
-| 5. [Report Issue on the A32NX Github](#5-report-issue-on-the-a32nx-github) |
+| 5. [Report Issue on the A32NX GitHub](#5-report-issue-on-the-a32nx-github) |
 | 6. [Collecting Support Information](#collecting-support-information)       |
 
 ## 1. Learn How to Fly the A32NX
 
 !!! warning "IMPORTANT"
 
-The FBW A32NX aims to become a realistic simulation of a real Airbus A320neo. Accordingly as with real pilots some reading and learning is required to gain the knowledge to competently fly this aircraft even in a simulator. Our support channels are not meant to and cannot replace this learning process for you.
+The FBW A32NX aims to become a realistic simulation of a real Airbus A320neo. Accordingly, as with real pilots, some reading and learning is required to gain the knowledge to competently fly this aircraft, even in a simulator. Our support channels are not meant to and cannot replace this learning process for you.
 
 A good place to start learning to fly and operate the FlyByWire A32NX is our [Beginner Guide](../../pilots-corner/beginner-guide/overview.md).
 
@@ -33,26 +33,26 @@ Please make sure you have acquired the knowledge to distinguish a software issue
 
 ## 2. How to Troubleshoot
 
-!!! warning "Before reporting an issue on the FlyByWire Discord or on GitHub please follow this troubleshoot steps first."
+!!! warning "Before reporting an issue on the FlyByWire Discord or on GitHub, please follow this troubleshooting steps first."
 
-Please follow the steps below. If you can't reproduce the issue until the last item in the list then it is most likely NOT a FlyByWire A32NX issue.
+Please follow the steps below. If you can't reproduce the issue until the last item in the list, then it is most likely NOT a FlyByWire A32NX issue.
 
 1. Read [3. Research Known Issues](#3-research-known-issues)
 - **Make sure the issue is reproducible!**<br/>
-    Issues which happen only once can have many causes. These can usually not be investigated or fixed as they can't be reproduced by the FlyByWire team. To do so restart the sim and try to create the same situation again (e.g. same airports, route, livery, time of day, weather, etc.).
-- If the issue is reproducible do a **test in a different situation** (different airports, route, weather, etc.).
-- If the issue is still reproducible please do a **test with another aircraft** (preferably a default Microsoft Flight Simulator aircraft). If the issue is reproducible with other aircraft it is most likely **not** a FlyByWire A32NX issue. If it is not reproducible with other aircraft follow the next steps.
+    Issues which happen only once can have many causes. These usually cannot be investigated or fixed, as they can't be reproduced by the FlyByWire team. To do so, restart the sim and try to create the same situation again (e.g. same airports, route, livery, time of day, weather, etc.).
+- If the issue is reproducible, do a **test in a different situation** (different airports, route, weather, etc.).
+- If the issue is still reproducible, please do a **test with another aircraft** (preferably a default Microsoft Flight Simulator aircraft). If the issue is reproducible with other aircraft, it is most likely **not** a FlyByWire A32NX issue. If it is not reproducible with other aircraft, follow the next steps.
 - To make sure the issue you are experiencing is not caused by a conflict with other add-ons or liveries ***remove everything (really everything!) from your [Community Folder](#community-folder-content)** and perform a [clean reinstall](../installation.md#clean-install-steps) of the A32NX with the [FlyByWire Installer](https://api.flybywiresim.com/installer){target=new}.
 - Also **ensure no other 3rd party software** such as FSUIPC, SPAD.neXt, YourControls, FS2Crew, etc. **is running** while you are troubleshooting.
-- If the issue is not already known and is reproducible please** take screenshots or a video clearly showing your issue** and continue with chapter [4. Report Issue on Discord](#4-report-issue-on-discord).
+- If the issue is not already known and is reproducible, please** take screenshots or a video clearly showing your issue** and continue with chapter [4. Report Issue on Discord](#4-report-issue-on-discord).
 
-!!! warning "Please really do this as >90% of all reported issues are caused by conflicts with other mods and liveries, etc. Unfortunately Microsoft Flight Simulator 2020 is very sensitive to conflicts between mods and liveries."
+!!! warning "Please really do this as >90% of all reported issues are caused by conflicts with other mods and liveries, etc. Unfortunately, Microsoft Flight Simulator 2020 is very sensitive to conflicts between mods and liveries."
 
 ##  3. Research Known Issues
 
 Read the [Reported Issues](reported-issues.md) section - most issues users encounter are already on this list.
 
-If you have a github account please also see [Issues](https://github.com/flybywiresim/a32nx/issues){target=new} there. Please also use the search for your particular issue.
+If you have a GitHub account, please also see [Issues](https://github.com/flybywiresim/a32nx/issues){target=new} there. Please also use the search for your particular issue.
 
 Join our Discord server [:fontawesome-brands-discord:{: .discord } - **Discord Link**](https://discord.gg/flybywire){target=new} in channel #a32nx-support and do the following:
 
@@ -60,7 +60,7 @@ Join our Discord server [:fontawesome-brands-discord:{: .discord } - **Discord L
 
     ![Pinned-Messages](../assets/support-guide/Pinned-Messages.png "Pinned-Messages")
 
-- Read the Sticky Messages which is automatically posted after each message.
+- Read the Sticky Messages, which is automatically posted after each message.
 
     ![Sticky-Message](../assets/support-guide/Sticky-Message.png "Sticky-Message")
 
@@ -81,7 +81,7 @@ Please prepare the following before reporting any issues:
 - [Community Folder Content](#community-folder-content)
 - [Screenshot of Cockpit](#screenshot-of-cockpit)
 
-With this information at hand go to our Discord  [:fontawesome-brands-discord:{: .discord } - **Discord**](https://discord.gg/flybywire){target=new} **#a32nx-support** channel and
+With this information at hand, go to our Discord  [:fontawesome-brands-discord:{: .discord } - **Discord**](https://discord.gg/flybywire){target=new} **#a32nx-support** channel and
 describe your issue and respond to the questions our support team might have.
 
 !!! warning "Please do some research (see [above](#3-research-known-issues) ) before you post any questions or report any issues."
@@ -90,7 +90,7 @@ describe your issue and respond to the questions our support team might have.
 
 [:fontawesome-brands-github:{: .github } - **Issues / Feature Requests**](https://github.com/flybywiresim/a32nx/issues){target=new}
 
-Follow the issue template as best as you can. The more information you provide the easier it is for our team to understand and reproduce your issue.
+Follow the issue template as good as you can. The more information you provide, the easier it is for our team to understand and reproduce your issue.
 
 Provide at least the following so that our team can reproduce the issue:
 
@@ -107,7 +107,7 @@ Provide at least the following so that our team can reproduce the issue:
 
 The version of Microsoft Flight Simulator 2020 you are using can be found via several ways:
 
-- In the MSFS main menu you can click on your username in the upper right corner. This will display your version.
+- In the MSFS main menu, you can click on your username in the upper-right corner. This will display your version.
 
     ![MSFS Version](../assets/support-guide/MSFS-Version.jpg "MSFS Version")
 
@@ -135,7 +135,7 @@ You can determine which version of the FBW A32NX you use by looking at:
 
 #### Build Info
 
-To get the actual build number of your installed A32NX go into your Community folder and open this A32NX file with Notepad:
+To get the actual build number of your installed A32NX, go into your Community folder and open this A32NX file with Notepad:
 
 <your-Community-Folder>\flybywire-aircraft-a320-neo\build_info.json
 
@@ -152,13 +152,13 @@ This should contain something like this:
 
 ### Community Folder Content
 
-Make sure that before reporting any issues that your [Community Folder](../installation.md#community-folder) is completely empty with the exception of the FlyByWire add-on (folder name `flybywire-aircraft-a320-neo`).
+Make sure that before reporting any issues that your [Community Folder](../installation.md#community-folder) is completely empty, except for the FlyByWire add-on (folder name `flybywire-aircraft-a320-neo`).
 
 Make a screenshot of the Community Folder if requested by our support team.
 
 ### Screenshot of Cockpit
 
-Quite often when issues during flight are reported a screenshot of the Cockpit will be request by our support team. A good screenshot should contain all screens and the FCU in a sufficient resolution to help the support team to recognize details on the PFD, ND or ECAMs.
+Quite often, when issues during flight are reported, a screenshot of the Cockpit will be request by our support team. A good screenshot should contain all screens and the FCU in a sufficient resolution to help the support team to recognize details on the PFD, ND or ECAMs.
 
 #### Example
 
@@ -166,7 +166,7 @@ Quite often when issues during flight are reported a screenshot of the Cockpit w
 
 #### How to Take a Good Screenshot
 
-Position yourself in the cockpit using arrow keys (default key mapping) to look straight at the front instrument panel as in the example above and then use the Windows Snipping Tool ([Instructions Here](https://support.microsoft.com/en-us/windows/open-snipping-tool-and-take-a-screenshot-a35ac9ff-4a58-24c9-3253-f12bac9f9d44)) to take a screenshot of all screens and the FCU.
+Position yourself in the cockpit using arrow keys (default key mapping) to look straight at the front instrument panel as in the example above, and then use the Windows Snipping Tool ([Instructions Here](https://support.microsoft.com/en-us/windows/open-snipping-tool-and-take-a-screenshot-a35ac9ff-4a58-24c9-3253-f12bac9f9d44)) to take a screenshot of all screens and the FCU.
 
 ### FDR Files
 
