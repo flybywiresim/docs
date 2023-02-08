@@ -26,7 +26,7 @@ To get additional information and support, please make sure you join our Discord
 
 First get yourself the "programmer" role in [#roles](https://discord.com/channels/738864299392630914/751780817772216401/816730253543604224){target=new}.
 
-The most  general channel for getting help for development is [#dev-support](https://discord.gg/v3jAxJpwZm){target=new}.
+The most general channel for getting help for development is [#dev-support](https://discord.gg/v3jAxJpwZm){target=new}.
 
 There are many other channels for specific systems or subprojects. If you are working on the flyPad EFB for example, the #efb channel would be an important channel for collaborating and support.
 
