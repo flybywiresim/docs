@@ -46,18 +46,33 @@ This documentation takes you through all pages and functions of the flyPad EFB.
 
 ## General Usage
 
-The flyPad is organized into several pages. Links to their documentation are below.
+### Status Bar Icons
 
-To **TURN ON** and **TURN OFF** the flyPad you can either:
+![img.png](img.png)
 
-!!! block ""
-    ![flyPad On Off](../../assets/flypados3/flypad-on-off.png){loading=lazy align=left width=50%}
+From left to right:
 
-    - To turn it on or off click on the "hardware" button on the top right of the tablet.
-        - Turning it off via this "hardware" button will also reset the tablet. 
-    - To turn it on click anywhere on the screen.
-    - To turn it off (standby) click on the On-Off symbol in the top right corner.
-    - Turn off and reset the flyPad by clicking and holding the the On-Off symbol.
+- Quick Controls Button
+    - Opens the Quick Controls Menu - see below 
+- SimBridge Connection Status 
+    - Not crossed through = Connected, crossed through = Disconnected
+- Battery Status 
+    - Percent left of battery charge
+    - The battery icon will be green when battery is being charged
+
+### Quick Controls
+![img_1.png](img_1.png)
+
+#### SimBridge Connection
+
+![img_2.png](img_2.png)
+![img_3.png](img_3.png) 
+![img_4.png](img_4.png)
+![img_5.png](img_5.png)
+
+#### Hardware Button
+
+![img_6.png](img_6.png)
 
 ## Battery Life
 
