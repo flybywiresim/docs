@@ -48,31 +48,80 @@ This documentation takes you through all pages and functions of the flyPad EFB.
 
 ### Status Bar Icons
 
-![img.png](img.png)
+![img.png](../../assets/flypados3/flypad-status-bar-icons.png)
 
 From left to right:
 
 - Quick Controls Button
-    - Opens the Quick Controls Menu - see below 
+    - Opens the Quick Controls Menu - see [Quick Controls](#quick-controls) below 
 - SimBridge Connection Status 
     - Not crossed through = Connected, crossed through = Disconnected
 - Battery Status 
     - Percent left of battery charge
     - The battery icon will be green when battery is being charged
+    - See [Battery Life](#battery-life) below
 
 ### Quick Controls
-![img_1.png](img_1.png)
+![img_1.png](../../assets/flypados3/flypad-quick-controls.png){width=80% loading=lazy}
 
-#### SimBridge Connection
+Quick Controls are used to quickly access selected functionality or settings of the flyPad. The 
+Quick Controls panel can be opened by clicking on the cog wheel button in the Status Bar.
 
-![img_2.png](img_2.png)
-![img_3.png](img_3.png) 
-![img_4.png](img_4.png)
-![img_5.png](img_5.png)
+Top row - left to right:
+
+- flyPad Settings page
+    - Pressing this button will open the flyPad Settings page
+- Sleep Mode
+    - Pressing this button will put the flyPad into Sleep Mode
+- Power Off
+    - Pressing this button will turn off the flyPad
+
+Middle row - left to right:
+
+- Align ADIRS 
+    - Pressing this button will immediately align the ADIRS independent of the Realism setting.
+    - This is useful when you want to align the ADIRS quickly as an exception but don't want to change 
+      the Realism setting permanently.
+- Finish Boarding 
+    - Pressing this button will immediately finish the boarding process.
+    - This is useful when you want to finish the boarding process quickly as an exception but don't 
+    - want to change the Realism setting for boarding permanently.
+- SimBridge Connection 
+    - **SimBridge Off** 
+        - SimBridge connection is turned off. 
+        - Pressing this button will start attempting to connect to SimBridge.
+    - <span style=color:orange>SimBridge Connecting</span> 
+        - The aircraft is currently attempting to connect to SimBridge. 
+        - The aircraft will attempt to connect for 5 Minutes. If the connection is not 
+          established within this time, the connection attempts will be stopped.
+        - Pressing this button will stop the connection attempts and turn off the SimBridge connection.
+    - <span style=color:#85cc16>SimBridge Connected</span> 
+        - The Aircraft is connected to SimBridge. 
+        - Pressing this button will disconnect from SimBridge.
+    - <span style=color:red>SimBridge Not Available</span> 
+         - The aircraft has tried for 5 minutes to connect to the SimBridge but has not been able to
+           establish a connection. 
+         - Pressing this button will restart the connection attempts (again 5min).
+- OnScreen Keyboard
+    - Pressing this button will activate the OnScreen Keyboard. 
+    - The OnScreen Keyboard can be used to enter text into the flyPad and appears automatically when 
+      a text field is selected.
+
+Bottom row - left to right:
+
+- Brightness Slider 
+    - This slider controls the brightness of the flyPad if it is not set to automatic brightness.
+- Auto Brightness
+    - If auto brightness is enabled, the flyPad will automatically adjust the brightness based on the 
+      date and time of day. If auto brightness is disabled, the brightness will be set to the value 
+      selected via the brightness slider. 
 
 #### Hardware Button
 
-![img_6.png](img_6.png)
+The flyPad has a hardware button on the top right side. This button can be used to put the flyPad into
+Sleep Mode.
+
+![img_6.png](../../assets/flypados3/flypad-hardware-button.png){width=50% loading=lazy}
 
 ## Battery Life
 
