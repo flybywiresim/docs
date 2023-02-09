@@ -134,7 +134,7 @@ To do this, we simply push on the APU `MASTER SW` and `START`. The APU should be
     - Check A/C Packs are OFF before powering the aircraft
     - Set APU MASTER switch to ON
     - Press APU START 
-        - The APS3200 APU equipped on the A32NX is able to activate the start signal during it's self-test sequence after power-up, so there is no need to wait after pressing the master switch. Some A320s are equipped with a different APU that requires approximately a 3 second wait before the start button becomes operative.
+        - The APS3200 APU equipped on the A32NX is able to activate the start signal during its self-test sequence after power-up, so there is no need to wait after pressing the master switch. Some A320s are equipped with a different APU that requires approximately a 3-second wait before the start button becomes operative.
     - Wait until APU START button shows "AVAIL" (or check on lower ECAM APU page)
     - Wait 1 min (use [CHRONO](../a32nx-briefing/flight-deck/glareshield/warning.md#2-chrono) to time this)
     - Set APU BLEED to ON      
