@@ -9,7 +9,7 @@ A32NX comes with it's own developer provided `GSX.cfg`, there is no action requi
 There's a few things in the developer profile that the team felt were best to adjust to have the most seamless experience. Below you can find those alterations made.
 
 ### Entry-ways
-The follow doors were disabled as they cannot be opened on the current A32NX Model. When we release our custom model this will of course be reflected in the developer profile
+The following doors were disabled as they cannot be opened on the current A32NX Model. When we release our custom model this will of course be reflected in the developer profile.
 
 - FWD Service Door
 - AFT Cargo Door
