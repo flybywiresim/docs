@@ -21,7 +21,7 @@ This page goes over how to use the fuelling "synchronisation" as-well as any cav
 You may notice the fuel page is slightly different with the Play button being greyed out. This is because for the sake of GSX flow, you cannot begin fueling until the fuel hose is connected.
 
 1. Fueling
-      - The "play" button is disabled until the fuel truck has arrived and the hose is connected
+      - The "play" button is disabled until the fuel truck has arrived and the hose is connected.
       - Select `Request Fueling` from the GSX Menu
       - Wait for the fuel truck to arrive and connect the fuel hose.
       - Set the [fuel quantity](../flypados3/ground.md#fuel-and-de-fuel) that you desire and press the "play" button.
