@@ -14,7 +14,7 @@ This page goes over how to use payload synchronisation as-well  as any caveats y
 - You won't witness passengers boarding the aircraft until physical passengers from GSX enter the aircraft. You'll notice this when you request boarding through the GSX menu but nothing appears to happen in the EFB just yet.
 - Due to limitations with events emitted by GSX, cargo/baggage loading is less granular and the aircraft own's weight systems will load in large chunks rather than much more fine grained steps.
 - The aircraft's own boarding sounds are disabled as GSX has it's own sound profile for boarding/deboarding. This excludes passenger ambience sounds
-- Once boarding has started you can no longer, edit the fields in the payload screen.
+- Once boarding has started you can no longer edit the fields in the payload screen.
   
 ## General Usage
 ![Payload Start](../../assets/gsxintegration/gsx-payload-start.jpg)
