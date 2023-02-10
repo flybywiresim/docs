@@ -27,4 +27,4 @@ You may notice the fuel page is slightly different with the Play button being gr
       - Set the [fuel quantity](../flypados3/ground.md#fuel-and-de-fuel) that you desire and press the "play" button.
       - You can witness outside as the fuel truck begins to re-fuel your aircraft.
 2. De-fueling
-     - Due to limitations with GSX, this is not supported, disable [Fuel Sync](../flypados3/settings.md#3rd-party-options) temporarily, to defuel.
+     - Due to limitations with GSX, this is not supported. To defuel, disable [Fuel Sync](../flypados3/settings.md#3rd-party-options) temporarily.
