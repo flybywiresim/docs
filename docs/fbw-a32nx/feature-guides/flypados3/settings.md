@@ -235,14 +235,17 @@ Settings for integrations with various 3rd party applications
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
 
-!!! danger ""
-    This feature is only available in [experimental](../../support/exp.md)
+!!! warning ""
+    This feature is only availble in the [Development Version](../../fbw-versions.md#development-version-recommended) and [Experimental Version](../../fbw-versions.md#experimental-version)
 
 #### GSX Integration
 These options are seperate to provide you with the flexiblity to choose what to sync with GSX and what not to sync. 
 
 !!! warning ""
-    The aircraft comes with a GSX profile, this requires no extra action from yourself. However, it is worth mentioning due to modelling constraints, the aft cargo and passenger door have been disabled, as these cannot be opened. If you'd still like these visual indicators in GSX, feel free to re-enable them.
+    Enabling any of these options will retroactively disable the [chocks and cones](../wheel-chocks-cones.md). You cannot re-enable as long as any of these options are enabled. This is due to how GSX detects the parking brake.
+
+!!! warning "Profile provided"
+    The aircraft comes with a GSX profile, please read [here](../gsxintegration/profile.md) for more information.
 
 - GSX Payload Sync:
     - Enables to option to synchronise GSX and the aircraft's own payload management system.
