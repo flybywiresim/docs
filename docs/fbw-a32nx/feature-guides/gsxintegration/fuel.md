@@ -18,7 +18,7 @@ This page goes over how to use the fuelling "synchronisation" as-well as any cav
 ## Usage
 ![Fuel Start](../../assets/gsxintegration/gsx-fuel-start.png)
 
-You may notice the fuel page is slightly different with the Play button being greyed out. This is because for the sake of GSX flow, you cannot begin fueling until the fuel host is connected.
+You may notice the fuel page is slightly different with the Play button being greyed out. This is because for the sake of GSX flow, you cannot begin fueling until the fuel hose is connected.
 
 1. Fueling
       - The "play" button is disabled until the fuel truck has arrived and the hose is connected
