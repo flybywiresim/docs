@@ -22,7 +22,7 @@ You may notice the fuel page is slightly different with the Play button being gr
 
 1. Fueling
       - The "play" button is disabled until the fuel truck has arrived and the hose is connected.
-      - Select `Request Fueling` from the GSX Menu
+      - Select `Request Fueling` from the GSX Menu.
       - Wait for the fuel truck to arrive and connect the fuel hose.
       - Set the [fuel quantity](../flypados3/ground.md#fuel-and-de-fuel) that you desire and press the "play" button.
       - You can witness outside as the fuel truck begins to re-fuel your aircraft
