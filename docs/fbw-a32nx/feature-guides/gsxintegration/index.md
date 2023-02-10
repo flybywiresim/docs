@@ -22,7 +22,7 @@ description: A guide to the GSX Integration provided in the development version.
 
 !!! abstract "FSDreamteam: [GSX](https://www.fsdreamteam.com/products_gsxpro.html){target=new}:"
 
-    One of the most popular add-on is back with a brand new version, optimized for MSFS 2020. 
+    One of the most popular add-ons is back with a brand new version, optimized for MSFS 2020. 
     
     GSX improves all Ground Services like Pushback, Catering, Refueling, Baggage Loading and Marshalling, and adds entirely new services not available as standard, such as Visible Animated Passengers, Cargo Loading, FollowMe Cars, Towbar Pushback, De-icing, Underground Refueling, Walk-in Gates, VGDS Docking Systems and more.
 
