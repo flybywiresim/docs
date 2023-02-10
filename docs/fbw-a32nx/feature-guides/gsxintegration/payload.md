@@ -25,7 +25,7 @@ In the future when GSX API expands we aim to reduce the dependency on the GSX Me
 
 1. Boarding
       - Load the aircraft as per normal following the instructions defined in, [Setting Up Payload](../flypados3/ground.md#setting-up-payload) in the EFB.
-      - Before proceeding, ensure you've set *everything*  o your preferences, this is a point of NO return. 
+      - Before proceeding, ensure you've set *everything* to your preferences, this is the point of NO return. 
       - Select `Request Boarding` from the GSX Menu.
       - The payload page will now enter a disabled state, where you can no longer modify anything until ***after deboarding*** has completed.
       - Continue with your pre-flight setup and/or observe on the payload page as the aircraft is boarded with passengers and cargo.
