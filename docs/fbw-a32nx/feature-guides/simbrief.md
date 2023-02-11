@@ -1,21 +1,22 @@
 # SimBrief Integration
 
-!!! info "SimBrief Airframe"
-    *If you are planning on using our simBrief integration please ensure you have our custom airframe saved to your account.*
+## SimBrief Airframe
 
-    The FlyByWire Simulations simBrief airframe with correct weights is available below. Please select and update your airframe according to the version you are flying.
-    
-    !!! tip ""
-        The airframe below will always be **kept up-to-date** thanks to Navigraph's new sharable airframe feature.
-    
-        Please stay tuned to our social media for updates.
-    
-    - **All Versions**: ✈ [SimBrief Airframe Link](https://www.simbrief.com/system/dispatch.php?sharefleet=337364_1631550522735){target=new} - Credits: [@sidnov](https://github.
-      com/sidnov){target=new}
-    
-    Pilot ID can be found in the Optional Entries section of the Dispatch Options page.
-    
-    To learn how to use the various features related to our simBrief integration see the page below.
+*If you are planning on using our simBrief integration please ensure you have our custom airframe saved to your account.*
+
+The FlyByWire Simulations simBrief airframe with correct weights is available below. Please select and update your airframe according to the version you are flying.
+
+!!! tip ""
+    The airframe below will always be **kept up-to-date** thanks to Navigraph's new sharable airframe feature.
+
+    Please stay tuned to our social media for updates.
+
+- **All Versions**: ✈ [SimBrief Airframe Link](https://www.simbrief.com/system/dispatch.php?sharefleet=337364_1631550522735){target=new} - Credits: [@sidnov](https://github.
+  com/sidnov){target=new}
+
+Pilot ID can be found in the Optional Entries section of the Dispatch Options page.
+
+To learn how to use the various features related to our simBrief integration see the page below.
 
 ## Flight Planning
 
