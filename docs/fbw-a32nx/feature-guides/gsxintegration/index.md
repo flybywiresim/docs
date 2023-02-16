@@ -47,7 +47,7 @@ The addon comes with a developer-configured GSX profile. Please refer to [here](
 |                      Quick Links                       |
 |:------------------------------------------------------:|
 |            [Payload](payload.md)                       |
-|             [Fuel](payload.md)                         |
+|             [Fuel](fuel.md)                         |
 |               [Profile](profile.md)                    |
 
 
