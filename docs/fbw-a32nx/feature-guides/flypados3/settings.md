@@ -313,11 +313,11 @@ Before you can use the A32NX simBrief Integration you need to provide your simBr
 - SimBrief Pilot ID:
   - Enter your simBrief Pilot ID.
 
-        ![simBrief Account field](../../assets/flypados3/simbrief-account-field.png "simBrief Account field")
+    ![simBrief Account field](../../assets/flypados3/simbrief-account-field.png "simBrief Account field")
 
   - If you entered a wrong Pilot ID a red error message will be displayed.
 
-        ![simBrief Account Field Error](../../assets/flypados3/simbrief-account-field-error.png "simBrief Account Field Error")
+    ![simBrief Account Field Error](../../assets/flypados3/simbrief-account-field-error.png "simBrief Account Field Error")
 
 To get your simBrief Pilot ID you can go to your simBrief Account settings and open "SimBrief Data".
 
