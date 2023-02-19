@@ -310,16 +310,16 @@ Before you can use the A32NX simBrief Integration you need to provide your simBr
 !!! tip "Found in Settings -> ATSU/AOC"
     If you have arrived at this section from the [SimBrief Integration](../simbrief.md) page please make note this setting is found on the EFB.
 
-- SimBrief Username/Pilot ID:
-    - Enter your simBrief username or Pilot ID.
+- SimBrief Pilot ID:
+  - Enter your simBrief Pilot ID.
 
         ![simBrief Account field](../../assets/flypados3/simbrief-account-field.png "simBrief Account field")
 
-    - If you entered a wrong username or Pilot ID a red error message will be displayed.
+  - If you entered a wrong Pilot ID a red error message will be displayed.
 
         ![simBrief Account Field Error](../../assets/flypados3/simbrief-account-field-error.png "simBrief Account Field Error")
 
-To get your simBrief username or Pilot ID you can go to your simBrief Account settings and open "SimBrief Data".
+To get your simBrief Pilot ID you can go to your simBrief Account settings and open "SimBrief Data".
 
 ![simBrief Account Data](../../assets/flypados3/simbrief-account-data.png "simBrief Account Data")
 
