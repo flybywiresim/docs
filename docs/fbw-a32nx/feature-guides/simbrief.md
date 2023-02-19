@@ -1,6 +1,5 @@
 # SimBrief Integration
 
-
 ## Flight Planning
 
 Check the [Flight Planning guide](flight-planning.md) for more details on Flight Planning in general.
@@ -11,7 +10,7 @@ It is possible to use the SimBrief OFP (Operational Flight Plan) to configure an
 
 ### Flight Planning with SimBrief
 
-This is best explained by SimBrief itself - [SimBrief User Guide](https://www.SimBrief.com/system/guide.php){target=new}
+This is best explained by SimBrief itself - [SimBrief User Guide](https://www.simbrief.com/system/guide.php){target=new}
 
 ---
 
@@ -19,19 +18,19 @@ This is best explained by SimBrief itself - [SimBrief User Guide](https://www.Si
 
 SimBrief has a custom airframe available when using the A20N Aircraft type. You can select it as shown in the image below.
 
-![SimBrief Airframe](../assets/feature-guides/SimBrief/airframe.png){loading=lazy}
+![SimBrief Airframe](../assets/feature-guides/simbrief/airframe.png){loading=lazy}
 
 This airframe will be updated by FlyByWire Simulations when needed, so you will always have the right configuration available.
 
 ## Setup A32NX SimBrief Integration
 
-The SimBrief username needs to be configured in the flyPad EFB. See [Setup SimBrief Integration](flypados3/settings.md#SimBrief-integration)
+The SimBrief username needs to be configured in the flyPad EFB. See [Setup SimBrief Integration](flypados3/settings.md#simbrief-integration)
 
 ## Using the flyPad SimBrief Integration
 
 ### Importing the SimBrief OFP to the flyPad
 
-See [flyPad Guide - Load from SimBrief](flypados3/dashboard.md#load-from-SimBrief)
+See [flyPad Guide - Load from SimBrief](flypados3/dashboard.md#load-from-simbrief)
 
 See [flyPad Guide - OFP](flypados3/dispatch.md#ofp-page) on how to view the SimBrief Operational Flight Plan.
 
@@ -48,10 +47,10 @@ We've included a quick method to have your SimBrief OFP automatically loaded int
 !!! warning "Please do not select an arrival airport on the MSFS world menu otherwise the integration will not work."
 
 This portion of the guide assumes that you understand how to generate a SimBrief OFP.
-Otherwise read the [SimBrief User Guide](https://www.SimBrief.com/system/guide.php){target=new} first.
+Otherwise read the [SimBrief User Guide](https://www.simbrief.com/system/guide.php){target=new} first.
 
 !!! warning "Please Enable Detailed Navlog SimBrief Setting"
-    ![OFP Settings](../assets/feature-guides/SimBrief/OFP-settings.png){loading=lazy}
+    ![OFP Settings](../assets/feature-guides/simbrief/OFP-settings.png){loading=lazy}
 
     It is important when generating your SimBrief OFP to ensure that the Detailed Navlog setting is enabled. 
 
@@ -68,7 +67,7 @@ Otherwise read the [SimBrief User Guide](https://www.SimBrief.com/system/guide.p
 - Click on `INIT/PRESS`
 - Click on `INIT DATA REQ`
 
-![MCDU ATSU AOC INIT REQ](../../fbw-a32nx/assets/feature-guides/SimBrief/mcdu2.png "MCDU ATSU AOC INIT REQ"){loading=lazy}
+![MCDU ATSU AOC INIT REQ](../../fbw-a32nx/assets/feature-guides/simbrief/mcdu2.png "MCDU ATSU AOC INIT REQ"){loading=lazy}
 
 This will prepare the MCDU to input the flight plan.
 
@@ -83,7 +82,7 @@ Head over to the `INIT A` page.
 
 This will load your flight plan from SimBrief directly into the MCDU
 
-![MCDU INIT A](../../fbw-a32nx/assets/feature-guides/SimBrief/mcdu1b.png "MCDU INIT A"){loading=lazy}
+![MCDU INIT A](../../fbw-a32nx/assets/feature-guides/simbrief/mcdu1b.png "MCDU INIT A"){loading=lazy}
 
 !!! note
     #### RWY, SID, STAR, and APPR
@@ -111,16 +110,16 @@ This will load your flight plan from SimBrief directly into the MCDU
     - Wind Request functionality is not 100% accurate to the real aircraft.
         - In real life selecting the wind requests option on the climb page would populate the winds data for all stages of flight.
 
-![Wind Request](../assets/feature-guides/SimBrief/mcdu-wind1.png){loading=lazy}
+![Wind Request](../assets/feature-guides/simbrief/mcdu-wind1.png){loading=lazy}
 
 On the `INIT A` page, select `WIND/TEMP` by pressing LSK4R. This brings you to the `CLIMB WIND` page.
 
-![Wind Request](../assets/feature-guides/SimBrief/mcdu-wind2.png){loading=lazy}
+![Wind Request](../assets/feature-guides/simbrief/mcdu-wind2.png){loading=lazy}
 
 To request the wind data from the SimBrief flight plan, select `WIND REQUEST` by pressing LSK3R. This will calculate the
 wind profiles during the climb phase based on the SimBrief-provided wind data.
 
-![Wind Request](../assets/feature-guides/SimBrief/mcdu-wind3.png){loading=lazy}
+![Wind Request](../assets/feature-guides/simbrief/mcdu-wind3.png){loading=lazy}
 
 Press LSK5R to go to the `NEXT PHASE`, `CRZ WIND`. The same procedure of pressing LSK3R for `WIND REQUEST` applies here.
 
