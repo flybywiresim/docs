@@ -13,5 +13,8 @@ feature guide:
 support:
   - docs/fbw-a32nx/support/*
 
+simbridge:
+  - docs/simbridge/*
+
 repo:
   - '*'
