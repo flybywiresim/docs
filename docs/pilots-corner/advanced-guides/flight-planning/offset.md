@@ -1,1 +1,6 @@
+---
+search:
+    exclude: true
+---
+
 # Offset

@@ -2,8 +2,6 @@
 
 Please follow the information on this page to install the FlyByWire Simulations A32NX addon for Microsoft Flight Simulator 2020
 
-*Last Update: {{git_revision_date_localized}}*
-
 !!! warning "Important Notice"
 
     All FlyByWire Simulations A32NX versions are now independent from the default A320neo.
@@ -241,19 +239,6 @@ More info [A32NX Development Overview](../dev-corner/dev-guide/index.md)
 
 ## SimBrief Airframe
 
-The FlyByWire Simulations simBrief airframe with correct weights is available below. Please select and update your airframe according to the version you are flying.
-
-!!! info ""
-    The airframe below will always be **kept up-to-date** thanks to Navigraph's new sharable airframe feature.
-
-    Please stay tuned to our social media for updates.
-
-- **All Versions**: ✈ [SimBrief Airframe Link](https://www.simbrief.com/system/dispatch.php?sharefleet=337364_1631550522735){target=new} - Credits: [@sidnov](https://github.
-  com/sidnov){target=new}
-
-Pilot ID can be found in the Optional Entries section of the Dispatch Options page.
-
-To learn how to use the various features related to our simBrief integration see the page below.
-
 [SimBrief Integration Guide](feature-guides/simbrief.md){.md-button}
 
+We have moved this information to the location above.

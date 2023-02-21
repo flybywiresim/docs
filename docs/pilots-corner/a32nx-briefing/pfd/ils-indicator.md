@@ -24,7 +24,7 @@ Most common ones are ILS and RNP-RNAV but depending on aircraft configuration ot
 
 Main features of the approach information are deviation scales for horizontal and vertical path deviation.
 
-!!! attention ""
+!!! info ""
     Currently the FlyByWire A32NX is only capable of ILS approaches. RNP-RNAV will be available once the custom Flight Management System has LNAV and VNAV capabilities.
 
 ## ILS Deviation Scale
@@ -69,7 +69,7 @@ Different audio sounds are played as the aircraft passes over each marker.
 
 This appears to the right of the localiser deviation scale, and flashes amber when the approach mode is armed and the LS display is not selected.
 
-!!! attention ""
+!!! info ""
     Currently not available for the FBW A32NX for Microsoft Flight Simulator
 
 ## Non Precision Approaches
@@ -82,7 +82,7 @@ Each scale graduation represents 100 feet and the range is ± 200 feet. These ar
 
 Note that if the LS pushbutton is pressed, the glide deviation has priority over the vertical deviation information. As long as V/DEV display conditions are met, and the LS pushbutton is selected, an amber V/DEV message flashes above the glide scale.
 
-!!! attention ""
+!!! info ""
     Currently the FlyByWire A32NX is only capable of ILS approaches. RNP-RNAV will be available once the custom Flight Management System has LNAV and VNAV capabilities.
 
 ---

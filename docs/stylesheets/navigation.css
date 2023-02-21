@@ -20,6 +20,17 @@
   height: -webkit-fill-available;
 }
 
+/* Sidebar Navigation Modifications */
+/* 9.0.3 Compatibility*/
+
+.md-nav__link[for] {
+    color: white !important;
+}
+
+.md-nav__title {
+    color: white !important;
+}
+
 /*Announcement Bar*/
 .md-banner {
     background-color: var(--md-footer-bg-color--dark);

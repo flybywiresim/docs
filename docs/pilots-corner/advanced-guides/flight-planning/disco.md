@@ -1,3 +1,8 @@
+---
+search:
+    boost: 2
+---
+
 # Discontinuities
 
 ## What are Discontinuities?

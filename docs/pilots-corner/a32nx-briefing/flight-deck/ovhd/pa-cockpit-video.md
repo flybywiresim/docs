@@ -15,7 +15,7 @@
 
 Illuminates when the PA is activated from the cockpit or the cabin (cabin attendant ot prerecorded announcement).
 
-!!! attention ""
+!!! info ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### Cockpit Door Video
@@ -23,7 +23,7 @@ Illuminates when the PA is activated from the cockpit or the cabin (cabin attend
 - OFF:
     - Manually turns off the power for the Cockpit Door Surveillance System.
 
-!!! attention ""
+!!! info ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ---

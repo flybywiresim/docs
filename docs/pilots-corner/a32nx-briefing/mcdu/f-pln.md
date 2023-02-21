@@ -40,7 +40,7 @@ If the route contains a published missed approach procedure, it is shown in blue
 turns green when the go-around phase becomes active. After the last waypoint of the missed approach, the display 
 shows the alternate flight plan in NAV mode.
 
-!!! attention "Missed Approach Procedure and ALTN Flight Plan"
+!!! info "Missed Approach Procedure and ALTN Flight Plan"
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 In NAV mode, the TO waypoint can only be cleared by using the DIR key.
@@ -65,7 +65,7 @@ the constraint and the MCDU displays: “SPD ERROR AT WPT”.
     SPD and ALT CSTR may either be entered on the VERT REV page or directly on the F-PLN A page, whereas TIME CSTR 
     may only be entered from the RTA page.
 
-!!! attention ""
+!!! info ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 #### Pseudo Waypoints
@@ -117,7 +117,7 @@ Pseudo waypoints are displayed in parentheses.
 
 ## Flight Plan B Page
 
-!!! attention "F-PLN B"
+!!! info "F-PLN B"
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ## Lateral Revision Pages
@@ -172,7 +172,7 @@ STAR revisions are done only at a destination airport (Destination page).
       of the direct line between the waypoints.
     - Only available on waypoint or present position
     
-    !!! attention ""
+    !!! info ""
         Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
   
 - LL XING/INCR/NO (2R)
@@ -180,7 +180,7 @@ STAR revisions are done only at a destination airport (Destination page).
       (in degrees), and the number of crossing points desired in 2R
     - Only available on origin, ppos and waypoint.
     
-    !!! attention ""
+    !!! info ""
         Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
   
 - HOLD (3L)
@@ -200,7 +200,7 @@ STAR revisions are done only at a destination airport (Destination page).
     - Will create a temporary flight plan.
     - Only available on departure, waypoint and destination.
     
-    !!! attention ""
+    !!! info ""
         Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
   
 - NEW DEST (4R)
@@ -214,7 +214,7 @@ STAR revisions are done only at a destination airport (Destination page).
     - Used to display a list of alternate airports from the database.
     - Only available on destination airport.
   
-    !!! attention ""
+    !!! info ""
         Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
   
 - AIRWAYS (5R)
@@ -260,7 +260,7 @@ certain criteria.
     - Shows the estimated fuel on board and the extra fuel consumed after taxi, trip, reserves, alternate and final. 
       Extra fuel might be negative if reserves will be used.
 
-        !!! attention ""
+        !!! info ""
             Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
   
 - CLB/DES SPD LIM (2L)
@@ -277,7 +277,7 @@ certain criteria.
 - MACH/START WPT (4L - only on cruise waypoints)
     - Used to enter start point for a Constant Mach Segment (CMS).
     
-    !!! attention ""
+    !!! info ""
         Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
   
 - QNH (4L - only on destination waypoint)
@@ -291,7 +291,7 @@ certain criteria.
 - RTA (2R)
     - Calls [Required Time of Arrival page](#rta-page)
   
-    !!! attention ""
+    !!! info ""
         Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
   
 - ALT CSTR (3R)
@@ -314,14 +314,14 @@ certain criteria.
     - Used to enter end point for a Constant Mach Segment (CMS).
     - Only for cruise waypoints.
   
-    !!! attention ""
+    !!! info ""
         Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
   
 - ALT ERROR (4R)
     - During CLIMB and DESCENT this shows how far the corresponding constraint will be missed (estimation).
     - When estimated miss is >250ft.
     
-    !!! attention ""
+    !!! info ""
         Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
   
 - STEP ALTS (5R)
@@ -332,7 +332,7 @@ certain criteria.
 - \*CLB OR DES* (6L, 6R)
     - Shown if the system can't determine climb or descent after a constraint has been entered.
     
-    !!! attention ""
+    !!! info ""
         Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 !!! note
@@ -428,7 +428,7 @@ The FIX INFO pages are used to create waypoint intersections of the
 flight plan with radials, radii, and abeam intercept points associated
 with a waypoint.
 
-!!! attention ""
+!!! info ""
     Currently only partly implemented in the FBW A32NX for Microsoft Flight Simulator.
 
 See [Feature Guide: Fix Info](../../../pilots-corner/advanced-guides/flight-planning/fixinfo.md)
@@ -481,7 +481,7 @@ The crew calls up this page, by pressing the AIRWAYS key (5R) on the [LAT REV pa
 
 ## STEP ALTS Page
 
-!!! attention ""
+!!! info ""
     Currently not fully implemented in the FBW A32NX for Microsoft Flight Simulator.
     <p />
     Steps Alts are also currently not considered in the flight planning in the FBW A32NX for Microsoft Flight Simulator.
@@ -513,7 +513,7 @@ The crew calls it up from the vertical revision page.
 
 ## WIND Page
 
-!!! attention ""
+!!! info ""
     The WIND Pages are currently implemented in a simplified manner in the FBW A32NX for Microsoft Flight Simulator.
 
 Winds in climb, cruise, descent, and approach are necessary to provide the flight crew with reliable predictions and 
@@ -544,7 +544,7 @@ ACARS for the various flight phases.
     - This key calls up the history wind page and is only displayed in the preflight phase. It cannot be modified 
       (white font), but can be inserted into the CLIMB WIND page by using the 6R key and modified accordingly.
 
-    !!! attention ""
+    !!! info ""
         Currently only partly implemented in the FBW A32NX for Microsoft Flight Simulator.
 
 - WIND REQUEST (3R)
@@ -567,7 +567,7 @@ ACARS for the various flight phases.
     - They can then modify the temperature or the altitude independently. 
     - SAT and Altitude are displayed in yellow when pending winds exist and in blue otherwise.
 
-    !!! attention ""
+    !!! info ""
         Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### DESCENT WIND
@@ -590,7 +590,7 @@ ACARS for the various flight phases.
 
 ## RTA Page
 
-!!! attention "RTA Page"
+!!! info "RTA Page"
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 The Required Time of Arrival (RTA) is a time constraint that must be respected at the revised

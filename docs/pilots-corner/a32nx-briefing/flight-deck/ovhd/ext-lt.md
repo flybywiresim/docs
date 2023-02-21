@@ -39,7 +39,7 @@ Turns on and off the three synchronized strobe lights, one on each wing tip and 
 - OFF:
     - Strobe light are off.
 
-Strobes are turned on at the latest when airborne. Usually shortly before the take of roll.
+Strobes are turned on at the latest when airborne. Usually shortly before the takeoff roll.
 
 ![STROBE and NAV](../../../assets/a32nx-briefing/overhead-panel/lights/strobe-right.jpg "STROBE and NAV"){loading=lazy}
 
@@ -78,7 +78,7 @@ NAV & LOGO are turned on when the aircraft is powered up (EXT PWR or APU or ENG)
 
 ![NAV & LOGO and STROBE](../../../assets/a32nx-briefing/overhead-panel/lights/tail-lights.jpg "NAV & LOGO and STROBE"){loading=lazy}
 
-!!! attention ""
+!!! info ""
     Currently the FlyByWire A32NX only has two settings for NAV & LOGO lights (2 or OFF / 1 is not available).
 
 ### RWY TURN OFF

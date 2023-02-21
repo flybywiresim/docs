@@ -157,8 +157,8 @@ Settings for simulation aspects of the A32NX aircraft.
     - Please see the [Throttle Configuration Guide](throttle-calibration.md).
 
 ## Realism
-
 Settings for realism aspects of the A32NX aircraft.
+
 <div style="position: relative;">
     <img src="/fbw-a32nx/assets/flypados3/flypad-settings-realism.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
@@ -216,6 +216,41 @@ Settings for realism aspects of the A32NX aircraft.
         ![img_3.png](../../assets/flypados3/flypad-settings-realism-avatars.png){loading=lazy align=center width=49%}
         ![img_2.png](../../assets/flypados3/flypad-settings-realism-avatars2.png){loading=lazy align=center width=49%}
   
+
+## 3rd Party Options
+Settings for integrations with various 3rd party applications
+
+<div style="position: relative;">
+    <img src="/fbw-a32nx/assets/flypados3/flypad-settings-third-party-options.png" style="width: 100%; height: auto;" loading="lazy">
+    <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
+    <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
+    <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
+    <a href="../performance/"> <div class="imagemap" style="position: absolute; left: 1.7%; top: 28.3%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Performance</span></div></a>
+    <a href="../charts/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 35.6%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Navigation & Charts</span></div></a>
+    <a href="../online-atc/">  <div class="imagemap" style="position: absolute; left: 1.7%; top: 43.0%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Online ATC</span></div></a>
+    <a href="../failures/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 50.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Failures</span></div></a>
+    <a href="../checklists/">  <div class="imagemap" style="position: absolute; left: 1.7%; top: 57.3%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Checklists</span></div></a>
+    <a href="../presets/">     <div class="imagemap" style="position: absolute; left: 1.7%; top: 64.7%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Presets</span></div></a>
+    <a href="../settings/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 85.0%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Settings</span></div></a>
+    <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
+</div>
+
+!!! warning ""
+    This feature is only available in the [Development Version](../../fbw-versions.md#development-version-recommended) and [Experimental Version](../../fbw-versions.md#experimental-version)
+
+#### GSX Integration
+These options are seperate to provide you with the flexiblity to choose what to sync with GSX and what not to sync. 
+
+!!! warning ""
+    Enabling any of these options will retroactively disable the [chocks and cones](../wheel-chocks-cones.md). You cannot re-enable as long as any of these options are enabled. This is due to how GSX detects the parking brake.
+
+!!! warning "Profile provided"
+    The aircraft comes with a GSX profile, please read [here](../gsxintegration/profile.md) for more information.
+
+- GSX Payload Sync:
+    - Enables to option to synchronise GSX and the aircraft's own payload management system.
+- GSX Fuel Sync:
+    - Enables the option to synchronise GSX and the aircraft's own fuel management system.
 ## ATSU/AOC
 
 Settings for integrations with various data and information sources.
@@ -275,16 +310,16 @@ Before you can use the A32NX simBrief Integration you need to provide your simBr
 !!! tip "Found in Settings -> ATSU/AOC"
     If you have arrived at this section from the [SimBrief Integration](../simbrief.md) page please make note this setting is found on the EFB.
 
-- SimBrief Username/Pilot ID:
-    - Enter your simBrief username or Pilot ID.
+- SimBrief Pilot ID:
+    - Enter your simBrief Pilot ID.
 
-        ![simBrief Account field](../../assets/flypados3/simbrief-account-field.png "simBrief Account field")
+      ![simBrief Account field](../../assets/flypados3/simbrief-account-field.png "simBrief Account field")
 
-    - If you entered a wrong username or Pilot ID a red error message will be displayed.
+    - If you entered a wrong Pilot ID a red error message will be displayed.
 
-        ![simBrief Account Field Error](../../assets/flypados3/simbrief-account-field-error.png "simBrief Account Field Error")
+      ![simBrief Account Field Error](../../assets/flypados3/simbrief-account-field-error.png "simBrief Account Field Error")
 
-To get your simBrief username or Pilot ID you can go to your simBrief Account settings and open "SimBrief Data".
+To get your simBrief Pilot ID you can go to your simBrief Account settings and open "SimBrief Data".
 
 ![simBrief Account Data](../../assets/flypados3/simbrief-account-data.png "simBrief Account Data")
 

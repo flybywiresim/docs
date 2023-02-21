@@ -21,7 +21,7 @@ The A320neo has the following software & databases:
 - PERF Database
 - Magnetic Variation Database (MAG VAR)
 
-!!! attention ""
+!!! info ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ---

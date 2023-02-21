@@ -20,8 +20,8 @@ hide:
 
 Find the complete list of Custom Event and Custom LVARS of the A32NX:
 
-- [Custom LVARs](https://github.com/flybywiresim/a32nx/blob/master/docs/a320-simvars.md){target=new}
-- [Custom Events](https://github.com/flybywiresim/a32nx/blob/master/docs/a320-events.md){target=new}
+- [Custom LVARs](https://github.com/flybywiresim/a32nx/blob/master/fbw-a32nx/docs/a320-simvars.md){target=new}
+- [Custom Events](https://github.com/flybywiresim/a32nx/blob/master/fbw-a32nx/docs/a320-events.md){target=new}
 
 !!! note "The order of the panels below is roughly done after the standard cold & dark setup procedure."
 

@@ -49,7 +49,7 @@ To have maximal redundancy A320 pilots can switch backup computers or data sourc
 !!! info ""
     Note: If a DMC fails, each of its associated DUs displays an “INVALID DATA” message.
 
-!!! attention ""
+!!! info ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### ECAM/ND XFR Selector
@@ -61,7 +61,7 @@ To have maximal redundancy A320 pilots can switch backup computers or data sourc
 - F/O:
     - Transfers the System Display to First Officer's ND.
 
-!!! attention ""
+!!! info ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ---

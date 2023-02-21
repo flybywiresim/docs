@@ -13,7 +13,7 @@ The INIT A page is used by the flight crew to initialize the flight plan and ali
 - CO RTE (1L):
     - A company route ID can be entered in this field and all data associated with that route.
 
-    !!! attention ""
+    !!! info ""
         Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 - ALTN/CO RTE (2L):
@@ -22,7 +22,7 @@ The INIT A page is used by the flight crew to initialize the flight plan and ali
       company route identification.
     - The crew may manually enter an alternate and company route.
 
-    !!! attention ""
+    !!! info ""
         Currently CO RTE is not available in the FBW A32NX for Microsoft Flight Simulator.
 
 - FLIGHT NUMBER (3L):
@@ -45,7 +45,7 @@ The INIT A page is used by the flight crew to initialize the flight plan and ali
     - Automatically deletes any previously entered route and calls up the route selection page.
     - If one airfield of the pair is not in the database, the display changes to the NEW RWY page.
 
-        !!! attention ""
+        !!! info ""
             Currently the "NEW RWY page" is not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 - INIT REQUEST (2R):
@@ -56,7 +56,7 @@ The INIT A page is used by the flight crew to initialize the flight plan and ali
       active flight plan does not exist. After engine start, the uplink flight plan is sent to the secondary flight 
       plan and manually inserted or rejected.
 
-    !!! attention ""
+    !!! info ""
         In the FlyByWire A32NX this function is implemented differently and loads a flight plan from 
         SimBrief.
         <p />
@@ -163,7 +163,7 @@ will use the FOB to compute its predictions.
       fuel is computed by the FMGC.
     - Computation automatically restarts if parameters used to compute the prediction are modified before confirmation.
 
-    !!! attention ""
+    !!! info ""
         Currently fuel prediction is not yet accurate in the FBW A32NX for Microsoft Flight Simulator.
 
 - TOW/LW (4R)

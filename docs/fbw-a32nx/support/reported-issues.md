@@ -1,7 +1,7 @@
 # Reported Known Issues
 
 <link rel="stylesheet" href="/stylesheets/toc-tables.css">
-!!! error  "STOP - Read this First"
+!!! danger  "STOP - Read this First"
 
     Please try and remove all other mods/liveries from the community folder and test our add-on again. This will help rule out conflicts.
 
@@ -13,7 +13,7 @@
 
     <img src="https://img.shields.io/github/v/release/flybywiresim/a32nx.svg?color=2F4E5B&style=flat" /> <img src="https://img.shields.io/badge/dynamic/json?color=00848A&label=Development&query=shortSha&url=https%3A%2F%2Fapi.flybywiresim.com%2Fapi%2Fv1%2Fgit-versions%2Fflybywiresim%2Fa32nx%2Fbranches%2Fmaster&style=flat" alt="Development Version" />
 
-    FBW Installer - [Download Here](https://api.flybywiresim.com/installer){target=new} / *Latest Sim Version: 1.29.30.0*
+    FBW Installer - [Download Here](https://api.flybywiresim.com/installer){target=new} / *Latest Sim Version: 1.30.12.0*
 
 !!! warning "Read our Support Guide"
 
@@ -704,17 +704,6 @@ reporting any other issue on Discord.
     We highly suggest learning how to start the engines manually by reading our beginner guide. 
     [Beginner Guide - Engine Start Section](../../pilots-corner/beginner-guide/engine-start-taxi.md#engine-start).
 
-
-??? tip "Can't Push or Pull Knobs, Controls Highlighted Yellow or Blue"
-    ### Can't Push or Pull Knobs, Controls HIghlighted Yellow or Blue
-
-    !!! tip ""
-        *Affected versions: Stable, Development*
-
-    ^^Description^^
-
-    You pro
-
 ??? tip "flyPad EFB Missing in Cockpit"
     ### flyPad EFB Missing in Cockpit
 
@@ -872,7 +861,7 @@ Please try these before reporting any other issue on Discord.
 ??? tip "Test With Only the A32NX Add-on in Community"
     ### Test With Only the A32NX Add-on in Community
 
-    !!! error "**This is the most important troubleshooting step for Microsoft Flight Simulator!!**"
+    !!! danger "**This is the most important troubleshooting step for Microsoft Flight Simulator!!**"
 
     To make sure the issue you are experiencing is not caused by a conflict with other add-ons or liveries 
     ***remove everything (really everything!) from your [Community Folder](#community-folder-content)** and perform 
@@ -936,9 +925,7 @@ Please try these before reporting any other issue on Discord.
 
     ^^Description^^
 
-    Switches, knobs and dials can't be used with simple mouse clicks as before.
-
-    Controls appear highlighted in color (mostly blue) when the mouse hovers over them.
+    Switches, knobs and dials can't be used with simple mouse clicks as before. (Can't push or pull knobs).
 
     ^^Root Cause^^
 

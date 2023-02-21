@@ -51,12 +51,12 @@ Opens the REPORT page.
 This page displays information related to the FROM, TO, NEXT and DEST waypoints, as well as the current wind, 
 temperature, distance and time to the next cruise profile change.
 
-!!! attention ""
+!!! info ""
     This page is not fully implemented in the current FlyByWire A32NX.
 
 ### Position Update (3L)
 
-!!! attention ""
+!!! info ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 This functions allows the flight crew to update the aircraft's FMS position to its actual position. The flight crew 
@@ -86,7 +86,7 @@ Opens the PREDICTIVE GPS page.
 Displays information relative to predictive availability of GPS PRIMARY at destination, and at any waypoint selected 
 by the crew.
 
-!!! attention ""
+!!! info ""
     This page is not fully implemented in the current FlyByWire A32NX.
 
 ### GPS Source (5R)

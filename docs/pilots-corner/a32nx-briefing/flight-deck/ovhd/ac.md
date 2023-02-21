@@ -59,7 +59,7 @@ The two air conditioning packs (PACK 1+2) operate automatically and independentl
 - OFF:
     - The RAM air inlet closes.
 
-!!! attention ""
+!!! info ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### ENG 1 and ENG 2 BLEED

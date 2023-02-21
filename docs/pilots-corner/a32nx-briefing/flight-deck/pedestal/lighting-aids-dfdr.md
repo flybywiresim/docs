@@ -16,7 +16,7 @@ Sets brightness of the floodlighting for the pedestal.
 
 To print a specific flight phase dependent report, the crew can push this button and then use the MCDU to select another report for printing.
 
-!!! attention ""
+!!! info ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### DFDR EVENT
