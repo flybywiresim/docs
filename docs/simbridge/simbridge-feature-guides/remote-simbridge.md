@@ -69,3 +69,4 @@ You can now copy the value inside 'inet' and use it on the local machine running
 
 To fetch the public IP address, on the remote PC open a website like https://ipchicken.com/ or https://whatismyipaddress.com/
 The 'IPv4 IP Address' is the value you will need to copy and enter into the EFB settings.
+
