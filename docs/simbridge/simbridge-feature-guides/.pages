@@ -4,3 +4,4 @@ nav:
     - Terrain Display: terrain.md
     - Company Routes: coroute.md
     - Local Files: local-files.md
+    - Remote SimBridge: remote-simbridge.md
