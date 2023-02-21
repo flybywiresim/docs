@@ -188,7 +188,7 @@ As this chart is now designed differently, it has described the MDA as a DA for 
 
 Autolands are, unlike what the media might want everyone to think, not used all that frequently! The only time it is fully used is in conditions of bad weather, where the clouds are too low or the visibility not far enough to continue to do a normal manual approach. Special rules must be in place to prevent any interference with the aircraft, as this is a precise manoeuvre with not much room for error.
 
-### ^^Rules at Airfield^^
+### ^^Rules at the Airfield^^
 
 To fly an Autoland, the approach you are flying must be a CAT II ILS or higher. This means that only certain airfields can perform these, where the localiser and glideslopes have been certified as accurate enough to guide the aircraft to a successful landing. An airfield with anything such as an offset ILS, where the ILS is not aligned with the runway, will not be able to offer an Autoland approach.
 
