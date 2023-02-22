@@ -12,7 +12,8 @@ The Development version of the FlyByWire A32NX is done in the master branch. Whe
 
 The Stable version is a snapshot (in git terms a [Tag](https://github.com/flybywiresim/a32nx/tags){target=new}) of the development branch.
 
-The experimental version is built in the branch [experimental](https://github.com/flybywiresim/a32nx/tree/experimental){target=new}. It is regularly manually updated with the latest commits from the master branch, but its focus is on the development of special larger features like the custom fly-by-wire and autopilot system or the custom flight management system (cFMS).
+The experimental version is built in the branch [experimental](https://github.com/flybywiresim/a32nx/tree/experimental){target=new}. It is regularly manually updated with the latest commits from 
+the master branch but its focus is on the development of special larger features like the custom fly-by-wire and autopilot system or the custom flight management system (cFMS).
 
 While the development on the master branch (Development version) follows a very strict development, review and QA process, the development in the experimental branch is less strict and developers can relatively freely commit changes. This is why the Experimental version has a higher risk of bugs and issues and is only meant for testing and not supported on Discord.
 
