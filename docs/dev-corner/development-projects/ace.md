@@ -6,8 +6,7 @@
 
 {--
 
-`ace` is meant to be used by developers and is not a finished or polished product. It is a work in progress and is 
-not meant to be used by end users.
+`ace` is meant to be used by developers and is not a finished or polished product. It is a work in progress and is not meant to be used by end users.
 
 We do not provide support for `ace` at this time. You can ask on our Discord's 
 [#dev-support](https://discord.com/channels/738864299392630914/747622836381810739){target=new} channel, but we cannot
@@ -19,7 +18,7 @@ guarantee a response.
 
 ### Cockpit panel display
 
-`ace` can display cockpit panels in browser, with nearly identical rendering.
+`ace` can display cockpit panels in the browser, with nearly identical rendering.
 
 ### SimVar support
 
@@ -39,7 +38,7 @@ The MSFS CoherentGT engine API is emulated in `ace`, including the `call`, `trig
 6. Open a new terminal and go to your a32nx clone folder and run: `npm run serve:efb`
      This allows to see any changes to the instrument's code nearly instantaneously. 
 
-To interact with the EFB via mouse you need to click enter to turn on interactive mode
+To interact with the EFB via mouse, you need to click enter to turn on interactive mode.
 
 ### Example Config
 

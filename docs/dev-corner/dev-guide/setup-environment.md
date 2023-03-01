@@ -1,6 +1,6 @@
 # Development Environment
 
-## Required Software, Tools and libraries
+## Required Software, Tools, and libraries
 
 ### Git and GitHub
 
@@ -34,11 +34,11 @@ Clone this fork to your local environment. You can use the command line git or a
 git clone https://github.com/flybywiresim/a32nx.git
 ```
 
-You have now a copy of the a32nx repository on your local machine to review and change the source code.
+You now have a copy of the a32nx repository on your local machine to review and change the source code.
 
 ## Compiling the source
 
-To compile the source code into a package you can install into the Microsoft Flight Simulator Community folder, we have prepared a few scripts you need to run which in turn use the Docker container mentioned above to compile the aircraft add-on.
+To compile the source code into a package you can install into the Microsoft Flight Simulator Community folder, we have prepared a few scripts you need to run, which in turn use the Docker container mentioned above to compile the aircraft add-on.
 
 
 ```powershell title="PowerShell or Cmd Prompt"
@@ -65,7 +65,7 @@ The build.sh is actually using the docker container to compile and build the add
 !!! tip "Create working branches"
     We recommend when making changes on your fork, you create a new branch, titled with the change you're looking to make or something similar.
 
-After a successful build, it is possible to copy the `flybywire-aircraft-a320-neo` folder into your Community folder and use the compiled A32NX in your simulator. See next chapter for more convenient way to update the add-on after a compile.
+After a successful build, it is possible to copy the `flybywire-aircraft-a320-neo` folder into your Community folder and use the compiled A32NX in your simulator. See next chapter for a more convenient way to update the add-on after a compile.
 
 !!! warning "Important step!"
     Make sure you remove any existing copy of the aircraft from your community folder before doing this.
