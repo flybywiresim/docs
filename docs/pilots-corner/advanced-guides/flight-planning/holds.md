@@ -211,12 +211,12 @@ The managed speed target in a hold is the lowest of:
 
 The ICAO speed limits are as follows:
 
-| Altitude (ft MSL) | Airspeed (KIAS) |
-|-------------------|-----------------|
-| < 14000           | 230             |
-| 14000 - 20000     | 240             |
-| 20000 - 34000     | 265             |
-| > 34000           | .83 Mach        |
+| Altitude (ft MSL)       | Airspeed (KIAS) |
+|-------------------------|-----------------|
+| <= 14000                | 230             |
+| Above 14000 up to 20000 | 240             |
+| Above 20000 up to 34000 | 265             |
+| > 34000                 | .83 Mach        |
 
 The default turn direction for a computed hold is **right**, in-line with ICAO specifications. 
 
