@@ -103,7 +103,7 @@ If changes are made, they should always be tested to make sure they work as inte
 
 ## References Material (real life aircraft)
 
-Creating a high-fidelity aircraft is a serious task that requires focus and dedication. But more importantly, it's a striving for accuracy and realism. Therefore, any change that affects the appearance or behavior of a plane needs to reference real documentation.
+Creating a high-fidelity aircraft is a serious task that requires focus and dedication. But more importantly, it's striving for accuracy and realism. Therefore, any change that affects the appearance or behavior of a plane needs to reference real documentation.
 
 The maintainer team has the role of deciding if references are suitable for a change. It is understandable that new developers do not have access to in-depth resource material.
 
