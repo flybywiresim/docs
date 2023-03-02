@@ -99,7 +99,7 @@ Our version control approach maintains the following guidelines:
 
 ## Testing
 
-If changes are made, they should always be tested to make sure they work as intended and don't conflict with other systems. If you see a pull request open, it's recommended that you test the features that were implemented to check for errors, or wether it works as intended.
+If changes are made, they should always be tested to make sure they work as intended and don't conflict with other systems. If you see a pull request open, it's recommended that you test the features that were implemented to check for errors, or whether it works as intended.
 
 ## References Material (real life aircraft)
 
