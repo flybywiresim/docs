@@ -2,17 +2,17 @@
 
 ## QA at FlyByWire
 
-FlyByWire Simulations aims to maintain professional standards as well as industry-wide best practices in order to maximize developer productivity and deliver high-quality, tested products.
+FlyByWire Simulations aims to maintain professional standards as well as industry-wide best practices to maximize developer productivity and deliver high-quality, tested products.
 
-This is why we adopt a set of rules and practices that create a strong framework, not only around the usage of git but also surrounding code quality.
+This is why we adopt a set of rules and practices that create a strong framework, not only around the usage of git, but also surrounding code quality.
 
-Therefore, every change or addition to the code of our aircraft goes through a multi-step development and quality assurance process.
+Therefore, every change or addition to the code of our aircraft goes through a multistep development and quality assurance process.
 
-This documentation describes the FlyByWire QA Process and tools in detail to make sure, we can efficiently and effectively deliver the highest quality in our products.
+This documentation describes the FlyByWire QA Process and tools in detail to make sure we can efficiently and effectively deliver the highest quality in our products.
 
 ## What you need
 
-To QA test for FlyByWire you need the following prerequisites:
+To QA test for FlyByWire, you need the following prerequisites:
 
 - Having read and understood this page!
 - Microsoft Flight Simulator (PC)
@@ -24,27 +24,27 @@ To QA test for FlyByWire you need the following prerequisites:
 
 We try to keep the number of QA testers at a reasonable and manageable level to ensure quality and sufficient PRs to test for each QA team member.
 
-If you'd like to apply for the QA Trainee role we recommend to actually
+If you'd like to apply for the QA Trainee role, we recommend to actually
 conduct a few tests as described below without submitting any reports to GitHub!
 
-Send an application message and your test reports to the [Contact(s)](#contacts) at the bottom of this page via DM and the QA leaders will decide if you are eligible for a QA Trainee role (provided there are open positions).
+Send an application message and your test reports to the [contact(s)](#contacts) at the bottom of this page via DM, and the QA leaders will decide if you are eligible for a QA Trainee role (provided there are open positions).
 
 !!! warning ""
     **Please do not submit reports to GitHub without having a QA Discord role.**
 
 ## What to Test
 
-The FlyByWire development process provides a constant stream of new Pull Requests to be tested as each and every single code change goes through this workflow. All commits to the master branch (Development Version) are therefore code-reviewed and QA-tested.
+The FlyByWire development process provides a constant stream of new Pull Requests to be tested as every single code change goes through this workflow. All commits to the master branch (Development Version) are therefore code-reviewed and QA-tested.
 
-To manage this process we use the GitHub Project feature.
+To manage this process, we use the GitHub Project feature.
 
-This is a simple Kanban board where items move from the left to the right. For QA tests the third column is relevant ("QA Team Review: Ready to Test")
+This is a simple Kanban board where items move from the left to the right. For QA tests, the third column is relevant ("QA Team Review: Ready to Test")
 
 ![QA Project Board on GitHub](assets/qa-process/qa-board.png "QA Project Board on GitHub"){loading=lazy}<br/>[QA Project Board on GitHub](https://github.com/flybywiresim/a32nx/projects/4){target=new}
 
 If you have gotten a grasp on the above instructions, pick a PR to test from the list.
 
-Read the description and testing instructions of the PR carefully and make sure you have the required skills and the necessary time available to conduct the test in a high quality fashion.
+Read the description and testing instructions of the PR carefully and make sure you have the required skills and the necessary time available to conduct the test in a high-quality fashion.
 
 ## How to get PR Builds
 
@@ -57,7 +57,7 @@ How to download the PR for QA
 
     ![GitHub PR Checks tab](assets/qa-process/pr-checks-tab.png "GitHub PR Checks tab")
 
-3. On the left side click on the PR label saying `on: pull_request`.
+3. On the left side, click on the PR label saying `on: pull_request`.
 
     ![GitHub PR Check PR](assets/qa-process/pr-check-pr.png "GitHub PR Check PR")
 
@@ -68,7 +68,7 @@ How to download the PR for QA
 5. Unzip the file and place the "flybywire-aircraft-a320-neo" folder into your Community.
 
 !!! info "PR Builds only for FlyByWire QA Team"
-    The PR builds are only meant for QA testing and not for daily use. Outside of the FlyByWire QA Team we do not provide any support or answer any questions in regards to these builds.
+    The PR builds are only meant for QA testing and not for daily use. Outside of the FlyByWire QA Team, we do not provide any support or answer any questions regarding these builds.
 
 ## How to Test
 
@@ -82,14 +82,14 @@ The developer, developer leader and QA leader determine the tier of testing requ
 
 #### Tier 1
 
-- Extensive and careful testing is expected but no full flight is required.
+- Extensive and careful testing is expected, but no full flight is required.
 - Providing media is not required.
-- Of course you can always do a full flight and provide media but the test is valid without it.
+- Of course, you can always do a full flight and provide media, but the test is valid without it.
 
 #### Tier 2
 
 - At least one full flight is required to test Tier 2.
-- Providing media (screenshots/videos) is a requirement especially for any issues that might arise.
+- Providing media (screenshots/videos) is a requirement, especially for any issues that might arise.
 - Tests without a full flight or media are not valid and will require another tester to still do a full tier 2 test.
 
 ### Clean Community Folder
@@ -113,15 +113,15 @@ If you find additional issues which are not part of the PR, reproduce and test t
 
 ### Ask on Discord
 
-If the test instructions are unclear or any questions come up regarding the test or the outcome please ask on the Discord "quality-assurance" channel for support.
+If the test instructions are unclear or any questions come up regarding the test or the outcome, please ask on the Discord "quality-assurance" channel for support.
 
-Look in "quality-assurance" if a discussion thread already exists for this issue (thread title starting with PR#), and if it does ask your questions directly there.
+Look in "quality-assurance" if a discussion thread already exists for this issue (thread title starting with PR#), and if it does, ask your questions directly there.
 
 !!! block ""
     Example:<br/>
     ![Discord Thread Example](assets/qa-process/discord-thread.png "Discord Thread Example")
 
-If no dedicated thread exists for the PR please provide the #PR number and title in the "quality-assurance" channel and ask your question or describe your issue.
+If no dedicated thread exists for the PR, please provide the #PR number and title in the "quality-assurance" channel and ask your question or describe your issue.
 
 ### Communication
 
@@ -133,7 +133,7 @@ Also reporting the PR# and test result after completing a report is common pract
 
 ## Reporting on Tests
 
-To report test results on GitHub please use the template below:
+To report test results on GitHub, please use the template below:
 
 ```
 Quality Assurance Tester/Trainee Report
@@ -169,19 +169,19 @@ Media:
 !!! tip "Tip: Using GitHub Save for Template"
     We suggest using the "Saved Replies" feature of GitHub for the QA Template. You can set them up as follows:
 
-    1. Click on your profile picture in the top right corner and click on Settings
-    2. Click on Saved replies
+    1. Click on your profile picture in the top-right corner and click on Settings.
+    2. Click on Saved replies.
     3. Give your saved reply a name and paste the QA template.
 
-    Then when writing a QA report, click on the arrow in the top right corner of the comment field. Select your saved reply and insert the necessary data.
+    Then, when writing a QA report, click on the arrow in the top-right corner of the comment field. Select your saved reply and insert the necessary data.
 
-    Alternatively you can use the keyboard shortcut CTRL+. CTRL+1 -> note that the number represents your saved replies so if you have multiple and your QA template is the third one you would have to use CTRL+3.
+    Alternatively, you can use the keyboard shortcut CTRL+. CTRL+1 -> note that the number represents your saved replies, so if you have multiple and your QA template is the third one, you would have to use CTRL+3.
 
 ## Discord Roles
 
-To manage the QA team and focus on quality the FlyByWire QA Team currently has two levels of QA testers: **QA Trainee** and **QA Testers**.
+To manage the QA team and focus on quality, the FlyByWire QA Team currently has two levels of QA testers: **QA Trainee** and **QA Testers**.
 
-After being accepted as QA tester (see [Becoming a QA Tester](#becoming-a-qa-tester)) you will get the QA Trainee role.
+After being accepted as a QA tester (see [Becoming a QA Tester](#becoming-a-qa-tester)) you will get the QA Trainee role.
 
 !!! info "QA Roles"
     **QA Trainees**
@@ -196,7 +196,7 @@ After being accepted as QA tester (see [Becoming a QA Tester](#becoming-a-qa-tes
 
     Free to test all available Pull Requests ready to test. The high standard they have proven as a QA Trainee will continue to be expected from them.
 
-In general to maintain your QA Team status a minimum of one test every two weeks is required. You can announce in the quality-assurance Discord channel if you need to take a break from testing to retain your status although not submitting any test reports.
+In general, to maintain your QA Team status, a minimum of one test every two weeks is required. You can announce in the quality-assurance Discord channel if you need to take a break from testing to retain your status, although not submitting any test reports.
 
 Special QA requests to IRL pilots will be made in the #pilot-feedback channel.
 

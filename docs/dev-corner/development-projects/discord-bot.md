@@ -2,7 +2,7 @@
 
 This page details the available bot commands on the FlyByWire Simulations Discord server custom bot. 
 
-For information on how to contribute to bot development visit the Discord bot repository or contact the following users on Discord for assistance:
+For information on how to contribute to bot development, visit the Discord bot repository or contact the following users on Discord for assistance:
 
 - BenW#8484
 - oim#0001

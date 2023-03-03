@@ -1,6 +1,6 @@
 # Javascript
 
-Please utilize the following information when developing for the A32NX to keep your javascript functions clean. 
+Please utilize the following information when developing for the A32NX to keep your JavaScript functions clean. 
 
 ## Tips and Tricks
 

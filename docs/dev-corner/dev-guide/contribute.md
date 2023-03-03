@@ -2,11 +2,11 @@
 
 Welcome to the A32NX project repository. Thank you for your interest in contributing to the project. Full details and guidelines on how to ensure this project is managed well are included below.
 
-As this is an open source project, anyone is free to contribute as much or as little as they like.
+As this is an open-source project, anyone is free to contribute as much or as little as they like.
 
-If you're just getting started with GitHub or project contributions then we suggest you take a look at issues on the repository. These issues will vary in complexity depending on the issue itself but will give you a good insight into the different topics you could contribute to.
+If you're just getting started with GitHub or project contributions, then we suggest you take a look at issues on the repository. These issues will vary in complexity depending on the issue itself, but will give you a good insight into the different topics you could contribute to.
 
-If you're comfortable contributing to Open Source projects on GitHub please ensure you read our expectations for issue tracking, feature proposals and pull requests.
+If you're comfortable contributing to Open-Source projects on GitHub, please ensure you read our expectations for issue tracking, feature proposals and pull requests.
 
 If you're looking for tools and tips to help you develop, see [Development Resources](resources.md).
 
@@ -32,11 +32,11 @@ The work-flow for submitting a new pull request is designed to be simple, but al
 - Create a new branch (with a clear name of what is being changed).
 - Add changes to CHANGELOG.md with credits to yourself.
 - Commit your changes.
-- When writing commit messages make sure they are clear about what has been changed.
+- When writing commit messages, make sure they are clear about what has been changed.
 - Push the commit(s) to your fork.
 - Submit a pull request (PR) to the master branch.
 - The PR title should describe the change that has been made.
-- Follow the PR template and write as much detail as necessary for your changes and include documents/screenshots if needed.
+- Follow the PR template and write as much detail as necessary for your changes, and include documents/screenshots if needed.
 - Be prepared to answer any questions about your PR when it is reviewed for acceptance.
 
 **Please** keep your changes in a single PR as small as possible (relating to one issue) as this makes it easier to review and accept.  Large PRs with a small error will prevent the entire PR from being accepted.
@@ -45,7 +45,7 @@ The work-flow for submitting a new pull request is designed to be simple, but al
 
 ## Helping others
 
-Please help other contributors to the project wherever you can, as people all start somewhere. If you require assistance or wish to provide assistance you can ask/answer questions on the [#dev-support](https://discord.gg/v3jAxJpwZm){target=new} channel on discord.
+Please help other contributors to the project wherever you can, as people all start somewhere. If you require assistance or wish to provide assistance, you can ask/answer questions on the [#dev-support](https://discord.gg/v3jAxJpwZm){target=new} channel on discord.
 
 ## Finding tasks
 
@@ -54,19 +54,19 @@ There you can find open bug reports or feature requests from users or other deve
 
 ## Issues
 
-If you require **support** with the A32NX, please utilise the channels on our official [Discord](https://discord.gg/flybywire). Issues regarding the features or bugs will not be handled on Discord. Please use GitHub issues to track new features or bugs.
+If you require **support** with the A32NX, please utilize the channels on our official [Discord](https://discord.gg/flybywire). Issues regarding the features or bugs will not be handled on Discord. Please use GitHub issues to track new features or bugs.
 
-When submitting an issue, there's a few guidelines we'd ask you to respect to make it easier to manage and for others to understand:
+When submitting an issue, there are a few guidelines we'd ask you to respect to make it easier to manage and for others to understand:
 
 - **Search the issue tracker** before you submit your issue - it may already be present.
-- When opening an issue, a template is provided for you. Please provide as much information as requested to ensure others are able to act upon the requests or bug report.
-- Please ensure you add screenshots or documentation references for bugs/changes so we can quickly ascertain if the request is suitable.
+- When opening an issue, a template is provided for you. Please provide as much information as requested to ensure others are able to act upon the requests or bug reports.
+- Please ensure you add screenshots or documentation references for bugs/changes, so we can quickly ascertain if the request is suitable.
 
-**In order to be 'assigned' an issue**, please comment on the issue itself letting others know you are working on it.
+**To be 'assigned' an issue**, please comment on the issue itself, letting others know you are working on it.
 
 ## Code Quality
 
-Code quality is of an utmost importance as it allows other developers to more easily find bugs and understand logic.
+Code quality is of an utmost importance, as it allows other developers to more easily find bugs and understand logic.
 
 An ESLint configuration is provided and should cover most code style rules.
 
@@ -78,11 +78,11 @@ A few guidelines apply:
 - Maintain separation of concerns
 - Do not be afraid to separate code into logical blocks, even if resulting sub-functions are only used locally (while maintaining a reasonable limit)
 - (aircraft development specific) Avoid polling - prefer reactive APIs (but remain sure of not introducing state that cannot be externally read)
-- Avoid introducing new technologies/languages without talking with the development team
+- Avoid introducing new technologies/languages without talking to the development team
 
 Additionally, a few practices are straight up forbidden:
 
-- Do not use `async/await` without a good reason (it does not make code run faster unless you are calling threaded APIs like `fetch`)
+- Do not use `async/await` without a good reason (it does not make code run faster, unless you are calling threaded APIs like `fetch`)
 - Do not use hungarian notation (b, m, g identifier prefixes)
 - Do not perform business logic calculations in presentation code
 
@@ -90,7 +90,7 @@ Additionally, a few practices are straight up forbidden:
 
 Our version control approach maintains the following guidelines:
 
-- Commit messages should be short and to the point. The [Angular commit message convention](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-commit-message-format){target=new} is often used and recommended but not enforced at the moment
+- Commit messages should be short and to the point. The [Angular commit message convention](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-commit-message-format){target=new} is often used and recommended but not enforced at the moment.
 - Merge commits are discouraged in commit histories and disallowed when merging pull requests
 - Squash commits are exclusively used for pull request merges
 - One approving review from a maintainer is required to merge a pull request
@@ -99,11 +99,11 @@ Our version control approach maintains the following guidelines:
 
 ## Testing
 
-If changes are made they should always be tested to make sure they work as intended and don't conflict with other systems. If you see a pull request open it's recommended that you test the features that were implemented to check for errors or it works as intended.
+If changes are made, they should always be tested to make sure they work as intended and don't conflict with other systems. If you see a pull request open, it's recommended that you test the features that were implemented to check for errors, or whether it works as intended.
 
 ## References Material (real life aircraft)
 
-Creating a high-fidelity aircraft is a serious task that requires focus and dedication. But more importantly, it's a strive for accuracy and realism. Therefore, any change that affects the appearance or behavior of a plane needs to reference real documentation.
+Creating a high-fidelity aircraft is a serious task that requires focus and dedication. But more importantly, it's striving for accuracy and realism. Therefore, any change that affects the appearance or behavior of a plane needs to reference real documentation.
 
 The maintainer team has the role of deciding if references are suitable for a change. It is understandable that new developers do not have access to in-depth resource material.
 

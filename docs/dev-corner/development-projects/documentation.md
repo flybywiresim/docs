@@ -6,9 +6,9 @@
 
 The FlyByWire Documentation Project aims to provide all necessary information and documentation to successfully install and use the FlyByWire A32NX aircraft in Microsoft Flight Simulator.
 
-For this, we provide documentation about the A32NX add-on itself but also valuable additional documentation on how to fly an airliner on Microsoft Flight Simulator in general and even some specific A320neo documentation for the more involved user.
+For this, we provide documentation about the A32NX add-on itself, but also valuable additional documentation on how to fly an airliner on Microsoft Flight Simulator in general and even some specific A320neo documentation for the more involved user.
 
-We apply very high standards to quality and accuracy of our documentation, so that it is easy to read and understand but also as correct as possible. Therefore, we have a strict quality process and everything is reviewed by several users and real pilots from our team.
+We apply very high standards to the quality and accuracy of our documentation so that it is easy to read and understand but also as correct as possible. Therefore, we have a strict quality process and everything is reviewed by several users and real pilots from our team.
 
 ## How to Contribute
 
@@ -44,8 +44,7 @@ To participate in the FlyByWire Documentation Project, you need to have the foll
     ```
 !!! info "Pillow + Cairo Dependency"
     As part of the new social card feature released with `mkdocs-material 8.5.0` [Pillow](https://pillow.readthedocs.io/) and [Cairo Graphics](https://www.cairographics.org/) 
-    dependencies were added. We bundle this as part of our `requirements.txt` to ensure the dependencies are installed when attempting to test [social cards locally](#social-cards-feature). If you 
-    encounter any issues with these python packages:
+    dependencies were added. We bundle this as part of our `requirements.txt` to ensure the dependencies are installed when attempting to test [social cards locally](#social-cards-feature). If you encounter any issues with these python packages:
 
     - Install [GTK+](https://www.gtk.org/docs/installations/windows/) for Windows.
 
@@ -65,8 +64,7 @@ To participate in the FlyByWire Documentation Project, you need to have the foll
     For general purposes, you do not need to test or utilize this feature locally unless you want to develop or change configurations related to this feature. Please be aware of
     the information below if you intend to test this locally.
 
-We have added the social cards feature to the FBW documentation project. When generating the social cards locally, the directory `.cache` is created where all the assets are
-generated. See [Complete Local Builds](#complete-local-builds).
+We have added the social cards feature to the FBW documentation project. When generating the social cards locally, the directory `.cache` is created where all the assets are generated. See [Complete Local Builds](#complete-local-builds).
 
 You may need to manually clean any files within the `.cache` directory if you encounter any build issues after generating / modifying configuration files related to this 
 feature.
@@ -91,10 +89,9 @@ feature.
     ```
   
     !!! danger "Building the Project with No Internet Connection"
-        This project utilizes the `external-markdown` plugin which pulls MarkDown files from other repositories during the build for both production and development. This helps reference other 
-        important documentation externally without having to copy and paste it into this project.
+        This project utilizes the `external-markdown` plugin, which pulls MarkDown files from other repositories during the build for both production and development. This helps reference other important documentation externally without having to copy and paste it into this project.
         
-        When working on a feature branch without an internet connection your development server may exit and fail to build resulting in:
+        When working on a feature branch without an internet connection, your development server may exit and fail to build, resulting in:
         
         ```
         Error! https://[hyperlink here] returned connection error
@@ -102,7 +99,7 @@ feature.
         
         ---
 
-        In order to bypass this issue you can comment out the `external-markdown` plugin temporarily in `mkdocs.yml` found in the /root of this project. (Please ensure not to commit this change 
+        To bypass this issue, you can comment out the `external-markdown` plugin temporarily in `mkdocs.yml` found in the /root of this project. (Please ensure not to commit this change 
         when creating a Pull Request.) See the example below:
 
         ``` { .yaml .annotate title="mkdocs.yml example configured for offline builds" }
@@ -114,7 +111,7 @@ feature.
         # external-markdown: {} (1)
         ```
 
-        1. For production or PR purposes please ensure that the above plugin reads `external-markdown: {}` (without the preceding `#`) before finalizing your PR.
+        1. For production or PR purposes, please ensure that the above plugin reads `external-markdown: {}` (without the preceding `#`) before finalizing your PR.
   
 !!! info "Faster Preview Server"
     You can opt to use a faster instance of the developer server by invoking the flag `--dirtyreload`. This just checks for any markdown that has changed since the HTML was rendered and will reconstruct any relevant pages only, rather than rebuilding the entire website.
@@ -127,7 +124,7 @@ feature.
         Navigation and new internal links may not get updated on other pages while using `--dirtyreload`. Verify links using the standard serve or build command.
 
 - You can now browse the current checked out branch in a browser at this address: [http://127.0.0.1:8000/](http://127.0.0.1:8000/). The site renders every time you save any `filename.md` you are working on.
-- Optional: Build static site locally for testing:
+- Optional: Build a static site locally for testing:
 
     ```
     mkdocs build --clean --no-directory-urls
@@ -138,8 +135,8 @@ feature.
 
 #### Make Changes or Additions to the Documentation
 
-- Create a new branch based of branch "primary" (might differ for certain subprojects) and checkout this new branch. Give a short but meaningful name to the branch.
-- Make initial changes on your local branch.
+- Create a new branch based on branch "primary" (might differ for certain subprojects) and checkout this new branch. Give a short but meaningful name to the branch.
+- Make initial changes to your local branch.
 - Create a [Draft Pull Request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-forkhttps://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork){target=new} (aka PR) early to let people know what you are working on.
     - Explain in the PR Description what you are changing/adding and how people should review your changes.
 - Work on your changes locally, preview constantly and push your changes regularly to get a preview deployment for others to provide feedback.
@@ -192,13 +189,12 @@ If you would like to fully test a complete build of the production website, you 
 - You can edit existing pages simply by editing an existing `pagename.md`.
 - To create a page, simply create a new file "pagename.md" in an appropriate folder and start writing your documentation. Best practices it to look at other pages regarding the general structure (Headings, Material for MkDocs features, etc.).
 - Create the page in the navigation folder you feel this page belongs to. The Documentation Team will be happy to support you with the best location and also how to create a navigation to your page.
-- During the PR Review, the page still can be moved and navigation can be changed/added. So don't worry too much about it and focus on the content for your page.
+- During the PR Review, the page can still be moved and navigation can be changed/added. So don't worry too much about it and focus on the content for your page.
 - Add images to the section's asset folder. Consider creating a folder for your page when using several images.
 - Although the FlyByWire Documentation Team will take care of navigation, it might still be of interest how the navigation is done. This is well explained on the [mkdocs-awesome-pages-plugin's README on their GitHub](https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin#Features){target=new}
 
 !!! tip "Embedding YouTube Videos"
-    We have included the plugin `mkdocs-video` to streamline adding YouTube embeds into documentation. This removes the necessity to inline `<iframe>` information within 
-    documentation pages. 
+    We have included the plugin `mkdocs-video` to streamline adding YouTube embeds into documentation. This removes the necessity to inline `<iframe>` information within documentation pages. 
 
     The plugin uses the markdown image syntax with a custom marker defined in mkdocs.yml: `video-embed`.
 
@@ -207,7 +203,7 @@ If you would like to fully test a complete build of the production website, you 
     ```
 
 !!! tip "Search Exclusion"
-    While writing documentation, you may want to include pages in the final build as part of the `docs/` directory but not have these pages referenced within the search index.
+    While writing documentation, you may want to include pages in the final build as part of the `docs/` directory, but not have these pages referenced within the search index.
 
     You can simply add to the top of the document the following meta information to utilize mkdocs-material's built in search exclusion:
 
@@ -222,7 +218,7 @@ If you would like to fully test a complete build of the production website, you 
 
 - Have your editor and browser preview side-by-side on your screen.
 - Every time you save your file, the "mkdocs serve" should make your browser reload, and you can preview your changes directly.
-- Start with the structure of your documentation page. E.g. headlines first and maybe notes below the headlines of what the section should cover. Build up your page from there.
+- Start with the structure of your documentation page. E.g., headlines first and maybe notes below the headlines of what the section should cover. Build up your page from there.
 - How to do:
     - Links: `[Link-Text](https://www.target.domain/page)`
         - internal links need a relative path to the .md file
