@@ -10,6 +10,9 @@
     We recommend to **not** converting old liveries. Many liveries for the Asobo A320, especially the ones from livery collections are often very old, low quality and not maintained. They 
     may cause a number of issues and can even lead to CTDs (crash to desktop).
 
+    !!! info ""
+        We instead suggest downloading compatible liveries from [flightsim.to](https://flightsim.to/c/liveries/flybywire-a32nx/most-downloaded){target=new}.
+
 To manually convert a livery made for the default A320neo to work with the new FBW A32NX, you have to edit three files in that livery's folder.
 
 !!! info "Step One"
