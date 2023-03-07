@@ -713,17 +713,17 @@ Flight Deck: [ECAM Control Panel](../../pilots-corner/a32nx-briefing/flight-deck
 |                       |                                  |          |            |             |                                                                            |
 | Lower Display         | LIGHT POTENTIOMETER:93           | 0..100   | R/W        | MSFS VAR    |                                                                            |
 |                       |                                  |          |            |             |                                                                            |
-| ECAM SD Page button   | A32NX_ECAM_SD_CURRENT_PAGE_INDEX | -1..12   | R          | Custom LVAR | See below. <br/>~~(changes button, but does not switch ECAM page)~~        |
+| ECAM SD Page button   | A32NX_ECAM_SD_CURRENT_PAGE_INDEX | -1..12   | R/W        | Custom LVAR | See below.                                                                 |
 |                       |                                  |          |            |             |                                                                            |
-| Left CLR  button      | A32NX_BTN_CLR                    | 0&#124;1 | R/W        | Custom LVAR |                                                                            |
+| Left CLR  button      | A32NX_BTN_CLR                    | 0&#124;1 | R/W        | Custom LVAR | This is a momentary button - it needs to be reset to 0 by the API user     |
 |                       |                                  |          |            |             |                                                                            |
-| Right CLR button      | A32NX_BTN_CLR2                   | 0&#124;1 | R/W        | Custom LVAR |                                                                            |
+| Right CLR button      | A32NX_BTN_CLR2                   | 0&#124;1 | R/W        | Custom LVAR | This is a momentary button - it needs to be reset to 0 by the API user     |
 |                       |                                  |          |            |             |                                                                            |
-| RCL button            | A32NX_BTN_RCL                    | 0&#124;1 | R/W        | Custom LVAR |                                                                            |
+| RCL button            | A32NX_BTN_RCL                    | 0&#124;1 | R/W        | Custom LVAR | This is a momentary button - it needs to be reset to 0 by the API user     |
 |                       |                                  |          |            |             |                                                                            |
-| T.O. CONFIG button    | A32NX_BTN_TOCONFIG               | 0&#124;1 | R/W        | Custom LVAR |                                                                            |
+| T.O. CONFIG button    | A32NX_BTN_TOCONFIG               | 0&#124;1 | R/W        | Custom LVAR | This is a momentary button - it needs to be reset to 0 by the API user     |
 |                       |                                  |          |            |             |                                                                            |
-| EMER CANC button      | A32NX_BTN_EMERCANC               | 0&#124;1 | R/W        | Custom LVAR |                                                                            |
+| EMER CANC button      | A32NX_BTN_EMERCANC               | 0&#124;1 | R/W        | Custom LVAR | This is a momentary button - it needs to be reset to 0 by the API user     |
 |                       |                                  |          |            |             |                                                                            |
 | Page to show on error | A32NX_ECAM_SFAIL                 | -1..12   | R          | Custom LVAR | See below. <br/>Has the page index of the page called by the error message |
 
