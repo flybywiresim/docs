@@ -6,6 +6,7 @@
   --md-primary-fg-color--dark:  hsl(216,32%,17%);
   --md-primary-fg-color--light: #00E0FE;
   --md-accent-fg-color:         #00E0FE;
+  --md-secondary-accent-color:  #0E131B;
   --header-font:                Manrope;
 }
 
@@ -108,6 +109,11 @@
   background-color: #00E0FE;
   color: var(--md-default-bg-color);
 }
+
+tbody {
+    background: var(--md-secondary-accent-color);
+}
+
 /* reduced table row height */
 .md-typeset table:not([class]) td {
   border-top: .05rem solid var(--md-default-fg-color--lightest);
@@ -118,3 +124,4 @@
  .md-typeset [type=checkbox]:checked+.task-list-indicator:before {
     background-color: #00E0FE;
 }
+
