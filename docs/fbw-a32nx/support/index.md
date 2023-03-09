@@ -23,7 +23,7 @@ This guide shall help you how to identify and solve these issues by guiding you 
 
 !!! warning "IMPORTANT"
 
-The FBW A32NX aims to become a realistic simulation of a real Airbus A320neo. Accordingly, as with real pilots, some reading and learning is required to gain the knowledge to competently fly this aircraft, even in a simulator. Our support channels are not meant to and cannot replace this learning process for you.
+The FBW A32NX aims to become a realistic simulation of a real Airbus A320neo. Accordingly, as with real pilots, some reading, and learning is required to gain the knowledge to competently fly this aircraft, even in a simulator. Our support channels are not meant to and cannot replace this learning process for you.
 
 A good place to start learning to fly and operate the FlyByWire A32NX is our [Beginner Guide](../../pilots-corner/beginner-guide/overview.md).
 
@@ -33,13 +33,13 @@ Please make sure you have acquired the knowledge to distinguish a software issue
 
 ## 2. How to Troubleshoot
 
-!!! warning "Before reporting an issue on the FlyByWire Discord or on GitHub, please follow this troubleshooting steps first."
+!!! warning "Before reporting an issue on the FlyByWire Discord or on GitHub, please follow these troubleshooting steps first."
 
 Please follow the steps below. If you can't reproduce the issue until the last item in the list, then it is most likely NOT a FlyByWire A32NX issue.
 
 1. Read [3. Research Known Issues](#3-research-known-issues)
 - **Make sure the issue is reproducible!**<br/>
-    Issues which happen only once can have many causes. These usually cannot be investigated or fixed, as they can't be reproduced by the FlyByWire team. To do so, restart the sim and try to create the same situation again (e.g. same airports, route, livery, time of day, weather, etc.).
+    Issues which happen only once can have many causes. These usually cannot be investigated or fixed, as they can't be reproduced by the FlyByWire team. To do so, restart the sim and try to create the same situation again (e.g., same airports, route, livery, time of day, weather, etc.).
 - If the issue is reproducible, do a **test in a different situation** (different airports, route, weather, etc.).
 - If the issue is still reproducible, please do a **test with another aircraft** (preferably a default Microsoft Flight Simulator aircraft). If the issue is reproducible with other aircraft, it is most likely **not** a FlyByWire A32NX issue. If it is not reproducible with other aircraft, follow the next steps.
 - To make sure the issue you are experiencing is not caused by a conflict with other add-ons or liveries ***remove everything (really everything!) from your [Community Folder](#community-folder-content)** and perform a [clean reinstall](../installation.md#clean-install-steps) of the A32NX with the [FlyByWire Installer](https://api.flybywiresim.com/installer){target=new}.
@@ -60,7 +60,7 @@ Join our Discord server [:fontawesome-brands-discord:{: .discord } - **Discord L
 
     ![Pinned-Messages](../assets/support-guide/Pinned-Messages.png "Pinned-Messages")
 
-- Read the Sticky Messages, which is automatically posted after each message.
+- Read the Sticky Messages, which are automatically posted after each message.
 
     ![Sticky-Message](../assets/support-guide/Sticky-Message.png "Sticky-Message")
 
@@ -170,24 +170,24 @@ Position yourself in the cockpit using arrow keys (default key mapping) to look 
 
 ### FDR Files
 
-The FlyByWire A32NX has a built-in data collection system to help with development, debugging and user support.
+The FlyByWire A32NX has a built-in data collection system to help with development, debugging, and user support.
 
 The idea is taken from real aircraft and their flight data recorder and helps to analyze issues and performance of the simulated aircraft.
 
-These files are stored in your [work folder](#work-folder) and you will find the FDR files for the last 10 flights you did.
+These files are stored in your [work folder](#work-folder), and you will find the FDR files for the last 10 flights you did.
 
 You should recognize the correct one by the filename, which is the date and time of the flight. For a long flight, it might have been split into several files.
 
 Example: 2021-11-15-12-57-13.fdr
 
-Compress/Zip the file(s) and upload them to a sharing site (e.g. [Swisstransfer.com](https://www.swisstransfer.com/){target=new} ) as these files are likely to be very large.
+Compress/Zip the file(s) and upload them to a sharing site (e.g., [Swisstransfer.com](https://www.swisstransfer.com/){target=new} ) as these files are likely to be very large.
 
 ### Work Folder
 
 Microsoft Flight Simulator allows mods like FlyByWire A32NX to store configuration and other data in a folder called "**work**": This folder is located in different places for the **MS Store version** and the **Steam version** of Microsoft Flight Simulator. The folder's location is described in the next paragraphs.
 
 !!! info ""
-    If you can't find the folders these folders might be hidden from you by Windows. Follow the directions on ["View hidden files and folders in Windows 10" on Microsoft's support site](https://support.microsoft.com/en-us/windows/view-hidden-files-and-folders-in-windows-10-97fbc472-c603-9d90-91d0-1166d1d9f4b5){target=new}.
+    If you can't find the folders, these folders might be hidden from you by Windows. Follow the directions on ["View hidden files and folders in Windows 10" on Microsoft's support site](https://support.microsoft.com/en-us/windows/view-hidden-files-and-folders-in-windows-10-97fbc472-c603-9d90-91d0-1166d1d9f4b5){target=new}.
 
 #### Microsoft Store Version
 
