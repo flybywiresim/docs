@@ -19,7 +19,7 @@
 
 ## Overview Page
 
-This page provides information about the aircraft. It has no further functionality at this time.
+This page provides information about the aircraft. It offers no further functionality at this time.
 
 ## OFP Page
 

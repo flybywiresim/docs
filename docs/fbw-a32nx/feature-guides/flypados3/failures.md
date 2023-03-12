@@ -4,13 +4,11 @@
 
 ## Overview
 
-Although far from complete some A32NX systems are already capable of simulating failures.
+Although far from complete, some A32NX systems are already capable of simulating failures.
 
-To manage and trigger these failures this flyPad page gives the user structured access to these systems and allows 
-simple triggering of failures by mouse click.
+To manage and trigger these failures, this flyPad page gives the user structured access to these systems and allows simple triggering of failures by mouse click.
 
-There are further extensions planned for the failures feature incl. more systems and trigger based failures. This 
-page will therefore change alongside the implementation of the failure system.
+There are further extensions planned for the failures feature, incl. more systems and trigger-based failures. This page will therefore change alongside the implementation of the failure system.
 
 ## Comfort view
 
@@ -65,7 +63,7 @@ page will therefore change alongside the implementation of the failure system.
 
 ## Active Failure View
 
-When a failure is actively simulated the system will be highlighted with a red color. 
+When a failure is actively simulated, the system will be highlighted with a red color. 
 
 <div style="position: relative;">
     <img src="/fbw-a32nx/assets/flypados3/flypad-failures-active1-view.png" style="width: 100%; height: auto;" loading="lazy">

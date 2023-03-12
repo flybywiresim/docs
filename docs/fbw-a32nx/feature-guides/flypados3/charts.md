@@ -4,7 +4,7 @@
 
 ## Navigraph
 
-With a valid Navigraph subscription the FlyByWire flyPad allows access to all Navigraph charts from within the flyPad.
+With a valid Navigraph subscription, the FlyByWire flyPad allows access to all Navigraph charts from within the flyPad.
 
 <div style="position: relative;">
     <img src="/fbw-a32nx/assets/flypados3/flypad-navigation.png" style="width: 100%; height: auto;" loading="lazy">
@@ -23,9 +23,7 @@ With a valid Navigraph subscription the FlyByWire flyPad allows access to all Na
 
 ### Authentication to Navigraph
 
-Before you can use the Navigraph integration the flyPad will ask you once to authenticate and authorize Navigraph 
-access by either scanning the QR code or visiting the shown url in a browser. Login in there and authorize FlyByWire 
-to access the Navigraph account.
+Before you can use the Navigraph integration, the flyPad will ask you once to authenticate and authorize Navigraph access by either scanning the QR code or visiting the shown URL in a browser. Login in there and authorize FlyByWire to access the Navigraph account.
 
 <div style="position: relative;">
     <img src="/fbw-a32nx/assets/flypados3/charts-navigraph-login.png" style="width: 100%; height: auto;" loading="lazy">
@@ -44,8 +42,7 @@ to access the Navigraph account.
 
 ### Map Controls
 
-After authenticating you will have access to the Navigraph page where you can list available charts for airports, 
-view and pin them, etc. See the list of controls below. 
+After authenticating, you will have access to the Navigraph page where you can list available charts for airports, view and pin them, etc. See the list of controls below. 
 
 !!! block ""
     ![](../../assets/flypados3/airport-selection.png){loading=lazy width=50% align=left}
@@ -61,7 +58,7 @@ view and pin them, etc. See the list of controls below.
 
 !!! block ""
     ![](../../assets/flypados3/rotate-control.png){loading=lazy width=10% align=left}
-    Rotate the chart be 45° either anti-clockwise or clockwise. 
+    Rotate the chart to be 45°, either anti-clockwise or clockwise. 
 
 !!! block ""
     ![](../../assets/flypados3/zoom-control.png){loading=lazy width=10% align=left}
@@ -75,7 +72,7 @@ view and pin them, etc. See the list of controls below.
 !!! block ""
     ![](../../assets/flypados3/fullscreen-control.png){loading=lazy width=10% align=left}
 
-    - show the chart in fullscreen
+    - show the chart in full-screen
     - light and dark mode switching
 
 ## Local Files
@@ -97,8 +94,7 @@ view and pin them, etc. See the list of controls below.
 
 ### FlyByWire SimBridge Required
 
-For accessing local files from the PC the FlyByWire SimBridge is required. This server is necessary as the sim 
-itself does not allow access to arbitrary files on the PC. 
+For accessing local files from the PC, the FlyByWire SimBridge is required. This server is necessary as the sim itself does not allow access to arbitrary files on the PC. 
 
 See our documentation on how to install and configure the [SimBridge](../../../simbridge/index.md).
 
@@ -119,8 +115,7 @@ See our documentation on how to install and configure the [SimBridge](../../../s
 
 ### Usage
 
-Local files (images, PDF) stored in a specific folder (see below) on the PC will be listed and can be opened similar to 
-the Navigraph charts. 
+Local files (images, PDF) stored in a specific folder (see below) on the PC will be listed and can be opened similar to the Navigraph charts. 
 
 The controls are similar to the Navigraph chart view (see above) although there will not be a light and dark mode. 
 
@@ -152,8 +147,7 @@ The feature does not support any subfolders (yet).
 
 ## Pinned Charts
 
-Available charts can be pinned by clicking on the pin symbol. The pinned charts are then available in this tab and 
-also in the charts-widget on the Dashboard. 
+Available charts can be pinned by clicking on the pin symbol. The pinned charts are then available in this tab and also in the charts-widget on the Dashboard. 
 
 <div style="position: relative;">
     <img src="/fbw-a32nx/assets/flypados3/pinned-charts.png" style="width: 100%; height: auto;" loading="lazy">
@@ -172,15 +166,13 @@ also in the charts-widget on the Dashboard.
 
 !!! block ""
     ![](../../assets/flypados3/pinned-charts-delete.png){loading=lazy width=70% align=left}
-    Click on edit to unpin charts. Of course this can also be done by unchecking the pin symbol in the chart lists. 
+    Click on edit to unpin charts. Of course, this can also be done by unchecking the pin symbol in the chart lists. 
 
 You can also remove all pinned charts at once by clicking the `Remove All` button (trash can) above the charts.
 
 !!! block ""
     ![](../../assets/flypados3/pinned-charts-sort.png){loading=lazy width=30% align=left}
-    Pinned charts can be sorted by selected one of the sort options. 
+    Pinned charts can be sorted by selecting one of the sort options. 
 
 !!! block ""
-    ![img.png](../../assets/flypados3/pinned-charts-search.png){loading=lazy width=50% align=left}
-    Pinned charts can be searched by typing the search term into the search field. Select where to search in the 
-    dropdown.  
+    ![img.png](../../assets/flypados3/pinned-charts-search.png){loading=lazy width=50% align=left} Pinned charts can be searched by typing the search term into the search field. Select where to search in the dropdown.  

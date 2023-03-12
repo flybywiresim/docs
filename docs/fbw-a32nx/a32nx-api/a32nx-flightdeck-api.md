@@ -9,14 +9,9 @@ hide:
 [Clickable Flight Deck](../../pilots-corner/a32nx-briefing/flight-deck/index.md){ .md-button }
 
 !!! note ""
-    The below table might lag behind the current developments of the A32NX. It is
-    based on the A32NX Development version and we try to keep it updated as best
-    as possible. Some variables/events are only available in the Experimental
-    version of A32NX and are marked as such.
+    The below table might lag behind the current developments of the A32NX. It is based on the A32NX Development version, and we try to keep it updated as good as possible. Some variables/events are only available in the Experimental version of A32NX and are marked as such.
 
-    You can help us keep this up to date and improve this by reporting any errors
-    or omissions on our [:fontawesome-brands-discord:{: .discord } - **Discord**](https://discord.gg/flybywire){target=new}
-    in the **#a32nx-support** channel or by creating an issue report here: [Docs Issues](https://github.com/flybywiresim/docs/issues){target=new}.
+    You can help us keep this up to date and improve this by reporting any errors or omissions on our [:fontawesome-brands-discord:{: .discord } - **Discord**](https://discord.gg/flybywire){target=new} in the **#a32nx-support** channel or by creating an issue report here: [Docs Issues](https://github.com/flybywiresim/docs/issues){target=new}.
 
 Find the complete list of Custom Event and Custom LVARS of the A32NX:
 
@@ -130,15 +125,11 @@ Flight Deck:  [EXT LT Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd
 |              | CIRCUIT SWITCH ON:17  | 0&#124;1 | R/W        | MSFS VAR         | NOSE T.O.                                                          |
 
 !!! note "Landing and Taxi lights"
-    The default behaviour of the SIMCONNECT events for landing lights and taxi
-    lights is very weird for the A320 as SIMCONNECT does not really account for
-    3 landing lights, one of them on the same switch as the taxi light and an
-    independent RWY TURN OFF light.
+    The default behavior of the SIMCONNECT events for landing lights and taxi lights is very weird for the A320 as SIMCONNECT does not really account for 3 landing lights, one of them on the same switch as the taxi light and an independent RWY TURN OFF light.
 
-    These events often trigger several lights and switches together and it is
-    very hard to specifically map them to single button/switches.
+    These events often trigger several lights and switches together, and it is very hard to specifically map them to single button/switches.
 
-    One solution we have found to be working is:
+    One solution we have found to be working, is:
 
     - Landing Lights L
         - Set `LIGHTING_LANDING_2` to 0 (sets the switch to ON)
@@ -158,7 +149,7 @@ Flight Deck:  [EXT LT Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd
         - Set `CIRCUIT SWITCH ON:21` to 1 (turns on left light)
         - Set `CIRCUIT SWITCH ON:22` to 1 (turns on right light)
 
-    !!! warning "Doing it this way might break any third party software trying to read the status of the lights through SIMCONNECT."
+    !!! warning "Doing it this way might break any third-party software trying to read the status of the lights through SIMCONNECT."
 
 
 ### Interior Lights Panel
@@ -911,7 +902,7 @@ Flight Deck: [Rudder Trim Panel](../../pilots-corner/a32nx-briefing/flight-deck/
 |          |                   |               |            |                  |                                                                                |
 | RESET    | RUDDER TRIM SET   | -16383..16384 | .          | SIMCONNECT EVENT |                                                                                |
 |          |                   |               |            |                  |                                                                                |
-| RUD TRIM | XMLVAR_RUDDERTRIM | 0 &#124; 2    | R/W        | Custom LVAR      | ~~Knob jumps back. Needs to be set repeatately until target value is reached~~ |
+| RUD TRIM | XMLVAR_RUDDERTRIM | 0 &#124; 2    | R/W        | Custom LVAR      | ~~Knob jumps back. Needs to be set repeatably until the target value is reached~~ |
 
 ### Cockpit Door
 
@@ -968,7 +959,7 @@ See [Nose Wheel and Tiller Operation](../feature-guides/nw-tiller.md)
 
 | Function                                     | API Usage                             | Values    | Read/Write | Type                     | Remark                                                                                 |
 |:---------------------------------------------|:--------------------------------------|:----------|:-----------|:-------------------------|:---------------------------------------------------------------------------------------|
-| Pushback System                              | A32NX_PUSHBACK_SYSTEM_ENABLED         | 0&#124;1  | R/W        | Custom LVAR              | To turn off Pushback System completely to not interfere with other pushback add-ons    |
+| Pushback System                              | A32NX_PUSHBACK_SYSTEM_ENABLED         | 0&#124;1  | R/W        | Custom LVAR              | To turn off teh Pushback System completely to not interfere with other pushback add-ons    |
 | Pushback Movement Factor                     | A32NX_PUSHBACK_SPD_FACTOR             | -1.0..1.0 | R/W        | Custom LVAR              | Set the speed of the pushback tug in percent. Negative values are backwards movements. |
 | Pushback Heading Factor                      | A32NX_PUSHBACK_HDG_FACTOR             | -1.0..1.0 | R/W        | Custom LVAR              | Set the turning factor from max left (-1.0) to max right (1.0)                         |
 
@@ -985,13 +976,13 @@ See [Nose Wheel and Tiller Operation](../feature-guides/nw-tiller.md)
         - Alternatively there is also the sim var `Pushback Attached` which can also be used.
     * Call the Pushback Tug via the SimConnect Event `K:TOGGLE_PUSHBACK`
     * Wait until the Pushback Tug is connected to the aircraft
-        - Should be immideately and is independent of the the actual visual pushback tug being attached to the aircraft 
-        - This is a sim issue as MSFS will not wait for the pushback tug model to be attached before setting the 
+        - Should be immediately and is independent of the actual visual pushback tug being attached to the aircraft 
+        - This is a sim issue, as MSFS will not wait for the pushback tug model to be attached before setting the 
         corresponding sim vars
     * Set the Pushback Movement Factor via the LVAR `L:A32NX_PUSHBACK_SPD_FACTOR` to the desired value
     * Set the Pushback Heading Factor via the LVAR `L:A32NX_PUSHBACK_HDG_FACTOR` to the desired value
-    * Set the Pushback Movement Factor via the LVAR `L:A32NX_PUSHBACK_SPD_FACTOR` to `0` to stop the psuhback tug
-    * To disconnect the pushback tug call the SimConnect Event `K:TOGGLE_PUSHBACK` again
+    * Set the Pushback Movement Factor via the LVAR `L:A32NX_PUSHBACK_SPD_FACTOR` to `0` to stop the pushback tug
+    * To disconnect the pushback tug, call the SimConnect Event `K:TOGGLE_PUSHBACK` again
 
     #### Pushback API Example
 

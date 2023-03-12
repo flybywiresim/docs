@@ -19,11 +19,11 @@
 
 ## Ground Service
 
-This page allows managing ground operation similar to the in-sim ATC ground services but without having to use the in-sim ATC.
+This page allows managing ground operation similar to the in-sim ATC ground services, but without having to use the in-sim ATC.
 
 ### Connect Jet Bridge
 
-When standing at a gate this connects and disconnects the gate's jetway if a jetway is available at the current gate.
+When standing at a gate, this connects and disconnects the gate's Jetway if a Jetway is available at the current gate.
 
 ### Door Fwd
 
@@ -31,8 +31,7 @@ Opens and closes the forward door.
 
 ### Call Fuel Truck
 
-Calls the fuel truck if available at the current airport. It will take quite a while until the fuel truck while 
-arrive. 5-10 minutes is not unusual. When the fuel truck arrives the MSFS fuel page appears.
+Calls the fuel truck if available at the current airport. It will take quite a while until the fuel truck arrives. 5-10 minutes is not unusual. When the fuel truck arrives, the MSFS fuel page appears.
 
 !!! warning ""
     We have deactivated the MSFS Fuel Page and you can't use it with the FlyByWire A32NX.
@@ -40,13 +39,11 @@ arrive. 5-10 minutes is not unusual. When the fuel truck arrives the MSFS fuel p
 
 ### Call Baggage Truck
 
-Calls the baggage service if available at the current airport and gate. Baggage service will open the cargo door, 
-load baggage and then close the cargo door automatically.
+Calls the baggage service if available at the current airport and gate. Baggage service will open the cargo door, load baggage and then close the cargo door automatically.
 
 ### Connect External Power
 
-Calls a ground power unit (GPU) if available at the current airport and gate or stand. This can be used if there is 
-otherwise no external power available.
+Calls a ground power unit (GPU) if available at the current airport and gate or stand. This can be used if there is otherwise no external power available.
 
 ### Door Aft
 
@@ -54,19 +51,17 @@ Opens and closes the aft door.
 
 ### Call Catering Truck
 
-Calls the catering service if available at the current airport and gate. The catering service will open the aft 
-door and automatically closes it after it has virtually supplied the aircraft.
+Calls the catering service if available at the current airport and gate. The catering service will open the aft door and automatically closes it after it has virtually supplied the aircraft.
 
 ### Ground Equipment 
 
 See [Wheel Chocks and GSE Safety Cones](../wheel-chocks-cones.md)
 
-For settings see: [flyPad Sim Options Settings](settings.md#sim-options)
+For settings, see: [flyPad Sim Options Settings](settings.md#sim-options)
 
 ## Fuel Page
 
-The fuel page provides accurate information about the quantity of fuel in the different tanks of the aircraft. It 
-also allows fueling or de-fueling the aircraft to the desired fuel quantity.
+The fuel page provides accurate information about the quantity of fuel in the different tanks of the aircraft. It also allows fueling or defueling the aircraft to the desired fuel quantity.
 
 <div style="position: relative;">
     <img src="/fbw-a32nx/assets/flypados3/flypad-ground-fuel.png" style="width: 100%; height: auto;" loading="lazy">
@@ -87,12 +82,11 @@ also allows fueling or de-fueling the aircraft to the desired fuel quantity.
 
 ![flyPad Fuel Page Refuel](../../assets/flypados3/fuel-refuel.png "flyPad Fuel Page Refuel")
 
-To set the fuel quantity simply click into the input field and change the value to the desired quantity.
+To set the fuel quantity, simply click into the input field and change the value to the desired quantity.
 
-If you have loaded a SimBrief flight plan you can import the required fuel directly by pressing the import symbol 
-(cloud with down arrow). 
+If you have loaded a SimBrief flight plan, you can import the required fuel directly by pressing the import symbol (cloud with down arrow). 
 
-Press the "play" symbol to start the refuelling process (de-fueling if the new quantity is lower than the current).
+Press the "play" symbol to start the refueling process (defueling if the new quantity is lower than the current).
 
 ### Realism Settings for Fuel Time
 
@@ -100,11 +94,11 @@ Press the "play" symbol to start the refuelling process (de-fueling if the new q
 
 Set this setting to the desired duration of refueling. Either instant refueling (Instant - but unrealistic), realistic refuel time (Real) or a middle ground (Fast).
 
-After starting the engines only "Instant" is available. 
+After starting the engines, only "Instant" is available. 
 
 ## Payload Page
 
-The Payload page allows setting up the payload of the aircraft, board and de-board passengers and load cargo. 
+The Payload page allows setting up the payload of the aircraft, board and deboard passengers and load cargo. 
 
 <div style="position: relative;">
     <img src="/fbw-a32nx/assets/flypados3/flypad-ground-payload.png" style="width: 100%; height: auto;" loading="lazy">
@@ -131,18 +125,17 @@ This widget allows setting up the payload of the aircraft.
 
 1. Planning
      - Enter the planned number of passengers and weight of cargo here. 
-     - You can also enter the planned ZFW (zero fuel weight) here which will change the other values accordingly.
+     - You can also enter the planned ZFW (zero fuel weight) here, which will change the other values accordingly.
 2. Current
     - Shows the current number of passengers, weight of cargo and ZFW.
-    - This will change as passengers board and de-board and cargo is loaded and unloaded.
+    - This will change as passengers board and deboard and cargo is loaded and unloaded.
 3. Per Passenger Values
     - Enter the weight of each passenger and the respective baggage weight per passenger.
     - This is used for the calculation of the total weight of passengers and baggage/cargo.
-    - Default values (also for SimBrief) are 80kg for passengers and 24kg for baggage.
-4. Start Boarding/De-Boarding
-    - Click on this button to start the boarding/de-boarding process.
-    - The process will take 5sec/1sec/0sec per passenger depending on the 
-      [Boarding/Loading Time setting](#configure-boardingloading-time).
+    - Default values (also for SimBrief) are 80 kg for passengers and 24 kg for baggage.
+4. Start Boarding/DeBoarding
+    - Click on this button to start the boarding/deboarding process.
+    - The process will take 5sec/1sec/0sec per passenger depending on the [Boarding/Loading Time setting](#configure-boardingloading-time).
     - The current number of passengers and weight of cargo will change accordingly. 
 5. Load Payload Values from SimBrief
     - The values for the number of passengers, weight of cargo and ZFW can be imported from the SimBrief flight plan.
@@ -162,18 +155,18 @@ This widget allows configuring the boarding/loading time.
 
 This shows the CG and ZFWCG envelope of the aircraft. The current CG is sown in cyan and the ZFWCG is shown in white.
 
-These current value indicators move during boarding and de-boarding and loading and unloading of cargo.
+These current value indicators move during boarding and deboarding and loading and unloading of cargo.
 
 ### Interactive Seating and Cargo Diagram
 ![flypad-ground-payload-seatscargo](../../assets/flypados3/flypad-ground-payload-seatscargo.png)
 
 This widget shows the planned and current loading of the cabin and cargo visually. 
 
-It also allows to change the loading by clicking on the seats or cargo areas.
+It also allows changing the loading by clicking on the seats or cargo areas.
 
-- Click on seats to plan to board/de-board individual passengers.
+- Click on seats to plan to board/deboard individual passengers.
 - Click on the cargo areas to plan to change cargo and cargo distribution.
-- Click on the boarding/de-boarding button to start the process.
+- Click on the boarding/deboarding button to start the process.
 
 The current cabin and cargo area layout of the A32NX consists of:
 
@@ -191,8 +184,7 @@ The current cabin and cargo area layout of the A32NX consists of:
 
 {--
 
-The flyPadOS 3 pushback system is in general not compatible with other pushback add-ons as they all use
-the same sim variables and will conflict with each other.
+The flyPadOS 3 pushback system is, in general, incompatible with other pushback add-ons as they all use the same sim variables and will conflict with each other.
 
 See [Pushback System On/Off](#pushback-system-onoff).
 
@@ -213,8 +205,7 @@ See [Pushback System On/Off](#pushback-system-onoff).
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
 
-The flyPad pushback system provides comfortable pushback from within the cockpit using buttons or controllers and the
-built-in map.
+The flyPad pushback system provides comfortable pushback from within the cockpit using buttons or controllers and the built-in map.
 
 !!! tip
     Use your controller's rudder and elevator axis to steer!
@@ -225,9 +216,7 @@ built-in map.
 
 ### Pushback System On/Off
 
-As pushback add-ons all use the same sim variables to control and move the aircraft during pushback the flyPad
-pushback system and these add-ons can usually not be used at the same time. Because of this the flyPad pushback system
-can be disabled completely to avoid any interference with other pushback add-ons.
+As pushback add-ons all use the same sim variables to control and move the aircraft during pushback the flyPad pushback system and these add-ons usually cannot not be used at the same time. Because of this, the flyPad pushback system can be disabled completely to avoid any interference with other pushback add-ons.
 
 !!! block ""
     ![img.png](../../assets/flypados3/flypad-pushback-system-off.png){align=center width=49% loading=lazy}
@@ -235,23 +224,18 @@ can be disabled completely to avoid any interference with other pushback add-ons
 
 A warning message will appear if you enable the system to remind users of these potential incompatibilities.
 
-External add-ons can recognize the flyPad pushback system and also deactivate it if they choose to do so by
-reading/setting this LVAR variable: `L:A32NX_PUSHBACK_SYSTEM_ENABLED`.
+External add-ons can recognize the flyPad pushback system and also deactivate it if they choose to do so by reading/setting this LVAR variable: `L:A32NX_PUSHBACK_SYSTEM_ENABLED`.
 
 ### Call/Release Tug
 
 Pressing this button will call and attach the pushback tug or release it in case it was already attached.
 
 !!! warning "Tug Animation"
-    From the point of view of the aircraft the tug appears to be immediately attached. This is a sim issue as the tug's
-    animation is not in sync with the tug-attached signal to the aircraft. This also allows to pushback immediately
-    although the visual tug is not yet connected to the aircraft.
+    From the perspective of the aircraft, the tug appears to be immediately attached. This is a sim issue, as the tug's animation is not in sync with the tug-attached signal to the aircraft. This also allows to pushback immediately, although the visual tug is not yet connected to the aircraft.
     <p />
-    To overcome this limitation the sim's pushback tug model would need to be changed which would conflict with
-    other pushback add-ons which use this method. We have therefore chosen not to implement this at this time.
+    To overcome this limitation the sim's pushback tug model would need to be changed which would conflict with other pushback add-ons which use this method. We have therefore decided not to implement this at this time.
 
-When releasing the tug the button will stay amber until the pushback pin is removed and the ECAM memo "NW STRG DISC"
-has disappeared (~15sec). The aircraft cannot be steered with the nose wheel steering pin installed.
+When releasing the tug, the button will stay amber until the pushback pin is removed and the ECAM memo "NW STRG DISC" has disappeared (~15sec). The aircraft cannot be steered with the nose wheel steering pin installed.
 
 !!! block ""
     ![img.png](../../assets/flypados3/flypad-pushback-tugcall.png){align=center width=32% loading=lazy}
@@ -304,29 +288,27 @@ You can use the standard elevator axis (pitch) for controlling the speed of the 
 
 ### Map
 
-The pushback map allows to execute the pushback without leaving the cockpit view. It depicts the airport and ground
-markings so that a precise pushback can be accomplished.
+The pushback map allows executing the pushback without leaving the cockpit view. It depicts the airport and ground markings so that a precise pushback can be accomplished.
 
 !!! block ""
     ![img_5.png](../../assets/flypados3/flypad-pushback-mapzoom.png){align=left width=5% loading=lazy}    
     <p />
-    The map allows to zoom in and out as require using the zoom buttons.
+    The map allows zooming in and out as require using the zoom buttons.
 
 
 !!! block ""
     ![img_7.png](../../assets/flypados3/flypad-pushback-map-aircraft-icon-filled.png){align=left width=5% loading=lazy}
     ![img_8.png](../../assets/flypados3/flypad-pushback-map-aircraft-icon-outlined.png){align=left width=5% loading=lazy}
     <p />
-    If the aircraft symbol is filled the map is in centered aircraft mode and moves with the aircraft movement.
-    If it is outlined the map is fixed and the aircraft symbol is moving.
+    If the aircraft symbol is filled, the map is in centered aircraft mode and moves with the aircraft movement.
+    If it is outlined, the map is fixed and the aircraft symbol is moving.
     <p />
-    The map can also be dragged and moved with the mouse. To reset the map to be centered on the aircraft press the  
-    aircraft symbol.
+    The map can also be dragged and moved with the mouse. To reset the map to be centered on the aircraft, press the aircraft symbol.
 
 !!! block ""
     ![img_6.png](../../assets/flypados3/flypad-pushback-map-turn-prediction.png){align=left width=15% loading=lazy}
     <p />
-    The map also features a turn prediction indicator providing a visual aid while turning. 
+    The map also features a turn prediction indicator, providing a visual aid while turning. 
 
 ### Pushback API
 
