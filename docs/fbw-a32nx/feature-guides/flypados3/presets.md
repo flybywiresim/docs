@@ -30,9 +30,7 @@ Lighting presets can be loaded [manually](#manual) or [automatically](#automatic
 
 #### Changing Preset Name
 
-To change a preset's name click on the current name of the preset and change the name to any string up to 16 
-characters. When you leave the input field a confirmation dialog will ask you to confirm the name change. Press 
-`Confirm` to save the new name.   
+To change a preset's name, click on the current name of the preset and change the name to any string up to 16 characters. When you leave the input field, a confirmation dialog will ask you to confirm the name change. Press `Confirm` to save the new name.   
 
 ![img_11.png](../../assets/flypados3/flypad-presets-name-change.png)
 
@@ -40,7 +38,7 @@ characters. When you leave the input field a confirmation dialog will ask you to
 
 ##### Manual
 
-To load a preset please click on the "Load Preset" button. The aircraft must be powered for the buttons to be enabled. 
+To load a preset, please click on the "Load Preset" button. The aircraft must be powered for the buttons to be enabled. 
 
 ![img_1.png](../../assets/flypados3/flypad-presets-load-button.png)
 
@@ -48,12 +46,10 @@ To load a preset please click on the "Load Preset" button. The aircraft must be 
 
 ##### Automatic
 
-You can also configure the aircraft to set your lighting preset automatically depending on the time of day. There are three configurable settings based on the simulator's time 
-of day.
+You can also configure the aircraft to set your lighting preset automatically depending on the time of day. There are three configurable settings based on the simulator's time of day.
 
 !!! warning ""
-    Using the automatic preset only sets the aircraft lighting once (when enabled or aircraft power is switched on). This feature will not automatically change your flight deck 
-    lighting as time progresses during your flight.
+    Using the automatic preset only sets the aircraft lighting once (when enabled or aircraft power is switched on). This feature will not automatically change your flight deck lighting as time progresses during your flight.
 
 Select a preset from the dropdown menu and ensure that you enable the feature using the toggle.
 
@@ -61,11 +57,11 @@ Select a preset from the dropdown menu and ensure that you enable the feature us
 
 #### Save a Preset
 
-To save a preset please click on the "Save Preset" button. The aircraft must be powered for the buttons to be enabled.
+To save a preset, please click on the "Save Preset" button. The aircraft must be powered for the buttons to be enabled.
 
 ![img_2.png](../../assets/flypados3/flypad-presets-save-preset-button.png)
 
-A confirmation dialog will appear to prevent you to accidentally overwrite existing presets. 
+A confirmation dialog will appear to prevent you from accidentally overwriting existing presets. 
 
 ![img_10.png](../../assets/flypados3/flypad-presets-save-preset-confirm.png)
 
@@ -73,8 +69,7 @@ A confirmation dialog will appear to prevent you to accidentally overwrite exist
 
 Aircraft presets allow you to automatically let a virtual co-pilot set up your aircraft to the requested preset state. 
 
-When loading a preset the virtual co-pilot will perform all necessary setup tasks in real time. Therefore, systems 
-like ADIR alignment, APU start, Engine starts will take the usual time to start up. 
+When loading a preset, the virtual co-pilot will perform all necessary setup tasks in real time. Therefore, systems like ADIR alignment, APU start, Engine starts will take the usual time to start up. 
 
 You as the pilot can use the time to set up the FMGC (MCDU), Flight Control Unit (FCU), Transponder-Ident and radios.
 
@@ -83,13 +78,9 @@ You as the pilot can use the time to set up the FMGC (MCDU), Flight Control Unit
 !!! tip "Aircraft presets can only be used on the ground."
 
 !!! tip "Interference While Loading a Preset" 
-    You can interfere with the setup of the virtual co-pilot any time, but it will be your own responsibility to make sure 
-    the setup is correct after the virtual co-pilot has finished setting up. Also, there is the risk that the virtual 
-    co-pilot will wait for certain steps to complete forever if you interrupt these steps before they complete. 
+    You can interfere with the setup of the virtual co-pilot any time, but it will be your own responsibility to make sure the setup is correct after the virtual co-pilot has finished setting up. Also, there is the risk that the virtual co-pilot will wait for certain steps to complete forever if you interrupt these steps before they complete. 
 
-    E.g. if the virtual co-pilot started the APU and you turn it off before the procedure is complete it can happen 
-    that the virtual co-pilot waits in vain for this step to complete. In this case you must cancel the loading with 
-    the `Cancel` button. 
+    E.g., if the virtual co-pilot started the APU and you turn it off before the procedure is complete it can happen that the virtual co-pilot waits in vain for this step to complete. In this case, you must cancel the loading with the `Cancel` button. 
 
 ### Loading a Preset
 
@@ -108,7 +99,7 @@ You as the pilot can use the time to set up the FMGC (MCDU), Flight Control Unit
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
 
-To load a preset click on the corresponding preset button. 
+To load a preset, click on the corresponding preset button. 
 
 <div style="position: relative;">
     <img src="/fbw-a32nx/assets/flypados3/flypad-presets-aircraft-load.png" style="width: 100%; height: auto;" loading="lazy">
@@ -125,7 +116,7 @@ To load a preset click on the corresponding preset button.
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
 
-To avoid accidentally loading a preset a confirmation dialog will appear. 
+To avoid accidentally loading a preset, a confirmation dialog will appear. 
 
 <div style="position: relative;">
     <img src="/fbw-a32nx/assets/flypados3/flypad-presets-aircraft-confirm.png" style="width: 100%; height: auto;" loading="lazy">
@@ -142,7 +133,7 @@ To avoid accidentally loading a preset a confirmation dialog will appear.
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
 
-During the loading the status bar will show the currently executed step. 
+During the loading, the status bar will show the currently executed step. 
 
 <div style="position: relative;">
     <img src="/fbw-a32nx/assets/flypados3/flypad-presets-aircraft-status.png" style="width: 100%; height: auto;" loading="lazy">
@@ -159,8 +150,7 @@ During the loading the status bar will show the currently executed step.
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
 
-It will also show when the execution pauses for certain steps to complete. For example ADIR alignment, the 
-APU start and the engines starts.
+It will also show when the execution pauses for certain steps to complete. For example, ADIR alignment, the APU start and the engines start.
 
 <div style="position: relative;">
     <img src="/fbw-a32nx/assets/flypados3/flypad-presets-aircraft-wait.png" style="width: 100%; height: auto;" loading="lazy">
@@ -179,9 +169,7 @@ APU start and the engines starts.
 
 ### Canceling Loading a Preset
 
-You can cancel loading of a preset any time by pressing the `Cancel` button. The currently executed step will be 
-completed and the aircraft will be in between presets in the state up to the last executed step. You can then either 
-complete the setup manually or simply click another preset (or the same) to be loaded.   
+You can cancel loading of a preset any time by pressing the `Cancel` button. The currently executed step will be completed, and the aircraft will be in between presets in the state up to the last executed step. You can then either complete the setup manually or simply click another preset (or the same) to be loaded.   
 
 ### Aircraft States Overview
 
@@ -192,7 +180,7 @@ complete the setup manually or simply click another preset (or the same) to be l
 | POWERED_CONFIG_ON   | BAT1 On                        | SOP: PRELIMINARY COCKPIT PREPARATION             |
 |                     | BAT2 On                        |                                                  |
 |                     | EXT PWR On                     |                                                  |
-|                     | APU Fire Test On               | If no Ext Pwr is available we start the APU here |
+|                     | APU Fire Test On               | If no Ext Pwr is available, we start the APU here |
 |                     | APU Fire Test Off              |                                                  |
 |                     | APU Master On                  |                                                  |
 |                     | APU Start On                   |                                                  |
@@ -213,7 +201,7 @@ complete the setup manually or simply click another preset (or the same) to be l
 |                     | Waiting...                     |                                                  |
 |                     | APU Fire Test On               | APU fire test                                    |
 |                     | APU Fire Test Off              |                                                  |
-|                     | APU Master On                  | After fire test we start the APU                 |
+|                     | APU Master On                  | After the fire test, we start the APU                 |
 |                     | APU Start On                   |                                                  |
 |                     | ENG 1 Fire Test On             | ENG fire test                                    |
 |                     | ENG 1 Fire Test Off            |                                                  |
@@ -325,7 +313,7 @@ complete the setup manually or simply click another preset (or the same) to be l
 
 ## Quick Help
 
-For convenience there is also a summarized help page in the flyPad for your reference. 
+For convenience, there is also a summarized help page in the flyPad for your reference. 
 
 <div style="position: relative;">
     <img src="/fbw-a32nx/assets/flypados3/flypad-presets-help.png" style="width: 100%; height: auto;" loading="lazy">

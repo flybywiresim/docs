@@ -1,21 +1,21 @@
 # Custom Hydraulics
 
 ## Gear system
-Our new gear system aims at replicating its real counterpart even in the slightest details. While more improvements will come, the current system already features:
+Our new gear system aims at replicating its real counterpart even in the slightest details. While further enhancements will come, the current system already features:
 
 - Rigid body physics of gears and doors, affected by aerodynamics
-- Hydraulic actuators simulation with "push to retract" main gears and "push to extend" nose gear
+- Hydraulic actuators' simulation with "push to retract" main gears and "push to extend" nose gear
 - All proximity sensors, one set per LGCIU computer
 - LGCIU computers monitoring, sequence control state machine and their change-over mechanism
 - Safety valve / Shut off valve / Vent valves controls
-- Gear lever baulk lock mechanism powered by LGCIUs
+- Gear lever bulk lock mechanism powered by LGCIUs
 - Emergency extension system
 - Failures
 
 !!! warning "Not Yet Implemented"
     Non-exhaustive list of features yet to come:
 
-    - Doors vs gear collisions
+    - Doors vs. gear collisions
     - Complete fault monitoring and BITE tests of LGCIUs
 
 ### Functionality
@@ -23,19 +23,18 @@ Using the gear system should not be different from before. Selecting gear up wil
 
 However, because it's now closer to the real system under the hood, you have to be aware of some subtleties of the gear system.
 
-Since all of the hydraulics are simulated, the behaviour of the system will highly depend on the hydraulic status of the plane. Even in nominal conditions, gear system is 
-such a high flow consumer that it can impact the green system pressure. In turn this will also trigger the PTU to help provide hydraulic power from the yellow side. 
+Since all the hydraulics are simulated, the behavior of the system will highly depend on the hydraulic status of the plane. Even in nominal conditions, the gear system is such a high flow consumer that it can impact the green system pressure. In turn, this will also trigger the PTU to help provide hydraulic power from the yellow side. 
 
-Be aware that any degraded condition will impact the behaviour of the retraction/extension sequence. PTU being off will cause green system pressure to reach lower pressure level during the sequence, while using only yellow electric pump for the gear sequence might cause LGCIU faults as the sequence can get quite a long time to perform.
+Be aware that any degraded condition will impact the behavior of the retraction/extension sequence. PTU being off will cause green system pressure to reach lower pressure level during the sequence, while using only yellow electric pump for the gear sequence might cause LGCIU faults as the sequence can get quite a long time to perform.
 
-Be aware that there's a safety valve that will cut off any hydraulic supply to the gear system above approximately 260kts. This safety system is independent of LGCIU computers, and if you use the gear while crossing that speed limit, strange behaviour and ECAM faults are to be expected.
+Be aware that there's a safety valve that will cut off any hydraulic supply to the gear system above approximately 260kts. This safety system is independent of LGCIU computers, and if you use the gear while crossing that speed limit, strange behavior and ECAM faults are to be expected.
 
 If such a situation happens:
 
 - Get your speed below 260kts (which is already too high!!)
-- Getting the gear lever back to down position, then to up will hopefully switch on the second LGCIU computer and save the day.
+- Getting the gear lever back to the down position, then to up, will hopefully switch on the second LGCIU computer and save the day.
 
-!!! tip "Always check your speed when using gear system, and everything will be ok!"  
+!!! tip "Always check your speed when using the gear system, and everything will be ok!"  
 
 ### Failures
 Some first failures are provided, and while ECAM information impact is a temporary placeholder, consequences on the gear system are fully modeled.
@@ -47,9 +46,9 @@ Some first failures are provided, and while ECAM information impact is a tempora
 
 - LGCIU internal error failure will cause the LGCIU to fail its internal continuous tests. It will declare a fault and other LGCIU will take control to ensure gear control. Power input in that case is still present, so an internal error on LGCIU1 will still maintain the gear light indicator.
 
-- Proximity sensor failure are physical issues on the considered LGCIU sensors. Those cannot be electrically detected by the computer, so it may cause gear retraction or extension sequence to fail and get stuck. A LGCIU fault will finally be declared because of too long sequence time. A gear lever recycling down to up will switch gear control to the other computer to complete current sequence.
+- Proximity sensor failure are physical issues on the considered LGCIU sensors. Those cannot be electrically detected by the computer, so it may cause gear retraction or extension sequence to fail and get stuck. A LGCIU fault will finally be declared because of too long sequence time. A gear lever recycling down to up will switch gear control to the other computer to complete the current sequence.
 
-!!! tip "Only issues on LGCIU1 proximity sensors will show erroneous information on gear light indicator."
+!!! tip "Only issues on LGCIU1 proximity sensors will show erroneous information on the gear light indicator."
 
 ### Gravity Extension
 Gravity extension is fully supported by our gear system. 
@@ -64,7 +63,7 @@ Each turn of the handle will cause various things to happen:
 - After 2 turns, doors uplocks will be released and doors will stay opened
 - During the last third turn, all gear uplocks will be mechanically released and gears go down
 
-To revert the process and stow the crank handle back into its place, just click again until handle is stowed back
+To revert the process and stow the crank handle back into its place, just click again until the handle is stowed back
 
 !!! tip "The lower the speed, the harder it will be to have a full down lock of the gear, especially for the main gear. Doing steep turns to increase the load of the plane can be quite effective to help the gears to lock into place."
 
@@ -72,15 +71,14 @@ To revert the process and stow the crank handle back into its place, just click 
     The lower the speed, the slower doors will open due to smaller aerodynamic forces. Turning the handle too fast might cause the gears to hit the doors that have not yet fully opened. Always wait 3 to 5 seconds between handle turns.
 
 !!! warning "Before Using Gravity Extension"
-    Have the plane correctly stabilized before using this procedure. Remember that gears are physically simulated, and are really heavy. Bank angle and/or load factor WILL have 
-    impacts on:
+    Have the plane correctly stabilized before using this procedure. Remember that gears are physically simulated, and are really heavy. Bank angle and/or load factor WILL have impacts on:
 
     - The extension time  
     - Asymmetry  
     - Ability to reach downlock position
 
 !!! warning "Gear lever when using gravity extension"
-    When gravity etension is used, you have to set gear lever to down position to avoid possible LGCIU faults. 
+    When gravity extension is used, you have to set gear lever to down position to avoid possible LGCIU faults. 
     
 ### Known Issues
 
@@ -90,4 +88,4 @@ To revert the process and stow the crank handle back into its place, just click 
 
 --}
 
-- If a hardware input is set to GEAR UP or GEAR DOWN, in-cockpit lever cannot be clicked or mouse dragged.
+- If a hardware input is set to GEAR UP or GEAR DOWN, the in-cockpit lever cannot be clicked or mouse dragged.

@@ -2,7 +2,7 @@
 
 <link rel="stylesheet" href="/../../stylesheets/fuel-weight.css">
 
-This section provides information on the A32NX weights configuration and insight on how to utilize and reference onboard/sim features to configure the aircraft appropriately for departure.
+This section provides information on the A32NX weight configuration and insight on how to utilize and reference onboard/sim features to configure the aircraft appropriately for departure.
 
 [//]: # ({==)
 
@@ -24,7 +24,7 @@ This section provides information on the A32NX weights configuration and insight
 
     ### Operating Empty Weight
     
-    It is important to understand that the term "operating empty weight" can seem a little generic. OEW is typically calculated as "manufacturer's empty weight + standard items + operator items". These items can be the following (not all inclusive):
+    It is important to understand that the term "operating empty weight" can seem a little generic. OEW is typically calculated as "manufacturer's empty weight + standard items + operator items". These items can be the following (not all-inclusive):
     
     - Crew members
     - Manuals
@@ -32,21 +32,21 @@ This section provides information on the A32NX weights configuration and insight
     - Emergency Equipment
     - and any equipment/supplies considered standard by the operator
     
-    When considering your ZFW below please keep into consideration the above information with OEW with particular regard that this weight does include the flight crew.
+    When considering your ZFW below, please keep into consideration the above information with OEW with particular regard that this weight does include the flight crew.
     
     ### Zero Fuel Weight
     
-    In simple terms the zero fuel weight (ZFW) = OEW + payload.
+    In simple terms, the zero fuel weight (ZFW) = OEW + payload.
     
-    Payload is defined as passengers, baggage and cargo.
+    Payload is defined as passengers, baggage, and cargo.
     
-    In a situation where your payload would be something like 14000 kg - *based on our new airframe:* your ZFW would total - 56.500 kg (42.500kg + 14.000kg)
+    In a situation where your payload would be approximately 14,000 kg - *based on our new airframe:* your ZFW would total - 56,500 kg (42,500 kg + 14,000 kg)
     
     You can reference this against any OFP you may have generated through simBrief. For usage of our simBrief integration - [read here](simbrief.md).
     
     ### Zero Fuel Weight Center of Gravity
     
-    The A32NX will auto calculate the ZFW and ZFWCG on the INIT B page once the aircraft and associated payload is loaded into the simulator.
+    The A32NX will auto-calculate the ZFW and ZFWCG on the INIT B page once the aircraft and associated payload is loaded into the simulator.
     
     !!! warning "This is not your Center of Gravity for trimming."
     
@@ -59,19 +59,18 @@ This section provides information on the A32NX weights configuration and insight
 
     Trimming the aircraft for takeoff is usually optional and technically not required. Please reference our the [FBW Checklist](../../pilots-corner/SOP.md) to set the appropriate trim should you wish to.
     
-    Ideally, anything less than 25% CG is considered FWD load, and anything more than 25% is considered an AFT load. While opting to choose between either CG configuration (aft/fwd) please consider the information below.
+    Anything less than 25% CG is considered FWD load, and anything more than 25% is considered an AFT load. While opting to choose between either CG configuration (aft/fwd), please consider the information below.
     
     !!! info "Notes on Differing CG Configurations"
     
-    There are a few arguments worth considering when it comes to favoring an aft CG or fwd CG. Generally an aft CG would provide for better aircraft performance (lower stall speed, drag, and angle of attack for a given lift coefficient) but generally worse for pitch stability.
+    There are a few arguments worth considering when it comes to favoring an AFT CG or FWD CG. Generally, an AFT CG would provide for better aircraft performance (lower stall speed, drag, and angle of attack for a given lift coefficient) but generally worse for pitch stability.
 
-    For a smaller aircraft as the A320neo, most operators would favor an aft CG loading for fuel consumption benefits when considering the lifetime of the a fleet and how easy the benefits can be obtained.
+    For a smaller aircraft as the A320neo, most operators would favor an AFT CG loading for fuel consumption benefits when considering the lifetime of the fleet and how easy the benefits can be obtained.
 
 ??? info "Aircraft CG Envelopes (Click to Expand)"
     ## Aircraft CG Envelopes
 
-    Our dynamic CG and payload chart provides the relevant visual information during the planning and execution of passenger/cargo loading. Fully understanding how the 
-    longitudinal CG envelope affects the aircraft is a rather long winding concept. Below is a great primer on understanding the chart and what the information provided indicates.
+    Our dynamic CG and payload chart provides the relevant visual information during the planning and execution of passenger/cargo loading. Fully understanding how the longitudinal CG envelope affects the aircraft is a rather long winding concept. Below is a great primer on understanding the chart and what the information provided indicates.
 
     <iframe src="https://vdocuments.net/embed/v1/aircraft-cg-envelopes.html" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;
     margin-bottom:5px;max-width: 100%; overflow: hidden; width: 100%; height: 600px;" allowfullscreen></iframe>`
@@ -95,11 +94,11 @@ Make sure you have our latest [simBrief Profile](../installation.md#simbrief-air
     - Payload: Done through the Payload tab on the EFB. See [Weights and Balance](#weights-and-balance)
 
 ### Weights
-- OEW (Empty Weight): 42500 kg / 93697 lbs
+- OEW (Empty Weight): 42,500 kg / 93,697 lbs
     - Also referred to as DOW (Dry Operating Weight) which can be seen in other simBrief OFP formats such as EZY
-- MZFW (Max Zero Fuel Weight): 64300 kg / 141757 lbs
-- MTOW (Max Takeoff Weight): 79000 kg / 174165 lbs
-- MLW (Max Landing Weight): 67400 kg / 148591 lbs
+- MZFW (Max Zero Fuel Weight): 64,300 kg / 141,757 lbs
+- MTOW (Max Takeoff Weight): 79,000 kg / 174,165 lbs
+- MLW (Max Landing Weight): 67,400 kg / 148,591 lbs
 
 !!! tip "FMS Gross Weight (FMS GW)"
     Gross weight is calculated as: 
@@ -107,37 +106,37 @@ Make sure you have our latest [simBrief Profile](../installation.md#simbrief-air
     !!! info ""
         Fuel Quantity (directly from the simulator's fuel system) + ZFW input in the MCDU.
 
-    The Gross Weight (GW) value on the ECAM will appear only when certain conditions are satsified:
+    The Gross Weight (GW) value on the ECAM will appear only when certain conditions are satisfied:
 
-    - The (INIT FUEL PRED page) has a ZFW/ZFWCG value. **Reminder:** After engines are started INIT FUEL PRED changes to the FUEL PRED page.
+    - The (INIT FUEL PRED page) has a ZFW/ZFWCG value. **Reminder:** After engines are started, INIT FUEL PRED changes to the FUEL PRED page.
     - At least one engine is running.
 
 ### Fuel
-- Max Fuel Capacity: 41989lbs/19.046kg
+- Max Fuel Capacity: 41,989 lbs/19,046 kg
 - Fuel tanks: 5
-    - 2x Outer Tanks: 1528lbs/693kg each
-    - 2x Inner Tanks: 12167lbs/5519kg each
-    - 1x Center Tank: 14599lbs/6622kg
+    - 2x Outer Tanks: 1,528 lbs/693 kg each
+    - 2x Inner Tanks: 12,167 lbs/5,519 kg each
+    - 1x Center Tank: 14,599 lbs/6,622 kg
 
 ### Passengers
-- Max Passenger Capacity: 18096kg (174 seats * 104kg)
+- Max Passenger Capacity: 18,096 kg (174 seats * 104kg)
 - Passenger Weight: 104 (in kilograms)
     - 84 kg for passenger (including clothing and carry-on bags)
     - 20 kg for checked baggage
     - These default values can be overwritten by changing the used simBrief airframe. See [Changing Default Weights Using simBrief](#changing-default-weights-using-simbrief).
 - Passenger compartments: 4
-    - ECONOMY ROWS 1-6 (seats: 36 max: 6670lbs/3024kg)
-    - ECONOMY ROWS 7-13 (seats: 42 max: 7780lb/3530kg)
-    - ECONOMY ROWS 14-21 (seats: 48 max: 8880lb/4032kg)
-    - ECONOMY ROWS 22-29 (seats: 48 max: 8880lb/4032kg)
+    - ECONOMY ROWS 1-6 (seats: 36 max: 6,670 lbs/3,024 kg)
+    - ECONOMY ROWS 7-13 (seats: 42 max: 7,780 lbs/3,530 kg)
+    - ECONOMY ROWS 14-21 (seats: 48 max: 8,880 lbs/4,032 kg)
+    - ECONOMY ROWS 22-29 (seats: 48 max: 8,880 lbs/4,032 kg)
 
 ### Cargo
-- Max Cargo Capacity: 20800lb/9435kg
+- Max Cargo Capacity: 20,800 lbs/9,435 kg
 - Cargo Compartments: 4
-    - FWD BAGGAGE/CONTAINER (max: 7500lb/3402kg)
-    - AFT CONTAINER (max: 5350lb/2426kg)
-    - AFT BAGGAGE (max: 4650lb/2110kg)
-    - AFT BULK/LOOSE (max: 3300lb/1497kg)
+    - FWD BAGGAGE/CONTAINER (max: 7,500 lbs/3,402 kg)
+    - AFT CONTAINER (max: 5,350 lbs/2,426 kg)
+    - AFT BAGGAGE (max: 4,650 lbs/2,110 kg)
+    - AFT BULK/LOOSE (max: 3,300 lbs/1,497 kg)
 
 ## Changing Default Weights Using simBrief
 
@@ -150,7 +149,7 @@ These default weights cannot be changed in the aircraft at the moment. It is pla
 
 It is possible to change these defaults by changing the simBrief airframe.
 
-To do this open your simBrief airframe on the simBrief website under "MY FLEET" by clicking the Edit button.
+To accomplish this, open your simBrief airframe on the simBrief website under "MY FLEET" by clicking the Edit button.
 
 ![SimBrief MyFleet Page](../assets/feature-guides/simbrief/simbrief-myfleet.png "SimBrief MyFleet Page")
 
@@ -158,25 +157,25 @@ Scroll down to find the entries for Passenger Weight and Baggage Weight.
 
 ![SimBrief Pax and Baggage Weights](../assets/feature-guides/simbrief/simbrief-pax-baggage.png "SimBrief Pax and Baggage Weights")
 
-Change the default weights as required and make sure you select Save Aircraft at the bottom of the page. The A32NX will use these new values the next time you import an operational flight plan based on this airframe.
+Change the default weights as required, and make sure you select Save Aircraft at the bottom of the page. The A32NX will use these new values the next time you import an operational flight plan based on this airframe.
 
 !!! warning "Do Not Overload the Aircraft"
     It is the responsibility of the pilot to make sure the aircraft is not overloaded and within the specified limits.
 
     Especially important are:
 
-    - MZFW (Max Zero Fuel Weight): 64300 kg / 141757 lbs
+    - MZFW (Max Zero Fuel Weight): 64,300 kg / 141,757 lbs
     - Maximum payload (passengers, baggage, freight) is determined by the lowest of these calculations:
-        - MZFW - OEW, or  64300 kg - 42500 kg = 21800 kg
-        - MTOW  - empty weight - (fuel load - taxi out fuel), or 79000 - 42500 - (fuel load - taxi out fuel)
-        - MLW - empty weight - (all reserve/contingency fuel + extra fuel) , or 67400 - 42500 - (all reserve fuel/contingency/extra fuel).
+        - MZFW - OEW, or  64,300 kg - 42,500 kg = 21,800 kg
+        - MTOW  - empty weight - (fuel load - taxi out fuel), or 79,000 kg - 42,500 kg - (fuel load - taxi out fuel)
+        - MLW - empty weight - (all reserve/contingency fuel + extra fuel) , or 67,400 kg - 42,500 kg - (all reserve fuel/contingency/extra fuel).
     - When manually loading the payload, the MLW and MTOW limits are currently not checked and are the responsibility of the pilot.
     - Simbrief does manage payload limits by reducing the number of bags or passengers automatically. This is picked up by the aircraft correctly then.
     
     !!! danger ""
-        If you manually specify a custom number of passengers that exceeds aircraft weight limitations please be aware that the OFP will still reflect the user-selected number of passengers.
+        If you manually specify a custom number of passengers that exceeds aircraft weight limitations, please be aware that the OFP will still reflect the user-selected number of passengers.
 
-        This is in part due to the fact that at the time when the OFP was generated, it interprets the passenger count as "booked passengers" and not current passengers on board the aircraft.
+        This is in part because at the time when the OFP was generated, it interprets the passenger count as "booked passengers" and not current passengers on board the aircraft.
 
 ## Loading Fuel and Weight
 
@@ -194,7 +193,7 @@ Change the default weights as required and make sure you select Save Aircraft at
 
 ### Fuel
 
-Fuel loading is now exclusively done via our EFB which has a great UI to see the status of fuel tanks and other options. [Guide Here](flypados3/ground.md#fuel-page).
+Fuel loading is now exclusively done via our EFB, which has a great UI to see the status of fuel tanks and other options. [Guide Here](flypados3/ground.md#fuel-page).
 
 ### Weights and Balance
 
@@ -206,12 +205,12 @@ Get our [simBrief Profile](../installation.md#simbrief-airframe).
 
 Please note the following:
 
-- The cargo hold field now depicts either metric tons or thousands of pounds depending on the unit selected in the EFB Settings for aircraft configuration.
+- The cargo hold field now depicts either metric tons or thousands of pounds, depending on the unit selected in the EFB Settings for aircraft configuration.
 - **Highly recommend** ensuring that you select the same weights (KGS or LBS) in the EFB and in simBrief's OFP/Airframe before importing to prevent any mismatch in values.
 
-When starting the aircraft from a **Cold and Dark** state please be aware of the following important information:
+When starting the aircraft from a **Cold and Dark** state, please be aware of the following important information:
 
-- **INIT FUEL PRED** must be completed prior to departure. (This is detailed in our [beginner guide](../../pilots-corner/beginner-guide/preparing-mcdu.md#init-fuel-pred). Please ensure that you complete this step when preparing the MCDU.)
+- **INIT FUEL PRED** must be completed before departure. (This is detailed in our [beginner guide](../../pilots-corner/beginner-guide/preparing-mcdu.md#init-fuel-pred). Please ensure that you complete this step when preparing the MCDU.)
 - Failure to complete the `INIT FUEL PRED` page before starting an engine will display `INITIALIZE WEIGHT/CG` in amber on the MCDU Scratchpad.    
 - When there is a GW mismatch of more than 7 tonnes between the values calculated aerodynamically and the value calculated using the inputted ZFW and fuel flow `CHECK 
   WEIGHT` will be displayed in amber on the MCDU Scratchpad.
@@ -222,19 +221,18 @@ See [flyPadOS 3 - Development Version](flypados3/settings.md#aircraft-options--p
 
 #### Loading Guide
 
-!!! warning "Fuel, Weights and Balance When Not Starting Cold & Dark"
+!!! warning "Fuel, Weights, and Balance When Not Starting Cold & Dark"
     The process described in this section is for starting the flight at a gate/ramp in a cold and dark state.
 
-    If you start your flight on the runway or in the air the loading process will only work if the Boarding Time [settings](flypados3/settings.md#sim-options) in the flyPad EFB 
-    are set to `Instant`. This is deliberate as simulating the entire fueling or boarding process when starting from the runway does not make sense.
+    If you start your flight on the runway or in the air, the loading process will only work if the Boarding Time [settings](flypados3/settings.md#sim-options) in the flyPad EFB are set to `Instant`. This is deliberate, as simulating the entire fueling or boarding process when starting from the runway does not make sense.
 
 ##### Finding the Payload Screen
 
-The payload section can be found in Ground Services Page on the EFB and selecting the Payload tab.
+The payload section can be found in the Ground Services Page on the EFB and selecting the Payload tab.
 
 ![wb location](../assets/feature-guides/simbrief/wb_location.png)
 
-Once on this page you will be presented with the following:
+Once on this page, you will be presented with the following:
 
 - A top-down model of the A32NX seating configuration
 - Entry fields to configure PAX and Cargo
@@ -243,17 +241,15 @@ Once on this page you will be presented with the following:
 - Dynamic CG and payload chart - [Learn More Above](#aircraft-cg-envelopes).
 
 !!! tip "Minimum Landing Weight (MLDW)"
-    This will auto-populate on the CG envelope chart once you complete the `INIT FUEL PRED` page on the MCDU. MLDW is represented by a 3rd dot on the chart in green. However, 
-    please note that this is placeholder logic since more accurate fuel prediction will require accurate fuel burn predictions which are currently not yet available.
+    This will autopopulate on the CG envelope chart once you complete the `INIT FUEL PRED` page on the MCDU. MLDW is represented by a 3rd dot on the chart in green. However, 
+    please note that this is placeholder logic since more accurate fuel prediction will require accurate fuel burn predictions, which are currently not yet available.
 
 ##### Passengers and Cargo Configuration
 
-To begin boarding you must first enter a value in the passenger entry field or the ZFW entry field. To do this click on the respective entry field you wish to modify and input the 
-value you plan or have been allocated via your OFP. This method is the simplest and will calculate appropriate values. The A32NX seat configuration will also display in cyan 
-seats that are filled. 
+To begin boarding, you must first enter a value in the passenger entry field or the ZFW entry field. To achieve this, click on the respective entry field you wish to modify and input the value you plan or have been allocated via your OFP. This method is the simplest and will calculate appropriate values. The A32NX seat configuration will also display in cyan seats that are filled. 
 
 !!! tip "Passenger or ZFW Field"
-    It is important to note that when first entering a value in the Passenger field it will auto calculate the ZFW. This is conversely true if you enter a value first into the 
+    It is important to note that when first entering a value in the Passenger field, it will auto-calculate the ZFW. This is conversely true if you enter a value first into the 
     ZFW field. Please utilize only a single field for your planning purposes.
 
 This can be seen in the examples below:
@@ -281,10 +277,9 @@ the import button in the Payload UI.
 
     ![cargo sliders](../assets/feature-guides/simbrief/wb-sliders.png){loading=lazy}
 
-    You can also interact with the sliders above the wireframe aircraft to fill the cargo bays. While this may be not as accurate it does allow modification of the physical 
-    distribution of the cargo in the aicraft. The actual numerical weight of the cargo planned will update automatically.
+    You can also interact with the sliders above the wireframe aircraft to fill the cargo bays. While this may be not as accurate, it does allow modification of the physical distribution of the cargo in the aircraft. The actual numerical weight of the cargo planned will update automatically.
 
-    - Each slider represents one baggage compartment. The rear has bulkhead and loose item storage.
+    - Each slider represents one baggage compartment. The rear has a bulkhead and loose item storage.
     - The white arrows in the image above indicate how much cargo to fill into each respective hold.
 
     ---
@@ -297,20 +292,19 @@ the import button in the Payload UI.
 
     **ZFW MAC %/CG**
 
-    For now this calculation is the same as the normal CG but we don't account for fuel. We will extend this feature at a later time. For more information please see the 
-    [Center of Gravity](#center-of-gravity) section above.
+    For now, this calculation is the same as the normal CG, but we don't account for fuel. We will extend this feature at a later time. For more information, please see the [Center of Gravity](#center-of-gravity) section above.
 
 ##### Boarding Passengers
 
-Once you are happy with the passenger count and weights calculated you can start boarding by pressing the cyan "Play" button in the boarding time section. This field also allows 
+Once you are happy with the passenger count and weights calculated, you can start boarding by pressing the cyan "Play" button in the boarding time section. This field also allows 
 you to customize how quickly passengers enter the aircraft. 
 
 ![Boarding Time](../assets/feature-guides/simbrief/wb-boarding.png){loading=lazy}
 
-After boarding has started the "Play" button will turn green, and you will start seeing passengers enter the aircraft, weight values changing in both the dynamic chart and the 
+After boarding has started, the "Play" button will turn green, and you will start seeing passengers enter the aircraft, weight values changing in both the dynamic chart and the 
 configuration section's current values.
 
-The seats will also change colors from a dark to lighter cyan indicating which seats passengers are currently occupying.
+The seats will also change colors from a dark to lighter cyan, indicating which seats passengers are currently occupying.
 
 ![Boarded Passengers](../assets/feature-guides/simbrief/wb_boarding2.png){loading=lazy}
 
@@ -318,18 +312,17 @@ The seats will also change colors from a dark to lighter cyan indicating which s
 
 ## Fuel Persistence
 
-After completing a flight the A32NX saves the amount of fuel on board to a special directory when at least one engine is off. This feature is tied to the aircraft registration 
+After completing a flight, the A32NX saves the amount of fuel on board to a special directory when at least one engine is off. This feature is tied to the aircraft registration 
 found in `atc_id` in the `acft.cfg`. 
 
-If you decide to exit the simulator after your flight, loading back in at a later time with the same livery and associated registration 
-will use the same amount of fuel from your previous flight.
+If you decide to exit the simulator after your flight, loading back in at a later time with the same livery and associated registration will use the same amount of fuel from your previous flight.
 
 These files are saved in our Work folder under `AircraftStates` alongside other files we store. The work folder can be found using this guide - [here](../support/index.md).
 
 !!! tip ""
     Reminder: This file is created/updated **ONLY** on the ground and with at least an engine off.
 
-    If no registraiton is found the default value is ASX320.
+    If no registration is found, the default value is ASX320.
 
 `AircraftStates/ASX320.ini` example:
 

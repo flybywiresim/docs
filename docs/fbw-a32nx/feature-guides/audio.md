@@ -6,21 +6,21 @@ These settings can be found on the EFB:
 
 ![EFB Audio Settings](../assets/flypados3/flypad-settings-audio.png)
 
-For information on the other settings available on the EFB visit our [flyPad Settings](flypados3/settings.md) page.
+For information on the other settings available on the EFB, visit our [flyPad Settings](flypados3/settings.md) page.
 
 ![video-embed](https://www.youtube-nocookie.com/embed/3i1FaGKOwII)
 
 ## Passenger Simulation
 
 !!! important "Cockpit Door"
-    The cockpit door in the A32NX is simulating a real A320 cockpit door which in consequence dampens most of the sounds from the passenger cabin. 
+    The cockpit door in the A32NX simulates a real A320 cockpit door, which in consequence dampens most of the sounds from the passenger cabin. 
 
-    If you want to enjoy the Passenger Ambience sounds make sure it is open.
+    If you want to enjoy the Passenger Ambience sounds, make sure it is open.
 
 We have included various settings that simulate flight crew interactions with passengers on board.
 
 ### Passenger Ambience
-If this setting is enabled the following ambience sounds are played:
+If this setting is enabled, the following ambience sounds are played:
 
 - Boarding and deboarding sounds are triggered via the Payload tab on the Ground Services page on the EFB.
 - Once passengers are on the plane, a constant passenger ambience background sound plays.
@@ -28,9 +28,9 @@ If this setting is enabled the following ambience sounds are played:
 ### Announcements
 
 !!! important "Customizations"
-    Due to limitations with MSFS audio configurations adding user customizable announcements/sounds is not easily possible.
+    Due to limitations with MSFS audio configurations, adding user customizable announcements/sounds is not easily possible.
 
-If this setting is enabled the following crew announcements are played.
+If this setting is enabled, the following crew announcements are played.
 
 | Trigger                                    | Audio Played                                    |     Speaker      |
 |:-------------------------------------------|:------------------------------------------------|:----------------:|
@@ -45,15 +45,15 @@ If this setting is enabled the following crew announcements are played.
 | **Done Phase** + Beacon Light set to `OFF` | "Disarm Doors" Announcement                     | Flight Attendant |
 
 ### Boarding Music
-If enabled music will be played during boarding.
+If enabled, music will be played during boarding.
 
 ## Realism Settings
 
 ### PTU
 
-The PTU is generally not heard in the cockpit. As a passenger we understand people may be used to this sound as it is very audible in the passenger cabin.
+The PTU is generally not heard in the cockpit. As a passenger, we understand people may be used to this sound as it is very audible in the passenger cabin.
 
-We have added a toggle to allow the PTU to be heard in the cockpit which in real life is not the case. 
+We have added a toggle to allow the PTU to be heard in the cockpit, which in real life is not the case. 
 
 ## Engine and Wind
 
