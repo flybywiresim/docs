@@ -21,7 +21,7 @@ To make it possible for 3rd party aircraft developers to go beyond these limitat
 
 All the major custom aircraft on the market use this possibility. So, not only does the FlyByWire A32NX do this but e.g., the Aerosoft CRJ, PMDG DC-6, Working Title's CJ4 mod, Justflight PA-28 Arrow, etc.
 
-What these advanced aircraft have in common is that any standard drivers for hardware (or software) controllers con not use the additional aircraft APIs (variables and events).
+What these advanced aircraft have in common is that any standard drivers for hardware (or software) controllers can not use the additional aircraft APIs (variables and events).
 
 Therefore, much to the frustration of users, many hardware controllers do not correctly work with these aircraft with their default drivers.
 

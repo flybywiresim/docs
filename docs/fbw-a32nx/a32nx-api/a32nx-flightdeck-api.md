@@ -959,7 +959,7 @@ See [Nose Wheel and Tiller Operation](../feature-guides/nw-tiller.md)
 
 | Function                                     | API Usage                             | Values    | Read/Write | Type                     | Remark                                                                                 |
 |:---------------------------------------------|:--------------------------------------|:----------|:-----------|:-------------------------|:---------------------------------------------------------------------------------------|
-| Pushback System                              | A32NX_PUSHBACK_SYSTEM_ENABLED         | 0&#124;1  | R/W        | Custom LVAR              | To turn off teh Pushback System completely to not interfere with other pushback add-ons    |
+| Pushback System                              | A32NX_PUSHBACK_SYSTEM_ENABLED         | 0&#124;1  | R/W        | Custom LVAR              | To turn off the Pushback System completely to not interfere with other pushback add-ons    |
 | Pushback Movement Factor                     | A32NX_PUSHBACK_SPD_FACTOR             | -1.0..1.0 | R/W        | Custom LVAR              | Set the speed of the pushback tug in percent. Negative values are backwards movements. |
 | Pushback Heading Factor                      | A32NX_PUSHBACK_HDG_FACTOR             | -1.0..1.0 | R/W        | Custom LVAR              | Set the turning factor from max left (-1.0) to max right (1.0)                         |
 

@@ -3,7 +3,7 @@
 !!! warning ""
     You must enable [Fuel Sync](../flypados3/settings.md#3rd-party-options)
 
-This page goes over how to use the fueling "synchronization" as-well as any caveats you should be made aware of when using it.
+This page explains, how to use the fueling "synchronization" as-well as any caveats you should be made aware of when using it.
 
 ## Caveats
 !!! danger "READ ME"
