@@ -38,7 +38,7 @@ flight planning in the Multipurpose Control and Display Unit (MCDU).
 In the A32NX for Microsoft Flight Simulator, we have these options to load a flight plan:
 
 !!! tip ""
-    - [Entering a Flight Plan Manually](../../pilots-corner/beginner-guide/preparing-mcdu.md#--f---light-plan)
+    - [Entering a Flight Plan Manually](../../pilots-corner/beginner-guide/preparing-mcdu.md#flight-plan)
     - [Loading a Flight Plan from SimBrief](simbrief.md) (recommended)
     - [Creating and Loading a Flight Plan from the MSFS World Map](#msfs-world-map-flight-planning-atc-and-vfr-map)
 
