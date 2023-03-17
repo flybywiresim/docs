@@ -107,7 +107,7 @@ Check that the axis mappings are correct.
 
     ![Reverse Axis Box](../../assets/flypados3/throttle-calibration/reverse-axis-box.png "Reverse Axis Box"){loading=lazy}
 
-    !!! warning "Don't worry wether the throttle does move all the way or moves too far into reverse now. Only the movement direction is important at this point. "
+    !!! warning "Don't worry whether the throttle does move all the way or moves too far into reverse now. Only the movement direction is important at this point. "
 
 ### 4. Reverser Setup (when not on axis)
 
@@ -538,7 +538,7 @@ Click on "Save & Apply".
 
     The step size for ++f2++ and ++f3++ is 0.05. This results in 40 steps in total from `Full Reverse` to `TO/GA`. The `CLB` detent is right in the middle at 20 steps.
 
-    With the default throttle configuration built into the A32NX,2 this results in the following number of steps:
+    With the default throttle configuration built into the A32NX, this results in the following number of steps:
 
     **Counting from `IDLE` (-0.5):**
 

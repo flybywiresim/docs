@@ -170,7 +170,7 @@ Settings for realism aspects of the A32NX aircraft.
 - DMC Self Test Time:
     - User can set the time for the Display Management Computer's self test (Real ~15sec, Fast ~5sec, Instant).
 - Boarding Time:
-    - User can set the simulated boarding time to either a realistic time (~ 15min), a faster time (~3-4min), or instant.
+    - User can set the simulated boarding time to either a realistic time (~15 min), a faster time (~3-4 min), or instant.
         - Based on full load - 174 passengers and full cargo.
 - Autofill Checklists
     - Supports the user with checking items from the checklists by watching the corresponding switches, knobs, and buttons and setting the checklist item to complete when the setup is correct.  

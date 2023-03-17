@@ -23,7 +23,7 @@ This page allows managing ground operation similar to the in-sim ATC ground serv
 
 ### Connect Jet Bridge
 
-When standing at a gate, this connects and disconnects the gate's Jetway if a Jetway is available at the current gate.
+When standing at a gate, this connects and disconnects the gate's Jetway if one is available at the current gate.
 
 ### Door Fwd
 
