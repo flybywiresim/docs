@@ -21,7 +21,7 @@
 
 There are various aspects of the aircraft and its simulation which can and sometimes must be configured. 
 
-Find a descriptions of all available setting categories and its settings below. 
+Find a description of all available setting categories and their settings below. 
 
 ## Aircraft Options / Pin Programs
 
@@ -60,15 +60,14 @@ Settings for A32NX aircraft configuration.
     - Changes the spacing for selectable frequencies in the RMPs from 8.33kHz to 25kHz and vice versa.
 
     ??? note "Channel Spacing (click to expand)"
-         Aircraft radio systems transmit on a Very High Frequency (VHF) band between 117.975 and 137 MHz. The number of available VHF assignments has increased over the years by splitting the radio spectrum into narrower bandwidths from 50-kHz to 25-kHz channels. The bandwidth can support 760 channels, if channels are spaced by 25 kHz. In 1994, it was decided to introduce a further channel split from 25 to 8.33 kHz. 8.33-kHz spacing was introduced above Flight Level (FL) 240 in International Civil Aviation Organization (ICAO) European (EUR) regions in October 1999 and above FL 195 from March 15, 2007. Currently, 8.33-kHz channels have been implemented in the airspace of all 20 ICAO EUR region states. So far, Europe is the only region that’s moved to 8.33-kHz channel spacing.
+         Aircraft radio systems transmit on a Very High Frequency (VHF) band between 117.975 and 137 MHz. The number of available VHF assignments has increased over the years by splitting the radio spectrum into narrower bandwidths, from 50-kHz to 25-kHz channels. The bandwidth can support 760 channels, if channels are spaced by 25 kHz. In 1994, it was decided to introduce a further channel split from 25 to 8.33 kHz. 8.33-kHz spacing was introduced above Flight Level (FL) 240 in International Civil Aviation Organization (ICAO) European (EUR) regions in October 1999 and above FL 195 from March 15, 2007. Currently, 8.33-kHz channels have been implemented in the airspace of all 20 ICAO EUR region states. So far, Europe is the only region that’s moved to 8.33-kHz channel spacing.
 
          Source: [universalweather.com](https://www.universalweather.com/blog/8-33-khz-radio-channel-spacing-changes-are-coming-to-europe/){target=new)}
 
          See also: [8.33kHz Voice Channel Spacing communications](https://833radio.com/news/show/7){target=new}
 
 - FMGC Lat/Lon Waypoint Format
-    - Configures the name format for the [Stored Waypoints](../../../pilots-corner/advanced-guides/data-management.md#stored-waypoints) to be used when 
-      NAT routes are imported via SimBrief.  
+    - Configures the name format for the [Stored Waypoints](../../../pilots-corner/advanced-guides/data-management.md#stored-waypoints) to be used when NAT routes are imported via SimBrief.  
 - Weight Unit:
     - The weight unit of the aircraft used for aircraft weight, fuel and simBrief imports.
 - Satcom:
@@ -96,29 +95,22 @@ Settings for simulation aspects of the A32NX aircraft.
 ### Usage
 
 - Default Baro:
-    - User can set which baro setting is wanted as a default: inHg, hPA or Auto (depends on the airport where 
-      the aircraft spawned).
+    - User can set which baro setting is wanted as a default: inHg, hPA or Auto (depends on the airport where the aircraft spawned).
      
 - Sync MSFS Flight Plan:
     - User can set if and how the flight plan synchronization between the simulator and the aircraft should work.
     - The options are:
         - None: 
-            - The simulator's flight plan will not be loaded and changes to the aircraft's flight plan will not be 
-              saved back to the sim's flight plan. 
+            - The simulator's flight plan will not be loaded and changes to the aircraft's flight plan will not be saved back to the sim's flight plan. 
         - Load Only: 
-            - The simulator's flight plan set in the World Map will be loaded once when starting the flight. 
-              Any subsequent changes to the flight plan in the aircraft will not be synchronized back to the simulator.
+            - The simulator's flight plan set in the World Map will be loaded once when starting the flight. Any subsequent changes to the flight plan in the aircraft will not be synchronized back to the simulator.
         - Save: 
-            - The simulator's flight plan set in the World Map will be loaded once when starting the flight. Any 
-              subsequent changes to the flight plan in the aircraft will be synchronized back to the simulator if 
-              possible. See the warning below for more information.
+            - The simulator's flight plan set in the World Map will be loaded once when starting the flight. Any subsequent changes to the flight plan in the aircraft will be synchronized back to the simulator if possible. See the warning below for more information.
    
         !!! note "There is No synchronization from the sim's flight plan to the aircraft after initial load."
 
         !!! warning "Synchronization Issues Expected"
-            The aircraft's custom Flight Management System provides better accuracy and features over the default 
-            flight plan manager in Microsoft Flight simulator which results in issues syncing the flight plan from the 
-            MCDU back into the simulator. Do not expect it to work properly in all cases.
+            The aircraft's custom Flight Management System provides better accuracy and features over the default flight plan manager in Microsoft Flight Simulator, which results in issues syncing the flight plan from the MCDU back into the simulator. Do not expect it to work properly in all cases.
 
 - Enable SimBridge Connection
     - Auto:
@@ -132,8 +124,7 @@ Settings for simulation aspects of the A32NX aircraft.
           seconds, and then click on `Auto` again.
     - Off:
         - The aircraft will not make any attempts to connect to the SimBridge.
-    - Also see our [SimBridge Guide](../../../simbridge/index.md) on which features require the SimBridge and how to 
-      set up and configure it. 
+    - Also see our [SimBridge Guide](../../../simbridge/index.md) on which features require the SimBridge and how to set up and configure it. 
  
 - External SimBridge Port
     - User can change the port for the SimBridge in case the default port is already occupied on the user's system.
@@ -147,12 +138,10 @@ Settings for simulation aspects of the A32NX aircraft.
     - In some rare cases this can cause a faulty G/S signal. In this case this setting can be disabled with immediate effect.
 - Wheel Chocks
     - Enable wheel chocks visible in the external view
-    - Only visible if ground crew has not removed them - see [Wheel Chocks and GSE Safety Cones](../wheel-chocks-cones.md) for more 
-      information. 
+    - Only visible if ground crew has not removed them - see [Wheel Chocks and GSE Safety Cones](../wheel-chocks-cones.md) for more information. 
 - Safety Cones
     - Enable safety cones visible in the external view
-    - Only visible if ground crew has not removed them - see [Wheel Chocks and GSE Safety Cones](../wheel-chocks-cones.md) for more
-        information.
+    - Only visible if ground crew has not removed them - see [Wheel Chocks and GSE Safety Cones](../wheel-chocks-cones.md) for more information.
 - Throttle Detents
     - Please see the [Throttle Configuration Guide](throttle-calibration.md).
 
@@ -177,15 +166,14 @@ Settings for realism aspects of the A32NX aircraft.
 ### Usage
 
 - ADIRS Align Time:
-    - User can set this to either a realistic time (~8min), a faster time (~2min) or instant.
+    - User can set this to either a realistic time (~8 min), a faster time (~2 min) or instant.
 - DMC Self Test Time:
     - User can set the time for the Display Management Computer's self test (Real ~15sec, Fast ~5sec, Instant).
 - Boarding Time:
-    - User can set the simulated boarding time to either a realistic time (~15min), a faster time (~3-4min), or instant.
+    - User can set the simulated boarding time to either a realistic time (~15 min), a faster time (~3-4 min), or instant.
         - Based on full load - 174 passengers and full cargo.
 - Autofill Checklists
-    - Supports the user with checking items from the checklists by watching the corresponding switches, knobs and 
-      buttons and setting the checklist item to complete when the setup is correct.  
+    - Supports the user with checking items from the checklists by watching the corresponding switches, knobs, and buttons and setting the checklist item to complete when the setup is correct.  
 - Home Cockpit Mode
     - Removes backlight bleed from PFD, ND, and ECAMs
     - Removes reflection from the ISIS
@@ -197,14 +185,13 @@ Settings for realism aspects of the A32NX aircraft.
 - MCDU Keyboard Input (unrealistic)
     - Enables the MCDU Keyboard input feature (see [MCDU Keyboard](../mcdu-keyboard.md)).
 - MCDU Focus Timeout (s)
-    - The timeout feature will automatically deactivate the focus of the MCDU screen after the given amount of seconds.
+    - The timeout feature will automatically deactivate the focus of the MCDU screen after the given number of seconds.
     - Valid range is 5 - 120 seconds.
     - Setting is only available if MCDU Keyboard Input is enabled.
 - Sync EFIS controls between Captain and FO (unrealistic)
     - When enabled, the EFIS controls will be synchronized between the Captain and FO.
     - This includes the Flight Director (FD), Landing System (LS) and Baro (STD, QNH and inHg/hPa) controls.
-    - Note: Baro is currently not separated between the Captain and FO and is always synchronized independent of 
-      this setting. 
+    - Note: Baro is currently not separated between the Captain and FO and is always synchronized independent of this setting. 
 - Show Pilot Avatar
     - When enabled, the pilot avatar will be visible in the cockpit. 
     - The avatar style can be chosen in the MSFS settings `General Options -> Misc`.
@@ -239,7 +226,7 @@ Settings for integrations with various 3rd party applications
     This feature is only available in the [Development Version](../../fbw-versions.md#development-version-recommended) and [Experimental Version](../../fbw-versions.md#experimental-version)
 
 #### GSX Integration
-These options are seperate to provide you with the flexiblity to choose what to sync with GSX and what not to sync. 
+These options are separate to provide you with the flexibility to choose what to sync with GSX and what not to sync. 
 
 !!! warning ""
     Enabling any of these options will retroactively disable the [chocks and cones](../wheel-chocks-cones.md). You cannot re-enable as long as any of these options are enabled. This is due to how GSX detects the parking brake.
@@ -248,12 +235,12 @@ These options are seperate to provide you with the flexiblity to choose what to 
     The aircraft comes with a GSX profile, please read [here](../gsxintegration/profile.md) for more information.
 
 - GSX Payload Sync:
-    - Enables to option to synchronise GSX and the aircraft's own payload management system.
+    - Enables the option to synchronize GSX and the aircraft's own payload management system.
 - GSX Fuel Sync:
-    - Enables the option to synchronise GSX and the aircraft's own fuel management system.
+    - Enables the option to synchronize GSX and the aircraft's own fuel management system.
 ## ATSU/AOC
 
-Settings for integrations with various data and information sources.
+Settings for integration with various data and information sources.
 
 <div style="position: relative;">
     <img src="/fbw-a32nx/assets/flypados3/flypad-settings-atsu-aoc.png" style="width: 100%; height: auto;" loading="lazy">
@@ -282,7 +269,7 @@ Settings for integrations with various data and information sources.
 - Automatically Import SimBrief Data
     - Imports latest SimBrief flight automatically when starting the flyPad.   
 - Error Reporting
-    - Enables error reports to be sent to Sentry.io to allow the FlyByWire team to easier find and fix issues with the aircraft.
+    - Enables error reports to be sent to Sentry.io to allow the FlyByWire team to easier find and resolve issues with the aircraft.
 - TELEX:
     - Enables free text and live map ([FlyByWire Live Map](https://flybywiresim.com/map/){target=new}).
 
@@ -293,11 +280,11 @@ Settings for integrations with various data and information sources.
 
             [Free Text - Feature Guide](../freetext.md){.md-button}
 
-    - If enabled a message will be displayed to confirm sharing of the free text and position data to the public.
+    - If enabled, a message will be displayed to confirm sharing of the free text and position data to the public.
 
         ![flypad-settings-atsu-aoc-telex-warning](../../assets/flypados3/flypad-settings-atsu-aoc-telex-warning.png)
 
-- Simbrief Username/Pilot ID
+- SimBrief Username/Pilot ID
     - See [next chapter](#simbrief-integration)
 - Hoppie User ID:
     - Unique logon code that is used to identify the user for the Hoppie ACARS communication.
@@ -305,21 +292,21 @@ Settings for integrations with various data and information sources.
 
 ### SimBrief Integration
 
-Before you can use the A32NX simBrief Integration you need to provide your simBrief account details.
+Before you can use the A32NX simBrief Integration, you need to provide your simBrief account details.
 
 !!! tip "Found in Settings -> ATSU/AOC"
-    If you have arrived at this section from the [SimBrief Integration](../simbrief.md) page please make note this setting is found on the EFB.
+    If you have arrived at this section from the [SimBrief Integration](../simbrief.md) page, please make note this setting is found on the EFB.
 
 - SimBrief Pilot ID:
-    - Enter your simBrief Pilot ID.
+    - Enter your SimBrief Pilot ID.
 
       ![simBrief Account field](../../assets/flypados3/simbrief-account-field.png "simBrief Account field")
 
-    - If you entered a wrong Pilot ID a red error message will be displayed.
+    - If you entered a wrong Pilot ID, a red error message will be displayed.
 
       ![simBrief Account Field Error](../../assets/flypados3/simbrief-account-field-error.png "simBrief Account Field Error")
 
-To get your simBrief Pilot ID you can go to your simBrief Account settings and open "SimBrief Data".
+To get your simBrief Pilot ID, you can go to your simBrief Account settings and open "SimBrief Data".
 
 ![simBrief Account Data](../../assets/flypados3/simbrief-account-data.png "simBrief Account Data")
 
@@ -346,7 +333,7 @@ Settings for various audio sources and sounds.
     - Dynamically adjust various audio elements while in the virtual cockpit.  
 - PTU Audible in Cockpit (unrealistic):
     - The aircraft's PTU sound (barking sound) is not audible in the cockpit in the real aircraft.
-    - To make it audible in the cockpit set this option to on.
+    - To make it audible in the cockpit, set this option to on.
 - Passenger Ambience:
     - Select if passenger audio sounds should be played.  
 - Announcements:
@@ -354,7 +341,7 @@ Settings for various audio sources and sounds.
 - Boarding Music:
     - Select if music should be played while boarding. 
 
-For detailed information on these settings please visit:
+For detailed information on these settings, please visit:
 
 [Audio Configuration Page](../audio.md){.md-button}
 
@@ -384,16 +371,16 @@ Settings for the flyPad itself.
 - Onscreen Keyboard Layout
     - Selects the keyboard layout of the flyPad's on screen keyboard
 - Automatically Show Onscreen Keyboard:
-    - A virtual keyboard will appear whenever an input field is entered by the user. 
+    - A virtual keyboard will appear whenever the user enteres an input field. 
 - Auto Brightness:
     - Sets the brightness of the flyPad automatically based on the time of day.
 - Brightness:
-    - Manually set brightness of the flyPad.
+    - Manually set the brightness of the flyPad.
     - This setting is only available if Auto Brightness is off.
 - Battery Life Simulated
-    - If enabled the flyPad battery will discharge if aircraft is not powered.
+    - If enabled, the flyPad battery will discharge if the aircraft is not powered.
     - The battery will last about 9h. 
-    - If the sim's time is changed forward 9+h after loading the flight the battery will be empty.
+    - If the sim's time is changed forward 9+h after loading the flight, the battery will be empty.
     - Battery will be charged if the aircraft is powered (Ext. Power, APU, one engine)
 - Show Status Bar Flight Progress:
     - Select if the progress of the flight shall be shown in the top status of the flyPad screen.
@@ -409,8 +396,7 @@ Settings for the flyPad itself.
 
 ### About
 
-The About page provides the build information which is sometimes requested when seeking support on the FlyByWire 
-Discord.
+The About page provides the build information which is sometimes requested when seeking support on the FlyByWire Discord.
 
 <div style="position: relative;">
     <img src="/fbw-a32nx/assets/flypados3/flypad-settings-about.png" style="width: 100%; height: auto;" loading="lazy">

@@ -1,7 +1,7 @@
 ## General
 
 ???+ info "Q: Where is the plane in-sim?"
-    The A32NX is now a separate aircraft from the default, you need to select this aircraft in the 'aircraft selection' menu prior to loading the flight. The add-on will appear as a separate aircraft, select the `FlyByWire Simulations A320neo (LEAP)` in the aircraft selector instead of the Asobo one.
+    The A32NX is a separate aircraft from the default A320. You need to select this aircraft in the 'aircraft selection' menu before loading the flight. Select the `FlyByWire Simulations A320neo (LEAP)` in the aircraft selector instead of the Asobo one.
 
 ??? info "Q: Can I download the aircraft in the current state?"
     Yes, see [Downloads](installation.md#downloads).
@@ -10,13 +10,10 @@
     Visit our [Installation Guide](installation.md).
 
 ??? info "Q: What liveries are available?"
-    Liveries for the default A320neo will not be compatible with the A32NX. We recommend downloading compatible liveries from [Flightsim.to](https://flightsim.to/c/liveries/flybywire-a32nx/){target=new}.
-
-    **Convert Your Liveries:**
-    - See our guide to [liveries](liveries.md)
+    Liveries for the default A320neo are incompatible with the A32NX. We recommend downloading compatible liveries from [Flightsim.to](https://flightsim.to/c/liveries/flybywire-a32nx/){target=new}.
 
 ??? info "Q: Do we have a simBrief profile for the A32NX?"
-    Yes, we have one available for our Stable, Development, and Experimental versions. You can find the most updated profiles by visiting our Simbrief Airframes [here](installation.md#simbrief-airframe).
+    Yes, there is one available for all versions of our aircraft. You can find how to use it [here](feature-guides/simbrief.md##simbrief-airframe).
 
 
 ??? info "Q: When will it be released?"
@@ -29,7 +26,7 @@
     Head over to [A32NX Development Overview](../dev-corner/dev-guide/index.md) and join our Discord to get started.
 
 ??? info "Q: Is it payware?"
-    No, it is a completely free aircraft, open-source.
+    No, it is a completely free and open-source aircraft.
 
 ??? info "Q: How do we report bugs?"
     Report bugs to us in the [Discord server](https://discord.gg/flybywire){target=new}, under the `#a32nx-support` channel, or by creating a [GitHub issue](https://github.com/flybywiresim/a32nx/issues/new/choose){target=new}.
@@ -37,7 +34,7 @@
     Just make sure to search for existing issues first before creating a new one.
 
 ??? info "Q: Why is my version not the same as what I see others using?"
-    We have three versions: Stable , Development, and Experimental.
+    We have three versions: Stable, Development, and Experimental.
 
     **Stable**
 
@@ -55,9 +52,9 @@
 ## Aircraft
 
 ???+ info "Q: I cannot hear the Flaps or PTU in the cockpit anymore?"
-    This will be the case in the current Development build and future Stable builds. This change was made due to feedback from IRL A320 pilots who identified the sounds could not be heard from the cockpit IRL as they currently are in the simulator.
+    This change was made due to feedback from IRL A320 pilots who identified the sounds could not be heard from the cockpit IRL as they currently are in the simulator.
 
-    The PTU now has a toggleable switch on the EFB (flyPad) settings that allows you to hear it in the cockpit when it is running.
+    The PTU has a toggleable switch on the EFB (flyPad) settings that allows you to hear it in the cockpit when it is running.
 
 ??? info "Q: Which lights should I turn on during taxi/takeoff/flight?"
     There are many fantastic tutorials online which demonstrate the proper use of lighting on the A320neo, take a look at this video from 320 Sim Pilot:
@@ -71,8 +68,8 @@
     Based on IRL A320 pilot feedback, the blue light effect can only be seen from images. Also, the pedestal should be dark at night to improve pilots' vision at night.
 
 ??? info "Q: Why does light bleed into the cockpit? Can this be fixed?"
-    Unfortunately no - This is a deeper issue which will require work from the Asobo team.
+    Unfortunately, no - This is a more profound issue which will require work from the Asobo team.
 
-??? info "Q: The new sounds are different than the default ones, why?"
-    The default sounds were shared sounds from other default aircraft. The new sounds are accurate and very well developed based on the A320 and A320neo pilot feedback.
+??? info "Q: The new sounds are different from the default ones, why?"
+    The default sounds were shared sounds from other default aircrafts. The new sounds are accurate and very well-developed based on the A320 and A320neo pilot feedback.
 

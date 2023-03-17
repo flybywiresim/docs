@@ -21,20 +21,17 @@
 
 The flyPad's interactive checklists help you ensure not to forget important steps in your procedure. 
 
-The flyPad checklists are modelled after the official Airbus checklist. You can also download this checklist 
-here: [Checklist and SOP](../../../pilots-corner/SOP.md).
+The flyPad checklists are modelled after the official Airbus checklist. You can also download this checklist here: [Checklist and SOP](../../../pilots-corner/SOP.md).
 
 !!! note "A Checklist is Not a Procedure List"
     Checklists are meant to ensure that the most critical aspects of a procedure are not forgotten and double-checked. 
-    Checklists are not used as a step-by-step guide to configure the aircraft. This is what so-called "Standard 
-    Operation Procedures" are meant to describe.    
+    Checklists are not used as a step-by-step guide to configure the aircraft. This is what so-called "Standard Operation Procedures" are meant to describe.    
 
     Find the A32NX SOP here: [Checklist and SOP](../../../pilots-corner/SOP.md).
 
 ## Manual Mode
 
-In this mode you will check the items by either clicking on the checkbox or the green button on the bottom saying 
-"Mark item as complete". 
+In this mode, you will check the items by either clicking on the checkbox or the green button on the bottom saying "Mark item as complete". 
 
 <div style="position: relative;">
     <img src="/fbw-a32nx/assets/flypados3/flypad-checklist-page-partly-filled.png" style="width: 100%; height: auto;" loading="lazy">
@@ -51,8 +48,7 @@ In this mode you will check the items by either clicking on the checkbox or the 
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
 
-If a checklist has all items checked you can click on the bottom on the bottom saying "Mark checklist as complete" to 
-mark the whole checklist as done. 
+If a checklist has all items checked, you can click on the bottom on the bottom saying "Mark checklist as complete" to mark the whole checklist as done. 
 
 <div style="position: relative;">
     <img src="/fbw-a32nx/assets/flypados3/flypad-checklist-page-section-filled.png" style="width: 100%; height: auto;" loading="lazy">
@@ -71,15 +67,11 @@ mark the whole checklist as done.
 
 ## Autofill Mode
 
-In the flyPad Settings under [Realism](settings.md#realism) you can configure the "Autofill Checklist" setting so 
-that some steps are marked as completed automatically by watching the corresponding button, knob or switch.
+In the flyPad Settings under [Realism](settings.md#realism), you can configure the "Autofill Checklist" setting so that some steps are marked as completed automatically by watching the corresponding button, knob, or switch.
 
-It will not autofill all possible steps automatically by design as the flight crew needs to actually check certain 
-steps deliberately or if the required state is not similar in any situation. E.g. Parking Brake is not always 
-required when using chocks. 
+It will not autofill all possible steps automatically intentional as the flight crew needs to actually check certain steps deliberately or if the required state is not similar in any situation. E.g. Parking Brake is not always required when using chocks. 
 
-For the autofill option to work properly you need to go through the lists one by one as the system only autofills the 
-lists corresponding to the current flight phase. 
+For the autofill option to work properly, you need to go through the lists one by one, as the system only autofills the lists corresponding to the current flight phase. 
 
 <div style="position: relative;">
     <img src="/fbw-a32nx/assets/flypados3/flypad-checklist-automated.png" style="width: 100%; height: auto;" loading="lazy">
@@ -98,12 +90,10 @@ lists corresponding to the current flight phase.
 
 ## API for Check Action
 
-If you want to map the "Mark item as complete" button to a hardware button of your controller you can use this local 
-variable to do so:
+If you want to map the "Mark item as complete" button to a hardware button of your controller, you can use this local variable to do so:
 
 LVAR:A32NX_EFB_CHECKLIST_COMPLETE_ITEM
 
 Set this variable to 1 to advance a step. It will be reset to 0 automatically. 
 
-For this to work you need a solution which is able to map controller functions to events and variable. See our 
-[API Documentation](../../a32nx-api/index.md).
+For this to work, you need a solution which is able to map controller functions to events and variables. See our [API Documentation](../../a32nx-api/index.md).

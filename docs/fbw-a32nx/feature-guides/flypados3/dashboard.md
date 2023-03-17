@@ -27,7 +27,7 @@ The Dashboard is the default flyPad page after starting it.
 
 The Dashboard provides several widgets to allow quick access to specific information and pages.
 
-The provided widget are: 
+The provided widgets are: 
 
 - Weather:
     - METAR weather information - see [Weather Widget](#weather-widget)
@@ -44,14 +44,11 @@ By clicking on the edit symbol (pen) the widgets can be rearranged as required b
 
 ### Weather Widget
 
-The Weather widget shows the current METAR information of either the simBrief imported airports or manually entered 
-airports.
+The Weather widget shows the current METAR information of either the simBrief imported airports or manually entered airports.
 
-You can type in any airport ICAO-code into the input fields to get the corresponding METAR information. To get back 
-to the simBrief imported airports simply delete the manually entered ICAO.
+You can type in any airport ICAO-code into the input fields to get the corresponding METAR information. To get back to the simBrief imported airports, simply delete the manually entered ICAO.
 
-You can switch between the weather summary which shows the most important METAR parts with icons or a raw view of 
-the METAR information.
+You can switch between the weather summary which shows the most important METAR parts with icons or a raw view of the METAR information.
 
 Selected METAR information is updated every 5 minutes.
 
@@ -83,9 +80,7 @@ Clicking on a checklist card brings up the corresponding checklist.
 
 ![From simBrief](../../assets/flypados3/load-from-simbrief.png)
 
-If you have [configured](settings.md) your simBrief account correctly, you can click the above button to load your 
-last simBrief flight plan into the flyPad. This does not load the flight plan into the MCDU - you need to load it 
-there separately (see [MCDU simBrief Integration](../../../pilots-corner/beginner-guide/preparing-mcdu.md#a32nx-simbrief-integration)).
+If you have [configured](settings.md) your simBrief account correctly, you can click the above button to load your last simBrief flight plan into the flyPad. This does not load the flight plan into the MCDU - you need to load it there separately (see [MCDU simBrief Integration](../../../pilots-corner/beginner-guide/preparing-mcdu.md#a32nx-simbrief-integration)).
 
 It is also possible to configure the flyPad to automatically load the latest SimBrief data.<br/>
 See [ATSU / AOC Settings](settings.md#atsuaoc)

@@ -22,13 +22,11 @@ Documentation on usage and caveats can be found in the [FlypadOS3 Ground Documen
 
 ### RMP Navigation Tuning
 
-We are testing the ability for the radio management panel to tune navigational aids. See technical details in the respective [GitHub Pull Request #7241](https://github.
-com/flybywiresim/a32nx/pull/7241){target=new}.
+We are testing the ability of the radio management panel to tune navigational aids. See technical details in the respective [GitHub Pull Request #7241](https://github.com/flybywiresim/a32nx/pull/7241){target=new}.
 
-### Fine Tuning Engine Parameters
+### Fine-Tuning Engine Parameters
 
-We are further turning our engine primary parameters in regard to EGT and fuel flow in a two-part implementation. See technical details in the respective 
-[GitHub Pull Request #7542](https://github.com/flybywiresim/a32nx/pull/7542){target=new}.
+We are further turning our engine primary parameters in regard to EGT and fuel flow in a two-part implementation. See technical details in the respective [GitHub Pull Request #7542](https://github.com/flybywiresim/a32nx/pull/7542){target=new}.
 
 ### Flight Warning System (FWS)
 
@@ -40,11 +38,7 @@ See technical details in the respective
 
 Summary:
 
-This PR is the first step on the way to our new flight warning system, written nearly entirely in Rust and using an 
-accurate simulation of the underlying data acquisition and warning logic. The new system is made up of two 
-simulated Flight Warning Computers replacing some foundational logic pieces that were previously written in 
-Javascript. The vast majority of warnings on the EWD still have exactly the same conditions as previously and have 
-not been touched, but will be eventually moved over to the new flight warning computers one by one.
+This PR is the first step on the way to our new flight warning system, written nearly entirely in Rust and using an accurate simulation of the underlying data acquisition and warning logic. The new system is made up of two simulated Flight Warning Computers, replacing some foundational logic pieces that were previously written in JavaScript. The vast majority of warnings on the EWD still have the same conditions as previously and have not been touched, but will be eventually moved over to the new flight warning computers one by one.
 
 The new Flight Warning Computers are also hooked into the electrical and failure system, so the alerts that are now 
 powered by the FWS truly won't work when both FWCs are unpowered or have failed.
@@ -79,7 +73,7 @@ You can read more about the "PEAKS DISPLAY" in this technical guide from Honeywe
 
     This will help us iron out the feature and identify issues faster. For more information on where to report, please see [How to Report Issues](#how-to-report-issues) below.
 
-    Expect performance loss as we continue to optimise.
+    Expect performance loss as we continue to optimize.
 
 #### Company Routes
 
@@ -158,7 +152,7 @@ the C* law, this is incorrect and will result in issues if no ADR is available.
 - Since the feature is linked to vertical guidance, having an inaccurate T/D or missing T/D may not pause the simulation.
 
 !!! warning "Sim Limitations"
-    Note that while aircraft simulation is suspended (i.e. fuel consumption, airspeed, altitude, physics), environmental simulation will continue (Notably Live Weather, Live Traffic/AI Traffic). Consequences of this include that TCAS TA/RAs will still be issued and if there is a significant change in the weather over time (say a few hours), your vertical descent profile and performance figures may no longer be accurate, which means that the actual T/D point may now have shifted from the originally calculated value.
+    Note that while aircraft simulation is suspended (i.e., fuel consumption, airspeed, altitude, physics), environmental simulation will continue (Notably Live Weather, Live Traffic/AI Traffic). Consequences of this include that TCAS TA/RAs will still be issued and if there is a significant change in the weather over time (say a few hours), your vertical descent profile and performance figures may no longer be accurate, which means that the actual T/D point may now have shifted from the originally calculated value.
 
     The timestamp issued in the pause pop-up shows your real local system's time (localized to your locale) to help mitigate against this problem.
 
@@ -168,7 +162,7 @@ the C* law, this is incorrect and will result in issues if no ADR is available.
 
 ### Vertical Guidance Issues
 
-- There has been a large number of reports indicating that the T/D was placed too late. This will be investigated this further, but we ask you to please check your arrival routing for any odd path drawings. These are not unusual for the speed predictions of VNAV do not affect the LNAV path computations yet, which causes certain turns to be drawn at a larger radius than what will actually be flown. Consequently, VNAV will calculate a profile with more track mileage than what is realistically available and place the T/D too late.
+- There has been a large number of reports indicating that the T/D was placed too late. This will be investigated this further, but we ask you to please check your arrival routing for any odd path drawings. These are not unusual, for the speed predictions of VNAV do not affect the LNAV path computations yet, which causes certain turns to be drawn at a larger radius than what will actually be flown. Consequently, VNAV will calculate a profile with more track mileage than what is realistically available and place the T/D too late.
 - There is a problem with manually inserted constraints right now, where they are ignored or treated wrongly. Be aware of this and, if possible, advise if you have added any constraints manually when reporting an issue with the profile calculation. This is crucial in helping us identify and reproduce your issue.
 - LNAV does not use VNAV speed predictions yet. This means that an approach path will not be forecasted properly. Furthermore, the T/D (Top of Descent) could be misplaced, since the system expects more track miles.
 - The descent guidance does not use the speed margins properly yet. The aircraft does not speed up to catch a profile below it.

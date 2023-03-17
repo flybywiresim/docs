@@ -19,9 +19,9 @@
 
 ## Description
 
-The FlyByWire flyPad helps pilots managing the communication frequencies when using Online ATC services like VATSIM or IVAO.
+The FlyByWire flyPad helps pilots manage the communication frequencies when using Online ATC services like VATSIM or IVAO.
 
-It lists all currently available ATC stations which can then be activated in the RMP 1 by a single click.
+It lists all currently available ATC stations, which can then be activated in the RMP 1 by a single click.
 
 Go to the flyPad [ATSU/AOC settings page](settings.md#atsuaoc) and select your Online ATC service.
 
@@ -47,12 +47,11 @@ Go to the flyPad [ATSU/AOC settings page](settings.md#atsuaoc) and select your O
 
 ### Getting ATIS
 
-To get the ATIS information of the channel hover over the station and click on the `i` symbol. 
+To get the ATIS information of the channel, hover over the station and click on the `i` symbol. 
 
 ### Changing Frequencies
 
-To change a frequency hover over the station and click either `Set Active` or `Set Standby` depending on if you 
-want to immediately set the frequency as the active frequency or just as the standby frequency for later use. 
+To change a frequency, hover over the station and click either `Set Active` or `Set Standby` depending on if you want to immediately set the frequency as the active frequency or just as the standby frequency for later use. 
 
 ### Filter the Station List
 
@@ -60,8 +59,7 @@ want to immediately set the frequency as the active frequency or just as the sta
 
 Use the search and predefined filters to find the station you are looking for. 
 
-You can type any string in the search field to filter the list for stations with names containing that string. The 
-`x` button clears the search field. 
+You can type any string in the search field to filter the list for stations with names containing that string. The `x` button clears the search field. 
 
-To filter for a specific type of station just click on the appropriate filter button.
+To filter for a specific type of station, just click on the appropriate filter button.
 

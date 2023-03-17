@@ -1,10 +1,10 @@
 # Installation Guide
 
-Please follow the information on this page to install the FlyByWire Simulations A32NX addon for Microsoft Flight Simulator 2020
+Please follow the information on this page to install the FlyByWire Simulations A32NX add-on for Microsoft Flight Simulator 2020
 
 !!! warning "Important Notice"
 
-    All FlyByWire Simulations A32NX versions are now independent from the default A320neo.
+    All FlyByWire Simulations A32NX versions are now independent of the default A320neo.
 
     We’d like to remind all users of the following two **important changes**:
 
@@ -57,7 +57,7 @@ You can send us logs to our [Discord](https://discord.gg/flybywire){target=new} 
 
         **Current Stable Version - ** <img src="https://img.shields.io/github/v/release/flybywiresim/a32nx.svg?color=2F4E5B&style=flat" />
 
-          Stable is our variant that has the least bugs and best performance. This version will not always be up to date but we gurantee its compatibility with each major patch from MSFS. 
+          Stable is our variant that has the least bugs and best performance. This version will not always be up-to-date, but we guarantee its compatibility with each major patch from MSFS. 
 
           [Download Stable](https://github.com/flybywiresim/a32nx/releases/download/assets/stable/A32NX-stable.zip){.md-button target=new}
 
@@ -86,7 +86,7 @@ You can send us logs to our [Discord](https://discord.gg/flybywire){target=new} 
         [Download Experimental](https://github.com/flybywiresim/a32nx/releases/download/assets/experimental/A32NX-experimental.zip){.md-button target=new}
 
         !!! danger "No Support for Experimental - use at own risk"
-            Please do not seek support for the Experimental Version on Discord and only report issues if you have read this page and the reported and known issues.
+            Please do not seek support for the Experimental Version on Discord, and only report issues if you have read this page and the reported and known issues.
 
 ---
 
@@ -138,13 +138,13 @@ If the above methods do not work:
 
 ![How to find the correct Community folder](assets/find-community-folder.png "How to find the correct Community folder")
 
-To find the Community folder that MSFS is using please follow these steps:
+To find the Community folder that MSFS is using, please follow these steps:
 
 1. Go to your General Settings in MSFS and activate Developer Mode.
 2. Go to the menu and select 'Virtual File System'.
 3. Click on 'Packages Folders' and select 'Open Community Folder'.
 
-This opens the Community folder in a Windows Explorer. Please ensure that your addons are installed in the folder that is opened.
+This opens the Community folder in a Windows Explorer. Please ensure that your add-ons are installed in the folder that is opened.
 
 ---
 
@@ -159,8 +159,7 @@ If your issue is not related to installation visit - [**Reported Issues**](suppo
 FBW Installer version 3.0.0 introduced the `Uninstall` feature. To perform an automatic clean install:
 
 - Ensure you have the latest FBW Installer on your machine. 
-    - The installer updates itself. If you would like to 
-    download our installer again see the [FlyByWire Installer Section](#flybywire-installer).
+    - The installer updates itself. If you would like to download our installer again, see the [FlyByWire Installer Section](#flybywire-installer).
 - Click on the "Uninstall" button.
 
 !!! tip ""
@@ -174,16 +173,16 @@ FBW Installer version 3.0.0 introduced the `Uninstall` feature. To perform an au
 If you would like to manually perform a clean install you first have to delete the 
 `flybywire-aircraft-a320-neo` folder from your community folder.
 
-We also store additional information related to the aircraft in a separate directory which is built when you load the aircraft in the simulator. You also need to delete the contents of this folder but not the folder itself. 
+We also store additional information related to the aircraft in a separate directory, which is built when you load the aircraft in the simulator. You also need to delete the contents of this folder, but not the folder itself. 
 
 These locations are found below:
 
 - [Microsoft Store Version](#microsoft-store-version)
 - [Steam Version](#steam-version)
 
-If the above folders are hidden to you follow the directions on [Microsoft's support site](https://support.microsoft.com/en-us/windows/view-hidden-files-and-folders-in-windows-10-97fbc472-c603-9d90-91d0-1166d1d9f4b5).
+If the above folders are hidden to you, follow the directions on [Microsoft's support site](https://support.microsoft.com/en-us/windows/view-hidden-files-and-folders-in-windows-10-97fbc472-c603-9d90-91d0-1166d1d9f4b5).
 
-Once in the correct directory delete the files show here:
+Once in the correct directory, delete the files show here:
 
 ![localstate folder](https://cdn.discordapp.com/attachments/838062729398976522/869736690695172156/unknown.png){ width=70% }
 
@@ -191,7 +190,7 @@ Once in the correct directory delete the files show here:
     The locations below contain a "work" folder. We store two important things here that you may not want to delete:
 
     - Your EFB throttle configuration.
-    - Our flight data recorder (for debugging purposes which we may ask you to provide).
+    - Our flight data recorder (for debugging purposes, which we may ask you to provide).
 
     **It is up to you to keep this folder or not.**
 
