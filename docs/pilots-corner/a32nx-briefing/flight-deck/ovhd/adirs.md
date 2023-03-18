@@ -8,7 +8,7 @@
 
 !!! warning ""
 
-    Please note: The labels should say "ADR" rather than "ADIR". This will be fixed in a future update.
+    Please note: The labels under the rotary switches should say "ADR" rather than "ADIR". This will be fixed in a future update.
 
 ![ADIRS Panel](../../../assets/a32nx-briefing/overhead-panel/ADIRS.jpg "ADIRS Panel")
 
