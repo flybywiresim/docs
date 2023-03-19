@@ -1,6 +1,5 @@
 ---
 template: home.html
-title: FlyByWire Simulations Documentation
 hide:
     - navigation
     - toc
