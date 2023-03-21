@@ -24,6 +24,7 @@ theme:
   features:
     - navigation.tabs
     - navigation.tabs.sticky
+    # Removed this feature again as it's breaking TOC navigation on reported-issues.md
 #    - navigation.instant
     - navigation.top
     - navigation.tracking
