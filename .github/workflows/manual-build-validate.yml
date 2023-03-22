@@ -1,4 +1,4 @@
-name: Build Validation
+name: Manual Build Validation
 
 on:
   issue_comment:
