@@ -19,7 +19,7 @@ jobs:
             const { owner } = context.repo;
             const { data: members } = await github.rest.orgs.listMembers({
               org: owner,
-              per_page: 100, // Adjust to list more members if necessary
+              per_page: 100,
             });
             const { data: isOrgMember } = members.find(member => member.login === context.payload.comment.user.login) || { data: false };
             const { data: isMaintainer } = await github.rest.repos.getCollaboratorPermissionLevel({
