@@ -12,7 +12,7 @@ For information on the other settings available on the EFB, visit our [flyPad Se
 
 ## Passenger Simulation
 
-!!! important "Cockpit Door"
+!!! warning "Cockpit Door"
     The cockpit door in the A32NX simulates a real A320 cockpit door, which in consequence dampens most of the sounds from the passenger cabin. 
 
     If you want to enjoy the Passenger Ambience sounds, make sure it is open.
@@ -27,7 +27,7 @@ If this setting is enabled, the following ambience sounds are played:
 
 ### Announcements
 
-!!! important "Customizations"
+!!! warning "Customizations"
     Due to limitations with MSFS audio configurations, adding user customizable announcements/sounds is not easily possible.
 
 If this setting is enabled, the following crew announcements are played.
