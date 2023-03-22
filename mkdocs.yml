@@ -154,5 +154,5 @@ markdown_extensions:
   pymdownx.pathconverter:
     base_path: 'docs' # default: ''
     relative_path: '' # default ''
-    absolute: false # default: false
+    absolute: true # default: false
     tags: 'a script img link object embed'
