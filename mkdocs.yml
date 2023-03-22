@@ -24,7 +24,6 @@ theme:
   features:
     - navigation.tabs
     - navigation.tabs.sticky
-    # Removed this feature again as it's breaking TOC navigation on reported-issues.md
     - navigation.instant
     - navigation.top
     - navigation.tracking
@@ -152,3 +151,8 @@ markdown_extensions:
     emoji_index: !!python/name:materialx.emoji.twemoji
     emoji_generator: !!python/name:materialx.emoji.to_svg
   md_in_html: {} # Allows markdown to be used in HTML
+  pymdownx.pathconverter:
+    base_path: 'docs' # default: ''
+    relative_path: '' # default ''
+    absolute: false # default: false
+    tags: 'a script img link object embed'
