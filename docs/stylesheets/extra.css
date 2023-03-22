@@ -125,3 +125,25 @@ tbody {
     background-color: #00E0FE;
 }
 
+/*PDF Styling*/
+.pdf-embed {
+    width: 100%;
+    height: 800px;
+    border: 1px solid black;
+}
+
+/* Responsive Styling */
+
+@media screen and (max-width: 768px) {
+    .pdf-embed {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .pdf-embed {
+        height: 200px;
+    }
+}
+
+
