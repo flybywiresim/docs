@@ -1,4 +1,4 @@
-name: Strict Build Validation
+name: Automatic Strict Build Validation
 
 on:
   pull_request_target:
@@ -6,8 +6,8 @@ on:
 
 jobs:
   validate:
-    # Prevent running this on forks
-    if: github.repository_owner == 'flybywiresim'
+    # Prevent running this on forks and check for label
+    if: github.repository_owner == 'flybywiresim' && contains(github.event.pull_request.labels.*.name, 'your-label-name')
     runs-on: ubuntu-latest
     steps:
       - name: Get PR SHA
