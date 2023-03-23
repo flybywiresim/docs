@@ -5,7 +5,7 @@ This page is pulled externally from the A32NX repository and describes the proce
 We're thrilled to be partnered with Localazy, who offers top-notch software localization services bringing multiple language support to our EFB and enhance the user experience for all of our users.
 
 <figure markdown>
-  [![localazy-mono-logo.svg](..%2F..%2Fassets%2Flocalazy-mono-logo.svg){ width="300" }](https://localazy.com/term/software-localization?utm_source=flybywiresim.
+  [![localazy-mono-logo.svg](../../assets/localazy-mono-logo.svg){ width="300" }](https://localazy.com/term/software-localization?utm_source=flybywiresim.
 com&utm_medium=sponsored-referral&utm_campaign=partnerships&utm_content=footer-logo)
 </figure>
 
