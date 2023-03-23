@@ -30,7 +30,7 @@ The [Preflight](preflight.md) page contains guides on how to set up relevant dat
 | [Starting the Aircraft](starting-the-aircraft.md)    |
 | [Preparing the MCDU](preparing-mcdu.md)              |
 | [Engine Start and Taxi](engine-start-taxi.md)        |
-| [Takeoff, Climb and Cruise](takeoff-climb-cruise.md) |
+| [Takeoff, Climb, and Cruise](takeoff-climb-cruise.md) |
 | [Descent Planning and Descent](descent.md)           |
 | [Approach and ILS Landing](landing.md)               |
 | [After Landing and Taxi to Gate](after-landing.md)   |
@@ -43,7 +43,7 @@ If you have any issues or feedback with this guide, please file an issue here:
 
 [:fontawesome-brands-github:{: .github } -  **FBW Docs Issues**](https://github.com/flybywiresim/docs/issues){target=new}
 
-For general questions please visit our Discord:
+For general questions, please visit our Discord:
 
 [:fontawesome-brands-discord:{: .discord } - **Discord Link**](https://discord.gg/flybywire){target=new}
 

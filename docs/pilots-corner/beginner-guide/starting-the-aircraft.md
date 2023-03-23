@@ -5,9 +5,7 @@ This guide will assist you with starting your aircraft. It includes images to as
 !!! warning "Disclaimer"
     The level of detail in this guide is meant to teach a FlyByWire A320neo beginner to start the aircraft correctly.
 
-    A *beginner* is defined as someone familiar with flying a GA aircraft
-    or different types of airliners. Aviation terminology and know-how is
-    a requirement to fly any airliner even in Microsoft Flight Simulator.
+    A *beginner* is defined as someone familiar with flying a GA aircraft or different types of airliners. Aviation terminology and know-how is a requirement to fly any airliner, even in Microsoft Flight Simulator.
 
     You will find many great videos on YouTube on how to fly the FlyByWire A32NX.<br/>
     Check out the FlyByWire YouTube Channel as well: [FlyByWire on YouTube](https://www.youtube.com/c/FlyByWireSimulations/playlists)
@@ -23,7 +21,7 @@ This guide will cover these chapters in order:
 
 ## Prerequisites
 
-Aircraft is in a cold and dark state at a gate.
+The aircraft is in a cold and dark state at a gate.
 
 [Download FlyByWire Checklist](../../assets/FBW_A32NX_CHECKLIST.pdf){ .md-button }
 
@@ -46,8 +44,7 @@ We then direct our attention to the **main panel** and make sure the following i
 
 - [Gear Lever](../a32nx-briefing/flight-deck/front/autobrake-gear.md) is down
 
-Then we look up at the **overhead panel**. Make sure the following are in the set position before moving on to 
-starting the aircraft:
+Then we look up at the **overhead panel**. Make sure the following are in the set position before moving on to starting the aircraft:
 
 - [Wiper](../a32nx-briefing/flight-deck/ovhd/wipers.md) selectors are in the `OFF` position
 
@@ -63,29 +60,24 @@ starting the aircraft:
 
 We begin with turning on batteries `BAT 1 AND 2`. We will hear chimes indicating the batteries are on.
 
-Batteries only power a small part of the aircraft. For the rest either ground power, APU or a running engine is required.
+Batteries only power a small part of the aircraft. For the rest, either ground power, APU or a running engine is required.
 
 #### Ground Power
 
 If ground power is available, we should see a green `AVAIL` light on the `EXT PWR` button. Push on this button to give power to the aircraft.
 
 !!! note "Ground Power Not Available"
-    Some gates or stands are not equipped with ground power. In Microsoft Flight Simulator this happens regularly at 
-    smaller airports. This is not a bug but a realistic situation. You can then either try to call a Ground Power Unit 
-    (GPU) if available at the airport or just use the APU as described in the next step.
+    Some gates or stands are not equipped with ground power. In Microsoft Flight Simulator, this happens regularly at smaller airports. This is not a bug, but a realistic situation. You can then either try to call a Ground Power Unit (GPU) if available at the airport or just use the APU as described in the next step.
 
 #### Flight Warning System Initialization
 
 !!! warning "Currently on the Experimental version only."
 
-The Flight Warning System (FWS) is a system that monitors the aircraft and alerts the crew of any abnormalities. The 
-FWS initializes as soon as AC Bus power (External Power or APU) becomes available. 
+The Flight Warning System (FWS) is a system that monitors the aircraft and alerts the crew of any abnormalities. The FWS initializes as soon as AC Bus power (External Power or APU) becomes available. 
 
-The initialization takes about 50 seconds and is indicated by the `FWS FWC 1+2 FAULT` message on the ECAM. The 
-message will disappear and various alarms may play once the initialization is complete.
+The initialization takes about 50 seconds and is indicated by the `FWS FWC 1+2 FAULT` message on the ECAM. The message will disappear, and various alarms may play once the initialization is complete.
 
-Some cockpit setup steps should not be done before this initialization is complete. Especially the fire tests should 
-not be done before this initialization is complete.
+Some cockpit setup steps should not be done before this initialization is complete. Especially, the fire tests should not be done before this initialization is complete.
 
 ![fws-init-ecam](../assets/beginner-guide/starting-aircraft/fws-init-ecam.png){loading=lazy width=50%}
 
@@ -93,23 +85,19 @@ not be done before this initialization is complete.
 
 ![Fire Panel](../assets/beginner-guide/starting-aircraft/fire-panel.png "Fire Panel"){loading=lazy}
 
-Before starting the APU, we should do a fire test. This is done by pressing and holding the `TEST` button on the fire 
-panel.
+Before starting the APU, we should do a fire test. This is done by pressing and holding the `TEST` button on the fire panel.
 
-If external power is available, the fire test will light up the Fire Extinguish button and the Squib Discharge button
-on the fire panel and the ECAM will show the appropriate warnings. 
+If external power is available, the fire test will light up the Fire Extinguish button and the Squib Discharge button on the fire panel, and the ECAM will show the appropriate warnings. 
 
 !!! block ""
     ![apu-fire-test](../assets/beginner-guide/starting-aircraft/apu-fire-test.png){loading=lazy valign=top align=center width=49%}
     ![apu-fire-test-ecam](../assets/beginner-guide/starting-aircraft/apu-fire-test-ecam.png){loading=lazy valign=top align=center width=49%}
 
-If external power is not available at this point, we do a batteries only fire test. In this case only the fire panel 
-buttons will show the test lights. The ECAM remains dark. 
+If external power is not available at this point, we do a battery only fire test. In this case, only the fire panel buttons will show the test lights. The ECAM remains dark. 
 
 #### APU
 
-We now start the APU. Without external power this will provide us with electrical power to setup the aircraft. The 
-startup typically lasts about 1 minute.
+We now start the APU. Without external power, this will provide us with electrical power to set up the aircraft. The startup typically lasts about 1 minute.
 
 To do this, we simply push on the APU `MASTER SW` and `START`. The APU should be on within one minute.
 
@@ -119,7 +107,7 @@ To do this, we simply push on the APU `MASTER SW` and `START`. The APU should be
     !!! block ""
         ![APU BLEED](../assets/beginner-guide/starting-aircraft/apu-bleed.png "APU BLEED"){loading=lazy align=left width=20%}
 
-        Many airlines require the air conditioning to be running prior to passengers entering the aircraft, and remain on until deboarding is complete to ensure proper air circulation. Therefore, turning on the APU even with ground power is now required, as the air conditioning packs need the APU Bleed air to function whenever the engines are not running. Especially if a ground air conditioning unit is not available.    
+        Many airlines require the air conditioning to be running before passengers enter the aircraft, and remain on until deboarding is complete to ensure proper air circulation. Therefore, turning on the APU even with ground power is now required, as the air conditioning packs need the APU Bleed air to function whenever the engines are not running. Especially if a ground air conditioning unit is not available.    
 
         Make sure to turn on APU Bleed on the overhead panel. 
 
@@ -127,9 +115,9 @@ To do this, we simply push on the APU `MASTER SW` and `START`. The APU should be
     APU Bleed Air is required for starting the engines. See [Engine Start and Taxi](engine-start-taxi.md)
 
 ??? note "Real World APU and A/C Start Procedure"
-    The above process is a simplified version of how real world airline start up the APU (documented in their SOP - Standard Operating Procedures).
+    The above process is a simplified version of how real-world airlines start up the APU (documented in their SOP - Standard Operating Procedures).
 
-    Here is a description of an actual real world procedure of a well known airline.
+    Here is a description of an actual, real-world procedure of a well-known airline.
 
     - Check A/C Packs are OFF before powering the aircraft
     - Set APU MASTER switch to ON
@@ -139,7 +127,7 @@ To do this, we simply push on the APU `MASTER SW` and `START`. The APU should be
     - Wait 1 min (use [CHRONO](../a32nx-briefing/flight-deck/glareshield/warning.md#2-chrono) to time this)
     - Set APU BLEED to ON      
     - Wait 1 min (use [CHRONO](../a32nx-briefing/flight-deck/glareshield/warning.md#2-chrono) to time this)
-    - Set PACK 1 to ON (due of COVID many airlines require both A/C PACKS to be ON)
+    - Set PACK 1 to ON (due to COVID, many airlines require both A/C PACKS to be ON)
     
     The two waiting steps are to avoid any APU oil fumes to get into the air conditioning.  
 
@@ -151,7 +139,7 @@ After powering the aircraft, we turn on the crew oxygen supply by pushing on the
 
 ### ADIRS alignment
 
-To align the Inertial Reference System (or IRS), we turn the 3 knobs to the `NAV` position. This will then start the IRS alignment for which we can view the progress on the ECAM display.
+To align the Inertial Reference System (or IRS), we turn the 3 knobs to the `NAV` position. This will then start the IRS alignment, for which we can view the progress on the ECAM display.
 
 ![ADIRS Alignment](../assets/beginner-guide/starting-aircraft/adirsaligned.png "ADIRS Alignment"){loading=lazy}<br/>
 ![ECAM IRS](../assets/beginner-guide/starting-aircraft/ecamirs.png){loading=lazy}
@@ -193,7 +181,7 @@ We can turn on a few lights to help with visibility inside if it is too dark ins
 
 ![Cabin Pressure](../assets/beginner-guide/starting-aircraft/cabin-pressure.png "Cabin Pressure"){loading=lazy}
 
-Looking up just a bit we find the `LDG ELEV` knob. This simply means the landing elevation which should be in the `AUTO` position.
+Looking up just a bit, we find the `LDG ELEV` knob. This simply means the landing elevation, which should be in the `AUTO` position.
 
 ### Cabin Temperature
 
@@ -214,9 +202,7 @@ Just below the hydraulic panel, we find the **fuel panel**. Turn on all 6 fuel p
 
 ![Fire Panel](../assets/beginner-guide/starting-aircraft/fire-panel.png "Fire Panel")
 
-To perform an engine fire test, hold down the `TEST` button for each of them for 5 seconds minimum to ensure 
-the lights and aural warnings are working as expected. Checking the ECAM during the test will also show if the ECAM 
-is performing as expected during a fire.
+To perform an engine fire test, hold down the `TEST` button for each of them for 5 seconds minimum to ensure the lights and aural warnings are working as expected. Checking the ECAM during the test will also show if the ECAM is performing as expected during a fire.
 
 !!! block ""
     ![eng-fire-test](../assets/beginner-guide/starting-aircraft/eng-fire-test.png){loading=lazy align=center valign=top width=49%}
@@ -228,9 +214,9 @@ is performing as expected during a fire.
 
 ### Displays
 
-The brightness for each display can be adjusted to make them better readable.
+The brightness for each display can be adjusted to make them more readable.
 
-For the PFD and ND, the knobs are in the same location. Look left (or right when in  first officer seat) of the PFD and find the brightness knobs for them. Simply turn both knobs as required.
+For the PFD and ND, the knobs are in the same location. Look left (or right when in first officer seat) of the PFD and find the brightness knobs for them. Simply turn both knobs as required.
 
 ![PFD and ND brightness](../assets/beginner-guide/starting-aircraft/pfdndbright.png "PFD and ND brightness"){loading=lazy}
 
@@ -250,10 +236,10 @@ Looking down at the **radio panel**, set the `RMP 1` to the active **ATIS** freq
 
 ![Radio Panel](../assets/beginner-guide/starting-aircraft/radiopanel.png "Radio Panel"){ loading=lazy}
 
-After setting correct frequencies, locate the `BARO` reference on the **glareshield**. We can set the barometer to either `inHg` or `hPa` by turning the grey inner selector behind the knob. For this flight ensure that we are set to `QNH`. This can be changed by "pushing" on the BARO knob (the tooltip will have an upwards arrow).
+After setting correct frequencies, locate the `BARO` reference on the **glareshield**. We can set the barometer to either `inHg` or `hPa` by turning the gray inner selector behind the knob. For this flight, ensure that we are set to `QNH`. This can be changed by "pushing" on the BARO knob (the tooltip will have an upwards arrow).
 
 !!! info "A note on QNH and QFE"
-    Choosing between using QNH and QFE is a little beyond the scope of this guide. In most cases we will be flying using `QNH`.
+    Choosing between using QNH and QFE is a little beyond the scope of this guide. In most cases, we will be flying using `QNH`.
 
     - **QNH:** Altimeter indicates height above sea level.
 
@@ -269,11 +255,11 @@ Verify on the Upper ECAM that your aircraft has enough fuel for the flight.
 
 ![ECAM Fuel On Board](../assets/beginner-guide/starting-aircraft/ecam-fuel.png "ECAM Fuel On Board")
 
-If we do not have enough fuel for the flight we can refuel via the [flyPad EFB Fuel Page](../../fbw-a32nx/feature-guides/flypados3/dispatch.md#fuel-page) .
+If we do not have enough fuel for the flight, we can refuel via the [flyPad EFB Fuel Page](../../fbw-a32nx/feature-guides/flypados3/dispatch.md#fuel-page) .
 
 ---
 
-At this point we would have completed 5/7 task on the `Before Start` section on the FlyByWire A32NX checklist.
+At this point, we would have completed 5/7 task on the `Before Start` section on the FlyByWire A32NX checklist.
 
 ![Before Start Checklist](../assets/beginner-guide/starting-aircraft/beforestart.png){loading=lazy}
 
