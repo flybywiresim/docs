@@ -1,11 +1,11 @@
 # Normal Law Protections in the A320
 
-The A320 has various flight envelope protections which protect the aircraft from entering certain critical situations while Normal Law is active.
+The A320 has various flight envelope protections, which protect the aircraft from entering certain critical situations while Normal Law is active.
 
-The guides in this section shall cover some of the main envelope protections of the A320's Normal Law.
+The guides in this section shall cover some main envelope protections of the A320's Normal Law.
 
 ??? info "Control Laws"
-    The fly-by-wire principle of the A320 uses several "Laws" on how to control the flight control surfaces in relation to the pilot's input to side stick.
+    The fly-by-wire principle of the A320 uses several "Laws" on how to control the flight control surfaces in relation to the pilot's input to the side stick.
 
     - Normal Law:
         - normal conditions even after single failure of sensors, electrical system, hydraulic system or flight control computer
@@ -30,9 +30,9 @@ The guides in this section shall cover some of the main envelope protections of 
 - [Windshear Protection](#windshear-protection)
 - [Low Energy Protection](#low-energy-protection)
 
-## High Speed Protection
+## High-Speed Protection
 
-High Speed Protection (HSP) aims to protect the aircraft from overspeed situations and activates latest when V~MO~+6kt or M~MO~+0.015 speeds (maximum operating speeds in knots or mach) are reached.
+High-Speed Protection (HSP) aims to protect the aircraft from overspeed situations and activates latest when V~MO~+6 kt or M~MO~+0.015 speeds (maximum operating speeds in knots or mach) are reached.
 
 See also [V-Speeds](../../abbreviations.md#v-speeds)
 
@@ -52,11 +52,11 @@ The overspeed limits are shown on the speed band on the PFD as a black and red s
     ![Speedband Overspeed Limits](../../assets/advanced-guides/protections/speedband_overspeed.png "Speedband Overspeed Limits"){loading=lazy align=left width=12%}
 
     - 1: V~MAX~ = Lowest of V~MO~, M~MO~, V~LE~, V~FE~
-    - 2: V~MO~ + 6kt or M~MO~ + 0.01 Overspeed Protection becomes active
+    - 2: V~MO~ + 6 kt or M~MO~ + 0.01 Overspeed Protection becomes active
     - 3: Actual Airspeed Reference Line
     - 4: Current Mach speed
 
-High Speed Protection is usually accompanied by the Overspeed Warnings:
+High-Speed Protection is usually accompanied by the Overspeed Warnings:
 
 - Continuous repetitive chime
 - Master warning light
@@ -65,11 +65,11 @@ High Speed Protection is usually accompanied by the Overspeed Warnings:
 
 ### Protective Actions
 
-- Automatic AP disconnection (V~MO~ + 15kt or M~MO~ + 0.04)
-- When V~MO~ + 6kt or M~MO~ + 0.01 is reached a positive load factor demand is automatically applied (pitch up action)
-- When full nose-down stick is maintained speed is limited to around V~MO~ + 16kt and M~MO~ + 0.04 (pilot nose-down authority is reduced)
+- Automatic AP disconnection (V~MO~ + 15 kt or M~MO~ + 0.04)
+- When V~MO~ + 6 kt or M~MO~ + 0.01 is reached, a positive load factor demand is automatically applied (pitch up action)
+- When full nose-down stick is maintained, speed is limited to around V~MO~ + 16 kt and M~MO~ + 0.04 (pilot nose-down authority is reduced)
 - When sidestick is released at HSP activation, the airplane will slightly overshoot V~MO~/M~MO~ and fly back towards the envelope.
-- When sidestick is released the aircraft's bank angle will return to 0° (instead of 33° outside of HSP)
+- When sidestick is released, the aircraft's bank angle will return to 0° (instead of 33° outside HSP)
 - Bank angle limit is reduced from 67° to 40°
 - Pitch trim is frozen
 
@@ -88,13 +88,13 @@ The Angle of Attack Protection protects against stalling the aircraft.
 
     Based on the article [Angle of Attack (AOA)](https://skybrary.aero/articles/angle-attack-aoa){target=new}, Source: www.skybrary.aero.
 
-The angle of attack is commonly called &alpha; (alpha) which we  will use in the following sections.
+The angle of attack is commonly called &alpha; (alpha) which we will use in the following sections.
 
 ### Engagement Conditions
 
 The High Angle of Attack Protection is engaged when:
 
-- Current angle of attack ia greater than &alpha;~prot~ (in Normal Law) when above 100ft RA
+- Current angle of attack is greater than &alpha;~prot~ (in Normal Law) when above 100ft RA
 - Below 100 ft RA during the landing, when &alpha;~max~ is reached
 
 ### Indications and Warnings
@@ -107,7 +107,7 @@ The High Angle of Attack Protection is engaged when:
     - 3: Selected speed in the FCU
     - 4: &alpha;~prot~ limit
         - this speed is maintained when side stick is neutral
-        - if sidestick if deflected aft this will eventually activate &alpha;~floor~ A/THR protection - see [Alpha Floor Protection](#alpha-floor-protection)
+        - if sidestick is deflected aft this will eventually activate &alpha;~floor~ A/THR protection - see [Alpha Floor Protection](#alpha-floor-protection)
     - 5: &alpha;~max~ is the speed with the maximum angle of attack (AoA) the aircraft will allow
         - this speed is maintained when side stick is deflected fully aft
         - it has a small margin before reaching the stall AoA
@@ -115,16 +115,16 @@ The High Angle of Attack Protection is engaged when:
 ### Protective Actions
 
 - Automatic AP disconnection
-- If &alpha; becomes greater than &alpha;~prot~ then angle of attack will become proportional to stick deflection. Autotrim will stop which results in a nose-down tendency.
+- If &alpha; becomes greater than &alpha;~prot~ then the angle of attack will become proportional to stick deflection. Autotrim will stop, which results in a nose-down tendency.
 - If &alpha; reaches &alpha;~floor~ the autothrust system will apply go-around thrust. See [Alpha Floor Protection](#alpha-floor-protection).
-- &alpha;~max~ cannot be exceeded even with the pilot pulling the stick full backward. In other words the aircraft cannot be stalled in Normal Law by the pilot's pitch up stick input.
+- &alpha;~max~ cannot be exceeded even with the pilot pulling the stick full backward. In other words, the aircraft cannot be stalled in Normal Law by the pilot's pitch up stick input.
 - Bank angle limit is reduced from 67° to 45°
 
 ### Recommended Action to Recover
 
 - Push sidestick forward to reduce pitch and gain speed.
 
-- If Alpha Floor Protection (&alpha;~floor~) is activated see next chapter [Alpha Floor Protection](#alpha-floor-protection)
+- If Alpha Floor Protection (&alpha;~floor~) is activated, see next chapter [Alpha Floor Protection](#alpha-floor-protection)
 
 ## Alpha Floor Protection
 
@@ -152,7 +152,7 @@ Alpha Floor Protection is **inhibited**, when:
 !!! block ""
     ![A.FLOOR FMA](../../assets/advanced-guides/protections/alpha-floor-fma.png "A.FLOOR FMA"){loading=lazy align=left width=15%}
 
-    If the &alpha;~floor~ (A.FLOOR) protection is triggered the Autothrust FMA shows this symbol with a flashing amber border.
+    If the &alpha;~floor~ (A.FLOOR) protection is triggered, the Autothrust FMA shows this symbol with a flashing amber border.
 
 ### Protective Actions
 
@@ -166,7 +166,7 @@ See our specific guide on how to recover from A.FLOOR: [A.FLOOR and TOGA LK](afl
 
 ## Load Factor Protection
 
-Manoeuvre Protection, also called Manoeuvre Protection, enables immediate PF reaction, by pulling the sidestick to full aft without any risk of overstressing the aircraft.
+Maneuvre Protection, also called Maneuvre Protection, enables immediate PF reaction, by pulling the sidestick to full aft without any risk of over stressing the aircraft.
 
 The load factor limit is:
 
@@ -182,19 +182,19 @@ The load factor limit is:
 
 ## Pitch Attitude Protection
 
-To protect the aircraft from excessive pitch attitudes this protection limits pitch angels in the following ways:
+To protect the aircraft from excessive pitch attitudes, this protection limits pitch angels in the following ways:
 
 - Nose up limited to 30° in CONF 0 to 3
-    - Progressively reduced to 25 ° at low speed
+    - Progressively reduced to 25° at low speed
 - Nose up limited to 25° in CONF FULL
-    - Progressively reduced to 20 ° at low speed
+    - Progressively reduced to 20° at low speed
 - Limited to 15° nose down
 
 If these limits are approached, the aircraft's pitch rate decreases and will stop at the limit.
 
-The flight director bars disappear when pitch exceeds 25° up or 13° down. They appear again when pitch returns to 22° up or 10° down.
+The flight director bars disappear when pitch exceeds 25° up or 13° down. They appear again when the pitch returns to 22° up or 10° down.
 
-Pitch Attitude Protection supports high speed protection, high load factor protection, and high AOA protection.
+Pitch Attitude Protection supports high-speed protection, high load factor protection, and high AOA protection.
 
 ### PFD Attitude Indicators
 
@@ -209,19 +209,19 @@ Pitch Attitude Protection supports high speed protection, high load factor prote
 
 ## Bank Angle Protection
 
-Bank angle during normal conditions is limited at 67° if the pilots holds the sidestick fully deflected laterally.
+Bank angle during normal conditions is limited to 67° if the pilots hold the sidestick fully deflected laterally.
 
 If the sidestick is neutral and the bank angle is no greater than 33°, the system will hold that bank angle.
 
-If the bank angle was greater than 33° and the sidestick is released to neutral the system reduces the bank angle automatically to 33° and holds it there.
+If the bank angle was greater than 33° and the sidestick is released to neutral, the system reduces the bank angle automatically to 33° and holds it there.
 
 If these limits are approached, the aircraft's roll rate decreases and will stop at the limit.
 
-If [High Angle of Attack Protection](#high-angle-of-attack-protection) is active the bank angle is limited to 45°.
+If [High Angle of Attack Protection](#high-angle-of-attack-protection) is active, the bank angle is limited to 45°.
 
-If [High Speed Protection](#high-speed-protection) is active the bank angle is limited to 40° and will roll back to 0° when the sidestick is released to neutral.
+If [High-Speed Protection](#high-speed-protection) is active, the bank angle is limited to 40° and will roll back to 0° when the sidestick is released to neutral.
 
-The autopilot disconnects and the flight director bars disappear when bank angle exceeds 45°. They appear again when bank angle is less than 40°.
+The autopilot disconnects and the flight director bars disappear when the bank angle exceeds 45°. They appear again when the bank angle is less than 40°.
 
 See [PFD Attitude Indicators](#pfd-attitude-indicators).
 
@@ -243,13 +243,13 @@ Windshear Protection is available during take off and approach phases when:
 ### Recommended Action to Recover
 
 - Flight Director pitch order based on the speed reference system (SRS).
-- Pilot must set TOGA thrust immediately and follow the FD pitch order to execute optimum escape maneuver.
+- Pilot must set TOGA thrust immediately and follow the FD pitch order to execute the optimum escape maneuver.
 
-## Low Energy Protection
+## Low-Energy Protection
 
 !!! warning "Not yet available in the A32NX on Microsoft Flight Simulator"
 
-If the aircraft’s energy level is going below a threshold an aural low-energy “SPEED SPEED SPEED” alert warns the pilot to increase thrust, in order to regain a positive flight path angle through pitch control.
+If the aircraft’s energy level is going below a threshold, an aural low-energy “SPEED SPEED SPEED” alert warns the pilot to increase thrust, to regain a positive flight path angle through pitch control.
 
 It is available in Configuration 2, 3, and FULL. The FAC computes the energy level with the following inputs:
 
@@ -260,8 +260,8 @@ It is available in Configuration 2, 3, and FULL. The FAC computes the energy lev
 The aural alert is inhibited when:
 
 - TOGA is selected, or
-- Below 100 ft RA, or
-- Above 2 000 ft RA, or
+- Below 100ft RA, or
+- Above 2.000ft RA, or
 - Alpha-floor, or
 - the ground proximity warning system alert is triggered, or
 - in alternate or direct law, or
