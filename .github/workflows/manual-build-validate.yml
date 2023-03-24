@@ -1,4 +1,4 @@
-name: Build Validation
+name: Manual Build Validation
 
 on:
   issue_comment:
@@ -11,7 +11,7 @@ jobs:
     if: ${{ github.event.issue.pull_request && github.repository_owner == 'flybywiresim' && github.event.comment.body == 'check build' }}
     steps:
       - name: React to comment
-        uses: actions/github-script@v5
+        uses: actions/github-script@v6
         with:
           script: |
             const {owner, repo} = context.issue;
@@ -23,7 +23,7 @@ jobs:
             });
       - name: Get PR SHA
         id: sha
-        uses: actions/github-script@v5
+        uses: actions/github-script@v6
         with:
           result-encoding: string
           script: |
@@ -34,12 +34,12 @@ jobs:
               pull_number: number,
             });
             return pr.data.head.sha
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           ref: ${{ steps.sha.outputs.result }}
           fetch-depth: 0
       - name: Make Build
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: 3.x
       - run: |
@@ -47,7 +47,7 @@ jobs:
           mkdocs build -s
       - name: Message success
         if: ${{ success() }}
-        uses: actions/github-script@v5
+        uses: actions/github-script@v6
         with:
           script: |
             github.rest.issues.createComment({
@@ -58,7 +58,7 @@ jobs:
             });
       - name: Message failure
         if: ${{ failure() }}
-        uses: actions/github-script@v5
+        uses: actions/github-script@v6
         with:
           script: |
             github.rest.issues.createComment({
