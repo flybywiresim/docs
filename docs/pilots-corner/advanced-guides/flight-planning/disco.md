@@ -7,7 +7,7 @@ search:
 
 ## What are Discontinuities?
 
-Discontinuities are breaks in the flight plan and often separate two flight plan sections like the SID and first in-route waypoint or the STAR and the APPR. They are also often inserted when the flight plan is modified.
+Discontinuities are breaks in the flight plan and often separate two flight plan sections, like the SID and first in-route waypoint or the STAR and the APPR. They are also often inserted when the flight plan is modified.
 
 There are basically two types of discontinuities:
 
@@ -17,12 +17,9 @@ There are basically two types of discontinuities:
 ### Special Case
 
 !!! warning "STAR and Approach Discontinuity - Inaccuracy"
-    If your STAR contains other waypoints after the IAF (initial approach fix) that you have selected via an approach transition (VIA), the FMS will not automatically connect 
-    the STAR to the approach at at the IAF.
+    If your STAR contains other waypoints after the IAF (initial approach fix) that you have selected via an approach transition (VIA), the FMS will not automatically connect the STAR to the approach at the IAF.
 
-    This is a small problem with our current implementation. It will be corrected when we 
-    update to version 2 (fms-v2) of our implementation which contains even better simulation of the 
-    Honeywell FMS.
+    This is a small problem with our current implementation. It will be corrected when we update to version 2 (fms-v2) of our implementation, which contains even better simulation of the Honeywell FMS.
 
 ## Discontinuities Between Waypoints
 
@@ -35,7 +32,7 @@ instances:
 !!! tip ""
     Approaches that are radar vectored without a MANUAL will also have a discontinuity by design. Please be aware of these approaches and follow the principles outlined below.
 
-Ideally the NAV mode automatically reverts to the HDG (TRK) mode and pilots should follow ATC guidance (if on network) or use the DIR TO function to proceed to the next 
+Ideally, the NAV mode automatically reverts to the HDG (TRK) mode and pilots should follow ATC guidance (if on network) or use the DIR TO function to proceed to the next 
 waypoint on your flight plan.
 
 [Learn How to Use Direct Feature](direct.md){.md-button}
@@ -88,7 +85,7 @@ If the aircraft is flying into a MANUAL leg, NAV mode remains engaged and predic
         ![Manual leg discontinuity on ND plan mode](../../assets/advanced-guides/disco/mcdu-discontinuity-manual-nd-plan.png "Manual leg discontinuity on ND plan mode"){width=48% loading=lazy}
         ![Manual leg discontinuity on ND](../../assets/advanced-guides/disco/mcdu-discontinuity-manual-nd.png "Manual leg discontinuity on ND"){width=48% loading=lazy}
     !!! warning "MANUAL label to be removed!"
-        The MANUAL label on the ND will be removed in a future version as it is not displayed in the real aircraft.
+        The MANUAL label on the ND will be removed in a future version, as it is not displayed in the real aircraft.
 
 
 
