@@ -198,7 +198,7 @@ If the aircraft is below the descent profile, its speed will be maintained at ta
 descent profile. The lower margin becomes effective when the aircraft is on the descent profile but has to lose
 speed in order to stay on it.
 
-!!! warning "The MODE DRAG message is not yet implemented in the A32NX"
+!!! warning "The MORE DRAG message is not yet implemented in the A32NX"
 
 ## Approach modes
 
