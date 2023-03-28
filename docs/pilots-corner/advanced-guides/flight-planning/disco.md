@@ -26,8 +26,10 @@ There are basically two types of discontinuities:
 
 ## Discontinuities Between Waypoints
 
-These discontinuities <span style=color:red>should not</span> be cleared from the flight plan in normal operations. Typically, you will notice a discontinuity in the following 
-instances:
+!!! warning ""
+    These discontinuities **should not** be cleared from the flight plan in normal operations.
+
+Typically, you will notice a discontinuity in the following instances:
 
 - Between the SID and the rest of your route.
 - Between the STAR and the selected approach.
