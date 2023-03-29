@@ -79,7 +79,7 @@ The maintenance crew uses this pushbutton to reset the control circuit, after th
     - The FADEC alternator does not supply the FADEC.
 
 !!! info ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+    Currently only available in the experimental Version.
 
 ---
 
