@@ -276,6 +276,7 @@ the import button in the Payload UI.
 
     **Cargo Sliders**
 
+[//]: # (TODO Don't forget this one)
     ![cargo sliders](../assets/feature-guides/simbrief/wb-sliders.png){loading=lazy}
 
     You can also interact with the sliders above the wireframe aircraft to fill the cargo bays. While this may be not as accurate, it does allow modification of the physical distribution of the cargo in the aircraft. The actual numerical weight of the cargo planned will update automatically.
