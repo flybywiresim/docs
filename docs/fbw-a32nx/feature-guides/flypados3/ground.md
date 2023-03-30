@@ -122,7 +122,7 @@ up the payload.
 ![flypad-ground-payload-values](../../assets/flypados3/flypad-ground-payload-values.png)
 
 This widget allows setting up the payload of the aircraft.
-
+#TODO New Image + Deboarding Button
 1. Planning
      - Enter the planned number of passengers and weight of cargo here. 
      - You can also enter the planned ZFW (zero fuel weight) here, which will change the other values accordingly.
