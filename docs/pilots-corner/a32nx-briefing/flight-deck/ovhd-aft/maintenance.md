@@ -78,9 +78,6 @@ The maintenance crew uses this pushbutton to reset the control circuit, after th
     - The ENG FIRE pb-sw is not pressed,
     - The FADEC alternator does not supply the FADEC.
 
-!!! info ""
-    Currently only available in the experimental version.
-
 ---
 
 [Back to Flight Deck](../index.md){ .md-button }
