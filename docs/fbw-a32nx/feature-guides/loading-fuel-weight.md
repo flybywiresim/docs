@@ -232,6 +232,7 @@ The payload section can be found in the Ground Services Page on the EFB and sele
 
 ![wb location](../assets/feature-guides/simbrief/wb_location.png)
 
+[//]: # (#TODO Change this Image)
 Once on this page, you will be presented with the following:
 
 - A top-down model of the A32NX seating configuration
@@ -296,11 +297,13 @@ the import button in the Payload UI.
 
 ##### Boarding Passengers
 
+[//]: # (TODO Change Text here with new buttons) 
 Once you are happy with the passenger count and weights calculated, you can start boarding by pressing the cyan "Play" button in the boarding time section. This field also allows 
 you to customize how quickly passengers enter the aircraft. 
 
 ![Boarding Time](../assets/feature-guides/simbrief/wb-boarding.png){loading=lazy}
 
+[//]: # (TODO This has changed as well, + all the pictures)
 After boarding has started, the "Play" button will turn green, and you will start seeing passengers enter the aircraft, weight values changing in both the dynamic chart and the 
 configuration section's current values.
 
