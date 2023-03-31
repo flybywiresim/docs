@@ -232,7 +232,6 @@ The payload section can be found in the Ground Services Page on the EFB and sele
 
 ![wb location](../assets/feature-guides/simbrief/wb_location.png)
 
-[//]: # (#TODO Change this Image)
 Once on this page, you will be presented with the following:
 
 - A top-down model of the A32NX seating configuration
