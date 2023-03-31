@@ -123,7 +123,6 @@ up the payload.
 
 This widget allows setting up the payload of the aircraft.
 
-[//]: # (TODO New Image + Deboarding Button)
 1. Planning
      - Enter the planned number of passengers and weight of cargo here. 
      - You can also enter the planned ZFW (zero fuel weight) here, which will change the other values accordingly.
@@ -138,9 +137,14 @@ This widget allows setting up the payload of the aircraft.
     - Click on this button to start the boarding/deboarding process.
     - The process will take 5sec/1sec/0sec per passenger depending on the [Boarding/Loading Time setting](#configure-boardingloading-time).
     - The current number of passengers and weight of cargo will change accordingly. 
-5. Load Payload Values from SimBrief
+5. Deboard Now
+    - Click on this button to deboard all passengers and unload all cargo.
+    - The process will take 5sec/1sec/0sec per passenger depending on the [Boarding/Loading Time setting](#configure-boardingloading-time).
+6. Load Payload Values from SimBrief
     - The values for the number of passengers, weight of cargo and ZFW can be imported from the SimBrief flight plan.
     - Make sure to have imported the flight plan on the [flyPad Dashboard page](dashboard.md).
+7. Switch Zero-Fuel-Weight and Gross Weight
+    - This will switch between ZFW/ZFWCG and GW/GWCG, the percentage for calculation is changed automatically.
 
 ### Configure Boarding/Loading Time
 ![flypad-ground-payload-loadingtime](../../assets/flypados3/flypad-ground-payload-loadingtime.png)

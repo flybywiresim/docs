@@ -276,7 +276,6 @@ the import button in the Payload UI.
 
     **Cargo Sliders**
 
-[//]: # (TODO Don't forget this one)
     ![cargo sliders](../assets/feature-guides/simbrief/wb-sliders.png){loading=lazy}
 
     You can also interact with the sliders above the wireframe aircraft to fill the cargo bays. While this may be not as accurate, it does allow modification of the physical distribution of the cargo in the aircraft. The actual numerical weight of the cargo planned will update automatically.
@@ -298,14 +297,12 @@ the import button in the Payload UI.
 
 ##### Boarding Passengers
 
-[//]: # (TODO Change Text here with new buttons) 
-Once you are happy with the passenger count and weights calculated, you can start boarding by pressing the cyan "Play" button in the boarding time section. This field also allows 
+Once you are happy with the passenger count and weights calculated, you can start boarding by pressing the cyan "Boarding" button in the boarding time section. This field also allows 
 you to customize how quickly passengers enter the aircraft. 
 
 ![Boarding Time](../assets/feature-guides/simbrief/wb-boarding.png){loading=lazy}
 
-[//]: # (TODO This has changed as well, + all the pictures)
-After boarding has started, the "Play" button will turn green, and you will start seeing passengers enter the aircraft, weight values changing in both the dynamic chart and the 
+After boarding has started, the "Boarding" button will turn green, and you will start seeing passengers enter the aircraft, weight values changing in both the dynamic chart and the 
 configuration section's current values.
 
 The seats will also change colors from a dark to lighter cyan, indicating which seats passengers are currently occupying.
