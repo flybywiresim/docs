@@ -212,7 +212,7 @@ Flight Deck: [APU Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/apu
 | START     | A32NX_OVHD_APU_START_PB_IS_ON         | 0&#124;1 | R/W        | Custom LVAR |        |
 |           | A32NX_OVHD_APU_START_PB_IS_AVAILABLE  | 0&#124;1 | R          | Custom LVAR |        |
 
-!!! note "Search for APU in our [list for all Custom LVARS](https://github.com/flybywiresim/a32nx/blob/master/docs/a320-simvars.md){target=new} for further variables."
+!!! note "Search for APU in our [list for all Custom LVARS](https://github.com/flybywiresim/a32nx/blob/master/fbw-a32nx/docs/a320-simvars.md){target=new} for further variables."
 
 ### RCDR Panel
 
