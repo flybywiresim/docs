@@ -3,33 +3,35 @@ Alternate Law is activated when the plane looses certain computers, avionics or 
 
 On the PFD Indications for protective limits are replaced by amber "x" indication when the associated system is unavailable.
 
-Alternate Law may be caused by the failure off all three SECs, both ELACs or 2 or 3 ADRs, but also failure of a Sidestick, loss of 2 Hydraulic Systems and many more.
+Alternate Law may be caused by the failure off all three SECs, both ELACs or 2 or 3 ADRs, but also failure of a sidestick, loss of 2 hydraulic systems and many more.
 
-Under Alternate Law the Aircraft looses Attitude, High Angle of Attack ([Alpha Floor](afloor.md)), High Speed and Low Energy Protection.
+Under Alternate Law the aircraft looses attitude, high angle of attack ([Alpha Floor](afloor.md)), high speed and low energy protection.
 
-A recovery from Alternate Law may be possible if the causing failure can be rectified (Restarting Computers, Regaining Hydraulic Pressure).
-## System Status under Alternate Law
+A recovery from Alternate Law may be possible if the causing failure can be rectified (restarting computers, regaining hydraulic pressure).
+## System status under Alternate Law
 - The Autopilot is inoperable
-- Bank Angle and [Alpha Floor](afloor.md) Protection are lost, meaning the Plane can be stalled or overbanked. 
-- [Alpha Floor](afloor.md) is replaced by the "Barber Pole" on the Airspeed Indicator and the Stall Warning Speed V~SW~
+- Bank angle and [Alpha Floor](afloor.md) protection are lost, meaning the plane can be stalled or overbanked. 
+- [Alpha Floor](afloor.md) is replaced by the "Barber Pole" on the airspeed Indicator and the Stall Warning Speed V~SW~
+//Fix above, it‘s not A Floor that‘s being replaced 
 - Autotrim is still operable.
-- A "speed stability function" replaces the AOA Protection, trying to pitch the plane down when Speed is too low (about 5kts before reaching V~SW~) and pitch back up when speed is too high.
-- The speed stability function can be overriden by inputs from the Sidestick.
-- Load Factor Limitation is fully operational.
+- A "speed stability function" replaces the AOA protection, trying to pitch the plane down when speed is too low (about 5kts before reaching V~SW~) and pitch back up when speed is too high.
+- The speed stability function can be overriden by inputs from the sidestick.
+- Load factor limitation is fully operational.
 
-Different Failures can cause different Systems to be unavailable deviating from this list. For example speed stability may be unavailable under certain failure conditions.
+Different failures can cause different systems to be unavailable deviating from this list. For example speed stability may be unavailable under certain failure conditions.
 
 The ECAM will display which measures should be taken to subsidize the lost systems.
 
 ## Considerations for Flying under Alternate Law
-- The Sidestick translates all inputs directly, unlike in Normal Law where Sidestick inputs are translated to "Load Demand". This means the Sidestick is very sensitive, take care while maneuvering.
-- When deploying the Landing Gear, the Aircraft reverts to Direct Law. This means all protections along with Load Factor Limitation and Auto Trim are lost, maneuvering with extreme care is necessary.
+- The sidestick translates all inputs directly, unlike in Normal Law where sidestick inputs are translated to "Load Demand". This means the sidestick is very sensitive, take care while maneuvering.
+//Change this, sensitive is bad wording 
+- When deploying the landing gear, the aircraft reverts to Direct Law. This means all protections along with load factor limitation and Auto Trim are lost, maneuvering with extreme care is necessary.
 
 ## Abnormal Alternate Law
 Unlike normal Alternate Law, Abnormal Alternate Law is activated when the plane is far outside the normal flight envelope and reaches abnormal attitudes.
 
-Abnormal Alt. Law is meant to give the Pilot the necessary control authority to recover the plane.
+Abnormal Alt. Law is meant to give the pilot the necessary control authority to recover the plane.
 
-In Abnormal autotrim is turned off and Roll Control is switched to Direct.
+In Abnormal autotrim is turned off and Roll Control is switched to Direct Law.
 
-When the Plane has recovered autotrim is enabled again, Pitch and Yaw Control remain in Alternate.
+When the plane has recovered autotrim is enabled again, pitch and yaw control remain in alternate.
