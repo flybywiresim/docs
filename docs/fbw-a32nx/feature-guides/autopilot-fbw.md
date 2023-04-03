@@ -210,7 +210,7 @@ The recommendation is to use a combination of default events and the custom even
 
 You can grab the required files with the links below.
 
-[:fontawesome-brands-github:{: .github } FSUIPC Event File](https://github.com/flybywiresim/a32nx/tree/master/docs/FSUIPC){ .md-button target=new} [:fontawesome-brands-github:{: .github } SPAD.neXt Profile](https://github.com/flybywiresim/a32nx/tree/master/docs/SPAD.neXt){ .md-button target=new}
+[:fontawesome-brands-github:{: .github } FSUIPC Event File](https://github.com/flybywiresim/a32nx/tree/master/fbw-a32nx/docs/FSUIPC){ .md-button target=new} [:fontawesome-brands-github:{: .github } SPAD.neXt Profile](https://github.com/flybywiresim/a32nx/tree/master/fbw-a32nx/docs/SPAD.neXt){ .md-button target=new}
 
 ***
 
@@ -276,7 +276,7 @@ You can grab the required files with the links below.
 
 The following gives an overview of the used variables in relation to the FCU. For a more detailed explanation of the values, please refer to this page:
 
-[:fontawesome-brands-github:{: .github } SimVars Documentation](https://github.com/flybywiresim/a32nx/blob/master/docs/a320-simvars.md){ .md-button }
+[:fontawesome-brands-github:{: .github } SimVars Documentation](https://github.com/flybywiresim/a32nx/blob/master/fbw-a32nx/docs/a320-simvars.md){ .md-button }
 
 ##### Common
 
