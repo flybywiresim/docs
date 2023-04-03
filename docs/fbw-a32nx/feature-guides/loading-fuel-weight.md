@@ -296,12 +296,12 @@ the import button in the Payload UI.
 
 ##### Boarding Passengers
 
-Once you are happy with the passenger count and weights calculated, you can start boarding by pressing the cyan "Play" button in the boarding time section. This field also allows 
+Once you are happy with the passenger count and weights calculated, you can start boarding by pressing the cyan "Boarding" button in the boarding time section. This field also allows 
 you to customize how quickly passengers enter the aircraft. 
 
 ![Boarding Time](../assets/feature-guides/simbrief/wb-boarding.png){loading=lazy}
 
-After boarding has started, the "Play" button will turn green, and you will start seeing passengers enter the aircraft, weight values changing in both the dynamic chart and the 
+After boarding has started, the "Boarding" button will turn green, and you will start seeing passengers enter the aircraft, weight values changing in both the dynamic chart and the 
 configuration section's current values.
 
 The seats will also change colors from a dark to lighter cyan, indicating which seats passengers are currently occupying.
