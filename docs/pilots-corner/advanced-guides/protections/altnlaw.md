@@ -1,12 +1,12 @@
 # Alternate Law in the A320
 
-Alternate Law is activated when the plane looses certain computers, avionics or sensors, you can tell Alternate Law is in effect by the ECAM Message: "ALTN LAW" and associated Messages detailing the failure that led to altn law becoming active.
+Alternate Law is activated when the plane loses certain computers, avionics or sensors. You can tell Alternate Law is in effect by the ECAM Message: "ALTN LAW" and associated Messages detailing the failure that led to Alternate Law becoming active.
 
 On the PFD, indications for protective limits are replaced by amber "x" indication when the associated system is unavailable.
 
 ## Failure Cases
 
-Following failures will lead to the activation of [Alternate Law with reduced protection](#Alternate-Law-with-Reduced-Protection)
+Following failures will lead to the activation of [Alternate Law with reduced protection](#alternate-law-with-reduced-protection):
 
 - Failure of 2 ADRs (self-detected)
 - Failure of both ELACs
@@ -19,7 +19,7 @@ Following failures will lead to the activation of [Alternate Law with reduced pr
 - Loss of all three SECs
 - Jam of THS
 
-Following failures will lead to the activation of [Alternate Law with reduced protection and mechanical yaw control](#Alternate-Law-with-Reduced-Protection)
+Following failures will lead to the activation of [Alternate Law with reduced protection and mechanical yaw control](#alternate-law-with-reduced-protection):
 
 - Failure of 2 ADRs (Failure of second ADR not self-detected **and** disagreement related to calculated airspeed (CAS) or Mach speed)
 - Failure of both FACs
