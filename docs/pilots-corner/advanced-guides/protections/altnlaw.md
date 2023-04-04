@@ -12,47 +12,47 @@ A recovery from Alternate Law may be possible if the causing failure can be rect
 //Self Detection should be considered for addition
 Following failures will lead to the activation of [Alternate Law with reduced protection](#Alternate-Law-with-Reduced-Protection)
 //link
--Failure of 2 ADRs
--Failure of both ELACs
--Failure of one elevator
--Failure of one sidestick
--Failure of 2 IRs
--Loss of ELAC 1 and either green or yellow hydraulic system 
--Loss of ELAC 2 and the blue hydraulic system
+- Failure of 2 ADRs
+- Failure of both ELACs
+- Failure of one elevator
+- Failure of one sidestick
+- Failure of 2 IRs
+- Loss of ELAC 1 and either green or yellow hydraulic system 
+- Loss of ELAC 2 and the blue hydraulic system
 //„and“ bold
--Loss of all Spoilers
--Loss of all three SECs
+- Loss of all Spoilers
+- Loss of all three SECs
 Following failures will lead to the activation of [Alternate Law with reduced protection and mechanical yaw control](#Alternate-Law-with-Reduced-Protection)
 //link
--Failure of both FACs
--Failure of the green and yellow hydraulic system
--Failure of the yaw damper
--Emergency Electrical Configuration (On Batteries)
+- Failure of both FACs
+- Failure of the green and yellow hydraulic system
+- Failure of the yaw damper
+- Emergency Electrical Configuration (On Batteries)
 When EMER ELEC form RAT comes AVAIL and FAC 1 is reset, recovery to Alt Yaw is possible
 
 Following failures will lead to the activation of [Alternate Law without Protection](#Alternate-Law-without-Protection)
 //link
--Failure of all three ADRs
--Failure of both SFCC Slat Channels
--Failure of the green and blue hydraulic system
+- Failure of all three ADRs
+- Failure of both SFCC Slat Channels
+- Failure of the green and blue hydraulic system
 //Warn Gear down in alt always goes to Direct
 Loss of all three IRs makes the plane fall back to [Direct](#Direct-Law) immediately
 //Add Landing Dir stuff with Alt for Yaw instead of Mech
 //Three following points still WIP
 ##Alternate Law with Reduced Protection
--Pitch is Alt
--Roll is Direct
--Yaw is Alternate, may be mechanical if conditions met
+- Pitch is Alt
+- Roll is Direct
+- Yaw is Alternate, may be mechanical if conditions met
 
 ##Alternate Law without Protection
--Pitch is Alt (No Prot)
--Roll is Direct
--Yaw is Alternate
+- Pitch is Alt (No Prot)
+- Roll is Direct
+- Yaw is Alternate
 
 ##Direct Law
--Pitch is Direct
--Roll is Direct
--Yaw is mechanical, may be alternate if conditions met
+- Pitch is Direct
+- Roll is Direct
+- Yaw is mechanical, may be alternate if conditions met
 
 
 ## System status under Alternate Law
