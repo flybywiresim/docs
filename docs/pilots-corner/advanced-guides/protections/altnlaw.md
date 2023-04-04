@@ -38,7 +38,7 @@ Following failures will lead to the activation of [Alternate Law without Protect
 - Failure of both SFCC Slat Channels 
 - Failure of the green and blue hydraulic system
 
-!!! warning „Approach and Landing with Alternate Law“
+!!! warning “Approach and Landing with Alternate Law“
     When deploying the Landing Gear under Alternate Law **and** the Autopilot is disconnected
     the controls switch directly to [Direct Law](#Direct-Law).
     Loss of all protections on final approach should be anticipated and the flightcrew should prepare to take over pitch trimming for landing.  
@@ -65,7 +65,7 @@ Loss of all three IRs makes the plane fall back to [Direct](#Direct-Law) immedia
 - Roll is Direct
 - Yaw is mechanical, may be alternate if conditions met
 
-
+// Subject for removal, move statuses to the respective subpoints above
 ## System status under Alternate Law
 - The Autopilot is inoperable
 - Bank angle and [Alpha Floor](afloor.md) protection are lost, meaning the plane can be stalled or overbanked. 
