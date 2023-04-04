@@ -17,11 +17,12 @@ Following failures will lead to the activation of [Alternate Law with reduced pr
 - Failure of both ELACs
 - Failure of one elevator
 - Failure of one sidestick
-- Failure of 2 IRs
+- Failure of 2 IRs (self detected)
 - Loss of ELAC 1 **and** either green or yellow hydraulic system 
 - Loss of ELAC 2 **and** the blue hydraulic system
 - Loss of all Spoilers
 - Loss of all three SECs
+- Jam of THS
 
 Following failures will lead to the activation of [Alternate Law with reduced protection and mechanical yaw control](#Alternate-Law-with-Reduced-Protection)
 
@@ -29,7 +30,7 @@ Following failures will lead to the activation of [Alternate Law with reduced pr
 - Failure of the green and yellow hydraulic system
 - Failure of the yaw damper
 - Emergency Electrical Configuration (On Batteries)
-
+//move to notice block
 When EMER ELEC form RAT comes AVAIL and FAC 1 is reset, recovery to Alt Yaw is possible
 
 Following failures will lead to the activation of [Alternate Law without Protection](#Alternate-Law-without-Protection)
@@ -69,7 +70,7 @@ Loss of all three IRs makes the plane fall back to [Direct](#Direct-Law) immedia
 ## System status under Alternate Law
 - The Autopilot is inoperable
 - Bank angle and [Alpha Floor](afloor.md) protection are lost, meaning the plane can be stalled or overbanked. 
-- Protection speeds on the speed indicator are replaced by the "Barber Pole" on the airspeed indicator and the stall warning speed V~SW~
+- [Protection speeds](https://docs.flybywiresim.com/pilots-corner/advanced-guides/protections/overview/#high-speed-protection) on the speed indicator are replaced by the "Barber Pole" on the airspeed indicator and the stall warning speed V~SW~
 //Insert mention of Alpha Max and Alpha Min here 
 - Autotrim is still operable.
 - A "speed stability function" replaces the AOA protection, trying to pitch the plane down when speed is too low (about 5kts before reaching V~SW~) and pitch back up when speed is too high.
@@ -80,10 +81,9 @@ Different failures can cause different systems to be unavailable deviating from 
 
 The ECAM will display which measures should be taken to subsidize the lost systems.
 
-## Considerations for Flying under Alternate Law
-- The sidestick translates all inputs directly, unlike in Normal Law where sidestick inputs are translated to "Load Demand". This means the sidestick is very direct, take care while maneuvering.
-//Change this, sensitive is bad wording 
-- When deploying the landing gear, the aircraft reverts to Direct Law. This means all protections along with load factor limitation and Auto Trim are lost, maneuvering with extreme care is necessary.
+
+// - The sidestick translates all inputs directly, unlike in Normal Law where sidestick inputs are translated to "Load Demand". This means the sidestick is very direct, take care while maneuvering.
+
 
 ## Abnormal Alternate Law
 //Always? or just under Altn Law in the first place
