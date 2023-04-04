@@ -8,7 +8,7 @@ On the PFD, indications for protective limits are replaced by amber "x" indicati
 
 Following failures will lead to the activation of [Alternate Law with reduced protection](#Alternate-Law-with-Reduced-Protection)
 
-- Failure of 2 ADRs (self detected)
+- Failure of 2 ADRs (self-detected)
 - Failure of both ELACs
 - Failure of one elevator
 - Failure of one sidestick
@@ -21,15 +21,17 @@ Following failures will lead to the activation of [Alternate Law with reduced pr
 
 Following failures will lead to the activation of [Alternate Law with reduced protection and mechanical yaw control](#Alternate-Law-with-Reduced-Protection)
 
-- Failure of 2 ADRs (Failure of second ADR not self detected **and** Disagreement related to calculated airspeed (CAS) or Mach speed)
+- Failure of 2 ADRs (Failure of second ADR not self-detected **and** disagreement related to calculated airspeed (CAS) or Mach speed)
 - Failure of both FACs
 - Failure of the green and yellow hydraulic system
 - Failure of the yaw damper
 
-??? info "Self Detection"
+!!! info "Self Detection"
     All flight systems are continuously monitored by the flight computers, when a peripheral system detects a fault it will inform the flight computers or shut down (self detected failure). 
     Some faults can not be detected by the peripheral system itself because it can only see its own data. 
-    The flight computer can compare the data across systems, when detecting an abnormality it ignores the corresponding system. This is known as a "non-self-detected failure".     
+    The flight computer can compare the data across systems, when detecting an abnormality it ignores the corresponding system. 
+    
+    This is known as a "non-self-detected failure".     
 
 Following failures will lead to the activation of [Alternate Law without Protection](#Alternate-Law-without-Protection)
 
@@ -40,25 +42,25 @@ Following failures will lead to the activation of [Alternate Law without Protect
 !!! warning "Approach and Landing with Alternate Law"
     When deploying the Landing Gear under Alternate Law **and** the Autopilot is disconnected
     the controls switch directly to [Direct Law](#Direct-Law), this is done to provide necessary force feedback to the pilot as the "FLARE" Mode that usually provides feedback to the sidestick is inoperable in alternate law.
+    
     Loss of all protections on final approach should be anticipated, and the flight crew should prepare to take over pitch trimming for landing.  
 
 Following failures will lead to the activation of [Direct Law](#Direct-Law)
 - Failure of all three IRs
 
 ### Special Failure Conditions
-Some failure conditions are caused by a combination or factors and can cause abnormal failure modes, some may allow recovery to a more stable state
+Some failure conditions are caused by a combination or factors and can cause abnormal failure modes, some may allow recovery to a more stable state:
 
 - When the plane is in "Emergency Electrical Configuration (On Batteries)" Alternate Law with reduced protections is active, although yaw control is switched to the mechanical backup, after emergency power becomes available resetting FAC 1 allows recovery to alternate control over yaw.
 - When 2 IRs fail with the second not being self detected the flight crew has to identify and switch off the faulty IR before resetting **both** ELAC 1 and 2, the plane will recover to Alternate Law with reduced protection.
 - When the Radio Altimeters fail with Gear down **or** the plane is in CONF 2 and the LGCIUs have a data disagreement, Direct Law will be used. Abnormal from Direct Law Yaw Control will be kept in alternate.
-
 
 ## Alternate Law with Reduced Protection
 This is the standard fallback mode.
 
 - Autopilot is lost.
 - Pitch control is still translated via load demand orders, however most protections for pitch have been lost.
-- Load Factor Protection is available, over stressing the airframe should not be possible
+- Load Factor Protection is available, over stressing the airframe should not be possible.
 - Autotrim is available.
 - Stall/&alpha;~floor~ and Over speed/V~MO~ Protections are unavailable.
 - Speed stability is enabled, this function pushes the nose down when the airspeed gets too low (about 5kts before reaching V~SW~) and pulls the nose up when speed is getting too high.
@@ -72,7 +74,7 @@ This is the standard fallback mode.
     This also inhibits unsafe flight conditions like stalls, inverted flight or exceeding of the load limit (G Limit), provided the Aircraft is in [Normal Law](overview.md).
 
 ## Alternate Law without Protection
-This fallback mode is triggered when multiple flight critical redundant systems have failed
+This fallback mode is triggered when multiple flight-critical redundant systems have failed:
 
 - Pitch control is still translated via load demand orders, speed stability is lost. 
 - Roll control is in direct mode, bank angle protection and turn coordination are lost.
@@ -131,9 +133,9 @@ After working the issue, you can try turning the Autopilot back on, flight crews
     This is especially true for Auto Flight, where the flight crew must monitor all instruments and the flight in
     general constantly, and they must be able to take over the flight manually at any moment.<p/>
     Always remember Airbus' Golden Rules:<p/>
-    ![img.png](../../assets/advanced-guides/vnav/goldenrules.png)
+    ![golden rules image](../../assets/advanced-guides/vnav/goldenrules.png)
 
 ## Recovering to Normal Law
-Recovering to normal law is not guaranteed and may not be possible depending on the type of failure.
-In General, when the failure that caused altn law is fixed, normal law should be operational again. 
+Recovering to Normal Law is not guaranteed and may not be possible depending on the type of failure.
+In general, when the failure that caused Alternate Law is fixed, normal law should be operational again. 
 To rectify issues with the plane, work through the ECAM Actions and refer to the "STS" ECAM Page. 
