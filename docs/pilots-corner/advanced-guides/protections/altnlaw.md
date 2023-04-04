@@ -37,7 +37,12 @@ Following failures will lead to the activation of [Alternate Law without Protect
 - Failure of all three ADRs
 - Failure of both SFCC Slat Channels 
 - Failure of the green and blue hydraulic system
-//Warn Gear down in alt always goes to Direct
+
+!!! warning „Approach and Landing with Alternate Law“
+    When deploying the Landing Gear under Alternate Law **and** the Autopilot is disconnected
+    the controls switch directly to [Direct Law](#Direct-Law).
+    Loss of all protections on final approach should be anticipated and the flightcrew should prepare to take over pitch trimming for landing.  
+
 Loss of all three IRs makes the plane fall back to [Direct](#Direct-Law) immediately
 // Add Landing Dir stuff with Alt for Yaw instead of Mech
 // Three following points still WIP
