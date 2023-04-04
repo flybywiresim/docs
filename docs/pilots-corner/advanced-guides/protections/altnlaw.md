@@ -1,29 +1,30 @@
 # Alternate Law in the A320
 Alternate Law is activated when the plane looses certain computers, avionics or sensors , you can tell Alternate Law is in effect by the ECAM Message: "ALTN LAW: PROT LOST".
 
-On the PFD Indications for protective limits are replaced by amber "x" indication when the associated system is unavailable.
-
+On the PFD indications for protective limits are replaced by amber "x" indication when the associated system is unavailable.
+//Migrate to list
 Alternate Law may be caused by the failure off all three SECs, both ELACs or 2 or 3 ADRs, but also failure of a sidestick, loss of 2 hydraulic systems and many more.
 
 Under Alternate Law the aircraft looses attitude, high angle of attack ([Alpha Floor](afloor.md)), high speed and low energy protection.
 
-A recovery from Alternate Law may be possible if the causing failure can be rectified (restarting computers, regaining hydraulic pressure).
+A recovery from Alternate Law may be possible if the causing failure can be rectified.
+//Add List for Failure cases
 ## System status under Alternate Law
 - The Autopilot is inoperable
 - Bank angle and [Alpha Floor](afloor.md) protection are lost, meaning the plane can be stalled or overbanked. 
-- [Alpha Floor](afloor.md) is replaced by the "Barber Pole" on the airspeed Indicator and the Stall Warning Speed V~SW~
-//Fix above, it‘s not A Floor that‘s being replaced 
+- Protection speeds on the speed indicator are replaced by the "Barber Pole" on the airspeed indicator and the stall warning speed V~SW~
+//Insert mention of Alpha Max and Alpha Min here 
 - Autotrim is still operable.
 - A "speed stability function" replaces the AOA protection, trying to pitch the plane down when speed is too low (about 5kts before reaching V~SW~) and pitch back up when speed is too high.
 - The speed stability function can be overriden by inputs from the sidestick.
 - Load factor limitation is fully operational.
-
+//Also relevant for Failure list
 Different failures can cause different systems to be unavailable deviating from this list. For example speed stability may be unavailable under certain failure conditions.
 
 The ECAM will display which measures should be taken to subsidize the lost systems.
 
 ## Considerations for Flying under Alternate Law
-- The sidestick translates all inputs directly, unlike in Normal Law where sidestick inputs are translated to "Load Demand". This means the sidestick is very sensitive, take care while maneuvering.
+- The sidestick translates all inputs directly, unlike in Normal Law where sidestick inputs are translated to "Load Demand". This means the sidestick is very direct, take care while maneuvering.
 //Change this, sensitive is bad wording 
 - When deploying the landing gear, the aircraft reverts to Direct Law. This means all protections along with load factor limitation and Auto Trim are lost, maneuvering with extreme care is necessary.
 
