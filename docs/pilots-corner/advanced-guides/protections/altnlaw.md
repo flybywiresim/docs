@@ -131,7 +131,7 @@ After working the issue, you can try turning the Autopilot back on, flight crews
     This is especially true for Auto Flight, where the flight crew must monitor all instruments and the flight in
     general constantly, and they must be able to take over the flight manually at any moment.<p/>
     Always remember Airbus' Golden Rules:<p/>
-    ![img.png](../../../assets/advanced-guides/vnav/goldenrules.png)
+    ![img.png](../../assets/advanced-guides/vnav/goldenrules.png)
 
 ## Recovering to Normal Law
 Recovering to normal law is not guaranteed and may not be possible depending on the type of failure.
