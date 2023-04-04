@@ -33,7 +33,7 @@ Following failures will lead to the activation of [Alternate Law with reduced pr
     
     This is known as a "non-self-detected failure".     
 
-Following failures will lead to the activation of [Alternate Law without Protection](#Alternate-Law-without-Protection)
+Following failures will lead to the activation of [Alternate Law without Protection](#alternate-law-without-protection)
 
 - Failure of all three ADRs
 - Failure of both SFCC Slat Channels 
@@ -41,7 +41,7 @@ Following failures will lead to the activation of [Alternate Law without Protect
 
 !!! warning "Approach and Landing with Alternate Law"
     When deploying the Landing Gear under Alternate Law **and** the Autopilot is disconnected
-    the controls switch directly to [Direct Law](#Direct-Law), this is done to provide necessary force feedback to the pilot as the "FLARE" Mode that usually provides feedback to the sidestick is inoperable in alternate law.
+    the controls switch directly to [Direct Law](#direct-law), this is done to provide necessary force feedback to the pilot as the "FLARE" Mode that usually provides feedback to the sidestick is inoperable in alternate law.
     
     Loss of all protections on final approach should be anticipated, and the flight crew should prepare to take over pitch trimming for landing.  
 
@@ -129,10 +129,14 @@ After working the issue, you can try turning the Autopilot back on, flight crews
 !!! warning "Real Life and Online ATC Considerations"
     It is the sole responsibility of the pilot to conduct proper flight planning and execution. It is not sufficient 
     to solely rely on the automatic aircraft guidance and indications. All indications and guidance need to be 
-    monitored and reconfirmed by the flight crew at all times.<p/> 
+    monitored and reconfirmed by the flight crew at all times.
+
+
     This is especially true for Auto Flight, where the flight crew must monitor all instruments and the flight in
     general constantly, and they must be able to take over the flight manually at any moment.<p/>
-    Always remember Airbus' Golden Rules:<p/>
+    Always remember Airbus' Golden Rules:
+
+
     ![golden rules image](../../assets/advanced-guides/vnav/goldenrules.png)
 
 ## Recovering to Normal Law
