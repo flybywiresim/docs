@@ -2,35 +2,21 @@ name: Build Checks and Auto Merge
 
 on:
   pull_request_target:
-    types: [opened, synchronize, labeled, unlabeled]
+    types: [opened, ready_for_review, synchronize, labeled, unlabeled]
 
 jobs:
-  set-review-label:
+  verify-labels:
     runs-on: ubuntu-latest
+    if: github.event.pull_request.draft == false
     permissions:
       issues: write
       pull-requests: write
-    outputs:
-      status: ${{ steps.check-labels.outputs.status }}
     steps:
       - name: Assign Label
+        if: ${{ !contains(github.event.pull_request.labels.*.name, 'Review Required') }}
         uses: actions-ecosystem/action-add-labels@v1
         with:
           labels: 'Review Required'
-      - name: Verify Label # Ensures that label is appropriately set for following steps
-        id: check-labels
-        uses: mheap/github-action-required-labels@v4
-        with:
-          mode: exactly
-          count: 1
-          labels: "Review Required"
-          exit_type: success
-
-  verify-labels:
-    needs: set-review-label
-    runs-on: ubuntu-latest
-    if: needs.set-review-label.outputs.status == 'success'
-    steps:
       - name: Approved and Review Required Logic
         if: ${{ contains(github.event.pull_request.labels.*.name, 'Approved') && contains(github.event.pull_request.labels.*.name, 'Review Required') }}
         run: echo "RUN_REMOVE_LABEL=true" >> $GITHUB_ENV
@@ -51,6 +37,7 @@ jobs:
         run: echo "Remove Label step succeeded and returned code 0"
 
       - name: Comment on PR # Checks for Reviewed Required label and comments on PR
+        id: check-labels
         uses: mheap/github-action-required-labels@v4
         with:
           mode: exactly
