@@ -1,6 +1,6 @@
 # Alternate Law in the A320
 
-Alternate Law is activated when the plane loses certain computers, avionics, or sensors. You can tell Alternate Law is in effect by the ECAM Message: "ALTN LAW" and associated Messages detailing the failure that led to Alternate Law becoming active.
+Alternate Law is activated when the plane loses certain computers, avionics, or sensors. You can tell Alternate Law is in effect by the ECAM message: "ALTN LAW" and associated messages detailing the failure that led to Alternate Law becoming active.
 
 On the PFD, indications for protective limits are replaced by an amber "x" indication when the associated system is unavailable.
 
@@ -15,7 +15,7 @@ Following failures will lead to the activation of [Alternate Law with reduced pr
 - Failure of 2 IRs (self detected)
 - Loss of ELAC 1 **and** either green or yellow hydraulic system 
 - Loss of ELAC 2 **and** the blue hydraulic system
-- Loss of all Spoilers
+- Loss of all spoilers
 - Loss of all three SECs
 - Jam of THS
 
@@ -33,7 +33,7 @@ Following failures will lead to the activation of [Alternate Law with reduced pr
     
     This is known as a "non-self-detected failure".     
 
-Following failures will lead to the activation of [Alternate Law without Protection](#alternate-law-without-protection)
+Following failures will lead to the activation of [Alternate Law without protection](#alternate-law-without-protection)
 
 - Failure of all three ADRs
 - Failure of both SFCC Slat Channels 
@@ -41,7 +41,7 @@ Following failures will lead to the activation of [Alternate Law without Protect
 
 !!! warning "Approach and Landing with Alternate Law"
     When deploying the Landing Gear under Alternate Law **and** the Autopilot is disconnected
-    the controls switch directly to [Direct Law](#direct-law), this is done to provide necessary force feedback to the pilot as the "FLARE" Mode that usually provides feedback to the sidestick is inoperable in Alternate Law.
+    the controls switch directly to [Direct Law](#direct-law), this is done to provide necessary force feedback to the pilot as the "FLARE" mode that usually provides feedback to the sidestick is inoperable in Alternate Law.
     
     Loss of all protections on final approach should be anticipated, and the flight crew should prepare to take over pitch trimming for landing.  
 
@@ -62,16 +62,16 @@ This is the standard fallback mode.
 - Pitch control is still translated via load demand orders, however most protections for pitch have been lost.
 - Load Factor Protection is available, over stressing the airframe should not be possible.
 - Autotrim is available.
-- Stall/&alpha;~floor~ and Over speed/V~MO~ Protections are unavailable.
+- Stall/&alpha;~floor~ and Overspeed/V~MO~ Protections are unavailable.
 - Speed stability is enabled, this function pushes the nose down when the airspeed gets too low (about 5kts before reaching V~SW~) and pulls the nose up when speed is getting too high.
-- Speed stability is **no** protection, its commands are overruled by the sidestick, it's only used to maintain a safe speed when the pilot is not actively monitoring the speed.
+- Speed Stability is **no** protection, its commands are overruled by the sidestick, it's only used to maintain a safe speed when the pilot is not actively monitoring the speed.
 - Stall and over speed **are** possible in Alternate Law, audio warnings should be taken seriously, and the plane stabilized immediately.
 - Roll control is in direct mode, bank angle protection and turn coordination are lost.
 - Yaw control is provided with yaw dampening available.
 
 !!! info "Load Demand"
     With fly-by-wire flight controls, the sidestick usually doesn't affect the avionics directly, instead being translated into a load demand order that tells the flight computers to change the current flight situation, the computers then generate commands for the avionics to achieve the necessary movement introduced.
-    This also inhibits unsafe flight conditions like stalls, inverted flight or exceeding of the load limit (G Limit), provided the Aircraft is in [Normal Law](overview.md).
+    This also inhibits unsafe flight conditions like stalls, inverted flight or exceeding of the load limit (G Limit), provided the aircraft is in [Normal Law](overview.md).
 
 ## Alternate Law without Protection
 This fallback mode is triggered when multiple flight-critical redundant systems have failed:
@@ -101,7 +101,7 @@ Abnormal Law is triggered when one of the following conditions is met:
 
 Abnormal Alt. Law is meant to give the pilot the necessary control authority to recover the plane.
 
-In Abnormal, autotrim is turned off and roll control is switched to Direct Law, under which 4 spoilers are used for control instead of 2.
+In Abnormal, Autotrim is turned off and roll control is switched to Direct Law, under which 4 spoilers are used for control instead of 2.
 
 When the plane has recovered, autotrim is enabled again, pitch and yaw control remain in alternate. This means flight controls will be **degraded** for the rest of the flight.
 
