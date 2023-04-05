@@ -1,8 +1,8 @@
 # Alternate Law in the A320
 
-Alternate Law is activated when the plane loses certain computers, avionics or sensors. You can tell Alternate Law is in effect by the ECAM Message: "ALTN LAW" and associated Messages detailing the failure that led to Alternate Law becoming active.
+Alternate Law is activated when the plane loses certain computers, avionics, or sensors. You can tell Alternate Law is in effect by the ECAM Message: "ALTN LAW" and associated Messages detailing the failure that led to Alternate Law becoming active.
 
-On the PFD, indications for protective limits are replaced by amber "x" indication when the associated system is unavailable.
+On the PFD, indications for protective limits are replaced by an amber "x" indication when the associated system is unavailable.
 
 ## Failure Cases
 
@@ -49,10 +49,10 @@ Following failures will lead to the activation of [Direct Law](#Direct-Law)
 - Failure of all three IRs
 
 ### Special Failure Conditions
-Some failure conditions are caused by a combination or factors and can cause abnormal failure modes, some may allow recovery to a more stable state:
+Some failure conditions are caused by a combination of factors and can cause abnormal failure modes, some may allow recovery to a more stable state:
 
-- When the plane is in "Emergency Electrical Configuration (On Batteries)" Alternate Law with reduced protections is active, although yaw control is switched to the mechanical backup, after emergency power becomes available resetting FAC 1 allows recovery to alternate control over yaw.
-- When 2 IRs fail with the second not being self detected the flight crew has to identify and switch off the faulty IR before resetting **both** ELAC 1 and 2, the plane will recover to Alternate Law with reduced protection.
+- When the plane is in "Emergency Electrical Configuration (On Batteries)" Alternate Law with reduced protections is active, although yaw control is switched to the mechanical backup, after emergency power becomes available, resetting FAC 1 allows recovery to alternate control over yaw.
+- When 2 IRs fail with the second not being self detected, the flight crew has to identify and switch off the faulty IR before resetting **both** ELAC 1 and 2, the plane will recover to Alternate Law with reduced protection.
 - When the Radio Altimeters fail with Gear down **or** the plane is in CONF 2 and the LGCIUs have a data disagreement, Direct Law will be used. Abnormal from Direct Law Yaw Control will be kept in alternate.
 
 ## Alternate Law with Reduced Protection
@@ -65,12 +65,12 @@ This is the standard fallback mode.
 - Stall/&alpha;~floor~ and Over speed/V~MO~ Protections are unavailable.
 - Speed stability is enabled, this function pushes the nose down when the airspeed gets too low (about 5kts before reaching V~SW~) and pulls the nose up when speed is getting too high.
 - Speed stability is **no** protection, its commands are overruled by the sidestick, it's only used to maintain a safe speed when the pilot is not actively monitoring the speed.
-- Stall and over speed **are** possible in Alternate Law, audio warnings should be taken seriously and the plane stabilized immediately.
+- Stall and over speed **are** possible in Alternate Law, audio warnings should be taken seriously, and the plane stabilized immediately.
 - Roll control is in direct mode, bank angle protection and turn coordination are lost.
 - Yaw control is provided with yaw dampening available.
 
 ??? info "Load Demand"
-    With fly-by-wire flight controls the sidestick usually doesn't affect the avionics directly, instead being translated into a load demand order that tells the flight computers to change the current flight situation, the computers then generate commands for the avionics to achieve the necessary movement introduced.
+    With fly-by-wire flight controls, the sidestick usually doesn't affect the avionics directly, instead being translated into a load demand order that tells the flight computers to change the current flight situation, the computers then generate commands for the avionics to achieve the necessary movement introduced.
     This also inhibits unsafe flight conditions like stalls, inverted flight or exceeding of the load limit (G Limit), provided the Aircraft is in [Normal Law](overview.md).
 
 ## Alternate Law without Protection
@@ -90,18 +90,18 @@ This mode is the lowest level of fly-by-wire controlling. Multiple failures have
 
 
 ## Abnormal Alternate Law
-Unlike normal alternate law, abnormal alternate law(also known as abnormal attitude law) is activated when the plane is far outside the normal flight envelope and reaches abnormal attitudes (even when in normal law).
+Unlike normal alternate law, abnormal alternate law (also known as abnormal attitude law) is activated when the plane is far outside the normal flight envelope and reaches abnormal attitudes (even when in normal law).
 
-Abnormal law is triggered when one of the following conditions are met:
+Abnormal law is triggered when one of the following conditions is met:
 - Bank angle above 125°
 - Pitch attitude above 50° up or 30° down
-- Speed below 60-90 kts (exact value dependent on pitch)
-- Speed above 440 kts / MAch above 0.91
+- Speed below 60-90 kt (exact value dependent on pitch)
+- Speed above 440 kt / Mach above 0.91
 - AOA above 30°-40° or below -10°
 
 Abnormal Alt. Law is meant to give the pilot the necessary control authority to recover the plane.
 
-In Abnormal, autotrim is turned off and roll control is switched to direct law under which 4 spoilers are used for control instead of 2.
+In Abnormal, autotrim is turned off and roll control is switched to direct law, under which 4 spoilers are used for control instead of 2.
 
 When the plane has recovered, autotrim is enabled again, pitch and yaw control remain in alternate. This means flight controls will be **degraded** for the rest of the flight.
 
@@ -122,8 +122,8 @@ After ensuring a stable flight profile, the flight crew begins working the issue
 diagnosed by finding the related system. If displayed work the ECAM Actions, if successful you may [recover to normal law](Recovering-to-Normal-Law).
 
 If not, the decision on how to proceed is dependent on many factors, primarily what sort of failure you're experiencing and what stage of flight you're in. The "STS" Page in the ECAM can help find out what systems are working or not.
-Should the "LAND ASAP" ECAM Warning be displayed the plane has to be landed as quickly and safely as possible, otherwise it's your call as the capitan to decide,
-diverting, returning or pressing on, in any case the rest of the flight will take full concentration and a lot of airmanship.
+Should the "LAND ASAP" ECAM Warning be displayed, the plane has to be landed as quickly and safely as possible; Otherwise it's your call as the captain to decide,
+diverting, returning or pressing on, in any case, the rest of the flight will take full concentration and a lot of airmanship.
 
 After working the issue, you can try turning the Autopilot back on, flight crews usually try to get the Autopilot working again to free up the "Pilot Flying" for other tasks on the flight deck.
 !!! warning "Real Life and Online ATC Considerations"
