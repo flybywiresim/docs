@@ -41,11 +41,11 @@ Following failures will lead to the activation of [Alternate Law without Protect
 
 !!! warning "Approach and Landing with Alternate Law"
     When deploying the Landing Gear under Alternate Law **and** the Autopilot is disconnected
-    the controls switch directly to [Direct Law](#direct-law), this is done to provide necessary force feedback to the pilot as the "FLARE" Mode that usually provides feedback to the sidestick is inoperable in alternate law.
+    the controls switch directly to [Direct Law](#direct-law), this is done to provide necessary force feedback to the pilot as the "FLARE" Mode that usually provides feedback to the sidestick is inoperable in Alternate Law.
     
     Loss of all protections on final approach should be anticipated, and the flight crew should prepare to take over pitch trimming for landing.  
 
-Following failures will lead to the activation of [Direct Law](#Direct-Law)
+Following failures will lead to the activation of [Direct Law](#direct-law)
 - Failure of all three IRs
 
 ### Special Failure Conditions
@@ -69,14 +69,14 @@ This is the standard fallback mode.
 - Roll control is in direct mode, bank angle protection and turn coordination are lost.
 - Yaw control is provided with yaw dampening available.
 
-??? info "Load Demand"
+!!! info "Load Demand"
     With fly-by-wire flight controls, the sidestick usually doesn't affect the avionics directly, instead being translated into a load demand order that tells the flight computers to change the current flight situation, the computers then generate commands for the avionics to achieve the necessary movement introduced.
     This also inhibits unsafe flight conditions like stalls, inverted flight or exceeding of the load limit (G Limit), provided the Aircraft is in [Normal Law](overview.md).
 
 ## Alternate Law without Protection
 This fallback mode is triggered when multiple flight-critical redundant systems have failed:
 
-- Pitch control is still translated via load demand orders, speed stability is lost. 
+- Pitch control is still translated via load demand orders, Speed Stability is lost. 
 - Roll control is in direct mode, bank angle protection and turn coordination are lost.
 - Yaw control is provided with yaw dampening available.
 
@@ -90,9 +90,9 @@ This mode is the lowest level of fly-by-wire controlling. Multiple failures have
 
 
 ## Abnormal Alternate Law
-Unlike normal alternate law, abnormal alternate law (also known as abnormal attitude law) is activated when the plane is far outside the normal flight envelope and reaches abnormal attitudes (even when in normal law).
+Unlike normal Alternate Law, Abnormal Alternate Law (also known as Abnormal Attitude Law) is activated when the plane is far outside the normal flight envelope and reaches abnormal attitudes (even when in Normal Law).
 
-Abnormal law is triggered when one of the following conditions is met:
+Abnormal Law is triggered when one of the following conditions is met:
 - Bank angle above 125°
 - Pitch attitude above 50° up or 30° down
 - Speed below 60-90 kt (exact value dependent on pitch)
@@ -101,13 +101,13 @@ Abnormal law is triggered when one of the following conditions is met:
 
 Abnormal Alt. Law is meant to give the pilot the necessary control authority to recover the plane.
 
-In Abnormal, autotrim is turned off and roll control is switched to direct law, under which 4 spoilers are used for control instead of 2.
+In Abnormal, autotrim is turned off and roll control is switched to Direct Law, under which 4 spoilers are used for control instead of 2.
 
 When the plane has recovered, autotrim is enabled again, pitch and yaw control remain in alternate. This means flight controls will be **degraded** for the rest of the flight.
 
 ## Flying without Normal Law
-When encountering an issue with normal law and subsequently having to fly the plane in alternate law, the flight crew has
-to subsidize all the systems that are suddenly unavailable. The highest priority should be taking control of the airplane since the AP
+When encountering an issue with Normal Law and subsequently having to fly the plane in Alternate Law, the flight crew has
+to subsidize all the systems that are suddenly unavailable. The highest priority should be taking control of the airplane since the Autopilot
 likely disconnected.
 
 Refer to the ECAM for information about the failure and current flight situation, warnings displayed will give you constraints like maximum speed which should be followed to stay
@@ -119,7 +119,7 @@ Telling which Law your plane is in can help
 - Amber "USE MAN PITCH TRIM" means Direct Law
 
 After ensuring a stable flight profile, the flight crew begins working the issue with the help of ECAM. In the first step, the issue is
-diagnosed by finding the related system. If displayed work the ECAM Actions, if successful you may [recover to normal law](Recovering-to-Normal-Law).
+diagnosed by finding the related system. If displayed work the ECAM Actions, if successful you may [recover to Normal Law](recovering-to-normal-law).
 
 If not, the decision on how to proceed is dependent on many factors, primarily what sort of failure you're experiencing and what stage of flight you're in. The "STS" Page in the ECAM can help find out what systems are working or not.
 Should the "LAND ASAP" ECAM Warning be displayed, the plane has to be landed as quickly and safely as possible; Otherwise it's your call as the captain to decide,
@@ -133,7 +133,7 @@ After working the issue, you can try turning the Autopilot back on, flight crews
 
 
     This is especially true for Auto Flight, where the flight crew must monitor all instruments and the flight in
-    general constantly, and they must be able to take over the flight manually at any moment.<p/>
+    general constantly, and they must be able to take over the flight manually at any moment.
     Always remember Airbus' Golden Rules:
 
 
@@ -141,5 +141,5 @@ After working the issue, you can try turning the Autopilot back on, flight crews
 
 ## Recovering to Normal Law
 Recovering to Normal Law is not guaranteed and may not be possible depending on the type of failure.
-In general, when the failure that caused Alternate Law is fixed, normal law should be operational again. 
+In general, when the failure that caused Alternate Law is fixed, Normal Law should be operational again. 
 To rectify issues with the plane, work through the ECAM Actions and refer to the "STS" ECAM Page. 
