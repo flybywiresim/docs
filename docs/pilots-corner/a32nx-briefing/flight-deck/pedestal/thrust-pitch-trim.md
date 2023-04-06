@@ -6,7 +6,7 @@
 
 ---
 
-![Thrust Lever and Pitch Trim](../../../assets/a32nx-briefing/pedestal/Thrust-lever-elev-trim.jpg "Thrust Lever and Pitch Trim")
+![Thrust Lever and Pitch Trim](../../../assets/a32nx-briefing/pedestal/Thrust-lever-elev-trim.png "Thrust Lever and Pitch Trim")
 
 ![A/THR Instinctive Disconnect Push Button](../../../assets/a32nx-briefing/pedestal/thrustlevel-athr-disconnect.jpg)
 
