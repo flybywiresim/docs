@@ -19,17 +19,17 @@ The Navigation Display (ND) is one of the main instruments for the pilots for si
 It plots configurable information for speed, heading, flight plan, terrain, weather, distances etc. in 5 different basic view modes:
 
 - ROSE LS, VOR, NAV
-    - A 360 degree view around the aircraft.
+    - A 360-degree view around the aircraft.
 - ARC
-    - A 180 degree forward view.
+    - A 180-degree forward view.
 - PLAN
-    - A 360 degree view used for stepping through the current flight plan.
+    - A 360-degree view used for stepping through the current flight plan.
 
 The weather radar image can be displayed in all modes except PLAN.
 
 <!-- TODO: UPDATE -->
 !!! info "Future Update"
-    A more in depth description of the Navigation Display is currently being developed and will be available in the near future. Listed below will be interim updates until we have fully completed the documentation.
+    A more in-depth description of the Navigation Display is currently being developed and will be available in the near future. Listed below will be interim updates until we have fully completed the documentation.
 
     - Various [vertical guidance symbology](../../../advanced-guides/flight-guidance/vertical-guidance/nd-symbols.md) as seen on the ND is now available.
 
@@ -52,7 +52,7 @@ These pushbuttons are located on either side of the ECAM. Each pushbutton contro
     - The terrain data is not displayed on the ND.
     - Note:
         - If the predictive functions of the GPWS generate a caution or a warning, while the TERR ON ND is not switched ON, the terrain is automatically displayed on the NDs and the ON light of the TERR ON ND pushbutton comes on.
-        - To differentiate between the terrain and the weather display, the TERR indication comes on, instead of the TILT indication, in the lower right corner of the ND.
+        - To differentiate between the terrain and the weather display, the TERR indication comes on, instead of the TILT indication, in the lower-right corner of the ND.
 
 ---
 

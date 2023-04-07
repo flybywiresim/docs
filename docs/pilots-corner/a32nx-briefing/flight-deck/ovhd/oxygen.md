@@ -28,7 +28,7 @@
 - OFF:
     - When the OXYGEN CREW SUPPLY switch is selected OFF, the OFF light illuminates white, and the oxygen supply valve is closed.
 - ON:
-    - When the OXYGEN CREW SUPPLY switch is selected ON, the OFF light extinguishes, and the cockpit oxygen supply valve is open. Low pressure oxygen is supplied to the masks.
+    - When the OXYGEN CREW SUPPLY switch is selected ON, the OFF light extinguishes, and the cockpit oxygen supply valve is open. Low-pressure oxygen is supplied to the masks.
 
 ---
 

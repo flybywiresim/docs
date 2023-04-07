@@ -36,7 +36,7 @@ These annunciations tell the pilots which lateral mode the autopilot and the fli
 
 ### RWY
 
-Displayed in green when runway mode is engaged. This is only displayed if there is an active localiser signal. This mode provides lateral guidance during the takeoff roll up to 30 feet (radio altitude).
+Displayed in green when runway mode is engaged. This is only displayed if there is an active localizer signal. This mode provides lateral guidance during the takeoff roll up to 30 feet (radio altitude).
 
 ### RWY TRK
 
@@ -57,11 +57,11 @@ Displayed in green when track mode is engaged. Track mode is when the aircraft f
 
 ### LOC\*
 
-Displayed in green when localiser capture mode is engaged.
+Displayed in green when localizer capture mode is engaged.
 
 ### LOC
 
-- Displayed in green when localiser track mode is engaged.
+- Displayed in green when localizer track mode is engaged.
 - Displayed in blue when LOC mode is armed.
 
 ### APP NAV

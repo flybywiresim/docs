@@ -36,7 +36,7 @@ These annunciations tell the pilots which vertical mode the autopilot and flight
 
 Displayed in green when takeoff or go around mode is engaged.
 
-SRS is the speed reference system and it controls pitch to steer the aircraft along a path in the vertical plan at a speed defined by the SRS guidance law.
+SRS is the speed reference system, and it controls pitch to steer the aircraft along a path in the vertical plan at a speed defined by the SRS guidance law.
 
 ### CLB
 
@@ -44,13 +44,13 @@ Displayed in green when climb mode is engaged and the FMGS Target altitude is hi
 
 ### OP CLB
 
-Displayed in green when open climb mode is engaged and the FCU selected altitude is higher that the actual altitude. Altitude constraints are disregarded.
+Displayed in green when open climb mode is engaged and the FCU selected altitude is higher than the actual altitude. Altitude constraints are disregarded.
 
 ### EXP CLB
 
 Displayed when the aircraft is in EXP CLB mode.
 
-The target speed is Green Dot, which is maintained with pitch control. Autothrust, if active, sets the thrust at CLB THRUST automatically.
+The target speed is Green Dot, which is maintained with pitch control. Autothrust, if active, sets the thrust to CLB THRUST automatically.
 
 When EXPEDITE is engaged, the system disregards SPD CSTR, ALT CSTR, and SPD LIM.
 
@@ -84,8 +84,7 @@ Displayed in green when open descent (selected) mode is engaged and the FCU sele
 
 Displayed when the aircraft is in EXP DES mode.
 
-When the aircraft is in EXP DES, the target speed is 340 kt or M 0.8 which is maintained with pitch
-control. Autothrust, if active, sets the thrust at IDLE automatically.
+When the aircraft is in EXP DES, the target speed is 340 kt or M 0.8 which is maintained with pitch control. Autothrust, if active, sets the thrust to IDLE automatically.
 
 When EXPEDITE is engaged, the system disregards SPD CSTR, ALT CSTR, and SPD LIM.
 
@@ -102,14 +101,14 @@ Displayed in green when glideslope mode is engaged.
 Displayed in green text with blue numbers. Displayed when vertical speed mode is engaged to hold the vertical speed selected on the FCU. Altitude constraints are not taken into account.
 
 !!! note ""
-    This has priority over speed and the aircraft might slow down or accelerate if autothrust cannot compensate for the requested vertical speed. If the aircraft's speed reaches V~LS~ or V~MAX~ the requested vertical speed cannot be maintained any longer and this annunciator is boxed in amber and flashes. The vertical speed target pulses.
+    This has priority over speed, and the aircraft might slow down or accelerate if Autothrust cannot compensate for the requested vertical speed. If the aircraft's speed reaches V~LS~ or V~MAX~ the requested vertical speed cannot be maintained any longer and this annunciator is boxed in amber and flashes. The vertical speed target pulses.
 
 ### FPA ± XX
 
 Displayed in green text with blue numbers. Displayed when flight path angle mode is engaged to hold the flight path angle selected on the FCU. Altitude constraints are not taken into account.
 
 !!! note ""
-    This has priority over speed and the aircraft might slow down or accelerate if autothrust cannot compensate for the requested flight path angle. If the aircraft's speed reaches V~LS~ or V~MAX~ the requested flight path angle cannot be maintained any longer and this annunciator is boxed in amber and flashes. The flight path angle target pulses.
+    This has priority over speed, and the aircraft might slow down or accelerate if Autothrust cannot compensate for the requested flight path angle. If the aircraft's speed reaches V~LS~ or V~MAX~ the requested flight path angle cannot be maintained any longer and this annunciator is boxed in amber and flashes. The flight path angle target pulses.
 
 ### CLB (Blue text)
 

@@ -14,7 +14,7 @@
 ## Description
 
 - ELAC (Elevator Aileron Computer)
-    - Normally ELAC 1 commands the operation of the ailerons and ELAC 2 commands the operation of the elevators and horizontal stabilizer. ELAC 1 and 2 perform the following:
+    - Normally, ELAC 1 commands the operation of the ailerons and ELAC 2 commands the operation of the elevators and horizontal stabilizer. ELAC 1 and 2 perform the following:
         - Normal pitch and roll, normal LAF (Load Alleviation Function).
         - Alternate pitch, alternate LAF.
         - Direct pitch and roll.
@@ -22,7 +22,7 @@
         - Abnormal attitude.
         - Acquisition of autopilot orders.
 - SEC (Spoiler Elevator Computer)
-    - The Spoiler Elevator Computers 1, 2, and 3 command spoiler operation. The SECs control the following
+    - The Spoiler Elevator Computers 1, 2, and 3 command spoiler operation. The SECs control the following.
         - Normal roll by controlling the spoilers.
         - Speed brakes and ground spoilers.
         - Alternate pitch (SEC 1 and SEC 2 only).

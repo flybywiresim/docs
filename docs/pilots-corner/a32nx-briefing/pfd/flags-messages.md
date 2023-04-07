@@ -46,7 +46,7 @@ These are flags and messages displayed on the PFD. The numbers correspond to the
 === "5"
     FD Flag
 
-    This is displayed in red. It appears if both of the FMGCs fail, or if both flight directors are disengaged and the FD pushbutton is on and the attitude is valid.
+    This is displayed in red. It appears if both of the FMGCs fail, or if both flight directors are disengaged and the FD pushbutton is on, and the attitude is valid.
 
 === "6"
     SPD Flag
@@ -85,7 +85,7 @@ These are flags and messages displayed on the PFD. The numbers correspond to the
 === "11"
     CHECK ALT Flag
 
-    This is displayed in amber. This appears both as a flag on the PFD and on the ECAM as a caution if the difference between the two PFD altitude indicators is greater than 250 feet when the QNH Barometric Reference is selected, or 500 feet when STD is selected.
+    This is displayed in amber. This appears both as a flag on the PFD, and on the ECAM as a caution if the difference between the two PFD altitude indicators is greater than 250 feet when the QNH Barometric Reference is selected, or 500 feet when STD is selected.
     
     This flag disappears when the pilot's and first officer's barometer or references are different.
 
@@ -102,7 +102,7 @@ These are flags and messages displayed on the PFD. The numbers correspond to the
 === "14"
     LOC and G/S Flags
 
-    This is displayed in red and appears if the localiser or glideslope receiver fails.
+    This is displayed in red and appears if the localizer or glideslope receiver fails.
 
 === "15"
     V/DEV Flag
@@ -130,7 +130,7 @@ These are flags and messages displayed on the PFD. The numbers correspond to the
 === "19"
     CHECK HDG Flag
 
-    This is displayed in amber and is also shown on the ECAM as a caution. It is shown if there is a 5 degree difference in heading between the Captain's PFD and the First Officer's PFD
+    This is displayed in amber and is also shown on the ECAM as a caution. It is shown if there is a 5-degree difference in heading between the Captain's PFD and the First Officer's PFD.
 
 === "20"
     MACH Flag
@@ -153,7 +153,7 @@ These are flags and messages displayed on the PFD. The numbers correspond to the
 === "23"
     ILS X Flag
 
-    If an ILS frequency is not available, or if the localiser or glideslope signals fail, an ILS 1 (on PFD 1) or an ILS 2 (on PFD 2) flag replaces the ILS frequency indication.
+    If an ILS frequency is not available, or if the localizer or glideslope signals fail, an ILS 1 (on PFD 1) or an ILS 2 (on PFD 2) flag replaces the ILS frequency indication.
 
 === "24"
     WINDSHEAR
@@ -173,7 +173,7 @@ These are flags and messages displayed on the PFD. The numbers correspond to the
 === "25"
     W/S AHEAD
 
-    This is displayed in either amber or red depending on the alert level.
+    This is displayed in either amber or red, depending on the alert level.
 
     This is shown when the predictive windshear function has detected a windshear in front of the aircraft.
     

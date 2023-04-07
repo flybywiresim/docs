@@ -20,7 +20,7 @@ After entry or selection of the flight plan and other required performance data 
 
 ## Additional Guides and Information
 
-Learn how to setup the MCDU for flight here: [Preparing MCDU](../../../beginner-guide/preparing-mcdu.md)
+Learn how to set up the MCDU for flight here: [Preparing MCDU](../../../beginner-guide/preparing-mcdu.md)
 
 See our in-depth MCDU documentation here: [MCDU Documentation](../../mcdu/index.md)
 

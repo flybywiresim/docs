@@ -24,10 +24,10 @@ These knobs are used to turn the displays (PFD, ND) on and off, and also adjust 
     - If the PFD is turned off (knob turned all the way counterclockwise) the PFD image is automatically displayed on the NDU, but the pilot may recover the ND by means of the PFD-ND XFR pushbutton.
 
     !!! info ""
-        Currently PFD/ND XFR is not available in the FBW A32NX for Microsoft Flight Simulator.
+        Currently, PFD/ND XFR is not available in the FBW A32NX for Microsoft Flight Simulator.
 
 - ND
-    - The outer knob adjusts the brightness of both the weather radar image and the EGPWS terrain display. The inner knob adjusts the  brightness of the ND symbols. The ND is turned off if this knob is turned all the way counterclockwise.
+    - The outer knob adjusts the brightness of both the weather radar image and the EGPWS terrain display. The inner knob adjusts the brightness of the ND symbols. The ND is turned off if this knob is turned all the way counterclockwise.
 
 ### PFD/ND XFR Pushbutton
 
@@ -59,7 +59,7 @@ Adjusts the lights of the side console and of the briefcase on each side of the 
 
 The Ground Proximity Warning System (GPWS) is warning the flight crew of potentially hazardous situations, such as a collision with terrain. It detects these and triggers aural and visual indications.
 
-Five basic GPWS modes active up to radio height of 2.500 ft:
+Five basic GPWS modes active up to radio height of 2,500 ft:
 
 - Excessive rate of descent (Mode 1)
 - Excessive terrain closure rate (Mode 2)

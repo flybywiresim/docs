@@ -41,7 +41,7 @@
 |        |                              | Amber color                 | The corresponding generator frequency is less than 390 Hertz, or greater than 410 Hertz.                                  |
 | 16     | APU GEN                      | White APU GEN               | Remains on the display regardless of the position of the APU GEN switch.                                                  |
 |        |                              | Amber APU GEN and White OFF | The APU Master switch is ON, but the APU GEN is off.                                                                      |
-|        |                              | White and Green color table | Same as a generator indications.                                                                                          |
+|        |                              | White and Green color table | Same as generator indications.                                                                                            |
 | 17     | External Power Indication    | Hidden                      | The external power is not available                                                                                       |
 |        |                              | White color                 | The external power parameters are in normal operations.                                                                   |
 |        |                              | Amber color                 | The external power voltage or frequency is in amber color.                                                                |
@@ -50,11 +50,11 @@
 | 19     | External Power Frequency     | Green color                 | The external power frequency is within normal operating range.                                                            |
 |        |                              | Amber color                 | The external power frequency is less than 390 Hertz, or greater than 410 Hertz.                                           |
 | 20     | IDG Legend                   | White color                 | The IDG is in normal operations.                                                                                          |
-|        |                              | Amber color                 | The oil outlet temperature is greater than 180°C, the oil pressure is too low, or the IDG becomes disconnected.           |
+|        |                              | Amber color                 | The oil outlet temperature is greater than 180 °C, the oil pressure is too low, or the IDG becomes disconnected.          |
 | 21     | DISC/LO PR                   | Hidden                      | The IDG is connected.                                                                                                     |
 |        |                              | Amber DISC                  | The IDG is disconnected                                                                                                   |
 |        |                              | Amber LO PR                 | An IDG low pressure is detected on the associated engine.                                                                 |
 | 22     | Oil outlet temperature       | Green color                 | The oil outlet temperature is within normal operating range.                                                              |
 |        |                              | Amber color                 | The oil outlet temperature is greater than 180 °C.                                                                        |
-|        |                              | Pulsion                     | The oil outlet temperature is greater than 147°C, but less than 180°C.                                                    |
+|        |                              | Pulsion                     | The oil outlet temperature is greater than 147 °C, but less than 180 °C.                                                  |
 

@@ -40,7 +40,7 @@ Normal operation:
 
 Abnormal operation:
 
-- The IR mode selector can be turned ATT however, this only provides attitude and heading data, when entered by the flight crew. The navigation data is not available.
+- The IR mode selector can be turned ATT. However, this only provides attitude and heading data, when entered by the flight crew. The navigation data is not available.
 
 - The heading data must be entered using the MCDU. This must be updated frequently, roughly every 10 minutes.
 

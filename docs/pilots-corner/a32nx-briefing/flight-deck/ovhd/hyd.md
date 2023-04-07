@@ -19,16 +19,16 @@ Normal operation:
 
 Abnormal operation:
 
-- If engine No. 1 is not running or Green pump has failed:
+- If engine No. 1 is not running or the Green pump has failed:
     - The Green system is pressurized by the reversible Power Transfer Unit (PTU).
-- If engine No. 2 is not running or Yellow pump has failed:
+- If engine No. 2 is not running or the Yellow pump has failed:
     - The Yellow system is pressurized by the reversible PTU.
 - In case of dual engine failure or total electrical power loss:
     - The Ram Air Turbine (RAT) will pressurize the Blue system.
 
 On ground:
 
-- Blue and Yellow systems can be pressurized by electric pumps. A hand pump (operated from the ground on the yellow system) facilitates manoeuvring of the cargo doors.
+- Blue and Yellow systems can be pressurized by electric pumps. A hand pump (operated from the ground on the yellow system) facilitates maneuvering of the cargo doors.
 - Green/Yellow system can be pressurized by the PTU.
 
 ## Usage
@@ -36,11 +36,11 @@ On ground:
 ###  ENG 1 + 2 PUMP
 
 - ON:
-    - When the engine is running the system is pressurized by the pump.
+    - When the engine is running, the pump pressurizes the system.
 - OFF:
-    - The pump is deactivated (de-pressurized). No generation of hydraulic power.
+    - The pump is deactivated (depressurized). No generation of hydraulic power.
 - FAULT:
-    - Amber light and ECAM caution appears if the reservoir level is low, overheats or air pressure is low. It also lights when the pump pressure is low (inhibited on the ground, when the engine is stopped). It goes out, when the crew selects OFF, except during an overheat where it stays on as long as the overheat lasts.
+    - Amber light and ECAM caution appears if the reservoir level is low, overheats or air pressure is low. It also lights when the pump pressure is low (inhibited on the ground, when the engine is stopped). It goes out, when the crew selects OFF, except during an overheat, where it stays on as long as the overheat lasts.
 
 ### BLUE ELEC PUMP
 
@@ -49,29 +49,29 @@ On ground:
 - OFF:
     - The pump is not powered.
 - FAULT:
-    - Amber light and ECAM caution appears, if the reservoir level is low, overheats or air pressure is low. It also lights when the pump pressure is low (inhibited on the ground, when the engine is stopped) or the pump overheats. It goes out, when the crew selects OFF, except during an overheat where it stays on as long as the overheat lasts.
+    - Amber light and ECAM caution appears, if the reservoir level is low, overheats or air pressure is low. It also lights when the pump pressure is low (inhibited on the ground, when the engine is stopped) or the pump overheats. It goes out, when the crew selects OFF, except during an overheat, where it stays on as long as the overheat lasts.
 
 ### YELLOW ELEC PUMP
 
 - ON:
     - The electric pump is ON.
 - OFF:
-    - The pump is off. When lever of the cargo door manual selector valve is set to OPEN or CLOSE it the pump automatically comes on. This inhibits the operation of other yellow system functions (except alternate braking and engine 2 reverse).
+    - The pump is off. When the lever of the cargo door manual selector valve is set to OPEN or CLOSE, the pump automatically comes on. This inhibits the operation of other yellow system functions (except alternate braking and engine 2 reverse).
 - FAULT:
-    - Amber light and ECAM caution appears, if the reservoir level is low, overheats or air pressure is low. It also lights when the pump pressure is low (inhibited on the ground, when the engine is stopped) or the pump overheats. It goes out, when the crew selects OFF, except during an overheat where it stays on as long as the overheat lasts.
+    - Amber light and ECAM caution appears, if the reservoir level is low, overheats or air pressure is low. It also lights when the pump pressure is low (inhibited on the ground, when the engine is stopped) or the pump overheats. It goes out, when the crew selects OFF, except during an overheat, where it stays on as long as the overheat lasts.
 
 ### PTU
 
 - AUTO:
-    - The bidirectional power transfer unit is armed and both the yellow and the green electrohydraulic valves are open. The power transfer unit runs automatically when the differential pressure between the green and yellow systems is more than 500 PSI.
+    - The bidirectional power transfer unit is armed and both the yellow and the green electrohydraulic valves are open. The power transfer unit runs automatically when the differential pressure between the green and yellow systems exceeds 500 PSI.
 
     !!! info ""
         Note : The PTU is inhibited during the first engine start and automatically tested during the second engine start.
 
 - OFF:
-    - Both PTU valve close stopping power transfer.
+    - Both PTU valve close, stopping power transfer.
 - FAULT:
-    -  Aamber light and ECAM caution appears, if the green or the yellow reservoir overheat, have low air pressure or have a low fluid level. It goes out, when the crew selects OFF, except during an overheat where it stays on as long as the overheat lasts.
+    -  Amber light and ECAM caution appears, if the green or the yellow reservoir overheat, have low air pressure or have a low fluid level. It goes out, when the crew selects OFF, except during an overheat, where it stays on as long as the overheat lasts.
 
 ### RAT MAN ON
 

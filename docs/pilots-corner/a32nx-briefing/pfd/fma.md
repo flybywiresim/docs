@@ -31,9 +31,9 @@
 
 ## Description
 
-The Flight Mode Annunciator (FMA) at the top of the PFD, shows the status of the A/THR, the AP/FD vertical and lateral modes, the approach capabilities, and the AP/FD-A/THR engagement status. It is divided into five columns which are described in this section.
+The Flight Mode Annunciator (FMA) at the top of the PFD, shows the status of the A/THR, the AP/FD vertical and lateral modes, the approach capabilities, and the AP/FD-A/THR engagement status. It is divided into five columns, which are described in this section.
 
-The FMA always show the actual state of autoflight and should always be the main reference for pilots in regards to autoflight.
+The FMA always show the actual state of autoflight and should always be the main reference for pilots in regard to autoflight.
 
 The FMA has various ways to signify different states:
 

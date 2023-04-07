@@ -12,11 +12,11 @@
 
 ## Description
 
-To apply the Parking Brake the flight crew pulls this handle and turns it clockwise.
+To apply the Parking Brake, the flight crew pulls this handle and turns it clockwise.
 
 The message "PARK BRK" appears on the ECAM.
 
-To release the Parking Brake the handle is turned counterclockwise.
+To release the Parking Brake, the handle is turned counterclockwise.
 
 ---
 

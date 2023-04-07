@@ -50,7 +50,7 @@ Lights up if the landing gear is not locked down when the aircraft is in the lan
 
 ### A/SKID & N/W STRG
 
-The anti-skid system is the aircraft's equivalent to modern car's ABS system. It produces maximum braking efficiency by maintaining the wheels just short of an impending skid by releasing brake forces when on the verge of locking. ECAM displays the released brakes in this case.
+The anti-skid system is the aircraft's equivalent to a modern car's ABS. It produces maximum braking efficiency by maintaining the wheels just short of an impending skid by releasing brake forces when on the verge of locking. ECAM displays the released brakes in this case.
 
 The anti-skid is deactivated when ground speed is less than 20 knots.
 
@@ -92,7 +92,7 @@ It has 4 settings: OFF, LO, MED and MAX.
 ### BRK FAN
 
 - ON:
-    - If the left-hand main landing gear is down and locked the fans run.
+    - If the left-hand main landing gear is down and locked, the fans run.
 - OFF:
     - Brake fans are stopped.
 - HOT Lt:

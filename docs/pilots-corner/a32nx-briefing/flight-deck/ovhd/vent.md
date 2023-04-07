@@ -14,11 +14,11 @@
 
 - AUTO:
     - When both switches are on AUTO:
-        - On the ground before TO power the system is in open circuit configuration (or in closed configuration when the skin temperature is below the ground threshold).
-        - On the ground after TO power, and in flight, the ventilation system is in closed circuit configuration.
+        - On the ground before TO power, the system is in open circuit configuration (or in closed configuration when the skin temperature is below the ground threshold).
+        - On the ground after TO power, and in flight, the ventilation system is in closed-circuit configuration.
 - OVRD:
     - When either switch is on OVRD:
-        - Closed circuit configuration.
+        - Closed-circuit configuration.
         - Air from the a/c system is added to ventilation air.
         - The blower fan stops if the BLOWER pushbutton switch is in the OVRD position.
     - When both pushbutton switches are on OVRD:

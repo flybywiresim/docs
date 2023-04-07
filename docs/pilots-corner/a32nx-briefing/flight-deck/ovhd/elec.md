@@ -46,11 +46,11 @@ The BAT 1+2 buttons control the operation of the respective battery charge limit
 
 ### EXT PWR
 
-AVAIL light comes on green if external power is plugged in, and external power parameters are normal.
+The AVAIL light comes on green if external power is plugged in, and external power parameters are normal.
 
-If AVAIL light is green a press will close the power line contactor and the white ON light comes on. The aircraft is now powered by external power.
+If the AVAIL light is green, a press will close the power line contactor and the white ON light comes on. External power now powers the aircraft.
 
-If AVAIL light is ON then a press will open the power line contactor and the white ON light goes off. The aircraft is no longer powered by external power.
+If the AVAIL light is ON, then a press will open the power line contactor and the white ON light goes off. The aircraft is no longer powered by external power.
 
 !!! info ""
     1. External power has priority over the APU generator. The engine generators have priority over external power.
@@ -61,7 +61,7 @@ If AVAIL light is ON then a press will open the power line contactor and the whi
 - ON:
     - If electrical parameters are normal, the generator is powered and the line contactor closes.
 - OFF:
-    - The line contactors opens and the generator is unpowered. The fault circuit is reset.
+    - The line contactors open, and the generator is unpowered. The fault circuit is reset.
 - FAULT:
     - Amber light and ECAM caution appears, if :
         - The associated generator control unit (GCU) trips it.
@@ -80,13 +80,13 @@ If AVAIL light is ON then a press will open the power line contactor and the whi
 ### BUS TIE
 
 - AUTO:
-    - The bus tie contactors (BTCs) open or close automatically in order to maintain power supply to both AC BUS 1 and AC BUS 2.
+    - The bus tie contactors (BTCs) open or close automatically to maintain power supply to both AC BUS 1 and AC BUS 2.
         - One contactor is closed if:
             - One engine generator powers the respective AC BUS
             - The APU generator or external power supplies the other side.
         - Both contactors are closed during single-engine operation, or operation on the APU generator or external power supply.
 - OFF:
-    - Both bus tie contactors open. When set to OFF the AC buses are isolated from each other and only power from the engine generators are supplying the respective AC buses.
+    - Both bus tie contactors open. When set to OFF, the AC buses are isolated from each other and only power from the engine generators supply the respective AC buses.
 
 ### AC ESS FEED
 

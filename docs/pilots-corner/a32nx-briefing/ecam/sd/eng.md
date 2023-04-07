@@ -21,7 +21,7 @@
 | 6      | Oil temperature             | Green number   | The oil temperature is within normal operating range.                                       |
 |        |                             | Green pulses   | The oil temperature is high.                                                                |
 |        |                             | Amber number   | The oil temperature is above limits.                                                        |
-| 7      | N1 and N2 vibrations        | Green number   | The vibration of the low pressure and high pressure rotor is within normal operating range. |
-|        |                             | Amber number   | The vibration of the low pressure and high pressure rotor is excessive.                     |
+| 7      | N1 and N2 vibrations        | Green number   | The vibration of the low-pressure and high-pressure rotor is within normal operating range. |
+|        |                             | Amber number   | The vibration of the low-pressure and high-pressure rotor is excessive.                     |
 |        |                             |                |                                                                                             |
 
