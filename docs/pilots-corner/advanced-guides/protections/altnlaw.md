@@ -24,7 +24,6 @@ Following failures will lead to the activation of [Alternate Law with reduced pr
 - Failure of 2 ADRs (Failure of second ADR not self-detected **and** disagreement related to calculated airspeed (CAS) or Mach speed)
 - Failure of both FACs
 - Failure of the green and yellow hydraulic system
-- Failure of the yaw damper
 
 !!! info "Self Detection"
     All flight systems are continuously monitored by the flight computers, when a peripheral system detects a fault it will inform the flight computers or shut down (self detected failure). 
@@ -41,7 +40,7 @@ Following failures will lead to the activation of [Alternate Law without protect
 
 !!! warning "Approach and Landing with Alternate Law"
     When deploying the Landing Gear under Alternate Law **and** the Autopilot is disconnected
-    the controls switch directly to [Direct Law](#direct-law), this is done to provide necessary force feedback to the pilot as the "FLARE" mode that usually provides feedback to the sidestick is inoperable in Alternate Law.
+    the controls switch directly to [Direct Law](#direct-law), this is done to provide necessary force feedback to the pilot as the "flare" mode that usually provides feedback to the sidestick is inoperable in Alternate Law.
     
     Loss of all protections on final approach should be anticipated, and the flight crew should prepare to take over pitch trimming for landing.  
 
@@ -54,11 +53,12 @@ Some failure conditions are caused by a combination of factors and can cause abn
 - When the plane is in "Emergency Electrical Configuration (On Batteries)" Alternate Law with reduced protections is active, although yaw control is switched to the mechanical backup, after emergency power becomes available, resetting FAC 1 allows recovery to alternate control over yaw.
 - When 2 IRs fail with the second not being self detected, the flight crew has to identify and switch off the faulty IR before resetting **both** ELAC 1 and 2, the plane will recover to Alternate Law with reduced protection.
 - When the Radio Altimeters fail with Gear down **or** the plane is in CONF 2 and the LGCIUs have a data disagreement, Direct Law will be used. Abnormal from Direct Law Yaw Control will be kept in alternate.
+- Failure of the yaw damper will cause Alternate Law to be displayed on the ECAM but all protections are retained and no switch to Direct Law will be made on landing.
 
 ## Alternate Law with Reduced Protection
 This is the standard fallback mode.
 
-- Autopilot is lost.
+- Autopilot may be lost, depending on he type of failure that has accured, AP may not have disengaged or may be reengaged.
 - Pitch control is still translated via load demand orders, however most protections for pitch have been lost.
 - Load Factor Protection is available, over stressing the airframe should not be possible.
 - Autotrim is available.
@@ -70,7 +70,7 @@ This is the standard fallback mode.
 - Yaw control is provided with yaw dampening available.
 
 !!! info "Load Demand"
-    With fly-by-wire flight controls, the sidestick usually doesn't affect the avionics directly, instead being translated into a load demand order that tells the flight computers to change the current flight situation, the computers then generate commands for the avionics to achieve the necessary movement introduced.
+    With fly-by-wire flight controls, in flight the sidestick usually doesn't affect the flight controls directly, instead being translated into a load demand order that tells the flight computers to change the current flight situation, the computers then generate commands for the avionics to achieve the necessary movement introduced.
     This also inhibits unsafe flight conditions like stalls, inverted flight or exceeding of the load limit (G Limit), provided the aircraft is in [Normal Law](overview.md).
 
 ## Alternate Law without Protection
@@ -113,10 +113,10 @@ likely disconnected.
 Refer to the ECAM for information about the failure and current flight situation, warnings displayed will give you constraints like maximum speed which should be followed to stay
 in a safe flight condition.
 
-Telling which Law your plane is in can help
-- "ALTN LAW" ECAM Warning means normal Alternate Law
-- "ALTN LAW: PROT LOST" means Alternate Law without protections
-- Amber "USE MAN PITCH TRIM" means Direct Law
+Telling which Law your plane is in can help:
+
+- ECAM Warning "ALTN LAW: PROT LOST" means Alternate Law in general, use the ECAM "STS" page and displayed warnings to tell if protections are reduced or completely lost. 
+- ECAM Warning "ALTN LAW: PROT LOST" **and**  amber "USE MAN PITCH TRIM" warning in the PFD means Direct Law
 
 After ensuring a stable flight profile, the flight crew begins working the issue with the help of ECAM. In the first step, the issue is
 diagnosed by finding the related system. If displayed work the ECAM Actions, if successful you may [recover to Normal Law](recovering-to-normal-law).
