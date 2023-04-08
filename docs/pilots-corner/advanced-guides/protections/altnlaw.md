@@ -119,7 +119,7 @@ Telling which Law your plane is in can help:
 - ECAM Warning "ALTN LAW: PROT LOST" **and**  amber "USE MAN PITCH TRIM" warning in the PFD means Direct Law
 
 After ensuring a stable flight profile, the flight crew begins working the issue with the help of ECAM. In the first step, the issue is
-diagnosed by finding the related system. If displayed work the ECAM Actions, if successful you may [recover to Normal Law](recovering-to-normal-law).
+diagnosed by finding the related system. If displayed work the ECAM Actions, if successful you may [recover to Normal Law](#recovering-to-normal-law).
 
 If not, the decision on how to proceed is dependent on many factors, primarily what sort of failure you're experiencing and what stage of flight you're in. The "STS" Page in the ECAM can help find out what systems are working or not.
 Should the "LAND ASAP" ECAM Warning be displayed, the plane has to be landed as quickly and safely as possible; Otherwise it's your call as the captain to decide,
