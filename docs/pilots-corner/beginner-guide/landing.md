@@ -83,7 +83,7 @@ To intercept the ILS Localizer we follow these steps:
 
     ![VFE for next configuration](../assets/beginner-guide/landing/PFD-Speed-band-flaps-marker.png "VFE for next configuration"){loading=lazy}
 
-- Turn on `APPR` in the `FCU` to command the aircraft to intercept the ILS localizer. The aircraft will keep the current heading until the localizer is captured and guides the aircraft towards the runway. The `lateral ILS localizer scale` shows the `deviation marker` moving towards the middle of the `lateral deviation scale`. Also the lateral `FMA` shows `LOC` in blue (armed).
+- Turn on `APPR` in the `FCU` to command the aircraft to intercept the ILS localizer. The aircraft will keep the current heading until the localizer is captured and guides the aircraft towards the runway. The `lateral ILS localizer scale` shows the `deviation marker` moving towards the middle of the `lateral deviation scale`. Also the lateral `FMA` shows `LOC` in blue (armed). Usually AP2 is turned on at this point to have a redundancy on the approach, for the sake of this guide you can leave it off.
 
     ![Activate APPR mode on FCU](../assets/beginner-guide/landing/FCU-ILS-APPR.png "Activate APPR mode on FCU"){loading=lazy}
 
