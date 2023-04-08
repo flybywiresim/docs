@@ -55,6 +55,8 @@ Some failure conditions are caused by a combination of factors and can cause abn
 - When the Radio Altimeters fail with Gear down **or** the plane is in CONF 2 and the LGCIUs have a data disagreement, Direct Law will be used. Abnormal from Direct Law Yaw Control will be kept in alternate.
 - Failure of the yaw damper or both FACs will cause Alternate Law to be displayed on the ECAM but all protections are retained and no switch to Direct Law will be made on landing.
 
+!!! info ""
+    Currently failure of yaw damper isn't implemented completely in the A32NX so a failure will lead to the activation of [Alternate Law with reduced protection and mechanical yaw control](#alternate-law-with-reduced-protection)
 ### Alternate Law with Reduced Protection
 This is the standard fallback mode.
 
