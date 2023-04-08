@@ -10,6 +10,24 @@ jobs:
     # Check if PR, prevent running on forks and trigger comment
     if: ${{ github.event.issue.pull_request && github.repository_owner == 'flybywiresim' && github.event.comment.body == 'check build' }}
     steps:
+      - name: Check if user is member of organization and maintainer
+        id: check-permissions
+        uses: actions/github-script@v6
+        with:
+          result-encoding: string
+          script: |
+            const { owner } = context.repo;
+            const { data: members } = await github.rest.orgs.listMembers({
+              org: owner,
+              per_page: 100,
+            });
+            const { data: isOrgMember } = members.find(member => member.login === context.payload.comment.user.login) || { data: false };
+            const { data: isMaintainer } = await github.rest.repos.getCollaboratorPermissionLevel({
+              owner: owner,
+              repo: context.repo.repo,
+              username: context.payload.comment.user.login,
+            });
+            return isOrgMember === true && isMaintainer.permission === 'maintain'
       - name: React to comment
         uses: actions/github-script@v6
         with:
