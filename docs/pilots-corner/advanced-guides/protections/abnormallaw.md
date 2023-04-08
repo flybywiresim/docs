@@ -1,10 +1,11 @@
-# Alternate Law in the A320
+# Abnormal Laws in the A320
+## Alternate Law
 
 Alternate Law is activated when the plane loses certain computers, avionics, or sensors. You can tell Alternate Law is in effect by the ECAM message: "ALTN LAW" and associated messages detailing the failure that led to Alternate Law becoming active.
 
 On the PFD, indications for protective limits are replaced by an amber "x" indication when the associated system is unavailable.
 
-## Failure Cases
+### Failure Cases
 
 Following failures will lead to the activation of [Alternate Law with reduced protection](#alternate-law-with-reduced-protection):
 
@@ -47,7 +48,7 @@ Following failures will lead to the activation of [Alternate Law without protect
 Following failures will lead to the activation of [Direct Law](#direct-law)
 - Failure of all three IRs
 
-### Special Failure Conditions
+#### Special Failure Conditions
 Some failure conditions are caused by a combination of factors and can cause abnormal failure modes, some may allow recovery to a more stable state:
 
 - When the plane is in "Emergency Electrical Configuration (On Batteries)" Alternate Law with reduced protections is active, although yaw control is switched to the mechanical backup, after emergency power becomes available, resetting FAC 1 allows recovery to alternate control over yaw.
@@ -55,7 +56,7 @@ Some failure conditions are caused by a combination of factors and can cause abn
 - When the Radio Altimeters fail with Gear down **or** the plane is in CONF 2 and the LGCIUs have a data disagreement, Direct Law will be used. Abnormal from Direct Law Yaw Control will be kept in alternate.
 - Failure of the yaw damper will cause Alternate Law to be displayed on the ECAM but all protections are retained and no switch to Direct Law will be made on landing.
 
-## Alternate Law with Reduced Protection
+### Alternate Law with Reduced Protection
 This is the standard fallback mode.
 
 - Autopilot may be lost, depending on he type of failure that has accured, AP may not have disengaged or may be reengaged.
@@ -73,7 +74,7 @@ This is the standard fallback mode.
     With fly-by-wire flight controls, in flight the sidestick usually doesn't affect the flight controls directly, instead being translated into a load demand order that tells the flight computers to change the current flight situation, the computers then generate commands for the avionics to achieve the necessary movement introduced.
     This also inhibits unsafe flight conditions like stalls, inverted flight or exceeding of the load limit (G Limit), provided the aircraft is in [Normal Law](overview.md).
 
-## Alternate Law without Protection
+### Alternate Law without Protection
 This fallback mode is triggered when multiple flight-critical redundant systems have failed:
 
 - Pitch control is still translated via load demand orders, Speed Stability is lost. 
@@ -89,7 +90,7 @@ This mode is the lowest level of fly-by-wire controlling. Multiple failures have
 - Yaw control is provided with yaw dampening available.
 
 
-## Abnormal Alternate Law
+### Abnormal Alternate Law
 Unlike normal Alternate Law, Abnormal Alternate Law (also known as Abnormal Attitude Law) is activated when the plane is far outside the normal flight envelope and reaches abnormal attitudes (even when in Normal Law).
 
 Abnormal Law is triggered when one of the following conditions is met:
@@ -105,7 +106,7 @@ In Abnormal, Autotrim is turned off and roll control is switched to Direct Law, 
 
 When the plane has recovered, autotrim is enabled again, pitch and yaw control remain in alternate. This means flight controls will be **degraded** for the rest of the flight.
 
-## Flying without Normal Law
+### Flying without Normal Law
 When encountering an issue with Normal Law and subsequently having to fly the plane in Alternate Law, the flight crew has
 to subsidize all the systems that are suddenly unavailable. The highest priority should be taking control of the airplane since the Autopilot
 likely disconnected.
@@ -139,7 +140,7 @@ After working the issue, you can try turning the Autopilot back on, flight crews
 
     ![golden rules image](../../assets/advanced-guides/vnav/goldenrules.png)
 
-## Recovering to Normal Law
+### Recovering to Normal Law
 Recovering to Normal Law is not guaranteed and may not be possible depending on the type of failure.
 In general, when the failure that caused Alternate Law is fixed, Normal Law should be operational again. 
 To rectify issues with the plane, work through the ECAM Actions and refer to the "STS" ECAM Page. 
