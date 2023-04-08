@@ -116,7 +116,7 @@ Minima:
 - An autoland procedure is very similar to a normal ILS approach and landing
 - Follow the Beginner Guide procedure until the end of this [chapter](../../beginner-guide/landing.md#3-preparation-and-checklist-for-landing)
 - Instead of what is described in the [Beginner Guide for manual landing](../../beginner-guide/landing.md#4-landing) 
-  you will not deactivate the Autopilot AP1 but instead you will activate the AP2 
+  you will not deactivate the Autopilot AP1 but instead you will activate the AP2 if you haven't done so already when activating APPR FCU Mode.
 
 ### FMA Annunciations
 
