@@ -81,7 +81,7 @@ This fallback mode is triggered when multiple flight-critical redundant systems 
 - Roll control is in direct mode, bank angle protection and turn coordination are lost.
 - Yaw control is provided with yaw dampening available.
 
-## Direct Law
+# Direct Law
 This mode is the lowest level of fly-by-wire controlling. Multiple failures have occurred.
 
 - Pitch control is direct. This means inputs on the sidestick are directly translated to movement of the relevant avionics, the behavior of the plane changes drastically.
