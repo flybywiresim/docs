@@ -82,15 +82,6 @@ This fallback mode is triggered when multiple flight-critical redundant systems 
 - Roll control is in direct mode, bank angle protection and turn coordination are lost.
 - Yaw control is provided with yaw dampening available.
 
-## Direct Law
-This mode is the lowest level of fly-by-wire controlling. Multiple failures have occurred.
-
-- Pitch control is direct. This means inputs on the sidestick are directly translated to movement of the relevant avionics, the behavior of the plane changes drastically.
-- Autotrim and Speed Stability are lost.
-- Roll control is in direct mode, bank angle protection and turn coordination are lost.
-- Yaw control is provided with yaw dampening available.
-
-
 ### Abnormal Alternate Law
 Unlike normal Alternate Law, Abnormal Alternate Law (also known as Abnormal Attitude Law) is activated when the plane is far outside the normal flight envelope and reaches abnormal attitudes (even when in Normal Law).
 
@@ -145,3 +136,11 @@ After working the issue, you can try turning the Autopilot back on, flight crews
 Recovering to Normal Law is not guaranteed and may not be possible depending on the type of failure.
 In general, when the failure that caused Alternate Law is fixed, Normal Law should be operational again. 
 To rectify issues with the plane, work through the ECAM Actions and refer to the "STS" ECAM Page. 
+
+## Direct Law
+This mode is the lowest level of fly-by-wire controlling. Multiple failures have occurred.
+
+- Pitch control is direct. This means inputs on the sidestick are directly translated to movement of the relevant avionics, the behavior of the plane changes drastically.
+- Autotrim and Speed Stability are lost.
+- Roll control is in direct mode, bank angle protection and turn coordination are lost.
+- Yaw control is provided with yaw dampening available.
