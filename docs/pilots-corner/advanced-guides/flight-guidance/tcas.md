@@ -229,7 +229,7 @@ The following table includes a list of auditory messages when a TA/RA is detecte
 |      Climb, Crossing Climb<br>(twice)      | *See above*. Additionally indicates you are crossing the altitude of the intruder.                       |
 |         Increase Climb<br>(twice)          | Warning is played after CLIMB warning when vertical speed is still insufficient.                         |
 |              Descend Descend               | Perform descent indicated in the green zone on the VSI.                                                  |
-|    Descend, Crossing Descend<br>(twice)     | *See above*. Additionally indicates you are crossing the altitude of the intruder.                       |
+|    Descend, Crossing Descend<br>(twice)    | *See above*. Additionally indicates you are crossing the altitude of the intruder.                       |
 |        Increase Descend<br>(twice)         | Warning is played after DESCEND warning when vertical speed is still insufficient.                       |
 |            Level off, Level off            | Set vertical speed to 0.                                                                                 |
 |         Climb Climb Now<br>(twice)         | Warning is played after DESCEND warning when the trajectory of the intruder has changed.                 |
@@ -258,17 +258,24 @@ Our implementation of TCAS supports the following networks:
 - VATSIM
 - IVAO
 - Live Traffic in MSFS
+- FSLTL Traffic Injection
 
 ### Known Issues
 
-- Broken support for FSLTL Traffic (sim issue)
-    - FSLTL traffic is not visible to TCAS but auditory warnings are still played
-    !!! info "Root Cause for FSLTL + TCAS Issues"
-        Unfortunately this is an issue with how injected traffic uses certain APIs from MSFS. Asobo seems to be aware of the issue and you can track it on the dev support 
-        forum link below:
+[//]: # (- Broken support for FSLTL Traffic &#40;sim issue&#41;)
 
-        [AI aircraft generated airborne do not get returned with the GET_AIR_TRAFFIC Coherent call](https://devsupport.flightsimulator.
-        com/questions/12949/ai-aircraft-generated-airborne-do-not-get-returned.html)
+[//]: # (    - FSLTL traffic is not visible to TCAS but auditory warnings are still played)
+
+[//]: # (    !!! info "Root Cause for FSLTL + TCAS Issues")
+
+[//]: # (        Unfortunately this is an issue with how injected traffic uses certain APIs from MSFS. Asobo seems to be aware of the issue and you can track it on the dev support )
+
+[//]: # (        forum link below:)
+
+[//]: # ()
+[//]: # (        [AI aircraft generated airborne do not get returned with the GET_AIR_TRAFFIC Coherent call]&#40;https://devsupport.flightsimulator.)
+
+[//]: # (        com/questions/12949/ai-aircraft-generated-airborne-do-not-get-returned.html&#41;)
   
 - No support for offline AI traffic (sim limitation)
 - No support of multiplayer (MSFS) traffic (sim limitation)
