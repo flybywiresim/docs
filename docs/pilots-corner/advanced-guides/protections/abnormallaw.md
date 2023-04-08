@@ -23,7 +23,6 @@ Following failures will lead to the activation of [Alternate Law with reduced pr
 Following failures will lead to the activation of [Alternate Law with reduced protection and mechanical yaw control](#alternate-law-with-reduced-protection):
 
 - Failure of 2 ADRs (Failure of second ADR not self-detected **and** disagreement related to calculated airspeed (CAS) or Mach speed)
-- Failure of both FACs
 - Failure of the green and yellow hydraulic system
 
 !!! info "Self Detection"
@@ -54,7 +53,7 @@ Some failure conditions are caused by a combination of factors and can cause abn
 - When the plane is in "Emergency Electrical Configuration (On Batteries)" Alternate Law with reduced protections is active, although yaw control is switched to the mechanical backup, after emergency power becomes available, resetting FAC 1 allows recovery to alternate control over yaw.
 - When 2 IRs fail with the second not being self detected, the flight crew has to identify and switch off the faulty IR before resetting **both** ELAC 1 and 2, the plane will recover to Alternate Law with reduced protection.
 - When the Radio Altimeters fail with Gear down **or** the plane is in CONF 2 and the LGCIUs have a data disagreement, Direct Law will be used. Abnormal from Direct Law Yaw Control will be kept in alternate.
-- Failure of the yaw damper will cause Alternate Law to be displayed on the ECAM but all protections are retained and no switch to Direct Law will be made on landing.
+- Failure of the yaw damper or both FACs will cause Alternate Law to be displayed on the ECAM but all protections are retained and no switch to Direct Law will be made on landing.
 
 ### Alternate Law with Reduced Protection
 This is the standard fallback mode.
