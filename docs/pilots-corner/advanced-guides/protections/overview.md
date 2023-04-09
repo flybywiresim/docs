@@ -261,7 +261,7 @@ The aural alert is inhibited when:
 
 - TOGA is selected, or
 - Below 100ft RA, or
-- Above 2.000ft RA, or
+- Above 2,000ft RA, or
 - Alpha-floor, or
 - the ground proximity warning system alert is triggered, or
 - in alternate or direct law, or

@@ -58,7 +58,7 @@ If we want to actually do a turn around and start a new flight directly, the pro
 
     ![Parking Brake](../assets/beginner-guide/powering-down/parking-brk.png "Parking Brake"){loading=lazy}
 
-- `NOSE TAXI` and `RWY TURN OFF` lights are usually turned off even before we turn into the gate to not blind the ground personnel. This, of course, is only done if enough lighting is available to safely park into the gate. Turn them off if they are used to assisting in parking.
+- `NOSE TAXI` and `RWY TURN OFF` lights are usually turned off even before we turn into the gate to not blind the ground personnel. This, of course, is only done if enough lighting is available to safely park into the gate. Turn them off if they were used while parking.
 
     ![Taxilights off](../assets/beginner-guide/powering-down/lights-taxi-off.png "Taxilights off"){loading=lazy}
 

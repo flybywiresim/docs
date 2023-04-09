@@ -140,7 +140,7 @@ As soon as the threat upgrades to an RA, TCAS will engage and provide corrective
 
 ## Clear of Conflict
 
-TCAS will notify the flight crew via the aural warning "Clear of Conflict" when separation and range from a threat is adequate. At this tim,e the flight crew should perform the following actions:
+TCAS will notify the flight crew via the aural warning "Clear of Conflict" when separation and range from a threat is adequate. At this time, the flight crew should perform the following actions:
 
 If maneuver performed using AP/FD TCAS:
 

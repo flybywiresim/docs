@@ -25,7 +25,7 @@ Aircraft can technically hold at any waypoint if given permission by or requeste
 
 Waypoints with published holds can be spotted by a racetrack pattern, or holds can be published and displayed in a diagram in one of the corners of the main navigation section on the chart. 
 
-Now that you know where to hold, you should learn how to program the hold. Next, you will need to find information on the chart to enter into the FMS. The primary informations you need to have is:
+Now that you know where to hold, you should learn how to program the hold. Next, you will need to find information on the chart to enter into the FMS. The primary information you need to have is:
 
 1. Name of the fix/waypoint
 2. Inbound course
