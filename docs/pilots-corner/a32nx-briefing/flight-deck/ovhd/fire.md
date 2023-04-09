@@ -15,7 +15,7 @@
 The A320's fire and smoke detection system consists of:
 
 - fire and overheat detection for both engines and APU.
-- smoke detection is installed in the cargo compartment, the lavatories and the avionics bay.
+- smoke detection is installed in the cargo compartment, the lavatories, and the avionics bay.
 - fire extinguishing for the engines, the APU and the cargo compartment.
 
 ## Usage
@@ -24,8 +24,7 @@ The A320's fire and smoke detection system consists of:
 
 This button's default position is pushed in and guarded.
 
-To release it the crew pushes it in, and it pops out. This sends a signal
-to the respective engine to:
+To release it, the crew pushes it in, and it pops out. This sends a signal to the respective engine to:
 
 - stop aural fire warning.
 - arm the fire extinguisher squibs.
@@ -46,18 +45,17 @@ The button's red light turns on, independent of the pushbutton's position, as so
 
 Used to test the operation of the fire detection and extinguishing system.
 
-When presses there is a continuous repetitive chime sound, the MASTER WARN lights flash and the ENG FIRE warning appears on ECAM.
+When presses, there is a continuous repetitive chime sound, the MASTER WARN lights flash and the ENG FIRE warning appears on ECAM.
 
-On the FIRE panel the ENG FIRE pushbutton lights up red, and the SQUIB lights come on white if discharge supplies are available. The DISCH lights come on amber.
+On the FIRE panel, the ENG FIRE pushbutton lights up red, and the SQUIB lights come on white if discharge supplies are available. The DISCH lights come on amber.
 
-On the ENG panel (pedestal) on the pedestal the FIRE lights come on red.
+On the ENG panel (pedestal) on the pedestal, the FIRE lights come on red.
 
 ### APU FIRE
 
 This button's default position is pushed in and guarded.
 
-To release it the crew pushes it in, and it pops out. This sends a signal
-to the APU to:
+To release it, the crew pushes it in, and it pops out. This sends a signal to the APU to:
 
 - shut down the APU.
 - stop aural fire warning.
@@ -79,9 +77,9 @@ The button's red light turns on, independent of the pushbutton's position, as so
 
 Used to test the operation of the fire detection and extinguishing system.
 
-When pressed there is a continuous repetitive chime sound, the MASTER WARN lights flash and the APU FIRE warning appears on ECAM.
+When pressed, there is a continuous repetitive chime sound, the MASTER WARN lights flash and the APU FIRE warning appears on ECAM.
 
-On the APU FIRE panel the APU FIRE pushbutton lights up red, and the SQUIB lights come on white if discharge supplies are available. The DISCH lights come on amber.
+On the APU FIRE panel, the APU FIRE pushbutton lights up red, and the SQUIB lights come on white if discharge supplies are available. The DISCH lights come on amber.
 
 ---
 

@@ -20,30 +20,30 @@
 
 The PFD can show important additional information for various types of approaches.
 
-Most common ones are ILS and RNP-RNAV but depending on aircraft configuration others are available: [GLS](https://www.skybrary.aero/index.php/GBAS_Landing_System_(GLS)){target=new} , [MLS](https://en.wikipedia.org/wiki/Microwave_landing_system){target=new}.
+The most common ones are ILS and RNP-RNAV but depending on aircraft configuration others are available: [GLS](https://www.skybrary.aero/index.php/GBAS_Landing_System_(GLS)){target=new}, [MLS](https://en.wikipedia.org/wiki/Microwave_landing_system){target=new}.
 
-Main features of the approach information are deviation scales for horizontal and vertical path deviation.
+The main features of the approach information are deviation scales for horizontal and vertical path deviation.
 
 !!! info ""
-    Currently the FlyByWire A32NX is only capable of ILS approaches. RNP-RNAV will be available once the custom Flight Management System has LNAV and VNAV capabilities.
+    Currently, the FlyByWire A32NX is only capable of ILS approaches. RNP-RNAV will be available once the custom Flight Management System has LNAV and VNAV capabilities.
 
 ## ILS Deviation Scale
 
-This scale appears when the pilot presses the LS pushbutton on the EFIS panel. The index is the magenta diamond and is displayed when the glideslope and localiser signals are valid.
+This scale appears when the pilot presses the LS pushbutton on the EFIS panel. The index is the magenta diamond and is displayed when the glideslope and localizer signals are valid.
 
 If the deviation index is out of the displayed range, only half a diamond is displayed at the end of the scale.
 
-The localiser scale is a horizontal set of dots below the artificial horizon.
+The localizer scale is a horizontal set of dots below the artificial horizon.
 
 The glideslope scale is a vertical set of dots on the right side of the artificial horizon.
 
-The yellow line in the centre of the dots is where the aircraft is in relation to the glideslope or the localiser signal.
+The yellow line in the center of the dots is where the aircraft is in relation to the glideslope or the localizer signal.
 
-The localiser scale flashes and will continue to flash if the deviation exceeds 1/4 of a dot for two seconds (above 15 feet radio altitude). The glide scale flashes and continues to flash if the deviation exceeds one dot for two seconds (above 100 feet radio altitude).
+The localizer scale flashes and will continue to flash if the deviation exceeds 1/4 of a dot for two seconds (above 15 feet radio altitude). The glide scale flashes and continues to flash if the deviation exceeds one dot for two seconds (above 100 feet radio altitude).
 
 "LOC" and the glide scale half index symbols flash and continue to flash if the deviation exceeds two dots for two seconds.
 
-One dot represents ± 0.8 degrees of deviation on the localiser scale and ± 0.4 degrees on the glideslope scale.
+One dot represents ± 0.8 degrees of deviation on the localizer scale and ± 0.4 degrees on the glideslope scale.
 
 ### ILS Information
 
@@ -53,7 +53,7 @@ ILS information received from the ILS signal will be displayed in magenta to the
 
 This is displayed in magenta on the heading reference line and scale when the crew has selected an ILS frequency and course, and the LS button on the EFIS in on.
 
-It is a dagger shaped symbol and the course is displayed as a numerical value when outside of the heading scale.
+It is a dagger shaped symbol and the course is displayed as a numerical value when outside the heading scale.
 
 ### Marker Indications
 
@@ -67,23 +67,23 @@ Different audio sounds are played as the aircraft passes over each marker.
 
 ### ILS Message
 
-This appears to the right of the localiser deviation scale, and flashes amber when the approach mode is armed and the LS display is not selected.
+This appears to the right of the localizer deviation scale, and flashes amber when the approach mode is armed and the LS display is not selected.
 
 !!! info ""
     Currently not available for the FBW A32NX for Microsoft Flight Simulator
 
 ## Non Precision Approaches
 
-There is no localiser deviation scale.
+There is no localizer deviation scale.
 
 This appears when in the approach phase and when either FINAL is armed or engaged or a non ILS approach has been entered. They are displayed in the approach or go around flight phase, until the MDA has been reached, or the MAP or runway has been sequenced. They give the vertical deviation from the path set out by the FMGC.
 
-Each scale graduation represents 100 feet and the range is ± 200 feet. These are horizontal bars instead of dots.
+Each scale graduation represents 100 feet, and the range is ± 200 feet. These are horizontal bars instead of dots.
 
 Note that if the LS pushbutton is pressed, the glide deviation has priority over the vertical deviation information. As long as V/DEV display conditions are met, and the LS pushbutton is selected, an amber V/DEV message flashes above the glide scale.
 
 !!! info ""
-    Currently the FlyByWire A32NX is only capable of ILS approaches. RNP-RNAV will be available once the custom Flight Management System has LNAV and VNAV capabilities.
+    Currently, the FlyByWire A32NX is only capable of ILS approaches. RNP-RNAV will be available once the custom Flight Management System has LNAV and VNAV capabilities.
 
 ---
 [Back to Interactive PFD](index.md){ .md-button }

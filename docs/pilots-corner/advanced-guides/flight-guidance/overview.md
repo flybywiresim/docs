@@ -28,7 +28,7 @@ Two types of autopilot and flight director modes are available to guide the airc
 
 When the aircraft is using managed targets, the Flight Management and Guidance System (FMGS) guides it along lateral and vertical flight paths and speed profiles computed by the Flight Management function (FM) from data in the MCDU. FM manages the guidance targets.
 
-Managed Modes are activated when the corresponding knob on the FCU is pushed in provided that the aircraft meets the necessary engagement conditions. E.g. Managed Heading (NAV) requires a valid flight plan defined in the MCDU.
+Managed Modes are activated when the corresponding knob on the FCU is pushed in, provided that the aircraft meets the necessary engagement conditions. E.g. Managed Heading (NAV) requires a valid flight plan defined in the MCDU.
 
 ### Selected modes
 
@@ -38,9 +38,7 @@ Selected Modes are activated by pulling the corresponding knob in the FCU.
 
 ### Pulling and Pushing Knobs in Microsoft Flight Simulator
 
-Using the legacy [Cockpit Interaction System](../../../fbw-a32nx/settings.md#legacy-cockpit-interaction-system) you can push and pull 
-knobs on the FCU 
-like this:
+Using the legacy [Cockpit Interaction System](../../../fbw-a32nx/settings.md#legacy-cockpit-interaction-system), you can push and pull knobs on the FCU like this:
 
 ![Pulling-knob](../../assets/advanced-guides/flight/pulling-knob.png){loading=lazy width=30%}
 

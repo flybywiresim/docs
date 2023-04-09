@@ -18,11 +18,11 @@
 
 ## Description
 
-This vertical speed indicator is on the right side of the altitude indicator. The information is based on the inertial and barometric data. If the inertial data is not available, it is automatically replaced by barometric information.
+This vertical speed indicator is on the right side of the altitude indicator. The information is based on the inertial and barometric data. If the inertial data is not available, barometric information automatically replaces it.
 
 ### Analog Pointer
 
-This is a green line that extends upwards or downwards (depending on the rate of change) from the middle of the vertical speed indicator. If it is horizontal, the vertical speed is 0. It will point towards a white scale displayed on a grey background. This scale is at intervals of 500 feet per minute.
+This is a green line that extends upwards or downwards (depending on the rate of change) from the middle of the vertical speed indicator. If it is horizontal, the vertical speed is 0. It will point towards a white scale displayed on a gray background. This scale is at intervals of 500 feet per minute.
 
 If the vertical speed is greater than 6000 feet per minute, the pointer stays at the end of the scale.
 

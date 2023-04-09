@@ -31,7 +31,7 @@
 
 These types of annunciators are displayed on both columns two and three.
 
-Special Message annunciators displays three types of messages (in the order of priority):
+Special Message annunciators display three types of messages (in the order of priority):
 
 - Flight controls messages
 - Vertical flight management messages
@@ -60,7 +60,7 @@ Displayed in white when the aircraft is in cruise at less than 100 nautical mile
 
 ### SET MANAGED SPD
 
-Displayed in white when the speed target is selected but a preselected speed does not exist for the next flight phase.
+Displayed in white when the speed target is selected, but a preselected speed does not exist for the next flight phase.
 
 ### SET GREEN DOT SPD
 
@@ -88,7 +88,7 @@ Displayed in white if the thrust is not reduced when the aircraft is passing the
 Displayed in white when descent mode is engaged, idle is selected, and:
 
 - Either the aircraft is above the vertical profile and the predicted intercept point of the profile is at less than 2 nautical miles away from the next altitude constraint or
-- In auto speed control and the aircraft enters a speedbrake decelerating segment.
+- In auto-speed control and the aircraft enters a speedbrake decelerating segment.
 
 !!! info ""
     Currently not available for the FBW A32NX for Microsoft Flight Simulator
@@ -97,7 +97,7 @@ Displayed in white when descent mode is engaged, idle is selected, and:
 
 Displayed in amber text. Displays when descent mode is engaged and:
 
-- A vertical path too steep exists on the next leg .
+- A vertical path too steep exists on the next leg.
 - The aircraft is less than 30 seconds from a path that is too steep.
 
 !!! info ""

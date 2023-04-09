@@ -1,20 +1,19 @@
 # Holds
 
-Holding patterns, as they are officially known, can be used as a delaying tactic for airborne aircraft, for course reversal, and for gaining altitude prior to crossing terrain in some procedures. Typically holding patterns have a racetrack pattern that can easily be spotted on flight trackers. All holds are made up of segments. The segments are shown in the figure below. 
+Holding patterns, as they are officially known, can be used as a delaying tactic for airborne aircraft, for course reversal, and for gaining altitude before crossing terrain in some procedures. Typically, holding patterns have a racetrack pattern that can easily be spotted on flight trackers. All holds are made up of segments. The segments are shown in the figure below. 
 
 ![DEFINITIONS](../../assets/advanced-guides/holds/Holddefinitions.png){loading=lazy}
 
 ## Why Hold?
-Holds are always used to delay aircraft near a navigational fix in certain airspace. There are a lot of reasons why 
-airplanes might need to hold. Common examples would be:
+Holds are always used to delay aircraft near a navigational fix in certain airspace. There are many reasons why airplanes might need to hold. Common examples would be:
 
 - Bad weather passing over the airport
 - Traffic
 - To gain or lose energy in the plane (altitude or speed)
 - To burn off fuel
-- To reverse the course of the aircraft prior to entering a final approach
+- To reverse the course of the aircraft before entering a final approach
 
-Sometimes holds are used because of topographical constraints. Innsbruck-Kranebitten International Airport (LOWI) is an excellent example of such a constraint because it is situated in a valley, as seen in the picture below.
+Holds are sometimes used because of topographical constraints. Innsbruck-Kranebitten International Airport (LOWI) is an excellent example of such a constraint because it is situated in a valley, as seen in the picture below.
 
 ![LOWI](../../assets/advanced-guides/holds/LOWI.png){loading=lazy}
 
@@ -26,7 +25,7 @@ Aircraft can technically hold at any waypoint if given permission by or requeste
 
 Waypoints with published holds can be spotted by a racetrack pattern, or holds can be published and displayed in a diagram in one of the corners of the main navigation section on the chart. 
 
-Now that you know where to hold, you should learn how to program the hold. Next, you will need to find information on the chart to enter into the FMS. The primary information you need to have are:
+Now that you know where to hold, you should learn how to program the hold. Next, you will need to find information on the chart to enter into the FMS. The primary information you need to have is:
 
 1. Name of the fix/waypoint
 2. Inbound course
@@ -35,7 +34,7 @@ Now that you know where to hold, you should learn how to program the hold. Next,
 5. Maximum airspeed (see Standards below)
 
 !!! tip "Standards"
-    There are standards for length of legs and airspeed that must be respected if no other information is present on the chart. The standards are published in [Hold Standards](#hold-standards).
+    There are standards for length of legs, and airspeed that must be respected if no other information is present on the chart. The standards are published in [Hold Standards](#hold-standards).
  
  The inbound course/heading or the reciprocal of the hold is always depicted on the chart.
 
@@ -105,7 +104,7 @@ Now that you know where to hold, you should learn how to program the hold. Next,
     
     === "5"
 
-        >**_NOTE:_**  Holds at BOTON and PANZE have a minimum hold altitude dictated by the minimum flight altitude of 6000FT of the earlier and following legs. 
+        >**_NOTE:_**  Holds at BOTON and PANZE have a minimum hold altitude dictated by the minimum flight altitude of 6000ft of the earlier and following legs. 
 
         ![HOLD5](../../assets/advanced-guides/holds/HOLD5.png){loading=lazy}
 
@@ -221,8 +220,7 @@ The ICAO speed limits are as follows:
 The default turn direction for a computed hold is **right**, in-line with ICAO specifications. 
 
 ## Programming Holds 
-Now that all information about the hold is known, it is time to create a hold in the FMS via the MCDU. A  
-step-by-step guide to hold at SKENS is provided below.
+Now that all information about the hold is known, it is time to create a hold in the FMS via the MCDU. A step-by-step guide to hold at SKENS is provided below.
 
 ![HOLD6](../../assets/advanced-guides/holds/HOLD6.png){loading=lazy}
 
@@ -240,7 +238,7 @@ step-by-step guide to hold at SKENS is provided below.
 
         ![MCDU](../../assets/advanced-guides/holds/MCDU-hold-2.png){loading=lazy}
 
-        In this page, select the 3rd LSK to enter the hold section for the SKENS waypoint.
+        On this page, select the 3rd LSK to enter the hold section for the SKENS waypoint.
 
     === "3"
 
@@ -261,10 +259,10 @@ step-by-step guide to hold at SKENS is provided below.
 
         ![MCDU](../../assets/advanced-guides/holds/MCDU-hold-5.png){loading=lazy}
 
-        As can be seen in the chart, the hold has a leg length of 10NM. To enter this in the FMS type `/10` in the MCDU and select LSK3 to feed it in the TIME/DIST box. 
+        As can be seen in the chart, the hold has a leg length of 10NM. To enter this in the FMS, type `/10` in the MCDU and select LSK3 to feed it in the TIME/DIST box. 
         The time needed to complete the leg is also re-calculated and is 3.3 minutes in this case. 
 
-        If leg distance is constrained by time (as it is for a standard hold), this can be set by typing for example `1.5` in the MCDU and feeding it in the TIME/DIST box. Also, the leg distance will automatically be re-calculated.
+        If leg distance is constrained by time (as it is for a standard hold), this can be set by typing, for example, `1.5` in the MCDU and feeding it in the TIME/DIST box. Also, the leg distance will automatically be re-calculated.
 
         ![HOLD6](../../assets/advanced-guides/holds/HOLD6.png){loading=lazy}
 
@@ -274,7 +272,7 @@ step-by-step guide to hold at SKENS is provided below.
 
         ![MCDU](../../assets/advanced-guides/holds/MCDU-hold-5.png){loading=lazy}
 
-        In the bottom section of the MCDU screen, 'LAST EXIT' can be found. The section compromises a UTC and FUEL reading. Last exit gives information on how long the airplane can safely stay in the hold while still having the fuel for the rest of the approach, to go around, divert and the final reserve fuel. The UTC and FUEL will give you the time and minimum fuel needed when leaving the hold. 
+        In the bottom section of the MCDU screen, 'LAST EXIT' can be found. The section compromises a UTC and FUEL reading. Last exit provides information on how long the airplane can safely stay in the hold while still having the fuel for the rest of the approach, to go around, divert and the final reserve fuel. The UTC and FUEL will give you the time and minimum fuel needed when leaving the hold. 
 
     === "6"
 
@@ -295,7 +293,7 @@ step-by-step guide to hold at SKENS is provided below.
     === "8"
         ![MCDU](../../assets/advanced-guides/holds/MCDU-hold-9.png){loading=lazy}
 
-        The FMS calculates the holding speed in accordance with [Hold Standards](#hold-standards) to acheive the lowest possible fuel consumption, except in approach phase where the "characteristic" speed for the current configuration is used. A deceleration point is calculated giving enough distance before the hold fix to slow down to the holding speed. From this point IMM EXIT becomes available on the F-PLN page, and pressing it prior to actually reaching the hold fix will cause deletion of the hold. If speed is managed the deceleration will begin automatically; if speed is selected a SET HOLD SPEED prompt will appear, prompting the pilot to set their desired holding speed, or to engage managed speed.
+        The FMS calculates the holding speed in accordance with [Hold Standards](#hold-standards) to achieve the lowest possible fuel consumption, except in the approach phase where the "characteristic" speed for the current configuration is used. A deceleration point is calculated, giving enough distance before the hold fix to slow down to the holding speed. From this point, IMM EXIT becomes available on the F-PLN page, and pressing it prior to actually reaching the hold fix will cause deletion of the hold. If speed is managed, the deceleration will begin automatically; if speed is selected, a SET HOLD SPEED prompt will appear, prompting the pilot to set their desired holding speed, or to engage managed speed.
 
         Also, the F-PLN page on the MCDU will continue to show IMM EXIT*. This is needed when [leaving the hold](#leaving-the-hold).
 
@@ -306,12 +304,7 @@ The TCAS system should remain on TA/RA when flying in the hold. However, it migh
 
 ### Leaving the Hold
 
-The plane will continue to fly in the hold until a pilot gives the command to the FMS to leave by either activating 
-a direct to (DIR TO), or pressing the IMM EXIT prompt on the F-PLN page. During the hold, and prior to the hold 
-after crossing the deceleration point, the F-PLN page will display IMM EXIT prompt in amber. The pilot may press the 
-right LSK next to IMM EXIT to leave the hold. The aircraft will shorten the hold as much as possible, fly around 
-until reaching the hold fix, and then exit, continuing with the subsequent flight plan. At any time prior to 
-reaching the hold fix the RESUME HOLD prompt may be used to re-enable the hold.
+The plane will continue to fly in the hold until a pilot gives the command to the FMS to leave by either activating a direct to (DIR TO), or pressing the IMM EXIT prompt on the F-PLN page. During the hold, and prior to the hold after crossing the deceleration point, the F-PLN page will display IMM EXIT prompt in amber. The pilot may press the right LSK next to IMM EXIT to leave the hold. The aircraft will shorten the hold as much as possible, fly around until reaching the hold fix, and then exit, continuing with the subsequent flight plan. At any time prior to reaching the hold fix, the RESUME HOLD prompt may be used to re-enable the hold.
 
 ![Hold Modes](../../assets/advanced-guides/holds/MCDU-hold-14.png){loading=lazy}
 

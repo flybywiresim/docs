@@ -5,10 +5,10 @@ This guide will explain the correct procedures after we have landed and vacated 
 !!! warning "Disclaimer"
     The level of detail in this guide is meant to get a FlyByWire A320neo beginner from the runway to the designated destination gate.
 
-    A *beginner* is defined as someone familiar with flying a GA aircraft or different types of airliners. Aviation terminology and know-how is a requirement to fly any airliner even in Microsoft Flight Simulator.
+    A *beginner* is defined as someone familiar with flying a GA aircraft or different types of airliners. Aviation terminology and know-how is a requirement to fly any airliner, even in Microsoft Flight Simulator.
 
     Further reading: [A320 Autoflight](https://www.smartcockpit.com/aircraft-ressources/A319-320-321-Autoflight.html)<br/>
-    Also you will find many great videos on YouTube on how to fly the FlyByWire A32NX.<br/>
+    Also, you will find many great videos on YouTube on how to fly the FlyByWire A32NX.<br/>
     Check out the FlyByWire YouTube Channel as well: [FlyByWire on YouTube](https://www.youtube.com/c/FlyByWireSimulations/playlists)
 
 ---
@@ -39,11 +39,11 @@ This guide will cover these phases:
 - ATC has been informed that we vacated the runway.
 
 !!!info "Simulation vs. Real Life"
-    In real life the A320 will have two pilots who can actually do things in parallel. Talking to ATC, taxiing the aircraft and do the after landing tasks.
+    In real life, the A320 will have two pilots who can actually do things in parallel. Talking to ATC, taxiing the aircraft and doing the after landing tasks.
 
-    In the simulation we are typically alone so it is absolutely ok to stop once we have fully vacated the runway and do these things one after the other.
+    In the simulation we are typically alone, so it is perfectly fine to stop once we have fully vacated the runway and do these things one after the other.
 
-ATC Tower will usually hand us off to ATC Ground and they will give us taxi instructions for our destination gate. Write them down and read them back as usual but you don't have to move immediately unless ATC explicitly tells you to. Online ATC understand that the after-landing- tasks do take some time.
+ATC Tower will usually hand us off to ATC Ground, and they will give us taxi instructions for our destination gate. Write them down and read them back as usual, but you don't have to move immediately unless ATC explicitly tells you to. Online ATC understand that the after-landing- tasks do take some time.
 
 **Immediate steps after vacating the runway:**
 
@@ -73,7 +73,7 @@ ATC Tower will usually hand us off to ATC Ground and they will give us taxi inst
 
     ![WX and PWS off](../assets/beginner-guide/after-landing/radar-pws-off.png "WX and PWS off"){loading=lazy }
 
-- Start your `APU` by clicking the `APU MASTER SW` button then the `APU START` button.
+- Start your `APU` by clicking the `APU MASTER SW` button, then the `APU START` button.
 
     ![APU Start](../assets/beginner-guide/starting-aircraft/APU-Start.png "APU Start"){loading=lazy }
 
@@ -82,7 +82,7 @@ ATC Tower will usually hand us off to ATC Ground and they will give us taxi inst
 - Set your exterior lights:
     - Set your `NOSE` light to TAXI.
     - Set `RWY TURN OFF` light to ON.
-    - Set your `STROBE` lights to AUTO/OFF (If you are crossing runway keep them ON until you vacate the runway).
+    - Set your `STROBE` lights to AUTO/OFF (If you are crossing a runway, keep them ON until you vacate the runway).
     - For `LAND` lights, you can choose to retract them or turn them off.
 
         ![After landing lights](../assets/beginner-guide/after-landing/taxi-lights-on.png "After landing lights"){loading=lazy }
@@ -125,7 +125,7 @@ When approved to cross a runway (active or not) perform the following actions:
 
 **Turning into the Gate**
 
- When turning into the gate turn off your `NOSE` light and your `RWY TURN OFF` lights to not blind the ground personnel. This of course is only done at this point if enough lighting is available to safely park into the gate.
+ When turning into the gate, turn off your `NOSE` light and your `RWY TURN OFF` lights to not blind the ground personnel. This, of course, is only done at this point if enough lighting is available to safely park into the gate.
 
 ![Taxi lights off](../assets/beginner-guide/after-landing/taxi-lights-off.png "Lights_Taxi_off.png"){loading=lazy }
 

@@ -20,14 +20,14 @@ Headphone output to monitor the Cockpit Voice Recorder for testing.
 The maintenance crew uses this pushbutton to reset the control circuit, after the system is already in operation.
 
 - ON: The PASSENGER SYS ON light goes off.
-- FAULT: when the door latch solenoids are energized for more than 30s this light comes on in white.
+- FAULT: when the door latch solenoids are energized for more than 30s, this light comes on in white.
 
 !!! info ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### SVCE INT OVRD
 
-- Auto: Ground personnel can communicate with the flight crew by means of the service interphone jacks 10s after the aircraft has landed. The landing gear must be compressed.
+- Auto: Ground personnel can communicate with the flight crew through the service interphone jacks 10s after the aircraft has landed. The landing gear must be compressed.
 - ON: Communication is possible when the landing gear is not compressed. The ON light is white.
 
 !!! info ""
@@ -44,7 +44,7 @@ The maintenance crew uses this pushbutton to reset the control circuit, after th
 ### BLUE PUMP OVRD (guarded)
 
 - ON: The blue electric pump is on if the ELEC PUMP pushbutton switch on the HYD panel is on AUTO.
-- OFF: The blue electric pump is controlled by the the automatic logic.
+- OFF: The blue electric pump is controlled by the automatic logic.
 
 ### HYD LEAK MEASUREMENT VALVES (guarded)
 
@@ -58,7 +58,7 @@ The maintenance crew uses this pushbutton to reset the control circuit, after th
 
 - TEST PB-SW: When pressed, tests the following APU circuits:
     - Fire warning
-    - Auto extinguishing
+    - Auto-extinguishing
     - Shutdown
 
     During the test sequence, the APU MASTER sw must be ON.
@@ -74,7 +74,7 @@ The maintenance crew uses this pushbutton to reset the control circuit, after th
 ### ENG FADEC GND PWR
 
 - OFF: The electrical network of the aircraft or the FADEC alternator automatically supplies the FADEC.
-- ON: On ground, when pressed the electrical network of the aircraft supplies the FADEC when:
+- ON: On the ground, when pressed, the electrical network of the aircraft supplies the FADEC when:
     - The ENG FIRE pb-sw is not pressed,
     - The FADEC alternator does not supply the FADEC.
 

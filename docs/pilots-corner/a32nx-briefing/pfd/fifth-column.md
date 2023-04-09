@@ -29,7 +29,7 @@
 
 ## Description
 
-This column displays the autotthrust modes that are armed or active, as well as any requested pilot actions.
+This column displays the autothrust modes that are armed or active, as well as any requested pilot actions.
 
 ---
 
@@ -41,11 +41,11 @@ This column displays the autotthrust modes that are armed or active, as well as 
 
 ### FD
 
-- 1FD-: Flight Director One is active (Captain's Side).
-- -FD2: Flight Director Two is active (FO's Side).
+- 1FD-: Flight Director One is active (Captain's side).
+- -FD2: Flight Director Two is active (FO's side).
 - 1FD2: Both Flight Directors are active.
-- 1FD1: Flight Director Two has failed but both Flight Directors are selected on.
-- 2FD2 : Flight Director One has failed but both flight directors are selected on.
+- 1FD1: Flight Director Two has failed, but both Flight Directors are selected on.
+- 2FD2 : Flight Director One has failed, but both flight directors are selected on.
 
 ### A/THR
 
@@ -60,7 +60,7 @@ Autothrust is armed by:
 When A/THR is displayed in white, autothrust is Active. This means that thrust will be controlled by the FADEC.
 
 !!! note ""
-    In Airbus autothrust systems the thrust levers do not moveby themselves. This is different from autothrottle systems in other aircraft vendors (e.g. Boeing).
+    In Airbus autothrust systems, the thrust levers do not move by themselves. This is different from autothrottle systems in other aircraft vendors (e.g., Boeing).
 
 Autothrust is engaged by:
 

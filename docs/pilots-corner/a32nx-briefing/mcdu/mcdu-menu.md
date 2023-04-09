@@ -4,8 +4,7 @@
 
 ## Description
 
-This page lists the various systems which are accessible via the MCDU. The system automatically
-displays this page at power up.
+This page lists the various systems which are accessible via the MCDU. The system automatically displays this page at power up.
 
 ## Usage
 
@@ -22,9 +21,7 @@ displays this page at power up.
     - ATC MENU
         - Brings up the ATC COMM page.
     - AOC MENU
-        - The FMS AOC function gives an interface between a ground station and one onboard FMGC,
-          allowing data transmission between these two computers via the ACARS Management Unit or the
-          ATSU. 
+        - The FMS AOC function gives an interface between a ground station and one onboard FMGC, allowing data transmission between these two computers via the ACARS Management Unit or the ATSU. 
         - See below for details on this page [AOC MENU Page](#aoc-menu-page)
     - DATALINK STATUS
         - Shows the DATALINK STATUS page with information about the state of the various data link options.   
@@ -44,9 +41,7 @@ displays this page at power up.
         Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 - NAV B/UP (1R)
-    - The MCDU NAV B/UP allows to link a MCDU to its associated IRS in order to allow the flight crew to
-      monitor the navigation and to be provided with some basic flight planning functions in case of FM 1 +
-      2 failure.
+    - The MCDU NAV B/UP allows to link a MCDU to its associated IRS in order to allow the flight crew to monitor the navigation and to be provided with some basic flight planning functions in case of FM 1 + 2 failure.
     
     !!! info ""
         Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
@@ -86,8 +81,7 @@ Press `INIT DATA REQ*` to start the SimBrief import.
 
 Also see [SimBrief Integration](../../../fbw-a32nx/feature-guides/simbrief.md) for more details.
 
-The rest of these two pages is for reviewing the imported data. The second page also gives some information about 
-various times for events like doors closed, take-off, etc. Some of these are only available after the flight. 
+The rest of these two pages is for reviewing the imported data. The second page also provides some information about various times for events like doors closed, takeoff, etc. Some of these are only available after the flight. 
 
 ### WX REQUEST Page
 

@@ -37,4 +37,4 @@ but are omitted in this briefing.
 ---
 
 !!! note "Work in Progress"
-    This is work in progress and we will add more chapters over time.
+    This is a work in progress, and we will add more chapters over time.

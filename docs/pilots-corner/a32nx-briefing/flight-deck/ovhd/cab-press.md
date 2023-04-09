@@ -6,7 +6,7 @@
 
 ---
 
-![Cabin Presurization Panel](../../../assets/a32nx-briefing/overhead-panel/Cabin-Press-Panel.jpg "Cabin Presurization Panel")
+![Cabin Pressurization Panel](../../../assets/a32nx-briefing/overhead-panel/Cabin-Press-Panel.jpg "Cabin Pressurization Panel")
 
 ## Description
 
@@ -21,11 +21,11 @@ On Ground (GN), before takeoff, and 55 seconds after landing, the outflow valve 
 
 At Takeoff (TO) the system avoids a pressure surge at rotation, by pre-pressurization of the aircraft at a rate of 400 feet/minute, until the &#916;P reaches 0.1 PSI. At lift-off, the controller initiates the climb phase.
 
-During Climb (CL), the cabin altitude increases according to fixed pre-programmed method accounting for the aircraft's actual rate of climb.
+During Climb (CL), the cabin altitude increases according to a fixed pre-programmed method accounting for the aircraft's actual rate of climb.
 
 In Cruise (CR), the system maintains cabin altitude at the level-off value, or at the landing field elevation, whichever is higher.
 
-While in Descent (DE), the systems controls the pressure rate of descent, such that cabin pressure equals the landing field pressure, just before landing. The maximum descent rate is 750 feet/minute.
+While in Descent (DE), the systems control the pressure rate of descent, such that cabin pressure equals the landing field pressure, just before landing. The maximum descent rate is 750 feet/minute.
 
 During a take-Off Abort (AB) the system prevents the cabin altitude from climbing. Cabin pressure is set back to the takeoff altitude + 0.1 PSI.
 
@@ -48,7 +48,7 @@ During a take-Off Abort (AB) the system prevents the cabin altitude from climbin
 - MAN:
     - Appears in white, and FAULT does not come on. Manual control of pressurization is done using the MAN V/S CTL switch.
 - FAULT:
-    - Appears in amber and the ECAM caution light comes on, when both automatic systems are faulty.
+    - Appears in amber and the ECAM caution light comes on when both automatic systems are faulty.
 
 ### MAN V/S CTL
 

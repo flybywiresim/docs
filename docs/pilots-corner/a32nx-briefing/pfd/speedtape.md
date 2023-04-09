@@ -23,13 +23,13 @@ See also: [V-Speeds](../../abbreviations.md#v-speeds)
 
 ### Actual Airspeed Reference Line and Scale
 
-A white scale on a grey background moves in front of a fixed yellow reference line next to a yellow triangle to show airspeed. The minimum airspeed indication is 30 knots.
+A white scale on a gray background moves in front of a fixed yellow reference line next to a yellow triangle to show airspeed. The minimum airspeed indication is 30 knots.
 
 ### Speed trend
 
-This is shown in yellow and starts at the speed symbol. It is an arrow that extends upwards or downwards from the speed symbol depending on the trend of the aircraft's speed (whether accelerating or decelerating).
+This is shown in yellow and starts at the speed symbol. It is an arrow that extends upwards or downwards from the speed symbol, depending on the trend of the aircraft's speed (whether accelerating or decelerating).
 
-The tip shows the speed the aircraft will reach in 10 seconds if the rate of change remains constant. The pointer will only appear when it is greater than 2 knots and disappears when it is 1 knot.
+The tip shows the speed the aircraft will reach in 10 seconds if the rate of change remains constant. The pointer will only appear when it exceeds 2 knots and disappears when it is 1 knot.
 
 It will also disappear if the FACs fail.
 
@@ -53,13 +53,11 @@ This speed is V~MO~ (maximum operating speed) + 6 knots or M~MO~ (maximum Mach s
 
 ### ECON Speed Range
 
-This appears in descent mode with ECON/AUTO SPD mode active. Two magenta half triangles will represent the upper and 
-lower limits calculated by the FMGC. This replaces the target speed symbol.
+This appears in descent mode with ECON/AUTO SPD mode active. Two magenta half triangles will represent the upper and lower limits calculated by the FMGC. This replaces the target speed symbol.
 
-The upper speed is equal to the target speed + 20 knots, limited to V~MAX~, V~MO~ - 3 knots or M~MO~ - 0.006, 
-whichever is the lowest.
+The upper speed is equal to the target speed + 20 knots, limited to V~MAX~, V~MO~ - 3 knots or M~MO~ - 0.006, whichever is the lowest.
 
-If a speed constraint or limit applies then the upper margin is limited to ECON SPD + 5kts.
+If a speed constraint or limit applies, then the upper margin is limited to ECON SPD + 5kts.
 
 The lower speed margin is the target speed - 20 knots. It is limited to green dot, F, S or V~LS~ speeds, whichever is higher.
 
@@ -114,11 +112,11 @@ This is a magenta triangle on the right side of the speedtape. It displays the V
 V~2~+10 provides better climb performance (before acceleration altitude and during noise abatement program departures).
 
 !!! info "Engine Loss V~2~ Speeds"
-    After takeoff **V~2~+10** is the targeted speed you should reach and maintain by the time you attain a height of 35 FT after takeoff until reaching the acceleration altitude.
+    After takeoff, **V~2~+10** is the targeted speed you should reach and maintain by the time you attain a height of 35 FT after takeoff until reaching the acceleration altitude.
 
-    When an engine failure occurs (shortly before or after takeoff), V~2~ is the minimum allowable speed. Pilots should aim to meet the criteria below at point of engine loss:
+    When an engine failure occurs (shortly before or after takeoff), V~2~ is the minimum allowable speed. Pilots should aim to meet the criteria below at the point of engine loss:
 
-    - In a situation where engine is lost before reaching V~2~ the targeted speed is V~2~.
+    - In a situation where the engine is lost before reaching V~2~ the targeted speed is V~2~.
     - If the aircraft speed is higher than V~2~ then pilots should maintain the higher speed but not exceed V~2~+15.
 
 ---

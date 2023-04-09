@@ -6,7 +6,7 @@ It is important to understand these flight phases as they have an impact on plan
 
 ![FLight Phases](../assets/advanced-guides/flight-phases/flight-phases.png "FLight Phases")
 
-The most prominent place where these phases become visible are the MCDU PERF pages where all phases, apart from PREFLIGHT and DONE, have their own page.
+The most prominent place, where these phases become visible are the MCDU PERF pages where all phases, apart from PREFLIGHT and DONE, have their own page.
 
 ## PREFLIGHT Phase
 
@@ -20,7 +20,7 @@ The TAKEOFF phase starts when applying take off thrust (FLX or TOGA) and extends
 
 Autopilot can be engaged at 100ft above ground or 5 seconds after takeoff, whichever is later.
 
-At thrust reduction altitude the thrust levers are normally set in the climb thrust detent (CL detent). The FMGC is in managed mode at this point guiding the aircraft vertically and laterally along the flight plan.
+At thrust reduction altitude, the thrust levers are normally set in the climb thrust detent (CL detent). The FMGC is in managed mode at this point, guiding the aircraft vertically and laterally along the flight plan.
 
 ## CLIMB Phase
 
@@ -34,16 +34,15 @@ When all managed modes have been selected and confirmed, the FMS gives speed, al
 
 ## CRUISE Phase
 
-The CRUISE phase extends from the top of climb (ToC) point to
-the top of descent (ToD) point.
+The CRUISE phase extends from the top of climb (ToC) point to the top of descent (ToD) point.
 
-It may also includes intermediate climbs as well as en route descents. At anytime, the pilot can define a step climb to determine the cost and time savings of flying at a different flight level. Step climbs and descents are entered on the MCDU STEP ALTS page which is accessed from a VERT REV page or from the MCDU F-PLN page A.
+It may also include intermediate climbs as well as en route descents. At anytime, the pilot can define a step climb to determine the cost and time savings of flying at a different flight level. Step climbs and descents are entered on the MCDU STEP ALTS page, which is accessed from a VERT REV page or from the MCDU F-PLN page A.
 
 The FMS transitions to the descent phase when a subsequent descent is initiated within 200 NM of the destination and no preplanned step descent exists in front of the aircraft.
 
 ## DESCENT Phase
 
-The DESCENT phase starts at the top--of--descent point (which is less than 200 NM from destination) by pushing the ALT knob for a managed descent or pulling the ALT knob for an open or selected descent from the cruise altitude.
+The DESCENT phase starts at the top--of--descent point (which is less than 200 NM from the destination) by pushing the ALT knob for a managed descent or pulling the ALT knob for an open or selected descent from the cruise altitude.
 
 The pilot is required to confirm and initiate all descents from cruise altitude by pushing or pulling the ALT knob on the FCU. The managed descent does not occur until the pilot initiates the descent following clearance from ATC.
 
@@ -61,5 +60,4 @@ To return to the APPROACH flight phase, activate and confirm the APPROACH phase 
 
 The DONE phase is activated after the aircraft has been on the ground for at least 30 seconds and all engines are shut down.
 
-During the done phase, the FMS clears the active flight plan in
-preparation for reinitialization.
+During the done phase, the FMS clears the active flight plan in preparation for reinitialization.

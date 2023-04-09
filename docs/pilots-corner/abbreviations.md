@@ -17,12 +17,12 @@
 | V~LO~         | Maximum gear operating speed, which means the max speed for the gear being down.                                                                                                                                                                                      |
 | V~LOF~        | Lift-off Speed                                                                                                                                                                                                                                                        |
 | V~LS~         | Lowest Selectable Speed                                                                                                                                                                                                                                               |
-| V~MAX~        | Airbus for the maximum speed for the current configuration, represented by black and red strip at the top of the airspeed indication.                                                                                                                                 |
+| V~MAX~        | Airbus for the maximum speed for the current configuration, represented by a black and red strip at the top of the airspeed indication.                                                                                                                               |
 | V~MCA~        | Minimum speed in the air that if one engine fails and the other is at TO thrust, you can still control the aircraft with the primary flight controls up to a bank of 5 degrees.                                                                                       |
 | V~MCG~        | Minimum speed on the ground that if one engine fails and the other is at TO thrust, you can still control the aircraft with the primary flight controls.                                                                                                              |
 | V~MO~ / M~MO~ | Maximum operating speed, also has M~MO~ for maximum Mach number.                                                                                                                                                                                                      |
 | V~R~          | Rotate speed. The speed at which the pilot pulls back on the stick to pitch the airplane to the takeoff attitude.                                                                                                                                                     |
-| V~REF~        | Reference speed for a normal approach at the 50 foot height.                                                                                                                                                                                                          |
+| V~REF~        | Reference speed for a normal approach at the 50-foot height.                                                                                                                                                                                                          |
 | V~S~          | Stalling Speed at which Airplane is Controllable                                                                                                                                                                                                                      |
 | V~S1~         | Stalling Speed or Minimum Steady Flight Speed obtained in a specified Configuration                                                                                                                                                                                   |
 | V~SO~         | Stalling Speed or Minimum Steady Flight Speed in the Landing configuration                                                                                                                                                                                            |
@@ -36,8 +36,8 @@
 
 | V-Speed | Term                                                                                                                                  |
 |:--------|:--------------------------------------------------------------------------------------------------------------------------------------|
-| F       | Minimum speed at which the flaps may be retracted at takeoff (i.e., CONF 2/3). Also the minimum speed in approach when in CONF 2 or 3 |
-| S       | Minimum speed at which the slats may be retracted at takeoff. Also the minimum speed in approach when in CONF 1.                      |
+| F       | Minimum speed at which the flaps may be retracted at takeoff (i.e., CONF 2/3). Also, the minimum speed in approach when in CONF 2 or 3 |
+| S       | Minimum speed at which the slats may be retracted at takeoff. Also, the minimum speed in approach when in CONF 1.                      |
 | O or GD | Green dot speed, engine-out operating speed with flaps up, best lift-to-drag ratio speed, also corresponds to final takeoff speed.    |
 
 
@@ -130,7 +130,7 @@
 | ADCN           | Avionics Data Communication Network                    |
 | ADD            | Addition, Additional                                   |
 | ADF            | Automatic Direction Finder                             |
-| ADG            | Air Driven Generator                                   |
+| ADG            | Air-Driven Generator                                   |
 | ADI            | Attitude Director Indicator                            |
 | ADIRS          | Air Data/Inertial Reference System                     |
 | ADIRU          | Air Data/Inertial Reference Unit                       |
@@ -219,7 +219,7 @@
 | ARND           | Around                                                 |
 | ARPT           | Airport                                                |
 | ARR            | Arrival, Arriving                                      |
-| ARV            | Alterate Refill Valve                                  |
+| ARV            | Alternate Refill Valve                                 |
 | AS             | Airspeed                                               |
 | ASD            | Accelerate-Stop Distance                               |
 | ASI            | Airspeed Indicator                                     |
@@ -295,7 +295,7 @@
 | C              | Celsius, Centigrade                                    |
 | C              | Cyan                                                   |
 | C/B            | Circuit Breaker                                        |
-| C/L            | Check List                                             |
+| C/L            | CheckList                                              |
 | C/M            | Crew Member                                            |
 | C/O            | Change Over                                            |
 | C/S            | Call Sign                                              |
@@ -335,7 +335,7 @@
 | CK             | Check                                                  |
 | CKD            | Checked                                                |
 | CKPT           | Cockpit                                                |
-| CL             | Check List                                             |
+| CL             | CheckList                                              |
 | CL             | Climb                                                  |
 | CLB            | Climb                                                  |
 | CLD            | Closed                                                 |
@@ -515,7 +515,7 @@
 | ETD            | Estimated Time of Departure                            |
 | ETE            | Estimated Time En Route                                |
 | ETO            | Estimated Time Over                                    |
-| ETOPS          | Extended Range Twin Engined Aircraft Operations        |
+| ETOPS          | Extended Range Twin-Engined Aircraft Operations        |
 | ETP            | Equal Time Point                                       |
 | ETRAC          | Electronic Thrust Reverser Actuation Controller        |
 | ETRAS          | Electronic Thrust Reverser Actuation System            |
@@ -658,7 +658,7 @@
 | HLD            | Hold                                                   |
 | HOLD           | Holding                                                |
 | HP             | High Pressure                                          |
-| HPA            | High Power Amplifier                                   |
+| HPA            | High-Power Amplifier                                   |
 | HR             | Hour                                                   |
 | HRS            | Hours                                                  |
 | HSI            | Horizontal Situation Indicator                         |
@@ -667,7 +667,7 @@
 | HV             | High Voltage                                           |
 | HYD            | Hydraulic                                              |
 | HZ             | Hertz                                                  |
-| Hpa            | Hecto Pascal                                           |
+| Hpa            | HectoPascal                                            |
 | I/P            | Intercept Point                                        |
 | IAF            | Initial Approach Fix                                   |
 | IAS            | Indicated Airspeed                                     |
@@ -707,7 +707,7 @@
 | IRS            | Inertial Reference System                              |
 | IRU            | Inertial Reference Unit                                |
 | ISA            | Inertial Sensor Assembly                               |
-| ISO            | International Standardization Organisation             |
+| ISO            | International Standardization Organization             |
 | ISOL           | Isolation                                              |
 | IV             | Isolation Valve                                        |
 | JAM            | Jammed, Jamming                                        |
@@ -725,7 +725,7 @@
 | KVA            | Kilovolt Ampere                                        |
 | L              | Left                                                   |
 | L              | Length                                                 |
-| L              | Litre or Liter                                         |
+| L              | Liter                                                  |
 | L ECAM DU      | Left ECAM Display Unit                                 |
 | L/D            | Lift/Drag                                              |
 | L/G            | Landing Gear                                           |
@@ -745,7 +745,7 @@
 | LDA            | Landing Distance Available                             |
 | LDG            | Landing                                                |
 | LDG GR         | Landing Gear                                           |
-| LED            | Light Emitting Diode                                   |
+| LED            | Light-Emitting Diode                                   |
 | LGERS          | Landing Gear Extension and Retraction System           |
 | LGMS           | Landing Gear Management System                         |
 | LH             | Left Hand                                              |
@@ -757,7 +757,7 @@
 | LO PR          | Low Pressure                                           |
 | LOC            | Localizer                                              |
 | LP             | Low Pressure                                           |
-| LP VALVE       | Low Pressure Valve                                     |
+| LP VALVE       | Low-Pressure Valve                                     |
 | LS             | Landing System                                         |
 | LT             | Light                                                  |
 | LTD            | Limited                                                |
@@ -773,7 +773,7 @@
 | M              | Magenta                                                |
 | M              | Maneuvering Speed (EFIS)                               |
 | M              | Mode                                                   |
-| MA             | Milli-Ampere                                           |
+| MA             | MilliAmpere                                            |
 | MAG            | Magnetic                                               |
 | MAINT          | Maintenance                                            |
 | MAN            | Manual                                                 |
@@ -829,10 +829,10 @@
 | N/W            | Nose Wheel                                             |
 | N/WS           | Nose Wheel Steering                                    |
 | N1             | Engine Fan Speed                                       |
-| N1             | Low Pressure Rotor Speed                               |
+| N1             | Low-Pressure Rotor Speed                               |
 | N1.D           | N1 Descent                                             |
 | N1.L           | N1 Latch                                               |
-| N2             | High Pressure Rotor Speed                              |
+| N2             | High-Pressure Rotor Speed                              |
 | NAV            | Navigation                                             |
 | NAVAID         | Navigation Aid                                         |
 | ND             | Navigation Display                                     |
@@ -847,7 +847,7 @@
 | NOTAM          | Notice to Airmen                                       |
 | NS             | No Smoking                                             |
 | NW             | Nose Wheel                                             |
-| Nm             | Moment (Newtonmeter)                                   |
+| Nm             | Moment (Newton meter)                                   |
 | No             | Number                                                 |
 | O              | Open                                                   |
 | O/P            | Output                                                 |
@@ -1005,7 +1005,7 @@
 | RPM            | Revolutions Per Minute                                 |
 | RPTG           | Reporting                                              |
 | RQRD           | Required                                               |
-| RR             | Rolls Royce                                            |
+| RR             | Rolls-Royce                                            |
 | RST            | Reset                                                  |
 | RSV            | Reserve                                                |
 | RSVR           | Reservoir                                              |
@@ -1080,7 +1080,7 @@
 | SVCE           | Service                                                |
 | SW             | Switch                                                 |
 | SWTG           | Switching                                              |
-| SYNC           | Synchro, Synchronise                                   |
+| SYNC           | Synchro, Synchronize                                   |
 | SYS            | System                                                 |
 | T              | Time                                                   |
 | T              | Trim                                                   |
@@ -1155,7 +1155,7 @@
 | VACU           | Vacuum                                                 |
 | VAR            | Variable, Variation                                    |
 | VCTREND        | Airspeed Tendency                                      |
-| VDF            | Very High Frequency Direction Finding Station          |
+| VDF            | Very High-Frequency Direction Finding Station          |
 | VDR            | VHF Data Radio                                         |
 | VEL            | Velocity                                               |
 | VERT           | Vertical                                               |
@@ -1166,7 +1166,7 @@
 | VLF            | Very Low Frequency                                     |
 | VMO            | Maximum Operating Speed                                |
 | VOL            | Volume                                                 |
-| VOR            | Very High Frequency Omnirange Station                  |
+| VOR            | Very High-Frequency Omnirange Station                  |
 | VOR.D          | VOR-DME                                                |
 | VORTAC         | Visual Omni-Range Tactical Air Navigation              |
 | VSI            | Vertical Speed Indicator                               |

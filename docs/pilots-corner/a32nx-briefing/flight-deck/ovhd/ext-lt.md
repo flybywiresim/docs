@@ -65,7 +65,7 @@ This switch turns the navigation lights on and off.
 
 There are dual navigation lights on each wing tip and in the APU tail cone.
 
-Logo lights are installed in the upper surface of each horizontal stabilizer to illuminate the company logo on the vertical stabilizer provided the main gear struts are compressed or the slats are extended.
+Logo lights are installed in the upper surface of each horizontal stabilizer to illuminate the company logo on the vertical stabilizer, provided the main gear struts are compressed, or the slats are extended.
 
 - 1:
     - Turns on the logo lights and the first set of navigation lights.
@@ -79,13 +79,13 @@ NAV & LOGO are turned on when the aircraft is powered up (EXT PWR or APU or ENG)
 ![NAV & LOGO and STROBE](../../../assets/a32nx-briefing/overhead-panel/lights/tail-lights.jpg "NAV & LOGO and STROBE"){loading=lazy}
 
 !!! info ""
-    Currently the FlyByWire A32NX only has two settings for NAV & LOGO lights (2 or OFF / 1 is not available).
+    Currently, the FlyByWire A32NX only has two settings for NAV & LOGO lights (2 or OFF / 1 is not available).
 
 ### RWY TURN OFF
 
 This switch turns the runway turn-off lights on and off.
 
-These lights go off automatically when landing gear is retracted.
+These lights go off automatically when the landing gear is retracted.
 
 ![RWY TURN OFF Lt](../../../assets/a32nx-briefing/overhead-panel/lights/rwy-turn-off-lights.jpg "RWY TURN OFF Lt"){loading=lazy}
 
@@ -118,7 +118,7 @@ Turns the taxi and nose takeoff lights on and off.
 - OFF:
     - Taxi and takeoff lights off.
 
-Note: These two lights, attached to the nose gear strut, go off automatically when landing gear is retracted.
+Note: These two lights, attached to the nose gear strut, go off automatically when the landing gear is retracted.
 
 #### TAXI
 

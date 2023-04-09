@@ -6,7 +6,7 @@
 
 | Number | Name                        | Variation       | Meaning                                                                                                                                                        |
 |:-------|:----------------------------|:----------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1      | Fuel Used                   | Green           | Fuel used by the engines (multiplies of 10kg/20lbs).                                                                                                           |
+| 1      | Fuel Used                   | Green           | Fuel used by the engines (multiplies of 10 kg/20 lbs).                                                                                                          |
 |        |                             | Amber dashed    | Value accuracy is degraded and fuel flow not valid.                                                                                                            |
 | 2      | Oil Quantity                | Green           | Oil quantity is normal (0 to 25QT).                                                                                                                            |
 |        |                             | Amber           | Oil quantity below the oil advisory limit (1.35QT).                                                                                                            |
