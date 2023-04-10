@@ -34,15 +34,15 @@
 
     === "6"
 
-        A box describing, depending on your groundspeed, how long it will take you to get to the runway from the first point you start to descend and what vertical speed is expected.
+        A box describing, depending on your ground speed, how long it will take you to get to the runway from the first point you start to descend and what vertical speed is expected.
 
     === "7"
 
-        The ILS frequency (108.35), its identifier (DSU) and that is has a DME linked to it. <br> The magnetic variation of the area (0 degrees).
+        The ILS frequency (108.35), its identifier (DSU) and that it has a DME linked to it. <br> The magnetic variation of the area (0 degrees).
 
     === "8"
 
-        Special notes for this approach that may be different than normal.
+        Special notes for this approach that may be different from normal.
 
     === "9"
 
@@ -50,7 +50,7 @@
 
     === "10"
 
-        A distance-altitude check box, where the altitude you should be at for different distances is described. This is useful to check in case there are any issues with any of the radio beacons you are using.
+        A distance-altitude check box, where the altitude you should be at for different distances, is described. This is useful to check in case there are any issues with any of the radio beacons you are using.
 
 ![chart1](../assets/flying-guide/chart-sample1.png)
 
@@ -89,7 +89,7 @@
 
     === "6"
 
-        The initial approach fix or IAF (AMIKI), which is normally where the arrival will end and the approach chart will start from.
+        The initial approach fix or IAF (AMIKI), which is normally where the arrival will end, and the approach chart will start from.
 
     === "7"
 
@@ -97,7 +97,7 @@
 
     === "8"
 
-        Special notes for this arrival that may be different than normal.
+        Special notes for this arrival that may be different from normal.
 
     === "9"
 
@@ -115,22 +115,22 @@
 
 ## SIDs and STARS
 
-As much as an airway might be the highway/motorway of the sky, SIDs and STARs are the roads that lead you to and from it. An airport will have multiple SID/STARs for each runway, which will take you a different direction usually to a waypoint which connects to an airway. The airport will publish a chart for each SID and STAR, which should be checked by the pilots and followed unless cleared to do otherwise.
+As much as an airway might be the highway/motorway of the sky, SIDs and STARs are the roads that lead you to and from it. An airport will have multiple SID/STARs for each runway, which will take you a different direction, usually to a waypoint which connects to an airway. The airport will publish a chart for each SID and STAR, which should be checked by the pilots and followed unless cleared to do otherwise.
 
 ### ^^SID (Standard Instrument Departure)^^
 
 These are the roads away from the airport, navigating around obstacles while keeping the aircraft safe from others with altitudes. Usually, an IFR clearance that you receive on the ground will have a SID or some form of departure instruction, which will depart you from the runway in use and connect onto the rest of your flight plan.
 
 ![SIDSTAR](https://upload.wikimedia.org/wikipedia/commons/a/a1/L%C3%A4rmkarte_Flughafen_M%C3%BCnchen.png)
-<sub> By Alexrk2 - own work, usingDigitale Topographische Karte 1:250.000, © GeoBasis-DE / BKG 2016 (GeoNutzV)Strategic noise maps (DF 4 and DF 8), European Environment
+<sub> By Alexrk2 - own work, using Digitale Topographische Karte 1:250.000, © GeoBasis-DE / BKG 2016 (GeoNutzV)Strategic noise maps (DF 4 and DF 8), European Environment
 AgencyMinimum Noise Routing (SID), opennav.com, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=51978317
 
 
-In the above image, you can see all the possible SID routes out of Munich Airport (EDDM). Although the diagram is a noise map, you can see that all routes have a common part to start with when they leave the runway, until they start turning away to their respective waypoints. This means that the noise of departing aircraft is confined to a particular area as best as possible, hopefully away from built up areas.
+In the above image, you can see all the possible SID routes out of Munich Airport (EDDM). Although the diagram is a noise map, you can see that all routes have a common part to start with when they leave the runway, until they start turning away to their respective waypoints. This means that the noise of departing aircraft is confined to a particular area as good as possible, hopefully away from built-up areas.
 
 ### ^^STAR (Standard Terminal Arrival Route)^^
 
-Where a SID is the route out of an airport, the STAR is the way in. Extremely similar in design to the SID, this will route you down from the end of an airway normally, until ending at the start of the approach for the runway you are landing on. A STAR will have a route that also keeps it clear of obstacles/terrain etc. and give hard altitudes for the pilot to descend to when cleared. Some of these charts will also have holding patterns listed on them for controllers to keep aircraft out of the way to wait until the flow of traffic allows them to land.
+Where a SID is the route out of an airport, the STAR is the way in. Extremely similar in design to the SID, this will route you down from the end of an airway normally, until ending at the start of the approach for the runway you are landing on. A STAR will have a route that also keeps it clear of obstacles/terrain etc. and gives hard altitudes for the pilot to descend to when cleared. Some of these charts will also have holding patterns listed on them for controllers to keep aircraft out of the way to wait until the flow of traffic allows them to land.
 
 ***
 
@@ -150,28 +150,26 @@ The earliest form of navigation would involve a compass and looking out of the c
 
 LNAV allows for the aircraft to navigate across the world using fixed points in space, such as waypoints or radio beacons. These are defined using a latitude and longitude which are compared, in basic terms, against the aircraft’s known latitude and longitude to allow navigation towards them.
 
-To know of the position of the aircraft, the Inertial Reference Systems (IRS) are aligned while the aircraft is stationary at the gate which sets a baseline position. This is then updated during flight using tracks and distances from radio beacons or has GPS data fed to it to keep accurate. Without these, as IRS systems are not perfect, the position becomes a guess, and the aircraft will slowly drift off route. This was a particular problem crossing the ocean on older aircraft, where there are no radio beacons and GPS was not invented yet, resulting in the aircraft being possibly miles off course when it eventually arrived overhead land.
+To know of the position of the aircraft, the Inertial Reference Systems (IRS) are aligned while the aircraft is stationary at the gate, which sets a baseline position. This is then updated during flight using tracks and distances from radio beacons or has GPS data fed to it to keep accurate. Without these, as IRS systems are not perfect, the position becomes a guess, and the aircraft will slowly drift off route. This was a particular problem crossing the ocean on older aircraft, where there are no radio beacons and GPS was not invented yet, resulting in the aircraft being possibly miles off course when it eventually arrived overhead land.
 
 ### ^^Vertical Navigation^^
 
-VNAV allows for an aircraft to climb and descend using a calculated path to optimise the flight.  It will maintain restrictions on SIDs and STARs, plan the ToD (Top of Descent) and minimise fuel burn while still allowing for the aircraft to get into a position to land. For VNAV to work correctly, the aircraft’s computer systems must be correctly set with the correct weights, route, weather and performance information.
+VNAV allows for an aircraft to climb and descend using a calculated path to optimize the flight.  It will maintain restrictions on SIDs and STARs, plan the ToD (Top of Descent) and minimize fuel burn while still allowing for the aircraft to get into a position to land. For VNAV to work correctly, the aircraft’s computer systems must be correctly set with the correct weights, route, weather, and performance information.
 
 With a good database inside the MCDU, the Airbus family can fly an entire SID or STAR with no interaction from the pilots, if the data has been checked beforehand. Speed and altitude restrictions are followed to match the chart information.
 
-The Airbus Flight Management will try to calculate a 3-degree path from the start of the runway you are landing on, working backwards through your flight plan to achieve all the restrictions until it arrives at your current cruising altitude. This will generate a point on the Navigation Display for the top of descent where if the altitude is set lower than the cruising level, and you push for DES, then the aircraft will follow the 3-degree path. The altitude always needs to be set lower than your current altitude, as the Airbus will stop at whatever is set in the FCU i.e., it will not carry on with the VNAV path. Unlike the Boeing fleet, the Airbus will also not automatically descend at ToD and requires a descent mode to be selected.
+The Airbus Flight Management will try to calculate a 3-degree path from the start of the runway you are landing on, working backwards through your flight plan to achieve all the restrictions until it arrives at your current cruising altitude. This will generate a point on the Navigation Display for the top of descent where if the altitude is set lower than the cruising level, and you push for DES, then the aircraft will follow the 3-degree path. The altitude always needs to be set lower than your current altitude, as the Airbus will stop at whatever is set in the FCU, i.e., it will not carry on with the VNAV path. Unlike the Boeing fleet, the Airbus will also not automatically descend at ToD and requires a descent mode to be selected.
 
 
 ***
 
 ## Noise Abatement (NADP1 vs 2)
 
-To reduce the noise effects on local residents, some airports require the use of noise abatement procedures to help keep the noise levels down. On the airport, the reduction of the use of the APU and using more external power helps, plus the requirement to ban the use of anything more than idle reverse on landing unless the aircraft performance needs it. The big change that prevents a lot of noise is the use of NADP. These Noise Abatement Departure Procedures
-change the way aircraft climb out from the airport to help keep noise levels down at buildings that are directly under the flightpath.
+To reduce the noise effects on local residents, some airports require the use of noise abatement procedures to help keep the noise levels down. On the airport, the reduction of the use of the APU and using more external power helps, plus the requirement to ban the use of anything more than idle reverse on landing unless the aircraft performance needs it. The big change that prevents a lot of noise is the use of NADP. These Noise Abatement Departure Procedures change the way aircraft climb out from the airport to help keep noise levels down at buildings that are directly under the flight path.
 
 NADP1 requires you to climb to your thrust reduction altitude, but instead of accelerating at the same time, you hold the speed until you get to a higher acceleration altitude. This means that over the same distance, you will be higher than the normal procedure, also known as NADP2. And being higher over the buildings means you will generate less noise.
 
-Airports will describe in their airfield documents which departure you should be doing, but the standard method of NADP2 is probably in 80/90% of airports across the world. Common example airports with NADP1 are Paris LFPG, San Francisco KSFO on certain runways and
-Geneva LSGG.
+Airports will describe in their airfield documents which departure you should be doing, but the standard method of NADP2 is probably in 80/90% of airports across the world. Common example airports with NADP1 are Paris LFPG, San Francisco KSFO on certain runways and Geneva LSGG.
 
 ![noiseabatement](../assets/flying-guide/NoiseAbatement-1.png)
 <sub> Credit - Shomas Pilot on Discord

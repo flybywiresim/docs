@@ -20,16 +20,16 @@ The Flight Control Unit (FCU) provides short-term interface between the Flight M
 
 ## FCU Philosophy
 
-In the Airbus A320 the Autopilot has two types on how to guide and control the aircraft. One is called "managed" and is done by the Flight Management Guidance System (FMGS). The other is usually called "selected" as it uses the selected values of the flight crew to control the aircraft.
+In the Airbus A320, the Autopilot has two types on how to guide and control the aircraft. One is called "managed" and is done by the Flight Management Guidance System (FMGS). The other is usually called "selected" as it uses the selected values of the flight crew to control the aircraft.
 
-When the aircraft is in managed mode it shows 3 dashes and a dot to the right in the corresponding display.
+When the aircraft is in managed mode, it shows 3 dashes and a dot to the right in the corresponding display.
 
 When the aircraft uses selected values from the flight crew, the display shows the selected value and no dot.
 
 The altitude window always displays an altitude selected by the pilot
 and never dashes. The dot signifies managed altitude.
 
-The four knobs used in the FCU, SPD-MACH, HDG-TRK, ALT, V/S-FPA basically  all have the same philosophy:
+The four knobs used in the FCU, SPD-MACH, HDG-TRK, ALT, V/S-FPA basically all have the same philosophy:
 
 - Push:
     - Let the FMGS manage the corresponding mode.
@@ -46,7 +46,7 @@ Note: In managed mode (lateral, vertical guidance or managed speed), the corresp
 
 ###  SPD/MACH knob
 
-The range of this value is from 100 to 399 knots and between 0.1 and 0.99 for Mach.
+The range of this value is from 100 to 399 knots, and between 0.1 and 0.99 for Mach.
 
 ### SPD/MACH button
 
@@ -76,26 +76,26 @@ If pushed it:
 The flight crew uses these buttons to engage or disengage the autopilots. Lights up in green when the autopilot is engaged.
 
 !!! note ""
-    Typically in normal procedures the autopilot is not disengaged by pressing the AP buttons on the FCU but by pressing the takeover pushbutton on the sidestick.
+    Typically, in normal procedures, the autopilot is not disengaged by pressing the AP buttons on the FCU but by pressing the takeover pushbutton on the sidestick.
 
     Disengaging the AP triggers a warning illuminating the Master Warning light, displaying a message on the ECAM, and sounding an audio warning (called Cavalry Charge):
 
     - If disengaged with the takeover pushbutton on the sidestick, the warnings are temporary (&#8924;3s Master Warning, &#8924;9s ECAM message "AP OFF" (red), &#8924;1.5s Cavalry Charge audio).
-    - If disengaged by a failure, or by pushing the pushbutton on the FCU, or from a force on the sidestick, the visual and audio warnings are continual (ECAM message "AUTO FLT AP OFF" in red).
+    - If disengaged by a failure, or by pushing the pushbutton on the FCU, or from a force on the sidestick, the visual, and audio warnings are continual (ECAM message "AUTO FLT AP OFF" in red).
 
     !!! info ""
-        Currently no continual warnings are implemented and also no ECAM message is displayed in the FBW A32NX for Microsoft Flight Simulator when the AP is disengaged.
+        Currently, no continual warnings are implemented and also no ECAM message is displayed in the FBW A32NX for Microsoft Flight Simulator when the AP is disengaged.
 
 ### A/THR pushbutton
 
-The flight crew uses this button to arm, activate, or disconnect the autothrust (A/THR). Lights up in green if the A/THR is armed or active.
+The flight crew uses this button to arm, activate, or disconnect the Autothrust (A/THR). Lights up in green if the A/THR is armed or active.
 
 !!! note ""
-    Typically in normal procedures the autothrust is not disengaged by pressing the A/THR button on the FCU but by pressing the disconnect pushbutton on the throttle levers or by setting both thrust levers to idle.
+    Typically, in normal procedures the Autothrust is not disengaged by pressing the A/THR button on the FCU but by pressing the disconnect pushbutton on the throttle levers or by setting both thrust levers to idle.
 
 ### Altitude selector knob (inner and outer)
 
-The range of this value is between 100 and 49000 feet.
+The range of this value is between 100 and 49,000 feet.
 
 The outer knob switches the increment step-size for the inner know from 100 to 1000 and vice versa.
 
@@ -103,7 +103,7 @@ The inner knob sets the altitude in the FCU windows in the chosen increment step
 
 ### EXPED
 
-Engages the expedite mode which is used in climb or descent to reach the desired altitude with the maximum vertical gradient.
+Engages the expedite mode, which is used in climb or descent to reach the desired altitude with the maximum vertical gradient.
 
 ### METRIC ALT
 
@@ -111,17 +111,17 @@ Used to show the FCU altitude target in meters on the ECAM, or the current altit
 
 ### V/S or FPA knob
 
-For V/S mode the range of this value is from -6000 to +6000 feet/min
+For V/S mode, the range of this value is from -6000 to +6000 feet/min
 
-For FPA mode the range of this value is from -9.9° to +9.9° descent/climb angle.
+For FPA mode, the range of this value is from -9.9° to +9.9° descent/climb angle.
 
-When pushed an immediate level off is commanded (V/S of 0). The flight mode annunciator (FMA) then displays "V/S = O" in green.
+When pushed, an immediate level off is commanded (V/S of 0). The flight mode annunciator (FMA) then displays "V/S = O" in green.
 
 ### APPR
 
 Approach modes are activated or deactivated (armed, disarmed, engaged, disengaged):
 
-- If an ILS approach is selected in the flight plan it activates LOC and G/S modes
+- If an ILS approach is selected in the flight plan, it activates LOC and G/S modes
 - If a non precision approach is selected in the flight plan, it activates APP NAV-FINAL modes.
 
 !!! note ""

@@ -15,23 +15,23 @@
 
 ## Usage
 
-### Tansmission Keys
+### Transmission Keys
 
 ![RMP Transmission Keys](../../../assets/a32nx-briefing/pedestal/RMP-transmission-keys.png)
 
 !!! info ""
-    Currently only the VHF1-3 channels are available in the FBW A32NX for Microsoft Flight Simulator.
+    Currently, only the VHF1-3 channels are available in the FBW A32NX for Microsoft Flight Simulator.
 
 - Pressed:
     - Channel selected for transmission.
     - Green lines come on.
     - Deselecting by pressing the pushbutton again, through selecting another channel.
 - CALL:
-    -  When the SELCAL system detects a call the legend flashes amber (and buzzer sounds).
+    -  When the SELCAL system detects a call, the legend flashes amber (and buzzer sounds).
 - MECH:
-    - When called from the nose gear bay the legend flashes amber (and buzzer sounds). If it is not reset, the MECH light goes off after 60 seconds.
+    - When called from the nose gear bay, the legend flashes amber (and buzzer sounds). If it is not reset, the MECH light goes off after 60 seconds.
 - ATT:
-    - When called from a cabin attendant, the legend flashes amber (and buzzer sounds). If it is not reset, the ATT light goes off after 60 seconds.
+    - When called by a cabin attendant, the legend flashes amber (and buzzer sounds). If it is not reset, the ATT light goes off after 60 seconds.
 
 ### Reception Knobs
 
@@ -40,7 +40,7 @@
 ![Reception Knobs](../../../assets/a32nx-briefing/pedestal/RMP-receiption-knobs-2.png "Reception Knobs")
 
 !!! info ""
-    Currently only the VHF2-3 channels are available for selection in the FBW A32NX for Microsoft Flight Simulator. VHF1 is always selected although not lit.
+    Currently, only the VHF2-3 channels are available for selection in the FBW A32NX for Microsoft Flight Simulator. VHF1 is always selected, although not lit.
 
 These knobs are used to allow the flight crew to activate a channel for reception and to adjust volume.
 
@@ -77,7 +77,7 @@ Passenger Address is used by the flight personnel to make passenger announcement
 
 #### PA transmission key
 
-Pressed and held: To make an announcement a boom, mask or hand mike is used.
+Pressed and held: To make an announcement a boom, mask, or hand mike is used.
 
 !!! info ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.

@@ -1,0 +1,107 @@
+name: Build Checks and Auto Merge
+
+on:
+  pull_request_target:
+    types: [opened, ready_for_review, synchronize, labeled, unlabeled]
+
+jobs:
+  verify-labels:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.pull_request.draft == false && github.repository_owner == 'flybywiresim' }} # Prevent running on forks
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+      - name: Assign Label
+        if: ${{ !contains(github.event.pull_request.labels.*.name, 'Review Required') }}
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          labels: 'Review Required'
+      - name: Approved and Review Required Logic
+        if: ${{ contains(github.event.pull_request.labels.*.name, 'Approved') && contains(github.event.pull_request.labels.*.name, 'Review Required') }}
+        run: echo "RUN_REMOVE_LABEL=true" >> $GITHUB_ENV
+
+      - name: Remove Label
+        if: ${{ env.RUN_REMOVE_LABEL == 'true' }}
+        uses: actions-ecosystem/action-remove-labels@v1
+        with:
+          labels: Review Required
+        id: remove-label
+
+      - name: Remove Label Failed # Fails job if the label cannot be removed
+        if: ${{ steps.remove-label.outcome == 'failure' }}
+        run: echo "Remove Label step failed" && exit 1
+
+      - name: Remove Label Succeeded
+        if: ${{ steps.remove-label.outcome == 'success' && steps.remove-label.outputs.code == '0' }}
+        run: echo "Remove Label step succeeded and returned code 0"
+
+      - name: Comment on PR # Checks for Reviewed Required label and comments on PR
+        id: check-labels
+        uses: mheap/github-action-required-labels@v4
+        with:
+          mode: exactly
+          count: 0
+          labels: "Review Required"
+          add_comment: true
+          message: "This PR is being prevented from merging because {{ provided }}. Use the Approved label to run build validation and auto merge the PR."
+
+  validate:
+    needs: verify-labels
+    if: ${{ success() && contains(github.event.pull_request.labels.*.name, 'Approved') }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get PR SHA
+        id: sha
+        uses: actions/github-script@v6
+        with:
+          result-encoding: string
+          script: |
+            const { owner, repo, number } = context.issue;
+            const pr = await github.rest.pulls.get({
+              owner,
+              repo,
+              pull_number: number,
+            });
+            return pr.data.head.sha
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ steps.sha.outputs.result }}
+          fetch-depth: 0
+      - name: Make Build
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
+      - run: |
+          pip install -r requirements.txt
+          mkdocs build -s
+      - name: Message failure
+        if: ${{ failure() }}
+        uses: actions/github-script@v6
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: 'Strict Build Failed! ❌ - Please checkout this PR locally to fix the issue before merging or see checks.',
+            });
+      - name: Automatically pr
+        if: ${{ success() }}
+        run: gh pr merge --squash --auto --subject "${{ github.event.pull_request.title }}" "${{ github.event.pull_request.number }}"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  failed-validation: # This job will run if the validate job fails and reset the labels
+    needs: validate
+    if: ${{ failure() && contains(github.event.pull_request.labels.*.name, 'Approved') }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Remove Label
+        uses: actions-ecosystem/action-remove-labels@v1
+        with:
+          labels: Approved
+      - name: Assign Label
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          labels: 'Review Required'

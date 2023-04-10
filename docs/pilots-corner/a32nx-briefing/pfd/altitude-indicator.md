@@ -18,16 +18,13 @@
 
 ## Description
 
-The altitude is displayed as a white moving scale and as a green digital readout on a grey background. NEG will appear on the background if the altitude is negative. The altitude window will change from yellow to amber if the aircraft has deviated from the FCU selected altitude.
+The altitude is displayed as a white moving scale and as a green digital readout on a gray background. NEG will appear on the background if the altitude is negative. The altitude window will change from yellow to amber if the aircraft has deviated from the FCU selected altitude.
 
-If an MDA has been entered into the MCDU perf page, the altitude numbers will change from green to amber once the aircraft goes below the chosen altitude.
+If an MDA has been entered into the MCDU PERF page, the altitude numbers will change from green to amber once the aircraft goes below the chosen altitude.
 
 ### Vertical Deviation
 
-This green filled circle symbol appears next to the altitude corresponding to the theoretical vertical profile 
-computed by the FMGC. It is displayed from the top of descent down to the MAP altitude. The flight crew can read the 
-linear deviation directly from the altitude scale. The range is ±500 ft. When the linear deviation value exceeds 
-±500 ft, the symbol stays at the range limit but changes to a half filled circle and the PROG page displays the exact value.
+This green filled circle symbol appears next to the altitude corresponding to the theoretical vertical profile computed by the FMGC. It is displayed from the top of descent down to the MAP altitude. The flight crew can read the linear deviation directly from the altitude scale. The range is ±500 ft. When the linear deviation value exceeds ±500 ft, the symbol stays at the range limit but changes to a half filled circle and the PROG page displays the exact value.
 
 ### Target Altitude or Selected Flight Level Symbol
 
@@ -37,11 +34,11 @@ If the altitude is on the scale, the numbers will be displayed inside the symbol
 
 ### Target Altitude or Selected Flight Level (meters)
 
-If metric alt is activated this is shown in numbers above the altitude indicator. It is either magenta or blue depending on whether it's the FMGC calculated altitude or a pilot selected altitude.
+If metric alt is activated, this is shown in numbers above the altitude indicator. It is either magenta or blue depending on whether it's the FMGC calculated altitude or a pilot selected altitude.
 
 ### Altitude Indicator (meters)
 
-If metric alt is activated this is shown under the barometric reference and is displayed in green numbers. It shows the altitude in meters.
+If metric alt is activated, this is shown under the barometric reference and is displayed in green numbers. It shows the altitude in meters.
 
 ### Radio Height
 

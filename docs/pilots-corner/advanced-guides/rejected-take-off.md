@@ -1,11 +1,9 @@
 # Rejected Takeoff in the A320
 
-The term rejected takeoff (also known as RTO) refers to incidents in which an aircraft's pilots elect to abort their 
-departure before reaching a critical speed. 
+The term rejected takeoff (also known as RTO) refers to incidents in which an aircraft's pilots elect to abort their departure before reaching a critical speed. 
 
-This critical speed is known as '[V~1~](../abbreviations.md)', and this refers to the maximum speed an aircraft can reach on its takeoff roll and then be brought to a stop 
-whilst remaining within the accelerate-stop distance (the distance the airplane actually needs to accelerate and stop in accordance with regulations). 
-If the aircraft reaches this speed and the Pilot Flying has not yet taken action to stop the plane, the takeoff must be continued unless the airplane is unsafe to fly.
+This critical speed is known as '[V~1~](../abbreviations.md)', and this refers to the maximum speed an aircraft can reach on its takeoff roll and then be brought to a stop whilst remaining within the accelerate-stop distance (the distance the airplane actually needs to accelerate and stop in accordance with regulations). 
+If the aircraft reaches this speed and the Pilot Flying has not yet acted to stop the plane, the takeoff must be continued unless the airplane is unsafe to fly.
 
 [V-Speeds Information](../abbreviations.md){.md-button target=new}
 
@@ -13,8 +11,7 @@ If the aircraft reaches this speed and the Pilot Flying has not yet taken action
     To be able to take off, the takeoff weight and V~1~ speed must result in an accelerate-stop distance that is no longer than the accelerate-stop
     distance available (ASDA). 
 
-    The ASDA is a distance declared by the airport and is the runway length available for a rejected takeoff plus any stopway that may be present. A stopway is an area beyond the takeoff runway 
-    meeting certain dimensional requirements that is designed to support the airplane during a rejected takeoff without causing structural damage to the airplane.
+    The ASDA is a distance declared by the airport and is the runway length available for a rejected takeoff plus any stopway that may be present. A stopway is an area beyond the takeoff runway meeting certain dimensional requirements that is designed to support the airplane during a rejected takeoff without causing structural damage to the airplane.
 
     ---
     
@@ -22,10 +19,9 @@ If the aircraft reaches this speed and the Pilot Flying has not yet taken action
 
     The reason we mention runway length available for a rejected takeoff above, is that in some cases the ASDA can actually be shorter than the physical length of the runway.
 
-    For example, in the U.S., airports must provide a 1000-foot runway safety area (RSA) or an engineered material arresting system (EMAS) beyond the runway end. If this isn't possible, one option 
-    is to shorten the length of the runway declared as ASDA to provide for the RSA. This could result in the ASDA being up to 1,000 feet shorter than the actual runway.
+    For example, in the U.S., airports must provide a 1000-foot runway safety area (RSA) or an engineered material arresting system (EMAS) beyond the runway end. If this isn't possible, one option is to shorten the length of the runway declared as ASDA to provide for the RSA. This could result in the ASDA being up to 1,000 feet shorter than the actual runway.
 
-When the aircraft speed is at or above 100 kts, it may become hazardous to reject a takeoff, therefore a takeoff is split into 3 phases:  
+When the aircraft speed is at or above 100 kts, it may become hazardous to reject a takeoff. Therefore, a takeoff is split into 3 phases:  
 
 - Below 100 kts  
 - Above 100 kts and below V~1~  
@@ -39,14 +35,13 @@ Jump to [Rejected Takeoff Procedure](#rejected-takeoff-procedure)
 
 ## What Happens During a Rejected Takeoff in Real Life?
 
-The decision to reject the takeoff and the stop action is made by the Captain, it is therefore recommended that the Captain keeps his hand on the thrust levers until the aircraft reaches V~1~, 
-whether he is Pilot Flying (PF) or Pilot Not Flying (PNF).
+The decision to reject the takeoff and the stop action is made by the Captain, it is therefore recommended that the Captain keeps his hand on the thrust levers until the aircraft reaches V~1~, whether he is Pilot Flying (PF) or Pilot Not Flying (PNF).
 
 As soon as the Captain decides to abort, he calls “STOP”, takes over control of the aircraft, and performs the stop actions.
 
 ## Reasons for a Rejected Takeoff  
 
-It is not possible to list all the factors that could lead to the decision to reject the takeoff. However, in order to help the Captain make a decision, the ECAM inhibits warnings that are not essential once the plane passes 80 kts and stops inhibiting them once the plane reaches 1500 ft AGL (or 2 min after lift-off, whichever occurs first). A magenta T.O INHIBIT memo is displayed in the Upper ECAM (E/WD) to inform the pilots of this.
+It is not possible to list all the factors that could lead to the decision to reject the takeoff. However, to help the Captain decide, the ECAM inhibits warnings that are not essential once the plane passes 80 kts and stops inhibiting them once the plane reaches 1500 ft AGL (or 2 min after lift-off, whichever occurs first). A magenta T.O INHIBIT memo is displayed in the Upper ECAM (E/WD) to inform the pilots of this.
 
 ![Upper ECAM T.O INHIBIT](../assets/advanced-guides/rejected-takeoff/upper-ecam-to-inhibit.jpg "Upper ECAM T.O INHIBIT")
 

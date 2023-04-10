@@ -4,7 +4,7 @@
 
 The MCDU allows the flight crew to enter and store custom waypoints.
 
-There can be up to 99 waypoints stored. To see the stored waypoints you need to select `DATA` on the MCDU and move to the second page with the lateral arrow key.
+There can be up to 99 waypoints stored. To see the stored waypoints, you need to select `DATA` on the MCDU and move to the second page with the lateral arrow key.
 
 !!! block ""
 
@@ -15,7 +15,7 @@ There can be up to 99 waypoints stored. To see the stored waypoints you need to 
 These waypoints can be used in the flight plan (MCDU F-PLN page) in the same way as any other fix by entering the fix ident.
 
 !!! info ""
-    These stored waypoints are not persisted and not stored on your PC. This is similar to the configuration of most real world aircraft where the waypoints will also be erased after the flight (when in the [DONE](flight-phases.md#done-phase) phase).
+    These stored waypoints are not persisted and not stored on your PC. This is similar to the configuration of most real-world aircraft, where the waypoints will also be erased after the flight (when in the [DONE](flight-phases.md#done-phase) phase).
 
 The following chapters will explain how to create, use and delete these stored waypoints.
 
@@ -25,7 +25,7 @@ There are three ways to create new custom waypoints:
 
 1. Enter a new unique identifier into the scratchpad and insert it into the flight plan as if inserting a normal additional waypoint. This will bring up the `NEW WAYPOINT` page with the identifier already filled out.
 2. Press the LSK 5R (5th on the right) of `NEW WAYPOINT` on the `STORED WAYPOINT` page
-3. By directly entering the new waypoint in one of the three formats into the scratchpad on the F-PLN page and inserting it into the the flight plan. In this case the FMS will generate a default name (PBDnn, PBXnn, or LLnn, where nn is the storage number of the stored waypoint).
+3. By directly entering the new waypoint in one of the three formats into the scratchpad on the F-PLN page and inserting it into the flight plan. In this case, the FMS will generate a default name (PBDnn, PBXnn, or LLnn, where nn is the storage number of the stored waypoint).
 
 #### New Waypoint Page
 
@@ -44,7 +44,7 @@ The format is:
 &lt;latitude&gt;/&lt;longitude&gt;
 
 - latitude is 4 digits with one decimal digit and N or S (for Northern or Southern hemisphere)
-- longitude is 4 or 5 digits with one decimal digit and E or W (for Eastern or Western hemisphere)
+- longitude is 4 or 5 digits with one decimal digit and E or W (for Eastern or Western Hemisphere)
 
 !!! tip "Example for LL"
     !!! block ""
@@ -107,21 +107,21 @@ Stored waypoints can be added to the flight plan as any other navigation fix. Ju
 
 ### How to Delete Stored Waypoints
 
-You can delete a single or all stored waypoints at any time. If you try to delete any waypoints used within the FMS the waypoint will be retained and a scratchpad message `F-PLN ELEMENT RETAINED` appears.
+You can delete a single or all stored waypoints at any time. If you try to delete any waypoints used within the FMS, the waypoint will be retained and a scratchpad message `F-PLN ELEMENT RETAINED` appears.
 
 ### Delete a Single Stored Waypoint
 
-Single stored waypoints can be deleted from the list of stored waypoints by calling up the stored waypoint's page and use CLR on the identifier to delete it.
+Single stored waypoints can be deleted from the list of stored waypoints by calling up the stored waypoint's page and using CLR on the identifier to delete it.
 
 ![MCDU DATA Stored Waypoint CLR](../assets/advanced-guides/stored-waypoints/mcdu-data-stored-waypoint_clr.png "MCDU DATA Stored Waypoint CLR"){loading=lazy width=50%}
 
 ### Delete All Stored Waypoints
 
-To delete all stored waypoints use the `DELETE ALL` option from any stored waypoint page.
+To delete all stored waypoints, use the `DELETE ALL` option from any stored waypoint page.
 
 ![MCDU DATA Stored Waypoint CLR ALL](../assets/advanced-guides/stored-waypoints/mcdu-data-stored-waypoint_clr_all.png "MCDU DATA Stored Waypoint CLR ALL"){loading=lazy width=50%}
 
-Alternatively you can use the `MCDU DATA A/C STATUS` page to delete all stored waypoints.
+Alternatively, you can use the `MCDU DATA A/C STATUS` page to delete all stored waypoints.
 
 ![MCDU DATA A/C STATUS](../assets/advanced-guides/stored-waypoints/mcdu-data-acstatus.png "MCDU DATA A/C STATUS"){loading=lazy width=50%}
 

@@ -4,11 +4,10 @@ The A320 is exposed to many types of weather and atmospheric conditions, both in
 
 !!! note "Definition of Icing Conditions"  
 
-    - Icing conditions exist when the OAT (on ground or after takeoff) or the TAT (in flight) is at or below 10°C and visible moisture in any form is present (such as clouds, fog with visibility of 1 sm (1 600 m) or less, rain, 
-      snow, sleet or ice crystals).   
-    - Icing conditions also exist when the OAT on the ground and for takeoff is at or below 10°C and operating on ramps, taxiways or runways where surface snow, standing water or slush may be ingested by the engines, or freeze on engines, nacelles or engine sensor probes.
+    - Icing conditions exist when the OAT (on ground or after takeoff) or the TAT (in flight) is at or below 10 °C and visible moisture in any form is present (such as clouds, fog with visibility of 1 sm (1 600 m) or less, rain, snow, sleet or ice crystals).   
+    - Icing conditions also exist when the OAT on the ground and for takeoff is at or below 10 °C and operating on ramps, taxiways, or runways where surface snow, standing water or slush may be ingested by the engines, or freeze on engines, nacelles, or engine sensor probes.
     
-To ensure safe and unrestricted operation of the aircraft in these conditions, the ice and rain protection system has been implemented. This comprises the subsystems listed below:
+To ensure safe and unrestricted operation of the aircraft in these conditions, the ice, and rain protection system has been implemented. This comprises the subsystems listed below:
 
 - [Wing Anti-Ice](#wing-anti-ice)
 - [Engine Anti-Ice](#engine-anti-ice) 
@@ -24,7 +23,7 @@ Jump to [Usage of the Ice and Rain Protection System](#usage-of-the-ice-and-rain
 - In flight, hot air from the pneumatic system heats the three outboard slats (3-4-5) of each wing.  
 - Air is supplied through one valve in each wing.  
 - The WING pushbutton on the ANTI-ICE panel controls the valves.  
-- When the aircraft is on ground, the flight crew can initiate a 30-second test sequence by turning the system ON.  
+- When the aircraft is on the ground, the flight crew can initiate a 30-second test sequence by turning the system ON.  
 - If the system detects a leak during normal operation, the affected side’s wind anti-ice valve automatically closes.  
 - When wing anti-ice is selected, the N1 or EPR limit is automatically reduced, and the idle N1 or EPR limit is automatically increased.  
 - If the electrical power supply fails, the valves close.
@@ -142,5 +141,5 @@ See also [Anti Ice Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/an
 
 ### Other Procedures
 - If taxiing in icing conditions, delay the flaps extension until the runway holding point. This prevents contamination in the mechanism.  
-- If an approach was made in icing conditions, delay the flaps retraction until the ground crew confirms the flaps and slats are clear of ice.
+- If an approach is made in icing conditions, delay the flaps retraction until the ground crew confirms the flaps and slats are clear of ice.
 

@@ -10,7 +10,7 @@
 
 ### FLOOD LT PED knob
 
-Sets brightness of the floodlighting for the pedestal.
+Sets the brightness of the floodlighting for the pedestal.
 
 ### AIDS PRINT pushbutton
 

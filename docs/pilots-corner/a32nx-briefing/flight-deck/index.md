@@ -3,7 +3,7 @@ hide:
     - toc
     - navigation
 title: A320 Flight Deck Overview
-description: The A320 Flight Deck Overview is provides an interactive graphical overview of the A320neo flight deck and its systems. 
+description: The A320 Flight Deck Overview is providing an interactive graphical overview of the A320neo flight deck and its systems. 
 ---
 
 # Flight Deck Overview
@@ -66,7 +66,7 @@ description: The A320 Flight Deck Overview is provides an interactive graphical 
     <a href="/pilots-corner/a32nx-briefing/flight-deck/ovhd/evacuation/"><div class="imagemap" style="position: absolute; left: 22.5%; top: 32.9%; width: 12.6%; height: 1.6%;"><span class="imagemapname">Evacuation Panel</span></div></a>
     <a href="/pilots-corner/a32nx-briefing/flight-deck/ovhd/emergency-electric/"><div class="imagemap" style="position: absolute; left: 22.5%; top: 34.5%; width: 12.6%; height: 1.7%;"><span class="imagemapname">Emergency Electric Power Panel</span></div></a>
     <a href="/pilots-corner/a32nx-briefing/flight-deck/ovhd/gpws/"><div class="imagemap" style="position: absolute; left: 22.5%; top: 36.2%; width: 12.6%; height: 1.5%;"><span class="imagemapname">Ground Proximity Warning Panel</span></div></a>
-    <a href="/pilots-corner/a32nx-briefing/flight-deck/ovhd/voice-recorder/"><div class="imagemap" style="position: absolute; left: 22.5%; top: 37.7%; width: 12.6%; height: 1.3%;"><span class="imagemapname">Voice Recoder Panel</span></div></a>
+    <a href="/pilots-corner/a32nx-briefing/flight-deck/ovhd/voice-recorder/"><div class="imagemap" style="position: absolute; left: 22.5%; top: 37.7%; width: 12.6%; height: 1.3%;"><span class="imagemapname">Voice Recorder Panel</span></div></a>
     <a href="/pilots-corner/a32nx-briefing/flight-deck/ovhd/oxygen/"><div class="imagemap" style="position: absolute; left: 22.5%; top: 39%; width: 12.6%; height: 1.5%;"><span class="imagemapname">Oxygen Panel</span></div></a>
     <a href="/pilots-corner/a32nx-briefing/flight-deck/ovhd/calls/"><div class="imagemap" style="position: absolute; left: 22.5%; top: 40.5%; width: 12.6%; height: 1.45%;"><span class="imagemapname">Calls Panel</span></div></a>
     <a href="/pilots-corner/a32nx-briefing/flight-deck/ovhd/wipers/"><div class="imagemap" style="position: absolute; left: 22.5%; top: 41.95%; width: 12.6%; height: 2.2%;"><span class="imagemapname">Wiper Panel Capt.</span></div></a>

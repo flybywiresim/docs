@@ -13,11 +13,11 @@
 |        |                                   | Amber X                     | The spoiler position is not valid.                                      |
 | 2      | Hydraulic system pressure         | Green color                 | The hydraulic system pressure is within normal operating range.         |
 |        |                                   | Amber color                 | The hydraulic system pressure has decreased.                            |
-| 3      | ELAC and SEC                      | White label                 | The ELAC and SEC are ON and has no fault                                |
+| 3      | ELAC and SEC                      | White label                 | The ELAC and SEC are ON and have no fault                               |
 |        |                                   | Green number                | The associated computer number.                                         |
-|        |                                   | Amber number                | The computers has failed, or is switched to OFF.                        |
+|        |                                   | Amber number                | The computers have failed, or is switched to OFF.                       |
 | 4      | Aileron position                  | White scale and green index | The ailerons are in normal operations.                                  |
-|        |                                   | Amber color                 | The blue and green hydraulic servojack is unavailable.                  |
+|        |                                   | Amber color                 | The blue and green hydraulic servo jack is unavailable.                 |
 | 5      | Aileron and elevator actuator     | Green color                 | The green and blue hydraulic pressure is within normal operating range. |
 |        |                                   | Amber color                 | The green or blue hydraulic pressure is low                             |
 |        |                                   | Amber box                   | The associated computer or actuator is failed.                          |

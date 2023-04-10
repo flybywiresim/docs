@@ -6,7 +6,7 @@
 
 ---
 
-![Reading Lights Jumb Seats](../../../assets/a32nx-briefing/overhead-aft-panel/Reading-Lights.jpg "Reading Lights Jump Seats")
+![Reading Lights Jump Seats](../../../assets/a32nx-briefing/overhead-aft-panel/Reading-Lights.jpg "Reading Lights Jump Seats")
 
 ## Description
 

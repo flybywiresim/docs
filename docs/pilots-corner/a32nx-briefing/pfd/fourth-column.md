@@ -30,32 +30,32 @@
 
 ## Description
 
-These annunciations are related to the approach flight phase. They show the category of approach that the aircraft is capable of as well as the DH or MDA (if selected).
+These annunciations are related to the approach flight phase. They show the category of approach that the aircraft is capable of, as well as the DH or MDA (if selected).
 
 !!! note ""
-    These annunciations are showing the aircraft's capabilities and are independent from the actual airport and runway capabilities.
+    These annunciations show the aircraft's capabilities and are independent of the actual airport and runway capabilities.
 
 ---
 
 ### CAT 1
 
-Displayed in white showing the pilot that the aircraft is capable of CAT 1 approaches.
+Displayed in white, showing the pilot that the aircraft is capable of CAT 1 approaches.
 
 ### CAT 2
 
-Displayed in white showing the pilot that the aircraft is capable of CAT 2 approaches.
+Displayed in white, showing the pilot that the aircraft is capable of CAT 2 approaches.
 
 ### CAT 3
 
-Displayed in white showing the pilot that the aircraft is capable of CAT 3 approaches.
+Displayed in white, showing the pilot that the aircraft is capable of CAT 3 approaches.
 
 ### SINGLE
 
-Displayed in white showing the pilot that the aircraft is capable of CAT 3 approaches, with FAIL PASSIVE passive condition (one autopilot active).
+Displayed in white, showing the pilot that the aircraft is capable of CAT 3 approaches, with FAIL PASSIVE passive condition (one autopilot active).
 
 ### DUAL
 
-Displayed in white showing the pilot that the aircraft is capable of CAT 3 approaches, with FAIL OPERATIONAL condition (both autopilots active).
+Displayed in white, showing the pilot that the aircraft is capable of CAT 3 approaches, with FAIL OPERATIONAL condition (both autopilots active).
 
 ### BARO/RADIO XXXX
 

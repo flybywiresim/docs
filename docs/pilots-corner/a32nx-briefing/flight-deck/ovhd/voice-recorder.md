@@ -25,7 +25,7 @@ The cockpit voice recorder is located in the aft section of the airplane, equipp
 
 The passenger address system is also recorded if the PA reception knob is selected on.
 
-Aircraft built after 2003 have a 120 min recording time requirement. Airbus installs CVRs capable of 25h of recording since the end of 2020.
+Aircraft built after 2003 have a 120-min recording time requirement. Airbus installs CVRs capable of 25h of recording since the end of 2020.
 
 ## Usage
 
@@ -36,7 +36,7 @@ Aircraft built after 2003 have a 120 min recording time requirement. Airbus inst
     - When the ERASE button is pushed for two seconds, it erases the CVR tape, provided the airplane is on the ground, the parking brake is on and the GND CTRL button is on.
 
 - CVR TEST:
-    - When pushed and held, the CVR test is activated provided the CVR is energized and the parking brake is on. During the test, a low frequency tone is heard through the cockpit loudspeakers.
+    - When pushed and held, the CVR test is activated, provided the CVR is energized, and the parking brake is on. During the test, a low frequency tone is heard through the cockpit loudspeakers.
 
 ---
 

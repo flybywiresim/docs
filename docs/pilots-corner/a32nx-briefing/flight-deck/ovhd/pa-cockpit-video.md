@@ -13,7 +13,7 @@
 
 ### PA in use Light
 
-Illuminates when the PA is activated from the cockpit or the cabin (cabin attendant ot prerecorded announcement).
+Illuminates when the PA is activated from the cockpit or the cabin (cabin attendant or prerecorded announcement).
 
 !!! info ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.

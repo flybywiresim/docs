@@ -9,9 +9,9 @@
 |:-------|:--------------------------------|:--------------------------------------|:---------------------------------------------------------------------------------------------------------------|
 | 1      | Landing elevation mode          | LDG ELEV AUTO                         | The LDG ELEV is in AUTO.                                                                                       |
 |        |                                 | LDG ELEV MAN                          | The LDG ELEV is not in AUTO.                                                                                   |
-|        |                                 | Hidden                                | The MODE SEL is on MAN position.                                                                               |
+|        |                                 | Hidden                                | The MODE SEL is in MAN position.                                                                               |
 | 2      | Landing elevation               | Green color                           | The landing elevation is set in the FMGS.                                                                      |
-|        |                                 | Hidden                                | The MODE SEL is on MAN position.                                                                               |
+|        |                                 | Hidden                                | The MODE SEL is in MAN position.                                                                               |
 | 3      | Cabin vertical speed            | Green color                           | The cabin vertical speed is within normal operating range.                                                     |
 |        |                                 | Amber color                           | The vertical speed is greater than 2 000 ft/min.                                                               |
 |        |                                 | Pulsion                               | The vertical speed is greater than 1 800 feet/min, or hasn't reset yet (automatically resets at 1 600 ft/min). |

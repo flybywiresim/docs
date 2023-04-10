@@ -10,11 +10,11 @@
 
 ## Description
 
-The A320neo has a build-in independent clock which sends time data to several systems. It has redundant electrical supply and is also directly connected to the aircraft's Hot Battery Bus.
+The A320neo has a built-in independent clock which sends time data to several systems. It has redundant electrical supply and is also directly connected to the aircraft's Hot Battery Bus.
 
 Functions :
 
-- "UTC" (GMT) time in hours, minutes and seconds on the center counter.
+- "UTC" (GMT) time in hours, minutes, and seconds on the center counter.
 - Elapsed time (ET) (from engine startup) in hours and minutes on the lower counter.
 - Chronometer (CHR), which measures a time interval (from the pushing of the CHRONO button) in minutes and seconds.
 - Date display.
@@ -33,11 +33,11 @@ Tracks flight time
 
 Tracks elapsed time. Controlled by the CHR pushbutton.
 
-First push starts the CHR counter and the second push stops the CHR counter but keeps the display at its last indication.
+The first push starts the CHR counter and the second push stops the CHR counter but keeps the display at its last indication.
 
 ### Reset (RST)
 
-Resets the chrono counter when counter is running.
+Resets the chrono counter when the counter is running.
 
 ### ET selector
 
@@ -46,7 +46,7 @@ Resets the chrono counter when counter is running.
 - STP:
     - ET counter stops
 - RST:
-    - ET counter is blanked. Selector returns to its STP position when the selector is released.
+    - ET counter is blanked. The selector returns to its STP position when the selector is released.
 
 Note: When alternating between "RUN" and "STP" a cumulative elapsed time can be measured.
 
@@ -61,7 +61,7 @@ Note: When alternating between "RUN" and "STP" a cumulative elapsed time can be 
 Note: In order to select the date mode, the UTC selector must be set on "GPS" or "INT" position.
 
 !!! info ""
-    In the FlyByWire A32NX the Date Set button must be held to show date. It switches back to time when released.
+    In the FlyByWire A32NX, the Date Set button must be held to show date. It switches back to time when released.
 
 ---
 

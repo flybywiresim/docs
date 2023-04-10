@@ -12,7 +12,7 @@
 
 ## Description
 
-- The calls panel will allow the cockpit to initiate calls to the flight attendants via the cabin interphone system, and the ground crew via the flight interphone system.
+- The calls panel allows the cockpit to initiate calls to the flight attendants via the cabin interphone system, and the ground crew via the flight interphone system.
 - The cabin interphone system is used for communication between the cockpit, flight attendant stations, and other external locations on the aircraft.
 - The flight interphone system is used for communication between the cockpit and the external service interphone panel, located near the nose gear on the External Power Panel.
 

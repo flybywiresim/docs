@@ -47,14 +47,14 @@
 
 These lights go out when:
 
-- Any pilot presses the light (some warnings will not be extinguished such as overspeed or stall).
+- Any pilot presses the light (some warnings will not be extinguished, such as overspeed or stall).
 - The warning/caution event is over.
-- Any pilot presses the CLR pb on the ECAM control panel (some warnings will not be extinguished such as overspeed or stall).
+- Any pilot presses the CLR pb on the ECAM control panel (some warnings will not be extinguished, such as overspeed or stall).
 - Any pilot presses the EMER CANC pb on the ECAM control panel.
 
 The aural warnings terminate when:
 
-- Any pilot presses the MASTER WARN light (some warnings will not be extinguished such as overspeed or stall).
+- Any pilot presses the MASTER WARN light (some warnings will not be extinguished, such as overspeed or stall).
 - The warning event is over.
 - Any pilot presses the EMER CANC pb on the ECAM control panel.
 

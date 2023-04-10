@@ -16,9 +16,9 @@
     <a href="/pilots-corner/a32nx-briefing/pfd/ils-indicator/">     <div class="imagemap"             style="position: absolute; left:     0%; top: 85.00%; width: 16.00%; height: 13.00%;"><span class="imagemapname">ILS Information</span></div></a>
 </div>
 
-This is made up of several different parts that all come together to provide flight guidance to the pilots. It is an oval split in half with brown at the bottom and blue at the top. Blue indicates the sky and brown indicates the ground. The black line where they meet in the middle is the 0 degree attitude marker.
+This is made up of several different parts that all come together to provide flight guidance to the pilots. It is an oval split in half with brown at the bottom and blue at the top. Blue indicates the sky and brown indicates the ground. The black line where they meet in the middle is the 0-degree attitude marker.
 
-On top of the background are several markers and symbols that show the pilot several things which are explained below.
+On top of the background are several markers and symbols that show the pilot several things, which are explained below.
 
 ### Sidestick Order Indication
 
@@ -30,11 +30,11 @@ It displays the corners of a square in white. It shows the pilots the maximum si
 
 ### Ground Roll Guidance Command
 
-This is a green vertical bar displayed underneath the 0 degree line. It is displayed on the ground or below 30 feet radio altitude and if there is a localiser signal available. It shows the flight director yaw orders, to keep the aircraft on the runway centre line.
+This is a green vertical bar displayed underneath the 0-degree line. It is displayed on the ground or below 30 feet radio altitude and if there is a localizer signal available. It shows the flight director yaw orders, to keep the aircraft on the runway center line.
 
 ### Fixed Aircraft Symbol
 
-This is displayed in black and outlined in yellow. The yellow outline is dimmed if the crew selects TRK-FPA, unless the FMA is in TO/GA or FLX mode. This symbol is fixed and the background moves to display the bank angle and pitch of the aircraft.
+This is displayed in black and outlined in yellow. The yellow outline is dimmed if the crew selects TRK-FPA, unless the FMA is in TO/GA or FLX mode. This symbol is fixed, and the background moves to display the bank angle and pitch of the aircraft.
 
 ### Roll Scale
 
@@ -46,9 +46,9 @@ This triangle is underneath the roll scale, displayed in yellow, and shows the b
 
 ### Pitch Scale
 
-White markers that display the angle of pitch on the artificial horizon. There are markers every 10 degrees between 80 degrees nose up and 80 degrees nose down,  with a smaller marker every 2.5 degrees between 30 degrees nose up and 10 degrees nose down.
+White markers that display the angle of pitch on the artificial horizon. There are markers every 10 degrees between 80 degrees nose up, and 80 degrees nose down, with a smaller marker every 2.5 degrees between 30 degrees nose up and 10 degrees nose down.
 
-When the pitch angle exceeds 25 degrees nose up or 30 degrees nose down, all of the pfd displays and indicators will become hidden.
+When the pitch angle exceeds 25 degrees nose up or 30 degrees nose down, all the PFD displays and indicators will become hidden.
 
 Beyond 30 degrees, large red arrowheads indicate that attitude has become excessive and will show the direction to move the nose in order to reduce it. The display will return to normal once the pitch angle reaches lower than 22 degrees nose up or 10 degrees nose down.
 
@@ -63,11 +63,11 @@ An amber X will replace these symbols if the protection is lost.
 
 ### Sideslip Index
 
-This is displayed in yellow underneath the roll index. It is a trapezoidal shape and it moves underneath the roll index.
+This is displayed in yellow underneath the roll index. It is a trapezoidal shape, and it moves underneath the roll index.
 
-On the ground it will display the lateral acceleration of the aircraft.
+On the ground, it will display the lateral acceleration of the aircraft.
 
-In flight it will display sideslip. One centimeter (in the real aircraft) of displacement on the display indicates 0.2g. The sideslip index will stop at 0.3g.
+In flight, it will display sideslip. One centimeter (in the real aircraft) of displacement on the display indicates 0.2g. The sideslip index will stop at 0.3g.
 
 If there is an engine failure at takeoff or go around, the sideslip index will change from yellow to blue.
 
@@ -81,7 +81,7 @@ In this case, the sideslip index is called the beta target. When this index is c
 
 ## Flight Director
 
-Two flight guidance modes are available, each having its own symbols.
+Two flight guidance modes are available, each having their own symbols.
 
 ### Heading / Vertical Speed Reference
 
@@ -96,7 +96,7 @@ They flash for 10 seconds and then remain steady when:
 
 ### Track / Flight Path Angle
 
-The inertial flight path vector defines the aircraft's horizontal and vertical track, taking wind effect into account. An associated flight path director guides the pilots onto the vertical and horizontal flight path targets.
+The inertial flight path vector defines the aircraft's horizontal and vertical track, taking wind effects into account. An associated flight path director guides the pilots onto the vertical and horizontal flight path targets.
 
 ---
 [Back to Interactive PFD](index.md){ .md-button }

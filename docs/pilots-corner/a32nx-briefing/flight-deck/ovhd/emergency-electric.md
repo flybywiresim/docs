@@ -18,10 +18,10 @@
 - AUTO: When the following conditions are met:
     - AC BUS 1 is not electrically supplied.
     - AC BUS 2 is not electrically supplied.
-    - Aircraft speed is greater than 100 knots.
+    - Aircraft speed exceeds 100 knots.
     - The Ram Air Turbine (RAT) extends.
     - The blue hydraulic system drives the emergency generator.
-    - As soon as the emergency generator electrical parameters are within tolerance the emergency generator is connected to the aircraft network.
+    - As soon as the emergency generator electrical parameters are within tolerance, the emergency generator is connected to the aircraft network.
 - Pressed:
     - This selects manual RAT extension.
     - Emergency generator coupling occurs 3 seconds after the RAT is supplying the emergency generator.

@@ -13,11 +13,11 @@
 
 ## Description
 
-The forward and aft cargo compartments are equipped with smoke detection systems which alert the crew and close isolation valves to the cargo compartment.
+The forward and aft cargo compartments are equipped with smoke detection systems, which alert the crew and close isolation valves to the cargo compartment.
 
 ## Description
 
-The forward and aft cargo compartments are equipped with smoke detection systems which alert the crew and close isolation valves to the cargo compartment.
+The forward and aft cargo compartments are equipped with smoke detection systems, which alert the crew and close isolation valves to the cargo compartment.
 
 ## Usage
 
@@ -34,11 +34,11 @@ Ignites the squib to discharge the extinguishing agent in the corresponding comp
 
 ### DISCH light
 
-Amber light comes on, indicating that the agent bottle has discharged.
+An amber light comes on, indicating that the agent bottle has discharged.
 
 ### TEST
 
-To test the system press this button and hold it:
+To test the system, press this button and hold it:
 
 - Tests the smoke detectors
 - Turns on the red smoke lights and displays an ECAM warning

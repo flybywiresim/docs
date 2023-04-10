@@ -30,7 +30,7 @@
 ###  SEAT BELTS
 
 - ON:
-    - Turn on FASTEN SEAT BELT and RETURN TO SEAT signs. Low tone chime is played in the passenger compartment.
+    - Turn on FASTEN SEAT BELT and RETURN TO SEAT signs. A low tone chime is played in the passenger compartment.
 - OFF:
     - Turn signs off and chime sounds.
 

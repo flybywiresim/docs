@@ -12,7 +12,7 @@
 
 ## Description
 
-The ECAM Control Panel is used to change what is displayed on the Warning Display and System Display (Lower ECAM) and also has knobs to regulate brightness of the both ECAM displays.
+The ECAM Control Panel is used to change what is displayed on the Warning Display and System Display (Lower ECAM) and also has knobs to regulate the brightness of both the ECAM displays.
 
 See detailed ECAM briefing:
 
@@ -22,7 +22,7 @@ See detailed ECAM briefing:
 
 ###  OFF / BRT knobs
 
-These knobs control the brightness of the ECAM displays and also allow to turn the ECAM displays off.
+These knobs control the brightness of the ECAM displays and also allow turning the ECAM displays off.
 
 ### System page buttons
 
@@ -46,13 +46,13 @@ The SD successively displays all the system pages at one-second intervals, when 
 
 ### EMER CANC
 
-Silences warnings and cancels cautions for the rest of the flight but continues to show these warnings and cautions on the ECAM Status page.
+Silences warnings and cancels cautions for the rest of the flight, but continues to show these warnings and cautions on the ECAM Status page.
 
 The RCL button can be pressed for 3 seconds to recall the caution messages.
 
 ### T.O. CONFIG
 
-To test the takeoff configuration this button simulates the use of takeoff power. It triggers a warning, if the aircraft is not in takeoff configuration.
+To test the takeoff configuration, this button simulates the use of takeoff power. It triggers a warning, if the aircraft is not in takeoff configuration.
 
 The E/WD displays the "TO CONFIG NORMAL" message when the configuration is correct.
 
