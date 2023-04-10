@@ -446,12 +446,12 @@ For this flight, we will be taking off with a `1+F` flaps configuration.
 
     ---
 
-    ^^ZFWCG^^
+    ^^GW CG^^
 
-    While not *realistic or accurate*, you can insert a THS value based on the ZFWCG values found in the following areas in the MCDU:
+    Insert a THS value based on the GW CG values found in the EFB Ground Services > Payload page. While this will be slightly off versus TOCG because of taxi fuel consumption, this will be close enough to accurate values until a better TOCG display is implemented. You can 
 
-    - Auto-populated when entering information in the [INIT FUEL PRED](#init-fuel-pred) page
-    - ZFWCG value on the EFB found on the [Payload Tab on the Grounds Services Page](../../fbw-a32nx/feature-guides/loading-fuel-weightmd#finding-the-payload-screen).
+    - GW CG value on the EFB found on the [Payload Tab on the Grounds Services Page](../../fbw-a32nx/feature-guides/loading-fuel-weight.md#finding-the-payload-screen).
+    - CG to THS can be found in the downloable FBW checklist in our [Standard Operating Procedures](../SOP.md#normal-procedures) resources page.
 
     Make sure to update this value or set the correct trim once your engines have started.
 
