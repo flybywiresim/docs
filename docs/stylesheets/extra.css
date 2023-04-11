@@ -132,17 +132,17 @@ tbody {
     border: 1px solid black;
 }
 
-/* Responsive Styling */
+/* Responsive Styling PDF */
 
 @media screen and (max-width: 768px) {
     .pdf-embed {
-        height: 300px;
+        height: 600px;
     }
 }
 
 @media screen and (max-width: 480px) {
     .pdf-embed {
-        height: 200px;
+        height: 600px;
     }
 }
 
