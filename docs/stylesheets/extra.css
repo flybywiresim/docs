@@ -130,6 +130,7 @@ tbody {
     width: 100%;
     height: 800px;
     border: 1px solid black;
+    background-color: white;
 }
 
 /* Responsive Styling PDF */
@@ -137,6 +138,7 @@ tbody {
 @media screen and (max-width: 768px) {
     .pdf-embed {
         height: 600px;
+
     }
 }
 
