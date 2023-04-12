@@ -21,4 +21,5 @@
 |        |                                   | Amber crossline | The pushbutton is OFF and the valve is closed, or the valve is not coordinated with the control position. |
 |        |                                   | Green inline    | The valve is open.                                                                                        |
 |        |                                   | Amber inline    | The valve is open, but it is not coordinated with the control position.                                   |
+| 7      | Temperature unit                  | Green number    | The unit of temperature indications.                                                                      |             
 
