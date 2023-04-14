@@ -325,7 +325,9 @@ The following list of issues are commonly reported on our Discord support channe
 
     ^^Possible Solution or Workaround^^
 
-    Please follow the steps below to bypass this issue:
+    Try pressing ++ctrl+z++.
+
+    If this didn't help, please follow the steps below to bypass this issue:
 
     1. Open your browser (i.e., Chrome / Firefox)
     - In the URL field, type - `localhost:19999`
