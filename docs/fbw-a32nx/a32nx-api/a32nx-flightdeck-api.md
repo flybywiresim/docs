@@ -266,19 +266,23 @@ Flight Deck: [Fire Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/fi
 
 Flight Deck: [Fuel Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/fuel.md)
 
-!!! note "The below table shows the API for PUMP 1. Replace `1` with `2..6` for the other pumps."
-    L1=2, L2=5. C1=1, C2=4, R1=3, R2=6
+!!! note "The below table shows the API for PUMP 1. Replace with appropriate value for the other pumps."
+    L1=2, L2=5, C1=9, C2=10, R1=3, R2=6
 
-| Function    | API Usage                 | Values   | Read/Write | Type       | Remark |
-|:------------|:--------------------------|:---------|:-----------|:-----------|:-------|
-| Fuel Pump 1 | FUELSYSTEM_PUMP_TOGGLE    | 1..6     | -          | MSFS EVENT |        |
-|             | FUELSYSTEM PUMP ACTIVE:1  | 0&#124;1 | R          | MSFS VAR   |        |
-|             | FUELSYSTEM PUMP SWITCH:1  | 0&#124;1 | R          | MSFS VAR   |        |
-|             |                           |          |            |            |        |
-| X FEED      | FUELSYSTEM_VALVE_TOGGLE   | 3        | -          | MSFS EVENT |        |
-|             | FUELSYSTEM VALVE SWITCH:3 | 0&#124;1 | R          | MSFS VAR   |        |
-|             |                           |          |            |            |        |
-| MODE SEL    | N/A                       |          |            |            |        |
+    !!! warning ""
+        Please note that FUELSYSTEM_PUMP_TOGGLE 1 and 4 for the center tank pump switches got replaced with FUELSYSTEM_VALVE_TOGGLE 9 and 10, due to the NEO having jet pumps instead of conventional pumps, which was corrected in a recent update.
+
+| Function        | API Usage                 | Values   | Read/Write | Type       | Remark                                      |
+|:----------------|:--------------------------|:---------|:-----------|:-----------|:--------------------------------------------|
+| Fuel Pump 1     | FUELSYSTEM_PUMP_TOGGLE    | 2,3,5,6  | -          | MSFS EVENT | Fuel pumps only available in the wing tanks |
+| Fuel Jet Pump 1 | FUELSYSTEM_VALVE_TOGGLE   | 9,10     | -          | MSFS EVENT | Used for center tank fuel jet pump valves   |
+|                 | FUELSYSTEM PUMP ACTIVE:1  | 0&#124;1 | R          | MSFS VAR   |                                             |
+|                 | FUELSYSTEM PUMP SWITCH:1  | 0&#124;1 | R          | MSFS VAR   |                                             |
+|                 |                           |          |            |            |                                             |
+| X FEED          | FUELSYSTEM_VALVE_TOGGLE   | 3        | -          | MSFS EVENT |                                             |
+|                 | FUELSYSTEM VALVE SWITCH:3 | 0&#124;1 | R          | MSFS VAR   |                                             |
+|                 |                           |          |            |            |                                             |
+| MODE SEL        | N/A                       |          |            |            |                                             |
 
 ### Air Condition Panel
 
