@@ -271,8 +271,6 @@ Flight Deck: [Fuel Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/fu
 
     !!! warning ""
         Please note that FUELSYSTEM_PUMP_TOGGLE 1 and 4 for the center tank pump switches got replaced with FUELSYSTEM_VALVE_TOGGLE 9 and 10, due to the NEO having jet pumps instead of conventional pumps, which was corrected in a recent update.
-        
-        The new vars or events for these buttons are FUELSYSTEM_VALVE_TOGGLE 9 and 10.
 
 | Function        | API Usage                 | Values   | Read/Write | Type       | Remark                                      |
 |:----------------|:--------------------------|:---------|:-----------|:-----------|:--------------------------------------------|
