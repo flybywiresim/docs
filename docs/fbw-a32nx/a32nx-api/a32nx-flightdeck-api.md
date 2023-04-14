@@ -267,7 +267,7 @@ Flight Deck: [Fire Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/fi
 Flight Deck: [Fuel Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/fuel.md)
 
 !!! note "The below table shows the API for PUMP 1. Replace with appropriate value for the other pumps."
-    L1=2, L2=5. C1=9, C2=10, R1=3, R2=6
+    L1=2, L2=5, C1=9, C2=10, R1=3, R2=6
 
     !!! warning ""
         Please note that FUELSYSTEM_PUMP_TOGGLE 1 and 4 for the center tank pump switches don't work anymore because these pumps do not exist in the NEO, which was corrected in a recent update.
