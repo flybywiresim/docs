@@ -270,7 +270,7 @@ Flight Deck: [Fuel Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/fu
     L1=2, L2=5, C1=9, C2=10, R1=3, R2=6
 
     !!! warning ""
-        Please note that FUELSYSTEM_PUMP_TOGGLE 1 and 4 for the center tank pump switches don't work anymore because these pumps do not exist in the NEO, which was corrected in a recent update.
+        Please note that FUELSYSTEM_PUMP_TOGGLE 1 and 4 for the center tank pump switches got replaced with FUELSYSTEM_VALVE_TOGGLE 9 and 10, due to the NEO having jet pumps instead of conventional pumps, which was corrected in a recent update.
         
         The new vars or events for these buttons are FUELSYSTEM_VALVE_TOGGLE 9 and 10.
 
