@@ -274,16 +274,17 @@ Flight Deck: [Fuel Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/fu
         
         The new vars or events for these buttons are FUELSYSTEM_VALVE_TOGGLE 9 and 10.
 
-| Function    | API Usage                 | Values        | Read/Write | Type       | Remark |
-|:------------|:--------------------------|:--------------|:-----------|:-----------|:-------|
-| Fuel Pump 1 | FUELSYSTEM_PUMP_TOGGLE    | 2,3,5,6,9,10  | -          | MSFS EVENT |        |
-|             | FUELSYSTEM PUMP ACTIVE:1  | 0&#124;1      | R          | MSFS VAR   |        |
-|             | FUELSYSTEM PUMP SWITCH:1  | 0&#124;1      | R          | MSFS VAR   |        |
-|             |                           |               |            |            |        |
-| X FEED      | FUELSYSTEM_VALVE_TOGGLE   | 3             | -          | MSFS EVENT |        |
-|             | FUELSYSTEM VALVE SWITCH:3 | 0&#124;1      | R          | MSFS VAR   |        |
-|             |                           |               |            |            |        |
-| MODE SEL    | N/A                       |               |            |            |        |
+| Function        | API Usage                 | Values   | Read/Write | Type       | Remark                                      |
+|:----------------|:--------------------------|:---------|:-----------|:-----------|:--------------------------------------------|
+| Fuel Pump 1     | FUELSYSTEM_PUMP_TOGGLE    | 2,3,5,6  | -          | MSFS EVENT | Fuel pumps only available in the wing tanks |
+| Fuel Jet Pump 1 | FUELSYSTEM_VALVE_TOGGLE   | 9,10     | -          | MSFS EVENT | Used for center tank fuel jet pump valves   |
+|                 | FUELSYSTEM PUMP ACTIVE:1  | 0&#124;1 | R          | MSFS VAR   |                                             |
+|                 | FUELSYSTEM PUMP SWITCH:1  | 0&#124;1 | R          | MSFS VAR   |                                             |
+|                 |                           |          |            |            |                                             |
+| X FEED          | FUELSYSTEM_VALVE_TOGGLE   | 3        | -          | MSFS EVENT |                                             |
+|                 | FUELSYSTEM VALVE SWITCH:3 | 0&#124;1 | R          | MSFS VAR   |                                             |
+|                 |                           |          |            |            |                                             |
+| MODE SEL        | N/A                       |          |            |            |                                             |
 
 ### Air Condition Panel
 
