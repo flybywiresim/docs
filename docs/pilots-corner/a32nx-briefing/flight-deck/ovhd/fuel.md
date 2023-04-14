@@ -56,15 +56,16 @@ Both engines can be fed from one side, or both sides can feed only one engine.
 
 ### CTR TK PUMP 1 + 2
 
+!!! note ""
+     The A320neo doesn't have traditional pumps for the center tank anymore. These have been replaced jet pump. Only the valves to the pumps can be controlled by the flight crew. The current aircraft model used by the FlyByWire A32NX has incorrect labels.
+
 - ON:
-    - Pump runs if MAN mode is selected on MODE SEL pushbutton switch. The pump is automatically controlled when AUTO mode is selected.
+    - Valve is open if MAN mode is selected on MODE SEL pushbutton switch. The pump is automatically controlled when AUTO mode is selected.
 - OFF:
-    - Pump is off and the OFF button lights up white.
+    - Valve is closed and the OFF button lights up white.
 - FAULT:
     - Amber light and ECAM caution appear when delivery pressure drops while pump operates.
 
-!!! note ""
-     The A320neo doesn't have center tank pumps anymore. These have been replaced by transfer valves. The current aircraft model used by the FlyByWire A32NX has incorrect labels.
 
 ### X FEED
 
