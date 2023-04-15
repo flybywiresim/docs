@@ -56,7 +56,7 @@ Both engines can be fed from one side, or both sides can feed only one engine.
      The A320NEO doesn't have traditional pumps for the center tank anymore. These have been replaced with jet pumps. Only the valves to the pumps can be controlled by the flight crew. The current aircraft model used by the FlyByWire A32NX has incorrect labels.
 
 - ON/AUTO:
-    - Valve is open if MAN mode is selected wiht the MODE SEL pushbutton switch. The pump is automatically controlled when AUTO mode is selected.
+    - Valve is open if MAN mode is selected with the MODE SEL pushbutton switch. The pump is automatically controlled when AUTO mode is selected.
 - OFF:
     - Valve is closed and the OFF button lights up white.
 
