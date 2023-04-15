@@ -86,6 +86,7 @@ This fallback mode is triggered when multiple flight-critical redundant systems 
 Unlike normal Alternate Law, Abnormal Alternate Law (also known as Abnormal Attitude Law) is activated when the plane is far outside the normal flight envelope and reaches abnormal attitudes (even when in Normal Law).
 
 Abnormal Law is triggered when one of the following conditions is met:
+
 - Bank angle above 125°
 - Pitch attitude above 50° up or 30° down
 - Speed below 60-90 kt (exact value dependent on pitch)
