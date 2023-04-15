@@ -43,22 +43,22 @@ Both engines can be fed from one side, or both sides can feed only one engine.
 
 - AUTO:
     - Automatic control of transfer valves from center to inner tanks, if the CTR TK PUMP are set to ON/AUTO
-        - Valves open if inner tank level is 500kg below inner tank capacity.
-        - Valves close when center tank has no fuel left or inner tank is full.
+        - Valves open if inner tank level is 500 kg below inner tank capacity.
+        - Valves close when the center tank has no fuel left or the inner tank is full.
 - MAN:
     - Manual control of center tank valve to inner tanks with center tank pumps button switches.
 - FAULT:
-    - Amber light and ECAM caution appear, when the left or right-wing tank has less than 5000 kg (11000 lb) and center tank has more than 250 kg (550 lb).
+    - Amber light and ECAM caution appear, when the left or right-wing tank has less than 5000 kg (11,000 lb) and the center tank has more than 250 kg (550 lb).
 
 ### CTR TK PUMP 1 + 2
 
+!!! note ""
+     The A320NEO doesn't have traditional pumps for the center tank anymore. These have been replaced with jet pumps. Only the valves to the pumps can be controlled by the flight crew. The current aircraft model used by the FlyByWire A32NX has incorrect labels.
+
 - ON/AUTO:
-    - Valve is open if MAN mode is selected on MODE SEL pushbutton switch. The pump is automatically controlled when AUTO mode is selected.
+    - Valve is open if MAN mode is selected wiht the MODE SEL pushbutton switch. The pump is automatically controlled when AUTO mode is selected.
 - OFF:
     - Valve is closed and the OFF button lights up white.
-
-!!! note ""
-     The A320neo doesn't have traditional pumps for the center tank anymore. These have been replaced jet pump. Only the valves to the pumps can be controlled by the flight crew. The current aircraft model used by the FlyByWire A32NX has incorrect labels.
 
 ### X FEED
 
