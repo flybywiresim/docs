@@ -33,7 +33,7 @@ Both engines can be fed from one side, or both sides can feed only one engine.
 ###  L + R TK PUMPS 1 + 2
 
 - ON:
-    - Pump is on but only provides fuel if the center tank is empty.
+    - Pump is on.
 - OFF:
     - Pump is OFF and the button lights up a white OFF.
 - FAULT:
@@ -42,29 +42,23 @@ Both engines can be fed from one side, or both sides can feed only one engine.
 ### MODE SEL
 
 - AUTO:
-    - Automatic control.
-        - Runs 2 minutes at engine start.
-        - Outside the engine start sequence, the pumps activate while slats are retracted.
-        - After the center tank low level is reached, they deactivate after 5 minutes.
+    - Automatic control of transfer valves from center to inner tanks, if the CTR TK PUMP are set to ON/AUTO
+        - Valves open if inner tank level is 500 kg below inner tank capacity.
+        - Valves close when the inner tank is full or 5 minutes after the center tank low fuel level (130 kg) is reached.
 - MAN:
-    - Manual control of center tank pump with center tank pumps button switches.
+    - Manual control of center tank valve to inner tanks with center tank pumps button switches.
 - FAULT:
-    - Amber light and ECAM caution appear, when the left or right-wing tank has less than 5000 kg (11000 lb) and center tank has more than 250 kg (550 lb).
-
-!!! info ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+    - Amber light and ECAM caution appear, when the left or right-wing tank has less than 5000 kg (11,000 lb) and the center tank has more than 250 kg (550 lb).
 
 ### CTR TK PUMP 1 + 2
 
-- ON:
-    - Pump runs if MAN mode is selected on MODE SEL pushbutton switch. The pump is automatically controlled when AUTO mode is selected.
-- OFF:
-    - Pump is off and the OFF button lights up white.
-- FAULT:
-    - Amber light and ECAM caution appear when delivery pressure drops while pump operates.
-
 !!! note ""
-     The A320neo doesn't have center tank pumps anymore. These have been replaced by transfer valves. The current aircraft model used by the FlyByWire A32NX has incorrect labels.
+     The A320NEO doesn't have traditional pumps for the center tank anymore. These have been replaced with jet pumps. Only the valves to the pumps can be controlled by the flight crew. The current aircraft model used by the FlyByWire A32NX has incorrect labels.
+
+- ON/AUTO:
+    - Valve is open if MAN mode is selected wiht the MODE SEL pushbutton switch. The pump is automatically controlled when AUTO mode is selected.
+- OFF:
+    - Valve is closed and the OFF button lights up white.
 
 ### X FEED
 
