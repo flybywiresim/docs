@@ -44,7 +44,7 @@ Both engines can be fed from one side, or both sides can feed only one engine.
 - AUTO:
     - Automatic control of transfer valves from center to inner tanks, if the CTR TK PUMP are set to ON/AUTO
         - Valves open if inner tank level is 500 kg below inner tank capacity.
-        - Valves close when the center tank has no fuel left or the inner tank is full.
+        - Valves close when the innter tank is full or 5 minutes after the center tank low fuel level (130 kg) is reached.
 - MAN:
     - Manual control of center tank valve to inner tanks with center tank pumps button switches.
 - FAULT:
