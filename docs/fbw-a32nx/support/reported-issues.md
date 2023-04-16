@@ -977,7 +977,33 @@ Please try these before reporting any other issue on Discord.
 
 ## Incompatible and Problematic Add-ons/Mods
 
-The following add-ons and mods are known to be incompatible and cause issues with the A32NX. We recommend you uninstall these before starting the sim and flying with the A32NX, especially if you experience issues with the aircraft. 
+The following add-ons and mods are known to be incompatible and cause issues with the A32NX. We recommend you uninstall these before starting the sim and flying with the A32NX, especially if you experience issues with the aircraft.
+
+??? bug "New Light Mod"
+    ### New Light Mod
+
+    !!! tip ""
+        *Affected versions: Stable, Development*
+
+    ^^Description^^
+
+    If you are experiencing issues with the lights in the cockpit we have found that the New Light addon creates breaking conflicts with the A32NX.
+
+    You may experience certain lights to not illuminating the cockpit appropriately or refuse to turn on at all.
+
+    **Note: This issue is separate from the UTF8 issues and strictly affects lighting only.**
+
+    ^^Root Cause^^
+
+    We have identified the following addon to be the main offender:
+
+    !!! bug ""
+        New Light (enhancement taxi, landing light and other extrior light) | by nicottine
+
+    ^^Possible Solution or Workaround^^
+
+    - Uninstall the mod
+    - Use an add-on linker to ensure the mod is only installed when you plan to use it.
 
 ??? bug "LVFR A321neo Compatibility Mod"
     ### LVFR A321neo Compatibility Mod
