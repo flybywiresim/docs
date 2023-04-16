@@ -979,26 +979,31 @@ Please try these before reporting any other issue on Discord.
 
 The following add-ons and mods are known to be incompatible and cause issues with the A32NX. We recommend you uninstall these before starting the sim and flying with the A32NX, especially if you experience issues with the aircraft.
 
-??? bug "New Light Mod"
-    ### New Light Mod
+??? bug "Lights Addons"
+    ### Lights Addons
 
     !!! tip ""
         *Affected versions: Stable, Development*
 
     ^^Description^^
 
-    If you are experiencing issues with the lights in the cockpit we have found that the New Light addon creates breaking conflicts with the A32NX.
+    If you are experiencing issues with the lights in the cockpit we have found some addons create breaking conflicts with the A32NX.
 
     You may experience certain lights to not illuminating the cockpit appropriately or refuse to turn on at all.
 
     **Note: This issue is separate from the UTF8 issues and strictly affects lighting only.**
 
-    ^^Root Cause^^
-
     We have identified the following addon to be the main offender:
 
     !!! bug ""
         New Light (enhancement taxi, landing light and other extrior light) | by nicottine
+
+    Please be aware there may be other lights addons that may also cause this issue.
+
+    ^^Root Cause^^
+
+    It isn't currently possible to seamlessly modify lights on planes via mods. Creators would instead have to replace the whole airplane systems definition - which breaks everything when we 
+    update it ourselves.
 
     ^^Possible Solution or Workaround^^
 
