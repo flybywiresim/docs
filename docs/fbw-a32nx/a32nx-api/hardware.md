@@ -31,6 +31,14 @@ To build your own profile, you can use our Flight-Deck API Documentation: [Fligh
 !!! tip ""
     Remember to calibrate your throttle detents for this throttle: [TCA Throttle Calibration](../feature-guides/flypados3/throttle-calibration.md#thrustmaster-tca-throttle)
 
+!!! warning ""
+    To avoid unexpected problems during a flight, some default keybindings should be removed when using the TCA Throttle. 
+    
+    If you have the sidestick as well, make sure to unbind the mini-throttle from the sidestick.
+
+    If you don't have the Add-ons, remove all the key bindings for the buttons, knobs, and axis on the Add-ons. These are shown in the image below:
+    ![Thrustmaster TCA Quadrant Add-on Airbus Edition Bindings](../assets/api-guide/tca-settings.png "Thrustmaster TCA Quadrant Add-on Airbus Edition Bindings"){loading=lazy}
+
 ### Thrustmaster TCA Throttle Add-On TCA Quadrant Add-on Airbus Edition
 
 ![Thrustmaster TCA Quadrant Add-on Airbus Edition](../assets/api-guide/thrustmaster-tca-quadrant-add-on.png "Thrustmaster TCA Quadrant Add-on Airbus Edition"){loading=lazy}
