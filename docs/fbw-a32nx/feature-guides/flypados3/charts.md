@@ -141,7 +141,7 @@ The local files need to be stored in the following folders (located by default i
 | Type   | Folder Location                               |
 |--------|-----------------------------------------------|
 | Images | `<SimBridge-Install-Folder>\resources\images` |
-| PDF    | `<SimBridge-Install-Folder>\resources\pdf`    |
+| PDFs   | `<SimBridge-Install-Folder>\resources\pdfs`   |
 
 The feature does not support any subfolders (yet).
 
