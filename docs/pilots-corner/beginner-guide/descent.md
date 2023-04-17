@@ -296,8 +296,8 @@ We repeat the process until we have reached our desired final approach altitude.
 - `RAD NAVAIDS` (`RNAV` page on MCDU): Selected/Identified
     - Ensure that appropriate radio NAVAIDS are tuned and identified. The A32NX is capable of autotuning to the correct frequency.
   
-        !!! warning ""
-            Autotuning is not available in the Stable version of the A32NX.
+        !!! warning "Autotuning"
+            Not available in the Stable version of the A32NX.
   
     - For NDB approaches, manually select the reference NAVAID.
 
