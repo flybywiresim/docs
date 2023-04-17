@@ -989,13 +989,13 @@ The following add-ons and mods are known to be incompatible and cause issues wit
 
     If you are experiencing issues with the lights in the cockpit we have found some addons create breaking conflicts with the A32NX.
 
-    You may experience certain lights to not illuminating the cockpit appropriately or refuse to turn on at all.
+    You may experience various cockpit lights to not illuminate the cockpit appropriately or refuse to turn on at all.
 
     **Note: This issue is separate from the UTF8 issues and strictly affects lighting only.**
 
     We have identified the following addon to be the main offender:
 
-    !!! bug ""
+    !!! warning ""
         New Light (enhancement taxi, landing light and other extrior light) | by nicottine
 
     Please be aware there may be other lights addons that may also cause this issue.
@@ -1054,7 +1054,7 @@ The following add-ons and mods are known to be incompatible and cause issues wit
 
     We have identified the following texture pack to be the main offender:
 
-    !!! bug ""
+    !!! warning ""
         Improved Textures Mod - A32NX & A320neo | by FlightFlow
 
     {--
