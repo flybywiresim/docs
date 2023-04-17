@@ -6,6 +6,7 @@ For information on how to contribute to bot development, visit the Discord bot r
 
 - BenW#8484
 - oim#0001
+- straks#7240
 
 [:fontawesome-brands-github:{: .github } **Discord Bot**](https://github.com/flybywiresim/discord-bot){ .md-button target=new}
 
