@@ -294,8 +294,11 @@ We repeat the process until we have reached our desired final approach altitude.
     - The PFD displays the LOC and glide scales and deviation symbol, if there is a valid /LS or GLS signal.
     - Check that the /LS/GLS identification is displayed on the PFD.
 - `RAD NAVAIDS` (`RNAV` page on MCDU): Selected/Identified
-    - Ensure that appropriate radio NAVA/OS are tuned and identified.
-        - Currently, the FlyByWire A32NX does not auto-tune NAVAIDS
+    - Ensure that appropriate radio NAVAIDS are tuned and identified. The A32NX is capable of autotuning to the correct frequency.
+  
+        !!! warning ""
+            Autotuning is not available in the Stable version of the A32NX.
+  
     - For NDB approaches, manually select the reference NAVAID.
 
 #### Approach Checklist
