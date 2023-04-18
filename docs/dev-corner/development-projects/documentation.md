@@ -53,8 +53,9 @@ To participate in the FlyByWire Documentation Project, you need to have the foll
 - Editor / IDE:
     - Recommended: [Microsoft Visual Studio Code](https://code.visualstudio.com/docs#vscode){target=new}
         - recommended plugins to work with Markdown:
-            - any markdown helper plugin - e.g. [https://github.com/yzhang-gh/vscode-markdown](https://github.com/yzhang-gh/vscode-markdown)
-            - especially for tables: [https://github.com/takumisoft68/vscode-markdown-table](https://github.com/takumisoft68/vscode-markdown-table)
+            - any markdown helper plugin - e.g., [https://github.com/yzhang-gh/vscode-markdown](https://github.com/yzhang-gh/vscode-markdown){target=new}
+            - especially for tables: [https://github.com/takumisoft68/vscode-markdown-table](https://github.com/takumisoft68/vscode-markdown-table){target=new}
+            - any plugin to enter Unicode symbols like the narrow non-breakable space for the thousand separator in numbers - e.g., [https://marketplace.visualstudio.com/items?itemName=brunnerh.insert-unicode](https://marketplace.visualstudio.com/items?itemName=brunnerh.insert-unicode){target=new}
     - Or any [JetBrains](https://www.jetbrains.com/) IDE, e.g. IntelliJ IDEA or Clion.
     - Or any text editor (even Notepad.exe will do) in conjunction with [stackedit.io](https://stackedit.io/){target=new} - Create and edit markdown on the web. Useful if you don't have / can't set up MkDocs locally on your machine. Does not support material references. Please note this in your PR, so a maintainer can double-check your references render appropriately.
 
@@ -235,6 +236,12 @@ If you would like to fully test a complete build of the production website, you 
 - Ensure relevant filenames are web-friendly slugs.
 - Don't hesitate to get feedback from the FlyByWire Documentation Team early and often.
 - Proofread your work carefully before marking "Ready for Review".
+
+#### Style
+
+- Use the units of measurement and their abbreviations as used by ICAO Annex 5. This document can be downloaded, for example, on the website of the [Swiss Federal Office of Civil Aviation](https://www.bazl.admin.ch/bazl/en/home/themen/legislation/anhaenge-icao.html){target=new}. 
+- If the [current de facto measurement unit](https://en.wikipedia.org/wiki/International_Civil_Aviation_Organization#Use_of_the_International_System_of_Units){target=new} differs from the recommended one or different units are used in some regions, use the most widespread unit and add the recommended or regional one(s) in brackets.
+- Regarding typography of numbers and units, the [ISO 31-0 Conventions](https://en.wikipedia.org/wiki/ISO_31-0#Typographic_conventions){target=new} should be followed, e.g., addition of a [non-breaking space (Unicode 160)](https://en.wikipedia.org/wiki/Non-breaking_space){target=new} between the number and the unit, except for degree, minute of arc, and second of arc, and the use of a [thin or narrow non-breaking space (Unicode 8239)](https://en.wikipedia.org/wiki/Non-breaking_space#Encodings){target=new} as a thousand seperator, as well as between the number and signs (+, - etc.).
 
 ## Ideas and Issues
 
