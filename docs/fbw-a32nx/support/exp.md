@@ -46,11 +46,12 @@ The following are features in testing that require the use of SimBridge:
 
 ### Pause at Top of Descent (TOD)
 
-- New setting in located in the EFB under Realism - Pause at Top of Descent or TOD (configurable by distance between 0-50 nm before TOD)
+- New setting in located in the EFB under Realism - Pause at Top of Descent (TOD). 
+- This is configurable by distance between 0-50 nm before TOD.
 - When enabled, flight will pause at the specified distance before TOD.
 - If the TOD point shifts before your present position, or AP mode reverts to CRZ, this will pause the simulation.
 
-Note: This may not be the final iteration of this feature nor how it operates. The option to toggle top of descent in the EFB settings may be changed or moved into its own dedicated flyPad page or section in the future.
+Note: This may not be the final iteration of this feature, nor how it operates. The option to toggle top of descent in the EFB settings may be changed or moved into its own dedicated flyPad page or section in the future.
 
 ### Vertical Guidance
 
