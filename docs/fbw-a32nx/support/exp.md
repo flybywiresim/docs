@@ -34,11 +34,11 @@ powered by the FWS truly won't work when both FWCs are unpowered or have failed.
 
 The following are features in testing that require the use of SimBridge:
 
-- [Terrain Display](#terrain-display) - **Now Available on the Development Version**
+- [Terrain Display](../../simbridge/simbridge-feature-guides/terrain.md) - **Now Available on the Development Version**
 - Remote MCDU (Web MCDU) - **Now Available on the Development Version**
     - [Setup and Configuration Guide](../../simbridge/simbridge-feature-guides/remote-displays/remote-mcdu.md)
     - [Usage Guide](../../simbridge/simbridge-feature-guides/remote-displays/remote-mcdu.md)
-- [Company Routes](#company-routes) - **Now Available on the Development Version**
+- [Company Routes](../../simbridge/simbridge-feature-guides/coroute.md) - **Now Available on the Development Version**
 
 !!! tip "SimBridge Information"
     - Learn about SimBridge and further status of various features, please - [Read Here](../../simbridge/index.md).
