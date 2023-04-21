@@ -141,14 +141,11 @@ the C* law, this is incorrect and will result in issues if no ADR is available.
 !!! warning
     Please read the above Known Issues list and also use the search of Discord to see if your issue has already been reported.
 
-    At this time, please only report issues via our Discord channel threads:
+    At this time, please only report issues via our Discord in the following locations:
 
-[//]: # (    [cFMS LNAV+VNAV Issue Reports [NO SUPPORT]]&#40;https://discord.com/channels/738864299392630914/926586416820011098&#41;{target=new .md-button})
+    [General - Experimental Issue Reports [SUPPORT NOT GUARANTEED]](https://discord.com/channels/738864299392630914/785976111875751956){target=new .md-button}
 
-    [flyPadOS3 Experimental - Issue Reports [NO SUPPORT]](https://discord.com/channels/738864299392630914/926586416820011098){target=new .md-button}
-
-    [General Experimental Issue Reports [NO SUPPORT]](https://discord.
-    com/channels/738864299392630914/965072479796215888){target=new .md-button}
+    [FMS - Experimental Issue Forum [SUPPORT NOT GUARANTEED]](https://discord.com/channels/738864299392630914/1046906298815488100){target=new .md-button}
 
     {--
 
