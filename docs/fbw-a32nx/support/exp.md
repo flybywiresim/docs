@@ -15,19 +15,6 @@ Currently, experimental is geared toward testing the initial version of VNAV wit
 
 ## Implemented Features for Testing
 
-### GSX Integration
-We are testing GSX's own systems integrating with the A32NX's own backend boarding and fueling system. See technical details in the respective [GitHub Pull Request #7695](https://github.com/flybywiresim/a32nx/pull/7695){target=new}.
-
-Documentation on usage and caveats can be found in the [FlypadOS3 Ground Documentation](../feature-guides/flypados3/ground.md)
-
-### RMP Navigation Tuning
-
-We are testing the ability of the radio management panel to tune navigational aids. See technical details in the respective [GitHub Pull Request #7241](https://github.com/flybywiresim/a32nx/pull/7241){target=new}.
-
-### Fine-Tuning Engine Parameters
-
-We are further turning our engine primary parameters in regard to EGT and fuel flow in a two-part implementation. See technical details in the respective [GitHub Pull Request #7542](https://github.com/flybywiresim/a32nx/pull/7542){target=new}.
-
 ### Flight Warning System (FWS)
 
 We are testing the new FWS (Flight Warning System) which replaces the previous provisional system. 
@@ -57,38 +44,13 @@ The following are features in testing that require the use of SimBridge:
     - Learn about SimBridge and further status of various features, please - [Read Here](../../simbridge/index.md).
     - [SimBridge setup and configuration guide](../../simbridge/install-configure/configuration.md).
 
-#### Terrain Display
-
-**Available on the Development Version.**
-
-!!! tip "Configuration"
-    [Terrain Usage Guide](../../simbridge/simbridge-feature-guides/terrain.md){.md-button}
-
-This feature will connect to our external database via SimBridge to accurately display terrain information on the navigation display. We've followed the peaks-mode implementation of Honeywell and do not have map-data above 83° north or below 84° south. 
-
-You can read more about the "PEAKS DISPLAY" in this technical guide from Honeywell - [Read Here](https://skybrary.aero/sites/default/files/bookshelf/3364.pdf){target=new}
-
-!!! warning "Reporting Bugs / Strange Behaviors"
-    When reporting a bug or strange behavior, that we need the GPS position or at least a reference to an airport/VOR/NDB with a distance and direction. 
-
-    This will help us iron out the feature and identify issues faster. For more information on where to report, please see [How to Report Issues](#how-to-report-issues) below.
-
-    Expect performance loss as we continue to optimize.
-
-#### Company Routes
-
-This feature allows you to save routes you regularly fly to your PC in the simBrief XML Datafiles format for repeated use.
-
-**Available on the Development Version.**
-
-!!! tip "Configuration and Usage"
-    [Company Routes Guide](../../simbridge/simbridge-feature-guides/coroute.md){.md-button}
-
 ### Pause at Top of Descent (TOD)
 
-- New setting in located in the EFB under Realism - Pause at TOD (configurable by distance between 0-50 nm before TOD)
-- When enabled, flight will pause at the specified distance before TOD
+- New setting in located in the EFB under Realism - Pause at Top of Descent or TOD (configurable by distance between 0-50 nm before TOD)
+- When enabled, flight will pause at the specified distance before TOD.
 - If the TOD point shifts before your present position, or AP mode reverts to CRZ, this will pause the simulation.
+
+Note: This may not be the final iteration of this feature nor how it operates. The option to toggle top of descent in the EFB settings may be changed or moved into its own dedicated flyPad page or section in the future.
 
 ### Vertical Guidance
 
@@ -111,25 +73,20 @@ These features are not yet available, but will be implemented at a later time.
 - Constant Mach segments
 - Vertical guidance for RNAV approaches
 
-### flyPadOS Version 3 (EFB)
-
-- Updated weight and balance features:
-    - Dynamic weight information
-    - Customizable/interactive passenger and cargo loading
-    ![wb showcase](../assets/support-guide/wb_new1.png)
-
-For features that are already available in the Development Version - see our guide for usage and known issues.
-
-[flyPadOS 3](../feature-guides/flypados3/index.md){.md-button}
-
 ---
 
 ## Released Into Development Version
 
 Features in testing that have been released into Development but not Stable will be listed here. This list will be pruned with every Stable release.
 
-- Electronic Flight Control System (EFCS)
-- Hydraulic Gear System - [Guide Here](../feature-guides/custom-hydraulics.md)
+- flyPad OS 3
+- GSX Integration
+- Simbridge
+  - Company Routes
+  - Terrain Display
+- RMP Navigation Tuning
+- VOR/DME NAV Auto-tuning
+- Fine-Tuned Engine Parameters
 
 ---
 
