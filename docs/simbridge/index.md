@@ -22,13 +22,13 @@ SimBridge is our custom-built solution to connect our aircraft to various extern
 
 ## Feature Guides
 
-|                                       Feature                                       |                                         Status                                          |
-|:-----------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------:|
-|               [Terrain Display](simbridge-feature-guides/terrain.md)                | In [Development](../fbw-a32nx/fbw-versions.md#development-version-recommended) Version  |
-|   [MCDU Remote Display](simbridge-feature-guides/remote-displays/remote-mcdu.md)    |                Available in [All Versions](../fbw-a32nx/fbw-versions.md)                |
-|            [Company Routes Support](simbridge-feature-guides/coroute.md)            |                Available in [All Versions](../fbw-a32nx/fbw-versions.md)                |
-| [flyPad Local Charts](../fbw-a32nx/feature-guides/flypados3/charts.md#local-files)  |                Available in [All Versions](../fbw-a32nx/fbw-versions.md)                |
-|                                   Remote Displays                                   |                                    Work in Progress                                     |
+|                                       Feature                                       |                           Status                            |
+|:-----------------------------------------------------------------------------------:|:-----------------------------------------------------------:|
+|               [Terrain Display](simbridge-feature-guides/terrain.md)                |  Available in [All Versions](../fbw-a32nx/fbw-versions.md)  |
+|   [MCDU Remote Display](simbridge-feature-guides/remote-displays/remote-mcdu.md)    |  Available in [All Versions](../fbw-a32nx/fbw-versions.md)  |
+|            [Company Routes Support](simbridge-feature-guides/coroute.md)            |  Available in [All Versions](../fbw-a32nx/fbw-versions.md)  |
+| [flyPad Local Charts](../fbw-a32nx/feature-guides/flypados3/charts.md#local-files)  |  Available in [All Versions](../fbw-a32nx/fbw-versions.md)  |
+|                                   Remote Displays                                   |                      Work in Progress                       |
 
 !!! warning "Important Notes"
     Please keep SimBridge updated at all times, regardless of the version of aircraft you are currently flying!
