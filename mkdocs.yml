@@ -21,6 +21,7 @@ theme:
     text: Inter
   palette:
     scheme: slate
+    primary: custom
   features:
     - navigation.tabs
     - navigation.tabs.sticky
