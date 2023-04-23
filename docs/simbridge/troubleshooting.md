@@ -238,7 +238,7 @@ For an advanced guide of this command, see the Microsoft documentation:<br/>
 This should now allow access from your browser to SimBridge's remote display via `simbridge.local`.
 
 ## Log file
-The log file contains all the messages printed by the main window, as-well as debug messages.
+The log file contains all the messages printed by the main window, as well as debug messages.
 
 The log file is stored in a file in this folder, formatted by date:
 ```
