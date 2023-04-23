@@ -54,8 +54,8 @@ To participate in the FlyByWire Documentation Project, you need to have the foll
     - Recommended: [Microsoft Visual Studio Code](https://code.visualstudio.com/docs#vscode){target=new}
         - recommended plugins to work with Markdown:
             - any markdown helper plugin - e.g., [https://github.com/yzhang-gh/vscode-markdown](https://github.com/yzhang-gh/vscode-markdown){target=new}
-            - especially for tables: [https://github.com/takumisoft68/vscode-markdown-table](https://github.com/takumisoft68/vscode-markdown-table){target=new}
-            - any plugin to enter Unicode symbols like the narrow non-breakable space for the thousand separator in numbers - e.g., [https://marketplace.visualstudio.com/items?itemName=brunnerh.insert-unicode](https://marketplace.visualstudio.com/items?itemName=brunnerh.insert-unicode){target=new}
+            - especially for tables: [https://github.com/darkriszty/MarkdownTablePrettify-VSCodeExt](https://github.com/darkriszty/MarkdownTablePrettify-VSCodeExt){target=new}
+            - any plugin to enter Unicode symbols like the narrow non-breakable space for the thousand separator in numbers - e.g., [https://github.com/brunnerh/insert-unicode](https://github.com/brunnerh/insert-unicode){target=new}
     - Or any [JetBrains](https://www.jetbrains.com/) IDE, e.g. IntelliJ IDEA or Clion.
     - Or any text editor (even Notepad.exe will do) in conjunction with [stackedit.io](https://stackedit.io/){target=new} - Create and edit markdown on the web. Useful if you don't have / can't set up MkDocs locally on your machine. Does not support material references. Please note this in your PR, so a maintainer can double-check your references render appropriately.
 
