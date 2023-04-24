@@ -9,7 +9,7 @@ You can configure SimBridge to provide you with options that best suit your need
     Make sure to `Save` or `Discard` any settings you might've changed in order for the settings to be reflected in SimBridge.
 
 !!! warning Notice 
-    If SimBridge is running make sure to stop and then start the service in order for SimBridge to load the modified settings.
+    If SimBridge is running, make sure to stop and then start the service in order for SimBridge to load the modified settings.
 
 ## Server Settings
 This tab is dedicated to settings regarding the SimBridge server itself.
@@ -18,7 +18,7 @@ This tab is dedicated to settings regarding the SimBridge server itself.
     - You can modify SimBridge's hosted port.
     - Default: `8380`
     !!! warning "Notice"
-        If this is changed make sure to reflect the same port in the [EFB](../../fbw-a32nx/feature-guides/flypados3/settings.md#sim-options).
+        If this is changed, make sure to reflect the same port in the [EFB](../../fbw-a32nx/feature-guides/flypados3/settings.md#sim-options).
 
 ## Printer Settings
 This tab is for modifying settings regarding printing data from the MCDU to your physical printer.
@@ -27,7 +27,7 @@ This tab is for modifying settings regarding printing data from the MCDU to your
     - A simple option to enable or disable the printer function as a whole.
     - Default: `False`
 - Printer Name
-    - This is a dropdown list that lists all of the available printers on your network.
+    - This is a dropdown list that lists all the available printers on your network.
     - Default: `None`
 -  Font Size
     - Modify the font size of printed content, useful for special size printers.
@@ -64,23 +64,19 @@ This tab is for modifying settings regarding printing data from the MCDU to your
 
 ## Aircraft Settings
 
-To use the SimBridge the aircraft's settings need to allow the SimBridge connection.
+To use the SimBridge, the aircraft's settings need to allow the SimBridge connection.
 
 ![flyPad EFB Settings Sim Options](../assets/efb-setting-simoptions.png){loading=lazy}
 
 The three settings are:
 
 - Auto:
-    - The aircraft attempts to connect to SimBridge for 5min after pressing "Ready to Fly" (`Active` is shown).
-    - If this setting is selected the displays will try to connect to SimBridge for 5min after every start of a new flight.
-    - After 5min of unsuccessful connection attempts the aircraft will stop any further attempts and `Inactive` will be
-      shown.
-    - If `Inactive` is shown, but you want to connect to SimBridge just click on `Off`, wait a few seconds and then
-      click on `Auto` again.
+    - The aircraft attempts to connect to SimBridge for 5 min after pressing "Ready to Fly" (`Active` is shown).
+    - If this setting is selected, the displays will try to connect to SimBridge for 5 min after every start of a new flight.
+    - After 5 min of unsuccessful connection attempts, the aircraft will stop any further attempts and `Inactive` will be shown.
+    - If `Inactive` is shown, but you want to connect to SimBridge just click on `Off`, wait a few seconds and then click on `Auto` again.
 - Off:
     - The displays will not make any attempts to connect to SimBridge.
 
 !!! warning "Timeout for SimBridge Connection Attempts"
-    If the aircraft is not able to connect to SimBridge within 5min the aircraft will stop any further attempts and
-    `Inactive` will be shown. If `Inactive` is shown, but you want to connect to SimBridge just click on `Off`, wait 
-    a few seconds and then click on `Auto` again.
+    If the aircraft con not connect to SimBridge within 5 min the aircraft will stop any further attempts and `Inactive` will be shown. If `Inactive` is shown, but you want to connect to SimBridge, just click on `Off`, wait a few seconds and then click on `Auto` again.
