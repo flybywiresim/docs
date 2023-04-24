@@ -57,14 +57,14 @@ Settings for A32NX aircraft configuration.
 - PAX Signs:
     - Configures if the aircraft should use "No Smoking" or "No Portable Devices" in its ECAM message when the no smoking selector switch on the overhead panel is selected on.
 - RMP VHF Spacing
-    - Changes the spacing for selectable frequencies in the RMPs from 8.33kHz to 25kHz and vice versa.
+    - Changes the spacing for selectable frequencies in the RMPs from 8.33 kHz to 25 kHz and vice versa.
 
     ??? note "Channel Spacing (click to expand)"
-         Aircraft radio systems transmit on a Very High Frequency (VHF) band between 117.975 and 137 MHz. The number of available VHF assignments has increased over the years by splitting the radio spectrum into narrower bandwidths, from 50-kHz to 25-kHz channels. The bandwidth can support 760 channels, if channels are spaced by 25 kHz. In 1994, it was decided to introduce a further channel split from 25 to 8.33 kHz. 8.33-kHz spacing was introduced above Flight Level (FL) 240 in International Civil Aviation Organization (ICAO) European (EUR) regions in October 1999 and above FL 195 from March 15, 2007. Currently, 8.33-kHz channels have been implemented in the airspace of all 20 ICAO EUR region states. So far, Europe is the only region that’s moved to 8.33-kHz channel spacing.
+         Aircraft radio systems transmit on a Very High Frequency (VHF) band between 117.975 and 137 MHz. The number of available VHF assignments has increased over the years by splitting the radio spectrum into narrower bandwidths, from 50-kHz to 25-kHz channels. The bandwidth can support 760 channels, if channels are spaced by 25 kHz. In 1994, it was decided to introduce a further channel split from 25 to 8.33 kHz. 8.33-kHz spacing was introduced above Flight Level (FL) 240 in International Civil Aviation Organization (ICAO) European (EUR) regions in October 1999 and above FL 195 from March 15, 2007. Currently, 8.33-kHz channels have been implemented in the airspace of all 20 ICAO EUR region states. So far, Europe is the only region that’s moved to 8.33-kHz channel spacing.
 
          Source: [universalweather.com](https://www.universalweather.com/blog/8-33-khz-radio-channel-spacing-changes-are-coming-to-europe/){target=new)}
 
-         See also: [8.33kHz Voice Channel Spacing communications](https://833radio.com/news/show/7){target=new}
+         See also: [8.33 kHz Voice Channel Spacing communications](https://833radio.com/news/show/7){target=new}
 
 - FMGC Lat/Lon Waypoint Format
     - Configures the name format for the [Stored Waypoints](../../../pilots-corner/advanced-guides/data-management.md#stored-waypoints) to be used when NAT routes are imported via SimBrief.  
@@ -166,12 +166,12 @@ Settings for realism aspects of the A32NX aircraft.
 ### Usage
 
 - ADIRS Align Time:
-    - User can set this to either a realistic time (~8 min), a faster time (~2 min) or instant.
+    - User can set this to either a realistic time (~ 8 min), a faster time (~ 2 min) or instant.
 - DMC Self Test Time:
-    - User can set the time for the Display Management Computer's self test (Real ~15sec, Fast ~5sec, Instant).
+    - User can set the time for the Display Management Computer's self test (Real ~ 15 s, Fast ~ 5 s, Instant).
 - Boarding Time:
-    - User can set the simulated boarding time to either a realistic time (~15 min), a faster time (~3-4 min), or instant.
-        - Based on full load - 174 passengers and full cargo.
+    - User can set the simulated boarding time to either a realistic time (~ 15 min), a faster time (~ 3-4 min), or instant.
+        - Based on full load - 174 passengers and full cargo.
 - Autofill Checklists
     - Supports the user with checking items from the checklists by watching the corresponding switches, knobs, and buttons and setting the checklist item to complete when the setup is correct.  
 - Home Cockpit Mode
@@ -186,7 +186,7 @@ Settings for realism aspects of the A32NX aircraft.
     - Enables the MCDU Keyboard input feature (see [MCDU Keyboard](../mcdu-keyboard.md)).
 - MCDU Focus Timeout (s)
     - The timeout feature will automatically deactivate the focus of the MCDU screen after the given number of seconds.
-    - Valid range is 5 - 120 seconds.
+    - Valid range is 5 - 120 seconds.
     - Setting is only available if MCDU Keyboard Input is enabled.
 - Sync EFIS controls between Captain and FO (unrealistic)
     - When enabled, the EFIS controls will be synchronized between the Captain and FO.
@@ -389,7 +389,7 @@ Settings for the flyPad itself.
 - Time Displayed:
     - Select which time should be displayed in the top bar of the flyPad screens.  
 - Local Time Format:
-    - Select if local time should be shown in 12 or 24 hours format.
+    - Select if local time should be shown in 12 or 24 hours format.
     - This setting is only available if Time Displayed is showing local time.
 - Theme:
     - Select which coloring theme the flyPad should have.

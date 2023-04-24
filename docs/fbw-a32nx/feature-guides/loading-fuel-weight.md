@@ -40,7 +40,7 @@ This section provides information on the A32NX weight configuration and insight 
     
     Payload is defined as passengers, baggage, and cargo.
     
-    In a situation where your payload would be approximately 14,000 kg - *based on our new airframe:* your ZFW would total - 56,500 kg (42,500 kg + 14,000 kg)
+    In a situation where your payload would be approximately 14 000 kg - *based on our new airframe:* your ZFW would total - 56 500 kg (42 500 kg + 14 000 kg)
     
     You can reference this against any OFP you may have generated through simBrief. For usage of our simBrief integration - [read here](simbrief.md).
     
@@ -59,7 +59,7 @@ This section provides information on the A32NX weight configuration and insight 
 
     Trimming the aircraft for takeoff is usually optional and technically not required. Please reference our the [FBW Checklist](../../pilots-corner/SOP.md) to set the appropriate trim should you wish to.
     
-    Anything less than 25% CG is considered FWD load, and anything more than 25% is considered an AFT load. While opting to choose between either CG configuration (aft/fwd), please consider the information below.
+    Anything less than 25 % CG is considered FWD load, and anything more than 25 % is considered an AFT load. While opting to choose between either CG configuration (aft/fwd), please consider the information below.
     
     !!! info "Notes on Differing CG Configurations"
     
@@ -82,7 +82,7 @@ This section provides information on the A32NX weight configuration and insight 
 Make sure you have our latest [simBrief Profile](../installation.md#simbrief-airframe)
 
 !!! danger "MSFS Fuel & Weights window in the toolbar"
-    We have blocked the UI elements in the MSFS fuel and weights window. However, the sliders in the MSFS window are movable but in a matter of 1-3 seconds the fuel and payload levels should return to the initial value.
+    We have blocked the UI elements in the MSFS fuel and weights window. However, the sliders in the MSFS window are movable but in a matter of 1-3 seconds the fuel and payload levels should return to the initial value.
 
     {--
 
@@ -94,11 +94,11 @@ Make sure you have our latest [simBrief Profile](../installation.md#simbrief-air
     - Payload: Done through the Payload tab on the EFB. See [Weights and Balance](#weights-and-balance)
 
 ### Weights
-- OEW (Empty Weight): 42,500 kg / 93,697 lbs
+- OEW (Empty Weight): 42 500 kg (93 697 lb)
     - Also referred to as DOW (Dry Operating Weight) which can be seen in other simBrief OFP formats such as EZY
-- MZFW (Max Zero Fuel Weight): 64,300 kg / 141,757 lbs
-- MTOW (Max Takeoff Weight): 79,000 kg / 174,165 lbs
-- MLW (Max Landing Weight): 67,400 kg / 148,591 lbs
+- MZFW (Max Zero Fuel Weight): 64 300 kg (141 757 lb)
+- MTOW (Max Takeoff Weight): 79 000 kg (174 165 lb)
+- MLW (Max Landing Weight): 67 400 kg (148 591 lb)
 
 !!! tip "FMS Gross Weight (FMS GW)"
     Gross weight is calculated as: 
@@ -112,31 +112,31 @@ Make sure you have our latest [simBrief Profile](../installation.md#simbrief-air
     - At least one engine is running.
 
 ### Fuel
-- Max Fuel Capacity: 41,989 lbs/19,046 kg
+- Max Fuel Capacity: 19 046 kg (41 989 lb)
 - Fuel tanks: 5
-    - 2x Outer Tanks: 1,528 lbs/693 kg each
-    - 2x Inner Tanks: 12,167 lbs/5,519 kg each
-    - 1x Center Tank: 14,599 lbs/6,622 kg
+    - 2x Outer Tanks: 693 kg (1528 lb) each
+    - 2x Inner Tanks: 5519 kg (12 167 lb) each
+    - 1x Center Tank: 6622 kg (14 599 lb)
 
 ### Passengers
-- Max Passenger Capacity: 18,096 kg (174 seats * 104kg)
-- Passenger Weight: 104 (in kilograms)
-    - 84 kg for passenger (including clothing and carry-on bags)
-    - 20 kg for checked baggage
+- Max Passenger Capacity: 18 096 kg (174 seats * 104 kg) (39 900 lb)
+- Passenger Weight: 104 kg
+    - 84 kg for passenger (including clothing and carry-on bags)
+    - 20 kg for checked baggage
     - These default values can be overwritten by changing the used simBrief airframe. See [Changing Default Weights Using simBrief](#changing-default-weights-using-simbrief).
 - Passenger compartments: 4
-    - ECONOMY ROWS 1-6 (seats: 36 max: 6,670 lbs/3,024 kg)
-    - ECONOMY ROWS 7-13 (seats: 42 max: 7,780 lbs/3,530 kg)
-    - ECONOMY ROWS 14-21 (seats: 48 max: 8,880 lbs/4,032 kg)
-    - ECONOMY ROWS 22-29 (seats: 48 max: 8,880 lbs/4,032 kg)
+    - ECONOMY ROWS 1-6 (seats: 36 max: 3024 kg (6670 lb))
+    - ECONOMY ROWS 7-13 (seats: 42 max: 3530 kg (7780 lb))
+    - ECONOMY ROWS 14-21 (seats: 48 max: 4032 kg (8880 lb))
+    - ECONOMY ROWS 22-29 (seats: 48 max: 4032 kg (8880 lb))
 
 ### Cargo
-- Max Cargo Capacity: 20,800 lbs/9,435 kg
+- Max Cargo Capacity: 9435 kg (20 800 lb)
 - Cargo Compartments: 4
-    - FWD BAGGAGE/CONTAINER (max: 7,500 lbs/3,402 kg)
-    - AFT CONTAINER (max: 5,350 lbs/2,426 kg)
-    - AFT BAGGAGE (max: 4,650 lbs/2,110 kg)
-    - AFT BULK/LOOSE (max: 3,300 lbs/1,497 kg)
+    - FWD BAGGAGE/CONTAINER (max: 3402 kg (7500 lb))
+    - AFT CONTAINER (max: 2426 kg (5350 lb))
+    - AFT BAGGAGE (max: 2110 kg (4650 lb))
+    - AFT BULK/LOOSE (max: 1497 kg (3300 lb))
 
 ## Changing Default Weights Using simBrief
 
@@ -164,11 +164,11 @@ Change the default weights as required, and make sure you select Save Aircraft a
 
     Especially important are:
 
-    - MZFW (Max Zero Fuel Weight): 64,300 kg / 141,757 lbs
+    - MZFW (Max Zero Fuel Weight): 64 300 kg (141 757 lb)
     - Maximum payload (passengers, baggage, freight) is determined by the lowest of these calculations:
-        - MZFW - OEW, or  64,300 kg - 42,500 kg = 21,800 kg
-        - MTOW  - empty weight - (fuel load - taxi out fuel), or 79,000 kg - 42,500 kg - (fuel load - taxi out fuel)
-        - MLW - empty weight - (all reserve/contingency fuel + extra fuel) , or 67,400 kg - 42,500 kg - (all reserve fuel/contingency/extra fuel).
+        - MZFW - OEW, or  64 300 kg - 42 500 kg = 21 800 kg
+        - MTOW  - empty weight - (fuel load - taxi out fuel), or 79 000 kg - 42 500 kg - (fuel load - taxi out fuel)
+        - MLW - empty weight - (all reserve/contingency fuel + extra fuel) , or 67 400 kg - 42 500 kg - (all reserve fuel/contingency/extra fuel).
     - When manually loading the payload, the MLW and MTOW limits are currently not checked and are the responsibility of the pilot.
     - Simbrief does manage payload limits by reducing the number of bags or passengers automatically. This is picked up by the aircraft correctly then.
     
@@ -180,7 +180,7 @@ Change the default weights as required, and make sure you select Save Aircraft a
 ## Loading Fuel and Weight
 
 !!! danger "MSFS Fuel & Weights window in the toolbar"
-    We have blocked the UI elements in the MSFS fuel and weights window. However, the sliders in the MSFS window are movable but in a matter of 1-3 seconds the fuel and payload levels should return to the initial value.
+    We have blocked the UI elements in the MSFS fuel and weights window. However, the sliders in the MSFS window are movable but in a matter of 1-3 seconds the fuel and payload levels should return to the initial value.
 
     {--
 
@@ -206,13 +206,13 @@ Get our [simBrief Profile](../installation.md#simbrief-airframe).
 Please note the following:
 
 - The cargo hold field now depicts either metric tons or thousands of pounds, depending on the unit selected in the EFB Settings for aircraft configuration.
-- **Highly recommend** ensuring that you select the same weights (KGS or LBS) in the EFB and in simBrief's OFP/Airframe before importing to prevent any mismatch in values.
+- **Highly recommend** ensuring that you select the same weights (kg or lb) in the EFB and in simBrief's OFP/Airframe before importing to prevent any mismatch in values.
 
 When starting the aircraft from a **Cold and Dark** state, please be aware of the following important information:
 
 - **INIT FUEL PRED** must be completed before departure. (This is detailed in our [beginner guide](../../pilots-corner/beginner-guide/preparing-mcdu.md#init-fuel-pred). Please ensure that you complete this step when preparing the MCDU.)
 - Failure to complete the `INIT FUEL PRED` page before starting an engine will display `INITIALIZE WEIGHT/CG` in amber on the MCDU Scratchpad.    
-- When there is a GW mismatch of more than 7 tonnes between the values calculated aerodynamically and the value calculated using the inputted ZFW and fuel flow `CHECK 
+- When there is a GW mismatch of more than 7 tonnes between the values calculated aerodynamically and the value calculated using the inputted ZFW and fuel flow `CHECK 
   WEIGHT` will be displayed in amber on the MCDU Scratchpad.
 
 See [flyPadOS 3 - Development Version](flypados3/settings.md#aircraft-options--pin-programs) settings page if you wish to change the weight unit used by the aircraft systems.

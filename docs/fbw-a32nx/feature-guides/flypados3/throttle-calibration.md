@@ -66,7 +66,7 @@ Before you change anything in the controller profile, make sure to create a dedi
 
 ### 2. Set Sensitivity to Linear
 
-Set all sensitivity settings to 0%. This includes Sensitivity + and -, Dead Zone, Neutral, and Extremity Dead Zone. Leave Reactivity at 100%.
+Set all sensitivity settings to 0 %. This includes Sensitivity + and -, Dead Zone, Neutral, and Extremity Dead Zone. Leave Reactivity at 100 %.
 
 ??? note "How to Set Sensitivity to Linear"
     Set your Sensitivity settings exactly like this:
@@ -85,7 +85,7 @@ Check that the axis mappings are correct.
 
     You can use ^^either^^ of these MSFS inputs:
 
-    - `THROTTLE 1 AXIS (0 TO 100%)` and `THROTTLE 2 AXIS (0 TO 100%)`<br/>(for a throttle with two levers)
+    - `THROTTLE 1 AXIS (0 TO 100 %)` and `THROTTLE 2 AXIS (0 TO 100 %)`<br/>(for a throttle with two levers)
         ![Throttle Axis Mapping](../../assets/flypados3/throttle-calibration/throttle-axis-mapping.png "Throttle Axis Mapping"){loading=lazy}
 
     - `THROTTLE 1 AXIS` and `THROTTLE 2 AXIS`<br/>(for a throttle with two levers)
@@ -134,9 +134,9 @@ If your throttle does not have a range for the reverser, there are two ways to a
 
         ![Bravo-MSFS-Mapping](../../assets/flypados3/throttle-calibration/bravo-msfs-mapping1.png "Bravo-MSFS-Mapping"){loading=lazy}
 
-        The `THROTTLE 1/2 DECREASE` mapping to `Buttons 10,26` and `Buttons 11,27` simulates the reverser when the Bravo's reverser lever is lifted (buttons 10 and 11) and the thrust lever is pulled back (buttons 26 and 27). This activates the buttons configured in the image above, and in turn decreases throttle power to negative values for the reverser.
+        The `THROTTLE 1/2 DECREASE` mapping to `Buttons 10, 26` and `Buttons 11, 27` simulates the reverser when the Bravo's reverser lever is lifted (buttons 10 and 11) and the thrust lever is pulled back (buttons 26 and 27). This activates the buttons configured in the image above, and in turn decreases throttle power to negative values for the reverser.
 
-        If you release the reverser levers (buttons 10+11) the mapping to `THROTTLE CUT` activates and puts the thrust back to idle.
+        If you release the reverser levers (buttons 10 + 11) the mapping to `THROTTLE CUT` activates and puts the thrust back to idle.
 
         If you use the GA levers you will need to map the reverser to some other button, e.g., on your yoke/side stick, as the reverser buttons (10, 11) will not be there.
 
@@ -378,7 +378,7 @@ Click on "Save & Apply".
 
     #### Throttle Mapping
 
-    ![MSFS Throttle Axis (0 TO 100%)](../../assets/flypados3/throttle-calibration/MSFS-ThrottleAxis-0to100.jpg "MSFS Throttle Axis (0 TO 100%)"){loading=lazy}
+    ![MSFS Throttle Axis (0 TO 100 %)](../../assets/flypados3/throttle-calibration/MSFS-ThrottleAxis-0to100.jpg "MSFS Throttle Axis (0 TO 100 %)"){loading=lazy}
 
     This throttle does not have reversers on its axis, so we need to map the reverser activation onto a button on the throttle or key on the keyboard (see **2** below). In the example below, we used the button "3" for this.
 
@@ -523,10 +523,10 @@ Click on "Save & Apply".
 
     The default Microsoft Flight Simulator mappings is:
 
-    - ++ctrl+f1++: Set throttles to `IDLE`
-    - ++ctrl+f2++: `Decrease` throttle by 1/40th  (below IDLE this engages the reverser)
-    - ++ctrl+f3++: `Increase` throttle by 1/40th
-    - ++ctrl+f4++: Set throttles to `TO/GA`
+    - ++CTRL+F1++: Set throttles to `IDLE`
+    - ++CTRL+F2++: `Decrease` throttle by 1/40th  (below IDLE this engages the reverser)
+    - ++CTRL+F3++: `Increase` throttle by 1/40th
+    - ++CTRL+F4++: Set throttles to `TO/GA`
 
     The A32NX throttle calibration uses values from -1.0 to +1.0:
 
@@ -536,7 +536,7 @@ Click on "Save & Apply".
     - `MCT/FLX` is at 0.5
     - `TO/GA` is at +1.0.
 
-    The step size for ++f2++ and ++f3++ is 0.05. This results in 40 steps in total from `Full Reverse` to `TO/GA`. The `CLB` detent is right in the middle at 20 steps.
+    The step size for ++f2++ and ++f3++ is 0.05. This results in 40 steps in total from `Full Reverse` to `TO/GA`. The `CLB` detent is right in the middle at 20 steps.
 
     With the default throttle configuration built into the A32NX, this results in the following number of steps:
 
@@ -559,22 +559,22 @@ Click on "Save & Apply".
 
     ![Keyboard Throttle Mapping](../../assets/flypados3/throttle-calibration/keyboard-throttle-keymapping.png "Keyboard Throttle Mapping"){loading=lazy}
 
-    Of course, instead of ++shift+1++ to ++shift+4++ you can use any key or controller buttons you like.
+    Of course, instead of ++SHIFT+1++ to ++SHIFT+4++ you can use any key or controller buttons you like.
 
     You can now use the [above](#a32nx-flypad-efb-detent-calibration) described method to calibrate your keyboard throttle positions to the correct detents.
 
     This should look similar to this, although the exact number may vary a bit.
 
-    - Press IDLE = ++shift+1++ and check that the throttle is at IDLE
+    - Press IDLE = ++SHIFT+1++ and check that the throttle is at IDLE
         ![keyboard-mapping-idle](../../assets/flypados3/throttle-calibration/keyboard-mapping-idle.png){loading=lazy}
 
-    - CLB = ++shift+2++
+    - CLB = ++SHIFT+2++
         ![keyboard-mapping-clb](../../assets/flypados3/throttle-calibration/keyboard-mapping-clb.png){loading=lazy}
 
-    - FLX/MCT = ++shift+3++
+    - FLX/MCT = ++SHIFT+3++
         ![keyboard-mapping-flx](../../assets/flypados3/throttle-calibration/keyboard-mapping-flx.png){loading=lazy}
 
-    - TOGA = ++shift+4++
+    - TOGA = ++SHIFT+4++
        ![keyboard-mapping-toga](../../assets/flypados3/throttle-calibration/keyboard-mapping-toga.png){loading=lazy}
 
     - REV IDLE = from IDLE position press 3 times ++F2++

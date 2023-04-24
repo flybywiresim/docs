@@ -135,11 +135,11 @@ This widget allows setting up the payload of the aircraft.
     - Default values (also for SimBrief) are 80 kg for passengers and 24 kg for baggage.
 4. Start Boarding/DeBoarding
     - Click on this button to start the boarding/deboarding process.
-    - The process will take 5sec/1sec/0sec per passenger depending on the [Boarding/Loading Time setting](#configure-boardingloading-time).
+    - The process will take 5 s/1 s/0 s per passenger depending on the [Boarding/Loading Time setting](#configure-boardingloading-time).
     - The current number of passengers and weight of cargo will change accordingly. 
 5. Deboard Now
     - Click on this button to deboard all passengers and unload all cargo.
-    - The process will take 5sec/1sec/0sec per passenger depending on the [Boarding/Loading Time setting](#configure-boardingloading-time).
+    - The process will take 5 s/1 s/0 s per passenger depending on the [Boarding/Loading Time setting](#configure-boardingloading-time).
 6. Load Payload Values from SimBrief
     - The values for the number of passengers, weight of cargo and ZFW can be imported from the SimBrief flight plan.
     - Make sure to have imported the flight plan on the [flyPad Dashboard page](dashboard.md).
@@ -152,8 +152,8 @@ This widget allows setting up the payload of the aircraft.
 This widget allows configuring the boarding/loading time.
 
 * Instant: will directly load all passengers and cargo without any delay.
-* Fast: will load 1 passenger every 1sec.
-* Real: will load 1 passenger every 5sec.
+* Fast: will load 1 passenger every 1 s.
+* Real: will load 1 passenger every 5 s.
 
 ### Center of Gravity Diagram
 ![flypad-ground-payload-cgenvelope](../../assets/flypados3/flypad-ground-payload-cgenvelope.png)

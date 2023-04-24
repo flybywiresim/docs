@@ -43,27 +43,27 @@ You may now use any combination of the following on your keyboard to use for ent
 - Numbers
 - Dots
 - Slashes
-- ++backspace++ - should perform the same usage as `CLR` on the MCDU
-- ++shift+backspace++ - should function as `CLR HELD` keybind on the MCDU (clears the scratchpad)
+- ++BACKSPACE++ - should perform the same usage as `CLR` on the MCDU
+- ++SHIFT+BACKSPACE++ - should function as `CLR HELD` keybind on the MCDU (clears the scratchpad)
 
 To use the `Line Select Keys` ++"-"++ (LSK) with your keyboard, use the following keys:
 
-- `LSK1L - LSK6L` uses ++f1++ through ++f6++
-- `LSK1R - LSK6R` uses ++f7++ through ++f12++
+- `LSK1L - LSK6L` uses ++F1++ through ++f6++
+- `LSK1R - LSK6R` uses ++F7++ through ++f12++
 
 To unfocus the MCDU, use any of the actions below:
 
 - Click on the MCDU Screen
-- Press ++ctrl+z++
-- Press ++alt++
+- Press ++CTRL+Z++
+- Press ++ALT++
 
 ### Alternative Scratchpad Deletion
 
 We have added new methods to assist in clearing content in the MCDU scratchpad.
 
-- ++ctrl+backspace++ : Delete word from scratchpad.
-- ++ctrl+shift+backspace++ : Delete all contents in the scratchpad.
-- ++ctrl+a++ : Toggles a mode that allows user to delete the entire line by just using backspace.
+- ++CTRL+BACKSPACE++ : Delete word from scratchpad.
+- ++CTRL+SHIFT+BACKSPACE++ : Delete all contents in the scratchpad.
+- ++CTRL+A++ : Toggles a mode that allows user to delete the entire line by just using backspace.
 
 ### How to Set a Timeout
 
@@ -71,7 +71,7 @@ The timeout feature will "automatically unfocus" the MCDU screen should you be u
 
 Return to the EFB settings page and adjust the `MCDU Focus Timeout` setting.
 
-- Valid range is `5 - 120 seconds`
+- Valid range is `5 - 120 seconds`
 
 Sample Image:
 
@@ -81,13 +81,13 @@ Sample Image:
 
 ## Known Issues
 
-- ++esc++ and arrow keys are not captured
-- CLR held (>2s)
+- ++ESC++ and arrow keys are not captured
+- CLR held (> 2 s)
     * Use ++shift+backspace++ together instead of ++backspace++
 - Clicking on screen + using camera keybind keys will cause MCDU to move out of the view. Since the camera is locked, it is not possible to click on the screen to unfocus the MCDU
     * Use keyboard shortcuts below to unfocus:
-        * ++ctrl+z++
-        * ++alt++
+        * ++CTRL+Z++
+        * ++ALT++
 - Keybindings are currently optimized for `ANSI/ISO-UK` keyboard layouts. `ISO-DE/ISO-NORD` users will notice that slash keys on their keyboards may not function as expected. This is an unfortunate limitation of the Coherent WebKit based JS Engine.
     * The following keys can be used as substitutes instead:
         * ++greater++
