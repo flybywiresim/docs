@@ -14,8 +14,7 @@ description: The SimBridge section is dedicated to documenting the setup and use
 
 ![SimBridge banner](assets/simbridge-header.png)
 
-SimBridge is our custom-built solution to connect our aircraft to various external devices and data. This will ensure features will function seamlessly and 
-require fewer extra steps before launching into your flights.
+SimBridge is our custom-built solution to connect our aircraft to various external devices and data. This will ensure features will function seamlessly and require fewer extra steps before launching into your flights.
 
 [Install + Config - Start Here](install-configure/installation.md){.md-button}
 
@@ -32,7 +31,7 @@ require fewer extra steps before launching into your flights.
 |                                   Remote Displays                                   |                                    Work in Progress                                     |
 
 !!! warning "Important Notes"
-    Please keep SimBridge updated at all times regardless of the version of aircraft you are currently flying!
+    Please keep SimBridge updated at all times, regardless of the version of aircraft you are currently flying!
 
     !!! tip ""
         Reminder: Any feature available in the Development version will also be available in the Experimental version.

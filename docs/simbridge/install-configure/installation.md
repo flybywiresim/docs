@@ -8,17 +8,17 @@ Please follow the information on this page to install the FlyByWire SimBridge to
 
 ### FlyByWire Installer
 
-#### Addon Install
+#### Add-on Install
 
-When you attempt to install an addon or different addon version (for example, switching from Development to Experimental) you will be prompted to install SimBridge
+When you attempt to install an add-on or different add-on version (for example, switching from Development to Experimental) you will be prompted to install SimBridge
 
-![SimBridge install prompt](../assets/installer_prompt.png "Prompt to install SimBridge when installing an addon that requires it"){loading=lazy}
+![SimBridge install prompt](../assets/installer_prompt.png "Prompt to install SimBridge when installing an add-on that requires it"){loading=lazy}
 
 Select `Yes` to install SimBridge along with your chosen addon/version.
 
 #### Separate Install
 
-If you select `No` in the [Addon Install](#addon-install) or would like to separately install SimBridge, then you can install SimBridge by selecting the SimBridge tab.
+If you select `No` in the [Add-on Install](#add-on-install) or would like to separately install SimBridge, then you can install SimBridge by selecting the SimBridge tab.
 
 On the SimBridge tab, select install and the installer will go ahead and install SimBridge.
 ![SimBridge installer](../assets/simbridge_installing.png){loading=lazy}
@@ -27,7 +27,7 @@ On the SimBridge tab, select install and the installer will go ahead and install
 
 You can send us logs to our [Discord](https://discord.gg/flybywire){target=new} for support if you encounter issues with the installer. Please follow the steps below:
 
-  * Open the debug tool ++ctrl+f12++.
+  * Open the debug tool ++CTRL+F12++.
 
   * Find and select ++"Console"++ in the top menu.
 
@@ -46,7 +46,7 @@ You can send us logs to our [Discord](https://discord.gg/flybywire){target=new} 
 
 ## Community Folder
 
-- Extract the `.zip` file and renamed the folder to `flybywire-externaltools-simbridge`.
+- Extract the `.zip` file and rename the folder to `flybywire-externaltools-simbridge`.
 
 ### Microsoft Store and/or Game Pass Edition
 
@@ -83,7 +83,7 @@ It is located in:
 See [find the community folder](../../fbw-a32nx/installation.md#Troubleshooting)
 
 ## Resources Folder
-The resources folder is used for storing various files required by SimBridge to provide it's functionality. 
+The resources folder is used for storing various files required by SimBridge to provide its functionality. 
  
 Finding/Opening the resources folder can be done through several paths:
 
@@ -94,15 +94,14 @@ Finding/Opening the resources folder can be done through several paths:
     ![tray-icon-picture](../assets/trayicon-resource.png){loading=lazy}
 
 - Installer
-    - Within the FBW installer on the SimBridge tab you'll find the resources folder button under `About` in the 
-      right menu which will open the path in your windows explorer
+    - Within the FBW installer on the SimBridge tab, you'll find the resources folder button under `About` on the right menu, which will open the path in your Windows-Explorer
   
     ![simbridge-resource-folder](../assets/simbridge_resourcefolder.jpg){loading=lazy}
 
-- Windows Explorer
+- Windows-Explorer
     - You can navigate to the [community folder](#community-folder) where you will find 
      `flybywire-externaltools-simbridge` in there you can find the `resources` folder
-  ![windows explorer resources folder](../assets/simbridge-location.png){loading=lazy}
+  ![Windows-Explorer resources folder](../assets/simbridge-location.png){loading=lazy}
 
 ## Clean Install Steps
 
@@ -116,8 +115,7 @@ Finding/Opening the resources folder can be done through several paths:
 FBW Installer introduced the `Uninstall` feature. To perform an automatic clean install:
 
 - Ensure you have the latest FBW Installer on your machine. 
-    - The installer updates itself. If you would like to 
-    download our installer again see the [FlyByWire Installer Section](#flybywire-installer).
+    - The installer updates itself. If you would like to download our installer again, see the [FlyByWire Installer Section](#flybywire-installer).
 - Click on the "Uninstall" button.
 
 
@@ -129,14 +127,14 @@ FBW Installer introduced the `Uninstall` feature. To perform an automatic clean 
 If you would like to manually perform a clean install you first have to delete the 
  `flybywire-externaltools-simbridge` folder from your community folder.
 
-We also store additional information related to the tool in a separate directory which is built when you load the tool. You also need to delete the folder.
+We also store additional information related to the tool in a separate directory, which is built when you load the tool. You also need to delete the folder.
 
 These locations are found below:
 
 - `%temp%`
 
-If the above folders are hidden to you follow the directions on [Microsoft's support site](https://support.microsoft.com/en-us/windows/view-hidden-files-and-folders-in-windows-10-97fbc472-c603-9d90-91d0-1166d1d9f4b5).
+If the above folders are hidden to you, follow the directions on [Microsoft's support site](https://support.microsoft.com/en-us/windows/view-hidden-files-and-folders-in-windows-10-97fbc472-c603-9d90-91d0-1166d1d9f4b5).
 
-Once in the correct directory delete the folder shown here:
+Once in the correct directory, delete the folder shown here:
 
 ![localstate folder](../assets/temp_folder.png){loading=lazy}
