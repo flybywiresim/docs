@@ -77,8 +77,6 @@ The maintenance crew uses this pushbutton to reset the control circuit, after th
 - ON: On the ground, when pressed, the electrical network of the aircraft supplies the FADEC when:
     - The ENG FIRE pb-sw is not pressed,
     - The FADEC alternator does not supply the FADEC.
-!!! warning ""
-    Not available in the Stable Version.
 ---
 
 [Back to Flight Deck](../index.md){ .md-button }
