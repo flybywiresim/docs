@@ -12,7 +12,8 @@ The Hoppie ACARS system is a complex system, and we have decided to develop and 
 
 ??? tip "Stable Version - Features (Click to Open)"
     !!! danger ""
-        This section will be current for Stable version 0.9.0. Any changes to our development branch will be noted with the appropriate flag or indicator. Please be aware of any differences when using our CPDLC implementation.
+        This section will be current for Stable version 0.10.0. Any changes to our development branch will be noted with the appropriate flag or indicator. Please be aware of any differences when 
+        using our CPDLC implementation.
 
     The current version has the following features:
 
@@ -31,6 +32,7 @@ The Hoppie ACARS system is a complex system, and we have decided to develop and 
     - Realistic datalink communication simulation (VHF+VDL3)
     - Simulation of FANS-A+ and FANS-B+ with automatic mode selection based on logon-code of ATC
     - Station identifier
+    - LPPC FNAS B area updated with newly introduced codes.
 
 ??? warning "In Progress Features (Click to Open)"
     - FPL changes for Lat requests
@@ -112,14 +114,6 @@ The CPDLC system is only a convenience to relax the voice frequency. Time-critic
 ### Departure Clearance
 
 After preparation of the aircraft, an IFR clearance is required, which can be requested via DCL (Departure Clearance).
-
-!!! info "Stable Version"
-    The request page can be found by selecting `GROUND REQ` then `DEPARTURE` through the ATC COMM page on the MCDU. 
-
-    !!! note "MCDU ATC COMM MENU"
-        !!! block ""
-            ![hoppie1](../assets/feature-guides/hoppie/hoppie1.png){align=center width=48% loading=lazy}
-            ![hoppie2](../assets/feature-guides/hoppie/hoppie2.png){align=center width=48% loading=lazy}
 
 The DEPART REQ page requires the current ATC station code and the current ATIS. Providing a gate and freetext is optional.
 
@@ -224,12 +218,6 @@ You can log off from the current station if the next station does not provide CP
 ## Oceanic clearance
 
 It is also possible to request an Oceanic Clearance (OCL) from ATC.
-
-!!! info "Stable Version"
-    !!! note "MCDU ATC COMM Menu"
-        !!! block ""
-            ![hoppie-oceanic-1](../assets/feature-guides/hoppie/hoppieoc.png){align=center width=48% loading=lazy}
-            ![hoppie-oceanic-2](../assets/feature-guides/hoppie/hoppieoc2.png){align=center width=48% loading=lazy}
 
 The OCEANIC REQ page requires you to be on the last station before an oceanic route. You need to enter your planned entry point, time at entry point, speed, and flight level.
 
