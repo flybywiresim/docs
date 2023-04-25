@@ -30,9 +30,9 @@ There are several scenarios for the TOD Calculation:
 1. Fixed Angle of Descent:
     - Descending from altitude X to altitude Y with a fixed descent angle (commonly 3°)
 2. Fixed Distance to Navigation Fix:
-    - Descending from altitude X to altitude Y within a fixed distance (e.g., 90 NM)
+    - Descending from altitude X to altitude Y within a fixed distance (e.g., 90 NM)
 3. Fixed Rate of Descent:
-    - Descending from altitude X to altitude Y within a fixed vertical speed (e.g., -2 000ft/min)
+    - Descending from altitude X to altitude Y within a fixed vertical speed (e.g., - 2000 ft/min)
 
 Depending on the scenario, ground speeds are included in the calculation to take into account that we usually also slow down at some point during descent.
 
@@ -67,7 +67,7 @@ Example:
 
 ![flyPad Performance TOD Calculator](../../assets/flypados3/performance-tod-distance.png "flyPad Performance TOD Calculator"){loading=lazy}
 
-**Result: We need to start our descent 90NM before the target fix with either an average ^^vertical speed of -2 333 ft/min^^ or an average ^^descent angle of -3.0°^^** during the descent distance.
+**Result: We need to start our descent 90 NM before the target fix with either an average ^^vertical speed of - 2333 ft/min^^ or an average ^^descent angle of - 3.0°^^** during the descent distance.
 
 !!! note ""
     The above result is averaged over the descent distance, and the values are approximations. For more precision, use one of the other two methods.
@@ -80,12 +80,12 @@ Example:
 
 - Cruising altitude: 39 000 ft
 - Target altitude: 11 000 ft
-- Vertical Speed: -2 000 ft/min
+- Vertical Speed: - 2000 ft/min
 - Ground Speed: 450 kt (constant)
 
 ![flyPad Performance TOD Calculator](../../assets/flypados3/performance-tod-vs.png "flyPad Performance TOD Calculator"){loading=lazy}
 
-**Result: We need to start our descent ^^105 NM^^ before the target fix with a vertical speed of -2 000 ft/min**
+**Result: We need to start our descent ^^105 NM^^ before the target fix with a vertical speed of - 2000 ft/min**
 
 #### Ground Speed and Wind
 
@@ -152,9 +152,9 @@ Weather data can be automatically filled by entering an airport ICAO and pressin
 - Rwy Slope:
     - This information can be obtained from the airport chart (see example in [Landing Calculator Additional Info](../../../pilots-corner/airliner-flying-guide/runway-conditions.md#example-chart){target=new}) but requires a little calculation.
     - Formula: (((Runway elevation on touchdown side) - (Runway elevation on far side)) / Runway length) * 100.
-    - E.g., EDDM 26R: 1 449 ft - 1 467 ft = -18 ft.
-    - Then -18 ft / 13 123 ft = -0.00137.
-    - Then -0.00137 * 100 = -0.137 % slope.
+    - E.g., EDDM 26R: 1449 ft - 1467 ft = - 18 ft.
+    - Then - 18 ft / 13 123 ft = - 0.001 37.
+    - Then - 0.00137 * 100 = - 0.137 % slope.
 
 - Rwy LDA (Landing Distance Available):
     - This information can be obtained from the airport chart (see example below).

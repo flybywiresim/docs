@@ -60,7 +60,7 @@ Settings for A32NX aircraft configuration.
     - Changes the spacing for selectable frequencies in the RMPs from 8.33 kHz to 25 kHz and vice versa.
 
     ??? note "Channel Spacing (click to expand)"
-         Aircraft radio systems transmit on a Very High Frequency (VHF) band between 117.975 and 137 MHz. The number of available VHF assignments has increased over the years by splitting the radio spectrum into narrower bandwidths, from 50-kHz to 25-kHz channels. The bandwidth can support 760 channels, if channels are spaced by 25 kHz. In 1994, it was decided to introduce a further channel split from 25 to 8.33 kHz. 8.33-kHz spacing was introduced above Flight Level (FL) 240 in International Civil Aviation Organization (ICAO) European (EUR) regions in October 1999 and above FL 195 from March 15, 2007. Currently, 8.33-kHz channels have been implemented in the airspace of all 20 ICAO EUR region states. So far, Europe is the only region that’s moved to 8.33-kHz channel spacing.
+         Aircraft radio systems transmit on a Very High Frequency (VHF) band between 117.975 and 137 MHz. The number of available VHF assignments has increased over the years by splitting the radio spectrum into narrower bandwidths, from 50 kHz to 25 kHz channels. The bandwidth can support 760 channels, if channels are spaced by 25 kHz. In 1994, it was decided to introduce a further channel split from 25 to 8.33 kHz. 8.33 kHz spacing was introduced above Flight Level (FL) 240 in International Civil Aviation Organization (ICAO) European (EUR) regions in October 1999 and above FL 195 from March 15, 2007. Currently, 8.33-kHz channels have been implemented in the airspace of all 20 ICAO EUR region states. So far, Europe is the only region that’s moved to 8.33 kHz channel spacing.
 
          Source: [universalweather.com](https://www.universalweather.com/blog/8-33-khz-radio-channel-spacing-changes-are-coming-to-europe/){target=new)}
 
@@ -379,8 +379,8 @@ Settings for the flyPad itself.
     - This setting is only available if Auto Brightness is off.
 - Battery Life Simulated
     - If enabled, the flyPad battery will discharge if the aircraft is not powered.
-    - The battery will last about 9h. 
-    - If the sim's time is changed forward 9+h after loading the flight, the battery will be empty.
+    - The battery will last about 9 h. 
+    - If the sim's time is changed forward 9+ h after loading the flight, the battery will be empty.
     - Battery will be charged if the aircraft is powered (Ext. Power, APU, one engine)
 - Show Status Bar Flight Progress:
     - Select if the progress of the flight shall be shown in the top status of the flyPad screen.
