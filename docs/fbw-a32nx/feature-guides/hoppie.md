@@ -282,7 +282,7 @@ It can be helpful to check if messages are sent to the Hoppie network. The Hoppi
 
 The link follows the following syntax:
 
-```
+```title="Example Link"
 http://www.hoppie.nl/acars/system/callsign.html?network=<NETWORK>&callsign=<CALLSIGN>
 ```
 
