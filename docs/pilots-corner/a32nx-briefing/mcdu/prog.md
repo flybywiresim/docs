@@ -35,7 +35,7 @@ The display flashes if an engine-out is detected.
 
 Displays the computed recommended maximum altitude (in magenta), based on the current gross weight and temperature, and assuming that the anti-ice is off.
 
-Provides a value that allows the aircraft a 0.3 g buffet margin, a minimum rate of climb at MAX CL thrust, and level flight at MAX CRZ thrust. Limited to FL398.
+Provides a value that allows the aircraft a 0.3 g buffet margin, a minimum rate of climb at MAX CL thrust, and level flight at MAX CRZ thrust. Limited to FL398.
 
 If one engine is out, this field displays the computed recommended maximum engine-out altitude, based on the long-range cruise speed and assuming that anti-ice is off.
 
