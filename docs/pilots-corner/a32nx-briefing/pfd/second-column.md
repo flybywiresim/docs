@@ -84,7 +84,7 @@ Displayed in green when open descent (selected) mode is engaged and the FCU sele
 
 Displayed when the aircraft is in EXP DES mode.
 
-When the aircraft is in EXP DES, the target speed is 340 kt or M 0.8 which is maintained with pitch control. Autothrust, if active, sets the thrust to IDLE automatically.
+When the aircraft is in EXP DES, the target speed is 340 kt or M 0.8 which is maintained with pitch control. Autothrust, if active, sets the thrust to IDLE automatically.
 
 When EXPEDITE is engaged, the system disregards SPD CSTR, ALT CSTR, and SPD LIM.
 

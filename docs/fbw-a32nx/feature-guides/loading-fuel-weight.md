@@ -180,7 +180,7 @@ Change the default weights as required, and make sure you select Save Aircraft a
 ## Loading Fuel and Weight
 
 !!! danger "MSFS Fuel & Weights window in the toolbar"
-    We have blocked the UI elements in the MSFS fuel and weights window. However, the sliders in the MSFS window are movable but in a matter of 1-3 seconds the fuel and payload levels should return to the initial value.
+    We have blocked the UI elements in the MSFS fuel and weights window. However, the sliders in the MSFS window are movable but in a matter of 1 - 3 seconds the fuel and payload levels should return to the initial value.
 
     {--
 

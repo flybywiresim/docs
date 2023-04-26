@@ -95,7 +95,7 @@ Example:
 
 - Cruising altitude: 39 000 ft
 - Target altitude: 11 000 ft
-- Vertical Speed: -2 000 ft/min
+- Vertical Speed: - 2 000 ft/min
 - Ground Speed: 420 kt at or above 10 000 ft, 250 kt below 10 000 ft
 
 ![flyPad Performance TOD Calculator](../../assets/flypados3/performance-tod-gs.png "flyPad Performance TOD Calculator"){loading=lazy}

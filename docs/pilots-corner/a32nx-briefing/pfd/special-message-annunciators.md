@@ -66,15 +66,15 @@ Displayed in white when the speed target is selected, but a preselected speed do
 
 Displayed in white when the aircraft is in engine out mode and the speed target is selected. This message will be displayed if the FCU selected speed is:
 
-- Less than or equal to the green dot speed minus 10kts or
-- Greater than or equal to the green dot speed plus 10kts (except when the aircraft is in ALT\* mode or ALT mode).
+- Less than or equal to the green dot speed minus 10 kt or
+- Greater than or equal to the green dot speed plus 10 kt (except when the aircraft is in ALT\* mode or ALT mode).
 
 !!! info ""
     Currently not available for the FBW A32NX for Microsoft Flight Simulator
 
 ### SET HOLD SPD
 
-Displayed in white when the aircraft is in selected speed control, a holding pattern has been inserted into the MCDU flight plan and the aircraft is 30 seconds out from the deceleration point to the computed hold speed.
+Displayed in white when the aircraft is in selected speed control, a holding pattern has been inserted into the MCDU flight plan and the aircraft is 30 seconds out from the deceleration point to the computed hold speed.
 
 ### DECELERATE
 
@@ -87,7 +87,7 @@ Displayed in white if the thrust is not reduced when the aircraft is passing the
 
 Displayed in white when descent mode is engaged, idle is selected, and:
 
-- Either the aircraft is above the vertical profile and the predicted intercept point of the profile is at less than 2 nautical miles away from the next altitude constraint or
+- Either the aircraft is above the vertical profile and the predicted intercept point of the profile is at less than 2 nautical miles away from the next altitude constraint or
 - In auto-speed control and the aircraft enters a speedbrake decelerating segment.
 
 !!! info ""
@@ -109,7 +109,7 @@ Displayed in amber text. Displays when descent mode is engaged and:
 
 ### LAND
 
-Displayed in green when land mode is engaged below 400 feet (radio altitude).
+Displayed in green when land mode is engaged below 400 feet (radio altitude).
 
 ### FLARE
 

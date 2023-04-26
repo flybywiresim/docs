@@ -28,7 +28,7 @@ It will pulse if:
 
 - STD is not selected by the pilot above the transition altitude in climb, or
 - STD is still selected in approach below the transition level, or
-- If a transition level has not been set, below 2500 feet radio altitude.
+- If a transition level has not been set, below 2500 feet radio altitude.
 
 See our ["Understanding Altitude References"](../../airliner-flying-guide/altitude-refs.md) guide.
 

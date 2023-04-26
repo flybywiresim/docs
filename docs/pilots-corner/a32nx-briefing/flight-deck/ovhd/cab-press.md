@@ -17,17 +17,17 @@ The flight crew can set the system to operate automatically, semi-automatically,
 
 In normal operation, cabin pressurization is fully automatic.
 
-On Ground (GN), before takeoff, and 55 seconds after landing, the outflow valve fully opens to ensure that there is no residual cabin pressure. At touchdown, any remaining cabin pressure is released at a cabin vertical speed of 500 feet/minute.
+On Ground (GN), before takeoff, and 55 seconds after landing, the outflow valve fully opens to ensure that there is no residual cabin pressure. At touchdown, any remaining cabin pressure is released at a cabin vertical speed of 500 feet/minute.
 
-At Takeoff (TO) the system avoids a pressure surge at rotation, by pre-pressurization of the aircraft at a rate of 400 feet/minute, until the &#916;P reaches 0.1 PSI. At lift-off, the controller initiates the climb phase.
+At Takeoff (TO) the system avoids a pressure surge at rotation, by pre-pressurization of the aircraft at a rate of 400 feet/minute, until the &#916;P reaches 0.1 psi. At lift-off, the controller initiates the climb phase.
 
 During Climb (CL), the cabin altitude increases according to a fixed pre-programmed method accounting for the aircraft's actual rate of climb.
 
 In Cruise (CR), the system maintains cabin altitude at the level-off value, or at the landing field elevation, whichever is higher.
 
-While in Descent (DE), the systems control the pressure rate of descent, such that cabin pressure equals the landing field pressure, just before landing. The maximum descent rate is 750 feet/minute.
+While in Descent (DE), the systems control the pressure rate of descent, such that cabin pressure equals the landing field pressure, just before landing. The maximum descent rate is 750 feet/minute.
 
-During a take-Off Abort (AB) the system prevents the cabin altitude from climbing. Cabin pressure is set back to the takeoff altitude + 0.1 PSI.
+During a take-Off Abort (AB) the system prevents the cabin altitude from climbing. Cabin pressure is set back to the takeoff altitude + 0.1 psi.
 
 ## Usage
 
@@ -36,7 +36,7 @@ During a take-Off Abort (AB) the system prevents the cabin altitude from climbin
 - AUTO:
     - FMGS data is used to construct an optimized pressure schedule.
 - Other positions:
-    - Selected pressure is used (from - 2000 to + 14000 feet) as landing elevation reference.
+    - Selected pressure is used (from - 2000 to + 14 000 feet) as landing elevation reference.
 
 !!! Note ""
     The LDG ELEV selector scale is only given as an indication; refer to the ECAM information for accurate adjustment.

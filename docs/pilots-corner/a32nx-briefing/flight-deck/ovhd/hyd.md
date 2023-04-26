@@ -63,7 +63,7 @@ On ground:
 ### PTU
 
 - AUTO:
-    - The bidirectional power transfer unit is armed and both the yellow and the green electrohydraulic valves are open. The power transfer unit runs automatically when the differential pressure between the green and yellow systems exceeds 500 PSI.
+    - The bidirectional power transfer unit is armed and both the yellow and the green electrohydraulic valves are open. The power transfer unit runs automatically when the differential pressure between the green and yellow systems exceeds 500 psi.
 
     !!! info ""
         Note : The PTU is inhibited during the first engine start and automatically tested during the second engine start.

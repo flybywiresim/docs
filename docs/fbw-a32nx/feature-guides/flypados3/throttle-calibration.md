@@ -209,7 +209,7 @@ Usually, there is no need to change the deadbands for the detents, as the defaul
     The image above shows the controller in the `IDLE` position with a
     control value of - 0.50.
 
-    As some controllers might be at a lower or higher value than -0.50 and even the same controller might sometimes have slightly different values although in the same position, the `deadband` of 0.05 ensures that small differences in actual values are treated as within a valid range for the `IDLE` position. In this case all values from - 0.55 to - 0.45 are valid `IDLE` positions.
+    As some controllers might be at a lower or higher value than - 0.50 and even the same controller might sometimes have slightly different values although in the same position, the `deadband` of 0.05 ensures that small differences in actual values are treated as within a valid range for the `IDLE` position. In this case all values from - 0.55 to - 0.45 are valid `IDLE` positions.
 
     Notice that the blue bar correspondents to the current throttle position and is between two green lines. The green lines mark your deadband range for the detent. As long as the blue bar is between them, the throttle reads this as the corresponding detent. If your throttle is outside these green bars, they become gray as you no longer are in the corresponding detent.
 
@@ -523,10 +523,10 @@ Click on "Save & Apply".
 
     The default Microsoft Flight Simulator mappings is:
 
-    - ++CTRL+F1++: Set throttles to `IDLE`
-    - ++CTRL+F2++: `Decrease` throttle by 1/40th  (below IDLE this engages the reverser)
-    - ++CTRL+F3++: `Increase` throttle by 1/40th
-    - ++CTRL+F4++: Set throttles to `TO/GA`
+    - ++ctrl+f1++: Set throttles to `IDLE`
+    - ++ctrl+f2++: `Decrease` throttle by 1/40th  (below IDLE this engages the reverser)
+    - ++ctrl+f3++: `Increase` throttle by 1/40th
+    - ++ctrl+f4++: Set throttles to `TO/GA`
 
     The A32NX throttle calibration uses values from - 1.0 to + 1.0:
 
@@ -536,16 +536,16 @@ Click on "Save & Apply".
     - `MCT/FLX` is at 0.5
     - `TO/GA` is at + 1.0.
 
-    The step size for ++F2++ and ++F3++ is 0.05. This results in 40 steps in total from `Full Reverse` to `TO/GA`. The `CLB` detent is right in the middle at 20 steps.
+    The step size for ++f2++ and ++f3++ is 0.05. This results in 40 steps in total from `Full Reverse` to `TO/GA`. The `CLB` detent is right in the middle at 20 steps.
 
     With the default throttle configuration built into the A32NX, this results in the following number of steps:
 
     **Counting from `IDLE` (- 0.5):**
 
-    - 10 times ++CTRL+F2++ (decrease) for `Full Reverse` (- 1.0)
-    - 10 times ++CTRL+F3++ (increase) for `CLB` detent (- 0.0)
-    - 10 times ++CTRL+F3++ (increase) for `MCT/FLX` detent (0.5)
-    - 10 times ++CTRL+F3++ (increase) for `TO/GA` detent (1.0)
+    - 10 times ++ctrl+f2++ (decrease) for `Full Reverse` (- 1.0)
+    - 10 times ++ctrl+f3++ (increase) for `CLB` detent (- 0.0)
+    - 10 times ++ctrl+f3++ (increase) for `MCT/FLX` detent (0.5)
+    - 10 times ++ctrl+f3++ (increase) for `TO/GA` detent (1.0)
 
     **Congratulations! You can use the keyboard for throttle control!**
 
@@ -559,22 +559,22 @@ Click on "Save & Apply".
 
     ![Keyboard Throttle Mapping](../../assets/flypados3/throttle-calibration/keyboard-throttle-keymapping.png "Keyboard Throttle Mapping"){loading=lazy}
 
-    Of course, instead of ++SHIFT+1++ to ++SHIFT+4++ you can use any key or controller buttons you like.
+    Of course, instead of ++shift+1++ to ++shift+4++ you can use any key or controller buttons you like.
 
     You can now use the [above](#a32nx-flypad-efb-detent-calibration) described method to calibrate your keyboard throttle positions to the correct detents.
 
     This should look similar to this, although the exact number may vary a bit.
 
-    - Press IDLE = ++SHIFT+1++ and check that the throttle is at IDLE
+    - Press IDLE = ++shift+1++ and check that the throttle is at IDLE
         ![keyboard-mapping-idle](../../assets/flypados3/throttle-calibration/keyboard-mapping-idle.png){loading=lazy}
 
-    - CLB = ++SHIFT+2++
+    - CLB = ++shift+2++
         ![keyboard-mapping-clb](../../assets/flypados3/throttle-calibration/keyboard-mapping-clb.png){loading=lazy}
 
-    - FLX/MCT = ++SHIFT+3++
+    - FLX/MCT = ++shift+3++
         ![keyboard-mapping-flx](../../assets/flypados3/throttle-calibration/keyboard-mapping-flx.png){loading=lazy}
 
-    - TOGA = ++SHIFT+4++
+    - TOGA = ++shift+4++
        ![keyboard-mapping-toga](../../assets/flypados3/throttle-calibration/keyboard-mapping-toga.png){loading=lazy}
 
     - REV IDLE = from IDLE position press 3 times ++F2++
@@ -595,7 +595,7 @@ Click on "Save & Apply".
 
     The Xbox-Controller (or any other game controller) is very similar to controlling the throttle with the keyboard. It uses buttons to increase and decrease the throttles.
 
-    Therefore, read the [Keyboard](#keyboard) section but instead of ++F2++ or ++F3++ use the buttons mapped to throttle increase and decrease on your controller.
+    Therefore, read the [Keyboard](#keyboard) section but instead of ++f2++ or ++f3++ use the buttons mapped to throttle increase and decrease on your controller.
     See also the [Keyboard Special Mapping](#keyboard-special-mapping) as this also works for the Xbox buttons.
 
     For the Xbox-Controller the default buttons are:
