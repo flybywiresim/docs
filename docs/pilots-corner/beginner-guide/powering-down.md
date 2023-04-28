@@ -70,9 +70,9 @@ If we want to actually do a turn around and start a new flight directly, the pro
 
     ![Engines off](../assets/beginner-guide/powering-down/engine-off.png "Engines off"){loading=lazy }
 
-- Wait until `N1` is below 5%.
+- Wait until `N1` is below 5 %.
 
-    ![Engines N1 under 5%](../assets/beginner-guide/powering-down/ENG-N1-u5.png "Engines N1 under 5%"){loading=lazy width=50%}
+    ![Engines N1 under 5 %](../assets/beginner-guide/powering-down/ENG-N1-u5.png "Engines N1 under 5 %"){loading=lazy width=50%}
 
 - Turn off `Seat Belt` sign.
 

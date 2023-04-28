@@ -36,9 +36,9 @@ This guide will cover these phases:
 **Situation:**
 
 - Aircraft is in `DES` phase.
-- Aircraft is set up for flight <10,000ft (`seat belt signs` on, `landing lights` on, etc.).
+- Aircraft is set up for flight < 10 000 ft (`seat belt signs` on, `landing lights` on, etc.).
 - We are within the IAP (Instrument Approach) and either:
-    - at the altitude and speed from the chart (Final Approach Fix altitude and 250 knots if there are no other speed restrictions on the chart).
+    - at the altitude and speed from the chart (Final Approach Fix altitude and 250 knots if there are no other speed restrictions on the chart).
     - or we are at a heading vector, altitude, and speed instructed by ATC.
 
 At the end of the Instrument Approach, (or by ATC vectoring) we will be on a path to the Final Approach Fix and/or a path to intercept the ILS localizer and eventually the ILS glideslope.
@@ -62,7 +62,7 @@ To intercept the ILS Localizer, we follow these steps:
         ![LS button on glareshield](../assets/beginner-guide/landing/GLARE-LS-button.png "LS button on glareshield"){loading=lazy align=left}
         ![LS Mode on PFD and ND](../assets/beginner-guide/landing/LS-Mode.png "LS Mode on PFD and ND"){align=right width=75%}
 
-- Make sure we are on the correct altitude (5,000ft in this example) and we should not have an approach angle larger than 30°.<br/>
+- Make sure we are on the correct altitude (5000 ft in this example) and we should not have an approach angle larger than 30°.<br/>
 
     ![EDDM ILS 26R chart](../assets/beginner-guide/landing/EDDM-ILS-26R-30-chart.png "EDDM ILS 26R chart"){loading=lazy}<br/>
     ![EDDM glideslope](../assets/beginner-guide/landing/EDDM-ILS-26R-GS-chart.png "EDDM glideslope"){loading=lazy}
@@ -126,10 +126,10 @@ The vertical `FMA` now shows `G/S` (glideslope) in blue.
  This is a good time to set `Flaps 2` (check that the speed is below the V~FE~ for the next flap setting) as slowing down once we are descending along the glideslope can be difficult. We need the drag from the flaps if we want to avoid letting the gear down too early (which also would help us to slow down).<br/>
 
 !!! info ""
-    There is different guidance when to set `FLAPS 2` at different airlines or Airbus. But for beginners, we recommend going to `FLAPS 2` before starting the glideslope descent. Airbus guidance, for example, is `FLAPS 2` during glideslope descent at about 2,000ft, which only works if speed is already reduced enough.
+    There is different guidance when to set `FLAPS 2` at different airlines or Airbus. But for beginners, we recommend going to `FLAPS 2` before starting the glideslope descent. Airbus guidance, for example, is `FLAPS 2` during glideslope descent at about 2000 ft, which only works if speed is already reduced enough.
 
 !!! info "ATC instructed approach speed"
-    The A320 `Autothrust` will manage speed during approach automatically and will reduce speed further with each flap setting. In real life and also when flying with Online ATC like VATSIM, we need to expect that ATC instructs us to stay at a certain speed (e.g., 160 knots until 5 NM to the runway). In this case, we would use `Selected Speed Mode` (select a speed in the `FCU` and pull the knob) until the instructed distance to the runway where we would then go back to `Managed Speed Mode` and drop the gear then as well as setting flaps to 3 and flaps to full - see below.
+    The A320 `Autothrust` will manage speed during approach automatically and will reduce speed further with each flap setting. In real life and also when flying with Online ATC like VATSIM, we need to expect that ATC instructs us to stay at a certain speed (e.g., 160 knots until 5 NM to the runway). In this case, we would use `Selected Speed Mode` (select a speed in the `FCU` and pull the knob) until the instructed distance to the runway where we would then go back to `Managed Speed Mode` and drop the gear then as well as setting flaps to 3 and flaps to full - see below.
 
 The aircraft will start descending when the deviation marker is in the middle (we have captured the ILS glideslope). The vertical `FMA` will now display `G/S` in green.
 
@@ -194,7 +194,7 @@ This concludes *Preparation and Checklist for Landing*
 
 - Aircraft is fully set up for landing as per previous chapters.
 - Configuration is `FLAPS FULL`.
-- Aircraft is at about 1,000ft above the ground.
+- Aircraft is at about 1000 ft above the ground.
 - Wind is calm (no crosswind for this beginner guide).
 
 Although the A320 can do an automatic landing (**Autoland**) we will do a manual landing as this is more common and also more fun.
@@ -203,7 +203,7 @@ For an advanced guide on Autoland, see [here](../advanced-guides/flight-guidance
 
 We MUST get landing clearance from ATC before we actually are allowed to land. Without landing clearance, we must do a go-around (not part of this beginner guide) before touching the runway. Usually, ATC will have given us clearance at this point. Late clearance is rare and communicated to us beforehand.
 
-Next, we turn the **Autopilot** `OFF` at about 500ft above the ground by pressing the `AP1` button on the `FCU`. We leave the **Autothrust** on, so we don't have to worry about thrust and speed at all (Leaving **Autothrust** on for landing is common for the Airbus).
+Next, we turn the **Autopilot** `OFF` at about 500 ft above the ground by pressing the `AP1` button on the `FCU`. We leave the **Autothrust** on, so we don't have to worry about thrust and speed at all (Leaving **Autothrust** on for landing is common for the Airbus).
 
 ![Cockpit view when AP has been turned off](../assets/beginner-guide/landing/Cockpit-view-AP-off.png "Cockpit view when AP has been turned off"){loading=lazy}
 
@@ -213,7 +213,7 @@ Now look out at the PAPIs which guide us vertically down to the correct touchdow
 
 See also [Wikipedia:PAPI](https://en.wikipedia.org/wiki/Precision_approach_path_indicator)
 
-We correct our pitch only very carefully when too high (3-4 white) or too low (3-4 red). We don't need a lot of input to the sidestick to correct.
+We correct our pitch only very carefully when too high (3 - 4 white) or too low (3 - 4 red). We don't need a lot of input to the sidestick to correct.
 
 We aim for the middle of the touchdown zone, which is marked by the touchdown zone markers.
 
@@ -267,7 +267,7 @@ The upper ECAM should now show the engines in reverse mode (`REV`) and the lower
 
     ![ECAM showing speed brakes](../assets/beginner-guide/landing/ECAM-Spped-Vrk.png "ECAM showing speed brakes"){loading=lazy align=right width=45%}
 
-At about 60 knots we put the thrust levers back to idle and at about 40 knots we release the `Autobrakes` by braking manually, which deactivates the `Autobrake`.
+At about 60 knots we put the thrust levers back to idle and at about 40 knots we release the `Autobrakes` by braking manually, which deactivates the `Autobrake`.
 
 This concludes *Landing*
 
@@ -278,9 +278,9 @@ This concludes *Landing*
 **Situation:**
 
 - Aircraft has landed and is still on the center line of the runway.
-- Speed is < 40 knots.
+- Speed is < 40 knots.
 
-We look for the next runway exit and slow down to about 15 knots before we start turning off the runway.
+We look for the next runway exit and slow down to about 15 knots before we start turning off the runway.
 
 We continue rolling forward until we passed the runway entry marker with the **full length** of our aircraft.
 
