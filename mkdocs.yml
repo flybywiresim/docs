@@ -22,6 +22,7 @@ theme:
   palette:
     scheme: slate
   features:
+    - content.tooltips
     - navigation.tabs
     - navigation.tabs.sticky
     # Removed this feature again as it's breaking TOC navigation on reported-issues.md
@@ -31,7 +32,6 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
-    - content.tooltips
   favicon: assets/images/FBW-Tail.png
 
 # Plugins
@@ -157,4 +157,3 @@ markdown_extensions:
     emoji_generator: !!python/name:materialx.emoji.to_svg
   md_in_html: {} # Allows markdown to be used in HTML
   abbr: {} # Adds abbreviations
-  attr_list: {}
