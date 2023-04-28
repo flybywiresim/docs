@@ -19,17 +19,17 @@ If the aircraft reaches this speed and the Pilot Flying has not yet acted to sto
 
     The reason we mention runway length available for a rejected takeoff above, is that in some cases the ASDA can actually be shorter than the physical length of the runway.
 
-    For example, in the U.S., airports must provide a 1000-foot runway safety area (RSA) or an engineered material arresting system (EMAS) beyond the runway end. If this isn't possible, one option is to shorten the length of the runway declared as ASDA to provide for the RSA. This could result in the ASDA being up to 1,000 feet shorter than the actual runway.
+    For example, in the U.S., airports must provide a 1000-foot runway safety area (RSA) or an engineered material arresting system (EMAS) beyond the runway end. If this isn't possible, one option is to shorten the length of the runway declared as ASDA to provide for the RSA. This could result in the ASDA being up to 1000 feet shorter than the actual runway.
 
-When the aircraft speed is at or above 100 kts, it may become hazardous to reject a takeoff. Therefore, a takeoff is split into 3 phases:  
+When the aircraft speed is at or above 100 kt, it may become hazardous to reject a takeoff. Therefore, a takeoff is split into 3 phases:  
 
-- Below 100 kts  
-- Above 100 kts and below V~1~  
+- Below 100 kt  
+- Above 100 kt and below V~1~  
 - Above V~1~  
 
 !!! warning "Attention"
 
-    If the takeoff is rejected below 72 kts, spoilers & autobrakes will not activate, therefore full manual braking would be required in addition to the other stop actions listed in the rejected takeoff procedure.  
+    If the takeoff is rejected below 72 kt, spoilers & autobrakes will not activate, therefore full manual braking would be required in addition to the other stop actions listed in the rejected takeoff procedure.  
 
 Jump to [Rejected Takeoff Procedure](#rejected-takeoff-procedure)
 
@@ -41,13 +41,13 @@ As soon as the Captain decides to abort, he calls “STOP”, takes over control
 
 ## Reasons for a Rejected Takeoff  
 
-It is not possible to list all the factors that could lead to the decision to reject the takeoff. However, to help the Captain decide, the ECAM inhibits warnings that are not essential once the plane passes 80 kts and stops inhibiting them once the plane reaches 1500 ft AGL (or 2 min after lift-off, whichever occurs first). A magenta T.O INHIBIT memo is displayed in the Upper ECAM (E/WD) to inform the pilots of this.
+It is not possible to list all the factors that could lead to the decision to reject the takeoff. However, to help the Captain decide, the ECAM inhibits warnings that are not essential once the plane passes 80 kt and stops inhibiting them once the plane reaches 1500 ft AGL (or 2 min after lift-off, whichever occurs first). A magenta T.O INHIBIT memo is displayed in the Upper ECAM (E/WD) to inform the pilots of this.
 
 ![Upper ECAM T.O INHIBIT](../assets/advanced-guides/rejected-takeoff/upper-ecam-to-inhibit.jpg "Upper ECAM T.O INHIBIT")
 
-- Below 100 kts:  
+- Below 100 kt:  
     - Any ECAM warning/caution should prompt the Captain to seriously consider discontinuing the takeoff
-- Above 100 kts and below V~1~:  
+- Above 100 kt and below V~1~:  
     - Fire warning or severe damage
     - Sudden loss of engine thrust
     - Any red ECAM warning
@@ -105,5 +105,5 @@ Takeoff Procedure")
 
 !!! note 
 
-    - Full reverse thrust may be used until coming to a complete stop. But, if there is enough runway available at the end of the deceleration, it is preferable to set thrust levers to idle reverse when passing 70 kts.
+    - Full reverse thrust may be used until coming to a complete stop. But, if there is enough runway available at the end of the deceleration, it is preferable to set thrust levers to idle reverse when passing 70 kt.
     - If the brake response from the autobrake does not seem appropriate for the runway condition, FULL manual braking should be applied and maintained. IF IN DOUBT, TAKE OVER MANUALLY.

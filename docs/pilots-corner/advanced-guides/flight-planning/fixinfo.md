@@ -75,7 +75,7 @@ This brings up the lateral revision page for this waypoint and also displays the
 
 ![Fix Info page](../../assets/advanced-guides/fixinfo/mcdu-fixinfo.png "Fix Info page"){loading=lazy}
 
-With radius 63NM around the waypoint ABTUM:
+With radius 63 NM around the waypoint ABTUM:
 
 ![Fix Info with radius set](../../assets/advanced-guides/fixinfo/mcdu-fixinfo-radius.png "Fix Info with radius set"){loading=lazy}
 
@@ -91,7 +91,7 @@ You can define up to 4 different fixes by selecting the horizontal slew navigati
 
 FL340 with arrival TEBRA2G into Gatwick EGKK.
 
-A descent is required at 63NM before ABTUM as calculated by the flyPad Top of Descent calculator.
+A descent is required at 63 NM before ABTUM as calculated by the flyPad Top of Descent calculator.
 
 ![EGKK STAR TEBRA2G](../../assets/advanced-guides/fixinfo/navigraph-egkk-tebra2g.png "EGKK STAR TEBRA2G"){loading=lazy}
 <br/><sub>*Copyright © 2021 Navigraph / Jeppesen<br/>
@@ -125,11 +125,11 @@ In this scenario, we have a departure on 36R in KMCO (Orlando) with the ORLANDO 
 
 As you can read in the Initial Climb description for 36R, we need to meet certain altitudes at different positions in relation to the ORL VOR.
 
-- Cross ORL D2.0 south of ORL at or above 2.300ft
-- Cross ORL R115 at or above 2.600ft
-- Cross ORL R090/R270 at or above 3.000ft
+- Cross ORL D2.0 south of ORL at or above 2 300 ft
+- Cross ORL R115 at or above 2 600 ft
+- Cross ORL R090/R270 at or above 3 000 ft
 
-To visualize these points, we can use the fix info page to define a 2NM distance circle and 2 lines for R155 and R090/270 on the ND.
+To visualize these points, we can use the fix info page to define a 2 NM distance circle and 2 lines for R155 and R090/270 on the ND.
 
 !!! block ""
 ![Fix Info ORL](../../assets/advanced-guides/fixinfo/mcdu-orl-fixinfo1.png "Fix Info ORL"){loading=lazy width=48%}

@@ -105,17 +105,17 @@ This list is incomplete, but should mention the most important operational limit
 
 | Parameter          | Description                                  | Value               |
 |--------------------|----------------------------------------------|---------------------|
-| Maximum taxi speed | When takeoff weight > 76 000 kg / 167 550 lb | 20 kt during a turn |
+| Maximum taxi speed | When takeoff weight > 76 000 kg (167 550 lb) | 20 kt during a turn |
 
 ### Weight Limitations
 
 | Parameter | Description              | Value                  |
 |-----------|--------------------------|------------------------|
-| MTXW      | Maximum Taxi Weight      | 79 400 kg / 175 047 lb |
-| MTOW      | Maximum Takeoff Weight   | 79 000 kg / 174 165 lb |
-| MLW       | Maximum Landing Weight   | 67 400 kg / 148 591 lb |
-| MZFW      | Maximum Zero Fuel Weight | 64 300 kg / 141 757 lb |
-|           | Minimum Weight           | 40 600 kg / 89 508 lb  |
+| MTXW      | Maximum Taxi Weight      | 79 400 kg (175 047 lb) |
+| MTOW      | Maximum Takeoff Weight   | 79 000 kg (174 165 lb) |
+| MLW       | Maximum Landing Weight   | 67 400 kg (148 591 lb) |
+| MZFW      | Maximum Zero Fuel Weight | 64 300 kg (141 757 lb) |
+|           | Minimum Weight           | 40 600 kg (89 508 lb)  |
 
 !!! note
     In exceptional cases (in flight turn back or diversion), an immediate landing at weight above maximum landing weight is permitted, provided the pilot follows the overweight landing procedure.
@@ -184,7 +184,7 @@ The engine anti-ice must be ON before and during descent in icing conditions, in
 
 | Parameter               | Value             |
 |-------------------------|-------------------|
-| Minimum fuel at takeoff | 1500 kg / 3307 lb |
+| Minimum fuel at takeoff | 1500 kg (3307 lb) |
 
 ## Landing Gear
 
