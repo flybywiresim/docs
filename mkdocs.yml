@@ -31,6 +31,7 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
+    - content.tooltips
   favicon: assets/images/FBW-Tail.png
 
 # Plugins
@@ -146,9 +147,14 @@ markdown_extensions:
   pymdownx.mark: {} # Formatting Extension
   pymdownx.tilde: {} # Formatting Extension
   pymdownx.keys: {} # Visual keyboard keys extension
+  pymdownx.snippets: 
+    auto_append: 
+    - includes/abbreviations.md
   pymdownx.tasklist:
     custom_checkbox: true
   pymdownx.emoji: # Allows emoji style inline embeds for icons
     emoji_index: !!python/name:materialx.emoji.twemoji
     emoji_generator: !!python/name:materialx.emoji.to_svg
   md_in_html: {} # Allows markdown to be used in HTML
+  abbr: {} # Adds abbreviations
+  attr_list: {}
