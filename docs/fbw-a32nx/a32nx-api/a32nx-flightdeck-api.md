@@ -272,21 +272,21 @@ Flight Deck: [Fuel Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/fu
     !!! warning ""
         Please note that FUELSYSTEM_PUMP_TOGGLE 1 and 4 for the center tank pump switches got replaced with FUELSYSTEM_VALVE_TOGGLE 9 and 10, due to the NEO having jet pumps instead of conventional pumps, which was corrected in a recent update.
 
-| Function         | API Usage                | Values   | Read/Write | Type       | Remark                                      |
-|:-----------------|:-------------------------|:---------|:-----------|:-----------|:--------------------------------------------|
-| Fuel L&R Tank    | FUELSYSTEM_PUMP_TOGGLE   | 2,3,5,6  | -          | MSFS EVENT | Fuel pumps only available in the wing tanks |
-|                  | FUELSYSTEM PUMP ACTIVE:  | 0&#124;1 | R          | MSFS VAR   | To check the current state of the pump      |
-|                  | FUELSYSTEM PUMP SWITCH:  | 0&#124;1 | R          | MSFS VAR   | To check the current state of the switch    |
-|                  |                          |          |            |            |                                             |
-| Fuel Center Tank | FUELSYSTEM_VALVE_TOGGLE  | 9,10     | -          | MSFS EVENT | Used for center tank fuel jet pump valves   |
-|                  | FUELSYSTEM VALVE OPEN:   | 0&#124;1 | R          | MSFS VAR   | To check the current state of the valve     |
-|                  | FUELSYSTEM VALVE SWITCH: | 0&#124;1 | R          | MSFS VAR   | To check the current state of the switch    |
-|                  |                          |          |            |            |                                             |
-| X FEED           | FUELSYSTEM_VALVE_TOGGLE  | 3        | -          | MSFS EVENT | X-Feed Pump                                 |
-|                  | FUELSYSTEM VALVE OPEN:   | 0&#124;1 | R          | MSFS VAR   | To check the current state of the valve     |
-|                  | FUELSYSTEM VALVE SWITCH: | 0&#124;1 | R          | MSFS VAR   | To check the current state of the switch    |
-|                  |                          |          |            |            |                                             |
-| MODE SEL         | N/A                      |          |            |            |                                             |
+| Function         | API Usage                | Values   | Read/Write | Type       | Remark                                |
+|:-----------------|:-------------------------|:---------|:-----------|:-----------|:--------------------------------------|
+| Fuel L&R Tank    | FUELSYSTEM_PUMP_TOGGLE   | 2,3,5,6  | -          | MSFS EVENT | Fuel pumps for wing tanks             |
+|                  | FUELSYSTEM PUMP ACTIVE:  | 0&#124;1 | R          | MSFS VAR   | Current state of the pump             |
+|                  | FUELSYSTEM PUMP SWITCH:  | 0&#124;1 | R          | MSFS VAR   | Current state of the switch           |
+|                  |                          |          |            |            |                                       |
+| Fuel Center Tank | FUELSYSTEM_VALVE_TOGGLE  | 9,10     | -          | MSFS EVENT | Fuel jet pump valves for center tanks |
+|                  | FUELSYSTEM VALVE OPEN:   | 0&#124;1 | R          | MSFS VAR   | Current state of the valve            |
+|                  | FUELSYSTEM VALVE SWITCH: | 0&#124;1 | R          | MSFS VAR   | Current state of the switch           |
+|                  |                          |          |            |            |                                       |
+| X FEED           | FUELSYSTEM_VALVE_TOGGLE  | 3        | -          | MSFS EVENT | X-Feed pump                           |
+|                  | FUELSYSTEM VALVE OPEN:   | 0&#124;1 | R          | MSFS VAR   | Current state of the valve            |
+|                  | FUELSYSTEM VALVE SWITCH: | 0&#124;1 | R          | MSFS VAR   | Current state of the switch           |
+|                  |                          |          |            |            |                                       |
+| MODE SEL         | N/A                      |          |            |            |                                       |
 
 ### Air Condition Panel
 
