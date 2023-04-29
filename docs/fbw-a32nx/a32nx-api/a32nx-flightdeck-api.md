@@ -279,11 +279,11 @@ Flight Deck: [Fuel Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/fu
 |                  | FUELSYSTEM PUMP SWITCH:  | 0&#124;1 | R          | MSFS VAR   | To check the current state of the switch    |
 |                  |                          |          |            |            |                                             |
 | Fuel Center Tank | FUELSYSTEM_VALVE_TOGGLE  | 9,10     | -          | MSFS EVENT | Used for center tank fuel jet pump valves   |
-|                  | FUELSYSTEM_VALVE_OPEN:   | 0&#124;1 | R          | MSFS VAR   | To check the current state of the valve     |
+|                  | FUELSYSTEM VALVE OPEN:   | 0&#124;1 | R          | MSFS VAR   | To check the current state of the valve     |
 |                  | FUELSYSTEM VALVE SWITCH: | 0&#124;1 | R          | MSFS VAR   | To check the current state of the switch    |
 |                  |                          |          |            |            |                                             |
 | X FEED           | FUELSYSTEM_VALVE_TOGGLE  | 3        | -          | MSFS EVENT | X-Feed Pump                                 |
-|                  | FUELSYSTEM_VALVE_OPEN:   | 0&#124;1 | R          | MSFS VAR   | To check the current state of the valve     |
+|                  | FUELSYSTEM VALVE OPEN:   | 0&#124;1 | R          | MSFS VAR   | To check the current state of the valve     |
 |                  | FUELSYSTEM VALVE SWITCH: | 0&#124;1 | R          | MSFS VAR   | To check the current state of the switch    |
 |                  |                          |          |            |            |                                             |
 | MODE SEL         | N/A                      |          |            |            |                                             |
