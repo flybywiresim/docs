@@ -4,259 +4,259 @@
 
 | V-Speed       | Term                                                                                                                                                                                                                                                                  |
 |:--------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| V~1~          | - The highest speed during take-off that you can reject the take-off and still stop on the runway. <br>-</br> The lowest speed from which a takeoff can be safely continued within the takeoff distance after an engine failure at the critical engine failure speed. |
-| V~2~          | Take-off safety speed the aircraft attains no later than an altitude of 35 feet and is maintained during the 2nd segment of takeoff with one engine failed.                                                                                                           |
-| V~A~          | The maximum speed at which a full control deflection in one direction should be made in normal or alternate law.                                                                                                                                                      |
-| V~APP~        | Speed for flying down the approach.                                                                                                                                                                                                                                   |
-| V~D~ / M~D~   | Maximum structural design limit speed and Mach                                                                                                                                                                                                                        |
-| V~F~          | Design Flap Speed                                                                                                                                                                                                                                                     |
-| V~FE~         | Maximum Flap Extended Speed.                                                                                                                                                                                                                                          |
-| V~FEN~        | Predictive V~FE~ at next flap/slat position                                                                                                                                                                                                                           |
-| V~FTO~        | Final Takeoff Speed                                                                                                                                                                                                                                                   |
-| V~LE~         | Maximum gear extension speed, often lower than the operating speed to prevent gear door damage.                                                                                                                                                                       |
-| V~LO~         | Maximum gear operating speed, which means the max speed for the gear being down.                                                                                                                                                                                      |
-| V~LOF~        | Lift-off Speed                                                                                                                                                                                                                                                        |
-| V~LS~         | Lowest Selectable Speed                                                                                                                                                                                                                                               |
-| V~MAX~        | Airbus for the maximum speed for the current configuration, represented by a black and red strip at the top of the airspeed indication.                                                                                                                               |
-| V~MCA~        | Minimum speed in the air that if one engine fails and the other is at TO thrust, you can still control the aircraft with the primary flight controls up to a bank of 5 degrees.                                                                                       |
-| V~MCG~        | Minimum speed on the ground that if one engine fails and the other is at TO thrust, you can still control the aircraft with the primary flight controls.                                                                                                              |
-| V~MO~ / M~MO~ | Maximum operating speed, also has M~MO~ for maximum Mach number.                                                                                                                                                                                                      |
-| V~R~          | Rotate speed. The speed at which the pilot pulls back on the stick to pitch the airplane to the takeoff attitude.                                                                                                                                                     |
-| V~REF~        | Reference speed for a normal approach at the 50-foot height.                                                                                                                                                                                                          |
-| V~S~          | Stalling Speed at which Airplane is Controllable                                                                                                                                                                                                                      |
-| V~S1~         | Stalling Speed or Minimum Steady Flight Speed obtained in a specified Configuration                                                                                                                                                                                   |
-| V~SO~         | Stalling Speed or Minimum Steady Flight Speed in the Landing configuration                                                                                                                                                                                            |
-| V~SW~         | Airbus for when the stall warning will activate, represented by a black and red strip at the bottom of the airspeed indicator, when there has been a failure to affect the flight control laws.                                                                       |
-| V~X~          | Speed for Best Angle of Climb                                                                                                                                                                                                                                         |
-| V~Y~          | Speed for Best Rate of Climb                                                                                                                                                                                                                                          |
-| V~αMAX~       | Airbus speed for the maximum angle of attack (AoA) that the pilot can achieve in normal law, shown by the top of a red strip at the bottom of the airspeed indicator.                                                                                                 |
-| V~αPROT~      | Airbus for the speed that the angle of attack (AoA) protection will become active to stop the aircraft from stalling, shown as being the top of the black and amber strip at the bottom of the airspeed indicator.                                                    |
+| V~1~          | - The highest speed (**V**) during take-off that you can reject the takeoff and still stop on the runway. <br>-</br> The lowest speed from which a takeoff can be safely continued within the takeoff distance after an engine failure at the critical engine failure speed. |
+| V~2~          | Takeoff safety speed (**V**) the aircraft attains no later than an altitude of 35 ft (11 m) and is maintained during the 2nd segment of takeoff with one engine failed.                                                                                                           |
+| V~A~          | The maximum speed (**V**) at which a full control deflection in one direction should be made in normal or alternate law.                                                                                                                                                      |
+| V~APP~        | Speed (**V**) for flying down the approach.                                                                                                                                                                                                                                   |
+| V~D~ / M~D~   | Maximum structural design limit speed (**V**) and Mach.                                                                                                                                                                                                                        |
+| V~F~          | Design **F**lap speed (**V**).                                                                                                                                                                                                                                                     |
+| V~FE~         | Maximum **F**lap **E**xtended speed (**V**).                                                                                                                                                                                                                                          |
+| V~FEN~        | Predictive V~FE~ at next flap/slat position.                                                                                                                                                                                                                           |
+| V~FTO~        | **F**inal **T**akeoff speed (**V**).                                                                                                                                                                                                                                                   |
+| V~LE~         | Maximum gear **E**xtension speed (**V**), often lower than the operating speed to prevent gear door damage.                                                                                                                                                                       |
+| V~LO~         | Maximum gear **O**perating speed (**V**), which means the max speed for the gear being down.                                                                                                                                                                                      |
+| V~LOF~        | **L**ift-**O**ff speed (**V**).                                                                                                                                                                                                                                                        |
+| V~LS~         | **L**owest **S**electable speed (**V**).                                                                                                                                                                                                                                               |
+| V~MAX~        | Airbus for the **MAX**imum speed (**V**) for the current configuration, represented by a black and red strip at the top of the airspeed indication.                                                                                                                               |
+| V~MCA~        | **M**inimum speed (**V**) in the **A**ir that if one engine fails and the other is at TO thrust, you can still control the aircraft with the primary flight controls up to a bank of 5 degrees.                                                                                       |
+| V~MCG~        | **M**inimum speed (**V**) on the **G**round that if one engine fails and the other is at TO thrust, you can still control the aircraft with the primary flight controls.                                                                                                              |
+| V~MO~ / M~MO~ | **M**aximum **O**perating speed (**V**), also has M~MO~ for maximum **M**ach number.                                                                                                                                                                                                      |
+| V~R~          | **R**otate speed (**V**). The speed at which the pilot pulls back on the stick to pitch the airplane to the takeoff attitude.                                                                                                                                                     |
+| V~REF~        | **REF**erence speed (**V**) for a normal approach at the 50-foot height.                                                                                                                                                                                                          |
+| V~S~          | **S**talling speed (**V**) at which airplane is controllable.                                                                                                                                                                                                                      |
+| V~S1~         | **S**talling speed (**V**) or minimum steady flight speed obtained in a specified configuration.                                                                                                                                                                                   |
+| V~SO~         | **S**talling speed (**V**) or minimum steady flight speed in the landing configuration.                                                                                                                                                                                            |
+| V~SW~         | Airbus for when the **S**tall **W**arning will activate, represented by a black and red strip at the bottom of the airspeed indicator, when there has been a failure to affect the flight control laws.                                                                       |
+| V~X~          | Speed (**V**) for best angle of climb.                                                                                                                                                                                                                                         |
+| V~Y~          | Speed (**V**) for best rate of climb.                                                                                                                                                                                                                                          |
+| V~αMAX~       | Airbus speed (**V**) for the **MAX**imum angle of attack (**α**) that the pilot can achieve in normal law, shown by the top of a red strip at the bottom of the airspeed indicator.                                                                                                 |
+| V~αPROT~      | Airbus for the speed (**V**) that the angle of attack (**α**) **PROT**ection will become active to stop the aircraft from stalling, shown as being the top of the black and amber strip at the bottom of the airspeed indicator.                                                    |
 
 ##  Additional Speeds
 
 | V-Speed | Term                                                                                                                                  |
 |:--------|:--------------------------------------------------------------------------------------------------------------------------------------|
-| F       | Minimum speed at which the flaps may be retracted at takeoff (i.e., CONF 2/3). Also, the minimum speed in approach when in CONF 2 or 3 |
-| S       | Minimum speed at which the slats may be retracted at takeoff. Also, the minimum speed in approach when in CONF 1.                      |
-| O or GD | Green dot speed, engine-out operating speed with flaps up, best lift-to-drag ratio speed, also corresponds to final takeoff speed.    |
+| F       | Minimum speed at which the **F**laps may be retracted at takeoff (i.e., CONF 2/3). Also, the minimum speed in approach when in CONF 2 or 3 |
+| S       | Minimum speed at which the **S**lats may be retracted at takeoff. Also, the minimum speed in approach when in CONF 1.                      |
+| O or GD | **G**reen **D**ot speed, engine-out **O**perating speed with flaps up, best lift-to-drag ratio speed, also corresponds to final takeoff speed.    |
 
 
 ## Weight
 
 | Weight | Term                                |
 |:-------|:------------------------------------|
-| AGW    | Actual Gross Weight                 |
-| AUW    | All-Up Weight                       |
-| AZFW   | Actual Zero Fuel Weight             |
-| BEW    | Basic Empty Weight                  |
-| BOH    | Brake-Off Weight                    |
-| DWE    | Delivery Empty Weight               |
-| DOW    | Dry Operating Weight                |
-| GW     | Gross Weight                        |
-| LW     | Landing Weight                      |
-| MEW    | Manufacturer's Empty Weight         |
-| MFTW   | Maximum Design Fuel Transfer Weight |
-| MFW    | Maximum Design Flight Weight        |
-| MLW    | Maximum Design Landing Weight       |
-| MRW    | Maximum Ramp Weight                 |
-| MTOGW  | Maximum takeoff Gross Weight        |
-| MTOW   | Maximum Design Takeoff Weight       |
-| MTW    | Maximum Design Taxi Weight          |
-| MTXW   | Maximum Taxi Weight                 |
-| MWE    | Manufacturer's Weight Empty         |
-| MZFW   | Maximum Design Zero Fuel Weight     |
-| OEW    | Operational Empty Weight            |
-| OLW    | Operational Landing Weight          |
-| OTOW   | Operational Take-Off Weight         |
-| OWE    | Operating Weight Empty              |
-| RTOLW  | Runway Takeoff and Landing Weight   |
-| RTOW   | Runway Takeoff Weight               |
-| SBEW   | Standard Basic Empty Weight         |
-| TOGW   | Takeoff Gross Weight                |
-| TOW    | Takeoff Weight                      |
-| ZFW    | Zero Fuel Weight                    |
+| AGW    | **A**ctual **G**ross **W**eight                 |
+| AUW    | **A**ll-**U**p **W**eight                       |
+| AZFW   | **A**ctual **Z**ero **F**uel **W**eight             |
+| BEW    | **B**asic **E**mpty **W**eight                  |
+| BOH    | **B**rake-**O**ff **W**eight                    |
+| DWE    | **D**elivery **E**mpty **W**eight               |
+| DOW    | **D**ry **O**perating **W**eight                |
+| GW     | **G**ross **W**eight                        |
+| LW     | **L**anding **W**eight                      |
+| MEW    | **M**anufacturer's **E**mpty **W**eight         |
+| MFTW   | **M**aximum design **F**uel **T**ransfer **W**eight |
+| MFW    | **M**aximum design **F**light **W**eight        |
+| MLW    | **M**aximum design **L**anding **W**eight       |
+| MRW    | **M**aximum **R**amp **W**eight                 |
+| MTOGW  | **M**aximum **T**ake-**O**ff **G**ross **W**eight        |
+| MTOW   | **M**aximum design **T**ake-**O**ff **W**eight       |
+| MTW    | **M**aximum design **T**axi **W**eight          |
+| MTXW   | **M**aximum **T**a**X**i **W**eight                 |
+| MWE    | **M**anufacturer's **W**eight **E**mpty         |
+| MZFW   | **M**aximum design **Z**ero **F**uel **W**eight     |
+| OEW    | **O**perational **E**mpty **W**eight            |
+| OLW    | **O**perational **L**anding **W**eight          |
+| OTOW   | **O**perational **T**ake-**O**ff **W**eight         |
+| OWE    | **O**perating **W**eight **E**mpty              |
+| RTOLW  | **R**unway **T**ake-**O**ff and **L**anding **W**eight   |
+| RTOW   | **R**unway **T**ake-**O**ff **W**eight               |
+| SBEW   | **S**tandard **B**asic **E**mpty **W**eight         |
+| TOGW   | **T**ake-**O**ff **G**ross **W**eight                |
+| TOW    | **T**ake-**O**ff **W**eight                      |
+| ZFW    | **Z**ero **F**uel **W**eight                    |
 
 
 ## Abbreviations
 
 | Abbreviation   | Term                                                   |
 |:---------------|:-------------------------------------------------------|
-| A.ICE          | Anti-ice, Anti-icing                                   |
-| A/BRK          | Autobrake                                              |
-| A/C            | Aircraft                                               |
-| A/COLL         | Anti-Collision                                         |
-| A/F            | Auto Flight                                            |
-| A/G            | Air to Ground                                          |
-| A/L            | Airline                                                |
-| A/S            | Airspeed                                               |
-| A/SKID         | Anti-Skid                                              |
-| A/STAB         | Auto Stabilizer                                        |
-| A/THR          | Autothrust                                             |
-| A/XFMR         | Autotransformer                                        |
-| ABCU           | Alternate Braking Control Unit                         |
-| ABN            | Abnormal                                               |
-| ABNORM         | Abnormal                                               |
-| ABRN           | Airborne                                               |
-| ABS            | Autobrake System                                       |
-| ABV            | Above                                                  |
-| AC             | Alternating Current                                    |
-| ACARS          | Aircraft Communication Addressing and Reporting System |
-| ACAS           | Airborne Collision Avoidance System                    |
-| ACC            | Active Clearance Control                               |
-| ACCEL          | Acceleration/Accelerate                                |
-| ACCELMTR       | Accelerometer                                          |
-| ACCU           | Accumulator                                            |
-| ACCUR          | Accuracy                                               |
-| ACD            | Additional Control Device                              |
-| ACFT           | Aircraft                                               |
-| ACGS           | Aircraft GSM Server                                    |
-| ACK            | Acknowledge                                            |
-| ACMS           | Aircraft Condition Monitoring System                   |
-| ACP            | Audio Control Panel                                    |
-| ACQ            | Acquire                                                |
-| ACQN           | Acquisition                                            |
-| ACR            | Avionics Communication Router                          |
-| ACT            | Active                                                 |
-| ACT            | Additional Center Tank                                 |
-| ACTG           | Actuating                                              |
-| ACTIV          | Active                                                 |
-| ACTR           | Actuator                                               |
-| ACTVN          | Activation                                             |
-| ACTVT          | Activate                                               |
-| ACU            | Air Cooling Unit                                       |
-| ADB            | Airport Database                                       |
-| ADB            | Area Distribution Box                                  |
-| ADC            | Air Data Computer                                      |
-| ADCN           | Avionics Data Communication Network                    |
-| ADD            | Addition, Additional                                   |
-| ADF            | Automatic Direction Finder                             |
-| ADG            | Air-Driven Generator                                   |
-| ADI            | Attitude Director Indicator                            |
-| ADIRS          | Air Data/Inertial Reference System                     |
-| ADIRU          | Air Data/Inertial Reference Unit                       |
-| ADM            | Air Data Module                                        |
-| ADR            | Air Data Reference                                     |
-| ADS            | Air Data System                                        |
-| ADU            | Area Distribution Unit                                 |
-| ADV            | Advisory                                               |
-| AESS           | Aircraft Environment Surveillance System               |
-| AESU           | Aircraft Environment Surveillance Unit                 |
-| AEVC           | Avionics Equipment Ventilation Computer                |
-| AF             | Audio Frequency                                        |
-| AFDX           | Avionics Full Duplex Switched Ethernet                 |
-| AFECU          | Automatic Fire Extinguishing Control Unit              |
-| AFFECTD        | Affected                                               |
-| AFFIRM         | Affirmative                                            |
-| AFIS           | Airline In Flight Information System                   |
-| AFM            | Airplane Flight Manual                                 |
-| AFMC           | Auxiliary Fuel Management Computer                     |
-| AFS            | Automatic Flight System                                |
-| AFTR           | After                                                  |
-| AGC            | Automatic Gain Control, APU Generator Contactor        |
-| AGE            | Aircraft Ground Equipment                              |
-| AGL            | Above Ground Level                                     |
-| AGP            | Alternate Gauging Processor                            |
-| AGS            | Air Generation System                                  |
-| AGU            | Air Generation Unit                                    |
-| AGW            | Actual Gross Weight                                    |
-| AI             | Anti-Icing                                             |
-| AICU           | Anti Ice Control Unit                                  |
-| AIDS           | Aircraft Integrated Data System                        |
-| AIL            | Aileron                                                |
-| AIM            | Aircraft Integrated Maintenance                        |
-| AIMI           | Avionics Information Management Interface              |
-| AINS           | Aircraft Information Network System                    |
-| AIP            | Aeronautical Information Publication                   |
-| AIP            | Attendant Indication Panel                             |
-| AIRCOND        | Air Conditioning                                       |
-| AIS            | Aeronautical Information Service                       |
-| AIS            | Audio Integrated System                                |
-| AL             | Airline                                                |
-| ALIGN          | Alignment                                              |
-| ALIGND         | Aligned                                                |
-| ALLWD          | Allowed                                                |
+| A.ICE          | **A**nti-**ICE**, Anti-icing                                   |
+| A/BRK          | **A**uto**BR**a**K**e                                              |
+| A/C            | **A**ir**C**raft                                               |
+| A/COLL         | **A**nti-**COLL**ision                                         |
+| A/F            | **A**uto **F**light                                            |
+| A/G            | **A**ir to **G**round                                          |
+| A/L            | **A**ir**L**ine                                                |
+| A/S            | **A**ir**S**peed                                               |
+| A/SKID         | **A**nti-**SKID**                                              |
+| A/STAB         | **A**uto **STAB**ilizer                                        |
+| A/THR          | **A**uto**THR**ust                                             |
+| A/XFMR         | **A**utotrans**F**or**M**e**R**                                        |
+| ABCU           | **A**lternate **B**raking **C**ontrol **U**nit                         |
+| ABN            | **ABN**ormal                                               |
+| ABNORM         | **ABNORM**al                                               |
+| ABRN           | **A**ir**B**o**RN**e                                               |
+| ABS            | **A**uto**B**rake **S**ystem                                       |
+| ABV            | **AB**o**V**e                                                  |
+| AC             | **A**lternating **C**urrent                                    |
+| ACARS          | **A**ircraft **C**ommunication **A**ddressing and **R**eporting **S**ystem |
+| ACAS           | **A**irborne **C**ollision **A**voidance **S**ystem                    |
+| ACC            | **A**ctive **C**learance **C**ontrol                               |
+| ACCEL          | **ACCELL**eration/**ACCELL**erate                                |
+| ACCELMTR       | **ACCELL**ero**M**e**T**e**R**                                          |
+| ACCU           | **ACCU**mulator                                            |
+| ACCUR          | **ACCUR**acy                                               |
+| ACD            | **A**dditional **C**ontrol **D**evice                              |
+| ACFT           | **A**ir**C**ra**FT**                                               |
+| ACGS           | **A**ir**C**raft **G**sm **S**erver                                    |
+| ACK            | **ACK**nowledge                                            |
+| ACMS           | **A**ircraft **C**ondition **M**onitoring **S**ystem                   |
+| ACP            | **A**udio **C**ontrol **P**anel                                    |
+| ACQ            | **ACQ**uire                                                |
+| ACQN           | **ACQ**uisitio**N**                                            |
+| ACR            | **A**vionics **C**ommunication **R**outer                          |
+| ACT            | **ACT**ive                                                 |
+| ACT            | **A**dditional **C**enter **T**ank                                 |
+| ACTG           | **ACT**uatin**G**                                              |
+| ACTIV          | **ACTIV**e                                                 |
+| ACTR           | **ACT**uato**R**                                               |
+| ACTVN          | **ACT**i**V**atio**N**                                             |
+| ACTVT          | **ACT**i**V**a**T**e                                               |
+| ACU            | **A**ir **C**ooling **U**nit                                       |
+| ADB            | **A**irport **D**ata**B**ase                                       |
+| ADB            | **A**rea **D**istribution **B**ox                                  |
+| ADC            | **A**ir **D**ata **C**omputer                                      |
+| ADCN           | **A**vionics **D**ata **C**ommunication **N**etwork                    |
+| ADD            | **ADD**ition, **ADD**itional                                   |
+| ADF            | **A**utomatic **D**irection **F**inder                             |
+| ADG            | **A**ir-**D**riven **G**enerator                                   |
+| ADI            | **A**ttitude **D**irector **I**ndicator                            |
+| ADIRS          | **A**ir **D**ata/**I**nertial **R**eference **S**ystem                     |
+| ADIRU          | **A**ir **D**ata/**I**nertial **R**eference **U**nit                       |
+| ADM            | **A**ir **D**ata **M**odule                                        |
+| ADR            | **A**ir **D**ata **R**eference                                     |
+| ADS            | **A**ir **D**ata **S**ystem                                        |
+| ADU            | **A**rea **D**istribution **U**nit                                 |
+| ADV            | **ADV**isory                                               |
+| AESS           | **A**ircraft **E**nvironment **S**urveillance **S**ystem               |
+| AESU           | **A**ircraft **E**nvironment **S**urveillance **U**nit                 |
+| AEVC           | **A**vionics **E**quipment **V**entilation **C**omputer                |
+| AF             | **A**udio **F**requency                                        |
+| AFDX           | **A**vionics **F**ull **D**uplex switched ethernet                 |
+| AFECU          | **A**utomatic **F**ire **E**xtinguishing **C**ontrol **U**nit              |
+| AFFECTD        | **AFFECT**e**D**                                               |
+| AFFIRM         | **AFFIRM**ative                                            |
+| AFIS           | **A**irline in **F**light **I**nformation **S**ystem                   |
+| AFM            | **A**irplane **F**light **M**anual                                 |
+| AFMC           | **A**uxiliary **F**uel **M**anagement **C**omputer                     |
+| AFS            | **A**utomatic **F**light **S**ystem                                |
+| AFTR           | **AFT**e**R**                                                  |
+| AGC            | **A**utomatic **G**ain **C**ontrol, **A**pu **G**enerator **C**ontactor        |
+| AGE            | **A**ircraft **G**round **E**quipment                              |
+| AGL            | **A**bove **G**round **L**evel                                     |
+| AGP            | **A**lternate **G**auging **P**rocessor                            |
+| AGS            | **A**ir **G**eneration **S**ystem                                  |
+| AGU            | **A**ir **G**eneration **U**nit                                    |
+| AGW            | **A**ctual **G**ross **W**eight                                    |
+| AI             | **A**nti-**I**cing                                             |
+| AICU           | **A**nti **I**ce **C**ontrol **U**nit                                  |
+| AIDS           | **A**ircraft **I**ntegrated **D**ata **S**ystem                        |
+| AIL            | **AIL**eron                                                |
+| AIM            | **A**ircraft **I**ntegrated **M**aintenance                        |
+| AIMI           | **A**vionics **I**nformation **M**anagement **I**nterface              |
+| AINS           | **A**ircraft **I**nformation **N**etwork **S**ystem                    |
+| AIP            | **A**eronautical **I**nformation **P**ublication                   |
+| AIP            | **A**ttendant **I**ndication **P**anel                             |
+| AIRCOND        | **AIR** **COND**itioning                                       |
+| AIS            | **A**eronautical **I**nformation **S**ervice                       |
+| AIS            | **A**udio **I**ntegrated **S**ystem                                |
+| AL             | **A**ir**L**ine                                                |
+| ALIGN          | **ALIGN**nment                                              |
+| ALIGND         | **ALIGN**e**D**                                                |
+| ALLWD          | **ALL**o**W**e**D**                                                |
 | ALPHA          | Angle-of-Attack                                        |
-| ALPHANUM       | Alphanumerical                                         |
-| ALS            | Approach Light System                                  |
-| ALT            | Altitude                                               |
-| ALT ACQ        | Altitude Acquire                                       |
-| ALT TO         | Alternate To                                           |
-| ALTM           | Altimeter                                              |
-| ALTN           | Alternate, Alternative                                 |
-| ALTU           | Annunciator Light Test Unit                            |
-| AM             | Amplitude Modulation                                   |
-| AMB            | Ambient                                                |
-| AMDB           | Airport Mapping DataBase                               |
-| AMM            | Aircraft Maintenance Manual                            |
-| AMM            | Ammeter                                                |
-| AMP            | Ampere                                                 |
-| AMPL           | Amplifier                                              |
-| AMU            | Audio Management Unit                                  |
-| ANLG           | Analogic                                               |
-| ANN            | Annunciator                                            |
-| ANN LT         | Annunciator Light                                      |
-| ANNCE          | Announce                                               |
-| ANNCMT         | Announcement                                           |
-| ANSA           | At Nearest Suitable Airport                            |
-| ANT            | Antenna                                                |
-| AOA            | Angle Of Attack                                        |
-| AOC            | Air Operator's Certificate                             |
-| AOC            | Airline Operational Control                            |
-| AOD            | Audio On Demand                                        |
-| AOG            | Aircraft On Ground                                     |
-| AOHX           | Air/Oil Heat Exchanger                                 |
-| AP             | Autopilot                                              |
-| AP/FD          | Autopilot/Flight Director                              |
-| APP            | Approach Control-Approach Control Office               |
-| APPR           | Approach                                               |
-| APPROX         | Approximately                                          |
-| APU            | Auxiliary Power Unit                                   |
-| APU AFE        | APU Automatic Fire Extinguishing Control Unit          |
-| AR             | As Required                                            |
-| ARINC          | Aeronautical Radio Incorporated                        |
-| ARMD           | Armed                                                  |
-| ARMG           | Arming                                                 |
-| ARND           | Around                                                 |
-| ARPT           | Airport                                                |
-| ARR            | Arrival, Arriving                                      |
-| ARV            | Alternate Refill Valve                                 |
-| AS             | Airspeed                                               |
-| ASD            | Accelerate-Stop Distance                               |
-| ASI            | Airspeed Indicator                                     |
-| ASP            | Audio Selector Panel                                   |
-| ASSY           | Assembly                                               |
-| ASYM           | Asymmetric(al)                                         |
-| AT             | Autothrottle / Autothrust                              |
-| ATA            | Actual Time of Arrival                                 |
-| ATC            | Air Traffic Control                                    |
-| ATCI           | Air Traffic Control and Information                    |
-| ATCK           | Attack                                                 |
-| ATD            | Actual Time of Departure                               |
-| ATE            | Automatic Test Equipment                               |
-| ATIS           | Automatic Terminal Information Service                 |
-| ATM            | Air Traffic Management                                 |
-| ATS            | Air Traffic Service                                    |
-| ATS            | Autothrottle / Autothrust System                       |
-| ATSU           | Air Traffic Service Unit                               |
-| ATT            | Attitude                                               |
-| ATTND          | Attendant                                              |
-| AUTO           | Automatic                                              |
-| AUTOLAND       | Automatic Landing                                      |
-| AUX            | Auxiliary                                              |
-| AVAIL          | Availability                                           |
-| AVAIL          | Available                                              |
-| AVG            | Average                                                |
-| AVIONICS       | Aviation Electronics                                   |
-| AVNCS          | Avionics                                               |
-| AVS            | Avionics Ventilation System                            |
-| AWY            | Airway                                                 |
-| AZFW           | Actual Zero Fuel Weight                                |
-| B              | Blue                                                   |
-| B/C            | Business Class                                         |
-| BARO           | Barometric                                             |
-| BAT            | Battery (Electrical)                                   |
-| BCF            | Brake Cooling Fan                                      |
-| BCN            | Beacon                                                 |
+| ALPHANUM       | **ALPHANUM**erical                                         |
+| ALS            | **A**pproach **L**ight **S**ystem                                  |
+| ALT            | **ALT**itude                                               |
+| ALT ACQ        | **ALT**itude **ACQ**uire                                       |
+| ALT TO         | **Alt**ernate **TO**                                           |
+| ALTM           | **Alt**i**M**eter                                              |
+| ALTN           | **Alt**er**N**ate, **ALT**er**N**ative                                 |
+| ALTU           | **A**nnunciator **L**ight **T**est **U**nit                            |
+| AM             | **A**mplitude **M**odulation                                   |
+| AMB            | **AMB**ient                                                |
+| AMDB           | **A**irport **M**apping **D**ata**B**ase                               |
+| AMM            | **A**ircraft **M**aintenance **M**anual                            |
+| AMM            | **AMM**eter                                                |
+| AMP            | **AMP**ere                                                 |
+| AMPL           | **AMPL**ifier                                              |
+| AMU            | **A**udio **M**anagement **U**nit                                  |
+| ANLG           | **AN**a**L**o**G**ic                                               |
+| ANN            | **ANN**unciator                                            |
+| ANN LT         | **ANN**unciator **L**igh**T**                                      |
+| ANNCE          | **ANN**oun**CE**                                               |
+| ANNCMT         | **ANN**oun**C**e**M**en**T**                                           |
+| ANSA           | **A**t **N**earest **S**uitable **A**irport                            |
+| ANT            | **ANT**enna                                                |
+| AOA            | **A**ngle **O**f **A**ttack                                        |
+| AOC            | **A**ir **O**perator's **C**ertificate                             |
+| AOC            | **A**irline **O**perational **C**ontrol                            |
+| AOD            | **A**udio **O**n **D**emand                                        |
+| AOG            | **A**ircraft **O**n **G**round                                     |
+| AOHX           | **A**ir/**O**il **H**eat e**X**changer                                 |
+| AP             | **A**uto**P**ilot                                              |
+| AP/FD          | **A**uto**P**ilot/**F**light **D**irector                              |
+| APP            | **APP**roach control-**APP**roach control office               |
+| APPR           | **APPR**oach                                               |
+| APPROX         | **APPROX**imately                                          |
+| APU            | **A**uxiliary **P**ower **U**nit                                   |
+| APU AFE        | **APU** **A**utomatic **F**ire **E**xtinguishing control unit          |
+| AR             | **A**s **R**equired                                            |
+| ARINC          | **A**eronautical **R**adio **INC**orporated                        |
+| ARMD           | **ARM**e**D**                                                  |
+| ARMG           | **ARM**in**G**                                                 |
+| ARND           | **AR**ou**ND**                                                 |
+| ARPT           | **A**i**RP**or**T**                                                |
+| ARR            | **ARR**ival, **ARR**iving                                      |
+| ARV            | **A**lternate **R**efill **V**alve                                 |
+| AS             | **A**ir**S**peed                                               |
+| ASD            | **A**ccelerate-**S**top **D**istance                               |
+| ASI            | **A**ir**S**peed **I**ndicator                                     |
+| ASP            | **A**udio **S**elector **P**anel                                   |
+| ASSY           | **ASS**embl**Y**                                               |
+| ASYM           | **ASYM**metric(al)                                         |
+| AT             | **A**uto**T**hrottle / **A**uto**T**hrust                              |
+| ATA            | **ctual **ime of **rrival                                 |
+| ATC            | **ir **raffic **ontrol                                    |
+| ATCI           | **ir **raffic **ontrol and **nformation                    |
+| ATCK           | **AT**ta**CK**                                                 |
+| ATD            | **A**ctual **T**ime of **D**eparture                               |
+| ATE            | **A**utomatic **T**est **E**quipment                               |
+| ATIS           | **A**utomatic **T**erminal **I**nformation **S**ervice                 |
+| ATM            | **A**ir **T**raffic **M**anagement                                 |
+| ATS            | **A**ir **T**raffic **S**ervice                                    |
+| ATS            | **A**uto**T**hrottle / **A**uto**T**hrust **S**ystem                       |
+| ATSU           | **A**ir **T**raffic **S**ervice **U**nit                               |
+| ATT            | **ATT**itude                                               |
+| ATTND          | **ATT**e**ND**ant                                              |
+| AUTO           | **AUTO**matic                                              |
+| AUTOLAND       | **AUTO**matic **LAND**ing                                      |
+| AUX            | **AUX**iliary                                              |
+| AVAIL          | **AVAIL**ability                                           |
+| AVAIL          | **AVAIL**able                                              |
+| AVG            | **AV**erage                                                |
+| AVIONICS       | **AVI**ation Electr**ONICS**                                   |
+| AVNCS          | **AV**io**N**i**CS**                                               |
+| AVS            | **A**vionics **V**entilation **S**ystem                            |
+| AWY            | **A**ir**W**a**Y**                                                 |
+| AZFW           | **A**ctual **Z**ero **F**uel **W**eight                                |
+| B              | **B**lue                                                   |
+| B/C            | **B**usiness **C**lass                                         |
+| BARO           | **BARO**metric                                             |
+| BAT            | **BAT**tery (Electrical)                                   |
+| BCF            | **B**rake **C**ooling **F**an                                      |
+| BCN            | **B**ea**C**o**N**                                                 |
 | BCS            | Brake Control System                                   |
 | BCU            | Brake Control Unit                                     |
 | BETW           | Between                                                |
