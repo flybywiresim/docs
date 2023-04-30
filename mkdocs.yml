@@ -22,7 +22,6 @@ theme:
   palette:
     scheme: slate
   features:
-    - content.tooltips
     - navigation.tabs
     - navigation.tabs.sticky
     # Removed this feature again as it's breaking TOC navigation on reported-issues.md
