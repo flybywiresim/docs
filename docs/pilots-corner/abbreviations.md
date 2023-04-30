@@ -257,285 +257,285 @@
 | BAT            | **BAT**tery (Electrical)                                   |
 | BCF            | **B**rake **C**ooling **F**an                                      |
 | BCN            | **B**ea**C**o**N**                                                 |
-| BCS            | Brake Control System                                   |
-| BCU            | Brake Control Unit                                     |
-| BETW           | Between                                                |
-| BEW            | Basic Empty Weight                                     |
-| BHD            | Bulkhead                                               |
-| BKFLW          | Backflow                                               |
-| BKUP           | Backup                                                 |
-| BL             | Bleed                                                  |
-| BLG            | Body Landing Gear                                      |
-| BLK            | Black                                                  |
-| BLK            | Block                                                  |
-| BLST           | Ballast                                                |
-| BLV            | Bleed Valve                                            |
-| BLW            | Below                                                  |
-| BLWG           | Blowing                                                |
-| BM             | Beam                                                   |
-| BRDG           | Bridge                                                 |
-| BRG            | Bearing                                                |
-| BRK            | Brake                                                  |
-| BRKNG          | Braking                                                |
-| BRKR           | Breaker                                                |
-| BRKS           | Brakes                                                 |
-| BRKT           | Bracket                                                |
-| BRT            | Bright, Brightness                                     |
-| BSCS           | Braking and Steering Control System                    |
-| BSCU           | Braking and Steering Control Unit                      |
-| BT             | Bus Tie                                                |
-| BTC            | Bus Tie Contactor                                      |
-| BTL            | Bottle                                                 |
-| BTMS           | Brake Temperature Monitoring System                    |
-| BTMU           | Brake Temperature Monitoring Unit                      |
-| BTN            | Button                                                 |
-| BU             | Battery Unit                                           |
-| BUS            | Busbar                                                 |
-| BYP            | Bypass                                                 |
-| C              | Celsius, Centigrade                                    |
-| C              | Cyan                                                   |
-| C/B            | Circuit Breaker                                        |
-| C/L            | CheckList                                              |
-| C/M            | Crew Member                                            |
-| C/O            | Change Over                                            |
-| C/S            | Call Sign                                              |
-| CAB            | Cabin                                                  |
-| CAB PRESS      | Cabin Pressurization                                   |
-| CAL            | Calibration, Calibrated                                |
-| CANC           | Cancellation                                           |
-| CANCD          | Cancelled                                              |
-| CAPT           | Captain                                                |
-| CAS            | Calibrated Air Speed                                   |
-| CAS            | Collision Avoidance System                             |
-| CAT            | Category                                               |
-| CAUT           | Caution                                                |
-| CAUT LT        | Caution Light                                          |
-| CCD            | Cursor Control Device                                  |
-| CCRM           | Cabin Crew Rest Module                                 |
-| CCS            | Cabin Communication System                             |
-| CCW            | Counter Clock Wise                                     |
-| CD             | Compact Disk                                           |
-| CD             | Control Display                                        |
-| CDA            | Continuous Descent Arrival                             |
-| CDC            | Cargo Door Controller                                  |
-| CDL            | Configuration Deviation List                           |
-| CDS            | Control and Display System                             |
-| CDSS           | Cockpit Door Surveillance System                       |
-| CDSU           | Cockpit Door Surveillance Unit                         |
-| CDU            | Control and Display Unit                               |
-| CFDS           | Centralized Fault Display System                       |
-| CFMI           | CFM International                                      |
-| CG             | Center of Gravity                                      |
-| CHAS           | Chassis                                                |
-| CHG            | Change                                                 |
-| CHK            | Check                                                  |
-| CHM            | Chime                                                  |
-| CHRO           | Chronometer                                            |
-| CIDS           | Cabin Intercommunication Data System                   |
-| CK             | Check                                                  |
-| CKD            | Checked                                                |
-| CKPT           | Cockpit                                                |
-| CL             | CheckList                                              |
-| CL             | Climb                                                  |
-| CLB            | Climb                                                  |
-| CLD            | Closed                                                 |
-| CLG            | Ceiling                                                |
-| CLK            | Clock                                                  |
-| CLR            | Clear                                                  |
-| CLR ALT        | Clearance Altitude                                     |
-| CLRD           | Cleared                                                |
-| CLRNC          | Clearance                                              |
-| CLSD           | Closed                                                 |
-| CLSG           | Closing                                                |
-| CM             | Centimeters                                            |
-| CMD            | Command                                                |
-| CMPLTD         | Completed                                              |
-| CNCT           | Connect                                                |
-| CNCTD          | Connected                                              |
-| CNTOR          | Contactor                                              |
-| CNTR           | Counter                                                |
-| CO             | Company                                                |
-| CO RTE         | Company Route                                          |
-| COM            | Communication                                          |
-| COMP           | Compass                                                |
-| COND           | Condition                                              |
-| COND           | Conditioning                                           |
-| CONFIG         | Configuration                                          |
-| CONFIRMD       | Confirmed                                              |
-| CONSUMPT       | Consumption                                            |
-| CONT           | Continue, Continuous                                   |
-| COOL           | Cooling                                                |
-| COOLG          | Cooling                                                |
-| CORR           | Correct                                                |
-| COUNT          | Counter                                                |
-| CPC            | Cabin Pressure Controller                              |
-| CPT            | Capture                                                |
-| CRC            | Continuous Repetitive Chime                            |
-| CRG            | Cargo                                                  |
-| CRK            | Crank                                                  |
-| CRS            | Course                                                 |
-| CRT            | Cathode Ray Tube                                       |
-| CRZ            | Cruise                                                 |
-| CS             | Call Switch                                            |
-| CSL            | Console                                                |
-| CSTR           | Constraint                                             |
-| CTK            | Center Tank                                            |
-| CTL            | Central                                                |
-| CTL            | Control                                                |
-| CTLR           | Controller                                             |
-| CTR            | Center                                                 |
-| CU             | Control Unit                                           |
-| CUR            | Current                                                |
-| CVM            | Cabin Video Monitoring                                 |
-| CVR            | Cockpit Voice Recorder                                 |
-| CVRS           | Cockpit Voice Recorder System                          |
-| CW             | Clockwise                                              |
-| CWS            | Cabin Work Station                                     |
-| CY             | Cycle                                                  |
-| DA             | Drift Angle                                            |
-| DAC            | Digital to Analog Converter                            |
-| DADC           | Digital Air Data Computer                              |
-| DADS           | Digital Air Data System                                |
-| DAMP           | Damping                                                |
-| DAU            | Data Acquisition Unit                                  |
-| DB             | Data Base                                              |
-| DB             | Database                                               |
-| DB             | Decibel                                                |
-| DC             | Direct Current                                         |
-| DCD            | Data Control and Display                               |
-| DCDU           | Datalink Control and Display Unit                      |
-| DCL            | Digital Cabin Logbook                                  |
-| DCP            | Display Control Panel                                  |
-| DCU            | Direction Control Unit                                 |
-| DECEL          | Decelerate                                             |
-| DECR           | Decrease                                               |
-| DEG            | Degree                                                 |
-| DEGRADD        | Degraded                                               |
-| DEL            | Delete                                                 |
-| DEP            | Departure                                              |
-| DEPRESS        | Depressurization                                       |
-| DES            | Descend                                                |
-| DES            | Descent                                                |
-| DEST           | Destination                                            |
-| DET            | Detection, Detector                                    |
-| DETECTD        | Detected                                               |
-| DEV            | Deviation                                              |
-| DFDAMU         | Digital Flight Data Acquisition and Management Unit    |
-| DFDAU          | Digital Flight Data Acquisition Unit                   |
-| DFDR           | Digital Flight Data Recorder                           |
-| DFDRS          | Digital Flight Data Recording System                   |
-| DG             | Directional Gyro                                       |
-| DH             | Decision Height                                        |
-| DI             | Deicing                                                |
-| DIBU           | Door Illumination Ballast Unit                         |
-| DIFF           | Differential                                           |
-| DIR            | Direct, Direction, Director                            |
-| DIR TO         | Direct to                                              |
-| DISC           | Disconnect, Disconnected                               |
-| DISCH          | Discharge, Discharged                                  |
-| DISCNTY        | Discontinuity                                          |
-| DISRMD         | Disarmed                                               |
-| DIST           | Distance                                               |
-| DISTR          | Distribute, Distribution, Distributor                  |
-| DITCH          | Ditching                                               |
-| DIVERTG        | Diverting                                              |
-| DLCM           | Data Loading Configuration Manager                     |
-| DLCS           | Data Loading and Configuration System                  |
-| DLK            | Data Link                                              |
-| DLOAD          | Data Loading                                           |
-| DLY            | Delay                                                  |
-| DMA            | Direct Memory Access                                   |
-| DMC            | Display Management Computer                            |
-| DMD            | Demand                                                 |
-| DME            | Distance Measuring Equipment                           |
-| DN             | Down                                                   |
-| DOLLI          | Dome LED Light                                         |
-| DOW            | Dry Operating Weight                                   |
-| DPI            | Differential Pressure Indicator                        |
-| DR             | Door                                                   |
-| DSPL           | Display                                                |
-| DTG            | Distance To Go                                         |
-| DU             | Display Unit                                           |
-| DWG            | Drawing                                                |
-| E              | East                                                   |
-| EBAS           | Engine Bleed Air System                                |
-| EC             | Engine Control                                         |
-| ECAM           | Electronic Centralized Aircraft Monitoring             |
-| ECM            | Engine Condition Monitoring                            |
-| ECON           | Economy                                                |
-| ECP            | ECAM Control Panel                                     |
-| ECS            | Environmental Control System                           |
-| ECU            | Electronic Control Unit                                |
-| EE             | Electrical and Electronic                              |
-| EEC            | Electronic Engine Control                              |
-| EFCC           | Electronic Flight Control Computer                     |
-| EFCS           | Electrical Flight Control System                       |
-| EFCU           | Electrical Flight Control Unit                         |
-| EFF            | Effective, Effectivity                                 |
-| EFIS           | Electronic Flight Information System                   |
-| EFOB           | Estimated Fuel On Board                                |
-| EGT            | Exhaust Gas Temperature                                |
-| EIS            | Electronic Instrument System                           |
-| ELAC           | Elevator Aileron Computer                              |
-| ELAPS          | Elapsed Time                                           |
-| ELEC           | Electric, Electrical, Electricity                      |
-| ELEK           | Electronic                                             |
-| ELEV           | Elevator                                               |
-| ELEVN          | Elevation                                              |
-| ELS            | Emergency Lighting System                              |
-| ELT            | Emergency Locator Transmitter                          |
-| ELV            | Elevation                                              |
-| EMER           | Emergency                                              |
-| EMLS           | Emergency Lighting System                              |
-| EMU            | Engine Monitoring Unit                                 |
-| END            | Endurance                                              |
-| ENG            | Engine                                                 |
-| ENG OUT        | Engine Out                                             |
-| ENT            | Entry                                                  |
-| ENTR           | Entrance                                               |
-| ENV            | Envelope                                               |
-| EO             | Engine Out                                             |
-| EO ACCEL ALT   | Engine Out Acceleration Altitude                       |
-| EO THR RED SPD | Engine Out Thrust Reduction Speed                      |
-| EOSID          | Engine Out Standard Instrument Departure               |
-| EPR            | Engine Pressure Ratio                                  |
-| EPSU           | Emergency Power Supply Unit                            |
-| EPU            | Emergency Power Unit                                   |
-| EQPT           | Equipment                                              |
-| ER             | Extended Range                                         |
-| ERR            | Error                                                  |
-| ERS            | Erase                                                  |
-| ESC            | Escape                                                 |
-| ESD            | Electronic System Display                              |
-| ESS            | Essential                                              |
-| EST            | Estimated                                              |
-| ET             | Elapsed Time                                           |
-| ETA            | Estimated Time of Arrival                              |
-| ETACS          | External and Taxiing Aid Camera System                 |
-| ETD            | Estimated Time of Departure                            |
-| ETE            | Estimated Time En Route                                |
-| ETO            | Estimated Time Over                                    |
-| ETOPS          | Extended Range Twin-Engined Aircraft Operations        |
-| ETP            | Equal Time Point                                       |
-| ETRAC          | Electronic Thrust Reverser Actuation Controller        |
-| ETRAS          | Electronic Thrust Reverser Actuation System            |
-| ETT            | Estimated Time for Takeoff                             |
-| EVAC           | Evacuate                                               |
-| EVAC           | Evacuation                                             |
-| EWD            | Engine/Warning Display                                 |
-| EWS            | Electronic Warning System                              |
-| EX             | Example                                                |
-| EXCESS         | Excessive                                              |
-| EXT            | Extend, Extension                                      |
-| EXT            | Exterior                                               |
-| EXTING         | Extinguishing                                          |
-| EXTN           | Extension                                              |
-| Exting         | Extinguish                                             |
-| F              | Fahrenheit                                             |
-| F              | Fuel                                                   |
-| F              | Minimum Flap Retract Speed (EFIS)                      |
-| F-G/S          | FLS Glide Slope                                        |
-| F-LOC          | FLS Localizer                                          |
+| BCS            | **B**rake **C**ontrol **S**ystem                                   |
+| BCU            | **B**rake **C**ontrol **U**nit                                     |
+| BETW           | **BETW****een                                                |
+| BEW            | **asic **mpty **eight                                     |
+| BHD            | **B**ulk**H**ea**D**                                               |
+| BKFLW          | **B**ac**KFL**o**W**                                               |
+| BKUP           | **B**ac**KUP**                                                 |
+| BL             | **BL**eed                                                  |
+| BLG            | **B**ody **L**anding **G**ear                                      |
+| BLK            | **BL**ac**K**                                                  |
+| BLK            | **BL**oc**K**                                                  |
+| BLST           | **B**al**L**a**ST**                                                |
+| BLV            | **BL**eed **V**alve                                            |
+| BLW            | **B**e**L**o**W**                                                  |
+| BLWG           | **BL**o**W**in**G**                                                |
+| BM             | **B**ea**M**                                                   |
+| BRDG           | **BR**i**DG**e                                                 |
+| BRG            | **B**ea**R**in**G**                                                |
+| BRK            | **BR**a**K**e                                                  |
+| BRKNG          | **BR**a**K**i**NG**                                                |
+| BRKR           | **BR**ea**K**e**R**                                                |
+| BRKS           | **BR**a**K**e**S**                                                 |
+| BRKT           | **BR**ac**K**e**T**                                                |
+| BRT            | **BR**igh**T**, **BR**igh**T**ness                                     |
+| BSCS           | **B**raking and **S**teering **C**ontrol **S**ystem                    |
+| BSCU           | **B**raking and **S**teering **C**ontrol **U**nit                      |
+| BT             | **B**us **T**ie                                                |
+| BTC            | **B**us **T**ie **C**ontactor                                      |
+| BTL            | **B**o**T**t**L**e                                                 |
+| BTMS           | **B**rake **T**emperature **M**onitoring **S**ystem                    |
+| BTMU           | **B**rake **T**emperature **M**onitoring **U**nit                      |
+| BTN            | **B**u**T**to**N**                                                 |
+| BU             | **B**attery **U**nit                                           |
+| BUS            | **BUS**bar                                                 |
+| BYP            | **BYP**ass                                                 |
+| C              | **C**elsius, **C**entigrade                                    |
+| C              | **C**yan                                                   |
+| C/B            | **C**ircuit **B**reaker                                        |
+| C/L            | **C**heck**L**ist                                              |
+| C/M            | **C**rew **M**ember                                            |
+| C/O            | **C**hange **O**ver                                            |
+| C/S            | **C**all **S**ign                                              |
+| CAB            | **CAB**in                                                  |
+| CAB PRESS      | **CAB**in **PRESS**urization                                   |
+| CAL            | **CAL**ibration, **CAL**ibrated                                |
+| CANC           | **CANC**ellation                                           |
+| CANCD          | **CANC**elle**D**                                              |
+| CAPT           | **CAPT**ain                                                |
+| CAS            | **C**alibrated **A**ir **S**peed                                   |
+| CAS            | **C**ollision **A**voidance **S**ystem                             |
+| CAT            | **CAT**egory                                               |
+| CAUT           | **CAUT**ion                                                |
+| CAUT LT        | **CAUT**ion **L**igh**T**                                          |
+| CCD            | **C**ursor **C**ontrol **D**evice                                  |
+| CCRM           | **C**abin **C**rew **R**est **M**odule                                 |
+| CCS            | **C**abin **C**ommunication **S**ystem                             |
+| CCW            | **C**ounter **C**lock **W**ise                                     |
+| CD             | **C**ompact **D**isk                                           |
+| CD             | **C**ontrol **D**isplay                                        |
+| CDA            | **C**ontinuous **D**escent **A**rrival                             |
+| CDC            | **C**argo **D**oor **C**ontroller                                  |
+| CDL            | **C**onfiguration **D**eviation **L**ist                           |
+| CDS            | **C**ontrol and **D**isplay **S**ystem                             |
+| CDSS           | **C**ockpit **D**oor **S**urveillance **S**ystem                       |
+| CDSU           | **C**ockpit **D**oor **S**urveillance **U**nit                         |
+| CDU            | **C**ontrol and **D**isplay **U**nit                               |
+| CFDS           | **C**entralized **F**ault **D**isplay **S**ystem                       |
+| CFMI           | **CFM** **I**nternational                                      |
+| CG             | **C**enter of **G**ravity                                      |
+| CHAS           | **CHAS**sis                                                |
+| CHG            | **CH**an**G**e                                                 |
+| CHK            | **CH**ec**K**                                                  |
+| CHM            | **CH**i**M**e                                                  |
+| CHRO           | **CHRO**nometer                                            |
+| CIDS           | **C**abin **I**ntercommunication **D**ata **S**ystem                   |
+| CK             | **C**hec**K**                                                  |
+| CKD            | **C**hec**K**e**D**                                                |
+| CKPT           | **C**oc**KP**i**T**                                                |
+| CL             | **C**heck**L**ist                                              |
+| CL             | **CL**imb                                                  |
+| CLB            | **CL**im**B**                                                  |
+| CLD            | **CL**ose**D**                                                 |
+| CLG            | **C**ei**L**in**G**                                                |
+| CLK            | **CL**oc**K**                                                  |
+| CLR            | **CL**ea**R**                                                  |
+| CLR ALT        | **CL**ea**R**ance **ALT**itude                                     |
+| CLRD           | **CL**ea**R**e**D**                                                |
+| CLRNC          | **CL**ea**R**a**NC**e                                              |
+| CLSD           | **CL**o**S**e**D**                                                 |
+| CLSG           | **CL**o**S**G**g                                                |
+| CM             | **C**enti**M**eters                                            |
+| CMD            | **C**o**M**man**D**                                                |
+| CMPLTD         | **C**o**MPL**e**T**e**D**                                              |
+| CNCT           | **C**o**N**ne**CT**                                                |
+| CNCTD          | **C**o**N**ne**CT**e**D**                                              |
+| CNTOR          | **C**o**NT**act**OR**                                              |
+| CNTR           | **C**ou**NT**e**R**                                                |
+| CO             | **CO**mpany                                                |
+| CO RTE         | **CO**mpany **R**ou**TE**                                          |
+| COM            | **COM**munication                                          |
+| COMP           | **COMP**ass                                                |
+| COND           | **COND**ition                                              |
+| COND           | **COND**itioning                                           |
+| CONFIG         | **CONFIG**uration                                          |
+| CONFIRMD       | **CONFIRM**e**D**                                              |
+| CONSUMPT       | **CONSUMPT**ion                                            |
+| CONT           | **CONT**inue, **CONT**inuous                                   |
+| COOL           | **COOL**ing                                                |
+| COOLG          | **COOL**in**G**                                                |
+| CORR           | **CORR**ect                                                |
+| COUNT          | **COUNT**er                                                |
+| CPC            | **C**abin **P**ressure **C**ontroller                              |
+| CPT            | **C**a**PT**ure                                                |
+| CRC            | **C**ontinuous **R**epetitive **C**hime                            |
+| CRG            | **C**a**RG**o                                                  |
+| CRK            | **CR**an**K**                                                  |
+| CRS            | **C**ou**RS**e                                                 |
+| CRT            | **C**athode **R**ay **T**ube                                       |
+| CRZ            | **CR**ui**Z**e                                                 |
+| CS             | **C**all **S**witch                                            |
+| CSL            | **C**on**S**o**L**e                                                |
+| CSTR           | **C**on**STR**aint                                             |
+| CTK            | **C**enter **T**an**K**                                            |
+| CTL            | **C**en**T**ra**L**                                                |
+| CTL            | **C**on**T**ro**L**                                                |
+| CTLR           | **C**on**T**ro**L**le**R**                                             |
+| CTR            | **C**en**T**e**R**                                                 |
+| CU             | **C**ontrol **U**nit                                           |
+| CUR            | **CUR**rent                                                |
+| CVM            | **C**abin **V**ideo **M**onitoring                                 |
+| CVR            | **C**ockpit **V**oice **R**ecorder                                 |
+| CVRS           | **C**ockpit **V**oice **R**ecorder **S**ystem                          |
+| CW             | **C**lock**W**ise                                              |
+| CWS            | **C**abin **W**ork **S**tation                                     |
+| CY             | **CY**cle                                                  |
+| DA             | **D**rift **A**ngle                                            |
+| DAC            | **D**igital to **A**nalog **C**onverter                            |
+| DADC           | **D**igital **A**ir **D**ata **C**omputer                              |
+| DADS           | **D**igital **A**ir **D**ata **S**ystem                                |
+| DAMP           | **DAMP**ing                                                |
+| DAU            | **D**ata **A**cquisition **U**nit                                  |
+| DB             | **D**ata **B**ase                                              |
+| DB             | **D**ata**B**ase                                               |
+| DB             | **D**eci**B**el                                                |
+| DC             | **D**irect **C**urrent                                         |
+| DCD            | **D**ata **C**ontrol and **D**isplay                               |
+| DCDU           | **D**atalink **C**ontrol and **D**isplay **U**nit                      |
+| DCL            | **D**igital **C**abin **L**ogbook                                  |
+| DCP            | **D**isplay **C**ontrol **P**anel                                  |
+| DCU            | **D**irection **C**ontrol **U**nit                                 |
+| DECEL          | **DECEL**erate                                             |
+| DECR           | **DECR**ease                                               |
+| DEG            | **DEG**ree                                                 |
+| DEGRADD        | **DEGRAD**e**D**                                               |
+| DEL            | **DEL**ete                                                 |
+| DEP            | **DEP**arture                                              |
+| DEPRESS        | **DEPRESS**urization                                       |
+| DES            | **DES**cend                                                |
+| DES            | **DES**cent                                                |
+| DEST           | **DEST**ination                                            |
+| DET            | **DET**ection, **DET**ector                                    |
+| DETECTD        | **DETECT**e**D**                                               |
+| DEV            | **DEV**iation                                              |
+| DFDAMU         | **D**igital **F**light **D**ata **A**cquisition and **M**anagement **U**nit    |
+| DFDAU          | **D**igital **F**light **D**ata **A**cquisition **U**nit                   |
+| DFDR           | **D**igital **F**light **D**ata **R**ecorder                           |
+| DFDRS          | **D**igital **F**light **D**ata **R**ecording **S**ystem                   |
+| DG             | **D**irectional **G**yro                                       |
+| DH             | **D**ecision **H**eight                                        |
+| DI             | **D**e**I**cing                                                |
+| DIBU           | **D**oor **I**llumination **B**allast **U**nit                         |
+| DIFF           | **DIFF**erential                                           |
+| DIR            | **DIR**ect, **DIR**ection, **DIR**ector                            |
+| DIR TO         | **DIR**ect **TO**                                              |
+| DISC           | **DISC**onnect, **DISC**onnected                               |
+| DISCH          | DISCHarge, DISCHarged                                  |
+| DISCNTY        | **DISC**o**NT**inui**TY**                                          |
+| DISRMD         | **DIS**a**RM**e**D**                                               |
+| DIST           | **DIST**ance                                               |
+| DISTR          | **DISTR**ibute, **DISTR**ibution, **DISTR**ibutor                  |
+| DITCH          | **DITCH**ing                                               |
+| DIVERTG        | **DIVERT**in**G**                                              |
+| DLCM           | **D**ata **L**oading **C**onfiguration **M**anager                     |
+| DLCS           | **D**ata **L**oading and **C**onfiguration **S**ystem                  |
+| DLK            | **D**ata **L**in**K**                                              |
+| DLOAD          | **D**ata **LOAD**ing                                           |
+| DLY            | **D**e**L**a**Y**                                                  |
+| DMA            | **D**irect **M**emory **A**ccess                                   |
+| DMC            | **D**isplay **M**anagement **C**omputer                            |
+| DMD            | **D**e**M**an**D**                                                 |
+| DME            | **D**istance **M**easuring **E**quipment                           |
+| DN             | **D**ow**N**                                                   |
+| DOLLI          | **DO**me **L**ed **LI**ght                                         |
+| DOW            | **D**ry **O**perating **W**eight                                   |
+| DPI            | **D**ifferential **P**ressure **I**ndicator                        |
+| DR             | **D**oo**R**                                                   |
+| DSPL           | **D**i**SPL**ay                                                |
+| DTG            | **D**istance **T**o **G**o                                         |
+| DU             | **D**isplay **U**nit                                           |
+| DWG            | **D**ra**W**in**G**                                                |
+| E              | **E**ast                                                   |
+| EBAS           | **E**ngine **B**leed **A**ir **S**ystem                                |
+| EC             | **E**ngine **C**ontrol                                         |
+| ECAM           | **E**lectronic **C**entralized **A**ircraft **M**onitoring             |
+| ECM            | **E**ngine **C**ondition **M**onitoring                            |
+| ECON           | **ECON**omy                                                |
+| ECP            | **E**cam **C**ontrol **P**anel                                     |
+| ECS            | **E**nvironmental **C**ontrol **S**ystem                           |
+| ECU            | **E**lectronic **C**ontrol **U**nit                                |
+| EE             | **E**lectrical and **E**lectronic                              |
+| EEC            | **E**lectronic **E**ngine **C**ontrol                              |
+| EFCC           | **E**lectronic **F**light **C**ontrol **C**omputer                     |
+| EFCS           | **E**lectrical **F**light **C**ontrol **S**ystem                       |
+| EFCU           | **E**lectrical **F**light **C**ontrol **U**nit                         |
+| EFF            | **EFF**ective, **EFF**ectivity                                 |
+| EFIS           | **E**lectronic **F**light **I**nformation **S**ystem                   |
+| EFOB           | **E**stimated **F**uel **O**n **B**oard                                |
+| EGT            | **E**xhaust **G**as **T**emperature                                |
+| EIS            | **E**lectronic **I**nstrument **S**ystem                           |
+| ELAC           | **EL**evator **A**ileron **C**omputer                              |
+| ELAPS          | **ELAPS**ed time                                           |
+| ELEC           | **ELEC**tric, **ELEC**trical, **ELEC**tricity                      |
+| ELEK           | **ELE**ctronic                                             |
+| ELEV           | **ELEV**ator                                               |
+| ELEVN          | **ELEV**atio**N**                                              |
+| ELS            | **E**mergency **L**ighting **S**ystem                              |
+| ELT            | **E**mergency **L**ocator **T**ransmitter                          |
+| ELV            | **EL**e**V**ation                                              |
+| EMER           | **EMER**gency                                              |
+| EMLS           | **EM**ergency **L**ighting **S**ystem                              |
+| EMU            | **E**ngine **M**onitoring **U**nit                                 |
+| END            | **END**urance                                              |
+| ENG            | **ENG**ine                                                 |
+| ENG OUT        | **ENG**ine **OUT**                                             |
+| ENT            | **ENT**ry                                                  |
+| ENTR           | **ENTR**ance                                               |
+| ENV            | **ENV**elope                                               |
+| EO             | **E**ngine **O**ut                                             |
+| EO ACCEL ALT   | **E**ngine **O**ut **ACCEL**eration **ALT**itude                       |
+| EO THR RED SPD | **E**ngine **O**ut **THR**ust **RED**uction **SP**ee**D**                      |
+| EOSID          | **E**ngine **O**ut **S**tandard **I**nstrument **D**eparture               |
+| EPR            | **E**ngine **P**ressure **R**atio                                  |
+| EPSU           | **E**mergency **P**ower **S**upply **U**nit                            |
+| EPU            | **E**mergency **P**ower **U**nit                                   |
+| EQPT           | **EQ**ui**P**men**T**                                              |
+| ER             | **E**xtended **R**ange                                         |
+| ERR            | **ERR**or                                                  |
+| ERS            | **ER**a**S**e                                                  |
+| ESC            | **ESC**ape                                                 |
+| ESD            | **E**lectronic **S**ystem **D**isplay                              |
+| ESS            | **ESS**ential                                              |
+| EST            | **EST**imated                                              |
+| ET             | **E**lapsed **T**ime                                           |
+| ETA            | **E**stimated **T**ime of **A**rrival                              |
+| ETACS          | **E**xternal and **T**axiing **A**id **C**amera **S**ystem                 |
+| ETD            | **E**stimated **T**ime of **D**eparture                            |
+| ETE            | **E**stimated **T**ime **E**n route                                |
+| ETO            | **E**stimated **T**ime **O**ver                                    |
+| ETOPS          | **E**xtended range **T**win-engined aircraft **OP**eration**S**        |
+| ETP            | **E**qual **T**ime **P**oint                                       |
+| ETRAC          | **E**lectronic **T**hrust **R**everser **A**ctuation **C**ontroller        |
+| ETRAS          | **E**lectronic **T**hrust **R**everser **A**ctuation **S**ystem            |
+| ETT            | **E**stimated **T**ime for **T**akeoff                             |
+| EVAC           | **EVAC**uate                                               |
+| EVAC           | **EVAC**uation                                             |
+| EWD            | **E**ngine/**W**arning **D**isplay                                 |
+| EWS            | **E**lectronic **W**arning **S**ystem                              |
+| EX             | **EX**ample                                                |
+| EXCESS         | **EXCESS**ive                                              |
+| EXT            | **EXT**end, **EXT**ension                                      |
+| EXT            | **EXT**erior                                               |
+| EXTING         | **EXTING**uishing                                          |
+| EXTN           | **ECT**e**N**sion                                              |
+| Exting         | **EXTING**uish                                             |
+| F              | **F**ahrenheit                                             |
+| F              | **F**uel                                                   |
+| F              | Minimum **F**lap Retract Speed (EFIS)                      |
+| F-G/S          | **F**LS **G**lide **S**lope                                        |
+| F-LOC          | **F**LS **LOC**alizer                                          |
 | F-PLN          | Flight Plan                                            |
 | F/C            | First Class                                            |
 | F/CTL          | Flight Controls                                        |
