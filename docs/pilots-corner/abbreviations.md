@@ -768,470 +768,471 @@
 | LVR            | **L**e**V**e**R**                                                  |
 | LW             | **L**anding **W**eight                                         |
 | LWR            | **L**o**W**e**R**                                                  |
-| M              | Mach                                                   |
-| M              | Mach Number                                            |
-| M              | Magenta                                                |
-| M              | Maneuvering Speed (EFIS)                               |
-| M              | Mode                                                   |
-| MA             | MilliAmpere                                            |
-| MAG            | Magnetic                                               |
-| MAINT          | Maintenance                                            |
-| MAN            | Manual                                                 |
-| MAX            | Maximum                                                |
-| MAX CLB        | Maximum Climb                                          |
-| MAX DES        | Maximum Descent                                        |
-| MB             | Millibars                                              |
-| MCDU           | Multipurpose Control & Display Unit                    |
-| MCT            | Maximum Continuous Thrust                              |
-| MCU            | Master Control Unit                                    |
-| MDA            | Minimum Decision Altitude                              |
-| MDA            | Minimum Descent Altitude                               |
-| MDH            | Minimum Descent Height                                 |
-| MEA            | Minimum En Route IFR Altitude                          |
-| MED            | Medium                                                 |
-| MEM            | Memory                                                 |
-| MEW            | Manufacturer's Empty Weight                            |
-| MFD            | Multifunction Display                                  |
-| MGT            | Management                                             |
-| MIC            | Microphone                                             |
-| MID            | Middle                                                 |
-| MIN            | Minimum                                                |
-| MIN FUEL       | Minimum Fuel                                           |
-| MIN TIME       | Minimum Time                                           |
-| MISC           | Miscellaneous                                          |
-| MLG            | Main Landing Gear                                      |
-| MM             | Middle Marker                                          |
-| MMEL           | Master Minimum Equipment List                          |
-| MMO            | Mach Max Operating Speed                               |
-| MMO            | Maximum Operating Mach                                 |
-| MON            | Monitor, Monitoring, Monitored                         |
-| MRW            | Maximum Ramp Weight                                    |
-| MSA            | Minimum Safe Altitude                                  |
-| MSG            | Message                                                |
-| MSL            | Mean Sea Level                                         |
-| MSTR           | Master                                                 |
-| MTO            | Maximum Take-Off                                       |
-| MTOGW          | Maximum Takeoff Gross Weight                           |
-| MTOW           | Maximum Design Takeoff Weight                          |
-| MTR            | Meter                                                  |
-| MWARN          | Master Warning                                         |
-| MWC            | Master Warning Computer                                |
-| MWP            | Master Warning Panel                                   |
-| MWS            | Master Warning System                                  |
-| MZFCG          | Maximum Zero Fuel Center of Gravity                    |
-| MZFW           | Maximum Design Zero Fuel Weight                        |
-| Mn             | Mach Number                                            |
-| N              | Newton                                                 |
-| N              | Normal                                                 |
-| N              | North                                                  |
-| N/A            | Not Applicable                                         |
-| N/P            | Next Page                                              |
-| N/W            | Nose Wheel                                             |
-| N/WS           | Nose Wheel Steering                                    |
-| N1             | Engine Fan Speed                                       |
-| N1             | Low-Pressure Rotor Speed                               |
-| N1.D           | N1 Descent                                             |
-| N1.L           | N1 Latch                                               |
-| N2             | High-Pressure Rotor Speed                              |
-| NAV            | Navigation                                             |
-| NAVAID         | Navigation Aid                                         |
-| ND             | Navigation Display                                     |
-| NDB            | Navigation Data Base                                   |
-| NDB            | Non-Directional Beacon                                 |
-| NDB            | Non-Directional Radio Beacon                           |
-| NEG            | Negative                                               |
-| NLG            | Nose Landing Gear                                      |
-| NM             | Nautical Mile                                          |
-| NO             | Normal Operation                                       |
-| NORM           | Normal                                                 |
-| NOTAM          | Notice to Airmen                                       |
-| NS             | No Smoking                                             |
-| NW             | Nose Wheel                                             |
-| Nm             | Moment (Newton meter)                                   |
-| No             | Number                                                 |
-| O              | Open                                                   |
-| O/P            | Output                                                 |
-| O2             | Oxygen (Symbol)                                        |
-| OANC           | Onboard Airport Navigation Computer                    |
-| OANS           | Onboard Airport Navigation System                      |
-| OAT            | Outside Air Temperature                                |
-| OBSV           | Observation                                            |
-| OCL            | Obstacle Clearance Limit                               |
-| OEW            | Operational Empty Weight                               |
-| OFFR           | Off/Reset                                              |
-| OFST           | Offset                                                 |
-| OIS            | Onboard Information System                             |
-| OIT            | Onboard Information Terminal                           |
-| OK             | Correct                                                |
-| OLW            | Operational Landing Weight                             |
-| OM             | Outer Marker                                           |
-| OMS            | Onboard Maintenance System                             |
-| OMT            | Onboard Maintenance Terminal                           |
-| OP             | Operational                                            |
-| OPP            | Opposite                                               |
-| OPS            | Operations                                             |
-| OPT            | Optimum                                                |
-| OPT            | Optional                                               |
-| OPTL           | Optional                                               |
-| OPU            | Overspeed Protection Unit                              |
-| OTOW           | Operational Take-Off Weight                            |
-| OUT            | Outlet                                                 |
-| OUT            | Output                                                 |
-| OUTR           | Outer                                                  |
-| OVBD           | Overboard                                              |
-| OVFL           | Overflow                                               |
-| OVHD           | Overhead                                               |
-| OVHT           | Overheat                                               |
-| OVLD           | Overload                                               |
-| OVPRESS        | Overpressure                                           |
-| OVRD           | Override                                               |
-| OVSP           | Overspeed                                              |
-| OVSTEER        | Oversteer                                              |
-| OVV            | Overvoltage                                            |
-| OWE            | Operating Weight Empty                                 |
-| OXY            | Oxygen                                                 |
-| OZ             | Ounce                                                  |
-| P              | Pressure                                               |
-| P/B            | Pushbutton                                             |
-| P/BSW          | Pushbutton Switch                                      |
-| P/L            | Payload                                                |
-| PA             | Passenger Address                                      |
-| PA             | Public Address                                         |
-| PARK           | Parking                                                |
-| PAS            | Pitch Attitude Sensor                                  |
-| PAX            | Passenger                                              |
-| PC             | Pack Controller                                        |
-| PCT            | Percent                                                |
-| PCU            | Power Control Unit                                     |
-| PED            | Pedestal                                               |
-| PERF           | Performance                                            |
-| PF             | Pilot Flying                                           |
-| PFD            | Primary Flight Display                                 |
-| PG             | Page                                                   |
-| PHR            | Pounds per Hour                                        |
-| PIREP          | Pilot Report                                           |
-| PLT            | Pilot                                                  |
-| PMP            | Pump                                                   |
-| PMU            | Power Management Unit                                  |
-| PNEU           | Pneumatic                                              |
-| PNF            | Pilot Non Flying                                       |
-| PNL            | Panel                                                  |
-| POS            | Position                                               |
-| PPM            | Parts per Million                                      |
-| PPOS           | Present Position                                       |
-| PR             | Pressure                                               |
-| PRB            | Probe                                                  |
-| PRESEL         | Preselection, Preselector                              |
-| PRESS          | Pressure, Pressurization, Pressurize                   |
-| PREV           | Previous                                               |
-| PRGM           | Program                                                |
-| PRI            | Priority                                               |
-| PROC           | Procedure                                              |
-| PROG           | Progress                                               |
-| PROT           | Protection                                             |
-| PROX           | Proximity                                              |
-| PSU            | Power Supply Unit                                      |
-| PT             | Point                                                  |
-| PTR            | Push to Reset                                          |
-| PTT            | Push to Test                                           |
-| PTT            | Push-to-Talk                                           |
-| PTU            | Power Transfer Unit                                    |
-| PURS           | Purser                                                 |
-| PW             | Pratt and Whitney                                      |
-| PWR            | Power                                                  |
-| PWS            | Predictive WindShear                                   |
-| Pa             | Pascal                                                 |
-| Pb             | Pressure Ambient                                       |
-| Q              | Pitch Rate                                             |
-| QAR            | Quick Access Recorder                                  |
-| QFE            | Baro Pressure Setting for Airfield Altitude            |
-| QFE            | Field Elevation Atmospheric Pressure                   |
-| QFE            | Pressure Setting for Airfield Altitude                 |
-| QNE            | Sea Level Standard Atmosphere Pressure                 |
-| QNH            | Baro Pressure Setting for en Route Altitude            |
-| QNH            | Pressure Setting for En Route Altitude                 |
-| QNH            | Sea Level Atmospheric Pressure                         |
-| QNH            | Sea Level Pressure                                     |
-| QRH            | Quick Reference Handbook                               |
-| QTY            | Quantity                                               |
-| R              | Radius                                                 |
-| R              | Red                                                    |
-| R              | Release                                                |
-| R              | Reset                                                  |
-| R              | Right                                                  |
-| R/C            | Rate of Climb                                          |
-| R/D            | Rate of Descent                                        |
-| R/H            | Radar Height                                           |
-| R/I            | Radio/Inertial                                         |
-| R/L            | Reading Light                                          |
-| R/T            | Radio Transmit                                         |
-| R/T            | Receiver Transmitter Unit                              |
-| RA             | Radio Altimeter, Radio Altitude                        |
-| RA             | Resolution Advisory                                    |
-| RAAS           | Runway Awareness and Advisory System                   |
-| RAD            | Radio                                                  |
-| RAI            | Ram Air Inlet                                          |
-| RAIMS          | Radio and Audio Integrating Management System          |
-| RAT            | Ram Air Turbine                                        |
-| RC             | Repetitive Chime                                       |
-| RCDR           | Recorder                                               |
-| RCL            | Recall                                                 |
-| RCLM           | Runway Center Line Marking                             |
-| RCLS           | Runway Center Line Light System                        |
-| RCR            | Runway Condition Report                                |
-| RCVR           | Receiver                                               |
-| RCVY           | Recovery                                               |
-| RDY            | Ready                                                  |
-| RECOG          | Recognition                                            |
-| RED            | Reduction                                              |
-| REDUND         | Redundancy                                             |
-| REF            | Reference                                              |
-| REF ALIGN      | Reference Alignment                                    |
-| REFLNG         | Refueling                                              |
-| REFUEL         | Refueling                                              |
-| RET            | Retract                                                |
-| RET            | Return                                                 |
-| RETR           | Retract                                                |
-| REV            | Reverse                                                |
-| REV            | Revise, Revision                                       |
-| RF             | Radio Frequency                                        |
-| RLD            | Required Landing Distance                              |
-| RMP            | Radio Management Panel                                 |
-| RMU            | Radio Management Unit                                  |
-| RNAV           | Area Navigation                                        |
-| RNG            | Range                                                  |
-| RNI            | Radio Navigation Indicator                             |
-| RPLNT          | Repellent                                              |
-| RPM            | Revolutions Per Minute                                 |
-| RPTG           | Reporting                                              |
-| RQRD           | Required                                               |
-| RR             | Rolls-Royce                                            |
-| RST            | Reset                                                  |
-| RSV            | Reserve                                                |
-| RSVR           | Reservoir                                              |
-| RTE            | Route                                                  |
-| RTG            | Rating                                                 |
-| RTN            | Return                                                 |
-| RTO            | Rejected TakeOff                                       |
-| RTOLW          | Runway Takeoff and Landing Weight                      |
-| RTOW           | Runway Takeoff Weight                                  |
-| RTR            | Router                                                 |
-| RTRSW          | Rotary Switch                                          |
-| RTRY           | Rotary                                                 |
-| RTU            | Radar Transceiver Unit                                 |
-| RUD            | Rudder                                                 |
-| RVR            | Runway Visual Range                                    |
-| RVS            | Reverse                                                |
-| RVSN           | Reversion                                              |
-| RWY            | Runway                                                 |
-| S              | Minimum Slat Retract Speed (EFIS)                      |
-| S              | South                                                  |
-| S/C S/D        | Step Climb Step Descent                                |
-| S/W            | Software                                               |
-| SAT            | Static Air Temperature                                 |
-| SATCOM         | Satellite Communication                                |
-| SBL            | Symbol                                                 |
-| SC             | Single Chime                                           |
-| SD             | System Display                                         |
-| SDAC           | System Daa Analog Converter                            |
-| SDCU           | Smoke Detection Control Unit                           |
-| SEAL           | Sealing                                                |
-| SEC            | Secondary                                              |
-| SEC            | Secondary Computer                                     |
-| SEC            | Spoiler Elevator Computer                              |
-| SEG            | Segment                                                |
-| SEL            | Select, Selected, Selector, Selection                  |
-| SELCAL         | Selective Calling System                               |
-| SEQ            | Sequence, Sequential                                   |
-| SER            | Serial                                                 |
-| SER            | Serial Number                                          |
-| SGU            | Symbol Generator Unit                                  |
-| SHT            | Short                                                  |
-| SI             | Slip Indicator                                         |
-| SID            | Standard Instrument Departure                          |
-| SIG            | Signal                                                 |
-| SIM            | Simulation                                             |
-| SL             | Sea Level                                              |
-| SLD            | Slide, Sliding                                         |
-| SLT            | Slat                                                   |
-| SMK            | Smoke                                                  |
-| SN             | Serial Number                                          |
-| SNSR           | Sensor                                                 |
-| SPAD           | Scratchpad                                             |
-| SPD            | Speed                                                  |
-| SPD/M          | Speed-Mach                                             |
-| SPEC           | Specification                                          |
-| SPKR           | Speaker                                                |
-| SPLR           | Spoiler                                                |
-| SPLY           | Supply                                                 |
-| SQ             | Squelch                                                |
-| SRS            | Speed Reference System                                 |
-| STAB           | Stabilizer                                             |
-| STAR           | Standard Terminal Arrival Route                        |
-| STARTG         | Starting                                               |
-| STAT           | Static                                                 |
-| STBY           | Standby                                                |
-| STDY           | Steady                                                 |
-| STRG           | Steering                                               |
-| STRUCT         | Structure                                              |
-| STS            | Status                                                 |
-| SUCT           | Suction                                                |
-| SURF           | Surface                                                |
-| SVCE           | Service                                                |
-| SW             | Switch                                                 |
-| SWTG           | Switching                                              |
-| SYNC           | Synchro, Synchronize                                   |
-| SYS            | System                                                 |
-| T              | Time                                                   |
-| T              | Trim                                                   |
-| T              | True                                                   |
-| T              | Turn                                                   |
-| T/C            | Top of Climb                                           |
-| T/D            | Top of Descent                                         |
-| T/R            | Thrust Reverser                                        |
-| T2CAS          | Traffic and Terrain Collision Avoidance System         |
-| TA             | Traffic Advisory                                       |
-| TAC            | Taxiing Aid Camera                                     |
-| TACAN          | Ultra-high Frequency Tactical Air Navigation Aid       |
-| TACH           | Tachometer                                             |
-| TADB           | Terrain/Airport DataBase                               |
-| TAS            | True Airspeed                                          |
-| TAT            | Total Air Temperature                                  |
-| TAWS           | Terrain Avoidance Warning System                       |
-| TBC            | To Be Confirmed                                        |
-| TBU            | Time Base Unit                                         |
-| TBV            | Transient Bleed Valve                                  |
-| TC             | Takeoff Charts                                         |
-| TCAS           | Traffic Alert and Collision Avoidance System           |
-| TEMP           | Temperature                                            |
-| TGT            | Target                                                 |
-| THR            | Thrust                                                 |
-| THROT          | Throttle                                               |
-| THS            | Trimmable Horizontal Stabilizer                        |
-| TK             | Ground Track Angle                                     |
-| TK             | Tank                                                   |
-| TKE            | Track Angle Error                                      |
-| TLA            | Throttle Lever Angle                                   |
-| TMA            | Terminal Control Area                                  |
-| TMG            | Timing                                                 |
-| TMR            | Timer                                                  |
-| TO             | Takeoff                                                |
-| TO/APPR        | Takeoff/Approach                                       |
-| TOD            | Takeoff Distance                                       |
-| TODA           | Takeoff Distance Available                             |
-| TOGA           | Takeoff/Go Around                                      |
-| TOGW           | Takeoff Gross Weight                                   |
-| TOR            | Takeoff Run                                            |
-| TORA           | Takeoff Run Available                                  |
-| TOT            | Total                                                  |
-| TOW            | Takeoff Weight                                         |
-| TOW            | Towing                                                 |
-| TR             | Thrust Reverser                                        |
-| TRANS          | Transition                                             |
-| TRANSF         | Transfer                                               |
-| TRC            | Thrust Rating Computer                                 |
-| TRGT           | Target                                                 |
-| TRIG           | Trigger                                                |
-| TRK            | Track                                                  |
-| TRK            | Track (angle)                                          |
-| TROPO          | Tropopause                                             |
-| TRT            | Turn Round Time                                        |
-| TRU            | True                                                   |
-| TST            | Test                                                   |
-| TT             | Total Time                                             |
-| TURB           | Turbine                                                |
-| TWR            | Tower                                                  |
-| TWY            | Taxiway                                                |
-| TX             | Transmission (TCAS to Transponder)                     |
-| TYP            | Typical                                                |
-| UD             | Upper Deck                                             |
-| UHF            | Ultra High Frequency                                   |
-| UTC            | Universal Time Coordinated                             |
-| V              | Valve                                                  |
-| V              | Volt, Voltage                                          |
-| V/L            | VOR/LOC                                                |
-| V/L            | VOR/Localizer                                          |
-| V/S            | Vertical Speed                                         |
-| VACU           | Vacuum                                                 |
-| VAR            | Variable, Variation                                    |
-| VCTREND        | Airspeed Tendency                                      |
-| VDF            | Very High-Frequency Direction Finding Station          |
-| VDR            | VHF Data Radio                                         |
-| VEL            | Velocity                                               |
-| VERT           | Vertical                                               |
-| VFR            | Visual Flight Rules                                    |
-| VHF            | Very High Frequency                                    |
-| VHV            | Very High Voltage                                      |
-| VIB            | Vibration                                              |
-| VLF            | Very Low Frequency                                     |
-| VMO            | Maximum Operating Speed                                |
-| VOL            | Volume                                                 |
-| VOR            | Very High-Frequency Omnirange Station                  |
-| VOR.D          | VOR-DME                                                |
-| VORTAC         | Visual Omni-Range Tactical Air Navigation              |
-| VSI            | Vertical Speed Indicator                               |
-| VSW            | Stall Warning Speed                                    |
-| W              | Watt                                                   |
-| W              | Weight                                                 |
-| W              | West                                                   |
-| W/V            | Wind Direction and Speed                               |
-| WAI            | Wing Anti-Ice                                          |
-| WARN           | Warning                                                |
-| WB             | Wide Body                                              |
-| WD             | Warning Display                                        |
-| WDO            | Window                                                 |
-| WG             | Wing                                                   |
-| WHL            | Wheel                                                  |
-| WR             | Weather Radar                                          |
-| WS             | Wind Speed                                             |
-| WT             | Weight                                                 |
-| WX             | Weather Mode (ND)                                      |
-| WXR            | Weather Radar                                          |
-| X              | Cross                                                  |
-| X              | Trans Crossbleed                                       |
-| X BLEED X FEED | Crossfeed                                              |
-| X LINE         | Crossline                                              |
-| X VALVE        | Cross Valve                                            |
-| X-TALK         | Cross-talk                                             |
-| XCHECK         | Crosscheck                                             |
-| XFR            | Transfer                                               |
-| XING           | Crossing                                               |
-| XPDR           | Transponder                                            |
-| XPNDR          | Transponder                                            |
-| XWIND          | Crosswind                                              |
-| Y              | Yellow                                                 |
-| Y/C            | Economy Class                                          |
-| YCR            | Economy Class-Rear                                     |
-| YE             | Year                                                   |
-| Z              | Greenwich Mean Time                                    |
-| ZC             | Zone Controller                                        |
-| ZFCG           | Zero Fuel Center of Gravity                            |
-| ZFW            | Zero Fuel Weight                                       |
-| Zp             | Pressure Altitude                                      |
-| Zpi            | Indicated Pressure Altitude                            |
-| dB             | Decibel                                                |
-| dB(A)          | A-Weighted Decibel                                     |
-| ft             | Feet, Foot                                             |
-| ft/mn          | Feet per Minute                                        |
-| g              | Gram                                                   |
-| h              | Height                                                 |
-| h              | Hour                                                   |
-| in             | Inch                                                   |
-| kPa            | Kilo Pascal                                            |
-| kW             | Kilowatt                                               |
-| kg             | Kilogram                                               |
-| kg/m³          | Kilograms/Cubic Meter                                  |
-| lb             | Pound                                                  |
-| lbf/in²        | Pounds force per square inch                           |
-| m              | Meter                                                  |
-| mbar           | Millibar                                               |
-| mile/h         | Miles per Hour                                         |
-| min            | Minute                                                 |
-| ml             | Milliliter                                             |
-| mm             | Millimeter                                             |
-| n              | Load Factor                                            |
-| phi            | Bank Angle                                             |
-| phi N          | Nominal Bank Angle                                     |
-| r/min          | Revolutions per Minute                                 |
-| s              | Second                                                 |
-| t              | Tonne                                                  |
+| M              | **M**ach                                                   |
+| M              | **M**ach number                                            |
+| M              | **M**agenta                                                |
+| M              | **M**aneuvering speed (EFIS)                               |
+| M              | **M**ode                                                   |
+| MA             | **M**illi**A**mpere                                            |
+| MAG            | **MAG**netic                                               |
+| MAINT          | **MAINT**enance                                            |
+| MAN            | **MAN**ual                                                 |
+| MAX            | **MAX**imum                                                |
+| MAX CLB        | **MAX**imum **CL**im**B**                                          |
+| MAX DES        | **MAX**imum **DES**cent                                        |
+| MB             | **M**illi**B**ars                                              |
+| MCDU           | **M**ultipurpose **C**ontrol & **D**isplay **U**nit                    |
+| MCT            | **M**aximum **C**ontinuous **T**hrust                              |
+| MCU            | **M**aster **C**ontrol **U**nit                                    |
+| MDA            | **M**inimum **D**ecision **A**ltitude                              |
+| MDA            | **M**inimum **D**escent **A**ltitude                               |
+| MDH            | **M**inimum **D**escent **H**eight                                 |
+| MEA            | **M**inimum **E**n route ifr **A**ltitude                          |
+| MED            | **MED**ium                                                 |
+| MEM            | **MEM**ory                                                 |
+| MEW            | **M**anufacturer's **E**mpty **W**eight                            |
+| MFD            | **M**ulti**F**unction **D**isplay                                  |
+| MGT            | **M**ana**G**emen**T**                                             |
+| MIC            | **MIC**rophone                                             |
+| MID            | **MID**dle                                                 |
+| MIN            | **MIN**imum                                                |
+| MIN FUEL       | **MIN**imum **FUEL**                                           |
+| MIN TIME       | **MIN**imum **TIME**                                           |
+| MISC           | **MISC**ellaneous                                          |
+| MLG            | **M**ain **L**anding **G**ear                                      |
+| MM             | **M**iddle **M**arker                                          |
+| MMEL           | **M**aster **M**inimum **E**quipment **L**ist                          |
+| MMO            | **M**ach **M**ax **O**perating speed                               |
+| MMO            | **M**aximum **M**ach **O**perating                                  |
+| MON            | **MON**itor, **MON**itoring, **MON**itored                         |
+| MRW            | **M**aximum **R**amp **W**eight                                    |
+| MSA            | **M**inimum **S**afe **A**ltitude                                  |
+| MSG            | **M**e**S**sa**G**e                                                |
+| MSL            | **M**ean **S**ea **L**evel                                         |
+| MSTR           | **M**a**ST**e**R**                                                 |
+| MTO            | **M**aximum **T**ake-**O**ff                                       |
+| MTOGW          | **M**aximum **T**ake-**O**ff **G**ross **W**eight                           |
+| MTOW           | **M**aximum design **T**ake-**O**ff **W**eight                          |
+| MTR            | **M**e**T**e**R**                                                  |
+| MWARN          | **M**aster **WARN**ing                                         |
+| MWC            | **M**aster **W**arning **C**omputer                                |
+| MWP            | **M**aster **W**arning **P**anel                                   |
+| MWS            | **M**aster **W**arning **S**ystem                                  |
+| MZFCG          | **M**aximum **Z**ero **F**uel **C**enter of **G**ravity                    |
+| MZFW           | **M**aximum design **Z**ero **F**uel **W**eight                        |
+| Mn             | **M**ach **N**umber                                            |
+| N              | **N**ewton                                                 |
+| N              | **N**ormal                                                 |
+| N              | **N**orth                                                  |
+| N/A            | **N**ot **A**pplicable                                         |
+| N/P            | **N**ext **P**age                                              |
+| N/W            | **N**ose **W**heel                                             |
+| N/WS           | **N**ose **W**heel **S**teering                                    |
+| N1             | engine fan speed                                       |
+| N1             | low-pressure rotor speed                               |
+| N1.D           | **N1 D**escent                                             |
+| N1.L           | **N1 L**atch                                               |
+| N2             | high-pressure rotor speed                              |
+| NAV            | **NAV**igation                                             |
+| NAVAID         | **NAV**igation **AID**                                         |
+| ND             | **N**avigation **D**isplay                                     |
+| NDB            | **N**avigation **D**ata **B**ase                                   |
+| NDB            | **N**on-**D**irectional **B**eacon                                 |
+| NDB            | **N**on-**D**irectional radio **B**eacon                           |
+| NEG            | **NEG**ative                                               |
+| NLG            | **N**ose **L**anding **G**ear                                      |
+| NM             | **N**autical **M**ile                                          |
+| NO             | **N**ormal **O**peration                                       |
+| NORM           | **NORM**al                                                 |
+| NOTAM          | **NO**tice **T**o **A**ir**M**en                                       |
+| NS             | **N**o **S**moking                                             |
+| NW             | **N**ose **W**heel                                             |
+| Nm             | moment (**N**ewton **M**eter)                                   |
+| No             | **N**umber                                                 |
+| O              | **O**pen                                                   |
+| O/P            | **O**ut**P**ut                                                 |
+| O2             | oxygen (symbol)                                        |
+| OANC           | **O**nboard **A**irport **N**avigation **C**omputer                    |
+| OANS           | **O**nboard **A**irport **N**avigation **S**ystem                      |
+| OAT            | **O**utside **A**ir **T**emperature                                |
+| OBSV           | **OBS**er**V**ation                                            |
+| OCL            | **O**bstacle **C**learance **L**imit                               |
+| OEW            | **O**perational **E**mpty **W**eight                               |
+| OFFR           | **OFF/R**eset                                              |
+| OFST           | **OF**f**S**e**T**                                                 |
+| OIS            | **O**nboard **I**nformation **S**ystem                             |
+| OIT            | **O**nboard **I**nformation **T**erminal                           |
+| OK             | correct                                                |
+| OLW            | **O**perational **L**anding Weight                             |
+| OM             | **O**uter **M**arker                                           |
+| OMS            | **O**nboard **M**aintenance **S**ystem                             |
+| OMT            | **O**nboard **M**aintenance **T**erminal                           |
+| OP             | **OP**erational                                            |
+| OPP            | **OPP**osite                                               |
+| OPS            | **OP**eration**S**                                             |
+| OPT            | **OPT**imum                                                |
+| OPT            | **OPT**ional                                               |
+| OPTL           | **OPT**iona**L**                                               |
+| OPU            | **O**verspeed **P**rotection **U**nit                              |
+| OTOW           | **O**perational **T**ake-**O**ff **W**eight                            |
+| OUT            | **OUT**let                                                 |
+| OUT            | **OUT**put                                                 |
+| OUTR           | **OUT**e**R**                                                  |
+| OVBD           | **OV**er**B**oar**D**                                              |
+| OVFL           | **OV**er**FL**ow                                               |
+| OVHD           | **OV**er**H**ea**D**                                               |
+| OVHT           | **OV**er**H**ea**T**                                               |
+| OVLD           | **OV**er**L**oa**D**                                               |
+| OVPRESS        | **OV**er**PRESS**ure                                           |
+| OVRD           | **OV**er**R**i**D**e                                               |
+| OVSP           | **OV**er**SP**eed                                              |
+| OVSTEER        | **OV**er**STEER**                                              |
+| OVV            | **OV**er**V**oltage                                            |
+| OWE            | **O**perating **W**eight **E**mpty                                 |
+| OXY            | **OXY**gen                                                 |
+| OZ             | ounce                                                  |
+| P              | **P**ressure                                               |
+| P/B            | **P**ush**B**utton                                             |
+| P/BSW          | **P**ush**B**utton **SW**itch                                      |
+| P/L            | **P**ay**L**oad                                                |
+| PA             | **P**assenger **A**ddress                                      |
+| PA             | **P**ublic **A**ddress                                         |
+| PARK           | **PARK**ing                                                |
+| PAS            | **P**itch **A**ttitude **S**ensor                                  |
+| PAX            | **PA**ssenger                                              |
+| PC             | **P**ack **C**ontroller                                        |
+| PCT            | **P**er**C**en**T**                                                |
+| PCU            | **P**ower **C**ontrol **U**nit                                     |
+| PED            | **PED**estal                                               |
+| PERF           | **PERF**ormance                                            |
+| PF             | **P**ilot **F**lying                                           |
+| PFD            | **P**rimary **F**light **D**isplay                                 |
+| PG             | **P**a**G**e                                                   |
+| PHR            | **P**ounds per **H**ou**R**                                        |
+| PIREP          | **PI**lot **REP**ort                                           |
+| PLT            | **P**i**L**o**T**                                                  |
+| PMP            | **P**u**MP**                                                   |
+| PMU            | **P**ower **M**anagement **U**nit                                  |
+| PNEU           | **PNEU**matic                                              |
+| PNF            | **P**ilot **N**on **F**lying                                       |
+| PNL            | **P**a**N**e**L**                                                  |
+| POS            | **POS**ition                                               |
+| PPM            | **P**arts **P**er **M**illion                                      |
+| PPOS           | **P**resent **POS**ition                                       |
+| PR             | ***PR***essure                                               |
+| PRB            | **PR**o**B**e                                                  |
+| PRESEL         | **PRESEL**ection, **PRESEL**ector                              |
+| PRESS          | **PRESS**ure, **PRESS**urization, **PRESS**urize                   |
+| PREV           | **PREV**ious                                               |
+| PRGM           | **Pr**o**G**ra**M**                                                |
+| PRI            | **PRI**ority                                               |
+| PROC           | **PROC**edure                                              |
+| PROG           | **PROG**ress                                               |
+| PROT           | **PROT**ection                                             |
+| PROX           | **PROX**imity                                              |
+| PSU            | **P**ower **S**upply **U**nit                                      |
+| PT             | **P**oin**T**                                                  |
+| PTR            | **P**ush **T**o **R**eset                                          |
+| PTT            | **P**ush **T**o **T**est                                           |
+| PTT            | **P**ush-**T**o-**T**alk                                           |
+| PTU            | **P**ower **T**ransfer **U**nit                                    |
+| PURS           | **PURS**er                                                 |
+| PW             | **P**ratt and **W**hitney                                      |
+| PWR            | **P**o**W**e**R**                                                  |
+| PWS            | **P**redictive **W**ind**S**hear                                   |
+| Pa             | **PA**scal                                                 |
+| Pb             | **P**ressure ambient                                       |
+| Q              | pitch rate                                             |
+| QAR            | **Q**uick **A**ccess **R**ecorder                                  |
+| QFE            | baro pressure setting for airfield altitude            |
+| QFE            | **F**ield **E**levation atmospheric pressure                   |
+| QFE            | pressure setting for airfield altitude                 |
+| QNE            | sea level standard atmosphere pressure                 |
+| QNH            | baro pressure setting for en route altitude            |
+| QNH            | pressure setting for en route altitude                 |
+| QNH            | sea level atmospheric pressure                         |
+| QNH            | sea level pressure                                     |
+| QRH            | **Q**uick **R**eference **H**andbook                               |
+| QTY            | **Q**uan**T**it**Y**                                               |
+| R              | **R**adius                                                 |
+| R              | **R**ed                                                    |
+| R              | **R**elease                                                |
+| R              | **R**eset                                                  |
+| R              | **R**ight                                                  |
+| R/C            | **R**ate of **C**limb                                          |
+| R/D            | **R**ate of **D**escent                                        |
+| R/H            | **R**adar **H**eight                                           |
+| R/I            | **R**adio/**I**nertial                                         |
+| R/L            | **R**eading **L**ight                                          |
+| R/T            | **R**adio **T**ransmit                                         |
+| R/T            | **R**eceiver **T**ransmitter unit                              |
+| RA             | **R**adio **A**ltimeter, **R**adio **A**ltitude                        |
+| RA             | **R**esolution **A**dvisory                                    |
+| RAAS           | **R**unway **A**wareness and **A**dvisory **S**ystem                   |
+| RAD            | **RAD**io                                                  |
+| RAI            | **R**am **A**ir **I**nlet                                          |
+| RAIMS          | **R**adio and **A**udio **I**ntegrating **M**anagement **S**ystem          |
+| RAT            | **R**am **A**ir **T**urbine                                        |
+| RC             | **R**epetitive **C**hime                                       |
+| RCDR           | **R**e**C**or**D**e**R**                                               |
+| RCL            | **R**e**C**al**L**                                                 |
+| RCLM           | **R**unway **C**enter **L**ine **M**arking                             |
+| RCLS           | **R**unway **C**enter line **L**ight **S**ystem                        |
+| RCR            | **R**unway **C**ondition **R**eport                                |
+| RCVR           | **R**e**C**ei**V**e**R**                                               |
+| RCVY           | **R**e**C**o**V**er**Y**                                               |
+| RDY            | **R**ea**DY**                                                  |
+| RECOG          | **RECOG**nition                                            |
+| RED            | **RED**uction                                              |
+| REDUND         | **REDUND**ancy                                             |
+| REF            | **REF**erence                                              |
+| REF ALIGN      | **REF**erence **ALIGN**ment                                    |
+| REFLNG         | **REF**ue**L**i**NG**                                              |
+| REFUEL         | **REFUEL**ing                                              |
+| RET            | **RET**ract                                                |
+| RET            | **RET**urn                                                 |
+| RETR           | **RETR**act                                                |
+| REV            | **REV**erse                                                |
+| REV            | **REV**ise, **REV**ision                                       |
+| RF             | **R**adio **F**requency                                        |
+| RLD            | **R**equired **L**anding **D**istance                              |
+| RMP            | **R**adio **M**anagement **P**anel                                 |
+| RMU            | **R**adio **M**anagement **U**nit                                  |
+| RNAV           | a**R**ea **NAV**igation                                        |
+| RNG            | **R**a**NG**e                                                  |
+| RNI            | **R**adio **N**avigation **I**ndicator                             |
+| RPLNT          | **R**e**P**e**L**le**NT**                                              |
+| RPM            | **R**evolutions **P**er **M**inute                                 |
+| RPTG           | **R**e**P**or**T**in**G**                                              |
+| RQRD           | **R**e**Q**ui**R**e**D**                                               |
+| RR             | **R**olls-**R**oyce                                            |
+| RST            | **R**e**S**e**T**                                                  |
+| RSV            | **R**e**S**er**V**e                                                |
+| RSVR           | **R**e**S**er**V**oi**R**                                              |
+| RTE            | **R**ou**TE**                                                  |
+| RTG            | **R**a**T**in**G**                                                 |
+| RTN            | **R**e**T**ur**N**                                                 |
+| RTO            | **R**ejected **T**ake-**O**ff                                       |
+| RTOLW          | **R**unway **T**ake-**O**ff and **L**anding **W**eight                      |
+| RTOW           | **R**unway **T**ake-Off **W**eight                                  |
+| RTR            | **R**ou**T**e**R**                                                 |
+| RTRSW          | **R**o**T**a**R**y **SW**itch                                          |
+| RTRY           | **R**o**T**a**RY**                                                 |
+| RTU            | **R**adar T**ransceiver **U**nit                                 |
+| RUD            | **RUD**der                                                 |
+| RVR            | **R**unway **V**isual **R**ange                                    |
+| RVS            | **R**e**V**er**S**e                                                |
+| RVSN           | **R**e**V**er**S**io**N**                                              |
+| RWY            | **R**un**W**a**Y**                                                 |
+| S              | minimum **S**lat retract speed (EFIS)                      |
+| S              | **S**outh                                                  |
+| S/C S/D        | **S**tep **C**limb **S**tep **D**escent                                |
+| S/W            | **S**oft**W**are                                               |
+| SAT            | **S**tatic **A**ir **T**emperature                                 |
+| SATCOM         | **SAT**ellite **COM**munication                                |
+| SBL            | **S**ym**B**o**L**                                                 |
+| SC             | **S**ingle **C**hime                                           |
+| SD             | **S**ystem **D**isplay                                         |
+| SDAC           | **S**ystem **D**aa **A**nalog **C**onverter                            |
+| SDCU           | **S**moke **D**etection **C**ontrol **U**nit                           |
+| SEAL           | **SEAL**ing                                                |
+| SEC            | **Sec**ondary                                              |
+| SEC            | **Sec**ondary computer                                     |
+| SEC            | **S**poiler **E**levator **C**omputer                              |
+| SEG            | **SEG**ment                                                |
+| SEL            | **SEL**ect, **SEL**ected, **SEL**ector, **SEL**ection                  |
+| SELCAL         | **SEL**ective **CAL**ling system                               |
+| SEQ            | **sEQ**uence, **sEQ**uential                                   |
+| SER            | **SER**ial                                                 |
+| SER            | **SER**ial number                                          |
+| SGU            | **S**ymbol **G**enerator **U**nit                                  |
+| SHT            | **SH**or**T**                                                  |
+| SI             | **S**lip **I**ndicator                                         |
+| SID            | **S**tandard **I**nstrument **D**eparture                          |
+| SIG            | **SIG**nal                                                 |
+| SIM            | **SIM**ulation                                             |
+| SL             | **S**ea **L**evel                                              |
+| SLD            | **SL**i**D**e, **SL**i**D**ing                                         |
+| SLT            | **SL**a**T**                                                   |
+| SMK            | **SM**o**K**e                                                  |
+| SN             | **S**erial **N**umber                                          |
+| SNSR           | **S**e**NS**o**R**                                                 |
+| SPAD           | **S**cratch**PAD**                                             |
+| SPD            | **SP**ee**D**                                                  |
+| SPD/M          | **SP**ee**D**-**M**ach                                             |
+| SPEC           | **SPEC**ification                                          |
+| SPKR           | **SP**ea**K**e**R**                                                |
+| SPLR           | **SP**oi**L**e**R**                                                |
+| SPLY           | **S**up**PLY**                                              |
+| SQ             | **SQ**uelch                                                |
+| SRS            | **S**peed **R**eference **S**ystem                                 |
+| STAB           | **STAB**ilizer                                             |
+| STAR           | **S**tandard **T**erminal **A**rrival **R**oute                        |
+| STARTG         | **START**in**G**                                               |
+| STAT           | **STAT**ic                                                 |
+| STBY           | **ST**and**BY**                                                |
+| STDY           | **ST**ea**DY**                                                 |
+| STRG           | **ST**ee**R**in**G**                                               |
+| STRUCT         | **STRUCT**ure                                              |
+| STS            | **S**ta**T**u**S**                                                 |
+| SUCT           | **SUCT**ion                                                |
+| SURF           | **SURF**ace                                                |
+| SVCE           | **S**er**V**i**CE**                                                |
+| SW             | **SW**itch                                                 |
+| SWTG           | **SW**i**T**chin**G**                                              |
+| SYNC           | **SYNC**hro, **SYNC**hronize                                   |
+| SYS            | **SYS**tem                                                 |
+| T              | **T**ime                                                   |
+| T              | **T**rim                                                   |
+| T              | **T**rue                                                   |
+| T              | **T**urn                                                   |
+| T/C            | **T**op of **C**limb                                           |
+| T/D            | **T**op of **D**escent                                         |
+| T/R            | **T**hrust **R**everser                                        |
+| T2CAS          | **T**raffic and **T**errain **C**ollision **A**voidance **S**ystem         |
+| TA             | **T**raffic **A**dvisory                                       |
+| TAC            | **T**axiing **A**id **C**amera                                     |
+| TACAN          | ultra-high frequency **TAC**tical **A**ir **N**avigation aid       |
+| TACH           | **TACH**ometer                                             |
+| TADB           | **T**errain/**A**irport **D**ata**B**ase                               |
+| TAS            | **T**rue **A**ir**S**peed                                          |
+| TAT            | **T**otal **A**ir **T**emperature                                  |
+| TAWS           | **T**errain **A**voidance **W**arning **S**ystem                       |
+| TBC            | **T**o **B**e **C**onfirmed                                        |
+| TBU            | **T**ime **B**ase **U**nit                                         |
+| TBV            | **T**ransient **B**leed **V**alve                                  |
+| TC             | **T**akeoff **C**harts                                         |
+| TCAS           | **T**raffic alert and **C**ollision **A**voidance **S**ystem           |
+| TEMP           | **TEMP**erature                                            |
+| TGT            | **T**ar**G**e**T**                                                 |
+| THR            | **THR**ust                                                 |
+| THROT          | **THROT**tle                                               |
+| THS            | **T**rimmable **H**orizontal **S**tabilizer                        |
+| TK             | ground **T**rac**K** angle                                     |
+| TK             | **T**an**K**                                                   |
+| TKE            | **T**rac**K** angle **E**rror                                      |
+| TLA            | **T**hrottle **L**ever **A**ngle                                   |
+| TMA            | **T**er**M**inal control **A**rea                                  |
+| TMG            | **T**i**M**in**G**                                                 |
+| TMR            | **T**i**M**e**R**                                                  |
+| TO             | **T**ake-**O**ff                                                |
+| TO/APPR        | **T**ake-**O**ff/**APPR**oach                                       |
+| TOD            | **T**ake-**O**ff **D**istance                                       |
+| TOD            | **T**op **O**f **D**escent
+| TODA           | **T**ake-**O**ff **D**istance **A**vailable                             |
+| TOGA           | **T**ake-**O**ff/**G**o **A**round                                      |
+| TOGW           | **T**ake-**O**ff **G**ross **W**eight                                   |
+| TOR            | **T**ake-**O**ff **R**un                                            |
+| TORA           | **T**ake-**O**ff **R**un **A**vailable                                  |
+| TOT            | **TOT**al                                                  |
+| TOW            | **T**ake-**O**ff **W**eight                                         |
+| TOW            | **TOW**ing                                                 |
+| TR             | **T**hrust **R**everser                                        |
+| TRANS          | **TRANS**ition                                             |
+| TRANSF         | **TRANF**er                                               |
+| TRC            | **T**hrust **R**ating **C**omputer                                 |
+| TRGT           | **T**a**RG**e**T**                                                 |
+| TRIG           | **TRIG**ger                                                |
+| TRK            | **TR**ac**K**                                                  |
+| TRK            | **TR**ac**K** (angle)                                          |
+| TROPO          | **TROPO**pause                                             |
+| TRT            | **T**urn **R**ound **T**ime                                        |
+| TRU            | **TRU**e                                                   |
+| TST            | **T**e**ST**                                                   |
+| TT             | **T**otal **T**ime                                             |
+| TURB           | **TURB**ine                                                |
+| TWR            | **T**o**W**e**R**                                                  |
+| TWY            | **T**axi**W**a**Y**                                                |
+| TX             | **T**ransmission (TCAS to Transponder)                     |
+| TYP            | **TYP**ical                                                |
+| UD             | **U**pper **D**eck                                             |
+| UHF            | **U**ltra **H**igh **F**requency                                   |
+| UTC            | **U**niversal **T**ime **C**oordinated                             |
+| V              | **V**alve                                                  |
+| V              | **V**olt, **V**oltage                                          |
+| V/L            | **V**or/**L**OC                                                |
+| V/L            | **V**or/**L**ocalizer                                          |
+| V/S            | **V**ertical **S**peed                                         |
+| VACU           | **VACU**um                                                 |
+| VAR            | **VAR**iable, **VAR**iation                                    |
+| VCTREND        | airspeed tendency                                      |
+| VDF            | **V**ery high-frequency **D**irection **F**inding station          |
+| VDR            | **V**hf **D**ata **R**adio                                         |
+| VEL            | **VEL**ocity                                               |
+| VERT           | **VERT**ical                                               |
+| VFR            | **V**isual **F**light **R**ules                                    |
+| VHF            | **V**ery **H**igh **F**requency                                    |
+| VHV            | **V**ery **H**igh **V**oltage                                      |
+| VIB            | **VIB**ration                                              |
+| VLF            | **V**ery **L**ow **F**requency                                     |
+| VMO            | **M**aximum **O**perating speed (**V**)                                |
+| VOL            | **VOL**ume                                                 |
+| VOR            | **V**ery high-frequency **O**mni**R**ange station                  |
+| VOR.D          | **VOR-D**me                                                |
+| VORTAC         | **V**isual **O**mni-**R**ange **T**actical **A**ir **N**avigation              |
+| VSI            | **V**ertical **S**peed **I**ndicator                               |
+| VSW            | **S**tall **W**arning speed (**V**)                                    |
+| W              | **W**att                                                   |
+| W              | **W**eight                                                 |
+| W              | **W**est                                                   |
+| W/V            | **W**ind direction and speed (**V**)                              |
+| WAI            | **W**ing **A**nti-**I**ce                                          |
+| WARN           | **WARN**ing                                                |
+| WB             | **W**ide **B**ody                                              |
+| WD             | **W**arning **D**isplay                                        |
+| WDO            | **W**in**DO**w                                                 |
+| WG             | **W**in**G**                                                   |
+| WHL            | **WH**ee**L**                                                  |
+| WR             | **W**eather **R**adar                                          |
+| WS             | **W**ind **S**peed                                             |
+| WT             | **W**eigh**T**                                                 |
+| WX             | **W**eather mode (ND)                                      |
+| WXR            | **W**eather **R**adar                                          |
+| X              | cross                                                  |
+| X              | crans crossbleed                                       |
+| X BLEED X FEED | crossfeed                                              |
+| X LINE         | crossline                                              |
+| X VALVE        | cross Valve                                            |
+| X-TALK         | cross-talk                                             |
+| XCHECK         | crosscheck                                             |
+| XFR            | transfer                                               |
+| XING           | crossing                                               |
+| XPDR           | transponder                                            |
+| XPNDR          | transponder                                            |
+| XWIND          | crosswind                                              |
+| Y              | **Y**ellow                                                 |
+| Y/C            | econom**Y C**lass                                          |
+| YCR            | econom**Y** **C**lass-**R**ear                                     |
+| YE             | **YE**ar                                                   |
+| Z              | greenwich mean time                                    |
+| ZC             | **Z**one **C**ontroller                                        |
+| ZFCG           | **Z**ero **F**uel **C**enter of **G**ravity                            |
+| ZFW            | **Z**ero **F**uel **W**eight                                       |
+| Zp             | **P**ressure altitude                                      |
+| Zpi            | **I**ndicated **P**ressure altitude                            |
+| dB             | **D**eci**B**el                                                |
+| dB(A)          | **A**-weighted **D**eci**B**el                                     |
+| ft             | **F**ee**T**, **F**oo**T**                                             |
+| ft/mn          | **F**ee**T** per **M**i**N**ute                                        |
+| g              | **G**ram                                                   |
+| h              | **H**eight                                                 |
+| h              | **H**our                                                   |
+| in             | **IN**ch                                                   |
+| kPa            | **K**ilo **PA**scal                                            |
+| kW             | **K**ilo**W**att                                               |
+| kg             | **K**ilo**G**ram                                               |
+| kg/m³          | **K**ilo**G**rams/cubic **M**eter                                  |
+| lb             | pound                                                  |
+| lbf/in²        | pounds force per square inch                           |
+| m              | **M**eter                                                  |
+| mbar           | **M**illi**BAR**                                               |
+| mile/h         | **MILE**s per **H**our                                         |
+| min            | **MIN**ute                                                 |
+| ml             | **M**illi**L**iter                                             |
+| mm             | **M**illi**M**eter                                             |
+| n              | load factor                                            |
+| phi            | bank angle                                             |
+| phi N          | **N**ominal bank angle                                     |
+| r/min          | **R**evolutions per **MIN**ute                                 |
+| s              | **S**econd                                                 |
+| t              | **T**onne                                                  |
