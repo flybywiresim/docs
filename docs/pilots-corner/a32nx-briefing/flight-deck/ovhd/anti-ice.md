@@ -43,7 +43,7 @@ For more information, see [Ice and Rain Protection](../../../advanced-guides/ice
 - OFF:
     - No light. Engine anti-ice valve closes.
 - FAULT:
-    - Amber light and ECAM caution message, if the position of the anti-icing valve disagrees with the ENG 1 (2) pushbutton selection.
+    - Amber light and ECAM caution message, if the position of the anti-icing valve disagrees with the ENG 1 (2) pushbutton selection.
 
 ###  PROBE/WINDOW HEAT
 

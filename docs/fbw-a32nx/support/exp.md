@@ -47,7 +47,7 @@ The following are features in testing that require the use of SimBridge:
 ### Pause at Top of Descent (TOD)
 
 - New setting in located in the EFB under Realism - Pause at Top of Descent (TOD). 
-- This is configurable by distance between 0-50 nm before TOD.
+- This is configurable by distance between 0 - 50 NM before TOD.
 - When enabled, flight will pause at the specified distance before TOD.
 - If the TOD point shifts before your present position, or AP mode reverts to CRZ, this will pause the simulation.
 
@@ -103,7 +103,7 @@ the C* law, this is incorrect and will result in issues if no ADR is available.
 - V_stall warn AoAs need to be tuned, currently they are just the same as alpha_prot.
 - In some situations, AP might not be available in alternate law, even though it should be. This is due to how the AP commands are currently executed, which requires the normal 
   laws to be active (IRL this is different). Will take some time to fix this, not planned currently.
-- The electrical bus connections are not quite correct yet, the ELAC/SEC 2s have rather complex logic for power supply switching, which is not done yet.
+- The electrical bus connections are not quite correct yet, the ELAC/SEC 2 s have rather complex logic for power supply switching, which is not done yet.
 
 ### Pause at TOD Issues
 

@@ -4,7 +4,7 @@
 
 The MCDU allows the flight crew to enter and store custom waypoints.
 
-There can be up to 99 waypoints stored. To see the stored waypoints, you need to select `DATA` on the MCDU and move to the second page with the lateral arrow key.
+There can be up to 99 waypoints stored. To see the stored waypoints, you need to select `DATA` on the MCDU and move to the second page with the lateral arrow key.
 
 !!! block ""
 
@@ -33,7 +33,7 @@ There are three ways to create new custom waypoints:
 
 Enter a unique name for your waypoint into the scratchpad and press the LSK 1L left of the IDENT field.
 
-Here you have then 3 methods of creating a new waypoint.
+Here you have then 3 methods of creating a new waypoint.
 
 ### Format: Latitude-Longitude (LL)
 
@@ -43,8 +43,8 @@ The format is:
 
 &lt;latitude&gt;/&lt;longitude&gt;
 
-- latitude is 4 digits with one decimal digit and N or S (for Northern or Southern hemisphere)
-- longitude is 4 or 5 digits with one decimal digit and E or W (for Eastern or Western Hemisphere)
+- latitude is 4 digits with one decimal digit and N or S (for Northern or Southern hemisphere)
+- longitude is 4 or 5 digits with one decimal digit and E or W (for Eastern or Western Hemisphere)
 
 !!! tip "Example for LL"
     !!! block ""
@@ -54,21 +54,21 @@ The format is:
 
 !!! tip "Detailed Format Description"
 
-    |      | Format                   | Range          | Units                        |
-    |:-----|:-------------------------|:---------------|:-----------------------------|
-    | LAT  | DDMM.MB or BDDMM.M       |                |                              |
-    |      | DD is degrees            | DD: 0-90       | Degrees                      |
-    |      | MM.M is minutes          | MM.M: 0.0-59.9 | Minutes and tenth of minutes |
-    |      | B is direction           | B: N or S      |                              |
-    |      | Leading 0 may be omitted |                |                              |
-    |      | Displayed as DDMM.MB     |                |                              |
-    |      |                          |                |                              |
-    | LONG | DDDMM.MB or BDDDMM.M     |                |                              |
-    |      | DDD is degrees           | B: E or W      |                              |
-    |      | MM.M is minutes          | DDD: 0-180     | Degrees                      |
-    |      | B is direction           | MM.M: 0.0-59.9 | Minutes and tenth of minutes |
-    |      | Leading 0 may be omitted |                |                              |
-    |      | Displayed as DDDMM.MB    |                |                              |
+    |      | Format                   | Range            | Units                        |
+    |:-----|:-------------------------|:-----------------|:-----------------------------|
+    | LAT  | DDMM.MB or BDDMM.M       |                  |                              |
+    |      | DD is degrees            | DD: 0 - 90       | Degrees                      |
+    |      | MM.M is minutes          | MM.M: 0.0 - 59.9 | Minutes and tenth of minutes |
+    |      | B is direction           | B: N or S        |                              |
+    |      | Leading 0 may be omitted |                  |                              |
+    |      | Displayed as DDMM.MB     |                  |                              |
+    |      |                          |                  |                              |
+    | LONG | DDDMM.MB or BDDDMM.M     |                  |                              |
+    |      | DDD is degrees           | B: E or W        |                              |
+    |      | MM.M is minutes          | DDD: 0 - 180     | Degrees                      |
+    |      | B is direction           | MM.M: 0.0 - 59.9 | Minutes and tenth of minutes |
+    |      | Leading 0 may be omitted |                  |                              |
+    |      | Displayed as DDDMM.MB    |                  |                              |
 
 
 ### Format: Place-Bearing-Distance (PBD)

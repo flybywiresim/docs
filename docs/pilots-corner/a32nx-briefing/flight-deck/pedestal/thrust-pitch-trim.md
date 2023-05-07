@@ -53,7 +53,7 @@ In autothrust mode (A/THR function active), the FMGC computes the thrust. Thrust
 
 Each thrust lever has a so-called "A/THR Instinctive Disconnect" push button in red. Pressing it disconnects the A/THR.
 
-!!! warning "If the flight crew pushes and holds one instinctive disconnect pb for more than 15 s, the A/THR system is disconnected for the remainder of the flight. All A/THR functions including ALPHA FLOOR are lost, and they can be recovered only at the next FMGC power-up (on ground)."
+!!! warning "If the flight crew pushes and holds one instinctive disconnect pb for more than 15 s, the A/THR system is disconnected for the remainder of the flight. All A/THR functions including ALPHA FLOOR are lost, and they can be recovered only at the next FMGC power-up (on ground)."
 
 ### PITCH TRIM wheel
 

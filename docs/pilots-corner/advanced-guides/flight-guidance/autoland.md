@@ -25,15 +25,15 @@ In summary:
 
 ### When to Use Autoland
 
-When low visibility operations (LVO) CAT III are enforced, the use of Autoland is required. LVO operations are either announced via ATIS or ATC. 
+When low visibility operations (LVO) CAT III are enforced, the use of Autoland is required. LVO operations are either announced via ATIS or ATC. 
 
-Performing an Autoland is permissible for CAT II / CAT III runways even when low visibility operations (LVO) are not enforced, and this may even extend to CAT I runways. 
+Performing an Autoland is permissible for CAT II / CAT III runways even when low visibility operations (LVO) are not enforced, and this may even extend to CAT I runways. 
 
 Autoland can also be subject to local procedures and authorities.
 
 ### When Not to Use Autoland
 
-- ATC restrictions
+- ATC restrictions.
 - Airport capabilities missing or restrictions in place.
 - Aircraft capabilities missing or limitations exceeded.
 - If CAT1 is displayed on the FMA, Autoland is not authorized.
@@ -48,19 +48,19 @@ Other training may also be required before being able to perform an Autoland. It
 
 The airport must be equipped with the appropriate ILS CAT (category) capability. 
 
-- CAT III - LVP (Low Visibility Procedure) enforced
-- CAT II / CAT III - LVP (Low Visibility Procedure) not enforced
-- CAT I - Operators have a list of runways that are authorized to use Autoland with CAT I
+- CAT III - LVP (Low Visibility Procedure) enforced
+- CAT II / CAT III - LVP (Low Visibility Procedure) not enforced
+- CAT I - Operators have a list of runways that are authorized to use Autoland with CAT I
 
 !!! danger "Low Visibility Operations (LVO) Not Enforced"
-    If the flight crew opts to perform an Autoland on a CAT II / CAT III capable runway when LVO is not enforced (checked with ATIS or ATC) the runway **must be considered a CAT I runway**.
+    If the flight crew opts to perform an Autoland on a CAT II / CAT III capable runway when LVO is not enforced (checked with ATIS or ATC) the runway **must be considered a CAT I runway**.
 
     Crews should be alert to ILS beam / signal contamination, since the LOC/GS signal strength may not be guaranteed.
 
 CAT I runway considerations before using Autoland:
 
 - Pilots must be ready to disconnect the AP if any ILS fluctuations are detected.
-- CAT II should at least be indicated on the FMA and the flight crew should apply the respective CAT II / CAT III 
+- CAT II should at least be indicated on the FMA and the flight crew should apply the respective CAT II / CAT III.
   FCOM procedures.
 - Visual contact should be established at the CAT I Minimum at the latest.
 
@@ -72,20 +72,20 @@ In addition, the flight crew must monitor possible day-to-day technical restrict
 
 Autoland many not be performed outside these limitations:
 
-- Max. Crosswind: 20 kt
-- Max. Headwind: 30 kt
-- Max. Tailwind: 10 kt
-- Glide slope angle smaller than -2.5° or greater than -3.25°
-- Airport elevation above 9,200 ft
-- Aircraft weight below 44,000 kg (97.004 lb)
+- Max. Crosswind: 20 kt
+- Max. Headwind: 30 kt
+- Max. Tailwind: 10 kt
+- Glide slope angle smaller than - 2.5° or greater than - 3.25°
+- Airport elevation above 9200 ft
+- Aircraft weight below 44 000 kg (97 004 lb)
 - Aircraft weight above the maximum landing weight
-- Automatic landing is not allowed below -2,000 ft pressure altitude
+- Automatic landing is not allowed below - 2 000 ft pressure altitude
 
 Minima: 
 
-- ILS CAT II: MDH 100ft
-- ILS CAT III SINGLE: MDH 50ft
-- ILS CAT III DUAL: no DH (minimum RVR 75 m)
+- ILS CAT II: MDH 100 ft
+- ILS CAT III SINGLE: MDH 50 ft
+- ILS CAT III DUAL: no DH (minimum RVR 75 m)
 
 ## Autoland How-To
 
@@ -109,44 +109,44 @@ The following FMA annunciations will be displayed during the approach and landin
 - SPEED
 - G/S
 - LOC
-- CAT 3 DUAL (triple click sound when downgraded)
-- AP 1+2
+- CAT 3 DUAL (triple click sound when downgraded)
+- AP 1+2
 - 1 FD 2
 - A/THR
 - MINIMUM (or NO DH)
-- At 350ft: LAND
-- At 40ft: FLARE
-- At 30ft: THRUST IDLE
+- At 350 ft: LAND
+- At 40 ft: FLARE
+- At 30 ft: THRUST IDLE
 - ROLL OUT (main gear touchdown)
 
 ### Flow From 1000ft
 
 Autoland is technically not much different from a normal ILS landing apart from the fact that the Autopilot(s) will not be turned off for the landing but stay on and the flight crew "only" monitors the landing via the instruments.
 
-Assuming that we are fully configured for landing at 1000ft above ground, with CONFIG 3 or CONFIG FULL, V~appr~ speed, gear down, autobrake armed, ground spoilers armed, ECAM landing memo no blue, landing checklist complete.
+Assuming that we are fully configured for landing at 1000 ft above ground, with CONFIG 3 or CONFIG FULL, V~appr~ speed, gear down, autobrake armed, ground spoilers armed, ECAM landing memo no blue, landing checklist complete.
 
 See [Beginner Guide Preparation and Checklist for Landing](../../beginner-guide/landing.md#3-preparation-and-checklist-for-landing)
 
-- At 1000ft: callout "one thousand".
-- At 500ft: now callouts every hundred feet.
-- Shortly after the 400 callout and before 350ft, the FMA must show LAND in green to signal that the aircraft is now 
+- At 1000 ft: callout "one thousand".
+- At 500 ft: now callouts every hundred feet.
+- Shortly after the 400 callout and before 350 ft, the FMA must show LAND in green to signal that the aircraft is now 
   in landing mode.
-- At 350ft: check the ILS course on the PFD.
-- At 150ft: The white line signifying the ground on the PFD attitude indicator starts to move up.
-- At 100ft: callout "hundred".
-- At 50ft: callout "fifty" and now callouts every 10 ft.
-- At 40ft: the FMA must show FLARE or otherwise the flight crew needs to either perform a manual landing if 
+- At 350 ft: check the ILS course on the PFD.
+- At 150 ft: The white line signifying the ground on the PFD attitude indicator starts to move up.
+- At 100 ft: callout "hundred".
+- At 50 ft: callout "fifty" and now callouts every 10 ft.
+- At 40 ft: the FMA must show FLARE or otherwise the flight crew needs to either perform a manual landing if 
   visual references are acquired or perform a go around.
 - Autothrust FMA should switch to THRUST IDLE.
-- Between about 20ft and 10ft, the aircraft corrects its crosswind crab angle to bring its longitudinal axis in line 
+- Between about 20 ft and 10 ft, the aircraft corrects its crosswind crab angle to bring its longitudinal axis in line 
   with the runway.
-- At 10ft: callout "Retard" commands the PF to set the throttle levers to idle.
+- At 10 ft: callout "Retard" commands the PF to set the throttle levers to idle.
 - At touchdown:
     - FMA shows ROLL OUT - autopilot keeps aircraft on center line.
     - PF sets both thrust levers to reverse thrust (idle or up to max as appropriate).
     - PM checks and calls out: "touchdown", "spoilers", "reversers", "auto brake", "decel".
-- At 70kts: PM announces "70kts" and PF will set the throttle to reverse idle if reverse max was used. 
-- Before 20kts: the PF manually brakes to deactivate the autobrake.
+- At 70 kt: PM announces "70 knots" and PF will set the throttle to reverse idle if reverse max was used. 
+- Before 20 kt: the PF manually brakes to deactivate the autobrake.
 - At taxi speed: PF will set both thrust levers to idle and will disengage autopilots.
 - From here on it is a normal [runway exit](../../beginner-guide/landing.md#5-vacate-runway) and 
   [taxi procedure](../../beginner-guide/after-landing.md).
@@ -163,25 +163,25 @@ Always remember the Golden Rules: Fly, Navigate, Communicate!
 
 This is a non-exhaustive collection of things which could go wrong and how to handle them.
 
-- FMA not showing `LAND` at 350ft: 
+- FMA not showing `LAND` at 350 ft: 
     - Perform a go-around, or
-    - A transition to a manual landing may be possible during a CAT II approach and at or above 80ft if visual 
+    - A transition to a manual landing may be possible during a CAT II approach and at or above 80 ft if visual 
       references are acquired
-- [Autoland Warning Light](#autoland-warning-light) at or below 200ft:
+- [Autoland Warning Light](#autoland-warning-light) at or below 200 ft:
     - Perform a go-around
-    - A transition to a manual landing may be possible during a CAT II approach and at or above 80ft if visual 
+    - A transition to a manual landing may be possible during a CAT II approach and at or above 80 ft if visual 
      references are acquired
-- FMA not showing `FLARE` at 40ft:
+- FMA not showing `FLARE` at 40 ft:
     - Perform a go-around
 - FMA not showing `ROLL OUT` at touchdown:
     - Disconnect the autopilot and track the center line using visual references or localizer signal down to taxi speed.
 
-If below 1.000ft AAL (above airport level) but higher than 100ft RA (radio altitude):
+If below 1000 ft AAL (above airport level) but higher than 100 ft RA (radio altitude):
 
 - Perform a **go-around** in case of:
     - AP loss (cavalry charge)                
     - Amber caution (single chime)            
-    - [Autoland Warning Light](#autoland-warning-light) (below 200’ RA)  
+    - [Autoland Warning Light](#autoland-warning-light) (below 200 ft RA)  
     - Triple click (downgrading of capability)
 - Proceed in case of:
     - Fire (red warning: Engine or APU)       
@@ -198,20 +198,20 @@ If below 100ft RA (radio altitude):
 
 See [Cockpit Glareshield Warning Panel](../../a32nx-briefing/flight-deck/glareshield/warning.md#5--autoland-warning-light).
 
-With `LAND` or `FLARE` on FMA and at least one `AP` engaged, the Autoland Warning Light (red) will appear when the aircraft is below 200ft RA (radio altitude) and one of the following events occurs:
+With `LAND` or `FLARE` on FMA and at least one `AP` engaged, the Autoland Warning Light (red) will appear when the aircraft is below 200Fft RA (radio altitude) and one of the following events occurs:
  
 - Both APs are lost
-- The difference between both RA indications is greater than 15ft
+- The difference between both RA indications is greater than 15 ft
 - Loss of LOC and/or GS signals:
-    - Loss of LOC signal above 15ft (transmitter or receiver)
-    - Loss of GS signal above 100ft (transmitter or receiver)
+    - Loss of LOC signal above 15 ft (transmitter or receiver)
+    - Loss of GS signal above 100 ft (transmitter or receiver)
 - The aircraft gets too far off the beam (LOC and/or GS scales flashes on PFD and ND rose ILS):
-    - LOC deviation > 1/4 dot (above 15ft)
-    - GS deviation > 1 dot (above 100ft)
+    - LOC deviation > 1/4 dot (above 15 ft)
+    - GS deviation > 1 dot (above 100 ft)
 - The FMGS detects a long flare
 
 When the Autoland Warning Light (red) comes on, the automatic landing must be discontinued. 
-For a Cat 2 app, a transition to a manual landing may be possible, but takeover should be made at or above 80ft.
+For a Cat 2 app, a transition to a manual landing may be possible, but takeover should be made at or above 80 ft.
 
 ### Go-Around
 

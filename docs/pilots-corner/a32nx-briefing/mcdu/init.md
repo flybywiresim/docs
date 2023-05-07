@@ -68,8 +68,8 @@ The INIT A page is used by the flight crew to initialize the flight plan and ali
         "It is possible to import the wind data from the SimBrief OFP by pressing `WIND REQUEST` on the wind pages."
 
 - TROPO (6R):
-    - Default tropopause altitude is 36 090 ft.
-    - Can be modified up to 60 000 ft maximum.
+    - Default tropopause altitude is 36 090 ft.
+    - Can be modified up to 60 000 ft maximum.
   
     !!! tip
         Learn more here: [Tropopause](https://skybrary.aero/articles/tropopause){target=new}
@@ -87,7 +87,7 @@ This page automatically switches to the FUEL PRED page after the start of the fi
 ### Usage
 
 - TAXI (1L):
-    - Estimated taxi fuel. Defaults to a preset value, usually 200 kg or 400 lb.
+    - Estimated taxi fuel. Defaults to a preset value, usually 200 kg or 400 lb.
     - Can be adjusted in this field.
 
 - TRIP/TIME (2L):
@@ -105,9 +105,9 @@ This page automatically switches to the FUEL PRED page after the start of the fi
 
 - FINAL/TIME (5L):
     - Final reserve fuel and time calculated at the alternate airport or destination airport (in blue), depending on the “airline fuel policy” section of the AMI (Airline Modifiable Information).
-    - FINAL is dashed and FINAL TIME defaults to the value specified in the AMI file (typically 30 min) before any entry is made.
+    - FINAL is dashed and FINAL TIME defaults to the value specified in the AMI file (typically 30 min) before any entry is made.
     - Pilots may enter final fuel or time, causing the system to compute associated holding time/fuel available.
-    - Holding patterns are assumed at 1.500 ft AGL, with the aircraft in CONF 1 at maximum endurance speed (racetrack pattern, altitude and selected airport can be modified through the “airline fuel policy” section of the AMI).
+    - Holding patterns are assumed at 1500 ft AGL, with the aircraft in CONF 1 at maximum endurance speed (racetrack pattern, altitude and selected airport can be modified through the “airline fuel policy” section of the AMI).
 
 - MIN DEST FOB (6L):
     - Expected minimum fuel at destination in blue. By default, equal to the ALTN + FINAL fuel.

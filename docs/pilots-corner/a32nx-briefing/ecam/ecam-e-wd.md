@@ -50,6 +50,5 @@ Display")
 |        |                                           | Red color                             | The N2 exceeds the N2 red limit of 100%                                                                                                                                        |
 |        |                                           | Two amber dashes over last two digits | The N2 indication is inaccurate.                                                                                                                                               |
 | 10     | Fuel flow indication                      | Green                                 | The fuel flow is normal.                                                                                                                                                       |
-|        |                                           |                                       |                                                                                                                                                                                |
 
 

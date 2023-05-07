@@ -31,7 +31,7 @@ Be aware that there's a safety valve that will cut off any hydraulic supply to t
 
 If such a situation happens:
 
-- Get your speed below 260kts (which is already too high!!)
+- Get your speed below 260 kt (which is already too high!!)
 - Getting the gear lever back to the down position, then to up, will hopefully switch on the second LGCIU computer and save the day.
 
 !!! tip "Always check your speed when using the gear system, and everything will be ok!"  
@@ -68,7 +68,7 @@ To revert the process and stow the crank handle back into its place, just click 
 !!! tip "The lower the speed, the harder it will be to have a full down lock of the gear, especially for the main gear. Doing steep turns to increase the load of the plane can be quite effective to help the gears to lock into place."
 
 !!! warning "Don't rush the handle turning"
-    The lower the speed, the slower doors will open due to smaller aerodynamic forces. Turning the handle too fast might cause the gears to hit the doors that have not yet fully opened. Always wait 3 to 5 seconds between handle turns.
+    The lower the speed, the slower doors will open due to smaller aerodynamic forces. Turning the handle too fast might cause the gears to hit the doors that have not yet fully opened. Always wait 3 to 5 seconds between handle turns.
 
 !!! warning "Before Using Gravity Extension"
     Have the plane correctly stabilized before using this procedure. Remember that gears are physically simulated, and are really heavy. Bank angle and/or load factor WILL have impacts on:

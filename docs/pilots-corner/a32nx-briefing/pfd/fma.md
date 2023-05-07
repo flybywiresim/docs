@@ -39,9 +39,9 @@ The FMA has various ways to signify different states:
 
 - Active flight modes are displayed in green text.
 - Armed flight modes are displayed in cyan text.
-- Changed modes have a white box around the new annunciation for 10 seconds.
+- Changed modes have a white box around the new annunciation for 10 seconds.
 
-Each of the 5 columns at the top of the PFD will display different types of Flight Mode Annunciations. You can learn more about each annunciation by clicking on each column on the PFD below.
+Each of the 5 columns at the top of the PFD will display different types of Flight Mode Annunciations. You can learn more about each annunciation by clicking on each column on the PFD below.
 
 There are also some annunciations that take up two columns. These can either be Special Message Annunciations or Common Mode Annunciations.
 

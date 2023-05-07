@@ -34,16 +34,9 @@
 | 11     | Pump legend                      | White color                              | The N2 is in the normal operating range.                                                    |
 |        |                                  | Amber color                              | The N2 is below idle.                                                                       |
 | 12     | System pressure                  | Green color                              | The corresponding system pressure is in the normal operating range.                         |
-|        |                                  | Amber color                              | The corresponding system pressure is below 1 450 PSI.                                       |
-| 13     | System label                     | White Yellow/Blue/Green                  | The pressure is greater than 1 450 PSI.                                                     |
-|        |                                  | Amber Yellow/Blue/Green                  | The pressure is less than 1 450 PSI.                                                        |
-|        |                                  | Green triangle                           | The pressure is greater than 1 450 PSI.                                                     |
-|        |                                  | Amber triangle                           | The pressure is less than 1 450 PSI.                                                        |
-|        |                                  |                                          |                                                                                             |
-|        |                                  |                                          |                                                                                             |
-|        |                                  |                                          |                                                                                             |
-|        |                                  |                                          |                                                                                             |
-|        |                                  |                                          |                                                                                             |
-|        |                                  |                                          |                                                                                             |
-|        |                                  |                                          |                                                                                             |
+|        |                                  | Amber color                              | The corresponding system pressure is below 1450 psi.                                       |
+| 13     | System label                     | White Yellow/Blue/Green                  | The pressure is greater than 1450 psi.                                                     |
+|        |                                  | Amber Yellow/Blue/Green                  | The pressure is less than 1450 psi.                                                        |
+|        |                                  | Green triangle                           | The pressure is greater than 1450 psi.                                                     |
+|        |                                  | Amber triangle                           | The pressure is less than 1450 psi.                                                        |
 

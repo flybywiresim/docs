@@ -60,12 +60,12 @@ The aural warnings terminate when:
 
 ### 5.  AUTOLAND WARNING LIGHT
 
-- The events below trigger a flashing AUTOLAND red warning accompanied by a triple click audio warning when the aircraft is below 200ft RA and aircraft is in LAND mode:
+- The events below trigger a flashing AUTOLAND red warning accompanied by a triple click audio warning when the aircraft is below 200 ft RA and aircraft is in LAND mode:
 
-    - AP1 and AP2 OFF below 200ft RA.
-    - LOC deviation (1/4 dot above 15ft RA) or GLIDE deviation (1 dot above 100ft RA). Both LOC and GLIDE scales will flash on the PFD.
-    - LOC signal lost above 15ft or loss of GLIDE signal when above 100ft. The flight director bars flash on the PFD and LAND mode remains engaged.
-    - Difference of radio altimeter indications is more than 15ft.
+    - AP1 and AP2 OFF below 200 ft RA.
+    - LOC deviation (1/4 dot above 15 ft RA) or GLIDE deviation (1 dot above 100 ft RA). Both LOC and GLIDE scales will flash on the PFD.
+    - LOC signal lost above 15 ft or loss of GLIDE signal when above 100 ft. The flight director bars flash on the PFD and LAND mode remains engaged.
+    - Difference of radio altimeter indications is more than 15 ft.
 
 ### 6. ATC MSG
 

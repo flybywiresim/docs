@@ -27,7 +27,7 @@ The maintenance crew uses this pushbutton to reset the control circuit, after th
 
 ### SVCE INT OVRD
 
-- Auto: Ground personnel can communicate with the flight crew through the service interphone jacks 10s after the aircraft has landed. The landing gear must be compressed.
+- Auto: Ground personnel can communicate with the flight crew through the service interphone jacks 10 s after the aircraft has landed. The landing gear must be compressed.
 - ON: Communication is possible when the landing gear is not compressed. The ON light is white.
 
 !!! info ""

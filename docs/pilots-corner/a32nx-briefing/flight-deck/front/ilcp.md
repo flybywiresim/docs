@@ -59,7 +59,7 @@ Adjusts the lights of the side console and of the briefcase on each side of the 
 
 The Ground Proximity Warning System (GPWS) is warning the flight crew of potentially hazardous situations, such as a collision with terrain. It detects these and triggers aural and visual indications.
 
-Five basic GPWS modes active up to radio height of 2,500 ft:
+Five basic GPWS modes active up to radio height of 2 500 ft:
 
 - Excessive rate of descent (Mode 1)
 - Excessive terrain closure rate (Mode 2)

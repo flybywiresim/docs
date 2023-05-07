@@ -21,7 +21,7 @@ This panel controls:
 
 ### Barometer Reference Display Window
 
-- Barometer Range: 745 hPa to 1100 hPa.
+- Barometer Range: 745 hPa to 1100 hPa.
 
 ### Barometer Reference Selector
 

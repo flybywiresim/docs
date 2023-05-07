@@ -67,7 +67,7 @@ You will see `T-P` added to your flight plan, followed by the waypoint you selec
 There may be instances where the flight crew would not want existing waypoints to be deleted from the flight plan when performing a direct. By selecting the `WITH ABEAM PTS` option on the DIR TO page, this would insert and display the previous waypoints "abeam" their original counterparts.
 
 !!! tip "Defining Abeam"
-    On the beam; at a right angle to the centerline or keel of a vessel or aircraft; being at a bearing approximately 090 Degrees or 270 Degrees relative.
+    On the beam; at a right angle to the centerline or keel of a vessel or aircraft; being at a bearing approximately 090 degrees or 270 degrees relative.
 
     Source [Wikipedia](https://en.wiktionary.org/wiki/abeam){target=new}.
 
@@ -80,7 +80,7 @@ This is useful when pilots would want to check fuel, time, or other actions afte
 
 This feature allows the flight crew to enter a specific radial to intercept a waypoint. Another way to describe this is programming a specific direction from which to approach or leave a waypoint.
 
-This is useful when ATC provides instructions such as *"Intercept the 214 radial to WAYPOINT"*.
+This is useful when ATC provides instructions such as *"Intercept the 214 radial to WAYPOINT"*.
 
 By setting a RADIAL INBOUND/OUTBOUND, it would allow the aircraft to be flying a specific heading towards the INTCEPT point calculated by the FMS to the waypoint instructed by ATC.  
 

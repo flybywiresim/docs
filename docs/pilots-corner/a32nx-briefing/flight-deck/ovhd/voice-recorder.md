@@ -25,7 +25,7 @@ The cockpit voice recorder is located in the aft section of the airplane, equipp
 
 The passenger address system is also recorded if the PA reception knob is selected on.
 
-Aircraft built after 2003 have a 120-min recording time requirement. Airbus installs CVRs capable of 25h of recording since the end of 2020.
+Aircraft built after 2003 have a 120-min recording time requirement. Airbus installs CVRs capable of 25 h of recording since the end of 2020.
 
 ## Usage
 

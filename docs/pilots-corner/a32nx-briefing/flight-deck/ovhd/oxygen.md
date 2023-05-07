@@ -15,7 +15,7 @@
 ### MASK MAN ON:
 
 - AUTO:
-    - This is the normal position for this switch. The cabin oxygen mask doors will open automatically when the cabin altitude exceeds 14,000 feet.
+    - This is the normal position for this switch. The cabin oxygen mask doors will open automatically when the cabin altitude exceeds 14 000 feet.
 - ON:
     - The cabin oxygen mask doors open regardless of cabin altitude when the Oxygen Mask Manual on switch is selected to on.
 

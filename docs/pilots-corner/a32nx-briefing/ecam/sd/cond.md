@@ -13,7 +13,7 @@
 |        |                                   | Hidden          | The recirculation fan is within normal operations.                                                        |
 | 3      | Zone temperature indication       | Green number    | The temperature of the zone .                                                                             |
 | 4      | Zone duct temperature             | Green number    | The temperature of the zone duct.                                                                         |
-|        |                                   | Amber number    | The temperature is greater than 80 °C.                                                                    |
+|        |                                   | Amber number    | The temperature is greater than 80 °C.                                                                    |
 | 5      | Zone trim air valve position      | Green C         | The cold valve is fully closed                                                                            |
 |        |                                   | Green H         | The hot valve is fully open                                                                               |
 |        |                                   | Amber XX        | The valves have failed.                                                                                   |

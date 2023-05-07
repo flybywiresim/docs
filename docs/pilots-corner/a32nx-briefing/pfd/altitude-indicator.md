@@ -24,7 +24,7 @@ If an MDA has been entered into the MCDU PERF page, the altitude numbers will ch
 
 ### Vertical Deviation
 
-This green filled circle symbol appears next to the altitude corresponding to the theoretical vertical profile computed by the FMGC. It is displayed from the top of descent down to the MAP altitude. The flight crew can read the linear deviation directly from the altitude scale. The range is ±500 ft. When the linear deviation value exceeds ±500 ft, the symbol stays at the range limit but changes to a half filled circle and the PROG page displays the exact value.
+This green filled circle symbol appears next to the altitude corresponding to the theoretical vertical profile computed by the FMGC. It is displayed from the top of descent down to the MAP altitude. The flight crew can read the linear deviation directly from the altitude scale. The range is ± 500 ft. When the linear deviation value exceeds ±500 ft, the symbol stays at the range limit but changes to a half filled circle and the PROG page displays the exact value.
 
 ### Target Altitude or Selected Flight Level Symbol
 
@@ -46,25 +46,25 @@ This appears at the bottom of the artificial horizon and the aircraft is 2500 fe
 
 If a decision height has been entered in the PERF page of the MCDU, then:
 
-- The radio height appears in green when the decision height + 100 feet is less than the radio altitude and the radio altitude is less than 2500 feet.
-- The radio height appears in amber when the decision height + 100 feet is greater than the radio altitude.
+- The radio height appears in green when the decision height + 100 feet is less than the radio altitude and the radio altitude is less than 2500 feet.
+- The radio height appears in amber when the decision height + 100 feet is greater than the radio altitude.
 
 When the aircraft reaches the decision height, DH letters will flash in amber for 3 seconds and then stay in amber above the radio altitude indication.
 
 If no decision height has been entered in the PERF page of the MCDU, then:
 
-- The radio height appears in green when the radio height is greater than 400 feet but less than 2500 feet.
-- In amber when the radio altitude is equal to or less than 400 feet.
+- The radio height appears in green when the radio height is greater than 400 feet but less than 2500 feet.
+- In amber when the radio altitude is equal to or less than 400 feet.
 
-The radio altitude changes every 10 feet down to 50 feet, then every 5 feet down to 10 feet, then every foot.
+The radio altitude changes every 10 feet down to 50 feet, then every 5 feet down to 10 feet, then every foot.
 
 ### Landing Elevation
 
-This is a horizontal bar on the scale that shows the landing elevation at the destination. It is displayed during flight phases 7 and 8 (800 feet radio altitude and touchdown) and if the QNH barometric reference mode is selected.
+This is a horizontal bar on the scale that shows the landing elevation at the destination. It is displayed during flight phases 7 and 8 (800 feet radio altitude and touchdown) and if the QNH barometric reference mode is selected.
 
 ### Ground Reference
 
-A red ribbon alongside the scale displays the field elevation. It uses the radio altitude as the data source and is displayed below 570 feet. It moves up with the altitude scale as the aircraft descends. When the aircraft has touched down, the ribbon will be in the middle of the altitude window.
+A red ribbon alongside the scale displays the field elevation. It uses the radio altitude as the data source and is displayed below 570 feet. It moves up with the altitude scale as the aircraft descends. When the aircraft has touched down, the ribbon will be in the middle of the altitude window.
 
 ---
 [Back to Interactive PFD](index.md){ .md-button }
