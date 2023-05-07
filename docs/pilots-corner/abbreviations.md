@@ -227,9 +227,9 @@
 | ASSY           | **ASS**embl**Y**                                               |
 | ASYM           | **ASYM**metric(al)                                         |
 | AT             | **A**uto**T**hrottle / **A**uto**T**hrust                              |
-| ATA            | **ctual **ime of **rrival                                 |
-| ATC            | **ir **raffic **ontrol                                    |
-| ATCI           | **ir **raffic **ontrol and **nformation                    |
+| ATA            | **A**ctual **T**ime of **A**rrival                                 |
+| ATC            | **A**ir **T**raffic **C**ontrol                                    |
+| ATCI           | **A**ir **T**raffic **C**ontrol and **I**nformation                    |
 | ATCK           | **AT**ta**CK**                                                 |
 | ATD            | **A**ctual **T**ime of **D**eparture                               |
 | ATE            | **A**utomatic **T**est **E**quipment                               |
@@ -260,7 +260,7 @@
 | BCS            | **B**rake **C**ontrol **S**ystem                                   |
 | BCU            | **B**rake **C**ontrol **U**nit                                     |
 | BETW           | **BETW****een                                                |
-| BEW            | **asic **mpty **eight                                     |
+| BEW            | **B**asic **E**mpty **W**eight                                     |
 | BHD            | **B**ulk**H**ea**D**                                               |
 | BKFLW          | **B**ac**KFL**o**W**                                               |
 | BKUP           | **B**ac**KUP**                                                 |
@@ -536,238 +536,238 @@
 | F              | Minimum **F**lap Retract Speed (EFIS)                      |
 | F-G/S          | **F**LS **G**lide **S**lope                                        |
 | F-LOC          | **F**LS **LOC**alizer                                          |
-| F-PLN          | Flight Plan                                            |
-| F/C            | First Class                                            |
-| F/CTL          | Flight Controls                                        |
-| F/O            | First Officer                                          |
-| F/S            | Fast/Slow                                              |
-| F/W            | Failure Warning                                        |
-| FAA            | Federal Aviation Administration                        |
-| FAC            | Flight Augmentation Computer                           |
-| FACS           | Flight Augmentation Computer System                    |
-| FADEC          | Full Authority Digital Engine Control                  |
-| FAF            | Final Approach Fix                                     |
-| FAIL           | Failed, Failure                                        |
-| FAIR           | Fairing                                                |
-| FAP            | Flight Attendant Panel                                 |
-| FAS            | Flight Augmentation System                             |
-| FAWP           | Final Approach Waypoint                                |
-| FBW            | Fly-by-wire                                            |
-| FC             | Fully Closed                                           |
-| FCC            | Flight Control Computer                                |
-| FCCS           | Flight Control Computer System                         |
-| FCCU           | Flight Control Computer Unit                           |
-| FCGU           | Flight Control and Guidance Unit                       |
-| FCMC           | Fuel Control and Monitoring Computer                   |
-| FCMS           | Fuel Control Monitoring System                         |
-| FCOM           | Flight Crew Operating Manual                           |
-| FCPC           | Flight Control Primary Computer                        |
-| FCPI           | Flight Control Position Indicator                      |
-| FCST           | Forecast                                               |
-| FCTN           | Function                                               |
-| FCU            | Flight Control Unit                                    |
-| FD             | Flight Director                                        |
-| FDP            | Final Descent Point                                    |
-| FDR            | Flight Data Recorder                                   |
-| FDU            | Fire Detection Unit                                    |
-| FE             | Flight Envelope                                        |
-| FEC            | Flight Envelope Computer                               |
-| FEDR           | Feeder                                                 |
-| FES            | Fire Extinguishing System                              |
-| FF             | Fuel Flow                                              |
-| FG             | Flight Guidance                                        |
-| FGES           | Flight Guidance and Envelope System                    |
-| FGS            | Flight Guidance System                                 |
-| FH             | Flight Hours                                           |
-| FIX            | Fixed                                                  |
-| FL             | Flight Level                                           |
-| FLD            | Factored Landing Distance                              |
-| FLDK           | Flight Deck                                            |
-| FLEX           | Flexible                                               |
-| FLP            | Flap                                                   |
-| FLS            | FMS Landing System                                     |
-| FLT            | Flight                                                 |
-| FLT CTL        | Flight Control                                         |
-| FLTR           | Filter                                                 |
-| FM             | Flight Management                                      |
-| FMA            | Flight Mode Annunciator                                |
-| FMC            | Flight Management Computer                             |
-| FMCS           | Flight Management Computer System (FMC and CDU)        |
-| FMCU           | Flight Management Computer Unit                        |
-| FMGC           | Flight Management and Guidance Computer                |
-| FMGEC          | Flight Management Guidance and Envelope Computer       |
-| FMGES          | Flight Management Guidance and Envelope System         |
-| FMGS           | Flight Management and Guidance System                  |
-| FMS            | Flight Management System (FMCS and AFS sensors)        |
-| FNA            | Final Approach                                         |
-| FNCP           | Flight Navigation Control Panel                        |
-| FNSG           | Flight Navigation Symbol Generator                     |
-| FO             | Fully Open                                             |
-| FOB            | Fuel On Board                                          |
-| FOD            | Foreign Object Damage                                  |
-| FPA            | Flight Path Angle                                      |
-| FPL            | Flight Plan                                            |
-| FPM            | Feet per Minute                                        |
-| FPS            | Fire Protection System                                 |
-| FPT            | Flight Plan Target                                     |
-| FPV            | Flight Path Vector                                     |
-| FQ             | Fuel Quantity                                          |
-| FR             | Frame                                                  |
-| FREQ           | Frequency                                              |
-| FTK            | Fuel Tank                                              |
-| FU             | Fuel Used                                              |
-| FUSLG          | Fuselage                                               |
-| FWC            | Flight Warning Computer                                |
-| FWD            | Forward                                                |
-| FWS            | Flight Warning System                                  |
-| FWSD           | Flight Warning and System Display                      |
-| G              | Galley                                                 |
-| G              | Green                                                  |
-| G/S            | Glide Slope                                            |
-| GA             | Go-Around                                              |
-| GDNC           | Guidance                                               |
-| GEN            | Generator                                              |
-| GLS            | GNSS Landing System                                    |
-| GMT            | Greenwich Mean Time                                    |
-| GND            | Ground                                                 |
-| GNSS           | Global Navigation Satellite System                     |
-| GP             | Glide Path                                             |
-| GPCU           | Ground Power Control Unit                              |
-| GPS            | Global Positioning System                              |
-| GPU            | Ground Power Unit                                      |
-| GPWC           | Ground Proximity Warning Computer                      |
-| GPWS           | Ground Proximity Warning System                        |
-| GR             | Gear                                                   |
-| GRVTY          | Gravity                                                |
-| GS             | Ground Speed                                           |
-| GSHLD          | Glareshield                                            |
-| GW             | Gross Weight                                           |
-| GYRO           | Gyroscope                                              |
-| H              | Hot (Electrical Point)                                 |
-| H NAV          | Horizontal Navigation                                  |
-| HA             | Holding Pattern to an Altitude Termination             |
-| HARN           | Harness                                                |
-| HCU            | Hydraulic Control Unit                                 |
-| HDG            | Heading                                                |
-| HDG/S          | Heading Selected                                       |
-| HDL            | Handle                                                 |
-| HEATG          | Heating                                                |
-| HF             | High Frequency                                         |
-| HF             | Holding Pattern to a Fixed Waypoint                    |
-| HI             | High                                                   |
-| HLD            | Hold                                                   |
-| HOLD           | Holding                                                |
-| HP             | High Pressure                                          |
-| HPA            | High-Power Amplifier                                   |
-| HR             | Hour                                                   |
-| HRS            | Hours                                                  |
-| HSI            | Horizontal Situation Indicator                         |
-| HTG            | Heating                                                |
-| HUD            | Head Up Display                                        |
-| HV             | High Voltage                                           |
-| HYD            | Hydraulic                                              |
-| HZ             | Hertz                                                  |
-| Hpa            | HectoPascal                                            |
-| I/P            | Intercept Point                                        |
-| IAF            | Initial Approach Fix                                   |
-| IAS            | Indicated Airspeed                                     |
-| ICAO           | International Civil Aviation Organisation              |
-| IDENT          | Identification, Identifier, Identify                   |
-| IF             | Initial Fix                                            |
-| IFE            | In-FLight Entertainment                                |
-| IFR            | Instrument Flight Rules                                |
-| IGN            | Ignition                                               |
-| ILS            | Instrument Landing System (LOC and G/S)                |
-| IM             | Inner Marker                                           |
-| IMM            | Immediate                                              |
-| IMU            | Inertial Measurement Unit                              |
-| IN             | Inch                                                   |
-| IN HG          | Inches of Mercury                                      |
-| INA            | Initial Approach                                       |
-| INB            | Inbound                                                |
-| INBD           | Inboard                                                |
-| INCR           | Increase                                               |
-| INCR           | Increment                                              |
-| IND            | Indicator                                              |
-| INFO           | Information                                            |
-| INHI           | Inhibit                                                |
-| INHIB          | Inhibit, Inhibited, Inhibition                         |
-| INIT           | Initial(ization)                                       |
-| INOP           | Inoperative                                            |
-| INR            | Inner                                                  |
-| INS            | Inertial Navigation System                             |
-| INST           | Instrument                                             |
-| INT            | Interior                                               |
-| INTCP          | Intercept                                              |
-| INTERCOM       | Intercommunication                                     |
-| INTL           | Internal                                               |
-| INV            | Inverter                                               |
-| IPDU           | Ice Protection Data Unit                               |
-| IR             | Inertial Reference                                     |
-| IRS            | Inertial Reference System                              |
-| IRU            | Inertial Reference Unit                                |
-| ISA            | Inertial Sensor Assembly                               |
-| ISO            | International Standardization Organization             |
-| ISOL           | Isolation                                              |
-| IV             | Isolation Valve                                        |
-| JAM            | Jammed, Jamming                                        |
-| JEP            | Jeppesen                                               |
-| KBD            | Keyboard                                               |
-| KCAS           | Knot Calibrated Air Speed                              |
-| KCCU           | Keyboard and Cursor Control Unit                       |
-| KEAS           | Knots Equivalent Air Speed                             |
-| KHZ            | Kilohertz                                              |
-| KIAS           | Knots Indicated Airspeed                               |
-| KT             | Knot(s)                                                |
-| KTAS           | Knot True Air Speed                                    |
-| KU             | Keyboard Unit                                          |
-| KV             | Kilo Volt                                              |
-| KVA            | Kilovolt Ampere                                        |
-| L              | Left                                                   |
-| L              | Length                                                 |
-| L              | Liter                                                  |
-| L ECAM DU      | Left ECAM Display Unit                                 |
-| L/D            | Lift/Drag                                              |
-| L/G            | Landing Gear                                           |
-| LAND           | Landing                                                |
-| LAT            | Lateral                                                |
-| LAT            | Latitude                                               |
-| LAV            | Lavatory                                               |
+| F-PLN          | **F**light **PL**an                                            |
+| F/C            | **F**irst **C**lass                                            |
+| F/CTL          | **F**light **C**on**T**ro**L**s                                        |
+| F/O            | **F**irst **O**fficer                                          |
+| F/S            | **F**ast/**S**low                                              |
+| F/W            | **F**ailure **W**arning                                        |
+| FAA            | **F**ederal **A**viation **A**dministration                        |
+| FAC            | **F**light **A**ugmentation **C**omputer                           |
+| FACS           | **F**light **A**ugmentation **C**omputer **S**ystem                    |
+| FADEC          | **F**ull **A**uthority **D**igital **E**ngine **C**ontrol                  |
+| FAF            | **F**inal **A**pproach **F**ix                                     |
+| FAIL           | **FAIL**ed, **FAIL**ure                                        |
+| FAIR           | **FAIR**ing                                                |
+| FAP            | **F**light **A**ttendant **P**anel                                 |
+| FAS            | **F**light **A**ugmentation **S**ystem                             |
+| FAWP           | **F**inal **A**pproach **W**ay**P**oint                                |
+| FBW            | **F**ly-**B**y-**W**ire                                            |
+| FC             | **F**ully **C**losed                                           |
+| FCC            | **F**light **C**ontrol **C**omputer                                |
+| FCCS           | **F**light **C**ontrol **C**omputer **S**ystem                         |
+| FCCU           | **F**light **C**ontrol **C**omputer **U**nit                           |
+| FCGU           | **F**light **C**ontrol and **G**uidance **U**nit                       |
+| FCMC           | **F**uel **C**ontrol and **M**onitoring **C**omputer                   |
+| FCMS           | **F**uel **C**ontrol **M**onitoring **S**ystem                         |
+| FCOM           | **F**light **C**rew **O**perating **M**anual                           |
+| FCPC           | **F**light **C**ontrol **P**rimary **C**omputer                        |
+| FCPI           | **F**light **C**ontrol **P**osition **I**ndicator                      |
+| FCST           | **F**ore**C**a**ST**                                               |
+| FCTN           | **F**un**CT**io**N**                                               |
+| FCU            | **F**light **C**ontrol **U**nit                                    |
+| FD             | **F**light **D**irector                                        |
+| FDP            | **F**inal **D**escent **P**oint                                    |
+| FDR            | **F**light **D**ata **R**ecorder                                   |
+| FDU            | **F**ire **D**etection **U**nit                                    |
+| FE             | **F**light **E**nvelope                                        |
+| FEC            | **F**light **E**nvelope **C**omputer                               |
+| FEDR           | **FE**e**D**e**R**                                                 |
+| FES            | **F**ire **E**xtinguishing **S**ystem                              |
+| FF             | **F**uel **F**low                                              |
+| FG             | **F**light **G**uidance                                        |
+| FGES           | **F**light **G**uidance and **E**nvelope **S**ystem                    |
+| FGS            | **F**light **G**uidance **S**ystem                                 |
+| FH             | **F**light **H**ours                                           |
+| FIX            | **FIX**ed                                                  |
+| FL             | **F**light **L**evel                                           |
+| FLD            | **F**actored **L**anding **D**istance                              |
+| FLDK           | **FL**ight **D**ec**K**                                            |
+| FLEX           | **FLEX**ible                                               |
+| FLP            | **FL**a**P**                                                   |
+| FLS            | **F**ms **L**anding **S**ystem                                     |
+| FLT            | **FL**igh**T**                                                 |
+| FLT CTL        | **FL**igh**T** **C**on**T**ro**L**                                         |
+| FLTR           | **F**i**LT**e**R**                                                 |
+| FM             | **F**light **M**anagement                                      |
+| FMA            | **F**light **M**ode **A**nnunciator                                |
+| FMC            | **F**light **M**anagement **C**omputer                             |
+| FMCS           | **F**light **M**anagement **C**omputer **S**ystem (FMC and CDU)        |
+| FMCU           | **F**light **M**anagement **C**omputer **U**nit                        |
+| FMGC           | **F**light **M**anagement and **G**uidance **C**omputer                |
+| FMGEC          | **F**light **M**anagement **G**uidance and **E**nvelope **C**omputer       |
+| FMGES          | **F**light **M**anagement **G**uidance and **E**nvelope **S**ystem         |
+| FMGS           | **F**light **M**anagement and **G**uidance **S**ystem                  |
+| FMS            | **F**light **M**anagement **S**ystem (FMCS and AFS sensors)        |
+| FNA            | **F**i**N**al **A**pproach                                         |
+| FNCP           | **F**light **N**avigation **C**ontrol **P**anel                        |
+| FNSG           | **F**light **N**avigation **S**ymbol **G**enerator                     |
+| FO             | **F**ully **O**pen                                             |
+| FOB            | **F**uel **O**n **B**oard                                          |
+| FOD            | **F**oreign **O**bject **D**amage                                  |
+| FPA            | **F**light **P**ath **A**ngle                                      |
+| FPL            | **F**light **P**lan                                            |
+| FPM            | **F**eet **P**er **M**inute                                        |
+| FPS            | **F**ire **P**rotection **S**ystem                                 |
+| FPT            | **F**light **P**lan **T**arget                                     |
+| FPV            | **F**light **P**ath **V**ector                                     |
+| FQ             | **F**uel **Q**uantity                                          |
+| FR             | **FR**ame                                                  |
+| FREQ           | **FREQ**uency                                              |
+| FTK            | **F**uel **T**an**K**                                              |
+| FU             | **F**uel **U**sed                                              |
+| FUSLG          | **FUS**e**L**a**G**e                                               |
+| FWC            | **F**light **W**arning **C**omputer                                |
+| FWD            | **F**or**W**ar**D**                                                |
+| FWS            | **F**light **W**arning **S**ystem                                  |
+| FWSD           | **F**light **W**arning and **S**ystem **D**isplay                      |
+| G              | **G**alley                                                 |
+| G              | **G**reen                                                  |
+| G/S            | **G**lide **S**lope                                            |
+| GA             | **G**o-**A**round                                              |
+| GDNC           | **G**ui**D**a**NC**e                                               |
+| GEN            | **GEN**erator                                              |
+| GLS            | **G**nss **L**anding **S**ystem                                    |
+| GMT            | **G**reenwich **M**ean **T**ime                                    |
+| GND            | **G**rou**ND**                                                 |
+| GNSS           | **G**lobal **N**avigation **S**atellite **S**ystem                     |
+| GP             | **G**lide **P**ath                                             |
+| GPCU           | **G**round **P**ower **C**ontrol **U**nit                              |
+| GPS            | **G**lobal **P**ositioning **S**ystem                              |
+| GPU            | **G**round **P**ower **U**nit                                      |
+| GPWC           | **G**round **P**roximity **W**arning **C**omputer                      |
+| GPWS           | **G**round **P**roximity **W**arning **S**ystem                        |
+| GR             | **G**ea**R**                                                   |
+| GRVTY          | **GR**a**V**i**TY**                                                |
+| GS             | **G**round **S**peed                                           |
+| GSHLD          | **G**lare**SH**ie**LD**                                            |
+| GW             | **G**ross **W**eight                                           |
+| GYRO           | **GYRO**scope                                              |
+| H              | **H**ot (Electrical Point)                                 |
+| H NAV          | **H**orizontal **NAV**igation                                  |
+| HA             | **H**olding pattern to an **A**ltitude termination             |
+| HARN           | **HARN**ess                                                |
+| HCU            | **H**ydraulic **C**ontrol **U**nit                                 |
+| HDG            | **H**ea**D**in**G**                                                |
+| HDG/S          | **H**ea**D**in**G** **S**elected                                       |
+| HDL            | **H**an**DL**e                                                 |
+| HEATG          | **HEAT**in**G**                                                |
+| HF             | **H**igh **F**requency                                         |
+| HF             | **H**olding pattern to a **F**ixed waypoint                    |
+| HI             | **HI**gh                                                   |
+| HLD            | **H**o**LD**                                                   |
+| HOLD           | **HOLD**ing                                                |
+| HP             | **H**igh **P**ressure                                          |
+| HPA            | **H**igh-**P**ower **A**mplifier                                   |
+| HR             | **H**ou**R**                                                   |
+| HRS            | **H**ou**RS**                                                  |
+| HSI            | **H**orizontal **S**ituation **I**ndicator                         |
+| HTG            | **H**ea**T**in**G**                                                |
+| HUD            | **H**ead **U**p **D**isplay                                        |
+| HV             | **H**igh **V**oltage                                           |
+| HYD            | **HYD**raulic                                              |
+| HZ             | **H**ert**Z**                                                  |
+| Hpa            | **H**ecto**Pa**scal                                            |
+| I/P            | **I**ntercept **P**oint                                        |
+| IAF            | **I**nitial **A**pproach **F**ix                                   |
+| IAS            | **I**ndicated **A**ir**S**peed                                     |
+| ICAO           | **I**nternational **C**ivil **A**viation **O**rganisation              |
+| IDENT          | **IDENT**ification, **IDENT**ifier, **IDENT**ify                   |
+| IF             | **I**nitial **F**ix                                            |
+| IFE            | **I**n-**F**Light **E**ntertainment                                |
+| IFR            | **I**nstrument **F**light **R**ules                                |
+| IGN            | **IGN**ition                                               |
+| ILS            | **I**nstrument **L**anding **S**ystem (LOC and G/S)                |
+| IM             | **I**nner **M**arker                                           |
+| IMM            | **IMM**ediate                                              |
+| IMU            | **I**nertial **M**easurement **U**nit                              |
+| IN             | **IN**ch                                                   |
+| IN HG          | **IN**ches of Mercury (**HG**)                                      |
+| INA            | **IN**itial **A**pproach                                       |
+| INB            | **INB**ound                                                |
+| INBD           | **INB**oar**D**                                                |
+| INCR           | **INCR**ease                                               |
+| INCR           | **INCR**ement                                              |
+| IND            | **IND**icator                                              |
+| INFO           | **INFO**rmation                                            |
+| INHI           | **INHI**bit                                                |
+| INHIB          | **INHIB**it, **INHIB**ited, **INHIB**ition                         |
+| INIT           | **INIT**ial(ization)                                       |
+| INOP           | **INOP**erative                                            |
+| INR            | **IN**ne**R**                                                  |
+| INS            | **I**nertial **N**avigation **S**ystem                             |
+| INST           | **INST**rument                                             |
+| INT            | **INT**erior                                               |
+| INTCP          | **INT**er**C**e**P**t                                              |
+| INTERCOM       | **INTERCOM**munication                                     |
+| INTL           | **INT**erna**L**                                               |
+| INV            | **INV**erter                                               |
+| IPDU           | **I**ce **P**rotection **D**ata **U**nit                               |
+| IR             | **I**nertial **R**eference                                     |
+| IRS            | **I**nertial **R**eference **S**ystem                              |
+| IRU            | **I**nertial **R**eference **U**nit                                |
+| ISA            | **I**nertial **S**ensor **A**ssembly                               |
+| ISO            | **I**nternational **S**tandardization **O**rganization             |
+| ISOL           | **INSOL**ation                                              |
+| IV             | **I**solation **V**alve                                        |
+| JAM            | **JAM**med, **JAM**ming                                        |
+| JEP            | **JEP**pesen                                               |
+| KBD            | **K**ey**B**oar**D**                                               |
+| KCAS           | **K**not **C**alibrated **A**ir **S**peed                              |
+| KCCU           | **K**eyboard and **C**ursor **C**ontrol **U**nit                       |
+| KEAS           | **K**nots **E**quivalent **A**ir **S**peed                             |
+| KHZ            | **K**ilo**H**ert**Z**                                              |
+| KIAS           | **K**nots **I**ndicated **A**ir **S**peed                               |
+| KT             | **K**no**T**(s)                                                |
+| KTAS           | **K**not **T**rue **A**ir **S**peed                                    |
+| KU             | **K**eyboard **U**nit                                          |
+| KV             | **K**ilo **V**olt                                              |
+| KVA            | **K**ilo**V**olt **A**mpere                                        |
+| L              | **L**eft                                                   |
+| L              | **L**ength                                                 |
+| L              | **L**iter                                                  |
+| L ECAM DU      | **L**eft **ECAM** **D**isplay **U**nit                                 |
+| L/D            | **L**ift/**D**rag                                              |
+| L/G            | **L**anding **G**ear                                           |
+| LAND           | **LAND**ing                                                |
+| LAT            | **LAT**eral                                                |
+| LAT            | **LAT**itude                                               |
+| LAV            | **LAV**atory                                               |
 | LB             | Pounds                                                 |
 | LB-FT          | Pound - Force - Foot (Torque)                          |
 | LB-IN          | Pound - Inch                                           |
-| LCD            | Liquid Crystal Display                                 |
-| LCH            | Latch                                                  |
-| LCTR           | Locator                                                |
-| LD             | Load                                                   |
-| LD             | Lower Deck                                             |
-| LD             | Landing Distance                                       |
-| LDA            | Landing Distance Available                             |
-| LDG            | Landing                                                |
-| LDG GR         | Landing Gear                                           |
-| LED            | Light-Emitting Diode                                   |
-| LGERS          | Landing Gear Extension and Retraction System           |
-| LGMS           | Landing Gear Management System                         |
-| LH             | Left Hand                                              |
-| LIM            | Limit, Limitation, Limiting, Limiter                   |
-| LIQD           | Liquid                                                 |
-| LKD            | Locked                                                 |
-| LL             | Latitude/Longitude                                     |
-| LO             | Low                                                    |
-| LO PR          | Low Pressure                                           |
-| LOC            | Localizer                                              |
-| LP             | Low Pressure                                           |
-| LP VALVE       | Low-Pressure Valve                                     |
-| LS             | Landing System                                         |
-| LT             | Light                                                  |
-| LTD            | Limited                                                |
-| LTG            | Lighting                                               |
-| LTS            | Lights                                                 |
-| LVL            | Level                                                  |
-| LVL/CH         | Level Change                                           |
-| LVR            | Lever                                                  |
-| LW             | Landing Weight                                         |
-| LWR            | Lower                                                  |
+| LCD            | **L**iquid **C**rystal **D**isplay                                 |
+| LCH            | **L**at**CH**                                                  |
+| LCTR           | **L**o**C**a**T**o**R**                                                |
+| LD             | **L**oa**D**                                                   |
+| LD             | **L**ower **D**eck                                             |
+| LD             | **L**anding **D**istance                                       |
+| LDA            | **L**anding **D**istance **A**vailable                             |
+| LDG            | **L**an**D**in**G**                                                |
+| LDG GR         | **L**anding **G**ear                                           |
+| LED            | **L**ight-**E**mitting **D**iode                                   |
+| LGERS          | **L**anding **G**ear **E**xtension and **R**etraction **S**ystem           |
+| LGMS           | **L**anding **G**ear **M**anagement **S**ystem                         |
+| LH             | **L**eft **H**and                                              |
+| LIM            | **LIM**it, **LIM**mitation, **LIM**iting, **LIM**iter                   |
+| LIQD           | **LIQ**ui**D**                                                 |
+| LKD            | **L**oc**K**e**D**                                                 |
+| LL             | **L**atitude/**L**ongitude                                     |
+| LO             | **LO**w                                                    |
+| LO PR          | **LO**w **PR**essure                                           |
+| LOC            | **LOC**alizer                                              |
+| LP             | **L**ow **P**ressure                                           |
+| LP VALVE       | **L**ow-**P**ressure **VALVE**                                     |
+| LS             | **L**anding **S**ystem                                         |
+| LT             | **L**igh**T**                                                  |
+| LTD            | **L**imi**T**e**D**                                                |
+| LTG            | **L**igh**T**in**G**                                               |
+| LTS            | **L**igh**TS**                                                 |
+| LVL            | **L**e**V**e**L**                                                  |
+| LVL/CH         | **L**e**V**e**L** **CH**ange                                           |
+| LVR            | **L**e**V**e**R**                                                  |
+| LW             | **L**anding **W**eight                                         |
+| LWR            | **L**o**W**e**R**                                                  |
 | M              | Mach                                                   |
 | M              | Mach Number                                            |
 | M              | Magenta                                                |
