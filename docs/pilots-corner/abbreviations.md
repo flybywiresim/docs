@@ -944,14 +944,8 @@
 | Pb             | **P**ressure ambient                                       |
 | Q              | pitch rate                                             |
 | QAR            | **Q**uick **A**ccess **R**ecorder                                  |
-| QFE            | baro pressure setting for airfield altitude            |
 | QFE            | **F**ield **E**levation atmospheric pressure                   |
-| QFE            | pressure setting for airfield altitude                 |
-| QNE            | sea level standard atmosphere pressure                 |
-| QNH            | baro pressure setting for en route altitude            |
-| QNH            | pressure setting for en route altitude                 |
 | QNH            | sea level atmospheric pressure                         |
-| QNH            | sea level pressure                                     |
 | QRH            | **Q**uick **R**eference **H**andbook                               |
 | QTY            | **Q**uan**T**it**Y**                                               |
 | R              | **R**adius                                                 |
