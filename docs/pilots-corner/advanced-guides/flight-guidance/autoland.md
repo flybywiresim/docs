@@ -48,9 +48,9 @@ Other training may also be required before being able to perform an Autoland. It
 
 The airport must be equipped with the appropriate ILS CAT (category) capability. 
 
-- CAT III - LVP (Low Visibility Procedure) enforce
-- CAT II / CAT III - LVP (Low Visibility Procedure) not enforce
-- CAT I - Operators have a list of runways that are authorized to use Autoland with CAT 
+- CAT III - LVP (Low Visibility Procedure) enforced
+- CAT II / CAT III - LVP (Low Visibility Procedure) not enforced
+- CAT I - Operators have a list of runways that are authorized to use Autoland with CAT I
 
 !!! danger "Low Visibility Operations (LVO) Not Enforced"
     If the flight crew opts to perform an Autoland on a CAT II / CAT III capable runway when LVO is not enforced (checked with ATIS or ATC) the runway **must be considered a CAT I runway**.
