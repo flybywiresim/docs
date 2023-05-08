@@ -331,7 +331,7 @@ Prompts on each PERF page:
         - A clear action reverts VAPP to the computed value.
 
         !!! note 
-            VLS = 1.23 VS1G (Stall Speed) of the selected landing configuration (full or 3).
+            VLS = 1.23 VS1G (Stall Speed) of the selected landing configuration (full or 3) but not less than V~MCL~.
 
 - FINAL (1M)
     - Approach specified in the flight plan.
