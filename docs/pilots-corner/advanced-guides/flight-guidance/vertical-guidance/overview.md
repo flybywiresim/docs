@@ -38,11 +38,11 @@ improvements to existing functionality will follow in future PRs.
 
 Current feature set:
 
-- Accurate speed, altitude, time and fuel predictions in the MCDU for all phases of flight.
-- Vertical predictions on the navigation display in the form of pseudowaypoints.
-- Ability to program cruise steps in the MCDU.
-- Vertical guidance in managed modes during all phases of flight
-- Pause-at-T/D (Top of Descent) quality of life feature.
+- [x] Accurate speed, altitude, time and fuel predictions in the MCDU for all phases of flight.
+- [x] Vertical predictions on the navigation display in the form of pseudowaypoints.
+- [x] Ability to program cruise steps in the MCDU.
+- [x] Vertical guidance in managed modes during all phases of flight
+- [x] Pause-at-T/D (Top of Descent) quality of life feature.
 
 !!! warning "Not Yet Implemented"
     The following features are not yet implemented "Version 1 of VNAV" in the A32NX:
