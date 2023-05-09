@@ -247,7 +247,7 @@ Prompts on each PERF page:
 - Blank or EXPEDITE (5L):
     - If the descent phase is not active, this field is blank.
     - Displays this legend if the descent phase is active.
-    - It indicates the time and distance required to reach the altitude displayed in the 2R field at MMO/VMO speed. The pilot cannot select the EXPEDITE mode through this field.
+    - It indicates the time and distance required to reach the altitude displayed in the 2R field at M~MO~/V~MO~ speed. The pilot cannot select the EXPEDITE mode through this field.
 
 - TIME/UTC DES EFOB (1M/1R)
     - Before takeoff: Displays the flight time to destination and the predicted remaining fuel on board. If an estimated takeoff time has been entered, the field displays automatically the predicted arrival time (UTC) at the destination.
@@ -326,18 +326,18 @@ Prompts on each PERF page:
 
 - VAPP (5L)
     - Computed by FMGC, using the formula:
-        - VAPP = VLS + 1/3 of the headwind components (limited to VLS + 5 as a minimum and VLS + 15 as a maximum).
-        - The flight crew can modify VAPP.
-        - A clear action reverts VAPP to the computed value.
+        - V~APP~ = V~LS~ + 1/3 of the headwind components (limited to V~LS~ + 5 as a minimum and V~LS~ + 15 as a maximum).
+        - The flight crew can modify V~APP~.
+        - A clear action reverts V~APP~ to the computed value.
 
         !!! note 
-            VLS = 1.23 VS1G (Stall Speed) of the selected landing configuration (full or 3) but not less than V~MCL~.
+            V~LS~ = 1.23 V~S1G~ (Stall Speed) of the selected landing configuration (full or 3) but not less than V~MCL~.
 
 - FINAL (1M)
     - Approach specified in the flight plan.
     - Can't be modified here.
 
-- O, S, F, VLS Speeds (2M, 3M, 4M)
+- O, S, F, V~LS~ Speeds (2M, 3M, 4M)
     - See [Speeds](../../abbreviations.md#additional-speeds) and [V-Speeds](../../abbreviations.md#v-speeds) for more information.
 
 - BARO (2R):
