@@ -3,6 +3,7 @@ tags:
     - VNAV
 hide:
     - tags
+title: Vertical Guidance - Overview
 ---
 
 <link rel="stylesheet" href="/../../stylesheets/toc-tables.css">
@@ -14,6 +15,7 @@ hide:
 | Quick Links                                    |
 |:-----------------------------------------------|
 | [Vertical Modes](#vertical-modes-overview)     |
+| [VNAV - Version 1](#vnav-version-1)            |
 | [Selected Vertical Modes](./selected-modes.md) |
 | [Managed Vertical Modes](./managed-modes.md)   |
 | [Speed/Mach Control](./speed-control.md)       |
@@ -29,6 +31,31 @@ Also, implementing it correctly and realistically is an enormous task and the Fl
 Therefore, the level of detail in this guide is meant to provide FlyByWire A32NX users the ability to adequately use the vertical navigation features of the aircraft in the simulator without overburdening the user with an extreme level of detail.
 
 If you have additional questions beyond the scope of this guide, do not hesitate to come to the ([:fontawesome-brands-discord:{: .discord } - **FlyByWire Discord**](https://discord.gg/flybywire){target=new}) and visit our #flight-school channel. We have many real-world pilots in our community who are happy to help to answer your questions.
+
+## VNAV - Version 1
+This is our first step of custom implementation of the vertical navigation capabilities in the A32NX. It implements the basic vertical prediction and guidance functions. Additional features and 
+improvements to existing functionality will follow in future PRs.
+
+Current feature set:
+
+- Accurate speed, altitude, time and fuel predictions in the MCDU for all phases of flight.
+- Vertical predictions on the navigation display in the form of pseudowaypoints.
+- Ability to program cruise steps in the MCDU.
+- Vertical guidance in managed modes during all phases of flight
+- Pause-at-T/D (Top of Descent) quality of life feature.
+
+!!! warning "Not Yet Implemented"
+    The following features are not yet implemented "Version 1 of VNAV" in the A32NX:
+
+    - Vertical guidance for non-precision approaches, including FINAL APP and FLS.
+    - Required Time of Arrival (RTA) functionality.
+    - TOO STEEP PATH segments and markers in the MCDU.
+    - MORE DRAG message on the PFD
+    - Equitime-point functionality
+    - More sophisticated temperature model (matching H3)
+    - Optimum step alts functionality
+    - Energy circle display on the ND
+    - Accurate data acquisition from ADRs
 
 ## Overview
 
