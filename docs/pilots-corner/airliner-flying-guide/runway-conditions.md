@@ -25,11 +25,11 @@ You should use the lowest code for the section of runway you will be using for l
 
 ## Runway Correlation Matrix
 
-| Runway<br/> Condition Code |  Braking Action  | Representative<br/> Surface Condition                    | Maximum Allowable<br/> Crosswind for Landing |
-|:--------------------------:|:----------------:|:---------------------------------------------------------|:--------------------------------------------:|
-|             6              |       Dry        | Dry                                                      |                   38 Knots                   |
-|             5              |       Good       | Wet<br/> Up to 3 mm (1/8") Snow or Slush                  |                   38 Knots                   |
-|             4              | Good<br/> Medium | Compacted Snow at or below -15 °C                         |                   29 Knots                   |
-|             3              |      Medium      | More than 3 mm (1/8") Snow<br/> Compacted Snow above 15 °C |                   25 Knots                   |
-|             2              | Medium<br/> Poor | More than 3 mm (1/8") Standing Water or Slush             |                   20 Knots                   |
-|             1              |       Poor       | Ice                                                      |                   15 Knots                   |
+| Runway<br/> Condition Code |  Braking Action  | Representative<br/> Surface Condition                      | Maximum Allowable<br/> Crosswind for Landing |
+|:--------------------------:|:----------------:|:-----------------------------------------------------------|:--------------------------------------------:|
+|             6              |       Dry        | Dry                                                        |                   38 knots                   |
+|             5              |       Good       | Wet<br/> Up to 3 mm (1/8") Snow or Slush                   |                   38 knots                   |
+|             4              | Good<br/> Medium | Compacted Snow at or below - 15 °C                         |                   29 knots                   |
+|             3              |      Medium      | More than 3 mm (1/8") Snow<br/> Compacted Snow above 15 °C |                   25 knots                   |
+|             2              | Medium<br/> Poor | More than 3 mm (1/8") Standing Water or Slush              |                   20 knots                   |
+|             1              |       Poor       | Ice                                                        |                   15 knots                   |

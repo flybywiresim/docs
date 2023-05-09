@@ -23,13 +23,13 @@ See also: [V-Speeds](../../abbreviations.md#v-speeds)
 
 ### Actual Airspeed Reference Line and Scale
 
-A white scale on a gray background moves in front of a fixed yellow reference line next to a yellow triangle to show airspeed. The minimum airspeed indication is 30 knots.
+A white scale on a gray background moves in front of a fixed yellow reference line next to a yellow triangle to show airspeed. The minimum airspeed indication is 30 knots.
 
 ### Speed trend
 
 This is shown in yellow and starts at the speed symbol. It is an arrow that extends upwards or downwards from the speed symbol, depending on the trend of the aircraft's speed (whether accelerating or decelerating).
 
-The tip shows the speed the aircraft will reach in 10 seconds if the rate of change remains constant. The pointer will only appear when it exceeds 2 knots and disappears when it is 1 knot.
+The tip shows the speed the aircraft will reach in 10 seconds if the rate of change remains constant. The pointer will only appear when it exceeds 2 knots and disappears when it is 1 knot.
 
 It will also disappear if the FACs fail.
 
@@ -49,21 +49,21 @@ This is displayed in green and is shown if the Mach number reaches above 0.5. It
 
 This is displayed in green and shows the speed at which overspeed protections become active.
 
-This speed is V~MO~ (maximum operating speed) + 6 knots or M~MO~ (maximum Mach speed) + 0.01
+This speed is V~MO~ (maximum operating speed) + 6 knots or M~MO~ (maximum Mach speed) + 0.01
 
 ### ECON Speed Range
 
 This appears in descent mode with ECON/AUTO SPD mode active. Two magenta half triangles will represent the upper and lower limits calculated by the FMGC. This replaces the target speed symbol.
 
-The upper speed is equal to the target speed + 20 knots, limited to V~MAX~, V~MO~ - 3 knots or M~MO~ - 0.006, whichever is the lowest.
+The upper speed is equal to the target speed + 20 knots, limited to V~MAX~, V~MO~ - 3 knots or M~MO~ - 0.006, whichever is the lowest.
 
-If a speed constraint or limit applies, then the upper margin is limited to ECON SPD + 5kts.
+If a speed constraint or limit applies, then the upper margin is limited to ECON SPD + 5 kt.
 
-The lower speed margin is the target speed - 20 knots. It is limited to green dot, F, S or V~LS~ speeds, whichever is higher.
+The lower speed margin is the target speed - 20 knots. It is limited to green dot, F, S or V~LS~ speeds, whichever is higher.
 
 ### Minimum Selectable Speed (V~LS~)
 
-The top of the amber strip along the speed scale represents this speed. It shows the lowest selectable speed and provides an appropriate margin to the stall speed. This information is inhibited from touchdown until 10 seconds after liftoff.
+The top of the amber strip along the speed scale represents this speed. It shows the lowest selectable speed and provides an appropriate margin to the stall speed. This information is inhibited from touchdown until 10 seconds after liftoff.
 
 ### Alpha Protection Speed
 
@@ -83,7 +83,7 @@ The lower end of a red and black strip along the speed scale represents this spe
 
 ### Stall Warning Speed (V~SW~)
 
-The top of the red and black strip along the speed scale represents this speed. It is the speed at which the stall warning will occur. This information is inhibited from touchdown until 5 seconds after liftoff and is displayed only when operating in pitch alternate or pitch direct law.
+The top of the red and black strip along the speed scale represents this speed. It is the speed at which the stall warning will occur. This information is inhibited from touchdown until 5 seconds after liftoff and is displayed only when operating in pitch alternate or pitch direct law.
 
 ### V~1~
 
@@ -99,7 +99,7 @@ This is displayed with a green letter S. It appears when the flap selector is in
 
 ### V~FE~ NEXT
 
-It is displayed with an amber double bar (=) and shows the V~FE~ corresponding to the next flap lever position. It appears when the aircraft altitude is below 15,000 feet or 20,000 feet depending upon the FAC standard.
+It is displayed with an amber double bar (=) and shows the V~FE~ corresponding to the next flap lever position. It appears when the aircraft altitude is below 15 000 feet or 20 000 feet depending upon the FAC standard.
 
 ### V~R~ (Rotation Velocity)
 
@@ -112,7 +112,7 @@ This is a magenta triangle on the right side of the speedtape. It displays the V
 V~2~+10 provides better climb performance (before acceleration altitude and during noise abatement program departures).
 
 !!! info "Engine Loss V~2~ Speeds"
-    After takeoff, **V~2~+10** is the targeted speed you should reach and maintain by the time you attain a height of 35 FT after takeoff until reaching the acceleration altitude.
+    After takeoff, **V~2~+10** is the targeted speed you should reach and maintain by the time you attain a height of 35 ft after takeoff until reaching the acceleration altitude.
 
     When an engine failure occurs (shortly before or after takeoff), V~2~ is the minimum allowable speed. Pilots should aim to meet the criteria below at the point of engine loss:
 

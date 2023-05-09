@@ -39,11 +39,11 @@ The glideslope scale is a vertical set of dots on the right side of the artifici
 
 The yellow line in the center of the dots is where the aircraft is in relation to the glideslope or the localizer signal.
 
-The localizer scale flashes and will continue to flash if the deviation exceeds 1/4 of a dot for two seconds (above 15 feet radio altitude). The glide scale flashes and continues to flash if the deviation exceeds one dot for two seconds (above 100 feet radio altitude).
+The localizer scale flashes and will continue to flash if the deviation exceeds 1/4 of a dot for two seconds (above 15 feet radio altitude). The glide scale flashes and continues to flash if the deviation exceeds one dot for two seconds (above 100 feet radio altitude).
 
 "LOC" and the glide scale half index symbols flash and continue to flash if the deviation exceeds two dots for two seconds.
 
-One dot represents ± 0.8 degrees of deviation on the localizer scale and ± 0.4 degrees on the glideslope scale.
+One dot represents ± 0.8 degrees of deviation on the localizer scale and ± 0.4 degrees on the glideslope scale.
 
 ### ILS Information
 
@@ -78,7 +78,7 @@ There is no localizer deviation scale.
 
 This appears when in the approach phase and when either FINAL is armed or engaged or a non ILS approach has been entered. They are displayed in the approach or go around flight phase, until the MDA has been reached, or the MAP or runway has been sequenced. They give the vertical deviation from the path set out by the FMGC.
 
-Each scale graduation represents 100 feet, and the range is ± 200 feet. These are horizontal bars instead of dots.
+Each scale graduation represents 100 feet, and the range is ± 200 feet. These are horizontal bars instead of dots.
 
 Note that if the LS pushbutton is pressed, the glide deviation has priority over the vertical deviation information. As long as V/DEV display conditions are met, and the LS pushbutton is selected, an amber V/DEV message flashes above the glide scale.
 

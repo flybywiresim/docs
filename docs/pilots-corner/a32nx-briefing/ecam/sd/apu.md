@@ -6,7 +6,7 @@
 
 | Number | Name                     | Variation               | Meaning                                                                                               |
 |:-------|:-------------------------|:------------------------|:------------------------------------------------------------------------------------------------------|
-| 1      | AVAIL                    | Green color             | The APU N is above 99.5% or when the APU N is above 95% for 2 seconds                                 |
+| 1      | AVAIL                    | Green color             | The APU N is above 99.5 % or when the APU N is above 95 % for 2 seconds                               |
 |        |                          | Hidden                  | The APU is not available                                                                              |
 | 2      | APU Bleed air valve      | Green crossline         | The APU bleed air valve is closed.                                                                    |
 |        |                          | Amber crossline         | The APU bleed air valve is closed, but the APU bleed is ON.                                           |
@@ -21,20 +21,20 @@
 | 6      | APU GEN Load legend      | Green color             | The APU GEN load is within normal operating range.                                                    |
 |        |                          | Amber color             | The APU GEN load is greater than 100%.                                                                |
 | 7      | APU GEN voltage legend   | Green color             | The APU GEN voltage is within normal operating range.                                                 |
-|        |                          | Amber color             | The APU GEN voltage is greater than 120 volts or lower than 110 volts.                                |
+|        |                          | Amber color             | The APU GEN voltage is greater than 120 volts or lower than 110 volts.                                |
 | 8      | APU GEN frequency legend | Green color             | The APU GEN frequency is within normal operating range.                                               |
-|        |                          | Amber color             | The APU GEN frequency is greater than 410 Hertz or below 390 Hertz.                                   |
+|        |                          | Amber color             | The APU GEN frequency is greater than 410 Hertz or below 390 Hertz.                                   |
 | 9      | Fuel pressure            | Amber FUEL LO PR        | The APU fuel pressure is low                                                                          |
 |        |                          | Hidden                  | The APU fuel pressure is within normal operating range.                                               |
 | 10     | APU Flap                 | Green FLAP OPEN         | The APU air intake is fully open.                                                                     |
-|        |                          | Green pulsing FLAP OPEN | The APU air intake is not fully closed after the APU master switch has been turned off for 3 minutes. |
+|        |                          | Green pulsing FLAP OPEN | The APU air intake is not fully closed after the APU master switch has been turned off for 3 minutes. |
 |        |                          | Hidden                  | The APU air intake is fully closed.                                                                   |
 | 11     | APU N                    | Green color             | The APU N speed is within normal operating range.                                                     |
-|        |                          | Amber color             | The APU N speed is greater than 102%.                                                                 |
-|        |                          | Red color               | The APU N speed is greater than 107%.                                                                 |
+|        |                          | Amber color             | The APU N speed is greater than 102 %.                                                                |
+|        |                          | Red color               | The APU N speed is greater than 107 %.                                                                |
 | 12     | APU EGT                  | Green color             | The APU EGT temperature is within normal operating range.                                             |
-|        |                          | Amber color             | The APU EGT is greater than the EGT Maximum minus 33 °C, while the APU is starting.                   |
-|        |                          | Pulsive Amber color     | The APU EGT is greater than the EGT maximum minus 33 °C, while the APU is running.                    |
+|        |                          | Amber color             | The APU EGT is greater than the EGT Maximum minus 33 °C, while the APU is starting.                   |
+|        |                          | Pulsive Amber color     | The APU EGT is greater than the EGT maximum minus 33 °C, while the APU is running.                    |
 |        |                          | Red color               | The APU EGT is greater than the EGT max.                                                              |
 
 

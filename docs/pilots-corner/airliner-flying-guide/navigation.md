@@ -12,17 +12,17 @@
 
         The category of aircraft allowed to do this approach \(A, B, C & D\).
 
-        The altitude of the airfield (392ft) and altitude of the runway touchdown (317ft)
+        The altitude of the airfield (392 ft) and altitude of the runway touchdown (317ft)
 
     === "2"
 
         A top-down picture of the approach (solid line), go-around (dotted line), dangerous airspace (red area), the airport layout and obstacles nearby.
 
-        A box in the top-left corner showing local holding waypoints (MOPAR) with speed limits (230 knots) and altitude limits (between FL070 and FL110).
+        A box in the top-left corner showing local holding waypoints (MOPAR) with speed limits (230 knots) and altitude limits (between FL070 and FL110).
 
     === "3"
 
-        The transition altitude (5000ft).
+        The transition altitude (5000 ft).
 
     === "4"
 
@@ -38,7 +38,7 @@
 
     === "7"
 
-        The ILS frequency (108.35), its identifier (DSU) and that it has a DME linked to it. <br> The magnetic variation of the area (0 degrees).
+        The ILS frequency (108.35), its identifier (DSU) and that it has a DME linked to it. <br> The magnetic variation of the area (0 degrees).
 
     === "8"
 
@@ -46,7 +46,7 @@
 
     === "9"
 
-        A side-on view of the approach, with starting altitude (4000ft), inbound course (265 degrees), slope of the glideslope (3.0) and distances to the runway for several points along the bottom.
+        A side-on view of the approach, with starting altitude (4000 ft), inbound course (265 degrees), slope of the glideslope (3.0) and distances to the runway for several points along the bottom.
 
     === "10"
 
@@ -59,7 +59,7 @@
 !!! info "NOTE"
     All approach charts, no matter the designer, will have this information provided to you as a bare minimum.
 
-    However, the layout may be significantly different, so a quick 5 minutes to look at the chart can make all the difference before starting an approach.
+    However, the layout may be significantly different, so a quick 5 minutes to look at the chart can make all the difference before starting an approach.
 
 ***
 
@@ -85,7 +85,7 @@
 
     === "5"
 
-        The location of the waypoint (NEGRA) defined by radio beacons (TRA & KLO), by the distance and direction from each of them (track 087 at 40.2 nautical miles/track 066 at 39.2 nautical miles).
+        The location of the waypoint (NEGRA) defined by radio beacons (TRA & KLO), by the distance and direction from each of them (track 087 at 40.2 nautical miles/track 066 at 39.2 nautical miles).
 
     === "6"
 
@@ -101,11 +101,11 @@
 
     === "9"
 
-        A box with ATC frequency information, the airport altitude (1416 feet) and the transition level and altitude (by ATC/7000ft).
+        A box with ATC frequency information, the airport altitude (1416 feet) and the transition level and altitude (by ATC/7000ft).
 
     === "10"
 
-        The minimum safe altitude (MSA), which below this you are in danger of hitting terrain. This is traditionally based on a 25 nautical mile ring around a VOR beacon (KLO), and different segments are split up by tracks into the beacon.
+        The minimum safe altitude (MSA), which below this you are in danger of hitting terrain. This is traditionally based on a 25 nautical mile ring around a VOR beacon (KLO), and different segments are split up by tracks into the beacon.
 
 ![chart2](../assets/flying-guide/chart-sample2.png)
 
@@ -169,7 +169,7 @@ To reduce the noise effects on local residents, some airports require the use of
 
 NADP1 requires you to climb to your thrust reduction altitude, but instead of accelerating at the same time, you hold the speed until you get to a higher acceleration altitude. This means that over the same distance, you will be higher than the normal procedure, also known as NADP2. And being higher over the buildings means you will generate less noise.
 
-Airports will describe in their airfield documents which departure you should be doing, but the standard method of NADP2 is probably in 80/90% of airports across the world. Common example airports with NADP1 are Paris LFPG, San Francisco KSFO on certain runways and Geneva LSGG.
+Airports will describe in their airfield documents which departure you should be doing, but the standard method of NADP2 is probably in 80/90 % of airports across the world. Common example airports with NADP1 are Paris LFPG, San Francisco KSFO on certain runways and Geneva LSGG.
 
 ![noiseabatement](../assets/flying-guide/NoiseAbatement-1.png)
 <sub> Credit - Shomas Pilot on Discord

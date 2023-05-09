@@ -40,13 +40,13 @@ The four knobs used in the FCU, SPD-MACH, HDG-TRK, ALT, V/S-FPA basically all ha
 - Turn:
     - Change the value for the selected mode.
 
-Note: In managed mode (lateral, vertical guidance or managed speed), the corresponding display is dashed. By changing the value without pulling the knob, the flight crew can pre-select a value before activating the selected mode. The display remains 45 seconds on the HDG/TRK and V/S windows and 10 seconds on the Speed/Mach window before the dashes reappear. This does not apply to the ALT selector knob/window.
+Note: In managed mode (lateral, vertical guidance or managed speed), the corresponding display is dashed. By changing the value without pulling the knob, the flight crew can pre-select a value before activating the selected mode. The display remains 45 seconds on the HDG/TRK and V/S windows and 10 seconds on the Speed/Mach window before the dashes reappear. This does not apply to the ALT selector knob/window.
 
 ## Usage
 
 ###  SPD/MACH knob
 
-The range of this value is from 100 to 399 knots, and between 0.1 and 0.99 for Mach.
+The range of this value is from 100 to 399 knots, and between 0.1 and 0.99 for Mach.
 
 ### SPD/MACH button
 
@@ -80,7 +80,7 @@ The flight crew uses these buttons to engage or disengage the autopilots. Lights
 
     Disengaging the AP triggers a warning illuminating the Master Warning light, displaying a message on the ECAM, and sounding an audio warning (called Cavalry Charge):
 
-    - If disengaged with the takeover pushbutton on the sidestick, the warnings are temporary (&#8924;3s Master Warning, &#8924;9s ECAM message "AP OFF" (red), &#8924;1.5s Cavalry Charge audio).
+    - If disengaged with the takeover pushbutton on the sidestick, the warnings are temporary (&#8924; 3 s Master Warning, &#8924; 9 s ECAM message "AP OFF" (red), &#8924; 1.5 s Cavalry Charge audio).
     - If disengaged by a failure, or by pushing the pushbutton on the FCU, or from a force on the sidestick, the visual, and audio warnings are continual (ECAM message "AUTO FLT AP OFF" in red).
 
     !!! info ""
@@ -95,7 +95,7 @@ The flight crew uses this button to arm, activate, or disconnect the Autothrust 
 
 ### Altitude selector knob (inner and outer)
 
-The range of this value is between 100 and 49,000 feet.
+The range of this value is between 100 and 49 000 feet.
 
 The outer knob switches the increment step-size for the inner know from 100 to 1000 and vice versa.
 
@@ -111,9 +111,9 @@ Used to show the FCU altitude target in meters on the ECAM, or the current altit
 
 ### V/S or FPA knob
 
-For V/S mode, the range of this value is from -6000 to +6000 feet/min
+For V/S mode, the range of this value is from - 6000 to + 6000 ft/min
 
-For FPA mode, the range of this value is from -9.9° to +9.9° descent/climb angle.
+For FPA mode, the range of this value is from - 9.9° to + 9.9° descent/climb angle.
 
 When pushed, an immediate level off is commanded (V/S of 0). The flight mode annunciator (FMA) then displays "V/S = O" in green.
 

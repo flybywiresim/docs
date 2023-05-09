@@ -65,9 +65,9 @@ High-Speed Protection is usually accompanied by the Overspeed Warnings:
 
 ### Protective Actions
 
-- Automatic AP disconnection (V~MO~ + 15 kt or M~MO~ + 0.04)
-- When V~MO~ + 6 kt or M~MO~ + 0.01 is reached, a positive load factor demand is automatically applied (pitch up action)
-- When full nose-down stick is maintained, speed is limited to around V~MO~ + 16 kt and M~MO~ + 0.04 (pilot nose-down authority is reduced)
+- Automatic AP disconnection (V~MO~ + 15 kt or M~MO~ + 0.04)
+- When V~MO~ + 6 kt or M~MO~ + 0.01 is reached, a positive load factor demand is automatically applied (pitch up action)
+- When full nose-down stick is maintained, speed is limited to around V~MO~ + 16 kt and M~MO~ + 0.04 (pilot nose-down authority is reduced)
 - When sidestick is released at HSP activation, the airplane will slightly overshoot V~MO~/M~MO~ and fly back towards the envelope.
 - When sidestick is released, the aircraft's bank angle will return to 0° (instead of 33° outside HSP)
 - Bank angle limit is reduced from 67° to 40°
@@ -94,8 +94,8 @@ The angle of attack is commonly called &alpha; (alpha) which we will use in the 
 
 The High Angle of Attack Protection is engaged when:
 
-- Current angle of attack is greater than &alpha;~prot~ (in Normal Law) when above 100ft RA
-- Below 100 ft RA during the landing, when &alpha;~max~ is reached
+- Current angle of attack is greater than &alpha;~prot~ (in Normal Law) when above 100 ft RA
+- Below 100  ft RA during the landing, when &alpha;~max~ is reached
 
 ### Indications and Warnings
 
@@ -132,11 +132,11 @@ The Alpha Floor Protection automatically sets TOGA thrust when a very high angle
 
 ### Engagement Conditions
 
-Alpha Floor Protection **engages** after lift-off until 100ft RA before landing, when:
+Alpha Floor Protection **engages** after lift-off until 100 ft RA before landing, when:
 
 - &alpha; is >&alpha;~floor~
     - 9.5° in CONFIG 0, 15° in CONFIG 1 and 2, 14° in CONFIG 3, 13° in CONFIG FULL
-- Sidestick deflection is >14° when either
+- Sidestick deflection is > 14° when either
     - [High Angle of Attack Protection](#high-angle-of-attack-protection) is active, or
     - the [Pitch Attitude Protection](#pitch-attitude-protection) for pitch is active.
 
@@ -144,7 +144,7 @@ Alpha Floor Protection **engages** after lift-off until 100ft RA before landing,
 
 Alpha Floor Protection is **inhibited**, when:
 
-- speed is above 0.6 Mach
+- speed is above 0.6 Mach
 - TCAS mode is engaged
 
 ### Indications and Warnings
@@ -170,15 +170,15 @@ Maneuvre Protection, also called Maneuvre Protection, enables immediate PF react
 
 The load factor limit is:
 
-- -1.0 to +2.5g load factor for clean configuration
-- 0 to +2.0g positive load factor for other configurations
+- - 1.0 to + 2.5 g load factor for clean configuration
+- 0 to + 2.0 g positive load factor for other configurations
 
 ### Indication and warnings
 
 !!! block ""
     ![G LOAD factor warning on ECAM](../../assets/advanced-guides/protections/gload-factor-ecam.png "G LOAD factor warning on ECAM"){loading=lazy align=left}
 
-    The lower ECAM displays the load factor (G LOAD) in amber, when the value is above 1.4g or below 0.7g for more than 2s.
+    The lower ECAM displays the load factor (G LOAD) in amber, when the value is above 1.4 g or below 0.7 g for more than 2 s.
 
 ## Pitch Attitude Protection
 
@@ -204,7 +204,7 @@ Pitch Attitude Protection supports high-speed protection, high load factor prote
     ![Attitude Limits on PFD](../../assets/advanced-guides/protections/attitude_limits_2.png "Attitude Limits on PFD"){loading=lazy align=right width=45%}
 
 - 1: Bank limit indicator at 67°
-- 2: Pitch down limit indicator at -15°
+- 2: Pitch down limit indicator at - 15°
 - 3: Pitch up limit indicator at 30°
 
 ## Bank Angle Protection
@@ -231,8 +231,8 @@ See [PFD Attitude Indicators](#pfd-attitude-indicators).
 
 Windshear Protection is available during take off and approach phases when:
 
-- at takeoff 3s after lift off up to 1.300ft RA
-- at landing from 1.300ft RA to 50ft RA
+- at takeoff 3 s after lift off up to 1300 ft RA
+- at landing from 1300 ft RA to 50 ft RA
 - as least CONF 1
 
 ### Indication and warnings
@@ -260,8 +260,8 @@ It is available in Configuration 2, 3, and FULL. The FAC computes the energy lev
 The aural alert is inhibited when:
 
 - TOGA is selected, or
-- Below 100ft RA, or
-- Above 2,000ft RA, or
+- Below 100 ft RA, or
+- Above 2000 ft RA, or
 - Alpha-floor, or
 - the ground proximity warning system alert is triggered, or
 - in alternate or direct law, or

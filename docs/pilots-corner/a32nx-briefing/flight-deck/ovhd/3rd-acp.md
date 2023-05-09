@@ -29,9 +29,9 @@
 - CALL:
     -  When the SELCAL system detects a call, the legend flashes amber (and buzzer sounds).
 - MECH:
-    - When called from the nose gear bay, the legend flashes amber (and buzzer sounds). If it is not reset, the MECH light goes off after 60 seconds.
+    - When called from the nose gear bay, the legend flashes amber (and buzzer sounds). If it is not reset, the MECH light goes off after 60 seconds.
 - ATT:
-    - When called by a cabin attendant, the legend flashes amber (and buzzer sounds). If it is not reset, the ATT light goes off after 60 seconds.
+    - When called by a cabin attendant, the legend flashes amber (and buzzer sounds). If it is not reset, the ATT light goes off after 60 seconds.
 
 ### Reception Knobs
 

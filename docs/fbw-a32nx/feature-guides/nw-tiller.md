@@ -54,7 +54,7 @@ Microsoft Flight Simulator introduced a separate nose wheel axis with the launch
 For compatibility, we currently have two settings available for use with our Nose Wheel Tiller implementation. Originally, we utilized an unused axis to map the movement of your desired controller. Please see the two options below:
 
 - `NOSE WHEEL STEERING AXIS` - <span style=color:green>**Recommended Setting**</span>
-- `MIXTURE 4 AXIS (-100% to 100%)` - <span style=color:orange>To be depreciated soon.</span>
+- `MIXTURE 4 AXIS (-100 % to 100 %)` - <span style=color:orange>To be depreciated soon.</span>
 
 #### How to Configure NOSE WHEEL STEERING AXIS
 
@@ -64,16 +64,16 @@ Find the following setting:
 
 Map `NOSE WHEEL STEERING AXIS` to the controller axis you want to use for the tiller. This needs to be different from the axis you use for the rudder.
 
-??? warning "How to configure MIXTURE 4 AXIS (-100% to 100%) - OLD"
+??? warning "How to configure MIXTURE 4 AXIS (-100 % to 100 %) - OLD"
 
     Please note, this configuration <span style=color:orange>will be depreciated soon.</span>
 
     ![MSFS Controller Options Mapping](../assets/nw-tiller/handwheel-controller-mapping.png "MSFS Controller Options Mapping"){loading=lazy}
 
-    Map `MIXTURE 4 AXIS (-100% to 100%)` to the controller axis you want to use for the tiller. It needs to be different from the axis you use for the rudder.
+    Map `MIXTURE 4 AXIS (-100 % to 100 %)` to the controller axis you want to use for the tiller. It needs to be different from the axis you use for the rudder.
 
     !!! bug "French Version of MSFS"
-        Unfortunately, MSFS does not show the `MIXTURE 4 AXIS (-100% to 100%)` axis in the French translation of Microsoft Flight Simulator. The axis should be called `AXE MÉLANGE 4 (-100 À 100%)`. To map the axis, you need to switch MSFS to the English language. After mapping (and testing) you can switch MSFS back to French.
+        Unfortunately, MSFS does not show the `MIXTURE 4 AXIS (-100 % to 100 %)` axis in the French translation of Microsoft Flight Simulator. The axis should be called `AXE MÉLANGE 4 (-100 À 100 %)`. To map the axis, you need to switch MSFS to the English language. After mapping (and testing) you can switch MSFS back to French.
 
 !!! tip "Example"
     If you have a twistable flight stick like the Thrustmaster TCA Sidestick Airbus Edition and you also have rudder pedals, you can map the rudder to your hardware pedals (as it should be) and the sidestick's twist axis for the tiller.

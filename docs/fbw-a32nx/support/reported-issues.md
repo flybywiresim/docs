@@ -13,7 +13,7 @@
 
     <img src="https://img.shields.io/github/v/release/flybywiresim/a32nx.svg?color=2F4E5B&style=flat" /> <img src="https://img.shields.io/badge/dynamic/json?color=00848A&label=Development&query=shortSha&url=https%3A%2F%2Fapi.flybywiresim.com%2Fapi%2Fv1%2Fgit-versions%2Fflybywiresim%2Fa32nx%2Fbranches%2Fmaster&style=flat" alt="Development Version" />
 
-    FBW Installer - [Download Here](https://api.flybywiresim.com/installer){target=new} / *Latest Sim Version: 1.31.22.0*
+    FBW Installer - [Download Here](https://api.flybywiresim.com/installer){target=new} / *Latest Sim Version: 1.32.7.0*
 
 !!! warning "Read our Support Guide"
 
@@ -111,7 +111,7 @@ The following list of issues are commonly reported on our Discord support channe
     
     Try these solutions:
 
-    - Wait at least 20-30min, as loading after an aircraft update can take a very long time because the sim compiles the so-called wasm files 
+    - Wait at least 20 - 30 min, as loading after an aircraft update can take a very long time because the sim compiles the so-called wasm files 
     - [Remove Old Marketplace Installation](#remove-old-marketplace-installation)
     - [Clean Install](#clean-install)
     - [Use the Latest Version of MS Flight Simulator](#use-the-latest-version-of-ms-flight-simulator)
@@ -370,7 +370,7 @@ The following list of issues are commonly reported on our Discord support channe
 
     ^^Description^^
 
-    Reports in the MSFS forums detail issues impacting FPS performance in the sim. Notably, this occurs during flights that are longer than 2 hours but is not contained to this metric. You may see your normal FPS drop to <10 FPS as a result of this issue.
+    Reports in the MSFS forums detail issues impacting FPS performance in the sim. Notably, this occurs during flights that are longer than 2 hours but is not contained to this metric. You may see your normal FPS drop to < 10 FPS as a result of this issue.
 
     ^^Additional Information^^
 
@@ -568,7 +568,7 @@ The following list of issues are commonly reported on our Discord support channe
 
     ^^Possible Solution or Workaround^^
 
-    Do not look around the cockpit for >1.5sec
+    Do not look around the cockpit for > 1.5 s
 
 ??? warning "Can't Start Engines When Using TCA Throttle"
     ### Can't Start Engines When Using TCA Throttle
@@ -868,7 +868,7 @@ Please try these before reporting any other issue on Discord.
     - Controls and select your yoke/joystick/controller.
     - After that, click the sensitivity button on the top left, which should take you to the menu where you can adjust your deadzones.
     
-    Start with 20% deadzone, if the problem persists, keep increasing it. If it's fine with 20% you can then slowly decrease it too.
+    Start with 20 % deadzone, if the problem persists, keep increasing it. If it's fine with 20 % you can then slowly decrease it too.
 
     ![Controller Deadzone](../assets/support-guide/controller-deadzone.png){loading=lazy}
 

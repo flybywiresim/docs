@@ -174,7 +174,7 @@ The FlyByWire A32NX has a built-in data collection system to help with developme
 
 The idea is taken from real aircraft and their flight data recorder and helps to analyze issues and performance of the simulated aircraft.
 
-These files are stored in your [work folder](#work-folder), and you will find the FDR files for the last 10 flights you did.
+These files are stored in your [work folder](#work-folder), and you will find the FDR files for the last 10 flights you did.
 
 You should recognize the correct one by the filename, which is the date and time of the flight. For a long flight, it might have been split into several files.
 

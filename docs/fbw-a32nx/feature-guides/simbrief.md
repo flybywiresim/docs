@@ -99,7 +99,7 @@ This will load your flight plan from SimBrief directly into the MCDU
     In addition, please note the following:
 
     - Per-waypoint entry and request of cruise winds is still being implemented.
-    - Wind Request functionality is not 100% accurate to the real aircraft.
+    - Wind Request functionality is not 100 % accurate to the real aircraft.
         - In real life, selecting the wind requests option on the climb page would populate the wind data for all stages of flight.
 
 ![Wind Request](../assets/feature-guides/simbrief/mcdu-wind1.png){loading=lazy}

@@ -47,25 +47,25 @@ Prompts on each PERF page:
 
 - THR RED (5L)
     - The thrust reduction altitude is the altitude at which the pilot should reduce the thrust from TOGA/FLX to MAX CLIMB (CL detent).
-    - The thrust reduction altitude defaults to 1,500 ft above the runway elevation, or to the altitude set by the airline.
+    - The thrust reduction altitude defaults to 1500 ft above the runway elevation, or to the altitude set by the airline.
         
     !!! tip 
         The default value can be changed in the EFB Aircraft Options settings page.
 
-    - The pilot can modify this altitude: The minimum is 400 ft above the runway elevation.
+    - The pilot can modify this altitude: The minimum is 400 ft above the runway elevation.
 
 - ACC (5L)
     - The acceleration altitude is the altitude at which the climb phase is activated and the target speed is changed to the initial climb speed.
-    - The default value is 1,500 ft above runway elevation.
+    - The default value is 1500 ft above runway elevation.
 
         !!! tip 
             The default value can be changed in the EFB Aircraft Options settings page.
   
-  - The flight crew can modify the value. The minimum value is 400 ft above runway elevation, though it is always higher than, or equal to, THR RED.
+  - The flight crew can modify the value. The minimum value is 400 ft above runway elevation, though it is always higher than, or equal to, THR RED.
     
     !!! note
         - A clearing action reverts both values to the default values.
-        - When the flight crew selects an altitude on the FCU that is below THR RED, it brings THR RED and ACC down to this altitude. (The 400 ft minimum still applies).
+        - When the flight crew selects an altitude on the FCU that is below THR RED, it brings THR RED and ACC down to this altitude. (The 400 ft minimum still applies).
 
 - UPLINK TO DATA (6L)
     - This key calls up the UPLINK TO DATA REQ page. It is only displayed in the preflight and done phases.
@@ -202,7 +202,7 @@ Prompts on each PERF page:
     - This field displays MAX (computed DES cabin rate, maximum descent cabin rate). 
     - The pilot may modify the value
         - The FM then recomputes the top of descent in order to match this value. 
-        - If the FM cannot match the pilot entry, the FM computed value overwrites the pilot entry. A clear action reverts to the default value (-350 ft/min). DES CAB RATE being a negative value, 'minus” is not a necessary entry.
+        - If the FM cannot match the pilot entry, the FM computed value overwrites the pilot entry. A clear action reverts to the default value (- 350 ft/min). DES CAB RATE being a negative value, 'minus” is not a necessary entry.
 
     !!! info ""
         Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
@@ -247,7 +247,7 @@ Prompts on each PERF page:
 - Blank or EXPEDITE (5L):
     - If the descent phase is not active, this field is blank.
     - Displays this legend if the descent phase is active.
-    - It indicates the time and distance required to reach the altitude displayed in the 2R field at MMO/VMO speed. The pilot cannot select the EXPEDITE mode through this field.
+    - It indicates the time and distance required to reach the altitude displayed in the 2R field at M~MO~/V~MO~ speed. The pilot cannot select the EXPEDITE mode through this field.
 
 - TIME/UTC DES EFOB (1M/1R)
     - Before takeoff: Displays the flight time to destination and the predicted remaining fuel on board. If an estimated takeoff time has been entered, the field displays automatically the predicted arrival time (UTC) at the destination.
@@ -294,25 +294,25 @@ Prompts on each PERF page:
 
         -Examples of how the system interprets input:
   
-        - 1003 as 1003 hPa;
-        - 29 as 29.00 in.
-        - 29.92 as 29.92 in.
+        - 1003 as 1003 hPa;
+        - 29 as 29.00 in.
+        - 29.92 as 29.92 in.
 
         !!! note 
-            An erroneous entry of an OAT in QNH field, e.g., 22 °C, is accepted by the system as a QNH.
+            An erroneous entry of an OAT in QNH field, e.g., 22 °C, is accepted by the system as a QNH.
     
     - Pilots can modify this entry at any time.
     - The Cabin Pressure Controller (CPC) uses QNH to compute the cabin pressurization. Therefore, a wrong QNH entry may result in an inappropriate cabin pressurization.
 
 - TEMP (2L):
     - Shows temperature at destination.
-    - \>180 NM from the destination:
+    - \> 180 NM from the destination:
         - Blue brackets are displayed
           
         !!! info ""
             Currently, shows amber boxes in this case in the FBW A32NX for Microsoft Flight Simulator.
   
-    - <180 NM:
+    - < 180 NM:
         - Amber box is displayed to signify a mandatory input required.
     - Used by the FMGS to refine computation of the descent profile (ISA model).
 
@@ -326,18 +326,18 @@ Prompts on each PERF page:
 
 - VAPP (5L)
     - Computed by FMGC, using the formula:
-        - VAPP = VLS + 1/3 of the headwind components (limited to VLS + 5 as a minimum and VLS + 15 as a maximum).
-        - The flight crew can modify VAPP.
-        - A clear action reverts VAPP to the computed value.
+        - V~APP~ = V~LS~ + 1/3 of the headwind components (limited to V~LS~ + 5 as a minimum and V~LS~ + 15 as a maximum).
+        - The flight crew can modify V~APP~.
+        - A clear action reverts V~APP~ to the computed value.
 
         !!! note 
-            VLS = 1.23 VS1G (Stall Speed) of the selected landing configuration (full or 3).
+            V~LS~ = 1.23 V~S1G~ (Stall Speed) of the selected landing configuration (full or 3) but not less than V~MCL~.
 
 - FINAL (1M)
     - Approach specified in the flight plan.
     - Can't be modified here.
 
-- O, S, F, VLS Speeds (2M, 3M, 4M)
+- O, S, F, V~LS~ Speeds (2M, 3M, 4M)
     - See [Speeds](../../abbreviations.md#additional-speeds) and [V-Speeds](../../abbreviations.md#v-speeds) for more information.
 
 - BARO (2R):
@@ -351,7 +351,7 @@ Prompts on each PERF page:
     - Pilots enter decision height for CAT II or CAT III approaches.
     - The system will accept an entry of “NO", "NODH" or "NO DH".
     - If a BARO value is entered in (2R), this field is cleared.
-    - The RADIO range is 0 to 700 ft.
+    - The RADIO range is 0 to 700 ft.
 
 - LDG CONF CONF3 (4R):
     - Pressed to configure a flaps 3 approach.
@@ -369,12 +369,12 @@ Prompts on each PERF page:
     - Thrust reduction altitude:
         - Altitude at which thrust must be reduced from takeoff/go-around thrust to maximum climb thrust.
         - “CLB” or “LVR CLB” flashing on flight mode annunciator
-        - Defaults to 1,500 ft above destination runway elevation, or to the altitude set by the airline.
+        - Defaults to 1500 ft above destination runway elevation, or to the altitude set by the airline.
         - Can be modified by the pilots
-        - Minimum 400 ft above destination runway elevation.
+        - Minimum 400 ft above destination runway elevation.
     - Acceleration altitude:
         - Altitude at which target speed jumps to green-dot speed (see the note below)
-        - Defaults to 1,500 ft above destination runway elevation, or to the altitude set by the airline.
+        - Defaults to 1500 ft above destination runway elevation, or to the altitude set by the airline.
         - Can be modified by the pilots
         - Always equal to (or higher than) the thrust reduction altitude.
 

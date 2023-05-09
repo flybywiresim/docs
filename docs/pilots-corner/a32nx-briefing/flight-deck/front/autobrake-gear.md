@@ -52,7 +52,7 @@ Lights up if the landing gear is not locked down when the aircraft is in the lan
 
 The anti-skid system is the aircraft's equivalent to a modern car's ABS. It produces maximum braking efficiency by maintaining the wheels just short of an impending skid by releasing brake forces when on the verge of locking. ECAM displays the released brakes in this case.
 
-The anti-skid is deactivated when ground speed is less than 20 knots.
+The anti-skid is deactivated when ground speed is less than 20 knots.
 
 - ON:
     - Available green hydraulic system pressure, then Anti-skid and Nose Wheel Steering is available.
@@ -78,13 +78,13 @@ It has 4 settings: OFF, LO, MED and MAX.
     - Can only be activated for takeoff and not while airborne.
 - MED
     - Usually selected for landing on a shorter, wet or contaminated runway.
-    - Sends progressive pressure to the brakes 2 seconds after the ground spoilers deploy in order to decelerate the aircraft at 3 meters/second^2^ (9.8 feet/second^2^).
+    - Sends progressive pressure to the brakes 2 seconds after the ground spoilers deploy in order to decelerate the aircraft at 3 meters/second^2^ (9.8 feet/second^2^).
 - LO
     - Usually selected for landing on a normal-length, dry and uncontaminated runway.
-    - Sends progressive pressure to the brakes 2 seconds after the ground spoilers deploy. Decelerates the aircraft at 2 meters/second^2^ (6.6 feet/second^2^ ).
+    - Sends progressive pressure to the brakes 2 seconds after the ground spoilers deploy. Decelerates the aircraft at 2 meters/second^2^ (6.6 feet/second^2^).
 - Lights
     - Blue ON light indicates positive arming.
-    - Green DECEL light indicates deceleration is 80% of the selected rate.
+    - Green DECEL light indicates deceleration is 80 % of the selected rate.
     - Note: DECEL light will not illuminate if the predetermined deceleration is not reached due to antiskid operation on a contaminated (slippery) runway. This does not mean that autobrake is not working.
 - Off:
     - Not active.
