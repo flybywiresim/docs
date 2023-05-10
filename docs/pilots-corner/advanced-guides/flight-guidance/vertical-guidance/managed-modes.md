@@ -29,7 +29,7 @@ The SRS guidance law also includes:
 
 ## CLB (Climb)
 
-!!! warning "Managed CLB or DES (VNAV) is currently only available in the Experimental version."
+!!! warning "Managed CLB or DES (VNAV) is currently only available in the Development & Experimental versions."
 
 CLB mode guides the aircraft in a managed climb, at either a managed or a selected target speed, to an FCU selected altitude, considering altitude constraints at waypoints. The system also considers speed constraints if the target speed is managed.
 
@@ -88,7 +88,7 @@ When ALT is engaged, the FMA displays ALT in green (FCU altitude hold), ALT CST 
 
 ## DES (Descent)
 
-!!! warning "Managed CLB or DES (VNAV) is currently only available in the Experimental version."
+!!! warning "Managed CLB or DES (VNAV) is currently only available in the Development & Experimental versions."
 
 The managed descent mode guides the aircraft along the FMS computed vertical flight path. The DES mode is preferred when conditions permit, since it ensures the management of altitude constraints and reduces the operating cost when flying at ECON DES speed.
 
