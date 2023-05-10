@@ -250,7 +250,9 @@ A few minutes before we reach our calculated descent point (TOD) we request clea
 **Do NOT start the decent without clearance from ATC.**
 
 !!! info "TOD marker A320"
-    The FlyByWire A32NX has not implemented the TOD (top of descent) marker on the `ND` yet. Usually, the A320 has a downward pointing arrow at the TOD to support the pilot with the decision when to descent. Ultimately, it is still the pilot's responsibility to calculate and validate the TOD.
+    The A320 has a downward pointing arrow at the TOD to support the pilot with the decision of when to descend. Ultimately, it is still the pilot's responsibility to calculate and validate the TOD.
+
+    The Development and Experimental version of the FlyByWire A32NX has implemented the TOD (top of descent) marker on the `ND` yet. 
 
 When clearance is given, we can start our descent to the flight level or altitude ATC has given us.
 
@@ -275,7 +277,8 @@ Also, ATC will often still expect us to respect the STAR's constraints, although
 !!! info "VNAV in the FlyByWire A32NX"
     The scenario that we are cleared to a lower altitude or flight level with altitude constraints above the clearance is an ideal scenario for the called so "VNAV" autopilot mode, which would be activated by using "`Managed Altitude Mode`" (pushing the `ALT selector`). The autopilot will automatically level off at the constraint and continue descending when the constraint is no longer valid.
 
-    Unfortunately, the current version of the FlyByWire A32NX does not yet support VNAV. This is planned to be implemented in one of the next versions.
+    !!! warning ""
+        VNAV is currently only supported in our Development and Experimental versions of the A32NX.
 
 We repeat the process until we have reached our desired final approach altitude.
 
