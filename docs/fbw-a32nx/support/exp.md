@@ -53,33 +53,13 @@ The following are features in testing that require the use of SimBridge:
 
 Note: This may not be the final iteration of this feature, nor how it operates. The option to toggle top of descent in the EFB settings may be changed or moved into its own dedicated flyPad page or section in the future.
 
-### Vertical Guidance
-
-- Speed and altitude predictions in the flight plan page, including magenta or amber asterisks.
-- Reworked fuel burn and time predictions in the flight plan page (no flight plan B page).
-- Pseudowaypoints in the flight plan (SPD/LIM, T/C, T/D, S/C, S/D, DECEL).
-- Display of pseudowaypoints on the ND (T/C, T/D, predicted speed changes, etc.)
-- Partial implementation of step climbs/descent.
-- Linear deviation indication during the descent.
-- Following of speed and altitude constraints in the climb phase (credits to tracernz).
-- Partial implementation of descent guidance.
-- Ability to enter winds for climb, cruise, and descent.
-
-#### Vertical Guidance Planned Implementations
-
-These features are not yet available, but will be implemented at a later time.
-
-- Time constraints, RTA
-- Flight plan B
-- Constant Mach segments
-- Vertical guidance for RNAV approaches
-
 ---
 
 ## Released Into Development Version
 
 Features in testing that have been released into Development but not Stable will be listed here. This list will be pruned with every Stable release.
 
+- VNAV version 1
 - flyPad OS 3
 - GSX Integration
 - Simbridge
