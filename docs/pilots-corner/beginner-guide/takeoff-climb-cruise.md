@@ -209,7 +209,7 @@ Shortly before we start our takeoff roll, we do the following steps:
 
 1. Release parking brake and hold down manual brakes.
 
-- Apply thrust slowly to about 50 % thrust until both engines are stabilized (N1 stays constant at around 50 %) while still holding the brakes.
+- Apply thrust slowly to about 50 % N1 until both engines are stabilized (N1 stays constant at around 50 %) while still holding the brakes.
 
 - Push sidestick forward half the way to put pressure on the front gear<br/>
 
