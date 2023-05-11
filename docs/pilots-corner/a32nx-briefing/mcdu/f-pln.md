@@ -46,7 +46,7 @@ Constraints can also be manually added by the flight crew (except at origin, des
 
 Constraints are displayed in magenta, as long as predictions are not completed.
 
-Once predictions are calculated, constraints are replaced by speed and altitude predictions, preceded by stars. If the STAR is magenta, the system predicts that the aircraft will match the constraint (altitude within 250 ft, speed not more than 10 kt above the constraints). If the star is amber, the system predicts that the aircraft will miss the constraint and the MCDU displays: “SPD ERROR AT WPT”.
+Once predictions are calculated, constraints are replaced by speed and altitude predictions, preceded by asterisks. If the asterisk is magenta, the system predicts that the aircraft will match the constraint (altitude within 250 ft, speed not more than 10 kt above the constraints). If the asterisk is amber, the system predicts that the aircraft will miss the constraint and the MCDU displays: “SPD ERROR AT WPT”.
 
 !!! note
     SPD and ALT CSTR may either be entered on the VERT REV page or directly on the F-PLN A page, whereas TIME CSTR may only be entered from the RTA page.
