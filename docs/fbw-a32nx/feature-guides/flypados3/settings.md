@@ -201,7 +201,7 @@ Settings for realism aspects of the A32NX aircraft.
 - Pause At TOD (Top of Descent)
     - Pause at TOD can be configured by distance between 0-50 NM before TOD
     - When enabled, your aircraft will pause at the specified distance before TOD
-    - If the TOD point shifts before your present position, or AP mode reverts in CRZ, it will pause the simulation.
+    - If the TOD point shifts before your present position, or AP mode reverts to CRZ, it will pause the simulation.
 
     !!! block ""
         ![img_3.png](../../assets/flypados3/flypad-settings-realism-avatars.png){loading=lazy align=center width=49%}
