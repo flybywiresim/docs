@@ -291,7 +291,7 @@ Click on "Save & Apply".
 
         Throttle Calibration Page:
 
-        ![EFB-Calibration-Page](../../assets/flypados3/throttle-calibration/flypad-calibration-page.jpg "EFB-Calibration-Page"){loading=lazy}
+        ![EFB-Calibration-Page](../../assets/flypados3/throttle-calibration/flypad-calibration-page.png "EFB-Calibration-Page"){loading=lazy}
 
     - Set **`Reverser on Axis`**  to ON (see **1** in image).
 
@@ -317,7 +317,7 @@ Click on "Save & Apply".
     - Click on **Reverse Idle** in the middle **(3)**
     - Click on **Set From Throttle** for Axis 1 **(6)** and Axis 2 **(7)**.
 
-        ![EFB-Reverse-Idle](../../assets/flypados3/throttle-calibration/EFB-Reverse-Idle.jpg "EFB-Reverse-Idle"){loading=lazy}
+        ![EFB-Reverse-Idle](../../assets/flypados3/throttle-calibration/efb-reverse-idle.png "EFB-Reverse-Idle"){loading=lazy}
 
         !!! info ""
             Notice how the blue bar (current throttle position) is between two green lines. These green lines are your deadband range for the detent. As long as the blue bar is between them, the throttle reads this as the corresponding detent (in this case, **Reverse Idle**). If you move the throttle outside these green bars, they become gray as you now no longer are in the corresponding detent.
@@ -332,7 +332,7 @@ Click on "Save & Apply".
     - Click on **Idle** in the middle **(3)**.
     - Click on **Set From Throttle** for Axis 1 **(6)** and Axis 2 **(7)**.
 
-        ![EFB-Idle](../../assets/flypados3/throttle-calibration/EFB-Idle.jpg "EFB-Idle"){loading=lazy}
+        ![EFB-Idle](../../assets/flypados3/throttle-calibration/efb-idle.png "EFB-Idle"){loading=lazy}
 
     #### CLB
 
@@ -340,7 +340,7 @@ Click on "Save & Apply".
     - Click on **CLB** in the middle **(3)**.
     - Click on **Set From Throttle** for Axis 1 **(6)** and Axis 2 **(7)**.
 
-        ![EFB-climb](../../assets/flypados3/throttle-calibration/EFB-climb.jpg "EFB-climb"){loading=lazy}
+        ![EFB-climb](../../assets/flypados3/throttle-calibration/efb-climb.png "EFB-climb"){loading=lazy}
 
     #### FLX/MCT
 
@@ -348,7 +348,7 @@ Click on "Save & Apply".
     - Click on **FLX** in the middle **(3)**.
     - Click on **Set From Throttle** for Axis 1 **(6)** and Axis 2 **(7)**.
 
-        ![EFB-flex](../../assets/flypados3/throttle-calibration/EFB-flex.jpg "EFB-flex"){loading=lazy}
+        ![EFB-flex](../../assets/flypados3/throttle-calibration/efb-flex.png "EFB-flex"){loading=lazy}
 
     #### TOGA
 
@@ -356,7 +356,7 @@ Click on "Save & Apply".
     - Click on **TOGA** in the middle **(3)**
     - Click on **Set From Throttle** for Axis 1 **(6)** and Axis 2 **(7)**.
 
-        ![EFB-toga](../../assets/flypados3/throttle-calibration/EFB-toga.jpg "EFB-toga"){loading=lazy}
+        ![EFB-toga](../../assets/flypados3/throttle-calibration/efb-toga.png "EFB-toga"){loading=lazy}
 
     - Click on "SAVE AND APPLY" **(8)**
 
