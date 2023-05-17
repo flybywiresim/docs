@@ -707,6 +707,7 @@
 | IRS            | **I**nertial **R**eference **S**ystem                                       |
 | IRU            | **I**nertial **R**eference **U**nit                                         |
 | ISA            | **I**nertial **S**ensor **A**ssembly                                        |
+| ISA            | **I**nternational **S**tandard **A**tmosphere                               |
 | ISO            | **I**nternational **S**tandardization **O**rganization                      |
 | ISOL           | **INSOL**ation                                                              |
 | IV             | **I**solation **V**alve                                                     |
