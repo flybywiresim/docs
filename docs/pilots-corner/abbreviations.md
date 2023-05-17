@@ -707,6 +707,7 @@
 | IRS            | **I**nertial **R**eference **S**ystem                                       |
 | IRU            | **I**nertial **R**eference **U**nit                                         |
 | ISA            | **I**nertial **S**ensor **A**ssembly                                        |
+| ISA            | **I**nternational **S**tandard **A**tmosphere                               |
 | ISO            | **I**nternational **S**tandardization **O**rganization                      |
 | ISOL           | **INSOL**ation                                                              |
 | IV             | **I**solation **V**alve                                                     |
@@ -1112,121 +1113,121 @@
 | TO             | **T**ake-**O**ff                                                            |
 | TO/APPR        | **T**ake-**O**ff/**APPR**oach                                               |
 | TOD            | **T**ake-**O**ff **D**istance                                               |
-| TOD            | **T**op **O**f **D**escent
-| TODA           | **T**ake-**O**ff **D**istance **A**vailable                             |
-| TOGA           | **T**ake-**O**ff/**G**o **A**round                                      |
-| TOGW           | **T**ake-**O**ff **G**ross **W**eight                                   |
-| TOR            | **T**ake-**O**ff **R**un                                            |
-| TORA           | **T**ake-**O**ff **R**un **A**vailable                                  |
-| TOT            | **TOT**al                                                  |
-| TOW            | **T**ake-**O**ff **W**eight                                         |
-| TOW            | **TOW**ing                                                 |
-| TR             | **T**hrust **R**everser                                        |
-| TRANS          | **TRANS**ition                                             |
-| TRANSF         | **TRANF**er                                               |
-| TRC            | **T**hrust **R**ating **C**omputer                                 |
-| TRGT           | **T**a**RG**e**T**                                                 |
-| TRIG           | **TRIG**ger                                                |
-| TRK            | **TR**ac**K**                                                  |
-| TRK            | **TR**ac**K** (angle)                                          |
-| TROPO          | **TROPO**pause                                             |
-| TRT            | **T**urn **R**ound **T**ime                                        |
-| TRU            | **TRU**e                                                   |
-| TST            | **T**e**ST**                                                   |
-| TT             | **T**otal **T**ime                                             |
-| TURB           | **TURB**ine                                                |
-| TWR            | **T**o**W**e**R**                                                  |
-| TWY            | **T**axi**W**a**Y**                                                |
-| TX             | **T**ransmission (TCAS to Transponder)                     |
-| TYP            | **TYP**ical                                                |
-| UD             | **U**pper **D**eck                                             |
-| UHF            | **U**ltra **H**igh **F**requency                                   |
-| UTC            | **U**niversal **T**ime **C**oordinated                             |
-| V              | **V**alve                                                  |
-| V              | **V**olt, **V**oltage                                          |
-| V/L            | **V**or/**L**OC                                                |
-| V/L            | **V**or/**L**ocalizer                                          |
-| V/S            | **V**ertical **S**peed                                         |
-| VACU           | **VACU**um                                                 |
-| VAR            | **VAR**iable, **VAR**iation                                    |
-| VCTREND        | airspeed tendency                                      |
-| VDF            | **V**ery high-frequency **D**irection **F**inding station          |
-| VDR            | **V**hf **D**ata **R**adio                                         |
-| VEL            | **VEL**ocity                                               |
-| VERT           | **VERT**ical                                               |
-| VFR            | **V**isual **F**light **R**ules                                    |
-| VHF            | **V**ery **H**igh **F**requency                                    |
-| VHV            | **V**ery **H**igh **V**oltage                                      |
-| VIB            | **VIB**ration                                              |
-| VLF            | **V**ery **L**ow **F**requency                                     |
-| VMO            | **M**aximum **O**perating speed (**V**)                                |
-| VOL            | **VOL**ume                                                 |
-| VOR            | **V**ery high-frequency **O**mni**R**ange station                  |
-| VOR.D          | **VOR-D**me                                                |
-| VORTAC         | **V**isual **O**mni-**R**ange **T**actical **A**ir **N**avigation              |
-| VSI            | **V**ertical **S**peed **I**ndicator                               |
-| VSW            | **S**tall **W**arning speed (**V**)                                    |
-| W              | **W**att                                                   |
-| W              | **W**eight                                                 |
-| W              | **W**est                                                   |
-| W/V            | **W**ind direction and speed (**V**)                              |
-| WAI            | **W**ing **A**nti-**I**ce                                          |
-| WARN           | **WARN**ing                                                |
-| WB             | **W**ide **B**ody                                              |
-| WD             | **W**arning **D**isplay                                        |
-| WDO            | **W**in**DO**w                                                 |
-| WG             | **W**in**G**                                                   |
-| WHL            | **WH**ee**L**                                                  |
-| WR             | **W**eather **R**adar                                          |
-| WS             | **W**ind **S**peed                                             |
-| WT             | **W**eigh**T**                                                 |
-| WX             | **W**eather mode (ND)                                      |
-| WXR            | **W**eather **R**adar                                          |
-| X              | cross                                                  |
-| X              | crans crossbleed                                       |
-| X BLEED X FEED | crossfeed                                              |
-| X LINE         | crossline                                              |
-| X VALVE        | cross Valve                                            |
-| X-TALK         | cross-talk                                             |
-| XCHECK         | crosscheck                                             |
-| XFR            | transfer                                               |
-| XING           | crossing                                               |
-| XPDR           | transponder                                            |
-| XPNDR          | transponder                                            |
-| XWIND          | crosswind                                              |
-| Y              | **Y**ellow                                                 |
-| Y/C            | econom**Y C**lass                                          |
-| YCR            | econom**Y** **C**lass-**R**ear                                     |
-| YE             | **YE**ar                                                   |
-| Z              | greenwich mean time                                    |
-| ZC             | **Z**one **C**ontroller                                        |
-| ZFCG           | **Z**ero **F**uel **C**enter of **G**ravity                            |
-| ZFW            | **Z**ero **F**uel **W**eight                                       |
-| Zp             | **P**ressure altitude                                      |
-| Zpi            | **I**ndicated **P**ressure altitude                            |
-| dB             | **D**eci**B**el                                                |
-| dB(A)          | **A**-weighted **D**eci**B**el                                     |
-| ft             | **F**ee**T**, **F**oo**T**                                             |
-| ft/mn          | **F**ee**T** per **M**i**N**ute                                        |
-| g              | **G**ram                                                   |
-| h              | **H**eight                                                 |
-| h              | **H**our                                                   |
-| in             | **IN**ch                                                   |
-| kPa            | **K**ilo **PA**scal                                            |
-| kW             | **K**ilo**W**att                                               |
-| kg             | **K**ilo**G**ram                                               |
-| kg/m³          | **K**ilo**G**rams/cubic **M**eter                                  |
-| lb             | pound                                                  |
-| lbf/in²        | pounds force per square inch                           |
-| m              | **M**eter                                                  |
-| mbar           | **M**illi**BAR**                                               |
-| mile/h         | **MILE**s per **H**our                                         |
-| min            | **MIN**ute                                                 |
-| ml             | **M**illi**L**iter                                             |
-| mm             | **M**illi**M**eter                                             |
-| n              | load factor                                            |
-| phi            | bank angle                                             |
-| phi N          | **N**ominal bank angle                                     |
-| r/min          | **R**evolutions per **MIN**ute                                 |
-| s              | **S**econd                                                 |
-| t              | **T**onne                                                  |
+| TOD            | **T**op **O**f **D**escent                                                  |
+| TODA           | **T**ake-**O**ff **D**istance **A**vailable                                 |
+| TOGA           | **T**ake-**O**ff/**G**o **A**round                                          |
+| TOGW           | **T**ake-**O**ff **G**ross **W**eight                                       |
+| TOR            | **T**ake-**O**ff **R**un                                                    |
+| TORA           | **T**ake-**O**ff **R**un **A**vailable                                      |
+| TOT            | **TOT**al                                                                   |
+| TOW            | **T**ake-**O**ff **W**eight                                                 |
+| TOW            | **TOW**ing                                                                  |
+| TR             | **T**hrust **R**everser                                                     |
+| TRANS          | **TRANS**ition                                                              |
+| TRANSF         | **TRANF**er                                                                 |
+| TRC            | **T**hrust **R**ating **C**omputer                                          |
+| TRGT           | **T**a**RG**e**T**                                                          |
+| TRIG           | **TRIG**ger                                                                 |
+| TRK            | **TR**ac**K**                                                               |
+| TRK            | **TR**ac**K** (angle)                                                       |
+| TROPO          | **TROPO**pause                                                              |
+| TRT            | **T**urn **R**ound **T**ime                                                 |
+| TRU            | **TRU**e                                                                    |
+| TST            | **T**e**ST**                                                                |
+| TT             | **T**otal **T**ime                                                          |
+| TURB           | **TURB**ine                                                                 |
+| TWR            | **T**o**W**e**R**                                                           |
+| TWY            | **T**axi**W**a**Y**                                                         |
+| TX             | **T**ransmission (TCAS to Transponder)                                      |
+| TYP            | **TYP**ical                                                                 |
+| UD             | **U**pper **D**eck                                                          |
+| UHF            | **U**ltra **H**igh **F**requency                                            |
+| UTC            | **U**niversal **T**ime **C**oordinated                                      |
+| V              | **V**alve                                                                   |
+| V              | **V**olt, **V**oltage                                                       |
+| V/L            | **V**or/**L**OC                                                             |
+| V/L            | **V**or/**L**ocalizer                                                       |
+| V/S            | **V**ertical **S**peed                                                      |
+| VACU           | **VACU**um                                                                  |
+| VAR            | **VAR**iable, **VAR**iation                                                 |
+| VCTREND        | airspeed tendency                                                           |
+| VDF            | **V**ery high-frequency **D**irection **F**inding station                   |
+| VDR            | **V**hf **D**ata **R**adio                                                  |
+| VEL            | **VEL**ocity                                                                |
+| VERT           | **VERT**ical                                                                |
+| VFR            | **V**isual **F**light **R**ules                                             |
+| VHF            | **V**ery **H**igh **F**requency                                             |
+| VHV            | **V**ery **H**igh **V**oltage                                               |
+| VIB            | **VIB**ration                                                               |
+| VLF            | **V**ery **L**ow **F**requency                                              |
+| VMO            | **M**aximum **O**perating speed (**V**)                                     |
+| VOL            | **VOL**ume                                                                  |
+| VOR            | **V**ery high-frequency **O**mni**R**ange station                           |
+| VOR.D          | **VOR-D**me                                                                 |
+| VORTAC         | **V**isual **O**mni-**R**ange **T**actical **A**ir **N**avigation           |
+| VSI            | **V**ertical **S**peed **I**ndicator                                        |
+| VSW            | **S**tall **W**arning speed (**V**)                                         |
+| W              | **W**att                                                                    |
+| W              | **W**eight                                                                  |
+| W              | **W**est                                                                    |
+| W/V            | **W**ind direction and speed (**V**)                                        |
+| WAI            | **W**ing **A**nti-**I**ce                                                   |
+| WARN           | **WARN**ing                                                                 |
+| WB             | **W**ide **B**ody                                                           |
+| WD             | **W**arning **D**isplay                                                     |
+| WDO            | **W**in**DO**w                                                              |
+| WG             | **W**in**G**                                                                |
+| WHL            | **WH**ee**L**                                                               |
+| WR             | **W**eather **R**adar                                                       |
+| WS             | **W**ind **S**peed                                                          |
+| WT             | **W**eigh**T**                                                              |
+| WX             | **W**eather mode (ND)                                                       |
+| WXR            | **W**eather **R**adar                                                       |
+| X              | cross                                                                       |
+| X              | crans crossbleed                                                            |
+| X BLEED X FEED | crossfeed                                                                   |
+| X LINE         | crossline                                                                   |
+| X VALVE        | cross Valve                                                                 |
+| X-TALK         | cross-talk                                                                  |
+| XCHECK         | crosscheck                                                                  |
+| XFR            | transfer                                                                    |
+| XING           | crossing                                                                    |
+| XPDR           | transponder                                                                 |
+| XPNDR          | transponder                                                                 |
+| XWIND          | crosswind                                                                   |
+| Y              | **Y**ellow                                                                  |
+| Y/C            | econom**Y C**lass                                                           |
+| YCR            | econom**Y** **C**lass-**R**ear                                              |
+| YE             | **YE**ar                                                                    |
+| Z              | greenwich mean time                                                         |
+| ZC             | **Z**one **C**ontroller                                                     |
+| ZFCG           | **Z**ero **F**uel **C**enter of **G**ravity                                 |
+| ZFW            | **Z**ero **F**uel **W**eight                                                |
+| Zp             | **P**ressure altitude                                                       |
+| Zpi            | **I**ndicated **P**ressure altitude                                         |
+| dB             | **D**eci**B**el                                                             |
+| dB(A)          | **A**-weighted **D**eci**B**el                                              |
+| ft             | **F**ee**T**, **F**oo**T**                                                  |
+| ft/mn          | **F**ee**T** per **M**i**N**ute                                             |
+| g              | **G**ram                                                                    |
+| h              | **H**eight                                                                  |
+| h              | **H**our                                                                    |
+| in             | **IN**ch                                                                    |
+| kPa            | **K**ilo **PA**scal                                                         |
+| kW             | **K**ilo**W**att                                                            |
+| kg             | **K**ilo**G**ram                                                            |
+| kg/m³          | **K**ilo**G**rams/cubic **M**eter                                           |
+| lb             | pound                                                                       |
+| lbf/in²        | pounds force per square inch                                                |
+| m              | **M**eter                                                                   |
+| mbar           | **M**illi**BAR**                                                            |
+| mile/h         | **MILE**s per **H**our                                                      |
+| min            | **MIN**ute                                                                  |
+| ml             | **M**illi**L**iter                                                          |
+| mm             | **M**illi**M**eter                                                          |
+| n              | load factor                                                                 |
+| phi            | bank angle                                                                  |
+| phi N          | **N**ominal bank angle                                                      |
+| r/min          | **R**evolutions per **MIN**ute                                              |
+| s              | **S**econd                                                                  |
+| t              | **T**onne                                                                   |
