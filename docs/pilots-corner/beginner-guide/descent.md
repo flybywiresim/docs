@@ -252,13 +252,13 @@ A few minutes before we reach our calculated descent point (TOD) we request clea
 !!! info "TOD marker A320"
     The A320 has a downward pointing arrow at the TOD to support the pilot with the decision of when to descend. Ultimately, it is still the pilot's responsibility to calculate and validate the TOD.
 
-    The Development and Experimental version of the FlyByWire A32NX has implemented the TOD (top of descent) marker on the `ND` yet. 
+    The TOD (top of descent) marker on the `ND` is available in the Development and Experimental version. 
 
 When clearance is given, we can start our descent to the flight level or altitude ATC has given us.
 
 For descending, we set the new flight level or altitude in the `FCU` with the `altitude selector`. We can then either PUSH the selector for `Managed Altitude Mode` (constraints are respected, also known as [DES](../advanced-guides/flight-guidance/vertical-guidance/managed-modes.md#des-descent)) or PULL the selector for `Selected Altitude Mode` (constraints are ignored, also known as [OP DES](../advanced-guides/flight-guidance/vertical-guidance/selected-modes.md#op-des-open-descent)). 
 !!! warning "DES mode"
-    Managed Descent (DES) Mode will follow a calculated vertical profile, this may lead to unexpected occurrences of very high and very low V/S. Users not familiar with Airbus VNAV should use OP DES instead as it provides a linear descent most users would expect. See the [VNAV Guide](../advanced-guides/flight-guidance/vertical-guidance/overview.md) for more information on using managed vertical modes.
+    Managed Descent (DES) Mode will follow a calculated vertical profile, this may lead to unexpected occurrences of very high and very low V/S. Users not familiar with Airbus Managed Descent should use OP DES instead as it provides a linear descent most users would expect. See the [Vertical Guidance Guide](../advanced-guides/flight-guidance/vertical-guidance/overview.md) for more information on using managed vertical modes.
 
 When either of these altitude modes are engaged, the relevant mode will appear in the Second Column of the `FMA`, and will be displayed in green. (See [Vertical Mode Annunciations](../a32nx-briefing/pfd/second-column.md)).
 
