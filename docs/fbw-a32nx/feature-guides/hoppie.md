@@ -160,7 +160,7 @@ If the responsible ATC sector provides CPDLC, a Notification is required. This N
 
 {==
 
-Before a Notification request is sent, a check-in via voice mandatory, otherwise will the request be rejected.
+Before a Notification request is sent, a check-in via voice is mandatory, otherwise the request will be rejected.
 
 ==}
 
