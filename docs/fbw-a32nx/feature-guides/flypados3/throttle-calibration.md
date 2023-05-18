@@ -398,7 +398,7 @@ Click on "Save & Apply".
 
     - As described above, we go through all detents and set the values accordingly with `Set From Throttle`. The easiest way to do that is by having the flyPad in a separate window next to the throttle, as in the screenshot below.
 
-        ![Flypad-next-to-Throttle](../../assets/flypados3/throttle-calibration/Flypad-next-to-Throttle.jpg "Flypad-next-to-Throttle"){loading=lazy}
+        ![Flypad-next-to-Throttle](../../assets/flypados3/throttle-calibration/flypad-next-to-throttle.png "Flypad-next-to-Throttle"){loading=lazy}
 
     - For the detents CL, FLX and TO GA you can increase the dead zone to make it easier to move your throttle into the detents.
 
