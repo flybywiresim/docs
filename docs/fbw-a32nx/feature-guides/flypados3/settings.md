@@ -299,8 +299,8 @@ Settings for integration with various data and information sources.
 
 Before you can use the A32NX simBrief Integration, you need to provide your simBrief account details.
 
-!!! tip "Found in Settings -> ATSU/AOC"
-    If you have arrived at this section from the [SimBrief Integration](../simbrief.md) page, please make note this setting is found on the EFB.
+!!! tip "Locating the SimBrief EFB Settings"
+    If you have arrived at this section from the [SimBrief Integration](../simbrief.md) page, please make note this setting is found on the EFB, under Settings -> ATSU/AOC.
 
 - SimBrief Pilot ID:
     - Enter your SimBrief Pilot ID.
