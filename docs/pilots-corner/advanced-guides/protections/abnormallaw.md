@@ -45,6 +45,7 @@ Following failures will lead to the activation of [Alternate Law without protect
     Loss of all protections on final approach should be anticipated, and the flight crew should prepare to take over pitch trimming for landing.  
 
 Following failures will lead to the activation of [Direct Law](#direct-law)
+
 - Failure of all three IRs
 
 #### Special Failure Conditions
