@@ -104,8 +104,7 @@ Flight Deck:  [EXT LT Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd
 |              |                       |          |            |                  |                                                                    |
 | RWY TURN OFF | CIRCUIT SWITCH ON:21  | 0&#124;1 | R/W        | MSFS VAR         | Left Rwy Turn Off Light + Switch                                   |
 |              | CIRCUIT SWITCH ON:22  | 0&#124;1 | R/W        | MSFS VAR         | Right Rwy Turn Off Light                                           |
-|              | LIGHT TAXI:2          | 0&#124;1 | R/W        | SIMCONNECT VAR   | Rwy Turn Off Light + Switch                                 
-      |
+|              | LIGHT TAXI:2          | 0&#124;1 | R/W        | SIMCONNECT VAR   | Rwy Turn Off Light + Switch                                       |
 |              |                       |          |            |                  |                                                                    |
 | LAND L + R   | LANDING_LIGHTS_ON     | 0..3     | -          | SIMCONNECT EVENT | 0=all, 1=NOSE, 2=L, 3=R                                            |
 |              | LANDING_LIGHTS_OFF    | 0..3     | -          | SIMCONNECT EVENT | 0=all, 1=NOSE, 2=L, 3=R                                            |
