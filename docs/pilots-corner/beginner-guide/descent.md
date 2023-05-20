@@ -104,14 +104,14 @@ This guide will cover these phases:
 
     ![ND distance rings](../assets/beginner-guide/descent/ND-disctance-rings.png "ND distance rings"){loading=lazy width=45% align=right}
 
-??? tip "FIX INFO in Development Version"
-    ##### Fix Info Distance Ring
+??? tip "FIX INFO"
+    ##### FIX INFO Distance Ring
 
-    Also, a great aid for knowing when to descend is the new FIX INFO feature available in the Development Version.
+    A great aid for knowing when to descend is the FIX INFO feature.
 
     You can add a ring around a waypoint or fix with a specified distance. As we need 57NM for our descent from FL320 to FL140 at ABTUM we can set the fix distance ring to 57NM.
 
-    Now we can easily see or TOD (top of descent) on the ND.
+    Now we can easily see our TOD (top of descent) on the ND.
 
     !!! block ""
 
@@ -121,9 +121,7 @@ This guide will cover these phases:
 
     The MCDU FIX INFO page can be accessed by selecting the first waypoint on the F-PLN page and pressing LSK 1L "FIX INFO".
 
-    See our feature guide [Fix Info](../advanced-guides/flight-planning/fixinfo.md) for how to use this function.
-
-    !!! warning "Available in the Development version!"
+    See our feature guide [FIX INFO](../advanced-guides/flight-planning/fixinfo.md) for how to use this function.
 
 #### How to Calculate the Required Distance for Descent
 
