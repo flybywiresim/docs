@@ -332,8 +332,8 @@ Flight Deck: [AC Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/ac.m
 |                | A32NX_COND_AFT_TEMP                           | °        | R          | Custom LVAR |              |
 |                | A32NX_COND_AFT_DUCT_TEMP                      | °        | R          | Custom LVAR |              |
 |                |                                               |          |            |             |              |
-| HOT AIR        | A32NX_AIRCOND_HOTAIR_TOGGLE                   | 0&#124;1 | R/W        | Custom LVAR |              |
-|                | A32NX_AIRCOND_HOTAIR_FAULT                    | 0&#124;1 | R/W        | Custom LVAR |              |
+| HOT AIR        | A32NX_OVHD_COND_HOT_AIR_PB_IS_ON              | 0&#124;1 | R/W        | Custom LVAR |              |
+|                | A32NX_OVHD_COND_HOT_AIR_PB_HAS_FAULT          | 0&#124;1 | R/W        | Custom LVAR |              |
 |                |                                               |          |            |             |              |
 | RAM AIR        | A32NX_AIRCOND_RAMAIR_TOGGLE_LOCK              | 0&#124;1 | R          | Custom LVAR | Switch Guard |
 |                | A32NX_AIRCOND_RAMAIR_TOGGLE                   | 0&#124;1 | R/W        | Custom LVAR |              |
