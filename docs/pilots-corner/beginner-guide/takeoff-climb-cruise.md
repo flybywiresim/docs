@@ -25,7 +25,7 @@ If you did start on the runway, you can skip the first part (Lineup) and directl
 
 Aircraft is in TAXI state as per previous chapters
 
-[Download FlyByWire Checklist](../../assets/FBW_A32NX_CHECKLIST.pdf){ .md-button }
+[Download FlyByWire Checklist](../assets/sop/A32NX%20Documentation/FBW%20A32NX%20Checklist.pdf){ .md-button }
 
 ## Chapters / Phases
 

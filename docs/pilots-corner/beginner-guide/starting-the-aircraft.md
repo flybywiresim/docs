@@ -23,7 +23,7 @@ This guide will cover these chapters in order:
 
 The aircraft is in a cold and dark state at a gate.
 
-[Download FlyByWire Checklist](../../assets/FBW_A32NX_CHECKLIST.pdf){ .md-button }
+[Download FlyByWire Checklist](../assets/sop/A32NX%20Documentation/FBW%20A32NX%20Checklist.pdf){ .md-button }
 
 ## Cockpit Preparation
 

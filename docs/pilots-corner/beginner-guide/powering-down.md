@@ -19,7 +19,7 @@ Obviously, this is not strictly required in a simulator, but for interested sim 
 
 - Aircraft is at the gate after landing and taxi as per previous chapters.
 
-[Download FlyByWire Checklist](../../assets/FBW_A32NX_CHECKLIST.pdf){ .md-button }
+[Download FlyByWire Checklist](../assets/sop/A32NX%20Documentation/FBW%20A32NX%20Checklist.pdf){ .md-button }
 
 ## Chapters / Phases
 
