@@ -51,7 +51,7 @@ This is the default direct-to mode. With ABEAM PTS, RADIAL IN/OUT are the other 
 There may be instances where the flight crew would not want existing waypoints to be deleted from the flight plan when performing a direct. By selecting the `WITH ABEAM PTS` option on the DIR TO page, this would insert and display the previous waypoints "abeam" their original counterparts.
 
 !!! tip "Defining Abeam"
-    On the beam; at a right angle to the center line or keel of a vessel or aircraft; being at a bearing approximately 090 Degrees or 270 Degrees relative.
+    On the beam; at a right angle to the center line or keel of a vessel or aircraft; being at a bearing approximately 090 degrees or 270 degrees relative.
     <p />
     Source [Wikipedia](https://en.wiktionary.org/wiki/abeam){target=new}.
 

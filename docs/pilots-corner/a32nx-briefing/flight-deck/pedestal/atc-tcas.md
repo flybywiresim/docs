@@ -110,14 +110,14 @@ TCAS mode selector:
 ### TCAS TRAFFIC
 
 - THRT:
-    - Proximate and other intruders are displayed only if a TA or RA is present, and they are within 2,700 ft above and 2,700 ft below the aircraft.
+    - Proximate and other intruders are displayed only if a TA or RA is present, and they are within 2700 ft above and 2700 ft below the aircraft.
 - ALL:
     - Proximate and other intruders are displayed even if no TA or RA is present (full time function).
-    - The altitude range is –2,700 ft to +2,700 ft.
+    - The altitude range is – 2700 ft to + 2700 ft.
 - ABV:
-    - Same as ALL, except that the other intruders are displayed if within 9,900 ft above and 2,700 ft below the aircraft.
+    - Same as ALL, except that the other intruders are displayed if within 9900 ft above and 2700 ft below the aircraft.
 - BLW:
-    - Same as ALL, except that the other intruders are displayed if within 9,900 ft below and 2,700 ft above the aircraft.
+    - Same as ALL, except that the other intruders are displayed if within 9900 ft below and 2700 ft above the aircraft.
 
 ---
 

@@ -6,7 +6,7 @@ Managed modes account for altitude constraints at waypoints and also for speed c
 ## Takeoff SRS (Speed Reference System)
 The SRS mode controls pitch at takeoff to steer the aircraft along a path in the vertical plan at a speed defined by the SRS guidance law.
 
-In SRS mode, the aircraft maintains a speed target equal to V2+10 kt in normal engine configuration. When the FMGS detects an engine failure, the speed target becomes the highest of V2 or current speed, limited by V2+15 kt.
+In SRS mode, the aircraft maintains a speed target equal to V2+10 kt in normal engine configuration. When the FMGS detects an engine failure, the speed target becomes the highest of V2 or current speed, limited by V2+15 kt.
 
 The SRS mode engages automatically when the thrust levers are set to the TOGA or FLX/MCT detent (when a Flex takeoff temperature has been selected), if:
 
@@ -16,7 +16,7 @@ The SRS mode engages automatically when the thrust levers are set to the TOGA or
 
 The SRS mode disengages:
 
-- automatically, at the acceleration altitude (ACC ALT), or if ALT* or ALT CST* mode engages (above 400 ft RA)
+- automatically, at the acceleration altitude (ACC ALT), or if ALT* or ALT CST* mode engages (above 400 ft RA)
 - if the flight crew engages another vertical mode
 - if the flight crew selects a speed while in SRS mode: SRS reverts to OP CLB mode, and a triple-click aural warning is heard
 - if the TCAS mode engages
@@ -24,12 +24,12 @@ The SRS mode disengages:
 The SRS guidance law also includes:
 
 - Attitude protection to reduce aircraft nose-up effect during takeoff (18° or 22.5° maximum in case of windshear)
-- Flight path angle protection that ensures a minimum vertical speed of 120 ft/min
-- A speed protection, limiting the target speed to V2+15 kt.
+- Flight path angle protection that ensures a minimum vertical speed of 120 ft/min
+- A speed protection, limiting the target speed to V2+15 kt.
 
 ## CLB (Climb)
 
-!!! warning "Managed CLB or DES (VNAV) is currently only available in the Experimental version."
+!!! warning "Managed CLB or DES (VNAV) is currently only available in the Development & Experimental versions."
 
 CLB mode guides the aircraft in a managed climb, at either a managed or a selected target speed, to an FCU selected altitude, considering altitude constraints at waypoints. The system also considers speed constraints if the target speed is managed.
 
@@ -48,7 +48,7 @@ The CLB mode can be armed under the following conditions:
 
 The CLB mode can be engaged when:
 
-- the aircraft has been in flight for more than 5 seconds
+- the aircraft has been in flight for more than 5 seconds
 - the altitude selected in the FCU is above the current altitude
 - not in descent, approach, or go-around phase
 - Lateral navigation (NAV) is engaged
@@ -80,7 +80,7 @@ When ALT is armed, the FMA displays the ALT message on its second line:
 - Blue when the target altitude is the FCU selected altitude
 - Magenta if the target altitude is an altitude constraint.
 
-The ALT mode is engaged automatically when the difference between the present altitude and the target altitude becomes less than 20 ft with ALT* engaged.
+The ALT mode is engaged automatically when the difference between the present altitude and the target altitude becomes less than 20 ft with ALT* engaged.
 
 The altitude that ALT mode holds is the altitude it memorized when engaged. It is not affected by a change of reference in the ALT window or by a change in the barometric correction.
 
@@ -88,13 +88,13 @@ When ALT is engaged, the FMA displays ALT in green (FCU altitude hold), ALT CST 
 
 ## DES (Descent)
 
-!!! warning "Managed CLB or DES (VNAV) is currently only available in the Experimental version."
+!!! warning "Managed CLB or DES (VNAV) is currently only available in the Development & Experimental versions."
 
 The managed descent mode guides the aircraft along the FMS computed vertical flight path. The DES mode is preferred when conditions permit, since it ensures the management of altitude constraints and reduces the operating cost when flying at ECON DES speed.
 
 The DES mode is only available when the aircraft flies on the FMS lateral flight plan, i.e., when the aircraft uses the NAV horizontal guidance mode.
 
-The FMGS computes the flight path backwards from the deceleration point (D) up to the top of descent (T/D), with respect to the speed and altitude constraints at the deceleration point, the guidance begins the deceleration to V~APP~, to be reached at 1000ft above touchdown on the final descent path.
+The FMGS computes the flight path backwards from the deceleration point (D) up to the top of descent (T/D), with respect to the speed and altitude constraints at the deceleration point, the guidance begins the deceleration to V~APP~, to be reached at 1000 ft above touchdown on the final descent path.
 
 This computation starts with an idle power segment down to the first constraint, followed by geometric segments between constraints until reaching the deceleration point. The FMGS accounts for wind and data from the vertical and lateral flight plan and bases its computations on the managed speed profile. Holding patterns are not considered.
 
@@ -105,7 +105,7 @@ Each descent can have the following segments:
 - Geometric path segment:
     - AP/FD controls the required vertical path while Autothrust controls speed.
 - Re-pressurization segment:
-    - If required, this ensures a specific rate of pressurization for the cabin during descent. It is calculated from the destination airport altitude and the selected cabin rate (default -350ft/min, which can be modified)
+    - If required, this ensures a specific rate of pressurization for the cabin during descent. It is calculated from the destination airport altitude and the selected cabin rate (default - 350 ft/min, which can be modified)
 
 !!! warning "Re-pressurization segments are not yet implemented in the A32NX"
 
@@ -168,12 +168,12 @@ APP NAV and FINAL modes are used in non-precision approaches (VOR/DEM, VOR, NDB,
 !!! warning "FINAL and FINAL APP are not yet implemented in the A32NX"
 
 ### LAND
-LAND mode automatically engages when the LOC and G/S modes are engaged, and the aircraft is below 400 ft RA. The FMA displays “LAND”, indicating that LOC and G/S are locked. LAND mode can only be disengaged by a go-around. FLARE and ROLL OUT modes will successively engage.
+LAND mode automatically engages when the LOC and G/S modes are engaged, and the aircraft is below 400 ft RA. The FMA displays “LAND”, indicating that LOC and G/S are locked. LAND mode can only be disengaged by a go-around. FLARE and ROLL OUT modes will successively engage.
 
 ### FLARE
-FLARE mode engages once the aircraft reaches approximately 40 ft RA (the precise value is a function of V/S). The FMA displays “FLARE” in green.
+FLARE mode engages once the aircraft reaches approximately 40 ft RA (the precise value is a function of V/S). The FMA displays “FLARE” in green.
 
-At 30 ft RA, the AP/FD aligns the yaw axis with the runway center line and the aircraft flares on the pitch axis. If the Autothrust is active, thrust is automatically reduced to IDLE (callout "retard").
+At 30 ft RA, the AP/FD aligns the yaw axis with the runway center line and the aircraft flares on the pitch axis. If the Autothrust is active, thrust is automatically reduced to IDLE (callout "retard").
 When both AP/FDs are disengaged, FLARE mode disengages. After main landing gear touchdown, the autopilot (if engaged) sends a nose down order.
 
 ## TCAS Mode

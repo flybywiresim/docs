@@ -20,7 +20,7 @@ This simulates the ground crew automatically placing or removing the chocks or c
 The Wheel Chocks and Safety Cones appear when the following conditions are given:
 
 - Chocks and/or Safety Cones are enabled in the [flyPad EFB Sim Options Settings Page](flypados3/settings.md#sim-options)
-- Engines are off (`ENG1+2 N1` < 3.5%)
+- Engines are off (`ENG1+2 N1` < 3.5 %)
 - Beacon lights are off
 - Airplane is on ground
 - Airplane is not moving / rolling

@@ -68,11 +68,11 @@ Sensitivity settings are highly hardware-dependent and can be different for each
 
 We **highly recommend** using a joystick or flight stick when flying any aircraft in a simulator. Keyboard or controller buttons simply do not have the range and sensitivity required for successfully controlling an aircraft.
 
-For the flight stick pitch control (up/backward and down/forward) we recommend using a sensitivity setting of `-30%` to better simulate the increased force you need to **push or pull** the real sidestick in the aircraft. Please see the screenshot below for an example:
+For the flight stick pitch control (up/backward and down/forward) we recommend using a sensitivity setting of `- 30 %` to better simulate the increased force you need to **push or pull** the real sidestick in the aircraft. Please see the screenshot below for an example:
 
 ![Custom AP Sensitivity](assets/feature-guides/sensitivity-custom-ap.png "Custom AP Sensitivity"){loading=lazy width=30%}
 
-For roll (left or right) use what you think is best for you. The above-mentioned -30% is a good starting point.
+For roll (left or right) use what you think is best for you. The above-mentioned - 30 % is a good starting point.
 
 #### Rudder/Tiller
 

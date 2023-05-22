@@ -27,7 +27,7 @@ The maintenance crew uses this pushbutton to reset the control circuit, after th
 
 ### SVCE INT OVRD
 
-- Auto: Ground personnel can communicate with the flight crew through the service interphone jacks 10s after the aircraft has landed. The landing gear must be compressed.
+- Auto: Ground personnel can communicate with the flight crew through the service interphone jacks 10 s after the aircraft has landed. The landing gear must be compressed.
 - ON: Communication is possible when the landing gear is not compressed. The ON light is white.
 
 !!! info ""
@@ -77,8 +77,6 @@ The maintenance crew uses this pushbutton to reset the control circuit, after th
 - ON: On the ground, when pressed, the electrical network of the aircraft supplies the FADEC when:
     - The ENG FIRE pb-sw is not pressed,
     - The FADEC alternator does not supply the FADEC.
-!!! warning ""
-    Not available in the Stable Version.
 ---
 
 [Back to Flight Deck](../index.md){ .md-button }

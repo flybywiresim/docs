@@ -36,11 +36,11 @@ These annunciations tell the pilots which lateral mode the autopilot and the fli
 
 ### RWY
 
-Displayed in green when runway mode is engaged. This is only displayed if there is an active localizer signal. This mode provides lateral guidance during the takeoff roll up to 30 feet (radio altitude).
+Displayed in green when runway mode is engaged. This is only displayed if there is an active localizer signal. This mode provides lateral guidance during the takeoff roll up to 30 feet (radio altitude).
 
 ### RWY TRK
 
-Displayed in green when runway mode is engaged once airborne or above 30ft RA
+Displayed in green when runway mode is engaged once airborne or above 30 ft RA
 
 ### HDG
 

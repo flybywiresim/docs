@@ -71,7 +71,7 @@ The timeout feature will "automatically unfocus" the MCDU screen should you be u
 
 Return to the EFB settings page and adjust the `MCDU Focus Timeout` setting.
 
-- Valid range is `5 - 120 seconds`
+- Valid range is `5 - 120 seconds`
 
 Sample Image:
 
@@ -82,7 +82,7 @@ Sample Image:
 ## Known Issues
 
 - ++esc++ and arrow keys are not captured
-- CLR held (>2s)
+- CLR held (> 2 s)
     * Use ++shift+backspace++ together instead of ++backspace++
 - Clicking on screen + using camera keybind keys will cause MCDU to move out of the view. Since the camera is locked, it is not possible to click on the screen to unfocus the MCDU
     * Use keyboard shortcuts below to unfocus:

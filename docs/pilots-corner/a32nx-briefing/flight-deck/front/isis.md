@@ -47,7 +47,7 @@ SPD BUG and ALT BUG columns:
 - It allows the bug value to be set by rotating the BARO knob. This value cannot be lower than 30 kt for a speed bug, or a negative value for an altitude bug.
 - Pressing the BARO setting knob, once a bug value box is activated, will deselect the bug value.
 - The “OFF” label comes on close to the activated box.
-- The entered values are memorized by the system, when exiting the screen, by pressing the BUGS pushbutton (1), or after 15s without any pilot action.
+- The entered values are memorized by the system, when exiting the screen, by pressing the BUGS pushbutton (1), or after 15 s without any pilot action.
 
 ### “+” / ”-” box activation buttons
 

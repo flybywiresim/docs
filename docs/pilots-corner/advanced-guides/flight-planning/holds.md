@@ -82,13 +82,13 @@ Now that you know where to hold, you should learn how to program the hold. Next,
         | Inbound course    | 149°    |
         | Turning direction | Left    |
         | Leg distance      | STD     |
-        | Max speed         | 210KT   |
+        | Max speed         | 210 kt  |
         | Max alt           | STD     |
-        | Min alt (MHA)     | 8000FT  |
+        | Min alt (MHA)     | 8000 ft |
 
     === "4"
 
-        >**_NOTE:_**  The chart's design makes it confusing what the leg length is for the DVN hold. You could argue that this is 3.4 NM. However, 3.4 is just the length between the D11.0 SPL and the DVN fix and does not influence the hold leg length.
+        >**_NOTE:_**  The chart's design makes it confusing what the leg length is for the DVN hold. You could argue that this is 3.4 NM. However, 3.4 is just the length between the D11.0 SPL and the DVN fix and does not influence the hold leg length.
 
         ![HOLD4](../../assets/advanced-guides/holds/HOLD4.png){loading=lazy}
 
@@ -98,25 +98,25 @@ Now that you know where to hold, you should learn how to program the hold. Next,
         | Inbound course    | 053°    |
         | Turning direction | Right   |
         | Leg distance      | STD     |
-        | Max speed         | 210KT   |
+        | Max speed         | 210 kt  |
         | Max alt           | -       |
-        | Min alt (MHA)     | 2900FT  |
+        | Min alt (MHA)     | 2900 ft |
     
     === "5"
 
-        >**_NOTE:_**  Holds at BOTON and PANZE have a minimum hold altitude dictated by the minimum flight altitude of 6000ft of the earlier and following legs. 
+        >**_NOTE:_**  Holds at BOTON and PANZE have a minimum hold altitude dictated by the minimum flight altitude of 6000 ft of the earlier and following legs. 
 
         ![HOLD5](../../assets/advanced-guides/holds/HOLD5.png){loading=lazy}
 
-        | Hold information  | Details | Details | Details |
-        |-------------------|---------|---------|---------|
-        | Fix               | BOTON   | PANZE   | CAMRN   |
-        | Inbound course    | *049°   | *049°   | 041°    |
-        | Turning direction | Right   | Left    | Left    |
-        | Leg distance      | STD     | STD     | STD     |
-        | Max speed         | STD     | STD     | 210KT   |
-        | Max alt           | -       | -       | 14000FT |
-        | Min alt (MHA)     | 6000FT  | 6000FT  | 6000FT  |
+        | Hold information  | Details | Details | Details  |
+        |-------------------|---------|---------|----------|
+        | Fix               | BOTON   | PANZE   | CAMRN    |
+        | Inbound course    | *049°   | *049°   | 041°     |
+        | Turning direction | Right   | Left    | Left     |
+        | Leg distance      | STD     | STD     | STD      |
+        | Max speed         | STD     | STD     | 210 kt   |
+        | Max alt           | -       | -       | 14000 ft |
+        | Min alt (MHA)     | 6000 ft | 6000 ft | 6000 ft  |
         
         *The inbound course can be calculated by subtracting or adding 180 to the reciprocal.
 
@@ -124,15 +124,15 @@ Now that you know where to hold, you should learn how to program the hold. Next,
 
         ![HOLD6](../../assets/advanced-guides/holds/HOLD6.png){loading=lazy}
 
-        | Hold information  | Details |
-        |-------------------|---------|
-        | Fix               | SKENS   |
-        | Inbound course    | 274°    |
-        | Turning direction | Right   |
-        | Leg distance      | 10NM    |
-        | Max speed         | STD     |
-        | Max alt           | -       |
-        | Min alt (MHA)     | 13000FT |
+        | Hold information  | Details   |
+        |-------------------|-----------|
+        | Fix               | SKENS     |
+        | Inbound course    | 274°      |
+        | Turning direction | Right     |
+        | Leg distance      | 10 NM     |
+        | Max speed         | STD       |
+        | Max alt           | -         |
+        | Min alt (MHA)     | 13 000 ft |
 
     === "7"
 
@@ -143,7 +143,7 @@ Now that you know where to hold, you should learn how to program the hold. Next,
         | Fix               | SNAAG   |
         | Inbound course    | 061°    |
         | Turning direction | Right   |
-        | Leg distance      | 10NM    |
+        | Leg distance      | 10 NM   |
         | Max speed         | STD     |
         | Max alt           | -       |
         | Min alt (MHA)     | -       |
@@ -172,9 +172,9 @@ Now that you know where to hold, you should learn how to program the hold. Next,
         | Inbound course    | 059°    | 059°    | 335°    |
         | Turning direction | Left    | Left    | Right   |
         | Leg distance      | STD     | STD     | STD     |
-        | Max speed         | 230KT   | 230KT   | 230KT   |
+        | Max speed         | 230 kt  | 230 kt  | 230 kt  |
         | Max alt           | -       | -       | -       |
-        | Min alt (MHA)     | 6000FT  | 4000FT  | 5000FT  |
+        | Min alt (MHA)     | 6000 ft | 4000 ft | 5000 ft |
 
     === "10"
 
@@ -198,8 +198,8 @@ The Airbus FMS follows ICAO definitions for default holding pattern parameters. 
 
 | Altitude (ft MSL) | Leg distance |
 |-------------------|--------------|
-| <=14000           | 1 minute     |
-| > 14000           | 1.5 minutes  |
+| <= 14 000         | 1 minute     |
+| > 14 000          | 1.5 minutes  |
 
 The managed speed target in a hold is the lowest of:
 
@@ -212,10 +212,10 @@ The ICAO speed limits are as follows:
 
 | Altitude (ft MSL) | Airspeed (KIAS) |
 |-------------------|-----------------|
-| < 14000           | 230             |
-| 14000 - 20000     | 240             |
-| 20000 - 34000     | 265             |
-| > 34000           | .83 Mach        |
+| < 14 000          | 230             |
+| 14 000 - 20 000   | 240             |
+| 20 000 - 34 000   | 265             |
+| > 34 000          | .83 Mach        |
 
 The default turn direction for a computed hold is **right**, in-line with ICAO specifications. 
 
@@ -298,7 +298,7 @@ Now that all information about the hold is known, it is time to create a hold in
         Also, the F-PLN page on the MCDU will continue to show IMM EXIT*. This is needed when [leaving the hold](#leaving-the-hold).
 
 ### Descending in the Hold
-Managed descent mode (DES) in the hold will limit the descent rate to a maximum of -1000 ft/min for traffic separation purposes. Open descent (OP DES) will descend at idle thrust as normal.
+Managed descent mode (DES) in the hold will limit the descent rate to a maximum of - 1000 ft/min for traffic separation purposes. Open descent (OP DES) will descend at idle thrust as normal.
 
 The TCAS system should remain on TA/RA when flying in the hold. However, it might be convenient to switch to ALL or BLW.
 

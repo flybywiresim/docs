@@ -18,7 +18,7 @@ Flight planning and performance planning happen during this phase.
 
 The TAKEOFF phase starts when applying take off thrust (FLX or TOGA) and extends until reaching the acceleration altitude.
 
-Autopilot can be engaged at 100ft above ground or 5 seconds after takeoff, whichever is later.
+Autopilot can be engaged at 100 ft above ground or 5 seconds after takeoff, whichever is later.
 
 At thrust reduction altitude, the thrust levers are normally set in the climb thrust detent (CL detent). The FMGC is in managed mode at this point, guiding the aircraft vertically and laterally along the flight plan.
 
@@ -38,7 +38,7 @@ The CRUISE phase extends from the top of climb (ToC) point to the top of descent
 
 It may also include intermediate climbs as well as en route descents. At anytime, the pilot can define a step climb to determine the cost and time savings of flying at a different flight level. Step climbs and descents are entered on the MCDU STEP ALTS page, which is accessed from a VERT REV page or from the MCDU F-PLN page A.
 
-The FMS transitions to the descent phase when a subsequent descent is initiated within 200 NM of the destination and no preplanned step descent exists in front of the aircraft.
+The FMS transitions to the descent phase when a subsequent descent is initiated within 200 NM of the destination and no preplanned step descent exists in front of the aircraft.
 
 ## DESCENT Phase
 
@@ -48,7 +48,7 @@ The pilot is required to confirm and initiate all descents from cruise altitude 
 
 ## APPROACH Phase
 
-The APPROACH phase starts when the pilot activates and confirms the approach on the PERF descent page, or when the approach deceleration pseudo waypoint (DECEL) is passed and the aircraft is below 9500 ft AGL in managed flight.
+The APPROACH phase starts when the pilot activates and confirms the approach on the PERF descent page, or when the approach deceleration pseudo waypoint (DECEL) is passed and the aircraft is below 9500 ft AGL in managed flight.
 
 ## GO-AROUND Phase
 
@@ -58,6 +58,6 @@ To return to the APPROACH flight phase, activate and confirm the APPROACH phase 
 
 ## DONE Phase
 
-The DONE phase is activated after the aircraft has been on the ground for at least 30 seconds and all engines are shut down.
+The DONE phase is activated after the aircraft has been on the ground for at least 30 seconds and all engines are shut down.
 
 During the done phase, the FMS clears the active flight plan in preparation for reinitialization.

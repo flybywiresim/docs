@@ -2,7 +2,7 @@
 
 !!! warning "Important"
 
-    * The custom autopilot system needs at least a stable 17 fps to work properly. Any lower performance may result in unexpected behavior.
+    * The custom autopilot system needs at least a stable 17 fps to work properly. Any lower performance may result in unexpected behavior.
     * The A32NX forces the __^^modern flight model^^__ and selection in the MSFS settings is not necessary.
     * It's crucial for the Autothrust system to have properly setup detents. Ensure that you have enough dead zone around the detents.
     * Typical issues when this is not done properly: constantly flashing "LVR CLB", FLX / TOGA not engaging or ATHR not holding speed correctly (the latter can also happen when in CLB/OP CLB or DES/OP DES and flying manually -> in that case you need to take care of holding speed with pitch)
@@ -18,7 +18,7 @@ Sensitivity settings are highly hardware-dependent and can be different for each
 
 ==}
 
-We **highly recommend** using a sensitivity setting of `-30%` to better simulate the increased force you need to push or pull the real sidestick in the aircraft. Please see the screenshot below for an example:
+We **highly recommend** using a sensitivity setting of `- 30 %` to better simulate the increased force you need to push or pull the real sidestick in the aircraft. Please see the screenshot below for an example:
 
 ![Custom AP Sensitivity](../assets/feature-guides/sensitivity-custom-ap.png "Custom AP Sensitivity")
 
@@ -65,7 +65,7 @@ The work folder can be found here:
 
 ???+ info "FMA keeps blinking with message `LVR CLB`"
 
-    If this is the case, your throttle is not calibrated properly. The values of the throttle axis range from -1.0 to 1.0 independently if you're using reverse on axis or not. When the current throttle position is larger or equal than the start position and smaller or equal than the end position of a detent, the throttles are considered to be in that detent.
+    If this is the case, your throttle is not calibrated properly. The values of the throttle axis range from - 1.0 to 1.0 independently if you're using reverse on axis or not. When the current throttle position is larger or equal than the start position and smaller or equal than the end position of a detent, the throttles are considered to be in that detent.
 
     Ensure that:
 
@@ -91,7 +91,7 @@ The work folder can be found here:
 
     Other conditions:
 
-    * plane needs to be at least 30 s on ground
+    * plane needs to be at least 30 s on ground
     * Flaps extended at least in position 1+F
 
 ??? info "`RWY` does not engage on take-off"
@@ -99,9 +99,9 @@ The work folder can be found here:
     There is currently no auto-tune available for the LOC on take-off. You need to enter the right frequency manually. Besides that, `RWY` mode only engages with the following conditions:
 
     * LOC signal valid
-    * LOC deviation smaller than 1/2 dot
+    * LOC deviation smaller than 1/2 dot
     * Deviation between plane heading and LOC bearing is < 20°
-    * Plane needs to be at least 30 s on ground
+    * Plane needs to be at least 30 s on ground
     * Flaps extended at least in position 1+F
 
 ??? info "`LVR CLB` flashes immediately after lift-off"
@@ -110,7 +110,7 @@ The work folder can be found here:
 
 ??? info "`LAND` mode does not engage"
 
-    Before reaching 400 ft radio altitude, the FMA needs to show `LOC` and `G/S`. If one of them is still in capture mode (`LOC*` or `G/S*`) you need to perform a go around maneuver or land manually, LAND will not engage that way.
+    Before reaching 400 ft radio altitude, the FMA needs to show `LOC` and `G/S`. If one of them is still in capture mode (`LOC*` or `G/S*`) you need to perform a go around maneuver or land manually, LAND will not engage that way.
 
 ??? info "Autoland does not perform as expected"
 
@@ -119,11 +119,11 @@ The work folder can be found here:
     * LOC accuracy in terms of
       * alignment of heading to the runway heading
       * alignment on the runway centerline
-      * availability down to 0 ft and also during roll-out
+      * availability down to 0 ft and also during roll-out
     * G/S accuracy in terms of
-      * alignment to the correct height (50 ft over runway threshold)
-      * availability down to 50 ft
-    * ground in front of the runway threshold needs to be more or less stable (no fast raising terrain) beginning 200 ft radio altitude
+      * alignment to the correct height (50 ft over runway threshold)
+      * availability down to 50 ft
+    * ground in front of the runway threshold needs to be more or less stable (no fast raising terrain) beginning 200 ft radio altitude
 
     **Reminder:** If the autoland warning light goes on, it's IRL procedure to go around!
 
@@ -145,7 +145,7 @@ The work folder can be found here:
 
     In most cases, a time compression up to 4x is safe to use. Nevertheless, depending on environmental conditions and the performance of your computer, oscillations can still occur.
 
-    The reason it can work for some and not for others is how time compression works. For example, when using time compression of 2x for the custom systems it's like having 1/2 of your displayed fps, when you're using 4x it's like 1/4 of it. So considering the 17 fps requirement, it means you need ~ 30 fps and ~ 45 fps for 4x to work somehow, at least for smooth cruise.
+    The reason it can work for some and not for others is how time compression works. For example, when using time compression of 2x for the custom systems it's like having 1/2 of your displayed fps, when you're using 4x it's like 1/4 of it. So considering the 17 fps requirement, it means you need ~ 30 fps and ~ 45 fps for 4x to work somehow, at least for smooth cruise.
 
     When you encounter heavy turbulence, it might be needed that time compression is reduced.
 
@@ -167,7 +167,7 @@ The work folder can be found here:
 
 #### Requirements and Incompatibilities
 
-* ❌ Minimum performance requirement is stable 17 fps
+* ❌ Minimum performance requirement is stable 17 fps
 * ❌ No support for AI copilot
 * ❌ Proper throttle calibration via EFB required
 
@@ -200,7 +200,7 @@ The work folder can be found here:
 
 ### Mapping of Events to Control Autopilot / Autothrust
 
-⚠️ Not all events are working, and it's also difficult to map all default events because there is no 100% match.
+⚠️ Not all events are working, and it's also difficult to map all default events because there is no 100 % match.
 
 The recommendation is to use a combination of default events and the custom events to trigger the FCU. This has been tested with the Honeycomb Bravo Throttle using SPAD.next or FSUIPC.
 
@@ -256,8 +256,8 @@ You can grab the required files with the links below.
 | A32NX.FCU_HDG_PUSH             | Push Heading knob on FCU                                                                           |
 | A32NX.FCU_HDG_PULL             | Pull Heading knob on FCU                                                                           |
 | A32NX.FCU_TRK_FPA_TOGGLE_PUSH  | Push TRK/FPA toggle on FCU                                                                         |
-| A32NX.FCU_ALT_INC              | Clockwise dial Altitude knob on FCU (parameter 0 = use FCU increment, 100 = 100, 1000 = 1000)      |
-| A32NX.FCU_ALT_DEC              | Anti-clockwise dial Altitude knob on FCU (parameter 0 = use FCU increment, 100 = 100, 1000 = 1000) |
+| A32NX.FCU_ALT_INC              | Clockwise dial Altitude knob on FCU (parameter 0 = use FCU increment, 100 = 100, 1000 = 1000)      |
+| A32NX.FCU_ALT_DEC              | Anti-clockwise dial Altitude knob on FCU (parameter 0 = use FCU increment, 100 = 100, 1000 = 1000) |
 | A32NX.FCU_ALT_INCREMENT_TOGGLE | Toggle Altitude increment on FCU                                                                   |
 | A32NX.FCU_ALT_INCREMENT_SET    | Set Altitude increment on FCU (parameter 100 or 1000)                                              |
 | A32NX.FCU_ALT_SET              | Set Altitude value on FCU                                                                          |
@@ -265,7 +265,7 @@ You can grab the required files with the links below.
 | A32NX.FCU_ALT_PULL             | Pull Altitude knob on FCU                                                                          |
 | A32NX.FCU_VS_INC               | Clockwise dial V/S knob on FCU                                                                     |
 | A32NX.FCU_VS_DEC               | Anti-clockwise dial V/S knob on FCU                                                                |
-| A32NX.FCU_VS_SET               | Set Speed value on FCU (when in TRK/FPA mode 10 == 1.0°)                                           |
+| A32NX.FCU_VS_SET               | Set Speed value on FCU (when in TRK/FPA mode 10 == 1.0°)                                           |
 | A32NX.FCU_VS_PUSH              | Push V/S knob on FCU                                                                               |
 | A32NX.FCU_VS_PULL              | Pull V/S knob on FCU                                                                               |
 | A32NX.FCU_LOC_PUSH             | Push LOC button on FCU                                                                             |

@@ -47,32 +47,11 @@ The following are features in testing that require the use of SimBridge:
 ### Pause at Top of Descent (TOD)
 
 - New setting in located in the EFB under Realism - Pause at Top of Descent (TOD). 
-- This is configurable by distance between 0-50 nm before TOD.
+- This is configurable by distance between 0 - 50 NM before TOD.
 - When enabled, flight will pause at the specified distance before TOD.
 - If the TOD point shifts before your present position, or AP mode reverts to CRZ, this will pause the simulation.
 
 Note: This may not be the final iteration of this feature, nor how it operates. The option to toggle top of descent in the EFB settings may be changed or moved into its own dedicated flyPad page or section in the future.
-
-### Vertical Guidance
-
-- Speed and altitude predictions in the flight plan page, including magenta or amber asterisks.
-- Reworked fuel burn and time predictions in the flight plan page (no flight plan B page).
-- Pseudowaypoints in the flight plan (SPD/LIM, T/C, T/D, S/C, S/D, DECEL).
-- Display of pseudowaypoints on the ND (T/C, T/D, predicted speed changes, etc.)
-- Partial implementation of step climbs/descent.
-- Linear deviation indication during the descent.
-- Following of speed and altitude constraints in the climb phase (credits to tracernz).
-- Partial implementation of descent guidance.
-- Ability to enter winds for climb, cruise, and descent.
-
-#### Vertical Guidance Planned Implementations
-
-These features are not yet available, but will be implemented at a later time.
-
-- Time constraints, RTA
-- Flight plan B
-- Constant Mach segments
-- Vertical guidance for RNAV approaches
 
 ---
 
@@ -80,6 +59,7 @@ These features are not yet available, but will be implemented at a later time.
 
 Features in testing that have been released into Development but not Stable will be listed here. This list will be pruned with every Stable release.
 
+- VNAV version 1
 - flyPad OS 3
 - GSX Integration
 - Simbridge
@@ -103,7 +83,7 @@ the C* law, this is incorrect and will result in issues if no ADR is available.
 - V_stall warn AoAs need to be tuned, currently they are just the same as alpha_prot.
 - In some situations, AP might not be available in alternate law, even though it should be. This is due to how the AP commands are currently executed, which requires the normal 
   laws to be active (IRL this is different). Will take some time to fix this, not planned currently.
-- The electrical bus connections are not quite correct yet, the ELAC/SEC 2s have rather complex logic for power supply switching, which is not done yet.
+- The electrical bus connections are not quite correct yet, the ELAC/SEC 2 s have rather complex logic for power supply switching, which is not done yet.
 
 ### Pause at TOD Issues
 

@@ -104,7 +104,7 @@ Flight Deck:  [EXT LT Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd
 |              |                       |          |            |                  |                                                                    |
 | RWY TURN OFF | CIRCUIT SWITCH ON:21  | 0&#124;1 | R/W        | MSFS VAR         | Left Rwy Turn Off Light + Switch                                   |
 |              | CIRCUIT SWITCH ON:22  | 0&#124;1 | R/W        | MSFS VAR         | Right Rwy Turn Off Light                                           |
-|              | LIGHTING_TAXI_2       | 0&#124;1 | R          | Custom LVAR      |                                                                    |
+|              | LIGHT TAXI:2          | 0&#124;1 | R/W        | SIMCONNECT VAR   | Rwy Turn Off Light + Switch                                       |
 |              |                       |          |            |                  |                                                                    |
 | LAND L + R   | LANDING_LIGHTS_ON     | 0..3     | -          | SIMCONNECT EVENT | 0=all, 1=NOSE, 2=L, 3=R                                            |
 |              | LANDING_LIGHTS_OFF    | 0..3     | -          | SIMCONNECT EVENT | 0=all, 1=NOSE, 2=L, 3=R                                            |
@@ -266,23 +266,27 @@ Flight Deck: [Fire Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/fi
 
 Flight Deck: [Fuel Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/fuel.md)
 
-!!! note "The below table shows the API for PUMP 1. Replace with appropriate value for the other pumps."
+!!! note "The below table shows ':' if a pump index has to be added. Replace with appropriate value for the corresponding pump. E.g. FUELSYSTEM_PUMP_TOGGLE:2"
     L1=2, L2=5, C1=9, C2=10, R1=3, R2=6
 
     !!! warning ""
         Please note that FUELSYSTEM_PUMP_TOGGLE 1 and 4 for the center tank pump switches got replaced with FUELSYSTEM_VALVE_TOGGLE 9 and 10, due to the NEO having jet pumps instead of conventional pumps, which was corrected in a recent update.
 
-| Function        | API Usage                 | Values   | Read/Write | Type       | Remark                                      |
-|:----------------|:--------------------------|:---------|:-----------|:-----------|:--------------------------------------------|
-| Fuel Pump 1     | FUELSYSTEM_PUMP_TOGGLE    | 2,3,5,6  | -          | MSFS EVENT | Fuel pumps only available in the wing tanks |
-| Fuel Jet Pump 1 | FUELSYSTEM_VALVE_TOGGLE   | 9,10     | -          | MSFS EVENT | Used for center tank fuel jet pump valves   |
-|                 | FUELSYSTEM PUMP ACTIVE:1  | 0&#124;1 | R          | MSFS VAR   |                                             |
-|                 | FUELSYSTEM PUMP SWITCH:1  | 0&#124;1 | R          | MSFS VAR   |                                             |
-|                 |                           |          |            |            |                                             |
-| X FEED          | FUELSYSTEM_VALVE_TOGGLE   | 3        | -          | MSFS EVENT |                                             |
-|                 | FUELSYSTEM VALVE SWITCH:3 | 0&#124;1 | R          | MSFS VAR   |                                             |
-|                 |                           |          |            |            |                                             |
-| MODE SEL        | N/A                       |          |            |            |                                             |
+| Function         | API Usage                | Values   | Read/Write | Type       | Remark                                |
+|:-----------------|:-------------------------|:---------|:-----------|:-----------|:--------------------------------------|
+| Fuel L&R Tank    | FUELSYSTEM_PUMP_TOGGLE   | 2,3,5,6  | -          | MSFS EVENT | Fuel pumps for wing tanks             |
+|                  | FUELSYSTEM PUMP ACTIVE:  | 0&#124;1 | R          | MSFS VAR   | Current state of the pump             |
+|                  | FUELSYSTEM PUMP SWITCH:  | 0&#124;1 | R          | MSFS VAR   | Current state of the switch           |
+|                  |                          |          |            |            |                                       |
+| Fuel Center Tank | FUELSYSTEM_VALVE_TOGGLE  | 9,10     | -          | MSFS EVENT | Fuel jet pump valves for center tanks |
+|                  | FUELSYSTEM VALVE OPEN:   | 0&#124;1 | R          | MSFS VAR   | Current state of the valve            |
+|                  | FUELSYSTEM VALVE SWITCH: | 0&#124;1 | R          | MSFS VAR   | Current state of the switch           |
+|                  |                          |          |            |            |                                       |
+| X FEED           | FUELSYSTEM_VALVE_TOGGLE  | 3        | -          | MSFS EVENT | X-Feed pump                           |
+|                  | FUELSYSTEM VALVE OPEN:   | 0&#124;1 | R          | MSFS VAR   | Current state of the valve            |
+|                  | FUELSYSTEM VALVE SWITCH: | 0&#124;1 | R          | MSFS VAR   | Current state of the switch           |
+|                  |                          |          |            |            |                                       |
+| MODE SEL         | N/A                      |          |            |            |                                       |
 
 ### Air Condition Panel
 
@@ -328,8 +332,8 @@ Flight Deck: [AC Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/ac.m
 |                | A32NX_COND_AFT_TEMP                           | °        | R          | Custom LVAR |              |
 |                | A32NX_COND_AFT_DUCT_TEMP                      | °        | R          | Custom LVAR |              |
 |                |                                               |          |            |             |              |
-| HOT AIR        | A32NX_AIRCOND_HOTAIR_TOGGLE                   | 0&#124;1 | R/W        | Custom LVAR |              |
-|                | A32NX_AIRCOND_HOTAIR_FAULT                    | 0&#124;1 | R/W        | Custom LVAR |              |
+| HOT AIR        | A32NX_OVHD_COND_HOT_AIR_PB_IS_ON              | 0&#124;1 | R/W        | Custom LVAR |              |
+|                | A32NX_OVHD_COND_HOT_AIR_PB_HAS_FAULT          | 0&#124;1 | R/W        | Custom LVAR |              |
 |                |                                               |          |            |             |              |
 | RAM AIR        | A32NX_AIRCOND_RAMAIR_TOGGLE_LOCK              | 0&#124;1 | R          | Custom LVAR | Switch Guard |
 |                | A32NX_AIRCOND_RAMAIR_TOGGLE                   | 0&#124;1 | R/W        | Custom LVAR |              |

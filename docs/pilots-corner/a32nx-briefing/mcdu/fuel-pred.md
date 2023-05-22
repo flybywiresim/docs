@@ -62,7 +62,7 @@ The FUEL PRED page displays fuel prediction information at destination and alter
 - GW/CG (5R)
     - The FMS continuously updates the Gross Weight (GW) and Center of Gravity (CG) during the flight. 
     - The field displays dashes, as long as the system is not calculating the Fuel On Board, or ZFW has not been entered by the flight crew. 
-    - If after engine start ZFW and FOB are defined but GWCG cannot be computed (ZFWCG missing), 25% is used as a default value and is displayed in amber small font. "INITIALIZE WEIGHT/CG" amber message is triggered on MCDU scratchpad and the crew must enter ZFWCG in (3R). 
+    - If after engine start ZFW and FOB are defined but GWCG cannot be computed (ZFWCG missing), 25 % is used as a default value and is displayed in amber small font. "INITIALIZE WEIGHT/CG" amber message is triggered on MCDU scratchpad and the crew must enter ZFWCG in (3R). 
     - The field cannot be modified.
 
 - EXTRA/TIME (6R)

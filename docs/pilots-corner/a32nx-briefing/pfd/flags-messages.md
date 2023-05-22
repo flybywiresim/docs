@@ -85,7 +85,7 @@ These are flags and messages displayed on the PFD. The numbers correspond to the
 === "11"
     CHECK ALT Flag
 
-    This is displayed in amber. This appears both as a flag on the PFD, and on the ECAM as a caution if the difference between the two PFD altitude indicators is greater than 250 feet when the QNH Barometric Reference is selected, or 500 feet when STD is selected.
+    This is displayed in amber. This appears both as a flag on the PFD, and on the ECAM as a caution if the difference between the two PFD altitude indicators is greater than 250 feet when the QNH Barometric Reference is selected, or 500 feet when STD is selected.
     
     This flag disappears when the pilot's and first officer's barometer or references are different.
 
@@ -162,10 +162,10 @@ These are flags and messages displayed on the PFD. The numbers correspond to the
     
     This function is implemented into the FAC and is available when the slats/flaps are extended as follows:
     
-    - At takeoff, from 5 seconds after liftoff up to 1300 feet radio altitude.
-    - At landing, from 1300 feet radio altitude down to 50 feet radio altitude.
+    - At takeoff, from 5 seconds after liftoff up to 1300 feet radio altitude.
+    - At landing, from 1300 feet radio altitude down to 50 feet radio altitude.
     
-    It remains displayed at least 15 seconds after windshear detection and is associated with an aural windshear warning.
+    It remains displayed at least 15 seconds after windshear detection and is associated with an aural windshear warning.
     
     !!! info ""
         Currently not available for the FBW A32nx for Microsoft Flight Simulator.

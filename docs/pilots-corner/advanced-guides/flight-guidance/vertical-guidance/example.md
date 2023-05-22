@@ -45,12 +45,12 @@ Specific details on the symbology associated with vertical guidance can be seen 
 
     This example showcases the aircraft in a managed climb after taking off from the runway. You can still see `5000` in magenta at the top of the altitude indicator, however, the FMA has new information.
 
-    The current mode is `CLB` but the aircraft has an `ALT` armed in magenta. This means that the aircraft is ready to level off at 5000 ft and will transition to `ALT CST*`.
+    The current mode is `CLB` but the aircraft has an `ALT` armed in magenta. This means that the aircraft is ready to level off at 5000 ft and will transition to `ALT CST*`.
 
 !!! block ""
     ![Takeoff VNAV 2](../../../assets/advanced-guides/vnav/takeoff-vnav2.png){loading=lazy align=left width=50%}
 
-    As you reach 5000 ft again, it's important to note two items:
+    As you reach 5000 ft again, it's important to note two items:
 
     1. A mode revision to `ALT CST*` as you capture the altitude constraint set in the MCDU.
     2. `CLB` will be armed in blue indicating further climb is expected as set in your FCU.
@@ -65,13 +65,13 @@ In the above example, we have just initiated a managed descent to FL100. There a
 1. Shows you the targeted managed speed alongside the range the aircraft will deviate to match the descent profile.
 - The V/DEV or "yoyo" indicator. It provides a visual indicator of how far below the descent profile from the command altitude (FL100). In this case, you will notice the aircraft is far below the profile, in part due to starting the descent early.
     - This can happen due to various factors, such as ATC instructions.
-- When starting a descent early, the aircraft will typically target a V/S -1000 ft.
+- When starting a descent early, the aircraft will typically target a V/S - 1000 ft.
 
 ---
 
 ![PFD Des 2](../../../assets/advanced-guides/vnav/pfd-des2.png){loading=lazy width=60%}
 
-As we catch up to the profile, you will notice the V/DEV indicator shift and match the altitude indicator. This informs the crew that we have caught up with the profile and the aircraft is now increasing its descent rate to V/S -2000 ft.
+As we catch up to the profile, you will notice the V/DEV indicator shift and match the altitude indicator. This informs the crew that we have caught up with the profile and the aircraft is now increasing its descent rate to V/S - 2000 ft.
 
 ## Navigation Display Indications
 
@@ -81,13 +81,13 @@ As a reminder, the section [Navigation Display Symbols](nd-symbols.md) contains 
 
 ![Departure VNAV](../../../assets/advanced-guides/vnav/departure-vnav.png){loading=lazy width=60%}
 
-The above image showcases a typical departure with constraints set at the first waypoint on the flight plan. The aircraft now has just taken off the runway and is climbing to a cleared altitude of 7000 ft. Following the direction of the aircraft's flight path as indicated on the ND, we can note that at the waypoint `PORPA` we have a planned constraint *at or below* 5000 ft with a speed restriction of 205 kts.
+The above image showcases a typical departure with constraints set at the first waypoint on the flight plan. The aircraft now has just taken off the runway and is climbing to a cleared altitude of 7000 ft. Following the direction of the aircraft's flight path as indicated on the ND, we can note that at the waypoint `PORPA` we have a planned constraint *at or below* 5000 ft with a speed restriction of 205 kt.
 
 There are also a few **pseudo waypoints** indicated on the ND indicating different changes to the flight profile as the aircraft continues along the flight plan.
 
-- The first pseudo waypoint you encounter in <span style=color:magenta>magenta</span> indicates the calculated point where the aircraft will level off at 5000 ft to meet the constraint at `PORPA`.
+- The first pseudo waypoint you encounter in <span style=color:magenta>magenta</span> indicates the calculated point where the aircraft will level off at 5000 ft to meet the constraint at `PORPA`.
 - At the waypoint `PORPA` there are a few different indicators described in more detail below. This is a result of information entered into the F-PLN page on the MCDU.
-- The final pseudo waypoint displayed is a <span style=color:cyan>cyan arrow</span> indicating the point where the FCU commanded altitude (in our case, 7000 ft) will be reached.
+- The final pseudo waypoint displayed is a <span style=color:cyan>cyan arrow</span> indicating the point where the FCU commanded altitude (in our case, 7000 ft) will be reached.
 
 ---
 
@@ -96,8 +96,8 @@ There are also a few **pseudo waypoints** indicated on the ND indicating differe
 
     ![Waypoint Example](../../../assets/advanced-guides/vnav/waypoint-example.png){loading=lazy align=left width=30%}
 
-    - The <span style=color:cyan>cyan arrow</span> indicates that CLB is armed, and the AP will continue climbing above 5000 ft at `PORPA`.
-    - The solid <span style=color:magenta>magenta dot</span> indicates the aircraft will increase speed at `PORPA` to 220 kts as indicated by the `SKAT1X` SID.
+    - The <span style=color:cyan>cyan arrow</span> indicates that CLB is armed, and the AP will continue climbing above 5000 ft at `PORPA`.
+    - The solid <span style=color:magenta>magenta dot</span> indicates the aircraft will increase speed at `PORPA` to 220 kt as indicated by the `SKAT1X` SID.
     - The <span style=color:magenta>magenta outer ring</span> reaffirms there is a constraint at `PORPA` but additionally signifies the `ALT CSTR` will be met, and the aircraft will cross *at or below* 5000 ft.
 
 ---
@@ -109,7 +109,7 @@ There are also a few **pseudo waypoints** indicated on the ND indicating differe
 
     As we continue along the flight path and pass all speed restrictions again, we can see a couple of familiar indicators on the ND.
 
-    - The solid <span style=color:magenta>magenta dot</span> inidcating our aircraft will increase speed to 250 kts as we climb out of 7000 ft.
+    - The solid <span style=color:magenta>magenta dot</span> inidcating our aircraft will increase speed to 250 kt as we climb out of 7000 ft.
     - The <span style=color:cyan>cyan arrow</span> indicating the point where the FCU commanded altitude (in our case FL170) will be reached.
 
 !!! tip ""
@@ -149,7 +149,7 @@ There are also a few **pseudo waypoints** indicated on the ND indicating differe
 !!! block ""
     ![Continued Descent 2](../../../assets/advanced-guides/vnav/nd-des2.png){loading=lazy align=left width=60%}
 
-    In this example, the aircraft continues flying down the STAR. We have commanded further descent from FL100 to 5000 ft and turned on `CSTR` on the EFIS. 
+    In this example, the aircraft continues flying down the STAR. We have commanded further descent from FL100 to 5000 ft and turned on `CSTR` on the EFIS. 
 
     We can now see the following indications:
 

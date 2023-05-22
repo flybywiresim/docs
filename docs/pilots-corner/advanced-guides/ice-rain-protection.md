@@ -4,7 +4,7 @@ The A320 is exposed to many types of weather and atmospheric conditions, both in
 
 !!! note "Definition of Icing Conditions"  
 
-    - Icing conditions exist when the OAT (on ground or after takeoff) or the TAT (in flight) is at or below 10 °C and visible moisture in any form is present (such as clouds, fog with visibility of 1 sm (1 600 m) or less, rain, snow, sleet or ice crystals).   
+    - Icing conditions exist when the OAT (on ground or after takeoff) or the TAT (in flight) is at or below 10 °C and visible moisture in any form is present (such as clouds, fog with visibility of 1600 m (1 sm) or less, rain, snow, sleet or ice crystals).   
     - Icing conditions also exist when the OAT on the ground and for takeoff is at or below 10 °C and operating on ramps, taxiways, or runways where surface snow, standing water or slush may be ingested by the engines, or freeze on engines, nacelles, or engine sensor probes.
     
 To ensure safe and unrestricted operation of the aircraft in these conditions, the ice, and rain protection system has been implemented. This comprises the subsystems listed below:
@@ -82,7 +82,7 @@ Jump to [Usage of the Ice and Rain Protection System](#usage-of-the-ice-and-rain
 ### Rain Repellent
 
 - In moderate to heavy rain, the flight crew can spray a rain repellent liquid on the windshield to improve visibility.
-- After about 30 seconds, the windows are covered with spray.
+- After about 30 seconds, the windows are covered with spray.
 - Separate pushbuttons control the rain repellent application on each side of the windshield.
 - Rain repellent must never be used to wash the windshield and must never be used on a dry windshield.
 
@@ -112,7 +112,7 @@ See also [Anti Ice Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/an
 - ON GROUND:  
       - Must be ON during all ground operations where icing conditions exist or are anticipated  
 - IN FLIGHT:  
-      - Must be ON during all flight operations where icing conditions exist or are anticipated, except during climb or cruise when the SAT is below -40ᵒC  
+      - Must be ON during all flight operations where icing conditions exist or are anticipated, except during climb or cruise when the SAT is below - 40 ᵒC  
 
 ### PROBE/WINDOW HEAT pushbutton  
 

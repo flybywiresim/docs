@@ -45,6 +45,7 @@ Following failures will lead to the activation of [Alternate Law without protect
     Loss of all protections on final approach should be anticipated, and the flight crew should prepare to take over pitch trimming for landing.  
 
 Following failures will lead to the activation of [Direct Law](#direct-law)
+
 - Failure of all three IRs
 
 #### Special Failure Conditions
@@ -89,9 +90,9 @@ Abnormal Law is triggered when one of the following conditions is met:
 
 - Bank angle above 125°
 - Pitch attitude above 50° up or 30° down
-- Speed below 60-90 kt (exact value dependent on pitch)
-- Speed above 440 kt / Mach above 0.91
-- AOA above 30°-40° or below -10°
+- Speed below 60 - 90 kt (exact value dependent on pitch)
+- Speed above 440 kt / Mach above 0.91
+- AOA above 30° - 40° or below - 10°
 
 Abnormal Alt. Law is meant to give the pilot the necessary control authority to recover the plane.
 

@@ -48,7 +48,7 @@ As soon as the "*Traffic, Traffic*" aural warning is heard, pilots should begin 
 - Ensure A/THR is set to `ON`
 - Pilot monitoring (PM):
     - Check the ND for the potential threat
-        - It may be necessary to set the zoom level to 40 nm or below
+        - It may be necessary to set the zoom level to 40 NM or below
     - Contact ATC about any nearby aircraft
     - Keep pilot flying (PF) informed about the status of the threat
     - Confirm the PF takes the correct actions if the TA upgrades to an RA
@@ -93,10 +93,10 @@ This behavior starts with the vertical speed in the <span style=color:red>red zo
 The following conditions will apply:
 
 - TCAS will engage and modify vertical guidance to avoid conflict targeting the <span style=color:green>green zone</span>.
-- Targets a V/S of 200ft/min inside the green band on the VSI
+- Targets a V/S of 200 ft/min inside the green band on the VSI
 - Longitudinal modes previously armed will automatically be disarmed except ALT^*^
     - This prevents the aircraft from exceeding a commanded altitude / prevents excursions
-    - In this type of RA, a V/S of 0 ft/min is always within the safe zone to prevent commanded altitude excursions, allowing for TCAS to reach a targeted flight level if capture conditions are met. Sample scenario:
+    - In this type of RA, a V/S of 0 ft/min is always within the safe zone to prevent commanded altitude excursions, allowing for TCAS to reach a targeted flight level if capture conditions are met. Sample scenario:
     ![tcas level off](../../assets/advanced-guides/flight/tcas-level-ra.png)
 - To ensure a safe speed during any maneuvers, A/THR will engage SPEED/MACH
 
@@ -206,7 +206,7 @@ The following chart explains the various symbols displayed on the navigation dis
 |                                            Symbol on ND                                             |     Type of Traffic      | Information                                                                 |
 |:---------------------------------------------------------------------------------------------------:|:------------------------:|:----------------------------------------------------------------------------|
 |       ![tcas other traffic](../../assets/advanced-guides/flight/other-traffic.png){width=75%}       |      Other Traffic       | Not a threat.<br>Visible within the surveillance field.                     |
-|       ![tcas proximate traffic](../../assets/advanced-guides/flight/proximate.png){width=75%}       |    Proximate Traffic     | Not a threat.<br>Identified as a possible intruder within 6 NM and 1200 FT. |
+|       ![tcas proximate traffic](../../assets/advanced-guides/flight/proximate.png){width=75%}       |    Proximate Traffic     | Not a threat.<br>Identified as a possible intruder within 6 NM and 1200 ft. |
 |    ![tcas traffic advisory](../../assets/advanced-guides/flight/traffic-advisory.png){width=75%}    |  Traffic Advisory (TA)   | Possible threat.                                                            |
 | ![tcas resolution advisory](../../assets/advanced-guides/flight/resolution-advisory.png){width=75%} | Resolution Advisory (RA) | Collision threat.                                                           |
 
@@ -216,7 +216,7 @@ This next chart includes additional symbology when traffic is seen on the ND.
 |:-----------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------|
 |  ![tcas other traffic](../../assets/advanced-guides/flight/tcas-arrow-up.png){width=75%}  | This arrow represents climbing traffic.                                                                                                          |
 | ![tcas other traffic](../../assets/advanced-guides/flight/tcas-arrow-down.png){width=75%} | This arrow represents descending traffic.                                                                                                        |
-|  ![tcas other traffic](../../assets/advanced-guides/flight/tcas-traffic.png){width=75%}   | Complete picture of traffic on the ND.<br>This example showcases Proximate Traffic that is 1000 ft above the aircraft and is currently climbing. |
+|  ![tcas other traffic](../../assets/advanced-guides/flight/tcas-traffic.png){width=75%}   | Complete picture of traffic on the ND.<br>This example showcases Proximate Traffic that is 1000 ft above the aircraft and is currently climbing. |
 
 ## Aural Messages
 

@@ -209,7 +209,7 @@ Shortly before we start our takeoff roll, we do the following steps:
 
 1. Release parking brake and hold down manual brakes.
 
-- Apply thrust slowly to about 50% thrust until both engines are stabilized (N1 stays constant at around 50%) while still holding the brakes.
+- Apply thrust slowly to about 50 % N1 until both engines are stabilized (N1 stays constant at around 50 %) while still holding the brakes.
 
 - Push sidestick forward half the way to put pressure on the front gear<br/>
 
@@ -226,9 +226,9 @@ Shortly before we start our takeoff roll, we do the following steps:
 
     From the left:
 
-    - Thrust: set to MAN FLX +60
+    - Thrust: set to MAN FLX + 60
     - Vertical guidance:
-        - Active (green): SRS (pitch guidance to maintain V~2~+10)
+        - Active (green): SRS (pitch guidance to maintain V~2~ + 10)
         - Armed (blue): CLB mode (is next after SRS is done)
     - Lateral guidance:
         - Active: RWY (automatic runway axis follow up through ILS use)
@@ -255,12 +255,12 @@ Shortly before we start our takeoff roll, we do the following steps:
     
     On a long enough runway, V~1~ (depicted by "1") and V~R~ (depicted by "o") are often very close together and can't be clearly distinguished on the PFD speed tape.
 
-- At about 80 knots, slowly release the forward pressure on the sidestick until about 100 knots, when the sidestick should be in the neutral position.
+- At about 80 knots, slowly release the forward pressure on the sidestick until about 100 knots, when the sidestick should be in the neutral position.
 
 - The throttle hand remains on the thrust levers until reaching V~1~ to be able to quickly abort the start. Remove the hand from the thrust levers at V~1~ to avoid accidentally aborting after V~1~.
 
-- At V~R~ apply smooth positive backward stick movement on the sidestick and aim for a rotation rate (pitch rate) of 3 deg/sec for about 5 seconds (15°-18° pitch attitude). Once airborne, follow the flight director's guidance for pitch attitude.<br/>
-  Tip: Count one-one thousand, two-one-thousand, etc. and hit 15 deg at five-one-thousand - practice this.
+- At V~R~ apply smooth positive backward stick movement on the sidestick and aim for a rotation rate (pitch rate) of 3 deg/sec for about 5 seconds (15° - 18° pitch attitude). Once airborne, follow the flight director's guidance for pitch attitude.<br/>
+  Tip: Count one-one thousand, two-one-thousand, etc. and hit 15 degrees at five-one-thousand - practice this.
 
     ![V~1~](../assets/beginner-guide/takeoff-climb-cruise/V1.png "Speedtape with V~1~ marker"){loading=lazy}
 
@@ -286,7 +286,7 @@ This concludes *Takeoff*.
 - Thrust levers are in FLX MCT or TO GA detent.
 - Flaps are still in T.O. position.
 
-After takeoff, the aircraft will use `FLX/MCT` or `TO GA` thrust until thrust reduction altitude is reached (typically ~1500ft above runway, this is part of the MCDU setup)
+After takeoff, the aircraft will use `FLX/MCT` or `TO GA` thrust until thrust reduction altitude is reached (typically ~ 1500 ft above runway, this is part of the MCDU setup)
 
 After reaching thrust reduction altitude, the `PFD FMA` now shows a flashing *LVR CLB* message to instruct the pilot to move thrust levers to the `CL` detent.
 
@@ -307,9 +307,9 @@ The FMA now shows AP1 in white in the upper-right corner.
 !!!info "FCU Autopilot Controls"
     The FCU (Flight Control Unit) shows three important values:
 
-    - SPD "---" : means the __Autopilot__ is in Managed Speed mode (e.g., 250 knots <10.000ft, 290kts above). If we pull the SPD knob we can select a speed which the __Autopilot__ will then apply.
+    - SPD "---" : means the __Autopilot__ is in Managed Speed mode (e.g., 250 kt < 10 000 ft, 290 kt above). If we pull the SPD knob we can select a speed which the __Autopilot__ will then apply.
     - HDG "---" : means the lateral navigation is in Managed HDG Mode and the __Autopilot__ follows the planned route. Dialing the HDG knob will let us select a heading and by pulling the knob we tell the __Autopilot__ to fly this heading (Selected Heading Mode).<br/>
-    - ALT "5000" : means the selected altitude is 5000ft<br/>
+    - ALT "5000" : means the selected altitude is 5000 ft<br/>
 
 **When reaching S-speed retract flaps.**<br/>
 S-speed is signified with an S next to the speed band in the `PFD`.
@@ -355,7 +355,7 @@ This concludes the *Initial Climb*.
 - *After takeoff checklist* is completed.
 - ATC has given us clearance for further climb.
 
-**Dial the newly cleared altitude into the FCU. (e.g., 15.000ft) and push for managed climb (CLB) or pull for open climb (OP CLB)**
+**Dial the newly cleared altitude into the FCU. (e.g., 15 000 ft) and push for managed climb (CLB) or pull for open climb (OP CLB)**
 
 ![Entering the new altitude and pushing the knob for Managed Altitude Mode](../assets/beginner-guide/takeoff-climb-cruise/Altitude-setting-15000.png "Entering the new altitude and pushing the knob for Managed Altitude Mode"){loading=lazy}
 
@@ -416,7 +416,7 @@ Here are some **typical activities** which might happen during cruise mostly on 
 - **ATC requests specific speed **<br/>
   Sometimes ATC requests a specific speed to keep separation between aircraft. Pull the speed knob to switch to Selected Speed Mode. The current speed will be preselected. Dial to the desired speed. The aircraft will immediately begin to target the new speed by either increasing or decreasing thrust.
 
-At some point (200-300NM from destination) we would start with descent-planning and setting up the aircraft for descent and approach.
+At some point (200 - 300 NM from destination) we would start with descent-planning and setting up the aircraft for descent and approach.
 
 Descent, Approach, and Landing will be covered in later chapters of this beginner guide.
 

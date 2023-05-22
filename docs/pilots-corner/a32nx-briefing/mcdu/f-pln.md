@@ -25,7 +25,7 @@ Between two waypoints, the display shows:
 - Name of the leg
 - Bearing from the aircraft position to the TO waypoint
 - Distance between the waypoints
-- During an approach, this in-between line also defines the angle of the final descent path. For example, “2-3°” indicates that the leg is two nautical miles long, and the flight path angle is -3 °.
+- During an approach, this in-between line also defines the angle of the final descent path. For example, “2 - 3°” indicates that the leg is two nautical miles long, and the flight path angle is - 3°.
 - Shows track (TRK) between the waypoints in lines 2 and 3. This is the outbound track of the next leg.
 
 If the route contains a published missed approach procedure, it is shown in blue after the destination runway. It turns green when the go-around phase becomes active. After the last waypoint of the missed approach, the display shows the alternate flight plan in NAV mode.
@@ -46,7 +46,7 @@ Constraints can also be manually added by the flight crew (except at origin, des
 
 Constraints are displayed in magenta, as long as predictions are not completed.
 
-Once predictions are calculated, constraints are replaced by speed and altitude predictions, preceded by stars. If the STAR is magenta, the system predicts that the aircraft will match the constraint (altitude within 250 ft, speed not more than 10 kt above the constraints). If the star is amber, the system predicts that the aircraft will miss the constraint and the MCDU displays: “SPD ERROR AT WPT”.
+Once predictions are calculated, constraints are replaced by speed and altitude predictions, preceded by asterisks. If the asterisk is magenta, the system predicts that the aircraft will match the constraint (altitude within 250 ft, speed not more than 10 kt above the constraints). If the asterisk is amber, the system predicts that the aircraft will miss the constraint and the MCDU displays: “SPD ERROR AT WPT”.
 
 !!! note
     SPD and ALT CSTR may either be entered on the VERT REV page or directly on the F-PLN A page, whereas TIME CSTR may only be entered from the RTA page.
@@ -284,7 +284,7 @@ A vertical revision is rejected by the FMS, and NOT ALLOWED is displayed in the 
   
 - ALT ERROR (4R)
     - During CLIMB and DESCENT, this shows how far the corresponding constraint will be missed (estimation).
-    - When estimated miss is >250ft.
+    - When estimated miss is > 250 ft.
     
     !!! info ""
         Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.

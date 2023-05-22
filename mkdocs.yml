@@ -21,6 +21,7 @@ theme:
     text: Inter
   palette:
     scheme: slate
+    primary: custom
   features:
     - navigation.tabs
     - navigation.tabs.sticky
@@ -84,8 +85,9 @@ plugins:
         'airframe.md': 'https://docs.flybywiresim.com/fbw-a32nx/installation/#simbrief-airframe'
         'fdr.md': 'https://docs.flybywiresim.com/fbw-a32nx/support/#fdr-files'
         'exp.md': 'fbw-a32nx/support/exp.md'
+        'vnav.md': 'pilots-corner/advanced-guides/flight-guidance/vertical-guidance/overview.md'
         # Release Notes Permalink
-        'latest-release.md': 'release-notes/v091.md'
+        'latest-release.md': 'release-notes/v0100.md'
         'latest-installer-release.md': 'release-notes/installer/v330.md'
         # ########################################
         # Needed for URL within the A32NX aircraft
@@ -146,9 +148,13 @@ markdown_extensions:
   pymdownx.mark: {} # Formatting Extension
   pymdownx.tilde: {} # Formatting Extension
   pymdownx.keys: {} # Visual keyboard keys extension
+  pymdownx.snippets: 
+    auto_append: 
+    - includes/abbreviations.md
   pymdownx.tasklist:
     custom_checkbox: true
   pymdownx.emoji: # Allows emoji style inline embeds for icons
     emoji_index: !!python/name:materialx.emoji.twemoji
     emoji_generator: !!python/name:materialx.emoji.to_svg
   md_in_html: {} # Allows markdown to be used in HTML
+  abbr: {} # Adds abbreviations

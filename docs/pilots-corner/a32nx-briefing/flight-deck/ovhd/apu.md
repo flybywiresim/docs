@@ -32,7 +32,7 @@ Controls the APU operation and its start- and shutdown sequence.
     - Manual shutdown sequence.
     - ON light and the AVAIL light on the START pushbutton, go off.
     - The APU keeps running for a cooling period of 60 seconds, if the aircraft was using APU bleed air.
-    - Air inlet flap closes at N = 7%
+    - Air inlet flap closes at N = 7 %
 - FAULT Lt:
     - Amber light and ECAM warning message, if an automatic APU shutdown occurs. Possible causes:
         - Air inlet flap closed
@@ -63,12 +63,12 @@ Controls the APU operation and its start- and shutdown sequence.
 - ON:
     - Blue ON light.
     - Starter is energized when the flap is completely open.
-    - Ignition activates 1.5 seconds after the starter is energized.
-    - When N = 55%. The APU starter is de-energized. The ignition is turned off.
-    - 2 seconds after N reaches 95%, or when N is above 99.5% the ON light on START button goes out. The APU can now supply bleed air and electrical power to the aircraft.
-    - APU page disappears from the ECAM display after >10sec.
+    - Ignition activates 1.5 seconds after the starter is energized.
+    - When N = 55 %. The APU starter is de-energized. The ignition is turned off.
+    - 2 seconds after N reaches 95 %, or when N is above 99.5 % the ON light on START button goes out. The APU can now supply bleed air and electrical power to the aircraft.
+    - APU page disappears from the ECAM display after > 10 s.
 - AVAIL Lt:
-    - Green light comes on when N is above 99.5% or 2 seconds after N reaches 95%.
+    - Green light comes on when N is above 99.5 % or 2 seconds after N reaches 95 %.
 
 ---
 

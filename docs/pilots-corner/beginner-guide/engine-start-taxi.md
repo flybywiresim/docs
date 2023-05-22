@@ -112,7 +112,7 @@ Start the chronometer above the ND to help monitor the start-up time of the engi
     2. Second Push - Stops the timer on the ND
     3. Third Push - Removes the timer from the ND
 
-    Time is represented as *minutes*' *seconds*", i.e., 04'41" equates to 4 minutes and 41 seconds.
+    Time is represented as *minutes*' *seconds*", i.e., 04'41" equates to 4 minutes and 41 seconds.
 
     **Use Cases**
 
@@ -150,11 +150,11 @@ For this guide, we will begin by starting engine 2.
 
     Engine 2 will have successfully started when the following applies (at ISA sea level):
 
-    - N1 is at roughly 19%
+    - N1 is at roughly 19 %
     - N1 reported `AVAIL`  
-    - N2 is at roughly 68%
-    - EGT settles at about 520 °C
-    - FF is at roughly 290 kg/h
+    - N2 is at roughly 68 %
+    - EGT settles at about 520 °C
+    - FF is at roughly 290 kg/h
 
 === "Start Engine 1"
     1. Set `ENG 1` Master to the ON position.
@@ -163,11 +163,11 @@ For this guide, we will begin by starting engine 2.
 
     Engine 1 will have successfully started when the following applies (at ISA sea level):
 
-    - N1 is at roughly 19%
+    - N1 is at roughly 19 %
     - N1 reported `AVAIL`  
-    - N2 is at roughly 68%
-    - EGT settles at about 520 °C
-    - FF is at roughly 290 kg/h
+    - N2 is at roughly 68 %
+    - EGT settles at about 520 °C
+    - FF is at roughly 290 kg/h
 
 ---
 
@@ -289,7 +289,7 @@ At this point, the aircraft may start rolling. Depending on the weight of the ai
     - We don't need to come to a complete stop, but merely check the brake pressure status when performing the brake check.
 - If an arc is shown above the brake temperature on the WHEEL SD page on the lower ECAM, turn the brake fans on.
 
-If it is required to perform a sharp turn immediately, we may need more than ~25-30% N1 and should set the thrust accordingly. Try not to perform the brake check while in a turn, as we don't want to come to a complete stop while turning.
+If it is required to perform a sharp turn immediately, we may need more than ~ 25 - 30 % N1 and should set the thrust accordingly. Try not to perform the brake check while in a turn, as we don't want to come to a complete stop while turning.
 
 ### During Taxi
 
@@ -362,7 +362,7 @@ Pay attention to the ground speed (visible on the ND) while taxiing.
 
 - **Straight Line**
 
-    Anything up to 30kts is reasonable, but some airports may carry their own local restrictions that should be noted. This is not an absolute rule and is usually typical SOP for airlines in a straight line.
+    Anything up to 30 kt is reasonable, but some airports may carry their own local restrictions that should be noted. This is not an absolute rule and is usually typical SOP for airlines in a straight line.
 
 - **90° (Sharp) Turns**
 
@@ -471,7 +471,7 @@ Taxiway lighting helps the flight crew and ground crew navigate the airport at n
 There are usually two types of lighting on taxiways - centerline and edge. Depending on the airport operator, the lightning may differ if the airport operates in low visibility conditions.
 
 - Centerline lighting is green on the principal taxiways located along the taxiway centerline. These lights can alternate between green and yellow when a taxiway crosses a runway, or highlight a "lead-off" taxiway from a runway to join a taxiway.
-- Edge lighting is typically blue and characteristically appears at the edges of a taxiway. Spacing can range from 50 - 200ft apart, usually condensing in distance when approaching an intersection.
+- Edge lighting is typically blue and characteristically appears at the edges of a taxiway. Spacing can range from 50 - 200 ft apart, usually condensing in distance when approaching an intersection.
 
 ![taxiway lights](https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/ATL_TWY_B_-_RWY_Crossing_%2813534655025%29.jpg/640px-ATL_TWY_B_-_RWY_Crossing_%2813534655025%29.jpg){loading=lazy}
 

@@ -15,9 +15,9 @@ QFE is the setting of the altimeter so that it will read the height above the ai
 
 ### ^^STD^^
 
-STD (standard) is the setting of the altimeter to reference to ISA conditions. ISA is an internationally developed and recognized model of how air pressure, temperature, and density vary with altitude, and for pilots, this means a QNH of 1013 hPa or 29.92 in Hg. 
+STD (standard) is the setting of the altimeter to reference to ISA conditions. ISA is an internationally developed and recognized model of how air pressure, temperature, and density vary with altitude, and for pilots, this means a QNH of 1013 hPa or 29.92 in Hg. 
 
-To fly a flight level (i.e., FL350 as opposed to 35000ft), all aircraft are required to be set to STD to remove any chances of differences between QNH causing aircraft to be closer to each other than the altimeters are indicating. The change from being on a QNH to STD happens at the transition altitude, and at the transition level vice-versa. A QNH/QFE is required to be set before landing. To set the STD in the Airbus, pull the dial that sets the altimeter, and push to return to QNH.
+To fly a flight level (i.e., FL350 as opposed to 35 000 ft), all aircraft are required to be set to STD to remove any chances of differences between QNH causing aircraft to be closer to each other than the altimeters are indicating. The change from being on a QNH to STD happens at the transition altitude, and at the transition level vice-versa. A QNH/QFE is required to be set before landing. To set the STD in the Airbus, pull the dial that sets the altimeter, and push to return to QNH.
 
 ### ^^in.Hg/hPA^^
 
@@ -35,7 +35,7 @@ Transition altitudes and levels are the changeover points for the altimeter refe
 
 In the climb, the transition altitude is where you would switch from QNH to STD, and your altitudes will become flight levels. Every clearance ATC will give you above this will be called a Flight Level, and everything below will be called an altitude.
 
-This altitude is found on the departure or arrival charts of the airport you are departing from and will vary from airport to airport, except for some countries. Usually, the demands of air traffic control or the terrain around the airfield will define what the altitude will be for that airport. In the USA and Canada, this is fixed at 18000ft to reduce complexity, whereas in other countries such as the UK or the Netherlands, this can be as low as 3000ft.
+This altitude is found on the departure or arrival charts of the airport you are departing from and will vary from airport to airport, except for some countries. Usually, the demands of air traffic control or the terrain around the airfield will define what the altitude will be for that airport. In the USA and Canada, this is fixed at 18 000 ft to reduce complexity, whereas in other countries such as the UK or the Netherlands, this can be as low as 3000 ft.
 
 ### ^^Transition Level^^
 

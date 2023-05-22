@@ -66,7 +66,7 @@ Before you change anything in the controller profile, make sure to create a dedi
 
 ### 2. Set Sensitivity to Linear
 
-Set all sensitivity settings to 0%. This includes Sensitivity + and -, Dead Zone, Neutral, and Extremity Dead Zone. Leave Reactivity at 100%.
+Set all sensitivity settings to 0 %. This includes Sensitivity + and -, Dead Zone, Neutral, and Extremity Dead Zone. Leave Reactivity at 100 %.
 
 ??? note "How to Set Sensitivity to Linear"
     Set your Sensitivity settings exactly like this:
@@ -85,7 +85,7 @@ Check that the axis mappings are correct.
 
     You can use ^^either^^ of these MSFS inputs:
 
-    - `THROTTLE 1 AXIS (0 TO 100%)` and `THROTTLE 2 AXIS (0 TO 100%)`<br/>(for a throttle with two levers)
+    - `THROTTLE 1 AXIS (0 TO 100 %)` and `THROTTLE 2 AXIS (0 TO 100 %)`<br/>(for a throttle with two levers)
         ![Throttle Axis Mapping](../../assets/flypados3/throttle-calibration/throttle-axis-mapping.png "Throttle Axis Mapping"){loading=lazy}
 
     - `THROTTLE 1 AXIS` and `THROTTLE 2 AXIS`<br/>(for a throttle with two levers)
@@ -134,9 +134,9 @@ If your throttle does not have a range for the reverser, there are two ways to a
 
         ![Bravo-MSFS-Mapping](../../assets/flypados3/throttle-calibration/bravo-msfs-mapping1.png "Bravo-MSFS-Mapping"){loading=lazy}
 
-        The `THROTTLE 1/2 DECREASE` mapping to `Buttons 10,26` and `Buttons 11,27` simulates the reverser when the Bravo's reverser lever is lifted (buttons 10 and 11) and the thrust lever is pulled back (buttons 26 and 27). This activates the buttons configured in the image above, and in turn decreases throttle power to negative values for the reverser.
+        The `THROTTLE 1/2 DECREASE` mapping to `Buttons 10, 26` and `Buttons 11, 27` simulates the reverser when the Bravo's reverser lever is lifted (buttons 10 and 11) and the thrust lever is pulled back (buttons 26 and 27). This activates the buttons configured in the image above, and in turn decreases throttle power to negative values for the reverser.
 
-        If you release the reverser levers (buttons 10+11) the mapping to `THROTTLE CUT` activates and puts the thrust back to idle.
+        If you release the reverser levers (buttons 10 + 11) the mapping to `THROTTLE CUT` activates and puts the thrust back to idle.
 
         If you use the GA levers you will need to map the reverser to some other button, e.g., on your yoke/side stick, as the reverser buttons (10, 11) will not be there.
 
@@ -207,9 +207,9 @@ Usually, there is no need to change the deadbands for the detents, as the defaul
     ![Deadband around a detent setting](../../assets/flypados3/throttle-calibration/deadband-setting.png "Deadband around a detent setting"){loading=lazy}
 
     The image above shows the controller in the `IDLE` position with a
-    control value of -0.50.
+    control value of - 0.50.
 
-    As some controllers might be at a lower or higher value than -0.50 and even the same controller might sometimes have slightly different values although in the same position, the `deadband` of 0.05 ensures that small differences in actual values are treated as within a valid range for the `IDLE` position. In this case all values from -0.55 to -0.45 are valid `IDLE` positions.
+    As some controllers might be at a lower or higher value than - 0.50 and even the same controller might sometimes have slightly different values although in the same position, the `deadband` of 0.05 ensures that small differences in actual values are treated as within a valid range for the `IDLE` position. In this case all values from - 0.55 to - 0.45 are valid `IDLE` positions.
 
     Notice that the blue bar correspondents to the current throttle position and is between two green lines. The green lines mark your deadband range for the detent. As long as the blue bar is between them, the throttle reads this as the corresponding detent. If your throttle is outside these green bars, they become gray as you no longer are in the corresponding detent.
 
@@ -227,7 +227,7 @@ We start the detent calibration with the lowest throttle setting.
     <p/>
     ![Full Reverse Position](../../assets/flypados3/throttle-calibration/full-reverse.png "Full Reverse Position"){loading=lazy}
     <p/>
-    The "Current Value" should be close to -1.0.
+    The "Current Value" should be close to - 1.0.
     <p/>
     {== Press "Set From Throttle" on both sides. ==}
 
@@ -237,7 +237,7 @@ We start the detent calibration with the lowest throttle setting.
     <p/>
     ![Idle Position](../../assets/flypados3/throttle-calibration/idle.png "Idle Position"){loading=lazy}
     <p/>
-    The "Current Value" should be close to -1.0.
+    The "Current Value" should be close to - 1.0.
     <p/>
     {== Press "Set From Throttle" on both sides. ==}
 
@@ -291,14 +291,14 @@ Click on "Save & Apply".
 
         Throttle Calibration Page:
 
-        ![EFB-Calibration-Page](../../assets/flypados3/throttle-calibration/flypad-calibration-page.jpg "EFB-Calibration-Page"){loading=lazy}
+        ![EFB-Calibration-Page](../../assets/flypados3/throttle-calibration/flypad-calibration-page.png "EFB-Calibration-Page"){loading=lazy}
 
     - Set **`Reverser on Axis`**  to ON (see **1** in image).
 
     - Set **`Independent Axis`** to ON (see **2** in image).
 
     - Click on **`Reverse Full`** in the middle **(3)**
-        - Confirm that the value for Axis 1 **(4)** and Axis 2 is -1.0 (or very close to).
+        - Confirm that the value for Axis 1 **(4)** and Axis 2 is - 1.0 (or very close to).
 
         !!! info ""
             To get the current throttle values, it might be necessary to move the mouse outside the EFB window if you popped out the window with ++ralt+left-button++
@@ -317,7 +317,7 @@ Click on "Save & Apply".
     - Click on **Reverse Idle** in the middle **(3)**
     - Click on **Set From Throttle** for Axis 1 **(6)** and Axis 2 **(7)**.
 
-        ![EFB-Reverse-Idle](../../assets/flypados3/throttle-calibration/EFB-Reverse-Idle.jpg "EFB-Reverse-Idle"){loading=lazy}
+        ![EFB-Reverse-Idle](../../assets/flypados3/throttle-calibration/efb-reverse-idle.png "EFB-Reverse-Idle"){loading=lazy}
 
         !!! info ""
             Notice how the blue bar (current throttle position) is between two green lines. These green lines are your deadband range for the detent. As long as the blue bar is between them, the throttle reads this as the corresponding detent (in this case, **Reverse Idle**). If you move the throttle outside these green bars, they become gray as you now no longer are in the corresponding detent.
@@ -332,7 +332,7 @@ Click on "Save & Apply".
     - Click on **Idle** in the middle **(3)**.
     - Click on **Set From Throttle** for Axis 1 **(6)** and Axis 2 **(7)**.
 
-        ![EFB-Idle](../../assets/flypados3/throttle-calibration/EFB-Idle.jpg "EFB-Idle"){loading=lazy}
+        ![EFB-Idle](../../assets/flypados3/throttle-calibration/efb-idle.png "EFB-Idle"){loading=lazy}
 
     #### CLB
 
@@ -340,7 +340,7 @@ Click on "Save & Apply".
     - Click on **CLB** in the middle **(3)**.
     - Click on **Set From Throttle** for Axis 1 **(6)** and Axis 2 **(7)**.
 
-        ![EFB-climb](../../assets/flypados3/throttle-calibration/EFB-climb.jpg "EFB-climb"){loading=lazy}
+        ![EFB-climb](../../assets/flypados3/throttle-calibration/efb-climb.png "EFB-climb"){loading=lazy}
 
     #### FLX/MCT
 
@@ -348,7 +348,7 @@ Click on "Save & Apply".
     - Click on **FLX** in the middle **(3)**.
     - Click on **Set From Throttle** for Axis 1 **(6)** and Axis 2 **(7)**.
 
-        ![EFB-flex](../../assets/flypados3/throttle-calibration/EFB-flex.jpg "EFB-flex"){loading=lazy}
+        ![EFB-flex](../../assets/flypados3/throttle-calibration/efb-flex.png "EFB-flex"){loading=lazy}
 
     #### TOGA
 
@@ -356,7 +356,7 @@ Click on "Save & Apply".
     - Click on **TOGA** in the middle **(3)**
     - Click on **Set From Throttle** for Axis 1 **(6)** and Axis 2 **(7)**.
 
-        ![EFB-toga](../../assets/flypados3/throttle-calibration/EFB-toga.jpg "EFB-toga"){loading=lazy}
+        ![EFB-toga](../../assets/flypados3/throttle-calibration/efb-toga.png "EFB-toga"){loading=lazy}
 
     - Click on "SAVE AND APPLY" **(8)**
 
@@ -378,7 +378,7 @@ Click on "Save & Apply".
 
     #### Throttle Mapping
 
-    ![MSFS Throttle Axis (0 TO 100%)](../../assets/flypados3/throttle-calibration/MSFS-ThrottleAxis-0to100.jpg "MSFS Throttle Axis (0 TO 100%)"){loading=lazy}
+    ![MSFS Throttle Axis (0 TO 100 %)](../../assets/flypados3/throttle-calibration/MSFS-ThrottleAxis-0to100.jpg "MSFS Throttle Axis (0 TO 100 %)"){loading=lazy}
 
     This throttle does not have reversers on its axis, so we need to map the reverser activation onto a button on the throttle or key on the keyboard (see **2** below). In the example below, we used the button "3" for this.
 
@@ -398,7 +398,7 @@ Click on "Save & Apply".
 
     - As described above, we go through all detents and set the values accordingly with `Set From Throttle`. The easiest way to do that is by having the flyPad in a separate window next to the throttle, as in the screenshot below.
 
-        ![Flypad-next-to-Throttle](../../assets/flypados3/throttle-calibration/Flypad-next-to-Throttle.jpg "Flypad-next-to-Throttle"){loading=lazy}
+        ![Flypad-next-to-Throttle](../../assets/flypados3/throttle-calibration/flypad-next-to-throttle.png "Flypad-next-to-Throttle"){loading=lazy}
 
     - For the detents CL, FLX and TO GA you can increase the dead zone to make it easier to move your throttle into the detents.
 
@@ -433,13 +433,13 @@ Click on "Save & Apply".
 
     ![Bravo-MSFS-Mapping](../../assets/flypados3/throttle-calibration/bravo-msfs-mapping1.png "Bravo-MSFS-Mapping"){loading=lazy}
 
-    You might need to use `THROTTLE 1/2 AXIS` and not `THROTTLE 1/2 AXIS (0 TO 100%)`.
+    You might need to use `THROTTLE 1/2 AXIS` and not `THROTTLE 1/2 AXIS (0 TO 100 %)`.
 
     Also do make sure to have `REVERSE AXIS` unchecked!
 
-    The `THROTTLE 1/2 DECREASE` mapping to `Buttons 10,26` and `Buttons 11,27` simulates the reverser when the Bravo's reverser lever is lifted (buttons 10 and 11) and the thrust lever is pulled back (buttons 26 and 27). This activates the buttons configured in the image above, and in turn decreases throttle power to negative values for the reverser.
+    The `THROTTLE 1/2 DECREASE` mapping to `Buttons 10, 26` and `Buttons 11, 27` simulates the reverser when the Bravo's reverser lever is lifted (buttons 10 and 11) and the thrust lever is pulled back (buttons 26 and 27). This activates the buttons configured in the image above, and in turn decreases throttle power to negative values for the reverser.
 
-    If you release the reverser levers (buttons 10+11) the mapping to `THROTTLE CUT` activates and put the thrust back to idle.
+    If you release the reverser levers (buttons 10 + 11) the mapping to `THROTTLE CUT` activates and put the thrust back to idle.
 
     If you use the GA levers you will need to map the reverser to some other button, e.g., on your yoke/side stick, as the reverser buttons (10, 11) will not be there.
 
@@ -459,9 +459,9 @@ Click on "Save & Apply".
         reverse_high = -0.950000
         reverse_idle_low = -0.720000
         reverse_idle_high = -0.620000
-        idle_low = -1.000000
-        idle_high = -0.900000
-        climb_low = -0.161230
+        idle_low = - 1.000000
+        idle_high = - 0.900000
+        climb_low = - 0.161230
         climb_high = 0.138770
         flex_mct_low = 0.840000
         flex_mct_high = 0.940000
@@ -528,22 +528,22 @@ Click on "Save & Apply".
     - ++ctrl+f3++: `Increase` throttle by 1/40th
     - ++ctrl+f4++: Set throttles to `TO/GA`
 
-    The A32NX throttle calibration uses values from -1.0 to +1.0:
+    The A32NX throttle calibration uses values from - 1.0 to + 1.0:
 
-    - `Full Reverse` is at -1.0
-    - `IDLE` detent is at -0.5
+    - `Full Reverse` is at - 1.0
+    - `IDLE` detent is at - 0.5
     - `CLB` detent is at 0.0
     - `MCT/FLX` is at 0.5
-    - `TO/GA` is at +1.0.
+    - `TO/GA` is at + 1.0.
 
-    The step size for ++f2++ and ++f3++ is 0.05. This results in 40 steps in total from `Full Reverse` to `TO/GA`. The `CLB` detent is right in the middle at 20 steps.
+    The step size for ++f2++ and ++f3++ is 0.05. This results in 40 steps in total from `Full Reverse` to `TO/GA`. The `CLB` detent is right in the middle at 20 steps.
 
     With the default throttle configuration built into the A32NX, this results in the following number of steps:
 
-    **Counting from `IDLE` (-0.5):**
+    **Counting from `IDLE` (- 0.5):**
 
-    - 10 times ++ctrl+f2++ (decrease) for `Full Reverse` (-1.0)
-    - 10 times ++ctrl+f3++ (increase) for `CLB` detent (-0.0)
+    - 10 times ++ctrl+f2++ (decrease) for `Full Reverse` (- 1.0)
+    - 10 times ++ctrl+f3++ (increase) for `CLB` detent (- 0.0)
     - 10 times ++ctrl+f3++ (increase) for `MCT/FLX` detent (0.5)
     - 10 times ++ctrl+f3++ (increase) for `TO/GA` detent (1.0)
 
