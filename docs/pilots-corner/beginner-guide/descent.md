@@ -19,7 +19,7 @@ The actual final approach (ILS approach) will be covered by a separate chapter.
 
 Aircraft is in `CRUISE` state and phase as per previous chapters
 
-[Download FlyByWire Checklist](../../assets/FBW_A32NX_CHECKLIST.pdf){ .md-button }
+[Download FlyByWire Checklist](../assets/sop/A32NX%20Documentation/FBW%20A32NX%20Checklist.pdf){ .md-button }
 
 ## Chapters / Phases
 

@@ -22,7 +22,7 @@ This guide will explain the correct procedures to accomplish a pushback with eng
 
 At this time, we may request for clearance to push and start from ATC.
 
-[Download FlyByWire Checklist](../../assets/FBW_A32NX_CHECKLIST.pdf){ .md-button }
+[Download FlyByWire Checklist](../assets/sop/A32NX%20Documentation/FBW%20A32NX%20Checklist.pdf){ .md-button }
 
 ---
 
@@ -193,7 +193,7 @@ Complete the after start flow:
 Perform the AFTER START checklist.
 
 !!! info "Setting Pitch Trim Advice"
-    While setting the pitch trim is standard operating procedure, a precisely set trim value on the trim wheel is not critical. As long as your center of gravity (CG) is within CG limits, any trim setting within the green band will provide for a safe takeoff in the A320neo. Appropriate trim settings can be found at the bottom of our [checklist](../../assets/FBW_A32NX_CHECKLIST.pdf).
+    While setting the pitch trim is standard operating procedure, a precisely set trim value on the trim wheel is not critical. As long as your center of gravity (CG) is within CG limits, any trim setting within the green band will provide for a safe takeoff in the A320neo. Appropriate trim settings can be found at the bottom of our [checklist](../assets/sop/A32NX%20Documentation/FBW%20A32NX%20Checklist.pdf).
 
     There is a rotation law in the NEO that gives you a consistent rotation rate for any given stick input, regardless of other conditions. Upon liftoff, the autotrim becomes active.
 
