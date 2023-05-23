@@ -97,7 +97,7 @@ The flight crew uses this button to arm, activate, or disconnect the Autothrust 
 
 The range of this value is between 100 and 49 000 feet.
 
-The outer knob switches the increment step-size for the inner know from 100 to 1000 and vice versa.
+The outer knob switches the increment step-size for the inner knob from 100 to 1000 and vice versa.
 
 The inner knob sets the altitude in the FCU windows in the chosen increment step-size.
 
