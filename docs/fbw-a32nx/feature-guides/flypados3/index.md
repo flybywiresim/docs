@@ -82,8 +82,7 @@ Middle row - left to right:
     - This is useful when you want to align the ADIRS quickly as an exception but don't want to change the Realism setting permanently.
 - Finish Boarding 
     - Pressing this button will immediately finish the boarding process.
-    - This is useful when you wish to finish the boarding process quickly as an exception but don't 
-    - want to change the Realism setting for boarding permanently.
+    - This is useful when you wish to finish the boarding process quickly as an exception but don't want to change the Realism setting for boarding permanently.
 - SimBridge Connection 
     - **SimBridge Off** 
         - SimBridge connection is turned off. 
