@@ -4,9 +4,9 @@ This page details the available bot commands on the FlyByWire Simulations Discor
 
 For information on how to contribute to bot development, visit the Discord bot repository or contact the following users on Discord for assistance:
 
-- BenW#8484
-- oim#0001
-- straks#7240
+- benw8484
+- oim
+- straks
 
 [:fontawesome-brands-github:{: .github } **Discord Bot**](https://github.com/flybywiresim/discord-bot){ .md-button target=new}
 
