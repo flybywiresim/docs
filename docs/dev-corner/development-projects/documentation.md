@@ -18,8 +18,8 @@ If you have questions or suggestions, or if you want to contribute to the FlyByW
 
 [:fontawesome-brands-discord:{: .discord } - **Discord Link**](https://discord.gg/flybywire){target=new}
 
-- Valastiri#8902
-- Cdr_Maverick#6475
+- valastiri
+- cdr_maverick
 - Slein#8982
 
 ### Required Tools
