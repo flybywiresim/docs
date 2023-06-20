@@ -171,7 +171,7 @@ Maneuvre Protection, also called Maneuvre Protection, enables immediate PF react
 The load factor limit is:
 
 - - 1.0 to + 2.5*g* load factor for clean configuration
-- 0 to + 2.0 *g* positive load factor for other configurations
+- 0 to + 2.0*g* positive load factor for other configurations
 
 ### Indication and warnings
 
