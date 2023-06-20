@@ -170,15 +170,15 @@ Maneuvre Protection, also called Maneuvre Protection, enables immediate PF react
 
 The load factor limit is:
 
-- - 1.0 to + 2.5 g load factor for clean configuration
-- 0 to + 2.0 g positive load factor for other configurations
+- - 1.0 to + 2.5*g* load factor for clean configuration
+- 0 to + 2.0*g* positive load factor for other configurations
 
 ### Indication and warnings
 
 !!! block ""
     ![G LOAD factor warning on ECAM](../../assets/advanced-guides/protections/gload-factor-ecam.png "G LOAD factor warning on ECAM"){loading=lazy align=left}
 
-    The lower ECAM displays the load factor (G LOAD) in amber, when the value is above 1.4 g or below 0.7 g for more than 2 s.
+    The lower ECAM displays the load factor (G LOAD) in amber, when the value is above 1.4*g* or below 0.7*g* for more than 2 s.
 
 ## Pitch Attitude Protection
 
