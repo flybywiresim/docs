@@ -90,7 +90,7 @@
 | 1      | Permanent Data Left   | TAT                   | Total Air Temperature is the SAT plus the temperature rise associated with high-speed flight.                                              |
 |        |                       | SAT                   | Static Air Temperature is the temperature of undisturbed air.                                                                              |
 |        |                       | ISA                   | Difference between SAT and the International Standard Atmosphere temperature (ISA) temperature. Only displayed in STD altitude mode.       |
-| 2      | Permanent Data Middle | G LOAD                | G LOAD in amber when g load > 1.4 g or < 0.7 g for more than 2 s. Inhibited in some flight phases.                                         |
+| 2      | Permanent Data Middle | G LOAD                | G LOAD in amber when g load > 1.4*g* or < 0.7*g* for more than 2 s. Inhibited in some flight phases.                                       |
 |        |                       | ALT SEL               | Selected altitude in green when metric units are selected and load factor not displayed.                                                   |
 |        |                       | UTC                   | Universal Time Coordinated (UTC), synchronized with the cockpit clock.                                                                     |
 | 3      | Permanent Data Right  | Gross Weight (GW)     | Gross Weight in green as soon as first engine is started. Last digits dashed if accuracy is degraded. Blue dashes if no data is available. |

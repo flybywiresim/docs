@@ -24,8 +24,8 @@ This list is incomplete, but should mention the most important operational limit
 
 ### Flight Maneuvering Load Acceleration Limits
 
-- Clean configuration: - 1.0 g to + 2.5 g
-- Other configurations: 0 g to + 2 g
+- Clean configuration: - 1.0*g* to + 2.5*g*
+- Other configurations: 0*g* to + 2*g*
 
 ### Environmental Envelope
 
