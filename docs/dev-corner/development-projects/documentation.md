@@ -274,9 +274,9 @@ If you would like to fully test a complete build of the production website, you 
           | 10%  | 83  px |
           | 5%   | 41  px |
 
-- Change the size according to the table - max width is 826px
+- Change the size according to the table - max width is 826 px
 - Compress the png image with a tool - [Website Planet Image Compressor](https://www.websiteplanet.com/webtools/imagecompressor/)
-- Make sure size and quality are good - usually < 100kB
+- Make sure size and quality are good - usually < 100 kB
 
 #### Style
 
