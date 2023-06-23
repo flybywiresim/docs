@@ -243,7 +243,7 @@ If you would like to fully test a complete build of the production website, you 
 
 - Create the image (e.g. screenshots)
 - Edit the image (e.g. add comments, lines, boxes, arrows, etc.)
-  - If you think the original is worth it store it in `/src/assets` - but most images aren't worth it as screenshots are quickly retaken (Keeping local copy of all your screenshots 
+  - If you think the original is worth it store it in `/src/assets` - but most images aren't worth it as screenshots are quickly retaken (Keeping a local copy of all your screenshots 
     is good practice just in case - but it is not worth to clutter the repo with them)
 - Put the edited image in the folder for the topic - e.g. `\docs\pilots-corner\assets\advanced-guides\vnav` for images related to the VNAV topic
   - Link the image in the markdown document - decide on the size you need (See admonition below for references)
