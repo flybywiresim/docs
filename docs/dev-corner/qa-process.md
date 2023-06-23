@@ -65,7 +65,7 @@ How to download the PR for QA
 
     ![GitHub PR Artifact](assets/qa-process/pr-checks-artifact.png "GitHub PR Artifact")
 
-5. Unzip the file and place the "flybywire-aircraft-a320-neo" folder into your Community.
+5. Unzip the file and place the "flybywire-aircraft-a320-neo" folder into your Community Folder. 
 
 !!! info "PR Builds only for FlyByWire QA Team"
     The PR builds are only meant for QA testing and not for daily use. Outside of the FlyByWire QA Team, we do not provide any support or answer any questions regarding these builds.
