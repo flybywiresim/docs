@@ -233,10 +233,50 @@ If you would like to fully test a complete build of the production website, you 
 - Write documentation professionally and clearly.
 - Write for the targeted audience (Sim Beginner, Sim Veteran, Developers, etc.) and don't assume too much pre-knowledge on the reader's side.
 - Use the full availability of features baked into [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/){target=new} to create readable and well formatted guides.
-- Add illustrations where appropriate. Make sure you optimize images to be as small as possible (resize to their actually used size and use JPG Compression (50% is mostly ok)).
+- Add illustrations where appropriate. Make sure you optimize images to be as small as possible (resize to their actually used size and use JPG Compression (50% is mostly ok)). 
+  See [Image Assets Process](#image-assets-process) for more information.
 - Ensure relevant filenames are web-friendly slugs.
 - Don't hesitate to get feedback from the FlyByWire Documentation Team early and often.
 - Proofread your work carefully before marking "Ready for Review".
+
+#### Image Assets Process
+
+- Create the image (e.g. screenshots)
+- Edit the image (e.g. add comments, lines, boxes, arrows, etc.)
+  - If you think the original is worth it store it in `/src/assets` - but most images aren't worth it as screenshots are quickly retaken (Keeping a local copy of all your screenshots 
+    is good practice just in case - but it is not worth to clutter the repo with them)
+- Put the edited image in the folder for the topic - e.g. `\docs\pilots-corner\assets\advanced-guides\vnav` for images related to the VNAV topic
+  - Link the image in the markdown document - decide on the size you need (See admonition below for references)
+
+    !!! tip ""
+        Width of images on docs based on the responsive layout.
+
+          | Size | Width  |
+          |:-----|:-------|
+          | 100% | 826 px |
+          | 95%  | 785 px |
+          | 90%  | 743 px |
+          | 85%  | 702 px |
+          | 80%  | 661 px |
+          | 75%  | 620 px |
+          | 70%  | 578 px |
+          | 65%  | 537 px |
+          | 60%  | 496 px |
+          | 55%  | 454 px |
+          | 50%  | 413 px |
+          | 45%  | 372 px |
+          | 40%  | 330 px |
+          | 35%  | 289 px |
+          | 30%  | 248 px |
+          | 25%  | 206 px |
+          | 20%  | 165 px |
+          | 15%  | 124 px |
+          | 10%  | 83  px |
+          | 5%   | 41  px |
+
+- Change the size according to the table - max width is 826 px
+- Compress the png image with a tool - [Website Planet Image Compressor](https://www.websiteplanet.com/webtools/imagecompressor/)
+- Make sure size and quality are good - usually < 100 kB
 
 #### Style
 
