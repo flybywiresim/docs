@@ -34,7 +34,7 @@
     Just make sure to search for existing issues first before creating a new one.
 
 ??? info "Q: Why is my version not the same as what I see others using?"
-    We have two versions: Stable and Development
+    We have two versions: Stable and Development.
 
     **Stable**
 

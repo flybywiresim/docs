@@ -661,10 +661,10 @@ Flight Deck: [Chrono Panel](../../pilots-corner/a32nx-briefing/flight-deck/front
 
 Flight Deck: [ND Panel](../../pilots-corner/a32nx-briefing/flight-deck/front/nd.md)
 
-| Function       | API Usage                | Values   | Read/Write | Type        | Remark                         |
-|:---------------|:-------------------------|:---------|:-----------|:------------|:-------------------------------|
-| TERR ON ND L   | A32NX_EFIS_TERR_L_ACTIVE | 0&#124;1 | R/W        | Custom LVAR | Currently only in Experimental |
-| TERR ON ND R   | A32NX_EFIS_TERR_R_ACTIVE | 0&#124;1 | R/W        | Custom LVAR | Currently only in Experimental |
+| Function     | API Usage                | Values   | Read/Write | Type        | Remark |
+|:-------------|:-------------------------|:---------|:-----------|:------------|:-------|
+| TERR ON ND L | A32NX_EFIS_TERR_L_ACTIVE | 0&#124;1 | R/W        | Custom LVAR |        |
+| TERR ON ND R | A32NX_EFIS_TERR_R_ACTIVE | 0&#124;1 | R/W        | Custom LVAR |        |
 
 ### DCDU
 
