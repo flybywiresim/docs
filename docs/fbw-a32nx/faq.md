@@ -34,7 +34,7 @@
     Just make sure to search for existing issues first before creating a new one.
 
 ??? info "Q: Why is my version not the same as what I see others using?"
-    We have three versions: Stable, Development, and Experimental.
+    We have two versions: Stable and Development
 
     **Stable**
 
@@ -44,8 +44,9 @@
 
     The Development build is updated daily and is a constant work in progress and although we test each update thoroughly, minor issues may occur from time to time. See [Downloads](installation.md#downloads).
 
-??? info "Q: What is the Experimental Version?"
-    Please read more [here](support/exp.md).
+[//]: # (??? info "Q: What is the Experimental Version?")
+
+[//]: # (    Please read more [here]&#40;support/exp.md&#41;.)
 
 ---
 
