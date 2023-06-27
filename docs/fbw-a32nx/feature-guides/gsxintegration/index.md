@@ -11,7 +11,7 @@ description: A guide to the GSX Integration provided in the development version.
 ## Description
 
 !!! warning "Please Note"
-    This guide covers GSX Integration and the features available in the latest FlyByWire [Development Version](../../fbw-versions.md#development-version-recommended) and [Experimental Version](../../fbw-versions.md#experimental-version).
+    This guide covers GSX Integration and the features available in the latest FlyByWire [Development Version](../../fbw-versions.md#development-version-recommended).
 
     If you use the FlyByWire Stable version, you might not have these features available.
 

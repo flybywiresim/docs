@@ -25,7 +25,7 @@ This version will not always be up-to-date, but we work hard at ensuring its com
 
 ### "Experimental Version"
 
-We have discontinued our Experimental Version. Development will continue on the Development Version of the aircraft. 
+We have discontinued our Experimental Version. Latest features and testing will be on the Development Version of the aircraft. 
 
 ## Version Comparison
 

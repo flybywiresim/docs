@@ -190,8 +190,6 @@ The following list of issues are commonly reported on our Discord support channe
 
     The Stable and Development versions of the A32NX are working well for most of our users. If you encounter problems, you might need to tune your system to handle the complexity of the A32NX (see solutions below).
 
-    The Experimental version has a higher risk of having performance issues. Switch to Development, if these issues make the aircraft unusable for you. 
-
     ^^Possible Solution or Workaround^^
 
     - [Do Not Use DX12](#do-not-use-dx12)

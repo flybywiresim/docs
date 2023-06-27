@@ -96,7 +96,7 @@ It is important to note that the weather radar is not available yet with the lat
 We believe the benefits that cFMS provides outweigh the temporary lack of WX functionality. Weather will still prove to be a challenge due to the lack of a native SDK API. We have posted about it on the MSFS forums, where it currently sits at the top of the wishlist, and Asobo are investigating how to best improve their API.
 
 [Read more about the weather and terrain API.](https://forums.flightsimulator.com/t/implement-weather-and-terrain-api-s-for-aircraft-developers-to-implement-accurate-radar-predictive-windshear-egpws-and-metar-wind-uplink/442016){target=new}
-**Please note again that terrain radar is being tested in our Experimental version.**
+**Please note again that terrain radar is available on our Stable and Development Versions.**
 
 ## Flight Path Rendering
 

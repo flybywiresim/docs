@@ -27,7 +27,7 @@ Please follow the information on this page to install the FlyByWire Simulations 
 
 ### FlyByWire Installer
 
-Download the new FlyByWire installer where you can select either the Stable, Development, or Experimental build. Our installer downloads and installs the add-on directly into your community folder.
+Download the new FlyByWire installer where you can select either the Stable, or Development build. Our installer downloads and installs the add-on directly into your community folder.
 
 The following commands can be used:
 
@@ -74,19 +74,26 @@ You can send us logs to our [Discord](https://discord.gg/flybywire){target=new} 
          
          [**IMPORTANT:** View information on Autopilot / Fly-By-Wire here](feature-guides/autopilot-fbw.md)
 
-    === "Experimental Version"
+[//]: # (    === "Experimental Version")
 
-        This version is similar to the development version, but contains custom systems early in the development phase - expect issues.
+[//]: # ()
+[//]: # (        This version is similar to the development version, but contains custom systems early in the development phase - expect issues.)
 
-        To see what features are being tested in our experimental version, please read [Experimental Version Support 
-        Page](support/exp.md) before using this version.
-    
-        It will be updated with the latest changes to the development version every week or so while new major features are tested (not guaranteed).
+[//]: # ()
+[//]: # (        To see what features are being tested in our experimental version, please read [Experimental Version Support )
 
-        [Download Experimental](https://github.com/flybywiresim/a32nx/releases/download/assets/experimental/A32NX-experimental.zip){.md-button target=new}
+[//]: # (        Page]&#40;support/exp.md&#41; before using this version.)
 
-        !!! danger "No Support for Experimental - use at own risk"
-            Please do not seek support for the Experimental Version on Discord, and only report issues if you have read this page and the reported and known issues.
+[//]: # (    )
+[//]: # (        It will be updated with the latest changes to the development version every week or so while new major features are tested &#40;not guaranteed&#41;.)
+
+[//]: # ()
+[//]: # (        [Download Experimental]&#40;https://github.com/flybywiresim/a32nx/releases/download/assets/experimental/A32NX-experimental.zip&#41;{.md-button target=new})
+
+[//]: # ()
+[//]: # (        !!! danger "No Support for Experimental - use at own risk")
+
+[//]: # (            Please do not seek support for the Experimental Version on Discord, and only report issues if you have read this page and the reported and known issues.)
 
 ---
 
