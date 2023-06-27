@@ -10,7 +10,7 @@ Please follow the information on this page to install the FlyByWire SimBridge to
 
 #### Add-on Install
 
-When you attempt to install an add-on or different add-on version (for example, switching from Development to Experimental) you will be prompted to install SimBridge
+When you attempt to install an add-on or different add-on version (for example, switching from Stable to Development) you will be prompted to install SimBridge
 
 ![SimBridge install prompt](../assets/installer_prompt.png "Prompt to install SimBridge when installing an add-on that requires it"){loading=lazy}
 

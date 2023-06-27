@@ -32,9 +32,6 @@ SimBridge is our custom-built solution to connect our aircraft to various extern
 
 !!! warning "Important Notes"
     Please keep SimBridge updated at all times, regardless of the version of aircraft you are currently flying!
-
-    !!! tip ""
-        Reminder: Any feature available in the Development version will also be available in the Experimental version.
     
     ---
 
