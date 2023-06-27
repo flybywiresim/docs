@@ -9,7 +9,7 @@ hide:
 [Clickable Flight Deck](../../pilots-corner/a32nx-briefing/flight-deck/index.md){ .md-button }
 
 !!! note ""
-    The below table might lag behind the current developments of the A32NX. It is based on the A32NX Development version, and we try to keep it updated as good as possible. Some variables/events are only available in the Experimental version of A32NX and are marked as such.
+    The below table might lag behind the current developments of the A32NX. It is based on the A32NX Development version, and we try to keep it updated as best as possible.
 
     You can help us keep this up to date and improve this by reporting any errors or omissions on our [:fontawesome-brands-discord:{: .discord } - **Discord**](https://discord.gg/flybywire){target=new} in the **#a32nx-support** channel or by creating an issue report here: [Docs Issues](https://github.com/flybywiresim/docs/issues){target=new}.
 
