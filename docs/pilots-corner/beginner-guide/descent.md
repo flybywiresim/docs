@@ -250,7 +250,7 @@ A few minutes before we reach our calculated descent point (TOD) we request clea
 !!! info "TOD marker A320"
     The A320 has a downward pointing arrow at the TOD to support the pilot with the decision of when to descend. Ultimately, it is still the pilot's responsibility to calculate and validate the TOD.
 
-    The TOD (top of descent) marker on the `ND` is available in the Development and Experimental version. 
+    The TOD (top of descent) marker on the `ND` is available in the Development version. 
 
 When clearance is given, we can start our descent to the flight level or altitude ATC has given us.
 
@@ -278,7 +278,7 @@ Also, ATC will often still expect us to respect the STAR's constraints, although
     The scenario that we are cleared to a lower altitude or flight level with altitude constraints above the clearance is an ideal scenario for the called so "VNAV" autopilot mode, which would be activated by using "`Managed Altitude Mode`" (pushing the `ALT selector`). The autopilot will automatically level off at the constraint and continue descending when the constraint is no longer valid.
 
     !!! warning ""
-        VNAV is currently only supported in our Development and Experimental versions of the A32NX.
+        VNAV is currently only supported in our Development version of the A32NX.
 
 We repeat the process until we have reached our desired final approach altitude.
 
