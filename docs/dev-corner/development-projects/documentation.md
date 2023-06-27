@@ -20,7 +20,7 @@ If you have questions or suggestions, or if you want to contribute to the FlyByW
 
 - valastiri
 - cdr_maverick
-- Slein#8982
+- slein15
 
 ### Required Tools
 
