@@ -227,7 +227,7 @@ Settings for integrations with various 3rd party applications
 </div>
 
 !!! warning ""
-    This feature is only available in the [Development Version](../../fbw-versions.md#development-version-recommended) and [Experimental Version](../../fbw-versions.md#experimental-version)
+    This feature is only available in the [Development Version](../../fbw-versions.md#development-version-recommended)
 
 #### GSX Integration
 These options are separate to provide you with the flexibility to choose what to sync with GSX and what not to sync. 
