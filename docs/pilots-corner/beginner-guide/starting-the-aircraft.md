@@ -71,6 +71,9 @@ If ground power is available, we should see a green `AVAIL` light on the `EXT PW
 
 #### Flight Warning System Initialization
 
+!!! warning ""
+    Various aspects of this system is being reworked and it may not function as intended. This section will be updated once the rework is complete.
+
 The Flight Warning System (FWS) is a system that monitors the aircraft and alerts the crew of any abnormalities. The FWS initializes as soon as AC Bus power (External Power or APU) becomes available. 
 
 The initialization takes about 50 seconds and is indicated by the `FWS FWC 1+2 FAULT` message on the ECAM. The message will disappear, and various alarms may play once the initialization is complete.
