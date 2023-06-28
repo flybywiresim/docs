@@ -61,7 +61,7 @@ You can send us logs to our [Discord](https://discord.gg/flybywire){target=new} 
 
           [Download Stable](https://github.com/flybywiresim/a32nx/releases/download/assets/stable/A32NX-stable.zip){.md-button target=new}
 
-          Latest release notes: [View Here](https://docs.flybywiresim.com/latest-release/)
+          Latest release notes: [View Here](/latest-release/)
 
 
     === "Development Version"
