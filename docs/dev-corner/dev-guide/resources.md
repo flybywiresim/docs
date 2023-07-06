@@ -35,13 +35,13 @@ Our tech stack includes the following:
 !!! info "Tech Stack / Language Summary"
     Below you can find a table summary of the languages and technologies used in the A32NX project.
 
-    |           Category            | Language / Technology                                     |
-    |:-----------------------------:|-----------------------------------------------------------|
-    |            General            | React                                                     |
-    |           flyPadOS            | Tailwind CSS, Redux                                       |
-    |  Autopilot / Flight Controls  | MATLAB / C++                                              |
+    | Category                      | Language / Technology                                     |
+    |:------------------------------|-----------------------------------------------------------|
+    | General                       | React                                                     |
+    | flyPadOS                      | Tailwind CSS, Redux                                       |
+    | Autopilot / Flight Controls   | MATLAB / C++                                              |
     | Systems / Physics Simulations | Rust                                                      |
-    |      Displays / Avionics      | Typescript / React (deprecated) / MSFS Avionics Framework |
+    | Displays / Avionics           | Typescript / React (deprecated) / MSFS Avionics Framework |
 
 - Systems development for aircraft uses Rust and the `msfs-rs` library.
 - Avionics programming is done using JavaScript or TypeScript (depending on the project), with the `React.js` rendering library.
