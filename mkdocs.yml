@@ -23,6 +23,7 @@ theme:
     scheme: slate
     primary: custom
   features:
+    - navigation.prune
     - navigation.tabs
     - navigation.tabs.sticky
     # Removed this feature again as it's breaking TOC navigation on reported-issues.md
