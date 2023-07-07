@@ -1,3 +1,7 @@
+---
+status: new
+---
+
 ## General
 
 ???+ info "Q: Where is the plane in-sim?"
