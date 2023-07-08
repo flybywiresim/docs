@@ -44,7 +44,7 @@
     Do this before reporting bugs.
 
 !!! tip "Issues with SimBridge"
-    If you're having issues with SimBridge, please follow our dedicated [SimBridge Troubleshooting Guide](https://docs.flybywiresim.com/simbridge/troubleshooting/)
+    If you're having issues with SimBridge, please follow our dedicated [SimBridge Troubleshooting Guide](https://docs.flybywiresim.com/simbridge/troubleshooting/).
 
 <!--
 
