@@ -41,10 +41,12 @@
 
     ---
 
-    Do this before reporting bugs.
+    If you're having issues with ^^SimBridge^^, please follow our dedicated [SimBridge Troubleshooting Guide](../../simbridge/troubleshooting.md).
 
-!!! tip "Issues with SimBridge"
-    If you're having issues with SimBridge, please follow our dedicated [SimBridge Troubleshooting Guide](../../simbridge/troubleshooting.md).
+    ---
+
+    Do this before reporting bugs.
+---
 
 <!--
 
