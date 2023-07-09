@@ -42,7 +42,8 @@
     ---
 
     If you're having issues with ^^SimBridge^^, please follow our dedicated guide for it 
-    - [**SimBridge Troubleshooting Guide**](../../simbridge/troubleshooting.md).
+    
+    - [**SimBridge Troubleshooting Guide**](../../simbridge/troubleshooting.md)
 
     ---
 
