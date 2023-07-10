@@ -21,6 +21,7 @@ Engine      CFM LEAP 1A-26
 APU         APS3200
 FMS         Honeywell Release H3
 FWC Std.    H2F13
+RA          Honeywell ALA-52B
 TAWS        Honeywell EGPWS
 ACAS        Honeywell TPA-100B
 ATC         Honeywell TRA-100B
