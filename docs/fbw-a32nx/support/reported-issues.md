@@ -41,8 +41,13 @@
 
     ---
 
-    Do this before reporting bugs.
+    If you're having issues with ^^SimBridge^^, please follow our dedicated guide for it:
+    
+    - [**SimBridge Troubleshooting Guide**](../../simbridge/troubleshooting.md)
 
+    ---
+
+    Do this before reporting bugs.
 ---
 
 <!--
