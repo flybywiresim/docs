@@ -1002,7 +1002,7 @@ The following add-ons and mods are known to be incompatible and cause issues wit
 
     ^^Additional Information^^
 
-    The author of this mod specifically states that if any issues are present with our aircraft then this mod should be removed when flying.
+    The author of this mod specifically states that, if any issues are present with our aircraft, then this mod should be removed when flying.
 
 ??? bug "Lights Addons"
     ### Lights Addons
