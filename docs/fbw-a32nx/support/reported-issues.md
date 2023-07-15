@@ -982,6 +982,28 @@ Please try these before reporting any other issue on Discord.
 
 The following add-ons and mods are known to be incompatible and cause issues with the A32NX. We recommend you uninstall these before starting the sim and flying with the A32NX, especially if you experience issues with the aircraft.
 
+??? bug "Weather Radar Mod"
+    ### Weather Radar Mod
+    
+    !!! tip ""
+        *Affected versions: Development*
+    
+    ^^Description^^
+    
+    Aircraft systems may no longer function appropriately when the Weather Radar Mod for FBW A320 Neo is installed. 
+
+    ^^Root Cause^^
+
+    This addon overwrites the entire Navigation Display.
+
+    ^^Possible Solution or Workaround^^
+
+    Uninstall the mod.
+
+    ^^Additional Information^^
+
+    The author of this mod specifically states that, if any issues are present with our aircraft, then this mod should be removed when flying.
+
 ??? bug "Lights Addons"
     ### Lights Addons
 
