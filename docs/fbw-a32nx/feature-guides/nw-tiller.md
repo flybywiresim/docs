@@ -54,7 +54,7 @@ Microsoft Flight Simulator introduced a separate nose wheel axis with the launch
 For compatibility, we currently have two settings available for use with our Nose Wheel Tiller implementation. Originally, we utilized an unused axis to map the movement of your desired controller. Please see the two options below:
 
 - `NOSE WHEEL STEERING AXIS` - <span style=color:green>**Recommended Setting**</span>
-- `MIXTURE 4 AXIS (-100 % to 100 %)` - <span style=color:orange>To be depreciated soon.</span>
+- `MIXTURE 4 AXIS (-100 % to 100 %)` - <span style=color:orange>Deprecated for future removal.</span>
 
 #### How to Configure NOSE WHEEL STEERING AXIS
 
@@ -66,7 +66,7 @@ Map `NOSE WHEEL STEERING AXIS` to the controller axis you want to use for the ti
 
 ??? warning "How to configure MIXTURE 4 AXIS (-100 % to 100 %) - OLD"
 
-    Please note, this configuration <span style=color:orange>will be depreciated soon.</span>
+    Please note, this configuration <span style=color:orange>is deprecated and will be removed in the future.</span>
 
     ![MSFS Controller Options Mapping](../assets/nw-tiller/handwheel-controller-mapping.png "MSFS Controller Options Mapping"){loading=lazy}
 
