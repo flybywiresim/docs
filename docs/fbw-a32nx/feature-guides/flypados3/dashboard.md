@@ -36,7 +36,7 @@ The provided widgets are:
 - Checklists:
     - Specific checklists according to the current flight phase ([Checklists page](checklists.md))
 - Maintenance:
-    - Shows active failures from the [Failures page](failures.md) 
+    - Shows active failures from the [Failures page](failures/failures.md) 
 
 ![Widgets Rearrange](../../assets/flypados3/widgets-rearrange.png)
 
