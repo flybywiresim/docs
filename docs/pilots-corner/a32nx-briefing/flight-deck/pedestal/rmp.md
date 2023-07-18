@@ -64,7 +64,7 @@ Turning these knobs selects the STBY frequency or CRS.
 Used to select AM mode if the aircraft has a VH transceiver.
 
 !!! info ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+    Currently only available in the Development version of the aircraft.
 
 ### SEL indicator
 
@@ -131,35 +131,35 @@ These knobs are used to allow the flight crew to activate a channel for receptio
 Extinguishes CALL, MECH, and ATT lights.
 
 !!! info ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+    Currently only available in the Development version of the aircraft.
 
 ### VOICE
 
 Inhibit the audio navigation signals (VOR, ADF) and filters out ident signals and turns on the green ON light.
 
 !!! info ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+    Currently only available in the Development version of the aircraft.
 
 ### INT/RAD
 
 Press-to-talk switch for boom mike or oxygen mask mike.
 
 !!! info ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+    Currently only available in the Development version of the aircraft.
 
 ### PA (Passenger Address)
 
 Passenger Address is used by the flight personnel to make passenger announcements through loudspeakers in the cabin.
 
 !!! info ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+    Currently only available in the Development version of the aircraft.
 
 #### PA transmission key
 
 Pressed and held: To make an announcement, a boom, mask, or hand mike is used
 
 !!! info ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+    Currently only available in the Development version of the aircraft.
 
 #### PA reception knob
 
@@ -169,7 +169,7 @@ Pressed and held: To make an announcement, a boom, mask, or hand mike is used
     - The PA system is disconnected. The white light goes out.
 
 !!! info ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+    Currently only available in the Development version of the aircraft.
 
 ---
 
