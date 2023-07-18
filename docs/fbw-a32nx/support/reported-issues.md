@@ -93,7 +93,8 @@ The following list of issues are commonly reported on our Discord support channe
 ??? bug "Invisible Aircraft"
     ### Invisible Aircraft
 
-    *Affected versions: Stable, Development*
+    !!! tip ""
+        *Affected versions: Stable, Development*
 
     ^^Description^^
 
@@ -106,7 +107,8 @@ The following list of issues are commonly reported on our Discord support channe
 ??? bug "Infinite Loading Times"
     ### Infinite Loading Times
 
-    *Affected versions: Stable, Development*
+    !!! tip ""
+        *Affected versions: Stable, Development*
 
     ^^Description^^
 
@@ -126,7 +128,8 @@ The following list of issues are commonly reported on our Discord support channe
 ??? bug "Broken Systems, Black Screens, Broken Cockpit Layout"
     ### Broken Systems, Black Screens, Broken Cockpit Layout
 
-    *Affected versions: Stable, Development*
+    !!! tip ""
+        *Affected versions: Stable, Development*
 
     ^^Description^^
 
@@ -145,7 +148,8 @@ The following list of issues are commonly reported on our Discord support channe
 ??? bug "Outdated Systems And Missing Features, Although Current Version Installed"
     ### Outdated Systems And Missing Features, Although Current Version Installed
 
-    *Affected versions: Stable, Development*
+    !!! tip ""
+        *Affected versions: Stable, Development*
 
     ^^Description^^
 
@@ -162,7 +166,8 @@ The following list of issues are commonly reported on our Discord support channe
 ??? bug "Cockpit Lights and Display Are Erratically On"
     ### Cockpit Lights and Display Are Erratically On
 
-    *Affected versions: Stable, Development*
+    !!! tip ""
+        *Affected versions: Stable, Development*
 
     ^^Description^^
 
@@ -208,7 +213,8 @@ The following list of issues are commonly reported on our Discord support channe
 ??? bug "Unable to Move or Taxi"
     ### Unable to Move or Taxi
 
-    *Affected versions: Stable, Development*
+    !!! tip ""
+        *Affected versions: Stable, Development*
 
     ^^Description^^
 
@@ -225,7 +231,8 @@ The following list of issues are commonly reported on our Discord support channe
 ??? bug "Hard To Control the Aircraft during Taxi, TakeOff, or Landing"
     ### Hard To Control the Aircraft during Taxi, TakeOff, or Landing
     
-    *Affected versions: Stable, Development*
+    !!! tip ""
+        *Affected versions: Stable, Development*
 
     ^^Description^^
 
@@ -950,6 +957,7 @@ Please try these before reporting any other issue on Discord.
     
     This is an MSFS issue sometimes triggered by pushback tools like Toolbar Pushback Add-on and the flyPad pushback 
     system.   
+
 
 ## FBW Installer Issues
 
