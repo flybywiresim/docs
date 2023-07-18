@@ -389,6 +389,11 @@ The following list of issues are commonly reported on our Discord support channe
 ??? warning "Nav Data Issues"
     ### Nav Data Issues
 
+    !!! tip ""
+        *Affected versions: Stable, Development*
+
+    ^^Description^^
+
     The A32NX uses the sim's nav data. So, any nav data issues will usually also be present in other default aircraft and the World Map.
 
     You can test these issues by using the MSFS World Map. If the required nav data (waypoint, SID, STAR, APPR, Rwy, Airport, etc.) is missing in the World Map as well, then it is a general nav data issue and not an issue with 
@@ -398,6 +403,8 @@ The following list of issues are commonly reported on our Discord support channe
 
     Any of these errors during route import could mean that your route is no longer valid in the current cycle, and 
     cannot be properly used as a valid flight plan in the sim. 
+
+    ^^Possible Solution or Workaround^^
 
     To avoid this, we recommend a Navigraph subscription, which will make sure SimBrief and the sim have identical nav data. Also, you would have the matching Navigraph charts at your disposal.
 
@@ -670,9 +677,16 @@ The following list of issues are commonly reported on our Discord support channe
 ??? warning "Refuelling/Boarding Buttons Missing/Disabled on EFB Fuel/Payload Page"
     ### Refuelling/Boarding Buttons Missing/Disabled on the EFB Fuel/Payload Page
 
+    !!! tip ""
+        *Affected versions: Stable, Development*
+
+    ^^Description^^
+
     You may find the 'play' button (that is used to initialise the refuelling processing) or the boarding button (used to initiate boarding of passengers) is missing or disabled on the 'Fuel' or 'Payload' page of the EFB (flyPad). This occurs when [GSX Synchronization](https://docs.flybywiresim.com/fbw-a32nx/feature-guides/flypados3/settings/#3rd-party-options) is enabled. 
 
     GSX is third-party software developed and sold by FSDreamteam, which you can purchase and install to enhance ground operations at airports.
+
+    ^^Possible Solution or Workaround^^
     
     - If you are **not** using GSX, then you will need to disable both options on the [GSX Synchronization](https://docs.flybywiresim.com/fbw-a32nx/feature-guides/flypados3/settings/#3rd-party-options) page on the EFB, under Settings -> 3rd Party Options.
     
