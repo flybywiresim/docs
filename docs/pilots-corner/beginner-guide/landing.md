@@ -159,7 +159,7 @@ To set us up for the final approach we do the following steps:
 - Set `FLAPS 3` and shortly after `FLAPS FULL` (always check speed before setting flaps. Otherwise, you might end up in an overspeed situation).
 - Going `FLAPS FULL` will reduce our speed to V~app~.
 - Arm `Autobrakes` (`Low` when dry, `Med` in rain or snow or a short runway).
-    - If MAX manual braking is required please see the section below - [here](#max-manual-braking-scenario).
+    - If MAX manual braking is required, please see the section below - [here](#max-manual-braking-scenario).
 - Arm `Speedbrake` by pulling up the `Speedbrake` lever (Speedbrake must be retracted to arm).
 
 **We need to be fully set up and stable at 1,000ft above the ground.**
@@ -272,7 +272,7 @@ At about 60 knots we put the thrust levers back to idle and at about 40 knots w
 
 ### MAX Manual Braking Scenario
 
-In a situation where pilot flying has established that MAX manual braking is to be performed, the following actions are required:
+In a situation, where the pilot flying has established that MAX manual braking is to be performed, the following actions are required:
 
 - Autobrake medium must be selected.
 - Reverser MAX must be selected at touchdown.
