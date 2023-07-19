@@ -99,7 +99,7 @@ Power supply to the RMP.
 ![RMP Transmission Keys](../../../assets/a32nx-briefing/pedestal/RMP-transmission-keys.png)
 
 !!! info ""
-    Currently only the VHF1-3 channels are available in the FBW A32NX for Microsoft Flight Simulator.
+    Only VHF1-3 channels are available in the Stable version of the A32NX. The rest of the channels are available and operational in the Development version of the A32NX. 
 
 - Pressed:
     - Channel selected for transmission.
@@ -119,7 +119,7 @@ Power supply to the RMP.
 ![Reception Knobs](../../../assets/a32nx-briefing/pedestal/RMP-receiption-knobs-2.png "Reception Knobs")
 
 !!! info ""
-    Currently, only the VHF2-3 channels are available for selection in the FBW A32NX for Microsoft Flight Simulator. VHF1 is always selected, although not lit.
+    VHF2-3 channels are available for selection in the while VHF1 is always selected, although not lit in the current Stable version of the A32NX. The rest of the channels are available and operational in the Development version of the A32NX.
 
 These knobs are used to allow the flight crew to activate a channel for reception and to adjust volume.
 
