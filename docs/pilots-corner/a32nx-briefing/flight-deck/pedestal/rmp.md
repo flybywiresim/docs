@@ -142,7 +142,7 @@ Inhibit the audio navigation signals (VOR, ADF) and filters out ident signals an
 
 ### INT/RAD
 
-Press-to-talk switch for boom mike or oxygen mask mike.
+Press-to-talk switch for boom mic or oxygen mask mic.
 
 !!! info ""
     Currently only available in the Development version of the aircraft.
@@ -156,7 +156,7 @@ Passenger Address is used by the flight personnel to make passenger announcement
 
 #### PA transmission key
 
-Pressed and held: To make an announcement, a boom, mask, or hand mike is used
+Pressed and held: To make an announcement, a boom, mask, or hand mic is used
 
 !!! info ""
     Currently only available in the Development version of the aircraft.
