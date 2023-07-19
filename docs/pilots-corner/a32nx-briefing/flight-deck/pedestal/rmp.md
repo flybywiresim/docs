@@ -158,7 +158,7 @@ Pressed and held: To make an announcement, a boom, mask, or hand mic is used
 !!! info ""
     Currently only available in the Development version of the aircraft. 
     
-    Due to MSFS limitations you are unable to talk and hear your mic transmissions for PA announcements. However you can use 3rd party addons to allow this functionality. 
+    Due to MSFS limitations you are unable to talk and hear your mic transmissions for PA announcements, but you can use 3rd party addons to integrate this functionality.
     
     [A32NX Flight Deck API](/fbw-a32nx/a32nx-api/a32nx-flightdeck-api/#rmp){ .md-button }
 
@@ -172,7 +172,7 @@ Pressed and held: To make an announcement, a boom, mask, or hand mic is used
 !!! info ""
     Currently only available in the Development version of the aircraft. 
     
-    Due to MSFS limitations you are unable to talk and hear your mic transmissions for PA announcements. However you can use 3rd party addons to allow this functionality. 
+    Due to MSFS limitations you are unable to talk and hear your mic transmissions for PA announcements, but you can use 3rd party addons to integrate this functionality. 
     
     [A32NX Flight Deck API](/fbw-a32nx/a32nx-api/a32nx-flightdeck-api/#rmp){ .md-button }
 
