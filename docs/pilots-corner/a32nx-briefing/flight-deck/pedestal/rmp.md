@@ -151,9 +151,6 @@ Press-to-talk switch for boom mic or oxygen mask mic.
 
 Passenger Address is used by the flight personnel to make passenger announcements through loudspeakers in the cabin.
 
-!!! info ""
-    Currently only available in the Development version of the aircraft.
-
 #### PA transmission key
 
 Pressed and held: To make an announcement, a boom, mask, or hand mic is used
