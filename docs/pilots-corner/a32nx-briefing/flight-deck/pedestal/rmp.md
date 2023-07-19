@@ -64,7 +64,7 @@ Turning these knobs selects the STBY frequency or CRS.
 Used to select AM mode if the aircraft has a VH transceiver.
 
 !!! info ""
-    Currently only available in the Development version of the aircraft.
+    Currently INOP or not implemented for the A32NX.
 
 ### SEL indicator
 
