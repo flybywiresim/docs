@@ -379,6 +379,18 @@ The following list of issues are commonly reported on our Discord support channe
 
     Follow the MSFS Forums Discussion - [here](https://forums.flightsimulator.com/t/after-playing-a-few-hours-fps-drops-from-40-to-5fps/389603/941).
 
+??? bug "Unable to refuel/board/load via the EFB Ground Page"
+    ### Unable to refuel/board/load via the EFB Ground Page
+
+    !!! tip ""
+        *Affected versions: Stable, Devolepment*
+
+    ^^Description^^
+
+    If the "start refuelling/boarding/loading" Play/Stop button is grey, and not blue, it is usually caused by the GSX integration being enabled. 
+    - If you do use the GSX addon by FSDreamTeam, please read our [GSX Documentation](../feature-guides/gsxintegration.md) for more information regarding the use of the integration
+    - If you do not use the GSX addon, and have still enabled the GSX integration, you should disable it in the [Third-Party Settings](../feature-guides/flypados3/settings.md#3rd-party-options), as you do not need this integration enabled.
+
 ??? warning "Nav Data Issues"
     ### Nav Data Issues
 
