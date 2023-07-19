@@ -159,7 +159,7 @@ Passenger Address is used by the flight personnel to make passenger announcement
 Pressed and held: To make an announcement, a boom, mask, or hand mic is used
 
 !!! info ""
-    Currently only available in the Development version of the aircraft.
+    Currently only available in the Development version of the aircraft. Due to Microsoft Flight Simulator limitations, this feature will not allow you to talk and hear the PA announcements, however you can use 3rd party addons to allow this functionality. [A32NX Flight Deck API](/fbw-a32nx/a32nx-api/a32nx-flightdeck-api/#rmp)
 
 #### PA reception knob
 
@@ -169,7 +169,7 @@ Pressed and held: To make an announcement, a boom, mask, or hand mic is used
     - The PA system is disconnected. The white light goes out.
 
 !!! info ""
-    Currently only available in the Development version of the aircraft.
+    Currently only available in the Development version of the aircraft. Due to Microsoft Flight Simulator limitations, this feature will not allow you to talk and hear the PA announcements, however you can use 3rd party addons to allow this functionality. [A32NX Flight Deck API](/fbw-a32nx/a32nx-api/a32nx-flightdeck-api/#rmp)
 
 ---
 
