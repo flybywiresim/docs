@@ -127,6 +127,14 @@ Enter a search term to filter for specific systems.
 - add images of each page on the failures page
 - consider moving this back into the regular EFB page
 
+!!! note "Configuration Options"
+    Each generator can be configured in the following 4 modes:
+
+    - OFF : Generator is disabled but settings are kept
+    - ONCE : The generator will trigger a set of failures only once and go to OFF mode
+    - TAKE OFF : The generator will wait until FL or TOGA thrust is set to arm itself. It will trigger a set of failures only once until another take off event occurs.
+    - REPEAT : The generator will trigger a set of failures every time the conditions are met.
+
 ### Altitude Failure Generator
 
 This generator triggers a set of failures among the selected failure pool when the airplane reaches a random altitude set between the specified minimum and maximum altitude.
@@ -166,15 +174,6 @@ If a failure will occur during the next take off, it may happen at any moment, d
     - The take off phase when the plane exceeds the med-high transition speed and is lower than the specified height above the runway. 
 
 The choice between the 3 phases will be random, using the probability of each phase defined in the settings.
-
-### Rearming Options
-
-Each generator can be configured in the following 4 modes:
-
-- OFF : Generator is disabled but settings are kept
-- ONCE : The generator will trigger a set of failures only once and go to OFF mode
-- TAKE OFF : The generator will wait until FL or TOGA thrust is set to arm itself. It will trigger a set of failures only once until another take off event occurs.
-- REPEAT : The generator will trigger a set of failures every time the conditions are met.
 
 ### Max Failures and Number of Failures
 
