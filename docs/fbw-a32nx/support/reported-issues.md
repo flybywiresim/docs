@@ -682,9 +682,9 @@ The following list of issues are commonly reported on our Discord support channe
 
     ^^Description^^
 
-    You may find the 'play' button (that is used to initialise the refueling processing) or the 'boarding' button (used to initiate boarding of passengers) is missing or disabled on the 'Fuel' or 'Payload' page of the EFB (flyPad). This occurs when [GSX Synchronization](https://docs.flybywiresim.com/fbw-a32nx/feature-guides/flypados3/settings/#3rd-party-options) is enabled. 
+    You may find the 'play' button (that is used to initialise the refueling process) or the 'boarding' button (used to initiate boarding of passengers) is missing or disabled on the 'Fuel' or 'Payload' page of the EFB (flyPad). This occurs when [GSX Synchronization](https://docs.flybywiresim.com/fbw-a32nx/feature-guides/flypados3/settings/#3rd-party-options) is enabled. 
 
-    GSX is third-party software developed and sold by FSDreamteam, which you can purchase and install to enhance ground operations at airports.
+    GSX is a third-party software developed and sold by FSDreamteam, which you can purchase and install to enhance ground operations at airports.
 
     ^^Possible Solution or Workaround^^
     
