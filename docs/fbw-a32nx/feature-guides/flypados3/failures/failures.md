@@ -6,11 +6,16 @@
 
 Although far from complete, some A32NX systems are already capable of simulating failures.
 
-To manage and trigger these failures, this flyPad page gives the user structured access to these systems and allows simple triggering of failures by mouse click.
+To manage and trigger these failures, this flyPad page gives the user structured access to two types of systems:
+
+- Simple on demand triggering of failures by mouse click.
+- A more complex failure generator that can be customized to create failures at certain points during your flight for a more "randomized" feel. [Jump to Failure Generator](#failure-generator).
 
 There are further extensions planned for the failures feature, incl. more systems and trigger-based failures. This page will therefore change alongside the implementation of the failure system.
 
-## Comfort view
+## On Demand Failures
+
+### Comfort View
 
 <div style="position: relative;">
     <img src="/fbw-a32nx/assets/flypados3/flypad-failures.png" style="width: 100%; height: auto;" loading="lazy">
@@ -27,7 +32,7 @@ There are further extensions planned for the failures feature, incl. more system
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
 
-## Compact view
+### Compact View
 
 <div style="position: relative;">
     <img src="/fbw-a32nx/assets/flypados3/flypad-failures-compact-view.png" style="width: 100%; height: auto;" loading="lazy">
@@ -44,7 +49,7 @@ There are further extensions planned for the failures feature, incl. more system
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
 
-## System View
+### System View
 
 <div style="position: relative;">
     <img src="/fbw-a32nx/assets/flypados3/flypad-failures-system-view.png" style="width: 100%; height: auto;" loading="lazy">
@@ -61,7 +66,7 @@ There are further extensions planned for the failures feature, incl. more system
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
 
-## Active Failure View
+### Active Failure View
 
 When a failure is actively simulated, the system will be highlighted with a red color. 
 
@@ -95,7 +100,7 @@ When a failure is actively simulated, the system will be highlighted with a red 
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
 
-## Search
+### Search
 
 Enter a search term to filter for specific systems. 
 
@@ -114,3 +119,65 @@ Enter a search term to filter for specific systems.
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
 
+## Failure Generator
+
+### Altitude Failure Generator
+
+This generator triggers a set of failures among the selected failure pool when the airplane reaches a random altitude set between the specified minimum and maximum altitude.
+
+It may be configured either to trigger while the plane climbs or descends.
+
+### Speed Failure Generator
+
+This generator triggers a set of failures among the selected failure pool when the airplane reaches a random speed set between the specified minimum and maximum speed.
+
+It may be configured either to trigger while the plane accelerates or decelerates.
+
+### Timed Failure Generator
+
+This generator triggers a set of failures among the selected failure pool when the time since the arming of the generator reaches a random delay set between the specified minimum and maximum delay.
+
+- When configured in the "repeat" or "Once" arming modes, the timer will start right away.
+- When configured in the "Take Off" arming, the timer will start once FL or TOGA thrust is set for the first time.
+
+### Probability Over Time Generator
+
+At any moment, this generator may trigger a set of failures among the selected failure pool by using the probability specified through the average number of failure per hour.
+The mean time to failure (MTTF) is provided as an indication of the delay it may take in average to trigger one failure for the probability of failure per hour.
+Note: In aviation rates of failure vary between 10e-3 per hour and 10e-9 per hour depending on the criticality of the system.
+For simulation purposes, it is advised to set this value at a much higher level up to 10e-1 (0.1 failure / hour or 1 failure every 10 hours) in order to experience failures once every simulator session.
+
+### Take Off Failure Generator
+
+This generator triggers a set of failures among the selected failure pool with a specified probability at each take off.
+If a failure will occur during the next take off, it may happen at any moment, during one of these three take off phases:
+
+- Low speed phase :
+    - The take off phase when the plane exceeds the minimum speed and is slower than the low-med transition speed.
+- Medium speed phase :
+    - The take off phase when the plane exceeds the low-med transition speed and is slower than the med-high transition speed.
+- High speed & climb phase :
+    - The take off phase when the plane exceeds the med-high transition speed and is lower than the specified height above the runway. 
+
+The choice between the 3 phases will be random, using the probability of each phase defined in the settings.
+
+### Rearming Options
+
+Each generator can be configured in the following 4 modes:
+
+- OFF : Generator is disabled but settings are kept
+- ONCE : The generator will trigger a set of failures only once and go to OFF mode
+- TAKE OFF : The generator will wait until FL or TOGA thrust is set to arm itself. It will trigger a set of failures only once until another take off event occurs.
+- REPEAT : The generator will trigger a set of failures every time the conditions are met.
+
+### Max Failures and Number of Failures
+
+Each generator may define a specific number of failures to be triggered at the same time.
+The set of failures will activate only if the total number of existing failures already occurring on the plane does not exceed the maximum number of failures before their activation.
+
+### Failure Pool Selection
+
+Each failure generator allows to select specifically which failures can be triggered. You may select any combination of failures : individual failures, entire systems or all at once. Only a specified number of failures randomly picked in this set will be triggered by the generator.
+
+!!! tip ""
+    You can create several failure generators of the same type so that specific failures may happen at specific conditions different to other sets of failures.
