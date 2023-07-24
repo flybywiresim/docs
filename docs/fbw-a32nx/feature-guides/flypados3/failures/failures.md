@@ -121,6 +121,12 @@ Enter a search term to filter for specific systems.
 
 ## Failure Generator
 
+-- TODO -- 
+
+- Add short overview here
+- add images of each page on the failures page
+- consider moving this back into the regular EFB page
+
 ### Altitude Failure Generator
 
 This generator triggers a set of failures among the selected failure pool when the airplane reaches a random altitude set between the specified minimum and maximum altitude.
