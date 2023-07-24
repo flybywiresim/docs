@@ -93,7 +93,8 @@ The following list of issues are commonly reported on our Discord support channe
 ??? bug "Invisible Aircraft"
     ### Invisible Aircraft
 
-    *Affected versions: Stable, Development*
+    !!! tip ""
+        *Affected versions: Stable, Development*
 
     ^^Description^^
 
@@ -106,7 +107,8 @@ The following list of issues are commonly reported on our Discord support channe
 ??? bug "Infinite Loading Times"
     ### Infinite Loading Times
 
-    *Affected versions: Stable, Development*
+    !!! tip ""
+        *Affected versions: Stable, Development*
 
     ^^Description^^
 
@@ -126,7 +128,8 @@ The following list of issues are commonly reported on our Discord support channe
 ??? bug "Broken Systems, Black Screens, Broken Cockpit Layout"
     ### Broken Systems, Black Screens, Broken Cockpit Layout
 
-    *Affected versions: Stable, Development*
+    !!! tip ""
+        *Affected versions: Stable, Development*
 
     ^^Description^^
 
@@ -145,7 +148,8 @@ The following list of issues are commonly reported on our Discord support channe
 ??? bug "Outdated Systems And Missing Features, Although Current Version Installed"
     ### Outdated Systems And Missing Features, Although Current Version Installed
 
-    *Affected versions: Stable, Development*
+    !!! tip ""
+        *Affected versions: Stable, Development*
 
     ^^Description^^
 
@@ -162,7 +166,8 @@ The following list of issues are commonly reported on our Discord support channe
 ??? bug "Cockpit Lights and Display Are Erratically On"
     ### Cockpit Lights and Display Are Erratically On
 
-    *Affected versions: Stable, Development*
+    !!! tip ""
+        *Affected versions: Stable, Development*
 
     ^^Description^^
 
@@ -208,7 +213,8 @@ The following list of issues are commonly reported on our Discord support channe
 ??? bug "Unable to Move or Taxi"
     ### Unable to Move or Taxi
 
-    *Affected versions: Stable, Development*
+    !!! tip ""
+        *Affected versions: Stable, Development*
 
     ^^Description^^
 
@@ -225,7 +231,8 @@ The following list of issues are commonly reported on our Discord support channe
 ??? bug "Hard To Control the Aircraft during Taxi, TakeOff, or Landing"
     ### Hard To Control the Aircraft during Taxi, TakeOff, or Landing
     
-    *Affected versions: Stable, Development*
+    !!! tip ""
+        *Affected versions: Stable, Development*
 
     ^^Description^^
 
@@ -382,6 +389,11 @@ The following list of issues are commonly reported on our Discord support channe
 ??? warning "Nav Data Issues"
     ### Nav Data Issues
 
+    !!! tip ""
+        *Affected versions: Stable, Development*
+
+    ^^Description^^
+
     The A32NX uses the sim's nav data. So, any nav data issues will usually also be present in other default aircraft and the World Map.
 
     You can test these issues by using the MSFS World Map. If the required nav data (waypoint, SID, STAR, APPR, Rwy, Airport, etc.) is missing in the World Map as well, then it is a general nav data issue and not an issue with 
@@ -391,6 +403,8 @@ The following list of issues are commonly reported on our Discord support channe
 
     Any of these errors during route import could mean that your route is no longer valid in the current cycle, and 
     cannot be properly used as a valid flight plan in the sim. 
+
+    ^^Possible Solution or Workaround^^
 
     To avoid this, we recommend a Navigraph subscription, which will make sure SimBrief and the sim have identical nav data. Also, you would have the matching Navigraph charts at your disposal.
 
@@ -659,6 +673,24 @@ The following list of issues are commonly reported on our Discord support channe
      The consequence of this MSFS behavior is that the auto-probe/windshield heat will not always prevent ice from forming on the windshield or the pitot probe. Although the ice should melt fairly quickly (and no need to switch from auto to on), the windshield can still freeze over, and you can lose airspeed information upon first entering icing conditions if they are severe enough.
 
     The same goes for wing and engine anti-ice - turning them on before ice actually forms may not prevent ice from forming there, but it should melt fairly quickly.
+
+??? warning "Refueling/Boarding Buttons Missing/Disabled on EFB Fuel/Payload Page"
+    ### Refueling/Boarding Buttons Missing/Disabled on the EFB Fuel/Payload Page
+
+    !!! tip ""
+        *Affected versions: Stable, Development*
+
+    ^^Description^^
+
+    You may find the 'play' button (that is used to initialise the refueling process) or the 'boarding' button (used to initiate boarding of passengers) is missing or disabled on the 'Fuel' or 'Payload' page of the EFB (flyPad). This occurs when [GSX Synchronization](https://docs.flybywiresim.com/fbw-a32nx/feature-guides/flypados3/settings/#3rd-party-options) is enabled. 
+
+    GSX is a third-party software developed and sold by FSDreamteam, which you can purchase and install to enhance ground operations at airports.
+
+    ^^Possible Solution or Workaround^^
+    
+    - If you are **not** using GSX, then you will need to disable both options on the [GSX Synchronization](https://docs.flybywiresim.com/fbw-a32nx/feature-guides/flypados3/settings/#3rd-party-options) page on the EFB, under Settings -> 3rd Party Options.
+    
+    - If you do use GSX, then much of the boarding and refueling process is completed through GSX itself, while also still requiring some interaction with the A32NX EFB. This is explained in detail in our [GSX Integration Guide](https://docs.flybywiresim.com/fbw-a32nx/feature-guides/gsxintegration).
 
 ??? tip "++ctrl+'E'++ - Engine Start Unsupported" 
     ### ++ctrl+'E'++ - Engine Start Unsupported
@@ -939,6 +971,7 @@ Please try these before reporting any other issue on Discord.
     
     This is an MSFS issue sometimes triggered by pushback tools like Toolbar Pushback Add-on and the flyPad pushback 
     system.   
+
 
 ## FBW Installer Issues
 
