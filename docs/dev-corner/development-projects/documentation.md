@@ -119,7 +119,7 @@ feature.
     You can opt to use a faster instance of the developer server by invoking the flag `--dirtyreload`. This just checks for any markdown that has changed since the HTML was rendered and will reconstruct any relevant pages only, rather than rebuilding the entire website.
 
     ```
-    mkdocs.exe serve --dirtyreload
+    mkdocs.exe serve --dirty
     ```
 
     !!! danger ""
