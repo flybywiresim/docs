@@ -1,6 +1,6 @@
 # Liveries Guide
 
-The best source for liveries for the FlyByWire A32NX is [FBW A32NX @ flightsim.to](https://flightsim.to/c/liveries/flybywire-a32nx/most-downloaded){target=new}.
+The best source for liveries for the FlyByWire A32NX is [FBW A32NX @ flightsim.to](https://flightsim.to/liveries/flybywire-a32nx/most-downloads/){target=new}.
 
 These liveries are especially made for the FlyByWire add-on. The default A320neo liveries do not work with the FlyByWire add-on any longer.
 
