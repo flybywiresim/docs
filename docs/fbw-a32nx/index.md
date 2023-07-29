@@ -38,12 +38,12 @@ WXR         Honeywell RDR-4000
 ##  Topics
 
 | Featured List                                |
-| :----                                        |
+|:---------------------------------------------|
 | [Installation Guide](installation.md)        |
 | [Version and Feature Guide](fbw-versions.md) |
 | [Livery Guide](liveries.md)                  |
 | [Support](support/index.md)                  |
-| [API and Hardware](a32nx-api)                |
+| [API and Hardware](a32nx-api/index.md)       |
 
 
 

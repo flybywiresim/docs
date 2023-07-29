@@ -29,7 +29,7 @@ We have discontinued our Experimental Version. Latest features and testing will 
 
 ## Version Comparison
 
-See [Latest Release Notes for Stable](/latest-release)
+See [Latest Release Notes for Stable](/latest-release/)
 
 For all changes made to the Development version since the last major release of the Stable version, refer to:
 
