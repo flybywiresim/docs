@@ -79,4 +79,4 @@ The three settings are:
     - The displays will not make any attempts to connect to SimBridge.
 
 !!! warning "Timeout for SimBridge Connection Attempts"
-    If the aircraft con not connect to SimBridge within 5 min the aircraft will stop any further attempts and `Inactive` will be shown. If `Inactive` is shown, but you want to connect to SimBridge, just click on `Off`, wait a few seconds and then click on `Auto` again.
+    If the aircraft can not connect to SimBridge within 5 mins the aircraft will stop any further attempts and `Inactive` will be shown. If `Inactive` is shown, but you want to connect to SimBridge, just click on `Off`, wait a few seconds and then click on `Auto` again.
