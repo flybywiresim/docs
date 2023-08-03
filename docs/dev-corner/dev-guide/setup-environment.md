@@ -34,7 +34,7 @@ Clone this fork to your local environment. You can use the command line git or a
 git clone https://github.com/flybywiresim/aircraft.git
 ```
 
-You now have a copy of the aircraft repository on your local machine to review and change the source code. The subfolder `./fbw-a320nx` contains the A320NX source code.
+You now have a copy of the aircraft repository on your local machine to review and change the source code. The subfolder `./fbw-a320nx` contains the A32NX source code.
 
 ## Compiling the source
 
