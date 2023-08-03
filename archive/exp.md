@@ -19,7 +19,7 @@ Currently, experimental is geared toward testing the initial version of VNAV wit
 
 We are testing the new FWS (Flight Warning System) which replaces the previous provisional system. 
 See technical details in the respective 
-[GitHub Pull Request #4872](https://github.com/flybywiresim/a32nx/pull/4872){target=new}.
+[GitHub Pull Request #4872](https://github.com/flybywiresim/aircraft/pull/4872){target=new}.
 
 ![fws-init-ecam](../docs/pilots-corner/assets/beginner-guide/starting-aircraft/fws-init-ecam.png){loading=lazy width=50%}
 

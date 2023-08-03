@@ -11,7 +11,7 @@
 
     ---
 
-    <img src="https://img.shields.io/github/v/release/flybywiresim/a32nx.svg?color=2F4E5B&style=flat" /> <img src="https://img.shields.io/badge/dynamic/json?color=00848A&label=Development&query=shortSha&url=https%3A%2F%2Fapi.flybywiresim.com%2Fapi%2Fv1%2Fgit-versions%2Fflybywiresim%2Fa32nx%2Fbranches%2Fmaster&style=flat" alt="Development Version" />
+    <img src="https://img.shields.io/github/v/release/flybywiresim/aircraft.svg?color=2F4E5B&style=flat" /> <img src="https://img.shields.io/badge/dynamic/json?color=00848A&label=Development&query=shortSha&url=https%3A%2F%2Fapi.flybywiresim.com%2Fapi%2Fv1%2Fgit-versions%2Fflybywiresim%2Faircraft%2Fbranches%2Fmaster&style=flat" alt="Development Version" />
 
     FBW Installer - [Download Here](https://api.flybywiresim.com/installer){target=new} / *Latest Sim Version: 1.33.8.0*
 
@@ -21,7 +21,7 @@
     2. [Troubleshoot](index.md#2-how-to-troubleshoot)
     3. [Research Known Issues](index.md#3-research-known-issues)
     4. [Report Issue on Discord](index.md#4-report-issue-on-discord)
-    5. [Report Issue on the A32NX GitHub](index.md#5-report-issue-on-the-a32nx-github)
+    5. [Report Issue on the FBW Aircraft GitHub](index.md#5-report-issue-on-the-a32nx-github)
     6. [Collecting Support Information](index.md#collecting-support-information)
 
     ---

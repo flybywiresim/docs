@@ -33,7 +33,7 @@ VCockpit16 - EFB_TEMPLATE [coui://html_UI/Pages/VCockpit/Core/VCockpit.html]
 Now you're set up with your own fork, which you can reload instantly and test in MSFS, you're ready to get started making changes. When getting started, it's a good idea to spend some time looking around the project and wrapping your head around the structure.
 
 - You'll find the main EFB content under ` src/instruments/src/EFB ` of your GitHub fork, try making small changes at first to test, such as changing the color of an icon, or changing a few words to make sure the reloading is working.
-- Take a look at previous commits made to the flyPad on the [A32NX GitHub Repository](https://github.com/flybywiresim/a32nx/commits/master){target=new} and see what changes were made to get the desired result.
+- Take a look at previous commits made to the flyPad on the [FBW Aircraft GitHub Repository](https://github.com/flybywiresim/aircraft/commits/master){target=new} and see what changes were made to get the desired result.
 
 !!!info "Top tip!"
     When working on your project, make sure to reload the flyPad and test regularly to catch issues as soon as they happen.

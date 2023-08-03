@@ -23,7 +23,7 @@ Note: Please be aware that sub-directories are present in the parent directories
 
 ## A32NX Project
 
-[FlyByWire Simulations A32NX Repo](https://github.com/flybywiresim/a32nx)
+[FlyByWire Simulations Aircraft Repo](https://github.com/flybywiresim/aircraft)
 
 [https://flybywiresim.com/](https://flybywiresim.com/)
 

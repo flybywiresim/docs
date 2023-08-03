@@ -18,13 +18,13 @@ As contributors and maintainers of this project, we pledge to respect all people
 
 Project maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, issues and other contributions that are not aligned to this Code of Conduct.
 
-Make sure to read our [Code of Conduct](https://github.com/flybywiresim/a32nx/blob/master/CODE_OF_CONDUCT.md)
+Make sure to read our [Code of Conduct](https://github.com/flybywiresim/aircraft/blob/master/CODE_OF_CONDUCT.md)
 
 ## Pull Requests
 
 We welcome pull requests with fixes and improvements to the project.
 
-If you wish to add a new feature or you spot a bug that you wish to fix, **please open an issue for it first** on the [A32NX issue tracker](https://github.com/flybywiresim/a32nx/issues).
+If you wish to add a new feature or you spot a bug that you wish to fix, **please open an issue for it first** on the [FBW Aircraft issue tracker](https://github.com/flybywiresim/aircraft/issues).
 
 The work-flow for submitting a new pull request is designed to be simple, but also to ensure consistency from **all** contributors:
 
@@ -49,7 +49,7 @@ Please help other contributors to the project wherever you can, as people all st
 
 ## Finding tasks
 
-The best place to look for possible things where you could contribute is the A32NX GitHub repository's [Issues List](https://github.com/flybywiresim/a32nx/issues){target=new}.
+The best place to look for possible things where you could contribute is the FBW Aircraft GitHub repository's [Issues List](https://github.com/flybywiresim/aircraft/issues){target=new}.
 There you can find open bug reports or feature requests from users or other developers.
 
 ## Issues

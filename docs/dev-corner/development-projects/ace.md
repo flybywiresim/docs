@@ -35,7 +35,7 @@ The MSFS CoherentGT engine API is emulated in `ace`, including the `call`, `trig
 3. Run ace with `npm start`
 4. After running the program, select New Project and choose the locations of all your folders. (see [below] (#example-config))
 5. Add a Web Instrument to localhost:9696 (right-click on the project canvas)
-6. Open a new terminal and go to your a32nx clone folder and run: `npm run serve:efb`
+6. Open a new terminal and go to your `aircaft` clone folder and run: `npm run serve:efb`
      This allows to see any changes to the instrument's code nearly instantaneously. 
 
 To interact with the EFB via mouse, you need to click enter to turn on interactive mode.

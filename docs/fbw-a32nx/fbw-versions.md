@@ -12,12 +12,12 @@ This version updates often, and occasionally several times a day. We recommend u
 
 Every addition to the development version is code-reviewed and tested by several people, our QA Team and also interested users. In general, it tends to be very stable and robust.
 
-The latest additions to this version can be seen either in the official [CHANGELOG](https://github.com/flybywiresim/a32nx/blob/master/.github/CHANGELOG.md) or the commits to the master branch of the project: [GitHub Commits to Master](https://github.com/flybywiresim/a32nx/commits/master){target=new}
+The latest additions to this version can be seen either in the official [CHANGELOG](https://github.com/flybywiresim/aircraft/blob/master/.github/CHANGELOG.md) or the commits to the master branch of the project: [GitHub Commits to Master](https://github.com/flybywiresim/aircraft/commits/master){target=new}
 
 ### "Stable Version"
 
 !!! info ""
-    **Current Stable Version -** <img src="https://img.shields.io/github/v/release/flybywiresim/a32nx.svg?color=2F4E5B&style=flat" />
+    **Current Stable Version -** <img src="https://img.shields.io/github/v/release/flybywiresim/aircraft.svg?color=2F4E5B&style=flat" />
 
 Stable is our version which contains features that are the most mature and most tested. This should be a reliable version for those users preferring stability over the newest features.
 
@@ -33,5 +33,5 @@ See [Latest Release Notes for Stable](/latest-release)
 
 For all changes made to the Development version since the last major release of the Stable version, refer to:
 
-- Official [CHANGELOG](https://github.com/flybywiresim/a32nx/blob/master/.github/CHANGELOG.md#080){target=new}
-- Commits on the [:fontawesome-brands-github:{: .github } - **GitHub A32NX Repository Master Branch**](https://github.com/flybywiresim/a32nx/commits/master){target=new}.
+- Official [CHANGELOG](https://github.com/flybywiresim/aircraft/blob/master/.github/CHANGELOG.md#080){target=new}
+- Commits on the [:fontawesome-brands-github:{: .github } - **GitHub FBW Aircraft Repository Master Branch**](https://github.com/flybywiresim/aircraft/commits/master){target=new}.

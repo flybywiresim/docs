@@ -29,7 +29,7 @@
     No, it is a completely free and open-source aircraft.
 
 ??? info "Q: How do we report bugs?"
-    Report bugs to us in the [Discord server](https://discord.gg/flybywire){target=new}, under the `#a32nx-support` channel, or by creating a [GitHub issue](https://github.com/flybywiresim/a32nx/issues/new/choose){target=new}.
+    Report bugs to us in the [Discord server](https://discord.gg/flybywire){target=new}, under the `#a32nx-support` channel, or by creating a [GitHub issue](https://github.com/flybywiresim/aircraft/issues/new/choose){target=new}.
 
     Just make sure to search for existing issues first before creating a new one.
 
