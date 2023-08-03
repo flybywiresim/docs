@@ -52,7 +52,7 @@ Please follow the steps below. If you can't reproduce the issue until the last i
 
 Read the [Reported Issues](reported-issues.md) section - most issues users encounter are already on this list.
 
-If you have a GitHub account, please also see [Issues](https://github.com/flybywiresim/a32nx/issues){target=new} there. Please also use the search for your particular issue.
+If you have a GitHub account, please also see [Issues](https://github.com/flybywiresim/aircraft/issues){target=new} there. Please also use the search for your particular issue.
 
 Join our Discord server [:fontawesome-brands-discord:{: .discord } - **Discord Link**](https://discord.gg/flybywire){target=new} in channel #a32nx-support and do the following:
 
@@ -88,7 +88,7 @@ describe your issue and respond to the questions our support team might have.
 
 ## 5. Report Issue on the A32NX GitHub
 
-[:fontawesome-brands-github:{: .github } - **Issues / Feature Requests**](https://github.com/flybywiresim/a32nx/issues){target=new}
+[:fontawesome-brands-github:{: .github } - **Issues / Feature Requests**](https://github.com/flybywiresim/aircraft/issues){target=new}
 
 Follow the issue template as good as you can. The more information you provide, the easier it is for our team to understand and reproduce your issue.
 

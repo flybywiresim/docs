@@ -16,7 +16,7 @@ To QA test for FlyByWire, you need the following prerequisites:
 
 - Having read and understood this page!
 - Microsoft Flight Simulator (PC)
-- GitHub Account and access to our [Pull Requests](https://github.com/flybywiresim/a32nx/pulls){target=new}
+- GitHub Account and access to our [Pull Requests](https://github.com/flybywiresim/aircraft/pulls){target=new}
 - Discord Account and joined our server [FlyByWire Simulations](https://discord.gg/flybywire)
 - A QA Trainee or QA Tester Discord role
 
@@ -40,7 +40,7 @@ To manage this process, we use the GitHub Project feature.
 
 This is a simple Kanban board where items move from the left to the right. For QA tests, the third column is relevant ("QA Team Review: Ready to Test")
 
-![QA Project Board on GitHub](assets/qa-process/qa-board.png "QA Project Board on GitHub"){loading=lazy}<br/>[QA Project Board on GitHub](https://github.com/flybywiresim/a32nx/projects/4){target=new}
+![QA Project Board on GitHub](assets/qa-process/qa-board.png "QA Project Board on GitHub"){loading=lazy}<br/>[QA Project Board on GitHub](https://github.com/flybywiresim/aircraft/projects/4){target=new}
 
 If you have gotten a grasp on the above instructions, pick a PR to test from the list.
 
@@ -109,7 +109,7 @@ Typically, it is ok to keep your Navigraph data installed.
 
 Read the test instructions of the PR carefully. Focus only on what is requested and part of this PR. Do not bloat your reports with many additional observations.
 
-If you find additional issues which are not part of the PR, reproduce and test them with the latest Development version and then create a [GitHub Issue](https://github.com/flybywiresim/a32nx/issues) for them.
+If you find additional issues which are not part of the PR, reproduce and test them with the latest Development version and then create a [GitHub Issue](https://github.com/flybywiresim/aircraft/issues) for them.
 
 ### Ask on Discord
 
@@ -164,7 +164,7 @@ Media:
 !!! tip "Tip: Look at closed PRs"
     To better understand what a report should look like, you can look at closed PRs on GitHub to see how others approach this.
 
-    Link to Closed PR list: [Closed PRs](https://github.com/flybywiresim/a32nx/pulls?q=is%3Apr+is%3Aclosed){target=new}
+    Link to Closed PR list: [Closed PRs](https://github.com/flybywiresim/aircraft/pulls?q=is%3Apr+is%3Aclosed){target=new}
 
 !!! tip "Tip: Using GitHub Save for Template"
     We suggest using the "Saved Replies" feature of GitHub for the QA Template. You can set them up as follows:

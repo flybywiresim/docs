@@ -55,11 +55,11 @@ You can send us logs to our [Discord](https://discord.gg/flybywire){target=new} 
 
     === "Latest Stable Version"
 
-        **Current Stable Version - ** <img src="https://img.shields.io/github/v/release/flybywiresim/a32nx.svg?color=2F4E5B&style=flat" />
+        **Current Stable Version - ** <img src="https://img.shields.io/github/v/release/flybywiresim/aircraft.svg?color=2F4E5B&style=flat" />
 
           Stable is our variant that has the least bugs and best performance. This version will not always be up-to-date, but we guarantee its compatibility with each major patch from MSFS. 
 
-          [Download Stable](https://github.com/flybywiresim/a32nx/releases/download/assets/stable/A32NX-stable.zip){.md-button target=new}
+          [Download Stable](https://github.com/flybywiresim/aircraft/releases/download/assets/stable/A32NX-stable.zip){.md-button target=new}
 
           Latest release notes: [View Here](/latest-release/)
 
@@ -70,7 +70,7 @@ You can send us logs to our [Discord](https://discord.gg/flybywire){target=new} 
 
         It updates whenever something is added to the 'master' branch on GitHub. 
 
-         [Download Development](https://github.com/flybywiresim/a32nx/releases/download/assets/master/A32NX-master.zip){.md-button target=new}
+         [Download Development](https://github.com/flybywiresim/aircraft/releases/download/assets/master/A32NX-master.zip){.md-button target=new}
          
          [**IMPORTANT:** View information on Autopilot / Fly-By-Wire here](feature-guides/autopilot-fbw.md)
 
@@ -88,7 +88,7 @@ You can send us logs to our [Discord](https://discord.gg/flybywire){target=new} 
 [//]: # (        It will be updated with the latest changes to the development version every week or so while new major features are tested &#40;not guaranteed&#41;.)
 
 [//]: # ()
-[//]: # (        [Download Experimental]&#40;https://github.com/flybywiresim/a32nx/releases/download/assets/experimental/A32NX-experimental.zip&#41;{.md-button target=new})
+[//]: # (        [Download Experimental]&#40;https://github.com/flybywiresim/aircraft/releases/download/assets/experimental/A32NX-experimental.zip&#41;{.md-button target=new})
 
 [//]: # ()
 [//]: # (        !!! danger "No Support for Experimental - use at own risk")
@@ -237,7 +237,7 @@ To quickly locate `%appdata%`:
 
 ## Contributing
 
-[:fontawesome-brands-github:{: .github } **GitHub Contributing.md**](https://github.com/flybywiresim/a32nx/blob/master/.github/Contributing.md){ .md-button target=new }
+[:fontawesome-brands-github:{: .github } **GitHub Contributing.md**](https://github.com/flybywiresim/aircraft/blob/master/.github/Contributing.md){ .md-button target=new }
 
 More info [A32NX Development Overview](../dev-corner/dev-guide/index.md)
 

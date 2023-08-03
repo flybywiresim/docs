@@ -1,6 +1,6 @@
 # flyPadOS 3 Localization Process
 
-This page is pulled externally from the A32NX repository and describes the processes involved with adding features to the EFB and sourcing translations.
+This page is pulled externally from the FBW Aircraft repository and describes the processes involved with adding features to the EFB and sourcing translations.
 
 We have partnered with Localazy, who offer top-notch software localization services, bringing multi-language support to our EFB, enhancing the user experience.
 
@@ -11,4 +11,4 @@ com&utm_medium=sponsored-referral&utm_campaign=partnerships&utm_content=footer-l
 
 ---
 
-{{ external_markdown('https://raw.githubusercontent.com/flybywiresim/a32nx/master/fbw-a32nx/src/localization/README.md', '') }}
+{{ external_markdown('https://raw.githubusercontent.com/flybywiresim/aircraft/master/fbw-a32nx/src/localization/README.md', '') }}

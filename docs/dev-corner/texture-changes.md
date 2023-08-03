@@ -14,7 +14,7 @@ If you are the author of an affected livery, please reference the following:
 - For convenience, here is a copy of the [new sharklet UV map](assets/a32nx-dev/sharklet_uv_4k.png){target=new} that can be added as a layer in your workflow. The decals should be painted un-mirrored.
 
 !!! warning ""
-    For further context, you can review [pull request #5490](https://github.com/flybywiresim/a32nx/pull/5490){target=new} on our GitHub if necessary.
+    For further context, you can review [pull request #5490](https://github.com/flybywiresim/aircraft/pull/5490){target=new} on our GitHub if necessary.
 
 ## Registration Decal
 
@@ -34,7 +34,7 @@ If you are the author of a livery that has textured wheels, with text or anythin
 - No action is required. The current wheel texture will appear correct on the right main gear wheel.
 
 !!! warning ""
-    For further context, you can review [pull request #6931](https://github.com/flybywiresim/a32nx/pull/6931) on our GitHub if necessary.
+    For further context, you can review [pull request #6931](https://github.com/flybywiresim/aircraft/pull/6931) on our GitHub if necessary.
 
 ## Cargo Hinges
 

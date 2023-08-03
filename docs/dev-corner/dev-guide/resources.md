@@ -6,13 +6,13 @@ On this page, you will find all the necessary resources, links, and documentatio
 
 The main GitHub repository for the A32NX aircraft is:
 
-**[https://github.com/flybywiresim/a32nx](https://github.com/flybywiresim/a32nx){target=new}**
+**[https://github.com/flybywiresim/aircraft](https://github.com/flybywiresim/aircraft){target=new}**
 
 The Development version of the FlyByWire A32NX is done in the master branch. Whenever something is merged into the master branch, an automatic build process builds the newest 
 Development version and uploads it to our CDN, so users can download the latest Development version via the FlyByWire Installer. We have a very strict development, review and 
 QA process for for this version.
 
-The Stable version is a snapshot (in git terms, a [Tag](https://github.com/flybywiresim/a32nx/tags){target=new}) of the development branch.
+The Stable version is a snapshot (in git terms, a [Tag](https://github.com/flybywiresim/aircraft/tags){target=new}) of the development branch.
 
 The FlyByWire project has other repositories for subprojects like api, msfs-rs, installer, website, docs, etc. Find them [here](https://github.com/orgs/flybywiresim/repositories){target=new}.
 

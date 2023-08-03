@@ -26,15 +26,15 @@ Most of our team works with either Visual Studio Code or IntelliJ IDEA-based IDE
 
 ## Getting the source code
 
-To work on the A32NX project, you need to create a fork ( [GitHub fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo){target=new)}) of the [a32nx repository](https://github.com/flybywiresim/a32nx).
+To work on the A32NX project, you need to create a fork ( [GitHub fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo){target=new)}) of the [aircraft repository](https://github.com/flybywiresim/aircraft).
 
 Clone this fork to your local environment. You can use the command line git or a UI-based git to do this. On the command line, go to your projects folder and clone it into that folder.
 
 ```
-git clone https://github.com/flybywiresim/a32nx.git
+git clone https://github.com/flybywiresim/aircraft.git
 ```
 
-You now have a copy of the a32nx repository on your local machine to review and change the source code.
+You now have a copy of the aircraft repository on your local machine to review and change the source code. The subfolder `./fbw-a320nx` contains the A32NX source code.
 
 ## Compiling the source
 
@@ -42,13 +42,13 @@ To compile the source code into a package you can install into the Microsoft Fli
 
 
 ```powershell title="PowerShell or Cmd Prompt"
-cd a32nx
+cd aircraft
 .\scripts\dev-env\run.cmd ./scripts/setup.sh
 .\scripts\dev-env\run.cmd ./scripts/build.sh
 ```
 
 ```bash title="git bash or other *nix shells on Windows"
-cd a32nx
+cd aircraft
 ./scripts/dev-env/run.cmd ./scripts/setup.sh
 ./scripts/dev-env/run.cmd ./scripts/build.sh
 ```
@@ -85,7 +85,7 @@ mklink /J [MSFS Community folder\flybywire-aircraft-a320-neo] [Project folder pa
 
 Example:
 ```
-mklink /J C:\Users\USERNAME\AppData\Local\Packages\Microsoft.FlightSimulator_8wekyb3d8bbwe\Community\flybywire-aircraft-a320-neo C:\Users\USERNAME\IdeaProjects\a32nx\fbw-a32nx\out\flybywire-aircraft-a320-neo
+mklink /J C:\Users\USERNAME\AppData\Local\Packages\Microsoft.FlightSimulator_8wekyb3d8bbwe\Community\flybywire-aircraft-a320-neo C:\Users\USERNAME\IdeaProjects\aircraft\fbw-a32nx\out\flybywire-aircraft-a320-neo
 ```
 
 If this works, you'll receive the response:
