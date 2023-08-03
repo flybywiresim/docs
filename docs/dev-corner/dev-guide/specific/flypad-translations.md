@@ -1,6 +1,6 @@
 # flyPadOS 3 Localization Process
 
-This page is pulled externally from the Aircraft repository and describes the processes involved with adding features to the EFB and sourcing translations.
+This page is pulled externally from the FBW Aircraft repository and describes the processes involved with adding features to the EFB and sourcing translations.
 
 We have partnered with Localazy, who offer top-notch software localization services, bringing multi-language support to our EFB, enhancing the user experience.
 
