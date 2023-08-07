@@ -1,4 +1,19 @@
-# SimBrief Integration
+<link rel="stylesheet" href="../../../stylesheets/toc-tables.css">
+
+# SimBrief and Navigraph Integration
+
+We have recently streamlined our SimBrief integration with Navigraph. If you are using the stable version, please see [stable version information](#).
+
+## Quick Links
+
+|                                          Quick Links                                          |
+|:---------------------------------------------------------------------------------------------:|
+|                              [Flight Planning](#flight-planning)                              |
+|                            [SimBrief Airframe](#simbrief-airframe)                            |
+|             [Setup A32NX SimBrief Integration](#setup-a32nx-simbrief-integration)             |
+|          [Using flyPad SimBrief Integration](#using-the-flypad-simbrief-integration)          |
+| [Using the FMS (MCDU) and SimBrief Integration](#using-the-fms-mcdu-and-simbrief-integration) |
+
 
 ## Flight Planning
 
@@ -24,7 +39,22 @@ This airframe will be updated by FlyByWire Simulations when needed, so you will 
 
 ## Setup A32NX SimBrief Integration
 
-The SimBrief username needs to be configured in the flyPad EFB. See [Setup SimBrief Integration](flypados3/settings.md#simbrief-integration)
+!!! info "This integration does not require having an active Navigraph subscription."
+
+We have unified our SimBrief Integration with Navigraph. Your Navigraph account needs to be configured in the flyPad EFB.
+
+You can do this by navigating to following page on the flyPad (EFB):
+
+1. Settings Page
+- 3rd Party Option
+- Navigraph Login
+
+Please follow the steps provided by the flyPad to securely link to your Navigraph account to the aircraft.
+
+If you are unsure of where the Settings page is on the EFB please see [flyPad Guide - Settings](flypados3/settings.md#settings-page).
+
+??? warning "Stable Version Only" 
+    The SimBrief username needs to be configured in the flyPad EFB. See [Setup SimBrief Integration](flypados3/settings.md#simbrief-integration)
 
 ## Using the flyPad SimBrief Integration
 
