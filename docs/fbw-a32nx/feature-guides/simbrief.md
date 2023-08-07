@@ -51,7 +51,9 @@ You can do this by navigating to following page on the flyPad (EFB):
 
 Please follow the steps provided by the flyPad to securely link to your Navigraph account to the aircraft.
 
-If you are unsure of where the Settings page is on the EFB please see [flyPad Guide - Settings](flypados3/settings.md#settings-page).
+[Insert image here of 3rd party options page]
+
+If you are still unsure of where the Settings page is on the EFB please see [flyPad Settings](flypados3/settings.md#settings-page).
 
 ??? warning "Stable Version Only" 
     The SimBrief username needs to be configured in the flyPad EFB. See [Setup SimBrief Integration](flypados3/settings.md#simbrief-integration)
