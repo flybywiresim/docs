@@ -2,7 +2,8 @@
 
 # SimBrief and Navigraph Integration
 
-We have recently streamlined our SimBrief integration with Navigraph. If you are using the stable version, please see [stable version information](#).
+We have recently streamlined our SimBrief integration with Navigraph. If you are using the stable version, please see [stable version information](#) for instructions how to 
+authenticate / sync your account.
 
 ## Quick Links
 

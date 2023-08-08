@@ -306,23 +306,29 @@ Settings for integration with various data and information sources.
 
 ### SimBrief Integration
 
-Before you can use the A32NX simBrief Integration, you need to provide your simBrief account details.
+!!! warning ""
+    This section only applies to the Stable Version of the A32NX. See the info box below. 
 
-!!! tip "Locating the SimBrief EFB Settings"
-    If you have arrived at this section from the [SimBrief Integration](../simbrief.md) page, please make note this setting is found on the EFB, under Settings -> ATSU/AOC.
+    If you are using the Development Version please use the new Navigraph authentication method found in our [SimBrief and Navigraph Integration](../simbrief.md) guide.
 
-- SimBrief Pilot ID:
-    - Enter your SimBrief Pilot ID.
-
-      ![simBrief Account field](../../assets/flypados3/simbrief-account-field.png "simBrief Account field")
-
-    - If you entered a wrong Pilot ID, a red error message will be displayed.
-
-      ![simBrief Account Field Error](../../assets/flypados3/simbrief-account-field-error.png "simBrief Account Field Error")
-
-To get your simBrief Pilot ID, you can go to your simBrief Account settings and open "SimBrief Data".
-
-![simBrief Account Data](../../assets/flypados3/simbrief-account-data.png "simBrief Account Data")
+??? info "Stable Version Setup"
+    Before you can use the A32NX simBrief Integration, you need to provide your simBrief account details.
+    
+    !!! tip "Locating the SimBrief EFB Settings"
+        If you have arrived at this section from the [SimBrief Integration](../simbrief.md) page, please make note this setting is found on the EFB, under Settings -> ATSU/AOC.
+    
+    - SimBrief Pilot ID:
+        - Enter your SimBrief Pilot ID.
+    
+          ![simBrief Account field](../../assets/flypados3/simbrief-account-field.png "simBrief Account field")
+    
+        - If you entered a wrong Pilot ID, a red error message will be displayed.
+    
+          ![simBrief Account Field Error](../../assets/flypados3/simbrief-account-field-error.png "simBrief Account Field Error")
+    
+    To get your simBrief Pilot ID, you can go to your simBrief Account settings and open "SimBrief Data".
+    
+    ![simBrief Account Data](../../assets/flypados3/simbrief-account-data.png "simBrief Account Data")
 
 ## Audio
 
