@@ -13,7 +13,7 @@ To manage and trigger these failures, this flyPad page gives the user structured
 
 These two systems can be selected by clicking on the respective buttons in the top right corner of the Failures page.
 
-**Add Image Here**
+![flypad-failure-tab.png](../../assets/flypados3/flypad-failure-tab.png){loading=lazy}
 
 There are further extensions planned for the failures feature, incl. more systems and trigger-based failures. This page will therefore change alongside the implementation of the failure system.
 
@@ -24,7 +24,7 @@ The on demand failures are triggered by clicking on the respective buttons in th
 !!! info ""
     Please ensure that you are on the Failures tab to trigger on demand failures.
 
-    **Reminder Image here**
+    ![flypad-failure-tab.png](../../assets/flypados3/flypad-failure-tab.png){loading=lazy}
 
 ### Comfort View
 
@@ -137,13 +137,12 @@ These optionss are found on the "Failure Generators" tab on the Failure page.
 !!! info ""
     Please ensure that you are on the correct tab to trigger set up the correct generator.
 
-    **Reminder Image here**
+    ![flypad-failure-tab.png](../../assets/flypados3/flypad-failure-tab.png){loading=lazy}
 
 -- TODO -- 
 
 - Add short overview here
 - add images of each page on the failures page
-- consider moving this back into the regular EFB page
 
 !!! note "Configuration Options"
     Each generator can be configured in the following 4 modes:
@@ -162,6 +161,7 @@ The number of failures will activate up to the total number of failures configur
 ### Failure Pool Selection
 
 Each failure generator allows to select specifically which failures can be triggered. You may select any combination of failures: 
+
 - Individual failures
 - Entire systems 
 - or all at once. 
@@ -177,7 +177,7 @@ This generator triggers a set of failures among the selected failure pool when t
 
 It may be configured either to trigger while the plane climbs or descends.
 
-### ground speed Failure Generator
+### Ground Speed Failure Generator
 
 This generator triggers a set of failures among the selected failure pool when the airplane reaches a random ground speed set between the specified minimum and maximum ground speed.
 
