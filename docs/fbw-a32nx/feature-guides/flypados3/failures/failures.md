@@ -132,6 +132,13 @@ Enter a search term to filter for specific systems.
 
 ## Failure Generator
 
+These optionss are found on the "Failure Generators" tab on the Failure page.
+
+!!! info ""
+    Please ensure that you are on the correct tab to trigger set up the correct generator.
+
+    **Reminder Image here**
+
 -- TODO -- 
 
 - Add short overview here
@@ -191,8 +198,9 @@ The choice between the 3 phases will be random, using the probability of each ph
 
 ### Max Failures and Number of Failures
 
-Each generator may define a specific number of failures to be triggered at the same time.
-The set of failures will activate only if the total number of existing failures already occurring on the plane does not exceed the maximum number of failures before their activation.
+Each generator defines a specific number of failures to be trigger at the same time and a maximum number of failures.
+
+The number of failures will activate up to the total number of failures configured for the flight.
 
 ### Failure Pool Selection
 
