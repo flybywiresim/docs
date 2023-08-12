@@ -135,7 +135,7 @@ Enter a search term to filter for specific systems.
 These options are found on the "Failure Generators" tab on the Failure page.
 
 !!! info ""
-    Please ensure that you are on the correct tab to trigger set up the correct generator.
+    Please ensure that you are on the correct tab to trigger or set up the correct generator.
 
     ![flypad-failure-tab.png](../../assets/flypados3/flypad-failure-tab.png){loading=lazy}
 
