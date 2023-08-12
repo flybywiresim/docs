@@ -11,9 +11,20 @@ To manage and trigger these failures, this flyPad page gives the user structured
 - Simple on demand triggering of failures by mouse click.
 - A more complex failure generator that can be customized to create failures at certain points during your flight for a more "randomized" feel. [Jump to Failure Generator](#failure-generator).
 
+These two systems can be selected by clicking on the respective buttons in the top right corner of the Failures page.
+
+**Add Image Here**
+
 There are further extensions planned for the failures feature, incl. more systems and trigger-based failures. This page will therefore change alongside the implementation of the failure system.
 
 ## On Demand Failures
+
+The on demand failures are triggered by clicking on the respective buttons in the "On Demand Failures" section of the page.
+
+!!! info ""
+    Please ensure that you are on the Failures tab to trigger on demand failures.
+
+    **Reminder Image here**
 
 ### Comfort View
 
@@ -141,9 +152,9 @@ This generator triggers a set of failures among the selected failure pool when t
 
 It may be configured either to trigger while the plane climbs or descends.
 
-### Speed Failure Generator
+### ground speed Failure Generator
 
-This generator triggers a set of failures among the selected failure pool when the airplane reaches a random speed set between the specified minimum and maximum speed.
+This generator triggers a set of failures among the selected failure pool when the airplane reaches a random ground speed set between the specified minimum and maximum ground speed.
 
 It may be configured either to trigger while the plane accelerates or decelerates.
 
@@ -158,7 +169,10 @@ This generator triggers a set of failures among the selected failure pool when t
 
 At any moment, this generator may trigger a set of failures among the selected failure pool by using the probability specified through the average number of failure per hour.
 The mean time to failure (MTTF) is provided as an indication of the delay it may take in average to trigger one failure for the probability of failure per hour.
-Note: In aviation rates of failure vary between 10e-3 per hour and 10e-9 per hour depending on the criticality of the system.
+
+!!! note ""
+    Rates of failure in aviation vary between 10e-3 per hour and 10e-9 per hour depending on the criticality of the system.
+
 For simulation purposes, it is advised to set this value at a much higher level up to 10e-1 (0.1 failure / hour or 1 failure every 10 hours) in order to experience failures once every simulator session.
 
 ### Take Off Failure Generator
@@ -166,12 +180,12 @@ For simulation purposes, it is advised to set this value at a much higher level 
 This generator triggers a set of failures among the selected failure pool with a specified probability at each take off.
 If a failure will occur during the next take off, it may happen at any moment, during one of these three take off phases:
 
-- Low speed phase :
-    - The take off phase when the plane exceeds the minimum speed and is slower than the low-med transition speed.
-- Medium speed phase :
-    - The take off phase when the plane exceeds the low-med transition speed and is slower than the med-high transition speed.
-- High speed & climb phase :
-    - The take off phase when the plane exceeds the med-high transition speed and is lower than the specified height above the runway. 
+- Low ground speed phase :
+    - The take off phase when the plane exceeds the minimum ground speed and is slower than the low-med transition ground speed.
+- Medium ground speed phase :
+    - The take off phase when the plane exceeds the low-med transition ground speed and is slower than the med-high transition ground speed.
+- High ground speed & climb phase :
+    - The take off phase when the plane exceeds the med-high transition ground speed and is lower than the specified height above the runway. 
 
 The choice between the 3 phases will be random, using the probability of each phase defined in the settings.
 
