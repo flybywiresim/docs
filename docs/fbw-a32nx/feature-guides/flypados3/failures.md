@@ -132,7 +132,7 @@ Enter a search term to filter for specific systems.
 
 ## Failure Generator
 
-These optionss are found on the "Failure Generators" tab on the Failure page.
+These options are found on the "Failure Generators" tab on the Failure page.
 
 !!! info ""
     Please ensure that you are on the correct tab to trigger set up the correct generator.
@@ -154,9 +154,9 @@ These optionss are found on the "Failure Generators" tab on the Failure page.
 
 ### Max Failures and Number of Failures
 
-Each generator defines a specific number of failures to be trigger at the same time and a maximum number of failures.
+Each generator defines a specific number of failures to be triggered at the same time, and a maximum number of failures.
 
-The number of failures will activate up to the total number of failures configured for the flight.
+Failures will activate up to the total number of failures configured for the flight.
 
 ### Failure Pool Selection
 
@@ -166,7 +166,7 @@ Each failure generator allows to select specifically which failures can be trigg
 - Entire systems 
 - or all at once. 
  
-Only a specified number of failures randomly picked in this set will be triggered by the generator.
+Only a specified number of failures, randomly picked from this set, will be triggered by the generator.
 
 !!! tip ""
     You can create several failure generators of the same type so that specific failures may happen at specific conditions different to other sets of failures.
@@ -188,7 +188,7 @@ It may be configured either to trigger while the plane accelerates or decelerate
 This generator triggers a set of failures among the selected failure pool when the time since the arming of the generator reaches a random delay set between the specified minimum and maximum delay.
 
 - When configured in the "repeat" or "Once" arming modes, the timer will start right away.
-- When configured in the "Take Off" arming, the timer will start once FL or TOGA thrust is set for the first time.
+- When configured in the "Take Off" arming, the timer will start once FLEX or TOGA thrust is set for the first time.
 
 ### Probability Over Time Generator
 
