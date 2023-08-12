@@ -132,7 +132,7 @@ If the flyPad is empty, it will show a red empty battery symbol. To charge it, y
 |          [flyPad Performance](performance.md)          |
 |        [flyPad Navigation & Charts](charts.md)         |
 |           [flyPad Online ATC](online-atc.md)           |
-|             [flyPad Failures](failures/failures.md)             |
+|             [flyPad Failures](failures.md)             |
 |           [flyPad Checklists](checklists.md)           |
 |              [flyPad Presets](presets.md)              |
 |             [flyPad Settings](settings.md)             |
