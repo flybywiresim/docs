@@ -147,10 +147,11 @@ These options are found on the "Failure Generators" tab on the Failure page.
 !!! note "Configuration Options"
     Each generator can be configured in the following 4 modes:
 
-    - OFF : Generator is disabled but settings are kept
-    - ONCE : The generator will trigger a set of failures only once and go to OFF mode
-    - TAKE OFF : The generator will wait until FL or TOGA thrust is set to arm itself. It will trigger a set of failures only once until another take off event occurs.
-    - REPEAT : The generator will trigger a set of failures every time the conditions are met.
+    - OFF: Generator is disabled but settings are kept
+    - ONCE: The generator will trigger a set of failures only once and go to OFF mode
+    - TAKE OFF: The generator will wait until FLEX or TOGA thrust is set while on the ground to arm itself. It will trigger a set of failures only once until another take off 
+    event occurs.
+    - REPEAT: The generator will trigger a set of failures every time the conditions are met.
 
 ### Max Failures and Number of Failures
 
