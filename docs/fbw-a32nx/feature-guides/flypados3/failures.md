@@ -206,21 +206,21 @@ The mean time to failure (MTTF) is provided as an indication of the delay it may
 !!! note ""
     Rates of failure in aviation vary between 10e-3 per hour and 10e-9 per hour depending on the criticality of the system.
 
-For simulation purposes, it is advised to set this value at a much higher level up to 10e-1 (0.1 failure / hour or 1 failure every 10 hours) in order to experience failures once every simulator session.
+For simulation purposes, it is advised to set this value at a much higher level, up to 10e-1 (0.1 failure / hour or 1 failure every 10 hours) in order to experience failures once every simulator session.
 
 ![failures-all-systems.png](../../assets/flypados3/failures-all-systems.png){loading=lazy}
 
 ### Take Off Failure Generator
 
 This generator triggers a set of failures among the selected failure pool with a specified probability at each take off.
-If a failure will occur during the next take off, it may happen at any moment, during one of these three take off phases:
+If a failure occurs during the next take-off, it may happen at any moment, during one of these three take off phases:
 
 - Low ground speed phase :
-    - The take off phase when the plane exceeds the minimum ground speed and is slower than the low-med transition ground speed.
+    - The take-off phase when the plane exceeds the minimum ground speed and is slower than the low-med transition ground speed.
 - Medium ground speed phase :
-    - The take off phase when the plane exceeds the low-med transition ground speed and is slower than the med-high transition ground speed.
+    - The take-off phase when the plane exceeds the low-med transition ground speed and is slower than the med-high transition ground speed.
 - High ground speed & climb phase :
-    - The take off phase when the plane exceeds the med-high transition ground speed and is lower than the specified height above the runway. 
+    - The take-off phase when the plane exceeds the med-high transition ground speed and is lower than the specified height above the runway. 
 
 The choice between the 3 phases will be random, using the probability of each phase defined in the settings.
 
