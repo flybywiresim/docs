@@ -139,10 +139,7 @@ These options are found on the "Failure Generators" tab on the Failure page.
 
     ![flypad-failure-tab.png](../../assets/flypados3/flypad-failure-tab.png){loading=lazy}
 
--- TODO -- 
-
-- Add short overview here
-- add images of each page on the failures page
+![failures-select.png](../../assets/flypados3/failures-select.png){loading=lazy}
 
 !!! note "Configuration Options"
     Each generator can be configured in the following 4 modes:
@@ -178,11 +175,15 @@ This generator triggers a set of failures among the selected failure pool when t
 
 It may be configured either to trigger while the plane climbs or descends.
 
+![failures-altitude.png](../../assets/flypados3/failures-altitude.png){loading=lazy}
+
 ### Ground Speed Failure Generator
 
 This generator triggers a set of failures among the selected failure pool when the airplane reaches a random ground speed set between the specified minimum and maximum ground speed.
 
 It may be configured either to trigger while the plane accelerates or decelerates.
+
+![failures-speed.png](../../assets/flypados3/failures-speed.png){loading=lazy}
 
 ### Timed Failure Generator
 
@@ -190,6 +191,8 @@ This generator triggers a set of failures among the selected failure pool when t
 
 - When configured in the "repeat" or "Once" arming modes, the timer will start right away.
 - When configured in the "Take Off" arming, the timer will start once FLEX or TOGA thrust is set for the first time.
+
+![failures-timed.png](../../assets/flypados3/failures-timed.png){loading=lazy}
 
 ### Probability Over Time Generator
 
@@ -200,6 +203,8 @@ The mean time to failure (MTTF) is provided as an indication of the delay it may
     Rates of failure in aviation vary between 10e-3 per hour and 10e-9 per hour depending on the criticality of the system.
 
 For simulation purposes, it is advised to set this value at a much higher level up to 10e-1 (0.1 failure / hour or 1 failure every 10 hours) in order to experience failures once every simulator session.
+
+![failures-all-systems.png](../../assets/flypados3/failures-all-systems.png){loading=lazy}
 
 ### Take Off Failure Generator
 
@@ -214,3 +219,7 @@ If a failure will occur during the next take off, it may happen at any moment, d
     - The take off phase when the plane exceeds the med-high transition ground speed and is lower than the specified height above the runway. 
 
 The choice between the 3 phases will be random, using the probability of each phase defined in the settings.
+
+![failures-takeoff-1.png](../../assets/flypados3/failures-takeoff-1.png){loading=lazy}
+
+![failures-takeoff-2.png](../../assets/flypados3/failures-takeoff-2.png){loading=lazy}
