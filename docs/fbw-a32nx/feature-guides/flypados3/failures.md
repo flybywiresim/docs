@@ -224,6 +224,8 @@ If a failure will occur during the next take off, it may happen at any moment, d
 
 The choice between the 3 phases will be random, using the probability of each phase defined in the settings.
 
+**Takeoff Settings TOP**
 ![failures-takeoff-1.png](../../assets/flypados3/failures-takeoff-1.png){loading=lazy}
 
+**Takeoff Settings Scrolled**
 ![failures-takeoff-2.png](../../assets/flypados3/failures-takeoff-2.png){loading=lazy}
