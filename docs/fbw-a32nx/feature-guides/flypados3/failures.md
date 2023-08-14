@@ -132,7 +132,11 @@ Enter a search term to filter for specific systems.
 
 ## Failure Generator
 
-These options are found on the "Failure Generators" tab on the Failure page.
+The failure generator will trigger system failures automatically depending on the rules set for the type of generator. There are several types of generators available that have 
+different logics to trigger failures. each generator has their own settings on their triggering condition. They can be armed individually and can trigger a specific set of 
+failures.
+
+These options are found on the "Failure Generators" tab on the Failure page. 
 
 !!! info ""
     Please ensure that you are on the correct tab to trigger or set up the correct generator.
