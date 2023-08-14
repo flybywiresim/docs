@@ -131,13 +131,12 @@ __*The following steps from TAXI setup need to be done and checked:*__
         ![ECAM before T.O.](../assets/beginner-guide/takeoff-climb-cruise/ECAM-small.png "ECAM before T.O."){ loading=lazy align=right width=45% }
 
         - AUTO BRK MAX
-            - SIGN ON
-            - CABIN READY
-            - SPLRS ARM
-            - FLAPS TO
-            - TO CONFIG NORMAL
-
-        - Press T.O. Config button below the ECAM to check takeoff configuration
+        - SEAT BELTS ON
+        - CABIN READY
+        - SPLRS ARM
+        - FLAPS TO
+        - T.O CONFIG NORMAL
+            - Press T.O. Config button below the ECAM to check takeoff configuration
 
 - Check radar panel:
 
