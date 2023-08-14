@@ -11,18 +11,18 @@ To manage and trigger these failures, this flyPad page gives the user structured
 - Simple on demand triggering of failures by mouse click.
 - A more complex failure generator that can be customized to create failures at certain points during your flight for a more "randomized" feel. [Jump to Failure Generator](#failure-generator).
 
-These two systems can be selected by clicking on the respective buttons in the top right corner of the Failures page.
+These two systems can be selected by clicking on the respective buttons in the top-right corner of the Failures page.
 
 ![flypad-failure-tab.png](../../assets/flypados3/flypad-failure-tab.png){loading=lazy}
 
 There are further extensions planned for the failures feature, incl. more systems and trigger-based failures. This page will therefore change alongside the implementation of the failure system.
 
-## On Demand Failures
+## On-Demand Failures
 
-The on demand failures are triggered by clicking on the respective buttons in the "On Demand Failures" section of the page.
+The on-demand failures are triggered by clicking on the respective buttons in the "On-Demand Failures" section of the page.
 
 !!! info ""
-    Please ensure that you are on the Failures tab to trigger on demand failures.
+    Please ensure that you are on the Failures tab to trigger on-demand failures.
 
     ![flypad-failure-tab.png](../../assets/flypados3/flypad-failure-tab.png){loading=lazy}
 
@@ -132,8 +132,8 @@ Enter a search term to filter for specific systems.
 
 ## Failure Generator
 
-The failure generator will trigger system failures automatically depending on the rules set for the type of generator. There are several types of generators available that have 
-different logics to trigger failures. each generator has their own settings on their triggering condition. They can be armed individually and can trigger a specific set of 
+The failure generator will trigger system failures automatically, depending on the rules set for the type of generator. There are several types of generators available that have 
+different logics to trigger failures. Each generator has its own settings on its triggering condition. They can be armed individually and can trigger a specific set of 
 failures.
 
 These options are found on the "Failure Generators" tab on the Failure page. 
