@@ -171,14 +171,14 @@ Flight Deck: [INT LT Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/
 
 Flight Deck: [Signs Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/signs.md)
 
-| Function     | API Usage                                    | Values   | Read/Write | Type             | Remark              |
-|:-------------|:---------------------------------------------|:---------|:-----------|:-----------------|:--------------------|
-| SEAT BELTS   | CABIN_SEATBELTS_ALERT_SWITCH_TOGGLE          | -        | -          | SIMCONNECT EVENT |                     |
-|              | CABIN SEATBELTS ALERT SWITCH                 | 0&#124;1 | R          | SIMCONNECT VAR   |                     |
-|              |                                              |          |            |                  |                     |
-| NO SMOKING   | XMLVAR_SWITCH_OVHD_INTLT_NONSMOKING_POSITION | 0..2     | R/W        | Custom LVAR      | 0=ON, 1=AUTO, 2=OFF |
-|              |                                              |          |            |                  |                     |
-| EMER EXIT LT | XMLVAR_SWITCH_OVHD_INTLT_EMEREXIT_POSITION   | 0..2     | R/W        | Custom LVAR      | 0=ON, 1=AUTO, 2=OFF |
+| Function     | API Usage                                   | Values   | Read/Write | Type             | Remark              |
+|:-------------|:--------------------------------------------|:---------|:-----------|:-----------------|:--------------------|
+| SEAT BELTS   | CABIN_SEATBELTS_ALERT_SWITCH_TOGGLE         | -        | -          | SIMCONNECT EVENT |                     |
+|              | CABIN SEATBELTS ALERT SWITCH                | 0&#124;1 | R          | SIMCONNECT VAR   |                     |
+|              |                                             |          |            |                  |                     |
+| NO SMOKING   | XMLVAR_SWITCH_OVHD_INTLT_NOSMOKING_POSITION | 0..2     | R/W        | Custom LVAR      | 0=ON, 1=AUTO, 2=OFF |
+|              |                                             |          |            |                  |                     |
+| EMER EXIT LT | XMLVAR_SWITCH_OVHD_INTLT_EMEREXIT_POSITION  | 0..2     | R/W        | Custom LVAR      | 0=ON, 1=AUTO, 2=OFF |
 
 ### ADIRS Panel
 
