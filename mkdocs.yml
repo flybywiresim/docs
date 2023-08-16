@@ -117,6 +117,8 @@ extra_css:
 
 # Extra Functions / Customizations
 extra:
+  status:
+    new: Recently Updated
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/flybywiresim
@@ -136,8 +138,6 @@ extra:
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/@FlyByWireSim
       name: FlyByWire Simulations on Youtube
-  status:
-    new: Recently Updated
 
 # Additional Markdown Extensions to use bundled icon sets
 markdown_extensions:
