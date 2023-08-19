@@ -715,8 +715,13 @@ The following list of issues are commonly reported on our Discord support channe
 
         - You can see the **magnifying glass** when attempting to pop out the panel. 
 
-    You can try using the popout panel manager to restore the position if you suspect the pop-out is off screen. Please see the following GitHub issue for more information: 
-    [Popout Panel Manager](https://github.com/hawkeye-stan/msfs-popout-panel-manager/issues/73){target=new}.
+    You can try using the popout panel manager application to restore the position if you suspect the pop-out is off screen. 
+
+    [Download MSFS Pop Out Panel Manager](https://github.com/hawkeye-stan/msfs-popout-panel-manager)
+
+    For more information on how to actually solve the issue please reference the following GitHub issue for more information:
+
+    [MSFS Popout Workaround / Pop out panel manager issue](https://github.com/hawkeye-stan/msfs-popout-panel-manager/issues/73){target=new .md-button}
 
 ??? tip "++ctrl+'E'++ - Engine Start Unsupported" 
     ### ++ctrl+'E'++ - Engine Start Unsupported
