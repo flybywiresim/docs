@@ -692,6 +692,32 @@ The following list of issues are commonly reported on our Discord support channe
     
     - If you do use GSX, then much of the boarding and refueling process is completed through GSX itself, while also still requiring some interaction with the A32NX EFB. This is explained in detail in our [GSX Integration Guide](https://docs.flybywiresim.com/fbw-a32nx/feature-guides/gsxintegration).
 
+??? warning "MSFS Pop-out Feature Not Working"
+    ### MSFS Pop-out Feature Not Working
+
+    !!! tip ""
+        *Affected versions: Stable, Development*
+
+    ^^Description^^
+
+    The MSFS pop-out feature is not working for certain screens in the A32NX flight deck. 
+
+    While this is an MSFS issue it can cause problems if you regularly enjoy popping out various screens for use with external hardware or another monitor.
+
+    ^^Root Cause^^
+
+    MSFS off-screen pop out issue when your monitor setup may have changed between Sim Updates. This data is reportedly stored locally and in the cloud.
+
+    ^^Possible Solution or Workaround^^
+
+    !!! tip ""
+        Please note that you should first check if the following is try before trying any workarounds.
+
+        - You can see the **magnifying glass** when attempting to pop out the panel. 
+
+    You can try using the popout panel manager to restore the position if you suspect the pop-out is off screen. Please see the following GitHub issue for more information: 
+    [Popout Panel Manager](https://github.com/hawkeye-stan/msfs-popout-panel-manager/issues/73){target=new}.
+
 ??? tip "++ctrl+'E'++ - Engine Start Unsupported" 
     ### ++ctrl+'E'++ - Engine Start Unsupported
 
@@ -784,6 +810,16 @@ The following list of issues are commonly reported on our Discord support channe
     ^^Read the documentation about Discontinuities^^
 
     - [Discontinuities](../../pilots-corner/advanced-guides/flight-planning/disco.md)
+
+??? issue "Issue Headline"
+
+!!! tip ""
+*Affected versions: Stable, Development*
+
+^^Description^^
+^^Root Cause^^
+^^Possible Solution or Workaround^^
+^^Additional Information^^
     
 
 ## Solutions to Commonly Reported Issues 
