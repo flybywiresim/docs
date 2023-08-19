@@ -711,7 +711,7 @@ The following list of issues are commonly reported on our Discord support channe
     ^^Possible Solution or Workaround^^
 
     !!! tip ""
-        Please note that you should first check if the following is try before trying any workarounds.
+        Please note that you should first check the following before trying any workarounds.
 
         - You can see the **magnifying glass** when attempting to pop out the panel. 
 
