@@ -692,8 +692,8 @@ The following list of issues are commonly reported on our Discord support channe
     
     - If you do use GSX, then much of the boarding and refueling process is completed through GSX itself, while also still requiring some interaction with the A32NX EFB. This is explained in detail in our [GSX Integration Guide](https://docs.flybywiresim.com/fbw-a32nx/feature-guides/gsxintegration).
 
-??? warning "MSFS Pop-out Feature Not Working"
-    ### MSFS Pop-out Feature Not Working
+??? warning "Pop-out Feature Not Working"
+    ### Pop-out Feature Not Working
 
     !!! tip ""
         *Affected versions: Stable, Development*
@@ -810,17 +810,6 @@ The following list of issues are commonly reported on our Discord support channe
     ^^Read the documentation about Discontinuities^^
 
     - [Discontinuities](../../pilots-corner/advanced-guides/flight-planning/disco.md)
-
-??? issue "Issue Headline"
-
-!!! tip ""
-*Affected versions: Stable, Development*
-
-^^Description^^
-^^Root Cause^^
-^^Possible Solution or Workaround^^
-^^Additional Information^^
-    
 
 ## Solutions to Commonly Reported Issues 
 The following list of solutions solves most reported issues on our Discord support channel. 
