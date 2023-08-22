@@ -702,11 +702,11 @@ The following list of issues are commonly reported on our Discord support channe
 
     The MSFS pop-out feature is not working for certain screens in the A32NX flight deck. 
 
-    While this is an MSFS issue it can cause problems if you regularly enjoy popping out various screens for use with external hardware or another monitor.
+    While this is an MSFS issue, it can cause problems if you regularly enjoy popping out various screens for use with external hardware or another monitor.
 
     ^^Root Cause^^
 
-    MSFS off-screen pop out issue when your monitor setup may have changed between Sim Updates. This data is reportedly stored locally and in the cloud.
+    MSFS off-screen pop-out issue when your monitor setup may have changed between Sim Updates. This data is reportedly stored locally and in the cloud.
 
     ^^Possible Solution or Workaround^^
 
@@ -715,11 +715,11 @@ The following list of issues are commonly reported on our Discord support channe
 
         - You can see the **magnifying glass** when attempting to pop out the panel. 
 
-    You can try using the popout panel manager application to restore the position if you suspect the pop-out is off screen. 
+    You can try using the MSFS Pop Out Panel Manager application to restore the position if you suspect the pop-out is off-screen. 
 
     [Download MSFS Pop Out Panel Manager](https://github.com/hawkeye-stan/msfs-popout-panel-manager)
 
-    For more information on how to actually solve the issue please reference the following GitHub issue for more information:
+    For more information on how to actually solve the issue, please reference the following GitHub issue for more information:
 
     [MSFS Popout Workaround / Pop out panel manager issue](https://github.com/hawkeye-stan/msfs-popout-panel-manager/issues/73){target=new .md-button}
 
