@@ -692,6 +692,37 @@ The following list of issues are commonly reported on our Discord support channe
     
     - If you do use GSX, then much of the boarding and refueling process is completed through GSX itself, while also still requiring some interaction with the A32NX EFB. This is explained in detail in our [GSX Integration Guide](https://docs.flybywiresim.com/fbw-a32nx/feature-guides/gsxintegration).
 
+??? warning "Pop-out Feature Not Working"
+    ### Pop-out Feature Not Working
+
+    !!! tip ""
+        *Affected versions: Stable, Development*
+
+    ^^Description^^
+
+    The MSFS pop-out feature is not working for certain screens in the A32NX flight deck. 
+
+    While this is an MSFS issue, it can cause problems if you regularly enjoy popping out various screens for use with external hardware or another monitor.
+
+    ^^Root Cause^^
+
+    MSFS off-screen pop-out issue when your monitor setup may have changed between Sim Updates. This data is reportedly stored locally and in the cloud.
+
+    ^^Possible Solution or Workaround^^
+
+    !!! tip ""
+        Please note that you should first check the following before trying any workarounds.
+
+        - You can see the **magnifying glass** when attempting to pop out the panel. 
+
+    You can try using the MSFS Pop Out Panel Manager application to restore the position if you suspect the pop-out is off-screen. 
+
+    [Download MSFS Pop Out Panel Manager](https://github.com/hawkeye-stan/msfs-popout-panel-manager)
+
+    For more information on how to actually solve the issue, please reference the following GitHub issue for more information:
+
+    [MSFS Popout Workaround / Pop out panel manager issue](https://github.com/hawkeye-stan/msfs-popout-panel-manager/issues/73){target=new .md-button}
+
 ??? tip "++ctrl+'E'++ - Engine Start Unsupported" 
     ### ++ctrl+'E'++ - Engine Start Unsupported
 
@@ -784,7 +815,6 @@ The following list of issues are commonly reported on our Discord support channe
     ^^Read the documentation about Discontinuities^^
 
     - [Discontinuities](../../pilots-corner/advanced-guides/flight-planning/disco.md)
-    
 
 ## Solutions to Commonly Reported Issues 
 The following list of solutions solves most reported issues on our Discord support channel. 
