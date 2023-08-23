@@ -72,6 +72,14 @@ Settings for A32NX aircraft configuration.
     - The weight unit of the aircraft used for aircraft weight, fuel and simBrief imports.
 - Satcom:
     - Enables showing the Honeywell JetWave Satcom antenna on the fuselage.   
+- Automatic Call Outs:
+    - Enables selection of various radio altitude auto call outs.
+  
+    !!! info "Please Note Some Airbus Rules"
+        - one of "five hundred" or "four hundred" is mandatory,
+        - only one of "two thousand five hundred" and "twenty five hundred" can be selected.
+  
+    ![flypad-settings-callouts.png](../../assets/flypados3/flypad-settings-callouts.png){loading=lazy}
   
 ## Sim Options
 
