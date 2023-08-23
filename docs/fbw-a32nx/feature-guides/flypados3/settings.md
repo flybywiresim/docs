@@ -237,6 +237,8 @@ Settings for integrations with various 3rd party applications
 [//]: # (!!! warning "")
 
 [//]: # (    This feature is only available in the [Development Version]&#40;../../fbw-versions.md#development-version-recommended&#41;)
+!!! warning "Navigraph Options"
+    This feature is only available in the [Development Version](../../fbw-versions.md#development-version-recommended)
 
 #### GSX Integration
 These options are separate to provide you with the flexibility to choose what to sync with GSX and what not to sync. 
