@@ -23,14 +23,9 @@ With a valid Navigraph subscription, the FlyByWire flyPad allows access to all N
 
 ### Authentication to Navigraph
 
-Before you can use the Navigraph integration, the flyPad will ask you once to authenticate and authorize Navigraph. You may see the following screen presented to you:
+Before you can use the Navigraph integration, the flyPad will ask you once to authenticate and authorize Navigraph.
 
-![flypad-ng-auth.png](../../assets/flypados3/navigraph/flypad-ng-auth.png)
-
-You can accomplish this by heading to:
-
-- Settings page
-- Selecting 3rd Party Options. 
+You will be redirected to (*Settings Page -> 3rd Party Options*) where you can link your account.
 
 For more information see [SimBrief and Navigraph Integration](../simbrief.md#setup-a32nx-simbrief-integration).
 

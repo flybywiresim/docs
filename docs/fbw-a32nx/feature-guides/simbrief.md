@@ -47,12 +47,29 @@ We have unified our SimBrief Integration with Navigraph. Your Navigraph account 
 You can do this by navigating to following page on the flyPad (EFB):
 
 1. Settings Page
-- 3rd Party Option
-- Navigraph Login
+- 3rd Party Options
+- Select the "Link Account" button next to Navigraph Account Link
 
-Please follow the steps provided by the flyPad to securely link to your Navigraph account to the aircraft.
+![flypad-ng-3rdpartyoptions-blank.png](../assets/flypados3/navigraph/flypad-ng-3rdpartyoptions-blank.png){loading=lazy}
 
-[Insert image here of 3rd party options page]
+You will be presented with the following screen:
+
+![flypad-ng-auth.png](../assets/flypados3/navigraph/flypad-ng-auth.png){loading=lazy}
+
+Follow the instructions above to link your account.
+
+If successful you should see your account name followed by your Navigraph account subscription status (not required) and an option to Unlink Account. As seen below:
+
+![flypad-ng-3rdpartyoptions.png](../assets/flypados3/navigraph/flypad-ng-3rdpartyoptions.png){loading=lazy}
+
+!!! note "Overriding SimBrief User ID"
+    There may be situations where you would like to import data from SimBrief not specifically linked to your account i.e. copying a streamer or friends flight plan to your 
+    aircraft. 
+
+    In this case you can override the SimBrief User ID by entering it in the SimBrief User ID field. This will override the linked Navigraph account temporarily until it 
+    is removed. You will be notified when the override is succesful with a pop up message. Example below:
+
+    ![flypad-ng-override.png](../assets/flypados3/navigraph/flypad-ng-override.png){loading=lazy}
 
 If you are still unsure of where the Settings page is on the EFB please see [flyPad Settings](flypados3/settings.md#settings-page).
 
