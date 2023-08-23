@@ -23,7 +23,7 @@ With a valid Navigraph subscription, the FlyByWire flyPad allows access to all N
 
 ### Authentication to Navigraph
 
-Before you can use the Navigraph integration, the flyPad will ask you once to authenticate and authorize Navigraph.
+Before you can use the Navigraph integration, the flyPad will ask you to authenticate and authorize Navigraph once.
 
 You will be redirected to (*Settings Page -> 3rd Party Options*) where you can link your account.
 

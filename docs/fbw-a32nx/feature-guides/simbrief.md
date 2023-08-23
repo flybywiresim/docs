@@ -2,8 +2,7 @@
 
 # SimBrief and Navigraph Integration
 
-We have recently streamlined our SimBrief integration with Navigraph. Please use the Quick Links to jump to any relevant section. For connecting your SimBrief/Navigraph 
-Accounts you clicking the relevant button below.
+Please use the Quick Links to jump to any relevant section. For connecting your SimBrief/Navigraph Accounts, click the relevant button below.
 
 [Development Version - Link Navigraph/SimBrief](#setup-a32nx-simbrief-integration){.md-button}
 
@@ -46,9 +45,9 @@ This airframe will be updated by FlyByWire Simulations when needed, so you will 
 
 !!! info "This integration does not require having an active Navigraph subscription."
 
-We have unified our SimBrief Integration with Navigraph. Your Navigraph account needs to be configured in the flyPad EFB.
+Your Navigraph account needs to be configured in the flyPad EFB.
 
-You can do this by navigating to following page on the flyPad (EFB):
+You can do this by navigating to the following page on the flyPad (EFB):
 
 1. Settings Page
 - 3rd Party Options
@@ -62,20 +61,20 @@ You will be presented with the following screen:
 
 Follow the instructions above to link your account.
 
-If successful you should see your account name followed by your Navigraph account subscription status (not required) and an option to Unlink Account. As seen below:
+If successful, you should see your account name followed by your Navigraph account subscription status (not required) and an option to Unlink Account. As seen below:
 
 ![flypad-ng-3rdpartyoptions.png](../assets/flypados3/navigraph/flypad-ng-3rdpartyoptions.png){loading=lazy}
 
 !!! note "Overriding SimBrief User ID"
-    There may be situations where you would like to import data from SimBrief not specifically linked to your account i.e. copying a streamer or friends flight plan to your 
-    aircraft or using an addon for shared cockpit scenarios.
+    There may be situations where you would like to import data from SimBrief not specifically linked to your account, i.e., copying a streamer's or friend's flight plan to your 
+    aircraft or using an add-on for shared cockpit scenarios.
 
     In this case you can override the SimBrief User ID by entering it in the SimBrief User ID field. This will override the linked Navigraph account temporarily until it 
     is removed. You will be notified when the override is succesful with a pop up message. Example below:
 
     ![flypad-ng-override.png](../assets/flypados3/navigraph/flypad-ng-override.png){loading=lazy}
 
-If you are still unsure of where the Settings page is on the EFB please see [flyPad Settings](flypados3/settings.md).
+If you are still unsure of where the Settings page on the EFB is, please see [flyPad Settings](flypados3/settings.md).
 
 ??? warning "Stable Version Only"
     ### Stable Version Only    
