@@ -2,8 +2,12 @@
 
 # SimBrief and Navigraph Integration
 
-We have recently streamlined our SimBrief integration with Navigraph. If you are using the stable version, please see [stable version information](#) for instructions how to 
-authenticate / sync your account.
+We have recently streamlined our SimBrief integration with Navigraph. Please use the Quick Links to jump to any relevant section. For connecting your SimBrief/Navigraph 
+Accounts you clicking the relevant button below.
+
+[Development Version - Link Navigraph/SimBrief](#setup-a32nx-simbrief-integration){.md-button}
+
+[Stable Version - Link Navigraph/SimBrief](#stable-version-only){.md-button}
 
 ## Quick Links
 
@@ -64,17 +68,35 @@ If successful you should see your account name followed by your Navigraph accoun
 
 !!! note "Overriding SimBrief User ID"
     There may be situations where you would like to import data from SimBrief not specifically linked to your account i.e. copying a streamer or friends flight plan to your 
-    aircraft. 
+    aircraft or using an addon for shared cockpit scenarios.
 
     In this case you can override the SimBrief User ID by entering it in the SimBrief User ID field. This will override the linked Navigraph account temporarily until it 
     is removed. You will be notified when the override is succesful with a pop up message. Example below:
 
     ![flypad-ng-override.png](../assets/flypados3/navigraph/flypad-ng-override.png){loading=lazy}
 
-If you are still unsure of where the Settings page is on the EFB please see [flyPad Settings](flypados3/settings.md#settings-page).
+If you are still unsure of where the Settings page is on the EFB please see [flyPad Settings](flypados3/settings.md).
 
-??? warning "Stable Version Only" 
-    The SimBrief username needs to be configured in the flyPad EFB. See [Setup SimBrief Integration](flypados3/settings.md#simbrief-integration)
+??? warning "Stable Version Only"
+    ### Stable Version Only    
+
+    The SimBrief username needs to be configured in the flyPad EFB under Settings -> ATSU/AOC. [Location Here](flypados3/settings.md##atsuaoc).
+
+    Before you can use the A32NX simBrief Integration, you need to provide your simBrief account details.
+    
+    - SimBrief Pilot ID:
+
+        - Enter your SimBrief Pilot ID into the applicable field
+    
+          ![simBrief Account field](../../assets/flypados3/simbrief-account-field.png "simBrief Account field")
+    
+        - If you entered a wrong Pilot ID, a red error message will be displayed.
+    
+          ![simBrief Account Field Error](../../assets/flypados3/simbrief-account-field-error.png "simBrief Account Field Error")
+    
+    To get your simBrief Pilot ID, you can go to your simBrief Account settings and open "SimBrief Data".
+    
+    ![simBrief Account Data](../../assets/flypados3/simbrief-account-data.png "simBrief Account Data")
 
 ## Using the flyPad SimBrief Integration
 
