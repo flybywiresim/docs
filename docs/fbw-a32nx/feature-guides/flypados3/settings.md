@@ -226,8 +226,9 @@ Settings for integrations with various 3rd party applications
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
 
-!!! warning ""
-    This feature is only available in the [Development Version](../../fbw-versions.md#development-version-recommended)
+[//]: # (!!! warning "")
+
+[//]: # (    This feature is only available in the [Development Version]&#40;../../fbw-versions.md#development-version-recommended&#41;)
 
 #### GSX Integration
 These options are separate to provide you with the flexibility to choose what to sync with GSX and what not to sync. 
