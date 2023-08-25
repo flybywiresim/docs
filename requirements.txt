@@ -1,4 +1,4 @@
-mkdocs-material==9.1.21
+mkdocs-material==9.2.1
 mkdocs-awesome-pages-plugin
 mkdocs-git-revision-date-localized-plugin
 mkdocs-redirects
@@ -7,4 +7,4 @@ mkdocs-video
 mkdocs-glightbox
 pillow
 cairosvg
-urllib3==1.26.15
+urllib3<2.0

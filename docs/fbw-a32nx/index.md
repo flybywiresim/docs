@@ -21,6 +21,7 @@ Engine      CFM LEAP 1A-26
 APU         APS3200
 FMS         Honeywell Release H3
 FWC Std.    H2F13
+RA          Honeywell ALA-52B
 TAWS        Honeywell EGPWS
 ACAS        Honeywell TPA-100B
 ATC         Honeywell TRA-100B
@@ -37,12 +38,12 @@ WXR         Honeywell RDR-4000
 ##  Topics
 
 | Featured List                                |
-| :----                                        |
+|:---------------------------------------------|
 | [Installation Guide](installation.md)        |
 | [Version and Feature Guide](fbw-versions.md) |
 | [Livery Guide](liveries.md)                  |
 | [Support](support/index.md)                  |
-| [API and Hardware](a32nx-api)                |
+| [API and Hardware](a32nx-api/index.md)       |
 
 
 

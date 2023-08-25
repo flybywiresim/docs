@@ -2,7 +2,7 @@
 
 ## Version Overview
 
-### "Development Version (recommended)"
+### Development Version (recommended)
 
 Development will have the latest features that will eventually end up in the next stable release.
 
@@ -14,7 +14,7 @@ Every addition to the development version is code-reviewed and tested by several
 
 The latest additions to this version can be seen either in the official [CHANGELOG](https://github.com/flybywiresim/aircraft/blob/master/.github/CHANGELOG.md) or the commits to the master branch of the project: [GitHub Commits to Master](https://github.com/flybywiresim/aircraft/commits/master){target=new}
 
-### "Stable Version"
+### Stable Version
 
 !!! info ""
     **Current Stable Version -** <img src="https://img.shields.io/github/v/release/flybywiresim/aircraft.svg?color=2F4E5B&style=flat" />
@@ -23,13 +23,13 @@ Stable is our version which contains features that are the most mature and most 
 
 This version will not always be up-to-date, but we work hard at ensuring its compatibility with the current version of Microsoft Flight Simulator.
 
-### "Experimental Version"
+### Experimental Version
 
 We have discontinued our Experimental Version. Latest features and testing will be on the Development Version of the aircraft. 
 
 ## Version Comparison
 
-See [Latest Release Notes for Stable](/latest-release)
+See [Latest Release Notes for Stable](/latest-release/)
 
 For all changes made to the Development version since the last major release of the Stable version, refer to:
 

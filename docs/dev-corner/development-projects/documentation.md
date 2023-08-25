@@ -119,11 +119,11 @@ feature.
     You can opt to use a faster instance of the developer server by invoking the flag `--dirtyreload`. This just checks for any markdown that has changed since the HTML was rendered and will reconstruct any relevant pages only, rather than rebuilding the entire website.
 
     ```
-    mkdocs.exe serve --dirtyreload
+    mkdocs.exe serve --dirty
     ```
 
     !!! danger ""
-        Navigation and new internal links may not get updated on other pages while using `--dirtyreload`. Verify links using the standard serve or build command.
+        Navigation and new internal links may not get updated on other pages while using `--dirty`. Verify links using the standard serve or build command.
 
 - You can now browse the current checked out branch in a browser at this address: [http://127.0.0.1:8000/](http://127.0.0.1:8000/). The site renders every time you save any `filename.md` you are working on.
 - Optional: Build a static site locally for testing:
