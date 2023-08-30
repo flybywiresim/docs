@@ -1,3 +1,8 @@
+---
+search:
+    exclude: true
+---
+
 # flyPad Development Guide
 
 ## Quick Reloading the flyPad
