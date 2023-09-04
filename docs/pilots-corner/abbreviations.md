@@ -468,6 +468,7 @@
 | ECU            | **E**lectronic **C**ontrol **U**nit                                         |
 | EE             | **E**lectrical and **E**lectronic                                           |
 | EEC            | **E**lectronic **E**ngine **C**ontrol                                       |
+| EFB            | **E**lectronic **F**light **B**ag                                           |
 | EFCC           | **E**lectronic **F**light **C**ontrol **C**omputer                          |
 | EFCS           | **E**lectrical **F**light **C**ontrol **S**ystem                            |
 | EFCU           | **E**lectrical **F**light **C**ontrol **U**nit                              |
