@@ -90,6 +90,42 @@ If you are using MCDU hardware with a 4:3 display, you can use the 4:3 aspect ra
 
 To use this mode, add `?43` to the URL.
 
+### Keyboard Mapping
+
+The supoorted list of keyboard inputs and shortcuts are available for the MCDU Remote Display in a desktop browser.
+
+| Keyboard Code        | MCDU Key  |
+| -------------------- | --------- |
+| `F1`-`F6`            | LSK1-LSK6 |
+| `F7`-`F12`           | RSK1-RSK6 |
+| `A-Z`                | A-Z       |
+| `0-9`, Digit, Numpad | 0-9       |
+| `Tab`                | DIR       |
+| `Insert`             | PROG      |
+| `Home`               | PERF      |
+| `PageUp`             | INIT      |
+| `Enter`              | DATA      |
+| `NumpadEnter`        | DATA      |
+| `Delete`             | FPLN      |
+| `End`                | RAD       |
+| `PageDown`           | FUEL      |
+| `Escape`             | MENU      |
+| `ShiftLeft`          | AIRPORT   |
+| `ArrowLeft`          | PREVPAGE  |
+| `ArrowRight`         | NEXTPAGE  |
+| `ArrowUp`            | UP        |
+| `ArrowDown`          | DOWN      |
+| `Backspace`          | CLR       |
+| `Space`              | SP        |
+| `Period`             | DOT       |
+| `Slash`              | DIV       |
+| `Minus`              | PLUSMINUS |
+| `NumpadSubtract`     | PLUSMINUS |
+| `NumpadAdd`          | PLUSMINUS |
+| `NumpadDecimal`      | DOT       |
+| `NumpadDivide`       | DIV       |
+| `NumpadMultiply`     | OVFY      |
+
 ## Compatible Browsers
 
 With hundreds of different browsers available today, it is not possible to test and support all browsers and their different versions.
