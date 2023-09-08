@@ -92,7 +92,7 @@ To use this mode, add `?43` to the URL.
 
 ### Keyboard Mapping
 
-The supoorted list of keyboard inputs and shortcuts are available for the MCDU Remote Display in a desktop browser.
+The list shows the supported keyboard inputs and shortcuts for the MCDU Remote Display in a desktop browser.
 
 | Keyboard Code        | MCDU Key  |
 | -------------------- | --------- |
