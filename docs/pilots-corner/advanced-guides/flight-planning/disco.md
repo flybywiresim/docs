@@ -38,7 +38,7 @@ waypoint on your flight plan.
 
 ### Discontinuity After Deleting Waypoints
 
-If you delete a waypoint manually a discontinuity will be inserted instead. This discontinuity can be deleted to connect the route back together.
+If you delete a waypoint manually, a discontinuity will be inserted instead. This discontinuity can be deleted to connect the route back together.
 
 ## Discontinuities After MANUAL Leg
 
@@ -99,8 +99,8 @@ If the aircraft is flying into a MANUAL leg, NAV mode remains engaged and predic
         There are some important reasons why you shouldn't normally clear a discontinuity:
 
         - Narrow turn radii between the two waypoints, where the discontinuity is present, which could not realistically be flown by the plane
-        - Understanding the different [leg types](leg-types.md) and if they are compatible to be connected together
-        - Even if the waypoints form a direct line, it's not completely safe to remove a discontinuity unless you understand the above points
+        - Different [leg types](leg-types.md), which are not compatible to be connected together
+Even if the waypoints form a direct line, it's not completely safe to remove a discontinuity unless you understand the above points
 
     This is a small problem with our current implementation. It will be corrected when we update to version 2 (fms-v2) of our implementation, which contains an even better 
     simulation of the Honeywell FMS.
