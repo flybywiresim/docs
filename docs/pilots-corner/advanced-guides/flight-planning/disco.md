@@ -17,7 +17,7 @@ There are basically two types of discontinuities:
 ## Discontinuities Between Waypoints
 
 !!! warning ""
-    Based on the [Special Cases](#special-cases) above these discontinuities **should not** be cleared from the flight plan in normal operations.
+    Based on the [Special Cases](#special-cases) below these discontinuities **should not** be cleared from the flight plan in normal operations.
 
 Typically, you will notice a discontinuity in the following instances:
 
@@ -88,11 +88,6 @@ If the aircraft is flying into a MANUAL leg, NAV mode remains engaged and predic
 
 ## Special Cases
 
-!!! warning "STAR and Approach Discontinuity - Inaccuracy"
-    If your STAR contains other waypoints after the IAF (initial approach fix) that you have selected via an approach transition (VIA), the FMS will not automatically connect the STAR to the approach at the IAF.
-
-    This is a small problem with our current implementation. It will be corrected when we update to version 2 (fms-v2) of our implementation, which contains even better simulation of the Honeywell FMS.
-
 !!! warning "SID and En-route F-PLN Discontinuity - Inaccuracy"
     **In most cases** a discontinuity between the SID and your route is something that doesn't happen in real life.
 
@@ -105,6 +100,11 @@ If the aircraft is flying into a MANUAL leg, NAV mode remains engaged and predic
         - Turn radius between the two waypoints where the discontinuity is present
         - Understanding the different [Leg Types](leg-types.md) and if they are compatible to be connected together
         - Even if the waypoints form a direct line, it's not inherently completely safe to remove a discontinuity unless you understand the above points
+
+    This is a small problem with our current implementation. It will be corrected when we update to version 2 (fms-v2) of our implementation, which contains even better simulation of the Honeywell FMS.
+
+!!! warning "STAR and Approach Discontinuity - Inaccuracy"
+    If your STAR contains other waypoints after the IAF (initial approach fix) that you have selected via an approach transition (VIA), the FMS will not automatically connect the STAR to the approach at the IAF.
 
     This is a small problem with our current implementation. It will be corrected when we update to version 2 (fms-v2) of our implementation, which contains even better simulation of the Honeywell FMS.
 
