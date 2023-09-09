@@ -14,28 +14,6 @@ There are basically two types of discontinuities:
 - Discontinuities between two waypoints in the flight plan
 - Discontinuities after a MANUAL leg (Manual Termination)
 
-### Special Cases
-
-!!! warning "STAR and Approach Discontinuity - Inaccuracy"
-    If your STAR contains other waypoints after the IAF (initial approach fix) that you have selected via an approach transition (VIA), the FMS will not automatically connect the STAR to the approach at the IAF.
-
-    This is a small problem with our current implementation. It will be corrected when we update to version 2 (fms-v2) of our implementation, which contains even better simulation of the Honeywell FMS.
-
-!!! warning "SID and En-route F-PLN Discontinuity - Inaccuracy"
-    **In most cases** a discontinuity between the SID and your route is something that doesn't happen in real life. 
-
-    With our current FMS, the A32NX sometimes will create a discontinuity that wouldn't typically be there. In these cases it would be okay to CLR the discontinuity - 
-    <span style="color:red">**provided you fully understand your routing and can identify it would not cause any en-route issues**.</span>
-
-    !!! danger ""
-        There are some important things to note why you shouldn't normally clear a discontinuity:
-
-        - Turn radius between the two waypoints where the discontinuity is present
-        - Understanding the different [Leg Types](leg-types.md) and if they are compatible to be conneted together
-        - Even if the waypoints form a direct line, it's not inherently completely safe to remove a discontinuity unless you understand the above points
-
-    This is a small problem with our current implementation. It will be corrected when we update to version 2 (fms-v2) of our implementation, which contains even better simulation of the Honeywell FMS.
-
 ## Discontinuities Between Waypoints
 
 !!! warning ""
@@ -56,6 +34,10 @@ waypoint on your flight plan.
 
 !!! info "Normal Discontinuity in the MCDU F-PLN Page"
      ![Normal Discontinuity](../../assets/advanced-guides/disco/mcdu-discontinuity-1.png "Normal Discontinuity")
+
+### Discontinuity After Deleting Waypoints
+
+If you delete a waypoint manually a discontinuity will be inserted instead. This discontinuity can be deleted to connect the route back together.
 
 ## Discontinuities After MANUAL Leg
 
@@ -104,6 +86,26 @@ If the aircraft is flying into a MANUAL leg, NAV mode remains engaged and predic
     !!! warning "MANUAL label to be removed!"
         The MANUAL label on the ND will be removed in a future version, as it is not displayed in the real aircraft.
 
+## Special Cases
 
+!!! warning "STAR and Approach Discontinuity - Inaccuracy"
+    If your STAR contains other waypoints after the IAF (initial approach fix) that you have selected via an approach transition (VIA), the FMS will not automatically connect the STAR to the approach at the IAF.
+
+    This is a small problem with our current implementation. It will be corrected when we update to version 2 (fms-v2) of our implementation, which contains even better simulation of the Honeywell FMS.
+
+!!! warning "SID and En-route F-PLN Discontinuity - Inaccuracy"
+    **In most cases** a discontinuity between the SID and your route is something that doesn't happen in real life.
+
+    With our current FMS, the A32NX sometimes will create a discontinuity that wouldn't typically be there. In these cases it would be okay to CLR the discontinuity - 
+    <span style="color:red">**provided you fully understand your routing and can identify it would not cause any en-route issues**.</span>
+
+    !!! danger ""
+        There are some important things to note why you shouldn't normally clear a discontinuity:
+
+        - Turn radius between the two waypoints where the discontinuity is present
+        - Understanding the different [Leg Types](leg-types.md) and if they are compatible to be conneted together
+        - Even if the waypoints form a direct line, it's not inherently completely safe to remove a discontinuity unless you understand the above points
+
+    This is a small problem with our current implementation. It will be corrected when we update to version 2 (fms-v2) of our implementation, which contains even better simulation of the Honeywell FMS.
 
 
