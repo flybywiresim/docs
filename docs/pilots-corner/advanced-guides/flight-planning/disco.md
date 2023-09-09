@@ -25,7 +25,8 @@ Typically, you will notice a discontinuity in the following instances:
 - Between the STAR and the selected approach.
 
 !!! tip ""
-    Approaches that are radar vectored without a MANUAL will also have a discontinuity by design. Please be aware of these approaches and follow the principles outlined below.
+    Approaches that are radar vectored without a MANUAL will also have a discontinuity by design. Please be aware of these approaches and follow the principles outlined 
+    further below.
 
 Ideally, the NAV mode automatically reverts to the HDG (TRK) mode and pilots should follow ATC guidance (if on network) or use the DIR TO function to proceed to the next 
 waypoint on your flight plan.
