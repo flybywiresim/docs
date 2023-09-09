@@ -103,7 +103,7 @@ If the aircraft is flying into a MANUAL leg, NAV mode remains engaged and predic
         There are some important things to note why you shouldn't normally clear a discontinuity:
 
         - Turn radius between the two waypoints where the discontinuity is present
-        - Understanding the different [Leg Types](leg-types.md) and if they are compatible to be conneted together
+        - Understanding the different [Leg Types](leg-types.md) and if they are compatible to be connected together
         - Even if the waypoints form a direct line, it's not inherently completely safe to remove a discontinuity unless you understand the above points
 
     This is a small problem with our current implementation. It will be corrected when we update to version 2 (fms-v2) of our implementation, which contains even better simulation of the Honeywell FMS.
