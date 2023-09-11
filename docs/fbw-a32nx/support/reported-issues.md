@@ -1041,6 +1041,27 @@ Please try these before reporting any other issue on Discord.
     - Saudi Arabia
     - Spain
 
+??? bug "Installer Permission Problems"
+    
+    ^^Description^^
+
+    During installation of a product a "Windows Permission Error" with the error code EPERM shows up and the installation is aborted.
+
+    ^^Root Cause^^
+    
+    Sometimes the permissions of the community folder are set to not allow the current user to install addons in it.
+    This might be set since the installation of MSFS or MSFS might have changed it at some point.
+    
+    ^^Possible Solution or Workaround^^
+
+    One of the following solutions usually lets the desired addon be installed
+
+    * Check the permissions of the community folder and correct them.
+    * Rename the current community folder, create a new one with the same name and move your installed addons into the new community folder.
+    * Start the installer with admin permissions.
+
+
+
 ## Incompatible and Problematic Add-ons/Mods
 
 The following add-ons and mods are known to be incompatible and cause issues with the A32NX. We recommend you uninstall these before starting the sim and flying with the A32NX, especially if you experience issues with the aircraft.
