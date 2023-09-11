@@ -133,7 +133,7 @@ Enter a search term to filter for specific systems.
 ## Failure Generator
 
 The failure generator will trigger system failures automatically, depending on the rules set for the type of generator. There are several types of generators available that have 
-different logics to trigger failures. Each generator has its own settings on its triggering condition. They can be armed individually and can trigger a specific set of 
+different logics to trigger failures. Each generator has its own settings on its triggering conditions. They can be armed individually and can trigger a specific set of 
 failures.
 
 These options are found on the "Failure Generators" tab on the Failure page. 
@@ -150,7 +150,8 @@ These options are found on the "Failure Generators" tab on the Failure page.
 
     - OFF: Generator is disabled but settings are kept
     - ONCE: The generator will trigger a set of failures only once and go to OFF mode
-    - TAKE OFF: The generator will wait until FLEX or TOGA thrust is set while on the ground to arm itself. It will trigger a set of failures only once until another take off 
+    - TAKE OFF: The generator will wait until FLEX or TOGA thrust is set while speed is low on the ground to arm itself. It will trigger a set of failures only once until another 
+    take off 
     event occurs.
     - REPEAT: The generator will trigger a set of failures every time the conditions are met.
 
@@ -201,7 +202,7 @@ This generator triggers a set of failures among the selected failure pool when t
 ### Probability Over Time Generator
 
 At any moment, this generator may trigger a set of failures among the selected failure pool by using the probability specified through the average number of failure per hour.
-The mean time to failure (MTTF) is provided as an indication of the delay it may take in average to trigger one failure for the probability of failure per hour.
+The mean time to failure (MTTF) is provided as an indication of the delay it may take in average to trigger one failure for the probability of failure per hour specified.
 
 !!! note ""
     Rates of failure in aviation vary between 10e-3 per hour and 10e-9 per hour depending on the criticality of the system.
