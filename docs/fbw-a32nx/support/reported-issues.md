@@ -1060,8 +1060,6 @@ Please try these before reporting any other issue on Discord.
     * Rename the current community folder, create a new one with the same name and move your installed addons into the new community folder.
     * Start the installer with admin permissions.
 
-
-
 ## Incompatible and Problematic Add-ons/Mods
 
 The following add-ons and mods are known to be incompatible and cause issues with the A32NX. We recommend you uninstall these before starting the sim and flying with the A32NX, especially if you experience issues with the aircraft.
