@@ -29,6 +29,8 @@ Before using this procedure ensure:
 - `APU BLEED` - `OFF`
 - `ENG MODE` - `NORM`
 
+![crossbleed1.png](..%2F..%2Fassets%2Fadvanced-guides%2Fengines%2Fcrossbleed1.png){loading=lazy}
+
 !!! tip ""
     Currently the A32NX does not have the capability to air start the engines. This procedure is included for completeness and will be updated when the feature is implemented.
 
@@ -43,20 +45,26 @@ The `X BLEED VALVE` should be switched to the `OPEN` position.
 
 Ensure that `ENG 2 BLEED` is `OFF` for this sample procedure.
 
-[crossbleed photo here]
+![crossbleed2.png](..%2F..%2Fassets%2Fadvanced-guides%2Fengines%2Fcrossbleed2.png){loading=lazy}
 
 ### Engine Start
 
 1. Begin by verifying the bleed page on the upper ECAM display. 
-     - Crucially that the bleeds on both sides are connected via the `X BLEED` valve and that the `ENG 2 BLEED` valve is closed (indicated by the amber line above IP for engine 2).
-
+     - Crucially that the bleeds on both sides are connected via the `X BLEED` valve and that the `ENG 2 BLEED` valve is closed (indicated by the amber line above IP for ENGINE 2).
+     
+     ![bleeds-page.png](..%2F..%2Fassets%2Fadvanced-guides%2Fengines%2Fbleeds-page.png){loading=lazy width=80%}
+   
 2. Deselect the Bleeds page and turn the `ENG MODE` to `IGN/START`. 
      - This should display the ENGINE page on the upper ECAM display.
-
+     
+       ![engines-page.png](..%2F..%2Fassets%2Fadvanced-guides%2Fengines%2Fengines-page.png){loading=lazy width=80%}
+   
 3. Ensure that the IGN Bleed PSI for `ENG 2` is at or above 30 PSI before attempting to start the engine. 
-     - It is not unusual on the NEO to see the pressure be at or above 30 PSI at IDLE power. If the pressure is below 30 PSI, increase the thrust of the running engine. 
+     - It is not unusual on the NEO to see the pressure be at or above 30 PSI at IDLE power. If the pressure is below 30 PSI, increase the thrust of the running engine.
+   
+4. Switch `ENG MASTER 2` to the ON position. **Maintain at least 25 PSI during the entire start procedure**.
 
-4. Switch `ENG MASTER 2` to the ON position. **Maintain at least 25 PSI during the entire start procedure**.  
+    ![engine-page-start.png](..%2F..%2Fassets%2Fadvanced-guides%2Fengines%2Fengine-page-start.png){loading=lazy width=80%}
 
 !!! warning ""
     It is common to lose pressure during the start sequence. Advance the `THR LEVERS` of the supplying engine (`ENG 1` in this scenario) to maintain at least 25 PSI.
@@ -66,7 +74,7 @@ Ensure that `ENG 2 BLEED` is `OFF` for this sample procedure.
 
 The engine should start normally if you have followed the procedure correctly.
 
-### After Start Procedure
+### After Start
 
 Once both engines are started ensure the following in order:
 
