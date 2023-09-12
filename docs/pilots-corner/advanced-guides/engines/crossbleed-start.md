@@ -25,7 +25,7 @@ To explain this procedure, we will assume that `ENG 1` is running, and the fligh
     !!! danger "Actual Procedure"
         A crossbleed engine start normally requires an Air Start Unit to be connected to the aircraft to start the first engine. This is not currently simulated in the A32NX.
 
-    The following procedure is included for completeness and will be updated when the feature is implemented.
+    The following procedure is included for completeness and will be updated when the above feature is implemented.
     
     For now, you would have to start a single engine normally (`APU ON` and `APU BLEED ON`) before carrying on with a crossbleed start.
 
@@ -52,13 +52,13 @@ Ensure that `ENG 2 BLEED` is `OFF` for this sample procedure.
 
 ### Engine Start
 
-1. Begin by verifying the bleed page on the upper ECAM display. 
+1. Begin by verifying the bleed page on the lower ECAM display. 
      - Crucially, that the bleeds on both sides are connected via the `X BLEED` valve and that the `ENG 2 BLEED` valve is closed (indicated by the amber line above IP for ENGINE 2).
      
      ![bleeds-page.png](../../assets/advanced-guides/engines/bleeds-page.png){loading=lazy width=80%}
    
-2. Deselect the Bleeds page and turn the `ENG MODE` to `IGN/START`. 
-     - This should display the ENGINE page on the upper ECAM display.
+2. Deselect the BLEED page and turn the `ENG MODE` to `IGN/START`. 
+     - This should display the ENGINE page on the lower ECAM display.
      
        ![engines-page.png](../../assets/advanced-guides/engines/engines-page.png){loading=lazy width=80%}
    
