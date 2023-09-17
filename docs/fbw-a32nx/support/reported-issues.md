@@ -790,7 +790,7 @@ The following list of issues are commonly reported on our Discord support channe
 
     ^^Description^^
 
-    Click spots for different controls in the virtual cockpit may seem "misaligned" or generally difficult to accurate select.
+    Click spots for different controls in the virtual cockpit may seem "misaligned" or generally difficult to accurately select.
 
     ^^Root Cause^^
 
