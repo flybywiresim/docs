@@ -150,9 +150,8 @@ These options are found on the "Failure Generators" tab on the Failure page.
 
     - OFF: Generator is disabled but settings are kept
     - ONCE: The generator will trigger a set of failures only once and go to OFF mode
-    - TAKE OFF: The generator will wait until FLEX or TOGA thrust is set while speed is low on the ground to arm itself. It will trigger a set of failures only once until another 
-    take off 
-    event occurs.
+    - TAKE OFF: The generator will wait until FLEX or TOGA thrust is set while speed is low on the ground to arm itself. 
+        - It will trigger a set of failures only once until **the plane entirely stops** and another take off event occurs.
     - REPEAT: The generator will trigger a set of failures every time the conditions are met.
 
 ### Max Failures and Number of Failures
@@ -180,6 +179,11 @@ This generator triggers a set of failures among the selected failure pool when t
 
 It may be configured either to trigger while the plane climbs or descends.
 
+!!! info "Conditions"
+    This failure generator can only arm itself when the plane is outside the altitude activation range with an extra margin of 100 feet. 
+    
+    The generator mode icon will therefore stay white if the plane is within the altitude activation range.
+
 ![failures-altitude.png](../../assets/flypados3/failures-altitude.png){loading=lazy}
 
 ### Ground Speed Failure Generator
@@ -187,6 +191,11 @@ It may be configured either to trigger while the plane climbs or descends.
 This generator triggers a set of failures among the selected failure pool when the airplane reaches a random ground speed set between the specified minimum and maximum ground speed.
 
 It may be configured either to trigger while the plane accelerates or decelerates.
+
+!!! info "Conditions"
+    This failure generator can only arm itself when the plane is outside the speed activation range with an extra margin of 5 kts.
+
+    The generator mode icon will therefore stay white if the plane is within the speed activation range.
 
 ![failures-speed.png](../../assets/flypados3/failures-speed.png){loading=lazy}
 
@@ -196,6 +205,9 @@ This generator triggers a set of failures among the selected failure pool when t
 
 - When configured in the "repeat" or "Once" arming modes, the timer will start right away.
 - When configured in the "Take Off" arming, the timer will start once FLEX or TOGA thrust is set for the first time.
+
+!!! info "Timer Condition"
+    The timer is running when the generator mode icon is Blue.
 
 ![failures-timed.png](../../assets/flypados3/failures-timed.png){loading=lazy}
 
