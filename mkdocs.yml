@@ -162,5 +162,8 @@ markdown_extensions:
   pymdownx.emoji: # Allows emoji style inline embeds for icons
     emoji_index: !!python/name:materialx.emoji.twemoji
     emoji_generator: !!python/name:materialx.emoji.to_svg
+    options:
+      custom_icons:
+        - overrides/.icons
   md_in_html: {} # Allows markdown to be used in HTML
   abbr: {} # Adds abbreviations
