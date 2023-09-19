@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="../../../../../stylesheets/efb-interactive.css">
+<link rel="stylesheet" href="../../../../../stylesheets/toc-tables.css">
 
 # flyPad Failures
 
@@ -133,8 +134,13 @@ Enter a search term to filter for specific systems.
 ## Failure Generator
 
 The failure generator will trigger system failures automatically, depending on the rules set for the type of generator. There are several types of generators available that have 
-different logics to trigger failures. Each generator has its own settings on its triggering conditions. They can be armed individually and can trigger a specific set of 
-failures.
+different logics to trigger failures. Each generator has its own settings on its triggering conditions. 
+
+They can be armed individually and can trigger a specific set of failures. You can verify the status of a generator based on the following symbols:
+
+
+- :bootstrap-airplane: | The generator is not armed 
+- <span style="color:#00E0FE;">:bootstrap-airplane:</span> | The generator is armed     
 
 These options are found on the "Failure Generators" tab on the Failure page. 
 
@@ -145,14 +151,18 @@ These options are found on the "Failure Generators" tab on the Failure page.
 
 ![failures-select.png](../../assets/flypados3/failures-select.png){loading=lazy}
 
-!!! note "Configuration Options"
+!!! info "Configuration Options"
     Each generator can be configured in the following 4 modes:
+    
+    |         Symbol         | Configuration | Description                                                                                                                                                        |
+    |:----------------------:|:-------------:|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+    | :bootstrap-toggle-off: |      OFF      | Generator is disabled but settings are kept                                                                                                                        |
+    |  :bootstrap-repeat-1:  |     ONCE      | The generator will trigger a set of failures only once and go to OFF mode                                                                                          |
+    |                        |   TAKE OFF    | The generator will wait until FLEX or TOGA thrust is set while speed is low on the ground to arm itself. <br><br>It will have the following additional conditions: |
+    |                        |               | It will trigger a set of failures only once until **the plane entirely stops** and another take off event occurs                                                   |
+    |   :bootstrap-repeat:   |    REPEAT     | The generator will trigger a set of failures everytime the conditions are met.                                                                                     |
 
-    - OFF: Generator is disabled but settings are kept
-    - ONCE: The generator will trigger a set of failures only once and go to OFF mode
-    - TAKE OFF: The generator will wait until FLEX or TOGA thrust is set while speed is low on the ground to arm itself. 
-        - It will trigger a set of failures only once until **the plane entirely stops** and another take off event occurs.
-    - REPEAT: The generator will trigger a set of failures every time the conditions are met.
+
 
 ### Max Failures and Number of Failures
 
@@ -172,6 +182,10 @@ Only a specified number of failures, randomly picked from this set, will be trig
 
 !!! tip ""
     You can create several failure generators of the same type so that specific failures may happen at specific conditions different to other sets of failures.
+
+### Failure Generator Settings
+
+You can access the settings of each failure generator by pressing the following icon -> :bootstrap-sliders2-vertical:
 
 ### Altitude Failure Generator
 
