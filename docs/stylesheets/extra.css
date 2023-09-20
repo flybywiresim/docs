@@ -127,3 +127,7 @@ tbody {
     background-color: #00E0FE;
 }
 
+/* Bootstrap Container */
+.icon-container {
+  margin-bottom: -5px;
+}

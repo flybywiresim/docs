@@ -136,11 +136,12 @@ Enter a search term to filter for specific systems.
 The failure generator will trigger system failures automatically, depending on the rules set for the type of generator. There are several types of generators available that have 
 different logics to trigger failures. Each generator has its own settings on its triggering conditions. 
 
-They can be armed individually and can trigger a specific set of failures. You can verify the status of a generator based on the following symbols:
+They can be armed individually and can trigger a specific set of failures. You can verify the status of a generator based on the following symbol colors:
 
-
-- :bootstrap-airplane: | The generator is not armed 
-- <span style="color:#00E0FE;">:bootstrap-airplane:</span> | The generator is armed     
+|                                                                                                                                    Symbol                                                                                                                                     | Status                     |
+|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------|
+|                         <div class="d-flex flex-column align-items-center icon-container"><span class="bi bi-airplane"></span></div><div class="d-flex flex-column align-items-center icon-container"><span class="bi bi-arrow-bar-up"></span></div>                          | The generator is not armed | 
+| <div class="d-flex flex-column align-items-center icon-container"><span class="bi bi-airplane" style="color: #00E0FE;"></span></div><div class="d-flex flex-column align-items-center icon-container"><span class="bi bi-arrow-bar-up" style="color: #00E0FE;"></span></div>  | The generator is armed     |
 
 These options are found on the "Failure Generators" tab on the Failure page. 
 
@@ -154,13 +155,13 @@ These options are found on the "Failure Generators" tab on the Failure page.
 !!! info "Configuration Options"
     Each generator can be configured in the following 4 modes:
     
-    |         Symbol         | Configuration | Description                                                                                                                                                        |
-    |:----------------------:|:-------------:|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | :bootstrap-toggle-off: |      OFF      | Generator is disabled but settings are kept                                                                                                                        |
-    |  :bootstrap-repeat-1:  |     ONCE      | The generator will trigger a set of failures only once and go to OFF mode                                                                                          |
-    |                        |   TAKE OFF    | The generator will wait until FLEX or TOGA thrust is set while speed is low on the ground to arm itself. <br><br>It will have the following additional conditions: |
-    |                        |               | It will trigger a set of failures only once until **the plane entirely stops** and another take off event occurs                                                   |
-    |   :bootstrap-repeat:   |    REPEAT     | The generator will trigger a set of failures everytime the conditions are met.                                                                                     |
+    |                                                                                                            Symbol                                                                                                            | Configuration | Description                                                                                                                                                        |
+    |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------:|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+    |                                                                                                    :bootstrap-toggle-off:                                                                                                    |      OFF      | Generator is disabled but settings are kept                                                                                                                        |
+    |                                                                                                     :bootstrap-repeat-1:                                                                                                     |     ONCE      | The generator will trigger a set of failures only once and go to OFF mode                                                                                          |
+    | <div class="d-flex flex-column align-items-center icon-container"><span class="bi bi-airplane"></span></div><div class="d-flex flex-column align-items-center icon-container"><span class="bi bi-arrow-bar-up"></span></div> |   TAKE OFF    | The generator will wait until FLEX or TOGA thrust is set while speed is low on the ground to arm itself |
+    |                                                                                                                                                                                                                              |               | It will trigger a set of failures only once until the plane entirely stops and another take off event occurs                                                       |
+    |                                                                                                      :bootstrap-repeat:                                                                                                      |    REPEAT     | The generator will trigger a set of failures everytime the conditions are met                                                                                     |
 
 
 
