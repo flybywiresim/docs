@@ -1,5 +1,6 @@
 <link rel="stylesheet" href="../../../../../stylesheets/efb-interactive.css">
 <link rel="stylesheet" href="../../../../../stylesheets/toc-tables.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
 # flyPad Failures
 
