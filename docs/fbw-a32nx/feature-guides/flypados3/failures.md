@@ -219,7 +219,7 @@ It may be configured either to trigger while the plane accelerates or decelerate
 This generator triggers a set of failures among the selected failure pool when the time since the arming of the generator reaches a random delay set between the specified minimum and maximum delay.
 
 - When configured in the "repeat" or "Once" arming modes, the timer will start right away.
-- When configured in the "Take Off" arming, the timer will start once FLEX or TOGA thrust is set for the first time.
+- When configured in the "Take Off" arming, the timer will start once FLEX or TOGA thrust is set for the first time and the plane moves.
 
 !!! info "Timer Condition"
     The timer is running when the generator mode icon is Blue.
