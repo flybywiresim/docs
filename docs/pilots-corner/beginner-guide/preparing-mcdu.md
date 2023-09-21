@@ -62,8 +62,8 @@ This guide will cover the following topics:
     - [**^^R^^**AD NAV](#rad-nav)
     - [**^^I^^**NIT FUEL PRED](#init-fuel-pred)
     - [**^^P^^**ERF](#perf)
-4. [Entering Squawk Code](#entering-squawk-code)
-3. [A32NX simBrief Integration](#a32nx-simbrief-integration)
+3. [Entering Squawk Code](#entering-squawk-code)
+4. [A32NX simBrief Integration](#a32nx-simbrief-integration)
 
 ---
 
