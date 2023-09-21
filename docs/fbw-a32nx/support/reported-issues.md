@@ -55,6 +55,7 @@
 TEMPLATE
 
 ??? issue "Issue Headline"
+### Issue Headline
 
 !!! tip ""
     *Affected versions: Stable, Development*
