@@ -42,7 +42,7 @@ Visit [Starting the Aircraft](starting-the-aircraft.md) to learn more.
     - Initial cleared altitude after departure.
     - Assigned SID for departure OR radar vectors
     - Assigned departing runway.
-    - Transponder/squawk code.
+    - [Transponder/squawk code](#entering-squawk-code).
     - Departure frequency.
 
     Additional reading material: [The CRAFT mnemonic](https://en.wikipedia.org/wiki/CRAFT_(aviation))
@@ -62,7 +62,8 @@ This guide will cover the following topics:
     - [**^^R^^**AD NAV](#rad-nav)
     - [**^^I^^**NIT FUEL PRED](#init-fuel-pred)
     - [**^^P^^**ERF](#perf)
-3. [A32NX simBrief Integration](#a32nx-simbrief-integration)
+3. [Entering Squawk Code](#entering-squawk-code)
+4. [A32NX simBrief Integration](#a32nx-simbrief-integration)
 
 ---
 
@@ -507,6 +508,19 @@ The A32NX can calculate the V-Speeds automatically. To do this simply:
 The performance page should now look like this:
 
 ![mcdu20](../assets/beginner-guide/mcdu/mcdu20.png)
+
+## Entering Squawk Code
+
+During your MCDU preparation or before departing from the stand you should have obtained your IFR clearance. As part of this action you will be given a transponder/squawk code 
+for your flight. This allows ATC to identify your aircraft on their radar.
+
+To enter your assigned code find the ATC/TCAS Panel on the bottom right portion of the lower pedestal. It will look like this:
+
+![ATC-TCAS.png](../assets/beginner-guide/takeoff-climb-cruise/ATC-TCAS.png){loading=lazy}
+
+- Ensure that the `XPDR` switch is in the `AUTO` or `ON` position.
+- To clear the current code, **double press** the `CLR` button.
+- Enter your assigned code using the keypad.
 
 ---
 
