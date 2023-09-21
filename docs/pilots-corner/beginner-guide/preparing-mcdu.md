@@ -511,7 +511,7 @@ The performance page should now look like this:
 
 ## Entering Squawk Code
 
-During your MCDU preparation or after, before departing the stand you should have obtained your IFR clearance. As part of this action you will be given a transponder/squawk code 
+During your MCDU preparation or before departing from the stand you should have obtained your IFR clearance. As part of this action you will be given a transponder/squawk code 
 for your flight. This allows ATC to identify your aircraft on their radar.
 
 To enter your assigned code find the ATC/TCAS Panel on the bottom right portion of the lower pedestal. It will look like this:
