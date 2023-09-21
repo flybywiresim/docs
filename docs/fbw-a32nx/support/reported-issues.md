@@ -1006,6 +1006,7 @@ Please try these before reporting any other issue on Discord.
 ## FBW Installer Issues
 
 ??? bug "Download Issues - FBW Products"
+    ### Download Issues - FBW Products
     
     ^^Description^^
 
@@ -1042,6 +1043,7 @@ Please try these before reporting any other issue on Discord.
     - Spain
 
 ??? bug "Installer Permission Problems"
+    ### Installer Permission Problems
     
     ^^Description^^
 
