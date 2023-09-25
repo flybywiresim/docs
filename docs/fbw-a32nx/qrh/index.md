@@ -3,10 +3,10 @@
 <link rel="stylesheet" href="/stylesheets/toc-tables.css">
 !!! danger  "STOP - Read this First"
 
-    The Quick Reference Handbook includes a list of possible problems or faults that can occure in the A32nx and how to handle them.
+    The Quick Reference Handbook includes a list of possible problems or faults that can occur in the A32NX and how to handle them.
     For technical problems with the simulation or the plane, please check the [Reported Known Issues](../support/reported-issues.md).
 
-    This QRH is only valid for the A32nx in the Microsoft Flight Simulator. **Don't use it on a real plane.**
+    This QRH is only valid for the A32NX in the Microsoft Flight Simulator. **Don't use it on a real plane.**
 
 
 <!--
