@@ -9,6 +9,7 @@
     --md-accent-fg-color:         var(--md-primary-fg-color);
     --md-secondary-accent-color:  #0E131B;
     --md-typeset-a-color:         var(--md-primary-fg-color);
+    --md-typeset-color:           #ffffff;
 }
 
 [data-md-color-scheme="slate"] {

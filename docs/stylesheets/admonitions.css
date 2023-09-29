@@ -4,9 +4,11 @@
 .md-typeset .admonition-title, .md-typeset summary {
     font-size: .8rem;
     font-weight: inherit;
+    color: #fff;
 }
 .md-typeset .admonition, .md-typeset details {
     font-size: .8rem;
+    color: #fff;
 }
 .md-typeset :is(.admonition,details) {
     font-size: .8rem;
