@@ -1,3 +1,7 @@
+---
+title: SimBrief Integration
+---
+
 <link rel="stylesheet" href="../../../stylesheets/toc-tables.css">
 
 # SimBrief and Navigraph Integration
