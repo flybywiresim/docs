@@ -237,6 +237,8 @@ Settings for integrations with various 3rd party applications
 [//]: # (!!! warning "")
 
 [//]: # (    This feature is only available in the [Development Version]&#40;../../fbw-versions.md#development-version-recommended&#41;)
+!!! warning "Navigraph Options"
+    This feature is only available in the [Development Version](../../fbw-versions.md#development-version-recommended)
 
 #### GSX Integration
 These options are separate to provide you with the flexibility to choose what to sync with GSX and what not to sync. 
@@ -298,7 +300,7 @@ Settings for integration with various data and information sources.
 
         ![flypad-settings-atsu-aoc-telex-warning](../../assets/flypados3/flypad-settings-atsu-aoc-telex-warning.png)
 
-- SimBrief Username/Pilot ID
+- SimBrief Username/Pilot ID (**Stable Version Only**)
     - See [next chapter](#simbrief-integration)
 - Hoppie User ID:
     - Unique logon code that is used to identify the user for the Hoppie ACARS communication.
@@ -306,23 +308,10 @@ Settings for integration with various data and information sources.
 
 ### SimBrief Integration
 
-Before you can use the A32NX simBrief Integration, you need to provide your simBrief account details.
+!!! warning ""
+    This setting only applies to the Stable Version of the A32NX. See the page listed below.
 
-!!! tip "Locating the SimBrief EFB Settings"
-    If you have arrived at this section from the [SimBrief Integration](../simbrief.md) page, please make note this setting is found on the EFB, under Settings -> ATSU/AOC.
-
-- SimBrief Pilot ID:
-    - Enter your SimBrief Pilot ID.
-
-      ![simBrief Account field](../../assets/flypados3/simbrief-account-field.png "simBrief Account field")
-
-    - If you entered a wrong Pilot ID, a red error message will be displayed.
-
-      ![simBrief Account Field Error](../../assets/flypados3/simbrief-account-field-error.png "simBrief Account Field Error")
-
-To get your simBrief Pilot ID, you can go to your simBrief Account settings and open "SimBrief Data".
-
-![simBrief Account Data](../../assets/flypados3/simbrief-account-data.png "simBrief Account Data")
+Please see our [SimBrief and Navigraph Integration](../simbrief.md) page for details on linking your accounts for both Stable and Development Versions.
 
 ## Audio
 
