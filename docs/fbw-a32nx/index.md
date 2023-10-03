@@ -27,6 +27,7 @@ ACAS        Honeywell TPA-100B
 ATC         Honeywell TRA-100B
 MMR         Honeywell iMMR
 WXR         Honeywell RDR-4000
+ACSC        S1803A0001
 ```
 
 ## Quick Links
