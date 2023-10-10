@@ -1,53 +1,16 @@
-# Reported Issues
+# Installer Reported Issues
 
 <link rel="stylesheet" href="/stylesheets/toc-tables.css">
-!!! danger  "STOP - Read this First"
+!!! tip ""
+    FBW Installer - [Download Here](https://api.flybywiresim.com/installer){target=new}
 
-    Please try removing all other mods/liveries from the community folder and test our add-on again. This will help rule out conflicts.
+!!! info "General Issues"
+    If you are experiencing issues with our aircraft please visit the following pages:
 
-    *Most reported issues are caused by conflicts with other mods and liveries. If this does not resolve your issue, please continue below.*
+    - [Known Issues](../fbw-a32nx/support/reported-issues.md)
+    - [Support Guide](../fbw-a32nx/support/index.md)
+    - [FAQ](../fbw-a32nx/faq.md)
 
-    **Throttle Calibration is Required** - [Guide Here](../feature-guides/flypados3/throttle-calibration.md)
-
-    ---
-
-    <img src="https://img.shields.io/github/v/release/flybywiresim/aircraft.svg?color=2F4E5B&style=flat" /> <img src="https://img.shields.io/badge/dynamic/json?color=00848A&label=Development&query=shortSha&url=https%3A%2F%2Fapi.flybywiresim.com%2Fapi%2Fv1%2Fgit-versions%2Fflybywiresim%2Faircraft%2Fbranches%2Fmaster&style=flat" alt="Development Version" />
-
-    FBW Installer - [Download Here](https://api.flybywiresim.com/installer){target=new} / *Latest Sim Version: 1.34.16.0*
-
-!!! warning "Read our Support Guide"
-
-    1. [Learn how to fly an A32NX](index.md#1-learn-how-to-fly-the-a32nx)
-    2. [Troubleshoot](index.md#2-how-to-troubleshoot)
-    3. [Research Known Issues](index.md#3-research-known-issues)
-    4. [Report Issue on Discord](index.md#4-report-issue-on-discord)
-    5. [Report Issue on the FBW Aircraft GitHub](index.md#5-report-issue-on-the-a32nx-github)
-    6. [Collecting Support Information](index.md#collecting-support-information)
-
-    ---
-
-    Due to the complex nature of our custom autopilot, please visit the dedicated ^^Custom Autopilot / Fly-By-Wire^^ page for more information:
-
-    - [**Main Page**](../feature-guides/autopilot-fbw.md)
-    - [**Typical Issues + Solutions**](../feature-guides/autopilot-fbw.md#typical-issues-and-how-to-solve-them)
-    - [**Known Issues**](../feature-guides/autopilot-fbw.md#known-issues)
-
-    ---
-
-    Please visit the ^^Dedicated Custom Flight Management System^^ page for more information:
-
-    - [**Features + Issues**](../feature-guides/cFMS.md)
-    - [**Special Notes**](../feature-guides/cFMS.md#special-notes)
-
-    ---
-
-    If you're having issues with ^^SimBridge^^, please follow our dedicated guide for it:
-    
-    - [**SimBridge Troubleshooting Guide**](../../simbridge/troubleshooting.md)
-
-    ---
-
-    Do this before reporting bugs.
 ---
 
 <!--
@@ -66,15 +29,6 @@ TEMPLATE
 
 -->
 
-##  Index
-
-| Quick Links                                                                            |
-|:---------------------------------------------------------------------------------------|
-| [Commonly Reported Issues](#commonly-reported-issues)                                  |
-| [Solutions to Commonly Reported Issues](#solutions-to-commonly-reported-issues)        |
-| [FBW Installer Issues](#fbw-installer-issues)                                          |
-| [Incompatible and Problematic Add-ons/Mods](#incompatible-and-problematic-add-onsmods) |
-
 ## Use the Browser's Search Function
 
 On Desktop, press ++ctrl+'F'++ to search for an issue within the current page.
@@ -85,15 +39,10 @@ On Desktop, press ++ctrl+'F'++ to search for an issue within the current page.
 !!! warning "Non-Breaking Issue / Inconvenience"
 !!! tip "Config Issue / Usage Issue"
 
-## Commonly Reported Issues
-The following list of issues are commonly reported on our Discord support channel. Please check these before reporting any other issue on Discord.
-
-*Last Update: {{git_revision_date_localized}}*
-
 ## FBW Installer Issues
 
 ??? bug "Download Issues - FBW Products"
-### Download Issues - FBW Products
+    ### Download Issues - FBW Products
 
     ^^Description^^
 
@@ -115,7 +64,7 @@ The following list of issues are commonly reported on our Discord support channe
 
     1. TEMPORARY Solution: Try a VPN - a great free one that's reliable is [ProtonVPN](https://protonvpn.com/).
         - Please do your own due diligence and research when utilizing a VPN, even with our recommended one above.
-    2. Download a full build from our website [here]() - Please ensure you follow our [manual installation instructions](../installation.md#manual-installation).
+    2. Download a full build from our website [here]() - Please ensure you follow our [manual installation instructions](../fbw-a32nx/installation.md#manual-installation).
     3. Contact your ISP to check with them if there are any existing issues utilizing Cloudflare on their network.
 
     ^^Additional Information^^
@@ -130,7 +79,7 @@ The following list of issues are commonly reported on our Discord support channe
     - Spain
 
 ??? bug "Installer Permission Problems"
-### Installer Permission Problems
+    ### Installer Permission Problems
 
     ^^Description^^
 
