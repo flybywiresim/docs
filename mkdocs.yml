@@ -87,6 +87,7 @@ plugins:
         'discord-bot.md': 'dev-corner/development-projects/discord-bot.md'
         'airframe.md': 'https://docs.flybywiresim.com/fbw-a32nx/installation/#simbrief-airframe'
         'fdr.md': 'https://docs.flybywiresim.com/fbw-a32nx/support/#fdr-files'
+        'failures.md': 'fbw-a32nx/feature-guides/flypados3/failures.md'
         # Commented out in case we want to use this in the future
         #        'exp.md': 'fbw-a32nx/support/exp.md'
         'vnav.md': 'pilots-corner/advanced-guides/flight-guidance/vertical-guidance/overview.md'
@@ -162,5 +163,8 @@ markdown_extensions:
   pymdownx.emoji: # Allows emoji style inline embeds for icons
     emoji_index: !!python/name:materialx.emoji.twemoji
     emoji_generator: !!python/name:materialx.emoji.to_svg
+    options:
+      custom_icons:
+        - overrides/.icons
   md_in_html: {} # Allows markdown to be used in HTML
   abbr: {} # Adds abbreviations
