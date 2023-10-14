@@ -3,10 +3,10 @@
 ## System Description
 The Air Conditioning, Pressurization and Ventilation system (also known as Environmental Control System (ECS) or simply Air Conditioning System for convenience) regulates the temperature, pressure and airflow inside the aircraft. Its main functions are to maintain a high level of comfort for passengers and crew and to protect the aircraft systems that need it (like the avionics).
 
-Our aim at FBW is to model systems that match their real life counterpart one-to-one. Throughout this guide you will see items marked as “not yet implemented” or “coming soon”, that’s where we are still hard at work to bring you the most advanced Air Conditioning, Pressurization and Ventilation system you’ve ever seen in a home simulator. Please note this guide doesn’t go through all conditions that trigger this or that situation, you are encouraged to discover these details yourself as you fly along the open skies!
+Our aim at FBW is to model systems that match their real life counterpart one-to-one. Throughout this guide you will see items marked as “not yet implemented” or “coming soon”, that’s where we are still hard at work to bring you the most advanced Air Conditioning, Pressurization and Ventilation system you’ve ever seen in a home simulator. Please note this guide doesn’t go through all conditions that trigger specific situation, you are encouraged to discover these details yourself as you fly along the open skies!
 
 ## Cabin Simulation
-The first step in order to be able to simulate the Air Conditioning system is to simulate a virtual cabin. Microsoft Flight Simulator doesn’t provide a default implementation for the air inside of the cockpit and cabin, so we’ve developed this ourselves. For every “tick” in the simulator, the A32NX runs a separate fluid simulation inside of the fuselage that accurately mimics air behaviour in real life. Some of the details and features of this simulation include:
+The first step in order to be able to simulate the Air Conditioning system is to simulate the air inside of a virtual cabin. Microsoft Flight Simulator doesn’t provide a default implementation for it, so we’ve developed our own. For every “tick” in MSFS, the A32NX runs a separate fluid simulation inside of the fuselage that accurately mimics air behaviour in real life. Some of the details and features of this simulation include:
 
 - Heat exchange through aircraft walls (conduction, convection). Heat exchange with environment is affected by:
     - Exterior and interior temperature
@@ -18,7 +18,7 @@ The first step in order to be able to simulate the Air Conditioning system is to
 - Heat generation in the cabin. This is calculated based on the number of passengers, using human body heat loss through skin and through lungs.
 - Air Mass exchange between aircraft and environment. Air leaves the fuselage mainly through the outflow valve but is also affected by:
     - Any open doors
-    - Air leakage due to passengers using the toilet (!)
+    - Air leakage due to passengers using the toilet
     - Aircraft speed and pressure differential (supersonic, transonic or subsonic flow through the outflow valve)
 
 !!! tip "Did You Know?"
@@ -35,7 +35,7 @@ The first step in order to be able to simulate the Air Conditioning system is to
 The air conditioning system of the A320 is better understood by following an air particle through its journey from the bleed system to the cabin.
 
 ### Air Conditioning Packs
-Air from the bleed system is hot. It comes directly from the engines or APU and it needs to be cooled down before it can be delivered to the cabin. This happens in the packs, which are heat exchangers that cool and dry the air. The packs regulate their output temperature to target the minimum temperature selected on the overhead panel. The packs can be turned off with their respective pushbutton on the overhead panel, but their intake valve also closes in a few other situations, like when the engines are off or when the ditching pushbutton is pressed in.
+Air from the bleed system is hot. It comes directly from the engines or APU and it needs to be cooled down before it can be delivered to the cabin. This happens in the packs, which are heat exchangers that cool and dry the air. The packs regulate their output temperature to target the minimum temperature selected on the overhead panel. They can be turned off with their respective pushbutton on the overhead panel, but their intake valve also closes in a few other situations, like when the engines are off or when the ditching pushbutton is pressed in.
 
 !!! info "Not Yet Implemented"
     The inner workings of the packs haven’t been modelled yet in the A32NX but they are in the works!
@@ -50,29 +50,28 @@ This is where the air from the packs and the cabin fans gets mixed (the name is 
     Some airports provide low pressure conditioned air so aircraft don’t need to keep their APU on for extended periods of time in hot weather. This air is routed directly to the mixer unit, but this is not simulated yet in the A32NX.
 
 ### Trim Air
-We’ve stablished that the packs deliver the minimum temperature selected on the overhead, and that the fans only recirculate cabin air (at whichever temperature this is in), so how do you achieve different temperatures in different cabin zones? With the trim air valves! These small valves “inject” hot air directly from the bleed air system to the air coming out of the mixer unit to fine tune the final temperature that gets delivered to each of the zones.
+We’ve stablished that the packs deliver the minimum temperature selected on the overhead, and that the fans only recirculate cabin air (at whichever temperature this is in), so how do you achieve different temperatures in different cabin zones? With the trim air valves! These small valves “inject” hot air directly from the bleed air system to the air coming out of the mixer unit to fine tune the final temperature that gets delivered to each of the zones. This hot air can be switched on and off using the overhead panel.
 
 ### Air Conditioning System Controller (ACSC)
-The Air Conditioning System Controller is a dual channel, dual lane system that controls all elements of the Air Conditioning System. When a zone temperature is selected on the overhead, it calculates the temperature demand and air flow required in the cabin outlets to achieve it. It send signals to all the moving parts of the system (described above!) to achieve the right balance and meet the temperature and flow demands.
+The Air Conditioning System Controller is a dual channel, dual lane system that controls all components of the Air Conditioning System. When a zone temperature is selected on the overhead, it calculates the temperature demand and air flow required in the cabin outlets to achieve it. It send signals to all the moving parts of the system (described above!) to achieve the right balance and meet the temperature and flow demands.
 
 !!! tip "Did You Know?"
     The ACSC is an Airbus optional system for the A320. Some A320s come with individual local controllers for each of the elements (temperature, flow, trim air…). We’ve modelled the A32NX to come equipped with an ACSC, because why not!
 
-### Controls and Indications
-TODO
-
 ## Failures
-We’ve implemented the most relevant failures to the Air Conditioning system components. Here is a list and what you can expect to see when you activate them.
+We’ve implemented the most relevant failures to the Air Conditioning system components.
 
 What you can fail:
 
 - ACSC 1 & 2 (each lane individually)
-- Trim Air Pressure Regulating Valve
+- Trim Air Pressure Regulating Valve (hot air)
 - Trim Air Valves
 - Cabin Fan 1 & 2
 - Lavatory and Galley Fan
 
-What to expect for each of them:
+![EFB Air Conditioning Failures](../assets/feature-guides/air-conditioning/EFBFailures.JPG "EFB Air Conditioning Failures")
+
+What you can expect to see when you activate them:
 
 - ACSC -> One lane fault: No effect as the second lane takes over. You will see a “COND CTL 1(2)-A(B) FAULT” ECAM warning (no chime) if you have engines off, otherwise no warning.
 - ACSC -> Two lane fault: The related pack is lost, and the hot air pressure-regulating valve and trim air valves close. You will get a “AIR PACK 1(2) FAULT” ECAM warning (single chime). Temperature regulation is lost.
@@ -83,3 +82,5 @@ What to expect for each of them:
 - Cabin Fan: One cabin fan failure reduces the recirculated flow, if both fail there is no air recirculation. You can see an amber “FAN” message appear in the COND page. You will get a “COND L+R CAB FAN FAULT” alert if both fail.
 - Lav and Galley Fan: Cabin zone temperature sensors are ventilated by the air extracted by this fan. Cabin zone temperature regulation is lost. You will get a “COND LAV + GALLEY FAN FAULT” ECAM warning (single chime).
 !!! tip "If you like to see things burn you can fail the TAPRV open, then trigger an overheat and see what happens 😛."
+
+![ECAM Air Conditioning Failures](../assets/feature-guides/air-conditioning/air-cond-failures.jpg "ECAM Air Conditioning Failures")
