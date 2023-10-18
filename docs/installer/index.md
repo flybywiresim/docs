@@ -7,7 +7,7 @@ description: Section dedicated to documenting the setup and use of the FlyByWire
 
 # FBW Installer
 
-The FlyByWire Installer is a tool that allows you to install and update the FlyByWire aircraft and its dependencies such as SimBridge. It is a standalone application that is 
+The FlyByWire Installer is a tool that allows you to install and update the FlyByWire aircraft and its dependencies such as SimBridge, as well as selected 3rd party Aircraft and Tools. It is a standalone application that is 
 separate from the aircraft itself.
 
 [Known Issues + Troubleshooting Here](reported-issues.md){.md-button}
