@@ -361,7 +361,11 @@ To navigate to the `INIT FUEL PRED` page, we first have to select the `INIT` but
 On this page, we can input our zero fuel weight (ZFW) and zero fuel weight center of gravity (ZFWCG).
 
 !!! warning "Important Info - FMS Gross Weight (FMS GW)"
-    Fuel and payload have to be set in the aircraft (see link below) and passenger boarding has to be complete for the ZFW/ZFWCG to be correct.
+    Fuel and payload have to be set in the aircraft (see link below) and passenger boarding as to be **complete or in progress** for the ZFW/ZFWCG values to be correct. The 
+    "planned" payload values are used for the calculation if boarding has not been completed.    
+
+    ??? info "Open for Stable Version Only"
+        Fuel and payload have to be set in the aircraft (see link below) and passenger boarding has to be **complete** for the ZFW/ZFWCG to be correct.
 
     Gross Weight (GW) value on the ECAM will appear only when certain conditions are satisfied:
 
