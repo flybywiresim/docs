@@ -362,7 +362,9 @@ On this page, we can input our zero fuel weight (ZFW) and zero fuel weight cente
 
 !!! warning "Important Info - FMS Gross Weight (FMS GW)"
     Fuel and payload have to be set in the aircraft (see link below) and passenger boarding as to be **complete or in progress** for the ZFW/ZFWCG values to be correct. The 
-    "planned" payload values are used for the calculation if boarding has not been completed.    
+    "planned" payload values are used for the calculation if boarding has not been completed.
+
+    *Ideally you no longer have to wait for boarding to be completed to finalize preparations on the INIT FUEL PRED page.
 
     ??? info "Open for Stable Version Only"
         Fuel and payload have to be set in the aircraft (see link below) and passenger boarding has to be **complete** for the ZFW/ZFWCG to be correct.
