@@ -234,12 +234,6 @@ Settings for integrations with various 3rd party applications
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
 
-[//]: # (!!! warning "")
-
-[//]: # (    This feature is only available in the [Development Version]&#40;../../fbw-versions.md#development-version-recommended&#41;)
-!!! warning "Navigraph Options"
-    This feature is only available in the [Development Version](../../fbw-versions.md#development-version-recommended)
-
 #### GSX Integration
 These options are separate to provide you with the flexibility to choose what to sync with GSX and what not to sync. 
 
@@ -305,13 +299,6 @@ Settings for integration with various data and information sources.
 - Hoppie User ID:
     - Unique logon code that is used to identify the user for the Hoppie ACARS communication.
     - See [Create a logon code](../hoppie.md#create-a-logon-code) in our documentation for Hoppie ACARS.
-
-### SimBrief Integration
-
-!!! warning ""
-    This setting only applies to the Stable Version of the A32NX. See the page listed below.
-
-Please see our [SimBrief and Navigraph Integration](../simbrief.md) page for details on linking your accounts for both Stable and Development Versions.
 
 ## Audio
 
