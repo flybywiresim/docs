@@ -58,7 +58,7 @@ Displayed in white when the aircraft is in cruise at less than 100 nautical mile
 - A non ILS approach has been selected.
 - An ILS frequency is tuned on the MCDU RAD NAV page.
 
-### SET MANAGED SPD
+### CHECK SPEED MODE
 
 Displayed in white when the speed target is selected, but a preselected speed does not exist for the next flight phase.
 
