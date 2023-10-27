@@ -30,7 +30,9 @@ Some details and features of this simulation include:
     - Aircraft speed and pressure differential (supersonic, transonic or subsonic flow through the outflow valve)
 
 !!! tip "Did You Know?"
-    The flow of air that escapes through the outflow valve is not constant. Try to fly up to cruise altitude and manually open the outflow valve. You will notice the cabin vertical speed "jump" at some point as you get close to equal pressure. This is due to the flow transitioning from supersonic to subsonic.
+    The flow of air that escapes through the outflow valve is not constant. Try to fly up to cruise altitude and manually open the outflow valve. 
+
+    You will notice the cabin vertical speed "jump" at some point as you get close to equal pressure. This is due to the flow transitioning from supersonic to subsonic.
 
 !!! info "Not Yet Implemented"
     Other details that might be added in the future include:
