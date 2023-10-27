@@ -298,10 +298,6 @@ We repeat the process until we have reached our desired final approach altitude.
     - Check that the /LS/GLS identification is displayed on the PFD.
 - `RAD NAVAIDS` (`RNAV` page on MCDU): Selected/Identified
     - Ensure that appropriate radio NAVAIDS are tuned and identified. The A32NX is capable of autotuning to the correct frequency.
-  
-        !!! warning "Autotuning"
-            Not available in the Stable Version of the A32NX.
-  
     - For NDB approaches, manually select the reference NAVAID.
 
 #### Approach Checklist

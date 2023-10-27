@@ -294,8 +294,6 @@ Settings for integration with various data and information sources.
 
         ![flypad-settings-atsu-aoc-telex-warning](../../assets/flypados3/flypad-settings-atsu-aoc-telex-warning.png)
 
-- SimBrief Username/Pilot ID (**Stable Version Only**)
-    - See [next chapter](#simbrief-integration)
 - Hoppie User ID:
     - Unique logon code that is used to identify the user for the Hoppie ACARS communication.
     - See [Create a logon code](../hoppie.md#create-a-logon-code) in our documentation for Hoppie ACARS.
