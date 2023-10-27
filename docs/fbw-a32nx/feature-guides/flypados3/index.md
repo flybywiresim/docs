@@ -1,6 +1,6 @@
 ---
 title: flyPadOS 3 EFB - Overview
-description: A guide to the flyPadOS 3 EFB used in the Development version of the A32NX.
+description: A guide to the flyPadOS 3 EFB used in the A32NX.
 ---
 
 <link rel="stylesheet" href="../../../../stylesheets/efb-interactive.css">
