@@ -206,10 +206,6 @@ Perform the AFTER START checklist.
 
         The FlyByWire checklist's trim section at the bottom indicates we would need to set a nose up trim of about 0.2.
 
-    !!! warning "The CG scale available in the Asobo model of the flight deck is not entirely accurate for the A320neo. This is corrected in the [All Versions](https://docs.flybywiresim.com/fbw-a32nx/fbw-versions.md) of the Plane."
-
-
-
 ---
 
 ## Flight Controls Check
