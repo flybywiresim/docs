@@ -1,6 +1,6 @@
 ---
 title: flyPadOS 3 EFB - Overview
-description: A guide to the flyPadOS 3 EFB used in the Development version of the A32NX.
+description: A guide to the flyPadOS 3 EFB used in the A32NX.
 ---
 
 <link rel="stylesheet" href="../../../../stylesheets/efb-interactive.css">
@@ -28,7 +28,7 @@ description: A guide to the flyPadOS 3 EFB used in the Development version of th
 !!! warning "Please Note"
     This guide covers the flyPad version and features available in the latest FlyByWire [Development Version](../../fbw-versions.md#version-overview).
 
-    If you use the FlyByWire Stable version, you might not have these features available.
+    If you use the FlyByWire Stable version, you might not have all features available. This will be appropriately flagged throughout our documentation.
 
 !!! abstract "From Wikipedia: [Electronic Flight Bag](https://en.wikipedia.org/wiki/Electronic_flight_bag){target=new}:"
 

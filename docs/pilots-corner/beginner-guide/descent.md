@@ -206,7 +206,7 @@ For more information on the different types of minimums, see the [Minimums and M
 
     - Search online for the real life D-ATIS at your arrival airport (much like the ATIS example above).
     - Use the `Trans ALT` + 1000 ft.
-        - **Development Version:** If you have imported your flight plan via our simBrief integration, this value would be autopopulated for you.  
+    - If you have imported your flight plan via our simBrief integration, this value would be autopopulated for you.
 
 ![Transition level on chart](../assets/beginner-guide/descent/EGKK-APPR-char-1.png "Transition level on chart"){loading=lazy}<br/>
 ![ILS information on chart](../assets/beginner-guide/descent/EGKK-APPR-chart-2.png "ILS information on chart"){loading=lazy}<br/>
@@ -250,8 +250,6 @@ A few minutes before we reach our calculated descent point (TOD) we request clea
 !!! info "TOD marker A320"
     The A320 has a downward pointing arrow at the TOD to support the pilot with the decision of when to descend. Ultimately, it is still the pilot's responsibility to calculate and validate the TOD.
 
-    The TOD (top of descent) marker on the `ND` is available in the Development Version. 
-
 When clearance is given, we can start our descent to the flight level or altitude ATC has given us.
 
 For descending, we set the new flight level or altitude in the `FCU` with the `altitude selector`. We can then either PUSH the selector for `Managed Altitude Mode` (constraints are respected, also known as [DES](../advanced-guides/flight-guidance/vertical-guidance/managed-modes.md#des-descent)) or PULL the selector for `Selected Altitude Mode` (constraints are ignored, also known as [OP DES](../advanced-guides/flight-guidance/vertical-guidance/selected-modes.md#op-des-open-descent)). 
@@ -273,12 +271,8 @@ ATC typically will not clear us to our final target altitude directly, but will 
 
 Also, ATC will often still expect us to respect the STAR's constraints, although they might have given us a lower clearance. We should then only descent to the constraint's altitude.
 
-<!-- TODO: update when vertical nav is available -->
 !!! info "VNAV in the FlyByWire A32NX"
     The scenario that we are cleared to a lower altitude or flight level with altitude constraints above the clearance is an ideal scenario for the called so "VNAV" autopilot mode, which would be activated by using "`Managed Altitude Mode`" (pushing the `ALT selector`). The autopilot will automatically level off at the constraint and continue descending when the constraint is no longer valid.
-
-    !!! warning ""
-        VNAV is currently only supported in our Development Version of the A32NX.
 
 We repeat the process until we have reached our desired final approach altitude.
 
@@ -298,10 +292,6 @@ We repeat the process until we have reached our desired final approach altitude.
     - Check that the /LS/GLS identification is displayed on the PFD.
 - `RAD NAVAIDS` (`RNAV` page on MCDU): Selected/Identified
     - Ensure that appropriate radio NAVAIDS are tuned and identified. The A32NX is capable of autotuning to the correct frequency.
-  
-        !!! warning "Autotuning"
-            Not available in the Stable Version of the A32NX.
-  
     - For NDB approaches, manually select the reference NAVAID.
 
 #### Approach Checklist

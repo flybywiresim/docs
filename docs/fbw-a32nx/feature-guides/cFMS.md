@@ -87,8 +87,8 @@ Please see our [Flight Planning in MSFS Guide](flight-planning.md) for more info
 ## WX/TER
 
 !!! info "Important Notice"
-    - TCAS is now available in the Development version.
-    - Terrain Radar is now available in the Development version via [SimBridge](../../index.md).
+    - TCAS is now available in the all versions.
+    - Terrain Radar is now available in the all versions via [SimBridge](../../index.md).
     - Please see our [CFMS NOTAM](https://flybywiresim.com/notams/cfms/) for further WX/TER information.
 
 It is important to note that the weather radar is not available yet with the latest version of our cFMS(v1.5). Our current focus is to deliver a more realistic flight planning and navigation experience while maintaining performance and reliability. However, we are not satisfied with how the default code performs together with our custom systems.

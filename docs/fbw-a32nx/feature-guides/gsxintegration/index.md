@@ -1,6 +1,6 @@
 ---
 title: GSX Integration - Overview
-description: A guide to the GSX Integration provided in the development version.
+description: A guide to the GSX Integration provided in the A32NX.
 ---
 
 <link rel="stylesheet" href="../../../../stylesheets/efb-interactive.css">
@@ -13,7 +13,7 @@ description: A guide to the GSX Integration provided in the development version.
 !!! warning "Please Note"
     This guide covers GSX Integration and the features available in the latest FlyByWire [Development Version](../../fbw-versions.md#development-version-recommended).
 
-    If you use the FlyByWire Stable version, you might not have these features available.
+    If you use the FlyByWire Stable version, you might not have all features available. This will be appropriately flagged throughout our doucmentation.
 
 !!! danger "Support"
     The FlyByWire team does not take responsibility for bugs encountered while using GSX. 

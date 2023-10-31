@@ -366,9 +366,6 @@ On this page, we can input our zero fuel weight (ZFW) and zero fuel weight cente
 
     *Ideally you no longer have to wait for boarding to be completed to finalize preparations on the INIT FUEL PRED page.*
 
-    ??? info "Open for Stable Version Only"
-        Fuel and payload have to be set in the aircraft (see link below) and passenger boarding has to be **complete** for the ZFW/ZFWCG to be correct.
-
     Gross Weight (GW) value on the ECAM will appear only when certain conditions are satisfied:
 
     - This page (INIT FUEL PRED) has a ZFW/ZFWCG value. **Reminder:** After engines are started, INIT FUEL PRED changes to the FUEL PRED page.

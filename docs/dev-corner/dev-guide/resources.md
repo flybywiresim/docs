@@ -10,7 +10,7 @@ The main GitHub repository for the A32NX aircraft is:
 
 The Development version of the FlyByWire A32NX is done in the master branch. Whenever something is merged into the master branch, an automatic build process builds the newest 
 Development version and uploads it to our CDN, so users can download the latest Development version via the FlyByWire Installer. We have a very strict development, review and 
-QA process for for this version.
+QA process for this version.
 
 The Stable version is a snapshot (in git terms, a [Tag](https://github.com/flybywiresim/aircraft/tags){target=new}) of the development branch.
 
