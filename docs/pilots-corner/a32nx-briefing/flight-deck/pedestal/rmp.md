@@ -64,7 +64,7 @@ Turning these knobs selects the STBY frequency or CRS.
 Used to select AM mode if the aircraft has a VH transceiver.
 
 !!! info ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+    Currently INOP or not implemented for the A32NX.
 
 ### SEL indicator
 
@@ -99,7 +99,7 @@ Power supply to the RMP.
 ![RMP Transmission Keys](../../../assets/a32nx-briefing/pedestal/RMP-transmission-keys.png)
 
 !!! info ""
-    Currently only the VHF1-3 channels are available in the FBW A32NX for Microsoft Flight Simulator.
+    Only VHF1-3 channels are available in the Stable version of the A32NX. The rest of the channels are available and operational in the Development version of the A32NX. 
 
 - Pressed:
     - Channel selected for transmission.
@@ -119,7 +119,7 @@ Power supply to the RMP.
 ![Reception Knobs](../../../assets/a32nx-briefing/pedestal/RMP-receiption-knobs-2.png "Reception Knobs")
 
 !!! info ""
-    Currently, only the VHF2-3 channels are available for selection in the FBW A32NX for Microsoft Flight Simulator. VHF1 is always selected, although not lit.
+    VHF2-3 channels are available for selection in the while VHF1 is always selected, although not lit in the current Stable version of the A32NX. The rest of the channels are available and operational in the Development version of the A32NX.
 
 These knobs are used to allow the flight crew to activate a channel for reception and to adjust volume.
 
@@ -131,35 +131,36 @@ These knobs are used to allow the flight crew to activate a channel for receptio
 Extinguishes CALL, MECH, and ATT lights.
 
 !!! info ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+    Currently only available in the Development version of the aircraft.
 
 ### VOICE
 
 Inhibit the audio navigation signals (VOR, ADF) and filters out ident signals and turns on the green ON light.
 
 !!! info ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+    Currently only available in the Development version of the aircraft.
 
 ### INT/RAD
 
-Press-to-talk switch for boom mike or oxygen mask mike.
+Press-to-talk switch for boom mic or oxygen mask mic.
 
 !!! info ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+    Currently only available in the Development version of the aircraft.
 
 ### PA (Passenger Address)
 
 Passenger Address is used by the flight personnel to make passenger announcements through loudspeakers in the cabin.
 
-!!! info ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
-
 #### PA transmission key
 
-Pressed and held: To make an announcement, a boom, mask, or hand mike is used
+Pressed and held: To make an announcement, a boom, mask, or hand mic is used
 
 !!! info ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+    Currently only available in the Development version of the aircraft. 
+    
+    Due to MSFS limitations you are unable to talk and hear your mic transmissions for PA announcements, but you can use 3rd party addons to integrate this functionality.
+    
+    [A32NX Flight Deck API](/fbw-a32nx/a32nx-api/a32nx-flightdeck-api/#rmp){ .md-button }
 
 #### PA reception knob
 
@@ -169,7 +170,11 @@ Pressed and held: To make an announcement, a boom, mask, or hand mike is used
     - The PA system is disconnected. The white light goes out.
 
 !!! info ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+    Currently only available in the Development version of the aircraft. 
+    
+    Due to MSFS limitations you are unable to talk and hear your mic transmissions for PA announcements, but you can use 3rd party addons to integrate this functionality. 
+    
+    [A32NX Flight Deck API](/fbw-a32nx/a32nx-api/a32nx-flightdeck-api/#rmp){ .md-button }
 
 ---
 

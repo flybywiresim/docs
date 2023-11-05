@@ -768,23 +768,34 @@ Flight Deck: [RMP Panel](../../pilots-corner/a32nx-briefing/flight-deck/pedestal
 
 !!! note "The below table shows the API for RMP 1. Replace `1` with `2` or `3` for the other RMPs."
 
-| Function         | API Usage                 | Values           | Read/Write | Type             | Remark                        |
-|:-----------------|:--------------------------|:-----------------|:-----------|:-----------------|:------------------------------|
-| Active Frequency | COM ACTIVE FREQUENCY:1    | 118.000..136.975 | R/W        | SIMCONNECT VAR   |                               |
-|                  |                           |                  |            |                  |                               |
-| Stdby Frequency  | COM STANDBY FREQUENCY:1   | 118.000..136.975 | R/W        | SIMCONNECT VAR   |                               |
-|                  |                           |                  |            |                  |                               |
-| XFER Frequency   | COM1_RADIO_SWAP           | -                | -          | SIMCONNECT EVENT |                               |
-|                  |                           |                  |            |                  |                               |
-| RMP MODE         | A32NX_RMP_L_SELECTED_MODE | 0..3             | R/W        | Custom LVAR      | 0=SEL, 1=VHF1, 2=VHF2, 3=VHF3 |
-|                  |                           |                  |            |                  |                               |
-| RMP ON/OFF       | A32NX_RMP_L_TOGGLE_SWITCH | 0&#124;1         | R/W        | Custom LVAR      |                               |
-|                  |                           |                  |            |                  |                               |
-| Transmit VHF1    | COM TRANSMIT:1            | 0&#124;1         | R          | SIMCONNECT VAR   |                               |
-|                  |                           |                  |            |                  |                               |
-| Transmit VHF2    | COM TRANSMIT:2            | 0&#124;1         | R          | SIMCONNECT VAR   |                               |
-|                  |                           |                  |            |                  |                               |
-| Transmit VHF3    | COM TRANSMIT:3            | 0&#124;1         | R          | SIMCONNECT VAR   |                               |
+| Function                  | API Usage                      | Values              | Read/Write | Type             | Remark                                                          |
+|:--------------------------|:-------------------------------|:--------------------|:-----------|:-----------------|:----------------------------------------------------------------|
+| Active Frequency          | COM ACTIVE FREQUENCY:1         | 118.000..136.975    | R/W        | SIMCONNECT VAR   |                                                                 |
+|                           |                                |                     |            |                  |                                                                 |
+| Stdby Frequency           | COM STANDBY FREQUENCY:1        | 118.000..136.975    | R/W        | SIMCONNECT VAR   |                                                                 |
+|                           |                                |                     |            |                  |                                                                 |
+| XFER Frequency            | COM1_RADIO_SWAP                | -                   | -          | SIMCONNECT EVENT |                                                                 |
+|                           |                                |                     |            |                  |                                                                 |
+| RMP MODE                  | A32NX_RMP_L_SELECTED_MODE      | 0..3                | R/W        | Custom LVAR      | 0=SEL, 1=VHF1, 2=VHF2, 3=VHF3                                   |
+|                           |                                |                     |            |                  |                                                                 |
+| RMP ON/OFF                | A32NX_RMP_L_TOGGLE_SWITCH      | 0&#124;1            | R/W        | Custom LVAR      |                                                                 |
+|                           |                                |                     |            |                  |                                                                 |
+| Transmit VHF1             | COM TRANSMIT:1                 | 0&#124;1            | R          | SIMCONNECT VAR   |                                                                 |
+|                           |                                |                     |            |                  |                                                                 |
+| Transmit VHF2             | COM TRANSMIT:2                 | 0&#124;1            | R          | SIMCONNECT VAR   |                                                                 |
+|                           |                                |                     |            |                  |                                                                 |
+| Transmit VHF3             | COM TRANSMIT:3                 | 0&#124;1            | R          | SIMCONNECT VAR   |                                                                 |
+|                           |                                |                     |            |                  |                                                                 |
+| Pilot Transmitter Type    | PILOT TRANSMITTER TYPE         | 0..8                | R          | SIMCONNECT VAR   | 4=OFF, 0=VHF1, 1=VHF2, 2=VHF3, 3=HF1, 5=HF2, 6=INT, 7=CAB, 8=PA | 
+|                           |                                |                     |            |                  |                                                                 |
+| Co-Pilot Transmitter Type | COPILOT TRANSMITTER TYPE       | 0..8                | R          | SIMCONNECT VAR   | 4=OFF, 0=VHF1, 1=VHF2, 2=VHF3, 3=HF1, 5=HF2, 6=INT, 7=CAB, 8=PA |
+|                           |                                |                     |            |                  |                                                                 |
+| PA Knob Pressed           | A32NX_ACP1_PA_KNOB_VOLUME_DOWN | 0&#124;1            | R/W        | Custom LVAR      |                                                                 |
+|                           |                                |                     |            |                  |                                                                 |
+| PA Knob Volume            | A32NX_ACP1_PA_VOLUME           | 0&#124;1            | R/W        | Custom LVAR      |                                                                 |
+|                           |                                |                     |            |                  |                                                                 |
+| INT/RAD Switch            | A32NX_ACP1_SWITCH_INT          | 0&#124;100&#124;200 | R/W        | Custom LVAR      | 0=RAD (HOLD), 100=NORM, 200=INT                                 |
+
 
 ### Lighting Pedestal Captain Side Panel
 
