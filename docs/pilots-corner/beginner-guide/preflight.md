@@ -53,3 +53,7 @@ To configure your aircraft, we have provided options onboard the aircraft to loa
 To help with navigation during your flight, our flyPad EFB can connect to your Navigraph account to provide access to all the en route charts for your flight!
 
 [EFB Navigraph](../../fbw-a32nx/feature-guides/flypados3/charts.md){.md-button}
+
+This concludes the *Preflight* guide.
+
+Continue with [Starting the Aircraft](starting-the-aircraft.md).
