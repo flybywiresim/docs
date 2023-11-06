@@ -21,13 +21,11 @@ to the ground crew and the airport infrastructure.
 
 To explain this procedure, we will assume that `ENG 1` is running, and the flight crew will start `ENG 2` using the crossbleed procedure.
 
-!!! tip ""
+!!! warning "Stable Version"
     !!! danger "Actual Procedure"
-        A crossbleed engine start normally requires an Air Start Unit to be connected to the aircraft to start the first engine. This is not currently simulated in the A32NX.
+        A crossbleed engine start normally requires an Air Start Unit to be connected to the aircraft to start the first engine. This is currently only simulated in the Development version.
 
-    The following procedure is included for completeness and will be updated when the above feature is implemented.
-    
-    For now, you would have to start a single engine normally (`APU ON` and `APU BLEED ON`) before carrying on with a crossbleed start.
+    For now, on the Stable version, you would have to start a single engine normally (`APU ON` and `APU BLEED ON`) before carrying on with a crossbleed start.
 
 ### Initial State
 
