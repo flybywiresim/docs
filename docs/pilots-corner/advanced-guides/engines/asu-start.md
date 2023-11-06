@@ -34,7 +34,7 @@ Normally engine 1 is started first but either engine can be started with this pr
 - `ENGINE BLEED 2` - `OFF`
 - `X BLEED` - `OPEN`
 
-[//]: # (![asubeforeconnection.png]&#40;../../assets/advanced-guides/engines/asubeforeconnection.png&#41;{loading=lazy})
+![asubeforeconnection.png](../../assets/advanced-guides/engines/asubeforeconnection.png){loading=lazy}
 
 - `ASU CONNECTED` - `REQUEST`
     - This is done from the flyPad Ground page.
@@ -48,7 +48,7 @@ Turn on the beacon light.
 Select the BLEED page on the ECAM SD.
 Check that BLEED PSI is being supplied from the ASU. A minimum of 30 psi is required for engine successful start.
 
-[//]: # (![asubleedpage.png]&#40;../../assets/advanced-guides/engines/asubleedpage.png&#41;{loading=lazy})
+![asubleedpage.png](../../assets/advanced-guides/engines/asubleedpage.png){loading=lazy width=75%}
 
 Start engine 1 with the normal start procedure.
 
@@ -65,4 +65,4 @@ Start engine 1 with the normal start procedure.
 - `ENGINE 1 BLEED` - `ON`
 - `CROSSBLEED START PROCEDURE` - `APPLY`
 
-[//]: # (![asuafterstart.png]&#40;../../assets/advanced-guides/engines/asuafterstart.png&#41;{loading=lazy})
+![asuafterstart.png](../../assets/advanced-guides/engines/asuafterstart.png){loading=lazy}
