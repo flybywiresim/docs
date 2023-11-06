@@ -10,7 +10,9 @@ When an aircraft has an inoperative APU, there is no supply of high pressure air
 
 [//]: # (![asuirl.png]&#40;../../assets/advanced-guides/engines/asuirl.png&#41;{loading=lazy})
 
-With this air supply, an engine is started on stand before pushback while external power is still available to it. After the start, the ASU and external power is removed to allow for pushback and then a crossbleed start for the other engine. "Link to crossbleed start here?"
+With this air supply, an engine is started on stand before pushback while external power is still available to it. After the start, the ASU and external power is removed to allow for pushback and then a crossbleed start for the other engine.
+
+[Crossbleed Engine Start Guide](crossbleed-start.md){.md-button}
 
 ## Procedure
 
@@ -35,7 +37,7 @@ Normally engine 1 is started first but either engine can be started with this pr
 [//]: # (![asubeforeconnection.png]&#40;../../assets/advanced-guides/engines/asubeforeconnection.png&#41;{loading=lazy})
 
 - `ASU CONNECTED` - `REQUEST`
-  This is done from the flypad Ground page.
+    - This is done from the flyPad Ground page.
 
 [//]: # (![asugroundpage.png]&#40;../../assets/advanced-guides/engines/asugroundpage.png&#41;{loading=lazy})
 
@@ -44,29 +46,23 @@ Normally engine 1 is started first but either engine can be started with this pr
 
 Turn on the beacon light.
 Select the BLEED page on the ECAM SD.
-Check that BLEED PSI is being supplied from the ASU. A minimum of 30 PSI is required for engine successful start.
+Check that BLEED PSI is being supplied from the ASU. A minimum of 30 psi is required for engine successful start.
 
 [//]: # (![asubleedpage.png]&#40;../../assets/advanced-guides/engines/asubleedpage.png&#41;{loading=lazy})
 
 Start engine 1 with the normal start procedure.
 
-
 ### After Engine Start
 
 - `EXTERNAL POWER` - `DESELECT`
-  Check the external power shows AVAIL to prevent ground crew injury.
-
+    - Check the external power shows AVAIL to prevent ground crew injury.
 - `EXTERNAL POWER` - `DISCONNECT`
-  Due to MSFS modelling, this may not be fully possible as it shows external power connected constantly as long as the aircraft is on stand.
-
-- `X BLEED` - `AUTO`
-
+    - Due to MSFS modelling, this may not be fully possible as it shows external power connected constantly as long as the aircraft is on stand.
+- `AIR START UNIT` - `DISCONNECT`
+    - Use the flyPad Ground page to remove the ASU.
 - `PACK 1` - `ON`
-
 - `PACK 2` - `ON`
-
 - `ENGINE 1 BLEED` - `ON`
-
 - `CROSSBLEED START PROCEDURE` - `APPLY`
 
 [//]: # (![asuafterstart.png]&#40;../../assets/advanced-guides/engines/asuafterstart.png&#41;{loading=lazy})
