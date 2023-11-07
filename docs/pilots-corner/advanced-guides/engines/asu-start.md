@@ -64,3 +64,5 @@ Start engine 1 with the normal start procedure.
 - `CROSSBLEED START PROCEDURE` - `APPLY`
 
 ![asuafterstart.png](../../assets/advanced-guides/engines/asuafterstart.png){loading=lazy}
+
+Continue to [Crossbleed Start Guide](crossbleed-start.md).
