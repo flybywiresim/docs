@@ -9,7 +9,10 @@ The Terrain Awareness and Warning Systems (TAWS) is a system used to alert the f
     Please be aware that we are still continuously optimizing the performance of the TERR ON ND feature.
 
     SimBridge *must* be [running](../install-configure/start-simbridge.md#autostart) in order for the Terrain 
-    Display to function.
+    Display to function. 
+
+    The SimBridge Terrain Display feature relies on the MSFS SimConnect API. If you are having trouble with the TERR ON ND, please 
+    ensure your SimConnect configuration is not unaltered and can accept local connections. 
 
     See [Autostart](../install-configure/start-simbridge.md#autostart) documentation on how to start it. 
 
