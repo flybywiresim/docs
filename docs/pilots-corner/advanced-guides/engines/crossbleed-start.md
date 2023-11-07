@@ -19,7 +19,9 @@ to the ground crew and the airport infrastructure.
 
 ## Procedure
 
-To explain this procedure, we will assume that `ENG 1` is running, and the flight crew will start `ENG 2` using the crossbleed procedure.
+To explain this procedure, we will assume that an ASU was used to start `ENG 1`, and the flight crew will start `ENG 2` using the crossbleed procedure.
+
+[ASU Engine Start Guide](asu-start.md){.md-button}
 
 !!! warning "Stable Version"
     !!! danger "Actual Procedure Requires ASU"
