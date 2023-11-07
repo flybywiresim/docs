@@ -8,8 +8,6 @@ title: ASU Engine Start
 
 When an aircraft has an inoperative APU, there is no supply of high pressure air available on board the aircraft to spin the turbine to allow for engine start. The solution to this is to use an external source of this air, supplied by a unit known as an Air Start Unit (ASU). These units are mobile towed units, with usually an old APU or even very old jet engines from scrapped aircraft housed inside.
 
-[//]: # (![asuirl.png]&#40;../../assets/advanced-guides/engines/asuirl.png&#41;{loading=lazy})
-
 With this air supply, an engine is started on stand before pushback while external power is still available to it. After the start, the ASU and external power is removed to allow for pushback and then a crossbleed start for the other engine.
 
 [Crossbleed Engine Start Guide](crossbleed-start.md){.md-button}
