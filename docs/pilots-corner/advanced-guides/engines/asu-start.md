@@ -12,6 +12,9 @@ With this air supply, an engine is started on stand before pushback while extern
 
 [Crossbleed Engine Start Guide](crossbleed-start.md){.md-button}
 
+!!! warning "Please Note"
+    Sounds and physical ASU model are not yet implemented.
+
 ## Procedure
 
 Before the procedure is started, boarding and refuelling should be completed, with the aircraft closed up and ready for pushback.
@@ -53,7 +56,10 @@ Start engine 1 with the normal start procedure.
 - `EXTERNAL POWER` - `DESELECT`
     - Check the external power shows AVAIL to prevent ground crew injury.
 - `EXTERNAL POWER` - `DISCONNECT`
-    - Due to MSFS modelling, this may not be fully possible as it shows external power connected constantly as long as the aircraft is on stand.
+
+!!! warning ""
+    Due to MSFS modelling, this may not be fully possible as it shows external power connected constantly as long as the aircraft is on stand.
+
 - `AIR START UNIT` - `DISCONNECT`
     - Use the flyPad Ground page to remove the ASU.
 - `PACK 1` - `ON`
