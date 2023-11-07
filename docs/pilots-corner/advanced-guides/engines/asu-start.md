@@ -24,7 +24,6 @@ An external power source is required as the APU is not supplying any electrical 
 
 Normally engine 1 is started first but either engine can be started with this procedure, the example below will assume engine 1 is the ASU assisted engine.
 
-
 ### Initial State before ASU connection
 
 - `PACK 1` - `OFF`
@@ -37,10 +36,9 @@ Normally engine 1 is started first but either engine can be started with this pr
 ![asubeforeconnection.png](../../assets/advanced-guides/engines/asubeforeconnection.png){loading=lazy}
 
 - `ASU CONNECTED` - `REQUEST`
-    - This is done from the flyPad Ground page.
+    - This is done from the flyPad Ground page - example below.
 
-[//]: # (![asugroundpage.png]&#40;../../assets/advanced-guides/engines/asugroundpage.png&#41;{loading=lazy})
-
+![asugroundpage.png](../../../fbw-a32nx/assets/flypados3/flypad-ground.png){loading=lazy}
 
 ### Engine Start Clearance
 
