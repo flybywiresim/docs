@@ -45,7 +45,7 @@ Normally engine 1 is started first but either engine can be started with this pr
 
 Turn on the beacon light.
 Select the BLEED page on the ECAM SD.
-Check that BLEED PSI is being supplied from the ASU. A minimum of 30 psi is required for engine successful start.
+Check that BLEED PSI is being supplied from the ASU. A minimum of 30 psi is required for a successful engine start.
 
 ![asubleedpage.png](../../assets/advanced-guides/engines/asubleedpage.png){loading=lazy width=75%}
 
