@@ -41,5 +41,7 @@ After entry or selection of the flight plan and other required performance data 
 
 This section describes the MCDU in detail, covering each page and also the standard process for setting up a flight.
 
-Also see the [MCDU Setup Procedure](../../beginner-guide/preparing-mcdu.md) in our 
-[Beginner Guide](../../beginner-guide/overview.md).
+Also see the following resources:
+
+- [MCDU Setup Procedure](../../beginner-guide/preparing-mcdu.md) in our [Beginner Guide](../../beginner-guide/overview.md).
+- [Advance Flight Planning Guides](../../advanced-guides/flight-planning/overview.md).
