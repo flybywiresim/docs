@@ -58,15 +58,16 @@ We recommend the legacy (previous) method of the Cockpit Interaction System (Men
 
 ### Sim Crash Detection
 
-We recommend disabling the Sim Crash Detection (Menu > General Options > Accessibility). This feature does not work reliably and we recommend disabling this feature to avoid 
-frustration. Our systems are not computable with the simulator's crash detection. You may be returned to the menu or have to restart your flight due to the following reasons:
+We recommend disabling the Sim Crash Detection (Menu > General Options > Accessibility) to avoid frustration. This feature does not work reliably and our systems are not 
+compatible with the simulator's crash detection. You may be returned to the menu or have to restart your flight due to some the following reasons:
 
-- Weather rapidly updating causing aicraft stress
+- Weather rapidly updating causing aircraft stress
 - Aircraft stress due to high angle of attack or severe maneuvers
 - Rough terrain data on runways or taxiways
 
-In most situations these factors are typically out of your control unless pilot error is involved (upon which in a "simulation" environment you can recover your flight and 
-continue your journey). 
+!!! tip ""
+    In most situations these factors are typically out of your control unless pilot error is involved (where in a "simulation" environment you can recover your flight and 
+    continue your journey). 
 
 ### Controllers
 
