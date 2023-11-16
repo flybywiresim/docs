@@ -62,7 +62,7 @@ We recommend disabling the Sim Crash Detection (Menu > General Options > Accessi
 compatible with the simulator's crash detection. You may be returned to the menu or have to restart your flight due to some the following reasons:
 
 - Weather rapidly updating causing aircraft stress
-- Aircraft stress due to high angle of attack or severe maneuvers
+- Aircraft stress due to high angle of attack or severe maneuvers (even occur during normal takeoffs and landings)
 - Rough terrain data on runways or taxiways
 
 !!! tip ""
