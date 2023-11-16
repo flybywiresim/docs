@@ -41,5 +41,14 @@ After entry or selection of the flight plan and other required performance data 
 
 This section describes the MCDU in detail, covering each page and also the standard process for setting up a flight.
 
-Also see the [MCDU Setup Procedure](../../beginner-guide/preparing-mcdu.md) in our 
-[Beginner Guide](../../beginner-guide/overview.md).
+!!! tip "Additional Resources"
+    Also see the following resources for further feature information:
+
+    - [MCDU Setup Procedure](../../beginner-guide/preparing-mcdu.md) in our [Beginner Guide](../../beginner-guide/overview.md).
+    - Advance Flight Planning Guides
+        - [Direct To (DIR TO)](../../advanced-guides/flight-planning/direct.md)
+        - [Discontinuities](../../advanced-guides/flight-planning/disco.md)
+        - [Fix Info](../../advanced-guides/flight-planning/fixinfo.md)
+        - [Holds](../../advanced-guides/flight-planning/holds.md)
+        - [Leg Types](../../advanced-guides/flight-planning/leg-types.md)
+
