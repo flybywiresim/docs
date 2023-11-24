@@ -98,7 +98,7 @@ To intercept the ILS Localizer, we follow these steps:
 
     ![Established on ILS localizer](../assets/beginner-guide/landing/PFD-ND-established.png "Established on ILS localizer"){loading=lazy}
 
-Tower ATC will then give us clearance for teh ILS approach to the target runway. This clears us to descend on the ILS glideslope.
+Tower ATC will then give us clearance for the ILS approach to the target runway. This clears us to descend on the ILS glideslope.
 
 **Do not descent without explicit clearance from ATC.**
 
