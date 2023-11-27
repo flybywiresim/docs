@@ -868,7 +868,7 @@ Flight Deck: [Speed Brake Panel](../../pilots-corner/a32nx-briefing/flight-deck/
 |                  |                                |          |            |                  |                                  |
 | GND SPOILER ARM  | SPOILERS_ARM_TOGGLE            | -        | -          | SIMCONNECT EVENT |                                  |
 |                  | SPOILERS ARMED                 | 0&#124;1 | R/W        | SIMCONNECT VAR   |                                  |
-|                  | A32NX_SPOILER_ARMED            | 0&#124;1 | R          | Custom LVAR      |                                  |
+|                  | A32NX_SPOILERS_ARMED           | 0&#124;1 | R          | Custom LVAR      |                                  |
 
 ### Flaps
 
