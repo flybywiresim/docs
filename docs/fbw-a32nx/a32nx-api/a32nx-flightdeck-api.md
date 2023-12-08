@@ -345,7 +345,7 @@ Flight Deck: [Anti Ice Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovh
 | Function          | API Usage                                            | Values   | Read/Write | Type             | Remark                  |
 |:------------------|:-----------------------------------------------------|:---------|:-----------|:-----------------|:------------------------|
 | WING              | TOGGLE_STRUCTURAL_DEICE                              | -        | -          | SIMCONNECT EVENT | Function & Button light |
-|                   | STRUCURAL DEICE SWITCH                               | 0&#124;1 | R/W        | SIMCONNECT VAR   | Function & Button light |
+|                   | STRUCTURAL DEICE SWITCH                              | 0&#124;1 | R/W        | SIMCONNECT VAR   | Function & Button light |
 |                   | XMLVAR_MOMENTARY_PUSH_OVHD_<br/>ANTIICE_WING_PRESSED | 0&#124;1 | R/W        | Custom LVAR      | Button state            |
 | WING fault light  | N/A                                                  |          |            |                  |                         |
 |                   |                                                      |          |            |                  |                         |
