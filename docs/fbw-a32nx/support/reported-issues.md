@@ -70,15 +70,9 @@ TEMPLATE
 
 <div class="grid cards" markdown>
 
-- Commonly Reported Issues
-
-    ---
-    [Jump to Section](#commonly-reported-issues){.md-button}
+- [Commonly Reported Issues](#commonly-reported-issues)
     
-- Solutions to Commonly Reported Issues
-
-    ---
-    [Jump to Section](#solutions-to-commonly-reported-issues){.md-button}
+- [Solutions to Commonly Reported Issues](#solutions-to-commonly-reported-issues)
 
 - FBW Installer Issues
 
@@ -98,9 +92,13 @@ On Desktop, press ++ctrl+'F'++ to search for an issue within the current page.
 
 ## Legend
 
+<div class="grid" markdown>
+
 !!! bug "Breaking Issue / Bug"
 !!! warning "Non-Breaking Issue / Inconvenience"
 !!! tip "Config Issue / Usage Issue"
+
+</div>
 
 ## Commonly Reported Issues
 The following list of issues are commonly reported on our Discord support channel. Please check these before reporting any other issue on Discord. 
