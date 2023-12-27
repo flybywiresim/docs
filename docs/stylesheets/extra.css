@@ -128,3 +128,8 @@ tbody {
     background-color: #00E0FE;
 }
 
+/* Card Grids */
+.md-typeset .grid.cards>ol>li:focus-within, .md-typeset .grid.cards>ol>li:hover, .md-typeset .grid.cards>ul>li:focus-within, .md-typeset .grid.cards>ul>li:hover, .md-typeset .grid>.card:focus-within, .md-typeset .grid>.card:hover {
+    border-color: var(--md-primary-fg-color);
+    box-shadow: var(--md-shadow-z2);
+}
