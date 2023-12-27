@@ -66,14 +66,31 @@ TEMPLATE
 
 -->
 
-##  Index
+##  Quick Links
 
-| Quick Links                                                                            |
-|:---------------------------------------------------------------------------------------|
-| [Commonly Reported Issues](#commonly-reported-issues)                                  |
-| [Solutions to Commonly Reported Issues](#solutions-to-commonly-reported-issues)        |
-| [FBW Installer Issues](#fbw-installer-issues)                                          |
-| [Incompatible and Problematic Add-ons/Mods](#incompatible-and-problematic-add-onsmods) |
+<div class="grid cards" markdown>
+
+- Commonly Reported Issues
+
+    ---
+    [Jump to Section](#commonly-reported-issues){.md-button}
+    
+- Solutions to Commonly Reported Issues
+
+    ---
+    [Jump to Section](#solutions-to-commonly-reported-issues){.md-button}
+
+- FBW Installer Issues
+
+    ---
+    [Jump to Section](#commonly-reported-issues)
+
+- Incompatible and Problematic Add-ons/Mods
+
+    ---
+    [Jump to Section](#incompatible-and-problematic-add-onsmods)
+
+</div>
 
 ## Use the Browser's Search Function
 
