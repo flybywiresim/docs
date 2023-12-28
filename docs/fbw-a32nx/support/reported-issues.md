@@ -15,7 +15,7 @@
 
     FBW Installer - [Download Here](https://api.flybywiresim.com/installer){target=new} / *Latest Sim Version: 1.35.21.0*
 
-!!! warning "Read our Support Guide"
+!!! warning "Read our Support Guides"
 
     1. [Learn how to fly an A32NX](index.md#1-learn-how-to-fly-the-a32nx)
     2. [Troubleshoot](index.md#2-how-to-troubleshoot)
@@ -24,30 +24,31 @@
     5. [Report Issue on the FBW Aircraft GitHub](index.md#5-report-issue-on-the-a32nx-github)
     6. [Collecting Support Information](index.md#collecting-support-information)
 
-    ---
+    === "Custom Autopilot"
 
-    Due to the complex nature of our custom autopilot, please visit the dedicated ^^Custom Autopilot / Fly-By-Wire^^ page for more information:
-
-    - [**Main Page**](../feature-guides/autopilot-fbw.md)
-    - [**Typical Issues + Solutions**](../feature-guides/autopilot-fbw.md#typical-issues-and-how-to-solve-them)
-    - [**Known Issues**](../feature-guides/autopilot-fbw.md#known-issues)
-
-    ---
-
-    Please visit the ^^Dedicated Custom Flight Management System^^ page for more information:
-
-    - [**Features + Issues**](../feature-guides/cFMS.md)
-    - [**Special Notes**](../feature-guides/cFMS.md#special-notes)
-
-    ---
-
-    If you're having issues with ^^SimBridge^^, please follow our dedicated guide for it:
+        Due to the complex nature of our custom autopilot, please visit the dedicated ^^Custom Autopilot / Fly-By-Wire^^ page for more information:
     
-    - [**SimBridge Troubleshooting Guide**](../../simbridge/troubleshooting.md)
+        - [**Main Page**](../feature-guides/autopilot-fbw.md)
+        - [**Typical Issues + Solutions**](../feature-guides/autopilot-fbw.md#typical-issues-and-how-to-solve-them)
+        - [**Known Issues**](../feature-guides/autopilot-fbw.md#known-issues)
+
+    === "Custom FMS"
+
+        Please visit the ^^Dedicated Custom Flight Management System^^ page for more information:
+    
+        - [**Features + Issues**](../feature-guides/cFMS.md)
+        - [**Special Notes**](../feature-guides/cFMS.md#special-notes)
+
+    === "SimBridge"
+
+        If you're having issues with ^^SimBridge^^, please follow our dedicated guide for it:
+        
+        - [**SimBridge Troubleshooting Guide**](../../simbridge/troubleshooting.md)
 
     ---
 
     Do this before reporting bugs.
+
 ---
 
 <!--
@@ -74,15 +75,9 @@ TEMPLATE
     
 - [Solutions to Commonly Reported Issues](#solutions-to-commonly-reported-issues)
 
-- FBW Installer Issues
+- [FBW Installer Issues](#fbw-installer-issues)
 
-    ---
-    [Jump to Section](#commonly-reported-issues)
-
-- Incompatible and Problematic Add-ons/Mods
-
-    ---
-    [Jump to Section](#incompatible-and-problematic-add-onsmods)
+- [Incompatible and Problematic Add-ons/Mods](#incompatible-and-problematic-add-onsmods)
 
 </div>
 
@@ -92,13 +87,9 @@ On Desktop, press ++ctrl+'F'++ to search for an issue within the current page.
 
 ## Legend
 
-<div class="grid" markdown>
-
 !!! bug "Breaking Issue / Bug"
 !!! warning "Non-Breaking Issue / Inconvenience"
 !!! tip "Config Issue / Usage Issue"
-
-</div>
 
 ## Commonly Reported Issues
 The following list of issues are commonly reported on our Discord support channel. Please check these before reporting any other issue on Discord. 
