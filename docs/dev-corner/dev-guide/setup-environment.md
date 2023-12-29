@@ -122,7 +122,32 @@ Go to line 181 and add the following after that line:
 
 After you save, it should look like this:
 
-![hello-world-example-src-code](../assets/dev-guide/hello-world-example-src-code.png){loading=lazy}
+```TS title="displayUnit.tsx"
+    <svg style="display:none" ref={this.selfTestRef} class="SelfTest" viewBox="0 0 600 600">
+        <rect class="SelfTestBackground" x="0" y="0" width="100%" height="100%" />
+        <text
+            class="SelfTestText"
+            x="50%"
+            y="50%"
+        >
+            SELF TEST IN PROGRESS
+        </text>
+        <text
+            class="SelfTestText"
+            x="50%"
+            y="56%"
+        >
+            (MAX 40 SECONDS)
+        </text>
+        <text
+            class="SelfTestText"
+            x="50%"
+            y="62%"
+        >
+            HELLO FLYBYWIRE A32NX!
+        </text>
+    </svg>
+```
 
 Now recompile your branch:
 
@@ -140,7 +165,7 @@ When turning on power to the aircraft, the screens will do a self test. See if y
 
 **Congratulations! You have successfully made a code change and deployed the new add-on to the simulator.**
 
-!!!note "Efficient workflow"
+!!!note "Development Workflow"
     The above is obviously not an efficient workflow as you have to restart the simulator after every code change. 
     There are several ways to avoid this and hot reload the code into the simulator while it is running. But this is out
     of scope for this guide as it only serves to test the basic development environment.
