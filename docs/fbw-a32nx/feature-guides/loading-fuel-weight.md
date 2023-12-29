@@ -290,9 +290,15 @@ the import button in the Payload UI.
 
     ---
 
-    **ZFW MAC %/CG**
+    **ZFW MAC %/CG and GW/GWCG**
 
-    For now, this calculation is the same as the normal CG, but we don't account for fuel. We will extend this feature at a later time. For more information, please see the [Center of Gravity](#center-of-gravity) section above.
+    [insert image of ZFW MAC %/CG and GW/GWCG button]
+
+    When utilizing the cyan switch button you can see the ZFW MAC %/CG and corresponding GW/GWCG reflect the correct percentage based on the appropriate calculation.
+
+    GW/GWCG is the Gross Weight and Gross Weight Center of Gravity and can be used to set the trim for takeoff. We plan to extend this feature at a later time to include TOCG.
+
+    For more information, please see the [Center of Gravity](#center-of-gravity) section above.
 
 ##### Boarding Passengers
 
