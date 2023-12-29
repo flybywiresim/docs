@@ -106,18 +106,18 @@ git checkout -b test-branch master
 ```
 
 Open this file in the editor/IDE:
-`src/instruments/src/Common/displayUnit.tsx`
+`fbw-a32nx/src/systems/instruments/src/MsfsAvionicsCommon/displayUnit.tsx`
 
-Go to line 84 and add the following:
+Go to line 181 and add the following after that line:
 
 ```
-<text
-    className="SelfTestText"
-    x="50%"
-    y="62%"
->
-    HELLO FLYBYWIRE A32NX!
-</text>
+    <text
+        class="SelfTestText"
+        x="50%"
+        y="62%"
+    >
+        HELLO FLYBYWIRE A32NX!
+    </text>
 ```
 
 After you save, it should look like this:
@@ -139,3 +139,8 @@ When turning on power to the aircraft, the screens will do a self test. See if y
 ![hello-world-pfd](../assets/dev-guide/hello-world-pfd.png){loading=lazy}
 
 **Congratulations! You have successfully made a code change and deployed the new add-on to the simulator.**
+
+!!!note "Efficient workflow"
+    The above is obviously not an efficient workflow as you have to restart the simulator after every code change. 
+    There are several ways to avoid this and hot reload the code into the simulator while it is running. But this is out
+    of scope for this guide as it only serves to test the basic development environment.
