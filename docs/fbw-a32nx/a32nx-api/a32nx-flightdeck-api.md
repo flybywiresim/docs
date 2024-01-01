@@ -158,12 +158,12 @@ Flight Deck: [INT LT Panel](../../pilots-corner/a32nx-briefing/flight-deck/ovhd/
 
 | Function               | API Usage              | Values | Read/Write | Type             | Remark               |
 |:-----------------------|:-----------------------|:-------|:-----------|:-----------------|:---------------------|
-| OVHD INTEG Lt          | LIGHT POTENTIOMETER:86 | 0..100 | R/W        | MSFS VAR         |                      |
+| OVHD INTEG Lt          | LIGHT POTENTIOMETER:86 | 0..100 | R          | MSFS VAR         |                      |
 |                        |                        |        |            |                  |                      |
 | ICE IND & STBY COMPASS | N/A                    |        |            |                  |                      |
 |                        |                        |        |            |                  |                      |
 | DOME                   | TOGGLE_CABIN_LIGHTS    | -      | -          | SIMCONNECT EVENT | Toggle OFF-DIM-BRT   |
-|                        | LIGHT POTENTIOMETER:7  | 0..100 | R/W        | MSFS VAR         |                      |
+|                        | LIGHT POTENTIOMETER:7  | 0..100 | R          | MSFS VAR         |                      |
 |                        |                        |        |            |                  |                      |
 | ANN LT                 | A32NX_OVHD_INTLT_ANN   | 0..2   | R/W        | Custom LVAR      | 2=DIM, 1=BRT, 0=TEST |
 
@@ -417,13 +417,13 @@ Flight Deck: [Glareshield Lighting Knobs](../../pilots-corner/a32nx-briefing/fli
 
 | Function                    | API Usage              | Values | Read/Write | Type     | Remark |
 |:----------------------------|:-----------------------|:-------|:-----------|:---------|:-------|
-| Glareshield Integral Lights | LIGHT POTENTIOMETER:84 | 0..100 | R/W        | MSFS VAR |        |
+| Glareshield Integral Lights | LIGHT POTENTIOMETER:84 | 0..100 | R          | MSFS VAR |        |
 |                             |                        |        |            |          |        |
-| Glareshield LCD Lights      | LIGHT POTENTIOMETER:87 | 0..100 | R/W        | MSFS VAR |        |
+| Glareshield LCD Lights      | LIGHT POTENTIOMETER:87 | 0..100 | R          | MSFS VAR |        |
 |                             |                        |        |            |          |        |
-| Table Light Capt.           | LIGHT POTENTIOMETER:10 | 0..100 | R/W        | MSFS VAR |        |
+| Table Light Capt.           | LIGHT POTENTIOMETER:10 | 0..100 | R          | MSFS VAR |        |
 |                             |                        |        |            |          |        |
-| Table Light F.O.            | LIGHT POTENTIOMETER:11 | 0..100 | R/W        | MSFS VAR |        |
+| Table Light F.O.            | LIGHT POTENTIOMETER:11 | 0..100 | R          | MSFS VAR |        |
 
 ### EFIS Control Panel
 
@@ -434,8 +434,8 @@ Flight Deck: [EFIS Control Panel](../../pilots-corner/a32nx-briefing/flight-deck
 | Baro Display | KOHLSMAN SETTING MB:1            | 948-1084 (hPa)   | R          | MSFS VAR         |                                                   |
 |              | KOHLSMAN SETTING HG:1            | 27.99-32.01 (Hg) | R          | MSFS VAR         |                                                   |
 |              |                                  |                  |            |                  |                                                   |
-| Baro knob    | KOHLMAN_INC                      | -                | -          | SIMCONNECT EVENT |                                                   |
-|              | KOHLMAN_INC                      | -                | -          | SIMCONNECT EVENT |                                                   |
+| Baro knob    | KOHLSMAN_INC                     | -                | -          | SIMCONNECT EVENT |                                                   |
+|              | KOHLSMAN_INC                     | -                | -          | SIMCONNECT EVENT |                                                   |
 |              | XMLVAR_Baro1_Mode                | 0..2             | R/W        | Custom LVAR      | 0=QFE, 1=QNH, 2=STD                               |
 |              |                                  |                  |            |                  |                                                   |
 | inHG / hPa   | XMLVAR_BARO_SELECTOR_HPA_1       | 0&#124;1         | R/W        | Custom LVAR      | 0=Hg, 1=hPa                                       |
@@ -583,29 +583,29 @@ Flight Deck: [ILCP Panel](../../pilots-corner/a32nx-briefing/flight-deck/front/i
 
 | Function            | API Usage              | Values      | Read/Write | Type     | Remark |
 |:--------------------|:-----------------------|:------------|:-----------|:---------|:-------|
-| PFD Brt Cpt.        | LIGHT POTENTIOMETER:88 | 0..100      | R/W        | MSFS VAR |        |
+| PFD Brt Cpt.        | LIGHT POTENTIOMETER:88 | 0..100      | R          | MSFS VAR |        |
 |                     |                        |             |            |          |        |
 | PFD/ND XFR Cpt.     | N/A                    |             |            |          |        |
 |                     |                        |             |            |          |        |
-| ND Brt Cpt.         | LIGHT POTENTIOMETER:89 | 0..100      | R/W        | MSFS VAR |        |
+| ND Brt Cpt.         | LIGHT POTENTIOMETER:89 | 0..100      | R          | MSFS VAR |        |
 |                     |                        |             |            |          |        |
-| WX/Terrain Brt Cpt. | LIGHT POTENTIOMETER:94 | 0..100      | R/W        | MSFS VAR |        |
+| WX/Terrain Brt Cpt. | LIGHT POTENTIOMETER:94 | 0..100      | R          | MSFS VAR |        |
 |                     |                        |             |            |          |        |
 | Loud Spkr Cpt.      | N/A                    |             |            |          |        |
 |                     |                        |             |            |          |        |
-| CONSOLE/FLOOR Cpt.  | LIGHT POTENTIOMETER:8  | 50&#124;100 | R/W        | MSFS VAR |        |
+| CONSOLE/FLOOR Cpt.  | LIGHT POTENTIOMETER:8  | 50&#124;100 | R          | MSFS VAR |        |
 |                     |                        |             |            |          |        |
-| PFD Brt F.O.        | LIGHT POTENTIOMETER:90 | 0..100      | R/W        | MSFS VAR |        |
+| PFD Brt F.O.        | LIGHT POTENTIOMETER:90 | 0..100      | R          | MSFS VAR |        |
 |                     |                        |             |            |          |        |
 | PFD/ND XFR F.O.     | N/A                    |             |            |          |        |
 |                     |                        |             |            |          |        |
-| ND Brt F.O.         | LIGHT POTENTIOMETER:91 | 0..100      | R/W        | MSFS VAR |        |
+| ND Brt F.O.         | LIGHT POTENTIOMETER:91 | 0..100      | R          | MSFS VAR |        |
 |                     |                        |             |            |          |        |
-| WX/Terrain Brt F.O. | LIGHT POTENTIOMETER:95 | 0..100      | R/W        | MSFS VAR |        |
+| WX/Terrain Brt F.O. | LIGHT POTENTIOMETER:95 | 0..100      | R          | MSFS VAR |        |
 |                     |                        |             |            |          |        |
 | Loud Spkr F.O.      | N/A                    |             |            |          |        |
 |                     |                        |             |            |          |        |
-| CONSOLE/FLOOR F.O.  | LIGHT POTENTIOMETER:9  | 50&#124;100 | R/W        | MSFS VAR |        |
+| CONSOLE/FLOOR F.O.  | LIGHT POTENTIOMETER:9  | 50&#124;100 | R          | MSFS VAR |        |
 
 ### Autobrake, Gear Lever and Gear Annunciation
 
@@ -708,9 +708,9 @@ Flight Deck: [ECAM Control Panel](../../pilots-corner/a32nx-briefing/flight-deck
 
 | Function              | API Usage                        | Values   | Read/Write | Type        | Remark                                                                     |
 |:----------------------|:---------------------------------|:---------|:-----------|:------------|:---------------------------------------------------------------------------|
-| Upper Display         | LIGHT POTENTIOMETER:92           | 0..100   | R/W        | MSFS VAR    |                                                                            |
+| Upper Display         | LIGHT POTENTIOMETER:92           | 0..100   | R          | MSFS VAR    |                                                                            |
 |                       |                                  |          |            |             |                                                                            |
-| Lower Display         | LIGHT POTENTIOMETER:93           | 0..100   | R/W        | MSFS VAR    |                                                                            |
+| Lower Display         | LIGHT POTENTIOMETER:93           | 0..100   | R          | MSFS VAR    |                                                                            |
 |                       |                                  |          |            |             |                                                                            |
 | ECAM SD Page button   | A32NX_ECAM_SD_CURRENT_PAGE_INDEX | -1..12   | R/W        | Custom LVAR | See below.                                                                 |
 |                       |                                  |          |            |             |                                                                            |
@@ -792,11 +792,11 @@ Flight Deck: [Lighting Pedestal Cpt. Side Panel](../../pilots-corner/a32nx-brief
 
 | Function      | API Usage              | Values | Read/Write | Type     | Remark       |
 |:--------------|:-----------------------|:-------|:-----------|:---------|:-------------|
-| FLOOD LT Cpt  | LIGHT POTENTIOMETER:83 | 0..100 | R/W        | MSFS VAR |              |
+| FLOOD LT Cpt  | LIGHT POTENTIOMETER:83 | 0..100 | R          | MSFS VAR |              |
 |               |                        |        |            |          |              |
-| INTEG LT      | LIGHT POTENTIOMETER:85 | 0..100 | R/W        | MSFS VAR |              |
+| INTEG LT      | LIGHT POTENTIOMETER:85 | 0..100 | R          | MSFS VAR |              |
 |               |                        |        |            |          |              |
-| FLOOD LT F.O. | LIGHT POTENTIOMETER:76 | 0..100 | R/W        | MSFS VAR | On F.O. side |
+| FLOOD LT F.O. | LIGHT POTENTIOMETER:76 | 0..100 | R          | MSFS VAR | On F.O. side |
 
 ### WX Radar
 
@@ -903,14 +903,14 @@ Flight Deck: [Parking Brake Panel](../../pilots-corner/a32nx-briefing/flight-dec
 
 Flight Deck: [Rudder Trim Panel](../../pilots-corner/a32nx-briefing/flight-deck/pedestal/rudder-trim.md)
 
-| Function | API Usage         | Values        | Read/Write | Type             | Remark                                                                         |
-|:---------|:------------------|:--------------|:-----------|:-----------------|:-------------------------------------------------------------------------------|
-| Display  | RUDDER TRIM PCT   | -1.0..1.0     | R          | SIMCONNECT VAR   | -1.0=20° left, 1.0=20° right                                                   |
-|          | RUDDER TRIM       | -0.35..0.35   | R          | SIMCONNECT VAR   | Radians: 0.3490×180°/π = 19.99°                                                |
-|          |                   |               |            |                  |                                                                                |
-| RESET    | RUDDER_TRIM_RESET | -             | .          | SIMCONNECT EVENT |                                                                                |
-|          |                   |               |            |                  |                                                                                |
-| RUD TRIM | XMLVAR_RUDDERTRIM | 0 &#124; 2    | R/W        | Custom LVAR      | ~~Knob jumps back. Needs to be set repeatably until the target value is reached~~ |
+| Function | API Usage         | Values      | Read/Write | Type             | Remark                                                                            |
+|:---------|:------------------|:------------|:-----------|:-----------------|:----------------------------------------------------------------------------------|
+| Display  | RUDDER TRIM PCT   | -1.0..1.0   | R          | SIMCONNECT VAR   | -1.0=20° left, 1.0=20° right                                                      |
+|          | RUDDER TRIM       | -0.35..0.35 | R          | SIMCONNECT VAR   | Radians: 0.3490×180°/π = 19.99°                                                   |
+|          |                   |             |            |                  |                                                                                   |
+| RESET    | RUDDER_TRIM_RESET | -           | .          | SIMCONNECT EVENT |                                                                                   |
+|          |                   |             |            |                  |                                                                                   |
+| RUD TRIM | XMLVAR_RUDDERTRIM | 0 &#124; 2  | R/W        | Custom LVAR      | ~~Knob jumps back. Needs to be set repeatably until the target value is reached~~ |
 
 ### Cockpit Door
 
@@ -965,11 +965,11 @@ See [Nose Wheel and Tiller Operation](../feature-guides/nw-tiller.md)
 
 ### Pushback API
 
-| Function                                     | API Usage                             | Values    | Read/Write | Type                     | Remark                                                                                 |
-|:---------------------------------------------|:--------------------------------------|:----------|:-----------|:-------------------------|:---------------------------------------------------------------------------------------|
-| Pushback System                              | A32NX_PUSHBACK_SYSTEM_ENABLED         | 0&#124;1  | R/W        | Custom LVAR              | To turn off the Pushback System completely to not interfere with other pushback add-ons    |
-| Pushback Movement Factor                     | A32NX_PUSHBACK_SPD_FACTOR             | -1.0..1.0 | R/W        | Custom LVAR              | Set the speed of the pushback tug in percent. Negative values are backwards movements. |
-| Pushback Heading Factor                      | A32NX_PUSHBACK_HDG_FACTOR             | -1.0..1.0 | R/W        | Custom LVAR              | Set the turning factor from max left (-1.0) to max right (1.0)                         |
+| Function                 | API Usage                     | Values    | Read/Write | Type        | Remark                                                                                  |
+|:-------------------------|:------------------------------|:----------|:-----------|:------------|:----------------------------------------------------------------------------------------|
+| Pushback System          | A32NX_PUSHBACK_SYSTEM_ENABLED | 0&#124;1  | R/W        | Custom LVAR | To turn off the Pushback System completely to not interfere with other pushback add-ons |
+| Pushback Movement Factor | A32NX_PUSHBACK_SPD_FACTOR     | -1.0..1.0 | R/W        | Custom LVAR | Set the speed of the pushback tug in percent. Negative values are backwards movements.  |
+| Pushback Heading Factor  | A32NX_PUSHBACK_HDG_FACTOR     | -1.0..1.0 | R/W        | Custom LVAR | Set the turning factor from max left (-1.0) to max right (1.0)                          |
 
 ??? tip "Pushback API HowTo"
     #### Pushback API HowTo
