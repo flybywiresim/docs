@@ -67,7 +67,7 @@ This tab is for modifying settings regarding printing data from the MCDU to your
 To use the SimBridge, the aircraft's settings need to allow the SimBridge connection.
 
 !!! warning ""
-    Please note to find following settings please load into our aircraft within the simulator and use our onboard EFB (flyPad).
+    To find the following settings, load into our aircraft within the simulator and use our onboard EFB (flyPad).
 
     The page below is found on the flyPad EFB under `Settings` > `Sim Options`.
 
