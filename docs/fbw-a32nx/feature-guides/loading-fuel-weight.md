@@ -201,23 +201,20 @@ We have introduced a new flight model paired with a new weight and balance paylo
 
 Get our [simBrief Profile](../installation.md#simbrief-airframe).
 
-{==
+!!! info "Please Note the Following"
+    - The cargo hold field now depicts either metric tons or thousands of pounds, depending on the unit selected in the EFB Settings for aircraft configuration.
+    - **Highly recommend** ensuring that you select the same weights (kg or lb) in the EFB and in simBrief's OFP/Airframe before importing to prevent any mismatch in values.
 
-Please note the following:
-
-- The cargo hold field now depicts either metric tons or thousands of pounds, depending on the unit selected in the EFB Settings for aircraft configuration.
-- **Highly recommend** ensuring that you select the same weights (kg or lb) in the EFB and in simBrief's OFP/Airframe before importing to prevent any mismatch in values.
-
-When starting the aircraft from a **Cold and Dark** state, please be aware of the following important information:
-
-- **INIT FUEL PRED** must be completed before departure. (This is detailed in our [beginner guide](../../pilots-corner/beginner-guide/preparing-mcdu.md#init-fuel-pred). Please ensure that you complete this step when preparing the MCDU.)
-- Failure to complete the `INIT FUEL PRED` page before starting an engine will display `INITIALIZE WEIGHT/CG` in amber on the MCDU Scratchpad.    
-- When there is a GW mismatch of more than 7 tonnes between the values calculated aerodynamically and the value calculated using the inputted ZFW and fuel flow `CHECK 
-  WEIGHT` will be displayed in amber on the MCDU Scratchpad.
-
-See [flyPadOS 3 - Development Version](flypados3/settings.md#aircraft-options--pin-programs) settings page if you wish to change the weight unit used by the aircraft systems.
-
-==}
+!!! warning "Cold and Dark Startup"
+    
+    When starting the aircraft from a **Cold and Dark** state, please be aware of the following important information:
+    
+    - **INIT FUEL PRED** must be completed before departure. (This is detailed in our [beginner guide](../../pilots-corner/beginner-guide/preparing-mcdu.md#init-fuel-pred). Please ensure that you complete this step when preparing the MCDU.)
+    - Failure to complete the `INIT FUEL PRED` page before starting an engine will display `INITIALIZE WEIGHT/CG` in amber on the MCDU Scratchpad.    
+    - When there is a GW mismatch of more than 7 tonnes between the values calculated aerodynamically and the value calculated using the inputted ZFW and fuel flow `CHECK 
+    WEIGHT` will be displayed in amber on the MCDU Scratchpad.
+    
+    See [flyPadOS 3 - Development Version](flypados3/settings.md#aircraft-options--pin-programs) settings page if you wish to change the weight unit used by the aircraft systems.
 
 #### Loading Guide
 
@@ -290,9 +287,18 @@ the import button in the Payload UI.
 
     ---
 
-    **ZFW MAC %/CG**
+    **ZFW MAC %/CG and GW/GWCG**
 
-    For now, this calculation is the same as the normal CG, but we don't account for fuel. We will extend this feature at a later time. For more information, please see the [Center of Gravity](#center-of-gravity) section above.
+    When utilizing the cyan switch button you can see the ZFW MAC %/CG and corresponding GW/GWCG reflect the correct percentage based on the appropriate calculation. 
+
+    !!! tip ""
+        In the example below you can note that the fields for ZFW and ZFWCG have been swapped to GW and GWCG respectively.
+
+    ![gwcg.png](..%2Fassets%2Ffeature-guides%2Fgwcg.png){loading=lazy}
+
+    GW/GWCG is the Gross Weight and Gross Weight Center of Gravity and can be used to set the trim for takeoff. We plan to extend this feature at a later time to include TOCG.
+
+    For more information, please see the [Center of Gravity](#center-of-gravity) section above.
 
 ##### Boarding Passengers
 
