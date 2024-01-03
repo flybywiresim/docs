@@ -70,7 +70,7 @@ You can send us logs to our [Discord](https://discord.gg/flybywire){target=new} 
 
         It updates whenever something is added to the 'master' branch on GitHub. 
 
-         [Download Development](https://github.com/flybywiresim/aircraft/releases/download/assets/master/A32NX-master.zip){.md-button target=new}
+         [Download Development](https://github.com/flybywiresim/a32nx/releases/download/assets/master/A32NX-master.7z){.md-button target=new}
          
          [**IMPORTANT:** View information on Autopilot / Fly-By-Wire here](feature-guides/autopilot-fbw.md)
 
