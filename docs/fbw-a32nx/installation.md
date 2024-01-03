@@ -55,7 +55,7 @@ You can send us logs to our [Discord](https://discord.gg/flybywire){target=new} 
 
     === "Latest Stable Version"
 
-        **Current Stable Version - ** <img src="https://img.shields.io/github/v/release/flybywiresim/aircraft.svg?color=2F4E5B&style=flat" />
+        **Current Stable Version -** <img src="https://img.shields.io/github/v/release/flybywiresim/aircraft.svg?color=2F4E5B&style=flat" />
 
           Stable is our variant that has the least bugs and best performance. This version will not always be up-to-date, but we guarantee its compatibility with each major patch from MSFS. 
 
@@ -70,7 +70,7 @@ You can send us logs to our [Discord](https://discord.gg/flybywire){target=new} 
 
         It updates whenever something is added to the 'master' branch on GitHub. 
 
-         [Download Development](https://github.com/flybywiresim/aircraft/releases/download/assets/master/A32NX-master.zip){.md-button target=new}
+         [Download Development](https://github.com/flybywiresim/aircraft/releases/download/assets/master/A32NX-master.7z){.md-button target=new}
          
          [**IMPORTANT:** View information on Autopilot / Fly-By-Wire here](feature-guides/autopilot-fbw.md)
 
