@@ -2,6 +2,11 @@
 
 This page details the available bot commands on the FlyByWire Simulations Discord server custom bot. 
 
+!!! warning "Discord Bot Version 3"
+    We are releasing a new version of the Discord bot. This version (3) will be released concurrently with the current state of our Discord Bot. The new version will have a new set of commands and features moving forward. 
+
+    The documentation below is for the current version of the bot.
+
 For information on how to contribute to bot development, visit the Discord bot repository or contact the following users on Discord for assistance:
 
 - benw8484
