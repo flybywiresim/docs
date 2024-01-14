@@ -7,13 +7,42 @@ This page details the available bot commands on the FlyByWire Simulations Discor
 
     The documentation below is for the current version of the bot.
 
+## GitHub Repositories and Contacts
+
 For information on how to contribute to bot development, visit the Discord bot repository or contact the following users on Discord for assistance:
 
-- benw8484
-- oim
-- straks
+!!! note ""
+    - benw8484
+    - oim
+    - straks
 
-[:fontawesome-brands-github:{: .github } **Discord Bot**](https://github.com/flybywiresim/discord-bot){ .md-button target=new}
+<div class="grid cards" markdown>
+
+- **Current Discord Bot**
+
+    ---
+
+    Our current iteration of the Discord Bot (Version 2).
+
+    -> :fontawesome-brands-github:{: .github } [Repository](https://github.com/flybywiresim/discord-bot)
+
+- **Version 3 Discord Bot**
+
+    ---
+
+    Latest iteration with new features and command structure (Version 3).
+
+    -> :fontawesome-brands-github:{: .github } [Repository](https://github.com/flybywiresim/discord-bot-utils)
+
+- **Sticky Discord Bot**
+
+    ---
+
+    Our own implementation of a "Sticky" bot for Discord.
+
+    -> :fontawesome-brands-github:{: .github } [Repository](https://github.com/flybywiresim/discord-bot-sticky)
+
+</div>
 
 ## Bot Commands
 
