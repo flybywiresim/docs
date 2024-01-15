@@ -37,7 +37,7 @@ We have included through built in and external plugins some extra features to he
     ```
 #### Card Grids
 
-Card grids is a recent feature added to mkdocs-material. This allows for a grid of cards to be displayed on a page. This is useful for displaying a list of links to other pages, or for displaying a list of links to external resources. 
+Card grids are a recent feature added to mkdocs-material. This allows for a grid of cards to be displayed on a page. This is useful for displaying a list of links to other pages, or for displaying a list of links to external resources. 
 
 For more information visit the [mkdocs-material card grids documentation](https://squidfunk.github.io/mkdocs-material/reference/grids/){target=new}.
 
