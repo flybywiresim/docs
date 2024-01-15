@@ -11,6 +11,10 @@
 - Add images to the section's asset folder. Consider creating a folder for your page when using several images.
 - Although the FlyByWire Documentation Team will take care of navigation, it might still be of interest how the navigation is done. This is well explained on the [mkdocs-awesome-pages-plugin's README on their GitHub](https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin#Features){target=new}
 
+### Extra Features
+
+We have included through built in and external plugins some extra features to help with documentation building and layout.
+
 !!! tip "Embedding YouTube Videos"
     We have included the plugin `mkdocs-video` to streamline adding YouTube embeds into documentation. This removes the necessity to inline `<iframe>` information within documentation pages.
 
@@ -31,6 +35,55 @@
         exclude: true
     ---
     ```
+#### Card Grids
+
+Card grids is a recent feature added to mkdocs-material. This allows for a grid of cards to be displayed on a page. This is useful for displaying a list of links to other pages, or for displaying a list of links to external resources. 
+
+For more information visit the [mkdocs-material card grids documentation](https://squidfunk.github.io/mkdocs-material/reference/grids/){target=new}.
+
+---
+
+Below is an example of our current use case in the FlyByWire Documentation Project utilizing an ordered list with markdown elements. 
+
+**Option 3 and 4** showcase that you can add additional text and markdown elements to each ordered item. Ensure that the `div` defines `markdown` as an attribute and you can freely add arbitrary markdown within the elements of each card grid.
+
+```html title="Card Grid Ordered"
+
+<div class="grid cards" markdown>
+
+- Option / Text 1
+- Option / Text 2
+- :fontawesome-brands-github:{: .github } - Option / Text 3
+
+    ---
+
+    This is a `markdown` element that can be added to the [card grid](#card-grids).
+
+- :fontawesome-brands-github:{: .github } - Option / Text 4
+
+    ---
+
+    This is a markdown element that can be added to the card grid.
+</div>
+```
+
+!!! info "Rendered Example From Code Above"
+    <div class="grid cards" markdown>
+    
+    - Option / Text 1
+    - Option / Text 2
+    - :fontawesome-brands-github:{: .github } - Option / Text 3
+    
+          ---
+    
+         This is a `markdown` element that can be added to the [card grid](#card-grids).
+    
+    - :fontawesome-brands-github:{: .github } - Option / Text 4
+    
+          ---
+    
+          This is a markdown element that can be added to the card grid.
+    </div>
 
 ### Tips to Work Effectively with `mkdocs` (Change, Previews, etc.)
 
