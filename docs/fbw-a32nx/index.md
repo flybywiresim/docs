@@ -32,9 +32,41 @@ ACSC        S1803A0001
 
 ## Quick Links
 
-[Support Guide](support/index.md){ .md-button } [Reported Issues](support/reported-issues.md){ .md-button } [Feature Guides](feature-guides/index.md){ .md-button }
+<div class="grid cards" markdown>
 
-[Throttle Calibration Guide](feature-guides/flypados3/throttle-calibration.md){ .md-button }
+- **Support Guide**
+    
+    ---
+    
+    Troubleshoot basic issues and learn how to use the FlyByWire A32NX.
+    
+    [:octicons-arrow-right-24: Getting started](support/index.md)
+    
+- **Reported Issues**
+
+    ---
+    
+    View a list of reported issues and their status.
+        
+    [:octicons-arrow-right-24: View Issues](support/reported-issues.md)
+
+- **Feature Guides**
+
+    ---
+    
+    Learn how to use the various FlyByWire A32NX's features.
+    
+    [:octicons-arrow-right-24: View Guides](feature-guides/index.md)
+
+- **Throttle Calibration Guide**
+    
+    ---
+        
+    Calibrate your throttle to work with the FlyByWire A32NX.
+        
+    [:octicons-arrow-right-24: View Guide](feature-guides/flypados3/throttle-calibration.md)
+
+</div>
 
 ##  Topics
 
