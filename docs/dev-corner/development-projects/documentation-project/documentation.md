@@ -4,6 +4,11 @@
 
 ## Background
 
+!!! info "Guides"
+    If you would like to setup the documentation project locally please continue with this guide.
+
+    If you would like to understand our guidelines on writing and different available features please see the [Writing Documentation](writing-documentation.md) Page instead.
+
 The FlyByWire Documentation Project aims to provide all necessary information and documentation to successfully install and use the FlyByWire A32NX aircraft in Microsoft Flight Simulator.
 
 For this, we provide documentation about the A32NX add-on itself, but also valuable additional documentation on how to fly an airliner on Microsoft Flight Simulator in general and even some specific A320neo documentation for the more involved user.
