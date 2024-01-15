@@ -116,39 +116,47 @@ Below is an example of our current use case in the FlyByWire Documentation Proje
       is good practice just in case - but it is not worth to clutter the repo with them)
 - Put the edited image in the folder for the topic - e.g. `\docs\pilots-corner\assets\advanced-guides\vnav` for images related to the VNAV topic
 - Link the image in the markdown document - decide on the size you need (See admonition below for references)
+- Please lazy load images that are not in the viewport (e.g. images at the bottom of the page) - this is done by adding `loading=lazy` to the image tag.
+   ```md title="Sample Image Markdown with Lazy Loading"
+    ![image](directory/image.png){loading=lazy}
+   ```
 
     !!! tip ""
         Width of images on docs based on the responsive layout.
 
-        | Size | Width  |
-        |:-----|:-------|
-        | 100% | 826 px |
-        | 95%  | 785 px |
-        | 90%  | 743 px |
-        | 85%  | 702 px |
-        | 80%  | 661 px |
-        | 75%  | 620 px |
-        | 70%  | 578 px |
-        | 65%  | 537 px |
-        | 60%  | 496 px |
-        | 55%  | 454 px |
-        | 50%  | 413 px |
-        | 45%  | 372 px |
-        | 40%  | 330 px |
-        | 35%  | 289 px |
-        | 30%  | 248 px |
-        | 25%  | 206 px |
-        | 20%  | 165 px |
-        | 15%  | 124 px |
-        | 10%  | 83  px |
-        | 5%   | 41  px |
+        - Change the size according to the table - max width is 826 px
+        - Compress the png image with a tool - [Website Planet Image Compressor](https://www.websiteplanet.com/webtools/imagecompressor/)
+        - Make sure size and quality are good - usually < 100 kB
 
-- Change the size according to the table - max width is 826 px
-- Compress the png image with a tool - [Website Planet Image Compressor](https://www.websiteplanet.com/webtools/imagecompressor/)
-- Make sure size and quality are good - usually < 100 kB
+          | Size | Width  |
+          |:-----|:-------|
+          | 100% | 826 px |
+          | 95%  | 785 px |
+          | 90%  | 743 px |
+          | 85%  | 702 px |
+          | 80%  | 661 px |
+          | 75%  | 620 px |
+          | 70%  | 578 px |
+          | 65%  | 537 px |
+          | 60%  | 496 px |
+          | 55%  | 454 px |
+          | 50%  | 413 px |
+          | 45%  | 372 px |
+          | 40%  | 330 px |
+          | 35%  | 289 px |
+          | 30%  | 248 px |
+          | 25%  | 206 px |
+          | 20%  | 165 px |
+          | 15%  | 124 px |
+          | 10%  | 83  px |
+          | 5%   | 41  px |
 
 ### Style
 
 - Use the units of measurement and their abbreviations as used by ICAO Annex 5. This document can be downloaded, for example, on the website of the [Swiss Federal Office of Civil Aviation](https://www.bazl.admin.ch/bazl/en/home/themen/legislation/anhaenge-icao.html){target=new}.
 - If the [current de facto measurement unit](https://en.wikipedia.org/wiki/International_Civil_Aviation_Organization#Use_of_the_International_System_of_Units){target=new} differs from the recommended one or different units are used in some regions, use the most widespread unit and add the recommended or regional one(s) in brackets.
 - Regarding typography of numbers and units, the [ISO Conventions](https://www.bipm.org/documents/20126/41483022/SI-Brochure-9.pdf/fcf090b2-04e6-88cc-1149-c3e029ad8232?version=1.21&t=1671101063858&download=true){target=new} summarized in [this checklist](https://physics.nist.gov/cuu/Units/checklist.html){target=new} should be followed, e.g., addition of a [non-breaking space (Unicode 160)](https://en.wikipedia.org/wiki/Non-breaking_space){target=new} between the number and the unit, except for degree, minute of arc, and second of arc, and the use of a [thin or narrow non-breaking space (Unicode 8239)](https://en.wikipedia.org/wiki/Non-breaking_space#Encodings){target=new} as a thousand seperator, as well as between the number and the sign (+, - etc.).
+
+---
+
+[Back to Documentation Development Environment](documentation.md){.md-button}
