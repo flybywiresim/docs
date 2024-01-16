@@ -221,12 +221,15 @@ The following list of issues are commonly reported on our Discord support channe
     The aircraft is unable to move or taxi. The ECAM is showing a "NW STRG DISC" warning. 
     This is caused by an invisible tug which is still connected to the aircraft.
     This is an MSFS issue as the visual representation of the tug and the connection to the aircraft can get out of 
-    sync. 
+    sync.
 
-    ^^Possible Solution or Workaround^^
+    If you are using rudders/pedals like the Thrustmaster T.Flight Rudder Pedals, make sure they are correctly set up and calibrated. Otherwise the toe brakes may be impeding taxiing.
+
+    ^^Possible Solutions or Workarounds^^
 
     - [Disconnect the Tug](#disconnect-the-tug)
     - [Toolbar Pushback Add-on Issues](#toolbar-pushback-add-on-issues)
+    - [Rudder/Pedal Settings](./detail-pages/rudder.md)
 
 ??? bug "Unexpected Engines Shut Down"
     ### Unexpected Engines Shut Down
