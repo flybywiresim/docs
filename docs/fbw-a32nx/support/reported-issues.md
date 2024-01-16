@@ -229,7 +229,7 @@ The following list of issues are commonly reported on our Discord support channe
 
     - [Disconnect the Tug](#disconnect-the-tug)
     - [Toolbar Pushback Add-on Issues](#toolbar-pushback-add-on-issues)
-    - [Rudder/Pedal Settings](./detail-pages/rudder.md)
+    - [Rudder/Pedal Settings](#rudder-operation-issues)
 
 ??? bug "Unexpected Engines Shut Down"
     ### Unexpected Engines Shut Down
@@ -726,8 +726,8 @@ The following list of issues are commonly reported on our Discord support channe
 
     - [Deactivate MSFS Assistance Features](../../fbw-a32nx/settings.md#deactivate-msfs-assistance-features)
 
-??? tip "Rudder Operation Issues"
-    ### Rudder Operation Issues
+??? tip "Rudder or Toe Brake Operation Issues"
+    ### Rudder or Toe Brake Operation Issues
 
     !!! tip ""
         *Affected versions: Stable, Development*
