@@ -228,20 +228,6 @@ The following list of issues are commonly reported on our Discord support channe
     - [Disconnect the Tug](#disconnect-the-tug)
     - [Toolbar Pushback Add-on Issues](#toolbar-pushback-add-on-issues)
 
-??? bug "Hard To Control the Aircraft during Taxi, TakeOff, or Landing"
-    ### Hard To Control the Aircraft during Taxi, TakeOff, or Landing
-    
-    !!! tip ""
-        *Affected versions: Stable, Development*
-
-    ^^Description^^
-
-    The aircraft is hard to control during taxi, takeoff, or landing.
-
-    ^^Possible Solution or Workaround^^
-
-    - [Deactivate MSFS Assistance Features](../../fbw-a32nx/settings.md#deactivate-msfs-assistance-features)
-
 ??? bug "Unexpected Engines Shut Down"
     ### Unexpected Engines Shut Down
 
@@ -722,6 +708,40 @@ The following list of issues are commonly reported on our Discord support channe
     For more information on how to actually solve the issue, please reference the following GitHub issue for more information:
 
     [MSFS Popout Workaround / Pop out panel manager issue](https://github.com/hawkeye-stan/msfs-popout-panel-manager/issues/73){target=new .md-button}
+
+??? tip "Hard To Control the Aircraft during Taxi, TakeOff, or Landing"
+    ### Hard To Control the Aircraft during Taxi, TakeOff, or Landing
+
+    !!! tip ""
+        *Affected versions: Stable, Development*
+
+    ^^Description^^
+
+    The aircraft is hard to control during taxi, takeoff, or landing.
+
+    ^^Possible Solution or Workaround^^
+
+    - [Deactivate MSFS Assistance Features](../../fbw-a32nx/settings.md#deactivate-msfs-assistance-features)
+
+??? tip "Rudder Operation Issues"
+    ### Rudder Operation Issues
+
+    !!! tip ""
+        *Affected versions: Stable, Development*
+
+    ^^Description^^
+
+    Experience problems like brakes getting stuck while taxiing or twitching rudders, or taxiing is erratic. 
+
+    ^^Root Cause^^
+
+    - MSFS Assistance settings (esp. AUTO_RUDDER) are activated. These need to be **deactivated** for the A32NX.
+    - Rudder setup is not correct.
+
+    ^^Possible Solution or Workaround^^
+    
+    - Deactivate [MSFS Assistance Features](../../fbw-a32nx/settings.md#deactivate-msfs-assistance-features)
+    - Rudder Settings: See the correct settings for rudder using the T.Flight Rudder Pedals as an example: [T.Flight Rudder Pedals Settings](./detail-pages/rudder.md)
 
 ??? tip "++ctrl+'E'++ - Engine Start Unsupported" 
     ### ++ctrl+'E'++ - Engine Start Unsupported
