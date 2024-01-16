@@ -229,7 +229,7 @@ The following list of issues are commonly reported on our Discord support channe
 
     - [Disconnect the Tug](#disconnect-the-tug)
     - [Toolbar Pushback Add-on Issues](#toolbar-pushback-add-on-issues)
-    - [Rudder/Pedal Settings](#rudder-operation-issues)
+    - [Rudder/Pedal Settings](#rudder-or-toe-brake-operation-issues)
 
 ??? bug "Unexpected Engines Shut Down"
     ### Unexpected Engines Shut Down
