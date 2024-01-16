@@ -48,7 +48,7 @@ To build your own profile, you can use our Flight-Deck API Documentation: [Fligh
 ![thrustmaster-tca-quadrant.png](../assets/api-guide/thrustmaster-t-flight-rudder.png){loading=lazy}
 
 !!! tip ""
-If you experience problems like brakes getting stuck while taxiing or twitching rudders, make sure that your pedals are set up correctly. [T.Flight Rudder Pedals Settings](rudder.md)
+    If you experience problems like brakes getting stuck while taxiing or twitching rudders, make sure that your pedals are set up correctly. [T.Flight Rudder Pedals Settings](rudder.md)
 
 ### Elgato Stream Deck
 
