@@ -202,5 +202,4 @@ Special QA requests to IRL pilots will be made in the #pilot-feedback channel.
 
 ## Contacts
 
-QA Team leader contact on Discord: Mico#3145
-
+QA Team leader contact on Discord: mico3145
