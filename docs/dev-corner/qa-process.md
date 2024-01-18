@@ -161,6 +161,12 @@ Media:
 
 ```
 
+!!! warning "Testing Results"
+    Please make sure to do the following for the Testing Results section of your report:
+
+    1. Use the exact wording "Passed" or "Not Passed"
+    2. Make sure the wording is **below** the `Testing Results` line as this triggers the GitHub actions on the PR.
+
 !!! tip "Tip: Look at closed PRs"
     To better understand what a report should look like, you can look at closed PRs on GitHub to see how others approach this.
 
