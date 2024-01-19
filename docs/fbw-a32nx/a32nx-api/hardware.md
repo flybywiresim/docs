@@ -43,6 +43,14 @@ To build your own profile, you can use our Flight-Deck API Documentation: [Fligh
 
 ![Thrustmaster TCA Quadrant Add-on Airbus Edition](../assets/api-guide/thrustmaster-tca-quadrant-add-on.png "Thrustmaster TCA Quadrant Add-on Airbus Edition"){loading=lazy}
 
+### Thrustmaster T.Flight Rudder Pedals
+
+![thrustmaster-tca-quadrant.png](../assets/api-guide/thrustmaster-t-flight-rudder.png){loading=lazy}
+
+!!! tip ""
+    If you experience problems like brakes getting stuck while taxiing or twitching rudders, make sure that your pedals 
+    are set up correctly. [T.Flight Rudder Pedals Settings](../support/detail-pages/rudder.md)
+
 ### Elgato Stream Deck
 
 ![Elgato Stream Deck](../assets/api-guide/stream-deck.png "Elgato Stream Deck"){loading=lazy}
