@@ -1,6 +1,6 @@
-# Discord Bot
+# Discord Bot Overview
 
-This page details the available bot commands on the FlyByWire Simulations Discord server custom bot. 
+This page details the available bot commands for the FlyByWire Simulations Discord server custom bot **(Version 2)**.
 
 !!! warning "Discord Bot Version 3"
     We are releasing a new version of the Discord bot. This version (3) will be released concurrently with the current state of our Discord Bot. The new version will have a new set of commands and features moving forward. 
@@ -26,6 +26,8 @@ For information on how to contribute to bot development, visit the Discord bot r
 
     -> :fontawesome-brands-github:{: .github } [Repository](https://github.com/flybywiresim/discord-bot)
 
+    -> [Jump to Commands](#bot-commands)
+
 - **Version 3 Discord Bot**
 
     ---
@@ -34,14 +36,18 @@ For information on how to contribute to bot development, visit the Discord bot r
 
     -> :fontawesome-brands-github:{: .github } [Repository](https://github.com/flybywiresim/discord-bot-utils)
 
-- **Sticky Discord Bot**
+    -> [Visit Commands and Changelog Page](discord-bot-utils.md)
 
-    ---
+  - **Sticky Discord Bot**
 
-    Our own implementation of a "Sticky" bot for Discord.
+      ---
 
-    -> :fontawesome-brands-github:{: .github } [Repository](https://github.com/flybywiresim/discord-bot-sticky)
+      Our own implementation of a "Sticky" bot for Discord.
 
+      -> :fontawesome-brands-github:{: .github } [Repository](https://github.com/flybywiresim/discord-bot-sticky)
+
+      -> [Visit Commands and Changelog Page](discord-bot-sticky.md)
+  
 </div>
 
 ## Bot Commands
