@@ -49,8 +49,6 @@ For information on how to contribute to bot development, visit the Discord bot r
 
 ## Bot Commands
 
-Command documentation table coming soon.
-
 {{ external_markdown('https://assets.bwilliams.co.uk/commands_table.md', '') }}
 
 ## Changelog
