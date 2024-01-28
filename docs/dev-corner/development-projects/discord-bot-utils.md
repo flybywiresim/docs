@@ -49,7 +49,9 @@ For information on how to contribute to bot development, visit the Discord bot r
 
 ## Bot Commands
 
-{{ external_markdown('https://assets.bwilliams.co.uk/commands_table.md', '') }}
+The following commands utilize the ++slash++ prefix.
+
+{{ external_markdown('https://assets.discord.flybywirecdn.com/utils/commands_table.md', '') }}
 
 ## Changelog
 
