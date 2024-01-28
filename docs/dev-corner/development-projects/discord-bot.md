@@ -52,14 +52,26 @@ For information on how to contribute to bot development, visit the Discord bot r
 
 ## Bot Commands
 
+!!! note ""
+    We have moved most functionality to Version 3 of our new Discord Bot.
+
+The following commands still utilize the ++period++ prefix.
+
+### General
+
+{{ external_markdown('https://raw.githubusercontent.com/flybywiresim/discord-bot/master/.github/command-docs.md', '### General') }}
+
+### Aircraft
+
+{{ external_markdown('https://raw.githubusercontent.com/flybywiresim/discord-bot/master/.github/command-docs.md', '### Aircraft') }}
+
 ### Support
 
-!!! note ""
-    We have moved most functionality to Version 3 of our new Discord Bot. 
-
-We are using the following commands in our **#a32nx-support** channel on Discord utilizing the ++period++ prefix.
-
 {{ external_markdown('https://raw.githubusercontent.com/flybywiresim/discord-bot/master/.github/command-docs.md', '### Support') }}
+
+### Memes
+
+{{ external_markdown('https://raw.githubusercontent.com/flybywiresim/discord-bot/master/.github/command-docs.md', '### Memes') }}
 
 ## Changelog
 
