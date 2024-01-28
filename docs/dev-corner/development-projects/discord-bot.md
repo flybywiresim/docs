@@ -61,8 +61,6 @@ We are using the following commands in our **#a32nx-support** channel on Discord
 
 {{ external_markdown('https://raw.githubusercontent.com/flybywiresim/discord-bot/master/.github/command-docs.md', '### Support') }}
 
-{{ external_markdown('https://raw.githubusercontent.com/flybywiresim/discord-bot/master/.github/command-docs.md', '### Support') }}
-
 ## Changelog
 
 {{ external_markdown('https://raw.githubusercontent.com/flybywiresim/discord-bot/master/.github/CHANGELOG.md', '') }}
