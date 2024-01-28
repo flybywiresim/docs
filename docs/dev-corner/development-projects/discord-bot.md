@@ -52,7 +52,16 @@ For information on how to contribute to bot development, visit the Discord bot r
 
 ## Bot Commands
 
-{{ external_markdown('https://raw.githubusercontent.com/flybywiresim/discord-bot/master/.github/command-docs.md', '') }}
+### Support
+
+!!! note ""
+    We have moved most functionality to Version 3 of our new Discord Bot. 
+
+We are using the following commands in our **#a32nx-support** channel on Discord utilizing the ++period++ prefix.
+
+{{ external_markdown('https://raw.githubusercontent.com/flybywiresim/discord-bot/master/.github/command-docs.md', '### Support') }}
+
+{{ external_markdown('https://raw.githubusercontent.com/flybywiresim/discord-bot/master/.github/command-docs.md', '### Support') }}
 
 ## Changelog
 
