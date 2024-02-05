@@ -157,11 +157,11 @@ DATA includes the pages below:
 
 ^^COST INDEX^^
 
-![ofp1](../assets/beginner-guide/mcdu/ofp1.png){loading=lazy}
+![ofp1](../assets/beginner-guide/mcdu/ofp1.jpg){loading=lazy}
 
 The cost index can be found in the image above.
 
-* Using the keypad, type in `44`
+* Using the keypad, type in `10`
 * Press LSK5L.
 
 !!! tip "Wind Requests"
@@ -178,14 +178,14 @@ The cost index can be found in the image above.
 
 ^^CRZ FL/TEMP^^
 
-![ofp2](../assets/beginner-guide/mcdu/ofp2.png){loading=lazy}
+![ofp2](../assets/beginner-guide/mcdu/ofp2.jpg){loading=lazy}
 
-Input the desired cruise flight level in this field. On our OFP, this is listed as `0220` or `FL220`.
+Input the desired cruise flight level in this field. On our OFP, this is listed as `0190` or `FL190`.
 
-* Using the keypad, type in `220`
+* Using the keypad, type in `190`
 * Press LSK6L
 
-This will input FL220 and the temperature as well.
+This will input FL190 and the temperature as well.
 
 
 ### **^^F^^**LIGHT PLAN
@@ -197,9 +197,9 @@ Our route for this flight can be found on the 2nd page of the OFP
 !!! info "Routing Disclaimer"
     Note that waypoints, STARs, and SIDs may be called differently due to different nav-databases or different AIRAC cycles between simBrief and the simulator.
 
-![ofp3](../assets/beginner-guide/mcdu/ofp3.png){loading=lazy}
+![ofp3](../assets/beginner-guide/mcdu/ofp3.jpg){loading=lazy}
 
-`EGFF/30 BCN1A BCN N864 OKTEM OKTEM1M EGCC/23R`
+`EGFF/30 BCN1A BCN P69 DIZIM N864 MONTY AXCIS1M EGCC/23R`
 
 ^^Inputting a SID^^
 
@@ -232,8 +232,8 @@ Our flight plan should now have the associated waypoints for the `BCN1A` SID. We
 
 * Press the LSK that matches the location of `BCN` on the MCDU screen.
 * Select `AIRWAYS` using LSK5R.
-* Using the keypad, type in `N864` *(the airway)* and press LSK1L.
-* Using the keypad, type in `OKTEM` *(waypoint)* and press LSK1R.
+* Using the keypad, type in `P69` *(the airway)* and press LSK1L.
+* Using the keypad, type in `DIZIM` *(waypoint)* and press LSK1R.
     * Remember: Airways are on the left and waypoints are on the right.
 
 ![mcdu10](../assets/beginner-guide/mcdu/mcdu10.png){loading=lazy}
@@ -248,17 +248,17 @@ Our flight plan should now have the associated waypoints for the `BCN1A` SID. We
     Below is the current flight plan we are utilizing:
 
     ```title="Current Sample Flight Plan"
-    EGFF/30 BCN1A BCN N864 OKTEM OKTEM1M EGCC/23R
+    EGFF/30 BCN1A BCN P69 DIZIM N864 MONTY AXCIS1M EGCC/23R
     ```
 
     Let's imagine for this example that there was no airway between `BCN` and `OKTEM`. The flight plan would look like the following:
 
     ```title="Example NO AIRWAY Flight Plan"
-    EGFF/30 BCN1A BCN DCT OKTEM OKTEM1M EGCC/23R
+    EGFF/30 BCN1A BCN DCT DIZIM DCT MONTY AXCIS1M EGCC/23R
     ```
 
     !!! note ""
-        The airway `N864` was replaced with `DCT` indicating from waypoint `BCN` proceed direct to `OKTEM`.
+        The airwayS `P69` and `N864` was replaced with `DCT` indicating from waypoint `BCN` proceed direct to `DIZIM` and after that proceed direct to `MONTY`.
 
     When you encounter this type of routing, there are a couple of ways to input this leg without the use of the airways page on the MCDU.
 
@@ -269,12 +269,12 @@ Our flight plan should now have the associated waypoints for the `BCN1A` SID. We
 
         ![lat-rev-fpln.png](../assets/beginner-guide/mcdu/mcdu-latrev.png){loading=lazy width=50%}
 
-    - Type in `OKTEM` so it's visible in the scratchpad.
-    - Use `LSK3R` to enter `OKTEM` as the next waypoint on your flight plan.
+    - Type in `DIZIM` so it's visible in the scratchpad.
+    - Use `LSK3R` to enter `DIZIM` as the next waypoint on your flight plan.
 
 ^^Planning the Arrival^^
 
-For the purposes of this guide, we will pre-plan our arrival into EGCC via the `OKTEM1M` STAR into 23R.
+For the purposes of this guide, we will pre-plan our arrival into EGCC via the `AXCIS1M` STAR into 23R.
 
 !!! info "STAR"
     Standard Terminal Arrival Route
@@ -289,7 +289,7 @@ Find `EGCC` in green in the flight plan OR select `EGCC` in white under `DEST` u
     * We will be shown the approaches available, designated by `Type` `Rwy`.
     * For this guide, we will shoot for an ILS to keep it simple.
 * Use the vertical slew keys to find `ILS23R` and select it using the corresponding LSK.
-* Again, use the vertical slew keys to find the STAR for this flight `OKTEM1M` and select it using the corresponding LSK.
+* Again, use the vertical slew keys to find the STAR for this flight `AXCIS1M` and select it using the corresponding LSK.
 * We won't have any via for this flight. Select `NO VIAS` using LSK2L. On the following page we can choose transitions if available, but for this flight we don't.
 * Insert this STAR into the flight plan using LSK6R.
 
