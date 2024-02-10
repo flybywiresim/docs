@@ -144,7 +144,7 @@ DATA includes the pages below:
 
 ^^FROM/TO Field^^
 
-  * Using the keypad, type in `EGFF/EGCC`
+  * Using the keypad, type in `EDDM/EDDF`
   * Once this is in the scratch pad, press LSK1R.
   * This following screen would show "company routes". Since there are none stored, select `Return` using LSK6L.
 
@@ -182,10 +182,10 @@ The cost index can be found in the image above.
 
 Input the desired cruise flight level in this field. On our OFP, this is listed as `0190` or `FL190`.
 
-* Using the keypad, type in `190`
+* Using the keypad, type in `240`
 * Press LSK6L
 
-This will input FL190 and the temperature as well.
+This will input FL240 and the temperature as well.
 
 
 ### **^^F^^**LIGHT PLAN
@@ -212,29 +212,31 @@ Our route for this flight can be found on the 2nd page of the OFP
 
 To program the Standard Instrument Departure (SID):
 
-* Press LSK1L or EGFF (the departure airport)
+* Press LSK1L or EDDM (the departure airport)
 * Select `DEPARTURE` shown next to LSK1L
 * Select the runway we are departing from. In this case `30` using LSK3L
-* On the list of SIDs select the `BCN1A` departure
+* On the list of SIDs select the `GIVMI6Q` departure
 
-The MCDU should now show at the top of the screen in yellow what is selected for our departure from EGFF.
+The MCDU should now show at the top of the screen in yellow what is selected for our departure from EDDM.
 
 ![mcdu8](../assets/beginner-guide/mcdu/mcdu8.png){loading=lazy}
 
 * Press `INSERT` using LSK6R to program this into the flight plan.
 
-Our flight plan should now have the associated waypoints for the `BCN1A` SID. We can scroll through the flight plan using the vertical slew keys. The SID terminates at `BCN` and this is where we can begin to fill out the rest of the flight plan.
+Our flight plan should now have the associated waypoints for the `GIVMI6Q` SID. We can scroll through the flight plan using the vertical slew keys. The SID terminates at `GIVMI` 
+and this is where we can begin to fill out the rest of the flight plan.
 
-!!! info "BCN1A ILS Frequency"
+!!! info "GIVMI6Q ILS Frequency"
     When selecting a departure SID that pairs with a LOC/ILS frequency, the respective frequency will be autopopulated in RADNAV provided it is available from the navdata.
 
 ^^Enroute Flight Plan^^
 
-* Press the LSK that matches the location of `BCN` on the MCDU screen.
+* Press the LSK that matches the location of `GIVMI` on the MCDU screen.
 * Select `AIRWAYS` using LSK5R.
-* Using the keypad, type in `P69` *(the airway)* and press LSK1L.
-* Using the keypad, type in `DIZIM` *(waypoint)* and press LSK1R.
+* Using the keypad, type in `Y101` *(the airway)* and press LSK1L.
+* Using the keypad, type in `ERNAS` *(waypoint)* and press LSK1R.
     * Remember: Airways are on the left and waypoints are on the right.
+* Continue inputting the airway `T161` and following waypoint `DEBHI`.
 
 ![mcdu10](../assets/beginner-guide/mcdu/mcdu10.png){loading=lazy}
 
@@ -248,49 +250,50 @@ Our flight plan should now have the associated waypoints for the `BCN1A` SID. We
     Below is the current flight plan we are utilizing:
 
     ```title="Current Sample Flight Plan"
-    EGFF/30 BCN1A BCN P69 DIZIM N864 MONTY AXCIS1M EGCC/23R
+    EDDM/08L GIVMI6Q GIVMI Y101 ERNAS T161 DEBHI EDDF/07L
     ```
 
     Let's imagine for this example that there was no airway between `BCN` and `OKTEM`. The flight plan would look like the following:
 
     ```title="Example NO AIRWAY Flight Plan"
-    EGFF/30 BCN1A BCN DCT DIZIM DCT MONTY AXCIS1M EGCC/23R
+    EDDM/08L GIVMI6Q GIVMI DCT ERNAS DCT DEBHI EDDF/07L
     ```
 
     !!! note ""
-        The airwayS `P69` and `N864` was replaced with `DCT` indicating from waypoint `BCN` proceed direct to `DIZIM` and after that proceed direct to `MONTY`.
+        The airwayS `Y101` and `T161` was replaced with `DCT` indicating from waypoint `GIVMI` proceed direct to `ERNAS` and after that proceed direct to `DEBHI`.
 
     When you encounter this type of routing, there are a couple of ways to input this leg without the use of the airways page on the MCDU.
 
-    One of the easiest ways is utilizing the lateral revision page. To do this, simply find the starting waypoint on your F-PLN page, which in this case is `BCN`.
+    One of the easiest ways is utilizing the lateral revision page. To do this, simply find the starting waypoint on your F-PLN page, which in this case is `GIVMI`.
 
     - Use the relevant LSK to select it. 
     - You will then be on the following page:
 
         ![lat-rev-fpln.png](../assets/beginner-guide/mcdu/mcdu-latrev.png){loading=lazy width=50%}
 
-    - Type in `DIZIM` so it's visible in the scratchpad.
-    - Use `LSK3R` to enter `DIZIM` as the next waypoint on your flight plan.
+    - Type in `ERNAS` so it's visible in the scratchpad.
+    - Use `LSK3R` to enter `ERNAS` as the next waypoint on your flight plan.
 
 ^^Planning the Arrival^^
 
-For the purposes of this guide, we will pre-plan our arrival into EGCC via the `AXCIS1M` STAR into 23R.
+For the purposes of this guide, we will pre-plan our arrival into EDDF via the `DEBHI1C` STAR into 07L.
 
 !!! info "STAR"
     Standard Terminal Arrival Route
 
-    Similar to the SID, these are procedures that are defined and published that take a flight from the last point in a route *(in our case `MONTY`)* to the first point in the approach or the initial approach fix (IAF).
+    Similar to the SID, these are procedures that are defined and published that take a flight from the last point in a route *(in our case `DEBHI`)* to the first point in the approach or the initial approach fix (IAF).
 
     Also see: [SIDS and STARS](../airliner-flying-guide/navigation.md#sids-and-stars)
 
-Find `EGCC` in green in the flight plan OR select `EGCC` in white under `DEST` using the corresponding LSK.
+Find `EDDF` in green in the flight plan OR select `EDFF` in white under `DEST` using the corresponding LSK.
 
 * Select `ARRIVAL` using LSK1R
     * We will be shown the approaches available, designated by `Type` `Rwy`.
     * For this guide, we will shoot for an ILS to keep it simple.
-* Use the vertical slew keys to find `ILS23R` and select it using the corresponding LSK.
-* Again, use the vertical slew keys to find the STAR for this flight `AXCIS1M` and select it using the corresponding LSK.
-* We won't have any via for this flight. Select `NO VIAS` using LSK2L. On the following page we can choose transitions if available, but for this flight we don't.
+* Use the vertical slew keys to find `ILS07LY` and select it using the corresponding LSK.
+  * A designator such as Y or Z may be present. This suffix is to distinguish in the navigation database a difference between approaches to the same runway. While similar in nature they may have different minimums, allowed equipment, or other differences.
+* Again, use the vertical slew keys to find the STAR for this flight `DEBHI1C` and select it using the corresponding LSK.
+* For the approach VIA Select `DF454` using the appropriate LSK. On the following page we can choose transitions if available, but for this flight we don't.
 * Insert this STAR into the flight plan using LSK6R.
 
 ![mcdu12](../assets/beginner-guide/mcdu/mcdu12.png){loading=lazy}
@@ -302,9 +305,11 @@ Verify the flight plan by using the vertical slew keys to scroll through it.
 
     The flight plan might contain so-called discontinuities. These are breaks in the flight plan and often separate two flight plan sections, like the SID and first in-route waypoint or the STAR and the APPR. They are also often inserted when the flight plan is modified.
 
-    Sometimes discontinuities are also part of a procedure to indicate that manual input is required (mostly clearance by ATC). The preceding legs are called MANUAL legs.
+    Sometimes discontinuities are also part of a procedure to indicate that manual input is required (mostly clearance by ATC). The preceding legs are called MANUAL legs.In this flight plan we have a discontinuity between the STAR and approach procedure as shown below.
 
-    See our detailed documentation for [Discontinuities](../advanced-guides/flight-planning/disco.md) to understand how to appropriately handle these when encountered on your F-PLN page. 
+    ![mcdu-discontinuity.png](../assets/beginner-guide/mcdu/mcdu-discontinuity.png){loading=lazy}
+
+    See our detailed documentation for [Discontinuities](../advanced-guides/flight-planning/disco.md){target=new} to understand how to appropriately handle these when encountered on your F-PLN page. 
     
     !!! warning ""
         Additionally, make note of this [Special Case](../advanced-guides/flight-planning/disco.md#special-case) on the discontinuity page.
@@ -327,26 +332,28 @@ If we would like to have additional navaids for the departure, we can input the 
 
 ^^VOR^^
 
-On this departure, we have the BCN VOR with a frequency of `117.45`
+The A32NX supports VOR autotuning when in range of a VOR before departure. You can verify this by checking the RADNAV page and seeing if the VOR frequency is already populated. You should verify the relevance of this VOR to your departure procedure and flight plan before takeoff.
 
-* Using the keypad, type in `117.45` and press LSK1L. This will autopopulate the identifier of the VOR when within range.
-* We can also set the desired course to track `031` and press LSK2L to input it.
+On this departure SID, we have routing instructions that rely on the Munich VOR `DMN` with a frequency of `116.0`
+
+* Using the keypad, type in `116.0` and press LSK1L. This will autopopulate the identifier of the VOR when within range.
+* We can also set the desired course to track `080` and press LSK2L to input it. (This is for a departure on runway 08L)
 
 ^^Departure ILS^^
 
 When selecting the SID earlier in the flight plan section, the A32NX should have autopopulated the ILS/LOC frequency. If it hasn't, we can manually insert it for centerline guidance on take off.
 
-Our departure runway is EGFF/30 (runway 30) which has a frequency of `110.7`. When inputting a frequency, and we are in range of the ILS, it will autopopulate the identifier and course. There is no need to fill these fields.
+Our departure runway is EDDM/08l (runway 08 left) which has a frequency of `109.50`. When inputting a frequency, and we are in range of the ILS, it will autopopulate the identifier and course. There is no need to fill these fields.
 
-* Using the keypad, type in `110.7` and press LSK3L to input it.
+* Using the keypad, type in `109.50` and press LSK3L to input it.
 
 ^^Arrival ILS^^
 
 With an ILS or LOC approach selected, the arrival ILS frequency should be automatically tuned correctly whenever the aircraft is at climb phase or greater and within 250 NM of the destination. **Ensure** that we verify the ILS frequency when we reach the arrival phase of the flight - see [Approach and Landing (ILS)](landing.md).
 
-Remember, our arrival airport/rwy is `EGCC/23R` with ILS23R having a frequency of `109.5`. When inputting a frequency, and we are in range of the ILS, it will autopopulate the identifier and course. There is no need to fill these fields.
+Remember, our arrival airport/rwy is `EDDF/07l` with ILS07l having a frequency of `110.30`. When inputting a frequency, and we are in range of the ILS, it will autopopulate the identifier and course. There is no need to fill these fields.
 
-* Using the keypad, type in `109.5` and press LSK3L to input it.
+* Using the keypad, type in `110.30` and press LSK3L to input it.
 
 ![mcdu15](../assets/beginner-guide/mcdu/mcdu15.png){loading=lazy}
 
@@ -390,9 +397,9 @@ Now we can add our fuel on board (FOB). The amount we input in this field can be
 
 ^^ECAM FOB^^
 
-Look at the upper ECAM and note the FOB indicated. Let's say that amount is `3091 kg`. When inputting the block fuel into the MCDU, it is referenced in "Tons" and we should round to the closest decimal point.
+Look at the upper ECAM and note the FOB indicated. Let's say that amount is `4631 kg`. When inputting the block fuel into the MCDU, it is referenced in "Tons" and we should round to the closest decimal point.
 
-* Using the keypad, type in `3.1` and press LSK2R.
+* Using the keypad, type in `4.7` and press LSK2R.
 
 ^^MCDU Planning^^
 
@@ -413,9 +420,9 @@ The `Block` field will be populated with a calculated fuel amount.
 
 ^^SimBrief OFP^^
 
-We can use the planned block fuel stated on the OFP, which in this case is `3091 kg`.
+We can use the planned block fuel stated on the OFP, which in this case is `4631 kg`.
 
-* Using the keypad, type in `3.1` and press LSK2R
+* Using the keypad, type in `4.7` and press LSK2R
 * We should load this amount of fuel via the EFB option.
 
 ![mcdu16](../assets/beginner-guide/mcdu/mcdu16.png){loading=lazy}
@@ -495,9 +502,9 @@ We can also choose to set a `FLEX TO TEMP` for the flight. The example we are us
 
     ==}
 
-Our SID chart mentions that the TRANS ALT for this departure is 6000ft.
+Our SID chart mentions that the TRANS ALT for this departure is 5000ft.
 
-* Using the keypad, type in `6000` and press LSK4L
+* Using the keypad, type in `5000` and press LSK4L
 
 The A32NX can calculate the V-Speeds automatically. To do this simply:
 
@@ -505,7 +512,7 @@ The A32NX can calculate the V-Speeds automatically. To do this simply:
 
 ![mcdu19](../assets/beginner-guide/mcdu/mcdu19.png){loading=lazy}
 
-* Press LSK1L again to have 130 inputted into the V1 speed.
+* Press LSK1L again to have 132 inputted into the V1 speed.
 * Repeat this procedure for VR and V2.
 
 The performance page should now look like this:
