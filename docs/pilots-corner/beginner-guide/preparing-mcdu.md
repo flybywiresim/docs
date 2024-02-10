@@ -503,14 +503,14 @@ The A32NX can calculate the V-Speeds automatically. To do this simply:
 
 * Press LSK1L to have the calculated V1 speed appear in the scratchpad.
 
-![mcdu19](../assets/beginner-guide/mcdu/mcdu19.png)
+![mcdu19](../assets/beginner-guide/mcdu/mcdu19.png){loading=lazy}
 
 * Press LSK1L again to have 130 inputted into the V1 speed.
 * Repeat this procedure for VR and V2.
 
 The performance page should now look like this:
 
-![mcdu20](../assets/beginner-guide/mcdu/mcdu20.png)
+![mcdu20](../assets/beginner-guide/mcdu/mcdu20.png){loading=lazy}
 
 ## Entering Squawk Code
 
