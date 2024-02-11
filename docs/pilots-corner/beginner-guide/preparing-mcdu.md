@@ -180,7 +180,7 @@ The cost index can be found in the image above.
 
 ![ofp2](../assets/beginner-guide/mcdu/ofp2.jpg){loading=lazy}
 
-Input the desired cruise flight level in this field. On our OFP, this is listed as `0190` or `FL190`.
+Input the desired cruise flight level in this field. On our OFP, this is listed as `0240` or `FL240`.
 
 * Using the keypad, type in `240`
 * Press LSK6L
@@ -199,7 +199,7 @@ Our route for this flight can be found on the 2nd page of the OFP
 
 ![ofp3](../assets/beginner-guide/mcdu/ofp3.jpg){loading=lazy}
 
-`EGFF/30 BCN1A BCN P69 DIZIM N864 MONTY AXCIS1M EGCC/23R`
+`EDDM/08L GIVMI6Q GIVMI Y101 ERNAS T161 DEBHI DEBHI1C EDDF/07L`
 
 ^^Inputting a SID^^
 
@@ -260,7 +260,7 @@ and this is where we can begin to fill out the rest of the flight plan.
     ```
 
     !!! note ""
-        The airwayS `Y101` and `T161` was replaced with `DCT` indicating from waypoint `GIVMI` proceed direct to `ERNAS` and after that proceed direct to `DEBHI`.
+        The airways `Y101` and `T161` was replaced with `DCT` indicating from waypoint `GIVMI` proceed direct to `ERNAS` and after that proceed direct to `DEBHI`.
 
     When you encounter this type of routing, there are a couple of ways to input this leg without the use of the airways page on the MCDU.
 
@@ -285,7 +285,7 @@ For the purposes of this guide, we will pre-plan our arrival into EDDF via the `
 
     Also see: [SIDS and STARS](../airliner-flying-guide/navigation.md#sids-and-stars)
 
-Find `EDDF` in green in the flight plan OR select `EDFF` in white under `DEST` using the corresponding LSK.
+Find `EDDF` in green in the flight plan OR select `EDDF` in white under `DEST` using the corresponding LSK.
 
 * Select `ARRIVAL` using LSK1R
     * We will be shown the approaches available, designated by `Type` `Rwy`.
@@ -336,14 +336,12 @@ The A32NX supports VOR autotuning when in range of a VOR before departure. You c
 
 On this departure SID, we have routing instructions that rely on the Munich VOR `DMN` with a frequency of `116.0`
 
-* Using the keypad, type in `116.0` and press LSK1L. This will autopopulate the identifier of the VOR when within range.
-* We can also set the desired course to track `080` and press LSK2L to input it. (This is for a departure on runway 08L)
 
 ^^Departure ILS^^
 
 When selecting the SID earlier in the flight plan section, the A32NX should have autopopulated the ILS/LOC frequency. If it hasn't, we can manually insert it for centerline guidance on take off.
 
-Our departure runway is EDDM/08l (runway 08 left) which has a frequency of `109.50`. When inputting a frequency, and we are in range of the ILS, it will autopopulate the identifier and course. There is no need to fill these fields.
+Our departure runway is EDDM/08L (runway 08 left) which has a frequency of `109.50`. When inputting a frequency, and we are in range of the ILS, it will auto populate the identifier and course. You could also enter the identifier `IMNE` and it would automatically fill in the frequency. You cannot enter both at the same time as this would result in a `FORMAT ERROR`. 
 
 * Using the keypad, type in `109.50` and press LSK3L to input it.
 
@@ -351,7 +349,7 @@ Our departure runway is EDDM/08l (runway 08 left) which has a frequency of `109.
 
 With an ILS or LOC approach selected, the arrival ILS frequency should be automatically tuned correctly whenever the aircraft is at climb phase or greater and within 250 NM of the destination. **Ensure** that we verify the ILS frequency when we reach the arrival phase of the flight - see [Approach and Landing (ILS)](landing.md).
 
-Remember, our arrival airport/rwy is `EDDF/07l` with ILS07l having a frequency of `110.30`. When inputting a frequency, and we are in range of the ILS, it will autopopulate the identifier and course. There is no need to fill these fields.
+Remember, our arrival airport/rwy is `EDDF/07L` with ILS07L having a frequency of `110.30`. When inputting a frequency, and we are in range of the ILS, it will auto populate the identifier and course. There is no need to fill these fields. You could also enter the identifier `IFEL` and it would automatically fill in the frequency. You cannot enter both at the same time as this would result in a `FORMAT ERROR`. 
 
 * Using the keypad, type in `110.30` and press LSK3L to input it.
 
