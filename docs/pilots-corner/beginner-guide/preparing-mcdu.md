@@ -255,7 +255,7 @@ and this is where we can begin to fill out the rest of the flight plan.
     EDDM/08L GIVMI6Q GIVMI Y101 ERNAS T161 DEBHI EDDF/07L
     ```
 
-    Let's imagine for this example that there was no airway between `BCN` and `OKTEM`. The flight plan would look like the following:
+    Let's imagine for this example that there was no airway between `GIVMI` and `ERNAS`, as well as between `ERNAS` and `DEBHI`. The flight plan would look like the following:
 
     ```title="Example NO AIRWAY Flight Plan"
     EDDM/08L GIVMI6Q GIVMI DCT ERNAS DCT DEBHI EDDF/07L
