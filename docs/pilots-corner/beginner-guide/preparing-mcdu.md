@@ -308,7 +308,10 @@ Verify the flight plan by using the vertical slew keys to scroll through it.
 
     The flight plan might contain so-called discontinuities. These are breaks in the flight plan and often separate two flight plan sections, like the SID and first in-route waypoint or the STAR and the APPR. They are also often inserted when the flight plan is modified.
 
-    Sometimes discontinuities are also part of a procedure to indicate that manual input is required (mostly clearance by ATC). The preceding legs are called MANUAL legs. In this flight plan we have a discontinuity between the STAR and approach procedure as shown below.
+    Sometimes discontinuities are also part of a procedure to indicate that manual input is required (mostly clearance by ATC). The preceding legs are called MANUAL legs.  These cannot and should not be deleted. See below link on how to 
+    handle these. 
+    
+    In this flight plan we have a discontinuity between the STAR and approach procedure as shown below.
 
     ![mcdu-discontinuity.png](../assets/beginner-guide/mcdu/mcdu-discontinuity.png){loading=lazy}
 
