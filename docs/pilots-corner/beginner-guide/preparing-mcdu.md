@@ -190,7 +190,7 @@ This will input FL240 and the temperature as well.
 
 ### **^^F^^**LIGHT PLAN
 
-Upon loading the flight plan page, there will be three entries. Departure airport, `(DECEL)`, and arrival airport.
+Upon loading the flight plan page, there will be three entries. Departure airport, a discontinuity and arrival airport.
 
 Our route for this flight can be found on the 2nd page of the OFP
 
@@ -214,14 +214,14 @@ To program the Standard Instrument Departure (SID):
 
 * Press LSK1L or EDDM (the departure airport)
 * Select `DEPARTURE` shown next to LSK1L
-* Select the runway we are departing from. In this case `30` using LSK3L
+* Select the runway we are departing from. In this case `08L` using LSK2L
 * On the list of SIDs select the `GIVMI6Q` departure
 
 The MCDU should now show at the top of the screen in yellow what is selected for our departure from EDDM.
 
 ![mcdu8](../assets/beginner-guide/mcdu/mcdu8.png){loading=lazy}
 
-* Press `INSERT` using LSK6R to program this into the flight plan.
+* Press `INSERT*` using LSK6R to program this into the flight plan.
 
 Our flight plan should now have the associated waypoints for the `GIVMI6Q` SID. We can scroll through the flight plan using the vertical slew keys. The SID terminates at `GIVMI` 
 and this is where we can begin to fill out the rest of the flight plan.
@@ -239,6 +239,8 @@ and this is where we can begin to fill out the rest of the flight plan.
 * Continue inputting the airway `T161` and following waypoint `DEBHI`.
 
 ![mcdu10](../assets/beginner-guide/mcdu/mcdu10.png){loading=lazy}
+
+* Press `INSERT*` using LSK6R to program this into the flight plan.
 
 #### DCT Before a Waypoint
 
@@ -281,7 +283,8 @@ For the purposes of this guide, we will pre-plan our arrival into EDDF via the `
 !!! info "STAR"
     Standard Terminal Arrival Route
 
-    Similar to the SID, these are procedures that are defined and published that take a flight from the last point in a route *(in our case `DEBHI`)* to the first point in the approach or the initial approach fix (IAF).
+    Similar to the SID, these are procedures that are defined and published that take a flight from
+    the last point in a route *(in our case `DEBHI`)* to the first point in the approach or the initial approach fix (IAF).
 
     Also see: [SIDS and STARS](../airliner-flying-guide/navigation.md#sids-and-stars)
 
@@ -294,7 +297,7 @@ Find `EDDF` in green in the flight plan OR select `EDDF` in white under `DEST` u
   * A designator such as Y or Z may be present. This suffix is to distinguish in the navigation database a difference between approaches to the same runway. While similar in nature they may have different minimums, allowed equipment, or other differences.
 * Again, use the vertical slew keys to find the STAR for this flight `DEBHI1C` and select it using the corresponding LSK.
 * For the approach VIA Select `DF454` using the appropriate LSK. On the following page we can choose transitions if available, but for this flight we don't.
-* Insert this STAR into the flight plan using LSK6R.
+* Press `INSERT*` using LSK6R to program this into the flight plan.
 
 ![mcdu12](../assets/beginner-guide/mcdu/mcdu12.png){loading=lazy}
 
@@ -305,7 +308,7 @@ Verify the flight plan by using the vertical slew keys to scroll through it.
 
     The flight plan might contain so-called discontinuities. These are breaks in the flight plan and often separate two flight plan sections, like the SID and first in-route waypoint or the STAR and the APPR. They are also often inserted when the flight plan is modified.
 
-    Sometimes discontinuities are also part of a procedure to indicate that manual input is required (mostly clearance by ATC). The preceding legs are called MANUAL legs.In this flight plan we have a discontinuity between the STAR and approach procedure as shown below.
+    Sometimes discontinuities are also part of a procedure to indicate that manual input is required (mostly clearance by ATC). The preceding legs are called MANUAL legs. In this flight plan we have a discontinuity between the STAR and approach procedure as shown below.
 
     ![mcdu-discontinuity.png](../assets/beginner-guide/mcdu/mcdu-discontinuity.png){loading=lazy}
 
@@ -369,8 +372,6 @@ On this page, we can input our zero fuel weight (ZFW) and zero fuel weight cente
     Fuel and payload have to be set in the aircraft (see link below) and passenger boarding has to be **complete or in progress** for the ZFW/ZFWCG values to be correct. The 
     "planned" payload values are used for the calculation if boarding has not been completed.
 
-    *Ideally you no longer have to wait for boarding to be completed to finalize preparations on the INIT FUEL PRED page.*
-
     Gross Weight (GW) value on the ECAM will appear only when certain conditions are satisfied:
 
     - This page (INIT FUEL PRED) has a ZFW/ZFWCG value. **Reminder:** After engines are started, INIT FUEL PRED changes to the FUEL PRED page.
@@ -380,7 +381,7 @@ On this page, we can input our zero fuel weight (ZFW) and zero fuel weight cente
 
 The A32NX can autopopulate this information.
 
-* Press LSK1R to load in the calculated ZFW/ZFWCG into the scratch pad at the bottom of the MCDU.
+* Press LSK1R to load in the calculated ZFW/ZFWCG into the scratch pad at the bottom of the MCDU (after boarding has been started in the flyPad).
 * Press LSK1R a second time to input the above calculation into the MCDU. (The empty orange boxes should now be filled in by the scratch pad entry).
 
 Now we can add our fuel on board (FOB). The amount we input in this field can be done in one of three ways:
@@ -469,8 +470,6 @@ For this flight, we will be taking off with a `1+F` flaps configuration.
     - CG to THS can be found in the downloable FBW checklist in our [Standard Operating Procedures](../SOP.md#normal-procedures) resources page.
     - The CG/THS markings on the trim wheel can be used to validate this.
 
-    !!! warning "GW CG in the flyPad payload page and correct CG trim values on the trim wheel in the cockpit are not yet implemented in the stable release version"
-
     Make sure to update this value or set the correct trim once your engines have started.
 
     ---
@@ -481,7 +480,10 @@ For this flight, we will be taking off with a `1+F` flaps configuration.
 
     --}
 
-We can also choose to set a `FLEX TO TEMP` for the flight. The example we are using today is 60 degrees. (This will normally be calculated via a pilot's company EFB or other tools).
+We can also choose to set a `FLEX TO TEMP` for the flight. The example we are using today is 60 degrees. 
+This will normally be calculated via a pilot's company EFB or other tools, but for the sake of this guide, we will use the value of 60.
+
+Read the following tip for more information on FLEX temp.
 
 * Using the keypad, type in `60` and press LSK4R
 
@@ -494,7 +496,7 @@ We can also choose to set a `FLEX TO TEMP` for the flight. The example we are us
 
     {==
 
-    Flex temps are above ISA+29 °C (44 °C at sea level) and above current temp, but no higher than ISA+59 °C (74 °C at sea level). Usable Flex temps at sea level are from 45 °C (or current OAT if it is higher) to 74 °C.
+    Flex temps are above ISA+29°C (44°C at sea level) and above current temp, but no higher than ISA+59°C (74°C at sea level). Usable Flex temps at sea level are from 45 °C (or current OAT if it is higher) to 74 °C.
 
     Additionally, a decent rule of thumb for simulation purposes is to use a lower number if heavy or on a short runway and higher for the opposite.
 
@@ -504,29 +506,35 @@ Our SID chart mentions that the TRANS ALT for this departure is 5000ft.
 
 * Using the keypad, type in `5000` and press LSK4L
 
-The A32NX can calculate the V-Speeds automatically. To do this simply:
+#### V-Speeds
+
+V-Speeds are normally calculated by a company EFB or other tools. Unfortunately, A320neo performance
+data for V-Speeds alongside other various tools are not publicly available and are guarded by Airbus. 
+Therefore, the A32NX has a built-in simplified V-Speed calculator, which can be used by simply 
+clicking the LSK next to the V-Speed you want to calculate.
 
 * Press LSK1L to have the calculated V1 speed appear in the scratchpad.
 
 ![mcdu19](../assets/beginner-guide/mcdu/mcdu19.png){loading=lazy}
 
-* Press LSK1L again to have 132 inputted into the V1 speed.
+* Press LSK1L again to have the value inputted into the V1 speed. The value you get can be different 
+  from the one in the image as it depends on the weight of the aircraft.
 * Repeat this procedure for VR and V2.
 
-The performance page should now look like this:
+The performance page should now look similar to this:
 
 ![mcdu20](../assets/beginner-guide/mcdu/mcdu20.png){loading=lazy}
 
 ## Entering Squawk Code
 
-During your MCDU preparation or before departing from the stand you should have obtained your IFR clearance. As part of this action you will be given a transponder/squawk code 
+During your MCDU preparation or before departing from the stand, you should have obtained your IFR clearance. As part of this action, you will be given a transponder/squawk code 
 for your flight. This allows ATC to identify your aircraft on their radar.
 
 To enter your assigned code find the ATC/TCAS Panel on the bottom right portion of the lower pedestal. It will look like this:
 
 ![ATC-TCAS.png](../assets/beginner-guide/takeoff-climb-cruise/ATC-TCAS.png){loading=lazy}
 
-- Ensure that the `XPDR` switch is in the `AUTO` or `ON` position.
+- Ensure that the `XPDR` switch is on STDBY for now (will be set to `AUTO` or `ON` shortly before take-off)
 - To clear the current code, **double press** the `CLR` button.
 - Enter your assigned code using the keypad.
 
