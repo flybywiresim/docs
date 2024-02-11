@@ -262,7 +262,7 @@ and this is where we can begin to fill out the rest of the flight plan.
     ```
 
     !!! note ""
-        The airways `Y101` and `T161` was replaced with `DCT` indicating from waypoint `GIVMI` proceed direct to `ERNAS` and after that proceed direct to `DEBHI`.
+        The airways `Y101` and `T161` were replaced with `DCT` indicating from waypoint `GIVMI` proceed direct to `ERNAS` and after that proceed direct to `DEBHI`.
 
     When you encounter this type of routing, there are a couple of ways to input this leg without the use of the airways page on the MCDU.
 
@@ -294,9 +294,9 @@ Find `EDDF` in green in the flight plan OR select `EDDF` in white under `DEST` u
     * We will be shown the approaches available, designated by `Type` `Rwy`.
     * For this guide, we will shoot for an ILS to keep it simple.
 * Use the vertical slew keys to find `ILS07LY` and select it using the corresponding LSK.
-  * A designator such as Y or Z may be present. This suffix is to distinguish in the navigation database a difference between approaches to the same runway. While similar in nature they may have different minimums, allowed equipment, or other differences.
+  * A designator such as Y or Z may be present. This suffix is to distinguish in the navigation database a difference between approaches to the same runway. While similar in nature, they may have different minimums, allowed equipment, or other differences.
 * Again, use the vertical slew keys to find the STAR for this flight `DEBHI1C` and select it using the corresponding LSK.
-* For the approach VIA Select `DF454` using the appropriate LSK. On the following page we can choose transitions if available, but for this flight we don't.
+* For the approach VIA, select `DF454`, using the appropriate LSK. On the following page, we can choose transitions, if available, but for this flight, we don't.
 * Press `INSERT*` using LSK6R to program this into the flight plan.
 
 ![mcdu12](../assets/beginner-guide/mcdu/mcdu12.png){loading=lazy}
@@ -337,14 +337,14 @@ If we would like to have additional navaids for the departure, we can input the 
 
 The A32NX supports VOR autotuning when in range of a VOR before departure. You can verify this by checking the RADNAV page and seeing if the VOR frequency is already populated. You should verify the relevance of this VOR to your departure procedure and flight plan before takeoff.
 
-On this departure SID, we have routing instructions that rely on the Munich VOR `DMN` with a frequency of `116.0`
+On this departure SID, we have routing instructions that rely on the Munich VOR `DMN` with a frequency of `116.0`.
 
 
 ^^Departure ILS^^
 
 When selecting the SID earlier in the flight plan section, the A32NX should have autopopulated the ILS/LOC frequency. If it hasn't, we can manually insert it for centerline guidance on take off.
 
-Our departure runway is EDDM/08L (runway 08 left) which has a frequency of `109.50`. When inputting a frequency, and we are in range of the ILS, it will auto populate the identifier and course. You could also enter the identifier `IMNE` and it would automatically fill in the frequency. You cannot enter both at the same time as this would result in a `FORMAT ERROR`. 
+Our departure runway is EDDM/08L (runway 08 left), which has a frequency of `109.50`. When inputting a frequency, and we are in range of the ILS, it will autopopulate the identifier and course. You could also enter the identifier `IMNE` and it would automatically fill in the frequency. You cannot enter both at the same time, as this would result in a `FORMAT ERROR`. 
 
 * Using the keypad, type in `109.50` and press LSK3L to input it.
 
@@ -352,7 +352,7 @@ Our departure runway is EDDM/08L (runway 08 left) which has a frequency of `109.
 
 With an ILS or LOC approach selected, the arrival ILS frequency should be automatically tuned correctly whenever the aircraft is at climb phase or greater and within 250 NM of the destination. **Ensure** that we verify the ILS frequency when we reach the arrival phase of the flight - see [Approach and Landing (ILS)](landing.md).
 
-Remember, our arrival airport/rwy is `EDDF/07L` with ILS07L having a frequency of `110.30`. When inputting a frequency, and we are in range of the ILS, it will auto populate the identifier and course. There is no need to fill these fields. You could also enter the identifier `IFEL` and it would automatically fill in the frequency. You cannot enter both at the same time as this would result in a `FORMAT ERROR`. 
+Remember, our arrival airport/rwy is `EDDF/07L` with ILS07L having a frequency of `110.30`. When inputting a frequency, and we are in range of the ILS, it will autopopulate the identifier and course. There is no need to fill these fields. You could also enter the identifier `IFEL` and it would automatically fill in the frequency. You cannot enter both at the same time, as this would result in a `FORMAT ERROR`. 
 
 * Using the keypad, type in `110.30` and press LSK3L to input it.
 
@@ -396,7 +396,7 @@ Now we can add our fuel on board (FOB). The amount we input in this field can be
 
 ^^ECAM FOB^^
 
-Look at the upper ECAM and note the FOB indicated. Let's say that amount is `4631 kg`. When inputting the block fuel into the MCDU, it is referenced in "Tons" and we should round to the closest decimal point.
+Look at the upper ECAM and note the FOB indicated. Let's say that amount is `4631 kg`. When inputting the block fuel into the MCDU, it is referenced in "tons", and we should round to the closest decimal point.
 
 * Using the keypad, type in `4.7` and press LSK2R.
 
@@ -502,7 +502,7 @@ Read the following tip for more information on FLEX temp.
 
     ==}
 
-Our SID chart mentions that the TRANS ALT for this departure is 5000ft.
+Our SID chart mentions that the TRANS ALT for this departure is 5000 ft.
 
 * Using the keypad, type in `5000` and press LSK4L
 
