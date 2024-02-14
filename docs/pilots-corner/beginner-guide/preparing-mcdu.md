@@ -311,7 +311,7 @@ Verify the flight plan by using the vertical slew keys to scroll through it.
     Sometimes discontinuities are also part of a procedure to indicate that manual input is required
     (mostly clearance by ATC). The preceding legs are called MANUAL legs. 
     
-    **Discontinuities after a MANUAL leg cannot and should not be deleted. See below link on how to 
+    **Discontinuities after a MANUAL leg can not and should not be deleted. See below link on how to 
     handle discontinuities.** 
     
     In this flight plan we have a discontinuity between the STAR and approach procedure as shown below.
