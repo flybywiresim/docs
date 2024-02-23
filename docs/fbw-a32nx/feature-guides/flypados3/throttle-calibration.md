@@ -278,6 +278,9 @@ Click on "Save & Apply".
 
 ## Controller Specifics
 
+!!! warning "Start with the Microsoft Flight Simulator Control Options first!"
+    Start with [this section](#microsoft-flight-simulator-control-options) before you go on with the controller specifics.
+
 ??? note "Thrustmaster TCA Throttle"
     ### Thrustmaster TCA Throttle
 
