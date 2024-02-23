@@ -281,6 +281,9 @@ Click on "Save & Apply".
 ??? note "Thrustmaster TCA Throttle"
     ### Thrustmaster TCA Throttle
 
+    !!! warning "Start with the Microsoft Flight Simulator Control Options first!"
+        Start with [this section](#microsoft-flight-simulator-control-options) before you go on with the controller specifics.
+
     #### Full Reverse
 
     - Make sure that your TCA throttles are all the way back to Full Reverse (pull the **Reverse Levers** up to do so).
