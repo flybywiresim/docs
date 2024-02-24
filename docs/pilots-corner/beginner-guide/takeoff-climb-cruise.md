@@ -112,13 +112,11 @@ __*The following steps from TAXI setup need to be done and checked:*__
 
 - Advise Cabin Crew. 
 
-    !!! block ""
+    ![Cabin notification](../assets/beginner-guide/takeoff-climb-cruise/CALLS-all.png "Cabin notification"){loading=lazy align=right width=45%}
 
-        ![Cabin notification](../assets/beginner-guide/landing/CALLS-all.png "Cabin notification"){loading=lazy align=right width=45%}
-
-        - The cabin crew will notify the pilots with a "Cabin Ready" button once they are ready for takeoff. 
-        - In the FBW A320, this is simulated by pressing the `CALLS ALL` button on the left of the overhead panel. 
-        - This will set the "Cabin Ready" status as shown in the ECAM.
+    - The cabin crew will notify the pilots with a "Cabin Ready" button once they are ready for takeoff. 
+    - In the FBW A320, this is simulated by pressing the `CALLS ALL` button on the left of the overhead panel. 
+    - This will set the "Cabin Ready" status as shown in the ECAM.
 
 - Check correct FLAPS setting (must be in line with PERF TAKE OFF page)
 
