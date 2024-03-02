@@ -78,9 +78,6 @@ The SEL indicator glows white on both RMPs when a transceiver normally associate
 
 This is used as a backup to select navigation aids and coursed via the RMP.
 
-!!! info ""
-    Currently, not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
-
 ### Radio navigation selection keys
 
 ![ACP Radio Navigation Keys](../../../assets/a32nx-briefing/pedestal/ACP-radio-nav-keys.png "ACP Radio Navigation Keys")
