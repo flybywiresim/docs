@@ -110,7 +110,7 @@ __*The following steps from TAXI setup need to be done and checked:*__
 
     ![CockpitTOReady](../assets/beginner-guide/takeoff-climb-cruise/CockpitTOReady.png "Typical cockpit configuration before entering runway"){loading=lazy}
 
-- Advise Cabin Crew. 
+- Advise Cabin Crew
 
     ![Cabin notification](../assets/beginner-guide/takeoff-climb-cruise/CALLS-all.png "Cabin notification"){loading=lazy align=right width=45%}
 
