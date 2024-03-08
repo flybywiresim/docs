@@ -50,13 +50,13 @@ For convenience, here is a copy of the
 
 ## Bandit / Racoon Mask
 The bandit/racoon mask is disabled by default.
-To enable the mask, in any color of your choice, use the `DECALS_BANDIT_WINDOW_ALBD.PNG.DDS` texture and fill the 
+To enable the mask, in any color of your choice, use the `DECALS_BANDIT_WINDOW_ALBD.PNG.DDS` texture (you need all three files incl. the Flags and json) and fill the 
 associated square referenced in the [UV map legend](assets/textures/uv-map-legend.png).
 
 Note that the UV legend is 1024x1024, for readability, while the real texture only is 64x64.
 
 ## Elevator Trim Scale
-The fill and outline color of the elevator trim scale, is configured in the `DECALS_BANDIT_WINDOW_ALBD.PNG.DDS` texture.
+The fill and outline color of the elevator trim scale, is configured in the `DECALS_BANDIT_WINDOW_ALBD.PNG.DDS` texture (you need all three files incl. the Flags and json).
 See the [UV map legend](assets/textures/uv-map-legend.png) for reference. 
 
 Note that the UV legend is 1024x1024, for readability, while the real texture only is 64x64.
