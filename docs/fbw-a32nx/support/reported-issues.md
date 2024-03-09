@@ -1,3 +1,8 @@
+---
+title: Reported Known Issues
+description: Explore reported issues and known bugs for the FlyByWire A32NX add-on for Microsoft Flight Simulator 2020.
+---
+
 # Reported Known Issues
 
 <link rel="stylesheet" href="/stylesheets/toc-tables.css">
