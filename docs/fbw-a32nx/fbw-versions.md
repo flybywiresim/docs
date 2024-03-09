@@ -1,6 +1,6 @@
 ---
 title: Versions and Features
-description: Explore the distinctions between Development, Stable, and Experimental versions of the FlyByWire A32NX add-on for Microsoft Flight Simulator 2020, along with their respective release notes.
+description: Differences and release notes about the Development, Stable, and Experimental versions of the FlyByWire A32NX.
 ---
 
 # Versions and Features

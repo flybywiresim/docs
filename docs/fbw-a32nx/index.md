@@ -1,6 +1,6 @@
 ---
 title: FlyByWire A32NX - Overview 
-description: Explore the documentation for the FlyByWire A32NX add-on for Microsoft Flight Simulator 2020. Access installation guides, settings configurations, support resources, and more.
+description: Documentation and ressources for the FlyByWire A32NX add-on for Microsoft Flight Simulator 2020.
 ---
 
 <link rel="stylesheet" href="../../stylesheets/toc-tables.css">

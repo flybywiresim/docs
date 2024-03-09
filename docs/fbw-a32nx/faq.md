@@ -1,6 +1,6 @@
 ---
 title: FlyByWire A32NX - Common Questions 
-description: Explore the frequently asked questions about the FlyByWire A32NX add-on for Microsoft Flight Simulator 2020, providing insights into its features, installation, and troubleshooting.
+description: Frequently Asked Questions about the the FlyByWire A32NX, detailing features, installation, and troubleshooting.
 ---
 
 ## General

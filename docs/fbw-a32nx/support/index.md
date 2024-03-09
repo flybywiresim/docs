@@ -1,6 +1,6 @@
 ---
 title: Support Guide
-description: Get assistance and support for the FlyByWire A32NX add-on for Microsoft Flight Simulator 2020. Find resources, troubleshooting guides, and community forums to help resolve any issues you may encounter.
+description: Receive support for the FlyByWire A32NX. Access resources, troubleshooting guides, and community forums for assistance.
 ---
 
 <link rel="stylesheet" href="../../stylesheets/toc-tables.css">

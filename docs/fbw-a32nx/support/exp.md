@@ -1,6 +1,6 @@
 ---
 title: Experimental Version
-description: Explore the Experimental version of the FlyByWire A32NX add-on for Microsoft Flight Simulator 2020.
+description: Information about the discontinued Experimental version of the FlyByWire A32NX add-on for Microsoft Flight Simulator 2020.
 ---
 
 # Experimental Version
