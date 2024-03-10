@@ -284,7 +284,7 @@ Settings for integration with various data and information sources.
     - Choose which weather data provider should be used (Aircraft only - does not change sim weather).
     - MeteoBlue is the weather service the sim uses as well.
 - TAF Source:
-    - Choose which Terminal Area Forecast (TAF) service should be used.   
+    - Choose, which Terminal Area Forecast (TAF) service should be used.   
 - Error Reporting
     - Enables error reports to be sent to Sentry.io to allow the FlyByWire team to easier find and resolve issues with the aircraft.
 - TELEX:
