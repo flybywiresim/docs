@@ -1,3 +1,8 @@
+---
+title: flyPadOS 3 EFB - Settings
+description: Learn how to configure various aspects of flyPadOS3 itself in the FlyByWire A32NX, from aircraft options to 3rd party settings.
+---
+
 <link rel="stylesheet" href="../../../../stylesheets/efb-interactive.css">
 
 # flyPad Settings

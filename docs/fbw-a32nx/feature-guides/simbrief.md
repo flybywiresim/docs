@@ -1,5 +1,6 @@
 ---
-title: SimBrief Integration
+title: SimBrief and Navigraph Integration
+description: Discover how to use SimBrief with the FlyByWire A32NX for realistic flight planning.
 ---
 
 <link rel="stylesheet" href="../../../stylesheets/toc-tables.css">

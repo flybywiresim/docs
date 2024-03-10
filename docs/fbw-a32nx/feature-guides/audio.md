@@ -1,3 +1,8 @@
+---
+title: Audio Configuration
+description: Explore FlyByWire A32NX's audio settings regarding flight crew interactions, passengers, engine and wind sounds for an authentic flight experience.
+---
+
 # Audio Configuration
 
 This page provides an overview of the various audio settings available in the A32NX and their respective functions.

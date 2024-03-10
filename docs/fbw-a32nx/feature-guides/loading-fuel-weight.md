@@ -1,3 +1,8 @@
+---
+title: Fuel and Weight
+description: Detailed overview of fueling, weight setup, and CG management in the A32NX, covering everything from passengers and cargo to fuel persistence.
+---
+
 # Fuel and Weight
 
 <link rel="stylesheet" href="/../../stylesheets/fuel-weight.css">

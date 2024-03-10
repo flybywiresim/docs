@@ -1,3 +1,8 @@
+---
+title: flyPadOS 3 EFB - Presets
+description: Discover how to automate setup procedures in the FlyByWire A32NX with a virtual co-pilot, covering everything from lighting to aircraft systems.
+---
+
 <link rel="stylesheet" href="../../../../stylesheets/efb-interactive.css">
 
 # Interior Lighting and Aircraft Presets

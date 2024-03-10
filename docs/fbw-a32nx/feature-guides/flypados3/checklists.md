@@ -1,3 +1,8 @@
+---
+title: flyPadOS 3 EFB - Checklists
+description: Discover how to configure and how to use the interactive checklists provided with flyPadOS 3 for the FlyByWire A32NX.
+---
+
 <link rel="stylesheet" href="../../../../stylesheets/efb-interactive.css">
 
 # Interactive Checklists

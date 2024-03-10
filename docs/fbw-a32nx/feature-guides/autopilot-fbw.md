@@ -1,3 +1,8 @@
+---
+title: Custom Autopilot / Fly-By-Wire A32NX
+description: Explore the advanced autopilot features of the FlyByWire A32NX, including detailed guides on setup, usage, and tips for a seamless flight experience.
+---
+ 
 # Custom Autopilot / Fly-By-Wire
 
 !!! warning "Important"

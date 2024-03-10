@@ -1,3 +1,8 @@
+---
+title: Free Text
+description: Learn how to use the free text feature to message other sim pilots flying the FlyByWire A32NX.
+---
+
 # Free Text
 
 This page explains in detail how to use the free text feature in the AOC Menu to message other sim pilots flying the A32NX. To begin using the free text feature, you first need to enable the TELEX feature through the flyPad - [Guide Here](flypados3/settings.md#usage_3).

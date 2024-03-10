@@ -1,3 +1,8 @@
+---
+title: FlyByWire A32NX API - Common Hardware Controllers and Setup
+description: A collection of common flight simulation hardware which can be used together with Microsoft Flight Simulator 2020 and the FlyByWire A32NX.
+---
+
 # Common Hardware Controllers and Setup
 
 This page shows you a collection of common flight simulation hardware which can be used together with Microsoft Flight Simulator and the FlyByWire A32NX.
