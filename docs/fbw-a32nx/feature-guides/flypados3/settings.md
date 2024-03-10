@@ -237,7 +237,7 @@ Settings for integrations with various 3rd party applications
 #### Navigraph Integration 
 
 - Navigraph Account Link
-    - Wizard to connect your Navigraph Account with the flypad.
+    - Setup wizard to connect your Navigraph Account with the flypad.
 - Override SimBrief User ID
     - Allows you use a custom Simbrief User ID if do not with to connect your Navigraph account or override the existing account link. 
 - Automatically Import SimBrief Data
