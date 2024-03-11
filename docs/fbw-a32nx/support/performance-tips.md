@@ -1,3 +1,8 @@
+---
+title: Performance Tips
+description: Learn how to maximize performance and minimize resource usage in Microsoft Flight Simulator 2020.
+---
+
 # Performance Tips
 ---
 

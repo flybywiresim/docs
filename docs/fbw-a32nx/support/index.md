@@ -1,3 +1,8 @@
+---
+title: Support Guide
+description: Receive support for the FlyByWire A32NX. Access resources, troubleshooting guides, and community forums for assistance.
+---
+
 <link rel="stylesheet" href="../../stylesheets/toc-tables.css">
 
 # Support Guide

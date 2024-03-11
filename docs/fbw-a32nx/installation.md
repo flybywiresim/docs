@@ -1,3 +1,8 @@
+---
+title: Installation Guide
+description: Learn how to install the FlyByWire A32NX add-on for Microsoft Flight Simulator 2020 with step-by-step guides.
+---
+
 # Installation Guide
 
 Please follow the information on this page to install the FlyByWire Simulations A32NX add-on for Microsoft Flight Simulator 2020

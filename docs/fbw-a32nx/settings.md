@@ -1,3 +1,8 @@
+---
+title: Recommended Settings
+description: Find the recommended settings to ensure a smooth flight with the FlyByWire A32NX add-on for Microsoft Flight Simulator 2020.
+---
+
 # Recommended Settings
 
 <style>

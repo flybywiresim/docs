@@ -1,3 +1,8 @@
+---
+title: Liveries Guide
+description: Discover how to access a variety of liveries to personalize your FlyByWire A32NX aircraft.
+---
+
 # Liveries Guide
 
 The best source for liveries for the FlyByWire A32NX is [FBW A32NX @ flightsim.to](https://flightsim.to/liveries/flybywire-a32nx/most-downloads/){target=new}.

@@ -1,3 +1,8 @@
+---
+title: Versions and Features
+description: Differences and release notes about the Development, Stable, and Experimental versions of the FlyByWire A32NX.
+---
+
 # Versions and Features
 
 ## Version Overview

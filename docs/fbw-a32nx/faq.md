@@ -1,3 +1,8 @@
+---
+title: FlyByWire A32NX - Common Questions 
+description: Frequently Asked Questions about the the FlyByWire A32NX, detailing features, installation, and troubleshooting.
+---
+
 ## General
 
 ???+ info "Q: Where is the plane in-sim?"
