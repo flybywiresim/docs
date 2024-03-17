@@ -1,6 +1,6 @@
 ---
 title: Flight Planning
-description: Discover how to load a flight plan into the FlyByWire A32NX across various methods, and seamlessly integrate it with your chosen ATC service.
+description: Discover how to load a flight plan into the FlyByWire A32NX across various methods, and integrate it with your chosen ATC service.
 ---
 
 # Flight Planning
