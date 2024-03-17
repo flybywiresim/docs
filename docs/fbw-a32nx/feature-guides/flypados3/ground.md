@@ -1,6 +1,6 @@
 ---
 title: flyPadOS 3 EFB - Ground
-description: A comprehensive guide on how to use the ground services provided by FlyPadOS3 in the FlyByWire A32NX.
+description: A comprehensive guide on how to use the ground services provided by flyPadOS 3 in the FlyByWire A32NX.
 ---
 
 <link rel="stylesheet" href="../../../../stylesheets/efb-interactive.css">

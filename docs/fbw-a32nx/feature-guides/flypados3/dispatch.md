@@ -1,6 +1,6 @@
 ---
 title: flyPadOS 3 EFB - Dispatch
-description: Information about the Dispatch menu provided by FlyPadOS3 in the FlyByWire A32NX.
+description: Information about the Dispatch menu provided by flyPadOS 3 in the FlyByWire A32NX.
 ---
 
 <link rel="stylesheet" href="../../../../stylesheets/efb-interactive.css">
