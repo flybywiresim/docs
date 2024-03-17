@@ -1,3 +1,8 @@
+---
+title: A32NX Beginner Guide - After Landing and Taxi to Gate
+description: Learn the correct procedures for after landing and vacating the runway with the FlyByWire A32NX.
+---
+
 # After Landing and Taxi to Gate
 
 This guide will explain the correct procedures after we have landed and vacated the runway and then taxiing to the designated gate.

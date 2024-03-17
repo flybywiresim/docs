@@ -1,3 +1,8 @@
+---
+title: A32NX Beginner Guide - Takeoff, Climb and Cruise
+description: Learn how to takeoff, climb and establish cruise altitude with the FlyByWire A32NX.
+---
+
 # Takeoff, Climb and Cruise
 
 This guide will explain the correct procedures to accomplish takeoff, climb and establish cruise altitude.
