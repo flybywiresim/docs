@@ -1,3 +1,8 @@
+---
+title: Wheel Chocks and GSE Safety Cones
+description: Ensure safe ground operations with wheel chocks and GSE Safety Cones around the FlyByWire A32NX.
+---
+
 # Wheel Chocks and GSE Safety Cones
 
 ## Overview

@@ -1,3 +1,8 @@
+---
+title: flyPadOS 3 EFB - Performance
+description: A comprehensive guide covering the descent and landing performance calculators provided by flyPadOS 3 in the FlyByWire A32NX.
+---
+
 <link rel="stylesheet" href="../../../../stylesheets/efb-interactive.css">
 
 # flyPad Performance

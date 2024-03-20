@@ -1,3 +1,8 @@
+---
+title: flyPadOS 3 EFB - Navigation & Charts
+description: Learn how to access and utilize charts on flyPadOS 3 with a Navigraph account or local files.
+---
+
 <link rel="stylesheet" href="../../../../stylesheets/efb-interactive.css">
 
 # flyPad Navigation & Charts

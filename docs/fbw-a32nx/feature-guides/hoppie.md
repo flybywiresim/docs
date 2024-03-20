@@ -1,3 +1,8 @@
+---
+title: Hoppie ACARS
+description: Learn how to use the Hoppie ACARS system in the FlyByWire A32NX to communicate with aircrafts, virtual airlines and virtual ATC stations.
+---
+
 # Hoppie ACARS
 
 !!! warning "Requires credentials with Hoppie service"

@@ -1,3 +1,8 @@
+---
+title: flyPadOS 3 EFB - Failures
+description: Discover how to simulate various system failures with flyPadOS 3 for the FlyByWire A32NX.
+---
+
 <link rel="stylesheet" href="../../../../stylesheets/efb-interactive.css">
 
 # flyPad Failures

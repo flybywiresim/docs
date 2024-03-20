@@ -1,3 +1,8 @@
+---
+title: Custom Air Conditioning System
+description: Explore the air conditioning system of the FlyByWire A32NX, understand how it works, and learn how to mitigate failures in its components.
+---
+
 # Custom Air Conditioning System
 
 ## System Description

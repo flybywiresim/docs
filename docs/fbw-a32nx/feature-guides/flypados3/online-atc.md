@@ -1,3 +1,8 @@
+---
+title: flyPadOS 3 EFB - Online ATC
+description: Discover how to use online ATC services such as VATSIM or IVAO with flyPadOS 3 for the FlyByWire A32NX.
+---
+
 <link rel="stylesheet" href="../../../../stylesheets/efb-interactive.css">
 
 # flyPad Online ATC

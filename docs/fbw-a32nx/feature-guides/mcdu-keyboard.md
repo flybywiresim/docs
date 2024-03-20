@@ -1,3 +1,8 @@
+---
+title: MCDU Keyboard
+description: Discover how to enhance your FlyByWire A32NX experience by using your keyboard for MCDU inputs, streamlining data entry and cockpit interactions.
+---
+
 # MCDU Keyboard
 
 ---

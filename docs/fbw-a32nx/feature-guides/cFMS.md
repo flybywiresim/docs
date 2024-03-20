@@ -1,3 +1,8 @@
+---
+title: Custom Custom Flight Management System
+description: Dive into the A32NX's custom FMS and stay informed with the latest known issues and troubleshooting tips.
+---
+
 <link rel="stylesheet" href="/../../stylesheets/reported-issues.css">
 
 # Custom Flight Management System

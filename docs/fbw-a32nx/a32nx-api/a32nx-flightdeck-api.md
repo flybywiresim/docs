@@ -1,4 +1,6 @@
 ---
+title: FlyByWire A32NX API - A32NX Flight Deck API
+description: Documentation for the FlyByWire A32NX FlightDeck API.
 hide:
     - navigation
 ---

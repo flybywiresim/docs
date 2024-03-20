@@ -1,3 +1,8 @@
+---
+title: Custom Camera Views
+description: Learn about the built-in pre-configured custom camera views for the FlyByWire A32NX, including a comprehensive overview and usage instructions.
+---
+
 # Custom Camera Views
 
 The FlyByWire A32NX comes with some built in pre-configured custom camera views.

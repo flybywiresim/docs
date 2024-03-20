@@ -1,3 +1,8 @@
+---
+title: flyPadOS 3 EFB - Throttle Calibration
+description: Important information regarding throttle calibration for use with the FlyByWire A32NX, with step-by-step guide for each controller.
+---
+
 # Throttle Calibration
 
 !!! warning "Please Note"

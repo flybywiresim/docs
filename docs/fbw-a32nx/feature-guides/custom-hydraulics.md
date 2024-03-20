@@ -1,3 +1,8 @@
+---
+title: Custom Hydraulics
+description: Explore the detailed workings of the A32NX's custom hydraulics system, including features, known issues, and expert tips.
+---
+
 # Custom Hydraulics
 
 ## Gear system

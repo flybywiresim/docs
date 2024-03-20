@@ -1,3 +1,8 @@
+---
+title: flyPadOS 3 EFB - Dashboard
+description: A comprehensive guide on how to use the Dashboard widgets in flyPadOS 3 for the FlyByWire A32NX.
+---
+
 <link rel="stylesheet" href="../../../../stylesheets/efb-interactive.css">
 
 # flyPad Dashboard
