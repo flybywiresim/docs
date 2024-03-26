@@ -75,14 +75,14 @@ Vertical guidance is available for TAKEOFF, CLIMB, CRUISE, DESCENT, and APPROACH
 
 The vertical modes are divided into two main modes:
 
-- Selected Vertical Modes
-- Managed Vertical Modes
+- [Selected Vertical Modes](selected-modes.md)
+- [Managed Vertical Modes](./managed-modes.md)
 
 One of the main notable differences between Selected and Managed Vertical Guidance is that the managed mode accounts for altitude and speed constraints at waypoints and computes the vertical flight path accordingly. Selected mode, on the other hand, ignores any constraints from the flight plan.
 
 Vertical guidance includes these modes:
 
-| [SELECTED](selected-modes.md)                                                | [MANAGED](./managed-modes.md)                                          |
+| Selected                                                                     | Managed                                                                |
 |:-----------------------------------------------------------------------------|:-----------------------------------------------------------------------|
 | [OP CLB](selected-modes.md#op-clb-open-climb)                                | [SRS](managed-modes.md#takeoff-srs-speed-reference-system) (TO and GA) |
 | [OP DES](selected-modes.md#op-des-open-descent)                              | [CLB](managed-modes.md#clb-climb),                                     |
