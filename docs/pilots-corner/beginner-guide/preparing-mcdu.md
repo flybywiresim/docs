@@ -1,3 +1,8 @@
+---
+title: A32NX Beginner Guide - Preparing the MCDU
+description: Learn how to prepare the MCDU in the FlyByWire A32NX for your departure. 
+---
+
 # Preparing the MCDU
 
 This guide will help you prepare the MCDU in the A32NX for your departure. It includes a simple route that you can use to follow along easily and replicate in the simulator.

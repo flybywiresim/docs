@@ -1,3 +1,8 @@
+---
+title: A32NX Beginner Guide - Descent Planning and Descent
+description: Learn how to plan and fly a descent from cruise altitude through STAR and Instrument Approach up to the final approach with the FlyByWire A32NX.
+---
+
 # Descent Planning and Descent
 
 This guide will explain the correct procedures to plan and fly a descent
