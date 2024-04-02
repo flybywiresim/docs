@@ -239,6 +239,15 @@ Settings for integrations with various 3rd party applications
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
 
+#### Navigraph Integration 
+
+- Navigraph Account Link
+    - Setup wizard to connect your Navigraph Account with the flypad.
+- Override SimBrief User ID
+    - Allows users to input a custom SimBrief User ID. For more information see [A32NX simBrief Integration](../simbrief/#setup-a32nx-simbrief-integration).
+- Automatically Import SimBrief Data
+    - Imports latest SimBrief flight automatically when starting the flyPad.
+
 #### GSX Integration
 These options are separate to provide you with the flexibility to choose what to sync with GSX and what not to sync. 
 
@@ -280,9 +289,7 @@ Settings for integration with various data and information sources.
     - Choose which weather data provider should be used (Aircraft only - does not change sim weather).
     - MeteoBlue is the weather service the sim uses as well.
 - TAF Source:
-    - Choose which Terminal Area Forecast (TAF) service should be used.
-- Automatically Import SimBrief Data
-    - Imports latest SimBrief flight automatically when starting the flyPad.   
+    - Choose, which Terminal Area Forecast (TAF) service should be used.   
 - Error Reporting
     - Enables error reports to be sent to Sentry.io to allow the FlyByWire team to easier find and resolve issues with the aircraft.
 - TELEX:
