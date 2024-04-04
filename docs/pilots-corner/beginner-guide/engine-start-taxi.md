@@ -1,8 +1,3 @@
----
-title: A32NX Beginner Guide - Engine Start and Taxi
-description: Learn how to accomplish a pushback with engine start and perform a safe taxi to the departure runway with the FlyByWire A32NX.
----
-
 # Engine Start and Taxi
 
 This guide will explain the correct procedures to accomplish a pushback with engine start and perform a safe taxi to the departure runway.

@@ -1,8 +1,3 @@
----
-title: A32NX Beginner Guide - Preflight
-description: Learn about the FlyByWire A32NX's features that assist in configuring and operating the aircraft.
----
-
 # Preflight
 
 Before you start your flight in earnest, we have included various features in the A32NX that assist in configuring the aircraft and in-flight support. Some of these features require the aircraft to be powered on. Additionally, these guides will be linked in the appropriate locations throughout the beginner guide. 
