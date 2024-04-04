@@ -1,8 +1,3 @@
----
-title: A32NX Beginner Guide - Approach and ILS Landing
-description: Learn how to fly a final approach and conduct an ILS landing with the FlyByWire A32NX.
----
-
 # Approach and ILS Landing
 
 This guide will explain the correct procedures to fly a final approach and conduct an ILS landing.

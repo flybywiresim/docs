@@ -1,8 +1,3 @@
----
-title: A32NX Beginner Guide - Starting the Aircraft
-description: Learn how to start the FlyByWire A32NX aircraft from a cold and dark state.
----
-
 # Starting the Aircraft
 
 This guide will assist you with starting your aircraft. It includes images to assist you with understanding the locations of all buttons and switches.

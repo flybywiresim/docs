@@ -1,8 +1,3 @@
----
-title: A32NX Beginner Guide - Powering Down
-description: Learn the correct procedures to power down the FlyByWire A32NX aircraft.
----
-
 # Powering Down
 
 This guide will explain the correct procedures to power down the aircraft when at the gate after arriving at the destination and taxi to the designated gate.
