@@ -244,7 +244,7 @@ Settings for integrations with various 3rd party applications
 - Navigraph Account Link
     - Setup wizard to connect your Navigraph Account with the flypad.
 - Override SimBrief User ID
-    - Allows users to input a custom SimBrief User ID. For more information see [A32NX simBrief Integration](../simbrief/#setup-a32nx-simbrief-integration).
+    - Allows users to input a custom SimBrief User ID. For more information see [A32NX simBrief Integration](../simbrief.md/#setup-a32nx-simbrief-integration).
 - Automatically Import SimBrief Data
     - Imports latest SimBrief flight automatically when starting the flyPad.
 
