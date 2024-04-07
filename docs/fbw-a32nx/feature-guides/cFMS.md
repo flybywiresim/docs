@@ -21,27 +21,51 @@ For guides on utilizing features included with our custom FMS, see the [Guides a
 
 We will always list the latest updates in the following section. As we improve our custom flight management system, older versions will be listed in a collapsible format in the [Older Versions](#older-versions) section.
 
-### Latest - Version 1.5
+### Latest - Version 2
 
-We have introduced new features to the custom flight management system as part of a minor update. Please see the list below:
+FMS v2 is a complete rewrite of the entire flight planning system of the A32NX (and by extension A380X).
 
-- LNAV Updates
-  - Holding Patterns
-  - Turn direction constraints on non-TF legs
-  - Overfly restriction support
-  - ARINC424 Leg Types
-    - AF, CA, CI, CR, CF, DF, HF, HM, HA legs ([See List of Leg Types](../../pilots-corner/advanced-guides/flight-planning/leg-types.md))
-  - Turn Prediction Types
-    - Path capture
-    - Course capture
-    - Direct to fix turn
-    - Holding pattern entry turn
-- Navigation Display
-  - Removed flight plan loading from local storage
-  - Corrected active waypoint ETA display
-  - Added `EfisVectors` systems with optimized transmit task queue + support for future display of OFFSET, SECONDARY, SECONDARY DASHED, MISSED APPROACH, ALTERNATE and EOSID flight paths.
+It entirely replaces the old system, a derivative of the CJ4 mod flight plan system, with a completely custom one, purpose-built for simulating Honeywell Airbus FMS software found on the A320/A330/A340/A350/A380.
+
+#### Motivation
+
+- The previous flight planning system **possesses a segmenting system prone to breaking, causing potential bugs in may places.**
+- The previous flight planning system **does not correctly manage origin and destination legs.** Those are often added ad-hoc, without real proper representation at appropriate times in the flight plan. This also results in problem correctly handling approach missed approach points and therefore, makes missed approach segments impossible.
+- The previous system **operates on a flight plan data structure that does not suit the reality of an airliner flight planning system.** Legs are represented as waypoints, with irrelevant data strewn around like predictions, and important data present in untyped free-for-all dictionaries. Discontinuities exist solely as a property of the leg they come after, not as an actual flight plan element.
+- The previous system is **not made in a way that can accommodate accurate stringing algorithms.**
+- The previous system **does not support efficient flight plan synchronization across clients.**
+
+#### Major design differences
+
+- Flight plan data structure
+  - The main type of a flight plan is a `FlightPlanElement`, which resolves to type `FlightPlanLeg | Discontinuity`. Only the leg type actually contains information. This API is typed in a way that mandates proper verification of the type by the consumer and allows for semantic narrowing by TypeScript.
+  - Flight plans are divided into segments, which are finite in number and match the only possibilities in a Honeywell Airbus FMS. There is no support for out-of-order segments and operations on flight plans are limited to this layout, reducing the API surface.
+  - `FlightPlanManager` is split into two classes:
+    - `FlightPlanService` (for now a singleton - will likely change) - this exposes allowed and common operations on flight plans, accepting parameters to target a specific plan or sub-plan (alternate). It also encapsulates TMPY logic.
+    - `FlightPlanManager` - this exposes operations on managing the storage of flight plans (create, delete, copy, swap, etc.)
+
 
 ### Older Versions
+
+??? info "Version 1.5"
+
+    We have introduced new features to the custom flight management system as part of a minor update. Please see the list below:
+
+    - LNAV Updates
+      - Holding Patterns
+      - Turn direction constraints on non-TF legs
+      - Overfly restriction support
+      - ARINC424 Leg Types
+        - AF, CA, CI, CR, CF, DF, HF, HM, HA legs ([See List of Leg Types](../../pilots-corner/advanced-guides/flight-planning/leg-types.md))
+      - Turn Prediction Types
+        - Path capture
+        - Course capture
+        - Direct to fix turn
+        - Holding pattern entry turn
+    - Navigation Display
+      - Removed flight plan loading from local storage
+      - Corrected active waypoint ETA display
+      - Added `EfisVectors` systems with optimized transmit task queue + support for future display of OFFSET, SECONDARY, SECONDARY DASHED, MISSED APPROACH, ALTERNATE and EOSID flight paths.
 
 ??? info "Version 1"
 
