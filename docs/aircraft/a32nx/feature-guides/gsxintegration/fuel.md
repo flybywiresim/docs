@@ -1,7 +1,7 @@
 # Fuel Synchronization
 
 !!! warning ""
-    You must enable [Fuel Sync](../flypados3/settings.md#3rd-party-options)
+    You must enable [Fuel Sync](../../../common/flypados3/settings.md#3rd-party-options)
 
 This page explains, how to use the fueling "synchronization" as-well as any caveats you should be made aware of when using it.
 
@@ -24,7 +24,7 @@ You may notice the fuel page is slightly different, with the Play button being g
       - The "play" button is disabled until the fuel truck has arrived, and the hose is connected.
       - Select `Request Fueling` from the GSX Menu.
       - Wait for the fuel truck to arrive and connect the fuel hose.
-      - Set the [fuel quantity](../flypados3/ground.md#fuel-and-de-fuel) that you desire and press the "play" button.
+      - Set the [fuel quantity](../../../common/flypados3/ground.md#fuel-and-de-fuel) that you desire and press the "play" button.
       - You can witness outside as the fuel truck begins to re-fuel your aircraft.
 2. Defueling
-     - Due to limitations with GSX, this is not supported. To defuel, disable [Fuel Sync](../flypados3/settings.md#3rd-party-options) temporarily.
+     - Due to limitations with GSX, this is not supported. To defuel, disable [Fuel Sync](../../../common/flypados3/settings.md#3rd-party-options) temporarily.
