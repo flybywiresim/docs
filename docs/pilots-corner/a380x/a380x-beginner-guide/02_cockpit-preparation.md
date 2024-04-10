@@ -314,6 +314,8 @@ elevation/tilt to AUTO, Mode set to WX, TURB set to AUTO, GAIN set to AUTO, WX O
 Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
 clickable cockpit that will show you where each item is located.
 
+[\\]  <p style="color:yellow; font-size:18px;">TODO: Insert SS of new OVH PNL and RMP/Center Console Assmbly</p>
+
     Parking Brake
     <p style="color:yellow; font-size:18px;">TODO: insert image of parking brake or link to interactive flight deck</p>
     
