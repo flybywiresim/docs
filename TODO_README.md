@@ -19,7 +19,7 @@
    2. Update common pages to refer to both projects and aircraft 
       - (e.g. homepage, Overview pages, FAQ, Support Guide, release notes, common questions, Install Guide, etc.)
    3. Common Features (depending on structure) - e.g. EFB, Tiller, and such...)
-   4. ...
+   4. Updates and TODOs will be added as necessary
 
 ## List of pages/section that need to be migrated from the A32NX docs or completed in general
 
