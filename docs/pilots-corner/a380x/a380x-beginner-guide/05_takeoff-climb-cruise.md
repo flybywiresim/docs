@@ -22,7 +22,7 @@ This guide will explain the correct procedures to accomplish takeoff, climb and 
 
 ## Prerequisites
 
-Aircraft is in TAXI state as per previous chapters
+Aircraft is in TAXI state as per previous chapters.
 
 [Download FlyByWire Checklist](../assets/sop/A32NX%20Documentation/FBW%20A32NX%20Checklist.pdf){ .md-button } <p style="color:yellow; font-size:18px;">TODO: update checklist</p>
 
