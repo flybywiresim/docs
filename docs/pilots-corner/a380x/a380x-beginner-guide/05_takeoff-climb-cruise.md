@@ -41,7 +41,7 @@ This guide will cover these phases:
 ## Base Knowledge About the Airbus A380 for Flight
 This section is focused on differences to other non-Airbus airliners a user might be used to.
 
-??? tip "What and Why"
+??? tip "What is a Fly-by-Wire System?"
     Fly By Wire system
     Traditional mechanical and hydro-mechanical flight control systems use a series of levers, rods, cables, pulleys and more, which pilots move to adjust control surfaces to aerodynamic conditions. Their "hands on" design gives pilots a direct, tactile feel for how the aircraft is handling aerodynamic forces as they fly. On the other hand, mechanical systems are also complicated to operate, need constant monitoring, are heavy and bulky, and require frequent maintenance.
 
