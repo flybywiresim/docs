@@ -42,7 +42,6 @@ This guide will cover these phases:
 This section is focused on differences to other non-Airbus airliners a user might be used to.
 
 ??? tip "What is a Fly-by-Wire System?"
-    Fly By Wire system
     Traditional mechanical and hydro-mechanical flight control systems use a series of levers, rods, cables, pulleys and more, which pilots move to adjust control surfaces to aerodynamic conditions. Their "hands on" design gives pilots a direct, tactile feel for how the aircraft is handling aerodynamic forces as they fly. On the other hand, mechanical systems are also complicated to operate, need constant monitoring, are heavy and bulky, and require frequent maintenance.
 
     In fly-by-wire systems, when the pilot moves flight controls, those movements are converted into electronic signals, which are then interpreted by the aircraft's Electrical Flight Control System (EFCS) to adjust actuators that move flight control surfaces. Computers also monitor sensors throughout the aircraft to make automatic adjustments that enhance the flight.
