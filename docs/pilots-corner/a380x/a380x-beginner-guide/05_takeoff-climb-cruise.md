@@ -50,7 +50,7 @@ This section is focused on differences to other non-Airbus airliners a user migh
 
      See also: [Fly-by-wire Wikipedia](https://en.wikipedia.org/wiki/Fly-by-wire){target=new}
 
-??? tip "Specific Airplane Flight Systems" 
+??? tip "What is Autotrim?" 
     Autotrim:
     The A380 has a feature called "Autotrim", which makes it unnecessary to hold the sidestick or use the trim wheel for holding the current pitch. This system is always active, even when the __Autopilot__ is off (in Normal Law, which means under normal circumstances with a fully functional aircraft).
 
