@@ -39,7 +39,7 @@ This guide will cover these phases:
 ---
 
 ## Base Knowledge About the Airbus A380 for Flight
-This list is focussed on differences to other non-Airbus airliners a user might be used to.
+This section is focused on differences to other non-Airbus airliners a user might be used to.
 
 ??? tip "What and Why"
     Fly By Wire system
