@@ -107,7 +107,9 @@ __*The following steps from TAXI setup need to be done and checked:*__
 `OVHD PANEL .............................................CHECK DISCONNECTED`<br/>
 `APU ...................................................................OFF`<br/>
 
-![OVHD Panel at Lineup](../assets/beginner-guide/takeoff-climb-cruise/OVHDPanel.png "OVHD Panel at Lineup"){loading=lazy} <p style="color:yellow; font-size:18px;">TODO: update OHP screenshot</p>
+??? note "OVHD Panel at Lineup"
+    ![OVHD Panel at Lineup](../assets/beginner-guide/takeoff-climb-cruise/OVHDPanel.png "OVHD Panel at Lineup") 
+    {loading=lazy} <p style="color:yellow; font-size:18px;">TODO: update OHP screenshot</p>
 
 `FLIGHT CONTROLS .....................................................CHECK`<br/>
 `FLIGHT INSTRUMENTS ..................................................CHECK`<br/> 
