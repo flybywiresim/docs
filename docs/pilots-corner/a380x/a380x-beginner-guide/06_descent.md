@@ -87,7 +87,7 @@ This guide will cover these phases:
 - Aircraft is in `CRUISE` state and phase as per previous chapters.
 - Distance to destination is ~ 200 NM (on a short flight, start as early as possible and maybe even before the flight).<p>
 
-!!! note "Important Data Points for Descent Planning:"
+!!! tip "Important Data Points for Descent Planning:"
 
     - **Cruise Flight Level:** The higher we fly, the earlier we need to start descending. Also for short flights, too high a cruising altitude can make it impossible to actually descend to the destination airport in time. Therefore, verify your flight plan if overall distance and flight level make sense.
     - **Flight Plan Constraints:** STARs often have flight level (FL) or altitude constraints which we must adhere to. We must plan our descent, so we can meet these altitude constraints, even when they themselves are still far away from the destination airport.
