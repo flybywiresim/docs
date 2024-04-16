@@ -136,12 +136,12 @@ __*The following steps from TAXI setup need to be done and checked:*__
 
 - Check ECAM - NO blue writing should be visible for these:
 
-`AUTO BRAKE ............................................................MAX`<br/>
-`SIGN ...................................................................ON`<br/>
-`CABIN ...............................................................READY`<br/>
-`SPLRS .................................................................ARM`<br/>
-`FLAPS ..................................................................TO`<br/>
-`TO CONFIG ..........................................................NORMAL`<br/>
+`AUTO BRAKE ........................................................... MAX`<br/>
+`SIGN .................................................................. ON`<br/>
+`CABIN .............................................................. READY`<br/>
+`SPLRS ................................................................ ARM`<br/>
+`FLAPS ................................................................. TO`<br/>
+`TO CONFIG ......................................................... NORMAL`<br/>
 
 <p style="color:yellow; font-size:18px;">TODO: update screenshot with new ECAM</p>
 
@@ -197,12 +197,12 @@ Shortly before we start our takeoff roll, we do the following steps:
 
       The correct switch settings are:
 
-`RWY TURN OFF ...........................................................ON`<br/>
-`NOSE ..................................................................T.O`<br/>
-`LAND ...................................................................ON`<br/>
-`STROBE .................................................................ON`<br/>
-`BEACON .........................................................NAV & LOGO`<br/>
-`WING ..................................................................OFF`<br/>
+`RWY TURN OFF .......................................................... ON`<br/>
+`NOSE ................................................................. T.O`<br/>
+`LAND .................................................................. ON`<br/>
+`STROBE ................................................................ ON`<br/>
+`BEACON ........................................................ NAV & LOGO`<br/>
+`WING ................................................................. OFF`<br/>
 
 !!! info "Lights at Takeoff"
     Setting the `RWY TURN OFF` light to `ON`, the `LAND` lights to `ON` and the `NOSE` light to `T.O.` minimizes bird strike hazard during takeoff.
@@ -282,7 +282,7 @@ Shortly before we start our takeoff roll, we do the following steps:
 
 - Once we have confirmed "positive climb" we retract the landing gear.
 
-`LANDING GEAR ...........................................................UP`<br/>
+`LANDING GEAR .......................................................... UP`<br/>
 `AUTOPILOT .................................................... AS REQUIRED`<br/>
 
 ![Positve Climb](../assets/beginner-guide/takeoff-climb-cruise/Positve-climb.png "Positve Climb"){loading=lazy}.
@@ -302,9 +302,9 @@ This concludes *Takeoff*.
 
 - Aircraft has left the ground and is climbing at about 15°.
 
-`LANDING GEAR ...........................................................UP`<br/>
-`THRUST LEVERS .............................................FLX MCT OR TOGA`<br/>
-`FLAPS ..................................................................TO`<br/>
+`LANDING GEAR .......................................................... UP`<br/>
+`THRUST LEVERS ............................................ FLX MCT OR TOGA`<br/>
+`FLAPS ................................................................. TO`<br/>
 
 !!! info "After Takeoff"
     After takeoff, the aircraft will use `FLX/MCT` or `TO GA` thrust until thrust reduction altitude is reached (typically ~ 1500 ft above runway, this is part of the MCDU setup)
@@ -378,7 +378,7 @@ Lastly, we disarm the `SPEED BRAKE` and turn on the `PACKS` if we turned them of
 
 `PACKS 1 & 2 ........................................................... ON`<br/>
 `FLAPS .......................................................... RETRACTED`<br/>
-`BARO SETTING ........................................................CHECK`<br/>
+`BARO SETTING ....................................................... CHECK`<br/>
 
 - Check Baro setting: above transition altitude (defined in the `ECAM PERF` page) set it to `STD` by pulling the baro knob. A flashing baro value in the `PFD` will remind us in case we forgot.
 
@@ -454,7 +454,7 @@ This concludes the *Climb*.
 - Aircraft has leveled off at planned cruise level.
 - Speed is cruise speed as per ECAM PERF CRZ page.
 
-`ALT CRZ on flight annunciator mode ................................. CHECK`<br/>
+`ALT CRZ on FLIGHT ANNUNCIATOR MODE ................................. CHECK`<br/>
 `ECAM MEMO ......................................................... REVIEW`<br/>
 `SD PAGES .......................................................... REVIEW`<br/>
 `FLIGHT PROGRESS .................................................... CHECK`<br/>
