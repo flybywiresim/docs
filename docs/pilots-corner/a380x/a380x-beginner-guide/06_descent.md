@@ -12,9 +12,6 @@ The actual final approach (ILS approach) will be covered by a separate chapter.
 
     A *beginner* is defined as someone familiar with flying a GA aircraft or different types of airliners. Aviation terminology and know-how is a requirement to fly any airliner even, in Microsoft Flight Simulator.
 
-    Also, you will find many great videos on YouTube on how to fly the FlyByWire A32NX.<br/>
-    Check out the FlyByWire YouTube Channel as well: [FlyByWire on YouTube](https://www.youtube.com/c/FlyByWireSimulations/playlists)
-
 ---
 
 ## Prerequisites
@@ -186,6 +183,8 @@ This is typically done about 50 NM before the starting the descent.
 
 ![ENTER DEST DATA Message on the MFD](../assets/beginner-guide/descent/MCDU-Enter-dest-data.png "ENTER DEST DATA Message on the MFD"){loading=lazy}
 
+
+
 We can obtain this data from the destination airport's ATIS information and the airport charts.
 
 From ATIS we get: `QNH`, `TEMP`, `MAG WIND` and `TRANS LVL` - if not refer to the approach chart.
@@ -227,6 +226,10 @@ For more information on the different types of minimums, see the [Minimums and M
 
     If we are flying with Online ATC, you can request ATIS via the `MCDU-ATSU-AOC` page or your Online ATC network's client at this time. <p style="color:yellow; font-size:18px;">TODO: double check this with new MFD</p>
 
+`WEATHER AND LANDING INFORMATION ................................... OBTAIN`<br/>
+`LANDING ELEVATION .................................................. CHECK`<br/>
+`BAROMETRIC REFERENCE .............................................. PRESET`<br/>
+
 We can in any case request the METAR weather information for the destination airport via the same page.
 
 ![MCDU ATSU AOC page - WX and ATIS](../assets/beginner-guide/descent/MCDU-ATSU-AOC-WX.png "MCDU ATSU AOC page - WX and ATIS"){loading=lazy} <p style="color:yellow; font-size:18px;">TODO: update screenshot with new MFD</p>
@@ -236,6 +239,19 @@ If we used Simbrief for flight planning, we can also see METAR information on th
 ![flyPad showing weather](../../../aircraft/a32nx/assets/flypados3/weather-widget-input.png){loading=lazy}
 
 Once we have confirmed the destination runway and the destination data, we are set for the approach, and we can continue to focus on the descent.
+
+`LANDING PERFORMANCE ................................................ CHECK`<br/>
+
+##VERIFY LANDING CALCULATOR WILL BE PRESENT IN NEW SYSTEM##
+
+If not already inserted, insert the applicable APPR, STAR, TRANS and APPR VIA in the active flight plan arrival page of the flight management system.
+
+`FMS ACTIVE/F-PLN/ARRIVAL PAGE ............................... INSERT/CHECK`<br/>
+`DES PANEL OF THE FMS ACTIVE/PERF PAGE ....................... INSERT/CHECK`<br/>
+`APPR PANEL OF THE FMS ACTIVE/PERF PAGE ...................... INSERT/CHECK`<br/>
+`GA PANEL OF THE FMS ACTIVE/PERF PAGE ............................... CHECK`<br/>
+`FMS POSITIONAL/NAVAIDS PAGE ........................................ CHECK`<br/>
+`FMS ........................................................... CROSSCHECK`<br/>
 
 This concludes *Descent and Approach Planning*.
 
@@ -254,10 +270,16 @@ A few minutes before we reach our calculated descent point (TOD) we request clea
 
 **Do NOT start the descent without clearance from ATC.**
 
+`DESCENT CLEARANCE ................................................. OBTAIN`<br/>
+`CLEARED ALTITUDE ON AUTO FLIGHT SYSTEM CONTROL PANEL ................. SET`<br/>
+
 !!! info "TOD marker A380"
     The A380 has a downward pointing arrow at the TOD to support the pilot with the decision of when to descend. Ultimately, it is still the pilot's responsibility to calculate and validate the TOD.
 
 When clearance is given, we can start our descent to the flight level or altitude ATC has given us.
+
+`DESCENT ......................................................... INITIATE`<br/>
+`ALTITUDE ............................................................ PUSH`<br/>
 
 For descending, we set the new flight level or altitude in the `FCU` with the `altitude selector`. We can then either PUSH the selector for `Managed Altitude Mode` (constraints are respected, also known as [DES](../a32nx-advanced-guides/flight-guidance/vertical-guidance/managed-modes.md#des-descent)) or PULL the selector for `Selected Altitude Mode` (constraints are ignored, also known as [OP DES](../a32nx-advanced-guides/flight-guidance/vertical-guidance/selected-modes.md#op-des-open-descent)). 
 <p style="color:yellow; font-size:18px;">TODO: update screenshot with new FCU if needed</p>
@@ -267,7 +289,7 @@ For descending, we set the new flight level or altitude in the `FCU` with the `a
 When either of these altitude modes are engaged, the relevant mode will appear in the Second Column of the `FMA`, and will be displayed in green. (See [Vertical Mode Annunciations](../a380x-briefing/pfd/second-column.md)).
 
 !!! warning "Using V/S"
-    It is not recommended to use V/S for climbing or descending in the A320 (at least not for beginners) as the V/S guidance has priority over the speed guidance, and speed needs to be watched very closely when using V/S.
+    It is not recommended to use V/S for climbing or descending in the A380 (at least not for beginners) as the V/S guidance has priority over the speed guidance, and speed needs to be watched very closely when using V/S.
     <p/>
     If the selected target V/S is too high (relative to the current thrust condition and speed), the FMGC will steer the aircraft to the target V/S, but the aircraft will also accelerate or decelerate. When the speed reaches its authorized limit, V/S automatically decreases to maintain the minimum or maximum speed limit.
     <p/>
@@ -277,10 +299,15 @@ When either of these altitude modes are engaged, the relevant mode will appear i
 
 ATC typically will not clear us to our final target altitude directly, but will give us several step descents down to our required altitude.
 
+`DESCENT .......................................................... MONITOR`<br/>
+
 Also, ATC will often still expect us to respect the STAR's constraints, although they might have given us a lower clearance. We should then only descent to the constraint's altitude.
 
-??? tip "VNAV in the FlyByWire A32NX"
+??? tip "VNAV in the FlyByWire A830X"
     The scenario that we are cleared to a lower altitude or flight level with altitude constraints above the clearance is an ideal scenario for the called so "VNAV" autopilot mode, which would be activated by using "`Managed Altitude Mode`" (pushing the `ALT selector`). The autopilot will automatically level off at the constraint and continue descending when the constraint is no longer valid.
+
+`RATE OF DESCENT ....................................... ADJUST AS REQUIRED`<br/>
+`SPEEDBRAKES .................................................. AS REQUIRED`<br/>
 
 We repeat the process until we have reached our desired final approach altitude.
 
@@ -289,11 +316,11 @@ We repeat the process until we have reached our desired final approach altitude.
 
 #### At 10 000 ft Procedure
 
-`LANDING LIGHTS ....................................................... SET`<br/>
-`SEAT BELTS SWITCH ..................................................... ON`<br/>
-`EFIS BUTTON ..................................................... AS REQ'D`<br/>
-`LS BUTTON ....................................................... AS REQ'D`<br/>
-`RAD NAVAIDS ................................................... IDENTIFIED`<br/>
+`LANDING LIGHTS ........................................................ ON`<br/>
+`SEAT BELTS SIGN ....................................................... ON`<br/>
+`CSTR BUTTON ........................................................... ON`<br/>
+`LS BUTTON .................................................... AS REQUIRED`<br/>
+`NAVAIDS ................................................ AS REQUIRED/CHECK`<br/>
 
 - `LAND` lights selector: SET
     - `LAND` lights may be switched ON, according to the airline policy/regulatory recommendations
@@ -362,6 +389,10 @@ ROKIL STAR/Transition EDDM (Munich) 26R - it is only in times with a lot of traf
 - We are either within the IAP (Instrument Approach) and at the correct altitude and speed or at a heading vector, altitude, and speed instructed by ATC.
 
 At the end of the Instrument Approach (or by ATC vectoring) we will be on a path to the Final Approach Fix and/or intercepting the ILS localizer and eventually the ILS glideslope.
+
+`APPROACH PHASE ............................................ CHECK/ACTIVATE`<br/>
+`MANAGED SPEED ...................................................... CHECK`<br/>
+`SPEEDBRAKES .................................................. AS REQUIRED`<br/>
 
 To intercept the ILS, we need to be at the correct altitude and should not have an approach angle larger than 30°. THE `LS` button should also be `ON`on both the captain and first officer's sides of the FCU.
 
