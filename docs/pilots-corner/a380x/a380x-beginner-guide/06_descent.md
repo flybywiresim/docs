@@ -303,7 +303,7 @@ ATC typically will not clear us to our final target altitude directly, but will 
 
 Also, ATC will often still expect us to respect the STAR's constraints, although they might have given us a lower clearance. We should then only descent to the constraint's altitude.
 
-??? tip "VNAV in the FlyByWire A830X"
+??? tip "VNAV in the FlyByWire A380X"
     The scenario that we are cleared to a lower altitude or flight level with altitude constraints above the clearance is an ideal scenario for the called so "VNAV" autopilot mode, which would be activated by using "`Managed Altitude Mode`" (pushing the `ALT selector`). The autopilot will automatically level off at the constraint and continue descending when the constraint is no longer valid.
 
 `RATE OF DESCENT ....................................... ADJUST AS REQUIRED`<br/>
