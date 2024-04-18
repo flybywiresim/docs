@@ -10,7 +10,6 @@ This guide will explain the correct procedures to fly a final approach and condu
 
     A *beginner* is defined as someone familiar with flying a GA aircraft or different types of airliners. Aviation terminology and know-how is a requirement to fly any airliner, even in Microsoft Flight Simulator.
 
-
 ---
 
 ## Prerequisites
@@ -78,14 +77,19 @@ This guide will cover these phases:
 
     ![ND ROSE LS Mode](../assets/beginner-guide/landing/ND-ROSE-LS-Mode.png "ND ROSE LS Mode"){loading=lazy}<p>
 
-    Activate the `APPR` phase in the `MCDU-PERF` page. This is usually automatically done by the aircraft at a certain point during the approach, but we make sure that at this point at the latest it is activated. In `APPR` phase, the `Autopilot` together with "Managed Speed Mode" relieves the pilot of a lot of stress by managing the speed according to flaps setting automatically (S-Speed after `FLAPS 1`, F-Speed after `FLAPS 2`, V~app~ after landing flap selection).
+Activate the `APPR` phase in the `MCDU-PERF` page. This is usually automatically done by the aircraft at a certain point during the approach, but we make sure that at this point at the latest it is activated. In `APPR` phase, the `Autopilot` together with "Managed Speed Mode" relieves the pilot of a lot of stress by managing the speed according to flaps setting automatically (S-Speed after `FLAPS 1`, F-Speed after `FLAPS 2`, V~app~ after landing flap selection).
 
-    ![Activate APPR in ECAM PERF](../assets/beginner-guide/landing/ECAM-PERF-activate-APPR.png "Activate APPR in ECAM PERF"){loading=lazy } <p style="color:yellow; font-size:18px;">TODO: update ECAM screenshot</p>
+`ATC CLEARANCE FOR APPROACH ...................................... OBTAINED`<br/>
+`APPR MODE .......................................................... PRESS`<br/>
 
-    Set `SPEED` to `Managed Speed Mode` (push the `Speed Selector`). The aircraft should now decelerate to `green dot` speed.
+[Activate APPR in ECAM PERF](../assets/beginner-guide/landing/ECAM-PERF-activate-APPR.png "Activate APPR in ECAM PERF"){loading=lazy } <p style="color:yellow; font-size:18px;">TODO: update ECAM screenshot</p>
+
+Set `SPEED` to `Managed Speed Mode` (push the `Speed Selector`). The aircraft should now decelerate to `green dot` speed.
     Set `FLAPS` to 1 at about V~FE~ -15 knots (but never before speed is below V~FE~) for the first slat/flap configuration (`CONF1`). The aircraft will then decelerate further to prepare for the next flaps configuration. Our target is to be in CONF 1 and at S-speed by the time you need to set flaps 2 (CONFIG 2) before the glideslope intercept (S-speed will be slow enough to set flaps 2).
 
-    ![VFE for next configuration](../assets/beginner-guide/landing/PFD-Speed-band-flaps-marker.png "VFE for next configuration"){loading=lazy}
+[VFE for next configuration](../assets/beginner-guide/landing/PFD-Speed-band-flaps-marker.png "VFE for next configuration"){loading=lazy}
+
+
 
 - Turn on `APPR` in the `FCU` to command the aircraft to intercept the ILS localizer. The aircraft will keep the current heading until the localizer is captured and guides the aircraft towards the runway. The `lateral ILS localizer scale` shows the `deviation marker` moving towards the middle of the `lateral deviation scale`. Also, the lateral `FMA` shows `LOC` in blue (armed). Usually AP2 is turned on at this point to have a redundancy on the approach, for the sake of this guide you can leave it off.
 
