@@ -69,7 +69,7 @@ This guide will cover these phases:
 !!! info "Microsoft Flight Simulator and navigation charts"
     Although Microsoft Flight Simulator allows some flight planning through the user interface, it is highly recommended to use navigational charts when flying airliners. MSFS' flight planning does not provide sufficient information to correctly fly a STAR or an approach.
 
-    There are several good sources for charts - free or subscription based. A good free solution is [ChartFox](https://chartfox.org/), which only requires a free VATSIM account. One of the most known subscription-based sources for charts is [Navigraph](https://navigraph.com/home). It is planned to integrate both solutions into the FlyByWire A380X flyPad in the future.
+    There are several good sources for charts - free or subscription based. A good free solution is [ChartFox](https://chartfox.org/), which only requires a free VATSIM account. One of the most known subscription-based sources for charts is [Navigraph](https://navigraph.com/home). Navigraph has been integrated into the FlyByWire A380X flyPad, whereas Chartfox is TBD.
 
     Also, often a simple internet search will do the trick: Search for "&lt;airport icao code&gt; charts": E.g., "EDDM charts"
 
@@ -177,7 +177,7 @@ Before we descend, we should also reconfirm our destination runway and input or 
 This is typically done about 50 NM before the starting the descent.
 
 !!! info "<p style="color:yellow; font-size:18px;">TODO: update title with new MFD manufacturer</p>"
-    It is important to note that when entering a value in the `TRANS ALT` field on this page that the flight crew reference the appropriate `TRANS LVL`. In this spec of the MCDU, Honeywell has not yet corrected the field to reflect `TRANS LVL` as the value required.
+    It is important to note that when entering a value in the `TRANS ALT` field on this page that the flight crew reference the appropriate `TRANS LVL`. 
 
     As a quick reminder, when descending from cruise the flight crew is moving from a "Flight Level" to a local altimeter for arrival, which is where the `TRANS LVL` value is derived from. 
 
