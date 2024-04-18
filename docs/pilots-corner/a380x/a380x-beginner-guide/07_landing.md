@@ -123,11 +123,15 @@ This concludes *Intercepting the ILS Localizer*
 **Situation:**
 
 `APPR MODE ......................................................... ACTIVE`<br/>
+`AUTOPILOT 1+2 ......................................................... ON`<br/>
+`LOC CAPTURE ...................................................... MONITOR`<br/>
 `ILS LOCALIZER ................................................ ESTABLISHED`<br/>
 `FLAPS 1 .............................................................. SET`<br/>
 
 After ATC has given us clearance for the ILS approach, we can also start descending using the ILS glideslope.
 
+!!! note "Autopilot scenario"
+    Having `AUTOPILOT 1+2` on assumes you are shooting an autoland approach. If you are not shooting an autoland approach, and intend to land the airplane by hand, do not engage `AUTOPILOT 2.`
 
 Check that the `APPR` button is activated on the `FCU` to arm the ILS glideslope descent mode. <p style="color:yellow; font-size:18px;">TODO: update FCU screenshot if necessary</p>
 
@@ -149,6 +153,10 @@ The aircraft will start descending when the deviation marker is in the middle (w
 
 We are now descending along the glideslope. The radio altimeter comes alive at 2,500ft above the ground to display the actual precise height above ground.
 
+At 2500 feet, below VFE, we set `FLAPS` to 2
+
+`FLAPS 2 .............................................................. SET`<br/>
+
 ![Radio altimeter alive](../assets/beginner-guide/landing/PFD-radio-alt.png "Radio altimeter alive"){loading=lazy } <p style="color:yellow; font-size:18px;">TODO: update PFD example</p>
 
 This concludes *Intercepting the ILS Glideslope*
@@ -164,13 +172,16 @@ This concludes *Intercepting the ILS Glideslope*
 
 At this point, we would prepare the aircraft for a possible missed approach and go-around by setting the go-around altitude in the FCU (see *MISSED APPR* procedure in the charts). We skip this for this beginner guide.
 
+**At 2000 feet above ground level, things start to move very quickly.**
+
 To set us up for the final approach we do the following steps:
 
-`GEAR ................................................................ DOWN`<br/>
+`LANDING GEAR ........................................................ DOWN`<br/>
 `RWY TURN OFF LIGHT .................................................... ON`<br/>
 `FLAPS 3 .............................................................. SET`<br/>
-`AUTOBRAKES ........................................................... ARM`<br/>
-`SPEEDBRAKE ........................................................... ARM`<br/>
+`AUTOBRAKE ........................................................ CONFIRM`<br/>
+`GROUND SPOILERS ...................................................... ARM`<br/>
+`EXTERIOR LIGHTS ...................................................... SET`<br/>
 
 - Set `FLAPS 3` and shortly after `FLAPS FULL` (always check speed before setting flaps. Otherwise, you might end up in an overspeed situation).
 - Going `FLAPS FULL` will reduce our speed to V~app~.
@@ -178,6 +189,10 @@ To set us up for the final approach we do the following steps:
     - If MAX manual braking is required, please see the section below - [here](#max-manual-braking-scenario).
 
 **We need to be fully set up and stable at 1,000ft above the ground.**
+
+`FLAPS ............................................................... FULL`<br/>
+`AUTOTHROTTLE .................................. CHECK IN SPEED MODE OR OFF`<br/>
+`LANDING CHECKLIST ............................................... COMPLETE`<br/>
 
 ![Fully setup for landing](../assets/beginner-guide/landing/Landing-Cockpit.png "Fully setup for landing"){loading=lazy} <p style="color:yellow; font-size:18px;">TODO: update cockpit example</p>
 
@@ -208,6 +223,16 @@ This concludes *Preparation and Checklist for Landing*
 
 **Situation:**
 
+`LANDING GEAR ........................................................ DOWN`<br/>
+`RWY TURN OFF LIGHT .................................................... ON`<br/>
+`FLAPS 3 .............................................................. SET`<br/>
+`AUTOBRAKE ........................................................ CONFIRM`<br/>
+`GROUND SPOILERS ...................................................... ARM`<br/>
+`EXTERIOR LIGHTS ...................................................... SET`<br/>
+`FLAPS ............................................................... FULL`<br/>
+`AUTOTHROTTLE .................................. CHECK IN SPEED MODE OR OFF`<br/>
+`LANDING CHECKLIST ............................................... COMPLETE`<br/>
+
 - Aircraft is fully set up for landing as per previous chapters.
 - Configuration is `FLAPS FULL`.
 - Aircraft is at about 1000 ft above the ground.
@@ -221,6 +246,8 @@ For an advanced guide on Autoland, see [here](../a32nx-advanced-guides/flight-gu
     We MUST get landing clearance from ATC before we actually are allowed to land. Without landing clearance, we must do a go-around (not part of this beginner guide) before touching the runway. Usually, ATC will have given us clearance at this point. Late clearance is rare and communicated to us beforehand.
 
 Next, we turn the **Autopilot** `OFF` at about 500 ft above the ground by pressing the `AP1` button on the `FCU`. We leave the **Autothrust** on, so we don't have to worry about thrust and speed at all (Leaving **Autothrust** on for landing is common for the Airbus).
+
+`AUTOPILOT ............................................................ OFF`<br/>
 
 ![Cockpit view when AP has been turned off](../assets/beginner-guide/landing/Cockpit-view-AP-off.png "Cockpit view when AP has been turned off"){loading=lazy} <p style="color:yellow; font-size:18px;">TODO: update cockpit screenshot</p>
 
@@ -259,9 +286,14 @@ At about 30ft, we start our flare by pulling back on the sidestick carefully. We
 At about 10-20ft, we pull back the thrust levers to idle (the aircraft also sounds the callout "retard retard ...") 
 so that we are at idle thrust **before** we touch the ground.
 
+`FLARE ........................................................... INITIATE`<br/>
+`THRUST LEVERS ....................................................... IDLE`<br/>
+
 ![PFD during flare](../assets/beginner-guide/landing/PFD-Flare.png "PFD during flare"){loading=lazy } <p style="color:yellow; font-size:18px;">TODO: update PFD screenshot</p>
 
 We hold the attitude of the aircraft until it settles on the ground. **Do not push the sidestick forward (nose down) once flared.** We let the aircraft settle to the runway while holding the pitch.
+
+`REVERSER LEVERS ..................................................... PULL`<br/>
 
 ??? tip "**Practice this!!**"
 
@@ -286,6 +318,9 @@ We hold the attitude of the aircraft until it settles on the ground. **Do not pu
 
 At about 60 knots we put the thrust levers back to idle and at about 40 knots we release the `Autobrakes` by braking manually, which deactivates the `Autobrake`.
 
+`REVERSER LEVERS ..................................................... IDLE`<br/>
+`AUTO BRAKE ......................................................... CHECK`<br/>
+
 !!! tip "MAX Manual Braking Scenario"
 
     In certain situations where the pilot flying has established that MAX manual braking is to be performed, the following actions are required:
@@ -304,6 +339,10 @@ This concludes *Landing*
 
 - Aircraft has landed and is still on the center line of the runway.
 - Speed is < 40 knots.
+
+`AUTO BRAKE ........................................................ DISARM`<br/>
+`MANUAL BRAKING ............................................... AS REQUIRED`<br/>
+`REVERSER LEVERS ..................................................... STOW`<br/>
 
 We look for the next runway exit and slow down to about 15 knots before we start turning off the runway.
 
