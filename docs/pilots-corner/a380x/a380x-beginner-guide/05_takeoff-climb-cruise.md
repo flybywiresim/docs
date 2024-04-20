@@ -5,7 +5,7 @@
 This guide will explain the correct procedures to accomplish takeoff, climb and establish cruise altitude.
 
 !!! warning "Disclaimer"
-    The level of detail in this guide is meant to get a FlyByWire A380 beginner safely up in the air and to cruise level under normal conditions, while simplifying details which are not (yet) important for a beginner.
+    The level of detail in this guide is meant to get a FlyByWire A380X beginner safely up in the air and to cruise level under normal conditions, while simplifying details which are not (yet) important for a beginner.
 
     A *beginner* is defined as someone familiar with flying a GA aircraft or different types of airliners. Aviation terminology and know-how is a requirement to fly any airliner, even in Microsoft Flight Simulator.
 
@@ -100,7 +100,7 @@ holding point the **"Before takeoff checklist"** needs to be completed.
 
 ??? tip ""The Line" Definitions"
     - **"Down to the line"** (or "Above the line") means **before** "ATC Takeoff Clearance".
-    - **"Below the line"** means **after** T.O. clearance (when lined up) but before starting the roll.
+    - **"Below the line"** means **after** T.O. clearance (when lined up) but before starting the takeoff roll.
 
 #### Preparation and "Down to the line" Checklist pre-T.O.-clearance
 
@@ -111,7 +111,7 @@ __*The following steps from TAXI setup need to be done and checked:*__
     ![OVHD Panel at Lineup](../assets/beginner-guide/takeoff-climb-cruise/OVHDPanel.png "OVHD Panel at Lineup") 
     {loading=lazy} <p style="color:yellow; font-size:18px;">TODO: update OHP screenshot</p>
 
-`OVHD PANEL ............................................ CHECK DISCONNECTED`<br/>
+`OVHD PANEL ............................................ CHECKLIST COMPLETE`<br/>
 `APU .................................................................. OFF`<br/>
 `APPROACH PATH ..................................... CHECK CLEAR OF TRAFFIC`<br/>
 `STROBE LIGHTS ......................................................... ON`<br/>
@@ -270,7 +270,7 @@ Shortly before we start our takeoff roll, we do the following steps:
 
 - At about 80 knots, slowly release the forward pressure on the sidestick until about 100 knots, when the sidestick should be in the neutral position.
 
-- The throttle hand remains on the thrust levers until reaching V~1~ to be able to quickly abort the start. Remove the hand from the thrust levers at V~1~ to avoid accidentally aborting after V~1~.
+- The throttle hand remains on the thrust levers until reaching V~1~ to be able to quickly abort the start. Remove the hand from the thrust levers at V~1~ to avoid accidentally aborting after V~1~. <p style="color:yellow; font-size:18px;">is this necessary for the sim?</p>
 
 - At V~R~ apply smooth positive backward stick movement on the sidestick and aim for a rotation rate (pitch rate) of 3 deg/sec for about 5 seconds (15° - 18° pitch attitude). Once airborne, follow the flight director's guidance for pitch attitude.<br/>
   Tip: Count one-one thousand, two-one-thousand, etc. and hit 15 degrees at five-one-thousand - practice this.
@@ -300,13 +300,13 @@ This concludes *Takeoff*.
 ### 3. Initial Climb
 **Situation:**
 
-- Aircraft has left the ground and is climbing at about 15°.
+- Aircraft has left the ground and is climbing at about 15° at roughly `x` feet per minute
 
 `LANDING GEAR .......................................................... UP`<br/>
 `THRUST LEVERS ............................................ FLX MCT OR TOGA`<br/>
 `FLAPS ................................................................. TO`<br/>
 
-!!! info "After Takeoff"
+??? info "After Takeoff"
     After takeoff, the aircraft will use `FLX/MCT` or `TO GA` thrust until thrust reduction altitude is reached (typically ~ 1500 ft above runway, this is part of the MCDU setup)
 
     After reaching thrust reduction altitude, the `PFD FMA` now shows a flashing *LVR CLB* message to instruct the pilot to move thrust levers to the `CL` detent.
@@ -365,7 +365,7 @@ part of after take off flows.
 `TAXI LIGHT ........................................................... OFF`<br/>
 `RWY TURN OFF ......................................................... OFF`<br/>
 
-??? info "What and Why"
+??? info "Why shut off the lights manually"
     We do this in case the auto-turn-off has failed. This would mean the lights sitting on the front gear, which are now within the gear housing, will start increasing in temperature.
 
 ![Landing lights after gear up](../assets/beginner-guide/takeoff-climb-cruise/Landing-lights-gear-up.png "Landing lights after gear up"){ loading=lazy width=60% } <p style="color:yellow; font-size:18px;">TODO: update screenshot with new lighting panel</p>
@@ -380,7 +380,7 @@ Lastly, we disarm the `SPEED BRAKE` and turn on the `PACKS` if we turned them of
 `FLAPS .......................................................... RETRACTED`<br/>
 `BARO SETTING ....................................................... CHECK`<br/>
 
-- Check Baro setting: above transition altitude (defined in the `ECAM PERF` page) set it to `STD` by pulling the baro knob. A flashing baro value in the `PFD` will remind us in case we forgot.
+- Check Baro setting: above transition altitude (defined in the `ECAM PERF` page) set it to `STD` by pulling the baro knob. A flashing baro value in the `PFD` will remind us in case we forgot as we reach transition altitude.
 
 ![After Takeoff checklist](../assets/beginner-guide/takeoff-climb-cruise/After-take-off-cl.png "After Takeoff checklist"){loading=lazy width=35%} <p style="color:yellow; font-size:18px;">TODO: update screenshot with new checklist if different</p>
 
@@ -389,7 +389,7 @@ Lastly, we disarm the `SPEED BRAKE` and turn on the `PACKS` if we turned them of
 `TA MODE ............................................................ TA/RA`<br/>
 
 !!! info ""
-    This is usually a good time to contact ATC Departure to check in with your current altitude. In most cases, ATC will now give us a higher climb altitude. If we did not receive a higher altitude, we have to level off at the previously cleared altitude (cleared by ATC or navigational charts). If we have the __Autopilot__ activated, it will level off automatically at the Selected Altitude.
+    This is usually a good time to contact ATC Departure to check in with your current altitude. In most cases, ATC will now give us a higher climb altitude. If we did not receive a higher altitude, we will level off at the previously cleared altitude (cleared by ATC or navigational charts). If we have the __Autopilot__ activated, it will level off automatically at the Selected Altitude.
 
 This concludes the *Initial Climb*.
 
@@ -411,7 +411,8 @@ This concludes the *Initial Climb*.
 
 `ANTI-ICE ..................................................... AS REQUIRED`<br/>
 
-The aircraft will now continue climbing while managing thrust and pitch level. The __Autopilot__ ensures that the aircraft stays at the Selected or Managed Speed setting and climbs to the new altitude while managing thrust automatically.
+??? info "Climbing higher"
+    The aircraft will now continue climbing while managing thrust and pitch level. The __Autopilot__ ensures that the aircraft stays at the Selected or Managed Speed setting and climbs to the new altitude while managing thrust automatically.
 
 The PFD's `FMA` now shows:<br/>
 ![FMA during climb](../assets/beginner-guide/takeoff-climb-cruise/FMA-THR-CLB.png "FMA during climb"){loading=lazy}
@@ -427,14 +428,15 @@ Typically, the climb to the flight plan's cruise level (e.g., FL210) happens in 
     <p/>
     See also [Protections](../a32nx-advanced-guides/protections/overview.md).
 
-**Passing 10,000ft**<br/>
-Turn off and retract the landing lights and when the aircraft is stable (weather, no turn, etc.) you can turn off the seatbelt signs. The aircraft will now accelerate to CLB speed (defined in `MCDU PERF CLB` page).
+??? info "Passing 10,000 feet"
+    Turn off the landing lights, and when the aircraft is stable (weather, no planned turns, etc.) you can turn off the seatbelt signs. The aircraft will now accelerate to CLB speed (defined in `MCDU PERF CLB` page).
 
 `LANDING LIGHT ........................................................ OFF`<br/>
 `SEAT BELT SIGNS .............................................. AS REQUIRED`<br/>
 `OPTIMAL/MAX ALTITUDE ............................................... CHECK`<br/>
 
-At the transition altitude: #NOTE# this will vary depending on where you are in the world. For example, in the U.S. the transition altitude is 18,000 feet. In the Netherlands it is 3000. Check with your local aviation authority for more details.
+??? note "At the transition altitude"
+     *NOTE:* this will vary depending on where you are in the world. For example, in the U.S. the transition altitude is 18,000 feet. In the Netherlands it is 3000. Check with your local aviation authority for more details. Upon passing the set transition altitude, you will set your barometer to `STD`, as notated in the Check Baro Setting item in the previous section. Standard altitude is `29.92 in` or `1013 QNH`.
 
 `BAROMETRIC REFERENCE ........................................ SET STANDARD`<br/>
 
