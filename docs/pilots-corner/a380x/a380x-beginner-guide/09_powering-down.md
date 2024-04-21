@@ -194,7 +194,9 @@ This concludes *Disembarking Passengers and Baggage*.
 ![NAV & LOGO off](../assets/beginner-guide/powering-down/nav-logo-off-1.png "NAV & LOGO off"){loading=lazy width=20%} <p style="color:yellow; font-size:18px;">TODO: update screenshot</p> 
 
 
-`ALL BATT ............................................................. OFF`<br/>
+`ALL BATT (Battery 1, Essential, Battery 2, APU Battery) . . .. . . . . . . . . . . . . . . . . OFF`<br/>
+??? note "APU Flaps"
+	It is recommended to wait until the APU flap is closed before shutting off the APU battery.
 
 ![Batteries off](../assets/beginner-guide/powering-down/batteries-off.png "Batteries off"){loading=lazy width=70%} <p style="color:yellow; font-size:18px;">TODO: update screenshot</p> 
 
