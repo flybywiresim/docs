@@ -193,7 +193,6 @@ This concludes *Disembarking Passengers and Baggage*.
 
 ![NAV & LOGO off](../assets/beginner-guide/powering-down/nav-logo-off-1.png "NAV & LOGO off"){loading=lazy width=20%} <p style="color:yellow; font-size:18px;">TODO: update screenshot</p> 
 
-- Turn off `BAT 1` and `BAT 2`.
 
 `ALL BATT ............................................................. OFF`<br/>
 
