@@ -74,7 +74,6 @@ If we want to actually do a turn around and start a new flight directly, the pro
 
 ![APU BLEED ON](../assets/beginner-guide/powering-down/apu-bleed-on1.png "APU BLEED ON"){loading=lazy width=20%} <p style="color:yellow; font-size:18px;">TODO: update screenshot</p> 
 
-- Shut down the engines by setting the `ENG 1`, `ENG 2`, `ENG 3` and `ENG 4` master switches to off.
 
 `ENGINE MASTER SWITCHES (1, 2, 3, 4) .................................. OFF`<br/>
 
