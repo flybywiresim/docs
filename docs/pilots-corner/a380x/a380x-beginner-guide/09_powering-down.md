@@ -145,7 +145,6 @@ This concludes *Disembarking Passengers and Baggage*.
 
 ![Fuel pumps off](../assets/beginner-guide/powering-down/fuel-pumps-off.png "Fuel pumps off"){loading=lazy width=80%} <p style="color:yellow; font-size:18px;">TODO: update screenshot</p> 
 
-- Turn off the `ADIRS`.
 
 `ADIRS (1+2+3) ........................................................ OFF`<br/>
 
