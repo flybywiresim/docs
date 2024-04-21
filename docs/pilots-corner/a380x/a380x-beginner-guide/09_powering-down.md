@@ -150,7 +150,6 @@ This concludes *Disembarking Passengers and Baggage*.
 
 ![ADIRS OFF](../assets/beginner-guide/powering-down/adirs-off.png "ADIRS OFF"){loading=lazy } <p style="color:yellow; font-size:18px;">TODO: update screenshot</p> 
 
-- Turn off `OXYGEN`.
 
 `OXYGEN CREW SUPPLY ................................................... OFF`<br/>
 
