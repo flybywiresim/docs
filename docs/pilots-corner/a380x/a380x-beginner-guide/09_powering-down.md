@@ -187,7 +187,6 @@ This concludes *Disembarking Passengers and Baggage*.
 
 ![External Power off](../assets/beginner-guide/powering-down/ext-power-off.png "External Power off"){loading=lazy width=20%} <p style="color:yellow; font-size:18px;">TODO: update screenshot</p> 
 
-- Turn off `NAV & LOGO` lights (as the aircraft no longer has power).
 
 `EXTERIOR LIGHTS ...................................................... OFF`<br/>
 
