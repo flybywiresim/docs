@@ -140,7 +140,6 @@ This concludes *Disembarking Passengers and Baggage*.
 
 **To secure the aircraft, we follow these steps: **
 
-- Turn off all fuel pumps.
 
 `FUEL PUMPS ........................................................... OFF`<br/>
 
