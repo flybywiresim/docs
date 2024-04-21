@@ -160,7 +160,6 @@ This concludes *Disembarking Passengers and Baggage*.
 
 ![APU BLEED OFF](../assets/beginner-guide/powering-down/apu-bleed.png "APU BLEED OFF"){loading=lazy width=20%} <p style="color:yellow; font-size:18px;">TODO: update screenshot</p> 
 
-- Turn off emergency exit lights `EMER EXIT LT` and no smoking lights `NO SMOKING`.
 
 `EMERGENCY EXIT LIGHTS ................................................ OFF`<br/>
 `NO SMOKING ........................................................... OFF`<br/>
