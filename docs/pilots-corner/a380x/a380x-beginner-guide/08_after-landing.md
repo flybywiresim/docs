@@ -58,7 +58,7 @@ ATC Tower will usually hand us off to ATC Ground, and they will give us taxi ins
 
     ![Spoiler armed and disarmed](../assets/beginner-guide/after-landing/Spoiler.png "Spoiler armed and disarmed"){loading=lazy } <p style="color:yellow; font-size:18px;">TODO: update/screenshot</p>
 
-`GROUND SPOILERS ...................................................... OFF`<br/>
+`GROUND SPOILERS ................................................... DISARM`<br/>
 
 - Set your `ENG MODE` selector to NORM in case you set it to IGN/START before.
 
