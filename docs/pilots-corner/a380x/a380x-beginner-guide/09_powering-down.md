@@ -167,7 +167,6 @@ This concludes *Disembarking Passengers and Baggage*.
 ![Signs off](../assets/beginner-guide/powering-down/passenger-signs.png "Signs off"){loading=lazy} <p style="color:yellow; font-size:18px;">TODO: update screenshot</p> 
 
 - Optional or depending on airline SOPs: Reset air conditioning, lighting, and screen brightness.
-- Turn off `APU MASTER` (expect the APU to still be AVAIL for a few minutes if you also had APU Bleed on shortly before, as it needs a cool down period).
 
 `AUXILIARY POWER UNIT MASTER SWITCH ................................... OFF`<br/>
 
