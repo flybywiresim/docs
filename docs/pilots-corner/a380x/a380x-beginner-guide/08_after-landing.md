@@ -20,6 +20,7 @@ Aircraft has vacated the runway completely and has been brought to a stop on the
 ![Runway vacated](../assets/beginner-guide/after-landing/rwy-vacated.png "Runway vacated"){ loading=lazy } <p style="color:yellow; font-size:18px;">TODO: update/screenshot</p>
 
 [Download FlyByWire Checklist](../assets/sop/A32NX%20Documentation/FBW%20A32NX%20Checklist.pdf){ .md-button }
+<p style="color:yellow; font-size:18px;">TODO: update link</p>
 
 ## Chapters / Phases
 
