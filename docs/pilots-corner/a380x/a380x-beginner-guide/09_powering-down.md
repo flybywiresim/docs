@@ -49,51 +49,28 @@ This guide will cover these phases:
 `NOSE LT ............................................................. TAXI`<br/>
 `LANDING LTS .......................................................... OFF`<br/>
 
-??? tip "At the gate"
-    <p style="color:yellow; font-size:18px;">TODO: update screenshot</p> 
+??? tip "Gate procedures"
+    We have arrived at our gate, and we are ready to disembark our passengers and cargo, and get the plane ready for the next crew. To do this, we will take a couple of steps to ensure the aircraft is parked safely, secured, and still has power and air conditioning when we go to shut the engines off. We also need to shut off our exterior lighting that is no longer necessary.
 
-??? tip "Steps after arriving at the gate"
-    - Set parking brake (`PARK BRK`).
-    <p style="color:yellow; font-size:18px;">TODO: update screenshot</p> 
+     - `Parking brake` is now `ON.`
+     - `Exterior lights` are `OFF.`
+     - `APU bleed` is `ON` so we still have A/C.
+     - `Engine Master Switches` are `OFF.`
+     - `Beacon Light` is turned `OFF`
 
 `PARKING BRAKE ......................................................... ON`<br/>
-
-??? tip "Exterior Lights"
-    - `NOSE TAXI` and `RWY TURN OFF` lights are usually turned off even before we turn into the gate to not blind the ground personnel. This of course is only done if enough lighting is available to safely navigate and park into the gate. Turn them off if they were used while parking.
-
 `EXTERIOR LIGHTS ...................................................... OFF`<br/>
-
-??? tip "APU bleed ON"
-    <p style="color:yellow; font-size:18px;">TODO: update screenshot</p> 
-
 `AUXILIARY POWER UNIT BLEED ............................................ ON`<br/>
-
-??? tip "Engine switches"
-    <p style="color:yellow; font-size:18px;">TODO: update screenshot</p> 
-
 `ENGINE MASTER SWITCHES (1, 2, 3, 4) .................................. OFF`<br/>
-
-??? tip "Engine N1 %"
-    <p style="color:yellow; font-size:18px;">TODO: update screenshot</p> 
-
-`ENGINE N1 < 5%  ...................................................... OFF`<br/>
-
-??? tip "Seat belt sign off"
-    <p style="color:yellow; font-size:18px;">TODO: update screenshot</p> 
-
+`ENGINE N1 < 5% ....................................................... OFF`<br/>
 `SEAT BELTS ........................................................... OFF`<br/>
-
-??? tip "Beacon light off"
-    ![All_Ext_LT_off](../assets/beginner-guide/powering-down/beacons-off.png){width=20%} <p style="color:yellow; font-size:18px;">TODO: update screenshot</p> 
-
 `BEACON ............................................................... OFF`<br/>
+`EXTERNAL POWER ........................................................ ON`<br/>
 
 ??? tip "Complete **Parking** checklist"
     If external power were available, the ground crew would have connected it by now, and we can turn on `EXT PWR`. Turning off the APU depends on the turn around time. For a shutdown, we do this after the passengers have disembarked to still have airflow in the cabin. See last chapter.
 
     ![Parking Checklist](../assets/beginner-guide/powering-down/Parking-checklist.png "Parking Checklist"){loading=lazy width=50%}
-
-`EXTERNAL POWER ........................................................ ON`<br/>
 
 This concludes *Parking at the Gate*.
 
@@ -130,52 +107,28 @@ This concludes *Disembarking Passengers and Baggage*.
     - Aircraft is empty (no passengers or cargo).
     - Cabin is cleaned and ready for shutdown.
 
-**To secure the aircraft, we follow these steps: **
+??? tip "Securing the aircraft"
+    In the event that there is no other crew that will use this aircraft for a flight immediately following ours, so we are going to secure the aircraft. Doing this will put the aircraft into a `Cold and Dark` state, meaning whoever flies the aircraft next will have to do a complete power up. To do this we will need to shut off all lighting, power and fuel pumps. We are essentially doing the opposite of what we did when we powered the plane up from a `Cold and Dark` state.
 
-??? tip "Fuel pumps off"
-    <p style="color:yellow; font-size:18px;">TODO: update screenshot</p> 
+     - `FUEL PUMPS` are turned `OFF`
+     - `ADIRS` are turned `OFF`
+     - `OXYGEN CREW SUPPLY` is shut `OFF`
+     - The `APU` is turned `OFF`
+     - `EMERGENCY EXIT` and `NO SMOKING` signs are turned `OFF`
+     - The `APU MASTER SWITCH` is turned `OFF`
+     - All `EXTERIOR LIGHTING` is shut `OFF`
+     - All `BATTERIES` are shut `OFF`
+    <p style="color:yellow; font-size:18px;">TODO: insert screenshots as warranted</p> 
 
 `FUEL PUMPS ........................................................... OFF`<br/>
-
-??? tip "ADIRS off"
-    <p style="color:yellow; font-size:18px;">TODO: update screenshot</p> 
-
 `ADIRS (1+2+3) ........................................................ OFF`<br/>
-
-??? tip "O2 Crew Supply"
-    <p style="color:yellow; font-size:18px;">TODO: update screenshot</p> 
-
 `OXYGEN CREW SUPPLY ................................................... OFF`<br/>
-
-??? tip "APU bleed OFF"
-    <p style="color:yellow; font-size:18px;">TODO: update screenshot</p> 
-
 `AUXILIARY POWER UNIT BLEED ........................................... OFF`<br/>
-
-??? tip "Emergency lights and No Smoking signs"
-    <p style="color:yellow; font-size:18px;">TODO: update screenshot</p> 
-
 `EMERGENCY EXIT LIGHTS ................................................ OFF`<br/>
 `NO SMOKING ........................................................... OFF`<br/>
-
-??? tip "APU Master swtich OFF"
-    <p style="color:yellow; font-size:18px;">TODO: update screenshot</p> 
-
 `AUXILIARY POWER UNIT MASTER SWITCH ................................... OFF`<br/>
-
-??? tip "External power OFF"
-    <p style="color:yellow; font-size:18px;">TODO: update screenshot</p> 
-
 `EXTERNAL POWER ....................................................... OFF`<br/>
-
-??? tip "Exterior Lights OFF"
-    <p style="color:yellow; font-size:18px;">TODO: update screenshot</p>
-
 `EXTERIOR LIGHTS ...................................................... OFF`<br/>
-
-??? tip "All batteries OFF"
-    <p style="color:yellow; font-size:18px;">TODO: update screenshot</p>
-
 `ALL BATT (Battery 1, Essential, Battery 2, APU Battery) .............. OFF`<br/>
 
 Now the aircraft is back in a cold and dark state.
