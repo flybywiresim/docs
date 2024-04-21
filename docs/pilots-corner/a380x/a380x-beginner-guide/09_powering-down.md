@@ -69,7 +69,6 @@ If we want to actually do a turn around and start a new flight directly, the pro
 
 ![Taxilights off](../assets/beginner-guide/powering-down/lights-taxi-off.png "Taxilights off"){loading=lazy} <p style="color:yellow; font-size:18px;">TODO: update screenshot</p> 
 
-- Turn on `APU BLEED` before we turn off the engines.
 
 `AUXILIARY POWER UNIT BLEED ............................................ ON`<br/>
 
