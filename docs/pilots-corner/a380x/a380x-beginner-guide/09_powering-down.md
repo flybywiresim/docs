@@ -182,7 +182,6 @@ This concludes *Disembarking Passengers and Baggage*.
 ![APU Master off](../assets/beginner-guide/powering-down/apu-master-off1.png "APU Master off"){loading=lazy width=20%} <p style="color:yellow; font-size:18px;">TODO: update screenshot</p> 
 
 - Wait 2 minutes for the APU FLAP door to close before you turn off the power, as this requires either APU or external power.
-- Turn off `EXT PWR` if it has been turned on before
 
 `EXTERNAL POWER ....................................................... OFF`<br/>
 
