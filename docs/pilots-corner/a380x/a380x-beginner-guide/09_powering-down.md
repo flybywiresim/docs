@@ -83,7 +83,6 @@ If we want to actually do a turn around and start a new flight directly, the pro
 
 ![Engines N1 under 5 %](../assets/beginner-guide/powering-down/ENG-N1-u5.png "Engines N1 under 5 %"){loading=lazy width=50%} <p style="color:yellow; font-size:18px;">TODO: update screenshot</p> <p style="color:yellow; font-size:18px;">is this necessary to keep in? not mentioned in SOP at all.</p>
 
-- Turn off `Seat Belt` sign.
 
 `SEAT BELTS ........................................................... OFF`<br/>
 
