@@ -155,7 +155,6 @@ This concludes *Disembarking Passengers and Baggage*.
 
 ![OXYGEN Crew Supply off](../assets/beginner-guide/powering-down/crewoxyhighlight.png "OXYGEN Crew Supply off"){loading=lazy} <p style="color:yellow; font-size:18px;">TODO: update screenshot</p> 
 
-- Turn off `APU BLEED`.
 
 `AUXILIARY POWER UNIT BLEED ........................................... OFF`<br/>
 
