@@ -87,7 +87,7 @@ This guide will cover these phases:
 - Aircraft is in `CRUISE` state and phase as per previous chapters.
 - Distance to destination is ~ 200 NM (on a short flight, start as early as possible and maybe even before the flight).<p>
 
-!!! tip "Important Data Points for Descent Planning:"
+??? tip "Important Data Points for Descent Planning:"
 
     - **Cruise Flight Level:** The higher we fly, the earlier we need to start descending. Also for short flights, too high a cruising altitude can make it impossible to actually descend to the destination airport in time. Therefore, verify your flight plan if overall distance and flight level make sense.
     - **Flight Plan Constraints:** STARs often have flight level (FL) or altitude constraints which we must adhere to. We must plan our descent, so we can meet these altitude constraints, even when they themselves are still far away from the destination airport.
@@ -126,27 +126,27 @@ This guide will cover these phases:
 
     See our feature guide [FIX INFO](../advanced-guides/flight-planning/fixinfo.md) for how to use this function.
 
-#### How to Calculate the Required Distance for Descent
+??? tip "How to Calculate the Required Distance for Descent"
 
-**Example data:**
+    **Example data:**
 
-- Flight to EGKK via STAR TEBRA 2G.
-- Flight level FL320.
-- STAR constraint at waypoint ABTUM "at FL140".
+    - Flight to EGKK via STAR TEBRA 2G.
+    - Flight level FL320.
+    - STAR constraint at waypoint ABTUM "at FL140".
 
-**Example chart:**
+    **Example chart:**
 
-![STAR EGKK TEBRA](../assets/beginner-guide/descent/STAR-EGKK-TEBRA.png "STAR EGKK TEBRA"){loading=lazy}<br/>
-<sub>*Copyright © 2021 Navigraph / Jeppesen<br/>
-"Navigraph Charts are intended for flight simulation use only, not for navigational use."*
+    ![STAR EGKK TEBRA](../assets/beginner-guide/descent/STAR-EGKK-TEBRA.png "STAR EGKK TEBRA"){loading=lazy}<br/>
+    <sub>*Copyright © 2021 Navigraph / Jeppesen<br/>
+    "Navigraph Charts are intended for flight simulation use only, not for navigational use."*
 
-**Using the flyPad:**
+    **Using the flyPad:**
 
-Standard calculation with 3° descent path:
-![Descent from FL320 to FL140](../assets/beginner-guide/descent/FlyPad-performance-TOD.png "Descent from FL320 to FL140"){loading=lazy}
+    Standard calculation with 3° descent path:
+    ![Descent from FL320 to FL140](../assets/beginner-guide/descent/FlyPad-performance-TOD.png "Descent from FL320 to FL140"){loading=lazy}
 
-Calculation with a specific distance to calculate the required descent velocity (V/S):
-![Descent calculation with a given distance](../assets/beginner-guide/descent/FlyPad-performance-TOD2.png "Descent calculation with a given distance")
+    Calculation with a specific distance to calculate the required descent velocity (V/S):
+    ![Descent calculation with a given distance](../assets/beginner-guide/descent/FlyPad-performance-TOD2.png "Descent calculation with a given distance")
 
 ??? tip "**Using "Rule of Thumb":**"
 
@@ -171,7 +171,7 @@ Calculation with a specific distance to calculate the required descent velocity 
 
 !!! warning "Important Notice"
     The following is a more advanced process for planning our arrival. It is obviously important when we want to have a more realistic experience, but in Microsoft Flight Simulator you can skip this part for now. <br/>
-    Also, this process is best done with an Online ATC service, as the built-in MSFS ATC does not provide the necessary information at the right time.
+    This process is best done with an Online ATC service, as the built-in MSFS ATC does not provide the necessary information at the right time.
 
 Before we descend, we should also reconfirm our destination runway and input or update our destination data into the MCDU PERF APPR page.
 This is typically done about 50 NM before the starting the descent.
@@ -181,41 +181,40 @@ This is typically done about 50 NM before the starting the descent.
 
     As a quick reminder, when descending from cruise the flight crew is moving from a "Flight Level" to a local altimeter for arrival, which is where the `TRANS LVL` value is derived from. 
 
-![ENTER DEST DATA Message on the MFD](../assets/beginner-guide/descent/MCDU-Enter-dest-data.png "ENTER DEST DATA Message on the MFD"){loading=lazy}
+??? tip "Entering DEST DATA on the MFD"
+    We can obtain this data from the destination airport's ATIS information and the airport charts.
 
+    ![ENTER DEST DATA Message on the MFD](../assets/beginner-guide/descent/MCDU-Enter-dest-data.png "ENTER DEST DATA Message on the MFD"){loading=lazy}
 
+    From ATIS we get: `QNH`, `TEMP`, `MAG WIND` and `TRANS LVL` - if not refer to the approach chart.
 
-We can obtain this data from the destination airport's ATIS information and the airport charts.
+    ATIS Example:
+    ```
+    GATWICK INFORMATION K TIME 2020, RUNWAY IN USE 26L
+    TRANSITION LEVEL FL70, SURFACE WIND 260,7 KNOTS
+    CAVOK TEMPERATURE +16, DEW POINT +12, QNH 1018,
+    ACKNOWLEDGE RECEIPT OF INFORMATION K AND ADVISE AIRCRAFT
+    TYPE ON FIRST CONTACT
+    ```
 
-From ATIS we get: `QNH`, `TEMP`, `MAG WIND` and `TRANS LVL` - if not refer to the approach chart.
+    From the chart, we get `Trans level` and `BARO` (=DA or MDA) or `RADIO` (=RA or DH). 
 
-ATIS Example:
-```
-GATWICK INFORMATION K TIME 2020, RUNWAY IN USE 26L
-TRANSITION LEVEL FL70, SURFACE WIND 260,7 KNOTS
-CAVOK TEMPERATURE +16, DEW POINT +12, QNH 1018,
-ACKNOWLEDGE RECEIPT OF INFORMATION K AND ADVISE AIRCRAFT
-TYPE ON FIRST CONTACT
-```
-
-From the chart, we get `Trans level` and `BARO` (=DA or MDA) or `RADIO` (=RA or DH). 
-
-- CAT I ILS uses DA or MDA and is entered into the `BARO` field.
-- CAT II/III ILS use RA or DH, which is put in the `RADIO` field.
-- `BARO` is based on barometric altitude whereas `RADIO` is based on radio altitude (distance to ground).
+    - CAT I ILS uses DA or MDA and is entered into the `BARO` field.
+    - CAT II/III ILS use RA or DH, which is put in the `RADIO` field.
+    - `BARO` is based on barometric altitude whereas `RADIO` is based on radio altitude (distance to ground).
 
 For more information on the different types of minimums, see the [Minimums and MDA/DH](../../airliner/airliner-flying-guide/approaches.md#minimums-and-mdadh) section on the [Approaches](../../airliner/airliner-flying-guide/approaches.md) page in the airliner flying guide.
 
-!!! tip "Trans level: By ATC"
+??? tip "Trans level: By ATC"
     In the particular example below, the `Trans level` field states `By ATC`. If you are not flying on a network such as VATSIM or IVAO, you can try the following things:
 
     - Search online for the real life D-ATIS at your arrival airport (much like the ATIS example above).
     - Use the `Trans ALT` + 1000 ft.
     - If you have imported your flight plan via our simBrief integration, this value would be autopopulated for you.
 
-![Transition level on chart](../assets/beginner-guide/descent/EGKK-APPR-char-1.png "Transition level on chart"){loading=lazy}<br/>
-![ILS information on chart](../assets/beginner-guide/descent/EGKK-APPR-chart-2.png "ILS information on chart"){loading=lazy}<br/>
-<sub>*Copyright © 2021 Navigraph / Jeppesen*
+    ![Transition level on chart](../assets/beginner-guide/descent/EGKK-APPR-char-1.png "Transition level on chart"){loading=lazy}<br/>
+    ![ILS information on chart](../assets/beginner-guide/descent/EGKK-APPR-chart-2.png "ILS information on chart"){loading=lazy}<br/>
+    <sub>*Copyright © 2021 Navigraph / Jeppesen*
 
 ??? tip "How and Why ILS works"
     The A380 is capable of a CAT IIIB ILS approach and has an approach category of "C" - see the red area on the chart. (see [Wikipedia Aircraft approach category](https://en.wikipedia.org/wiki/Aircraft_approach_category){target=new})
@@ -230,21 +229,23 @@ For more information on the different types of minimums, see the [Minimums and M
 `LANDING ELEVATION .................................................. CHECK`<br/>
 `BAROMETRIC REFERENCE .............................................. PRESET`<br/>
 
-We can in any case request the METAR weather information for the destination airport via the same page.
+??? tip "How and why: METAR"
+    We can in any case request the METAR weather information for the destination airport via the same page.
 
-![MCDU ATSU AOC page - WX and ATIS](../assets/beginner-guide/descent/MCDU-ATSU-AOC-WX.png "MCDU ATSU AOC page - WX and ATIS"){loading=lazy} <p style="color:yellow; font-size:18px;">TODO: update screenshot with new MFD</p>
+    ![MCDU ATSU AOC page - WX and ATIS](../assets/beginner-guide/descent/MCDU-ATSU-AOC-WX.png "MCDU ATSU AOC page - WX and ATIS"){loading=lazy} <p style="color:yellow; font-size:18px;">TODO: update screenshot with new MFD</p>
 
-If we used Simbrief for flight planning, we can also see METAR information on the flyPad after importing the SimBrief plan to the flyPad.
+    If we used Simbrief for flight planning, we can also see METAR information on the flyPad after importing the SimBrief plan to the flyPad.
 
-![flyPad showing weather](../../../aircraft/a32nx/assets/flypados3/weather-widget-input.png){loading=lazy}
+    ![flyPad showing weather](../../../aircraft/a32nx/assets/flypados3/weather-widget-input.png){loading=lazy}
 
-Once we have confirmed the destination runway and the destination data, we are set for the approach, and we can continue to focus on the descent.
+    Once we have confirmed the destination runway and the destination data, we are set for the approach, and we can continue to focus on the descent.
 
 `LANDING PERFORMANCE ................................................ CHECK`<br/>
 
-##VERIFY LANDING CALCULATOR WILL BE PRESENT IN NEW SYSTEM##
+<p style="color:yellow; font-size:18px;">TODO: VERIFY LANDING CALC WILL BE PRESENT IN NEW FMS</p>
 
-If not already inserted, insert the applicable APPR, STAR, TRANS and APPR VIA in the active flight plan arrival page of the flight management system.
+??? tip "Insert additional info"
+    If not already inserted, insert the applicable APPR, STAR, TRANS and APPR VIA in the active flight plan arrival page of the flight management system.
 
 `FMS ACTIVE/F-PLN/ARRIVAL PAGE ............................... INSERT/CHECK`<br/>
 `DES PANEL OF THE FMS ACTIVE/PERF PAGE ....................... INSERT/CHECK`<br/>
@@ -266,77 +267,60 @@ This concludes *Descent and Approach Planning*.
 - First descent point (altitude at certain waypoint) is identified.
 - Distance to descent point is calculated, which is called TOD (top of descent).
 
-A few minutes before we reach our calculated descent point (TOD) we request clearance for descent from ATC if not already given a descent instruction before.
+??? tip "Descent Clearance from ATC & TOD"
+    A few minutes before we reach our calculated descent point (TOD) we request clearance for descent from ATC if not already given a descent instruction before.
 
-**Do NOT start the descent without clearance from ATC.**
+    **Do NOT start the descent without clearance from ATC.**
+
+    The A380 has a downward pointing arrow at the TOD to support the pilot with the decision of when to descend. Ultimately, it is still the pilot's responsibility to calculate and validate the TOD.
+
+    When clearance is given, we can start our descent to the flight level or altitude ATC has given us.
 
 `DESCENT CLEARANCE ................................................. OBTAIN`<br/>
 `CLEARED ALTITUDE ON AUTO FLIGHT SYSTEM CONTROL PANEL ................. SET`<br/>
-
-!!! info "TOD marker A380"
-    The A380 has a downward pointing arrow at the TOD to support the pilot with the decision of when to descend. Ultimately, it is still the pilot's responsibility to calculate and validate the TOD.
-
-When clearance is given, we can start our descent to the flight level or altitude ATC has given us.
-
 `DESCENT ......................................................... INITIATE`<br/>
 `ALTITUDE ............................................................ PUSH`<br/>
 
-For descending, we set the new flight level or altitude in the `FCU` with the `altitude selector`. We can then either PUSH the selector for `Managed Altitude Mode` (constraints are respected, also known as [DES](../a32nx-advanced-guides/flight-guidance/vertical-guidance/managed-modes.md#des-descent)) or PULL the selector for `Selected Altitude Mode` (constraints are ignored, also known as [OP DES](../a32nx-advanced-guides/flight-guidance/vertical-guidance/selected-modes.md#op-des-open-descent)). 
-<p style="color:yellow; font-size:18px;">TODO: update screenshot with new FCU if needed</p>
+??? tip "Manual descent rate selection"
+    For descending, we set the new flight level or altitude in the `FCU` with the `altitude selector`. We can then either PUSH the selector for `Managed Altitude Mode` (constraints are respected, also known as [DES](../a32nx-advanced-guides/flight-guidance/vertical-guidance/managed-modes.md#des-descent)) or PULL the selector for `Selected Altitude Mode` (constraints are ignored, also known as [OP DES](../a32nx-advanced-guides/flight-guidance/vertical-guidance/selected-modes.md#op-des-open-descent)). 
+    <p style="color:yellow; font-size:18px;">TODO: update screenshot with new FCU if needed</p>
+
 !!! warning "DES mode"
     Managed Descent (DES) Mode will follow a calculated vertical profile, this may lead to unexpected occurrences of very high and very low V/S. Users not familiar with Airbus Managed Descent should use OP DES instead as it provides a linear descent most users would expect. See the [Vertical Guidance Guide](../a32nx-advanced-guides/flight-guidance/vertical-guidance/overview.md) for more information on using managed vertical modes.
 
-When either of these altitude modes are engaged, the relevant mode will appear in the Second Column of the `FMA`, and will be displayed in green. (See [Vertical Mode Annunciations](../a380x-briefing/pfd/second-column.md)).
+    When either of these altitude modes are engaged, the relevant mode will appear in the Second Column of the `FMA`, and will be displayed in green. (See [Vertical Mode Annunciations](../a380x-briefing/pfd/second-column.md)).
 
-!!! warning "Using V/S"
+??? tip "Using V/S"
     It is not recommended to use V/S for climbing or descending in the A380 (at least not for beginners) as the V/S guidance has priority over the speed guidance, and speed needs to be watched very closely when using V/S.
     <p/>
     If the selected target V/S is too high (relative to the current thrust condition and speed), the FMGC will steer the aircraft to the target V/S, but the aircraft will also accelerate or decelerate. When the speed reaches its authorized limit, V/S automatically decreases to maintain the minimum or maximum speed limit.
     <p/>
     See also [Protections](../a32nx-advanced-guides/protections/overview.md).
+    <p style="color:yellow; font-size:18px;">TODO: update screenshot with new FCU</p>
 
-![FCU with ALT and V/S selector](../assets/beginner-guide/descent/FCU-AP-selector.png "FUC with ALT and V/S selector"){loading=lazy} <p style="color:yellow; font-size:18px;">TODO: update screenshot with new FCU</p>
-
-ATC typically will not clear us to our final target altitude directly, but will give us several step descents down to our required altitude.
-
-`DESCENT .......................................................... MONITOR`<br/>
-
-Also, ATC will often still expect us to respect the STAR's constraints, although they might have given us a lower clearance. We should then only descent to the constraint's altitude.
-
-??? tip "VNAV in the FlyByWire A380X"
-    The scenario that we are cleared to a lower altitude or flight level with altitude constraints above the clearance is an ideal scenario for the called so "VNAV" autopilot mode, which would be activated by using "`Managed Altitude Mode`" (pushing the `ALT selector`). The autopilot will automatically level off at the constraint and continue descending when the constraint is no longer valid.
+??? tip "VNAV and ATC in the FlyByWire A380X"
+    The scenario that we are cleared to a lower altitude or flight level with altitude constraints above the clearance is an ideal scenario for the called so `VNAV` autopilot mode, which would be activated by using "`Managed Altitude Mode`" (pushing the `ALT selector`). The autopilot will automatically level off at the constraint and continue descending when the constraint is no longer valid. ATC typically will not clear us to our final target altitude directly, but will give us several step descents down to our required altitude.
+    ATC will often still expect us to respect the STAR's constraints, although they might have given us a lower clearance. We should then only descent to the constraint's altitude. We repeat the process until we have reached our desired final approach altitude.
 
 `RATE OF DESCENT ....................................... ADJUST AS REQUIRED`<br/>
+`DESCENT .......................................................... MONITOR`<br/>
 `SPEEDBRAKES .................................................. AS REQUIRED`<br/>
-
-We repeat the process until we have reached our desired final approach altitude.
 
 !!! info "Airline SOPs"
     Some airline's SOPs (standard operating procedures) might have a different order for the following steps.
 
-#### At 10 000 ft Procedure
+??? tip "10,000 feet"
+    As we reach the 10,000 foot mark in our descent, we have to take a few more steps to prepare the aircraft to land. We make sure the seatbelt sign is on so passengers are secure and not moving around during descent. We also make sure the landing lights are on so we are visible to other aircraft on approach. The `LS` buttons are turned on so we have the landing system active for when we intercept the ILS. 
 
 `LANDING LIGHTS ........................................................ ON`<br/>
 `SEAT BELTS SIGN ....................................................... ON`<br/>
 `CSTR BUTTON ........................................................... ON`<br/>
 `LS BUTTON .................................................... AS REQUIRED`<br/>
 `NAVAIDS ................................................ AS REQUIRED/CHECK`<br/>
+`EFIS ..................................................... CSTR CROSSCHECK`<br/>
 
-- `LAND` lights selector: SET
-    - `LAND` lights may be switched ON, according to the airline policy/regulatory recommendations
-- `SEAT BELTS` switch: ON
-- `EFIS` Option push button: `CSTR` on both sides
-- `LS` push button: As required
-    - Select `LS`, if an ILS, GLS or LOC approach is intended
-    - The PFD displays the LOC and glide scales and deviation symbol, if there is a valid /LS or GLS signal.
-    - Check that the /LS/GLS identification is displayed on the PFD.
-- `RAD NAVAIDS` (`RNAV` page on MCDU): Selected/Identified
-    - Ensure that appropriate radio NAVAIDS are tuned and identified. The A380X is capable of autotuning to the correct frequency.
-    - For NDB approaches, manually select the reference NAVAID.
-
-#### Approach Checklist
-
-![Approach Checklist](../assets/beginner-guide/descent/Approach-checklist.png "Approach Checklist"){loading=lazy width=40%}
+??? tip "Approach Checklist"
+    ![Approach Checklist](../assets/beginner-guide/descent/Approach-checklist.png "Approach Checklist"){loading=lazy width=40%}
 
 ??? tip "Cabin Crew"
 
@@ -359,24 +343,22 @@ This concludes *Starting the Descent*.
 - We have not yet reached the first waypoint of the STAR.
 - `MCDU PERF APPR` page is filled (beginners can skip this - see chapter [Advanced arrival planning](#advanced-arrival-planning)).
 
-Flying the STAR and Approach is very similar to any other part of the route within the flight plan. Apart from descending and adhering to constraints, the lateral flight path just follows the programmed route.<br/>
- Let the __Autopilot__ do this for you, and just adjust altitude and speed according to the charts or ATC instructions.
+??? tip "STAR and Approach"
+    Flying the STAR and Approach is very similar to any other part of the route within the flight plan. Apart from descending and adhering to constraints, the lateral flight path just follows the programmed route.<br/>
+    Let the __Autopilot__ do this for you, and just adjust altitude and speed according to the charts or ATC instructions.
 
-!!! info "Passing 10 000 ft"
-    If we are passing 10 000 ft within the STAR, remember the [At 10 000 ft Procedure](#at-10-000-ft-procedure) and the [Approach Checklist](#approach-checklist) from the previous chapter.
-
-??? tip "ATC Instructions During Approach"
+    ATC Instructions During Approach
     At some point during the descent and when close enough to the airport, we will be instructed by ATC to contact ATC Approach for the airport we are flying into.
 
     Be prepared for ATC instructions to deviate laterally from the STAR or Approach route to separate from other aircraft or to shortcut the approach when there is little traffic. ATC will then typically give you new heading instructions (heading vectors) and will guide you the rest of the STAR and Approach with additional heading instructions until intercepting the ILS localizer.
 
-**Example for shortcuts:**
+    **Example for shortcuts:**
 
-ROKIL STAR/Transition EDDM (Munich) 26R - it is only in times with a lot of traffic that we would have to fly the whole downwind part of this transition.
+    ROKIL STAR/Transition EDDM (Munich) 26R - it is only in times with a lot of traffic that we would have to fly the whole downwind part of this transition.
 
-![EDDM transition until vectored](../assets/beginner-guide/descent/EDDM-TRANS-chart.png "EDDM transition until vectored"){loading=lazy}<br/>
-<sub>*Copyright © 2021 Navigraph / Jeppesen<br/>
-"Navigraph Charts are intended for flight simulation use only, not for navigational use."*
+    ![EDDM transition until vectored](../assets/beginner-guide/descent/EDDM-TRANS-chart.png "EDDM transition until vectored"){loading=lazy}<br/>
+    <sub>*Copyright © 2021 Navigraph / Jeppesen<br/>
+    "Navigraph Charts are intended for flight simulation use only, not for navigational use."*
 
 ---
 
@@ -388,18 +370,18 @@ ROKIL STAR/Transition EDDM (Munich) 26R - it is only in times with a lot of traf
 - Aircraft is set up for flight <10,000ft (`seat belt signs` on, `landing lights` on, etc.).
 - We are either within the IAP (Instrument Approach) and at the correct altitude and speed or at a heading vector, altitude, and speed instructed by ATC.
 
-At the end of the Instrument Approach (or by ATC vectoring) we will be on a path to the Final Approach Fix and/or intercepting the ILS localizer and eventually the ILS glideslope.
+??? tip "Reaching the end of ILS Approach"
+    At the end of the Instrument Approach (or by ATC vectoring) we will be on a path to the Final Approach Fix and/or intercepting the ILS localizer and eventually the ILS glideslope.
+    To intercept the ILS, we need to be at the correct altitude and should not have an approach angle larger than 30°. THE `LS` button should also be `ON`on both the captain and first officer's sides of the FCU.
+
+    ![EDDM ILS 26R chart](../assets/beginner-guide/descent/EDDM-ILS-26R-chart.png "EDDM ILS 26R chart"){loading=lazy}<br>
+    ![EDDM ILS 26R GS chart](../assets/beginner-guide/descent/EDDM-ILS-26R-GS-chart.png "EDDM ILS 26R GS chart"){loading=lazy}<br/>
+    <sub>*Copyright © 2021 Navigraph / Jeppesen<br/>
+    "Navigraph Charts are intended for flight simulation use only, not for navigational use."*
 
 `APPROACH PHASE ............................................ CHECK/ACTIVATE`<br/>
 `MANAGED SPEED ...................................................... CHECK`<br/>
 `SPEEDBRAKES .................................................. AS REQUIRED`<br/>
-
-To intercept the ILS, we need to be at the correct altitude and should not have an approach angle larger than 30°. THE `LS` button should also be `ON`on both the captain and first officer's sides of the FCU.
-
-![EDDM ILS 26R chart](../assets/beginner-guide/descent/EDDM-ILS-26R-chart.png "EDDM ILS 26R chart"){loading=lazy}<br>
-![EDDM ILS 26R GS chart](../assets/beginner-guide/descent/EDDM-ILS-26R-GS-chart.png "EDDM ILS 26R GS chart"){loading=lazy}<br/>
-<sub>*Copyright © 2021 Navigraph / Jeppesen<br/>
-"Navigraph Charts are intended for flight simulation use only, not for navigational use."*
 
 More details regarding the ILS approach and landing in the next chapter.
 
