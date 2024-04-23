@@ -66,7 +66,7 @@ This guide will cover these phases:
 `GROUND SPOILERS ................................................... DISARM`<br/>
 `FLAPS ............................................................ RETRACT`<br/>
 `AUXILLIARY POWER UNIT START ........................................... ON`<br/>
-??? note "Starting the APOU"
+??? note "Starting the APU"
     Once we are safely off the runway and on to our assigned taxiway, we need to start the APU. We are doing this to 
     ensure the aircraft will still have electrical power and air conditioning and circulation once we complete our 
     taxi to our assigned gate. Upon reaching the gate, our engines will need to be shut down, and we are still 
