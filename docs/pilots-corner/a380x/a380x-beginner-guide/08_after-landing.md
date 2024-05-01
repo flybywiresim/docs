@@ -8,17 +8,13 @@ This guide will explain the correct procedures after we have landed and vacated 
 
     A *beginner* is defined as someone familiar with flying a GA aircraft or different types of airliners. Aviation terminology and know-how is a requirement to fly any airliner, even in Microsoft Flight Simulator.
 
-    Further reading: [A320 Autoflight](https://www.smartcockpit.com/aircraft-ressources/A319-320-321-Autoflight.html)<br/> <p style="color:yellow; font-size:18px;">TODO: update/this link for 380</p>
-
-
 ---
 
 ## Prerequisites
 
 Aircraft has vacated the runway completely and has been brought to a stop on the taxiway as per previous chapters.
-<p style="color:yellow; font-size:18px;">TODO: update/screenshot</p>
-[Download FlyByWire Checklist](../assets/sop/A32NX%20Documentation/FBW%20A32NX%20Checklist.pdf){ .md-button }
-<p style="color:yellow; font-size:18px;">TODO: update link</p>
+
+[Download FlyByWire Checklist](../assets/sop/FBW_A380X_Checklist.pdf){ .md-button }
 
 ## Chapters / Phases
 
@@ -31,7 +27,7 @@ This guide will cover these phases:
 
 ## 1. After Landing
 
-### Situation
+**Situation**
 
 - Aircraft has vacated the runways completely and has come to a stop on the taxi way as per previous chapters.
 - Flaps and Ground Spoilers are still deployed.
