@@ -52,6 +52,9 @@ This documentation takes you through all pages and functions of the flyPad EFB.
 
 From left to right:
 
+- Simrate Indicator
+    - Indicates if simrate is above or below the normal speed (1x)
+    - Is not displayed if simrate is normal (1x)
 - Quick Controls Button
     - Opens the Quick Controls Menu - see [Quick Controls](#quick-controls) below 
 - SimBridge Connection Status 
@@ -75,7 +78,14 @@ Top row - left to right:
 - Power Off
     - Pressing this button will turn off the flyPad
 
-Middle row - left to right:
+Second row - left to right:
+
+- Brightness Slider 
+    - This slider controls the brightness of the flyPad if it is not set to automatic brightness.
+- Auto Brightness
+    - If auto brightness is enabled, the flyPad will automatically adjust the brightness based on the date and time of day. If auto brightness is disabled, the brightness will be set to the value selected via the brightness slider. 
+
+Third row - left to right:
 
 - Align ADIRS 
     - Pressing this button will immediately align the ADIRS independent of the Realism setting.
@@ -101,12 +111,18 @@ Middle row - left to right:
     - Pressing this button will activate the OnScreen Keyboard. 
     - The OnScreen Keyboard can be used to enter text into the flyPad and appears automatically when a text field is selected.
 
-Bottom row - left to right:
+Fourth Row - left to right:
 
-- Brightness Slider 
-    - This slider controls the brightness of the flyPad if it is not set to automatic brightness.
-- Auto Brightness
-    - If auto brightness is enabled, the flyPad will automatically adjust the brightness based on the date and time of day. If auto brightness is disabled, the brightness will be set to the value selected via the brightness slider. 
+- Pause At Top of Descent
+    - Toggles the option to pause the simulator before the calculated top of descent
+        - By default, this will occur **10 nm** behind the indicated top of descent, this can be further configured in the EFB Settings > Realism page.
+    - When this is triggered, it will pause the simulation, then present a pop-up that when dismissed unpauses the simulation.
+- Simrate Controller
+    - Increase or Decrease the simulation rate by clicking on the up or down chevron. 
+    - This operates in steps which is governed by MSFS itself, for example, 1x, 2x, 4x, etc. 
+    - Caution: Please be mindful when using this option on online networks, and ask for clearance from the controller of your online ATC network before proceeding. 
+    - Note: This is affected by and does not bypass our automatic simrate reduction. This will lower simulation rate if it detects that this value is too high for the simulation to be stable.
+
 
 #### Hardware Button
 
