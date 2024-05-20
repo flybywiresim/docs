@@ -311,8 +311,7 @@ Verify the flight plan by using the vertical slew keys to scroll through it.
     Sometimes discontinuities are also part of a procedure to indicate that manual input is required
     (mostly clearance by ATC). The preceding legs are called MANUAL legs. 
     
-    **Discontinuities after a MANUAL leg can not and should not be deleted. See below link on how to 
-    handle discontinuities.** 
+    **Discontinuities after a MANUAL leg can not and should not be deleted. See the Discontinuities link below.** 
     
     In this flight plan we have a discontinuity between the STAR and approach procedure as shown below.
 
@@ -356,7 +355,8 @@ Our departure runway is EDDM/08L (runway 08 left), which has a frequency of `109
 
 ^^Arrival ILS^^
 
-With an ILS or LOC approach selected, the arrival ILS frequency should be automatically tuned correctly whenever the aircraft is at climb phase or greater and within 250 NM of the destination. **Ensure** that we verify the ILS frequency when we reach the arrival phase of the flight - see [Approach and Landing (ILS)](landing.md).
+With an ILS or LOC approach selected, the arrival ILS frequency should be automatically tuned correctly whenever the aircraft is in climb phase or greater and within 250 NM of the 
+destination. **Ensure** that we verify the ILS frequency when we reach the arrival phase of the flight - see [Approach and Landing (ILS)](landing.md).
 
 Remember, our arrival airport/rwy is `EDDF/07L` with ILS07L having a frequency of `110.30`. When inputting a frequency, and we are in range of the ILS, it will autopopulate the identifier and course. There is no need to fill these fields. You could also enter the identifier `IFEL` and it would automatically fill in the frequency. You cannot enter both at the same time, as this would result in a `FORMAT ERROR`. 
 
@@ -402,7 +402,8 @@ Now we can add our fuel on board (FOB). The amount we input in this field can be
 
 ^^ECAM FOB^^
 
-Look at the upper ECAM and note the FOB indicated. Let's say that amount is `4631 kg`. When inputting the block fuel into the MCDU, it is referenced in "tons", and we should round to the closest decimal point.
+Look at the upper ECAM and note the FOB indicated. Let's say that amount is `4631 kg`. When inputting the block fuel into the MCDU, it is referenced in "tonnes", which is 
+1000kg, and we should round to the closest decimal point.
 
 * Using the keypad, type in `4.7` and press LSK2R.
 
@@ -425,9 +426,10 @@ The `Block` field will be populated with a calculated fuel amount.
 
 ^^SimBrief OFP^^
 
-We can use the planned block fuel stated on the OFP, which in this case is `4631 kg`.
+We can use the planned block fuel stated on the OFP, which in this case is `4631 kg`. When inputting the block fuel into the MCDU, it is referenced in "tonnes", which is
+1000kg, and we should round to the closest decimal point.
 
-* Using the keypad, type in `4.7` and press LSK2R
+* Using the keypad, type in `4.7` and press LSK2R.
 * We should load this amount of fuel via the EFB option.
 
 ![mcdu16](../assets/beginner-guide/mcdu/mcdu16.png){loading=lazy}

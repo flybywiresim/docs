@@ -45,7 +45,8 @@ This list is focussed on differences to other non-Airbus airliners, a user might
 - __Fly-by-wire system__<br/>
 Traditional mechanical and hydro-mechanical flight control systems use a series of levers, rods, cables, pulleys and more, which pilots move to adjust control surfaces to aerodynamic conditions. Their "hands on" design gives pilots a direct, tactile feel for how the aircraft is handling aerodynamic forces as they fly. On the other hand, mechanical systems are also complicated to operate, need constant monitoring, are heavy and bulky, and require frequent maintenance.
 
-    In fly-by-wire systems, when the pilot moves flight controls, those movements are converted into electronic signals, which are then interpreted by the aircraft's Electrical Flight Control System (EFCS) to adjust actuators that move flight control surfaces. Computers also monitor sensors throughout the aircraft to make automatic adjustments that enhance the flight.
+    In fly-by-wire systems, when the pilot moves flight controls, those movements are converted into electronic signals, which are then interpreted by the aircraft's Electronic 
+    Flight Control System (EFCS) to adjust actuators that move flight control surfaces. Computers also monitor sensors throughout the aircraft to make automatic adjustments that enhance the flight.
 
     Because fly-by-wire is electronic, it is much lighter and less bulky than mechanical controls, allowing increases in fuel efficiency and aircraft design flexibility, even in legacy aircraft. And to prevent flight critical failure, most fly-by-wire systems also have triple or quadruple redundancy back-ups built into them. [source: BAE Systems](https://www.baesystems.com/en-us/definition/what-are-fly-by-wire-systems){target=new}
 
@@ -246,7 +247,7 @@ Shortly before we start our takeoff roll, we do the following steps:
         - Flight Director 1 and 2 are ON
         - A/THR (Autothrust) is armed (not active yet)
 
-    Vertical and lateral guidance are **only shown** via Flight Director, as we have not turned on the __Autopilot__ yet and need to be followed manually by the pilot.
+    Vertical and lateral guidance are **only shown** via the Flight Director, as we have not turned on the __Autopilot__ yet and need to be followed manually by the pilot.
 
     ![Flight Director guidance](../assets/beginner-guide/takeoff-climb-cruise/Flight-director-guidance.png "Flight Director guidance"){loading=lazy}
 
@@ -325,10 +326,14 @@ S-speed is signified with an S next to the speed band in the `PFD`.
 !!! info "Flaps during takeoff and climb"
     Depending on the start configuration, there will be different markers next to the speedband in the `PFD` to show when to retract flaps:
 
+    - `CONF-3` (Flaps position 3): At "F" and positive speed trend
     - `CONF-2` (Flaps position 2): At "F" and positive speed trend
     - `CONF-1+F` (Flaps position 1): At "S" and positive speed trend
 
-    We always retract flaps by only one step at a time. So, when we took off with `FLAPS 2` (`CONF-2`) we retract `FLAPS` at "F" to `FLAPS 1`. Then at "S" we retract them to `FLAPS 0`.
+    !!! warning "CONF-2 and CONF-3 Special Notes"
+        CONF-2 - we retract `FLAPS` at "F" to `FLAPS 1`. Then at "S" we retract them to `FLAPS 0`.
+
+        CONF-3 - we retract `FLAPS` directly to `CONF-1+F` at F speed.
 
 ![Aircraft shortly before reaching S-speed](../assets/beginner-guide/takeoff-climb-cruise/S-speed.png "Aircraft shortly before reaching VS speed"){loading=lazy}
 

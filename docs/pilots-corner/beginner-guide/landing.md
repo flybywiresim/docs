@@ -100,7 +100,7 @@ To intercept the ILS Localizer, we follow these steps:
 
 Tower ATC will then give us clearance for the ILS approach to the target runway. This clears us to descend on the ILS glideslope.
 
-**Do not descent without explicit clearance from ATC.**
+**Do not descend without explicit clearance from ATC.**
 
 This concludes *Intercepting the ILS Localizer*
 
