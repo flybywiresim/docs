@@ -1,3 +1,8 @@
+---
+search:
+    boost: 2
+---
+
 # Engine Start and Taxi
 
 This guide will explain the correct procedures to accomplish a pushback with engine start and perform a safe taxi to the departure runway.
