@@ -7,7 +7,7 @@ description: Dive into the A32NX's custom FMS and stay informed with the latest 
 
 # Custom Flight Management System
 
-This page outlines features and issues provided by the initial integration of our custom FMS. Please also make ensure you have read the [special notes](#special-notes) section.
+This page outlines features and issues provided by the initial integration of our custom FMS. Please also make ensure you have read the [known issues](#known-issues) section.
 
 {==
 
@@ -27,6 +27,14 @@ FMS v2 is a complete rewrite of the entire flight planning system of the A32NX (
 been waiting for this rewrite to be completed.
 
 It entirely replaces the old system, a derivative of the CJ4 mod flight plan system, with a completely custom one, purpose-built for simulating Honeywell Airbus FMS software found on the A320/A330/A340/A350/A380.
+
+!!! warning "RNP/RNAV"
+    FMS v2 lays the groundwork for many of our upcoming features to be implemented properly. 
+
+    However, it is important to note that the full functionality of flying RNP/RNAV procedures is not yet implemented. Pilots are still capable of flying the procedure 
+    laterally in NAV mode, but the vertical profile will not be followed and requires intervention via Autopilot features or Pilot Flying.
+
+    This will be added in a future update. 
 
 #### New / Updated Capabilities
 
