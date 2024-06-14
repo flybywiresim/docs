@@ -101,4 +101,4 @@ If the aircraft is flying into a MANUAL leg, NAV mode remains engaged and predic
         - Narrow turn radii between the two waypoints, where the discontinuity is present, which could not realistically be flown by the plane
         - Different [leg types](leg-types.md), which are not compatible to be connected together
 
-    Even if the waypoints form a direct line, it's not completely safe to remove a discontinuity unless you understand the above points
+    Even if the waypoints form a direct line, it's not completely safe to remove a discontinuity unless you understand the above points.
