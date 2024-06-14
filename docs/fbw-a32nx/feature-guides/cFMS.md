@@ -30,20 +30,20 @@ It entirely replaces the old system, a derivative of the CJ4 mod flight plan sys
 
 #### New / Updated Capabilities
 
-- Introduction of missed approach capability
+- [x] Introduction of missed approach capability
     - Loading of legs, stringing
       - Sequencing logic
-- Introduction of alternate flight plan capability
+- [x] Introduction of alternate flight plan capability
     - Origin/Destination airport revisions (DEPARTURE, ARRIVAL)
     - Element insertion/deletion on FPLN page
     - Hold revisions
     - Airway insertion
-- Improved logic and handling of FMS routing
+- [x] Improved logic and handling of FMS routing
     - Stringing logic has been improved where discontinuities in your flight plan are more accurately represented and handled
-- Improved logic for constraints and speed/altitude restrictions
+- [x] Improved logic for constraints and speed/altitude restrictions
     - Accurately loads a constraint at the first waypoint of a star
     - Merging values when clearing discontinuities
-- STARs with multiple IAFs now string correctly
+- [x] STARs with multiple IAFs now string correctly
 
 #### Major Technical Design Differences
 
