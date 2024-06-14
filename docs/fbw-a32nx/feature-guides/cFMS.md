@@ -34,7 +34,12 @@ It entirely replaces the old system, a derivative of the CJ4 mod flight plan sys
     However, it is important to note that the full functionality of flying RNP/RNAV procedures is not yet implemented. Pilots are still capable of flying the procedure 
     laterally in NAV mode, but the vertical profile will not be followed and requires intervention via Autopilot features or Pilot Flying.
 
-    This will be added in a future update. 
+    This will be added in a future update.
+
+!!! warning "Cloud Break Approaches"
+    Cloud break approaches that are not assigned to a runway are not a feature of the FMS in use onboard the A32NX (and it's real life counterpart).
+
+    If you have been using these procedures in the simulator, they are no longer available for selection in the MCDU.
 
 #### New / Updated Capabilities
 
