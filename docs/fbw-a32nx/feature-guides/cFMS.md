@@ -23,19 +23,26 @@ We will always list the latest updates in the following section. As we improve o
 
 ### Latest - Version 2
 
-FMS v2 is a complete rewrite of the entire flight planning system of the A32NX (and by extension A380X).
+FMS v2 is a complete rewrite of the entire flight planning system of the A32NX (and by extension A380X). It will also allow us to fully integrate planned features that have 
+been waiting for this rewrite to be completed.
 
 It entirely replaces the old system, a derivative of the CJ4 mod flight plan system, with a completely custom one, purpose-built for simulating Honeywell Airbus FMS software found on the A320/A330/A340/A350/A380.
 
-#### Motivation
+#### New / Updated Capabilities
 
-- The previous flight planning system **possesses a segmenting system prone to breaking, causing potential bugs in may places.**
-- The previous flight planning system **does not correctly manage origin and destination legs.** Those are often added ad-hoc, without real proper representation at appropriate times in the flight plan. This also results in problem correctly handling approach missed approach points and therefore, makes missed approach segments impossible.
-- The previous system **operates on a flight plan data structure that does not suit the reality of an airliner flight planning system.** Legs are represented as waypoints, with irrelevant data strewn around like predictions, and important data present in untyped free-for-all dictionaries. Discontinuities exist solely as a property of the leg they come after, not as an actual flight plan element.
-- The previous system is **not made in a way that can accommodate accurate stringing algorithms.**
-- The previous system **does not support efficient flight plan synchronization across clients.**
+- Introduction of missed approach capability
+  - Loading of legs, stringing
+  - Sequencing logic
+- Introduction of alternate flight plan capability
+  - Origin/Destination airport revisions (DEPARTURE, ARRIVAL)
+  - Element insertion/deletion on FPLN page
+  - Hold revisions
+  - Airway insertion
+- Improved logic and handling of FMS routing
+  - Stringing logic has been improved where discontinuities in your flight plan are more accurately represented and handled
+- STARs with multiple IAFs now string correctly
 
-#### Major design differences
+#### Major Technical Design Differences
 
 - Flight plan data structure
   - The main type of a flight plan is a `FlightPlanElement`, which resolves to type `FlightPlanLeg | Discontinuity`. Only the leg type actually contains information. This API is typed in a way that mandates proper verification of the type by the consumer and allows for semantic narrowing by TypeScript.
@@ -44,6 +51,13 @@ It entirely replaces the old system, a derivative of the CJ4 mod flight plan sys
     - `FlightPlanService` (for now a singleton - will likely change) - this exposes allowed and common operations on flight plans, accepting parameters to target a specific plan or sub-plan (alternate). It also encapsulates TMPY logic.
     - `FlightPlanManager` - this exposes operations on managing the storage of flight plans (create, delete, copy, swap, etc.)
 
+#### Motivation
+
+- The previous flight planning system **possesses a segmenting system prone to breaking, causing potential bugs in many places.**
+- The previous flight planning system **does not correctly manage origin and destination legs.** Those are often added ad-hoc, without real proper representation at appropriate times in the flight plan. This also results in problem correctly handling approach missed approach points and therefore, makes missed approach segments impossible.
+- The previous system **operates on a flight plan data structure that does not suit the reality of an airliner flight planning system.** Legs are represented as waypoints, with irrelevant data strewn around like predictions, and important data present in untyped free-for-all dictionaries. Discontinuities exist solely as a property of the leg they come after, not as an actual flight plan element.
+- The previous system is **not made in a way that can accommodate accurate stringing algorithms.**
+- The previous system **does not support efficient flight plan synchronization across clients.**
 
 ### Older Versions
 
