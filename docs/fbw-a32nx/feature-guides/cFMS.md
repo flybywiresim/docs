@@ -137,7 +137,8 @@ Please see our [Flight Planning in MSFS Guide](flight-planning.md) for more info
     - Terrain Radar is now available in the all versions via [SimBridge](../../index.md).
     - Please see our [CFMS NOTAM](https://flybywiresim.com/notams/cfms/) for further WX/TER information.
 
-It is important to note that the weather radar is not available yet with the latest version of our cFMS(v1.5). Our current focus is to deliver a more realistic flight planning and navigation experience while maintaining performance and reliability. However, we are not satisfied with how the default code performs together with our custom systems.
+It is important to note that the weather radar is not available yet with the latest version of our cFMS(v2). Our current focus is to deliver a more realistic flight planning 
+and navigation experience while maintaining performance and reliability. However, we are not satisfied with how the default code performs together with our custom systems.
 
 We believe the benefits that cFMS provides outweigh the temporary lack of WX functionality. Weather will still prove to be a challenge due to the lack of a native SDK API. We have posted about it on the MSFS forums, where it currently sits at the top of the wishlist, and Asobo are investigating how to best improve their API.
 
