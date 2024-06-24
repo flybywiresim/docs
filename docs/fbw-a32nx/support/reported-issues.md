@@ -39,10 +39,11 @@ description: Explore reported issues and known bugs for the FlyByWire A32NX add-
 
     === "Custom FMS"
 
-        Please visit the ^^Dedicated Custom Flight Management System^^ page for more information:
+        Please visit the ^^Dedicated Custom Flight Management System^^ page for more information on our latest implementation:
     
         - [**Features + Issues**](../feature-guides/cFMS.md)
         - [**Special Notes**](../feature-guides/cFMS.md#special-notes)
+        - [**Known Issues**](../feature-guides/cFMS.md#known-issues)
 
     === "SimBridge"
 
