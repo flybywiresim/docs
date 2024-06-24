@@ -437,7 +437,7 @@ The following list of issues are commonly reported on our Discord support channe
     ### No Weather Radar
 
     !!! tip ""
-        *Affected versions: Stable, Development
+        *Affected versions: Stable, Development*
 
     ^^Description^^
 
