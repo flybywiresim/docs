@@ -28,6 +28,8 @@ been waiting for this rewrite to be completed.
 
 It entirely replaces the old system, a derivative of the CJ4 mod flight plan system, with a completely custom one, purpose-built for simulating Honeywell Airbus FMS software found on the A320/A330/A340/A350/A380.
 
+[See Known Issues](#fms-v2-issues){ .md-button }
+
 !!! warning "RNP/RNAV"
     FMS v2 lays the groundwork for many of our upcoming features to be implemented properly. 
 
