@@ -28,6 +28,8 @@ been waiting for this rewrite to be completed.
 
 It entirely replaces the old system, a derivative of the CJ4 mod flight plan system, with a completely custom one, purpose-built for simulating Honeywell Airbus FMS software found on the A320/A330/A340/A350/A380.
 
+[See Known Issues](#fms-v2-issues){ .md-button }
+
 !!! warning "RNP/RNAV"
     FMS v2 lays the groundwork for many of our upcoming features to be implemented properly. 
 
@@ -123,6 +125,25 @@ It entirely replaces the old system, a derivative of the CJ4 mod flight plan sys
 - [Flight Plan Discontinuities](../../pilots-corner/advanced-guides/flight-planning/disco.md)
 
 ## Known Issues
+
+### FMS v2 Issues
+
+!!! warning ""
+    Please note the following issues are listed in order of severity.
+
+- Flight plan is not properly displayed on the ND for some SIDs (e.g LPFR NART7U, BAROK7U).
+    - This can cause follow-up issues in the FMS, it's best to select a new SID or just the runway and fly the SID manually.
+- Alternate fuel on INIT FUEL PRED is not calculated in some cases.
+    - It's best to insert the alternate fuel from the OFP manually.
+- CRZ FL/TEMP on the INIT page goes blank when starting descent.
+    - Can just be ignored, no negative effect.
+- No transition out of SRS when going around above GA ACC ALT.
+    - Pull the altitude knob to enter OP CLB. It's unclear whether this is IRL behavior.
+- ALTN CRZ FL in DESCENT WIND page does not consider alternate flight plan distance.
+    - Ignore this for now, alternate fuel is not calculated with our current implementation.
+
+
+### Standard Issues
 
 - CA leg terminations are sometimes in the wrong place, and do not adapt to V/S.
 - Some path captures will be incorrectly drawn. This will not affect guidance.
