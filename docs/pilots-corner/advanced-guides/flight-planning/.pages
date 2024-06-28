@@ -6,6 +6,7 @@
 title: Flight Planning
 nav:
 #    - Overview: overview.md
+    - Takeoff Performance: takeoff-perf-calc.md
     - fixinfo.md
     - leg-types.md
     - disco.md

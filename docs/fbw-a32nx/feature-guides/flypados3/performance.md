@@ -15,6 +15,11 @@ With this calculator, you can:
 2.	Determine the Flex temperature if a reduced thrust setting (Flex) can be used; and
 3.	Determine the appropriate takeoff speeds, V1, VR, and V2 for the conditions specified.
 
+!!! tip "Takeoff Performance Example and Guide"
+    To see more about how to plan and identify required information to input into the flyPad takeoff performance calculator, see our guide:
+
+    [Advanced Takeoff Calculator Guide](../../../pilots-corner/advanced-guides/flight-planning/takeoff-perf-calc.md){ .md-button }
+
 The calculator considers the following potentially limiting conditions:
 
 - Runway Length
