@@ -9,7 +9,120 @@ description: A comprehensive guide covering the takeoff, descent, and landing pe
 
 ## Takeoff Performance Calculator
 
+With this calculator, you can:
 
+1.	Determine if their airplane can take off at the intended takeoff weight from a designated runway at a specified temperature, wind, and QNH setting using a specified airplane configuration and bleed settings (A/I and A/C);
+2.	Determine the Flex temperature if a reduced thrust setting (Flex) can be used; and
+3.	Determine the appropriate takeoff speeds, V1, VR, and V2 for the conditions specified.
+
+The calculator considers the following potentially limiting conditions:
+
+- Runway Length
+- 2nd Segment Climb Performance
+- Ground Minimum Control Speeds (VMCG)
+- Maximum Brake Energy Speed (VMBE)
+- Maximum Tire Speed
+
+!!! warning ""
+    Takeoff obstacle clearance is not currently covered.
+
+### Usage
+
+All input fields must be filled before the "Calculate" button becomes available. There are two ways in which certian inputs fields can be automatically filled. If [SimBrief data 
+has been loaded in the EFB](dashboard.md), airport and runway information (including runway bearing, TORA, runway elevation, and runway slop) as well as environmental data 
+(wind, temperature, and QNH) can be automatically filled by selecting "OFP" in the upper right dropdown selection box and click on the **Fill data from**.
+
+This will load the environment data used by your SimBrief flight plan. You can either change/update the environment data, or load it from scratch automatically without having 
+loaded it from the OFP, by ensuring the Airport input field in the calculator is filled, then selecting "METAR" in upper right drop down selection box and clicking on **Fill 
+data from**.
+
+### Information Required
+
+**Airport**
+
+- Enter the ICAO code for the airport. See the examples that follow.
+
+**Runway**
+
+- Enter the runway number of the runway being used for takeoff.
+
+**Runway Bearing** 
+
+- This is the magnetic direction of the runway. It will be entered automatically after entering the runway number.
+
+**TORA**
+
+- This is the length of the portion of the runway available for takeoff. It will be entered automatically after entering the runway number. Be aware that this information comes 
+from the MSFS 2020 runway length data and may not always be accurate. We recommend that you check the TORA distance with the airport 10-9 (or 10-9A) chart as shown in the examples that follow, especially if you plan an intersection departure. You should also reduce the TORA if you start on the runway since MSFS 2020 typically places the airplane well forward of the beginning of the TORA.
+- If you enter a TORA that is less than the MSFS 2020 runway length, the difference will be shown at a TO Shift (takeoff shift) value in the replica of the MCDU takeoff 
+  performance page on the right side of the calculator. This is for information only at this point. You should not try to enter this value into the actual MCDU.
+
+**Entry Angle** 
+
+- This is the angle of the taxiway to the runway. An input is needed to allow the calculator to reduce the TORA distance by the distance that is used to align the airplane on 
+the runway for takeoff (since the runway behind the airplane should not be used to calculate takeoff performance). The entry angle can be determined from the airport 10-9 chart as shown in the examples that follow.
+
+**Runway Elevation** 
+
+- This is the elevation of the runway at the beginning of the TORA. It will be automatically entered after entering the runway number. It can also be determined or checked from 
+the airport 10-9 chart as shown in the examples that follow.
+
+**Runway Slope** 
+
+- This is the gradient of the runway in the direction of takeoff. It will be automatically entered after entering the runway number. It can also be determined or checked from 
+the airport 10-9 chart, but requires a little calculation, as shown in the examples that follow. A negative slope is downhill, while a positive slope is uphill.
+
+**Runway Condition** 
+
+- This allows input of runway conditions including dry, wet, and numerous types of runway contamination. It is defaulted to a dry runway. Although the calculations are provided 
+for other runway conditions, be aware that MSFS 2020 currently does not simulate these surface conditions properly.
+
+**Wind** 
+
+- The wind can be input simply as the headwind component (a single positive number) or tailwind component (a single negative number), or it can be input in the form degrees/kts. 
+It can be automatically entered from either the OFP or the METAR as described above. If you enter the wind yourself, be sure you are entering the wind in terms of a magnetic direction rather than the true direction. ATIS winds will be provided in terms of a magnetic direction, but METAR winds are in terms of true direction. If you enter the METAR winds yourself, consult the airport 10-9 chart to determine the magnetic variation and convert the direction to magnetic as shown the examples that follow. If you choose to automatically enter the winds from the METAR, this conversion will be done automatically.
+
+- If the wind direction is given as variable, enter the wind direction into the takeoff performance calculator as a tailwind. If the wind direction varies between 2 values, 
+enter the wind direction that will result in the largest tailwind (if the direction includes a tailwind direction) or the smallest headwind. If the wind speed includes a gust value, enter only the steady wind value. 
+
+**Temperature** 
+
+- This is simply the outside air temperature. It can be automatically entered from either the OFP or the METAR as described above. It can also be entered manually based on 
+either the active ATIS or METAR.
+
+**QNH** 
+
+- This is the sea level atmospheric pressure at the airport. It can be automatically entered from either the OFP or the METAR as described above. It can also be entered manually 
+based on either the active ATIS or METAR.
+Takeoff Weight: This is the weight at which the airplane begins the takeoff (after taxying to the runway). It can either be automatically entered from the OFP as described above or entered manually.
+
+**CG Position** 
+
+- This is the takeoff CG position. The standard CG position is the default entry. Select the forward CG position if the takeoff CG is forward of (less than) 27% MAC. (The 
+standard CG envelope’s forward limit for takeoff is 25% MAC. However, considering the accuracy of loading calculations and to allow a tolerance, the extended forward CG takeoff performance should be used anytime the takeoff CG position is forward of 27% MAC.)
+
+**Configuration** 
+
+- This is the flap/slat position to be used for takeoff. It is defaulted to CONF 1+F.
+- Other choices are: 
+    - Optimum (which will provide the highest Flex temperature, or if the Flex temperatures are the same, the lowest takeoff speeds); 
+    - CONF 2, or 
+    - CONF 3.
+
+**Thrust**
+
+- This is the thrust rating that will be used for takeoff. Flex (a reduced thrust) is the default, but TOGA can be selected. If Flex is selected, but TOGA must be used, the 
+calculator will inform you and perform the calculation with TOGA thrust.
+
+**Anti-Ice** 
+
+- This refers to the position of the anti-ice bleeds. It is defaulted to off. Select engine or engine + wing anti-ice if anti-ice will be used for takeoff. Using anti-ice will 
+reduce the takeoff thrust.
+
+**Packs** 
+
+- This refers to whether or not the air conditioning packs will on or off for takeoff. It is defaulted to on, but can be changed to off if the air conditioning packs will 
+be off for takeoff. Turning the air conditioning packs off will allow the engines to produce more takeoff thrust.
 
 ## Top of Descent Calculator
 
