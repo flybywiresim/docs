@@ -9,6 +9,21 @@ description: A comprehensive guide covering the takeoff, descent, and landing pe
 
 ## Takeoff Performance Calculator
 
+<div style="position: relative;">
+    <img src="/fbw-a32nx/assets/flypados3/flypad-performance-tod.png" style="width: 100%; height: auto;" loading="lazy">
+    <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
+    <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
+    <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
+    <a href="../performance/"> <div class="imagemap" style="position: absolute; left: 1.7%; top: 28.3%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Performance</span></div></a>
+    <a href="../charts/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 35.6%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Navigation & Charts</span></div></a>
+    <a href="../online-atc/">  <div class="imagemap" style="position: absolute; left: 1.7%; top: 43.0%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Online ATC</span></div></a>
+    <a href="../failures/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 50.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Failures</span></div></a>
+    <a href="../checklists/">  <div class="imagemap" style="position: absolute; left: 1.7%; top: 57.3%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Checklists</span></div></a>
+    <a href="../presets/">     <div class="imagemap" style="position: absolute; left: 1.7%; top: 64.7%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Presets</span></div></a>
+    <a href="../settings/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 85.0%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Settings</span></div></a>
+    <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
+</div>
+
 With this calculator, you can:
 
 1.	Determine if your airplane can take off at the intended takeoff weight from a designated runway at a specified temperature, wind, and QNH setting using a specified airplane 
@@ -114,7 +129,7 @@ manually.
 - This is the takeoff CG position. The standard CG position is the default entry. Select the forward CG position if the takeoff CG is forward of (less than) 27% MAC. (The 
 standard CG envelope’s forward limit for takeoff is 25% MAC. However, considering the accuracy of loading calculations and to allow a tolerance, the extended forward CG takeoff performance should be used anytime the takeoff CG position is forward of 27% MAC.)
 
-**Configuration** 
+**Configuration**
 
 - This is the flap/slat position to be used for takeoff. It is defaulted to CONF 1+F.
 - Other choices are: 
@@ -350,3 +365,6 @@ Be aware that there might be other restrictions that prohibit landing of an A320
 This runway can't be used for landing in the given circumstances. It is similar to Example 2 but has a higher weight and therefore higher approach speed.
 
 ![flyPad Performance Calculator Landing](../../../fbw-a32nx/assets/flypados3/performance-landing-notok.png "flyPad Performance Calculator Landing"){loading=lazy}
+
+*[TORA]: Take-Off Run Available
+*[QNH]: sea level atmospheric pressure
