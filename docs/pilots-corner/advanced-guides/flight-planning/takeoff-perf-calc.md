@@ -58,6 +58,18 @@ intersections (where a 90-degree entry angle would apply) are listed in the Addi
 
 The runway elevation for each runway is different, so each runway will have a slope value. Use the following equation to calculate the slope value:
 
+!!! info "Slope Equation"
+    $$\frac{Elevation\,at\,end\,of\,TORA - Elevation\,at\,beginning\,of\,TORA}{TORA} * 100$$ 
+
+    \[ with\,all\,units\,being\,the\,same.\]
+
+!!! info "Runway 08 Example"
+    To calculate the runway slop for Runway 08 the equation with units included would look like the following:
+
+    $$\frac{1894 - 1907}{6562} * 100 = -0.20\%$$
+
 For LOWI, the magnetic variation is 4 degrees East. When the magnetic variation is to the East, subtract the variation from the true wind value to determine winds referenced to 
-magnetic North. If the winds are 240/10 true from the METAR, adjust it to 236/10 when entering it into the takeoff performance calculator. Since the magnetic variation is only 
-4 degrees, and winds are normally rounded to the nearest ten degrees, you can also just skip converting the wind reference from true North to magnetic North for LOWI.
+magnetic North. If the winds are 240/10 true from the METAR, adjust it to 236/10 when entering it into the takeoff performance calculator. 
+
+Since the magnetic variation is only 4 degrees, and winds are normally rounded to the nearest ten degrees, you can also just skip converting the wind reference from true North 
+to magnetic North for LOWI.
