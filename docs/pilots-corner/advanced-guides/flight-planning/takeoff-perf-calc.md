@@ -1,6 +1,6 @@
 # Calculating Takeoff Performance
 
-This is an advanced guide on how to calculate takeoff performance in the A32nx. This is to supplement information provided in our flyPadOS 3 documentation and usage guide.
+This is an advanced guide on how to calculate takeoff performance in the A32NX. This is to supplement information provided in our flyPadOS 3 documentation and usage guide.
 
 [flyPad Performance Calculator Page](../../../fbw-a32nx/feature-guides/flypados3/performance.md){ .md-button }
 
@@ -10,7 +10,7 @@ input conditions or if any of the input conditions exceed any airplane limitatio
 
 ## Examples
 
-Information that can be obtained from Airport 10-9 charts
+Information that can be obtained from Airport 10-9 (or 10-9A) charts
 
 ### EGLL
 
