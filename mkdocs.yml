@@ -116,6 +116,11 @@ extra_css:
   - stylesheets/admonitions.css
   - stylesheets/navigation.css
 
+# Javascript
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
 # Extra Functions / Customizations
 extra:
   status:
@@ -145,6 +150,8 @@ markdown_extensions:
   meta: {} # Add front matter to a document
   admonition: {} # Makes things pretty
   pymdownx.superfences: {} # Nestled code
+  pymdownx.arithmatex: # Math and equations
+    generic: true
   attr_list: {} # Add HTML attributes and CSS classes to Markdown elements
   pymdownx.tabbed: # Content tabs
     alternate_style: true
