@@ -438,8 +438,9 @@ We can use the planned block fuel stated on the OFP, which in this case is `4631
 
 The performance page changes based on the relative stages of flight until we land the aircraft. When programming the MCDU on the ground, we start on the take-off performance page.
 
-The flyPad onboard the aircraft is capable of calculating your required takeoff performance for your flight. Visit our [flyPad Performance Page](../..
-/fbw-a32nx/feature-guides/flypados3/performance.md){target=new} guide for more information.
+The flyPad onboard the aircraft is capable of calculating your required takeoff performance for your flight. Visit our flyPad Performance Page guide for more information.
+
+[flyPad Performance Page](../../fbw-a32nx/feature-guides/flypados3/performance.md){target=new .md-button}
 
 For this flight, we will be taking off with a `1+F` flaps configuration.
 
@@ -500,23 +501,26 @@ Read the following tip for more information on FLEX temp.
 
 #### Flex Temp
 
-Pilots can use the [flyPad Performance Page](../../fbw-a32nx/feature-guides/flypados3/performance.md){target=new} to calculate Flex Temp for takeoff. The flyPad will also 
-calculate if TOGA 
-is the preferred thrust setting for takeoff and notify the pilot through the EFB.
+Pilots can use the flyPad Performance Page to calculate Flex Temp for takeoff. The flyPad will also 
+calculate if TOGA is the preferred thrust setting for takeoff and notify the pilot through the EFB.
+
+[flyPad Performance Page](../../fbw-a32nx/feature-guides/flypados3/performance.md){target=new .md-button}
 
 !!! tip "What is Flex Temp?"
     Flex temp is entered into the MCDU, enabling the computer to use the pilot-specified air temperature to allow for take-off thrust that is less than TOGA but not less than CLB. This is a method of creating cost savings by increasing engine life, resulting in reduced overhaul and fuel costs. This value is normally calculated via a pilot's company EFB or other tools.
+
+    {==
+
+    Flex temps are above ISA+29°C (44°C at sea level) and above current temp, but no higher than ISA+59°C (74°C at sea level). Usable Flex temps at sea level are from 45 °C (or current OAT if it is higher) to 74 °C.
+
+    Additionally, a decent rule of thumb for simulation purposes is to use a lower number if heavy or on a short runway and higher for the opposite.
+
+    ==}
     
-    !!! warning "Performance Calcs Not Available in Stable"
-        Unfortunately, A320neo performance data for FLEX temp performance calculators alongside other various tools are not publicly available and are guarded by Airbus. For the purposes of simulation, it's important to note the following:
+    !!! warning "Flex Temp Calculations Not Available in Stable"
+        We have implemented our own takeoff performance calculator in the Development version.
 
-        {==
-
-        Flex temps are above ISA+29°C (44°C at sea level) and above current temp, but no higher than ISA+59°C (74°C at sea level). Usable Flex temps at sea level are from 45 °C (or current OAT if it is higher) to 74 °C.
-
-        Additionally, a decent rule of thumb for simulation purposes is to use a lower number if heavy or on a short runway and higher for the opposite.
-
-        ==}
+    Unfortunately, A320neo performance data for FLEX temp performance calculator alongside other various tools are not publicly available and are guarded by Airbus.
 
 Our SID chart mentions that the TRANS ALT for this departure is 5000 ft.
 
@@ -524,9 +528,11 @@ Our SID chart mentions that the TRANS ALT for this departure is 5000 ft.
 
 #### V-Speeds
 
-Pilots can use the [flyPad Performance Page](../../fbw-a32nx/feature-guides/flypados3/performance.md){target=new} to calculate V-Speeds for takeoff.
+Pilots can use the flyPad Performance Page to calculate V-Speeds for takeoff.
 
-!!! warning "Stable Version Only"
+[flyPad Performance Page](../../fbw-a32nx/feature-guides/flypados3/performance.md){target=new .md-button}
+
+??? warning "Stable Version Only"
     V-Speeds are normally calculated by a company EFB or other tools. Unfortunately, A320neo performance
     data for V-Speeds alongside other various tools are not publicly available and are guarded by Airbus. 
     Therefore, the A32NX has a built-in simplified V-Speed calculator, which can be used by simply 
