@@ -87,6 +87,7 @@ plugins:
         'discord-bot.md': 'dev-corner/development-projects/discord-bot.md'
         'airframe.md': 'https://docs.flybywiresim.com/fbw-a32nx/installation/#simbrief-airframe'
         'fdr.md': 'https://docs.flybywiresim.com/fbw-a32nx/support/#fdr-files'
+        'flypad-performance.md': 'fbw-a32nx/feature-guides/flypados3/performance.md'
         # Commented out in case we want to use this in the future
         #        'exp.md': 'fbw-a32nx/support/exp.md'
         'vnav.md': 'pilots-corner/advanced-guides/flight-guidance/vertical-guidance/overview.md'
