@@ -10,7 +10,7 @@ description: A comprehensive guide covering the takeoff, descent, and landing pe
 ## Takeoff Performance Calculator
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypados3/flypad-performance-tod.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/fbw-a32nx/assets/flypados3/flypad-performance-takeoff.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
@@ -31,7 +31,7 @@ With this calculator, you can:
 2.	Determine the Flex temperature if a reduced thrust setting (Flex) can be used; and
 3.	Determine the appropriate takeoff speeds, V1, VR, and V2 for the conditions specified.
 
-!!! tip "Takeoff Performance Example and Guide"
+!!! tip "Takeoff Performance Examples and Guide"
     To see more about how to plan and identify required information to input into the flyPad takeoff performance calculator, see our guide:
 
     [Advanced Takeoff Calculator Guide](../../../pilots-corner/advanced-guides/flight-planning/takeoff-perf-calc.md){ .md-button }
