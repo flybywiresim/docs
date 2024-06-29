@@ -11,7 +11,8 @@ description: A comprehensive guide covering the takeoff, descent, and landing pe
 
 With this calculator, you can:
 
-1.	Determine if their airplane can take off at the intended takeoff weight from a designated runway at a specified temperature, wind, and QNH setting using a specified airplane configuration and bleed settings (A/I and A/C);
+1.	Determine if your airplane can take off at the intended takeoff weight from a designated runway at a specified temperature, wind, and QNH setting using a specified airplane 
+      configuration and bleed settings (A/I and A/C);
 2.	Determine the Flex temperature if a reduced thrust setting (Flex) can be used; and
 3.	Determine the appropriate takeoff speeds, V1, VR, and V2 for the conditions specified.
 
@@ -33,8 +34,8 @@ The calculator considers the following potentially limiting conditions:
 
 ### Usage
 
-All input fields must be filled before the "Calculate" button becomes available. There are two ways in which certian inputs fields can be automatically filled. If [SimBrief data 
-has been loaded in the EFB](dashboard.md), airport and runway information (including runway bearing, TORA, runway elevation, and runway slop) as well as environmental data 
+All input fields must be filled before the "Calculate" button becomes available. There are two ways in which certain inputs fields can be automatically filled. If [SimBrief data 
+has been loaded in the EFB](dashboard.md), airport and runway information (including runway bearing, TORA, runway elevation, and runway slope) as well as environmental data 
 (wind, temperature, and QNH) can be automatically filled by selecting "OFP" in the upper right dropdown selection box and click on the **Fill data from**.
 
 This will load the environment data used by your SimBrief flight plan. You can either change/update the environment data, or load it from scratch automatically without having 
@@ -60,7 +61,10 @@ data from**.
 - This is the length of the portion of the runway available for takeoff. It will be entered automatically after entering the runway number. Be aware that this information comes 
 from the MSFS 2020 runway length data and may not always be accurate. We recommend that you check the TORA distance with the airport 10-9 (or 10-9A) chart as shown in the examples that follow, especially if you plan an intersection departure. You should also reduce the TORA if you start on the runway since MSFS 2020 typically places the airplane well forward of the beginning of the TORA.
 - If you enter a TORA that is less than the MSFS 2020 runway length, the difference will be shown at a TO Shift (takeoff shift) value in the replica of the MCDU takeoff 
-  performance page on the right side of the calculator. This is for information only at this point. You should not try to enter this value into the actual MCDU.
+  performance page on the right side of the calculator. 
+
+!!! warning "TO Shift - Not Yet Implemented"
+    This is for information only at this point since the TO Shift entry in the MCDU Takeoff Perf Page is not yet implemented.
 
 **Entry Angle** 
 
@@ -99,7 +103,11 @@ either the active ATIS or METAR.
 
 - This is the sea level atmospheric pressure at the airport. It can be automatically entered from either the OFP or the METAR as described above. It can also be entered manually 
 based on either the active ATIS or METAR.
-Takeoff Weight: This is the weight at which the airplane begins the takeoff (after taxying to the runway). It can either be automatically entered from the OFP as described above or entered manually.
+
+**Takeoff Weight**
+
+- This is the weight at which the airplane begins the takeoff (after taxiing to the runway). It can either be automatically entered from the OFP as described above or entered 
+manually.
 
 **CG Position** 
 
