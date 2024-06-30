@@ -48,12 +48,12 @@ The calculator considers the following potentially limiting conditions:
 
 ### Usage
 
-All input fields must be filled before the "Calculate" button becomes available. There are two ways in which certain inputs fields can be automatically filled. If [SimBrief data 
-has been loaded in the EFB](dashboard.md), airport and runway information (including runway bearing, TORA, runway elevation, and runway slope) as well as environmental data 
-(wind, temperature, and QNH) can be automatically filled by selecting "OFP" in the upper right dropdown selection box and click on the **Fill data from**.
+All input fields must be filled before the "Calculate" button becomes available. There are two ways in which certain input fields can be automatically filled. If [SimBrief data 
+has been loaded into the EFB](dashboard.md), airport and runway information (including runway bearing, TORA, runway elevation, and runway slope), as well as environmental data 
+(wind, temperature, and QNH), can be automatically filled in by selecting "OFP" in the upper right drop-down selection box and clicking on the **Fill data from**.
 
-This will load the environmental data used by your SimBrief flight plan. You can either change/update the environmental data, or load it from scratch automatically without having 
-loaded it from the OFP, by ensuring the Airport input field in the calculator is filled, then selecting "METAR" in upper right drop down selection box and clicking on **Fill 
+This will load the environment data used by your SimBrief flight plan. You can either change/update the environment data or load it from scratch automatically without having
+loaded it from the OFP by ensuring the Airport input field in the calculator is filled, then selecting "METAR" in the upper right drop-down selection box and clicking on **Fill
 data from**.
 
 ### Information Required
@@ -74,8 +74,8 @@ data from**.
 
 - This is the length of the portion of the runway available for takeoff. It will be filled automatically after entering the runway number. Be aware that this information comes 
 from the MSFS 2020 runway length data and may not always be accurate. We recommend checking the TORA distance with the airport 10-9 (or 10-9A) chart as shown in the examples in [Advanced Takeoff Calculator Guide](../../../pilots-corner/advanced-guides/flight-planning/takeoff-perf-calc.md), especially if you plan an intersection departure. You should also reduce the TORA if you start on the runway, as MSFS 2020 typically places the airplane well forward of the beginning of the TORA.
-- If you enter a TORA that is less than the MSFS 2020 runway length, the difference will be shown at the TO Shift (takeoff shift) value in the replica of the MCDU performance page
-  performance page on the right side of the calculator. 
+- If you enter a TORA that is less than the MSFS 2020 runway length, the difference will be shown as a TO Shift (takeoff shift) value in the replica of the MCDU performance 
+  page on the right side of the calculator. 
 
 !!! warning "TO Shift - Not Yet Implemented"
     This is for information only at this point since the TO Shift entry in the MCDU Takeoff Perf Page is not yet implemented.
@@ -93,7 +93,8 @@ the runway for takeoff (since the runway behind the airplane should not be used 
 **Runway Slope** 
 
 - This is the gradient of the runway in the direction of takeoff. It will be automatically entered after entering the runway number. It can also be determined or checked from 
-the airport 10-9 chart, but requires a little calculation, as shown in the examples in [Advanced Takeoff Calculator Guide](../../../pilots-corner/advanced-guides/flight-planning/takeoff-perf-calc.md). A negative slope is downhill, while a positive slope is uphill.
+the airport 10-9 chart, but requires a little calculation from the data present on Jeppesen charts, as shown in the examples in [Advanced Takeoff Calculator Guide](../../..
+  /pilots-corner/advanced-guides/flight-planning/takeoff-perf-calc.md). A negative slope is downhill, while a positive slope is uphill.
 
 **Runway Condition** 
 
@@ -103,7 +104,11 @@ for other runway conditions, be aware that MSFS 2020 currently does not simulate
 **Wind** 
 
 - The wind can be input simply as the headwind component (a single positive number) or tailwind component (a single negative number), or it can be input in the form degrees/kts. 
-It can be automatically entered from either the OFP or the METAR as described above. If you enter the wind yourself, be sure you are entering the wind in terms of a magnetic direction rather than the true direction. ATIS winds will be provided in terms of a magnetic direction, but METAR winds are in terms of true direction. If you enter the METAR winds yourself, consult the airport 10-9 (or 10-9A) chart to determine the magnetic variation and convert the direction to magnetic as shown the examples in [Advanced Takeoff Calculator Guide](../../../pilots-corner/advanced-guides/flight-planning/takeoff-perf-calc.md). If you choose to automatically enter the winds from the METAR, this conversion will be done automatically.
+It can be automatically entered from either the OFP or the METAR as described above. If you enter the wind yourself, be sure you are entering the wind in terms of a magnetic 
+  direction rather than the true direction. ATIS winds will be provided in terms of a magnetic direction, but METAR winds are in terms of true direction. If you enter the winds 
+  from METAR, consult the airport 10-9 (or 10-9A) chart to determine the magnetic variation and convert the direction to magnetic, as shown in the following examples in [Advanced 
+  Takeoff Calculator Guide](../../../pilots-corner/advanced-guides/flight-planning/takeoff-perf-calc.md). If you choose to enter the winds automatically from the 
+  METAR, this conversion will be done automatically.
 
 - If the wind direction is given as variable, enter the wind direction into the takeoff performance calculator as a tailwind. If the wind direction varies between 2 values, 
 enter the wind direction that will result in the largest tailwind (if the direction includes a tailwind direction) or the smallest headwind. If the wind speed includes a gust value, enter only the steady wind value. 
