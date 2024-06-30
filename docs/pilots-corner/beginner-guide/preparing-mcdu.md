@@ -438,6 +438,10 @@ We can use the planned block fuel stated on the OFP, which in this case is `4631
 
 The performance page changes based on the relative stages of flight until we land the aircraft. When programming the MCDU on the ground, we start on the take-off performance page.
 
+The flyPad onboard the aircraft is capable of calculating your required takeoff performance for your flight. Visit our flyPad Performance Page guide for more information.
+
+[flyPad Performance Page](../../fbw-a32nx/feature-guides/flypados3/performance.md){target=new .md-button}
+
 For this flight, we will be taking off with a `1+F` flaps configuration.
 
 * Using the keypad, type in `1` and press LSK3R
@@ -497,10 +501,13 @@ Read the following tip for more information on FLEX temp.
 
 #### Flex Temp
 
+Pilots can use the flyPad Performance Page to calculate Flex Temp for takeoff. The flyPad will also 
+calculate if TOGA is the preferred thrust setting for takeoff and notify the pilot through the EFB.
+
+[flyPad Performance Page](../../fbw-a32nx/feature-guides/flypados3/performance.md){target=new .md-button}
+
 !!! tip "What is Flex Temp?"
     Flex temp is entered into the MCDU, enabling the computer to use the pilot-specified air temperature to allow for take-off thrust that is less than TOGA but not less than CLB. This is a method of creating cost savings by increasing engine life, resulting in reduced overhaul and fuel costs. This value is normally calculated via a pilot's company EFB or other tools.
-
-    Unfortunately, A320neo performance data for FLEX temp performance calculators alongside other various tools are not publicly available and are guarded by Airbus. For the purposes of simulation, it's important to note the following:
 
     {==
 
@@ -509,6 +516,11 @@ Read the following tip for more information on FLEX temp.
     Additionally, a decent rule of thumb for simulation purposes is to use a lower number if heavy or on a short runway and higher for the opposite.
 
     ==}
+    
+    !!! warning "Flex Temp Calculations Not Available in Stable"
+        We have implemented our own takeoff performance calculator in the Development version.
+
+    Unfortunately, it is not yet available on the stable version.
 
 Our SID chart mentions that the TRANS ALT for this departure is 5000 ft.
 
@@ -516,22 +528,24 @@ Our SID chart mentions that the TRANS ALT for this departure is 5000 ft.
 
 #### V-Speeds
 
-V-Speeds are normally calculated by a company EFB or other tools. Unfortunately, A320neo performance
-data for V-Speeds alongside other various tools are not publicly available and are guarded by Airbus. 
-Therefore, the A32NX has a built-in simplified V-Speed calculator, which can be used by simply 
-clicking the LSK next to the V-Speed you want to calculate.
+Pilots can use the flyPad Performance Page to calculate V-Speeds for takeoff.
 
-* Press LSK1L to have the calculated V1 speed appear in the scratchpad.
+[flyPad Performance Page](../../fbw-a32nx/feature-guides/flypados3/performance.md){target=new .md-button}
 
-![mcdu19](../assets/beginner-guide/mcdu/mcdu19.png){loading=lazy}
+??? warning "Stable Version Only"
+    V-Speeds are normally calculated by a company EFB or other tools. This feature is not yet available in the stable version.
+    Instead, you can simply click the LSK next to the V-Speed you want to calculate, to get V-Speeds from a simplified calculation.
 
-* Press LSK1L again to have the value inputted into the V1 speed. The value you get can be different 
-  from the one in the image as it depends on the weight of the aircraft.
-* Repeat this procedure for VR and V2.
+    * Press LSK1L to have the calculated V1 speed appear in the scratchpad.
 
-The performance page should now look similar to this:
+    ![mcdu19](../assets/beginner-guide/mcdu/mcdu19.png){loading=lazy}
 
-![mcdu20](../assets/beginner-guide/mcdu/mcdu20.png){loading=lazy}
+    * Press LSK1L again to have the value inputted into the V1 speed. The value you get can be different from the one in the image as it depends on the weight of the aircraft.
+    * Repeat this procedure for VR and V2.
+
+    The performance page should now look similar to this:
+
+    ![mcdu20](../assets/beginner-guide/mcdu/mcdu20.png){loading=lazy}
 
 ## Entering Squawk Code
 

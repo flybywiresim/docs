@@ -87,6 +87,7 @@ plugins:
         'discord-bot.md': 'dev-corner/development-projects/discord-bot.md'
         'airframe.md': 'https://docs.flybywiresim.com/fbw-a32nx/installation/#simbrief-airframe'
         'fdr.md': 'https://docs.flybywiresim.com/fbw-a32nx/support/#fdr-files'
+        'flypad-performance.md': 'fbw-a32nx/feature-guides/flypados3/performance.md'
         # Commented out in case we want to use this in the future
         #        'exp.md': 'fbw-a32nx/support/exp.md'
         'vnav.md': 'pilots-corner/advanced-guides/flight-guidance/vertical-guidance/overview.md'
@@ -115,6 +116,11 @@ extra_css:
   - stylesheets/extra.css
   - stylesheets/admonitions.css
   - stylesheets/navigation.css
+
+# Javascript
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
 # Extra Functions / Customizations
 extra:
@@ -145,6 +151,8 @@ markdown_extensions:
   meta: {} # Add front matter to a document
   admonition: {} # Makes things pretty
   pymdownx.superfences: {} # Nestled code
+  pymdownx.arithmatex: # Math and equations
+    generic: true
   attr_list: {} # Add HTML attributes and CSS classes to Markdown elements
   pymdownx.tabbed: # Content tabs
     alternate_style: true
