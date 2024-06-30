@@ -93,8 +93,7 @@ the runway for takeoff (since the runway behind the airplane should not be used 
 **Runway Slope** 
 
 - This is the gradient of the runway in the direction of takeoff. It will be automatically entered after entering the runway number. It can also be determined or checked from 
-the airport 10-9 chart, but requires a little calculation from the data present on Jeppesen charts, as shown in the examples in [Advanced Takeoff Calculator Guide](../../..
-  /pilots-corner/advanced-guides/flight-planning/takeoff-perf-calc.md). A negative slope is downhill, while a positive slope is uphill.
+the airport 10-9 chart, but requires a little calculation from the data present on Jeppesen charts, as shown in the examples in [Advanced Takeoff Calculator Guide](../../../pilots-corner/advanced-guides/flight-planning/takeoff-perf-calc.md). A negative slope is downhill, while a positive slope is uphill.
 
 **Runway Condition** 
 
@@ -106,8 +105,7 @@ for other runway conditions, be aware that MSFS 2020 currently does not simulate
 - The wind can be input simply as the headwind component (a single positive number) or tailwind component (a single negative number), or it can be input in the form degrees/kts. 
 It can be automatically entered from either the OFP or the METAR as described above. If you enter the wind yourself, be sure you are entering the wind in terms of a magnetic 
   direction rather than the true direction. ATIS winds will be provided in terms of a magnetic direction, but METAR winds are in terms of true direction. If you enter the winds 
-  from METAR, consult the airport 10-9 (or 10-9A) chart to determine the magnetic variation and convert the direction to magnetic, as shown in the following examples in [Advanced 
-  Takeoff Calculator Guide](../../../pilots-corner/advanced-guides/flight-planning/takeoff-perf-calc.md). If you choose to enter the winds automatically from the 
+  from METAR, consult the airport 10-9 (or 10-9A) chart to determine the magnetic variation and convert the direction to magnetic, as shown in the following examples in [Advanced Takeoff Calculator Guide](../../../pilots-corner/advanced-guides/flight-planning/takeoff-perf-calc.md). If you choose to enter the winds automatically from the 
   METAR, this conversion will be done automatically.
 
 - If the wind direction is given as variable, enter the wind direction into the takeoff performance calculator as a tailwind. If the wind direction varies between 2 values, 
