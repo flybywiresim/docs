@@ -520,7 +520,7 @@ calculate if TOGA is the preferred thrust setting for takeoff and notify the pil
     !!! warning "Flex Temp Calculations Not Available in Stable"
         We have implemented our own takeoff performance calculator in the Development version.
 
-    Unfortunately, A320neo performance data for FLEX temp performance calculator alongside other various tools are not publicly available and are guarded by Airbus.
+    Unfortunately, it is not yet available on the stable version.
 
 Our SID chart mentions that the TRANS ALT for this departure is 5000 ft.
 
@@ -533,10 +533,8 @@ Pilots can use the flyPad Performance Page to calculate V-Speeds for takeoff.
 [flyPad Performance Page](../../fbw-a32nx/feature-guides/flypados3/performance.md){target=new .md-button}
 
 ??? warning "Stable Version Only"
-    V-Speeds are normally calculated by a company EFB or other tools. Unfortunately, A320neo performance
-    data for V-Speeds alongside other various tools are not publicly available and are guarded by Airbus. 
-    Therefore, the A32NX has a built-in simplified V-Speed calculator, which can be used by simply 
-    clicking the LSK next to the V-Speed you want to calculate.
+    V-Speeds are normally calculated by a company EFB or other tools. This feature is not yet available in the stable version.
+    Instead, you can simply click the LSK next to the V-Speed you want to calculate, to get V-Speeds from a simplified calculation.
 
     * Press LSK1L to have the calculated V1 speed appear in the scratchpad.
 
