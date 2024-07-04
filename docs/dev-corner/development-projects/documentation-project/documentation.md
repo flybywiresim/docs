@@ -43,11 +43,27 @@ To participate in the FlyByWire Documentation Project, you need to have the foll
     - mike
     - pillow
     - cairosvg
-- Install with this single line command:
+- Create and activate a Python Virtual Environment (`virtualenv`) to be used for working on the documentation project:
+    ```title="Run In Terminal"
+    python -m venv venv
+    ```
 
+    Once created, you need to activate it. Use the following command on Windows:
+    ```title="Activating virtualenv on Windows"
+    .\venv\Scripts\activate.bat
+    ```
+    Or the following command on Linux and macOS:
+    ```title="Activating virtualenv on Linux and macOS"
+    source venv/bin/activate
+    ```
+- Install dependencies with this single line command:
     ```title="Run In Terminal"
     pip install -r requirements.txt
     ```
+!!! info "Using `virtualenv`"
+    Starting with Python 3.11, the `pip` tool will fail to install dependencies and packages globally, instead it's recommended to use `virtualenv`. If you desire to install packages globally, you must use another tool, such as [`pipx`](https://github.com/pypa/pipx). We recommend using `virtualenv` because it's easier and the recommended way to work on Python projects.
+!!! danger "Activating `virtualenv`"
+    It's important to note that `virtualenv` activation is not persisted. If you restart your terminal/command prompt and want to preview your work on the documentation project again, you have to reactivate your `virutalenv` using the appropriate activation command that was shown earlier in this guide.
 !!! info "Pillow + Cairo Dependency"
     As part of the new social card feature released with `mkdocs-material 8.5.0` [Pillow](https://pillow.readthedocs.io/) and [Cairo Graphics](https://www.cairographics.org/) 
     dependencies were added. We bundle this as part of our `requirements.txt` to ensure the dependencies are installed when attempting to test [social cards locally](#social-cards-feature). If you encounter any issues with these python packages:
