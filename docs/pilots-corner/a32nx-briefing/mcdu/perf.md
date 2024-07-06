@@ -44,6 +44,9 @@ Prompts on each PERF page:
 
         [flyPad Performance Page](../../../fbw-a32nx/feature-guides/flypados3/performance.md){target=new .md-button}
 
+        !!! warning "Not Available in Stable Version, you can instead click on the LSK next to V1, VR and V2, to let the aircraft calculate the V-Speed for you."
+        
+
 - TRANS ALT (4L)
     - This field displays the navigation database default transition altitude (if defined) once the origin airport is entered. The pilot can modify it.
 
