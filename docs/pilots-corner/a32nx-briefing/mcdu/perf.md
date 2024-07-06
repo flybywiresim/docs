@@ -44,7 +44,7 @@ Prompts on each PERF page:
 
         [flyPad Performance Page](../../../fbw-a32nx/feature-guides/flypados3/performance.md){target=new .md-button}
 
-        !!! warning "Not Available in Stable Version, you can instead click on the LSK next to V1, VR and V2, to let the aircraft calculate the V-Speed for you."
+        !!! warning "Not Available in the Stable Version; you can instead click on the LSK next to V1, VR and V2 to let the aircraft calculate the V-Speeds for you."
         
 
 - TRANS ALT (4L)
