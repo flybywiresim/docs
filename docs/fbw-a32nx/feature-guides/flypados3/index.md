@@ -132,11 +132,12 @@ Fourth Row - left to right:
 
     !!! warning "Critical Known Issue"
         If you are using the following combination, please take note!
+
             - Keyboard/Mouse Control
             - Toggle Free Look (Not Hold Free Look) - Default middle mouse button by default
             - ALT-TAB to background the simulation
-        You may experience issues with the Pause at Top of Descent feature. Ensure that you are NOT currently in free look mode when the pause is triggered, as this may cause the camera to become stuck in free look mode when the pop-up is created, and you will be unable to dismiss it.
         
+        You may experience issues with the Pause at Top of Descent feature. Ensure that you are NOT currently in free look mode when the pause is triggered, as this may cause the camera to become stuck in free look mode when the pop-up is created, and you will be unable to dismiss it.
         This is fundamentally an issue with Microsoft Flight Simulator and we are unable to provide a workaround at this time. 
         The safest option is to abandon the flight if this occurs.
         We recommend using Hold Free Look (Right mouse button by default) instead, or ensuring that you are NOT toggled in free-look mode when you ALT-TAB from the sim.
