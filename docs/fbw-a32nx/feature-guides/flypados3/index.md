@@ -134,7 +134,7 @@ Fourth Row - left to right:
         If you are using the following combination, please take note!
 
             - Keyboard/Mouse Control
-            - Toggle Free Look (Not Hold Free Look) - Middle Mouse Button by default
+            - Toggle Free Look (Not Hold Free Look) - Middle Mouse Button
             - ALT-TAB to background the simulation
         
         You may experience issues with the Pause at Top of Descent feature. Ensure that you are NOT currently in free look mode when the pause is triggered, as this may cause the camera to become stuck in free look mode when the pop-up is created, and you will be unable to dismiss it.
