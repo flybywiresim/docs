@@ -77,7 +77,7 @@ These are flags and messages displayed on the PFD. The numbers correspond to the
 
     This is displayed in amber. This appears both as a flag on the PFD, and on the ECAM as a caution if the difference between the two PFD altitude indicators is greater than 250 feet when the QNH Barometric Reference is selected, or 500 feet when STD is selected.
     
-    This flag disappears when the pilot's and first officer's barometer or references are different.
+    This flag disappears when the captain's EFIS and first officer's EFIS barometer references are different.
 
 - ALT SEL Flag
 

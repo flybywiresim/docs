@@ -1,5 +1,5 @@
 ---
-title: Custom Custom Flight Management System
+title: Custom Flight Management System
 description: Dive into the A32NX's custom FMS and stay informed with the latest known issues and troubleshooting tips.
 ---
 
@@ -7,7 +7,7 @@ description: Dive into the A32NX's custom FMS and stay informed with the latest 
 
 # Custom Flight Management System
 
-This page outlines features and issues provided by the initial integration of our custom FMS. Please also make ensure you have read the [special notes](#special-notes) section.
+This page outlines features and issues provided by the initial integration of our custom FMS. Please also make ensure you have read the [known issues](#known-issues) section.
 
 {==
 
@@ -21,27 +21,83 @@ For guides on utilizing features included with our custom FMS, see the [Guides a
 
 We will always list the latest updates in the following section. As we improve our custom flight management system, older versions will be listed in a collapsible format in the [Older Versions](#older-versions) section.
 
-### Latest - Version 1.5
+### Latest - Version 2
 
-We have introduced new features to the custom flight management system as part of a minor update. Please see the list below:
+FMS v2 is a complete rewrite of the entire flight planning system of the A32NX (and by extension A380X). It will also allow us to fully integrate planned features that have 
+been waiting for this rewrite to be completed.
 
-- LNAV Updates
-  - Holding Patterns
-  - Turn direction constraints on non-TF legs
-  - Overfly restriction support
-  - ARINC424 Leg Types
-    - AF, CA, CI, CR, CF, DF, HF, HM, HA legs ([See List of Leg Types](../../pilots-corner/advanced-guides/flight-planning/leg-types.md))
-  - Turn Prediction Types
-    - Path capture
-    - Course capture
-    - Direct to fix turn
-    - Holding pattern entry turn
-- Navigation Display
-  - Removed flight plan loading from local storage
-  - Corrected active waypoint ETA display
-  - Added `EfisVectors` systems with optimized transmit task queue + support for future display of OFFSET, SECONDARY, SECONDARY DASHED, MISSED APPROACH, ALTERNATE and EOSID flight paths.
+It entirely replaces the old system, a derivative of the CJ4 mod flight plan system, with a completely custom one, purpose-built for simulating Honeywell Airbus FMS software found on the A320/A330/A340/A350/A380.
+
+[See Known Issues](#fms-v2-issues){ .md-button }
+
+!!! warning "RNP/RNAV"
+    FMS v2 lays the groundwork for many of our upcoming features to be implemented properly. 
+
+    However, it is important to note that the full functionality of flying RNP/RNAV procedures is not yet implemented. Pilots are still capable of flying the procedure 
+    laterally in NAV mode, but the vertical profile will not be followed and requires intervention via Autopilot features or Pilot Flying.
+
+    This will be added in a future update.
+
+!!! warning "Cloud Break Approaches"
+    Cloud break approaches that are not assigned to a runway are not a feature of the FMS in use onboard the A32NX (and it's real life counterpart).
+
+    If you have been using these procedures in the simulator, they are no longer available for selection in the MCDU.
+
+#### New / Updated Capabilities
+
+- [x] Introduction of missed approach capability
+    - Loading of legs, stringing
+      - Sequencing logic
+- [x] Introduction of alternate flight plan capability
+    - Origin/Destination airport revisions (DEPARTURE, ARRIVAL)
+    - Element insertion/deletion on FPLN page
+    - Hold revisions
+    - Airway insertion
+- [x] Improved logic and handling of FMS routing
+    - Stringing logic has been improved where discontinuities in your flight plan are more accurately represented and handled
+- [x] Improved logic for constraints and speed/altitude restrictions
+    - Accurately loads a constraint at the first waypoint of a star
+    - Merging values when clearing discontinuities
+- [x] STARs with multiple IAFs now string correctly
+
+#### Major Technical Design Differences
+
+- Flight plan data structure
+  - The main type of a flight plan is a `FlightPlanElement`, which resolves to type `FlightPlanLeg | Discontinuity`. Only the leg type actually contains information. This API is typed in a way that mandates proper verification of the type by the consumer and allows for semantic narrowing by TypeScript.
+  - Flight plans are divided into segments, which are finite in number and match the only possibilities in a Honeywell Airbus FMS. There is no support for out-of-order segments and operations on flight plans are limited to this layout, reducing the API surface.
+  - `FlightPlanManager` is split into two classes:
+    - `FlightPlanService` (for now a singleton - will likely change) - this exposes allowed and common operations on flight plans, accepting parameters to target a specific plan or sub-plan (alternate). It also encapsulates TMPY logic.
+    - `FlightPlanManager` - this exposes operations on managing the storage of flight plans (create, delete, copy, swap, etc.)
+
+#### Motivation
+
+- The previous flight planning system **possesses a segmenting system prone to breaking, causing potential bugs in many places.**
+- The previous flight planning system **does not correctly manage origin and destination legs.** Those are often added ad-hoc, without real proper representation at appropriate times in the flight plan. This also results in problem correctly handling approach missed approach points and therefore, makes missed approach segments impossible.
+- The previous system **operates on a flight plan data structure that does not suit the reality of an airliner flight planning system.** Legs are represented as waypoints, with irrelevant data strewn around like predictions, and important data present in untyped free-for-all dictionaries. Discontinuities exist solely as a property of the leg they come after, not as an actual flight plan element.
+- The previous system is **not made in a way that can accommodate accurate stringing algorithms.**
+- The previous system **does not support efficient flight plan synchronization across clients.**
 
 ### Older Versions
+
+??? info "Version 1.5"
+
+    We have introduced new features to the custom flight management system as part of a minor update. Please see the list below:
+
+    - LNAV Updates
+      - Holding Patterns
+      - Turn direction constraints on non-TF legs
+      - Overfly restriction support
+      - ARINC424 Leg Types
+        - AF, CA, CI, CR, CF, DF, HF, HM, HA legs ([See List of Leg Types](../../pilots-corner/advanced-guides/flight-planning/leg-types.md))
+      - Turn Prediction Types
+        - Path capture
+        - Course capture
+        - Direct to fix turn
+        - Holding pattern entry turn
+    - Navigation Display
+      - Removed flight plan loading from local storage
+      - Corrected active waypoint ETA display
+      - Added `EfisVectors` systems with optimized transmit task queue + support for future display of OFFSET, SECONDARY, SECONDARY DASHED, MISSED APPROACH, ALTERNATE and EOSID flight paths.
 
 ??? info "Version 1"
 
@@ -70,6 +126,25 @@ We have introduced new features to the custom flight management system as part o
 
 ## Known Issues
 
+### FMS v2 Issues
+
+!!! warning ""
+    Please note the following issues are listed in order of severity.
+
+- Flight plan is not properly displayed on the ND for some SIDs (e.g LPFR NART7U, BAROK7U).
+    - This can cause follow-up issues in the FMS, it's best to select a new SID or just the runway and fly the SID manually.
+- Alternate fuel on INIT FUEL PRED is not calculated in some cases.
+    - It's best to insert the alternate fuel from the OFP manually.
+- CRZ FL/TEMP on the INIT page goes blank when starting descent.
+    - Can just be ignored, no negative effect.
+- No transition out of SRS when going around above GA ACC ALT.
+    - Pull the altitude knob to enter OP CLB. It's unclear whether this is IRL behavior.
+- ALTN CRZ FL in DESCENT WIND page does not consider alternate flight plan distance.
+    - Ignore this for now, alternate fuel is not calculated with our current implementation.
+
+
+### Standard Issues
+
 - CA leg terminations are sometimes in the wrong place, and do not adapt to V/S.
 - Some path captures will be incorrectly drawn. This will not affect guidance.
 - INTCPT calculation can be off on large distances.
@@ -79,7 +154,6 @@ We have introduced new features to the custom flight management system as part o
 - Rendering of flight path on the ND of legs will be glitched or incorrect if you are flying faster than the appropriate/correct speed. - [See Special Notes](#flight-path-rendering).
 - Syncing the aircraft flight plan with the sim's flight plan for default ATC and VFR map is not 100% supported. - [See Special Notes](#special-notes).
 - Defining both FROM/TO in the world map shows in the FROM/TO INIT A page but does not populate the airport list in our METAR (AOC) integration.
-- DIRECT-TO: Turning point is not correctly implemented yet.
 - ETA in F-PLN A on the MCDU may not be 100% accurate.
 - Flight plan frozen on loading in (Please post the specific route on which this occurs and under what circumstances, i.e. spawning in c&d using the MSFS flight planner, or simBrief, or loading in .PLN generated by simBrief or other external program).
 - Fuel calculations might be incorrect.
@@ -96,7 +170,8 @@ Please see our [Flight Planning in MSFS Guide](flight-planning.md) for more info
     - Terrain Radar is now available in the all versions via [SimBridge](../../index.md).
     - Please see our [CFMS NOTAM](https://flybywiresim.com/notams/cfms/) for further WX/TER information.
 
-It is important to note that the weather radar is not available yet with the latest version of our cFMS(v1.5). Our current focus is to deliver a more realistic flight planning and navigation experience while maintaining performance and reliability. However, we are not satisfied with how the default code performs together with our custom systems.
+It is important to note that the weather radar is not available yet with the latest version of our cFMS(v2). Our current focus is to deliver a more realistic flight planning 
+and navigation experience while maintaining performance and reliability. However, we are not satisfied with how the default code performs together with our custom systems.
 
 We believe the benefits that cFMS provides outweigh the temporary lack of WX functionality. Weather will still prove to be a challenge due to the lack of a native SDK API. We have posted about it on the MSFS forums, where it currently sits at the top of the wishlist, and Asobo are investigating how to best improve their API.
 
