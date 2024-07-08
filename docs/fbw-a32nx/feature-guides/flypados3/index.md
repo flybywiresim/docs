@@ -117,6 +117,30 @@ Fourth Row - left to right:
     - Toggles the option to pause the simulator before the calculated top of descent
         - By default, this will occur **10 nm** behind the indicated top of descent, this can be further configured in the EFB Settings > Realism page.
     - When this is triggered, it will pause the simulation, then present a pop-up that when dismissed unpauses the simulation.
+    - Note: Any A/P mode reversion (i.e. A/P disconnect) will pause the simulation when pause on T/D is disabled (A/P guarding). 
+        - This is ensure a safe fallback if the plane or A/P develops an issue during the flight.
+        - There is a cooldown period (60s) after the first activation to prevent repeated pause triggers. A/P guarding will be re-enabled after this period.
+    - Pause At Top of Descent Inactive
+        - Pause on TOD is disabled. No pause will occur at top of descent, or when A/P is disconnected under any circumstance.
+    - <span style=color:orange>Pause At Top of Descent Standby</span>
+        - Pause on TOD is enabled, but currently in standby waiting for flight conditions to be fulfilled, or is now disabled until the next turnaround (after T/D is reached)
+            - This means T/D Pause and A/P guarding is currently not armed, and you may disconnect the A/P or hand-fly without triggering the A/P guarding pause.
+    - <span style=color:green>Pause At Top of Descent Armed</span>
+        - Pause on TOD is enabled and armed. A/P guarding is active. 
+            - This will be entered after/during the climb phase and will remain active until (default 10nm) before the T/D point is reached
+            - Disconnection of the A/P, or A/P mode reversion will pause the simulation.
+
+    !!! warning "Critical Known Issue"
+    If you are using the following combination, please take note
+        - Keyboard/Mouse Control
+         - Toggle Free Look (Not Hold Free Look) - Default middle mouse button by default
+        - ALT-TAB to background the simulation
+    You may experience issues with the Pause at Top of Descent feature. Ensure that you are NOT currently in free look mode when the pause is triggered, as this may cause the camera to become stuck in free look mode when the pop-up is created, and you will be unable to dismiss it.
+    
+    This is fundamentally an issue with Microsoft Flight Simulator and we are unable to provide a workaround at this time. 
+    The safest option is to abandon the flight if this occurs.
+    We recommend using Hold Free Look (Right mouse button by default) instead, or ensuring that you are NOT toggled in free-look mode when you ALT-TAB from the sim.
+
 - Simrate Controller
     - Increase or Decrease the simulation rate by clicking on the up or down chevron. 
     - This operates in steps which is governed by MSFS itself, for example, 1x, 2x, 4x, etc. 
