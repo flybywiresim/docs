@@ -144,9 +144,11 @@ Fourth Row - left to right:
 
 - Simrate Controller
     - Increase or Decrease the simulation rate by clicking on the up or down chevron. 
-    - This operates in steps which is governed by MSFS itself, for example, 1x, 2x, 4x, etc. 
-    - Caution: Please be mindful when using this option on online networks, and ask for clearance from the controller of your online ATC network before proceeding. 
+    - This operates in steps which is governed by MSFS itself, for example, 1x, 2x, 4x, etc.
     - Note: This is affected by and does not bypass our automatic simrate reduction. This will lower simulation rate if it detects that this value is too high for the simulation to be stable.
+
+    !!! warning "Online Networks (VATSIM)"
+        Caution: Please be mindful when using this option on online networks, and ask for clearance from the controller of your online ATC network before proceeding. 
 
 
 #### Hardware Button
