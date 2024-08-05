@@ -131,8 +131,6 @@ It entirely replaces the old system, a derivative of the CJ4 mod flight plan sys
 !!! warning ""
     Please note the following issues are listed in order of severity.
 
-- Flight plan is not properly displayed on the ND for some SIDs (e.g LPFR NART7U, BAROK7U).
-    - This can cause follow-up issues in the FMS, it's best to select a new SID or just the runway and fly the SID manually.
 - Alternate fuel on INIT FUEL PRED is not calculated in some cases.
     - It's best to insert the alternate fuel from the OFP manually.
 - CRZ FL/TEMP on the INIT page goes blank when starting descent.
