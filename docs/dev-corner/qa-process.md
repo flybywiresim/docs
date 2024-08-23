@@ -46,6 +46,16 @@ If you have gotten a grasp on the above instructions, pick a PR to test from the
 
 Read the description and testing instructions of the PR carefully and make sure you have the required skills and the necessary time available to conduct the test in a high-quality fashion.
 
+!!! tip "Tip: Labels"
+    You will notice that some PRs will have labels specific to the QA team.
+    - PRs that have the "QA Passed", have been tested, typically you will not have to perform another test unless requested to do so in the QA channel. Additional tests in Tier 2 reports are welcome!
+    - PRs that have the "QA Failed" do not require further testing, unless requested to do so.
+    - PRs with the label "QA Ready to Test" should be prioritized over PRs that already have successful tests.
+    - PRs with "QA Not Required" should not be tested.
+
+!!! tip "Tip: Projects"
+    You may notice of the section for "Awaiting Actions", this section typically means the PR has been approved and is waiting to be merged. You do not have to test these PRs as they will find their way on the development version of the aircraft shortly.
+
 ## How to get PR Builds
 
 Every pull request to the master branch triggers a build of the add-on with the changes made by that PR. This build can be downloaded and manually installed to your Community folder.
@@ -65,7 +75,7 @@ How to download the PR for QA
 
     ![GitHub PR Artifact](assets/qa-process/pr-checks-artifact.png "GitHub PR Artifact")
 
-5. Unzip the file and place the "flybywire-aircraft-a320-neo" folder into your Community Folder. 
+5. Unzip the file and place the "flybywire-aircraft-a320-neo" folder into your Community Folder.
 
 !!! info "PR Builds only for FlyByWire QA Team"
     The PR builds are only meant for QA testing and not for daily use. Outside of the FlyByWire QA Team, we do not provide any support or answer any questions regarding these builds.
@@ -98,7 +108,7 @@ It is important that the QA tests are done on a clean system with no other add-o
 
 Remove everything from your Community folder apart from the "flybywire-aircraft-a320-neo".
 
-Typically, it is ok to keep your Navigraph data installed.
+Typically, it is ok to keep your Navigraph data installed, though some PRs may require you to test using both the default simulator navdata and the Navigraph ones. Please check the description and instructions of each PR for such remarks.
 
 !!! tip "Tip: Use MSFS Addons Linker"
     An easy way to manage add-ons in the Community folder is the [MSFS Addons Linker](https://flightsim.to/file/1572/msfs-addons-linker){target=new} tool from [flightsim.to](https://flightsim.to/).
@@ -107,7 +117,7 @@ Typically, it is ok to keep your Navigraph data installed.
 
 ### Focus on the PR Test Instructions
 
-Read the test instructions of the PR carefully. Focus only on what is requested and part of this PR. Do not bloat your reports with many additional observations.
+Read the test instructions of the PR carefully. Focus only on what is requested and part of this PR. Do not bloat your reports with many additional observations or information that is expected to be the same through each QA test (such as how you installed the PR or if you emptied your community folder).
 
 If you find additional issues which are not part of the PR, reproduce and test them with the latest Development version and then create a [GitHub Issue](https://github.com/flybywiresim/aircraft/issues) for them.
 
@@ -123,49 +133,89 @@ Look in "quality-assurance" if a discussion thread already exists for this issue
 
 If no dedicated thread exists for the PR, please provide the #PR number and title in the "quality-assurance" channel and ask your question or describe your issue.
 
+Additionally, the "quality-assurance" channel contains some helpful pinned messages, so make sure you check those occasionally. 
+
 ### Communication
 
-It is good practice if you are starting a test on a certain PR to announce it on the Discord "quality-assurance" channel.<br/>
-(Example: Starting test on PR #1234 <PR-title>)
+Multiple tests in PRs are always welcome, and so it is good practice if you are starting a test on a certain PR to announce it on the Discord "quality-assurance" channel so that QA team is aware of progress in testing.<br/>
+(Example: `Starting test on PR #1234 <PR-title>`)
 
-Also reporting the PR# and test result after completing a report is common practice and helps others to see which PR have been tested and if there were issues.<br/>
-(Example: Tested PR #1234 <PR-title>: passed.)
+Also reporting the PR# and test result after completing a report is strongly recommended as it helps both developers & QA members to see which PR have been tested and if there were issues in quick time.<br/>
+(Example: `Tested PR #1234 <PR-title>: passed.`)
 
 ## Reporting on Tests
 
 To report test results on GitHub, please use the template below:
 
-```
+```md
+<!-- !! DO NOT REMOVE THIS LINE !! - QUALITY ASSURANCE REPORT -->
+<!-- Refer to the https://docs.flybywiresim.com/dev-corner/qa-process/#reporting-on-tests for details about this template -->
+
+<!-- Please use one or the other depending on your Discord Role -->
 Quality Assurance Tester/Trainee Report
 
-Discord          : (name#1234)
-Object of testing: (#PR Number)
-Tier of Testing  : (1/2)
-Date             : (DD/MM/YYYY)
+Discord Username  : XXXXXX <!-- Use your username, not your display name! -->
+Object of testing : #XXXX <!-- PR Number -->
+Tier of Testing   : 1/2
+Date              : XX/XX/XXXX <!-- Date of test in DD/MM/YYYY format -->
 
 Testing Process: 
-(Detail is needed)
-
-Negatives:       
-(Any issues, doubts. - type N/A if none are found)
+<!-- List the process - Required section --> 
 
 Testing Results: 
-(Passed/Not Passed)
+Passed/Not Passed <!-- Required section --> 
+
+Negatives:       
+<!-- Ommit this section if none are found -->
 
 Conclusions: 
-(Notes made, the positives in the PR, and anything extra you would like 
-to mention - Delete Line if Nothing Extra is to be mentioned)
+<!--- Ommit section if nothing to add -->
 
-Media:       
-(Pictures/videos if applicable - delete line if not applicable)
-
+Media:
+<!-- Ommit this section if no media to add -->
 ```
 
-!!! warning "Testing Results"
+### "Report Details" Section
+
+This section should be filled with details about your report. Please ensure this section is unaltared as our GitHub action read this area. This section is required.
+
+!!! warning ""
+    For consistency purposes, please use the DD/MM/YYYY format for the report date.
+
+### "Testing Process" Section
+
+Fill this section with details about the testing process. Though there isn't a specific format to use, it's recommend to include a list of each task (as described in the PR testing instructions) and a note of any part that failed to pass.
+
+This section is required.
+
+### "Testing Results" Section
+
+Used to indicate if the test was a success or a failure. This section is required.
+
+!!! warning ""
     Please make sure to do the following for the Testing Results section of your report:
-    
+
     1. Make sure the wording is **below** the `Testing Results:` line. This triggers the GitHub actions on the PR.
-    2. Use the exact wording "Passed" or "Not Passed".
+    2. Use the **exact** wording "Passed" or "Not Passed".
+
+### "Negatives" Section
+
+List any issues or negatives with this PR test. It is best you also include your expectation (if different from the testing instructions).
+
+You can ommit this section if no negatives are found.
+
+### "Conclusions" Section
+
+Any notes you may have, the positives in the PR, and anything extra you would like to note for your report. You can ommit this section.
+
+### "Media" Section
+
+If you have any media included in the report, make sure to include them in this section. It's best you label the images (e.g. A-B-C) especially if you have linked them to a specific item in the negatives section.
+
+!!! tip "Using collapsible sections"
+    If you need to include multiple images, you can take advantage of the Collapsed Sections feature GitHub offers. Learn more [here](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-collapsed-sections){target=new}
+
+### Tips
 
 !!! tip "Tip: Look at closed PRs"
     To better understand what a report should look like, you can look at closed PRs on GitHub to see how others approach this.
@@ -182,6 +232,9 @@ Media:
     Then, when writing a QA report, click on the arrow in the top-right corner of the comment field. Select your saved reply and insert the necessary data.
 
     Alternatively, you can use the keyboard shortcut CTRL+. CTRL+1 -> note that the number represents your saved replies, so if you have multiple and your QA template is the third one, you would have to use CTRL+3.
+
+!!! tip "Tip: GitHub text customization"
+    GitHub offers a suite of markdown and HTML style tools to format and customize the text in your reports. Learn more [here](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github){target=new}
 
 ## Discord Roles
 
@@ -202,9 +255,9 @@ After being accepted as a QA tester (see [Becoming a QA Tester](#becoming-a-qa-t
 
     Free to test all available Pull Requests ready to test. The high standard they have proven as a QA Trainee will continue to be expected from them.
 
-In general, to maintain your QA Team status, a minimum of one test every two weeks is required. You can announce in the quality-assurance Discord channel if you need to take a break from testing to retain your status, although not submitting any test reports.
+In general, to maintain your QA Team status, a minimum of one test every few weeks is required. You can message a QA Team lead on Discord if you need to take a break from testing to retain your status, although not submitting any test reports.
 
-Special QA requests to IRL pilots will be made in the #pilot-feedback channel.
+Special QA requests to IRL pilots will be made in the #pilot-feedback channel. If you are a pilot and wish to contribute to the project with your knowledge, please contact an online moderator or an administrator on our Discord server.
 
 ## Contacts
 
