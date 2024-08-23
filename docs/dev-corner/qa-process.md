@@ -47,7 +47,8 @@ If you have gotten a grasp on the above instructions, pick a PR to test from the
 Read the description and testing instructions of the PR carefully and make sure you have the required skills and the necessary time available to conduct the test in a high-quality fashion.
 
 !!! tip "Tip: Labels"
-    You will notice that some PRs will have labels specific to the QA team.
+    You will notice that some PRs will have labels specific to the QA team:
+
     - PRs that have the "QA Passed", have been tested, typically you will not have to perform another test unless requested to do so in the QA channel. Additional tests in Tier 2 reports are welcome!
     - PRs that have the "QA Failed" do not require further testing, unless requested to do so.
     - PRs with the label "QA Ready to Test" should be prioritized over PRs that already have successful tests.
@@ -184,7 +185,7 @@ This section should be filled with details about your report. Please ensure this
 
 ### "Testing Process" Section
 
-Fill this section with details about the testing process. Though there isn't a specific format to use, it's recommend to include a list of each task (as described in the PR testing instructions) and a note of any part that failed to pass.
+Fill this section with details about the testing process. Though there isn't a specific format to use, it's recommend to include a list of each task (as described in the PR testing instructions) and a note of any part that failed to pass. Common information such as how you downloaded the PR or if your community folder was empty, should not be included in this section.
 
 This section is required.
 
