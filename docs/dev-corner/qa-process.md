@@ -157,6 +157,7 @@ Quality Assurance Tester/Trainee Report
 
 Discord Username  : XXXXXX <!-- Use your username, not your display name! -->
 Object of testing : #XXXX <!-- PR Number -->
+Aircraft          : A32NX/A380X <!-- Choose only one -->
 Tier of Testing   : 1/2
 Date              : XX/XX/XXXX <!-- Date of test in DD/MM/YYYY format -->
 
@@ -170,11 +171,14 @@ Negatives:
 <!-- Ommit this section if none are found -->
 
 Conclusions: 
-<!--- Ommit section if nothing to add -->
+<!-- Ommit section if nothing to add -->
 
 Media:
 <!-- Ommit this section if no media to add -->
 ```
+
+!!! tip ""
+    Text wrapped with `<!-- -->` (a.k.a. html comments) in the template will not be visible on your report. You may remove these comments as long as the required one at the top of the report. 
 
 ### "Report Details" Section
 
