@@ -211,9 +211,12 @@ Any notes you may have, the positives in the PR, and anything extra you would li
 
 ### "Media" Section
 
-If you have any media included in the report, make sure to include them in this section. It's best you label the images (e.g. A-B-C) especially if you have linked them to a specific item in the negatives section.
+If you have any media to be included in the report, make sure to include them in this section. Images, videos, YouTube links or Streamable links are welcome. Please ensure externally linked media is unlisted/public and available for at minimum 4 weeks of the date you post the report.
 
-!!! tip "Using collapsible sections"
+!!! tip "Tip: Label your Media"
+    We recommend you label your images (e.g. A-B-C) especially if you have linked them to a specific item in the negatives section, though for one or two images this is not necessary!
+
+!!! tip "Tip: Using collapsible sections"
     If you need to include multiple images, you can take advantage of the Collapsed Sections feature GitHub offers. Learn more [here](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-collapsed-sections){target=new}
 
 ### Tips
