@@ -211,7 +211,7 @@ You can omit this section if no negatives are found.
 
 ### "Conclusions" Section
 
-Any notes you may have, the positives in the PR, and anything extra you would like to note for your report. You can ommit this section.
+Any notes you may have, the positives in the PR, and anything extra you would like to note for your report. You can omit this section.
 
 ### "Media" Section
 
