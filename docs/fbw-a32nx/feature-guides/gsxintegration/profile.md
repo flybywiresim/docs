@@ -21,9 +21,6 @@ The correct SimVar was set to ensure that GSX correctly detects the parking brak
 ### Payload/Fuel Window
 This option has been disabled due to our custom payload and fuel systems.
 
-### Traffic cones
-As the A32NX's cones and chocks are disabled with enabling GSX Integration, this option is enabled to provide the user with cones.
-
 ## Troubleshooting
 Currently, GSX may not correctly detect the developer profile as shown in [overview](#overview). To circumvent this, you can manually copy the developer profile to GSX's profile folder.
 
