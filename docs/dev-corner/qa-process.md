@@ -207,7 +207,7 @@ Used to indicate if the test was a success or a failure. This section is require
 
 List any issues or negatives with this PR test. It is best you also include your expectation (if different from the testing instructions).
 
-You can ommit this section if no negatives are found.
+You can omit this section if no negatives are found.
 
 ### "Conclusions" Section
 
