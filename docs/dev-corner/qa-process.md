@@ -263,7 +263,7 @@ After being accepted as a QA tester (see [Becoming a QA Tester](#becoming-a-qa-t
 
     Free to test all available Pull Requests ready to test. The high standard they have proven as a QA Trainee will continue to be expected from them.
 
-In general, to maintain your QA Team status, a minimum of one test every few weeks is required. You can message a QA Team lead on Discord if you need to take a break from testing to retain your status, although not submitting any test reports.
+In general, to maintain your QA Team status, a minimum of one test every few weeks is required. You can message a QA Team lead on Discord if you need to take a break from testing to retain your status, if you are not able to submit any test reports for an extended period of time.
 
 Special QA requests to IRL pilots will be made in the #pilot-feedback channel. If you are a pilot and wish to contribute to the project with your knowledge, please contact an online moderator or an administrator on our Discord server.
 
