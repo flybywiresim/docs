@@ -178,7 +178,7 @@ Media:
 ```
 
 !!! tip ""
-    Text wrapped with `<!-- -->` (a.k.a. html comments) in the template will not be visible on your report. You may remove these comments as long as the required one at the top of the report. 
+    Text wrapped with `<!-- -->` (a.k.a. html comments) in the template will not be visible on your report. You may remove these comments except for the required one at the top of the report. 
 
 ### "Report Details" Section
 
