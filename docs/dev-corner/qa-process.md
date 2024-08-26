@@ -189,7 +189,7 @@ This section should be filled with details about your report. Please ensure this
 
 ### "Testing Process" Section
 
-Fill this section with details about the testing process. Though there isn't a specific format to use, it's recommend to include a list of each task (as described in the PR testing instructions) and a note of any part that failed to pass. Common information such as how you downloaded the PR or if your community folder was empty, should not be included in this section.
+Fill this section with details about the testing process. Though there isn't a specific format to use, it's recommended to include a list of each task (as described in the PR testing instructions) and a note of any part that failed to pass. Common information, such as how you downloaded the PR or if your community folder was empty, should not be included in this section. 
 
 This section is required.
 
