@@ -55,7 +55,7 @@ Read the description and testing instructions of the PR carefully and make sure 
     - PRs with "QA Not Required" should not be tested.
 
 !!! tip "Tip: Projects"
-    You may notice of the section for "Awaiting Actions", this section typically means the PR has been approved and is waiting to be merged. You do not have to test these PRs as they will find their way on the development version of the aircraft shortly.
+    You may notice of the section for "Awaiting Actions", this section typically means the PR has been approved and is waiting to be merged. You do not have to test these PRs as they will find their way to the development version of the aircraft shortly.
 
 ## How to get PR Builds
 
