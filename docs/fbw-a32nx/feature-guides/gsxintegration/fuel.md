@@ -22,7 +22,7 @@ Much of the refuelling process between the A32NX and GSX is automated, however s
 
 1. Fueling
       - To use GSX as part of the refuelling process, 'Refuel Time' should be `Real` or `Fast`. Selecting `Instant` will add the fuel immediately, and will not involve GSX.
-      - Ensure you have syncronised your required fuel with your Simbrief flight plan, or manually adjusted the slider to set how much fuel you require.
+      - Ensure you have synchronised your required fuel with your Simbrief flight plan, or manually adjust the slider to set how much fuel you require.
       - Above the slider, you will see `(Call GSX Refuel)` - you need to select `Request Refuelling` within the GSX main menu. Be aware that you cannot adjust the fuel slider/amount once you have clicked this.
       - GSX will now send the fuel truck to the aircraft. The `(Call GSX Refuel)` will disappear during this process.
       - When the fuel truck has set up and connected the fuel hose to the aircraft it will begin to load fuel into the tanks. Above the slider you will see `(Refuelling...)` and the 'Total Fuel' at the top of the EFB page should begin to increase until it reaches the amount you requested.
