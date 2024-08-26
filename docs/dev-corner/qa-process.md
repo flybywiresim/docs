@@ -182,7 +182,7 @@ Media:
 
 ### "Report Details" Section
 
-This section should be filled with details about your report. Please ensure this section is unaltared as our GitHub action read this area. This section is required.
+This section should be filled with details about your report. Please ensure this section is unaltered as our GitHub action read this area. This section is required.
 
 !!! warning ""
     For consistency purposes, please use the DD/MM/YYYY format for the report date.
