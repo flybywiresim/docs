@@ -138,7 +138,7 @@ Additionally, the "quality-assurance" channel contains some helpful pinned messa
 
 ### Communication
 
-Multiple tests in PRs are always welcome. It is still good practice to announce it on the Discord "quality-assurance" channel  , if you are starting a test on a certain PR, so that the QA team is aware of progress in testing.<br/>
+Multiple tests in PRs are always welcome. It is still good practice to announce it on the Discord "quality-assurance" channel, if you are starting a test on a certain PR, so that the QA team is aware of progress in testing.<br/>
 (Example: `Starting test on PR #1234 <PR-title>`)
 
 Also reporting the PR# and test result after completing a report is strongly recommended as it helps both developers & QA members to see which PR have been tested and if there were issues in quick time.<br/>
