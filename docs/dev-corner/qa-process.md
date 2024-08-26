@@ -189,13 +189,17 @@ This section should be filled with details about your report. Please ensure this
 
 ### "Testing Process" Section
 
-Fill this section with details about the testing process. Though there isn't a specific format to use, it's recommended to include a list of each task (as described in the PR testing instructions) and a note of any part that failed to pass. Common information, such as how you downloaded the PR or if your community folder was empty, should not be included in this section. 
+Fill this section with details about the testing process. Though there isn't a specific format to use, it's recommended to include a list of each task (as described in the PR testing instructions) and a note of any part that failed to pass. Common information, such as how you downloaded the PR or if your community folder was empty, should not be included in this section.
 
-This section is required.
+!!! danger ""
+    This section is required.
 
 ### "Testing Results" Section
 
-Used to indicate if the test was a success or a failure. This section is required.
+Used to indicate if the test was a success or a failure.
+
+!!! danger ""
+    This section is required.
 
 !!! warning ""
     Please make sure to do the following for the Testing Results section of your report:
@@ -207,15 +211,22 @@ Used to indicate if the test was a success or a failure. This section is require
 
 List any issues or negatives with this PR test. It is best you also include your expectation (if different from the testing instructions).
 
-You can omit this section if no negatives are found.
+!!! warning ""
+    You can omit this section if no negatives are found.
 
 ### "Conclusions" Section
 
-Any notes you may have, the positives in the PR, and anything extra you would like to note for your report. You can omit this section.
+Any notes you may have, the positives in the PR, and anything extra you would like to note for your report.
+
+!!! warning ""
+    You can omit this section.
 
 ### "Media" Section
 
 If you have any media to be included in the report, make sure to include them in this section. Images, videos, YouTube links or Streamable links are welcome. Please ensure externally linked media is unlisted/public and available for at least 4 weeks from the date you post the report.
+
+!!! warning ""
+    You can omit this section there is no media to include.
 
 !!! tip "Tip: Label your Media"
     We recommend you label your images (e.g. A-B-C) especially if you have linked them to a specific item in the negatives section, though for one or two images this is not necessary!
