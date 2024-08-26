@@ -215,7 +215,7 @@ Any notes you may have, the positives in the PR, and anything extra you would li
 
 ### "Media" Section
 
-If you have any media to be included in the report, make sure to include them in this section. Images, videos, YouTube links or Streamable links are welcome. Please ensure externally linked media is unlisted/public and available for at minimum 4 weeks of the date you post the report.
+If you have any media to be included in the report, make sure to include them in this section. Images, videos, YouTube links or Streamable links are welcome. Please ensure externally linked media is unlisted/public and available for at least 4 weeks from the date you post the report.
 
 !!! tip "Tip: Label your Media"
     We recommend you label your images (e.g. A-B-C) especially if you have linked them to a specific item in the negatives section, though for one or two images this is not necessary!
