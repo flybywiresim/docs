@@ -211,21 +211,21 @@ Used to indicate if the test was a success or a failure.
 
 List any issues or negatives with this PR test. It is best you also include your expectation (if different from the testing instructions).
 
-!!! warning ""
+!!! info ""
     You can omit this section if no negatives are found.
 
 ### "Conclusions" Section
 
 Any notes you may have, the positives in the PR, and anything extra you would like to note for your report.
 
-!!! warning ""
+!!! info ""
     You can omit this section.
 
 ### "Media" Section
 
 If you have any media to be included in the report, make sure to include them in this section. Images, videos, YouTube links or Streamable links are welcome. Please ensure externally linked media is unlisted/public and available for at least 4 weeks from the date you post the report.
 
-!!! warning ""
+!!! note ""
     You can omit this section there is no media to include.
 
 !!! tip "Tip: Label your Media"
