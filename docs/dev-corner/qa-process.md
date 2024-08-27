@@ -225,7 +225,7 @@ Any notes you may have, the positives in the PR, and anything extra you would li
 
 If you have any media to be included in the report, make sure to include them in this section. Images, videos, YouTube links or Streamable links are welcome. Please ensure externally linked media is unlisted/public and available for at least 4 weeks from the date you post the report.
 
-!!! note ""
+!!! info ""
     You can omit this section there is no media to include.
 
 !!! tip "Tip: Label your Media"
