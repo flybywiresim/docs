@@ -4,9 +4,9 @@
 
 ## Different Approaches Available
 
-To land any aircraft, the first step is to start an approach that will bring you to a position where you can see the runway. There are a multitude of different approaches, divided into three terms, precision, non-precision and approach with vertical guidance.
+To land any aircraft, the first step is to start an approach that will bring you to a position where you can see the runway. There are a multitude of different approach types, divided into three groups, precision, non-precision and approach with vertical guidance.
 
-Depending on what equipment the airfield has, what the aircraft is capable of, what the pilot is certified to do and the weather that is on the airfield will determine which of these approaches you will do. Here are some of the more common ones you may see in an airliner.
+Depending on what equipment the airfield has, what the aircraft is capable of, what the pilot is certified to do and the weather that is at the airfield will determine which of these approaches is the most appropriate. Here are some of the more common ones you may see in an airliner.
 
 ### ^^Precision Approaches \(PA\)^^
 
@@ -32,13 +32,11 @@ Using a localizer beacon at the end of the runway, and a glideslope beacon at th
 
 #### GLS
 
-Like an ILS, but instead of using a set of radio beacons, the aircraft is guided by being fed information from a set of ground stations, which are in turn fed details about the position of the aircraft through GPS satellites.
-
-Not common, but as they do not need radio signals that go out in straight lines, the station can guide the aircraft around curves and turns to avoid terrain and built up/sensitive areas. Only some aircraft are equipped to do GLS and is only an option on the A320 family.
+GPS based approaches that are flown similarly to an ILS. Instead of using a pair of radio beams, the normal GPS constellation is augmented by a ground based transmitter that reduces GPS errors and increases the positional accuracy to a level suitable for an instrument approach.
 
 #### PAR
 
-This is an approach where a controller, with an advanced radar, steers you towards the runway while telling you corrections to your heading or altitude. To the pilot, the controller will give you corrections such as, “Left 2 degrees”, “Right 3 degrees”, “Slightly high, correcting”, to bring you towards the runway.
+This is an approach where a controller, with an advanced radar, provides instructions to manoeuvre the aircraft on an approach. To the pilot, the controller will give you corrections such as, “Left 2 degrees”, “Right 3 degrees”, “Slightly high, correcting”, to bring you towards the runway.
 
 When all other systems fail, this system can be used as a backup to provide these kinds of approaches, and several large international airports will practice these to keep the controllers skills current. Military airfields commonly use them as they can be set up much quicker than an ILS for use in temporary airfields and rely entirely on a radar, which can be portable.
 
@@ -53,7 +51,7 @@ A non-precision approach officially can only give you lateral guidance to the po
 |       Localizer Only \(LOC\)        |       A localizer that would be part of an ILS system normally        | Some airports only have localizer but also when ILS glideslopes have failed. |
 |         VOR-DME or VOR Only         |            A VOR beacon with/without a distance from a DME            |               Old style approaches, where ILS cannot be used.                |
 |         NDB-DME or NDB Only         |            A NDB beacon with/without a distance from a DME            |              Old style approaches, where an ILS cannot be used               |
-|              LNAV Only              | GPS or the aircraft's position inside the flight management computers |           Approaches where there are no radio beacons in the area            |
+|              LNAV Only              | GPS or the aircraft's position from the flight management computers |           Approaches where there are no radio beacons in the area            |
 | Approach Surveillance Radar \(ASR\) |   A radar dish and a controller <br> (No altitude compared to PAR)    |               Commonly as a backup, or at military airfields.                |
 |               Visual                |                           Pilot's eyeball!                            | Where there is no issue with the weather and the runway is already in sight  |
 
@@ -95,7 +93,7 @@ With the ILS system, there are several categories that have different requiremen
 
 As the weather gets progressively worse, the higher the category you need to use, which in turn requires more advanced equipment both on the airfield and in the cockpit. To be able to do this, pilots are required to retrain on low visibility operations every year.
 
-The CAT IIIC can be performed without ever seeing anything at all, but this is not in practice yet as there has not been a system designed for the aircraft to be able to leave the runway and go to the parking stands completely blind. The A320 family is capable of everything, including CAT IIIC.
+A CAT IIIC approach can be flown in conditions of zero visibility with the aircraft performing a fully automatic landing (autoland) and rollout along the runway.
 
 ![fog](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Furtwangen_Jan_05_fog_GHB.jpg/640px-Furtwangen_Jan_05_fog_GHB.jpg)
 
@@ -109,7 +107,7 @@ So, you have picked your approach and are flying towards the runway, but how clo
 
 |                Minimum Type                 |                Defined As                |               Approaches Used In               |
 |:-------------------------------------------:|:----------------------------------------:|:----------------------------------------------:|
-|    MDA <br>\(Minimum Descent Altitude\)     |      Altitude Above Mean Sea Level       | LOC, LDA, SDF, VOR <br> NDB, LNAV, ASR, Visual |
+|    MDA <br>\(Minimum Descent Altitude\)     |      Barometric Altitude Above Mean Sea Level       | LOC, LDA, SDF, VOR <br> NDB, LNAV, ASR, Visual |
 |         DA <br>(Decision Altitude)          | Barometric Altitude Above Mean Sea Level | CAT I ILS <br> LNAV / VNAV, LPV, RNP, PAR, GLS |
 | DH/RA <br>\(Decision Height/Radio Altitude) |    Radio Altitude Above Ground Level     |       CAT II ILS <br> CAT III A/B/C ILS        |
 
@@ -118,9 +116,11 @@ These are defined in feet, \(or meters if that airspace uses meter altitudes\) a
 !!! info "Expanded Information from FAA Instrument Procedure Handbook"
     Chapter 4: Approaches in the FAA IPH provides more context on the definition of the different types of minimums.
     
-    **MDA** - the lowest altitude, expressed in feet MSL, to which descent is authorized on final approach or during circle-to land maneuvering in execution of a standard instrument approach procedure (SIAP) where no electronic glideslope is provided.
+    **MDA** - the lowest altitude, expressed in feet MSL, to which descent is authorized on final approach or during circle-to land maneuvering in execution of a standard instrument approach procedure (SIAP) where no electronic glideslope is provided. 
+*The MDA is a hard altitude and should not be descended below, to achieve this a buffer (normally 50 feet) is added to the MDA from the approach chart, and this is used as the point where a missed approach is conducted. This allows for the momentum of the aircraft downwards at the point of carrying out the missed approach breaking the MDA.*
 
     **DA** - the altitude in a precision approach at which a missed approach must be initiated if the required visual reference to continue the approach has not been established.
+No buffer needs to be applied for DAs
 
     **DH** - with respect to the operation of aircraft, means the height at which a decision must be made during an ILS, MLS, or PAR IAP to either continue the approach or to execute a missed approach. CAT II and III approach DHs are referenced to AGL and measured with a radio altimeter.
 
@@ -132,11 +132,9 @@ These are defined in feet, \(or meters if that airspace uses meter altitudes\) a
 
 ### ^^Aircraft Approach Categories^^
 
-Now, depending on the aircraft you are flying, depends on the minimums you are allowed to use. These are grouped together by the approach speed of your aircraft, while in normal landing configuration at the maximum landing weight that it is certified to do.
+Approach minimum's are further separated into various categories that are determined by the approach speed of the aircraft flying the approach, with higher approach speeds generally leading to higher minimums.
 
-* The higher the maximum weight approach speed means:
-* The higher category is required, which means:
-* The higher minimums are used.
+Interestingly, the A380 is a CAT C aircraft while many smaller types are CAT D. 
 
 | Aircraft Category | Approach Speeds |         Typical Aircraft         |
 |:-----------------:|:---------------:|:--------------------------------:|
@@ -182,8 +180,14 @@ As this chart is now designed differently, it has described the MDA as a DA for 
 
 ## Autoland
 
-Autolands are, unlike what the media might want everyone to think, not used all that frequently! The only time it is fully used is in conditions of bad weather, where the clouds are too low or the visibility not far enough to continue to do a normal manual approach. Special rules must be in place to prevent any interference with the aircraft, as this is a precise maneuvre with not much room for error.
+Some types of approaches (CAT IIIC) may require the aircraft to perform an autoland. While autolands in full CAT IIIC conditions may be infrequent, autolands may be performed on a semi regular basis depending on the operator. Some aircraft types require the aircraft itself to have autoland recency, for example, one autoland per 90 days. An Autoland can be performed after an ILS approach of any category, however when done for practice or recency care needs to be taken to avoid interference of the approach beams by aircraft crossing runways.
 
+
+~~ Autolands are, unlike what the media might want everyone to think, not used all that frequently! The only time it is fully used is in conditions of bad weather, where the clouds are too low or the visibility not far enough to continue to do a normal manual approach. Special rules must be in place to prevent any interference with the aircraft, as this is a precise maneuvre with not much room for error.
+~~
+
+
+(Most of the following is incorrect and perhaps interesting but not relevant)
 ### ^^Rules at the Airfield^^
 
 To fly an Autoland, the approach you are flying must be a CAT II ILS or higher. This means that only certain airfields can perform these, where the localizer and glideslopes have been certified as accurate enough to guide the aircraft to a successful landing. An airfield with anything such as an offset ILS, where the ILS is not aligned with the runway, will not be able to offer an Autoland approach.

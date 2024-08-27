@@ -25,7 +25,7 @@ You should use the lowest code for the section of runway you will be using for l
 
 ## Runway Correlation Matrix
 
-| Runway<br/> Condition Code |  Braking Action  | Representative<br/> Surface Condition                      | Maximum Allowable<br/> Crosswind for Landing |
+| Runway<br/> Condition Code |  Braking Action  | Representative<br/> Surface Condition                      | Maximum Allowable<br/> Crosswind for Landing (A320)|
 |:--------------------------:|:----------------:|:-----------------------------------------------------------|:--------------------------------------------:|
 |             6              |       Dry        | Dry                                                        |                   38 knots                   |
 |             5              |       Good       | Wet<br/> Up to 3 mm (1/8") Snow or Slush                   |                   38 knots                   |

@@ -38,7 +38,7 @@
 |:--------|:-----------------------------------------------------------------------------------------------------------------------------------------------|
 | F       | Minimum speed at which the **F**laps may be retracted at takeoff (i.e., CONF 2/3). Also, the minimum speed in approach when in CONF 2 or 3     |
 | S       | Minimum speed at which the **S**lats may be retracted at takeoff. Also, the minimum speed in approach when in CONF 1.                          |
-| O or GD | **G**reen **D**ot speed, engine-out **O**perating speed with flaps up, best lift-to-drag ratio speed, also corresponds to final takeoff speed. |
+| O or GD | **G**reen **D**ot speed, engine-out **O**perating speed with flaps up, best lift-to-drag ratio speed.|
 
 
 ## Weight

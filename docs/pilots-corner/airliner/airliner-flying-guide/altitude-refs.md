@@ -15,9 +15,11 @@ QFE is the setting of the altimeter so that it will read the height above the ai
 
 ### ^^STD^^
 
-STD (standard) is the setting of the altimeter to reference to ISA conditions. ISA is an internationally developed and recognized model of how air pressure, temperature, and density vary with altitude, and for pilots, this means a QNH of 1013 hPa or 29.92 in Hg. 
+STD (standard) is the setting of the altimeter to reference to ISA conditions. ISA is an internationally developed and recognized model of how air pressure, temperature, and density vary with altitude, and for pilots, this means a QNH of 1013.2 hPa or 29.92 in Hg. 
 
-To fly a flight level (i.e., FL350 as opposed to 35 000 ft), all aircraft are required to be set to STD to remove any chances of differences between QNH causing aircraft to be closer to each other than the altimeters are indicating. The change from being on a QNH to STD happens at the transition altitude, and at the transition level vice-versa. A QNH/QFE is required to be set before landing. To set the STD in the Airbus, pull the dial that sets the altimeter, and push to return to QNH.
+To fly a flight level (i.e., FL350 as opposed to 35 000 ft), all aircraft are required to be set to STD to remove any chances of differences between QNH causing aircraft to be closer to each other than the altimeters are indicating. The change from being on a QNH to STD happens at the transition altitude, and at the transition level vice-versa. A QNH/QFE is required to be set before landing. 
+
+To set the STD in the Airbus, pull the dial that sets the altimeter, and push to return to QNH. _(Pulling a dial for Automatic and pushing for manual control is the reverse to all the other FCU knobs in the airbus, where you push the knob to engage the higher level of automation and pull to take manual control of that parameter. On the A380 the altimeter knob logic has been 'corrected' to Push for Std, Pull for manual setting of QNH.)_
 
 ### ^^in.Hg/hPA^^
 
@@ -29,7 +31,7 @@ As you may fly from a country that uses one setting, to another country that use
 
 ## Transition Altitudes and Transition Levels
 
-Transition altitudes and levels are the changeover points for the altimeter references to be changed. The transition altitude in the climb, and the transition level in the descent.
+Transition altitudes and levels are the changeover points where the altimeter references is changed. The transition altitude in the climb (going from an _altitude_ to a level), and the transition level in the descent (going from a _level_ to an altitude).
 
 ### ^^Transition Altitude^^
 
