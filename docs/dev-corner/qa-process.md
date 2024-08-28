@@ -228,15 +228,15 @@ If you have any media to be included in the report, make sure to include them in
 !!! info ""
     You can omit this section there is no media to include.
 
-!!! tip "Tip: Label your Media"
+!!! tip "Tip: Label Your Media"
     We recommend you label your images (e.g. A-B-C) especially if you have linked them to a specific item in the negatives section, though for one or two images this is not necessary!
 
-!!! tip "Tip: Using collapsible sections"
+!!! tip "Tip: Using Collapsible Sections"
     If you need to include multiple images, you can take advantage of the Collapsed Sections feature GitHub offers. Learn more [here](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-collapsed-sections){target=new}
 
 ### Tips
 
-!!! tip "Tip: Look at closed PRs"
+!!! tip "Tip: Look at Closed PRs"
     To better understand what a report should look like, you can look at closed PRs on GitHub to see how others approach this.
 
     Link to Closed PR list: [Closed PRs](https://github.com/flybywiresim/aircraft/pulls?q=is%3Apr+is%3Aclosed){target=new}
@@ -252,7 +252,7 @@ If you have any media to be included in the report, make sure to include them in
 
     Alternatively, you can use the keyboard shortcut CTRL+. CTRL+1 -> note that the number represents your saved replies, so if you have multiple and your QA template is the third one, you would have to use CTRL+3.
 
-!!! tip "Tip: GitHub text customization"
+!!! tip "Tip: GitHub Text Customization"
     GitHub offers a suite of markdown and HTML style tools to format and customize the text in your reports. Learn more [here](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github){target=new}
 
 ## Discord Roles
