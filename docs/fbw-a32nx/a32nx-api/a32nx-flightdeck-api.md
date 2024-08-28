@@ -448,8 +448,8 @@ Flight Deck: [EFIS Control Panel](../../pilots-corner/a32nx-briefing/flight-deck
 | LS Capt.     | BTN_LS_1_FILTER_ACTIVE           | 0&#124;1         | R/W        | Custom LVAR      |                                                   |
 | LS F.O.      | BTN_LS_2_FILTER_ACTIVE           | 0&#124;1         | R/W        | Custom LVAR      |                                                   |
 |              |                                  |                  |            |                  |                                                   |
-| ND Filter    | A32NX_EFIS_L_OPTION              | 0..5             | R/W        | Custom LVAR      | 0=none, 1=CSTR, 2=VOR, 3=WPT, 4=NDB, 5=ARPT       |
-|              | A32NX_EFIS_R_OPTION              | 0..5             | R/W        | Custom LVAR      | 0=none, 1=CSTR, 2=VOR, 3=WPT, 4=NDB, 5=ARPT       |
+| ND Filter    | A32NX_EFIS_L_OPTION              | 0..31 (bitmap)   | R/W        | Custom LVAR      | 0=none, 1=CSTR, 2=VOR, 4=WPT, 8=NDB, 16=ARPT      |
+|              | A32NX_EFIS_R_OPTION              | 0..31 (bitmap)   | R/W        | Custom LVAR      | 0=none, 1=CSTR, 2=VOR, 4=WPT, 8=NDB, 16=ARPT      |
 |              |                                  |                  |            |                  |                                                   |
 | ND MODE      | A32NX_EFIS_L_ND_MODE             | 0..4             | R/W        | Custom LVAR      | 0=ROSE ILS, 1=ROSE VOR, 2=ROSE NAV. 3=ARC, 4=PLAN |
 |              | A32NX_EFIS_R_ND_MODE             | 0..4             | R/W        | Custom LVAR      | 0=ROSE ILS, 1=ROSE VOR, 2=ROSE NAV. 3=ARC, 4=PLAN |
