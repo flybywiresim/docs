@@ -40,7 +40,7 @@ To manage this process, we use the GitHub Project feature.
 
 This is a simple Kanban board where items move from the left to the right. For QA tests, the third column is relevant ("QA Team Review: Ready to Test")
 
-![QA Project Board on GitHub](assets/qa-process/qa-board.png "QA Project Board on GitHub"){loading=lazy}<br/>[QA Project Board on GitHub](https://github.com/flybywiresim/aircraft/projects/4){target=new}
+![QA Project Board on GitHub](assets/qa-process/qa-board.png "QA Project Board on GitHub"){loading=lazy}<br/>[QA Project Board on GitHub](https://github.com/orgs/flybywiresim/projects/7){target=new}
 
 If you have gotten a grasp on the above instructions, pick a PR to test from the list.
 
