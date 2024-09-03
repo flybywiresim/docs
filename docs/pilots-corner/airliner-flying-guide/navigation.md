@@ -10,7 +10,7 @@
 
     === "1"
 
-        The category of aircraft allowed to do this approach \(A, B, C & D\).
+        The category of aircraft allowed to do this approach *A, B, C & D*.
 
         The altitude of the airfield (392 ft) and altitude of the runway touchdown (317ft)
 
