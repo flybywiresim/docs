@@ -18,7 +18,7 @@ This page explains, how to use the fueling "synchronization" as-well as any cave
 ## Usage
 ![Fuel Start](../../assets/gsxintegration/gsx-fuel-start.png)
 
-Much of the refuelling process between the A32NX and GSX is automated, however some input is required from the user to set the fuel and initiate refuelling.
+Much of the refuelling process between the A32NX and GSX is automated; However some input is required from the user to set the fuel and initiate refuelling.
 
 1. Fueling
       - To use GSX as part of the refuelling process, 'Refuel Time' should be `Real` or `Fast`. Selecting `Instant` will add the fuel immediately, and will not involve GSX.
