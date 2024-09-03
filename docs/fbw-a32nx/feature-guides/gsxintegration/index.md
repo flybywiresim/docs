@@ -32,7 +32,7 @@ This documentation takes you through all pages and functions of GSX Integration.
 
 [//]: # (TODO need to add a picture here)
 
-![GSX Flypad](../../assets/gsxintegration/gsx-hero.png "GSX Settings")
+![GSX Intergration](../../assets/gsxintegration/gsx-hero.jpg "GSX Refuelling the FBW")
 
 ## General Usage
 
