@@ -111,7 +111,7 @@ So, you have picked your approach and are flying towards the runway, but how clo
 |:------------------------------------------:|:----------------------------------------:|:----------------------------------------------:|
 |     MDA <br>*Minimum Descent Altitude*     |      Altitude Above Mean Sea Level       | LOC, LDA, SDF, VOR <br> NDB, LNAV, ASR, Visual |
 |         DA <br>(Decision Altitude)         | Barometric Altitude Above Mean Sea Level | CAT I ILS <br> LNAV / VNAV, LPV, RNP, PAR, GLS |
-| DH/RA <br>*Decision Height/Radio Altitude) |    Radio Altitude Above Ground Level     |       CAT II ILS <br> CAT III A/B/C ILS        |
+| DH/RA <br>*Decision Height/Radio Altitude* |    Radio Altitude Above Ground Level     |       CAT II ILS <br> CAT III A/B/C ILS        |
 
 These are defined in feet, *or meters if that airspace uses meter altitudes* and can be found at the bottom of the aeronautical chart that is published for that approach. Each approach to each airport will have a separate value, changing due to obstacles, terrain, and other things that may get in the way while descending towards the runway.
 
