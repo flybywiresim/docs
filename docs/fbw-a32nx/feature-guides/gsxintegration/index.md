@@ -13,12 +13,12 @@ description: A guide to the GSX Integration provided in the A32NX.
 !!! warning "Please Note"
     This guide covers GSX Integration and the features available in the latest FlyByWire [Development Version](../../fbw-versions.md#development-version-recommended).
 
-    If you use the FlyByWire Stable version, you might not have all features available. This will be appropriately flagged throughout our doucmentation.
+    If you use the FlyByWire Stable version, you might not have all features available. This will be appropriately flagged throughout our documentation.
 
 !!! danger "Support"
     The FlyByWire team does not take responsibility for bugs encountered while using GSX. 
     
-    If you're experiencing issues with GSX, please refer to the FSDreamTeam's forums or their discord. The GSX Integration feature provided is regarding GSX interacting with FlyByWire and nothing more.
+    If you're experiencing issues with GSX, please refer to the [FSDreamTeam's forums](https://www.fsdreamteam.com/forum/) or their [Discord](https://discord.com/invite/e7DBUe3Ftc). The GSX Integration feature provided is regarding GSX interacting with FlyByWire and nothing more.
 
 !!! abstract "FSDreamteam: [GSX](https://www.fsdreamteam.com/products_gsxpro.html){target=new}:"
 
@@ -32,7 +32,7 @@ This documentation takes you through all pages and functions of GSX Integration.
 
 [//]: # (TODO need to add a picture here)
 
-![GSX Flypad](../../assets/gsxintegration/gsx-hero.jpg "GSX Settings")
+![GSX Intergration](../../assets/gsxintegration/gsx-hero.jpg "GSX Refuelling the FBW")
 
 ## General Usage
 

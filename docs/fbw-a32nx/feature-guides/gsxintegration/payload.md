@@ -1,7 +1,7 @@
 # Payload Synchronization
 
 !!! warning ""
-    You must enable [Payload Sync](../flypados3/settings.md#3rd-party-options) in order for this to function.
+    You must enable [Payload Sync](../flypados3/settings.md#3rd-party-options) on the 3rd Party Options settings page on the EFB for this to function.
 
 This page goes over how to use payload synchronization as-well as any caveats you should be aware of when using it.
 
@@ -17,7 +17,7 @@ This page goes over how to use payload synchronization as-well as any caveats yo
 - Once boarding has started, you can no longer edit the fields in the payload screen.
   
 ## General Usage
-![Payload Start](../../assets/gsxintegration/gsx-payload-start.jpg)
+![Payload Start](../../assets/gsxintegration/gsx-payload-start.png)
 
 You may notice the payload page is slightly different, with the Play/Stop button missing. This is because boarding is now managed by GSX and thus triggering these states is done by you, the user, through the GSX Menu.
 
