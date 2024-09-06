@@ -80,5 +80,3 @@ magnetic North. If the winds are 240/10 true from the METAR, adjust it to 236/10
 
 Since the magnetic variation is only 4 degrees and winds are normally rounded to the nearest ten degrees, you can also just skip converting the wind reference from true North 
 to magnetic North for LOWI.
-
-*[TORA]: Take-Off Run Available
