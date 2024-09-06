@@ -62,9 +62,13 @@ intersections (where a 90-degree entry angle would apply) are listed in the Addi
 The runway elevation for each runway is different, so each runway will have a slope value. Use the following equation to calculate the slope value:
 
 !!! info "Slope Equation"
-    $$\frac{Elevation\,at\,end\,of\,TORA - Elevation\,at\,beginning\,of\,TORA}{TORA} * 100$$ 
+    $$
+    \frac{\text{Elevation at end of TORA} - \text{Elevation at beginning of TORA}}{\text{TORA}} \times 100
+    $$
 
-    \[ with\,all\,units\,being\,the\,same.\]
+    $$
+    {\text{with all units being the same.}}
+    $$
 
 !!! info "Runway 08 Example"
     To calculate the runway slope for Runway 08 the equation with units included would look like the following:
