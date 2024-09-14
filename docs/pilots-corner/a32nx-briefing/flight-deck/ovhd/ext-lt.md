@@ -33,7 +33,7 @@ The Exterior Lighting of an Airbus A320neo includes these lights:
 Turns on and off the three synchronized strobe lights, one on each wing tip and one below the tail cone.
 
 - ON:
-    - Strobe lights or on.
+    - Strobe lights are on.
 - AUTO:
     - Automatically turns on strobe lights when the main gear strut is not compressed.
 - OFF:
