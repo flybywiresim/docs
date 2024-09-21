@@ -937,7 +937,8 @@ Please try these before reporting any other issue on Discord.
 
     To make sure the issue you are experiencing is not caused by a conflict with other add-ons or liveries ***remove everything (really everything!) from your [Community Folder](#community-folder-content)** and perform a [clean reinstall](../installation.md#clean-install-steps) of the A32NX with the [FlyByWire Installer](https://api.flybywiresim.com/installer){target=new}.
 
-    An easy way to do this without deleting your add-ons and liveries is to rename the current Community folder to "Community.old" and then create a new Community folder, which then empty. You can the use then FlyByWire Installer to reinstall the A32NX. 
+    An easy way to do this without deleting your add-ons and liveries is to rename the current Community folder to "Community.old" and then create a new Community folder, which 
+    is empty. You can then use the FlyByWire Installer to reinstall the A32NX. 
 
 ??? tip "Use the Correct Airframe for SimBrief"
     ### Use the Correct Airframe for SimBrief
