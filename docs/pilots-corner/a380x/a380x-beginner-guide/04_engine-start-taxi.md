@@ -59,8 +59,6 @@ Once all passengers have boarded and secured, we are ready to begin pushback.
 
     <p style="color:yellow; font-size:18px;">TODO: add images or links to the flight deck</p>
 
-`BEFORE START CHECKLIST - DOWN TO THE LINE ....................... COMPLETE`<br/>
-
 ### Pushback Clearance and Preparation
 
 ??? tip "What and Why"
@@ -73,8 +71,8 @@ Once all passengers have boarded and secured, we are ready to begin pushback.
 `SLIDES ............................................................. ARMED`<br/>
 `BEACON ................................................................ ON`<br/>
 `THRUST LEVERS ....................................................... IDLE`<br/>
+`T.O SPEEDS & THRUST ......................................... CHECK (BOTH)`<br/>
 `PARKING BRAKE ........................................................ OFF`<br/>
-`N/W STEERING DISC MEMO ................................... CHECK DISPLAYED`<br/>
 
 ??? tip "How and Where"
     <p style="color:yellow; font-size:18px;">TODO: add images or links to the flight deck</p>
@@ -199,7 +197,6 @@ can proceed with the following steps.
 ??? note "ENGINE ANTI_ICE"
     It is recommended to set the engine anti-ice to ON when icing conditions are expected, standing water/slush/ice/snow 
     is on the taxiway or on the runway when the outside air temperature is less than 10°C.
-`APU MASTER SW ........................................................ OFF`<br/>
 `GROUND SPOILERS ...................................................... ARM`<br/>
 `RUDDER TRIM ......................................................... ZERO`<br/>
 `FLAPS T.O POSITION.................................................... SET`<br/>
@@ -208,6 +205,7 @@ can proceed with the following steps.
 `CLEAR TO DISCONNECT AND HAND SIGNALS ............................ ANNOUNCE`<br/>
 `N/W STEERING DISC MEMO ............................... CHECK NOT DISPLAYED`<br/>
 `FLIGHT CONTROLS .................................................... CHECK`<br/>
+`GROUND EQUIPMENT ................................................... CLEAR`<br/>
 ??? note "FLIGHT CONTROLS"
     It is recommended to perform the flight control verification when the flaps are set to the takeoff configuration. 
     To perform the test, the captain remain silent, while the first officer announces call-outs. It is recommended to 
@@ -346,11 +344,15 @@ While underway to the runway, perform the following as part of the taxi flow:
 `FLIGHT DIRECTOR ........................................ CHECK SELECTED ON`<br/>
 `PFD/ND ............................................................. CHECK`<br/>
 `MULTIFUNCTION DISPLAY (MFD) ........................................ CHECK`<br/>
+`V1/VR/V2/THR RATING ......................................... CHECK (BOTH)`<br/>
 
 `TAKEOFF BRIEFING ................................................. CONFIRM`<br/>
 
+`FLIGHT INSTRUMENTS ............................................... CONFIRM`<br/>
+`SPLRS ................................................................ ARM`<br/>
+`FLAPS ................................................................ T.O`<br/>
 `AUTOBRAKE RTO ........................................................ ARM`<br/>
-`ATC CODE ..................................................... CONFIRM/SET`<br/>
+`SIGNS .......................................................... AS NEEDED`<br/>
 `T.O CONFIG .......................................................... TEST`<br/>
 `T.O MEMO .................................................... NO BLUE LINE`<br/>
 `CABIN .............................................................. READY`<br/>
