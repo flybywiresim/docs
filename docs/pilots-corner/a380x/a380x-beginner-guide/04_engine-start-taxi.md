@@ -308,7 +308,7 @@ It is generally recommended that pilots only taxi on taxiways large enough to su
 <p style="color:yellow; font-size:18px;">WIP</p>
 
 ??? tip "2 engine taxi"
-    There are several scenarios where taxiing can be limited. If, for example, the pilot opts for a 2-engine taxi, the engines must be symmetrical. Symmetrical engines are engines on either wing symmetrical to another engine on the opposite wing. For example, if we were to 2-engine taxi to the runway, we would use either `ENG 2+3` OR `ENG 1+4.` In situations where tight turns are involved, it's recommended to use `ENG 1+4.` <p style="color:yellow; font-size:18px;">TODO: insert image showing engine symmetry</p>
+    There are several scenarios where taxiing can be limited. If, for example, the pilot opts for a 2-engine taxi, the engines must be symmetrical. Symmetrical engines are engines on either wing symmetrical to another engine on the opposite wing. For example, if we were to 2-engine taxi to the runway, we would use either `ENG 2+3` OR `ENG 1+4.` In situations where tight turns are involved, it's recommended to use `ENG 2+3` to reduce the chance of FOD (foreign object debris) ingest. <p style="color:yellow; font-size:18px;">TODO: insert image showing engine symmetry</p>
 
 For taxi on outer engines only:
 
