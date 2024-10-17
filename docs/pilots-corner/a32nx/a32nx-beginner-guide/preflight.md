@@ -6,7 +6,9 @@ Before you start your flight in earnest, we have included various features in th
 
 ## Nav Data
 
-The AIRAC cycle (nav data version) of MSFS's nav data is updated during MSFS's regular sim updates. It's important to take stock of what AIRAC cycle you are currently using for your flight planning and if it matches the current AIRAC cycle in MSFS. When using simBrief or other planning tools with older AIRAC cycles, you may encounter `NOT IN DATABASE`, `AWY/WPT Mismatch` OR the [flight plan import](#flight-plan-import) may fail due to outdated/incorrect AIRAC cycle.
+The AIRAC cycle (nav data version) of MSFS's nav data is updated during MSFS's regular sim updates. It's important to take stock of what AIRAC cycle you are currently using for 
+your flight planning and if it matches the current AIRAC cycle in MSFS. When using simBrief or other planning tools with older AIRAC cycles, you may encounter `NOT IN DATABASE`,
+`AWY/WPT Mismatch` OR the [flight plan import](#flight-plan-import) may fail due to an outdated/incorrect AIRAC cycle.
 
 Owning a Navigraph subscription gives you access to their standalone nav data add-on for MSFS that pairs with their simBrief flight planning. It will provide you with an up-to-date AIRAC alongside any revisions, and ensure compatibility when importing from simBrief or planning your flight manually.
 

@@ -40,7 +40,12 @@ Prompts on each PERF page:
             If the takeoff shift (see below) or the runway is changed after V1, V2 or VR insertion, but the origin airport remains the same, the MCDU message “CHECK TAKEOFF DATA” is displayed, but all takeoff parameters are retained.
     
     !!! tip
-        In the FlyByWire A32NX you can click on the LSK next to V1, VR and V2, to let the aircraft calculate the V-Speed for you. This calculated value is placed in the Scratchpad and can be moved to the V-Speed field with a second click. In real life, this value is usually calculated by a specific airline application on the EFB.
+        In the FlyByWire A32NX, pilots can calculate takeoff performance data via the flyPad. Visit our flyPad Performance Page guide for more information.
+
+        [flyPad Performance Page](../../../fbw-a32nx/feature-guides/flypados3/performance.md){target=new .md-button}
+
+        !!! warning "Not Available in the Stable Version; you can instead click on the LSK next to V1, VR and V2 to let the aircraft calculate the V-Speeds for you."
+        
 
 - TRANS ALT (4L)
     - This field displays the navigation database default transition altitude (if defined) once the origin airport is entered. The pilot can modify it.

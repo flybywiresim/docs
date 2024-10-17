@@ -18,7 +18,7 @@ description: Explore reported issues and known bugs for the FlyByWire A32NX add-
 
     <img src="https://img.shields.io/github/v/release/flybywiresim/aircraft.svg?color=2F4E5B&style=flat" /> <img src="https://img.shields.io/badge/dynamic/json?color=00848A&label=Development&query=shortSha&url=https%3A%2F%2Fapi.flybywiresim.com%2Fapi%2Fv1%2Fgit-versions%2Fflybywiresim%2Faircraft%2Fbranches%2Fmaster&style=flat" alt="Development Version" />
 
-    FBW Installer - [Download Here](https://api.flybywiresim.com/installer){target=new} / *Latest Sim Version: 1.36.2.0*
+    FBW Installer - [Download Here](https://api.flybywiresim.com/installer){target=new} / *Latest Sim Version: 1.37.19.0*
 
 !!! warning "Read our Support Guides"
 
@@ -39,10 +39,11 @@ description: Explore reported issues and known bugs for the FlyByWire A32NX add-
 
     === "Custom FMS"
 
-        Please visit the ^^Dedicated Custom Flight Management System^^ page for more information:
+        Please visit the ^^Dedicated Custom Flight Management System^^ page for more information on our latest implementation:
     
         - [**Features + Issues**](../feature-guides/cFMS.md)
         - [**Special Notes**](../feature-guides/cFMS.md#special-notes)
+        - [**Known Issues**](../feature-guides/cFMS.md#known-issues)
 
     === "SimBridge"
 
@@ -436,7 +437,7 @@ The following list of issues are commonly reported on our Discord support channe
     ### No Weather Radar
 
     !!! tip ""
-        *Affected versions: Stable, Development
+        *Affected versions: Stable, Development*
 
     ^^Description^^
 

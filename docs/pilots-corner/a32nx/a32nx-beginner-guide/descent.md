@@ -6,6 +6,7 @@ from cruise altitude through STAR and Instrument Approach up to the final approa
 The actual final approach (ILS approach) will be covered by a separate chapter.
 
 !!! warning "Disclaimer"
+    <p style="color:coral;">This is for simulation purposes only.</p>
     The level of detail in this guide is meant to get a FlyByWire A320neo beginner safely from cruise level down to the ILS glideslope.
 
     A *beginner* is defined as someone familiar with flying a GA aircraft or different types of airliners. Aviation terminology and know-how is a requirement to fly any airliner even, in Microsoft Flight Simulator.
@@ -269,7 +270,8 @@ When either of these altitude modes are engaged, the relevant mode will appear i
 
 ATC typically will not clear us to our final target altitude directly, but will give us several step descents down to our required altitude.
 
-Also, ATC will often still expect us to respect the STAR's constraints, although they might have given us a lower clearance. We should then only descent to the constraint's altitude.
+Also, ATC will often still expect us to respect the STAR's constraints, although they might have given us a lower clearance. We should then only descend to the constraint's 
+altitude.
 
 !!! info "VNAV in the FlyByWire A32NX"
     The scenario that we are cleared to a lower altitude or flight level with altitude constraints above the clearance is an ideal scenario for the called so "VNAV" autopilot mode, which would be activated by using "`Managed Altitude Mode`" (pushing the `ALT selector`). The autopilot will automatically level off at the constraint and continue descending when the constraint is no longer valid.

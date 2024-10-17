@@ -6,6 +6,7 @@ This guide will help you prepare the Flight Management System in the A380X for y
 It includes a simple route that you can use to follow along easily and replicate in the simulator.
 
 !!! warning "Disclaimer"
+    <p style="color:coral;">This is for simulation purposes only.</p>
     The level of detail in this guide is meant to teach an Airbus A380 beginner to start the aircraft correctly.
 
     A *beginner* is defined as someone familiar with flying a GA aircraft or different types of airliners. Aviation 
@@ -360,7 +361,7 @@ If we would like to have additional navaids for the departure, we can input the 
 
 ^^VOR^^
 
-The A380X supports VOR autotuning when in range of a VOR before departure. You can verify this by checking the RADNAV page and seeing if the VOR frequency is already populated. You should verify the relevance of this VOR to your departure procedure and flight plan before takeoff.
+The A380X supports VOR autotuning when in range of a VOR before departure. You can verify this by checking the POSITION / NAVAIDS page accessed via the MFD or on the RMP, and seeing if the VOR frequency is already populated. You should verify the relevance of this VOR to your departure procedure and flight plan before takeoff.
 
 On this departure SID, we have routing instructions that rely on the Munich VOR `DMN` with a frequency of `116.0`.
 

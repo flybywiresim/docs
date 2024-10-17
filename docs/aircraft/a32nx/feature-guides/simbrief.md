@@ -73,7 +73,7 @@ If successful, you should see your account name followed by your Navigraph accou
     aircraft or using an add-on for shared cockpit scenarios.
 
     In this case you can override the SimBrief User ID by entering it in the SimBrief User ID field. This will override the linked Navigraph account temporarily until it 
-    is removed. You will be notified when the override is succesful with a pop up message. Example below:
+    is removed. You will be notified when the override is successful with a pop up message. Example below:
 
     ![flypad-ng-override.png](../assets/flypados3/navigraph/flypad-ng-override.png){loading=lazy}
 

@@ -5,6 +5,7 @@
 This guide will explain the correct procedures to accomplish a pushback with engine start and perform a safe taxi to the departure runway.
 
 !!! warning "Disclaimer"
+    <p style="color:coral;">This is for simulation purposes only.</p>
     The level of detail in this guide is meant to get an Airbus A380 beginner safely from the terminal to the runway hold short point.
 
     A *beginner* is defined as someone familiar with flying a GA aircraft or different types of airliners. Aviation terminology and know-how is a requirement to fly any airliner, even in Microsoft Flight Simulator.
@@ -368,8 +369,18 @@ While underway to the runway, perform the following as part of the taxi flow:
     <p style="color:yellow; font-size:18px;">TODO: add additional info, images or links to the flight deck</p>
 
 `BEFORE TAKEOFF CHECKLIST (down to the line)...................... COMPLETE`<br/>
+??? note "BEFORE TAKEOFF CHECKLIST - Down to the Line"
+    `FLIGHT INSTRUMENTS ...................................................... CHECK`<br/>
+    `TAKEOFF BRIEFING ...................................................... CONFIRM`<br/>
+    `V1/VR/V2/FLEX TEMP ........................................................ SET`<br/>
+    `SIGNS ...................................................................... ON`<br/>
+    `SPLRS ..................................................................... ARM`<br/>
+    `FLAPS ..................................................................... T.O`<br/>
+    `AUTOBRAKE ................................................................. RTO`<br/>
+    `T.O CONFIG ............................................................. NORMAL`<br/>
 
-#### Handy Tips While Taxiing
+
+### Handy Tips While Taxiing
 
 - **Maintaining Center Line**
 
@@ -382,7 +393,7 @@ While underway to the runway, perform the following as part of the taxi flow:
 
     Slow down while turning!
 
-#### Crossing a Runway
+### Crossing a Runway
 
 When approved to cross a runway (active or not) perform the following actions:
 
@@ -462,12 +473,12 @@ There are typically three very important holding position signs / markings that 
 2. Taxiway Holding Position
     - Single dashed yellow line. If this is present along your taxi route, it will indicate a position that ground control may request you stop and hold short before another taxiway.
 
-        ![taxiway hold](../assets/beginner-guide/taxi/taxiway-hold.png){ loading=lazy style="width:320px;height:79px" }
+        ![taxiway hold](../assets/beginner-guide/04_engine-start-taxi/taxiway-hold.png){ loading=lazy style="width:320px;height:79px" }
 
 3. ILS Critical Area
     - Solid yellow lines that look like a railroad or ladder. These are another form of hold short point but indicate a critical area Where your aircraft would violate the ILS approach airspace while on the ground.
 
-        ![ils critical](../assets/beginner-guide/taxi/ils-critical.png){loading=lazy}
+        ![ils critical](../assets/beginner-guide/04_engine-start-taxi/ils-critical.png){loading=lazy}
 
 ---
 

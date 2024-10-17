@@ -52,6 +52,9 @@ This documentation takes you through all pages and functions of the flyPad EFB.
 
 From left to right:
 
+- Simrate Indicator
+    - Indicates if simrate is above or below the normal speed (1x)
+    - Is not displayed if simrate is normal (1x)
 - Quick Controls Button
     - Opens the Quick Controls Menu - see [Quick Controls](#quick-controls) below 
 - SimBridge Connection Status 
@@ -75,7 +78,14 @@ Top row - left to right:
 - Power Off
     - Pressing this button will turn off the flyPad
 
-Middle row - left to right:
+Second row - left to right:
+
+- Brightness Slider 
+    - This slider controls the brightness of the flyPad if it is not set to automatic brightness.
+- Auto Brightness
+    - If auto brightness is enabled, the flyPad will automatically adjust the brightness based on the date and time of day. If auto brightness is disabled, the brightness will be set to the value selected via the brightness slider. 
+
+Third row - left to right:
 
 - Align ADIRS 
     - Pressing this button will immediately align the ADIRS independent of the Realism setting.
@@ -101,12 +111,45 @@ Middle row - left to right:
     - Pressing this button will activate the OnScreen Keyboard. 
     - The OnScreen Keyboard can be used to enter text into the flyPad and appears automatically when a text field is selected.
 
-Bottom row - left to right:
+Fourth Row - left to right:
 
-- Brightness Slider 
-    - This slider controls the brightness of the flyPad if it is not set to automatic brightness.
-- Auto Brightness
-    - If auto brightness is enabled, the flyPad will automatically adjust the brightness based on the date and time of day. If auto brightness is disabled, the brightness will be set to the value selected via the brightness slider. 
+- Pause At Top of Descent
+    - Toggles the option to pause the simulator before the calculated top of descent
+        - By default, this will occur **10 nm** before the indicated top of descent, this can be further configured in the EFB Settings > Realism page.
+    - When this is triggered, it will pause the simulation, then present a pop-up that when dismissed unpauses the simulation.
+    - Note: Any A/P mode reversion (i.e., A/P disconnect) will pause the simulation when pause on T/D is disabled (A/P guarding). 
+        - This is ensuring a safe fallback if the plane or A/P develops an issue during the flight.
+        - There is a cooldown period (60 s) after the first activation to prevent repeated pause triggers. A/P guarding will be re-enabled after this period.
+    - Pause At Top of Descent Inactive
+        - Pause on TOD is disabled. No pause will occur at the top of descent, or when A/P is disconnected under any circumstance.
+    - <span style=color:orange>Pause At Top of Descent Standby</span>
+        - Pause on TOD is enabled, but currently in standby waiting for flight conditions to be fulfilled, or is now disabled until the next turnaround (after T/D is reached)
+            - This means T/D Pause and A/P guarding is currently not armed, and you may disconnect the A/P or hand-fly without triggering the A/P guarding pause.
+    - <span style=color:green>Pause At Top of Descent Armed</span>
+        - Pause on TOD is enabled and armed. A/P guarding is active. 
+            - This will be entered after/during the climb phase and will remain active until (default 10 nm) before the T/D point is reached
+            - Disconnection of the A/P, or A/P mode reversion will pause the simulation.
+
+    !!! warning "Critical Known Issue"
+        If you are using the following combination, please take note!
+
+            - Keyboard/Mouse Control
+            - Toggle Free Look (Not Hold Free Look) - Middle Mouse Button
+            - ALT-TAB to background the simulation
+        
+        You may experience issues with the Pause at Top of Descent feature. Ensure that you are NOT currently in free look mode when the pause is triggered, as this may cause the camera to become stuck in free look mode when the pop-up is created, and you will be unable to dismiss it.
+        This is fundamentally an issue with Microsoft Flight Simulator and we are unable to provide a workaround at this time. 
+        The safest option is to abandon the flight if this occurs.
+        We recommend using Hold Free Look (Right mouse button by default) instead, or ensuring that you are NOT toggled in free-look mode when you ALT-TAB from the sim.
+
+- Simrate Controller
+    - Increase or Decrease the simulation rate by clicking on the up or down chevron. 
+    - This operates in steps which are governed by MSFS itself, for example, 1x, 2x, 4x, etc.
+    - Note: This is affected by and does not bypass our automatic simrate reduction. This will lower the simulation rate if it detects that this value is too high for the simulation to be stable.
+
+    !!! warning "Online Networks (VATSIM)"
+        Caution: Please be mindful when using this option on online networks, and ask for clearance from the controller of your online ATC network before proceeding. 
+
 
 #### Hardware Button
 

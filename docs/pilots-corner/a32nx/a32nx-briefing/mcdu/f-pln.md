@@ -41,9 +41,6 @@ Between two waypoints, the display shows:
 
 If the route contains a published missed approach procedure, it is shown in blue after the destination runway. It turns green when the go-around phase becomes active. After the last waypoint of the missed approach, the display shows the alternate flight plan in NAV mode.
 
-!!! info "Missed Approach Procedure and ALTN Flight Plan"
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
-
 In NAV mode, the TO waypoint can only be cleared by using the DIR key.
 
 #### Predictions
@@ -63,7 +60,7 @@ Once predictions are calculated, constraints are replaced by speed and altitude 
     SPD and ALT CSTR may either be entered on the VERT REV page or directly on the F-PLN A page, whereas TIME CSTR may only be entered from the RTA page.
 
 !!! info ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+    Currently TIME CSTR is not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 #### Pseudo Waypoints
 
@@ -184,9 +181,6 @@ STAR revisions are done only at a destination airport (Destination page).
     - Used to enable the alternate flight plan.
     - Will create a temporary flight plan.
     - Only available on departure, waypoint, and destination.
-    
-    !!! info ""
-        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
   
 - NEW DEST (4R)
     - Used to change the destination airport.
@@ -236,11 +230,6 @@ A vertical revision is rejected by the FMS, and NOT ALLOWED is displayed in the 
 
 - TITLE 
     - “VERT REV AT (location)”
-    - Shows the estimated fuel on board and the extra fuel consumed after taxi, trip, reserves, alternate and final. 
-      Extra fuel might be negative if reserves will be used.
-
-        !!! info ""
-            Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
   
 - CLB/DES SPD LIM (2L)
     - CLB SPD is shown in the CLIMB phase, DES SPD in the DES phase
@@ -296,9 +285,6 @@ A vertical revision is rejected by the FMS, and NOT ALLOWED is displayed in the 
 - ALT ERROR (4R)
     - During CLIMB and DESCENT, this shows how far the corresponding constraint will be missed (estimation).
     - When estimated miss is > 250 ft.
-    
-    !!! info ""
-        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
   
 - STEP ALTS (5R)
     - Calls the [STEP ALTS page](#step-alts-page).
@@ -307,9 +293,6 @@ A vertical revision is rejected by the FMS, and NOT ALLOWED is displayed in the 
   
 - \*CLB OR DES* (6L, 6R)
     - Shown if the system can't determine climb or descent after a constraint has been entered.
-    
-    !!! info ""
-        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 !!! note
     Altitude and speed constraints may apply to the climb, descent, or approach phase, but never to the cruise phase.

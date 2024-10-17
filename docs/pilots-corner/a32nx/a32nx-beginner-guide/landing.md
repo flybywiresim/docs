@@ -4,6 +4,7 @@ This guide will explain the correct procedures to fly a final approach and condu
 
 
 !!! warning "Disclaimer"
+    <p style="color:coral;">This is for simulation purposes only.</p>
     The level of detail in this guide is meant to get a FlyByWire A320neo beginner currently on approach to intercept the ILS and land the aircraft safely on the runway.
 
     A *beginner* is defined as someone familiar with flying a GA aircraft or different types of airliners. Aviation terminology and know-how is a requirement to fly any airliner, even in Microsoft Flight Simulator.
@@ -100,7 +101,7 @@ To intercept the ILS Localizer, we follow these steps:
 
 Tower ATC will then give us clearance for the ILS approach to the target runway. This clears us to descend on the ILS glideslope.
 
-**Do not descent without explicit clearance from ATC.**
+**Do not descend without explicit clearance from ATC.**
 
 This concludes *Intercepting the ILS Localizer*
 

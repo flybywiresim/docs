@@ -75,7 +75,8 @@ This section provides information on the A32NX weight configuration and insight 
 ??? info "Aircraft CG Envelopes (Click to Expand)"
     ## Aircraft CG Envelopes
 
-    Our dynamic CG and payload chart provides the relevant visual information during the planning and execution of passenger/cargo loading. Fully understanding how the longitudinal CG envelope affects the aircraft is a rather long winding concept. Below is a great primer on understanding the chart and what the information provided indicates.
+    Our dynamic CG and payload chart provides the relevant visual information during the planning and execution of passenger/cargo loading. Fully understanding how the 
+    longitudinal CG envelope affects the aircraft can be difficult. Below is a great primer on understanding the chart and what the information provided indicates.
 
     <iframe src="https://vdocuments.net/embed/v1/aircraft-cg-envelopes.html" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;
     margin-bottom:5px;max-width: 100%; overflow: hidden; width: 100%; height: 600px;" allowfullscreen></iframe>`
