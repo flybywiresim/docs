@@ -36,14 +36,9 @@ This guide assumes that your aircraft is in a cold and dark state at a gate.
     (Of course, this is not an issue in the sim, but in real life it is crucial to check this!)
 
 `ENGINE MASTER SWITCHES (1, 2, 3, 4) .................................. OFF`<br/>
-`PARKING BRAKE (OR CHOCKS).............................................. ON`<br/>
-`SPEED BRAKE LEVER .............................................. RETRACTED`<br/>
-`FLAPS LEVER .................................................... RETRACTED`<br/>
-`WEATHER RADAR ........................................................ OFF`<br/>
-`ENGINE MODE SELECTOR ................................................ NORM`<br/>
-`THRUST LEVERS ....................................................... IDLE`<br/>
-`GEAR LEVER .......................................................... DOWN`<br/>
-`WIPERS (BOTH) ........................................................ OFF`<br/>
+`ENGINE START SELECTOR................................................ NORM`<br/>
+`LANDING GEAR LEVER .................................................. DOWN`<br/>
+`BOTH WIPER SELECTOR .................................................. OFF`<br/>
 
 ??? tip "How and Where"
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
@@ -57,7 +52,7 @@ After these pre-checks, we can start the aircraft starting with the initial powe
 
 ---
 
-## Initial Power Up
+## Batteries Check.External Power
 
 ??? tip "What and Why?"
     The initial power up is the first step in starting the aircraft. This is where we turn on the batteries and external
@@ -66,13 +61,25 @@ After these pre-checks, we can start the aircraft starting with the initial powe
     The batteries are the first source of power for the aircraft. The external power is used to provide power to the
     aircraft systems when the engines are not running. The aircraft needs at least two external power units to power the 
     whole electrical network.
-
-`ENGINES MASTER SWITCHES (1, 2, 3, 4) ................................. OFF`<br/>
-`BATTERIES (BAT 1, BAT 2) .............................................. ON`<br/>
-`EXTERNAL POWER (2, 3, 1, 4) ........................................... ON`<br/>
-`COCKPIT LIGHTING ............................................. AS REQUIRED`<br/>
-
+    
+`ALL BATT pb-sw (BAT1, BAT ESS, BAT 2, APU BAT) ....................... OFF`<br/>
+`ALL BATT .............................................. CHECK AT LEAST 25V`<br/>
 ??? tip "How and Where?"
+    The batteries can be checked using the battery selector on the overhead panel.
+
+`ALL BATT pb-sw (BAT1, BAT ESS, BAT 2, APU BAT) ........................ ON`<br/>
+` - If the AVAIL light is on:`<br/>
+`EXT pb-sw (2, 3, 1, 4) ................................................ ON`<br/>
+`ALL IR MODE selectors ....................................... OFF then NAV`<br/>
+??? note "ADIRS Alignment"
+    It is recommended to align the inertial references as soon as possible. The initialization may take some time.
+    It is also recommended to complete a full alignment if this is the first flight of the day, the flight crew has
+    changed, the GPS is not available to all segment in the flights, or that the pilot expects long segments with low
+    NAVAID coverage. It is recommended to perform a fast alignment for all other flight conditions.
+    
+`COCKPIT LIGHTS ................................................... AS RQRD`<br/>
+
+
 
 [//]: # (TODO)
     <p style="color:yellow; font-size:18px;">TODO: images or link to flight-deck</p>     
@@ -86,15 +93,8 @@ After these pre-checks, we can start the aircraft starting with the initial powe
 
     Turning on and setting up the radios at this point is also important in case of any emergencies.
 
-`RMP 1 and 2 ........................................................... ON`<br/>
-`STANDBY RADIO NAVIGATION ............................................. OFF`<br/>
-`COMMUNICATION FREQUENCIES ........................................... TUNE`<br/>
-`INTERPHONE RECEPTION ...................................... RELEASE/ADJUST`<br/>
-`APU FIRE ............................................ CHECK IN and GUARDED`<br/>
-`APU AGENT ............................................................ OFF`<br/>
-`ENGINE 1/2/3/4 FIRE.................................. CHECK IN and GUARDED`<br/>
-`ENGINE 1/2/3/4 AGENT 1 and 2 ......................................... OFF`<br/>
-`FIRE TEST .......................................................... PRESS`<br/>
+`RMP 1 and 2 ....................................................... ON/SET`<br/>
+`APU and ENG FIRE TEST ............................................ PERFORM`<br/>
 ??? note "Fire Test Result"
     Verify that the fire detection systems and extinguishing systems are functional by checking the following items:
 
@@ -104,9 +104,10 @@ After these pre-checks, we can start the aircraft starting with the initial powe
     light of the engine and auxiliary power unit agent pushbuttom illuminates and all fire lights on the engine master panel 
     illuminates.
 
-`APU MASTER SWITCH ..................................................... ON`<br/>
-`APU START ............................................................. ON`<br/>
-`EXTERNAL POWER .................................................... AS REQ`<br/>
+`APU ................................................................ START`<br/>
+` - When the APU is AVAIL:`<br/>
+`AIR COND panel ....................................................... SET`<br/>
+`EXT pb-sw ......................................................... AS REQ`<br/>
 ??? note "External Power"
     It is recommended to keep the external power units to ON to reduce the APU load in hot weather conditions.
 
@@ -148,15 +149,9 @@ In the simulator, we are usually alone, so we will do the flow on our own.
 ### Overhead Panel Left (bottom to top)
 
 `ALL WHITE LIGHTS ..................................................... OFF`<br/>
-`RECORDER GROUND CTL ................................................... ON`<br/>
-`EVAC CAPT/CAPT & PURS ............................................... CAPT`<br/>
-`PROBE & WINDOW HEAT ................................................. AUTO`<br/>
-`ADIRS ALL IR MODE .................................................... NAV`<br/>
-??? note "ADIRS Alignment"
-    It is recommended to align the inertial references as soon as possible. The initialization may take some time.
-    It is also recommended to complete a full alignment if this is the first flight of the day, the flight crew has
-    changed, the GPS is not available to all segment in the flights, or that the pilot expects long segments with low
-    NAVAID coverage. It is recommended to perform a fast alignment for all other flight conditions.
+`RECORDER GROUND CTL pb ................................................ ON`<br/>
+`EVAC CAPT/CAPT & PURS sw ............................................ CAPT`<br/>
+`PROBE & WINDOW HEAT pb-sw ........................................... AUTO`<br/>
 `EMERGENCY LOCATOR TRANSMITTER (ELT) ................................ ARMED`<br/>
 
 ??? tip "How and Where?"
@@ -183,27 +178,29 @@ In the simulator, we are usually alone, so we will do the flow on our own.
 
 ### Overhead Panel Center (bottom to top)
 
-`STROBE .............................................................. AUTO`<br/>
-`BEACON ............................................................... OFF`<br/>
-`NAV ....... ........................................................... ON`<br/>
+`STROBE sw ........................................................... AUTO`<br/>
+`BEACON sw ............................................................ OFF`<br/>
+`NAV sw ................................................................ ON`<br/>
 `REMAINING EXTERIOR LIGHTS .....................................AS REQUIRED`<br/>
 `SEAT BELTS ............................................................ ON`<br/>
 `NO SMOKING .......................................................... AUTO`<br/>
 `EMERGENCY EXIT LIGHTS ................................................ ARM`<br/>
-`ENGINE STARTER ...................................................... NORM`<br/>
-`APU BLEED ............................................................. ON`<br/>
+`ENGINE START selector ............................................... NORM`<br/>
+`APU BLEED pb-sw ....................................................... ON`<br/>
 ??? note "APU BLEED"
     It is not recommended to use the auxiliary power unit bleed system if a high-pressure ground air unit is connected to
     the aircraft. This can be checked on the bleed page of the system display. If there is pressure in the bleed air
     system, the high-pressure ground air unit is connected.
-`XBLEED .............................................................. AUTO`<br/>
-`AIR FLOW ............................................................ NORM`<br/>
+    
+`XBLEED selector ..................................................... AUTO`<br/>
+`AIR FLOW selector ................................................... NORM`<br/>
 ??? note "AIR FLOW"
     The bleed system works with the flight management system. If there is no number of passengers entered into the
     flight-management-system, the airflow will be automatically set the air flow like when the value entered is the maximum
     number of passengers. If the number of passengers is entered, the airflow will automatically adjust to that number.
-`CKPT ......................................................... AS REQUIRED`<br/>
-`CABIN ........................................................... PURS SEL`<br/>
+    
+`CKPT selector ................................................ AS REQUIRED`<br/>
+`CABIN selector .................................................. PURS SEL`<br/>
 `TRIM TK FEED ........................................................ AUTO`<br/>
 `MAINTENANCE PANEL ALL LIGHTS.......................................... OFF`<br/>
 
@@ -284,7 +281,7 @@ In the simulator, we are usually alone, so we will do the flow on our own.
 `SWITCHING PANEL ..................................................... NORM`<br/>
 `INTEGRATED STANDBY INSTRUMENT SYSTEM ............................... CHECK`<br/>
 `LANDING GEAR GRAVITY SYSTEM .......................................... OFF`<br/>
-`CLOCK ...........................................CHECK and SET AS REQUIRED`<br/>
+`CLOCK ............................................. CHECK/SET AS NECESSARY`<br/>
 `ANTI AKID (A-SKID) ................................................... ON`<br/>
 
 ??? tip "How and Where?"
@@ -311,19 +308,16 @@ In the simulator, we are usually alone, so we will do the flow on our own.
 `PARKING BRAKE ........................................................ ON`<br/>
 `BODY ACCUMULATOR PRESSURE ............................... CHECK/REINFLATE`<br/>
 `THRUST LEVERS ...................................................... IDLE`<br/>
-`THRUST REVERSE LEVERS ............................................ STOWED`<br/>
-`ENGINE MASTER SWITCHES (1, 2, 3, 4) ................................. OFF`<br/>
+`THRUST REVERSER LEVERS ........................................... STOWED`<br/>
+`ENGINE MASTERS (1, 2, 3, 4) ......................................... OFF`<br/>
 `COCKPIT DOOR SWITCH ................................................ NORM`<br/>
-`ATC CLEARANCE .....................................................OBTAIN`<br/>
-??? note "ATC Clearance"
-    <p style="color:yellow; font-size:24px;">TODO: Improve.</p>
-    It is recommended to obtain the ATC clearance before starting the engines.
-`NAVIGATION CHARTS ............................................... PREPARE`<br/>
-`MFD SURVEILLANCE DEFAULT SETTINGS................................. SELECT`<br/>
-??? note "MFD Default Settings"
-    Verify on the multi function display surveillance control page that the transponder is set to AUTO, the squawk code
-    is the same, the TCAS is set to TA/RA and Norm, all TAWS modes are ON, and the weather radar is set to AUTO, the
-    elevation/tilt to AUTO, Mode set to WX, TURB set to AUTO, GAIN set to AUTO, WX ON VD set to ON and PRED W/S to AUTO)
+
+### MFD
+
+`On the MFD SURV/CONTROLS page:`<br/>
+`XPDR ............................................................... STBY`<br/>
+
+[Preparing the FMS](03_preparing-fms.md)
 
 ??? tip "How and Where?"
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
