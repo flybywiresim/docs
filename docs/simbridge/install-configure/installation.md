@@ -126,6 +126,7 @@ FBW Installer introduced the `Uninstall` feature. To perform an automatic clean 
 
 If you would like to manually perform a clean install you first have to delete the 
  `flybywire-externaltools-simbridge` folder from your community folder.
+Next delete the resources folder located in your Documents folder. See [Resources](https://docs.flybywiresim.com/simbridge/install-configure/installation/#resources-folder)
 
 We also store additional information related to the tool in a separate directory, which is built when you load the tool. You also need to delete the folder.
 

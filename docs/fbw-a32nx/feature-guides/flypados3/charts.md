@@ -158,17 +158,17 @@ The controls are similar to the Navigraph chart view (see above) although there 
 
 ### Where to Store Local Files
 
-The local files need to be stored in the following folders (located by default in your community directory):
+The local files need to be stored in the following folders (located by default in your Documents directory):
 
 | Type   | Folder Location                               |
 |--------|-----------------------------------------------|
-| Images | `<SimBridge-Install-Folder>\resources\images` |
-| PDFs   | `<SimBridge-Install-Folder>\resources\pdfs`   |
+| Images | `C:\Users\<Username>\Documents\FlyByWireSim\Simbridge\resources\images` |
+| PDFs   | `C:\Users\<Username>\Documents\FlyByWireSim\Simbridge\resources\pdfs`   |
+
+Note: the documents directory might be accessible on a different path on your machine. Please check [Resources](https://docs.flybywiresim.com/simbridge/install-configure/installation/#resources-folder) if you cannot find it.
 
 The feature does not support any subfolders (yet).
 
-!!! warning ""
-    Please make sure to keep a copy of any files you store in these locations in another folder. Updates to the Simbridge module will result in these resource folders being deleted.
 
 ## Pinned Charts
 
