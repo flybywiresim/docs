@@ -62,6 +62,7 @@ description: Explore reported issues and known bugs for the FlyByWire A32NX add-
 TEMPLATE
 
 ??? issue "Issue Headline"
+### Issue Headline
 
 !!! tip ""
     *Affected versions: Stable, Development*
