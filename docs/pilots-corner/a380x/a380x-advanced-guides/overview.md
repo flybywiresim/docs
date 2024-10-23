@@ -20,11 +20,11 @@ Each page was reviewed by an A380 type rated pilot and provides accurate informa
 
 ---
 
-## Topics:
+## Topics
 
 | Quick Links                                    |
 |:-----------------------------------------------|
-| [OANS / BTV](oans-btv.md)              |
+| [Onboard Airport Navigation System (OANS) & Brake To Vacate (BTV)](oans-btv.md)              |
 
 ---
 
