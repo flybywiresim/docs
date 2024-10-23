@@ -20,7 +20,9 @@ well as setup and operation of BTV.
 ## Airport navigation
 
 The OANS features a moving airport map on the flight crew's navigation display (ND). Any airport contained in the Navigraph
-AMDB database can be selected for display. On the ground at the departure airport, the airport map should be loaded automatically.
+AMDB database can be selected for display.
+
+On the ground at the departure airport, the airport map should be loaded automatically.
 Airports can always be selected manually through the OANS control panel, which can be opened via the arrow button on the lower
 right of the ND. After selection of an airport, a click on "DISPLAY AIRPORT" loads the airport map.
 
@@ -38,7 +40,9 @@ If you want to center the map on the aircraft again, double click on the map to 
 If the aircraft is on ground and ground speed is below 40 knots, OANS continuously checks the aircraft protection area
 in front of the aircraft (as widge as the wingspan, foresight of 7 seconds) for runways. When detecting a runway inside this
 area, an advisory is triggered on the PFD and ND. The advisory disappears, if the above conditions aren't met anymore, or
-the aircraft entered the runway. There is no aural warning (as RAAS).
+the aircraft entered the runway.
+
+There is no aural warning (as RAAS).
 
 ![Runway ahead](../assets/advanced-guides/oans-btv/oans-runway-ahead.png)
 
@@ -84,4 +88,4 @@ BTV disarms, when one of these conditions apply:
 - Auto brake mode selector is turned to the DISARM position
 - A/THR instinctive disconnect push buttons (on the outside of the thrust levers) is pushed
 
-For the last three conditions, the "A/THR OFF" memo and aural callout will be triggered.
+For the last three conditions, the "AUTO BRK OFF" memo and aural callout will be triggered.
