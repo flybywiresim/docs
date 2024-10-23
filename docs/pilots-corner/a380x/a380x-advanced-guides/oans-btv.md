@@ -38,7 +38,7 @@ If you want to center the map on the aircraft again, double click on the map to 
 ## Approaching Runway Advisory
 
 If the aircraft is on ground and ground speed is below 40 knots, OANS continuously checks the aircraft protection area
-in front of the aircraft (as widge as the wingspan, foresight of 7 seconds) for runways. When detecting a runway inside this
+in front of the aircraft (as wide as the wingspan, foresight of 7 seconds) for runways. When detecting a runway inside this
 area, an advisory is triggered on the PFD and ND. The advisory disappears, if the above conditions aren't met anymore, or
 the aircraft entered the runway.
 
