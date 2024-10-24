@@ -91,7 +91,7 @@ Power supply to the RMP.
 !!! info ""
     Note: RMP3 is able to control VHF and HF transceivers through RMP1 and RMP2 even when they are OFF.
 
-### Tansmission Keys
+### Transmission Keys
 
 ![RMP Transmission Keys](../../../assets/a32nx-briefing/pedestal/RMP-transmission-keys.png)
 
