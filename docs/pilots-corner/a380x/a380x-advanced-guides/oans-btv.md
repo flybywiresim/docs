@@ -75,8 +75,11 @@ checked in the PFD FMA).
 ## BTV operation after touchdown
 
 After touchdown of the main and nose wheels, BTV will become active and annunciated in the FMA. BTV monitors the deceleration of the aircraft with respect to the aircraft position and the exit selected and calculates when to start apply braking.
+
 Braking with BTV is quite different to standard autobrake modes, with BTV most of the braking happens very late in the landing roll and can be a bit disconcerting initially.
+
 This is done to minimise the energy absorbed by the brakes, lowering the brake temperatures and enabling a quicker turnaround.
+
 A green bar indicates the predicted stopping distance.
 
 ![OANS during rollout](../assets/advanced-guides/oans-btv/btv-active-stopbar.png)
