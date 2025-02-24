@@ -129,7 +129,7 @@ Start the chronometer above the ND to help monitor the start-up time of the engi
 
 For this guide, we will begin by starting Engine 1.
 
-!!! info ""
+!!! warning ""
     As of Jan 2025, Airbus SOP calls for Engine 1 to always be started first. However, some airline SOP may have a different engine start order.
 
 !!! note "Note: Bleed Air"
