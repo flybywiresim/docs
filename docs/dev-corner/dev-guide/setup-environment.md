@@ -39,8 +39,7 @@ It's recommended to set gitbash as your default shell in vscode
 
 ## Getting the source code
 
-To work on the A32NX project, you need to create a fork (
-[GitHub fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo){target=new)}) of the 
+To work on the A32NX project, you need to create a fork ([GitHub fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo){target=new)}) of the 
 [aircraft repository](https://github.com/flybywiresim/aircraft).
 
 Clone this fork to your local environment. You can use the command line git or a UI-based git to do this. On the command
