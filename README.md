@@ -5,9 +5,9 @@
 
 Repository for the FlyByWire Simulations Documentation Project website.
 
-[Learn How to Contribute](https://docs.flybywiresim.com/dev-corner/development-projects/documentation-project/documentation/)
+[Learn How to Contribute](https://docs.flybywiresim.com/dev-corner/documentation-guide/)
 
-[Writing Guide](https://docs.flybywiresim.com/dev-corner/development-projects/documentation-project/writing-documentation/)
+[Writing Guide](https://docs.flybywiresim.com/dev-corner/documentation-guide/writing-documentation/)
 
 [https://docs.flybywiresim.com/](https://docs.flybywiresim.com/)
 
