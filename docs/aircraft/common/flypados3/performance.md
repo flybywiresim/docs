@@ -64,7 +64,7 @@ data from**.
 
 **Runway**
 
-- Select the runway identifier of the runway being used for takeoff.
+- Select the runway designator of the runway desired to be used for takeoff.
 
 **Runway Heading** 
 
@@ -294,7 +294,7 @@ Weather data can be automatically filled by entering an airport ICAO and pressin
 
 **Runway**
 
-- Select the runway identifier of the runway being used for landing.
+- Select the runway designator of the runway desired to be used for landing.
 
 **Runway Heading** 
 
