@@ -321,7 +321,7 @@ the airport chart, but requires a little calculation from the data present on Je
 **Runway Condition** 
 
 - This allows input of runway condition codes, from dry (6) to poor (1). It defaults to a dry runway. Although the calculations are provided 
-for other runway conditions, be aware that MSFS 2020 currently does not simulate these surface conditions properly. The runway condition can be reported in the ATIS or in a SNOWTAM. For detailed information about RCC's see the [RWY Conditions](../../../pilots-corner/airliner/airliner-flying-guide/runway-conditions.md)
+for other runway conditions, be aware that MSFS 2020 currently does not simulate these surface conditions properly. The runway condition can be found on an ATIS report or in a SNOWTAM. For detailed information about RCC's see the [RWY Conditions](../../../pilots-corner/airliner/airliner-flying-guide/runway-conditions.md)
 
 **Wind** 
 
