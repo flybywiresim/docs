@@ -369,7 +369,7 @@ based on either the active ATIS or METAR.
 ![Airport Chart Information](../assets/flypados3/performance-landing-charts-reverser.png "Airport Chart Information"){loading=lazy}
 
 **Autoland**
-- If an Autoland is planned, then set this to Yes.
+- Is Autoland planned to be used (Yes or No)?
 
 ### Example Data
 
