@@ -98,7 +98,7 @@ the runway for takeoff (since the runway behind the airplane should not be used 
 **Runway Condition** 
 
 - This allows input of runway conditions, including dry, wet, and numerous types of runway contamination. It defaults to a dry runway. Although the calculations are provided 
-for other runway conditions, be aware that MSFS 2020 currently does not simulate these surface conditions properly. The runway condition can be reported in the ATIS or in a SNOWTAM.
+for other runway conditions, be aware that MSFS 2020 currently does not simulate these surface conditions properly. The runway condition can be found on an ATIS report or in a SNOWTAM.
 
 **Wind** 
 
