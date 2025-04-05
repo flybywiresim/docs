@@ -359,7 +359,7 @@ based on either the active ATIS or METAR.
 
 **Overweight Procedure**
 - Will the landing weight be greater than the maximum landing weight (Yes or No).
-- Reminder: maximum landing weight is 67 400 kg.
+- Reminder: the maximum landing weight is 67 400 kg for the A32NX and 39 5000 kg for the A380X.
 
 **Reverse Thrust**
 - Will reverse thrust be used (Yes or No)?
