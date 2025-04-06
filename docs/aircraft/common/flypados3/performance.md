@@ -49,7 +49,7 @@ The calculator considers the following potentially limiting conditions:
 ### Usage
 
 All input fields must be filled before the "Calculate" button becomes available. There are two ways in which certain input fields can be automatically filled. If [SimBrief data 
-has been loaded into the EFB](dashboard.md), airport and runway information (including runway bearing, TORA, runway elevation, and runway slope), as well as environmental data 
+has been loaded into the EFB](dashboard.md), airport and runway information (including runway heading, TORA, runway elevation, and runway slope), as well as environmental data 
 (wind, temperature, and QNH), can be automatically filled in by selecting "OFP" in the upper right drop-down selection box and clicking on the **Fill data from**.
 
 This will load the environment data used by your SimBrief flight plan. You can either change/update the environment data or load it from scratch automatically without having
@@ -64,15 +64,15 @@ data from**.
 
 **Runway**
 
-- Enter the runway number of the runway being used for takeoff.
+- Select the runway designator of the runway desired to be used for takeoff.
 
-**Runway Bearing** 
+**Runway Heading** 
 
-- This is the direction of the runway referenced to magnetic North. It will be filled automatically after entering the runway number.
+- This is the direction of the runway referenced to magnetic North. It will be filled automatically after selecting the runway.
 
 **TORA**
 
-- This is the length of the portion of the runway available for takeoff. It will be filled automatically after entering the runway number. Be aware that this information comes 
+- This is the length of the portion of the runway available for takeoff. It will be filled automatically after entering the runway. Be aware that this information comes 
 from the MSFS 2020 runway length data and may not always be accurate. We recommend checking the TORA distance with the airport 10-9 (or 10-9A) chart as shown in the examples in [Advanced Takeoff Calculator Guide](../../../pilots-corner/a32nx/a32nx-advanced-guides/flight-planning/takeoff-perf-calc.md), especially if you plan an intersection departure. You should also reduce the TORA if you start on the runway, as MSFS 2020 typically places the airplane well forward of the beginning of the TORA.
 - If you enter a TORA that is less than the MSFS 2020 runway length, the difference will be shown as a TO Shift (takeoff shift) value in the replica of the MCDU performance 
   page on the right side of the calculator. 
@@ -80,29 +80,29 @@ from the MSFS 2020 runway length data and may not always be accurate. We recomme
 !!! warning "TO Shift - Not Yet Implemented"
     This is for information only at this point since the TO Shift entry in the MCDU Takeoff Perf Page is not yet implemented.
 
+**Runway Elevation** 
+
+- This is the elevation of the runway at the beginning of the TORA. It will be automatically filled after selecting the runway. It can also be determined or checked from
+  the airport 10-9 chart, as shown in the following examples in [Advanced Takeoff Calculator Guide](../../../pilots-corner/a32nx/a32nx-advanced-guides/flight-planning/takeoff-perf-calc.md).
+
+**Runway Slope** 
+
+- This is the gradient of the runway in the direction of takeoff. It will be automatically entered after selecting the runway. It can also be determined or checked from 
+the airport 10-9 chart, but requires a little calculation from the data present on Jeppesen charts, as shown in the examples in [Advanced Takeoff Calculator Guide](../../../pilots-corner/a32nx/a32nx-advanced-guides/flight-planning/takeoff-perf-calc.md). A negative slope is downhill, while a positive slope is uphill.
+
 **Entry Angle** 
 
 - This is the angle of the taxiway to the runway. An input is needed to allow the calculator to reduce the TORA distance by the distance used to align the airplane on 
 the runway for takeoff (since the runway behind the airplane should not be used to calculate takeoff performance). The entry angle can be determined from the airport 10-9 (or 10-9A) chart as shown in the examples in [Advanced Takeoff Calculator Guide](../../../pilots-corner/a32nx/a32nx-advanced-guides/flight-planning/takeoff-perf-calc.md).
 
-**Runway Elevation** 
-
-- This is the elevation of the runway at the beginning of the TORA. It will be automatically filled after entering the runway number. It can also be determined or checked from
-  the airport 10-9 chart, as shown in the following examples in [Advanced Takeoff Calculator Guide](../../../pilots-corner/a32nx/a32nx-advanced-guides/flight-planning/takeoff-perf-calc.md).
-
-**Runway Slope** 
-
-- This is the gradient of the runway in the direction of takeoff. It will be automatically entered after entering the runway number. It can also be determined or checked from 
-the airport 10-9 chart, but requires a little calculation from the data present on Jeppesen charts, as shown in the examples in [Advanced Takeoff Calculator Guide](../../../pilots-corner/a32nx/a32nx-advanced-guides/flight-planning/takeoff-perf-calc.md). A negative slope is downhill, while a positive slope is uphill.
-
 **Runway Condition** 
 
 - This allows input of runway conditions, including dry, wet, and numerous types of runway contamination. It defaults to a dry runway. Although the calculations are provided 
-for other runway conditions, be aware that MSFS 2020 currently does not simulate these surface conditions properly.
+for other runway conditions, be aware that MSFS 2020 currently does not simulate these surface conditions properly. The runway condition can be found on an ATIS report or in a SNOWTAM.
 
 **Wind** 
 
-- The wind can be input simply as the headwind component (a single positive number) or tailwind component (a single negative number), or it can be input in the form degrees/kts. 
+- The wind can be input simply as the headwind component (a single positive number, may be prefixed with H or HD) or tailwind component (a single negative number, may be positive if prefixed with T or TL instead), or it can be input in the form degrees/kts. You may omit the slash, it will automatically be added for you.
 It can be automatically entered from either the OFP or the METAR as described above. If you enter the wind yourself, be sure you are entering the wind in terms of a magnetic 
   direction rather than the true direction. ATIS winds will be provided in terms of a magnetic direction, but METAR winds are in terms of true direction. If you enter the winds 
   from METAR, consult the airport 10-9 (or 10-9A) chart to determine the magnetic variation and convert the direction to magnetic, as shown in the following examples in [Advanced Takeoff Calculator Guide](../../../pilots-corner/a32nx/a32nx-advanced-guides/flight-planning/takeoff-perf-calc.md). If you choose to enter the winds automatically from the 
@@ -118,7 +118,7 @@ either the active ATIS or METAR.
 
 **QNH** 
 
-- This is the sea-level atmospheric pressure at the airport. It can be automatically filled from either the OFP or the METAR as described above. It can also be entered manually 
+- This is the atmospheric pressure at the airport, adjusted for elevation above mean sea level. It can be automatically filled from either the OFP or the METAR as described above. It can also be entered manually 
 based on either the active ATIS or METAR.
 
 **Takeoff Weight**
@@ -281,62 +281,95 @@ The calculator results are shown both numerically and graphically. Variations in
 
 ### Usage
 
-Enter the required data into the calculator fields. The initial state of the calculator will have all input fields blank except for runway condition (Dry), flap setting (Full), overweight procedure (No), and reverse thrust (No). 
+Enter the required data into the calculator fields. The initial state of the calculator will have all input fields blank except for runway condition (Dry), flap setting (Full), overweight procedure (No), reverse thrust (No) and autoland (No). 
 It is important to note that all fields must be filled to activate the "Calculate" button. The "Clear" button will return input fields to the initial state. 
 
 Weather data can be automatically filled by entering an airport ICAO and pressing "Get METAR". How to get the information for all the fields is described in the following section.
 
-- Wind, Temperature, QNH:
-    - This information can be obtained from the METAR or ATIS.
+### Information Required
 
-- Rwy Altitude:
-    - This information can be obtained from the airport chart (see example below).
+**Airport**
 
-- Rwy Heading:
-    - This information can be obtained from the airport chart (see example below).
+- Enter the ICAO code for the airport.
 
-- Rwy Condition:
-    - This information can be obtained from the METAR or ATIS and from NOTAMs on the OFP (Operational Flight Plan).
-    - SimBrief provides field condition reports (FICONs) which helps populate appropriate data for this field.
-        - For detailed information see the [RWY Conditions](../../../pilots-corner/airliner/airliner-flying-guide/runway-conditions.md#rwy-conditions)
-          section on the landing calculator additional info page.
+**Runway**
 
-- Rwy Slope:
-    - This information can be obtained from the airport chart (see example in [Landing Calculator Additional Info](../../../pilots-corner/airliner/airliner-flying-guide/runway-conditions.md#example-chart){target=new}) but requires a little calculation.
-    - Formula: (((Runway elevation on touchdown side) - (Runway elevation on far side)) / Runway length) * 100.
-    - E.g., EDDM 26R: 1449 ft - 1467 ft = - 18 ft.
-    - Then - 18 ft / 13 123 ft = - 0.001 37.
-    - Then - 0.00137 * 100 = - 0.137 % slope.
+- Select the runway designator of the runway desired to be used for landing.
 
-- Rwy LDA (Landing Distance Available):
-    - This information can be obtained from the airport chart (see example below).
+**Runway Heading** 
 
-- Approach Speed: MCDU PERF APPR
-    - This is part of the MCDU PERF APPR page and can be taken from there (V~APP~).
+- This is the direction of the runway referenced to magnetic North. It will be filled automatically after selecting the runway.
 
-    ![MCDU PERF APPR page](../assets/flypados3/performance-landing-mcdu-perf.png "MCDU PERF APPR page"){loading=lazy}
+**Runway LDA**
 
-- Weight:
-    - This information can be obtained from the ECAM SD bottom-right corner (GW 59 600 kg in the example below).
+- This is the length of the portion of the runway available for landing. It will be filled automatically after selecting the runway. Be aware that this information comes 
+from the MSFS 2020 runway length data and may not always be accurate. We recommend checking the LDA distance with the airport chart as shown in the example below.
 
-    ![ECAM SD](../assets/flypados3/performance-landing-ecam-sd.png "ECAM SD"){loading=lazy}
+**Runway Elevation** 
 
-- Flaps:
-    - Planned landing flap setting (CONF FULL or CONF 3).
+- This is the elevation of the runway at the threshold. It will be automatically filled after selecting the runway. It can also be determined or checked from your final approach charts.
 
-- Overweight Procedure:
-    - Will the landing weight be greater than the maximum landing weight (Yes or No).
-    - Reminder: maximum landing weight is 67 400 kg.
+**Runway Slope** 
 
-- Reverse Thrust:
-    - Will reverse thrust be used (Yes or No)?
-    - Use of reverse thrust on a wet or contaminated runway would be considered necessary for safety reasons.
-    - May be subject to airport requirements. If there are airport requirements regarding the use of reverse thrust, these can be found on the airport chart (see example below).
+- This is the gradient of the runway in the direction of takeoff. It will be automatically entered after selecting the runway. It can also be determined or checked from 
+the airport chart, but requires a little calculation from the data present on Jeppesen charts (see example in [Landing Calculator Additional Info](./#example-chart)) A negative slope is downhill, while a positive slope is uphill.
+- Formula: (((Runway elevation on touchdown side) - (Runway elevation on far side)) / Runway length) * 100.
+- E.g., EDDM 26R: 1449 ft - 1467 ft = - 18 ft.
+- Then - 18 ft / 13 123 ft = - 0.001 37.
+- Then - 0.00137 * 100 = - 0.137 % slope.
 
-    ![Airport Chart Information](../assets/flypados3/performance-landing-charts-reverser.png "Airport Chart Information"){loading=lazy}
+**Runway Condition** 
 
-- Autoland:
-    - If an Autoland is planned, then set this to Yes.
+- This allows input of runway condition codes, from dry (6) to poor (1). It defaults to a dry runway. Although the calculations are provided 
+for other runway conditions, be aware that MSFS 2020 currently does not simulate these surface conditions properly. The runway condition can be found on an ATIS report or in a SNOWTAM. For detailed information about RCC's see the [RWY Conditions](../../../pilots-corner/airliner/airliner-flying-guide/runway-conditions.md)
+
+**Wind** 
+
+- The wind can be input simply as the headwind component (a single positive number, may be prefixed with H or HD) or tailwind component (a single negative number, may be positive if prefixed with T or TL instead), or it can be input in the form degrees/kts. You may omit the slash, it will automatically be added for you.
+It can be automatically entered from either the OFP or the METAR as described above. If you enter the wind yourself, be sure you are entering the wind in terms of a magnetic 
+  direction rather than the true direction. ATIS winds will be provided in terms of a magnetic direction, but METAR winds are in terms of true direction. If you enter the winds 
+  from METAR, consult the airport 10-9 (or 10-9A) chart to determine the magnetic variation and convert the direction to magnetic, as shown in the following examples in [Advanced Takeoff Calculator Guide](../../../pilots-corner/a32nx/a32nx-advanced-guides/flight-planning/takeoff-perf-calc.md). If you choose to enter the winds automatically from the 
+  METAR, this conversion will be done automatically.
+
+- If the wind direction is given as variable, enter the wind direction into the takeoff performance calculator as a tailwind. If the wind direction varies between 2 values, 
+enter the wind direction that will result in the largest tailwind (if the direction includes a tailwind direction) or the smallest headwind. If the wind speed includes a gust value, enter only the steady wind value. 
+
+**Temperature** 
+
+- This is simply the outside air temperature. It can be automatically entered from either the OFP or the METAR as described above. It can also be entered manually based on 
+either the active ATIS or METAR.
+
+**QNH** 
+
+- This is the atmospheric pressure at the airport, adjusted for elevation above mean sea level. It can be automatically filled from either the OFP or the METAR as described above. It can also be entered manually 
+based on either the active ATIS or METAR.
+
+**Approach Speed: MCDU PERF APPR**
+- This is part of the MCDU PERF APPR page and can be taken from there (V~APP~).
+
+![MCDU PERF APPR page](../assets/flypados3/performance-landing-mcdu-perf.png "MCDU PERF APPR page"){loading=lazy}
+
+**Weight**
+- This information can be obtained from the ECAM SD bottom-right corner (GW 59 600 kg in the example below).
+
+![ECAM SD](../assets/flypados3/performance-landing-ecam-sd.png "ECAM SD"){loading=lazy}
+
+**Flaps**
+- Planned landing flap setting (FULL or CONF 3).
+
+**Overweight Procedure**
+- Will the landing weight be greater than the maximum landing weight (Yes or No).
+- Reminder: the maximum landing weight is 67 400 kg for the A32NX and 395 000 kg for the A380X.
+
+**Reverse Thrust**
+- Will reverse thrust be used (Yes or No)?
+- Use of reverse thrust on a wet or contaminated runway would be considered necessary for safety reasons.
+- May be subject to airport requirements. If there are airport requirements regarding the use of reverse thrust, these can be found on the airport chart (see example below).
+
+![Airport Chart Information](../assets/flypados3/performance-landing-charts-reverser.png "Airport Chart Information"){loading=lazy}
+
+**Autoland**
+- Is Autoland planned to be used (Yes or No)?
 
 ### Example Data
 
@@ -369,5 +402,7 @@ This runway can't be used for landing in the given circumstances. It is similar 
 ![flyPad Performance Calculator Landing](../assets/flypados3/performance-landing-notok.png "flyPad Performance Calculator Landing"){loading=lazy}
 
 *[TORA]: Take-Off Run Available
-*[QNH]: sea level atmospheric pressure
+*[LDA]: Landing Distance Available
+*[QNH]: airfield/regional atmospheric pressure adjusted for elevation above mean sea level
 *[OFP]: Operational Flight Plan
+*[RCC]: Runway Condition Code
