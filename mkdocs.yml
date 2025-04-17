@@ -116,6 +116,7 @@ extra_css:
   - stylesheets/extra.css
   - stylesheets/admonitions.css
   - stylesheets/navigation.css
+  - stylesheets/print.css
 
 # Javascript
 extra_javascript:

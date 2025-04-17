@@ -1,0 +1,39 @@
+@media print {
+  /* Force all text to black, backgrounds to white or transparent */
+  * {
+    color: #000 !important;
+    background: none !important;
+    background-color: #fff !important;
+  }
+
+  /* Make sure all headings print black */
+  h1, h2, h3, h4, h5, h6 {
+    color: #000 !important;
+    background: none !important;
+  }
+
+  /* Tables */
+  .md-typeset table:not([class]) th {
+    background-color: #eee !important;
+    color: #000 !important;
+  }
+  .md-typeset table:not([class]) td {
+    border-color: #000 !important;
+  }
+
+  /* Remove UI chrome */
+  .md-header,
+  .md-footer,
+  .md-nav,
+  .md-button,
+  .gif-placeholder {
+    display: none !important;
+  }
+
+  /* Expose real URLs for links */
+  a[href]:after {
+    content: " (" attr(href) ")";
+    font-size: 0.9em;
+  }
+}
+
