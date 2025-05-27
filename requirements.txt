@@ -6,5 +6,5 @@ mkdocs-embed-external-markdown
 mkdocs-video
 mkdocs-glightbox
 pillow
-cairosvg<2.8
+cairosvg
 urllib3<2.0
