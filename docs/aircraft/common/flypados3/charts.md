@@ -165,10 +165,9 @@ The local files need to be stored in the following folders (located by default i
 | Images | `C:\Users\<Username>\Documents\FlyByWireSim\Simbridge\resources\images` |
 | PDFs   | `C:\Users\<Username>\Documents\FlyByWireSim\Simbridge\resources\pdfs`   |
 
-Note: the documents directory might be accessible on a different path on your machine. Please check [Resources](https://docs.flybywiresim.com/simbridge/install-configure/installation/#resources-folder) if you cannot find it.
+Note: the documents directory might be accessible on a different path on your machine. Please check [Resources](../../../tools/simbridge/install-configure/installation.md#resources-folder) if you cannot find it.
 
 The feature does not support any subfolders (yet).
-
 
 ## Pinned Charts
 
