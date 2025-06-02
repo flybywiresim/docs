@@ -197,6 +197,7 @@ Quality Assurance Tester/Trainee Report
 Discord Username  : XXXXXX <!-- Use your username, not your display name! -->
 Object of testing : #XXXX <!-- PR Number -->
 Aircraft          : A32NX/A380X <!-- Choose only one -->
+Simulator         : 2020/2024 <!-- Choose only one -->
 Tier of Testing   : 1/2
 Date              : XX/XX/XXXX <!-- Date of test in DD/MM/YYYY format -->
 
