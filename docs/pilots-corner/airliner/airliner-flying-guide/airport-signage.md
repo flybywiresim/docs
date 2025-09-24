@@ -9,7 +9,7 @@ on the ground. However, this guide will explain how to read and understand them.
 The FAA has a handy guide available for download that contains images of all the pertinent signs you may encounter,
 their purpose, and location at the airport.
 
-[Download FAA Guide](https://www.faa.gov/sites/faa.gov/files/airports/runway_safety/publications/QuickReferenceGuideProof8.pdf){ .md-button }
+[Download FAA Guide](https://www.faa.gov/sites/faa.gov/files/SignsAndMarkings_one-doc.pdf){ .md-button }
 
 ---
 
