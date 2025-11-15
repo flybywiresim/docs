@@ -23,7 +23,7 @@ You can find more information about the installer in our [Installer documentatio
 
 !!! bug "Manual Installation is not recommended"
 We recommend using the FlyByWire Installer for the best download and installation experience. The Installer uses the
-Cloudflare CDN to ensure fast downloads and also download smaller chunks of the file to ensure more stability during
+Cloudflare CDN to ensure fast downloads and also downloads smaller chunks of the file to ensure more stability during
 the download process.
 
     Manual download is done from GitHub, which can be slower and less reliable.
