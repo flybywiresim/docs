@@ -161,6 +161,11 @@ Settings for simulation aspects of the A32NX aircraft.
 ## Realism
 Settings for realism aspects of the A32NX aircraft.
 
+!!! warning "Outdated Image"
+    Please note that the setting "Sync EFIS controls between Captin and FO (Unrealistic)" now reads:
+
+    Sync EFIS and **Audio Controls** Between Captain and FO
+
 <div style="position: relative;">
     <img src="/aircraft/common/assets/flypados3/flypad-settings-realism.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
@@ -201,10 +206,9 @@ Settings for realism aspects of the A32NX aircraft.
     - The timeout feature will automatically deactivate the focus of the MCDU screen after the given amount of seconds.
     - Valid range is 5 - 120 seconds.
     - Setting is only available if MCDU Keyboard Input is enabled.
-- Sync EFIS controls between Captain and FO (unrealistic)
+- Sync EFIS and Audio Controls between Captain and FO (unrealistic)
     - When enabled, the EFIS controls will be synchronized between the Captain and FO.
     - This includes the Flight Director (FD), Landing System (LS) and Baro (STD, QNH and inHg/hPa) controls.
-    - Note: Baro is currently not separated between the Captain and FO and is always synchronized independent of this setting. 
 - Show Pilot Avatar
     - When enabled, the pilot avatar will be visible in the cockpit. 
     - The avatar style can be chosen in the MSFS settings `General Options -> Misc`.
