@@ -162,7 +162,7 @@ Settings for simulation aspects of the A32NX aircraft.
 Settings for realism aspects of the A32NX aircraft.
 
 !!! warning "Outdated Image"
-    Please note that the setting "Sync EFIS controls between Captin and FO (Unrealistic)" now reads:
+    Please note that the setting "Sync EFIS controls between Captain and FO (Unrealistic)" now reads:
 
     Sync EFIS and **Audio Controls** Between Captain and FO
 
