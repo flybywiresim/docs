@@ -1,5 +1,5 @@
 title: FlyByWire Tools
 nav:
     - Overview: index.md
+    - Installer: installer
     - SimBridge: simbridge
-    #- Installer: installer

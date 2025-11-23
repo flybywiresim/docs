@@ -15,25 +15,9 @@ Please follow the information on this page to install FlyByWire Simulations prod
 
 Download the new FlyByWire installer where you can select either the Stable, or Development build. Our installer downloads and installs the add-on directly into your community folder.
 
-The following commands can be used:
-
-++ctrl+f5++ - Refreshes Installer
-
-++ctrl+f12++ - Opens the debug tool
-
-#### Installer Debug Logs
-
-You can send us logs to our [Discord](https://discord.gg/flybywire){target=new} for support if you encounter issues with the installer. Please follow the steps below:
-
-  * Open the debug tool ++ctrl+f12++.
-
-  * Find and select ++"Console"++ in the top menu.
-
-  * ++"Right Click"++ anywhere in the log displayed.
-
-  * Click ++"Save as"++ and send the log to us.
-
 [Download Installer](https://api.flybywiresim.com/installer){ .md-button target=new}
+
+You can find more information about the installer in our [Installer documentation](../../tools/installer/index.md).
 
 ### Manual Installation
 
