@@ -17,7 +17,7 @@ To see our aircraft's full changelog please visit our Github.
 
     The A32NX Release Notes section contains release notes for the A32NX aircraft add-on.
 
-    [View Latest Here](a32nx/v0130.md){.md-button}
+    [View Latest Here](a32nx/v0140.md){.md-button}
 
 - <p style="font-size:24px; color:#00E0FE;">A380X Release Notes</p>
 
