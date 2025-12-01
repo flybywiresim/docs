@@ -28,8 +28,10 @@ To see our aircraft's full changelog please visit our Github.
     [View Latest Here](a380x/v0140.md){.md-button}
 
 
-- <p style="font-size:24px;">[Installer Release Notes](installer/v330.md)</p>
+- <p style="font-size:24px;">[Installer Release Notes](installer/v350.md)</p>
 
     ---
 
     The Installer Release Notes section contains release notes for the FlyByWire Installer.
+
+    [View Latest Here](installer/v350.md){.md-button}
