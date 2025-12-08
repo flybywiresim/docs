@@ -19,13 +19,13 @@ The Terrain Awareness and Warning Systems (TAWS) is a system used to alert the f
     Check [Troubleshooting](../troubleshooting.md) if you are having issues.
 
 ## Terrain Database
-The aforementioned database has worldwide coverage and is defined according to a standardized Earth Model, dividing the surface into grid sets. Several optimizations have been made to the database to deal with size constraints within the aircraft.
+The aforementioned database has worldwide coverage and is defined according to a standardized Earth model, dividing the surface into grid sets. Several optimizations have been made to the database to deal with size constraints within the aircraft.
 
 - En-route
     - 3.0 NM resolution
 - 22 NM from airports
     - 0.5 NM resolution
-- within 6 NM from airports
+- Within 6 NM from airports
     - 0.25 NM resolution
 
 ## Enabling the Terrain Display
@@ -41,7 +41,7 @@ The TAWS provides two different modes of terrain display on the ND.
 #### Standard Mode
 The terrain is displayed according to the vertical displacement between the terrain elevation and the aircraft's current altitude. If the aircraft is more than 2 000 ft (610 m) above the terrain, no terrain information is displayed.
 
-#### Peaks mode
+#### Peaks Mode
 In this mode, terrain is displayed regarding the absolute terrain elevation (referring to the sea level instead of the aircraft elevation). It aims to improve terrain awareness of the flight crew. If the aircraft surpasses 2 000 ft (610 m) above the terrain, the terrain is still displayed but with a gradient of green (see right-side of image [below](#colors)). It also displays the highest and lowest terrain elevations as two figures in the bottom-right corner of the display.
 
 ![taws peaks mode](../assets/terr-nd2.png){loading=lazy}
