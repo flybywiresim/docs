@@ -16,17 +16,17 @@ in Microsoft Flight Simulator, especially the Airbus A320neo and A380.
 
 <div class="grid cards" markdown>
 
-- <p style="font-size:24px;">[A32NX Corner](./a32nx)</p>
+- <p style="font-size:24px;">[A32NX Corner](a32nx/index.md)</p>
 
     The A32NX Corner covers the Airbus A320neo and is aimed at sim pilots of all levels.
     It contains beginner guides, advanced guides, a clickable interactive cockpit, and more. 
  
-- <p style="font-size:24px;">[A380X Corner](./a380x)</p>
+- <p style="font-size:24px;">[A380X Corner](a380x/index.md)</p>
 
     The A380X Corner covers the Airbus A380 and is aimed at sim pilots of all levels.
     It contains beginner guides, advanced guides, a clickable interactive cockpit, and more.
 
-- <p style="font-size:24px;">[Airliner Corner](./airliner)</p>
+- <p style="font-size:24px;">[Airliner Corner](airliner/index.md)</p>
 
     The Airliner Corner covers general topics for flying airliners in Microsoft Flight Simulator.
     It contains an Airliner Flying Guide as a rough basic guide to general airliner terminology 

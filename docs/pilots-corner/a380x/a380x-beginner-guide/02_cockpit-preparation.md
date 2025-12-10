@@ -349,7 +349,7 @@ In the simulator, we are usually alone, so we will do the flow on our own.
     * [MFD](../../a380x-briefing/flight-deck/main-panel/mfd)
 
 At this point, the Flight Management System (FMS) should be initialized.
-See [Preparing the MFD](03_preparing-fms) for more information.
+See [Preparing the MFD](03_preparing-fms.md) for more information.
 
 ## Glareshield
 
