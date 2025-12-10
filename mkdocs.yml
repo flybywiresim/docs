@@ -42,10 +42,12 @@ plugins:
     lang: en
   # Comment out the plugin below if building docs without an internet connection.
   external-markdown: {}
+  optimize:
+    enabled: !ENV [CI, false]
   awesome-pages: {}
   tags: {}
-  git-revision-date-localized:
-    type: date
+  #git-revision-date-localized:
+    #type: date
   mkdocs-video:
     mark: "video-embed"
   redirects:
