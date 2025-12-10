@@ -46,8 +46,9 @@ plugins:
     enabled: !ENV [CI, false]
   awesome-pages: {}
   tags: {}
-  #git-revision-date-localized:
-    #type: date
+  git-revision-date-localized:
+    enabled: !ENV [CI, false]
+    type: date
   mkdocs-video:
     mark: "video-embed"
   redirects:
