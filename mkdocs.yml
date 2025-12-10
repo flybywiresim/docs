@@ -28,6 +28,7 @@ theme:
     - navigation.tabs.sticky
     # Removed this feature again as it's breaking TOC navigation on known-issues.md
     - navigation.instant
+    - naivgation.instant.prefetch
     - navigation.instant.progress
     - navigation.top
     - navigation.tracking
