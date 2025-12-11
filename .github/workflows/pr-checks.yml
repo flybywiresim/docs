@@ -69,9 +69,13 @@ jobs:
           ref: ${{ steps.sha.outputs.result }}
           fetch-depth: 0
       - name: Make Build
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: 3.x
+          python-version: '3.11'
+      - name: Install pngquant for image optimization
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pngquant
       - run: |
           pip install -r requirements.txt
           mkdocs build -s
