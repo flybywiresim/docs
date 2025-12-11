@@ -7,4 +7,5 @@ mkdocs-video
 mkdocs-glightbox
 pillow
 cairosvg
+pngquant
 urllib3<2.0
