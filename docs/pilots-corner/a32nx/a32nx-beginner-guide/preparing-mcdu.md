@@ -327,10 +327,13 @@ encountered on your F-PLN page.
 !!! info "Viewing Flight Plan on ND"
     We can also verify the route looks correct by selecting `Plan` on the EFIS control panel and watching the ND as we scroll through.
 
-<!-- TODO: Update when Secondary F-PLAN is available -->
 ### **^^S^^**ECONDARY FLIGHT PLAN
 
-This page allows us to input a secondary flight plan. This page is currently inoperable in the A32NX. We will update this portion of the guide when it is usable.
+This page allows us to input a secondary flight plan. The secondary flight plan can be used to plan for an alternative runway before departure, plan a diversion in flight, or a different arrival procedure. It works identically to the primary flight plan.
+
+For our first flight, we will not need the secondary flight plan. We will only copy the active plan to the secondary flight plan. This is what is commonly done when there is no specific use for the secondary flight plan.
+
+![mcdu-sec](../assets/beginner-guide/mcdu/mcdu-sec.png){loading=lazy}
 
 ### **^^R^^**AD NAV
 
