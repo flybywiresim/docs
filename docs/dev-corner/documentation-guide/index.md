@@ -10,7 +10,9 @@ description: Overview of the FlyByWire Documentation Guide
 ## Background
 
 !!! warning "Required Tools Update"
-    Due to the dependency `click>8.2.2` creating issues with the mkdocs watcher during `mkdocs serve --dirty` builds we have created a `requirements-dev.txt` for use within your virtual environments until a new release from `click` is provided to solve the issue.
+    The dependency `click>8.2.2` creates an issue when utilizing `mkdocs serve --dirty` where the development server does not auto-reload the browser after detecting file changes.
+
+    As a workaround to dev builds we have created a `requirements-dev.txt` for use within your virtual environments which pins the version to `8.2.1` until a new release from `click` is provided to solve the issue.
 
     Please see the section [Required Tools](#required-tools) for more information.
 
