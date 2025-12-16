@@ -115,6 +115,7 @@ Below is an example of our current use case in the FlyByWire Documentation Proje
 ### Image Assets Process
 
 - Create the image as PNG (e.g. screenshots) with the highest resolution possible
+    - JPEG is also acceptable but preference towards PNG.
 - Edit the image (e.g. add comments, lines, boxes, arrows, etc.)
     - If you think the original is worth it store it in `/src/assets` - but most images aren't worth it as screenshots 
       are quickly retaken (Keeping a local copy of all your screenshots is good practice just in case - but it is not 
@@ -128,13 +129,23 @@ Below is an example of our current use case in the FlyByWire Documentation Proje
    ```md title="Sample Image Markdown with Lazy Loading"
    ![image](directory/image.png){loading=lazy}
    ```
+  
+#### Image Optimization
+
+Our current build comes bundled with Image Optimization which is run explicitly during CI builds on GitHub. 
+
+!!! note "Bundled Optimization and Best Practices"
+    All images will be optimized and cached during both preview and production builds. No further action is *technically* required by a contributor.
+
+    We do still highly recommend the following for all images uploaded to the project:
+
+    - Make sure size and quality are good - usually < 100 kB
+    - Compress the png/jpeg image with a tool - [Shortpixel Image Compressor](https://shortpixel.com/online-image-compression){target=new}
 
 !!! tip ""
     Width of images on docs based on the responsive layout.
 
     - Change the size according to the table - max width is 826 px
-    - Compress the png image with a tool - [Shortpixel Image Compressor](https://shortpixel.com/online-image-compression)
-    - Make sure size and quality are good - usually < 100 kB
     - All images can be clicked and zoomed out to the original size - so if you have a lot of details in the image, 
       you can make it smaller and let the user zoom in if needed. The limit is a reasonable size of the image.  
     

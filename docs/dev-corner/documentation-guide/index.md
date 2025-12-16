@@ -9,6 +9,11 @@ description: Overview of the FlyByWire Documentation Guide
 
 ## Background
 
+!!! warning "Required Tools Update"
+    Due to the dependency `click>8.2.2` creating issues with the mkdocs watcher during `mkdocs serve --dirty` builds we have created a `requirements-dev.txt` for use within your virtual environments until a new release from `click` is provided to solve the issue.
+
+    Please see the section [Required Tools](#required-tools) for more information.
+
 !!! info "Guides"
     If you would like to setup the documentation project locally please continue with this guide.
 
@@ -62,7 +67,12 @@ To participate in the FlyByWire Documentation Project, you need to have the foll
     source venv/bin/activate
     ```
 - Install dependencies with this single line command:
-    ```title="Run In Terminal"
+    !!! tip "Local Development"
+          ```title="Run In Terminal"
+          pip install -r requirements-dev.txt
+          ```
+
+    ```title="Production Builds - Run In Terminal"
     pip install -r requirements.txt
     ```
 !!! info "Using `virtualenv`"
