@@ -335,6 +335,10 @@ For our first flight, we will not need the secondary flight plan. We will only c
 
 ![mcdu-sec](../assets/beginner-guide/mcdu/mcdu-sec.png){loading=lazy}
 
+Visit our dedicated feature guide for more information.
+
+[Secondary Flight Plan Guide](../../../aircraft/a32nx/feature-guides/sec-fpln.md){.md-button}
+
 ### **^^R^^**AD NAV
 
 On this page, we would set any frequencies or identifiers needed for the departure and subsequently later en route those required for the arrival.
