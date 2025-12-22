@@ -7,14 +7,14 @@ Microsoft Flight Simulator experience when using FlyByWire aircraft add-ons.
 
 <div class="grid cards" markdown>
 
-- <p style="font-size:24px;">[Installer](./installer/index.md)</p>
+- <p style="font-size:24px;">[Installer](installer/index.md)</p>
   
     ---
 
     The FlyByWire Installer is a tool that allows you to install, update, and manage the FlyByWire
     Add-Ons and some selected other free open-source add-ons for Microsoft Flight Simulator 2020 and 2024.
 
-- <p style="font-size:24px;">[SimBridge](./simbridge/index.md)</p>
+- <p style="font-size:24px;">[SimBridge](simbridge/index.md)</p>
   
     ---
 

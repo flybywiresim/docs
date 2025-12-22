@@ -107,7 +107,7 @@ This section is focused on differences to other non-Airbus airliners a user migh
 
 ??? tip "What are Flight Phases"
     The A380 uses flight phases to manage different parts of a flight. These are preflight, takeoff, climb, cruise, descent,
-    approach, go around, done. See also: [Flight Phases](../../../airliner/flight-phases).
+    approach, go around, done. See also: [Flight Phases](../../airliner/flight-phases.md).
 
 ??? tip "What are Flight Envelope Protections"
     The A380 includes many protections for the pilot, which make it nearly impossible to stall or overspeed the aircraft.
@@ -164,19 +164,19 @@ If we are cleared to "line up" (or take-off) we will do the following steps.
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
     clickable cockpit that will show you where each item is located.
     
-    * [Packs](../../a380x-briefing/flight-deck/ovhd/air)
-    * [Exterior Lights](../../a380x-briefing/flight-deck/ovhd/ext-lt)
-    * [Navigation Display Range](../../a380x-briefing/flight-deck/glareshield/efis)
-    * [EFIS Control Panel](../../a380x-briefing/flight-deck/glareshield/efis)
-    * [TCAS](../../a380x-briefing/flight-deck/pedestal/surveillance)
+    * [Packs](../a380x-briefing/flight-deck/ovhd/air.md)
+    * [Exterior Lights](../a380x-briefing/flight-deck/ovhd/ext-lt.md)
+    * [Navigation Display Range](../a380x-briefing/flight-deck/glareshield/efis.md)
+    * [EFIS Control Panel](../a380x-briefing/flight-deck/glareshield/efis.md)
+    * [TCAS](../a380x-briefing/flight-deck/pedestal/surveillance.md)
 
 `BEFORE TAKEOFF CHECKLIST (Line-Up - below the line .............. COMPLETE`<br/>
 ??? note "Before Takeoff Checklist - Below the line"
     The Airbus A380 has a built-in checklist system that can be accessed via the
-    [Engine Warning Display (EWD)](../../a380x-briefing/flight-deck/main-panel/ewd).
+    [Engine Warning Display (EWD)](../a380x-briefing/flight-deck/main-panel/ewd.md).
 
     To activate it you need to press the `C/L` button on the 
-    [ECAM Control Panel (ECP)](../../a380x-briefing/flight-deck/pedestal/ecam-cp).
+    [ECAM Control Panel (ECP)](../a380x-briefing/flight-deck/pedestal/ecam-cp.md).
 
     You can navigate through the checklist by using the `UP` and `DOWN` buttons on the ECP. You can check/uncheck items
     by pressing the buttons with the check mark on the ECP.
@@ -381,12 +381,12 @@ move thrust levers to the `CL` detent.
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
     clickable cockpit that will show you where each item is located.
 
-    * [Exterior Lights](../../a380x-briefing/flight-deck/ovhd/ext-lt)
-    * [Ground Spoilers](../../a380x-briefing/flight-deck/pedestal/speed-brake)
-    * [APU Bleed](../../a380x-briefing/flight-deck/ovhd/apu)
-    * [APU Master Switch](../../a380x-briefing/flight-deck/ovhd/apu)
-    * [TCAS](../../a380x-briefing/flight-deck/pedestal/surveillance)
-    * [Anti-Ice](../../a380x-briefing/flight-deck/ovhd/anti-ice)
+    * [Exterior Lights](../a380x-briefing/flight-deck/ovhd/ext-lt.md)
+    * [Ground Spoilers](../a380x-briefing/flight-deck/pedestal/speed-brake.md)
+    * [APU Bleed](../a380x-briefing/flight-deck/ovhd/apu.md)
+    * [APU Master Switch](../a380x-briefing/flight-deck/ovhd/apu.md)
+    * [TCAS](../a380x-briefing/flight-deck/pedestal/surveillance.md)
+    * [Anti-Ice](../a380x-briefing/flight-deck/ovhd/anti-ice.md)
 
 At this point, the aircraft is climbing to the initially cleared altitude. The __Autopilot__ will manage the climb to the
 selected altitude.
@@ -535,4 +535,4 @@ descent and approach.
 
 This concludes the *Cruise*.
 
-Continue with [Descent Planning and Descent](../06_descent)
+Continue with [Descent Planning and Descent](06_descent.md)

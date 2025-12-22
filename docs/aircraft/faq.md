@@ -51,9 +51,9 @@ description: Frequently Asked Questions about the FlyByWire Aircraft, detailing 
 ??? info "Q: Do we have a simBrief profile for our aircraft?"
     Yes, there is one available for all versions of our aircraft. 
 
-    A32NX: [A32NX SimBrief Integration](./a32nx/feature-guides/simbrief.md#simbrief-airframe)
+    A32NX: [A32NX SimBrief Integration](a32nx/feature-guides/simbrief.md#simbrief-airframe)
 
-    A380X: [A380X SimBrief Integration](./a380x/feature-guides/simbrief.md#simbrief-airframe)
+    A380X: [A380X SimBrief Integration](a380x/feature-guides/simbrief.md#simbrief-airframe)
 
 ??? info "Q: When will it be released?"
     The project is an ongoing rolling release. See [Downloads](install/installation.md#downloads).

@@ -275,10 +275,10 @@ Verify these items:
 `LANDING CHECKLIST ............................................... COMPLETE`<br/>
 ??? note "Landing Checklist"
     The Airbus A380 has a built-in checklist system that can be accessed via the
-    [Engine Warning Display (EWD)](../../a380x-briefing/flight-deck/main-panel/ewd).
+    [Engine Warning Display (EWD)](../a380x-briefing/flight-deck/main-panel/ewd.md).
 
     To activate it you need to press the `C/L` button on the 
-    [ECAM Control Panel (ECP)](../../a380x-briefing/flight-deck/pedestal/ecam-cp).
+    [ECAM Control Panel (ECP)](../a380x-briefing/flight-deck/pedestal/ecam-cp.md).
 
     You can navigate through the checklist by using the `UP` and `DOWN` buttons on the ECP. You can check/uncheck items
     by pressing the buttons with the check mark on the ECP.
@@ -465,4 +465,4 @@ tasks.
 
 This concludes *Vacate Runway*
 
-Continue with [After Landing Steps](../08_after-landing)
+Continue with [After Landing Steps](08_after-landing.md)

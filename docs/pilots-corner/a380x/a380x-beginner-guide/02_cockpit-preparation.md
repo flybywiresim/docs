@@ -51,15 +51,15 @@ This guide assumes that your aircraft is in a cold and dark state at a gate.
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
     clickable cockpit that will show you where each item is located.
     
-    * [Engine Master Switches](../../a380x-briefing/flight-deck/pedestal/engine-master)
-    * [Parking Brake](../../a380x-briefing/flight-deck/pedestal/parking-brake)
-    * [Speed Brake Lever](../../a380x-briefing/flight-deck/pedestal/speed-brake)
-    * [Flaps Lever](../../a380x-briefing/flight-deck/pedestal/flap-lever)
-    * [Weather Radar](../../a380x-briefing/flight-deck/pedestal/surveillance)
-    * [Engine Mode Selector](../../a380x-briefing/flight-deck/ovhd/eng-start)
-    * [Thrust Levers](../../a380x-briefing/flight-deck/pedestal/throttle)
-    * [Gear Lever](../../a380x-briefing/flight-deck/main-panel/center-right)
-    * [Wipers](../../a380x-briefing/flight-deck/ovhd/wiper)
+    * [Engine Master Switches](../a380x-briefing/flight-deck/pedestal/engine-master.md)
+    * [Parking Brake](../a380x-briefing/flight-deck/pedestal/parking-brake.md)
+    * [Speed Brake Lever](../a380x-briefing/flight-deck/pedestal/speed-brake.md)
+    * [Flaps Lever](../a380x-briefing/flight-deck/pedestal/flap-lever.md)
+    * [Weather Radar](../a380x-briefing/flight-deck/pedestal/surveillance.md)
+    * [Engine Mode Selector](../a380x-briefing/flight-deck/ovhd/eng-start.md)
+    * [Thrust Levers](../a380x-briefing/flight-deck/pedestal/throttle.md)
+    * [Gear Lever](../a380x-briefing/flight-deck/main-panel/center-right.md)
+    * [Wipers](../a380x-briefing/flight-deck/ovhd/wiper.md)
 
 After these pre-checks, we can start the aircraft starting with the initial power up.
 
@@ -85,10 +85,10 @@ After these pre-checks, we can start the aircraft starting with the initial powe
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
     clickable cockpit that will show you where each item is located.
     
-    * [Batteries](../../a380x-briefing/flight-deck/ovhd/elec)
-    * [External Power](../../a380x-briefing/flight-deck/ovhd/elec)
-    * [Cockpit Lighting](../../a380x-briefing/flight-deck/pedestal/cockpit-lighting)
-    * [Glareshield Lighting](../../a380x-briefing/flight-deck/glareshield/glare-underside)
+    * [Batteries](../a380x-briefing/flight-deck/ovhd/elec.md)
+    * [External Power](../a380x-briefing/flight-deck/ovhd/elec.md)
+    * [Cockpit Lighting](../a380x-briefing/flight-deck/pedestal/cockpit-lighting.md)
+    * [Glareshield Lighting](../a380x-briefing/flight-deck/glareshield/glare-underside.md)
 
 ## Fire Tests and APU Startup
 
@@ -141,11 +141,11 @@ After these pre-checks, we can start the aircraft starting with the initial powe
     * [Standby Radio Navigation](../../a380x-briefing/flight-deck/pedestal/rmp)
     * [Communication Frequencies](../../a380x-briefing/flight-deck/pedestal/rmp)
     * [Interphone Reception](../../a380x-briefing/flight-deck/pedestal/rmp)
-    * [APU Fire](../../a380x-briefing/flight-deck/ovhd/apu-fire)
-    * [Engine Fire](../../a380x-briefing/flight-deck/ovhd/eng-fire)
-    * [APU Master Switch](../../a380x-briefing/flight-deck/ovhd/apu)
-    * [APU Start](../../a380x-briefing/flight-deck/ovhd/apu)
-    * [External Power](../../a380x-briefing/flight-deck/ovhd/elec)
+    * [APU Fire](../a380x-briefing/flight-deck/ovhd/apu-fire.md)
+    * [Engine Fire](../a380x-briefing/flight-deck/ovhd/eng-fire.md)
+    * [APU Master Switch](../a380x-briefing/flight-deck/ovhd/apu.md)
+    * [APU Start](../a380x-briefing/flight-deck/ovhd/apu.md)
+    * [External Power](../a380x-briefing/flight-deck/ovhd/elec.md)
 
 ## Cockpit Preparation Flow
 
@@ -198,12 +198,12 @@ In the simulator, we are usually alone, so we will do the flow on our own.
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
     clickable cockpit that will show you where each item is located.
     
-    * [All White Lights](../../a380x-briefing/flight-deck/overviews/ovhd)
-    * [Recorder Ground Control](../../a380x-briefing/flight-deck/ovhd/rcdr-evac)
-    * [Evacuation](../../a380x-briefing/flight-deck/ovhd/rcdr-evac)
-    * [Probe and Window Heat](../../a380x-briefing/flight-deck/ovhd/adirs)
-    * [ADIRS](../../a380x-briefing/flight-deck/ovhd/adirs)
-    * [ELT](../../a380x-briefing/flight-deck/ovhd/elt)
+    * [All White Lights](../a380x-briefing/flight-deck/overviews/ovhd.md)
+    * [Recorder Ground Control](../a380x-briefing/flight-deck/ovhd/rcdr-evac.md)
+    * [Evacuation](../a380x-briefing/flight-deck/ovhd/rcdr-evac.md)
+    * [Probe and Window Heat](../a380x-briefing/flight-deck/ovhd/adirs.md)
+    * [ADIRS](../a380x-briefing/flight-deck/ovhd/adirs.md)
+    * [ELT](../a380x-briefing/flight-deck/ovhd/elt.md)
 
 ### Overhead Panel Center (bottom to top)
 
@@ -237,21 +237,21 @@ In the simulator, we are usually alone, so we will do the flow on our own.
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
     clickable cockpit that will show you where each item is located.
     
-    * [Strobe](../../a380x-briefing/flight-deck/ovhd/ext-lt)
-    * [Beacon](../../a380x-briefing/flight-deck/ovhd/ext-lt)
-    * [Nav](../../a380x-briefing/flight-deck/ovhd/ext-lt)
-    * [Remaining Exterior Lights](../../a380x-briefing/flight-deck/ovhd/ext-lt)
-    * [Seat Belts](../../a380x-briefing/flight-deck/ovhd/signs)
-    * [No Mobile](../../a380x-briefing/flight-deck/ovhd/signs)
-    * [Emergency Exit Lights](../../a380x-briefing/flight-deck/ovhd/signs)
-    * [Engine Starter](../../a380x-briefing/flight-deck/ovhd/eng-start)
-    * [APU Bleed](../../a380x-briefing/flight-deck/ovhd/air)
-    * [X Bleed](../../a380x-briefing/flight-deck/ovhd/air)
-    * [Air Flow](../../a380x-briefing/flight-deck/ovhd/air)
-    * [Cockpit](../../a380x-briefing/flight-deck/ovhd/air)
-    * [Cabin](../../a380x-briefing/flight-deck/ovhd/air)
-    * [Trim Tank Feed](../../a380x-briefing/flight-deck/ovhd/fuel)
-    * [Maintenance Panel](../../a380x-briefing/flight-deck/ovhd/maintenance)
+    * [Strobe](../a380x-briefing/flight-deck/ovhd/ext-lt.md)
+    * [Beacon](../a380x-briefing/flight-deck/ovhd/ext-lt.md)
+    * [Nav](../a380x-briefing/flight-deck/ovhd/ext-lt.md)
+    * [Remaining Exterior Lights](../a380x-briefing/flight-deck/ovhd/ext-lt.md)
+    * [Seat Belts](../a380x-briefing/flight-deck/ovhd/signs.md)
+    * [No Mobile](../a380x-briefing/flight-deck/ovhd/signs.md)
+    * [Emergency Exit Lights](../a380x-briefing/flight-deck/ovhd/signs.md)
+    * [Engine Starter](../a380x-briefing/flight-deck/ovhd/eng-start.md)
+    * [APU Bleed](../a380x-briefing/flight-deck/ovhd/air.md)
+    * [X Bleed](../a380x-briefing/flight-deck/ovhd/air.md)
+    * [Air Flow](../a380x-briefing/flight-deck/ovhd/air.md)
+    * [Cockpit](../a380x-briefing/flight-deck/ovhd/air.md)
+    * [Cabin](../a380x-briefing/flight-deck/ovhd/air.md)
+    * [Trim Tank Feed](../a380x-briefing/flight-deck/ovhd/fuel.md)
+    * [Maintenance Panel](../a380x-briefing/flight-deck/ovhd/maintenance.md)
 
 ### Overhead Panel Right (bottom to top)
 
@@ -266,10 +266,10 @@ In the simulator, we are usually alone, so we will do the flow on our own.
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
     clickable cockpit that will show you where each item is located.
     
-    * [Cargo Air Conditioning](../../a380x-briefing/flight-deck/ovhd/cargo-air)
+    * [Cargo Air Conditioning](../a380x-briefing/flight-deck/ovhd/cargo-air.md)
     * [Radio Management Panel 3](../../a380x-briefing/flight-deck/ovhd/rmp)
     * [Standby Radio Navigation](../../a380x-briefing/flight-deck/pedestal/rmp)
-    * [CVR Test](../../a380x-briefing/flight-deck/ovhd/cvr)
+    * [CVR Test](../a380x-briefing/flight-deck/ovhd/cvr.md)
    
 ## Main Instrument Panel
 
@@ -285,11 +285,11 @@ In the simulator, we are usually alone, so we will do the flow on our own.
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
     clickable cockpit that will show you where each item is located.
     
-    * [Switching Panel](../../a380x-briefing/flight-deck/main-panel/switching)
-    * [Integrated Standby Instrument System](../../a380x-briefing/flight-deck/main-panel/isis)
-    * [Landing Gear Gravity System](../../a380x-briefing/flight-deck/main-panel/gravity-gear)
-    * [Clock](../../a380x-briefing/flight-deck/main-panel/center-right)
-    * [Anti Skid](../../a380x-briefing/flight-deck/main-panel/center-right)
+    * [Switching Panel](../a380x-briefing/flight-deck/main-panel/switching.md)
+    * [Integrated Standby Instrument System](../a380x-briefing/flight-deck/main-panel/isis.md)
+    * [Landing Gear Gravity System](../a380x-briefing/flight-deck/main-panel/gravity-gear.md)
+    * [Clock](../a380x-briefing/flight-deck/main-panel/center-right.md)
+    * [Anti Skid](../a380x-briefing/flight-deck/main-panel/center-right.md)
 
 ## Pedestal
 
@@ -340,13 +340,13 @@ In the simulator, we are usually alone, so we will do the flow on our own.
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
     clickable cockpit that will show you where each item is located.
     
-    * [Parking Brake](../../a380x-briefing/flight-deck/pedestal/parking-brake)
-    * [Body Accumulator Pressure Check](../../a380x-briefing/flight-deck/main-panel/center-right)
-    * [Thrust Levers](../../a380x-briefing/flight-deck/pedestal/throttle)
-    * [Thrust Reverse Levers](../../a380x-briefing/flight-deck/pedestal/throttle)
-    * [Engine Master Switches](../../a380x-briefing/flight-deck/pedestal/engine-master)
-    * [Cockpit Door Switch](../../a380x-briefing/flight-deck/pedestal/cockpit-door)
-    * [MFD](../../a380x-briefing/flight-deck/main-panel/mfd)
+    * [Parking Brake](../a380x-briefing/flight-deck/pedestal/parking-brake.md)
+    * [Body Accumulator Pressure Check](../a380x-briefing/flight-deck/main-panel/center-right.md)
+    * [Thrust Levers](../a380x-briefing/flight-deck/pedestal/throttle.md)
+    * [Thrust Reverse Levers](../a380x-briefing/flight-deck/pedestal/throttle.md)
+    * [Engine Master Switches](../a380x-briefing/flight-deck/pedestal/engine-master.md)
+    * [Cockpit Door Switch](../a380x-briefing/flight-deck/pedestal/cockpit-door.md)
+    * [MFD](../a380x-briefing/flight-deck/main-panel/mfd.md)
 
 At this point, the Flight Management System (FMS) should be initialized.
 See [Preparing the MFD](03_preparing-fms.md) for more information.
@@ -372,15 +372,15 @@ See [Preparing the MFD](03_preparing-fms.md) for more information.
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
     clickable cockpit that will show you where each item is located.
     
-    * [Integral Lights](../../a380x-briefing/flight-deck/glareshield/glare-underside)
-    * [Barometric Reference](../../a380x-briefing/flight-deck/glareshield/efis)
-    * [Navigation Display](../../a380x-briefing/flight-deck/glareshield/efis)
-    * [Weather Radar](../../a380x-briefing/flight-deck/glareshield/efis)
-    * [Other EFIS Options](../../a380x-briefing/flight-deck/glareshield/efis)
-    * [Flight Director](../../a380x-briefing/flight-deck/glareshield/afs)
-    * [North Reference](../../a380x-briefing/flight-deck/glareshield/afs)
-    * [SPD, HDG, V/S Display](../../a380x-briefing/flight-deck/glareshield/afs)
-    * [Altitude Display](../../a380x-briefing/flight-deck/glareshield/afs)
+    * [Integral Lights](../a380x-briefing/flight-deck/glareshield/glare-underside.md)
+    * [Barometric Reference](../a380x-briefing/flight-deck/glareshield/efis.md)
+    * [Navigation Display](../a380x-briefing/flight-deck/glareshield/efis.md)
+    * [Weather Radar](../a380x-briefing/flight-deck/glareshield/efis.md)
+    * [Other EFIS Options](../a380x-briefing/flight-deck/glareshield/efis.md)
+    * [Flight Director](../a380x-briefing/flight-deck/glareshield/afs.md)
+    * [North Reference](../a380x-briefing/flight-deck/glareshield/afs.md)
+    * [SPD, HDG, V/S Display](../a380x-briefing/flight-deck/glareshield/afs.md)
+    * [Altitude Display](../a380x-briefing/flight-deck/glareshield/afs.md)
 
 ## Lateral Consoles
 
@@ -394,8 +394,8 @@ See [Preparing the MFD](03_preparing-fms.md) for more information.
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
     clickable cockpit that will show you where each item is located.
     
-    * [Door SD Page](../../a380x-briefing/flight-deck/main-panel/sd)
-    * [Sliding Windows](../../a380x-briefing/flight-deck/overviews/lateral-console)
+    * [Door SD Page](../a380x-briefing/flight-deck/main-panel/sd.md)
+    * [Sliding Windows](../a380x-briefing/flight-deck/overviews/lateral-console.md)
 
 
 ## Pilot Briefing
@@ -408,7 +408,7 @@ As the last step the pilots would conduct the takeoff briefing:
 
 This concludes the *Cockpit Preparation* guide.
 
-Continue with [Preparing the FMS](../03_preparing-fms).
+Continue with [Preparing the FMS](03_preparing-fms.md).
 
 
 

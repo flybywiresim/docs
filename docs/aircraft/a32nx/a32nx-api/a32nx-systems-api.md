@@ -5,7 +5,7 @@ description: Documentation for the FlyByWire A32NX FlightDeck API.
 
 # A32NX Developer API
 
-Flight-Deck API Documentation: [Flight-Deck API](a32nx-flight-deck-api)
+Flight-Deck API Documentation: [Flight-Deck API](a32nx-flightdeck-api.md)
 
 In addition to the above documentation, all custom variables and custom events are documented by our developers on our project's GitHub: [:fontawesome-brands-github:{: .github } -  **Docs section on GitHub**](https://github.com/flybywiresim/aircraft/tree/master/fbw-a32nx/docs){target=new}
 
