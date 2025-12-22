@@ -7,5 +7,4 @@ mkdocs-video
 mkdocs-glightbox
 pillow
 cairosvg
-urllib3<2.0
 click<=8.2.1
