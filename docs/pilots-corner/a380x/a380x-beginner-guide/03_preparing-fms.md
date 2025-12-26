@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/stylesheets/bg.css">
+<link rel="stylesheet" href="../../../stylesheets/bg.css">
 
 # Preparing the Flight Management System
 
