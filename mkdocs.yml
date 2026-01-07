@@ -28,9 +28,11 @@ theme:
     - navigation.tabs.sticky
     # Removed this feature again as it's breaking TOC navigation on known-issues.md
     - navigation.instant
+    - naivgation.instant.prefetch
     - navigation.instant.progress
     - navigation.top
     - navigation.tracking
+    - navigation.path
     - search.suggest
     - search.highlight
     - search.share
@@ -42,9 +44,12 @@ plugins:
     lang: en
   # Comment out the plugin below if building docs without an internet connection.
   external-markdown: {}
+  optimize:
+    enabled: !ENV [CI, false]
   awesome-pages: {}
   tags: {}
   git-revision-date-localized:
+    enabled: !ENV [CI, false]
     type: date
   mkdocs-video:
     mark: "video-embed"

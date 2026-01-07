@@ -122,7 +122,7 @@ Check that the axis mappings are correct.
 
     Make sure to set the filter to show all options like this:
 
-    ![msfs-controller-options-filter](../../common/assets/flypados3/throttle-calibration/msfs-controller-options-filter.png)
+    ![msfs-controller-options-filter](../assets/flypados3/throttle-calibration/msfs-controller-options-filter.png)
 
 ??? tip "Test the Movement of the Throttle in the Cockpit Now!"
     The throttle in the cockpit should now move in the correct direction. If not, check the `Reverse Axis` box here:
@@ -666,7 +666,7 @@ You now can calibrate each throttle as described in the A32NX section.
 ??? note "Keyboard"
     ### Keyboard
 
-    ![Keyboard F1-F4](../../common/assets/flypados3/throttle-calibration/keyboard-f1-f4.png){loading=lazy}
+    ![Keyboard F1-F4](../assets/flypados3/throttle-calibration/keyboard-f1-f4.png){loading=lazy}
 
     ==No calibration required for keyboard - read below!==
 
@@ -729,22 +729,22 @@ You now can calibrate each throttle as described in the A32NX section.
     This should look similar to this, although the exact number may vary a bit.
 
     - Press IDLE = ++shift+1++ and check that the throttle is at IDLE
-        ![keyboard-mapping-idle](../../common/assets/flypados3/throttle-calibration/keyboard-mapping-idle.png){loading=lazy}
+        ![keyboard-mapping-idle](../assets/flypados3/throttle-calibration/keyboard-mapping-idle.png){loading=lazy}
 
     - CLB = ++shift+2++
-        ![keyboard-mapping-clb](../../common/assets/flypados3/throttle-calibration/keyboard-mapping-clb.png){loading=lazy}
+        ![keyboard-mapping-clb](../assets/flypados3/throttle-calibration/keyboard-mapping-clb.png){loading=lazy}
 
     - FLX/MCT = ++shift+3++
-        ![keyboard-mapping-flx](../../common/assets/flypados3/throttle-calibration/keyboard-mapping-flx.png){loading=lazy}
+        ![keyboard-mapping-flx](../assets/flypados3/throttle-calibration/keyboard-mapping-flx.png){loading=lazy}
 
     - TOGA = ++shift+4++
-       ![keyboard-mapping-toga](../../common/assets/flypados3/throttle-calibration/keyboard-mapping-toga.png){loading=lazy}
+       ![keyboard-mapping-toga](../assets/flypados3/throttle-calibration/keyboard-mapping-toga.png){loading=lazy}
 
     - REV IDLE = from IDLE position press 3 times ++F2++
-        ![keyboard-mapping-revidle](../../common/assets/flypados3/throttle-calibration/keyboard-mapping-revidle.png){loading=lazy}
+        ![keyboard-mapping-revidle](../assets/flypados3/throttle-calibration/keyboard-mapping-revidle.png){loading=lazy}
 
     - REV FULL = from IDLE position keep ++F2++ pressed
-        ![keyboard-mapping-revfull](../../common/assets/flypados3/throttle-calibration/keyboard-mapping-revfull.png){loading=lazy}
+        ![keyboard-mapping-revfull](../assets/flypados3/throttle-calibration/keyboard-mapping-revfull.png){loading=lazy}
 
     **Congratulations! You can use the keyboard for throttle control!**
 

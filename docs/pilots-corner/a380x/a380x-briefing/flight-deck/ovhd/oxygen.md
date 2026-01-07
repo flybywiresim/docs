@@ -38,7 +38,7 @@ The MASK MAN ON pb is a guarded pushbutton.
 
 - SYS ON:
     - Oxygen flows toward the passenger masks.
-    - The light remains on, until the RESET pb on the [OXYGEN maintenance panel](./maintenance.md#reset-pb) is pressed.
+    - The light remains on, until the RESET pb on the [OXYGEN maintenance panel](maintenance.md#reset-pb) is pressed.
 
 ---
 

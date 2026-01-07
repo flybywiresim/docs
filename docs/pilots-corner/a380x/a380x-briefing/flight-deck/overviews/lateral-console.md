@@ -30,7 +30,7 @@ The flyPad is FlyByWire's version of an EFB which allows the user to manage the 
 access to aircraft settings, flight plans, ground services, performance calculations, navigational charts, online ATC
 frequencies and more.
 
-[flyPadOS 3 Documentation](/aircraft/common/flypados3/)
+[flyPadOS 3 Documentation](../../../../../aircraft/common/flypados3/index.md)
 
 ## 3. OIT Display
 

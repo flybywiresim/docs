@@ -312,7 +312,7 @@ from the MSFS 2020 runway length data and may not always be accurate. We recomme
 **Runway Slope** 
 
 - This is the gradient of the runway in the direction of takeoff. It will be automatically entered after selecting the runway. It can also be determined or checked from 
-the airport chart, but requires a little calculation from the data present on Jeppesen charts (see example in [Landing Calculator Additional Info](./#example-chart)) A negative slope is downhill, while a positive slope is uphill.
+the airport chart, but requires a little calculation from the data present on Jeppesen charts (see example in [Landing Calculator Additional Info](index.md#example-chart)) A negative slope is downhill, while a positive slope is uphill.
 - Formula: (((Runway elevation on touchdown side) - (Runway elevation on far side)) / Runway length) * 100.
 - E.g., EDDM 26R: 1449 ft - 1467 ft = - 18 ft.
 - Then - 18 ft / 13 123 ft = - 0.001 37.

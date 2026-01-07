@@ -21,8 +21,8 @@ is aimed at developers, contributors, or anyone who would like to start contribu
 |:--------------------------------------------------|
 | [Development Guide](dev-guide/index.md)           |
 | [Livery Creator Guide](livery-creators/index.md)  |
-| [Documentation Guide](documentation-guide/index)  |
-| [Other](other)                                    |
+| [Documentation Guide](documentation-guide/index.md)  |
+| [Other](other/index.md)                                    |
 | [FlyByWire Projects](flybywire-projects/index.md) |
 
 [//]: # (| [Localization Guide]&#40;localization-guide/index.md&#41;      |)

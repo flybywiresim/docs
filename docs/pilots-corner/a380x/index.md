@@ -23,9 +23,9 @@ in Microsoft Flight Simulator.
 
 | Featured List                                          |
 |:-------------------------------------------------------|
-| [Beginner Guide](./a380x-beginner-guide/overview.md)   |
-| [Advanced Guides](./a380x-advanced-guides/overview.md) |
-| [A380 Pilot Briefing](./a380x-briefing/index.md)       |
-| [Standard Operating Procedures](./a380x-sop.md)        |
+| [Beginner Guide](a380x-beginner-guide/overview.md)   |
+| [Advanced Guides](a380x-advanced-guides/overview.md) |
+| [A380 Pilot Briefing](a380x-briefing/index.md)       |
+| [Standard Operating Procedures](a380x-sop.md)        |
 
 -->

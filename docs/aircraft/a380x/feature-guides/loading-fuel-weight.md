@@ -187,7 +187,7 @@ Fuel loading is exclusively done via our EFB, which has a great UI to see the st
 
 ### Weights and Balance
 
-Get our [SimBrief Profile](../feature-guides/simbrief.md#simbrief-airframe).
+Get our [SimBrief Profile](simbrief.md#simbrief-airframe).
 
 !!! info "Please Note the Following"
     - The cargo hold field now depicts either metric tons or thousands of pounds, depending on the unit selected in the EFB Settings for aircraft configuration.

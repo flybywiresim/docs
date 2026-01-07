@@ -64,9 +64,9 @@ aircraft-specific variables instead of using the default SimConnect event.
 The FlyByWire A380X also requires specific variables to control its advanced features. The documentation for 
 these variables and events can be found here:
 
-Flight-Deck Documentation: [Flight-Deck API](a380x-flight-deck-api)
+Flight-Deck Documentation: [Flight-Deck API](a380x-flight-deck-api.md)
 
-Developer Documentation: [A380X API Documentation](a380x-systems-api)
+Developer Documentation: [A380X API Documentation](a380x-systems-api.md)
 
 The most common software solutions are:
 

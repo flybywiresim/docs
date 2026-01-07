@@ -79,22 +79,22 @@ would not turn off certain systems and at some point simply start with the prepa
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
     clickable cockpit that will show you where each item is located.
     
-    * [Anti-Ice](../../a380x-briefing/flight-deck/ovhd/anti-ice)
-    * [APU Bleed](../../a380x-briefing/flight-deck/ovhd/apu)
-    * [Parking Brake](../../a380x-briefing/flight-deck/pedestal/parking-brake)
-    * [Engine Master Switches](../../a380x-briefing/flight-deck/pedestal/engine-master)
-    * [Seat Belts](../../a380x-briefing/flight-deck/ovhd/int-lt)
-    * [Beacon](../../a380x-briefing/flight-deck/ovhd/ext-lt)
-    * [Exterior Lights](../../a380x-briefing/flight-deck/ovhd/ext-lt)
-    * [Fuel Pumps](../../a380x-briefing/flight-deck/ovhd/fuel)
+    * [Anti-Ice](../a380x-briefing/flight-deck/ovhd/anti-ice.md)
+    * [APU Bleed](../a380x-briefing/flight-deck/ovhd/apu.md)
+    * [Parking Brake](../a380x-briefing/flight-deck/pedestal/parking-brake.md)
+    * [Engine Master Switches](../a380x-briefing/flight-deck/pedestal/engine-master.md)
+    * [Seat Belts](../a380x-briefing/flight-deck/ovhd/int-lt.md)
+    * [Beacon](../a380x-briefing/flight-deck/ovhd/ext-lt.md)
+    * [Exterior Lights](../a380x-briefing/flight-deck/ovhd/ext-lt.md)
+    * [Fuel Pumps](../a380x-briefing/flight-deck/ovhd/fuel.md)
 
 `PARKING CHECKLIST ............................................... COMPLETE`<br/>
 ??? note "Parking Checklist"
     The Airbus A380 has a built-in checklist system that can be accessed via the
-    [Engine Warning Display (EWD)](../../a380x-briefing/flight-deck/main-panel/ewd).
+    [Engine Warning Display (EWD)](../a380x-briefing/flight-deck/main-panel/ewd.md).
 
     To activate it you need to press the `C/L` button on the 
-    [ECAM Control Panel (ECP)](../../a380x-briefing/flight-deck/pedestal/ecam-cp).
+    [ECAM Control Panel (ECP)](../a380x-briefing/flight-deck/pedestal/ecam-cp.md).
 
     You can navigate through the checklist by using the `UP` and `DOWN` buttons on the ECP. You can check/uncheck items
     by pressing the buttons with the check mark on the ECP.
@@ -166,22 +166,22 @@ This concludes *Disembarking Passengers and Baggage*.
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
     clickable cockpit that will show you where each item is located.
     
-    * [Parking Brake](../../a380x-briefing/flight-deck/pedestal/parking-brake)
-    * [Oxygen Crew Supply](../../a380x-briefing/flight-deck/ovhd/oxygen)
-    * [ADIRS](../../a380x-briefing/flight-deck/ovhd/adirs)
-    * [Exterior Lights](../../a380x-briefing/flight-deck/ovhd/ext-lt)
-    * [APU Bleed](../../a380x-briefing/flight-deck/ovhd/apu)
-    * [External Power](../../a380x-briefing/flight-deck/ovhd/elec)
-    * [APU Master Switch](../../a380x-briefing/flight-deck/ovhd/apu)
-    * [Emergency Exit Lights](../../a380x-briefing/flight-deck/ovhd/signs)
+    * [Parking Brake](../a380x-briefing/flight-deck/pedestal/parking-brake.md)
+    * [Oxygen Crew Supply](../a380x-briefing/flight-deck/ovhd/oxygen.md)
+    * [ADIRS](../a380x-briefing/flight-deck/ovhd/adirs.md)
+    * [Exterior Lights](../a380x-briefing/flight-deck/ovhd/ext-lt.md)
+    * [APU Bleed](../a380x-briefing/flight-deck/ovhd/apu.md)
+    * [External Power](../a380x-briefing/flight-deck/ovhd/elec.md)
+    * [APU Master Switch](../a380x-briefing/flight-deck/ovhd/apu.md)
+    * [Emergency Exit Lights](../a380x-briefing/flight-deck/ovhd/signs.md)
 
 `SECURING THE AIRCRAFT CHECKLIST ................................. COMPLETE`<br/>
 ??? note "Securing the Aircraft Checklist"
     The Airbus A380 has a built-in checklist system that can be accessed via the
-    [Engine Warning Display (EWD)](../../a380x-briefing/flight-deck/main-panel/ewd).
+    [Engine Warning Display (EWD)](../a380x-briefing/flight-deck/main-panel/ewd.md).
 
     To activate it you need to press the `C/L` button on the 
-    [ECAM Control Panel (ECP)](../../a380x-briefing/flight-deck/pedestal/ecam-cp).
+    [ECAM Control Panel (ECP)](../a380x-briefing/flight-deck/pedestal/ecam-cp.md).
 
     You can navigate through the checklist by using the `UP` and `DOWN` buttons on the ECP. You can check/uncheck items
     by pressing the buttons with the check mark on the ECP.

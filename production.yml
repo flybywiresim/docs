@@ -3,6 +3,9 @@ INHERIT: mkdocs.yml
 # on production only
 plugins:
   social:
+    cards_layout: default/variant
     cards_layout_options:
-      background_color: "#171E2C"
+      background_color: "#171e2c"
+      color: "#f9fafb"
       font_family: Manrope
+      logo: docs/assets/images/FBW-Tail-SC.png

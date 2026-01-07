@@ -213,7 +213,7 @@ possible.
     currently the only way to get this information without having to calculate it manually by adding up all distances
     between waypoints as displayed on the F-PLN page.
 
-    Unfortunately, the A380X does not yet have [FIX INFO](../../../a32nx/a32nx-advanced-guides/flight-planning/fixinfo) 
+    Unfortunately, the A380X does not yet have [FIX INFO](../../a32nx/a32nx-advanced-guides/flight-planning/fixinfo.md) 
     implemented, so we can't use it to determine when to start descent at a certain distance. 
 
     To use the DIR TO function, go to the F-PLN page and select the waypoint you want to know the distance to. Then press
@@ -321,7 +321,7 @@ of the flight management system.
 `FMS ........................................................... CROSSCHECK`<br/>
 
 #### OANS (Onboard Airport Navigation System) and BTV (Brake to Vacate)
-If available, you can also set up the [OANS and BTV](../../a380x-advanced-guides/oans-btv) for the destination airport.
+If available, you can also set up the [OANS and BTV](../a380x-advanced-guides/oans-btv.md) for the destination airport.
 
 ??? tip "OANS"
     The Onboard Airport Navigation System (OANS), developed jointly by Thales and Airbus, is a groundbreaking technology
@@ -381,7 +381,7 @@ If available, you can also set up the [OANS and BTV](../../a380x-advanced-guides
     of the HI mode if the BTV mode is not available or on short runway conditions
 `OANS RUNWAY LENGTH VS CHARTS RUNWAY LENGTH .................... CROSSCHECK`<br/>
 
-See our [OANS Guide](../../a380x-advanced-guides/oans-btv) for more information on the system.
+See our [OANS Guide](../a380x-advanced-guides/oans-btv.md) for more information on the system.
 
 `LANDING BRIEFING ................................................. PERFORM`<br/>
 
@@ -505,18 +505,18 @@ This concludes *Descent and Approach Planning*.
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
     clickable cockpit that will show you where each item is located.
     
-    * [External Lights](../../a380x-briefing/flight-deck/ovhd/ext-lt)
-    * [MFD](../../a380x-briefing/flight-deck/main-panel/mfd)
-    * [SIGNS Panel](../../a380x-briefing/flight-deck/ovhd/signs)
-    * [EFIS Panel](../../a380x-briefing/flight-deck/glareshield/efis)
+    * [External Lights](../a380x-briefing/flight-deck/ovhd/ext-lt.md)
+    * [MFD](../a380x-briefing/flight-deck/main-panel/mfd.md)
+    * [SIGNS Panel](../a380x-briefing/flight-deck/ovhd/signs.md)
+    * [EFIS Panel](../a380x-briefing/flight-deck/glareshield/efis.md)
 
 `APPROACH CHECKLIST .............................................. COMPLETE`<br/>
 ??? note "Approach Checklist"
     The Airbus A380 has a built-in checklist system that can be accessed via the
-    [Engine Warning Display (EWD)](../../a380x-briefing/flight-deck/main-panel/ewd).
+    [Engine Warning Display (EWD)](../a380x-briefing/flight-deck/main-panel/ewd.md).
 
     To activate it you need to press the `C/L` button on the 
-    [ECAM Control Panel (ECP)](../../a380x-briefing/flight-deck/pedestal/ecam-cp).
+    [ECAM Control Panel (ECP)](../a380x-briefing/flight-deck/pedestal/ecam-cp.md).
 
     You can navigate through the checklist by using the `UP` and `DOWN` buttons on the ECP. You can check/uncheck items
     by pressing the buttons with the check mark on the ECP.
@@ -614,4 +614,4 @@ More details regarding the ILS approach and landing in the next chapter.
 
 This concludes *Intercepting ILS*.
 
-Continue with [Final Approach and Landing](../07_landing)
+Continue with [Final Approach and Landing](07_landing.md)

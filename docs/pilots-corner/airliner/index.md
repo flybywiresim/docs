@@ -21,6 +21,6 @@ procedures at different stages of flight for veteran sim pilots.
 
 | Featured List                                                |
 |:-------------------------------------------------------------|
-| [Airbus Flight Phases](./flight-phases.md)                   |
-| [Airliner Flying Guide](./airliner-flying-guide/overview.md) |
-| [Airbus Terms and Abbreviations](./abbreviations.md)         |
+| [Airbus Flight Phases](flight-phases.md)                   |
+| [Airliner Flying Guide](airliner-flying-guide/overview.md) |
+| [Airbus Terms and Abbreviations](abbreviations.md)         |

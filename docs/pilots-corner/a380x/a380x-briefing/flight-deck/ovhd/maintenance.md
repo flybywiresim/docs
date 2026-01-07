@@ -37,7 +37,7 @@ been used.
 
 ### GND HYD
 
-See [Hydraulic Panel](./hyd.md) for more information.
+See [Hydraulic Panel](hyd.md) for more information.
 
 ### FUEL
 

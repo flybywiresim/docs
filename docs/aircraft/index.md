@@ -20,39 +20,39 @@ A common feature section will cover features that are shared between the aircraf
 
 <div class="grid cards" markdown>
 
-- <p style="font-size:24px;">[FAQ](./faq)</p>
+- <p style="font-size:24px;">[FAQ](faq.md)</p>
 
     ---
 
     The FAQ section provides answers to frequently asked questions regarding the FlyByWire aircraft add-ons.
 
-- <p style="font-size:24px;">[Installation Guide](./install/installation.md)</p>
+- <p style="font-size:24px;">[Installation Guide](install/installation.md)</p>
 
     ---
     
     The Installation Guide section provides information on how to install the FlyByWire aircraft add-ons.
 
-- <p style="font-size:24px;">[Support Resources](./support)</p>
+- <p style="font-size:24px;">[Support Resources](support/index.md)</p>
 
     ---
     
     The Support Resources section provides information on how to get support for the FlyByWire aircraft add-ons.
 
-- <p style="font-size:24px;">[A32NX](./a32nx)</p>
+- <p style="font-size:24px;">[A32NX](a32nx/index.md)</p>
     
     ---
 
     The A32NX is a community-driven open-source project to create a free Airbus A320neo in Microsoft Flight Simulator 2020.
     It aims to provide an Airbus A320neo that is as close to reality as possible.
 
-- <p style="font-size:24px;">[A380X](./a380x)</p>
+- <p style="font-size:24px;">[A380X](a380x/index.md)</p>
 
     ---
 
     The A380X is a community-driven open-source project to create a free Airbus A380 in Microsoft Flight Simulator 2020.
     It aims to provide an Airbus A380 that is as close to reality as possible.
 
-- <p style="font-size:24px;">[Common Features](./common)</p>
+- <p style="font-size:24px;">[Common Features](common/index.md)</p>
 
     ---
 

@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/stylesheets/bg.css">
+<link rel="stylesheet" href="../../../stylesheets/bg.css">
 
 # Preparing the Flight Management System
 
@@ -50,10 +50,10 @@ This guide will cover the following topics in helping you set up the FMS:
 * [Understanding the FMS](#understanding-the-fms)
     * [Using Keyboard and Mouse](#using-keyboard-and-mouse)
 * [FMS Initialization](#fms-initialization)
-    * [Data & Status](#data-status)
-    * [Init & Flight Plan Initialization](#init-flight-plan-initialization)
+    * [Data & Status](#data--status)
+    * [Init & Flight Plan Initialization](#init--flight-plan-initialization)
     * [Navaids](#navaids)
-    * [Fuel & Payload](#fuel-payload)
+    * [Fuel & Payload](#fuel--payload)
     * [Performance](#performance)
 * [A380X simBrief Integration](#a380x-simbrief-integration)
 
@@ -577,4 +577,4 @@ feature guide.
 
 ---
 
-After setting up the FMS, continue with [Engine Start and Taxi](../04_engine-start-taxi)
+After setting up the FMS, continue with [Engine Start and Taxi](04_engine-start-taxi.md)

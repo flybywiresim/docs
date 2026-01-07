@@ -38,7 +38,7 @@ is good enough for now but might be improved in the future.
             - [X] [GSX Integration](aircraft/a32nx/feature-guides/gsxintegration/index.md)
         - [X] [API](aircraft/a32nx/a32nx-api/index.md)
             - [X] [FlyByWire A32NX API - A32NX Flight Deck API](aircraft/a32nx/a32nx-api/a32nx-flightdeck-api.md)
-            - [X] [FlyByWire A32NX LVAR Events](aircraft/a32nx/a32nx-api/a32nx-systems-api)
+            - [X] [FlyByWire A32NX LVAR Events](aircraft/a32nx/a32nx-api/a32nx-systems-api.md)
     - [X] [A380X](aircraft/a380x/index.md)
         - [X] [Overview](aircraft/a380x/index.md)
         - [X] [Feature Guides](aircraft/a380x/feature-guides/index.md)
@@ -135,9 +135,9 @@ is good enough for now but might be improved in the future.
             - [ ] flyPad Development <span style="color: red;">TODO - page exists but needs update</span>
         - [X] [Specific](dev-corner/dev-guide/specific/index.md)
             - [X] [Overview](dev-corner/dev-guide/specific/index.md)
-            - [X] [Instruments Build Guide](dev-corner/dev-guide/specific/instruments-build-guide)
-            - [X] [flyPadOS 3 Localization Process](dev-corner/dev-guide/specific/flypad-localization) <span style="color: red;">TODO: Move to Localization Guide</span>
-            - [X] [Javascript](dev-corner/dev-guide/specific/javascript-dev-guide)
+            - [X] [Instruments Build Guide](dev-corner/dev-guide/specific/instruments-build-guide.md)
+            - [X] [flyPadOS 3 Localization Process](dev-corner/dev-guide/specific/flypad-localization.md) <span style="color: red;">TODO: Move to Localization Guide</span>
+            - [X] [Javascript](dev-corner/dev-guide/specific/javascript-dev-guide.md)
     - [ ] Localization Guide <span style="color: red;">TODO</span>
         - [ ] flyPad <span style="color: red;">TODO</span>
         - [ ] locPak for MSFS <span style="color: red;">TODO</span>

@@ -51,7 +51,7 @@ The FlyByWire A32NX also requires specific variables to control its advanced fea
 
 Flight-Deck Documentation: [Flight-Deck API](a32nx-flightdeck-api.md)
 
-Developer Documentation: [A32NX API Documentation](a32nx-systems-api)
+Developer Documentation: [A32NX API Documentation](a32nx-systems-api.md)
 
 The most common software solutions are:
 

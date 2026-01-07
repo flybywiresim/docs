@@ -78,11 +78,11 @@ This guide will cover these phases:
     clickable cockpit that will show you where each item is located.
     
     * [RMP Panel](../../a380x-briefing/flight-deck/pedestal/rmp)
-    * [Spoiler Lever](../../a380x-briefing/flight-deck/pedestal/speed-brake)
+    * [Spoiler Lever](../a380x-briefing/flight-deck/pedestal/speed-brake.md)
     * [Flaps Lever](../../a380x-briefing/flight-deck/pedestal/flaps-lever)
-    * [APU Master Switch](../../a380x-briefing/flight-deck/ovhd/apu)
-    * [Engine Start Selector](../../a380x-briefing/flight-deck/ovhd/eng-start)
-    * [Anti-Ice](../../a380x-briefing/flight-deck/ovhd/anti-ice)
+    * [APU Master Switch](../a380x-briefing/flight-deck/ovhd/apu.md)
+    * [Engine Start Selector](../a380x-briefing/flight-deck/ovhd/eng-start.md)
+    * [Anti-Ice](../a380x-briefing/flight-deck/ovhd/anti-ice.md)
 
 ### Exterior Lights
 ??? tip "What and Why"
@@ -125,7 +125,7 @@ This concludes *After Landing*
 
 ### Taxiing
 
-Make sure to also read the Taxi section of the [Engine Start and Taxi](04_engine-start-taxi#taxi) chapter.
+Make sure to also read the Taxi section of the [Engine Start and Taxi](04_engine-start-taxi.md#taxi) chapter.
 Use your charts to follow the ATC taxi instructions to the designated gate.
 
 !!! warning "Only use taxiways approved for the A380"
@@ -173,4 +173,4 @@ Use your charts to follow the ATC taxi instructions to the designated gate.
 
 This concludes *Taxi to Gate*
 
-Continue with [Powering Down](../09_powering-down)
+Continue with [Powering Down](09_powering-down.md)

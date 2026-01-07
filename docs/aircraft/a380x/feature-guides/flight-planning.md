@@ -106,7 +106,7 @@ See [Setting `Sync MSFS Flight Plan`](../../common/flypados3/settings.md#sim-opt
 We recommend using our built-in integration with [SimBrief](https://www.simbrief.com){target=_blank} for flight 
 planning. This allows you to directly import flight plans from SimBrief into the FMS.
 
-See our [SimBrief Integration Guide](./simbrief.md) for more information.
+See our [SimBrief Integration Guide](simbrief.md) for more information.
 
 The MSFS ATC and VFR Map will <span style="color:orange;">**not**</span> be aware of the flight plan at all and cannot 
 be used.
