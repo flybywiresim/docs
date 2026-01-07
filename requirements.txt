@@ -7,3 +7,4 @@ mkdocs-video
 mkdocs-glightbox
 pillow
 cairosvg
+pngquant
