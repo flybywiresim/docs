@@ -37,7 +37,9 @@ With your scenery loaded, load into any FlyByWire aircraft with the systems powe
 
 ### 2. Verifying navdata integrity using BGLExplorer
 
-The BGLExplorer is a tool provided in the MSFS SDK for exploring the contents of a BGL file. It can be located in your MSFS SDK folder -> Tools -> bin. Drag and drop your airport bgl file onto the BglExplorer.exe file to scan your bgl file with it. In the output of the BGLExplorer, you are looking for an commands that tells the sim to delete navdata such as waypoints, VORs, NDB, etc. Look for commands such as `FAC_TYPE_DELETE_NAV_AT_AIRPORT` which can be caused by either the airport delete commands or exclusion triangles documented above. You can find more information on the [BGL Explorer](https://docs.flightsimulator.com/msfs2024/html/8_SDK_Tools/BGL_Explorer.htm) in the MSFS SDK. 
+The BGLExplorer is a tool provided in the MSFS SDK for exploring the contents of a BGL file. It can be located in your MSFS SDK folder -> Tools -> bin. Drag and drop your airport bgl file onto the BglExplorer.exe file to scan your bgl file with it. In the output of the BGLExplorer, you are looking for an commands that tells the sim to delete navdata such as waypoints, VORs, NDB, etc. Look for commands such as `FAC_TYPE_DELETE_NAV_AT_AIRPORT` which can be caused by either the airport delete commands or exclusion triangles documented above. 
+
+You can find more information on the [BGL Explorer](https://docs.flightsimulator.com/msfs2024/html/8_SDK_Tools/BGL_Explorer.htm) in the MSFS SDK. 
 
 ## ILS Auto-Tuning
 
