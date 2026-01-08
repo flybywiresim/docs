@@ -19,7 +19,9 @@ Make sure the following options are not ticked as they will delete the navdata r
 
 ### 2. Exclusion Rectangles
 
-When using exclusion rectangles, do not check the option labelled "excludeAirports" as this will delete all navigation data such as SIDs, STARs, and any approaches associated with the airport. If you are compiling with the MSFS2020 SDK, do not check the "excludeAllObjects" option as the "excludeAirports" option is nested under it in the MSFS2020 SDK. It is best to only exclude the specific objects needed instead of the "all" option. More information can be found in the [MSFS2024 SDK](https://docs.flightsimulator.com/msfs2024/html/2_DevMode/Scenery_Editor/Objects/ExclusionRectangle_Objects.htm#:~:text=excludeAirports) and the [MSFS2020 SDK](https://docs.flightsimulator.com/html/Developer_Mode/Scenery_Editor/Objects/ExclusionRectangle_Objects.htm)
+When using exclusion rectangles, do not check the option labelled "excludeAirports" as this will delete all navigation data such as SIDs, STARs, and any approaches associated with the airport. If you are compiling with the MSFS2020 SDK, do not check the "excludeAllObjects" option as the "excludeAirports" option is nested under it in the MSFS2020 SDK. It is best to only exclude the specific objects needed instead of the "all" option. 
+
+More information can be found in the [MSFS2024 SDK](https://docs.flightsimulator.com/msfs2024/html/2_DevMode/Scenery_Editor/Objects/ExclusionRectangle_Objects.htm#:~:text=excludeAirports) and the [MSFS2020 SDK](https://docs.flightsimulator.com/html/Developer_Mode/Scenery_Editor/Objects/ExclusionRectangle_Objects.htm).
 
 ![Exclusion Rectangle Properties](../assets/other/exclusion-rectangle.png "Exclusion Rectangle Properties")
 
