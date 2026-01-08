@@ -46,6 +46,7 @@ plugins:
   external-markdown: {}
   optimize:
     enabled: !ENV [CI, false]
+    optimize_png: false
   awesome-pages: {}
   tags: {}
   git-revision-date-localized:
