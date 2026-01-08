@@ -7,7 +7,7 @@ description: Resources for scenery developers.
 
 ## Navigation Data
 
-In general, it's best to stay away from navigation data in scenery packages, as the default navdata from LIDO is kept up-to-date each cycle, and third-party solutions like Navigraph can provide good service when their data isn't overridden.
+In general, it's best to stay away from navigation data in scenery packages, as the default navdata is provided by the simulator. It is kept up-to-date each cycle, and third-party solutions like Navigraph can provide good service when their data isn't overridden.
 
 ## ILS Auto-Tuning
 
