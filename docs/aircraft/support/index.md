@@ -192,6 +192,80 @@ Quite often, when issues during flight are reported, a screenshot of the Cockpit
 
 Position yourself in the cockpit using arrow keys (default key mapping) to look straight at the front instrument panel as in the example above, and then use the Windows Snipping Tool ([Instructions Here](https://support.microsoft.com/en-us/windows/open-snipping-tool-and-take-a-screenshot-a35ac9ff-4a58-24c9-3253-f12bac9f9d44)) to take a screenshot of all screens and the FCU.
 
+### Work Folder
+
+Microsoft Flight Simulator allows mods like FlyByWire A32NX/A380X to store configuration and other data in a folder 
+called "**work**": This folder is located in different places for the **MS Store version** and the **Steam version** of
+Microsoft Flight Simulator. The folder's location is described in the next paragraphs.
+
+!!! info ""
+    If you can't find the folders, these folders might be hidden from you by Windows. Follow the directions on ["View hidden files and folders in Windows 10" on Microsoft's support site](https://support.microsoft.com/en-us/windows/view-hidden-files-and-folders-in-windows-10-97fbc472-c603-9d90-91d0-1166d1d9f4b5){target=new}.
+
+!!! tip "How to access these paths"
+    You can paste the paths directly into Windows Explorer's address bar or into the Run dialog (Win+R) to navigate to these folders.
+
+We store important things here that you may not want to delete:
+
+- Your EFB throttle configuration.
+- Your FDR files (for debugging purposes, which we may ask you to provide).
+- Your lighting presets.
+- Your last fuel tank levels.
+- Your flight model configuration (if you have changed it).
+
+![img.png](../assets/install/localstate-folder.png)
+
+#### Microsoft Flight Simulator 2020 - Microsoft Store Version
+
+The folder can be found here:
+
+A32NX:<br/>
+`%LOCALAPPDATA%\Packages\Microsoft.FlightSimulator_8wekyb3d8bbwe\LocalState\packages\flybywire-aircraft-a320-neo\`
+
+A380X:<br/>
+`%LOCALAPPDATA%\Packages\Microsoft.FlightSimulator_8wekyb3d8bbwe\LocalState\packages\flybywire-aircraft-a380-842\`
+
+!!! warning ""
+    This is not your community directory
+
+#### Microsoft Flight Simulator 2024 - Microsoft Store Version
+
+The folder can be found here:
+
+A32NX:<br/>
+`%LOCALAPPDATA%\Packages\Microsoft.Limitless_8wekyb3d8bbwe\LocalState\packages\flybywire-aircraft-a320-neo\`
+
+A380X:<br/>
+`%LOCALAPPDATA%\Packages\Microsoft.Limitless_8wekyb3d8bbwe\LocalState\packages\flybywire-aircraft-a380-842\`
+
+!!! warning ""
+    This is not your community directory
+
+#### Microsoft Flight Simulator 2020 - Steam Version
+
+The folder can be found here:
+
+A32NX:<br/>
+`%APPDATA%\Microsoft Flight Simulator\Packages\flybywire-aircraft-a320-neo\`
+
+A380X:<br/>
+`%APPDATA%\Microsoft Flight Simulator\Packages\flybywire-aircraft-a380-842\`
+
+!!! warning ""
+    This is not your community directory
+
+#### Microsoft Flight Simulator 2024 - Steam Version
+
+The folder can be found here:
+
+A32NX:<br/>
+`%APPDATA%\Microsoft Flight Simulator 2024\WASM\MSFS2020\flybywire-aircraft-a320-neo\`
+
+A380X:<br/>
+`%APPDATA%\Microsoft Flight Simulator 2024\WASM\MSFS2020\flybywire-aircraft-a380-842\`
+
+!!! warning ""
+    This is not your community directory
+
 ### FDR Files
 
 The FlyByWire A32NX/A380X have a built-in data collection system to help with development, debugging, and user support.
@@ -209,63 +283,4 @@ Example: 2021-11-15-12-57-13.fdr
 
 Compress/Zip the file(s) and upload them to a sharing site (e.g., 
 [Swisstransfer.com](https://www.swisstransfer.com/){target=new} ) as these files are likely to be very large.
-
-### Work Folder
-
-Microsoft Flight Simulator allows mods like FlyByWire A32NX/A380X to store configuration and other data in a folder 
-called "**work**": This folder is located in different places for the **MS Store version** and the **Steam version** of
-Microsoft Flight Simulator. The folder's location is described in the next paragraphs.
-
-!!! info ""
-    If you can't find the folders, these folders might be hidden from you by Windows. Follow the directions on ["View hidden files and folders in Windows 10" on Microsoft's support site](https://support.microsoft.com/en-us/windows/view-hidden-files-and-folders-in-windows-10-97fbc472-c603-9d90-91d0-1166d1d9f4b5){target=new}.
-
-We store important things here that you may not want to delete:
-
-- Your EFB throttle configuration.
-- Your FDR files (for debugging purposes, which we may ask you to provide).
-- Your lighting presets.
-- Your last fuel tank levels.
-- Your flight model configuration (if you have changed it).
-
-![img.png](../assets/install/localstate-folder.png)
-
-#### Microsoft Store Version
-
-The folder can be found here:
-
-A32NX:<br/>
-`%LOCALAPPDATA%\Packages\Microsoft.FlightSimulator_8wekyb3d8bbwe\LocalState\packages\flybywire-aircraft-a320-neo\`
-
-A380X:<br/>
-`%LOCALAPPDATA%\Packages\Microsoft.FlightSimulator_8wekyb3d8bbwe\LocalState\packages\flybywire-aircraft-a380-842\`
-
-To quickly locate the `%localappdata%`:
-
-- Press start
-- Type in run into the start menu and press ++enter++
-- Type into the box `%localappdata%`
-- Press ++"OK"++
-
-!!! warning ""
-    This is not your community directory
-
-#### Steam Version
-
-The folder can be found here:
-
-A32NX:<br/>
-`%APPDATA%\Microsoft Flight Simulator\Packages\flybywire-aircraft-a320-neo\`
-
-A380X:<br/>
-`%APPDATA%\Microsoft Flight Simulator\Packages\flybywire-aircraft-a380-842\`
-
-To quickly locate `%appdata%`:
-
-- Press start
-- Type in run into the start menu and press ++enter++
-- Type into the box `%appdata%`
-- Press ++"OK"++
-
-!!! warning ""
-    This is not your community directory
 
