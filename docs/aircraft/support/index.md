@@ -232,10 +232,10 @@ A380X:<br/>
 The folder can be found here:
 
 A32NX:<br/>
-`%LOCALAPPDATA%\Packages\Microsoft.Limitless_8wekyb3d8bbwe\LocalState\packages\flybywire-aircraft-a320-neo\`
+`%LOCALAPPDATA%\Packages\Microsoft.Limitless_8wekyb3d8bbwe\LocalState\WASM\MSFS2020\flybywire-aircraft-a320-neo\work\`
 
 A380X:<br/>
-`%LOCALAPPDATA%\Packages\Microsoft.Limitless_8wekyb3d8bbwe\LocalState\packages\flybywire-aircraft-a380-842\`
+`%LOCALAPPDATA%\Packages\Microsoft.Limitless_8wekyb3d8bbwe\LocalState\WASM\MSFS2020\flybywire-aircraft-a380-842\work\`
 
 !!! warning ""
     This is not your community directory
@@ -258,10 +258,10 @@ A380X:<br/>
 The folder can be found here:
 
 A32NX:<br/>
-`%APPDATA%\Microsoft Flight Simulator 2024\WASM\MSFS2020\flybywire-aircraft-a320-neo\`
+`%APPDATA%\Microsoft Flight Simulator 2024\WASM\MSFS2020\flybywire-aircraft-a320-neo\work\`
 
 A380X:<br/>
-`%APPDATA%\Microsoft Flight Simulator 2024\WASM\MSFS2020\flybywire-aircraft-a380-842\`
+`%APPDATA%\Microsoft Flight Simulator 2024\WASM\MSFS2020\flybywire-aircraft-a380-842\work\`
 
 !!! warning ""
     This is not your community directory
