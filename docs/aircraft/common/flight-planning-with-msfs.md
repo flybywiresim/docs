@@ -81,7 +81,7 @@ See [Setting `Sync MSFS Flight Plan`](./flypados3/settings.md#sim-options) for m
 
 We recommend using our built-in integration with [SimBrief](https://www.simbrief.com){target=_blank} for flight planning. This allows you to directly import flight plans from SimBrief into the FMS.
 
-See our SimBrief Integration Guide for the [A32NX](../a32nx/features-guides/simbrief.md) or [A380X](../a380x/feature-guides/simbrief.md) for more information.
+See our SimBrief Integration Guide for the [A32NX](../a32nx/feature-guides/simbrief.md) or [A380X](../a380x/feature-guides/simbrief.md) for more information.
 
 As long as MSFS ATC and VFR Map are not required, the aircraft's flight plan does not have to be synchronized back to
 the MSFS flight planner (set `flyPad's Setting > Sim Options > Sync MSFS Flight Plan` to `None`).
