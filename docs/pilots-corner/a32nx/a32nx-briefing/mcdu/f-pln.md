@@ -514,8 +514,10 @@ Winds in climb, cruise, descent, and approach are necessary to provide the fligh
 
 ## RTA Page
 
+![rta-page](../../../../aircraft/a32nx/assets/feature-guides/ett/rta-page.png){loading=lazy}
+
 !!! info "RTA Page"
-    Currently only ETT available in the FBW A32NX for Microsoft Flight Simulator on the development version.
+    Currently only avaiable on the development version in the FBW A32NX for Microsoft Flight Simulator with ETT.
 
 The Required Time of Arrival (RTA) is a time constraint that must be respected at the revised waypoint.
 
@@ -523,7 +525,7 @@ On the RTA page, the flight crew can insert, modify or delete an RTA at a waypoi
 
 The RTA page allows the entry and display of a waypoint identifier, with associated time constraints and its accuracy. The page also allows the entry or display of the following data:
 
-- Estimated Takeoff Time (ETT)
+- Estimated Takeoff Time (ETT). See the [Estimated Takeoff Time Feature Guide](../../../../aircraft/a32nx/feature-guides/estimated-takeoff-time.md) for more information.
 - Predicted ETA at the time-constrained waypoint
 - Performance adjusted SPD target
 - RTA error (in case of RTA missed)
