@@ -515,7 +515,7 @@ Winds in climb, cruise, descent, and approach are necessary to provide the fligh
 ## RTA Page
 
 !!! info "RTA Page"
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+    Currently only ETT available in the FBW A32NX for Microsoft Flight Simulator on the development version.
 
 The Required Time of Arrival (RTA) is a time constraint that must be respected at the revised waypoint.
 

@@ -21,3 +21,6 @@
 *[OANS]: Onboard Airport Navigation System
 *[ND]: Navigation Display
 *[PFD]: Primary Flight Display
+*[ETT]: Estimated Takeoff Time
+*[RTA]: Required Time Of Arrival
+*[LSK]: Line Select Key
