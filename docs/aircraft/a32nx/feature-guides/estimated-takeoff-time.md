@@ -13,7 +13,7 @@ A common use case for the ETT in real life is ATC delays. By knowing beforehand 
 
 # Usage Guide
 
-In this scenario, we assume that ATC has given us a delay and we expect to take off at 12:30Z.
+In this scenario, we assume that Air Traffic Control has given us a delay and we want to know what the new estimated time of arrival is. Our estimated takeoff time given by air traffic control is 12:30Z.
 On the F-PLN page, we can check that all time predictions are related to the expected flight time and not to our expected departure time.
 
 
@@ -40,6 +40,6 @@ If we now go back to the F-PLN page, we can notice that our ETT is shown in mage
 ![fpln-with-ett](../assets/feature-guides/ett/fpln-with-ett.png){loading=lazy}
 
 
-If we depart prior to the ETT, it will be automatically deleted and the predictions will be updated automatically based on the current time, as usual. On the other hand, if we don't depart by 12:30Z, the "CLK IS TAKE OFF TIME" scratchpad message appears on the MCDU as a reminder. At this point, time predictions are continously updated based on the current time. Although the ETT has expired, we can insert a new one if we wish by repeating the whole process.
+If we depart prior to the ETT, it will be automatically deleted and the predictions will be updated automatically based on the current time, as usual. On the other hand, if we don't depart by 12:30Z, the "CLK IS TAKE OFF TIME" scratchpad message appears on the MCDU as a reminder. At this point, time predictions are continuously updated based on the current time. Although the ETT has expired, we can insert a new one if we wish by repeating the whole process.
 
 ![clk-is-time](../assets/feature-guides/ett/clk-is-time.png){loading=lazy}
