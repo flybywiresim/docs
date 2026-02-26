@@ -92,9 +92,10 @@ jobs:
             });
       - name: Automatically pr
         if: ${{ success() }}
-        run: gh pr merge --squash --auto --subject "${{ github.event.pull_request.title }}" "${{ github.event.pull_request.number }}"
+        run: gh pr merge --squash --auto --subject "$PR_TITLE" "${{ github.event.pull_request.number }}"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_TITLE: ${{ github.event.pull_request.title }}
 
   failed-validation: # This job will run if the validate job fails and reset the labels
     needs: validate
