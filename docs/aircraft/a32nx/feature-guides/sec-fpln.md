@@ -4,13 +4,15 @@ description: Overview and usage of the A32NX secondary flight plan feature.
 ---
 # Secondary Flight Plan
 
+!!! info "Available On Development Version"
+
 The A32NX now supports creating a secondary flight plan. This is a flight plan that exists in parallel with the primary flight plan.
 It can be used to plan diversions, runway changes, or emergency scenarios in advance and can be activated when needed. In this section of the guide, we will go over an example use case for this feature.
 
 !!! warning "Not Yet Implemented"
     Note that predictions are not yet computed for the secondary flight plan in the A32NX. This will be added in a future update.
 
-## Engine-out departure procedure
+## Engine-out Departure Procedure
 ### Preparation
 
 In real life, one of the most common use cases for the secondary flight plan is programming an alternative departure procedure in case of an engine failure at takeoff. For this guide, we assume that the FMS has been set up for a flight from Zurich (LSZH) to Munich (EDDM). In the primary flight plan, we have planned a departure from runway 28 following the DEGES 3W SID.
@@ -40,11 +42,11 @@ To be fully prepared for our return, we also want to set up the PERF page for th
 
 We are now well prepared for a quick return to Zurich should it be required.
 
-### Activating the secondary flight plan
+### Activating the Secondary Flight Plan
 
 We now wish to activate the secondary flight plan to guide us safely clear of terrain and into the holding pattern at GIPOL while we troubleshoot the issue. Thanks to our preparation, all we have to do is go to the SEC F-PLN page and select ACTIVATE SEC.
 
-!!! warning "Activation of the secondary flight plan"
+!!! warning "Activation of the Secondary Flight Plan"
     The ACTIVATE SEC and SWAP ACTIVE options do not appear unless the active plan and the secondary plan have the same active leg, or the aircraft is in HDG mode. If you do not see the ACTIVATE SEC option, switch to HDG mode. After activating the plan, you can re-engage NAV by performing a direct-to to a suitable waypoint.
 
 After activating the secondary plan, all prepared entries—including route and performance data—are transferred into the active flight plan. The data that was previously in the active plan is overwritten. In some cases, you may wish to retain the original active plan; in such cases, you can swap between the active and secondary plans using the SWAP ACTIVE option.
