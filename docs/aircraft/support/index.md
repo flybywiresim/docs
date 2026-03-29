@@ -63,7 +63,7 @@ NOT a FlyByWire A32NX or A380X issue.
 - To make sure the issue you are experiencing is not caused by a conflict with other add-ons or liveries ***remove
   everything (really everything!) from your [Community Folder](#community-folder-content)** and perform a 
   [clean reinstall](../install/installation.md#clean-install-steps) of the aircraft with the 
-  [FlyByWire Installer](https://api.flybywiresim.com/installer){target=new}.
+  [FlyByWire Installer](https://flybywirecdn.com/installer/release/FlyByWire-Installer-x64.exe){target=new}.
 - Also **ensure no other 3rd party software** such as FSUIPC, SPAD.neXt, YourControls, FS2Crew, etc. **is running** 
   while you are troubleshooting.
 - If the issue is not already known and is reproducible, please** take screenshots or a video clearly showing your 

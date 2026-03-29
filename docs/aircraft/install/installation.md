@@ -15,7 +15,7 @@ Please follow the information on this page to install FlyByWire Simulations prod
 
 Download the new FlyByWire installer where you can select either the Stable, or Development build. Our installer downloads and installs the add-on directly into your community folder.
 
-[Download Installer](https://api.flybywiresim.com/installer){ .md-button target=new}
+[Download Installer](https://flybywirecdn.com/installer/release/FlyByWire-Installer-x64.exe){ .md-button target=new}
 
 You can find more information about the installer in our [Installer documentation](../../tools/installer/index.md).
 

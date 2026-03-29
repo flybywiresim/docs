@@ -546,7 +546,7 @@ Please try these before reporting any other issue on Discord.
 
     ![version sample](../../a32nx/assets/version-sample.jpg){loading=lazy}
 
-    If you see old versions (e.g., v0.6.1) or if you have multiple installations of the A32NX, please uninstall them in the Content Manager and restart the sim. Reinstall development version from our [installer](https://api.flybywiresim.com/installer){target=new}.
+    If you see old versions (e.g., v0.6.1) or if you have multiple installations of the A32NX, please uninstall them in the Content Manager and restart the sim. Reinstall development version from our [installer](https://flybywirecdn.com/installer/release/FlyByWire-Installer-x64.exe){target=new}.
 
     ^^Additional Information^^
 
