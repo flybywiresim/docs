@@ -35,7 +35,7 @@ You can send us logs to our [Discord](https://discord.gg/flybywire){target=new} 
 
   * Click ++"Save as"++ and send the log to us.
 
-[Download Installer](https://api.flybywiresim.com/installer){ .md-button target=new}
+[Download Installer](https://flybywirecdn.com/installer/release/FlyByWire-Installer-x64.exe){ .md-button target=new}
 
 ### Manual Installation
 

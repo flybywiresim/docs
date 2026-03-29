@@ -30,7 +30,7 @@ Please try these before reporting any other issue on Discord.
     To make sure the issue you are experiencing is not caused by a conflict with other add-ons or liveries 
     **remove everything (really everything!) from your [Community Folder](#community-folder-content)** and perform a 
     [clean reinstall](../../install/installation.md#clean-install-steps) of the A32NX or the A380X with the 
-    [FlyByWire Installer](https://api.flybywiresim.com/installer){target=new}.
+    [FlyByWire Installer](https://flybywirecdn.com/installer/release/FlyByWire-Installer-x64.exe){target=new}.
 
     An easy way to do this without deleting your add-ons and liveries is to rename the current Community folder to 
     "Community.old" and then create a new Community folder, which is empty. You can then use the FlyByWire Installer 
