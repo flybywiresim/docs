@@ -514,7 +514,7 @@ Winds in climb, cruise, descent, and approach are necessary to provide the fligh
 
 ## RTA Page
 
-![rta-page](../../../../aircraft/a32nx/assets/feature-guides/ett/rta-page.png){loading=lazy}
+![rta-page](../../../../aircraft/a32nx/assets/feature-guides/ett/rta-page.jpg){loading=lazy}
 
 !!! info "RTA Page"
     Currently only available on the development version of the FBW A32NX.
