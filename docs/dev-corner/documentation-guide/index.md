@@ -61,7 +61,7 @@ To participate in the FlyByWire Documentation Project, you need to have the foll
     ```
 
     Once created, you need to activate it. Use the following command on Windows:
-    ```title="Activating virtualenv in Powershell including Consol in Visual Studio Code"
+    ```title="Activating virtualenv in Powershell including Console in Visual Studio Code"
     .\venv\Scripts\Activate.ps1
     ```
     ```title="Activating virtualenv in CMD"
