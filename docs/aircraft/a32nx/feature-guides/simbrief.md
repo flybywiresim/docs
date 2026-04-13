@@ -69,10 +69,10 @@ If successful, you should see your account name followed by your Navigraph accou
 ![flypad-ng-3rdpartyoptions.png](../../common/assets/flypados3/navigraph/flypad-ng-3rdpartyoptions.png){loading=lazy}
 
 !!! note "Overriding SimBrief User ID"
-    There may be situations where you would like to import data from SimBrief not specifically linked to your account, i.e., copying a streamer's or friend's flight plan to your 
+    There may be situations where you would like to import data from SimBrief not specifically linked to your account, i.e., copying a streamer's or friend's flight plan to your
     aircraft or using an add-on for shared cockpit scenarios.
 
-    In this case you can override the SimBrief User ID by entering it in the SimBrief User ID field. This will override the linked Navigraph account temporarily until it 
+    In this case you can override the SimBrief User ID by entering it in the SimBrief User ID field. This will override the linked Navigraph account temporarily until it
     is removed. You will be notified when the override is successful with a pop up message. Example below:
 
     ![flypad-ng-override.png](../../common/assets/flypados3/navigraph/flypad-ng-override.png){loading=lazy}
@@ -105,7 +105,7 @@ Otherwise, read the [SimBrief User Guide](https://www.simbrief.com/system/guide.
 !!! warning "Please Enable Detailed Navlog SimBrief Setting"
     ![OFP Settings](../assets/feature-guides/simbrief/OFP-settings.png){loading=lazy}
 
-    It is important when generating your SimBrief OFP to ensure that the Detailed Navlog setting is enabled. 
+    It is important when generating your SimBrief OFP to ensure that the Detailed Navlog setting is enabled.
 
     This setting is available when generating a new dispatch. Additionally, we recommend that you save any of your preferred settings here, including Detailed Navlog as the default by clicking on `Save Default`. This ensures that this setting is never disabled when generating a new OFP.
 
@@ -140,20 +140,11 @@ This will load your flight plan from SimBrief directly into the MCDU
     #### RWY, SID, STAR, and APPR
     The SimBrief import will **not** load RWY, SID, STAR, or APPR. You will need to manually add these into the flight plan. To learn how to set up the MCDU, you can read the [**^^F^^**LIGHT PLAN](../../../pilots-corner/a32nx/a32nx-beginner-guide/preparing-mcdu.md#--f---light-plan) section in our beginner's guide.
 
-    This is because RWY, SID, STAR and APPR are dependent on factors like active runways, traffic, weather, etc. and are determined by ATC and not the pilot's flight plan. They can be changed by ATC any time before takeoff or during flight and are therefore not imported in real life aircraft either.  
+    This is because RWY, SID, STAR and APPR are dependent on factors like active runways, traffic, weather, etc. and are determined by ATC and not the pilot's flight plan. They can be changed by ATC any time before takeoff or during flight and are therefore not imported in real life aircraft either.
 
 [//]: # (Updates to the wind request section should be mentioned in the preparing-mcdu.md page as well.)
 
 ### Wind Request
-
-!!! warning "Important Notes"
-    The current implementation of wind requests in the A32NX is in its early stages, with a full accurate implementation to follow at a later date. This method provides an easy solution to quickly import winds from a valid SimBrief OFP.
-
-    In addition, please note the following:
-
-    - Per-waypoint entry and request of cruise winds is still being implemented.
-    - Wind Request functionality is not 100 % accurate to the real aircraft.
-        - In real life, selecting the wind requests option on the climb page would populate the wind data for all stages of flight.
 
 ![Wind Request](../assets/feature-guides/simbrief/mcdu-wind1.png){loading=lazy}
 
@@ -161,22 +152,20 @@ On the `INIT A` page, select `WIND/TEMP` by pressing LSK4R. This brings you to t
 
 ![Wind Request](../assets/feature-guides/simbrief/mcdu-wind2.png){loading=lazy}
 
-To request the wind data from the SimBrief flight plan, select `WIND REQUEST` by pressing LSK3R. This will calculate the wind profiles during the climb phase based on the SimBrief-provided wind data.
+To request the wind data from the SimBrief flight plan, select `WIND REQUEST` by pressing LSK3R. This will calculate the wind profiles during the climb, cruise and descent phase based on the SimBrief-provided wind data.
 
 ![Wind Request](../assets/feature-guides/simbrief/mcdu-wind3.png){loading=lazy}
 
-Press LSK5R to go to the `NEXT PHASE`, `CRZ WIND`. The same procedure of pressing LSK3R for `WIND REQUEST` applies here.
-
-Finally, press LSK5R to go to the `NEXT PHASE`, `DESCENT WIND`. Pressing LSK3R for `WIND REQUEST` will calculate the wind profiles during the descent phase based on the SimBrief-provided wind data.
+Press LSK5R to go to the `NEXT PHASE`, `CRZ WIND`. If you have already requested the winds on the climb page, you should be able to see the uplinked winds at your cruise waypoints here. It is not necessary to uplink the winds again.
 
 !!! tip "Manual Entry"
     If you are obtaining your wind data from another source, please note that the format is as follows:
 
     ``` title="Winds Format Example"
-    Magnetic Heading / Wind Speed / Altitude 
+    Magnetic Heading / Wind Speed / Altitude
     ```
 
-    Examples are provided above, and please note that altitude is written in relation to flight level (FL). 
+    Examples are provided above, and please note that altitude is written in relation to flight level (FL).
 
 ### Fuel and Weight
 

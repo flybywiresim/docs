@@ -91,11 +91,11 @@ These keys are referenced below.
 
     === "Horizontal Slew Keys"
 
-        These keys scroll between certain pages, i.e., `INIT A` and `INIT FUEL PRED` when the INIT page is selected. 
+        These keys scroll between certain pages, i.e., `INIT A` and `INIT FUEL PRED` when the INIT page is selected.
 
     === "Vertical Slew Keys"
 
-        These keys scroll vertically on certain pages, i.e., `F-PLN` page. 
+        These keys scroll vertically on certain pages, i.e., `F-PLN` page.
 
 ---
 
@@ -170,13 +170,6 @@ The cost index can be found in the image above.
 
     [Wind Request Guide](../../../aircraft/a32nx/feature-guides/simbrief.md#wind-request){.md-button}
 
-    !!! warning ""
-        Please also note the following:
-
-        - Per-waypoint entry and request of cruise winds is still being implemented.
-        - Wind Request functionality is not 100% accurate to the real aircraft.
-            - In real life, selecting the wind requests option on the climb page would populate the wind data for all stages of flight.
-
 ^^CRZ FL/TEMP^^
 
 ![ofp2](../assets/beginner-guide/mcdu/ofp2.jpg){loading=lazy}
@@ -224,7 +217,7 @@ The MCDU should now show at the top of the screen in yellow what is selected for
 
 * Press `INSERT*` using LSK6R to program this into the flight plan.
 
-Our flight plan should now have the associated waypoints for the `GIVMI6Q` SID. We can scroll through the flight plan using the vertical slew keys. The SID terminates at `GIVMI` 
+Our flight plan should now have the associated waypoints for the `GIVMI6Q` SID. We can scroll through the flight plan using the vertical slew keys. The SID terminates at `GIVMI`
 and this is where we can begin to fill out the rest of the flight plan.
 
 !!! info "GIVMI6Q ILS Frequency"
@@ -269,7 +262,7 @@ and this is where we can begin to fill out the rest of the flight plan.
 
     One of the easiest ways is utilizing the lateral revision page. To do this, simply find the starting waypoint on your F-PLN page, which in this case is `GIVMI`.
 
-    - Use the relevant LSK to select it. 
+    - Use the relevant LSK to select it.
     - You will then be on the following page:
 
         ![lat-rev-fpln.png](../assets/beginner-guide/mcdu/mcdu-latrev.png){loading=lazy width=50%}
@@ -310,17 +303,17 @@ Verify the flight plan by using the vertical slew keys to scroll through it.
     The flight plan might contain so-called discontinuities. These are breaks in the flight plan and often separate two flight plan sections, like the SID and first in-route waypoint or the STAR and the APPR. They are also often inserted when the flight plan is modified.
 
     Sometimes discontinuities are also part of a procedure to indicate that manual input is required
-    (mostly clearance by ATC). The preceding legs are called MANUAL legs. 
-    
-    **Discontinuities after a MANUAL leg can not and should not be deleted. See the Discontinuities link below.** 
-    
+    (mostly clearance by ATC). The preceding legs are called MANUAL legs.
+
+    **Discontinuities after a MANUAL leg can not and should not be deleted. See the Discontinuities link below.**
+
     In this flight plan we have a discontinuity between the STAR and approach procedure as shown below.
 
     ![mcdu-discontinuity.png](../assets/beginner-guide/mcdu/mcdu-discontinuity.png){loading=lazy}
 
-    See our detailed documentation for [Discontinuities](../a32nx-advanced-guides/flight-planning/disco.md){target=new} to understand how to appropriately handle these when 
-encountered on your F-PLN page. 
-    
+    See our detailed documentation for [Discontinuities](../a32nx-advanced-guides/flight-planning/disco.md){target=new} to understand how to appropriately handle these when
+encountered on your F-PLN page.
+
     !!! warning ""
         Additionally, make note of this [Special Case](../a32nx-advanced-guides/flight-planning/disco.md#special-case) on the discontinuity page.
 
@@ -358,16 +351,16 @@ On this departure SID, we have routing instructions that rely on the Munich VOR 
 
 When selecting the SID earlier in the flight plan section, the A32NX should have autopopulated the ILS/LOC frequency. If it hasn't, we can manually insert it for centerline guidance on take off.
 
-Our departure runway is EDDM/08L (runway 08 left), which has a frequency of `109.50`. When inputting a frequency, and we are in range of the ILS, it will autopopulate the identifier and course. You could also enter the identifier `IMNE` and it would automatically fill in the frequency. You cannot enter both at the same time, as this would result in a `FORMAT ERROR`. 
+Our departure runway is EDDM/08L (runway 08 left), which has a frequency of `109.50`. When inputting a frequency, and we are in range of the ILS, it will autopopulate the identifier and course. You could also enter the identifier `IMNE` and it would automatically fill in the frequency. You cannot enter both at the same time, as this would result in a `FORMAT ERROR`.
 
 * Using the keypad, type in `109.50` and press LSK3L to input it.
 
 ^^Arrival ILS^^
 
-With an ILS or LOC approach selected, the arrival ILS frequency should be automatically tuned correctly whenever the aircraft is in climb phase or greater and within 250 NM of the 
+With an ILS or LOC approach selected, the arrival ILS frequency should be automatically tuned correctly whenever the aircraft is in climb phase or greater and within 250 NM of the
 destination. **Ensure** that we verify the ILS frequency when we reach the arrival phase of the flight - see [Approach and Landing (ILS)](landing.md).
 
-Remember, our arrival airport/rwy is `EDDF/07L` with ILS07L having a frequency of `110.30`. When inputting a frequency, and we are in range of the ILS, it will autopopulate the identifier and course. There is no need to fill these fields. You could also enter the identifier `IFEL` and it would automatically fill in the frequency. You cannot enter both at the same time, as this would result in a `FORMAT ERROR`. 
+Remember, our arrival airport/rwy is `EDDF/07L` with ILS07L having a frequency of `110.30`. When inputting a frequency, and we are in range of the ILS, it will autopopulate the identifier and course. There is no need to fill these fields. You could also enter the identifier `IFEL` and it would automatically fill in the frequency. You cannot enter both at the same time, as this would result in a `FORMAT ERROR`.
 
 * Using the keypad, type in `110.30` and press LSK3L to input it.
 
@@ -384,7 +377,7 @@ To navigate to the `INIT FUEL PRED` page, we first have to select the `INIT` but
 On this page, we can input our zero fuel weight (ZFW) and zero fuel weight center of gravity (ZFWCG).
 
 !!! warning "Important Info - FMS Gross Weight (FMS GW)"
-    Fuel and payload have to be set in the aircraft (see link below) and passenger boarding has to be **complete or in progress** for the ZFW/ZFWCG values to be correct. The 
+    Fuel and payload have to be set in the aircraft (see link below) and passenger boarding has to be **complete or in progress** for the ZFW/ZFWCG values to be correct. The
     "planned" payload values are used for the calculation if boarding has not been completed.
 
     Gross Weight (GW) value on the ECAM will appear only when certain conditions are satisfied:
@@ -411,7 +404,7 @@ Now we can add our fuel on board (FOB). The amount we input in this field can be
 
 ^^ECAM FOB^^
 
-Look at the upper ECAM and note the FOB indicated. Let's say that amount is `4631 kg`. When inputting the block fuel into the MCDU, it is referenced in "tonnes", which is 
+Look at the upper ECAM and note the FOB indicated. Let's say that amount is `4631 kg`. When inputting the block fuel into the MCDU, it is referenced in "tonnes", which is
 1000kg, and we should round to the closest decimal point.
 
 * Using the keypad, type in `4.7` and press LSK2R.
@@ -420,7 +413,7 @@ Look at the upper ECAM and note the FOB indicated. Let's say that amount is `463
 
 !!! warning "A Note on Fuel Planning"
 
-    The *fuel planning* feature on the MCDU should only be used as a reference point before fueling the aircraft using the EFB. 
+    The *fuel planning* feature on the MCDU should only be used as a reference point before fueling the aircraft using the EFB.
 
     Generating / using the value provided by this feature may not be accurate and does not actually load fuel into the aircraft.
 
@@ -481,13 +474,13 @@ For this flight, we will be taking off with a `1+F` flaps configuration.
 
     Insert a THS value based on the GW CG values found in the EFB Ground Services > Payload page or the Fuel Prediction page in the MCDU. While this will be slightly off versus TOCG because of taxi fuel consumption, this will be close enough to accurate values until a better TOCG display is implemented.
 
-    GW CG Values can be found: 
+    GW CG Values can be found:
 
     - On the [Payload Tab on the Grounds Services Page](../../../aircraft/a32nx/feature-guides/loading-fuel-weight.md#finding-the-payload-screen) in the flyPad EFB.
     - On the [Fuel Prediction](../a32nx-briefing/mcdu/fuel-pred.md) page in the MCDU.
 
     CG to THS calculation:
-    
+
     - CG to THS can be found in the downloable FBW checklist in our [Standard Operating Procedures](../a32nx-sop.md#normal-procedures) resources page.
     - The CG/THS markings on the trim wheel can be used to validate this.
 
@@ -496,12 +489,12 @@ For this flight, we will be taking off with a `1+F` flaps configuration.
     ---
 
     ^^After Engine Start^^
-    
+
     Once the engines have been started, we can use the auto-calculated CG value (not the ZFWCG value) on the FUEL PRED page for determining the pitch trim setting. You can now update the THS setting (if you chose to input a THS value) in the take-off performance page and set the pitch trim using the trim wheel. Although the TOCG may be slightly different due to fuel being used for taxi, it will not change enough to require a change in pitch trim.
 
     --}
 
-We can also choose to set a `FLEX TO TEMP` for the flight. The example we are using today is 60 degrees. 
+We can also choose to set a `FLEX TO TEMP` for the flight. The example we are using today is 60 degrees.
 This will normally be calculated via a pilot's company EFB or other tools, but for the sake of this guide, we will use the value of 60.
 
 Read the following tip for more information on FLEX temp.
@@ -510,7 +503,7 @@ Read the following tip for more information on FLEX temp.
 
 #### Flex Temp
 
-Pilots can use the flyPad Performance Page to calculate Flex Temp for takeoff. The flyPad will also 
+Pilots can use the flyPad Performance Page to calculate Flex Temp for takeoff. The flyPad will also
 calculate if TOGA is the preferred thrust setting for takeoff and notify the pilot through the EFB.
 
 [flyPad Performance Page](../../../aircraft/common/flypados3/performance.md){target=new .md-button}
@@ -525,7 +518,7 @@ calculate if TOGA is the preferred thrust setting for takeoff and notify the pil
     Additionally, a decent rule of thumb for simulation purposes is to use a lower number if heavy or on a short runway and higher for the opposite.
 
     ==}
-    
+
     !!! warning "Flex Temp Calculations Not Available in Stable"
         We have implemented our own takeoff performance calculator in the Development version.
 
@@ -558,7 +551,7 @@ Pilots can use the flyPad Performance Page to calculate V-Speeds for takeoff.
 
 ## Entering Squawk Code
 
-During your MCDU preparation or before departing from the stand, you should have obtained your IFR clearance. As part of this action, you will be given a transponder/squawk code 
+During your MCDU preparation or before departing from the stand, you should have obtained your IFR clearance. As part of this action, you will be given a transponder/squawk code
 for your flight. This allows ATC to identify your aircraft on their radar.
 
 To enter your assigned code find the ATC/TCAS Panel on the bottom right portion of the lower pedestal. It will look like this:
