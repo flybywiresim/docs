@@ -61,7 +61,10 @@ To participate in the FlyByWire Documentation Project, you need to have the foll
     ```
 
     Once created, you need to activate it. Use the following command on Windows:
-    ```title="Activating virtualenv on Windows"
+    ```title="Activating virtualenv in Powershell including Console in Visual Studio Code"
+    .\venv\Scripts\Activate.ps1
+    ```
+    ```title="Activating virtualenv in CMD"
     .\venv\Scripts\activate.bat
     ```
     Or the following command on Linux and macOS:
@@ -116,12 +119,12 @@ feature.
 - Fork the [:fontawesome-brands-github:{: .github } -  **Documentation Project GitHub**](https://github.com/flybywiresim/docs){target=new} ([How to fork a repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo){target=new}).
 - Create a local clone ([How to clone your forked repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo#cloning-your-forked-repository){target=new}).
 - Checkout the "primary" branch - this is the main branch of the current FlyByWire Documentation Project.
-- In a command line terminal, go to the cloned repository folder and start `mkdocs.exe serve` to start the local preview server.
+- In a command line terminal, go to the cloned repository folder and start `mkdocs serve` to start the local preview server.
 
     This should look like this:
 
     ```
-    > mkdocs.exe serve
+    > mkdocs serve
     INFO     -  Building documentation...
     INFO     -  Cleaning site directory
     INFO     -  Documentation built in 4.03 seconds
@@ -157,7 +160,7 @@ feature.
     You can opt to use a faster instance of the developer server by invoking the flag `--dirty`. This just checks for any markdown that has changed since the HTML was rendered and will reconstruct any relevant pages only, rather than rebuilding the entire website.
 
     ```
-    mkdocs.exe serve --dirty
+    mkdocs serve --dirty
     ```
 
     !!! danger ""
@@ -214,8 +217,8 @@ You can still follow the instructions to [preview your local clone](#preview-you
 
 If you would like to fully test a complete build of the production website, you need to run the following:
 
-- `mkdocs.exe serve --config-file production.yml` 
-- `mkdocs.exe build --clean --no-directory-urls --config-file production.yml`
+- `mkdocs serve --config-file production.yml` 
+- `mkdocs build --clean --no-directory-urls --config-file production.yml`
 
 !!! info "Additional Plugins in `production.yml`"
     The following plugins are included:
