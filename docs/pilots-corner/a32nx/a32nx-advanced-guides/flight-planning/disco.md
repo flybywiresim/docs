@@ -59,7 +59,7 @@ If no ATC is available (or when using MSFS ATC) the user must use heading mode (
 </style>
 
 !!! info "Discontinuities after MANUAL legs cannot be cleared from the flight plan."
-    ![Manual Leg Discontinuity](../../assets/advanced-guides/disco/mcdu-discontinuity-2.png "Manual Leg Discontinuity"){width=45% loading=lazy}
+    ![Manual Leg Discontinuity](../../assets/advanced-guides/disco/mcdu-discontinuity-2.png "Manual Leg Discontinuity"){width=47% loading=lazy}
 
 !!! info "DIR TO to next waypoint or Selected HDG"
     !!! block ""

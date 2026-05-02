@@ -30,7 +30,7 @@ This function is the simplest to use.
 !!! block ""
     This is an example of the DIR TO page on the MCDU with en route waypoints displayed.
 
-    ![Direct Example](../../assets/advanced-guides/direct/direct1.png){loading=lazy width=40%}
+    ![Direct Example](../../assets/advanced-guides/direct/direct1.png){loading=lazy width=50%}
 
     Before selecting a waypoint, you can visually see your en route waypoints on the ND matching those displayed on the DIR TO page in the side by side example below:
 
