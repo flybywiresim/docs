@@ -25,10 +25,10 @@ Typically, you will notice a discontinuity in the following instances:
 - Between the STAR and the selected approach.
 
 !!! tip ""
-    Approaches that are radar vectored without a MANUAL will also have a discontinuity by design. Please be aware of these approaches and follow the principles outlined 
+    Approaches that are radar vectored without a MANUAL will also have a discontinuity by design. Please be aware of these approaches and follow the principles outlined
     further below.
 
-Ideally, the NAV mode automatically reverts to the HDG (TRK) mode and pilots should follow ATC guidance (if on network) or use the DIR TO function to proceed to the next 
+Ideally, the NAV mode automatically reverts to the HDG (TRK) mode and pilots should follow ATC guidance (if on network) or use the DIR TO function to proceed to the next
 waypoint on your flight plan.
 
 [Learn How to Use Direct Feature](direct.md){.md-button}
@@ -59,7 +59,7 @@ If no ATC is available (or when using MSFS ATC) the user must use heading mode (
 </style>
 
 !!! info "Discontinuities after MANUAL legs cannot be cleared from the flight plan."
-    ![Manual Leg Discontinuity](../../assets/advanced-guides/disco/mcdu-discontinuity-2.png "Manual Leg Discontinuity"){width=45% loading=lazy}
+    ![Manual Leg Discontinuity](../../assets/advanced-guides/disco/mcdu-discontinuity-2.png "Manual Leg Discontinuity"){width=47% loading=lazy}
 
 !!! info "DIR TO to next waypoint or Selected HDG"
     !!! block ""
@@ -84,15 +84,13 @@ If the aircraft is flying into a MANUAL leg, NAV mode remains engaged and predic
     !!! block ""
         ![Manual leg discontinuity on ND plan mode](../../assets/advanced-guides/disco/mcdu-discontinuity-manual-nd-plan.png "Manual leg discontinuity on ND plan mode"){width=48% loading=lazy}
         ![Manual leg discontinuity on ND](../../assets/advanced-guides/disco/mcdu-discontinuity-manual-nd.png "Manual leg discontinuity on ND"){width=48% loading=lazy}
-    !!! warning "MANUAL label to be removed!"
-        The MANUAL label on the ND will be removed in a future version, as it is not displayed in the real aircraft.
 
 ## Special Cases
 
 !!! warning "SID and En-route F-PLN Discontinuity"
     **In most cases**, a discontinuity between the SID and your route is something that doesn't happen in real life.
-    
-    In these rare exceptions, it would be okay to CLR the discontinuity - 
+
+    In these rare exceptions, it would be okay to CLR the discontinuity -
     <span style="color:red">**provided you fully understand your routing and can identify that it would not cause any en-route issues**.</span>
 
     !!! danger ""

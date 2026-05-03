@@ -2,12 +2,6 @@
 
 This is a short guide on utilizing the "direct" feature on the MCDU found on the "DIR TO" page. Pilots can navigate to this page by selecting the `DIR` key.
 
-{==
-
-It is important to note that currently we are simulating the Thales version of the DIR TO page on our MCDU. We intend to change this at a later time to the Honeywell version to be in line with the rest of our implementation.
-
-==}
-
 ![dir-page](../../assets/advanced-guides/direct/dir-page.png){loading=lazy width=50%}
 
 While en-route, pilots may encounter discontinuities ([read more here](disco.md)) or be instructed by ATC to proceed directly to a specific waypoint. The direct function allows pilots to quickly program lateral revisions to a specific waypoint, which would command the LNAV to proceed to that point upon selecting `INSERT`.
@@ -28,7 +22,7 @@ There are three functions available on the DIR TO page.
 
 ## DIR TO
 
-This function is the simplest to use. 
+This function is the simplest to use.
 
 - Navigate to the DIR TO page by selecting `DIR` key on the MCDU.
 - Select your desired en route waypoint from your flight plan using the left LSKs.
@@ -36,9 +30,9 @@ This function is the simplest to use.
 !!! block ""
     This is an example of the DIR TO page on the MCDU with en route waypoints displayed.
 
-    ![Direct Example](../../assets/advanced-guides/direct/direct1.png){loading=lazy width=40%}
+    ![Direct Example](../../assets/advanced-guides/direct/direct1.png){loading=lazy width=50%}
 
-    Before selecting a waypoint, you can visually see your en route waypoints on the ND matching those displayed on the DIR TO page in the side by side example below: 
+    Before selecting a waypoint, you can visually see your en route waypoints on the ND matching those displayed on the DIR TO page in the side by side example below:
 
     ![Direct+ND Example](../../assets/advanced-guides/direct/direct2.png){loading=lazy}
 
@@ -51,12 +45,12 @@ Upon selecting a desired waypoint using the corresponding left LSK, you should s
 
 ![Direct+ND Example 2](../../assets/advanced-guides/direct/direct3.png){loading=lazy}
 
-On the Navigation Display, you will see the calculated track in yellow dashed lines from the aircraft's present position direct to the waypoint specified above. If you are happy with what is displayed, you can select LSK 6R to confirm the DIRECT and add it to your flight plan.
+On the Navigation Display, you will see the calculated track in yellow dashed lines from the aircraft's present position direct to the waypoint specified above. If you are happy with what is displayed, you can select LSK 1L to confirm the DIRECT and add it to your flight plan.
 
 You will see `T-P` added to your flight plan, followed by the waypoint you selected. This indicates your turning point to the now active track to the new waypoint.
 
 !!! info "Be Advised"
-    - Any existing en-route waypoints between your present position and the selected new waypoint will be removed from the active flight plan. 
+    - Any existing en-route waypoints between your present position and the selected new waypoint will be removed from the active flight plan.
     - There are cases where the plane does not draw a nice curve between T-P and the direct line. This is true to life in different cases depending on the leg types.
 
 ## DIR TO/ABEAM
@@ -82,7 +76,7 @@ This feature allows the flight crew to enter a specific radial to intercept a wa
 
 This is useful when ATC provides instructions such as *"Intercept the 214 radial to WAYPOINT"*.
 
-By setting a RADIAL INBOUND/OUTBOUND, it would allow the aircraft to be flying a specific heading towards the INTCEPT point calculated by the FMS to the waypoint instructed by ATC.  
+By setting a RADIAL INBOUND/OUTBOUND, it would allow the aircraft to be flying a specific heading towards the INTCEPT point calculated by the FMS to the waypoint instructed by ATC.
 
 
 
