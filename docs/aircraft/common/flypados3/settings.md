@@ -85,6 +85,7 @@ Settings for A32NX aircraft configuration.
         - only one of "two thousand five hundred" and "twenty five hundred" can be selected.
   
     ![flypad-settings-callouts.png](../assets/flypados3/flypad-settings-callouts.png){loading=lazy}
+
 - Developer Mode:
     - Enables an indicator on the EWD which displays the current FWC flight phase. Also enables constant FWC intermediate callouts below 200ft RA (not currently implemented).
   
