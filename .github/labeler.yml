@@ -1,20 +1,27 @@
 a32nx briefing:
-  - docs/pilots-corner/a32nx-briefing/**/*
+  - changed-files:
+      - any-glob-to-any-file: docs/pilots-corner/a32nx-briefing/**/*
 
 beginner guide:
-  - docs/pilots-corner/beginner-guide/**/*
+  - changed-files:
+      - any-glob-to-any-file: docs/pilots-corner/beginner-guide/**/*
 
 advanced guides:
-  - docs/pilots-corner/advanced-guides/**/*
+  - changed-files:
+      - any-glob-to-any-file: docs/pilots-corner/advanced-guides/**/*
 
 feature guide:
-  - docs/fbw-a32nx/feature-guides/**/*
+  - changed-files:
+      - any-glob-to-any-file: docs/fbw-a32nx/feature-guides/**/*
 
 support:
-  - docs/fbw-a32nx/support/*
+  - changed-files:
+      - any-glob-to-any-file: docs/fbw-a32nx/support/*
 
 simbridge:
-  - docs/simbridge/*
+  - changed-files:
+      - any-glob-to-any-file: docs/simbridge/*
 
 repo:
-  - '*'
+  - changed-files:
+      - any-glob-to-any-file: '*'
