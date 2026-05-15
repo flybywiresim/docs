@@ -127,11 +127,11 @@ Click `INSERT` and all information in the `INIT` page will be automatically fill
 
 ### Wind Request
 
-To start this process, click the `CPNY WIND REQUEST` button on the INIT page or at the bottom of the `WIND` page.
+To start wind request process, click the `CPNY WIND REQUEST` button on the INIT page or at the bottom of the `WIND` page.
 
 ![FMS Start Wind Request](../assets/feature-guides/simbrief/fms-init-wind-request.jpg){loading=lazy}
 
-After doing so, the button label will change to 'REQUEST PENDING...'. Once the request is completed successfully, a scratchpad message will appear with the content "COMPANY WIND RECEIVED WAITING FOR INSERTION IN (ACTIVE or SEC X)", depending on which flight plan the request was initiated from.
+After doing so, the button label will change to 'REQUEST PENDING...'. Once the request is completed successfully, a scratchpad message will appear with the content `COMPANY WIND RECEIVED WAITING FOR INSERTION IN (ACTIVE or SEC X)`, depending on which flight plan the request was initiated from.
 
 Click the 'RECEIVED CPNY WIND' button, which will give you the options to `INSERT` or `CLEAR` the wind data. Click `INSERT` to load it.
 
@@ -142,14 +142,14 @@ We can now check that the wind data was loaded correctly by navigating to the `W
 
 ![FMS Wind Data Loaded](../assets/feature-guides/simbrief/fms-loaded-wind-data.jpg){loading=lazy}
 
-If the received wind data is invalid, the 'RECEIVED COMPANY WIND DATA NOT VALID' message will appear. In this case, the winds should be manually inserted on the `WIND` page.
+If the received wind data is invalid, the `RECEIVED COMPANY WIND DATA NOT VALID` message will appear. In this case, the winds should be manually inserted on the `WIND` page.
 
 !!! warning "Important Notes"
     Ensure all main AC buses are powered before attempting the request. If the relevant systems are not powered, a "NOT TRANSMITTED TO ACR" error message will occur.
 
     If a temporary flight plan exists, winds are pending insertion on another flight plan, or a flight plan request is in progress, the wind request cannot be initiated.
 
-    For the active or secondary flight plans which were created as a copy of the active, the wind request can only be initiated before the descent phase. 
+    For the active or secondary flight plans, which were created as a copy of the active one, the wind request can only be initiated before the descent phase. 
 
 ### Fuel and Weight
 
