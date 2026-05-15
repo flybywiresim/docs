@@ -35,5 +35,3 @@ Note: Please be aware that sub-directories are present in the parent directories
 Runs on Cloudflare®
 
 ![cloudflare-logo.png](docs/assets/images/cloudflare-logo.png)
-
-

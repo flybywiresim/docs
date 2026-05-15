@@ -21,6 +21,9 @@ description: Overview of the FlyByWire Documentation Guide
 
     If you would like to understand our guidelines on writing and different available features please see the [Writing Documentation](writing-documentation.md) Page instead.
 
+!!! info "Docker Option"
+    If you prefer not to install or manage a local Python environment, this repository also includes a Docker-based workflow for local preview and build validation. See [Docker Workflow](#docker-workflow).
+
 The FlyByWire Documentation Project aims to provide all necessary information and documentation to successfully install and use the FlyByWire A32NX aircraft in Microsoft Flight Simulator.
 
 For this, we provide documentation about the A32NX add-on itself, but also valuable additional documentation on how to fly an airliner on Microsoft Flight Simulator in general and even some specific A320neo documentation for the more involved user.
@@ -113,6 +116,29 @@ You may need to manually clean any files within the `.cache` directory if you en
 feature.
 
 ### Process
+
+### Docker Workflow
+
+If you do not want to create a local Python `virtualenv`, you can run the documentation site in Docker instead.
+
+Start the preview server from the repository root:
+
+```bash
+docker compose up --build
+```
+
+Then open [http://127.0.0.1:8000/](http://127.0.0.1:8000/).
+
+The repository is bind-mounted into the container, so saving changes locally will trigger MkDocs reloads in the running container just like a native setup.
+
+To run a one-off local build validation in Docker:
+
+```bash
+docker compose run --rm docs mkdocs build --clean --no-directory-urls --config-file docker.mkdocs.yml
+```
+
+!!! info "Git Worktrees and Docker"
+    This checkout can live inside a Git worktree too. In that setup, the git metadata paths exposed through `.git` are valid on the host but not inside the container. The Docker workflow therefore uses `docker.mkdocs.yml`, which disables the git revision date plugin for containerized local runs. If you need to modify the mkdocs.yml, make sure to update the docker one too!
 
 #### Preview your Local Clone
 
@@ -230,4 +256,3 @@ If you would like to fully test a complete build of the production website, you 
 Please use GitHub's Issue tracker for any documentation request or issues you might have encountered.
 
  [:fontawesome-brands-github:{: .github } -  **Documentation Project Issues**](https://github.com/flybywiresim/docs/issues){target=new}
-
