@@ -131,7 +131,7 @@ To start wind request process, click the `CPNY WIND REQUEST` button on the INIT 
 
 ![FMS Start Wind Request](../assets/feature-guides/simbrief/fms-init-wind-request.jpg){loading=lazy}
 
-After doing so, the button label will change to 'REQUEST PENDING...'. Once the request is completed successfully, a scratchpad message will appear with the content `COMPANY WIND RECEIVED WAITING FOR INSERTION IN (ACTIVE or SEC X)`, depending on which flight plan the request was initiated from.
+After doing so, the button label will change to `REQUEST PENDING...`. Once the request is completed successfully, a scratchpad message will appear with the content `COMPANY WIND RECEIVED WAITING FOR INSERTION IN (ACTIVE or SEC X)`, depending on which flight plan the request was initiated from.
 
 Click the 'RECEIVED CPNY WIND' button, which will give you the options to `INSERT` or `CLEAR` the wind data. Click `INSERT` to load it.
 
