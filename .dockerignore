@@ -1,0 +1,6 @@
+*
+!Dockerfile
+!compose.yaml
+!docker.mkdocs.yml
+!requirements.txt
+!requirements-dev.txt

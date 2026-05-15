@@ -1,0 +1,11 @@
+services:
+  docs:
+    build:
+      context: .
+    environment:
+      CI: "true"
+      DISABLE_MKDOCS_2_WARNING: "true"
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/workspace
