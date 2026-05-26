@@ -117,29 +117,6 @@ feature.
 
 ### Process
 
-### Docker Workflow
-
-If you do not want to create a local Python `virtualenv`, you can run the documentation site in Docker instead.
-
-Start the preview server from the repository root:
-
-```bash
-docker compose up --build
-```
-
-Then open [http://127.0.0.1:8000/](http://127.0.0.1:8000/).
-
-The repository is bind-mounted into the container, so saving changes locally will trigger MkDocs reloads in the running container just like a native setup.
-
-To run a one-off local build validation in Docker:
-
-```bash
-docker compose run --rm docs mkdocs build --clean --no-directory-urls --config-file docker.mkdocs.yml
-```
-
-!!! info "Git Worktrees and Docker"
-    This checkout can live inside a Git worktree too. In that setup, the git metadata paths exposed through `.git` are valid on the host but not inside the container. The Docker workflow therefore uses `docker.mkdocs.yml`, which disables the git revision date plugin for containerized local runs. If you need to modify the mkdocs.yml, make sure to update the docker one too!
-
 #### Preview your Local Clone
 
 - Fork the [:fontawesome-brands-github:{: .github } -  **Documentation Project GitHub**](https://github.com/flybywiresim/docs){target=new} ([How to fork a repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo){target=new}).
@@ -201,6 +178,29 @@ docker compose run --rm docs mkdocs build --clean --no-directory-urls --config-f
 
     - The site will be built locally under `/site` on in your local repo for user testing. Open`index.html` in the root of `/site` to preview.
     - Note: `--no-directory-urls` allows usage of reference links when browsing the locally built site. Prevents having to find each index.html related to every `filename.md` to preview the relevant page.
+
+#### Docker Workflow
+
+If you do not want to create a local Python `virtualenv`, you can run the documentation site in Docker instead.
+
+Start the preview server from the repository root:
+
+```bash
+docker compose up --build
+```
+
+Then open [http://127.0.0.1:8000/](http://127.0.0.1:8000/).
+
+The repository is bind-mounted into the container, so saving changes locally will trigger MkDocs reloads in the running container just like a native setup.
+
+To run a one-off local build validation in Docker:
+
+```bash
+docker compose run --rm docs mkdocs build --clean --no-directory-urls --config-file docker.mkdocs.yml
+```
+
+!!! info "Git Worktrees and Docker"
+    This checkout can live inside a Git worktree too. In that setup, the git metadata paths exposed through `.git` are valid on the host but not inside the container. The Docker workflow therefore uses `docker.mkdocs.yml`, which disables the git revision date plugin for containerized local runs. If you need to modify the mkdocs.yml, make sure to update the docker one too!
 
 #### Make Changes or Additions to the Documentation
 
