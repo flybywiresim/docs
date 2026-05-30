@@ -1,0 +1,7 @@
+INHERIT: mkdocs.yml
+
+plugins:
+  optimize:
+    enabled: false
+  git-revision-date-localized:
+    enabled: false # Needs to be off because it messes with worktree / git 
