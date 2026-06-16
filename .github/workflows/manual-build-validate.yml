@@ -5,31 +5,62 @@ on:
     types: [created]
 
 jobs:
-  validate:
+  authorize:
     runs-on: ubuntu-latest
     # Check if PR, prevent running on forks and trigger comment
     if: ${{ github.event.issue.pull_request && github.repository_owner == 'flybywiresim' && github.event.comment.body == 'check build' }}
+    permissions:
+      contents: read
+      issues: write
+      pull-requests: read
+    outputs:
+      authorized: ${{ steps.check-permissions.outputs.authorized }}
+      sha: ${{ steps.check-permissions.outputs.sha }}
     steps:
       - name: Check if user is member of organization and maintainer
         id: check-permissions
-        uses: actions/github-script@v6
+        uses: actions/github-script@v9
         with:
-          result-encoding: string
           script: |
             const { owner } = context.repo;
-            const { data: members } = await github.rest.orgs.listMembers({
+            const username = context.payload.comment.user.login;
+            const members = await github.paginate(github.rest.orgs.listMembers, {
               org: owner,
               per_page: 100,
             });
-            const { data: isOrgMember } = members.find(member => member.login === context.payload.comment.user.login) || { data: false };
-            const { data: isMaintainer } = await github.rest.repos.getCollaboratorPermissionLevel({
-              owner: owner,
-              repo: context.repo.repo,
-              username: context.payload.comment.user.login,
+            const isOrgMember = members.some(member => member.login === username);
+            let collaboratorPermission = { permission: 'none' };
+            try {
+              const response = await github.rest.repos.getCollaboratorPermissionLevel({
+                owner: owner,
+                repo: context.repo.repo,
+                username,
+              });
+              collaboratorPermission = response.data;
+            } catch (error) {
+              if (error.status !== 404) {
+                throw error;
+              }
+            }
+            const isAuthorized =
+              isOrgMember && ['maintain', 'admin'].includes(collaboratorPermission.permission);
+
+            core.setOutput('authorized', String(isAuthorized));
+
+            if (!isAuthorized) {
+              return;
+            }
+
+            const { owner: repoOwner, repo, number } = context.issue;
+            const { data: pr } = await github.rest.pulls.get({
+              owner: repoOwner,
+              repo,
+              pull_number: number,
             });
-            return isOrgMember === true && isMaintainer.permission === 'maintain'
+            core.setOutput('sha', pr.head.sha);
       - name: React to comment
-        uses: actions/github-script@v6
+        if: ${{ steps.check-permissions.outputs.authorized == 'true' }}
+        uses: actions/github-script@v9
         with:
           script: |
             const {owner, repo} = context.issue;
@@ -39,33 +70,40 @@ jobs:
               comment_id: context.payload.comment.id,
               content: "rocket",
             });
-      - name: Get PR SHA
-        id: sha
-        uses: actions/github-script@v6
+
+  build:
+    needs: authorize
+    if: ${{ needs.authorize.outputs.authorized == 'true' }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v6
         with:
-          result-encoding: string
-          script: |
-            const { owner, repo, number } = context.issue;
-            const pr = await github.rest.pulls.get({
-              owner,
-              repo,
-              pull_number: number,
-            });
-            return pr.data.head.sha
-      - uses: actions/checkout@v3
-        with:
-          ref: ${{ steps.sha.outputs.result }}
+          ref: ${{ needs.authorize.outputs.sha }}
           fetch-depth: 0
       - name: Make Build
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.11'
+      - name: Install pngquant for image optimization
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pngquant
       - run: |
           pip install -r requirements.txt
           mkdocs build -s
+
+  report:
+    needs: [authorize, build]
+    if: ${{ always() && needs.authorize.outputs.authorized == 'true' }}
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
       - name: Message success
-        if: ${{ success() }}
-        uses: actions/github-script@v6
+        if: ${{ needs.build.result == 'success' }}
+        uses: actions/github-script@v9
         with:
           script: |
             github.rest.issues.createComment({
@@ -75,8 +113,8 @@ jobs:
               body: 'Strict Build Validated! ✅',
             });
       - name: Message failure
-        if: ${{ failure() }}
-        uses: actions/github-script@v6
+        if: ${{ needs.build.result == 'failure' }}
+        uses: actions/github-script@v9
         with:
           script: |
             github.rest.issues.createComment({
