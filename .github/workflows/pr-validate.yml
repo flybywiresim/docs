@@ -1,0 +1,60 @@
+name: PR Strict Build Validation
+
+on:
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: Pull request number
+        required: true
+        type: string
+      head_sha:
+        description: Approved pull request head SHA
+        required: true
+        type: string
+      head_repository:
+        description: Source repository for the approved pull request head
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    if: ${{ github.repository_owner == 'flybywiresim' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Save validation metadata
+        env:
+          PR_NUMBER: ${{ inputs.pr_number }}
+          HEAD_SHA: ${{ inputs.head_sha }}
+        run: |
+          mkdir -p strict-validation
+          printf '%s\n' "$PR_NUMBER" > strict-validation/pr-number
+          printf '%s\n' "$HEAD_SHA" > strict-validation/head-sha
+
+      - name: Upload validation metadata
+        uses: actions/upload-artifact@v7
+        with:
+          name: strict-validation-metadata
+          path: strict-validation
+
+      - uses: actions/checkout@v6
+        with:
+          repository: ${{ inputs.head_repository }}
+          ref: ${{ inputs.head_sha }}
+          fetch-depth: 0
+
+      - name: Make Build
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+
+      - name: Install pngquant for image optimization
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pngquant
+
+      - run: |
+          pip install -r requirements.txt
+          mkdocs build -s
