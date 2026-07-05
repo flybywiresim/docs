@@ -1,6 +1,8 @@
 
 title: A32NX Release Notes
 nav:
+    - FS2024 Stable Release v2024.1.0: v2024010.md
+    - FS2020 Stable Release v2020.15.0: v2020150.md
     - Stable Release v0.14.0: v0140.md
     - Stable Release v0.13.0: v0130.md
     - Stable Release v0.12.3: v0123.md
