@@ -18,6 +18,7 @@ To see our aircraft's full changelog please visit our Github.
     The A32NX Release Notes section contains release notes for the A32NX aircraft add-on.
 
     [View Latest FS2020 Release Notes Here](a32nx/v2020150.md){.md-button}
+
     [View Latest FS2024 Release Notes Here](a32nx/v2024010.md){.md-button}
 
 - <p style="font-size:24px; color:#00E0FE;">A380X Release Notes</p>
@@ -27,6 +28,7 @@ To see our aircraft's full changelog please visit our Github.
     The A380X Release Notes section contains release notes for the A380X aircraft add-on.
 
     [View Latest FS2020 Release Notes Here](a380x/v2020150.md){.md-button}
+
     [View Latest FS2024 Release Notes Here](a380x/v2024010.md){.md-button}
 
 
