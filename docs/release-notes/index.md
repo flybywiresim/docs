@@ -7,7 +7,9 @@ for some of the FlyByWire Tools and other projects.
 
 To see our aircraft's full changelog please visit our Github.
 
-[Full Changelog](https://github.com/flybywiresim/aircraft/blob/master/.github/CHANGELOG.md){.md-button target=new}
+[Full FS2020 Changelog](https://github.com/flybywiresim/aircraft/blob/fs2020-master/.github/CHANGELOG.md){.md-button target=new}
+
+[Full FS2024 Changelog](https://github.com/flybywiresim/aircraft/blob/master/.github/CHANGELOG.md){.md-button target=new}
 
 <div class="grid cards" markdown>
 
