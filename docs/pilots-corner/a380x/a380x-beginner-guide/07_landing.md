@@ -330,8 +330,8 @@ Verify these items:
 
 `AUTOPILOT ............................................................ OFF`<br/>
 ??? note "Autopilot OFF"
-    Next, we turn the **Autopilot** `OFF` at about 500ft above the ground by pressing the green lit `AP1+2` buttons on 
-    the `FCU`.
+    Next, we turn the **Autopilot** `OFF` at about 500ft above the ground by pressing the red pushbutton on one of the sidesticks.
+    It is required to press the button a second time at least 1.8 seconds after the first press. If that is not done further warnings will be triggered.
 
     We leave the **Autothrust** on, so we don't have to worry about thrust and speed at all (Leaving **Autothrust** on 
     for landing is common for the Airbus).
@@ -370,7 +370,7 @@ Verify these items:
     If you are not stable for landing at 100ft above the ground, you should do a go-around. This is a common procedure 
     and not a failure.
 
-    Thie beginner guide does not cover a go-around - see the advanced guide for this.
+    This beginner guide does not cover a go-around - see the advanced guide for this.
     <p style="color:yellow; font-size:18px;">TODO: link to advanced guide</p>
 
 `FLARE (~40ft agl) ............................................... INITIATE`<br/>
