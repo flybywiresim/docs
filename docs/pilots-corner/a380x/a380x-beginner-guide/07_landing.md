@@ -332,6 +332,7 @@ Verify these items:
 ??? note "Autopilot OFF"
     Next, we turn the **Autopilot** `OFF` at about 500ft above the ground by pressing the red pushbutton on one of the sidesticks.
     It is required to press the button a second time at least 1.8 seconds after the first press. If that is not done further warnings will be triggered.
+    For that to work correctly it is important that the correct binding is used. Bind the button of your choice to `AP OFF`.
 
     We leave the **Autothrust** on, so we don't have to worry about thrust and speed at all (Leaving **Autothrust** on 
     for landing is common for the Airbus).
