@@ -9,6 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ github.event.pull_request.draft == false && github.repository_owner == 'flybywiresim' }}
     permissions:
+      actions: write
       issues: write
       pull-requests: write
     steps:
@@ -63,3 +64,20 @@ jobs:
                 body: 'This PR is being prevented from merging because Review Required. Use the Approved label to run build validation and auto merge the PR.',
               });
             }
+
+      - name: Start strict validation for approved PR
+        if: ${{ github.event.action == 'labeled' && github.event.label.name == 'Approved' }}
+        uses: actions/github-script@v9
+        with:
+          script: |
+            await github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: 'pr-validate.yml',
+              ref: context.payload.repository.default_branch,
+              inputs: {
+                pr_number: String(context.payload.pull_request.number),
+                head_sha: context.payload.pull_request.head.sha,
+                head_repository: context.payload.pull_request.head.repo.full_name,
+              },
+            });
