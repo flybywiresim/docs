@@ -65,6 +65,23 @@ jobs:
               });
             }
 
+      - name: Require approval label
+        uses: actions/github-script@v9
+        with:
+          script: |
+            const { owner, repo } = context.repo;
+            const pull_number = context.payload.pull_request.number;
+            const { data: pr } = await github.rest.pulls.get({
+              owner,
+              repo,
+              pull_number,
+            });
+            const hasApprovedLabel = pr.labels.some(label => label.name === 'Approved');
+
+            if (!hasApprovedLabel) {
+              core.setFailed('Review Required: apply the Approved label before merging this pull request.');
+            }
+
       - name: Start strict validation for approved PR
         if: ${{ github.event.action == 'labeled' && github.event.label.name == 'Approved' }}
         uses: actions/github-script@v9
