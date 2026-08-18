@@ -10,7 +10,7 @@ concurrency:
 
 jobs:
   validate:
-    if: ${{ github.event.pull_request.draft == false && github.event.label.name == 'Approved' }}
+    if: ${{ github.event.pull_request.draft == false && github.event.label.name == 'Approved' && github.repository_owner == 'flybywiresim' }}
     runs-on: ubuntu-latest
     permissions:
       contents: read
