@@ -8,3 +8,4 @@
 *.md.bak
 /dev/*
 builds/
+*.DS_Store
