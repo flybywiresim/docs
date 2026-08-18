@@ -1,49 +1,26 @@
 name: PR Strict Build Validation
 
 on:
-  workflow_dispatch:
-    inputs:
-      pr_number:
-        description: Pull request number
-        required: true
-        type: string
-      head_sha:
-        description: Approved pull request head SHA
-        required: true
-        type: string
-      head_repository:
-        description: Source repository for the approved pull request head
-        required: true
-        type: string
+  pull_request_target:
+    types: [labeled]
 
-permissions:
-  contents: read
+concurrency:
+  group: strict-build-validation-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
 
 jobs:
   validate:
-    if: ${{ github.repository_owner == 'flybywiresim' }}
+    if: ${{ github.event.pull_request.draft == false && github.event.label.name == 'Approved' && github.repository_owner == 'flybywiresim' }}
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
-      - name: Save validation metadata
-        env:
-          PR_NUMBER: ${{ inputs.pr_number }}
-          HEAD_SHA: ${{ inputs.head_sha }}
-        run: |
-          mkdir -p strict-validation
-          printf '%s\n' "$PR_NUMBER" > strict-validation/pr-number
-          printf '%s\n' "$HEAD_SHA" > strict-validation/head-sha
-
-      - name: Upload validation metadata
-        uses: actions/upload-artifact@v7
-        with:
-          name: strict-validation-metadata
-          path: strict-validation
-
       - uses: actions/checkout@v6
         with:
-          repository: ${{ inputs.head_repository }}
-          ref: ${{ inputs.head_sha }}
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          ref: ${{ github.event.pull_request.head.sha }}
           fetch-depth: 0
+          persist-credentials: false
 
       - name: Make Build
         uses: actions/setup-python@v6
@@ -58,3 +35,117 @@ jobs:
       - run: |
           pip install -r requirements.txt
           mkdocs build -s
+
+  finalize:
+    needs: validate
+    if: ${{ always() && (needs.validate.result == 'success' || needs.validate.result == 'failure') }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+    steps:
+      - name: Check whether result is still current
+        id: current
+        uses: actions/github-script@v9
+        with:
+          script: |
+            const { owner, repo } = context.repo;
+            const pull_number = context.payload.pull_request.number;
+            const approvedSha = context.payload.pull_request.head.sha;
+            const { data: pr } = await github.rest.pulls.get({
+              owner,
+              repo,
+              pull_number,
+            });
+            const files = await github.paginate(github.rest.pulls.listFiles, {
+              owner,
+              repo,
+              pull_number,
+              per_page: 100,
+            });
+            const hasApprovedLabel = pr.labels.some(label => label.name === 'Approved');
+            const isOpen = pr.state === 'open';
+            const isCurrentHead = pr.head.sha === approvedSha;
+            const touchesWorkflows = files.some(file => file.filename.startsWith('.github/workflows/'));
+
+            core.setOutput('should_finalize', String(hasApprovedLabel && isOpen && isCurrentHead));
+            core.setOutput('touches_workflows', String(touchesWorkflows));
+
+      - name: Comment on failed validation
+        if: ${{ needs.validate.result == 'failure' && steps.current.outputs.should_finalize == 'true' }}
+        uses: actions/github-script@v9
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              issue_number: context.payload.pull_request.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: 'Strict Build Failed! ❌ - Please check out this PR locally to fix the issue before merging or see checks.',
+            });
+
+      - name: Reset labels after failed validation
+        if: ${{ needs.validate.result == 'failure' && steps.current.outputs.should_finalize == 'true' }}
+        uses: actions/github-script@v9
+        with:
+          script: |
+            const { owner, repo } = context.repo;
+            const issue_number = context.payload.pull_request.number;
+
+            await github.rest.issues.removeLabel({
+              owner,
+              repo,
+              issue_number,
+              name: 'Approved',
+            });
+
+            await github.rest.issues.addLabels({
+              owner,
+              repo,
+              issue_number,
+              labels: ['Review Required'],
+            });
+
+      - name: Comment on workflow-file manual merge requirement
+        if: ${{ needs.validate.result == 'success' && steps.current.outputs.should_finalize == 'true' && steps.current.outputs.touches_workflows == 'true' }}
+        uses: actions/github-script@v9
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              issue_number: context.payload.pull_request.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: 'Strict Build Validated! Manual merge required because this PR changes files under `.github/workflows/`, and `GITHUB_TOKEN` cannot auto-merge workflow-file updates.',
+            });
+
+      - name: Merge validated PR
+        if: ${{ needs.validate.result == 'success' && steps.current.outputs.should_finalize == 'true' && steps.current.outputs.touches_workflows != 'true' }}
+        uses: actions/github-script@v9
+        with:
+          script: |
+            const { owner, repo } = context.repo;
+            const pull_number = context.payload.pull_request.number;
+            const sha = context.payload.pull_request.head.sha;
+            const { data: pr } = await github.rest.pulls.get({
+              owner,
+              repo,
+              pull_number,
+            });
+
+            const hasApprovedLabel = pr.labels.some(label => label.name === 'Approved');
+            if (!hasApprovedLabel || pr.state !== 'open' || pr.head.sha !== sha) {
+              core.info('Pull request is no longer approved, open, or at the validated head; skipping merge.');
+              return;
+            }
+
+            const { data } = await github.rest.pulls.merge({
+              owner,
+              repo,
+              pull_number,
+              sha,
+              merge_method: 'squash',
+            });
+
+            if (!data.merged) {
+              core.setFailed(`Pull request was not merged: ${data.message}`);
+            }
