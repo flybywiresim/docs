@@ -546,7 +546,7 @@ When the FMS first starts, it will show a screen showing the current status of t
     Click on the blue arrow highlighted in the photo and read the "GW CG" value on the right under the "Current"
     column. Make sure all loading (passengers, luggage and fuel) has finished to get an accurate reading.
 
-    ![PFD THS FOR VALUE](docs/aircraft/a380x/assets/feature-guides/fuel-weight/efb-gw-gwcg.png){loading=lazy}
+    ![PFD THS FOR VALUE](../../../aircraft/a380x/assets/feature-guides/fuel-weight/efb-gw-gwcg.png){loading=lazy}
 
     #### Take Off Performance
 
