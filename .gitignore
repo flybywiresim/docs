@@ -5,4 +5,7 @@
 /.cache/
 /venv/
 /scripts/
-.DS_Store
+*.md.bak
+/dev/*
+builds/
+*.DS_Store

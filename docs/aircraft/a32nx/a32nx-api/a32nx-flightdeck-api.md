@@ -558,8 +558,8 @@ Flight Deck: [FCU Panel](../../../pilots-corner/a32nx/a32nx-briefing/flight-deck
 | ALT knob          | AUTOPILOT ALTITUDE LOCK VAR:3          | 100..49000            |            | MSFS VAR         | Deprecated                                                               |
 |                   | A32NX_FCU_AFS_DISPLAY_ALT_VALUE        | 100..49000            |            | Custom LVAR      |                                                                          |
 |                   | A32NX_FCU_AFS_DISPLAY_LVL_CH_MANAGED   | 0&#124;1              |            | Custom LVAR      |                                                                          |
-|                   | A32NX.FCU_ALT_INC                      | 0&#124;100&#124;1000  | R          | Custom EVENT     | 0=Use FCU Setting, 100=100, 1000=1000                                    |
-|                   | A32NX.FCU_ALT_DEC                      | 0&#124;100&#124;1000  | R          | Custom EVENT     | 0=Use FCU Setting, 100=100, 1000=1000                                    |
+|                   | A32NX.FCU_ALT_INC                      | -                     | R          | Custom EVENT     |                                                                          |
+|                   | A32NX.FCU_ALT_DEC                      | -                     | R          | Custom EVENT     |                                                                          |
 |                   | A32NX.FCU_ALT_SET                      | 100..49000            | -          | Custom EVENT     |                                                                          |
 |                   | A32NX.FCU_ALT_PUSH                     | -                     | -          | Custom EVENT     |                                                                          |
 |                   | A32NX.FCU_ALT_PULL                     | -                     | -          | Custom EVENT     |                                                                          |
