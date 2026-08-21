@@ -7,7 +7,9 @@ for some of the FlyByWire Tools and other projects.
 
 To see our aircraft's full changelog please visit our Github.
 
-[Full Changelog](https://github.com/flybywiresim/aircraft/blob/master/.github/CHANGELOG.md){.md-button target=new}
+[Full FS2020 Changelog](https://github.com/flybywiresim/aircraft/blob/fs2020-master/.github/CHANGELOG.md){.md-button target=new}
+
+[Full FS2024 Changelog](https://github.com/flybywiresim/aircraft/blob/master/.github/CHANGELOG.md){.md-button target=new}
 
 <div class="grid cards" markdown>
 
@@ -17,7 +19,9 @@ To see our aircraft's full changelog please visit our Github.
 
     The A32NX Release Notes section contains release notes for the A32NX aircraft add-on.
 
-    [View Latest Here](a32nx/v0140.md){.md-button}
+    [View Latest FS2020 Release Notes Here](a32nx/v2020150.md){.md-button}
+
+    [View Latest FS2024 Release Notes Here](a32nx/v2024010.md){.md-button}
 
 - <p style="font-size:24px; color:#00E0FE;">A380X Release Notes</p>
 
@@ -25,7 +29,9 @@ To see our aircraft's full changelog please visit our Github.
 
     The A380X Release Notes section contains release notes for the A380X aircraft add-on.
 
-    [View Latest Here](a380x/v0140.md){.md-button}
+    [View Latest FS2020 Release Notes Here](a380x/v2020150.md){.md-button}
+
+    [View Latest FS2024 Release Notes Here](a380x/v2024010.md){.md-button}
 
 
 - <p style="font-size:24px;">[Installer Release Notes](installer/v350.md)</p>
