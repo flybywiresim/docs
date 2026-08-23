@@ -526,12 +526,12 @@ Flight Deck: [EFIS Control Panel](../../../pilots-corner/a380x/a380x-briefing/fl
 |              | A32NX_EFIS_R_ND_MODE                     | 0..4              | R          | Custom LVAR      | 0=ROSE ILS, 1=ROSE VOR, 2=ROSE NAV. 3=ARC, 4=PLAN, Deprecated |
 |              | A32NX_FCU_EFIS_L_EFIS_MODE               | 0..4              | R          | Custom LVAR      | 0=ROSE ILS, 1=ROSE VOR, 2=ROSE NAV. 3=ARC, 4=PLAN             |
 |              | A32NX_FCU_EFIS_R_EFIS_MODE               | 0..4              | R          | Custom LVAR      | 0=ROSE ILS, 1=ROSE VOR, 2=ROSE NAV. 3=ARC, 4=PLAN             |
-|              | A32NX.FCU_EFIS_L_EFIS_MODE_INC           | -                 | -          | Custom EVENT     |                                                               |
-|              | A32NX.FCU_EFIS_R_EFIS_MODE_INC           | -                 | -          | Custom EVENT     |                                                               |
-|              | A32NX.FCU_EFIS_L_EFIS_MODE_DEC           | -                 | -          | Custom EVENT     |                                                               |
-|              | A32NX.FCU_EFIS_R_EFIS_MODE_DEC           | -                 | -          | Custom EVENT     |                                                               |
-|              | A32NX.FCU_EFIS_L_EFIS_MODE_SET           | 0..4              | -          | Custom EVENT     | 0=ROSE ILS, 1=ROSE VOR, 2=ROSE NAV. 3=ARC, 4=PLAN             |
-|              | A32NX.FCU_EFIS_R_EFIS_MODE_SET           | 0..4              | -          | Custom EVENT     | 0=ROSE ILS, 1=ROSE VOR, 2=ROSE NAV. 3=ARC, 4=PLAN             |
+|              | A32NX.FCU_EFIS_L_MODE_INC           | -                 | -          | Custom EVENT     |                                                               |
+|              | A32NX.FCU_EFIS_R_MODE_INC           | -                 | -          | Custom EVENT     |                                                               |
+|              | A32NX.FCU_EFIS_L_MODE_DEC           | -                 | -          | Custom EVENT     |                                                               |
+|              | A32NX.FCU_EFIS_R_MODE_DEC           | -                 | -          | Custom EVENT     |                                                               |
+|              | A32NX.FCU_EFIS_L_MODE_SET           | 0..4              | -          | Custom EVENT     | 0=ROSE ILS, 1=ROSE VOR, 2=ROSE NAV. 3=ARC, 4=PLAN             |
+|              | A32NX.FCU_EFIS_R_MODE_SET           | 0..4              | -          | Custom EVENT     | 0=ROSE ILS, 1=ROSE VOR, 2=ROSE NAV. 3=ARC, 4=PLAN             |
 |              |                                          |                   |            |                  |                                                               |
 | ND RANGE     | A32NX_EFIS_L_ND_RANGE                    | 0..7              | R          | CUSTOM LVAR      | 0=ZOOM, 1=10, ..., 7=640, Deprecated                          |
 |              | A32NX_EFIS_R_ND_RANGE                    | 0..7              | R          | CUSTOM LVAR      | 0=ZOOM, 1=10, ..., 7=640, Deprecated                          |
