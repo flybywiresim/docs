@@ -554,14 +554,14 @@ Flight Deck: [EFIS Control Panel](../../../pilots-corner/a380x/a380x-briefing/fl
 |              | A32NX_FCU_EFIS_L_NAVAID_2_MODE           | 0..2              | R          | Custom LVAR      | 0=OFF, 1=ADF, 2=VOR                                           |
 |              | A32NX_FCU_EFIS_R_NAVAID_1_MODE           | 0..2              | R          | Custom LVAR      | 0=OFF, 1=ADF, 2=VOR                                           |
 |              | A32NX_FCU_EFIS_R_NAVAID_2_MODE           | 0..2              | R          | Custom LVAR      | 0=OFF, 1=ADF, 2=VOR                                           |
-|              | A32NX_FCU_EFIS_L_NAVAID_1_PUSH           | -                 | -          | Custom EVENT     |                                                               |
-|              | A32NX_FCU_EFIS_L_NAVAID_1_SET            | 0..2              | -          | Custom EVENT     | 0=OFF, 1=ADF, 2=VOR                                           |
-|              | A32NX_FCU_EFIS_L_NAVAID_2_PUSH           | -                 | -          | Custom EVENT     |                                                               |
-|              | A32NX_FCU_EFIS_L_NAVAID_2_SET            | 0..2              | -          | Custom EVENT     | 0=OFF, 1=ADF, 2=VOR                                           |
-|              | A32NX_FCU_EFIS_R_NAVAID_1_PUSH           | -                 | -          | Custom EVENT     |                                                               |
-|              | A32NX_FCU_EFIS_R_NAVAID_1_SET            | 0..2              | -          | Custom EVENT     | 0=OFF, 1=ADF, 2=VOR                                           |
-|              | A32NX_FCU_EFIS_R_NAVAID_2_PUSH           | -                 | -          | Custom EVENT     |                                                               |
-|              | A32NX_FCU_EFIS_R_NAVAID_2_SET            | 0..2              | -          | Custom EVENT     | 0=OFF, 1=ADF, 2=VOR                                           |
+|              | A32NX.FCU_EFIS_L_NAVAID_1_PUSH           | -                 | -          | Custom EVENT     |                                                               |
+|              | A32NX.FCU_EFIS_L_NAVAID_1_SET            | 0..2              | -          | Custom EVENT     | 0=OFF, 1=ADF, 2=VOR                                           |
+|              | A32NX.FCU_EFIS_L_NAVAID_2_PUSH           | -                 | -          | Custom EVENT     |                                                               |
+|              | A32NX.FCU_EFIS_L_NAVAID_2_SET            | 0..2              | -          | Custom EVENT     | 0=OFF, 1=ADF, 2=VOR                                           |
+|              | A32NX.FCU_EFIS_R_NAVAID_1_PUSH           | -                 | -          | Custom EVENT     |                                                               |
+|              | A32NX.FCU_EFIS_R_NAVAID_1_SET            | 0..2              | -          | Custom EVENT     | 0=OFF, 1=ADF, 2=VOR                                           |
+|              | A32NX.FCU_EFIS_R_NAVAID_2_PUSH           | -                 | -          | Custom EVENT     |                                                               |
+|              | A32NX.FCU_EFIS_R_NAVAID_2_SET            | 0..2              | -          | Custom EVENT     | 0=OFF, 1=ADF, 2=VOR                                           |
 
 ### FCU Panel
 
