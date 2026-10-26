@@ -58,7 +58,6 @@ This guide will cover these phases:
     to. Online ATC controllers understand that the after-landing-tasks do take some time.
 
     If you did not get any frequencies from ATC, you can use the airport charts to find the correct frequencies for EDDM.
-`AUXILLIARY POWER UNIT MASTER SWITCH ................................... ON`<br/>
 `GROUND SPOILERS ................................................... DISARM`<br/>
 `FLAPS ............................................................ RETRACT`<br/>
 `APU MASTER ............................................................ ON`<br/>
@@ -120,7 +119,7 @@ This concludes *After Landing*
 ### Situation
     
 - Aircraft on taxiway directly after runway.
-- **After Landing** checklist is completed.
+- **After Landing** tasks are completed.
 - ATC Ground has given taxi instructions.
 
 ### Taxiing
