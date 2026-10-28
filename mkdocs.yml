@@ -92,6 +92,7 @@ plugins:
         'faq.md': 'aircraft/faq.md'
         'flypad-performance.md': 'aircraft/common/flypados3/performance.md'
         'vnav.md': 'pilots-corner/a32nx/a32nx-advanced-guides/flight-guidance/vertical-guidance/overview.md'
+        'simbridge.md': 'tools/simbridge/index.md'
 
         # Release Notes Permalink
         'latest-release.md': 'release-notes/index.md'
