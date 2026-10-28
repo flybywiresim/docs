@@ -48,7 +48,7 @@ would not turn off certain systems and at some point simply start with the prepa
 - Engines are still running.
 - Lights might still be in taxi configuration (`RWY TURN OFF` set to on and `NOSE` is to taxi, `LAND`-ing lights are off).
 - `APU` has been turned on during taxi and is `AVAIL`, `APU BLEED` is off.
-- **After Landing** checklist is completed.
+- **After Landing** tasks are completed.
 
 ### Gate procedures
 
