@@ -46,7 +46,7 @@ You can find more information about the installer in our [Installer documentatio
         This edition will always be behind the development edition in both features and fixes,
         but it will receive compatibility patches if required for MSFS updates.
 
-        [Download Stable](https://github.com/flybywiresim/aircraft/releases/download/assets/stable/A32NX-stable.zip){.md-button target=new}
+        [Download FlyByWire Installer](https://flybywirecdn.com/installer/release/FlyByWire-Installer-x64.exe){.md-button target=new}
 
         Latest release notes: [View Here](/latest-release/)
 

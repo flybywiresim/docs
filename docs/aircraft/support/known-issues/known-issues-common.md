@@ -17,7 +17,7 @@ Please try these before reporting any other issue on Discord.
 
     ^^Troubleshooting Steps^^
    
-    - [Test With Only the A32NX or A380X Add-on in Community](#test-with-only-the-a32nx-add-on-in-community)
+    - [Test With Only the A32NX or A380X Add-on in Community](#test-with-only-the-a32nx-or-a380x-add-on-in-community)
     - [Clean Install](#clean-install)
     - [Enable Windows UTF-8 Support](#enable-windows-utf-8-support)
     - [Make Sure to Use the Latest Version of MS Flight Simulator](#use-the-latest-version-of-ms-flight-simulator)
@@ -28,7 +28,7 @@ Please try these before reporting any other issue on Discord.
     !!! danger "**This is the most important troubleshooting step for Microsoft Flight Simulator!!**"
 
     To make sure the issue you are experiencing is not caused by a conflict with other add-ons or liveries 
-    **remove everything (really everything!) from your [Community Folder](#community-folder-content)** and perform a 
+    **remove everything (really everything!) from your [Community Folder](#check-your-msfs-uses-the-correct-community-folder)** and perform a
     [clean reinstall](../../install/installation.md#clean-install-steps) of the A32NX or the A380X with the 
     [FlyByWire Installer](https://flybywirecdn.com/installer/release/FlyByWire-Installer-x64.exe){target=new}.
 
@@ -85,9 +85,9 @@ Please try these before reporting any other issue on Discord.
     ^^Possible Solution or Workaround^^
 
     - [Do Not Use DX12](#do-not-use-dx12)
-    - [Toolbar Pushback Add-on Issues](#toolbar-pushback-add-on-issues)
-    - [Your Controls Performance Issues](#your-controls-performance-issues)
-    - [Test With Only the A32NX Add-on in Community](#test-with-only-the-a32nx-add-on-in-community)
+    - [Toolbar Pushback Add-on Issues](known-issues-a32nx.md#toolbar-pushback-add-on-issues)
+    - [Your Controls Performance Issues](known-issues-a32nx.md#your-controls-performance-issues)
+    - [Test With Only the A32NX Add-on in Community](#test-with-only-the-a32nx-or-a380x-add-on-in-community)
     - Make sure MSFS is configured for optimal performance 
         - See this article: [Graphic Settings in MSFS](https://forums.flightsimulator.com/t/how-to-graphics-settings-and-performance-guide-su5-complete-retest-8-2-2021/132407)
         - Tip: better to be GPU bound than CPU bound
@@ -182,8 +182,8 @@ Please try these before reporting any other issue on Discord.
     ^^Possible Solutions or Workarounds^^
 
     - [Disconnect the Tug](#disconnect-the-tug)
-    - [Toolbar Pushback Add-on Issues](#toolbar-pushback-add-on-issues)
-    - [Rudder/Pedal Settings](#rudder-or-toe-brake-operation-issues)
+    - [Toolbar Pushback Add-on Issues](known-issues-a32nx.md#toolbar-pushback-add-on-issues)
+    - [Rudder/Pedal Settings](known-issues-a32nx.md#rudder-or-toe-brake-operation-issues)
 
 ??? tip "Disconnect the Tug"
     ### Disconnect the Tug
@@ -226,7 +226,7 @@ Please try these before reporting any other issue on Discord.
     There currently is no known guaranteed solution for all cases; However, users have found success with by trying the following:
 
     1. Remove everything from the Community folder - **really everything**!<br />[Test With Only the A32NX Add-on in 
-    Community](#test-with-only-the-a32nx-add-on-in-community)
+    Community](#test-with-only-the-a32nx-or-a380x-add-on-in-community)
     1. [Enable Windows UTF-8 Support](#enable-windows-utf-8-support)
     1. Perform a [Clean Install](../../install/installation.md#clean-install-steps)
     1. Stop any third-party application which connect to MSFS<br/>
@@ -236,7 +236,7 @@ Please try these before reporting any other issue on Discord.
     1. Delete your rolling cache in the sim and create a new one.
     1. Delete any manual cache in the sim and create new ones.
     1. Run the game as Administrator.
-    1. Visit and read the [MSFS Known Issues Page](https://flightsimulator.zendesk. com/hc/en-us/articles/360016027399-KNOWN-ISSUES-Last-update-July-28-2021-) OR [MSFS Troubleshooting & Support](https://flightsimulator.zendesk.com/hc/en-us/sections/360004475200-Troubleshooting-Support-Windows-10-PC)
+    1. Visit and read the [MSFS Known Issues Page](https://flightsimulator.zendesk.com/hc/en-us/categories/360001769531-Microsoft-Flight-Simulator-2020) OR [MSFS Troubleshooting & Support](https://flightsimulator.zendesk.com/hc/en-us/sections/360004475200-Troubleshooting-Support-Windows-10-PC)
 
     ^^Additional Information^^
 
@@ -244,7 +244,7 @@ Please try these before reporting any other issue on Discord.
 
     [MSFS Zendesk Safe-Mode-FAQ](https://flightsimulator.zendesk.com/hc/en-us/articles/4405893759378-PC-versions-Safe-Mode-FAQ){target=new}
 
-    [MSFS Zendesk CTDs-issues-Basic-Troubleshooting](https://flightsimulator.zendesk.com/hc/en-us/articles/4406280399250-All-versions-Crashing-CTDs-issues-Basic-Troubleshooting){target=new}
+    [MSFS Zendesk CTDs-issues-Basic-Troubleshooting](https://flightsimulator.zendesk.com/hc/en-us/articles/4406280399250-Basic-Troubleshooting-How-to-troubleshoot-crashing-CTDs-issues){target=new}
 
     [MSFS Zendesk CTDs-issues-Advanced-Troubleshooting](https://flightsimulator.zendesk.com/hc/en-us/articles/4406280653202-All-versions-Crashing-CTDs-issues-Advanced-Troubleshooting){target=new}
 
@@ -351,7 +351,7 @@ Please try these before reporting any other issue on Discord.
     
     - If you do use GSX, then much of the boarding and refueling process is completed through GSX itself, while also 
     still requiring some interaction with the flyPad EFB. This is explained in detail in our 
-    [GSX Integration Guide](https://docs.flybywiresim.com/fbw-a32nx/feature-guides/gsxintegration).
+    [GSX Integration Guide](../../a32nx/feature-guides/gsxintegration/index.md).
 
 ??? tip "Ground Services on the flyPad Are Out of Sync"
     ### Ground Services on the flyPad Are Out of Sync
@@ -404,7 +404,6 @@ Please try these before reporting any other issue on Discord.
 
     Turn off *Lens Correction* in the MSFS graphics settings.
 
-    ![Lens Correction Settings](https://media.discordapp.net/attachments/785976111875751956/911096088809848852/unknown.png?width=1440&height=633)
 
 
 ??? tip "Controls Freeze up While Looking Around"

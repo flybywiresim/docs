@@ -11,6 +11,8 @@ their purpose, and location at the airport.
 
 [Download FAA Guide](https://www.faa.gov/sites/faa.gov/files/SignsAndMarkings_one-doc.pdf){ .md-button }
 
+[Read the FAA guide to airport markings and signs](https://www.faa.gov/air_traffic/publications/aim_html/chap2_section_3.html)
+
 ---
 
 There are two types of signage at airports - operational guidance signs and mandatory instruction signs.
@@ -27,7 +29,7 @@ There are two types of signage at airports - operational guidance signs and mand
 - Black text on a yellow background. These will have an arrow indicating the direction to turn, which helps pilots
   identify what taxiways they are approaching or runway exits towards a specified runway.
 
-  ![signs1](https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Ben_Gurion_International_Airport_taxiway_signs.JPG/640px-Ben_Gurion_International_Airport_taxiway_signs.JPG){loading=lazy}
+  ![signs1](https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Ben_Gurion_International_Airport_taxiway_signs.JPG/500px-Ben_Gurion_International_Airport_taxiway_signs.JPG){loading=lazy}
 
 ^^Stop Bar Signs^^
 
@@ -35,7 +37,7 @@ There are two types of signage at airports - operational guidance signs and mand
   which taxiway a stop bar is positioned. Airports usually use more conventional traffic signs you may see on the road,  
   such a regular stop sign. See the [FAA Guide](#faa-quick-reference-guide) for samples.
 
-  ![signs2](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Ben_Gurion_International_Airport_4_taxiway_signs.JPG/639px-Ben_Gurion_International_Airport_4_taxiway_signs.JPG){loading=lazy}
+  ![signs2](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Ben_Gurion_International_Airport_4_taxiway_signs.JPG/500px-Ben_Gurion_International_Airport_4_taxiway_signs.JPG){loading=lazy}
 
 ## Mandatory Instruction Signs
 
@@ -53,7 +55,7 @@ taxiway to help visually indicate the holding positions.
     - Two sets of solid yellow lines and two sets of dashed yellow lines indicate a holding position for a runway ahead.
       These **must never be crossed** without express permission from ATC.
 
-      ![holding position](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Holding_position_runway.svg/320px-Holding_position_runway.svg.png){loading=lazy}
+      ![holding position](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Holding_position_runway.svg/330px-Holding_position_runway.svg.png){loading=lazy}
 
       <sub>"Holding position markings pattern A ahead of a crossing runway" by Claudius Henrichs [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0)</sub>
 
@@ -85,7 +87,7 @@ may differ if the airport operates in low visibility conditions.
 - Edge lighting is typically blue and characteristically appears at the edges of a taxiway. Spacing can range from
   50-200ft apart, usually condensing in distance when approaching an intersection.
 
-![taxiway lights](https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/ATL_TWY_B_-_RWY_Crossing_%2813534655025%29.jpg/640px-ATL_TWY_B_-_RWY_Crossing_%2813534655025%29.jpg){loading=lazy}
+![taxiway lights](https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/ATL_TWY_B_-_RWY_Crossing_%2813534655025%29.jpg/500px-ATL_TWY_B_-_RWY_Crossing_%2813534655025%29.jpg){loading=lazy}
 
 <sub>John Murphy, [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0)</sub>
 
