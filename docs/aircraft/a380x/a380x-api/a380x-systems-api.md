@@ -17,13 +17,24 @@ In addition to the above documentation, all custom variables and custom events a
 
 ## Developer SimVars Documentation
 
---8<-- "https://raw.githubusercontent.com/flybywiresim/aircraft/refs/heads/master/fbw-a380x/docs/a380-simvars.md:2:"
+{{ external_markdown('https://raw.githubusercontent.com/flybywiresim/aircraft/refs/heads/master/fbw-a380x/docs/a380-simvars.md', fragment_map={
+    '#a380-local-simvars': '#developer-simvars-documentation',
+    '#flight-management-system-ata-22': '#flight-management-system-fms',
+}) }}
 
 ## Developer Input Events Documentation
 
---8<-- "https://raw.githubusercontent.com/flybywiresim/aircraft/refs/heads/master/fbw-a380x/docs/a380x-input-events.md:2:"
+{{ external_markdown('https://raw.githubusercontent.com/flybywiresim/aircraft/refs/heads/master/fbw-a380x/docs/a380x-input-events.md', fragment_map={
+    '#a380x-input-events': '#developer-input-events-documentation',
+    '#23---communications': '#23-communications',
+}) }}
 
---8<-- "https://raw.githubusercontent.com/flybywiresim/aircraft/refs/heads/master/fbw-a380x/docs/a380x-private-local-vars.md:2:"
+## Developer Internal Vars Documentation
+
+{{ external_markdown('https://raw.githubusercontent.com/flybywiresim/aircraft/refs/heads/master/fbw-a380x/docs/a380x-private-local-vars.md', fragment_map={
+    '#a380x-private-local-vars': '#developer-internal-vars-documentation',
+    '#23---communications': '#23-communications_1',
+}) }}
 
 
 

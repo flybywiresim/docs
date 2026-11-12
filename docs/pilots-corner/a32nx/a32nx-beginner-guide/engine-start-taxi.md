@@ -36,7 +36,7 @@ This guide will cover these chapters:
 3. [After Engine Start](#after-engine-start)
 4. [Flight Controls Check](#flight-controls-check)
 5. [Taxi](#taxi)
-6. [General Resources](#general-resources)
+6. [Airport Signage and Markings](#airport-signage-and-markings)
 
 ---
 
@@ -244,7 +244,7 @@ Move the rudders and pay attention to the rudder symbol to ensure it moves all t
 
 Having charts or diagrams of the airport you are currently in will help you navigate efficiently and safely. There are many resources and applications available online that are either free or paid which you can utilize.
 
-For additional information on signs and markings on the ground, please see [General Resources](#general-resources) below.
+For additional information on signs and markings on the ground, please see [Airport Signage and Markings](#airport-signage-and-markings) below.
 
 ### Taxi Clearance
 
@@ -349,7 +349,7 @@ The weather panel is located on the bottom left of the lower pedestal and looks 
 !!! info "Getting Ready for Take off"
     At this point in the guide, you should have performed many of the essential flow items before you line up at the runway. The next guide [Take off, Climb, and Cruise](takeoff-climb-cruise.md) will instruct you on performing your final checks and before take off checklist.
 
-**For additional information:** See the sections below for extended taxi information, and visit the [General Resources Section](#general-resources) on this page to help you understand the different signs and elements found on the ground at an airport.
+**For additional information:** See the sections below for extended taxi information, and visit [Airport Signage and Markings](#airport-signage-and-markings) to learn about signs and markings found on the ground at an airport.
 
 ---
 

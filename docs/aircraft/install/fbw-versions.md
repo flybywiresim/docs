@@ -43,7 +43,7 @@ for users who do not want to update their aircraft as often or require less freq
 This version will not always be up-to-date, but we work hard at ensuring its compatibility with the current version of 
 Microsoft Flight Simulator.
 
-See [Latest Release Notes for the Stable Versions](/latest-release/)
+See [Latest Release Notes for the Stable Versions](../../release-notes/index.md)
 
 <div class="grid cards" markdown>
 

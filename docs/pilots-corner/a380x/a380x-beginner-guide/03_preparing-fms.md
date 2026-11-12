@@ -50,10 +50,10 @@ This guide will cover the following topics in helping you set up the FMS:
 * [Understanding the FMS](#understanding-the-fms)
     * [Using Keyboard and Mouse](#using-keyboard-and-mouse)
 * [FMS Initialization](#fms-initialization)
-    * [Data & Status](#data--status)
-    * [Init & Flight Plan Initialization](#init--flight-plan-initialization)
+    * [Data & Status](#data-status)
+    * [Init & Flight Plan Initialization](#init-flight-plan-initialization)
     * [Navaids](#navaids)
-    * [Fuel & Payload](#fuel--payload)
+    * [Fuel & Payload](#fuel-payload)
     * [Performance](#performance)
 * [A380X simBrief Integration](#a380x-simbrief-integration)
 
@@ -321,7 +321,7 @@ When the FMS first starts, it will show a screen showing the current status of t
     
         !!! warning ""
             Additionally, make note of this 
-            [Special Case](../../a32nx/a32nx-advanced-guides/flight-planning/disco.md#special-case) on the discontinuity 
+            [Special Cases](../../a32nx/a32nx-advanced-guides/flight-planning/disco.md#special-cases) on the discontinuity
             page.
 
     After verifying the flight plan, you can use the `INSERT TMPY *` button on the bottom right of the `F-PLN` page. 

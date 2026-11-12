@@ -138,7 +138,7 @@ This will load your flight plan from SimBrief directly into the MCDU
 
 !!! note
     #### RWY, SID, STAR, and APPR
-    The SimBrief import will **not** load RWY, SID, STAR, or APPR. You will need to manually add these into the flight plan. To learn how to set up the MCDU, you can read the [**^^F^^**LIGHT PLAN](../../../pilots-corner/a32nx/a32nx-beginner-guide/preparing-mcdu.md#--f---light-plan) section in our beginner's guide.
+    The SimBrief import will **not** load RWY, SID, STAR, or APPR. You will need to manually add these into the flight plan. To learn how to set up the MCDU, you can read the [**^^F^^**LIGHT PLAN](../../../pilots-corner/a32nx/a32nx-beginner-guide/preparing-mcdu.md#flight-plan) section in our beginner's guide.
 
     This is because RWY, SID, STAR and APPR are dependent on factors like active runways, traffic, weather, etc. and are determined by ATC and not the pilot's flight plan. They can be changed by ATC any time before takeoff or during flight and are therefore not imported in real life aircraft either.
 

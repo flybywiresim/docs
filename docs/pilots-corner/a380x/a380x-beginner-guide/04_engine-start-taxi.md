@@ -59,7 +59,7 @@ Once all passengers have boarded and secured, we are ready to begin pushback.
     button on the overhead panel. The external power connections and low-pressure ground carts are disconnected by the 
     ground crew.
 
-    [Flight Deck Overview](../../a380x-briefing/flight-deck){ .md-button }
+    [Flight Deck Overview](../a380x-briefing/flight-deck/index.md){ .md-button }
 
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
     clickable cockpit that will show you where each item is located.
@@ -97,7 +97,7 @@ Once all passengers have boarded and secured, we are ready to begin pushback.
     
     ![img.png](../assets/beginner-guide/04_engine-start-taxi/sd-doors-page.png){loading=lazy}
 
-    [Flight Deck Overview](../../a380x-briefing/flight-deck){ .md-button }
+    [Flight Deck Overview](../a380x-briefing/flight-deck/index.md){ .md-button }
 
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
     clickable cockpit that will show you where each item is located.
@@ -194,7 +194,7 @@ can proceed with the following steps.
 `WHEN AVAIL: ENGINE IDLE PARAMETERS .......................... CHECK NORMAL`<br/>
 
 ??? tip "How and Where"
-    [Flight Deck Overview](../a380x-briefing/flight-deck){ .md-button }
+    [Flight Deck Overview](../a380x-briefing/flight-deck/index.md){ .md-button }
 
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
     clickable cockpit that will show you where each item is located.
@@ -270,7 +270,7 @@ can proceed with the following steps.
 `GROUND EQUIPMENT ................................................... CLEAR`<br/>
 
 ??? tip "How and Where"
-    [Flight Deck Overview](../a380x-briefing/flight-deck){ .md-button }
+    [Flight Deck Overview](../a380x-briefing/flight-deck/index.md){ .md-button }
 
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
     clickable cockpit that will show you where each item is located.
@@ -363,7 +363,7 @@ For additional information on signs and markings on the ground, please see our [
 `ATC CLEARANCE .................................................... CONFIRM`<br/>
 
 ??? tip "How and Where"
-    [Flight Deck Overview](../a380x-briefing/flight-deck){ .md-button }
+    [Flight Deck Overview](../a380x-briefing/flight-deck/index.md){ .md-button }
 
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
     clickable cockpit that will show you where each item is located.
@@ -466,7 +466,7 @@ While underway to the runway, perform the following as part of the taxi flow:
 `CABIN .............................................................. READY`<br/>
 
 ??? tip "How and Where"
-    [Flight Deck Overview](../a380x-briefing/flight-deck){ .md-button }
+    [Flight Deck Overview](../a380x-briefing/flight-deck/index.md){ .md-button }
 
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
     clickable cockpit that will show you where each item is located.

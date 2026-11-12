@@ -13,7 +13,7 @@ MSFS 2024 introduced significant improvements to the built-in flight planning an
 
 ## MSFS 2024
 
-Flight planning integration with MSFS 2024 revolves around the built-in EFB. This is different from our in-aircraft EFB, the [flyPad](../flypados3).
+Flight planning integration with MSFS 2024 revolves around the built-in EFB. This is different from our in-aircraft EFB, the [flyPad](flypados3/index.md).
 
 !!! tip "Opening the MSFS built-in EFB"
     The MSFS built-in EFB can be accessed either by pressing the `TAB` key or by selecting the EFB icon in the top in-game toolbar.

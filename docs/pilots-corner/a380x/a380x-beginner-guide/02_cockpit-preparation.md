@@ -46,7 +46,7 @@ This guide assumes that your aircraft is in a cold and dark state at a gate.
 `WIPERS (BOTH) ........................................................ OFF`<br/>
 
 ??? tip "How and Where"
-    [Flight Deck Overview](../../a380x-briefing/flight-deck){ .md-button }
+    [Flight Deck Overview](../a380x-briefing/flight-deck/index.md){ .md-button }
 
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
     clickable cockpit that will show you where each item is located.
@@ -80,7 +80,7 @@ After these pre-checks, we can start the aircraft starting with the initial powe
 `COCKPIT LIGHTING ............................................. AS REQUIRED`<br/>
 
 ??? tip "How and Where?"
-    [Flight Deck Overview](../../a380x-briefing/flight-deck){ .md-button }
+    [Flight Deck Overview](../a380x-briefing/flight-deck/index.md){ .md-button }
 
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
     clickable cockpit that will show you where each item is located.
@@ -132,15 +132,15 @@ After these pre-checks, we can start the aircraft starting with the initial powe
     It is recommended to keep the external power units to ON to reduce the APU load in hot weather conditions.
 
 ??? tip "How and Where?"
-    [Flight Deck Overview](../../a380x-briefing/flight-deck){ .md-button }
+    [Flight Deck Overview](../a380x-briefing/flight-deck/index.md){ .md-button }
 
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
     clickable cockpit that will show you where each item is located.
     
-    * [RMP 1 and 2](../../a380x-briefing/flight-deck/pedestal/rmp)
-    * [Standby Radio Navigation](../../a380x-briefing/flight-deck/pedestal/rmp)
-    * [Communication Frequencies](../../a380x-briefing/flight-deck/pedestal/rmp)
-    * [Interphone Reception](../../a380x-briefing/flight-deck/pedestal/rmp)
+    * [RMP 1 and 2](../a380x-briefing/flight-deck/pedestal/rmp.md)
+    * [Standby Radio Navigation](../a380x-briefing/flight-deck/pedestal/rmp.md)
+    * [Communication Frequencies](../a380x-briefing/flight-deck/pedestal/rmp.md)
+    * [Interphone Reception](../a380x-briefing/flight-deck/pedestal/rmp.md)
     * [APU Fire](../a380x-briefing/flight-deck/ovhd/apu-fire.md)
     * [Engine Fire](../a380x-briefing/flight-deck/ovhd/eng-fire.md)
     * [APU Master Switch](../a380x-briefing/flight-deck/ovhd/apu.md)
@@ -193,7 +193,7 @@ In the simulator, we are usually alone, so we will do the flow on our own.
 `EMERGENCY LOCATOR TRANSMITTER (INOP) ............................... ARMED`<br/>
 
 ??? tip "How and Where?"
-    [Flight Deck Overview](../../a380x-briefing/flight-deck){ .md-button }
+    [Flight Deck Overview](../a380x-briefing/flight-deck/index.md){ .md-button }
 
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
     clickable cockpit that will show you where each item is located.
@@ -232,7 +232,7 @@ In the simulator, we are usually alone, so we will do the flow on our own.
 `MAINTENANCE PANEL ALL LIGHTS.......................................... OFF`<br/>
 
 ??? tip "How and Where?"
-    [Flight Deck Overview](../../a380x-briefing/flight-deck){ .md-button }
+    [Flight Deck Overview](../a380x-briefing/flight-deck/index.md){ .md-button }
 
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
     clickable cockpit that will show you where each item is located.
@@ -261,14 +261,14 @@ In the simulator, we are usually alone, so we will do the flow on our own.
 `CVR TEST (INOP) .................................................... PRESS`<br/>
 
 ??? tip "How and Where?"
-    [Flight Deck Overview](../../a380x-briefing/flight-deck){ .md-button }
+    [Flight Deck Overview](../a380x-briefing/flight-deck/index.md){ .md-button }
 
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
     clickable cockpit that will show you where each item is located.
     
     * [Cargo Air Conditioning](../a380x-briefing/flight-deck/ovhd/cargo-air.md)
-    * [Radio Management Panel 3](../../a380x-briefing/flight-deck/ovhd/rmp)
-    * [Standby Radio Navigation](../../a380x-briefing/flight-deck/pedestal/rmp)
+    * [Radio Management Panel 3](../a380x-briefing/flight-deck/ovhd/rmp.md)
+    * [Standby Radio Navigation](../a380x-briefing/flight-deck/pedestal/rmp.md)
     * [CVR Test](../a380x-briefing/flight-deck/ovhd/cvr.md)
    
 ## Main Instrument Panel
@@ -280,7 +280,7 @@ In the simulator, we are usually alone, so we will do the flow on our own.
 `ANTI AKID (A-SKID) .................................................... ON`<br/>
 
 ??? tip "How and Where?"
-    [Flight Deck Overview](../../a380x-briefing/flight-deck){ .md-button }
+    [Flight Deck Overview](../a380x-briefing/flight-deck/index.md){ .md-button }
 
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
     clickable cockpit that will show you where each item is located.
@@ -335,7 +335,7 @@ In the simulator, we are usually alone, so we will do the flow on our own.
     ![img.png](../assets/beginner-guide/02_cockpit-preparation/fms-surv-default.png)
 
 ??? tip "How and Where?"
-    [Flight Deck Overview](../../a380x-briefing/flight-deck){ .md-button }
+    [Flight Deck Overview](../a380x-briefing/flight-deck/index.md){ .md-button }
 
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
     clickable cockpit that will show you where each item is located.
@@ -367,7 +367,7 @@ See [Preparing the MFD](03_preparing-fms.md) for more information.
 `ALTITUDE display .................... INITIAL EXPECTED CLEARANCE ALTITUDE`<br/>
 
 ??? tip "How and Where?"
-    [Flight Deck Overview](../../a380x-briefing/flight-deck){ .md-button }
+    [Flight Deck Overview](../a380x-briefing/flight-deck/index.md){ .md-button }
 
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
     clickable cockpit that will show you where each item is located.
@@ -389,7 +389,7 @@ See [Preparing the MFD](03_preparing-fms.md) for more information.
 `SLIDING WINDOWS LOCKED .................................... CLOSED/LOCKED`<br/>
 
 ??? tip "How and Where?"
-    [Flight Deck Overview](../../a380x-briefing/flight-deck){ .md-button }
+    [Flight Deck Overview](../a380x-briefing/flight-deck/index.md){ .md-button }
 
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
     clickable cockpit that will show you where each item is located.

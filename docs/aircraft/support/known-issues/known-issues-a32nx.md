@@ -332,7 +332,9 @@ any other issue on Discord.
     - Set the value `Joystick Button 8` for both the values shown below.
     - Set the ACTION TYPE for SET ENGINE NORM MODE to `ON RELEASE` shown below.
 
+    ![Sample TCA ENG issue resolution](https://media.discordapp.net/attachments/717548046522777604/969480302210719774/unknown.png){loading=lazy}
 
+    ![On release](https://media.discordapp.net/attachments/838062729398976522/969870219537436682/unknown.png){loading=lazy}
 
 
     ^^Additional Information^^
@@ -386,7 +388,7 @@ any other issue on Discord.
     
     - If you do use GSX, then much of the boarding and refueling process is completed through GSX itself, while also 
     still requiring some interaction with the A32NX EFB. This is explained in detail in our 
-    [GSX Integration Guide](../../a32nx/feature-guides/gsxintegration/index.md).
+    [GSX Integration Guide](https://docs.flybywiresim.com/fbw-a32nx/feature-guides/gsxintegration).
 
 ??? warning "Pop-out Feature Not Working"
     ### Pop-out Feature Not Working
@@ -553,7 +555,7 @@ Please try these before reporting any other issue on Discord.
 ??? tip "Sync MSFS Flight Plan with the A32NX Flight Plan"
     ### Sync MSFS Flight Plan with the A32NX Flight Plan
 
-    See [Sync to MSFS Flight Plan](#sync-msfs-flight-plan-with-the-a32nx-flight-plan)
+    See [Sync to MSFS Flight Plan](../../common/flight-planning-with-msfs.md#using-the-msfs-world-map-flight-planner-and-msfs-atc)
 
 ## Incompatible and Problematic Add-ons/Mods
 

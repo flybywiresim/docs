@@ -23,7 +23,7 @@ You can choose to use other software/websites to plan your route, but when using
     - [Little Nav Map](https://albar965.github.io/littlenavmap.html){target=new} (Flight Planning and Charts)
     - [ChartFox](https://chartfox.org/){target=new} (Charts)
     - [Navigraph](https://navigraph.com/){target=new} (Flight Planning and Charts) <span style="color:red;">**Requires Subscription**</span>
-    - See our [Custom Flight Management System](../../../aircraft/a32nx/feature-guides/cFMS.md) page and the [special notes section](../../../aircraft/a32nx/feature-guides/cFMS.md#special-notes) section.
+    - See our [Custom Flight Management System](../../../aircraft/a32nx/feature-guides/cFMS.md) page and the [special notes section](../../../aircraft/a32nx/feature-guides/cFMS.md#msfs-flight-planning) section.
 
 ## Flight Plan Import
 

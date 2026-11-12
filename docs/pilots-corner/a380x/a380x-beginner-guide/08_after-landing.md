@@ -72,14 +72,14 @@ This guide will cover these phases:
 `ANTI-ICE ..................................................... AS REQUIRED`<br/>
 
 ??? tip "How and Where"
-    [Flight Deck Overview](../../a380x-briefing/flight-deck){ .md-button }
+    [Flight Deck Overview](../a380x-briefing/flight-deck/index.md){ .md-button }
 
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
     clickable cockpit that will show you where each item is located.
     
-    * [RMP Panel](../../a380x-briefing/flight-deck/pedestal/rmp)
+    * [RMP Panel](../a380x-briefing/flight-deck/pedestal/rmp.md)
     * [Spoiler Lever](../a380x-briefing/flight-deck/pedestal/speed-brake.md)
-    * [Flaps Lever](../../a380x-briefing/flight-deck/pedestal/flaps-lever)
+    * [Flaps Lever](../a380x-briefing/flight-deck/pedestal/flap-lever.md)
     * [APU Master Switch](../a380x-briefing/flight-deck/ovhd/apu.md)
     * [Engine Start Selector](../a380x-briefing/flight-deck/ovhd/eng-start.md)
     * [Anti-Ice](../a380x-briefing/flight-deck/ovhd/anti-ice.md)

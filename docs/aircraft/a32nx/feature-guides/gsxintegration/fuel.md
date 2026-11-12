@@ -11,7 +11,7 @@ This page explains, how to use the fueling "synchronization" as-well as any cave
 
     Failure to understand these caveats can result in you having to disable integration to amend mistakes and possibly restarting the Couatl Engine.
 
-- GSX acts as a visual indicator, the actual fueling is managed by the aircraft's own systems. Notice that this is very different from how [payload](payload.md) functions. However, this allows you the freedom of [various fueling times](#realism-settings-for-fuel-time).
+- GSX acts as a visual indicator, the actual fueling is managed by the aircraft's own systems. Notice that this is very different from how [payload](payload.md) functions. However, this allows you the freedom of [various fueling times](../../../common/flypados3/ground.md#realism-settings-for-fuel-time).
 
 - GSX does not support defueling, which will result in a tooltip loop requesting that you adjust the fuel in the EFB. Refer to the [Usage](#usage) section on how this is handled.
 

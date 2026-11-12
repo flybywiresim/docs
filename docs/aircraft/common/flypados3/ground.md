@@ -120,7 +120,7 @@ The Payload page allows setting up the payload of the aircraft, board and deboar
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
 
-See our [Fuel and Weight](../../a32nx/feature-guides/loading-fuel-weight.md#development-version) page for more information on how to set 
+See our [Fuel and Weight](../../a32nx/feature-guides/loading-fuel-weight.md#loading-guide) page for more information on how to set
 up the payload.
 
 ### Setting Up Payload

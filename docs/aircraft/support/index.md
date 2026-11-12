@@ -20,7 +20,7 @@ add-on. We will describe each of them in more detail below.
 | 2. [How to Troubleshoot](#2-how-to-troubleshoot)                           |
 | 3. [Research Known Issues](#3-research-known-issues)                       |
 | 4. [Report Issue on Discord](#4-report-issue-on-discord)                   |
-| 5. [Report Issue on the A32NX GitHub](#5-report-issue-on-the-a32nx-github) |
+| 5. [Report Issue on the A32NX GitHub](#5-report-issue-on-the-a32nxa380x-github) |
 | 6. [Collecting Support Information](#collecting-support-information)       |
 
 ## 1. Learn How to Fly the Aircraft

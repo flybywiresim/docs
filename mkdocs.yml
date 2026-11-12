@@ -47,6 +47,8 @@ plugins:
     render_by_default: false
     on_error_fail: true
     force_render_paths: |
+      /aircraft/a32nx/a32nx-api/a32nx-systems-api.md
+      /aircraft/a380x/a380x-api/a380x-systems-api.md
       /dev-corner/dev-guide/repository-structure.md
       /dev-corner/flybywire-projects/discord-bot.md
   optimize:

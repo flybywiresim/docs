@@ -74,7 +74,7 @@ would not turn off certain systems and at some point simply start with the prepa
     Verify the amount of fuel left on board is consistent with the predicted fuel remaining.
 
 ??? tip "How and Where?"
-    [Flight Deck Overview](../../a380x-briefing/flight-deck){ .md-button }
+    [Flight Deck Overview](../a380x-briefing/flight-deck/index.md){ .md-button }
 
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
     clickable cockpit that will show you where each item is located.
@@ -161,7 +161,7 @@ This concludes *Disembarking Passengers and Baggage*.
 `NO SMOKING ........................................................... OFF`<br/>
 
 ??? tip "How and Where?"
-    [Flight Deck Overview](../../a380x-briefing/flight-deck){ .md-button }
+    [Flight Deck Overview](../a380x-briefing/flight-deck/index.md){ .md-button }
 
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
     clickable cockpit that will show you where each item is located.

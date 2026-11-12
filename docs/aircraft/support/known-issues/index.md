@@ -44,7 +44,7 @@ description: Explore reported issues and known bugs for the FlyByWire aircraft a
         Please visit the ^^Dedicated Custom Flight Management System^^ page for more information on our latest implementation:
     
         - [**Features + Issues**](../../a32nx/feature-guides/cFMS.md)
-        - [**Special Notes**](../../a32nx/feature-guides/cFMS.md)
+        - [**Special Notes**](../../a32nx/feature-guides/cFMS.md#msfs-flight-planning)
         - [**Known Issues**](../../a32nx/feature-guides/cFMS.md#known-issues)
 
     === "SimBridge"

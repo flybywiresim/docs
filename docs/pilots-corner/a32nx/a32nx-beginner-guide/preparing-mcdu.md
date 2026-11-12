@@ -315,7 +315,7 @@ Verify the flight plan by using the vertical slew keys to scroll through it.
 encountered on your F-PLN page.
 
     !!! warning ""
-        Additionally, make note of this [Special Case](../a32nx-advanced-guides/flight-planning/disco.md#special-case) on the discontinuity page.
+        Additionally, make note of this [Special Case](../a32nx-advanced-guides/flight-planning/disco.md#special-cases) on the discontinuity page.
 
 !!! info "Viewing Flight Plan on ND"
     We can also verify the route looks correct by selecting `Plan` on the EFIS control panel and watching the ND as we scroll through.
@@ -400,7 +400,7 @@ Now we can add our fuel on board (FOB). The amount we input in this field can be
 
 !!! info "Loading Fuel"
 
-    Via the EFB - [Learn How](../../../aircraft/common/flypados3/dispatch.md#fuel-page)
+    Via the EFB - [Learn How](../../../aircraft/common/flypados3/ground.md#fuel-page)
 
 ^^ECAM FOB^^
 

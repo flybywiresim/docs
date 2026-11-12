@@ -5,11 +5,15 @@
 ### Technical How-To
 
 - You can edit existing pages simply by editing an existing `pagename.md`.
-- To create a page, simply create a new file "pagename.md" in an appropriate folder and start writing your documentation. Best practices it to look at other pages regarding the general structure (Headings, Material for MkDocs features, etc.).
+- To create a page, simply create a new file "pagename.md" in an appropriate folder and start writing your documentation. Best practices it to look at other pages regarding the general structure (Headings, Zensical features, etc.).
 - Create the page in the navigation folder you feel this page belongs to. The Documentation Team will be happy to support you with the best location and also how to create a navigation to your page.
 - During the PR Review, the page can still be moved and navigation can be changed/added. So don't worry too much about it and focus on the content for your page.
 - Add images to the section's asset folder. Consider creating a folder for your page when using several images.
-- Although the FlyByWire Documentation Team will take care of navigation, it might still be of interest how the navigation is done. This is well explained on the [mkdocs-awesome-pages-plugin's README on their GitHub](https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin#Features){target=new}
+- Although the FlyByWire Documentation Team will take care of navigation, it might still be of interest how the navigation is done. Navigation uses native awesome-nav `.nav.yml` files. List pages explicitly to control their order and use a quoted `"*"` entry where useful to include remaining entries. Preserve existing hidden navigation behavior when changing a section.
+
+### External Content
+
+External content requires an internet connection and failed fetches block the build. For a full-file live include, use PyMdown Snippets with a URL and the line range `:2:` to omit the first line. See the [Discord bot page](../flybywire-projects/discord-bot.md) source for the directive syntax. Use the `external_markdown` macro for a section or for content that needs link rewrites. The macro is enabled only for configured paths. See the [A32NX Developer API](../../aircraft/a32nx/a32nx-api/a32nx-systems-api.md) source for an example of mapping upstream fragments to their local anchors.
 
 ### Extra Features
 
@@ -18,7 +22,7 @@ We have included through built in and external plugins some extra features to he
 !!! tip "Embedding YouTube Videos"
     We have included the plugin `mkdocs-video` to streamline adding YouTube embeds into documentation. This removes the necessity to inline `<iframe>` information within documentation pages.
 
-    The plugin uses the markdown image syntax with a custom marker defined in mkdocs.yml: `video-embed`.
+    Use Markdown image syntax with the `video-embed` marker defined in `mkdocs.yml`.
 
     ```md title="Sample YouTube Embed Code"
     ![video-embed](https://www.youtube.com/embed/3i1FaGKOwII)
@@ -27,7 +31,7 @@ We have included through built in and external plugins some extra features to he
 !!! tip "Search Exclusion"
     While writing documentation, you may want to include pages in the final build as part of the `docs/` directory, but not have these pages referenced within the search index.
 
-    You can simply add to the top of the document the following meta information to utilize mkdocs-material's built in search exclusion:
+    Add this front matter to keep the page out of the search index.
 
     ```md title="Search Exclusion Meta Snippet"
     ---
@@ -37,9 +41,9 @@ We have included through built in and external plugins some extra features to he
     ```
 #### Card Grids
 
-Card grids are a recent feature added to mkdocs-material. This allows for a grid of cards to be displayed on a page. This is useful for displaying a list of links to other pages, or for displaying a list of links to external resources. 
+Use card grids to group links to other pages or external resources.
 
-For more information visit the [mkdocs-material card grids documentation](https://squidfunk.github.io/mkdocs-material/reference/grids/){target=new}.
+For more information visit the [Zensical card grids documentation](https://zensical.org/docs/authoring/grids/){target=new}.
 
 ---
 
@@ -85,26 +89,26 @@ Below is an example of our current use case in the FlyByWire Documentation Proje
           This is a markdown element that can be added to the card grid.
     </div>
 
-### Tips to Work Effectively with `mkdocs` (Change, Previews, etc.)
+<span id="tips-to-work-effectively-with-mkdocs-change-previews-etc"></span>
+
+### Editing and Previewing Changes
 
 - Have your editor and browser preview side-by-side on your screen.
-- Every time you save your file, the "mkdocs serve" should make your browser reload, and you can preview your changes directly.
+- Every time you save your file, the "zensical serve" should make your browser reload, and you can preview your changes directly.
 - Start with the structure of your documentation page. E.g., headlines first and maybe notes below the headlines of what the section should cover. Build up your page from there.
 - How to do:
     - Links: `[Link-Text](https://www.target.domain/page)`
         - internal links need a relative path to the .md file
         - add `{target=new}` to external links
         - look into existing pages for examples
-    - Other [Material for MkDocs features](https://squidfunk.github.io/mkdocs-material/reference/abbreviations/){target=new}
+    - Other [Zensical authoring features](https://zensical.org/docs/authoring/){target=new}
 
 ### Writing Good Documentation
 
 - Write documentation professionally and clearly.
 - Write for the targeted audience (Sim Beginner, Sim Veteran, Developers, etc.) and don't assume too much pre-knowledge 
   on the reader's side.
-- Use the full availability of features baked into 
-  [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/){target=new} to create readable and well formatted 
-  guides.
+- Use [Zensical](https://zensical.org/docs/){target=new} features to create readable, well-formatted guides.
 - Add illustrations where appropriate. Make sure you optimize images to be as small as possible (resize to their 
   actually used size and use PNG Compression).
   See [Image Assets Process](#image-assets-process) for more information.
@@ -135,7 +139,7 @@ Below is an example of our current use case in the FlyByWire Documentation Proje
 Our current build comes bundled with Image Optimization which is run explicitly during CI builds on GitHub. 
 
 !!! note "Bundled Optimization and Best Practices"
-    All images will be optimized and cached during both preview and production builds. No further action is *technically* required by a contributor.
+    Image optimization runs during CI builds. The Docker configuration disables optimization for local runs.
 
     We do still highly recommend the following for all images uploaded to the project:
 
