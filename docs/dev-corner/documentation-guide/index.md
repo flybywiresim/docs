@@ -71,7 +71,7 @@ To participate in the FlyByWire Documentation Project, you need to have the foll
     python -m pip install -r requirements-dev.txt
     ```
 
-    This installs Zensical 0.1.1 and the other tools used by the project. Reactivate the virtual environment when you open a new terminal.
+    `requirements-dev.txt` includes `requirements.txt`, which pins Zensical and installs its dependencies. Reactivate the virtual environment when you open a new terminal.
 
 - Editor / IDE:
     - Recommended: [Microsoft Visual Studio Code](https://code.visualstudio.com/docs#vscode){target=new}
@@ -80,7 +80,7 @@ To participate in the FlyByWire Documentation Project, you need to have the foll
             - especially for tables: [https://github.com/darkriszty/MarkdownTablePrettify-VSCodeExt](https://github.com/darkriszty/MarkdownTablePrettify-VSCodeExt){target=new}
             - any plugin to enter Unicode symbols like the narrow non-breakable space for the thousand separator in numbers - e.g., [https://github.com/brunnerh/insert-unicode](https://github.com/brunnerh/insert-unicode){target=new}
     - Or any [JetBrains](https://www.jetbrains.com/) IDE, e.g. IntelliJ IDEA or Clion.
-    - Or any text editor (even Notepad.exe will do) in conjunction with [stackedit.io](https://stackedit.io/){target=new} - Create and edit markdown on the web. Useful if you don't have / can't set up Zensical locally on your machine. Does not support material references. Please note this in your PR, so a maintainer can double-check your references render appropriately.
+    - Or any text editor (even Notepad.exe will do) in conjunction with [stackedit.io](https://stackedit.io/){target=new} to edit Markdown on the web. Mention in your PR if you could not preview locally so a maintainer can check the Zensical rendering.
 
 #### Social Cards Feature
 
@@ -148,18 +148,12 @@ The Docker configuration inherits `mkdocs.yml` and disables image optimization f
 
 #### Adding Plugins or Markdown Extensions
 
-Please use the alternative "key/value" pairs method when adding plugins or markdown extensions, with special note that an empty value must be provided when no options are defined.
+Use key/value pairs when adding plugins or Markdown extensions so configuration profiles can inherit their settings. Zensical provides native implementations for the configured search, navigation, video, lightbox, and social features. Check [plugin compatibility](https://zensical.org/docs/compatibility/mkdocs/plugins/) before adding another plugin.
 
 ```yaml title="Sample New Config"
 plugins:
   search: {}
   mkdocs-video: {}
-```
-
-```yaml title="Old Config"
-plugins:
-    - search
-    - mkdocs-video
 ```
 
 ### Build Pipeline and Config Changes

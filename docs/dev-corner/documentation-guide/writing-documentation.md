@@ -9,7 +9,23 @@
 - Create the page in the navigation folder you feel this page belongs to. The Documentation Team will be happy to support you with the best location and also how to create a navigation to your page.
 - During the PR Review, the page can still be moved and navigation can be changed/added. So don't worry too much about it and focus on the content for your page.
 - Add images to the section's asset folder. Consider creating a folder for your page when using several images.
-- Although the FlyByWire Documentation Team will take care of navigation, it might still be of interest how the navigation is done. Navigation uses native awesome-nav `.nav.yml` files. List pages explicitly to control their order and use a quoted `"*"` entry where useful to include remaining entries. Preserve existing hidden navigation behavior when changing a section.
+
+### Navigation
+
+Zensical's built-in `awesome-nav` reads `.nav.yml` files in the documentation directories. The Documentation Team can help place new pages in the appropriate section.
+
+The Documentation Guide uses this file to set its section title and put the overview first. The quoted `"*"` includes the remaining pages in that directory.
+
+```yaml title="docs/dev-corner/documentation-guide/.nav.yml"
+title: Documentation Guide
+nav:
+    - index.md
+    - "*"
+```
+
+To choose a label and position for a page, add an explicit entry such as `- Writing Documentation: writing-documentation.md` before the wildcard. A section can use `hide: true` in its `.nav.yml` to keep it out of navigation. Its pages remain accessible by URL. Use `search.exclude: true` in a page's front matter to exclude it from search, as shown below.
+
+See the [Awesome Nav compatibility guide](https://zensical.org/docs/compatibility/mkdocs/plugins/#awesome-nav) for supported options.
 
 ### External Content
 
@@ -17,16 +33,18 @@ External content requires an internet connection and failed fetches block the bu
 
 ### Extra Features
 
-We have included through built in and external plugins some extra features to help with documentation building and layout.
+Zensical provides features for documentation layout and media. The external Markdown macro described above is maintained in this repository.
 
 !!! tip "Embedding YouTube Videos"
-    We have included the plugin `mkdocs-video` to streamline adding YouTube embeds into documentation. This removes the necessity to inline `<iframe>` information within documentation pages.
+    Zensical renders video embeds using its built-in `mkdocs-video` compatibility support. The `mkdocs.yml` configuration sets the marker to `video-embed`.
 
-    Use Markdown image syntax with the `video-embed` marker defined in `mkdocs.yml`.
+    Use Markdown image syntax with a YouTube embed URL. YouTube NoCookie URLs using `https://www.youtube-nocookie.com/embed/` also work.
 
     ```md title="Sample YouTube Embed Code"
     ![video-embed](https://www.youtube.com/embed/3i1FaGKOwII)
     ```
+
+    See the [Zensical video documentation](https://zensical.org/docs/compatibility/mkdocs/plugins/#video) for the supported settings.
 
 !!! tip "Search Exclusion"
     While writing documentation, you may want to include pages in the final build as part of the `docs/` directory, but not have these pages referenced within the search index.
@@ -136,7 +154,7 @@ Below is an example of our current use case in the FlyByWire Documentation Proje
   
 #### Image Optimization
 
-Our current build comes bundled with Image Optimization which is run explicitly during CI builds on GitHub. 
+Zensical optimizes images during CI builds. This project's configuration disables PNG optimization, so compress PNG files before adding them.
 
 !!! note "Bundled Optimization and Best Practices"
     Image optimization runs during CI builds. The Docker configuration disables optimization for local runs.
@@ -150,8 +168,7 @@ Our current build comes bundled with Image Optimization which is run explicitly 
     Width of images on docs based on the responsive layout.
 
     - Change the size according to the table - max width is 826 px
-    - All images can be clicked and zoomed out to the original size - so if you have a lot of details in the image, 
-      you can make it smaller and let the user zoom in if needed. The limit is a reasonable size of the image.  
+    - Zensical's built-in lightbox lets readers enlarge images. Images with the `skip-lightbox` class are excluded. Use a reasonable image size even when readers can enlarge it.
     
     | Size     | Width   |
     |:---------|:--------|
