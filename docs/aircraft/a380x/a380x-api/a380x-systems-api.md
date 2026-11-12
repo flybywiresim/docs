@@ -17,13 +17,13 @@ In addition to the above documentation, all custom variables and custom events a
 
 ## Developer SimVars Documentation
 
-{{ external_markdown('https://raw.githubusercontent.com/flybywiresim/aircraft/refs/heads/master/fbw-a380x/docs/a380-simvars.md', '') }}
+--8<-- "https://raw.githubusercontent.com/flybywiresim/aircraft/refs/heads/master/fbw-a380x/docs/a380-simvars.md:2:"
 
 ## Developer Input Events Documentation
 
-{{ external_markdown('https://raw.githubusercontent.com/flybywiresim/aircraft/refs/heads/master/fbw-a380x/docs/a380x-input-events.md', '') }}
+--8<-- "https://raw.githubusercontent.com/flybywiresim/aircraft/refs/heads/master/fbw-a380x/docs/a380x-input-events.md:2:"
 
-{{ external_markdown('https://raw.githubusercontent.com/flybywiresim/aircraft/refs/heads/master/fbw-a380x/docs/a380x-private-local-vars.md', '') }}
+--8<-- "https://raw.githubusercontent.com/flybywiresim/aircraft/refs/heads/master/fbw-a380x/docs/a380x-private-local-vars.md:2:"
 
 
 

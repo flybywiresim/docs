@@ -1,4 +1,4 @@
-collapse_single_pages: true
+flatten_single_child_sections: true
 title: ECAM SD
 nav:
   - Overview: index.md

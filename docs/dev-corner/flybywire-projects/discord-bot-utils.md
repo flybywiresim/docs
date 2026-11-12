@@ -51,8 +51,8 @@ For information on how to contribute to bot development, visit the Discord bot r
 
 The following commands utilize the ++slash++ prefix.
 
-{{ external_markdown('https://assets.discord.flybywirecdn.com/utils/commands_table.md', '') }}
+--8<-- "https://assets.discord.flybywirecdn.com/utils/commands_table.md:2:"
 
 ## Changelog
 
-{{ external_markdown('https://raw.githubusercontent.com/flybywiresim/discord-bot-utils/staging/.github/CHANGELOG.md', '') }}
+--8<-- "https://raw.githubusercontent.com/flybywiresim/discord-bot-utils/staging/.github/CHANGELOG.md:2:"

@@ -5,4 +5,4 @@ nav:
   - Glareshield: glareshield
   - Main Panel: main-panel
   - Pedestal: pedestal
-  - ...
+  - "*"

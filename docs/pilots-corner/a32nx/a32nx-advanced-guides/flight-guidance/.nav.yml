@@ -3,9 +3,10 @@
 # - Titles for specific pages or subdirectories
 # - Order of pages (otherwise alphabetical order)
 
-title: Livery Creators
+title: Flight Guidance
 nav:
-    - Overview: index.md
-    - A380X Paintkit: a380x-paintkit.md
-    - A32NX Texture Changes: a32nx-texture-changes.md
-    - ...
+    - Overview: overview.md
+    - Autoland: autoland.md
+    - TCAS: tcas.md
+    - Vertical Guidance: vertical-guidance
+#   - "*"

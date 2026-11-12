@@ -3,10 +3,9 @@
 # - Titles for specific pages or subdirectories
 # - Order of pages (otherwise alphabetical order)
 
-title: Flight Guidance
+title: Protections
 nav:
-    - Overview: overview.md
-    - Autoland: autoland.md
-    - TCAS: tcas.md
-    - Vertical Guidance: vertical-guidance
-#   - ...
+    - Normal Law: overview.md
+    - Abnormal Laws: abnormallaw.md
+    - afloor.md
+#    - "*"
