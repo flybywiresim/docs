@@ -456,8 +456,8 @@ When the FMS first starts, it will show a screen showing the current status of t
     * For `TAXI`, we set the value to `1.0`.
     * `PAX NBR` we set to `399`.
     * The `CI` should already be set to `10`, but it's good to verify.
-    * `RTE RSV` is grayed out and can not be configured at this time, this is expected. As long as `BLOCK` is correctly 
-      filled in, the FMS will take all fuel on board in account.
+    * `RTE RSV` is calculated by the FMS and can be changed if needed. Only change it if the OFP specifies a different
+      route reserve. As long as `BLOCK` is correctly filled in, the FMS will take all fuel on board in account.
     * For the `ALTN` value, we set `5.9`.
     * Finally, check the `FINAL` value, it should be close to what is in the OFP, if not, fill in the correct value as 
       described in the OFP. This might slightly change the time indication for your final reserve.
