@@ -36,9 +36,6 @@ To begin using your keyboard with the MCDU, you must first enable the function w
 
 Once you have completed the above steps, simply click on the MCDU screen to put it into focus. The MCDU will display a visual indicator when input is ready to be accepted. The scratchpad should be highlighted, and the title will be highlighted in cyan as well.
 
-Visual indicator sample:
-
-![visual sample](https://media.discordapp.net/attachments/717548046522777604/857051288003674142/unknown.png)
 
 ### Accepted Keys
 

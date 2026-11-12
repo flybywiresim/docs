@@ -97,7 +97,7 @@ As the weather gets progressively worse, the higher the category you need to use
 
 The CAT IIIC can be performed without ever seeing anything at all, but this is not in practice yet as there has not been a system designed for the aircraft to be able to leave the runway and go to the parking stands completely blind. The A320 family is capable of everything, including CAT IIIC.
 
-![fog](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Furtwangen_Jan_05_fog_GHB.jpg/640px-Furtwangen_Jan_05_fog_GHB.jpg)
+![fog](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Furtwangen_Jan_05_fog_GHB.jpg/500px-Furtwangen_Jan_05_fog_GHB.jpg)
 
 <sub> MichaelDiederich CC BY-SA 3.0
 
@@ -124,7 +124,7 @@ These are defined in feet, *or meters if that airspace uses meter altitudes* and
 
     **DH** - with respect to the operation of aircraft, means the height at which a decision must be made during an ILS, MLS, or PAR IAP to either continue the approach or to execute a missed approach. CAT II and III approach DHs are referenced to AGL and measured with a radio altimeter.
 
-    Source: [FAA IPH - FAA-H-8083-16B; Chapter 4](https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/instrument_procedures_handbook/media/FAA-H-8083-16B_Chapter_4.pdf){target=new}
+    Source: [FAA IPH - FAA-H-8083-16B; Chapter 4](https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/instrument_procedures_handbook/FAA-H-8083-16B_Chapter_4.pdf){target=new}
     
     [Download FAA IPH](https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/instrument_procedures_handbook/){.md-button target=new}
 
@@ -200,7 +200,7 @@ No vehicles or aircraft are allowed into this area while an Autoland is being ma
 The aircraft must first be certified as capable of doing an Autoland and have all the equipment functioning that it was certified with. Many systems used must have a backup, especially for the very low visibility approaches such as CAT IIIB/C, including dual autopilots. If any of these systems fail, the aircraft is normally reduced in its landing capability to a lower Category of ILS. The Airbus has an extra Red warning light in front of the pilot’s eyesight, which flashes if any Autoland equipment fails while the aircraft is performing an Autoland. Depending on when this happens, this can force the pilots to do a go-around to prevent an accident.
 
 ![autoland2](https://upload.wikimedia.org/wikipedia/commons/3/34/Cockpit_of_Kam_Air_Airbus_A320.jpeg)
-<sub> UR-SDV (GFDL <http://www.gnu.org/copyleft/fdl.html> or GFDL <http://www.gnu.org/copyleft/fdl.html>), via Wikimedia Commons
+<sub> UR-SDV (GFDL <https://commons.wikimedia.org/wiki/File:Cockpit_of_Kam_Air_Airbus_A320.jpeg#Licensing> or GFDL <https://commons.wikimedia.org/wiki/File:Cockpit_of_Kam_Air_Airbus_A320.jpeg#Licensing>), via Wikimedia Commons
 
 Another rule onboard is the banning of the use of personal electronic devices (PEDs). This is required to prevent any sort of interference with the onboard equipment on the aircraft, as it is that sensitive to radio signals. Normal approaches do not require this level of protection, so many airlines now allow the use of devices during all phases of flight. As testing all possible devices that a passenger could possibly bring on board is a bit impractical, a complete ban is enforced to cover all potential issues. Nowadays, some aircraft have removed the No Smoking sign and replaced it with a No Electronic Devices sign to account for the change in times. A prerecorded public announcement is usually played, and the flight attendants will check for devices being used before the approach is made.
 

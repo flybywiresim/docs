@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 400" role="img" aria-labelledby="title desc">
+  <title id="title">Illustrative CG envelope</title>
+  <desc id="desc">A weight versus longitudinal center of gravity chart showing a point inside the envelope and a point outside the forward boundary.</desc>
+  <rect width="700" height="400" fill="#fff"/>
+  <g font-family="Arial, sans-serif" fill="#172b3a">
+    <text x="350" y="35" text-anchor="middle" font-size="22" font-weight="bold">Illustrative CG envelope</text>
+    <path d="M100 320H640 M100 320V65" fill="none" stroke="#172b3a" stroke-width="3"/>
+    <path d="M205 285 L245 110 L485 110 L535 285 Z" fill="#d9eef3" stroke="#006d80" stroke-width="4"/>
+    <circle cx="355" cy="205" r="7" fill="#006d80"/>
+    <text x="370" y="210" font-size="17">Inside envelope</text>
+    <circle cx="170" cy="200" r="7" fill="#a52d27"/>
+    <text x="115" y="175" font-size="17">Outside</text>
+    <text x="195" y="100" font-size="16">Forward boundary</text>
+    <text x="455" y="100" font-size="16">Aft boundary</text>
+    <text x="370" y="355" text-anchor="middle" font-size="18">Longitudinal center of gravity</text>
+    <text x="105" y="345" font-size="15">Forward</text>
+    <text x="600" y="345" font-size="15">Aft</text>
+    <text x="30" y="195" text-anchor="middle" font-size="18" transform="rotate(-90 30 195)">Weight</text>
+  </g>
+</svg>

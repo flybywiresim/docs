@@ -28,7 +28,7 @@ description: Explore reported issues and known bugs for the FlyByWire aircraft a
     2. [Troubleshoot](../index.md#2-how-to-troubleshoot)
     3. [Research Known Issues](../index.md#3-research-known-issues)
     4. [Report Issue on Discord](../index.md#4-report-issue-on-discord)
-    5. [Report Issue on the FBW Aircraft GitHub](../index.md#5-report-issue-on-the-a32nx-github)
+    5. [Report Issue on the FBW Aircraft GitHub](../index.md#5-report-issue-on-the-a32nxa380x-github)
     6. [Collecting Support Information](../index.md#collecting-support-information)
 
     === "Custom Autopilot"
@@ -44,7 +44,7 @@ description: Explore reported issues and known bugs for the FlyByWire aircraft a
         Please visit the ^^Dedicated Custom Flight Management System^^ page for more information on our latest implementation:
     
         - [**Features + Issues**](../../a32nx/feature-guides/cFMS.md)
-        - [**Special Notes**](../../a32nx/feature-guides/cFMS.md#special-notes)
+        - [**Special Notes**](../../a32nx/feature-guides/cFMS.md)
         - [**Known Issues**](../../a32nx/feature-guides/cFMS.md#known-issues)
 
     === "SimBridge"
@@ -71,7 +71,7 @@ description: Explore reported issues and known bugs for the FlyByWire aircraft a
 <div class="grid cards" markdown>
 
 - [Installer Known Issues](known-issues-installer.md)
-- [SimBridge](#simbridge)
+- [SimBridge](../../../tools/simbridge/troubleshooting.md)
 
 </div>
 
