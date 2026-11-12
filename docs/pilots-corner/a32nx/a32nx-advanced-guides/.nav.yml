@@ -3,12 +3,14 @@
 # - Titles for specific pages or subdirectories
 # - Order of pages (otherwise alphabetical order)
 
-title: Airliner Flying Guide
+title: Advanced Guides
 nav:
     - Overview: overview.md
-    - approaches.md
-    - navigation.md
-    - altitude-refs.md
-    - weather.md
-    - runway-conditions.md
-    - ...
+    - engines
+    - flight-planning
+    - flight-guidance
+    - protections
+    - data-management.md
+    - ice-rain-protection.md
+    - rejected-take-off.md
+#    - "*"

@@ -1,3 +1,6 @@
+sort:
+    type: alphabetical
+    sections: mixed
 nav:
     - Home: index.md
     - aircraft

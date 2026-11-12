@@ -75,4 +75,4 @@ The following commands still utilize the ++period++ prefix.
 
 ## Changelog
 
-{{ external_markdown('https://raw.githubusercontent.com/flybywiresim/discord-bot/master/.github/CHANGELOG.md', '') }}
+--8<-- "https://raw.githubusercontent.com/flybywiresim/discord-bot/master/.github/CHANGELOG.md:2:"

@@ -6,9 +6,9 @@
 title: Development Corner
 nav:
     - Overview: index.md
-    - Developer Guide: dev-guide
+    - Development Guide: dev-guide
     #- Localization Guide: localization-guide
     - Livery Creators: livery-creators
     - Documentation Guide: documentation-guide
-    - Other Guides: other
+    - Additional Resources: other
     - FlyByWire Projects: flybywire-projects

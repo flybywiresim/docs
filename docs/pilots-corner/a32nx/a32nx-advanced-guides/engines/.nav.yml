@@ -3,9 +3,7 @@
 # - Titles for specific pages or subdirectories
 # - Order of pages (otherwise alphabetical order)
 
-title: Protections
+title: Engines
 nav:
-    - Normal Law: overview.md
-    - Abnormal Laws: abnormallaw.md
-    - afloor.md
-#    - ...
+    - "*"
+    - crossbleed-start.md

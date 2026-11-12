@@ -86,13 +86,9 @@ jobs:
         uses: actions/setup-python@v6
         with:
           python-version: '3.11'
-      - name: Install pngquant for image optimization
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y pngquant
       - run: |
           pip install -r requirements.txt
-          mkdocs build -s
+          zensical build --strict
 
   report:
     needs: [authorize, build]
