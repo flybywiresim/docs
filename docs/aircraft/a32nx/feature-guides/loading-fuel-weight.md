@@ -56,7 +56,7 @@ This section provides information on the A32NX weight configuration and insight 
     !!! warning "This is not your Center of Gravity for trimming."
     
     - See our [Weights and Balance](loading-fuel-weight.md#weights-and-balance) section in the simBrief integration feature guide.
-    - You can read about INIT B configuration [here](../../../pilots-corner/a32nx/a32nx-beginner-guide/preparing-mcdu.md#init-b).
+    - You can read about INIT B configuration [here](../../../pilots-corner/a32nx/a32nx-beginner-guide/preparing-mcdu.md#init-fuel-pred).
     
     ### Center of Gravity
     
@@ -97,7 +97,7 @@ Make sure you have our latest [simBrief Profile](../../install/installation.md#s
 
     --}
 
-    - Fuel: Now done via the [EFB](../../common/flypados3/dispatch.md#fuel-page).
+    - Fuel: Now done via the [EFB](../../common/flypados3/ground.md#fuel-page).
     - Payload: Done through the Payload tab on the EFB. See [Weights and Balance](#weights-and-balance)
 
 ### Weights
@@ -195,7 +195,7 @@ Change the default weights as required, and make sure you select Save Aircraft a
 
     --}
 
-    - Fuel: Now done via the [EFB](../../common/flypados3/dispatch.md#fuel-page).
+    - Fuel: Now done via the [EFB](../../common/flypados3/ground.md#fuel-page).
     - Payload: Done through the Payload tab on the EFB. See [Weights and Balance](#weights-and-balance)
 
 ### Fuel
@@ -223,7 +223,7 @@ Get our [simBrief Profile](../../install/installation.md#simbrief-airframe).
     - When there is a GW mismatch of more than 7 tonnes between the values calculated aerodynamically and the value calculated using the inputted ZFW and fuel flow `CHECK 
     WEIGHT` will be displayed in amber on the MCDU Scratchpad.
     
-    See [flyPadOS 3 - Development Version](../../common/flypados3/settings.md#aircraft-options--pin-programs) settings page if you wish to change the weight unit used by the 
+    See [flyPadOS 3 - Development Version](../../common/flypados3/settings.md#aircraft-options-pin-programs) settings page if you wish to change the weight unit used by the
     aircraft systems.
 
 #### Loading Guide

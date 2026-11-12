@@ -9,13 +9,6 @@ description: Overview of the FlyByWire Documentation Guide
 
 ## Background
 
-!!! warning "Required Tools Update"
-    The dependency `click>8.2.2` creates an issue when utilizing `mkdocs serve --dirty` where the development server does not auto-reload the browser after detecting file changes.
-
-    As a workaround to dev builds we have created a `requirements-dev.txt` for use within your virtual environments which pins the version to `8.2.1` until a new release from `click` is provided to solve the issue.
-
-    Please see the section [Required Tools](#required-tools) for more information.
-
 !!! info "Guides"
     If you would like to setup the documentation project locally please continue with this guide.
 
@@ -47,53 +40,38 @@ If you have questions or suggestions, or if you want to contribute to the FlyByW
 To participate in the FlyByWire Documentation Project, you need to have the following tools installed:
 
 - GitHub account and Git ([GitHub Quickstart](https://docs.github.com/en/get-started/quickstart){target=new})
-- Python ([Python Downloads](https://www.python.org/downloads/){target=new})
-- Install the following Python-based tools (see install command below):
-    - MkDocs ([MkDocs](https://www.mkdocs.org/){target=new})
-    - mkdocs-awesome-pages-plugin
-    - mkdocs-git-revision-date-localized-plugin
-    - mkdocs-redirects
-    - mkdocs-embed-external-markdown
-    - mkdocs-video
-    - mike
-    - pillow
-    - cairosvg
-- Create and activate a Python Virtual Environment (`virtualenv`) to be used for working on the documentation project:
-    ```title="Run In Terminal"
+- Python 3.11 ([Python Downloads](https://www.python.org/downloads/){target=new})
+- From the repository root, create a virtual environment with Python 3.11.
+
+    ```bash
     python -m venv venv
     ```
 
-    Once created, you need to activate it. Use the following command on Windows:
-    ```title="Activating virtualenv in Powershell including Console in Visual Studio Code"
+    Activate it with this command in Windows PowerShell.
+
+    ```powershell
     .\venv\Scripts\Activate.ps1
     ```
-    ```title="Activating virtualenv in CMD"
+
+    Use this command in Windows Command Prompt.
+
+    ```cmd
     .\venv\Scripts\activate.bat
     ```
-    Or the following command on Linux and macOS:
-    ```title="Activating virtualenv on Linux and macOS"
+
+    Use this command on Linux or macOS.
+
+    ```bash
     source venv/bin/activate
     ```
-- Install dependencies with this single line command:
-    !!! tip "Local Development"
-          ```title="Run In Terminal"
-          pip install -r requirements-dev.txt
-          ```
 
-    ```title="Production Builds - Run In Terminal"
-    pip install -r requirements.txt
+- Install the development dependencies. This also installs the packages pinned in `requirements.txt`.
+
+    ```bash
+    python -m pip install -r requirements-dev.txt
     ```
-!!! info "Using `virtualenv`"
-    Starting with Python 3.11, the `pip` tool will fail to install dependencies and packages globally, instead it's recommended to use `virtualenv`. If you desire to install packages globally, you must use another tool, such as [`pipx`](https://github.com/pypa/pipx). We recommend using `virtualenv` because it's easier and the recommended way to work on Python projects.
-!!! danger "Activating `virtualenv`"
-    It's important to note that `virtualenv` activation is not persisted. If you restart your terminal/command prompt and want to preview your work on the documentation project again, you have to reactivate your `virutalenv` using the appropriate activation command that was shown earlier in this guide.
-!!! info "Pillow + Cairo Dependency"
-    As part of the new social card feature released with `mkdocs-material 8.5.0` [Pillow](https://pillow.readthedocs.io/) and [Cairo Graphics](https://www.cairographics.org/) 
-    dependencies were added. We bundle this as part of our `requirements.txt` to ensure the dependencies are installed when attempting to test [social cards locally](#social-cards-feature). If you encounter any issues with these python packages:
 
-    - Install [GTK+](https://www.gtk.org/docs/installations/windows/) for Windows.
-
-    For more information, including other operating systems, refer to the [Social Card Dependencies](https://squidfunk.github.io/mkdocs-material/setup/setting-up-social-cards/#dependencies) Section on the `mkdocs-material` documentation.
+    This installs Zensical 0.1.1 and the other tools used by the project. Reactivate the virtual environment when you open a new terminal.
 
 - Editor / IDE:
     - Recommended: [Microsoft Visual Studio Code](https://code.visualstudio.com/docs#vscode){target=new}
@@ -102,7 +80,7 @@ To participate in the FlyByWire Documentation Project, you need to have the foll
             - especially for tables: [https://github.com/darkriszty/MarkdownTablePrettify-VSCodeExt](https://github.com/darkriszty/MarkdownTablePrettify-VSCodeExt){target=new}
             - any plugin to enter Unicode symbols like the narrow non-breakable space for the thousand separator in numbers - e.g., [https://github.com/brunnerh/insert-unicode](https://github.com/brunnerh/insert-unicode){target=new}
     - Or any [JetBrains](https://www.jetbrains.com/) IDE, e.g. IntelliJ IDEA or Clion.
-    - Or any text editor (even Notepad.exe will do) in conjunction with [stackedit.io](https://stackedit.io/){target=new} - Create and edit markdown on the web. Useful if you don't have / can't set up MkDocs locally on your machine. Does not support material references. Please note this in your PR, so a maintainer can double-check your references render appropriately.
+    - Or any text editor (even Notepad.exe will do) in conjunction with [stackedit.io](https://stackedit.io/){target=new} - Create and edit markdown on the web. Useful if you don't have / can't set up Zensical locally on your machine. Does not support material references. Please note this in your PR, so a maintainer can double-check your references render appropriately.
 
 #### Social Cards Feature
 
@@ -110,10 +88,7 @@ To participate in the FlyByWire Documentation Project, you need to have the foll
     For general purposes, you do not need to test or utilize this feature locally unless you want to develop or change configurations related to this feature. Please be aware of
     the information below if you intend to test this locally.
 
-We have added the social cards feature to the FBW documentation project. When generating the social cards locally, the directory `.cache` is created where all the assets are generated. See [Complete Local Builds](#complete-local-builds).
-
-You may need to manually clean any files within the `.cache` directory if you encounter any build issues after generating / modifying configuration files related to this 
-feature.
+Use the production profile to generate social cards in `site/assets/images/social/`. See [Complete Local Builds](#complete-local-builds) for the clean build command.
 
 ### Process
 
@@ -122,68 +97,27 @@ feature.
 - Fork the [:fontawesome-brands-github:{: .github } -  **Documentation Project GitHub**](https://github.com/flybywiresim/docs){target=new} ([How to fork a repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo){target=new}).
 - Create a local clone ([How to clone your forked repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo#cloning-your-forked-repository){target=new}).
 - Checkout the "primary" branch - this is the main branch of the current FlyByWire Documentation Project.
-- In a command line terminal, go to the cloned repository folder and start `mkdocs serve` to start the local preview server.
+- Start the local preview server from the repository root.
 
-    This should look like this:
-
-    ```
-    > mkdocs serve
-    INFO     -  Building documentation...
-    INFO     -  Cleaning site directory
-    INFO     -  Documentation built in 4.03 seconds
-    INFO     -  [12:05:30] Serving on http://127.0.0.1:8000/
-    ```
-  
-    !!! danger "Building the Project with No Internet Connection"
-        This project utilizes the `external-markdown` plugin, which pulls MarkDown files from other repositories during the build for both production and development. This helps reference other important documentation externally without having to copy and paste it into this project.
-        
-        When working on a feature branch without an internet connection, your development server may exit and fail to build, resulting in:
-        
-        ```
-        Error! https://[hyperlink here] returned connection error
-        ```
-        
-        ---
-
-        To bypass this issue, you can comment out the `external-markdown` plugin temporarily in `mkdocs.yml` found in the /root of this project. (Please ensure not to commit this change 
-        when creating a Pull Request.) See the example below:
-
-        ``` { .yaml .annotate title="mkdocs.yml example configured for offline builds" }
-        # Plugins
-        plugins:
-        search:
-          lang: en
-        # Comment out the plugin below if building docs without an internet connection.
-        # external-markdown: {} (1)
-        ```
-
-        1. For production or PR purposes, please ensure that the above plugin reads `external-markdown: {}` (without the preceding `#`) before finalizing your PR.
-  
-!!! info "Faster Preview Server"
-    You can opt to use a faster instance of the developer server by invoking the flag `--dirty`. This just checks for any markdown that has changed since the HTML was rendered and will reconstruct any relevant pages only, rather than rebuilding the entire website.
-
-    ```
-    mkdocs serve --dirty
+    ```bash
+    zensical serve
     ```
 
-    !!! danger ""
-        Navigation and new internal links may not get updated on other pages while using `--dirty`. Verify links using the standard serve or build command.
+- Open [http://127.0.0.1:8000/](http://127.0.0.1:8000/). The preview reloads when you save changes.
+- Before opening a PR, run the same strict build used by CI.
 
-- You can now browse the current checked out branch in a browser at this address: [http://127.0.0.1:8000/](http://127.0.0.1:8000/). The site renders every time you save any `filename.md` you are working on.
-- Optional: Build a static site locally for testing:
-
-    ```
-    mkdocs build --clean --no-directory-urls
+    ```bash
+    zensical build --strict
     ```
 
-    - The site will be built locally under `/site` on in your local repo for user testing. Open`index.html` in the root of `/site` to preview.
-    - Note: `--no-directory-urls` allows usage of reference links when browsing the locally built site. Prevents having to find each index.html related to every `filename.md` to preview the relevant page.
+!!! info "Internet Connection"
+    The build fetches external content, so an internet connection is required. If an external fetch fails, the build fails. Restore access and retry the build.
 
 #### Docker Workflow
 
 If you do not want to create a local Python `virtualenv`, you can run the documentation site in Docker instead.
 
-Start the preview server from the repository root:
+Run the preview server with Docker Compose from the repository root.
 
 ```bash
 docker compose up --build
@@ -191,25 +125,24 @@ docker compose up --build
 
 Then open [http://127.0.0.1:8000/](http://127.0.0.1:8000/).
 
-The repository is bind-mounted into the container, so saving changes locally will trigger MkDocs reloads in the running container just like a native setup.
+The repository is bind-mounted into the container, so saving changes locally will trigger Zensical reloads in the running container just like a native setup.
 
-To run a one-off local build validation in Docker:
+Use the Docker profile to run a one-off strict build.
 
 ```bash
-docker compose run --rm docs mkdocs build --clean --no-directory-urls --config-file docker.mkdocs.yml
+docker compose run --rm docs zensical build --strict --config-file docker.mkdocs.yml
 ```
 
-!!! info "Git Worktrees and Docker"
-    This checkout can live inside a Git worktree too. In that setup, the git metadata paths exposed through `.git` are valid on the host but not inside the container. The Docker workflow therefore uses `docker.mkdocs.yml`, which disables the git revision date plugin for containerized local runs. If you need to modify the mkdocs.yml, make sure to update the docker one too!
+The Docker configuration inherits `mkdocs.yml` and disables image optimization for containerized local runs.
 
 #### Make Changes or Additions to the Documentation
 
 - Create a new branch based on branch "primary" (might differ for certain subprojects) and checkout this new branch. Give a short but meaningful name to the branch.
 - Make initial changes to your local branch.
-- Create a [Draft Pull Request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-forkhttps://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork){target=new} (aka PR) early to let people know what you are working on.
+- Create a [Draft Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork){target=new} (aka PR) early to let people know what you are working on.
     - Explain in the PR Description what you are changing/adding and how people should review your changes.
 - Work on your changes locally, preview constantly and push your changes regularly to get a preview deployment for others to provide feedback.
-    - Every time you push changes to your PR, a preview is generated with a URL. You can share this link in Discord for the team to provide feedback easily. The URL (by the Vercel bot) is visible as a comment on your PR GitHub page.
+    - The GitHub PR build uploads `site/` as the `preview-build` artifact. The preview workflow downloads that artifact and deploys it to Cloudflare Pages. Share the preview URL with the team for feedback.
 - When finished, push your final changes to the PR, update the PR description if required and mark it "[Ready for Review](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/changing-the-stage-of-a-pull-request#marking-a-pull-request-as-ready-for-review){target=new}".
 - Someone from the documentation team will review your changes, provide feedback, potentially ask for changes, and eventually approve and merge your changes.
 
@@ -220,36 +153,32 @@ Please use the alternative "key/value" pairs method when adding plugins or markd
 ```yaml title="Sample New Config"
 plugins:
   search: {}
-  awesome-pages: {}
+  mkdocs-video: {}
 ```
 
 ```yaml title="Old Config"
 plugins:
     - search
-    - awesome-pages
+    - mkdocs-video
 ```
 
 ### Build Pipeline and Config Changes
 
-To facilitate smooth local development, we have made some changes between production builds and local development.
-
-Building for production now uses the `production.yml` file, which deep merges with mkdocs.yml using the `INHERIT` function with MkDocs.
-
-`mkdocs build --config-file production.yml`
+The local production-style configuration in `production.yml` inherits `mkdocs.yml` and enables social card generation. This configuration is separate from Cloudflare Pages dashboard settings.
 
 #### Complete Local Builds
 
-You can still follow the instructions to [preview your local clone](#preview-your-local-clone) to test and preview your changes locally.
+The production profile generates the full site, including social cards.
 
-If you would like to fully test a complete build of the production website, you need to run the following:
+```bash
+zensical build --clean --config-file production.yml
+```
 
-- `mkdocs serve --config-file production.yml` 
-- `mkdocs build --clean --no-directory-urls --config-file production.yml`
+The generated site is in `site/`. Use the same profile if you want to preview it in the browser.
 
-!!! info "Additional Plugins in `production.yml`"
-    The following plugins are included:
-    
-    - Social Cards
+```bash
+zensical serve --config-file production.yml
+```
 
 ## Ideas and Issues
 

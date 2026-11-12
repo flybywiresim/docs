@@ -159,7 +159,7 @@ If we are cleared to "line up" (or take-off) we will do the following steps.
 `TCAS TA ................................................. TA ONLY or TA/RA`<br/>
 
 ??? tip "Where and How?"
-    [Flight Deck Overview](../../a380x-briefing/flight-deck){ .md-button }
+    [Flight Deck Overview](../a380x-briefing/flight-deck/index.md){ .md-button }
 
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
     clickable cockpit that will show you where each item is located.
@@ -376,7 +376,7 @@ move thrust levers to the `CL` detent.
 `ANTI-ICE ..................................................... AS REQUIRED`<br/>
 
 ??? tip "How and Where"
-    [Flight Deck Overview](../../a380x-briefing/flight-deck){ .md-button }
+    [Flight Deck Overview](../a380x-briefing/flight-deck/index.md){ .md-button }
 
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
     clickable cockpit that will show you where each item is located.

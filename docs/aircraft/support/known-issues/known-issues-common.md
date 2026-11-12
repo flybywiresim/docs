@@ -17,7 +17,7 @@ Please try these before reporting any other issue on Discord.
 
     ^^Troubleshooting Steps^^
    
-    - [Test With Only the A32NX or A380X Add-on in Community](#test-with-only-the-a32nx-add-on-in-community)
+    - [Test With Only the A32NX or A380X Add-on in Community](#test-with-only-the-a32nx-or-a380x-add-on-in-community)
     - [Clean Install](#clean-install)
     - [Enable Windows UTF-8 Support](#enable-windows-utf-8-support)
     - [Make Sure to Use the Latest Version of MS Flight Simulator](#use-the-latest-version-of-ms-flight-simulator)
@@ -28,7 +28,7 @@ Please try these before reporting any other issue on Discord.
     !!! danger "**This is the most important troubleshooting step for Microsoft Flight Simulator!!**"
 
     To make sure the issue you are experiencing is not caused by a conflict with other add-ons or liveries 
-    **remove everything (really everything!) from your [Community Folder](#community-folder-content)** and perform a 
+    **remove everything (really everything!) from your [Community Folder](#check-your-msfs-uses-the-correct-community-folder)** and perform a
     [clean reinstall](../../install/installation.md#clean-install-steps) of the A32NX or the A380X with the 
     [FlyByWire Installer](https://flybywirecdn.com/installer/release/FlyByWire-Installer-x64.exe){target=new}.
 
@@ -85,9 +85,9 @@ Please try these before reporting any other issue on Discord.
     ^^Possible Solution or Workaround^^
 
     - [Do Not Use DX12](#do-not-use-dx12)
-    - [Toolbar Pushback Add-on Issues](#toolbar-pushback-add-on-issues)
-    - [Your Controls Performance Issues](#your-controls-performance-issues)
-    - [Test With Only the A32NX Add-on in Community](#test-with-only-the-a32nx-add-on-in-community)
+    - [Toolbar Pushback Add-on Issues](known-issues-a32nx.md#toolbar-pushback-add-on-issues)
+    - [Your Controls Performance Issues](known-issues-a32nx.md#your-controls-performance-issues)
+    - [Test With Only the A32NX Add-on in Community](#test-with-only-the-a32nx-or-a380x-add-on-in-community)
     - Make sure MSFS is configured for optimal performance 
         - See this article: [Graphic Settings in MSFS](https://forums.flightsimulator.com/t/how-to-graphics-settings-and-performance-guide-su5-complete-retest-8-2-2021/132407)
         - Tip: better to be GPU bound than CPU bound
@@ -182,8 +182,8 @@ Please try these before reporting any other issue on Discord.
     ^^Possible Solutions or Workarounds^^
 
     - [Disconnect the Tug](#disconnect-the-tug)
-    - [Toolbar Pushback Add-on Issues](#toolbar-pushback-add-on-issues)
-    - [Rudder/Pedal Settings](#rudder-or-toe-brake-operation-issues)
+    - [Toolbar Pushback Add-on Issues](known-issues-a32nx.md#toolbar-pushback-add-on-issues)
+    - [Rudder/Pedal Settings](known-issues-a32nx.md#rudder-or-toe-brake-operation-issues)
 
 ??? tip "Disconnect the Tug"
     ### Disconnect the Tug
@@ -226,7 +226,7 @@ Please try these before reporting any other issue on Discord.
     There currently is no known guaranteed solution for all cases; However, users have found success with by trying the following:
 
     1. Remove everything from the Community folder - **really everything**!<br />[Test With Only the A32NX Add-on in 
-    Community](#test-with-only-the-a32nx-add-on-in-community)
+    Community](#test-with-only-the-a32nx-or-a380x-add-on-in-community)
     1. [Enable Windows UTF-8 Support](#enable-windows-utf-8-support)
     1. Perform a [Clean Install](../../install/installation.md#clean-install-steps)
     1. Stop any third-party application which connect to MSFS<br/>

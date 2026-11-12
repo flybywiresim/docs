@@ -21,11 +21,21 @@ In addition to the above documentation, all custom variables and custom events a
 
 ## Developer SimVars Documentation
 
---8<-- "https://raw.githubusercontent.com/flybywiresim/aircraft/refs/heads/master/fbw-a32nx/docs/a320-simvars.md:2:"
+{{ external_markdown('https://raw.githubusercontent.com/flybywiresim/aircraft/refs/heads/master/fbw-a32nx/docs/a320-simvars.md', fragment_map={
+    '#a320neo-local-simvars': '#developer-simvars-documentation',
+    '#air-conditioning--pressurisation--ventilation': '#air-conditioning-pressurisation-ventilation',
+    '#flaps--slats-ata-27': '#flaps-slats-ata-27',
+    '#arinc429-output-bus-1': '#arinc429-output-bus_1',
+    '#gpws--taws-ata-34': '#gpws-taws-ata-34',
+    '#row--rop--oans-ata-34': '#row-rop-oans-ata-34',
+}) }}
 
 ## Developer Input Events Documentation
 
---8<-- "https://raw.githubusercontent.com/flybywiresim/aircraft/refs/heads/master/fbw-a32nx/docs/a320-events.md:2:"
+{{ external_markdown('https://raw.githubusercontent.com/flybywiresim/aircraft/refs/heads/master/fbw-a32nx/docs/a320-events.md', fragment_map={
+    '#a320neo-custom-events': '#developer-input-events-documentation',
+    '#fadec-internal-events---not-to-be-used-for-mapping': '#fadec-internal-events-not-to-be-used-for-mapping',
+}) }}
 
 
 

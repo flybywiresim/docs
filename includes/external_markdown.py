@@ -1,4 +1,4 @@
-"""Render selected sections of public upstream Markdown in the docs."""
+"""Render public upstream Markdown with the links needed by the docs."""
 
 import re
 from functools import lru_cache
@@ -50,7 +50,7 @@ def define_env(env):
             raise ValueError(f"Could not load required Markdown from {url}: {error}") from error
 
     @env.macro
-    def external_markdown(url, section=""):
+    def external_markdown(url, section="", fragment_map=None):
         markdown, source_url = fetch(url)
         content = select_section(markdown, section, url) if section else markdown.partition("\n")[2]
         if not content.strip():
@@ -58,6 +58,10 @@ def define_env(env):
 
         def rebase_link(match):
             target = match[2]
-            return match[1] + (target if target.startswith("#") else urljoin(source_url, target))
+            if target.startswith("#"):
+                target = (fragment_map or {}).get(target, target)
+            else:
+                target = urljoin(source_url, target)
+            return match[1] + target
 
         return INLINE_LINK.sub(rebase_link, content)

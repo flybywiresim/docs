@@ -121,7 +121,7 @@ Click `INSERT` and all information in the `INIT` page will be automatically fill
 
 !!! note
     #### RWY, SID, STAR, and APPR
-    The SimBrief import will **not** load RWY, SID, STAR, or APPR. You will need to manually add these into the flight plan. To learn how to set up the FMS, you can read the [**^^F^^**LIGHT PLAN](../../../pilots-corner/a380x/a380x-beginner-guide/03_preparing-fms.md#init--flight-plan-initialization) section in our beginner's guide.
+    The SimBrief import will **not** load RWY, SID, STAR, or APPR. You will need to manually add these into the flight plan. To learn how to set up the FMS, you can read the [**^^F^^**LIGHT PLAN](../../../pilots-corner/a380x/a380x-beginner-guide/03_preparing-fms.md#init-flight-plan-initialization) section in our beginner's guide.
 
     This is because RWY, SID, STAR and APPR are dependent on factors like active runways, traffic, weather, etc. and are determined by ATC and not the pilot's flight plan. They can be changed by ATC any time before takeoff or during flight and are therefore not imported in real life aircraft either.  
 

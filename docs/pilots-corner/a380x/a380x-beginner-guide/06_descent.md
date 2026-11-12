@@ -29,8 +29,8 @@ Aircraft is in `CRUISE` state and phase as per previous chapters
 
 This guide will cover these phases:
 
-1. [Descent and Approach Planning](#1-descent-and-approach-planning)
-2. [Starting the Descent](#2-starting-the-descent)
+1. [Descent and Approach Planning](#1-planning-the-descent-and-approach)
+2. [Starting the Descent](#starting-the-descent)
 3. [Flying the STAR and Approach](#3-flying-the-star-and-approach)
 4. [Intercepting ILS](#4-intercepting-ils)
 
@@ -500,7 +500,7 @@ This concludes *Descent and Approach Planning*.
 `NAVAIDS ................................................ AS REQUIRED/CHECK`<br/>
 
 ??? tip "How and Where?"
-    [Flight Deck Overview](../../a380x-briefing/flight-deck){ .md-button }
+    [Flight Deck Overview](../a380x-briefing/flight-deck/index.md){ .md-button }
 
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
     clickable cockpit that will show you where each item is located.

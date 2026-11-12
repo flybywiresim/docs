@@ -196,7 +196,7 @@ If below 100ft RA (radio altitude):
  
 ### Autoland Warning Light
 
-See [Cockpit Glareshield Warning Panel](../../a32nx-briefing/flight-deck/glareshield/warning.md#5--autoland-warning-light).
+See [Cockpit Glareshield Warning Panel](../../a32nx-briefing/flight-deck/glareshield/warning.md#5-autoland-warning-light).
 
 With `LAND` or `FLARE` on FMA and at least one `AP` engaged, the Autoland Warning Light (red) will appear when the aircraft is below 200Fft RA (radio altitude) and one of the following events occurs:
  

@@ -4,7 +4,7 @@ description: Explore reported issues and known bugs for the FlyByWire A32NX airc
 ---
 
 !!! danger "STOP"
-    [Read this first before reporting any issues on Discord or GitHub.](index.md#read-this-first)
+    [Read this first before reporting any issues on Discord or GitHub.](index.md#read-before-reporting-issues)
 
 ## Use the Browser's Search Function
 
@@ -67,10 +67,10 @@ any other issue on Discord.
 
     - Wait at least 20 - 30 min, as loading after an aircraft update can take a very long time because the sim compiles the so-called wasm files 
     - [Remove Old Marketplace Installation](#remove-old-marketplace-installation)
-    - [Clean Install](#clean-install)
-    - [Use the Latest Version of MS Flight Simulator](#use-the-latest-version-of-ms-flight-simulator)
-    - [Enable Windows UTF-8 Support](#enable-windows-utf8-support)
-    - [Test With Only the A32NX Add-on in Community](#test-with-only-the-a32nx-add-on-in-community)
+    - [Clean Install](known-issues-common.md#clean-install)
+    - [Use the Latest Version of MS Flight Simulator](known-issues-common.md#use-the-latest-version-of-ms-flight-simulator)
+    - [Enable Windows UTF-8 Support](known-issues-common.md#enable-windows-utf-8-support)
+    - [Test With Only the A32NX Add-on in Community](known-issues-common.md#test-with-only-the-a32nx-or-a380x-add-on-in-community)
 
 ??? bug "Broken Systems, Black Screens, Broken Cockpit Layout"
     ### Broken Systems, Black Screens, Broken Cockpit Layout
@@ -86,11 +86,11 @@ any other issue on Discord.
     
     Try these solutions:
 
-    - [Test With Only the A32NX Add-on in Community](#test-with-only-the-a32nx-add-on-in-community)
-    - [Clean Install](#clean-install)
+    - [Test With Only the A32NX Add-on in Community](known-issues-common.md#test-with-only-the-a32nx-or-a380x-add-on-in-community)
+    - [Clean Install](known-issues-common.md#clean-install)
     - [Remove Old Marketplace Installation](#remove-old-marketplace-installation)
-    - [Enable Windows UTF-8 Support](#enable-windows-utf8-support)
-    - [Use the Latest Version of MS Flight Simulator](#use-the-latest-version-of-ms-flight-simulator)
+    - [Enable Windows UTF-8 Support](known-issues-common.md#enable-windows-utf-8-support)
+    - [Use the Latest Version of MS Flight Simulator](known-issues-common.md#use-the-latest-version-of-ms-flight-simulator)
 
 ??? bug "Outdated Systems And Missing Features, Although Current Version Installed"
     ### Outdated Systems And Missing Features, Although Current Version Installed
@@ -106,9 +106,9 @@ any other issue on Discord.
     
     Try these solutions:
 
-    - [Make Sure You Have the Latest Version of the A32NX Add-on](#make-sure-you-have-the-latest-version-of-the-a32nx-add-on)
-    - [Test With Only the A32NX Add-on in Community](#test-with-only-the-a32nx-add-on-in-community)
-    - [Clean Install](#clean-install)
+    - [Make Sure You Have the Latest Version of the A32NX Add-on](known-issues-common.md#use-the-latest-version-of-the-aircraft)
+    - [Test With Only the A32NX Add-on in Community](known-issues-common.md#test-with-only-the-a32nx-or-a380x-add-on-in-community)
+    - [Clean Install](known-issues-common.md#clean-install)
 
 ??? bug "Cockpit Lights and Display Are Erratically On"
     ### Cockpit Lights and Display Are Erratically On
@@ -124,11 +124,11 @@ any other issue on Discord.
     
     Try these solutions:
 
-    - [Test With Only the A32NX Add-on in Community](#test-with-only-the-a32nx-add-on-in-community)
-    - [Clean Install](#clean-install)
+    - [Test With Only the A32NX Add-on in Community](known-issues-common.md#test-with-only-the-a32nx-or-a380x-add-on-in-community)
+    - [Clean Install](known-issues-common.md#clean-install)
     - [Remove Old Marketplace Installation](#remove-old-marketplace-installation)
-    - [Enable Windows UTF-8 Support](#enable-windows-utf8-support)
-    - [Use the Latest Version of MS Flight Simulator](#use-the-latest-version-of-ms-flight-simulator)
+    - [Enable Windows UTF-8 Support](known-issues-common.md#enable-windows-utf-8-support)
+    - [Use the Latest Version of MS Flight Simulator](known-issues-common.md#use-the-latest-version-of-ms-flight-simulator)
 
 ??? bug "Unexpected Engines Shut Down"
     ### Unexpected Engines Shut Down
@@ -294,7 +294,7 @@ any other issue on Discord.
 
     ^^Root Cause^^
 
-    See the root cause here: [Controls Freeze up While Looking Around](#controls-freeze-up-while-looking-around)
+    See the root cause here: [Controls Freeze up While Looking Around](known-issues-common.md#controls-freeze-up-while-looking-around)
 
     ^^Possible Solution or Workaround^^
 
@@ -555,7 +555,7 @@ Please try these before reporting any other issue on Discord.
 ??? tip "Sync MSFS Flight Plan with the A32NX Flight Plan"
     ### Sync MSFS Flight Plan with the A32NX Flight Plan
 
-    See [Sync to MSFS Flight Plan](../../a32nx/feature-guides/cFMS.md#sync-mcdu-to-msfs)
+    See [Sync to MSFS Flight Plan](../../common/flight-planning-with-msfs.md#using-the-msfs-world-map-flight-planner-and-msfs-atc)
 
 ## Incompatible and Problematic Add-ons/Mods
 

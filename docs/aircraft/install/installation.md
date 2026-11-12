@@ -48,7 +48,7 @@ You can find more information about the installer in our [Installer documentatio
 
         [Download Stable](https://github.com/flybywiresim/aircraft/releases/download/assets/stable/A32NX-stable.zip){.md-button target=new}
 
-        Latest release notes: [View Here](/latest-release/)
+        Latest release notes: [View Here](../../release-notes/index.md)
 
     === "Development Version"
 
@@ -75,7 +75,7 @@ You can find more information about the installer in our [Installer documentatio
 
         [Download Stable](https://github.com/flybywiresim/aircraft/releases){.md-button target=new}
 
-        Latest release notes: [View Here](/latest-release/)
+        Latest release notes: [View Here](../../release-notes/index.md)
 
     === "Development Version"
 

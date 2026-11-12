@@ -25,8 +25,7 @@ It also allows you to use your real printer as a cockpit printer for the MCDU.
     !!! tip ""
         The default port is: `8380`
 
-        This is valid for all options listed below. If you would like to change or confirm the port configuration of SimBridge, see our [port configuration documentation](../..
-        /install-configure/configuration.md#server-settings). 
+        This is valid for all options listed below. If you would like to change or confirm the port configuration of SimBridge, see our [port configuration documentation](../../install-configure/configuration.md#server-settings).
 
 ### Option 1: simbridge.local
 

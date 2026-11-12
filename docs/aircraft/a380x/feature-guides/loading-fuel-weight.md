@@ -45,7 +45,7 @@ This section provides information on the A380X weight configuration and insight 
     !!! warning "This is not your Center of Gravity for trimming."
     
     - See our [Weights and Balance](#loading-fuel-and-weight) section further down.
-    - You can read about the FMS implementation in the [Beginner Guid FMS Preparation](../../../pilots-corner/a380x/a380x-beginner-guide/03_preparing-fms.md#fuel--payload).
+    - You can read about the FMS implementation in the [Beginner Guid FMS Preparation](../../../pilots-corner/a380x/a380x-beginner-guide/03_preparing-fms.md#fuel-payload).
     
     ### Center of Gravity
     
@@ -196,12 +196,12 @@ Get our [SimBrief Profile](simbrief.md#simbrief-airframe).
 !!! warning "Cold and Dark Startup"
     When starting the aircraft from a **Cold and Dark** state, please be aware of the following important information:
 
-    - **FUEL&LOAD** must be completed before departure. (This is detailed in our [beginner guide](../../../pilots-corner/a380x/a380x-beginner-guide/03_preparing-fms.md#fuel--payload). 
+    - **FUEL&LOAD** must be completed before departure. See our [beginner guide](../../../pilots-corner/a380x/a380x-beginner-guide/03_preparing-fms.md#fuel-payload) for details.
     Please ensure that you complete this step when preparing the FMS).
     - Failure to complete the `FUEL&LOAD` page before starting an engine will display `INITIALIZE WEIGHT/CG` in amber on the FMS Messages.    
     - When there is a GW mismatch of more than 7 tonnes between the values calculated aerodynamically and the value calculated using the inputted ZFW and fuel flow `CHECK WEIGHT` will be displayed in amber on the FMS Messages.
     
-    See [flyPadOS 3 - Development Version](../../common/flypados3/settings.md#aircraft-options--pin-programs) settings page if you wish to change the weight unit used by the aircraft systems.
+    See [flyPadOS 3 - Development Version](../../common/flypados3/settings.md#aircraft-options-pin-programs) settings page if you wish to change the weight unit used by the aircraft systems.
 
 #### Loading Guide
 

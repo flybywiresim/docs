@@ -11,7 +11,7 @@ description: A guide to the GSX Integration provided in the A32NX.
 ## Description
 
 !!! warning "Please Note"
-    This guide covers GSX Integration and the features available in the latest FlyByWire [Development Version](../../../install/fbw-versions.md#development-version-recommended).
+    This guide covers GSX Integration and the features available in the latest FlyByWire [Development Version](../../../install/fbw-versions.md#development-edition-recommended).
 
     If you use the FlyByWire Stable version, you might not have all features available. This will be appropriately flagged throughout our documentation.
 
