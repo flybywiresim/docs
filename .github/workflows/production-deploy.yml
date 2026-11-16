@@ -1,0 +1,66 @@
+name: Deploy Production to Cloudflare Pages
+
+on:
+  pull_request_target:
+    types: [closed]
+    branches: [primary]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: cloudflare-pages-production
+  queue: max
+
+jobs:
+  deploy:
+    if: ${{ github.repository == 'flybywiresim/docs' && github.event.pull_request.merged == true }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout merged revision
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.pull_request.merge_commit_sha }}
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+
+      - name: Install requirements
+        run: pip install -r requirements.txt
+
+      - name: Build production site
+        run: |
+          zensical build --strict --config-file production.yml
+          test -s site/index.html
+          test -s site/search.json
+          test -s site/assets/images/social/index.png
+
+      - name: Find Cloudflare production branch
+        id: pages
+        env:
+          CLOUDFLARE_PAGES_API_TOKEN: ${{ secrets.CLOUDFLARE_PAGES_API_TOKEN }}
+          CLOUDFLARE_PAGES_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_PAGES_ACCOUNT_ID }}
+          CLOUDFLARE_DOCS_PROJECT: ${{ secrets.CLOUDFLARE_DOCS_PROJECT }}
+        run: |
+          set -euo pipefail
+          project=$(curl --fail-with-body --silent --show-error \
+            -H "Authorization: Bearer $CLOUDFLARE_PAGES_API_TOKEN" \
+            "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_PAGES_ACCOUNT_ID/pages/projects/$CLOUDFLARE_DOCS_PROJECT")
+          branch=$(jq -er 'select(.success == true) | .result.production_branch | select(type == "string" and length > 0)' <<< "$project") || {
+            echo 'Unable to resolve the Cloudflare Pages production branch.' >&2
+            exit 1
+          }
+          git check-ref-format --branch "$branch" >/dev/null
+          echo "branch=$branch" >> "$GITHUB_OUTPUT"
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v4
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_PAGES_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_PAGES_ACCOUNT_ID }}
+          wranglerVersion: '3.114.17'
+          command: pages deploy site --project-name=${{ secrets.CLOUDFLARE_DOCS_PROJECT }} --branch=${{ steps.pages.outputs.branch }} --commit-hash=${{ github.event.pull_request.merge_commit_sha }}
