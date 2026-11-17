@@ -68,8 +68,9 @@ This section provides information on the A380X weight configuration and insight 
     passenger/cargo loading. Fully understanding how the longitudinal CG envelope affects the aircraft can be difficult. 
     Below is a great deep dive on understanding the chart and what the information provided indicates.
 
-    <iframe src="https://www.sawe.ca/download/tech2011/Aircraft%20CG%20Envelopes.pdf" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;
-    margin-bottom:5px;max-width: 100%; overflow: hidden; width: 100%; height: 600px;" allowfullscreen></iframe>`
+    ![Illustrative CG envelope with weight on the vertical axis, forward and aft CG on the horizontal axis, and points inside and outside the boundaries](../../common/assets/flypados3/illustrative-cg-envelope.svg)
+
+    [flyPad CG diagram](../../common/flypados3/ground.md#center-of-gravity-diagram) | [FAA Weight & Balance Handbook (PDF)](https://www.faa.gov/sites/faa.gov/files/2023-09/Weight_Balance_Handbook.pdf)
 
 ---
 
@@ -197,7 +198,6 @@ Get our [SimBrief Profile](simbrief.md#simbrief-airframe).
     When starting the aircraft from a **Cold and Dark** state, please be aware of the following important information:
 
     - **FUEL&LOAD** must be completed before departure. See our [beginner guide](../../../pilots-corner/a380x/a380x-beginner-guide/03_preparing-fms.md#fuel-payload) for details.
-    Please ensure that you complete this step when preparing the FMS).
     - Failure to complete the `FUEL&LOAD` page before starting an engine will display `INITIALIZE WEIGHT/CG` in amber on the FMS Messages.    
     - When there is a GW mismatch of more than 7 tonnes between the values calculated aerodynamically and the value calculated using the inputted ZFW and fuel flow `CHECK WEIGHT` will be displayed in amber on the FMS Messages.
     
