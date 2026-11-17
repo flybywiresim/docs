@@ -452,7 +452,7 @@ We continue rolling forward until we passed the runway entry marker with the **f
 ![Aircraft stopped after runway is vacated](../assets/beginner-guide/07_landing/runway-vacated.png 
 "Aircraft stopped after runway is vacated"){loading=lazy} 
 
-We can now safely stop the aircraft and do our "After Landing" checklist - see next chapter.
+We can now safely stop the aircraft and do our "After Landing" tasks - see next chapter.
 
 If ATC did not already contact us on the ground, we would contact them now to let them know we have vacated the runway. 
 
