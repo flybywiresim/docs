@@ -322,6 +322,8 @@ def process_markdown_file(
     Returns (new_text, num_changes)
     """
     text = file_abs.read_text(encoding="utf-8")
+    bom = "\ufeff" if text.startswith("\ufeff") else ""
+    text = text[len(bom):]
     lines = text.splitlines(keepends=True)
 
     in_fence = False
@@ -410,7 +412,7 @@ def process_markdown_file(
 
         out_lines.append(line3)
 
-    return "".join(out_lines), total_changes
+    return bom + "".join(out_lines), total_changes
 
 
 def iter_markdown_files(docs_root: Path) -> Iterable[Path]:
