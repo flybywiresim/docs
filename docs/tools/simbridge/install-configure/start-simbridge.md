@@ -17,7 +17,7 @@ Upon installation of SimBridge you will be prompted to enable autostart, You can
 If you choose not to enable autostart, you can open SimBridge via the installer. Just select the `Start` button.
 ![SimBridge running](../assets/manual_start_running.png)
 
-If this is not your preference, or it fails to start, you can also open the tool by opening the `fbw-simbridge.exe` found in the folder, `flybywire-externaltools-simbridge`, in the [community folder](../../../aircraft/install/installation.md#Troubleshooting).
+If this is not your preference, or it fails to start, you can also open the tool by opening the `fbw-simbridge.exe` found in the folder, `flybywire-externaltools-simbridge`, in the [community folder](../../../aircraft/install/installation.md#troubleshooting).
 ![SimBridge executable location](../assets/exec_location.png)
 
 ## Stopping SimBridge

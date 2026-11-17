@@ -80,7 +80,7 @@ It is located in:
 
 ### Troubleshooting
 
-See [find the community folder](../../../aircraft/install/installation.md#Troubleshooting)
+See [find the community folder](../../../aircraft/install/installation.md#troubleshooting)
 
 ## Resources Folder
 The resources folder is used for storing various files required by SimBridge to provide its functionality. 

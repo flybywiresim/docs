@@ -45,7 +45,7 @@ Also, the EFB can import and use your SimBrief flight plan to display the OFP, i
 
 ### Manual Flight Planning
 
-The [Flight Plan Section](03_preparing-fms.md#flight-plan) in the "Preparing the FMS" guide contains a sample routing to
+The [Flight Plan Section](03_preparing-fms.md#en-route-flight-plan) in the "Preparing the FMS" guide contains a sample routing to
 showcase how to input your waypoints, departure SID, and arrival STAR / procedure.
 
 ### Flight Plan Discontinuities
@@ -53,7 +53,7 @@ showcase how to input your waypoints, departure SID, and arrival STAR / procedur
 When inputting your flight plan, discontinuities appearing is an intended feature. The page below
 describes how to handle these when encountered during your preflight preparations.
 
-[Flight Plan Discontinuities](03_preparing-fms.md#discontinuity){.md-button}
+[Flight Plan Discontinuities](03_preparing-fms.md#verify-the-flight-plan){.md-button}
 
 ## Payload Management
 

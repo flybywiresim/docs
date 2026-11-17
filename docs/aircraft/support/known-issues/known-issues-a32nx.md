@@ -329,10 +329,8 @@ any other issue on Discord.
 
     2) 
 
-    - Set the value `Joystick Button 8` for both the values shown below.
-    - Set the ACTION TYPE for SET ENGINE NORM MODE to `ON RELEASE` shown below.
-
-
+    - Set the value `Joystick Button 8` for both values.
+    - Set the ACTION TYPE for SET ENGINE NORM MODE to `ON RELEASE`.
 
 
     ^^Additional Information^^
@@ -553,7 +551,7 @@ Please try these before reporting any other issue on Discord.
 ??? tip "Sync MSFS Flight Plan with the A32NX Flight Plan"
     ### Sync MSFS Flight Plan with the A32NX Flight Plan
 
-    See [Sync to MSFS Flight Plan](#sync-msfs-flight-plan-with-the-a32nx-flight-plan)
+    See [Sync to MSFS Flight Plan](../../common/flight-planning-with-msfs.md#using-the-msfs-world-map-flight-planner-and-msfs-atc)
 
 ## Incompatible and Problematic Add-ons/Mods
 

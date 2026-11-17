@@ -13,4 +13,4 @@ com&utm_medium=sponsored-referral&utm_campaign=partnerships&utm_content=footer-l
 
 ---
 
-{{ external_markdown('https://raw.githubusercontent.com/flybywiresim/aircraft/master/fbw-a32nx/src/localization/README.md', '') }}
+--8<-- "https://raw.githubusercontent.com/flybywiresim/aircraft/master/fbw-a32nx/src/localization/README.md:2:"

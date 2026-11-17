@@ -64,8 +64,8 @@ This section provides information on the A380X weight configuration and insight 
 ??? info "Aircraft CG Envelopes"
     ## Aircraft CG Envelopes
 
-    Our dynamic CG and payload chart provides the relevant visual information during the planning and execution of
-    passenger/cargo loading. Fully understanding how the longitudinal CG envelope affects the aircraft can be difficult.
+    Our dynamic CG and payload chart provides the relevant visual information during the planning and execution of 
+    passenger/cargo loading. Fully understanding how the longitudinal CG envelope affects the aircraft can be difficult. 
     Below is a great deep dive on understanding the chart and what the information provided indicates.
 
     ![Illustrative CG envelope with weight on the vertical axis, forward and aft CG on the horizontal axis, and points inside and outside the boundaries](../../common/assets/flypados3/illustrative-cg-envelope.svg)
@@ -197,8 +197,7 @@ Get our [SimBrief Profile](simbrief.md#simbrief-airframe).
 !!! warning "Cold and Dark Startup"
     When starting the aircraft from a **Cold and Dark** state, please be aware of the following important information:
 
-    - **FUEL&LOAD** must be completed before departure. (This is detailed in our [beginner guide](../../../pilots-corner/a380x/a380x-beginner-guide/03_preparing-fms.md#fuel-payload).
-    Please ensure that you complete this step when preparing the FMS).
+    - **FUEL&LOAD** must be completed before departure. See our [beginner guide](../../../pilots-corner/a380x/a380x-beginner-guide/03_preparing-fms.md#fuel-payload) for details.
     - Failure to complete the `FUEL&LOAD` page before starting an engine will display `INITIALIZE WEIGHT/CG` in amber on the FMS Messages.    
     - When there is a GW mismatch of more than 7 tonnes between the values calculated aerodynamically and the value calculated using the inputted ZFW and fuel flow `CHECK WEIGHT` will be displayed in amber on the FMS Messages.
     

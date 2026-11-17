@@ -1,0 +1,10 @@
+sort:
+    type: alphabetical
+    sections: mixed
+nav:
+    - Home: index.md
+    - aircraft
+    - pilots-corner
+    - dev-corner
+    - tools
+    - release-notes
