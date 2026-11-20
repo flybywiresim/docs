@@ -14,25 +14,23 @@ On the A380, Secondary flight plans are primarily used to plan returns to the de
 ## Engine-out Departure Procedure
 ### Preparation
 
-In real life, one of the most common use cases for the secondary flight plan is programming an alternative departure procedure in case of an engine failure at takeoff. For this guide, we assume that the FMS has been set up for a flight from Istanbul Airport (LTFM) to Vienna Airport (LOWW). In the primary flight plan, we have planned a departure from runway 35R following the TUBD4D SID.
+In real life, one of the most common use cases for the secondary flight plan is programming an alternative departure procedure in case of an engine failure at takeoff. For this guide, we assume that the FMS has been set up for a flight from Dubai International Airport (OMDB) to London Heathrow Airport (EGLL). In the primary flight plan, we have planned a departure from runway 30L following the SENP2F SID.
 
-(image of flight plan)
+![active-flp](../assets/feature-guides/sec-flpn/active-flp.png){loading=lazy}
 
-Due to the steep initial climb gradient requirements and airspace constraints in the vicinity of the airport, we cannot follow our planned SID out of Runway 35R in the event of an engine failure. Instead, we follow an alternative Engine-Out SID (EOSID) procedure.
+Due to the steep initial climb gradient requirements and airspace constraints in the vicinity of the airport, we cannot follow our planned SID out of Runway 30L in the event of an engine failure. Instead, we follow an alternative Engine-Out SID (EOSID) procedure.
 
 To program this in the secondary flight plan, we start by creating a copy of the active flight plan. We start on the SEC INDEX page, and then import our primary flight plan using the IMPORT button. This is one way of This is one way to create a secondary flight plan. Another option is to create one from scratch using the INIT button, or perform a CPNY F-PLN request.
 
-(image of import flight plan)
+![import-sec-flp](../assets/feature-guides/sec-flpn/import-sec-flp.png){loading=lazy}
 
 First, we remove the SID and import our Engine Out SID. We do this by clicking the F-PLN button, and then clicking on our departure runway. We can then select insert next waypoint.
 
-For our Engine Out SID, we will climb on runway track 354° to our engine-out acceleration altitude, continue on the runway track 354° to 25 NM, and enter a holding pattern. For this, we enter `LTFM35R/354/25` as our waypoint, and then add a holding pattern at this waypoint.
+For our Engine Out SID, we will climb on runway track 354° to our engine-out acceleration altitude, continue on the runway track 354° to 25 NM, and enter a holding pattern. For this, we enter `OMDB30L/299/25` as our waypoint, and then add a holding pattern at this waypoint.
 
-(image of sec flp, and the option to insert next waypoint)
+![insert-next-wpt-sec-flp](../assets/feature-guides/sec-flpn/insert-next-wpt-sec-flp.png){loading=lazy}
 
-We can now prepare the arrival back into Istanbul. We can do this by selecting the PDB01 waypoint, and select NEW DEST. There, we type LTFM and enter it as our new destination. Then, we select an ILS approach to runway 35R. At this point, we have a rough flight plan programmed, and we can review the ND to confirm that it makes sense.
-
-(image of ND)
+We can now prepare the arrival back into Istanbul. We can do this by selecting the PDB01 waypoint, and select NEW DEST. There, we type OMDB and enter it as our new destination. Then, we select an ILS approach to runway 30L. At this point, we have a rough flight plan programmed, and we can review the ND to confirm that it makes sense.
 
 ## Activating the Secondary Flight Plan
 
