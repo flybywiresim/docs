@@ -117,7 +117,8 @@ This will show a message `UPLINK INSERT IN PROG`, indicating that the FMS is loa
 
 Click `INSERT` and all information in the `INIT` page will be automatically filled in. Additionally, the flight plan will be loaded from SimBrief directly into the FMS.
 
-After engine start, the `CPNY F-PLN REQUEST` button on the `INIT` page is disabled. For a runway start, request the company flight plan into the secondary flight plan (`SEC F-PLN`); this is intentional. For more information, see [Activating the Secondary Flight Plan](sec-flpn.md#activating-the-secondary-flight-plan).
+!!! Warning "Runway Starts"
+    After engine start, the `CPNY F-PLN REQUEST` button on the `INIT` page is disabled. For a runway start, request the company flight plan into the secondary flight plan (`SEC F-PLN`); this is intentional. For more information, see [Activating the Secondary Flight Plan](sec-flpn.md#activating-the-secondary-flight-plan).
 
 ![FMS INIT RECEIVED CPNY F-PLAN](../assets/feature-guides/simbrief/fms-init-received-cpny-fpln.png){loading=lazy}
 
